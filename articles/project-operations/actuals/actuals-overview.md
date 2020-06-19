@@ -5,7 +5,7 @@ title: Actuals home page
 description: This topic provides inofrmation about working with actuals in Project operations.
 author: rumant
 manager: AnnBe
-ms.date: 046/19/2020
+ms.date: 06/19/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
