@@ -1,0 +1,518 @@
+- name: Dynamics 365 Project operations
+  items:
+  - name: Dynamics 365 Project operations home page
+    href: project-operations-home-page.md
+  - name: Sales process
+    items:
+    - name: Sales home page
+      href: sales/sales-overview.md
+    - name: Key differences
+      href: sales/key-differences.md
+    - name: Setup
+      items:
+      - name: Products
+        href: sales/sales-products.md
+      - name: Units and unit groups
+        href: sales/sales-units-unit-groups.md
+      - name: Currency
+        href: sales/sales-currency.md
+    - name: Managing leads
+      href: sales/managing-leads.md
+    - name: Managing opportunities
+      items:
+      - name: Opportunity header
+        href: sales/opportunity-header.md
+      - name: Product-based lines
+        href: sales/product-based-lines.md
+      - name: Project-based lines
+        href: sales/project-based-lines.md
+      - name: Linking quotes to opportunities
+        href: sales/link-quotes-opportunities.md
+      - name: Closing an opportunity in Project operations
+        href: sales/close-opportunity.md
+    - name: Managing quotes
+      items:
+      - name: Key concepts
+        href: sales/quotes-key-concepts.md
+      - name: Managing quoted values, customer budgets, and not-to-exceed limits
+        href: sales/quote-values-budgets-limits.md
+      - name: Managing multiple customers on a quote
+        href: sales/manage-multiple-customers-quote.md
+      - name: Product-based quote lines
+        item:
+        - name: Costing product-based quote lines
+          href: sales/costing-product-based-quote-lines.md
+        - name: Managing complex units for product-based quote lines
+          href: sales/managing-complex-units-product-based-quote-lines.md
+      - name: Project-based quote lines
+        items: 
+        - name: Managing project price lists
+          href: sales/managing-project-price-lists.md
+        - name: Managing multiple customers on a quote line
+          href: sales/managing-multiple-customers-quote-line.md
+        - name: Mapping projects and tasks to a quote line
+          href: sales/mapping-projects-tasks-quote-line.md
+        - name: Creating estimation on a quote line
+          href: sales/create-estimate-quote-line.md
+        - name: Importing estimation from a project to a quote line
+          href: sales/import-estimate-project-quote-line.md
+        - name: Managing quoted values, customer budgets, and not-to-exceed limits on a quote line
+          href: sales/manage-quoted-values-budget-limits-quote-line.md
+        - name: Invoice schedules on a quote line
+          href: sales/invoice-schedule-quote-line
+      - name: Winning a quote
+        href: sales/win-quote.md
+      - name: Losing a quote
+        href: sales/lose-quote.md
+    - name: Managing contracts
+      items:
+      - name: Key concepts
+        href: sales/contacts-key-concepts.md
+      - name: Managing quoted values, customer budgets, and not-to-exceed limits
+        href: sales/contract-quote-values-budgets-limits.md
+      - name: Managing multiple customers on a quote
+        href: sales/manage-multiple-customers-quote.md
+      - name: Product-based quote lines
+        items: 
+        - name: Costing product-based quote lines
+          href: sales/cost-product-based-quote-lines.md
+        - name: Managing complex units for product-based quote lines
+          href: sales/manage-complex-units-product-based-quote-lines.md
+      - name: Project-based quote lines
+        items: 
+        - name: Managing project price lists
+          href: sales/manage-project-price-lists.md
+        - name: Managing multiple customers on a quote line
+          href: sales/manage-multiple-customers-quote-line.md
+        - name: Mapping projects and tasks to a quote line
+          href: sales/mapping-projects-tasks-quote-line.md
+        - name: Creating estimation on a quote line
+          href: sales/create-estimate-quote-line.md
+        - name: Importing estimation from a project t a quote line
+          href: sales/import-estimate-project-quote-line.md
+        - name: Managing quoted values, customer budgets, and not-too-exceed limits on a quote line
+          href: sales/manage-quoted-values-budgets-limits-quote-line.md
+        - name: Invoice schedules on a quote line
+          href: sales/invoice-schedules-quote-line.md
+      - name: Confirming a contract
+        href: sales/confirm-contract.md
+      - name: Closing a contract as work completed
+        href: sales/close-contract-work-completed.md
+      - name: Closing a contract as canceled
+        href: sales/close-contract-canceled.md
+  - name: Pricing and costing
+    items: 
+    - name: Product price lists
+      href: pricing-costing/product-price-list.md
+    - name: Project price lists
+      items: 
+      - name: Price list for cost
+        items:
+        - name: Setup
+          href: pricing-costing/cost-price-list-setup.md
+        - name: Defaulting
+          href: pricing-costing/cost-price-list-default.md
+        - name: Overrides to default.md
+          href: pricing-costing/cost-override-default.md
+      - name: Price list setup for sales
+        items: 
+        - name: Setup
+          href: pricing-costing/sales-price-list-setup.md
+        - name: Defaulting
+          href: pricing-costing/sales-price-list-default.md
+        - name: Overrides to default.md
+          href: pricing-costing/sales-override-default.md
+    - name: Pricing dimensions
+      items: 
+      - name: Concept
+        href: pricing-costing/pricing-dimensions-overview.md
+      - name: Use an existing field in project operations as a pricing dimension
+        href: pricing-costing/use-existing-field-pricing-dimension.md
+      - name: Custom fields as pricing dimensions
+        items:
+        - name: Create custom fields and entities to be used as pricing dimensions
+          href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+        - name: Adding custom fields to price setup and transactional entities
+          href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+        - name: Set up custom fields as pricing dimensions
+          href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+      - name: Turning off a pricing dimension
+        href: pricing-costing/turning-off-pricing-dimension.md
+  - name: Project management
+    items: 
+    - name: Project management overview
+      href: project-management/project-management-overview.md
+    - name: Project stages
+      href: project-management/project-stages.md
+    - name: Navigating the UI
+      href: project-management/navigate-ui.md
+    - name: Understanding project status
+      href: project-management/understand-project-status.md
+    - name: Define project calendars
+      href: project-management/define-project-calendars.md
+    - name: Create a project
+      items: 
+      - name: Creating initial estimates
+        href: project-management/create-initial-estimates.md
+      - name: Setting the project calendar
+        href: project-management/set-project-calendar.md
+      - name: Setting the project currency
+        href: project-management/set-project-currency.md
+      - name: Setting the customer
+        href: project-management/set-customer.md
+      - name: Adding a group
+        href: project-management/add-group.md
+    - name: Updating a project
+      href: project-management/update-project.md
+    - name: Copying a project
+      href: project-management/copy-project.md
+    - name: Work breakdown structure planning
+      items: 
+      - name: Creating a work breakdown structure
+        items: 
+        - name: Creating tasks
+          href: project-management/wbs-create-tasks.md
+        - name: Cut, copy, and paste tasks
+          href: project-management/cut-copy-paste-tasks.md
+        - name: Undo and redo tasks
+          href: project-management/undo-redo-tasks-wbs.md
+        - name: Work breakdown structure hierarchy
+          href: project-management/work-breakdown-structure-hierarchy.md
+        - name: Bulk task updates
+          href: project-management/bulk-task-updates.md
+        - name: Edit task details
+          href: project-management/edit-task-details.md
+      - name: Creating assignments
+        items:
+        - name: Adding existing resources
+          href: project-management/add-existing-resources.md
+        - name: Adding generic resources
+          href: project-management/add-generic-resources.md
+        - name: Understanding the impact of assignments on task effort, duration, and end date
+          href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
+        - name: Viewing assignment contours
+          href: project-management/view-assignment-contours.md
+      - name: Navigating the task management experience
+        items: 
+        - name: Column management
+          href: project-management/column-management.md
+        - name: Views
+          href: project-management/task-management-views.md
+        - name: Buckets
+          href: project-management/task management-buckets.md
+    - name: Estimating projects
+      items: 
+      - name: Overview
+        href: project-management/estimating-projects-overview.md
+      - name: Resource estimates
+        items:
+        - name: Refresh project estimates to reflect changes to the project plan
+          href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
+        - name: Refresh prices and cost rates on project estimates
+          href: project-management/refresh-prices-cost-rates-project-estimates.md
+        - name: Defaulting of cost price and cost currency
+          href: project-management/default-cost-price-cost-currency.md
+        - name: Defaulting of bill rate and sales currency
+          href: project-management/default-bill-rate-sales-currency.md
+      - name: Create expense estimates
+        items: 
+        - name: Defaulting of cost price and cost currency
+          href: project-management/default-cost-price-cost-currency.md
+        - name: Defaulting of bill rate and sales currency
+          href: project-management/default-bill-rate-sales-currency.md
+    - name: Building quotes and contracts
+      items: 
+      - name: Import work breakdown structure to quotes
+        href: project-management/import-wbs-structure-quotes.md
+      - name: Import work breakdown structure to contracts
+        href: project-management/import-wbs-structure-contracts.md
+    - name: Project tracking
+      items:
+      - name: Overview
+        href: project-management/project-tracking-overview.md
+      - name: Column definitions
+        items:
+        - name: Effort
+          href: project-management/effort.md
+        - name: Cost
+          href: project-management/cost.md
+        - name: Sales
+          href: project-management/sales.md
+      - name: Updating estimate at completion
+        href: project-management/update-completed-estimate.md
+    - name: Project team members
+      items: 
+      - name: Overview
+        href: project-management/project-team-members-overview.md
+      - name: Maintaining team members
+        items:
+        - name: Add team members
+          href: project-management/add-team-members.md
+        - name: Update project team members
+          href: project-management/update-project-team-members.md
+        - name: Delete team members
+          href: project-management/delete-team-members.md
+        - name: Maintain bookings
+          href: project-management/maintain-bookings.md
+        - name: Project approvers
+          href: project-management/project-approvers.md
+    - name: Sales
+      items:
+      - name: Sales tab overview
+        href: project-management/sales-tab-overview.md
+    - name: Collaboration
+      items: 
+      - name: Groups
+        href: project-management/groups.md
+    - name: Project planning FAQ
+      href: project-management/project-planning-faq.md
+  - name: Resource management
+    items:
+    - name: Resource management overview
+      href: resource-management/resource-management-overview.md
+    - name: Key concepts
+      href: resource-management/resource-management-key-concepts.md
+    - name: Bookings vs Assignments
+      href: resource-management/booking-vs-assignment.md
+    - name: Resource management modes
+      items: 
+      - name: Resource management mode overview
+        href: resource-management/resource-management-mode-overview.md
+      - name: Hybrid
+        href: resource-management/resource-management-mode-hybrid.md
+      - name: Central
+        href: resource-management/resource-management-mode-central.md
+    - name: Centralized booking
+      items:
+      - name: Centralized booking overview
+        href: resource-management/centralized-booking-overview.md
+      - name: Adding generic team members to tasks
+        href: resource-management/add-generic-team-members-tasks.md
+      - name: Defining resource requirements
+        href: resource-management/define-resource-requirements.md
+      - name: Defining requirement contours
+        href: resource-management/define-resource-requirement-contours.md
+      - name: Updating resource requirements
+        href: resource-management/update-resource-requirements.md
+      - name: Submitting resource requirements
+        href: resource-management/submit-resource-requirements.md
+      - name: Resource requests
+        items: 
+        - name: Overview
+          href: resource-management/resource-requests-overview.md
+        - name: Review fields and actions
+          href: resource-management/review-fields-actions.md
+        - name: Find resources
+          href: resource-management/find-resources
+        - name: Reviewing proposed resources
+          href: resource-management/review-proposed-resources.md
+    - name: Centralized booking
+      items: 
+      - name: Overview
+        href: resource-management/centralized-booking-overview.md
+      - name: Options to book directly
+        items:
+        - name: Add team members from the team member grid
+          href: resource-management/add-team-members-grid.md
+        - name: Generic resource requirement fulfillment
+          href: resource-management/generic-resource-requirement-fulfillment.md
+    - name: Administration of resources
+      items: 
+      - name: Create resources
+        href: resource-management/create-resources.md
+      - name: Define skills and proficiencies
+        href: resource-management/define-skills-proficiencies.md
+      - name: Define roles
+        href: resource-management/define-roles.md
+      - name: Defining resource calendars
+        href: resource-management/define-resource-calendars.md
+      - name: Associating resources with organizational units
+        href: resource-management/associate-resources-organizational-units.md
+      - name: Associating resources with companies
+        href: resource-management/associate-resources-companies.md
+    - name: Booking allocation methods
+      href: resource-management/booking-allocation-methods.md
+    - name: Booking types
+      href: resource-management/booking-types.md
+    - name: Skills and proficiency models
+      href: resource-management/skills-proficiency-models.md
+    - name: Resource reconciliation
+      items: 
+      - name: Overview
+        href: resource-management/resource-reconciliation-overview.md
+      - name: Key concepts
+        href: resource-management/resource-reconciliation-key-concepts.md
+      - name: Navigation
+        href: resource-management/resource-reconciliation-navigation.md
+      - name: Extend bookings
+        href: resource-management/extend-bookings.md
+      - name: Managing with multiple time zones
+        href: resource-management/manage-multiple-time-zones.md
+    - name: Resource utilization
+      items:
+      - name: Overview
+        href: resource-management/resource-utilization-overview.md
+      - name: Search, settings, and navigation
+        href: resource-management/search-settings-navigation.md
+    - name: Schedule board
+      items:
+      - name: Navigation and key settings
+        href: resource-management/navigation-key-settings-urs.md
+      - name: Personalization
+        href: resource-management/personalization-urs.md
+      - name: Search
+        href: resource-management/search-urs.md
+      - name: Booking actions
+        href: resource-management/booking-actions-urs.md
+      - name: Booking
+        items:
+        - name: Book to a project
+          href: resource-management/book-project.md
+        - name: Book open requirements
+          href: resource-management/book-open-requirements.md
+        - name: Substitute resources
+          href: resource-management/substitute-resources.md
+        - name: Edit existing bookings
+          href: resource-management/edit-existing-bookings.md
+    - name: Resource management FAQ
+      href: resource-management/resource-management-faq.md
+  - name: Time
+    items: 
+    - name: Time entry overview
+      href: time/time-entry-overview.md
+    - name: Create time entries
+      items:
+      - name: Importing bookings, assignments, and calendar entries
+        href: time/import-bookings-assignments-calendar-entries.md
+      - name: UI behavior
+        href: time/ui-behavior.md
+    - name: Submitting time entries
+      href: time/submit-time-entries.md
+    - name: Recalling time entries
+      items:
+      - name: Before approval
+        href: time/recall-time-entries-before-approval.md
+      - name: After approval
+        href: time/recall-time-entries-after-approval.md
+    - name: Approving time entries
+      href: time/approvals.md
+    - name: Developer notes
+      items: 
+      - name: Extending time entries
+        href: time/extending-time-entries.md
+      - name: Customizing the weekly time entry grid
+        href: time/customize-weekly-time-entry-grid.md
+      - name: Security considerations
+        href: time/security-considerations.md
+  - name: Expense
+    items: 
+    - name: Overview
+      href: expense/expense-overview.md
+    - name: Expense-lite entry
+      href: expense/expense-lite-entry.md
+    - name: Submitting and recall of expense entries
+      href: expense/submit-recall-expense-entries.md
+    - name: Approving lite expense entries
+      href: expense/approvals.md
+    - name: Expense management experience for projects
+      items:
+      - name: Configuration and setup
+        items:
+        - name: Set up policies
+          href: expense/set-up-policies.md
+        - name: Set up workflows
+          href: expense/set-up-workflows.md
+        - name: Manage delegation
+          href: expense/manage-delegation.md
+        - name: Configure Expense management parameters
+          href: expense/configure-expense-management-parameters.md
+        - name: Set up credit card integration
+          href: expense/set-up-credit-card-integration.md
+        - name: Set up expense categories
+          href: expense/set-up-expense-categories.md
+      - name: Creating expense reports
+        items:
+        - name: Distributions on an expense report
+          href: expense/distributions-expense-report.md
+      - name: Approving expense reports
+        items: 
+        - name: Expense reports and multiple approvers
+          href: expense/expense-reports-multiple-approvers.md
+      - name: Posting expense reports
+        href: expense/posting-expense-reports.md
+      - name: Travel requisition
+        href: expense/travel-requisition.md
+      - name: Cash advance
+        href: expense/cash-advance.md
+      - name: Per diems
+        href: expense/per-diems.md
+      - name: Financial management
+        items: 
+        - name: VAT recovery
+          href: expense/vat-recovery.md
+      - name: New expense experience
+        items: 
+        - name: Expense reports reimagined
+          href: expense/expense-reports-reimagined.md
+        - name: Match receipt to expense using OCR
+          href: expense/match-receipt-expense-ocr.md
+    - name: Expensing using mobile
+      href: expense/expense-using-mobile.md
+  - name: Approvals
+    items: 
+    - name: Overview
+      href: approvals/approvals-overview.md
+    - name: Approving time entries
+      href: approvals/approving-time-entries.md
+    - name: Approving expense entries
+      items:
+      - name: Lite expense
+        href: approvals/approve-lite-expense.md
+      - name: Full expense
+        href: approvals/approve-full-expense.md
+    - name: Cancelling approved time entries
+      href: approvals/cancelling-approved-time-entries.md
+    - name: Cancelling approved expense entries
+      items:
+      - name: Lite expense
+        href: approvals/cancel-lite-expense.md
+      - name: Full expense
+        href: approvals/cancel-full-expense.md
+  - name: Actuals
+    items: 
+    - name: Overview
+      href: actuals/actuals-overview.md
+    - name: Creation of actuals for an internal project
+      href: actuals/create-actuals-internal-project.md
+    - name: Creation of actuals for a billable project component
+      items:
+      - name: Time and material
+        href: actuals/time-material.md
+      - name: Fixed-price
+        href: actuals/fixed-price.md
+    - name: Managing not-to-exceed status and validations
+      href: actuals/manage-not-exceed-status-validations.md
+    - name: Project journals
+      items:
+      - name: Creating project journals to record fees on projects
+        href: actuals/create-project-journals-record-fees-projects.md
+      - name: Creating project journals for Time and Expense
+        href: actuals/create-project-journals-time-expense.md
+      - name: Creating and confirming Correction journals
+        href: actuals/create-confirm-correction-journals-md
+    - name: Managing billing backlog
+      href: actuals/manage-billing-backlog.md
+  - name: Proforma invoicing
+    items: 
+    - name: Creating invoice schedules
+      href: proforma-invoicing/create-invoice-schedules.md
+    - name: Creation of a manual Proforma invoice
+      href: proforma-invoicing/create-manual-proforma-invoice.md
+    - name: Managing a Proforma invoice
+      href: proforma-invoicing/manage-proforma-invoice.md
+    - name: Confirming a Proforma invoice
+      href: proforma-invoicing/confirm-proforma-invoice.md
+    - name: Corrective invoices
+      href: proforma-invoicing/corrective-invoices.md
+    - name: Configuring an automated invoice creation
+      href: proforma-invoicing/configure-automated-invoice-creation.md
