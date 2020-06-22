@@ -3,7 +3,7 @@
 
 title: Resource management home page
 description: This topic provides information about Resource management functionality in Dynamics 365 Project operations. 
-author: ruercul
+author: ruhercul
 manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
