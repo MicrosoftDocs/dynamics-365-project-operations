@@ -1,0 +1,154 @@
+- name: Dynamics 365 Project operations (mode 2)
+  items:
+  - name: Dynamics 365 Project operations (mode 2) home page
+    href: project-operations-mode-2-home-page.md
+  - name: Applicable scenarios
+    href: applicable-scenarios.md
+  - name: What's new
+    href: whats-new-mode-2-project-operations.md
+  - name: Set up your environment
+    href: set-up-environment-mode-2.md
+  - name: Sample data
+    href: sample-data-mode-2.md
+  - name: Sales process
+    href: sales-process-mode-2.md
+  - name: Project management
+    items: 
+    - name: Project management overview
+      href: project-management-overview-mode-2.md
+    - name: Project stages
+      href: project-stages-mode-2.md
+    - name: Define project calendars
+      href: define-project-calendars-mode-2.md
+    - name: Create a project
+      items: 
+      - name: Create initial estimates
+        href: create-initial-estimates-mode-2.md
+      - name: Define a calendar
+        href: define-calendar-mode-2.md
+      - name: Define a customer
+        href: define-customer-mode-2.md
+      - name: Add a group
+        href: add-group-mode-2.md
+    - name: Work breakdown straucture planning
+      items: 
+      - name: Create tasks
+        href: create-tasks-mode-2.md
+      - name: Create assignments
+        href: create-assignments-mode-2.md
+      - name: Edit task details
+        href: edit-task-details-mode-2.md
+      - name: Edit assignments
+        href: edit-assignments-mode-2.md
+      - name: Navigate the task management experience
+        href: navigate-task-management-experience-mode-2.md
+    - name: Estimating projects
+      items: 
+      - name: Estimate projects
+        href: estimate-projects-mode-2.md
+      - name: Resource estimates
+        href: resource-estimates-mode-2.md
+      - name: Create expense estimates
+        href: create-expense-estimates-mode-2.md
+    - name: Building quotes and contracts
+      items: 
+      - name: Import work breakdown strurcture to quotes
+        href: import-wbs-quotes-mode-2.md
+      - name: Import work breakdown structure to contracts
+        href: import-wbs-contracts-mode-2.md
+    - name: Tracking cost vs effort
+      items: 
+      - name: Tracking overview
+        href: cost-vs-effort-overview-mode-2.md
+      - name: Column definitions
+        href: column-definitions-mode-2.md
+      - name: Update estimate at completion
+        href: update-estimate-completion-mode-2.md
+    - name: Project team members
+      items: 
+      - name: Add team members
+        href: add-team-members-mode-2.md
+      - name: Update project team members
+        href: update-project-team-members-mode-2.md
+      - name: Delete a team member
+        href: delete-team-member-mode-2.md
+      - name: Maintain bookings
+        href: maintain-bookings-mode-2.md
+  - name: Resource management
+    items: 
+    - name: Resource managemet overview
+      href: resource-management-overview-mode-2.md
+    - name: Administration of resources
+      items: 
+      - name: Create resources
+        href: create-resources-mode-2.md
+      - name: Define skills and proficiencies
+        hreF: define-skills-proficiencies-mode-2.md
+      - name: Define roles
+        href: define-roles-mode-2.md
+      - name: Define resource calendars
+        href: define-resource-calendars-mode-2.md
+    - name: Define booking modes
+      href: define-booking-modes-mode-2.md
+    - name: Resource requirements
+      items: 
+      - name: Define resource requirements
+        href: define-resource-requirements-mode-2.md
+      - name: Define requirement contours
+        href: define-requirement-contours-mode-2.md
+    - name: Book resources
+      href: book-resources-mode-2.md
+    - name: Review requests
+      href: review-requests-mode-2.md
+    - name: Resource reconciliation
+      items: 
+      - name: Resource reconciliation overview
+        href: resouce-reconciliation-overview-mode-2.md
+      - name: Resource navigation
+        href: resource-navigation-mode-2.md
+      - name: Extend bookings
+        href: extend-bookings-mode-2.md
+    - name: Resouce utilization
+      items:
+      - name: Resource utilization overview
+        href: resource-utilization-overview-mode-2.md
+      - name: Search and navigation for resource utilization 
+        href: search-navigation-resource-utilization-mode-2.md
+    - name: Schedule board
+      items: 
+      - name: Navigation and key settings of the schedule board
+        href: navigation-key-settings-schedule-board-mode-2.md
+      - name: Search the schedule board
+        href: search-schedule-board-mode-2.md
+      - name: Booking actions
+        href: booking-actions-mode-2.md
+  - name: Time
+    items: 
+    - name: Time overview
+      href: time-overview-mode-2.md
+    - name: Create time entries
+      hreF: create-time-entries-mode-2.md
+    - name: Time entry developer notes
+      items: 
+      - name: Extending the Time entries entity
+        href: extend-time-entries-entity-mode-2.md
+      - name: Custmize the weekly Time entry grid
+        href: customize-weekly-time-entry-grid-mode-2.md
+      - name: Security considerations
+        href: security-considerations-time-entry-mode-2.md
+  - name: Expense
+    items: 
+    - name: Expense overview
+      href: expense-overview-mode-2.md
+  - name: Approvals
+    items: 
+    - name: Approvals overview
+      href: approvals-overview-mode-2.md
+    - name: Time entry approvals
+      href: time-entry-approvals-mode-2.md
+  - name: Invoicing
+    items: 
+    - name: Invoicing overview
+      href: invoicing-overview-mode-2.md
+  - name: Troubleshooting and FAQs
+        
