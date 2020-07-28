@@ -30,7 +30,7 @@
         href: define-customer-mode-2.md
       - name: Add a group
         href: add-group-mode-2.md
-    - name: Work breakdown straucture planning
+    - name: Work breakdown structure planning
       items: 
       - name: Create tasks
         href: create-tasks-mode-2.md
@@ -52,7 +52,7 @@
         href: create-expense-estimates-mode-2.md
     - name: Building quotes and contracts
       items: 
-      - name: Import work breakdown strurcture to quotes
+      - name: Import work breakdown structure to quotes
         href: import-wbs-quotes-mode-2.md
       - name: Import work breakdown structure to contracts
         href: import-wbs-contracts-mode-2.md
@@ -76,7 +76,7 @@
         href: maintain-bookings-mode-2.md
   - name: Resource management
     items: 
-    - name: Resource managemet overview
+    - name: Resource management overview
       href: resource-management-overview-mode-2.md
     - name: Administration of resources
       items: 
@@ -108,7 +108,7 @@
         href: resource-navigation-mode-2.md
       - name: Extend bookings
         href: extend-bookings-mode-2.md
-    - name: Resouce utilization
+    - name: Resource utilization
       items:
       - name: Resource utilization overview
         href: resource-utilization-overview-mode-2.md
@@ -132,7 +132,7 @@
       items: 
       - name: Extending the Time entries entity
         href: extend-time-entries-entity-mode-2.md
-      - name: Custmize the weekly Time entry grid
+      - name: Customize the weekly Time entry grid
         href: customize-weekly-time-entry-grid-mode-2.md
       - name: Security considerations
         href: security-considerations-time-entry-mode-2.md
