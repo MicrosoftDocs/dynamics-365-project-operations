@@ -12,100 +12,100 @@
     href: sample-data-mode-2.md
   - name: Sales process
     items:
-    - name: Sales process overview
-      href: sales-process-mode-2.md
+    - name: Sales process home page
+      href: ../project-operations/sales/sales-overview.md
     - name: Key differences
-      href: differences-sales-project-operations-mode-2.md
+      href: ../project-operations/sales/key-differences.md
     - name: Setup
       items: 
       - name: Products
-        href: products-mode-2.md
+        href: ../project-operations/sales/sales-products.md
       - name: Units and unit groups
-        href: units-unit-groups-mode-2.md
+        href: ../project-operations/sales/sales-units-unit-groups.md
       - name: Currency
-        href: currency-mode-2.md
+        href: ../project-operations/sales/sales-currency.md
     - name: Managing leads
-      href: manage-leads-mode-2.md
+      href: ../project-operations/sales/managing-leads.md
     - name: Managing opportunities
       items: 
       - name: Opportunity header
-        href: opportunity-header-mode-2.md
+        href: ../project-operations/sales/opportunity-header.md
       - name: Product-based lines
-        href: product-based-lines-mode-2.md
+        href: ../project-operations/sales/product-based-lines.md
       - name: Project-based lines
-        href: project-based-lines-mode-2.md
+        href: ../project-operations/sales/project-based-lines.md
       - name: Link quotes and opportunities
-        href: link-quotes-opportunities-mode-2.md
-      - name: Close an opportunity in Project operations
-        href: close-opportunity-mode-2.md
+        href: ../project-operations/sales/link-quotes-opportunities.md
+      - name: Close an opportunity 
+        href: ../project-operations/sales/close-opportunity.md
     - name: Manage quotes
       items:
       - name: Key concepts
-        href: quotes-key-concepts-mode-2.md
+        href: ../project-operations/sales/quotes-key-concepts.md
       - name: Manage quoted values, customer budgets, and not-to-exceed limits
-        href: quotes-manage-quoted-values-mode-2.md
+        href: ../project-operations/sales/quote-values-budget-limits.md
       - name: Manage multiple customers on a quote
-        href: manage-multiple-customers-quote.md
+        href: ../project-operations/sales/manage-multiple-customers-quote.md
       - name: Product-based quote lines
         items: 
         - name: Costing product-based quote lines
-          href: costing-product-based-quote-lines-mode-2.md
+          href: ../project-operations/sales/costing-product-based-quote-lines.md
         - name: Manage complex units for product-based quote lines
-          href: complex-units-product-based-quote-lines-mode-2.md
+          href: ../project-operations/sales/managing-complex-units-product-based-quote-lines.md
       - name: Project-based quote lines
         items: 
         - name: Manage project price lists
-          href: manage-project-price-lists-mode-2.md
+          href: ../project-operations/sales/manage-project-price-lists.md
         - name: Manage multiple customers on a quote line
-          href: manage-multiple-customers-quote-line-mode-2.md
-        - name: Mapping projects and tasks to a quote line
-          href: mapping-projects-tasks-quote-line-mode-2.md
-        - name: Create estimation on a quote line
-          href: create-estimation-quote-line-mode-2.md
-        - name: Import estimation from a project to a quote line
-          href: import-estimation-project-quote-line-mode-2.md
+          href: ../project-operations/sales/manage-multiple-customers-quote-line.md
+        - name: Map projects and tasks to a quote line
+          href: ../project-operations/sales/mapping-projects-tasks-quote-line.md
+        - name: Create estimates on a quote line
+          href: ../project-operations/sales/create-estimate-quote-line.md
+        - name: Import estimates from a project to a quote line
+          href: ../project-operations/sales/import-estimate-project-quote-line.md
         - name: Manage quoted values, customer budgets, and not-to-exceed limits
-          href: projects-manage-quoted-values-mode-2.md
+          href: ../project-operations/sales/manage-quoted-values-budget-limites-quote-line.md
         - name: Invoice schedules on a quote line
-          href: invoice-schedules-quote-line-mode-2.md
+          href: ../project-operations/sales/invoice-schedule-quote-line.md
       - name: Win a quote
-        href: win-quote-mode-2.md
+        href: ../project-operations/sales/win-quote.md
       - name: Lose a quote
-        href: lose-quote-mode-2.md
+        href: ../project-operations/sales/lose-quote.md
     - name: Manage contracts
       items: 
-      - name: Key concepts for managing contracts
-        href: manage-contracts-key-concepts-mode-2.md 
+      - name: Key concepts
+        href: ../project-operations/sales/contracts-key-concepts.md 
       - name: Manage contract values, customer budgets, and not-to-exceed limits 
-        href: contracts-manage-quoted-values-mode-2.md
+        href: ../project-operations/sales/contract-quote-values-budgets-limits.md
       - name: Manage multiple customers on a contract
-        href: manage-multiple-customers-contract-mode-2.md
+        href: ../project-operations/sales/manage-multiple-customers-contract.md
       - name: Product-based contract lines
         items:
         - name: Costing product-based contract lines
-          href: costing-product-based-contract-lines-mode-2.md
+          href: ../project-operations/sales/cost-product-based-contract-lines.md
         - name: Manage complex units for product-based contract lines
-          href: manage-complex-units-product-based-contract-lines-mode-2.md
+          href: ../project-operations/sales/manage-complex-units-product-based-contract-lines.md
       - name: Project-based contract lines
         items: 
         - name: Manage project price lists
-          href: manage-project-price-lists-mode-2.md
+          href: ../project-operations/sales/manage-project-price-lists.md
         - name: Manage multiple customers on a contract line
-          href: manage-multiple-customers-contract-line-mode-2.md
-        - name: Mapping projects and tasks to a contract line
-          href: mapping-projects-tasks-contract-line-mode-2.md
-        - name: Creating estimation from a project to a contract line
-          href: create-estimate-project-contract-line-mode-2.md
-        - name: Importing estimation from a project to a contract line
-          href: import-estimation-project-contract-line-mode-2.md
+          href: ../project-operations/sales/manage-multiple-customers-contract-line.md
+        - name: Map projects and tasks to a contract line
+          href: ../project-operations/sales/mapping-projects-tasks-contract-line.md
+        - name: Create estimates from a project to a contract line
+          href: ../project-operations/sales/create-estimate-project-contract-line.md
+        - name: Import estimates from a project to a contract line
+          href: ../project-operations/sales/import-estimate-project-contract-line.md
         - name: Manage contract values, customer budgets, and not-to-exceed limits on a contract line
-          href: manage-contract-values-project-based-mode-2.md
+          href: ../project-operations/sales/manage-contract-values-project-based.md
       - name: Confirm a contract
-        href: confirm-contract-mode-2.md
+        href: ../project-operations/sales/confirm-contract.md
       - name: Close a contract as Work completed
-        href: close-contract-work-completed-mode-2.md
+        href: ../project-operations/sales/close-contract-work-completed.md
       - name: Close a contract as canceled
-        href: close-contract-canceled-mode-2.md
+        href: ../project-operations/sales/close-contract-canceled.md
   - name: Pricing and costing
     items: 
     - name: Product price lists
