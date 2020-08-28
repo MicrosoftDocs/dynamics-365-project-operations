@@ -109,41 +109,41 @@
   - name: Pricing and costing
     items: 
     - name: Product price lists
-      href: product-price-lists-mode-2.md
+      href: ../project-operations/pricing-costing/product-price-lists.md
     - name: Project price lists
       items:
       - name: Price list for cost
-        items:
-        - name: Price list setup for cost
-          href: price-list-setup-cost-mode-2.md
-        - name: Price list defaults for cost
-          href: price-list-default-cost-mode-2.md
-        - name: Price list overrides to defaults for cost
-          href: price-list-overrides-defaults-cost-mode-2.md
+        item/s:
+        - name: Set up cost price lists
+          href: ../project-operations/pricing-costing/cost-price-list-setup.md
+        - name: Price list defaults
+          href: ../project-operations/pricing-costing/cost-price-list-default.md
+        - name: Override defaults
+          href: ../project-operations/pricing-costing/cost-override-default.md
       - name: Price list setup for sales
         items: 
-        - name: Price list setup for sales
-          href: price-list-setup-sales-mode-2.md
-        - name: Price list defaults for sales
-          href: price-list-defaults-sales-mode-2.md
-        - name: Price list overrides to defaults for sales
-          href: price-list-overrides-defaults-sales-mode-2.md
+        - name: Set up sales price list
+          href: ../project-operations/pricing-costing/sales-price-list-setup.md
+        - name: Sales price list defaults 
+          href: ../project-operations/pricing-costing/sales-price-list-default.md
+        - name: Override defaults 
+          href: ../project-operations/pricing-costing/sales-override-default.md
     - name: Pricing dimensions
       items:
       - name: Pricing dimensions home page
-        href: pricing-dimension-overview-mode-2.md
+        href: ../project-operations/pricing-costing/pricing-dimension-overview.md
       - name: Use an existing field in Project operations as a pricing dimension
-        href: existing-field-pricing-dimension-mode-2.md
+        href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
       - name: Custom fields as pricing dimension
         items:
         - name: Create custom fields and entities as pricing dimensions
-          href: create-custom-fields-entities-pricing-dimensions-mode-2.md
+          href: ../project-operations/pricing-costing/create-custom-fields-entities-pricing-dimensions.md
         - name: Add custom fields to price setup and trasactional entities
-          href: add-custom-fields-set-entities-mode-2.md
+          href: ../project-operations/pricing-costing/add-custom-fields-price-setup-transactional-entities.md
         - name: Set up custom fields as pricing dimensions
-          href: set-up-custom-fields-pricing-dimensions-mode-2.md
-      - name: Turn off a pricing dimension in Project operations
-        href: turn-off-pricing-dimension-mode-2.md
+          href: ../project-operations/pricing-costing/set-up-custom-fields-pricing-dimensions.md
+      - name: Turn off a pricing dimension 
+        href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
   - name: Project management
     items: 
     - name: Project management overview
