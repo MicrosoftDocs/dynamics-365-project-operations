@@ -108,36 +108,36 @@
       items: 
       - name: Price list for cost
         items:
-        - name: Setup
+        - name: Set up cost price lists
           href: pricing-costing/cost-price-list-setup.md
-        - name: Defaulting
+        - name: Price list defaults
           href: pricing-costing/cost-price-list-default.md
-        - name: Overrides to default.md
+        - name: Override defaults
           href: pricing-costing/cost-override-default.md
       - name: Price list setup for sales
         items: 
-        - name: Setup
+        - name: Setup sales price list
           href: pricing-costing/sales-price-list-setup.md
-        - name: Defaulting
+        - name: Sales price list defaults
           href: pricing-costing/sales-price-list-default.md
-        - name: Overrides to default.md
+        - name: Override defaults
           href: pricing-costing/sales-override-default.md
     - name: Pricing dimensions
       items: 
-      - name: Concept
+      - name: Pricing dimensions home page
         href: pricing-costing/pricing-dimensions-overview.md
       - name: Use an existing field in project operations as a pricing dimension
         href: pricing-costing/use-existing-field-pricing-dimension.md
       - name: Custom fields as pricing dimensions
         items:
-        - name: Create custom fields and entities to be used as pricing dimensions
+        - name: Create custom fields and entities as pricing dimensions
           href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-        - name: Adding custom fields to price setup and transactional entities
+        - name: Add custom fields to price setup and transactional entities
           href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
         - name: Set up custom fields as pricing dimensions
           href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-      - name: Turning off a pricing dimension
-        href: pricing-costing/turning-off-pricing-dimension.md
+      - name: Turn off a pricing dimension
+        href: pricing-costing/turn-off-pricing-dimension.md
   - name: Project management
     items: 
     - name: Project management overview
