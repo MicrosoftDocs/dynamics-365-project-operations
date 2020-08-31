@@ -284,17 +284,17 @@
         href: resource-management/resource-management-mode-central.md
     - name: Centralized booking
       items:
-      - name: Centralized booking overview
+      - name: Centralized booking home page
         href: resource-management/centralized-booking-overview.md
-      - name: Adding generic team members to tasks
+      - name: Add generic team members to tasks
         href: resource-management/add-generic-team-members-tasks.md
-      - name: Defining resource requirements
+      - name: Define resource requirements
         href: resource-management/define-resource-requirements.md
-      - name: Defining requirement contours
+      - name: Define requirement contours
         href: resource-management/define-resource-requirement-contours.md
-      - name: Updating resource requirements
+      - name: Update resource requirements
         href: resource-management/update-resource-requirements.md
-      - name: Submitting resource requirements
+      - name: Submit resource requirements
         href: resource-management/submit-resource-requirements.md
       - name: Resource requests
         items: 
@@ -303,19 +303,17 @@
         - name: Review fields and actions
           href: resource-management/review-fields-actions.md
         - name: Find resources
-          href: resource-management/find-resources
+          href: resource-management/find-resources.md
         - name: Reviewing proposed resources
           href: resource-management/review-proposed-resources.md
-    - name: Centralized booking
+    - name: Decentralized resource booking
       items: 
-      - name: Overview
+      - name: Decentalized resource booking home page
         href: resource-management/centralized-booking-overview.md
       - name: Options to book directly
-        items:
-        - name: Add team members from the team member grid
-          href: resource-management/add-team-members-grid.md
-        - name: Generic resource requirement fulfillment
-          href: resource-management/generic-resource-requirement-fulfillment.md
+        href: resource-management/options-book-directly.md
+      - name: Fulfill generic resource requirements
+        href: resource-management/generic-resource-requirement-fulfillment.md
     - name: Administration of resources
       items: 
       - name: Create resources
@@ -324,16 +322,16 @@
         href: resource-management/define-skills-proficiencies.md
       - name: Define roles
         href: resource-management/define-roles.md
-      - name: Defining resource calendars
+      - name: Define resource calendars
         href: resource-management/define-resource-calendars.md
-      - name: Associating resources with organizational units
+      - name: Associate resources with organizational units
         href: resource-management/associate-resources-organizational-units.md
-      - name: Associating resources with companies
+      - name: Associate resources with companies
         href: resource-management/associate-resources-companies.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md
-    - name: Booking types
-      href: resource-management/booking-types.md
+    - name: Booking status
+      href: resource-management/booking-status.md
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
@@ -378,35 +376,35 @@
       href: resource-management/resource-management-faq.md
   - name: Time
     items: 
-    - name: Time entry overview
+    - name: Time entry home page
       href: time/time-entry-overview.md
     - name: Create time entries
       items:
-      - name: Importing bookings, assignments, and calendar entries
+      - name: Import bookings, assignments, and calendar entries
         href: time/import-bookings-assignments-calendar-entries.md
       - name: UI behavior
         href: time/ui-behavior.md
-    - name: Submitting time entries
+    - name: Submit time entries
       href: time/submit-time-entries.md
-    - name: Recalling time entries
+    - name: Recall time entries
       items:
       - name: Before approval
         href: time/recall-time-entries-before-approval.md
       - name: After approval
         href: time/recall-time-entries-after-approval.md
-    - name: Approving time entries
+    - name: Approve time entries
       href: time/approvals.md
     - name: Developer notes
       items: 
-      - name: Extending time entries
+      - name: Extend time entries
         href: time/extending-time-entries.md
-      - name: Customizing the weekly time entry grid
+      - name: Customize the weekly time entry grid
         href: time/customize-weekly-time-entry-grid.md
       - name: Security considerations
         href: time/security-considerations.md
   - name: Expense
     items: 
-    - name: Overview
+    - name: Expense home page
       href: expense/expense-overview.md
     - name: Expense-lite entry
       href: expense/expense-lite-entry.md
@@ -462,9 +460,9 @@
     items: 
     - name: Overview
       href: approvals/approvals-overview.md
-    - name: Approving time entries
+    - name: Approve time entries
       href: approvals/approving-time-entries.md
-    - name: Approving expense entries
+    - name: Approve expense entries
       items:
       - name: Lite expense
         href: approvals/approve-lite-expense.md
@@ -504,15 +502,15 @@
       href: actuals/manage-billing-backlog.md
   - name: Proforma invoicing
     items: 
-    - name: Creating invoice schedules
+    - name: Create invoice schedules
       href: proforma-invoicing/create-invoice-schedules.md
-    - name: Creation of a manual Proforma invoice
+    - name: Create a manual Proforma invoice
       href: proforma-invoicing/create-manual-proforma-invoice.md
-    - name: Managing a Proforma invoice
+    - name: Manage a Proforma invoice
       href: proforma-invoicing/manage-proforma-invoice.md
-    - name: Confirming a Proforma invoice
+    - name: Confirm a Proforma invoice
       href: proforma-invoicing/confirm-proforma-invoice.md
     - name: Corrective invoices
       href: proforma-invoicing/corrective-invoices.md
-    - name: Configuring an automated invoice creation
+    - name: Configurr an automated invoice creation
       href: proforma-invoicing/configure-automated-invoice-creation.md
