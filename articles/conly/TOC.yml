@@ -258,77 +258,166 @@
     items: 
     - name: Resource management homepage
       href: ../project-operations/resource-management/resource-management-overview.md
+    - name: Key concepts
+      href: ../project-operations/resource-management/resource-management-key-concepts.md
+    - name: Bookings vs Assignments
+      href: ../project-operations/resource-management/booking-vs-assignment.md
+    - name: Resource management modes
+      items: 
+      - name: Resource management mode overview
+        href: ../project-operations/resource-management/resource-management-mode-overview.md
+      - name: Hybrid
+        href: ../project-operations/resource-management/resource-management-mode-hybrid.md
+      - name: Central
+        href: ../project-operations/resource-management/resource-management-mode-central.md
+    - name: Centralized booking
+      items:
+      - name: Centralized booking home page
+        href: ../project-operations/resource-management/centralized-booking-overview.md
+      - name: Add generic team members to tasks
+        href: ../project-operations/resource-management/add-generic-team-members-tasks.md
+      - name: Define resource requirements
+        href: ../project-operations/resource-management/define-resource-requirements.md
+      - name: Define requirement contours
+        href: ../project-operations/resource-management/define-resource-requirement-contours.md
+      - name: Update resource requirements
+        href: ../project-operations/resource-management/update-resource-requirements.md
+      - name: Submit resource requirements
+        href: ../project-operations/resource-management/submit-resource-requirements.md
+      - name: Resource requests
+      items: 
+      - name: Overview
+        href: ../project-operations/resource-management/resource-requests-overview.md
+      - name: Review fields and actions
+        href: ../project-operations/resource-management/review-fields-actions.md
+      - name: Find resources
+        href: ../project-operations/resource-management/find-resources.md
+      - name: Reviewing proposed resources
+        href: ../project-operations/resource-management/review-proposed-resources.md
+    - name: Decentralized resource booking
+      items:
+      - name: Decentralized resource booking home page 
+        href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
+      - name: Options to book directly
+        href: ../project-operations/resource-management/options-book-directly.md
+      - name: Fulfill generic resource requirements
+        href: resource-management/generic-resource-requirement-fulfillment.md
     - name: Administration of resources
       items: 
       - name: Create resources
-        href: create-resources-mode-2.md
+        href: ../project-operations/resource-management/create-resources.md
       - name: Define skills and proficiencies
-        hreF: define-skills-proficiencies-mode-2.md
+        href: ../project-operations/resource-management/define-skills-proficiencies.md
       - name: Define roles
-        href: define-roles-mode-2.md
+        href: ../project-operations/resource-management/define-roles.md
       - name: Define resource calendars
-        href: define-resource-calendars-mode-2.md
+        href: ../project-operations/resource-management/define-resource-calendars.md
+      - name: Associate resources with organizational units
+        href: ../project-operations/resource-management/associate-resources-organizational-units.md
+      - name: Associate resources with companies
+        href: ../project-operations/resource-management/associate-resources-companies.md
+    - name: Booking allocation methods
+      href: ../project-operations/resource-management/booking-allocation-methods.md  
+    - name: Booking statuses
+      href: resource-management/booking-status.md
     - name: Define booking modes
       href: define-booking-modes-mode-2.md
-    - name: Resource requirements
-      items: 
-      - name: Define resource requirements
-        href: define-resource-requirements-mode-2.md
-      - name: Define requirement contours
-        href: define-requirement-contours-mode-2.md
-    - name: Book resources
-      href: book-resources-mode-2.md
-    - name: Review requests
-      href: review-requests-mode-2.md
+    - name: Skills and proficiency models
+      href: ../project-operations/resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
-      - name: Resource reconciliation overview
-        href: resouce-reconciliation-overview-mode-2.md
-      - name: Resource navigation
-        href: resource-navigation-mode-2.md
+      - name: Resource reconciliation home page
+        href: ../project-operations/resource-management/resource-reconciliation-overview.md
+      - name: Key concepts
+        href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
+      - name: Navigation
+        href: ../project-operations/resource-management/resource-reconciliation-navigation.md
       - name: Extend bookings
-        href: extend-bookings-mode-2.md
+        href: ../project-operations/resource-management/extend-bookings.md
+      - name: Managing with multiple time zones
+        href: ../project-operations/resource-management/manage-multiple-time-zones.md
     - name: Resource utilization
       items:
-      - name: Resource utilization overview
-        href: resource-utilization-overview-mode-2.md
-      - name: Search and navigation for resource utilization 
-        href: search-navigation-resource-utilization-mode-2.md
+      - name: Resource utilization home page
+        href: ../project-operations/resource-management/resource-utilization-overview.md
+      - name: Search, settings, and navigation
+        href: ../project-operations/resource-management/search-settings-navigation.md
     - name: Schedule board
-      items: 
-      - name: Navigation and key settings of the schedule board
-        href: navigation-key-settings-schedule-board-mode-2.md
-      - name: Search the schedule board
-        href: search-schedule-board-mode-2.md
+      items:
+      - name: Navigation and key settings
+        href: ../project-operations/resource-management/navigation-key-settings-urs.md
+      - name: Personalization
+        href: ../project-operations/resource-management/personalization-urs.md
+      - name: Search
+        href: ../project-operations/resource-management/search-urs.md
       - name: Booking actions
-        href: booking-actions-mode-2.md
-  - name: Time
+        href: ../project-operations/resource-management/booking-actions-urs.md
+      - name: Booking
+        items:
+        - name: Book to a project
+          href: ../project-operations/resource-management/book-project.md
+        - name: Book open requirements
+          href: ../project-operations/resource-management/book-open-requirements.md
+        - name: Substitute resources
+          href: ../project-operations/resource-management/substitute-resources.md
+        - name: Edit existing bookings
+          href: ../project-operations/resource-management/edit-existing-bookings.md
+    - name: Resource management FAQ
+      href: ../project-operations/resource-management/resource-management-faq.md
+      - name: Time
     items: 
-    - name: Time overview
-      href: time-overview-mode-2.md
+    - name: Time entry home page
+      href: ../project-operations/time/time-entry-overview.md
     - name: Create time entries
-      hreF: create-time-entries-mode-2.md
-    - name: Time entry developer notes
+      items:
+      - name: Import bookings, assignments, and calendar entries
+        href: ../project-operations/time/import-bookings-assignments-calendar-entries.md
+      - name: UI behavior
+        href: ../project-operations/time/ui-behavior.md
+    - name: Submit time entries
+      href: time/submit-time-entries.md
+    - name: ../project-operations/Recall time entries
+      items:
+      - name: Before approval
+        href: ../project-operations/time/recall-time-entries-before-approval.md
+      - name: After approval
+        href: ../project-operations/time/recall-time-entries-after-approval.md
+    - name: Approve time entries
+      href: ../project-operations/time/approvals.md
+    - name: Developer notes
       items: 
-      - name: Extending the Time entries entity
-        href: extend-time-entries-entity-mode-2.md
-      - name: Customize the weekly Time entry grid
-        href: customize-weekly-time-entry-grid-mode-2.md
+      - name: Extend time entries
+        href: ../project-operations/time/extending-time-entries.md
+      - name: Customize the weekly time entry grid
+        href: ../project-operations/time/customize-weekly-time-entry-grid.md
       - name: Security considerations
-        href: security-considerations-time-entry-mode-2.md
+        href: ../project-operations/time/security-considerations.md
   - name: Expense
     items: 
-    - name: Expense overview
-      href: expense-overview-mode-2.md
+    - name: Expense home page
+      href: ../project-operations/expense/expense-overview.md
+    - name: Expense entry
+      href: expense-entry.md
   - name: Approvals
     items: 
-    - name: Approvals overview
-      href: approvals-overview-mode-2.md
-    - name: Time entry approvals
-      href: time-entry-approvals-mode-2.md
-  - name: Invoicing
+    - name: Overview
+      href: ../project-operarations/approvals/approvals-overview.md
+    - name: Approve time entries
+      href: approvals/approving-time-entries.md
+    - name: Approve expense entries
+      href: approve-expense-entries.md
+  - name: Proforma invoicing
     items: 
-    - name: Invoicing overview
-      href: invoicing-overview-mode-2.md
-  - name: Troubleshooting and FAQs
-        
+    - name: Create invoice schedules
+      href: ../project-operarations/proforma-invoicing/create-invoice-schedules.md
+    - name: Create a manual Proforma invoice
+      href: ../project-operarations/proforma-invoicing/create-manual-proforma-invoice.md
+    - name: Manage a Proforma invoice
+      href: ../project-operarations/proforma-invoicing/manage-proforma-invoice.md
+    - name: Confirm a Proforma invoice
+      href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
+    - name: Corrective invoices
+      href: ../project-operarations/proforma-invoicing/corrective-invoices.md
+    - name: Configurr an automated invoice creation
+      href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md
+  
