@@ -140,7 +140,7 @@
         href: pricing-costing/turn-off-pricing-dimension.md
   - name: Project management
     items: 
-    - name: Project management overview
+    - name: Project management home page
       href: project-management/project-management-overview.md
     - name: Project stages
       href: project-management/project-stages.md
@@ -154,23 +154,23 @@
       items: 
       - name: Creating initial estimates
         href: project-management/create-initial-estimates.md
-      - name: Setting the project calendar
+      - name: Set the project calendar
         href: project-management/set-project-calendar.md
-      - name: Setting the project currency
+      - name: Set the project currency
         href: project-management/set-project-currency.md
-      - name: Setting the customer
+      - name: Define a customer
         href: project-management/set-customer.md
-      - name: Adding a group
+      - name: Add a group
         href: project-management/add-group.md
-    - name: Updating a project
+    - name: Update a project
       href: project-management/update-project.md
-    - name: Copying a project
+    - name: Copy a project
       href: project-management/copy-project.md
     - name: Work breakdown structure planning
       items: 
-      - name: Creating a work breakdown structure
+      - name: Create a work breakdown structure
         items: 
-        - name: Creating tasks
+        - name: Create tasks
           href: project-management/wbs-create-tasks.md
         - name: Cut, copy, and paste tasks
           href: project-management/cut-copy-paste-tasks.md
@@ -182,17 +182,17 @@
           href: project-management/bulk-task-updates.md
         - name: Edit task details
           href: project-management/edit-task-details.md
-      - name: Creating assignments
+      - name: Create assignments
         items:
-        - name: Adding existing resources
+        - name: Add existing resources
           href: project-management/add-existing-resources.md
-        - name: Adding generic resources
+        - name: Add generic resources
           href: project-management/add-generic-resources.md
-        - name: Understanding the impact of assignments on task effort, duration, and end date
+        - name: Understand the impact of assignments on task effort, duration, and end date
           href: project-management/understand-impact-assignment-task-effort-duration-end-date.md
-        - name: Viewing assignment contours
+        - name: View assignment contours
           href: project-management/view-assignment-contours.md
-      - name: Navigating the task management experience
+      - name: Navigate the task management experience
         items: 
         - name: Column management
           href: project-management/column-management.md
@@ -200,9 +200,9 @@
           href: project-management/task-management-views.md
         - name: Buckets
           href: project-management/task management-buckets.md
-    - name: Estimating projects
+    - name: Estimate projects
       items: 
-      - name: Overview
+      - name: Estimate projects home page
         href: project-management/estimating-projects-overview.md
       - name: Resource estimates
         items:
@@ -210,16 +210,16 @@
           href: project-management/refresh-project-estimates-reflect-changes-project-plan.md
         - name: Refresh prices and cost rates on project estimates
           href: project-management/refresh-prices-cost-rates-project-estimates.md
-        - name: Defaulting of cost price and cost currency
-          href: project-management/default-cost-price-cost-currency.md
-        - name: Defaulting of bill rate and sales currency
-          href: project-management/default-bill-rate-sales-currency.md
+        - name: Resource cost price and cost currency defaults 
+          href: project-management/resource-default-cost-price-cost-currency.md
+        - name: Resource bill rate and sales currency defaults
+          href: project-management/resource-default-bill-rate-sales-currency.md
       - name: Create expense estimates
         items: 
-        - name: Defaulting of cost price and cost currency
-          href: project-management/default-cost-price-cost-currency.md
-        - name: Defaulting of bill rate and sales currency
-          href: project-management/default-bill-rate-sales-currency.md
+        - name: Expense cost price and sales currency defaults
+          href: project-management/expense-default-cost-price-cost-currency.md
+        - name: Expense bill rate and sales currency defaults
+          href: project-management/expense-default-bill-rate-sales-currency.md
     - name: Building quotes and contracts
       items: 
       - name: Import work breakdown structure to quotes
@@ -228,7 +228,7 @@
         href: project-management/import-wbs-structure-contracts.md
     - name: Project tracking
       items:
-      - name: Overview
+      - name: Project tracking home page
         href: project-management/project-tracking-overview.md
       - name: Column definitions
         items:
@@ -238,11 +238,11 @@
           href: project-management/cost.md
         - name: Sales
           href: project-management/sales.md
-      - name: Updating estimate at completion
+      - name: Update estimate at completion
         href: project-management/update-completed-estimate.md
     - name: Project team members
       items: 
-      - name: Overview
+      - name: Project team members home page
         href: project-management/project-team-members-overview.md
       - name: Maintaining team members
         items:
@@ -268,7 +268,7 @@
       href: project-management/project-planning-faq.md
   - name: Resource management
     items:
-    - name: Resource management overview
+    - name: Resource management home page
       href: resource-management/resource-management-overview.md
     - name: Key concepts
       href: resource-management/resource-management-key-concepts.md
