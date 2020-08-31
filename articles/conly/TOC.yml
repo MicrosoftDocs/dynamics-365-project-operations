@@ -146,70 +146,118 @@
         href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
   - name: Project management
     items: 
-    - name: Project management overview
-      href: project-management-overview-mode-2.md
+    - name: Project management home page
+      href: ../project-operations/project-management/project-management-overview.md
     - name: Project stages
-      href: project-stages-mode-2.md
+      href: ../project-operations/project-management/project-stages.md
     - name: Define project calendars
-      href: define-project-calendars-mode-2.md
+      href: ../project-operations/project-management/define-project-calendars.md
     - name: Create a project
       items: 
       - name: Create initial estimates
-        href: create-initial-estimates-mode-2.md
-      - name: Define a calendar
-        href: define-calendar-mode-2.md
+        href: ../project-operations/project-management/create-initial-estimates.md
+      - name: Set the project calendar
+        href: ../project-operations/project-management/set-project-calendar.md
       - name: Define a customer
-        href: define-customer-mode-2.md
+        href: ../project-operations/project-management/set-customer.md
       - name: Add a group
-        href: add-group-mode-2.md
+        href: ../project-operations/project-management/add-group.md
+    - name: Update a project
+      href: ../project-operations/project-management/update-project.md
+    - name: Copy a project
+      href: ../project-operations/project-management/copy-project.md    
     - name: Work breakdown structure planning
       items: 
-      - name: Create tasks
-        href: create-tasks-mode-2.md
+      - name: Create a work breakdown structure
+        items: 
+        - name: Create tasks
+          href: ../project-operations/project-management/wbs-create-tasks.md
+        - name: Cut, copy, and paste tasks
+          href: ../project-operations/project-management/cut-copy-paste-tasks.md
+        - name: Undo and redo tasks
+          href: ../project-operations/project-management/undo-redo-tasks-wbs.md
+        - name: Work breakdown structure hierarchy
+          href: ../project-operations/project-management/work-breakdown-structure-hierarchy.md
+        - name: Bulk task updates
+          href: ../project-operations/project-management/bulk-task-updates.md
+        - name: Edit task details
+          href: ../project-operations/project-management/edit-task-details.md
       - name: Create assignments
-        href: create-assignments-mode-2.md
-      - name: Edit task details
-        href: edit-task-details-mode-2.md
-      - name: Edit assignments
-        href: edit-assignments-mode-2.md
-      - name: Navigate the task management experience
-        href: navigate-task-management-experience-mode-2.md
-    - name: Estimating projects
+        items:
+        - name: Add existing resources
+          href: ../project-operations/project-management/add-existing-resources.md
+        - name: Add generic resources
+          href: ../project-operations/project-management/add-generic-resources.md
+        - name: Understand the impact of assignments on task effort, duration, and end date
+          href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
+        - name: View assignment contours
+          href: ../project-operations/project-management/view-assignment-contours.md
+    - name: Estimate projects
       items: 
-      - name: Estimate projects
-        href: estimate-projects-mode-2.md
+      - name: Estimate projects home page
+        href: ../project-operations/project-management/estimate-projects-overview.md
       - name: Resource estimates
-        href: resource-estimates-mode-2.md
+        items:
+        - name: Refresh project estimates to reflect changes to the project plan
+          href: ../project-operations/project-management/refresh-project-estimates-reflect-changes-project-plan.md
+        - name: Refresh prices and cost rates on project estimates
+          href: ../project-operations/project-management/refresh-prices-cost-rates-project-estimates.md
+        - name: Resource cost price and cost currency defaults
+          href: ../project-operations/project-management/resource-default-cost-price-cost-currency.md
+        - name: Resource bill rate and sales currency defaults
+          href: ../project-operations/project-management/resource-default-bill-rate-sales-currency.md
       - name: Create expense estimates
-        href: create-expense-estimates-mode-2.md
+        items:
+        - name: Expense cost price and cost currency defaults
+          href: ../project-operations/project-management/expense-default-cost-price-cost-currency.md
+        - name: Expense bill rate and sales currency defaults
+          href: ../project-operations/project-management/expense-default-bill-rate-sales-currency.md
     - name: Building quotes and contracts
       items: 
       - name: Import work breakdown structure to quotes
-        href: import-wbs-quotes-mode-2.md
+        href: ../project-operations/project-management/import-wbs-structure-quotes.md
       - name: Import work breakdown structure to contracts
-        href: import-wbs-contracts-mode-2.md
-    - name: Tracking cost vs effort
+        href: ../project-operations/project-management/import-wbs-structure-contracts.md
+    - name: Project tracking
       items: 
-      - name: Tracking overview
-        href: cost-vs-effort-overview-mode-2.md
+      - name: Project tracking home page
+        href: ../project-operations/project-management/cost-vs-effort-overview.md
       - name: Column definitions
-        href: column-definitions-mode-2.md
+        items:
+        - name: Effort
+          href: ../project-operations/project-management/effort.md
+        - name: Cost
+          href: ../project-operations/project-management/cost.md
+        - name: Sales
+          href: ../project-operations/project-management/sales.md
       - name: Update estimate at completion
-        href: update-estimate-completion-mode-2.md
+        href: ../project-operations/project-management/update-completed-estimate.md
     - name: Project team members
       items: 
-      - name: Add team members
-        href: add-team-members-mode-2.md
-      - name: Update project team members
-        href: update-project-team-members-mode-2.md
-      - name: Delete a team member
-        href: delete-team-member-mode-2.md
-      - name: Maintain bookings
-        href: maintain-bookings-mode-2.md
+      - name: Project team members home page
+        href: ../project-operations/project-management/project-team-members-overview.md
+      - name: Maintaining team members
+        items: 
+        - name: Add team members
+          href: ../project-operations/project-management/add-team-members.md
+        - name: Update project team members
+          href: ../project-operations/project-management/update-project-team-members.md
+        - name: Delete team members
+          href: ../project-operations/project-management/delete-team-members.md
+        - name: Maintain bookings
+          href: ../project-operations/project-management/maintain-bookings.md
+    - name: Sales
+      items:
+      - name: Sales tab overview
+        href: ../project-operations/project-management/sales-tab-overview.md
+    - name: Collaboration
+      items: 
+      - name: Groups
+        href: ../project-operations/project-management/groups.md
   - name: Resource management
     items: 
-    - name: Resource management overview
-      href: resource-management-overview-mode-2.md
+    - name: Resource management homepage
+      href: ../project-operations/resource-management/resource-management-overview.md
     - name: Administration of resources
       items: 
       - name: Create resources
