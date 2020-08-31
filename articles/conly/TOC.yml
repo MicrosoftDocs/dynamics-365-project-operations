@@ -285,15 +285,15 @@
       - name: Submit resource requirements
         href: ../project-operations/resource-management/submit-resource-requirements.md
       - name: Resource requests
-      items: 
-      - name: Overview
-        href: ../project-operations/resource-management/resource-requests-overview.md
-      - name: Review fields and actions
-        href: ../project-operations/resource-management/review-fields-actions.md
-      - name: Find resources
-        href: ../project-operations/resource-management/find-resources.md
-      - name: Reviewing proposed resources
-        href: ../project-operations/resource-management/review-proposed-resources.md
+        items: 
+        - name: Resource requests home page
+          href: ../project-operations/resource-management/resource-requests-overview.md
+        - name: Review fields and actions
+          href: ../project-operations/resource-management/review-fields-actions.md
+        - name: Find resources
+          href: ../project-operations/resource-management/find-resources.md
+        - name: Reviewing proposed resources
+          href: ../project-operations/resource-management/review-proposed-resources.md
     - name: Decentralized resource booking
       items:
       - name: Decentralized resource booking home page 
@@ -364,7 +364,7 @@
           href: ../project-operations/resource-management/edit-existing-bookings.md
     - name: Resource management FAQ
       href: ../project-operations/resource-management/resource-management-faq.md
-      - name: Time
+  - name: Time
     items: 
     - name: Time entry home page
       href: ../project-operations/time/time-entry-overview.md
