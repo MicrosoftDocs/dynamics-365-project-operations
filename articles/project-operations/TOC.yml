@@ -16,9 +16,9 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
-    - name: Managing leads
+    - name: Manage leads
       href: sales/managing-leads.md
-    - name: Managing opportunities
+    - name: Manage opportunities
       items:
       - name: Opportunity header
         href: sales/opportunity-header.md
@@ -124,7 +124,7 @@
           href: pricing-costing/sales-override-default.md
     - name: Pricing dimensions
       items: 
-      - name: Pricing dimensions home page
+      - name: Pricing dimensions overview
         href: pricing-costing/pricing-dimensions-overview.md
       - name: Use an existing field in project operations as a pricing dimension
         href: pricing-costing/use-existing-field-pricing-dimension.md
@@ -140,7 +140,7 @@
         href: pricing-costing/turn-off-pricing-dimension.md
   - name: Project management
     items: 
-    - name: Project management home page
+    - name: Project management overview
       href: project-management/project-management-overview.md
     - name: Project stages
       href: project-management/project-stages.md
@@ -202,7 +202,7 @@
           href: project-management/task management-buckets.md
     - name: Estimate projects
       items: 
-      - name: Estimate projects home page
+      - name: Estimate projects overview
         href: project-management/estimating-projects-overview.md
       - name: Resource estimates
         items:
@@ -216,7 +216,7 @@
           href: project-management/resource-default-bill-rate-sales-currency.md
       - name: Create expense estimates
         items: 
-        - name: Expense cost price and sales currency defaults
+        - name: Expense cost price and cost currency defaults
           href: project-management/expense-default-cost-price-cost-currency.md
         - name: Expense bill rate and sales currency defaults
           href: project-management/expense-default-bill-rate-sales-currency.md
@@ -242,9 +242,9 @@
         href: project-management/update-completed-estimate.md
     - name: Project team members
       items: 
-      - name: Project team members home page
+      - name: Project team members overview
         href: project-management/project-team-members-overview.md
-      - name: Maintaining team members
+      - name: Maintain team members
         items:
         - name: Add team members
           href: project-management/add-team-members.md
@@ -268,7 +268,7 @@
       href: project-management/project-planning-faq.md
   - name: Resource management
     items:
-    - name: Resource management home page
+    - name: Resource management overview
       href: resource-management/resource-management-overview.md
     - name: Key concepts
       href: resource-management/resource-management-key-concepts.md
@@ -284,7 +284,7 @@
         href: resource-management/resource-management-mode-central.md
     - name: Centralized booking
       items:
-      - name: Centralized booking home page
+      - name: Centralized booking overview
         href: resource-management/centralized-booking-overview.md
       - name: Add generic team members to tasks
         href: resource-management/add-generic-team-members-tasks.md
@@ -298,17 +298,17 @@
         href: resource-management/submit-resource-requirements.md
       - name: Resource requests
         items: 
-        - name: Overview
+        - name: Resource requests overview
           href: resource-management/resource-requests-overview.md
         - name: Review fields and actions
           href: resource-management/review-fields-actions.md
         - name: Find resources
           href: resource-management/find-resources.md
-        - name: Reviewing proposed resources
+        - name: Review proposed resources
           href: resource-management/review-proposed-resources.md
     - name: Decentralized resource booking
       items: 
-      - name: Decentalized resource booking home page
+      - name: Decentalized resource booking overview
         href: resource-management/centralized-booking-overview.md
       - name: Options to book directly
         href: resource-management/options-book-directly.md
@@ -336,7 +336,7 @@
       href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
-      - name: Overview
+      - name: Resource reconciliation overview
         href: resource-management/resource-reconciliation-overview.md
       - name: Key concepts
         href: resource-management/resource-reconciliation-key-concepts.md
@@ -344,11 +344,11 @@
         href: resource-management/resource-reconciliation-navigation.md
       - name: Extend bookings
         href: resource-management/extend-bookings.md
-      - name: Managing with multiple time zones
+      - name: Manage multiple time zones
         href: resource-management/manage-multiple-time-zones.md
     - name: Resource utilization
       items:
-      - name: Overview
+      - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
       - name: Search, settings, and navigation
         href: resource-management/search-settings-navigation.md
@@ -376,7 +376,7 @@
       href: resource-management/resource-management-faq.md
   - name: Time
     items: 
-    - name: Time entry home page
+    - name: Time entry overview
       href: time/time-entry-overview.md
     - name: Create time entries
       items:
@@ -468,9 +468,9 @@
         href: approvals/approve-lite-expense.md
       - name: Full expense
         href: approvals/approve-full-expense.md
-    - name: Cancelling approved time entries
+    - name: Cancel approved time entries
       href: approvals/cancelling-approved-time-entries.md
-    - name: Cancelling approved expense entries
+    - name: Cancel approved expense entries
       items:
       - name: Lite expense
         href: approvals/cancel-lite-expense.md
@@ -480,25 +480,25 @@
     items: 
     - name: Overview
       href: actuals/actuals-overview.md
-    - name: Creation of actuals for an internal project
+    - name: Create actuals for an internal project
       href: actuals/create-actuals-internal-project.md
-    - name: Creation of actuals for a billable project component
+    - name: Create actuals for a billable project component
       items:
       - name: Time and material
         href: actuals/time-material.md
       - name: Fixed-price
         href: actuals/fixed-price.md
-    - name: Managing not-to-exceed status and validations
+    - name: Manage not-to-exceed status and validations
       href: actuals/manage-not-exceed-status-validations.md
     - name: Project journals
       items:
-      - name: Creating project journals to record fees on projects
+      - name: Create project journals to record fees on projects
         href: actuals/create-project-journals-record-fees-projects.md
-      - name: Creating project journals for Time and Expense
+      - name: Create project journals for Time and Expense
         href: actuals/create-project-journals-time-expense.md
-      - name: Creating and confirming Correction journals
+      - name: Create and confirming Correction journals
         href: actuals/create-confirm-correction-journals-md
-    - name: Managing billing backlog
+    - name: Manage billing backlog
       href: actuals/manage-billing-backlog.md
   - name: Proforma invoicing
     items: 
@@ -512,5 +512,5 @@
       href: proforma-invoicing/confirm-proforma-invoice.md
     - name: Corrective invoices
       href: proforma-invoicing/corrective-invoices.md
-    - name: Configurr an automated invoice creation
+    - name: Configure an automated invoice creation
       href: proforma-invoicing/configure-automated-invoice-creation.md
