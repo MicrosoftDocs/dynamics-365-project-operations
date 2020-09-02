@@ -12,275 +12,412 @@
     href: sample-data-mode-2.md
   - name: Sales process
     items:
-    - name: Sales process overview
-      href: sales-process-mode-2.md
+    - name: Sales process home page
+      href: ../project-operations/sales/sales-overview.md
     - name: Key differences
-      href: differences-sales-project-operations-mode-2.md
+      href: ../project-operations/sales/key-differences.md
     - name: Setup
       items: 
       - name: Products
-        href: products-mode-2.md
+        href: ../project-operations/sales/sales-products.md
       - name: Units and unit groups
-        href: units-unit-groups-mode-2.md
+        href: ../project-operations/sales/sales-units-unit-groups.md
       - name: Currency
-        href: currency-mode-2.md
+        href: ../project-operations/sales/sales-currency.md
     - name: Managing leads
-      href: manage-leads-mode-2.md
+      href: ../project-operations/sales/managing-leads.md
     - name: Managing opportunities
       items: 
       - name: Opportunity header
-        href: opportunity-header-mode-2.md
+        href: ../project-operations/sales/opportunity-header.md
       - name: Product-based lines
-        href: product-based-lines-mode-2.md
+        href: ../project-operations/sales/product-based-lines.md
       - name: Project-based lines
-        href: project-based-lines-mode-2.md
+        href: ../project-operations/sales/project-based-lines.md
       - name: Link quotes and opportunities
-        href: link-quotes-opportunities-mode-2.md
-      - name: Close an opportunity in Project operations
-        href: close-opportunity-mode-2.md
+        href: ../project-operations/sales/link-quotes-opportunities.md
+      - name: Close an opportunity 
+        href: ../project-operations/sales/close-opportunity.md
     - name: Manage quotes
       items:
       - name: Key concepts
-        href: quotes-key-concepts-mode-2.md
+        href: ../project-operations/sales/quotes-key-concepts.md
       - name: Manage quoted values, customer budgets, and not-to-exceed limits
-        href: quotes-manage-quoted-values-mode-2.md
+        href: ../project-operations/sales/quote-values-budget-limits.md
       - name: Manage multiple customers on a quote
-        href: manage-multiple-customers-quote.md
+        href: ../project-operations/sales/manage-multiple-customers-quote.md
       - name: Product-based quote lines
         items: 
         - name: Costing product-based quote lines
-          href: costing-product-based-quote-lines-mode-2.md
+          href: ../project-operations/sales/costing-product-based-quote-lines.md
         - name: Manage complex units for product-based quote lines
-          href: complex-units-product-based-quote-lines-mode-2.md
+          href: ../project-operations/sales/managing-complex-units-product-based-quote-lines.md
       - name: Project-based quote lines
         items: 
         - name: Manage project price lists
-          href: manage-project-price-lists-mode-2.md
+          href: ../project-operations/sales/manage-project-price-lists.md
         - name: Manage multiple customers on a quote line
-          href: manage-multiple-customers-quote-line-mode-2.md
-        - name: Mapping projects and tasks to a quote line
-          href: mapping-projects-tasks-quote-line-mode-2.md
-        - name: Create estimation on a quote line
-          href: create-estimation-quote-line-mode-2.md
-        - name: Import estimation from a project to a quote line
-          href: import-estimation-project-quote-line-mode-2.md
+          href: ../project-operations/sales/manage-multiple-customers-quote-line.md
+        - name: Map projects and tasks to a quote line
+          href: ../project-operations/sales/mapping-projects-tasks-quote-line.md
+        - name: Create estimates on a quote line
+          href: ../project-operations/sales/create-estimate-quote-line.md
+        - name: Import estimates from a project to a quote line
+          href: ../project-operations/sales/import-estimate-project-quote-line.md
         - name: Manage quoted values, customer budgets, and not-to-exceed limits
-          href: projects-manage-quoted-values-mode-2.md
+          href: ../project-operations/sales/manage-quoted-values-budget-limites-quote-line.md
         - name: Invoice schedules on a quote line
-          href: invoice-schedules-quote-line-mode-2.md
+          href: ../project-operations/sales/invoice-schedule-quote-line.md
       - name: Win a quote
-        href: win-quote-mode-2.md
+        href: ../project-operations/sales/win-quote.md
       - name: Lose a quote
-        href: lose-quote-mode-2.md
+        href: ../project-operations/sales/lose-quote.md
     - name: Manage contracts
       items: 
-      - name: Key concepts for managing contracts
-        href: manage-contracts-key-concepts-mode-2.md 
+      - name: Key concepts
+        href: ../project-operations/sales/contracts-key-concepts.md 
       - name: Manage contract values, customer budgets, and not-to-exceed limits 
-        href: contracts-manage-quoted-values-mode-2.md
+        href: ../project-operations/sales/contract-quote-values-budgets-limits.md
       - name: Manage multiple customers on a contract
-        href: manage-multiple-customers-contract-mode-2.md
+        href: ../project-operations/sales/manage-multiple-customers-contract.md
       - name: Product-based contract lines
         items:
         - name: Costing product-based contract lines
-          href: costing-product-based-contract-lines-mode-2.md
+          href: ../project-operations/sales/cost-product-based-contract-lines.md
         - name: Manage complex units for product-based contract lines
-          href: manage-complex-units-product-based-contract-lines-mode-2.md
+          href: ../project-operations/sales/manage-complex-units-product-based-contract-lines.md
       - name: Project-based contract lines
         items: 
         - name: Manage project price lists
-          href: manage-project-price-lists-mode-2.md
+          href: ../project-operations/sales/manage-project-price-lists.md
         - name: Manage multiple customers on a contract line
-          href: manage-multiple-customers-contract-line-mode-2.md
-        - name: Mapping projects and tasks to a contract line
-          href: mapping-projects-tasks-contract-line-mode-2.md
-        - name: Creating estimation from a project to a contract line
-          href: create-estimate-project-contract-line-mode-2.md
-        - name: Importing estimation from a project to a contract line
-          href: import-estimation-project-contract-line-mode-2.md
+          href: ../project-operations/sales/manage-multiple-customers-contract-line.md
+        - name: Map projects and tasks to a contract line
+          href: ../project-operations/sales/mapping-projects-tasks-contract-line.md
+        - name: Create estimates from a project to a contract line
+          href: ../project-operations/sales/create-estimate-project-contract-line.md
+        - name: Import estimates from a project to a contract line
+          href: ../project-operations/sales/import-estimate-project-contract-line.md
         - name: Manage contract values, customer budgets, and not-to-exceed limits on a contract line
-          href: manage-contract-values-project-based-mode-2.md
+          href: ../project-operations/sales/manage-contract-values-project-based.md
       - name: Confirm a contract
-        href: confirm-contract-mode-2.md
+        href: ../project-operations/sales/confirm-contract.md
       - name: Close a contract as Work completed
-        href: close-contract-work-completed-mode-2.md
+        href: ../project-operations/sales/close-contract-work-completed.md
       - name: Close a contract as canceled
-        href: close-contract-canceled-mode-2.md
+        href: ../project-operations/sales/close-contract-canceled.md
   - name: Pricing and costing
     items: 
     - name: Product price lists
-      href: product-price-lists-mode-2.md
+      href: ../project-operations/pricing-costing/product-price-lists.md
     - name: Project price lists
       items:
       - name: Price list for cost
-        items:
-        - name: Price list setup for cost
-          href: price-list-setup-cost-mode-2.md
-        - name: Price list defaults for cost
-          href: price-list-default-cost-mode-2.md
-        - name: Price list overrides to defaults for cost
-          href: price-list-overrides-defaults-cost-mode-2.md
+        item/s:
+        - name: Set up cost price lists
+          href: ../project-operations/pricing-costing/cost-price-list-setup.md
+        - name: Price list defaults
+          href: ../project-operations/pricing-costing/cost-price-list-default.md
+        - name: Override defaults
+          href: ../project-operations/pricing-costing/cost-override-default.md
       - name: Price list setup for sales
         items: 
-        - name: Price list setup for sales
-          href: price-list-setup-sales-mode-2.md
-        - name: Price list defaults for sales
-          href: price-list-defaults-sales-mode-2.md
-        - name: Price list overrides to defaults for sales
-          href: price-list-overrides-defaults-sales-mode-2.md
+        - name: Set up sales price list
+          href: ../project-operations/pricing-costing/sales-price-list-setup.md
+        - name: Sales price list defaults 
+          href: ../project-operations/pricing-costing/sales-price-list-default.md
+        - name: Override defaults 
+          href: ../project-operations/pricing-costing/sales-override-default.md
     - name: Pricing dimensions
       items:
       - name: Pricing dimensions home page
-        href: pricing-dimension-overview-mode-2.md
+        href: ../project-operations/pricing-costing/pricing-dimension-overview.md
       - name: Use an existing field in Project operations as a pricing dimension
-        href: existing-field-pricing-dimension-mode-2.md
+        href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
       - name: Custom fields as pricing dimension
         items:
         - name: Create custom fields and entities as pricing dimensions
-          href: create-custom-fields-entities-pricing-dimensions-mode-2.md
+          href: ../project-operations/pricing-costing/create-custom-fields-entities-pricing-dimensions.md
         - name: Add custom fields to price setup and trasactional entities
-          href: add-custom-fields-set-entities-mode-2.md
+          href: ../project-operations/pricing-costing/add-custom-fields-price-setup-transactional-entities.md
         - name: Set up custom fields as pricing dimensions
-          href: set-up-custom-fields-pricing-dimensions-mode-2.md
-      - name: Turn off a pricing dimension in Project operations
-        href: turn-off-pricing-dimension-mode-2.md
+          href: ../project-operations/pricing-costing/set-up-custom-fields-pricing-dimensions.md
+      - name: Turn off a pricing dimension 
+        href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
   - name: Project management
     items: 
-    - name: Project management overview
-      href: project-management-overview-mode-2.md
+    - name: Project management home page
+      href: ../project-operations/project-management/project-management-overview.md
     - name: Project stages
-      href: project-stages-mode-2.md
+      href: ../project-operations/project-management/project-stages.md
     - name: Define project calendars
-      href: define-project-calendars-mode-2.md
+      href: ../project-operations/project-management/define-project-calendars.md
     - name: Create a project
       items: 
       - name: Create initial estimates
-        href: create-initial-estimates-mode-2.md
-      - name: Define a calendar
-        href: define-calendar-mode-2.md
+        href: ../project-operations/project-management/create-initial-estimates.md
+      - name: Set the project calendar
+        href: ../project-operations/project-management/set-project-calendar.md
       - name: Define a customer
-        href: define-customer-mode-2.md
+        href: ../project-operations/project-management/set-customer.md
       - name: Add a group
-        href: add-group-mode-2.md
+        href: ../project-operations/project-management/add-group.md
+    - name: Update a project
+      href: ../project-operations/project-management/update-project.md
+    - name: Copy a project
+      href: ../project-operations/project-management/copy-project.md    
     - name: Work breakdown structure planning
       items: 
-      - name: Create tasks
-        href: create-tasks-mode-2.md
+      - name: Create a work breakdown structure
+        items: 
+        - name: Create tasks
+          href: ../project-operations/project-management/wbs-create-tasks.md
+        - name: Cut, copy, and paste tasks
+          href: ../project-operations/project-management/cut-copy-paste-tasks.md
+        - name: Undo and redo tasks
+          href: ../project-operations/project-management/undo-redo-tasks-wbs.md
+        - name: Work breakdown structure hierarchy
+          href: ../project-operations/project-management/work-breakdown-structure-hierarchy.md
+        - name: Bulk task updates
+          href: ../project-operations/project-management/bulk-task-updates.md
+        - name: Edit task details
+          href: ../project-operations/project-management/edit-task-details.md
       - name: Create assignments
-        href: create-assignments-mode-2.md
-      - name: Edit task details
-        href: edit-task-details-mode-2.md
-      - name: Edit assignments
-        href: edit-assignments-mode-2.md
-      - name: Navigate the task management experience
-        href: navigate-task-management-experience-mode-2.md
-    - name: Estimating projects
+        items:
+        - name: Add existing resources
+          href: ../project-operations/project-management/add-existing-resources.md
+        - name: Add generic resources
+          href: ../project-operations/project-management/add-generic-resources.md
+        - name: Understand the impact of assignments on task effort, duration, and end date
+          href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
+        - name: View assignment contours
+          href: ../project-operations/project-management/view-assignment-contours.md
+    - name: Estimate projects
       items: 
-      - name: Estimate projects
-        href: estimate-projects-mode-2.md
+      - name: Estimate projects home page
+        href: ../project-operations/project-management/estimate-projects-overview.md
       - name: Resource estimates
-        href: resource-estimates-mode-2.md
+        items:
+        - name: Refresh project estimates to reflect changes to the project plan
+          href: ../project-operations/project-management/refresh-project-estimates-reflect-changes-project-plan.md
+        - name: Refresh prices and cost rates on project estimates
+          href: ../project-operations/project-management/refresh-prices-cost-rates-project-estimates.md
+        - name: Resource cost price and cost currency defaults
+          href: ../project-operations/project-management/resource-default-cost-price-cost-currency.md
+        - name: Resource bill rate and sales currency defaults
+          href: ../project-operations/project-management/resource-default-bill-rate-sales-currency.md
       - name: Create expense estimates
-        href: create-expense-estimates-mode-2.md
+        items:
+        - name: Expense cost price and cost currency defaults
+          href: ../project-operations/project-management/expense-default-cost-price-cost-currency.md
+        - name: Expense bill rate and sales currency defaults
+          href: ../project-operations/project-management/expense-default-bill-rate-sales-currency.md
     - name: Building quotes and contracts
       items: 
       - name: Import work breakdown structure to quotes
-        href: import-wbs-quotes-mode-2.md
+        href: ../project-operations/project-management/import-wbs-structure-quotes.md
       - name: Import work breakdown structure to contracts
-        href: import-wbs-contracts-mode-2.md
-    - name: Tracking cost vs effort
+        href: ../project-operations/project-management/import-wbs-structure-contracts.md
+    - name: Project tracking
       items: 
-      - name: Tracking overview
-        href: cost-vs-effort-overview-mode-2.md
+      - name: Project tracking home page
+        href: ../project-operations/project-management/cost-vs-effort-overview.md
       - name: Column definitions
-        href: column-definitions-mode-2.md
+        items:
+        - name: Effort
+          href: ../project-operations/project-management/effort.md
+        - name: Cost
+          href: ../project-operations/project-management/cost.md
+        - name: Sales
+          href: ../project-operations/project-management/sales.md
       - name: Update estimate at completion
-        href: update-estimate-completion-mode-2.md
+        href: ../project-operations/project-management/update-completed-estimate.md
     - name: Project team members
       items: 
-      - name: Add team members
-        href: add-team-members-mode-2.md
-      - name: Update project team members
-        href: update-project-team-members-mode-2.md
-      - name: Delete a team member
-        href: delete-team-member-mode-2.md
-      - name: Maintain bookings
-        href: maintain-bookings-mode-2.md
+      - name: Project team members home page
+        href: ../project-operations/project-management/project-team-members-overview.md
+      - name: Maintaining team members
+        items: 
+        - name: Add team members
+          href: ../project-operations/project-management/add-team-members.md
+        - name: Update project team members
+          href: ../project-operations/project-management/update-project-team-members.md
+        - name: Delete team members
+          href: ../project-operations/project-management/delete-team-members.md
+        - name: Maintain bookings
+          href: ../project-operations/project-management/maintain-bookings.md
+    - name: Sales
+      items:
+      - name: Sales tab overview
+        href: ../project-operations/project-management/sales-tab-overview.md
+    - name: Collaboration
+      items: 
+      - name: Groups
+        href: ../project-operations/project-management/groups.md
   - name: Resource management
     items: 
-    - name: Resource management overview
-      href: resource-management-overview-mode-2.md
+    - name: Resource management homepage
+      href: ../project-operations/resource-management/resource-management-overview.md
+    - name: Key concepts
+      href: ../project-operations/resource-management/resource-management-key-concepts.md
+    - name: Bookings vs Assignments
+      href: ../project-operations/resource-management/booking-vs-assignment.md
+    - name: Resource management modes
+      items: 
+      - name: Resource management mode overview
+        href: ../project-operations/resource-management/resource-management-mode-overview.md
+      - name: Hybrid
+        href: ../project-operations/resource-management/resource-management-mode-hybrid.md
+      - name: Central
+        href: ../project-operations/resource-management/resource-management-mode-central.md
+    - name: Centralized booking
+      items:
+      - name: Centralized booking home page
+        href: ../project-operations/resource-management/centralized-booking-overview.md
+      - name: Add generic team members to tasks
+        href: ../project-operations/resource-management/add-generic-team-members-tasks.md
+      - name: Define resource requirements
+        href: ../project-operations/resource-management/define-resource-requirements.md
+      - name: Define requirement contours
+        href: ../project-operations/resource-management/define-resource-requirement-contours.md
+      - name: Update resource requirements
+        href: ../project-operations/resource-management/update-resource-requirements.md
+      - name: Submit resource requirements
+        href: ../project-operations/resource-management/submit-resource-requirements.md
+      - name: Resource requests
+        items: 
+        - name: Resource requests home page
+          href: ../project-operations/resource-management/resource-requests-overview.md
+        - name: Review fields and actions
+          href: ../project-operations/resource-management/review-fields-actions.md
+        - name: Find resources
+          href: ../project-operations/resource-management/find-resources.md
+        - name: Reviewing proposed resources
+          href: ../project-operations/resource-management/review-proposed-resources.md
+    - name: Decentralized resource booking
+      items:
+      - name: Decentralized resource booking home page 
+        href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
+      - name: Options to book directly
+        href: ../project-operations/resource-management/options-book-directly.md
+      - name: Fulfill generic resource requirements
+        href: resource-management/generic-resource-requirement-fulfillment.md
     - name: Administration of resources
       items: 
       - name: Create resources
-        href: create-resources-mode-2.md
+        href: ../project-operations/resource-management/create-resources.md
       - name: Define skills and proficiencies
-        hreF: define-skills-proficiencies-mode-2.md
+        href: ../project-operations/resource-management/define-skills-proficiencies.md
       - name: Define roles
-        href: define-roles-mode-2.md
+        href: ../project-operations/resource-management/define-roles.md
       - name: Define resource calendars
-        href: define-resource-calendars-mode-2.md
+        href: ../project-operations/resource-management/define-resource-calendars.md
+      - name: Associate resources with organizational units
+        href: ../project-operations/resource-management/associate-resources-organizational-units.md
+      - name: Associate resources with companies
+        href: ../project-operations/resource-management/associate-resources-companies.md
+    - name: Booking allocation methods
+      href: ../project-operations/resource-management/booking-allocation-methods.md  
+    - name: Booking statuses
+      href: resource-management/booking-status.md
     - name: Define booking modes
       href: define-booking-modes-mode-2.md
-    - name: Resource requirements
-      items: 
-      - name: Define resource requirements
-        href: define-resource-requirements-mode-2.md
-      - name: Define requirement contours
-        href: define-requirement-contours-mode-2.md
-    - name: Book resources
-      href: book-resources-mode-2.md
-    - name: Review requests
-      href: review-requests-mode-2.md
+    - name: Skills and proficiency models
+      href: ../project-operations/resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
-      - name: Resource reconciliation overview
-        href: resouce-reconciliation-overview-mode-2.md
-      - name: Resource navigation
-        href: resource-navigation-mode-2.md
+      - name: Resource reconciliation home page
+        href: ../project-operations/resource-management/resource-reconciliation-overview.md
+      - name: Key concepts
+        href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
+      - name: Navigation
+        href: ../project-operations/resource-management/resource-reconciliation-navigation.md
       - name: Extend bookings
-        href: extend-bookings-mode-2.md
+        href: ../project-operations/resource-management/extend-bookings.md
+      - name: Managing with multiple time zones
+        href: ../project-operations/resource-management/manage-multiple-time-zones.md
     - name: Resource utilization
       items:
-      - name: Resource utilization overview
-        href: resource-utilization-overview-mode-2.md
-      - name: Search and navigation for resource utilization 
-        href: search-navigation-resource-utilization-mode-2.md
+      - name: Resource utilization home page
+        href: ../project-operations/resource-management/resource-utilization-overview.md
+      - name: Search, settings, and navigation
+        href: ../project-operations/resource-management/search-settings-navigation.md
     - name: Schedule board
-      items: 
-      - name: Navigation and key settings of the schedule board
-        href: navigation-key-settings-schedule-board-mode-2.md
-      - name: Search the schedule board
-        href: search-schedule-board-mode-2.md
+      items:
+      - name: Navigation and key settings
+        href: ../project-operations/resource-management/navigation-key-settings-urs.md
+      - name: Personalization
+        href: ../project-operations/resource-management/personalization-urs.md
+      - name: Search
+        href: ../project-operations/resource-management/search-urs.md
       - name: Booking actions
-        href: booking-actions-mode-2.md
+        href: ../project-operations/resource-management/booking-actions-urs.md
+      - name: Booking
+        items:
+        - name: Book to a project
+          href: ../project-operations/resource-management/book-project.md
+        - name: Book open requirements
+          href: ../project-operations/resource-management/book-open-requirements.md
+        - name: Substitute resources
+          href: ../project-operations/resource-management/substitute-resources.md
+        - name: Edit existing bookings
+          href: ../project-operations/resource-management/edit-existing-bookings.md
+    - name: Resource management FAQ
+      href: ../project-operations/resource-management/resource-management-faq.md
   - name: Time
     items: 
-    - name: Time overview
-      href: time-overview-mode-2.md
+    - name: Time entry home page
+      href: ../project-operations/time/time-entry-overview.md
     - name: Create time entries
-      hreF: create-time-entries-mode-2.md
-    - name: Time entry developer notes
+      items:
+      - name: Import bookings, assignments, and calendar entries
+        href: ../project-operations/time/import-bookings-assignments-calendar-entries.md
+      - name: UI behavior
+        href: ../project-operations/time/ui-behavior.md
+    - name: Submit time entries
+      href: time/submit-time-entries.md
+    - name: ../project-operations/Recall time entries
+      items:
+      - name: Before approval
+        href: ../project-operations/time/recall-time-entries-before-approval.md
+      - name: After approval
+        href: ../project-operations/time/recall-time-entries-after-approval.md
+    - name: Approve time entries
+      href: ../project-operations/time/approvals.md
+    - name: Developer notes
       items: 
-      - name: Extending the Time entries entity
-        href: extend-time-entries-entity-mode-2.md
-      - name: Customize the weekly Time entry grid
-        href: customize-weekly-time-entry-grid-mode-2.md
+      - name: Extend time entries
+        href: ../project-operations/time/extending-time-entries.md
+      - name: Customize the weekly time entry grid
+        href: ../project-operations/time/customize-weekly-time-entry-grid.md
       - name: Security considerations
-        href: security-considerations-time-entry-mode-2.md
+        href: ../project-operations/time/security-considerations.md
   - name: Expense
     items: 
-    - name: Expense overview
-      href: expense-overview-mode-2.md
+    - name: Expense home page
+      href: ../project-operations/expense/expense-overview.md
+    - name: Expense entry
+      href: expense-entry.md
   - name: Approvals
     items: 
-    - name: Approvals overview
-      href: approvals-overview-mode-2.md
-    - name: Time entry approvals
-      href: time-entry-approvals-mode-2.md
-  - name: Invoicing
+    - name: Overview
+      href: ../project-operarations/approvals/approvals-overview.md
+    - name: Approve time entries
+      href: approvals/approving-time-entries.md
+    - name: Approve expense entries
+      href: approve-expense-entries.md
+  - name: Proforma invoicing
     items: 
-    - name: Invoicing overview
-      href: invoicing-overview-mode-2.md
-  - name: Troubleshooting and FAQs
-        
+    - name: Create invoice schedules
+      href: ../project-operarations/proforma-invoicing/create-invoice-schedules.md
+    - name: Create a manual Proforma invoice
+      href: ../project-operarations/proforma-invoicing/create-manual-proforma-invoice.md
+    - name: Manage a Proforma invoice
+      href: ../project-operarations/proforma-invoicing/manage-proforma-invoice.md
+    - name: Confirm a Proforma invoice
+      href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
+    - name: Corrective invoices
+      href: ../project-operarations/proforma-invoicing/corrective-invoices.md
+    - name: Configurr an automated invoice creation
+      href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md
+  
