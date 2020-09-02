@@ -12,7 +12,7 @@
     href: sample-data-mode-2.md
   - name: Sales process
     items:
-    - name: Sales process home page
+    - name: Sales process overview
       href: ../project-operations/sales/sales-overview.md
     - name: Key differences
       href: ../project-operations/sales/key-differences.md
@@ -24,9 +24,9 @@
         href: ../project-operations/sales/sales-units-unit-groups.md
       - name: Currency
         href: ../project-operations/sales/sales-currency.md
-    - name: Managing leads
+    - name: Manage leads
       href: ../project-operations/sales/managing-leads.md
-    - name: Managing opportunities
+    - name: Manage opportunities
       items: 
       - name: Opportunity header
         href: ../project-operations/sales/opportunity-header.md
@@ -100,9 +100,11 @@
           href: ../project-operations/sales/import-estimate-project-contract-line.md
         - name: Manage contract values, customer budgets, and not-to-exceed limits on a contract line
           href: ../project-operations/sales/manage-contract-values-project-based.md
+        - name: Invoice schedules on a quote line
+          href: ../project-operations/sales/invoice-schedules-quote-line.md 
       - name: Confirm a contract
         href: ../project-operations/sales/confirm-contract.md
-      - name: Close a contract as Work completed
+      - name: Close a contract as work completed
         href: ../project-operations/sales/close-contract-work-completed.md
       - name: Close a contract as canceled
         href: ../project-operations/sales/close-contract-canceled.md
@@ -113,7 +115,7 @@
     - name: Project price lists
       items:
       - name: Price list for cost
-        item/s:
+        items:
         - name: Set up cost price lists
           href: ../project-operations/pricing-costing/cost-price-list-setup.md
         - name: Price list defaults
@@ -130,7 +132,7 @@
           href: ../project-operations/pricing-costing/sales-override-default.md
     - name: Pricing dimensions
       items:
-      - name: Pricing dimensions home page
+      - name: Pricing dimensions overview
         href: ../project-operations/pricing-costing/pricing-dimension-overview.md
       - name: Use an existing field in Project operations as a pricing dimension
         href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
@@ -146,10 +148,14 @@
         href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
   - name: Project management
     items: 
-    - name: Project management home page
+    - name: Project management overview
       href: ../project-operations/project-management/project-management-overview.md
     - name: Project stages
       href: ../project-operations/project-management/project-stages.md
+    - name: Navigating the UI
+      href: ../project-operations/project-management/navigate-ui.md
+    - name: Understanding project status
+      href: ../project-operations/project-management/understand-project-status.md
     - name: Define project calendars
       href: ../project-operations/project-management/define-project-calendars.md
     - name: Create a project
@@ -158,6 +164,8 @@
         href: ../project-operations/project-management/create-initial-estimates.md
       - name: Set the project calendar
         href: ../project-operations/project-management/set-project-calendar.md
+      - name: Set the project currency
+        href: ../project-operations/project-management/set-project-currency.md
       - name: Define a customer
         href: ../project-operations/project-management/set-customer.md
       - name: Add a group
@@ -192,9 +200,17 @@
           href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
         - name: View assignment contours
           href: ../project-operations/project-management/view-assignment-contours.md
+      - name: Navigate the task management experience
+        items: 
+        - name: Column management
+          href: ../project-operations/project-management/column-management.md
+        - name: Views
+          href: ../project-operations/project-management/task-management-views.md
+        - name: Buckets
+          href: ../project-operations/project-management/task management-buckets.md    
     - name: Estimate projects
       items: 
-      - name: Estimate projects home page
+      - name: Estimate projects overview
         href: ../project-operations/project-management/estimate-projects-overview.md
       - name: Resource estimates
         items:
@@ -234,9 +250,9 @@
         href: ../project-operations/project-management/update-completed-estimate.md
     - name: Project team members
       items: 
-      - name: Project team members home page
+      - name: Project team members overview
         href: ../project-operations/project-management/project-team-members-overview.md
-      - name: Maintaining team members
+      - name: Maintain team members
         items: 
         - name: Add team members
           href: ../project-operations/project-management/add-team-members.md
@@ -246,6 +262,8 @@
           href: ../project-operations/project-management/delete-team-members.md
         - name: Maintain bookings
           href: ../project-operations/project-management/maintain-bookings.md
+        - name: Project approvers
+          href: ../project-operations/project-management/project-approvers.md
     - name: Sales
       items:
       - name: Sales tab overview
@@ -254,9 +272,11 @@
       items: 
       - name: Groups
         href: ../project-operations/project-management/groups.md
+    - name: Project planning FAQ
+      href: ../project-operations/project-management/project-planning-faq.md
   - name: Resource management
     items: 
-    - name: Resource management homepage
+    - name: Resource management overview
       href: ../project-operations/resource-management/resource-management-overview.md
     - name: Key concepts
       href: ../project-operations/resource-management/resource-management-key-concepts.md
@@ -272,7 +292,7 @@
         href: ../project-operations/resource-management/resource-management-mode-central.md
     - name: Centralized booking
       items:
-      - name: Centralized booking home page
+      - name: Centralized booking overview
         href: ../project-operations/resource-management/centralized-booking-overview.md
       - name: Add generic team members to tasks
         href: ../project-operations/resource-management/add-generic-team-members-tasks.md
@@ -286,17 +306,17 @@
         href: ../project-operations/resource-management/submit-resource-requirements.md
       - name: Resource requests
         items: 
-        - name: Resource requests home page
+        - name: Resource requests overview
           href: ../project-operations/resource-management/resource-requests-overview.md
         - name: Review fields and actions
           href: ../project-operations/resource-management/review-fields-actions.md
         - name: Find resources
           href: ../project-operations/resource-management/find-resources.md
-        - name: Reviewing proposed resources
+        - name: Review proposed resources
           href: ../project-operations/resource-management/review-proposed-resources.md
     - name: Decentralized resource booking
       items:
-      - name: Decentralized resource booking home page 
+      - name: Decentralized resource booking overview
         href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
       - name: Options to book directly
         href: ../project-operations/resource-management/options-book-directly.md
@@ -320,13 +340,11 @@
       href: ../project-operations/resource-management/booking-allocation-methods.md  
     - name: Booking statuses
       href: resource-management/booking-status.md
-    - name: Define booking modes
-      href: define-booking-modes-mode-2.md
     - name: Skills and proficiency models
       href: ../project-operations/resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
-      - name: Resource reconciliation home page
+      - name: Resource reconciliation overview
         href: ../project-operations/resource-management/resource-reconciliation-overview.md
       - name: Key concepts
         href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
@@ -334,11 +352,11 @@
         href: ../project-operations/resource-management/resource-reconciliation-navigation.md
       - name: Extend bookings
         href: ../project-operations/resource-management/extend-bookings.md
-      - name: Managing with multiple time zones
+      - name: Manage multiple time zones
         href: ../project-operations/resource-management/manage-multiple-time-zones.md
     - name: Resource utilization
       items:
-      - name: Resource utilization home page
+      - name: Resource utilization overview
         href: ../project-operations/resource-management/resource-utilization-overview.md
       - name: Search, settings, and navigation
         href: ../project-operations/resource-management/search-settings-navigation.md
@@ -366,7 +384,7 @@
       href: ../project-operations/resource-management/resource-management-faq.md
   - name: Time
     items: 
-    - name: Time entry home page
+    - name: Time entry overview
       href: ../project-operations/time/time-entry-overview.md
     - name: Create time entries
       items:
@@ -375,8 +393,8 @@
       - name: UI behavior
         href: ../project-operations/time/ui-behavior.md
     - name: Submit time entries
-      href: time/submit-time-entries.md
-    - name: ../project-operations/Recall time entries
+      href: ../project-operations/time/submit-time-entries.md
+    - name: Recall time entries
       items:
       - name: Before approval
         href: ../project-operations/time/recall-time-entries-before-approval.md
@@ -418,6 +436,6 @@
       href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
     - name: Corrective invoices
       href: ../project-operarations/proforma-invoicing/corrective-invoices.md
-    - name: Configurr an automated invoice creation
+    - name: Configure an automated invoice creation
       href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md
   
