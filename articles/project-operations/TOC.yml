@@ -1,4 +1,4 @@
-- name: Dynamics 365 Project operations
+- name: Dynamics 365 Project Operations
   href: project-operations-home-page.md
 - name: Project Operations for resource/non-stocked based scenarios
   items:
@@ -514,7 +514,7 @@
       href: proforma-invoicing/corrective-invoices.md
     - name: Configure an automated invoice creation
       href: proforma-invoicing/configure-automated-invoice-creation.md
-- name: Lite deployment - deal to pro forma invoicing
+- name: Lite deployment - deal to proforma invoicing
   items:
   - name: Applicable scenarios
     href: applicable-scenarios.md
