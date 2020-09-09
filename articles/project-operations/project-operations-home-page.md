@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Project operation home page
+title: Project Operations home page
 description: This topic provides information about Dynamics 365 Project operations.
 author: kfend
 manager: AnnBe
@@ -29,4 +29,4 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Project operations home page
+# Project Operations home page
