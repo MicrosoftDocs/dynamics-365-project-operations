@@ -6,8 +6,6 @@
     items:
     - name: Sales overview
       href: sales/sales-overview.md
-    - name: Key differences
-      href: sales/key-differences.md
     - name: Setup
       items:
       - name: Products
@@ -524,8 +522,6 @@
     items:
     - name: Sales process overview
       href: sales/sales-overview.md
-    - name: Key differences
-      href: sales/key-differences.md
     - name: Setup
       items: 
       - name: Products
