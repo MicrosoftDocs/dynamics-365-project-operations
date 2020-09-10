@@ -2,10 +2,10 @@
 # required metadata
 
 title: Units and unit groups
-description: 
+description: This topic provides information about how to create units and unit groups in Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 08/11/2020
+ms.date: 09/10/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -33,22 +33,19 @@ ms.search.validFrom: 2020-10-01
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.
 
-Before you begin the procedure, make sure that you have the System Administrator or Sales Professional Manager role or equivalent permissions assigned to you.
+To complete the steps in this topic, make sure that you have been assigned to the System Administrator or Sales Professional Manager role or have equivalent permissions.
 
-1.  In the site map, select **Units**.
-2.  Select **New**, and in the **Create Unit Group** dialog box, fill in your information, and select **OK**:
+## Create a unit group
 
-    - **Name**: Enter a meaningful name for the unit group. In our example, you would type "Televisions."
-    - **Primary Unit**: Enter the lowest common unit of measure that the product will be sold in. In our example, you would type "Piece." Other examples could include box, cartons, ounces, hours, or tons, depending on your product.
+1. In the site map, select **Units**.
+2. Select **New**, and in the **Create Unit Group** dialog box, enter the unit name.
+3. In the **Primary unit** field, enter the lowest common unit of measure that the product will be sold in. For example, you might enter "piece" or "ounce".
+4. Select **OK**.
 
-3.  To add units to the unit group, open the unit group you just created, select the **Related** tab, and then select **Units**.
-4.  On the **Units** tab, you’ll see that the primary unit is already added. Select **Add New Unit**.
-5.  On the **Quick Create: Unit** page, fill in the following, and then select **Save**:
+## Add units to a unit group
 
-    - **Name**: Enter a meaningful name for the unit. In our example, you would enter "box."
-    - **Quantity**: Enter the quantity that this unit will contain. For example, if a box contains two pieces, you would type "2."
-    - **Base Unit**: Select a base unit. The base unit will establish the lowest unit of measurement for the unit you're creating. Using our example, you would select "Piece."
-
-    
-
-
+1. Open a unit group, and on the **Related** tab, select **Units**. You will see that the primary unit is already added.
+2. Select **Add New Unit**, and on the **Quick Create: Unit** page, in the **Name** field, enter the nanem of the unit.
+3. In the **QUantity** field, enter the quantity that the unit will contain. For example, if a box contains two pieces, enter "2". 
+4. In the **Base unit** field, select a base unit to establish the lowest unit of measurement for the unit. For example, you might select "Piece".
+5. Select **Save**:
