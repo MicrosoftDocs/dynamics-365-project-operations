@@ -308,8 +308,6 @@
           href: resource-management/review-proposed-resources.md
     - name: Decentralized resource booking
       items: 
-      - name: Decentalized resource booking overview
-        href: resource-management/centralized-booking-overview.md
       - name: Options to book directly
         href: resource-management/options-book-directly.md
       - name: Fulfill generic resource requirements
@@ -332,8 +330,6 @@
       href: resource-management/booking-allocation-methods.md
     - name: Booking status
       href: resource-management/booking-status.md
-    - name: Skills and proficiency models
-      href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
@@ -854,8 +850,6 @@
       href: resource-management/booking-allocation-methods.md  
     - name: Booking statuses
       href: resource-management/booking-status.md
-    - name: Skills and proficiency models
-      href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
