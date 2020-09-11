@@ -5,7 +5,7 @@ title: Products
 description:  
 author: rumant
 manager: AnnBe
-ms.date: 08/11/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -112,15 +112,15 @@ To stop selling a product, delete it.
  
  ## Quantity factors for products
 
-PSA uses quantity factors to support the sale of subscription-based products. For subscription-based products, the quantity on the quote or project contract line is expressed as the number of user months.
+Quantity factors support the sale of subscription-based products. For subscription-based products, the quantity on the quote or project contract line is expressed as the number of user months.
 
 Usually, the price of subscription software is stored in the catalog as the price per user per month. However, you can use other time descriptions instead. During the sales process, the price on the quote line is usually the per-user, per-month price that was negotiated and discounted by the IT sales agent. Each deal has a different number of users and a different number of subscription months. The quantity that is used to compute the amount of the quote line is a product of the number of users and the number of subscription months.
 
-To support this type of sale, PSA introduced the concept of quantity factors. Quantity factors rely on the product attributes in Dynamics 365. When you configure specific properties for a product, PSA lets you flag a subset of those properties, or all the properties, as quantity factors.
+Quantity factors rely on product attributes. When you configure specific properties for a product, you can flag a subset of those properties, or all the properties, as quantity factors.
 
-PSA validates that only numeric properties or product properties that have a numeric data type are flagged as quantity factors. When a product that quantity factors are configured for is added to a quote line, the **Quantity** field on the quote line becomes a read-only field. After you enter values for product properties that are quantity factors, PSA computes the quantity of the quote line.
+The system validates that only numeric properties or product properties that have a numeric data type are flagged as quantity factors. When a product that quantity factors are configured for is added to a quote line, the **Quantity** field on the quote line becomes a read-only field. After you enter values for product properties that are quantity factors, the quantity of the quote line is calculated.
 
-For example, Dynamics 365 might have the following properties: 
+For example, if there are the following properties: 
 
 - **No of users**: The number of users 
 - **No of Months**: The number of subscription months
