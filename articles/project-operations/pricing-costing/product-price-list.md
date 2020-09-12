@@ -2,10 +2,10 @@
 # required metadata
 
 title: Product price lists
-description: 
+description: This topic provides information about the price lists in catalog pricing used for project quotes and contracts. 
 author: rumant
 manager: AnnBe
-ms.date: 08/11/2020
+ms.date: 09/12/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -47,19 +47,19 @@ PSA supports various rounding options when prices are configured as a function o
 
 > ![Adding products from a catalog to different price lists](media/basic-guide-16.png)
 
-When you create a new custom price list for a quote by selecting **Create Custom Pricing** on the **Project Quote** page, PSA makes a copy of the price list, and the **Entity** field on the header of the new price list is set to **Sales Entity**. The name of the new price list is appended with the name of the quote and a timestamp. You also can use the name of the new price list and the name of the quote in custom workflows to trigger additional review and approvals for quotes that use custom pricing.
+When you create a new custom price list for a quote by selecting **Create Custom Pricing** on the **Project Quote** page, a copy of the price list is made, and the **Entity** field on the header of the new price list is set to **Sales Entity**. The name of the new price list is appended with the name of the quote and a timestamp. You also can use the name of the new price list and the name of the quote in custom workflows to trigger additional review and approvals for quotes that use custom pricing.
 
  
 ## Default product price list
-Each customer record has a **Default Price List** field, where you can specify a price list that matches the currency of the customer. In PSA, a default value isn't automatically entered in this field. When a custom pricing agreement with a specific customer exists, you can use this field to associate a price list with that customer.
+Each customer record has a **Default Price List** field, where you can specify a price list that matches the currency of the customer. A default value isn't automatically entered in this field. When a custom pricing agreement with a specific customer exists, you can use this field to associate a price list with that customer.
 
 The Opportunity, Quote, and Project Contract entities use the following order to enter default product price lists. The same order is used for project price lists.
 
 1.	Quote
 2.	Opportunity
 3.	Customer
-4.	Global settings for PSA
+4.	Global settings 
 
 By default, the **Product** field on the quote line lists all the active products in the product price list of the quote. If a product has been inactivated, or if it's a draft product, it isn't listed, even if it's in the price list. 
 
-Product catalog lines are added as invoice lines on the first invoice that is created for a project contract. On a draft invoice, those invoice lines can be deleted. In that case, the lines will appear on a subsequent invoice until they are invoiced, or until the invoice is sent to the customer. In PSA, you can't invoice a partial quantity of a product invoice line. When the product lines from the project contract are invoiced, actuals are created. However, those actuals aren't linked to the related project entity. In other words, product-based project contract lines are independent of any project-based use. PSA doesn't track material consumption on projects.
+Product catalog lines are added as invoice lines on the first invoice that is created for a project contract. On a draft invoice, those invoice lines can be deleted. In that case, the lines will appear on a subsequent invoice until they are invoiced, or until the invoice is sent to the customer. You can't invoice a partial quantity of a product invoice line. When the product lines from the project contract are invoiced, actuals are created. However, those actuals aren't linked to the related project entity. In other words, product-based project contract lines are independent of any project-based use. Material consumption on projects isn't tracked.
