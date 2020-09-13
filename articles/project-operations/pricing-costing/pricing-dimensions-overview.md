@@ -2,10 +2,10 @@
 # required metadata
 
 title: Pricing dimensions home page
-description: 
+description: This toipc provides information about the pricing dimensions in Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 08/11/2020
+ms.date: 09/12/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -36,20 +36,16 @@ The dimensions that are used in human resources to set up pricing and costs fall
 - People
 - Planned work
 
-Because of this, there are two types of pricing dimension values available in Project Service Automation (PSA): 
+Because of this, there are two types of pricing dimension values available:
 
 - **Option sets**: Dimensions that are fixed enumerations for a set of values.
 - **Entity-based values**: Dimensions that can be a varied set of values.
 
 ## Pricing dimensions
 
-PSA ships with a default set of pricing dimensions. You can view these by going to **Project Service** > **Parameters**. In the parameter record, on the **Amount-based pricing dimensions** tab, verify that the role, **msdyn_resourcecategory** and resourcing organizational unit, **msdyn_organizationalunit** have the fields **Applicable to sales** and **Applicable to cost** set to **Yes**. 
+Dynamics 365 Project Operations ships with a default set of pricing dimensions. You can view these by going to **Project Operations** > **Parameters**. In the parameter record, on the **Amount-based pricing dimensions** tab, verify that the role, **msdyn_resourcecategory** and resourcing organizational unit, **msdyn_organizationalunit** have the fields **Applicable to sales** and **Applicable to cost** set to **Yes**. 
 This will allow you to set up the price and cost for each role and organizational unit combination.
-
-![Screenshot of Project Service parameters with “Applicable to Sales” highlighted](media/PS-OOB-parameters.png)
-
-> [!IMPORTANT]
-> If you have been the using out-of-the box fields of role and organizational unit as pricing dimensions prior to version 3 of PSA, there will not be any observable change. You can continue to use Project Service as usual. 
+ 
 
 If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics, however note that you must complete the procedures in the order listed below:
 
