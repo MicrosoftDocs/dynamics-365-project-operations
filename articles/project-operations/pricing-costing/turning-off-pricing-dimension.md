@@ -2,10 +2,10 @@
 # required metadata
 
 title: Turning off a pricing dimension
-description:  
+description: This topic provides information about how to turn off pricing dimensions.
 author: rumant
 manager: AnnBe
-ms.date: 08/17/2020
+ms.date: 09/13/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -37,7 +37,7 @@ Turning off a pricing dimension, regardless if it is out-of-the-box or custom, c
 
 However, when you do this, you might receive the error message, **Pricing dimension cannot be updated or deleted if there are associated price records.**
 
-This error message indicates that there are price records that were previously set up for the dimension that is being turned off. All **Role Price** and **Role Price Markup** records that refer to a dimension must be deleted before the dimension’s applicability can be to set to **No**. This rule applies to both out-of-the-box pricing dimensions and any custom pricing dimensions that you may have created. The reason for this validation is because Project Service has a constraint that each **Role Price** record must have a unique combination of dimensions. For example, on a price list called **US Cost Rates 2018**, you have the following **Role price** rows. 
+This error message indicates that there are price records that were previously set up for the dimension that is being turned off. All **Role Price** and **Role Price Markup** records that refer to a dimension must be deleted before the dimension’s applicability can be to set to **No**. This rule applies to both out-of-the-box pricing dimensions and any custom pricing dimensions that you may have created. The reason for this validation is because each **Role Price** record must have a unique combination of dimensions. For example, on a price list called **US Cost Rates 2018**, you have the following **Role price** rows. 
 
 | Standard Title         | Org Unit    |Unit   |Price  |Currency  |
 | -----------------------|-------------|-------|-------|----------|
@@ -45,4 +45,4 @@ This error message indicates that there are price records that were previously s
 | Senior Systems Engineer|Contoso US|Hour| 150| USD|
 
 
-When you turn off **Standard Title** as the pricing dimension, and the Project Service pricing engine searches for a price, it will only use the **Org Unit** value from the input context. If the **Org Unit** of the input context is “Contoso US”, the result will be non-deterministic because both the rows will match. To avoid this scenario, when you create **Role Price** records, Project Service validates that the combination of dimensions is unique. If the dimension is turned off after the **Role Price** records are created, this constraint can be violated. Therefore, it is required that before you turn off a dimension, you delete all **Role Price** and **Role Price Markup** rows that have that dimension value populated.
+When you turn off **Standard Title** as the pricing dimension, and the pricing engine searches for a price, it will only use the **Org Unit** value from the input context. If the **Org Unit** of the input context is “Contoso US”, the result will be non-deterministic because both the rows will match. To avoid this scenario, when you create **Role Price** records, the system validates that the combination of dimensions is unique. If the dimension is turned off after the **Role Price** records are created, this constraint can be violated. Therefore, it is required that before you turn off a dimension, you delete all **Role Price** and **Role Price Markup** rows that have that dimension value populated.
