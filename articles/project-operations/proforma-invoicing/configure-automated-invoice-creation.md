@@ -2,10 +2,10 @@
 # required metadata
 
 title: Configure automated invoice creation
-description:  
+description: This topic provides information about hot to configure the system to generate invoices automatically.
 author: rumant
 manager: AnnBe
-ms.date: 08/18/2020
+ms.date: 09/13/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -33,7 +33,7 @@ ms.search.validFrom: 2020-10-01
 
 Complete the following steps to configure an automated invoice run in Project operations.
 
-1. Go to **Project Service** \> **Settings** \> **Batch jobs**.
+1. Go to **Settings** \> **Batch jobs**.
 2. Create a batch job, and name it **Project operations create invoices**. The name of the batch job must include the term "create invoices."
 3. In the **Job type** field, select **None**. By default, the **Frequency Daily** and **Is Active** options are set to **Yes**.
 4. Select **Run Workflow**. In the **Look Up Record** dialog box, you will see three workflows:
@@ -54,4 +54,4 @@ After **ProcessRunner** has finished running, it calls **ProcessRunCaller**, pro
 The batch process job for creating invoices is a recurrent job. If this batch process is run many times, multiple instances of the job are created and cause errors. Therefore, you should start the batch process only one time, and you should restart it only if it stops running.
 
 > [!NOTE]
-> Batch invoicing in Project Service Automation only runs for project contract lines that are configured by invoice schedules. A contract line with a fixed price billing method must have milestones configured. A project contract line with a time and material billing method will need a date-based invoice schedule set up. Information about setting up invoicing frequencies in the context of a project that is based on a quote line, is provided in the topic, [Quotes and quote lines](basic-quote-lines.md#invoice-schedule). The same applies to a project-based contract line.     
+> Batch invoicing only runs for project contract lines that are configured by invoice schedules. A contract line with a fixed price billing method must have milestones configured. A project contract line with a time and material billing method will need a date-based invoice schedule set up. Information about setting up invoicing frequencies in the context of a project that is based on a quote line, is provided in the topic, [Quotes and quote lines](basic-quote-lines.md#invoice-schedule). The same applies to a project-based contract line.     
