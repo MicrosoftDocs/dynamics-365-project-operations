@@ -2,10 +2,10 @@
 # required metadata
 
 title: Add custom fields to price setup and transactional entities
-description:  
+description: This topic provides information about how to add required custom field references to entities and to forms and views.
 author: rumant
 manager: AnnBe
-ms.date: 08/17/2020
+ms.date: 09/13/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -31,7 +31,7 @@ ms.search.validFrom: 2020-10-01
 
 # Add custom fields to price setup and transactional entities
 
-This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
+This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions). If you haven't completed those procedures, go back and complete them and then return to this topic. 
 
 In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.
 
@@ -39,7 +39,7 @@ In this topic, the procedures will show you how to add the required custom field
 After custom fields and entities have been created, the next step is to make price setup and transactional entities aware of any custom entities or option sets by creating reference fields. Depending on whether your pricing dimensions list includes option set dimensions or entity dimensions or both, follow only the steps in **Option set-based custom pricing dimensions** or **Entity-based custom pricing dimensions**, or both, respectively.
 
 ### Option set-based custom pricing dimensions
-When a custom pricing dimension is option set-based, add it as a field to key Project Service entities. In the following procedure, **Resource Work Location** and **Resource Work Hours** are used as the option set-based pricing dimensions. These must first be added as fields to the pricing entities, **Role Price** and **Role Price Markup**.
+When a custom pricing dimension is option set-based, add it as a field to key entities. In the following procedure, **Resource Work Location** and **Resource Work Hours** are used as the option set-based pricing dimensions. These must first be added as fields to the pricing entities, **Role Price** and **Role Price Markup**.
 
 1. In Project operations, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select **Entities > Role Price**.
@@ -64,7 +64,7 @@ In the sales and estimation phases for a project, estimates of the work effort t
 
 For delivery and invoicing, completed work needs to be accurately priced to select whether it was performed **Local** or **Onsite**, and whether it was completed during **Regular hours** or **Overtime** on the Project Actuals. The **Resource Work Location** and **Resource Work hours** fields should be added to the **Time Entry**, **Actual**, **Invoice Line Detail**, and **Journal Line** entities.
 
-1. In PSA, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.
+1. Click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.
 2. In Solution Explorer, on the left navigation pane, select  **Entities > Time Entry**.
 3. Expand the **Quote Line Detail** entity, and then select **Fields**.
 4. Click **New** to create a new field called **Resource Work Location** and select **Option set** as the field type. 
@@ -76,21 +76,21 @@ This completes the schema changes required for option set-based custom dimension
 
 ## Entity-based custom pricing dimensions
 
-When the custom pricing dimension is an entity, you will add 1:N relationships between the dimension entity and key Project Service entities. Using the Standard Title example from above, it is reasonable to expect that each employee is assigned a standard title. SAs a result, you will need a 1:N relationship from Standard Title to Bookable Resource, or a N:1 relationship if it were created from Bookable Resource to Standard Title.
+When the custom pricing dimension is an entity, you will add 1:N relationships between the dimension entity and key entities. Using the Standard Title example from above, it is reasonable to expect that each employee is assigned a standard title. SAs a result, you will need a 1:N relationship from Standard Title to Bookable Resource, or a N:1 relationship if it were created from Bookable Resource to Standard Title.
 
 1. In Project operations, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select **Entities > Standard Title**.
 3. Expand the **Standard Title** entity and select **1:N Relationships**.
 4. Click **New** to create a new 1:N relationship called **Standard Title to Bookable Resource**. Enter the required information, and then click **Save**.
 
-The Standard Title will also need to be added to Project Service Pricing entities, **Role Price** and **Role Price Markup**. This is also completed using 1:N relationships between the **Standard Title** and **Role Price** entities and **Standard Title** and **Role Price Markup** entities.
+The Standard Title will also need to be added to Pricing entities, **Role Price** and **Role Price Markup**. This is also completed using 1:N relationships between the **Standard Title** and **Role Price** entities and **Standard Title** and **Role Price Markup** entities.
 
 1. In Solution Explorer, on the left navigation pane, select **Entities > Standard Title**.
 2. Expand the **Standard Title** entity and select **1:N Relationships**.
 3. Click **New** to create a new 1:N relationship called **Standard Title to Role Price**. Enter the required information, and then click **Save**.
 4. Repeat steps 1 - 4 to create 1:N relationships between the **Standard Title** and **Role Price Markup** entities,
 
-In the sales and estimation phases for the project, to price the Quote/Project, estimates of the work effort are required for each standard title. This means that 1:N relationships from Standard Title to each of these estimation entities in Project Service are needed: 
+In the sales and estimation phases for the project, to price the Quote/Project, estimates of the work effort are required for each standard title. This means that 1:N relationships from Standard Title to each of these estimation entities are needed: 
 
 - **Quote line Detail**
 - **Project Contract Line Detail**
@@ -122,7 +122,7 @@ After you have made all of the required schema changes, the next step is to make
 
 The following table provides a comprehensive list of out-of-the-box forms and views, by entity, that will need to be updated with the new fields. If you have any additional views or forms in your customizations on these entities, add the new fields to those as well.
 
-| Project Service Entity        | Forms that need the new field   |Views that need the new field      |
+| Entity        | Forms that need the new field   |Views that need the new field      |
 | ------------------------------|---------------------------------|----------------------------------|
 |  Role Price|• Information |• Active Resource Category Prices<br> • Resource Category Price Associated View|
 |  Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
