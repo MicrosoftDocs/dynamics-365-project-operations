@@ -511,17 +511,17 @@
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Applicable scenarios
-    href: applicable-scenarios.md
+    href: pro/applicable-scenarios.md
   - name: What's new
-    href: whats-new-mode-2-project-operations.md
+    href: pro/whats-new-mode-2-project-operations.md
   - name: Set up your environment
-    href: set-up-environment-mode-2.md
+    href: pro/set-up/set-up-environment-mode-2.md
   - name: Sample data
-    href: sample-data-mode-2.md
+    href: pro/set-up/sample-data-mode-2.md
   - name: Sales process
     items:
     - name: Sales process overview
-      href: sales/sales-overview.md
+      href: pro/sales/sales-overview.md
     - name: Setup
       items: 
       - name: Products
@@ -531,89 +531,95 @@
       - name: Currency
         href: sales/sales-currency.md
     - name: Manage leads
-      href: sales/managing-leads.md
+      href: pro/sales/managing-leads-sales.md
     - name: Manage opportunities
       items: 
       - name: Opportunity header
-        href: sales/opportunity-header.md
+        href: pro/sales/opportunity-header-sales.md
       - name: Product-based lines
-        href: sales/product-based-lines.md
+        href: pro/sales/product-based-lines-sales.md
       - name: Project-based lines
-        href: sales/project-based-lines.md
+        href: pro/sales/project-based-lines-sales.md
       - name: Link quotes and opportunities
-        href: sales/link-quotes-opportunities.md
+        href: pro/sales/link-quotes-opportunities-sales.md
       - name: Close an opportunity 
-        href: sales/close-opportunity.md
+        href: pro/sales/close-opportunity-sales.md
     - name: Manage quotes
       items:
       - name: Key concepts
-        href: sales/quotes-key-concepts.md
+        href: pro//quotes-key-concepts-sales.md
       - name: Manage quoted values, customer budgets, and not-to-exceed limits
-        href: sales/quote-values-budget-limits.md
+        href: pro/sales/quote-values-budget-limits-sales.md
       - name: Manage multiple customers on a quote
-        href: sales/manage-multiple-customers-quote.md
+        href: pro/sales/manage-multiple-customers-quote-sales.md
       - name: Product-based quote lines
         items: 
         - name: Costing product-based quote lines
-          href: sales/costing-product-based-quote-lines.md
+          href: pro/sales/costing-product-based-quote-lines-sales.md
         - name: Manage complex units for product-based quote lines
-          href: sales/managing-complex-units-product-based-quote-lines.md
+          href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
       - name: Project-based quote lines
         items: 
         - name: Manage project price lists
-          href: sales/manage-project-price-lists.md
+          href: pro/sales/manage-project-price-lists-sales.md
         - name: Manage multiple customers on a quote line
-          href: sales/manage-multiple-customers-quote-line.md
+          href: pro/sales/manage-multiple-customers-quote-line-sales.md
         - name: Map projects and tasks to a quote line
-          href: sales/mapping-projects-tasks-quote-line.md
+          href: pro/sales/mapping-projects-tasks-quote-line-sales.md
         - name: Create estimates on a quote line
-          href: sales/create-estimate-quote-line.md
+          href: pro/sales/create-estimate-quote-line-sales.md
         - name: Import estimates from a project to a quote line
-          href: sales/import-estimate-project-quote-line.md
+          href: pro/sales/import-estimate-project-quote-line-sales.md
         - name: Manage quoted values, customer budgets, and not-to-exceed limits
-          href: sales/manage-quoted-values-budget-limites-quote-line.md
+          href: pro/sales/manage-quoted-values-budget-limites-quote-line-sales.md
         - name: Invoice schedules on a quote line
-          href: sales/invoice-schedule-quote-line.md
+          href: pro/sales/invoice-schedule-quote-line-sales.md
       - name: Win a quote
-        href: sales/win-quote.md
+        href: pro/sales/win-quote-sales.md
       - name: Lose a quote
-        href: sales/lose-quote.md
+        href: pro/sales/lose-quote-sales.md
     - name: Manage contracts
       items: 
       - name: Key concepts
-        href: sales/contracts-key-concepts.md 
+        href: pro/sales/contracts-key-concepts-sales.md 
       - name: Manage contract values, customer budgets, and not-to-exceed limits 
-        href: sales/contract-quote-values-budgets-limits.md
+        href: pro/sales/contract-quote-values-budgets-limits-sales.md
       - name: Manage multiple customers on a contract
-        href: sales/manage-multiple-customers-contract.md
+        href: pro/sales/manage-multiple-customers-contract-sales.md
       - name: Product-based contract lines
         items:
         - name: Costing product-based contract lines
-          href: sales/cost-product-based-contract-lines.md
+          href: pro/sales/cost-product-based-contract-lines-sales-sales.md
         - name: Manage complex units for product-based contract lines
-          href: sales/manage-complex-units-product-based-contract-lines.md
+          href: pro/sales/manage-complex-units-product-based-contract-lines-sales-sales.md
       - name: Project-based contract lines
         items: 
         - name: Manage project price lists
-          href: sales/manage-project-price-lists.md
+          href: pro/sales/contract-manage-project-price-lists-sales.md
         - name: Manage multiple customers on a contract line
-          href: sales/manage-multiple-customers-contract-line.md
+          href: pro/sales/manage-multiple-customers-contract-line-sales.md
         - name: Map projects and tasks to a contract line
-          href: sales/mapping-projects-tasks-contract-line.md
+          href: pro/sales/mapping-projects-tasks-contract-line-sales.md
         - name: Create estimates from a project to a contract line
-          href: sales/create-estimate-project-contract-line.md
+          href: pro/sales/create-estimate-project-contract-line-sales.md
         - name: Import estimates from a project to a contract line
-          href: sales/import-estimate-project-contract-line.md
+          href: pro/sales/import-estimate-project-contract-line-sales.md
         - name: Manage contract values, customer budgets, and not-to-exceed limits on a contract line
-          href: sales/manage-contract-values-project-based.md
-        - name: Invoice schedules on a quote line
-          href: sales/invoice-schedules-quote-line.md 
+          href: pro/sales/manage-contract-values-project-based-sales.md
+        - name: Invoice schedules on a contract line
+          href: pro/sales/invoice-schedules-contract-line-sales.md 
+      - name: Set up advances and retainer-based contracts
+        items: 
+        - name: Create an ad-hoc advance
+          href: pro/sales/create-ad-hoc-advance-sales.md
+        - name: Set up a schedule of retainers
+          href: pro/sales/set-up-schedule-retainers-sales.md
       - name: Confirm a contract
-        href: sales/confirm-contract.md
+        href: pro/sales/confirm-contract-sales.md
       - name: Close a contract as work completed
-        href: sales/close-contract-work-completed.md
+        href: pro/sales/close-contract-work-completed-sales.md
       - name: Close a contract as canceled
-        href: sales/close-contract-canceled.md
+        href: pro/sales/close-contract-canceled-sales.md
   - name: Pricing and costing
     items: 
     - name: Product price lists
