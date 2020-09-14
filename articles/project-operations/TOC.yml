@@ -922,29 +922,45 @@
         href: time/security-considerations.md
   - name: Expense
     items: 
-    - name: Expense home page
+    - name: Expense overview
       href: expense/expense-overview.md
     - name: Expense entry
       href: expense-entry.md
   - name: Approvals
     items: 
-    - name: Overview
+    - name: Approvals overview
       href: approvals/approvals-overview.md
     - name: Approve time entries
       href: approvals/approving-time-entries.md
     - name: Approve expense entries
       href: approve-expense-entries.md
+  - name: Actuals
+    items:
+    - name: Actuals overview
+      href: pro/actuals/actuals-overview-sales.md
+    - name: Create actuals from Time and Expense approvals
+      href: pro/actuals/create-actuals-time-expense-approvals-sales.md
+    - name: Entry journals
+      href: pro/actuals/entry-journals-sales.md
+    - name: Correction journals
+      items:
+      - name: Time corrections
+        href: pro/actuals/time-correction-sales.md 
+      - name: Expense corrections
+        href: pro/actuals/expense-correction-sales.md
   - name: Proforma invoicing
     items: 
     - name: Create invoice schedules
-      href: proforma-invoicing/create-invoice-schedules.md
+      href: pro/proforma-invoicing/create-invoice-schedules-sales.md
+    - name: Invoice an advance or retainer-based payment
+      href: pro/proforma-invoicing/invoice-advanc-retainer-payment-sales.md
     - name: Create a manual Proforma invoice
-      href: proforma-invoicing/create-manual-proforma-invoice.md
+      href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
     - name: Manage a Proforma invoice
-      href: proforma-invoicing/manage-proforma-invoice.md
+      href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
     - name: Confirm a Proforma invoice
-      href: proforma-invoicing/confirm-proforma-invoice.md
+      href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
     - name: Corrective invoices
-      href: proforma-invoicing/corrective-invoices.md
+      href: pro/proforma-invoicing/corrective-invoices-sales.md
     - name: Configure an automated invoice creation
-      href: proforma-invoicing/configure-automated-invoice-creation.md
+      href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
