@@ -2,7 +2,7 @@
 # required metadata
 
 title: Create and confirm Correction journals
-description: This toi cprovides inofrmation about how to create and confirm a correction journal.
+description: This topic provides inofrmation about how to create and confirm a correction journal.
 author: rumant
 manager: AnnBe
 ms.date: 09/13/2020
