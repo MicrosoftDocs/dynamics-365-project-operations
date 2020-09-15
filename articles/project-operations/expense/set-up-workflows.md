@@ -37,9 +37,9 @@ A workflow represents a business process. It defines how a document flows throug
 
 -   **Consistent processes** — You can define the approval process for specific documents, such as purchase requisitions and expense reports. Using the workflow system helps to ensure that documents are processed and approved in a consistent and efficient manner.
 
--   Process visibility — You can track the status, history, and performance metrics of a specific workflow instance. This helps you  determine whether changes should be made to the workflow to improve efficiency.
+-   **Process visibility** — You can track the status, history, and performance metrics of a specific workflow instance. This helps you  determine whether changes should be made to the workflow to improve efficiency.
 
--   Centralized work list — Users can view a centralized work list to view the workflow tasks and approvals assigned to them. 
+-   **Centralized work list** — Users can view a centralized work list to view the workflow tasks and approvals assigned to them. 
 
 ## Workflows 
 
