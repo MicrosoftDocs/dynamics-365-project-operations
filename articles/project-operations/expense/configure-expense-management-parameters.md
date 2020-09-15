@@ -35,7 +35,8 @@ The parameters control the general behavior in Expense management.
 
 | **Field**                                                | **Description**                                                 |
 |----------------------------------------------------------|---------------------------------------------------------------------|
-| **Standard rate of mileage**                             | Enter the reimbursement rate for mileage expenses. The rate will be multiplied by the mileage entered on the expense to calculate the amount reimbursed for the travel expense.                       |
+| **Standard rate of mileage**                             | Enter the reimbursement rate for mileage expenses. The rate will be multiplied by the mileage entered on the expense to calculate the amount reimbursed for the travel expense. 
+| **Validate expense purpose**                             | Enable this option to limit users to an existing set of values as configured under "Purpose of expense report" when they create expense reports.                 |
 |**Personal expenses paid by**                             | Select who is responsible for paying any credit card transaction amounts categorized as personal.                                                                                                     |
 |**Display entire expense report on drillback**               | Select this option to display all expenses for an expense report when viewing the details of the original document for a specific voucher that was generated when the expense report was posted.              |
 |**Pre-authorization of travel is mandatory**                 | Select this option to require that a travel requisition be submitted and approved before an employee can submit an expense report.                                                                    |
@@ -44,7 +45,8 @@ The parameters control the general behavior in Expense management.
 |**Allow intercompany expense lines**                         | Select whether to allow entry of expenses for other legal entities within an expense report.                                                                                                          |
 |**Allow editing the exchange rate for credit card expenses** | Select this option to allow the user to edit the exchange rate for imported credit card expenses.                                                                        |
 |**Multi-level hierarchy fields to display**                  | Select which approver fields to display when the expense report workflow assignment type is set to be hierarchy and the hierarchy selection is set to use the Expense multi-level approval hierarchy. When the multi-level approval hierarchy is used for workflow, the selected fields will be displayed and editable in the Expense report. |
-|**Enter employee credit card number (July 2017 update)**     | Select whether a 15-or 16-character number can be entered and saved in the **Card ID** field in the **Credit cards** page for an employee.                                                                          |
+|**Enter employee credit card number**     | Select whether a 15-or 16-character number can be entered and saved in the **Card ID** field in the **Credit cards** page for an employee.          
+|**Validate travel requisition purpose**  | Enable this option to limit users to an existing set of values as configured under "Purpose of expense report" when they create travel requisitions.   |  
 
 ## Financial
 
