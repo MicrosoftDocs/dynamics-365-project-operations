@@ -3,9 +3,9 @@
 
 title: Project Operations home page
 description: This topic provides information about Dynamics 365 Project operations.
-author: kfend
+author: stsporen
 manager: AnnBe
-ms.date: 06/22/2020
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
