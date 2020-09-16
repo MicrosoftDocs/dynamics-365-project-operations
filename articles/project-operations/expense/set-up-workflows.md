@@ -31,7 +31,7 @@ ms.dyn365.ops.version:
 # Set up workflows for Expense management
 
 
-You can set up a workflow process that is used to review and approve travel and expense documents. The documents for which workflows can be defined include expense reports, travel requisitions, and cash advance requests.
+You can set up a workflow process that is used to review and approve travel and expense documents. Workflows can be defined for expense reports, travel requisitions, and cash advance requests.
 
 A workflow represents a business process. It defines how a document flows through the system and indicates who must complete a task  or approve a document. There are several benefits of using the workflow system in your organization:
 
@@ -43,12 +43,12 @@ A workflow represents a business process. It defines how a document flows throug
 
 ## Workflows 
 
-The following table lists the types of workflows that you can create in **Expense**.
+The following table lists the types of workflows that you can create in **Expense Management**.
 
 
 |              <strong>Type</strong>              |                   <strong>Use this type to</strong>                   |
 |-------------------------------------------------|-----------------------------------------------------------------------|
-|         <strong>Expense report</strong>         |            Create approval workflows for expense reports.             |
+|   <strong>Expense report auto approval</strong> |            Create approval workflows for expense reports.             |
 |  <strong>Expense report auto posting</strong>   |        Create automatic posting workflows for expense reports.        |
 |       <strong>Expense line item</strong>        |     Create approval workflows for line items on expense reports.      |
 | <strong>Expense line item auto posting</strong> | Create automatic posting workflows for line items on expense reports. |
