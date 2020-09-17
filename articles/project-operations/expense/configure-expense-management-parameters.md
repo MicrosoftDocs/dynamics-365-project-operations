@@ -5,7 +5,7 @@ title: Configure Expense management parameters
 description: The following parameters control the behavior in Expense management.
 author: suvaidya
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -22,7 +22,7 @@ ms.search.scope:
 # ms.custom: 
 ms.search.region: 
 # ms.search.industry: 
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ---
