@@ -2,10 +2,10 @@
 # required metadata
 
 title: Define expense policies
-description: You can define expense policies that your workers must follow when entering and submitting expense reports and travel requisitions in Microsoft Dynamics 365 Finance. 
+description: You can define expense policies that your workers must follow when entering and submitting expense reports and travel requisitions. 
 author: suvaidya
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -22,7 +22,7 @@ ms.search.scope:
 # ms.custom: 
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ---
