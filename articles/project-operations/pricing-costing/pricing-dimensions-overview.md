@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Pricing dimensions home page
-description: This toipc provides information about the pricing dimensions in Dynamics 365 Project Operations.
+title: Pricing dimensions overview
+description: This topic provides information about the pricing dimensions in Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/12/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -29,7 +29,9 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Pricing dimensions home page
+# Pricing dimensions overview
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 The dimensions that are used in human resources to set up pricing and costs fall into two categories:
 
