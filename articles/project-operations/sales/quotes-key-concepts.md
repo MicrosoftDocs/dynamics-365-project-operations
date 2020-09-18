@@ -5,7 +5,7 @@ title: Quotes - Key concepts
 description: This topic provides information about project quotes and sales quotes available in Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 08/11/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -30,6 +30,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Quotes - Key concepts
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 In Dynamics 365 Project Operations, there are two types of quotes, project and sales. The two types of quotes differ in the following ways:
 
