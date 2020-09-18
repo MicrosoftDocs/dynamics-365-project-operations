@@ -5,7 +5,7 @@ title: Project price lists
 description: This topic provides information about the Project price list entity.
 author: rumant
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -30,6 +30,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Project price lists
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Dynamics 365 Project Operations extends the Price list entity in Dynamics 365 Sales. 
 
