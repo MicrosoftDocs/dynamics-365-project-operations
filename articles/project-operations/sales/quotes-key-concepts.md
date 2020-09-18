@@ -88,8 +88,6 @@ Professional service organizations typically quote and invoice their customers b
 - **Milestone**: This classification is used by the fixed-price billing logic.
 
 One or more of these transaction classifications can be associated with each quote line. After a quote is won, the mapping between transaction classification and quote line is transferred to the contract line.
- 
-> ![Screenshot of mapping transaction types to quote and contract lines](media/basic-guide-5.png)
   
 For example, a quote might contain the following two quote lines: 
 
