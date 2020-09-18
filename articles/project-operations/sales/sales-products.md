@@ -5,7 +5,7 @@ title: Products
 description:  
 author: rumant
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
