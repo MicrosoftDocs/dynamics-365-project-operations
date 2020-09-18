@@ -86,25 +86,10 @@ If you added a custom field on the quote line detail and want the system to ente
 
 1. Open PluginRegistrationTool, and connect to your online instance.
 2. Select **Search**, and search for the plug-in to update.
-
-    ![Search Tree dialog box](media/basic-guide-19.png)
-
 3. Select the plug-in, and then, on the main page, select **Select**.
 4. Select the step of the plug-in to update, right-click, and then select **Update**.
-
-    ![Selecting a step in the plug-in](media/basic-guide-20.png)
-
 5. In the **Update Existing Step** dialog box, in the **Filtering Attributes** field, select the ellipsis button (**...**):
- 
-    ![Update Existing Step dialog box](media/basic-guide-21.png)
-
 6. In the **Select Attributes** dialog box, select check boxes for custom attributes.
-
-    ![Select Attributes dialog box](media/basic-guide-22.png)
-
 7. Select **OK** to close the dialog box, and then select **Update Step**.
- 
-    ![Update Step button](media/basic-guide-23.png)
-
 8. Repeat steps 1 through 7 for the second plug-in.
 9. Close the PluginRegistrationTool.
