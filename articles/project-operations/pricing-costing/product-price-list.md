@@ -5,7 +5,7 @@ title: Product price lists
 description: This topic provides information about the price lists in catalog pricing used for project quotes and contracts. 
 author: rumant
 manager: AnnBe
-ms.date: 09/12/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -30,6 +30,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Product price lists
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Price lists and price list item entities support product catalog pricing. For the most part, this functionality is used for catalog-based lines on project quotes and project contracts.
 
