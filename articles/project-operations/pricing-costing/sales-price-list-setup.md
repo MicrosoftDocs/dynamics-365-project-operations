@@ -51,7 +51,7 @@ A default project price list isn't automatically entered on a customer record. H
 
 When a project price list is attached to a sales entity, the following information is validated:
 
-- The price list las a context of **Sales**. 
+- The price list has a context of **Sales**. 
 - The price list currency matches the customer currency. 
 
 On a project contract, the following order of precedence is used to automatically set related project price lists:
