@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Creating estimates on a quote line
+title: Create estimates on a quote line
 description: This topic provides information about how to create an estimate on a quote line for a project.
 author: rumant
 manager: AnnBe
@@ -29,7 +29,7 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Creating estimates on a quote line
+# Create estimates on a quote line
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -65,7 +65,7 @@ Time estimates are generated when you create a task and identify the attributes 
 
 Expense estimates are entered in the grid on the **Estimates** page.
 
-## Understanding estimation
+## Understand estimation
 
 Use the following table as a guide for understanding the business logic in the estimation phase.
 
@@ -80,7 +80,7 @@ Use the following table as a guide for understanding the business logic in the e
 
 
 
-## Customizing the Quote line detail and Contract line detail entities
+## Customize the Quote line detail and Contract line detail entities
 
 If you added a custom field on the quote line detail and want the system to enter the value of the field as a default value on the related cost line that it creates, use the PreOperationContractLineDetailUpdate and PreOperationQuoteLineDetailUpdate plug-in registration tools. These plug-ins must be re-registered after the quote line detail or the contract line detail is changed. Follow these steps to complete the process.
 
