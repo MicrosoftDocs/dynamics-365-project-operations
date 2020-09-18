@@ -5,7 +5,7 @@ title: Creating estimates on a quote line
 description: This topic provides information about how to create an estimate on a quote line for a project.
 author: rumant
 manager: AnnBe
-ms.date: 09/12/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -24,12 +24,14 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
 # Creating estimates on a quote line
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 On a project-based quote, you can use the Quote line detail entity to estimate the work that is required to deliver a project. You can then share that estimate with the customer.
 
