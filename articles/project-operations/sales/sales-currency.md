@@ -5,7 +5,7 @@ title: Currency
 description: This topic provides information about how to add and remove currency types in Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -30,6 +30,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Currency
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Currencies determine the prices for products in the product catalog and the cost of transactions, such as sales orders. If your customers are spread across geographies, add their currencies to manage your transactions. Add the currencies that are most appropriate for your current and future business needs.  
 
