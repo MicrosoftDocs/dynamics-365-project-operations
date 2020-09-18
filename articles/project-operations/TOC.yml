@@ -154,7 +154,7 @@
           href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
       - name: Turn off a pricing dimension
         href: pricing-costing/turn-off-pricing-dimension.md
-    - name: Project management
+  - name: Project management
     items: 
     - name: Project management overview
       href: project-management/project-management-overview.md
