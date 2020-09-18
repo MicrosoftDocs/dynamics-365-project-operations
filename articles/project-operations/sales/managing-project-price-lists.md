@@ -39,7 +39,7 @@ Dynamics 365 Project Operations extends the Price list entity in Dynamics 365 Sa
 
 A price list includes information that is provided by four different entities:
 
-- **Price List**: This entity stores information about context, currency, date effectivity, and time unit for pricing time. Context shows whether the price list is expresses cost rates or sales rates. 
+- **Price List**: This entity stores information about context, currency, date effectivity, and time unit for pricing time. Context shows whether the price list expresses cost rates or sales rates. 
 - **Currency**:  This entity stores the currency of prices on the price list. 
 - **Date**: This entity is used when the system tries to enter a default a price on a transaction. A price list that has date effectivity that includes the date of the transaction is selected. If  more than one price list is found that is effective for the transaction date and is attached to the related quote, contract, or organizational unit, then no price is defaulted. 
 - **Time**: This entity stores the unit of time that prices are expressed for, such as daily or hourly rates. 
@@ -56,13 +56,13 @@ The price list is a rate card. A rate card is a combination of the Price List en
 
 The term *resource role* refers to a set of skills, competencies, and certifications that a person must have to perform a specific set of tasks on a project.
 
-Human resources time is usually quoted based on the role that a resource fills on a specific project. For human resource time, costing and billing is based on resource role. Time can be priced in any unit in the **Time** unit group.
+Human resources time is quoted based on the role that a resource fills on a specific project. For human resource time, costing and billing is based on resource role. Time can be priced in any unit in the **Time** unit group.
 
-The **Time** unit group is created when you install Project Operations. It has a default unit of **Hour**. You can't delete, rename, or edit the attributes fo teh **Time** unit group or the **Hour** unit. However, you can add other units to the **Time** unit group. If you try to delete either the **Time** unit group or the **Hour** unit, you might cause failures in the business logic.
+The **Time** unit group is created when you install Project Operations. It has a default unit of **Hour**. You can't delete, rename, or edit the attributes fo the **Time** unit group or the **Hour** unit. However, you can add other units to the **Time** unit group. If you try to delete either the **Time** unit group or the **Hour** unit, you might cause failures in the business logic.
  
 ## Transaction categories and expense categories
 
-Travel and other expenses that project consultants incur are usually billed to the customer. Pricing of expense categories is completed by using price lists. Airfare, hotel, and car rental are examples fo expense categories. Each price list line for expenses specifies pricing for a specific expense category. The following three methods are used to price expense categories:
+Travel and other expenses that project consultants incur are billed to the customer. Pricing of expense categories is completed by using price lists. Airfare, hotel, and car rental are examples fo expense categories. Each price list line for expenses specifies pricing for a specific expense category. The following three methods are used to price expense categories:
 
 - **At cost**: The expense cost is billed to the customer, and no markup is applied.
 - **Markup percentage**: The percentage over the actual cost is billed to the customer. 
@@ -88,7 +88,7 @@ A default project price list isn't automatically entered on a customer record. H
 
 When a project price list is attached to a sales entity, the following information is validated:
 
-- The price list las a context of **Sales**. 
+- The price list has a context of **Sales**. 
 - The price list currency matches the customer currency. 
 
 On a project contract, the following order of precedence to automatically set related project price lists:
@@ -106,7 +106,7 @@ You can associate multiple project price lists with the Customer, Opportunity, Q
 
 You can create deal-specific overrides for selected prices on project price lists that are entered by default on a quote or project contract.
 
-By default, a project contract always gets a copy of the master sales price list instead of a direct link to it. This behavior helps guarantee that price agreements that are made iwth a customer for a statement of work (SOW) don't change if the master price list is changed.
+By default, a project contract always gets a copy of the master sales price list instead of a direct link to it. This behavior helps guarantee that price agreements that are made with a customer for a statement of work (SOW) don't change if the master price list is changed.
 
 However, on a quote, you can use a master price list. Alternatively, you can copy a master price list and edit it to create a custom price list that applies only to that quote. To create a new price list that is specific to a quote, on the **Quote** page, select **Create custom pricing**. You can access the deal-specific project price list only from the quote. 
 
@@ -114,7 +114,7 @@ When you create a custom project price list, only the project components of the 
   
 ## Tracking costs
 
-Project Opertaions tracks costs for the use of human resource time on projects. It also tracks costs for other expenses that are incurrred during hte project, such as travel expenses.
+Project Operations tracks costs for the use of human resource time on projects. It also tracks costs for other expenses that are incurred during the project, such as travel expenses.
 
 Like bill rates, cost rates for human resources are also set up using price lists. Here are the main differences in the behavior of the cost price list and sales price list:
 
