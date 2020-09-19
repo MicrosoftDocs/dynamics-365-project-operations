@@ -5,7 +5,7 @@ title: Configure automated invoice creation
 description: This topic provides information about hot to configure the system to generate invoices automatically.
 author: rumant
 manager: AnnBe
-ms.date: 09/13/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -30,6 +30,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Configure automated invoice creation
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Complete the following steps to configure an automated invoice run in Project operations.
 
