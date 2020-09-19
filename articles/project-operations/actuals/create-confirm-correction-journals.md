@@ -42,17 +42,24 @@ To complete the procedures in this topic, you will need Administrator permission
 Complete the following steps to correct single or multiple time entries for a project.
 
 1. In the **Sales** area, select **Transactions**, and then select **Approved Time**. 
+
 2. In the **Approved Time** list, locate and select one or more approved time entries to correct. You can use the filter to locate related entries. For example, you might filter on a Project ID, and select all approved time entries with that Project ID.
+
 3. Select **Correct entries**. A new correction journal is automatically created, with the assigned type **Time correction**. The entries you selected are added to the journal. 
+
 4. On the **New Journal** page, enter a **Description** for your correction journal, and then select the **Time Entry Corrections** tab.  
+
 5. In the **New Values for Time Entries** section, update the fields with the correct information as necessary. For example, you can change the assigned project or the bookable resource.
+
 6. Select **Preview**. In the dialog box, select **OK**. On the **Journal lines** tab, you can view a list of the original actuals that are related to the selected time entries that have been reversed and the corrected corresponding lines that have been created. If additional corrections need to be made, repeat steps 5 and 6. 
 
 > [!NOTE]
 > All the corrected actuals will have the same values that you selected in the **New values for Time Entries** section.
 
 7. If the corrections appear as expected, select **Confirm**. In the dialog box, select **OK**.
+
 8. Return to the **Sales** area, select **Projects**, and then open the project for which you just updated the time entries. 
+
 9. On the **Projects** page, on the **Actuals** tab, view the changes that you made. 
 
 > [!NOTE]
