@@ -41,7 +41,7 @@ Dynamics 365 Project Operations isn't designed to generate customer-facing invoi
 - It can't convert other currencies to the invoicing currency by using correctly configured exchange rates.
 - It can't correctly format invoices so that they can be printed.
 
-Instead, you can use a financial or accounting system to create customer-facing invoices that use the information from invoice proposals that are generated.
+Instead, you can use a financial or accounting system to create customer-facing invoices that use the information from generated invoice proposals.
 
 ## Creating project invoices
 
@@ -55,15 +55,11 @@ Follow this step to create an invoice for a specific project contract.
 
 - On the **Project Contracts** list page, open a project contract, and then select **Create Invoice**.
 
-    ![Creating project invoices for a specific project contract](media/CreateProjectInvoicesOneByOne.png)
-
     An invoice is generated for all transactions for the selected project contract that have a status of **Ready to Invoice**. These transactions include time, expenses, milestones, and product-based contract lines.
 
 Follow these steps to create invoices in bulk.
 
 1. On the **Project Contracts** list page, select one or more project contracts that you must create an invoice for, and then select **Create Project Invoices**.
-
-    ![Creating project invoices in bulk](media/CreateProjectInvoicesBulk.png)
 
     A warning message informs you that there might be a delay before invoices are created. The process is also shown.
 
@@ -98,7 +94,7 @@ After **ProcessRunner** has finished running, it calls **ProcessRunCaller**, pro
 The batch process job for creating invoices is a recurrent job. If this batch process is run many times, multiple instances of the job are created and cause errors. Therefore, you should start the batch process only one time, and you should restart it only if it stops running.
 
 > [!NOTE]
-> Batch invoicing only runs for project contract lines that are configured by invoice schedules. A contract line with a fixed price billing method must have milestones configured. A project contract line with a time and material billing method will need a date-based invoice schedule set up. Information about setting up invoicing frequencies in the context of a project that is based on a quote line, is provided in the topic, [Quotes and quote lines](basic-quote-lines.md#invoice-schedule). The same applies to a project-based contract line.      
+> Batch invoicing only runs for project contract lines that are configured by invoice schedules. A contract line with a fixed price billing method must have milestones configured. A project contract line with a time and material billing method will need a date-based invoice schedule set up. The same applies to a project-based contract line.      
  
 ### Edit a draft invoice
 
@@ -116,7 +112,7 @@ Confirmed invoices can be edited (corrected). When you correct a confirmed invoi
 
 If any transactions don't require correction, you can remove them from the draft corrective invoice. If you want to reverse or return only a partial quantity, you can edit the **Quantity** field on the line detail. If you open the invoice line detail, you can see the original invoice quantity. You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.
 
-When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created. If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too. For example, if the original billed sales was for eight hours, and the corrective invoice line detail has a reduced quantity of six hours, the original billed sales line is reversed and two new actuals are created:
+When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created. If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too. For example, if the original billed sale was for eight hours, and the corrective invoice line detail has a reduced quantity of six hours, the original billed sales line is reversed and two new actuals are created:
 
 - A billed sales actual for six hours.
 - An unbilled sales actual for the remaining two hours. This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.
