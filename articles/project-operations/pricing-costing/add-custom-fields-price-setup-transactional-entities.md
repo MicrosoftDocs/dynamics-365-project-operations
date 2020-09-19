@@ -5,7 +5,7 @@ title: Add custom fields to price setup and transactional entities
 description: This topic provides information about how to add required custom field references to entities and to forms and views.
 author: rumant
 manager: AnnBe
-ms.date: 09/13/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -31,6 +31,8 @@ ms.search.validFrom: 2020-10-01
 
 # Add custom fields to price setup and transactional entities
 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions). If you haven't completed those procedures, go back and complete them and then return to this topic. 
 
 In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.
@@ -41,11 +43,11 @@ After custom fields and entities have been created, the next step is to make pri
 ### Option set-based custom pricing dimensions
 When a custom pricing dimension is option set-based, add it as a field to key entities. In the following procedure, **Resource Work Location** and **Resource Work Hours** are used as the option set-based pricing dimensions. These must first be added as fields to the pricing entities, **Role Price** and **Role Price Markup**.
 
-1. In Project operations, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
+1. In Project operations, select **Settings** > **Solutions**, and double-click **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select **Entities > Role Price**.
 3. Expand the entity **Role Price** and select **Fields**.
-4. Click **New** to create a new field called **Resource Work Location** and select **Option set** as the field type. 
-5. Select **Use an existing Option set**, select the **Resource Work Location** option set, and then click **Save**.
+4. Select **New** to create a new field called **Resource Work Location** and select **Option set** as the field type. 
+5. Select **Use an existing Option set**, select the **Resource Work Location** option set, and then select **Save**.
 6. Repeat steps 1 - 5 to add this field to the **Role Price Markup** entity. 
 7. Repeat steps 1 - 5 for the **Resource Work Hours** option set.
 
@@ -54,21 +56,21 @@ When a custom pricing dimension is option set-based, add it as a field to key en
 
 In the sales and estimation phases for a project, estimates of the work effort that is required to complete **Local** and **Onsite** work, in **Regular hours** and **Overtime hours**  are used to estimate the value of the Quote/Project. The fields **Resource Work Location** and **Resource Work Hours** will be added to the estimation entities, **Quote Line Detail**, **Contract Line detail**, **Project Team Member**, and **Estimate Line**.
 
-1. In Project operations, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
+1. In Project operations, select **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select **Entities > Quote Line Detail**.
 3. Expand the **Quote Line Detail** entity, and select **Fields**.
-4. Click **New** to create a new field called **Resource Work Location** and select the field type, **Option set**. 
-5. Select **Use an existing Option set** and **Resource Work Location**, and then click **Save**.
+4. Select **New** to create a new field called **Resource Work Location** and select the field type, **Option set**. 
+5. Select **Use an existing Option set** and **Resource Work Location**, and then select **Save**.
 6. Repeat steps 1 - 5 to add this field to the **Project Contract line detail**, **Project Team Member**, and **Estimate Line** entities.
 7. Repeat steps 1 - 6 for the **Resource Work Hours** option set. 
 
 For delivery and invoicing, completed work needs to be accurately priced to select whether it was performed **Local** or **Onsite**, and whether it was completed during **Regular hours** or **Overtime** on the Project Actuals. The **Resource Work Location** and **Resource Work hours** fields should be added to the **Time Entry**, **Actual**, **Invoice Line Detail**, and **Journal Line** entities.
 
-1. Click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.
+1. Select **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**.
 2. In Solution Explorer, on the left navigation pane, select  **Entities > Time Entry**.
 3. Expand the **Quote Line Detail** entity, and then select **Fields**.
-4. Click **New** to create a new field called **Resource Work Location** and select **Option set** as the field type. 
-5. Select **Use an existing Option set**, select the **Resource Work Location** option set, and then click **Save**.
+4. Select **New** to create a new field called **Resource Work Location** and select **Option set** as the field type. 
+5. Select **Use an existing Option set**, select the **Resource Work Location** option set, and then select **Save**.
 6. Repeat steps 1 - 5 to add this field to the **Actual**, **Invoice Line Detail**, and **Journal Line** entities.
 7. Repeat steps 1 - 6 for the **Resource Work Hours** option set. 
 
@@ -78,16 +80,16 @@ This completes the schema changes required for option set-based custom dimension
 
 When the custom pricing dimension is an entity, you will add 1:N relationships between the dimension entity and key entities. Using the Standard Title example from above, it is reasonable to expect that each employee is assigned a standard title. SAs a result, you will need a 1:N relationship from Standard Title to Bookable Resource, or a N:1 relationship if it were created from Bookable Resource to Standard Title.
 
-1. In Project operations, click **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
+1. In Project operations, select **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select **Entities > Standard Title**.
 3. Expand the **Standard Title** entity and select **1:N Relationships**.
-4. Click **New** to create a new 1:N relationship called **Standard Title to Bookable Resource**. Enter the required information, and then click **Save**.
+4. Select **New** to create a new 1:N relationship called **Standard Title to Bookable Resource**. Enter the required information, and then select **Save**.
 
 The Standard Title will also need to be added to Pricing entities, **Role Price** and **Role Price Markup**. This is also completed using 1:N relationships between the **Standard Title** and **Role Price** entities and **Standard Title** and **Role Price Markup** entities.
 
 1. In Solution Explorer, on the left navigation pane, select **Entities > Standard Title**.
 2. Expand the **Standard Title** entity and select **1:N Relationships**.
-3. Click **New** to create a new 1:N relationship called **Standard Title to Role Price**. Enter the required information, and then click **Save**.
+3. Select **New** to create a new 1:N relationship called **Standard Title to Role Price**. Enter the required information, and then select **Save**.
 4. Repeat steps 1 - 4 to create 1:N relationships between the **Standard Title** and **Role Price Markup** entities,
 
 In the sales and estimation phases for the project, to price the Quote/Project, estimates of the work effort are required for each standard title. This means that 1:N relationships from Standard Title to each of these estimation entities are needed: 
@@ -108,8 +110,8 @@ For Time Entry, it would be helpful to have the system default the standard titl
 
 1. In Solution Explorer, on the left navigation pane, select **Entities > Standard Title**.
 2. Expand the **Standard Title** entity and select **1:N Relationships**.
-3. Double-click **Bookable Resource to Time Entry**. On the **Relationship** page, click **Use Field mappings**. 
-4. Click **New** to create a new field mapping between the **Standard Title** field on the **Bookable Resource** entity to the **Standard Title** reference field on **Time Entry** entity. 
+3. Double-click **Bookable Resource to Time Entry**. On the **Relationship** page, select **Use Field mappings**. 
+4. Select **New** to create a new field mapping between the **Standard Title** field on the **Bookable Resource** entity to the **Standard Title** reference field on **Time Entry** entity. 
 
 This completes the schema changes required for entity-based custom dimensions.
 
@@ -118,7 +120,7 @@ This completes the schema changes required for entity-based custom dimensions.
 After you have made all of the required schema changes, the next step is to make the fields visible in the UI by adding the fields to the forms and views.
 
 1. Open the form or the view. On the right navigation pane, select the field and drag it on to the form canvas. 
-2. If you are editing a view, use the right navigation pane, click **Add fields**, and in the **Field listing** dialog box, select the fields that you need and click **Ok**.
+2. If you are editing a view, use the right navigation pane, select **Add fields**, and in the **Field listing** dialog box, select the fields that you need and select **Ok**.
 
 The following table provides a comprehensive list of out-of-the-box forms and views, by entity, that will need to be updated with the new fields. If you have any additional views or forms in your customizations on these entities, add the new fields to those as well.
 
