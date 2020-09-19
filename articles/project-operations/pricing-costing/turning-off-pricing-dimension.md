@@ -5,7 +5,7 @@ title: Turning off a pricing dimension
 description: This topic provides information about how to turn off pricing dimensions.
 author: rumant
 manager: AnnBe
-ms.date: 09/13/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -30,6 +30,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Turning off a pricing dimension
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 You may need to review and update your pricing strategy every few years. Any updates you make might require that you turn off an existing pricing dimension and create a new one. For example, you may have previously priced by **Role**, but now you have decided to price by **Work Experience**. This may require you to turn off **Role** as a pricing dimension and create **Work Expereince** as a new pricing dimension. 
 
