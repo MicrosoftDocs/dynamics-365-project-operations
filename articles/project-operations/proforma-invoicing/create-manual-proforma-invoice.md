@@ -5,7 +5,7 @@ title: Create a manual proforma invoice
 description: This topic provides information about creating a proforma invoice.
 author: rumant
 manager: AnnBe
-ms.date: 09/13/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -30,6 +30,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Create a manual proforma invoice
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Invoicing gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when the time and expense entries that project team members submit are approved.
 
