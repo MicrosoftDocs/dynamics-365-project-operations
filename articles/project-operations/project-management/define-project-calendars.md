@@ -2,10 +2,10 @@
 # required metadata
 
 title: Define project calendars
-description:  
+description: This topic provides information about using a project calendar to track the project schedule.
 author: ruhercul
 manager: AnnBe
-ms.date: 08/18/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -24,16 +24,18 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: ruhercul
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
 # Define project calendars
 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures. To create a project calendar template, you associate a work template with the **Calendar template** field for the project. Follow these steps to create a work template.
 
-1. In Project operations, in the left navigation pane, select **Resources**. 
+1. In the left navigation pane, select **Resources**. 
 2. On the **Resources** list page, open a user record, and then select **Show Work Hours**.
 
   > [!NOTE]
