@@ -2,10 +2,10 @@
 # required metadata
 
 title: Project stages
-description:  
+description: This topic provides information about the project stages that are available in Microsoft Dynamics Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 08/18/2020
+ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -31,9 +31,11 @@ ms.search.validFrom: 2020-10-01
 
 # Project stages
 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 Project stages are designed to reflect the state of the project as it progresses. Customizations can be used to automatically update the stages with business process flows, Power Automate, or plug-in extensions.
 
-The following stages are defined in the default BPF:
+The following stages are defined in the default business process flow:
 
 - New
 - Quote
@@ -44,7 +46,7 @@ The following stages are defined in the default BPF:
 
 ## New
 
-When you create a project, the project stage is set to **New**. If the project was created from a template, it might have schedule, estimate, and team data. Otherwise, it's just an outline of the project, and the remaining components must be entered.
+When you create a project, the project stage is set to **New**. If the project was created from a template, it might have schedule, estimate, and team data. Otherwise, it's an outline of the project, and the remaining components must be entered.
 
 ## Quote
 
