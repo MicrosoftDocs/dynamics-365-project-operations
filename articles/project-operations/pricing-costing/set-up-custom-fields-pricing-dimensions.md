@@ -58,7 +58,7 @@ Resource Work hours (**msdyn_resourceworkhours**) is added as a markup-based dim
 The following sections provide information about the different attributes in the **Pricing Dimensions** table.
 
 ### Pricing Dimension Name
-This value should be the exact same as the schema name of the field that is added to the **Role Price** table for custom pricing dimensions. For more information about adding fields to the **Role Price** table, see [Add custom fields to price setup and transactional entities](field-references.md).
+This value should be the exact same as the schema name of the field that is added to the **Role Price** table for custom pricing dimensions. For more information about adding fields to the **Role Price** table, see [Add custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md).
 
 ### Type of dimension
 There are two types of pricing dimensions:
