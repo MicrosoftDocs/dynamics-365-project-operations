@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Add custom fields to price setup and transactional entities
+title: Add required custom fields to price setup and transactional entities
 description: This topic provides information about how to add required custom field references to entities and to forms and views.
 author: rumant
 manager: AnnBe
@@ -29,11 +29,11 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Add custom fields to price setup and transactional entities
+# Add required custom fields to price setup and transactional entities
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions). If you haven't completed those procedures, go back and complete them and then return to this topic. 
+This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities to be used as pricing dimensions](create-custom-fields-entities-pricing-dimensions.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
 
 In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.
 
