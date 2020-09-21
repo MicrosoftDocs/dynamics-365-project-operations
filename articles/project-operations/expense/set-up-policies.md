@@ -29,6 +29,8 @@ ms.dyn365.ops.version:
 
 # Define expense policies
 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 You can define policies that your workers must follow when entering and submitting expense reports and travel requisitions. 		
 Implementing expense policies can help you manage expenses effectively. 		
 
