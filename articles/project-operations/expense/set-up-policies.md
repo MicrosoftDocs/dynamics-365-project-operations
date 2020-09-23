@@ -5,7 +5,7 @@ title: Define expense policies
 description: You can define expense policies that your workers must follow when entering and submitting expense reports and travel requisitions. 
 author: suvaidya
 manager: AnnBe
-ms.date: 09/14/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -51,8 +51,8 @@ You can define three types of policies:
 ## Policy tips
 Here are a few suggestions that can assist you when creating new policies for expense management: 
 
-- Policies are date effective. This means a policy won't take effect if it's created with a date after the date that the expense occurred. For example, you create a new policy today to enforce a maximum meal expense of $50. Any existing expenses entered as of yesterday won't be checked against this policy.
-- When creating a policy for an expense category that can be itemized, consider adding a condition for expense line type. Some policies, such as requiring a receipt, may not make sense for itemized lines. In this situation, the policy only be applied to the header line or a non-itemized line. 
+- Policies are date effective which means a policy won't take effect if it's created with a date after the date that the expense occurred. For example, you create a new policy today to enforce a maximum meal expense of $50. Any existing expenses entered as of yesterday won't be checked against this policy.
+- When creating a policy for an expense category that can be itemized, consider adding a condition for expense line type. Some policies, such as requiring a receipt, may not make sense for itemized lines. In this situation, the policy only is applied to the header line or a non-itemized line. 
 - Expense management policies are evaluated against the source entity by default. For intercompany scenarios, you can set the policy to be evaluated against the destination entity (borrowing entity) instead. To run the policies against the destination entity, turn on the **Evaluate Expense policy against borrowing legal entity** feature in the **Feature Management** workspace.
 
 ## When to evaluate policies
