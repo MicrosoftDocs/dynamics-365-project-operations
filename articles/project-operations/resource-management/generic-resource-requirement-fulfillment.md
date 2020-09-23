@@ -36,7 +36,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 You can book a named resource to replace generic resource that has a resource requirement.
 
 1. On the **Projects** page, select the **Team** tab.
-2. Select the generic resource that has a resource requirement from the list, and then cselect **Book**. Or, open the resource requirement and then select **Book**.
+2. Select the generic resource that has a resource requirement from the list, and then select **Book**. Or, open the resource requirement and then select **Book**.
 3. On the **Schedule Assistant** page, select a named resource to book onto your project team and then select **Book**.
 
 When the booking is complete and fulfilled by a named resource, the generic resource is replaced with the named resource.
@@ -44,7 +44,7 @@ When the booking is complete and fulfilled by a named resource, the generic reso
 The assignments on the schedule are updated with the named resource as well.
 
 ## Fulfill a generic resource with multiple named resources
-Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource. For example, there is a task with a duration of five days and 120 hours of effort. This task can't be completed by one resource that works a typical eight-hour day over a five day week. 
+Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource. For example, there is a task with a duration of five days and 120 hours of effort. This task can't be completed by one resource that works a typical eight-hour day over a five-day week. 
 
 The requirement is for 120 hours of robotics engineering over five days, which is 24 hours per day.
 
