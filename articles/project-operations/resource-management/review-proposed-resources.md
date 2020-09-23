@@ -5,7 +5,7 @@ title: Review proposed resources
 description: This topic provides information about how to propose project resources.
 author: ruhercul
 manager: AnnBe
-ms.date: 08/19/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -24,33 +24,25 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: ruhercul
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
 # Review proposed resources
 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 Resource managers can propose a resource to the project manager by using a resource request.
 
 1. From the request grid or the request itself, select **Find Resources**.
 2. On the **Schedule Assistant** page, select the resource, and then, in the **Create Resource Booking** pane, in the **Booking Status** field, select **Book**.
 
-    ![Proposed resource selected](media/Resource-Management-image62.png)
-
 The following status updates occur:
 
 - On the **Schedule Assistant** page, the status indicators are updated to indicate that the booking is proposed, not hard-booked.
-
-    ![Status indicators for proposed booking on the Schedule Assistant page](media/Resource-Management-image63.png)
-
 - On the resource request, the status is changed to **Needs Review**.
-
-    ![Resource request status changed to Needs Review](media/Resource-Management-image64.png)
-
 - On the **Team** tab of the project, the generic team member's **Request Status** value is changed to **Needs Review**.
-
-    ![Generic team member's request status changed to Needs Review on the Team tab](media/Resource-Management-image48.png)
 
 The project manager can either accept or reject the proposal.
 
@@ -74,8 +66,6 @@ The following formulas are used to calculate utilization:
 
 You can find the **Resource Utilization** view in the **Resources** pane.
 
-![Resource Utilization view](media/Resource-Management-image65.png)
-
 Each cell in the grid represents the billable utilization percentage of the resource in a period, such as a day, week, or month. The following formulas are used to color the cells:
 
 - **Green:** Billable utilization \>= Resource target utilization
@@ -88,8 +78,6 @@ The grid requires that you set a target utilization on either the role or the in
 
 Additionally, a default role must be assigned to each bookable resource. Go to **Resources** \> **Resources**. On the **Project Service** tab, verify that a resource role is defined, and that the **Is Default** field for it is set to **Yes**. You can add additional roles where **Is Default = No**. The role where the **Is Default = Yes** is used to evaluate the resource's utilization against the target for that role.
 
-![Default role set](media/Resource-Management-image67.png)
-
 On the **Project Service** tab, you can also set an individual target utilization for the resource. The utilization calculation then uses that target utilization to evaluate the resource's target instead of the target of the resource's default role.
 
 Utilization is shown for a resource only if that resource has approved, chargeable time during the period that is shown in the grid.
@@ -100,18 +88,11 @@ It's critical that resource managers be able to view the availability of resourc
 
 Resource work hours are used as the basis for calculating the availability of a resource. Resource bookings consume the capacity of the resources.
 
-![Schedule Board](media/Resource-Management-image68.png)
-
 The Schedule Board uses colors and shading to show bookings, availability, and overbookings, and also the status of bookings. A setting in the Schedule Board settings lets you show a legend.
 
 If a right-pointing arrow appears next to an individual bookable resource on the Schedule Board, the resource can be expanded to show details of the work that the resource is booked on.
 
-![Bookable resource expanded on the Schedule Board](media/Resource-Management-image69.png)
-
-Because Dynamics 365 Project Service Automation uses the Universal Resource Scheduling engine, if you also have Dynamics 365 Field Service installed, you can view the details of resource bookings for projects, work orders, and any other entities that you've extended scheduling to.
-
-![Details of resource bookings for projects and work orders](media/Resource-Management-image70.png)
+Because Dynamics 365 Project Operations uses the Universal Resource Scheduling engine, if you also have Dynamics 365 Field Service installed, you can view the details of resource bookings for projects, work orders, and any other entities that you've extended scheduling to.
 
 To view more details about an individual resource, right-click it to open the resource card.
 
-![Resource card](media/Resource-Management-image71.png)
