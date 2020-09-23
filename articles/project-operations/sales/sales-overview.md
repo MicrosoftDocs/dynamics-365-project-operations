@@ -1,12 +1,12 @@
 ---
-title: Sales processes home page
+title: Sales processes overview
 description: This topic provides information about the basic sales processes.  
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
-ms.date: 08/03/2019
+ms.date: 09/23/2019
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -17,19 +17,17 @@ search.audienceType:
   - customizer
   - enduser
 search.app: 
-  - D365CE
-  - D365PS
 ---
 
-# Sales processes home page
+# Sales processes overview
 
-The sales processes that are used in a project-based organization differ from the sales processes that are used in a product-based organization. This is because the sales cycles for project-based organizations are longer and require customized estimate techniques to analyze and create quotes for each deal. Dynamics 365 Project operations uses some of the following functionality that is used in a sales process:
+The sales processes that are used in a project-based organization differ from the sales processes that are used in a product-based organization. This is because the sales cycles for project-based organizations are longer and require customized estimate techniques to analyze and create quotes for each deal. Dynamics 365 Project Operations uses some of the following functionality that is used in a sales process:
 
 - A Lead record is used to track the sales process.
 - Qualifying leads are tracked as opportunities.
 - All related artifacts for an opportunity are accessible. These artifacts include the sales team, stakeholders, probability, rating, sales stages, and business processes.
 - Multiple quotes are created for an opportunity.
-- A quote is given the status, **Closed as Won** to create a sales order. In Project operations, the sales order is customized and called a project contract.
+- A quote is given the status, **Closed as Won** to create a sales order. In Project Operations, the sales order is customized and called a project contract.
 
 ## Estimate a sale
 The value of a sale can be estimated based on projects that have previously been delivered and the complexity of the projects. For projects that involve extensions to previous projects, or projects where the vendor's expertise is high and well-known work templates are used, you can use a simpler estimation process. More complex projects usually have a longer purchase process. Therefore, there are more stages in the sales estimation process. Early in the process, the sales team uses the input of account managers and subject matter experts (SMEs) to create a high-level estimate for each distinct component of work that is quoted. These components of work are represented by quote lines. 
@@ -59,11 +57,11 @@ The **Qualify** stage in the sales process can be backed by an Opportunity entit
 As you move deals through the stages, you're prompted to create the appropriate entity record to help and guide you through the process. The stages can be conditional. For example, if you require an internal review of a quote only if the quote uses a custom price list, you can configure that condition in the appropriate stage of the business process. The **Internal Review** stage is then shown only for quotes that use a custom price list. For all other deals and quotes, the **Estimate** stage is followed by the **Contract** stage.
 
 > [!NOTE]
-> Project operations has specific pages for Opportunity, Quote, Order, and Invoice entity records. You must create these records using the project information pages for these entities. Otherwise, you won't be able to open the records from the **Project information** page. If you want to open a record from the **Project information** page, you must delete the record and recreate it using the **Project information** page where the business logic for each of these entity types ensures that the **Type** field of the record is set correctly, and all of the mandatory concepts are properly initialized.
+> Project Operations has specific pages for Opportunity, Quote, Order, and Invoice entity records. You must create these records using the project information pages for these entities. Otherwise, you won't be able to open the records from the **Project information** page. If you want to open a record from the **Project information** page, you must delete the record and recreate it using the **Project information** page where the business logic for each of these entity types ensures that the **Type** field of the record is set correctly, and all of the mandatory concepts are properly initialized.
 
 
 ## Track revisions to quotes and project plans in the sales cycle
-In Project operations, you can't track revisions that are made to a quote. Instead, you must mark the existing quote **Closed as Lost** and then create a new quote. You can copy a quote or clone a project-based quote.
+In Project Operations, you can't track revisions that are made to a quote. Instead, you must mark the existing quote **Closed as Lost** and then create a new quote. You can copy a quote or clone a project-based quote.
 
 ## Track comments and approvals of quotes and project contracts
 You can manage the review and approval of quotes and project contracts by using the record wall and posts. Your organization can create custom workflows and plug-ins to assign, redirect, escalate, and manage notifications of review and the approval of work items.
