@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Resource reconciliation home page
-description:  
+title: Resource reconciliation overview
+description: This topic provides information about ensuring that resource bookings and assignments to projects are aligned.
 author: ruhercul
 manager: AnnBe
-ms.date: 08/19/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -24,22 +24,22 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: ruhercul
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
-# Resource reconciliation home page
+# Resource reconciliation overview
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 For team members, bookings and assignments are loosely coupled. In other words, resources can have assignments but no bookings, or they can have bookings but no assignments. Ideally, bookings and assignments should be aligned, so that resources have committed capacity to perform the task assignments. However, the bookings might be based on availability, and task timings might change as the project continues. Therefore, the loose coupling of bookings and assignments provides flexibility.
 
-PSA has a **Reconciliation** tab that lets project managers reconcile team members' bookings and their assignments for project teams.
+The **Reconciliation** tab on the **Project** form lets project managers reconcile team members' bookings and their assignments for project teams.
 
-![Reconciliation tab](media/Resource-Management-image56.png)
+The **Reconciliation** tab also shows bookings and assignments down to the level of the individual task assignment for each team member. Hours are displayed in cells that represent time periods from months down to days.
 
-The **Reconciliation** tab shows bookings and assignments down to the level of the individual task assignment for each team member. It shows hours in cells that represent time periods from months down to days.
-
-The tab also shows an overall net total for the project, together with a total column.
+The tab also shows an overall net total for the project, together with a **Total** column.
 
 For each resource, the tab calculates the difference between the team member's bookings and a rollup of the team member's task assignments. Ideally, this difference should be 0 (zero). In other words, there should be no difference between bookings and assignments. Differences are colored and shaded to draw attention to two conditions:
 
@@ -50,11 +50,8 @@ In some cases, when you view time at a higher level than the day level (for exam
 
 When you view time at higher levels, cells in the **Reconciliation** tab have an indicator to inform you that there are differences at lower levels. By double-clicking in a cell, you can zoom in to view the difference. You can then right-click to zoom out. By selecting a resource and then using the **Next difference** control on the grid toolbar, you can go to the next difference between bookings and assignments for that resource. You can then use the **Previous difference** control to go back. You can also turn off the difference indicator and navigation behavior under **Settings**.
 
-![Difference indicator](media/Resource-Management-image57.png)
 
 If you have task assignments for a resource but no bookings, on the **Projects** page, on the **Reconciliation** tab, select the booking shortage, and then select **Extend Booking**. The **Extend Booking** dialog box appears and shows the booking that is needed to address the resource's shortage. It also shows the resource's existing bookings across all projects or other schedulable entities. If you select **OK** to create the booking for the resource, regardless of that resource's availability, you might cause overbooking.
-
-![Extend Booking dialog box](media/Resource-Management-image58.png)
 
 The project manager or resource manager can then use the Schedule Board to manage any situations where a resource is overbooked beyond its capacity.
 
