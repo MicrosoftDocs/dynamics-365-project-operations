@@ -31,7 +31,7 @@ ms.dyn365.ops.version:
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Depending on your organization's expense approval policies, more than one person might have to approve an expense report that is submitted by an employee. When you set up the workflow process for expense report approval, you can add workflow elements that include tasks or steps for one or more expense report approvers. For example, you might require that all expense reports be approved first by the manager of the employee who submitted the report and then by the Accounts payable coordinator.
+Depending on your organization's expense approval policies, more than one person might have to approve a submitted expense report. When you set up the workflow process for expense report approval, you can add workflow elements that include tasks or steps for one or more expense report approvers. For example, you might require that all expense reports be approved by two separate people, the manager of the employee who submitted the report and the Accounts payable coordinator.
 
 If you decide to require multiple expense report approvers, you can add the workflow elements in any of the following ways:
 
