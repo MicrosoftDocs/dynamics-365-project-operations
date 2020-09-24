@@ -5,7 +5,7 @@ title: Set up credit card integration
 description: This topic explains how to import and maintain expense-related credit card transactions.
 author: suvaidya
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -29,9 +29,9 @@ ms.dyn365.ops.version:
 
 # Set up credit card integration
 
-Expense-related credit card transactions can be set up so that they are automatically imported on a recurring schedule. Alternatively, the transactions can be manually imported as they are required. The credit card transactions are imported through the Credit card transactions data entity.
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-For more information about data entities, see [Data entities](../../dev-itpro/data-entities/data-entities.md).
+Expense-related credit card transactions can be set up so that they are automatically imported on a recurring schedule. Alternatively, the transactions can be manually imported as they are required. The credit card transactions are imported through the Credit card transactions data entity.
 
 ## Import credit card transactions
 
