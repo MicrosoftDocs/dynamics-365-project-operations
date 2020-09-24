@@ -5,7 +5,7 @@ title: Match a receipt to an expense using OCR
 description: This topic provides information about optical character recognition (OCR) processing for receipts.
 author: suvaidya
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-project-operations
@@ -29,15 +29,17 @@ ms.dyn365.ops.version:
 
 # Match a receipt to an expense using OCR
 
-Expense entry has been enhanced through the introduction of optical character recognition (OCR) processing for receipts. This feature is designed to improve the user experience when expense reports are created.
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+Expense entry has been enhanced through the introduction of optical character recognition (OCR) processing for receipts which is designed to improve the user experience when expense reports are created.
 
 ## Key features
 
-- The merchant name, date, and total amount are extracted from receipts.
-- The feature tries to match unattached receipts to unattached expense transactions.
-- Users can create manually entered expense transactions from receipts.
+- The system extracts the merchant name, date, and total amount from receipts.
+- The system will try to match unattached receipts to unattached expense transactions.
+- You can create manually entered expense transactions from receipts.
 
-## Usage examples
+## Attach receipts to an expense report
 
 To automatically attach receipts that include credit card transactions when an expense report is created, do the following:
 
@@ -46,6 +48,7 @@ To automatically attach receipts that include credit card transactions when an e
   3. On the **Expenses** tab, verify that unattached expenses exist. Typically, the expense administrator imports these expenses from the credit card provider.
   4. Select **New expense report**. Notice that you can include expenses, and receipts, now as well, when you create an expense report. If you add both expenses and receipts, automatic matching of the receipts against the expenses is triggered.
 
+## Create or match receipts to an expense report
 To create an expense, or match an expense from a receipt, do the following:
 
   1. On an expense report, on the **Receipts** tab, attach a receipt by selecting **Add receipts**.
@@ -55,8 +58,6 @@ To create an expense, or match an expense from a receipt, do the following:
       - If you select **Match**, the system tries to match an existing expense to the receipt.
 
 ## Installation
-
-This feature works in combination with the **Expense reports re-imagined** feature to help simplify the expense experience. This feature is only available for Tier 2+ environments, which are Sandbox and Production.
 
 To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -82,8 +83,6 @@ When you turn on these features the following actions occur:
 - Receipts will be processed through Microsoft Azure Cognitive Services, and metadata will be extracted and added.
 - An option is added that lets you create an expense report that includes matched unattached receipts.
 - An option that is added to expense reports lets you create an expense line from a receipt, or attempts to match an existing receipt to an existing expense line.
-
-For more information about the Expense reports re-imagined feature, see [Expense reports reimagined](ExpenseWorkspaceNew.md).
 
 ## Frequently asked questions
 
