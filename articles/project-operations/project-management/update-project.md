@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Understanding Project Status
+title: Updating a Project
 description: This topic provides information about Project management in Dynamics 365 Project operations. 
 author: ruhercul
 manager: AnnBe
