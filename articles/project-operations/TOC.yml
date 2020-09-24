@@ -188,12 +188,6 @@
         href: project-management/resource-estimates.md
       - name: Create expense estimates
         href: project-management/create-expense-estimates.md
-    - name: Build quotes and contracts
-      items: 
-      - name: Import work breakdown structure to quotes
-        href: project-management/import-wbs-structure-quotes.md
-      - name: Import work breakdown structure to contracts
-        href: project-management/import-wbs-structure-contracts.md
     - name: Project tracking
       items: 
       - name: Project tracking overview
@@ -208,10 +202,6 @@
         href: project-management/project-team-members-overview.md
       - name: Maintain team members
         href: project-management/maintain-team-members.md
-    - name: Sales
-      items:
-      - name: Sales tab overview
-        href: project-management/sales-tab-overview.md
     - name: Collaboration
       items: 
       - name: Groups
@@ -644,12 +634,6 @@
         href: project-management/resource-estimates.md
       - name: Create expense estimates
         href: project-management/create-expense-estimates.md
-    - name: Build quotes and contracts
-      items: 
-      - name: Import work breakdown structure to quotes
-        href: project-management/import-wbs-structure-quotes.md
-      - name: Import work breakdown structure to contracts
-        href: project-management/import-wbs-structure-contracts.md
     - name: Project tracking
       items: 
       - name: Project tracking overview
@@ -664,10 +648,6 @@
         href: project-management/project-team-members-overview.md
       - name: Maintain team members
         href: project-management/maintain-team-members.md
-    - name: Sales
-      items:
-      - name: Sales tab overview
-        href: project-management/sales-tab-overview.md
     - name: Collaboration
       items: 
       - name: Groups
