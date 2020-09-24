@@ -38,20 +38,20 @@ been created along with any applicable implications of the updates.
 Project Detail Fields
 ---------------------
 
--   **Name** – Define the title of the project
+-   **Name** – The title of the project.
 
--   **Description** – Define an overview of the project
+-   **Description** – An overview of the project.
 
--   **Customer** – Define the customer the project will be delivered for
+-   **Customer** – The company the project will be delivered to.
 
--   **Calendar template** – define the working hours of the project. When the
+-   **Calendar template** – The working hours of the project. When the
     field is changed, the entire schedule will be recalculated.
 
--   **Currency** – define the currency the project will be estimated in
+-   **Currency** – The currency the project is estiamted in.  This field is defaulted based on the currency defined in the contracting unit.  When the contracting unit is updated, the field is also updated.
 
 -   **Contracting Unit** – The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer. 
 
--   **Project Manager** – defines the project team member who has the authority
+-   **Project Manager** – The project team member who has the authority
     to review and approve time entries and expenses.
 
 Estimate Fields
