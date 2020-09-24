@@ -31,7 +31,7 @@ ms.dyn365.ops.version:
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Expense entry has been enhanced through the introduction of optical character recognition (OCR) processing for receipts which is designed to improve the user experience when expense reports are created.
+Expense entry has been enhanced through the introduction of optical character recognition (OCR) processing for receipts. This functionality is designed to improve the user experience when creating expense reports.
 
 ## Key features
 
@@ -41,7 +41,7 @@ Expense entry has been enhanced through the introduction of optical character re
 
 ## Attach receipts to an expense report
 
-To automatically attach receipts that include credit card transactions when an expense report is created, do the following:
+To automatically attach receipts that include credit card transactions when an expense report is created, complete the following steps.
 
   1. Open the **Expense management** workspace.
   2. On the **Receipts** tab, verify that unattached receipts exist. You can also upload receipts on the **Receipts** tab.
@@ -49,7 +49,7 @@ To automatically attach receipts that include credit card transactions when an e
   4. Select **New expense report**. Notice that you can include expenses, and receipts, now as well, when you create an expense report. If you add both expenses and receipts, automatic matching of the receipts against the expenses is triggered.
 
 ## Create or match receipts to an expense report
-To create an expense, or match an expense from a receipt, do the following:
+To create an expense, or match an expense from a receipt, complete the following steps.
 
   1. On an expense report, on the **Receipts** tab, attach a receipt by selecting **Add receipts**.
   2. Under the uploaded image of the receipt, notice the **Create** and **Match** options.
