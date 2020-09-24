@@ -30,6 +30,8 @@ ms.dyn365.ops.version:
 
 # Set up workflows for Expense management
 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 You can set up a workflow process to review and approve travel and expense documents. You can define workflows for expense reports, travel requisitions, and cash advance requests.
 
 A workflow represents a business process and defines how a document flows through the system. The workflow also indicates who must complete a task or approve a document. There are several benefits of using the workflow system in your organization:
