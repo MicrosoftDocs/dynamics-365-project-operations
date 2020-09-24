@@ -202,10 +202,6 @@
         href: project-management/project-team-members-overview.md
       - name: Maintain team members
         href: project-management/maintain-team-members.md
-    - name: Sales
-      items:
-      - name: Sales tab overview
-        href: project-management/sales-tab-overview.md
     - name: Collaboration
       items: 
       - name: Groups
@@ -652,10 +648,6 @@
         href: project-management/project-team-members-overview.md
       - name: Maintain team members
         href: project-management/maintain-team-members.md
-    - name: Sales
-      items:
-      - name: Sales tab overview
-        href: project-management/sales-tab-overview.md
     - name: Collaboration
       items: 
       - name: Groups
