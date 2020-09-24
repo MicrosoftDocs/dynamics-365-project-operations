@@ -49,7 +49,7 @@ Project Detail Fields
 
 -   **Currency** – define the currency the project will be estimated in
 
--   **Contracting Unit** – the default unit used to resource the project
+-   **Contracting Unit** – The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer. 
 
 -   **Project Manager** – defines the project team member who has the authority
     to review and approve time entries and expenses.
