@@ -374,7 +374,7 @@
         href: expense/expense-using-mobile.md
   - name: Approvals
     items: 
-    - name: Aprovals overview
+    - name: Approvals overview
       href: approvals/approvals-overview.md
     - name: Approve time entries
       href: approvals/approving-time-entries.md
@@ -446,7 +446,7 @@
       href: project-accounting/project-operations-integration-journal.md
   - name: Revenue recognition
     items: 
-    - name: Revenue recongition overview
+    - name: Revenue recognition overview
       href: revenue-recognition/revenue-recognition-overview.md
     - name: Recognize revenue at invoicing
       href: revenue-recognition/rev-rec-invoicing.md
@@ -590,7 +590,7 @@
         items:
         - name: Create custom fields and entities as pricing dimensions
           href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-        - name: Add custom fields to price setup and trasactional entities
+        - name: Add custom fields to price setup and transactional entities
           href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
         - name: Set up custom fields as pricing dimensions
           href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
@@ -702,7 +702,7 @@
       href: resource-management/booking-allocation-methods.md  
     - name: Booking statuses
       href: resource-management/booking-status.md
-    - name: Skills and profciency models
+    - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
