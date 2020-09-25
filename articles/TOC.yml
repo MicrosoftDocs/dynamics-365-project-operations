@@ -481,7 +481,7 @@
       - name: Copy a project-based opportunity
         href: pro/sales/copy-project-based-opportunity-sales.md
       - name: Close an opportunity 
-        href: pro/sales/close-opportunity-sales.md
+        href: sales/close-opportunity.md
     - name: Manage quotes
       items:
       - name: Key concepts
