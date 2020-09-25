@@ -2,7 +2,7 @@
 # required metadata
 
 title: Manage delegation
-description: This topic provides information about how an expense delegate user can create and manage expense reports on behalf of another employee in the organization.
+description: This topic provides information about how an expense delegate can create and manage expense reports on behalf of another employee .
 author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
@@ -28,7 +28,7 @@ ms.dyn365.ops.version:
 ---
 
 # Manage delegation
-An expense delegate user can create and manage expense reports on behalf of another employee in the organization.
+An expense delegate can create and manage expense reports on behalf of another employee.
 
 ## Configuring expense delegation
 
@@ -39,8 +39,8 @@ To set up a user as an expense delegate, complete the following steps.
 
 ## Manage expense delegation on behalf of another employee
 
-If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available by navigating to **Expense management** > **My expenses** > **Expenses delegated to me**.
+If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available. Go to **Expense management** > **My expenses** > **Expenses delegated to me**.
 
-A delegate user can quickly filter and search on existing expense reports that hae been delegated to the user. The user can also quickly create a new expense report on behalf of other users by clicking **New expense report**.
+A delegate user can quickly filter and search on existing expense reports that have been delegated to them. The user can also quickly create a new expense report on behalf of other users by selecting **New expense report**.
 
 Delegate users can also create and manage expense reports on behalf of other employees by navigating to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.
