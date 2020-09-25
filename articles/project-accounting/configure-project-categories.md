@@ -1,1 +1,50 @@
+---
+title: Configure project categories
+description: This topic provides information about setting up project categories.
+author: sigitac
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-project-operations
+ms.reviewer: kfend 
+ms.author: sigitac
+---
 
+# Configure project categories
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+
+Project Operations offers robust capabilities for categorizing revenue and expenses on projects. Categories provide the ability to report on and analyze project transactions, and drive posting to the general ledger.
+
+The following diagram illustrates the correlation between transaction categories, shared categories, and project categories. 
+
+Transaction categories are the basic grouping for project transactions. Within that grouping is a set of shared categories that cen be shared across applications and modules. Getting even further into specifics, project categories are the most granular level of categories. These are specific to legal entity, modeule, and application.
+
+![Correlation between transaction categories, shared categories, and project categories](media/project-categories.png)
+
+## Transaction categories
+
+Transaction categories represent the basic grouping for project transactions. They are not company or transaction type-specific. For example, Contoso Robotics uses Design, Travel, Installation and Service transaction categories to group Project transactions.
+
+Transaction categories are defined in the Project Operations module. 
+1. Go to **Settings** \> **Transaction Categories** to open the form. 
+2. Create a new transaction category either by selecting **New** or by selecting **Import from Excel**.
+
+## Shared categories
+
+Dynamics 365 leverages Shared categories concept to categorize expenditures in different applications, such as Dynamics 365 Finance, Dynamics 365 Supply Chain and Dynamics 365 Project Operations. For each Transaction category created in Project Operations automatically creates four related Shared categories – one for hours, expense, fees, and item transaction type. You can review and adjust created shared categories in Project Management and Accounting \> Setup \> Categories \> Shared Categories.
+
+## Project categories
+
+Project Categories represent lowest granular level of category configuration. They need to be configured by Project Accountant for each individual company separately:
+
+1. Go to **Project Management and Accounting** \> **Setup** \> **Categories** \> **Project categories**.
+2. Select **New**.
+3. Select Category ID from shared categories list configured in the previous step. Note that Project Operations will allow using only those shared categories that are associated with transaction categories in Customer Engagement module.
+4. Select a Category group.
+
+## Category groups
+
+Category groups are used to share properties (primarily posting profiles) between related Project Categories. There must be at least one category group for each transaction type and each project category is assigned a group.
+
+Together, the project cost and revenue profile rules, project categories, and category groups define the posting specifications in the Project Operations. Setup category groups in Project management and accounting \> Setup \> Categories \> Category groups.
