@@ -16,7 +16,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Dynamics 365 Project Operations includes a Resource manager dashboard that provides a visual overview of resource demand and utilization throughout the organization. You can use the charts on this dashboard to visualize the following information:
 
-- **Resource demand**: The **Active Resource Request** chart shows resources that have been submitted.The resources are aggregated by either role or project.
+- **Resource demand**: The **Active Resource Request** chart shows resources that have been submitted. The resources are aggregated by either role or project.
 - **Unsubmitted resource demand**: The **Unassigned Resource Demand** chart shows all the resource requirements that haven't been submitted. This chart helps Resource managers view demand that isn't firm and might be submitted through a resource request.
 - **Billable utilization for the past week**: The **Utilization by Role** chart shows the percentage of the organization's actual billable utilization by role against the target billable utilization by role.
 
@@ -29,7 +29,7 @@ Project managers can use the Resource manager dashboard to manage the resources 
 
 ### Add a team member directly to a project
 
-To add a team member directly to a project, on the **Projects** form, on the **Team** tab, select **New**. The **Quick Create:Project Team Member** dialog box appears. In this dialog box, you can perform these tasks:
+To add a team member directly to a project, on the **Projects** form, on the **Team** tab, select **New**. The **Quick Create: Project Team Member** dialog box appears. In this dialog box, you can perform these tasks:
 
 - **Book a named resource**: In the **Bookable Resource** field, select the name of the resource. Then select the role, set the period, and select an allocation method. The named resource that you selected is added to the project by using the selected allocation method and the resources calendar.
 - **Add a generic resource**: Leave the **Bookable resource** field blank, and then select the role, set the period, and select the preferred allocation method. A generic resource is added to the team as a placeholder. The placeholder holds the demand pattern that is used to book named resources on the team. The requirement is made according to the project calendar.
@@ -70,7 +70,7 @@ Complete the following steps to specify the required skills on a generic resourc
 
 ## Assign generic resources to tasks and generate resource requirements
 
-In Project Operations, you can create tasks and then assign generic resources to them. By doing this, resource demand can be represented by placeholders while you estimate your schedule and financial numbers. You can then generate resource requirements for the generic resources and fulfill them.
+In Project Operations, you can create tasks and then assign generic resources to them. Resource demand can then be represented by placeholders while you estimate your schedule and financial numbers. You can then generate resource requirements for the generic resources and fulfill them.
 
 1. On the **Projects** form, on the **Schedule** tab, select **Add** to create a task.
 2. In the **Resources** field, select the **Resource Picker** symbol. The Resource Picker appears and shows existing team members for the project.
@@ -145,9 +145,9 @@ When a resource requirement is generated, a Project manager can submit a resourc
 
 Instead of directly booking a resource on a resource request, a Resource manager can propose a resource to the Project manager. A Resource manager might use this option when an exact match for the requirements isn't available. When a Resource manager proposes a resource, the Project manager sees that the **Status** field for the generic team member is changed to **Needs Review**.
 
-You can view the proposed resource together iwth a visualization fo teh effect of the proposal's booking. 
+You can view the proposed resource together with a visualization fo the effect of the proposal's booking. 
 
-1. TDouble-click the team member that has a status of **Needs Review**. 
+1. Double-click the team member that has a status of **Needs Review**. 
 2. Select the **Proposed Resources** tab.
 3. Select **Accept All Proposals** to accept all proposed resources or **Reject All Proposals** to reject them. If you accept the proposed resources, they are hard-booked on the project as team members and replace the generic resources.
 
@@ -161,9 +161,9 @@ Sometimes, a Project manager must substitute a booked team member on a project.
 1. On the **Projects** form, on the **Team** tab, select the resource that needs a substitute, and then select **Maintain Bookings**.
 2. Expand the resource to view the projects that it's assigned to.
 3. Right-click the project, and then select **Substitute Resource**.
-4. If you know the resource that you want to substitute for the current resource, select or type the name, and then select **Re-assign**.
+4. If you know the resource that you want to substitute for the current resource, select or type the name, and then select **Reassign**.
 
-Or. if you ned to search for a resource, complete the following steps.
+Or. if you need to search for a resource, complete the following steps.
 
 1. Select **Find Substitution**.
 
