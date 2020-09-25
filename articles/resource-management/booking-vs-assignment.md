@@ -16,6 +16,6 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Bookings are the hard or soft allocation of resources to a project. Hard bookings consume a resource's capacity. 
 
-Assignments are the assignment of resources to project tasks in the project schedule. The resources can be either real or generic resources. 
+Assignments are the assignment of resources to project tasks in the project schedule. The resources can be real or generic. 
 
-Ideally, for real resources, the bookings and assignments should agree, because they don't differ. However, Microsoft Dynamics Project operations doesn't enforce this agreement. The **Reconciliation** view shows a project manager places where a resource's bookings and assignments don't agree.
+Ideally, for real resources, the bookings and assignments should agree, because they don't differ. However, Microsoft Dynamics Project Operations doesn't enforce this agreement. The **Reconciliation** view shows a project manager places where a resource's bookings and assignments don't agree.
