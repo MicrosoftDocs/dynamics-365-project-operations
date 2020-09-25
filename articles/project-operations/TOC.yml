@@ -203,7 +203,7 @@
     - name: Collaboration
       items: 
       - name: Groups
-        href: project-management/groups.md
+        href: project-management/collaboration-groups.md
     - name: Project planning FAQ
       href: project-management/project-planning-faq.md
   - name: Resource management
@@ -647,7 +647,7 @@
     - name: Collaboration
       items: 
       - name: Groups
-        href: project-management/groups.md
+        href: project-management/collaboration-groups.md
     - name: Project planning FAQ
       href: project-management/project-planning-faq.md
   - name: Resource management
