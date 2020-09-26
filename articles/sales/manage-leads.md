@@ -1,25 +1,35 @@
+---
+title: Manage leads
+description: This topic provides information about managing project-based leads.
+author: rumant
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-project-operations
+ms.reviewer: kfend 
+ms.author: runant
+---
 
-# Project – based Leads
+# Manage leads
 
-Project-based leads can be managed and qualified in Project Operations. The process of lead management supported by Project Operations is
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-1. Creation of work-based leads
-2. Qualification of leads
+Project-based leads can be managed and qualified in Project Operations. The process of lead management includes creating work-based leads and qualifying those leads. 
 
-## List of Project sales leads
+## Project sales leads
 
-A list of all the leads can be seen from the Leads list page. To navigate to the list of leads, go to Sales-\&gt;Leads in the Sales section of the Left Navigation bar. A list of all the leads in the system are shown. The list of leads shown are not only work – based leads but also other types of leads that can be created if you also have Sales or Field Service applications.
+In the **Sales** section, in the left navigation pane, open the **Leads** list page to view a list of all lead records in the system. The list of leads shown are work-based leads and other types of leads that can be created if you also have the Dynamics 365 Sales or Dynamics 365 Field Service applications.
 
-You can create a filtered view of only project-based leads by creating a filter on the &quot;Type&quot; value to show only work-based leads.
+You can create a filtered view to see only project-based leads by creating a filter on the **Type** value. For example, you can select to show only work-based leads.
 
-## Creating a new lead for a project-based deal
+## Create a new lead for a project-based deal
 
-Project-based leads on qualification create project – based opportunities and Accounts. Project-based opportunity is the starting point for sales pursuit activity in the Opportunity phase. Project-based opportunities have unique capabilities required for selling project work like billing methods Time and Material and Fixed Price, multiple date effective price lists for human resources, expenses and material incurred on projects.
+When a project-based lead is qualified, an opportunity and an account is created. A project-based opportunity is the starting point for sales pursuit activities in the Opportunity phase. Project-based opportunities have unique capabilities that are required for selling project work. These capabilities include Time and material and Fixed Price billing methods, multiple date effective price lists for human resources, expenses, and material incurred on projects.
 
-In order a lead to create a project-based opportunity when qualified, you will need to set the **type** attribute on the lead to &quot;work-based&quot; when creating the lead. If you choose any other type field option, then the lead will not create a project-based opportunity when qualified and this will not enable the above mentioned project-specific extensions in downstream sales processes.
+For a qualified lead to create an opportunity, when you create the lead, set the **Type** attribute to **Work-based**. If you choose a different type, the lead won't create a project-based opportunity when it is qualified. If the project-based opportunity isn't created, the project-specific capabilities won't be available in the downstream sales processes.
 
-Below are some of the fields on the lead that are important and have downstream implications:
-
+The following table includes some of the important field information for a lead and the downstream implications of those fields.
+ 
 | **Field** | **Location** | **Relevance, purpose and guidance** | **Downstream impact** |
 | --- | --- | --- | --- |
 | Topic | General tab | This is a text field and should contain a short description of the deal | The topic of the lead will go on to get defaulted as the topic of the Opportunity and the Name of Quote and Project contract. |
