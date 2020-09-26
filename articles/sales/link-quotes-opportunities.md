@@ -22,20 +22,20 @@ Quotes can be created from project opportunities in the following ways:
 
 ## From the Quotes tab of the Project Opportunity page
 
-To create a project quote from a opportunity, complete the following steps.
+To create a project quote from an opportunity, complete the following steps.
 
 1. Open the **Project Opportunity** page and select the **Quotes** tab. 
-2. On the **Quotes** sub-grid, select the **+**. This creates a new project quote based on the opportunity. All of the opportunity lines and related Project price lists are copied to the new quote from the opportunity.
+2. On the **Quotes** sub-grid, select the **+** to create a new project quote based on the opportunity. All of the opportunity lines and related Project price lists are copied to the new quote from the opportunity.
 
 ## From the Opportunity sales process flow
 
 To create a quote from the Opportunity sales process flow, complete the following steps.
 
 1. From the Opportunity sales process flow, open the Opportunity.
-2. Select the **Qualify** stage. This opens the stage. 
+2. Select the **Qualify** stage. 
 3. Select **Next** and then select **+ Create** to create a new quote. Most of the information on the **Summary** tab for this new quote will have defaulted from the opportunity. 
 4. Enter in any required information that is missing, or update defaulted values as necessary on the **Summary** tab,
-5. Select **Save**. The new quote is created and associated to the ppportunity. You will be able to view the quote information on the **Quotes** tab of the **Opportunity** page. 
+5. Select **Save**. The new quote is created and associated to the opportunity. You can now view the quote information on the **Quotes** tab of the **Opportunity** page. 
 
    The Opportunity sales process moves to the next stage, **Propose**.
 
@@ -44,10 +44,10 @@ To create a quote from the Opportunity sales process flow, complete the followin
 
 An existing quote can be linked to an Opportunity. Complete the following steps to update the Opportunity information on an existing quote.
 
-1. Open teh **Quote** page and select the **Summary** tab.
-2. In the **Opportunity** field, select the opportunity that you want to link to the quote. This will update the association and you will be able to see the quote in the **Quotes** grid of the Opportunity. 
+1. Open the **Quote** page and select the **Summary** tab.
+2. In the **Opportunity** field, select the opportunity that you want to link to the quote. You can see the quote in the **Quotes** grid of the Opportunity. 
 3. Using the Opportunity sales process, the opportunity can be moved to the next stage, **Propose**. 
 
-   When you move an opportunity to this stage, you can select this quote from a list of quotes associated with this opportunity. Selecting this quote indicates that you are moving forward with it.
+   When you move an opportunity to this stage, you can select this quote from a list of quotes associated with this opportunity. Selecting this quote indicates that you're moving forward with it.
 
-   All the other quotes associated with the Opportunity will still be available and active until one of them is won. You will be able to move the sales process back to the previous stage, **Qualify** and pick another quote to move forward with.
+   All the other quotes associated with the Opportunity will still be available and active until one of them is won. You can move the sales process back to the previous stage **Qualify**, and pick another quote to move forward with.
