@@ -40,7 +40,7 @@
         href: sales/project-based-lines.md
       - name: Copy a project-based opportunity
         href: sales/copy-project-based-opportunity.md
-      - name: Link quotes and opportunities
+      - name: Create project quotes from opportunities
         href: sales/link-quotes-opportunities.md
       - name: Close an opportunity
         href: sales/close-opportunity.md
@@ -476,8 +476,8 @@
         href: pro/sales/opportunity-header-sales.md
       - name: Project-based lines
         href: pro/sales/project-based-lines-sales.md
-      - name: Link quotes and opportunities
-        href: pro/sales/link-quotes-opportunities-sales.md
+      - name: Create project quotes from opportunities
+        href: sales/link-quotes-opportunities.md
       - name: Copy a project-based opportunity
         href: pro/sales/copy-project-based-opportunity-sales.md
       - name: Close an opportunity 
