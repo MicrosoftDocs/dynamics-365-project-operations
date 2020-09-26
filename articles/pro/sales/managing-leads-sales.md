@@ -1,39 +1,50 @@
-# Project – based Leads
+---
+title: Manage leads
+description: This topic provides information about managing project-based leads.
+author: rumant
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-project-operations
+ms.reviewer: kfend 
+ms.author: runant
+---
 
-Project-based leads can be managed and qualified in Project Operations. The process of lead management supported by Project Operations is
+# Manage leads
 
-1. Creation of work-based leads
-2. Qualification of leads
+_**Applies To:** Lite deployment - deal to proforma invoicing_
+
+Project-based leads can be managed and qualified in Project Operations. The process of lead management in includes creating work-based leads and qualifying those leads. 
 
 ## List of Project sales leads
 
-A list of all the leads can be seen from the Leads list page. To navigate to the list of leads, go to Sales-\&gt;Leads in the Sales section of the Left Navigation bar. A list of all the leads in the system are shown. The list of leads shown are not only work – based leads but also other types of leads that can be created if you also have Sales or Field Service applications.
+In the **Sales** section, in the left navigation pane, open the **Leads** list page to view a list of all lead records in the system. The list of leads shown are work-based leads and other types of leads that can be created if you also have the Dynamics 365 Sales or Dynamics 365 Field Service applications.
 
-You can create a filtered view of only project-based leads by creating a filter on the &quot;Type&quot; value to show only work-based leads.
+You can create a filtered view to see only project-based leads by creating a filter on the **Type** value. For example, you can select to show only work-based leads.
 
 ## Creating a new lead for a project-based deal
 
-Project-based leads on qualification create project – based opportunities and Accounts. Project-based opportunity is the starting point for sales pursuit activity in the Opportunity phase. Project-based opportunities have unique capabilities required for selling project work like billing methods Time and Material and Fixed Price, multiple date effective price lists for human resources, expenses and material incurred on projects.
+When a project-based lead is qualified, an opportunity and an account is created. A project-based opportunity is the starting point for sales pursuit activities in the Opportunity phase. Project-based opportunities have unique capabilities that are required for selling project work. These capabilities include Time and material and Fixed Price billing methods, multiple date effective price lists for human resources, expenses, and material incurred on projects.
 
-In order a lead to create a project-based opportunity when qualified, you will need to set the **type** attribute on the lead to &quot;work-based&quot; when creating the lead. If you choose any other type field option, then the lead will not create a project-based opportunity when qualified and this will not enable the above mentioned project-specific extensions in downstream sales processes.
+For a qualified lead to create an opportunity, when you create the lead, set the **Type** attribute to **Work-based**. If you choose a different type, the lead won't create a project-based opportunity when it is qualified. If the project-based opportunity isn't created, the project-specific capabilities won't be available in the downstream sales processes.
 
-Below are some of the fields on the lead that are important and have downstream implications:
+The following table includes some of the important field information for a lead and the downstream implications of those fields.
 
-| **Field** | **Location** | **Relevance, purpose and guidance** | **Downstream impact** |
+| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
 | --- | --- | --- | --- |
-| Topic | General tab | This is a text field and should contain a short description of the deal | The topic of the lead will go on to get defaulted as the topic of the Opportunity and the Name of Quote and Project contract. |
+| Topic | General tab | This is a text field and should contain a short description of the deal. | The topic of the lead will be defaulted as the topic of the Opportunity, the name of quote, and the Project contract. |
 | Type | General tab | This is an option set field with the following options:</br>- Work-based (Available only when Project Operations is installed)</br>- Item-based (Available only when Project Operations and Sales are installed)</br>- Service maintenance-based (Available when Field Service is installed) | When the value of this field is set to Work-based on the lead, the lead is qualified to create a Project-based Opportunity. A project-based opportunity is required for enabling all project- specific extensions and functionality in the downstream sales process for this deal. |
 | First name | General tab | First name of the prospect&#39;s contact | When the lead is qualified, an account, contact and opportunity are created. The first name of the contact is set to the value set here. |
 | Last name | General tab | Last name of the prospect&#39;s contact | When the lead is qualified, an account, contact and opportunity are created. The last name of the contact is set to the value set here. |
 | Company | General tab | Name of the prospect customer&#39;s company | When the lead is qualified, an account, contact and opportunity are created. The name of the account created is set to the value set here. |
 | Currency | Details tab | Prospect customer&#39;s currency | When the lead is qualified, an account, contact and opportunity are created. The currency of the account created is set to the value set here. |
 
-## Qualifying a new project-based lead
+## Qualify a new project-based lead
 
-Leads that have the &quot;Type&quot; value set to work-based are called project-based leads. Project-based leads on qualification create:
+Leads that have the **Type** value set to **ork-based** are called project-based leads. When a project-based lead is qualified, the following is created:
 
-1. Account using the &quot;company&quot; field on the lead.
-2. A contact record associated to that Account based on the first name and last name fields on the Lead.
+- An account that uses the **Company** field from the lead.
+- A contact record associated to that account based on the first name and last name fields on the Lead.
 3. A project-based opportunity i.e. an opportunity that has the &quot;Type&quot; field set to &quot;work-based&quot;.
 
 For more detailed information on qualifying leads, please refer to the documentation in the D365 Sales application help here:[https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales)
