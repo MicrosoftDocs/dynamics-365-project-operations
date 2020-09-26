@@ -1,13 +1,23 @@
+---
+title: Product-based opportunity lines
+description: This topic provides information about product-based opportunity line items in Project Operations.
+author: rumant
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-project-operations
+ms.reviewer: kfend 
+ms.author: rumant
+---
+
 # Product-based opportunity lines
 
-Product – based opportunity lines are line items on the opportunity that are delivered to the customer as distinct line items on the eventual invoice without any other value-added services on them. The associated spend and consumption is not tracked on tasks of any projects related to that engagement.
+_**Applies To:** Lite deployment - deal to proforma invoicing_
 
-Product – based lines can be catalog items or write-in products. Most of the functionality on product – based lines on the opportunity follows the functionality provided by the Dynamics 365 Sales application.
+Product-based opportunity lines are line items on the Opportunity. These lines are delivered to the customer as distinct line items on the eventual invoice without any other value-added services. The associated spend and consumption is not tracked on tasks of any related projects.
 
-To find more information about product-based opportunity lines, please refer to the help documentation in the Sales application here:
+Product-based lines can be catalog items or write-in products. Most of the functionality on Opprtunity's product-based lines follows the functionality provided by the Dynamics 365 Sales application. For more information about product-based opportunity lines, see [Add products to an opportunity](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
 
-[https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/add-products-opportunity](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/add-products-opportunity)
+One concept about product-based opportunity lines that is specific to project-based opportunities is **Customer Budget**. Use this field to track the amount the customer is willing to pay for the line item.
 
-One concept in product-based opportunity lines that is specific to Project-based opportunities is Customer budget. Use this field to type in an amount that the customer is willing to pay for line item.
-
-Customer budget values across product and project-based are summarized to calculate the estimated revenue of the project-based opportunity if the &quot;revenue method&quot; in the opportunity summary is set to &quot;system calculated&quot;.
+If the revenue method of the Opportunity summary is set to **System Calculated**, the customer budget values across product- and project-based lines are summarized to calculate the estimated revenue.
