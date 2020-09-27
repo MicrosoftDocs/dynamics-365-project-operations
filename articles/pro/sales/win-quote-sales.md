@@ -29,7 +29,7 @@ After a quote is closed as Won, the application will refactor the costs by rever
 
 ## Closing a quote as lost:
 
-Closing a project quote as Lost will set the status to Closed and status reason to Lost. This makes the project quote read-only. Because a closed quote can't be reopened and, before you close a quote, a confirmation dialog will confirm your changes.
+Closing a project quote as Lost will set the status to Closed and status reason to Lost. Closing the quote makes the project quote read-only. Because a closed quote can't be reopened and, before you close a quote, a confirmation dialog will confirm your changes.
 
 If the project quote that is closed as Lost has a project referenced on any of its lines, that project is also marked as Closed and any resource bookings from that day forward are canceled.
 
