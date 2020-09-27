@@ -1,32 +1,13 @@
 ---
-# required metadata
-
 title: Security model
-description: 
+description: This topic provides information about the security model in Dynamics 365 Project Operations.
 author: stsporen
-manager: AnnBe
-ms.date: 09/22/2020
+manager: Annbe
+ms.date: 10/01/2020
 ms.topic: article
-ms.prod: 
 ms.service: dynamics-project-operations
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+ms.reviewer: kfend 
+ms.author: stsporen
 ---
 
 # Security Model
@@ -79,9 +60,9 @@ Group member search in the group management dialog is limited to those who if se
 4. The original owner of the Project is added to the Office Group.
 
 ## Deployment recommendation
-As our approach to the office group collaboration model evolves, we will be adding the ability to include an intersection of user role and group membership to provide more detailed control over time. Customers that deploy Project Operations today are encouraged to focus on a traditional Microsot Dynamics 365 security model.
+As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time. Customers that deploy Project Operations today are encouraged to focus on a traditional Microsot Dynamics 365 security model.
 
-For more information, see [Security in Common Data Service](https://docs.microsoft.com/en-us/power-platform/admin/wp-security).
+For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
 
 ## Project Operations and Microsoft Dynamics 365 Finance security
 Project Operations includes the following roles:
@@ -89,6 +70,6 @@ Project Operations includes the following roles:
 - Project manager
 - Project accountant
 
-For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
