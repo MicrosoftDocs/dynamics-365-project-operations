@@ -1,25 +1,40 @@
-# Closing a quote
+---
+title: Close a quote
+description: This topic provides information about closing quotes in Project Operations.
+author: rumant
+manager: Annbe
+ms.date: 10/01/2020
+ms.topic: article
+ms.service: dynamics-project-operations
+ms.reviewer: kfend 
+ms.author: rumant
+---
 
-A project quote can be closed as won or lost. Please note that in Project Operations Activate and Revise operations on quotes is not supported. Therefore, a draft quote can be closed.
+# Close a quote
 
-## Closing a quote as won:
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Closing a project quote as won will close the quote by making the status = closed and status reason = Won. This makes the project quote read-only and creates a &quot;draft&quot; project contract with all the information from quote. There is a confirmation dialog before the changes are done since a closed quote cannot be re-opened and the changes are irreversible.
+A project quote can be closed as Won or Lost. In Microsoft Dynamics 365 Project Operations, the functions Activate and Revise are not supported on quotes. This means you can close quote with a status of closed.
 
-The project contract created from a Project Quote is also made available in the Project Accounting module of Project Operations. If a Project Contract is not mapped to a project on any of its lines, this Project Contract is made available in the Project Accounting module as an Inactive Project contract and becomes active as soon as a Project is mapped to at least one of its contract lines.
+## Close a quote as Won
 
-If the quote is attached to an opportunity, then any other project quotes on the opportunity are also closed as lost automatically.
+Closing a project quote as Won will set the status of the quote to **Closed** and status reason to **Won**. Closing the quotes makes it read-only and creates a draft project contract with all the quote information. Because a closed quote can't be re-opened, before you close a quote, a confirmation dialog will confirm your changes.
 
-### Financial Impact of Closing a Quote as won:
+The project contract created from a project quote is also made available in the Project management and accounting module of Project Operations. If a project contract is not mapped to a project on any of its lines, this project contract is made available as an inactive project contract and becomes active as soon as a project is mapped to at least one of its contract lines.
 
-If there have been any actuals for time recorded on a project while it is still attached to a draft quote, only the cost of the time or expense is recorded. Once a quote is closed as won, the application will refactor the costs by reversing the older cost actuals and re-creating new cost actuals. The application will also them process these cost actuals based on the Billing method of the associated Project contract line. If the cost actuals reference a T&amp;M contract line, then the application will automatically create corresponding unbilled sales actuals for them on close the quote and creating project contract. If the Cost actuals reference a Fixed Price Contract line, the application will stop with re-processing the cost actuals based on the Split billing rules on the Project contract customers.
+If the quote is attached to an opportunity, any other project quotes on the opportunity are automatically closed as Lost.
 
-All the re-processed actual are made available in Project Accounting module of Project Accounting for the Project Accountant to review, make changes as necessary and post them to General Ledger.
+### Financial impact of closing a quote as Won
 
-## Closing a quote as lost:
+If there have been any actuals for time recorded on a project while it is still attached to a draft quote, only the cost of the time or expense is recorded. After a quote is closed as Won, the application will refactor the costs by reversing the older cost actuals and re-creating new cost actuals. The application will process these cost actuals based on the Billing method of the associated project contract line. If the cost actuals reference a time and material contract line, the system will automatically create corresponding unbilled sales actuals for when the quote is closed and the project contract is created. If the ost actuals reference a fixed price contract line, the application will stop re-processing the cost actuals based on the split billing rules for the project contract customers.
 
-Closing a project quote as lost will close the quote by making the status = closed and status reason = Lost. This makes the project quote read-only There is a confirmation dialog before the changes are done since a closed quote cannot be re-opened and the changes are irreversible.
+All re-processed actuals are available in the Project management and accounting module for the Project accountant to review, update, and post to the General ledger. 
 
-If the project quote that is closed as lost has a project referenced on any of its lines, that project is also marked as closed and any resource bookings from that day forward are cancelled.
+## Close a quote as Lost
 
-Please Note: In project operations, closing a quote as won or lost will not impact that status of the Opportunity. The opportunity will remain open and will have to be manually closed.
+Closing a project quote as Lost will set the status to **Closed** and status reason to **Lost**. Closing the quote makes it read-only. Because a closed quote can't be re-opened and, before you close a quote, a confirmation dialog will confirm your changes.
+
+If the project quote that is closed as Lost has a project referenced on any of its lines, that project is also marked as Closed and any resource bookings from that day forward are canceled.
+
+> [!NOTE]
+> In Project Operations, closing a quote as Won or Lost will not impact that status of the Opportunity, which will remain open until it is manually closed.
