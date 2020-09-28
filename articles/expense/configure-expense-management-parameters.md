@@ -1,33 +1,18 @@
 ---
-# required metadata
-
 title: Configure Expense management parameters
 description: This topic describes the parameters that control the general behavior in Expense management.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/17/2020
+manager: Annbe
+ms.date: 10/01/2020
 ms.topic: article
-ms.prod: 
 ms.service: dynamics-project-operations
-ms.technology: 
-
-# optional metadata
-
-ms.search.form: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: 
-# ms.search.industry: 
+ms.reviewer: kfend 
 ms.author: suvaidya
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
 ---
 
 # Configure Expense management parameters
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This topic describes the parameters the control the general behavior in Expense management.
 
@@ -36,7 +21,7 @@ This topic describes the parameters the control the general behavior in Expense 
 | Field                                                    | Description |
 |----------------------------------------------------------|-------------|
 | Standard rate of mileage                                 | Enter the reimbursement rate for mileage expenses. This rate is multiplied by the mileage that is entered for the expense to calculate the amount that is reimbursed for the travel expense. |
-| Validate expense purpose                                 | Turn on this option to limit users to an existing set of values that is configured under "Purpose of expense report" when they create expense reports. |
+| Validate expense purpose                                 | Turn on this option to limit users to an existing set of values that is configured in the **Purpose of expense report** field when they create expense reports. |
 | Personal expenses paid by                                | Select who is responsible for paying any credit card transaction amounts that are categorized as personal. |
 | Display entire expense report on drillback               | Select this option to show all expenses for an expense report when the details of the original document are viewed for a specific voucher that was generated when the expense report was posted. |
 | Pre-authorization of travel is mandatory                 | Select this option to require that a travel requisition be submitted and approved before an employee can submit an expense report. |
@@ -44,9 +29,9 @@ This topic describes the parameters the control the general behavior in Expense 
 | Evaluate expense management policies                     | Select when expenses are evaluated to determine whether an expense policy has been violated. Expenses can be evaluated for violations when the expense entry is entered and saved, or when the expense is submitted for approval. The policy rules for receipts that are required will be evaluated when the expense line is saved. |
 | Allow intercompany expense lines                         | Select whether expenses for other legal entities can be entered on an expense report. |
 | Allow editing the exchange rate for credit card expenses | Select this option to allow the user to edit the exchange rate for imported credit card expenses. |
-| Multi-level hierarchy fields to display                  | Select which approver fields are shown when the expense report workflow assignment type is set to be a hierarchy, and the hierarchy selection is set to use the Expense multi-level approval hierarchy. When the multi-level approval hierarchy is used for a workflow, the selected fields will be shown on the expense report and can be edited. |
+| Multi-level hierarchy fields to display                  | Select which approver fields are shown when the workflow assignment type is set to be a hierarchy, and the **Hierarchy** selection is set to use the approval hierarchy, expense multi-level approval. When the multi-level approval hierarchy is used for a workflow, the selected fields will be shown on the expense report and can be edited. |
 | Enter employee credit card number                        | Select whether a 15-character or 16-character number can be entered and saved in the **Card ID** field on the **Credit cards** page for an employee. |
-| Validate travel requisition purpose                      | Turn on this option to limit users to an existing set of values that is configured under "Purpose of expense report" when they create travel requisitions. |
+| Validate travel requisition purpose                      | Turn on this option to limit users to an existing set of values that is configured in the **Purpose of expense report** field when they create travel requisitions. |
 
 ## Financial
 
