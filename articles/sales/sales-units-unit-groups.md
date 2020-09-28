@@ -8,7 +8,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-project-operations
+ms.service: dynamics-365-customerservice
 ms.technology: 
 
 # optional metadata
