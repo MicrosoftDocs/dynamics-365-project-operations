@@ -1,0 +1,240 @@
+- name: Dynamics 365 Project Operations
+  href: index.md
+- name: Project Operations for resource/non-stocked based scenarios
+  items:
+  - name: Sales process
+    items:
+    - name: Sales overview
+      href: sales/sales-overview.md
+    - name: Setup
+      items:
+      - name: Products
+        href: sales/sales-products.md
+      - name: Units and unit groups
+        href: sales/sales-units-unit-groups.md
+      - name: Currency
+        href: sales/sales-currency.md
+    - name: Manage leads
+      href: sales/manage-leads.md
+    - name: Manage opportunities
+      items:
+      - name: Create project quotes from opportunities
+        href: sales/link-quotes-opportunities.md
+      - name: Close an opportunity
+        href: sales/close-opportunity.md
+    - name: Manage quotes
+      items:
+      - name: Key concepts
+        href: sales/quotes-key-concepts.md
+      - name: Project-based quote lines
+        items: 
+        - name: Manage project price lists
+          href: sales/managing-project-price-lists.md
+        - name: Create estimates on a quote line
+          href: sales/create-estimate-quote-line.md
+      - name: Win a quote
+        href: sales/win-quote.md
+    - name: Manage contracts
+      items:
+  - name: Pricing and costing
+    items: 
+    - name: Product price lists
+      href: pricing-costing/product-price-list.md
+    - name: Project price lists
+      items: 
+      - name: Price list setup for sales
+        items: 
+        - name: Setup sales price list
+          href: pricing-costing/sales-price-list-setup.md
+    - name: Pricing dimensions
+      items: 
+      - name: Pricing dimensions overview
+        href: pricing-costing/pricing-dimensions-overview.md
+      - name: Use an existing field as a pricing dimension
+        href: pricing-costing/use-existing-field-pricing-dimension.md
+      - name: Custom fields as pricing dimensions
+        items:
+        - name: Create custom fields and entities as pricing dimensions
+          href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+        - name: Add custom fields to price setup and transactional entities
+          href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+        - name: Set up custom fields as pricing dimensions
+          href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+  - name: Project management
+    items: 
+    - name: Project management overview
+      href: project-management/project-management-overview.md
+    - name: Project stages
+      href: project-management/project-stages.md
+    - name: Understand project status
+      href: project-management/understand-project-status.md
+    - name: Define project calendars
+      href: project-management/define-project-calendars.md
+    - name: Update a project
+      href: project-management/update-project.md
+    - name: Project tracking
+      items: 
+      - name: Update estimate at completion
+        href: project-management/update-completed-estimate.md
+  - name: Resource management
+    items: 
+    - name: Resource management overview
+      href: resource-management/resource-management-overview.md
+    - name: Key concepts
+      href: resource-management/resource-management-key-concepts.md
+    - name: Bookings vs Assignments
+      href: resource-management/booking-vs-assignment.md
+    - name: Booking allocation methods
+      href: resource-management/booking-allocation-methods.md  
+    - name: Resource reconciliation
+      items: 
+      - name: Resource reconciliation overview
+        href: resource-management/resource-reconciliation-overview.md
+  - name: Time
+    items: 
+    - name: Time entry overview
+      href: time/time-entry-overview.md
+  - name: Expense
+    items: 
+    - name: Expense overview
+      href: expense/expense-overview.md
+    - name: Expense management experience for projects
+      items:
+      - name: Configuration and setup
+        items:
+        - name: Set up policies
+          href: expense/set-up-policies.md
+        - name: Set up workflows
+          href: expense/set-up-workflows.md
+        - name: Manage delegation
+          href: expense/manage-delegation.md
+        - name: Configure Expense management parameters
+          href: expense/configure-expense-management-parameters.md
+        - name: Set up credit card integration
+          href: expense/set-up-credit-card-integration.md
+        - name: Set up expense categories
+          href: expense/set-up-expense-categories.md
+      - name: Approve expense reports
+        items: 
+        - name: Expense reports and multiple approvers
+          href: expense/expense-reports-multiple-approvers.md
+      - name: New expense experience
+        items: 
+        - name: Expense reports reimagined
+          href: expense/expense-reports-reimagined.md
+        - name: Match receipt to expense using OCR
+          href: expense/match-receipt-expense-ocr.md
+      - name: Mobile Expense management
+        href: expense/expense-using-mobile.md
+  - name: Approvals
+    items: 
+    - name: Approvals overview
+      href: approvals/approvals-overview.md
+  - name: Actuals
+    items: 
+    - name: Actuals overview
+      href: actuals/actuals-overview.md
+  - name: Proforma invoicing
+    items: 
+    - name: Create a manual proforma invoice
+      href: proforma-invoicing/create-manual-proforma-invoice.md
+    - name: Confirm a proforma invoice
+      href: proforma-invoicing/confirm-proforma-invoice.md
+    - name: Corrective invoices
+      href: proforma-invoicing/corrective-invoices.md
+    - name: Configure automated invoice creation
+      href: proforma-invoicing/configure-automated-invoice-creation.md
+  - name: Project accounting
+    items:
+    - name: Configure project categories
+      href: project-accounting/configure-project-categories.md
+    - name: Configure accounting for billable projects
+      href: project-accounting/configure-accounting-billable-projects.md
+- name: Lite deployment - deal to proforma invoicing
+  items:
+  - name: Sales process
+    items:
+    - name: Setup
+      items: 
+      - name: Products
+        href: sales/sales-products.md
+      - name: Units and unit groups
+        href: sales/sales-units-unit-groups.md
+      - name: Currency
+        href: sales/sales-currency.md
+    - name: Manage leads
+      href: pro/sales/managing-leads-sales.md
+    - name: Manage opportunities
+      items: 
+      - name: Create project quotes from opportunities
+        href: sales/link-quotes-opportunities.md
+      - name: Close an opportunity 
+        href: sales/close-opportunity.md
+    - name: Manage quotes
+      items:
+      - name: Win a quote
+        href: pro/sales/win-quote-sales.md
+    - name: Manage contracts
+      items: 
+  - name: Pricing and costing
+    items: 
+    - name: Project price lists
+      items:
+      - name: Price list setup for sales
+        items: 
+        - name: Set up sales price list
+          href: pricing-costing/sales-price-list-setup.md
+    - name: Pricing dimensions
+      items:
+      - name: Use an existing field as a pricing dimension
+        href: pricing-costing/use-existing-field-pricing-dimension.md
+      - name: Custom fields as pricing dimension
+        items:
+        - name: Create custom fields and entities as pricing dimensions
+          href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+        - name: Add custom fields to price setup and transactional entities
+          href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+        - name: Set up custom fields as pricing dimensions
+          href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+  - name: Project management
+    items: 
+    - name: Project management overview
+      href: project-management/project-management-overview.md
+    - name: Project stages
+      href: project-management/project-stages.md
+    - name: Understand project status
+      href: project-management/understand-project-status.md
+    - name: Define project calendars
+      href: project-management/define-project-calendars.md
+    - name: Update a project
+      href: project-management/update-project.md
+    - name: Project tracking
+      items: 
+      - name: Update estimate at completion
+        href: project-management/update-completed-estimate.md
+  - name: Resource management
+    items: 
+    - name: Resource management overview
+      href: resource-management/resource-management-overview.md
+    - name: Key concepts
+      href: resource-management/resource-management-key-concepts.md
+    - name: Bookings vs Assignments
+      href: resource-management/booking-vs-assignment.md
+    - name: Booking allocation methods
+      href: resource-management/booking-allocation-methods.md  
+    - name: Resource reconciliation
+      items: 
+      - name: Resource reconciliation overview
+        href: resource-management/resource-reconciliation-overview.md
+  - name: Time
+    items: 
+    - name: Time entry overview
+      href: time/time-entry-overview.md
+  - name: Expense
+    items: 
+    - name: Expense overview
+      href: expense/expense-overview.md
+  - name: Approvals
+    items: 
+    - name: Approvals overview
+      href: approvals/approvals-overview.md
