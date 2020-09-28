@@ -50,9 +50,7 @@ Groups allow the permissions of the project and supporting collaboration artifac
 
 Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.
 
-Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group. For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/en-us/power-platform/admin/control-user-access).
-
-![Group mode](../media/groupsmode.png)
+Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group. For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).
 
 1. The Project is created and owned by the creating User.
 2. The Project owner is updated to the team.
