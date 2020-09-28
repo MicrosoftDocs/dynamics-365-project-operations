@@ -8,7 +8,7 @@ manager: AnnBe
 ms.date: 06/19/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-project-operations
+ms.service: dynamics-365-customerservice
 ms.technology: 
 
 # optional metadata
@@ -24,7 +24,7 @@ ms.custom:
 ms.assetid: 
 ms.search.region: 
 ms.search.industry: 
-ms.author: v-radsh
+ms.author: kfend
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
