@@ -1,6 +1,6 @@
 ---
 title: Manage leads (Pro)
-description: This topic provides information about managing project-based leads.
+description: This topic provides information about managing project-based leads (pro).
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
