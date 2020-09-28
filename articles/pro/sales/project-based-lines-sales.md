@@ -1,16 +1,16 @@
 ---
-title: Project-based opportunity lines
-description: This topic provides information about project-based opportunity lines.
+title: Project-based opportunity lines (Pro)
+description: This topic provides information about project-based opportunity lines. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Project-based opportunity lines
+# Project-based opportunity lines (Pro)
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
