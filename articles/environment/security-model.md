@@ -23,18 +23,18 @@ Project Operations front-end capabilities include the following roles:
 | Role                          | Description                                                                                                                                                                 | Scope |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
 | Practice manager              | Supports cross-project reporting.                                                                                                            | Business unit              |
-| Project approver              | Approves time and expenses against a project.                                                                                                                              | Busines unit |
+| Project approver              | Approves time and expenses against a project.                                                                                                                              | Business unit |
 | Project billing administrator | Creates the invoice proposal.                                                                                                                                                 | Business unit |
 | Project manager               | Creates the project plan and requests resources.                                                                                                                              | Business unit |
 | Project resource              | Team members who can be booked and report time.                                                                                                          | Business unit|
-| Resource manager              | All resource management functions, such as fulfill resource requests and bookings, seprated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role. | Business unit |
+| Resource manager              | All resource management functions, such as fulfill resource requests and bookings, separated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role. | Business unit |
 
 
 Microsoft Project for the Web includes the following roles:
 | Role                          | Description                                                                                                          | Scope |                                                       
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Project user | Collabortive user of Project who is able to create their own projects and view any projects shared with them.| User|
-| Project system | Role used for application context. This is a system role and should not be used by customers. | Global|
+| Project user | Collaborative user of Project who is able to create their own projects and view any projects shared with them.| User|
+| Project system | Role used for application context. Customers should not use this system role. | Global|
 
 ## Security enforcement
 Actions that are performed at the project level are performed in the context of the logged in user. This means that in order to create, open, or delete a project, the user is required to have access available in CDS. Access in CDS may be granted through any of the possible mechanisms included in the platform. For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.
@@ -50,17 +50,17 @@ Groups allow the permissions of the project and supporting collaboration artifac
 
 Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.
 
-Group member search in the group management dialog is limited to those who if set are part of the environments secuirty group (see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/en-us/power-platform/admin/control-user-access))
+Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group. For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/en-us/power-platform/admin/control-user-access).
 
 ![Group mode](../media/groupsmode.png)
 
 1. The Project is created and owned by the creating User.
-2. The Project owner is update the team.
+2. The Project owner is updated to the team.
 3. The Owner team is mapped to the specified or created Office Group.
 4. The original owner of the Project is added to the Office Group.
 
 ## Deployment recommendation
-As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time. Customers that deploy Project Operations today are encouraged to focus on a traditional Microsot Dynamics 365 security model.
+As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time. Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.
 
 For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
 
