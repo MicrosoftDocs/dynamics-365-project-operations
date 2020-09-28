@@ -63,15 +63,15 @@ The Front Load Hours method books the resource for a specified number of hours, 
 
 |                           |    Day 1    |    Day 2    |    Day 3    |    Day 4    |    Day 5    |    Total    |
 |---------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|    Existing   bookings    |    0        |    0        |    0        |    0        |    0        |    0        |
-|    New   booking          |    8        |    8        |    4        |    0        |    0        |    20       |
+|    **Existing   bookings**    |    0        |    0        |    0        |    0        |    0        |    0        |
+|    **New   booking**          |    8        |    8        |    4        |    0        |    0        |    20       |
 
 The front load method takes into consideration existing bookings and available capacity. For example, if the same resource already has 20 hours of bookings in the work week, the new bookings consume the remaining capacity as follows:
 
 |                     | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Total |
 |---------------------|-------|-------|-------|-------|-------|-------|
-| Existing   bookings | 8     | 8     | 4     | 0     | 0     | 20    |
-| New   booking       | 0     | 0     | 4     | 8     | 8     | 20    |
+| **Existing   bookings** | 8     | 8     | 4     | 0     | 0     | 20    |
+| **New   booking**       | 0     | 0     | 4     | 8     | 8     | 20    |
 
 Because available capacity is considered, you may get an error message if the resource has no remaining capacity that can be absorbed by the booking. With this method, you can’t overbook.
 

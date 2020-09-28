@@ -1,5 +1,5 @@
 - name: Dynamics 365 Project Operations
-  href: project-operations-home-page.md
+  href: index.md
 - name: Project Operations for resource/non-stocked based scenarios
   items:
   - name: Sales process
