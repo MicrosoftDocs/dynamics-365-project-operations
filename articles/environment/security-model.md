@@ -27,7 +27,7 @@ Project Operations front-end capabilities include the following roles:
 | Project billing administrator | Creates the invoice proposal.                                                                                                                                                 | Business unit |
 | Project manager               | Creates the project plan and requests resources.                                                                                                                              | Business unit |
 | Project resource              | Team members who can be booked and report time.                                                                                                          | Business unit|
-| Resource manager              | All resource management functions (fulfill resource requests and bookings) seperated to support a hybrid Project manager + Resource manager configuration and a single central Resource manager role | Business unit |
+| Resource manager              | All resource management functions, such as fulfill resource requests and bookings, seprated to support a hybrid Project manager + Resource manager configuration and a single and centralized Resource manager role. | Business unit |
 
 
 Microsoft Project for the Web includes the following roles:
