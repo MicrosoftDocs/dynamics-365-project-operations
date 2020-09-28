@@ -1,37 +1,20 @@
 ---
-# required metadata
-
 title: Resource management key concepts
-description: This topic provides information about resource management capabilities in Microsoft Dynamics Project operations.  
+description: This topic provides information about resource management capabilities in Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 08/18/2020
+manager: Annbe
+ms.date: 10/01/2020
 ms.topic: article
-ms.prod: 
 ms.service: dynamics-project-operations
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+ms.reviewer: kfend 
+ms.author: ruhercul
 ---
 
 # Resource management key concepts
 
-Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following:
 
 - Form project teams by booking available and qualified resources.
 - Create generic team member records and define their roles and resource organization unit.
@@ -46,10 +29,4 @@ Resources are the most important asset of a service-based organization. The abil
 - Maintain a skills and proficiency repository.
 
 
-You can staff your project with a team of generic or named resources in PSA. You can use various methods to add and assign team members and to manage their bookings and assignments. For additional information, see the following topics:
-
-- [Book named bookable resources to a project team and assigning them tasks](assign-named-bookable-resource.md)
-- [Assign generic bookable resources to a task and generate resource requirements](assign-generic-bookable-resource.md)
-- [Book named resources from resource requirements](book-named-resource.md)
-- [Submit a resource request](submit-resource-request.md)
-- [Accept or reject a proposed project resource from a resource request](accept-reject-proposed-resource.md)
+You can staff your project with a team of generic or named resources in Project Operations. You can use various methods to add and assign team members and to manage their bookings and assignments. 
