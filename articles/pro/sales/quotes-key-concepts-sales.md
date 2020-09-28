@@ -23,9 +23,9 @@ The contracting unit represents the division or practice that owns the project d
 
 ## Cost currency
 
-Cost currency in Project Operations is the currency in which costs are reported. This currency is derived from the currency attached to the **Contracting unit** field on the quote, contract and project. Costs can be logged in any currency against a project. However, there is currency conversion from the currency costs were recorded in, to the cost currency of the project.
+Cost currency in Project Operations is the currency in which costs are reported. This currency is derived from the currency attached to the **Contracting unit** field on the quote, contract, and project. Costs can be logged in any currency against a project. However, there is currency conversion from the currency costs were recorded in, to the cost currency of the project.
 
-Please also note that given the Exchange rates in CDS platform cannot be date – effective, the on-screen totals for cost may change over time if you update currency exchange rates. However, costs as recorded in the database remain unchanged since the amounts are stored in the currency that were incurred in.
+Because of the exchange rates in the CDS platform can't be date-effective, the on-screen totals for cost may change over time if you update currency exchange rates. However, costs recorded in the database remain unchanged because the amounts are stored in the currency that they were incurred in.
 
 ## Sales currency
 
@@ -42,7 +42,7 @@ Projects typically have fixed fee and consumption-based contracting models. This
 
 ## Project price lists
 
-Project price lists are price lists that are used to default prices, not cost rates, for time, expense, and other project related components. There can be multiple prices lists, and each list can have ]its own date effectivity for each project quote. Overlapping date effectivity on project price lists is not supported in Project Operations.
+Project price lists are price lists that are used to default prices, not cost rates, for time, expense, and other project-related components. There can be multiple prices lists, and each list can have its own date effectivity for each project quote. Overlapping date effectivity on project price lists is not supported in Project Operations.
 
 ## Product price lists
 
