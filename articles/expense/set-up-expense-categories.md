@@ -1,35 +1,20 @@
 ---
-# required metadata
-
 title: Set up expense categories
 description: This topic provides information about how to set up expense categories and shared categories for expense reports.
 author: suvaidya
-manager: AnnBe
-ms.date: 09/09/2020
+manager: Annbe
+ms.date: 10/01/2020
 ms.topic: article
-ms.prod: 
 ms.service: dynamics-project-operations
-ms.technology: 
-
-# optional metadata
-
-ms.search.form: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: 
-# ms.search.industry: 
-ms.author: shylaw
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.reviewer: kfend 
+ms.author: suvaidya
 ---
 
 # Set up expense categories
 
-When employees create expense reports, each expense that they record must be associated with an expense category. Expense categories are derived from shared categories that can be shared across the legal entities in your organization. Depending on the way that your organization is defined, these categories can also be shared in other areas. Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+
+When employees create expense reports, each expense that they record must be associated with an expense category. Expense categories are derived from shared categories that can be shared across the legal entities in your organization. Depending on how your organization is defined, these expense categories can also be shared in other areas. Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.
 
 > [!NOTE]
 > These categories can be shared between Project management and accounting and Expense management, or between Project management and accounting and Production. However, they can't be shared between Expense management and Production.
@@ -49,7 +34,7 @@ Before you can begin the setup process, the following decisions must be made for
         - Accrued loss
         - WIP-accrued loss
 
-    - Which revenue accounts will be used for the following?
+    - Which revenue accounts will be used for the following sources of revenue?
 
         - Invoiced revenue
         - Accrued revenue-sales value
