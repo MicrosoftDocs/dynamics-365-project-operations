@@ -14,7 +14,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following:
+Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following tasks:
 
 - Form project teams by booking available and qualified resources.
 - Create generic team member records and define their roles and resource organization unit.
