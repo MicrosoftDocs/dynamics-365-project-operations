@@ -32,6 +32,8 @@
           href: sales/managing-project-price-lists.md
         - name: Create estimates on a quote line
           href: sales/create-estimate-quote-line.md
+        - name: Project-based quote lines
+          href: sales/manage-quoted-values-budget-limits-quote-line.md
       - name: Win a quote
         href: sales/win-quote.md
     - name: Manage contracts
