@@ -1,5 +1,5 @@
 ---
-title: Summary information on a project quote
+title: Summary information on a project quote (Sales)
 description: This topic provides information about the information and settings that apply to and impact project quotes. (Sales)
 author: rumant
 manager: Annbe
