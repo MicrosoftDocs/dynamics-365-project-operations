@@ -1,6 +1,6 @@
 ---
 title: Project-based quote lines
-description: This topic provides information about using project-based quote lines for project work.
+description: This topic provides information about using project-based quote lines for project work. (pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project-based quote lines
+# Project-based quote lines (Pro)
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
