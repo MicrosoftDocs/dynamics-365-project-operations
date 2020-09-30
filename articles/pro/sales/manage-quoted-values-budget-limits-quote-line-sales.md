@@ -1,6 +1,6 @@
 ---
-title: Project-based quote lines
-description: This topic provides information about using project-based quote lines for project work. (pro)
+title: Project-based quote lines (Pro)
+description: This topic provides information about using project-based quote lines for project work. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
