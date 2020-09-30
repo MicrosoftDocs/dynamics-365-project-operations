@@ -1,6 +1,6 @@
 ---
 title: Managing multiple customers on project quotes
-description: This topic provides information about working on quotes with multiple customers who will fund the project.
+description: This topic provides information about working on quotes with multiple customers who will fund the project. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Managing multiple customers on project quotes
+# Managing multiple customers on project quotes (Sales)
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

@@ -1,6 +1,6 @@
 ---
 title: Summary information on a project quote
-description: This topic provides information about the information and settings that apply to and impact project quotes.
+description: This topic provides information about the information and settings that apply to and impact project quotes. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Summary information on a project quote
+# Summary information on a project quote (Sales)
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
