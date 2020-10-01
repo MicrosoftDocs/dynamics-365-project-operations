@@ -53,15 +53,11 @@ Use following steps to enable the Project Operations automated provisioning flow
 
 6. Complete the remaining required fields in the wizard and confirm the deployment. Environment provisioning time varies based on the environment type. Provisioning might take up to six hours.
 
-  After deployment completes successfully, the environment will show in a **Deployed** state.
+  After the deployment completes successfully, the environment will show as **Deployed**.
 
- To confirm the environment has deployed successfully, select **Login** and log on to environment to confirm it is up and running.
+7. To confirm the environment has deployed successfully, select **Login** and log on to the environment to confirm it is up and running.
 
 ![Environment Details](./media/3EnvironmentDetails.png)
-
- You should see the Finance UI.
-
-![F&O Environment](./media/4FOEnvironment.png)
 
 ## Apply updates to the Finance environment
 
@@ -73,85 +69,81 @@ You might need to apply quality updates to your Finance environment to receive t
 
 ![View Updates](./media/5ViewUpdates.png)
 
-2. on the next screen, select **Save package.**
+2. On the **Binary updates** page, select **Save package.**
 
 ![Save package](./media/6SavePackage.png)
 
-3. Select all and save the package.
+3. Click **Select all** and then select **Save package**.
 
 ![Review and save updates](./media/7ReviewAndSaveUpdates.png)
 
-Give package a name and description and confirm saving. Depending on the internet connection this process will take some time.
+4. Enter a name and a description of the package, and then select **Save**. Depending on the internet connection, this process might take some time.
 
 ![Upload package to Assets Library](./media/8UploadPackageToAssetsLibrary.png)
 
-Once package is saved **Done** button will be enabled. Click it to save this package to your LCS project Assets library.
+5. After the package is saved, select **Done** and save this package to the Assets library in your LCS project.
 
 Saving and validating the package might take ~15 minutes.
 
-To apply the update, navigate to LCS Environment details page and select Maintain\&gt; Apply updates
+6. To apply the update, navigate to the **Environment details** page in LCS and select **Maintain** > **Apply updates**.
 
 ![Maintain Environments](./media/9MaintainEnvironment.png)
 
-In the updates list select the package created in the previous steps and select Apply.
+7. In the updates list select the package you just created, and select **Apply**.
 
 ![Apply Updates](./media/10ApplyUpdates.png)
 
-Environment servicing will take some time. Once it is complete, environment will return to deployed state.
+Environment servicing will take some time. After it is complete, the environment will return to a deployed state.
 
 ![Environment Deployed](./media/11EnvironmentDeployed.png)
 
-## Establish Dual Write connection between CE and F&amp;O Environments
+## Establish a Dual Write connection 
 
-Navigate to LCS project environment details page.
+1. In your LCS project, go to the **Environment details** page .
+2. Under **Common Data Service Environment Information**, select **Link to CDS for Apps**.
+3. After the link is complete, select **Link to CDS for Apps** again. You will be redirected to Dual Write in Finance.
 
-Under Common Data Service Environment Information, select **Link to CDS for Apps.**
+![Link to CDS](./media/12LinktoCDS.png)
 
-Once completed the LCS UI update to indicate the linking was successfully completed. Select **Link to CDS for Apps**. You will be redirected to Dual Write within Finance and Operations.
-
-![Link to CDS](./media/12LinkToCDS.png)
-
-To access the entities to be mapped in the integration, select **Apply Solution** from the menu.
+4. Select **Apply Solution** to access the entities that will be mapped in the integration.
 
 ![Apply Solutions](./media/13ApplySolutions.png)
 
-Select Both solutions, **Dynamics 365 Finance and Operations Dual Write Entity Map** s and **Dynamics 365 Project Operations Dual Write Entity Maps** and select **Apply.**
+5. Select both solutions, **Dynamics 365 Finance and Operations Dual Write Entity Map** and **Dynamics 365 Project Operations Dual Write Entity Maps**, and then select **Apply**.
 
 ![Confirm Solutions](./media/14ConfirmSolutions.png)
 
-Once the solutions have been applied, the Dual Write entities will be applied to the environment.
+After the solutions are applied, the Dual Write entities are applied to the environment.
 
 ![Applying Solutions](./media/15ApplyingSolutions.png)
 
-Once complete, all available mappings will be listed in the environment.
+After the entities are applied, all available mappings are listed in the environment.
 
 ![Dual Write Maps](./media/15DWMappings.png)
 
 ## Refresh the data entities after the update
 
-Navigate to Data management workspace in Finance and Operations environment:
+1. In Finance, go to the **Data management** workspace.
 
 ![Data Management workspace](./media/D16DataManagement.png)
 
-Open Framework parameters tile:
+2. Select the **Framework parameters** tile.
 
 ![Framework Parameters](./media/17FrameworksParameters.png)
 
-In Entity settings page select Refresh Entity list button
+3. On the **Entity settings** page, select **Refresh Entity list**.
 
 ![Refresh Entity List](./media/18RefreshEntityList.png)
 
-Refresh is going to take some time (~20 minutes). You will get an alert once it is complete.
+The refresh is going to take approximately 20 minutes. You will receive an alert when it is complete.
 
 ![Refresh Confirmation](./media/19RefreshConfirmation.png)
 
 ## Run Project Operations Dual Write maps
 
-Navigate to LCS project environment details page.
-
-Under Common Data Service Environment Information, select **Link to CDS for Apps.** Once selected, you will be redirected to the list of entities in the mappings.
-
-Start the maps as described in the table below (following the sequence):
+1. In your LCS project, go to the **Environment details** page .
+2. Under **Common Data Service Environment Information**, select **Link to CDS for Apps.** After you select the link, you will be redirected to the list of entities in the mappings.
+3. Start the maps as described in the following table. Make sure to follow the sequence as listed.
 
 | **Entity Map** | **Refresh entity** | **Initial sync** | **Master for initial sync** | **Run prerequisites** | **Prerequisites initial sync** |
 | --- | --- | --- | --- | --- | --- |
@@ -166,18 +158,19 @@ Start the maps as described in the table below (following the sequence):
 | **Project Operations integration project expenses export entity (msdyn\_expenses)** | Yes | No | N\A | No | N\A |
 | **Project Operations integration entity for hour estimates (msdyn\_resourceassignments)** | Yes | No | N\A | No | N\A |
 
-To refresh the entity open the it&#39;s details by clicking on the map name and click Refresh entities button. Proceed with running the map once refresh is complete.
+4. To refresh the entity, select the map name, and then select **Refresh entities**. 
+5. Proceed with running the map after the refresh is complete.
 
 ![Refresh Map](./media/20RefreshMapping.png)
 
-Make sure the map in the table is in Running state before you proceed with enabling the next map. Running maps with larger number of prerequisites might take some time.
+Before you enable the next map, verify that the map in the table is in a state of **Running**. Running maps with a larger number of prerequisites might take some time.
 
-To run a map with prerequisites, turn on toggle Show related entity maps. If table indicates Prerequisite initial sync as No, make sure initial sync flag is OFF in all the prerequisite maps before running it.
+To run a map with prerequisites, enable the **Show related entity maps** toggle. If the table indicates **Prerequisite initial sync** is **No**, verify that the **Initial sync** flag is **Off** in all the prerequisite maps before you run it.
 
 ![Run Map](./media/21RunMap.png)
 
-Lastly validate all Project related maps are in the running state:
+6. Validate all project related maps are in the running state.
 
 ![All Maps Running](./media/22AllMapsRunning.png)
 
-You have now successfully provisioned and configured Project Operations environment.
+Your Project Operations environment is now provisioned and configured.
