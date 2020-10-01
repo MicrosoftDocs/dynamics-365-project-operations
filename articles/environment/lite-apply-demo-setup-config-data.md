@@ -16,7 +16,7 @@ _**Lite deployment - deal to proforma invoicing_
 
 # Apply demo setup and configuration data for Project Operations lite deployment
 
-1. Download the Master Data Package [here](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). (https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip)
+1. Download the Master Data Package [here](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Navigate to the folder &quot;ProjOpsDemoDataSetupAndMaster - Integrated CMT&quot; and run the executable file called &quot;DataMigrationUtility&quot;.
 3. On page 1 of the CMT Wizard, Select the Import Data option and hit &quot;Continue&quot;
 
