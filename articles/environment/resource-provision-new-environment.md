@@ -23,7 +23,8 @@ Use following steps to enable Project Operations automated provisioning flow for
 1. Navigate to [LCS page](https://lcs.dynamics.com/v2) and click on a tile **Preview Feature management**.
 2. In the Preview feature list select Project Operations feature and enable it by selecting a flag Preview feature enabled.
 
-!Note – this step has to be performed only once per LCS project
+> [!NOTE]
+> This step has to be performed only one time per LCS project.
 
 ## Provision Project Operations environment
 
