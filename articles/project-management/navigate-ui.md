@@ -21,7 +21,7 @@ The main project form is separated into several tabs. Each tab represents a diff
 
 - **Summary** – Provides a description of the project and aggregates both the planned and actual project performance.
 
-    ![](/media/navigation7.png)
+    ![](media/navigation7.png)
 
 - **Tasks** - Provides the details regarding the work breakdown structure represented by a grid view, board view, and a gantt.
 
