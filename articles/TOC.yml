@@ -306,10 +306,6 @@
       items: 
       - name: Resource reconciliation overview
         href: resource-management/resource-reconciliation-overview.md
-    - name: Schedule board
-      items:
-      - name: Navigation and key settings
-        href: resource-management/navigation-key-settings-urs.md
   - name: Time
     items: 
     - name: Time entry overview
