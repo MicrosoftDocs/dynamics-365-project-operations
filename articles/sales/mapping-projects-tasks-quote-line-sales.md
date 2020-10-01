@@ -60,7 +60,7 @@ You can also associate project tasks to quote lines from the **Chargeable tasks*
 
 ## Disassociate tasks from project–based quote lines
 
-### From the project page
+### From the Project page
 
 This method provides the most optimal experience for disassociating tasks from quote lines. It allows you to select multiple tasks and disassociate all of the them, plus their child tasks, from the selected quote line.
 
@@ -71,7 +71,7 @@ This method provides the most optimal experience for disassociating tasks from q
 5. Select the check box to indicate whether the association should also be removed from child tasks of the selected tasks. Checking the box will also disassociate the child tasks of the selected tasks to the quote line.
 6. Select **Ok**. A warning message displays. It tells you that removing this association could result in the reversal of any actuals recorded on the task previously. Select **Ok** to continue and remove the association between the task and the project- based quote line.
 
-### From the quote line page
+### From the Quote line page
 
 You can also disassociate project tasks to quote lines from the **Chargeable tasks** tab on **Quote line** page.
 
