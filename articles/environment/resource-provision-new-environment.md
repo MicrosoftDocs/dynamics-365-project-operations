@@ -20,7 +20,7 @@ This article walks through required steps to provision a new Project Operations 
 
 Use following steps to enable Project Operations automated provisioning flow for your LCS Project:
 
-1. Navigate to [LCS page](https://lcs.dynamics.com/v2) and click on a tile Preview Feature management.
+1. Navigate to [LCS page](https://lcs.dynamics.com/v2) and click on a tile **Preview Feature management**.
 2. In the Preview feature list select Project Operations feature and enable it by selecting a flag Preview feature enabled.
 
 !Note – this step has to be performed only once per LCS project
@@ -31,11 +31,11 @@ Start new Finance and Operations [demo environment](https://docs.microsoft.com/e
 
 For Project Operations provisioning, within Advance settings, select Common Data Service menu item. Enable the Common Data Service Setting to **Yes** , then complete the required fields: Name, Region, Language, Currency and set the Common Data Service Template to Project Operations.
 
-![](RackMultipart20201001-4-8mzekf_html_2b8da8b858ca175c.png)
+![Deployment Settings](1DeploymentSettings.png)
 
 Important: Select **Agree** to acknowledge the terms of service and the select **Done** to return to the deployment settings.
 
-![](RackMultipart20201001-4-8mzekf_html_b0f12d2c4ad64bd9.png)
+![Deployment Consent](2DeploymentConsent.png)
 
 Complete remaining required fields in the wizard and confirm the deployment. Environment provisioning time varies based and the environment type and might take up to 6 hours.
 
@@ -43,11 +43,11 @@ Once deployment completes successfully, the environment will show in the Deploye
 
 To confirm the environment has deployed successfully, use the Login button, and log on to environment to confirm it is up and running.
 
-![](RackMultipart20201001-4-8mzekf_html_520e4fa86b8f6f05.png)
+![Environment Details](3EnvironmentDetails.png)
 
  You should see the F&amp;O UI as below.
 
-![](RackMultipart20201001-4-8mzekf_html_2d2bf4c72cee1ca8.png)
+![F&O Environment](4FOEnvironment.png)
 
 ## Apply updates to Finance and Operations environment
 
@@ -57,19 +57,19 @@ You might need to apply quality updates to Finance and Operations environment to
 
 Start in LCS Environment Details page. Find section **Available Updates** and click **View Update** button.
 
-![](RackMultipart20201001-4-8mzekf_html_3ab0b27e88610dc6.png)
+![View Updates](5ViewUpdates.png)
 
 In the next screen select **Save package.**
 
-![](RackMultipart20201001-4-8mzekf_html_9c0381f57757d094.png)
+![Save package](6SavePackage.png)
 
 Select all and save the package.
 
-![](RackMultipart20201001-4-8mzekf_html_d8f872036babbbe6.png)
+![Review and save updates](7ReviewAndSaveUpdates.png)
 
 Give package a name and description and confirm saving. Depending on the internet connection this process will take some time.
 
-![](RackMultipart20201001-4-8mzekf_html_e415cd86de8b8941.png)
+![Upload package to Assets Library](8UploadPackageToAssetsLibrary.png)
 
 Once package is saved **Done** button will be enabled. Click it to save this package to your LCS project Assets library.
 
@@ -77,15 +77,15 @@ Saving and validating the package might take ~15 minutes.
 
 To apply the update, navigate to LCS Environment details page and select Maintain\&gt; Apply updates
 
-![](RackMultipart20201001-4-8mzekf_html_c17a3dfdddb136b9.png)
+![Maintain Environments](9MaintainEnvironment.png)
 
 In the updates list select the package created in the previous steps and select Apply.
 
-![](RackMultipart20201001-4-8mzekf_html_8154cac4215e1d10.png)
+![Apply Updates](10ApplyUpdates.png)
 
 Environment servicing will take some time. Once it is complete, environment will return to deployed state.
 
-![](RackMultipart20201001-4-8mzekf_html_d12b350a24251c2a.png)
+![Environment Deployed](11EnvironmentDeployed.png)
 
 ## Establish Dual Write connection between CE and F&amp;O Environments
 
@@ -95,41 +95,41 @@ Under Common Data Service Environment Information, select **Link to CDS for Apps
 
 Once completed the LCS UI update to indicate the linking was successfully completed. Select **Link to CDS for Apps**. You will be redirected to Dual Write within Finance and Operations.
 
-![](RackMultipart20201001-4-8mzekf_html_a8b4a45ec5b3c95b.gif) ![](RackMultipart20201001-4-8mzekf_html_905cf1b404db08d9.png)
+![Link to CDS](12LinkToCDS.png)
 
 To access the entities to be mapped in the integration, select **Apply Solution** from the menu.
 
-![](RackMultipart20201001-4-8mzekf_html_55c53047f4779e9e.gif) ![](RackMultipart20201001-4-8mzekf_html_4299a8224f4a5906.png)
+![Apply Solutions](13ApplySolutions.png)
 
 Select Both solutions, **Dynamics 365 Finance and Operations Dual Write Entity Map** s and **Dynamics 365 Project Operations Dual Write Entity Maps** and select **Apply.**
 
-![](RackMultipart20201001-4-8mzekf_html_be2f56311ab06753.png)
+![Confirm Solutions](14ConfirmSolutions.png)
 
 Once the solutions have been applied, the Dual Write entities will be applied to the environment.
 
-![](RackMultipart20201001-4-8mzekf_html_13046a47248267a7.png)
+![Applying Solutions](15ApplyingSolutions.png)
 
 Once complete, all available mappings will be listed in the environment.
 
-![](RackMultipart20201001-4-8mzekf_html_a459bd3524d3d1ff.png)
+![Dual Write Maps](15DWMappings.png)
 
 ## Refresh the data entities after the update
 
 Navigate to Data management workspace in Finance and Operations environment:
 
-![](RackMultipart20201001-4-8mzekf_html_b593f17127f8c595.png)
+![Data Management workspace](D16DataManagement.png)
 
 Open Framework parameters tile:
 
-![](RackMultipart20201001-4-8mzekf_html_e4ec97db596999db.png)
+![Framework Parameters](17FrameworksParameters.png)
 
 In Entity settings page select Refresh Entity list button
 
-![](RackMultipart20201001-4-8mzekf_html_56df0739354a84d9.png)
+![Refresh Entity List](18RefreshEntityList.png)
 
 Refresh is going to take some time (~20 minutes). You will get an alert once it is complete.
 
-![](RackMultipart20201001-4-8mzekf_html_cf93324ce2819a8b.png)
+![Refresh Confirmation](19RefreshConfirmation.png)
 
 ## Run Project Operations Dual Write maps
 
@@ -154,16 +154,16 @@ Start the maps as described in the table below (following the sequence):
 
 To refresh the entity open the it&#39;s details by clicking on the map name and click Refresh entities button. Proceed with running the map once refresh is complete.
 
-![](RackMultipart20201001-4-8mzekf_html_47d21e5041babcb0.png)
+![Refresh Map](20RefreshMapping.png)
 
 Make sure the map in the table is in Running state before you proceed with enabling the next map. Running maps with larger number of prerequisites might take some time.
 
 To run a map with prerequisites, turn on toggle Show related entity maps. If table indicates Prerequisite initial sync as No, make sure initial sync flag is OFF in all the prerequisite maps before running it.
 
-![](RackMultipart20201001-4-8mzekf_html_2205ca99f4ca591d.png)
+![Run Map](21RunMap.png)
 
 Lastly validate all Project related maps are in the running state:
 
-![](RackMultipart20201001-4-8mzekf_html_a35492dd52ec4232.png)
+![All Maps Running](22AllMapsRunning.png)
 
 You have now successfully provisioned and configured Project Operations environment.
