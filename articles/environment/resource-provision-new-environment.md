@@ -1,6 +1,6 @@
 ---
 title: Provision a new environment
-description: This topic provides information about how to privsion a new Project Operations environment.
+description: This topic provides information about how to provsion a new Project Operations environment.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
@@ -29,7 +29,7 @@ Use following steps to enable the Project Operations automated provisioning flow
 ## Provision a Project Operations environment
 
 1. Open a new Dynamics 365 Finance [demo environment](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) or [sandbox/ production environment](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) deployment. 
-2. Walk trhough the **Environment provisioning** wizard. 
+2. Walk through the **Environment provisioning** wizard. 
 
 > [!IMPORTANT]
 > Make sure selected application version is 10.0.13 or higher.
@@ -55,7 +55,7 @@ Use following steps to enable the Project Operations automated provisioning flow
 
   After the deployment completes successfully, the environment will show as **Deployed**.
 
-7. To confirm the environment has deployed successfully, select **Login** and log on to the environment to confirm it is up and running.
+7. To confirm the environment has deployed successfully, select **Login** and log on to the environment to confirm.
 
 ![Environment Details](./media/3EnvironmentDetails.png)
 
@@ -89,7 +89,7 @@ Saving and validating the package might take ~15 minutes.
 
 ![Maintain Environments](./media/9MaintainEnvironment.png)
 
-7. In the updates list select the package you just created, and select **Apply**.
+7. In the updates list select the package you created, and select **Apply**.
 
 ![Apply Updates](./media/10ApplyUpdates.png)
 
@@ -99,7 +99,7 @@ Environment servicing will take some time. After it is complete, the environment
 
 ## Establish a Dual Write connection 
 
-1. In your LCS project, go to the **Environment details** page .
+1. In your LCS project, go to the **Environment details** page.
 2. Under **Common Data Service Environment Information**, select **Link to CDS for Apps**.
 3. After the link is complete, select **Link to CDS for Apps** again. You will be redirected to Dual Write in Finance.
 
@@ -141,7 +141,7 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 
 ## Run Project Operations Dual Write maps
 
-1. In your LCS project, go to the **Environment details** page .
+1. In your LCS project, go to the **Environment details** page.
 2. Under **Common Data Service Environment Information**, select **Link to CDS for Apps.** After you select the link, you will be redirected to the list of entities in the mappings.
 3. Start the maps as described in the following table. Make sure to follow the sequence as listed.
 
