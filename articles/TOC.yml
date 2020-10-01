@@ -110,6 +110,8 @@
       href: resource-management/resource-management-key-concepts.md
     - name: Bookings vs Assignments
       href: resource-management/booking-vs-assignment.md
+    - name: Resource management modes overview
+      href: resource-management/resource-management-mode-overview.md
     - name: Schedule assistant overview
       href: resource-management/schedule-assistant-overview.md
     - name: Centralized resource booking
@@ -280,6 +282,8 @@
       href: resource-management/resource-management-key-concepts.md
     - name: Bookings vs Assignments
       href: resource-management/booking-vs-assignment.md
+    - name: Resource management modes overview
+      href: resource-management/resource-management-mode-overview.md
     - name: Schedule assistant overview
       href: resource-management/schedule-assistant-overview.md
     - name: Centralized resource booking
