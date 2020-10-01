@@ -125,11 +125,11 @@ After the entities are applied, all available mappings are listed in the environ
 
 1. In Finance, go to the **Data management** workspace.
 
-![Data Management workspace](./media/D16DataManagement.png)
+![Data Management workspace](./media/16DataManagement.png)
 
 2. Select the **Framework parameters** tile.
 
-![Framework Parameters](./media/17FrameworksParameters.png)
+![Framework Parameters](./media/17FrameworkParameters.png)
 
 3. On the **Entity settings** page, select **Refresh Entity list**.
 
