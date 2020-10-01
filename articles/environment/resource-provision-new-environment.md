@@ -1,6 +1,6 @@
 ---
 title: Provision a new environment
-description: 
+description: This topic provides information about how to privsion a new Project Operations environment.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
@@ -14,63 +14,76 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This article walks through required steps to provision a new Project Operations environment for resource/ non stocked scenarios.
+This topic provides information about how to provision a new Dynamics 365 Project Operations environment for resource/non-stocked based scenarios.
 
-## Enable Project Operations automated provisioning in LCS project
+## Enable Project Operations automated provisioning in an LCS project
 
-Use following steps to enable Project Operations automated provisioning flow for your LCS Project:
+Use following steps to enable the Project Operations automated provisioning flow for your LCS project.
 
-1. Navigate to [LCS page](https://lcs.dynamics.com/v2) and click on a tile **Preview Feature management**.
-2. In the Preview feature list select Project Operations feature and enable it by selecting a flag Preview feature enabled.
+1. Go to [LCS](https://lcs.dynamics.com/v2) and select the **Preview Feature management** tile.
+2. In the **Preview feature** list, select **Project Operations** and the select **Preview feature enabled** to enable Project Operations.
 
 > [!NOTE]
-> This step has to be performed only one time per LCS project.
+> This step is performed only one time per LCS project.
 
-## Provision Project Operations environment
+## Provision a Project Operations environment
 
-Start new Finance and Operations [demo environment](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) or [sandbox/ production environment](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) deployment. Fill in environment provisioning wizard as described in referenced article. **Make sure selected application version is 10.0.13 or higher.**
+1. Open a new Dynamics 365 Finance [demo environment](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) or [sandbox/ production environment](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) deployment. 
+2. Walk trhough the **Environment provisioning** wizard. 
 
-For Project Operations provisioning, within Advance settings, select Common Data Service menu item. Enable the Common Data Service Setting to **Yes** , then complete the required fields: Name, Region, Language, Currency and set the Common Data Service Template to Project Operations.
+> [!IMPORTANT]
+> Make sure selected application version is 10.0.13 or higher.
 
-![Deployment Settings](1DeploymentSettings.png)
+3. To provision Project Operations, under **Advance settings**, select **Common Data Service**. 
+4. Enable the **Common Data Service Setting** by selecting **Yes** and then enter information in the required fields:
 
-Important: Select **Agree** to acknowledge the terms of service and the select **Done** to return to the deployment settings.
+  - Name
+  - Region
+  - Language
+  - Currency
 
-![Deployment Consent](2DeploymentConsent.png)
+5. In the **Common Data Service Template** field, select **Project Operations**.
 
-Complete remaining required fields in the wizard and confirm the deployment. Environment provisioning time varies based and the environment type and might take up to 6 hours.
+![Deployment Settings](./media/1DeploymentSettings.png)
 
-Once deployment completes successfully, the environment will show in the Deployed state.
+> [!IMPORTANT]
+> Select **Agree** to acknowledge the terms of service and then select **Done** to return to the deployment settings.
 
-To confirm the environment has deployed successfully, use the Login button, and log on to environment to confirm it is up and running.
+![Deployment Consent](./media/2DeploymentConsent.png)
 
-![Environment Details](3EnvironmentDetails.png)
+6. Complete the remaining required fields in the wizard and confirm the deployment. Environment provisioning time varies based on the environment type. Provisioning might take up to six hours.
 
- You should see the F&amp;O UI as below.
+  After deployment completes successfully, the environment will show in a **Deployed** state.
 
-![F&O Environment](4FOEnvironment.png)
+ To confirm the environment has deployed successfully, select **Login** and log on to environment to confirm it is up and running.
 
-## Apply updates to Finance and Operations environment
+![Environment Details](./media/3EnvironmentDetails.png)
 
-Project Operations requires Finance and Operations environment with an application version **10.0.13 (10.0.569.20009)** or higher.
+ You should see the Finance UI.
 
-You might need to apply quality updates to Finance and Operations environment to receive this version.
+![F&O Environment](./media/4FOEnvironment.png)
 
-Start in LCS Environment Details page. Find section **Available Updates** and click **View Update** button.
+## Apply updates to the Finance environment
 
-![View Updates](5ViewUpdates.png)
+Project Operations requires a Finance environment with application version **10.0.13 (10.0.569.20009)** or higher.
 
-In the next screen select **Save package.**
+You might need to apply quality updates to your Finance environment to receive this version.
 
-![Save package](6SavePackage.png)
+1. In LCS, on the **Environment details** page, in the **Available Updates** section, select **View Update**.
 
-Select all and save the package.
+![View Updates](./media/5ViewUpdates.png)
 
-![Review and save updates](7ReviewAndSaveUpdates.png)
+2. on the next screen, select **Save package.**
+
+![Save package](./media/6SavePackage.png)
+
+3. Select all and save the package.
+
+![Review and save updates](./media/7ReviewAndSaveUpdates.png)
 
 Give package a name and description and confirm saving. Depending on the internet connection this process will take some time.
 
-![Upload package to Assets Library](8UploadPackageToAssetsLibrary.png)
+![Upload package to Assets Library](./media/8UploadPackageToAssetsLibrary.png)
 
 Once package is saved **Done** button will be enabled. Click it to save this package to your LCS project Assets library.
 
@@ -78,15 +91,15 @@ Saving and validating the package might take ~15 minutes.
 
 To apply the update, navigate to LCS Environment details page and select Maintain\&gt; Apply updates
 
-![Maintain Environments](9MaintainEnvironment.png)
+![Maintain Environments](./media/9MaintainEnvironment.png)
 
 In the updates list select the package created in the previous steps and select Apply.
 
-![Apply Updates](10ApplyUpdates.png)
+![Apply Updates](./media/10ApplyUpdates.png)
 
 Environment servicing will take some time. Once it is complete, environment will return to deployed state.
 
-![Environment Deployed](11EnvironmentDeployed.png)
+![Environment Deployed](./media/11EnvironmentDeployed.png)
 
 ## Establish Dual Write connection between CE and F&amp;O Environments
 
@@ -96,41 +109,41 @@ Under Common Data Service Environment Information, select **Link to CDS for Apps
 
 Once completed the LCS UI update to indicate the linking was successfully completed. Select **Link to CDS for Apps**. You will be redirected to Dual Write within Finance and Operations.
 
-![Link to CDS](12LinkToCDS.png)
+![Link to CDS](./media/12LinkToCDS.png)
 
 To access the entities to be mapped in the integration, select **Apply Solution** from the menu.
 
-![Apply Solutions](13ApplySolutions.png)
+![Apply Solutions](./media/13ApplySolutions.png)
 
 Select Both solutions, **Dynamics 365 Finance and Operations Dual Write Entity Map** s and **Dynamics 365 Project Operations Dual Write Entity Maps** and select **Apply.**
 
-![Confirm Solutions](14ConfirmSolutions.png)
+![Confirm Solutions](./media/14ConfirmSolutions.png)
 
 Once the solutions have been applied, the Dual Write entities will be applied to the environment.
 
-![Applying Solutions](15ApplyingSolutions.png)
+![Applying Solutions](./media/15ApplyingSolutions.png)
 
 Once complete, all available mappings will be listed in the environment.
 
-![Dual Write Maps](15DWMappings.png)
+![Dual Write Maps](./media/15DWMappings.png)
 
 ## Refresh the data entities after the update
 
 Navigate to Data management workspace in Finance and Operations environment:
 
-![Data Management workspace](D16DataManagement.png)
+![Data Management workspace](./media/D16DataManagement.png)
 
 Open Framework parameters tile:
 
-![Framework Parameters](17FrameworksParameters.png)
+![Framework Parameters](./media/17FrameworksParameters.png)
 
 In Entity settings page select Refresh Entity list button
 
-![Refresh Entity List](18RefreshEntityList.png)
+![Refresh Entity List](./media/18RefreshEntityList.png)
 
 Refresh is going to take some time (~20 minutes). You will get an alert once it is complete.
 
-![Refresh Confirmation](19RefreshConfirmation.png)
+![Refresh Confirmation](./media/19RefreshConfirmation.png)
 
 ## Run Project Operations Dual Write maps
 
@@ -155,16 +168,16 @@ Start the maps as described in the table below (following the sequence):
 
 To refresh the entity open the it&#39;s details by clicking on the map name and click Refresh entities button. Proceed with running the map once refresh is complete.
 
-![Refresh Map](20RefreshMapping.png)
+![Refresh Map](./media/20RefreshMapping.png)
 
 Make sure the map in the table is in Running state before you proceed with enabling the next map. Running maps with larger number of prerequisites might take some time.
 
 To run a map with prerequisites, turn on toggle Show related entity maps. If table indicates Prerequisite initial sync as No, make sure initial sync flag is OFF in all the prerequisite maps before running it.
 
-![Run Map](21RunMap.png)
+![Run Map](./media/21RunMap.png)
 
 Lastly validate all Project related maps are in the running state:
 
-![All Maps Running](22AllMapsRunning.png)
+![All Maps Running](./media/22AllMapsRunning.png)
 
 You have now successfully provisioned and configured Project Operations environment.
