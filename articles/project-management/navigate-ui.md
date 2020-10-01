@@ -69,7 +69,7 @@ The **Group by** action updates the grouping of the rows in the grid to reflect 
 
 ![](media/navigation6.png)
 
-### Previous/ Next
+### Previous/Next
 
 **Previous**/**Next** update the visible time periods on the time-phased grids.
 
