@@ -59,6 +59,10 @@ Use following steps to enable the Project Operations automated provisioning flow
 
 ![Environment Details](./media/3EnvironmentDetails.png)
 
+## Apply Project Operations Finance demo data (optional step)
+
+Apply Project Operations Finance demo data to 10.0.13 service release Cloud Hosted Environment as described in [this article](resource-apply-finance-demo-data.md).
+
 ## Apply updates to the Finance environment
 
 Project Operations requires a Finance environment with application version **10.0.13 (10.0.569.20009)** or higher.
