@@ -74,8 +74,6 @@
           href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
   - name: Project management
     items: 
-    - name: Project management overview
-      href: project-management/project-management-overview.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Navigating the UI
@@ -104,8 +102,6 @@
         href: project-management/project-team-members-overview.md
   - name: Resource management
     items: 
-    - name: Resource management overview
-      href: resource-management/resource-management-overview.md
     - name: Key concepts
       href: resource-management/resource-management-key-concepts.md
     - name: Bookings vs Assignments
@@ -118,8 +114,6 @@
         href: resource-management/define-resource-requirements.md
       - name: Update resource requirements
         href: resource-management/update-resource-requirements.md
-      - name: Book from the schedule board
-        href: 
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
     - name: Skills and proficiency models
@@ -130,16 +124,12 @@
         href: resource-management/resource-reconciliation-overview.md
   - name: Time
     items: 
-    - name: Time entry overview
-      href: time/time-entry-overview.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
         href: time/customize-weekly-time-entry-grid.md
   - name: Expense
     items: 
-    - name: Expense overview
-      href: expense/expense-overview.md
     - name: Expense management experience for projects
       items:
       - name: Configuration and setup
@@ -184,10 +174,6 @@
           href: expense/match-receipt-expense-ocr.md
       - name: Mobile Expense management
         href: expense/expense-using-mobile.md
-  - name: Approvals
-    items: 
-    - name: Approvals overview
-      href: approvals/approvals-overview.md
   - name: Actuals
     items: 
     - name: Actuals overview
@@ -254,8 +240,6 @@
           href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
   - name: Project management
     items: 
-    - name: Project management overview
-      href: project-management/project-management-overview.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Understand project status
@@ -284,8 +268,6 @@
         href: project-management/project-team-members-overview.md
   - name: Resource management
     items: 
-    - name: Resource management overview
-      href: resource-management/resource-management-overview.md
     - name: Key concepts
       href: resource-management/resource-management-key-concepts.md
     - name: Bookings vs Assignments
@@ -308,17 +290,7 @@
         href: resource-management/resource-reconciliation-overview.md
   - name: Time
     items: 
-    - name: Time entry overview
-      href: time/time-entry-overview.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
         href: time/customize-weekly-time-entry-grid.md
-  - name: Expense
-    items: 
-    - name: Expense overview
-      href: expense/expense-overview.md
-  - name: Approvals
-    items: 
-    - name: Approvals overview
-      href: approvals/approvals-overview.md
