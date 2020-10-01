@@ -67,7 +67,7 @@ Time entry records have an associated type that defines behavior in the submissi
 |Work	| 192,350,000|
 |Absence	| 192,350,001|
 |Vacation	| 192,350,002|
-----
+
 
 
 ## <a name="customize"></a>Customize the weekly Time Entry control
