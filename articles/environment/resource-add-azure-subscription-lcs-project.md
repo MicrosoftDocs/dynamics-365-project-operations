@@ -38,7 +38,7 @@ Note that the authorization is now complete.
 
 ![Authorization Successfull](5AuthorizationComplete.png)
 
-## <a name="provide".</a>Provide Dynamics Deployment Services access to your Azure subscription
+## <a name="provide"></a>Provide Dynamics Deployment Services access to your Azure subscription
 
 1. Go to [Microsoft Azure billing](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) and select your subscription. Dynamics Deployment Services needs to access this subscription to be able to deploy environments.
 
