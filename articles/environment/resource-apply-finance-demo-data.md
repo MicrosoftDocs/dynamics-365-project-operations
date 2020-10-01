@@ -1,6 +1,6 @@
 ---
-title: Apply Project Operations demo data to Finance and Operations Cloud Hosted Environment
-description: T
+title: Apply Project Operations demo data to a Finance Cloud-hosted environment
+description: This topic explains how to apply demo data from Project Operations to a Dynamics 365 Finance Cloud-hosted environment.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
@@ -10,70 +10,67 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Apply Project Operations demo data to Finance and Operations Cloud Hosted Environment
+# Apply Project Operations demo data to a Finance Cloud-hosted environment
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
->[**Important**]
-> This article is applicable only for Finance and Operations application version 10.0.13 and can be performed only on a Cloud Hosted environment. Perform this step **BEFORE** applying quality updates to the environment described in the next paragraph.
+>[Important]
+> This topic is only applicable only Microsoft Dynamics 365 Finance version 10.0.13 and can be performed only on a Cloud-hosted environment. Complete the steps in this topic **BEFORE** you apply quality updates to the environment.
 
-Open LCS environment details page. Note that it has the details needed to connect to the environment via Remote Desktop Protocol (RDP).
+1. In your LCS project, open the **Environment details** page. Notice that it includes the details needed to connect to the environment by using Remote Desktop Protocol (RDP).
 
 ![Environment Details](1EnvironmentDetails.png)
 
-First set of highlighted credentials contain hyperlink to remote desktop connection and environment admin username and password. Second set below will be used to log in to SQL Server in this environment.
+The first set of highlighted credentials are teh local account credentials and contain a hyperlink to the remote desktop connection. The credentials include the environment admin username and password. The second set of credentials are used to log in to SQL Server in this environment.
 
-Remote to the environment by clicking hyperlink in Local Accounts and use the Local Account credentials above to authenticate.
-
-As a first step we will stop the AOS and batch processes so we can continue with replacing the SQL DB.
-
-Navigate to Internet Information Services \&gt; Application Pools \&gt; AOSService and Stop it.
+2. Remote to the environment by the hyperlink in **Local Accounts**, and use the **Local Account credentials** to authenticate.
+3. Go to **Internet Information Services** > **Application Pools** > **AOSService** and and stop the service. You are stopping the service at this point so that you can continue with replacing the SQL databse.
 
 ![Stop AOS](2StopAOS.png)
 
-Secondly navigate to Services and stop the following two:
+4. Go to **Services** and stop the following two items:
 
 - Microsoft Dynamics 365 Unified Operations: Batch Management Service
 - Microsoft Dynamics 365 Unified Operations: Data Import Export Framework
 
 ![Stop Services](3StopAOS.png)
 
-Next, let&#39;s open Microsoft SQL Server Management Studio. Login with SQL server credentials and use axdbadmin user and password from LCS Environments details page.
+5. Open Microsoft SQL Server Management Studio. Log in with SQL server credentials and use teh axdbadmin user and password from the LCS **Environments details** page.
 
 ![SQL Server Management Studio](SSMS.png)
 
-Expand Databases in Object Explorer and find AXDB. We will need to replace it with a new database. You can find the SQL database to use in the Download Center. Copy this zip file to the VM you are remoted into and extract zip contents.
-
-In SQL Server Management Studio, right click on AxDB and select Tasks\&gt; Restore\&gt; Database
+6. In Object Explorer, **Databases** and locate **AXDB**. You will replace this with a new database that is located in the Download Center. 
+7. Copy the zip file to the VM you are remoted into and extract zip contents.
+8. In SQL Server Management Studio, right-click **AxDB**, and then select **Tasks** > **Restore** > **Database**.
 
 ![Restore Database](5RestoreDatabase.png)
 
-Select Source Device and navigate to the file extracted from zip you have copied previously.
+9. Select **Source Device** and navigate to the file extracted from zip you copied.
 
 ![Source Devices](6SourceDevice.png)
 
-Next go to Options and select  **Overwrite the existing database**  and  **Close existing connections to destination database**. Click OK.
+10. Select **Options**, and then select **Overwrite the existing database** and **Close existing connections to destination database**. 
+11. Select **OK**.
 
 ![Restore Settings](7RestoreSetting.png)
 
-Once you will get a confirmation AXDB restore was successful, you can close SQL Services Management Studio.
+You will receive confirmation that the AXDB restore was successful. After you receive this confirmation, you can close SQL Services Management Studio.
 
-Navigate back to Internet Information Services \&gt; Application Pools \&gt; AOSService and Start it.
+12. Go back to **Internet Information Services** > **Application Pools** > **AOSService** and start the AOSService.
+13. Go to **Services** and start the two services you stopped earlier.
 
-Navigate to Services and Start the two Services we previously stopped.
-
-Next, we will need to find AdminUserProvisioning tool on this VM. For most of the VMs it will be in K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe
-
-Run it.  Use your previously created user address in the Email Address field and click Submit.
+14. Locate the AdminUserProvisioning tool on this VM. Look under, K:\AosService\PackagesLocalDirectory\bin\AdminUserProvisioning.exe.
+15. Run the .ext file using your user address in the **Email Address** field. 
+16. Select **Submit**.
 
 ![Admin User Provisioning](8AdminUserProvisioning.png)
 
-This takes a couple of minutes to complete and should result in a confirmation message that Admin user was successfully updated.
+This takes a couple of minutes to complete. You should receive a confirmation message that the Admin user was successfully updated.
 
-Lastly, run Command Prompt as Administrator and perform iisreset
+17. Lastly, run Command Prompt as Administrator and perform iisreset
 
 ![IIS Reset](9IISReset.png)
 
-All done! You can close remote desktop session and using LCS Environment Details page log in to the environment to confirm it is up and running:
+18. C the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.
 
 ![Finance and Operations](10FinanceAndOperations.png)
