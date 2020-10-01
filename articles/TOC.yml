@@ -48,26 +48,6 @@
           href: sales/manage-quoted-values-budget-limits-quote-line.md
       - name: Close a quote
         href: sales/win-quote.md
-    - name: Manage contracts
-      items:
-      - name: Project-based contract lines
-        items: 
-        - name: Map projects and tasks to a contract line
-          href: sales/mapping-projects-tasks-contract-line.md
-        - name: Create estimates on a contract line
-          href: sales/create-estimate-project-contract-line.md
-        - name: Import estimates from a project to a contract line
-          href: sales/import-estimate-project-contract-line.md
-        - name: Manage contract values, customer budgets, and not-too-exceed limits on a contract line
-          href: sales/manage-contract-values-project-based.md
-        - name: Invoice schedules on a contract line
-          href: sales/invoice-schedules-contract-line.md
-      - name: Confirm a contract
-        href: sales/confirm-contract.md
-      - name: Close a contract as work completed
-        href: sales/close-contract-work-completed.md
-      - name: Close a contract as canceled
-        href: sales/close-contract-canceled.md
   - name: Pricing and costing
     items: 
     - name: Product price lists
@@ -110,36 +90,18 @@
       items: 
       - name: Create assignments
         href: project-management/create-assignments.md
-      - name: Navigate the task management experience
-        href: project-management/navigate-task-mgmt-experience.md
     - name: Estimate projects
       items: 
-      - name: Estimate projects overview
-        href: project-management/estimate-projects-overview.md
-      - name: Resource estimates
-        href: project-management/resource-estimates.md
       - name: Create expense estimates
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
-      - name: Project tracking overview
-        href: project-management/cost-vs-effort-overview.md
-      - name: Column definitions
-        href: project-management/column-definitions.md
       - name: Update estimate at completion
         href: project-management/update-completed-estimate.md
     - name: Project team members
       items: 
       - name: Project team members overview
         href: project-management/project-team-members-overview.md
-      - name: Maintain team members
-        href: project-management/maintain-team-members.md
-    - name: Collaboration
-      items: 
-      - name: Groups
-        href: project-management/collaboration-groups.md
-    - name: Project planning FAQ
-      href: project-management/project-planning-faq.md
   - name: Resource management
     items: 
     - name: Resource management overview
@@ -156,66 +118,16 @@
         href: resource-management/define-resource-requirements.md
       - name: Update resource requirements
         href: resource-management/update-resource-requirements.md
-      - name: Submit resource requirements
-        href: resource-management/submit-resource-requirements.md
-      - name: Resource requests overview
-        href: resource-management/resource-requests-overview.md
       - name: Book from the schedule board
         href: 
-    - name: Decentralized resource booking
-      items:
-      - name: Decentralized resource booking overview
-        href: resource-management/decentralized-resource-booking-overview.md
-      - name: Options to book directly
-        href: resource-management/options-book-directly.md
-    - name: Administration of resources
-      items: 
-      - name: Create resources
-        href: resource-management/create-resources.md
-      - name: Define roles
-        href: resource-management/define-roles.md
-      - name: Define resource calendars
-        href: resource-management/define-resource-calendars.md
-      - name: Associate resources with organizational units
-        href: resource-management/associate-resources-organizational-units.md
-      - name: Associate resources with companies
-        href: resource-management/associate-resources-companies.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
-    - name: Booking statuses
-      href: resource-management/booking-status.md
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
         href: resource-management/resource-reconciliation-overview.md
-      - name: Key concepts
-        href: resource-management/resource-reconciliation-key-concepts.md
-      - name: Navigation
-        href: resource-management/resource-reconciliation-navigation.md
-      - name: Extend bookings
-        href: resource-management/extend-bookings.md
-      - name: Manage multiple time zones
-        href: resource-management/manage-multiple-time-zones.md
-    - name: Resource utilization
-      items:
-      - name: Resource utilization overview
-        href: resource-management/resource-utilization-overview.md
-      - name: Search, settings, and navigation
-        href: resource-management/search-settings-navigation.md
-    - name: Schedule board
-      items:
-      - name: Navigation and key settings
-        href: resource-management/navigation-key-settings-urs.md
-      - name: Personalization
-        href: resource-management/personalization-urs.md
-      - name: Search
-        href: resource-management/search-urs.md
-      - name: Booking actions
-        href: resource-management/booking-actions-urs.md
-    - name: Resource management FAQ
-      href: resource-management/resource-management-faq.md
   - name: Time
     items: 
     - name: Time entry overview
@@ -276,48 +188,16 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
-    - name: Approve expense entries
-      items:
-    - name: Cancel approved expense entries
-      items:
-      - name: Full Expense
-        href: approvals/cancel-full-expense.md
   - name: Actuals
     items: 
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Create actuals from Time and Expense approvals
-      href: actuals/create-actuals-time-expense-approvals.md
-    - name: Entry journals 
-      href: actuals/entry-journals.md
-    - name: Correction journals
-      items:
-      - name: Time corrections
-        href: actuals/time-correction.md
-      - name: Expense corrections
-        href: actuals/expense-correction.md
   - name: Project accounting
     items:
-    - name: Financial dimension defaults 
-      href: project-accounting/financial-dimension-defaults.md
     - name: Configure project categories
       href: project-accounting/configure-project-categories.md
-    - name: Configure accounting for internal projects
-      href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
-    - name: Project Operations Integration journal
-      href: project-accounting/project-operations-integration-journal.md
-  - name: Revenue recognition
-    items: 
-    - name: Revenue recognition overview
-      href: revenue-recognition/revenue-recognition-overview.md
-    - name: Recognize revenue at invoicing
-      href: revenue-recognition/rev-rec-invoicing.md
-    - name: Recognize revenue using the Completed contract method
-      href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Recognize revenue using the Percentage completion method
-      href: revenue-recognition/rev-rec-percentage-completion-method.md
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Sales process
@@ -352,32 +232,6 @@
         items: 
       - name: Close a quote
         href: pro/sales/win-quote-sales.md
-    - name: Manage contracts
-      items: 
-      - name: Project-based contract lines
-        items: 
-        - name: Manage multiple customers on a contract line
-          href: pro/sales/manage-multiple-customers-contract-line-sales.md
-        - name: Map projects and tasks to a contract line
-          href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-        - name: Create estimates on a contract line
-          href: pro/sales/create-estimate-project-contract-line-sales.md
-        - name: Import estimates from a project to a contract line
-          href: pro/sales/import-estimate-project-contract-line-sales.md
-        - name: Manage contract values, customer budgets, and not-to-exceed limits on a contract line
-          href: pro/sales/manage-contract-values-project-based-sales.md
-        - name: Invoice schedules on a contract line
-          href: pro/sales/invoice-schedules-contract-line-sales.md 
-      - name: Set up advances and retainer-based contracts
-        items: 
-        - name: Set up a schedule of retainers
-          href: pro/sales/set-up-schedule-retainers-sales.md
-      - name: Confirm a contract
-        href: pro/sales/confirm-contract-sales.md
-      - name: Close a contract as work completed
-        href: pro/sales/close-contract-work-completed-sales.md
-      - name: Close a contract as canceled
-        href: pro/sales/close-contract-canceled-sales.md
   - name: Pricing and costing
     items: 
     - name: Project price lists
@@ -440,89 +294,35 @@
       href: resource-management/schedule-assistant-overview.md
     - name: Centralized resource booking
       items:
-      - name: Add generic team members to tasks
-        href: resource-management/add-generic-team-members-tasks.md
       - name: Define resource requirements
         href: resource-management/define-resource-requirements.md
-      - name: Define requirement contours
-        href: resource-management/define-resource-requirement-contours.md
       - name: Update resource requirements
         href: resource-management/update-resource-requirements.md
-      - name: Submit resource requirements
-        href: resource-management/submit-resource-requirements.md
-      - name: Resource requests overview
-        href: resource-management/resource-requests-overview.md
-    - name: Administration of resources
-      items: 
-      - name: Define roles
-        href: resource-management/define-roles.md
-      - name: Associate resources with organizational units
-        href: resource-management/associate-resources-organizational-units.md
-      - name: Associate resources with companies
-        href: resource-management/associate-resources-companies.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
-    - name: Booking statuses
-      href: resource-management/booking-status.md
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
         href: resource-management/resource-reconciliation-overview.md
-      - name: Key concepts
-        href: resource-management/resource-reconciliation-key-concepts.md
-      - name: Navigation
-        href: resource-management/resource-reconciliation-navigation.md
-      - name: Extend bookings
-        href: resource-management/extend-bookings.md
-      - name: Manage multiple time zones
-        href: resource-management/manage-multiple-time-zones.md
-    - name: Resource utilization
-      items:
-      - name: Resource utilization overview
-        href: resource-management/resource-utilization-overview.md
-      - name: Search, settings, and navigation
-        href: resource-management/search-settings-navigation.md
     - name: Schedule board
       items:
       - name: Navigation and key settings
         href: resource-management/navigation-key-settings-urs.md
-      - name: Personalization
-        href: resource-management/personalization-urs.md
-      - name: Search
-        href: resource-management/search-urs.md
-      - name: Booking actions
-        href: resource-management/booking-actions-urs.md
-    - name: Resource management FAQ
-      href: resource-management/resource-management-faq.md
   - name: Time
     items: 
     - name: Time entry overview
       href: time/time-entry-overview.md
     - name: Developer notes
       items: 
-      - name: Extend time entries
-        href: time/extending-time-entries.md
       - name: Customize the weekly time entry grid
         href: time/customize-weekly-time-entry-grid.md
-      - name: Security considerations
-        href: time/security-considerations.md
   - name: Expense
     items: 
     - name: Expense overview
       href: expense/expense-overview.md
-    - name: Expense entry
-      href: expense-entry.md
   - name: Approvals
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
-  - name: Actuals
-    items:
-    - name: Correction journals
-      items:
-      - name: Time corrections
-        href: pro/actuals/time-correction-sales.md 
-      - name: Expense corrections
-        href: pro/actuals/expense-correction-sales.md
