@@ -18,6 +18,10 @@
       href: sales/manage-leads.md
     - name: Manage opportunities
       items:
+      - name: Opportunity header
+        href: sales/opportunity-header.md
+      - name: Project-based lines
+        href: sales/project-based-lines.md
       - name: Create project quotes from opportunities
         href: sales/link-quotes-opportunities.md
       - name: Close an opportunity
@@ -26,18 +30,24 @@
       items:
       - name: Key concepts
         href: sales/quotes-key-concepts.md
+      - name: Manage multiple customers on a quote
+        href: sales/manage-multiple-customers-quote.md
+      - name: Product-based quote lines
+        item:
+        - name: Costing product-based quote lines
+          href: sales/costing-product-based-quote-lines.md
+        - name: Manage complex units for product-based quote lines
+          href: sales/managing-complex-units-product-based-quote-lines.md
       - name: Project-based quote lines
         items: 
         - name: Manage project price lists
           href: sales/managing-project-price-lists.md
         - name: Create estimates on a quote line
           href: sales/create-estimate-quote-line.md
-        - name: Project-based quote lines
+        - name: Manage quoted values, customer budgets, and not-to-exceed limits
           href: sales/manage-quoted-values-budget-limits-quote-line.md
-      - name: Win a quote
+      - name: Close a quote
         href: sales/win-quote.md
-    - name: Manage contracts
-      items:
   - name: Pricing and costing
     items: 
     - name: Product price lists
@@ -68,16 +78,30 @@
       href: project-management/project-management-overview.md
     - name: Project stages
       href: project-management/project-stages.md
-    - name: Understand project status
+    - name: Navigating the UI
       href: project-management/understand-project-status.md
     - name: Define project calendars
       href: project-management/define-project-calendars.md
     - name: Update a project
       href: project-management/update-project.md
+    - name: Copy a project
+      href: project-management/copy-project.md    
+    - name: Work breakdown structure planning
+      items: 
+      - name: Create assignments
+        href: project-management/create-assignments.md
+    - name: Estimate projects
+      items: 
+      - name: Create expense estimates
+        href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
       - name: Update estimate at completion
         href: project-management/update-completed-estimate.md
+    - name: Project team members
+      items: 
+      - name: Project team members overview
+        href: project-management/project-team-members-overview.md
   - name: Resource management
     items: 
     - name: Resource management overview
@@ -86,8 +110,20 @@
       href: resource-management/resource-management-key-concepts.md
     - name: Bookings vs Assignments
       href: resource-management/booking-vs-assignment.md
+    - name: Schedule assistant overview
+      href: resource-management/schedule-assistant-overview.md
+    - name: Centralized resource booking
+      items:
+      - name: Define resource requirements
+        href: resource-management/define-resource-requirements.md
+      - name: Update resource requirements
+        href: resource-management/update-resource-requirements.md
+      - name: Book from the schedule board
+        href: 
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
+    - name: Skills and proficiency models
+      href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
@@ -96,6 +132,10 @@
     items: 
     - name: Time entry overview
       href: time/time-entry-overview.md
+    - name: Developer notes
+      items: 
+      - name: Customize the weekly time entry grid
+        href: time/customize-weekly-time-entry-grid.md
   - name: Expense
     items: 
     - name: Expense overview
@@ -116,10 +156,26 @@
           href: expense/set-up-credit-card-integration.md
         - name: Set up expense categories
           href: expense/set-up-expense-categories.md
+      - name: Create expense reports
+        items:
+        - name: Distributions on an expense report
+          href: expense/distributions-expense-report.md
       - name: Approve expense reports
         items: 
         - name: Expense reports and multiple approvers
           href: expense/expense-reports-multiple-approvers.md
+      - name: Post expense reports
+        href: expense/posting-expense-reports.md
+      - name: Travel requisition
+        href: expense/travel-requisition.md
+      - name: Cash advance
+        href: expense/cash-advance.md
+      - name: Per diems
+        href: expense/per-diems.md
+      - name: Financial management
+        items: 
+        - name: VAT recovery
+          href: expense/vat-recovery.md
       - name: New expense experience
         items: 
         - name: Expense reports reimagined
@@ -136,16 +192,6 @@
     items: 
     - name: Actuals overview
       href: actuals/actuals-overview.md
-  - name: Proforma invoicing
-    items: 
-    - name: Create a manual proforma invoice
-      href: proforma-invoicing/create-manual-proforma-invoice.md
-    - name: Confirm a proforma invoice
-      href: proforma-invoicing/confirm-proforma-invoice.md
-    - name: Corrective invoices
-      href: proforma-invoicing/corrective-invoices.md
-    - name: Configure automated invoice creation
-      href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
     items:
     - name: Configure project categories
@@ -168,16 +214,24 @@
       href: pro/sales/managing-leads-sales.md
     - name: Manage opportunities
       items: 
+      - name: Opportunity header
+        href: pro/sales/opportunity-header-sales.md
+      - name: Project-based lines
+        href: pro/sales/project-based-lines-sales.md
       - name: Create project quotes from opportunities
         href: sales/link-quotes-opportunities.md
       - name: Close an opportunity 
         href: sales/close-opportunity.md
     - name: Manage quotes
       items:
-      - name: Win a quote
+      - name: Product-based quote lines
+        items: 
+        - name: Costing product-based quote lines
+          href: pro/sales/costing-product-based-quote-lines-sales.md
+      - name: Project-based quote lines
+        items: 
+      - name: Close a quote
         href: pro/sales/win-quote-sales.md
-    - name: Manage contracts
-      items: 
   - name: Pricing and costing
     items: 
     - name: Project price lists
@@ -210,10 +264,24 @@
       href: project-management/define-project-calendars.md
     - name: Update a project
       href: project-management/update-project.md
+    - name: Copy a project
+      href: project-management/copy-project.md    
+    - name: Work breakdown structure planning
+      items: 
+      - name: Create assignments
+        href: project-management/create-assignments.md
+    - name: Estimate projects
+      items: 
+      - name: Create expense estimates
+        href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
       - name: Update estimate at completion
         href: project-management/update-completed-estimate.md
+    - name: Project team members
+      items: 
+      - name: Project team members overview
+        href: project-management/project-team-members-overview.md
   - name: Resource management
     items: 
     - name: Resource management overview
@@ -222,8 +290,18 @@
       href: resource-management/resource-management-key-concepts.md
     - name: Bookings vs Assignments
       href: resource-management/booking-vs-assignment.md
+    - name: Schedule assistant overview
+      href: resource-management/schedule-assistant-overview.md
+    - name: Centralized resource booking
+      items:
+      - name: Define resource requirements
+        href: resource-management/define-resource-requirements.md
+      - name: Update resource requirements
+        href: resource-management/update-resource-requirements.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
+    - name: Skills and proficiency models
+      href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
@@ -232,6 +310,10 @@
     items: 
     - name: Time entry overview
       href: time/time-entry-overview.md
+    - name: Developer notes
+      items: 
+      - name: Customize the weekly time entry grid
+        href: time/customize-weekly-time-entry-grid.md
   - name: Expense
     items: 
     - name: Expense overview
