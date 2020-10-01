@@ -92,6 +92,8 @@
         href: project-management/create-assignments.md
     - name: Estimate projects
       items: 
+      - name: Resource estimates
+        href: project-management/resource-estimates.md
       - name: Create expense estimates
         href: project-management/create-expense-estimates.md
     - name: Project tracking
@@ -260,6 +262,8 @@
         href: project-management/create-assignments.md
     - name: Estimate projects
       items: 
+      - name: Resource estimates
+        href: project-management/resource-estimates.md
       - name: Create expense estimates
         href: project-management/create-expense-estimates.md
     - name: Project tracking
