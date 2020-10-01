@@ -1,5 +1,7 @@
 - name: Dynamics 365 Project Operations
-  href: index.md
+  href: project-operations-home-page.md
+- name: Project Operations for resource/non-stocked based scenarios
+  items:
   - name: Sales process
     items:
     - name: Sales overview
@@ -388,14 +390,6 @@
         href: actuals/time-correction.md
       - name: Expense corrections
         href: actuals/expense-correction.md
-  - name: Customer-facing printable invoices
-    items:
-    - name: Format and update project invoice proposals
-      href: invoicing/format-update-project-invoice-proposals.md
-    - name: Post project invoices
-      href: invoicing/post-project-invoices.md
-    - name: Print project invoices
-      href: invoicing/print-project-invoices.md
   - name: Project accounting
     items:
     - name: Financial dimension defaults 
