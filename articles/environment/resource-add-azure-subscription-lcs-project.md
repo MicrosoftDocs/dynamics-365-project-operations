@@ -1,6 +1,6 @@
 ---
 title: Add an Azure subscription to LCS project
-description: 
+description: This topic provides information about how to connect your Azure subscription to an LCS project.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
@@ -14,60 +14,54 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-|
- |
-| --- |
+Cloud-hosted environments must be deployed using an existing Azure subscription. This topic explains how to connect your existing Azure subscription to an LCS project. 
 
-## Add an Azure subscription to LCS project
+## Grant admin consent
 
-Cloud hosted environments must be deployed using an existing Azure subscription. This topic explains how to connect your Azure subscription to LCS project.
-
-### Grant admin consent
-
-- Start on the project page in LCS.
-- Navigate to Microsoft Azure settings.
+1. In your LCS project, in the **Environments** section, select **Microsoft Azure settings**.
 
 ![Microsoft Azure Settings](1MicrosoftAzureSettings.png)
 
-- In Azure Connectors tab click Authorize link to allow deploying environments to this project.
+2. On the **Project settings** page, on the **Azure connectors** tab, select **Authorize**. This allows environments to be deployed to this project.
 
 ![Azure Connectors](2AzureConnectors.png)
 
-- Click Authorize again to provide Admin consent.
+3. Select **Authorize** again to provide admin consent.
 
 ![Grant Admin Consent](3GrantAdminConsent.png)
 
-- Accept permissions request.
+4. Accept the permissions request.
 
 ![Accept Permission Request](4AcceptPermissionRequest.png)
 
+Note that the authorization is now complete. 
+
 ![Authorization Successfull](5AuthorizationComplete.png)
 
-### Provide Dynamics Deployment Services access to Azure subscription.
+## <a name="provide".</a>Provide Dynamics Deployment Services access to your Azure subscription
 
-- Navigate to [Microsoft Azure billing](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade)
-- Select your subscription. We will need to allow Dynamics Deployment Services to access this subscription and deploy environments.
+1. Go to [Microsoft Azure billing](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) and select your subscription. Dynamics Deployment Services needs to access this subscription to be able to deploy environments.
 
 ![Azure Subscription Details](6AzureSubscription.png)
 
-- Select Access control (IAM) from the navigation pane, Click **Add role assignment**.
-- In the slider on the right side select Contributor role, find **Dynamics Deployment Services** in the list and select them. Click **Save**.
+2. Select **Access control (IAM)** in the navigation pane, and then select **Add role assignment**.
+3. In the slider on the right side, select **Contributor role**, and in the list provided, find and select **Dynamics Deployment Services**. 
+4. Select **Save**.
 
 ![Subscription Access](7SubscriptionAccess.png)
 
-### Add subscription connector to LCS project
+### Add a subscription connector to an LCS project
 
-- In LCS project Microsoft Azure Settings page click Add button to add a new connector
+1. In you LCS project, on the **Microsoft Azure settings** page, select **Add** to add a new connector.
+2. Enter your Azure subscription ID. You can find your Azure subscription ID in the [Azure Portal](https://ms.portal.azure.com/), under  **Settings**  in the lower left of the screen.
+3. In the **Configure to use Azure Resource Manager** field, select **Yes**.
+4. Make sure Azure's Subscription AAD Tenant Domain matches the domain-owning Azure subscription that you are using, and select **Next**.
+5. On the **Microsoft Azure Setup** screen select **Next** to confirm. If you receive an error on this screen, return to the section [Provide Dynamics Deployment Services access to Azure subscription](#provide) in this toic and make sure you have completed all of the steps.
+6. Download the Azure Management Certificate to a local folder on your computer, and then upload it to Azure Management Portal by going to **Settings** > **Management Certificates**. This certificate will enable LCS to communicate with Azure on your behalf. You can skip this step if your user has access to the subscription.
+7. Select  **Next**.
+8. Select the Azure region to deploy in and select a data center that is close to where you plan to use this system.
+9.  Select  **Connect**.
 
-- Enter your Azure subscription ID. You can find your Azure subscription ID in [Azure Portal](https://ms.portal.azure.com/), under  **Settings**  in the lower left.
-- Set Configure to use Azure Resource Manager to Yes
-- Make sure Azures Subscription AAD Tenant Domain matches the domain owning Azure subscription you are using.
-- Select  **Next**.
-- Confirm Microsoft Azure Setup screen by clicking Next. If you see an error in this screen return to [Provide Dynamics Deployment Services access to Azure subscription](#_Provide_Dynamics_Deployment) part of this instruction and make sure you have completed all the steps there.
-- Download the Azure Management Certificate to a local folder on your computer, and then upload it to Azure Management Portal by going to  **Settings**  \&gt;  **Management Certificates**. This certificate will enable LCS to communicate with Azure on your behalf. You can skip this step if your user has access to the subscription.
-- Select  **Next**.
-- Select the Azure region to deploy in. Select a data center that is close to where you plan to use this system.
-- Select  **Connect**.
+You have successfully connected your Azure subscription. You can now deploy Dynamics 365 Finance cloud-hosted environments.
 
-Now you have successfully connected your Azure subscription and can deploy Finance and Operations cloud hosted environments.
 
