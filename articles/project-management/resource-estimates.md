@@ -1,11 +1,11 @@
 ---
 title: Resource estimates
 description: This topic provides information about how resource estimates are calculated in Project Operations.
-author: rhercul
+author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customer-service
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---
