@@ -1,5 +1,5 @@
 ---
-title: Apply Dynamics 365 Finance Project Operations demo data
+title: Apply Project Operations demo data to Finance and Operations Cloud Hosted Environment
 description: T
 author: sigitac
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Apply Dynamics 365 Finance Project Operations demo data
+# Apply Project Operations demo data to Finance and Operations Cloud Hosted Environment
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
