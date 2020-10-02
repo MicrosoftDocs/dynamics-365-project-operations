@@ -7,7 +7,7 @@ ms.date: 10/02/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
-ms.author: 
+ms.author: stsporen
 ---
 
 # Time overview
@@ -20,5 +20,5 @@ When recording time in Project Operations, users can track against any level in 
 
 Project team members create and submit time entries for approval and the Project Approvers approve the entries. The project team member might recall a time entry for corrections.
 
-For information about how to create a time entry, submit or recall an entry, and other tools to help complete your reporting, see [Time Entry User Interface](ui-behavior-time.md).
+For information about how to create a time entry, submit or recall an entry, and other tools to help complete your reporting, see [Time entry user interface](ui-behavior-time.md).
 
