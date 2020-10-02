@@ -19,40 +19,40 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 1. In your LCS project, open the **Environment details** page. Notice that it includes the details needed to connect to the environment by using Remote Desktop Protocol (RDP).
 
-![Environment Details](1EnvironmentDetails.png)
+![Environment Details](./media/1EnvironmentDetails.png)
 
 The first set of highlighted credentials are the local account credentials and contain a hyperlink to the remote desktop connection. The credentials include the environment admin username and password. The second set of credentials are used to log in to SQL Server in this environment.
 
 2. Remote to the environment by the hyperlink in **Local Accounts**, and use the **Local Account credentials** to authenticate.
 3. Go to **Internet Information Services** > **Application Pools** > **AOSService** and and stop the service. You are stopping the service at this point so that you can continue with replacing the SQL databse.
 
-![Stop AOS](2StopAOS.png)
+![Stop AOS](./media/2StopAOS.png)
 
 4. Go to **Services** and stop the following two items:
 
 - Microsoft Dynamics 365 Unified Operations: Batch Management Service
 - Microsoft Dynamics 365 Unified Operations: Data Import Export Framework
 
-![Stop Services](3StopAOS.png)
+![Stop Services](./media/3StopServices.png)
 
 5. Open Microsoft SQL Server Management Studio. Log in with SQL server credentials and use teh axdbadmin user and password from the LCS **Environments details** page.
 
-![SQL Server Management Studio](SSMS.png)
+![SQL Server Management Studio](./media/4SSMS.png)
 
 6. In Object Explorer, **Databases** and locate **AXDB**. You will replace this with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Copy the zip file to the VM you are remoted into and extract zip contents.
 8. In SQL Server Management Studio, right-click **AxDB**, and then select **Tasks** > **Restore** > **Database**.
 
-![Restore Database](5RestoreDatabase.png)
+![Restore Database](./media/5RestoreDatabase.png)
 
 9. Select **Source Device** and navigate to the file extracted from zip you copied.
 
-![Source Devices](6SourceDevice.png)
+![Source Devices](./media/6SourceDevice.png)
 
 10. Select **Options**, and then select **Overwrite the existing database** and **Close existing connections to destination database**. 
 11. Select **OK**.
 
-![Restore Settings](7RestoreSetting.png)
+![Restore Settings](./media/7RestoreSetting.png)
 
 You will receive confirmation that the AXDB restore was successful. After you receive this confirmation, you can close SQL Services Management Studio.
 
@@ -63,14 +63,14 @@ You will receive confirmation that the AXDB restore was successful. After you re
 15. Run the .ext file using your user address in the **Email Address** field. 
 16. Select **Submit**.
 
-![Admin User Provisioning](8AdminUserProvisioning.png)
+![Admin User Provisioning](./media/8AdminUserProvisioning.png)
 
 This takes a couple of minutes to complete. You should receive a confirmation message that the Admin user was successfully updated.
 
 17. Lastly, run Command Prompt as Administrator and perform iisreset
 
-![IIS Reset](9IISReset.png)
+![IIS Reset](./media/9IISReset.png)
 
 18. Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.
 
-![Finance and Operations](10FinanceAndOperations.png)
+![Finance and Operations](./media/10FinanceAndOperations.png)
