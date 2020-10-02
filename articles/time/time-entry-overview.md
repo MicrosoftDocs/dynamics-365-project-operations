@@ -1,6 +1,4 @@
 ---
-# required metadata
-
 title: Time overview
 description: This topic provides information about the Time functionality in Dynamics 365 Project Operations. 
 author: stsporen
@@ -20,3 +18,4 @@ When recording time in Project Operations, users can track against any level in 
 Project team memebers create and submit time entries for approval and the Project Approvers approve the entries. The project team member might recall a time entry for corrections.
 
 For information about how to create a time entry, submit or recall an entry, and other tools to help complete your reporting, see [Time Entry User Interface](ui-behavior-time.md).
+

@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Project Operations home page
-description: This topic provides information about Dynamics 365 Project operations.
-author: stsporen
+title: Deployment types
+description: This topic provides information about the different deployment types of Project operations and helps you determine which is right for your company.
+author: sigitac
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 06/19/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-customerservice
@@ -15,7 +15,7 @@ ms.technology:
 
 # ms.search.form: 
 # ROBOTS: 
-audience: Application User
+audience: ItPro; Developer
 # ms.devlang: 
 ms.reviewer: kfend
 ms.search.scope: 
@@ -29,4 +29,5 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Project Operations home page
+# Deployment types
+

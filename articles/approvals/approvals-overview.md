@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Project Operations home page
-description: This topic provides information about Dynamics 365 Project operations.
+title: Approvals home page
+description: This topic provides information about working with approvals in Project operations.
 author: stsporen
 manager: AnnBe
-ms.date: 09/16/2020
+ms.date: 06/19/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-customerservice
@@ -29,4 +29,5 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Project Operations home page
+# Approvals home page
+
