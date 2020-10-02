@@ -21,7 +21,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 ![Environment Details](1EnvironmentDetails.png)
 
-The first set of highlighted credentials are teh local account credentials and contain a hyperlink to the remote desktop connection. The credentials include the environment admin username and password. The second set of credentials are used to log in to SQL Server in this environment.
+The first set of highlighted credentials are the local account credentials and contain a hyperlink to the remote desktop connection. The credentials include the environment admin username and password. The second set of credentials are used to log in to SQL Server in this environment.
 
 2. Remote to the environment by the hyperlink in **Local Accounts**, and use the **Local Account credentials** to authenticate.
 3. Go to **Internet Information Services** > **Application Pools** > **AOSService** and and stop the service. You are stopping the service at this point so that you can continue with replacing the SQL databse.
@@ -39,7 +39,7 @@ The first set of highlighted credentials are teh local account credentials and c
 
 ![SQL Server Management Studio](SSMS.png)
 
-6. In Object Explorer, **Databases** and locate **AXDB**. You will replace this with a new database that is located in the Download Center. 
+6. In Object Explorer, **Databases** and locate **AXDB**. You will replace this with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Copy the zip file to the VM you are remoted into and extract zip contents.
 8. In SQL Server Management Studio, right-click **AxDB**, and then select **Tasks** > **Restore** > **Database**.
 
@@ -71,6 +71,6 @@ This takes a couple of minutes to complete. You should receive a confirmation me
 
 ![IIS Reset](9IISReset.png)
 
-18. C the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.
+18. Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.
 
 ![Finance and Operations](10FinanceAndOperations.png)
