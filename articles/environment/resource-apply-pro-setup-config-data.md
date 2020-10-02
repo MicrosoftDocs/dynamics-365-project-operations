@@ -40,7 +40,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 ![Import Data](./media/5ImportData.png)
 
 10. Import will run for approximately two-ten minutes depending on your network speed. After import completes, exit the CMT Wizard. 
-11. Check your organization for data in the 19 entities listed below:
+11. Check your organization for data in the following 19 entities:
 
   - Currency
   - Organizational Unit
@@ -111,7 +111,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
  - **Default company**: USPM
  - **Default Organizational Unit**: Contoso Robotics Global
- - **Invoice Frequency**: 7th and Last day
+ - **Invoice Frequency**: Seventh and Last day
  - **Work hour template**: Change to the template you created.
 
 13. Select **Save**. 
