@@ -44,7 +44,7 @@ When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage
 
 ![Redeem Offer](./media/2RedeemFirstOffer.png)
 
-![Confirm Offer](./media/2ConfirmFirstOffer.png)
+![Confirm Offer](./media/3ConfirmFirstOffer.png)
 
 ![Offer Redeemed](./media/4OfferSuccessfulyRedeemed.png)
 
