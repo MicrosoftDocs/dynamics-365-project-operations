@@ -20,35 +20,35 @@ Cloud-hosted environments must be deployed using an existing Azure subscription.
 
 1. In your LCS project, in the **Environments** section, select **Microsoft Azure settings**.
 
-![Microsoft Azure Settings](1MicrosoftAzureSettings.png)
+![Microsoft Azure Settings](./media/1MicrosoftAzureSettings.png)
 
 2. On the **Project settings** page, on the **Azure connectors** tab, select **Authorize**. This allows environments to be deployed to this project.
 
-![Azure Connectors](2AzureConnectors.png)
+![Azure Connectors](./media/2AzureConnectors.png)
 
 3. Select **Authorize** again to provide admin consent.
 
-![Grant Admin Consent](3GrantAdminConsent.png)
+![Grant Admin Consent](./media/3GrantAdminConsent.png)
 
 4. Accept the permissions request.
 
-![Accept Permission Request](4AcceptPermissionRequest.png)
+![Accept Permission Request](./media/4AcceptPermissionRequest.png)
 
 Note that the authorization is now complete. 
 
-![Authorization Successfull](5AuthorizationComplete.png)
+![Authorization Successfull](./media/5AuthorizationComplete.png)
 
 ## <a name="provide"></a>Provide Dynamics Deployment Services access to your Azure subscription
 
 1. Go to [Microsoft Azure billing](https://portal.azure.com/#blade/Microsoft\_Azure\_Billing/SubscriptionsBlade) and select your subscription. Dynamics Deployment Services needs to access this subscription to be able to deploy environments.
 
-![Azure Subscription Details](6AzureSubscription.png)
+![Azure Subscription Details](./media/6AzureSubscription.png)
 
 2. Select **Access control (IAM)** in the navigation pane, and then select **Add role assignment**.
 3. In the slider on the right side, select **Contributor role**, and in the list provided, find and select **Dynamics Deployment Services**. 
 4. Select **Save**.
 
-![Subscription Access](7SubscriptionAccess.png)
+![Subscription Access](./media/7SubscriptionAccess.png)
 
 ### Add a subscription connector to an LCS project
 
