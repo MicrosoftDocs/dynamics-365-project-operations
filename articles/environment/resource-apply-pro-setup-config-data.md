@@ -1,5 +1,5 @@
 ---
-title: Apply CE setup and configuration data 
+title: Set up and apply configuration data in the Common Data Service
 description: 
 author: sigitac
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Apply CE setup and configuration data
+# Set up and apply configuration data in the Common Data Service
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
  |
 | --- |
 
-## Install CE Setup and Configuration Data
+## Install CDS Setup and Configuration Data
 
 1. Download, unblock and unzip the Setup and Configuration Data Package at [here](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
 2. Navigate to the unzipped folder and run the executable file called &quot;DataMigrationUtility&quot;.
