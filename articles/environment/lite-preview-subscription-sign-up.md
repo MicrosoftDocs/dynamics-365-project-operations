@@ -28,8 +28,8 @@ This topic explains how to subscribe to the preview partner offer and deploy Dyn
 
 When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you will receive two offers from Microsoft by email. These offers allow you to deploy the Project Operations Preview:
 
-- Dynamics 365 Customer Service Preview Trial – single use code
-- Dynamics 365 Project Operations – Preview Trial
+- Dynamics 365 Customer Service preview trial – single use code
+- Dynamics 365 Project Operations – preview trial
 
 ### Dynamics 365 Customer Service paid offer
 
@@ -100,15 +100,15 @@ The Dynamics 365 Customer Service Enterprise Offer is provided for free for six 
 > [!IMPORTANT]
 > You will need administrative access to your organization's Office 365 Portal to complete the following steps.
 
-1. Go to [https://portal.office.com](https://portal.office.com/) to assign the licenses to your users.
+1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
 ![Admin Portal](./media/14AdminPortal.png)
 
-2. Navigate to users to assign the licenses to your user(s):
+2. On the **Active users** page, select the users that you want to assign a license to.
 
 ![Assign Licenses](./media/15AssignLicenses.png)
 
-3. Verify that the **Customer Service Enterprise** and** Project Operations** license have been selected.
+3. Verify that the **Customer Service Enterprise** and** Project Operations** license have been selected and select **Save changes**.
 
 ## Create a new CDS environment
 
