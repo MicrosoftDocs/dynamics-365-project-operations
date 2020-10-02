@@ -33,7 +33,7 @@ Project Operations supports multiple deployment models. To determine the best de
 
 ## <a name="existing"></a>Install Project Operations to an existing CDS environment
 
-1. As the [Global Administrator or the Power Platform Administrator](https://docs.microsoft.com/en-us/power-platform/admin/global-service-administrators-can-administer-without-license) with a Project Operations license, locate the environment where you would like to install Project Operations in 
+1. As the [Global Administrator or the Power Platform Administrator](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) with a Project Operations license, locate the environment where you would like to install Project Operations in 
 the [PowerPlatform admin center](https://admin.powerplatform.com).
 2. Install **Microsoft Dynamics 365 Project Operations** from the deployment list of Dynamics 365 apps. For more information, see [Manage Dynamics 365 apps](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
