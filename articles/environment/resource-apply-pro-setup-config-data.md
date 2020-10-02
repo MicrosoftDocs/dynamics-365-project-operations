@@ -1,6 +1,6 @@
 ---
-title: Set up and apply configuration data in the Common Data Service
-description: 
+title: Set up and apply configuration data in the Common Data Service for Project Operations
+description: This topic provides information about setting up and applying configuration data in Project Operations.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
@@ -10,106 +10,110 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Set up and apply configuration data in the Common Data Service
+# Set up and apply configuration data in the Common Data Service for Project Operations
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-|
- |
-| --- |
+## Install setup and configuration data
 
-## Install CDS Setup and Configuration Data
+1. Download, unblock, and unzip the [Setup and Configuration Data Package](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+2. Navigate to the unzipped folder and run the executable file, *DataMigrationUtility*.
+3. On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.
 
-1. Download, unblock and unzip the Setup and Configuration Data Package at [here](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
-2. Navigate to the unzipped folder and run the executable file called &quot;DataMigrationUtility&quot;.
-3. On page 1 of the CMT Wizard, Select the Import Data option and hit &quot;Continue&quot;
+![Configuration Migration](./media/1ConfigurationMigration.png)
 
-![Configuration Migration](1ConfigurationMigration.png)
+4. On Page 2 of the CMT Wizard, select **Office 365** as the **Deployment Type**.
+5. Select the **Display a list of available organizations** and **Show Advanced** check boxes.
+6. Select the region of your tenant, enter your credentials, and select **Login**.
 
-1. On Page 2 of the CMT Wizard, select Office 365 as the &quot;Deployment Type&quot;, select to &quot;Display a list of available organizations&quot; and &quot;Show Advanced&quot;.
+![Configuration Sign in](./media/2ConfigurationSignin.png)
 
-Select the region of your tenant, put in your credentials, and click on &quot;Login&quot;
+7. On page 3, from the list of organizations on the tenant, select the organization you want to import the demo data into and select **Login**.
+8. On page 4, select the zip file, *SampleSetupAndConfigData* from the unpacked folder.
 
-![Configuration Sign in](2ConfigurationSignin.png)
+![Zip File Selection](./media/3ZipFile.png)
 
-1. On the next page 3 of the CMT wizard, you will be shown a list of Organizations on the Tenant. Select the Organization into which you would like to import the demo data and click on Login.
-2. On the next page 4 of the CMT wizard, select the zip file called &quot;SampleSetupAndConfigData&quot; from the unpacked folder.
+![Select a file](./media/4SelectAFile.png)
 
-![Zip File Selection](3ZipFile.png)
+9. After the zip file is selected, select **Import Data**.
 
-![Select a file](4SelectAFile.png)
+![Import Data](./media/5ImportData.png)
 
-1. Once the zip file is selected, the Import Data button lights up. Click on the &quot;Import Data&quot; button on the CMT Wizard.
+10. Import will run for approximately two-ten minutes depending on your network speed. After import completes, exit the CMT Wizard. 
+11. Check your organization for data in the 19 entities listed below:
 
-![Import Data](5ImportData.png)
+  - Currency
+  - Organizational Unit
+  - Contact
+  - Tax Group
+  - Customer Group
+  - Unit
+  - Unit Group
+  - Price List
+  - Project Parameter Price List
+  - Invoice Frequency
+  - Bookable Resource Category
+  - Transaction Category
+  - Expense Category
+  - Role Price
+  - Transaction Category Price
+  - Characteristic
+  - Bookable Resource
+  - Bookable resource category Assn
+  - Bookable Resource Characteristic
 
-1. Import will run for approximately 2-10 minutes depending on your network speed. Once it completes, exit the CMT Wizard. Check your Org for data in the 19 entities listed below:
+![Complete Import](./media/6CompleteImport.png)
 
-1. Currency
-2. Organizational Unit
-3. Contact
-4. Tax Group
-5. Customer Group
-6. Unit
-7. Unit Group
-8. Price List
-9. Project Parameter Price List
-10. Invoice Frequency
-11. Bookable Resource Category
-12. Transaction Category
-13. Expense Category
-14. Role Price
-15. Transaction Category Price
-16. Characteristic
-17. Bookable Resource
-18. Bookable resource category Assn
-19. Bookable Resource Characteristic
-
-![Complete Import](6CompleteImport.png)
-
-|
 ## Update Project Operations configurations
 
-Navigate to CE environment. You can find it by opening [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments), selecting the environment and selecting Open Environment button on the top of the page. 
-![Open Environment](7OpenEnvironment.png)
+1. Navigate to the CE environment. You can find it by opening the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/environments), selecting the environment, and then selecting **Open Environment**. 
 
-First, we will create a bookable resource for your user in Projects \&gt; Resources \&gt; New 
-![Bookable Resources](8BookableResources.png)
+![Open Environment](./media/7OpenEnvironment.png)
 
-Select your admin user in General tab. Make sure the Time Zone matches the one you are in. 
-![New Bookable Resource](9NewBookableResource.png)
+2. Go to **Projects** > **Resources** and then select **New** to create a bookable resource for your user.
 
-In Scheduling tab Company field pick USPM company and click save. 
-![Scheduling Tab](10SchedulingTab.png)
+![Bookable Resources](./media/8BookableResources.png)
 
-Next, select work hours tab. 
-![Work Hours](11WorkHours.png)
+3. On the **General** tab, select your admin user. Verify that the time zone matches the one you are in. 
 
-Double click on any value in the calendar. Select Edit-\&gt;&quot;all events in the series&quot; 
-![Work Calendar](12WorkCalendar.png)
+![New Bookable Resource](./media/9NewBookableResource.png)
 
-Change work hours to 8 hrs work day, mark weekends as not work days and make sure time zone is matching yours. Save and close. 
-![Update Calendar](13UpdateCalendar.png)
+4. On the **Scheduling** tab, in the **Company** field, pick the **USPM** company, and then select **Save**. 
 
-Go to Settings \&gt; Calendar templates and create New.
- ![Calendar Templates](14CalendarTemplates.png)
+![Scheduling Tab](./media/10SchedulingTab.png)
+
+5. Select the **Work hours** tab.  
+
+![Work Hours](./media/11WorkHours.png)
+
+6. Double click on any value in the calendar and select **Edit** > **All events in the series**. 
+
+![Work Calendar](./media/12WorkCalendar.png)
+
+7. Change work hours to an eight (8) hour work day, mark weekends as non-work days, and make sure time zone matches yours. 
+8. Select **Save and close**.
+
+![Update Calendar](./media/13UpdateCalendar.png)
+
+9. Go to **Settings** > **Calendar templates** and select **New**.
  
- Give it a name, select the Template resource created in the previous steps and click Save 
- ![Save Calendar Template](15SaveCalendarTemplate.png)
+ ![Calendar Templates](./media/14CalendarTemplates.png)
  
- As a next step, navigate to Parameters and double click on the record to get to the details: 
- ![Project Parameters](16ProjectParameters.png)
+ 10. Enter a name, select the template resource you created, and then select **Save**. 
  
-Update the following:
-- Default company – USPM
-- Default Organizational Unit – Contoso Robotics Global
-- Invoice Frequency – 7th and Last day
-- Work hour template – change to the one created in the previous steps
-Click Save. 
+ ![Save Calendar Template](./media/15SaveCalendarTemplate.png)
+ 
+ 11. Go to **Parameters** and double-click the record. 
+ 
+ ![Project Parameters](./media/16ProjectParameters.png)
+ 
+12. Update the following fields:
 
-![Updated Project Parameters](17UpdatedProjectParameters.png)
+ - **Default company**: USPM
+ - **Default Organizational Unit**: Contoso Robotics Global
+ - **Invoice Frequency**: 7th and Last day
+ - **Work hour template**: Change to the template you created.
 
- |
-| --- |
+13. Select **Save**. 
 
-1
+![Updated Project Parameters](./media/17UpdatedProjectParameters.png)
