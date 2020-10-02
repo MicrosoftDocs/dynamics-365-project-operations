@@ -21,7 +21,7 @@ This topic explains how to subscribe to the preview partner offer and deploy Dyn
 
 - You will receive an email inviting you to participate in the preview. You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - The user who deploys the preview must have Azure tenant global administrator rights.
-- The user who deploys the preview will need a phone number and a valid credit card. During sign up there will be no charges to the card for six months. After six months you need to cancel the subscription. 
+- The user who deploys the preview will need a phone number and a valid credit card. During sign up, there will be no charges to the card for six months. After six months, you need to cancel the subscription. 
 - Review all terms and conditions.
 
 ## Subscribe
@@ -33,10 +33,10 @@ When you receive a [preview request](https://forms.office.com/FormsPro/Pages/Res
 
 ### Dynamics 365 Customer Service paid offer
 
-1. Using an InPrivate/Incognito browser window, redeem the first offer code for Dynamics 365 Customer Service. To sign up for Customer Service you will need:
+1. Using an InPrivate/Incognito browser window, redeem the first offer code for Dynamics 365 Customer Service. To sign up for Customer Service, you will need:
 
 - A phone number
-- A credit card. When you sign up, there will be no charges to the card for six months. After six months you need to cancel the subscription.
+- A credit card. When you sign up, there will be no charges to the card for six months. After six months, you need to cancel the subscription.
 - Review all terms and conditions.
 
 2. Provide your contact information.
@@ -63,7 +63,7 @@ When you receive a [preview request](https://forms.office.com/FormsPro/Pages/Res
 
 ## Cancel the Dynamics 365 Customer Service enterprise offer
 
-The Dynamics 365 Customer Service Enterprise Offer is provided for free for six months. The offer will renew at the full rate at the end of the six-month period. To cancel prior the renew date, follow the instructions below. 
+The Dynamics 365 Customer Service Enterprise Offer is provided for free for six months. The offer will renew at the full rate at the end of the six-month period. To cancel prior the renew date, complete the following instructions. 
 
 > [!NOTE]
 > After you complete these steps, you will no longer be able to use the Project Operations public preview environment.
