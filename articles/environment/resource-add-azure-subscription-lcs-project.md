@@ -34,7 +34,7 @@ Cloud-hosted environments must be deployed using an existing Azure subscription.
 
 ![Accept Permission Request](./media/4AcceptPermissionRequest.png)
 
-Note that the authorization is now complete. 
+The authorization is now complete. 
 
 ![Authorization Successfull](./media/5AuthorizationComplete.png)
 
@@ -52,11 +52,11 @@ Note that the authorization is now complete.
 
 ### Add a subscription connector to an LCS project
 
-1. In you LCS project, on the **Microsoft Azure settings** page, select **Add** to add a new connector.
-2. Enter your Azure subscription ID. You can find your Azure subscription ID in the [Azure Portal](https://ms.portal.azure.com/), under  **Settings**  in the lower left of the screen.
+1. In your LCS project, on the **Microsoft Azure settings** page, select **Add** to add a new connector.
+2. Enter your Azure subscription ID. You can find your Azure subscription ID in the [Azure portal](https://ms.portal.azure.com/), under  **Settings**  in the lower left of the screen.
 3. In the **Configure to use Azure Resource Manager** field, select **Yes**.
 4. Make sure Azure's Subscription AAD Tenant Domain matches the domain-owning Azure subscription that you are using, and select **Next**.
-5. On the **Microsoft Azure Setup** screen select **Next** to confirm. If you receive an error on this screen, return to the section [Provide Dynamics Deployment Services access to Azure subscription](#provide) in this toic and make sure you have completed all of the steps.
+5. On the **Microsoft Azure Setup** screen, select **Next** to confirm. If you receive an error on this screen, return to the section [Provide Dynamics Deployment Services access to Azure subscription](#provide) in this topic and make sure you have completed all of the steps.
 6. Download the Azure Management Certificate to a local folder on your computer, and then upload it to Azure Management Portal by going to **Settings** > **Management Certificates**. This certificate will enable LCS to communicate with Azure on your behalf. You can skip this step if your user has access to the subscription.
 7. Select  **Next**.
 8. Select the Azure region to deploy in and select a data center that is close to where you plan to use this system.
