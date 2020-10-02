@@ -59,7 +59,7 @@ When you receive a [preview request](https://forms.office.com/FormsPro/Pages/Res
 
 ![Save Order](./media/6SaveOrder.png)
 
-![Confirmation](./media/7Confirmation.png)
+![Credit card confirmation](./media/7Confirmation.png)
 
 ## Cancel the Dynamics 365 Customer Service enterprise offer
 
@@ -70,7 +70,7 @@ The Dynamics 365 Customer Service Enterprise Offer is provided for free for six 
 
 1. Go to the [Admin portal](https://admin.microsoft.com/), and under **Billing**, select **Your Products**.
 
-![Admin Portal](./media/8AdminPortal.png)
+![Admin Portal, Your products page](./media/8AdminPortal.png)
 
 2. Select the **Dynamics 365 Customer Service Enterprise Offer**.
 
@@ -93,7 +93,7 @@ The Dynamics 365 Customer Service Enterprise Offer is provided for free for six 
 
 ![Try Now Screen](./media/12TryNow.png)
 
-![Confirmation](./media/13Confirmation.png)
+![Order details](./media/13Confirmation.png)
 
 ## Assign licenses
 
@@ -102,7 +102,7 @@ The Dynamics 365 Customer Service Enterprise Offer is provided for free for six 
 
 1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
-![Admin Portal](./media/14AdminPortal.png)
+![Admin center home page](./media/14AdminPortal.png)
 
 2. On the **Active users** page, select the users that you want to assign a license to.
 
