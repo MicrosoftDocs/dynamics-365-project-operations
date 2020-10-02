@@ -1,5 +1,9 @@
 - name: Dynamics 365 Project Operations
   href: index.md
+- name: Get started
+  items:
+  - name: Deployment types
+    href: environment/determine-deployment-type.md
 - name: Project Operations for resource/non-stocked based scenarios
   items:
   - name: Get started
