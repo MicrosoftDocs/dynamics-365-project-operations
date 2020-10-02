@@ -41,6 +41,8 @@ Use following steps to enable the Project Operations automated provisioning flow
   - Region
   - Language
   - Currency
+ 
+ In the Common Data Service Template field pick Project Operations. Pick right environment type for your deployment. Subscription based trial selection will allow to deploy CDS environment for 30 days. 
 
 5. In the **Common Data Service Template** field, select **Project Operations**.
 
