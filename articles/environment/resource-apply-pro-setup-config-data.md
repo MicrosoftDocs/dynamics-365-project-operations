@@ -86,7 +86,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 ![Work Hours](./media/11WorkHours.png)
 
-6. Double click on any value in the calendar and select **Edit** > **All events in the series**. 
+6. Double-click on any value in the calendar and select **Edit** > **All events in the series**. 
 
 ![Work Calendar](./media/12WorkCalendar.png)
 
