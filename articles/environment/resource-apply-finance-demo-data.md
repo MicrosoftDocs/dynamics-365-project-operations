@@ -24,7 +24,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 The first set of highlighted credentials are the local account credentials and contain a hyperlink to the remote desktop connection. The credentials include the environment admin username and password. The second set of credentials are used to log in to SQL Server in this environment.
 
 2. Remote to the environment by the hyperlink in **Local Accounts**, and use the **Local Account credentials** to authenticate.
-3. Go to **Internet Information Services** > **Application Pools** > **AOSService** and and stop the service. You are stopping the service at this point so that you can continue with replacing the SQL databse.
+3. Go to **Internet Information Services** > **Application Pools** > **AOSService** and stop the service. You are stopping the service at this point so that you can continue to replace the SQL database.
 
 ![Stop AOS](./media/2StopAOS.png)
 
@@ -35,11 +35,11 @@ The first set of highlighted credentials are the local account credentials and c
 
 ![Stop Services](./media/3StopServices.png)
 
-5. Open Microsoft SQL Server Management Studio. Log in with SQL server credentials and use teh axdbadmin user and password from the LCS **Environments details** page.
+5. Open Microsoft SQL Server Management Studio. Log in with SQL server credentials and use the axdbadmin user and password from the LCS **Environments details** page.
 
 ![SQL Server Management Studio](./media/4SSMS.png)
 
-6. In Object Explorer, **Databases** and locate **AXDB**. You will replace this with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
+6. In Object Explorer, **Databases** and locate **AXDB**. You will replace database with a new database that is located in the [Download Center](https://download.microsoft.com/download/1/a/3/1a314bd2-b082-4a87-abdc-1ba26c92b63d/ProjOpsDemoDataFOGARelease.zip). 
 7. Copy the zip file to the VM you are remoted into and extract zip contents.
 8. In SQL Server Management Studio, right-click **AxDB**, and then select **Tasks** > **Restore** > **Database**.
 
