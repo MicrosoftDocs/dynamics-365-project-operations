@@ -20,7 +20,3 @@ When recording time in Project Operations, users can track against any level in 
 Project team memebers create and submit time entries for approval and the Project Approvers approve the entries. The project team member might recall a time entry for corrections.
 
 For information about how to create a time entry, submit or recall an entry, and other tools to help complete your reporting, see [Time Entry User Interface](ui-behavior-time.md).
-
-
-## Extentions and customization
-The underlying deisgn of time entry allows for additional field and customization to meet customers needs. For more developer information, see [extending time entries](extending-time-entries.md)
