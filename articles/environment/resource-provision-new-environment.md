@@ -41,8 +41,10 @@ Use following steps to enable the Project Operations automated provisioning flow
   - Region
   - Language
   - Currency
+ 
+5. In the **Common Data Service Template** field, select **Project Operations** 
 
-5. In the **Common Data Service Template** field, select **Project Operations**.
+6. Select the environment type for your deployment. A subscription-based trial will let you deploy a CDS environment for 30 days. 
 
 ![Deployment Settings](./media/1DeploymentSettings.png)
 
@@ -51,11 +53,11 @@ Use following steps to enable the Project Operations automated provisioning flow
 
 ![Deployment Consent](./media/2DeploymentConsent.png)
 
-6. Complete the remaining required fields in the wizard and confirm the deployment. Environment provisioning time varies based on the environment type. Provisioning might take up to six hours.
+7. Complete the remaining required fields in the wizard and confirm the deployment. Environment provisioning time varies based on the environment type. Provisioning might take up to six hours.
 
   After the deployment completes successfully, the environment will show as **Deployed**.
 
-7. To confirm the environment has deployed successfully, select **Login** and log on to the environment to confirm.
+8. To confirm the environment has deployed successfully, select **Login** and log on to the environment to confirm.
 
 ![Environment Details](./media/3EnvironmentDetails.png)
 
