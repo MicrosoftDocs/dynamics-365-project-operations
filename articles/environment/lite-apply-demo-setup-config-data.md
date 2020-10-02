@@ -1,6 +1,6 @@
 ---
 title: Apply demo setup and configuration data
-description: 
+description: This topic provides information about how to apply demo setup and configuration data for Project Operations.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
@@ -10,56 +10,55 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Apply demo setup and configuration data 
+# Apply demo setup and configuration data for Project Operations lite deployment - deal to proforma invoicing
 
 _**Lite deployment - deal to proforma invoicing_
 
-# Apply demo setup and configuration data for Project Operations lite deployment
+1. Download the [Master Data Package](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
+2. Navigate to the folder *;ProjOpsDemoDataSetupAndMaster - Integrated CMT* and run the executable file, *DataMigrationUtility*.
+3. On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.
 
-1. Download the Master Data Package [here](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Navigate to the folder &quot;ProjOpsDemoDataSetupAndMaster - Integrated CMT&quot; and run the executable file called &quot;DataMigrationUtility&quot;.
-3. On page 1 of the CMT Wizard, Select the Import Data option and hit &quot;Continue&quot;
+![Configuration Migration](./media/1ConfigurationMigration.png)
 
-![Configuration Migration](1ConfigurationMigration.png)
+4. On Page 2 of the CMT Wizard, select **Office 365** as the **Deployment Type**.
+5. Select the **Display a list of available organizations** and **Show Advanced** check boxes.
+6. Select the region of your tenant, enter your credentials, and then select **Login**.
 
-1. On Page 2 of the CMT Wizard, select Office 365 as the &quot;Deployment Type&quot;, select to &quot;Display a list of available organizations&quot; and &quot;Show Advanced&quot;.
+![Configuration Sign in](./media/2ConfigurationSignin.png)
 
-Select the region of your tenant, put in your credentials, and click on &quot;Login&quot;
+7. On page 3, from the list of Organizations on the Tenant, select which organization you want to import the demo data into and then select **Login**.
+8. On page 4, select the zip file, *MasterAndSetupData* from the unpacked folder, *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
 
-![Configuration Sign in](2ConfigurationSignin.png)
+![Zip file](./media/3ZipFile.png)
 
-1. On the next page 3 of the CMT wizard, you will be shown a list of Organizations on the Tenant. Select the Organization into which you would like to import the demo data and click on Login.
-2. On the next page 4 of the CMT wizard, select the zip file called &quot;MasterAndSetupData&quot; from the unpacked folder &quot;ProjOpsDemoDataSetupAndMaster - Integrated CMT&quot;
+![Select a file](./media/4SelectAFile.png)
 
-![Zip file](3ZipFile.png)
+9. After the zip file is selected, select **Import Data**.
 
-![Select a file](4SelectAFile.png)
+![Import data](./media/5ImportData.png)
 
-1. Once the zip file is selected, the Import Data button lights up. Click on the &quot;Import Data&quot; button on the CMT Wizard.
+10. Import will run for approximately two-ten minutes depending on your network speed. After it completes, exit the CMT Wizard. 
+11. Check your organization for data in the 20 entities listed below:
 
-![Import data](5ImportData.png)
+- Currency
+- Organizational Unit
+- Contact
+- Tax Group
+- Customer Group
+- Unit
+- Unit Group
+- Price List
+- Project Parameter Price List
+- Invoice Frequency
+- Invoice Frequency Detail
+- Bookable Resource Category
+- Transaction Category
+- Expense Category
+- Role Price
+- Transaction Category Price
+- Characteristic
+- Bookable Resource
+- Bookable resource category Assn
+- Bookable Resource Characteristic
 
-1. Import will run for approximately 2-10 minutes depending on your network speed. Once it completes, exit the CMT Wizard. Check your Org for data in the 20 entities listed below:
-
-1. Currency
-2. Organizational Unit
-3. Contact
-4. Tax Group
-5. Customer Group
-6. Unit
-7. Unit Group
-8. Price List
-9. Project Parameter Price List
-10. Invoice Frequency
-11. Invoice Frequency Detail
-12. Bookable Resource Category
-13. Transaction Category
-14. Expense Category
-15. Role Price
-16. Transaction Category Price
-17. Characteristic
-18. Bookable Resource
-19. Bookable resource category Assn
-20. Bookable Resource Characteristic
-
-![Complete Import](6CompleteImport.png)
+![Complete Import](./media/6CompleteImport.png)
