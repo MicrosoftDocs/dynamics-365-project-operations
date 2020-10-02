@@ -1,11 +1,31 @@
 - name: Dynamics 365 Project Operations
   href: index.md
+- name: Get started
+  items:
+  - name: Determine your deployment type
+    href: environment/determine-deployment-type.md
 - name: Project Operations for resource/non-stocked based scenarios
   items:
-  - name: Provision your environment
+  - name: Get started
     items:
-  - name: Create an LCS project
-    href: environment/create-lcs-project.md
+    - name: Sign up for a preview subscription (resource/non-stocked based)
+      href: environment/resource-sign-up-preview-subscription.md
+    - name: Configure prerequisites
+      items: 
+      - name: Start a new LCS project
+        href: environment/create-lcs-project.md
+      - name: Add an Azure subscription to LCS project
+        href: environment/resource-add-azure-subscription-lcs-project.md 
+    - name: Apply demo data
+      items:
+      - name: Apply Project Operations demo data to a Finance Cloud-hosted environment
+        href: environment/resource-apply-finance-demo-data.md
+      - name: Apply configuration data in the Common Data Service for Project Operations
+        href: environment/resource-apply-pro-setup-config-data.md
+    - name: Deploy environments
+      items:
+      - name: Provision a new environment
+        href: environment/resource-provision-new-environment.md
   - name: Sales process
     items:
     - name: Sales overview
@@ -196,6 +216,14 @@
       href: project-accounting/configure-accounting-billable-projects.md
 - name: Lite deployment - deal to proforma invoicing
   items:
+  - name: Get started
+    items:
+    - name: Sign up for a preview subscription (lite)
+      href: environment/lite-preview-subscription-sign-up.md
+    - name: Deploy Project Operations Lite deployment – deal to proforma invoicing
+      href: environment/lite-deployment.md
+    - name: Apply demo setup and configuration data
+      href: environment/lite-apply-demo-setup-config-data.md
   - name: Sales process
     items:
     - name: Setup
