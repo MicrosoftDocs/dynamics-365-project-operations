@@ -4,8 +4,10 @@
   items:
   - name: Provision your environment
     items:
-  - name: Create an LCS project
-    href: environment/create-lcs-project.md
+    - name: Create an LCS project
+      href: environment/create-lcs-project.md
+    - name: Add an Azure subscription to LCS project
+      href: environment/resource-add-azure-subscription-lcs-project.md 
   - name: Sales process
     items:
     - name: Sales overview
