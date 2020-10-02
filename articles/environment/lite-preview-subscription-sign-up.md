@@ -1,6 +1,6 @@
 ---
 title: Sign up for a preview subscription
-description: 
+description: This topic provides information about how to subscribe to and deploy Project Operatoins lite deployment - deal to proforma invoicing.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
@@ -12,110 +12,108 @@ ms.author: sigitac
 
 # Sign up for a preview subscription for lite deployment – deal to proforma invoicing
 
-_**Lite deployment - deal to proforma invoicing_
-|
- |
-| --- |
+This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.
 
-This topic explains how to subscribe to the preview/partner offer and deploy Project Operations lite deployment covering deal to proforma invoicing.
-
->>!Note
->>This process will be changing in the upcoming Project Operations releases
+> [!NOTE]
+> This process will change in upcoming releases of Project Operations.
 
 ## Prerequisites
 
-1. You&#39;ve received an email that invites you to participate in the preview. You can request preview in [Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/) website.
-2. User deploying the preview must have Azure tenant global administrator rights.
-3. User deploying preview will need a phone number and valid credit card (Upon signup there will be no charges to the card for 6 months after which you need to cancel the subscription, also please review all terms and conditions)
+- You will receive an email inviting you to participate in the preview. You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- The user who deploys the preview must have Azure tenant global administrator rights.
+- The user who deploys the preview will need a phone number and a valid credit card. During sign up there will be no charges to the card for six months. After six months you need to cancel the subscription. 
+- Review all terms and conditions.
 
 ## Subscribe
 
-Upon [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you will receive 2 offers from Microsoft by email, entitling you to deploy Project Operations Preview:
+When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you will receive two offers from Microsoft by email. These offers allow you to deploy the Project Operations Preview:
 
-- Dynamics 365 Customer Service Preview Trial – single use code.
+- Dynamics 365 Customer Service Preview Trial – single use code
 - Dynamics 365 Project Operations – Preview Trial
 
-### Dynamics 365 Customer Service Paid Offer
+### Dynamics 365 Customer Service paid offer
 
-Using InPrivate/ Incognito browser window, redeem the first offer code for Dynamics 365 Customer Service. To sign up for the Customer Service you will need:
+1. Using an InPrivate/Incognito browser window, redeem the first offer code for Dynamics 365 Customer Service. To sign up for Customer Service you will need:
 
 - A phone number
-- A credit card (Upon signup there will be no charges to the card for 6 months after which you need to cancel the subscription, also please review all terms and conditions)
+- A credit card. When you sign up, there will be no charges to the card for six months. After six months you need to cancel the subscription.
+- Review all terms and conditions.
 
-Fill out contact information:
+2. Provide your contact information.
 
-![Contact Information](1ContactInformation.png)
+![Contact Information](./media/1ContactInformation.png)
 
-Fill out new tenant details:
+3. Provide the new tenant details.
 
-![Create User ID](2CreateUserID.png)
+![Create User ID](./media/2CreateUserID.png)
 
-Verify your identity, save your newly created user ID and click Set up
+4. Verify your identity, save your new user ID, and then select **Set up**.
 
-![Save Info](3SaveInfo.png)
+![Save Info](./media/3SaveInfo.png)
 
-Complete credit card signup and review all terms and conditions. 
+5. Complete the credit card signup and review all terms and conditions. 
 
-![Complete Credit Card](4CompleteCreditCard.png)
+![Complete Credit Card](./media/4CompleteCreditCard.png)
 
-![Credit Card Checkout](5CreditCardCheckout.png)
+![Credit Card Checkout](./media/5CreditCardCheckout.png)
 
-![Save Order](6SaveOrder.png)
+![Save Order](./media/6SaveOrder.png)
 
-![Confirmation](7Confirmation.png)
+![Confirmation](./media/7Confirmation.png)
 
-Cancelling the Dynamics 365 Customer Service Enterprise Offer
+## Cancel the Dynamics 365 Customer Service enterprise offer
 
-The Dynamics 365 Customer Service Enterprise Offer is provided for free for 6 months. It will renew at the full rate at the end of the 6-month period. To cancel prior the renew date, please follow the instructions below. Note that after executing these steps you will not be able to use Project Operations Public Preview Environment anymore
+The Dynamics 365 Customer Service Enterprise Offer is provided for free for six months. The offer will renew at the full rate at the end of the six-month period. To cancel prior the renew date, follow the instructions below. 
 
-Navigate to [https://admin.microsoft.com](https://admin.microsoft.com/) and under **Billing** , select **Your Products.**
+> [!NOTE]
+> After you complete these steps, you will no longer be able to use the Project Operations public preview environment.
 
-![Admin Portal](8AdminPortal.png)
+1. Go to the [Admin portal](https://admin.microsoft.com/), and under **Billing**, select **Your Products**.
 
-Select the Dynamics 365 Customer Service Enterprise Offer:
+![Admin Portal](./media/8AdminPortal.png)
 
-![Cancel Subscription](9CancelSubscription.png)
+2. Select the **Dynamics 365 Customer Service Enterprise Offer**.
 
-Select **Cancel Subscription** from the **Settings &amp; Actions** sub menu, the fill out the required fields on the **Subscription cancellation** form, then select **Cancel**  **Subscription.**
+![Cancel Subscription](./media/9CancelSubscription.png)
 
-###
+3. Select **Settings** > **Actions** > **Cancel Subscription**.
+4. On the **Subscription cancellation** form, enter information in the required fields.
+5. Select **Cancel** > **Subscription.**
 
-### Dynamics 365 Project Operations – Preview Trial
+### Dynamics 365 Project Operations – Preview trial
 
-Redeem the second offer, Dynamics 365 Project Operations Trial with the URL provided in your welcome email:
+1. Redeem the second offer, Dynamics 365 Project Operations Trial with the URL provided in your welcome email.
 
-![Redeem Offer 2](10RedeemOffer2.png)
+![Redeem Offer 2](./media/10RedeemOffer2.png)
 
-Make sure you are logged in with the user belonging to the same organization that was subscribing to the first offer code, then proceed with redeeming the offer. Select &quot;Yes, add it to my account&quot;:
+2. Verify that you are logged in as the user who belongs to the same organization that was subscribed using the first offer code and then proceed with redeeming the offer. 
+3. Select **Yes, add it to my account**.
 
-![Add to Account](11AddToAccount.png)
+![Add to Account](./media/11AddToAccount.png)
 
-![Try Now Screen](12TryNow.png)
+![Try Now Screen](./media/12TryNow.png)
 
-![Confirmation](13Confirmation.png)
+![Confirmation](./media/13Confirmation.png)
 
-## Assign Licenses
+## Assign licenses
 
-**! Important**
+> [!IMPORTANT]
+> You will need administrative access to your organization's Office 365 Portal to complete the following steps.
 
-You will need administrative access to your organization Office 365 Portal to perform steps below.
+1. Go to [https://portal.office.com](https://portal.office.com/) to assign the licenses to your users.
 
-Navigate to [https://portal.office.com](https://portal.office.com/) to assign the licenses to your users.
+![Admin Portal](./media/14AdminPortal.png)
 
-![Admin Portal](14AdminPortal.png)
+2. Navigate to users to assign the licenses to your user(s):
 
-Navigate to users to assign the licenses to your user(s):
+![Assign Licenses](./media/15AssignLicenses.png)
 
-![Assign Licenses](15AssignLicenses.png)
+3. Verify that the **Customer Service Enterprise** and** Project Operations** license have been selected.
 
-Ensure Customer Service Enterprise and Project Operations license have been selected.
+## Create a new CDS environment
 
-## Create a new Customer Engagement environment
+Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).
 
-Provision a new Project Operations Lite deployment environment by following instructions in [this article](lite-deployment.md)
+## Install a CDS configuration and setup demo data
 
-## Install CE configuration and setup demo data
-
-Install CE configuration and setup demo data by following instructions in [this article](lite-apply-demo-setup-config-data.md)
-
-3
+Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
