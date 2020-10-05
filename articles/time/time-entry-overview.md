@@ -1,32 +1,24 @@
 ---
-# required metadata
-
-title: Time home page
-description: This topic provides information about the Time functionality in Microsoft Dynamics 365 Project operations. 
+title: Time overview
+description: This topic provides information about the Time functionality in Dynamics 365 Project Operations. 
 author: stsporen
 manager: AnnBe
-ms.date: 06/22/2020
+ms.date: 10/02/2020
 ms.topic: article
-ms.prod: 
 ms.service: dynamics-365-customerservice
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+ms.author: stsporen
 ---
 
-# Time home page
+# Time overview
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+Time Entry is the process of recording the actual time that a resource consumes. Time entries in Dynamics 365 Project Operations allow cost and sales prices to be calculated as tasks progress. These entries help the Project manager keep on top of projects and tasks. Time entries also notify Resource managers of any potential vacation or absences that appear on the schedule board as **Out**. These notifications allow the Resource managers to plan around those events.
+
+When recording time in Project Operations, users can track against any level in the project. This includes the task, summary, or project level.
+
+Project team members create and submit time entries for approval and the Project Approvers approve the entries. The project team member might recall a time entry for corrections.
+
+For information about how to create, submit, or recall an entry, and other tools to help complete your reporting, see [Time entry user behavior](ui-behavior-time.md).
+
