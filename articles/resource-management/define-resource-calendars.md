@@ -1,60 +1,40 @@
 ---
-title: Defining resource calendars
-description: 
-author: 
+title: Define resource calendars
+description: This topic provides information about how to define the working hour calendars for resources in Project Operations.
+author: ruhercul
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: dynamics-project-operations
 ms.reviewer: kfend 
-ms.author: 
-
+ms.author: ruhercul
 ---
 
-Defining resource calendars
-===========================
+# Define resource calendars
 
-Each bookable resource to be engaged in project delivery must have a calendar of working hours to define their availability. Workings hours for a resource can be defined in two ways: 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-- By defining individual calendar rules for a resource
-- By applying an existing calendar template to the resource.
+Each bookable resource working on a project must have a calendar of working hours to define their availability. Workings hours for a resource can be defined in two ways: 
 
-Defining the working hours of a resource
-----------------------------------------
+   - Define individual calendar rules for a resource
+   - Apply an existing calendar template for the resource
 
-1.  Navigate to the **Resources** menu and select **Resources**.
+## Define a resource's working hours
 
-2.  From the grid view, select the applicable **Bookable Resource**.
+1. On the **Resources** menu, select **Resources**.
+2. From the grid view, select the applicable **Bookable Resource**.
+3. On the **Resource Details** page, select the **Working Hours** tab. By default, the bookable resources calendar defaults to the working hours of the default work hour template that is defined for the organization.
+4. To update the working hours, right-click on the start date of the proposed calendar rule to be defined. The calendar rule menu allows you to define a calendar rule for a specific day, the remainder of the series, or the entire calendar.
+5. After the option is selected, you can then define:
 
-3.  Within the **Resource Details** page, navigate to the **Working Hours** tab.
+    - The day of the week where the working hours will apply.
+    - The working times within each day.
+    - The time zone for the calendar rule.
+    - If applicable, non-working time can also be specified for the rule.
 
-4.  By default, the bookable resources calendar will default to the working
-    hours of the default work hour template defined for the organization.
+## Applying a calendar template to a resource
 
-5.  To update the working hours, right-click on the start date of the proposed
-    calendar rule to be defined.
-
-6.  The calendar rule menu will allow the user to define a calendar rule for a
-    specific day, the remainder of the series, or the entire calendar.
-
-7.  Once an option has been selected, the user can then define:
-
-    1.  The day of the week where the working hours will apply.
-
-    2.  The working times within each day.
-
-    3.  The time zone for the calendar rule.
-
-    4.  If applicable, non-working time can also be specified for the rule.
-
-Applying a calendar template to a resource
-------------------------------------------
-
-1.  Navigate to the **Resources** menu and select **Resources**.
-
-2.  From the grid view, select up to 25 **Bookable Resources** to update.
-
-3.  Select **Set Calendar** and a dialog will prompt you with a list of
-    available work hour templates.
-
-4.  Select the desired template and hit **Apply**.
+1. On the **Resources** menu, select **Resources**.
+2. From the grid view, select up to 25 **Bookable Resources** to update.
+3. Select **Set Calendar** and a dialog will prompt you with a list of available work hour templates.
+4. Select the template you want to use, and then select **Apply**.
