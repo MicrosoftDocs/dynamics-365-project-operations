@@ -23,7 +23,7 @@ When you map tasks to a quote line, the following items you defined on the quote
 - Not-to-exceed limits
 - Customers
 
-For example, you might have a project where one phase is fixed price and all the other phases are time and materials. In this case, you can associate the first phase, and all of it's child tasks, to the quote line for that phase with a fixed price billing method. You can then associate all the other phases to the time and materials-based quote line.
+For example, you might have a project where one phase is fixed price and all the other phases are time and materials. In this case, you can associate the first phase, and all of its child tasks, to the quote line for that phase with a fixed price billing method. You can then associate all the other phases to the time and materials-based quote line.
 
 ## Associate tasks to project-based quote lines
 
@@ -72,7 +72,7 @@ This method provides the most optimal experience for disassociating tasks from q
 3. In the second grid, which applies to task-specific billing setup, select one or more tasks, and then select **Disassociate quote lines**.
 4. In the dialog page that appears, select a quote line.
 5. Select the check box to indicate whether the association should also be removed from child tasks of the selected tasks. Checking the box will also disassociate the child tasks of the selected tasks to the quote line.
-6. Select **OK**. A warning message informs you that removing this association could result in the reversal of any actuals recorded on the task previously. 
+6. Select **OK**. A warning message informs you that if you remove this association, any actuals previously recorded on the task could be reversed. 
 7. Select **OK** to continue and remove the association between the task and the project-based quote line.
 
 ### From the Quote line page
@@ -80,7 +80,7 @@ This method provides the most optimal experience for disassociating tasks from q
 You can also disassociate project tasks to quote lines from the **Chargeable tasks** tab on **Quote line** page.
 
 1. On the **Chargeable tasks** tab, select **Delete a quote line task**.
-2. Select **OK**. A warning message informs you that removing this association could result in the reversal of any actuals previously recorded on the task. 
+2. Select **OK**. A warning message informs you that if you remove this association, any actuals previously recorded on the task could be reversed. 
 3. Select **OK** to continue and remove the association between the task and the project-based quote line.
 
 >[!NOTE]
