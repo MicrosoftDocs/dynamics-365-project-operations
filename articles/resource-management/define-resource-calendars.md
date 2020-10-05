@@ -1,0 +1,40 @@
+---
+title: Define resource calendars
+description: This topic provides information about how to define the working hour calendars for resources in Project Operations.
+author: ruhercul
+manager: Annbe
+ms.date: 10/05/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend 
+ms.author: ruhercul
+---
+
+# Define resource calendars
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+Each bookable resource working on a project must have a calendar of working hours to define their availability. Workings hours for a resource can be defined in two ways: 
+
+   - Define individual calendar rules for a resource
+   - Apply an existing calendar template for the resource
+
+## Define a resource's working hours
+
+1. On the **Resources** menu, select **Resources**.
+2. From the grid view, select the applicable **Bookable Resource**.
+3. On the **Resource Details** page, select the **Working Hours** tab. By default, the bookable resources calendar defaults to the working hours of the default work hour template that is defined for the organization.
+4. To update the working hours, right-click on the start date of the proposed calendar rule to be defined. Use the calendar rule menu to define a calendar rule for a specific day, the remainder of the series, or the entire calendar.
+5. After the option is selected, you can then define:
+
+    - The day of the week where the working hours will apply.
+    - The working times within each day.
+    - The time zone for the calendar rule.
+    - If applicable, non-working time can also be specified for the rule.
+
+## Applying a calendar template to a resource
+
+1. On the **Resources** menu, select **Resources**.
+2. From the grid view, select up to 25 **Bookable Resources** to update.
+3. Select **Set Calendar** and a dialog will prompt you with a list of available work hour templates.
+4. Select the template you want to use, and then select **Apply**.
