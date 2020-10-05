@@ -5,7 +5,7 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---
@@ -24,7 +24,7 @@ Each bookable resource working on a project must have a calendar of working hour
 1. On the **Resources** menu, select **Resources**.
 2. From the grid view, select the applicable **Bookable Resource**.
 3. On the **Resource Details** page, select the **Working Hours** tab. By default, the bookable resources calendar defaults to the working hours of the default work hour template that is defined for the organization.
-4. To update the working hours, right-click on the start date of the proposed calendar rule to be defined. The calendar rule menu allows you to define a calendar rule for a specific day, the remainder of the series, or the entire calendar.
+4. To update the working hours, right-click on the start date of the proposed calendar rule to be defined. Use the calendar rule menu to define a calendar rule for a specific day, the remainder of the series, or the entire calendar.
 5. After the option is selected, you can then define:
 
     - The day of the week where the working hours will apply.
