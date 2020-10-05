@@ -5,7 +5,7 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
-ms.service: dynamics-project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
 ms.author: ruhercul
 
