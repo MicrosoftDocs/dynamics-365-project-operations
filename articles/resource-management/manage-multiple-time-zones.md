@@ -3,7 +3,7 @@ title: Manage time zones
 description: When a project is created, its time zone is based upon the time zone defined in the work hour template applied.
 author: ruhercul
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
@@ -17,7 +17,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 ## Projects
 
-When a project is created, its time zone is based on the time zone defined in the applied work hour template. On the **Project summary** tab, the dates are always relative to the time zone of the user that is logged in. This is true for all other tabs in the **Project** form, except the **Task** tab. When you view the work breakdown structure, the dates will always be displayed in the project’s time zone.
+When a project is created, the time zone is based on the time zone defined in the applied work hour template. On the **Project summary** tab, the dates are always relative to the time zone of the user that is logged in. This is true for all other tabs in the **Project** form, except the **Task** tab. When you view the work breakdown structure, the dates will always be displayed in the project’s time zone.
 
 ## Tasks
 
@@ -56,7 +56,7 @@ When you navigate to the **Reconciliation** view, the resource assignments and t
 
 ![Reconciliation view before extension](media/reconcile-assignments-10.png)
 
-After the extend booking functionality has been used foreach resource, bookings are successfully extended for each resource. This is because each resource’s working hours overlapped with the contours of the shortage.
+After the extend booking functionality has been used for each resource, bookings are successfully extended for each resource. This is because each resource’s working hours overlapped with the contours of the shortage.
 
 ![Reconciliation view after booking extension](media/reconcile-assignments-11.png) 
 
