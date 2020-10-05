@@ -1,26 +1,24 @@
 ---
 title: Submit a resource request
 description: You can submit a generated resource requirement as a resource request. The request is then sent to a resource manager for fulfillment. 
-author: 
+author: ruhercul
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/04/2020
 ms.topic: article
 ms.service: dynamics-project-operations
 ms.reviewer: kfend 
-ms.author: 
+ms.author: ruhercul
 
 ---
 
-
-
 # Submit a resource request
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 You can submit a generated resource requirement as a resource request. The request is then sent to a resource manager for fulfillment.
 
-1. In Dynamcis 365 Project Operations, on the **Projects** page, click the **Team** tab to view a list bookable resources. 
-2. Select the generic resource that has a resource requirement from the list and then click **Submit Request**.
-
-![Submitting a resource request](media/RM-how-to-18.png)
+1. In Dynamcis 365 Project Operations, on the **Projects** page, select the **Team** tab to view a list bookable resources. 
+2. Select the generic resource that has a resource requirement from the list, and then click **Submit Request**.
 
 The request status of the generic team member will change to **Submitted**.
 
