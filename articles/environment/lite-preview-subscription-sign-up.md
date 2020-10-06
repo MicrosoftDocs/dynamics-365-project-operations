@@ -98,7 +98,7 @@ The Dynamics 365 Customer Service Enterprise Offer is provided for free for six 
 ## Assign licenses
 
 > [!IMPORTANT]
-> You will need administrative access to your organization's Office 365 Portal to complete the following steps.
+> You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.
 
 1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
