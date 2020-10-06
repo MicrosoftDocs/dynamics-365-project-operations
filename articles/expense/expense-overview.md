@@ -1,33 +1,40 @@
 ---
-# required metadata
-
-title: Expense home page
-description: This topic provides information about the Expense functionality in Project operations. 
-author: suvaidya
+title: Expense overview
+description: This topic provides information about the Expense functionality in Project Operations. 
+author: stsporen
 manager: AnnBe
-ms.date: 06/19/2020
+ms.date: 10/06/2020
 ms.topic: article
-ms.prod: 
 ms.service: dynamics-365-customerservice
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+ms.author: stsporen
 ---
 
 # Expense home page
 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+
+Dynamics 365 Project Operations supports the ability to process expenses. Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.
+
+In Project Operations, there are two supported deployment models for Expense: 
+
+- **Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order based scenarios**.
+- **Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.
+
+## Full 
+Full Expense deployment provides a complete policy enforcement which includes the ability to create policies, such as:
+
+  - Expense category limits
+  - Travel
+  - Per diem
+  - Credit card imports
+  - Receipt optical character recognition
+
+## Basic 
+Basic Expense deployment scenario only allows you to record basic expenses against a project. 
+
+For more information, see [Expense entry (lite)](basic-expense.md)
+
+## Determine your Expense deployment
+To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**. 
