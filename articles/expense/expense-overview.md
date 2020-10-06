@@ -1,6 +1,6 @@
 ---
 title: Expense overview
-description: This topic provides information about the Expense functionality in Project operations. 
+description: This topic provides information about the Expense functionality in Project Operations. 
 author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
@@ -31,4 +31,4 @@ The Basic Expense deployment scenario allows you to only record basic expenses a
 For more information, see [Expense entry (lite)](basic-expense.md)
 
 ## Determine your Expense deployment
-Basic Expense is located next to the Project management functionality. To determine if you are running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**. 
+Basic Expense is located next to the Project management and accounting functionality. To determine if you are running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**. 
