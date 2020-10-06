@@ -1,6 +1,6 @@
 ---
 title: Manage multiple customers on project-based quote lines
-description: This topic describes how to manage multiple customers on project-based quote lines.
+description: This topic provides information about how to manage multiple customers on project-based quote lines.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
@@ -20,7 +20,7 @@ All quote customers on the **Customers** tab of the project quote default as quo
 
 ## Create, update, or delete a quote line customer record
 
-You can create, update, or delete a quote line customer on the **Quote line customers** tab on the **Project-based quote line** page. When you add a new customer on the project-based quote line, the customer is also added to the overall quote as a quote customer, with a default billing split percentage on the overall quote of 0%. The billing split percentage on the overall quote is copied to new quote lines and to the eventual project contract. However, when iyou invoice from the contract, the billing split percentage at the quote line level is used, not the billing split percentage at the overall contract level. 
+You can create, update, or delete a quote line customer on the **Quote line customers** tab on the **Project-based quote line** page. When you add a new customer on the project-based quote line, the customer is also added to the overall quote as a quote customer, with a default billing split percentage on the overall quote of 0%. The billing split percentage on the overall quote is copied to new quote lines and to the eventual project contract. However, when you invoice from the contract, the billing split percentage at the quote line level is used, not the billing split percentage at the overall contract level. 
 
 The following table shows the fields on the quote line customer record of a project-based quote line.
 
@@ -36,4 +36,4 @@ The following table shows the fields on the quote line customer record of a proj
 
 You can edit billing split percentages in-line. When the billing split percentages don't total 100%, an error occurs. After you edit the billing split percentages, refresh the quote line page to remove the error.
 
-Use the evenly distribute action on the quote line customers subgrid to can allocate billing splits to all quote line customers. If there's a rounding factor, that will be added to the rounding customer. One of the quote line customers is always tagged as the rounding customer, which means that quote line customer record has the rounding flag set to **Yes**. 
+Use the evenly distribute action on the quote line customers subgrid to allocate billing splits to all quote line customers. If there's a rounding factor, that will be added to the rounding customer. One of the quote line customers is always tagged as the rounding customer, which means that quote line customer record has the rounding flag set to **Yes**. 
