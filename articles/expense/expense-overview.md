@@ -23,7 +23,7 @@ In Project Operations, there are two supported deployment models for Expense:
 - **Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.
 
 ## Full 
-Full Expense deployment provides a complete policy enforcement. This includes the ability to create policies, such as:
+Full Expense deployment provides a complete policy enforcement which includes the ability to create policies, such as:
 
   - Expense category limits
   - Travel
@@ -37,4 +37,4 @@ Basic Expense deployment scenario only allows you to record basic expenses again
 For more information, see [Expense entry (lite)](basic-expense.md)
 
 ## Determine your Expense deployment
-To determine if you are running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**. 
+To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**. 
