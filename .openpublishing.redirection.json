@@ -1,0 +1,24 @@
+{
+    "redirections": [
+      {
+        "source_path": "articles/sales/create-estimate-quote-line-sales.md",
+        "redirect_url": "../pro/sales/create-estimate-quote-line-sales",
+        "redirect_document_id": "false"
+      },
+      {
+        "source_path": "articles/sales/manage-multiple-customers-quote-sales.md",
+        "redirect_url": "../pro/sales/manage-multiple-customers-quote-sales",
+        "redirect_document_id": "false"
+      },
+      {
+        "source_path": "articles/sales/quote-values-budget-limits-contract-sales.md",
+        "redirect_url": "../pro/sales/quote-values-budget-limits-contract-sales",
+        "redirect_document_id": "false"
+      },
+      {
+        "source_path": "articles/sales/manage-project-price-lists-sales.md",
+        "redirect_url": "../pro/sales/manage-project-price-lists-sales",
+        "redirect_document_id": "false"
+      }
+    ]
+}
