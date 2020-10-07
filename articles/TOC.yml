@@ -84,6 +84,10 @@
         href: sales/lose-quote.md
       - name: Close a quote
         href: sales/win-quote.md
+  - name: Manage contracts
+    items:
+    - name: Key concepts - Project contracts
+      href: sales/contracts-key-concepts.md
   - name: Pricing and costing
     items: 
     - name: Product price lists
@@ -356,6 +360,8 @@
       href: pro/sales/win-quote-sales.md
   - name: Manage contracts
     items: 
+    - name: Key concepts of project contracts
+      href: pro/sales/contracts-key-concepts-sales.md
     - name: Product-based contract lines
       items: 
       - name: Product-based contract lines overview
