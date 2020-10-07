@@ -21,7 +21,7 @@ This topic provides information about how to provision a new Dynamics 365 Projec
 Use following steps to enable the Project Operations automated provisioning flow for your LCS project.
 
 1. Go to [LCS](https://lcs.dynamics.com/v2) and select the **Preview Feature management** tile.
-2. In the **Preview feature** list, select **Project Operations** and the select **Preview feature enabled** to enable Project Operations.
+2. In the **Preview feature** list, select **Project Operations Feature** and the select **Preview feature enabled** to enable Project Operations.
 
 > [!NOTE]
 > This step is performed only one time per LCS project.
@@ -160,16 +160,17 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 | **Integration entity for project transaction relationships (msdyn\_transactionconnections)** | No | No | N\A | No | N\A |
 | **Project Operations integration contract line milestones (msdyn\_contractlinesscheduleofvalues)** | No | No | N\A | No | N\A |
 | **Project Operations integration entity for expense estimates (msdyn\_estimateslines)** | No | No | N\A | No | N\A |
-| **Project Operations integration entity for hour estimates (msdyn\_resourceassignments)** | No | No | N\A | No | N\A |
+| **Project Operations integration project expense categories export entity (msdyn\_expensecategories)** | No | No | N\A | No | N\A |
 | **Project Operations integration project expenses export entity (msdyn\_expenses)** | Yes | No | N\A | No | N\A |
 | **Project Operations integration entity for hour estimates (msdyn\_resourceassignments)** | Yes | No | N\A | No | N\A |
 
+
 4. To refresh the entity, select the map name, and then select **Refresh entities**. 
-5. Proceed with running the map after the refresh is complete.
+
 
 ![Refresh Map](./media/20RefreshMapping.png)
 
-Before you enable the next map, verify that the map in the table is in a state of **Running**. Running maps with a larger number of prerequisites might take some time.
+Proceed with running the map after the refresh is complete. Before you enable the next map, verify that the map in the table is in a state of **Running**. Running maps with a larger number of prerequisites might take some time.
 
 To run a map with prerequisites, enable the **Show related entity maps** toggle. If the table indicates **Prerequisite initial sync** is **No**, verify that the **Initial sync** flag is **Off** in all the prerequisite maps before you run it.
 
