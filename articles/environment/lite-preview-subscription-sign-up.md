@@ -19,13 +19,13 @@ This topic explains how to subscribe to the preview partner offer and deploy Dyn
 
 ## Prerequisites
 
-- You will receive an email inviting you to participate in the preview. You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).
+- You'll receive an email inviting you to participate in the preview. You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).
 - The user who deploys the preview must have Azure tenant global administrator rights.
 - Review all terms and conditions.
 
 ## Subscribe
 
-When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you will receive two offers from Microsoft by email. These offers allow you to deploy the Project Operations Preview:
+When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email. These offers allow you to deploy the Project Operations Preview:
 
 - Dynamics 365 Project Operations (CRM) - Preview Trial
 - Office 365 Project Operations - Preview Trial
@@ -44,7 +44,7 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 2. Confirm your order.
 ![Confirm the order](./media/17ConfirmOrderNew.png)
 
-You will see confirmation offer was successfully redeemed.
+You'll see confirmation offer was successfully redeemed.
 
 ![Confirmation](./media/18OrderConfirmationNew.png)
 
@@ -55,7 +55,7 @@ Repeat the same steps as with the first offer code. Make sure to add the second 
 ## Assign licenses
 
 > [!IMPORTANT]
-> You will need administrative access to your organization's Office 365 Portal to complete the following steps.
+> You'll need administrative access to your organization's Office 365 Portal to complete the following steps.
 
 1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
