@@ -65,11 +65,12 @@ Repeat the same steps as with the first offer code. Make sure to add the second 
 
 ![Assign Licenses](./media/15AssignLicenses.png)
 
-3. Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected, and then select **Save changes**.
+3. Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected. 
+4. Select **Save changes**.
 
 ## Create a new CDS environment
 
-1. Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md). When you select the environment typem make sure to use **Trial (Subscription based)**.
+1. Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
 ![New environment](./media/19CreateEnvironment.png)
 
 2. Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.  
