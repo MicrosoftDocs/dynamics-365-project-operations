@@ -36,7 +36,7 @@ When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage
 ### Dynamics 365 Project Operations (CRM) - Preview Trial 
 
 1. Make sure you are in the browser logged in with the user work account in the tenant you need Project Operations preview.
-2. Redeem the first offer code Office 365 Project Operations - Preview Trial by pasting it into the browser URL.
+2. Redeem the first offer code Dynamics 365 Project Operations (CRM) - Preview Trial by pasting it into the browser URL.
 ![Redeem Offer](./media/16RedeemFirstOfferNew.png)
 3. Confirm your order.
 ![Confirm the order](./media/17ConfirmOrderNew.png)
