@@ -3,7 +3,7 @@ title: Sign up for a preview subscription
 description: This topic provides information about how to subscribe to and deploy Project Operations lite deployment - deal to proforma invoicing.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
@@ -35,12 +35,17 @@ When you receive a [preview request](https://forms.office.com/FormsPro/Pages/Res
 
 ### Dynamics 365 Project Operations (CRM) - Preview Trial 
 
-1. Make sure you are in the browser logged in with the user work account in the tenant you need Project Operations preview.
-2. Redeem the first offer code Dynamics 365 Project Operations (CRM) - Preview Trial by pasting it into the browser URL.
+Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.
+
+1. Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.
+
 ![Redeem Offer](./media/16RedeemFirstOfferNew.png)
-3. Confirm your order.
+
+2. Confirm your order.
 ![Confirm the order](./media/17ConfirmOrderNew.png)
-4. You will see confirmation offer was successfully redeemed
+
+You will see confirmation offer was successfully redeemed.
+
 ![Confirmation](./media/18OrderConfirmationNew.png)
 
 ### Office 365 Project Operations - Preview Trial
@@ -60,17 +65,20 @@ Repeat the same steps as with the first offer code. Make sure to add the second 
 
 ![Assign Licenses](./media/15AssignLicenses.png)
 
-3. Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.
+3. Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected, and then select **Save changes**.
 
 ## Create a new CDS environment
 
-Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md). When selecting environment type make sure to use Trial (Subscription based).
+1. Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md). When selecting environment type make sure to use Trial (Subscription based).
 ![Create trial](./media/19CreateEnvironment.png)
 
-Select **Enable Dynamics 365 apps** setting and leave **Automatically deploy these apps** setting to none and save to create the environment.
+2. Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.  
+3. Select **Save** to create the environment.
+
 ![Create trial](./media/20CreateEnvironment1.png)
 
-Once environment is created, install **Microsoft Dynamics 365 Project Operations** solution. 
+4. After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution. 
+
 ![Install Solution](./media/21InstallSolution.png)
 
 ## Install a CDS configuration and setup demo data
