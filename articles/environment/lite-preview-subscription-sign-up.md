@@ -60,7 +60,7 @@ Repeat the same steps as with the first offer code. Make sure to add the second 
 
 ![Assign Licenses](./media/15AssignLicenses.png)
 
-3. Verify that the **Dynamics 365 Project Operations (CRM) Preview ** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.
+3. Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.
 
 ## Create a new CDS environment
 
