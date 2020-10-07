@@ -18,7 +18,7 @@ This topic provides the key concepts to be aware of before you begin using Proje
 
 ## Contracting Unit
 
-The contracting unit represents the division or practice that owns the delivery of the project. You can set up resource costs for each contracting unit. When you specify the resource cost for a resource, you will also be able to set up different cost rates for resources. This contracting unit borrows these resources from other division or practices within the enterprise. The cost rates for the resources are referred to as transfer prices, resource borrowing, or exchange prices. When you set up the cost of borrowing resources from other divisions, set up the cost rates in the currency of the lending division.
+The contracting unit represents the division or practice that owns the delivery of the project. You can set up resource costs for each contracting unit. When you specify the resource cost for a resource, you will also be able to set up different cost rates for resources. This contracting unit borrows these resources from other division or practices within the enterprise. The cost rates for the resources are referred to as transfer prices, resource borrowing, or exchange prices. When you set up the cost rates to borrow resources from other divisions, use the currency of the lending division.
 
 ## Cost Currency
 
@@ -36,20 +36,20 @@ Unlike costs, sales values can only be recorded in the sales currency.
 
 ## Billing Method
 
-There are typically two types of contracting models for projects, fixed fee and consumption-based. This models are represented in Project Operations as billing methods with two possible values:
+There are typically two types of contracting models for projects, fixed fee and consumption-based. These models are represented in Project Operations as billing methods with two possible values:
 
-- Time and Material: A consumption-based contracting model where each incurred cost is backed by corresponding revenue. As you estimate or incur more costs, the corresponding estimated and actual sales also increase. Specify not-to-exceed limits on contract lines that have this billing method which caps off the actual revenue. Estimated revenue isn't impacted by not-to-exceed limits.
-- Fixed Price: This is a fixed fee contracting model that indicates the sales values will be independent of the costs incurred. The sales value is fixed and doesn't change as you estimate or incur more costs.
+- Time and Material: A consumption-based contracting model where each incurred cost is backed by corresponding revenue. As you estimate or incur more costs, the corresponding estimated and actual sales also increase. Specify not-to-exceed limits on contract lines that have this billing method that caps off the actual revenue. Estimated revenue isn't impacted by not-to-exceed limits.
+- Fixed Price: A fixed fee contracting model that indicates the sales values will be independent of the costs incurred. The sales value is fixed and doesn't change as you estimate or incur more costs.
 
 ## Project Price lists
 
-Project price lists are used to default prices, not cost rates, for time, expense, and other project related components. There can be multiple prices lists. Each price list has its own date effectivity for each project contract. Overlapping date-effectivity on project price lists isn't supported in Project Operations.
+Project price lists are used to default prices, not cost rates, for time, expense, and other project-related components. There can be multiple prices lists. Each price list has its own date effectivity for each project contract. Overlapping date-effectivity on project price lists isn't supported in Project Operations.
 
 When a project contract is created by winning a project quote, project price lists are copied with the contract name and date included. Copying this information constitutes custom pricing for project components on this project contract.
 
 ## Product price lists
 
-Product price lists will used to default prices, not cost rates, for product-based lines on contract. There is only one product price list per contract.
+Product price lists are used to default prices, not cost rates, for product-based lines on contract. There is only one product price list per contract.
 
 ## Transaction Classes
 
@@ -68,7 +68,7 @@ Entities that represent work are projects and tasks. Entities that represent bil
 
 ## Multi-customer deals
 
-Multi- customer deals have more than one customer to invoice on a deal. Common examples of this include:
+Multi- customer deals have more than one customer to invoice on a deal. Common examples include:
 
 - OEM Enterprises and their partners: Partners and resellers sell a product with some value-added services, typically involving a particular deal with a customer. The OEM offers to finance a portion of the project. 
 
