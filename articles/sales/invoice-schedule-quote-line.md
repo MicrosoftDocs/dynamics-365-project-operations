@@ -1,5 +1,5 @@
 ---
-title: invoice schedules on project-based quote lines
+title: Invoice schedules on project-based quote lines
 description: This topic provides information about creating invoice schedules and milestones for quote lines.
 author: rumant
 manager: Annbe
