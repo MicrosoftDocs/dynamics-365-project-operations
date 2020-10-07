@@ -162,10 +162,20 @@
         href: resource-management/define-resource-requirements.md
       - name: Update resource requirements
         href: resource-management/update-resource-requirements.md
+      - name: Book to a project
+        href: resource-management/book-project.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team member grid
         href: resource-management/add-team-members-grid.md
+      - name: Generic resource requirement fulfillment
+        href: resource-management/generic-resource-requirement-fulfillment.md
+    - name: Administration of resources
+      items: 
+      - name: Define skills and proficiencies
+        href: resource-management/define-skills-proficiencies.md
+      - name: Define resource calendars
+        href: resource-management/define-resource-calendars.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
     - name: Skills and proficiency models
@@ -402,10 +412,20 @@
         href: resource-management/define-resource-requirements.md
       - name: Update resource requirements
         href: resource-management/update-resource-requirements.md
+      - name: Book to a project
+        href: resource-management/book-project.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team member grid
         href: resource-management/add-team-members-grid.md
+      - name: Generic resource requirement fulfillment
+        href: resource-management/generic-resource-requirement-fulfillment.md
+    - name: Administration of resources
+      items: 
+      - name: Define skills and proficiencies
+        href: resource-management/define-skills-proficiencies.md
+      - name: Define resource calendars
+        href: resource-management/define-resource-calendars.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
     - name: Skills and proficiency models
