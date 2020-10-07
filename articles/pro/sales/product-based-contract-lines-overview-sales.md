@@ -1,6 +1,6 @@
 ---
 title: Product-based contract lines overview
-description: This topic provides information about working with approvals in Project Operations.
+description: This topic provides information about product-based contract lines.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
@@ -13,7 +13,6 @@ ms.author: rumant
 # Product-based contract lines overview
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
-
 
 You can create product-based contract lines in Dynamics 365 Project Operations. Product-based contract lines can be manually created lines, or they can be items from the product catalog.
 
