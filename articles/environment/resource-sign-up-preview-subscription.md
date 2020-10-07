@@ -33,40 +33,38 @@ When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
 
-### Dynamics 365 Project Operations – Preview trial
+### Office 365 Project Operations - Preview Trial
 
-1. Redeem the first offer, **Office 365 Project Operations - Preview Trial**, with the URL provided in your welcome email.
+1. Make sure you are in the browser logged in with the user work account in the tenant you need Project Operations preview.
+2. Redeem the first offer code Office 365 Project Operations - Preview Trial by pasting it into the browser URL.
+![Redeem Offer](./media/16RedeemFirstOfferNew.png)
+3. Confirm your order.
+![Confirm the order](./media/17ConfirmOrderNew.png)
+4. You will see confirmation offer was successfully redeemed
+![Confirmation](./media/18OrderConfirmationNew.png)
 
-![First Offer](./media/1FirstOffer.png)
+### Dynamics 365 Project Operations (CRM) - Preview Trial
 
-2. Verify that you are logged in as the user who belongs to the organization who will be subscribing to the service.
-3. Proceed with redeeming the offer. 
-4. Select **Yes, add it to my account**.
-
-![Redeem Offer](./media/2RedeemFirstOffer.png)
-
-![Confirm Offer](./media/3ConfirmFirstOffer.png)
-
-![Offer Redeemed](./media/4OfferSuccessfulyRedeemed.png)
+Repeat the same steps as with the first offer code. Make sure to add the second offer code using the same user account that was used with the first offer code.
 
 ### Dynamics 365 Finance preview trial
 
-Repeat the same steps with the second offer from the Welcome email.
+Repeat the same steps with the last offer from the Welcome email.
 
-## Assign Licenses
+## Assign licenses
 
 > [!IMPORTANT]
 > You will need administrative access to your organization's Office 365 Portal to complete the following steps.
 
-1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign licenses to your users.
+1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
-![Office Admin Portal](./media/5OfficeAdminPortal.png)
+![Admin center home page](./media/14AdminPortal.png)
 
 2. On the **Active users** page, select the users that you want to assign a license to.
 
-![Assign Licenses](./media/6AssignLicenses.png)
+![Assign Licenses](./media/15AssignLicenses.png)
 
-3. Verify that the Project Operations license has been selected and select **Save changes**. 
+3. Verify that the **Dynamics 365 Project Operations (CRM) Preview ** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.
 
 > [!NOTE]
 > The Finance trial offer does not need to be assigned to a user.
@@ -81,9 +79,9 @@ To complete this task, follow the steps in the topic, [Add an Azure subscription
 
 ## Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios
 
-Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview.
+Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
 
 ## Install CDS setup and configuration data
 
 Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).
-
+Complete this step only after Finance demo environment is deployed and demo data in FO is ready.
