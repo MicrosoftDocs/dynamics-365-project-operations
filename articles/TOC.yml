@@ -56,6 +56,8 @@
       items:
       - name: Key concepts
         href: sales/quotes-key-concepts.md
+      - name: Summary information on a project quote
+        href: sales/quote-values-budget-limits-contract.md
       - name: Manage multiple customers on a quote
         href: sales/manage-multiple-customers-quote.md
       - name: Product-based quote lines
@@ -68,10 +70,16 @@
         items: 
         - name: Manage project price lists
           href: sales/managing-project-price-lists.md
+        - name: Manage multiple customers on project-based quote lines
+          href: sales/manage-multiple-customers-quote-line.md
         - name: Create estimates on a quote line
           href: sales/create-estimate-quote-line.md
+        - name: Import estimates for a project to a project-based quote line
+          href: sales/import-estimate-quote-line.md
         - name: Manage quoted values, customer budgets, and not-to-exceed limits
           href: sales/manage-quoted-values-budget-limits-quote-line.md
+        - name: Invoice schedules on project-based quote lines
+          href: sales/invoice-schedule-quote-line.md 
       - name: Copy project-based quotes
         href: sales/lose-quote.md
       - name: Close a quote
@@ -162,8 +170,12 @@
         href: resource-management/define-resource-requirements.md
       - name: Update resource requirements
         href: resource-management/update-resource-requirements.md
+      - name: Submit a resource request
+        href: resource-management/submit-resource-requirements.md
       - name: Book to a project
         href: resource-management/book-project.md
+      - name: Review proposed resources
+        href: resource-management/review-proposed-resources.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team member grid
@@ -184,8 +196,16 @@
       items: 
       - name: Resource reconciliation overview
         href: resource-management/resource-reconciliation-overview.md
+      - name: Manage time zones
+        href: resource-management/manage-multiple-time-zones.md
   - name: Time
     items: 
+    - name: Time overview
+      href: time/time-entry-overview.md
+    - name: Create time entries
+      items: 
+      - name: Time entry user interface behavior
+        href: time/ui-behavior-time.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
@@ -326,6 +346,10 @@
           href: pro/sales/create-estimate-quote-line-sales.md
         - name: Project-based quote lines (sales)
           href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+        - name: Import estimates for a project to a project-based quote line
+          href: sales/import-estimate-quote-line.md
+        - name: Invoice schedules on project-based quote lines
+          href: sales/invoice-schedule-quote-line.md 
     - name: Copy project-based quotes
       href: sales/lose-quote.md
     - name: Close a quote
@@ -412,8 +436,12 @@
         href: resource-management/define-resource-requirements.md
       - name: Update resource requirements
         href: resource-management/update-resource-requirements.md
+      - name: Submit a resource request
+        href: resource-management/submit-resource-requirements.md
       - name: Book to a project
         href: resource-management/book-project.md
+      - name: Review proposed resources
+        href: resource-management/review-proposed-resources.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team member grid
@@ -434,8 +462,16 @@
       items: 
       - name: Resource reconciliation overview
         href: resource-management/resource-reconciliation-overview.md
+      - name: Manage time zones
+        href: resource-management/manage-multiple-time-zones.md
   - name: Time
     items: 
+    - name: Time overview
+      href: time/time-entry-overview.md
+    - name: Create time entries
+      items: 
+      - name: Time entry user interface behavior
+        href: time/ui-behavior-time.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
