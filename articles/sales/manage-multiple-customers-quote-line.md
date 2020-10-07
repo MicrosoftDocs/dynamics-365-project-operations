@@ -12,6 +12,8 @@ ms.author: rumant
 
 # Manage multiple customers on project-based quote lines
 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+
 Project-based quote lines support scenarios where each quote line has a list of customers that are paying for it. This list of customers on the project-based quote line can be same as the list of customers on the quote. You can also change the list of customers to be different. To create the eventual project contract when a project quote is won, the customer list on project-based quote line is copied to the corresponding project–based contract line. Customers on the project-based quote are copied to the project contract.
 
 When you invoice the eventual project contract, the customer list on the project-based contract line takes priority over the list on the project contract. The customer list on the project contract is only used to default new project contract lines.
