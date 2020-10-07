@@ -3,7 +3,7 @@ title: Provision a new environment
 description: This topic provides information about how to provision a new Project Operations environment.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
@@ -21,7 +21,7 @@ This topic provides information about how to provision a new Dynamics 365 Projec
 Use following steps to enable the Project Operations automated provisioning flow for your LCS project.
 
 1. Go to [LCS](https://lcs.dynamics.com/v2) and select the **Preview Feature management** tile.
-2. In the **Preview feature** list, select **Project Operations Feature** and the select **Preview feature enabled** to enable Project Operations.
+2. In the **Preview feature** list, select **Project Operations Feature**, and then select **Preview feature enabled** to enable Project Operations.
 
 > [!NOTE]
 > This step is performed only one time per LCS project.
@@ -170,7 +170,7 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 
 ![Refresh Map](./media/20RefreshMapping.png)
 
-Proceed with running the map after the refresh is complete. Before you enable the next map, verify that the map in the table is in a state of **Running**. Running maps with a larger number of prerequisites might take some time.
+5. After the refresh is complete, run the map. Before you enable the next map, verify that the map in the table is in a state of **Running**. Running maps with a larger number of prerequisites might take some time.
 
 To run a map with prerequisites, enable the **Show related entity maps** toggle. If the table indicates **Prerequisite initial sync** is **No**, verify that the **Initial sync** flag is **Off** in all the prerequisite maps before you run it.
 
