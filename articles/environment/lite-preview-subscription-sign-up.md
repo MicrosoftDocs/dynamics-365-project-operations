@@ -69,7 +69,7 @@ Repeat the same steps as with the first offer code. Make sure to add the second 
 
 ## Create a new CDS environment
 
-1. Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md). When selecting environment type make sure to use Trial (Subscription based).
+1. Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md). When you select the environment typem make sure to use **Trial (Subscription based)**.
 ![New environment](./media/19CreateEnvironment.png)
 
 2. Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.  
