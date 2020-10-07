@@ -24,17 +24,18 @@ This topic explains how to subscribe to the preview/partner offer and deploy Pro
 
 ## Subscribe
 
-When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) is approved, you will receive two offers from Microsoft by email. These offers allow you to deploy the Project Operations Preview:
+When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) is approved, you will receive three offers from Microsoft by email. These offers allow you to deploy the Project Operations Preview:
 
-- Dynamics 365 Project Operations – Preview Trial
-- Dynamics 365 for Finance and Operations Preview Trial.
+- Office 365 Project Operations - Preview Trial
+- Dynamics 365 Project Operations (CRM) - Preview Trial
+- Dynamics 365 Finance preview trial
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
 
 ### Dynamics 365 Project Operations – Preview trial
 
-1. Redeem the first offer, **Dynamics 365 Project Operations Trial**, with the URL provided in your welcome email.
+1. Redeem the first offer, **Office 365 Project Operations - Preview Trial**, with the URL provided in your welcome email.
 
 ![First Offer](./media/1FirstOffer.png)
 
