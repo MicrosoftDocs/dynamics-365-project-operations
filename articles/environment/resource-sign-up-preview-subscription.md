@@ -70,7 +70,7 @@ Repeat the same steps with the last offer from the Welcome email.
 
 ![Assign Licenses](./media/15AssignLicenses.png)
 
-3. Verify that the **Dynamics 365 Project Operations (CRM) Preview ** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.
+3. Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.
 
 > [!NOTE]
 > The Finance trial offer does not need to be assigned to a user.
