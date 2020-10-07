@@ -360,6 +360,8 @@
       items: 
       - name: Product-based contract lines overview
         href: pro/sales/product-based-contract-lines-overview-sales.md
+    - name: Copying project contracts
+      href: pro/sales/copy-project-contracts-sales.md
   - name: Pricing and costing
     items: 
     - name: Project price lists
