@@ -2,7 +2,7 @@
 
 Project Operations supportst the ability to copy a project while reverting the the assignments back to their gereneic resources that represent the role. This allows for customers to use this functionality and build basic Project Template functionality.
 
-Copy Project will update the status of the target project, customers should use this status to determine when the copy action is complete. Copy Project will also update the start date of the project to the current start date if no target date is detected in the target project entity.
+Copy Project will update the status of the target project, customers should use this **Status Reason** to determine when the copy action is complete. Copy Project will also update the start date of the project to the current start date if no target date is detected in the target project entity.
 
 ## Copy Project Custom Action 
 Name: **msdyn_CopyProjectV2**
