@@ -3,7 +3,7 @@ title: Sign up for Project Operations preview subscriptions for resource/ non-st
 description: This topic provides information about how to subscribe to and deploy Project Operations for resouce/non-stocked based scenarios.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
@@ -28,19 +28,25 @@ When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage
 
 - Dynamics 365 Project Operations (CRM) - Preview Trial
 - Office 365 Project Operations - Preview Trial
-- Dynamics 365 Finance preview trial
+- Dynamics 365 Finance - Preview Trial
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
 
 ### Dynamics 365 Project Operations (CRM) - Preview Trial 
 
-1. Make sure you are in the browser logged in with the user work account in the tenant you need Project Operations preview.
-2. Redeem the first offer code Dynamics 365 Project Operations (CRM) - Preview Trial by pasting it into the browser URL.
+Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.
+
+1. Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.
+
 ![Redeem Offer](./media/16RedeemFirstOfferNew.png)
-3. Confirm your order.
+
+2. Confirm your order.
+
 ![Confirm the order](./media/17ConfirmOrderNew.png)
-4. You will see confirmation offer was successfully redeemed
+
+You will see confirmation offer was successfully redeemed.
+
 ![Confirmation](./media/18OrderConfirmationNew.png)
 
 ### Office 365 Project Operations - Preview Trial
