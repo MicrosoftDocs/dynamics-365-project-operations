@@ -57,4 +57,4 @@ When a project team is copied from the source project, the generic resources are
 
 When the project is copied, both resource and expense estimate lines are copied from the source project. 
 
-For information on how to programmatically access Copy Project, see [Developing project templates with Copy Project](dev-copy-project.md).
+For information on how to programmatically access Copy Project, see [Develop project templates with Copy Project](dev-copy-project.md).
