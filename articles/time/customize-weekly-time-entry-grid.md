@@ -82,21 +82,21 @@ There are three main steps to adding a custom field to the weekly time entry gri
 
 You must also make sure that the new field has the required validations in the row or cell edit task flow. As part of this step, you must lock the field based on the time entry status.
 
-#### Add the custom field to the quick create dialog box
+### Add the custom field to the quick create dialog box
 You must add the custom field to the **Create Time Entry Quick Create** dialog box. Users can then enter a value when they add time entries by selecting **New**.
 
-#### Configure the grid to show the custom field
+### Configure the grid to show the custom field
 There are two ways add a custom field to the weekly time entry grid:
 
   - Customize a view and add a custom field
   - Create a new default custom time entry 
 
 
-**Customize a view and add a custom field**
+#### **Customize a view and add a custom field**
 
 You can customize the **My Weekly Time Entries** view and add the custom field to it. You can choose the position and size of the custom field in the grid by editing those properties in the view.
 
-**Create a new default custom time entry** 
+#### **Create a new default custom time entry** 
 
 This view should contain the **Description** and **External Comments** fields, in addition to the columns that you want to have in the grid. 
 
@@ -134,3 +134,6 @@ Use business rules to lock and unlock fields, enter default values in fields, an
 
 #### Plug-in validations
 You should use plug-in validations for any validations that require more context than is available in a single time entry record, or for any validations that you want to run on inline updates in the grid. To complete the validation, create a custom plug-in on the **Time Entry** entity.
+
+### Copying Time Entries
+We use the view **Copy Time Entry Columns** to define the list of fields to be copied during an entry copy. The **Date** and **Duration** are required fields and should not be removed from the view.
