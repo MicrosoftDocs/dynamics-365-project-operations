@@ -29,13 +29,13 @@ There are three input parameters:
 
 | Parameter          | Type   | Values                                                   | 
 |--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **clearTeamsAndAssignments** or **removeNamedResources** |
+| ProjectCopyOption  | String | **{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}** |
 | SourceProject      | Entity Reference | Source Project |
 | Target             | Entity Reference | Target Project |
 
 
-- **clearTeamsAndAssignments**: Thee default behavior for Project for the Web, and will remove all assignments and team members.
-- **removeNamedResource** The default behavior for Project Operations, and will revert assignments to generic resources.
+- **{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.
+- **{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.
 
 For more defaults on actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
