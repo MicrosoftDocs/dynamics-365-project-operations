@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: stsporen
 ---
 
-# Develop project teamplates with Copy Project
+# Develop project templates with Copy Project
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -34,8 +34,8 @@ There are three input parameters:
 | Target             | Entity Reference | Target Project |
 
 
-- **clearTeamsAndAssignments**: Thee default behaviour for Project for the Web, and will remove all assignments and team members.
-- **removeNamedResource** The default behaviour for Project Operations, and will revert assignments to generic resources.
+- **clearTeamsAndAssignments**: Thee default behavior for Project for the Web, and will remove all assignments and team members.
+- **removeNamedResource** The default behavior for Project Operations, and will revert assignments to generic resources.
 
 For more defaults on actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
