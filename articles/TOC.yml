@@ -370,6 +370,10 @@
       items: 
       - name: Product-based contract lines overview
         href: pro/sales/product-based-contract-lines-overview-sales.md
+    - name: Project-badsed contract lines
+      items: 
+      - name: Configure chargeable components of a project-based contract line
+        href: pro/sales/configure-chargeable-components-contract-line.md
     - name: Copying project contracts
       href: pro/sales/copy-project-contracts-sales.md
   - name: Pricing and costing
