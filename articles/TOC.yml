@@ -154,6 +154,10 @@
       items:
       - name: Collaboration with Office Groups
         href: project-management/collaboration-groups.md    
+    - name: Developer notes
+      items:
+      - name: Develop project templates with Copy Project
+        href: project-management/dev-copy-project.md
   - name: Resource management
     items: 
     - name: Key concepts
