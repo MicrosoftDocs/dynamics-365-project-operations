@@ -3,7 +3,7 @@
 
 title: Project management and accounting overview
 description: The project management and accounting functionality can be used in multiple industries to provide a service, produce a product, or achieve a result.  
-author: KimANelson
+author: Yowelle
 manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
@@ -17,14 +17,14 @@ ms.search.form: ProjTable; ProjProjectManagementWorkspace
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: knelson
+ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 
@@ -232,7 +232,7 @@ The project type determines which invoicing procedure should be applied. Only th
 Before you create a customer invoice for a project, you can create a preliminary invoice, or invoice proposal. In an invoice proposal, you can select project transactions to include in a project invoice. You can then review the invoice details before you post the project invoice and send it to the customer or other funding source. 
 
 
-For more information about how to process project invoices, see [Project invoicing](../accounts-payable/project-invoicing.md).
+For more information about how to process project invoices, see [Project invoicing](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### Calculate the cost to complete a project
