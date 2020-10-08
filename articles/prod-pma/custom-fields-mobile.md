@@ -3,7 +3,7 @@
 
 title: Implement custom fields for the Microsoft Dynamics 365 Project Timesheet mobile app on iOS and Android
 description: This topic provides common patterns for using extensions to implement custom fields.
-author: KimANelson
+author: Yowelle
 manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
@@ -17,14 +17,14 @@ ms.technology:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: knelson
+ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
 
