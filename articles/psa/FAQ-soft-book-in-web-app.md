@@ -10,7 +10,7 @@ ms.date: 8/21/2018
 ms.topic: article
 ms.prod: Applies to Project Service version 2.x
 ms.technology: 
-ms.author: john.burrows
+ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin

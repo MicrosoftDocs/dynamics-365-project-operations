@@ -10,7 +10,7 @@ ms.date: 8/21/2018
 ms.topic: article
 ms.prod: 
 ms.technology: Dynamics 365 Project Service Automation 2.x on platform version 9.x
-ms.author: john.burrows
+ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin

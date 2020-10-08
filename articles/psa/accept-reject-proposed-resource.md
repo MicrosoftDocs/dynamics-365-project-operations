@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: 
 ms.technology: 
 author: JohnPBurrows
-ms.author: jburrows
+ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin

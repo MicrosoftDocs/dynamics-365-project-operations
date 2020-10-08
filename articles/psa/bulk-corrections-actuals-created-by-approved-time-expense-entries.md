@@ -15,7 +15,7 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: v-radsh
+ms.author: rumant
 ms.dyn365.ops.version: 7.0
 ms.search.validFrom: 2019-01-15
 search.app: 

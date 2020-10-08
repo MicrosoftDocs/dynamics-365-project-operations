@@ -10,7 +10,7 @@ ms.topic: article
 ms.prod: 
 ms.technology: Dynamics 365 Project Service Automation 3.x
 author: JohnPBurrows
-ms.author: john.burrows
+ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
