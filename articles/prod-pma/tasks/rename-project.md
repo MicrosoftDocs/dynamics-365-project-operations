@@ -3,7 +3,7 @@
  
 title: Rename or modify a project stage
 description: This task shows how to rename or modify a project stage. 
-author: KimANelson
+author: Yowelle
 manager: AnnBe 
 ms.date: 11/07/2017
 ms.topic: business-process 
@@ -22,7 +22,7 @@ ms.search.scope: Operations
 # ms.custom:  
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: knelson
+ms.author: andchoi
 ms.search.validFrom: 2016-06-30 
 ms.dyn365.ops.version: AX 7.0.0 
 ---

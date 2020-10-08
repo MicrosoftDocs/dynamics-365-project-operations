@@ -3,7 +3,7 @@
  
 title: Receive items on purchase order from item requirement
 description: This topic explains how to receive items on a purchase order from an item requirement. 
-author: KimANelson
+author: Yowelle
 manager: AnnBe 
 ms.date: 08/06/2019
 ms.topic: business-process 
@@ -22,7 +22,7 @@ ms.search.scope: Core, Operations
 # ms.custom:  
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: knelson
+ms.author: andchoi
 ms.search.validFrom: 2016-06-30 
 ms.dyn365.ops.version: Version 7.0.0 
 ---

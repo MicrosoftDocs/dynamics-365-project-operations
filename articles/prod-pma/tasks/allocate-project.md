@@ -3,7 +3,7 @@
 
 title: Allocate a project budget or budget revision across periods
 description: This procedure shows how to allocate project budget amounts across periods.
-author: KimANelson
+author: Yowelle
 manager: AnnBe 
 ms.date: 11/03/2017
 ms.topic: business-process 
@@ -22,7 +22,7 @@ ms.search.scope: Operations
 # ms.custom:  
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: knelson
+ms.author: andchoi
 ms.search.validFrom: 2016-06-30 
 ms.dyn365.ops.version: AX 7.0.0 
 ---

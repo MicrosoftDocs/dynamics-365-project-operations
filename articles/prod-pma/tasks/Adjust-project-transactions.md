@@ -3,7 +3,7 @@
  
 title: Adjust project transactions
 description: This task guide shows you how to adjust a transaction on a project.  
-author: KimANelson
+author: Yowelle
 manager: AnnBe 
 ms.date: 11/01/2017
 ms.topic: business-process 
@@ -22,7 +22,7 @@ ms.search.scope: Operations
 # ms.custom:  
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: knelson
+ms.author: andchoi
 ms.search.validFrom: 2016-06-30 
 ms.dyn365.ops.version: AX 7.0.0 
 ---

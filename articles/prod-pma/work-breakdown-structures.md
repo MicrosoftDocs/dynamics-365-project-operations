@@ -3,7 +3,7 @@
 
 title: Work breakdown structures overview
 description: A work breakdown structure (WBS) is a description of the work that will be done for a project. It’s a hierarchy of tasks that represents the project team’s understanding of the composition of work, and of the size, cost, and duration of each component or task.
-author: KimANelson
+author: Yowelle
 manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
@@ -24,7 +24,7 @@ ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: knelson
+ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 
