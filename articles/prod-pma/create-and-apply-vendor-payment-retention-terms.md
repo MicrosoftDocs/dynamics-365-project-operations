@@ -3,7 +3,7 @@
 
 title: Create and apply vendor payment retention terms
 description: This topic provides information about how to set up and maintain retention terms for vendor payments.
-author: ruhercul
+author: Yowelle
 manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: ruhercul
+ms.author: andchoi
 ms.dyn365.ops.version: 7.0
 ms.search.validFrom: 2019-01-15
 
