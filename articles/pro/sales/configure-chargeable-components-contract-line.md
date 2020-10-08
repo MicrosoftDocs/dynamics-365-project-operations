@@ -1,6 +1,6 @@
 ---
 title: Configure chargeable components of a project-based contract line
-description: This topic provides information about how to add chargeable components to contract lines in Project P[erations.
+description: This topic provides information about how to add chargeable components to contract lines in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
@@ -22,7 +22,7 @@ Included components are components that are subject to:
   - Not-to-exceed limits 
   - Invoice frequency settings defined on the project-based contract line
 
-A sub-set of the included components can be marked as chargeable using the **Billing Type** field. The **Billing Type** field is an option-set that allows the following values in the context of a contract line:
+A subset of the included components can be marked as chargeable using the **Billing Type** field. The **Billing Type** field is an option-set that allows the following values in the context of a contract line:
 
   - Chargeable
   - Non-chargeable
@@ -37,17 +37,15 @@ Chargeability defined on transaction categories for a project contract line only
 
 ### Update a project task as chargeable or non-chargeable
 
-A project task can be chargeable or non-chargeable on a specific contract line.
+A project task can be chargeable or non-chargeable on a specific contract line which makes the following setup possible:
 
-This makes the following setup possible:
+If a project-based contract line includes **Time** and a certain task, **T1** is associated to it as chargeable. If there is a second contract line that includes **Expense**, you can associate the T1 task on the contract line as non-chargeable. The result is that all of the time recorded on the task is chargeable and all expenses are non-chargeable.
 
-If a project-based contract line includes **Time** and a certain task, **T1** is associated to it as chargeable. If there is a second contract line that includes **Expense**, you can associate the T1 task on the contract line as non-chargeable. The result is that in all of the time recorded on the task is chargeable and all expenses are non-chargeable.
-
-A task's billing type can be configured on the **Chargeable Tasks** tab of the contract line by updatng the **Billing Type** field on the contract line tasks sub-grid. Alternatively, you can update the **Billing Type** field on the sub-grid of the task Billing setup of a project that shows the contract lines associated to a task.
+A task's billing type can be configured on the **Chargeable Tasks** tab of the contract line by updating the **Billing Type** field on the contract line tasks sub-grid. Alternatively, you can update the **Billing Type** field on the sub-grid of the task Billing setup of a project that shows the contract lines associated to a task.
 
 ### Update a role as chargeable or non-chargeable
 
-A role can be chargeable or non-chargeable on a specifc contract line.
+A role can be chargeable or non-chargeable on a specific contract line.
 
 A role's billing type can be configured on the **Chargeable Roles** tab of a contract line. To do this, update the **Billing Type** field on the **Chargeable Roles** sub-grid.
 
