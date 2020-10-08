@@ -3,7 +3,7 @@
 
 title: Confirm, update, and send a project quotation
 description: This topic provides information about sending a quote to the customer for confirmation, modifying based on feedback, and then resending the quotation.
-author: kfend
+author: ruhercul
 manager: AnnBe
 ms.date: 05/09/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: v-radsh
+ms.author: ruhercul
 ms.dyn365.ops.version: 7.0
 ms.search.validFrom: 2019-01-15
 
