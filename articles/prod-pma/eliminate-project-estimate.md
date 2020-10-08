@@ -3,7 +3,7 @@
 
 title: Eliminate a project estimate
 description: This topic provides information about eliminating a project estimate after it is complete. 
-author: kfend
+author: Yowelle
 manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
@@ -24,7 +24,7 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: v-radsh
+ms.author: andchoi
 ms.dyn365.ops.version: 7.0
 ms.search.validFrom: 2019-01-15
 ---
