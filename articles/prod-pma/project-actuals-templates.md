@@ -3,7 +3,7 @@
 
 title: Synchronize project actuals directly from Project Service Automation to the project integration journal for posting in Finance and Operations
 description: This topic describes the templates and underlying tasks that are used to synchronize project actuals directly from Microsoft Dynamics 365 Project Service Automation to Finance and Operations.
-author: KimANelson
+author: Yowelle
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
@@ -17,14 +17,14 @@ ms.technology:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: knelson
+ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
 
@@ -100,9 +100,9 @@ To update the inserted conditional column in the template, click the **Map** arr
 
 The following illustrations show an example of the template task mapping in Data integration. The mapping shows the field information that will be synchronized from Project Service Automation to Finance.
 
-[![Template mapping](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Template mapping - Actuals](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Template mapping](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Template mapping - Transaction connections](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## Import from staging table after integration from Project Service Automation
 
@@ -142,6 +142,6 @@ In the project actuals update template, you must use Power Query to complete the
 
 The following illustrations show examples of the template task mappings in Data integration. The mapping shows the field information that will be synchronized from Finance to Project Service Automation.
 
-[![Template mapping](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Template mapping - Actuals update](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Template mapping](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Template mapping - Transaction update](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
