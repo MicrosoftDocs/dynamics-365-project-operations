@@ -357,7 +357,7 @@
         - name: Project-based quote lines (sales)
           href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
         - name: Import estimates for a project to a project-based quote line
-          href: pro/sales/import-estimate-quote-line-sales.md
+          href: pro/sales/import-estimate-project-quote-sales.md
         - name: Invoice schedules on project-based quote lines
           href: sales/invoice-schedule-quote-line.md 
     - name: Copy project-based quotes
