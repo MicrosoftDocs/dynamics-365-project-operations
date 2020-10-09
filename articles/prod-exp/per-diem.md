@@ -2,7 +2,7 @@
 # required metadata
 
 title: Per diem rules
-description: This topic provides information about the per diem rules that are used in Expense management.
+description: This topic provides information about the per diem rules.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
