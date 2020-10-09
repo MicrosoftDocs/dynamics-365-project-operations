@@ -48,6 +48,8 @@
         href: sales/opportunity-header.md
       - name: Project-based lines
         href: sales/project-based-lines.md
+      - name: Copy project-based opportunities
+        href: sales/copy-project-based-opportunity.md
       - name: Create project quotes from opportunities
         href: sales/link-quotes-opportunities.md
       - name: Close an opportunity
@@ -290,6 +292,8 @@
     items:
     - name: Configure project categories
       href: project-accounting/configure-project-categories.md
+    - name: Configure accounting for internal projects
+      href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
 - name: Lite deployment - deal to proforma invoicing
@@ -355,7 +359,7 @@
         - name: Project-based quote lines (sales)
           href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
         - name: Import estimates for a project to a project-based quote line
-          href: sales/import-estimate-quote-line.md
+          href: pro/sales/import-estimate-project-quote-sales.md
         - name: Invoice schedules on project-based quote lines
           href: sales/invoice-schedule-quote-line.md 
     - name: Copy project-based quotes
@@ -370,8 +374,14 @@
       items: 
       - name: Product-based contract lines overview
         href: pro/sales/product-based-contract-lines-overview-sales.md
+    - name: Project-badsed contract lines
+      items: 
+      - name: Configure chargeable components of a project-based contract line
+        href: pro/sales/configure-chargeable-components-contract-line.md
     - name: Copying project contracts
       href: pro/sales/copy-project-contracts-sales.md
+    - name: Confirming a project contract
+      href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
     items: 
     - name: Project price lists
