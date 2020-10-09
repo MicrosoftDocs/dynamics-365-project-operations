@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Travel requisitions
+title: Travel requisitions overview
 description: This topic provides information about travel requisitions. A travel requisition documents the expenses that will be incurred for the purpose of travel. 
 author: saraschi2
 manager: AnnBe
@@ -27,7 +27,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ---
 
-# Travel requisitions
+# Travel requisitions overview
 
 [!include [banner](../includes/banner.md)]
 
