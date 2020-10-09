@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Distributions on an expense report
+title: Expense report distributions
 description: When you enter expenses on an expense report, you can distribute the expense across multiple projects, legal entities, or accounts in your organization.
 author: ShylaThompson
 manager: AnnBe
@@ -28,7 +28,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ---
 
-# Distributions on an expense report
+# Expense report distributions
 
 [!include [banner](../includes/banner.md)]
 
