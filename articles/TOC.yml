@@ -290,6 +290,8 @@
     items:
     - name: Configure project categories
       href: project-accounting/configure-project-categories.md
+    - name: Configure accounting for internal projects
+      href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
 - name: Lite deployment - deal to proforma invoicing
