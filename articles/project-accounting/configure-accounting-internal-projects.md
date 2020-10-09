@@ -1,5 +1,5 @@
 ---
-title: Configure internal project accounting
+title: Configure accounting for internal projects
 description: This topic provides information about how to set up accounting practices for internal projects in Project Operations.
 author: sigitac
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Configure internal project accounting
+# Configure accounting for internal projects
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
