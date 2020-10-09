@@ -14,8 +14,6 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-# Importing estimation for project to Project – based quote line
-
 If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.
 
 1. Make sure that the project-based quote line has the project information in the **Project** field.
