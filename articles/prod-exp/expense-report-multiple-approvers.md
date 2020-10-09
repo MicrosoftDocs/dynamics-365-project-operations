@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Expense reports and multiple approvers
-description: This topic provides information about expense reports that require approval by more than one person. 
+title: Multiple approvers on an expense report
+description: This topic provides information about expense reports that require approval by multiple people. 
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
@@ -27,7 +27,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ---
 
-# Expense reports and multiple approvers
+# Multiple approvers on an expense report
 
 [!include [banner](../includes/banner.md)]
 
