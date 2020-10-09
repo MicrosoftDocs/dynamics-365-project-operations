@@ -32,7 +32,7 @@ When you import estimates, the system will default pricing based on the project 
 
 When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.
 
-When multiple summarization options are selected, the summarization attempts to summarize by all selected options. This means that the output of imported quote lines will be more than if you selected only one summarization option.
+When multiple summarization options are selected, the system attempts to summarize by all selected options. The result is that the output of imported quote lines will be more than if you selected only one summarization option.
 
 For example, if the project has the following estimate lines for expenses.
 
