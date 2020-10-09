@@ -88,7 +88,7 @@ If version 1611 with platform update 3 or later has been deployed for your organ
 <ol>
 <li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#download-the-hotfix-from-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package#install-the-metadata-hotfix-package">Install the metadata hotfix</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</li>
+<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</li>
 <li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</li>
 </ol></td>
 </tr>
@@ -137,7 +137,7 @@ Download and install the Dynamics 365 Unified Ops mobile app:
 ## Quickly enter expenses by using the Expense management mobile workspace
 1. On your mobile device, open the **Expense management** workspace.
 2. Select **Quick expense entry**.
-3. Select the category for the expense. You see a list of expense categories that are loaded into your app for offline use. By default, 50 items are loaded, but a developer can change this number. For more information, developers should see [Mobile platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md). If your category isn't in the list, select **Search** to do an online search. Search by expense category, or switch to search by expense type.
+3. Select the category for the expense. You see a list of expense categories that are loaded into your app for offline use. By default, 50 items are loaded, but a developer can change this number. For more information, developers should see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page). If your category isn't in the list, select **Search** to do an online search. Search by expense category, or switch to search by expense type.
 4. Enter the transaction date of the expense.
 5. Optional: Enter the merchant for the expense.
 6. Enter the amount of the expense.
