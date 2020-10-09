@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: VAT recovery in Expense management
-description: This topic explains how to receive refunds on eligible value-added tax (VAT) transactions.
+title: VAT recovery
+description: This topic explains how to recover refunds on value-added tax (VAT) transactions.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
@@ -27,7 +27,7 @@ ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ---
 
-# VAT recovery in Expense management
+# VAT recovery 
 
 [!include [banner](../includes/banner.md)]
 
