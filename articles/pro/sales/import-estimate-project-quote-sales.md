@@ -33,7 +33,7 @@ When you import estimates, the system will default the pricing based on the proj
 
 When a quote line has line details, the **Quote Value** and the **Estimated Tax** fields on the quote line are summarized and can't be edited.
 
-When multiple summarization options are selected, the summarization attempts to summarize by all select options. This means that the output of imported quote lines will be more than if you selected only one summarization option.
+When multiple summarization options are selected, the system attempts to summarize by all selected options. The result is that the output of imported quote lines will be more than if you selected only one summarization option.
 
 For example, if the project had the following estimate lines for expenses.
 
@@ -43,20 +43,20 @@ For example, if the project had the following estimate lines for expenses.
 | Task B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Task C | Hotel | 11/1/2020 | 2 | 200 | 400 |
 
-When the user selects to summarize by Transaction class, the following will be imported.
+When the user selects to summarize by Transaction class, the following information will be imported.
 
 | Task | Category | Date | Quantity | Unit price | Amount |
 | --- | --- | --- | --- | --- | --- |
 |||10/1/2020 | 3.34 | 840 | 2800 |
 
-When the user selects to summarize by Transaction class and Category, the following will be imported.
+When the user selects to summarize by Transaction class and Category, the following information will be imported.
 
 | Task | Category | Date | Quantity | Unit price | Amount |
 | --- | --- | --- | --- | --- | --- |
 | Task A | Airfare | 10/1/2020 | 4 | 400 | 1600 |
 | | Hotel | 10/1/2020 | 6 | 200 | 1200 |
 
-When the user selects to summarize by Transaction class, Category and Leaf Node Task, the following will be imported. Notice that this result is the same as what was on the project.
+When the user selects to summarize by Transaction class, Category and Leaf Node Task, the following information will be imported. Notice that this result is the same as what was on the project.
 
 | Task | Category | Date | Quantity | Unit price | Amount |
 | --- | --- | --- | --- | --- | --- |
