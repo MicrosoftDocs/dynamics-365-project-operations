@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Set up workflows for Expense management
-description: You can set up a workflow process that is used to review and approve travel and expense documents.
+title: Set up Expense management workflows
+description: You can set up a workflow process to review and approve travel and expense documents.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
@@ -28,7 +28,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 ---
 
-# Set up workflows for Expense management
+# Set up Expense management workflows
 
 [!include [banner](../includes/banner.md)]
 
