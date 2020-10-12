@@ -104,6 +104,8 @@
         items: 
         - name: Setup sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Set up labor cost rates
+          href: pricing-costing/set-up-labor-cost-rate
     - name: Pricing dimensions
       items: 
       - name: Pricing dimensions overview
@@ -395,7 +397,7 @@
         - name: Set up sales price list
           href: pricing-costing/sales-price-list-setup.md
         - name: Setting up labor cost rates
-          href: pro/sales/set-up-labor-cost-rates-sales.md
+          href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
     - name: Pricing dimensions
       items:
       - name: Use an existing field as a pricing dimension
