@@ -1,0 +1,55 @@
+---
+title: Configure chargeable components of a project-based contract line
+description: This topic provides information about included, chargeable, and non-chargeable components on contract lines.
+author: rumant
+manager: Annbe
+ms.date: 10/12/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend 
+ms.author: stsporen
+---
+
+# Configure chargeable components of a project-based contract line
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+A project-based contract line has the concept of included, chargeable, and non-chargeable components.
+
+Included components are subject to the billing method, customer splits, not-to-exceed limits, and invoice frequency settings defined on the project-based contract line.
+
+A sub-set of the included components can be marked as chargeable by updating the **Billing Type** field.
+
+Chargeable components can be defined on roles, and transaction categories.
+
+For a project contract line, the chargeability defined on a role only applies to the **Time** transaction class. If **Include Time** is set to **No** on a project contract line, the **Chargeable roles** tab isn't available.
+
+Chargeability defined on transaction categories for a project contract line only applies to the **Expense** transaction class. If **Include Expenses** is set to **No** on a project contract line, the **Chargeable Categories** tab isn't available.
+
+### Update a role to be chargeable or non-chargeable
+
+A role can be chargeable or non-chargeable on specific project-based contract line.
+
+Update the billing type for a role on the **Chargeable roles** tab of a project-based contract line in the **Billing Type** field on the **Chargeable Categories** sub-grid.
+
+### Update a transaction category to be chargeable or non-chargeable
+
+A transaction category can be chargeable or non-chargeable on a specific project-based contract line.
+
+Update the billing type for a transaction on the **Chargeable Categories** tab of a project-based contract line in the **Billing Type** field on the **Chargeable Categories** sub-grid.
+
+### Resolve chargeability
+
+An estimate or actual created for time will only be considered chargeable if time is included on the contract line, and if the role is configured as chargeable on the contract line.
+
+An estimate or actual created for expense will only be considered chargeable if expense is included on the contract line, and if the transaction category is configured as chargeable on the contract line.
+
+| Includes time | Includes expense | Role | Category | |
+| --- | --- | --- | --- | --- |
+| Yes | Yes | Chargeable | Chargeable | Billing on a time actual: Chargeable </br>Billing type on an expense actual:Chargeable |
+| Yes | Yes | Non - Chargeable | Chargeable | Billing on a time actual: Non-Chargeable </br>Billing type on an expense actual:Chargeable |
+| Yes | Yes | Non-Chargeable | Non-Chargeable | Billing on a time actual: Non-Chargeable </br>Billing type on an expense actual: Non-Chargeable |
+| No | Yes | Can't be set | Chargeable | Billing on a time actual: Not available </br>Billing type on an expense actual:Chargeable |
+| No | Yes | Can't be set | Non-Chargeable | Billing on a time actual: Not available </br>Billing type on an expense actual: Non-chargeable |
+| Yes | No | Chargeable | Can't be set | Billing on a time actual: Chargeable </br>Billing type on an expense actual: Not available |
+| Yes | No | Non-Chargeable | Can't be set | Billing on a time actual: Non-chargeable </br> Billing type on an expense actual: Not available |
