@@ -105,7 +105,7 @@
         - name: Setup sales price list
           href: pricing-costing/sales-price-list-setup.md
         - name: Set up labor cost rates
-          href: pricing-costing/set-up-labor-cost-rate
+          href: pricing-costing/set-up-labor-cost-rate.md
     - name: Pricing dimensions
       items: 
       - name: Pricing dimensions overview
