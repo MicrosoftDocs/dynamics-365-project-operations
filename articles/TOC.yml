@@ -90,6 +90,10 @@
     items:
     - name: Key concepts - Project contracts
       href: sales/contracts-key-concepts.md
+    - name: Project-based contract lines
+      items: 
+      - name: Configure chargeable components of a project-based contract line
+        href: sales/configure-chargeable-contract-line.md
   - name: Pricing and costing
     items: 
     - name: Product price lists
@@ -374,9 +378,9 @@
       items: 
       - name: Product-based contract lines overview
         href: pro/sales/product-based-contract-lines-overview-sales.md
-    - name: Project-badsed contract lines
+    - name: Project-based contract lines
       items: 
-      - name: Configure chargeable components of a project-based contract line
+      - name: Configuring chargeable components of a project-based contract line
         href: pro/sales/configure-chargeable-components-contract-line.md
     - name: Copying project contracts
       href: pro/sales/copy-project-contracts-sales.md
