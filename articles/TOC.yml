@@ -398,6 +398,8 @@
         items: 
         - name: Set up sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Resolving cost prices on estimates and actuals
+          href: pro/pricing-costing/cost-price-resolution-sales.md
         - name: Setting up labor cost rates
           href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
     - name: Pricing dimensions
