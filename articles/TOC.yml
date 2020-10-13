@@ -100,6 +100,8 @@
         items: 
         - name: Setup sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Set up cost and sales rates for expenses
+          href: pricing-costing/set-up-cost-sales-rates-expenses.md
     - name: Pricing dimensions
       items: 
       - name: Pricing dimensions overview
@@ -390,6 +392,8 @@
         items: 
         - name: Set up sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Set up cost and sales rates for expenses
+          href: pricing-costing/set-up-cost-sales-rates-expenses.md
     - name: Pricing dimensions
       items:
       - name: Use an existing field as a pricing dimension
