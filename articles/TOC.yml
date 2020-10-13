@@ -104,6 +104,8 @@
         items: 
         - name: Setup sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Resolving cost prices for estimates and actuals
+          href: pricing-costing/cost-price-resolution.md
     - name: Pricing dimensions
       items: 
       - name: Pricing dimensions overview
