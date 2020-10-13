@@ -290,6 +290,8 @@
     items:
     - name: Create a manual proforma invoice
       href: proforma-invoicing/create-manual-proforma-invoice.md
+    - name: Confirm a proforma invoice
+      href: proforma-invoicing/confirm-proforma-invoice.md
     - name: Corrected invoices
       href: proforma-invoicing/corrective-invoices.md
     - name: Configure automated invoice creation
