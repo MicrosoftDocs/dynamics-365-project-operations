@@ -3,7 +3,7 @@ title: Confirm a proforma invoice
 description: This topic provides information about confirming a proforma invoice. 
 author: rumant
 manager: AnnBe
-ms.date: 10/12/2020
+ms.date: 10/13/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
@@ -14,7 +14,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. Going forward, the invoice can only be corrected, in case of any customer-initiated corrections or credits, or marked as paid.
+After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. Going forward, the invoice can only be corrected if there are any customer-initiated corrections or credits, or when it's marked as paid.
 
 The following table lists the actuals created by the system. These actuals are created when certain operations are performed on the draft project invoice before it is confirmed.
 
