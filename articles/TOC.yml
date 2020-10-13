@@ -532,13 +532,13 @@
       items:
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
-    - name: Proforma invoicing
-      items:
-      - name: Create a manual proforma invoice
-        href: proforma-invoicing/create-manual-proforma-invoice.md
-      - name: Confirming a proforma invoice
-        href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
-      - name: Corrected invoices
-        href: proforma-invoicing/corrective-invoices.md
-      - name: Configure automated invoice creation
-        href: proforma-invoicing/configure-automated-invoice-creation.md    
+  - name: Proforma invoicing
+    items:
+    - name: Create a manual proforma invoice
+      href: proforma-invoicing/create-manual-proforma-invoice.md
+    - name: Confirming a proforma invoice
+      href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+    - name: Corrected invoices
+      href: proforma-invoicing/corrective-invoices.md
+    - name: Configure automated invoice creation
+      href: proforma-invoicing/configure-automated-invoice-creation.md    
