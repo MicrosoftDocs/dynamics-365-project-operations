@@ -1,11 +1,11 @@
 ---
 title: Set up cost and sales rates for expenses
-description: 
+description: This topic provides information about how to set up the cost and sales rates for transaction and expense categories. 
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-projectoperations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
 ms.author: rumant
 ---
