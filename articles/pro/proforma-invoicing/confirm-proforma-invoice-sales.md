@@ -3,7 +3,7 @@ title: Confirming a proforma invoice
 description: This topic provides information about confirming proforma invoices in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/12/2020
+ms.date: 10/13/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
@@ -15,7 +15,7 @@ ms.author: rumant
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 
-After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. Going forward, the invoice can only be corrected, in case of any customer-initiated corrections or credits, or marked as paid.
+After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. Going forward, the invoice can only be corrected if there are any customer-initiated corrections or credits, of if the invoice is marked as paid.
 
 The following table lists the actuals created by the system. These actuals are created when certain operations are performed on the draft project invoice before it is confirmed.
 
@@ -102,7 +102,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A negavtive unbilled sales actual of the remaining retainer or advance amount to be used for
+                    A negative unbilled sales actual of the remaining retainer or advance amount to be used for
                     reconciliation on future invoices.
                 </p>
             </td>
@@ -147,7 +147,7 @@ The following table lists the actuals created by the system. These actuals are c
             <td width="408" valign="top">
                 <p>
                     A new unbilled sales actual that is chargeable for the
-                    hours and amount on the edited invoice line detail, a reversal of the sales actual, and an equicvalent billed sales actual.
+                    hours and amount on the edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.
                 </p>
             </td>
         </tr>
@@ -156,7 +156,7 @@ The following table lists the actuals created by the system. These actuals are c
                 <p>
                     A new unbilled sales actual that is non-chargeable for the
                     remaining hours and amount after deducting the corrected
-                    figures on edited invoice line detail, a reveral of the sales actual, and an equivalent billed sales actual.
+                    figures on edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.
                 </p>
             </td>
         </tr>
@@ -192,7 +192,7 @@ The following table lists the actuals created by the system. These actuals are c
             <td width="408" valign="top">
                 <p>
                     An unbilled sales reversal for the quantity and amount on
-                    the original expense approval..
+                    the original expense approval.
                 </p>
             </td>
         </tr>
@@ -207,7 +207,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="216" rowspan="3" valign="top">
                 <p>
-                    Invoicing an Eexpense transaction that was edited to reduce
+                    Invoicing an expense transaction that was edited to reduce
                     the quantity.
                 </p>
             </td>
