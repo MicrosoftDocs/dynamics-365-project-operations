@@ -3,40 +3,50 @@ title: Set up cost and sales rates for expenses
 description: 
 author: rumant
 manager: Annbe
-ms.date: 10/09/2020
+ms.date: 10/13/2020
 ms.topic: article
 ms.service: dynamics-365-projectoperations
 ms.reviewer: kfend 
-ms.author: rumat
+ms.author: rumant
 ---
 
 # Set up cost and sales rates for expenses
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
-## Setting up cost and sales prices for Expenses in Project Operations
 
-Cost and Sales prices can be setup for Transaction Categories in Project Operations. These are designed to be used for Expenses and therefore it is required for accurate downstream functionality that each Transaction category that has cost / sales price setup is also referenced as an Expense Category. Cost and Sales prices for Transaction categories in only be in one currency. This is the currency on the Price list header.
+You can set up cost and sales prices for transaction categories in Dynamics 365 Project Operations. However, because the cost and sales prices are designed for Expenses, each transaction category that includes cost and sales prices, must also be set up as an expense category to accuracy in downstream functionality. Cost and sales prices for transaction categories can only be listed in one currency, which must be the currency on the price list header.
 
-To setup Cost and Sales rates for Transaction Categories, create a price list based on the above section on Price List Header and then navigate to the tab called &quot;Category Prices&quot;. A sub-grid that shows all the Category rates will be shown. From the Sub-grid menu, click on &quot;+ New Category price&quot;. On the quick create slider, enter the Transaction Category and unit for which you need to express the price (cost or sales price).
+To set up cost and sales rates for transaction categories, complete the following steps. 
 
-Below are the fields on the General tab of a Category Price line and the Quick create form of a Category Price line that you need keep in mind as you are creating Category Prices on a &quot;Sales&quot; or a &quot;Cost&quot; price list:
+1. Create a price list based on the price list header. 
+2. On the **Category Prices**, on the sub-grid menu, select **+ New Category Price**. 
+3. On the **Quick Create** page, enter the transaction category and unit that you are creating the new price for.
 
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+The following table lists the fields on the **General** tab of a category price line and the **Quick Create** page of a category price line that you should keep in mind as you create category prices on a sales or cost price list.
+
+| Field | Location | Relevance, purpose, and guidance | Downstream impact |
 | --- | --- | --- | --- |
-| Transaction Category | General tab and Quick create forms | Select the Transaction Category for which you are expressing the cost or sales rate | Transaction category on the incoming estimate or actual for Expense will be matched against this line to default cost / sales rate of the Transaction Category. |
-| Unit Schedule | General tab and Quick create forms | This is defaulted from the Unit Schedule of the Transaction Category | No downstream impact |
-| Unit | General tab and Quick create forms | Select the unit for which the rates are being setup. | Unit on the incoming estimate or actual will be matched against the Unit on this line to default rate on the Expense estimate or Actual |
-| Pricing method | General tab and Quick create forms | This is an option set with the possible values of Price per unit, At cost and Markup over cost | During price setup, selecting Price per unit will lock Percent field on the Category price line.Selecting &quot;At cost&quot; will lock both Price field and Percent fields. This is only relevant for &quot;Sales&quot; Price list.Selecting &quot;Markup over cost&quot; will lock Price field. This is only relevant for &quot;Sales&quot; Price list. On an incoming actual line for expense, the &quot;At cost&quot; or &quot;Markup over cost&quot; pricing method will result the corresponding unbilled sales line getting price that is either equal to the price on cost actual or calculated as a markup over it. |
-| Price | General tab and Quick create forms | Setup per unit rate for the Transaction Category and unit combination.For Eg: The rate for Mileage is 10 USD per mile and 8 USD per Kilometer. | This will be the rate that defaults on the per unit price or cost of the incoming estimate or actual line for Expense transaction class |
-| Percent | General tab and Quick create forms | Setup percent over cost for the Transaction Category and unit combination.For Eg: Airfare sales rate should marked-up by 10% over cost of the Airfare expense incurred. | This is only applicable on &quot;Sales&quot; price list and when the pricing method selected is &quot;Markup over cost&quot; |
-| Currency | General tab and Quick create forms | By default, this value comes from the currency on the header of the price list. For Transaction category pricing, this cannot be overridden | This will be the currency that defaults on the per unit price of the incoming actual line for Expense transaction class for both cost and sales. |
+| Transaction Category | **General** tab and **Quick Create** pages | Select the transaction category you are creating a sales or cost price for. | The transaction category on the incoming estimate or actual for Expense will be matched against this line to default the cost or sales rate of the transaction category. |
+| Unit Schedule | **General** tab and **Quick Create** pages | The unit schedule defaults from the unit schedule of the transaction category. | There is noo downstream impact from this field. |
+| Unit | **General** tab and **Quick Create** pages | Select the unit for which the rates are being set up. | The unit on the incoming estimate or actual is matched against the unit on this line to default the rate on the expense estimate or actual. |
+| Pricing Method | **General** tab and **Quick Create** pages | Possible values of the **Pricing Method** field are, **Price Per Unit**, **At Cost**, and **Markup Over Cost**. | During price setup, selecting **Price Per Unit** locks the **Percent** field on the category price line. If **At cost** is selected, the **Price** field and the **Percent** field is locked on a sales price list. Selecting **Markup Over Cost** locks the **Price** field on the sales price list. On an incoming actual line for expense, the **At cost** or **Markup Over Cost**pricing method results in the corresponding unbilled sales line being assigned a price that is equal to the price on the cost actual or calculated as a markup over the price. |
+| Price | **General** tab and **Quick Create** pages | Set up a per unit rate for the transaction category and unit combination. For example, the rate for mileage is 10 USD per mile and 8 USD per Kilometer. | The mileage rate will be the rate that defaults on the per unit price or cost of the incoming estimate or actual line for an expense transaction class.|
+| Percent | **General** tab and **Quick Create** pages | Set up percent over cost for the transaction category and unit combination. For example, the airfare sales rate should be marked up ten percent over the cost of the incurred airfare expense. | This percent over cost is only applicable on a sales price list when the pricing method selected is **Markup Over Cost**. |
+| Currency | **General** tab and **Quick Create** pages | By default, this value comes from the currency on the header of the price list. For transaction category pricing, the currency can't be overridden. | This currency defaults on the per unit price of the incoming actual line for the expense transaction class for cost and sales. |
 
-### Pricing methods for Expenses:
+## Pricing methods for expenses
 
-Category price setup that is relevant only in the Expense pricing context allows for the setup of different pricing methods. The following are the methods supported for pricing Expenses in the sales context:
+When you set up category prices that are only relevant in the context of expense pricing, you can use one of the following three pricing methods:
 
-Price per unit: When this pricing method is selected on the Category price line that is linked to a &quot;Sales&quot; price list, price is defaulted for the Category and unit combination defaulting in both the estimate and actual context. Estimate context here is generally meant to denote Project Estimate lines for Expenses and Quote line detail and Contract line detail for Expenses.
+- **Price per unit**
+- **At cost**
+- **Markup over cost**
 
-At cost: When this pricing method is selected on the Category price line that is linked to a &quot;Sales&quot; price list, price is defaulted for the Category and unit combination only for Expense actual in the sales context i.e. Unbilled sales actuals for Expense transaction class. This is done by setting the unit price on the Unbilled sales actual from the unit price on the Cost actual for that Expense. Price defaulting based on Cost is not done in estimate context i.e. on Project Estimates for Expenses or Quote line detail and contract line details for Expenses.
+### Price per unit
+When this pricing method is selected on a category price line that is linked to a sales price list, the price defaults for the category and unit combination in both the estimate and the actual. Estimate refers to the project estimate lines for expenses, the quote line detail, and the contract line detail for expenses.
 
-Markup over cost: When this pricing method is selected on the Category price line that is linked to a &quot;Sales&quot; price list, price is defaulted for the Category and unit combination only for Expense actual in the sales context i.e. Unbilled sales actuals for Expense transaction class. This is done by setting the unit price on the Unbilled sales actual to a calculated value from the unit price on the Cost actual for that Expense after applying the defined markup percent. Price defaulting based on Cost is not done in estimate context i.e on Project Estimates for Expenses or Quote line detail and contract line details for Expenses.
+### At cost
+When this pricing method is selected on the category price line that is linked to a sales price list, the price defaults for the category and unit combination only for the expense actual. For example, unbilled sales actuals for the expense transaction class. The unit price is set on the unbilled sales actual from the unit price on the cost actual for that expense. Price defaulting based on cost isn't done on project estimates for expenses or the quote line and contract line details for expenses.
+
+### Markup over cost
+When this pricing method is selected on the category price line that is linked to a sales price list, the price defaults for the category and unit combination only for an expense actual. For example, unbilled sales actuals for the expense transaction class. This unit price is set on the unbilled sales actual to a calculated value from the unit price on the cost actual for that expense after the defined markup percent is applied. Price defaulting based on cost isn't done in on project estimates for expenses or quote line and contract line details for expenses.
