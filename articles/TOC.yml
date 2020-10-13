@@ -106,6 +106,8 @@
           href: pricing-costing/sales-price-list-setup.md
         - name: Set up cost and sales rates for expenses
           href: pricing-costing/set-up-cost-sales-rates-expenses.md
+        - name: Default price lists
+          href: pricing-costing/default-project-sales-price-lists.md
         - name: Resolving cost prices for estimates and actuals
           href: pricing-costing/cost-price-resolution.md
         - name: Set up labor cost rates
@@ -404,6 +406,8 @@
           href: pricing-costing/sales-price-list-setup.md
         - name: Set up cost and sales rates for expenses
           href: pricing-costing/set-up-cost-sales-rates-expenses.md
+        - name: Default price lists
+          href: pricing-costing/default-project-sales-price-lists.md
         - name: Resolving cost prices on estimates and actuals
           href: pro/pricing-costing/cost-price-resolution-sales.md
         - name: Setting up labor cost rates
