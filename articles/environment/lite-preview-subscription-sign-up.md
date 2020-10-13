@@ -55,7 +55,8 @@ Repeat the same steps as with the first offer code. Make sure to add the second 
 ## Assign licenses
 
 > [!IMPORTANT]
-> You'll need administrative access to your organization's Office 365 Portal to complete the following steps.
+> You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.
+
 
 1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
