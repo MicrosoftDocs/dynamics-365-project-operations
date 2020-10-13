@@ -390,6 +390,8 @@
         items: 
         - name: Set up sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Resolving cost prices on estimates and actuals
+          href: pro/pricing-costing/cost-price-resolution-sales.md
     - name: Pricing dimensions
       items:
       - name: Use an existing field as a pricing dimension
