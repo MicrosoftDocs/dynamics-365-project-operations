@@ -48,6 +48,8 @@
         href: sales/opportunity-header.md
       - name: Project-based lines
         href: sales/project-based-lines.md
+      - name: Copy project-based opportunities
+        href: sales/copy-project-based-opportunity.md
       - name: Create project quotes from opportunities
         href: sales/link-quotes-opportunities.md
       - name: Close an opportunity
@@ -84,10 +86,16 @@
         href: sales/lose-quote.md
       - name: Close a quote
         href: sales/win-quote.md
-  - name: Manage contracts
-    items:
-    - name: Key concepts - Project contracts
-      href: sales/contracts-key-concepts.md
+    - name: Manage contracts
+      items:
+      - name: Key concepts - Project contracts
+        href: sales/contracts-key-concepts.md
+      - name: Project-based contract lines
+        items: 
+        - name: Configure chargeable components of a project-based contract line
+          href: sales/configure-chargeable-contract-line.md
+        - name: Confirm a project contract
+          href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
     items: 
     - name: Product price lists
@@ -98,6 +106,14 @@
         items: 
         - name: Setup sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Set up cost and sales rates for expenses
+          href: pricing-costing/set-up-cost-sales-rates-expenses.md
+        - name: Default price lists
+          href: pricing-costing/default-project-sales-price-lists.md
+        - name: Resolving cost prices for estimates and actuals
+          href: pricing-costing/cost-price-resolution.md
+        - name: Set up labor cost rates
+          href: pricing-costing/set-up-labor-cost-rate.md
     - name: Pricing dimensions
       items: 
       - name: Pricing dimensions overview
@@ -282,14 +298,18 @@
     items:
     - name: Create a manual proforma invoice
       href: proforma-invoicing/create-manual-proforma-invoice.md
+    - name: Confirm a proforma invoice
+      href: proforma-invoicing/confirm-proforma-invoice.md
     - name: Corrected invoices
       href: proforma-invoicing/corrective-invoices.md
-    - name: Configure automated invoice creation
+    - name: Configure automatic invoice creation
       href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
     items:
     - name: Configure project categories
       href: project-accounting/configure-project-categories.md
+    - name: Configure accounting for internal projects
+      href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
 - name: Lite deployment - deal to proforma invoicing
@@ -355,9 +375,11 @@
         - name: Project-based quote lines (sales)
           href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
         - name: Import estimates for a project to a project-based quote line
-          href: sales/import-estimate-quote-line.md
+          href: pro/sales/import-estimate-project-quote-sales.md
         - name: Invoice schedules on project-based quote lines
           href: sales/invoice-schedule-quote-line.md 
+        - name: Configure the charegeable components of a quote line
+          href: pro/sales/configure-chargeable-components-quote-line-sales.md
     - name: Copy project-based quotes
       href: sales/lose-quote.md
     - name: Close a quote
@@ -370,12 +392,14 @@
       items: 
       - name: Product-based contract lines overview
         href: pro/sales/product-based-contract-lines-overview-sales.md
-    - name: Project-badsed contract lines
+    - name: Project-based contract lines
       items: 
-      - name: Configure chargeable components of a project-based contract line
+      - name: Configuring chargeable components of a project-based contract line
         href: pro/sales/configure-chargeable-components-contract-line.md
     - name: Copying project contracts
       href: pro/sales/copy-project-contracts-sales.md
+    - name: Confirm a project contract
+      href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
     items: 
     - name: Project price lists
@@ -384,6 +408,14 @@
         items: 
         - name: Set up sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Set up cost and sales rates for expenses
+          href: pricing-costing/set-up-cost-sales-rates-expenses.md
+        - name: Default price lists
+          href: pricing-costing/default-project-sales-price-lists.md
+        - name: Resolving cost prices on estimates and actuals
+          href: pro/pricing-costing/cost-price-resolution-sales.md
+        - name: Setting up labor cost rates
+          href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
     - name: Pricing dimensions
       items:
       - name: Use an existing field as a pricing dimension
@@ -516,11 +548,13 @@
       items:
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
-    - name: Proforma invoicing
-      items:
-      - name: Create a manual proforma invoice
-        href: proforma-invoicing/create-manual-proforma-invoice.md
-      - name: Corrected invoices
-        href: proforma-invoicing/corrective-invoices.md
-      - name: Configure automated invoice creation
-        href: proforma-invoicing/configure-automated-invoice-creation.md    
+  - name: Proforma invoicing
+    items:
+    - name: Create a manual proforma invoice
+      href: proforma-invoicing/create-manual-proforma-invoice.md
+    - name: Confirming a proforma invoice
+      href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+    - name: Corrected invoices
+      href: proforma-invoicing/corrective-invoices.md
+    - name: Configure automated invoice creation
+      href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md    
