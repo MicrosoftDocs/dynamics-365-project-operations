@@ -342,6 +342,8 @@
         href: pro/sales/opportunity-header-sales.md
       - name: Project-based lines
         href: pro/sales/project-based-lines-sales.md
+      - name: Copy project-based opportunities
+        href: sales/copy-project-based-opportunity.md
       - name: Create project quotes from opportunities
         href: sales/link-quotes-opportunities.md
       - name: Product-based opportunity lines
