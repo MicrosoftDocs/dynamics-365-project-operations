@@ -1,6 +1,6 @@
 ---
 title: Sales processes overview
-description: This topic provides information about the basic sales processes.  
+description: This topic provides information about basic sales processes.  
 author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -9,7 +9,6 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: 
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
