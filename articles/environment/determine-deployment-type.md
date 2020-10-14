@@ -1,5 +1,5 @@
 ---
-title: Deployment types
+title: Determine your deployment type
 description: This topic provides information to help you determine the correct deployment type of Project operations for your company.
 author: stsporen
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: stsporen
 ---
 
-# Deployment types
+# Determine your deployment type
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -26,6 +26,8 @@ Project Operations includes the capabilities that shipped with Project Service A
 
 Existing customers of Finance who use the Project management and accounting functionality can continue use this as is. See [Project Operations for stocked/production order scenarios](#pma).
 
+
+## Deployment types
 Project Operations supports multiple deployment options to match your requirements. Whether you're a new or existing Dynamics 365 customer, Project Operations can support your needs.
 
 Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will help you determine the right deployment. The results will guide you toward one of the following deployment types:
