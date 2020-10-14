@@ -4,10 +4,9 @@ description: This topic provides information about updating plug-in attributes f
 author: Rumant
 manager: kfend
 ms.custom: 
-  - dyn365-projectservice
 ms.date: 11/19/2018
 ms.topic: article
-#
+ms.service: dynamics-365-customerservice
 ms.author: rumant
 audience: Admin
 search.audienceType: 
