@@ -7,7 +7,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-ms.prod: Project Service
+#
 ms.service: business-applications
 ms.author: makk
 audience: admin

@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 08/21/2020
 ms.topic: article
-ms.prod: 
+#
 #
 ms.author: ruhercul
 audience: Admin

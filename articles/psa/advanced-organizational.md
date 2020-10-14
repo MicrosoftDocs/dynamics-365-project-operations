@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 03/04/2019
 ms.topic: article
-ms.prod: 
+#
 #
 ms.author: rumant
 audience: Admin

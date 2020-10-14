@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
-ms.prod: Dynamics 365 Project Service Automation
+#
 #
 ms.author: ruhercul
 audience: Admin

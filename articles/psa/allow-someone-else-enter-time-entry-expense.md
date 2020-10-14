@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 7/31/2018
 ms.topic: article
-ms.prod: 
+#
 #
 ms.author: revathim
 audience: Admin

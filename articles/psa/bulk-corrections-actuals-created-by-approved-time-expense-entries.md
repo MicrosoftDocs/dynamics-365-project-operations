@@ -5,7 +5,7 @@ author: rumant
 manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
-ms.prod: 
+#
 ms.service: dynamics-ax-applications
 #
 audience: Application User

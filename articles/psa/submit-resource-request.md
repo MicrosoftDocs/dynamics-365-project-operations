@@ -7,7 +7,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 12/1/2018
 ms.topic: article
-ms.prod: 
+#
 #
 author: JohnPBurrows
 ms.author: ruhercul

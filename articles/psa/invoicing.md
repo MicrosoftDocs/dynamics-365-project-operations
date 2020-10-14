@@ -7,7 +7,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 08/03/2020
 ms.topic: article
-ms.prod: 
+#
 ms.service: business-applications
 #
 audience: Admin

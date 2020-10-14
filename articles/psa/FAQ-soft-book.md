@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 9/25/2019
 ms.topic: article
-ms.prod: Applies to Project Service version 3.x
+#
 #
 ms.author: ruhercul
 audience: Admin

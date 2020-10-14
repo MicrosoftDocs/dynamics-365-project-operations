@@ -7,7 +7,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 05/15/2020
 ms.topic: article
-ms.prod: 
+#
 #
 author: stsporen
 ms.author: stsporen

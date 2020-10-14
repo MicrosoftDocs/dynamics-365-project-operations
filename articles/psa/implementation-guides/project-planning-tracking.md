@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 2/04/2019
 ms.topic: article
-ms.prod: 
+#
 #
 ms.author: kfend
 audience: Admin
