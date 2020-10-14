@@ -32,7 +32,7 @@ For an accurate work breakdown structure that is already loaded with resources, 
 
 - [Project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
 - [Project Team](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Project Task](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Project Task](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
 - [Resource Assignments](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
 - [Project Task Dependency](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
 - [Bookable Resources](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
