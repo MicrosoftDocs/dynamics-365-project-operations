@@ -41,4 +41,4 @@ After consultants enter their time and expenses for a project, you need to appro
 6.  To view charts of time and expenses by project, click **Dashboard**.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

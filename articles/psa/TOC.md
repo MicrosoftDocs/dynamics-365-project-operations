@@ -30,11 +30,11 @@
 # [Project Service upgrade (app version 3.x)](upgrade-psa-home-page.md)
 
 ## [Upgrade considerations - Project Service Automation version 2.x or 1.x to version 3](upgrade-v3.md)
-## [Development (app version 3.x)](../project-service/developer-guides/overview-dev-notes-v3.x.md)
-### [Entity changes](../project-service/developer-guides/entity-changes-v3.x.md)  
-### [Time and expense](../project-service/developer-guides/time-expense-changes-v3.x.md)  
-### [Resource management](../project-service/developer-guides/resource-management-changes-v3.x.md)  
-### [Deprecated Web resources in Project Service Automation v3.x](../project-service/developer-guides/web-resources-deprecated-v3.x.md)
+## [Development (app version 3.x)](../psa/developer-guides/overview-dev-notes-v3.x.md)
+### [Entity changes](../psa/developer-guides/entity-changes-v3.x.md)  
+### [Time and expense](../psa/developer-guides/time-expense-changes-v3.x.md)  
+### [Resource management](../psa/developer-guides/resource-management-changes-v3.x.md)  
+### [Deprecated Web resources in Project Service Automation v3.x](../psa/developer-guides/web-resources-deprecated-v3.x.md)
 
 # Project Service (app version 3.x)
 ## [Project planning](project-planning.md)
@@ -183,4 +183,4 @@
 ### [Find projects with Project Finder mobile](find-next-project-finder-mobile-app.md)
 ### [Project Resource Hub guide](project-resource-hub-users-guide.md)
 ## Notes for developers (app version 2.x)
-### [How to add new custom forms for Opportunity, Quote, Order or Invoice entity](../project-service/developer-guides/add-custom-qoi-forms-v2.x.md)
+### [How to add new custom forms for Opportunity, Quote, Order or Invoice entity](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)

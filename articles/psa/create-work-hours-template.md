@@ -58,4 +58,4 @@ Before you can create project schedules, you need to set up a project calendar t
 4.  Select a resource to base the work hours on, and then click **Save**.  
   
 ### See Also  
- [Set up resources](../project-service/set-up-resources.md)
+ [Set up resources](../psa/set-up-resources.md)

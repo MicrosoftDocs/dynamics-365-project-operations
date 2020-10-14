@@ -27,18 +27,18 @@ search.app:
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the sales and contracts process for project-based accounts. In addition to creating accounts, this guide takes you through the sales process, including:  
   
--   [Create a customer account](../project-service/create-customer-account.md)  
+-   [Create a customer account](../psa/create-customer-account.md)  
   
--   [Create a project opportunity](../project-service/create-project-opportunity.md)  
+-   [Create a project opportunity](../psa/create-project-opportunity.md)  
   
--   [Create a project quote](../project-service/create-project-quote.md)  
+-   [Create a project quote](../psa/create-project-quote.md)  
   
--   [Create a project contract](../project-service/create-project-contract.md)  
+-   [Create a project contract](../psa/create-project-contract.md)  
   
   
 ### See Also  
- [Overview of Project Service](../project-service/overview.md)   
- [Administrator Guide](../project-service/admin-guide.md)   
- [Project Manager Guide](../project-service/project-manager-guide.md)   
- [Resource Manager Guide](../project-service/resource-manager-guide.md)   
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Overview of Project Service](../psa/overview.md)   
+ [Administrator Guide](../psa/admin-guide.md)   
+ [Project Manager Guide](../psa/project-manager-guide.md)   
+ [Resource Manager Guide](../psa/resource-manager-guide.md)   
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

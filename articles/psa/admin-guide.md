@@ -42,8 +42,8 @@ This guide takes you through the process of installing and configuing :
 - [White papers](white-papers.md)
   
 ### See Also  
- [Overview of Project Service Automation](../project-service/overview.md)    
- [Account Manager Guide](../project-service/account-manager-guide.md)
- [Project Manager Guide](../project-service/project-manager-guide.md)   
- [Resource Manager Guide](../project-service/resource-manager-guide.md)   
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Overview of Project Service Automation](../psa/overview.md)    
+ [Account Manager Guide](../psa/account-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)   
+ [Resource Manager Guide](../psa/resource-manager-guide.md)   
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

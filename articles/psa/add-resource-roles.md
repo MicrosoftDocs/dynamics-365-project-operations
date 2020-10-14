@@ -40,4 +40,4 @@ Set target utilization rates for each role. These settings determine resource av
 6.  Click **Save** or **Save & Close**.  
   
 ### See Also  
- [Set up resources](../project-service/set-up-resources.md)
+ [Set up resources](../psa/set-up-resources.md)

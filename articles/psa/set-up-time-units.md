@@ -40,4 +40,4 @@ Configure the time units in the product catalog that you’ll use as a base for 
    - **Week** with **Base unit** = **Day** and **Quantity** = 5  
   
 ### See Also  
- [Configure Project Service](../project-service/configure.md)
+ [Configure Project Service](../psa/configure.md)

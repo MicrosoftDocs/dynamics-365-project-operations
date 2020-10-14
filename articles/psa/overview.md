@@ -50,34 +50,34 @@ To see what we have planned in the near future, head over to the [Dynamics 365: 
 ## Get help with PSA version 3.x
 Looking for resources to help plan your implementation? Check out these downloadable guides.
 
- [Project planning and tracking guide](../project-service/implementation-guides/project-planning-tracking.md)
+ [Project planning and tracking guide](../psa/implementation-guides/project-planning-tracking.md)
 
- [Basic quoting, pricing, and billing guide](../project-service/implementation-guides/begin-quoting-pricing-billing.md)
+ [Basic quoting, pricing, and billing guide](../psa/implementation-guides/begin-quoting-pricing-billing.md)
 
- [Advanced quoting, pricing, and billing guide](../project-service/implementation-guides/adv-quoting-pricing-billing.md)
+ [Advanced quoting, pricing, and billing guide](../psa/implementation-guides/adv-quoting-pricing-billing.md)
 
- [Resource management guide](../project-service/implementation-guides/resource-management-guide.md)
+ [Resource management guide](../psa/implementation-guides/resource-management-guide.md)
 
- [Reporting guide](../project-service/implementation-guides/reporting-guide.md)
+ [Reporting guide](../psa/implementation-guides/reporting-guide.md)
 
- [Notes for developers](../project-service/developer-guides/overview-dev-notes-v3.x.md)
+ [Notes for developers](../psa/developer-guides/overview-dev-notes-v3.x.md)
 
 ## Guidance for earlier versions (app version 2.x or 1.x)
- [Administrator guide](../project-service/admin-guide.md)
+ [Administrator guide](../psa/admin-guide.md)
 
- [Resource manager guide](../project-service/resource-manager-guide.md)
+ [Resource manager guide](../psa/resource-manager-guide.md)
 
- [Project manager guide](../project-service/project-manager-guide.md)
+ [Project manager guide](../psa/project-manager-guide.md)
 
- [Account manager guide](../project-service/account-manager-guide.md)
+ [Account manager guide](../psa/account-manager-guide.md)
 
- [Time, expense, and collaboration](../project-service/time-expense-collaboration-guide.md)
+ [Time, expense, and collaboration](../psa/time-expense-collaboration-guide.md)
 
- [White papers (app version 2.x or 1.x)](../project-service/white-papers.md)
+ [White papers (app version 2.x or 1.x)](../psa/white-papers.md)
 
- [Notes for developers (app version 2.x)](../project-service/developer-guides/add-custom-qoi-forms-v2.x.md)
+ [Notes for developers (app version 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## Watch a 2-minute overview video
- <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../project-service/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 

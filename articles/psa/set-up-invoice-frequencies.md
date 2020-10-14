@@ -44,4 +44,4 @@ search.app:
 8.  When you’re done, click **Save** at the bottom right corner of the screen.  
   
 ### See Also  
- [Configure Project Service](../project-service/configure.md)
+ [Configure Project Service](../psa/configure.md)

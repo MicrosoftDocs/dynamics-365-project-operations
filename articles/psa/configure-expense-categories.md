@@ -48,4 +48,4 @@ Each expense category can have its own unit group and unit. You can define prici
 4.  Click **Save** at the bottom right corner of the screen.  
   
 ### See Also  
- [Configure Project Service Automation](../project-service/configure.md)
+ [Configure Project Service Automation](../psa/configure.md)

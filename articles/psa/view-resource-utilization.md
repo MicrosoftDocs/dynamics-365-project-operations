@@ -36,4 +36,4 @@ You can check resource utilization to determine utilization levels for your reso
 3. Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.  
   
 ### See Also  
- [Resource Manager Guide](../project-service/resource-manager-guide.md)
+ [Resource Manager Guide](../psa/resource-manager-guide.md)

@@ -42,4 +42,4 @@ Dashboards and reports give you an understanding of where your business stands. 
 5. Select a date range and click **View Report**.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

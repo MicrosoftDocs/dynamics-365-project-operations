@@ -46,4 +46,4 @@ Now that you’ve added the skills for your clients’ projects, you need a way 
 5.  Click the **Save** button in the bottom right corner of the screen.  
   
 ### See Also  
- [Set up resources](../project-service/set-up-resources.md)
+ [Set up resources](../psa/set-up-resources.md)

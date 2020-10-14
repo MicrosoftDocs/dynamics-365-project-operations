@@ -38,4 +38,4 @@ With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.
 5.  To add or delete expenses, click **Show Grid View**. To create a new expense, click **New Expense**. To delete an expense, select it from the list, and then click **Delete Expense**. When you’re done adding or deleting expenses, click **Save**.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

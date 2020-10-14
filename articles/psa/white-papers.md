@@ -38,4 +38,4 @@ These white papers are designed to provide in-depth information for [!INCLUDE[pn
 -   [Resource management for project service](https://go.microsoft.com/fwlink/?LinkId=825244)
 
 ### See Also
- [Overview of Project Service](../project-service/overview.md)
+ [Overview of Project Service](../psa/overview.md)

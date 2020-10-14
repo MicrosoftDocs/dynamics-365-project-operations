@@ -47,23 +47,23 @@ The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 
   
 - Fulfill resource requests (book, propose, find substitute resources).  
   
-- Assign resources according to a central (resource manager assigns) or hybrid model (resource manager and other managers can assign). For more information about setting a central versus hybrid resource management model, see [Configure additional parameters settings (Project Service)](../project-service/configure-additional-parameters-settings.md).  
+- Assign resources according to a central (resource manager assigns) or hybrid model (resource manager and other managers can assign). For more information about setting a central versus hybrid resource management model, see [Configure additional parameters settings (Project Service)](../psa/configure-additional-parameters-settings.md).  
   
   You can manage resources efficiently across projects and ensure that projects are staffed appropriately. You’ll need to perform the following tasks:  
   
-- [Manage resource requests](../project-service/manage-resource-requests.md). Match the skills and proficiencies of your consultants to the right projects.  
+- [Manage resource requests](../psa/manage-resource-requests.md). Match the skills and proficiencies of your consultants to the right projects.  
   
-- [View resource availability](../project-service/view-resource-availability.md). Check consultants’ availability in a calendar view.  
+- [View resource availability](../psa/view-resource-availability.md). Check consultants’ availability in a calendar view.  
   
-- [View resource utilization](../project-service/view-resource-utilization.md). See the percentage of time that your consultants are currently booked.  
+- [View resource utilization](../psa/view-resource-utilization.md). See the percentage of time that your consultants are currently booked.  
   
-- [Schedule resources for a project](../project-service/schedule-resources-project.md). Schedule consultants for a project.  
+- [Schedule resources for a project](../psa/schedule-resources-project.md). Schedule consultants for a project.  
   
-  For more information about submitting resource requests for individual projects, see [Submit resource requests](../project-service/submit-resource-requests.md).  
+  For more information about submitting resource requests for individual projects, see [Submit resource requests](../psa/submit-resource-requests.md).  
   
 ### See Also  
- [Overview of Project Service](../project-service/overview.md)   
- [Administrator Guide](../project-service/admin-guide.md)   
- [Account Manager Guiden](../project-service/account-manager-guide.md)   
- [Project Manager Guide](../project-service/project-manager-guide.md)   
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Overview of Project Service](../psa/overview.md)   
+ [Administrator Guide](../psa/admin-guide.md)   
+ [Account Manager Guiden](../psa/account-manager-guide.md)   
+ [Project Manager Guide](../psa/project-manager-guide.md)   
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

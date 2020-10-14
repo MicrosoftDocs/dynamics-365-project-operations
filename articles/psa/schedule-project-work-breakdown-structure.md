@@ -145,4 +145,4 @@ You’ll use the following types of tasks when creating your work breakdown stru
 7.  Click **Save** at the bottom right corner of the screen when you’re done making changes.  
   
 ### See Also  
- [Project manager guide](../project-service/project-manager-guide.md)
+ [Project manager guide](../psa/project-manager-guide.md)

@@ -36,4 +36,4 @@ Provide a space where team members for a project can collaborate on project docu
 4.  Click **Create Office 365 Group**. You’ll receive an email when your group is ready.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

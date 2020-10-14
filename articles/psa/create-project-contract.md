@@ -31,7 +31,7 @@ Now that you’ve won the quote for your project, it’s time to create a contra
   
 2. To add a product to the contract, click **New** under **Product-based Lines** in the **Contract Lines** area. Select an item under **Product Name**, and then specify the quantity, sales price, and contracted amount.  
   
-3. To add a project-based line to the contract, click **+** under **Project-based Lines** in the **Contract Lines** area. Enter the name, budget amount, and project, if available. If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../project-service/create-project.md).  
+3. To add a project-based line to the contract, click **+** under **Project-based Lines** in the **Contract Lines** area. Enter the name, budget amount, and project, if available. If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).  
   
 4. When you’re done editing, click the **Save** button at the bottom right of the screen.  
   
@@ -40,4 +40,4 @@ Now that you’ve won the quote for your project, it’s time to create a contra
 6. If your customer confirms your contract, click **Confirm** at the top of the **Project Contract** screen. If your customer wants you to change some items, create a new contract. If your customer decides not to use your services at this time, click **Close as Lost** at the top of the **Project Contract** screen.  
   
 ### See Also  
- [Account Manager Guide](../project-service/account-manager-guide.md)
+ [Account Manager Guide](../psa/account-manager-guide.md)

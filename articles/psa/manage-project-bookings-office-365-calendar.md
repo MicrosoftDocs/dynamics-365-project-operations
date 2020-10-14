@@ -88,4 +88,4 @@ View personal appointments, project-work bookings, and field service work order 
 6. Click **Save**.  
   
 ### See Also  
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

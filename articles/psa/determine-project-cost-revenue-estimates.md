@@ -73,4 +73,4 @@ The cost and sales price defaulting takes is date effective—when the rates for
 Any expense that will be incurred in the project that is notdirectly related to labor to be expended can be recorded in the project estimates in the grid view. Using the **Add expense estimate** option in the grid view, you can accomplish this. The expense estimates can be recorded for a specific task or for the entire project;you can choose expense categories on these lines and choose a tentative date when the expense is expected to be incurred. If the associated cost and sales price list have default prices, or markup percentages defined for expense categories, it will be defaulted on the estimate line on association.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

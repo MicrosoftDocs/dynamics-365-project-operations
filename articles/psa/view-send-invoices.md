@@ -51,4 +51,4 @@ When you create a project, you set the frequency to generate invoices. You can v
 5.  Click **Finish**.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

@@ -28,4 +28,4 @@ search.app:
 Navigate to project actuals and make sure that cost and unbilled sales for time are logged for the correct sales and cost prices and that the **Contracting** and **Resourcing Units** are recorded correctly on the actuals.  
   
 ### See Also  
- [Project manager guide](../project-service/project-manager-guide.md)
+ [Project manager guide](../psa/project-manager-guide.md)

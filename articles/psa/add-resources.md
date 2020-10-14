@@ -48,4 +48,4 @@ You can assign resources to organizational units if you need to have different c
 9. When you’re done making changes, click **Save** at the bottom right corner of the screen.  
   
 ### See Also  
- [Set up resources](../project-service/set-up-resources.md)
+ [Set up resources](../psa/set-up-resources.md)

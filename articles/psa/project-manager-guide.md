@@ -39,53 +39,53 @@ search.app:
   
 This guide provides information you need to create and manage projects:  
   
--   [Provide work estimates for a project during the sales process](../project-service/provide-estimates-project-during-sales-process.md)  
+-   [Provide work estimates for a project during the sales process](../psa/provide-estimates-project-during-sales-process.md)  
   
--   [Create a project](../project-service/create-project.md)  
+-   [Create a project](../psa/create-project.md)  
   
--   [Use the Project Service Automation add-in to plan your work in Microsoft Project](../project-service/add-plan-work-microsoft-project.md)  
+-   [Use the Project Service Automation add-in to plan your work in Microsoft Project](../psa/add-plan-work-microsoft-project.md)  
   
--   [Schedule a project with a work breakdown structure](../project-service/schedule-project-work-breakdown-structure.md)  
+-   [Schedule a project with a work breakdown structure](../psa/schedule-project-work-breakdown-structure.md)  
   
--   [Determine project cost and revenue estimates](../project-service/determine-project-cost-revenue-estimates.md)  
+-   [Determine project cost and revenue estimates](../psa/determine-project-cost-revenue-estimates.md)  
   
--   [Track project progress and cost](../project-service/track-project-progress-cost.md)  
+-   [Track project progress and cost](../psa/track-project-progress-cost.md)  
   
--   [Create a project template](../project-service/create-project-template.md)  
+-   [Create a project template](../psa/create-project-template.md)  
   
--   [Submit resource requests](../project-service/submit-resource-requests.md)  
+-   [Submit resource requests](../psa/submit-resource-requests.md)  
   
--   [Create an Office 365 Group for a project](../project-service/create-office-365-group-project.md)  
+-   [Create an Office 365 Group for a project](../psa/create-office-365-group-project.md)  
   
--   [Add documents to a project](../project-service/add-documents-project.md)  
+-   [Add documents to a project](../psa/add-documents-project.md)  
   
--   [Track a project’s status](../project-service/track-project-status.md)  
+-   [Track a project’s status](../psa/track-project-status.md)  
   
--   [View project team members and manage bookings](../project-service/view-project-team-members-manage-bookings.md)  
+-   [View project team members and manage bookings](../psa/view-project-team-members-manage-bookings.md)  
   
--   [View and edit project estimates](../project-service/view-edit-project-estimates.md)  
+-   [View and edit project estimates](../psa/view-edit-project-estimates.md)  
   
--   [Approve time and expenses](../project-service/approve-time-expenses.md)  
+-   [Approve time and expenses](../psa/approve-time-expenses.md)  
   
--   [Review project actuals](../project-service/review-project-actuals.md)  
+-   [Review project actuals](../psa/review-project-actuals.md)  
   
--   [View and send invoices](../project-service/view-send-invoices.md)  
+-   [View and send invoices](../psa/view-send-invoices.md)  
   
--   [View dashboards and reports](../project-service/view-dashboards-reports.md)  
+-   [View dashboards and reports](../psa/view-dashboards-reports.md)  
   
 ## Prerequisites  
  If you haven't already, you’ll need to complete the following items before you can start creating projects:  
   
--   [Create a work hours template](../project-service/create-work-hours-template.md). Set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.  
+-   [Create a work hours template](../psa/create-work-hours-template.md). Set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.  
   
--   [Create a price list](../project-service/create-price-list.md). Set cost and sales prices for resource roles in your organization, as well as for other categories like expenses and products.  
+-   [Create a price list](../psa/create-price-list.md). Set cost and sales prices for resource roles in your organization, as well as for other categories like expenses and products.  
   
--   [Add resource roles](../project-service/add-resource-roles.md). Define roles to help determine resource requirements and project costs.  
+-   [Add resource roles](../psa/add-resource-roles.md). Define roles to help determine resource requirements and project costs.  
   
 ### See Also  
- [Overview of Project Service](../project-service/overview.md)   
- [Administrator Guide](../project-service/admin-guide.md)   
- [Account Manager Guiden](../project-service/account-manager-guide.md)   
- [Resource Manager Guide](../project-service/resource-manager-guide.md)   
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Overview of Project Service](../psa/overview.md)   
+ [Administrator Guide](../psa/admin-guide.md)   
+ [Account Manager Guiden](../psa/account-manager-guide.md)   
+ [Resource Manager Guide](../psa/resource-manager-guide.md)   
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
 

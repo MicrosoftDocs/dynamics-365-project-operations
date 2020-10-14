@@ -37,7 +37,7 @@ Creating a quote is similar to creating an opportunity. While an opportunity is 
   
 5. To add a product to the quote, click **New** under **Product-based Lines** in the **Quote Lines** area. Select an item under **Product Name**, and then specify the quantity, sales price, and quoted amount.  
   
-6. To add a project estimate to the quote, click **+** under **Project-based Lines** in the **Quote Lines** area. Enter the name, budget amount, and project, if available. If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../project-service/create-project.md).  
+6. To add a project estimate to the quote, click **+** under **Project-based Lines** in the **Quote Lines** area. Enter the name, budget amount, and project, if available. If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).  
   
 7. When you’re done editing, click the **Save** button at the bottom right of the screen.  
   
@@ -48,4 +48,4 @@ Creating a quote is similar to creating an opportunity. While an opportunity is 
    When you close a quote as won, your project moves on to the **Contract** stage, and the **Project Contract** screen prompts you to create a contract for this project.  
   
 ### See Also  
- [Account Manager Guide](../project-service/account-manager-guide.md)
+ [Account Manager Guide](../psa/account-manager-guide.md)

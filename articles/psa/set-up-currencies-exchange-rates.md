@@ -36,4 +36,4 @@ In order to create quotes and invoice your customers in [!INCLUDE[pn_project_ser
 4.  Select the three-letter ISO Code of the currency to set up and set the exchange rate with the base currency.  
   
 ### See Also  
- [Configure Project Service](../project-service/configure.md)
+ [Configure Project Service](../psa/configure.md)

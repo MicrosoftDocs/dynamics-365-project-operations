@@ -41,29 +41,29 @@ Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service
   
 Click on a link below to learn more about what you can do with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:  
   
--   [Get the apps](../project-service/get-apps.md)  
+-   [Get the apps](../psa/get-apps.md)  
   
--   [Sign in](../project-service/sign-in.md)  
+-   [Sign in](../psa/sign-in.md)  
   
--   [View your schedule](../project-service/view-schedule.md)  
+-   [View your schedule](../psa/view-schedule.md)  
   
--   [Manage projects and bookings in your Office 365 calendar](../project-service/manage-project-bookings-office-365-calendar.md)  
+-   [Manage projects and bookings in your Office 365 calendar](../psa/manage-project-bookings-office-365-calendar.md)  
   
--   [Enter time](../project-service/enter-time.md)  
+-   [Enter time](../psa/enter-time.md)  
   
--   [Enter expenses](../project-service/enter-expenses.md)  
+-   [Enter expenses](../psa/enter-expenses.md)  
   
--   [Allow someone else to enter your time entry or expense](../project-service/allow-someone-else-enter-time-entry-expense.md)  
+-   [Allow someone else to enter your time entry or expense](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [Schedule time off](../project-service/schedule-time-off.md)  
+-   [Schedule time off](../psa/schedule-time-off.md)  
   
--   [Collaborate with your project team members with Office 365 Groups](../project-service/collaborate-project-team-members-office-365-groups.md)  
+-   [Collaborate with your project team members with Office 365 Groups](../psa/collaborate-project-team-members-office-365-groups.md)  
   
--   [Find your next project with the Project Finder Mobile app](../project-service/find-next-project-finder-mobile-app.md)  
+-   [Find your next project with the Project Finder Mobile app](../psa/find-next-project-finder-mobile-app.md)  
   
 ### See Also  
- [Overview of Project Service](../project-service/overview.md)   
- [Administrator Guide](../project-service/admin-guide.md)   
- [Account Manager Guide](../project-service/account-manager-guide.md)   
- [Project Manager Guide](../project-service/project-manager-guide.md)   
- [Resource Manager Guide](../project-service/resource-manager-guide.md)   
+ [Overview of Project Service](../psa/overview.md)   
+ [Administrator Guide](../psa/admin-guide.md)   
+ [Account Manager Guide](../psa/account-manager-guide.md)   
+ [Project Manager Guide](../psa/project-manager-guide.md)   
+ [Resource Manager Guide](../psa/resource-manager-guide.md)   

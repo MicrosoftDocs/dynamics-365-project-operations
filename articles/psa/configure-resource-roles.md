@@ -52,4 +52,4 @@ Roles play an important part in project planning, when determining resource requ
 9. To make this resource role available for projects to use, click **Activate**.  
   
 ### See Also  
- [Set up resources](../project-service/set-up-resources.md)
+ [Set up resources](../psa/set-up-resources.md)

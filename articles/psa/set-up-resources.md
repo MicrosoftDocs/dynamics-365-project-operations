@@ -27,25 +27,25 @@ search.app:
 
 Before requesting or assigning resources in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you need to define the roles and the skill sets that your clients’ projects need. This requires some configuration on your part:  
   
--   [Add resource skills](../project-service/add-resource-skills.md)  
+-   [Add resource skills](../psa/add-resource-skills.md)  
   
--   [Set up proficiency models](../project-service/set-up-proficiency-models.md)  
+-   [Set up proficiency models](../psa/set-up-proficiency-models.md)  
   
--   [Add resource roles](../project-service/add-resource-roles.md)  
+-   [Add resource roles](../psa/add-resource-roles.md)  
   
--   [Configure resource roles](../project-service/configure-resource-roles.md)  
+-   [Configure resource roles](../psa/configure-resource-roles.md)  
   
--   [Associate skills with resource roles](../project-service/associate-skills-with-resource-roles.md)  
+-   [Associate skills with resource roles](../psa/associate-skills-with-resource-roles.md)  
   
--   [Add resources](../project-service/add-resources.md)  
+-   [Add resources](../psa/add-resources.md)  
   
--   [Associate skills with resources](../project-service/associate-skills-with-resources.md)  
+-   [Associate skills with resources](../psa/associate-skills-with-resources.md)  
   
--   [Create a work hours template](../project-service/create-work-hours-template.md)  
+-   [Create a work hours template](../psa/create-work-hours-template.md)  
   
--   [Apply a calendar to a resource](../project-service/apply-calendar-resource.md)  
+-   [Apply a calendar to a resource](../psa/apply-calendar-resource.md)  
   
--   [Configure additional parameters settings](../project-service/configure-additional-parameters-settings.md)  
+-   [Configure additional parameters settings](../psa/configure-additional-parameters-settings.md)  
   
 ### See Also  
- [Configure Project Service](../project-service/configure.md)
+ [Configure Project Service](../psa/configure.md)

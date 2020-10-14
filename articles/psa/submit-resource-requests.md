@@ -48,4 +48,4 @@ Once you’ve won a project contract, you’ll need to staff your project. Your 
 6.  A resource manager needs to review and approve your resource requests.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

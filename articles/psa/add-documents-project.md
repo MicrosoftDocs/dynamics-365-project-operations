@@ -39,4 +39,4 @@ Keep project-related documents organized by adding them to your project.
 5. Click **Save**.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

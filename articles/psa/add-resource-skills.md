@@ -40,4 +40,4 @@ Your clients’ projects no doubt require a variety of different skills to compl
    In the next step, you’ll set up proficiency models so you can rate a consultant’s proficiency with each skill and match it to the proficiency a project requires.  
   
 ### See Also  
- [Set up resources](../project-service/set-up-resources.md)
+ [Set up resources](../psa/set-up-resources.md)

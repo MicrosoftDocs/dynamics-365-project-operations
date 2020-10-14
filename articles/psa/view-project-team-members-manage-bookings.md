@@ -50,4 +50,4 @@ You can view a list of your project’s team members, and from there you can mai
 7.  A resource manager needs to review and approve your resource requests.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

@@ -51,4 +51,4 @@ As the engagement progresses, the project stages update to reflect the stage of 
 5.  Double-click any task to edit it. You can also move or resize the bars in the Gantt chart to change the time and progress for a task.  
 
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

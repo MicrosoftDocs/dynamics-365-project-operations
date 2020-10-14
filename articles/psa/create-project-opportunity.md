@@ -43,9 +43,9 @@ Opportunities are warm leads from customers who are interested in contracting yo
   
 8.  To add a product to the opportunity, click **New** under **Product-based Lines** in the **Opportunity Lines** area. Select an item under **Product Name**, and then specify the quantity, sales price, and customer budget.  
   
-9. To add a project estimate to the opportunity, click **+** under **Project-based Lines** in the **Opportunity Lines** area. Enter the name, budget amount, and project, if available. If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../project-service/create-project.md).  
+9. To add a project estimate to the opportunity, click **+** under **Project-based Lines** in the **Opportunity Lines** area. Enter the name, budget amount, and project, if available. If you need to create a project with a work breakdown structure to come up with an estimate, see [Create a project](../psa/create-project.md).  
   
 10. When you’re done editing, click the **Save** button at the bottom right of the screen.  
   
 ### See Also  
- [Account Manager Guide](../project-service/account-manager-guide.md)
+ [Account Manager Guide](../psa/account-manager-guide.md)

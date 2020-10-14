@@ -61,4 +61,4 @@ To set project parameters:
 > The project parameter record must be maintained for Project Service to function correcly. This record should not be deleted.
 
 ### See Also  
- [Set up resources](../project-service/set-up-resources.md)
+ [Set up resources](../psa/set-up-resources.md)

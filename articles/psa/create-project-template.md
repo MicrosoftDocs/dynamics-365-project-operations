@@ -55,4 +55,4 @@ Project templates save you time if your company regularly bids on similar types 
  **Copying a project team**: When you copy the project team from the template to a project, the generic resources are copied across, along with the skills and proficiencies defined in the template. Generic resource assignments are also maintained as in the project template.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

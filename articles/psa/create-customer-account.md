@@ -40,4 +40,4 @@ Create an account for each client you’re working with, whether you’re quotin
 6.  When you’re done, click **Save** at the bottom right corner of the screen.  
   
 ### See Also  
- [Account Manager Guide](../project-service/account-manager-guide.md)
+ [Account Manager Guide](../psa/account-manager-guide.md)

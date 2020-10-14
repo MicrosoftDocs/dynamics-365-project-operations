@@ -54,4 +54,4 @@ Enter your hours at least weekly—or at the frequency requested by your manager
 11. Fill in the details as necessary and tap **Save**.  
   
 ### See Also  
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

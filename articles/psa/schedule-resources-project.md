@@ -31,7 +31,7 @@ The schedule board shows list of resources and their availability. Select a view
   
 Before you use the schedule board, it’s important to set it up. For more information, see [Configure the schedule board (Field Service or Project Service Automation)](../field-service/configure-schedule-board.md).
   
-If you are using an older version, for resource availability, see [View resource availability](../project-service/view-resource-availability.md).  
+If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).  
 
 > [!IMPORTANT]
 >  To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
@@ -76,4 +76,4 @@ If you are using an older version, for resource availability, see [View resource
 3.  When you're done, select **Book**.  
   
 ### Additional resources  
- [Resource manager guide](../project-service/resource-manager-guide.md)
+ [Resource manager guide](../psa/resource-manager-guide.md)

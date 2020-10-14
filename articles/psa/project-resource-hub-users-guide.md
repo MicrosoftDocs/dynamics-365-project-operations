@@ -96,6 +96,6 @@ Enter your expenses at least weekly—or at the frequency requested by your mana
 [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](../mobile-app/dynamics-365-phones-tablets-users-guide.md).
 
 ### See Also  
- [Overview of Project Service](../project-service/overview.md)   
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)   
+ [Overview of Project Service](../psa/overview.md)   
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)   
  

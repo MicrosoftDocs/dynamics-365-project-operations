@@ -52,4 +52,4 @@ Enter your expenses at least weekly—or at the frequency requested by your mana
 10. Fill in the details as necessary, and then tap **Save**.  
   
 ### See Also  
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

@@ -29,7 +29,7 @@ search.app:
 
 If you want to enter your time and expenses on your mobile device, [Get and install Dynamics 365 for phones and tablets](../mobile-app/dynamics-365-phones-tablets-users-guide.md).  
   
- You can also use the Project Finder Mobile app on your phone to find a new project to work on and apply for it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your next project with the Project Finder Mobile app](../project-service/find-next-project-finder-mobile-app.md) 
+ You can also use the Project Finder Mobile app on your phone to find a new project to work on and apply for it. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Find your next project with the Project Finder Mobile app](../psa/find-next-project-finder-mobile-app.md) 
   
 ### See Also  
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

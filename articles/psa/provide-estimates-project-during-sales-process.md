@@ -47,4 +47,4 @@ During the sales process, you can work out sales estimates from the ground up wi
 -   Select whether to import project estimates summarized by transaction type, role, or work breakdown structure node level.  
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

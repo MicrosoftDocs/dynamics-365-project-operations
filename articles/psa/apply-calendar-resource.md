@@ -38,4 +38,4 @@ Once you’ve created a work hours template, you need to assign it to resources 
 5.  Click **Apply**.  
   
 ### See Also  
- [Set up resources](../project-service/set-up-resources.md)
+ [Set up resources](../psa/set-up-resources.md)

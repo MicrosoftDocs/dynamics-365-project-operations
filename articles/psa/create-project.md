@@ -41,4 +41,4 @@ Next, you’ll create a work breakdown structure for your project to define the 
 > When scheduling, Project Service Automation respects the time zone of the applied **Work Hour** template. However, when viewing the schedule tasks, the start and end dates of a task will be displayed in the user's time zone. This applies to other time-phased views in the **Project** form. If the user's time zone does not match the time zone of the work hour template applied to the project, a warning which explains the difference will occur. 
   
 ### See Also  
- [Project Manager Guide](../project-service/project-manager-guide.md)
+ [Project Manager Guide](../psa/project-manager-guide.md)

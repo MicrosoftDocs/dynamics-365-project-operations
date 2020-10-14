@@ -86,4 +86,4 @@ Set up a delegate to let someone else make time or expense entries on your behal
 7.  When you’re done, click **Save**.  
   
 ### See Also  
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

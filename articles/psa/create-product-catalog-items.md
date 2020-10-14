@@ -30,4 +30,4 @@ If you want to include products, such as software licenses, on your project quot
  For more information about adding products to the product catalog, see [Create a product (Sales)](../sales-enterprise/create-product-sales.md).  
   
 ### See Also  
- [Configure Project Service](../project-service/configure.md)
+ [Configure Project Service](../psa/configure.md)

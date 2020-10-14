@@ -39,4 +39,4 @@ In the previous step, you already associated some skills with  a new resource. F
 5.  Continue adding skills as necessary. When you’re done, click **Save** at the bottom right corner of the screen.  
   
 ### See Also  
- [Set up resources](../project-service/set-up-resources.md)
+ [Set up resources](../psa/set-up-resources.md)

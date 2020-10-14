@@ -64,4 +64,4 @@ Price lists rely on roles and expense categories, so before you create a price l
 16. In the **New Connection** window, fill in the details, and then click **Save**. Continue adding territory relationships as necessary. When you’re done, click **Save** at the bottom right corner of the screen.  
   
 ### See Also  
- [Configure Project Service Automation](../project-service/configure.md)
+ [Configure Project Service Automation](../psa/configure.md)

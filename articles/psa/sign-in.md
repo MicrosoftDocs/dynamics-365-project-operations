@@ -51,4 +51,4 @@ When you sign in to Dynamics 365 apps, you need to have the following informatio
 5.  Click **OK**.  
   
 ### See Also  
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

@@ -36,4 +36,4 @@ With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can collab
 4. To open your team’s workspace in [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], click **Open Calendar**, **Open Conversations**, **Open Notebook**, **Open Documents**, or **Open People**.  
   
 ### See Also  
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

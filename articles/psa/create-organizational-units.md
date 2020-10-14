@@ -45,4 +45,4 @@ Your company probably organizes its consulting business by geography, function, 
 7.  When you’re done, click **Save** at the bottom right corner of the screen.  
   
 ### See Also  
- [Configure Project Service Automation](../project-service/configure.md)
+ [Configure Project Service Automation](../psa/configure.md)

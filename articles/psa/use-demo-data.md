@@ -44,8 +44,8 @@ For more information, see this [blog](https://blogs.msdn.microsoft.com/crm/2017/
 
   
 ### See Also  
- [Administrator Guide](../project-service/admin-guide.md)   
- [Account Manager Guide](../project-service/account-manager-guide.md)   
- [Project Manager Guide](../project-service/project-manager-guide.md)   
- [Resource Manager Guide](../project-service/resource-manager-guide.md)   
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Administrator Guide](../psa/admin-guide.md)   
+ [Account Manager Guide](../psa/account-manager-guide.md)   
+ [Project Manager Guide](../psa/project-manager-guide.md)   
+ [Resource Manager Guide](../psa/resource-manager-guide.md)   
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

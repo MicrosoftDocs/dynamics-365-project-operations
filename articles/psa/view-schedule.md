@@ -38,4 +38,4 @@ When you want to see what you’re working on for the week, take a look at your 
 4.  To see tasks that you’ve already completed, click **Show Completed Tasks**.  
   
 ### See Also  
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)

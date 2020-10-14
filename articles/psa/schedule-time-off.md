@@ -50,4 +50,4 @@ Schedule your vacation time or leave of absence in much the same way as you ente
 10. If you’d rather see a list of what you’re working on, click **Grid**.  
   
 ### See Also  
- [Time, Expense, and Collaboration Guide](../project-service/time-expense-collaboration-guide.md)
+ [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
