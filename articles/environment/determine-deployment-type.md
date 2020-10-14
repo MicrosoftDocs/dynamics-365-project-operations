@@ -38,7 +38,7 @@ Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will h
 
 Project Operations support stocked/production order scenarios and non-stocked/resource-based scenarios on the same environment through legal entity-level configurations. For example, Contoso can leverage stocked/production order capabilities in their US manufacturing facility (Legal entity = Contoso Manufacturing United States). Contoso can leverage non-stocked/resource-based capabilities in their Contoso Robotics Arms servicing facility in UK (Legal entity = Contoso Robotics United Kingdom).
 
-## <a  name="lite"></a>Lite deployment - deal to proforma invoicing
+### <a  name="lite"></a>Lite deployment - deal to proforma invoicing
 
 The lite deployment includes the following capabilities:
 
@@ -49,13 +49,13 @@ The lite deployment includes the following capabilities:
 - Basic Expense
 - Invoice Proposal
 
-### Deployment steps:
+#### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
 
 For this deployment, see [Sign-up for preview subscriptions](lite-preview-subscription-sign-up.md) and [Provision new environment](lite-deployment.md). 
 
 
-## <a name="integrated"></a>Project Operations for resource/non-stocked scenarios
+### <a name="integrated"></a>Project Operations for resource/non-stocked scenarios
 The Project Operations for resource/non-stocked scenarios includes the following capabilities:
   
 - Project planning using Microsoft Project for the Web
@@ -68,13 +68,13 @@ The Project Operations for resource/non-stocked scenarios includes the following
 - Full Invoicing
 - Revenue Recognition
 
-### Deployment steps:
+#### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
 
 For this deployment, see [Sign-up for preview subscriptions](resource-sign-up-preview-subscription.md) and [Provision new environment](resource-provision-new-environment.md). 
 
 
-## <a name="pma"></a>Project Operations for stocked/production order scenarios
+### <a name="pma"></a>Project Operations for stocked/production order scenarios
 
 - Project planning using WBS
 - Resource Management
@@ -86,7 +86,7 @@ For this deployment, see [Sign-up for preview subscriptions](resource-sign-up-pr
 - Production Orders
 - Materials support
 
-### Deployment steps:
+#### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
 
 For this deployment, see [Sign-up for preview subscriptions](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) and [Provision new environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
