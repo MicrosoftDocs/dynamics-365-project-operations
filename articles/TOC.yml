@@ -422,11 +422,11 @@
           href: pro/pricing-costing/cost-price-resolution-sales.md
         - name: Setting up labor cost rates
           href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-   - name: Defaults and overrides
+    - name: Defaults and overrides
       items:
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
-   - name: Pricing dimensions
+    - name: Pricing dimensions
       items:
       - name: Use an existing field as a pricing dimension
         href: pricing-costing/use-existing-field-pricing-dimension.md
