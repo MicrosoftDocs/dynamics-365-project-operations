@@ -1,5 +1,5 @@
 ---
-title: Submit a resource request
+title: Submitting a resource request
 description: This topic provides information about submitting a request for a project resource.
 manager: kfend
 ms.service: dynamics-365-customerservice
@@ -21,7 +21,7 @@ search.app:
   - D365PS
   - ProjectOperations
 ---
-# Submit a resource request
+# Submitting a resource request
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
