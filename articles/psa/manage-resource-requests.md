@@ -3,7 +3,7 @@ title: Manage resource requests
 description: How to manage resource requests in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-project service
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

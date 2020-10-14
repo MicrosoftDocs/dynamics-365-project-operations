@@ -3,7 +3,7 @@ title: Review the invoicing backlog on projects and project contracts
 description: This topic provides information about how to review time, expense, and product backlogs, and how to mark them as ready for invoicing.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-projectservice
+ms.service: dynamics-365-customerservice
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/11/2019

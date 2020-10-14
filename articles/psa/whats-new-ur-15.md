@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 15, V3
 description: This topic provides information about what's new in Project Service Automation Update Release 15, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-projectservice
+ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article

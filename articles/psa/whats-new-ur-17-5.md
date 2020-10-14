@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 17.5, 
 description: This topic lists the features and fixes that are available in Project Service Automation Update Release 17.5, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-projectservice
+ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 03/13/2020
 ms.topic: article
