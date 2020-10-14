@@ -1,6 +1,6 @@
 ---
 title: Propose project resources
-description: This topic provides information about how to propose project resources.
+description: This topic provides information about proposing project resources.
 author: ruhercul
 manager: kfend
 ms.service: dynamics-365-customerservice
