@@ -42,14 +42,14 @@ The Evenly Distribute Hours method books the resource for a specified number of 
 ## Front Load Hours
 The Front Load Hours method books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates. Front-loading consumes the resource's available capacity in a “first-in-first-consumed” order. For example, if a resource’s work schedule is eight hours per day, five days per week, and they have no current bookings, booking the resource for 20 hours over a five working day period results in the following daily booking pattern: 
 
-|                           |    Day 1    |    Day 2    |    Day 3    |    Day 4    |    Day 5    |    Total    |
+|         Bookings          |    Day 1    |    Day 2    |    Day 3    |    Day 4    |    Day 5    |    Total    |
 |---------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 |    Existing   bookings    |    0        |    0        |    0        |    0        |    0        |    0        |
 |    New   booking          |    8        |    8        |    4        |    0        |    0        |    20       |
 
 The front load method takes into consideration existing bookings and available capacity. For example, if the same resource already has 20 hours of bookings in the work week, the new bookings consume the remaining capacity as follows:
 
-|                     | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Total |
+|   Bookings          | Day 1 | Day 2 | Day 3 | Day 4 | Day 5 | Total |
 |---------------------|-------|-------|-------|-------|-------|-------|
 | Existing   bookings | 8     | 8     | 4     | 0     | 0     | 20    |
 | New   booking       | 0     | 0     | 4     | 8     | 8     | 20    |
