@@ -1,5 +1,5 @@
 ---
-title: Configuring the charegeable components of a quote line
+title: Configure the charegeable components of a quote line
 description: This topic provides information about setting up chargeable and non-chargeable compontents on a project-based quote line.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Configuring the chargeable components of a quote line
+# Configure the chargeable components of a quote line
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
