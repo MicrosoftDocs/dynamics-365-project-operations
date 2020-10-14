@@ -1,5 +1,5 @@
 ---
-title: Set up custom fields as pricing dimensions
+title: Seting up custom fields as pricing dimensions
 description: This topic provides information about setting up custom pricing dimensions.
 author: Rumant
 manager: kfend
@@ -20,7 +20,7 @@ search.app:
   - ProjectOperations
 ---
 
-# Set up custom fields as pricing dimensions 
+# Setting up custom fields as pricing dimensions 
 
 Before you begin, this topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md) and [Add custom fields to price setup and transactional entities](field-references.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
 
