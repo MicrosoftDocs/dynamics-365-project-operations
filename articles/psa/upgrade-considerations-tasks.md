@@ -39,11 +39,11 @@ For an accurate work breakdown structure that is already loaded with resources, 
 
 To define a resource loaded work breakdown structure, you must complete the following steps:
 
-1. Create a new project. For more information about how to create a new project, see [msdyn_project](../developer/entities/msdyn_project.md).
-2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](../developer/entities/msdyn_projecttask.md).
-3. Define the task dependencies. For more information, see [Project Task Dependency](../developer/entities/msdyn_projecttaskdependency.md).
-4. Assign project team members to the project. For more information, see [msdyn_projectteam](../developer/entities/msdyn_projectteam.md).
-5. Assign project team members to the tasks. For more information, see [msdyn_resourceassignment](../developer/entities/msdyn_resourceassignment.md).
+1. Create a new project. For more information about how to create a new project, see [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Define the task dependencies. For more information, see [Project Task Dependency](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Assign project team members to the project. For more information, see [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Assign project team members to the tasks. For more information, see [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## Project team relationships
 
