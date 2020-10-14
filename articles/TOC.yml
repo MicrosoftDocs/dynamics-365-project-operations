@@ -94,6 +94,8 @@
         items: 
         - name: Configure chargeable components of a project-based contract line
           href: sales/configure-chargeable-contract-line.md
+        - name: Confirm a project contract
+          href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
     items: 
     - name: Product price lists
@@ -396,7 +398,7 @@
         href: pro/sales/configure-chargeable-components-contract-line.md
     - name: Copying project contracts
       href: pro/sales/copy-project-contracts-sales.md
-    - name: Confirming a project contract
+    - name: Confirm a project contract
       href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
     items: 
