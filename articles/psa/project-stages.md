@@ -1,5 +1,5 @@
 ---
-title: Project stages
+title: Project stage types
 description: This topic provides information about project stages.
 author: ruhercul
 manager: kfend
@@ -22,7 +22,7 @@ search.app:
   - ProjectOperations
 ---
 
-# Project stages 
+# Project stage types 
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
