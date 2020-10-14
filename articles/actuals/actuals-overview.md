@@ -28,7 +28,7 @@ ms.author: rumant
 ms.search.validFrom: 2020-10-01
 ---
 
-# Actuals
+# Actuals home page
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios_
 
