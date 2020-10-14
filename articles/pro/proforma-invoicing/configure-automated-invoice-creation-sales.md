@@ -1,0 +1,88 @@
+---
+title: Configure automated proforma invoice creation
+description: This topic provides information about configuring automatic creation of proforma invoices.
+author: rumant
+manager: Annbe
+ms.date: 10/13/2020
+ms.topic: article
+ms.service: dynamics-365-customerservice
+ms.reviewer: kfend 
+ms.author: rumant
+---
+
+# Configure automated proforma invoice creation
+
+_**Applies To:** Lite deployment - deal to proforma invoicing_
+
+You can configure automatic invoice creation in Dynamics 365 Project Operations. The system creates a draft proforma invoice based on the invoice schedule for each project contract and contract line. Invoice schedules are configured at the contract line level. Each line on a contract can have a distinct invoice schedule, or the same invoice schedule can be included on every line of the contract.
+
+When you create an invoice, the system always creates at least one invoice per project contract. In some cases, there may be multiple invoices created.
+
+For example, if the contract has multiple customers, there will the same number of invoices created as the number of customers that have billable transactions to invoice on that project contract.
+
+## Understand how transactions are included on an invoice 
+
+Sometimes, each project-based contract line specifies a separate invoice schedule. For example, implementation services for the Adatum contract has the following contract lines:
+
+- Prototype work that is a fixed price with two milestones that are manually created.
+- Implementation work that includes Time and will be billed bi-weekly on Mondays.
+- Expenses incurred that include those that need to be billed monthly on the first Monday of each month.
+
+Invoice schedules defined on each of these two line items look like the following table:
+
+| Contract line | Invoice run date | Transaction cut-off date | Milestone date | Milestone amount |
+| --- | --- | --- | --- | --- |
+| Prototype work | October 5th, Monday | - | October 5th, Monday | 5000 USD |
+| - | November 3rd, Tuesday | - | November 3rd, Tuesday | 12000 USD |
+| Implementation work | October 5th, Monday | October 4th, Sunday | - | - |
+| - | October 19th Monday | October 18th, Sunday | - | - |
+| - | November 2nd, Monday | November 1st, Sunday | - | - |
+| - | November 16th, Monday | November 15th, Sunday | - | - |
+| Expenses incurred | October 5th, Monday | October 4th, Sunday | - | - |
+| - | November 2nd, Monday | November 1st, Sunday | - | - |
+
+In this example when the automatic invoicing runs on:
+
+- **October 4th or any date before that**: No invoice is generated for this contract because the **Invoice Schedule** table for each of these contract lines doesn't call out October 4th as a invoice run date.
+- **October 5th Monday**: One invoice is generated for:
+
+    - Prototype work that includes the milestone, if it is marked as **Ready to Invoice**.
+    - Implementation work that includes all time transactions created before the transaction cut-off date of October 4th, Sunday, that are marked as **Ready to Invoice**.
+    - Expense incurred that includes all expense transactions created before the transaction cut-off date of October 4th, Sunday, that are marked as **Ready to Invoice**.
+  
+- **On October 6th or any date before October 19th**: No invoice is generated for this contract since the **Invoice Schedule** table for each of these contract lines does not call out October 6th or any date before October 19th as an invoice run date.
+- **October 19th, Monday**: One invoice is generated for implementation work that includes all time transactions created before the transaction cut-off date of October 18th, Sunday, that are marked as **Ready to Invoice**.
+- **November 2nd Monday**: One invoice is generated for:
+
+    - Implementation work that includes all time transactions created before the transaction cut-off date of November 1st, Sunday, that are marked as **Ready to Invoice**.
+    - Expense incurred that includes all expense transactions created before the transaction cut-off date of November 1st, Sunday, that are marked as **Ready to Invoice**.
+
+- **November 3rd Tuesday**: One invoice is generated for prototype work that includes the milestone for 12000 USD, if it is marked as **Ready to Invoice**.
+
+## Configure automatic invoicing
+
+Complete the following steps to configure an automated invoice run.
+
+1. In **Project Operations**, go to **Settings** > **Recurring Invoice Setup**.
+2. Create a batch job, and name it **rPoject Operations Create Invoices**. The name of the batch job must include the words, "create invoices".
+3. In the **Job Type** field, select **None**. By default, the **Frequency Daily** and **Is Active** fields are set to **Yes**.
+4. Select **Run Workflow**. In the **Look Up Record** dialog box, you will see three workflows:
+
+- ProcessRunCaller
+- ProcessRunner
+- UpdateRoleUtilization
+
+5. Select **ProcessRunCaller**, and then select **Add**.
+6. In the next dialog box, select **OK**. A **Sleep** workflow is followed by a **Process** workflow. 
+
+> [!NOTE]
+> You can also select **ProcessRunner** in step 5. Then, when you select **OK**, a **Process** workflow is followed by a **Sleep** workflow.
+
+The **ProcessRunCaller** and **ProcessRunner** workflows create invoices. **ProcessRunCaller** calls **ProcessRunner**. **ProcessRunner** is the workflow that actually creates the invoices. The workflow goes through all the contract lines that invoices must be created for, and creates invoices for those lines. To determine the contract lines that invoices must be created for, the job looks at invoice run dates for the contract lines. If contract lines that belong to one contract have the same invoice run date, the transactions are combined into one invoice that has two invoice lines. If there are no transactions to create invoices for, the job skips creating an invoice.
+
+After **ProcessRunner** has finished running, it calls **ProcessRunCaller**, provides the end time, and is closed. **ProcessRunCaller** then starts a timer that runs for 24-hours from the specified end time. At the end of the timer, **ProcessRunCaller** is closed.
+
+The batch process job for creating invoices is a recurrent job. If this batch process is run many times, multiple instances of the job are created and causes errors. Therefore, you should start the batch process only one time, and then restart only if it stops running.
+
+> [!NOTE]
+> Batch invoicing in Project Operations only runs for project contract lines that are configured by invoice schedules. A contract line with a fixed price billing method must have milestones configured. A project contract line with a time and material billing method will need a date-based invoice schedule set up.
