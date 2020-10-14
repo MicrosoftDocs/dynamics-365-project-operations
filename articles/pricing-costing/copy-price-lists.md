@@ -19,15 +19,15 @@ You can create copies of price lists in Dynamics 365 Project Operations. For exa
 To make a copy of price list, complete the following steps.
 
 1. Open the price list that you want to make a copy of and select **Copy**.
-2. Enter any necessary information to copy the price list. The follwoing table shows considerations to keep in mind when entering information.
+2. Enter any necessary information to copy the price list. The following table shows considerations to keep in mind when entering information.
 
 | Field | Relevance, purpose, and guidance | Downstream impact |
 | --- | --- | --- |
 | Name | The name of the source price list with the **-copy** appended. | The price list includes this value on all list pages and drop-down options. |
-| Context | Enter the context that you want for the target price list. | A price list that has the context set to **Cost** is used to look up the price for cost estimates and cost actuals. A price list that has the context set to **Sales** is used to look up price for sales estimates and sales actuals. Only price Lists that have the context set to **Sales** can be attached to a project price lists for a customer, quotes, or contract. |
-| Start Date | The start date of the period in which is price list is effective. | With the **End Date** field, this is used to determine which price list is applicable for a certain estimate or actual line. |
-| End Date | The end date of the period in which is price list is effective. | With the **Start Date** field, this is used to determine which price list is applicable for a certain estimate or actual line. |
-| Currency | Thee currency of the source price list. This can be changed. | When this is changed, all resulting price lines for labor, expense, and product catalog items are converted to the target price list currency during the copy. |
+| Context | Enter the context that you want for the target price list. | A price list that has the context set to **Cost** is used to look up the price for cost estimates and cost actuals. A price list that has the context set to **Sales** is used to look up price for sales estimates and sales actuals. Only price lists that have the context set to **Sales** can be attached to a project price list for a customer, quotes, or contract. |
+| Start Date | The start date of the period in which is price list is effective. | Together with **End Date**, this field is used to determine which price list is applicable for a certain estimate or actual line. |
+| End Date | The end date of the period in which is price list is effective. | Together with **Start Date**, this field is used to determine which price list is applicable for a certain estimate or actual line. |
+| Currency | The currency of the source price list. This can be changed. | When this is changed, all resulting price lines for labor, expense, and product catalog items are converted to the target price list currency during the copy. |
 | Time Unit | The currency of the source price list. This can be changed. | When this is changed, all the resulting price lines for labor items are converted to the target price list unit during the copy. The conversion from the unit setup for the source price list time unit and target price list time unit is used. |
 | Description | A description of the source price list with the **-copy** appended. This is a text field and allows you to have multi-line description of the price list. | This field is shown in the **Associated** views on the price list in various entities that have related price lists. |
 
