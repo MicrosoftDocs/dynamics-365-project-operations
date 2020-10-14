@@ -1,43 +1,25 @@
 ---
-# required metadata
-
-title: Configure automated invoice creation
-description: This topic provides information about hot to configure the system to generate invoices automatically.
+title: Configure automatic invoice creation
+description: This topic provides information about how to configure the system to generate invoices automatically.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
-ms.prod: 
 ms.service: dynamics-365-customerservice
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+ms.reviewer: kfend 
+ms.author: rumant
 ---
 
-# Configure automated invoice creation
+# Configure automatic invoice creation
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Complete the following steps to configure an automated invoice run in Project operations.
 
-1. Go to **Settings** \> **Batch jobs**.
-2. Create a batch job, and name it **Project operations create invoices**. The name of the batch job must include the term "create invoices."
-3. In the **Job type** field, select **None**. By default, the **Frequency Daily** and **Is Active** options are set to **Yes**.
+Complete the following steps to configure an automated invoice run in Dynamics 365 Project operations.
+
+1. Go to **Settings** > **Batch jobs**.
+2. Create a batch job, and name it **Project operations create invoices**. The name of the batch job must include the words "create invoices."
+3. In the **Job Type** field, select **None**. By default, the **Frequency Daily** and **Is Active** options are set to **Yes**.
 4. Select **Run Workflow**. In the **Look Up Record** dialog box, you will see three workflows:
 
     - ProcessRunCaller
@@ -47,7 +29,8 @@ Complete the following steps to configure an automated invoice run in Project op
 5. Select **ProcessRunCaller**, and then select **Add**.
 6. In the next dialog box, select **OK**. A **Sleep** workflow is followed by a **Process** workflow.
 
-    You can also select **ProcessRunner** in step 5. Then, when you select **OK**, a **Process** workflow is followed by a **Sleep** workflow.
+  > [!NOTE]
+  > You can also select **ProcessRunner** in step 5. Then, when you select **OK**, a **Process** workflow is followed by a **Sleep** workflow.
 
 The **ProcessRunCaller** and **ProcessRunner** workflows create invoices. **ProcessRunCaller** calls **ProcessRunner**. **ProcessRunner** is the workflow that actually creates the invoices. It goes through all the contract lines that invoices must be created for, and it creates invoices for those lines. To determine the contract lines that invoices must be created for, the job looks at invoice run dates for the contract lines. If contract lines that belong to one contract have the same invoice run date, the transactions are combined into one invoice that has two invoice lines. If there are no transactions to create invoices for, the job skips invoice creation.
 

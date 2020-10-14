@@ -104,6 +104,12 @@
         items: 
         - name: Setup sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Set up cost and sales rates for expenses
+          href: pricing-costing/set-up-cost-sales-rates-expenses.md
+        - name: Default price lists
+          href: pricing-costing/default-project-sales-price-lists.md
+        - name: Resolving cost prices for estimates and actuals
+          href: pricing-costing/cost-price-resolution.md
         - name: Set up labor cost rates
           href: pricing-costing/set-up-labor-cost-rate.md
     - name: Pricing dimensions
@@ -294,7 +300,7 @@
       href: proforma-invoicing/confirm-proforma-invoice.md
     - name: Corrected invoices
       href: proforma-invoicing/corrective-invoices.md
-    - name: Configure automated invoice creation
+    - name: Configure automatic invoice creation
       href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
     items:
@@ -398,6 +404,12 @@
         items: 
         - name: Set up sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Set up cost and sales rates for expenses
+          href: pricing-costing/set-up-cost-sales-rates-expenses.md
+        - name: Default price lists
+          href: pricing-costing/default-project-sales-price-lists.md
+        - name: Resolving cost prices on estimates and actuals
+          href: pro/pricing-costing/cost-price-resolution-sales.md
         - name: Setting up labor cost rates
           href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
     - name: Pricing dimensions
@@ -541,4 +553,4 @@
     - name: Corrected invoices
       href: proforma-invoicing/corrective-invoices.md
     - name: Configure automated invoice creation
-      href: proforma-invoicing/configure-automated-invoice-creation.md    
+      href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md    
