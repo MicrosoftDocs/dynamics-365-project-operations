@@ -175,7 +175,7 @@ In version 3, we have moved away from the custom calendar control and are now us
 
 **Capture data on custom fields in time and expense entry and propagate it through entities supporting the submission and approval flow** - The typical processing of time entries is shown in the following diagram.
 
-![Time entry processing flow](media/process-time-entries-10.png)
+![Process of time entry flow](media/process-time-entries-10.png)
 
 If business requirements stipulate that time and expense entities must capture custom pricing dimensions and propagate the values that are set by a time and entry resource in the custom pricing dimension through all of the entities in the previous graphic, see [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md)
 
@@ -243,11 +243,11 @@ As of version 3, creating and using a custom project price list on a Project Ser
   
 The following graphic is before custom price lists have been created.
 
-![Time entry processing flow](media/before-custom-price-lists-13.png)
+![Before custom price lists](media/before-custom-price-lists-13.png)
 
 The following graphic shows after custom price lists have been created.
 
-![Time entry processing flow](media/after-custom-price-lists-14.png)
+![After custom price lists](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > A short lag might occur between when you click **Create Custom Pricing** to when the custom price list is created. We recommend refreshing the grid instead of clicking multiple times. A custom price list has been created if the associated price list name has the quote name or the project contract name appended to it.
