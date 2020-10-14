@@ -300,7 +300,7 @@
       href: proforma-invoicing/confirm-proforma-invoice.md
     - name: Corrected invoices
       href: proforma-invoicing/corrective-invoices.md
-    - name: Configure automated invoice creation
+    - name: Configure automatic invoice creation
       href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
     items:
@@ -553,4 +553,4 @@
     - name: Corrected invoices
       href: proforma-invoicing/corrective-invoices.md
     - name: Configure automated invoice creation
-      href: proforma-invoicing/configure-automated-invoice-creation.md    
+      href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md    
