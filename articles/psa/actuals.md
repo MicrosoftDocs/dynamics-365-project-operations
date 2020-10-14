@@ -1,5 +1,5 @@
 ---
-title: Actuals
+title: Actuals overview
 description: This topic provides information about project actuals.
 author: rumant
 manager: kfend
@@ -22,7 +22,7 @@ search.app:
   - ProjectOperations
 ---
 
-# Actuals
+# Actuals overview
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
