@@ -5,7 +5,7 @@ author: rumant
 manager: kfend
 ms.service: dynamics-365-customerservice
 ms.custom: 
-  - dyn365-projectservice
+ms.author: rumant
 ms.date: 03/08/2019
 ms.topic: article
 #
