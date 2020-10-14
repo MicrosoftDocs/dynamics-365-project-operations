@@ -60,7 +60,7 @@ Repeat the same steps with the last offer from the Welcome email.
 ## Assign licenses
 
 > [!IMPORTANT]
-> You will need administrative access to your organization's Office 365 Portal to complete the following steps.
+> You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.
 
 1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
