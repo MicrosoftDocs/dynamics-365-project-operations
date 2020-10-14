@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Actuals home page
+title: Actuals 
 description: This topic provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
@@ -28,7 +28,7 @@ ms.author: rumant
 ms.search.validFrom: 2020-10-01
 ---
 
-# Actuals home page
+# Actuals 
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios_
 
