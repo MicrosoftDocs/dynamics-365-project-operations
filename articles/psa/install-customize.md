@@ -1,15 +1,12 @@
 ---
 title: Install and customize
 description: How to install and customize Project Service
-author: JohnPBurrows
+author: ruhercul
 manager: kfend
-ms.service: 
+ms.service: dynamics-365-customerservice
 ms.custom: 
-  - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -32,20 +29,20 @@ search.app:
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
 ## Install Project Service  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] is a preferred solution. There are several ways to purchase the solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users](../admin/onboard-your-organization-and-users-to-dynamics-365-online.md).  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] is a preferred solution. There are several ways to purchase the solution. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Onboard your organization and users](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).  
   
 ## Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports  
  If you want to customize any of the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms, dashboards, or reports, you can find more information in the following links:  
   
-- [Get started with app making and customization](../customize/getting-started-customization.md)  
+- [Get started with app making and customization](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [Create and design forms](../customize/create-design-forms.md)  
+- [Create and design forms](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [Create and edit dashboards](../customize/create-edit-dashboards.md)  
+- [Create and edit dashboards](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [Create and edit processes](../customize/guide-staff-through-common-tasks-processes.md)  
+- [Create and edit processes](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [Introduction to reporting & analytics](../analytics/reporting-analytics-with-dynamics-365.md)  
+- [Introduction to reporting & analytics](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
 ### See Also  
  [Administrator Guide](../psa/admin-guide.md)   
