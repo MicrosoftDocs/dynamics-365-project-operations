@@ -8,8 +8,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 11/27/2019
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -48,11 +46,11 @@ In some cases, when the **Timescale** field is set to a level that is higher tha
 
 When you view higher time levels, the **Reconciliation** tab shows a cell indicator to notify you that there are differences at lower time levels. For example, in the following illustration, a cell indicator appears in the cell for the month of October 2018 for the resource that is named Katelyn Merritt. Therefore, you can see that, even though the resource's bookings and assignments are equal when they are aggregated at the **Month** level, they don't match at lower levels.
 
-![Mismatched bookings and assignments](media/reconcile-assignments-01.JPG)
+![Mismatched bookings and assignments at the monthly level](media/reconcile-assignments-01.JPG)
 
 Double-click a cell to zoom in to the next lower level and view the difference. For example, if you double-click the October 2018 difference for Katelyn Merritt, you drill down to the **Week** level. You can then see that the resource has bookings of 16 hours but no assignments in the first two weeks of October, and 16 hours of assignments but no bookings in the third week of October.
 
-![Mismatched bookings and assignments](media/reconcile-assignments-02.JPG)
+![Mismatched bookings and assignments at the weekly level](media/reconcile-assignments-02.JPG)
 
 You can right-click a cell to zoom out the next higher level. You can also turn off the cell indicator by selecting the **Settings** button. 
 
