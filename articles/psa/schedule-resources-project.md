@@ -29,7 +29,7 @@ You can check resource availability to get an overall view of how booked your re
   
 The schedule board shows list of resources and their availability. Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.  
   
-Before you use the schedule board, it’s important to set it up. For more information, see [Configure the schedule board (Field Service or Project Service Automation)](../field-service/configure-schedule-board.md).
+Before you use the schedule board, it’s important to set it up. For more information, see [Configure the schedule board (Field Service or Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
   
 If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).  
 
