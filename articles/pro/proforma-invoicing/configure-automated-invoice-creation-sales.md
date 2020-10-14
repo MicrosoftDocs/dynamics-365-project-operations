@@ -24,7 +24,7 @@ For example, if the contract has multiple customers, the same number of invoices
 
 Sometimes, each project-based contract line specifies a separate invoice schedule. For example, implementation services for the Adatum contract have the following contract lines:
 
-- Prototype work that is a fixed price with two milestones that are manually created.
+- Prototype work that is a fixed price with two manually created milestones.
 - Implementation work that includes Time and will be billed bi-weekly on Mondays.
 - Expenses incurred that need to be billed monthly on the first Monday of each month.
 
@@ -47,15 +47,15 @@ In this example when the automatic invoicing runs on:
 - **October 5 Monday**: One invoice is generated for:
 
     - Prototype work that includes the milestone, if it is marked as **Ready to Invoice**.
-    - Implementation work that includes all time transactions created before the transaction cut-off date of October 4, Sunday, that are marked as **Ready to Invoice**.
-    - Expense incurred that includes all expense transactions created before the transaction cut-off date of October 4, Sunday, that are marked as **Ready to Invoice**.
+    - Implementation work that includes all Time transactions created before the transaction cut-off date of October 4, Sunday, that is marked as **Ready to Invoice**.
+    - Expense incurred that includes all Expense transactions created before the transaction cut-off date of October 4, Sunday, that is marked as **Ready to Invoice**.
   
 - **On October 6 or any date before October 19**: No invoice is generated for this contract since the **Invoice Schedule** table for each of these contract lines does not call out October 6 or any date before October 19 as an invoice run date.
-- **October 19, Monday**: One invoice is generated for implementation work that includes all time transactions created before the transaction cut-off date of October 18, Sunday, that are marked as **Ready to Invoice**.
+- **October 19, Monday**: One invoice is generated for implementation work that includes all Time transactions created before the transaction cut-off date of October 18, Sunday, that is marked as **Ready to Invoice**.
 - **November 2 Monday**: One invoice is generated for:
 
-    - Implementation work that includes all time transactions created before the transaction cut-off date of November 1, Sunday, that are marked as **Ready to Invoice**.
-    - Expense incurred that includes all expense transactions created before the transaction cut-off date of November 1, Sunday, that are marked as **Ready to Invoice**.
+    - Implementation work that includes all Time transactions created before the transaction cut-off date of November 1, Sunday, that is marked as **Ready to Invoice**.
+    - Expense incurred that includes all Expense transactions created before the transaction cut-off date of November 1, Sunday, that is marked as **Ready to Invoice**.
 
 - **November 3, Tuesday**: One invoice is generated for prototype work that includes the milestone for 12000 USD, if it is marked as **Ready to Invoice**.
 
