@@ -9,7 +9,7 @@ ms.custom:
 ms.date: 09/23/2019
 ms.topic: article
 ms.prod: 
-ms.technology: 
+#
 ms.author: rumant
 audience: Admin
 search.audienceType: 

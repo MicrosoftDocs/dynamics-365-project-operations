@@ -6,7 +6,7 @@ ms.date: 09/18/2020
 ms.reviewer: kfend
 ms.service: dynamics-365-customerservice
 ms.suite: ""
-ms.technology: 
+#
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 

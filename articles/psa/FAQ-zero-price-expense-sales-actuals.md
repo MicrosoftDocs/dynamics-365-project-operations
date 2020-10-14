@@ -9,7 +9,7 @@ ms.custom:
 ms.date: 8/21/2018
 ms.topic: article
 ms.prod: Applies to all versions of Project Service
-ms.technology: Applies to all versions of Project Service
+#
 ms.author: rumant
 audience: Admin
 search.audienceType: 

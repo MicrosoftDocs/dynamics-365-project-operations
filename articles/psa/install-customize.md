@@ -9,7 +9,7 @@ ms.custom:
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: dynamics 365 project service automation
-ms.technology: 
+#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 

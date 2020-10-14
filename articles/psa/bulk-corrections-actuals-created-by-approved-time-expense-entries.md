@@ -7,7 +7,7 @@ ms.date: 04/02/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
-ms.technology: 
+#
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations

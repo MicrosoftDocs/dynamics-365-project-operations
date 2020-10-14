@@ -9,7 +9,7 @@ ms.custom:
 ms.date: 03/08/2019
 ms.topic: article
 ms.prod: 
-ms.technology: Microsoft Dynamics 365 Project Service Automation 2.x and 3.x
+#
 audience: Admin
 search.audienceType: 
   - admin

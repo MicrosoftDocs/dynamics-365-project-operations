@@ -8,7 +8,7 @@ ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
 ms.prod: 
-ms.technology: Microsoft Dynamics 365 Project Service Automation 3.x
+#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 

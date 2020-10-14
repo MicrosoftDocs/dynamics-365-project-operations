@@ -4,7 +4,7 @@ ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
 ms.reviewer: kfend
 ms.suite: 
-ms.technology: 
+#
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul

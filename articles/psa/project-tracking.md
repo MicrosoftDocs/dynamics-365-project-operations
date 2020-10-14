@@ -9,7 +9,7 @@ ms.custom:
 ms.date: 08/21/2020
 ms.topic: article
 ms.prod: 
-ms.technology: 
+#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 

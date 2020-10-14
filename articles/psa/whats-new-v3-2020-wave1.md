@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 05/15/2020
 ms.topic: article
 ms.prod: 
-ms.technology: Dynamics 365 Project Service Automation 3.x wave 1 2020
+#
 author: stsporen
 ms.author: stsporen
 audience: Admin

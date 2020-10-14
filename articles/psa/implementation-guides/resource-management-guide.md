@@ -9,7 +9,7 @@ ms.custom:
 ms.date: 03/28/2019
 ms.topic: article
 ms.prod: 
-ms.technology: 
+#
 ms.author: kfend
 audience: Admin
 search.audienceType: 

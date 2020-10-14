@@ -2,7 +2,7 @@
 title: Quoting, pricing, and billing home page
 description: This topic provides information about quoting, pricing, and billing.
 ms.prod: 
-ms.technology: 
+#
 author: rumant
 ms.author: rumant
 manager: kfend

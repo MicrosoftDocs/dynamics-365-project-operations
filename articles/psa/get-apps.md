@@ -9,7 +9,7 @@ ms.custom:
 ms.date: 8/03/2018
 ms.topic: article
 ms.prod: Dynamics 365 Project Service Automation
-ms.technology: 
+#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 

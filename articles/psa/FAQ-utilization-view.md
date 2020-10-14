@@ -9,7 +9,7 @@ ms.custom:
 ms.date: 9/26/2019
 ms.topic: article
 ms.prod: Applies to all versions of Project Service
-ms.technology: Applies to all versions of Project Service
+#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 

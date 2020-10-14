@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
-ms.technology: Dynamics 365 Project Service Automation 3.x
+#
 author: JohnPBurrows
 ms.author: rumant
 audience: Admin

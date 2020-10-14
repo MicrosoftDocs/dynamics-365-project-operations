@@ -8,7 +8,7 @@ ms.custom:
 ms.date: 10/18/2019
 ms.topic: article
 ms.prod: 
-ms.technology: Dynamics 365 Project Service Automation 2.x
+#
 author: ruhercul
 ms.author: ruhercul
 audience: Admin
