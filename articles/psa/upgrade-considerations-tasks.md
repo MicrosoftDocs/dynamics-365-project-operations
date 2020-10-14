@@ -30,12 +30,12 @@ This topic provides information about upgrading the work breakdown structure fro
 ## Key entities
 For an accurate work breakdown structure that is already loaded with resources, the following entities are required:
 
-- [Project](../developer/entities/msdyn_project.md)
-- [Project Team](../developer/entities/msdyn_projectteam.md)
-- [Project Task](../developer/entities/msdyn_projecttask.md)
-- [Resource Assignments](../developer/entities/msdyn_resourceassignment.md)
-- [Project Task Dependency](../developer/entities/msdyn_projecttaskdependency.md)
-- [Bookable Resources](../developer/entities/bookableresource.md)
+- [Project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Project Team](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Project Task](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Resource Assignments](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Project Task Dependency](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Bookable Resources](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 To define a resource loaded work breakdown structure, you must complete the following steps:
 
