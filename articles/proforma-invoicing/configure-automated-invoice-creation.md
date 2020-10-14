@@ -1,5 +1,5 @@
 ---
-title: Configure automated invoice creation
+title: Configure automatic invoice creation
 description: This topic provides information about how to configure the system to generate invoices automatically.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Configure automated invoice creation
+# Configure automatic invoice creation
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
