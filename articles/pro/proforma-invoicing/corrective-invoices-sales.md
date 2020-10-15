@@ -16,14 +16,14 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.
 
-To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**;. 
+To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**. 
 
 > [!NOTE]
 > This selection isn't available unless a project invoice is confirmed.
 
 A new draft invoice is created from the confirmed invoice. All invoice line details from the previously confirmed invoice are copied to the new draft. The following are some of the key points to understand about the line details on the new corrected invoice:
 
-- All quantities are updated to zero. The application assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is being invoiceed, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created when the corrected invoice is confirmed. If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
+- All quantities are updated to zero. The application assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created when the corrected invoice is confirmed. If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
 - Previously confirmed product-based contract lines are not copied over. Processing corrections on a product-based project invoice is not supported.
 - Milestone corrections are always processed as full credits.
 - Retainer or advance amounts can be corrected if the customer was invoiced for an incorrect amount.
