@@ -558,3 +558,151 @@
       href: proforma-invoicing/corrective-invoices.md
     - name: Configure automated invoice creation
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md    
+- name: Dynamics 365 Project Service Automation  
+  items:
+  - name: Project Service Automation overview
+    href: psa/overview.md
+  - name: What's new
+    items:
+    - name: Update Release schedule for Project Service 3.x
+      href: psa/version-history-ps.md)
+    - name: What's new or changed in Update Release 24, V3
+      href: psa/whats-new-ur-24.md
+    - name: What's new or changed in Update Release 23, V3
+      href: psa/whats-new-ur-23.md
+    - name: What's new or changed in Update Release 22, V3
+      href: psa/whats-new-ur-21.md
+    - name: What's new or changed in Update Release 20, V3
+      href: psa/whats-new-ur-20.md
+    - name: What's new or changed in Update Release 19, V3
+      href: psa/whats-new-ur-19.md
+    - name: What's new or changed in Update Release 18, V3
+      href: psa/whats-new-ur-18.md
+    - name: What's new or changed in Update Release 17.5, Hotfix, V3
+      href: psa/whats-new-ur-17-5.md
+    - name: What's new or changed in Update Release 17, V3
+      href: psa/whats-new-ur-17.md
+    - name: What's new or changed in Update Release 16, V3
+      href: psa/whats-new-ur-16.md
+    - name: What's new or changed in Update Release 15, V3
+      href: psa/whats-new-ur-15.md
+    - name: What's new or changed in Update Release 14, V3
+      href: psa/whats-new-ur-14.md
+    - name: What's new or changed in Update Release 13, V3
+      href: psa/whats-new-ur-13.md
+    - name: What's new or changed in Update Release 12, V3
+      href: psa/whats-new-ur-12.md
+    - name: What's new or changed in Project Service Automation V3.x wave 1 2020
+      href: psa/whats-new-v3-2020-wave1.md
+    - name: What's new or changed in Project Service Automation V3
+      href: psa/whats-new-changed-v3.md
+  - name: Implement Project Service Automation 3.x
+    items:
+    - name: Implementation overview
+      href: psa/install-sample-data-3-x.md
+  - name: Upgrade
+    items:
+    - name: Project Service Automation upgrade (3.x)
+      href: psa/upgrade-psa-home-page.md
+    - name: Upgrade considerations - version 2.x or 1.x to version 3
+      href: upgrade-v3.md
+    - name: Development (3.x)
+      href: psa/developer-guides/overview-dev-notes-v3.x.md
+    - name: Entity changes
+      href: psa/project-service/developer-guides/entity-changes-v3.x.md) 
+    - name: Time and expense
+      href: psa/developer-guides/time-expense-changes-v3.x.md
+    - name: Resource management 
+      href: psa/developer-guides/resource-management-changes-v3.x.md
+    - name: Deprecated Web resources in Project Service Automation v3.x
+      href: psa/developer-guides/web-resources-deprecated-v3.x.md
+  - name: Project planning
+    items: 
+    - name: Project planning overview
+      href: psa/project-planning.md
+    - name: Project schedules
+      href: psa/project-creating.md
+    - name: Project costs and revenue
+      href: psa/project-estimating.md
+    - name: Sales estimates and projects
+      href: psa/project-leveraging.md
+    - name: Project progress and cost consumption
+      href: psa/project-tracking.md
+    - name: Project templates
+      href: psa/project-templates.md
+    - name: Project stages
+      href: psa/project-stages.md
+    - name: Project settings
+      href: psa/project-settings.md
+  - name: Pricing and costing dimensions
+    items: 
+    - name: Pricing and costing dimensions overview
+      href: psa/pricing-costing-dimensions.md
+    - name: Create a solution for custom pricing dimensions
+      href: psa/custompricingdimensionssolution.md
+    - name: Create custom fields and entities
+      href: psa/create-custom-fields-entities.md)
+    - name: Add custom fields to price setup and transactional entities
+      href: psa/field-references.md
+    - name: Set up custom fields as pricing dimensions
+      href: psa/set-up-pricing-dimensions.md
+    - name: Update plug-in attributes to include new pricing dimensions
+      href: psa/update-plug-in-attributes.md
+    - name: Reuse elements as pricing dimensions
+      items:
+      - name: Use an existing field in Project Service as a pricing dimension
+        href: psa/use-existing-field.md
+      - name: Use bookable resource as a pricing dimension
+        href: psa/bookable-resource-pricing-dimension.md
+      - name: Use transaction category as a pricing dimension
+        href: psa/transaction-category-pricing-dimension.md
+    - name: Bookable resource with multiple roles on a project
+      href: psa/bookable-resource-multiple-roles.md
+    - name: Turn off a pricing dimension
+      href: psa/turn-off-pricing-dimension.md
+  - name: Quoting, pricing, and billing
+    items: 
+    - name: Quoting, pricing, and billing overview
+      href: psa/quote-bill-price.md
+    - name: Quoting
+      items: 
+      - name: Sales processes
+        href: basic-sales-process.md
+      - name: Unit groups and units
+        href: psa/advanced-units.md
+      - name: Organizational units
+        href: psa/advanced-organizational.md
+      - name: Quotes and quote lines
+        href: psa/basic-quote-lines.md
+      - name: Product-based quote lines
+        href: psa/product-based-quote-lines.md
+      - name: Analyzing project quotes
+        href: basic-analyzing-quotes.md
+    - name: Pricing
+      items: 
+      - name: Project pricing
+        href: psa/basic-pricing.md
+      - name: Product catalog pricing
+        hreF: psa/product-catalog-pricing.md
+      - name: Business transactions
+        href: psa/basic-business-transactions.md
+      - name: Estimates
+        href: psa/estimates.md
+    - name: Billing
+      items: 
+      - name: Analyzing project quotes
+        href: psa/basic-analyzing-quotes.md
+      - name: Recall previously approved time or expense entries
+        href: psa/recall-approved.md
+      - name: Cancel approval of previously approved time or expense entries
+        href: psa/cancel-approval.md
+      - name: Actuals
+        href: psa/actuals.md
+      - name: Bulk corrections of actuals created by approved time and expense entries
+        href: bulk-corrections-actuals-created-by-approved-time-expense-entries.md
+      - name: Review project billing backlog
+        href: review-invoicing-backlog.md
+      - name: Invoicing
+        href: invoicing.md
+      - name: Multi-currency scenarios
+        href: advanced-currency.md
