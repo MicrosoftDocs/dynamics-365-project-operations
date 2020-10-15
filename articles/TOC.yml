@@ -564,7 +564,7 @@
       href: proforma-invoicing/create-manual-proforma-invoice.md
     - name: Confirming a proforma invoice
       href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
-    - name: Corrected invoices
-      href: proforma-invoicing/corrective-invoices.md
+    - name: Credits and corrected invoices
+      href: pro/proforma-invoicing/corrective-invoices-sales.md
     - name: Configure automated invoice creation
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md    
