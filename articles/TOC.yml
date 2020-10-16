@@ -565,7 +565,7 @@
   - name: What's new
     items:
     - name: Update Release schedule for Project Service 3.x
-      href: psa/version-history-ps.md)
+      href: psa/version-history-ps.md
     - name: What's new or changed in Update Release 24, V3
       href: psa/whats-new-ur-24.md
     - name: What's new or changed in Update Release 23, V3
@@ -605,11 +605,11 @@
     - name: Project Service Automation upgrade (3.x)
       href: psa/upgrade-psa-home-page.md
     - name: Upgrade considerations - version 2.x or 1.x to version 3
-      href: upgrade-v3.md
+      href: psa/upgrade-v3.md
     - name: Development (3.x)
       href: psa/developer-guides/overview-dev-notes-v3.x.md
     - name: Entity changes
-      href: psa/project-service/developer-guides/entity-changes-v3.x.md) 
+      href: psa/developer-guides/entity-changes-v3.x.md
     - name: Time and expense
       href: psa/developer-guides/time-expense-changes-v3.x.md
     - name: Resource management 
@@ -641,7 +641,7 @@
     - name: Create a solution for custom pricing dimensions
       href: psa/custompricingdimensionssolution.md
     - name: Create custom fields and entities
-      href: psa/create-custom-fields-entities.md)
+      href: psa/create-custom-fields-entities.md
     - name: Add custom fields to price setup and transactional entities
       href: psa/field-references.md
     - name: Set up custom fields as pricing dimensions
@@ -667,7 +667,7 @@
     - name: Quoting
       items: 
       - name: Sales processes
-        href: basic-sales-process.md
+        href: psa/basic-sales-process.md
       - name: Unit groups and units
         href: psa/advanced-units.md
       - name: Organizational units
@@ -699,13 +699,13 @@
       - name: Actuals
         href: psa/actuals.md
       - name: Bulk corrections of actuals created by approved time and expense entries
-        href: bulk-corrections-actuals-created-by-approved-time-expense-entries.md
+        href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
       - name: Review project billing backlog
-        href: review-invoicing-backlog.md
+        href: psa/review-invoicing-backlog.md
       - name: Invoicing
-        href: invoicing.md
+        href: psa/invoicing.md
       - name: Multi-currency scenarios
-        href: advanced-currency.md
+        href: psa/advanced-currency.md
   - name: Resourcing projects
     items:
     - name: Resourcing projects overview
@@ -789,11 +789,11 @@
       - name: How do I assign a resource to a task (app version 2.x)?
         href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
       - name: How do I "soft book" resources (app version 2.x)?
-        href: FAQ-soft-book-in-web-app.md
+        href: psa/FAQ-soft-book-in-web-app.md
       - name: How do I customize the Project Stages business process flow?
-        href: FAQ-customize-bpf.md
+        href: psa/FAQ-customize-bpf.md
       - name: Upgrade considerations for the work breakdown structure
-        href: upgrade-considerations-tasks.md
+        href: psa/upgrade-considerations-tasks.md
     - name: White papers
       href: psa/white-papers.md
     - name: Administrator guide
@@ -940,4 +940,4 @@
     - name: Developer notes
       items: 
       - name: Add custom forms for entities
-        href: psa/psa/developer-guides/add-custom-qoi-forms-v2.x.md
+        href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
