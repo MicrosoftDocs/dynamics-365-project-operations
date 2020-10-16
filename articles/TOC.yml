@@ -677,7 +677,7 @@
       - name: Product-based quote lines
         href: psa/product-based-quote-lines.md
       - name: Analyzing project quotes
-        href: basic-analyzing-quotes.md
+        href: psa/basic-analyzing-quotes.md
     - name: Pricing
       items: 
       - name: Project pricing
