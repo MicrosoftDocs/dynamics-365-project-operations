@@ -9,7 +9,7 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-customerservice
-ms.technology: 
+#
 
 # optional metadata
 
@@ -31,7 +31,7 @@ ms.search.validFrom: 2020-10-01
 
 # Corrected invoices
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Confirmed invoices can be edited. When you edit a confirmed invoice, a draft of the corrected invoice is created. Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).
 
