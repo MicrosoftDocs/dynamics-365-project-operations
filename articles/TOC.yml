@@ -706,3 +706,67 @@
         href: invoicing.md
       - name: Multi-currency scenarios
         href: advanced-currency.md
+    - name: Resourcing projects
+      items:
+      - name: Resourcing projects overview
+        href: psa/resource-management.md
+      - name: Assign generic bookable resources to a task and generate resource requirements
+        href: psa/assign-generic-bookable-resource.md 
+      - name: Book named bookable resources to a project team and assign task
+        href: psa/assign-named-bookable-resource.md
+      - name: Assign a resource to a task
+        href: psa/FAQ-assign-resources-to-tasks.md
+      - name: Book named resources from resource requirements
+        href: psa/book-named-resource.md
+      - name: Resource bookings and how they relate to task assignments
+        href: psa/FAQ-bookings-and-assignments.md
+      - name: Submit a resource request
+        href: psa/submit-resource-request.md
+      - name: Accept or reject a proposed resource
+        href: psa/accept-reject-proposed-resource.md
+      - name: View chargeable utilization for resources
+        href: psa/FAQ-utilization-view.md
+      - name: Reconcile bookings and assignments
+        href: psa/reconcile-booking-assignment.md
+    - name: Resource management
+      items:
+      - name: Resource management home page
+        href: psa/resource-management-home-page.md
+      - name: Manage resources
+        href: psa/manage-resources.md
+      - name: Key concepts
+        href: psa/reports-key-concepts.md
+      - name: Fulfilling resource requests
+        href: psa/resource-management-fulfill-requests.md
+      - name: Proposing resources
+        href: psa/resource-management-propose-resources.md
+      - name: Booking resources
+        href: psa/resource-management-book-resources-scheduleboard.md
+      - name: Booking allocation methods
+        href: psa/FAQ-allocation-methods.md
+      - name: Soft-book requirements
+        href: psa/resource-management-softbook-requirements.md
+      - name: Soft book a resource
+        href: psa/FAQ-soft-book.md
+      - name: Create a project booking from the Schedule board
+        href: psa/FAQ-project-booking-schedule-board.md
+      - name: Skills and proficiency models
+        href: psa/resource-management-skills-proficiency.md
+      - name: Resource management FAQ
+        href: psa/resource-management-faq.md
+    - name: Reporting
+      items:
+      - name: Reporting overview
+        href: psa/reports-reporting-dynamics-365-project-service.md
+      - name: Dashboards
+        href: psa/reports-dashboards.md
+      - name: Workign with the Project Service Automation data model
+        href: psa/reports-working-project-service-data-model.md
+    - name: Time entry
+      items: 
+      - name: Create time entries
+        href: psa/time-entries.md
+      - name: Time entry calendar
+        href: psa/time-entry-calendar.md
+      - name: Customize weekly time entry
+        href: psa/time-entry-extensibility-v3.md
