@@ -564,13 +564,53 @@
       items:
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
-  - name: Proforma invoicing
-    items:
-    - name: Create a manual proforma invoice
-      href: proforma-invoicing/create-manual-proforma-invoice.md
-    - name: Confirming a proforma invoice
-      href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
-    - name: Credits and corrected invoices
-      href: pro/proforma-invoicing/corrective-invoices-sales.md
-    - name: Configure automated invoice creation
-      href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md    
+    - name: Proforma invoicing
+      items:
+      - name: Create a manual proforma invoice
+        href: proforma-invoicing/create-manual-proforma-invoice.md
+      - name: Corrected invoices
+        href: proforma-invoicing/corrective-invoices.md
+      - name: Configure automated invoice creation
+        href: proforma-invoicing/configure-automated-invoice-creation.md    
+- name: Expense management
+  items: 
+  - name: Expense management overview
+    href: prod-exp/expense-management.md
+  - name: Expense reports reimagined
+    href: prod-exp/ExpenseWorkspaceNew.md
+  - name: Plan expense management
+    href: prod-exp/plan-expense-management.md
+  - name: Expense management parameters
+    href: prod-exp/Expense-Management-Parameters.md
+  - name: Expense management mobile workspace
+    href: prod-exp/expense-management-mobile-workspace.md
+  - name: Set up workflows for expense management
+    href: prod-exp/expense-workflows.md
+  - name: Expense management workflow
+    href: prod-exp/expense-workflow.md
+  - name: Manage expense delegation
+    href: prod-exp/manage-expense-delegation.md
+  - name: Expense receipt processing
+    href: prod-exp/expense-receipt-processing.md
+  - name: Import and maintain credit card transactions
+    href: prod-exp/import-credit-card.md
+  - name: Distributions on an expense report
+    href: prod-exp/expense-report-distributions.md
+  - name: Intercompany expenses
+    href: prod-exp/intercompany-expense.md
+  - name: Define expense policies
+    href: prod-exp/travel-expense-policies.md
+  - name: View an expense report
+    href: prod-exp/view-expense-report.md
+  - name: Post an expense report
+    href: prod-exp/post-expense.md
+  - name: Expense reports and multiple approvers
+    href: prod-exp/expense-report-multiple-approvers.md
+  - name: VAT recovery in Expense management
+    href: prod-exp/VAT-expense-report.md
+  - name: Per diem rules
+    href: prod-exp/per-diem.md
+  - name: Travel requisitions
+    href: prod-exp/travel-req.md
+  - name: Personal expenses on an expense report
+    href: prod-exp/personal-expenses.md
