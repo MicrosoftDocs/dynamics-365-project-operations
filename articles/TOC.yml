@@ -414,14 +414,16 @@
         items: 
         - name: Set up sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Setting up labor cost rates
+          href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+        - name: Set up cost and sales rates for catalog products
+          href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
         - name: Set up cost and sales rates for expenses
           href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Default price lists
           href: pricing-costing/default-project-sales-price-lists.md
         - name: Resolving cost prices on estimates and actuals
           href: pro/pricing-costing/cost-price-resolution-sales.md
-        - name: Setting up labor cost rates
-          href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
     - name: Defaults and overrides
       items:
       - name: Copy price lists
