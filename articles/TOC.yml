@@ -572,6 +572,88 @@
         href: proforma-invoicing/corrective-invoices.md
       - name: Configure automated invoice creation
         href: proforma-invoicing/configure-automated-invoice-creation.md    
+- name: Project Operations for Stocked/Production-based scenarios
+  items: 
+  - name: Project management and accounting overview
+    href: prod-pma/overview-project-management-accounting.md
+  - name: Intercompany invoicing
+    href: prod-pma/intercompany-invoicing.md
+  - name: Configure intercompany project invoicing
+    href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+  - name: Configure standard costs for labor and expenses
+    href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+  - name: Create and apply vendor payment retention terms
+    href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+  - name: Set up and use pay-when-paid vendor payments
+    href: prod-pma/setup-manage-vendor-payments.md
+  - name: Project cost accrual on purchase receipts
+    href: https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+  - name: Project invoicing
+    href: https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing
+  - name: Project contracts
+    href: prod-pma/project-contracts.md
+  - name: Create advanced contracts for billing based on progress
+    href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+  - name: Project forecasts and budgets
+    href: prod-pma/project-forecasts-budgets.md
+  - name: Create forecast models for project budgets
+    href: prod-pma/create-forecast-models-project-budgets.md
+  - name: Transfer project budgets at fiscal year end
+    href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+  - name: Project sales orders
+    href: prod-pma/project-sales-orders.md
+  - name: Purchase orders for a project
+    href: prod-pma/project-purchase-orders.md
+  - name: Project quotations
+    href: prod-pma/project-quotations.md
+  - name: Confirm, update, and send a project quotation
+    href: prod-pma/confirm-update-send-project-quotation.md
+  - name: Transfer a quotation to a project
+    href: prod-pma/transfer-quote-new-existing-project.md
+  - name: Project resourcing
+    items:
+    - name: Project resourcing overview
+      href: prod-pma/project-resourcing.md
+    - name: Set up project resources
+      href: prod-pma/set-up-project-resources.md
+    - name: Manage resource competencies
+      href: prod-pma/manage-resource-competencies.md
+    - name: Create a new project
+      href: prod-pma/create-new-project.md
+    - name: Set up role-based pricing
+      href: prod-pma/set-up-role-based-pricing.md
+    - name: Create a project team
+      href: prod-pma/create-project-team.md
+    - name: Synchronize resource capacity
+      href: prod-pma/synchronize-resource-capacity.md
+    - name: Project resource scheduling performance
+      href: prod-pma/project-scheduling-performance.md
+    - name: Set up roles on Work breakdown structure templates
+      href: prod-pma/set-up-roles-wbs-template.md
+    - name: Resource fulfillment for planned resources
+      href: prod-pma/resource-fulfillment-planned-resources.md
+  - name: Receive items on purchase order from item requirement
+    href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+  - name: Work breakdown structures
+    items:
+    - name: Work breakdown structures overview
+      href: prod-pma/work-breakdown-structures.md
+    - name: Microsoft Project Client integration
+      href: prod-pma/project-integration.md
+    - name: Project mobile applications overview
+      href: prod-pma/project-mobile-application-overview.md
+    - name: Project time entry mobile workspace
+      href: prod-pma/project-time-entry-mobile-workspace.md
+    - name: Project timesheet mobile app
+      href: prod-pma/project-timesheet.md
+    - name: Project timesheets on a mobile device
+      href: prod-pma/mobile-timesheets.md
+    - name: Implement custom fields for the Project timesheet mobile app
+      href: prod-pma/custom-fields-mobile.md
+  - name: Project grants
+    href: prod-pma/project-grants.md
+  - name: Eliminate a project estimate
+    href: prod-pma/eliminate-project-estimate.md
 - name: Expense management
   items: 
   - name: Expense management overview
@@ -614,3 +696,4 @@
     href: prod-exp/travel-req.md
   - name: Personal expenses on an expense report
     href: prod-exp/personal-expenses.md
+
