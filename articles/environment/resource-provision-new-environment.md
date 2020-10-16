@@ -180,4 +180,10 @@ To run a map with prerequisites, enable the **Show related entity maps** toggle.
 
 ![All Maps Running](./media/22AllMapsRunning.png)
 
-Your Project Operations environment is now provisioned and configured.
+
+## Apply configuration data in CDS for Project Operations (optional step)
+
+If you have applied demo data to Dynamics 365 Finance environment, follow the steps to apply demo data to CDS environment as described in [this article](resource-apply-pro-setup-config-data.md).
+
+
+Your Project Operations environment is now provisioned and configured. 
