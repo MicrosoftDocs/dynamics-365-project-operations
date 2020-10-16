@@ -106,14 +106,20 @@
         items: 
         - name: Setup sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Set up labor bill rates
+          href: pricing-costing/set-up-labor-bill-rate.md
+        - name: Set up labor cost rates
+          href: pricing-costing/set-up-labor-cost-rate.md
         - name: Set up cost and sales rates for expenses
           href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Default price lists
           href: pricing-costing/default-project-sales-price-lists.md
         - name: Resolving cost prices for estimates and actuals
           href: pricing-costing/cost-price-resolution.md
-        - name: Set up labor cost rates
-          href: pricing-costing/set-up-labor-cost-rate.md
+    - name: Defaults and overrides
+      items:
+      - name: Copy price lists
+        href: pricing-costing/copy-price-lists.md
     - name: Pricing dimensions
       items: 
       - name: Pricing dimensions overview
@@ -342,6 +348,8 @@
         href: pro/sales/opportunity-header-sales.md
       - name: Project-based lines
         href: pro/sales/project-based-lines-sales.md
+      - name: Copy project-based opportunities
+        href: sales/copy-project-based-opportunity.md
       - name: Create project quotes from opportunities
         href: sales/link-quotes-opportunities.md
       - name: Product-based opportunity lines
@@ -408,14 +416,22 @@
         items: 
         - name: Set up sales price list
           href: pricing-costing/sales-price-list-setup.md
+        - name: Setting up labor bill rates
+          href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+        - name: Setting up labor cost rates
+          href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+        - name: Set up cost and sales rates for catalog products
+          href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
         - name: Set up cost and sales rates for expenses
           href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Default price lists
           href: pricing-costing/default-project-sales-price-lists.md
         - name: Resolving cost prices on estimates and actuals
           href: pro/pricing-costing/cost-price-resolution-sales.md
-        - name: Setting up labor cost rates
-          href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+    - name: Defaults and overrides
+      items:
+      - name: Copy price lists
+        href: pricing-costing/copy-price-lists.md
     - name: Pricing dimensions
       items:
       - name: Use an existing field as a pricing dimension
@@ -548,16 +564,138 @@
       items:
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
-  - name: Proforma invoicing
+    - name: Proforma invoicing
+      items:
+      - name: Create a manual proforma invoice
+        href: proforma-invoicing/create-manual-proforma-invoice.md
+      - name: Corrected invoices
+        href: proforma-invoicing/corrective-invoices.md
+      - name: Configure automated invoice creation
+        href: proforma-invoicing/configure-automated-invoice-creation.md    
+- name: Project Operations for Stocked/Production-based scenarios
+  items: 
+  - name: Project management and accounting overview
+    href: prod-pma/overview-project-management-accounting.md
+  - name: Intercompany invoicing
+    href: prod-pma/intercompany-invoicing.md
+  - name: Configure intercompany project invoicing
+    href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+  - name: Configure standard costs for labor and expenses
+    href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+  - name: Create and apply vendor payment retention terms
+    href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+  - name: Set up and use pay-when-paid vendor payments
+    href: prod-pma/setup-manage-vendor-payments.md
+  - name: Project cost accrual on purchase receipts
+    href: https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+  - name: Project invoicing
+    href: https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing
+  - name: Project contracts
+    href: prod-pma/project-contracts.md
+  - name: Create advanced contracts for billing based on progress
+    href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+  - name: Project forecasts and budgets
+    href: prod-pma/project-forecasts-budgets.md
+  - name: Create forecast models for project budgets
+    href: prod-pma/create-forecast-models-project-budgets.md
+  - name: Transfer project budgets at fiscal year end
+    href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+  - name: Project sales orders
+    href: prod-pma/project-sales-orders.md
+  - name: Purchase orders for a project
+    href: prod-pma/project-purchase-orders.md
+  - name: Project quotations
+    href: prod-pma/project-quotations.md
+  - name: Confirm, update, and send a project quotation
+    href: prod-pma/confirm-update-send-project-quotation.md
+  - name: Transfer a quotation to a project
+    href: prod-pma/transfer-quote-new-existing-project.md
+  - name: Project resourcing
     items:
-    - name: Create a manual proforma invoice
-      href: proforma-invoicing/create-manual-proforma-invoice.md
-    - name: Confirming a proforma invoice
-      href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
-    - name: Corrected invoices
-      href: proforma-invoicing/corrective-invoices.md
-    - name: Configure automated invoice creation
-      href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md    
+    - name: Project resourcing overview
+     href: prod-pma/project-resourcing.md
+   - name: Set up project resources
+     href: prod-pma/set-up-project-resources.md
+   - name: Manage resource competencies
+     href: prod-pma/manage-resource-competencies.md
+   - name: Create a new project
+     href: prod-pma/create-new-project.md
+   - name: Set up role-based pricing
+     href: prod-pma/set-up-role-based-pricing.md
+   - name: Create a project team
+     href: prod-pma/create-project-team.md
+   - name: Synchronize resource capacity
+     href: prod-pma/synchronize-resource-capacity.md
+   - name: Project resource scheduling performance
+     href: prod-pma/project-scheduling-performance.md
+   - name: Set up roles on Work breakdown structure templates
+     href: prod-pma/set-up-roles-wbs-template.md
+   - name: Resource fulfillment for planned resources
+     href: prod-pma/resource-fulfillment-planned-resources.md
+  - name: Receive items on purchase order from item requirement
+    href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+  - name: Work breakdown structures
+    items:
+    - name: Work breakdown structures overview
+      href: prod-pma/work-breakdown-structures.md
+    - name: Microsoft Project Client integration
+      href: prod-pma/project-integration.md
+    - name: Project mobile applications overview
+      href: prod-pma/project-mobile-application-overview.md
+    - name: Project time entry mobile workspace
+      href: prod-pma/project-time-entry-mobile-workspace.md
+    - name: Project timesheet mobile app
+      href: prod-pma/project-timesheet.md
+    - name: Project timesheets on a mobile device
+      href: prod-pma/mobile-timesheets.md
+    - name: Implement custom fields for the Project timesheet mobile app
+      href: prod-pma/custom-fields-mobile.md
+  - name: Project grants
+    href: prod-pma/project-grants.md
+  - name: Eliminate a project estimate
+    href: prod-pma/eliminate-project-estimate.md
+- name: Expense management
+  items: 
+  - name: Expense management overview
+    href: prod-exp/expense-management.md
+  - name: Expense reports reimagined
+    href: prod-exp/ExpenseWorkspaceNew.md
+  - name: Plan expense management
+    href: prod-exp/plan-expense-management.md
+  - name: Expense management parameters
+    href: prod-exp/Expense-Management-Parameters.md
+  - name: Expense management mobile workspace
+    href: prod-exp/expense-management-mobile-workspace.md
+  - name: Set up workflows for expense management
+    href: prod-exp/expense-workflows.md
+  - name: Expense management workflow
+    href: prod-exp/expense-workflow.md
+  - name: Manage expense delegation
+    href: prod-exp/manage-expense-delegation.md
+  - name: Expense receipt processing
+    href: prod-exp/expense-receipt-processing.md
+  - name: Import and maintain credit card transactions
+    href: prod-exp/import-credit-card.md
+  - name: Distributions on an expense report
+    href: prod-exp/expense-report-distributions.md
+  - name: Intercompany expenses
+    href: prod-exp/intercompany-expense.md
+  - name: Define expense policies
+    href: prod-exp/travel-expense-policies.md
+  - name: View an expense report
+    href: prod-exp/view-expense-report.md
+  - name: Post an expense report
+    href: prod-exp/post-expense.md
+  - name: Expense reports and multiple approvers
+    href: prod-exp/expense-report-multiple-approvers.md
+  - name: VAT recovery in Expense management
+    href: prod-exp/VAT-expense-report.md
+  - name: Per diem rules
+    href: prod-exp/per-diem.md
+  - name: Travel requisitions
+    href: prod-exp/travel-req.md
+  - name: Personal expenses on an expense report
+    href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation  
   items:
   - name: Project Service Automation overview
@@ -941,3 +1079,4 @@
       items: 
       - name: Add custom forms for entities
         href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
+
