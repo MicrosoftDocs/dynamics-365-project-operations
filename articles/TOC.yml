@@ -782,3 +782,162 @@
       href: psa/FAQ-zero-price-time-sales-actuals.md
     - name: Why can’t I delete records from the Actuals entity?
       href: psa/FAQ-deleting-actuals.md
+  - name: Prject Service Automation 2.x and 1.x
+    items: 
+    - name: FAQ and troubleshooting
+      items: 
+      - name: How do I assign a resource to a task (app version 2.x)?
+        href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
+      - name: How do I "soft book" resources (app version 2.x)?
+        href: FAQ-soft-book-in-web-app.md
+      - name: How do I customize the Project Stages business process flow?
+        href: FAQ-customize-bpf.md
+      - name: Upgrade considerations for the work breakdown structure
+        href: upgrade-considerations-tasks.md
+    - name: White papers
+      href: psa/white-papers.md
+    - name: Administrator guide
+      href: psa/admin-guide.md
+    - name: Install and customize
+      href: psa/install-customize.md
+    - name: Use demo data
+      href: psa/use-demo-data.md
+    - name: Configure Project Service Automation
+      items: 
+      - name: Configure the Project Service Automation application
+        href: psa/configure.md
+      - name: Set up time units
+        href: psa/set-up-time-units.md
+      - name: Set up currencies and exchange rates
+        href: psa/set-up-currencies-exchange-rates.md
+      - name: Create organizational units
+        href: psa/create-organizational-units.md
+      - name: Set up invoice frequencies
+        href: psa/set-up-invoice-frequencies.md
+      - name: Configure transaction categories
+        href: psa/configure-transaction-categories.md
+      - name: Configure expense categories
+        href: psa/configure-expense-categories.md
+      - name: Create product catalog items
+        href: psa/create-product-catalog-items.md
+      - name: Create a price list
+        href: psa/create-price-list.md
+    - name: Resources
+      items: 
+      - name: Set up resources
+        href: psa/set-up-resources.md
+      - name: Add resources
+        href: psa/add-resources.md
+      - name: Add resource skills
+        href: psa/add-resource-skills.md
+      - name: Set up proficiency models
+        href: psa/set-up-proficiency-models.md
+      - name: Add resource roles
+        href: psa/add-resource-roles.md
+      - name: Configure resource roles
+        href: psa/configure-resource-roles.md
+      - name: Associate skills with resources
+        href: psa/associate-skills-with-resources.md
+      - name: Associate skills with resource roles
+        href: psa/associate-skills-with-resource-roles.md
+      - name: Create a work hours template
+        href: psa/create-work-hours-template.md
+      - name: Apply a calendar to a resource
+        href: psa/apply-calendar-resource.md
+      - name: Configure additional settings
+        href: psa/configure-additional-parameters-settings.md
+      - name: Enable Project Finder Mobile
+        href: psa/enable-project-finder-mobile-app-features.md
+    - name: Resource management
+      items: 
+      - name: Resource manager guide
+        href: psa/resource-manager-guide.md
+      - name: Manage resource requests
+        href: psa/manage-resource-requests.md
+      - name: Schedule resources for a project
+        href: psa/schedule-resources-project.md
+      - name: View resource availability
+        href: psa/view-resource-availability.md
+      - name: View resource utilization
+        href: psa/view-resource-utilization.md
+      - name: Universal Resource Scheduling (URS)
+        href: https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
+    - name: Project management
+      items:
+      - name: Project manager guide
+        href: psa/project-manager-guide.md
+      - name: Provide work estimates
+        href: psa/provide-estimates-project-during-sales-process.md
+      - name: Create a project
+        href: psa/create-project.md
+      - name: Schedule a project with a work breakdown structure
+        href: psa/schedule-project-work-breakdown-structure.md
+      - name: Determine project cost and revenue estimates
+        href: psa/determine-project-cost-revenue-estimates.md
+      - name: Track project progress and cost
+        href: psa/track-project-progress-cost.md
+      - name: Create a project template
+        href: psa/create-project-template.md
+      - name: Submit resource requests
+        href: psa/submit-resource-requests.md
+      - name: Create an Office 365 Group for a project
+        href: psa/create-office-365-group-project.md
+      - name: Add documents to a project
+        href: psa/add-documents-project.md
+      - name: Track a project’s status
+        href: psa/track-project-status.md
+      - name: View project team members and manage bookings
+        href: psa/view-project-team-members-manage-bookings.md
+      - name: View and edit project estimates
+        href: psa/view-edit-project-estimates.md
+      - name: Approve time and expenses
+        href: psa/approve-time-expenses.md
+      - name: Review project actuals
+        href: psa/review-project-actuals.md
+      - name: View and send invoices
+        href: psa/view-send-invoices.md
+      - name: View dashboards and reports
+        href: psa/view-dashboards-reports.md
+      - name: Use the add-in to plan work in Microsoft Project
+        href: psa/add-plan-work-microsoft-project.md
+    - name: Account management
+      items: 
+      - name: Account manager guide
+        href: psa/account-manager-guide.md
+      - name: Create a customer account
+        href: psa/create-customer-account.md
+      - name: Create a project opportunity
+        href: psa/create-project-opportunity.md
+      - name: Create a project quote
+        href: psa/create-project-quote.md
+      - name: Create a project contract
+        href: psa/create-project-contract.md
+    - name: Time and expense
+      items:
+      - name: Time, expense, and collaboration
+        href: psa/time-expense-collaboration-guide.md
+      - name: Get the apps
+        href: psa/get-apps.md
+      - name: Sign in
+        href: psa/sign-in.md
+      - name: View your schedule
+        href: psa/view-schedule.md
+      - name: Manage projects and bookings in Office 365
+        href: psa/manage-project-bookings-office-365-calendar.md
+      - name: Enter time
+        href: psa/enter-time.md
+      - name: Enter expenses
+        href: psa/enter-expenses.md
+      - name: Delegate time or expense entry
+        href: psa/allow-someone-else-enter-time-entry-expense.md
+      - name: Schedule time off
+        href: psa/schedule-time-off.md
+      - name: Collaborate using Office 365 Groups](collaborate-project-team-members-office-365-groups.md
+      - name: Find projects with Project Finder mobile
+        href: psa/find-next-project-finder-mobile-app.md
+      - name: Project Resource Hub guide
+        href: psa/project-resource-hub-users-guide.md
+    - name: Developer notes
+      items: 
+      - name: Add custom forms for entities
+        href: psa/psa/developer-guides/add-custom-qoi-forms-v2.x.md
