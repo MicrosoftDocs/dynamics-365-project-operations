@@ -623,7 +623,7 @@
     - name: Set up role-based pricing
       href: prod-pma/set-up-role-based-pricing.md
     - name: Create a project team
-      href: prod-pma/reate-project-team.md
+      href: prod-pma/create-project-team.md
     - name: Synchronize resource capacity
       href: prod-pma/synchronize-resource-capacity.md
     - name: Project resource scheduling performance
