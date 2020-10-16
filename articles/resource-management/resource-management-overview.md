@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Resource management home page
+title: Resource management overview
 description: This topic provides information about Resource management functionality in Dynamics 365 Project operations. 
 author: ruhercul
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.date: 06/22/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-customerservice
-ms.technology: 
+#
 
 # optional metadata
 
@@ -29,4 +29,4 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Resource management home page
+# Resource management overview
