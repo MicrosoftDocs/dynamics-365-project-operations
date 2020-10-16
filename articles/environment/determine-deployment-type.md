@@ -24,7 +24,7 @@ Project Operations includes the capabilities that shipped with Project Service A
 
 ## Existing customers of Dynamics 365 Finance using Project management and accounting 
 
-Existing customers of Finance who use the Project management and accounting functionality can continue use this as is. See [Project Operations for stocked/production order scenarios](#pma).
+Existing customers of Finance who use the Project management and accounting functionality can continue to use this as is. See [Project Operations for stocked/production order scenarios](#pma).
 
 
 ## Deployment types
@@ -36,7 +36,7 @@ Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will h
 - [Project Operations for resource/non-stocked scenarios](#integrated)
 - [Project Operations for stocked/production order scenarios](#pma)
 
-Project Operations support stocked/production order scenarios and non-stocked/resource-based scenarios on the same environment through legal entity-level configurations. For example, Contoso can leverage stocked/production order capabilities in their US manufacturing facility (Legal entity = Contoso Manufacturing United States). Contoso can leverage non-stocked/resource-based capabilities in their Contoso Robotics Arms servicing facility in UK (Legal entity = Contoso Robotics United Kingdom).
+Project Operations support stocked/production order scenarios and non-stocked/resource-based scenarios on the same environment through legal entity-level configurations. For example, Contoso can use the stocked/production order capabilities in their US manufacturing facility (Legal entity = Contoso Manufacturing United States). Contoso can use the non-stocked/resource-based capabilities in their Contoso Robotics Arms servicing facility in UK (Legal entity = Contoso Robotics United Kingdom).
 
 ### <a  name="lite"></a>Lite deployment - deal to proforma invoicing
 
