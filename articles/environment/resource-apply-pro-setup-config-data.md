@@ -22,7 +22,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 ![Configuration Migration](./media/1ConfigurationMigration.png)
 
-4. On Page 2 of the CMT Wizard, select **Office 365** as the **Deployment Type**.
+4. On Page 2 of the CMT Wizard, select **Microsoft 365** as the **Deployment Type**.
 5. Select the **Display a list of available organizations** and **Show Advanced** check boxes.
 6. Select the region of your tenant, enter your credentials, and select **Login**.
 

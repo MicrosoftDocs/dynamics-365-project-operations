@@ -31,10 +31,11 @@ Project Operations front-end capabilities include the following roles:
 
 
 Microsoft Project for the Web includes the following roles:
-| Role                          | Description                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Project user | Collaborative user of Project who is able to create their own projects and view any projects shared with them.| User|
-| Project system | Role used for application context. Customers should not use this system role. | Global|
+
+| Role           | Description                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Project user   | Collaborative user of Project   who is able to create their own projects and view any projects shared with   them. | User   |
+| Project system | Role used for application   context. Customers should not use this system role.                                    | Global |
 
 ## Security enforcement
 Actions that are performed at the project level are performed in the context of the logged in user. This means that in order to create, open, or delete a project, the user is required to have access available in CDS. Access in CDS may be granted through any of the possible mechanisms included in the platform. For example, a user with a larger scope may access the project or if an explicit project share action has been performed which grants the user access.
@@ -51,6 +52,8 @@ Groups allow the permissions of the project and supporting collaboration artifac
 Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.
 
 Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group. For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Group mode](./media/groupsmode.png)
 
 1. The Project is created and owned by the creating User.
 2. The Project owner is updated to the team.
