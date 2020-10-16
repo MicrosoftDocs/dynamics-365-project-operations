@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-projectoperations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -17,6 +17,6 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Setting up pricing for product catalog items in Dynamics 365 Project Operations is the same as in Dynamics 365 Sales.
 
-Because products can't be estmated or consumed on projects in Project Operations, setting product catalog prices on project price lists for quotes and contracts isn't relevant.
+Because products can't be estimated or consumed on projects in Project Operations, setting product catalog prices on project price lists for quotes and contracts isn't relevant.
 
-Product catalog prices should be setup in the product price of a quote, contract or accounts. Don't set up product catalog prices in the project price lists on these entities. Project price lists are a Project Operations construct and there is application-specific business logic that copies these price lists from a quote to a contract to create a contract-specific project price list. This copy operation can delay the quote win process if the project price list on the quote gets too large. Product price lists, however, aren't copied to create custom price lists on contracts and therefore don't impact the performance of the quote win process.
+Product catalog prices should be set up in the product price of a quote, contract or accounts. Don't set up product catalog prices in the project price lists on these entities. Project price lists are a Project Operations construct. aThere is application-specific business logic that copies the price lists from a quote to a contract to create a contract-specific project price list. This copy operation can delay the quote win process if the project price list on the quote gets too large. Product price lists, however, aren't copied to create custom price lists on contracts and therefore don't impact the performance of the quote win process.
