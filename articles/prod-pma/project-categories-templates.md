@@ -101,7 +101,7 @@ When you're synchronizing to Project Service Automation, you must use Microsoft 
 
 The following illustration shows an example of the template task mapping in Data integration. The mapping shows the field information that will be synchronized from Finance to Project Service Automation.
 
-[![Template mapping](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![Project expense category to Project Service Automation template mapping](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## Project expense category synchronization from Project Service Automation to Finance
 
@@ -129,4 +129,4 @@ The following illustration shows an example of the template task mapping in Data
 > [!NOTE]
 > The mapping shows the field information that will be synchronized from Project Service Automation to Finance.
 
-[![Template mapping](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![Project Service Automation to Finance template mapping](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
