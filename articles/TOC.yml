@@ -404,6 +404,8 @@
       items: 
       - name: Product-based contract lines overview
         href: pro/sales/product-based-contract-lines-overview-sales.md
+      - name: Costing product-based contract lines
+        href: pro/sales/cost-product-based-contract-lines-sales.md
     - name: Project-based contract lines
       items: 
       - name: Configuring chargeable components of a project-based contract line
