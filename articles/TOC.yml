@@ -94,6 +94,8 @@
         items: 
         - name: Configure chargeable components of a project-based contract line
           href: sales/configure-chargeable-contract-line.md
+        - name: Import an estimate to a project-based contract line
+          href: sales/import-estimate-project-contract-line.md
         - name: Confirm a project contract
           href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
@@ -386,7 +388,7 @@
           href: pro/sales/import-estimate-project-quote-sales.md
         - name: Invoice schedules on project-based quote lines
           href: sales/invoice-schedule-quote-line.md 
-        - name: Configure the charegeable components of a quote line
+        - name: Configure the chargeable components of a quote line
           href: pro/sales/configure-chargeable-components-quote-line-sales.md
     - name: Copy project-based quotes
       href: sales/lose-quote.md
@@ -404,6 +406,8 @@
       items: 
       - name: Configuring chargeable components of a project-based contract line
         href: pro/sales/configure-chargeable-components-contract-line.md
+      - name: Importing an estimate to a project-based contract line
+        href: pro/sales/import-estimate-project-contract-line-sales.md
     - name: Copying project contracts
       href: pro/sales/copy-project-contracts-sales.md
     - name: Confirm a project contract
@@ -898,7 +902,7 @@
       href: psa/reports-reporting-dynamics-365-project-service.md
     - name: Dashboards
       href: psa/reports-dashboards.md
-    - name: Workign with the Project Service Automation data model
+    - name: Working with the Project Service Automation data model
       href: psa/reports-working-project-service-data-model.md
   - name: Time entry
     items: 
@@ -920,7 +924,7 @@
       href: psa/FAQ-zero-price-time-sales-actuals.md
     - name: Why can’t I delete records from the Actuals entity?
       href: psa/FAQ-deleting-actuals.md
-  - name: Prject Service Automation 2.x and 1.x
+  - name: Project Service Automation 2.x and 1.x
     items: 
     - name: FAQ and troubleshooting
       items: 
