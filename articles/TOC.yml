@@ -388,7 +388,7 @@
           href: pro/sales/import-estimate-project-quote-sales.md
         - name: Invoice schedules on project-based quote lines
           href: sales/invoice-schedule-quote-line.md 
-        - name: Configure the charegeable components of a quote line
+        - name: Configure the chargeable components of a quote line
           href: pro/sales/configure-chargeable-components-quote-line-sales.md
     - name: Copy project-based quotes
       href: sales/lose-quote.md
@@ -902,7 +902,7 @@
       href: psa/reports-reporting-dynamics-365-project-service.md
     - name: Dashboards
       href: psa/reports-dashboards.md
-    - name: Workign with the Project Service Automation data model
+    - name: Working with the Project Service Automation data model
       href: psa/reports-working-project-service-data-model.md
   - name: Time entry
     items: 
@@ -924,7 +924,7 @@
       href: psa/FAQ-zero-price-time-sales-actuals.md
     - name: Why can’t I delete records from the Actuals entity?
       href: psa/FAQ-deleting-actuals.md
-  - name: Prject Service Automation 2.x and 1.x
+  - name: Project Service Automation 2.x and 1.x
     items: 
     - name: FAQ and troubleshooting
       items: 
