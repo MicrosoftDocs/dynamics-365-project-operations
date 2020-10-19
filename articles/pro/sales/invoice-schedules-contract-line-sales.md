@@ -19,7 +19,7 @@ You can an invoice schedule to a  project-based contract line. Invoicing is only
 
 ## Create a time and material invoice schedule for a contract line
 
-When a project-based contract line has a time and material billing method, you can create a date-based invoice schedule. To automatically generate a date-based invoice schedule complete the following steps.
+When a project-based contract line has a time and material billing method, you can create a date-based invoice schedule. To automatically generate a date-based invoice schedule, complete the following steps.
 
 1. Go to **Settings** > **Invoice frequencies** and set up an invoice frequence.
 2. Go to the project contract record, and on the **Summary** tab, in the **Requested Delivery Date** field, select a date.
@@ -67,4 +67,4 @@ You can generate fixed price milestones manually when they are not periodically 
 
 3. Select **Save and Close**.
 | Line Amount | Quick create | Amount or Value of the Milestone that will be invoiced to the customer | This is propagated to the Project contract line Milestone and to the Invoice |
-| Tax | Quick create | Tax amount that will applied on the Milestone | This is propagated to the Project contract line Milestone and to the Invoice |
+| Tax | Quick create | Tax amount that will be applied on the Milestone | This is propagated to the Project contract line Milestone and to the Invoice |
