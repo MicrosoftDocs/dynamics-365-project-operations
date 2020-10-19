@@ -94,6 +94,8 @@
         items: 
         - name: Configure chargeable components of a project-based contract line
           href: sales/configure-chargeable-contract-line.md
+        - name: Import an estimate to a project-based contract line
+          href: sales/import-estimate-project-contract-line.md
         - name: Confirm a project contract
           href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
@@ -404,6 +406,8 @@
       items: 
       - name: Configuring chargeable components of a project-based contract line
         href: pro/sales/configure-chargeable-components-contract-line.md
+      - name: Importing an estimate to a project-based contract line
+        href: pro/sales/import-estimate-project-contract-line-sales.md
     - name: Copying project contracts
       href: pro/sales/copy-project-contracts-sales.md
     - name: Confirm a project contract
