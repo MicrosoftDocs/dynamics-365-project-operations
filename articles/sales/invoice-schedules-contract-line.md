@@ -18,7 +18,7 @@ You can an invoice schedule to a  project-based contract line. Invoicing is only
 
 ## Create a time and material invoice schedule for a contract line
 
-When a project-based contract line has a time and material billing method, you can create a date-based invoice schedule. To automatically generate a date-based invoice schedule complete the following steps.
+When a project-based contract line has a time and material billing method, you can create a date-based invoice schedule. To automatically generate a date-based invoice schedule, complete the following steps.
 
 1. Go to **Settings** > **Invoice frequencies** and set up an invoice frequence.
 2. Go to the project contract record, and on the **Summary** tab, in the **Requested Delivery Date** field, select a date.
