@@ -28,7 +28,7 @@ A milestone on a draft invoice is shown in this view with a billing status of **
 
 This view lists all unbilled sales actuals that haven't been invoiced across all project contracts in the system. Single or multiple unbilled sales actuals can be marked as **Ready to Invoice** or **Not Ready to Invoice** from this view. Marking an unbilled sales actual as **Ready to Invoice** makes it available to be put on a draft invoice.
 
-Unbilled sales actuals that have a **Not-to-Exceed** status of **Failed** can't be marked as **Ready to Invoice**. If these actuals need to be marked as such, reset the status on other actuals on the contract line that are committed, and then re-evaluate the **Not-to-Exceed** status.
+Unbilled sales actuals that have a **Not-to-Exceed** status of **Failed** can't be marked as **Ready to Invoice**. If these actuals need to be marked as such, reset the status on other actuals on the contract line that are committed, and then evaluate the **Not-to-Exceed** status.
 
 In the case of multi-customer contract lines that have a time and material billing method, when time and expenses are approved, an unbilled sales actual is created for each customer on the contract line according to the billing percentage split defined for each customer on the contract line. In the **Time and Material Billing Backlog** view, you'll see these individual customer-specific unbilled sales actuals. Each of these unbilled sales actual records can be marked as **Ready to Invoice** separately from this view.
 
