@@ -596,6 +596,8 @@
         href: proforma-invoicing/manage-billing-backlog.md
       - name: Creating a manual proforma invoice
         href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+      - name: Invoice a retainer or an advance
+        href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
       - name: Corrected invoices
         href: proforma-invoicing/corrective-invoices.md
       - name: Configure automated invoice creation
