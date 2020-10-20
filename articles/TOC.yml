@@ -104,6 +104,8 @@
         href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
     items: 
+    - name: Set up price lists
+      href: pricing-costing/price-list-setup.md
     - name: Product price lists
       href: pricing-costing/product-price-list.md
     - name: Project price lists
@@ -426,6 +428,8 @@
       href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
     items: 
+    - name: Set up price lists
+      href: pricing-costing/price-list-setup.md
     - name: Project price lists
       items:
       - name: Price list setup for sales
