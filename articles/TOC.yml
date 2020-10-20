@@ -405,7 +405,7 @@
     - name: Key concepts of project contracts
       href: pro/sales/contracts-key-concepts-sales.md
     - name: Project contract fields and information
-      href: sales/project-contract-settings-sales.md
+      href: pro/sales/project-contract-settings-sales.md
     - name: Product-based contract lines
       items: 
       - name: Product-based contract lines overview
