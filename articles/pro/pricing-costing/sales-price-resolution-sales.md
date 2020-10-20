@@ -1,6 +1,6 @@
 ---
 title: Resolving sales prices for estimates and actuals
-description: This topic provides information about resolving sales prices on esimates and actuals.
+description: This topic provides information about resolving sales prices on estimates and actuals.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
