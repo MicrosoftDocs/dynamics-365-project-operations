@@ -312,6 +312,8 @@
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
     items:
+    - name: Manage the billing backlog
+      href: proforma-invoicing/manage-billing-backlog.md
     - name: Create a manual proforma invoice
       href: proforma-invoicing/create-manual-proforma-invoice.md
     - name: Confirm a proforma invoice
@@ -588,6 +590,8 @@
         href: actuals/create-confirm-correction-journals.md
     - name: Proforma invoicing
       items:
+      - name: Manage the billing backlog
+        href: proforma-invoicing/manage-billing-backlog.md
       - name: Creating a manual proforma invoice
         href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
       - name: Corrected invoices
