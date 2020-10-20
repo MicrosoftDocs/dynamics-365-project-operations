@@ -14,12 +14,12 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-Dynamics 365 Project Operations supports retainer-based contracts and one-time advances. On a project contract, you can record a schedule of retainers or a one-time advance. However, recording at the project contract level doesn't immediately make a retainer or advance available for use. To use a retainer or advance on a invoice that actully charges to customer, the retainer or advance must be invoiced first.
+Dynamics 365 Project Operations supports retainer-based contracts and one-time advances. On a project contract, you can record a schedule of retainers or a one-time advance. However, recording at the project contract level doesn't immediately make a retainer or advance available for use. To use a retainer or advance on an invoice that actually charges the customer, the retainer or advance must be invoiced first.
 
 Complete the following steps to invoice a retainer or an advance.
 
 1. Select **Sales** > **Billing** > **Retainers and Advances**. 
-2. On the **Advances and Retainers** page, use the filter to select the specific retainer or advance to invoice and mark it as **Ready to Invoice** .
+2. On the **Advances and Retainers** page, use the filter to select the specific retainer or advance to invoice and mark it as **Ready to Invoice**.
 3. Create an invoice either manually from the **Project Contract** list or detail page. The retainer or advance is shown on the draft invoice in the **Advances and Retainers** section on the **Invoice** page.
 4. Confirm the invoice. This will make the retainer or advance available for use. You can verify the invoice on the **Retainers and Advances** list page. For an invoiced Advance or Retainer, the available amount is shown in the grid.
 
@@ -28,7 +28,7 @@ Complete the following steps to invoice a retainer or an advance.
 You can create a retainer or an advance directly on an invoice.
 
 1. On a draft invoice, on the **Advances and Retainers** subgrid, select **New** to create a new retainer or advance. 
-2. On the **Quick Create** page, add the necessary information, and then select **Save**. The retainer or advance is created on the project contract related to the invoice. The retainer or advance is automatically marked as **Ready to Invoice** and then added to the **Advances and Retainers** sub-grid on the **nvoice** page.
+2. On the **Quick Create** page, add the necessary information, and then select **Save**. The retainer or advance is created on the project contract related to the invoice. The retainer or advance is automatically marked as **Ready to Invoice** and then added to the **Advances and Retainers** subgrid on the **Invoice** page.
 
 ## Reconcile an invoiced retainer or advance
 
