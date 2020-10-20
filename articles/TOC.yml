@@ -122,6 +122,8 @@
           href: pricing-costing/cost-price-resolution.md
     - name: Defaults and overrides
       items:
+      - name: Resolve sales prices for estimates and actuals
+        href: pricing-costing/sales-price-resolution.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
     - name: Pricing dimensions
@@ -440,6 +442,8 @@
           href: pro/pricing-costing/cost-price-resolution-sales.md
     - name: Defaults and overrides
       items:
+      - name: Resolving sales prices for estimates and actuals
+        href: pro/pricing-costing/sales-price-resolution-sales.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
     - name: Pricing dimensions
