@@ -90,6 +90,8 @@
       items:
       - name: Key concepts - Project contracts
         href: sales/contracts-key-concepts.md
+      - name: Project contract settings
+        href: sales/project-contract-settings.md
       - name: Project-based contract lines
         items: 
         - name: Configure chargeable components of a project-based contract line
@@ -402,6 +404,8 @@
     items: 
     - name: Key concepts of project contracts
       href: pro/sales/contracts-key-concepts-sales.md
+    - name: Project contract fields and information
+      href: pro/sales/project-contract-settings-sales.md
     - name: Product-based contract lines
       items: 
       - name: Product-based contract lines overview
