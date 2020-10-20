@@ -31,7 +31,7 @@ ms.search.validFrom: 2020-10-01
 
 # Create a manual proforma invoice
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Invoicing gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when the time and expense entries that project team members submit are approved.
 
