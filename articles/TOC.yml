@@ -44,6 +44,8 @@
       href: sales/manage-leads.md
     - name: Manage opportunities
       items:
+      - name: Manage project-based opportunities
+        href: sales/manage-project-based-opportunities.md
       - name: Opportunity header
         href: sales/opportunity-header.md
       - name: Project-based lines
@@ -356,6 +358,8 @@
       href: pro/sales/managing-leads-sales.md
     - name: Manage opportunities
       items: 
+      - name: Manage project-based opportunities
+        href: sales/manage-project-based-opportunities.md
       - name: Opportunity header
         href: pro/sales/opportunity-header-sales.md
       - name: Project-based lines
