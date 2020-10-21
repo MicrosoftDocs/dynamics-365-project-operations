@@ -28,6 +28,8 @@
         href: environment/resource-provision-new-environment.md
       - name: Security model
         href: environment/security-model.md
+      - name: Configure Project Operations integration per legal entity
+        href: environment/resource-configure-integration-per-legal-entity.md
   - name: Sales process
     items:
     - name: Sales overview
