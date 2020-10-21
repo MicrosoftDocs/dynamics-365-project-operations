@@ -44,6 +44,8 @@
       href: sales/manage-leads.md
     - name: Manage opportunities
       items:
+      - name: Manage project-based opportunities
+        href: sales/manage-project-based-opportunities.md
       - name: Opportunity header
         href: sales/opportunity-header.md
       - name: Project-based lines
@@ -90,6 +92,8 @@
       items:
       - name: Key concepts - Project contracts
         href: sales/contracts-key-concepts.md
+      - name: Project contract settings
+        href: sales/project-contract-settings.md
       - name: Project-based contract lines
         items: 
         - name: Configure chargeable components of a project-based contract line
@@ -102,6 +106,8 @@
         href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
     items: 
+    - name: Set up price lists
+      href: pricing-costing/price-list-setup.md
     - name: Product price lists
       href: pricing-costing/product-price-list.md
     - name: Project price lists
@@ -122,6 +128,8 @@
           href: pricing-costing/cost-price-resolution.md
     - name: Defaults and overrides
       items:
+      - name: Resolve sales prices for estimates and actuals
+        href: pricing-costing/sales-price-resolution.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
     - name: Pricing dimensions
@@ -306,6 +314,8 @@
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
     items:
+    - name: Manage the billing backlog
+      href: proforma-invoicing/manage-billing-backlog.md
     - name: Create a manual proforma invoice
       href: proforma-invoicing/create-manual-proforma-invoice.md
     - name: Confirm a proforma invoice
@@ -348,6 +358,8 @@
       href: pro/sales/managing-leads-sales.md
     - name: Manage opportunities
       items: 
+      - name: Manage project-based opportunities
+        href: sales/manage-project-based-opportunities.md
       - name: Opportunity header
         href: pro/sales/opportunity-header-sales.md
       - name: Project-based lines
@@ -400,6 +412,8 @@
     items: 
     - name: Key concepts of project contracts
       href: pro/sales/contracts-key-concepts-sales.md
+    - name: Project contract fields and information
+      href: pro/sales/project-contract-settings-sales.md
     - name: Product-based contract lines
       items: 
       - name: Product-based contract lines overview
@@ -418,8 +432,12 @@
       href: pro/sales/copy-project-contracts-sales.md
     - name: Confirm a project contract
       href: pro/sales/confirm-contract-sales.md
+    - name: Advances and retainer-based contracts
+      href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
   - name: Pricing and costing
     items: 
+    - name: Set up price lists
+      href: pricing-costing/price-list-setup.md
     - name: Project price lists
       items:
       - name: Price list setup for sales
@@ -440,6 +458,8 @@
           href: pro/pricing-costing/cost-price-resolution-sales.md
     - name: Defaults and overrides
       items:
+      - name: Resolving sales prices for estimates and actuals
+        href: pro/pricing-costing/sales-price-resolution-sales.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
     - name: Pricing dimensions
@@ -576,8 +596,12 @@
         href: actuals/create-confirm-correction-journals.md
     - name: Proforma invoicing
       items:
+      - name: Manage the billing backlog
+        href: proforma-invoicing/manage-billing-backlog.md
       - name: Creating a manual proforma invoice
         href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+      - name: Invoice a retainer or an advance
+        href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
       - name: Corrected invoices
         href: proforma-invoicing/corrective-invoices.md
       - name: Configure automated invoice creation
