@@ -23,8 +23,8 @@ Conplete the following steps to enable required features.
 1. In Dynamics 365 Finance, go to the **Feature Management** workspace.
 2. In **Feature list**, find and enable the following features:
   
-  - **Enable multiple contract lines for a project**
-  - **Enable Project Operations on Dynamics 365 Customer Engagement**
+    - **Enable multiple contract lines for a project**
+    - **Enable Project Operations on Dynamics 365 Customer Engagement**
 
 > [!NOTE]
 > If you don't see **Feature keys** listed, verify that your Finance version meets the minimum version requirement (application version 10.0.13 with all quality updates applied or higher). Select **Check for updates** to refresh the feature list.
