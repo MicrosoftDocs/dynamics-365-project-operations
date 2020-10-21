@@ -18,7 +18,7 @@ This topic walks you through the steps required to configure Dynamics 365 Projec
 
 ## Enable feature keys in Dynamics 365 Finance
 
-Conplete the following steps to enable required features.
+Complete the following steps to enable required features.
 
 1. In Dynamics 365 Finance, go to the **Feature Management** workspace.
 2. In **Feature list**, find and enable the following features:
@@ -31,7 +31,7 @@ Conplete the following steps to enable required features.
 
 ## Define the Project Operations deployment scenario for a legal entity
 
-Project Operations on Dynamics 365 Customer Engagement can be enabled on a legal entity level. In the same environment, you can have one legal entity using Project Operations on Dynamics 365 Customer Engagement for resource/non-stocked based scenarios and another legal entity using Project Operations for stocked/production order scenarios.
+You can enable Project Operations on Dynamics 365 Customer Engagement on a legal entity level. You can have one legal entity using Project Operations on Dynamics 365 Customer Engagement for resource/non-stocked based scenarios. In the same environment, you can have another legal entity using Project Operations for stocked/production order scenarios.
 
 1. In Dynamics 365 Finance, go to **Project management and accounting** > **Setup** > **Global project management and accounting parameters**.
 2. In the list of available legal entities, select entities where multiple contract lines and Project Operations on Dynamics 365 Customer Engagement features will be enabled. Leave legal entities that will be using Project Operations for stocked/production order scenarios unselected.
@@ -41,7 +41,7 @@ Project Operations on Dynamics 365 Customer Engagement can be enabled on a legal
 
 ## Configure Project management and accounting parameters
 
-Each legal entity using Project Operations on Dynamics 365 Customer Engagement needs a set of default parameters configured on the **Project Operations** tab of the **Project management and accounting parameters** page. The parameters are:
+Each legal entity using Project Operations on Dynamics 365 Customer Engagement needs a set of default parameters. These parameters are configured on the **Project Operations** tab on the **Project management and accounting parameters** page. The parameters are:
 
   - **Billing type defaults**: Project Operations uses a fixed set of billing type defaults that must be mapped to line properties Finance. Create a record for each billing type: **Not specified**, **Chargeable**, **Non-chargeable**, **Complimentary**, and **Not available**.
   - **Project category defaults**: Select the default project categories to be used for each transaction type. These defaults will be used in the **Project Operations Integration journal** and in estimates where no transaction category is specified for the project actual.
