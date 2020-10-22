@@ -600,6 +600,8 @@
       items:
       - name: Manage the billing backlog
         href: proforma-invoicing/manage-billing-backlog.md
+      - name: Manage not-to-exceed status and validations
+        href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
       - name: Creating a manual proforma invoice
         href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
       - name: Invoice a retainer or an advance
