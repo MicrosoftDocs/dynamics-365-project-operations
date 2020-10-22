@@ -24,13 +24,13 @@ To set up a customer-specific project price list, in the **Sales** area, navigat
 2. Locate and double-click a customer record to open the **Account** details page.
 3. On the **Project Price lists** tab, select **+ New Project Price List^^.
 4. On the **New Project Price List** page, select a price list from the drop-down. Only price lists that have the context set to **Sales** and whose currency matches the account currency are included.
-5. Name the association, and then select **Save**. A customer-specific project price list is created. This price list will be used to default project Pprices on project quotes or contracts created for this customer where the created date of the cuote or project contract falls within the date effectivity of the price list.
+5. Name the association, and then select **Save**. A customer-specific project price list is created. This price list will be used to default project prices on project quotes or contracts created for this customer where the created date of the quote or project contract falls within the date effectivity of the price list.
 
 ## Custom pricing on project quotes
 
 On project quotes, you can have project pricing that starts with a default standard price list that defaults from the customer or from the project parameters.
 
-When you need custom pricing for project related work on a particular quote, you can get that from the project price lists associated entity.
+When you need custom pricing for project-related work on a particular quote, you can get that from the project price lists associated entity.
 
 Complete the following steps to set up quote-specific project pricing.
 
@@ -39,7 +39,7 @@ Complete the following steps to set up quote-specific project pricing.
 
 All the project price lists that are attached to the quote are copied to new price lists. The names of the new price lists reflect the name of quote with a date-time stamp for when these price lists were created.
 
-You can now each of those price lists and make updates to labor (role price) and expense (category price) prices. These prices will only be applicable to this project quote.
+You can use each of those price lists and make updates to labor (role price) and expense (category price) prices. These prices will only be applicable to this project quote.
 
 ## Price lists on a project contract
 
