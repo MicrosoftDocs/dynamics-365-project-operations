@@ -438,8 +438,12 @@
       href: pro/sales/copy-project-contracts-sales.md
     - name: Confirm a project contract
       href: pro/sales/confirm-contract-sales.md
-    - name: Advances and retainer-based contracts
-      href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+    - name: Advances and retainers
+      items: 
+      - name: Advances and retainer-based contracts
+        href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+      - name: Set up a retainer schedule
+        href: pro/sales/set-up-schedule-retainers-sales.md
   - name: Pricing and costing
     items: 
     - name: Set up price lists
