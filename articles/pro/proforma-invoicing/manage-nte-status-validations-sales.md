@@ -27,7 +27,7 @@ The checks at each level involve ensuring that the amount of sales value on this
 
 If the check passes, the approval is given a validation status of **Success**.
 
-If the check fails, the approval is given a validation status of **Failed** and the not-to-exceed validation detail will give the user a text that describes at which level validation failed.
+If the check fails, the approval is given a validation status of **Failed**. The not-to-exceed validation detail will inform the user at which level the validation failed.
 
 When the submitted time or expense entry is considered non-chargeable, the not-to-exceed validation status is set to **Not Applicable** with the validation detail equal to **Not applicable**.
 
@@ -44,7 +44,7 @@ The checks at each level ensure that the amount of sales value on the actual wil
 
 If the check passes, the unbilled sales actual is given a not-to-exceed status of **Committed**.
 
-If the check fails, the unbilled sales actual is given a not-to-exceed status of **Failed** and the validation detail informs the user at which level the validation failed.
+If the check fails, the unbilled sales actual is given a not-to-exceed status of **Failed**. The validation detail informs the user at which level the validation failed.
 
 When the unbilled sales actual is considered non-chargeable or complimentary, if there is no not-to-exceed limit setup at any of the four levels, or if the actual being created is Cost, Retainer, Resourcing Unit, or Inter-organization Sales, the **Not-to-Exceed Status** and **Not-to-Exceed Validation Detail** fields must be set to **Not Applicable**.
 
@@ -60,9 +60,9 @@ The not-to-exceed status is reset to **Not Evaluated** on all of the relevant se
 
 ## Reevaluate not-to-exceed status
 
-You can perform a bulk reevaluation of the not-to-exceed status. Reevaluation of the not-to-exceed status is useful when:
+You can perform a bulk re-evaluation of the not-to-exceed status. Re-evaluation of the not-to-exceed status is useful when:
 
-  - There was a re-negotiation of not-to-exceed limits with the customer and actuals will need to be reevaluated.
+  - There was a renegotiation of not-to-exceed limits with the customer and actuals will need to be reevaluated.
   - The Project manager wants to fine-tune the invoicing of unbilled sales backlog by prioritizing one body of work over another.
 
 To reevaluate the not-to-exceed status, select one or more actuals from the **Time and Material Billing Backlog** or **Actuals** view, and select **Reevaluate Not-to-Exceed Status**.
