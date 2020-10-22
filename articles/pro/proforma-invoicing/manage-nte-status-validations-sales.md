@@ -21,7 +21,7 @@ When a time or expense entry is submitted, an approval record is created. If the
   - Check against the limit set up for the customer on the project contract line
   - Check against the limit set up on the contract line
   - Check against the limit set up for the customer
-  - Check against the imit set up on the contract
+  - Check against the limit set up on the contract
 
 The checks at each level involve ensuring that the amount of sales value on this approval will not violate the not-to-exceed limit at that level after accounting for the amount of billing backlog already recorded, and the amount invoiced to date at that level.
 
@@ -38,9 +38,9 @@ When a time or expense entry is approved, cost and unbilled sales actuals record
   - Check against the limit set up for the customer of the project contract line
   - Check against the limit set up on the contract line
   - Check against the limit set up for the customer
-  - Check againstthe limit set up on the contract
+  - Check against the limit set up on the contract
 
-The checks at each level ensure that the amount of sales value on this actual will not violate the not-to-exceed limit at that level after accounting for the amount of billing backlog already recorded, and the amount invoiced to date at that level.
+The checks at each level ensure that the amount of sales value on the actual will not violate the not-to-exceed limit at that level after accounting for the amount of billing backlog already recorded, and the amount invoiced to date at that level.
 
 If the check passes, the unbilled sales actual is given a not-to-exceed status of **Committed**.
 
@@ -50,20 +50,20 @@ When the unbilled sales actual is considered non-chargeable or complimentary, if
 
 ## Reset the not-to-exceed status
 
-You can perform a bulk reset of of the not-to-exceed status. This allows Project managers to adjust not-to-exceed validation to prioritize invoicing of one particular body of work, time, or expenses over others that are already committed from the available not-to-exceed amount.
+You can perform a bulk reset of the not-to-exceed status. This allows Project managers to adjust not-to-exceed validation to prioritize invoicing of one particular body of work, time, or expenses over others that are already committed from the available not-to-exceed amount.
 
 After the not-to-exceed status is reset on unbilled sales actuals, the committed amount is reduced. The Project manager can select another body of work, time, or expenses that previously failed the not-to-exceed validation and reevaluate them. With the reduction in the committed amount, these actuals will now pass the validation. This helps the Project manager exert greater influence and control over the invoiceable transactions for that period.
 
 To reset the not-to-exceed status, select one or more actuals from the **Time and Material Billing Backlog** or **Actuals** view, and then select **Reset Not-to-Exceed Status**.
 
-This will set the Not-To-Exceed status on all the relevant selected actuals to &quot;Not Evaluated&quot; and the Not-to-exceed validation detail = &quot;&quot;. Actuals relevant for resetting Not-To-Exceed status are Unbilled sales actuals that are not already invoiced or not on a draft invoice and are marked as &quot;Chargeable&quot;. Any other actuals selected will be ignored.
+The not-to-exceed status is reset to **Not Evaluated** on all of the relevant selected actuals. Actuals that have their not-to-exceed status reset are unbilled sales actuals that aren't already invoiced, not on a draft invoice, and are marked as chargeable. Any other selected actuals are ignored.
 
 ## Reevaluate not-to-exceed status
 
 You can perform a bulk reevaluation of the not-to-exceed status. Reevaluation of the not-to-exceed status is useful when:
 
   - There was a re-negotiation of not-to-exceed limits with the customer and actuals will need to be reevaluated.
-  - The Project manager wants to fine tune the invoicing of unbilled sales backlog by prioritizing one body of work over another.
+  - The Project manager wants to fine-tune the invoicing of unbilled sales backlog by prioritizing one body of work over another.
 
 To reevaluate the not-to-exceed status, select one or more actuals from the **Time and Material Billing Backlog** or **Actuals** view, and select **Reevaluate Not-to-Exceed Status**.
 
