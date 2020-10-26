@@ -332,6 +332,8 @@
       href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
     items:
+    - name: Financial dimension defaults
+      href: project-accounting/financial-dimension-defaults.md
     - name: Configure project categories
       href: project-accounting/configure-project-categories.md
     - name: Configure accounting for internal projects
@@ -380,6 +382,8 @@
         href: sales/close-opportunity.md
     - name: Manage quotes
       items:
+      - name: Managing project quotes
+        href: pro/sales/manage-quotes-sales.md
       - name: Project quote key concepts
         href: pro/sales/quotes-key-concepts-sales.md
       - name: Summary information on a project quote (Sales)
@@ -610,20 +614,20 @@
       items:
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
-    - name: Proforma invoicing
-      items:
-      - name: Manage the billing backlog
-        href: proforma-invoicing/manage-billing-backlog.md
-      - name: Manage not-to-exceed status and validations
-        href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-      - name: Creating a manual proforma invoice
-        href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-      - name: Invoice a retainer or an advance
-        href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-      - name: Corrected invoices
-        href: proforma-invoicing/corrective-invoices.md
-      - name: Configure automated invoice creation
-        href: proforma-invoicing/configure-automated-invoice-creation.md    
+  - name: Proforma invoicing
+    items:
+    - name: Managing the billing backlog
+      href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+    - name: Manage not-to-exceed status and validations
+      href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+    - name: Creating a manual proforma invoice
+      href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+    - name: Invoice a retainer or an advance
+      href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+    - name: Corrected invoices
+      href: proforma-invoicing/corrective-invoices.md
+    - name: Configure automated invoice creation
+      href: proforma-invoicing/configure-automated-invoice-creation.md    
 - name: Project Operations for Stocked/Production-based scenarios
   items: 
   - name: Project management and accounting overview
