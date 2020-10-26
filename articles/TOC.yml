@@ -332,6 +332,8 @@
       href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
     items:
+    - name: Financial dimension defaults
+      href: project-accounting/financial-dimension-defaults.md
     - name: Configure project categories
       href: project-accounting/configure-project-categories.md
     - name: Configure accounting for internal projects
