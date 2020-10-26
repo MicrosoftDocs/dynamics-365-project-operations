@@ -416,6 +416,8 @@
       href: pro/sales/win-quote-sales.md
   - name: Manage contracts
     items: 
+    - name: Managing project contracts
+      href: pro/sales/manage-contracts-sales.md
     - name: Key concepts of project contracts
       href: pro/sales/contracts-key-concepts-sales.md
     - name: Project contract fields and information
