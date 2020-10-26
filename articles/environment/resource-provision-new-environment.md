@@ -3,7 +3,7 @@ title: Provision a new environment
 description: This topic provides information about how to provision a new Project Operations environment.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
@@ -180,4 +180,10 @@ To run a map with prerequisites, enable the **Show related entity maps** toggle.
 
 ![All Maps Running](./media/22AllMapsRunning.png)
 
-Your Project Operations environment is now provisioned and configured.
+
+## Apply configuration data in CDS for Project Operations (optional)
+
+If you have applied demo data to the Finance environment, see [Set up and apply configuration data in the Common Data Service for Project Operations](resource-apply-pro-setup-config-data.md) to apply demo data to CDS environment.
+
+
+Your Project Operations environment is now provisioned and configured. 
