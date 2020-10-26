@@ -31,13 +31,13 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 **Time and Expense**
 
-The following issues have been fixed:
+The following issue has been fixed:
 
 - Time entry chart showing additional data based on too large of an interval being retrieved.
 
 **Resource Management**
 
-The following issues have been fixed:
+The following issue has been fixed:
 
 - Added package deployer code to skip the Universal Resource Scheduling patch import if a higher version patch already exists.
 
@@ -45,13 +45,13 @@ The following issues have been fixed:
 
 The following issues have been fixed:
 
-- Correct rounding and exchange rate discrepancies resulting in incorrect planned cost in the project tracking grid.
-- Support the ability display two or more react grids the **Project** form.
-- Provided validation to address the ability to assign a task past the calendar end date which results in a failed resource assignment.
+- Corrected rounding and exchange rate discrepancies resulting in incorrect planned cost in the project tracking grid.
+- Support the ability to display two or more react grids on the **Project** form.
+- Provided validation to address the ability to assign a task past the calendar end date, which results in a failed resource assignment.
 - Improved error handling to address Null Reference Exception generated from the following:
 
     - **PreValidateProjectTeamMemberCreate** plug-in
-    - **PreValidateProjectTaskCreate** when a project task is crated without an associated project
+    - **PreValidateProjectTaskCreate** when a project task is created without an associated project
     - **PreProjectTeamMemberCreate** plug-in
     - **PostProjectTeamMemberDelete** plug-in
     - **PreValidateProjectTaskDelete** plug-in
@@ -60,8 +60,6 @@ The following issues have been fixed:
 
 The following issues have been fixed:
 
-- Improve error handling to address Null Reference Exceptions generated from **Copy Project: Estimates HelperResource Management**.
+- Improved error handling to address Null Reference Exceptions generated from **Copy Project: Estimates HelperResource Management**.
 - **Not ready to Invoice** on a **Time and Material Billing Backlog** doesn't clear the billing status.
-- Correct mislabeled **Prices** buttons on the **Role Price** and **Catalog Items** tab.
-
-
+- Corrected mislabeled **Prices** buttons on the **Role Price** and **Catalog Items** tab.
