@@ -1008,7 +1008,7 @@
           href: psa/set-up-time-units.md
         - name: Set up currencies and exchange rates
           href: psa/set-up-currencies-exchange-rates.md
-       - name: Create organizational units
+        - name: Create organizational units
           href: psa/create-organizational-units.md
         - name: Set up invoice frequencies
           href: psa/set-up-invoice-frequencies.md
