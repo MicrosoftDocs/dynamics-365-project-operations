@@ -18,7 +18,7 @@ You can attach an invoice schedule on a project-based contract line. Invoicing i
 
 ## Create a time and material invoice schedule for a project-based contract line
 
-When a project-based contract line has a time and material billing method, you can create a date-based invoice schedule. To automatically generate a date-based invoice schedule, complete the folloiwng steps.
+When a project-based contract line has a time and material billing method, you can create a date-based invoice schedule. To automatically generate a date-based invoice schedule, complete the following steps.
 
 1. Go to **Settings** > **Invoice Frequencies** to set up invoice frequency.
 2. Open the project contract and on the **Summary** tab, set the requested delivery date.
@@ -30,7 +30,7 @@ When a project-based contract line has a time and material billing method, you c
 
     - **Invoice Run Date** is set to the date based on the invoice frequency.
     - **Transaction Cut-off Date** is set to the day before the **Invoice Run Date**.
-    - **Run Status** is automatically set to **Not Run**. When the automatic invoice creation job runs for a certain **Invoice Run Date**,this field is updated to **Run Successful** or **Run Failed**.
+    - **Run Status** is automatically set to **Not Run**. When the automatic invoice creation job runs for a certain **Invoice Run Date**, this field is updated to **Run Successful** or **Run Failed**.
 
 ## Create a fixed price invoice schedule for a project-based contract line
 
@@ -49,11 +49,11 @@ When a project-based contract line has a fixed price billing method, you can cre
     - **Milestone Amount** is calculated by dividing the contract amount on the project-based contract line by the number of milestones as dictated by the frequency, billing start, and requested delivery dates.
     - If the contract line has a value in the **Estimated Tax Amount** field, this field is also apportioned to each milestone equally when generating periodic milestones.
 
-Billing milestones should equal the contracted value of the project-based contract line. If they are not equal, an error occurs. You can fix that error by verifying that the billing milestones total the contracted value of the line by either creating, editing, or deleting milestones. After the changes are made, refresh the page.
+Billing milestones should equal the contracted value of the project-based contract line. If they aren't equal, an error occurs. You can fix that error by verifying that the billing milestones total the contracted value of the line by either creating, editing, or deleting milestones. After the changes are made, refresh the page.
 
 ### Manually create milestones
 
-Fixed price milestones can be generated manually when they are not periodically split. To create a milestone manually, complete the following steps.
+Fixed price milestones can be generated manually when they aren't periodically split. To create a milestone manually, complete the following steps.
 
 1. Open the fixed price contract line on which you want to create a milestone. 
 2. On the **Invoice Schedule** tab, on the subgrid, select **+ Create new Contract line milestone**.
