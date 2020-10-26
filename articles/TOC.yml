@@ -959,7 +959,7 @@
       - name: Why can’t I delete records from the Actuals entity?
         href: psa/FAQ-deleting-actuals.md
     - name: Project Service Automation 2.x and 1.x 
-    items: 
+      items: 
       - name: How do I assign a resource to a task (app version 2.x)?
         href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
       - name: How do I "soft book" resources (app version 2.x)?
