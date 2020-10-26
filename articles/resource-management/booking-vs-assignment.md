@@ -18,4 +18,4 @@ Bookings are the hard or soft allocation of resources to a project. Hard booking
 
 Unlike bookings, assignments are the commitment of resources to project tasks in the project schedule. The resources can be named or generic. 
 
-Typically, the sum of the bookings for a resource will equal the sum of the resource's assingments across one or many tasks. However, Project Operations doesn't enforce this agreement. The **Reconciliation** view shows the Project manager places where a resource's bookings and assignments don't agree.
+Typically, the sum of the bookings for a resource will equal the sum of the resource's assignments across one or many tasks. However, Project Operations doesn't enforce this agreement. The **Reconciliation** view shows the Project manager places where a resource's bookings and assignments don't agree.
