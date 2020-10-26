@@ -1,6 +1,6 @@
 ---
 title: Managing project contracts 
-description: 
+description: This topic provides information about viewing project-based contracts.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
