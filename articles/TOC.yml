@@ -380,6 +380,8 @@
         href: sales/close-opportunity.md
     - name: Manage quotes
       items:
+      - name: Managing project quotes
+        href: pro/sales/manage-quotes-sales.md
       - name: Project quote key concepts
         href: pro/sales/quotes-key-concepts-sales.md
       - name: Summary information on a project quote (Sales)
