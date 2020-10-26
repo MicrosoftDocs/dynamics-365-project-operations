@@ -748,7 +748,7 @@
     href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation  
   items:
-  - name: Project Service Automation overview
+- name: Project Service Automation 
     href: psa/overview.md
   - name: What's new
     items:
@@ -784,29 +784,37 @@
       href: psa/whats-new-v3-2020-wave1.md
     - name: What's new or changed in Project Service Automation V3
       href: psa/whats-new-changed-v3.md
-  - name: Implement Project Service Automation 3.x
-    items:
-    - name: Implementation overview
-      href: psa/install-sample-data-3-x.md
-  - name: Upgrade
-    items:
-    - name: Project Service Automation upgrade (3.x)
-      href: psa/upgrade-psa-home-page.md
-    - name: Upgrade considerations - version 2.x or 1.x to version 3
-      href: psa/upgrade-v3.md
-    - name: Development (3.x)
-      href: psa/developer-guides/overview-dev-notes-v3.x.md
-    - name: Entity changes
-      href: psa/developer-guides/entity-changes-v3.x.md
-    - name: Time and expense
-      href: psa/developer-guides/time-expense-changes-v3.x.md
-    - name: Resource management 
-      href: psa/developer-guides/resource-management-changes-v3.x.md
-    - name: Deprecated Web resources in Project Service Automation v3.x
-      href: psa/developer-guides/web-resources-deprecated-v3.x.md
-  - name: Project planning
+  - name: Plan your implementation
     items: 
-    - name: Project planning overview
+    - name: Sample data installation
+      href: psa/install-sample-data-3-x.md
+    - name: Project planning and tracking guide
+      href: psa/implementation-guides/project-planning-tracking.md
+    - name: Basic quoting, pricing, and billing guide.
+      href: psa/implementation-guides/begin-quoting-pricing-billing.md 
+    - name: Advanced quoting, pricing, and billing guide
+      href: psa/implementation-guides/adv-quoting-pricing-billing.md
+    - name: Resource management guide
+      href: psa/implementation-guides/resource-management-guide.md
+    - name: Reporting guide
+      href: psa/implementation-guides/reporting-guide.md
+  - name: Project Service Automation upgrade (3.x)
+    href: psa/upgrade-psa-home-page.md
+  - name: Upgrade considerations - version 2.x or 1.x to version 3
+    href: psa/upgrade-v3.md
+  - name: Development (3.x)
+    href: psa/developer-guides/overview-dev-notes-v3.x.md
+  - name: Entity changes
+    href: psa/developer-guides/entity-changes-v3.x.md
+  - name: Time and expense
+    href: psa/developer-guides/time-expense-changes-v3.x.md
+  - name: Resource management 
+    href: psa/developer-guides/resource-management-changes-v3.x.md
+  - name: Deprecated Web resources in Project Service Automation v3.x
+    href: psa/developer-guides/web-resources-deprecated-v3.x.md
+  - name: Project Service Automation (3.x)
+    items: 
+    - name: Project planning
       href: psa/project-planning.md
     - name: Project schedules
       href: psa/project-creating.md
@@ -822,8 +830,6 @@
       href: psa/project-stages.md
     - name: Project settings
       href: psa/project-settings.md
-  - name: Pricing and costing dimensions
-    items: 
     - name: Pricing and costing dimensions overview
       href: psa/pricing-costing-dimensions.md
     - name: Create a solution for custom pricing dimensions
@@ -836,66 +842,54 @@
       href: psa/set-up-pricing-dimensions.md
     - name: Update plug-in attributes to include new pricing dimensions
       href: psa/update-plug-in-attributes.md
-    - name: Reuse elements as pricing dimensions
-      items:
-      - name: Use an existing field in Project Service as a pricing dimension
-        href: psa/use-existing-field.md
-      - name: Use bookable resource as a pricing dimension
-        href: psa/bookable-resource-pricing-dimension.md
-      - name: Use transaction category as a pricing dimension
-        href: psa/transaction-category-pricing-dimension.md
+    - name: Use an existing field in Project Service as a pricing dimension
+      href: psa/use-existing-field.md
+    - name: Use bookable resource as a pricing dimension
+      href: psa/bookable-resource-pricing-dimension.md
+    - name: Use transaction category as a pricing dimension
+      href: psa/transaction-category-pricing-dimension.md
     - name: Bookable resource with multiple roles on a project
       href: psa/bookable-resource-multiple-roles.md
     - name: Turn off a pricing dimension
       href: psa/turn-off-pricing-dimension.md
-  - name: Quoting, pricing, and billing
-    items: 
     - name: Quoting, pricing, and billing overview
       href: psa/quote-bill-price.md
-    - name: Quoting
-      items: 
-      - name: Sales processes
-        href: psa/basic-sales-process.md
-      - name: Unit groups and units
-        href: psa/advanced-units.md
-      - name: Organizational units
-        href: psa/advanced-organizational.md
-      - name: Quotes and quote lines
-        href: psa/basic-quote-lines.md
-      - name: Product-based quote lines
-        href: psa/product-based-quote-lines.md
-      - name: Analyzing project quotes
-        href: psa/basic-analyzing-quotes.md
-    - name: Pricing
-      items: 
-      - name: Project pricing
-        href: psa/basic-pricing.md
-      - name: Product catalog pricing
-        hreF: psa/product-catalog-pricing.md
-      - name: Business transactions
-        href: psa/basic-business-transactions.md
-      - name: Estimates
-        href: psa/estimates.md
-    - name: Billing
-      items: 
-      - name: Analyzing project quotes
-        href: psa/basic-analyzing-quotes.md
-      - name: Recall previously approved time or expense entries
-        href: psa/recall-approved.md
-      - name: Cancel approval of previously approved time or expense entries
-        href: psa/cancel-approval.md
-      - name: Actuals
-        href: psa/actuals.md
-      - name: Bulk corrections of actuals created by approved time and expense entries
-        href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
-      - name: Review project billing backlog
-        href: psa/review-invoicing-backlog.md
-      - name: Invoicing
-        href: psa/invoicing.md
-      - name: Multi-currency scenarios
-        href: psa/advanced-currency.md
-  - name: Resourcing projects
-    items:
+    - name: Sales processes
+      href: psa/basic-sales-process.md
+    - name: Unit groups and units
+      href: psa/advanced-units.md
+    - name: Organizational units
+      href: psa/advanced-organizational.md
+    - name: Quotes and quote lines
+      href: psa/basic-quote-lines.md
+    - name: Product-based quote lines
+      href: psa/product-based-quote-lines.md
+    - name: Analyzing project quotes
+      href: psa/basic-analyzing-quotes.md
+    - name: Project pricing
+      href: psa/basic-pricing.md
+    - name: Product catalog pricing
+      hreF: psa/product-catalog-pricing.md
+    - name: Business transactions
+      href: psa/basic-business-transactions.md
+    - name: Estimates
+      href: psa/estimates.md
+    - name: Analyzing project quotes
+      href: psa/basic-analyzing-quotes.md
+    - name: Recall previously approved time or expense entries
+      href: psa/recall-approved.md
+    - name: Cancel approval of previously approved time or expense entries
+      href: psa/cancel-approval.md
+    - name: Actuals
+      href: psa/actuals.md
+    - name: Bulk corrections of actuals created by approved time and expense entries
+      href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
+    - name: Review project billing backlog
+      href: psa/review-invoicing-backlog.md
+    - name: Invoicing
+      href: psa/invoicing.md
+    - name: Multi-currency scenarios
+      href: psa/advanced-currency.md
     - name: Resourcing projects overview
       href: psa/resource-management.md
     - name: Assign generic bookable resources to a task and generate resource requirements
@@ -916,8 +910,6 @@
       href: psa/FAQ-utilization-view.md
     - name: Reconcile bookings and assignments
       href: psa/reconcile-booking-assignment.md
-  - name: Resource management
-    items:
     - name: Resource management home page
       href: psa/resource-management-home-page.md
     - name: Manage resources
@@ -942,38 +934,32 @@
       href: psa/resource-management-skills-proficiency.md
     - name: Resource management FAQ
       href: psa/resource-management-faq.md
-  - name: Reporting
-    items:
     - name: Reporting overview
       href: psa/reports-reporting-dynamics-365-project-service.md
     - name: Dashboards
       href: psa/reports-dashboards.md
     - name: Working with the Project Service Automation data model
       href: psa/reports-working-project-service-data-model.md
-  - name: Time entry
-    items: 
     - name: Create time entries
       href: psa/time-entries.md
     - name: Time entry calendar
       href: psa/time-entry-calendar.md
     - name: Customize weekly time entry
       href: psa/time-entry-extensibility-v3.md
-  - name: FAQ and troubleshooting
-    items: 
-    - name: Why is the price defaulting to zero on expense cost actuals?
-      href: psa/FAQ-zero-price-expense-cost-actuals.md
-    - name: Why is the price defaulting to zero on expense sales actuals?
-      href: psa/FAQ-zero-price-expense-sales-actuals.md
-    - name: Why is the price defaulting to zero on time cost actuals?
-      href: psa/FAQ-zero-price-time-cost-actuals.md
-    - name: Why is the price defaulting to zero on time sales actuals?
-      href: psa/FAQ-zero-price-time-sales-actuals.md
-    - name: Why can’t I delete records from the Actuals entity?
-      href: psa/FAQ-deleting-actuals.md
-  - name: Project Service Automation 2.x and 1.x
-    items: 
-    - name: FAQ and troubleshooting
+    - name: FAQ and troublshooting (3.x)
       items: 
+      - name: Why is the price defaulting to zero on expense cost actuals?
+        href: psa/FAQ-zero-price-expense-cost-actuals.md
+      - name: Why is the price defaulting to zero on expense sales actuals?
+        href: psa/FAQ-zero-price-expense-sales-actuals.md
+      - name: Why is the price defaulting to zero on time cost actuals?
+        href: psa/FAQ-zero-price-time-cost-actuals.md
+      - name: Why is the price defaulting to zero on time sales actuals?
+        href: psa/FAQ-zero-price-time-sales-actuals.md
+      - name: Why can’t I delete records from the Actuals entity?
+        href: psa/FAQ-deleting-actuals.md
+    - name: Project Service Automation 2.x and 1.x 
+    items: 
       - name: How do I assign a resource to a task (app version 2.x)?
         href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
       - name: How do I "soft book" resources (app version 2.x)?
@@ -982,16 +968,14 @@
         href: psa/FAQ-customize-bpf.md
       - name: Upgrade considerations for the work breakdown structure
         href: psa/upgrade-considerations-tasks.md
-    - name: White papers
-      href: psa/white-papers.md
-    - name: Administrator guide
-      href: psa/admin-guide.md
-    - name: Install and customize
-      href: psa/install-customize.md
-    - name: Use demo data
-      href: psa/use-demo-data.md
-    - name: Configure Project Service Automation
-      items: 
+      - name: White papers
+        href: psa/white-papers.md
+      - name: Administrator guide
+        href: psa/admin-guide.md
+      - name: Install and customize
+        href: psa/install-customize.md
+      - name: Use demo data
+        href: psa/use-demo-data.md
       - name: Configure the Project Service Automation application
         href: psa/configure.md
       - name: Set up time units
@@ -1010,8 +994,6 @@
         href: psa/create-product-catalog-items.md
       - name: Create a price list
         href: psa/create-price-list.md
-    - name: Resources
-      items: 
       - name: Set up resources
         href: psa/set-up-resources.md
       - name: Add resources
@@ -1036,8 +1018,6 @@
         href: psa/configure-additional-parameters-settings.md
       - name: Enable Project Finder Mobile
         href: psa/enable-project-finder-mobile-app-features.md
-    - name: Resource management
-      items: 
       - name: Resource manager guide
         href: psa/resource-manager-guide.md
       - name: Manage resource requests
@@ -1050,8 +1030,6 @@
         href: psa/view-resource-utilization.md
       - name: Universal Resource Scheduling (URS)
         href: https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
-    - name: Project management
-      items:
       - name: Project manager guide
         href: psa/project-manager-guide.md
       - name: Provide work estimates
@@ -1088,8 +1066,6 @@
         href: psa/view-dashboards-reports.md
       - name: Use the add-in to plan work in Microsoft Project
         href: psa/add-plan-work-microsoft-project.md
-    - name: Account management
-      items: 
       - name: Account manager guide
         href: psa/account-manager-guide.md
       - name: Create a customer account
@@ -1100,8 +1076,6 @@
         href: psa/create-project-quote.md
       - name: Create a project contract
         href: psa/create-project-contract.md
-    - name: Time and expense
-      items:
       - name: Time, expense, and collaboration
         href: psa/time-expense-collaboration-guide.md
       - name: Get the apps
@@ -1125,8 +1099,6 @@
         href: psa/find-next-project-finder-mobile-app.md
       - name: Project Resource Hub guide
         href: psa/project-resource-hub-users-guide.md
-    - name: Developer notes
-      items: 
       - name: Add custom forms for entities
         href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
 
