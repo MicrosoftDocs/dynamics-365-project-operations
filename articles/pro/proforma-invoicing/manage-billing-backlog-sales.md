@@ -38,7 +38,7 @@ The **Fixed Price Milestones** view lists all fixed price milestones across all 
 
 When multi-customer contract lines have a fixed price billing method, a milestone is created for each customer on the contract line. A milestone can be created and then split into individual customer-specific milestone records. This split is internal and in accordance with the billing percentage split defined for each customer on the contract line. In the **Fixed Price Milestones** view, you will see the individual customer-specific milestone records. Each of these milestone records can be marked as **Ready to Invoice** separately from this view. When one or more of the related milestone splits are marked as **Ready to Invoice**, the header status is updated to **In Progress** from **Not Started**. When all of the milestone splits are invoiced, the header milestone status is updated to **Completed**.
 
-A milestone on a draft invoice is shown in this view with the a billing status of **Customer Invoice Created**. When the draft invoice is confirmed, the billing status on the record is updated to **Customer Invoice Posted**. Don't update this status value by using custom code. Project Operations doesn't function correctly when these status values are updated with custom code.
+A milestone on a draft invoice is shown in this view with a billing status of **Customer Invoice Created**. When the draft invoice is confirmed, the billing status on the record is updated to **Customer Invoice Posted**. Don't update this status value by using custom code. Project Operations doesn't function correctly when these status values are updated with custom code.
 
 ## Product Billing Backlog
 
@@ -48,10 +48,10 @@ A product-based contract line that is on a draft invoice is shown in this view w
 
 ## Time and Material Billing Backlog
 
-The **Time and Material Billing Backlog** view lists all un-invoiced unbilled sales actuals across all project contracts in the system. Single or multiple unbilled sales actuals can be marked as **Ready to Invoice** or **Not Ready to Invoice** from this view. Marking an unbilled sales actual as **Ready to Invoice** makes it available to be put on a draft invoice.
+The **Time and Material Billing Backlog** view lists all unbilled sales actuals across all project contracts in the system that haven't been invoiced. Single or multiple unbilled sales actuals can be marked as **Ready to Invoice** or **Not Ready to Invoice** from this view. Marking an unbilled sales actual as **Ready to Invoice** makes it available to be put on a draft invoice.
 
 Unbilled sales actuals with a **Not-to-Exceed** status of **Failed** can't be marked as **Ready to Invoice**. If the actuals need to be marked as **Ready to Invoice**, reset the status on other actuals on the contract line that are committed. and then reevaluate the **Not-to-Exceed** status.
 
-In the case of multi-customer contract lines that have a time and material billing method, when time and expenses are approved, one unbilled sales actual is created for each customer on the contract line in accordance with the billing percentage split defined for each of the customers. In the **Time and Material Billing Backlog** view, you will see these individual customer-specific unbilled sales actuals. Each of these unbilled sales actual records can be marked as **Ready to Invoice** separately from this view.
+If multi-customer contract lines have a time and material billing method, when time and expenses are approved, one unbilled sales actual is created for each customer on the contract line according to the billing percentage split defined for each of the customers. In the **Time and Material Billing Backlog** view, you will see these individual customer-specific unbilled sales actuals. Each of these unbilled sales actual records can be marked as **Ready to Invoice** separately from this view.
 
 An unbilled sales actual that is on a draft invoice is shown in this view with a billing status of **Customer Invoice Created**. When the draft invoice is confirmed, the billing status on this record is updated to **Customer Invoice Posted**. Don't update this status value using custom code. Project Operations doesn't function correctly when these status values are updated with custom code.
