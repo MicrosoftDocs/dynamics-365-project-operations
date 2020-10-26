@@ -33,19 +33,21 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 The following issues have been fixed:
 
-- Time entry chart showing additional data based on too large of interval being retrieved.
-- Support the ability display two or more react grids on tab on the project form.
-- Correct rounding and exchange rate discrepancies resulting in incorrect planned cost in the project tracking grid.
-- “Not ready to Invoice” on Time and Material billing backlog does not clear the billing status.
+- Time entry chart showing additional data based on retrieving too large of an interval.
+- Support the ability display two or more react grids on the **Project** form.
+- Correct rounding and exchange rate discrepancies that resulted in an incorrect planned cost in the project tracking grid.
+- **Not Ready to Invoice** on the **Time and Material Billing Backlog** doesn't clear the billing status.
 - Provided validation to address the ability to assign a task past the calendar end date which results in a failed resource assignment.
-- Added package deployer code to skip URS patch import if higher version patch already exists.
-- Correct mislabeled buttons; update prices buttons on role price tab and catalog items tab are transposed.
-- Improve error handling to address Null Reference Exception generated from **PreValidateProjectTaskCreate** when a project task is crated without an associated project.
-- Improve error handling to address Null Reference Exception generated from the **PostProjectTeamMemberDelete** plugin.
-- Improve error handling to address Null Reference Exception generated from **PreValidateProjectTeamMemberCreate** plugin.
-- Improve error handling to address Null Reference Exception generated from the **PreProjectTeamMemberCreate** plugin.
-- Improve error handling to address Null Reference Exception generated from **PreValidateProjectTaskDelete** plugin.
-- Improve error handling to address Null Reference Exception generated from **Copy Project: Estimates HelperResource Management**
+- Added package deployer code to skip the Universal Resource Scheduling (URS) patch import if a higher version patch already exists.
+- Correct mislabeled price buttons on the **Role Price** and **Catalog Items** tab.
+- Improved error handling to address the Null Reference Exception generated from the following:
+
+    - **PreValidateProjectTaskCreate** when a project task is created without an associated project
+    - **PostProjectTeamMemberDelete** plug-in
+    - **PreValidateProjectTeamMemberCreate** plug-in
+    - **PreProjectTeamMemberCreate** plug-in
+    - **PreValidateProjectTaskDelete** plug-in
+    - **Copy Project: Estimates HelperResource Management**
 
 The following issues have been fixed:
 
