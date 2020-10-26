@@ -15,7 +15,7 @@ ms.author: rumant
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 
-You can an invoice schedule to a  project-based contract line. Invoicing is only allowed after the contract is won to and you are creating a project contract. An invoice schedule allows draft invoices for a project-based contract line to be automatically created. If however, you only manually create invoices, you can skip creating invoice schedules on contract lines.
+You can attach an invoice schedule to a  project-based contract line. Invoicing is only allowed after the contract is won to and you are creating a project contract. An invoice schedule allows draft invoices for a project-based contract line to be automatically created. If however, you only manually create invoices, you can skip creating invoice schedules on contract lines.
 
 ## Create a time and material invoice schedule for a contract line
 
