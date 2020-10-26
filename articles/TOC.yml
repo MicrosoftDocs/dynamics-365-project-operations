@@ -748,7 +748,7 @@
     href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation  
   items:
-- name: Project Service Automation 
+  - name: Project Service Automation 
     href: psa/overview.md
   - name: What's new
     items:
