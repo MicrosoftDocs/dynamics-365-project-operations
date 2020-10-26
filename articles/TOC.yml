@@ -852,7 +852,7 @@
         href: psa/update-plug-in-attributes.md
       - name: Use an existing field in as a pricing dimension
         items: 
-        - name: Use anexisting field in Project Service as a pricing dimension
+        - name: Use an existing field in Project Service as a pricing dimension
           href: psa/use-existing-field.md
         - name: Use bookable resource as a pricing dimension
           href: psa/bookable-resource-pricing-dimension.md
@@ -966,7 +966,7 @@
         href: psa/time-entry-calendar.md
       - name: Customize weekly time entry
         href: psa/time-entry-extensibility-v3.md
-  - name: FAQ and troublshooting (3.x)
+  - name: FAQ and troubleshooting (3.x)
     items: 
     - name: Why is the price defaulting to zero on expense cost actuals?
       href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -980,7 +980,7 @@
       href: psa/FAQ-deleting-actuals.md
   - name: Project Service Automation 2.x and 1.x 
     items: 
-    - name: FAQ and troublshooting
+    - name: FAQ and troubleshooting
       items: 
       - name: How do I assign a resource to a task (app version 2.x)?
         href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
