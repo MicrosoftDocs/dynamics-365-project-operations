@@ -33,34 +33,35 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 The following issues have been fixed:
 
-- Time entry chart showing additional data based on retrieving too large of an interval.
-- Support the ability display two or more react grids on the **Project** form.
-- Correct rounding and exchange rate discrepancies that resulted in an incorrect planned cost in the project tracking grid.
-- **Not Ready to Invoice** on the **Time and Material Billing Backlog** doesn't clear the billing status.
-- Provided validation to address the ability to assign a task past the calendar end date which results in a failed resource assignment.
-- Added package deployer code to skip the Universal Resource Scheduling (URS) patch import if a higher version patch already exists.
-- Correct mislabeled price buttons on the **Role Price** and **Catalog Items** tab.
-- Improved error handling to address the Null Reference Exception generated from the following:
+- Time entry chart showing additional data based on too large of an interval being retrieved.
 
-    - **PreValidateProjectTaskCreate** when a project task is created without an associated project
-    - **PostProjectTeamMemberDelete** plug-in
-    - **PreValidateProjectTeamMemberCreate** plug-in
-    - **PreProjectTeamMemberCreate** plug-in
-    - **PreValidateProjectTaskDelete** plug-in
-    - **Copy Project: Estimates HelperResource Management**
+**Resource Management**
 
 The following issues have been fixed:
 
--   TBD
+- Added package deployer code to skip the Universal Resource Scheduling patch import if a higher version patch already exists.
 
 **Project Management**
 
 The following issues have been fixed:
 
--   TBD
+- Correct rounding and exchange rate discrepancies resulting in incorrect planned cost in the project tracking grid.
+- Support the ability display two or more react grids the **Project** form.
+- Provided validation to address the ability to assign a task past the calendar end date which results in a failed resource assignment.
+- Improved error handling to address Null Reference Exception generated from the following:
+
+    - **PreValidateProjectTeamMemberCreate** plug-in
+    - **PreValidateProjectTaskCreate** when a project task is crated without an associated project
+    - **PreProjectTeamMemberCreate** plug-in
+    - **PostProjectTeamMemberDelete** plug-in
+    - **PreValidateProjectTaskDelete** plug-in
 
 **Sales**
 
 The following issues have been fixed:
 
--   TBD
+- Improve error handling to address Null Reference Exceptions generated from **Copy Project: Estimates HelperResource Management**.
+- **Not ready to Invoice** on a **Time and Material Billing Backlog** doesn't clear the billing status.
+- Correct mislabeled **Prices** buttons on the **Role Price** and **Catalog Items** tab.
+
+
