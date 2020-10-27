@@ -24,7 +24,7 @@ Contract customers and contract line customers can be added, updated, or deleted
 
 ## Primary customer
 
-The customer listed on the **Summary** tab of the project contract as the potential customer is the primary customer of the contract. When you try to delete the primary customer from the customers list on the contract, you will receive an error message that a primary customer record on a contract can't be deleted.
+The customer listed on the **Summary** tab of the project contract as the potential customer is the primary customer of the contract. When you try to delete the primary customer from the customer list on the contract, you will receive an error message that a primary customer record on a contract can't be deleted.
 
 The primary customer can't be updated from the contract customers list. Instead, change the potential customer on the **Summary** tab of the contract. When this field is updated on the **Contract Summary** page, the new customer is added as a new contract customer with the **Primary** flag set. The previous primary customer will still be a customer on the contract.
 
@@ -46,4 +46,4 @@ A contract customer can be created, updated, or deleted from the **Customers** t
 
 Billing split percentages can be edited using the in-line grid edit experience. When the billing split percentages do not total to 100 percent, you will receive an error. After you edit the billing split percentages, refresh the page to dismiss the error.
 
-You can also select **Evenly Distribute** on the **Contract Customers** subgrid to allocate billing splits evenly to all contract customers. If there is a rounding factor, it will be added to the rounding customer. One of the contract customers is always tagged as the **rounding** customer which means that the contract customer record has the rounding flag set to **Yes**. Typically, this is the primary customer of the contract, but it can be changed as well.
+You can also select **Evenly Distribute** on the **Contract Customers** subgrid to allocate billing splits evenly to all contract customers. If there is a rounding factor, it will be added to the rounding customer. One of the contract customers is always tagged as the **rounding** customer, which means that the contract customer record has the rounding flag set to **Yes**. Typically, this is the primary customer of the contract, but it can be changed as well.
