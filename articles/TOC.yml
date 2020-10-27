@@ -98,6 +98,8 @@
         href: sales/project-contract-settings.md
       - name: Manage multiple customers on project-based contract lines
         href: sales/manage-multiple-customers-contract-line.md
+      - name: Manage project price lists on project contracts
+        href: sales/contracts-manage-project-price-lists.md
       - name: Project-based contract lines
         items: 
         - name: Configure chargeable components of a project-based contract line
@@ -436,6 +438,8 @@
       href: pro/sales/project-contract-settings-sales.md
     - name: Managing multiple customers on project-based contract lines
       href: pro/sales/manage-multiple-customers-contract-line-sales.md
+    - name: Manage project price lists on project contracts
+      href: sales/contracts-manage-project-price-lists.md
     - name: Product-based contract lines
       items: 
       - name: Product-based contract lines overview
