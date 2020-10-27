@@ -26,7 +26,7 @@ To estimate a project-based contract line, go to the **Contract Line Detail** ta
 1. Go to the contract line and select the **Contract Line Detail** tab. The lines you create on this tab are summarized and display as the **Contracted Value** for this **Contract Line**. 
 2. In the **Contract Line Details** subgrid, select **+ New Contract Line Detail**. A quick-create slider opens. The following fields are available on the **Contract Line Details** form:
 
-| Field | Location | Relevance, purpose and guidance | Downstream impact |
+| Field | Location | Relevance, purpose, and guidance | Downstream impact |
 | --- | --- | --- | --- |
 | **Description** | **Quick Create** | A description of the specific estimate. | This field defaults to the related contract line detail for costs that are automatically created. |
 | **Transaction Class** | **Quick Create** | This drop-down is a list of transaction classes included on the **General** tab of the project-based contract line. | This field defaults to the related contract line detail for costs that are automatically created. |
@@ -41,15 +41,15 @@ To estimate a project-based contract line, go to the **Contract Line Detail** ta
 | **Quantity** | **Quick Create** | The quantity of work or expense. | This field defaults to the related contract line detail for costs that are automatically created. |
 | **Unit price** | **Quick Create** | The bill rate of the role that is performing the work or the sales price of the expense category. This field defaults for **Time** based on the role and resourcing unit combination on the project price list that is effective for the start date. For expenses, this field's default is from the price setup for the transaction category in the project price list that is effective for the start date. If the pricing method for the transaction category is not **price-per-unit**, there is no default, and this field is left blank. | The cost rate of the role that is performing the work, or the cost per unit of the expense category. This field defaults for **Time based on the role** and the resourcing unit combination on the role price line of the cost price list attached to the contracting unit effective for the start date. For expenses, this field's default is based on the category price line of the cost price list attached to the contracting unit that is effective for the start date. If the pricing method for the transaction category is not price-per-unit, there is no default and this field is left blank. |
 | **Estimated Tax** | **Quick Create** | The estimated tax for this work or expense as input by the user. | The estimated tax for this work or expense as input by the user. |
-| **Amount** | **Quick Create** | This field can be directly input by the user if the **Quantity** and **Price** fields are left blank. If **Quantity** and **Price** are filled, the **Amount** field is read-only and is calculated as **(Quantity \* Unit price) + Tax**. | &nbsp; |
+| **Amount** | **Quick Create** | This value in this field can be added by the user if the **Quantity** and **Price** fields are left blank. If **Quantity** and **Price** are filled, the **Amount** field is read-only and is calculated as **(Quantity \* Unit price) + Tax**. | &nbsp; |
 
 ## Update prices on contract line details
 
-If you change prices on the project price list that is attached to the contract or the cost price list of the contracting unit, you can refresh the prices on the individual contract line details to reflect the change. On the **Contract** page, select **Recalculate** . A warning opens to inform you that prices for all contract lines on this contract are reset. Select **Yes** to refresh prices for both sales and cost contract line details.
+If you change prices on the project price list that is attached to the contract or the cost price list of the contracting unit, you can refresh the prices on the individual contract line details to reflect the change. On the **Contract** page, select **Recalculate**. A warning opens to inform you that prices for all contract lines on this contract are reset. Select **Yes** to refresh prices for both sales and cost contract line details.
 
 ## Access contract line details for cost
 
-On the **Contract Line Details** tab, select a row in the grid to display actions on the toolbar of the subgrid. The first action on the sub-grid tool bar is **Open Cost Detail**. To see the related cost rate and amount for this contract line detail, select **Open Cost Detail**. 
+On the **Contract Line Details** tab, select a row in the grid to display actions on the toolbar of the subgrid. The first action on the subgrid tool bar is **Open Cost Detail**. To see the related cost rate and amount for this contract line detail, select **Open Cost Detail**. 
 
 > [!NOTE]
 > Changing the resourcing company, resourcing unit, quantity, dates, role, or category values on the contract line detail for **Cost** also changes the corresponding values on the contract line detail for **Sales**.
