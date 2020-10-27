@@ -440,6 +440,8 @@
         href: pro/sales/cost-product-based-contract-lines-sales.md
     - name: Project-based contract lines
       items: 
+      - name: Managing multiple customers on project contracts
+        href: pro/sales/manage-multiple-customers-contract-sales.md
       - name: Mapping projects and tasks to a project-based contract line
         href: pro/sales/mapping-projects-tasks-contract-line-sales.md
       - name: Configuring chargeable components of a project-based contract line
