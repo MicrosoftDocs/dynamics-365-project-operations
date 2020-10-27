@@ -454,6 +454,8 @@
         href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
       - name: Set up a retainer schedule
         href: pro/sales/set-up-schedule-retainers-sales.md
+      - name: Creating an ad hoc advance on a contract
+        href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
     - name: Set up price lists
