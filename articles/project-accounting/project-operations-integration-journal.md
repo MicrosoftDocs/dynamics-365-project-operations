@@ -1,18 +1,18 @@
 ---
 title: Integration journal in Project Operations
-description: 
-author: rumant
+description: This topic provides information about working with the Integration journal in Project Operations.
+author: sigitac
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 10/27/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
-ms.author: rumant
+ms.author: sigitac
 ---
 
 # Integration journal in Project Operations
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Time and expense entries create **Actual** transactions which represent the operational view of work completed against a project. Dynamics 365 Project Operations provides accountants with a tool to review transactions and adjust the accounting attributes as needed. After the review and adjustments are complete, the transactions are posted to the Project subledger and General ledger. An accountant can perform these activities using the **Project Operations Integration** journal(**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration** journal.
 
