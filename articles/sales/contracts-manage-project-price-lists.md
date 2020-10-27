@@ -18,7 +18,7 @@ Project contracts in Dynamics 365 Project Operations are designed to support mul
 
 Project price lists are used to price time and expense transactions on a project. When a contract has one or more project price lists, these price lists are used to price for time and expense estimates and actuals on projects that are associated to the contract through the contract line.
 
-When there are no project price lists on a project contract, you will see a warning message that there are no project price lists and your estimates, actual project work, and expenses will not be priced. This means that there will be no price for sales values.
+When there are no project price lists on a project contract, you will see a warning message that there are no project price lists and your estimates, actual project work, and expenses will not be priced. There will be no price for sales values.
 
 ## Associate or unassociate a project price list on a project contract
 
@@ -43,7 +43,7 @@ When there are no project price lists on a project contract, you will see a warn
 
 - Select the project price list, and then select **Delete Contract Project Price List** on the subgrid. 
 
-  This removes the price list from the project price lists on the contract. The price list itself will not be deleted. Only the association to the contract will deleted.
+  The price list is removed from the project price lists on the contract. The price list itself will not be deleted. Only the association to the contract will be deleted.
 
 ## Set up automatic defaulting of project price lists on a contract
 
@@ -57,7 +57,7 @@ A project price list can be set up as the default list on a project contract. Th
 
 ### Set up a customer-specific project price list
 
-You can also setup customer–specific project price lists when you have negotiated a master pricing agreement with your customers.
+You can also set up customer–specific project price lists when you have negotiated a master pricing agreement with your customers.
 
 1. Go to **Sales** > **Customers**.
 2. From the list of active accounts, select the customer for whom have special price list.
@@ -66,4 +66,4 @@ You can also setup customer–specific project price lists when you have negotia
 
 ## Custom pricing on a project contract
 
-After you have organizational and customer-specific default project price lists, your project contracts will be created with these project price list associations automatically. However, in the case of a project contract, project price lists are always copied with the date and contract name appended to them. The account and project managers can then begin making edits to prices on these copies. These changed prices will be applicable to this project contract only.
+After you have organizational and customer-specific default project price lists, your project contracts will be created with these project price list associations automatically. However, project price lists on a project contract are always copied with the date and contract name appended to them. The account and project managers can then begin making edits to prices on these copies. These changed prices will be applicable to this project contract only.
