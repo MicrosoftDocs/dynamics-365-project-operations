@@ -16,7 +16,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Time and expense entries create **Actual** transactions which represent the operational view of work completed against a project. Dynamics 365 Project Operations provides accountants with a tool to review transactions and adjust the accounting attributes as needed. After the review and adjustments are complete, the transactions are posted to the Project subledger and General ledger. An accountant can perform these activities using the **Project Operations Integration** journal(**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration** journal.
 
-![Integration journal flow](IntegrationJournal.png)
+![Integration journal flow](./media/IntegrationJournal.png)
 
 ### Create records in the Project Operations Integration journal
 
@@ -30,7 +30,7 @@ The system groups journal lines into separate journals based on the value select
   - **Years**: Actuals are grouped by calendar year. A separate journal is created for each year.
   - **All**: All actual transactions are included in the same integration journal. If the journal isn't available when the periodic process runs, for example if the journal is in the process of posting transactions, a new journal is created.
 
-Journal lines are created based on project actuals. The following is a list of some of the more notable default and transformation rules:
+Journal lines are created based on project actuals. The following list includes some of the more notable default and transformation rules:
 
   - Each project actual transaction has a line in the Project Operations Integration journal. Cost and unbilled sales transactions for time and material billing type are shown on separate lines.
   - The **Date** field represents the date of the transaction. The **Accounting date** field represents the date that the transaction is recorded to the ledger. If the accounting date is in a [closed financial period](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), and the parameter **Automatically set accounting date to open ledger period** is set on the **Financial** tab of the **Project management and accounting parameters** page, the system will adjust the accounting date of the transaction to the first date in next open ledger period.
@@ -39,8 +39,8 @@ Journal lines are created based on project actuals. The following is a list of s
     - If **Transaction category** is set in the Project actual and a related **Project category** exists in a given legal entity, the category defaults to this project category.
     - If **Transaction category** isn't set in the Project actual, the system uses the value in the **Project category defaults** field on the **Project Operations on Dynamics 365 Customer Engagement** tab on the **Project management and accounting parameters** page.
   - The **Resource** field represents the project resource related to this transaction. The resource is used as a reference in Project invoice proposals to customers.
-  - The **Exchange rate** field defaults from **Currency exchange rate** set in Dynamics 365 Finance. If the exchange rate set up is missing, the **Import from staging** periodic process won't add the record to a journal and an error message will be added to the job execution log.
-  - The **Line property** field represents the billing type in Project actuals. Line property and billing type mapping is defined on the **Project Operations on Dynamics 365 Customer Engagement** tab on the **Project management and accounting parameters** page.
+  - The **Exchange rate** field defaults from **Currency exchange rate** set in Dynamics 365 Finance. If the exchange rate setup is missing, the **Import from staging** periodic process won't add the record to a journal and an error message will be added to the job execution log.
+  - The **Line property** field represents the billing type in Project actuals. Line property and billing type mapping are defined on the **Project Operations on Dynamics 365 Customer Engagement** tab on the **Project management and accounting parameters** page.
 
 Only the following accounting attributes can be updated in the Project Operations integration journal lines:
 
