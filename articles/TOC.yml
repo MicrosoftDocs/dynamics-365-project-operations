@@ -344,6 +344,8 @@
       href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
+    - name: Integration journal in Project Operations
+      href: project-accounting/project-operations-integration-journal.md
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Get started
