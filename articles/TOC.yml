@@ -430,8 +430,8 @@
       href: pro/sales/contracts-key-concepts-sales.md
     - name: Project contract fields and information
       href: pro/sales/project-contract-settings-sales.md
-    - name: Manage multiple customers on project-based contract lines
-      href: sales/manage-multiple-customers-contract-line.md
+    - name: Managing multiple customers on project-based contract lines
+      href: pro/sales/manage-multiple-customers-contract-line-sales.md
     - name: Product-based contract lines
       items: 
       - name: Product-based contract lines overview
