@@ -1,6 +1,6 @@
 ---
-title: Estimate a project–based contract line
-description: This topic provides information about estimates on a project–based contract line.
+title: Estimating a project–based contract line
+description:  This topic provides information about estimating a project–based contract line.
 author: rumant
 manager: Annbe
 ms.date: 10/27/2020
@@ -10,9 +10,9 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Estimate a project–based contract line
+# Estimating a project–based contract line
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_ 
+_**Applies To:** Lite deployment - deal to proforma invoicing_
 
 In Dynamics 365 Project Operations, a project-based contract line has details that help estimate the cost and potential revenue of the work involved to deliver the contract line.
 
@@ -21,7 +21,7 @@ To estimate a project-based contract line, go to the **Contract Line Detail** ta
    - Create an estimate directly on the contract line by manually adding contract line details.
    - Create a project and a project plan, and then associate the project and tasks to the project's contract line. This enables the process by which you can import the project plan estimate into the contract line based on the components included on the contract line.
 
-## Create an estimate directly on a project–based contract line
+## Create an estimation directly on a project–based contract line
 
 1. Go to the contract line and select the **Contract Line Detail** tab. The lines you create on this tab are summarized and display as the **Contracted Value** for this **Contract Line**. 
 2. In the **Contract Line Details** subgrid, select **+ New Contract Line Detail**. A quick-create slider opens. The following fields are available on the **Contract Line Details** form:
@@ -34,7 +34,6 @@ To estimate a project-based contract line, go to the **Contract Line Detail** ta
 | **Category** | **Quick Create** | The category of the work or expense. | This field defaults to the related contract line detail for costs that are automatically created. |
 | **Start Date** | **Quick Create** | The start date of the work. | This field defaults to the related contract line detail for costs that are automatically created. |
 | **End Date** | **Quick Create** | The end date of the work. | This field defaults to the related contract line detail for the cost that is automatically created. |
-| **Resourcing Company** | **Quick Create** | The resourcing company or legal entity that is incurring this cost and providing the resource to work on it. | This field defaults to the related contract line detail for costs that are automatically created. This field is also used in cost price retrieval. |
 | **Resourcing Unit** | **Quick Create** | The resourcing unit that incurs this cost and provies the resource to work on it. | This field defaults to the related contract line detail for costs that are automatically created. This field is also used in cost price retrieval. |
 | **Unit schedule** | **Quick create** | The unit group of the work or expense. Units belong to a unit schedule or a group of units. For example, *miles* and *kilometers (Kms)* are units that belong to a group of units that describe distance. | This field defaults to the related contract line detail for costs that are automatically created. |
 | **Unit** | **Quick Create** | The unit of work or expense. | This field defaults to the related contract line detail for costs that are automatically created. |
