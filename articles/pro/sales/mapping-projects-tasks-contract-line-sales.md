@@ -61,8 +61,8 @@ This is the optimal method to associate tasks to contract lines. You can select 
 
 Complete the following steps to unassociate project tasks from the contract line on the **Chargeable Tasks** tab of the **Contract Line** page.
 
-1. On the **Chargeable Tasks** tab. From the sub-grid actions, select &quot;Delete a contract line task&quot;.
-2. A warning message comes up indicating that removing this association could result in reversal of any actuals recorded on the task previously. Clicking ok on the warning dialog will result in the removal of the association between the task and the project- based contract line. The selected task association from the contract line is removed.
+1. On the **Chargeable Tasks** tab, select **Delete a Contract Line Task**.
+2. A warning message indicates that removing this association could result in reversal of any actuals previously recorded on the task. Select **OK** on the dialog to remove the association between the task and the project-based contract line. 
 
 > [!NOTE]
 > This doesn't delete the task from the project. Instead, it removes the task association from the project-based contract line.
@@ -73,7 +73,7 @@ This is the more optimal experience for unassociating tasks from contract lines.
 
 1. From **General** tab of the project-based contract line, in the **Project** field, click on the link for project.
 2. On the **Project** page, select the **Task Billing Setup** tab.
-3. There are 2 grids on the page. One grid is for contract lines that apply to the whole project and the second applies to task-specific billing setup. In the second grid, select one or more tasks and the select **Disassociate Contract Lines**.
-4. In the  dialog page that opens, select a contractline from the drop-down.
-5. Select the check box to indicate if the association should also be removed from any child tasks of the selected tasks. Checking the box will also unssociate the child tasks of the selected tasks from the contract line.
-6. Select **OK**. A warning message indicates that removing this association could result in reversal of any actuals recorded on the task previously. Select **OK** on the warning dialog to remove the association between the task and the project-based contractline.
+3. There are two grids on the page. One grid is for contract lines that apply to the whole project and the second applies to task-specific billing setup. In the second grid, select one or more tasks and the select **Disassociate Contract Lines**.
+4. In the  dialog page that opens, select a contract line from the drop-down.
+5. Select the check box to indicate if the association should also be removed from any child tasks of the selected tasks. Checking the box will also unassociate the child tasks of the selected tasks from the contract line.
+6. Select **OK**. A warning message indicates that removing this association could result in reversal of any actuals recorded on the task previously. Select **OK** on the warning dialog to remove the association between the task and the project-based contract line.
