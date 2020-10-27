@@ -102,6 +102,8 @@
         items: 
         - name: Configure chargeable components of a project-based contract line
           href: sales/configure-chargeable-contract-line.md
+        - name: Estimate a project-based contract line
+          href: sales/create-estimate-contract-line.md
         - name: Import an estimate to a project-based contract line
           href: sales/import-estimate-project-contract-line.md
         - name: Create an invoice schedule on a project-based contract line
@@ -442,6 +444,8 @@
         href: pro/sales/mapping-projects-tasks-contract-line-sales.md
       - name: Configuring chargeable components of a project-based contract line
         href: pro/sales/configure-chargeable-components-contract-line.md
+      - name: Estimate a project-based contract line
+        href: sales/create-estimate-contract-line.md
       - name: Importing an estimate to a project-based contract line
         href: pro/sales/import-estimate-project-contract-line-sales.md
       - name: Creating invoice schedules on a project-based contract line
