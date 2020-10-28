@@ -446,6 +446,8 @@
         href: pro/sales/product-based-contract-lines-overview-sales.md
       - name: Costing product-based contract lines
         href: pro/sales/cost-product-based-contract-lines-sales.md
+      - name: Managing complex units for product-based contract lines
+        href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
     - name: Project-based contract lines
       items: 
       - name: Managing multiple customers on project contracts
