@@ -38,7 +38,7 @@ Skills for resources are rated by proficiency models. The individual ratings are
 
 1. To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.
 2. In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.
-3. In the **Rating Values** sub-grid, you can define the different rating values, from the minimum to the maximum.
+3. In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.
 
 > ![Minimum and maximum ratings defined](media/Resource-Management-image85.png)
 

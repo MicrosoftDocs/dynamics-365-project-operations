@@ -25,7 +25,7 @@ Quotes can be created from project opportunities in the following ways:
 To create a project quote from an opportunity, complete the following steps.
 
 1. Open the **Project Opportunity** page and select the **Quotes** tab. 
-2. On the **Quotes** sub-grid, select the **+** to create a new project quote based on the opportunity. All of the opportunity lines and related Project price lists are copied to the new quote from the opportunity.
+2. On the **Quotes** subgrid, select the **+** to create a new project quote based on the opportunity. All of the opportunity lines and related Project price lists are copied to the new quote from the opportunity.
 
 ## From the Opportunity sales process flow
 

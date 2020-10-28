@@ -35,6 +35,6 @@ To make a copy of price list, complete the following steps.
 
 ## Update a price list by applying a mark-up to all the prices
 
-1. On the **Role**, **Category**, and **Price List Item** tabs of a price list, you can select **Update Prices** to apply a markup for all prices in the sub-grid. 
+1. On the **Role**, **Category**, and **Price List Item** tabs of a price list, you can select **Update Prices** to apply a markup for all prices in the subgrid. 
 2. On the dialog page that opens, enter a mark-up. You can also enter a negative mark-up percent to decrease prices by a certain percentage. 
-3. Select **OK** on the dialog page and then verify that the prices in the sub-grid reflect the changes you made.
+3. Select **OK** on the dialog page and then verify that the prices in the subgrid reflect the changes you made.
