@@ -3,7 +3,7 @@ title: Set up currencies and exchange rates
 description: How to set up currencies and exchange rates in Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

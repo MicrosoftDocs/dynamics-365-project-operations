@@ -3,7 +3,7 @@ title: User guide for the Project Resource Hub
 description: An end-user's guide for the Project Resource Hub for Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

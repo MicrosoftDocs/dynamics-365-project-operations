@@ -3,7 +3,7 @@ title: Skills and proficiency models
 description: This topic provides information about how to use the skills and proficiency models.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/13/2019

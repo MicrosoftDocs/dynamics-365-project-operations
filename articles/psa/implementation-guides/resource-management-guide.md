@@ -3,7 +3,7 @@ title: Resource management guide
 description: This topic provides links to information about resource management in Project Service Automation
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/28/2019

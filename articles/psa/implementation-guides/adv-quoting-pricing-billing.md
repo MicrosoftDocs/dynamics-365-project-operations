@@ -3,7 +3,7 @@ title: Advanced Quoting, Pricing, and Billing
 description: This topic provides information about quoting, billing, and pricing in Project Service Automation.
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 2/14/2019

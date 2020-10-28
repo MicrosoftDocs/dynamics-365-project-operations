@@ -3,7 +3,7 @@ title: Dashboards
 description: This topic provides information about the reporting dashboards that are included in Dynamics 365 Project Service Automation.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/01/2019

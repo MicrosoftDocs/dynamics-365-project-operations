@@ -3,7 +3,7 @@ title: White papers for Project Service Automation
 description: A collection of white papers for Project Service
 author: kfend
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
