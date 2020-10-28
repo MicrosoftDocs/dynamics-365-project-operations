@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -26,7 +26,7 @@ When the billing method for a project-based quote line is Time and material, the
 2. On the **Quotes** page, open the Project quote and on the **Summary** tab, set a requested delivery date.
 3. Open the time and material quote line that you need to create a date-based invoice schedule for. 
 4. On the **Invoice Schedule** tab, select values in the **Billing start** and **Invoice Frequency** fields. 
-5. On the sub-grid, select **Generate Invoice Schedule**.
+5. On the subgrid, select **Generate Invoice Schedule**.
 6. The application generates the invoice schedule with the **Invoice Run Date**, **Transaction Cutoff Date**, and **Run Status** fields set in the following way:
 
     - **Invoice Run Date** is set to the date that is dictated based on the invoice frequency.
@@ -41,7 +41,7 @@ When the project-based quote line has a **Fixed** billing method, the system cre
 2. On the **Quotes** page, open the Project quote and on the **Summary** tab, set a requested delivery date.
 3. Open the fixed price quote line that you need to create a milestone schedule for. 
 4. On the **Invoice Schedule** tab, select values in the **Billing start** and **Invoice Frequency** fields. 
-5. On the sub-grid, select **Generate Periodic Milestones**.
+5. On the subgrid, select **Generate Periodic Milestones**.
 6. The application generates the invoice schedule with a milestone name, date, and amount.
 
     - The milestone name is set to the date that is dictated based on the invoice frequency.
@@ -53,7 +53,7 @@ When the project-based quote line has a **Fixed** billing method, the system cre
 
 Fixed price milestones can also be generated manually when they are not periodically split. To create a milestone manually:
 
-Open the Fixed price quote line where you need to create a milestone. On the **Invoice Schedule** tab, on the sub-grid, select **+ Create new quote line milestone** and enter the required information based on the following table.
+Open the Fixed price quote line where you need to create a milestone. On the **Invoice Schedule** tab, on the subgrid, select **+ Create new quote line milestone** and enter the required information based on the following table.
 
 | **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
 | --- | --- | --- | --- |

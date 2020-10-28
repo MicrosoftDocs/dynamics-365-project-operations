@@ -3,7 +3,7 @@ title: Create time entries
 description: This topic provides information about how to create time entries.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 05/20/2019

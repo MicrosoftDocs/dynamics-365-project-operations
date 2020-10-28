@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -25,7 +25,7 @@ To estimate a project-based quote line, on the project-based quote line, select 
 
 To create an estimate on a project-based quote line, select the **Quote Line Detail** tab. The line item that you create on this tab will summarize the quoted value for this quote line. 
 
-To create quote line details, select **+ New quote line detail** on the **Quote Line Details** sub-grid. A quick create slider will open. The following fields on the **Quote Line** form:
+To create quote line details, select **+ New quote line detail** on the **Quote Line Details** subgrid. A quick create slider will open. The following fields on the **Quote Line** form:
 
 | **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
 | --- | --- | --- | --- |
@@ -49,7 +49,7 @@ If you have changed prices on the project price list that is attached to the quo
 
 ## Access quote line details for cost
 
-On the **Quote Line Details** tab, select a row in the grid to enable some actions on the toolbar of the sub-grid. The first action on the sub-grid tool bar when a quote line detail is selected is **Open Cost Detail**. Select **Open Cost Detail** to see the related cost rate and amount for this quote line.
+On the **Quote Line Details** tab, select a row in the grid to enable some actions on the toolbar of the subgrid. The first action on the subgrid tool bar when a quote line detail is selected is **Open Cost Detail**. Select **Open Cost Detail** to see the related cost rate and amount for this quote line.
 
 > [!NOTE]
 > Changing the resourcing unit, quantity, dates, role, or category values on the quote line detail for cost will change the corresponding values on the quote line details for sales.

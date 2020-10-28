@@ -3,7 +3,7 @@ title: View project team members and manage bookings
 description: How to view project team members and manage bookings in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

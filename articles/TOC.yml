@@ -98,8 +98,12 @@
         href: sales/project-contract-settings.md
       - name: Manage multiple customers on project-based contract lines
         href: sales/manage-multiple-customers-contract-line.md
+      - name: Manage project price lists on project contracts
+        href: sales/contracts-manage-project-price-lists.md
       - name: Project-based contract lines
         items: 
+        - name: Work with project-based contract lines
+          href: sales/manage-contract-values-project-based.md
         - name: Configure chargeable components of a project-based contract line
           href: sales/configure-chargeable-contract-line.md
         - name: Estimate a project-based contract line
@@ -324,6 +328,8 @@
     items:
     - name: Manage the billing backlog
       href: proforma-invoicing/manage-billing-backlog.md
+    - name: Manage not-to-exceed status and validations
+      href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
     - name: Create a manual proforma invoice
       href: proforma-invoicing/create-manual-proforma-invoice.md
     - name: Manage a proforma invoice
@@ -344,6 +350,8 @@
       href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
+    - name: Integration journal in Project Operations
+      href: project-accounting/project-operations-integration-journal.md
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Get started
@@ -432,14 +440,20 @@
       href: pro/sales/project-contract-settings-sales.md
     - name: Managing multiple customers on project-based contract lines
       href: pro/sales/manage-multiple-customers-contract-line-sales.md
+    - name: Manage project price lists on project contracts
+      href: sales/contracts-manage-project-price-lists.md
     - name: Product-based contract lines
       items: 
       - name: Product-based contract lines overview
         href: pro/sales/product-based-contract-lines-overview-sales.md
       - name: Costing product-based contract lines
         href: pro/sales/cost-product-based-contract-lines-sales.md
+      - name: Managing complex units for product-based contract lines
+        href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
     - name: Project-based contract lines
       items: 
+      - name: Working with project-based contract lines
+        href: pro/sales/manage-contract-values-project-based-sales.md
       - name: Managing multiple customers on project contracts
         href: pro/sales/manage-multiple-customers-contract-sales.md
       - name: Mapping projects and tasks to a project-based contract line

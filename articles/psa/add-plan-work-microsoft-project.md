@@ -3,7 +3,7 @@ title: Use the Project Service Add-in to plan your work in Microsoft Project | M
 description: This topic provides information about how to add, configure, and use the Microsoft Project add-in for Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 04/06/2019

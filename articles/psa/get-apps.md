@@ -3,7 +3,7 @@ title: Get the Dynamics 365 Project Finder Mobile apps | MicrosoftDocs
 description: How to get the Dynamics 365 Project Finder Mobile apps
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
 ms.date: 8/03/2018
 ms.topic: article

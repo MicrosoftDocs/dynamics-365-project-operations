@@ -2,7 +2,7 @@
 title: Accept or reject a proposed project resource
 description: This topic provides information about how to approve or reject a proposed project resource.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 12/07/2018

@@ -3,7 +3,7 @@ title: Sales estimates and projects
 description: This topic provides information about how to take advantage of the schedule and estimates in the sales process.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/01/2019

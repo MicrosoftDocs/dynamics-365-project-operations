@@ -5,14 +5,14 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
 # Manage not-to-exceed status and validations 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 ## Not-to-exceed on approvals
 

@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -17,7 +17,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Each price list has a set of labor rates (role prices) that align with the content and date effectivity of the price list.
 
-1. Create a price list and on the **Role Price** tab, in the sub-grid, select **New Role**.
+1. Create a price list and on the **Role Price** tab, in the subgrid, select **New Role**.
 2. On the **Quick Create** page, select the role and organization unit.
 3. Enter any other required field information.
 
