@@ -1,6 +1,6 @@
 ---
 title: Navigate Project Operations
-description: 
+description: This topic provides information about how to access Project Operations from Lifecycle Services.
 author: sigitac
 manager: Annbe
 ms.date: 10/28/2020
@@ -22,12 +22,12 @@ Dynamics 365 Project Operations for resource/non-stocked scenarios consists of t
 After you provision Project Operations as described in this topic, the Lifecycle Servies (LCS) **Environment details** page provides easy access to both components of Project Operations.  
 
 Use the environment name in the section, **Common Data Service Environment Name** to navigate to Project Operations on a CDS environment. 
-Use Login > Log on to Dynamics 365 F&O environment button to navigate to Project management and accounting module.  
 
- ![Common Data Service environment name](./media/environment-name.PNG)
+  ![Common Data Service environment name](./media/environment-name.PNG)
 
- 
+Select **Login** > **Log on to environment** to navigate to the **Project management and accounting** module in Finance.  
 
- 
+   ![Log into Finance](./media/environment-login.PNG)
 
-!Note – you can also access both Project Operations on Common Data Service and Project management and accounting module by directly using respective URLs. 
+> [!NOTE]
+> You can access Project Operations in the Common Data Service and the **Project management and accounting** module directly by using their respective URLs. 
