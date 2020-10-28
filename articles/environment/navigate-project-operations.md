@@ -1,5 +1,5 @@
 ---
-title: Navigating Project Operations
+title: Navigate Project Operations
 description: 
 author: sigitac
 manager: Annbe
@@ -10,28 +10,21 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Navigating Project Operations
+# Navigate Project Operations
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
+Dynamics 365 Project Operations for resource/non-stocked scenarios consists of two components: 
 
-Project Operations for resource/ non-stocked scenarios consists of two components: 
+ - **Project Operations on Common Data Service (CDS) environment**: This component covers capabilities and processes from opportunity to proforma invoicing. 
+ - **Project management and accounting on Dynamics 365 Finance environment**: This component covers expense management capabilities, project accounting, and revenue recognition. 
 
-Project Operations on CDS environment. This component covers capabilities from opportunity to proforma invoicing. 
+After you provision Project Operations as described in this topic, the Lifecycle Servies (LCS) **Environment details** page provides easy access to both components of Project Operations.  
 
-Project management and accounting on Dynamics 365 FinanceF&O environment. This component covers Expense management capabilities, project accounting and revenue recognition. 
-
- 
-
-Once Project Operations gets provisioned as described in this article, LCS environment details page provides easy access to both components of Project Operations.  
-
- 
-
-Use environment name in Common data service environment information section to navigate to Project Operations on CDS environment. 
-
+Use the environment name in the section, **Common Data Service Environment Name** to navigate to Project Operations on a CDS environment. 
 Use Login > Log on to Dynamics 365 F&O environment button to navigate to Project management and accounting module.  
 
- 
+ ![Common Data Service environment name](./media/environment-name.PNG)
 
  
 
