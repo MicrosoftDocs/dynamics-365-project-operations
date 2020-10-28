@@ -20,7 +20,7 @@ This deployment is clear choice if your expectation from Project Operations is t
 
 1. Ability to manage project-based sales along with other types of sales where both leverage capabilities in Dynamics 365 Sales application
 2. A deepAn extensive Project management system that helps manage internal and billable projects for schedules and financials from project sales to accounting, all integrated into one system.
-3. A Ffully functional Expense Management system that includes policy enforcements and reimbursements for tracking Project and non-Project Expenses
+3. A fully functional Expense Management system that includes policy enforcements and reimbursements for tracking Project and non-Project Expenses
 4. Require a rRich, enterprise class sales tax and exchange rates engine to generate customer-facing invoice for projects.
 5. IFRS compliant Project Accounting and Revenue recognition system.
 6. The organization already has Dynamics 365 Finance or Dynamics 365 Supply Chain and Manufacturing applications and seamless integration of Project-based transactions with these will greatly simplify data access and reporting needs across the enterprise.
