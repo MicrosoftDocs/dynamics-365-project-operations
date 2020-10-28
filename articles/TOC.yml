@@ -102,6 +102,8 @@
         href: sales/contracts-manage-project-price-lists.md
       - name: Project-based contract lines
         items: 
+        - name: Work with project-based contract lines
+          href: sales/manage-contract-values-project-based.md
         - name: Configure chargeable components of a project-based contract line
           href: sales/configure-chargeable-contract-line.md
         - name: Estimate a project-based contract line
@@ -450,6 +452,8 @@
         href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
     - name: Project-based contract lines
       items: 
+      - name: Working with project-based contract lines
+        href: pro/sales/manage-contract-values-project-based-sales.md
       - name: Managing multiple customers on project contracts
         href: pro/sales/manage-multiple-customers-contract-sales.md
       - name: Mapping projects and tasks to a project-based contract line
