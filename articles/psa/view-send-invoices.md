@@ -3,7 +3,7 @@ title: View and send invoices
 description: How to view and send invoices in Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

@@ -3,7 +3,7 @@ title: Find your next project with the Project Finder Mobile app
 description: How to find your next project with the Project Finder Mobile app for Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

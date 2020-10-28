@@ -4,7 +4,7 @@ description: This topic provides information about the available and upcoming re
 ms.custom: dyn365-projectservice
 ms.date: 10/17/2020
 ms.reviewer: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.suite: ""
 #
 ms.tgt_pltfrm: ""

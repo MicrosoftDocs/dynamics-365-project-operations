@@ -3,7 +3,7 @@ title: Apply a calendar to a resource
 description: How to apply a calendar to a resource in Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 7/31/2018

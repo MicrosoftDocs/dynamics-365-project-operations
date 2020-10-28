@@ -3,7 +3,7 @@ title: Reconcile bookings and assignments
 description: This topic provides information about actuals.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 11/27/2019

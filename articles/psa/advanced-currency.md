@@ -3,7 +3,7 @@ title: Multiple-currency scenarios (version 3.x)
 description: This topic provides information about multiple-currency scenarios.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 12/26/2018

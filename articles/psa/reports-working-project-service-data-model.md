@@ -3,7 +3,7 @@ title: Working with the Project Service Automation data model
 description: This topic provides information about how to work with the data model.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/01/2019

@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -41,19 +41,19 @@ A project task can be chargeable or non-chargeable in the context of a specific 
 
 If a project-based quote line includes **Time** and the task **T1**, the task is associated to the quote line as chargeable. If there is a second quote line that includes **Expenses**, you can associate the **T1** task on the quote line as non-chargeable. The result is that all time recorded on the task is chargeable and all expenses recorded on the task are non-chargeable.
 
-A task's billing type can be configured on the **Chargeable Tasks** tab of a project-based quote line by updating the **Billing Type** field on the **Quote Line Tasks** sub-grid. Alternatively, you can update the billing type for a project task in the **Billing Type** field on the sub-grid on the task billing setup of a project that shows the quote lines associated to a task.
+A task's billing type can be configured on the **Chargeable Tasks** tab of a project-based quote line by updating the **Billing Type** field on the **Quote Line Tasks** subgrid. Alternatively, you can update the billing type for a project task in the **Billing Type** field on the subgrid on the task billing setup of a project that shows the quote lines associated to a task.
 
 ### Update a role to be chargeable or non-chargeable
 
 A role can be chargeable or non-chargeable in the context of a specific project-based quote line.
 
-A role's billing type can be configured on the **Chargeable Roles** tab of a quote line by updating the **Billing Type** field on the **Chargeable Roles** sub-grid.
+A role's billing type can be configured on the **Chargeable Roles** tab of a quote line by updating the **Billing Type** field on the **Chargeable Roles** subgrid.
 
 ### Update a transaction category to be chargeable or non-chargeable
 
 A transaction category can be chargeable or non-chargeable on a specific quote line.
 
-A transaction's billing type can be configured on the **Chargeable Categories** tab of a quote line by updating the **Billing Type** field on the **Chargeable Categories** sub-grid.
+A transaction's billing type can be configured on the **Chargeable Categories** tab of a quote line by updating the **Billing Type** field on the **Chargeable Categories** subgrid.
 
 ### Resolve chargeability
 An estimate or actual created for time will only be considered chargeable if **Time** is included on the quote line, and if **Task** and **Role** are configured as chargeable on the quote line.
