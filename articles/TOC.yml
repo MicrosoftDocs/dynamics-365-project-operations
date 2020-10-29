@@ -10,6 +10,8 @@
     items:
     - name: Sign up for a preview subscription (resource/non-stocked based)
       href: environment/resource-sign-up-preview-subscription.md
+    - name: Navigate Project Operations
+      href: environment/navigate-project-operations.md
     - name: Configure prerequisites
       items: 
       - name: Start a new LCS project
