@@ -71,15 +71,15 @@
       - name: Manage project price lists on a quote
         href: sales/managing-project-price-lists.md
       - name: Project-based quote lines
-        items: 
+        items:
+        - name: Project-based quote lines overview
+          href: sales/manage-quoted-values-budget-limits-quote-line.md 
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
         - name: Create estimates on a quote line
           href: sales/create-estimate-quote-line.md
         - name: Import estimates for a project to a project-based quote line
           href: sales/import-estimate-quote-line.md
-        - name: Manage quoted values, customer budgets, and not-to-exceed limits
-          href: sales/manage-quoted-values-budget-limits-quote-line.md
         - name: Invoice schedules on project-based quote lines
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project-based quotes
