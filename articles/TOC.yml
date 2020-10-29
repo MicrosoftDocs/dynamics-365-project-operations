@@ -78,6 +78,8 @@
           href: sales/manage-quoted-values-budget-limits-quote-line.md 
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
+        - name: Configure the chargeable components of a quote line
+          href: pro/sales/configure-chargeable-components-quote-line-sales.md
         - name: Create estimates on a quote line
           href: sales/create-estimate-quote-line.md
         - name: Import estimates for a project to a project-based quote line
