@@ -1,5 +1,5 @@
 ---
-title: Project-based quote lines
+title: Project-based quote lines overview
 description: This topic provides information about using project-based quote lines for project work.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project-based quote lines
+# Project-based quote lines overview
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
