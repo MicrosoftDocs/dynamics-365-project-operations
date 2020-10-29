@@ -2,23 +2,17 @@
 title: Sales processes overview
 description: This topic provides information about basic sales processes.  
 author: rumant
-manager: kfend
-ms.service: project-operations
-ms.custom: 
-  - dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: 
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
 ---
 
 # Sales processes overview
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 The sales processes that are used in a project-based organization differ from the sales processes that are used in a product-based organization. This is because the sales cycles for project-based organizations are longer and require customized estimate techniques to analyze and create quotes for each deal. Dynamics 365 Project Operations uses some of the following functionality that is used in a sales process:
 
