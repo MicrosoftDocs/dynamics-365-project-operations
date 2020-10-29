@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Copy project-based opportunities
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
 Project opportunities can easily be copied to create new project opportunities. 
