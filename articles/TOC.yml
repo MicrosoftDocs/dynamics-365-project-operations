@@ -62,6 +62,8 @@
         href: sales/close-opportunity.md
     - name: Manage quotes
       items:
+      - name: Managing project quotes
+        href: pro/sales/manage-quotes-sales.md
       - name: Key concepts
         href: sales/quotes-key-concepts.md
       - name: Summary information on a project quote
@@ -88,6 +90,8 @@
         href: sales/win-quote.md
     - name: Manage contracts
       items:
+      - name: Managing project contracts
+        href: pro/sales/manage-contracts-sales.md
       - name: Key concepts - Project contracts
         href: sales/contracts-key-concepts.md
       - name: Project contract settings
