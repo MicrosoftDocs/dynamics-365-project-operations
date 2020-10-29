@@ -1,6 +1,6 @@
 ---
-title: 
-description: 
+title: Product – based Quote lines
+description: Catalog or write-in lines on a Project Quote
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
@@ -10,10 +10,10 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# 
+# Product – based Quote lines
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
-# Product – based Quote lines
+
 
 You can create product-based quote lines in Dynamics 365 Project Operations. Product-based quote lines can be &quot;write-in&quot; lines, or they can be items from the product catalog.
 
