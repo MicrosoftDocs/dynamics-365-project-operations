@@ -31,4 +31,4 @@ This deployment type is recommended if your expectation from Project Operations 
 - Ability to manage project-based sales with other types of sales using the capabilities in the Sales application.
 - A integrated project management system that can manage internal and billable projects for schedules and financials from project sales to invoicing.
 - A third-party Enterprise resource planning (ERP/Financial accounting system to integrate with Project Operations.
-- A third-party system for working with sales taxes, exchange rates, expense reimbursements, and non-project expenses.
+- A third-party system to work with sales taxes, exchange rates, expense reimbursements, and non-project expenses.
