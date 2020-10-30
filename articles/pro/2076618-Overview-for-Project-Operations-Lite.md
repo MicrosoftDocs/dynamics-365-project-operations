@@ -20,7 +20,7 @@ The Lite deployment type of Dynamics 365 Project Operations has the following ca
 - Multi-dimensional pricing and costing for labor resources
 - Category-based pricing for expense categories
 - Project-based sales management using Dynamics 365 Sales capabilities
-- Universal Resource Scheduling that integrates with other applications such as Dynamics 365 Field Service and Dynamics 365 Customer Service
+- Universal resource scheduling that integrates with other applications such as Dynamics 365 Field Service and Dynamics 365 Customer Service
 - Project progress and time tracking
 - Basic expense tracking for project-based expenses
 - Proforma invoicing that can be reviewed and sent to a financial system for processing
