@@ -62,6 +62,8 @@
         href: sales/close-opportunity.md
     - name: Manage quotes
       items:
+      - name: Managing project quotes
+        href: pro/sales/manage-quotes-sales.md
       - name: Key concepts
         href: sales/quotes-key-concepts.md
       - name: Summary information on a project quote
@@ -76,6 +78,8 @@
           href: sales/manage-quoted-values-budget-limits-quote-line.md 
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
+        - name: Configure the chargeable components of a quote line
+          href: pro/sales/configure-chargeable-components-quote-line-sales.md
         - name: Create estimates on a quote line
           href: sales/create-estimate-quote-line.md
         - name: Import estimates for a project to a project-based quote line
@@ -88,6 +92,8 @@
         href: sales/win-quote.md
     - name: Manage contracts
       items:
+      - name: Managing project contracts
+        href: pro/sales/manage-contracts-sales.md
       - name: Key concepts - Project contracts
         href: sales/contracts-key-concepts.md
       - name: Project contract settings
@@ -404,6 +410,8 @@
         href: pro/sales/manage-project-price-lists-sales.md
       - name: Product-based quote lines
         items: 
+        - name: Product-based quote lines overview
+          href: pro/sales/product-based-quote-lines-sales.md
         - name: Costing product-based quote lines
           href: pro/sales/costing-product-based-quote-lines-sales.md
         - name: Managing complex units such as per-user, per-month for product-based quote lines
