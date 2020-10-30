@@ -28,7 +28,7 @@ In addition to a periodic retainer-based schedule, Project Operations can record
 
 The retainer in Project Operations isn't available for use until it is invoiced to the customer. This is indicated by the following fields on the subgrid for advances and retainers.
 
-| Field | Relevance, purpose, and guidance | Downstream impact |
+| Field | Description | Downstream impact |
 | --- | --- | --- |
 | Available Amount | The amount that is available to be used on the retainer or advance record. | Until the advance or retainer is invoiced, it isn't available to be used which means the available amount will be zero. |
 | Used Amount | The amount that is already used on the retainer or advance. | An advance or retainer can be partially reconciled on an invoice with actual costs which will have some part marked as already used or consumed. The rest of the advance or retainer amount is available to reconcile on a future invoice with actual costs. |

@@ -20,7 +20,7 @@ You can easily create a new Project quote by copying an existing one.
 
 This will open a dialog page where you can enter the parameters of the copy. The following table lists the fields that are included in the dialog page. Depending on the values you select, the copy process may change.
 
-| **Field** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Description** | **Downstream impact** |
 | --- | --- | --- |
 | Topic | Enter the relevant topic, or name, of the target quote. When the dialog opens, the system will set it to the topic of the source quote with **-copy** appended to it. | |
 | Potential Customer | Reference to the customer's company or account record. When the dialog opens, the system will set it to the account on the source quote. | This field is the primary customer on the quote. |

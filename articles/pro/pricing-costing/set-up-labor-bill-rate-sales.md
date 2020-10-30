@@ -22,7 +22,7 @@ Each price list has a set of role prices, or labor rates, that are effective for
 
   The following table includes the fields on the **General** tab and the **Quick Create** pane of a role price line that you need keep in mind as you create role prices on a sales price list:
 
-  | Field | Location | Relevance, purpose, and guidance | Downstream impact |
+  | Field | Location | Description | Downstream impact |
   | --- | --- | --- | --- |
   | Role | **General** tab and **Quick Create** pane | Select the role that you are setting the bill rate for. | Role on the incoming estimate or actual will be matched against this line to default bill rate of the role. |
   | Resourcing Unit | **General** tab and **Quick Create** pane | Select the organizational unit or division of the company that the role is from. For example, a developer from the Robotics division of Fabrikam India or a developer from the Software division of Fabrikam USA. | The resourcing unit on the incoming estimate or actual will be matched against this line to default the bill rate of the role. |

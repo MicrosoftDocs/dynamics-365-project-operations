@@ -59,7 +59,7 @@ Fixed price milestones can be generated manually when they aren't periodically s
 2. On the **Invoice Schedule** tab, on the subgrid, select **+ Create new Contract line milestone**.
 3. On the **Milestone Creation** form, enter the required information based on the following table. 
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Milestone Name | Quick Create | Text field for the name of the milestone. | This field is included on the project contract line milestone and the invoice. |
 | Project Task | Quick Create | If the milestone is tied to a project task, use this reference to add custom logic and set the milestone status based on the task status. | There is no downstream impact of this reference to a task. |

@@ -20,7 +20,7 @@ Project-based opportunity lines are the line items that will be delivered to the
 
 Below are the fields on a project-based opportunity line:
 
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
 | Product Type | General tab (hidden) | You can select one of the following options:</br>- Project-based service (available only when Dynamics 365 Project Operations is installed)</br>- Product (available only when Project Operations and Dynamics 365 Sales are installed) | The value of this field is set to **Project-based service** when you create a project-based opportunity line from the project-based lines grid on the Opportunity. <br> If you change or override this value, the project functionality won't be enabled on your project-based line items. |
 | Opportunity | General tab | This field is read-only and references parent Opportunity record to which this line item belongs. | There is no downstream impact from this field. |

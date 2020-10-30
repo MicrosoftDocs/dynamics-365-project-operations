@@ -26,7 +26,7 @@ Project-based contract lines in Dynamics 365 Project Operations are designed to 
 
 The following table includes the fields on the **General** tab of project–based contract lines that help set up the basis for a detailed, ground–up estimate and billing arrangements for project–based work.
 
-| Field | Relevance, purpose, and guidance | Downstream impact |
+| Field | Description | Downstream impact |
 | --- | --- | --- |
 | **Name** | Name of the contract line. This identifies the discrete component of the contract that is being estimated. For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line. | The name copied over to the project invoice line that is created from this contract line when the invoice is created. |
 | **Billing Method** | On a project contract created from a quote, this value is copied from the corresponding field on the quote line. This is an option set that represents the two main contracting models supported by Project Operations:</br>- **Fixed Price**</br>- **Time and Material** | Based on the billing method of the referenced contract line, the actual transaction will be processed. If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created. If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created. |

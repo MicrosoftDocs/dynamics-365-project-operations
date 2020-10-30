@@ -30,7 +30,7 @@ The primary customer shouldn't be updated from the customer list on the quote. H
 
 A quote customer can be created, updated, or deleted from the **Quote customers** tab on the **Quote** page. The fields listed in the following table are on the quote customer record of a project quote.
 
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
 | Account | Editable grid on the **Quote Customers** tab and the **Main** and **Quick Create** forms for a quote customer. | Lists all the active accounts. This field is locked after the record is created. If you want to update it, delete the record, and re-create it. If you have recorded any actuals, or if the quote customer record is a primary customer, you will be allowed to delete the record. | Quote customers are copied over as quote line customers when a quote line is created. Quote customers are also copied over to the project contract customers when a quote is won. |
 | Billing split percent | Editable grid on the **Quote Customers** tab and the **Main** and **Quick Create** forms for a quote customer. | Represent the percentage of each unbilled sales transaction that will be attributed to this quote customer. | Copied over to new quote lines created and to project contract customers. |
