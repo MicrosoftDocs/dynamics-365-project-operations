@@ -1,26 +1,40 @@
-# Project Operations for resource/non-stocked scenarios
+---
+title: Project Operations for resource/non-stocked based scenarios overview
+description: This topic provides information about the deployment type, Project Operations for resource/non-stocked based scenarios.
+author: rumant
+manager: Annbe
+ms.date: 10/30/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend 
+ms.author: rumant
+---
 
-This deployment type has the following capabilities for project-based companies:
+# Project Operations for resource/non-stocked based scenarios overview
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+
+Th deployment type, Dynamics 365 Project Operations for resource/non-stocked based scenarios has the following capabilities for project-based companies:
 
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing and costing for labor resources
-- Category – based pricing for expense categories
-- Managing project-based sales by extending Dynamics 365 Sales capabilities
-- Universal Resource Scheduling that works with other applications like Field Service and Customer Service
+- Category-based pricing for expense categories
+- Project-based sales management using Dynamics 365 Sales capabilities
+- Universal resource scheduling that integrates with other applications such as Dynamics 365 Field Service and Dynamics 365 Customer Service
 - Project progress and Time Tracking
-- Basic and Full Expense Management experiences for project and non-project expenses with receipt capture using OCR capabilities
-- Full Invoicing extending that extends from proforma to customer – facing invoice backed by a rich, enterprise -class Sales Tax and date – effective exchange rates system.
-- Configurable project cost and revenue profiles and rules for WIP accounting and accruals
-- Project Revenue Recognition
-- Extensibility through the PowerPlatform
+- Basic and full Expense management experiences for project and non-project expenses including receipt capture using OCR capabilities
+- Ivoicing that extends from a proforma to a customer-facing invoice that is backed by a enterprise-class sales tax and date-effective exchange rate system.
+- Configurable project cost, revenue profiles, and rules for work in progress (WIP) accounting and accruals
+- Project revenue recognition
+- Extensibility through the Power Platform
 
-This deployment type also provides seamless extension to the functionality provided by Dynamics 365 Finance and SCM applications if the customer is also licensed for those applications.
+This deployment type also provides a seamless extension to the functionality provided by Dynamics 365 Finance and SCM applications if the customer is also licensed for those applications.
 
-This deployment is clear choice if your expectation from Project Operations is to leverage the full project life – cycle that includes the following key differentiating requirements:
+This deployment should be chosen the expectation of Project Operations is to leverage the full project lifecycle that includes the following requirements:
 
-1. Ability to manage project-based sales along with other types of sales where both leverage capabilities in Dynamics 365 Sales application
-2. A deepAn extensive Project management system that helps manage internal and billable projects for schedules and financials from project sales to accounting, all integrated into one system.
-3. A fully functional Expense Management system that includes policy enforcements and reimbursements for tracking Project and non-Project Expenses
-4. Require a rRich, enterprise class sales tax and exchange rates engine to generate customer-facing invoice for projects.
-5. IFRS compliant Project Accounting and Revenue recognition system.
-6. The organization already has Dynamics 365 Finance or Dynamics 365 Supply Chain and Manufacturing applications and seamless integration of Project-based transactions with these will greatly simplify data access and reporting needs across the enterprise.
+- Ability to manage project-based sales with other types of sales using the capabilities in the Sales application.
+- An integreated project management system that can manage internal and billable projects for schedules and financials from project sales to accounting.
+- An expense management system that includes policy enforcements and reimbursements for tracking project and non-project expenses.
+- Require a rRich, enterprise class sales tax and exchange rates engine to generate customer-facing invoice for projects.
+- An International Financial Reporting Standards(IFRS)-compliant project accounting and revenue recognition system.
+- Finance or Supply Chain Management applications and seamless integration of project-based transactions
