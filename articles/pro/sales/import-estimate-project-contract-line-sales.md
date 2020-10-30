@@ -1,5 +1,5 @@
 ---
-title: Importing an estimate to a project-based contract line
+title: Import an estimate to a project-based contract line - lite
 description: This topic provides information about importing financial estimates from a project to a contract line.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Importing an estimate to a project-based contract line
+# Import an estimate to a project-based contract line - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

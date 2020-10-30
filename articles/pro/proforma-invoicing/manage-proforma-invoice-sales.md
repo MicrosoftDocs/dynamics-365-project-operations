@@ -1,5 +1,5 @@
 ---
-title: Managing a proforma invoice
+title: Manage a proforma invoice - lite
 description:  This topic provides information about working with Proforma invoices. 
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Managing a proforma invoice
+# Manage a proforma invoice - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

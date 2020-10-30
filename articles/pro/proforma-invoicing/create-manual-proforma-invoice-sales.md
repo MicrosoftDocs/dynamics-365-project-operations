@@ -1,5 +1,5 @@
 ---
-title: Creating a manual proforma invoice
+title: Create a manual proforma invoice - lite
 description: This topic provides information about creating a manual proforma invoice in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Creating a manual proforma invoice
+# Create a manual proforma invoice - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

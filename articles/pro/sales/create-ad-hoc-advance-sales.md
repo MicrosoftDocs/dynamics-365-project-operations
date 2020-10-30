@@ -1,5 +1,5 @@
 ---
-title: Creating an ad hoc advance on a contract
+title: Creating an ad hoc advance on a contract - lite
 description: This topic provides information about creating an advance on a contract as needed.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Creating an ad hoc advance on a contract
+# Creating an ad hoc advance on a contract - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

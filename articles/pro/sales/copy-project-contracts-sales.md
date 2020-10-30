@@ -1,5 +1,5 @@
 ---
-title: Copying project contracts
+title: Copy project contracts - lite
 description: This topic provides information about copying project contracts in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Copying project contracts
+# Copy project contracts - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

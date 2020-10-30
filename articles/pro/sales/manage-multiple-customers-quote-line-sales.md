@@ -1,5 +1,5 @@
 ---
-title: Managing multiple customers on project-based quote lines
+title: Manage multiple customers on project-based quote lines - lite
 description: This topic describes how to manage multiple customers on project-based quote lines.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Managing multiple customers on project-based quote lines
+# Manage multiple customers on project-based quote lines - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

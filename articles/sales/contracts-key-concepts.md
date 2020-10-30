@@ -1,5 +1,5 @@
 ---
-title: Key concepts - Project contracts
+title: Project contracts - Key concepts
 description: This topic provides information about the key concepts of project contracts in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Key concepts - Project contracts
+# Project contracts - Key concepts
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

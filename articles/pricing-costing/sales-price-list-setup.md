@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Sales price list setup
+title: Set up a sales price list 
 description: This topic provides information about sales price lists for project pricing.
 author: rumant
 manager: AnnBe
@@ -29,7 +29,7 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Sales price list setup
+# Set up a sales price list
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
