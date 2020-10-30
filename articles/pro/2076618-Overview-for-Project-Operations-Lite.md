@@ -1,20 +1,34 @@
-# Lite deployment - deal to proforma invoicing
+---
+title: Lite deployent overview
+description: This topic provides information about the Lite deployment of Dynamics 365 Project Operations.
+author: rumant
+manager: Annbe
+ms.date: 10/30/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend 
+ms.author: rumant
+---
 
-This deployment type has the following capabilities for project-based companies:
+# Lite deployment overview
+
+_**Applies To:** Lite deployment - deal to proforma invoicing_
+
+The Lite deployment type of Dynamics 365 Project Operations has the following capabilities for project-based companies:
 
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing and costing for labor resources
-- Category – based pricing for expense categories
-- Managing project-based sales by extending Dynamics 365 Sales capabilities
-- Universal Resource Scheduling that works with other application like Field Service and Customer Service
-- Project progress and Time Tracking
+- Category-based pricing for expense categories
+- Project-based sales management using Dynamics 365 Sales capabilities
+- Universal Resource Scheduling that integrates with other applications such as Dynamics 365 Field Service and Dynamics 365 Customer Service
+- Project progress and time tracking
 - Basic expense tracking for project-based expenses
-- Proforma Invoicing that the Project Manager can review and send to a financial system for processing.
+- Proforma invoicing that can be reviewed and sent to a financial system for processing
 - Extensibility through the Power Platform
 
-This deployment is clear choice if your expectation from Project Operations is to leverage the full project life – cycle that includes the following key differentiating requirements:
+This deployment type is recommended if your expectation from Project Operations is to leverage the full project lifecycle that includes the following requirements:
 
-1. Ability to manage project-based sales along with other types of sales where both leverage capabilities in Dynamics 365 Sales application
-2. A deep Project management system that helps manage internal and billable projects for schedules and financials from project sales to invoicing integrated into one system.
-3. Already have a 3rd party ERP / Financial accounting system that you would like to integrate to from the Project Operations.
-4. Already have 3rd party systems to that can handle Sales taxes, Exchange rates and Expense reimbursements and non-project expenses.
+- Ability to manage project-based sales with other types of sales using the capabilities in the Sales application.
+- A integrated project management system that can manage internal and billable projects for schedules and financials from project sales to invoicing.
+- A third-party Enterprise resource planning (ERP/Financial accounting system to integrate with Project Operations.
+- A third-party system for working with sales taxes, exchange rates, expense reimbursements, and non-project expenses.
