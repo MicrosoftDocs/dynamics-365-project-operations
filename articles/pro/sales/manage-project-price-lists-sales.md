@@ -1,5 +1,5 @@
 ---
-title: Manage project price lists on project quotes
+title: Manage project price lists on project quotes - lite
 description: This topic provides information about working with project price lists on quotes. (Sales)
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Manage project price lists on project quotes (Sales)
+# Manage project price lists on project quotes - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
