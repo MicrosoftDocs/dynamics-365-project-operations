@@ -1,5 +1,5 @@
 ---
-title: Close quotes 
+title: Close a quote - lite
 description: This topic provides information about closing a quote in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Close quotes 
+# Close a quote - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
