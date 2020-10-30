@@ -1,5 +1,5 @@
 ---
-title: Summary information on a project quote
+title: Project quote settings
 description: This topic provides information about the information and settings that apply to and impact project quotes.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Summary information on a project quote
+# Project quote settings
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
