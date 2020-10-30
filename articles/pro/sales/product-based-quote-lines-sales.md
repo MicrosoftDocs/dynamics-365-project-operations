@@ -1,6 +1,6 @@
 ---
 title: Product-based quote lines overview
-description: This topic provides inofrmation about creting product-based quote lines.
+description: This topic provides information about working with product-based quote lines.
 author: rumant
 manager: Annbe
 ms.date: 10/30/2020
@@ -20,7 +20,7 @@ You can create product-based quote lines in Dynamics 365 Project Operations. Pro
 
 Each product in the product catalog has a default unit and unit group. If multiple products share the same set of attributes, you can create a product family that share those attributes. 
 
-For example, a company sells subscription licenses for a variety of software. All subscription software has the following two attributes:
+For example, a company sells subscription licenses for different kinds of software. All subscription software has the following two attributes:
 
 - Number of users
 - A subscription duration measured in months
@@ -33,11 +33,11 @@ The **Project Quote** and **Project Contract** pages have sections for project-b
 
 Additionally, you can select products from other price lists or directly from the product catalog. When you select products directly from a product catalog, the default price list of that product is used to get the product's sales price. If a default price list isn't set, the price is set to zero (0).
 
-If a quote line is based on a product catalog, you can override the sales price directly on the quote line. A quote line in **Pricing** field with two available values:
+When a quote line is based on a product catalog, you can override the sales price directly on the quote line. A quote line in **Pricing** field with two available values:
 
 - **Override Pricing**
 - **Use Default**
 
-If you select **Override Pricing**, the default price is not set. Instead, you must enter a price for the product on the quote line. If you select **Use Default**, the default sales price is used and the field is locked for editing.
+If you select **Override Pricing**, the default price isn't set. Instead, you must enter a price for the product on the quote line. If you select **Use Default**, the default sales price is used and the field is locked for editing.
 
 Default sales prices are entered on the product-based lines of a quote. The **Pricing** field is then set to **Override Pricing** so that you can edit the default price on the quote lines. This is a Project Operations-specific override to the product-based lines behavior in Dynamics 365 Sales.
