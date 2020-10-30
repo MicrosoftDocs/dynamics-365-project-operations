@@ -1,5 +1,5 @@
 ---
-title: Credits and corrected invoices 
+title: Corrected invoices - lite
 description: This topic provides information about corrected invoices in Project Operations
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Credits and corrected invoices
+# Corrected invoices - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
