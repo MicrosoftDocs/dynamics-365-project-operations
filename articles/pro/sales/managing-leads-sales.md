@@ -1,5 +1,5 @@
 ---
-title: Manage leads (Pro)
+title: Manage leads - lite
 description: This topic provides information about managing project-based leads (pro).
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Manage leads (Pro)
+# Manage leads - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
