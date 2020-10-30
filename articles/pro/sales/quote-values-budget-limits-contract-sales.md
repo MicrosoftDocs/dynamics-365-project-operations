@@ -31,7 +31,7 @@ The following table lists the summary information fields on a project quote that
 
 Below are the tabs and KPIs available on a project quote that are unique to Project Operations or have some important changes in behavior from Sales quotes:
 
-| **Field** | **Location** | **Relevance, purpose and guidance** |
+| **Field** | **Location** | **Description** |
 | --- | --- | --- |
 | Profitability analysis | Tab on the Quote | The tab shows the following metrics:</br>- Total chargeable cost</br></br>- Total non-chargeable cost</br>- Total revenue</br>- Total revenue (base)</br>- Gross margin</br>- Adjusted gross margin|
 | Comparison to Customer Expectations | Tab on the Quote | This tab shows the following metrics:</br>- Estimated completion</br>- Requested completion</br>- Customer budget</br>- Quote value |
