@@ -1,5 +1,5 @@
 ---
-title: Start a new project in LCS
+title: Start a new LCS project
 description: This topic provides information about creating a new project in LCS for your Project Operations environment.
 author: stsporen
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: stsporen
 ---
 
-# Start a new project in LCS
+# Start a new LCS project
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
