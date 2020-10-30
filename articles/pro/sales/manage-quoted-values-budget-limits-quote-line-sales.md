@@ -1,5 +1,5 @@
 ---
-title: Project-based quote lines (Pro)
+title: Project-based quote lines overview - lite
 description: This topic provides information about using project-based quote lines for project work. (Pro)
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project-based quote lines (Pro)
+# Project-based quote lines overview - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
