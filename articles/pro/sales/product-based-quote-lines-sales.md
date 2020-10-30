@@ -1,16 +1,16 @@
 ---
-title: Product-based quote lines
+title: Product-based quote lines overview
 description: This topic provides inofrmation about creting product-based quote lines.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 10/30/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Product-based quote lines
+# Product-based quote lines overview
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
