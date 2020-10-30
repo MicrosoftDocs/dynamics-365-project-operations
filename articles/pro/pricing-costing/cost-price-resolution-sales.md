@@ -1,5 +1,5 @@
 ---
-title: Resolving cost prices on estimates and actuals
+title: Resolve cost prices on estimates and actuals - lite
 description: This topic provides information about how cost prices on estimates and actuals are resolved.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Resolving cost prices on estimates and actuals
+# Resolve cost prices on estimates and actuals - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

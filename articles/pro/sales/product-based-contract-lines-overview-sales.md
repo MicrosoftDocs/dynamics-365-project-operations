@@ -1,5 +1,5 @@
 ---
-title: Product-based contract lines overview
+title: Product-based contract lines overview - lite
 description: This topic provides information about product-based contract lines.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Product-based contract lines overview
+# Product-based contract lines overview - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

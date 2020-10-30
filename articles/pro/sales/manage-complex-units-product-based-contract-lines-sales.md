@@ -1,5 +1,5 @@
 ---
-title: Managing complex units for product-based contract lines
+title: Manage complex units for product-based contract lines - lite
 description:  This topic provides information about supporting the sale of subscription-based products.
 author: rumant
 manager: Annbe
@@ -11,7 +11,7 @@ ms.author: rumant
 ---
 
 
-# Managing complex units for product-based contract lines
+# Manage complex units for product-based contract lines - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

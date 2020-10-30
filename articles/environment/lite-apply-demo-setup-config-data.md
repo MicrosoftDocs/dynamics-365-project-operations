@@ -1,5 +1,5 @@
 ---
-title: Apply demo setup and configuration data
+title: Apply demo setup and configuration data - lite
 description: This topic provides information about how to apply demo setup and configuration data for Project Operations.
 author: sigitac
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Apply demo setup and configuration data for Project Operations lite deployment - deal to proforma invoicing
+# Apply demo setup and configuration data for Project Operations - lite 
 
 _**Lite deployment - deal to proforma invoicing_
 

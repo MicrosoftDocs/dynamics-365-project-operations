@@ -1,5 +1,5 @@
 ---
-title: Product-based quote lines overview
+title: Product-based quote lines overview - lite
 description: This topic provides information about working with product-based quote lines.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Product-based quote lines overview
+# Product-based quote lines overview - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

@@ -1,5 +1,5 @@
 ---
-title: Setting up labor cost rates
+title: Set up labor cost rates - lite
 description: This topic provides information about how to set up the cost rates for labor in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Setting up labor cost rates 
+# Set up labor cost rates - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

@@ -1,5 +1,5 @@
 ---
-title: Project-based opportunity lines (Pro)
+title: Project-based opportunity lines - lite
 description: This topic provides information about project-based opportunity lines. (Pro)
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project-based opportunity lines (Pro)
+# Project-based opportunity lines - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

@@ -1,5 +1,5 @@
 ---
-title: Estimating a project–based contract line
+title: Estimate a project–based contract line - lite
 description:  This topic provides information about estimating a project–based contract line.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Estimating a project–based contract line
+# Estimate a project–based contract line - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

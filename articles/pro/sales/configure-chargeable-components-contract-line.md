@@ -1,5 +1,5 @@
 ---
-title: Configuring chargeable components of a project-based contract line
+title: Configure chargeable components of a project-based contract line - lite
 description: This topic provides information about how to add chargeable components to contract lines in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Configuring chargeable components of a project-based contract line
+# Configure chargeable components of a project-based contract line - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

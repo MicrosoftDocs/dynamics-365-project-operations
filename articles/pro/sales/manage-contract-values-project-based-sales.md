@@ -1,5 +1,5 @@
 ---
-title: Working with project–based contract lines
+title: Work with project–based contract lines - lite
 description:  This topic provides information about working with project–based contract lines.
 author: rumant
 manager: Annbe
@@ -10,7 +10,9 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Working with project–based contract lines
+# Work with project–based contract lines - lite
+
+_**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement. The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:
 

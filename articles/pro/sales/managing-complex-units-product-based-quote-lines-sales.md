@@ -1,5 +1,5 @@
 ---
-title: Managing complex units such as per-user, per-month for product-based quote lines
+title: Managing complex units such as per-user, per-month for product-based quote lines - lite
 description: This topic provides information about managing complex units for product-based quote lines.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Managing complex units such as per-user, per-month for product-based quote lines
+# Managing complex units such as per-user, per-month for product-based quote lines - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

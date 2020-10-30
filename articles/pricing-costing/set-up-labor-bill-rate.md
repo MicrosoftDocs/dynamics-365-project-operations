@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Set up bill rates for labor rate billing 
+# Set up labor bill rates
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios
 

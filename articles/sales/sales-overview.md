@@ -1,5 +1,5 @@
 ---
-title: Sales processes overview
+title: Sales process overview
 description: This topic provides information about basic sales processes.  
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Sales processes overview
+# Sales process overview
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

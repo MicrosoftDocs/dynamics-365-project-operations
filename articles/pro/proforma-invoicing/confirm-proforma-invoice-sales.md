@@ -1,5 +1,5 @@
 ---
-title: Confirming a proforma invoice
+title: Confirm a proforma invoice - lite
 description: This topic provides information about confirming proforma invoices in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Confirming a proforma invoice
+# Confirm a proforma invoice - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
