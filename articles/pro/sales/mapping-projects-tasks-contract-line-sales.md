@@ -1,5 +1,5 @@
 ---
-title: Mapping projects and tasks to a project-based contract line
+title: Map projects and tasks to a project-based contract line - lite
 description: This topic provides information about adding and removing projects and tasks to a contract line.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Mapping projects and tasks to a project-based contract line
+# Map projects and tasks to a project-based contract line - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
