@@ -1,5 +1,5 @@
 ---
-title: Set up a retainer schedule
+title: Set up a retainer schedule - lite
 description: This topic provides information about how to set up a retainer schedule in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Set up a retainer schedule
+# Set up a retainer schedule - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
