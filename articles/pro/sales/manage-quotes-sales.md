@@ -1,5 +1,5 @@
 ---
-title: Managing project quotes
+title: Manage project quotes
 description: This topic provides information about project quotes.
 author: rumant
 manager: Annbe
@@ -10,9 +10,9 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Managing project quotes
+# Manage project quotes
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 In Dynamics 365 Project Operations, project quotes are designed to help build proposals for project work. The structure of a project quote in Project Operations is structured for project proposals with the following components:
 
