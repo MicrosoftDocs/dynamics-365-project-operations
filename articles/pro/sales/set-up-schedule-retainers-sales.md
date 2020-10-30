@@ -19,7 +19,7 @@ Retainer schedules are set up on the **Project Contract** page in Dynamics 365 P
 1. On the **Project Contract** page, on the **Advances and Retainers** tab, select **Set up retainer schedule**.
 2. On the dialog page that opens, the fields listed in the following table are shown. The table gives an idea on how the entered values impact or influence the retainer schedule that will be created.
 
-| Field | Relevance, purpose, and guidance | Downstream impact |
+| Field | Description | Downstream impact |
 | --- | --- | --- |
 | Project Contract Customer | The customer on the contract who will be invoiced for this retainer or advance. | If you have multiple customers on the contract, and if you need to invoice each of them for a specific retainer or advance amount, manually create one invoice for each customer. |
 | Retainer Schedule Start | Enter the start date of the retainer schedule. | This date may not be the date on which the first retainer or advance is created. The date on which the first retainer or advance is created, is also influenced by the invoice frequency. |

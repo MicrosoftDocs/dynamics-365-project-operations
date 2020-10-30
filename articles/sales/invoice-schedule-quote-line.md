@@ -55,7 +55,7 @@ Fixed price milestones can also be generated manually when they are not periodic
 
 Open the Fixed price quote line where you need to create a milestone. On the **Invoice Schedule** tab, on the subgrid, select **+ Create new quote line milestone** and enter the required information based on the following table.
 
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
 | Milestone name | Quick create | The name of the milestone. | This is propagated to the project contract line milestone and to the invoice |
 | Project Task | Quick create | If the milestone is tied to project task, you can use this reference to add custom logic set the milestone status based on the task status. | The application, does not have any downstream impact of this reference to a task. |
