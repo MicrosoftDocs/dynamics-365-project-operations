@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Project price lists
+title: Manage project price lists on a quote
 description: This topic provides information about the Project price list entity.
 author: rumant
 manager: AnnBe
@@ -29,7 +29,7 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Project price lists
+# Manage project price lists on a quote
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
