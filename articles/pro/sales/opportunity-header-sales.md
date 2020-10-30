@@ -1,6 +1,6 @@
 ---
-title: Opportunity header
-description: This topic provides information about the overall information about project-based deals and the project-based opportunity lines.
+title: Opportunity settings - lite
+description: This topic provides information about project-based deals and project-based opportunity lines.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Opportunity header
+# Opportunity header - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
