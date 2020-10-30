@@ -24,7 +24,7 @@ To set up cost and sales rates for transaction categories, complete the followin
 
 The following table lists the fields on the **General** tab and **Quick Create** page of a category price line that you should keep in mind as you create category prices on a sales or cost price list.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Transaction Category | **General** tab and **Quick Create** pages | Select the transaction category you are creating a sales or cost price for. | The transaction category on the incoming estimate or actual for Expense will be matched against this line to default the cost or sales rate of the transaction category. |
 | Unit Schedule | **General** tab and **Quick Create** pages | The unit schedule defaults from the unit schedule of the transaction category. | There is no downstream impact from this field. |

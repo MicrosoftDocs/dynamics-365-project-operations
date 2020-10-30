@@ -26,7 +26,7 @@ You can create, update, or delete a contract line customer from the Contract Lin
 
 Below are the fields on the **Contract** line customer record of a project-based contract line to keep in mind as you are working with it:
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | **Account** | Editable grid on the **Contract Customers** tab and the **Main** and **Quick Create** forms for a contract customer. | All active accounts. This field is locked after the record is created. To update the field, delete the record, and create a new record. If you have recorded any actuals, you can't delete the record. However, you can mark the billing split percentage as zero for that account. When the record is marked as zero, any future cost and revenue actuals that are attributed or split to this customer are impacted. | When you pick an account from the master list of accounts to add and save them, the contract line customer is also added as a contract customer. Contract line customers are used when invoices are generated. |
 | **Billing Split Percent** | Editable grid on the **Contract Customers** tab and the **Main** and **Quick Create** forms for a contract customer. | This field represents the percentage of each unbilled sales transaction that will be attributed to this contract line customer. | Contract line customers and billing split percentages are used when actuals are created after approval and when the invoice is generated. |

@@ -21,7 +21,7 @@ You can easily create new project contracts by making copies of existing contrac
 
 A dialog page will open where you can select the parameters of the copied contract. The following fields are included on the dialog. Depending on the values you select in this dialog, the copy process may change.
 
-| **Field** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Description** | **Downstream impact** |
 | --- | --- | --- |
 | Topic | Enter the topic of the target contract. When the dialog page opens, the system will set this field to the name of the source contract with **copy** appended to it. | There's no downstream impact for this field. |
 | Customer | Reference to the customer's company or account record. When the dialog opens, the system will set this field to the account on the source contract. | This field is the primary customer on the contract. |

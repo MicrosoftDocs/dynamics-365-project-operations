@@ -27,7 +27,7 @@ To create an estimate on a project-based quote line, select the **Quote Line Det
 
 To create quote line details, select **+ New quote line detail** on the **Quote Line Details** subgrid. A quick create slider will open. The following fields on the **Quote Line** form:
 
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
 | Description | Quick create | A description of the specific estimate. | This field defaults to the related quote line detail for cost that is automatically created. |
 | Transaction Class | Quick create | This drop-down list provides the transaction classes that are included on the **General** tab of project-based quote line.  | This field defaults to the related quote line detail for cost that is automatically created. |

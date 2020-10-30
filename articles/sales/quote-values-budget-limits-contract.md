@@ -19,7 +19,7 @@ This article explains the information that applies to a project quote. This incl
 
 The following table lists the summary information fields on a project quote that are unique to Dynamics 365 Project Operations or have some important changes in behavior from Dynamics 365 Sales quotes.
 
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
 | Type | Summary tab (hidden) | This option set field hash the following options:</br>- Work-based (available only when Project Operations is installed)</br>- Item-based (available only when Project Operations and Sales are installed)</br>- Service maintenance-based (available when Dynamics 365 Field Service is installed) | When you use the Project Operations application, the value of this field is automatically set to **Work-based**. This classifies the quote as a project-based quote. A quote should be project-based to enable all project-specific extensions and functionality. |
 | Owning Company | Summary | The legal entity that will account for the costs and revenue that accrues from this project or projects associated with this quote. When a quote is created from an Opportunity, this field is copied from the corresponding field on the Opportunity. | The owning company equates to the concept of legal entity in the **Project management and accounting** module of Project Operations. All costs and revenue accrued from this project will be accounted for in the General ledger of the owning company. |

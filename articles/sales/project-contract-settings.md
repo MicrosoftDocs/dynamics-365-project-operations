@@ -18,7 +18,7 @@ This topic provides information about fields that apply to the entire project co
 
 The following table lists the fields on a project contract that are unique to Dynamics 365 Project Operations or have some important changes in behavior from sales orders in Dynamics 365 Sales.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Type | **Summary** tab (hidden) | This is an option set field with the following options:</br>- **Work-based** (Available only when Project Operations is installed)</br>- **Item-based** (Available only when Project Operations and Sales are installed)</br>- **Service Maintenance-based** (Available when Dynamics 365 Field Service is installed) | In Project Operations, the value of this field defaults to**Work-based** and classifies the contract as a project-based contract. A contract should be project-based to enable all project-specific extensions and functionality. |
 | Owning Company | **Summary** tab | The legal entity that accounts for the costs and revenue that accrues from the projects associated with this project contract. When a contract is created from a quote, this field is copied from the corresponding field on the quote record. | The owning company equates the concept of legal entity in the **Project management and accounting** module of Project Operations. All costs and revenue accrued from this project are accounted for in the General Ledger of the owning company. |
@@ -32,7 +32,7 @@ The following table lists the fields on a project contract that are unique to Dy
 
 The following KPIs are available on the **Contract Performance** tab of a project contract.
 
-| Field | Location | Relevance, purpose, and guidance |
+| Field | Location | Description |
 | --- | --- | --- |
 | Contract Value | Overall contract | The total value of the Project contract. |
 | Billed Amount | Overall contract | The sum of the amounts on all invoices against this contract. |
