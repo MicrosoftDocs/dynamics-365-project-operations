@@ -1,5 +1,5 @@
 ---
-title: Set up cost and sales rates for catalog products
+title: Set up cost and sales rates for catalog products - lite
 description: This topic provides information about how to set up cost and sales rates for items in a product catalog.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Set up cost and sales rates for catalog products
+# Set up cost and sales rates for catalog products - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
