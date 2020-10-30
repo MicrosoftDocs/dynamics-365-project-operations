@@ -1,5 +1,5 @@
 ---
-title: Project contract fields and information 
+title: Project contract settings - lite
 description: This topic provides information about fields that impact contract lines and the information about the contract that is summarized to across all the line items.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project contract fields and information 
+# Project contract settings - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
