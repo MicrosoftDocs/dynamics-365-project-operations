@@ -1,5 +1,5 @@
 ---
-title: Managing multiple customers on project-based contract lines
+title: Manage multiple customers on project-based contract lines - lite
 description:  This topic provides information about managing multiple customers on project-based contract lines.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Managing multiple customers on project-based contract lines
+# Manage multiple customers on project-based contract lines - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
