@@ -45,7 +45,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>South America</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | November 27, 2020
 | | <i>Canada</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | November 27, 2020 
 | | <i>India</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | November 27, 2020
-| | <i>France</i> | [3.10.43.70](whats-new-ur-25.md) | TBD | November 27, 2020
+| | <i>France</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | November 27, 2020
 | | <i>United Arab Emirates</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | November 27, 2020
 | | <i>South Africa</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | November 27, 2020
 | | <i>Germany</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | November 27, 2020
