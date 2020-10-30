@@ -1,5 +1,5 @@
 ---
-title: Product-based opportunity lines
+title: Product-based opportunity lines - lite
 description: This topic provides information about product-based opportunity line items in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Product-based opportunity lines
+# Product-based opportunity lines - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
