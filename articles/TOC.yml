@@ -356,6 +356,8 @@
   items:
   - name: Get started
     items:
+    - name: Lite deployment overview
+      href: pro/project-operations-overview-lite.md
     - name: Sign up for a preview subscription (lite)
       href: environment/lite-preview-subscription-sign-up.md
     - name: Deploy Project Operations Lite deployment – deal to proforma invoicing
