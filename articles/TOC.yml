@@ -666,6 +666,8 @@
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
 - name: Project Operations for Stocked/Production-based scenarios
   items: 
+  - name: What's new November 2020 - Project Operations for stocked/production-based scenarios
+    href: whats-new/whats-new-nov-2020-production-based.md
   - name: Project management and accounting overview
     href: prod-pma/overview-project-management-accounting.md
   - name: Intercompany invoicing
