@@ -658,6 +658,8 @@
       href: proforma-invoicing/configure-automated-invoice-creation.md    
 - name: Project Operations for Stocked/Production-based scenarios
   items: 
+  - name: Project Operations for stocked/production-based scenarios deployment overview
+    href: prod-pma/project-operations-prod-order-deployment-overview.md
   - name: Project management and accounting overview
     href: prod-pma/overview-project-management-accounting.md
   - name: Intercompany invoicing
