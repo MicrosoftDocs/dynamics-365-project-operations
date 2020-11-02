@@ -19,7 +19,7 @@ This deployment type has the following capabilities for project-based companies:
 
 - Project planning using the [Work breakdown structures](prod-pma/work-breakdown-structures.md)
 - Procure and consume stocked inventory for projects
-- Managing project-based sales using the the **Sales and marketing** module in Dynamics 365 Finance and Operations apps
+- Managing project-based sales using the **Sales and marketing** module in Dynamics 365 Finance and Operations apps
 - Project pricing and costing using the cost rate and bill rate configurations in Finance and Operations apps
 - Resource management for projects in Finance and Operations apps
 - Project progress and time tracking in Finance and Operations apps
@@ -28,13 +28,12 @@ This deployment type has the following capabilities for project-based companies:
 - Configurable project groups for WIP accounting and accruals
 - Project revenue recognition
 
-This deployment type also provides an extension to the functionality provided by the Dynamics 365 Finance and Dynamis 365 Supply Chain Management applications.
+This deployment type also provides an extension to the functionality provided by the Dynamics 365 Finance and Dynamics 365 Supply Chain Management applications.
 
 Select this deployment type to use Dynamics 365 Project Operations for the full project lifecycle, including the following key requirements:
 
-
-- An extensive Project management system that managse inventoried items and job/production order costing for internal and billable projects for schedules and financials.
-- The organization already has Dynamics 365 Finance or Dynamics 365 Supply Chain and Manufacturing appss and integrating project-based transactions with these will simplify data access and reporting needs.
+- An extensive Project management system that manages inventoried items and job/production order costing for internal and billable projects for schedules and financials.
+- The organization already has Dynamics 365 Finance or Dynamics 365 Supply Chain and Manufacturing apps and integrating project-based transactions will simplify data access and reporting needs.
 - A fully functional Expense management system that includes policy enforcements and reimbursements for tracking project and non-project expenses.
 - An enterprise-class sales tax and exchange rate engine to generate customer-facing invoices for projects.
 - An International Financial Reporting Standards(IFRS)-compliant project accounting and revenue recognition system.
