@@ -1,5 +1,5 @@
 ---
-title: Lite deployent overview
+title: Lite deployment overview
 description: This topic provides information about the Lite deployment of Dynamics 365 Project Operations.
 author: rumant
 manager: Annbe
@@ -26,9 +26,9 @@ The Lite deployment type of Dynamics 365 Project Operations has the following ca
 - Proforma invoicing that can be reviewed and sent to a financial system for processing
 - Extensibility through the Power Platform
 
-This deployment type is recommended if your expectation from Project Operations is to leverage the full project lifecycle that includes the following requirements:
+Use this deployment type if your expectation from Project Operations is to use the full project lifecycle, including the following requirements:
 
 - Ability to manage project-based sales with other types of sales using the capabilities in the Sales application.
-- A integrated project management system that can manage internal and billable projects for schedules and financials from project sales to invoicing.
+- An integrated project management system that manages internal and billable projects for schedules and financials from project sales to invoicing.
 - A third-party Enterprise resource planning (ERP/Financial accounting system to integrate with Project Operations.
 - A third-party system to work with sales taxes, exchange rates, expense reimbursements, and non-project expenses.
