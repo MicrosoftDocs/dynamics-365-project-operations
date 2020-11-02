@@ -14,7 +14,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This article applies to the following Dynamics 365 Project Operations components and versions:
+This topic applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on CDS environment version 4.4.0.79
 - Project management and accounting in Dynamics 365 Finance environment version 10.0.14
@@ -34,7 +34,7 @@ This article applies to the following Dynamics 365 Project Operations components
 | Project planning             | 2055501          | Leaving the **Project Start   Date** empty causes a failure in the schedule.                                                                                                      |
 | Project planning             | 2066817          | Can't create a generic resource   using the people picker on the **Tasks** tab.                                                                                                   |
 | Project planning             | 2067034          | **View Details** button is not   available on the **Details of Task** page.                                                                                                       |
-| Resource management          | 2046667          | Generic team members are not   deleted even after all resources are fulfilled.                                                                                                    |
+| Resource management          | 2046667          | Generic team members aren't   deleted even after all resources are fulfilled.                                                                                                    |
 | Time and quick expense entry | 2047499          | The **New** button on the Time   Entry page opens the **New Email Signature** page.                                                                                               |
 | Time and quick expense entry | 2059859          | Unexpected pop-up opens when   creating an expense entry.                                                                                                                         |
 | Other                        | 2044181          | (Uninstalling purchase order)   When trying to uninstall msdyn_ProjectServiceCore_Patch and msdyn Project   service core solutions, the error, "Record is unavailable"   occurs.  |
