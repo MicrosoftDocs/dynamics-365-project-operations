@@ -1,20 +1,20 @@
 ---
-title: Project Operations for resource/non-stocked based scenarios overview
+title: Project Operations for resource/non-stocked based scenarios deployment overview
 description: This topic provides information about the deployment type, Project Operations for resource/non-stocked based scenarios.
 author: rumant
 manager: Annbe
-ms.date: 10/30/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Project Operations for resource/non-stocked based scenarios overview
+# Project Operations for resource/non-stocked based scenarios deployment overview
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Th deployment type, Dynamics 365 Project Operations for resource/non-stocked based scenarios has the following capabilities for project-based companies:
+The deployment type, Dynamics 365 Project Operations for resource/non-stocked based scenarios has the following capabilities for project-based companies:
 
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing and costing for labor resources
@@ -28,7 +28,7 @@ Th deployment type, Dynamics 365 Project Operations for resource/non-stocked bas
 - Project revenue recognition
 - Extensibility through the Power Platform
 
-This deployment type also provides a seamless extension to the functionality provided by Dynamics 365 Finance and SCM applications if the customer is also licensed for those applications.
+This deployment type also provides a seamless extension to the functionality provided by Dynamics 365 Finance and Dynamics 365 Supply Chain Management applications if the customer is also licensed for those applications.
 
 This deployment should be chosen the expectation of Project Operations is to leverage the full project lifecycle that includes the following requirements:
 
