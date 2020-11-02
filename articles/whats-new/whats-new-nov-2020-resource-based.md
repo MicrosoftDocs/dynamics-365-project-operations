@@ -1,6 +1,6 @@
 ---
 title: What's new November 2020 - Project Operations for resource/non-stocked based scenarios
-description: 
+description: This topic providesinformation about the quality updates available in the November 2020 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
 manager: Annbe
 ms.date: 10/30/2020
@@ -30,7 +30,7 @@ This article applies to the following Dynamics 365 Project Operations components
 | Project planning             | 2043336          | Unable to delete a project team   member record.                                                                                                                                  |
 | Project planning             | 2046013          | Inconsistent behavior for   Estimates tag columns during load vs. on change of time-phase type.                                                                                   |
 | Project planning             | 2046647          | Start and end times are off by   an hour when resource requirements are generated from project team members.                                                                      |
-| Project planning             | 2053879          | (Per the upcomping CDS rollout)   PublishUnassignedAssignments breaks saving a task when the error, "The   value passed for ConditionOperator.In is empty."                       |
+| Project planning             | 2053879          | (Per the upcoming CDS rollout)   PublishUnassignedAssignments breaks an attempt to save a task when when the error, "The   value passed for ConditionOperator.In is empty."                       |
 | Project planning             | 2055501          | Leaving the **Project Start   Date** empty causes a failure in the schedule.                                                                                                      |
 | Project planning             | 2066817          | Can't create a generic resource   using the people picker on the **Tasks** tab.                                                                                                   |
 | Project planning             | 2067034          | **View Details** button is not   available on the **Details of Task** page.                                                                                                       |
@@ -56,7 +56,7 @@ This article applies to the following Dynamics 365 Project Operations components
 | Project accounting  | 475873           | Can't open **Project statement**   > **Transactions and forecast**.                                                                                                       |
 | Project accounting  | 475879           | **Adjust accounting** isn't   enabled for invoiced project transactions.                                                                                                  |
 | Project accounting  | 480962           | Accounting details aren't   included on the **ProjCDSActualsImport** table when the **Integration**   journal is posted.                                                  |
-| Project accounting  | 482558           | The Project forecast entry is   doubled when you remove and then re-add a resource assignment.                                                                            |
+| Project accounting  | 482558           | The Project forecast entry is   doubled when you remove and then readd a resource assignment.                                                                            |
 | Project accounting  | 502019           | Selecting a Project ID link   doesn't open the CDS deep link URL.                                                                                                         |
 | Project accounting  | 505458           | Can't update the start date on a   task in CDS.                                                                                                                           |
 | Project accounting  | 510041           | Enabling the feature, Multiple contract lines isn't possible without CDS integration.                                                                                   |
