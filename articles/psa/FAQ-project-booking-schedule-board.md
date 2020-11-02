@@ -3,7 +3,7 @@ title: Create a project booking from the Schedule board
 description: This topic provides information about how to create a project booking from the schedule board.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 9/26/2019

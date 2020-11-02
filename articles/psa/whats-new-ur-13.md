@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 13, V3
 description: This topic provides information about what's new in Project Service Automation Update Release 13, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -51,6 +51,6 @@ This topic lists the features and fixes that are new or changed for Project Serv
 - Sales
 
      - Fixed: Duplicate transaction type records return an error when role price records are created.
-     - Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines sub-grid.
+     - Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.
 
 

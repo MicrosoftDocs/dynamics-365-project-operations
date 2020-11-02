@@ -5,12 +5,12 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Set up bill rates for labor rate billing 
+# Set up labor bill rates
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios
 
@@ -22,7 +22,7 @@ Each price list has a set of role prices, or labor rates, that are effective for
 
    The following table includes the fields on the **General** tab and the **Quick Create** pane of a role price line that you need keep in mind as you create role prices on a sales price list:
 
-    | Field | Location | Relevance, purpose, and guidance | Downstream impact |
+    | Field | Location | Description | Downstream impact |
     | --- | --- | --- | --- |
     | Role | **General** tab and **Quick Create** pane | Select the role that you are setting the bill rate for. | Role on the incoming estimate or actual will be matched against this line to default bill rate of the role. |
     | Resourcing Company | **General** tab and **Quick Create** pane | Select the company or legal entity that the role is from. For example, a developer from Fabrikam India or a developer from Fabrikam USA. | The resourcing company on the incoming estimate or actual will be matched against this line to default the bill rate of the role. |

@@ -1,16 +1,16 @@
 ---
-title: Managing multiple customers on project-based quote lines
+title: Manage multiple customers on project-based quote lines - lite
 description: This topic describes how to manage multiple customers on project-based quote lines.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Managing multiple customers on project-based quote lines
+# Manage multiple customers on project-based quote lines - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

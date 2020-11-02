@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/17/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -59,7 +59,7 @@ You can generate fixed price milestones manually when they are not periodically 
 1. Open the fixed price contract line that you are creating a milestone for, and on the **Invoice Schedule** tab, on the subgrid, select **+ Create new Contract line milestone**. 
 2. On the **Milestone Creation** page, enter the required information based on the following table.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Milestone Name | Quick Create | Text field for the name of the milestone. | This is carried over to the project contract line milestone and the invoice. |
 | Project Task | Quick Create | If the milestone is tied to project task, use this reference to add custom logic to set the milestone status based on the task status. | The application, doesn't have any downstream impact of this reference to a task. |

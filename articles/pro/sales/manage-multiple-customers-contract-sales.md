@@ -1,16 +1,16 @@
 ---
-title: Managing multiple customers on project contracts
+title: Manage multiple customers on project contracts - lite
 description:  This topic provides information about managing multiple customers on project contracts.
 author: rumant
 manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Managing multiple customers on project contracts
+# Manage multiple customers on project contracts - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -32,7 +32,7 @@ The primary customer can't be updated from the contract customers list. Instead,
 
 A contract customer can be created, updated, or deleted from the **Customers** tab on the **Project Contract** page. The fields in the following table are on the contract customer record of a project contract and should be kept in mind as you are working with the contract.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | **Account** | The grid can be edited on the **Contract Customers** tab and the **Main** and **Quick Create** forms for a contract customer. | Lists all the active accounts. This field is locked after the record is created. To update the account, delete the record and re-create it. If you have recorded any actuals, or if the contract customer record is a primary customer, you can't delete the record. | Contract customers are copied over as contract line customers when a contract line is created. |
 | **Billing Split Percent** | The grid can be edited on the **Contract Customers** tab and the **Main** and **Quick Create** forms for a contract customer. | Represents the percentage of each unbilled sales transaction that is attributed to this contract customer. | Copied over to new contract lines and to project contract line customers on new project contract lines. |

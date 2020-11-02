@@ -3,7 +3,7 @@ title: Add resource skills
 description: How to associate skills with resources in Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 7/31/2018

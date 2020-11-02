@@ -1,17 +1,17 @@
 ---
-title: Managing complex units for product-based contract lines
+title: Manage complex units for product-based contract lines - lite
 description:  This topic provides information about supporting the sale of subscription-based products.
 author: rumant
 manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
 
-# Managing complex units for product-based contract lines
+# Manage complex units for product-based contract lines - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

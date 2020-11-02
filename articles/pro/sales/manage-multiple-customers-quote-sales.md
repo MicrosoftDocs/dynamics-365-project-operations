@@ -1,16 +1,16 @@
 ---
-title: Managing multiple customers on project quotes
+title: Manage multiple customers on project quotes - lite
 description: This topic provides information about working on quotes with multiple customers who will fund the project. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Managing multiple customers on project quotes (Sales)
+# Manage multiple customers on project quotes - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -32,7 +32,7 @@ The primary customer shouldn't be updated from the customer list on the quote. H
 
 A quote customer can be created, updated, or deleted from the **Quote customers** tab on the **Quote** page. The fields listed in the following table are on the quote customer record of a project quote.
 
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
 | Account | Editable grid on the **Quote Customers** tab and the **Main** and **Quick Create** forms for a quote customer. | Lists all the active accounts. This field is locked after the record is created. If you want to update it, delete the record, and re-create it. If you have recorded any actuals, or if the quote customer record is a primary customer, you will be allowed to delete the record. | Quote customers are copied over as quote line customers when a quote line is created. Quote customers are also copied over to the project contract customers when a quote is won. |
 | Billing split percent | Editable grid on the **Quote Customers** tab and the **Main** and **Quick Create** forms for a quote customer. | Represent the percentage of each unbilled sales transaction that will be attributed to this quote customer. | Copied over to new quote lines and to project contract customers. |
@@ -46,4 +46,4 @@ A quote customer can be created, updated, or deleted from the **Quote customers*
 
 You can edit the billing split percentages by using the in-line grid edit experience. When the billing split percentages don't total 100%, an error will occur. After you update the billing split percentages, refresh the page to remove the error.
 
-You can also try selecting **Evenly Distribute** on the quote customers' sub-grid. This action allocates billing splits to all quote customers. If there is any rounding factor, that will be added to the rounding customer. One of the quote customers is always tagged as the rounding customer. this means that the quote customer record has the **Rounding** flag set to **Yes**. Typically this is the primary customer of the quote, but that can be changed.
+You can also try selecting **Evenly Distribute** on the quote customers' subgrid. This action allocates billing splits to all quote customers. If there is any rounding factor, that will be added to the rounding customer. One of the quote customers is always tagged as the rounding customer. this means that the quote customer record has the **Rounding** flag set to **Yes**. Typically this is the primary customer of the quote, but that can be changed.

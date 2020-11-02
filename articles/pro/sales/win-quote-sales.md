@@ -1,16 +1,16 @@
 ---
-title: Close quotes 
+title: Close a quote - lite
 description: This topic provides information about closing a quote in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Close quotes 
+# Close a quote - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

@@ -8,7 +8,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 #
 
 # optional metadata
@@ -43,7 +43,7 @@ Skills for resources are rated by proficiency models. The individual ratings are
 
 1. To create a proficiency model, go to **Resources** \> **Proficiency Models**, and then select **New**.
 2. In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.
-3. In the **Rating Values** sub-grid, you can define the different rating values, from the minimum to the maximum.
+3. In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.
 
 
 These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.

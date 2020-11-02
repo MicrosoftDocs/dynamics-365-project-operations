@@ -1,16 +1,16 @@
 ---
-title: Invoice a retainer or an advance
+title: Invoice a retainer or an advance - lite
 description: This topic provides information about how to invoice a retainer or an advance in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Invoice a retainer or an advance
+# Invoice a retainer or an advance - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -38,7 +38,7 @@ On every invoice that is generated for a project contract that has invoiced reta
 
 This can be seen in the **Applied Retainers and Advances** grid on the **Invoice** page. The following table provides information about the fields on the **Applied Retainers and Advances** grid of the **Project Invoice** page.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Description | **Applied Advances and Retainers** grid on the **Project Invoice** page |This read-only field provides a description of the retainer or advance used on this invoice. This value can't be changed on the invoice. This value can be updated on the subgrid on the **Project Contract** page. | This field can be displayed to the customer on the printed invoice to indicate which retainer or advance is applied on the invoice. |
 | Delivered On | **Applied Advances and Retainers** grid on the **Project Invoice** page  | This read-only field provides the invoice date of the retainer or advance used on this invoice. This value can't be changed on the invoice. This value can be updated on the subgrid on the **Project Contract** page. | This field can be displayed to the customer on the printed invoice to indicate the date when the retainer or advance was first invoiced to the customer. |

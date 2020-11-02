@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: stsporen
 ---
@@ -30,13 +30,13 @@ Chargeability defined on transaction categories for a project contract line only
 
 A role can be chargeable or non-chargeable on specific project-based contract line.
 
-On the **Chargeable roles** tab of a projec-based contract line, on the **Chargeable Categories** sub-grid, in the **Billing Type** field, update the billing type for a role.
+On the **Chargeable roles** tab of a projec-based contract line, on the **Chargeable Categories** subgrid, in the **Billing Type** field, update the billing type for a role.
 
 ### Update a transaction category to be chargeable or non-chargeable
 
 A transaction category can be chargeable or non-chargeable on a specific project-based contract line.
 
-On the **Chargeable Categories** tab of a project-based contract line, on the **Chargeable Categories** sub-grid, in the **Billing Type** field, update the billing type for a transaction.
+On the **Chargeable Categories** tab of a project-based contract line, on the **Chargeable Categories** subgrid, in the **Billing Type** field, update the billing type for a transaction.
 
 ### Resolve chargeability
 

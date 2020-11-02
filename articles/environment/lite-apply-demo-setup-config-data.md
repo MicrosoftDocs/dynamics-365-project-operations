@@ -1,16 +1,16 @@
 ---
-title: Apply demo setup and configuration data
+title: Apply demo setup and configuration data - lite
 description: This topic provides information about how to apply demo setup and configuration data for Project Operations.
 author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---
 
-# Apply demo setup and configuration data for Project Operations lite deployment - deal to proforma invoicing
+# Apply demo setup and configuration data for Project Operations - lite 
 
 _**Lite deployment - deal to proforma invoicing_
 

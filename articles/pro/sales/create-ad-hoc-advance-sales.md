@@ -1,16 +1,16 @@
 ---
-title: Creating an ad hoc advance on a contract
+title: Creating an ad hoc advance on a contract - lite
 description: This topic provides information about creating an advance on a contract as needed.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Creating an ad hoc advance on a contract
+# Creating an ad hoc advance on a contract - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -25,7 +25,7 @@ Complete the following steps to invoice the customer for an advance.
     
 3. The table below lists the fields for recording an advance and the considerations to keep in mind as you create new ones:
 
-    | Field | Relevance, purpose, and guidance | Downstream impact |
+    | Field | Description | Downstream impact |
     | --- | --- | --- |
     | **Project Contract Customer** | This field indicates which customer on the contract will be invoiced for this advance. | If you have multiple customers on the contract and want to invoice each of them for a specific retainer or advance amount, create an advance for each customer individually. |
     | **Description** | The description of the purpose or timing of the advance to help identify this advance. | This description is displayed on the invoice line for this advance. |

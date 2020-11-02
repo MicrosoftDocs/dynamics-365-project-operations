@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -33,7 +33,7 @@ For qualified lead to automatically create an opportunity, set the **Type** attr
 
 The following table includes important field information for a lead, and the downstream implications of those fields.
  
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
 | Topic | General tab | This text field should contain a short description of the deal. | The topic of the lead will default as the topic of the Opportunity, and the Name of Quote and Project contract. |
 | Type | General tab | This option set field has the following options:</br>- Work-based (available only when Project Operations is installed)</br>- Item-based (available only when Project Operations and Sales are installed)</br>- Service maintenance-based (available when Field Service is installed) | When the value of this field is set to **Work-based** on the lead, the lead is qualified to create a Project-based Opportunity. A project-based opportunity is required to enable all project-specific extensions and functionality in the downstream sales process for this deal. |

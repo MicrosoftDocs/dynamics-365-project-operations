@@ -3,7 +3,7 @@ title: Add documents to a project
 description: Steps to add a document to a project in Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 7/30/2018

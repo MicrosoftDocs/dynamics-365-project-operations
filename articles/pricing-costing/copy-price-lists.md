@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -21,7 +21,7 @@ To make a copy of price list, complete the following steps.
 1. Open the price list that you want to make a copy of and select **Copy**.
 2. Enter any necessary information to copy the price list. The following table shows considerations to keep in mind when entering information.
 
-| Field | Relevance, purpose, and guidance | Downstream impact |
+| Field | Description | Downstream impact |
 | --- | --- | --- |
 | Name | The name of the source price list with the **-copy** appended. | The price list includes this value on all list pages and drop-down options. |
 | Context | Enter the context that you want for the target price list. | A price list that has the context set to **Cost** is used to look up the price for cost estimates and cost actuals. A price list that has the context set to **Sales** is used to look up price for sales estimates and sales actuals. Only price lists that have the context set to **Sales** can be attached to a project price list for a customer, quotes, or contract. |
@@ -35,6 +35,6 @@ To make a copy of price list, complete the following steps.
 
 ## Update a price list by applying a mark-up to all the prices
 
-1. On the **Role**, **Category**, and **Price List Item** tabs of a price list, you can select **Update Prices** to apply a markup for all prices in the sub-grid. 
+1. On the **Role**, **Category**, and **Price List Item** tabs of a price list, you can select **Update Prices** to apply a markup for all prices in the subgrid. 
 2. On the dialog page that opens, enter a mark-up. You can also enter a negative mark-up percent to decrease prices by a certain percentage. 
-3. Select **OK** on the dialog page and then verify that the prices in the sub-grid reflect the changes you made.
+3. Select **OK** on the dialog page and then verify that the prices in the subgrid reflect the changes you made.

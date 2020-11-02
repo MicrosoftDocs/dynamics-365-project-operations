@@ -3,7 +3,7 @@ title: Sales processes
 description: This topic provides information about the basic sales processes.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/01/2019

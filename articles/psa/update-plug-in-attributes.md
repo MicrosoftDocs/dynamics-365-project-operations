@@ -6,7 +6,7 @@ manager: kfend
 ms.custom: 
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType: 

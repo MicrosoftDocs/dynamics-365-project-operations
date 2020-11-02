@@ -1,16 +1,16 @@
 ---
-title: Manage project price lists on project quotes
+title: Manage project price lists on project quotes - lite
 description: This topic provides information about working with project price lists on quotes. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Manage project price lists on project quotes (Sales)
+# Manage project price lists on project quotes - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

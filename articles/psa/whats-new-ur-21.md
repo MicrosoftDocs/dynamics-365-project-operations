@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 21, V3
 description: This topic lists the features and fixes that are available in Project Service Automation Update Release 21, V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -68,7 +68,7 @@ The following issues have been fixed:
 - **Total Sales Price** is zero (0) for **Category** even though **Role** has a total sales price that is not zero.
 - Customers can't change the value of the **Invoice Status** field to **Ready for invoicing** when another customized process is updating an additional field.
 - The **Refresh Invoice Lines** button can create multiple duplicated lines if it is repeatedly selected.
-- The **Update Prices** button doesn't work on the **Role Prices** sub-grid in the **Quick View** form.
+- The **Update Prices** button doesn't work on the **Role Prices** subgrid in the **Quick View** form.
 - The **Sales Price List Resolution** logic improperly handles time zones, resulting in the incorrect selection of price lists.
 - A project’s **Total Actual Cost** can be off by a fractional amount after a single time entry is approved.
 - The **Price Resolution** logic does not provide a user-friendly error message if **Retrieved RolePrice** doesn't have values in **'Primary Unit'** and **'Price In Primary Unit'** fields.

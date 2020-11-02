@@ -1,16 +1,16 @@
 ---
-title: Deploy Project Operations Lite deployment – deal to proforma invoicing
+title: Deploy Project Operations - lite
 description: This topic provides information about how to install Project Operations lite deployment - deal to proforma invoicing.
 author: stsporen
 manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
 ---
 
-# Deploy Project Operations Lite deployment – deal to proforma invoicing
+# Deploy Project Operations - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

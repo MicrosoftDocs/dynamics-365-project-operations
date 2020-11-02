@@ -1,16 +1,16 @@
 ---
-title: Estimating a project–based contract line
+title: Estimate a project–based contract line - lite
 description:  This topic provides information about estimating a project–based contract line.
 author: rumant
 manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Estimating a project–based contract line
+# Estimate a project–based contract line - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -26,7 +26,7 @@ To estimate a project-based contract line, go to the **Contract Line Detail** ta
 1. Go to the contract line and select the **Contract Line Detail** tab. The lines you create on this tab are summarized and display as the **Contracted Value** for this **Contract Line**. 
 2. In the **Contract Line Details** subgrid, select **+ New Contract Line Detail**. A quick-create slider opens. The following fields are available on the **Contract Line Details** form:
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | **Description** | **Quick Create** | A description of the specific estimate. | This field defaults to the related contract line detail for costs that are automatically created. |
 | **Transaction Class** | **Quick Create** | This drop-down is a list of transaction classes included on the **General** tab of the project-based contract line. | This field defaults to the related contract line detail for costs that are automatically created. |

@@ -1,16 +1,16 @@
 ---
-title: Product-based contract lines overview
+title: Product-based contract lines overview - lite
 description: This topic provides information about product-based contract lines.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Product-based contract lines overview
+# Product-based contract lines overview - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

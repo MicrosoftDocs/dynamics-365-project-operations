@@ -8,13 +8,15 @@
   items:
   - name: Get started
     items:
-    - name: Sign up for a preview subscription (resource/non-stocked based)
+    - name: Sign up for a preview subscription 
       href: environment/resource-sign-up-preview-subscription.md
+    - name: Navigate Project Operations
+      href: environment/navigate-project-operations.md
     - name: Configure prerequisites
       items: 
       - name: Start a new LCS project
         href: environment/create-lcs-project.md
-      - name: Add an Azure subscription to LCS project
+      - name: Add an Azure subscription to an LCS project
         href: environment/resource-add-azure-subscription-lcs-project.md 
     - name: Apply demo data
       items:
@@ -32,7 +34,7 @@
         href: environment/resource-configure-integration-per-legal-entity.md
   - name: Sales process
     items:
-    - name: Sales overview
+    - name: Sales process overview
       href: sales/sales-overview.md
     - name: Setup
       items:
@@ -48,42 +50,40 @@
       items:
       - name: Manage project-based opportunities
         href: sales/manage-project-based-opportunities.md
-      - name: Opportunity header
+      - name: Opportunity settings
         href: sales/opportunity-header.md
-      - name: Project-based lines
+      - name: Project-based opportunity lines
         href: sales/project-based-lines.md
-      - name: Copy project-based opportunities
-        href: sales/copy-project-based-opportunity.md
       - name: Create project quotes from opportunities
         href: sales/link-quotes-opportunities.md
+      - name: Copy project-based opportunities
+        href: sales/copy-project-based-opportunity.md
       - name: Close an opportunity
         href: sales/close-opportunity.md
     - name: Manage quotes
       items:
-      - name: Key concepts
+      - name: Manage project quotes
+        href: pro/sales/manage-quotes-sales.md
+      - name: Quotes - Key concepts
         href: sales/quotes-key-concepts.md
-      - name: Summary information on a project quote
+      - name: Project quote settings
         href: sales/quote-values-budget-limits-contract.md
-      - name: Manage multiple customers on a quote
+      - name: Manage multiple customers on a project quote
         href: sales/manage-multiple-customers-quote.md
-      - name: Product-based quote lines
-        item:
-        - name: Costing product-based quote lines
-          href: sales/costing-product-based-quote-lines.md
-        - name: Manage complex units for product-based quote lines
-          href: sales/managing-complex-units-product-based-quote-lines.md
+      - name: Manage project price lists on a quote
+        href: sales/managing-project-price-lists.md
       - name: Project-based quote lines
-        items: 
+        items:
+        - name: Project-based quote lines overview
+          href: sales/manage-quoted-values-budget-limits-quote-line.md 
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
-        - name: Manage project price lists
-          href: sales/managing-project-price-lists.md
+        - name: Configure the chargeable components of a quote line
+          href: pro/sales/configure-chargeable-components-quote-line-sales.md
         - name: Create estimates on a quote line
           href: sales/create-estimate-quote-line.md
         - name: Import estimates for a project to a project-based quote line
           href: sales/import-estimate-quote-line.md
-        - name: Manage quoted values, customer budgets, and not-to-exceed limits
-          href: sales/manage-quoted-values-budget-limits-quote-line.md
         - name: Invoice schedules on project-based quote lines
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project-based quotes
@@ -92,18 +92,20 @@
         href: sales/win-quote.md
     - name: Manage contracts
       items:
-      - name: Key concepts - Project contracts
+      - name: Managing project contracts
+        href: pro/sales/manage-contracts-sales.md
+      - name: Project contracts - Key concepts
         href: sales/contracts-key-concepts.md
       - name: Project contract settings
         href: sales/project-contract-settings.md
-      - name: Manage multiple customers on project-based contract lines
-        href: sales/manage-multiple-customers-contract-line.md
       - name: Manage project price lists on project contracts
         href: sales/contracts-manage-project-price-lists.md
       - name: Project-based contract lines
         items: 
         - name: Work with project-based contract lines
           href: sales/manage-contract-values-project-based.md
+        - name: Manage multiple customers on project-based contract lines
+          href: sales/manage-multiple-customers-contract-line.md
         - name: Configure chargeable components of a project-based contract line
           href: sales/configure-chargeable-contract-line.md
         - name: Estimate a project-based contract line
@@ -124,7 +126,7 @@
       items: 
       - name: Price list setup for sales
         items: 
-        - name: Setup sales price list
+        - name: Set up a sales price list
           href: pricing-costing/sales-price-list-setup.md
         - name: Set up labor bill rates
           href: pricing-costing/set-up-labor-bill-rate.md
@@ -148,7 +150,7 @@
       items: 
       - name: Pricing dimensions overview
         href: pricing-costing/pricing-dimensions-overview.md
-      - name: Use an existing field as a pricing dimension
+      - name: Project Operations fields as pricing dimensions
         href: pricing-costing/use-existing-field-pricing-dimension.md
       - name: Custom fields as pricing dimensions
         items:
@@ -358,16 +360,18 @@
     items:
     - name: Lite deployment overview
       href: pro/project-operations-overview-lite.md
-    - name: Sign up for a preview subscription (lite)
+    - name: Sign up for a preview subscription - lite
       href: environment/lite-preview-subscription-sign-up.md
-    - name: Deploy Project Operations Lite deployment – deal to proforma invoicing
+    - name: Deploy Project Operations - lite
       href: environment/lite-deployment.md
-    - name: Apply demo setup and configuration data
+    - name: Apply demo setup and configuration data - lite
       href: environment/lite-apply-demo-setup-config-data.md
     - name: Security model
       href: environment/security-model.md
   - name: Sales process
     items:
+    - name: Sales overview
+      href: sales/sales-overview.md
     - name: Setup
       items: 
       - name: Products
@@ -376,110 +380,112 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
-    - name: Manage leads
+    - name: Manage leads - lite
       href: pro/sales/managing-leads-sales.md
     - name: Manage opportunities
       items: 
       - name: Manage project-based opportunities
         href: sales/manage-project-based-opportunities.md
-      - name: Opportunity header
+      - name: Opportunity settings - lite
         href: pro/sales/opportunity-header-sales.md
-      - name: Project-based lines
+      - name: Product-based opportunity lines - lite
+        href: pro/sales/product-based-lines-sales.md
+      - name: Project-based opportunity lines - lite 
         href: pro/sales/project-based-lines-sales.md
-      - name: Copy project-based opportunities
-        href: sales/copy-project-based-opportunity.md
       - name: Create project quotes from opportunities
         href: sales/link-quotes-opportunities.md
-      - name: Product-based opportunity lines
-        href: pro/sales/product-based-lines-sales.md
+      - name: Copy project-based opportunities
+        href: sales/copy-project-based-opportunity.md
       - name: Close an opportunity 
         href: sales/close-opportunity.md
     - name: Manage quotes
       items:
-      - name: Managing project quotes
+      - name: Manage project quotes 
         href: pro/sales/manage-quotes-sales.md
-      - name: Project quote key concepts
+      - name: Quotes - Key concepts - lite
         href: pro/sales/quotes-key-concepts-sales.md
-      - name: Summary information on a project quote (Sales)
+      - name: Summary information on a project quote - lite
         href: pro/sales/quote-values-budget-limits-contract-sales.md
-      - name: Managing multiple customers on project quotes
+      - name: Manage multiple customers on project quotes - lite
         href: pro/sales/manage-multiple-customers-quote-sales.md
+      - name: Manage project price lists on project quotes - lite
+        href: pro/sales/manage-project-price-lists-sales.md
       - name: Product-based quote lines
         items: 
+        - name: Product-based quote lines overview - lite
+          href: pro/sales/product-based-quote-lines-sales.md
         - name: Costing product-based quote lines
           href: pro/sales/costing-product-based-quote-lines-sales.md
-        - name: Managing complex units such as per-user, per-month for product-based quote lines
+        - name: Manage complex units for product-based quote lines - lite
           href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
       - name: Project-based quote lines
         items:
-        - name: Manage project price lists on project quotes
-          href: pro/sales/manage-project-price-lists-sales.md
-        - name: Managing multiple customers on project-based quote lines
+        - name: Project-based quote lines overview - lite
+          href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+        - name: Manage multiple customers on project-based quote lines - lite
           href: pro/sales/manage-multiple-customers-quote-line-sales.md
         - name: Map projects and tasks to a project-based quote line
           href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+        - name: Configure the chargeable components of a quote line
+          href: pro/sales/configure-chargeable-components-quote-line-sales.md
         - name: Estimate a project-based quote line
           href: pro/sales/create-estimate-quote-line-sales.md
-        - name: Project-based quote lines (sales)
-          href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-        - name: Import estimates for a project to a project-based quote line
+        - name: Import estimates for a project to a project-based quote line - lite
           href: pro/sales/import-estimate-project-quote-sales.md
         - name: Invoice schedules on project-based quote lines
           href: sales/invoice-schedule-quote-line.md 
-        - name: Configure the chargeable components of a quote line
-          href: pro/sales/configure-chargeable-components-quote-line-sales.md
-    - name: Copy project-based quotes
-      href: sales/lose-quote.md
-    - name: Close a quote
-      href: pro/sales/win-quote-sales.md
-  - name: Manage contracts
-    items: 
-    - name: Managing project contracts
-      href: pro/sales/manage-contracts-sales.md
-    - name: Key concepts of project contracts
-      href: pro/sales/contracts-key-concepts-sales.md
-    - name: Project contract fields and information
-      href: pro/sales/project-contract-settings-sales.md
-    - name: Managing multiple customers on project-based contract lines
-      href: pro/sales/manage-multiple-customers-contract-line-sales.md
-    - name: Manage project price lists on project contracts
-      href: sales/contracts-manage-project-price-lists.md
-    - name: Product-based contract lines
+      - name: Copy project-based quotes
+        href: sales/lose-quote.md
+      - name: Close a quote - lite
+        href: pro/sales/win-quote-sales.md
+    - name: Manage contracts
       items: 
-      - name: Product-based contract lines overview
-        href: pro/sales/product-based-contract-lines-overview-sales.md
-      - name: Costing product-based contract lines
-        href: pro/sales/cost-product-based-contract-lines-sales.md
-      - name: Managing complex units for product-based contract lines
-        href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-    - name: Project-based contract lines
-      items: 
-      - name: Working with project-based contract lines
-        href: pro/sales/manage-contract-values-project-based-sales.md
-      - name: Managing multiple customers on project contracts
+      - name: Manage project contracts 
+        href: pro/sales/manage-contracts-sales.md
+      - name: Project contracts - Key concepts - lite
+        href: pro/sales/contracts-key-concepts-sales.md
+      - name: Project contract settings - lite
+        href: pro/sales/project-contract-settings-sales.md
+      - name: Manage multiple customers on project contracts - lite
         href: pro/sales/manage-multiple-customers-contract-sales.md
-      - name: Mapping projects and tasks to a project-based contract line
-        href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-      - name: Configuring chargeable components of a project-based contract line
-        href: pro/sales/configure-chargeable-components-contract-line.md
-      - name: Estimating a project-based contract line
-        href: pro/sales/create-estimate-project-contract-line-sales.md
-      - name: Importing an estimate to a project-based contract line
-        href: pro/sales/import-estimate-project-contract-line-sales.md
-      - name: Creating invoice schedules on a project-based contract line
-        href: pro/sales/invoice-schedules-contract-line-sales.md
-    - name: Copying project contracts
-      href: pro/sales/copy-project-contracts-sales.md
-    - name: Confirm a project contract
-      href: pro/sales/confirm-contract-sales.md
-    - name: Advances and retainers
-      items: 
-      - name: Advances and retainer-based contracts
-        href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-      - name: Set up a retainer schedule
-        href: pro/sales/set-up-schedule-retainers-sales.md
-      - name: Creating an ad hoc advance on a contract
-        href: pro/sales/create-ad-hoc-advance-sales.md
+      - name: Manage project price lists on project contracts
+        href: sales/contracts-manage-project-price-lists.md
+      - name: Product-based contract lines
+        items: 
+        - name: Product-based contract lines overview - lite
+          href: pro/sales/product-based-contract-lines-overview-sales.md
+        - name: Cost product-based contract lines - lite
+          href: pro/sales/cost-product-based-contract-lines-sales.md
+        - name: Manage complex units for product-based contract lines - lite
+          href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+      - name: Project-based contract lines
+        items: 
+        - name: Work with project-based contract lines - lite
+          href: pro/sales/manage-contract-values-project-based-sales.md
+        - name: Manage multiple customers on project-based contract lines - lite
+          href: pro/sales/manage-multiple-customers-contract-line-sales.md
+        - name: Map projects and tasks to a project-based contract line - lite
+          href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+        - name: Configure chargeable components of a project-based contract line - lite
+          href: pro/sales/configure-chargeable-components-contract-line.md
+        - name: Estimate a project-based contract line - lite
+          href: pro/sales/create-estimate-project-contract-line-sales.md
+        - name: Import an estimate to a project-based contract line - lite
+          href: pro/sales/import-estimate-project-contract-line-sales.md
+        - name: Create invoice schedules on a project-based contract line - lite
+          href: pro/sales/invoice-schedules-contract-line-sales.md
+      - name: Copy project contracts - lite
+        href: pro/sales/copy-project-contracts-sales.md
+      - name: Confirm a project contract
+        href: pro/sales/confirm-contract-sales.md
+      - name: Advances and retainers
+        items: 
+        - name: Advances and retainer-based contracts - lite
+          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+        - name: Set up a retainer schedule - lite
+          href: pro/sales/set-up-schedule-retainers-sales.md
+        - name: Creating an ad hoc advance on a contract - lite
+          href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
     - name: Set up price lists
@@ -490,23 +496,23 @@
         items: 
         - name: Set up sales price list
           href: pricing-costing/sales-price-list-setup.md
-        - name: Setting up labor bill rates
+        - name: Set up labor bill rates - lite
           href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-        - name: Setting up labor cost rates
+        - name: Set up labor cost rates - lite
           href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-        - name: Set up cost and sales rates for catalog products
+        - name: Set up cost and sales rates for catalog products - lite
           href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
         - name: Set up cost and sales rates for expenses
           href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: Default price lists
           href: pricing-costing/default-project-sales-price-lists.md
-        - name: Resolving cost prices on estimates and actuals
+        - name: Resolve cost prices on estimates and actuals - lite
           href: pro/pricing-costing/cost-price-resolution-sales.md
     - name: Defaults and overrides
       items:
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Resolving sales prices for estimates and actuals
+      - name: Resolve sales prices for estimates and actuals - lite
         href: pro/pricing-costing/sales-price-resolution-sales.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
@@ -644,20 +650,22 @@
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
     items:
-    - name: Managing the billing backlog
+    - name: Manage the billing backlog - lite
       href: pro/proforma-invoicing/manage-billing-backlog-sales.md
     - name: Manage not-to-exceed status and validations
       href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-    - name: Creating a manual proforma invoice
+    - name: Create a manual proforma invoice - lite
       href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-    - name: Managing a proforma invoice
+    - name: Manage a proforma invoice - lite
       href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
-    - name: Invoice a retainer or an advance
+    - name: Invoice a retainer or an advance - lite
       href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-    - name: Corrected invoices
-      href: proforma-invoicing/corrective-invoices.md
-    - name: Configure automated invoice creation
-      href: proforma-invoicing/configure-automated-invoice-creation.md    
+    - name: Confirm a proforma invoice - lite
+      href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+    - name: Corrected invoices - lite
+      href: pro/proforma-invoicing/corrective-invoices-sales.md
+    - name: Configure automatic invoice creation - lite
+      href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
 - name: Project Operations for Stocked/Production-based scenarios
   items: 
   - name: Project management and accounting overview

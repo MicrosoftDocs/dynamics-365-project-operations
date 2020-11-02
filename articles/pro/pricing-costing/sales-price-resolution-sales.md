@@ -1,18 +1,18 @@
 ---
-title: Resolving sales prices for estimates and actuals
+title: Resolve sales prices for estimates and actuals - lite
 description: This topic provides information about resolving sales prices on estimates and actuals.
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Resolving sales prices for estimates and actuals
+# Resolve sales prices for estimates and actuals - lite
 
-_**Applies To:**Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing_
 
 When sales prices on estimates and actuals are resolved in Dynamics 365 Project Operations, the system first uses the date and currency of the related project quote or contract to resolve the sales price list. After the sales price list is resolved, the system resolves the sales or bill rate.
 

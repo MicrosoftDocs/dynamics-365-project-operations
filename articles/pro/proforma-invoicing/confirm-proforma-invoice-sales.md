@@ -1,16 +1,16 @@
 ---
-title: Confirming a proforma invoice
+title: Confirm a proforma invoice - lite
 description: This topic provides information about confirming proforma invoices in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Confirming a proforma invoice
+# Confirm a proforma invoice - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

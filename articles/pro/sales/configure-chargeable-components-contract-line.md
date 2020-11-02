@@ -1,16 +1,16 @@
 ---
-title: Configuring chargeable components of a project-based contract line
+title: Configure chargeable components of a project-based contract line - lite
 description: This topic provides information about how to add chargeable components to contract lines in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Configuring chargeable components of a project-based contract line
+# Configure chargeable components of a project-based contract line - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -41,19 +41,19 @@ A project task can be chargeable or non-chargeable on a specific contract line w
 
 If a project-based contract line includes **Time** and a certain task, **T1** is associated to it as chargeable. If there is a second contract line that includes **Expense**, you can associate the T1 task on the contract line as non-chargeable. The result is that all of the time recorded on the task is chargeable and all expenses are non-chargeable.
 
-A task's billing type can be configured on the **Chargeable Tasks** tab of the contract line by updating the **Billing Type** field on the contract line tasks sub-grid. Alternatively, you can update the **Billing Type** field on the sub-grid of the task Billing setup of a project that shows the contract lines associated to a task.
+A task's billing type can be configured on the **Chargeable Tasks** tab of the contract line by updating the **Billing Type** field on the contract line tasks subgrid. Alternatively, you can update the **Billing Type** field on the subgrid of the task Billing setup of a project that shows the contract lines associated to a task.
 
 ### Update a role as chargeable or non-chargeable
 
 A role can be chargeable or non-chargeable on a specific contract line.
 
-A role's billing type can be configured on the **Chargeable Roles** tab of a contract line. To do this, update the **Billing Type** field on the **Chargeable Roles** sub-grid.
+A role's billing type can be configured on the **Chargeable Roles** tab of a contract line. To do this, update the **Billing Type** field on the **Chargeable Roles** subgrid.
 
 ### Update a transaction category as chargeable or non-chargeable
 
 A transaction category can be chargeable or non-chargeable on a specific contract line.
 
-A transaction's billing type can be configured on the **Chargeable Categories** tab of a project-based contract line. To do this, update the **Billing Type** field on the **Chargeable Categories** sub-grid.
+A transaction's billing type can be configured on the **Chargeable Categories** tab of a project-based contract line. To do this, update the **Billing Type** field on the **Chargeable Categories** subgrid.
 
 ### Resolve chargeability
 

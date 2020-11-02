@@ -3,7 +3,7 @@ title: Book named bookable resources to a project team and assign tasks
 description: This topic provides information about how to book named resources to project teams and assign them to tasks.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 11/28/2018
