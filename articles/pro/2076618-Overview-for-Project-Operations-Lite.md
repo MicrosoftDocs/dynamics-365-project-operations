@@ -3,7 +3,7 @@ title: Lite deployent overview
 description: This topic provides information about the Lite deployment of Dynamics 365 Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/30/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
