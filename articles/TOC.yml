@@ -4,6 +4,8 @@
   items:
   - name: Determine your deployment type
     href: environment/determine-deployment-type.md
+  - name: Project Operations updates
+    href: whats-new/project-operations-updates.md
 - name: Project Operations for resource/non-stocked based scenarios
   items:
   - name: Get started
