@@ -17,7 +17,7 @@ _**Applies To:** Project Operations for stocked/production-based scenarios_
 
 This deployment type has the following capabilities for project-based companies:
 
-- Project planning using the [Work breakdown structures](prod-pma/work-breakdown-structures.md)
+- Project planning using the [Work breakdown structures](work-breakdown-structures.md)
 - Procure and consume stocked inventory for projects
 - Managing project-based sales using the **Sales and marketing** module in Dynamics 365 Finance and Operations apps
 - Project pricing and costing using the cost rate and bill rate configurations in Finance and Operations apps
