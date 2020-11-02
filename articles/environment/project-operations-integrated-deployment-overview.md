@@ -23,7 +23,7 @@ The deployment type, Dynamics 365 Project Operations for resource/non-stocked ba
 - Universal resource scheduling that integrates with other applications such as Dynamics 365 Field Service and Dynamics 365 Customer Service
 - Project progress and Time Tracking
 - Basic and full Expense management experiences for project and non-project expenses including receipt capture using OCR capabilities
-- Invoicing that extends proforma to customer-facing that is backed by an enterprise-class sales tax and date-effective exchange rate system.
+- Invoicing that extends from proforma to customer-facing and is backed by an enterprise-class sales tax and date-effective exchange rate system.
 - Configurable project cost, revenue profiles, and rules for work in progress (WIP) accounting and accruals
 - Project revenue recognition
 - Extensibility through the Power Platform
