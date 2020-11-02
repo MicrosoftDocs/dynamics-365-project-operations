@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Prpoject Operations updates
+# Project Operations updates
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios_
 
@@ -27,7 +27,7 @@ Dynamics 365 Project Operations consists of two components:
 | --- | --- |
 | 4.3.0.61 | 10.0.14 |
 
-Project Operations Novebember 2020 release notes for [Resource/non-stocked](whats-new-nov-2020-resource-based.md), [Stocked/Production](whats-new-nov-2020-production-based.md) and [Lite deployment](whats-new-nov-2020-lite.md).
+Project Operations November 2020 release notes for [Resource/non-stocked](whats-new-nov-2020-resource-based.md), [Stocked/Production](whats-new-nov-2020-production-based.md), and [Lite deployment](whats-new-nov-2020-lite.md).
 
 ## Release schedule for Project Operations on CDS environment
 
@@ -40,7 +40,7 @@ Updates for Project Operations on CDS environment are available monthly.
 |    &nbsp; | Canada        |  4.3.0.61       | 4.4.0.79     | 28-Oct-20           |
 |   &nbsp;  | India         |  4.3.0.61       | 4.4.0.79     | 28-Oct-20           |
 |   &nbsp;  | South Africa  |  4.3.0.61       | 4.4.0.79     | 28-Oct-20           |
-| Staion 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
+| Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | Japan         | 4.3.0.61        | 4.4.0.79     | 30-Oct-20           |
 |   &nbsp;  | Asia Pacific  | 4.3.0.61        | 4.4.0.79     | 30-Oct-20           |
 |   &nbsp;  | Great Britain | 4.3.0.61        | 4.4.0.79     | 30-Oct-20           |
