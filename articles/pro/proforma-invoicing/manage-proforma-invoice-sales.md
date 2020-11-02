@@ -1,16 +1,16 @@
 ---
-title: Managing a proforma invoice
+title: Manage a proforma invoice - lite
 description:  This topic provides information about working with Proforma invoices. 
 author: rumant
 manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Managing a proforma invoice
+# Manage a proforma invoice - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -23,7 +23,7 @@ In Dynamics 365 Project Operations, proforma invoices are built as an extension 
 
 The following information is available on a proforma invoice header in Project Operations.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | **Invoice ID** | **Summary** tab | The ID that is generated automatically when a proforma invoice is created. A read-only field that is locked from editing. | This field is used as a reference for each proforma invoice. |
 | **Name** | **Summary** tab | Set to the name of the project contract by default. This field can be edited by the user. | &nbsp;  |
@@ -47,7 +47,7 @@ The following information is available on a proforma invoice header in Project O
 
 In Project Operations, there is always one invoice line for every project contract line. The invoice line is created even if there are no actuals. The following information is available on a proforma invoice line.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | **Invoice ID** | **General** tab | The reference to the invoice ID. A read-only field that is locked from editing. | The invoice ID link can be used to navigate back to the invoice header. |
 | **Name** | **General** tab | The name of the invoice line set by default from the contract line name. This field can be edited by the user. | &nbsp; |
@@ -72,7 +72,7 @@ For the **Fixed Price Invoice** line, invoice line details are created from mile
 
 The following fields are available on an invoice line detail that is backed by an unbilled sales actual:
 
-| Field | Relevance, purpose, and guidance | Downstream impact |
+| Field | Description | Downstream impact |
 | --- | --- | --- |
 | **Invoice line** | A reference to the **Invoice Line ID**. Read-only field, locked for editing. | This link can be used to navigate back to the invoice header. |
 | **Description** | A description of the invoice line detail. Set by default from the **Internal Comments** field on the **Time Entry**, and from the **Description** field on **Expense Entry**. The field can be edited by the user.| &nbsp; |
@@ -98,7 +98,7 @@ The following fields are available on an invoice line detail that is backed by a
 
 The following fields are available on an invoice line detail that is backed by a milestone:
 
-| Field | Relevance, purpose, and guidance | Downstream impact |
+| Field | Description | Downstream impact |
 | --- | --- | --- |
 | **Invoice line** | Reference to the **Invoice Line ID**. A read-only field that is locked from editing. | The link can be used to navigate back to the invoice header. |
 | **Description** | Description of the invoice line detail. Set by default from the description of the source milestone. | &nbsp; |

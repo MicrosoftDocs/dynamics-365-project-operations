@@ -1,28 +1,28 @@
 ---
-title: Setting up labor cost rates
+title: Set up labor cost rates - lite
 description: This topic provides information about how to set up the cost rates for labor in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Setting up labor cost rates 
+# Set up labor cost rates - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Each price list has a set of labor rates (role prices) that align with the content and date effectivity of the price list.
 
-1. Create a price list and on the **Role Price** tab, in the sub-grid, select **New Role**.
+1. Create a price list and on the **Role Price** tab, in the subgrid, select **New Role**.
 2. On the **Quick Create** page, select the role and organization unit.
 3. Enter any other required field information.
 
 The following table includes some of the fields that are important when creating labor rates on a cost price list.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Role | **General** tab and **Quick Create** pages | Select the role that the cost rate applies to. | The role on the incoming estimate or actual will be matched against this line to default the cost of the role. |
 | Resourcing Unit | **General** tab and **Quick Create** pages | Select the organizational unit or division of the company from where this role will be used. For example, a developer from the Robotics division of Fabrikam India or a developer from the Software division of Fabrikam USA. | The resourcing unit on the incoming estimate or actual will be matched against this line to default the cost of the role. |

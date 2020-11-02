@@ -3,7 +3,7 @@ title: Install and customize
 description: How to install and customize Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
 ms.date: 8/03/2018
 ms.topic: article

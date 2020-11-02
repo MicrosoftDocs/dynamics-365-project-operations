@@ -5,14 +5,14 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
 # Copy project-based opportunities
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
 Project opportunities can easily be copied to create new project opportunities. 
@@ -20,7 +20,7 @@ Project opportunities can easily be copied to create new project opportunities.
 1. Go to the **Project Opportunities** list page and select an opportunity from the list. Or, open the details page of a specific opportunity. 
 2. From either page, select **Copy**. A dialog page will open that contains the following field information. Depending on the values selected in this dialog, the copy process may change.
 
-    | **Field** | **Relevance, purpose, and guidance** | **Downstream impact** |
+    | **Field** | **Description** | **Downstream impact** |
     | --- | --- | --- |
     | Topic | Enter the relevant topic of the target opportunity. When the dialog opens, the system will set it to the topic of the source opportunity with **copy** appended to it. | There's no downstream impact for this field. |
     | Account | References the customer's company or account record. Wen the dialog opens, the system will set it to the account on the source opportunity. | This field is the primary customer on the opportunity. |

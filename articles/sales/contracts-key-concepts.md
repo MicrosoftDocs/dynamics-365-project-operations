@@ -1,16 +1,16 @@
 ---
-title: Key concepts - Project contracts
+title: Project contracts - Key concepts
 description: This topic provides information about the key concepts of project contracts in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Key concepts - Project contracts
+# Project contracts - Key concepts
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

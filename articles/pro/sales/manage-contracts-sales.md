@@ -1,18 +1,18 @@
 ---
-title: Managing project contracts 
+title: Manage project contracts 
 description: This topic provides information about viewing project-based contracts.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Managing project contracts
+# Manage project contracts
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Project contracts in Dynamics 365 Project Operations capture and manage the contractually agreed on commitments and billing details of a project. The structure of a project contract in Project Operations is tailored to project-based work with the following components:
 

@@ -5,12 +5,12 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Opportunity header/summary
+# Opportunity settings
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -21,7 +21,7 @@ Project-based opportunities in Dynamics 365 Project Operations are extensions of
 
 The following table includes the fields in a project-based opportunity that are either unique to Project Operations or have some important changes in behavior from the Opportunities in Sales.
 
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
 | Type | General tab (hidden) | This option set field has the following options:</br>- Work-based (available only with Project Operations)</br>- Item-based (available only when Project Operations and Sales are installed)</br>- Service maintenance-based (available when Field Service is installed) | When you use Project Operations, this field value is automatically set to **Work-based** which classifies the Opportunity as project-based. An Opportunity should be project-based to enable all project-specific extensions and functionality in the downstream sales process for this deal. |
 | Owning Company | General tab | This is the company or legal entity that will deliver the project for the customer. | This field information will be copied to the corresponding field on the Project quote that is created from this Opportunity. |

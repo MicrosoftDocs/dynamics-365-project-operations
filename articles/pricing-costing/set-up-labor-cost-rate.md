@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -17,13 +17,13 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Each price list has a set of labor rates (role prices) that align with the content and date effectivity of the price list.
 
-1. Create a price list and on the **Role Price** tab, in the sub-grid, select **New Role**.
+1. Create a price list and on the **Role Price** tab, in the subgrid, select **New Role**.
 2. On the **Quick Create** page, select the role and organization unit.
 3. Enter any other required field information.
 
 The following table includes some of the fields that are important when creating labor rates on a cost price list.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Role | **General** tab and **Quick Create** pages | Select the role that the cost rate applies to. | The role on the incoming estimate or actual will be matched against this line to default the cost of the role. |
 | Resourcing Company | **General** tab and **Quick Create** pages | Select the legal entity that the role is assigned to. For example, a developer from Fabrikam India or a developer from Fabrikam USA. | The resourcing company on the incoming estimate or actual will be matched against this line to default the cost rate of the role. |

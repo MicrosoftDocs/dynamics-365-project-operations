@@ -1,16 +1,16 @@
 ---
-title: Project-based quote lines
+title: Project-based quote lines overview
 description: This topic provides information about using project-based quote lines for project work.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Project-based quote lines
+# Project-based quote lines overview
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -26,7 +26,7 @@ Project-based quote lines are designed to help estimate the project work on an e
 
 The following table provides information about the fields on the **General** tab of project-based quote line. These fields help set up the basis for a detailed, ground-up estimation for project work.
 
-| **Field** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| **Field** | **Description** | **Downstream impact** |
 | --- | --- | --- |
 | Name | The name of quote line which should help you identify the discrete component of the quote that is being estimated. | Copied to the project contract line that is created from this quote line when the quote is won. |
 | Billing Method | On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line. This field includes the two main contracting models supported by Dynamics 365 Project Operations:</br>- Fixed price</br>- Time and material.| This field value is copied to the project contract line that is created from this quote line when the quote is won. |

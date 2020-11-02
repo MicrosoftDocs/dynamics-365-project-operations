@@ -1,16 +1,16 @@
 ---
-title: Importing estimates for a project to a project-based quote line
+title: Import estimates for a project to a project-based quote line - lite
 description: This topic provides information about how to import estimates from a project to a quote line.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Importing estimates for a project to a project-based quote line
+# Import estimates for a project to a project-based quote line - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

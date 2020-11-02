@@ -3,7 +3,7 @@ title: Estimates
 description: This topic provides information about estimates in Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 1/31/2019

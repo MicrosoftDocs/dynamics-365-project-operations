@@ -1,19 +1,19 @@
 ---
-title: Advances and retainer-based contracts
+title: Advances and retainer-based contracts - lite
 description: This topic provides information about retainer-based contracting models and advances in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Advances and retainer-based contracts 
+# Advances and retainer-based contracts - lite
 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment- deal to proforma invoicing_
 
 Dynamics 365 Project Operations supports retainer-based contracts. A retainer-based contract is a negotiated set of equally distributed payments that the customer will be invoiced for throughout the duration of a project. This type of contract is typically used for time and material or consumption-based billing models where there is a need to give the customer a predictable invoice and payment schedule. Revenue actuals accrued each period are reconciled against the payment received from the customer at the beginning of the period. In accordance with the concept of the Time and Material billing model, revenue values accrued in each period can vary with the costs incurred. If the revenue accrued is more than the amount received at the beginning of the period, the project delivery company could:
 
@@ -28,7 +28,7 @@ In addition to a periodic retainer-based schedule, Project Operations can record
 
 The retainer in Project Operations isn't available for use until it is invoiced to the customer. This is indicated by the following fields on the subgrid for advances and retainers.
 
-| Field | Relevance, purpose, and guidance | Downstream impact |
+| Field | Description | Downstream impact |
 | --- | --- | --- |
 | Available Amount | The amount that is available to be used on the retainer or advance record. | Until the advance or retainer is invoiced, it isn't available to be used which means the available amount will be zero. |
 | Used Amount | The amount that is already used on the retainer or advance. | An advance or retainer can be partially reconciled on an invoice with actual costs which will have some part marked as already used or consumed. The rest of the advance or retainer amount is available to reconcile on a future invoice with actual costs. |

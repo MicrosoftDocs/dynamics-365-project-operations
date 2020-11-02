@@ -1,16 +1,16 @@
 ---
-title: Creating invoice schedules on a project-based contract line
+title: Create invoice schedules on a project-based contract line - lite
 description: This topic provides information about creating invoice schedules and milestones.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Creating invoice schedules on a project-based contract line
+# Create invoice schedules on a project-based contract line - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -59,7 +59,7 @@ Fixed price milestones can be generated manually when they aren't periodically s
 2. On the **Invoice Schedule** tab, on the subgrid, select **+ Create new Contract line milestone**.
 3. On the **Milestone Creation** form, enter the required information based on the following table. 
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Milestone Name | Quick Create | Text field for the name of the milestone. | This field is included on the project contract line milestone and the invoice. |
 | Project Task | Quick Create | If the milestone is tied to a project task, use this reference to add custom logic and set the milestone status based on the task status. | There is no downstream impact of this reference to a task. |

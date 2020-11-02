@@ -1,16 +1,16 @@
 ---
-title: Managing the billing backlog
+title: Manage the billing backlog - lite
 description: This topic provides information about the various views available to use when managing the billing backlog.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Managing the billing backlog
+# Manage the billing backlog - lite
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

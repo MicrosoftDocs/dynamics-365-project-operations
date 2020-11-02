@@ -5,7 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -26,7 +26,7 @@ The following extensions are specific to Project Operations and are applied to p
 
 The following table includes the fields on the **General** tab of a price list that are unique to Project Operations or have significant changes in behavior from price lists in Sales.
 
-| Field | Location | Relevance, purpose, and guidance | Downstream impact |
+| Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Name | **General** tab and **Quick Create** forms | The identity of the price list. | The price list is shown with this value on all list pages and drop-down options.|
 | Context | **General** tab and **Quick Create** forms | This field can be set to **Cost** or **Sales**. | A price list set to **Cost** is used to look up the price for cost estimates and cost actuals. A price list set to **Sales** is used to look up the price for sales estimates and sales actuals. Only price lists that have the context set to **Sales** can be attached to project price lists for customers, project quotes, and project contracts. |
