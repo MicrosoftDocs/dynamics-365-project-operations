@@ -23,18 +23,18 @@ The deployment type, Dynamics 365 Project Operations for resource/non-stocked ba
 - Universal resource scheduling that integrates with other applications such as Dynamics 365 Field Service and Dynamics 365 Customer Service
 - Project progress and Time Tracking
 - Basic and full Expense management experiences for project and non-project expenses including receipt capture using OCR capabilities
-- Ivoicing that extends from a proforma to a customer-facing invoice that is backed by a enterprise-class sales tax and date-effective exchange rate system.
+- Invoicing that extends proforma to customer-facing that is backed by an enterprise-class sales tax and date-effective exchange rate system.
 - Configurable project cost, revenue profiles, and rules for work in progress (WIP) accounting and accruals
 - Project revenue recognition
 - Extensibility through the Power Platform
 
-This deployment type also provides a seamless extension to the functionality provided by Dynamics 365 Finance and Dynamics 365 Supply Chain Management applications if the customer is also licensed for those applications.
+This deployment type provides an extension to the functionality provided by Dynamics 365 Finance and Dynamics 365 Supply Chain Management applications.
 
-This deployment should be chosen the expectation of Project Operations is to leverage the full project lifecycle that includes the following requirements:
+This deployment should be chosen the expectation of Project Operations is to use the full project lifecycle that includes the following requirements:
 
 - Ability to manage project-based sales with other types of sales using the capabilities in the Sales application.
-- An integreated project management system that can manage internal and billable projects for schedules and financials from project sales to accounting.
+- An integrated project management system that manages internal and billable projects for schedules and financials from project sales to accounting.
 - An expense management system that includes policy enforcements and reimbursements for tracking project and non-project expenses.
-- Require a rRich, enterprise class sales tax and exchange rates engine to generate customer-facing invoice for projects.
+- Require a rich, enterprise-class sales tax and exchange rate engine to generate customer-facing invoices for projects.
 - An International Financial Reporting Standards(IFRS)-compliant project accounting and revenue recognition system.
-- Finance or Supply Chain Management applications and seamless integration of project-based transactions
+- Finance or Supply Chain Management applications and integration of project-based transactions.
