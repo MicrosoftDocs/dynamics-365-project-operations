@@ -356,6 +356,10 @@
       href: project-accounting/project-operations-integration-journal.md
 - name: Lite deployment - deal to proforma invoicing
   items:
+  - name: What's new
+    items: 
+    - name: What's new November 2020 - lite deplyoyment - deal to proforma invoicing
+      href: whats-new/whats-new-nov-2020-lite.md
   - name: Get started
     items:
     - name: Sign up for a preview subscription - lite
