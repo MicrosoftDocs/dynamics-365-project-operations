@@ -1,6 +1,6 @@
 ---
-title: What's new November 2020 - Project Operations Lite deplyoyment - deal to proforma invoicing
-description: This topic provides information about the quality updates available in the November 2020 release of Project Operations Lite deplyoyment - deal to proforma invoicing. 
+title: What's new November 2020 - Project Operations Lite deployment - deal to proforma invoicing
+description: This topic provides information about the quality updates available in the November 2020 release of Project Operations Lite deployment - deal to proforma invoicing. 
 author: sigitac
 manager: Annbe
 ms.date: 11/02/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# What's new November 2020 - Project Operations Lite deplyoyment - deal to proforma invoicing
+# What's new November 2020 - Project Operations Lite deployment - deal to proforma invoicing
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -24,11 +24,11 @@ The following table lists the updates to Project Operations Lite deployment - de
 | Project planning             | 2043336          | Unable to delete a project team member record.                                                                                                                                    |
 | Project planning             | 2046013          | Inconsistent behavior for   Estimates tag columns during load vs. on change of time-phase type.                                                                                   |
 | Project planning             | 2046647          | Start and end times are off by   an hour when resource requirements are generated from project team members.                                                                      |
-| Project planning             | 2053879          | (Per the upcoming CDS   rollout)   PublishUnassignedAssignments   breaks an attempt to save a task when when the error, "The   value passed for ConditionOperator.In is   empty." |
+| Project planning             | 2053879          | (Per the upcoming CDS   rollout)   PublishUnassignedAssignments   breaks an attempt to save a task when  the error, "The   value passed for ConditionOperator.In is   empty." |
 | Project planning             | 2055501          | Leaving the **Project Start   Date** empty causes a failure in the schedule.                                                                                                      |
 | Project planning             | 2066817          | Can't create a generic   resource   using the people picker on   the **Tasks** tab.                                                                                               |
-| Project planning             | 2067034          | **View Details** button isn'   available on the **Details of Task** page.                                                                                                         |
+| Project planning             | 2067034          | **View Details** button isn't available on the **Details of Task** page.                                                                                                         |
 | Resource management          | 2046667          | Generic team members aren't   deleted even after all resources are fulfilled.                                                                                                     |
-| Tiem and quick expense entry | 2047499          | The **New** button on the Time   Entry page opens the **New Email Signature** page.                                                                                               |
+| Time and quick expense entry | 2047499          | The **New** button on the Time   Entry page opens the **New Email Signature** page.                                                                                               |
 | Time and quick expense entry | 2059859          | Unexpected   pop-up opens when creating an expense entry.                                                                                                                         |
 | Other                        | 2044181          | [PO Uninstallation] - The error,   "Record is unavailable" occurs when you try to uninstall   **msdyn_ProjectServiceCore_Patch** and msdyn Project service core solutions.        |
