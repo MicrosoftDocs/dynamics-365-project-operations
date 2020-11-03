@@ -16,7 +16,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This topic applies to the following Dynamics 365 Project Operations components and versions:
 
-- Project Operations on CDS environment version 4.4.0.79
+- Project Operations on CDS environment version 4.4.0.70
 - Project management and accounting in Dynamics 365 Finance environment version 10.0.14
 
 ## Updates to Project Operations for resource-non-stocked based scenarios
