@@ -942,8 +942,6 @@
         href: psa/basic-quote-lines.md
       - name: Product-based quote lines
         href: psa/product-based-quote-lines.md
-      - name: Analyzing project quotes
-        href: psa/basic-analyzing-quotes.md  
       - name: Project pricing
         href: psa/basic-pricing.md
       - name: Product catalog pricing
@@ -974,7 +972,7 @@
         href: psa/resource-management.md
       - name: Assign generic bookable resources to a task and generate resource requirements
         href: psa/assign-generic-bookable-resource.md 
-      - name: Book named bookable resources to a project team and assign task
+      - name: Book named bookable resources to a project team and assign a task
         href: psa/assign-named-bookable-resource.md
       - name: Assign a resource to a task
         href: psa/FAQ-assign-resources-to-tasks.md
