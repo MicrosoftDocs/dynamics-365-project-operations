@@ -14,7 +14,7 @@ ms.author: sigitac
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-The following table lists the updates to Project Operations Lite deployment - deal to proforma invoicing.
+The following table lists the updates to Project Operations on CDS environment version 4.4.0.70.
 
 | Feature area                 | Reference number | Quality update                                                                                                                                                                    |
 |------------------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

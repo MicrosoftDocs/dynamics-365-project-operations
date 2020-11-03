@@ -25,7 +25,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on CDS environment | Project management and accounting in Finance and Operations apps environments |
 | --- | --- |
-| 4.3.0.61 | 10.0.14 |
+| 4.4.0.70 | 10.0.14 |
 
 Project Operations November 2020 release notes for [Resource/non-stocked](whats-new-nov-2020-resource-based.md), [Stocked/Production](../prod-pma/whats-new/whats-new-nov-2020-production-based.md), and [Lite deployment](../pro/whats-new/whats-new-nov-2020-lite.md).
 
@@ -36,19 +36,19 @@ Updates for Project Operations on CDS environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.3.0.61       | 4.4.0.79     | 28-Oct-20           |
-|    &nbsp; | Canada        |  4.3.0.61       | 4.4.0.79     | 28-Oct-20           |
-|   &nbsp;  | India         |  4.3.0.61       | 4.4.0.79     | 28-Oct-20           |
-|   &nbsp;  | South Africa  |  4.3.0.61       | 4.4.0.79     | 28-Oct-20           |
+|   &nbsp;  | South America |  4.3.0.61       | 4.4.0.70     | 28-Oct-20           |
+|    &nbsp; | Canada        |  4.3.0.61       | 4.4.0.70     | 28-Oct-20           |
+|   &nbsp;  | India         |  4.3.0.61       | 4.4.0.70     | 28-Oct-20           |
+|   &nbsp;  | South Africa  |  4.3.0.61       | 4.4.0.70     | 28-Oct-20           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         | 4.3.0.61        | 4.4.0.79     | 30-Oct-20           |
-|   &nbsp;  | Asia Pacific  | 4.3.0.61        | 4.4.0.79     | 30-Oct-20           |
-|   &nbsp;  | Great Britain | 4.3.0.61        | 4.4.0.79     | 30-Oct-20           |
-|   &nbsp;  | Oceania       | 4.3.0.61        | 4.4.0.79     | 30-Oct-20           |
+|   &nbsp;  | Japan         | 4.3.0.61        | 4.4.0.70     | 30-Oct-20           |
+|   &nbsp;  | Asia Pacific  | 4.3.0.61        | 4.4.0.70     | 30-Oct-20           |
+|   &nbsp;  | Great Britain | 4.3.0.61        | 4.4.0.70     | 30-Oct-20           |
+|   &nbsp;  | Oceania       | 4.3.0.61        | 4.4.0.70     | 30-Oct-20           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        | 4.3.0.61        | 4.4.0.79     | 6-Nov-20            |
+|   &nbsp;  | Europe        | 4.3.0.61        | 4.4.0.70     | 6-Nov-20            |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | North America | 4.3.0.61        | 4.4.0.79     | 15-Nov-20           |
+|   &nbsp;  | North America | 4.3.0.61        | 4.4.0.70     | 15-Nov-20           |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
@@ -63,5 +63,5 @@ Targeted release dates are subject to change. For more information, see [Service
 
 | Targeted release date | Generally available (self- updated) |
 | --- | --- |
-| 10.0.16 | January 22, 2020 |
+| 10.0.16 | January 22, 2021 |
 | 10.0.15 | December 4, 2020 |
