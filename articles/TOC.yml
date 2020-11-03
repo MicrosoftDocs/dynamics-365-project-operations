@@ -8,6 +8,10 @@
     href: whats-new/project-operations-updates.md
 - name: Project Operations for resource/non-stocked based scenarios
   items:
+  - name: What's new 
+    items:
+    - name: November 2020 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-nov-2020-resource-based.md
   - name: Get started
     items:
     - name: Project Operations for resource/non-stocked based scenarios deployment overview
@@ -24,9 +28,9 @@
         href: environment/resource-add-azure-subscription-lcs-project.md 
     - name: Apply demo data
       items:
-      - name: Apply Project Operations demo data to a Finance Cloud-hosted environment
+      - name: Apply demo data to a Finance Cloud-hosted environment
         href: environment/resource-apply-finance-demo-data.md
-      - name: Apply configuration data in the Common Data Service for Project Operations
+      - name: Apply configuration data in the Common Data Service 
         href: environment/resource-apply-pro-setup-config-data.md
     - name: Deploy environments
       items:
