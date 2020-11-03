@@ -126,30 +126,28 @@
         href: pro/sales/confirm-contract-sales.md
   - name: Pricing and costing
     items: 
-    - name: Set up price lists
-      href: pricing-costing/price-list-setup.md
-    - name: Product price lists
-      href: pricing-costing/product-price-list.md
-    - name: Project price lists
+    - name: Price list setup
       items: 
-      - name: Price list setup for sales
-        items: 
-        - name: Set up a sales price list
-          href: pricing-costing/sales-price-list-setup.md
-        - name: Set up labor bill rates
-          href: pricing-costing/set-up-labor-bill-rate.md
-        - name: Set up labor cost rates
-          href: pricing-costing/set-up-labor-cost-rate.md
-        - name: Set up cost and sales rates for expenses
-          href: pricing-costing/set-up-cost-sales-rates-expenses.md
-        - name: Default price lists
-          href: pricing-costing/default-project-sales-price-lists.md
-        - name: Resolving cost prices for estimates and actuals
-          href: pricing-costing/cost-price-resolution.md
+      - name: Set up price lists
+        href: pricing-costing/price-list-setup.md
+      - name: Product price lists
+        href: pricing-costing/product-price-list.md
+      - name: Set up a sales price list
+        href: pricing-costing/sales-price-list-setup.md
+      - name: Set up labor bill rates
+        href: pricing-costing/set-up-labor-bill-rate.md
+      - name: Set up labor cost rates
+        href: pricing-costing/set-up-labor-cost-rate.md
+      - name: Set up cost and sales rates for expenses
+        href: pricing-costing/set-up-cost-sales-rates-expenses.md      
     - name: Defaults and overrides
       items:
+      - name: Default price lists
+        href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
+      - name: Resolving cost prices for estimates and actuals
+        href: pricing-costing/cost-price-resolution.md
       - name: Resolve sales prices for estimates and actuals
         href: pricing-costing/sales-price-resolution.md
       - name: Copy price lists
@@ -158,8 +156,10 @@
       items: 
       - name: Pricing dimensions overview
         href: pricing-costing/pricing-dimensions-overview.md
-      - name: Project Operations fields as pricing dimensions
-        href: pricing-costing/use-existing-field-pricing-dimension.md
+      - name: Use existing fields as pricing dimensions
+        items:
+        - name: Project Operations fields as pricing dimensions
+          href: pricing-costing/use-existing-field-pricing-dimension.md
       - name: Custom fields as pricing dimensions
         items:
         - name: Create custom fields and entities as pricing dimensions
@@ -500,39 +500,41 @@
           href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
-    - name: Set up price lists
-      href: pricing-costing/price-list-setup.md
-    - name: Project price lists
-      items:
-      - name: Price list setup for sales
-        items: 
-        - name: Set up sales price list
-          href: pricing-costing/sales-price-list-setup.md
-        - name: Set up labor bill rates - lite
-          href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-        - name: Set up labor cost rates - lite
-          href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-        - name: Set up cost and sales rates for catalog products - lite
-          href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-        - name: Set up cost and sales rates for expenses
-          href: pricing-costing/set-up-cost-sales-rates-expenses.md
-        - name: Default price lists
-          href: pricing-costing/default-project-sales-price-lists.md
-        - name: Resolve cost prices on estimates and actuals - lite
-          href: pro/pricing-costing/cost-price-resolution-sales.md
+    - name: Price list setup
+      items: 
+      - name: Set up price lists
+        href: pricing-costing/price-list-setup.md
+      - name: Set up sales price list
+        href: pricing-costing/sales-price-list-setup.md
+      - name: Set up labor bill rates - lite
+        href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+      - name: Set up labor cost rates - lite
+        href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+      - name: Set up cost and sales rates for catalog products - lite
+        href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+      - name: Set up cost and sales rates for expenses
+        href: pricing-costing/set-up-cost-sales-rates-expenses.md
     - name: Defaults and overrides
       items:
+      - name: Default price lists
+        href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
+      - name: Resolve cost prices on estimates and actuals - lite
+        href: pro/pricing-costing/cost-price-resolution-sales.md
       - name: Resolve sales prices for estimates and actuals - lite
         href: pro/pricing-costing/sales-price-resolution-sales.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
     - name: Pricing dimensions
       items:
-      - name: Use an existing field as a pricing dimension
-        href: pricing-costing/use-existing-field-pricing-dimension.md
-      - name: Custom fields as pricing dimension
+      - name: Pricing dimensions overview
+        href: pricing-costing/pricing-dimensions-overview.md
+      - name: Use existing fields as pricing dimensions 
+        items:
+        - name: Use an existing field as a pricing dimension
+          href: pricing-costing/use-existing-field-pricing-dimension.md
+      - name: Custom fields as pricing dimensions
         items:
         - name: Create custom fields and entities as pricing dimensions
           href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
