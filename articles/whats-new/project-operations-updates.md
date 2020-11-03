@@ -27,7 +27,7 @@ Dynamics 365 Project Operations consists of two components:
 | --- | --- |
 | 4.3.0.61 | 10.0.14 |
 
-Project Operations November 2020 release notes for [Resource/non-stocked](whats-new-nov-2020-resource-based.md), [Stocked/Production](whats-new-nov-2020-production-based.md), and [Lite deployment](whats-new-nov-2020-lite.md).
+Project Operations November 2020 release notes for [Resource/non-stocked](whats-new-nov-2020-resource-based.md), [Stocked/Production](../prod-pma/whats-new/whats-new-nov-2020-production-based.md), and [Lite deployment](../pro/whats-new/whats-new-nov-2020-lite.md).
 
 ## Release schedule for Project Operations on CDS environment
 
