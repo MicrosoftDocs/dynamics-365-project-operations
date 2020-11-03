@@ -8,10 +8,6 @@
     href: whats-new/project-operations-updates.md
 - name: Project Operations for resource/non-stocked based scenarios
   items:
-  - name: What's new 
-    items:
-    - name: November 2020 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-nov-2020-resource-based.md
   - name: Get started
     items:
     - name: Project Operations for resource/non-stocked based scenarios deployment overview
@@ -40,6 +36,10 @@
         href: environment/security-model.md
       - name: Configure Project Operations integration per legal entity
         href: environment/resource-configure-integration-per-legal-entity.md
+  - name: What's new 
+    items:
+    - name: November 2020 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-nov-2020-resource-based.md
   - name: Sales process
     items:
     - name: Sales process overview
@@ -364,10 +364,6 @@
       href: project-accounting/project-operations-integration-journal.md
 - name: Lite deployment - deal to proforma invoicing
   items:
-  - name: What's new
-    items: 
-    - name: What's new November 2020 - lite deplyoyment - deal to proforma invoicing
-      href: pro/whats-new/whats-new-nov-2020-lite.md
   - name: Get started
     items:
     - name: Lite deployment overview
@@ -380,6 +376,10 @@
       href: environment/lite-apply-demo-setup-config-data.md
     - name: Security model
       href: environment/security-model.md
+  - name: What's new
+    items: 
+    - name: What's new November 2020 - lite deplyoyment - deal to proforma invoicing
+      href: pro/whats-new/whats-new-nov-2020-lite.md
   - name: Sales process
     items:
     - name: Sales overview
@@ -680,8 +680,10 @@
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
 - name: Project Operations for Stocked/Production-based scenarios
   items: 
-  - name: What's new November 2020 - Project Operations for stocked/production-based scenarios
-    href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+  - name: What's new
+    items:
+    - name: What's new November 2020 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
   - name: Project Operations for stocked/production-based scenarios deployment overview
     href: prod-pma/project-operations-prod-order-deployment-overview.md
   - name: Project management and accounting overview
