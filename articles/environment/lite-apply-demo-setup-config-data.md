@@ -14,6 +14,11 @@ ms.author: sigitac
 
 _**Lite deployment - deal to proforma invoicing_
 
+## Prerequisites
+1.	Provisioned a CE environment for Project Operations
+
+## Instructions
+
 1. Download the [Master Data Package](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
 2. Navigate to the folder *ProjOpsDemoDataSetupAndMaster - Integrated CMT* and run the executable file, *DataMigrationUtility*.
 3. On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.
@@ -40,25 +45,25 @@ _**Lite deployment - deal to proforma invoicing_
 10. Import will run for approximately two-ten minutes depending on your network speed. After it completes, exit the CMT Wizard. 
 11. Check your organization for data in the following 20 entities:
 
-- Currency
-- Organizational Unit
-- Contact
-- Tax Group
-- Customer Group
-- Unit
-- Unit Group
-- Price List
-- Project Parameter Price List
-- Invoice Frequency
-- Invoice Frequency Detail
-- Bookable Resource Category
-- Transaction Category
-- Expense Category
-- Role Price
-- Transaction Category Price
-- Characteristic
-- Bookable Resource
-- Bookable resource category Assn
-- Bookable Resource Characteristic
+-	Currency
+-	Account
+-	Organizational Unit
+-	Contact
+-	Tax Group
+-	Customer Group
+-	Unit
+-	Unit Group
+-	Price List
+-	Project Parameter Price List 
+-	Invoice Frequency
+-	Bookable Resource Category
+-	Transaction Category
+-	Expense Category
+-	Role Price
+-	Transaction Category Price
+-	Characteristic
+-	Bookable Resource
+-	Bookable resource category Assn
+-	Bookable Resource Characteristic
 
 ![Complete Import](./media/6CompleteImport.png)
