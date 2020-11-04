@@ -3,7 +3,7 @@ title: Apply demo setup and configuration data - lite
 description: This topic provides information about how to apply demo setup and configuration data for Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -15,7 +15,9 @@ ms.author: sigitac
 _**Lite deployment - deal to proforma invoicing_
 
 ## Prerequisites
-1.	Provisioned a CE environment for Project Operations
+
+Before you begin the configuration, you must have a Common Data Service (CDS) environment provisioned for Dynamics 365 Project Operations.
+
 
 ## Instructions
 
