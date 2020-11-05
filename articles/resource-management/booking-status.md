@@ -1,5 +1,5 @@
 ---
-title: Set up booking statuses
+title: Booking statuses
 description: This topic provides a link to information about how to set up booking statuses for Project Operations.
 author: ruhercul
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: ruhercul
 ---
 
-# Set up booking statuses
+# Booking statuses
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
