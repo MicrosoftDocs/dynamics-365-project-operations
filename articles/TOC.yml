@@ -262,6 +262,10 @@
         href: resource-management/resource-reconciliation-overview.md
       - name: Manage time zones
         href: resource-management/manage-multiple-time-zones.md
+    - name: Resource utilization
+      items: 
+      - name: Resource utilization overview
+        href: resource-management/resource-utilization-overview.md
   - name: Time
     items: 
     - name: Time overview
@@ -632,6 +636,10 @@
         href: resource-management/resource-reconciliation-overview.md
       - name: Manage time zones
         href: resource-management/manage-multiple-time-zones.md
+    - name: Resource utilization
+      items: 
+      - name: Resource utilization overview
+        href: resource-management/resource-utilization-overview.md
   - name: Time
     items: 
     - name: Time overview
