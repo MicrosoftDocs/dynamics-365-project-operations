@@ -3,7 +3,7 @@ title: Set up and apply configuration data in the Common Data Service
 description: This topic provides information about setting up and applying configuration data in Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -13,6 +13,16 @@ ms.author: sigitac
 # Set up and apply configuration data in the Common Data Service 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
+
+## Prerequisites
+
+Before you beging to configure data in the Common Data Service (CDS), the following prerequisites must be met:
+
+1.	Provision a CDS environment and a Dynamics 365 Finance environment for Project Operations.
+2.	Legal entity information from Dynamics 365 Finance is shared to the CDS environment. This means that the **Company** entity in CDS has the following company records:
+  - THPM
+  - USPM
+  - GBPM
 
 ## Install setup and configuration data
 
