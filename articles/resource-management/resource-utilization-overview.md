@@ -14,7 +14,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Resources can have a target billable utilization. This target utilization is either defined as an attribute on a resource's default role or set on the record of the individual bookable resource. Utilization calculations are based on the actual hours that resources have reported by using approved time entries.
+Resources can have a target billable utilization. This target utilization is defined as an attribute on a resource's default role or set on the record of the individual bookable resource. Utilization calculations are based on the actual hours that resources have reported by using approved time entries.
 
 The following formulas are used to calculate utilization:
 
@@ -35,8 +35,8 @@ Because the **Resource Utilization** view is based on the Schedule Board, you ca
 
 The grid requires that you set a target utilization on either the role or the individual resource. To do this setup, go to **Resources** > **Resource roles**.
 
-Additionally, a default role must be assigned to each bookable resource. Go to **Resources** > **Resources**. On the **Project Service** tab, verify that a resource role is defined, and that the **Is Default** field for it is set to **Yes**. You can add additional roles where **Is Default** = **No**. The role where the **Is Default** = **Yes** is used to evaluate the resource's utilization against the target for that role.
+Additionally, a default role must be assigned to each bookable resource. Go to **Resources** > **Resources**. On the **Project Service** tab, verify that a resource role is defined, and that the **Is Default** field is set to **Yes**. You can add additional roles where **Is Default** = **No**. The role where the **Is Default** = **Yes** is used to evaluate the resource's utilization against the target for that role.
 
 On the **Project Service** tab, you can also set an individual target utilization for the resource. The utilization calculation then uses that target utilization to evaluate the resource's target instead of the target of the resource's default role.
 
-Utilization is shown for a resource only if that resource has approved, chargeable time during the period that is shown in the grid.
+Utilization is only shown for a resource if that resource has approved, chargeable time during the period shown in the grid.
