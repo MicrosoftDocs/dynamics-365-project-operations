@@ -3,7 +3,7 @@ title: Determine your deployment type
 description: This topic provides information to help you determine the correct deployment type of Project operations for your company.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -20,7 +20,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 
 ## Existing customers of Dynamics using Dynamics 365 Project Service Automation
-Project Operations includes the capabilities that shipped with Project Service Automation. An upgrade path will be released for these customers in our April 2021 wave.
+Project Operations includes the capabilities that shipped with Project Service Automation. An upgrade path will be released for these customers in the 2021 release wave 1.
 
 ## Existing customers of Dynamics 365 Finance using Project management and accounting 
 
@@ -45,10 +45,10 @@ The lite deployment includes the following capabilities:
 - Sales process for projects that extends Dynamics 365 Sales application experiences
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing
-- Unified Resource Management
-- Time Tracking
-- Basic Expense
-- Proforma and Customer-facing Invoicing Experiences
+- Unified resource management
+- Time tracking
+- Basic expense
+- Proforma and customer-facing invoicing 
 
 #### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
@@ -59,16 +59,16 @@ For this deployment, see [Sign-up for preview subscriptions](lite-preview-subscr
 ### <a name="integrated"></a>Project Operations for resource/non-stocked scenarios
 The Project Operations for resource/non-stocked scenarios includes the following capabilities:
  
-- Sales process for projects that extends Dynamics 365 Sales application experiences
+- Sales process for projects that extends the Dynamics 365 Sales application
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing
-- Unified Resource Management
-- Time Tracking
-- Basic Expense
-- Full Expense
+- Unified resource management
+- Time tracking
+- Basic expense
+- Full expense
 - Receipt OCR
-- Proforma and Customer-facing Invoicing Experiences 
-- Revenue Recognition for Projects
+- Proforma and customer-facing invoicing 
+- Revenue recognition for projects
 
 #### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
