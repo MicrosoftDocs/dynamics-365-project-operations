@@ -250,6 +250,8 @@
       items: 
       - name: Define skills and proficiencies
         href: resource-management/define-skills-proficiencies.md
+      - name: Define roles
+        href: resource-management/define-roles.md
       - name: Define resource calendars
         href: resource-management/define-resource-calendars.md
     - name: Booking allocation methods
@@ -624,6 +626,8 @@
       items: 
       - name: Define skills and proficiencies
         href: resource-management/define-skills-proficiencies.md
+      - name: Define roles
+        href: resource-management/define-roles.md
       - name: Define resource calendars
         href: resource-management/define-resource-calendars.md
     - name: Booking allocation methods
