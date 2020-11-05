@@ -20,7 +20,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 
 ## Existing customers of Dynamics using Dynamics 365 Project Service Automation
-Project Operations includes the capabilities that shipped with Project Service Automation. An upgrade path will be released for these customers in the future.
+Project Operations includes the capabilities that shipped with Project Service Automation. An upgrade path will be released for these customers in our April 2021 wave.
 
 ## Existing customers of Dynamics 365 Finance using Project management and accounting 
 
@@ -42,12 +42,13 @@ Project Operations support stocked/production order scenarios and non-stocked/re
 
 The lite deployment includes the following capabilities:
 
+- Sales process for projects that extends Dynamics 365 Sales application experiences
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing
 - Unified Resource Management
 - Time Tracking
 - Basic Expense
-- Invoice Proposal
+- Proforma and Customer-facing Invoicing Experiences
 
 #### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
@@ -57,7 +58,8 @@ For this deployment, see [Sign-up for preview subscriptions](lite-preview-subscr
 
 ### <a name="integrated"></a>Project Operations for resource/non-stocked scenarios
 The Project Operations for resource/non-stocked scenarios includes the following capabilities:
-  
+ 
+- Sales process for projects that extends Dynamics 365 Sales application experiences
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing
 - Unified Resource Management
@@ -65,8 +67,8 @@ The Project Operations for resource/non-stocked scenarios includes the following
 - Basic Expense
 - Full Expense
 - Receipt OCR
-- Full Invoicing
-- Revenue Recognition
+- Proforma and Customer-facing Invoicing Experiences 
+- Revenue Recognition for Projects
 
 #### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
