@@ -24,7 +24,7 @@ Project Operations includes the capabilities that shipped with Project Service A
 
 ## Existing customers of Dynamics 365 Finance using Project management and accounting 
 
-Existing customers of Finance who use the Project management and accounting functionality can continue to use this as is. See [Project Operations for stocked/production order scenarios](#pma).
+Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is. See [Project Operations for stocked/production order scenarios](#pma).
 
 
 ## Deployment types
