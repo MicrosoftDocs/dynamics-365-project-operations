@@ -1,6 +1,6 @@
 ---
-title: Estimate project sales and costs when a bookable resource fills mulitple roles on a project 
-description: This topic provides information about how pricing dimensions can be used to support pricing and costing for a resource that fills mulitple roles on a project.
+title: Estimate project sales and costs when a bookable resource plays mulitple roles on a project 
+description: This topic provides information about how pricing dimensions can be used to support the estimation of pricing and costing for a resource that plays mulitple roles on a project.
 author:  rumant
 manager: tfehr 
 ms.date: 11/05/2020  
