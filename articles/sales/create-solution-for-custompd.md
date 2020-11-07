@@ -29,24 +29,34 @@ You will need to add the following Project Service entities to your pricing solu
 2.	In Solution Explorer, on the left navigation pane, select Add Existing > Entities.
 3.	In the Solution Components dialog box, select the following entities:
       •	Actual
+ 
       •	Bookable Resource
+ 
       •	Estimate Line
+      
       •	Project Task
+      
       •	Invoice Line Detail
+      
       •	Journal Line
+      
       •	Project Contract Line Detail
+      
       •	Project Team Member
+      
       •	Quote Line Detail
+      
       •	Role Price Markup
+      
       •	Role Price
+      
       •	Time Entry
  
  ![Add existing entities custom pricing dimension solution] (./media/Existing-entities-to-PD-solution.png)
  
  ![Entities Added] (./sales/media/solution-component-selection.png)
 
-**Note** 
-Make sure to include all forms and views for each of the entities selected.
+**Note** Make sure to include all forms and views for each of the entities selected.
 
 4.	When prompted to include any dependent entities for the selected entities, select No.
 
