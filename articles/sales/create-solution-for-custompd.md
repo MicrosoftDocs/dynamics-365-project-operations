@@ -1,6 +1,6 @@
 --- 
 
-title: <Topic title> 
+title: Create a solution for custom pricing dimensions 
 description:  Create a solution for custom pricing dimension
 author: Rumant
 manager: tfehr 
@@ -21,7 +21,7 @@ ms.author: rumant
 1.	Select Settings > Solutions, and then select New.
 2.	Name the solution, <your organization name> pricing dimensions, enter the remaining required information, and then select Save.
 
-![Creation of custom pricing dimension solution] (./media/Creation-of-custom-pricing-dimension-solution.png)
+! [Creation of custom pricing dimension solution] (./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## Add all required entities and related components to the Pricing dimension solution
 You will need to add the following Project Service entities to your pricing solution. Complete the steps in this procedure to make some important schema changes in the pricing solution so that the entities become aware of the new pricing dimensions.
@@ -52,14 +52,14 @@ You will need to add the following Project Service entities to your pricing solu
       
       •	Time Entry
  
- ![Add existing entities custom pricing dimension solution] (./media/Existing-entities-to-PD-solution.png)
+ ! [Add existing entities custom pricing dimension solution] (./media/Existing-entities-to-PD-solution.png)
  
- ![Entities Added] (./sales/media/solution-component-selection.png)
+ ! [Entities Added] (./sales/media/solution-component-selection.png)
 
 **Note** Make sure to include all forms and views for each of the entities selected.
 
 4.	When prompted to include any dependent entities for the selected entities, select No.
 
-![Entities Added] (./media/Do-not-include-required.png)
+! [Entities Added] (./media/Do-not-include-required.png)
  
 
