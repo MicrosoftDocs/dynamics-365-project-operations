@@ -54,7 +54,9 @@ You will need to add the following Project Service entities to your pricing solu
  
  ! [Add existing entities custom pricing dimension solution] (./media/Existing-entities-to-PD-solution.png)
  
- ! [Entities Added] (./sales/media/solution-component-selection.png)
+ 
+ ! [Entities Added] (./media/solution-component-selection.png)
+ 
 
 **Note** Make sure to include all forms and views for each of the entities selected.
 
