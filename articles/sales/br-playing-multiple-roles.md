@@ -11,7 +11,7 @@ ms.author: rumant
 
 --- 
 
-# Estimate project sales and costs when a bookable resource fills mulitple roles on a project 
+# Estimate project sales and costs when a bookable resource plays mulitple roles on a project 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
 
