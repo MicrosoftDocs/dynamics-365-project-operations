@@ -28,6 +28,7 @@ You will need to add the following Project Service entities to your pricing solu
 1.	Select Settings > Solutions, and then double-click <your organization name> pricing dimensions.
 2.	In Solution Explorer, on the left navigation pane, select Add Existing > Entities.
 3.	In the Solution Components dialog box, select the following entities:
+ 
       •	Actual
  
       •	Bookable Resource
