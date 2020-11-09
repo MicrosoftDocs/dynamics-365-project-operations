@@ -16,7 +16,7 @@ ms.author: rumant
  _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
 
 > [!IMPORTANT]
-> All custom pricing dimension changes should be in a separate solution. This important best practice provides flexibility to update or remove changes as needed, helps with re-use of your work, and makes it easier to port changes to other instances. After you make the required changes, export this solution as a **Managed** solution, and then import into other instances for reuse.
+> All custom pricing dimension changes should be in a separate solution. This important best practice allows the flexibility to update or remove changes as needed, helps with re-use of your work, and makes it easier to port changes to other instances. After you make the required changes, export this solution as a **Managed** solution, and then import into other instances for reuse.
 
 ## Create a solution for custom pricing dimensions
 
@@ -50,13 +50,11 @@ Add the following Project Service entities to your pricing solution to make impo
   ![Add existing entities custom pricing dimension solution](./media/Existing-entities-to-PD-solution.png)
  
  
-  ![Entities Added](./media/solution-component-selection.png)
+  ![Entities added](./media/solution-component-selection.png)
 
 > [!NOTE]
 > Include all forms and views for each of the selected entities.
 
-4.	When prompted to include any dependent entities for the selected entities, select **No, do no include required components.**
+4.	When prompted to include any dependent entities for the selected entities, select **No, do not include required components.**
 
-  ![Entities Added](./media/Do-not-include-required.png)
- 
-
+  ![Entities added](./media/Do-not-include-required.png)
