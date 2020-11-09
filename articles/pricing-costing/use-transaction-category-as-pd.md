@@ -1,5 +1,5 @@
 --- 
-title: Use the Transaction Category as a pricing dimension
+title: Use Transaction Category as a pricing dimension
 description:  This topic provides information about how to use the Transaction Category field as a pricing dimension.
 author:  rumant
 manager: tfehr 
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant 
 --- 
 
-# Use the Transaction Category field as a pricing dimension
+# Use Transaction Category as a pricing dimension
 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
@@ -22,9 +22,9 @@ This topic explains how to use the **Transaction Category** field as a pricing d
 Before you complete the procedures in this topic, you must have a new pricing dimension solution for your organization. If you haven't already created one, see [Create custom fields and entities as pricing dimensions](create-custom-fields-entities-pricing-dimensions.md).
 
 ## Add the Transaction Category field to forms and views
-To make the **Transaction Category** field visible in the pricing dimension solution, you need to add the field to all the forms and views an entity.
+To make the **Transaction Category** field visible in the pricing dimension solution, you need to add the field to all the forms and views as an entity.
 
-The following table lists all of the out-of-the box forms and views, by entity. You will also need to add the new field to any additional views or forms in your customized entities.
+The following table lists all of the out-of-the box forms and views, by entity. You will also need to add the new field to any additional forms or views in your customized entities.
 
 |  Entity        | Forms     |Views        |
 | ------------------------------|---------------------------------|----------------------------------|
@@ -37,11 +37,11 @@ The following table lists all of the out-of-the box forms and views, by entity. 
 |  Time Entry|- Information<br>- Create Time Entry|- My Time Entries By Date<br>- My Time Entries for this Week<br>- Time entries for Approval|
 |  Journal Line|- Information<br>- Quick Create|- Active Journal Lines<br>- Journal Line Associated|
 |  Invoice Line Detail|- Information<br>- Quick Create|- Active Invoice Line Details<br>- Chargeable Invoice Transactions<br>- Complimentary Invoice Transactions<br>- Invoice Line Detail Associated <br>- Non-Chargeable Invoice Transactions|
-|  Actual|- Information<br>- Active aActuals| Actual Associated |
+|  Actual|- Information<br>- Active Actuals| Actual Associated |
 
 ## Set up the Transaction Category field as a pricing dimension
 
 1. Go to **Settings** > **Parameters**. 
 2. On the **Parameters** page, on the **Amount-Based Pricing Dimensions** tab, verify that the grid shows the records in the **Pricing Dimensions** entity.
 3. Add **Transaction Category** to this list and set the **Applicable to Cost** and **Applicable to Sale** fields to **Yes**.
-4. In the **Dimension Type** field, select **Amount-based**, and then select the priority for **Transaction Category** related to cost and sales.
+4. In the **Dimension Type** field, select **Amount-based**, and then select the priority for **Transaction Category** as it relates to cost and sales.
