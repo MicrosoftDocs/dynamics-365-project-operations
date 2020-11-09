@@ -688,7 +688,7 @@
       href: pro/proforma-invoicing/corrective-invoices-sales.md
     - name: Configure automatic invoice creation - lite
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
-- name: Project Operations for Stocked/Production-based scenarios
+- name: Project Operations for stocked/production-based scenarios
   items: 
   - name: What's new
     items:
