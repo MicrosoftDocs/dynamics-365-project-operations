@@ -49,13 +49,13 @@ Add the following Project Service entities to your pricing solution to make impo
  
   ![Add existing entities custom pricing dimension solution](./media/Existing-entities-to-PD-solution.png)
  
- For each entity, review the components being added and also review the final list of entity assets for each entity. 
- 
-  ![Entities added](./media/solution-component-selection.png)
-
+ 4. For each entity, review the components being added and also review the final list of entity assets for each entity. 
 > [!NOTE]
 > Include all forms and views for each of the selected entities.
 
-4.	When prompted to include any dependent entities for the selected entities, select **No, do not include required components.**
+![Entities added](./media/solution-component-selection.png)
+
+
+5.	When prompted to include any dependent entities for the selected entities, select **No, do not include required components.**
 
   ![Entities added](./media/Do-not-include-required.png)
