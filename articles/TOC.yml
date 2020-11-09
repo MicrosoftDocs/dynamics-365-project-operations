@@ -330,6 +330,10 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
+    - name: Developer notes
+      items:
+      - name: Developer notes for Approvals
+        href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
     - name: Actuals overview
@@ -662,6 +666,10 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
+    - name: Developer notes
+      items:
+      - name: Developer notes for Approvals
+        href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
     - name: Actuals overview
