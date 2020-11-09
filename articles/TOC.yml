@@ -24,9 +24,9 @@
         href: environment/resource-add-azure-subscription-lcs-project.md 
     - name: Apply demo data
       items:
-      - name: Apply demo data to a Finance Cloud-hosted environment
+      - name: Apply demo data to a Finance cloud-hosted environment
         href: environment/resource-apply-finance-demo-data.md
-      - name: Apply configuration data in the Common Data Service 
+      - name: Apply configuration data in Common Data Service 
         href: environment/resource-apply-pro-setup-config-data.md
     - name: Deploy environments
       items:
@@ -40,9 +40,9 @@
     items:
     - name: November 2020 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-nov-2020-resource-based.md
-  - name: Project Sales process
+  - name: Project sales process
     items:
-    - name: Project Sales process overview
+    - name: Project sales process overview
       href: sales/sales-overview.md
     - name: Setup
       items:
@@ -56,9 +56,9 @@
       href: sales/manage-leads.md
     - name: Manage project opportunities
       items:
-      - name: Manage project opportunities - Overview
+      - name: Manage project opportunities overview
         href: sales/manage-project-based-opportunities.md
-      - name: General Information on a Project Opportunity 
+      - name: Project-based opportunity settings
         href: sales/opportunity-header.md
       - name: Project-based opportunity lines
         href: sales/project-based-lines.md
@@ -66,15 +66,15 @@
         href: sales/link-quotes-opportunities.md
       - name: Copy project-based opportunities
         href: sales/copy-project-based-opportunity.md
-      - name: Close a Project opportunity
+      - name: Close a project opportunity
         href: sales/close-opportunity.md
     - name: Manage project quotes
       items:
-      - name: Manage project quotes - Overview
+      - name: Manage project quotes overview
         href: pro/sales/manage-quotes-sales.md
-      - name: Project Quotes - Key concepts
+      - name: Project quotes concepts
         href: sales/quotes-key-concepts.md
-      - name: General Information on a Project Quote
+      - name: Project quotes settings
         href: sales/quote-values-budget-limits-contract.md
       - name: Manage multiple customers on a project quote
         href: sales/manage-multiple-customers-quote.md
@@ -96,15 +96,15 @@
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project quotes
         href: sales/lose-quote.md
-      - name: Close a project quote
+      - name: Close project quotes
         href: sales/win-quote.md
     - name: Manage project contracts
       items:
-      - name: Manage project contracts - Overview
+      - name: Manage project contracts overview
         href: pro/sales/manage-contracts-sales.md
-      - name: Project contracts - Key concepts
+      - name: Project contracts concepts
         href: sales/contracts-key-concepts.md
-      - name: General Information on a Project Contract
+      - name: Project contract settings
         href: sales/project-contract-settings.md
       - name: Manage project price lists on project contracts
         href: sales/contracts-manage-project-price-lists.md
@@ -112,7 +112,7 @@
         href: sales/contracts-manage-project-price-lists.md
       - name: Project-based contract lines
         items: 
-        - name: Project-based contract lines - Overview
+        - name: Project-based contract lines overview
           href: sales/manage-contract-values-project-based.md
         - name: Manage multiple customers on project-based contract lines
           href: sales/manage-multiple-customers-contract-line.md
@@ -148,7 +148,7 @@
         href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Resolving cost prices for estimates and actuals
+      - name: Resolve cost prices for estimates and actuals
         href: pricing-costing/cost-price-resolution.md
       - name: Resolve sales prices for estimates and actuals
         href: pricing-costing/sales-price-resolution.md
@@ -178,7 +178,7 @@
       href: project-management/project-management-overview.md
     - name: Project stages
       href: project-management/project-stages.md
-    - name: Navigating the UI
+    - name: Navigate the user interface
       href: project-management/navigate-ui.md
     - name: Understand project status
       href: project-management/understand-project-status.md
@@ -224,7 +224,7 @@
     items: 
     - name: Key concepts
       href: resource-management/resource-management-key-concepts.md
-    - name: Bookings vs Assignments
+    - name: Bookings vs. assignments
       href: resource-management/booking-vs-assignment.md
     - name: Resource management modes overview
       href: resource-management/resource-management-mode-overview.md
@@ -244,7 +244,7 @@
         href: resource-management/review-proposed-resources.md
     - name: Decentralized resource booking (hybrid)
       items:
-      - name: Add team members from the Team member grid
+      - name: Add team members from the Team Member grid
         href: resource-management/add-team-members-grid.md
       - name: Generic resource requirement fulfillment
         href: resource-management/generic-resource-requirement-fulfillment.md
@@ -274,7 +274,7 @@
       href: time/time-entry-overview.md
     - name: Create time entries
       items: 
-      - name: Time entry user interface behavior
+      - name: Time entry user interface
         href: time/ui-behavior-time.md
     - name: Developer notes
       items: 
@@ -352,7 +352,7 @@
       href: proforma-invoicing/manage-proforma-invoice.md
     - name: Confirm a proforma project invoice
       href: proforma-invoicing/confirm-proforma-invoice.md
-    - name: Configure automatic project invoice creation
+    - name: Configure project invoice automation
       href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
     items:
@@ -384,9 +384,9 @@
     items: 
     - name: What's new November 2020 - lite deployment - deal to proforma invoicing
       href: pro/whats-new/whats-new-nov-2020-lite.md
-  - name: Project Sales process
+  - name: Project sales process
     items:
-    - name: Overview
+    - name: Project sales process overview
       href: sales/sales-overview.md
     - name: Setup
       items: 
@@ -396,31 +396,31 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
-    - name: Managing project leads 
+    - name: Manage project leads 
       href: pro/sales/managing-leads-sales.md
-    - name: Managing project opportunities
+    - name: Manage project opportunities
       items: 
-      - name: Project opportunities - Overview
+      - name: Project opportunities overview
         href: sales/manage-project-based-opportunities.md
-      - name: Summary Information on a Project Opportunity 
+      - name: Project opportunity settings
         href: pro/sales/opportunity-header-sales.md
-      - name: Manage Product-based opportunity lines
+      - name: Manage product-based opportunity lines
         href: pro/sales/product-based-lines-sales.md
-      - name: Manage Project-based opportunity lines  
+      - name: Manage project-based opportunity lines  
         href: pro/sales/project-based-lines-sales.md
       - name: Create quotes from project opportunities
         href: sales/link-quotes-opportunities.md
       - name: Copy project-based opportunities
         href: sales/copy-project-based-opportunity.md
-      - name: Close a Project opportunity 
+      - name: Close a project opportunity 
         href: sales/close-opportunity.md
     - name: Manage project-based quotes
       items:
-      - name: Overview of project-based quotes 
+      - name: Project-based quotes overview
         href: pro/sales/manage-quotes-sales.md
-      - name: Key concepts of a project quote
+      - name: Project quote concepts
         href: pro/sales/quotes-key-concepts-sales.md
-      - name: Summary information on a project quote 
+      - name: Project quote settings
         href: pro/sales/quote-values-budget-limits-contract-sales.md
       - name: Multiple customers on project quotes
         href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -428,7 +428,7 @@
         href: pro/sales/manage-project-price-lists-sales.md
       - name: Product-based quote lines
         items: 
-        - name: Overview of Product-based quote lines 
+        - name: Product-based quote lines overvoew
           href: pro/sales/product-based-quote-lines-sales.md
         - name: Costing product-based quote lines
           href: pro/sales/costing-product-based-quote-lines-sales.md
@@ -436,7 +436,7 @@
           href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
       - name: Project-based quote lines
         items:
-        - name: Overview of Project-based quote lines 
+        - name: Project-based quote lines overview
           href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
         - name: Manage multiple customers  
           href: pro/sales/manage-multiple-customers-quote-line-sales.md
@@ -448,7 +448,7 @@
           href: pro/sales/create-estimate-quote-line-sales.md
         - name: Import estimation from a project 
           href: pro/sales/import-estimate-project-quote-sales.md
-        - name: Manage Invoice schedules 
+        - name: Manage invoice schedules 
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project-based quotes
         href: sales/lose-quote.md
@@ -456,11 +456,11 @@
         href: pro/sales/win-quote-sales.md
     - name: Manage project-based contracts
       items: 
-      - name: Overview of project-based contracts 
+      - name: Project-based contracts overview
         href: pro/sales/manage-contracts-sales.md
-      - name: Key Concepts of a Project contract 
+      - name: Project contract concepts
         href: pro/sales/contracts-key-concepts-sales.md
-      - name: Summary Information on a project contract
+      - name: Project contract settings
         href: pro/sales/project-contract-settings-sales.md
       - name: Multiple customers on project contracts
         href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -468,7 +468,7 @@
         href: sales/contracts-manage-project-price-lists.md
       - name: Product-based contract lines
         items: 
-        - name: Overview of Product-based contract lines 
+        - name: Product-based contract lines overview
           href: pro/sales/product-based-contract-lines-overview-sales.md
         - name: Costing product-based contract lines
           href: pro/sales/cost-product-based-contract-lines-sales.md
@@ -476,7 +476,7 @@
           href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
       - name: Project-based contract lines
         items: 
-        - name: Overview of project-based contract lines
+        - name: Project-based contract lines overview
           href: pro/sales/manage-contract-values-project-based-sales.md
         - name: Manage multiple contract customers 
           href: pro/sales/manage-multiple-customers-contract-line-sales.md
@@ -484,15 +484,15 @@
           href: pro/sales/mapping-projects-tasks-contract-line-sales.md
         - name: Configure chargeable components on a project contract line 
           href: pro/sales/configure-chargeable-components-contract-line.md
-        - name: Estimating a project-based contract line
+        - name: Estimate a project-based contract line
           href: pro/sales/create-estimate-project-contract-line-sales.md
         - name: Import estimates from a project to a project contract line 
           href: pro/sales/import-estimate-project-contract-line-sales.md
         - name: Manage invoice schedules on a project contract line 
           href: pro/sales/invoice-schedules-contract-line-sales.md
-      - name: Copying project contracts 
+      - name: Copy project contracts 
         href: pro/sales/copy-project-contracts-sales.md
-      - name: Confirming a project contract
+      - name: Confirm a project contract
         href: pro/sales/confirm-contract-sales.md
       - name: Advances and retainers
         items: 
@@ -500,7 +500,7 @@
           href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
         - name: Set up a retainer schedule - lite
           href: pro/sales/set-up-schedule-retainers-sales.md
-        - name: Creating an ad hoc advance on a contract - lite
+        - name: Create an ad hoc advance on a contract - lite
           href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
@@ -596,7 +596,7 @@
     items: 
     - name: Key concepts
       href: resource-management/resource-management-key-concepts.md
-    - name: Bookings vs Assignments
+    - name: Bookings vs. assignments
       href: resource-management/booking-vs-assignment.md
     - name: Resource management modes overview
       href: resource-management/resource-management-mode-overview.md
@@ -616,7 +616,7 @@
         href: resource-management/review-proposed-resources.md
     - name: Decentralized resource booking (hybrid)
       items:
-      - name: Add team members from the Team member grid
+      - name: Add team members from the Team Member grid
         href: resource-management/add-team-members-grid.md
       - name: Generic resource requirement fulfillment
         href: resource-management/generic-resource-requirement-fulfillment.md
@@ -626,7 +626,7 @@
         href: resource-management/define-skills-proficiencies.md
       - name: Define resource calendars
         href: resource-management/define-resource-calendars.md
-    - name: Booking allocation methods
+    - name: Book allocation methods
       href: resource-management/booking-allocation-methods.md  
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
@@ -646,7 +646,7 @@
       href: time/time-entry-overview.md
     - name: Create time entries
       items: 
-      - name: Time entry user interface behavior
+      - name: Time entry user interface 
         href: time/ui-behavior-time.md
     - name: Developer notes
       items: 
@@ -672,21 +672,21 @@
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
     items:
-    - name: Managing project billing backlog
+    - name: Manage project billing backlog
       href: pro/proforma-invoicing/manage-billing-backlog-sales.md
-    - name: Managing not-to-exceed status and validations
+    - name: Manage not-to-exceed status and validations
       href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-    - name: Manual creation of a proforma project invoice 
+    - name: Create a proforma project invoice manually
       href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-    - name: Managing a proforma project invoice 
+    - name: Manage a proforma project invoice 
       href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
     - name: Invoice a retainer or an advance
       href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-    - name: Confirming a proforma project invoice
+    - name: Confirm a proforma project invoice
       href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
-    - name: Creation corrective project invoices 
+    - name: Create corrective project invoices 
       href: pro/proforma-invoicing/corrective-invoices-sales.md
-    - name: Configuring automatic project invoice creation
+    - name: Configure project invoice automation
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
 - name: Project Operations for Stocked/Production-based scenarios
   items: 
@@ -958,7 +958,7 @@
         href: psa/basic-business-transactions.md
       - name: Estimates
         href: psa/estimates.md
-      - name: Analyzing project quotes
+      - name: Analyze project quotes
         href: psa/basic-analyzing-quotes.md
       - name: Recall previously approved time or expense entries
         href: psa/recall-approved.md
@@ -1004,13 +1004,13 @@
         href: psa/manage-resources.md
       - name: Key concepts
         href: psa/reports-key-concepts.md
-      - name: Fulfilling resource requests
+      - name: Fulfill resource requests
         href: psa/resource-management-fulfill-requests.md
-      - name: Proposing resources
+      - name: Propose resources
         href: psa/resource-management-propose-resources.md
-      - name: Booking resources
+      - name: Book resources
         href: psa/resource-management-book-resources-scheduleboard.md
-      - name: Booking allocation methods
+      - name: Book allocation methods
         href: psa/FAQ-allocation-methods.md
       - name: Soft-book requirements
         href: psa/resource-management-softbook-requirements.md
@@ -1028,7 +1028,7 @@
         href: psa/reports-reporting-dynamics-365-project-service.md
       - name: Dashboards
         href: psa/reports-dashboards.md
-      - name: Working with the Project Service Automation data model
+      - name: Project Service Automation data model
         href: psa/reports-working-project-service-data-model.md
     - name: Time entries
       items:
@@ -1202,7 +1202,7 @@
         href: psa/allow-someone-else-enter-time-entry-expense.md
       - name: Schedule time off
         href: psa/schedule-time-off.md
-      - name: Collaborate using Office 365 Groups]
+      - name: Collaborate using Office 365 Groups
         href: psa/collaborate-project-team-members-office-365-groups.md
       - name: Find projects with Project Finder mobile
         href: psa/find-next-project-finder-mobile-app.md
