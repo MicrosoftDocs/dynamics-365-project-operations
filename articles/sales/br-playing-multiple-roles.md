@@ -26,26 +26,29 @@ Create two project tasks, **Task A** and **Task B**. Each task should be for 40 
 ## Set up the role and organization unit for a generic project team member
 
 1. On the **Tasks** page, select the **Task** row for **Task A**. 
-2. In the **Assigned To** field, select **Add generic resource**. This opens the Team member Quick create page from the right.
+2. In the **Assigned To** field, select **Add generic resource**. This opens the **Team Member Quick Create** page.
 3. On the **Team Member Quick Create** page, specify the attributes of the generic team member who can perform this task.
 4. Select the appropriate role and organizational unit, and then select **Save and Close**. A generic team member is created and assigned to this task. 
 5. Repeat steps 1 - 4 for **Task B**. Hoever, **Task B** must have a different role and organizational unit assigned for the generic team member than **Task A** does. 
 
 ## Set up the role and organization unit for a project task
 
-1. After you create **Task A**, select the task, and then select the "i" icon to open task details pane on the right. On the task details pane, scroll to the bottom and click on the button "View details" to open the Task details page.
-2. On the **Task Details** page, in the **Role** and **Organizational Unit** fields, add the values for that resource that are required to perform this task. 
+1. After you create **Task A**, select the task, and then select the **i** icon to open the **Task Details** pane. 
+2. On the **Task Details** pane, scroll to the bottom and select **View Details** to open the **Task Details** page.
+3. On the **Task Details** page, in the **Role** and **Organizational Unit** fields, add the values that are required to perform this task for the resource. 
 
   > [!NOTE]
-  > If you complete this scenario using Project Operations setup and config demo data, select **Consulting Lead** for the role, and **Fabrikam US** as the organizational unit.
+  > If you complete this scenario using the Dynamics 365 Project Operations setup and config demo data, select **Consulting Lead** for the role, and **Fabrikam US** as the organizational unit.
 
-3. Select **Task B**, and then select the task, and then select the "i" icon to open task details pane on the right. On the task details pane, scroll to the bottom and click on the button "View details" to open the Task details page.
-4. On the **Task Details** page, in the **Role** and **Organizational Unit** fields, add the values that are required of a resource that would perform this task. The values in the **Role** and **Organizational Unit** fields for **Task B** must be different than those for **Task A**. 
+4. Select **Task B**, and then select the task.
+5. Select the **i** icon to open **Task Details** pane. 
+6. On the **Task Details** pane, scroll to the bottom and select **View details** to open the **Task Details** page.
+7. On the **Task Details** page, in the **Role** and **Organizational Unit** fields, add the values that are required of a resource that would perform this task. The values in the **Role** and **Organizational Unit** fields for **Task B** must be different than those for **Task A**. 
 
   > [!NOTE]
   > If you are completing this scenarios using Project Operations setup and config demo data, select **Network Technician** for the role, and **Fabrikam US** as the organizational unit.
 
-5. Save and close the **Task Details** page. 
+8. Save and close the **Task Details** page. 
 
 ## Team member and estimates behavior 
 
