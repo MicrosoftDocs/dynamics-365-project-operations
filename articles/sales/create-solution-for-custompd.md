@@ -59,4 +59,4 @@ Add the following Project Service entities to your pricing solution to make impo
 
 5.	When prompted to include any dependent entities for the selected entities, select **No, do not include required components.**
 
-    ![Entities added](./media/Do-not-include-required.png)
+    ![Including dependent entities](./media/Do-not-include-required.png)
