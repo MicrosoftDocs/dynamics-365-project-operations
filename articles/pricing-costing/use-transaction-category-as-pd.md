@@ -13,7 +13,7 @@ ms.author: rumant
 # Use Transaction Category as a pricing dimension
 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
 This topic explains how to use the **Transaction Category** field as a pricing dimension. 
