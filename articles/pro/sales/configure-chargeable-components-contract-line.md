@@ -29,7 +29,7 @@ A subset of the included components can be marked as chargeable using the **Bill
 
 Chargeable components can be defined on tasks, roles, and transaction categories.
 
-Chargeability is defined on tasks for a project contract line and applies to all transaction classes included on the line. If the **Include Tasks** field on a contract line is blank or set to **Entire project*, the **Chargeable tasks** tab will not be available.
+Chargeability is defined on tasks for a project contract line and applies to all transaction classes included on the line. If the **Include Tasks** field on a contract line is blank or set to **Entire project**, the **Chargeable tasks** tab will not be available.
 
 Chargeability defined on roles for a project contract line only applies to the **Time** transaction class. If the **Include Time** field on a contract line is set to **No**, the **Chargeable roles** tab will not be available.
 
