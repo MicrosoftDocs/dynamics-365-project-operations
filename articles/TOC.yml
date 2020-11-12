@@ -250,12 +250,18 @@
         href: resource-management/generic-resource-requirement-fulfillment.md
     - name: Administration of resources
       items: 
+      - name: Create resources
+        href: resource-management/create-resources.md
       - name: Define skills and proficiencies
         href: resource-management/define-skills-proficiencies.md
+      - name: Define roles
+        href: resource-management/define-roles.md
       - name: Define resource calendars
         href: resource-management/define-resource-calendars.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
+    - name: Booking statuses
+      href: resource-management/booking-status.md
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
@@ -626,12 +632,18 @@
         href: resource-management/generic-resource-requirement-fulfillment.md
     - name: Administration of resources
       items: 
+      - name: Create resources
+        href: resource-management/create-resources.md
       - name: Define skills and proficiencies
         href: resource-management/define-skills-proficiencies.md
+      - name: Define roles
+        href: resource-management/define-roles.md
       - name: Define resource calendars
         href: resource-management/define-resource-calendars.md
     - name: Book allocation methods
       href: resource-management/booking-allocation-methods.md  
+    - name: Booking statuses
+      href: resource-management/booking-status.md
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
