@@ -3,7 +3,7 @@ title: Estimate project sales and costs when a bookable resource fills multiple 
 description: This topic explains how to use pricing dimensions to support pricing and costing estimates for a resource that fills multiple roles on a project.
 author:  rumant
 manager: tfehr 
-ms.date: 11/09/2020  
+ms.date: 11/12/2020  
 ms.topic: article 
 ms.service: project-operations 
 ms.reviewer: kfend 
@@ -21,40 +21,39 @@ The following example walks you through how the simple override of a value allow
 
 ## Create tasks
 
-**Add tasks and summary tasks**
+### Add tasks and summary tasks
 
-1. Select  **Add new task**  and type a task name. Then press  **Enter**.
-2. Type another task name and press  **Enter**  again until you have a full list of tasks.
-3. To indent tasks under summary tasks, select the three vertical dots by the task name and choose  **Make subtask**. Tips:
-  - To select more than one task, select a task, press and hold Ctrl, and then select another task.
-  - You can also choose  **Promote subtask**  to move tasks out from under summary tasks.
+1. Go to **Projects** and open the project to which you want to add tasks.
+2. Select **Add new task**, name the task, and then press Enter.
+3. Enter another task name and press **Enter**. Repeat this until you have a full list of tasks.
+3. To indent tasks under Summary tasks, select the three vertical dots by the task name, and then select **Make subtask**. 
 
-**Assign tasks**
+  > [!TIP]
+  > To select more than one task, select a task, press and hold Ctrl, and then select another task.
+  >
+  > You can also choose **Promote subtask** to move tasks out from under Summary tasks.
 
-To assign a task:
+### Assign tasks
+
+Complete the following steps to assign tasks.
 
 1. In the  **Assigned to**  column for a task, select the person icon.
 2. Choose a team member from the list or enter text to search for one.
 
-**Add duration and columns**
+### Add task duration and columns
 
-It&#39;s often easiest to begin constructing your project with duration.
+It's often easiest to begin constructing your project with duration. Complete the following steps to add a task duration.
 
-1. In the  **Duration**  column for a task, type the number of days you think it will take to accomplish.
+1. In the **Duration** column for a task, type the number of days you think it will take to accomplish the task. If you want to use a different unit of time, enter a number plus the word **hours**, **weeks**, or **months**.
+2. If you want your task to appear as a diamond-shaped milestone in the **Timeline** view, in the **Duration** column, enter **0 days** .
+3. Press **Enter**  to go to the next task's **Duration** field and continue entering durations.
 
-If you want to use a different unit of time, enter a number plus the word  **hours** ,  **weeks** , or  **months**.
+  > [!NOTE]
+  > You can't enter a duration for summary tasks.
 
-If you want your task to appear as a diamond-shaped milestone   in  **Timeline**  view, type  **0 days**  in the  **Duration**  column.
+You can add columns to your project which will provide more details by selecting **Add column**. 
 
-1. Press  **Enter**  to go to the next task&#39;s  **Duration**  field and continue entering durations.
-
-**Note:**  You can&#39;t enter duration for summary tasks.
-
-You can continue to add more details to your project by adding columns.
-
-- Beside the  **Duration**  column header, choose  **Add Column**. 
-
-For more, see: https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749
+For more information, see [Create a project](https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749).
 
 ## Set up the role and organization unit for a generic project team member
 
