@@ -53,8 +53,8 @@ Create two project tasks, **Task A** and **Task B**. Each task should be for 40 
 ## Team member and estimates behavior 
 
 1. On the **Team Member** grid, select the two generic team members, and then select **Generate Requirements**. This will generate resource requirements. 
-2. Select the team member row for **Consulting Lead**, and then select **Book**. The schedule board opens and books a resource to that requirement.
-3. Select the team member row for **Network Technician**, and then select **Book**. The schedule board opens and books the same resource on that requirement.
+2. Select the team member row for **Consulting Lead**, and then select **Book**. The schedule board opens with a list of resources. Select a resource and click on **Book** to book the resource to that requirement.
+3. Select the team member row for **Network Technician**, and then select **Book**. The schedule board opens with a list of resources. Select the same resource as above and click on **Book** to book the resource to that requirement.
 
 ### Team Member grid 
 
