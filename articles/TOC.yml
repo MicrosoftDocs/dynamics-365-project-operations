@@ -250,6 +250,8 @@
         href: resource-management/generic-resource-requirement-fulfillment.md
     - name: Administration of resources
       items: 
+      - name: Create resources
+        href: resource-management/create-resources.md
       - name: Define skills and proficiencies
         href: resource-management/define-skills-proficiencies.md
       - name: Define resource calendars
@@ -626,6 +628,8 @@
         href: resource-management/generic-resource-requirement-fulfillment.md
     - name: Administration of resources
       items: 
+      - name: Create resources
+        href: resource-management/create-resources.md
       - name: Define skills and proficiencies
         href: resource-management/define-skills-proficiencies.md
       - name: Define resource calendars
