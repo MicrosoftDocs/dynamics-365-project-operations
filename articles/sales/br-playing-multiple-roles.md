@@ -21,7 +21,38 @@ The following example walks you through how the simple override of a value allow
 
 ## Create tasks
 
-Create two project tasks, **Task A** and **Task B**. Each task should be for 40 hours. **Task A** should be set up as the predecessor to **Task B**. For help on how to create tasks refer this article: https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749
+**Add tasks and summary tasks**
+
+1. Select  **Add new task**  and type a task name. Then press  **Enter**.
+2. Type another task name and press  **Enter**  again until you have a full list of tasks.
+3. To indent tasks under summary tasks, select the three vertical dots by the task name and choose  **Make subtask**. Tips:
+  - To select more than one task, select a task, press and hold Ctrl, and then select another task.
+  - You can also choose  **Promote subtask**  to move tasks out from under summary tasks.
+
+**Assign tasks**
+
+To assign a task:
+
+1. In the  **Assigned to**  column for a task, select the person icon.
+2. Choose a team member from the list or enter text to search for one.
+
+**Add duration and columns**
+
+It&#39;s often easiest to begin constructing your project with duration.
+
+1. In the  **Duration**  column for a task, type the number of days you think it will take to accomplish.
+
+If you want to use a different unit of time, enter a number plus the word  **hours** ,  **weeks** , or  **months**.
+
+If you want your task to appear as a diamond-shaped milestone   in  **Timeline**  view, type  **0 days**  in the  **Duration**  column.
+
+1. Press  **Enter**  to go to the next task&#39;s  **Duration**  field and continue entering durations.
+
+**Note:**  You can&#39;t enter duration for summary tasks.
+
+You can continue to add more details to your project by adding columns.
+
+- Beside the  **Duration**  column header, choose  **Add Column**. https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749
 
 ## Set up the role and organization unit for a generic project team member
 
