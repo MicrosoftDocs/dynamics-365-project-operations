@@ -38,10 +38,6 @@ Complete the following steps any time that you want to create a custom option se
 > [!IMPORTANT]
 > We recommend that you make all custom pricing dimension changes in a separate solution. This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance. After you have made all of the required changes, export this solution as a **Managed solution** and import it into other instances to reuse your pricing setup.
 
-
-## Create a custom solution for pricing dimensions
-1. Go to **Settings** > **Solutions**, and then select **New** to create a new solution. 
-2. Name the solution, **\<your organization name> pricing dimensions**, enter the remaining required information, and then select **Save**.
   
 ## Create custom fields and option sets in the pricing dimension solution
 
@@ -54,10 +50,18 @@ A pricing dimension can be an option set or an entity. Both must be created in y
 3. Select **New** to create a new entity called **Standard Title**. 
 4. Enter the remaining required information, and then select **Save**.
 
+> ![Standard title entity definition](media/Standard-Title-entity-definition.png)
 
 ### Option set-based dimensions 
 You can create two option set-based dimensions. Use **Resource Work Location** to track the price of **Home** location work and **Onsite** work and use **Resource Work hours** with values **Regular** and **Overtime** to apply a markup when work is completed.
 
+Here is a view of the Resource Work Location dimension 
+
+> ![Option set based pricing dimension called Resource Work Location ](media/Option-set-PD-called-Resource-Work-Location.png)
+
+Here is a view of the Resource Work Hours dimension 
+
+> ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 1. Go to **Settings** > **Solutions**, and double-click  **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select  **Option Sets**. 
@@ -72,28 +76,6 @@ You can create data for entity-based dimensions manually, or by using Microsoft 
 3. Close the form. 
 4. Repeat steps 1 - 3 to create another standard title for "Senior Systems Engineer".
 
-## Add all required entities and related components to the Pricing Dimension Solution
-You will need to add the following entities to your pricing solution. Use the steps in this procedure to make some important schema changes in the pricing solution so that the entities become aware of the new pricing dimensions.
+> ![Sample Data for Standard Title entity ](media/ST-data.png)
 
-1. Select **Settings** > **Solutions**, and double-click **\<your organization name> pricing dimensions**. 
-2. In Solution Explorer, on the left navigation pane, select **Add Existing** > **Entities**.
-3. In the **Solution Components** dialog box, select the following entities:
-
-  - Actual
-  - Bookable Resource
-  - Estimate Line
-  - Invoice Line Detail
-  - Journal Line
-  - Project Contract Line Detail
-  - Project Team Member
-  - Quote Line Detail
-  - Role Price Markup
-  - Role Price 
-  - Time Entry 
-
-
-> [!NOTE]
-> Make sure to include all forms and views for each of the entities selected.
-
-4. When prompted to include any dependent entities for the entities selected above, select **No**.
 
