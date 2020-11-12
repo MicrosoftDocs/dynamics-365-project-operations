@@ -18,7 +18,7 @@ Project-based leads can be managed and qualified in Project Operations. The proc
 
 ## List of Project sales leads
 
-In the **Sales** section, in the left navigation pane, open the **Leads** list page to view a list of all lead records in the system. The list of leads shown are work-based and other types of leads that can be created if you also have the Dynamics 365 Sales or Dynamics 365 Field Service applications.
+In the **Sales** section, in the left navigation pane, open the **Leads** list page to view a list of all lead records in the system. The leads in the list are work-based and other types of leads that can be created if you also have the Dynamics 365 Sales or Dynamics 365 Field Service applications.
 
 You can create a filtered view to see only project-based leads by creating a filter on the **Type** value. For example, you can select to show only work-based leads.
 
@@ -48,9 +48,9 @@ Leads that have the **Type** value set to **Work-based** are called project-base
 
 - An account that uses the **Company** field from the lead.
 - A contact record associated to the account based on the values in the **First Name** and **Last Name** fields on the lead.
-- A project-based opportunity that has the **Type** field set to &quot;**Work-based**.
+- A project-based opportunity that has the **Type** field set to **Work-based**.
 
-For more detailed information on qualifying leads, see[Qualify or convert leads](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+For more detailed information on qualifying leads, see [Qualify or convert leads](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## Business process flow for project-based deals
 
