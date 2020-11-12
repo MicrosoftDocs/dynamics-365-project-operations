@@ -254,6 +254,8 @@
         href: resource-management/define-resource-calendars.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
+    - name: Booking statuses
+      href: resource-management/booking-status.md
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
@@ -628,6 +630,8 @@
         href: resource-management/define-resource-calendars.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
+    - name: Booking statuses
+      href: resource-management/booking-status.md
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Resource reconciliation
