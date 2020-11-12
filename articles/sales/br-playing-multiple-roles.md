@@ -52,7 +52,9 @@ If you want your task to appear as a diamond-shaped milestone   in  **Timeline**
 
 You can continue to add more details to your project by adding columns.
 
-- Beside the  **Duration**  column header, choose  **Add Column**. https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749
+- Beside the  **Duration**  column header, choose  **Add Column**. 
+
+For more, see: https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749
 
 ## Set up the role and organization unit for a generic project team member
 
