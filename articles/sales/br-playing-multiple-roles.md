@@ -21,7 +21,7 @@ The following example walks you through how the simple override of a value allow
 
 ## Create tasks
 
-Create two project tasks, **Task A** and **Task B**. Each task should be for 40 hours. **Task A** should be set up as the predecessor to **Task B**.
+Create two project tasks, **Task A** and **Task B**. Each task should be for 40 hours. **Task A** should be set up as the predecessor to **Task B**. For help on how to create tasks refer this article: https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749
 
 ## Set up the role and organization unit for a generic project team member
 
