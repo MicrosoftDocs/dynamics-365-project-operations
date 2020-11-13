@@ -33,7 +33,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Complete the following steps any time that you want to create a custom option set or entity.
+Complete the following steps when you want to create a custom option set or entity.
 
 > [!IMPORTANT]
 > We recommend that you make all custom pricing dimension changes in a separate solution. This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance. After you have made all of the required changes, export this solution as a **Managed solution** and import it into other instances to reuse your pricing setup.
@@ -53,7 +53,7 @@ A pricing dimension can be an option set or an entity. Both must be created in y
 > ![Standard title entity definition](media/Standard-Title-entity-definition.png)
 
 ### Option set-based dimensions 
-You can create two option set-based dimensions. Use **Resource Work Location** to track the price of **Home** location work and **Onsite** work and use **Resource Work hours** with values **Regular** and **Overtime** to apply a markup when work is completed.
+You can create two option set-based dimensions. Use **Resource Work Location** to track the price of **Home** location work and **Onsite** work. Use **Resource Work hours** with values **Regular** and **Overtime** to apply a markup when the work is complete.
 
 The following graphic provides a view of the **Resource Work Location** dimension: 
 
