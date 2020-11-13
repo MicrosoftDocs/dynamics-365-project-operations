@@ -109,7 +109,7 @@
       - name: Manage project price lists on project contracts
         href: sales/contracts-manage-project-price-lists.md
       - name: Manage multiple customers on project contracts
-        href: sales/contracts-manage-project-price-lists.md
+        href: sales/manage-multiple-customers-contract.md
       - name: Project-based contract lines
         items: 
         - name: Project-based contract lines overview
