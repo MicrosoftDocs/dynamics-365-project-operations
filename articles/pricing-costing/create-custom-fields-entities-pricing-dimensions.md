@@ -5,7 +5,7 @@ title: Create custom fields and entities as pricing dimensions
 description: This topic provides information about how to create custom option sets or entities.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: 
 ms.service: project-operations
@@ -55,13 +55,13 @@ A pricing dimension can be an option set or an entity. Both must be created in y
 ### Option set-based dimensions 
 You can create two option set-based dimensions. Use **Resource Work Location** to track the price of **Home** location work and **Onsite** work and use **Resource Work hours** with values **Regular** and **Overtime** to apply a markup when work is completed.
 
-Here is a view of the Resource Work Location dimension 
+The following graphic provides a view of the **Resource Work Location** dimension: 
 
 > ![Option set based pricing dimension called Resource Work Location ](media/Option-set-PD-called-Resource-Work-Location.png)
 
-Here is a view of the Resource Work Hours dimension 
+The following graphic provides a view of the **Resource Work Hours** dimension: 
 
-> ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Go to **Settings** > **Solutions**, and double-click  **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select  **Option Sets**. 
