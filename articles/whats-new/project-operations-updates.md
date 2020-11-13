@@ -47,7 +47,7 @@ Updates for Project Operations on CDS environment are available monthly.
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | Europe        |  4.4.0.70       | TBD     | 11-Dec-20           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | North America | 4.3.0.61        | 4.4.0.70     | 15-Nov-20           |
+|   &nbsp;  | North America |  4.4.0.70       | TBD     | 18-Dec-20           |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
