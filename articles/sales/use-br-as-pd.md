@@ -1,67 +1,75 @@
 --- 
 
-title: Use bookable resource as a pricing dimension
-description:  This topic provides information about using a bookable resource as a pricing dimension.
+title: Use a bookable resource as a pricing dimension
+description:  This topic provides information about how to use a bookable resource as a pricing dimension.
 author: Rumant
 manager: tfehr 
-ms.date: 11/09/2020  
+ms.date: 11/13/2020  
 ms.topic: article 
 ms.service: project-operations 
 ms.reviewer: kfend 
 ms.author: rumant 
 --- 
 
-# Use bookable resource as a pricing dimension
+# Use a bookable resource as a pricing dimension
 
  _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_ 
 
+This topic provides information about how to use a bookable resource as a pricing dimension. 
 
-# Use bookable resource as a pricing dimension
-This topic provides information about using a bookable resource as a pricing dimension. Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new pricing dimension solution for your organization, complete the procedures in the [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md) topic.
+## Prerequisites
+Before you complete the procedures in this topic, you must have a new pricing dimension solution for your organization. If you haven't already created one, see [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md).
 
-## Add bookable resource to forms and views
-To make the fields visible in the UI in the pricing dimension solution, you will need to walk through all of the forms and views of the key Project Service entities and add these fields to the forms and views of those entities.
-The following table is a comprehensive list of the out-of-the box forms and views, listed by entity, that will need to be updated. If there are any additional views or forms in your customizations on these entities, add the new fields to those as well.
-Open Solution Explorer for the pricing dimension solution and then click **Publish All Customizations**.
+## Add the Bookable Resource field to forms and views
+To make the **Bookable Resource** field visible in the pricing dimension solution, you need to add the field to all the forms and views as an entity.
 
+The following table lists all of the out-of-the box forms and views, by entity. You will also need to add the new field to any additional forms or views in your customized entities.
 
 |   Entity        | Forms   |Views        |
 | ------------------------------|---------------------------------|----------------------------------|
-|  Role Price|• Information |• Active Resource Category Prices<br> • Resource Category Price Associated View|
-|  Role Price Markup|• Information|• Active Role Price Markup<br>• Role Price Markup Associated View|
-|  Quote line detail|• Project Information<br>• Project Quick Create|• Active Quote Line Detail<br>• Combined Quote Line Details<br>• Quote Line Detail associated view|
-|  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Contract line Details<br>• Active Contract Line Details<br>• Contract Line Detail associated view|
-|  Project Task|• Information<br>• New Form||
-|  Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
-|  Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
-|  Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
-|  Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
-|  Actual|• Information<br>• Active Actuals|• Actual Associated view|
+|  Role Price| Information | - Active Resource Category Prices<br> - Resource Category Price Associated |
+|  Role Price Markup| Information| - Active Role Price Markup<br>- Role Price Markup Associated |
+|  Quote line detail| - Project Information<br>- Project Quick Create| - Active Quote Line Detail<br>- Combined Quote Line Details<br>- Quote Line Detail Associated |
+|  Project Contract line detail| - Project Information<br>- Project Quick Create| - Combined Contract Line Details<br>- Active Contract Line Details<br>- Contract Line Detail Associated |
+|  Project Task| - Information<br>- New Form| &nbsp; |
+|  Project Team Member| - Information<br>- New Form| - Active Project Team Members<br>- Project Team Members<br>- Project Team members Associated |
+|  Time Entry| - Information<br>- Create Time Entry| - My Time Entries By Date<br>- My Time Entries for this Week<br>- Time Entries for Approval|
+|  Journal Line| - Information<br>- Quick Create| - Active Journal Lines<br>- Journal Line Associated |
+|  Invoice Line Detail| - Information<br>- Quick Create| - Active Invoice Line Details<br>- Chargeable Invoice Transactions<br>- Complimentary Invoice Transactions<br>- Invoice Line Detail Associated <br>- Non-Chargeable Invoice Transactions|
+|  Actual| - Information<br>- Active Actuals| Actual Associated |
 
-## Set up bookable resource as a pricing dimension
+## Set up a bookable resource as a pricing dimension
 
-1. In the web interface, go to **Project Service** > **Settings** > **Parameters**. On the **Parameter** page, on the **Amount-Based Pricing Dimensions** tab, notice that the grid on the tab shows the records in the pricing dimensions entity. 
+1. Go to **Settings** > **Parameters**. 
+2. On the **Parameter** page, on the **Amount-Based Pricing Dimensions** tab, verify that the grid shows the records in the **Pricing Dimensions** entity. 
 2. Add **Bookable Resource** to this list of pricing dimensions as **msdyn_bookableresource**. 
-3. Indicate the context in which the bookable resource works as a pricing dimension and set the **Applicable to cost** and **Applicable to sales** values.
+3. In the **Applicable to cost** and **Applicable to sales** fields, select a value.
 4. In the **Dimension Type** field, select **Amount-based**. 
-5. Select the cost and sales priority for the bookable resource. Typically, when included as a pricing dimension, a bookable resource has the highest priority so setting this to **1** (or **0** depending on how you count the priority) would ensure that behavior.
+5. Select the cost and sales priority for the bookable resource. Typically, a bookable resource has the highest priority when included as a pricing dimension. Set the priority to **1** (or **0** depending on how you count the priority) to ensure this behavior.
 
 ## Set up pricing dimension field names
 
-When the field name of a pricing dimension in the **Role Price** table is different from its field name in any of the other entities where price defaulting needs to work, the pricing dimension record must be made aware of the different names.    
-For bookable resource, the **Project Team Members** entity has a slightly different field name (**msdyn_bookableresourceid**) from what it is called on the **Role price** entity (**msdyn_bookableresource**). The pricing dimension record for **msydn_bookableresource** must be made aware of this. 
-1. To do this, double-click the row in the **Pricing Dimensions** grid to open the dimension page of **msdyn_bookableresource**.
-2. On dimension page, on the **Related** tab, click **Pricing Dimension Field Names**.
+When the field name of a pricing dimension in the **Role Price** table is different from the field name in any of the other entities where price defaulting needs to work, the pricing dimension record must be made aware of the different names.    
+For a bookable resource, the **Project Team Members** entity has a slightly different field name from what it is called on the **Role Price** entity: . 
 
- ![Pricing dimension field names tab](media/PD-fieldname.png)
+ - **Project Team Members** entity = **msdyn_bookableresourceid**
+ - **Role Price** entity = **msdyn_bookableresource**
 
-4. On the associated view that opens, click **Add New Pricing Dimension Field Name**.
+The pricing dimension record for **msydn_bookableresource** must be made aware of this difference.
 
- ![Add New Pricing Dimension Field Names](media/Add-NewPD-fieldname.png)
+1. Double-click the row in the **Pricing Dimensions** grid to open the dimension page of **msdyn_bookableresource**.
+2. On dimension page, on the **Related** tab, select **Pricing Dimension Field Names**.
+
+  ![Pricing dimension field names tab](media/PD-fieldname.png)
+
+3. In the associated view that opens, select **Add New Pricing Dimension Field Name**.
+
+  ![Add New Pricing Dimension Field Names](media/Add-NewPD-fieldname.png)
 
 
-This opens the **New Pricing dimension field name** page for **msdyn_bookableresource**. 
+  This opens the **New Pricing dimension field name** page for **msdyn_bookableresource**. 
 
-5. Add **msdyn_projectteam** to the **Entity Locigal Name** field and **msdyn_bookableresourceid** to the **Field Name** field. Save the record.
+4. On the **New Pricing Dimension Field Name** page, add **msdyn_projectteam** to the **Entity Locigal Name** field.
+5. Add  **msdyn_bookableresourceid** to the **Field Name** field.
 
  ![New Pricing dimension field name form](media/PD-fieldname-Added.png)
