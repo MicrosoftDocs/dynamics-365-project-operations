@@ -1,4 +1,16 @@
-# Managing multiple customers on project Contracts
+---
+title: Managing multiple customers on project Contracts
+description: This topic provides information about how mulitple customers can be managed on a Project Contract.
+author: rumant
+manager: Annbe
+ms.date: 10/12/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend 
+ms.author: rumant
+---
+
+# Managing multiple customers on Project Contracts
 
 Project Contracts support the scenario where the contractual agreement involves multiple customers who will be funding the deal. The summary tab of the Contract has the &quot;Customer&quot; which identifies the Primary customer of the deal. Other customers for the deal can be setup on the Customers tab of the Project Contract.
 
