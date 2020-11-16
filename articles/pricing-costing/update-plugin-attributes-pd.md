@@ -3,7 +3,7 @@ title: Update plug-in attributes to include new pricing dimensions
 description: This topic provides information about how to update plug-in attributes for pricing dimensions.
 author: rumant
 manager: Annbe
-ms.date: 11/13/2020
+ms.date: 11/16/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -37,13 +37,13 @@ These are the plug-ins to update and re-register:
 
 Conmplete the following steps to update and re-register the plug-ins.
 
-1. Open the **PluginRegistrationTool** and connect to your Project Operations CDS Environment.
-2. Click **Search**, and type in the first few letters of the plug-in to be updated.
-3. After the plug-in is found, select it and then click **Select on Main Form**.
-4. Select the step **Update msdyn_orderlinetransaction** of the plug-in to be updated, right-click, and then select **Update**.
-5. In the update window, click the ellipsis (**...**) in the filtering attributes.
-6. The filtering attributes window will open and show a list of all attributes in the entity along with the pricing dimensions. Select the checkboxes for the pricing diemnsion attributes.
+1. Open the **PluginRegistrationTool** and connect to your Project Operations CDS environment.
+2. Select **Search**, and type in the first few letters of the plug-in to be updated.
+3. After the plug-in is found, select it, and then select **Select on Main Form**.
+4. Select the step **Update msdyn_orderlinetransaction**, right-click, and then select **Update**.
+5. In the **Update** dialog page, select the ellipsis (**...**) in the filtering attributes.
+6. The filtering attributes window opens and provides a list of all attributes in the entity and the pricing dimensions. Select the check boxes for the pricing diemnsion attributes.
 7. Click **OK** to close the page and then select **Update Step**.
-8. Repeat this process for the second plug-in, **PreOperationQuoteLineDetail** for the step **Update of msdyn_quotelinetransaction**.
-9. Close the PluginRegistrationTool.
+8. Repeat steps 2 - 7 for the second plug-in, **PreOperationQuoteLineDetail** updating the step, **Update of msdyn_quotelinetransaction**.
+9. Close the **PluginRegistrationTool**.
 
