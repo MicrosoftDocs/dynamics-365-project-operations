@@ -1,45 +1,43 @@
 ---
-title: Configure chargeable components of a project-based Quote line
+title: Configure the chargeable components of a project-based quote line
 description: This topic provides information about included, chargeable, and non-chargeable components on project-based quote lines.
 author: rumant
 manager: Annbe
-ms.date: 10/12/2020
+ms.date: 11/15/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
-ms.author: stsporen
+ms.author: rumant
 ---
 
-# Configure chargeable components of a project-based quote line
+# Configure the chargeable components of a project-based quote line
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-A project-based quote line has the concept of included components and chargeable components.
-Included components are all components that will be subject to the billing method and customer splits, not-to-exceed limits and invoice frequency settings defined on the project-based quote line.
-A sub-set of the included components can be marked as chargeable using the Billing Type field. Billing Type field is an option-set that allows the following values in the context of a quote line:
+A project-based quote line can have included components and chargeable components.
 
-•	Chargeable
+Included components are subject to the billing method, customer splits, not-to-exceed limits, and invoice frequency settings defined on the project-based quote line.
+A sub-set of the included components can be marked as chargeable by using the **Billing Type** field. You can select on of the following options in the **Billing Type** field in the context of a quote line:
 
-•	Non-chargeable
+   - Chargeable
+   - Non-chargeable
 
 Chargeable components can be defined on roles and transaction categories.
 
-Chargeability defined on Roles for a project quote line only applies to Time transaction class. If a project quote line has Include Time = No, then you will not see the tab for “Chargeable roles”.
+Chargeability that is defined on roles for a project quote line only applies to the **Time** transaction class. If a project quote line has **Include Time** = **No**, the **Chargeable Roles** tab isn't available.
 
-Chargeability defined on Transaction categories for a project quote line only applies to Expense transaction class. If a project quote line has Include Expenses = No, then you will not see the tab for “Chargeable Categories”.
+Chargeability that is defined on transaction categories for a project quote line only applies to the **Expense** transaction class. If a project quote line has **Include Expenses** = **No**, the **Chargeable Categories** tab isn't available.
 
-## Updating a Role to be chargeable or non-chargeable
-A role can be chargeable or non-chargeable in the context of a specific project-based quote line. 
-Billing type on a role can be configured on chargeable roles tab of a Project – based quote line by updating Billing type field on the Chargeable roles sub-grid. 
+## Update a role to be chargeable or non-chargeable
+A role can be chargeable or non-chargeable on a project-based quote line. The billing type on a role can be configured on the **Chargeable Roles** tab of a project-based quote line by updating **Billing Type** field on the **Chargeable Roles** subgrid. 
 
-## Updating a Transaction category to be chargeable or non-chargeable
-A transaction category can be chargeable or non-chargeable in the context of a specific project-based quote line. 
-Billing type on a transaction can be configured on chargeable categories tab of a Project – based quote line by updating Billing type field on the Chargeable categories sub-grid. 
+## Update a transaction category to be chargeable or non-chargeable
+A transaction category can be chargeable or non-chargeable on a project-based quote line. The billing type on a transaction can be configured on the **Chargeable Categories** tab of a project-based quote line by updating the **Billing Type** field on the **Chargeable Categories** sub-grid. 
 
-## Resolving chargeability
+## Resolve chargeability
 
-An estimate or actual created for time will only be considered Chargeable if time is included on the Quote line and if the Role is configured as Chargeable on the Quote line.
-An estimate or actual created for expense will only be considered Chargeable if Expense is included on the Quote line and if the Transaction category is configured as Chargeable on the Quote line.
+An estimate or actual created for time will only be considered chargeable if the time is included on the quote line and if the role is configured as chargeable.
+An estimate or actual created for an expense will only be considered chargeable if expense is included on the quote line and if the transaction category is configured as chargeable on the quote line.
 
 | Includes time | Includes expense | Role | Category | Task |
 | --- | --- | --- | --- | --- |
