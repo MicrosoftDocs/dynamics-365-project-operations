@@ -20,25 +20,27 @@ Project-based companies often have the need for one resource to fill multiple ro
 The following example walks you through how the simple override of a value allows a resource to have multiple roles on a project with different cost and bill rates.
 
 ## Create tasks
+To create tasks, you neeed to add tasks, as well as summary tasks, after which you need to assign the task before you add task duration. 
 
 ### Add tasks and summary tasks
+Complete the following steps to add and promote tasks.
 
 1. Go to **Projects** and open the project to which you want to add tasks.
-2. Select **Add new task**, name the task, and then press Enter.
+2. Select **Add new task**. Name the task, and then press **Enter**.
 3. Enter another task name and press **Enter**. Repeat this until you have a full list of tasks.
-3. To indent tasks under Summary tasks, select the three vertical dots by the task name, and then select **Make subtask**. 
+3. To indent tasks under **Summary** tasks, select the three vertical dots by the task name, and then select **Make subtask**. 
 
   > [!TIP]
-  > To select more than one task, select a task, press and hold Ctrl, and then select another task.
+  > To select more than one task, select a task, press and hold **Ctrl**, and then select another task.
   >
-  > You can also choose **Promote subtask** to move tasks out from under Summary tasks.
+  > You can also choose **Promote subtask** to move tasks out from under **Summary** tasks.
 
 ### Assign tasks
 
 Complete the following steps to assign tasks.
 
 1. In the  **Assigned to**  column for a task, select the person icon.
-2. Choose a team member from the list or enter text to search for one.
+2. Choose a team member from the list or enter text to search for a name.
 
 ### Add task duration and columns
 
@@ -51,50 +53,49 @@ It's often easiest to begin constructing your project with duration. Complete th
   > [!NOTE]
   > You can't enter a duration for summary tasks.
 
-You can add columns to your project which will provide more details by selecting **Add column**. 
+You can add columns to your project to provide more details. To do this, select **Add column**. 
 
 For more information, see [Create a project](https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749).
 
 ## Set up the role and organization unit for a generic project team member
 
 1. On the **Tasks** page, select the **Task** row for **Task A**. 
-2. In the **Assigned To** field, select **Add generic resource**. This opens the **Team Member Quick Create** page.
+2. In **Assigned To**, select **Add generic resource**. This opens the **Team Member Quick Create** page.
 3. On the **Team Member Quick Create** page, specify the attributes of the generic team member who can perform this task.
 4. Select the appropriate role and organizational unit, and then select **Save and Close**. A generic team member is created and assigned to this task. 
-5. Repeat steps 1 - 4 for **Task B**. Hoever, **Task B** must have a different role and organizational unit assigned for the generic team member than **Task A** does. 
+5. Repeat steps 1-4 for **Task B**. However, **Task B** must have a different role and organizational unit assigned for the generic team member than **Task A**. 
 
 ## Set up the role and organization unit for a project task
 
 1. After you create **Task A**, select the task, and then select the **i** icon to open the **Task Details** pane. 
 2. On the **Task Details** pane, scroll to the bottom and select **View Details** to open the **Task Details** page.
-3. On the **Task Details** page, in the **Role** and **Organizational Unit** fields, add the values that are required to perform this task for the resource. 
+3. On the **Task Details** page, in **Role** and **Organizational Unit**, add the values that are required to perform this task for the resource. 
 
   > [!NOTE]
-  > If you complete this scenario using the Dynamics 365 Project Operations setup and config demo data, select **Consulting Lead** for the role, and **Fabrikam US** as the organizational unit.
+  > If you complete this scenario using the Project Operations demo data, select **Consulting Lead** for the role, and **Fabrikam US** as the organizational unit.
 
 4. Select **Task B**, and then select the task.
 5. Select the **i** icon to open **Task Details** pane. 
 6. On the **Task Details** pane, scroll to the bottom and select **View details** to open the **Task Details** page.
-7. On the **Task Details** page, in the **Role** and **Organizational Unit** fields, add the values that are required of a resource that would perform this task. The values in the **Role** and **Organizational Unit** fields for **Task B** must be different than those for **Task A**. 
+7. On the **Task Details** page, in **Role** and **Organizational Unit**, add the values that are required of a resource that would perform this task. The values in **Role** and **Organizational Unit** for **Task B** must be different than those for **Task A**. 
 
   > [!NOTE]
-  > If you are completing this scenarios using Project Operations setup and config demo data, select **Network Technician** for the role, and **Fabrikam US** as the organizational unit.
+  > If you complete this scenario using the Project Operations demo data, select **Network Technician** for the role, and **Fabrikam US** as the organizational unit.
 
 8. Save and close the **Task Details** page. 
 
 ## Team member and estimates behavior 
 
 1. On the **Team Member** grid, select the two generic team members, and then select **Generate Requirements**. This will generate resource requirements. 
-2. Select the team member row for **Consulting Lead**, and then select **Book**. The schedule board opens with a list of resources. Select a resource and click on **Book** to book the resource to that requirement.
-3. Select the team member row for **Network Technician**, and then select **Book**. The schedule board opens with a list of resources. Select the same resource as above and click on **Book** to book the resource to that requirement.
+2. Select the team member row for **Consulting Lead**, and then select **Book**. The schedule board opens with a list of resources. Select a resource and then select **Book** to book the resource to that requirement.
+3. Select the team member row for **Network Technician**, and then select **Book**. The schedule board opens with a list of resources. Select the same resource as above and then select **Book** to book the resource to that requirement.
 
 ### Team Member grid 
 
 On the **Team Member** grid, the two generic team member records are deleted and replaced with only one resource. There is one set of values for that resource, which are a default set of values for **Role** and **Organizational Unit**.
-When you expand the row of that team member record, you can see distinct assignments on the team member record for both tasks. Each assignment row has task-specific values for **Role** and **Organizational Unit**. 
+
+When you expand the row for that team member record, you can see distinct assignments on the team member record for both tasks. Each assignment row has task-specific values for **Role** and **Organizational Unit**. 
 
 ### Estimates grid 
 
 On the **Estimates** grid, both assignments for the same resource are priced differently. The assignment for the resource on **Task A** is priced using the **Role** attribute value of **Consulting Lead**. The assignment for the same resource on **Task B** is priced using the **Role** attribute value of **Network Technician**.
-
-
