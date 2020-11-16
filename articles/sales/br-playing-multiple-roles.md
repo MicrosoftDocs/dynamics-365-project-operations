@@ -23,7 +23,7 @@ The following example walks you through how the simple override of a value allow
 To create tasks, you neeed to add tasks, as well as summary tasks, after which you need to assign the task before you add task duration. 
 
 ### Add tasks and summary tasks
-Complete the following steps to add and promote tasks.
+To add a task, complete the following steps.
 
 1. Go to **Projects** and open the project to which you want to add tasks.
 2. Select **Add new task**. Name the task, and then press **Enter**.
@@ -58,6 +58,7 @@ You can add columns to your project to provide more details. To do this, select 
 For more information, see [Create a project](https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749).
 
 ## Set up the role and organization unit for a generic project team member
+Complete the following steps to setup role and organizational unit for a generic team member 
 
 1. On the **Tasks** page, select the **Task** row for **Task A**. 
 2. In **Assigned To**, select **Add generic resource**. This opens the **Team Member Quick Create** page.
@@ -66,6 +67,7 @@ For more information, see [Create a project](https://support.microsoft.com/en-us
 5. Repeat steps 1-4 for **Task B**. However, **Task B** must have a different role and organizational unit assigned for the generic team member than **Task A**. 
 
 ## Set up the role and organization unit for a project task
+Complete the following steps to setup role and organizational unit for a task
 
 1. After you create **Task A**, select the task, and then select the **i** icon to open the **Task Details** pane. 
 2. On the **Task Details** pane, scroll to the bottom and select **View Details** to open the **Task Details** page.
@@ -85,6 +87,7 @@ For more information, see [Create a project](https://support.microsoft.com/en-us
 8. Save and close the **Task Details** page. 
 
 ## Team member and estimates behavior 
+To understand the behavior on Team member grid and the estimates, follow these steps.
 
 1. On the **Team Member** grid, select the two generic team members, and then select **Generate Requirements**. This will generate resource requirements. 
 2. Select the team member row for **Consulting Lead**, and then select **Book**. The schedule board opens with a list of resources. Select a resource and then select **Book** to book the resource to that requirement.
