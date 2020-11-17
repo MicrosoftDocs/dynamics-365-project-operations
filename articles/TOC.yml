@@ -377,7 +377,9 @@
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
   - name: Revenue recognition
-    items: 
+    items:
+    - name: Manage revenue estimates
+      href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: Cost to complete methods
       href: project-accounting/cost-complete-methods.md
 - name: Lite deployment - deal to proforma invoicing
