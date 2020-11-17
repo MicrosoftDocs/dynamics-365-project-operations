@@ -383,7 +383,7 @@
     - name: Set up revenue recognition
       items: 
       - name: Set up period types
-      href: project-accounting/period-types.md
+        href: project-accounting/period-types.md
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: Fixed price revenue estimate projects
