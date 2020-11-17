@@ -43,7 +43,7 @@ In Dynamics 365 Project Operations, revenue recognition principles vary based on
 
 ## Transactions accounted using the fixed price billing method
 
-- Cost and revenue recognition are separate. Transaction cost is posted using the [Project Operations Integration journal](../project-operations/project-accounting/project-operations-integration-journal.md). Unbilled sales transactions aren't created.
+- Cost and revenue recognition are separate. Transaction cost is posted using the [Project Operations Integration journal](../project-accounting/project-operations-integration-journal.md). Unbilled sales transactions aren't created.
 - Revenue can be recognized during invoicing if the project cost and revenue profile have **Principle used for project completion calculations** set to **No WIP**. Only use this method for short term, simple projects.
 - Revenue can be recognized using fixed price revenue estimates, with either the **Completed contract** or **Percent completion revenue recognition** method.
 
@@ -53,7 +53,5 @@ In Dynamics 365 Project Operations, revenue recognition principles vary based on
 [Fixed price revenue estimate projects](rev-rec-percentage-completion-method.md)
 
 [Manage revenue estimates](rev-rec-completed-contract-method.md)
-
-[Cost templates](rev-rec-invoicing.md)
 
 [Cost to complete methods](cost-complete-methods.md)
