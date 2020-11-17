@@ -378,6 +378,8 @@
       href: project-accounting/project-operations-integration-journal.md
   - name: Revenue recognition
     items:
+    - name: Revenue recognition overview
+      href: revenue-recognition/revenue-recognition-overview.md
     - name: Set up revenue recognition
       items: 
       - name: Set up period types
