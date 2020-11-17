@@ -44,7 +44,7 @@ Complete the following steps to generate a milestone-based invoice schedule for 
 3. Open the **Fixed Price** contract line that you are creating the milestone schedule for. On the **Billing Milestones** tab, select the billing start date and the invoice frequency. 
 4. On the subgrid, select **Generate Periodic Milestones**. The  invoice schedule is generated with the **Milestone Name**, **Milestone Date**, and **Milestone Amount** fields set as follows:
 
-    - **Milestone Name**: This date is dictated by the invoice frequency.
+    - **Milestone Name**: This name is dictated by the invoice frequency.
     - **Milestone Date**: This date is dictated by the invoice frequency.
     - **Milestone Amount**: This amount is calculated by dividing the contract amount on the contract line by the number of milestones as dictated by the frequency, billing start, and requested delivery dates.
 

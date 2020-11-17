@@ -48,9 +48,9 @@ Leads that have the **Type** value set to **Work-based** are called project-base
 
 - An account that uses the **Company** field from the lead.
 - A contact record associated to the account based on the values in the **First Name** and **Last Name** fields on the lead.
-- A project-based opportunity that has the **Type** field set to &quot;**Wwork-based**.
+- A project-based opportunity that has the **Type** field set to **Work-based**.
 
-For more detailed information on qualifying leads, see[Qualify or convert leads](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+For more detailed information on qualifying leads, see [Qualify or convert leads](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## Lead qualification and legal entity information 
 
