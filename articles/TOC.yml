@@ -380,6 +380,8 @@
     items:
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Cost to complete methods
+      href: project-accounting/cost-complete-methods.md
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Get started
