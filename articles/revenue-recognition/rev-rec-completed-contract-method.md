@@ -34,7 +34,7 @@ Complete the following steps to create a revenue estimate.
    - **Period code**: This code determines how frequently estimates are posted.
    - **Estimate date**: The date the estimate is processed.
    - **Continuous**: Select this check box to create estimates only if estimates were posted in the previous period, or if the estimate is the first estimate that has been created. If this is not selected, estimates are created even if estimates were not posted in the previous period.
-   - **Cost to complete method**: Define how to estimate the remaining project work. For more information, see [Cost to complete methods](../project-accounting/cost-complete-methods.md).
+   - **Cost to complete method**: Define how to estimate the remaining project work. For more information, see [Cost to complete methods](cost-complete-methods.md).
    - **Completion method**: Select a completion method from the following options:
      - **Automatic**: The completion percentage is calculated automatically and based on the cost lines included in the calculation. The cost template defines the cost lines that are included.
      - **Manual**: The completion percentage equals the completion percentage of the last estimate. After the estimate is created, you can change the **Manual calculation** on the **Estimates** page.
