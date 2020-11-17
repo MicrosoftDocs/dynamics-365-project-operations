@@ -378,6 +378,8 @@
       href: project-accounting/project-operations-integration-journal.md
   - name: Revenue recognition
     items:
+    - name: Revenue recognition overview
+      href: revenue-recognition/revenue-recognition-overview.md
     - name: Set up revenue recognition
       items: 
       - name: Set up period types
@@ -387,7 +389,7 @@
     - name: Fixed price revenue estimate projects
       href: revenue-recognition/rev-rec-percentage-completion-method.md
     - name: Cost to complete methods
-      href: project-accounting/cost-complete-methods.md
+      href: revenue-recognition/cost-complete-methods.md
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Get started
