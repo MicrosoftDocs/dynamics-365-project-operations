@@ -389,7 +389,7 @@
     - name: Fixed price revenue estimate projects
       href: revenue-recognition/rev-rec-percentage-completion-method.md
     - name: Cost to complete methods
-      href: project-accounting/cost-complete-methods.md
+      href: revenue-recognition/cost-complete-methods.md
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Get started
