@@ -376,6 +376,10 @@
       href: project-accounting/configure-accounting-billable-projects.md
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
+  - name: Revenue recognition
+    items:
+    - name: Manage revenue estimates
+      href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Get started
