@@ -384,6 +384,8 @@
       items: 
       - name: Set up period types
         href: project-accounting/period-types.md
+      - name: Set up cost templates
+        href: revenue-recognition/rev-rec-cost-templates.md
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: Fixed price revenue estimate projects
