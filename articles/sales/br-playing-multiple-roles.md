@@ -3,7 +3,7 @@ title: Estimate project sales and costs when a bookable resource fills multiple 
 description: This topic explains how to use pricing dimensions to support pricing and costing estimates for a resource that fills multiple roles on a project.
 author:  rumant
 manager: tfehr 
-ms.date: 11/12/2020  
+ms.date: 11/16/2020  
 ms.topic: article 
 ms.service: project-operations 
 ms.reviewer: kfend 
@@ -20,7 +20,7 @@ Project-based companies often have the need for one resource to fill multiple ro
 The following example walks you through how the simple override of a value allows a resource to have multiple roles on a project with different cost and bill rates.
 
 ## Create tasks
-To create tasks, you neeed to add tasks, as well as summary tasks, after which you need to assign the task before you add task duration. 
+To create tasks, you need to add tasks, as well as summary tasks, after which you need to assign the task before you add task duration. 
 
 ### Add tasks and summary tasks
 To add a task, complete the following steps.
@@ -58,7 +58,7 @@ You can add columns to your project to provide more details. To do this, select 
 For more information, see [Create a project](https://support.microsoft.com/en-us/office/create-a-project-a5b5e823-fb2e-45fd-be00-7d84422d9749).
 
 ## Set up the role and organization unit for a generic project team member
-Complete the following steps to setup role and organizational unit for a generic team member 
+Complete the following steps to set up a role and organizational unit for a generic team member.
 
 1. On the **Tasks** page, select the **Task** row for **Task A**. 
 2. In **Assigned To**, select **Add generic resource**. This opens the **Team Member Quick Create** page.
@@ -67,7 +67,7 @@ Complete the following steps to setup role and organizational unit for a generic
 5. Repeat steps 1-4 for **Task B**. However, **Task B** must have a different role and organizational unit assigned for the generic team member than **Task A**. 
 
 ## Set up the role and organization unit for a project task
-Complete the following steps to setup role and organizational unit for a task
+Complete the following steps to set up a role and organizational unit for a task.
 
 1. After you create **Task A**, select the task, and then select the **i** icon to open the **Task Details** pane. 
 2. On the **Task Details** pane, scroll to the bottom and select **View Details** to open the **Task Details** page.
@@ -87,7 +87,7 @@ Complete the following steps to setup role and organizational unit for a task
 8. Save and close the **Task Details** page. 
 
 ## Team member and estimates behavior 
-To understand the behavior on Team member grid and the estimates, follow these steps.
+To understand the behavior on the **Team Member** grid and the estimates, complete the following steps.
 
 1. On the **Team Member** grid, select the two generic team members, and then select **Generate Requirements**. This will generate resource requirements. 
 2. Select the team member row for **Consulting Lead**, and then select **Book**. The schedule board opens with a list of resources. Select a resource and then select **Book** to book the resource to that requirement.
