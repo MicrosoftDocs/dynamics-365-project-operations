@@ -15,7 +15,7 @@ ms.author: rumant
 
  _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_ 
 
-This topic provides information about how to use a bookable resource as a pricing dimension. 
+This topic provides information about how to use a bookable resource as a pricing dimension. If you have a pricing strategry where each Bookable Resource needs to have a distinct price or cost rate that is specific to them, thn you should consider using bookable resource as a pricing dimension.
 
 ## Prerequisites
 Before you complete the procedures in this topic, you must have a new pricing dimension solution for your organization. If you haven't already created one, see [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md).
