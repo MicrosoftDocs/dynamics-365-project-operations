@@ -30,7 +30,7 @@ If you haven't completed those procedures, complete them and then return to this
 ## Register a plug-in
 When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines. One line is for the cost side of the estimate and the other line is for sales the side. This is the same  for project contract lines.
 
-When you make a change to the quantity or a field on the cost side, that change is propagated to the sales side. This is possible because the PreOperation plug-ins on Quotelinedetail and contractline detail entities connect specific attributes on the cost side to the sales side of the transaction. If you need to make changes to the pricing dimension values on the sales side to propagate to the cost side, the following plug-ins must be re-registered after making changes to a pricing dimension.
+When you make a change to the quantity or a field on the cost side, that change is also made on the sales side. This is possible because the PreOperation plug-ins on Quotelinedetail and contractline detail entities connect specific attributes on the cost side to the sales side of the transaction. If you need changes made to the pricing dimension values on the sales side to also be made on the cost side, the following plug-ins must be re-registered after making changes to a pricing dimension.
 
 These are the plug-ins to update and re-register:
 
@@ -46,5 +46,5 @@ Complete the following steps to update and re-register the plug-ins.
 5. In the **Update** dialog page, select the ellipsis (**...**) in the filtering attributes.
 6. The filtering attributes window opens and provides a list of all attributes in the entity and the pricing dimensions. Select the check boxes for the pricing dimension attributes.
 7. Select **OK** to close the page, and then select **Update Step**.
-8. Repeat steps 2-7 for the second plug-in, **PreOperationQuoteLineDetail**. For this plug-in you need to update the **Update of msdyn_quotelinetransaction** step.
+8. Repeat steps 2-7 for the second plug-in, **PreOperationQuoteLineDetail**. For this plug-in, you need to update the **Update of msdyn_quotelinetransaction** step.
 9. Close **PluginRegistrationTool**.
