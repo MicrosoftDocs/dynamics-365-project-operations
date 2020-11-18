@@ -39,23 +39,25 @@ The following table lists all of the out-of-the box forms and views, by entity. 
 |  Actual| - Information<br>- Active Actuals| Actual Associated |
 
 ## Set up a bookable resource as a pricing dimension
+To set up a bookable resource as a pricing dimension, follow these steps:
 
 1. Go to **Settings** > **Parameters**. 
 2. On the **Parameter** page, on the **Amount-Based Pricing Dimensions** tab, verify that the grid shows the records in the **Pricing Dimensions** entity. 
 2. Add **Bookable Resource** to this list of pricing dimensions as **msdyn_bookableresource**. 
-3. In the **Applicable to cost** and **Applicable to sales** fields, select a value.
-4. In the **Dimension Type** field, select **Amount-based**. 
+3. In **Applicable to cost** and **Applicable to sales**, select a value.
+4. In **Dimension Type**, select **Amount-based**. 
 5. Select the cost and sales priority for the bookable resource. Typically, a bookable resource has the highest priority when included as a pricing dimension. Set the priority to **1** (or **0** depending on how you count the priority) to ensure this behavior.
 
 ## Set up pricing dimension field names
 
-When the field name of a pricing dimension in the **Role Price** table is different from the field name in any of the other entities where price defaulting needs to work, the pricing dimension record must be made aware of the different names.    
-For a bookable resource, the **Project Team Members** entity has a slightly different field name from what it is called on the **Role Price** entity: . 
+When the field name of a pricing dimension in the **Role Price** table is different from the field name in any of the other entities where the default price is used, the pricing dimension record must be notified of the different names.  
+
+For a bookable resource, the **Project Team Members** entity has a slightly different field name from what it is called on the **Role Price** entity: 
 
  - **Project Team Members** entity = **msdyn_bookableresourceid**
  - **Role Price** entity = **msdyn_bookableresource**
 
-The pricing dimension record for **msydn_bookableresource** must be made aware of this difference.
+The pricing dimension record for **msydn_bookableresource** must be notified of this difference.
 
 1. Double-click the row in the **Pricing Dimensions** grid to open the dimension page of **msdyn_bookableresource**.
 2. On dimension page, on the **Related** tab, select **Pricing Dimension Field Names**.
@@ -66,10 +68,9 @@ The pricing dimension record for **msydn_bookableresource** must be made aware o
 
   ![Add New Pricing Dimension Field Names](media/Add-NewPD-fieldname.png)
 
-
   This opens the **New Pricing dimension field name** page for **msdyn_bookableresource**. 
 
-4. On the **New Pricing Dimension Field Name** page, add **msdyn_projectteam** to the **Entity Locigal Name** field.
-5. Add  **msdyn_bookableresourceid** to the **Field Name** field.
+4. On the **New Pricing Dimension Field Name** page, add **msdyn_projectteam** to **Entity Locigal Name**.
+5. Add  **msdyn_bookableresourceid** to **Field Name**.
 
  ![New Pricing dimension field name form](media/PD-fieldname-Added.png)
