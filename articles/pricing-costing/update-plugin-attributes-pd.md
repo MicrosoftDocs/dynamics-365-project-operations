@@ -37,7 +37,7 @@ These are the plug-ins to update and re-register:
 - PreOperationContractLineDetailUpdate - **Update msdyn_orderlinetransaction**
 - PreOperationQuoteLineDetailUpdate - **Updates msdyn_quotelinetransaction**
 
-Conmplete the following steps to update and re-register the plug-ins.
+Complete the following steps to update and re-register the plug-ins.
 
 1. Open **PluginRegistrationTool** and connect to your Project Operations CDS environment.
 2. Select **Search**, and type in the first few letters of the plug-in to be updated.
