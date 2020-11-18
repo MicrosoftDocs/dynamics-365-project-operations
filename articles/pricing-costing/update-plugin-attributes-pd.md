@@ -3,7 +3,7 @@ title: Update plug-in attributes to include new pricing dimensions
 description: This topic provides information about how to update plug-in attributes for pricing dimensions.
 author: rumant
 manager: Annbe
-ms.date: 11/16/2020
+ms.date: 11/18/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -39,7 +39,7 @@ These are the plug-ins to update and re-register:
 
 Complete the following steps to update and re-register the plug-ins.
 
-1. Open **PluginRegistrationTool** and connect to your Project Operations CDS environment.
+1. Open **PluginRegistrationTool** and connect to your Project Operations Dataverse environment.
 2. Select **Search**, and type in the first few letters of the plug-in to be updated.
 3. After the plug-in is found, select it, and then select **Select on Main Form**.
 4. Select the **Update msdyn_orderlinetransaction** step, right-click, and then select **Update**.
