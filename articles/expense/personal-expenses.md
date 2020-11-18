@@ -1,16 +1,4 @@
 
----
-title: Personal Expenses on Expense Report
-description: 
-author: 
-manager: Annbe
-ms.date: 11/04/2020
-ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend 
-ms.author: suvaidya
----
-
 # Personal Expenses on Expense Report
 During business travel, workers might sometimes charge personal expenses to their corporate credit cards. If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports.
 
