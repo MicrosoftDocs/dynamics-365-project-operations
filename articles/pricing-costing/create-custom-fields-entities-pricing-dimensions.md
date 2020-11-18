@@ -5,7 +5,7 @@ title: Create custom fields and entities as pricing dimensions
 description: This topic provides information about how to create custom option sets or entities.
 author: rumant
 manager: AnnBe
-ms.date: 11/13/2020
+ms.date: 11/18/2020
 ms.topic: article
 ms.prod: 
 ms.service: project-operations
@@ -33,7 +33,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Complete the following steps when you want to create a custom option set or entity for using it as a pricing dimension. If you need to understand why you may want ot create custom option sets or entities to be used as pricing dimensions, the pricing dimensions overview explains it https://docs.microsoft.com/en-us/dynamics365/project-operations/pricing-costing/pricing-dimensions-overview  
+Complete the following steps when you want to create a custom option set or entity for using it as a pricing dimension. For more information, see [Pricing dimensions overview](pricing-dimensions-overview.md).  
 
 > [!IMPORTANT]
 > We recommend that you make all custom pricing dimension changes in a separate solution. This important best practice provides flexibility in the future to update or remove changes as needed. This will also help with re-use of your work and make it easier to port these changes to another instance After you have made all of the required changes, export this solution as a **Managed solution** and import it into other instances to reuse your pricing setup.
