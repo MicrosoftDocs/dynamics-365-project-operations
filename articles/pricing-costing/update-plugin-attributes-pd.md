@@ -1,5 +1,5 @@
 ---
-title: Update plug-in attributes to include new pricing dimensions
+title: Updating plug-in attributes with new pricing dimensions
 description: This topic provides information about how to update plug-in attributes for pricing dimensions.
 author: rumant
 manager: Annbe
@@ -11,7 +11,7 @@ ms.author: rumant
 ---
 
 
-# Update plug-in attributes to include new pricing dimensions
+# Update plug-in attributes with new pricing dimensions
 
 This topic provides information about how to update plug-in attributes for pricing dimensions.
 
