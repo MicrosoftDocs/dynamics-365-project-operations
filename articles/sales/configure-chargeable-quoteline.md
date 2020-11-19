@@ -37,7 +37,7 @@ A transaction category can be chargeable or non-chargeable on a project-based qu
 ## Resolve chargeability
 
 An estimate or actual created for time will only be considered chargeable if the time is included on the quote line and if the role is configured as chargeable.
-An estimate or actual created for an expense will only be considered chargeable if the expense is included on the quote line and if the transaction category is configured as chargeable on the quote line. The following table shows 
+An estimate or actual created for an expense will only be considered chargeable if the expense is included on the quote line and if the transaction category is configured as chargeable on the quote line. The following table shows how chargeability is defaulted on each actual based on the included components and billing type setup that the user has on the quote line 
 
 | Includes time | Includes expense | Role | Category | Task |
 | --- | --- | --- | --- | --- |
