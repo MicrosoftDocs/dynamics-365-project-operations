@@ -3,7 +3,7 @@ title: Configure the chargeable components of a project-based quote line
 description: This topic provides information about included, chargeable, and non-chargeable components on project-based quote lines.
 author: rumant
 manager: Annbe
-ms.date: 11/15/2020
+ms.date: 11/18/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -37,7 +37,7 @@ A transaction category can be chargeable or non-chargeable on a project-based qu
 ## Resolve chargeability
 
 An estimate or actual created for time will only be considered chargeable if the time is included on the quote line and if the role is configured as chargeable.
-An estimate or actual created for an expense will only be considered chargeable if the expense is included on the quote line and if the transaction category is configured as chargeable on the quote line. The following table shows how chargeability is defaulted on each actual based on the included components and billing type setup that the user has on the quote line 
+An estimate or actual created for an expense will only be considered chargeable if the expense is included on the quote line and if the transaction category is configured as chargeable on the quote line. The following table shows how chargeability defaults on each actual. The defaults are based on the included components and the billing type that is set up on the quote line.
 
 | Includes time | Includes expense | Role | Category | Task |
 | --- | --- | --- | --- | --- |
