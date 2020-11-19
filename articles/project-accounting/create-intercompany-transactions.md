@@ -2,105 +2,114 @@
 # required metadata
 
 title: Create intercompany transactions
-description: This article provides information and examples on creating intercompany transactions.
+description: This topic provides information about how to create intercompany transactions.
 author:  sigitac
 manager: tfehr
-ms.date: 11/05/2020 
+ms.date: 11/19/2020 
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-
 ---
 
-Intercompany transactions are time and expense transactions where project contract belongs to one company or organizational unit and resource belongs to a different company or organizational unit.
+# Create intercompany transactions
 
-When intercompany transaction gets approved, system creates the following actual transactions:
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-| **Transaction Type** | **Pricelist applied** | **Transaction currency** |
+Intercompany transactions are time and expense transactions from a project contract that belongs to one company or organizational unit, while the resources on the project contract are part of a different company or organizational unit.
+
+When an intercompany transaction is approved, the following actual transactions are created:
+
+| **Transaction type** | **Pricelist applied** | **Transaction currency** |
 | --- | --- | --- |
 | Cost | Contracting unit cost price list | Currency on the price line |
-| Unbilled sales(created only for actuals associated with contract line using time and material billing type) | Contract project sales price list | Contract currency |
+| Unbilled sales. These are created only for actuals that are associated with a contract line with the billing type, time and material. | Contract project sales price list | Contract currency |
 | Resourcing unit cost | Resourcing unit cost price list | Currency on the price line |
-| Inter-org unit sales | Contracting unit cost price list | Currency on the price line |
+| Inter-organizational unit sales | Contracting unit cost price list | Currency on the price line |
 
-Cost, resourcing unit cost and inter-org unit sales transaction pricing and currency is driven by _ **organizational unit.** _ Keep this in consideration when deciding the structure of companies and organizational units in your implementation.
+Cost, resourcing unit cost, and inter-organizational unit sales transaction pricing and currency is driven by **organizational unit**. This is important to remember when deciding how to structure companies and organizational units in your implementation.
 
-When creating opportunities, quotes, project contracts and projects, system will check contracting unit currency matches contracting company accounting currency and will prevent creating records where these are not the same. Organizational unit currency is defined in Project Operations on CDS \&gt; Settings \&gt; Organizational units. Company&#39;s accounting currency is defined in Dynamics 365 Finance \&gt; General ledger \&gt; Ledger setup \&gt; Ledger and is synced to Project Operations on CDS using Ledgers Dual Write map.
+When you create opportunity, quote, project contract, and project records, the system verifies that the contracting unit's currency matches the contracting company's accounting currency. When they are not the same, these records can't be created. The organizational unit currency is defined in Dynamis 365 Project Operations by going to **Dataverse** > **Settings** > **Organizational units**. A company's accounting currency is defined in Dynamics 365 Finance by going to **General ledger** > **Ledger setup** > **Ledger**. The currency is synchronized to your Dataverse environment using Ledgers Dual Write map.
 
-System will create Resourcing unit cost and Inter-org unit sales actuals both when resourcing unit differs from contracting unit or/and resourcing company differs from contracting company, however only transactions where resourcing company differs from contracting company will be transferred to Dynamics 365 Finance for further accounting.
+The system creates resourcing unit cost and inter-organizational unit sales actuals  in the following situations:
 
-Accounting for Project Actuals is recorded in Finance, Project Operations integration journal. System creates the following journal lines:
+  - When the resourcing unit differs from the contracting unit
+  - When the resourcing company differs from contracting company 
 
-| **Transaction Type** | **Legal entity** | **Creates project transaction on posting** | **Financial dimensions default from** | **Billing sales tax group, billing item sales tax group defaults from** |
+However, only transactions that have a different resourcing company from the contracting company will be transferred to the Dynamics 365 Finance environment for additional accounting.
+
+Accounting for project actuals is recorded in the Project Operations integration journal in Finance. The system creates the following journal lines:
+
+| **Transaction type** | **Legal entity** | **Creates project transaction on posting** | **Financial dimensions default from** | **Default billing sales tax group and billing item sales tax group** |
 | --- | --- | --- | --- | --- |
-| Cost | Does not get added to integration journal | N\A | N\A | N\A |
-| Unbilled sales | Borrowing legal entity integration journal | Yes | Project | Billing sales tax group - based on **contract customer** , billing item sales tax group - from current Legal entity project category on the journal line. |
-| Resourcing Unit cost | Lending Legal entity integration journal | No | Intercompany customer | Billing sales tax group - based on **intercompany customer** , billing item sales tax group - from current Legal entity project category on the journal line. |
-| Inter-Org Sales | Lending Legal entity integration journal | No | Intercompany customer | Billing sales tax group - based on **intercompany customer** , Billing item sales tax group - from current Legal Entity project category on the journal line. |
+| Cost | Doesn't get added to the integration journal | N\A | N\A | N\A |
+| Unbilled sales | The borrowing legal entity integration journal | Yes | Project | **Billing sales tax group**: Based on the **contract customer** <br/> **Billing item sales tax group**: From the current legal entity project category on the journal line |
+| Resourcing unit cost | Lending legal entity integration journal | No | Intercompany customer | **Billing sales tax group**: Based on the **intercompany customer** <br/> **Billing item sales tax group**: From the current legal entity project category on the journal line |
+| Inter-organizational sales | Lending legal entity integration journal | No | Intercompany customer | **Billing sales tax group**: Based on the **intercompany customer** <b/r> **Billing item sales tax group**: From the current legal entity project category on the journal line |
 
 Example:
 
-Molly Clark, developer employed in GBPM logs 10 hours of work against USPM Adventure Works project which gets approved by project manager. Developer cost in GBPM is 88 GBP per hour. GBPM will bill USPM 120 USD per developer hour. USPM will bill customer Adventure works 200 USD for work performed by GBPM resource (See Configure Intercompany Invoicing topic for price setup example).
+Molly Clark, developer employed in GBPM records 10 hours of work against a USPM Adventure Works project which is then approved by the project manager. Developer cost in GBPM is 88 GBP per hour. GBPM will bill USPM 120 USD per developer hour. USPM will bill the customer Adventure works, 200 USD for work performed by the GBPM resource. For more information, see [Configure intercompany invoicing](configure-intercompany-invoicing.md).
 
-1. In Project Operations on CDS Resources select Molly Clark resource and navigate to Scheduling tab. Set field Company value to GBPM.
-2. Create Adventure Works customer in Project Operations on CDS (customer can also be created in Finance):
-  1. Sales \&gt; Customers create a new record:
-    1. Set company to USPM.
-    2. Set Relationship type to Customer.
-    3. Select Customer group 10 – Domestic.
-    4. Set currency to USD and save the record.
-3. Create Adventure works project contract and project:
-  1. Sales \&gt; Project Contracts create a new record:
-    1. Set Owning company to USPM and contracting unit as Contoso Robotics US.
-    2. Set Customer to Adventure Works.
-    3. Select product price list and save the record.
-    4. In Contract lines tab create a new contract line. Set any name, select Billing Method Time and Materials. Create a new project and associate it with this contract line.
-4. As Molly Clark resource, navigate to Projects \&gt; Time entries and create a time entry for Adventure works project.
-5. As Project Manager approve hour transaction logged by Molly Clark in Projects \&gt; Approvals.
-6. Navigate to Adventure works project and open Related \&gt; Actuals. System has created the following actual transactions:
+1. In Project Operations on Dataverse, go to **Resources**, and select **Molly Clark** from the list. On the **Scheduling** tab, in the **Company** field, select **GBPM**.
+2. Go to **Sales** > **Customers**, and select **New** to create a new customer record for Adventure Works:
+    1. Set the company to **USPM**.
+    2. Set Relationship type to **Customer**.
+    3. Select **Customer group 10 – Domestic**.
+    4. Set currency to **USD**.
+    5. Save the record.
+3. Go to **Sales** > **Project Contracts** and create a new project contract for Adventure works:
+    1. Set the owning company to **USPM** and the contracting unit to **Contoso Robotics US**.
+    2. Select Adventure Works as the customer.
+    3. Select a product price list and save the record.
+    4. On teh **Contract Lines** tab, create a new contract line. Set any name, and select **Time and Materials** as the billing method.
+    5. Create a new project and associate it with this contract line.
+4. Sign in as the resource, **Molly Clark**, go to **Projects** > **Time entries**, and create a time entry for the Adventure works project.
+5. Sign in as the Project manager, to to **Projects** > **Approvals**, and approve the time entry transaction logged by Molly Clark.
+6. Navigate to the Adventure works project and select **Related > **Actuals**. The following actuals transactsion are created:
 
-| **Transaction Type** | **Price** | **Transaction currency** | **Amount** |
+| **Transaction type** | **Price** | **Transaction currency** | **Amount** |
 | --- | --- | --- | --- |
 | Cost | 120 | USD | 1200 |
-| Unbilled sales
- | 200 | USD | 2000 |
-| Resourcing unit cost | 88 | GBP | 880 |
-| Inter-org unit sales | 120 | USD | 1200 |
-
-1. As USPM accountant, navigate to Project Operations Finance and open USPM company. Run periodic process Import from staging (Projects Management and Accounting \&gt; Periodic \&gt; Project Operations on Customer Engagement\&gt; Import from staging). This periodic process will fill in Project Operations Integration journal.
-2. Navigate to Project Operations Integration Journal (Projects Management and Accounting \&gt; Journals \&gt; Project Operations integration journal) and review the lines. System creates the following line:
-
-| **Transaction Type** | **Price** | **Transaction currency** | **Amount** |
-| --- | --- | --- | --- |
 | Unbilled sales | 200 | USD | 2000 |
-
-If system is set up to accrue revenue for this project, system also posts the following:
-
-Debit: Project – WIP sales value 200 USD
-
-Credit: Project – Accrued Revenue 200 USD
-
-This unbilled sale is now ready for invoicing and invoice for Adventure works customer can be financially posted when needed.
-
-1. As GBPM accountant, navigate to Project Operations Finance and open GBPM company. Run periodic process Import from staging (Projects Management and Accounting \&gt; Periodic \&gt; Project Operations on Customer Engagement\&gt; Import from staging). This periodic process will fill in Project Operations Integration journal.
-2. Navigate to Project Operations Integration Journal (Projects Management and Accounting \&gt; Journals \&gt; Project Operations integration journal) and review the lines. System creates the following lines:
-
-| **Transaction Type** | **Price** | **Transaction currency** | **Amount** |
-| --- | --- | --- | --- |
 | Resourcing unit cost | 88 | GBP | 880 |
 | Inter-org unit sales | 120 | USD | 1200 |
 
-Posting these records result in the following voucher transactions:
+7. Sign in as a USPM accountant, open the Finance instance of Project Operations Finance, and select the company **USPM**. 
+8 Go to **Project management and accounting** > **Periodic** > **Project Operations on Customer Engagement** > **Import from staging** and select to run the periodic process. This periodic process will fill in Project Operations Integration journal.
+9. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the journal lines. The system creates the following line:
 
-Debit: Project cost 88 GBP
+    | **Transaction type** | **Price** | **Transaction currency** | **Amount** |
+    | --- | --- | --- | --- |
+    | Unbilled sales | 200 | USD | 2000 |
 
-Credit: Payroll allocation 88 GBP
+    If the system is set up to accrue revenue for this project, the following is posted:
 
-If system is set up to accrue intercompany revenue, system also posts the following:
+    Debit: Project – WIP sales value 200 USD
 
-Debit: Project – WIP sales value 120 USD
+    Credit: Project – Accrued Revenue 200 USD
 
-Credit: Project – Accrued Revenue 120 USD
+    This unbilled sale is now ready for invoicing. The invoice for the customer Adventure works, can be financially posted when needed.
 
-System is now ready to create intercompany customer invoice.
+10. Sign in as the **GBPM** accountant, open the Finance instance of Project Operations, and open the company, **GBPM**. 
+11. Go to **Project management and accounting** > **Periodic** > **Project Operations on Customer Engagement** > **Import from staging** and run the periodic process to  fill in Project Operations Integration journal.
+12. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the lines. The system creates the following lines:
+
+    | **Transaction type** | **Price** | **Transaction currency** | **Amount** |
+    | --- | --- | --- | --- |
+    | Resourcing unit cost | 88 | GBP | 880 |
+    | Inter-org unit sales | 120 | USD | 1200 |
+
+    Posting these records result in the following voucher transactions:
+
+    Debit: Project cost 88 GBP
+
+    Credit: Payroll allocation 88 GBP
+
+    If system is set up to accrue intercompany revenue, the following is posted:
+
+    Debit: Project – WIP sales value 120 USD
+
+    Credit: Project – Accrued Revenue 120 USD
+
+    The system is now ready to create an intercompany customer invoice.
