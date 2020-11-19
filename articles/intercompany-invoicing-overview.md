@@ -17,7 +17,7 @@ Your organization might have multiple divisions, subsidiaries, and other legal e
 
 The following illustration shows a typical scenario where two legal entities, Contoso Robotics USA (the borrowing legal entity/ resourcing company) and Contoso Robotics UK (the lending legal entity/ owning company) share resources to deliver a project for customer Adventure works. For this scenario, Contoso Robotics USA is contracted to deliver the work to customer Adventure Works.
 
-![](RackMultipart20201119-4-1k494c8_html_49ac0cb03196381.gif) ![](RackMultipart20201119-4-1k494c8_html_cddd4772c20951a8.png)
+![Intercompany invoicing](./media/IntercompanyScenario.png) 
 
 Project Operations uses the following flow to process intercompany transactions:
 
@@ -30,7 +30,7 @@ Project Operations uses the following flow to process intercompany transactions:
 
 See the following diagram illustrating intercompany invoicing related accounting events and expected postings to general ledger.
 
-![](RackMultipart20201119-4-1k494c8_html_a7e6527e976415bb.png)
+![Intercompany flow](./media/IntercompanyFlow.png)
 
 Learn more about intercompany invoicing:
 
