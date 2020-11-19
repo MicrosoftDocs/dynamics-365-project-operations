@@ -26,20 +26,20 @@ Example: Contoso Robotics USA (USPM) is borrowing legal entity and Contoso Robot
 
 Example: In Finance, select GBPM legal entity and create a customer representing USPM legal entity:
 
-1. Navigate to Accounts receivable \&gt; Customer \&gt; All customers and create new.
-2. Expand Name field and filter records by Type column Legal entities. Then find record Contoso Robotics USA (USPM) and select it
-3. In the next form click Use match button
-4. Select customer group and save.
+ - Navigate to Accounts receivable \&gt; Customer \&gt; All customers and create new.
+ - Expand Name field and filter records by Type column Legal entities. Then find record Contoso Robotics USA (USPM) and select it
+ - In the next form click Use match button 
+ - Select customer group and save.
 
 Next, in Finance select USPM legal entity and create a vendor record representing GBPM legal entity:
 
-1. Navigate to Accounts payable \&gt; Vendors \&gt; All vendors and create new.
-2. Expand Name field and filter records by Type column Legal entities. Then find record Contoso Robotics UK (GBPM) and select it.
-3. In the next form click Use match button
-4. Select vendor group and save.
-5. Navigate to General \&gt; Set up \&gt; Intercompany menu item in the saved vendor record
-6. In Trading relationship tab set Active flag to Yes
-7. Select Vendor company GBPM and set My account record to the customer created in step d
+ - Navigate to Accounts payable \&gt; Vendors \&gt; All vendors and create new.
+ - Expand Name field and filter records by Type column Legal entities. Then find record Contoso Robotics UK (GBPM) and select it.
+ - In the next form click Use match button
+ - Select vendor group and save.
+ - Navigate to General \&gt; Set up \&gt; Intercompany menu item in the saved vendor record
+ - In Trading relationship tab set Active flag to Yes
+ - Select Vendor company GBPM and set My account record to the customer created in step d
 
 3. **Configure Intercompany settings in Project Management and Accounting Parameters.** Click Project management and accounting \&gt; Setup \&gt; Project management accounting parameters, and then click the Intercompany tab.
 
@@ -71,20 +71,20 @@ Next, select lending legal entity GBPM. Navigate to Project Management and Accou
 
 Example: Contoso Robotics UK Developer resource cost is 88 GBP per hour. Contoso Robotics UK will bill Contoso Robotics USA 120 USD per each hour this resource worked on US projects. Contoso Robotics USA will bill customer Adventure works 200 USD for work performed by Contoso Robotics UK resource.
 
-1. In Project Operations on CDS create cost price list Contoso Robotics UK:
-  1. Navigate to Sales \&gt; Price lists and create a cost price list called Contoso Robotics UK cost rates. In the cost price list create the following record:
-    1. Role – Developer
-    2. Cost – 88 GBP
-  2. Navigate to Settings \&gt; Organizational units and attach this cost price list to Contoso Robotics UK organizational unit
-2. In Project Operations on CDS create a cost price list Contoso Robotics USA:
-  1. Navigate to Sales \&gt; Price lists and create a cost price list called Contoso Robotics USA cost rates. In the cost price list create the following record:
-    1. Role – Developer
-    2. Resourcing company – Contoso Robotics UK
-    3. Cost – 120 USD
-  2. Navigate to Settings \&gt; Organizational units and attach this cost price list to Contoso Robotics USA organizational unit.
-3. In Project Operations on CDS create a sales price list for Adventure works project contract:
-  1. Navigate to Sales \&gt; Price lists and create a sales price list called Adventure works bill rates. In the sales price list create the following record:
-    1. Role – Developer
-    2. Resourcing company – Contoso Robotics UK
-    3. Bill rate – 200 USD
-  2. Navigate to Sales \&gt; Project contracts and attach this bill price list to Adventure works project price list of the project contract.
+ - In Project Operations on CDS create cost price list Contoso Robotics UK:
+   a. Navigate to Sales \&gt; Price lists and create a cost price list called Contoso Robotics UK cost rates. In the cost price list create the following record:
+    i. Role – Developer
+    ii. Cost – 88 GBP
+   b. Navigate to Settings \&gt; Organizational units and attach this cost price list to Contoso Robotics UK organizational unit
+ - In Project Operations on CDS create a cost price list Contoso Robotics USA:
+  a. Navigate to Sales \&gt; Price lists and create a cost price list called Contoso Robotics USA cost rates. In the cost price list create the following record:
+    i. Role – Developer
+    ii. Resourcing company – Contoso Robotics UK
+    iii. Cost – 120 USD
+ b.  Navigate to Settings \&gt; Organizational units and attach this cost price list to Contoso Robotics USA organizational unit.
+- In Project Operations on CDS create a sales price list for Adventure works project contract:
+  a. Navigate to Sales \&gt; Price lists and create a sales price list called Adventure works bill rates. In the sales price list create the following record:
+    i. Role – Developer
+    ii. Resourcing company – Contoso Robotics UK
+    iii. Bill rate – 200 USD
+  b. Navigate to Sales \&gt; Project contracts and attach this bill price list to Adventure works project price list of the project contract.
