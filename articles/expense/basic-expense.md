@@ -32,6 +32,10 @@ After you've finished capturing all your expenses, and you're ready to have them
 1. Go to **Expenses**, and select an expense. Or, select all the expenses by using the check box on the header.
 2. Select **Submit**. The system processes the selected entries and then creates expense approval requests.
 
+## How to add an attachment
+
+As you may have to provide the approver additional supporting documentation you are able to attach a receipt within the timeline of the entry. This you can do by pressing **Edit** in the ribbon and using the attach function on the timeline.
+
 ## Recall a basic expense
 
 When you submit an expense by mistake, you can recall it. The time that is required to recall an expense entry depends on its approval stage.  If the approver hasn't yet approved the entry, the recall can occur immediately. However, if the entry has already been approved, the approver is asked to approve the recall and reverse the transactions.
