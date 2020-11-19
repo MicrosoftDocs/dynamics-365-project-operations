@@ -13,7 +13,7 @@ ms.author: sigitac
 
 ---
 
-# Intercompany invoicing
+# Intercompany invoicing overview
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
