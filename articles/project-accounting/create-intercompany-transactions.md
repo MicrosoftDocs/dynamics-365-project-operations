@@ -47,7 +47,7 @@ Accounting for project actuals is recorded in the Project Operations integration
 | Resourcing unit cost | Lending legal entity integration journal | No | Intercompany customer | **Billing sales tax group**: Based on the **intercompany customer** <br/> **Billing item sales tax group**: From the current legal entity project category on the journal line |
 | Inter-organizational sales | Lending legal entity integration journal | No | Intercompany customer | **Billing sales tax group**: Based on the **intercompany customer** <br/> **Billing item sales tax group**: From the current legal entity project category on the journal line |
 
-### Intercompany transaction example
+### Example: Intercompany transactions
 
 Molly Clark, developer employed in GBPM records 10 hours of work against a USPM Adventure Works project, which is approved by the project manager. Developer cost in GBPM is 88 GBP per hour. GBPM will bill USPM 120 USD per developer hour. USPM will bill the customer Adventure Works, 200 USD for work performed by the GBPM resource. For more information, see [Configure intercompany invoicing](configure-intercompany-invoicing.md).
 
