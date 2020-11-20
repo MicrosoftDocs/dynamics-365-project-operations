@@ -3,7 +3,7 @@ title: Expense entry (lite)
 description: This topic provides information about how to work with expense entry in a lite deployment.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
@@ -32,9 +32,9 @@ After you've finished capturing all your expenses, and you're ready to have them
 1. Go to **Expenses**, and select an expense. Or, select all the expenses by using the check box on the header.
 2. Select **Submit**. The system processes the selected entries and then creates expense approval requests.
 
-## How to add an attachment
+## Add an attachment
 
-As you may have to provide the approver additional supporting documentation you are able to attach a receipt within the timeline of the entry. This you can do by pressing **Edit** in the ribbon and using the attach function on the timeline.
+You may have to provide the approved with additional documentation regarding your expense. You can attach a receipt in the timeline of the expense entry. To do this, select **Edit** and in the **Timeline** section, select the paperclip icon to attach your recipt.
 
 ## Recall a basic expense
 
