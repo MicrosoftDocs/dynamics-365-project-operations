@@ -14,6 +14,8 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 This topic explains how to subscribe to the preview/partner offer and deploy Project Operations environment for resource/ non-stocked based scenarios.
 
 ## Prerequisites
