@@ -128,6 +128,14 @@
         href: pro/sales/confirm-contract-sales.md
       - name: Copy a project contract
         href: pro/sales/copy-project-contracts-sales.md
+      - name: Advances and retainers
+        items: 
+        - name: Advances and retainer-based contracts - lite
+          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+        - name: Set up a retainer schedule - lite
+          href: pro/sales/set-up-schedule-retainers-sales.md
+        - name: Create an ad hoc advance on a contract - lite
+          href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
     - name: Price list setup
@@ -371,6 +379,8 @@
       href: proforma-invoicing/create-manual-proforma-invoice.md
     - name: Manage a proforma project invoice
       href: proforma-invoicing/manage-proforma-invoice.md
+    - name: Invoice a retainer or an advance
+      href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
     - name: Confirm a proforma project invoice
       href: proforma-invoicing/confirm-proforma-invoice.md
     - name: Configure project invoice automation

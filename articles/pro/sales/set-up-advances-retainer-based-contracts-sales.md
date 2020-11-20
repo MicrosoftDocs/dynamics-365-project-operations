@@ -1,5 +1,5 @@
 ---
-title: Advances and retainer-based contracts - lite
+title: Advances and retainer-based contracts
 description: This topic provides information about retainer-based contracting models and advances in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,10 +10,10 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Advances and retainer-based contracts - lite
+# Advances and retainer-based contracts
 
 
-_**Applies To:** Lite deployment- deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Dynamics 365 Project Operations supports retainer-based contracts. A retainer-based contract is a negotiated set of equally distributed payments that the customer will be invoiced for throughout the duration of a project. This type of contract is typically used for time and material or consumption-based billing models where there is a need to give the customer a predictable invoice and payment schedule. Revenue actuals accrued each period are reconciled against the payment received from the customer at the beginning of the period. In accordance with the concept of the Time and Material billing model, revenue values accrued in each period can vary with the costs incurred. If the revenue accrued is more than the amount received at the beginning of the period, the project delivery company could:
 
