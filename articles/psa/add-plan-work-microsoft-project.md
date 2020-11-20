@@ -172,5 +172,61 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] template to read-only.  In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
+## Read a resource loaded schedule
+
+When reading a project from PSA, the resource&#39;s calendar is not synchronized to the desktop client. Therefore, if differences in task durations, effort and end date are observed it is likely due to the fact that the resources in the desktop client do not have the same calendar of the work hour template applied to the project PSA.
+
+## Read a resource loaded schedule
+
+When reading a project from PSA, the resource&#39;s calendar is not synchronized to the desktop client. Therefore, if differences in task durations, effort and end date are observed it is likely due to the fact that the resources in the desktop client do not have the same calendar of the work hour template applied to the project PSA.
+
+## Data Synchronization
+
+The following below outlines how data is synchronized between PSA and the MS Project desktop add-in.
+
+| **Entity** | **Field** | **MSP to PSA** | **PSA to MSP** |
+| --- | --- | --- | --- |
+| Project Task | Due Date | ● | - |
+| Project Task | Estimated Effort | ● | - |
+| Project Task | MS Project Client Id | ● | - |
+| Project Task | Parent Task | ● | - |
+| Project Task | Project | ● | - |
+| Project Task | Project task | ● | - |
+| Project Task | Project Task Name | ● | - |
+| Project Task | Resourcing unit (Deprecated in v3.0) | ● | - |
+| Project Task | Scheduled Duration | ● | - |
+| Project Task | Start Date | ● | - |
+| Project Task | WBS ID | ● | - |
+
+| **Entity** | **Field** | **MSP to PSA** | **PSA to MSP** |
+| --- | --- | --- | --- |
+| Team Member | MS Project Client Id | ● | - |
+| Team Member | Position Name | ● | - |
+| Team Member | project | ● | ● |
+| Team Member | Project Team | ● | ● |
+| Team Member | Resourcing Unit | - | ● |
+| Team Member | Role | - | ● |
+| Team Member | Working Hours | Not synced | Not synced |
+
+| **Entity** | **Field** | **MSP to PSA** | **PSA to MSP** |
+| --- | --- | --- | --- |
+| Resource Assignment | From Date | ● | - |
+| Resource Assignment | Hours | ● | - |
+| Resource Assignment | MS Project Client Id | ● | - |
+| Resource Assignment | Planned Work | ● | - |
+| Resource Assignment | Project | ● | - |
+| Resource Assignment | Project Team | ● | - |
+| Resource Assignment | Resource Assignment | ● | - |
+| Resource Assignment | Task | ● | - |
+| Resource Assignment | To Date | ● | - |
+
+| **Entity** | **Field** | **MSP to PSA** | **PSA to MSP** |
+| --- | --- | --- | --- |
+| Project Task Dependencies | Project Task Dependency | ● | - |
+| Project Task Dependencies | Link Type | ● | - |
+| Project Task Dependencies | Predecessor Task | ● | - |
+| Project Task Dependencies | Project | ● | - |
+| Project Task Dependencies | Successor Task | ● | - |
+
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
