@@ -34,7 +34,7 @@ After you've finished capturing all your expenses, and you're ready to have them
 
 ## Add an attachment
 
-You may have to provide the approved with additional documentation regarding your expense. You can attach a receipt in the timeline of the expense entry. To do this, select **Edit** and in the **Timeline** section, select the paperclip icon to attach your recipt.
+You may have to provide the approver with additional documentation about your expense. You can attach a receipt in the timeline of the expense entry. Select **Edit** and in the **Timeline** section, and then select the paperclip icon to attach your receipt.
 
 ## Recall a basic expense
 
