@@ -25,6 +25,7 @@ search.app:
 # Working with the Project Service Automation data model
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Service Automation extends other app entities and introduces its own entities in the Common Data Service data model. This topic describes some of the entities that you will encounter in typical PSA reporting scenarios.
 
