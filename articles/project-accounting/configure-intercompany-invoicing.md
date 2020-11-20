@@ -32,7 +32,7 @@ In the following example, Contoso Robotics USA (USPM) is the borrowing legal ent
 2. **Configure the trading relationship between legal entities**. The customer record representing the borrowing legal entity must be created in the lending legal entity. The vendor record representing the lending legal entity must be created in the borrowing legal entity.
 
      1. In Finance, select the legal entity **GBPM**.
-     2. Go to **Accounts receivable** > **Customer** > **All customers**,. Create a new record for the legal entity, **USPM**.
+     2. Go to **Accounts receivable** > **Customer** > **All customers**. Create a new record for the legal entity, **USPM**.
      3. Expand **Name**, filter the records by **Type** and select **Legal entities**. 
      4. Find and select the customer record for **Contoso Robotics USA (USPM)**.
      5. Select **Use match**. 
@@ -79,7 +79,7 @@ In the following example, Contoso Robotics USA (USPM) is the borrowing legal ent
 
 5. **Set up transfer pricing for labor**. Intercompany transfer pricing is configured in Project Operations on Dataverse. Configure [labor cost rates](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) and [labor bill rates](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) for intercompany invoicing. Transfer pricing isn't supported for intercompany expense transactions. The inter-organization unit sale price will always be set to the same value as the resourcing unit cost price.
 
-      The developer resource cost in Contoso Robotics UK is 88 GBP per hour. Contoso Robotics UK will bill Contoso Robotics USA 120 USD for each hour this resource worked on US projects. Contoso Robotics USA will bill the customer Adventure Works 200 USD for the work performed by the Contoso Robotics UK developer resource.
+      The developer resource cost in Contoso Robotics UK is 88 GBP per hour. Contoso Robotics UK will bill Contoso Robotics USA 120 USD for each hour this resource worked on US projects. Contoso Robotics USA will bill the customer Adventure Works 200 USD for the work done by the Contoso Robotics UK developer resource.
 
       1. In Project Operations on Dataverse, go to **Sale** > **Price lists**. Create a new cost price list called **Contoso Robotics UK cost rates.** 
       2. In the cost price list, create a record with the following information:
