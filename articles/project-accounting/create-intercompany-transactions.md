@@ -20,7 +20,7 @@ Intercompany transactions are time and expense transactions from a project contr
 
 When an intercompany transaction is approved, the following actual transactions are created
 
-| **Transaction type** | **Pricelist applied** | **Transaction currency** |
+| **Transaction type** | **Price list applied** | **Transaction currency** |
 | --- | --- | --- |
 | Cost | Contracting unit cost price list | Currency on the price line |
 | Unbilled sales. These are created only for actuals that are associated with a contract line with the billing type, time, and material. | Contract project sales price list | Contract currency |
@@ -29,12 +29,12 @@ When an intercompany transaction is approved, the following actual transactions 
 
 Cost, resourcing unit cost, and inter-organizational unit sales transaction pricing and currency is driven by **organizational unit**. This is important to remember when deciding how to structure companies and organizational units in your implementation.
 
-When you create opportunity, quote, project contract, and project records, the system verifies that the contracting unit's currency matches the contracting company's accounting currency. When they are not the same, these records can't be created. The organizational unit currency is defined in Dynamics 365 Project Operations by going to **Dataverse** > **Settings** > **Organizational units**. A company's accounting currency is defined in Dynamics 365 Finance by going to **General ledger** > **Ledger setup** > **Ledger**. The currency is synchronized to your Dataverse environment using Ledgers Dual Write map.
+When you create opportunity, quote, project contract, and project records, the system verifies that the contracting unit's currency matches the contracting company's accounting currency. When they aren't the same, these records can't be created. The organizational unit currency is defined in Dynamics 365 Project Operations by going to **Dataverse** > **Settings** > **Organizational units**. A company's accounting currency is defined in Dynamics 365 Finance by going to **General ledger** > **Ledger setup** > **Ledger**. The currency is synchronized to your Dataverse environment using Ledgers Dual Write map.
 
 The system creates resourcing unit cost and inter-organizational unit sales actuals  in the following situations:
 
-  - When the resourcing unit differs from the contracting unit.
-  - When the resourcing company differs from contracting company. 
+  - When the resourcing unit differs from the contracting unit
+  - When the resourcing company differs from contracting company
 
 However, only transactions that have a different resourcing company from the contracting company will be transferred to the Dynamics 365 Finance environment for additional accounting.
 
@@ -49,7 +49,7 @@ Accounting for project actuals is recorded in the Project Operations integration
 
 ### Example: Intercompany transactions
 
-Molly Clark, developer employed in GBPM records 10 hours of work against a USPM Adventure Works project, which is approved by the project manager. Developer cost in GBPM is 88 GBP per hour. GBPM will bill USPM 120 USD per developer hour. USPM will bill the customer Adventure Works, 200 USD for work performed by the GBPM resource. For more information, see [Configure intercompany invoicing](configure-intercompany-invoicing.md).
+Molly Clark, developer employed in GBPM records 10 hours of work against a USPM Adventure Works project, which is approved by the project manager. Developer cost in GBPM is 88 GBP per hour. GBPM will bill USPM 120 USD per developer hour. USPM will bill the customer Adventure Works, 200 USD for work done by the GBPM resource. For more information, see [Configure intercompany invoicing](configure-intercompany-invoicing.md).
 
 1. In Project Operations, go to **Resources**, and select **Molly Clark** from the list. On the **Scheduling** tab, in the **Company** field, select **GBPM**.
 2. Go to **Sales** > **Customers**, and select **New** to create a new customer record for Adventure Works.
