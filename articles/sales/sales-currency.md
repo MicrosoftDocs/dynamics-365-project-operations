@@ -33,6 +33,8 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 Currencies determine the prices for products in the product catalog and the cost of transactions, such as sales orders. If your customers are spread across geographies, add their currencies to manage your transactions. Add the currencies that are most appropriate for your current and future business needs.  
 
 > [!NOTE]
