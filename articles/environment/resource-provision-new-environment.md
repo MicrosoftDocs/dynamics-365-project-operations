@@ -14,6 +14,8 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 This topic provides information about how to provision a new Dynamics 365 Project Operations environment for resource/non-stocked based scenarios.
 
 ## Enable Project Operations automated provisioning in an LCS project
