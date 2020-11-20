@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Intercompany transactions are time and expense transactions from a project contract that belong to one company or organizational unit, while the resources on the project contract are part of a different company or organizational unit.
 
-When an intercompany transaction is approved, the following actual transactions are created:
+When an intercompany transaction is approved, the following actual transactions are created
 
 | **Transaction type** | **Pricelist applied** | **Transaction currency** |
 | --- | --- | --- |
