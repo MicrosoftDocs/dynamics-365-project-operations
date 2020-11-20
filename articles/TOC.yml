@@ -387,6 +387,16 @@
       href: project-accounting/configure-accounting-billable-projects.md
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
+    - name: Intercompany invoicing
+      items: 
+      - name: Intercompany invoicing overview
+        href: project-accounting/intercompany-invoicing-overview.md
+      - name: Configure intercompany invoicing
+        href: project-accounting/configure-intercompany-invoicing.md
+      - name: Create intercompany customer and vendor invoices
+        href: project-accounting/create-intercompany-customer-vendor-invoices.md
+      - name: Create intercompany transactions
+        href: project-accounting/create-intercompany-transactions.md
   - name: Revenue recognition
     items:
     - name: Revenue recognition overview
