@@ -26,8 +26,8 @@ In the following example, Contoso Robotics USA (USPM) is the borrowing legal ent
     
     1. In Dynamics 365 Finance, go to **General Ledger** > **Posting setup** > **Intercompany accounting** and create a record with the following information:
 
-      - **Originating company** = **GBPM**
-      - **Destination company** = **USPM**
+        - **Originating company** = **GBPM**
+        - **Destination company** = **USPM**
 
 2. **Configure the trading relationship between legal entities**. The customer record representing the borrowing legal entity must be created in the lending legal entity. The vendor record representing lending legal entity must be created in the borrowing legal entity.
 
@@ -56,10 +56,10 @@ In the following example, Contoso Robotics USA (USPM) is the borrowing legal ent
     6. In the **When lending resources** group, select **...** > **New**. 
     7. In the grid select the following field information:
 
-      - **Borrowing legal entity** = **GBPM**
-      - **Accrue revenue** = **Yes**
-      - **Default timesheet category** = **Default – Hour**
-      - **Default expense category** = **Default – expense**
+          - **Borrowing legal entity** = **GBPM**
+          - **Accrue revenue** = **Yes**
+          - **Default timesheet category** = **Default – Hour**
+          - **Default expense category** = **Default – expense**
 
 4. **Set intercompany cost and revenue accounts in Ledger posting setup**. The intercompany revenue account is credited when the Intercompany customer invoice is posted in the lending legal entity. The intercompany cost account is debited when matching pending vendor invoice is posted in the borrowing legal entity. These accounts are set up in corresponding legal entities. 
       
