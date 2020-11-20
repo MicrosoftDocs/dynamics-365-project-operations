@@ -155,6 +155,7 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 | --- | --- | --- | --- | --- | --- |
 | **Project Resource Roles for All Companies (bookableresourcecategories)** | No | Yes | Common Data Service | No | N\A |
 | **Legal entities (cdm\_companies)** | No | Yes | Finance and Operations apps | No | N\A |
+| **Ledger (msdyn_ledgers)** | No | Yes | Finance and Operations apps | Yes | Yes, Finance and Operations apps |
 | **Project Operations integration actuals (msdyn\_actuals)** | No | No | N\A | Yes | No |
 | **Project contract lines (salesorderdetails)** | No | No | N\A | No | No |
 | **Integration entity for project transaction relationships (msdyn\_transactionconnections)** | No | No | N\A | No | N\A |
