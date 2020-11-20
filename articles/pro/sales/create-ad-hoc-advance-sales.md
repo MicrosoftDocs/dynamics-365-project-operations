@@ -1,5 +1,5 @@
 ---
-title: Creating an ad hoc advance on a contract - lite
+title: Creating an ad hoc advance on a contract
 description: This topic provides information about creating an advance on a contract as needed.
 author: rumant
 manager: Annbe
@@ -10,9 +10,9 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Creating an ad hoc advance on a contract - lite
+# Creating an ad hoc advance on a contract
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Microsoft Dynamics 365 Project Operations supports invoicing scenarios that involve pre-payments and advances. The process for using **Advances** in **Project Operations** is similar to **Retainer** contracts. 
 
