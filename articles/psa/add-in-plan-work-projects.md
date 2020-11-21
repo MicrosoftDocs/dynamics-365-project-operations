@@ -6,7 +6,7 @@ manager: kfend
 ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/20/202-
+ms.date: 11/20/2020
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -22,7 +22,7 @@ search.app:
 
 # Plan your work in Microsoft Project with the Project Service add-in
 
-[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x)]
+[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes it easier for you to do your project planning, including estimates. You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.  
 
