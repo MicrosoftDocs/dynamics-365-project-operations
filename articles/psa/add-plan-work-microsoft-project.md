@@ -20,9 +20,6 @@ search.app:
   - ProjectOperations
 ---
 
-
-
-
 # Use the Project Service Automation Add-in to plan your work in Microsoft Project
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -174,17 +171,14 @@ Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-pr
 
 ## Read a resource loaded schedule
 
-When reading a project from PSA, the resource&#39;s calendar is not synchronized to the desktop client. Therefore, if differences in task durations, effort and end date are observed it is likely due to the fact that the resources in the desktop client do not have the same calendar of the work hour template applied to the project PSA.
+When reading a project from Project Service Automation, the resource's calendar isn't synchronized to the desktop client. If there are differences in the task durations, effort, or end, it's probably because the resources and the desktop client don't have the same work hour template calendar applied to the project.
 
-## Read a resource loaded schedule
-
-When reading a project from PSA, the resource&#39;s calendar is not synchronized to the desktop client. Therefore, if differences in task durations, effort and end date are observed it is likely due to the fact that the resources in the desktop client do not have the same calendar of the work hour template applied to the project PSA.
 
 ## Data Synchronization
 
-The following below outlines how data is synchronized between PSA and the MS Project desktop add-in.
+The following table outlines how data is synchronized between Project Service Automation and the Microsoft Project desktop add-in.
 
-| **Entity** | **Field** | **MSP to PSA** | **PSA to MSP** |
+| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
 | Project Task | Due Date | ● | - |
 | Project Task | Estimated Effort | ● | - |
@@ -198,7 +192,7 @@ The following below outlines how data is synchronized between PSA and the MS Pro
 | Project Task | Start Date | ● | - |
 | Project Task | WBS ID | ● | - |
 
-| **Entity** | **Field** | **MSP to PSA** | **PSA to MSP** |
+| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
 | Team Member | MS Project Client Id | ● | - |
 | Team Member | Position Name | ● | - |
@@ -208,7 +202,7 @@ The following below outlines how data is synchronized between PSA and the MS Pro
 | Team Member | Role | - | ● |
 | Team Member | Working Hours | Not synced | Not synced |
 
-| **Entity** | **Field** | **MSP to PSA** | **PSA to MSP** |
+| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
 | Resource Assignment | From Date | ● | - |
 | Resource Assignment | Hours | ● | - |
@@ -220,7 +214,7 @@ The following below outlines how data is synchronized between PSA and the MS Pro
 | Resource Assignment | Task | ● | - |
 | Resource Assignment | To Date | ● | - |
 
-| **Entity** | **Field** | **MSP to PSA** | **PSA to MSP** |
+| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
 | Project Task Dependencies | Project Task Dependency | ● | - |
 | Project Task Dependencies | Link Type | ● | - |
