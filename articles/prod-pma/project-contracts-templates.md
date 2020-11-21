@@ -34,6 +34,8 @@ ms.dyn365.ops.version: AX 7.3.0
 
 [!include[banner](../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 This topic describes the template and underlying tasks that are used to synchronize project contracts and projects directly from Dynamics 365 Project Service Automation to Dynamics 365 Finance.
 
 > [!NOTE] 

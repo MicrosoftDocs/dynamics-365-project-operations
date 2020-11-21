@@ -14,6 +14,8 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 Dynamics 365 Project Operations for resource/non-stocked scenarios consists of two components: 
 
  - **Project Operations on Common Data Service (CDS) environment**: This component covers capabilities and processes from opportunity to proforma invoicing. 

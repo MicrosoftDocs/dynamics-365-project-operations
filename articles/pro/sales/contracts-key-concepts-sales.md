@@ -14,6 +14,8 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 This topic provides the key concepts to be aware of before you begin using Project contracts in Dynamics 365 Project Operations:
 
 ## Contracting Unit

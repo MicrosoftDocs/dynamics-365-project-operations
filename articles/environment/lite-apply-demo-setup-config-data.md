@@ -14,6 +14,8 @@ ms.author: sigitac
 
 _**Lite deployment - deal to proforma invoicing_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 ## Prerequisites
 
 Before you begin the configuration, you must have a Common Data Service (CDS) environment provisioned for Dynamics 365 Project Operations.
