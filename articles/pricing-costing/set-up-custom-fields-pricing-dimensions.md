@@ -46,9 +46,15 @@ This topic provides information about setting up custom pricing dimensions. On t
 For a field to become a pricing dimension, it must be:
 
 - Created as a field in the **Role Price** and **Role Price markup** entities. For more information on how to do this, see [Add custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md).
+
 - Created as a row in the **Pricing Dimension** table. For example, add pricing dimension rows as shown in the following graphic. 
 
+![Amount - based Pricing Dimension Rows](media/Amt-based-PD.png)
+
 Resource Work hours (**msdyn_resourceworkhours**) is added as a markup-based dimension and has been added to the grid on the **Markup Based Pricing Dimension** tab.
+
+![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Any change to pricing dimension data in this table, existing or new, is propagated to the pricing business logic only after the cache is refreshed. The cache refresh time may take up to 10 minutes. Allow that length of time to see the changes in price defaulting logic that must result from changes to the Pricing Dimension data.
