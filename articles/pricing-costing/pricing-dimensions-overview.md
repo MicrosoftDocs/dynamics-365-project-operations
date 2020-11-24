@@ -52,10 +52,11 @@ With these fields enabled, you can set up the price and cost for each role and o
 
 If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics, however note that you must complete the procedures in the order listed below:
 
-1. [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md)
-2. [Add custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md)
-3. [Set up custom fields as pricing dimensions](set-up-custom-fields-pricing-dimensions.md)
-4. [Update plug-in attributes to include new pricing dimensions](update-plugin-attributes-pd.md)
+1. [Create a solution for custom pricing dimensions](../sales/create-solution-custompd.md)
+2. [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md)
+3. [Add custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md)
+4. [Set up custom fields as pricing dimensions](set-up-custom-fields-pricing-dimensions.md)
+5. [Update plug-in attributes to include new pricing dimensions](update-plugin-attributes-pd.md)
 
 
 ## Pricing human resource time
