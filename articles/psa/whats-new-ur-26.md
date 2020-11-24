@@ -13,7 +13,7 @@ online solutions page to install the update. For more information, see [Install,
 update, or remove a preferred
 solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
-This topic lists the features and fixes that are new or changed for Project Service Automation Update Release 26, V3. This version has a build number of V3.10.44.56 and is generally available through a self-update in December 2020.
+This topic lists the features and fixes that are new or changed for Project Service Automation Update Release 26, V3. This version has a build number of V3.10.44.59 and is generally available through a self-update in December 2020.
 
 Update Release 26
 -----------------
