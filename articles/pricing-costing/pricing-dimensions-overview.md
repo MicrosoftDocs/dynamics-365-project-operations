@@ -48,7 +48,15 @@ Because of this, there are two types of pricing dimension values available:
 Dynamics 365 Project Operations ships with a default set of pricing dimensions. You can view these pricing dimensions by going to **Project Operations** > **Parameters**. In the parameter record, on the **Amount-based pricing dimensions** tab, verify that the role, **msdyn_resourcecategory** and resourcing organizational unit, **msdyn_organizationalunit** have the fields **Applicable to sales** and **Applicable to cost** set to **Yes**. 
 With these fields enabled, you can set up the price and cost for each role and organizational unit combination.
 
-If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions.
+![Screenshot of Project Service parameters with “Applicable to Sales” highlighted](media/PS-OOB-parameters.png)
+
+If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics, however note that you must complete the procedures in the order listed below:
+
+- [Create custom fields and entities](create-custom-fields-entities.md)
+- [Add custom fields to price setup and transactional entities](field-references.md)
+- [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md)
+- [Update plug-in attributes to include new pricing dimensions](update-plug-in-attributes.md)
+
 
 ## Pricing human resource time
 How an organization prices human resource time is often an important strategic consideration that directly affects the organization's profitability. Work with the finance teams and practice heads when your organization is ready to identify how it wants to set up bill and cost rates for human resource time.
