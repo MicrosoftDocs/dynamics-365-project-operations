@@ -13,9 +13,7 @@ online solutions page to install the update. For more information, see [Install,
 update, or remove a preferred
 solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
-This topic lists the features and fixes that are new or changed for Project
-Service Automation V3, Update Release 26 This version has a build number of
-V3.10.44.56 and is generally available through a self-update in December 2020.
+This topic lists the features and fixes that are new or changed for Project Service Automation Update Release 26, V3. This version has a build number of V3.10.44.56 and is generally available through a self-update in December 2020.
 
 Update Release 26
 -----------------
@@ -27,66 +25,66 @@ Update Release 26
 The following issues have been fixed:
 
 -   Users are able to change the task on a time entry that has been
-    approved/Submitted.
+    approved/submitted.
 
--   "Object Reference Not Set" Error when saving Time Entry.
+-   "Object Reference Not Set" error when saving time entry.
 
--   Time Entry Import from resource assignments creates time entries with the
+-   Time entry import from resource assignments creates time entries with the
     incorrect DateTime values.
 
--   When Project Service Automation are both installed, the "New" button is
-    displaying twice on command bar for Time Entries in the Field Service app.
+-   When Project Service Automation and the Field Service app are both installed, the **New** button is
+    displaying twice on the command bar for time entries in the Field Service app.
 
--   Allow Unit and Unit group cells updates on Expense Estimates grid.
+-   **Allow Unit** and **Unit group** cells updates now work on the **Expense Estimates** grid.
 
--   Update Time entry edit form to include Timeline.
+-   **Update Time Entry Edit** form includes **Timeline**.
 
--   Time Approval for non project time entries block as the system is looking
+-   Time approval for non-project time entries blocks the system when searching
     for a project approver role.
 
 **Resource Management**
 
 The following issues have been fixed:
 
--   Added validation in the **PostProjectCreate** plugin to check for a Primary
-    Requirement before Creating one.
+-   Added validation in the **PostProjectCreate** plug-in to check for a primary
+    requirement before creating one.
 
--   Project Team Member quick create form throws a null reference exception if
+-   **Project Team Member** quick create form throws a null reference exception if
     fields are removed from the form.
 
--   Generate Requirements for 12 hours over 1 year will fail.
+-   Generate requirements for 12 hours over 1 year will fail.
 
--   Improved error message null reference exception during Resource Requirement
-    Creation.
+-   Improved error message null reference exception during resource requirement
+    creation.
 
 **Project Management**
 
 The following issues have been fixed:
 
--   Improved validation to address null reference exception generated on the
-    **PreProjectUpdate** plugin.
+-   Improved validation to address null reference exception generated in the
+    **PreProjectUpdate** plug-in.
 
 -   Projects published by the Microsoft Project desktop add-in delete unassigned
     assignments.
 
 -   Added new validation when a task’s project reference is invalid due to null
-    reference exception in **PreValidateProjectTaskUpdate** plugin.
+    reference exception in **PreValidateProjectTaskUpdate** plug-in.
 
 -   Team Member grid does not show distinct assignments on the team member
     record.
 
--   Add new validation and error messages due to null reference exception in
-    **PreProjectTaskDelete** plugin.
+-   Added new validation and error messages due to null reference exception in
+    **PreProjectTaskDelete** plug-in.
 
 **Sales**
 
 The following issues have been fixed:
 
--   When selecting a project based line in quote or contract, the suggestion
-    button is should only be visible on selecting product based line associated
+-   When selecting a project-based line in quote or contract, the **Suggestion**
+    button should only be visible when selecting a product-based line associated
     with an existing product.
 
 -   Split **Create_Product** privilege from **Create_ProjectContract** privilege.
 
--   Deleting an invoice line causes null ref failure
+-   Deleting an invoice line causes null reference failure on
     **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
