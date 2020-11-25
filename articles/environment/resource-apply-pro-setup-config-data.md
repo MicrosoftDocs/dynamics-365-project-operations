@@ -14,6 +14,8 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 ## Prerequisites
 
 Before you beging to configure data in the Common Data Service (CDS), the following prerequisites must be met:

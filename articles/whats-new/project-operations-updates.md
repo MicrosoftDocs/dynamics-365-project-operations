@@ -14,6 +14,8 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios_
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 ## Project Operations components
 
 Dynamics 365 Project Operations consists of two components:
@@ -36,9 +38,9 @@ Updates for Project Operations on CDS environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.4.0.70       | TBD     | 20-Nov-20           |
-|    &nbsp; | Canada        |  4.4.0.70       | TBD     | 20-Nov-20           |
-|   &nbsp;  | India         |  4.4.0.70       | TBD     | 20-Nov-20           |
+|   &nbsp;  | South America |  4.4.0.70       | TBD     | 04-Dec-20           |
+|    &nbsp; | Canada        |  4.4.0.70       | TBD     | 04-Dec-20          |
+|   &nbsp;  | India         |  4.4.0.70       | TBD     | 04-Dec-20           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | Japan         |  4.4.0.70       | TBD     | 04-Dec-20           |
 |   &nbsp;  | Asia Pacific  |  4.4.0.70       | TBD     | 04-Dec-20           |

@@ -20,9 +20,6 @@ search.app:
   - ProjectOperations
 ---
 
-
-
-
 # Use the Project Service Automation Add-in to plan your work in Microsoft Project
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -83,14 +80,14 @@ search.app:
 ## Publish your project  
 When your project planning is complete, the next step is to import and publish the project in to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. The pricing and team generation process are applied. Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure has been generated. The following table shows where to find the results:
+The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. The pricing and team generation process are applied. Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure have been generated. The following table shows where to find the results:
 
 
 |                                                                                          |                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt Chart**   | Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Work Breakdown Structure** screen. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resource Sheet** |   Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Team Members** screen.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Use Usage**    |    Omports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Estimates** screen.     |
+|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Use Usage**    |    Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Estimates** screen.     |
 
 **To import and publish your project**  
 1. From the **Project Service** tab, click **Publish** > **New Project Service Automation Project**.  
@@ -171,6 +168,59 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 4. Click **Publish**.  
 
 Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] template to read-only.  In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
+
+## Read a resource loaded schedule
+
+When reading a project from Project Service Automation, the resource's calendar isn't synchronized to the desktop client. If there are differences in the task durations, effort, or end, it's probably because the resources and the desktop client don't have the same work hour template calendar applied to the project.
+
+
+## Data Synchronization
+
+The following table outlines how data is synchronized between Project Service Automation and the Microsoft Project desktop add-in.
+
+| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
+| --- | --- | --- | --- |
+| Project Task | Due Date | ● | - |
+| Project Task | Estimated Effort | ● | - |
+| Project Task | MS Project Client ID | ● | - |
+| Project Task | Parent Task | ● | - |
+| Project Task | Project | ● | - |
+| Project Task | Project task | ● | - |
+| Project Task | Project Task Name | ● | - |
+| Project Task | Resourcing unit (Deprecated in v3.0) | ● | - |
+| Project Task | Scheduled Duration | ● | - |
+| Project Task | Start Date | ● | - |
+| Project Task | WBS ID | ● | - |
+
+| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
+| --- | --- | --- | --- |
+| Team Member | MS Project Client ID | ● | - |
+| Team Member | Position Name | ● | - |
+| Team Member | project | ● | ● |
+| Team Member | Project Team | ● | ● |
+| Team Member | Resourcing Unit | - | ● |
+| Team Member | Role | - | ● |
+| Team Member | Working Hours | Not synced | Not synced |
+
+| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
+| --- | --- | --- | --- |
+| Resource Assignment | From Date | ● | - |
+| Resource Assignment | Hours | ● | - |
+| Resource Assignment | MS Project Client ID | ● | - |
+| Resource Assignment | Planned Work | ● | - |
+| Resource Assignment | Project | ● | - |
+| Resource Assignment | Project Team | ● | - |
+| Resource Assignment | Resource Assignment | ● | - |
+| Resource Assignment | Task | ● | - |
+| Resource Assignment | To Date | ● | - |
+
+| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
+| --- | --- | --- | --- |
+| Project Task Dependencies | Project Task Dependency | ● | - |
+| Project Task Dependencies | Link Type | ● | - |
+| Project Task Dependencies | Predecessor Task | ● | - |
+| Project Task Dependencies | Project | ● | - |
+| Project Task Dependencies | Successor Task | ● | - |
 
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
