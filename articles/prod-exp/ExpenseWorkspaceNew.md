@@ -22,7 +22,7 @@ ms.search.scope: Operations, Core
 # ms.custom: [used by loc for topics migrated from the wiki]
 ms.search.region: Global 
 # ms.search.industry: [leave blank for most, retail, public sector]
-ms.author: ryansand
+ms.author: suvaidya
 ms.search.validFrom: 2019-6-30 
 ms.dyn365.ops.version: 10.0.3 
 ---

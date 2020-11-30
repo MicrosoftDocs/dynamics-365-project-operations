@@ -1,33 +1,15 @@
----
-# required metadata
-
+--- 
 title: Pricing dimensions overview
 description: This topic provides information about the pricing dimensions in Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: 
 ms.service: project-operations
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
----
+ms.reviewer: kfend 
+ms.author: rumant 
+--- 
 
 # Pricing dimensions overview
 
@@ -48,7 +30,19 @@ Because of this, there are two types of pricing dimension values available:
 Dynamics 365 Project Operations ships with a default set of pricing dimensions. You can view these pricing dimensions by going to **Project Operations** > **Parameters**. In the parameter record, on the **Amount-based pricing dimensions** tab, verify that the role, **msdyn_resourcecategory** and resourcing organizational unit, **msdyn_organizationalunit** have the fields **Applicable to sales** and **Applicable to cost** set to **Yes**. 
 With these fields enabled, you can set up the price and cost for each role and organizational unit combination.
 
-If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions.
+![Screenshot of Project Service parameters with “Applicable to Sales” highlighted](media/PS-OOB-parameters.png)
+
+If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics. 
+  
+  > [!NOTE]
+  > The procedures must be completed in the order they are listed.
+
+1. [Create a solution for custom pricing dimensions](../sales/create-solution-custompd.md)
+2. [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md)
+3. [Add custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md)
+4. [Set up custom fields as pricing dimensions](set-up-custom-fields-pricing-dimensions.md)
+5. [Update plug-in attributes to include new pricing dimensions](update-plugin-attributes-pd.md)
+
 
 ## Pricing human resource time
 How an organization prices human resource time is often an important strategic consideration that directly affects the organization's profitability. Work with the finance teams and practice heads when your organization is ready to identify how it wants to set up bill and cost rates for human resource time.
