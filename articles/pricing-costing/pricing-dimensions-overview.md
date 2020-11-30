@@ -1,33 +1,14 @@
----
-# required metadata
-
+--- 
 title: Pricing dimensions overview
 description: This topic provides information about the pricing dimensions in Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
-ms.prod: 
 ms.service: project-operations
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
----
+ms.reviewer: kfend 
+ms.author: rumant 
+--- 
 
 # Pricing dimensions overview
 
@@ -50,7 +31,10 @@ With these fields enabled, you can set up the price and cost for each role and o
 
 ![Screenshot of Project Service parameters with “Applicable to Sales” highlighted](media/PS-OOB-parameters.png)
 
-If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics, however note that you must complete the procedures in the order listed below:
+If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics. 
+  
+  > [!NOTE]
+  > The procedures must be completed in the order they are listed.
 
 1. [Create a solution for custom pricing dimensions](../sales/create-solution-custompd.md)
 2. [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md)
