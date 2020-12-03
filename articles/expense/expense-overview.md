@@ -19,11 +19,11 @@ Dynamics 365 Project Operations supports the ability to process expenses. Expens
 
 In Project Operations, there are two supported deployment models for Expense: 
 
-- **Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order based scenarios**.
+- **Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order-based scenarios**.
 - **Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.
 
 ## Full 
-Full Expense deployment provides a complete policy enforcement which includes the ability to create policies, such as:
+Full Expense deployment provides a complete policy enforcement that includes the ability to create policies, such as:
 
   - Expense category limits
   - Travel
