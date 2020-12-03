@@ -1,6 +1,6 @@
 ---
-title: Estimate project sales and costs when a bookable resource fills mulitple roles on a project 
-description: This topic provides information about how pricing dimensions can be used to support pricing and costing for a resource that fills mulitple roles on a project.
+title: Estimate project sales and costs when a bookable resource fills multiple roles on a project 
+description: This topic provides information about how pricing dimensions can be used to support pricing and costing for a resource that fills multiple roles on a project.
 author: rumant
 manager: kfend
 ms.custom: 
@@ -19,9 +19,9 @@ search.app:
   - ProjectOperations
 ---
 
-# Estimate project sales and costs when a bookable resource fills mulitple roles on a project 
+# Estimate project sales and costs when a bookable resource fills multiple roles on a project 
 
-Project-based companies often have the need for one resource to perform mulitple roles on a project. Each of these roles could be priced and costed differently which means the same resource's time on the project could get a different financial estimate depending on the bill and cost rates for each of the roles. Project Service Automation allows the setup of the values on the team member record for the named resource and allows for different overrides on each of the tasks that the team member is assigned to.
+Project-based companies often have the need for one resource to perform multiple roles on a project. Each of these roles could be priced and costed differently, which means the same resource's time on the project could get a different financial estimate depending on the bill and cost rates for each of the roles. Project Service Automation allows the setup of the values on the team member record for the named resource and allows for different overrides on each of the tasks that the team member is assigned to.
 
 The following example  explains how the simple override of this value allows a resource to have multiple roles on a project with different cost and bill rates.
 
@@ -46,28 +46,24 @@ Repeat these steps for Task B and make sure that the role and organizational uni
   > If you are completing this scenarios using Project Service Automation demo data, select **Consulting Lead** for the role, and **Fabrikam US** as the organizational unit.
 
 3. Select Task B and then select **Edit task**.
-4. On the **Task Details** page, find the **Role** and **Organizational Unit** fields, add the values that are required of a resource that would perform this task. Make sure that the values in the **Role** and **Organizational Unit** fields are different for Task B from those for Task A. 
+4. On the **Task Details** page, find the **Role** and **Organizational Unit** fields, add the values that are required of a resource that would perform this task. Make sure that the values in the **Role** and **Organizational Unit** fields are different for Task B from the values for Task A. 
 
   > [!NOTE]
   > If you are completing this scenarios using Project Service Automation demo data, select **Network Technician** for the role, and **Fabrikam US** as the organizational unit.
 
 5. Save and close the **Task Details** page. 
 
-## Team member and estimates behaviour 
+## Team member and estimates behavior 
 
-1. On the **Task Details** page, on the**Team Member**, select the two generic team Members and then select **Generate Requirements**. This will generate resource requirements. 
+1. On the **Task Details** page, on the**Team Member**, select the two generic team Members and then select **Generate Requirements**. 
 2. Select the team member row for **Consulting Lead** and then select **Book**. The schedule board opens and books a resource to that requirement.
 3. Select the team member row for **Network Technician** and the select **Book**. The schedule board opens and books the same resource on that requirement.
 
 ### Team Member grid 
 On the **Team Member** grid, notice that the two generic team member records are deleted and have been replaced one resource. There is one set of values for that resource that shows a default set of values for **Role** and **Organizational Unit**.
-When you expand the row of that Team Member record, you can see distinct assignments on the team member record for both of those tasks. Each assignment row has task specific values for **Role** and **Organizational Unit**. 
+When you expand the row of that Team Member record, you can see distinct assignments on the team member record for both of those tasks. Each assignment row has task-specific values for **Role** and **Organizational Unit**. 
 
 ### Estimates grid 
 When you navigate to the **Estimates** grid, you will notice that both assignments for the same resource are priced differently.
 The assignment for the resource on Task A is priced using the **Role** attribute value of **Consulting Lead**. The assignment for the same resource on Task B is priced using the **Role** attribute value of **Network Technician**.
-
-
-
-
 
