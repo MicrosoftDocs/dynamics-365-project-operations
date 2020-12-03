@@ -18,7 +18,7 @@ Product-based opportunity lines are line items on the Opportunity. These distinc
 
 Product-based lines can be catalog items or write-in products. Most of the functionality on an Opportunity's product-based lines follows the functionality provided by the Dynamics 365 Sales application. For more information about product-based opportunity lines, see [Add products to an opportunity](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
 
-**Customer budget** is a concept that is specific to project-based opportunity lines. On the opportunity line, use the **Customer budget** field to track the amount the customer is willing to pay for the item.
+**Customer budget** is a concept that is specific to project-based opportunity lines. On the opportunity line, the **Customer budget** field tracks the amount the customer is willing to pay for the item.
 
-If the revenue method of the Opportunity summary is **System Calculated**, the estimated revenue is calculated by summarizing the customer budget values across the opportunity lines.
+If the revenue method of the Opportunity summary is **System Calculated**, the customer budget values across the opportunity lines are summarized to calculate the estimated revenue. 
 
