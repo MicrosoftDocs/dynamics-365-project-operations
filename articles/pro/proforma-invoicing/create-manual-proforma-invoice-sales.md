@@ -26,6 +26,6 @@ All of the created project invoices are available on the **Invoice** page in the
 
 ## Project Contract details page
 
-A proforma invoice can also be created from the **Project Contract** details page, which creates the invoice for that specific project contract. The system verifies that the project contract has a **Ready to Invoice** backlog dated before today's date. From these contracts, the system creates draft proforma invoices based on the number of customers on each contract line.
+A proforma invoice can also be created from the **Project Contract** details page. The system verifies the project contract has a **Ready to Invoice** backlog dated before today's date. From these contracts, the system creates draft proforma invoices based on the number of customers on each contract line.
 
 When there's a single proforma invoice created, the **Invoice** page opens. If multiple invoices are created for that project contract, the **Invoices** list page opens to show all of the created invoices.
