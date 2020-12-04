@@ -5,6 +5,7 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod:
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
@@ -22,7 +23,7 @@ To set up a customer-specific project price list, in the **Sales** area, navigat
 
 1. Open the **Accounts** list page.
 2. Locate and double-click a customer record to open the **Account** details page.
-3. On the **Project Price lists** tab, select **+ New Project Price List^^.
+3. On the **Project Price lists** tab, select **+ New Project Price List**.
 4. On the **New Project Price List** page, select a price list from the drop-down. Only price lists that have the context set to **Sales** and whose currency matches the account currency are included.
 5. Name the association, and then select **Save**. A customer-specific project price list is created. This price list will be used to default project prices on project quotes or contracts created for this customer where the created date of the quote or project contract falls within the date effectivity of the price list.
 
