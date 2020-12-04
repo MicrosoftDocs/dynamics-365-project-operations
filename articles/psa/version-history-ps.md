@@ -42,13 +42,13 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |<strong>Station 1</strong> | |  |  | |
 | | <i>First Release</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 8, 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 4, 2020
-| | <i>Canada</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 4, 2020
-| | <i>India</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 4, 2020
-| | <i>France</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 4, 2020
-| | <i>United Arab Emirates</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 4, 2020
-| | <i>South Africa</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 4, 2020
-| | <i>Germany</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 4, 2020
+| | <i>South America</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 15, 2021
+| | <i>Canada</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 15, 2021
+| | <i>India</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 15, 2021
+| | <i>France</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 15, 2021
+| | <i>United Arab Emirates</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 15, 2021
+| | <i>South Africa</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 15, 2021
+| | <i>Germany</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 15, 2021
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 11, 2020
 | | <i>Asia Pacific</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 11, 2020
@@ -60,7 +60,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>North America</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | January 8, 2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | January 8, 2021
-| | <i>Dedicated Scale Groups</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | December 4, 2020
+| | <i>Dedicated Scale Groups</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | January 15, 2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) indicate the timing of the next automatic update. Dates in GCC indicate version availability; at this time, there is no automatic update for these regions.
