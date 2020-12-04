@@ -1,5 +1,5 @@
 ---
-title: Estimate project sales and costs when a bookable resource fills multiple roles on a project 
+title: Estimate project sales and costs when a bookable resource fills multiple roles for a project 
 description: This topic provides information about how pricing dimensions can be used to support pricing and costing for a resource that fills multiple roles on a project.
 author: rumant
 manager: kfend
@@ -19,7 +19,7 @@ search.app:
   - ProjectOperations
 ---
 
-# Estimate project sales and costs when a bookable resource fills multiple roles on a project 
+# Estimate project sales and costs when a bookable resource fills multiple roles for a project 
 
 Project-based companies often have the need for one resource to perform multiple roles on a project. Each of these roles could be priced and costed differently, which means the same resource's time on the project could get a different financial estimate depending on the bill and cost rates for each of the roles. Project Service Automation allows the setup of the values on the team member record for the named resource and allows for different overrides on each of the tasks that the team member is assigned to.
 
