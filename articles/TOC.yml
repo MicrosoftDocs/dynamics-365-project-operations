@@ -38,8 +38,6 @@
         href: environment/resource-configure-integration-per-legal-entity.md
   - name: What's new 
     items:
-    - name: December 2020 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-dec-2020-resource-based.md
     - name: November 2020 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-nov-2020-resource-based.md
   - name: Project sales process
