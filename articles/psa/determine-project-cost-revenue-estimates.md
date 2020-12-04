@@ -3,6 +3,7 @@ title: Determine project cost and revenue estimates
 description: How to determine project cost and revenue estimates in Project Service
 author: ruhercul
 manager: kfend
+ms.prod:
 ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
