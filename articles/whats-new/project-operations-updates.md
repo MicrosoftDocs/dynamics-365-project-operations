@@ -27,9 +27,9 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on CDS environment | Project management and accounting in Finance and Operations apps environments |
 | --- | --- |
-| 4.4.0.70 | 10.0.14 |
+| 4.5.0.134 | 10.0.15 |
 
-Project Operations November 2020 release notes for [Resource/non-stocked](whats-new-nov-2020-resource-based.md), [Stocked/Production](../prod-pma/whats-new/whats-new-nov-2020-production-based.md), and [Lite deployment](../pro/whats-new/whats-new-nov-2020-lite.md).
+Project Operations December 2020 release notes for [Resource/non-stocked](whats-new-dec-2020-resource-based.md).
 
 ## Release schedule for Project Operations on CDS environment
 
@@ -38,18 +38,18 @@ Updates for Project Operations on CDS environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.4.0.70       | TBD     | 04-Dec-20           |
-|    &nbsp; | Canada        |  4.4.0.70       | TBD     | 04-Dec-20          |
-|   &nbsp;  | India         |  4.4.0.70       | TBD     | 04-Dec-20           |
+|   &nbsp;  | South America |  4.5.0.134       | TBD     | 08-Jan-21           |
+|    &nbsp; | Canada        |  4.5.0.134       | TBD     | 08-Jan-21          |
+|   &nbsp;  | India         |  4.5.0.134       | TBD     | 08-Jan-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.4.0.70       | TBD     | 04-Dec-20           |
-|   &nbsp;  | Asia Pacific  |  4.4.0.70       | TBD     | 04-Dec-20           |
-|   &nbsp;  | Great Britain |  4.4.0.70       | TBD     | 04-Dec-20           |
-|   &nbsp;  | Oceania       |  4.4.0.70       | TBD     | 04-Dec-20           |
+|   &nbsp;  | Japan         |  4.5.0.134       | TBD     | 15-Jan-21           |
+|   &nbsp;  | Asia Pacific  |  4.5.0.134       | TBD     | 15-Jan-21           |
+|   &nbsp;  | Great Britain |  4.5.0.134       | TBD     | 15-Jan-21           |
+|   &nbsp;  | Oceania       |  4.5.0.134       | TBD     | 15-Jan-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        |  4.4.0.70       | TBD     | 11-Dec-20           |
+|   &nbsp;  | Europe        |  4.4.0.70       | 4.5.0.134     | 11-Dec-20           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | North America |  4.4.0.70       | TBD     | 18-Dec-20           |
+|   &nbsp;  | North America |  4.4.0.70       | 4.5.0.134     | 18-Dec-20           |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
@@ -57,13 +57,13 @@ Updates for Project management and accounting are released eight times a year.
 
 | Supported release | Generally available (self-update) |
 | --- | --- |
+| 10.0.15 | December 4, 2020 |
 | 10.0.14 | October 23, 2020 |
-| 10.0.13 (with quality updates as of October 2, 2020) | September 18, 2020 |
 
 Targeted release dates are subject to change. For more information, see [Service update availability](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | Targeted release date | Generally available (self- updated) |
 | --- | --- |
-| 10.0.15 | December 4, 2020 |
 | 10.0.16 | January 22, 2021 |
+| 10.0.17 | February 1, 2021 |
 
