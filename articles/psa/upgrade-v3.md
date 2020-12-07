@@ -26,7 +26,7 @@ search.app:
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## Project Service Automation and Field Service
-Both Dynamics 365 Project Service Automation and Dynamics 365 Field Service use the Universal Resourcing Scheduling (URS) solution for resource scheduling. If you have Project Service Automation and Field Service in your instance, upgrade both solutions to the latest version. For Project Service Automation, that isversion 3.x. For Field Service, it is version 8.x. Upgrading Project Service Automation or Field Service will install the latest version of URS. If both the Project Service Automation and Field Service solutions in the same instance aren’t upgraded to the latest version, there might be some inconsistent behavior.
+Both Dynamics 365 Project Service Automation and Dynamics 365 Field Service use the Universal Resourcing Scheduling (URS) solution for resource scheduling. If you have Project Service Automation and Field Service in your instance, upgrade both solutions to the latest version. For Project Service Automation, that is version 3.x. For Field Service, it is version 8.x. Upgrading Project Service Automation or Field Service will install the latest version of URS. If both the Project Service Automation and Field Service solutions in the same instance aren’t upgraded to the latest version, there might be some inconsistent behavior.
 
 ## Resource assignments
 In Project Service Automation version 2 and version 1, task assignments were stored as child tasks (also called line tasks) in the **Task entity**, and indirectly related to the **Resource Assignment** entity. The line task was visible in the assignment pop-up window on the Work Breakdown Structure (WBS).
@@ -59,7 +59,7 @@ Because the estimates are based on the default role for the resource, the sales 
 ![Cost estimates for default roles](media/resource-assignment-cost-estimate-06.png)
 ![Sales estimate for default roles](media/resource-assignment-sales-estimate-07.png)
 
-After upgrade is complete, you can edit a team member's role to be something other than the assigned default. However, if you change a team members role, it will be changed on all of their assigned tasks because team members are no longer allowed to be assigned multiple roles in version 3.
+After upgrade is complete, you can edit a team member's role to be something other than the assigned default. However, if you change a team members role, it will be changed on all of their assigned tasks because team members can't be assigned multiple roles in version 3.
 
 ![Updating a resource role](media/resource-role-assignment-08.png)
 
