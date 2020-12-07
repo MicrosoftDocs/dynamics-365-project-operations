@@ -38,6 +38,8 @@
         href: environment/resource-configure-integration-per-legal-entity.md
   - name: What's new 
     items:
+    - name: December 2020 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-dec-2020-resource-based.md
     - name: November 2020 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-nov-2020-resource-based.md
   - name: Project sales process
@@ -178,7 +180,6 @@
           href: pricing-costing/use-transaction-category-as-pd.md
         - name: Bookable resource with multiple roles on a project
           href: sales/br-playing-multiple-roles.md
-      
       - name: Custom fields as pricing dimensions
         items:
         - name: Create custom fields and entities as pricing dimensions
@@ -438,7 +439,9 @@
     - name: Security model
       href: environment/security-model.md
   - name: What's new
-    items: 
+    items:
+    - name: What's new December 2020 - lite deployment - deal to proforma invoicing
+      href: pro/whats-new/whats-new-dec-2020-lite.md
     - name: What's new November 2020 - lite deployment - deal to proforma invoicing
       href: pro/whats-new/whats-new-nov-2020-lite.md
   - name: Project sales process
