@@ -2,6 +2,7 @@
 title: Upgrade considerations - Microsoft Dynamics 365 Project Service Automation version 2.x or 1.x to version 3
 description: This topic provides information about the considerations you must make when you upgrade from Project Service Automation version 2.x or 1.x to version 3.
 manager: kfend
+ms.prod:
 ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
