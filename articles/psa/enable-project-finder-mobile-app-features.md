@@ -30,7 +30,7 @@ Your resources can use the Project Finder Mobile app on their phone with [!INCLU
   
  The app is available for [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] phones, and [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
     
- To allow users to view project resource requirements and update skills, options must be selected in the paramater settings for your organizational unit.
+ To allow users to view project resource requirements and update skills, options must be selected in the parameter settings for your organizational unit.
   
 > [!NOTE]
 >  The Project Finder Mobile app only works with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], not with on-premises installations.  
