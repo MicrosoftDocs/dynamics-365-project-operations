@@ -1,13 +1,13 @@
 ---
-title: What's new November 2020 - Project Operations for stocked/ production based scenarios
-description: This topic provides information about the quality updates available in the November 2020 release of Project Operations for Stocked/Production based scenarios.
-author: sigitac
+title: What's new December 2020 - Project Operations for stocked/ production based scenarios
+description: This topic provides information about the quality updates available in the December 2020 release of Project Operations for Stocked/Production based scenarios.
+author: Yowelle
 manager: Annbe
-ms.date: 10/30/2020
+ms.date: 12/01/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
-ms.author: sigitac
+ms.author: andchoi
 ---
 
 # What&#39;s new or changed in Project Operations, December 2020
