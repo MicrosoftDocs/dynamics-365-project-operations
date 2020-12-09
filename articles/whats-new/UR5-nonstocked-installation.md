@@ -134,27 +134,27 @@ update to UR5.
 
 Navigate to Settings \> Security
 
-![](media/4bc9f25ade94dad6f9491a970527b73c.png)
+![](media/Picture21.png)
 
 In the Settings Menu, select Security Roles
 
-![](media/b9d58006060e7893466575658b533e92.png)
+![](media/Picture22.png)
 
 From the list of roles, select Dual Write App user and navigate to the Custom
 Entities tab. Ensure the role has read and append to permissions for the
 Currency Exchange Rate Entity.
 
-![](media/99bd8ffaa8a3cf0bb328f3092edb3f65.png)
+![](media/Picture23.png)
 
 Once the security has been updated, navigate to the default team and ensure that
 the Dual Write App user role has been applied to the team Settings \> Security
 \> Teams.
 
-![](media/60d24bb1f1c78e61a54314821c779fda.png)
+![](media/Picture24.png)
 
 Confirm the Dual Write Write App role is associated with the default team.
 
-![](media/aa770d824beb87faa5a9213bd4da92d5.png)
+![](media/Picture25.png)
 
 Need to document adding Currency Exchange rate types entity read privilege to
 Dual Write App User security role and adding this role to default team in CE
@@ -166,21 +166,21 @@ Refresh the data entities from the Update
 typing “*data management*” in the search at the top and open **Framework
 parameters**
 
-![](media/fcb69c222d22ba606e564369f0e313b7.png)
+![](media/Picture26.png)
 
 2. Update the entity list through the **Entity settings** \| **Refresh entity
 list**
 
-![](media/b4b33fbf7999ebbed31e2d15e4b968e8.png)
+![](media/Picture27.png)
 
 3. Confirm
 
-![](media/4058f013782b5f498db338785966d362.png)
+![](media/Picture28.png)
 
 Pause – breath, maybe make a coffee. This process will take some time to
 complete (est around 20 min). You will be alerted once complete.
 
-![](media/d3c41e33a050c5fa6cf1d8d2cccef8d5.png)
+![](media/Picture29.png)
 
 Updating the Dual Write mappings
 --------------------------------
