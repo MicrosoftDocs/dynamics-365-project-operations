@@ -4,63 +4,63 @@ Updating your Finance and Operations environment.
 These are the high-level steps we will follow to update Project Operations to
 Update 5(UR5)
 
+### Import the package into your preview project
+
+
 1. Sign in to <https://lcs.dynamics.com/> with the Project Owner or Environment
 manager security access.
 
-![](../media/Picture1.png)
-
-### Import the package into your preview project
+![](media/Picture1.png)
 
 2. From the list of projects in Lifecycle Services select your LCS project
 
-![](../media/Picture2.png)
+![](media/Picture2.png)
 
 3. Open the Environment you would like to update:
 
-![](../media/Picture3.png)
+![](media/Picture3.png)
 
 4. Ensure that the environment is Started:
 
-![](../media/Picture4.png)
+![](media/Picture4.png)
 
 If it is **not started**, *please start the environment*.
 
 5. Scroll to the Available updates section and select View update for 10.0.15
 update.
-
-![](media/759535473d722106761a821ddda0c06f.png)
+![](media/Picture5.png)
 
 6. Click **Save package.**
 
-![](media/b8bc609d532542c27832b51836becab1.png)
+![](media/Picture6.png)
 
 7. In the next screen (1) click Save package, (2) give package a name, (3)
 confirm saving the package
 
-![](media/9dd2caa1980d7a5c9e0e41d4f5d8aa27.png)
+![](media/Picture7.png)
 
 8. Once package saves Done button becomes available. Click Done. LCS next will
 verify the package, this process can take few minutes to an hour.
 
 9. Navigate to environment details and select **Maintain** and **Apply Updates**
 
-![](media/bc6f267af70f466f424e1fd7115d7d17.png)
+![](media/Picture8.png)
 
 10. Select the package Saved in the previous step and **Apply.**
 
-![](media/a614e452f87db062caa964b4f8eec2dd.png)
+![](media/Picture9.png)
 
 11. Confirm the installation of the Update, select **Yes**:
 
-![](media/e67bfd7ddb3af66c9a11168eee522a16.png)
+![](media/Picture10.png)
 
 12. Second confirmation that the Application will be updated, select **Yes**:
 
-![](media/fb5c9f9e161e17ea41cf697fc2e5133a.png)
+![](media/Picture11.png)
 
 13. *Servicing* will begin and apply the update:
 
-![](media/bf45db1dc018665e7fa6b73ceff56ba3.png)
+![](media/Picture12.png)
 
 14.Around 2 hrs later you should have the update applied, note the Application
 release is
@@ -68,7 +68,7 @@ release is
 Microsoft Dynamics 365 for Finance and Operations (10.0.15) and the status is
 deployed.
 
-![](media/21a8ad9f6863574be3d0c8f0a7dc8618.png)
+![](media/Picture13.png)
 
 Updating your Customer Engagement Environment
 =============================================
