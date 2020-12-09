@@ -21,20 +21,20 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Dynamics 365 Project Operations consists of two components:
 
-- Project Operations on Common Data Service (CDS) environment covers capabilities from opportunity to proforma invoicing. CDS is used in the lite deployment and resource/non-stocked scenarios deployment of Project Operations.
+- Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the lite deployment and resource/non-stocked scenarios deployment of Project Operations.
 - Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The Finance and Operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
 
 ## Project Operations latest version
 
-| Project Operations on CDS environment | Project management and accounting in Finance and Operations apps environments |
+| Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments |
 | --- | --- |
 | 4.5.0.134 | 10.0.15 |
 
-Project Operations December 2020 release notes for [Resource/non-stocked](whats-new-dec-2020-resource-based.md).
+Project Operations December 2020 release notes for [Resource/non-stocked](whats-new-dec-2020-resource-based.md) and [Lite deployment](../pro/whats-new/whats-new-dec-2020-lite.md).
 
-## Release schedule for Project Operations on CDS environment
+## Release schedule for Project Operations on Dataverse environment
 
-Updates for Project Operations on CDS environment are available monthly. 
+Updates for Project Operations on Dataverse environment are available monthly. 
 
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
