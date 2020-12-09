@@ -76,34 +76,34 @@ Updating your Customer Engagement Environment
 1. Login to the Power Platform admin center via
 <https://admin.powerplatform.com/>
 
-![](media/60e9f0ac371c8c841e6e335cd82f377b.png)
+![](media/Picture15.png)
 
 2. Locate the environment which you used to install Project Operations from the
 list and open the environment details by clicking on the name of the
 environment.
 
-![](media/f5a8774ead8de1001cb4f9614a9c0bd7.png)
+![](media/Picture16.png)
 
 3. Open the **Resource** from the ribbon at the top and select **Dynamics 365
 apps**.
 
-![](media/4aafbb0d42a022a777462df759076ed5.png)
+![](media/Picture17.png)
 
 4. Select the Update Available link located next to Microsoft Dynamics 365
 Project Operations
 
-![](media/d9838f7e66c0f029de887fb9418cc161.png)
+![](media/Picture18.png)
 
 5. Agree to the terms of service and press update 4.5.0.134
 
-![](media/f7597c92e278c5aa497001cec6bf253c.png)
+![](media/Picture19.png)
 
 The system will proceed to install the latest version of the solution:
 
 6. Wait for the solution to complete installing, once complete the update is
 complete.
 
-![](media/32aaad40eebe37a53162736351584131.png)
+![](media/Picture20.png)
 
 Once complete your new version with Update 5 should have the version
 4.5.0.134**.**
