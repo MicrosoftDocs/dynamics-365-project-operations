@@ -19,7 +19,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
   - Project Operations on Dataverse environment version 4.5.0.134 
 
-The following table lists the updates to Project Operations on Dataverse environment version 4.4.0.70.
+The following table lists the updates to Project Operations on Dataverse environment version 4.5.0.134.
 
 | **Feature area** | **Reference number** | **Quality update** |
 | --- | --- | --- |
