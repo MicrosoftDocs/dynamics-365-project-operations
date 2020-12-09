@@ -7,21 +7,21 @@ Update 5(UR5)
 1. Sign in to <https://lcs.dynamics.com/> with the Project Owner or Environment
 manager security access.
 
-![](../media/picture1.png)
+![](../media/Picture1.png)
 
 ### Import the package into your preview project
 
 2. From the list of projects in Lifecycle Services select your LCS project
 
-![](../media/picture2.png)
+![](../media/Picture2.png)
 
 3. Open the Environment you would like to update:
 
-![](../media/picture3.png)
+![](../media/Picture3.png)
 
 4. Ensure that the environment is Started:
 
-![](../media/picture4.png)
+![](../media/Picture4.png)
 
 If it is **not started**, *please start the environment*.
 
