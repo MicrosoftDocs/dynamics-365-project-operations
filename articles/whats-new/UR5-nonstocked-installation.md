@@ -187,11 +187,12 @@ Updating the Dual Write mappings
 
 1.  In Data Management workspace select Dual Write tile.
 
-2.  Click Apply Solutions button
+![](media/DW1.png)
 
-3.  Select both solutions and click apply
+2.  Click Apply Solutions button, select both solutions and click apply.
 
-4.  Stop following maps:
+![](media/DW2.png)
+3.  Stop following maps:
 
     1.  Project Operations integration project expense categories
 
@@ -199,9 +200,17 @@ Updating the Dual Write mappings
 
     3.  Project Operations integration actuals
 
-5.  Apply new version of the map to each of those three maps
+ ![](media/DW3.png)
 
-6.  Restart the maps
+4.  Apply new version of the map to each of those three entities
+ 
+ ![](media/DW4.png)
 
-7.  Start Ledger map with all prerequisites and initial sync. Set master for
+5.  Restart the maps
+ 
+ ![](media/DW5.png)
+
+6.  Start Ledger map with all prerequisites and initial sync. Set master for
     initial sync to Finance and Operations apps
+ 
+ ![](media/DW6.png)
