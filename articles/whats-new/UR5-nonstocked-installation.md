@@ -1,8 +1,11 @@
 Updating your Finance and Operations environment.
 =================================================
 
-These are the high-level steps we will follow to update Project Operations to
-Update 5(UR5)
+These are the steps required to update Project Operations to
+Update 5(UR5):
+1. Import the package into your preview project
+2. Apply the update
+3. Update your Customer Engagement Environment
 
 ### Import the package into your preview project
 
@@ -39,30 +42,31 @@ confirm saving the package
 
 ![](media/Picture7.png)
 
-8. Once package saves Done button becomes available. Click Done. LCS next will
+### Apply the package update
+1. Once package saves Done button becomes available. Click Done. LCS next will
 verify the package, this process can take few minutes to an hour.
 
-9. Navigate to environment details and select **Maintain** and **Apply Updates**
+2. Navigate to environment details and select **Maintain** and **Apply Updates**
 
 ![](media/Picture8.png)
 
-10. Select the package Saved in the previous step and **Apply.**
+3. Select the package Saved in the previous step and **Apply.**
 
 ![](media/Picture9.png)
 
-11. Confirm the installation of the Update, select **Yes**:
+4. Confirm the installation of the Update, select **Yes**:
 
 ![](media/Picture10.png)
 
-12. Second confirmation that the Application will be updated, select **Yes**:
+5. Second confirmation that the Application will be updated, select **Yes**:
 
 ![](media/Picture11.png)
 
-13. *Servicing* will begin and apply the update:
+6. *Servicing* will begin and apply the update:
 
 ![](media/Picture12.png)
 
-14.Around 2 hrs later you should have the update applied, note the Application
+7.Around 2 hrs later you should have the update applied, note the Application
 release is
 
 Microsoft Dynamics 365 for Finance and Operations (10.0.15) and the status is
@@ -70,8 +74,7 @@ deployed.
 
 ![](media/Picture13.png)
 
-Updating your Customer Engagement Environment
-=============================================
+### Updating your Customer Engagement Environment
 
 1. Login to the Power Platform admin center via
 <https://admin.powerplatform.com/>
@@ -106,7 +109,7 @@ complete.
 ![](media/Picture20.png)
 
 Once complete your new version with Update 5 should have the version
-4.5.0.134**.**
+4.5.0.134
 
 Configuring the new features
 ============================
@@ -173,11 +176,11 @@ list**
 
 ![](media/Picture27.png)
 
-3. Confirm
+3. Confirm the entity refresh.
 
 ![](media/Picture28.png)
 
-Pause – breath, maybe make a coffee. This process will take some time to
+Please note, this process will take some time to
 complete (est around 20 min). You will be alerted once complete.
 
 ![](media/Picture29.png)
@@ -192,6 +195,7 @@ Updating the Dual Write mappings
 2.  Click Apply Solutions button, select both solutions and click apply.
 
 ![](media/DW2.png)
+
 3.  Stop following maps:
 
     1.  Project Operations integration project expense categories
