@@ -146,7 +146,7 @@ In the Settings Menu, select Security Roles
 
 From the list of roles, select Dual Write App user and navigate to the Custom
 Entities tab. Ensure the role has read and append to permissions for the
-Currency Exchange Rate Entity.
+Currency Exchange Rate Type Entity.
 
 ![](media/Picture23.png)
 
@@ -160,8 +160,7 @@ Confirm the Dual Write Write App role is associated with the default team.
 
 ![](media/Picture25.png)
 
-Need to document adding Currency Exchange rate types entity read privilege to
-Dual Write App User security role and adding this role to default team in CE
+
 
 Refresh the data entities from the Update
 -----------------------------------------
