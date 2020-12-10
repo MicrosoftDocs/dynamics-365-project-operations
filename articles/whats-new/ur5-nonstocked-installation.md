@@ -44,7 +44,7 @@ There are three procedures that are required to update Dynamics 365 Project Oper
 2. Select the package you saved earlier from the list, and then select **Apply**.
 3. Select **Yes** on the dialog box to confirm that you want to deploy the package.
 
-![Confirm package deployment dialog box](media/comfirm-package-deployment.png)
+![Confirm package deployment dialog box](media/confirm-package-deployment.png)
 
 4. Select **Yes** on the dialog box to confirm that you want to update the application.
 
