@@ -31,6 +31,7 @@ If it is **not started**, *please start the environment*.
 
 5. Scroll to the Available updates section and select View update for 10.0.15
 update.
+
 ![](media/Picture5.png)
 
 6. Click **Save package.**
