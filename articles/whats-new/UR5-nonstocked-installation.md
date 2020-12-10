@@ -146,7 +146,7 @@ In the Settings Menu, select Security Roles
 
 From the list of roles, select Dual Write App user and navigate to the Custom
 Entities tab. Ensure the role has read and append to permissions for the
-Currency Exchange Rate Type Entity.
+ Currency Exchange Rate Type, Chart Of Accounts, Fiscal Calendar, Ledger.
 
 ![](media/Picture23.png)
 
