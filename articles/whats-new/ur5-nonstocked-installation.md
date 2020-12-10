@@ -26,9 +26,9 @@ There are three procedures that are required to update Dynamics 365 Project Oper
 
 1. Sign in to [Lifecycle Services (LCS)](https://lcs.dynamics.com/) as a Project Owner or Environment manager.
 2. From the list of projects, select your LCS project.
-3. On the **Project** page, in the **Enviornments** group, open the environment tp update.
+3. On the **Project** page, in the **Environments** group, open the environment tp update.
 4. Verify that the environment is running. If it isn't started, start the environment.
-5. In the **New release** section under **Availalble updates**, select **View update** for 10.0.15.
+5. In the **New release** section under **Available updates**, select **View update** for 10.0.15.
 
 ![View update button](media/view-update.png)
 
@@ -52,7 +52,7 @@ There are three procedures that are required to update Dynamics 365 Project Oper
 
 The deployment and application update will start. 
 
-On the **Environment details** page, in the top right corner, the environment status will update to **Servicing**. In approximately two hours, the update will be complete. 
+On the **Environment details** page, in the top-right corner, the environment status will update to **Servicing**. In approximately two hours, the update will be complete. 
 The application release information will update to **Microsoft Dynamics 365 for Finance and Operations 10.0.15)** and the environment status will update to **Deployed**.
 
 
@@ -61,10 +61,10 @@ The application release information will update to **Microsoft Dynamics 365 for 
 1. Log in to the [Power Platform admin center](https://admin.powerplatform.com/).
 2. In the list, find and open the environment you used to install Project Operation.
 3. On the **Environments** page, select **Resource** > **Dynamics 365 apps**.
-4. In the list, locate **Microsft Dynamics 365 Project Operations**, and in the **Status** column, select **Update Available**.
+4. In the list, locate **Microsoft Dynamics 365 Project Operations**, and in the **Status** column, select **Update Available**.
 5. Select the **I agree to the terms of service** check box, and then select **Update**. The latest version of the solution will be installed.
 
-AFter the installation is complete, you will have version 4.5.0.134 installed.
+After the installation is complete, you will have version 4.5.0.134 installed.
 
 ## Configure new features
 
@@ -93,7 +93,7 @@ The following updates to the security privileges for entities are required as pa
       - **Fiscal Calendar** 
       - **Ledger**
 
-5. After the security role is updated, go to **Settings** > **Security** > **Teams** and verify that the **dual-write app user** role has been applied to the team. 
+5. After the security role is updated, go to **Settings** > **Security** > **Teams**. Verify that the **dual-write app user** role has been applied to the team. 
 
 ### <a name="refresh"></a>Refresh data entities from the update
 
@@ -108,11 +108,11 @@ The following updates to the security privileges for entities are required as pa
 
 1. In the **Data management** workspace, select **Dual write**.
 2. Select **Apply solutions**, select both solutions in the list, and then select **Apply**.
-3. On the **Dual-write** page, select the following table maps and then select **Stop**:
+3. On the **Dual-write** page, select the following table maps, and then select **Stop**:
 
     - **Project Operations integration actuals (msdyn_actuals)**
     - **Project Operations integration entity for expense estimates (msdyn_estimatelines)**
-    - **Project Operations integration actualsproject expenses export entity (msdyn_expenses)**
+    - **Project Operations integration actuals project expenses export entity (msdyn_expenses)**
 
 4. On the **Table map version** page, apply a new version of the map to each of the three entities.
 5. On the **Dual-write** page, select run to restart the maps.
