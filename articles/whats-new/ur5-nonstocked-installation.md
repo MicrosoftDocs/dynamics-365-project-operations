@@ -80,7 +80,7 @@ After you complete the update on the Finance and Dataverse environments, you can
 
 The following updates to the security privileges for entities are required as part of the update to UR5.
 
-1. In your Dataverse environment, go to **Settings**, and in the **System** group, select**Security**.
+1. In your Dataverse environment, go to **Settings**, and in the **System** group, select **Security**.
 
 ![Dataverse environment settings](media/Picture21.png)
 
@@ -88,10 +88,10 @@ The following updates to the security privileges for entities are required as pa
 3. From the list of roles, select **dual-write app user** and select the **Custom Entities** tab. 
 4. Verify that the role has **Read** and **Append To** permissions for:
 
-  - **Currency Exchange Rate Type**
-  - **Chart Of Accounts** 
-  - **Fiscal Calendar** 
-  - **Ledger**
+      - **Currency Exchange Rate Type**
+      - **Chart Of Accounts** 
+      - **Fiscal Calendar** 
+      - **Ledger**
 
 5. After the security role is updated, go to **Settings** > **Security** > **Teams** and verify that the **dual-write app user** role has been applied to the team. 
 
