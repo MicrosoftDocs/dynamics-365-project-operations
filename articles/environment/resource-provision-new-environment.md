@@ -55,17 +55,15 @@ Use following steps to enable the Project Operations automated provisioning flow
 
 ![Deployment Consent](./media/2DeploymentConsent.png)
 
-7. Complete the remaining required fields in the wizard and confirm the deployment. Environment provisioning time varies based on the environment type. Provisioning might take up to six hours.
+7. Optionally apply demo data to the environment: under **Advanced settings** select **Customize SQL Database Configuration** and set **Specify a dataset for Application database**  to **Demo**
+
+8. Complete the remaining required fields in the wizard and confirm the deployment. Environment provisioning time varies based on the environment type. Provisioning might take up to six hours.
 
   After the deployment completes successfully, the environment will show as **Deployed**.
 
-8. To confirm the environment has deployed successfully, select **Login** and log on to the environment to confirm.
+9. To confirm the environment has deployed successfully, select **Login** and log on to the environment to confirm.
 
 ![Environment Details](./media/3EnvironmentDetails.png)
-
-## Apply Project Operations Finance demo data (optional step)
-
-Apply Project Operations Finance demo data to 10.0.13 service release Cloud Hosted Environment as described in [this article](resource-apply-finance-demo-data.md).
 
 ## Apply updates to the Finance environment
 
@@ -146,6 +144,17 @@ After the entities are applied, all available mappings are listed in the environ
 The refresh is going to take approximately 20 minutes. You will receive an alert when it is complete.
 
 ![Refresh Confirmation](./media/19RefreshConfirmation.png)
+
+## Update security settings on Project Operations on CDS
+
+1. Navigate to Project Oeprations on CDS environment in Power Platform Admin Center. 
+2. In the environment navigate to Settings > Security and open Security roles form. 
+3. From the list of roles, select Dual Write App user and navigate to the Custom Entities tab.  Ensure the role has read and append to permissions for the:
+      -Currency Exchange Rate Type
+      -Chart Of Accounts
+      -Fiscal Calendar
+      -Ledger. 
+4. Once the security has been updated, navigate to Settings > Security > Teams, pick default team in Local Business Owner team view and select Manage roles. Ensure Dual write app user security privilege is applied to this team.
 
 ## Run Project Operations Dual Write maps
 
