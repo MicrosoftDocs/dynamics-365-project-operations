@@ -20,6 +20,8 @@ This topic applies to the following Dynamics 365 Project Operations components a
 - Project Operations on Dataverse environment version 4.5.0.134
 - Project management and accounting in Dynamics 365 Finance environment version 10.0.15
 
+For information about how to update to this release, see [Update Project Operations in your Finance environment](ur5-nonstocked-installation.md).
+
 ## Features included in this release
 The following features are included in this release:
 
