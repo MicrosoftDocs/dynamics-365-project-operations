@@ -3,7 +3,7 @@ title: Update Project Operations in your Finance environment
 description: This topic provides information about how to update Project Operations in your Dynamics 365 Finance environment.
 author: ruhercul
 manager: tfehr
-ms.date: 12/10/2020
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -16,7 +16,7 @@ ms.author: ruhercul
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 
-This topic provides information about how to update Project Operations in your Dynamics 365 Finance environment. There are three procedures that are required to update Dynamics 365 Project Operations to Update 5 (UR5):
+This topic provides information about how to update Dynamics 365 Project Operations in your Dynamics 365 Finance environment. There are three procedures that are required to update Project Operations to Update 5 (UR5):
 
 - [Import the package into your preview project](#import)
 - [Apply the update](#apply)
@@ -26,7 +26,7 @@ This topic provides information about how to update Project Operations in your D
 
 1. Sign in to [Lifecycle Services (LCS)](https://lcs.dynamics.com/) as a Project Owner or Environment manager.
 2. From the list of projects, select your LCS project.
-3. On the **Project** page, in the **Environments** group,open the environment that you want to update.
+3. On the **Project** page, in the **Environments** group, open the environment that you want to update.
 4. Verify that the environment is running. If it isn't started, start the environment.
 5. In the **New release** section under **Available updates**, select **View update** for 10.0.15.
 
@@ -64,7 +64,7 @@ The application release information will update to **Microsoft Dynamics 365 for 
 4. In the list, locate **Microsoft Dynamics 365 Project Operations**, and in the **Status** column, select **Update Available**.
 5. Select the **I agree to the terms of service** check box, and then select **Update**. The latest version of the solution will be installed.
 
-After the installation is complete, you will have version 4.5.0.134 installed.
+After the installation is complete, you'll have version 4.5.0.134 installed.
 
 ## Configure new features
 
