@@ -5,6 +5,7 @@ author: sigitac
 manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
+ms.prod:
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
@@ -147,7 +148,7 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 
 ## Update security settings on Project Operations on Dataverse
 
-1. Go to Project Oeprations on your Dataverse environment. 
+1. Go to Project Operations on your Dataverse environment. 
 2. Go to **Settings** > **Security** > **Security roles**. 
 3. On the **Security roles** page, in the list of roles, select **dual-write app user** and select the **Custom Entities** tab.  
 4. Verify that the role has **Read** and **Append To** permissions for the:
