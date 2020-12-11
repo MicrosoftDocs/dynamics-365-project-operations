@@ -24,8 +24,6 @@
         href: environment/resource-add-azure-subscription-lcs-project.md 
     - name: Apply demo data
       items:
-      - name: Apply demo data to a Finance cloud-hosted environment
-        href: environment/resource-apply-finance-demo-data.md
       - name: Apply configuration data in Common Data Service 
         href: environment/resource-apply-pro-setup-config-data.md
     - name: Deploy environments
@@ -132,11 +130,11 @@
         href: pro/sales/copy-project-contracts-sales.md
       - name: Advances and retainers
         items: 
-        - name: Advances and retainer-based contracts - lite
+        - name: Advances and retainer-based contracts
           href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-        - name: Set up a retainer schedule - lite
+        - name: Set up a retainer schedule
           href: pro/sales/set-up-schedule-retainers-sales.md
-        - name: Create an ad hoc advance on a contract - lite
+        - name: Create an ad hoc advance on a contract
           href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
@@ -326,6 +324,8 @@
           href: expense/set-up-credit-card-integration.md
         - name: Set up expense categories
           href: expense/set-up-expense-categories.md
+      - name: Work with personal expenses on an expense report
+        href: expense/personal-expenses-expense-report.md
       - name: Create expense reports
         items:
         - name: Distributions on an expense report
@@ -404,10 +404,10 @@
         href: project-accounting/intercompany-invoicing-overview.md
       - name: Configure intercompany invoicing
         href: project-accounting/configure-intercompany-invoicing.md
-      - name: Create intercompany customer and vendor invoices
-        href: project-accounting/create-intercompany-customer-vendor-invoices.md
       - name: Create intercompany transactions
         href: project-accounting/create-intercompany-transactions.md
+      - name: Create intercompany customer and vendor invoices
+        href: project-accounting/create-intercompany-customer-vendor-invoices.md
   - name: Revenue recognition
     items:
     - name: Revenue recognition overview
@@ -418,12 +418,12 @@
         href: project-accounting/period-types.md
       - name: Set up cost templates
         href: revenue-recognition/rev-rec-cost-templates.md
-    - name: Manage revenue estimates
-      href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: Fixed price revenue estimate projects
       href: revenue-recognition/rev-rec-percentage-completion-method.md
     - name: Cost to complete methods
       href: revenue-recognition/cost-complete-methods.md
+    - name: Manage revenue estimates
+      href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Get started
@@ -772,6 +772,8 @@
   items: 
   - name: What's new
     items:
+    - name: What's new December 2020 - Project Operations for stocked/production based scenarios
+      href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
     - name: What's new November 2020 - Project Operations for stocked/production-based scenarios
       href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
   - name: Project Operations for stocked/production-based scenarios deployment overview
