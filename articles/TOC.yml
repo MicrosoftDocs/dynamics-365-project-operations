@@ -294,7 +294,7 @@
           href: expense/set-up-credit-card-integration.md
         - name: Set up expense categories
           href: expense/set-up-expense-categories.md
-      - name: Personal expenses on an expense report
+      - name: Work with personal expenses on an expense report
         href: expense/personal-expenses-expense-report.md
       - name: Create expense reports
         items:
