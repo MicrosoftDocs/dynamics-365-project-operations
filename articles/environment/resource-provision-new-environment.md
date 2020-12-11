@@ -3,7 +3,7 @@ title: Provision a new environment
 description: This topic provides information about how to provision a new Project Operations environment.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -55,13 +55,13 @@ Use following steps to enable the Project Operations automated provisioning flow
 
 ![Deployment Consent](./media/2DeploymentConsent.png)
 
-7. Optionally apply demo data to the environment: under **Advanced settings** select **Customize SQL Database Configuration** and set **Specify a dataset for Application database**  to **Demo**
+7. Optional - Apply demo data to the environment. Go to **Advanced settings**, select **Customize SQL Database Configuration**, and set **Specify a dataset for Application database** to **Demo**.
 
-8. Complete the remaining required fields in the wizard and confirm the deployment. Environment provisioning time varies based on the environment type. Provisioning might take up to six hours.
+8. Complete the remaining required fields in the wizard and confirm the deployment. The time to provision the environment varies based on the environment type. Provisioning might take up to six hours.
 
   After the deployment completes successfully, the environment will show as **Deployed**.
 
-9. To confirm the environment has deployed successfully, select **Login** and log on to the environment to confirm.
+9. To confirm that the environment has deployed successfully, select **Login** and log on to the environment to confirm.
 
 ![Environment Details](./media/3EnvironmentDetails.png)
 
@@ -145,16 +145,20 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 
 ![Refresh Confirmation](./media/19RefreshConfirmation.png)
 
-## Update security settings on Project Operations on CDS
+## Update security settings on Project Operations on Dataverse
 
-1. Navigate to Project Oeprations on CDS environment in Power Platform Admin Center. 
-2. In the environment navigate to Settings > Security and open Security roles form. 
-3. From the list of roles, select Dual Write App user and navigate to the Custom Entities tab.  Ensure the role has read and append to permissions for the:
-      -Currency Exchange Rate Type
-      -Chart Of Accounts
-      -Fiscal Calendar
-      -Ledger. 
-4. Once the security has been updated, navigate to Settings > Security > Teams, pick default team in Local Business Owner team view and select Manage roles. Ensure Dual write app user security privilege is applied to this team.
+1. Go to Project Oeprations on your Dataverse environment. 
+2. Go to **Settings** > **Security** > **Security roles**. 
+3. On the **Security roles** page, in the list of roles, select **dual-write app user** and select the **Custom Entities** tab.  
+4. Verify that the role has **Read** and **Append To** permissions for the:
+      
+      - **Currency Exchange Rate Type**
+      - **Chart Of Accounts**
+      - **Fiscal Calendar**
+      - **Ledger**
+
+5. After the security role is updated, go to **Settings** > **Security** > **Teams**, and select the default team in the **Local Business Owner** team view.
+6. Select **Manage Roles** and verify that the **dual-write app user** security privilege is applied to this team.
 
 ## Run Project Operations Dual Write maps
 
