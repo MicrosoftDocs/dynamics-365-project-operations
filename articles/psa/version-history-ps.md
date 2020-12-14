@@ -51,10 +51,10 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>South Africa</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 15, 2021
 | | <i>Germany</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 15, 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 11, 2020
-| | <i>Asia Pacific</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 11, 2020
-| | <i>Great Britain</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 11, 2020
-| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 11, 2020
+| | <i>Japan</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 22, 2021
+| | <i>Asia Pacific</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 22, 2021
+| | <i>Great Britain</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 22, 2021
+| | <i>Oceana</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | January 22, 2021
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | December 18, 2020
 |<strong>Station 5</strong> | |  |  | |
