@@ -22,7 +22,7 @@ This topic provides information about how to update Dynamics 365 Project Operati
 - [Apply the update](#apply)
 - [Update your Dataverse environment](#update)
 
-## <a name="import"></a>Import the package into your preview project
+## <a name="import"></a>Import the package into your LCS project
 
 1. Sign in to [Lifecycle Services (LCS)](https://lcs.dynamics.com/) as a Project Owner or Environment manager.
 2. From the list of projects, select your LCS project.
