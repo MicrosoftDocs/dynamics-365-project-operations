@@ -3,6 +3,7 @@ title: Enable Project Finder Mobile app features
 description: How to enable Project Finder Mobile app features for Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod:
 ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
@@ -25,11 +26,11 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Your resources can use the Project Finder Mobile app on their phone with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to find new projects to work on and update their skill sets.  
+Your resources can use the Project Finder Mobile app on their phone with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to find new projects to work on and update their skillsets.  
   
  The app is available for [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] phones, and [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)].  
-  
- You need to set a couple of options in the parameters setting for your organizational unit to allow users to view projects' resource requirements and update their skills.  
+    
+ To allow users to view project resource requirements and update skills, options must be selected in the parameter settings for your organizational unit.
   
 > [!NOTE]
 >  The Project Finder Mobile app only works with [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)], not with on-premises installations.  
@@ -53,8 +54,8 @@ Your resources can use the Project Finder Mobile app on their phone with [!INCLU
   
 |Recipient|Event|  
 |---------------|-----------|  
-|Project manager|-   When a resource signs up for a project with the Project Finder Mobile app.|  
-|Resource|-   When the project work the resource has signed up for has already been fulfilled by another resource.<br />-   When their skill approval request has been approved or rejected.<br />-   When their project sign up request has been approved or rejected.|  
+|Project manager|- A resource signs up for a project with the Project Finder Mobile app.|  
+|Resource|- The project work that the resource has signed up for has already been fulfilled by another resource.<br />- The skill approval request has been approved or rejected.<br />- The project sign-up request has been approved or rejected.|  
   
 ## Privacy notice  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  
