@@ -93,7 +93,8 @@ Before synchronization of project contracts and projects can occur, you must syn
 
 Project contracts are managed in Project Service Automation, and they are synchronized to Finance as project contracts. As part of the integration template, you can set the integration source in Finance for the project contract.
 
-Time and material project and Fixed price projects are managed in Project Service Automation, and they are synchronized to Finance as projects. As part of the template integration, you can set the integration source in Finance for the project.
+Time and material project and Fixed price projects are managed in Project Service Automation, and they are synchronized to Finance as projects. As part of the template integration, you can set the integration source in Finance for the project.  Currently, only fixed price and time and material projects are supported.
+
 
 Project contract lines are managed in Project Service Automation, and they are synchronized to Finance as project contract billing rules. If the billing method differs from the default project type, the synchronization updates the project type for the contract line project and project group.
 
