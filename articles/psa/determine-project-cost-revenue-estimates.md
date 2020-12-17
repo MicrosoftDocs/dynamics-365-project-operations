@@ -71,7 +71,7 @@ This view helps you understand the distribution of the effort, cost, and sales e
 The cost and sales price default is date effective. When the rates for the roles change, it will be more transparent in the time-phased view when viewing estimate data pivoted on ‘Resource’ and time-phased by week.  
   
 ## Expense estimates  
-Any expense that will be incurred in the project that is notdirectly related to labor to be expended can be recorded in the project estimates in the grid view. Using the **Add expense estimate** option in the grid view, you can accomplish this. The expense estimates can be recorded for a specific task or for the entire project. You can choose expense categories on these lines and choose a tentative date when the expense is expected to be incurred. If the associated cost and sales price list have default prices, or markup percentages defined for expense categories, it will be defaulted on the estimate line on association.  
+Any expense that will be incurred in the project that is not directly related to labor to be expended can be recorded in the project estimates in the grid view. Using the **Add expense estimate** option in the grid view, you can accomplish this. The expense estimates can be recorded for a specific task or for the entire project. You can choose expense categories on these lines and choose a tentative date when the expense is expected to be incurred. If the associated cost and sales price list have default prices, or markup percentages defined for expense categories, it will be defaulted on the estimate line on association.  
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
