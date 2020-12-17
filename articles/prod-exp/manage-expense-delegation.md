@@ -2,7 +2,7 @@
 # required metadata
 
 title: Manage expense delegation
-description: An expense delegate user can create and manage expense reports on behalf of another employee in the organization.
+description: An expense delegate user can create and manage expense reports for another employee in the organization.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2020
@@ -31,16 +31,19 @@ ms.dyn365.ops.version: 10.0.9
 
 [!include [banner](../includes/banner.md)]
 
-An expense delegate user can create and manage expense reports on behalf of another employee in the organization.
+An expense delegate can create and manage expense reports for another employee.
 
-## Configuring expense delegation
+## Configure expense delegation
 
-To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates** to open the **Delegates** page. Select **New** and then select the employee that will have a delegate defined. Enter the alias of the delegate user and the start and end date for the delegation period.
+1. To set up a user as an expense delegate, go to **Expense management > Setup > General > Delegates**.
+2. On the **Delegates** page, select **New**.
+3. Select the employee that will have a delegate defined. 
+4. Enter the alias of the delegate user and the start and end date for the delegation period.
 
-## Managing expense delegation on behalf of another employee
+## Manage expense delegation for another employee
 
-If the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available by navigating to **Expense management > My expenses > Expenses delegated to me**.
+When the feature management key **Enable expense delegates list page** is enabled, the **Expenses delegated to me** list page will be available. Go to **Expense management** > **My expenses** > **Expenses delegated to me**.
 
-A delegate user can quickly filter and search on existing expense reports that hae been delegated to the user. The user can also quickly create a new expense report on behalf of other users by clicking **New expense report**.
+A delegate user can quickly filter and search on existing expense reports that have been delegated to them. They can also create a new expense report for other users by selecting **New expense report**.
 
-Delegate users can also create and manage expense reports on behalf of other employees by navigating to **Expense management > My expenses > Expense reports** and clicking the **Open other user's expenses** button.
+Delegate users can also create and manage expense reports for other employees by going to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.

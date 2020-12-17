@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Synchronize project contracts and projects directly from Project Service Automation to Finance and Operations
+title: Synchronize project contracts and projects directly from Project Service Automation to Finance
 description: This topic describes the template and underlying tasks that are used to synchronize project contracts and projects directly from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -30,7 +30,7 @@ ms.dyn365.ops.version: AX 7.3.0
 
 ---
 
-# Synchronize project contracts and projects directly from Project Service Automation to Finance and Operations
+# Synchronize project contracts and projects directly from Project Service Automation to Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -59,24 +59,24 @@ To access the available templates, in the Microsoft Power Apps admin center, sel
 The following templates and underlying tasks are used to synchronize project contracts and projects from Project Service Automation to Finance:
 
 ### Integrating with Dynamics 365 Project Service Automation v2.x
-- **Name of the template in Data integration:** Projects and contracts (PSA to Fin and Ops)
+- **Name of the template in Data integration:** Projects and contracts (Project Service Automation to Finance)
 - **Name of the tasks in the project:**
 
-    - Project contracts PSA to Fin and Ops
-    - Projects PSA to Fin and Ops
-    - Project contract lines PSA to Fin and Ops
-    - Project contract line milestones PSA to Fin and Ops
+    - Project contracts Project Service Automation to Finance
+    - Projects Project Service Automation to Finance
+    - Project contract lines Project Service Automation to Finance
+    - Project contract line milestones Project Service Automation to Finance
   
 ### Integrating with Dynamics 365 Project Service Automation v3.x
 There is a schema change in Project Service Automation that impacts the Project contract line milestone template and use of the v2 version of the template is required to integrate Project Service Automation v3.x with Dynamics 365.
 
-- **Name of the template in Data integration:** Projects and Contracts (PSA 3.x to Fin and Ops) - v2
+- **Name of the template in Data integration:** Projects and Contracts (Project Service Automation 3.x to Finance) - v2
 - **Name of the tasks in the project:**
 
-    - Project contracts PSA to Fin and Ops
-    - Projects PSA to Fin and Ops
-    - Project contract lines PSA to Fin and Ops
-    - Project contract line milestones PSA to Fin and Ops
+    - Project contracts Project Service Automation to Finance
+    - Projects Project Service Automation to Finance
+    - Project contract lines Project Service Automation to Finance
+    - Project contract line milestones Project Service Automation to Finance
 
 Before synchronization of project contracts and projects can occur, you must synchronize accounts.
 
@@ -93,7 +93,8 @@ Before synchronization of project contracts and projects can occur, you must syn
 
 Project contracts are managed in Project Service Automation, and they are synchronized to Finance as project contracts. As part of the integration template, you can set the integration source in Finance for the project contract.
 
-Time and material project and Fixed price projects are managed in Project Service Automation, and they are synchronized to Finance as projects. As part of the template integration, you can set the integration source in Finance for the project.
+Time and material and fixed-price projects are managed in Project Service Automation and synchronized to Finance as projects. As part of the template integration, you can set the integration source for the project in Finance. Currently, only time and material and fixed-price projects are supported.
+
 
 Project contract lines are managed in Project Service Automation, and they are synchronized to Finance as project contract billing rules. If the billing method differs from the default project type, the synchronization updates the project type for the contract line project and project group.
 
@@ -128,7 +129,7 @@ When the Project Service Automation to Finance integration solution is applied, 
 
 ## Power Query
 
-You must use Microsoft Power Query for Excel to filter data if the following conditions are met:
+Use Microsoft Power Query for Excel to filter data if the following conditions are met:
 
 - You have sales orders in Dynamics 365 Sales.
 - You have multiple organizational units in Project Service Automation, and these organizational units will be mapped to multiple legal entities in Finance.
@@ -136,7 +137,7 @@ You must use Microsoft Power Query for Excel to filter data if the following con
 If you must use Power Query, follow these guidelines:
 
 - The Projects and contracts (PSA to Fin and Ops) template has a default filter that includes only sales orders of the **Work item (msdyn\_ordertype = 192350001)** type. This filter helps guarantee that project contracts aren't created for sales orders in Finance. If you create your own template, you must add this filter.
-- You must create a Power Query filter that includes only the contract organizations that should be synchronized to the legal entity of the integration connection set. For example, project contracts that you have with the contract organizational unit of Contoso US should be synchronized to the USSI legal entity, but project contracts that you have with the contract organizational unit of Contoso Global should be synchronized to the USMF legal entity. If you don't add this filter to your task mapping, all project contracts will be synchronized to the legal entity that is defined for the connection set, regardless of the contract organizational unit.
+- Create a Power Query filter that includes only the contract organizations that should be synchronized to the legal entity of the integration connection set. For example, project contracts that you have with the contract organizational unit of Contoso US should be synchronized to the USSI legal entity, but project contracts that you have with the contract organizational unit of Contoso Global should be synchronized to the USMF legal entity. If you don't add this filter to your task mapping, all project contracts will be synchronized to the legal entity that is defined for the connection set, regardless of the contract organizational unit.
 
 ## Template mapping in Data integration
 
