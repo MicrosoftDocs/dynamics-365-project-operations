@@ -111,7 +111,7 @@ The following updates to the security privileges for entities are required as pa
 3. On the **Dual-write** page, select the following table maps, and then select **Stop**.
 
     - **Project Operations integration actuals (msdyn_actuals)**
-    - **Project Operations integration entity for expense estimates (msdyn_estimatelines)**
+    - **Project Operations integration project expense categories (msdyn_expensecategories)**
     - **Project Operations integration actuals project expenses export entity (msdyn_expenses)**
 
 4. On the **Table map version** page, apply a new version of the map to each of the three entities.
