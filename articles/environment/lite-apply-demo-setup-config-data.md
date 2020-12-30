@@ -53,8 +53,6 @@ Before you begin the configuration, you must have a Common Data Service (CDS) en
 -	Account
 -	Organizational Unit
 -	Contact
--	Tax Group
--	Customer Group
 -	Unit
 -	Unit Group
 -	Price List
