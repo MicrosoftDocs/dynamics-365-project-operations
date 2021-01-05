@@ -11,7 +11,7 @@ ms.reviewer: kfend
 ms.author: andchoi
 ---
 
-# What's new December 2020 - Project Operations for resource/non-stocked based scenarios
+# What's new January 2021 - Project Operations for resource/non-stocked based scenarios
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -25,8 +25,7 @@ For information about how to update to this release, see [Update Project Operati
 ## Features included in this release
 The following features are included in this release:
 
-  - [Intercompany invoicing](../project-accounting/intercompany-invoicing-overview.md) 
-  - [Customer advances and retainers](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
+
 
 ## Updates to Project Operations for resource-non-stocked based scenarios
 
