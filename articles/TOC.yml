@@ -208,6 +208,8 @@
       href: project-management/copy-project.md    
     - name: Work breakdown structure planning
       items: 
+      - name: Create a work breakdown structure
+        href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
     - name: Estimate projects
@@ -636,6 +638,8 @@
       href: project-management/copy-project.md    
     - name: Work breakdown structure planning
       items: 
+      - name: Create a work breakdown structure
+        href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
     - name: Estimate projects
