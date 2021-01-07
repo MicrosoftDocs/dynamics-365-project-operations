@@ -180,47 +180,47 @@ The following table outlines how data is synchronized between Project Service Au
 
 | **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
-| Project Task | Due Date | ● | - |
-| Project Task | Estimated Effort | ● | - |
-| Project Task | MS Project Client ID | ● | - |
-| Project Task | Parent Task | ● | - |
-| Project Task | Project | ● | - |
-| Project Task | Project task | ● | - |
-| Project Task | Project Task Name | ● | - |
-| Project Task | Resourcing unit (Deprecated in v3.0) | ● | - |
-| Project Task | Scheduled Duration | ● | - |
-| Project Task | Start Date | ● | - |
-| Project Task | WBS ID | ● | - |
+| Project Task | Due Date | Synchronized | Not synchronized |
+| Project Task | Estimated Effort | Synchronized | Not synchronized |
+| Project Task | MS Project Client ID | Synchronized | Not synchronized |
+| Project Task | Parent Task | Synchronized | Not synchronized |
+| Project Task | Project | Synchronized | Not synchronized |
+| Project Task | Project task | Synchronized | Not synchronized |
+| Project Task | Project Task Name | Synchronized | Not synchronized |
+| Project Task | Resourcing unit (Deprecated in v3.0) | Synchronized | Not synchronized |
+| Project Task | Scheduled Duration | Synchronized | Not synchronized |
+| Project Task | Start Date | Synchronized | Not synchronized |
+| Project Task | WBS ID | Synchronized | Not synchronized |
 
 | **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
-| Team Member | MS Project Client ID | ● | - |
-| Team Member | Position Name | ● | - |
-| Team Member | project | ● | ● |
-| Team Member | Project Team | ● | ● |
-| Team Member | Resourcing Unit | - | ● |
-| Team Member | Role | - | ● |
-| Team Member | Working Hours | Not synced | Not synced |
+| Team Member | MS Project Client ID | Synchronized | Not synchronized |
+| Team Member | Position Name | Synchronized | Not synchronized |
+| Team Member | project | Synchronized | Synchronized |
+| Team Member | Project Team | Synchronized | Synchronized |
+| Team Member | Resourcing Unit | Not synchronized | Synchronized |
+| Team Member | Role | Not synchronized | Synchronized |
+| Team Member | Working Hours | Not synchronized | Not synchronized |
 
 | **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
-| Resource Assignment | From Date | ● | - |
-| Resource Assignment | Hours | ● | - |
-| Resource Assignment | MS Project Client ID | ● | - |
-| Resource Assignment | Planned Work | ● | - |
-| Resource Assignment | Project | ● | - |
-| Resource Assignment | Project Team | ● | - |
-| Resource Assignment | Resource Assignment | ● | - |
-| Resource Assignment | Task | ● | - |
-| Resource Assignment | To Date | ● | - |
+| Resource Assignment | From Date | Synchronized | Not synchronized |
+| Resource Assignment | Hours | Synchronized | Not synchronized |
+| Resource Assignment | MS Project Client ID | Synchronized | Not synchronized |
+| Resource Assignment | Planned Work | Synchronized | Not synchronized |
+| Resource Assignment | Project | Synchronized | Not synchronized |
+| Resource Assignment | Project Team | Synchronized | Not synchronized |
+| Resource Assignment | Resource Assignment | Synchronized | Not synchronized |
+| Resource Assignment | Task | Synchronized | Not synchronized |
+| Resource Assignment | To Date | Synchronized | Not synchronized |
 
 | **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
-| Project Task Dependencies | Project Task Dependency | ● | - |
-| Project Task Dependencies | Link Type | ● | - |
-| Project Task Dependencies | Predecessor Task | ● | - |
-| Project Task Dependencies | Project | ● | - |
-| Project Task Dependencies | Successor Task | ● | - |
+| Project Task Dependencies | Project Task Dependency | Synchronized | Not synchronized |
+| Project Task Dependencies | Link Type | Synchronized | Not synchronized |
+| Project Task Dependencies | Predecessor Task | Synchronized | Not synchronized |
+| Project Task Dependencies | Project | Synchronized | Not synchronized |
+| Project Task Dependencies | Successor Task | Synchronized | Not synchronized |
 
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
