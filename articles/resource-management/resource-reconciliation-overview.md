@@ -5,7 +5,7 @@ title: Resource reconciliation overview
 description: This topic provides information about ensuring that resource bookings and assignments to projects are aligned.
 author: ruhercul
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 01/08/2021
 ms.topic: article
 ms.prod: 
 ms.service: project-operations
@@ -51,7 +51,7 @@ In some cases, when you view time at a higher level than the day level (for exam
 When you view time at higher levels, cells in the **Reconciliation** tab have an indicator to inform you that there are differences at lower levels. By double-clicking in a cell, you can zoom in to view the difference. You can then right-click to zoom out. By selecting a resource and then using the **Next difference** control on the grid toolbar, you can go to the next difference between bookings and assignments for that resource. You can then use the **Previous difference** control to go back. You can also turn off the difference indicator and navigation behavior under **Settings**.
 
 
-If you have task assignments for a resource but no bookings, on the **Projects** page, on the **Reconciliation** tab, select the booking shortage, and then select **Extend Booking**. The **Extend Booking** dialog box appears and shows the booking that is needed to address the resource's shortage. It also shows the resource's existing bookings across all projects or other schedulable entities. If you select **OK** to create the booking for the resource, regardless of that resource's availability, you might cause overbooking.   It is important to note that the bookings that are generated when the **Extend Bookings** action are associated with the primary project requirement.  This is done, because when a extension is initiated, the specific requirement to be extendded cannot be determined as a resource could be associated with more than one requirement for the project.
+If you have task assignments for a resource but no bookings, on the **Projects** page, on the **Reconciliation** tab, select the booking shortage, and then select **Extend Booking**. The **Extend Booking** dialog box appears and shows the booking that is needed to address the resource's shortage. It also shows the resource's existing bookings across all projects or other schedulable entities. If you select **OK** to create the booking for the resource, regardless of that resource's availability, you might cause overbooking. Bookings that are generated with the **Extend Bookings** action are associated with the primary project requirement. When an extension is initiated, the specific requirement to be extendded can't be determined because as a resource, it could be associated with more than one requirement for the project.
 
 The project manager or resource manager can then use the Schedule Board to manage any situations where a resource is overbooked beyond its capacity.
 
