@@ -262,6 +262,8 @@
         href: resource-management/book-project.md
       - name: Review proposed resources
         href: resource-management/review-proposed-resources.md
+      - name: Edit bookings
+        href: resource-management/edit-existing-bookings.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team Member grid
@@ -688,6 +690,8 @@
         href: resource-management/book-project.md
       - name: Review proposed resources
         href: resource-management/review-proposed-resources.md
+      - name: Edit bookings
+        href: resource-management/edit-existing-bookings.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team Member grid
