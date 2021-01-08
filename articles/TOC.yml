@@ -208,6 +208,8 @@
       href: project-management/copy-project.md    
     - name: Work breakdown structure planning
       items: 
+      - name: Create a work breakdown structure
+        href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
     - name: Estimate projects
@@ -260,6 +262,8 @@
         href: resource-management/book-project.md
       - name: Review proposed resources
         href: resource-management/review-proposed-resources.md
+      - name: Edit bookings
+        href: resource-management/edit-existing-bookings.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team Member grid
@@ -636,6 +640,8 @@
       href: project-management/copy-project.md    
     - name: Work breakdown structure planning
       items: 
+      - name: Create a work breakdown structure
+        href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
     - name: Estimate projects
@@ -684,6 +690,8 @@
         href: resource-management/book-project.md
       - name: Review proposed resources
         href: resource-management/review-proposed-resources.md
+      - name: Edit bookings
+        href: resource-management/edit-existing-bookings.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team Member grid
@@ -994,6 +1002,8 @@
         href: psa/project-stages.md
       - name: Project settings
         href: psa/project-settings.md
+      - name: Plan your work in Microsoft Project with the Project Service add-in
+        href: psa/add-in-plan-work-projects.md
     - name: Pricing and costing dimensions 
       items:
       - name: Pricing and costing dimensions home page
