@@ -83,7 +83,7 @@ When your project planning is complete, the next step is to import and publish t
 The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. The pricing and team generation process are applied. Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure have been generated. The following table shows where to find the results.
 
 
-|                                                                                          |                                                                                                                                   |
+|              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt Chart**   | Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Work Breakdown Structure** screen. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resource Sheet** |   Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Team Members** screen.   |
@@ -175,8 +175,10 @@ When reading a project from Project Service Automation, the resource's calendar 
 
 
 ## Data synchronization
+The tables in this section provide information about the synchronization of entity data between Project Service Automation and the Microsoft Project desktop add-in.
 
-The following table outlines how data is synchronized between Project Service Automation and the Microsoft Project desktop add-in.
+### Project Task entity table
+The following table outlines how Project Task entity data is synchronized between Project Service Automation and the Microsoft Project desktop add-in.
 
 | **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
@@ -192,6 +194,9 @@ The following table outlines how data is synchronized between Project Service Au
 | Project Task | Start Date | Synchronized | Not synchronized |
 | Project Task | WBS ID | Synchronized | Not synchronized |
 
+### Team Member entity table
+The following table outlines how Team Member entity data is synchronized between Project Service Automation and the Micros
+
 | **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
 | Team Member | MS Project Client ID | Synchronized | Not synchronized |
@@ -201,6 +206,9 @@ The following table outlines how data is synchronized between Project Service Au
 | Team Member | Resourcing Unit | Not synchronized | Synchronized |
 | Team Member | Role | Not synchronized | Synchronized |
 | Team Member | Working Hours | Not synchronized | Not synchronized |
+
+### Resource Assignment entity table
+The following table outlines how Resource Assignment entity data is synchronized between Project Service Automation and the Micros
 
 | **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
@@ -213,6 +221,9 @@ The following table outlines how data is synchronized between Project Service Au
 | Resource Assignment | Resource Assignment | Synchronized | Not synchronized |
 | Resource Assignment | Task | Synchronized | Not synchronized |
 | Resource Assignment | To Date | Synchronized | Not synchronized |
+
+### Project Task Dependencies entity table
+The following table outlines how Project Task Dependencies entity data is synchronized between Project Service Automation and the Micros
 
 | **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
 | --- | --- | --- | --- |
