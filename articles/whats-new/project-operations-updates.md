@@ -30,7 +30,7 @@ Dynamics 365 Project Operations consists of two components:
 | --- | --- |
 | 4.6.0.154 | 10.0.15 |
 
-Project Operations December 2020 release notes for [Resource/non-stocked](whats-new-dec-2020-resource-based.md) and [Lite deployment](../pro/whats-new/whats-new-dec-2020-lite.md).
+Project Operations December 2020 release notes for [Resource/non-stocked](whats-new-jan-2021-resource-based.md) and [Lite deployment](../pro/whats-new/whats-new-jan-2021-lite.md).
 
 ## Release schedule for Project Operations on Dataverse environment
 
