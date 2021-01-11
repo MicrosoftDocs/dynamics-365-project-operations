@@ -10,14 +10,14 @@ ms.reviewer: kfend
 ms.author: ruhercul
 ---
 
-# <Topic title – this should be an exact match to the title above>
+# Troubleshooting Guide for Task Grid Configuratione above>
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_
 
 
-# Troubleshooting Guide for Task Grid Configuration
 
-Overview
+
+## Overview
 
 The following items address commonly observed issues related to users being unable to either read or write tasks in Project Operations.
 
