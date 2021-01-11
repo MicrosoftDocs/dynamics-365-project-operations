@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: ruhercul
 ---
 
-# Troubleshooting Guide for Task Grid Configuratione above>
+# Troubleshooting Guide for the Task Grid 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_
 
@@ -56,14 +56,13 @@ Important: If you block third-party cookies, all cookies and site data from othe
 
 Project Operations requires the project parameter to reference the PEX Endpoint. This endpoint is required to communicate with the service used to render the work breakdown structure.
 
-![](RackMultipart20210111-4-og7uj7_html_d7c2185d9eee377f.png)
+![](media/Pexenpointerror.png)
 
 _Figure 2 Error displayed when the project parameter value is incorrect or null_
 
-_ **The project parameter is not valid. Please follow the steps in the following documentation to address the issue.** _
 
 Mitigation
- ![](RackMultipart20210111-4-og7uj7_html_5ae1b941c9dea173.png)
+ ![](media/projecparameter.png)
 
 _Figure 3 PEX Endpoint field on the project parameter_
 
