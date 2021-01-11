@@ -27,7 +27,7 @@ The following items address commonly observed issues related to users being unab
 
 Project Operations requires third party cookies enabled in order render the work breakdown structure. When third party cookies are disabled, users will see a blank tab where the tasks should be rendered.
 
-![](RackMultipart20210111-4-og7uj7_html_4ab1a7b9b5298bf.png)
+![](media/blankschedule.png)
 
 _Figure 1 Blank tab when third party cookies are not enabled_
 
