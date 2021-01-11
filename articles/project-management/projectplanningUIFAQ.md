@@ -94,7 +94,7 @@ _Figure 5 User Error: You don&#39;t have access to this project_
 2. Verify that the Microsoft Project application user exists and is configured correctly
  ![](media/applicationuser.jpg)
 
-![](media/applicationuserdetail.jpg)
+![](media/applicationuserdetails.jpg)
 
 
 
