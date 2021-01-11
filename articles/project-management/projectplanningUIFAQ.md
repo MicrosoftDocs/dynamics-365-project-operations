@@ -31,17 +31,17 @@ Project Operations requires third party cookies enabled in order render the work
 
 _Figure 1 Blank tab when third party cookies are not enabled_
 
-_ **Text of warning in CRM** _
 
-Mitigation
- On Edge
+
+## Mitigation
+ ### On Edge
 
 1. On your computer, open Edge
 2. At the top right, click … \&gt; Settings
 3. Under &quot;Cookies and site permissions&quot;, click Cookies and other site data
 4. Turn off &quot;Block third-party cookies&quot;
 
-On Chrome
+### On Chrome
 
 1. On your computer, open Chrome.
 2. At the top right, click More Settings.
@@ -61,8 +61,8 @@ Project Operations requires the project parameter to reference the PEX Endpoint.
 _Figure 2 Error displayed when the project parameter value is incorrect or null_
 
 
-Mitigation
- ![](media/projecparameter.png)
+## Mitigation
+ ![](media/projectparameter.png)
 
 _Figure 3 PEX Endpoint field on the project parameter_
 
@@ -84,16 +84,17 @@ _Figure 4 The Error displayed on the project form_
 
 _Figure 5 User Error: You don&#39;t have access to this project_
 
-Mitigation
+## Mitigation
+ 
  Screenshot of mitigation area
 
 1. Verify that the user does in fact have access to the project, this is typically done by ensuring that the user has **Project Manager** security role.
 
 
 2. Verify that the Microsoft Project application user exists and is configured correctly
- ![](RackMultipart20210111-4-og7uj7_html_6450ab3d11917fbb.jpg)
+ ![](media/securityroleserror.png)
 
-![](RackMultipart20210111-4-og7uj7_html_ef11f58729230b9f.jpg)
+![](media/noaccess.png)
  Application ID: f53895d3-095d-408f-8e93-8f94b391404e
 
  If this user does not exist you are able to create with by selecting &quot;New Users&quot; changing the entry form to &quot;Application User&quot; and adding the Application ID, complete the data as shown.
