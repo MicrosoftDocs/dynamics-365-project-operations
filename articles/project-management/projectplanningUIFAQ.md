@@ -76,11 +76,11 @@ _Figure 3 PEX Endpoint field on the project parameter_
 
 Project Operations relies upon an external scheduling service with an application user that requires several roles to read and write to entities related to the work breakdown structure; including but not limited to **project task** s, **resource assignments** and **task dependencies**. If a user is unable to render the work breakdown structure when they navigate to the task tab is likely the issues stems from Project for Project Operations has not been enabled for the user.
 
-![](RackMultipart20210111-4-og7uj7_html_81d7325865064b3c.png)
+![](media/securityroleserror.png)
 
 _Figure 4 The Error displayed on the project form_
 
-![](RackMultipart20210111-4-og7uj7_html_d48b4b5a2a13f29e.png)
+![](media/noaccess.png)
 
 _Figure 5 User Error: You don&#39;t have access to this project_
 
@@ -95,7 +95,8 @@ _Figure 5 User Error: You don&#39;t have access to this project_
  ![](media/securityroleserror.png)
 
 ![](media/noaccess.png)
- Application ID: f53895d3-095d-408f-8e93-8f94b391404e
+
+
 
  If this user does not exist you are able to create with by selecting &quot;New Users&quot; changing the entry form to &quot;Application User&quot; and adding the Application ID, complete the data as shown.
 
