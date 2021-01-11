@@ -116,14 +116,10 @@ _Figure 5 User Error: You don&#39;t have access to this project_
 
 When a user makes one or many changes to the work breakdown structure, the changes eventually fail and do not save to CDS. An error is surfaced in the schedule grid.
 
-**Screen Shot of Problem (should include dialog)**
+![](media/unabletosave.png)
 
-**Text of Problem if applies in Modproj UI**
+## Mitigation
 
-**Text of warning in CRM**
-
-Mitigation
- Screenshot of mitigation area
 
 1. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license
 2. Verify that the user can open project.microsoft.com
