@@ -39,6 +39,7 @@ This article applies to Project Operations components with version listed below.
 | **Opportunity Management** | 2029135 | Fixed &quot;Business process error&quot; when user tries to open Invoice line on invoice having &quot;Advance&quot; amount invoiced on it and is in confirmed state |
 | **Opportunity Management** | 2040713 | Fixed script error while creating invoice from contract when Field Service solution is installed |
 | **Project Planning and Tracking** | 2090202 | Marked not-used Business Rules as Deprecated |
+| **Project Planning and Tracking** | n/a | Fixed support for work breakdown structure handling daylight savings time |
 | **Time and Expense** | 2091249 | Tighten controls, so users are prevented from changing the task on an time entry that has been approved/submitted |
 
 ### Project management and accounting on Dynamics 365 F&amp;O
