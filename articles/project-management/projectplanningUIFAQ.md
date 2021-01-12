@@ -1,31 +1,24 @@
 ---
-title: Troubleshooting Guide for Task Grid Configuration
-description:  Troubleshooting Guide for Task Grid Configuration
+title: Troubleshoot the Task grid configuration
+description:  This topic provides troubleshooting information for configuring the Task grid.
 author:  ruhercul
 manager: tfehr
-ms.date: 01/11/2021 
+ms.date: 01/12/2021 
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
 ---
 
-# Troubleshooting Guide for the Task Grid 
+# Troubleshoot the Task grid configuration 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_
 
-
-
-
-## Overview
-
 The following items address commonly observed issues related to users being unable to either read or write tasks in Project Operations.
 
-# Enabling Cookies
+## Enable cookies
 
-## Description
-
-Project Operations requires third party cookies enabled in order render the work breakdown structure. When third party cookies are disabled, users will see a blank tab where the tasks should be rendered.
+Project Operations requires third party cookies be enabled in order render the work breakdown structure. When third party cookies are disabled, users will see a blank tab where the tasks should be rendered.
 
 ![](media/blankschedule.png)
 
