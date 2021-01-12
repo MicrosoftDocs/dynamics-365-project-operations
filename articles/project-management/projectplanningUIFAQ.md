@@ -100,9 +100,9 @@ _Figure 5 User Error: You don&#39;t have access to this project_
 4. Verify that the Project Application user is created as above.
 5. Apply the following security roles to the user:
 
-  a. Common data service user or Base user
-  b. Project Operations System
-  c. Project System
+  1. Common data service user or Base user
+  2. Project Operations System
+  3. Project System
 
 # Work breakdown structure change failures
 
@@ -120,7 +120,7 @@ When a user makes one or many changes to the work breakdown structure, the chang
 3. Verify that the system is pointing to the correct project endpoint, see above.
 4. Verify that the Project Application user has been created, see above.
 5. Apply the following security roles to the user:
-  a. Common data service user or Base user
-  b. Project Operations System
-  c. Project System
-  d. For customer who are deploying the resource/non-stocked based scenario, Project Operations Dual Write System Role is also required
+  1. Common data service user or Base user
+  2. Project Operations System
+  3. Project System
+  4. For customer who are deploying the resource/non-stocked based scenario, Project Operations Dual Write System Role is also required
