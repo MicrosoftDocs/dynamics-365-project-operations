@@ -3,7 +3,7 @@ title: What's new January 2021 - Project Operations for resource/non-stocked bas
 description: This topic provides information about the quality updates available in the January 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
 manager: tfehr
-ms.date: 01/12/2021
+ms.date: 01/13/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -44,26 +44,26 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
 | **Feature Area** | **Reference number** | **Quality update** |
 | --- | --- | --- |
-| **Project management and accounting** | [478667](https://fix.lcs.dynamics.com/Issue/Details/?bugId=478667) | Incorrect contract amount in On-account form for a fixed-price project with multiple funding sources |
-| **Project management and accounting** | [480260](https://fix.lcs.dynamics.com/Issue/Details/?bugId=480260) | %Invoice proposal.PSAnfRefProjId% placeholder is not displaying Project ID for Review project invoice proposals workflow |
-| **Project management and accounting** | [481227](https://fix.lcs.dynamics.com/Issue/Details/?bugId=481227) | Wrong cash discount date when posting project Invoice proposals |
-| **Project management and accounting** | [482558](https://fix.lcs.dynamics.com/Issue/Details/?bugId=482558) | [ProjOps] Removing and readding resource assignment doubles Project Forecast entries in FO |
-| **Project management and accounting** | [484468](https://fix.lcs.dynamics.com/Issue/Details/?bugId=484468) | ProjOps - Unable to create project estimates in CE without having contract line on the project |
-| **Project management and accounting** | [485871](https://fix.lcs.dynamics.com/Issue/Details/?bugId=485871) | Financial dimension in project expense transaction is not in sync with the related voucher and the accounting distribution of the expense report, when costs are posted to Balance |
-| **Project management and accounting** | [488382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=488382) | The filter for Invoice status in Posted project transactions for Fixed-price projects does not work |
-| **Project management and accounting** | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Reverse estimate elimination is not working in Periodic |
-| **Project management and accounting** | [509989](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509989) | Can delete invoice proposal lines in Project Operations integrated scenario |
-| **Project management and accounting** | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041) | Prevent enabling Multiple contract lines feature without CE Integration |
-| **Project management and accounting** | [510527](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510527) | Estimate screen Invoiced revenue is ZERO when On account invoicing = Profit and loss |
-| **Project management and accounting** | [514167](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514167) | Invoice corrections not working in integrated environment |
-| **Project management and accounting** | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP - sales value posting in Intercompany project invoicing picks unexpected account |
-| **Project management and accounting** | [514385](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514385) | ProjOps integration: Unable to update dependencies on estimate tasks in CE |
-| **Project management and accounting** | [515258](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515258) | Repeated deletion of Project Operations integration journals on F&amp;O side leads to loss of data |
-| **Project management and accounting** | [519716](https://fix.lcs.dynamics.com/Issue/Details/?bugId=519716) | Project Invoice proposal posting error: Transaction does not balance on reporting currency when advance invoice deducted is added |
-| **Project management and accounting** | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | Wrong project id on deductions after updating default project on contract in Project Operations |
-| **Project management and accounting** | [522799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522799) | Unable to perform estimate/revenue recognition with project operations feature enabled |
-| **Project management and accounting** | [527319](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527319) | ProjOps - Removing a project from a contract does not reset default project on the contract |
-| **Project management and accounting** | [528212](https://fix.lcs.dynamics.com/Issue/Details/?bugId=528212) | ProjOps - Intercompany - Wrong expense lines show up in the list to &quot;Add line&quot; in intercompany invoice |
+| **Project management and accounting** | [478667](https://fix.lcs.dynamics.com/Issue/Details/?bugId=478667) | Incorrect contract amount on the **On-account** page for a fixed-price project with multiple funding sources. |
+| **Project management and accounting** | [480260](https://fix.lcs.dynamics.com/Issue/Details/?bugId=480260) | The **Invoiceproposal.PSAnfRefProjId** placeholder isn't displaying the Project ID for the workflow, **Review project invoice proposals**. |
+| **Project management and accounting** | [481227](https://fix.lcs.dynamics.com/Issue/Details/?bugId=481227) | The wrong cash discount date is used when posting project invoice proposals. |
+| **Project management and accounting** | [482558](https://fix.lcs.dynamics.com/Issue/Details/?bugId=482558) | Removing and reading resource assignments in Project Operations doubles the project forecast entries in Finance. |
+| **Project management and accounting** | [484468](https://fix.lcs.dynamics.com/Issue/Details/?bugId=484468) | In Project Operations, you can't create project estimates in Dataverse without having a contract line on the project. |
+| **Project management and accounting** | [485871](https://fix.lcs.dynamics.com/Issue/Details/?bugId=485871) | The financial dimension on a project expense transaction isn't synchronized with the related voucher and the accounting distribution of the expense report when costs are posted to Balance. |
+| **Project management and accounting** | [488382](https://fix.lcs.dynamics.com/Issue/Details/?bugId=488382) | The **Invoice status** filter for posted project transactions for fixed-price projects doesn't work. |
+| **Project management and accounting** | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Reverse estimate elimination isn't working in the **Periodic** section. |
+| **Project management and accounting** | [509989](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509989) | Invoice proposal lines can be deleted in Project Operations when integrated with Dataverse. |
+| **Project management and accounting** | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041) | Prevent enabling multiple contract lines feature without Dataverse integration. |
+| **Project management and accounting** | [510527](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510527) | When on-account invoicing is equal to profit and loss, the invoiced revenue is listed as zero on the Estimates page. |
+| **Project management and accounting** | [514167](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514167) | Invoice corrections aren't working in integrated environments. |
+| **Project management and accounting** | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | When posting WIP - sales value in intercompany project invoicing, the wrong account is selected. |
+| **Project management and accounting** | [514385](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514385) | In Project Operations, dependencies on estimate tasks in Dataverse can't be updated. |
+| **Project management and accounting** | [515258](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515258) | Repeatedly deleting Project Operations integration journals in Finance leads to data loss. |
+| **Project management and accounting** | [519716](https://fix.lcs.dynamics.com/Issue/Details/?bugId=519716) | The following error occurs when posting a project invoice proposal, "Transaction does not balance on reporting currency when advance invoice deducted is added". |
+| **Project management and accounting** | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | The wrong project ID is included on deductions after the default project contract is updated in Project Operations. |
+| **Project management and accounting** | [522799](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522799) | Estimate and revenue recognition can't be completed when Project Operations is enabled. |
+| **Project management and accounting** | [527319](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527319) | In Project Operations, removing a project from a contract doesn't reset the default project on the contract. |
+| **Project management and accounting** | [528212](https://fix.lcs.dynamics.com/Issue/Details/?bugId=528212) | In Project Operations, on an intercompany invoice, the wrong expense lines show up in the **Add line** list. |
 | **Travel and Expense** | [515334](https://fix.lcs.dynamics.com/Issue/Details/?bugId=515334) | Expense lines can't be posted because hour setup is missing on the contract line. |
 | **Travel and Expense** | [437673](https://fix.lcs.dynamics.com/Issue/Details/?bugId=437673) | When project/category validation is mandatory, expense categories associated with the project are not visible in the expense report. |
 | **Travel and Expense** | [441256](https://fix.lcs.dynamics.com/Issue/Details/?bugId=441256) | The cash advance balance isn't updated when an expense report is posted by line. |
