@@ -20,7 +20,7 @@ search.app:
 ---
 
 
-What's new or changed in Project Service Automation Update Release 27, V3
+# What's new or changed in Project Service Automation Update Release 27, V3
 
 We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
@@ -45,16 +45,16 @@ The following issues have been fixed:
 - The **Time Entry** grid creates incorrect time for **TimeZone Independent** date behavior.
 - Task lookup isn't limited to the selected project on the **Edit Time Entry** page.
 - Time approval for non-project time entries is blocked because the system is looking for a project approver.
-- Correct entries on Actuals throws an incorrect error message.
+- Correct entries on Actuals displays an incorrect error message.
 - When a task contains a null value for actual cost and the project totals are refreshed, the following error occurs, "Given key not present in dictionary".
-- In specific instances, **Group By** filters on the **Project Estimate** tab does't display expense estimates.
-- **Daylight Saving Time** interval isn't correct for Time entries.
+- In specific instances, **Group By** filters on the **Project Estimate** tab does not display expense estimates.
+- **Daylight Saving Time** interval isn't correct for time entries.
 
 **Project Management**
 
 The following issues have been fixed:
 
-- Caching improvements which enhances performance related to loading the **Project** page.
+- Caching improvements, which enhances performance related to loading the **Project** page.
 - Obsolete business rule preventing project tasks from being completed.
 - Microsoft Project Add-in contours aren't respecting the add-in’s calendar resulting in incorrect resource requirements.
 - Creating projects from templates incorrectly sets assignment dates and prevents the ability to generate resource requirements.
@@ -72,6 +72,6 @@ The following issues have been fixed:
 - A null reference exception is generated on a project quote line because **Import from Project Estimation** is visible when a project hasn't been selected.
 - The following error, "Object reference not set to an instance of an object" occurs when closing a quote as **Won**.
 - Adjustment status isn't set during an actual reversal while unlinking a project from a contract line.
-- When Dynamics 365 Field Service and Project Service Automation are both installed, the **'Lock pricing'** and **'Use Current Pricing'** options are not displayed at a same time on the **Invoice** page.
+- When Dynamics 365 Field Service and Project Service Automation are both installed, the **Lock pricing** and **Use Current Pricing** options are not displayed at a same time on the **Invoice** page.
 - For the Japanese language, there is inconsistent translation with other calendar-based pages.
 - **Activate** and **Deactivate** have been removed from **Price List Association** entities in Project Service Automation.
