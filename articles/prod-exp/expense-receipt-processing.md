@@ -29,8 +29,6 @@ ms.dyn365.ops.version: 10.0.8
 
 # Expense receipt processing
 
-[!include [banner](../includes/banner.md)]
-
 Expense entry has been enhanced through the introduction of optical character recognition (OCR) processing for receipts. This feature is designed to improve the user experience when expense reports are created.
 
 ## Key features

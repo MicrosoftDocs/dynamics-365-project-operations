@@ -30,8 +30,6 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Intercompany expenses
 
-[!include [banner](../includes/banner.md)]
-
 A worker who is employed by one legal entity in an organization might perform work for another legal entity in the same organization. You can use intercompany expenses to assign the worker’s expenses to the legal entity for which the  work was performed. The legal entity that employs the worker is called the loaning legal entity. The legal entity for which the worker incurs expenses is called the borrowing legal entity. 
 
 Before a worker can create and submit intercompany expenses, you must enable intercompany expense lines. In the loaning legal entity, on the **Expense management parameters** page, select **Allow intercompany expense lines**. 
