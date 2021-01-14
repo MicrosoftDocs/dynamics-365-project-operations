@@ -1,121 +1,115 @@
 ---
-title: Troubleshoot the Task grid configuration
-description:  This topic provides troubleshooting information for configuring the Task grid.
+title: Troubleshoot working in the Task grid 
+description: This topic provides troubleshooting information in the Task grid.
 author:  ruhercul
 manager: tfehr
-ms.date: 01/12/2021 
+ms.date: 01/14/2021 
 ms.topic: article
+ms.product:
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
 ---
 
-# Troubleshoot the Task grid configuration 
+# Troubleshoot working in the Task grid 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The following items address commonly observed issues related to users being unable to either read or write tasks in Project Operations.
+The following items address commonly observed issues related to users being unable to either read or write tasks in Dynamics 365 Project Operations.
 
 ## Enable cookies
 
-Project Operations requires third party cookies be enabled in order render the work breakdown structure. When third party cookies are disabled, users will see a blank tab where the tasks should be rendered.
+Project Operations requires third-party cookies be enabled in order render the work breakdown structure. When third-party cookies aren't enabled, instead of seeing tasks, you will see a blank page when you select the **Tasks** tab on the **Project** page.
 
 ![Blank tab when third party cookies are not enabled](media/blankschedule.png)
 
 
-## Mitigation
-For the Microsoft Edge or Google Chrome, the sections below outline browser setting changes to enable 3rd party cookies.
- ### On Edge
+### Workaround
+For Microsoft Edge or Google Chrome browsers, the following procedures outline how to update your browser setting to enable third-party cookies.
 
-1. On your computer, open Edge
-2. At the top right, click … \&gt; Settings
-3. Under &quot;Cookies and site permissions&quot;, click Cookies and other site data
-4. Turn off &quot;Block third-party cookies&quot;
+#### Microsoft Edge
 
-### On Chrome
+1. On your computer, open your Edge browser.
+2. In the top right corner, click **…** > **Settings**.
+3. Under **Cookies and site permissions**, select **Cookies and site data**.
+4. Turn off **Block third-party cookies**.
 
-1. On your computer, open Chrome.
-2. At the top right, click More Settings.
-3. Under &quot;Privacy and security,&quot; click Cookies and other site data.
-4. Select &quot;Allow all cookies&quot;
+#### Google Chrome
 
-Important: If you block third-party cookies, all cookies and site data from other sites will be blocked, even if the site is allowed on your exceptions list.
+1. On your computer, open your Chrome browser.
+2. In the top right corner, select the three vertical dots, and then select **Settings**.
+3. Under **Privacy and security**, select **Cookies and other site data**.
+4. Select the **Allow all cookies** radio button.
 
-# PEX Endpoint
+> [!IMPORTANT]
+> If you block third-party cookies, all cookies and site data from other sites will be blocked, even if the site is allowed on your exceptions list.
 
-## Description
+## PEX Endpoint
 
-Project Operations requires the project parameter to reference the PEX Endpoint. This endpoint is required to communicate with the service used to render the work breakdown structure.
+Project Operations requires that a project parameter reference the PEX Endpoint. This endpoint is required to communicate with the service used to render the work breakdown structure. IF the parameter isn't enabled, you will receive an error. 
 
 ![Error displayed when the project parameter value is incorrect or null](media/Pexenpointerror.png)
 
 
-## Mitigation
+## Workaround
  ![PEX Endpoint field on the project parameter](media/projectparameter.png)
 
+1. Add the **PEX Endpoint** field to the **Project Parameters** page.
+2. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+3. Remove the field from the **Project Parameters** page.
 
-1. Add the PEX Endpoint field to the project parameter form
-2. Update the field with the following value: https://project.microsoft.com/\&lt;lang\&gt;/?org=\&lt;cdsServer\&gt;#/taskgrid?projectId=\&lt;id\&gt;&amp;type=2
-3. Remove the field from the project parameter form
+## Privileges for Project for the Web
 
-# Privileges for Project for the Web
-
-## Description
-
-Project Operations relies upon an external scheduling service with an application user that requires several roles to read and write to entities related to the work breakdown structure; including but not limited to **project task** s, **resource assignments** and **task dependencies**. If a user is unable to render the work breakdown structure when they navigate to the task tab is likely the issues stems from Project for Project Operations has not been enabled for the user.
+Project Operations relies on an external scheduling service with an application user that requires several roles to read and write to entities related to the work breakdown structure; including but not limited to **project task** s, **resource assignments** and **task dependencies**. If a user is unable to render the work breakdown structure when they navigate to the task tab is likely the issues stems from Project for Project Operations has not been enabled for the user.
 
 ![security role error](media/securityroleserror.png)
-
 
 
 ![no access error](media/noaccess.png)
 
 
 
-## Mitigation
+## Workaround
+
+1. Navigate to **Setting** > **Security** > **Users** > **Application Users**.  
+
+   ![Application reader](media/applicationuser.jpg)
+   
+2. Double-click the application user record to verify that:
+
+ - The user has access to the project. This verification is typically done by ensuring that the user has **Project Manager** security role.
+ - The Microsoft Project application user exists and is configured correctly.
  
+3. If this user doesn't exist, you can create a new user record. Select **New Users**, change the entry form to **Application User** and add the **Application ID**.
 
-1. Verify that the user does in fact have access to the project, this is typically done by ensuring that the user has **Project Manager** security role.
+   ![Application user details](media/applicationuserdetails.jpg)
 
-
-2. Verify that the Microsoft Project application user exists and is configured correctly
-
-3. Navigate to Setting > Security > Users > Application Users 
- ![Application reader](media/applicationuser.jpg)
-
-![Application user details](media/applicationuserdetails.jpg)
-
- If this user does not exist you are able to create with by selecting &quot;New Users&quot; changing the entry form to &quot;Application User&quot; and adding the Application ID, complete the data as shown.
-
-3. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license
-4. Verify that the user can open project.microsoft.com
-5. Verify that the system is pointing to the correct project endpoint, via project parameters
-6. Verify that the Project Application user is created as above.
-7. Apply the following security roles to the user:
+4. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.
+5. Verify that the user can open project.microsoft.com.
+6. Verify through the project parameters that the system is pointing to the correct project endpoint.
+7. Verify that the project application user is created as stated above.
+8. Apply the following security roles to the user:
 
   - Common Data Service User
   - Project Operations System
   - Project System
 
-# Work breakdown structure change failures
+## Error when updating the Work breakdown structure
 
-## Description
-
-When a user makes one or many changes to the work breakdown structure, the changes eventually fail and do not save to CDS. An error is surfaced in the schedule grid.
+When one or more updates are made to the work breakdown structure, the changes eventually fail and aren't saved. An error occurs in the schedule grid.
 
 ![Saved errors](media/unabletosave.png)
 
 
-
-## Mitigation
-
+## Workaround
 
 1. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license
 2. Verify that the user can open project.microsoft.com
 3. Verify that the system is pointing to the correct project endpoint, see above.
 4. Verify that the Project Application user has been created, see above.
 5. Apply the following security roles to the user:
-  1. Common data service user or Base user
-  2. Project Operations System
-  3. Project System
-  4. For customer who are deploying the resource/non-stocked based scenario, Project Operations Dual Write System Role is also required
+  
+  - Common data service user or Base user
+  - Project Operations System
+  - Project System
+  - Project Operations Dual Write System (This role is required if you are deploying the resource/non-stocked based scenario of Project Operations.)
