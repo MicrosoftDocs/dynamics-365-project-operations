@@ -29,8 +29,6 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Per diem rules
 
-[!include [banner](../includes/banner.md)]
-
 A *per diem* is an allowance that is paid to a worker who is traveling for work. In Expense management, you can create per diem rules for 
 various travel situations. Per diem rates can be based on the time of year, the travel location, or both. When you create a per diem 
 rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services. You can

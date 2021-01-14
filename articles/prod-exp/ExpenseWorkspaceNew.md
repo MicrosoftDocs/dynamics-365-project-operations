@@ -13,22 +13,21 @@ ms.technology:
 
 # optional metadata
 
-# ms.search.form:  [Operations AOT form name to tie this topic to]
+# ms.search.form:  
 audience: Application User
 # ms.devlang: 
 ms.reviewer: roschlom
 ms.search.scope: Operations, Core 
 # ms.tgt_pltfrm: 
-# ms.custom: [used by loc for topics migrated from the wiki]
+# ms.custom: 
 ms.search.region: Global 
-# ms.search.industry: [leave blank for most, retail, public sector]
+# ms.search.industry: 
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30 
 ms.dyn365.ops.version: 10.0.3 
 ---
 
 # Redesigned expense reports
-[!include[banner](../includes/banner.md)]
 
 Expense report entry has been redesigned to simplify the process of completing expense reports and decrease the time that is required. Here are the major components of the new expense experience:
 
