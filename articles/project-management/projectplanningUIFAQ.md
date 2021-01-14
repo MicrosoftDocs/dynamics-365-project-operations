@@ -80,7 +80,7 @@ Project Operations relies upon an external scheduling service with an applicatio
 
 2. Verify that the Microsoft Project application user exists and is configured correctly
 
-3. Navigate to Setting > Security > Application Users
+3. Navigate to Setting > Security > Users > Application Users 
  ![Application reader](media/applicationuser.jpg)
 
 ![Application user details](media/applicationuserdetails.jpg)
@@ -93,7 +93,7 @@ Project Operations relies upon an external scheduling service with an applicatio
 6. Verify that the Project Application user is created as above.
 7. Apply the following security roles to the user:
 
-  - Common data service 
+  - Common Data Service User
   - Project Operations System
   - Project System
 
