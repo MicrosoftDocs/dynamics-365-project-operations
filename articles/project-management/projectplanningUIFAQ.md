@@ -89,7 +89,7 @@ _Figure 5 User Error: You don&#39;t have access to this project_
  ![](media/applicationuser.jpg)
 
 ![](media/applicationuserdetails.jpg)
-_Figure 6 Application user _
+_Figure 6 Application user_
 
 
 
@@ -101,7 +101,7 @@ _Figure 6 Application user _
 4. Verify that the Project Application user is created as above.
 5. Apply the following security roles to the user:
 
-  1. Common data service user or Base user
+  1. Common data servic7 Saved errors r
   2. Project Operations System
   3. Project System
 
@@ -112,6 +112,7 @@ _Figure 6 Application user _
 When a user makes one or many changes to the work breakdown structure, the changes eventually fail and do not save to CDS. An error is surfaced in the schedule grid.
 
 ![](media/unabletosave.png)
+_Figure 7 Saved errors _
 
 
 ## Mitigation
