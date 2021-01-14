@@ -89,6 +89,7 @@ _Figure 5 User Error: You don&#39;t have access to this project_
  ![](media/applicationuser.jpg)
 
 ![](media/applicationuserdetails.jpg)
+_Figure 6 Application user _
 
 
 
@@ -111,6 +112,7 @@ _Figure 5 User Error: You don&#39;t have access to this project_
 When a user makes one or many changes to the work breakdown structure, the changes eventually fail and do not save to CDS. An error is surfaced in the schedule grid.
 
 ![](media/unabletosave.png)
+
 
 ## Mitigation
 
