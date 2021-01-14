@@ -61,7 +61,7 @@ _Figure 2 Error displayed when the project parameter value is incorrect or null_
 _Figure 3 PEX Endpoint field on the project parameter_
 
 1. Add the PEX Endpoint field to the project parameter form
-2. Update the field with the following value: **https://project.microsoft.com/\&lt;lang\&gt;/?org=\&lt;cdsServer\&gt;#/taskgrid?projectId=\&lt;id\&gt;&amp;type=2**
+2. Update the field with the following value: https://project.microsoft.com/\&lt;lang\&gt;/?org=\&lt;cdsServer\&gt;#/taskgrid?projectId=\&lt;id\&gt;&amp;type=2
 3. Remove the field from the project parameter form
 
 # Privileges for Project for the Web
@@ -70,40 +70,38 @@ _Figure 3 PEX Endpoint field on the project parameter_
 
 Project Operations relies upon an external scheduling service with an application user that requires several roles to read and write to entities related to the work breakdown structure; including but not limited to **project task** s, **resource assignments** and **task dependencies**. If a user is unable to render the work breakdown structure when they navigate to the task tab is likely the issues stems from Project for Project Operations has not been enabled for the user.
 
-![](media/securityroleserror.png)
+![security role error](media/securityroleserror.png)
 
-_Figure 4 The Error displayed on the project form_
 
-![](media/noaccess.png)
 
-_Figure 5 User Error: You don&#39;t have access to this project_
+![no access error](media/noaccess.png)
+
+
 
 ## Mitigation
  
- Screenshot of mitigation area
 
 1. Verify that the user does in fact have access to the project, this is typically done by ensuring that the user has **Project Manager** security role.
 
 
 2. Verify that the Microsoft Project application user exists and is configured correctly
- ![](media/applicationuser.jpg)
 
-![](media/applicationuserdetails.jpg)
-_Figure 6 Application user_
+3. Navigate to Setting > Security > Application Users
+ ![Application reader](media/applicationuser.jpg)
 
-
+![Application user details](media/applicationuserdetails.jpg)
 
  If this user does not exist you are able to create with by selecting &quot;New Users&quot; changing the entry form to &quot;Application User&quot; and adding the Application ID, complete the data as shown.
 
-1. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license
-2. Verify that the user can open project.microsoft.com
-3. Verify that the system is pointing to the correct project endpoint, via project parameters
-4. Verify that the Project Application user is created as above.
-5. Apply the following security roles to the user:
+3. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license
+4. Verify that the user can open project.microsoft.com
+5. Verify that the system is pointing to the correct project endpoint, via project parameters
+6. Verify that the Project Application user is created as above.
+7. Apply the following security roles to the user:
 
-  1. Common data servic7 Saved errors r
-  2. Project Operations System
-  3. Project System
+  - Common data service 
+  - Project Operations System
+  - Project System
 
 # Work breakdown structure change failures
 
