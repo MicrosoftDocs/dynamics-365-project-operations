@@ -30,8 +30,6 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Expense management workflow
 
-[!include [banner](../includes/banner.md)]
-
 You can use the workflow system to set up a review process for expense reports in Expense management. You can set up a workflow that uses the following criteria to determine who approves expense reports:
 
 - The employee reporting hierarchy and predefined approval limits
