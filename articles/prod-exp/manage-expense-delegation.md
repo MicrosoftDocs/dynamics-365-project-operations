@@ -29,8 +29,6 @@ ms.dyn365.ops.version: 10.0.9
 
 # Manage expense delegation
 
-[!include [banner](../includes/banner.md)]
-
 An expense delegate can create and manage expense reports for another employee.
 
 ## Configure expense delegation
