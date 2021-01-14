@@ -20,10 +20,7 @@ The following items address commonly observed issues related to users being unab
 
 Project Operations requires third party cookies be enabled in order render the work breakdown structure. When third party cookies are disabled, users will see a blank tab where the tasks should be rendered.
 
-![](media/blankschedule.png)
-
-_Figure 1 Blank tab when third party cookies are not enabled_
-
+![Blank tab when third party cookies are not enabled](media/blankschedule.png)
 
 
 ## Mitigation
@@ -50,15 +47,12 @@ Important: If you block third-party cookies, all cookies and site data from othe
 
 Project Operations requires the project parameter to reference the PEX Endpoint. This endpoint is required to communicate with the service used to render the work breakdown structure.
 
-![](media/Pexenpointerror.png)
-
-_Figure 2 Error displayed when the project parameter value is incorrect or null_
+![Error displayed when the project parameter value is incorrect or null](media/Pexenpointerror.png)
 
 
 ## Mitigation
- ![](media/projectparameter.png)
+ ![PEX Endpoint field on the project parameter](media/projectparameter.png)
 
-_Figure 3 PEX Endpoint field on the project parameter_
 
 1. Add the PEX Endpoint field to the project parameter form
 2. Update the field with the following value: https://project.microsoft.com/\&lt;lang\&gt;/?org=\&lt;cdsServer\&gt;#/taskgrid?projectId=\&lt;id\&gt;&amp;type=2
@@ -109,8 +103,8 @@ Project Operations relies upon an external scheduling service with an applicatio
 
 When a user makes one or many changes to the work breakdown structure, the changes eventually fail and do not save to CDS. An error is surfaced in the schedule grid.
 
-![](media/unabletosave.png)
-_Figure 7 Saved errors _
+![Saved errors](media/unabletosave.png)
+
 
 
 ## Mitigation
