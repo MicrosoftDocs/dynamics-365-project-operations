@@ -60,13 +60,12 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 ## Privileges for Project for the Web
 
-Project Operations relies on an external scheduling service with an application user that requires several roles to read and write to entities related to the work breakdown structure; including but not limited to **project task** s, **resource assignments** and **task dependencies**. If a user is unable to render the work breakdown structure when they navigate to the task tab is likely the issues stems from Project for Project Operations has not been enabled for the user.
+Project Operations relies on an external scheduling service. The service requires that a user have several roles assigned to read and write to entities related to the work breakdown structure. These entities include project tasks, resource assignments, and task dependencies. If a user can't render the work breakdown structure when they navigate to the **Tasks** tab, it's probably because Project for Project Operations hasn't been enabled for them. A user might receive either a security role error, or an error related to a denial of access.
 
 ![security role error](media/securityroleserror.png)
 
 
 ![no access error](media/noaccess.png)
-
 
 
 ## Workaround
