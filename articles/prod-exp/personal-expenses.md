@@ -29,8 +29,6 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Personal expenses on an expense report
 
-[!include [banner](../includes/banner.md)]
-
 During business travel, workers might sometimes charge personal expenses to their corporate credit cards. If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports. 
 
 There are two methods for handling a worker's personal expenses:
