@@ -29,8 +29,6 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Travel requisitions overview
 
-[!include [banner](../includes/banner.md)]
-
 A *travel requisition* is a source document that lists the expenses that will be incurred for the purpose of travel. A travel requisition is submitted for review and can then be used to authorize expenses.
 
 Your organization might require that a travel requisition be submitted before employees incur any expense that is charged to the organization. This requirement applies, regardless of whether employees charge expenses to a corporate credit card, spend cash that they received from a cash advance, or incur out-of-pocket expenses that will be reimbursed by the organization.
