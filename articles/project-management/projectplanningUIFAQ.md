@@ -59,11 +59,6 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 Project Operations relies on an external scheduling service. The service requires that a user have several roles assigned to read and write to entities related to the work breakdown structure. These entities include project tasks, resource assignments, and task dependencies. If a user can't render the work breakdown structure when they go to the **Tasks** tab, it's probably because Project for Project Operations hasn't been enabled. A user might receive either a security role error, or an error related to a denial of access.
 
-![Security role error](media/securityroleserror.png)
-
-
-![No access error](media/noaccess.png)
-
 
 ## Workaround
 
@@ -83,10 +78,10 @@ Project Operations relies on an external scheduling service. The service require
 4. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.
 5. Verify that the user can open project.microsoft.com.
 6. Verify through the project parameters that the system is pointing to the correct project endpoint.
-7. Verify that the project application user is created as stated above.
+7. Verify that the project application user is created.
 8. Apply the following security roles to the user:
 
-  - Common Data Service User
+  - Dataverse User
   - Project Operations System
   - Project System
 
@@ -94,18 +89,15 @@ Project Operations relies on an external scheduling service. The service require
 
 When one or more updates are made to the work breakdown structure, the changes eventually fail and aren't saved. An error occurs in the schedule grid noting that “Recent change you’ve made couldn’t be saved.”
 
-![Saved errors](media/unabletosave.png)
-
-
 ### Workaround
 
 1. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.
 2. Verify that the user can open project.microsoft.com.
-3. Verify that the system is pointing to the correct project endpoint, see above.
-4. Verify that the Project Application user has been created, see above.
+3. Verify that the system is pointing to the correct project endpoint,.
+4. Verify that the Project Application user has been created.
 5. Apply the following security roles to the user:
   
-  - Common data service user or Base user
+  - Dataverse user or Base user
   - Project Operations System
   - Project System
   - Project Operations Dual Write System (This role is required if you are deploying the resource/non-stocked based scenario of Project Operations.)
