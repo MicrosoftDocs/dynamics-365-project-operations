@@ -50,6 +50,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>United Arab Emirates</i> | [3.10.45.98](whats-new-ur-27.md) | TBD | January 29, 2021
 | | <i>South Africa</i> | [3.10.45.98](whats-new-ur-27.md) | TBD | January 29, 2021
 | | <i>Germany</i> | [3.10.45.98](whats-new-ur-27.md) | TBD | January 29, 2021
+| | <i>Switzerland</i> | [3.10.45.98](whats-new-ur-27.md) | TBD | January 29, 2021
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.98](whats-new-ur-27.md) | January 22, 2021
 | | <i>Asia Pacific</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.98](whats-new-ur-27.md) | January 22, 2021
