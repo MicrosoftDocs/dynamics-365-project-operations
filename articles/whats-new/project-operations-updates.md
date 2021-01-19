@@ -45,10 +45,10 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |    &nbsp; | Canada        |  4.6.0.154       | TBD     | 22-Jan-21           |
 |   &nbsp;  | India         |  4.6.0.154       | TBD     | 22-Jan-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.5.0.134       | 4.6.0.154     | 15-Jan-21           |
-|   &nbsp;  | Asia Pacific  |  4.5.0.134       | 4.6.0.154     | 15-Jan-21           |
-|   &nbsp;  | Great Britain |  4.5.0.134       | 4.6.0.154     | 15-Jan-21           |
-|   &nbsp;  | Oceania       |  4.5.0.134       | 4.6.0.154     | 15-Jan-21           |
+|   &nbsp;  | Japan         |  4.6.0.154       | TBD     | 29-Jan-21           |
+|   &nbsp;  | Asia Pacific  |  4.6.0.154       | TBD     | 29-Jan-21           |
+|   &nbsp;  | Great Britain |  4.6.0.154       | TBD     | 29-Jan-21           |
+|   &nbsp;  | Oceania       |  4.6.0.154       | TBD     | 29-Jan-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | Europe        |  4.5.0.134       | 4.6.0.154     | 22-Jan-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
