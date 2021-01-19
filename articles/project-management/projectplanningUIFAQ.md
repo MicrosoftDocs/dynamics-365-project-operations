@@ -3,7 +3,7 @@ title: Troubleshoot working in the Task grid
 description: This topic provides troubleshooting information needed when working in the Task grid.
 author:  ruhercul
 manager: tfehr
-ms.date: 01/14/2021 
+ms.date: 01/19/2021 
 ms.topic: article
 ms.product:
 ms.service: project-operations
