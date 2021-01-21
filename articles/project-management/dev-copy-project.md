@@ -3,7 +3,7 @@ title: Develop project templates with Copy Project
 description: This topic provides information about how to create project templates using the Copy Project custom action.
 author: stsporen
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -45,8 +45,8 @@ For more defaults on actions, see [Use Web API actions](https://docs.microsoft.c
 When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.
 
 
-## Example
-This example shows how to call the CopyProject custom action with the **removeNamedResources** parameter set.
+### Example
+The following example shows how to call the **CopyProject** custom action with the **removeNamedResources** parameter set.
 ```C#
 {
     using System;
