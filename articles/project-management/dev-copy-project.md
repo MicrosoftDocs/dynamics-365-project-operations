@@ -45,8 +45,9 @@ For more defaults on actions, see [Use Web API actions](https://docs.microsoft.c
 When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.
 
 
-## Sample Code
-```
+## Example
+This example shows how to call the CopyProject custom action with the **removeNamedResources** parameter set.
+```C#
 {
     using System;
     using System.Runtime.Serialization;
