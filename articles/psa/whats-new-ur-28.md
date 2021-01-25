@@ -21,7 +21,7 @@ search.app:
 
 
 
-# "What's new or changed in Project Service Automation Update Release 28, V3"
+# What's new or changed in Project Service Automation Update Release 28, V3
 
 
 Project Service Automation Update Release 28, V3
