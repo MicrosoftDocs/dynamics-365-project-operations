@@ -24,7 +24,7 @@ search.app:
 title: "What's new or changed in Project Service Automation Update Release 28, V3"
 ---
 
-Project Service Automation Update Release 87, V3
+Project Service Automation Update Release 28, V3
 ================================================
 
 We’re pleased to announce the latest update for the Project Service Automation
