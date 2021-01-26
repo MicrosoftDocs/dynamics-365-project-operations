@@ -41,12 +41,12 @@ The following issues have been fixed:
 
 The following issues have been fixed:
 
-- In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the Work Breakdown Structure page.
+- In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the **Work Breakdown Structure** page.
 
 **Sales**
 
 The following issues have been fixed:
 
-- A Null Reference Exception is generated when the **GetEstimatesForProject** plug-in is invoked.
-- **Mark ready to invoice** on the milestone grid only pseudo-updates attributes except for the attribute, **InvoiceStatus** which is actually updated.
+- A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.
+- **Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.
 
