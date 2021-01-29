@@ -39,22 +39,22 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | First Release |  4.6.0.154       | TBD     | 22-Jan-21           |
+|   &nbsp;  | First Release |  4.6.0.154       | TBD     | 03-Feb-21           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.6.0.154       | TBD     | 22-Jan-21           |
-|    &nbsp; | Canada        |  4.6.0.154       | TBD     | 22-Jan-21           |
-|   &nbsp;  | India         |  4.6.0.154       | TBD     | 22-Jan-21           |
-|   &nbsp;  | France         |  4.6.0.154       | TBD     | 22-Jan-21           |
-|   &nbsp;  | United Arab Emirates         |  4.6.0.154       | TBD     | 22-Jan-21           |
+|   &nbsp;  | South America |  4.6.0.154       | TBD     | 03-Feb-21           |
+|    &nbsp; | Canada        |  4.6.0.154       | TBD     | 03-Feb-21           |
+|   &nbsp;  | India         |  4.6.0.154       | TBD     | 03-Feb-21           |
+|   &nbsp;  | France         |  4.6.0.154       | TBD     | 03-Feb-21           |
+|   &nbsp;  | United Arab Emirates         |  4.6.0.154       | TBD     | 03-Feb-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.6.0.154       | TBD     | 29-Jan-21           |
-|   &nbsp;  | Asia Pacific  |  4.6.0.154       | TBD     | 29-Jan-21           |
-|   &nbsp;  | Great Britain |  4.6.0.154       | TBD     | 29-Jan-21           |
-|   &nbsp;  | Oceania       |  4.6.0.154       | TBD     | 29-Jan-21           |
+|   &nbsp;  | Japan         |  4.6.0.154       | TBD     | 03-Feb-21           |
+|   &nbsp;  | Asia Pacific  |  4.6.0.154       | TBD     | 03-Feb-21           |
+|   &nbsp;  | Great Britain |  4.6.0.154       | TBD     | 03-Feb-21           |
+|   &nbsp;  | Oceania       |  4.6.0.154       | TBD     | 03-Feb-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        |  4.6.0.154       | TBD     | 05-Feb-21           |
+|   &nbsp;  | Europe        |  4.6.0.154       | TBD     | 12-Feb-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | North America |  4.6.0.154       | TBD     | 12-Feb-21           |
+|   &nbsp;  | North America |  4.5.0.134       | 4.6.0.154     | 12-Feb-21           |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
