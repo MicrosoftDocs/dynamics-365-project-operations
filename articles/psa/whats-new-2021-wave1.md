@@ -52,5 +52,5 @@ The following issues have been fixed:
 -   End dates auto-populating on creation of a time entry if the duration is
     null.
 
--   [PSA 3.x] Users are able to change the task on an time entry that has been
-    approved/Submitted(Server side)
+-   Users are able to change the task on an time entry that has been
+    approved/Submitted.
