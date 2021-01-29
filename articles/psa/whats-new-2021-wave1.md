@@ -35,4 +35,4 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed:
 
 - End dates auto-populate when a time entry is created if the duration is null.
-- Users cam change the task on an time entry that has been approved or submitted.
+- Users can change the task on a time entry that has been approved or submitted.
