@@ -3,7 +3,7 @@ title: Manage project invoice proposals
 description: This topic provides details about processing customer-facing invoices with Project Operations for resource/ non-stocked based scenarios.
 author: sigitac
 manager: Annbe
-ms.date: 01/27/2021
+ms.date: 01/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -127,7 +127,7 @@ The **Format invoice proposals** page allows custom grouping transactions to dis
 
 Print management uses different report files to print, specify destinations, and customize footer text for the invoice. Print management can be set up at the module level, however these settings can be overridden for a specific customer, contract, or invoice proposal. To access this function on the **Project invoice proposal** page, select **Print** > **Print management**.
 
-Print management setup is displayed as a tree view, where each node level displays the available documents to adjust. You can assign custom printouts at the module, customer, contract, or invoice proposal document level. To modify the original document printout, expand the desired node and select **Original item**. In the **Report format** field, select the report format to be used for printing. You can use custom report formats by using [Business Document Management framework](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Print management setup is displayed as a tree view, where each node level displays the available documents to adjust. You can assign custom printouts at the module, customer, contract, or invoice proposal document level. To modify the original document printout, expand the desired node and select **Original item**. In the **Report format** field, select the report format to be used for printing. You can use custom report formats by using [Business Document Management framework](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## Post invoice proposals
 
