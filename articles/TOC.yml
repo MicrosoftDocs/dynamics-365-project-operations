@@ -378,22 +378,28 @@
       items:
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
-  - name: Proforma invoicing
+  - name: Invoicing
     items:
-    - name: Manage project billing backlog
-      href: proforma-invoicing/manage-billing-backlog.md
-    - name: Manage not-to-exceed status and validations
-      href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-    - name: Create a proforma project invoice manually
-      href: proforma-invoicing/create-manual-proforma-invoice.md
-    - name: Manage a proforma project invoice
-      href: proforma-invoicing/manage-proforma-invoice.md
-    - name: Invoice a retainer or an advance
-      href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-    - name: Confirm a proforma project invoice
-      href: proforma-invoicing/confirm-proforma-invoice.md
-    - name: Configure project invoice automation
-      href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Invoicing process overview
+      href: invoicing/post-project-invoices.md
+    - name: Manage project invoice proposals
+      href: invoicing/format-update-project-invoice-proposals.md
+    - name: Proforma invoicing
+      items:
+      - name: Manage project billing backlog
+        href: proforma-invoicing/manage-billing-backlog.md
+      - name: Manage not-to-exceed status and validations
+        href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+      - name: Create a proforma project invoice manually
+        href: proforma-invoicing/create-manual-proforma-invoice.md
+      - name: Manage a proforma project invoice
+        href: proforma-invoicing/manage-proforma-invoice.md
+      - name: Invoice a retainer or an advance
+        href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+      - name: Confirm a proforma project invoice
+        href: proforma-invoicing/confirm-proforma-invoice.md
+      - name: Configure project invoice automation
+        href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
     items:
     - name: Financial dimension defaults
@@ -964,6 +970,8 @@
       href: psa/whats-new-ur-13.md
     - name: What's new or changed in Update Release 12, V3
       href: psa/whats-new-ur-12.md
+    - name: What's new or changed in Project Service Automation V3.x wave 1 2021
+      href: psa/whats-new-2021-wave1.md
     - name: What's new or changed in Project Service Automation V3.x wave 1 2020
       href: psa/whats-new-v3-2020-wave1.md
     - name: What's new or changed in Project Service Automation V3
