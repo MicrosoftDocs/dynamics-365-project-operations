@@ -31,22 +31,9 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 ### Bug fixes
 
-**Time and Expense**
+**Resource Management**
 
 The following issues have been fixed:
 
-- Users can use **Bulk Edit** to update time entries that have been approved and submitted.
-
-**Project Management**
-
-The following issues have been fixed:
-
-- In cases where the task GUID is interpreted as a number, tasks can't be opened for edit using **Edit Task** in the ribbon on the **Work Breakdown Structure** page.
-
-**Sales**
-
-The following issues have been fixed:
-
-- A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.
-- **Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.
+- Schedule assistance search performance degradation.
 
