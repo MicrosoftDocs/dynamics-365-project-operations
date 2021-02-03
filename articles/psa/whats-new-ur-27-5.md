@@ -31,8 +31,7 @@ This topic lists the features and fixes that are new or changed for Project Serv
 ### Bug fixes
 
 
-
-**Project Management**
+**Resource Management**
 
 The following issues have been fixed:
 
