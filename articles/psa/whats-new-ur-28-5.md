@@ -5,7 +5,7 @@ author: ruhercul
 manager: kfend
 ms.service: project-operations
 ms.custom: dyn365-projectservice
-ms.date: 02/01/2021
+ms.date: 02/03/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -35,5 +35,5 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 The following issues have been fixed:
 
-- Schedule assistance search performance degradation.
+- Schedule assistance search performance degradation
 
