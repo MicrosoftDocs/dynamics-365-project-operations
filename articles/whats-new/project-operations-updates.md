@@ -45,7 +45,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |    &nbsp; | Canada        |  4.7.0.95       | TBD     | 19-Feb-21           |
 |   &nbsp;  | India         |  4.7.0.95       | TBD     | 19-Feb-21           |
 |   &nbsp;  | France         |  4.7.0.95       | TBD     | 19-Feb-21           |
-|   &nbsp;  | United Arab Emirates         |  4.6.0.154       | TBD     | 03-Feb-21           |
+|   &nbsp;  | United Arab Emirates         |  4.7.0.95       | TBD     | 19-Feb-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | Japan         |  4.7.0.95       | TBD     | 26-Feb-21           |
 |   &nbsp;  | Asia Pacific  |  4.7.0.95       | TBD     | 26-Feb-21           |
