@@ -2,7 +2,7 @@
 # required metadata
 
 title: Define project calendars
-description: This topic provides information about using a project calendar to track the project schedule.
+description: This topic provides information about how to apply a calendar template to a project to track the project schedule.
 author: ruhercul
 manager: AnnBe
 ms.date: 09/18/2020
@@ -33,24 +33,33 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures. To create a project calendar template, you associate a work template with the **Calendar template** field for the project. Follow these steps to create a work template.
+To create and manage a project, you must apply a calendar template to the project. The calendar template defines the following project attributes:
 
-1. In the left navigation pane, select **Resources**. 
-2. On the **Resources** list page, open a user record, and then select **Show Work Hours**.
+- Working hours, including start and end time
+- Working days
+- Calendar exceptions such as non-working days
 
-  > [!NOTE]
-  > Make sure that you allow pop-ups on the browser page. This lets you see the work hours set for the resource.
-  
-3. On the **Monthly View** tab, select **Set Up**. A list of three options appears: 
+The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.
 
-  - New Weekly Schedule
-  - Work Schedule for One Day
-  - Time Off
+> [!NOTE]
+> If you change the referenced calendar template, those changes don't propagate to the working hours of the project. To change the working hours of the project, a new template must be applied.
 
-4. Select **New Weekly Schedule**, and then set the options for this resource schedule. You can set a recurring weekly schedule, daily hour parameters, business closures, and more.
-5. Set the date range, select **Save**, and then select **Close**. 
-6. Go back to the **Resources** list page, and select the resource that you set the work hours for. 
-7. Select **Set Calendar As** to set the work template. 
-8. In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**. 
+To create a calendar template for your organization, there are two key requirements:
 
-You can now associate the work template with a project calendar template.
+- Define the desired working hours of the template using a new or existing bookable resource.
+- Create a new calendar template and associate the template with the bookable resource.
+
+**Define the working hours of the template**
+
+1. Go to **Resources** \> **Resources**.
+2. Create a new resource to reference in the calendar template, or select an existing resource.
+3. Select the **Work Hours** tab of the resource and complete the intructions in the topic, [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.
+
+**Create a new calendar template**
+
+1. Go to **Settings** \> **Calendar Template**.
+2. Select **New**, and enter a name, description, and template resource.
+
+> [!NOTE]
+> When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template. If the working hours of the copied template change, those changes will not propagate to the calendar template.
+
