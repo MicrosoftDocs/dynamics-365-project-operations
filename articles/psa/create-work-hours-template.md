@@ -33,7 +33,7 @@ a project:
 
 -   Working days
 
--   Calendar exceptions (e.g. no working days)
+-   Calendar exceptions (e.g. non working days)
 
 When the **Calendar template** is applied to the project is a copy of the
 selected **Calendar template** defined in your organization’s settings.
