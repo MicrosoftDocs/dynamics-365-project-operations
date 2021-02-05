@@ -23,39 +23,64 @@ search.app:
 ---
 # Create a work hours template (Project Service)
 
-[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
+[!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures. You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.  
-  
- When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.  
-  
- There are two ways you can create a work hours template:  
-  
--   Create a work hours template based on a resource’s calendar.  
-  
--   Create a new work hours template.  
-  
-#### To create a work hours template based on a resource’s calendar  
-  
-1.  Go to **Project Service > Resources**.  
-  
-2.  Select the resource you want to base your work hours on.  
-  
-3.  Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.  
-  
-4.  When you’re done changing options, click **Save and Close**.  
-  
-5.  Click the **Save** button at the bottom right corner of the screen.  
-  
-#### To create a new work hours template  
-  
-1.  Go to **Project Service > Work Hours Templates**.  
-  
-2.  Click **New**.  
-  
-3.  Enter a name for the work hours template.  
-  
-4.  Select a resource to base the work hours on, and then click **Save**.  
+To create and manage a project, a pre-requisite is the application of a
+**Calendar template**. The calendar template defines the following attributes of
+a project:
+
+-   Working hours, including start time and end time
+
+-   Working days
+
+-   Calendar exceptions (e.g. no working days)
+
+When the **Calendar template** is applied to the project is a copy of the
+selected **Calendar template** defined in your organization’s settings.
+
+> Note: If there are changes to the referenced **Calendar template**, those
+changes will not propagate to the working hours of the project. To change the
+working hours of the project, a new template will need to be applied.
+
+To create **Calendar template** for your organization, there are two key
+requirements:
+
+1.  From an existing or new bookable resource, define the desired working hours
+    of the template.
+
+2.  Create a new Calendar template and associate the template with the bookable
+    resource.
+
+To define the **Work Hours** of a resource:
+
+1.  Navigate to **Resources \> Resources**
+
+2.  Either create a new **Resource** to be referenced in the **Calendar
+    template** or select an existing **Resource**.
+
+3.  Select the **Work Hours** tab of the resource
+
+4.  Follow instructions
+    [here](https://docs.microsoft.com/en-us/dynamics365/field-service/set-work-hours-resource)
+    to configure the calendar rules.
+
+To create a new Calendar template:
+
+1.  Navigate to **Settings \> Calendar Template**
+
+2.  Select **New**, define the following fields:
+
+    1.  Name
+
+    2.  Description
+
+    3.  Template Resource
+
+> Note: When a resource is referenced in a **Calendar template**, a copy of the
+resource’s calendar is associated with the **Calendar template**. If the working
+hours of the template change, those changes will not propagate to the **Calendar
+template**.
+
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
