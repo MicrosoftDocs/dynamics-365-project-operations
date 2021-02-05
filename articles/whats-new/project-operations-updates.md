@@ -54,7 +54,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | Europe        |  4.6.0.161       | 4.7.0.95     | 12-Feb-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | North America |  4.5.0.134       | 4.6.0.161     | 05-Feb-21           |
+|   &nbsp;  | North America |  4.6.0.161       | 4.7.0.95     | 19-Feb-21           |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
