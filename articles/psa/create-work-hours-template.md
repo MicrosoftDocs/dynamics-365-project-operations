@@ -1,6 +1,6 @@
 ---
 title: Create a work hours template
-description: How to create a work hours template in Project Service
+description: This topic describes how create a work hours template in Project Service.
 author: ruhercul
 manager: kfend
 ms.service: project-operations
@@ -34,7 +34,7 @@ To create and manage a project, you must apply a calendar template to the projec
 The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.
 
 > [!NOTE]
-> If you change the referenced calendar template, those changes don't propagate to the working hours of the project. To change the working hours of the project, a new template must be applied.
+> If you change the calendar template, those changes don't propagate to the working hours of the project. To change the working hours of the project, a new template must be applied.
 
 To create a calendar template for your organization, there are two key requirements:
 
@@ -45,7 +45,7 @@ To create a calendar template for your organization, there are two key requireme
 
 1. Go to **Resources** \> **Resources**.
 2. Create a new resource to reference in the calendar template, or select an existing resource.
-3. Select the **Work Hours** tab of the resource and complete the intructions in the topic, [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.
+3. Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.
 
 **Create a new calendar template**
 
@@ -57,6 +57,6 @@ To create a calendar template for your organization, there are two key requireme
 > When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template. If the working hours of the copied template change, those changes will not propagate to the calendar template.
 
   
-### See Also
+### Additional resources
 
 [Set up resources](../psa/set-up-resources.md)
