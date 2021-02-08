@@ -15,10 +15,6 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-# What's new or changed in Project Operations, February 2021
-
-Note!
-
 This topic applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on Dataverse environment 4.7.0.95
