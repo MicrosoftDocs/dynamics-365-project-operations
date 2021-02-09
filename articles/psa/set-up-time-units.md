@@ -23,6 +23,8 @@ search.app:
 ---
 # Set up time units (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Configure the time units in the product catalog that you’ll use as a base for scheduling and billing your projects.  
