@@ -20,6 +20,8 @@ search.app:
 ---
 # Development home page (Project Service Automation 3.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 Dynamics 365 Project Service Automation 3.x offers new features, implementation of new platform capabilities, and improvements to existing features in various areas. The following topics provide more information about the changes that were made in the newest version of PSA:
 
 - [Entity, control, and user interface changes (Project Service Automation 3.x)](../developer-guides/entity-changes-v3.x.md)
