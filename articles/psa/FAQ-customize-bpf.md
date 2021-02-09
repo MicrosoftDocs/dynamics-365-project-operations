@@ -25,6 +25,9 @@ search.app:
 
 
 # How do I customize the Project Stages business process flow?
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
