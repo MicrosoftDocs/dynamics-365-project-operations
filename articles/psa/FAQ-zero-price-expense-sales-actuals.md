@@ -25,7 +25,7 @@ search.app:
 
 # Why is the price defaulting to zero on expense sales actuals?
 
-[!include [banner](../../includes/psa-now-project-operations.md)]
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
