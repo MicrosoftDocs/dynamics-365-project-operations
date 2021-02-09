@@ -24,6 +24,8 @@ search.app:
 
 # Advanced quoting, pricing, and billing guide
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
 The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals. 
