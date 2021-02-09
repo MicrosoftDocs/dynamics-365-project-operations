@@ -24,6 +24,9 @@ search.app:
 
 
 # What's new or changed in Project Service Automation version 3 wave 1 2020
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 The topic highlights key upgrade considerations when moving to the latest release of Project Service Automation (PSA) version 3.x wave 1 2020.
 
 ## Time entry
