@@ -25,6 +25,8 @@ search.app:
 
 # Cancel previously approved time or expense entries
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 In the latest version of Dynamics 365 Project Service Automation, approvers can cancel time or expense entries that they previously approved.
