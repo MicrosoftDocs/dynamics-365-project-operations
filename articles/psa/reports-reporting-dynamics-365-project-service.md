@@ -24,6 +24,8 @@ search.app:
 
 # Reporting home page
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Microsoft Dynamics 365 Project Service Automation lets project-based organizations efficiently manage the operations of their business. On any project, team members must manage the opportunity, quote and plan the work, resource the projects, manage the work according to the plan, bill for the work, and then do the work to complete the project. The ability to report on operations is key to determining the health of the organization and taking any corrective action that's required. PSA uses Microsoft Dynamics 365 reporting methods and technologies for all its reporting. For more information about the options for reporting, see the [Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
