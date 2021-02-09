@@ -24,6 +24,8 @@ search.app:
 
 # Multiple-currency scenarios
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Microsoft Dynamics 365 has two concepts of currencies:
