@@ -24,6 +24,8 @@ search.app:
 
 # Project costs and revenue
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Project estimates provide the financial view for work that is estimated and scheduled in the project schedule. The **Estimates** tab on the **Projects** page shows the cost and revenue impact of the work that you’re planning. It also provides information about many predefined dimensions. 
