@@ -23,6 +23,8 @@ search.app:
 ---
 # Submitting a resource request
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 You can submit a generated resource requirement as a resource request. The request is then sent to a resource manager for fulfillment.
