@@ -24,6 +24,8 @@ search.app:
 
 # Quotes and quote lines
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 In Dynamics 365 Project Service Automation, there are two types of quotes: project quotes and sales quotes. The two types differ in the following ways:
