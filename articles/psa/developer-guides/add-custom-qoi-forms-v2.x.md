@@ -21,6 +21,8 @@ search.app:
 
 # Add new custom entity forms (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## Type field 
 
 Dynamics 365 Project Service Automation relies on the **Type** (**msdyn\_ordertype**) field of the Opportunity, Quote, Order, and Invoice entities to distinguish **work-based** versions of these entities from **item-based** and **service-based** versions. Work-based versions of these entities are handled by PSA. Lots of business logic on the client side and server side of the solution depends on the **Type** field. Therefore, it's important that the field be initialized with a correct value when the entities are created. An incorrect value can cause incorrect behaviors, and some business logic might not run correctly.
