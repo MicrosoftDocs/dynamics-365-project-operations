@@ -25,6 +25,9 @@ search.app:
 
 
 # What's new or changed in Project Service Automation version 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
