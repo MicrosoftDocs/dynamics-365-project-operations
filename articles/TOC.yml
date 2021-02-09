@@ -36,6 +36,8 @@
         href: environment/resource-configure-integration-per-legal-entity.md
   - name: What's new 
     items:
+    - name: February 2021 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-feb-2021-resource-based.md
     - name: January 2021 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-jan-2021-resource-based.md
     - name: December 2020 - Project Operations for resource/non-stocked based scenarios
