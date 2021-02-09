@@ -26,6 +26,8 @@ search.app:
 
 # Create a project booking from the Schedule board
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 You can book a resource onto a project directly from the **Team** tab of the project or by generating a resource requirement from a generic team member assignment and then fulfilling the generated requirement with a project team member.
 
 You can also book a resource onto a project directly from the Schedule board. There are three ways to do this:

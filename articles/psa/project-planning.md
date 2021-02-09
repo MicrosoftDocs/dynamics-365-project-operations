@@ -24,6 +24,8 @@ search.app:
 
 # Project planning home page
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Dynamics 365 Project Service Automation offers end-to-end support for service organizations by providing tools for managing the sales and delivery process. It helps these organizations identify opportunities, submit bids, reach contractual agreements, manage resources, deliver projects on time and within budget, record time and expenses, and invoice the customer. Team members can collaborate on projects, and they can maintain current, accurate project status information so that project managers can identify and manage project risks. These advanced tasks are typically performed in larger organizations that have separate divisions that work together.

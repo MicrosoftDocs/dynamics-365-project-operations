@@ -23,6 +23,8 @@ search.app:
 ---
 # Book named resources from resource requirements
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 You can book a named resource to replace generic resource that has a resource requirement.

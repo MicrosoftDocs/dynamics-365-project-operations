@@ -24,6 +24,8 @@ search.app:
 
 # Customize weekly time entry 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 In Microsoft Dynamics 365 Project Service Automation version 3.3, Microsoft introduced a modern grid that lets project resources quickly enter time for up to one week at a time. The new weekly time entry grid can show totals for entries by date, by row, or by week. Resources can make copies of time entries within the week and also bulk-copy from previous weeks. System customizers can customize the view by adding fields, adding lookups to other entities, and implementing custom business rules to support their organization's practices.

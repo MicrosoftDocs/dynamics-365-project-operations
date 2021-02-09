@@ -23,6 +23,8 @@ search.app:
 ---
 # Book named bookable resources to a project team and assign tasks 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 You can  add a named resource to your project team by booking them directly onto the team. To do this, complete the following steps.

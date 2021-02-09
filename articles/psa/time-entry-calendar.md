@@ -24,6 +24,8 @@ search.app:
 
 # Time entry calendar
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 On the **Time Entries** page, you can view the time entries on the calendar by selecting **Show as** \> **Calendar Control**.

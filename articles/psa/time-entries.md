@@ -24,6 +24,8 @@ search.app:
 
 # Create time entries
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 In previous versions of Dynamics 365 Project Service Automation, time entries were entered on a weekly basis. In version 3 of Project Service Automation, time entries are entered on a daily basis. However, after a few time entries have been created, you can bulk create or copy them.

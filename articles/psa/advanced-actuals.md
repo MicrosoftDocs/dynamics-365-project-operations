@@ -24,6 +24,8 @@ search.app:
 
 # Recording actuals 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 All financial transactions that occur during a project are recorded. These transactions are recorded as **actuals**. The following table shows the different types of actuals that are created, depending on whether the project is a time-and-material, fixed-price, or internal project, or whether it's in the presales stage.

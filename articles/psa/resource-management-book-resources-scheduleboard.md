@@ -24,6 +24,8 @@ search.app:
 
 # Use the Schedule Board to book project resources
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 In addition to booking resources on a project from within a project, you can hard-book or soft-book resources from the Schedule Board.
 
 Before you can book from the Schedule Board, you must create or generate resource requirements. Follow these steps to create resource requirements from the Schedule Board.

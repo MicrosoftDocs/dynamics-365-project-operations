@@ -23,6 +23,8 @@ search.app:
 ---
 # Create an Office 365 Group for a project (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Provide a space where team members for a project can collaborate on project documents, view the team’s calendar, and have group conversations by creating an Office 365 Group for that project.  

@@ -24,6 +24,8 @@ search.app:
 
 # Review the invoicing backlog on projects and project contracts
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 When a transaction is ready to have an invoice created and processed, the transaction should be marked **Ready to invoice**. This topic describes the types of transactions that can be created.

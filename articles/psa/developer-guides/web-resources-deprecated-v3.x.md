@@ -21,6 +21,8 @@ search.app:
 
 # Deprecated web resources in Project Service Automation 3.x
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 Because of the new client interface and other changes that have been made to the Dynamics 365 Project Service Automation solution, some of the web resources for the solution are longer used. Therefore, they are obsolete (deprecated) as of version 3.0.
 
 ## Deprecated style sheets

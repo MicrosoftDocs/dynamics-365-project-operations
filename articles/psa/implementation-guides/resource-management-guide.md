@@ -23,6 +23,8 @@ search.app:
 ---
 # Resource management guide
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
 The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:

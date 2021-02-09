@@ -24,6 +24,8 @@ search.app:
 
 # Propose project resources
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Resource managers can propose a resource to the project manager by using a resource request.
 
 1. From the request grid or the request itself, select **Find Resources**.

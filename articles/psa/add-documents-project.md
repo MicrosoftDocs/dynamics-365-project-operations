@@ -24,6 +24,8 @@ search.app:
 
 # Add documents to a project (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Keep project-related documents organized by adding them to your project.  

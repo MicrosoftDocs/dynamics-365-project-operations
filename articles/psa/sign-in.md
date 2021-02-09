@@ -25,6 +25,8 @@ search.app:
 
 # Sign in to Project Service Automation
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 When you sign in to Dynamics 365 apps, you need to have the following information from your administrator:  

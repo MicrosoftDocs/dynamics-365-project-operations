@@ -21,6 +21,8 @@ search.app:
 
 # Time and Expense changes (Project Service Automation 3.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 In Dynamics 365 Project Service Automation version 3.0, the Time and Expense views have been updated so that they take advantage of the new platform framework for custom controls.
 
 Previously, the calendar and grid views for Time and Expense were implemented as DHTMLX controls. The artifacts that are related to that implementation of the calendar and grid views are now obsolete (deprecated).

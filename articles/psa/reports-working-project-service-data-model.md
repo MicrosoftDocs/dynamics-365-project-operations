@@ -24,6 +24,8 @@ search.app:
 
 # Working with the Project Service Automation data model
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 

@@ -24,6 +24,8 @@ search.app:
 
 # Unit groups and units
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Unit groups and units are basic entities in Microsoft Dynamics 365. A unit is a single unit of measure, and multiple units can be grouped into unit groups. A unit group is sometimes referred to as a unit schedule in the Dynamics 365 user interface (UI). 

@@ -21,6 +21,8 @@ search.app:
 
 # Update plug-in attributes to include new pricing dimensions
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 > [!NOTE]
 > If you are not using the Project Service Automation (PSA) Quoting and Contracting features, you can skip this topic.
 

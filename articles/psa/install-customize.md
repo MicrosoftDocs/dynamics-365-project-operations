@@ -23,6 +23,8 @@ search.app:
 
 # Install and customize (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities are an end-to-end solution that you need to install before users can start using the capabilities to manage and deliver project-based sales. While it's an end-to-end solution, you can still make customizations as needed to suit your organization.  
