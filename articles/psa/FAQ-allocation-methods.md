@@ -25,6 +25,8 @@ search.app:
 
 # Booking allocation methods in Project Service Automation
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This topic explains how each method works, and which methods could lead to overbooking resources.
 
 ## Full Capacity 
