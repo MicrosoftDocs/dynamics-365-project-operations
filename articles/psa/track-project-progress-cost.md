@@ -23,6 +23,8 @@ search.app:
 ---
 # Track project progress and cost (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 The need for tracking progress against a work breakdown structure varies across industry verticals. Some industries do it more diligently at a very granular level of the work breakdown structure, while others might track at a higher level of the work breakdown structure.  
