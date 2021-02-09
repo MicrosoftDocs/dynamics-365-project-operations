@@ -23,6 +23,8 @@ search.app:
 ---
 # Configure resource roles (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Roles play an important part in project planning, when determining resource requirements or costs of a project. For each role your projects require, you need to create a resource role and associate skills and proficiencies to that role. For example, you might want to create roles for developer, project manager, or game tester. You’ll also set the skills and proficiency levels required for the role.  

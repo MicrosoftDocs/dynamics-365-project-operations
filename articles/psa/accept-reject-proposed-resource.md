@@ -23,6 +23,8 @@ search.app:
 ---
 # Accept or reject a proposed project resource
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 This topic provides information about how to approve or reject a proposed project resource.

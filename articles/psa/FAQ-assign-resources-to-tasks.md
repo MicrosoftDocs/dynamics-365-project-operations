@@ -27,6 +27,8 @@ search.app:
 
 # Assign a resource to a task
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 There are three ways to assign a resource to a task in Microsoft Dynamics 365 Project Service Automation.
 
 ## Book a resource as a team member, and then assign the resource to a task

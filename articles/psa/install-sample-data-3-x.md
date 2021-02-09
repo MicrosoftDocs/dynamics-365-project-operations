@@ -16,6 +16,8 @@ search.app:
 
 # Sample data installation for the Project Service application
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of your apps. There are two types of sample data packages:
 - reference/setup data
 - demo data (reference/setup and transactional data such as work orders and projects)

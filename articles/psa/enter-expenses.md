@@ -23,6 +23,8 @@ search.app:
 ---
 # Enter expenses (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Enter your expenses at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.  

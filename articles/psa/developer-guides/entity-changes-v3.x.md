@@ -21,6 +21,10 @@ search.app:
 
 
 # Entity, control, and user interface changes (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
+
 With the release of Microsoft Dynamics Project Service Automation (PSA) 3.x, many changes have been made to the entities, controls, views, and user interface. This topic provides information about these important changes.
 
 ## Parent-child relationships for sales document, sales document line, sales document line detail entities

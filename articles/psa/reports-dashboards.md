@@ -24,6 +24,8 @@ search.app:
 
 # Dashboards
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Dynamics 365 Project Service Automation includes two system dashboards: **Practice Manager** and **Resource Manager**.

@@ -25,6 +25,9 @@ search.app:
 
 
 # Upgrade considerations for the work breakdown structure
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x. This topic defines the healthy state of a project in Project Service Automation (PSA) that is required for a successful upgrade. There is also information about the common blocking conditions that will cause upgrade to fail. For more information about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
 
 ## Key entities

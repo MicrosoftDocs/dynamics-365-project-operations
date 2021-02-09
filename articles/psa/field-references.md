@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Add custom fields to price setup and transactional entities 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
 
 In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.

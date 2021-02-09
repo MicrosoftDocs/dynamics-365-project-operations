@@ -21,6 +21,8 @@ search.app:
 
 # Pricing and costing dimensions home page
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 The dimensions used to set labor pricing and costing in project-based organizations are influenced by the following attributes:
 
 - People doing work similar to their experience, role, or geography

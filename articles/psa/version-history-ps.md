@@ -29,6 +29,8 @@ search.app:
 
 # Update release schedule for Project Service 3.x
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 ## Latest version availability
 
 | Solution  | Latest version |

@@ -23,6 +23,8 @@ search.app:
 ---
 # Experiment with demo data (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 To become familiar with Dynamics 365 Project Service Automation, it’s useful to have a pre-configured environment to explore. For this purpose, we’ve created a separate sample data installation package (English-language only at this time) that makes it easier to learn about these solutions. 
 
 The installation package is available on the [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=859966).  

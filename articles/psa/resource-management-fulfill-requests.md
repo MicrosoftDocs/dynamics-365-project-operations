@@ -24,6 +24,8 @@ search.app:
 
 # Fulfilling resource requests
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.

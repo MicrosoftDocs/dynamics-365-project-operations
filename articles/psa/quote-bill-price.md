@@ -24,6 +24,8 @@ search.app:
 
 # Quoting, pricing, and billing home page
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Quoting, pricing, and billing are features that are used by both small and large organizations. By understanding how these features work in the application, organizations can more easily customize configurations.

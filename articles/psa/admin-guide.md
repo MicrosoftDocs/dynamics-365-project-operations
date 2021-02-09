@@ -23,6 +23,8 @@ search.app:
 ---
 # Administrator guide (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 This guide takes you through the process of installing and configuing :  

@@ -23,6 +23,8 @@ search.app:
 ---
 # Create a project template (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Project templates save you time if your company regularly bids on similar types of projects. They provide a standard set of roles and estimated hours for a type of project. Account managers and project managers can create projects based on a project template, or they can copy the template and make one of their own.  

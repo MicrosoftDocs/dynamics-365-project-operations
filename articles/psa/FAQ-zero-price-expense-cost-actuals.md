@@ -22,7 +22,9 @@ search.app:
   - ProjectOperations
 ---
 
-# Why is the price defaulting to zero on expense cost actuals?
+# Why is the price defaulting to zero on expense cost actuals
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
