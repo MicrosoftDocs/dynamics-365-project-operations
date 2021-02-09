@@ -24,7 +24,7 @@ search.app:
 
 # Why can’t I delete records from the Actuals entity?
 
-[!include [banner](../../includes/psa-now-project-operations.md)]
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
