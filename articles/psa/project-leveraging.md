@@ -24,6 +24,8 @@ search.app:
 
 # Sales estimates and projects
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 During the sales process, you can create sales estimates by linking a project to a sales quote. In this way, deterministic estimation can occur during the sales process, to take advantage of project scheduling and estimation capabilities. If the sale goes through, the schedule that was used for sales estimation purposes can be used as the basis for further refinement of the project plan.
