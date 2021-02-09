@@ -23,6 +23,8 @@ search.app:
 ---
 # Set up resources (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Before requesting or assigning resources in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you need to define the roles and the skill sets that your clients’ projects need. This requires some configuration on your part:  
