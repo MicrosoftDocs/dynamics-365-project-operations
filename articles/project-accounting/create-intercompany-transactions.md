@@ -66,7 +66,7 @@ Molly Clark, developer employed in GBPM records 10 hours of work against a USPM 
     5. Create a new project and associate it with this contract line.
 4. Sign in as the resource, **Molly Clark**. Go to **Projects** > **Time entries**, and create a time entry for the Adventure Works project.
 5. Sign in as the Project manager. Go to **Projects** > **Approvals**, and approve the time entry transaction logged by Molly Clark.
-6. Navigate to the Adventure Works project and select **Related > **Actuals**. The following actuals transactions are created.
+6. Navigate to the Adventure Works project and select **Related** > **Actuals**. The following actuals transactions are created.
 
 | **Transaction type** | **Price** | **Transaction currency** | **Amount** |
 | --- | --- | --- | --- |
