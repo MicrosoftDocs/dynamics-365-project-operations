@@ -89,7 +89,8 @@ The following table shows additional schedule attributes.
 | Name | The name of the task. |
 | ID | The ID of the task in the work breakdown structure. |
 
-> Customers can define custom fields on the task entity but they cannot be displayed on the schedule grid.   To see your custom fields, customers should add them to the projec task details form.
+As an administrator, you can define custom fields on the task entity. However the fields can't be displayed on the schedule grid. To see your custom fields, add them to the **Project Task** details page.
+
 ## Staffing attributes
 
 Staffing attributes are accessed through the **Resources** field in the schedule. You can either search for an existing resource, or select **Create**, and in the **Quick Create** pane, add a project team member as a new resource.
