@@ -39,22 +39,23 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | First Release |  4.7.0.95       | TBD     | 19-Feb-21           |
+|   &nbsp;  | First Release |  4.7.0.96       | TBD     | 19-Feb-21           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.7.0.95       | TBD     | 19-Feb-21           |
-|    &nbsp; | Canada        |  4.7.0.95       | TBD     | 19-Feb-21           |
-|   &nbsp;  | India         |  4.7.0.95       | TBD     | 19-Feb-21           |
-|   &nbsp;  | France         |  4.7.0.95       | TBD     | 19-Feb-21           |
-|   &nbsp;  | United Arab Emirates         |  4.7.0.95       | TBD     | 19-Feb-21           |
+|   &nbsp;  | South America |  4.7.0.96       | TBD     | 19-Feb-21           |
+|    &nbsp; | Canada        |  4.7.0.96       | TBD     | 19-Feb-21           |
+|   &nbsp;  | India         |  4.7.0.96       | TBD     | 19-Feb-21           |
+|   &nbsp;  | France         |  4.7.0.96       | TBD     | 19-Feb-21           |
+|   &nbsp;  | United Arab Emirates         |  4.7.0.96       | TBD     | 19-Feb-21           |
+|   &nbsp;  | South Africa         |  4.7.0.96       | TBD     | 19-Feb-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.7.0.95       | TBD     | 26-Feb-21           |
-|   &nbsp;  | Asia Pacific  |  4.7.0.95       | TBD     | 26-Feb-21           |
-|   &nbsp;  | Great Britain |  4.7.0.95       | TBD     | 26-Feb-21           |
-|   &nbsp;  | Oceania       |  4.7.0.95       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Japan         |  4.7.0.96       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Asia Pacific  |  4.7.0.96       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Great Britain |  4.7.0.96       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Oceania       |  4.7.0.96       | TBD     | 26-Feb-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        |  4.6.0.161       | 4.7.0.95     | 12-Feb-21           |
+|   &nbsp;  | Europe        |  4.7.0.96       | TBD     | 05-Mar-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | North America |  4.6.0.161       | 4.7.0.95     | 19-Feb-21           |
+|   &nbsp;  | North America |  4.6.0.163       | 4.7.0.96     | 19-Feb-21           |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
