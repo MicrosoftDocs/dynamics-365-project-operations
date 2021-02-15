@@ -21,3 +21,5 @@ Resource requirements are defined by the Project manager to establish the resour
 3.  On the **Team Member** tab, select the team member and then select **Generate Requirement**.
 
 For information about how to modify the resource requirement, see [Update Resource requirement details](define-resource-requirements.md) to modify the resource requirement.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

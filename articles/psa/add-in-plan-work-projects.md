@@ -237,3 +237,6 @@ The following table outlines how Project Task Dependencies entity data is synchr
 
 ### Additional resources
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

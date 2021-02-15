@@ -21,3 +21,6 @@ Unlike bookings, assignments are the commitment of resources to project tasks in
 Typically, the sum of the bookings for a resource will equal the sum of the resource's assignments across one or many tasks. However, Project Operations doesn't enforce this agreement. The **Reconciliation** view shows the Project manager places where a resource's bookings and assignments don't agree.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

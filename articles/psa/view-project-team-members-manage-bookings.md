@@ -53,3 +53,6 @@ You can view a list of your project’s team members, and from there you can mai
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

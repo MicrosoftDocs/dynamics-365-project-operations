@@ -114,3 +114,6 @@ The task mode has no effect on updates that are made to the start and end dates 
 ## Accessibility and keyboard shortcuts
 
 The **Schedule** grid is fully accessible and can be used with screen readers such as Narrator, JAWS, or NVDA. You can move through the grid area by using arrow keys (as in Microsoft Excel), you can use the Tab key to advance through the interactive user interface elements, and you can use the Down arrow key, the Enter key, or the Spacebar to select and open the drop-down menus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

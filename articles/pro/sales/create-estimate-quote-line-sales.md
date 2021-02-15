@@ -62,3 +62,6 @@ Currency on the quote line detail for cost defaults from the price list of the c
 Profitability calculations convert the amount on quote line details for cost and sales into the base currency of the environment to report the overall estimated margin on the quote.
 
 This could result in currency rounding errors and changing margins because of the lack of date effective exchange rates. Use these calculations on Project quotes only as approximations and not actual statutory or other reporting that requires higher precision of rounding and awareness of date effectivity for exchange rates.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

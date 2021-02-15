@@ -22,3 +22,6 @@ The project management tools in Dynamics 365 Project Operations help you easily 
 - Use project estimates during the sales process.
 - Forecast resource requirements for projects that are in the pipeline.
 - Successfully deliver projects by tracking progress and cost consumption.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

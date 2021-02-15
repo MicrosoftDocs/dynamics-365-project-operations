@@ -98,3 +98,6 @@ In the following example, Contoso Robotics USA (USPM) is the borrowing legal ent
           - **Resourcing company** = **Contoso Robotics UK**
           - **Bill rate** = **200 USD**
       9. Go to **Sales** > **Project contracts** and attach the **Adventure Works bill rates** price list to the Adventure Works project price list of the project contract.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

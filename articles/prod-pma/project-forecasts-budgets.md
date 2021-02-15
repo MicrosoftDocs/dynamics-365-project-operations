@@ -86,3 +86,6 @@ If you use project forecasting, you can identify models as submodels. You can th
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

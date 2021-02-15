@@ -66,3 +66,6 @@ When you copy across project estimate lines, the price lists are updated. For th
 ### Copying a project team
 
 When a project team is copied from a project template to a project, the generic resources are copied, together with the skills and proficiencies that are defined in the template. Generic resource assignments are also maintained as they were in the project template. Named resources aren't supported in project templates.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

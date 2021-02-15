@@ -151,3 +151,6 @@ The following table provides a comprehensive list of out-of-the-box forms and vi
 |  Actual|• Information<br>• Active Actuals|• Actual Associated view|
 
 Custom fields may also need to be added on business rules depending on what you have defined. One out-of-the-box example is for the business rule **Editability of Time Entry based on status**. This rule defines which fields need to be locked when the Time Entry is in a non-editable status such as **Approved**. Add fields to this business rule so that the fields are locked for editing when the Time Entry is in a status other than **Draft** or **Returned**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

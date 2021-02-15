@@ -36,3 +36,6 @@ For expense reports, you can drill down from a transaction to the original repor
 To drill down to the original expense report that a transaction appeared on, select the transaction, and then select **Original document**.
 
 When you view individual transactions, you can also view any additional data that is attached to a transaction. For example, for an itemized hotel expense, you can view a detailed list of expenses such as internet access, telephone calls, and room service.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

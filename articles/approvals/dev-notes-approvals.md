@@ -18,3 +18,6 @@ Dynamics 365 Project Operations includes validation logic that ensures correct r
 
   - All supporting rows are created in related tables, such as journals and actuals.
   - The approver is marked as a **Project Approver** in the project before proceeding.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

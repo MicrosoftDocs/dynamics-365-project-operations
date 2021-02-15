@@ -50,3 +50,6 @@ Expenses that haven't yet been submitted can be deleted. To delete an expense th
 ## See also
 
 - [Approvals overview](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

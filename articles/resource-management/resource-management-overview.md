@@ -30,3 +30,6 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Resource management overview
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

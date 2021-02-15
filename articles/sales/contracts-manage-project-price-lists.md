@@ -67,3 +67,6 @@ You can also set up customer–specific project price lists when you have negoti
 ## Custom pricing on a project contract
 
 After you have organizational and customer-specific default project price lists, your project contracts will be created with these project price list associations automatically. However, project price lists on a project contract are always copied with the date and contract name appended to them. The account and project managers can then begin making edits to prices on these copies. These changed prices will be applicable to this project contract only.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

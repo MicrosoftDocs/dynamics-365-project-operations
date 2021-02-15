@@ -55,3 +55,6 @@ Enter your expenses at least weekly—or at the frequency requested by your mana
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

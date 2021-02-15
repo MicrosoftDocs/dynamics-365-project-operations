@@ -30,3 +30,6 @@ If the project contract that is closed as lost references a project on its lines
 
 > [!NOTE]
 > In Dynamics 365 Project Operations, closing a project contract as lost will not impact that status of the associated opportunity. The opportunity will remain open and must be manually closed.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

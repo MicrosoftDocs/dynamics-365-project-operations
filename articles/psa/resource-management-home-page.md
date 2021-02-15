@@ -38,3 +38,6 @@ Resources are the most important asset of a service-based organization. The abil
 - [Soft-book requirements](resource-management-softbook-requirements.md)
 - [Skills and proficiency models](resource-management-skills-proficiency.md)
 - [Resource management FAQ](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

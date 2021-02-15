@@ -341,3 +341,6 @@ If you have task assignments for a resource but no bookings, on the **Projects**
 ![Extend Booking dialog box](media/Resource-Management-image58.png)
 
 The project manager or resource manager can then use the Schedule Board to manage any situations where a resource is overbooked beyond its capacity.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

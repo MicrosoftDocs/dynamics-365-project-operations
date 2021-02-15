@@ -74,3 +74,6 @@ The pricing dimension record for **msydn_bookableresource** must be notified of 
 5. Add  **msdyn_bookableresourceid** to **Field Name**.
 
  ![New Pricing dimension field name form](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

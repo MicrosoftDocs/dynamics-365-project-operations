@@ -41,3 +41,6 @@ These white papers are designed to provide in-depth information for [!INCLUDE[pn
 
 ### See Also
  [Overview of Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

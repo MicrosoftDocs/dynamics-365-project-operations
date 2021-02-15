@@ -52,3 +52,6 @@ The following issues have been fixed:
 - A null reference exception is generated when the **GetEstimatesForProject** plug-in is invoked.
 - **Mark ready to invoice** on the milestone grid only partially updates attributes, except for the **InvoiceStatus** attribute, which is updated.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

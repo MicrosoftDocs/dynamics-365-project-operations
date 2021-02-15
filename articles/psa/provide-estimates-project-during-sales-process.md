@@ -50,3 +50,6 @@ During the sales process, you can work out sales estimates from the ground up wi
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

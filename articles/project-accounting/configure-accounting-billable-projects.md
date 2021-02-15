@@ -120,3 +120,6 @@ Fixed Price – percentage completion
 Project cost and revenue profile rules determine the Project cost and revenue profile that must be used when processing any billable project transactions. Define the rules by going to **Project management and accounting** \> **Setup** \> **Posting** \> **Project cost and revenue profile rules**.
 
 Rules can be defined by project contract, project group, or by a specific project. The system will always pick the highest granularity rule first.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Additionally, if you have any custom app modules that include all forms for the 
 
 ### Currently extended time entry changes
 To minimize the impact to current users of time entry, this role change is the only core requirement necessary to continue utilizing time entry. If you have created custom views or separate time entry experiences, you must set the **Time Entry Setting** fields to the correct PSA value.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

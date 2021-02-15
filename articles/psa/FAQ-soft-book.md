@@ -64,3 +64,6 @@ When you’re ready to change a soft-booked team member resource to a hard-booke
 2. Right-click the booking, and under **Change Status**, select **Hard Book** \> **Hard**. The booking status is now **Hard**.
 3. After you close the Schedule board, return to the project, and open the **Team** tab, you’ll see that the hours for the resource have moved from the **Soft Booked Hours** column to the **Hard Booked Hours** column on the **Team** tab when in the **Named Team Members** view. If the resource was assigned to tasks, they’ll no longer show a booking deficit on the **Reconciliation** tab as their bookings are now hard.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

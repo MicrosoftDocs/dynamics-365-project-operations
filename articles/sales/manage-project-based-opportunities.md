@@ -60,3 +60,6 @@ The Opportunity sales process in Project Operations is an extension to the Oppor
 > If your project-based deal started with an Opportunity, the Opportunity sales process takes precedence.
 
 You can edit the product business process flow or create your own business process flows to track your sales process as needed. For more information about the business process flow, see [Business process flows overview](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

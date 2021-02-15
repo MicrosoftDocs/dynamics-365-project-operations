@@ -85,3 +85,6 @@ The estimate changes the status to **Eliminated**.
 Use this page to reverse all eliminations with a specified estimate date and with an estimate status of **Eliminated**. The transaction status changes after you select the appropriate fields.
 
 This also automatically changes the project status to **In process** if the project stage is set to finished. The estimate status of the project period changes back to **Posted**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

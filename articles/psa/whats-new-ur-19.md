@@ -63,3 +63,6 @@ The following issues have been fixed:
 - Customers may experience degraded performance when creating a project because **GetBookableResourceIdFromUser** retrieves all columns of bookable resources instead of just the primary ID.
 - **TransactionType** entity missing the pre-validation update plug-in to prevent users from entering **Units** and **UnitGroups** that are not valid for transaction types.
 - The **Remove** step does not work for time entry import.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

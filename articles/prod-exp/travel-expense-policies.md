@@ -55,3 +55,6 @@ Here are a few suggestions that can assist you when creating new policies for ex
 ## When to evaluate policies
 
 In expense management parameters, there is an option to either evaluate expense management policies when a line is saved or when an expense report is submitted. If you choose to evaluate when a line is saved this ensures that users have earlier visibility into what they need to do to complete their expense report all at once. Otherwise, you can delay policy evaluation and save time if you have validation occur at the end, during submission to workflow.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

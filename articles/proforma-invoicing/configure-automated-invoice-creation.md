@@ -40,3 +40,6 @@ The batch process job for creating invoices is a recurrent job. If this batch pr
 
 > [!NOTE]
 > Batch invoicing only runs for project contract lines that are configured by invoice schedules. A contract line with a fixed price billing method must have milestones configured. A project contract line with a time and material billing method will need a date-based invoice schedule set up. The same applies to a project-based contract line.     
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

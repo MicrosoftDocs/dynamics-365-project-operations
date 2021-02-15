@@ -50,3 +50,6 @@ Before you can book from the Schedule Board, you must create or generate resourc
 The requirement is fulfilled by using the selected resource. In the **Booking Requirements** pane, notice that the requirement has been updated, and the resource is shown as booked on the project.
 
 ![Resource booked on the project](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

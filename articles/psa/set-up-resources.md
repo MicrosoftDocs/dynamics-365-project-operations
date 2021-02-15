@@ -51,3 +51,6 @@ Before requesting or assigning resources in [!INCLUDE[pn_project_service_auto](.
   
 ### See Also  
  [Configure Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

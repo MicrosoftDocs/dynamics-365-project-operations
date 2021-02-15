@@ -120,3 +120,6 @@ When you're working with the **Actual** entity, it's important that you understa
 The **Transaction Origin** entity records the origin of the **Actual** record, and the **Transaction Connection** entity records the related records for the **Actual** record. Additionally, the **Actual** record contains references the project, project contract (order), bookable resource, and customer.
 
 ![Diagram showing transaction connection, origin and actual relationships](media/PS-Reporting-image6.png "Diagram showing transaction connection, origin and actual relationships")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

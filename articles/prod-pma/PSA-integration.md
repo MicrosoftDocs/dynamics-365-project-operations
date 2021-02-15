@@ -81,3 +81,6 @@ To use the Project Service Automation to Finance integration solution, you must 
 ## Install the Project Service Automation to Finance integration solution in your Project Service Automation instance
 
 Download the Project Service Automation to Finance integration solution from [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=57016), and follow the instructions that are included with the solution.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

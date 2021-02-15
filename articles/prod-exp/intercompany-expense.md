@@ -42,3 +42,6 @@ Before you can use tax groups that are associated with the loaning (source) lega
 When the **Legal entity for intercompany tax posting** parameter is set to **Source** and **Apply sales tax taxation rules** is set to **No**, the tax combination for the loaning legal entity is used. When the same parameter is set to **Destination**, the tax combination for borrowing legal entity will be used. 
 For legal entities in the United States, when the parameter is set to **Source**, the **Sales tax receivable** field must also be configured on the new **Ledger posting groups** page. The accounting engine will use the information from this field for tax-related accounting entry.   
 The behavior is consistent for expense lines posted with or without a project.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

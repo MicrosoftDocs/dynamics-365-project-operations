@@ -44,3 +44,6 @@ After consultants enter their time and expenses for a project, you need to appro
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

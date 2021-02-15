@@ -67,3 +67,6 @@ Because Dynamics 365 Project Operations uses the Universal Resource Scheduling e
 
 To view more details about an individual resource, right-click it to open the resource card.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

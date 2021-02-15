@@ -36,3 +36,6 @@ Your organization might require that a travel requisition is submitted before em
 Travel requisitions and policies can be used to help with budget control. For example, if your organization is working on a fixed-price project that requires travel, the travel expenses of the project's team members must fit within the budget for the project. By requiring that travel expenses be approved before they are incurred, the organization can help make sure that the project remains within budget.
 
 You can set up policies for travel requisitions from the **Travel requisition** page.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

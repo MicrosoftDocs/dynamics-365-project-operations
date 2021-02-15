@@ -72,3 +72,6 @@ An estimate or actual created for expense will only be considered chargeable if 
 | No | Yes | Entire project | Can't be set | Non-chargeable | Can't be set | Billing on a time actual: Not available </br>Billing type on expense actual: Non-chargeable |
 | Yes | No | Entire project | Chargeable | Can't be set | Can't be set | Billing on a time actual: Chargeable</br>Billing type on expense actual: Not available |
 | Yes | No | Entire project | Non-chargeable | Can't be set | Can't be set | Billing on a time actual: Non-chargeable </br>Billing type on expense actual: Not available |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

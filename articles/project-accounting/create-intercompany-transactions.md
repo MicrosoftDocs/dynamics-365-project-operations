@@ -110,3 +110,6 @@ Molly Clark, developer employed in GBPM records 10 hours of work against a USPM 
     - Credit: Project – Accrued Revenue 120 USD
 
     The system is now ready to create an intercompany customer invoice.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

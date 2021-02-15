@@ -41,3 +41,6 @@ The following topics provide more information about the quoting, pricing, and bi
 - [Unit groups and units](advanced-units.md)
 - [Multi-unit currency](advanced-currency.md)
 - [Recording actuals](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

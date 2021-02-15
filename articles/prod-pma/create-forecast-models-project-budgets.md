@@ -61,3 +61,6 @@ This topic describes how to create a forecast model for remaining budgets. A pro
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Looking for resources to help plan your implementation? Check out these download
  <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

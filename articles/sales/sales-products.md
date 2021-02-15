@@ -129,3 +129,6 @@ For example, if there are the following properties:
 - **Product SKU** 
 
 The **No of Users** and **No of Months** properties can be flagged as quantity factors by editing the properties of the product line. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

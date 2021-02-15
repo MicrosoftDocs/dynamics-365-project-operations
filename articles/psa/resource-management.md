@@ -49,3 +49,6 @@ You can staff your project with a team of generic or named resources in PSA. You
 - [Book named resources from resource requirements](book-named-resource.md)
 - [Submit a resource request](submit-resource-request.md)
 - [Accept or reject a proposed project resource from a resource request](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

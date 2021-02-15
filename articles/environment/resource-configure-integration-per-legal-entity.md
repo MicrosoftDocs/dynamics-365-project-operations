@@ -46,3 +46,6 @@ Each legal entity using Project Operations on Dynamics 365 Customer Engagement n
   - **Billing type defaults**: Project Operations uses a fixed set of billing type defaults that must be mapped to line properties Finance. Create a record for each billing type: **Not specified**, **Chargeable**, **Non-chargeable**, **Complimentary**, and **Not available**.
   - **Project category defaults**: Select the default project categories to be used for each transaction type. These defaults will be used in the **Project Operations Integration journal** and in estimates where no transaction category is specified for the project actual.
   - **Forecasts**: Select the forecast model to be used for time and expense estimates.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

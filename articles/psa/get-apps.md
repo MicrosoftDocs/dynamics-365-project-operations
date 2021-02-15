@@ -34,3 +34,6 @@ If you want to enter your time and expenses on your mobile device, [Get and inst
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

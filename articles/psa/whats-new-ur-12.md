@@ -59,3 +59,6 @@ This topic lists the features and fixes that are new or changed for Project Serv
     - Fixed: Duplicate object IDs found on the **Contract main** form.
     - Fixed: Logic has been updated to make the **Quote Analysis** tab visible so that it displays the metadata setup of the tab.
     - Fixed: Accounting date on the actual record now comes from the date of the time/expense entry date and not the date of the approval.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

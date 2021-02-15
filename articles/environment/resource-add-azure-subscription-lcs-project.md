@@ -65,3 +65,6 @@ The authorization is now complete.
 You have successfully connected your Azure subscription. You can now deploy Dynamics 365 Finance cloud-hosted environments.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

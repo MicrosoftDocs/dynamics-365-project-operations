@@ -53,3 +53,6 @@ If you have task assignments for a resource but no bookings, select the booking 
 Bookings that are created through the **Extend Booking** action are associated with the primary project requirement. When an extension is initiated, the specific requirement that must be extended can't be determined, because the resource might be associated with more than one requirement for the project.
 
 The project manager or resource manager can then use the Schedule board to manage any situations where a resource is overbooked beyond its capacity.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

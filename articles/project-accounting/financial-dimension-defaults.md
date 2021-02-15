@@ -57,3 +57,6 @@ Projects are created and maintained in CDS. Accounting attributes for projects a
 4. Set the financial dimension defaults. Notice that financial dimensions default from the customer account. If the project is associated with a contract line with multiple project contract customers, the primary customer is used to default financial dimensions.
 
 Project default financial dimensions are used to set journal line defaults for time, expense, and fee transactions in the **Project Operations Integration Journal** and on related project invoice lines.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

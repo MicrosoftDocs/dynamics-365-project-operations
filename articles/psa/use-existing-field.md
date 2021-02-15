@@ -28,3 +28,6 @@ Project Service Automation (PSA) has many fields on the **Actuals** entity that 
 Because this approach still works for companies of a certain size, see [Use a bookable resource as a pricing dimension](bookable-resource-pricing-dimension.md) to understand how an existing Project Service field can be used as a pricing dimension.
 
 Another example is that of transaction category. Customers and Implementers have used the transaction category in PSA to classify work and use the field to price and cost based on the category of work. For more information, see [Use transaction category as a pricing dimension](transaction-category-pricing-dimension.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

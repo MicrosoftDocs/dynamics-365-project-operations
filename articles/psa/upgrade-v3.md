@@ -108,3 +108,6 @@ For tasks that are assigned to a role with an org unit that differs from the org
  
 Changing the default of the different resourcing org units on ungenerated team members is the reason we recommend that you generate or regenerate the team on each project that contains generic resources prior to the upgrade so that the org unit assignments are not lost.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

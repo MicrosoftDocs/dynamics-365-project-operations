@@ -70,3 +70,6 @@ After you create vendor retention terms for a vendor, you can apply the terms to
 6. If the project also has pay-when-paid (PWP) terms set up for the vendor, enter the threshold percentage for the project in the **PWP threshold percentage** field.
 
 The vendor retention terms are also displayed on purchase orders that you create for the vendor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

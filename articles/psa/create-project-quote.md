@@ -51,3 +51,6 @@ Creating a quote is similar to creating an opportunity. While an opportunity is 
   
 ### See Also  
  [Account Manager Guide](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

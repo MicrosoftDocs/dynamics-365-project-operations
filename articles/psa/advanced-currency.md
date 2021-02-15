@@ -102,3 +102,6 @@ Dynamics 365 automatically handles roll-ups of amounts in different currencies. 
 | Expense           | Unbilled sales   | 17-Jun | Prakash  | Car Rental           | 1 ea     | 150 EUR      | 150 EUR     | 0.94          | 159.57 USD     |
 
 To calculate the total unbilled sales value on the project, you can create a roll-up field for the **Amount** field on all the related unbilled sales actuals. The roll-up field is a construct of Dynamics 365 that allows for quick formulas on related records.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

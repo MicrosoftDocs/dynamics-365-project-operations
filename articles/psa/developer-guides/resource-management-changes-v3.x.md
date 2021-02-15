@@ -166,3 +166,6 @@ The following fields for planned, actual, and remaining cost and sales are uncha
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

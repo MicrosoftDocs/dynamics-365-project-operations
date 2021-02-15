@@ -109,3 +109,6 @@ During resource reservation, project managers can filter the role resources that
 
 3. Select **Save**, and then close the page.
 4. On the **Competencies** tab, add the **ProjectMgmt** skill and the **PMP** certificate.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ To summarize, the following allocation methods lead to overbooking if the resour
 - Evenly Distribute Hours
 
 When using one of these three allocation methods, you won’t be notified that the resource is overbooked. To correct the overbooking, you’ll need to use the Schedule board.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

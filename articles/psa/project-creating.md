@@ -146,3 +146,6 @@ By default, if a leaf node task doesn't have predecessors, its start date is set
 ### Manual scheduling
 
 If the rules of automatic scheduling don't meet your requirements, you can set the task mode for the task to **Manually Scheduled**. This setting stops the scheduling engine from calculating the values of other scheduling attributes. Regardless of the task mode, if you set predecessors on tasks, you always affect the dependent task's start date.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

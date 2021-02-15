@@ -77,3 +77,6 @@ This is the more optimal experience for unassociating tasks from contract lines.
 4. In the  dialog page that opens, select a contract line from the drop-down.
 5. Select the check box to indicate if the association should also be removed from any child tasks of the selected tasks. Checking the box will also unassociate the child tasks of the selected tasks from the contract line.
 6. Select **OK**. A warning message indicates that removing this association could result in reversal of any actuals recorded on the task previously. Select **OK** on the warning dialog to remove the association between the task and the project-based contract line.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

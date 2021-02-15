@@ -85,3 +85,6 @@ When a vendor completes its work on a project and sends you an invoice, you must
 2. On the **Vendor invoices with pay when paid** page, in the search field, enter values to find the vendor invoice that you want to review, and then select **Search**.
 3. On the **Vendor invoice lines** FastTab, select the lines that you want to change.
 4. If the **Pay when paid** conditions are met for the invoice line, select **Release vendor payment**. The **Pay when paid** option is cleared, and the value of the **Ready for payment** field is changed to **Yes**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -25,3 +25,6 @@ When a product-based contract line is created for a catalog product, the cost of
 Having a unit cost on a product-based contract line allows for different product costs for each sale of a unit. While not always necessary, there are certain scenarios where the cost of the product may be discounted for the customer by the supplier. Consider the following scenario:
 
 Fabrikam Robotics is installing robotic arms at Adatum Corporation's assembly lines. Fabrikam provides installation services but the robotic arms are from Trey Research. If the installation of robotic arms at Adatum Corporation opens a new industry vertical for Trey Research, they could offer a special discount for this deal to Fabrikam. In this case, Fabrikam creates a product-based contract line for Robotic Arms. A per unit cost is entered for this contract. The cost is different from the cost of robotic arms from Trey Research.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

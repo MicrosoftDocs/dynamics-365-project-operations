@@ -64,3 +64,6 @@ You can use the **Reconciliation** tab’s extend booking capability or the **Sc
 ![Extending bookings for a team member on the resource reconciliation tab](media/RM-how-to-7.png)
 
 After a team member is booked on your project, you can use maintain bookings or use the Schedule Board directly to manage their bookings.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

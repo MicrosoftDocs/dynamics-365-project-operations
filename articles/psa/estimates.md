@@ -103,3 +103,6 @@ If you added a custom field on the quote line detail and want the system to ente
 
 8. Repeat steps 1 through 7 for the second plug-in.
 9. Close the PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

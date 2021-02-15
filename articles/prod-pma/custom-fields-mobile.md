@@ -434,3 +434,6 @@ Entry of a default project category on timesheet entries occurs at three levels.
 1. The app tries to put the default category from the project resource. This default category is set in the **getCurrentUserResource** and **getDelegatedResourcesForCurrentUser** methods in the **TSTimesheetSettingsService** class.
 2. If the default category isn't provided at the project resource level, the app tries to pull it from the project activity. This default category is set in the **getActivitiesForProject** method in the **TSTimesheetProjectService** class.
 3. If the default category isn't provided at the project activity level, the default category it taken from the project parameters. This default category is set in the **getProjectDetailsbyRule** method in the **TSTimesheetProjectService** class.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

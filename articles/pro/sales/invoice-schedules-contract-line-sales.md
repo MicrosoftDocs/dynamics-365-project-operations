@@ -69,3 +69,6 @@ Fixed price milestones can be generated manually when they aren't periodically s
 | Tax | Quick Create | The tax amount applied on the milestone. | This is included on the project contract line milestone and the invoice. |
 
 4. Select **Save and Close**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

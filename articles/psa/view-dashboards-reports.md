@@ -45,3 +45,6 @@ Dashboards and reports give you an understanding of where your business stands. 
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

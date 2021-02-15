@@ -66,3 +66,6 @@ This topic shows how to set up project invoicing between two companies in your o
 32. In the **Pricing** field, enter a number.
 33. Select **Save**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

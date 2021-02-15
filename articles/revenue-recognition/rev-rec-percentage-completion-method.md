@@ -30,3 +30,6 @@ To review fixed price revenue estimates projects, complete the following steps:
 
   Project cost, revenue profile, cost template, and the period code can be set manually. If they aren't set manually, the values default during the first estimate calculation for the project using the rules configured for project cost and revenue profiles.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

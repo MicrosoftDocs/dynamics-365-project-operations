@@ -42,3 +42,6 @@ This topic lists the features and fixes that are new or changed for V3, Update R
 - Fixed: Addressed 24-hour work hour templates inaccurately adding an additional day to tasks.
 - Fixed: Addressed +13 GMT work hour templates inaccurately shifting tasks one day ahead.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

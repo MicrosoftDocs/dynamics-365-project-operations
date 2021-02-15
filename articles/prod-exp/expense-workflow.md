@@ -60,3 +60,6 @@ The following process is an example of the expense management workflow for an ex
 After these requirements are verified, the expense report is posted.
 
 After the expense report is posted, payment is authorized for the expense report, and the employee is reimbursed.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

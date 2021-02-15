@@ -50,3 +50,6 @@ After resources are booked, select **Maintain Bookings** to make any changes tha
 ## What is the difference between an assignment and a booking?
 
 Assignments are the assignment of resources to project tasks in the project schedule. The resources can be either real or generic resources. Bookings are the hard or soft allocation of resources to a project. Hard bookings consume a resource's capacity. Ideally, for real resources, the bookings and assignments should agree, because they don't differ. However, PSA doesn't enforce this agreement. The Reconciliation view shows a project manager places where a resource's bookings and assignments don't agree.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

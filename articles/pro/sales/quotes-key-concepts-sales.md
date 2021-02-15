@@ -84,3 +84,6 @@ Project Operations quotes are built on the Dynamics 365 Sales quotes. However, t
 - Project Operations quotes have their own form and UI elements, business rules, business logic in plug-ins, and client-side scripts that make them unique from Sales quotes.
 
 For these reasons, it is not recommended to use a Sales quote and a Project Operations quote interchangeably.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

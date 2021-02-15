@@ -25,3 +25,6 @@ The Project manager can review unbilled sales transactions using the time and ma
 You can [manually create a proforma invoice](../proforma-invoicing/create-manual-proforma-invoice.md) or use a [periodic process](../proforma-invoicing/configure-automated-invoice-creation.md). The Project manager can [adjust a draft proforma invoice](../proforma-invoicing/manage-proforma-invoice.md) as needed and then confirm it.
 
 The confirmed proforma invoice is sent to the **Project management and accounting** module in Finance. The Project accountant formats and updates the project invoice proposal, and then posts and prints the document. Posted project invoices are recorded in the General ledger, as well as the Customer and Project subledgers.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

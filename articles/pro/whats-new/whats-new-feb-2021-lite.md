@@ -33,3 +33,6 @@ This topic applies to the following Dynamics 365 Project Operations components a
 | **Project Planning and Tracking** | 2164035 | Fixed issues with the **Copy Project** function. |
 | **Time entry** | 2129161 | Tighter restrictions are applied to ensure users can't change and update a time entry that has been submitted or approved. |
 | **Time entry** | 2103572 | Time approval for non-project time entries must not be looking for project approver role. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

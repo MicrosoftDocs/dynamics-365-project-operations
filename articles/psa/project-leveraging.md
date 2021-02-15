@@ -51,3 +51,6 @@ You can define the work effort and schedule estimates by using the fields on the
 ## Importing estimates from a project into a quote
 
 After you define project estimates, you can import them into the quote line. On the **Quote Line Details** page, select **Import from estimates** on the ribbon to summarize project estimates by transaction type, role, or task level.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

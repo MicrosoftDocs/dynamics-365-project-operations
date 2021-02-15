@@ -57,3 +57,6 @@ Enter your hours at least weekly—or at the frequency requested by your manager
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

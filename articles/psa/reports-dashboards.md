@@ -37,3 +37,6 @@ The **Practice Manager** dashboard gives practice managers a graphical dashboard
 ## Resource Manager 
 
 The **Resource Manager** dashboard gives resource managers a graphical dashboard experience for monitoring resource requests, and resource demand and utilization. It also lets resource managers slice the monitored information by various dimensions.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

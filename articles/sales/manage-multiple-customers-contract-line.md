@@ -39,3 +39,6 @@ Below are the fields on the Contract line customer record of a project-based Con
 Billing split percentages can be edited in the grid. When the billing split percentages don't total 100 percent, an error will occur. After you edit the billing split percentages, refresh the page to remove the error.
 
 You can also try selecting **Evenly Distribute** on the contract line customer subgrid. This action evenly allocates billing splits to all contract line customers. If there is any rounding factor, it will be added to the rounding customer. One contract line customer is always tagged as the **Rounding** customer with the **Rounding** flag set to **Yes**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

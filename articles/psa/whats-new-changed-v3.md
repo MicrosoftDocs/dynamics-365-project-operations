@@ -256,3 +256,6 @@ The following graphic shows after custom price lists have been created.
 
 > [!NOTE]
 > A short lag might occur between when you click **Create Custom Pricing** to when the custom price list is created. We recommend refreshing the grid instead of clicking multiple times. A custom price list has been created if the associated price list name has the quote name or the project contract name appended to it.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

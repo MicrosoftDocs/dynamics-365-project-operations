@@ -445,3 +445,6 @@ After the statement is calculated, you can view the following information on the
 -   **Consumption** – Information about the consumption of hours, items, expenses, and payroll transactions.
 -   **Invoice** – Information about invoices and on-account invoicing.
 -   **Hour rate** – The hour rates for hours that are posted to revenue and cost accounts.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

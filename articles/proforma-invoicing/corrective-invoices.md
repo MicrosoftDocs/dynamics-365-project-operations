@@ -41,3 +41,6 @@ When you confirm a corrective invoice, the original billed sales actual is rever
 
 - A billed sales actual for six hours.
 - An unbilled sales actual for the remaining two hours. This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

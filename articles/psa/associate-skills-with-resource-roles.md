@@ -44,3 +44,6 @@ While you were adding resource roles, you probably already associated some skill
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

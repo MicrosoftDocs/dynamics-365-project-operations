@@ -30,3 +30,6 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Sample data home page
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

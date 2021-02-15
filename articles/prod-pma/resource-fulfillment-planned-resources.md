@@ -45,3 +45,6 @@ A project manager can plan required resource roles for a project. The resource m
 7. Select a worker, and then select **Assign**.
 8. Verify that the line for **Software developer 1** has been removed for the **XYZ Upgrade project Phase 2** project.
 9. On the **Project team and scheduling** tab, for the **XYZ Upgrade Phase 2** project, verify that the worker that you selected in the previous step has been added as **Software developer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

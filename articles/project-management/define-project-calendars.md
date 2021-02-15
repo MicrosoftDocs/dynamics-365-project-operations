@@ -54,3 +54,6 @@ To create a project schedule, you create a project calendar template that define
 8. In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**. 
 
 You can now associate the work template with a project calendar template.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

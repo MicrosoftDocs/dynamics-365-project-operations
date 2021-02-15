@@ -64,3 +64,6 @@ Profitability calculations convert the amounts for the contract line details for
 
 > [!NOTE]
 > Currency rounding errors and changed margins could occur because of the lack of date effective exchange rates. Use these calculations on project contracts only as approximations and not for actual statutory or other reporting that requires higher precision of rounding and awareness of date effectivity for exchange rates.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

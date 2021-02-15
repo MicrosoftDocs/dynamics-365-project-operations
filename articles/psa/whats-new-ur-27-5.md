@@ -38,3 +38,6 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed:
 
 - Schedule assistance search performance degradation
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ After you have organizational and customer-specific default project price lists,
 
 1. On the **Project Quote**, on the **Project Price List** tab, verify in the subgrid that no specific price list record is selected.
 2. Select **Create Custom Pricing**. This will make copies of all the standard price lists currently associated to the quote and associate these copies to the quote. The existing associations to standard price lists will be removed. The salesperson can then begin making edits to prices on these copies. These changed prices will be applicable to this project quote only.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

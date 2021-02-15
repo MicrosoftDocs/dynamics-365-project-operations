@@ -64,3 +64,6 @@ The following issues have been fixed:
 The following issues have been fixed:
 
 - **Fetch All Transaction Categories** double-click creates multiple lines.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Enter your expenses at least weekly—or at the frequency requested by your mana
  [Overview of Project Service](../psa/overview.md)   
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

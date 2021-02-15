@@ -83,3 +83,6 @@ The following features are present on the existing page but aren't yet present o
 - Line-level workflow
 - Interim approver support
 - Advanced itemization
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

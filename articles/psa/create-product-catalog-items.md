@@ -31,3 +31,6 @@ If you want to include products, such as software licenses, on your project quot
   
 ### See Also  
  [Configure Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

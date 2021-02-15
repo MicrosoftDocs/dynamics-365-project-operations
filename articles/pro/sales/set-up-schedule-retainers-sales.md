@@ -27,3 +27,6 @@ Retainer schedules are set up on the **Project Contract** page in Dynamics 365 P
 | Number of Retainers to Create | When you enter the number of retainers to create, the system uses the start date and frequency to create the number in this field. | When this field is manually updated, the system ignores the value in the **Retainer Schedule End** field and instead creates the specific number of retainers or advances. |
 | Invoice Frequency | How often the application will create retainers and advances. | This value directly influences the number of retainers and advances and the created dates. |
 | Total Amount | The total amount is the amount that is split into the individual retainer or advance payments that will be created. | There's no downstream impact for this field. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -226,3 +226,6 @@ The following table outlines how data is synchronized between Project Service Au
 
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

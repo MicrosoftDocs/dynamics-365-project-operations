@@ -93,3 +93,6 @@ Follow the guidance in the topic, [Provision a new environment](resource-provisi
 
 Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).
 Complete this step only after Finance demo environment is deployed and demo data in FO is ready.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

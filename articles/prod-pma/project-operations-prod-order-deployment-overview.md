@@ -38,3 +38,6 @@ Select this deployment type to use Dynamics 365 Project Operations for the full 
 - An enterprise-class sales tax and exchange rate engine to generate customer-facing invoices for projects.
 - An International Financial Reporting Standards(IFRS)-compliant project accounting and revenue recognition system.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

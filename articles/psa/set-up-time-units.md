@@ -43,3 +43,6 @@ Configure the time units in the product catalog that you’ll use as a base for 
   
 ### See Also  
  [Configure Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

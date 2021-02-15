@@ -92,3 +92,6 @@ Follow these steps to create a custom version of the **Project Information** for
     ```
 
 6. Save and then publish the customizations.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -165,3 +165,6 @@ By creating expense report policies, you can help your organization save time an
 - When does the policy expire?
 - What is the policy rule?
 - What is the outcome of the policy rule?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

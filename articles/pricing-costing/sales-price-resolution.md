@@ -49,3 +49,6 @@ After a price list for sales is resolved, the system completes the following ste
     | &nbsp; | Markup over cost | By applying a markup as defined by the category price line on the unit cost rate of the related cost actual |
 
 4. If the system is unable to match the **Category** and **Unit** field values, the sales rate defaults to zero(0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

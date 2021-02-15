@@ -41,3 +41,6 @@ Once you’ve created a work hours template, you need to assign it to resources 
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

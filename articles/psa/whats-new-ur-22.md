@@ -69,3 +69,6 @@ The following issues have been fixed:
 - Closing the quote as won does not navigate to the created contract if a BPF attached to the quote is in the final stage.
 - Reversing **Unbilled Sales** is linked to original cost when a time entry is recalled.
 - After selecting the **Confirm** button, the invoice status doesn't change to **Confirmed** unless the invoice is refreshed.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

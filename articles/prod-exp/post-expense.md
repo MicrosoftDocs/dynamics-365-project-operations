@@ -36,3 +36,6 @@ If expenses on an expense report are charged to a company other than the company
 To post an expense report, on the **Approved expense reports** page, select the expense report, and then, on the Action Pane, select **Post**.
 
 You can also post all the expense reports in the list at the same time. Select all the expense reports, and then select **Post**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

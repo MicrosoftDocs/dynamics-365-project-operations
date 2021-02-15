@@ -101,3 +101,6 @@ When one or more updates are made to the work breakdown structure, the changes e
   - Project Operations System
   - Project System
   - Project Operations Dual Write System (This role is required if you are deploying the resource/non-stocked based scenario of Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

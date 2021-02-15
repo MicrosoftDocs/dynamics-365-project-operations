@@ -39,3 +39,6 @@ Provide a space where team members for a project can collaborate on project docu
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ If you are not seeing chargeable utilization, here are some things you can check
   - The role on the project contract line backing the project has been set to non-chargeable.
   - The project does not have an associated contract line.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

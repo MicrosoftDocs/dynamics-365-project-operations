@@ -58,3 +58,6 @@ When you create and submit an expense report for the cash advance that you alrea
 ### Example
 You plan to travel from Seattle to New York City for a conference. You create a cash advance request for 3000.00 USD based on the estimated the cost of the conference ticket, flights, hotel, meals, and taxi. You will not be paid unless your manager approves this request. After your manager approves, the requested cash advance is paid as 3000.00 USD into your bank account. You then attend the conference. After completing your trip, you find that the total expenditure was only 2790.00 USD. Select **Cash** in the **Payment method** field, and submit your expense for 2790.00 USD. Your submitted expense amount is automatically adjusted against the cash advance of 3000.00 USD that was loaned to you. You now owe a balance of 210.00 USD (3000.00 - 2790.00), which you can return to the company using the **Return cash** expense category.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

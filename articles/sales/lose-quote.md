@@ -41,3 +41,6 @@ When you select **OK** on the dialog page, the system creates a copy of the proj
 > -Customer budget information
 >
 >Because this information is very specific to each quote, these fields and records are not copied. Quote lines for projects and products, estimates on quote line details, and not-to-exceed values at the quote level are copied. Price and cost rate defaults depend on the **Copy pricing** option selected on the **Copy parameters** dialog page.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

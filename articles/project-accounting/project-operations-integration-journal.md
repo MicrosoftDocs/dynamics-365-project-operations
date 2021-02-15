@@ -50,3 +50,6 @@ Only the following accounting attributes can be updated in the Project Operation
 Integration journal lines can be deleted, however any unposted lines will be inserted into the journal again after you rerun the **Import from staging** periodic process.
 
 When you post the Integration journal, a project subledger and general ledger transactions are created. These are used in downstream customer invoicing, revenue recognition, and financial reporting.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
