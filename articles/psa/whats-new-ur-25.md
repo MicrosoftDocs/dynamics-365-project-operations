@@ -65,3 +65,6 @@ The following issues have been fixed:
 - Improved error handling to address Null Reference Exceptions generated from **Copy Project: Estimates HelperResource Management**.
 - **Not ready to Invoice** on a **Time and Material Billing Backlog** doesn't clear the billing status.
 - Corrected mislabeled **Prices** buttons on the **Role Price** and **Catalog Items** tab.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

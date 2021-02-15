@@ -51,3 +51,6 @@ Once you’ve won a project contract, you’ll need to staff your project. Your 
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

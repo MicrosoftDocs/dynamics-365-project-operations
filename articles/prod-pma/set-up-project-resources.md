@@ -80,3 +80,6 @@ After the preceding tasks have been completed, you can complete the following ta
 - Fulfill resource requests.
 - Request a staffed resource from a WBS.
 - Book resources to a project without having a request for a staffed resource.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

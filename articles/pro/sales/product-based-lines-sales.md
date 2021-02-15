@@ -23,3 +23,6 @@ Product-based lines can be catalog items or write-in products. Most of the funct
 
 When the revenue method of the Opportunity summary is **System Calculated**, the customer budget values across the opportunity lines are summarized to calculate the estimated revenue. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ The following issues have been fixed:
 - **Org Unit Cost Price** lists permit overlaps in the date effectivity.
 - Users are not permitted to change the **OrgUnit** when the order type is not work-based because it will lead to a null reference exception error.
 - When attempting to navigate from the **Quote Line Details** form, back to the **Quote** tab, the form refreshes and displays the **Summary** tab.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

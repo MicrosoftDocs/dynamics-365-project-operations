@@ -44,3 +44,6 @@ You can check resource availability to get an overall view of how booked your re
 
 ### See Also  
  [Resource Manager Guide](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

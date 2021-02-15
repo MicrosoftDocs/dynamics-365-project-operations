@@ -109,3 +109,6 @@ No. Schedule estimation is currently restricted to hours and can’t be changed.
 
 ### Can units and unit groups be edited, deleted, and added?
 Yes. With exception of the **Time** unit group and the **Hour** unit, all units can be deleted or edited, and new units can be added. In PSA, the **Time** unit group and the **Hour** unit can't be deleted. However, they can be updated with a translated text for the **Name** field.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

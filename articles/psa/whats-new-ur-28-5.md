@@ -39,3 +39,6 @@ The following issues have been fixed:
 
 - Schedule assistance search performance degradation
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

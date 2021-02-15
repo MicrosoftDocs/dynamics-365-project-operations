@@ -31,3 +31,6 @@ Navigate to project actuals and make sure that cost and unbilled sales for time 
   
 ### See Also  
  [Project manager guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

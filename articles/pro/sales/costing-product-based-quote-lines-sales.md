@@ -28,3 +28,6 @@ For example:
 Fabrikam Robotics is installing robotic arms at A Datum Corporation's assembly lines. Fabrikam provides installation services but the robotic arms are procured from Trey robotics. If the installation of robotic arms at A Datum Corporation opens a new industry vertical for Trey's robotic arms, Trey could give a special discount for this deal to Fabrikam.
 
 In this case, Fabrikam will create product-based quote line for Robotic Arms and input a special per unit cost for this quote. This cost is different from the standard cost of Trey Robotic Arms.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

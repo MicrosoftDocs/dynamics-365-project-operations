@@ -59,3 +59,6 @@ You can create multiple intercompany invoices at the same time for all borrowing
 ## Post the intercompany vendor invoice
 
 A project accountant in the borrowing legal entity can review intercompany pending vendor invoices when the corresponding intercompany customer invoice is posted. In Finance, in the borrowing legal entity, go to **Accounts payable** > **Invoices** > **Pending vendor invoice**. The pending invoice number will match the intercompany customer invoice number. Verify that the invoice is correct and then post the invoice. Posting intercompany vendor invoice creates a project subledger and a general ledger transaction that reflects the transaction costs in the borrowing legal entity.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

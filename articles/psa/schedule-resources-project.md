@@ -79,3 +79,6 @@ If you are using an older version, for resource availability, see [View resource
   
 ### Additional resources  
  [Resource manager guide](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Project templates save you time if your company regularly bids on similar types 
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

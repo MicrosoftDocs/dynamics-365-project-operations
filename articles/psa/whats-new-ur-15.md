@@ -61,3 +61,6 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
   - Fixed: No longer get an error message in **Project lookup** in the **Quote Line** form when there are more than 1000 projects.
   - Fixed: **Estimates** grid for labor estimates and expense estimates now displays the correct currency symbol.
   - Fixed: After an organization updates PSA from Update Release 14 to Update Release 15, the **Schedule** tab no longer appears as blank on the **Project** form.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -28,3 +28,6 @@ A per diem is an allowance that is paid to a worker who is traveling for work. I
 To submit expenses utilizing per diems, use the **Per diem** expense category when you create an expense report. 
 Enter the **Per diem from date**, **Per diem to date**,  and the **Per diem location**. 
 The amount will be calculated based on the per diem rates for the selected location and meal reduction will be calculated based on the per diem rate tiers.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

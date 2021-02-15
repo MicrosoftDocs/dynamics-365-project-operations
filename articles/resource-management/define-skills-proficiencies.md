@@ -47,3 +47,6 @@ Skills for resources are rated by proficiency models. The individual ratings are
 
 
 These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

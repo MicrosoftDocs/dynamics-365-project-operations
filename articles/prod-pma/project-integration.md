@@ -145,3 +145,6 @@ by clicking **New**.
 8.	Select the **Calendar** to be used for resourcing.
 
 11.	Click **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

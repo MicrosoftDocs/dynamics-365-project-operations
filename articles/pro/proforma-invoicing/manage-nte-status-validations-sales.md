@@ -68,3 +68,6 @@ You can perform a bulk re-evaluation of the not-to-exceed status. Re-evaluation 
 To reevaluate the not-to-exceed status, select one or more actuals from the **Time and Material Billing Backlog** or **Actuals** view, and select **Reevaluate Not-to-Exceed Status**.
 
 All of the relevant selected actuals with a not-to-exceed limit will be evaluated against the not-to-exceed limit setup. Actuals that are relevant for re-evaluating the not-to-exceed status are unbilled sales actuals that are not invoiced, not on a draft invoice, and are marked as chargeable. Any other select actuals selected.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

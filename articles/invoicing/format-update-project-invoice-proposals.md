@@ -138,3 +138,6 @@ To view the invoice before posting, clear the **Posting** check box. **Pro forma
 In addition to the **Invoice proposal** page, invoice proposals can also be posted by running the periodic job, **Post invoice proposals**. To find this job, go to **Project management and accounting** > **Periodic** > **Project invoices** > **Post invoice proposals**.
 
 This page shows all the invoice proposals that are ready for posting. You can schedule posting invoice proposals by selecting **Batch**. Set the **Batch processing parameter** to **Yes** and set the recurrence of batch processing by selecting **Recurrence**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

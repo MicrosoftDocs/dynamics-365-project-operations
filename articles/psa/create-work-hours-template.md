@@ -61,3 +61,6 @@ Before you can create project schedules, you need to set up a project calendar t
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

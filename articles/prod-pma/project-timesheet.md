@@ -137,3 +137,6 @@ A list of the timesheets that need to be reviewed is available in the menu. This
 approval offers the ability to mark one or more lines for approval. After
 reviewing the timesheet information, click **Approve**, **Delegate**, or
 **Return** to continue the workflow.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

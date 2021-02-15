@@ -34,3 +34,6 @@ This is an example of when multiple named resources are needed to fulfill a gene
 The main difference in this scenario is that the generic resource remains on the team assigned to the task, and the booked named resource team members are not assigned as part of the position. The project manager can assign the work as appropriate to the named resources. The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments. This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement or the intent of how the project manager wants to assign, needs to be assumed by the system. Because the system can't understand intent, it's likely that the assumptions will be different than intended and an incorrect or unpredictable result will occur. The predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

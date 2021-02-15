@@ -81,3 +81,6 @@ The following web resources have been deprecated:
 > For the full list of deprecated resources, see [Deprecated Web resources in Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

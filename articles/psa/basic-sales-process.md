@@ -90,3 +90,6 @@ In PSA, you can't track revisions that are made to a quote. Instead, you must ma
 
 ## Tracking comments and approvals of quotes and project contracts
 You can manage the review and approval of quotes and project contracts by using the record wall and posts. Your organization can create custom workflows and plug-ins to assign, redirect, escalate, and manage notifications of review and approval work items.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

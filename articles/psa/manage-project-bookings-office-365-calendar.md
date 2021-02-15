@@ -91,3 +91,6 @@ View personal appointments, project-work bookings, and field service work order 
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

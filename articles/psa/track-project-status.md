@@ -54,3 +54,6 @@ As the engagement progresses, the project stages update to reflect the stage of 
 
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

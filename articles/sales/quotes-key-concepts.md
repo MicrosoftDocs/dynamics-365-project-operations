@@ -133,3 +133,6 @@ For a fixed-price quote line, you can use the **Invoice Schedule** grid to creat
 - To create billing milestones that are equally divided, select an invoice frequency, enter the billing start date on the quote line, and select **Requested Completion Date** for the quote in the **Summary** section of the quote header. Then select **Generate Periodic Milestones** to create equally split milestones based on the selected invoice frequency. 
 - To create a lump-sum billing milestone, create a milestone, and then enter the quote line value as the milestone amount.
 - To create billing milestones that are based on specific tasks in the project plan, create a milestone, and map it to the project's schedule element in the billing milestone UI.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

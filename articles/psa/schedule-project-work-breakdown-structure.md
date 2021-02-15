@@ -148,3 +148,6 @@ You’ll use the following types of tasks when creating your work breakdown stru
   
 ### See Also  
  [Project manager guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

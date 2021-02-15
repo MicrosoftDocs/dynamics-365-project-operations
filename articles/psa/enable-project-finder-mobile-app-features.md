@@ -64,3 +64,6 @@ Your resources can use the Project Finder Mobile app on their phone with [!INCLU
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

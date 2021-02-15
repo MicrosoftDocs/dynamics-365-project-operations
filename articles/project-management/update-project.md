@@ -43,3 +43,6 @@ Below is a summary of the fields that can be updated on a project after it has b
 - **Overall Project Status**: The overall project health provided by the Project manager.
 - **Comments**: A narrative regarding the current health of the project provided by the Project manager.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

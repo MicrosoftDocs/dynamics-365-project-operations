@@ -38,3 +38,6 @@ The following issues have been fixed:
 
 - End dates auto-populate when a time entry is created if the duration is null.
 - Users can change the task on a time entry that has been approved or submitted.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

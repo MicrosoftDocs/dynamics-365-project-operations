@@ -19,3 +19,6 @@ Project opportunities can be closed as Won or Lost. The **Close opportunity** di
 You won't be allowed to close the opportunity if there are any active quotes associated with it. You can close all active and draft quotes associated to an opportunity at the same time. Then you'll be allowed to close the opportunity.
 
 For more general information on closing opportunities, see [Close opportunities as won or lost](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

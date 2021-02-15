@@ -85,3 +85,6 @@ You can also disassociate project tasks to quote lines from the **Chargeable tas
 
 >[!NOTE]
 > This procedure doesn't delete the task from the project. It only removes the task association from the project-based quote line.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

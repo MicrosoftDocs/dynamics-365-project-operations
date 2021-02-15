@@ -50,3 +50,6 @@ For example, a developer from Fabrikam India working on a US project is billed a
     | Developer | Fabrikam US | $150 |
 
 3. Attach the sales price list, **Fabrikam US Bill Rates** to the project price list of the project contract or to a certain account.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

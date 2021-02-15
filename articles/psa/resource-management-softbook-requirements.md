@@ -60,3 +60,6 @@ You can use the same method to cancel a hard booking or a soft booking from the 
 To convert a resource that is soft-booked to hard-booked on the project's **Team** tab, select the resource, and then select **Confirm**.
 
 ![Confirm command](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

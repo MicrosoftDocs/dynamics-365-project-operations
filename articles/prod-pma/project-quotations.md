@@ -46,3 +46,6 @@ If the customer approves the project quotation, you can copy the information in 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

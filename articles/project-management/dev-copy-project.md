@@ -107,3 +107,6 @@ The following example shows how to call the **CopyProject** custom action with t
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ In order to create quotes and invoice your customers in [!INCLUDE[pn_project_ser
   
 ### See Also  
  [Configure Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

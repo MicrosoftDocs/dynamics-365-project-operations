@@ -95,3 +95,6 @@ To ensure a successful upgrade, the following relationships must be correctly ma
 
 - All project task dependencies must be related to the same project.
 - A task can't have the same dependency referenced more than once.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

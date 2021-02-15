@@ -347,3 +347,6 @@ Project Operations records the financial transactions that occur during a projec
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

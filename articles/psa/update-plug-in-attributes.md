@@ -64,3 +64,6 @@ The following steps walk you through the process of registering the plug-ins.
 
 9. Close the plug-in registration tool.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

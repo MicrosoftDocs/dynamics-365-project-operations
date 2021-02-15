@@ -55,3 +55,6 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
 - Fixed: When the transaction class is **Time**, **UnitGroup** is non-editable for all entities including, **QuoteLineDetails**, **JournalLine**, **InvoiceLineDetail**, and **ContractLineDetails**. However, **Unit** is non-editable only for **JournalLine** and **InvoiceLineDetails**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

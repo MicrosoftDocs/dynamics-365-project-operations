@@ -42,3 +42,6 @@ Keep project-related documents organized by adding them to your project.
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

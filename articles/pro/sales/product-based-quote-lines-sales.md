@@ -41,3 +41,6 @@ When a quote line is based on a product catalog, you can override the sales pric
 If you select **Override Pricing**, the default price isn't set. Instead, you must enter a price for the product on the quote line. If you select **Use Default**, the default sales price is used and the field is locked for editing.
 
 Default sales prices are entered on the product-based lines of a quote. The **Pricing** field is then set to **Override Pricing** so that you can edit the default price on the quote lines. This is a Project Operations-specific override to the product-based lines behavior in Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

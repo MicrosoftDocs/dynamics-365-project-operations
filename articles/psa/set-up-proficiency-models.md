@@ -49,3 +49,6 @@ Now that you’ve added the skills for your clients’ projects, you need a way 
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ To create your own business process flow for the project entity do the following
 
    ![Screenshot of modifying views on the Project entity](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ To enable resource scheduling performance enhancement, complete the following st
 
 > [!NOTE]
 > This will distribute general data to the **ResRollup** table across all companies in your environment, so the batch job only needs to be run in one legal entity. This batch job is needed for all **Resource Availability** views. If this batch job is not run, the **ResRollup** data will be generated on the fly, which can take time.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

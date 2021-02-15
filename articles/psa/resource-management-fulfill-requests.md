@@ -43,3 +43,6 @@ The Schedule Assistant appears and is filtered by the requirements. Select the r
 > ![Resource selected](media/Resource-Management-image61.png)
 
 The generic team member is replaced with the hard-booked named resource on the project team and task assignments in the project schedule.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

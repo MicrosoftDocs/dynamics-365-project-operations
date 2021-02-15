@@ -74,3 +74,6 @@ The following issues have been fixed:
 - The **Sales Price List Resolution** logic improperly handles time zones, resulting in the incorrect selection of price lists.
 - A project’s **Total Actual Cost** can be off by a fractional amount after a single time entry is approved.
 - The **Price Resolution** logic does not provide a user-friendly error message if **Retrieved RolePrice** doesn't have values in **'Primary Unit'** and **'Price In Primary Unit'** fields.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

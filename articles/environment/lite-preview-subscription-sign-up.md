@@ -86,3 +86,6 @@ Repeat the same steps as with the first offer code. Make sure to add the second 
 ## Install a CDS configuration and setup demo data
 
 Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

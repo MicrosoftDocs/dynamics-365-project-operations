@@ -53,3 +53,6 @@ To open the **Project Service Automation integration parameters** page, go to **
 | Billing type defaults  | Billing type         | Click **New** to add a row where you can select the billing type to set the default line property for. A specific billing type can be selected only one time in the configuration. |
 |                        | Line property        | Select the default line property for the selected billing type. When new hour estimates, new expense estimates, or new actuals are synchronized from Project Service Automation, the **Line property** field is set to the default value for the billing type. |
 | Functionality locking  | Not applicable       | Select the functionality to disable in Finance for projects and contracts that originated from Project Service Automation. For example, you can turn off the ability to edit contracts and projects, create work breakdown structures, and enter timesheets in Finance. Accounting-related fields will continue to be enabled, even if they are made unavailable by the parameter setting. By default, all functionality is enabled. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

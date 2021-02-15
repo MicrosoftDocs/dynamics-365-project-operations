@@ -112,3 +112,6 @@ Additional options have been added in the WBS to better use the resourcing funct
     > You don't receive a warning that the specified resource is now 2, because the number of resources remains 1.
 
 14. On the **Work breakdown structure** page, validate the resource assignment on the WBS, and then select **Save**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

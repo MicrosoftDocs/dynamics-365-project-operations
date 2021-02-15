@@ -50,3 +50,6 @@ This error message indicates that there are price records that were previously s
 
 
 When you turn off **Standard Title** as the pricing dimension, and the pricing engine searches for a price, it will only use the **Org Unit** value from the input context. If the **Org Unit** of the input context is “Contoso US”, the result will be non-deterministic because both the rows will match. To avoid this scenario, when you create **Role Price** records, the system validates that the combination of dimensions is unique. If the dimension is turned off after the **Role Price** records are created, this constraint can be violated. Therefore, it is required that before you turn off a dimension, you delete all **Role Price** and **Role Price Markup** rows that have that dimension value populated.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

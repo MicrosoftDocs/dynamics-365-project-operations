@@ -33,3 +33,6 @@ The following attributes are defined for each expense line item:
 - **Unit Cost Price**: The unit price used to calculate to cost of the expense.
 - **Unit Sales Price**: The unit price used to calculate the sale prices of the expense.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

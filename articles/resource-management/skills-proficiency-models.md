@@ -38,3 +38,5 @@ Adding characteristics to resource requirements lets you document the knowledge 
 3. In the **Skills** subgrid, select **+Add new Requirement Characteristic.**
 4. In the quick create pane, find and select the required characteristics and add a **Rating Value**.
 5. Select **Save & Close**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

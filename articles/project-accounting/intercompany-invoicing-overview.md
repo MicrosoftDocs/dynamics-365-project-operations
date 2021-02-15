@@ -41,3 +41,6 @@ The following diagram illustrates intercompany invoicing as it relates to accoun
 - [Configure intercompany invoicing](configure-intercompany-invoicing.md)
 - [Record intercompany transactions](create-intercompany-transactions.md)
 - [Create intercompany customer and vendor invoices](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

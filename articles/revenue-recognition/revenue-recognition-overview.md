@@ -55,3 +55,6 @@ In Dynamics 365 Project Operations, revenue recognition principles vary based on
 [Manage revenue estimates](rev-rec-completed-contract-method.md)
 
 [Cost to complete methods](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

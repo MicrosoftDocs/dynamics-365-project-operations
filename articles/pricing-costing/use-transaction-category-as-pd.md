@@ -45,3 +45,6 @@ The following table lists all of the out-of-the box forms and views, by entity. 
 2. On the **Parameters** page, on the **Amount-Based Pricing Dimensions** tab, verify that the grid shows the records in the **Pricing Dimensions** entity.
 3. Add **Transaction Category** to this list and set the **Applicable to Cost** and **Applicable to Sale** fields to **Yes**.
 4. In the **Dimension Type** field, select **Amount-based**, and then select the priority for **Transaction Category** as it relates to cost and sales.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

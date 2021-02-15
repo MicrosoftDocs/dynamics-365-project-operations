@@ -38,3 +38,6 @@ Project stages can serve as a guide to the project life cycle. You can define th
 4. In the list, select the predefined or user-defined stage that you want to modify. 
 5. In the Project stage field, enter the new name.
 6. Click Save.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Click on a link below to learn more about what you can do with [!INCLUDE[pn_proj
  [Account Manager Guide](../psa/account-manager-guide.md)   
  [Project Manager Guide](../psa/project-manager-guide.md)   
  [Resource Manager Guide](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

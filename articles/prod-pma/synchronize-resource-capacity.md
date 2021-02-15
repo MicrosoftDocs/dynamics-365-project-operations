@@ -54,3 +54,6 @@ We recommend that you use a batch. The options are available during synchronizat
     | End date    | Enter the end date for the synchronization process for resource capacity roll-ups. |
 
 [![Synchronization process](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ You can also click the **Resource requirement** link in the team grid to open th
 
 ![Resource requirement](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

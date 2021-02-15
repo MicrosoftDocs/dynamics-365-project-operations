@@ -45,3 +45,6 @@ With the Project Finder Mobile app on your [!INCLUDE[tn_iphone](../includes/tn-i
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ For more information about reporting in PSA, see the following topics:
 - [Working with the Project Service data model](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ This deployment should be chosen the expectation of Project Operations is to use
 - Require a rich, enterprise-class sales tax and exchange rate engine to generate customer-facing invoices for projects.
 - An International Financial Reporting Standards(IFRS)-compliant project accounting and revenue recognition system.
 - Finance or Supply Chain Management applications and integration of project-based transactions.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

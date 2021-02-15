@@ -90,3 +90,6 @@ Setting the dimension priority helps Project Service pricing produce a price eve
 
 - **Cost Priority**: The value of a dimension's cost priority will indicate the weight of that dimension when matching against the setup of cost prices. The value of **Cost Priority** must be unique across dimensions that are **Applicable to Cost**.
 - **Sales Priority**: The value of dimension's sales priority will indicate the weight of that dimension when matching against the setup of sales prices or bill rates. The value of **Sales Priority** must be unique across dimensions that are **Applicable to Sales**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

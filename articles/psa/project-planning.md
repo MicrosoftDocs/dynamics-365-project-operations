@@ -49,3 +49,6 @@ The following topics provide information that will help project managers estimat
 - [Project templates](project-templates.md)
 - [Project stages](project-stages.md)
 - [Project settings](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

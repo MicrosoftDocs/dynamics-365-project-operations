@@ -46,3 +46,6 @@ If you decide to require multiple expense report approvers, you can add the work
 
     1. The employee's manager approves the expense report.
     2. The budget owner approves the expense report.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

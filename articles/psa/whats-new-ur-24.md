@@ -76,3 +76,6 @@ The following issues have been fixed:
 - **Refresh Actuals** button incorrectly calculates summary tasks.
 - Microsoft Project Add-in: Fix null reference error if any team member has an empty resourcing unit.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

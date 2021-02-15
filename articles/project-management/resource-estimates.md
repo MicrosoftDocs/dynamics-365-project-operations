@@ -29,3 +29,6 @@ Sales prices are applied once per deal. The hierarchy for sale price list defaul
 1. Organization
 2. Customer
 3. Quote/contract
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

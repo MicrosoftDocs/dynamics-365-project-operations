@@ -42,3 +42,6 @@ In the previous step, you already associated some skills with  a new resource. F
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

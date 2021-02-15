@@ -204,3 +204,6 @@ If you have applied demo data to the Finance environment, see [Set up and apply 
 
 
 Your Project Operations environment is now provisioned and configured. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

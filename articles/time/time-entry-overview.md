@@ -22,3 +22,6 @@ Project team members create and submit time entries for approval and the Project
 
 For information about how to create, submit, or recall an entry, and other tools to help complete your reporting, see [Time entry user behavior](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

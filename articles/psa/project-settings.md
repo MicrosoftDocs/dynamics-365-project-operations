@@ -65,3 +65,6 @@ Every organization must set up these roles on the **Active Resource Categories**
 ## Price lists
 
 Price lists let you set cost and sales prices for resource roles, expense categories, products, and other elements in an organization. Before you set financial estimates for the work that must be delivered for a project, you should create a backing cost and sales price list. In the parameters section, you should also set up a default cost and sales price list that applies to all projects that are created in the organization. On the **Active Project Parameters** page, make sure that you set up a default cost and sales price list.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

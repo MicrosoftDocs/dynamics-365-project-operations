@@ -96,3 +96,6 @@ After the Extend Booking functionality has been executed on each resource, booki
 
 However, a closer look at the details of the bookings shows differences in the start time of the bookings. The bookings will start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource.
  ![New bookings of the resources in the schedule board](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ When you process remaining budget amounts, you can create transactions in the ge
 5. For each project that you want to process, select the option at the beginning of the line for the project. 
 6. Select **Process** to transfer the remaining budget amounts for the selected projects to the selected fiscal year.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

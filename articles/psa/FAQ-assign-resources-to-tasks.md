@@ -82,3 +82,6 @@ Resources assigned this way are added to the team without any bookings. This is 
 
 3. Select the resource that you want to assign to the task.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
