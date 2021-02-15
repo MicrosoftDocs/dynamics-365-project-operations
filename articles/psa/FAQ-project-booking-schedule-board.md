@@ -90,3 +90,6 @@ Complete the following steps to book from a new resource requirement.
 
 4. Now that the resource is booked, you must assign tasks manually.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

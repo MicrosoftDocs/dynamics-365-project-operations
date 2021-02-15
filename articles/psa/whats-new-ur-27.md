@@ -77,3 +77,6 @@ The following issues have been fixed:
 - When Dynamics 365 Field Service and Project Service Automation are both installed, the **Lock pricing** and **Use Current Pricing** options are not displayed at a same time on the **Invoice** page.
 - For the Japanese language, there is inconsistent translation with other calendar-based pages.
 - **Activate** and **Deactivate** have been removed from **Price List Association** entities in Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

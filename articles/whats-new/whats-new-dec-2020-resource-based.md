@@ -104,3 +104,6 @@ The following features are included in this release:
 
 ### Regulatory updates
 For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

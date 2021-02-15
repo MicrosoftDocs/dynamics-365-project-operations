@@ -30,3 +30,6 @@ Resources are the most important asset of a service-based organization. The abil
 
 
 You can staff your project with a team of generic or named resources in Project Operations. You can use various methods to add and assign team members and to manage their bookings and assignments. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

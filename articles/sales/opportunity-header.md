@@ -31,3 +31,6 @@ The following table includes the fields in a project-based opportunity that are 
 | Contracting Unit | General tab | The Organization unit that is responsible for the delivery of the project or projects associated with this deal. | The contracting unit is the division of the company that will complete the project(s) after the deal is closed. Every contracting unit has a currency, and this currency is used to report estimated and actual costs incurred during the project. |
 
 For all the other fields and sections on the **Summary** tab of the opportunity, see [Create or edit opportunities (Sales and Sales hub)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

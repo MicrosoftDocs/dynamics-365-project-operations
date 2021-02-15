@@ -43,3 +43,6 @@ Because Nancy worked on two separate projects when she was in Frankfurt, when sh
 |Hotel         |EUR 725              |EUR 557                        |EUR 168                          |
 |Meals         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

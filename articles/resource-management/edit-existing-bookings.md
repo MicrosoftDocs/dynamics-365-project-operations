@@ -28,3 +28,6 @@ From the **Team Member** grid, a Project manager can highlight a specific resour
 ## Schedule Board
 
 From the **Schedule Board**, the Resource manager has a portfolio view of all bookings across an organization. From this view, the Resource manager can extend, shorten, or move existing bookings similar to the capabilities offered in **Maintain Bookings**. The Resource manager can also substitute existing resources allocated to a specific booking by right-clicking the booking, and selecting **Substitute Resource**. Resource managers can also edit the contours of existing bookings by right-clicking the booking and selecting **Edit**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

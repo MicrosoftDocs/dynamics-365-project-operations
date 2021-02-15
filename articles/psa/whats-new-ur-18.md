@@ -60,3 +60,6 @@ This topic lists the features and fixes that are new or changed for Project Serv
 **Sales**
 
 - Fixed: When time entries are re-approved (**Approve > Cancel >** approve again), a duplicate non-chargeable actual is created.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

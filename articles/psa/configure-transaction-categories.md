@@ -39,3 +39,6 @@ Set up transaction categories to define a superset of expense categories.
   
 ### See Also  
  [Configure Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ This topic lists the features and fixes that are new or changed for Project Serv
      - Fixed: Extra buttons for **New Opportunity**, **Quote**, **Order Line**, and **Add Product** are visible in commands for Opportunities, Quotes, Order Products, and the project-based Lines subgrid.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

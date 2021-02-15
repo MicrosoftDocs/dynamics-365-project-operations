@@ -75,3 +75,6 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
     -   Fixed: When users upgrade from 2.X to 3.X, projects with a NULL value
         for project name will be permitted.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

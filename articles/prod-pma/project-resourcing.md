@@ -60,3 +60,6 @@ The following topics provide information about the tasks that need to be complet
 - [Project resource scheduling performance](project-scheduling-performance.md)
 - [Set up roles on Work breakdown structure templates](set-up-roles-wbs-template.md)
 - [Resource fulfillment for planned resources](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

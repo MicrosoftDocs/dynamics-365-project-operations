@@ -67,3 +67,6 @@ The following procedure explains how to create a project team.
 ## Monitor project teams
 1. On the **All projects** page, select the **Project ID** link for the **XYZ Upgrade Phase 2** project.
 2. On the **Project team and scheduling** FastTab, verify that the project resources that are listed are correct.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

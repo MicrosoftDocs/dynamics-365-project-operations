@@ -53,3 +53,6 @@ Schedule your vacation time or leave of absence in much the same way as you ente
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

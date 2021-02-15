@@ -82,3 +82,6 @@ You can create data for entity-based dimensions manually, or by using Microsoft 
 5. Repeat steps 1-3 to create another standard title for "Senior Systems Engineer".
 
 > ![Sample data for Standard Title entity](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

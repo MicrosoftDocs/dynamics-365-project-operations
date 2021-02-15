@@ -56,3 +56,6 @@ For more information about data entities, see [Data entities](https://docs.micro
 After an employee record is terminated, the employee’s Active Directory Domain Services (AD DS) account is disabled. However, there might be active credit card transactions that must still be expensed and reimbursed. From the **Credit card transactions** page, you can reassign the employee for any credit card transaction where the associated employee has been terminated.
 
 Select one or more credit card transactions, and then select **Reassign transactions**. You can then select another employee to assign the credit card transactions to. After the credit card transactions have been reassigned, they can be selected for an expense report and paid through the usual process for expense report reimbursement.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

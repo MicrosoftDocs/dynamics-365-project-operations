@@ -42,3 +42,6 @@ To create quantity factors from product properties, complete the following steps
 7. Repeat steps 2-6 for all the properties that together will make up the quantity for the product-based contract line.
 
 With quantity factors set up, when the user creates a contract line for this product, the quantity of the contract line is locked. The quantity is then calculated as a product of the property values for that contract line.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ The calendar doesn't support actions on individual calendar items, and you can't
 ## Extensibility
 
 On the **Time Entries** page that has the time entry grid, you can add custom fields, set up lookup fields, and create custom views. You can also set up custom business logic that is based on the values that are selected or entered in custom fields.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

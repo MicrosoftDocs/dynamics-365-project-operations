@@ -72,3 +72,6 @@ Targeted release dates are subject to change. For more information, see [Service
 | --- | --- |
 | 10.0.17 | March 19, 2021 |
 | 10.0.18 | April 16, 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

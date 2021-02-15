@@ -293,3 +293,6 @@ Select a user (for example, Spencer Low) and change Spencer's work hours to the 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of active bookable resources](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

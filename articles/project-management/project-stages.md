@@ -68,3 +68,6 @@ When the work for the project is completed, the project manager can update the s
 
 When all transactions are recorded for the project, the project manager can update the stage to **Close**. At that point, no transactions can be recorded, and the project is set to read-only.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

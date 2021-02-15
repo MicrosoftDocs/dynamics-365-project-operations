@@ -32,3 +32,6 @@ The following table lists the updates to Project Operations on CDS environment v
 | Time and quick expense entry | 2047499          | The **New** button on the Time   Entry page opens the **New Email Signature** page.                                                                                               |
 | Time and quick expense entry | 2059859          | Unexpected   pop-up opens when creating an expense entry.                                                                                                                         |
 | Other                        | 2044181          | [PO Uninstallation] - The error,   "Record is unavailable" occurs when you try to uninstall   **msdyn_ProjectServiceCore_Patch** and msdyn Project service core solutions.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ To create cost templates, follow these steps:
 7. On the **Categories** tab, select the project categories to be included on the cost template line.
 8. On the **General** tab, select if this line will be included in the percentage of completion calculation.
 9. Select the cost to complete method to be used when calculating the percentage of completion.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

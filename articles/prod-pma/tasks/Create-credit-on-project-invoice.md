@@ -44,3 +44,6 @@ In the list, mark the selected row.
 10. Click OK. 
 
 After this step, the Credit Note will be available for Invoice Proposal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -195,3 +195,6 @@ When you view time at higher levels, cells in the **Reconciliation** tab have an
 If you have task assignments for a resource but no bookings, on the **Projects** form, on the **Reconciliation** tab, select the booking shortage, and then select **Extend Booking**. The **Extend Booking** dialog box appears and shows the booking that is needed to address the resource's shortage. The dialog box also shows the resource's existing bookings across all projects or other schedulable entities. If you select **OK** to create the booking for the resource, regardless of that resource's availability, you might cause overbooking.
 
 The Project manager or Resource manager can then use the Schedule Board to manage any situations where a resource is overbooked beyond its capacity.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

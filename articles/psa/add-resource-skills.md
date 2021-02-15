@@ -43,3 +43,6 @@ Your clients’ projects no doubt require a variety of different skills to compl
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

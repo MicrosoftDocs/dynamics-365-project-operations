@@ -51,3 +51,6 @@ You can assign resources to organizational units if you need to have different c
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ You can use each of those price lists and make updates to labor (role price) and
 On a project contract, project pricing always defaults as a custom price list with the name of contract and the created date time stamp appended to the name. This is true whether the contract was created when the quote was won or if the contract was created from scratch. If needed, you can remove this association to the custom price list and associate a standard price list to the project contract instead.
 
 When you associate a standard price list to the project price lists on quote or contract, any changes made to the prices in the price list will impact all quotes and contracts that use the price list.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

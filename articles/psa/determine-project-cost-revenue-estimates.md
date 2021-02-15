@@ -77,3 +77,6 @@ Any expense that will be incurred in the project that is not directly related to
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

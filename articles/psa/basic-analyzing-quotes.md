@@ -57,3 +57,6 @@ You can analyze quotes and generate charts for customer expectations about the s
 Analysis of customer expectations about the schedule is done by comparing the latest end date of the quote line detail with the requested delivery date across all quote lines in the quote.
 
 Analysis of customer expectations about the budget is done by comparing the sum of the total customer budget with the quoted amount across all quote lines.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

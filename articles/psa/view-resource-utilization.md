@@ -39,3 +39,6 @@ You can check resource utilization to determine utilization levels for your reso
   
 ### See Also  
  [Resource Manager Guide](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

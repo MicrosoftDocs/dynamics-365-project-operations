@@ -41,3 +41,6 @@ To reject the proposal, click **Reject Resource**.
 ![Accepting a resource proposal](media/RM-how-to-20.png) 
 
 Similar to directly fulfilling a generic resource request with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

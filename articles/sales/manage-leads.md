@@ -75,3 +75,6 @@ The Lead to Opportunity business process supports the following stages:
 | Develop | Opportunity | Develop the opportunity to add more information on the work involved, key stakeholders, and competition. |
 | Propose | Opportunity | Develop the proposal and get approval from the internal review team. |
 | Close | Opportunity | Win the opportunity to close the deal. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

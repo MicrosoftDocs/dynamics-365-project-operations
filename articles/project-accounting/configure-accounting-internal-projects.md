@@ -27,3 +27,6 @@ Any project not associated with a contract in Dynamics 365 Project Operations is
 After transactions are posted to the project, if the project is associated with a project contract, the system reverses all accumulated transactions and creates new billable transactions. The billable transactions follow the accounting rules defined in respective Project cost and revenue profile.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -241,3 +241,6 @@ Download and install the Dynamics 365 Unified Ops mobile app:
 22. Select **Submit**.
 23. Enter any comments for the approver.
 24. Select **Done**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

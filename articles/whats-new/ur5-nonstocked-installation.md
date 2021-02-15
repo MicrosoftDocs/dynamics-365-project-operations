@@ -121,3 +121,6 @@ The following updates to the security privileges for entities are required as pa
  
  ![Ledger map synchronization](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

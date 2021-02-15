@@ -67,3 +67,6 @@ Price lists rely on roles and expense categories, so before you create a price l
   
 ### See Also  
  [Configure Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

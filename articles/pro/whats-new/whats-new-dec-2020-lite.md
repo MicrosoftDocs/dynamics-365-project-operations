@@ -52,3 +52,6 @@ The following table lists the updates to Project Operations on Dataverse environ
 | Time and expense | 2034882 | **New** button displays twice on command bar for time entries when Dynamics 365 Field Service is installed. |
 | Time and expense | 2056028 | Update **Time Edit** page to include time line. |
 | Time and expense | 1983747 | Time entry chart shows additional data. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

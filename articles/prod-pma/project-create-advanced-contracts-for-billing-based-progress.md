@@ -108,3 +108,6 @@ Budget categories are used to automatically calculate the invoice amounts for th
 8. Optional: Assign the billing rule to additional projects. On the **Project** FastTab, in the **Available projects** section, select a project, and then select the right arrow button to add the project to the **Selected projects** section.
 9. Optional: Calculate the percentage amount that the customer withholds from payments on an invoice. On the **Payment retention terms** FastTab, select the funding source, and then, in the **Retention percentage** field, enter the retention percentage.
 10. Repeat these steps to create additional billing rules for the project contract.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

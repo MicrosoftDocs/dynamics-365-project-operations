@@ -64,3 +64,6 @@ You will need to add the following Project Service entities to your pricing solu
 > ![Do not include all related components](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

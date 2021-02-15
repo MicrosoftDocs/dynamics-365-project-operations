@@ -61,3 +61,6 @@ The Opportunity, Quote, and Project Contract entities use the following order to
 By default, the **Product** field on the quote line lists all the active products in the product price list of the quote. If a product has been inactivated, or if it's a draft product, it isn't listed, even if it's in the price list. 
 
 Product catalog lines are added as invoice lines on the first invoice that is created for a project contract. On a draft invoice, those invoice lines can be deleted. In that case, the lines will appear on a subsequent invoice until they are invoiced, or until the invoice is sent to the customer. In PSA, you can't invoice a partial quantity of a product invoice line. When the product lines from the project contract are invoiced, actuals are created. However, those actuals aren't linked to the related project entity. In other words, product-based project contract lines are independent of any project-based use. PSA doesn't track material consumption on projects.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

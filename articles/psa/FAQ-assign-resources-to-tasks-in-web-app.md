@@ -114,3 +114,6 @@ Select **Book** for the generic resource, and then you can use the schedule boar
 When the generic resource is fulfilled with a named resource, the generic resource is removed from the team and the task assignments for the generic resource are assigned to the named resource that fulfilled the generic resource’s resource requirement.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

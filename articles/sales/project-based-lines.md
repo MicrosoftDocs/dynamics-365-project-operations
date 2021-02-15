@@ -28,3 +28,6 @@ Below are the fields on a project-based opportunity line:
 | Name | General tab | This is an editable text field that can be used to give a short identity to this line item | This value is carried over to the quote line when you create a quote from this opportunity |
 | Customer Budget | General tab | This editable currency field can be used to track the amount that the customer is willing to spend for this line item. | This value is carried over to the corresponding field on the quote line when you create a quote from this opportunity |
 | Billing Method | General tab | This editable field has the following values:</br>- Time and Material</br>- Fixed Price | This value is carried over to the corresponding field on the quote line when you create a quote from this opportunity. After the quote line is created, the field is locked and can't be changed. Assign this field value as accurately as possible. If you need to change the value of this field on the quote line, delete and re-create the quote line. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

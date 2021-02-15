@@ -139,3 +139,6 @@ If you have actuals that came in after the invoice was created, you can include 
 In Project Operations, you can create invoice lines for products that don't apply to any project or for all projects together with project-based invoice lines. These invoice lines are created as product-based contract lines and after they are marked as ready to invoice, they are added as product-based invoice lines.
 
 After you have added product-based invoice lines, they can't be changed. They can, however, be deleted from the draft proforma invoice.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

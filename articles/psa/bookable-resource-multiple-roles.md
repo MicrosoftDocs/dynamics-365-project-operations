@@ -69,3 +69,6 @@ When you expand the row of that Team Member record, you can see distinct assignm
 When you navigate to the **Estimates** grid, you will notice that both assignments for the same resource are priced differently.
 The assignment for the resource on Task A is priced using the **Role** attribute value of **Consulting Lead**. The assignment for the same resource on Task B is priced using the **Role** attribute value of **Network Technician**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

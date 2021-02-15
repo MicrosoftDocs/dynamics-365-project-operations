@@ -131,3 +131,6 @@ You should use plug-in validations for any validations that require more context
 
 > [!IMPORTANT] 
 > Currently, a known issue on the TBX pages prevents users from correcting information and reselecting Done when an update fails a plug-in validation. As a workaround, set up business rule validations to prevent this situation as much as possible.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

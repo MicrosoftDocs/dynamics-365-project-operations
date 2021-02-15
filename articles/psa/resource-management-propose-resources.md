@@ -110,3 +110,6 @@ Because Dynamics 365 Project Service Automation uses the Universal Resource Sche
 To view more details about an individual resource, right-click it to open the resource card.
 
 ![Resource card](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

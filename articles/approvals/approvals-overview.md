@@ -54,3 +54,6 @@ Each project has a number of project team members. You can specify which team me
 3. Select **Save**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

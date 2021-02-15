@@ -69,3 +69,6 @@ Before you begin the configuration, you must have a Common Data Service (CDS) en
     -	Bookable Resource Characteristic
 
     ![Complete Import](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

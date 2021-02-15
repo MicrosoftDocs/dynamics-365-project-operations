@@ -30,3 +30,6 @@ After a cost price list is resolved, the system uses the **Role**, **Resourcing 
 Estimate lines for Expense refer to the quote and contract line details for expenses and the expense estimate lines on a project.
 
 After a cost price list is resolved, the system uses a combination of the **Category** and **Unit** fields on the estimate line for an expense to match against the **Category Price** lines on the resolved price list. If the system finds a category price line that has a cost rate for the **Category** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Category** and **Unit** values, or if it is able to find a matching category price line but the pricing method is not **Price Per Unit**, the cost rate is defaulted to zero(0).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

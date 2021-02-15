@@ -54,3 +54,6 @@ My timesheets (Optimized for mobile) and Timesheets for my review (Optimized for
 - [Project time entry]( project-time-entry-mobile-workspace.md)
 - [Project timesheets on a mobile device](Mobile-timesheets.md)
 - [Implement custom fields for the Microsoft Dynamics 365 Project Timesheet mobile app on iOS and Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

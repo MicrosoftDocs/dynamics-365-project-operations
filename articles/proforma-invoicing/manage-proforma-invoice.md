@@ -130,3 +130,6 @@ If you have actuals that came in after the invoice was created, you can include 
 2. Open the draft proforma invoice and, on the ribbon **Actions**, click **Refresh Invoice Line Transactions**.
 
   This creates invoice line details for any actual that is past dated and marked as **Ready to Invoice**; but is not included in the invoice.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

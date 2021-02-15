@@ -29,3 +29,6 @@ To create and work with period types, complete the following steps:
 4. Select the period type record and then select **Generate periods** to create periods for the period type. Based on the period frequency that you selected, you might have the option to specify a start date or the number of periods to generate.
 5. Select **Periods** to review generated periods.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

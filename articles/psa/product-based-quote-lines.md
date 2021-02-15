@@ -80,3 +80,6 @@ Tne **No of Users** and **No of Months** properties can be flagged as quantity f
 
 > ![Flagging No of Users and No of Months as quality factors](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

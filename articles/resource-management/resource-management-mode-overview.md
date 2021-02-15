@@ -43,3 +43,6 @@ Book a resource directly to a project:
 Book a resource from a resource requirement:
 - [Assign generic bookable resources to a task and generate resource requirements](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Book named resources from resource requirements](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

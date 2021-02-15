@@ -58,3 +58,6 @@ To set up competencies for a worker, you can use either the **Workers** list pag
 5. In the **Level date** field, select **1-/14/2014**.
 6. In the **Years of experience** field, enter **10**.
 7. Select **Save**, and then close the page.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

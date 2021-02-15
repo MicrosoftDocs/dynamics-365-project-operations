@@ -35,3 +35,6 @@ rule, you can specify that a percentage of the per diem rate will be withheld if
 also set a minimum and maximum number of hours that the per diem rate can apply to a worker's travel.
 
 The calculation of a total per diem amount is based on the start dates and end dates that you can set on the **Per diems** page.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ In the cost price list for Fabrikam UK-Robotics, cost rates can be expressed bel
 | Developer | Fabrikam UK | 115 GBP |
 
 The cost price list can provide labor rates in multiple currencies. When generating a cost estimate on the project, Project Operations will convert these cost rates into the project currency and display it to the user. When a time entry is approved and a cost actual is created, the cost actual is priced in the currency of that matching role price line on the cost price list. Cost actuals for time on a single project can be recorded in multiple currencies. However, when rolling up or summarizing the actual labor costs at the project level, Project Operations will convert all labor cost amounts into the project currency that the user can view.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

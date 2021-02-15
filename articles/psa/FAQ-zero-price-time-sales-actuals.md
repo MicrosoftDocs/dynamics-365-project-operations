@@ -54,3 +54,6 @@ If there is no row in the role price grid for the pricing dimensions on the time
 
 If you still don't see a valid price on your time sales actual after following the three checks above, please log a support ticket. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

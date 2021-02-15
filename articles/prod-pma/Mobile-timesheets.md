@@ -67,3 +67,6 @@ Android will be compatible with Platform update 16, when it becomes available.
 13. Optional: Enter additional timesheet lines.
 
 14. After you have completed entering the timesheet lines, select the **Workflow** \> **Submit** action to submit your timesheet to the workflow approval process.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

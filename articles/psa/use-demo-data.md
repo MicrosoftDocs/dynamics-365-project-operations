@@ -51,3 +51,6 @@ For more information, see this [blog](https://blogs.msdn.microsoft.com/crm/2017/
  [Project Manager Guide](../psa/project-manager-guide.md)   
  [Resource Manager Guide](../psa/resource-manager-guide.md)   
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

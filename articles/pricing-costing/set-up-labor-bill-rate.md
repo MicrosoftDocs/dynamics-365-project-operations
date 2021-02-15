@@ -50,3 +50,6 @@ For example, a developer from the Robotics division of Fabrikam India working on
     | Developer | Fabrikam US | Fabrikam US - Robotics | $150 |
 
 3. Attach the sales price list, **Fabrikam US Bill rates** to the project price list of the project contract or to a certain account.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

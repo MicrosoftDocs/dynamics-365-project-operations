@@ -69,3 +69,6 @@ If the price setup for the expense category isn't valid, then you have isolated 
 If you still don't see a valid price on your expense sales actual after doing the three checks above, log a support ticket.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ After a few time entries have been created, users can create multiple time entri
 
 ## Import
 The same basic process is used to import from bookings, assignments, and exchanges. You can specify the date range that bookings are imported from and then explicitly select the bookings that should be copied into draft time entries. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

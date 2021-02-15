@@ -51,3 +51,6 @@ Opportunities are warm leads from customers who are interested in contracting yo
   
 ### See Also  
  [Account Manager Guide](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

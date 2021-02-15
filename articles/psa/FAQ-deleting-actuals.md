@@ -30,3 +30,6 @@ search.app:
 
 Project Service Automation (PSA) doesn't allow you to delete actuals because they serve as the source of truth for transactions that have financial implications to downstream systems, such as the general ledger. If actuals could be deleted, the integrity of the financial reporting transactions could be questioned. To establish an audit trail, customers should use journals to create compensating transactions.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Account managers and project managers regularly request resources for their proj
   
 ### See Also  
  [Resource Manager Guide](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

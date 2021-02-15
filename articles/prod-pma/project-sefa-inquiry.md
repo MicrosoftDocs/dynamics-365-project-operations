@@ -104,3 +104,6 @@ The Schedule of Expenditures of Federal Awards inquiry includes the following co
 - Catalog of Federal Domestic Assistance
 - Receipts
 - Expenditures
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

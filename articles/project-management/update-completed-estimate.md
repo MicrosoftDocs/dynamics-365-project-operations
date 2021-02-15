@@ -41,3 +41,6 @@ There are two ways that a project manager can reproject effort on tasks:
 - Override the default progress percentage with a new estimate of the true progress on the task.
 
 Each of these approaches cause a recalculation of the task's ETC, estimate at complete (EAC), and progress percentage, and the projected effort variance on a task. The EAC, ETC, and progress percentage on the summary tasks are recalculated, and produce a new projection of effort variance.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

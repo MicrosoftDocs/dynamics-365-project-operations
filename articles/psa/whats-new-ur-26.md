@@ -69,3 +69,6 @@ The following issues have been fixed:
 - When selecting a project-based line in quote or contract, the **Suggestion** button should only be visible when selecting a product-based line associated with an existing product.
 - Split **Create_Product** privilege from **Create_ProjectContract** privilege.
 - Deleting an invoice line causes null reference failure on **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

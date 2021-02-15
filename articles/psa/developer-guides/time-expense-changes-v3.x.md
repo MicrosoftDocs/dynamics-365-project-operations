@@ -28,3 +28,6 @@ In Dynamics 365 Project Service Automation version 3.0, the Time and Expense vie
 Previously, the calendar and grid views for Time and Expense were implemented as DHTMLX controls. The artifacts that are related to that implementation of the calendar and grid views are now obsolete (deprecated).
 
 For the full list of deprecated resources, see [Deprecated web resources in Project Service Automation 3.x](web-resources-deprecated-v3.x.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

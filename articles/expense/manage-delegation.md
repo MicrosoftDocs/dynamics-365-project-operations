@@ -44,3 +44,6 @@ If the feature management key **Enable expense delegates list page** is enabled,
 A delegate can quickly filter and search on existing expense reports that have been delegated to them. The delegate can also quickly create a new expense report for other users by selecting **New expense report**.
 
 Delegates can create and manage expense reports for other employees by going to **Expense management** > **My expenses** > **Expense reports** and selecting **Open other user's expenses**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

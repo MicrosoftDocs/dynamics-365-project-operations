@@ -62,3 +62,6 @@ As a Project manager, you might need to book a resource to a project, but only k
 > [!NOTE]
 > This method doesn't create any bookings for the resource. Instead, it adds the resource to the team. After the team member has been added to the
 project, the project manager can use maintain bookings or extend bookings to add the required bookings to the resource.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

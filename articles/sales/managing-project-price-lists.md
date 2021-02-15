@@ -125,3 +125,6 @@ Like bill rates, cost rates for human resources are also set up using price list
     1. The cost price list that is attached to the organizational unit.
     2. The cost price list that is attached to the Project Operations parameters. Because cost price lists in many different currencies can be attached to the parameters, a currency match is completed between the currency of the contracting organizational unit of the project, contract, or quote, and the currency of the cost price list.
     3. For expenses, the at-cost and markup-over-cost pricing methods don’t apply to cost price lists. Even if these pricing methods are used on cost price list lines to set up transaction category costs, the system ignores them, and no default cost price is entered.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

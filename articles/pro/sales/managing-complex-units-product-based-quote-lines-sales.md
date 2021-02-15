@@ -40,3 +40,6 @@ To create Quantity factors from Product properties, follow these steps:
 6. Save and close the form. Repeat these steps for all properties to use for computing the quantity for the product-based quote line.
 
 When you create a product-based quote line for a product, the quantity of the quote line will be locked. The quantity will be computed as a product of the property values that you input for that quote line.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ This task guide shows you how to adjust a transaction on a project. However, you
 13. In the list, mark the selected row. 
 14. In the Cost price field, enter a number. 
 15. Click Post. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

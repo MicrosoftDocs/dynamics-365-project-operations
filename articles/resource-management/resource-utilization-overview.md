@@ -40,3 +40,6 @@ Additionally, a default role must be assigned to each bookable resource. Go to *
 On the **Project Service** tab, you can also set an individual target utilization for the resource. The utilization calculation then uses that target utilization to evaluate the resource's target instead of the target of the resource's default role.
 
 Utilization is only shown for a resource if that resource has approved, chargeable time during the period shown in the grid.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

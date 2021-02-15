@@ -78,3 +78,6 @@ This topic describes the parameters the control the general behavior in Expense 
 | Display anti-corruption attestation   | Select this option to show the anti-corruption text when an expense report is created. Specific expense categories can then be enabled that will require that the anti-corruption attestation be selected on the expense report. For example, a gift category that is related to a government official expense might require that the employee confirm that the expense meets company policy that is related to government officials. |
 | Anti-corruption message for submitter | Enter the text that should be shown to an employee who is creating an expense report. To enter language-specific text that will be shown, based on the user language, select **Translations**. |
 | Anti-corruption message for approver  | Enter the text that should be shown to the approver when an expense report is created. To enter language-specific text that will be shown, based on the user language, select **Translations**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

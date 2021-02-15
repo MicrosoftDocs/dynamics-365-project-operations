@@ -44,3 +44,6 @@ Next, you’ll create a work breakdown structure for your project to define the 
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ All cost, sales, and transfer prices can be set up for roles. Complete the follo
 1. On the **Sales price (hour)** page, select **New**, and enter an effective date.
 2. In the **Role** column, select a role.
 3. In the **Pricing** column, enter a price for the selected resource role.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

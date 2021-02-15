@@ -23,3 +23,6 @@ You can submit a generated resource requirement as a resource request. The reque
 The request status of the generic team member will change to **Submitted**.
 
 After the request is fulfilled, the generic resource is replaced by a named resource if the resource manager fulfills the request by booking a named resource. Otherwise, if the resource manager proposes a named resource, the generic resource remains on the team and the request status will change to **Needs Review**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

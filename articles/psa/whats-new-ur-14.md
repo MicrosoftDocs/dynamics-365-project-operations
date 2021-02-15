@@ -62,3 +62,6 @@ This topic lists the features and fixes that are new or changed for PSA V3, Upda
      - Fixed: The total sales price is not calculated until the user also inputs a cost price for expense estimates on a project.
      - Fixed: Closing a quote as **Won** fails if the associated project contract is not in a **Draft** state.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

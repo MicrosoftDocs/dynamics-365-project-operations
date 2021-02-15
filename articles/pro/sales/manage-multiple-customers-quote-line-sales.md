@@ -38,3 +38,6 @@ The following table shows the fields on the quote line customer record of a proj
 You can edit billing split percentages in-line. When the billing split percentages don't total 100%, an error occurs. After you edit the billing split percentages, refresh the quote line page to remove the error.
 
 Use the evenly distribute action on the quote line customers subgrid to allocate billing splits to all quote line customers. If there's a rounding factor, that will be added to the rounding customer. One of the quote line customers is always tagged as the rounding customer, which means that quote line customer record has the rounding flag set to **Yes**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

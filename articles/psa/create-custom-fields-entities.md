@@ -68,3 +68,6 @@ You can create data for entity-based dimensions manually, or by using Microsoft 
 > ![Sample Data for Standard Title entity ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

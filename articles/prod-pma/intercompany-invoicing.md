@@ -118,3 +118,6 @@ When the lending legal entity, USSI, posts the intercompany customer invoice, a 
 For more information, see [Configure intercompany project invoicing](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

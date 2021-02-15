@@ -106,3 +106,6 @@ The following illustration shows the changes that occur for approved time entrie
 The following illustration shows the changes that occur for approved expense entries when they are recalled.
 
 ![Expense Entry state transitions](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

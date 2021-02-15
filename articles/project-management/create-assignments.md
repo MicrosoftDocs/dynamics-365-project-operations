@@ -37,3 +37,6 @@ You can use the search box in the **Resource Picker** to search all active booka
 1. From the task grid, board, or timeline, navigate to the **Assigned To** cell.
 2. In the search box, start typing a name. The search results for the name are displayed in the **Resource Selector** under **Other Resources**.
 3. Select the resource that you want to assign to the task or select the name of the resource under **Other Team Resources**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

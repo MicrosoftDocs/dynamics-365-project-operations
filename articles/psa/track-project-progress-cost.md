@@ -36,3 +36,6 @@ Sometimes you might need to revise the original estimates on a task. The task mi
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
