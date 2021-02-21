@@ -76,5 +76,5 @@ The following issues have been fixed:
 
 The following issues have been fixed:
 
-Contract Performance tab on the contract form fails silently during
+- Contract Performance tab on the contract form fails silently during
 initialization when no contract lines are present.
