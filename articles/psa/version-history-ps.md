@@ -43,7 +43,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | Station  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | April 02, 2021
+| | <i>First Release</i> | [3.10.46.87](whats-new-ur-28-5.md) | [3.10.47.7](whats-new-ur-29.md) | February 26, 2021
 |<strong>Station 2</strong> | |  |  | |
 | | <i>South America</i> | [3.10.46.87](whats-new-ur-28-5.md) | [3.10.47.7](whats-new-ur-29.md) | February 26, 2021
 | | <i>Canada</i> | [3.10.46.87](whats-new-ur-28-5.md) | [3.10.47.7](whats-new-ur-29.md) | February 26, 2021
