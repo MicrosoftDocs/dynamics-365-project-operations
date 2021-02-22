@@ -27,6 +27,9 @@ Project Operations includes the capabilities that shipped with Project Service A
 Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is. See [Project Operations for stocked/production order scenarios](#pma).
 
 
+## Deployment Regions
+In order to determine which regions support deployment of Project Operations please refer to the [Geographical availaiblity for Dynamics 365 and Power Platform report](https://dynamics.microsoft.com/en-us/geographic-availability/). Press **View Report** Expand **Dynamics 365 | Operations Apps | Dynamics 365 Project Operations**, which will filter the view to deployment regions supported.
+
 ## Deployment types
 Project Operations supports multiple deployment options to match your requirements. Whether you're a new or existing Dynamics 365 customer, Project Operations can support your needs.
 
