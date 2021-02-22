@@ -35,7 +35,7 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 The following issues have been fixed:
 
-- When finding resource availaability, **ExpandCalendar** is called for each resource that has no calendar rules.
+- When finding resource availability, **ExpandCalendar** is called for each resource that has no calendar rules applied.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
