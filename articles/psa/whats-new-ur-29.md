@@ -46,8 +46,8 @@ The following issues have been fixed:
 
 - Missing validation logic to ensure resource assignment effort hours can't be negative.
 - The custom action, **AssignResourcesForTask** updates all fields instead of only changed fields.
-- When copying a project in an environment with plug-ins or workflows that are registered on the **CreateProject** event, the **msdyn_bulkgenerationstatus** attrribute isn't updated if the **CopyWBSToProject** fails.
-- When you expan the project calendar, the working days aren't sorted in ascending order causing some project task updates to fail.
+- When copying a project in an environment with plug-ins or workflows that are registered on the **CreateProject** event, the **msdyn_bulkgenerationstatus** attribute isn't updated if the **CopyWBSToProject** fails.
+- When you expand the project calendar, the working days aren't sorted in ascending order causing some project task updates to fail.
 - Changing the Project Manager on an existing project triggers the organizational unit defaulting logic.
 
 **Sales**
