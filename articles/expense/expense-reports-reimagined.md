@@ -5,7 +5,7 @@ title: Expense reports reimagined
 description: This topic provides information about the redesigned and reimagined experience for expense report entry.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: 
 ms.service: project-operations
@@ -64,20 +64,20 @@ The [Expense experience in Dynamics 365 for Finance and Operations](https://yout
 | Reduction in messages in the message bar| The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases. |
 | Grouped together common actions | The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions. |
 | New workspace to increase visibility | A new workspace unifies features and links that let users move to different areas. |
-| Add existing expenses and receipts during expense creation | When you create expense reports, you can add all or selected "unattached " expenses. The unattached expenses are expenses that were imported for the user from the corporate credit card feed or these could be expenses that were manually created by the user but have not been attached to any expense report.|
+| Add existing expenses and receipts during expense creation | When you create expense reports, you can add all expenses, or select "unattached " expenses. The unattached expenses are expenses that were imported from the corporate credit card feed or expenses that were manually created by the user but haven't been attached to an expense report.|
 | Exchange rate calculator | An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions. |
 | Save and add new expense lines | **Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines. |
 | Better visibility into split and itemized lines | Itemized and split lines are added directly to the list of expenses to increase visibility and help you easily determine whether there are any errors. |
 | Show receipts during itemization | Receipts can be shown during itemization. |
-| Cash Advance Selection | Select one or multiple cash advances for fulfilling a single expense transaction. |
-| Cash Advance Balance | Review cash advance balance in real time when creating an expense entry against approved and paid cash advances. |
+| Cash advance selection | Select one or more cash advances for fulfilling a single expense transaction. |
+| Cash advance balance | Review the cash advance balance in real time when you create an expense entry against approved and paid cash advances. |
 
 The initial release is focused on expense entry scenarios. Any expense report review or approval scenario will continue to use the existing expense entry page.
 
-The following features are currently not supported on the Reimagined Expense Workspace -
+The following features aren't supported on the Reimagined Expense Workspace:
 
 - Travel requisition integration
-- Per- Diem expense entry
+- Per diem expense entry
 - Interim approver support
 - Ability to view workflow history
 
