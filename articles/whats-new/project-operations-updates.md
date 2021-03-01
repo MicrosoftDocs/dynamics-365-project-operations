@@ -28,7 +28,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments |
 | --- | --- |
-| 4.7.0.96 | 10.0.16 |
+| 4.8.0.91 | 10.0.16 |
 
 Project Operations January 2021 release notes for [Resource/non-stocked](whats-new-feb-2021-resource-based.md), [Lite deployment](../pro/whats-new/whats-new-feb-2021-lite.md) and [stocked/production](../prod-pma/whats-new/whats-new-jan-2021-stocked.md) scenarios.
 
@@ -39,23 +39,23 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | First Release |  4.7.0.96       | TBD     | 19-Feb-21           |
+|   &nbsp;  | First Release |  4.8.0.91       | TBD     | 04-Apr-21           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.7.0.96       | TBD     | 19-Feb-21           |
-|    &nbsp; | Canada        |  4.7.0.96       | TBD     | 19-Feb-21           |
-|   &nbsp;  | India         |  4.7.0.96       | TBD     | 19-Feb-21           |
-|   &nbsp;  | France         |  4.7.0.96       | TBD     | 19-Feb-21           |
-|   &nbsp;  | United Arab Emirates         |  4.7.0.96       | TBD     | 19-Feb-21           |
-|   &nbsp;  | South Africa         |  4.7.0.96       | TBD     | 19-Feb-21           |
+|   &nbsp;  | South America |  4.8.0.91       | TBD     | 04-Apr-21           |
+|    &nbsp; | Canada        |  4.8.0.91       | TBD     | 04-Apr-21           |
+|   &nbsp;  | India         |  4.8.0.91       | TBD     | 04-Apr-21           |
+|   &nbsp;  | France         |  4.8.0.91       | TBD     | 04-Apr-21           |
+|   &nbsp;  | United Arab Emirates         |  4.8.0.91       | TBD     | 04-Apr-21           |
+|   &nbsp;  | South Africa         |  4.8.0.91       | TBD     | 04-Apr-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.7.0.96       | TBD     | 26-Feb-21           |
-|   &nbsp;  | Asia Pacific  |  4.7.0.96       | TBD     | 26-Feb-21           |
-|   &nbsp;  | Great Britain |  4.7.0.96       | TBD     | 26-Feb-21           |
-|   &nbsp;  | Oceania       |  4.7.0.96       | TBD     | 26-Feb-21           |
+|   &nbsp;  | Japan         |  4.7.0.96       | 4.8.0.91     | 03-Mar-21           |
+|   &nbsp;  | Asia Pacific  |  4.7.0.96       | 4.8.0.91     | 03-Mar-21           |
+|   &nbsp;  | Great Britain |  4.7.0.96       | 4.8.0.91     | 03-Mar-21           |
+|   &nbsp;  | Oceania       |  4.7.0.96       | 4.8.0.91     | 03-Mar-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        |  4.7.0.96       | TBD     | 05-Mar-21           |
+|   &nbsp;  | Europe        |  4.7.0.96       | 4.8.0.91     | 05-Mar-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | North America |  4.7.0.96       | TBD     | 12-Mar-21           |
+|   &nbsp;  | North America |  4.7.0.96       | 4.8.0.91     | 12-Mar-21           |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
