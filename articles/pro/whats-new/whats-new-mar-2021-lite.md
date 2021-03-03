@@ -35,4 +35,3 @@ This topic applies to the following Dynamics 365 Project Operations components a
 | Time and Expense | 2159798 | Tightened controls to ensure approved expense entries can't be edited. |
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
