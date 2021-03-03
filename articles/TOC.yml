@@ -895,37 +895,37 @@
   - name: Expense management overview
     href: prod-exp/expense-management.md
   - name: New expense experience
-      items: 
-      - name: Expense reports reimagined
-        href: expense/expense-reports-reimagined.md
-      - name: Capture a receipt using OCR
-        href: expense/match-receipt-expense-ocr.md
-    - name: Configuration and setup
-      items:
-      - name: Set up policies
-        href: expense/set-up-policies.md
-      - name: Set up workflows
-        href: expense/set-up-workflows.md
-      - name: Manage delegation
-        href: expense/manage-delegation.md
-      - name: Configure Expense management parameters
-        href: expense/configure-expense-management-parameters.md
-      - name: Set up credit card integration
-        href: expense/set-up-credit-card-integration.md
-      - name: Set up expense categories
-        href: expense/set-up-expense-categories.md
-    - name: Personal expenses
-      href: expense/personal-expenses-expense-report.md
-    - name: Intercompany expenses
-      href: prod-exp/intercompany-expense.md
-    - name: Create expense reports
-      items:
-      - name: Distributions on an expense report
-        href: expense/distributions-expense-report.md
-    - name: Approve expense reports
-      items: 
-      - name: Expense reports and multiple approvers
-        href: expense/expense-reports-multiple-approvers.md
+    items: 
+    - name: Expense reports reimagined
+      href: expense/expense-reports-reimagined.md
+    - name: Capture a receipt using OCR
+      href: expense/match-receipt-expense-ocr.md
+  - name: Configuration and setup
+    items:
+    - name: Set up policies
+      href: expense/set-up-policies.md
+    - name: Set up workflows
+      href: expense/set-up-workflows.md
+    - name: Manage delegation
+      href: expense/manage-delegation.md
+    - name: Configure Expense management parameters
+      href: expense/configure-expense-management-parameters.md
+    - name: Set up credit card integration
+      href: expense/set-up-credit-card-integration.md
+    - name: Set up expense categories
+      href: expense/set-up-expense-categories.md
+  - name: Personal expenses
+    href: expense/personal-expenses-expense-report.md
+  - name: Intercompany expenses
+    href: prod-exp/intercompany-expense.md
+  - name: Create expense reports
+    items:
+    - name: Distributions on an expense report
+      href: expense/distributions-expense-report.md
+  - name: Approve expense reports
+    items: 
+    - name: Expense reports and multiple approvers
+      href: expense/expense-reports-multiple-approvers.md
     - name: Post expense reports
       href: expense/posting-expense-reports.md
     - name: Travel requisition
