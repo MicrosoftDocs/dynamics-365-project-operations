@@ -322,7 +322,7 @@
       items: 
       - name: Expense reports reimagined
         href: expense/expense-reports-reimagined.md
-      - name: Match receipt to expense using OCR
+      - name: Capture a receipt using OCR
         href: expense/match-receipt-expense-ocr.md
     - name: Configuration and setup
       items:
@@ -898,7 +898,7 @@
       items: 
       - name: Expense reports reimagined
         href: expense/expense-reports-reimagined.md
-      - name: Match receipt to expense using OCR
+      - name: Capture a receipt using OCR
         href: expense/match-receipt-expense-ocr.md
     - name: Configuration and setup
       items:
