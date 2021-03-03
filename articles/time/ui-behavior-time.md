@@ -3,7 +3,7 @@ title: Time entry UI behavior
 description: This topic provides information about the behavior of the UI for Time Entry. 
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
@@ -21,10 +21,10 @@ The **Weekly time entry** grid is a custom control that has two main sections, *
 | Action     	| Shortcut               	|
 |------------	|------------------------	|
 | New        	| Alt + Shift + n        	|
-| Copy Row   	| Alt + Shift + c        	|
-| Edit Entry 	| Alt + Shift + e        	|
-| Edit Row   	| Alt + Shift + Ctrl + e 	|
-| Open Entry 	| Alt + Shift + o        	|
+| Copy row   	| Alt + Shift + c        	|
+| Edit 3ntry 	| Alt + Shift + e        	|
+| Edit row   	| Alt + Shift + Ctrl + e 	|
+| Open 3ntry 	| Alt + Shift + o        	|
 | Submit     	| Alt + Shift + s        	|
 | Recall     	| Alt + Shift + r        	|
 | Delete     	| Alt + Shift + d        	|
