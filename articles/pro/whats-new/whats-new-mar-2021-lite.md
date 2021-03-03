@@ -16,7 +16,7 @@ ms.author: sigitac
 _Applies To: Lite deployment - deal to proforma invoicing_
 
 
-This topic applies to the following Dynamics 365 Project Operations components an dversions:
+This topic applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on Dataverse environment 4.8.0.91 
 
@@ -30,7 +30,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 | Opportunity Management | 2176285 | Tax amount must not be copied from sales contract/quote line details to cost contract/quote line details. |
 | Opportunity Management | 2188079 | Split billing rule must not be created for contracts that are not work-based. |
 | Planning and Tracking | 2138853 | Project copy function updated to ensure expense estimate lines that reference tasks are copied to the destination project. |
-| Planning and Tracking | 2173259 | Project copy function updated to ensure it doesn't get stuck with **Copying WBS** error message in certain scenarios. |
+| Planning and Tracking | 2173259 | Project copy function updated to ensure it doesn't display the **Copying WBS** error message in certain scenarios. |
 | Time and Expense | 2148910 | Fixed display issue with the **Edit Entry** page in the **Time Entry** grid. |
 | Time and Expense | 2159798 | Tightened controls to ensure approved expense entries can't be edited. |
 
