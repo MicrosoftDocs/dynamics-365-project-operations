@@ -17,6 +17,19 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 The **Weekly time entry** grid is a custom control that has two main sections, **Dimensions** and **Duration**.
 
+## Keyboard shortcuts
+| Action     	| Shortcut               	|
+|------------	|------------------------	|
+| New        	| Alt + Shift + n        	|
+| Copy Row   	| Alt + Shift + c        	|
+| Edit Entry 	| Alt + Shift + e        	|
+| Edit Row   	| Alt + Shift + Ctrl + e 	|
+| Open Entry 	| Alt + Shift + o        	|
+| Submit     	| Alt + Shift + s        	|
+| Recall     	| Alt + Shift + r        	|
+| Delete     	| Alt + Shift + d        	|
+| Copy week  	| Alt + Shift + w        	|
+
 ## Dimensions
 The **Dimensions** section shows the dimensions that time can be entered against. The following dimensions are supported out-of-the-box:
 
