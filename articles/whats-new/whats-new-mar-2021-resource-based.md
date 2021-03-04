@@ -17,8 +17,8 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This topic applies to the following Dynamics 365 Project Operations components and versions:
 
-Project Operations on Dataverse environment 4.8.0.91 
-Project management and accounting on Dynamics 365 Finance environment version 10.0.16 
+- Project Operations on Dataverse environment version 4.8.0.91 
+- Project management and accounting on Dynamics 365 Finance environment version 10.0.16 
 
 ## Quality updates
 
