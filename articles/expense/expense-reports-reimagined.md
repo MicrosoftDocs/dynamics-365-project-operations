@@ -2,7 +2,7 @@
 # required metadata
 
 title: Expense reports reimagined
-description: This topic provides information about the redesigned and reimagined experience for expense report entry.
+description: This topic explains the redesigned and reimagined experience for expense report entry.
 author: suvaidya
 manager: AnnBe
 ms.date: 03/01/2021
