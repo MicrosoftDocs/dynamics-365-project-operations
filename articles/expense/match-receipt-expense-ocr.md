@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Match a receipt to an expense using OCR
+title: Capture a receipt using OCR
 description: This topic provides information about optical character recognition (OCR) processing for receipts.
 author: suvaidya
 manager: AnnBe
@@ -27,7 +27,7 @@ ms.search.validFrom:
 ms.dyn365.ops.version: 
 ---
 
-# Match a receipt to an expense using OCR
+# Capture a receipt using OCR
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
