@@ -42,19 +42,19 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | First Release |  4.8.0.91       | TBD     | 04-Apr-21           |
+|   &nbsp;  | First Release |  4.8.0.91       | TBD     | 02-Apr-21           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.8.0.91       | TBD     | 04-Apr-21           |
-|    &nbsp; | Canada        |  4.8.0.91       | TBD     | 04-Apr-21           |
-|   &nbsp;  | India         |  4.8.0.91       | TBD     | 04-Apr-21           |
-|   &nbsp;  | France         |  4.8.0.91       | TBD     | 04-Apr-21           |
-|   &nbsp;  | United Arab Emirates         |  4.8.0.91       | TBD     | 04-Apr-21           |
-|   &nbsp;  | South Africa         |  4.8.0.91       | TBD     | 04-Apr-21           |
+|   &nbsp;  | South America |  4.8.0.91       | TBD     | 02-Apr-21           |
+|    &nbsp; | Canada        |  4.8.0.91       | TBD     | 02-Apr-21           |
+|   &nbsp;  | India         |  4.8.0.91       | TBD     | 02-Apr-21           |
+|   &nbsp;  | France         |  4.8.0.91       | TBD     | 02-Apr-21           |
+|   &nbsp;  | United Arab Emirates         |  4.8.0.91       | TBD     | 02-Apr-21           |
+|   &nbsp;  | South Africa         |  4.8.0.91       | TBD     | 02-Apr-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.7.0.96       | 4.8.0.91     | 03-Mar-21           |
-|   &nbsp;  | Asia Pacific  |  4.7.0.96       | 4.8.0.91     | 03-Mar-21           |
-|   &nbsp;  | Great Britain |  4.7.0.96       | 4.8.0.91     | 03-Mar-21           |
-|   &nbsp;  | Oceania       |  4.7.0.96       | 4.8.0.91     | 03-Mar-21           |
+|   &nbsp;  | Japan         |  4.8.0.91       | TBD     | 09-Apr-21           |
+|   &nbsp;  | Asia Pacific  |  4.8.0.91       | TBD     | 09-Apr-21           |
+|   &nbsp;  | Great Britain |  4.8.0.91       | TBD     | 09-Apr-21           |
+|   &nbsp;  | Oceania       |  4.8.0.91       | TBD     | 09-Apr-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | Europe        |  4.7.0.96       | 4.8.0.91     | 05-Mar-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
