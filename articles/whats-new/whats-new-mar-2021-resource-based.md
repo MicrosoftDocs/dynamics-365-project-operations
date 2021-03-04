@@ -41,7 +41,7 @@ Project management and accounting on Dynamics 365 Finance environment version 10
 
 ### Project management and accounting on Dynamics 365 Finance
 
-For more information, see [What's new January 2021 - Project Operations for resource/non-stocked based scenarios](../project-operations/whats-new/whats-new-jan-2021-resource-based.md).
+For more information, see [What's new January 2021 - Project Operations for resource/non-stocked based scenarios](whats-new-jan-2021-resource-based.md).
 
 ## Regulatory updates
 
