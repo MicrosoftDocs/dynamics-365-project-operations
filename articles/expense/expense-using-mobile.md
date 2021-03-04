@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Expense using mobile
+title: Mobile Expense app
 description: This topic provides information about the Expense management mobile workspace.
 author: suvaidya
 manager: AnnBe
@@ -27,7 +27,7 @@ ms.search.validFrom:
 ms.dyn365.ops.version: 
 ---
 
-# Expense using mobile
+# Mobile Expense app
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
