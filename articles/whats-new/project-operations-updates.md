@@ -3,7 +3,7 @@ title: Project Operations updates
 description: This topic provides information about the released versions of Dynamics 365 Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 12/07/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -24,13 +24,16 @@ Dynamics 365 Project Operations consists of two components:
 - Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the lite deployment and resource/non-stocked scenarios deployment of Project Operations.
 - Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The Finance and Operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
 
+## Project Operations release notes
+- Project Operations latest release notes for [Resource/non-stocked](whats-new-mar-2021-resource-based.md) scenario.
+- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-mar-2021-lite.md) scenario.
+- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-jan-2021-stocked.md) scenario.
+
 ## Project Operations latest version
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments |
 | --- | --- |
 | 4.8.0.91 | 10.0.16 |
-
-Project Operations January 2021 release notes for [Resource/non-stocked](whats-new-feb-2021-resource-based.md), [Lite deployment](../pro/whats-new/whats-new-feb-2021-lite.md) and [stocked/production](../prod-pma/whats-new/whats-new-jan-2021-stocked.md) scenarios.
 
 ## Release schedule for Project Operations on Dataverse environment
 
