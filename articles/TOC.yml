@@ -926,20 +926,20 @@
     items: 
     - name: Expense reports and multiple approvers
       href: expense/expense-reports-multiple-approvers.md
-    - name: Post expense reports
-      href: expense/posting-expense-reports.md
-    - name: Travel requisition
-      href: expense/travel-requisition.md
-    - name: Cash advance
-      href: expense/cash-advance.md
-    - name: Per diems
-      href: expense/per-diems.md
-    - name: Mobile Expense app
-      href: expense/expense-using-mobile.md
-    - name: Financial management
-      items: 
-      - name: VAT recovery
-        href: expense/vat-recovery.md
+  - name: Post expense reports
+    href: expense/posting-expense-reports.md
+  - name: Travel requisition
+    href: expense/travel-requisition.md
+  - name: Cash advance
+    href: expense/cash-advance.md
+  - name: Per diems
+    href: expense/per-diems.md
+  - name: Mobile Expense app
+    href: expense/expense-using-mobile.md
+  - name: Financial management
+    items: 
+    - name: VAT recovery
+      href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation  
   items:
   - name: Project Service Automation 
