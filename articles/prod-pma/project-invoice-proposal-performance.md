@@ -34,21 +34,21 @@ ms.dyn365.ops.version: 10.0.18
 
 [!include [banner](../includes/banner.md)]
 
-Sometimes, when you create a new invoice proposal, you might encounter performance issues as the number of projects and subprojects increase. To improve performance, a feature is available that reduces the time needed to create a new invoice proposal for posted project transactions.
+When you create a new invoice proposal you might encounter performance issues as the number of projects and subprojects increase. To improve performance, a feature is available that reduces the time needed to create a new invoice proposal for posted project transactions.
 
 ## Enable project invoice proposal performance enhancement
-To enable project invoice proposal performance enhancement feature, complete the following steps.
+To enable the project invoice proposal performance enhancement feature, complete the following steps.
 
-1.	Go to **Feature management** > **All**, and in the feature list, locate **Project invoice proposal performance enhancement**.
+1.	Go to **Feature management** > **All**. In the feature list, locate **Project invoice proposal performance enhancement**.
 2.	Select **Enable now**.
 3.	Refresh your browser, and then create a new invoice proposal.
 
 ## Turn off project invoice proposal performance enhancement
 Complete the following steps to turn off the project invoice proposal performance enhancement.
 
-1.	Go to **Feature management** > **All**, and in the feature list, locate **Project invoice proposal performance enhancement**.
+1.	Go to **Feature management** > **All**. In the feature list, locate **Project invoice proposal performance enhancement**.
 2.	Select **Disable**.
 3.	Refresh your browser.
 
 > [!NOTE]
-> Invoice proposal performance can't be applied when billing rules are enabled or batch process is running.
+> Invoice proposal performance can't be applied when billing rules are enabled or batch processes are running.
