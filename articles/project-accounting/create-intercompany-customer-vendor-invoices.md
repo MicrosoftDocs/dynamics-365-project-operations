@@ -50,7 +50,7 @@ You can create multiple intercompany invoices at the same time for all borrowing
 2. On the **Create intercompany customer invoices** page, in the **Company**  field, select a legal entity to invoice. If you don't select a company, all transactions that meet the search criteria are displayed for all borrowing legal entities.
 3. In **Create one invoice per**, select whether to create an invoice for intercompany transactions based on a project or based on a borrowing legal entity.
 4. Optional: To select a specific project and project contract to create intercompany invoices for, click **Select**. On the **Inquiry** page, in the **Criteria** field, select the project contract, project number, or both, and then select **OK**.
-5. On the **Batch** tab, set up a batch process to create intercompany invoices on a recurring basis. For more information, see [Submit a batch processing job from a form](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. On the **Batch** tab, set up a batch process to create intercompany invoices on a recurring basis. For more information, see [Submit a batch processing job from a form](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. To post the intercompany invoices, on the Action Pane, select **Post**.
 
 > [!NOTE]

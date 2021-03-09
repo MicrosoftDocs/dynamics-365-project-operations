@@ -145,7 +145,7 @@ The demo data package requires six users. For the package to install correctly, 
 
 5. The first user's calendar (in the **userstocreateandconfigure** tag) is used to populate the work hours for all bookable resources on import of demo data. Navigate to **Settings** > **Security** > **Users**, find your "Spencer Low" user, and open the "Work Hours" option. Edit the existing work hours, selecting the **Entire recurring weekly schedule from start to end** option. Ensure the **Work hours are set to 8 AM - 5 PM (9 Hours), Monday to Friday and with the Timezone set to Pacific Time (US & Canada)**. This is needed to ensure that the Project and Schedule board show as expected.
 
-**Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recommendation:** Consider creating a backup of your org now, in case you need to revert to your starting point if something goes wrong during the sample data installation. For more information, see [Backup and restore instances](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## Run the Package Deployer
 

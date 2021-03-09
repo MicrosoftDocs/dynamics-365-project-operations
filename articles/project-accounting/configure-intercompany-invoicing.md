@@ -22,7 +22,7 @@ Complete the following steps to set up intercompany invoicing for projects in Dy
 
 In the following example, Contoso Robotics USA (USPM) is the borrowing legal entity and Contoso Robotics UK (GBPM) is the lending legal entity. 
 
-1. **Configure intercompany accounting between legal entities**. Each pair of borrowing and lending legal entities must be configured on the General ledger [Intercompany accounting](https://docs.microsoft.com/dynamics365/finance/general-ledger/intercompany-accounting-setup) page.
+1. **Configure intercompany accounting between legal entities**. Each pair of borrowing and lending legal entities must be configured on the General ledger [Intercompany accounting](/dynamics365/finance/general-ledger/intercompany-accounting-setup) page.
     
     1. In Dynamics 365 Finance, go to **General Ledger** > **Posting setup** > **Intercompany accounting**. Create a record with the following information:
 
