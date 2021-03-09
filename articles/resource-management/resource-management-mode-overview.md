@@ -24,11 +24,11 @@ For organizations who centralize the allocation for resources to projects, the C
 
 To manage resources with the Central mode, see:
 
-- [Assign generic bookable resources to a task and generate resource requirements](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Book named resources from resource requirements](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Submit a resource request](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Fulfill a resource request](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Accept or reject a proposed project resource from a resource request](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Assign generic bookable resources to a task and generate resource requirements](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Book named resources from resource requirements](/dynamics365/project-service/book-named-resource)
+- [Submit a resource request](/dynamics365/project-service/submit-resource-request)
+- [Fulfill a resource request](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Accept or reject a proposed project resource from a resource request](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## Hybrid mode
 For organizations who require flexibility in the allocation of resources, the hybrid mode enables both Project managers and Resource managers the ability to book resources.
@@ -38,11 +38,11 @@ For organizations who require flexibility in the allocation of resources, the hy
 In addition to the supported Central mode process, see the following topics to manage all other supported booking flows in the Hybrid mode:
 
 Book a resource directly to a project:
-- [Book named bookable resources to a project team and assign tasks](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Book named bookable resources to a project team and assign tasks](/dynamics365/project-service/assign-named-bookable-resource)
 
 Book a resource from a resource requirement:
-- [Assign generic bookable resources to a task and generate resource requirements](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Book named resources from resource requirements](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Assign generic bookable resources to a task and generate resource requirements](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Book named resources from resource requirements](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
