@@ -830,6 +830,8 @@
     href: https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
   - name: Project invoicing
     href: https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing
+  - name: Project invoice proposal performance
+    href: prod-pma/project-invoice-proposal-performance.md
   - name: Project contracts
     href: prod-pma/project-contracts.md
   - name: Create advanced contracts for billing based on progress
