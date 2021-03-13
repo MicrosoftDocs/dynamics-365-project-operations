@@ -51,7 +51,7 @@ The lite deployment includes the following capabilities:
 - Unified resource management
 - Time tracking
 - Basic expense
-- Proforma and customer-facing invoicing 
+- Proforma invoicing for Project Manager's review and edits 
 
 #### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
@@ -89,7 +89,7 @@ For this deployment, see [Sign-up for preview subscriptions](resource-sign-up-pr
 - Full Invoicing
 - Revenue Recognition
 - Production Orders
-- Materials support
+- Stocked Materials support with inventory
 
 #### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
