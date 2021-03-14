@@ -23,7 +23,7 @@ ms.search.scope:
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.search.industry: Service industries
+ms.search.industry: Professional Service industries
 ms.author: rumant
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
@@ -53,6 +53,6 @@ When you need to remove old or unused Price Lists from Project Operations, follo
      From here, select the Price List that you wish to delete and click on the **Delete** button from the ribbon. If this Price List was already referenced on any transactions in the past, you will not be able to delete the Price List. In that case, you can choose to deactivate it so it does not appear in any views. To deactivate it, select Price List and click on **Deactivate** from the page ribbon.  
 
 >[!NOTE]
-> You will need to perform both of the steps mentioned above for Project Operations to not use a Price List. Only performing the Step 2 of directly deleting or deactivating the Price List from the Active Price Lists view will not be sufficient. You must also delete the association of this Price List from all the places metnioned in Step1. 
+> You will need to perform both of the steps mentioned above for Project Operations to not use a Price List. Only performing the Step 2 of directly deleting or deactivating the Price List from the Active Price Lists view will not be sufficient. You must also delete the association of this Price List from all the places mentioned in Step1. 
  
  
