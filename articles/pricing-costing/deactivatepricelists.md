@@ -30,6 +30,9 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Deactivate Price Lists 
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 When you need to remove old or unused Price Lists from Project Operations, follow the steps below:
 1. **Remove or delete the price list from the following places:**
 
