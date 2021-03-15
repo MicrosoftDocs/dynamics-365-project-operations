@@ -78,7 +78,7 @@
       items:
       - name: Manage project quotes overview
         href: pro/sales/manage-quotes-sales.md
-      - name: Concepts unique to Project-based quotes 
+      - name: Concepts unique to project-based quotes 
         href: sales/quotes-key-concepts.md
       - name: Header details for project-based quotes
         href: sales/quote-values-budget-limits-contract.md
@@ -108,7 +108,7 @@
       items:
       - name: Manage project contracts overview
         href: pro/sales/manage-contracts-sales.md
-      - name: Concepts unique to Project-based Contracts
+      - name: Concepts unique to project-based contracts
         href: sales/contracts-key-concepts.md
       - name: Header details for project-based opportunities
         href: sales/project-contract-settings.md
