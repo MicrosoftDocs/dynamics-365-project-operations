@@ -64,7 +64,7 @@
       items:
       - name: Manage project opportunities overview
         href: sales/manage-project-based-opportunities.md
-      - name: Information on Project-based Opportunity
+      - name: Header details for project-based opportunities
         href: sales/opportunity-header.md
       - name: Project-based opportunity lines
         href: sales/project-based-lines.md
@@ -78,9 +78,9 @@
       items:
       - name: Manage project quotes overview
         href: pro/sales/manage-quotes-sales.md
-      - name: Business concepts unique to Project-based quotes 
+      - name: Concepts unique to Project-based quotes 
         href: sales/quotes-key-concepts.md
-      - name: Information on Project-based Quote
+      - name: Header details for project-based quotes
         href: sales/quote-values-budget-limits-contract.md
       - name: Manage multiple customers on a project quote
         href: sales/manage-multiple-customers-quote.md
@@ -108,9 +108,9 @@
       items:
       - name: Manage project contracts overview
         href: pro/sales/manage-contracts-sales.md
-      - name: Business concepts unique to Project-based Contracts
+      - name: Concepts unique to Project-based Contracts
         href: sales/contracts-key-concepts.md
-      - name: Information on Project-based Contract
+      - name: Header details for project-based opportunities
         href: sales/project-contract-settings.md
       - name: Manage project price lists on project contracts
         href: sales/contracts-manage-project-price-lists.md
@@ -486,7 +486,7 @@
       items: 
       - name: Project opportunities overview
         href: sales/manage-project-based-opportunities.md
-      - name: Information on a Project-based Opportunity
+      - name: Header details for project opportunities
         href: pro/sales/opportunity-header-sales.md
       - name: Manage product-based opportunity lines
         href: pro/sales/product-based-lines-sales.md
@@ -502,9 +502,9 @@
       items:
       - name: Project-based quotes overview
         href: pro/sales/manage-quotes-sales.md
-      - name: Business concepts unique to Project quotes
+      - name: Concepts unique to Project quotes
         href: pro/sales/quotes-key-concepts-sales.md
-      - name: Information on a Project-based Quote
+      - name: Header details for project quotes
         href: pro/sales/quote-values-budget-limits-contract-sales.md
       - name: Multiple customers on project quotes
         href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +542,9 @@
       items: 
       - name: Project-based contracts overview
         href: pro/sales/manage-contracts-sales.md
-      - name: Business concepts unique to Project Contracts
+      - name: Concepts unique to Project Contracts
         href: pro/sales/contracts-key-concepts-sales.md
-      - name: Information on a Project-based Contract
+      - name: Header details for project contracts
         href: pro/sales/project-contract-settings-sales.md
       - name: Multiple customers on project contracts
         href: pro/sales/manage-multiple-customers-contract-sales.md
