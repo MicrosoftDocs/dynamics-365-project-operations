@@ -502,7 +502,7 @@
       items:
       - name: Project-based quotes overview
         href: pro/sales/manage-quotes-sales.md
-      - name: Concepts unique to Project quotes
+      - name: Concepts unique to project quotes
         href: pro/sales/quotes-key-concepts-sales.md
       - name: Header details for project quotes
         href: pro/sales/quote-values-budget-limits-contract-sales.md
@@ -542,7 +542,7 @@
       items: 
       - name: Project-based contracts overview
         href: pro/sales/manage-contracts-sales.md
-      - name: Concepts unique to Project Contracts
+      - name: Concepts unique to project contracts
         href: pro/sales/contracts-key-concepts-sales.md
       - name: Header details for project contracts
         href: pro/sales/project-contract-settings-sales.md
