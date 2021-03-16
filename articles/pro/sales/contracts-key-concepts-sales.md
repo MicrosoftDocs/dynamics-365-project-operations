@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project contracts - Key concepts - lite
+# Concepts unique to Project Contracts
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
