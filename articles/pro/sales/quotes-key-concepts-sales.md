@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Quotes - Key concepts - lite
+# Concepts unique to Project quotes
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

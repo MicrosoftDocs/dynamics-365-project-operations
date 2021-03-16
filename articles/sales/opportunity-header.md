@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Opportunity settings
+# Header details for project-based opportunities
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

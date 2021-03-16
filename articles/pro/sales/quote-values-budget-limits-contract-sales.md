@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Summary information on a project quote - lite
+# Header details for project quotes
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

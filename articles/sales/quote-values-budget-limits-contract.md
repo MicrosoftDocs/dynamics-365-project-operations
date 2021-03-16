@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project quote settings
+# Header details for project-based quotes
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
