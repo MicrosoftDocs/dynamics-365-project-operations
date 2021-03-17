@@ -26,7 +26,7 @@ The **first 2 factors** influence the unit cost or bill rate of a resource's ass
 In addition to the attributes of the resource, attributes of work ie. the task also influence the unit bill rate or cost rate of the assignment. Examples could be say, Complexity of work where certain tasks are more complex and so that same resource's assignment on such a task has a higher unit cost or bill rate than on another task that is not as complex.   
 
 The **third factor** provides the quantity of hours at that rate. In some cases where a task is crossing 2 price periods, it is likely that the first part of the resource assignment for that task is costed and priced differently using a different price list than the 2nd portion of the task. The effort estimate on each resource assignment is a complex value stored with the day wise distribution of effort per day. 
-For detailed instructions on how to setup custom attributes of work and resources as pricing/costing dimensions, please follow the topics in  [Pricing Dimensions overview](../pricing-costing/pricing-dimensions-overview.md)
+> [!Note]For detailed instructions on how to setup custom attributes of work and resources as pricing/costing dimensions, please follow the topics in  [Pricing Dimensions overview](../pricing-costing/pricing-dimensions-overview.md)
 
 The financial estimate on each resource assignments are calculated as **rate/hr for the assignment multiplied by the number of hours.**  Similar to effort estimate, the finacial estimate for cost and revenue for each resource assignment is a complex value stored with the day wise distribution of monetary amount per day. 
 A financial estimate for time on the leaf node task is a sum of the financial estimates on all resources assignments on that task
