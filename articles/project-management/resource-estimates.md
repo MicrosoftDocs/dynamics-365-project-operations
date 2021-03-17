@@ -1,16 +1,16 @@
 ---
-title: Resource estimates
-description: This topic provides information about how resource estimates are calculated in Project Operations.
-author: ruhercul
+title: Time or Labor estimates
+description: This topic provides information about how Time or Labor estimates are calculated in Project Operations.
+author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
-ms.author: ruhercul
+ms.author: rumant
 ---
 
-# Resource estimates
+# Time or Labor estimates
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
