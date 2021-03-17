@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project contracts - Key concepts
+# Concepts unique to Project-based Contracts
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project contract settings
+# Header details for project-based contracts
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
