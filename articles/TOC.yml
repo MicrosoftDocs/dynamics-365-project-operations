@@ -222,9 +222,9 @@
       items: 
       - name: Overview of financial estimation on projects
         href: project-management/estimating-projects-overview.md
-      - name: Time or Labor estimates
+      - name: Financial estimates for resource time on projects
         href: project-management/resource-estimates.md
-      - name: Expense estimates
+      - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
@@ -668,9 +668,9 @@
       items: 
       - name: Overview of financial estimation on projects
         href: project-management/estimating-projects-overview.md
-      - name: Time or Labor estimates
+      - name: Financial estimates for resource time on projects
         href: project-management/resource-estimates.md
-      - name: Expense estimates
+      - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
