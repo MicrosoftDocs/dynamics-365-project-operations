@@ -36,12 +36,10 @@ A financial estimate for time on a summary or parent task is the sum of the fina
 
 ## Default cost price and cost currency
 
-Cost prices are defaulted from the price list attached to the Contracting Unit on the project. The currency of the Project is always the currency of the Contracting Unit of the Project. On the resource assignment, the financial estimate for cost is stored in the currency of the project. Sometimes, it is possible that the currency in which the cost rates is setup in the price list is different from the project's currency. In these cases, the application converts the currency in which the cost price is setup to the currency of the Project. And all cost estimates are always displayed and summarized in the Project's currency. 
+Cost prices are defaulted from the price list(s) attached to the Contracting Unit of the project. **Cost** currency of a Project is always the currency of the Contracting Unit of the Project. On a resource assignment, financial estimate for cost is stored in the **Cost** currency of the project. Sometimes, it is possible that the currency in which the cost rate is setup in the price list is different from the project's **cost** currency. In these cases, the application converts the currency in which the cost price is setup to the currency of the Project. On the **Estimates** grid, all cost estimates are displayed and summarized in the Project's **cost** currency. 
 
 ## Default bill rate and sales currency
 
-Sales prices are defaulted from the project price list attached to the related Prject Contract if the deal is won or from the related Project Quote of the deal is still in pre-sales stage. The **Sales** currency of the Project is always the currency of the Project Quote or the Project Contract. On the resource assignment, the financial estimate for sales is stored in the **Sales** currency of the project. Unlike cost, sales price setup in the price list can never be different from the project contract's currency. So there is no scenario where currency conversion is needed. All **sales** estimates for time on a Project are always displayed and summarized in the Project Contract's currency. 
-
-
+Sales prices are defaulted from the project price list(s) attached to the related Project Contract if the deal is won or from the related Project Quote of the deal is still in pre-sales stage.  **Sales** currency of the Project is always the currency of the Project Quote or the Project Contract. On a resource assignment, financial estimate for sales is stored in the **Sales** currency of the project. Unlike cost, sales price setup in the price list can never be different from the project's **sales** currency. So there is no scenario where currency conversion is needed. On the **Estimates** grid, all sales estimates are displayed and summarized in the Project's **sales** currency. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
