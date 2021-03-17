@@ -15,8 +15,11 @@ ms.author: rumant
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Financial estimates for time are calculated based on 
+
 a. Type of generic or named Team member assigned to each leaf node task (a task in the project plan that is at the lowest granularity ie. does not have any child tasks) on the project plan. 
+
 b. The type or complexity of work
+
 c. The spread of effort for that resource's assignment on the task 
 
 The **first 2 factors** influence the unit cost or bill rate of a resource's assignment. Unit cost or bill rate of a resource assignment is determined by the attributes of the resource assigned such as the Oraganizational unit to which the resource belongs and the standard role of the resource. You can also add custom attributes relevant to your business for the resource like say, Standard title or Experience level etc and have them to influence the unit cost/ bill rate of the assignment.
