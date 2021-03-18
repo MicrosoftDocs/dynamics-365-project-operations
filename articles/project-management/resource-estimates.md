@@ -22,8 +22,8 @@ b. The type or complexity of work
 
 c. The spread of effort for that resource's assignment on the task 
 
-The **first 2 factors** influence the unit cost or bill rate of a resource's assignment. Unit cost or bill rate of a resource assignment is determined by the attributes of the resource assigned such as the Oraganizational unit to which the resource belongs and the standard role of the resource. You can also add custom attributes relevant to your business for the resource like say, Standard title or Experience level etc and have them to influence the unit cost/ bill rate of the assignment.
-In addition to the attributes of the resource, attributes of work ie. the task also influence the unit bill rate or cost rate of the assignment. Examples could be say, Complexity of work where certain tasks are more complex and so that same resource's assignment on such a task has a higher unit cost or bill rate than on another task that is not as complex.   
+The **first 2 factors** influence the unit cost or bill rate of a resource's assignment. Unit cost or bill rate of a resource assignment is determined by the attributes of the resource assigned such as the Organizational unit to which the resource belongs and the standard role of the resource. You can also add custom attributes relevant to your business for the resource like Standard title or Experience level etc. and have them influence the unit cost/ bill rate of the assignment.
+In addition to the attributes of the resource, attributes of work i.e. the task, can also influence the unit bill rate or cost rate of the assignment. Examples could be  complexity of work where certain tasks are more complex and so that same resource's assignment on such a task has a higher unit cost or bill rate than on another task that is not as complex.   
 
 The **third factor** provides the quantity of hours at that rate. In some cases where a task is crossing 2 price periods, it is likely that the first part of the resource assignment for that task is costed and priced differently using a different price list than the 2nd portion of the task. The effort estimate on each resource assignment is a complex value stored with the day wise distribution of effort per day. 
 
@@ -32,7 +32,7 @@ The **third factor** provides the quantity of hours at that rate. In some cases 
 The financial estimate on each resource assignment is calculated as **rate/hr for the assignment multiplied by the number of hours.**  Similar to effort estimate, the financial estimate for cost and revenue for each resource assignment is a complex value stored with the day wise distribution of monetary amount per day. 
 
 ## Summarization of financial estimates for time
-A financial estimate for time on the leaf node task is a sum of the financial estimates on all resources assignments on that task
+A financial estimate for time on the leaf node task is a sum of the financial estimates on all resource assignments on that task
 A financial estimate for time on a summary or parent task is the sum of the financial estimates on all of its child tasks. This in turn, adds up the estimated labor cost on the project. 
 
 ![Resource Estimates](./media/navigation12.png)
