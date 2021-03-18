@@ -21,8 +21,6 @@ Complete the following steps to view, add, or delete a project expense.
 2. Select the **Project Estimates** tab and view the list of project expenses.
 3. Select **New Expense** to add an expense. Or, select an expense to delete, and then select **Delete Expense**.
 
-The following attributes are defined for each expense line item:
-
 The following table provides information about the fields on the **Expense Estimate line** on a Project. 
 
 | **Field** | **Relevance, purpose and guidance** | **Downstream impact** |
