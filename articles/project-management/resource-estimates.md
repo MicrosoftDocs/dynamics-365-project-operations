@@ -1,9 +1,9 @@
 ---
 title: Financial estimates for resource time on projects
-description: This topic provides information about how financial estimates for time are calculated in Project Operations.
+description: This topic provides information about how financial estimates for time are calculated.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -14,35 +14,33 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Financial estimates for time are calculated based on 
+Financial estimates for time are calculated based on three factors: 
 
-a. Type of generic or named Team member assigned to each leaf node task (a task in the project plan that is at the lowest granularity ie. does not have any child tasks) on the project plan. 
+- The type of generic or named team member assigned to each leaf node task on the project plan. 
+- The type or complexity of work.
+- The spread of effort for the resource's assignment on the task. 
 
-b. The type or complexity of work
+The first two factors influence the unit cost or bill rate of a resource's assignment. The unit cost or bill rate of a resource assignment is determined by the attributes of the resource assigned. These attributes include the organizational unit to which the resource belongs and the standard role of the resource. You can also add custom attributes relevant to your business for the resource, like standard title or experience level, and have them influence the unit cost or bill rate of the assignment.
+In addition to the attributes of the resource, attributes of work, such as the task, can also influence the unit bill rate or cost rate of the assignment. For example, when certain tasks are more complex, the resource's assignment to those specific tasks result in a higher unit cost or bill rate than tasks that are less complex.   
 
-c. The spread of effort for that resource's assignment on the task 
+The third factor provides the quantity of hours at that rate. In cases where a task covers two price periods, it is likely that the first part of the resource assignment for that task is costed and priced differently than the second portion of the task. The effort estimate on each resource assignment is a complex value stored with the dayily distribution of effort per day. 
 
-The **first 2 factors** influence the unit cost or bill rate of a resource's assignment. Unit cost or bill rate of a resource assignment is determined by the attributes of the resource assigned such as the Organizational unit to which the resource belongs and the standard role of the resource. You can also add custom attributes relevant to your business for the resource like Standard title or Experience level etc. and have them influence the unit cost/ bill rate of the assignment.
-In addition to the attributes of the resource, attributes of work i.e. the task, can also influence the unit bill rate or cost rate of the assignment. Examples could be  complexity of work where certain tasks are more complex and so that same resource's assignment on such a task has a higher unit cost or bill rate than on another task that is not as complex.   
+For detailed instructions on how to set up custom attributes of work and resources as pricing and costing dimensions, see [Pricing Dimensions overview](../pricing-costing/pricing-dimensions-overview.md)
 
-The **third factor** provides the quantity of hours at that rate. In some cases where a task is crossing 2 price periods, it is likely that the first part of the resource assignment for that task is costed and priced differently using a different price list than the 2nd portion of the task. The effort estimate on each resource assignment is a complex value stored with the day wise distribution of effort per day. 
+The financial estimate on each resource assignment is calculated as **rate/hr for the assignment multiplied by the number of hours.**  Similar to the effort estimate, the financial estimate for cost and revenue for each resource assignment is a complex value stored with the daily distribution of monetary amount per day. 
 
-> [!Note]For detailed instructions on how to setup custom attributes of work and resources as pricing/costing dimensions, please follow the topics in  [Pricing Dimensions overview](../pricing-costing/pricing-dimensions-overview.md)
-
-The financial estimate on each resource assignment is calculated as **rate/hr for the assignment multiplied by the number of hours.**  Similar to effort estimate, the financial estimate for cost and revenue for each resource assignment is a complex value stored with the day wise distribution of monetary amount per day. 
-
-## Summarization of financial estimates for time
-A financial estimate for time on the leaf node task is a sum of the financial estimates on all resource assignments on that task
-A financial estimate for time on a summary or parent task is the sum of the financial estimates on all of its child tasks. This in turn, adds up the estimated labor cost on the project. 
+## Summarizing financial estimates for time
+A financial estimate for time on a leaf node task, is the sum of the financial estimates on all resource assignments for that task.
+A financial estimate for time on a summary or parent task, is the sum of the financial estimates on all of its child tasks. This is the estimated labor cost on the project. 
 
 ![Resource Estimates](./media/navigation12.png)
 
 ## Default cost price and cost currency
 
-Cost prices are defaulted from the price list(s) attached to the Contracting Unit of the project. **Cost** currency of a Project is always the currency of the Contracting Unit of the Project. On a resource assignment, financial estimate for cost is stored in the **Cost** currency of the project. Sometimes, it is possible that the currency in which the cost rate is setup in the price list is different from the project's **cost** currency. In these cases, the application converts the currency in which the cost price is setup to the currency of the Project. On the **Estimates** grid, all cost estimates are displayed and summarized in the Project's **cost** currency. 
+Cost prices default from the price lists attached to the contracting unit of the project. The cost currency of a project is always the currency of the contracting unit of the project. On a resource assignment, the financial estimate for cost is stored in the cost currency of the project. Sometimes, the currency in which the cost rate is setup in the price list is different from the project's cost currency. In these cases, the application converts the currency in which the cost price is setup to the currency of the project. On the **Estimates** grid, all cost estimates are displayed and summarized in the project's cost currency. 
 
 ## Default bill rate and sales currency
 
-Sales prices are defaulted from the project price list(s) attached to the related Project Contract if the deal is won or from the related Project Quote of the deal is still in pre-sales stage.  **Sales** currency of the Project is always the currency of the Project Quote or the Project Contract. On a resource assignment, financial estimate for sales is stored in the **Sales** currency of the project. Unlike cost, sales price setup in the price list can never be different from the project's **sales** currency. So there is no scenario where currency conversion is needed. On the **Estimates** grid, all sales estimates are displayed and summarized in the Project's **sales** currency. 
+Sales prices default from the project price lists attached to the related project contract if the deal is won, or from the related project quote if the deal is still in the pre-sales stage. The sales currency of the project is always the currency of the project quote or the project contract. On a resource assignment, the financial estimate for sales is stored in the sales currency of the project. Unlike cost, sales price setup in the price list can never be different from the project's sales currency. There is no scenario where currency conversion is needed. On the **Estimates** grid, all sales estimates are displayed and summarized in the project's sales currency. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
