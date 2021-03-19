@@ -20,9 +20,9 @@ In Dynamics 365 Project Operations, you can financially estimate your projects i
 2. During the execution stage after the project contract is created. 
 
 You can create a financial estimate for project-based work using any of the following 3 pages:
-- The **Quote line** page, using the quote line details  
-- The **Project contract line** page, using the contract line details 
-- The **Project** page, using the **Tasks**  or **Expense Estimates** tab pages
+- The **Quote line** page, using the quote line details.  
+- The **Project contract line** page, using the contract line details. 
+- The **Project** page, using the **Tasks**  or **Expense Estimates** tab pages.
 
 ## Use a project quote to create an estimate
 On a project-based quote, you can use the **Quote line detail** entity to estimate the work that is required to deliver a project. You can then share that estimate with the customer.
@@ -49,7 +49,7 @@ Time estimates are generated when you create a task and identify the attributes 
 
 Expense estimates are entered in the grid on the **Expense Estimates** page.
 
-Creating an estimate for a project is considered a best practice because you can build bottom-up detailed estimates for labor or time and expenses on each task in the project plan. You can then use this detailed estimate to create estimates for each quote line and build a more credible quote for the customer. When you import or create a detailed estimate on the each quote line using the project plan, Project Operations imports the sales values and the cost values of these estimates. After import, you can view the profitability, margins, and feasibility metrics on the project quote.
+Creating an estimate for a project is considered a best practice because you can build bottom-up detailed estimates for labor or time and expenses on each task in the project plan. You can then use this detailed estimate to create estimates for each quote line and build a more credible quote for the customer. When you import or create a detailed estimate on the quote line using the project plan, Project Operations imports the sales values and the cost values of these estimates. After import, you can view the profitability, margins, and feasibility metrics on the project quote.
 
 ## Understanding estimates
 
