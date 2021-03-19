@@ -3,7 +3,7 @@ title: Financial estimates for expenses on projects
 description: This topic provides information about defining or estimating project-based expenses.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -13,7 +13,7 @@ ms.author: rumant
 # Financial estimates for expenses on projects
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Dynamics 365 Project Operations allows Project managers to define project-based expenses for each project or a task. Each expense item can be associated with a specific project task. Expenses are categorized into different Expense categories which are defined at the organizational level. Pricing and costing for each expense category is defined in the price list. 
+Dynamics 365 Project Operations allows Project managers to define project-based expenses for each project or a task. Each expense item can be associated with a specific project task. Expenses are categorized into different expense categories, which are defined at the organizational level. Pricing and costing for each expense category is defined in the price list. 
 
 Complete the following steps to view, add, or delete a project expense.
 
@@ -23,18 +23,18 @@ Complete the following steps to view, add, or delete a project expense.
 
 The following table provides information about the fields on the **Expense Estimate line** on a Project. 
 
-| **Field** | **Relevance, purpose and guidance** | **Downstream impact** |
+| **Field** | **Description** | **Downstream impact** |
 | --- | --- | --- |
-| Task | Shows a list of tasks in the project. This includes Summary and leaf node tasks | Selecting a task for an expense estimate line will impact the Estimated Expense Cost and Estimated Expense Sales at the Task levelLeaving the Task field empty, will result in the expense estimate to be tracked and summarized only at the project level |
-| Category | Shows a list of transaction categories that have linked Expense categories in the application. | Selecting a category drives pricing and costing on the expense estimate line |
-| Start date | User should enter the date that they forecast to incur the expense. | |
-| Unit group | This is defaulted to the Unit Group that is setup as default on the selected Category.User may also change the selection to pick any other unit group | |
-| Unit | This is defaulted to the Unit that is setup as default on the selected Category.User may also change the selection to pick any other unit. | Changing the unit will result in a different unit price and cost to get defaulted. |
-| Quantity | Quantity of the expense that the user is estimating to incur | |
-| Unit Cost | Cost of the selected category and unit combination as setup in the applicable cost price list | Unit Cost is always shown in the Project&#39;s cost currency |
-| Unit Price | Price of the selected category and unit combination as setup in the applicable sales price list | Unit Price is always shown in the Project&#39;s sales currency |
-| Total Cost | Cost Amount calculated as Quantity \* Unit Cost | Cost Amount is always shown in the Project&#39;s cost currency |
-| Total Sales | Sales Amount calculated as Quantity \* Unit Price | Sales Amount is always shown in the Project&#39;s sales currency |
+| Task | A list of tasks in the project. This includes summary and leaf node tasks. | Selecting a task for an expense estimate line will impact the estimated expense cost and estimated expense sales for a task. If this field is left empty, the expense estimate is tracked and summarized only at the project level. |
+| Category | A list of transaction categories that have linked expense categories in the application. | Selecting a category drives pricing and costing on the expense estimate line. |
+| Start date | The forecasted date on which the expense will occur. | There is no downstream impact for this field. |
+| Unit group | The value in this field defaults from the unit group that's setup as default on the selected category. You can update this field to select another unit group. | There is no downstream impact for this field. |
+| Unit | The value in this field defaults to the default unit of the selected category. You can update this field to select another unit. | Changing the unit results in a different default unit price and cost. |
+| Quantity | The quantity of the estimated expense you will incur. | There is no downstream impact for this field. |
+| Unit Cost | The cost of the selected category and unit combination as setup in the applicable cost price list | The unit cost is always shown in the project's cost currency. |
+| Unit Price | The price of the selected category and unit combination as setup in the applicable sales price list. | The unit price is always shown in the project's sales currency. |
+| Total Cost | The cost amount calculated as quantity \* unit cost.| The cost amount is always shown in the project's cost currency. |
+| Total Sales | The sales amount which is calculated as quantity \* unit price. | The sales amount is always shown in the project's sales currency. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
