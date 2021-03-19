@@ -228,8 +228,12 @@
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
-      - name: Project tracking overview
+      - name: Project Effort Tracking 
         href: project-management/project-tracking-overview.md
+      - name: Project Cost Tracking 
+        href: project-management/project-tracking-overview.md  
+      - name: Project Sales Tracking 
+        href: project-management/project-tracking-overview.md  
       - name: Update estimate at completion
         href: project-management/update-completed-estimate.md
     - name: Project team members
@@ -672,10 +676,14 @@
         href: project-management/resource-estimates.md
       - name: Create expense estimates
         href: project-management/create-expense-estimates.md
-    - name: Project tracking
+   - name: Project tracking
       items: 
-      - name: Project tracking overview
+      - name: Project Effort Tracking 
         href: project-management/project-tracking-overview.md
+      - name: Project Cost Tracking 
+        href: project-management/project-tracking-overview.md  
+      - name: Project Sales Tracking 
+        href: project-management/project-tracking-overview.md  
       - name: Update estimate at completion
         href: project-management/update-completed-estimate.md
     - name: Project team members
