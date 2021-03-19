@@ -1,11 +1,11 @@
 ---
 # required metadata
 
-title: Deactivate Price Lists 
-description: This topic provides information about how to deactivate or remove unsused or old price lists from Project Operations.
+title: Deactivate price pists 
+description: This topic explains how to deactivate or remove unsused or old price lists.
 author: rumant
 manager: AnnBe
-ms.date: 03/14/2021
+ms.date: 03/19/2021
 ms.topic: article
 ms.prod: 
 ms.service: project-operations
@@ -29,33 +29,31 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Deactivate Price Lists 
+# Deactivate price lists 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-When you need to remove old or unused Price Lists from Project Operations, follow the steps below:
-1. **Remove or delete the price list from the following places:**
+To remove old or unused price lists from Dynamics 365 Project Operations, there are two steps you must complete. 
 
-      a. Price Lists tab on Project parameters 
+- Remove or delete the price list from specific pages.
+- Deactivate or delete the price list from the Active price lists on the **Price Lists** page.
 
-      b. Price Lists grid on Organizational Unit
+>[!IMPORTANT]
+> You must complete both steps to fully remove a price list. Only performing the Step 2 of directly deleting or deactivating the Price List from the Active Price Lists view will not be sufficient. You must also delete the association of this Price List from all the places mentioned in Step1. 
 
-      c. Project Price Lists grid on Account 
+## Delete the price list from specific pages
+1. To delete a price list from Project Operations, navigate to the folloiwng pages:  
 
-      d. Project Price Lists grid on all active Project Quotes in the system
+      - **Project parameters** page > **Price Lists** tab
+      - **Organizational Unit** page > **Price Lists** grid
+      - **Account** page > **Project Price Lists** grid
+      - **Project Quotes** page > **Project Price Lists** grid: This applies to all active project quotes
+      - **Project Contracts** page > **Project Price Lists** grid: This applies to all active project contracts
 
-      e. Project Price Lists grid on all active PRoject Contracts in the system
-  
-      To remove a Price List from any of these places, you will need to navigate to the subgrid mentioned above, select the Price List that you wish to remove from the subgrid and click on **Delete** from the Sub-grid menu. 
-      This will ensure that Project Operations pricing will not retrieve this Price List in any Search for pricing or costing 
+ 2. For each page that you navigate to, select the price list that you want to delete, and then select **Delete**. 
  
- 2. **Deactivate or delete this Price List from the Active Price Lists**
+## Delete or deactivate the price list from the Price Lists page
  
-     For deactivating or deleting a Price List from the Active Price Lists, select **Sales** area in the Project Operations Left Navigation menu. Then in **Customers** section of the Sales area, select the Navigation item **Price Lists**. This will show you a list of all active price lists in the system.
- 
-     From here, select the Price List that you wish to delete and click on the **Delete** button from the ribbon. If this Price List was already referenced on any transactions in the past, you will not be able to delete the Price List. In that case, you can choose to deactivate it so it does not appear in any views. To deactivate it, select Price List and click on **Deactivate** from the page ribbon.  
-
->[!NOTE]
-> You will need to perform both of the steps mentioned above for Project Operations to not use a Price List. Only performing the Step 2 of directly deleting or deactivating the Price List from the Active Price Lists view will not be sufficient. You must also delete the association of this Price List from all the places mentioned in Step1. 
- 
- 
+1. To delete a price list from the active price lists, go to **Sales** > **Customers** > **Price Lists**. 
+2. Select the price list that you want to delete and then select **Delete**. If the price list is referenced on any existing transactions, you won't be able to delete it. If this happens, you can deactivate deactivate the price list so that it doesn't appear in any views. 
+3. To deactivate the price list, select select the price list again, and then select **Deactivate**.   
