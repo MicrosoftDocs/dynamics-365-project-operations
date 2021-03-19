@@ -1,37 +1,37 @@
 ---
 # required metadata
-title: Overview of financial estimation on projects
-description: This topic provides information about financial estimation of projects in Dynamics 365 Project Operations. 
+title: Overview of financial estimates on projects
+description: This topic provides information about financial estimates of projects in Dynamics 365 Project Operations. 
 author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/19/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Overview of financial estimation on projects
+# Overview of financial estimates on projects
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Project Operations allows for financially estimating your projects in 2 stages:
-1. During the Pre-sales stage before the deal is won 
-2. During the execution stage once the Project Contract is created. 
+In Dynamics 365 Project Operations, you can financially estimate your projects in two stages: 
+1. During the pre-sales stage before the deal is won. 
+2. During the execution stage after the project contract is created. 
 
-Creating a financial estimate for project-based work can be done using any of the following 3 pages
-1. On each Quote line page, using the Quote line details  
-2. On each Project contract line page, using the Contract line details 
-3. On the Project, using the Tasks  or the Expense Estimates tab pages
+You can create a financial estimate for project-based work using any of the following 3 pages:
+- The **Quote line** page, using the quote line details  
+- The **Project contract line** page, using the contract line details 
+- The **Project** page, using the **Tasks**  or **Expense Estimates** tab pages
 
-## Estimation using a Project Quote 
+## Use a project quote to create an estimate
 On a project-based quote, you can use the **Quote line detail** entity to estimate the work that is required to deliver a project. You can then share that estimate with the customer.
 
 Project-based quote lines can have zero to many quote line details. Quote line details are used to estimate time, expenses, or fees. Microsoft Dynamics 365 Project Operations doesn't allow for material estimates on quote line details. These are called transaction classes. Estimated tax amounts can also be entered on a transaction class.
 
 In addition to transaction classes, quote line details have a transaction type. Two transaction types are supported for quote line details: **Cost** and **Project Contract**.
 
-## Estimation using a Project contract
+## Use a project contract to create an estimate
 
 If you used a quote when you created a project-based contract, the estimate that you did for each quote line on the quote is copied to the project contract. The structure of a project contract is like the structure of project quote that has lines, line details, and invoice schedules.
 
@@ -41,19 +41,19 @@ Contract line details can be used to estimate time, expenses, or fees. Estimated
 
 Material estimates are not allowed on contract line details.
 
-## Estimation using a Project 
+## Use a project to create an estimate 
 
-You can estimate time and expenses on projects. Project operations doesn't allow estimates of materials or fees on projects.
+You can estimate time and expenses on projects. Project Operations doesn't support estimates of materials or fees on projects.
 
 Time estimates are generated when you create a task and identify the attributes of a generic resource that is required to perform the task. Time estimates are generated from schedule tasks. Time estimates aren't created if you create generic team members outside the context of the schedule.
 
 Expense estimates are entered in the grid on the **Expense Estimates** page.
 
-Estimating on project is generally recommended as a best practice since you can build a bottom-up detailed estimation for both Labor or Time and Expenses on each Task in the Project plan. This detailed estimation can then be used to create the estimation for each Quote line to help build a more credible Quote for the customer. When you import or create a detailed estimate on the each Quote line using  the Project plan, PRoject Operations not only imports the sales values but also the cost values of these estimates and therefore you will be able see Profitability, margins, feasibility metrics on the Project Quote.
+Creating an estimate for a project is considered a best practice because you can build bottom-up detailed estimates for labor or time and expenses on each task in the project plan. You can then use this detailed estimate to create estimates for each quote line and build a more credible quote for the customer. When you import or create a detailed estimate on the each quote line using the project plan, Project Operations imports the sales values and the cost values of these estimates. After import, you can view the profitability, margins, and feasibility metrics on the project quote.
 
-## Understanding estimation
+## Understanding estimates
 
-Use the following table as a guide for understanding the business logic in the estimation phase.
+Use the following table as a guide for understanding the business logic in the estimate phase.
 
 | Scenario                                                                                                                                                                                                                                                                                                                                          | Entity record                                                                                                                                                                                                       | Transaction Type | Transaction Class | Additional information                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
