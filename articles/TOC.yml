@@ -676,7 +676,7 @@
         href: project-management/resource-estimates.md
       - name: Create expense estimates
         href: project-management/create-expense-estimates.md
-  - name: Project tracking
+    - name: Project tracking
       items: 
       - name: Project Effort Tracking 
         href: project-management/project-tracking-overview.md
