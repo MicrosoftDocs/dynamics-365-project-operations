@@ -35,8 +35,9 @@ The **Tracking** tab on the project has a dropdown called **Tracking**. Use this
 >2. All revenue amounts shown are converted to cost currency of the project. Cost currency of the project is the currency of the contracting unit on the project. 
 >3. For Fixed Price Projects, i.e Projects mapped to a Fixed Price Contract line, revenue numbers on the Labor revenue tracking view are not relevant as unbilled sales actuals are not recorded on approval of time
 >4. It is likely that the Estimated sales values for Time shown on the **Estimate tab** of the Project may not add up to the **Planned Revenue** value on the **Tracking** tab. The source of this discrepancy is due to 2 possible reasons:
->
+>>
 >>Firstly **Estimates tab** shows Estimated Revenue in Sales currency while Tracking tab shows Planned Revenue converted to cost currency.
+>>
 >>Secondly, when converting estimated sales in Contract currency as shown on the **Estimates** tab to Project currency, the conversion could involve 2 steps that that could result in some loss of precision:
 >>
 >>Step 1: Estimated sales amount in contract currency is first converted to base currency (Conversion #1) and 
