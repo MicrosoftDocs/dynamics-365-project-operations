@@ -42,7 +42,7 @@ Each task shows a projection of the cost variance on the task. If the Cost Estim
 ><li>Estimated cost amount in price list currency is first converted to base currency (Conversion #1) and </li>
 ><li>Estimated cost amount in base currency is then converted to project cost currency (Conversion #2). </li>
 ></ol>
->Currency Precision is applied in both steps to result in a **Planned Cost** shown (Tracking tab) that deviates slightly from the **Estimated Cost** shown on the Time - phased views on the **Estimates** tab. 
+>Currency Precision is applied in both steps to result in a **Planned Cost** (shown on Tracking tab) that deviates slightly from the **Estimated Cost** (shown on the Time - phased views on the **Estimates** tab). 
    
 ## Reprojecting costs on leaf node tasks
 
