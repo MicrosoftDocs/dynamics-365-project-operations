@@ -16,7 +16,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Project Operations tracks labor estimates and revenue at the lowest required granularity on the Project Plan. The financial estimate of labor revenue is based on the planned effort and resources, generic or named assigned to each leaf-node task in the Project plan. As the project gets underway and people report time on various tasks of the project, the actual revenue on labor is summarized and then it triggers a calculation of the projections
+Project Operations tracks labor estimates and revenue at the lowest required granularity on the Project Plan. The estimate of labor revenue is based on the planned effort and resources, generic or named assigned to each leaf-node task in the Project plan. As the project gets underway and people report time on various tasks of the project, the actual revenue on labor is summarized and then it triggers a calculation of the projections
 
 ## Labor Revenue Tracking view
 
