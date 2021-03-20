@@ -39,11 +39,10 @@ The **Tracking** tab on the project has a dropdown called **Tracking**. Use this
 ><li>Firstly **Estimates tab** shows Estimated Revenue in Sales currency while Tracking tab shows Planned Revenue converted to cost currency. </li>
 ><li>Secondly, when converting estimated sales in Contract currency as shown on the **Estimates** tab to Project currency, the conversion could involve 2 steps that that could result in some loss of precision: </li>
 ><ol>
-><li>Step 1: Estimated sales amount in contract currency is first converted to base currency (Conversion #1) and </li>
-><li>Step 2: Estimated sales amount in base currency is then converted to project cost currency (Conversion #2). </li>
+><li>Estimated sales amount in contract currency is first converted to base currency (Conversion #1) and </li>
+><li>Estimated sales amount in base currency is then converted to project cost currency (Conversion #2). </li>
 ></ol>
 ></ol>
-
 >Currency Precision is applied in both steps to result in a **Planned Revenue** in project currency (Tracking tab) that deviates slightly from the **Planned Sales** in Contract currency values (Time - phased view on the **Estimates** tab). 
    
 
