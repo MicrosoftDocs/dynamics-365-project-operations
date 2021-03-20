@@ -22,6 +22,8 @@ Project Operations tracks labor estimates and spend at the lowest required granu
 
 The **Tracking** tab on the project has a dropdown called **Tracking**. Use this dropdown to select "Cost". This will open the **Cost tracking view**  and it shows the progress of labor spend on each task in the project plan. It also compares the actual labor cost spent on a task to the task's planned labor cost. Dynamics 365 Project Operations uses the following formulas to calculate labor cost metrics:
 
+- **Planned cost**: Estimated cost of all resource assignments on each leaf node task
+- **Actual Cost**: Sum of all cost actuals for time recorded on the task
 - **Cost consumption percentage**: Actual cost  ÷ Cost Estimate at complete 
 - **Remaining Cost**: Cost Estimate at complete  – Actual cost  
 - **Cost at Complete**: Remaining cost + Actual cost
@@ -30,8 +32,18 @@ The **Tracking** tab on the project has a dropdown called **Tracking**. Use this
 Each task shows a projection of the cost variance on the task. If the Cost Estimate at complete  is more than planned cost, the task is projected to go over budget. If the Cost Estimate at complete is less than the planned cost, the task is projected to finish under budget.
 
 >**Note**
->It is important to note that Project Operations only shows labor costs in the tracking tab. While Materials and Expenses can be estimated and tracked for consumption, these costs are not included in the costs on the Tracking tab of the project. Tracking tab is designed to work only for reprojecting labor costs via re-projection of effort.  
-
+>1. It is important to note that Project Operations only shows labor costs in the tracking tab. While Materials and Expenses can be estimated and tracked for consumption, these costs are not included in the costs shown on the Tracking tab of the project. Tracking tab is designed to work only for reprojecting labor costs via re-projection of effort.    
+>2. All cost amounts shown are converted to Project's cost currency from currency in which the cost rate was expressed on the Cost Price of the project. Cost currency of the project is the currency of the contracting unit on the project. 
+>3. It is likely that the Estimated cost values for Time shown on the **Estimate tab** of the Project may not add up to the **Planned Cost** value on the **Tracking** tab. The source of this discrepancy is due to differences in how Estimated cost is summarized on the **Estimates** grid to how Planned Cost is calculated on the **Tracking** grid:
+><ol>
+><li>Firstly **Estimates tab** calulates Estimated Cost using the currency in which  cost rate was expressed in the price list. Then estimated cost in price list currency is converted to Estimated cost in Project's cost currency. Estimated cost in Project currency is then shown on the UI rounded to 2 decimal places. At no point during this conversion currency presicion is applied. On the tracking tab, the Planned Cost calcuation follows a slightly different calculation order that involves currency precision getting applied in 2 stages: </li>
+><ol>
+><li>Estimated cost amount in price list currency is first converted to base currency (Conversion #1) and </li>
+><li>Estimated cost amount in base currency is then converted to project cost currency (Conversion #2). </li>
+></ol>
+></ol>
+><p>Currency Precision is applied in both steps to result in a **Planned Cost** shown (Tracking tab) that deviates slightly from the **Estimated Cost** shown on the Time - phased views on the **Estimates** tab.</p> 
+   
 ## Reprojecting costs on leaf node tasks
 
 It is not possible to directly reproject labor costs on a leaf node task on the tracking tab. However using the Effort Tracking view, a project manager can reproject the remaining effort on a task. This in turn will cause a recalculation of the remaining cost on the task. Below is a description of this works:
