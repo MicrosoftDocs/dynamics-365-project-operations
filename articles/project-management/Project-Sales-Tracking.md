@@ -22,14 +22,25 @@ Project Operations tracks labor estimates and revenue at the lowest required gra
 
 The **Tracking** tab on the project has a dropdown called **Tracking**. Use this dropdown to select "Cost". This will open the **Cost tracking view**. Then using the dropdown called **Use** pick “Bill Rate”. This will open the **Revenue Tracking** view and it shows the progress of labor revenue on each task in the project plan. It also compares the actual labor revenue spent on a task to the task's planned labor revenue. Dynamics 365 Project Operations uses the following formulas to calculate labor revenue metrics:
 
+- **Planned Revenue**: Estimated sales values of all resource assignments on each leaf node task
+- **Actual Revenue**: Sum of all unbilled sales actuals for time recorded on the task
 - **Billable Revenue%**: Actual revenue  ÷ Revenue Estimate at complete 
 - **Remaining Revenue**: Revenue Estimate at complete – Actual revenue  
 - **Estimated Revenue at Complete**: Remaining revenue + Actual revenue
 - **Revenue variance**: Planned revenue – Estimated Revenue at complete 
 
-Each task shows a projection of the revenue variance on the task. 
+
 >**Note**
->It is important to note that Project Operations only shows labor revenues in the tracking tab. While Materials and Expenses can be estimated and tracked for consumption, these revenues are not included in the revenues on the Tracking tab of the project. Tracking tab is designed to work only for reprojecting labor revenues via re-projection of effort.  
+> 1. It is important to note that Project Operations only shows labor revenues in the tracking tab. While Materials and Expenses can be estimated and tracked for consumption, these revenues are not included in the revenues shown on the Tracking tab of the project. Tracking tab is designed to work only for reprojecting labor revenues via re-projection of effort.  
+>2. All revenue amounts shown are converted to cost currency of the project. Cost currency of the project is the currency of the contracting unit on the project. 
+>3. For Fixed Price Projects, i.e Projects mapped to a Fixed Price Contract line, revenue numbers on the Labor revenue tracking view are not relevant as unbilled sales actuals are not recorded on approval of time
+>4. It is likely that the Estimated sales values shown on the Estimate tab of the Project may not add up to the Planned Revenue field value on the tracking grid. The source of this discrepancy is due to 2 possible reasons
+> a. Firstly **Estimates tab** shows Estimated Revenue in Sales currency while Tracking tab shows Planned Revenue converted to cost currency.
+> b. Secondly, when converting estimated sales in Contract currency as shown on the **Estimates** tab to Project currency, the conversion could involve 2 steps that that could result in some loss of precision:
+>  Step 1: Estimated sales amount in contract currency is first converted to base currency (Conversion #1) and 
+>  Step 2: Estimated sales amount in base currency is then converted to project cost currency (Conversion #2). 
+Currency Precision is applied in both currency conversions to result in a **Planned Revenue** in project currency as shown on the **Tracking tab** that deviates from the Planned Sales values shown in the Time - phased view on the **Estimates** tab. 
+   
 
 ## Reprojecting revenues on leaf node tasks
 
