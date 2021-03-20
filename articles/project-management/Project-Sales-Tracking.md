@@ -34,12 +34,15 @@ The **Tracking** tab on the project has a dropdown called **Tracking**. Use this
 > 1. It is important to note that Project Operations only shows labor revenues in the tracking tab. While Materials and Expenses can be estimated and tracked for consumption, these revenues are not included in the revenues shown on the Tracking tab of the project. Tracking tab is designed to work only for reprojecting labor revenues via re-projection of effort.  
 >2. All revenue amounts shown are converted to cost currency of the project. Cost currency of the project is the currency of the contracting unit on the project. 
 >3. For Fixed Price Projects, i.e Projects mapped to a Fixed Price Contract line, revenue numbers on the Labor revenue tracking view are not relevant as unbilled sales actuals are not recorded on approval of time
->4. It is likely that the Estimated sales values shown on the Estimate tab of the Project may not add up to the Planned Revenue field value on the tracking grid. The source of this discrepancy is due to 2 possible reasons
+>4. It is likely that the Estimated sales values for Time shown on the **Estimate tab** of the Project may not add up to the **Planned Revenue** value on the **Tracking** tab. The source of this discrepancy is due to 2 possible reasons:
+>
 > a. Firstly **Estimates tab** shows Estimated Revenue in Sales currency while Tracking tab shows Planned Revenue converted to cost currency.
 > b. Secondly, when converting estimated sales in Contract currency as shown on the **Estimates** tab to Project currency, the conversion could involve 2 steps that that could result in some loss of precision:
 >  Step 1: Estimated sales amount in contract currency is first converted to base currency (Conversion #1) and 
+>  
 >  Step 2: Estimated sales amount in base currency is then converted to project cost currency (Conversion #2). 
-Currency Precision is applied in both currency conversions to result in a **Planned Revenue** in project currency as shown on the **Tracking tab** that deviates from the Planned Sales values shown in the Time - phased view on the **Estimates** tab. 
+>  
+>Currency Precision is applied in both currency conversions to result in a **Planned Revenue** in project currency as shown on the **Tracking tab** that deviates from the Planned Sales values shown in the Time - phased view on the **Estimates** tab. 
    
 
 ## Reprojecting revenues on leaf node tasks
