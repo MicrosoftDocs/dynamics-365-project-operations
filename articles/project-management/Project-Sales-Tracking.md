@@ -36,14 +36,14 @@ The **Tracking** tab on the project has a dropdown called **Tracking**. Use this
 >3. For Fixed Price Projects, i.e Projects mapped to a Fixed Price Contract line, revenue numbers on the Labor revenue tracking view are not relevant as unbilled sales actuals are not recorded on approval of time
 >4. It is likely that the Estimated sales values for Time shown on the **Estimate tab** of the Project may not add up to the **Planned Revenue** value on the **Tracking** tab. The source of this discrepancy is due to 2 possible reasons:
 >
->Firstly **Estimates tab** shows Estimated Revenue in Sales currency while Tracking tab shows Planned Revenue converted to cost currency.
->Secondly, when converting estimated sales in Contract currency as shown on the **Estimates** tab to Project currency, the conversion could involve 2 steps that that could result in some loss of precision:
-
+>>Firstly **Estimates tab** shows Estimated Revenue in Sales currency while Tracking tab shows Planned Revenue converted to cost currency.
+>>Secondly, when converting estimated sales in Contract currency as shown on the **Estimates** tab to Project currency, the conversion could involve 2 steps that that could result in some loss of precision:
+>>
 >>Step 1: Estimated sales amount in contract currency is first converted to base currency (Conversion #1) and 
 >>  
 >>Step 2: Estimated sales amount in base currency is then converted to project cost currency (Conversion #2). 
->  
->Currency Precision is applied in both currency conversions to result in a **Planned Revenue** in project currency as shown on the **Tracking tab** that deviates from the Planned Sales values shown in the Time - phased view on the **Estimates** tab. 
+>>
+>>Currency Precision is applied in both steps to result in a **Planned Revenue** in project currency (Tracking tab) that deviates slightly from the **Planned Sales** in Contract currency values (Time - phased view on the **Estimates** tab). 
    
 
 ## Reprojecting revenues on leaf node tasks
