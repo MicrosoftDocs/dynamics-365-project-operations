@@ -43,7 +43,7 @@ The **Tracking** tab on the project has a dropdown called **Tracking**. Use this
 ><li>Estimated sales amount in base currency is then converted to project cost currency (Conversion #2). </li>
 ></ol>
 ></ol>
-><p>Currency Precision is applied in both steps to result in a **Planned Revenue** in project currency (Tracking tab) that deviates slightly from the **Planned Sales** in Contract currency values (Time - phased view on the **Estimates** tab).</p> 
+>Currency Precision is applied in both steps to result in a **Planned Revenue** in project currency (Tracking tab) that deviates slightly from the **Planned Sales** in Contract currency values (Time - phased view on the **Estimates** tab).
    
 
 ## Reprojecting revenues on leaf node tasks
