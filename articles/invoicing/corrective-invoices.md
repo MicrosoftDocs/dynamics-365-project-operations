@@ -1,6 +1,6 @@
 ---
-title: Corrected invoices 
-description: This topic provides information about corrected invoices in Project Operations
+title: Create corrective project-based invoices 
+description: This topic provides information about corrective invoices in Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Corrected invoices 
+# Create corrective project-based invoices 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
