@@ -54,45 +54,50 @@ The following table provides information about the fields on the **General** tab
 
 **Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.
 
-<table border="0" cellspacing="0" cellpadding="0">
+<table border="1" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     <strong>Opportunity</strong>
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     <strong>Quote</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     <strong>Quote line</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     <strong>Project</strong>
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     <strong>Included tasks</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     <strong>Include Time</strong>
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     <strong>Include Expense</strong>
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+                    <strong>Include Material</strong>
+                </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
                     <strong>Include</strong>
                 </p>
@@ -100,848 +105,928 @@ The following table provides information about the fields on the **General** tab
                     <strong>Fee</strong>
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="49" valign="top">
                 <p>
                     <strong>Valid/ Not valid</strong>
                 </p>
             </td>
-            <td width="308" valign="top">
+            <td width="95" valign="top">
                 <p>
                     <strong>Reason</strong>
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
                     Not valid
                 </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="95" rowspan="2" valign="top">
                 <p>
-                    Violation of Rule #2. Time, Expense, and Fees on P1
-                    project are included on quote lines QL1 and QL2.
+                    Violation of Rule #2 above. Time, Expense and Fees on P1
+                    project are included on both Quote lines QL1 and QL2
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL2
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="95" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     No
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
                     Not valid
                 </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="95" rowspan="2" valign="top">
                 <p>
-                    Violation of Rule #2. Time and Fees on P1 project are
-                    included on quote lines QL1 and QL2.
+                    Violation of Rule #2 above. Time, Material and Fees on P1
+                    project are included on both Quote lines QL1 and QL2
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL2
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="95" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     No
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
                     Valid
                 </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
-                  <p>
-                    Time and Fees on P1 project are included on QL1.
-                    Expense on P1 project is included on QL2.
-                    There is no overlap in what is being included on each quote line
-                    and is valid.
+            <td width="95" rowspan="2" valign="top">
+                <p>
+                    · Time, Material and fees on P1 project are included on QL1
+                </p>
+                <ul>
+                    <li>
+                        Expense on P1 project is included on QL2
+                    </li>
+                </ul>
+                <p>
+                    · No overlap in what is being included on each quote line
+                    and therefore valid.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL2
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     No
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+                    No
+                </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
                     No
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="95" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Selected tasks only
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
                     Not valid
                 </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="95" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above
                 </p>
                 <p>
-                    Q1 includes Time, Expenses, and Fees on a subset of tasks on
-                    project P1.
+                    Q1 includes Time, Material, Expenses and Fees on a subset
+                    of tasks on project P1
                 </p>
                 <p>
-                    QL2 includes Time, Expenses, and Fees for the whole project
-                    P1 and overlaps with what is included on Q1.
+                    QL2 includes Time, Expenses and Fees for the whole project
+                    P1 and therefore overlaps with what is included on Q1.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL2
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="108" valign="top">
+            <td width="95" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Selected tasks only
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="54" rowspan="2" valign="top">
+            <td width="41" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
                     Valid
                 </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="95" rowspan="2" valign="top">
                 <p>
                     Per Rule #3 above,
                 </p>
                 <p>
-                    Q1 includes Time, Expenses, and Fees on a subset of tasks on
-                    project P1.
+                    Q1 includes Time, Material, Expenses and Fees on a subset
+                    of tasks on project P1.
                 </p>
                 <p>
-                    QL2 includes Time, Expenses, and Fees for a subset of tasks
-                    on project P1.
+                    QL2 includes Time, Material, Expenses and Fees for a subset
+                    of tasks on project P1.
                 </p>
                 <p>
                     The only additional validation is around the subset of
-                    tasks on QL1 which are different from the subset of tasks on QL2. 
-                    This ensures that there are no overlaps. This is done by
+                    tasks on QL1 is different from the subset of tasks on QL2
+                    to ensure that there are no overlaps there. This is done by
                     the system when tasks are associated.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL2
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     Selected tasks only
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="41" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="95" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     All project tasks or blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="49" rowspan="2" valign="top">
                 <p>
                     Valid
                 </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="95" rowspan="2" valign="top">
                 <p>
-                    Based on Rule #5, Q1 and Q2 are two quotes on the same opportunity, so
+                    Per Rule #5, Q1 and Q2 are 2 quotes on the same opp, so
                     they can both estimate for the same components of a
                     project.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q2
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     All project tasks or blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
+                <p>
+                    Yes
+                </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
+            </td>
+            <td width="39" valign="top">
+            </td>
+            <td width="40" valign="top">
             </td>
             <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="77" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="45" valign="top">
             </td>
-            <td width="90" valign="top">
+            <td width="46" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="43" valign="top">
             </td>
-            <td width="48" valign="top">
+            <td width="41" valign="top">
             </td>
-            <td width="42" valign="top">
+            <td width="49" valign="top">
             </td>
-            <td width="54" valign="top">
-            </td>
-            <td width="308" valign="top">
+            <td width="95" valign="top">
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O1
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     All project tasks or blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-                    Valid
+                    Yes
                 </p>
             </td>
-            <td width="308" rowspan="2" valign="top">
+            <td width="49" rowspan="2" valign="top">
                 <p>
-                    Based on Rule #4, Q1 and Q2 are two quotes on different
-                    opportunities, so they can't estimate for the same
-                    components of the same project.
+                    Not Valid
+                </p>
+            </td>
+            <td width="95" rowspan="2" valign="top">
+                <p>
+                    Per Rule #4, Q1 and Q2 are 2 quotes on different
+                    Opportunities, so they cannot estimate for the same
+                    components of same project.
                 </p>
             </td>
         </tr>
         <tr>
-            <td width="61" valign="top">
+            <td width="59" valign="top">
                 <p>
                     O2
                 </p>
             </td>
-            <td width="41" valign="top">
+            <td width="39" valign="top">
                 <p>
                     Q1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="40" valign="top">
                 <p>
                     QL1
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="41" valign="top">
                 <p>
                     P1
                 </p>
             </td>
-            <td width="90" valign="top">
+            <td width="77" valign="top">
                 <p>
                     All project tasks or blank
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="45" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="48" valign="top">
+            <td width="46" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="42" valign="top">
+            <td width="43" valign="top">
                 <p>
                     Yes
                 </p>
             </td>
-            <td width="54" valign="top">
+            <td width="41" valign="top">
                 <p>
-                    Not Valid
+                    Yes
                 </p>
             </td>
         </tr>
     </tbody>
 </table>
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
