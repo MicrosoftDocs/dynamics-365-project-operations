@@ -89,7 +89,7 @@
       - name: Project-based quote lines
         items:
         - name: Project-based quote lines overview
-          href: sales/manage-quoted-values-budget-limits-quote-line.md 
+          href: pro/sales/manage-quoted-values-budget-limits-quote-line.md 
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
         - name: Configure the chargeable components of a project quote line
@@ -119,7 +119,7 @@
       - name: Project-based contract lines
         items: 
         - name: Project-based contract lines overview
-          href: sales/manage-contract-values-project-based.md
+          href: pro/sales/manage-contract-values-project-based-sales.md
         - name: Manage multiple customers on project-based contract lines
           href: sales/manage-multiple-customers-contract-line.md
         - name: Configure chargeable components of a project-based contract line
