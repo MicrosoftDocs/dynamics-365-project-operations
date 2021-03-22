@@ -48,11 +48,11 @@ On the **Projects** page, on the **Tracking** tab, you can select **Tracking** >
 
 ## Reprojecting revenues on leaf node tasks
 
-Labor revenues on a leaf node task can't be directly reprojected on the **Tracking** tab on the **Project** page. However, you can use the **Effort Tracking** view to reproject the remaining effort on a task. This causes a recalculation of the remaining revenue on the task. The folloiwng is a description of how this works.
+Labor revenues on a leaf node task can't be directly reprojected on the **Tracking** tab on the **Project** page. However, you can use the **Effort Tracking** view to reproject the remaining effort on a task. This causes a recalculation of the remaining revenue on the task. The following is a description of how this works.
 
 1. A project manager can reproject effort on tasks by updating the default value in the **Remaining Effort** field with a new estimate of the remaining effort on the task. 
 Reprojecting causes a recalculation of the task's effort estimate at complete (EAC), progress percentage, and the projected effort variance on a task. The EAC, ETC, and progress percentage on the summary tasks are also recalculated and produce a new projection of effort variance.
-2. Based on the new value for the remaining effort on the task, the system calculates the remaining revenue on the **Revenue Tracking** view. To calculate the remaining Revenue based on the remaining effort, the system first calculates the average revenue of one hour of effort on the task as planned revenue or planned effort. The planned revenue is the sum of the revenue of all resource assignments on the task. The average revenue per hour is used to compute the remaining revenue for the newly projected remaining effort on the task.
+2. Based on the new value for the remaining effort on the task, the system calculates the remaining revenue on the **Revenue Tracking** view. To calculate the remaining revenue based on the remaining effort, the system first calculates the average revenue of one hour of effort on the task as planned revenue or planned effort. The planned revenue is the sum of the revenue of all resource assignments on the task. The average revenue per hour is used to compute the remaining revenue for the newly projected remaining effort on the task.
 3. The estimated revenue at complete and revenue consumption percentage on the leaf-node task are re-calculated.
 4. The revenue at complete value of the summary tasks all the way to the root node are recalculated.
 
