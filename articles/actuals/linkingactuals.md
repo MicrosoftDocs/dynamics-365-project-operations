@@ -44,9 +44,8 @@ In Dynamics 365 Project Project Operations, *business transaction* is an abstrac
 
 Of these entities, Quote line details, Contract line details, and Estimate lines are mapped to the estimation phase in the project lifecycle. The Journal lines and Actuals entities are mapped to the execution phase in the project lifecycle.
 
-PSA treats records in these five entities as business transactions. The only distinction is that records in entities that are mapped to the estimation phase are considered financial forecasts, whereas the records in entities that are mapped to the execution phase are considered financial facts that have already occurred.
+Project Operations treats records in these five entities as business transactions. The only distinction is that records in entities that are mapped to the estimation phase are considered financial forecasts, whereas the records in entities that are mapped to the execution phase are considered financial facts that have already occurred.
 
-For more information, see [Estimates](estimates.md) and [Actuals](actuals.md).
 
 ## Concepts that are unique to business transactions
 The following concepts are unique to the concept of business transactions:
@@ -58,7 +57,7 @@ The following concepts are unique to the concept of business transactions:
 
 ### Transaction type
 
-Transaction type represents the timing and context of the financial impact on a project. It's represented by an option set that has the following supported values in PSA:
+Transaction type represents the timing and context of the financial impact on a project. It's represented by an option set that has the following supported values in Project Operations:
 - Cost
 - Project contract
 - Unbilled sales
@@ -68,7 +67,7 @@ Transaction type represents the timing and context of the financial impact on a 
 
 ### Transaction class
 
-Transaction class represents the different types of costs that are incurred on projects. It's represented by an option set that has the following supported values in PSA:
+Transaction class represents the different types of costs that are incurred on projects. It's represented by an option set that has the following supported values in Project Operations:
 
 - Time
 - Expense
@@ -77,7 +76,7 @@ Transaction class represents the different types of costs that are incurred on p
 - Milestone
 - Tax
 
-The **Milestone** value is typically used by the business logic for fixed-price billing in PSA.
+The **Milestone** value is typically used by the business logic for fixed-price billing in Project Operations.
 
 ### Transaction origin
 
@@ -91,7 +90,7 @@ Together, Transaction origin and Transaction connection help you keep track of r
 
 ### Example: How Transaction origin works with Transaction connection
 
-The following example shows the typical processing of time entries in a PSA project lifecycle.
+The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
 > ![Processing time entires in a Project Service life cycle](media/basic-guide-17.png)
  
