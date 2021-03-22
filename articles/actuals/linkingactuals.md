@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Linking Actuals to Originating records
+title: Linking Actuals to originating records
 description: This topic provides information about how to actuals are linked to Originating records such as Time entry, Expense entry or Material usage logs
 author: rumant
 manager: AnnBe
