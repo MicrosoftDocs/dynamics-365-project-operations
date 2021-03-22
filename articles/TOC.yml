@@ -220,7 +220,7 @@
         href: project-management/create-assignments.md
     - name: Financial estimates on projects
       items: 
-      - name: Overview of financial estimates on projects
+      - name: Financial estimation concepts
         href: project-management/estimating-projects-overview.md
       - name: Financial estimates for resource time on projects
         href: project-management/resource-estimates.md
@@ -666,7 +666,7 @@
         href: project-management/create-assignments.md
     - name: Financial estimates on projects
       items: 
-      - name: Overview of financial estimates on projects
+      - name: Financial estimation concepts
         href: project-management/estimating-projects-overview.md
       - name: Financial estimates for resource time on projects
         href: project-management/resource-estimates.md
