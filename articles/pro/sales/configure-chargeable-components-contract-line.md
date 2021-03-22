@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Configure chargeable components of a project-based contract line - lite
+# Configure chargeable components of a project-based contract line
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -57,11 +57,11 @@ A transaction's billing type can be configured on the **Chargeable Categories** 
 
 ### Resolve chargeability
 
-An estimate or actual created for time will only be considered chargeable if **Time** is included on the contract line, and if **Task** and **Role** are configured as chargeable on the contract line.
+An estimate or actual created for time will only be considered chargeable if **Time** is included on the contract line, and if **Role** is configured as chargeable on the contract line and if **Included Tasks** is set to Selected tasks on the Contract line, then the **Task** should also be configured as chargeable. 
 
-An estimate or actual created for expense is only considered chargeable if **Expense** is included on the contract line and if the **Task** and **Transaction** categories are configured as chargeable on the contract line.
+An estimate or actual created for expense is only considered chargeable if **Expense** is included on the contract line and if the **Transaction category** is configured as chargeable on the contract line and if **Included Tasks** is set to Selected tasks on the Contract line, then the **Task** should also be configured as chargeable. 
 
-An estimate or actual created for material will only be considered Chargeable if **Materials** is included on the Contract line and if that **Task** is configured as Chargeable on the Contract line.
+An estimate or actual created for material will only be considered Chargeable if **Materials** is included on the Contract line and if **Included Tasks** is set to Selected tasks on the Contract line, then the **Task** should also be configured as chargeable. 
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -107,9 +107,9 @@ An estimate or actual created for material will only be considered Chargeable if
                     <strong></strong>
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
-                    <strong></strong>
+                    <strong>Chargeability Impact</strong>
                 </p>
             </td>
         </tr>
@@ -149,7 +149,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Cannot be set
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -206,7 +206,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Chargeable
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -263,7 +263,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Chargeable
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -320,7 +320,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     <strong>Non-Chargeable</strong>
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -377,7 +377,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     <strong>Non- Chargeable</strong>
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -434,7 +434,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Chargeable
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -491,7 +491,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Cannot be set
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -548,7 +548,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Cannot be set
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -605,7 +605,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Cannot be set
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -662,7 +662,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Cannot be set
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -719,7 +719,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Cannot be set
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -776,7 +776,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Cannot be set
                 </p>
             </td>
-            <td width="137" valign="top">
+            <td width="250" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -799,6 +799,7 @@ An estimate or actual created for material will only be considered Chargeable if
         </tr>
     </tbody>
 </table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
