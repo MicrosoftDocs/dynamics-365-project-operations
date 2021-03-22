@@ -378,6 +378,8 @@
     items: 
     - name: Actuals overview
       href: actuals/actuals-overview.md
+    - name: Linking Actuals to Originating records
+      href: actuals/linkingactuals.md
     - name: Correction journals
       items:
       - name: Create and confirm Correction journals
@@ -780,6 +782,8 @@
     items: 
     - name: Actuals overview
       href: actuals/actuals-overview.md
+    - name: Linking Actuals to Originating records
+      href: actuals/linkingactuals.md
     - name: Correction journals
       items:
       - name: Create and confirm Correction journals
