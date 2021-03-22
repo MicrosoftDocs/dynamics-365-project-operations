@@ -50,7 +50,7 @@ Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Pr
 
 Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.
 
-<table border="1" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
             <td width="43" valign="top">
@@ -101,7 +101,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
                     <strong>Valid/ Not valid</strong>
                 </p>
             </td>
-            <td width="200" valign="top">
+            <td width="250" valign="top">
                 <p>
                     <strong>Reason</strong>
                 </p>
@@ -153,7 +153,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
                     Not valid
                 </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="250" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above. Time, Expense, Materials and
                     Fees on P1 project are included on both Contract lines CL1
@@ -222,7 +222,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
             </td>
             <td width="53" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="250" valign="top">
             </td>
         </tr>
         <tr>
@@ -271,7 +271,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
                     Not valid
                 </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="250" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above. Time, Materials and Fees on P1
                     project are included on both Contract lines CL1 and CL2
@@ -339,7 +339,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
             </td>
             <td width="53" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="250" valign="top">
             </td>
         </tr>
         <tr>
@@ -388,7 +388,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
                     Valid
                 </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="250" rowspan="2" valign="top">
                 <p>
                     · Time, Materials and fees on P1 project are included on
                     CL1
@@ -465,7 +465,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
             </td>
             <td width="53" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="250" valign="top">
             </td>
         </tr>
         <tr>
@@ -514,7 +514,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
                     Not valid
                 </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="250" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above
                 </p>
@@ -590,7 +590,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
             </td>
             <td width="53" valign="top">
             </td>
-            <td width="200" valign="top">
+            <td width="250" valign="top">
             </td>
         </tr>
         <tr>
@@ -639,7 +639,7 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
                     Valid
                 </p>
             </td>
-            <td width="200" rowspan="2" valign="top">
+            <td width="250" rowspan="2" valign="top">
                 <p>
                     Per Rule #3 above,
                 </p>
@@ -703,5 +703,6 @@ Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Onl
         </tr>
     </tbody>
 </table>
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
