@@ -1,28 +1,38 @@
 ---
+# required metadata
+
 title: Linking Actuals to Originating records
-description: This topic provides information about how actuals are linked to orignating records like time entry expense entry or material usage logs
+description: This topic provides information about how to actuals are linked to Originating records such as Time entry, Expense entry or Material usage logs
 author: rumant
-manager: kfend
-ms.service: project-operations
-ms.custom: 
-  - dyn365-projectservice
-ms.date: 03/01/2019
+manager: AnnBe
+ms.date: 09/18/2020
 ms.topic: article
+ms.prod: 
+ms.service: project-operations
 #
-#
-ms.author: rumant
-audience: Admin
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+
+# optional metadata
+
+# ms.search.form: 
+# ROBOTS: 
+audience: Application User
+# ms.devlang: 
+ms.reviewer: kfend
+ms.search.scope: 
+# ms.tgt_pltfrm: 
+ms.custom: 
+ms.assetid: 
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: 
+ms.search.validFrom: 2020-10-01
 ---
 
 # Linking Actuals to Originating records
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 
 In Dynamics 365 Project Project Operations, *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities use this abstraction:
 
