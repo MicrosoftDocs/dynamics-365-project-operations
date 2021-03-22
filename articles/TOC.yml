@@ -228,12 +228,12 @@
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
-      - name: Project Effort Tracking 
+      - name: Project effort tracking 
         href: project-management/project-tracking-overview.md
-      - name: Labor cost tracking on Projects
-        href: project-management/Project-cost-tracking.md
-      - name: Labor revenue tracking on Projects
-        href: project-management/Project-sales-tracking.md
+      - name: Labor cost tracking on projects
+        href: project-management/project-cost-tracking.md
+      - name: Labor revenue tracking on projects
+        href: project-management/project-sales-tracking.md
       - name: Update estimate at completion
         href: project-management/update-completed-estimate.md
     - name: Project team members
@@ -678,12 +678,12 @@
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
-      - name: Project Effort Tracking 
+      - name: Project effort tracking 
         href: project-management/project-tracking-overview.md
-      - name: Labor cost tracking on Projects
-        href: project-management/Project-cost-tracking.md
-      - name: Labor revenue tracking on Projects
-        href: project-management/Project-sales-tracking.md
+      - name: Labor cost tracking on projects
+        href: project-management/project-cost-tracking.md
+      - name: Labor revenue tracking on projects
+        href: project-management/project-sales-tracking.md
       - name: Update estimate at completion
         href: project-management/update-completed-estimate.md
     - name: Project team members
