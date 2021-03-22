@@ -312,8 +312,7 @@ Below are the actuals created by the application on confirmation of a corrective
                     Unsupported
                 </p>
             </td>
-        </tr>
-        
+        </tr>        
     </tbody>
 </table>
 
