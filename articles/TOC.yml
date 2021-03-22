@@ -674,7 +674,7 @@
       items: 
       - name: Project tracking overview
         href: project-management/project-tracking-overview.md
-     - name: Project team members
+    - name: Project team members
       items: 
       - name: Project team members overview
         href: project-management/project-team-members-overview.md
