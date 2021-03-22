@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project-based quote lines overview - lite
+# Project-based quote lines overview 
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_, Project Operations for resource/non-stocked based scenarios
 
