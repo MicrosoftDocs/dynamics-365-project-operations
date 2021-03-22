@@ -110,7 +110,7 @@ The following table provides information about the fields on the **General** tab
                     <strong>Valid/ Not valid</strong>
                 </p>
             </td>
-            <td width="95" valign="top">
+            <td width="145" valign="top">
                 <p>
                     <strong>Reason</strong>
                 </p>
@@ -167,7 +167,7 @@ The following table provides information about the fields on the **General** tab
                     Not valid
                 </p>
             </td>
-            <td width="95" rowspan="2" valign="top">
+            <td width="145" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above. Time, Expense and Fees on P1
                     project are included on both Quote lines QL1 and QL2
@@ -242,7 +242,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="95" valign="top">
+            <td width="145" valign="top">
             </td>
         </tr>
         <tr>
@@ -296,7 +296,7 @@ The following table provides information about the fields on the **General** tab
                     Not valid
                 </p>
             </td>
-            <td width="95" rowspan="2" valign="top">
+            <td width="145" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above. Time, Material and Fees on P1
                     project are included on both Quote lines QL1 and QL2
@@ -371,7 +371,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="95" valign="top">
+            <td width="145" valign="top">
             </td>
         </tr>
         <tr>
@@ -425,7 +425,7 @@ The following table provides information about the fields on the **General** tab
                     Valid
                 </p>
             </td>
-            <td width="95" rowspan="2" valign="top">
+            <td width="145" rowspan="2" valign="top">
                 <p>
                     · Time, Material and fees on P1 project are included on QL1
                 </p>
@@ -508,7 +508,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="95" valign="top">
+            <td width="145" valign="top">
             </td>
         </tr>
         <tr>
@@ -562,7 +562,7 @@ The following table provides information about the fields on the **General** tab
                     Not valid
                 </p>
             </td>
-            <td width="95" rowspan="2" valign="top">
+            <td width="145" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above
                 </p>
@@ -644,7 +644,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="95" valign="top">
+            <td width="145" valign="top">
             </td>
         </tr>
         <tr>
@@ -698,7 +698,7 @@ The following table provides information about the fields on the **General** tab
                     Valid
                 </p>
             </td>
-            <td width="95" rowspan="2" valign="top">
+            <td width="145" rowspan="2" valign="top">
                 <p>
                     Per Rule #3 above,
                 </p>
@@ -786,7 +786,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="95" valign="top">
+            <td width="145" valign="top">
             </td>
         </tr>
         <tr>
@@ -840,7 +840,7 @@ The following table provides information about the fields on the **General** tab
                     Valid
                 </p>
             </td>
-            <td width="95" rowspan="2" valign="top">
+            <td width="145" rowspan="2" valign="top">
                 <p>
                     Per Rule #5, Q1 and Q2 are 2 quotes on the same opp, so
                     they can both estimate for the same components of a
@@ -916,7 +916,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="95" valign="top">
+            <td width="145" valign="top">
             </td>
         </tr>
         <tr>
@@ -970,7 +970,7 @@ The following table provides information about the fields on the **General** tab
                     Not Valid
                 </p>
             </td>
-            <td width="95" rowspan="2" valign="top">
+            <td width="145" rowspan="2" valign="top">
                 <p>
                     Per Rule #4, Q1 and Q2 are 2 quotes on different
                     Opportunities, so they cannot estimate for the same
