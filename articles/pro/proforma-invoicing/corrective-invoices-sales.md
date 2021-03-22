@@ -1,6 +1,6 @@
 ---
-title: Corrected invoices - lite
-description: This topic provides information about corrected invoices in Project Operations
+title: Create corrective project invoices
+description: This topic provides information about corrective invoices in Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
@@ -296,8 +296,7 @@ Below are the actuals created by the application on confirmation of a corrective
                     invoice line detail for the milestone.
                 </p>
                 <p>
-                    The milestone invoice or billing status on the project
-                    contract line is updated to **Ready to Invoice**.
+                    The invoice status of the Milestone is updated from <b>Customerinvoice posted</b> to <b> Ready to Invoice </b>
                 </p>
             </td>
         </tr>
