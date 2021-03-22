@@ -56,22 +56,642 @@ A transaction category can be chargeable or non-chargeable on a specific quote l
 A transaction's billing type can be configured on the **Chargeable Categories** tab of a quote line by updating the **Billing Type** field on the **Chargeable Categories** subgrid.
 
 ### Resolve chargeability
-An estimate or actual created for time will only be considered chargeable if **Time** is included on the quote line, and if **Task** and **Role** are configured as chargeable on the quote line.
+An estimate or actual created for time will only be considered chargeable if **Time** is included on the quote line, and if **Role** is configured as chargeable on the quote line and if **Included Tasks** is set to Selected tasks on the Quote line, then the **Task** should also be configured as chargeable. 
 
-An estimate or actual created for expense will only be considered chargeable if **Expense** is included on the quote line, and if **Task** and **Transaction Category** are configured as chargeable on the quote line.
+An estimate or actual created for expense is only considered chargeable if **Expense** is included on the quote line and if the **Transaction category** is configured as chargeable on the quote line and if **Included Tasks** is set to Selected tasks on the quote line, then the **Task** should also be configured as chargeable. 
 
-| Includes Time | Includes Expense | Included Tasks | Role | Category | Task | Billing |
-| --- | --- | --- | --- | --- | --- | --- |
-| Yes | Yes | Entire project | Chargeable | Chargeable | Can't be set | Billing on a time actual: Chargeable </br>Billing type on expense actual: Chargeable |
-| Yes | Yes | Selected tasks only | Chargeable | Chargeable | Chargeable | Billing on a time actual: Chargeable</br>Billing type on expense actual: Chargeable |
-| Yes | Yes | Selected tasks only | Non-chargeable | Chargeable | Chargeable | Billing on a time actual: Non-Chargeable</br>Billing type on expense actual: Chargeable |
-| Yes | Yes | Selected tasks only | Chargeable | Chargeable | Non-Chargeable | Billing on a time actual: Non-Chargeable</br> Billing type on expense actual: Non-Chargeable |
-| Yes | Yes | Selected tasks only | Non-Chargeable | Chargeable | Non- Chargeable | Billing on a time actual: Non-Chargeable</br> Billing type on expense actual: Non-Chargeable |
-| Yes | Yes | Selected tasks only | Non-Chargeable | Non-Chargeable | Chargeable | Billing on a time actual: Non-Chargeable</br> Billing type on expense actual: Non-Chargeable |
-| No | Yes | Entire project | Can't be set | Chargeable | Can't be set | Billing on a time actual: Not available </br>Billing type on expense actual: Chargeable |
-| No | Yes | Entire project | Can't be set | Non-chargeable | Can't be set | Billing on a time actual: Not available </br>Billing type on expense actual: Non-chargeable |
-| Yes | No | Entire project | Chargeable | Can't be set | Can't be set | Billing on a time actual: Chargeable</br>Billing type on expense actual: Not available |
-| Yes | No | Entire project | Non-chargeable | Can't be set | Can't be set | Billing on a time actual: Non-chargeable </br>Billing type on expense actual: Not available |
+An estimate or actual created for material will only be considered Chargeable if **Materials** is included on the Quote line and if **Included Tasks** is set to Selected tasks on the Quote line, then the **Task** should also be configured as chargeable. 
+
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Includes Time</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Includes Expense</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Includes Materials</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Included Tasks</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Role</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Category</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Task</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong></strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Entire Project
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: Chargeable
+                </p>
+                <p>
+                    Billing type on expense actual: Chargeable
+                </p>
+                <p>
+                    Billing type on material actual: Chargeable
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Selected tasks only
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: Chargeable
+                </p>
+                <p>
+                    Billing type on expense actual: Chargeable
+                </p>
+                <p>
+                    Billing type on material actual: Chargeable
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Selected tasks only
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non - Chargeable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: <strong>Non-Chargeable</strong>
+                </p>
+                <p>
+                    Billing type on expense actual: Chargeable
+                </p>
+                <p>
+                    Billing type on material actual: Chargeable
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Selected tasks only
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non-Chargeable</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: <strong>Non-Chargeable</strong>
+                </p>
+                <p>
+Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </p>
+                <p>
+Billing type on material actual: <strong>Non-Chargeable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Selected tasks only
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non-Chargeable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non- Chargeable</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: <strong>Non-Chargeable</strong>
+                </p>
+                <p>
+Billing type on expense actual: <strong>Non-Chargeable</strong>
+                </p>
+                <p>
+Billing type on material actual: <strong> Non-Chargeable</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Selected tasks only
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non-Chargeable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Non-Chargeable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: <strong>Non-Chargeable</strong>
+                </p>
+                <p>
+Billing type on expense actual: <strong> Non-Chargeable</strong>
+                </p>
+                <p>
+                    Billing type on material actual: Chargeable
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Entire Project
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Chargeable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: <strong>Not available</strong>
+                </p>
+                <p>
+                    Billing type on expense actual: Chargeable
+                </p>
+                <p>
+                    Billing type on material actual: Chargeable
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Entire Project
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Non-Chargeable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: <strong>Not available</strong>
+                </p>
+                <p>
+Billing type on expense actual: <strong> Non-chargeable</strong>
+                </p>
+                <p>
+Billing type on material actual: Chargeable 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Entire Project
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: Chargeable
+                </p>
+                <p>
+                    Billing type on expense actual:<strong> Not available</strong>
+                </p>
+                <p>
+Billing type on material actual: Chargeable
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Entire Project
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non-Chargeable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: <strong>Non-chargeable </strong>
+                </p>
+                <p>
+Billing type on expense actual:<strong> Not available</strong>
+                </p>
+                <p>
+Billing type on material actual: Chargeable 
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Entire Project
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    Chargeable
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: Chargeable
+                </p>
+                <p>
+                    Billing type on expense actual: Chargeable
+                </p>
+                <p>
+Billing type on material actual: <strong> Not available</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    Entire Project
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Non-Chargeable</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Non-chargeable</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    Cannot be set
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    Billing on a time actual: <strong>Non-chargeable </strong>
+                </p>
+                <p>
+Billing type on expense actual:<strong> Non-chargeable </strong>
+                </p>
+                <p>
+Billing type on material actual:<strong> Not available</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
