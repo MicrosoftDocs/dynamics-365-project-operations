@@ -48,7 +48,7 @@ On the **Projects** page, on the **Tracking** tab, you can select **Tracking** >
 
 ## Reprojecting revenues on leaf node tasks
 
-Labor revenues on a project task can't be directly reprojected on the **Tracking** tab on the **Project** page. However, you can use the **Effort Tracking** view to reproject the remaining effort on a task. This causes a recalculation of the remaining revenue on the task. The folloiwng is a description of how this works.
+Labor revenues on a leaf node task can't be directly reprojected on the **Tracking** tab on the **Project** page. However, you can use the **Effort Tracking** view to reproject the remaining effort on a task. This causes a recalculation of the remaining revenue on the task. The folloiwng is a description of how this works.
 
 1. A project manager can reproject effort on tasks by updating the default value in the **Remaining Effort** field with a new estimate of the remaining effort on the task. 
 Reprojecting causes a recalculation of the task's effort estimate at complete (EAC), progress percentage, and the projected effort variance on a task. The EAC, ETC, and progress percentage on the summary tasks are also recalculated and produce a new projection of effort variance.
