@@ -168,6 +168,8 @@
         href: pricing-costing/sales-price-resolution.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
+      - name: Deactivate price lists
+        href: pricing-costing/deactivatepricelists.md       
     - name: Pricing dimensions
       items: 
       - name: Pricing dimensions overview
@@ -218,20 +220,18 @@
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
-    - name: Estimate projects
+    - name: Financial estimates on projects
       items: 
-      - name: Estimate projects overview
+      - name: Financial estimation concepts
         href: project-management/estimating-projects-overview.md
-      - name: Resource estimates
+      - name: Financial estimates for resource time on projects
         href: project-management/resource-estimates.md
-      - name: Create expense estimates
+      - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
       - name: Project tracking overview
-        href: project-management/project-tracking-overview.md
-      - name: Update estimate at completion
-        href: project-management/update-completed-estimate.md
+        href: project-management/project-tracking-overview.md      
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -614,6 +614,8 @@
         href: pro/pricing-costing/sales-price-resolution-sales.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
+      - name: Deactivate project price lists 
+        href:  pricing-costing/deactivatepricelists.md
     - name: Pricing dimensions
       items: 
       - name: Pricing dimensions overview
@@ -664,20 +666,18 @@
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
-    - name: Estimate projects
+    - name: Financial estimates on projects
       items: 
-      - name: Estimate projects overview
+      - name: Financial estimation concepts
         href: project-management/estimating-projects-overview.md
-      - name: Resource estimates
+      - name: Financial estimates for resource time on projects
         href: project-management/resource-estimates.md
-      - name: Create expense estimates
+      - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
       - name: Project tracking overview
         href: project-management/project-tracking-overview.md
-      - name: Update estimate at completion
-        href: project-management/update-completed-estimate.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -806,6 +806,8 @@
   items: 
   - name: What's new
     items:
+    - name: What's new March 2021 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
     - name: What's new January 2021 - Project Operations for stocked/production-based scenarios
       href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
     - name: What's new December 2020 - Project Operations for stocked/production-based scenarios
