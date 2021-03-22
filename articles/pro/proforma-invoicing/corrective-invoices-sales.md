@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Corrected invoices - lite
+# Create corrective project invoices
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
