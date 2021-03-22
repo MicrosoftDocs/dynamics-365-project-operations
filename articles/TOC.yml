@@ -168,8 +168,8 @@
         href: pricing-costing/sales-price-resolution.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
-        name: Deactivate price lists
-        href:  pricing-costing/deactivatepricelists.md       
+      - name: Deactivate price lists
+        href: pricing-costing/deactivatepricelists.md       
     - name: Pricing dimensions
       items: 
       - name: Pricing dimensions overview
