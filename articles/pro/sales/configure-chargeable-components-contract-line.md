@@ -295,10 +295,7 @@ An estimate or actual created for material will only be considered Chargeable if
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual:
-                </p>
-                <p>
-                    <strong>Non-Chargeable</strong>
+                    Billing on a time actual: <strong>Non-Chargeable</strong>
                 </p>
                 <p>
 Billing type on expense actual: <strong>Non-Chargeable</strong>
@@ -346,10 +343,7 @@ Billing type on material actual: <strong>Non-Chargeable</strong>
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual:
-                </p>
-                <p>
-                    <strong>Non-Chargeable</strong>
+                    Billing on a time actual: <strong>Non-Chargeable</strong>
                 </p>
                 <p>
 Billing type on expense actual: <strong>Non-Chargeable</strong>
@@ -397,10 +391,7 @@ Billing type on material actual: <strong> Non-Chargeable</strong>
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual:
-                </p>
-                <p>
-                    <strong>Non-Chargeable</strong>
+                    Billing on a time actual: <strong>Non-Chargeable</strong>
                 </p>
                 <p>
 Billing type on expense actual: <strong> Non-Chargeable</strong>
@@ -448,7 +439,7 @@ Billing type on expense actual: <strong> Non-Chargeable</strong>
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual:<strong>Not available</strong>
+                    Billing on a time actual: <strong>Not available</strong>
                 </p>
                 <p>
                     Billing type on expense actual: Chargeable
@@ -496,7 +487,7 @@ Billing type on expense actual: <strong> Non-Chargeable</strong>
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual:<strong>Not available</strong>
+                    Billing on a time actual: <strong>Not available</strong>
                 </p>
                 <p>
 Billing type on expense actual: <strong> Non-chargeable</strong>
@@ -592,10 +583,7 @@ Billing type on material actual: Chargeable
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual:
-                </p>
-                <p>
-                    <strong>Non-chargeable </strong>
+                    Billing on a time actual: <strong>Non-chargeable </strong>
                 </p>
                 <p>
 Billing type on expense actual:<strong> Not available</strong>
@@ -643,10 +631,7 @@ Billing type on material actual: Chargeable
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual:
-                </p>
-                <p>
-                    Chargeable
+                    Billing on a time actual: Chargeable
                 </p>
                 <p>
                     Billing type on expense actual: Chargeable
@@ -694,10 +679,7 @@ Billing type on material actual: <strong> Not available</strong>
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual:
-                </p>
-                <p>
-                    <strong>Non-chargeable </strong>
+                    Billing on a time actual: <strong>Non-chargeable </strong>
                 </p>
                 <p>
 Billing type on expense actual:<strong> Non-chargeable </strong>
