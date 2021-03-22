@@ -1,5 +1,5 @@
 ---
-title: Work with project–based contract lines - lite
+title: Project-based contract lines overview
 description:  This topic provides information about working with project–based contract lines.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Work with project–based contract lines - lite
+# Project-based contract lines overview
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -34,6 +34,7 @@ The following table includes the fields on the **General** tab of project–base
 | **Included Tasks** | Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks. This is an option set that has the following possible values:</br>- **All Project Tasks**</br>- **Selected Project Tasks Only**. A blank value in this field is equal to selecting **All Project Tasks**. | If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page. The value will be used in conjunction with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record. |
 | **Include Time** | A flag indicates if time transactions or labor costs on the selected project will be included on this contract line. A **No** value indicates that the time transactions or labor cost will not be included on this contract line. A **Yes** value indicates that they will. | This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record. |
 | **Include Expense** | A flag indicates if expense costs on the selected project will be included on this contract line. A **No** value indicates that the expense cost will not be included on this contract line. A **Yes** value indicates that it will. | This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record. |
+| **Include Materials** | A flag indicates if material costs on the selected project will be included on this contract line. A **No** value indicates that the material costs will not be included on this contract line. A **Yes** value indicates that it will. | This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record. |
 | **Include Fee** | A flag indicates if fees on the selected project will be included on this contract line. A **No** value indicates that the fees will not be included on this contract line. A **Yes** value indicates that they will. | This value is used in conjunction with project to resolve the contract line reference on an actual or an estimate line record. |
 | **Contracted Amount** | On a fixed price contract line, this amount is the agreed-on value that will be invoiced to the customer for all the work components associated to this contract line. On a time and material contract line, this amount is an estimated value of what will be invoiced to the customer for all the work components associated to this contract line. On a project contract that is created from a quote, this value is copied from the corresponding field on the quote line. When a project–based contract line has line details, this field is locked for editing and is summarized from the amount on the contract line details. | When the contract line has line details, this value can be modified by changing the amounts on the line details. On a fixed price contract line, this value is used to generate the amount before tax on periodic billing milestones. |
 | **Estimated Tax** | The user can edit this field to input the estimated tax amount on the contract line. When a project–based contract line has line details, this field is locked for editing and is summarized from the tax amount on the contract line details. | When the contract line has line details, this value can be modified by changing the tax amounts on the line details. On a fixed price contract line, this value is used to generate the tax on periodic billing milestones. |
@@ -49,18 +50,658 @@ Rule 2: When the **Included Tasks** field is blank or explicitly set to **All Pr
 
 Rule 3: When the **Included Tasks** field is set to **Selected Project Tasks Only**, a project and a certain transaction class can be included on multiple project-based contract lines of a contract.
 
-| Contract | Contract line | Project | Included tasks      | Include time | Include expense | Include fee | Valid/not valid | Reason                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|----------|---------------|---------|---------------------|--------------|-----------------|-------------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| C1       | CL1           | P1      | Blank               | Yes          | Yes             | Yes         | Not valid       | Violation of Rule #2. Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL2           | P1      | Blank               | Yes          | Yes             | Yes         | Not valid       | Violation of Rule #2. Time,   expense, and fees on project P1 are included on both contract lines, CL1 and   CL2.                                                                                                                                                                                                                                                                                                              |
-| C1       | CL1           | P1      | Blank               | Yes          | No              | Yes         | Not valid       | Violation of Rule #2. Time and   fees on project P1 are included on both contract lines, CL1 and CL2.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL2           | P1      | Blank               | Yes          | Yes             | Yes         | Not valid       | Violation of Rule #2. Time and   fees on project P1 are included on both contract lines, CL1 and CL2.                                                                                                                                                                                                                                                                                                                          |
-| C1       | CL1           | P1      | Blank               | Yes          | No              | Yes         | Valid           | Time and fees on project P1 are   included on the CL1. Expense on project P1 is included on CL2. </br>   There is no overlap in what is being included on each contract line and is   therefore valid.                                                                                                                                                                                                                         |
-| C1       | CL2           | P1      | Blank               | No           | Yes             | No          | Valid           | Time and fees on project P1 are   included on the CL1. Expense on project P1 is included on CL2. </br>   There is no overlap in what is being included on each contract line and is   therefore valid.                                                                                                                                                                                                                         |
-| C1       | CL1           | P1      | Selected tasks only | Yes          | Yes             | Yes         | Not valid       | Violation of Rule #2.   </br>- C1 includes time, expenses, and fees on a subset of tasks on   project P1. </br>- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.                                                                                                                                                                                          |
-| C1       | CL2           | P1      | Blank               | Yes          | Yes             | Yes         | Not valid       | Violation of Rule #2.   </br>- C1 includes time, expenses, and fees on a subset of tasks on   project P1. </br>- CL2 includes time, expenses, and fees for the whole   project P1 and therefore overlaps with what is included on C1.                                                                                                                                                                                          |
-| C1       | CL1           | P1      | Selected tasks only | Yes          | Yes             | Yes         | Valid           | Per Rule #3</br>-  C1 includes time, expenses, and fees on a   subset of tasks on project P1. </br> - CL2 includes time, expenses, and   fees for a subset of tasks on project P1. </br> The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps. This validation   is completed by the system when tasks are associated. |
-| C1       | CL2           | P1      | Selected tasks only | Yes          | Yes             | Yes         | Valid           | Per Rule #3</br>-  C1 includes time, expenses, and fees on a   subset of tasks on project P1. </br> - CL2 includes time, expenses, and   fees for a subset of tasks on project P1. </br> The only additional   validation is on the subset of tasks on CL1, which is different from the subset of tasks on CL2 to ensure that there are no overlaps. This validation   is completed by the system when tasks are associated. |
-
+<table border="1" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    <strong>Contract</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Contract line</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Project</strong>
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    <strong>Included tasks</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Include Time</strong>
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    <strong>Include Expense</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Include Materials</strong>
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    <strong>Include</strong>
+                </p>
+                <p>
+                    <strong>Fee</strong>
+                </p>
+            </td>
+            <td width="53" valign="top">
+                <p>
+                    <strong>Valid/ Not valid</strong>
+                </p>
+            </td>
+            <td width="126" valign="top">
+                <p>
+                    <strong>Reason</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL1
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Blank
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+                    Not valid
+                </p>
+            </td>
+            <td width="126" rowspan="2" valign="top">
+                <p>
+                    Violation of Rule #2 above. Time, Expense, Materials and
+                    Fees on P1 project are included on both Contract lines CL1
+                    and CL2
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL2
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Blank
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="126" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL1
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Blank
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    No
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+                    Not valid
+                </p>
+            </td>
+            <td width="126" rowspan="2" valign="top">
+                <p>
+                    Violation of Rule #2 above. Time, Materials and Fees on P1
+                    project are included on both Contract lines CL1 and CL2
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL2
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Blank
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="126" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL1
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Blank
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    No
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+                    Valid
+                </p>
+            </td>
+            <td width="126" rowspan="2" valign="top">
+                <p>
+                    · Time, Materials and fees on P1 project are included on
+                    CL1
+                </p>
+                <ul>
+                    <li>
+                        Expense on P1 project is included on CL2
+                    </li>
+                </ul>
+                <p>
+                    · No overlap in what is being included on each Contract
+                    line and therefore valid.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL2
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Blank
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    No
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    No
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    No
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="126" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL1
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Selected tasks only
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+                    Not valid
+                </p>
+            </td>
+            <td width="126" rowspan="2" valign="top">
+                <p>
+                    Violation of Rule #2 above
+                </p>
+                <p>
+                    C1 includes Time, Materials, Expenses and Fees on a subset
+                    of tasks on project P1
+                </p>
+                <p>
+                    CL2 includes Time, Materials, Expenses and Fees for the
+                    whole project P1 and therefore overlaps with what is
+                    included on C1.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL2
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Blank
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+            </td>
+            <td width="65" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="67" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="48" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="42" valign="top">
+            </td>
+            <td width="53" valign="top">
+            </td>
+            <td width="126" valign="top">
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL1
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Selected tasks only
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="53" rowspan="2" valign="top">
+                <p>
+                    Valid
+                </p>
+            </td>
+            <td width="126" rowspan="2" valign="top">
+                <p>
+                    Per Rule #3 above,
+                </p>
+                <p>
+                    C1 includes Time, Expenses, Materials and Fees on a subset
+                    of tasks on project P1.
+                </p>
+                <p>
+                    CL2 includes Time, Expenses, Materials and Fees for a
+                    subset of tasks on project P1.
+                </p>
+                <p>
+                    The only additional validation is around the subset of
+                    tasks on CL1 is different from the subset of tasks on CL2
+                    to ensure that there are no overlaps there. This is done by
+                    the system when tasks are associated.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="43" valign="top">
+                <p>
+                    C1
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    CL2
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    P1
+                </p>
+            </td>
+            <td width="67" valign="top">
+                <p>
+                    Selected tasks only
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="48" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+            <td width="42" valign="top">
+                <p>
+                    Yes
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
