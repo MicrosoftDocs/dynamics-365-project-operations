@@ -295,8 +295,7 @@ Below are the actuals created by the application on confirmation of a corrective
                     invoice line detail for the milestone.
                 </p>
                 <p>
-                    The milestone invoice or billing status on the project
-                    contract line is updated to **Ready to Invoice**.
+                    The invoice status on the milestone is updated from <b>Customer invoice posted</b> to <b>Ready to Invoice</b>.
                 </p>
             </td>
         </tr>
