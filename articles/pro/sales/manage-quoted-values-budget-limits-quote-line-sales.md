@@ -1,6 +1,6 @@
 ---
-title: Project-based quote lines overview - lite
-description: This topic provides information about using project-based quote lines for project work. (Pro)
+title: Project-based quote lines overview 
+description: This topic provides information about using project-based quote lines for project work.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Project-based quote lines overview - lite
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing_, Project Operations for resource/non-stocked based scenarios
 
 Project-based quote lines are designed to help estimate the project work on an engagement. The structure of a project-based quote line is extended for project estimates with the following concepts:
 
