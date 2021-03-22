@@ -1,5 +1,5 @@
 ---
-title: Configure the chargeable components of a quote line - lite
+title: Configure the chargeable components of a quote line 
 description: This topic provides information about setting up chargeable and non-chargeable components on a project-based quote line.
 author: rumant
 manager: Annbe
@@ -10,9 +10,9 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Configure the chargeable components of a quote line - lite
+# Configure the chargeable components of a quote line 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios
 
 A project-based quote line has the concept of *included* components and *chargeable* components.
 
