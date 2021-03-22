@@ -220,13 +220,13 @@
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
-    - name: Estimate projects
+    - name: Financial estimates on projects
       items: 
-      - name: Estimate projects overview
+      - name: Financial estimation concepts
         href: project-management/estimating-projects-overview.md
-      - name: Resource estimates
+      - name: Financial estimates for resource time on projects
         href: project-management/resource-estimates.md
-      - name: Create expense estimates
+      - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
@@ -668,13 +668,13 @@
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
-    - name: Estimate projects
+    - name: Financial estimates on projects
       items: 
-      - name: Estimate projects overview
+      - name: Financial estimation concepts
         href: project-management/estimating-projects-overview.md
-      - name: Resource estimates
+      - name: Financial estimates for resource time on projects
         href: project-management/resource-estimates.md
-      - name: Create expense estimates
+      - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
     - name: Project tracking
       items: 
