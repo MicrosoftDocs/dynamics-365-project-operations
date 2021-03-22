@@ -20,13 +20,13 @@ Dynamics 365 Project Operations tracks labor estimates and revenue at the lowest
 
 ## Labor revenue tracking view
 
-On the **Projects** page, on the **Tracking** tab, you can select **Tracking** > **Cost** to open the **Cost tracking view**. Or, you can select **Use** > **Bill Rate** to open the **Revenue Tracking** view which shows the progress of labor revenue on each task in the project plan. This view also compares the actual labor revenue spent on a task to the task's planned labor revenue. Project Operations uses the following formulas to calculate labor revenue metrics:
+On the **Projects** page, on the **Tracking** tab, you can select **Tracking** > **Cost** to open the **Cost Tracking** view. Or, you can select **Use** > **Bill Rate** to open the **Revenue Tracking** view which shows the progress of labor revenue on each task in the project plan. This view also compares the actual labor revenue spent on a task to the task's planned labor revenue. Project Operations uses the following formulas to calculate labor revenue metrics:
 
 - **Planned Revenue**: Estimated sales values of all resource assignments on each leaf node task.
 - **Actual Revenue**: Sum of all unbilled sales actuals for time recorded on the task.
 - **Billable Revenue%**: Actual revenue ÷ Revenue estimate at complete. 
 - **Remaining Revenue**: Revenue estimate at complete – Actual revenue.  
-- **Estimated Revenue at Complete**: Remaining revenue + Actual revenue..
+- **Estimated Revenue at Complete**: Remaining revenue + Actual revenue.
 - **Revenue variance**: Planned revenue – Estimated revenue at complete 
 
 
@@ -39,8 +39,8 @@ On the **Projects** page, on the **Tracking** tab, you can select **Tracking** >
 ><li> The **Estimates** tab shows estimated revenue in the sales currency, while the **Tracking** tab shows planned revenue converted to the cost currency. </li>
 ><li> When estimated sales are converted to the contract currency as shown on the **Estimates** tab, to the project currency, the conversion involves steps that that could result in some loss of accuracy: </li>
 ><ol>
-><li> Estimated sales amount in the contract currency is first converted to the base currency (conversion 1).</li>
-><li> Estimated sales amount in the base currency are converted to the project cost currency (conversion 2). </li>
+><li> The estimated sales amount in the contract currency is first converted to the base currency (conversion 1).</li>
+><li> The estimated sales amount in the base currency are converted to the project cost currency (conversion 2). </li>
 ></ol>
 ></ol>
 > Currency precision is applied in both steps which results in a deviation of the planned revenue in the project currency from the planned sales in the contract currency.
