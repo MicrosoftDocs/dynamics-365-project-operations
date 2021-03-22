@@ -2,7 +2,7 @@
     "redirections": [
       {
         "source_path": "articles/project-management/update-completed-estimate.md",
-        "redirect_url": "project-tracking-overview.",
+        "redirect_url": "project-tracking-overview",
         "redirect_document_id": "false"
       },
       {
