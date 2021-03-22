@@ -107,7 +107,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     <strong></strong>
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     <strong></strong>
                 </p>
@@ -149,7 +149,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Cannot be set
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual: Chargeable
                 </p>
@@ -197,7 +197,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Chargeable
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual: Chargeable
                 </p>
@@ -245,7 +245,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     Chargeable
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual: <strong>Non-Chargeable</strong>
                 </p>
@@ -293,7 +293,7 @@ An estimate or actual created for material will only be considered Chargeable if
                     <strong>Non-Chargeable</strong>
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -344,7 +344,7 @@ Billing type on material actual: <strong>Non-Chargeable</strong>
                     <strong>Non- Chargeable</strong>
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -395,7 +395,7 @@ Billing type on material actual: <strong> Non-Chargeable</strong>
                     Chargeable
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -446,7 +446,7 @@ Billing type on expense actual: <strong> Non-Chargeable</strong>
                     Cannot be set
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual:<strong>Not available</strong>
                 </p>
@@ -494,7 +494,7 @@ Billing type on expense actual: <strong> Non-Chargeable</strong>
                     Cannot be set
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual:<strong>Not available</strong>
                 </p>
@@ -542,7 +542,7 @@ Billing type on material actual: Chargeable
                     Cannot be set
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual: Chargeable
                 </p>
@@ -590,7 +590,7 @@ Billing type on material actual: Chargeable
                     Cannot be set
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -641,7 +641,7 @@ Billing type on material actual: Chargeable
                     Cannot be set
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -692,7 +692,7 @@ Billing type on material actual: <strong> Not available</strong>
                     Cannot be set
                 </p>
             </td>
-            <td width="250" valign="top">
+            <td width="350" valign="top">
                 <p>
                     Billing on a time actual:
                 </p>
@@ -709,6 +709,7 @@ Billing type on material actual:<strong> Not available</strong>
         </tr>
     </tbody>
 </table>
+
 
 
 
