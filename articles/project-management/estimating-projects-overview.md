@@ -1,17 +1,17 @@
 ---
 # required metadata
-title: Overview of financial estimates on projects
-description: This topic provides information about financial estimates of projects in Dynamics 365 Project Operations. 
+title: Financial estimation concepts
+description: This topic provides information about financial estimates of projects in  Project Operations. 
 author: rumant
 manager: AnnBe
-ms.date: 03/19/2021
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Overview of financial estimates on projects
+# Financial estimation concepts
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
