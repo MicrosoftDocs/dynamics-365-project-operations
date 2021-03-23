@@ -22,12 +22,12 @@ Dynamics 365 Project Operations tracks labor estimates and spend at the lowest r
 
 On the **Projects** page, on the **Tracking** tab, you can select **Tracking** > **Cost** to open the **Cost Tracking** view and see the progress of labor spend on each task in the project plan. This view also compares the actual labor cost spent on a task to the task's planned labor cost. Project Operations uses the following formulas to calculate labor cost metrics:
 
-- **Planned cost**: Estimated cost of all resource assignments on each leaf node task.
-- **Actual Cost**: Sum of all cost actuals for time recorded on the task.
-- **Cost consumption percentage**: Actual cost ÷ cost estimate at complete. 
-- **Remaining Cost**: Cost estimate at complete  – actual cost.  
-- **Cost at Complete**: Remaining cost + actual cost.
-- **Cost variance**: Planned cost – cost estimate at complete. 
+- **Planned cost**: Estimated cost of all resource assignments on each leaf node task
+- **Actual Cost**: Sum of all cost actuals for time recorded on the task
+- **Cost consumption percentage**: Actual cost ÷ Cost estimate at complete
+- **Remaining Cost**: Cost estimate at complete  – Actual cost
+- **Cost at Complete**: Remaining cost + Actual cost
+- **Cost variance**: Planned cost – Cost estimate at complete
 
 Each task shows a projection of the cost variance on the task. If the cost estimate at complete is more than the planned cost, the task is projected to go over budget. If the cost estimate at complete is less than the planned cost, the task is projected to finish under budget.
 
