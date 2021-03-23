@@ -33,7 +33,7 @@ Project Operations shows a projection of the effort variance on the task. If the
 
 Project managers often revise the original estimates on a task. Project reprojections are a project manager's perception of estimates, given the current state of a project. However, we don't recommend that project managers change the planned effort numbers. This is because the project planned effort represents the established source of truth for the project schedule and cost estimate, and all project stakeholders have agreed to it.
 
-A project manager can reproject effort on tasks by updating the default **Remaining Effort** with a new estimate on the task. This update causes a recalculation of the task's estimate at complete(EAC), progress percentage, and the projected effort variance on a task. The EAC, ETC, and progress percentage on the summary tasks are also recalculated and produce a new projection of effort variance.
+A project manager can reproject effort on tasks by updating the default **Remaining Effort** with a new estimate on the task. This update causes a recalculation of the task's estimate at complete (EAC), progress percentage, and the projected effort variance on a task. The EAC, ETC, and progress percentage on the summary tasks are also recalculated and produce a new projection of effort variance.
 
 ## Reprojection of effort on summary tasks
 
@@ -42,7 +42,7 @@ Effort on summary tasks or container tasks can be reprojected. Project managers 
 - The EAC and progress percentage on the task are calculated.
 - The new EAC is distributed down to the child tasks in the same proportion as the original EAC was on the task.
 - The new EAC on each of the individual tasks down to the leaf node tasks is calculated. 
-- The affected child tasks down to the leaf nodes have their Remaining Effort and progress percentage recalculated based on the EAC value. This results in a new projection for the effort variance of the task. 
+- The affected child tasks down to the leaf nodes have their remaining effort and progress percentage recalculated based on the EAC value. This results in a new projection for the effort variance of the task. 
 - The EACs of the summary tasks all the way to the root node are recalculated.
 
 
