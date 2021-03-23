@@ -24,24 +24,24 @@ On the **Projects** page, on the **Tracking** tab, you can select **Tracking** >
 
 - **Planned cost**: Estimated cost of all resource assignments on each leaf node task.
 - **Actual Cost**: Sum of all cost actuals for time recorded on the task.
-- **Cost consumption percentage**: Actual cost ÷ Cost estimate at complete. 
-- **Remaining Cost**: Cost estimate at complete  – Actual cost.  
+- **Cost consumption percentage**: Actual cost ÷ cost estimate at complete. 
+- **Remaining Cost**: Cost estimate at complete  – actual cost.  
 - **Cost at Complete**: Remaining cost + actual cost.
-- **Cost variance**: Planned cost – Cost estimate at complete. 
+- **Cost variance**: Planned cost – cost estimate at complete. 
 
-Each task shows a projection of the cost variance on the task. If the cost estimate at complete  is more than the planned cost, the task is projected to go over budget. If the cost estimate at complete is less than the planned cost, the task is projected to finish under budget.
+Each task shows a projection of the cost variance on the task. If the cost estimate at complete is more than the planned cost, the task is projected to go over budget. If the cost estimate at complete is less than the planned cost, the task is projected to finish under budget.
 
 >[!NOTE]
-> Project Operations only shows labor costs on the **Project** page on the **Tracking tab**. While materials and expenses can be estimated and tracked for consumption, these costs are not included in the costs shown on the **Tracking** tab. This tab is designed to work only for reprojecting labor costs by reprojecting effort.
-All cost amounts shown are converted to the project's cost currency from the project's cost price currency used to determine the cost rate. The cost currency of the project is the currency of the contracting unit on the project. The estimated cost values for time that are shown on the **Estimates** tab of the **Project** page might not add up to the planned cost on the **Tracking** tab. The reason for this discrepancy is because of the differences in how estimated cost is summarized on the **Estimates** grid and how planned cost is calculated on the **Tracking** grid. 
+> Project Operations only shows labor costs on the **Project** page on the **Tracking** tab. While materials and expenses can be estimated and tracked for consumption, these costs are not included in the costs shown on the **Tracking** tab. This tab is designed to work only for reprojecting labor costs by reprojecting effort.
+All cost amounts shown are converted to the project's cost currency from the project's cost price currency used to determine the cost rate. The cost currency of the project is the currency of the contracting unit on the project. The estimated cost values for time that are shown on the **Estimates** tab on the **Project** page might not add up to the planned cost on the **Tracking** tab. The reason for this discrepancy is because of the differences in how estimated cost is summarized on the **Estimates** grid and how planned cost is calculated on the **Tracking** grid. 
 >
-> - The **Estimates tab** calulates the estimated cost by using the same currency of the cost rate in the price list. Then, the estimated cost in price list currency is converted to the estimated cost in the project's cost currency. The estimated cost in the project currency is shown on the UI rounded to 2 decimal places. At no point during this conversion is currency presicion applied. 
-> - On the **Tracking** tab, the planned cost calcuation follows a slightly different calculation order that involves currency precision being applied in two stages: 
+> - The **Estimates tab** calculates the estimated cost by using the same currency of the cost rate in the price list. Then, the estimated cost in the price list currency is converted to the estimated cost in the project's cost currency. The estimated cost in the project currency is shown rounded to 2 decimal places. At no point during this conversion is currency precision applied. 
+> - On the **Tracking** tab, the planned cost calculation follows a slightly different calculation order that involves currency precision being applied in two stages: 
    ><ol>
    ><li>The estimated cost amount in the price list currency is converted to the base currency (conversion 1).</li>
    ><li>The estimated cost amount in the base currency is converted to the project cost currency (conversion 2). </li>
    ></ol>
-   >Currency precision is applied in both steps to get a planned cost (on the **Tracking** tab) that deviates slightly from the estimated cost (on the **Time - phased** views on the **Estimates** tab). 
+   >Currency precision is applied in both steps to get a planned cost (on the **Tracking** tab) that deviates slightly from the estimated cost (on the **Time - phased** view on the **Estimates** tab). 
    
 ## Reprojecting costs on leaf node tasks
 
