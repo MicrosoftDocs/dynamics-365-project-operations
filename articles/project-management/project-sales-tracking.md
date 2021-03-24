@@ -5,7 +5,7 @@ title: Project sales tracking
 description: This topic provides information about how Project Operations tracks progress against labor revenue on a project.
 author: rumant
 manager: AnnBe
-ms.date: 03/22/2021
+ms.date: 03/24/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
@@ -36,8 +36,8 @@ On the **Projects** page, on the **Tracking** tab, you can select **Tracking** >
 > For fixed price projects, revenue numbers on the **Labor revenue tracking** view aren't relevant because unbilled sales actuals aren't recorded on the approval of time.
 > The estimated sales values for time that are shown on the **Estimate** tab of the project may not add up to the planned revenue value on the **Tracking** tab. The source of this discrepancy is due to two possible reasons:
 ><ol>
-><li> The **Estimates** tab shows estimated revenue in the sales currency, while the **Tracking** tab shows planned revenue converted to the cost currency. </li>
-><li> When estimated sales are converted to the contract currency as shown on the **Estimates** tab, to the project currency, the conversion involves steps that could result in some loss of accuracy: </li>
+   ><li> The <b>Estimates</b> tab shows estimated revenue in the sales currency, while the <b>Tracking</b> tab shows planned revenue converted to the cost currency. </li>
+   ><li> When estimated sales are converted to the contract currency as shown on the <b>Estimates</b> tab, to the project currency, the conversion involves steps that could result in some loss of accuracy: </li>
 ><ol>
 ><li> The estimated sales amount in the contract currency is first converted to the base currency (conversion 1).</li>
 ><li> The estimated sales amount in the base currency are converted to the project cost currency (conversion 2). </li>
