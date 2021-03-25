@@ -35,7 +35,7 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 The following issues have been fixed:
 
-- Possible Null reference exception in ContractLineMapHelper.UpdateContractLineDetailPriceListReference when closing a quote as won without a price list.
+- A possible Null reference exception occurs in **ContractLineMapHelper.UpdateContractLineDetailPriceListReference** wwhen you close a quote as won and the quote has no price list.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
