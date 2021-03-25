@@ -1,40 +1,22 @@
 ---
-# required metadata
-
-title: Linking Actuals to originating records
-description: This topic provides information about how to actuals are linked to Originating records such as Time entry, Expense entry or Material usage logs
+title: Link actuals to original records
+description: This topic explains how to link actuals to original records such as time entry, expense entry, or material usage logs.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: tfehr
+ms.date: 03/25/2021
 ms.topic: article
-ms.prod: 
+ms.prod:
 ms.service: project-operations
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+ms.reviewer: kfend 
+ms.author: rumant
 ---
 
-# Linking Actuals to Originating records
+# Link actuals to original records
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
-In Dynamics 365 Project Project Operations, *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities use this abstraction:
+In Dynamics 365 Project Operations, *business transaction* is an abstract concept that isn't represented by an entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities use this concept:
 
 - Quote line details
 - Contract line details
@@ -42,9 +24,9 @@ In Dynamics 365 Project Project Operations, *business transaction* is an abstrac
 - Journal lines
 - Actuals
 
-Of these entities, Quote line details, Contract line details, and Estimate lines are mapped to the estimation phase in the project lifecycle. The Journal lines and Actuals entities are mapped to the execution phase in the project lifecycle.
+Of these entities, **Quote line details**, **Contract line details**, and **Estimate lines** are mapped to the estimate phase in the project lifecycle. The **Journal lines** and **Actuals entities** are mapped to the execution phase in the project lifecycle.
 
-Project Operations treats records in these five entities as business transactions. The only distinction is that records in entities that are mapped to the estimation phase are considered financial forecasts, whereas the records in entities that are mapped to the execution phase are considered financial facts that have already occurred.
+Project Operations treats records in these five entities as business transactions. The only distinction is that records in the entities that are mapped to the estimate phase are considered financial forecasts, whereas the records in entities that are mapped to the execution phase are considered financial facts that have already occurred.
 
 
 ## Concepts that are unique to business transactions
@@ -58,35 +40,36 @@ The following concepts are unique to the concept of business transactions:
 ### Transaction type
 
 Transaction type represents the timing and context of the financial impact on a project. It's represented by an option set that has the following supported values in Project Operations:
-- Cost
-- Project contract
-- Unbilled sales
-- Billed sales
-- Inter organizational sales
-- Resourcing unit cost
+
+  - Cost
+  - Project contract
+  - Unbilled sales
+  - Billed sales
+  - Inter organizational sales
+  - Resourcing unit cost
 
 ### Transaction class
 
 Transaction class represents the different types of costs that are incurred on projects. It's represented by an option set that has the following supported values in Project Operations:
 
-- Time
-- Expense
-- Material
-- Fee
-- Milestone
-- Tax
+  - Time
+  - Expense
+  - Material
+  - Fee
+  - Milestone
+  - Tax
 
-The **Milestone** value is typically used by the business logic for fixed-price billing in Project Operations.
+**Milestone** is typically used by the business logic for fixed-price billing in Project Operations.
 
 ### Transaction origin
 
-Transaction origin is an entity that stores the origin of each business transaction. As project execution gets underway, each business transaction will give rise to another business transaction which in turn will create another and so on. Transaction origin entity was designed to store data about each transaction’s origin to help reporting and traceability. 
+**Transaction origin** is an entity that stores the origin of each business transaction. As a project gets underway, each business transaction will give rise to another business transaction which in turn will create another and so on. Transaction origin entity was designed to store data about each transaction’s origin to help with reporting and traceability. 
 
 ### Transaction connection
 
-Transaction connection is an entity that stores the relation between two similar business transactions such as cost and related sales actuals or transaction reversals triggered by billing activities such invoice confirmation or invoice corrections.
+**Transaction connection** is an entity that stores the relation between two similar business transactions such as cost and related sales actuals or transaction reversals triggered by billing activities such invoice confirmation or invoice corrections.
 
-Together, Transaction origin and Transaction connection help you keep track of relationships between business transactions and actions that resulted in the creation of a specific business transaction.
+Together, **Transaction origin** and **Transaction connection** help you keep track of relationships between business transactions and actions that resulted in a specific business transaction.
 
 ### Example: How Transaction origin works with Transaction connection
 
@@ -94,24 +77,24 @@ The following example shows the typical processing of time entries in a Project 
 
 > ![Processing time entires in a Project Service life cycle](media/basic-guide-17.png)
  
-1. Submission of a time entry causes the creation of two journal lines: one for cost and one for unbilled sales.
-2. Eventual approval of the time entry causes the creation of two actuals: one for cost and one for unbilled sales.
-3. When the user creates a project invoice, the invoice line transaction is created by using data from the unbilled sales actual. 
-4. When the invoice is confirmed, two new actuals are created: an unbilled sales reversal and a billed sales actual.
+1. Time entry submission causes two journal lines to be created. One line for cost and one line for unbilled sales.
+2. Eventual approval of the time entry causes two actuals to be created. One actual for cost and one actual for unbilled sales.
+3. When a new project invoice is created, the invoice line transaction is created by using data from the unbilled sales actual. 
+4. When the invoice is confirmed, two new actuals are created. One unbilled sales reversal actual and a billed sales actual.
 
-Each of these events triggers the creation of records in the Transaction origin and Transaction connection entities to help build a trace of relationships between these records that are created across time entry, journal line, actuals, and invoice line details.
+Each of these events creates a record in the **Transaction origin** and **Transaction connection** entities. These new records help build a history of relationships between the records that are created across time entry, journal line, actuals, and invoice line details.
 
-The following table shows the records in the Transaction origin entity for the preceding workflow.
+The following table shows the records in the **Transaction origin** entity for the workflow.
 
 | Event                        | Origin                   | Origin type                       | Transaction                       | Transaction type         |
 |------------------------------|--------------------------|-----------------------------------|-----------------------------------|--------------------------|
-| Time Entry Submission        | Time entry Record GUID   | Time Entry                        | Journal Line Record GUID (cost)   | Journal Line             |
+| Time Entry Submission        | Time Entry Record GUID   | Time Entry                        | Journal Line Record GUID (cost)   | Journal Line             |
 | Time entry Record GUID       | Time Entry               | Journal Line Record GUID (sales)  | Journal Line                      |                          |
 | Time Approval                | Journal Line Record GUID | Journal Line                      | Unbilled Sales Record GUID        | Actual                   |
 | Time entry Record GUID       | Time Entry               | Unbilled Sales Record GUID        | Actual                            |                          |
 | Journal Line Record GUID     | Journal Line             | Cost Actual Record GUID           | Actual                            |                          |
 | Time entry Record GUID       | Time Entry               | Cost Actual Record GUID           | Actual                            |                          |
-| Invoice Creation             | Time entry Record GUID   | Time Entry                        | Invoice Line Transaction GUID     | Invoice Line Transaction |
+| Invoice Creation             | Time Entry Record GUID   | Time Entry                        | Invoice Line Transaction GUID     | Invoice Line Transaction |
 | Journal Line Record GUID     | Journal Line             | Invoice Line Transaction GUID     | Invoice Line Transaction          |                          |
 | Invoice Confirmation         | Invoice Line GUID        | Invoice Line                      | Billed Sales Record GUID          | Actual                   |
 | Invoice GUID                 | Invoice                  | Billed Sales Record GUID          | Actual                            |                          |
@@ -139,7 +122,7 @@ The following table shows the records in the Transaction origin entity for the p
 | Correction IL GUID           | Invoice Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
 | Correction Invoice GUID      | Invoice                  | New Unbilled Sales Actual GUID    | Actual                            |                          |
 
-The following table shows the records in the Transaction connection entity for the preceding workflow.
+The following table shows the records in the **Transaction connection** entity for the workflow.
 
 | Event                          | Transaction 1                 | Transaction 1 role | Transaction 1 type           | Transaction 2                | Transaction 2 role | Transaction 2 type |
 |--------------------------------|-------------------------------|--------------------|------------------------------|------------------------------|--------------------|--------------------|
