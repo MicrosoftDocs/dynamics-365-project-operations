@@ -16,7 +16,7 @@ ms.author: rumant
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
-In Dynamics 365 Project Operations, *business transaction* is an abstract concept that isn't represented by an entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities use this concept:
+In Dynamics 365 Project Operations, a *business transaction* is an abstract concept that isn't represented by an entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities use this concept:
 
 - Quote line details
 - Contract line details
@@ -26,8 +26,7 @@ In Dynamics 365 Project Operations, *business transaction* is an abstract concep
 
 Of these entities, **Quote line details**, **Contract line details**, and **Estimate lines** are mapped to the estimate phase in the project lifecycle. The **Journal lines** and **Actuals entities** are mapped to the execution phase in the project lifecycle.
 
-Project Operations treats records in these five entities as business transactions. The only distinction is that records in the entities that are mapped to the estimate phase are considered financial forecasts, whereas the records in entities that are mapped to the execution phase are considered financial facts that have already occurred.
-
+Project Operations recognizes records in these five entities as business transactions. The only distinction is that records in the entities that are mapped to the estimate phase are considered financial forecasts, whereas the records in entities that are mapped to the execution phase are considered financial facts that have already occurred.
 
 ## Concepts that are unique to business transactions
 The following concepts are unique to the concept of business transactions:
@@ -39,7 +38,7 @@ The following concepts are unique to the concept of business transactions:
 
 ### Transaction type
 
-Transaction type represents the timing and context of the financial impact on a project. It's represented by an option set that has the following supported values in Project Operations:
+Transaction type represents the timing and context of the financial impact on a project. This is represented by an option set that has the following supported values in Project Operations:
 
   - Cost
   - Project contract
@@ -50,7 +49,7 @@ Transaction type represents the timing and context of the financial impact on a 
 
 ### Transaction class
 
-Transaction class represents the different types of costs that are incurred on projects. It's represented by an option set that has the following supported values in Project Operations:
+Transaction class represents the different types of costs that are incurred on projects. This is represented by an option set that has the following supported values in Project Operations:
 
   - Time
   - Expense
@@ -63,13 +62,13 @@ Transaction class represents the different types of costs that are incurred on p
 
 ### Transaction origin
 
-**Transaction origin** is an entity that stores the origin of each business transaction. As a project gets underway, each business transaction will give rise to another business transaction which in turn will create another and so on. Transaction origin entity was designed to store data about each transaction’s origin to help with reporting and traceability. 
+**Transaction origin** is an entity that stores the origin of each business transaction. As a project gets underway, each business transaction will give rise to another business transaction which in turn will create another and so on. Transaction origin entity is designed to store data about each transaction’s origin to help with reporting and traceability. 
 
 ### Transaction connection
 
-**Transaction connection** is an entity that stores the relation between two similar business transactions such as cost and related sales actuals or transaction reversals triggered by billing activities such invoice confirmation or invoice corrections.
+**ansaction connection** is an entity that stores the relationship between two similar business transactions, such as cost and related sales actuals, or transaction reversals triggered by billing activities such as invoice confirmation or invoice corrections.
 
-Together, **Transaction origin** and **Transaction connection** help you keep track of relationships between business transactions and actions that resulted in a specific business transaction.
+Together, **ransaction origin** and **Transaction connection** help you track relationships between business transactions and actions that resulted in a specific business transaction.
 
 ### Example: How Transaction origin works with Transaction connection
 
@@ -77,10 +76,10 @@ The following example shows the typical processing of time entries in a Project 
 
 > ![Processing time entires in a Project Service life cycle](media/basic-guide-17.png)
  
-1. Time entry submission causes two journal lines to be created. One line for cost and one line for unbilled sales.
-2. Eventual approval of the time entry causes two actuals to be created. One actual for cost and one actual for unbilled sales.
+1. A time entry submission creates two journal lines: one line for cost and one line for unbilled sales.
+2. Eventual approval of the time entry creates two actuals: one actual for cost and one actual for unbilled sales.
 3. When a new project invoice is created, the invoice line transaction is created by using data from the unbilled sales actual. 
-4. When the invoice is confirmed, two new actuals are created. One unbilled sales reversal actual and a billed sales actual.
+4. When the invoice is confirmed, two new actuals are created: an unbilled sales reversal actual and a billed sales actual.
 
 Each of these events creates a record in the **Transaction origin** and **Transaction connection** entities. These new records help build a history of relationships between the records that are created across time entry, journal line, actuals, and invoice line details.
 
