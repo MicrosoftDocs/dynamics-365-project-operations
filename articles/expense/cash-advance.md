@@ -61,7 +61,7 @@ Before you submit an expense report, you can select the appropriate cash advance
   - Expense reports re-imagined
   - Ability to map cash advances to expense lines
  
- When thees features are enabled:
+ When these features are enabled:
  
   - You can select one or more cash advances to each expense line
   - The available balance of a cash advance is visible in real time when an expense report is saved. This allows you to process expense transactions and return cash transaction at the same time.
