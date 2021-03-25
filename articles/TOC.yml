@@ -384,6 +384,8 @@
     items: 
     - name: Actuals overview
       href: actuals/actuals-overview.md
+    - name: Link actuals to original records
+      href: actuals/linkingactuals.md
     - name: Correction journals
       items:
       - name: Create and confirm Correction journals
@@ -792,6 +794,8 @@
     items: 
     - name: Actuals overview
       href: actuals/actuals-overview.md
+    - name: Link actuals to original records
+      href: actuals/linkingactuals.md
     - name: Correction journals
       items:
       - name: Create and confirm Correction journals
@@ -968,6 +972,8 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update Release 29.5 Hotfix, V3
+      href: psa/whats-new-ur-29-5.md
     - name: What's new or changed in Update Release 29, V3
       href: psa/whats-new-ur-29.md
     - name: What's new or changed in Update Release 28.6 Hotfix, V3
