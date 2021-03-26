@@ -59,12 +59,12 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Great Britain</i> | [3.10.47.150](whats-new-ur-29-5.md) | TBD | April 9, 2021
 | | <i>Oceana</i> | [3.10.47.150](whats-new-ur-29-5.md) | TBD | April 9, 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.47.7](whats-new-ur-29.md) | [3.10.47.150](whats-new-ur-29-5.md) | March 26, 2021
+| | <i>Europe</i> | [3.10.47.150](whats-new-ur-29-5.md) | TBD | April 16, 2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.150](whats-new-ur-29-5.md) | March 26, 2021
+| | <i>North America</i> | [3.10.47.150](whats-new-ur-29-5.md) | TBD | April 23, 2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.47.150](whats-new-ur-29-5.md) | TBD | April 30, 2021
-| | <i>Dedicated Scale Groups</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.150](whats-new-ur-29-5.md) | March 26, 2021
+| | <i>Dedicated Scale Groups</i> | [3.10.47.150](whats-new-ur-29-5.md) | TBD | April 30, 2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) indicate the timing of the next automatic update. Dates in GCC indicate version availability; at this time, there is no automatic update for these regions.
