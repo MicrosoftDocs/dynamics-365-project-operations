@@ -5,7 +5,7 @@ title: Expense reports reimagined
 description: This topic explains the redesigned and reimagined experience for expense report entry.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: 
 ms.service: project-operations
@@ -46,11 +46,7 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 - No existing menu items for expense reports (the existing page) or expense report fields are removed.
 - Workflows and any approvals still take you to the existing expense reports page.
 
-## Getting started video for new users
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-The [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## New features
 
