@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Estimating a project-based quote line
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 A project-based quote line has details that help with estimating the cost and potential revenue of the work involved to deliver the quote line.
 
