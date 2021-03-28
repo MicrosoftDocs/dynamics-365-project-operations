@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Configure chargeable components of a project-based contract line
 
-_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 A project-based contract line has *included* components and *chargeable* components.
 
