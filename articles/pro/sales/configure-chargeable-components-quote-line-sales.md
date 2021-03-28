@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Configure the chargeable components of a quote line 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 A project-based quote line has the concept of *included* components and *chargeable* components.
 
