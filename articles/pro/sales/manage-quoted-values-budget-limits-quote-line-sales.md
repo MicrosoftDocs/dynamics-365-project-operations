@@ -55,7 +55,7 @@ The following table provides information about the fields on the **General** tab
 
 **Rule 5**: If the quotes do not belong to the same opportunity, they can't include the same project and transaction class.
 
-<table border="1" cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="0">
     <tbody>
         <tr>
             <td width="59" valign="top">
@@ -111,7 +111,7 @@ The following table provides information about the fields on the **General** tab
                     <strong>Valid/ Not valid</strong>
                 </p>
             </td>
-            <td width="145" valign="top">
+            <td width="200" valign="top">
                 <p>
                     <strong>Reason</strong>
                 </p>
@@ -168,7 +168,7 @@ The following table provides information about the fields on the **General** tab
                     Not valid
                 </p>
             </td>
-            <td width="145" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above. Time, Expense and Fees on P1
                     project are included on both Quote lines QL1 and QL2
@@ -243,7 +243,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="145" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
@@ -297,7 +297,7 @@ The following table provides information about the fields on the **General** tab
                     Not valid
                 </p>
             </td>
-            <td width="145" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above. Time, Material and Fees on P1
                     project are included on both Quote lines QL1 and QL2
@@ -372,7 +372,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="145" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
@@ -426,18 +426,11 @@ The following table provides information about the fields on the **General** tab
                     Valid
                 </p>
             </td>
-            <td width="145" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
-                    · Time, Material and fees on P1 project are included on QL1
-                </p>
-                <ul>
-                    <li>
-                        Expense on P1 project is included on QL2
-                    </li>
-                </ul>
-                <p>
-                    · No overlap in what is being included on each quote line
-                    and therefore valid.
+                    Time, Material and fees on P1 project are included on QL1 <br>
+                    Expense on P1 project is included on QL2 <br>
+                    No overlap in what is being included on each quote line and therefore valid.
                 </p>
             </td>
         </tr>
@@ -509,7 +502,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="145" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
@@ -563,7 +556,7 @@ The following table provides information about the fields on the **General** tab
                     Not valid
                 </p>
             </td>
-            <td width="145" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
                     Violation of Rule #2 above
                 </p>
@@ -645,7 +638,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="145" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
@@ -699,7 +692,7 @@ The following table provides information about the fields on the **General** tab
                     Valid
                 </p>
             </td>
-            <td width="145" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
                     Per Rule #3 above,
                 </p>
@@ -787,7 +780,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="145" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
@@ -841,7 +834,7 @@ The following table provides information about the fields on the **General** tab
                     Valid
                 </p>
             </td>
-            <td width="145" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
                     Per Rule #5, Q1 and Q2 are 2 quotes on the same opp, so
                     they can both estimate for the same components of a
@@ -917,7 +910,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="49" valign="top">
             </td>
-            <td width="145" valign="top">
+            <td width="200" valign="top">
             </td>
         </tr>
         <tr>
@@ -971,7 +964,7 @@ The following table provides information about the fields on the **General** tab
                     Not Valid
                 </p>
             </td>
-            <td width="145" rowspan="2" valign="top">
+            <td width="200" rowspan="2" valign="top">
                 <p>
                     Per Rule #4, Q1 and Q2 are 2 quotes on different
                     Opportunities, so they cannot estimate for the same
