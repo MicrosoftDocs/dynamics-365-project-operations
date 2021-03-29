@@ -98,7 +98,7 @@
           href: pro/sales/configure-chargeable-components-quote-line-sales.md
         - name: Configure the chargeable components of a project quote line
           href: sales/configure-chargeable-quoteline.md
-        - name: Create estimates on a quote line
+        - name: Estimate a project quote line
           href: sales/create-estimate-quote-line.md
         - name: Import estimates from a project to a project-based quote line
           href: sales/import-estimate-quote-line.md
@@ -130,7 +130,7 @@
           href: pro/sales/mapping-projects-tasks-contract-line-sales.md
         - name: Configure chargeable components for a project contract line 
           href: pro/sales/configure-chargeable-components-contract-line.md
-        - name: Estimate a project-based contract line
+        - name: Estimate a project contract line
           href: sales/create-estimate-contract-line.md
         - name: Import estimates from a project to a project-based contract line
           href: sales/import-estimate-project-contract-line.md
