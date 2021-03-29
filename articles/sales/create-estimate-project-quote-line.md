@@ -1,5 +1,5 @@
 ---
-title: Estimating a project-based quote line
+title: Estimating a project quote line
 description: This topic provides information about how to create an estimate on a project-based quote line.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Estimating a project-based quote line
+# Estimating a project quote line
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
