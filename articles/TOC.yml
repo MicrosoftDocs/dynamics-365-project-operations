@@ -89,7 +89,7 @@
       - name: Project-based quote lines
         items:
         - name: Project-based quote lines overview
-          href: pro/sales/manage-quoted-values-budget-limits-quote-line.md 
+          href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
         - name: Map projects and tasks to project-based quote lines
