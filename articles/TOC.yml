@@ -228,6 +228,8 @@
         href: project-management/resource-estimates.md
       - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
+      - name: Financial estimates for materials on projects
+        href: project-management/create-material-estimate.md
     - name: Project tracking
       items: 
       - name: Project effort tracking 
@@ -682,6 +684,8 @@
         href: project-management/resource-estimates.md
       - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
+      - name: Financial estimates for materials on projects
+        href: project-management/create-material-estimate.md
     - name: Project tracking
       items: 
       - name: Project effort tracking 
