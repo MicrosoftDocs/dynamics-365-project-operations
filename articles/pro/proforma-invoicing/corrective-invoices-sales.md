@@ -1,9 +1,9 @@
 ---
 title: Create corrective project invoices
-description: This topic provides information about corrective invoices in Project Operations
+description: This topic provides information about how to use corrective invoices in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 03/25/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
