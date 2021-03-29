@@ -25,7 +25,7 @@ To estimate a project-based quote line, on the project-based quote line, select 
 
 To create an estimate on a project-based quote line, select the **Quote Line Detail** tab. The line item that you create on this tab will summarize the quoted value for this quote line. 
 
-To create quote line details, select **+ New quote line detail** on the **Quote Line Details** subgrid. A quick create slider will open. The following fields on the **Quote Line** form:
+To create quote line details, select **+ New quote line detail** on the **Quote Line Details** subgrid. A quick create slider will open. The following table provides details for the fields on the **Quote Line Detail** form and the how the values impact the functionality:
 
 | **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
