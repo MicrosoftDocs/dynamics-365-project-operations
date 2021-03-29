@@ -10,13 +10,11 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Material usage log entry 
+# Record Material usage on Projects and Project tasks
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 As the project team works on various tasks on the project, they could be consuming or using materials. Material usage log provides a way to record this usage so that it can be approved by the Project Manager and then eventually could also be invoiced to the customer. 
-
-## Record the usage of material
 
 You can record the usage of catalog or write in materials and submit them to the approver.
 
