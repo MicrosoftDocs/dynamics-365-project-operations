@@ -1,6 +1,6 @@
 ---
-title: Estimate a project–based contract line
-description: This topic provides information about estimates on a project–based contract line.
+title: Estimate a project contract line
+description: This topic provides information about estimates on a project contract line.
 author: rumant
 manager: Annbe
 ms.date: 10/27/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Estimate a project–based contract line
+# Estimate a project contract line
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_ 
 
@@ -21,7 +21,7 @@ To estimate a project-based contract line, go to the **Contract Line Detail** ta
    - Create an estimate directly on the contract line by manually adding contract line details.
    - Create a project and a project plan, and then associate the project and tasks to the project's contract line. This enables the process by which you can import the project plan estimate into the contract line based on the components included on the contract line.
 
-## Create an estimate directly on a project–based contract line
+## Create an estimate directly on a project contract line
 
 1. Go to the contract line and select the **Contract Line Detail** tab. The lines you create on this tab are summarized and display as the **Contracted Value** for this **Contract Line**. 
 2. In the **Contract Line Details** subgrid, select **+ New Contract Line Detail**. A quick-create slider opens. The following fields are available on the **Contract Line Details** form:
