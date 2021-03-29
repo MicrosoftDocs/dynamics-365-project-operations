@@ -372,6 +372,10 @@
       items: 
       - name: VAT recovery
         href: expense/vat-recovery.md
+  - name: Material Usage
+    items: 
+    - name: Record Material usage on Projects and Project tasks
+      href: material/material-usage-log.md
   - name: Approvals
     items: 
     - name: Approvals overview
@@ -782,7 +786,11 @@
       href: expense/expense-overview.md
     - name: Expense entry (lite)
       href: expense/basic-expense.md
-  - name: Approvals
+   - name: Material Usage
+    items: 
+    - name: Record Material usage on Projects and Project tasks
+      href: material/material-usage-log.md
+   - name: Approvals
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
