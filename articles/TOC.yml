@@ -92,7 +92,7 @@
           href: pro/sales/manage-quoted-values-budget-limits-quote-line.md 
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
-	- name: Map projects and tasks to project-based quote lines
+- name: Map projects and tasks to project-based quote lines
           href: pro/sales/mapping-projects-tasks-quote-line-sales.md
         - name: Configure chargeable components for project-based quote lines
           href: pro/sales/configure-chargeable-components-quote-line-sales.md
