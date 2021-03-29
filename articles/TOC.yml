@@ -126,7 +126,7 @@
           href: pro/sales/manage-contract-values-project-based-sales.md
         - name: Manage multiple customers on project-based contract lines
           href: sales/manage-multiple-customers-contract-line.md
-	- name: Map projects and tasks to a project contract line 
+	- name: Map projects and tasks on a project contract line 
           href: pro/sales/mapping-projects-tasks-contract-line-sales.md
         - name: Configure chargeable components for a project contract line 
           href: pro/sales/configure-chargeable-components-contract-line.md
