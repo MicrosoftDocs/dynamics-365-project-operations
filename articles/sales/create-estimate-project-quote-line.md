@@ -1,6 +1,6 @@
 ---
 title: Estimating a project quote line
-description: This topic provides information about how to create an estimate on a project-based quote line.
+description: This topic provides information about how to create an estimate on a project quote line.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
