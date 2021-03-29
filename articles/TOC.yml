@@ -790,8 +790,8 @@
     items: 
     - name: Record Material usage on Projects and Project tasks
       href: material/material-usage-log.md
-   - name: Approvals
-     items: 
+  - name: Approvals
+    items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
     - name: Developer notes
