@@ -1,5 +1,5 @@
 ---
-title: Material Uage Log
+title: Record Material usage on Projects and Project tasks
 description: This topic provides information about how to log material usage against projects and projec tasks.
 author: rumant
 manager: AnnBe
