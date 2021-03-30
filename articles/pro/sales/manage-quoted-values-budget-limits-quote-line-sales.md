@@ -3,7 +3,7 @@ title: Project-based quote lines overview
 description: This topic provides information about using project-based quote lines for project work.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -170,8 +170,8 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-                    Violation of Rule #2 above. Time, Expense and Fees on P1
-                    project are included on both Quote lines QL1 and QL2
+                    Violation of Rule #2 above. Time, Expense, and Fees on P1
+                    project are included on quote lines QL1 and QL2
                 </p>
             </td>
         </tr>
@@ -299,8 +299,8 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-                    Violation of Rule #2 above. Time, Material and Fees on P1
-                    project are included on both Quote lines QL1 and QL2
+                    Violation of Rule #2 above. Time, Material, and Fees on P1
+                    project are included on quote lines QL1 and QL2
                 </p>
             </td>
         </tr>
@@ -428,7 +428,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-                    Time, Material and fees on P1 project are included on QL1 <br>
+                    Time, Material, and Fees on P1 project are included on QL1 <br>
                     Expense on P1 project is included on QL2 <br>
                     No overlap in what is being included on each quote line and therefore valid.
                 </p>
@@ -565,7 +565,7 @@ The following table provides information about the fields on the **General** tab
                     of tasks on project P1
                 </p>
                 <p>
-                    QL2 includes Time, Expenses and Fees for the whole project
+                    QL2 includes Time, Expenses, and Fees for the whole project
                     P1 and therefore overlaps with what is included on Q1.
                 </p>
             </td>
@@ -697,17 +697,17 @@ The following table provides information about the fields on the **General** tab
                     Per Rule #3 above,
                 </p>
                 <p>
-                    Q1 includes Time, Material, Expenses and Fees on a subset
+                    Q1 includes Time, Material, Expenses, and Fees on a subset
                     of tasks on project P1.
                 </p>
                 <p>
-                    QL2 includes Time, Material, Expenses and Fees for a subset
+                    QL2 includes Time, Material, Expenses, and Fees for a subset
                     of tasks on project P1.
                 </p>
                 <p>
                     The only additional validation is around the subset of
-                    tasks on QL1 is different from the subset of tasks on QL2
-                    to ensure that there are no overlaps there. This is done by
+                    tasks on QL1 which is different from the subset of tasks on QL2
+                    to ensure that there is no overlaps there. This is done by
                     the system when tasks are associated.
                 </p>
             </td>
@@ -836,7 +836,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-                    Per Rule #5, Q1 and Q2 are 2 quotes on the same opp, so
+                    Per Rule #5, Q1 and Q2 are two quotes on the same opportunity, so
                     they can both estimate for the same components of a
                     project.
                 </p>
@@ -966,8 +966,8 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-                    Per Rule #4, Q1 and Q2 are 2 quotes on different
-                    Opportunities, so they cannot estimate for the same
+                    Per Rule #4, Q1 and Q2 are two quotes on different
+                    opportunities, so they can't estimate for the same
                     components of same project.
                 </p>
             </td>
