@@ -50,7 +50,7 @@ When a time entry that is submitted is linked to a project that is mapped to a f
 
 The logic for creating default prices resides on the journal line. The field values from the time entry are copied to the journal line. These values include the transaction date, the contract line that the project is mapped to, and the currency result in the appropriate price list.
 
-The fields that affect default pricing, such as **Role** and **Org Unit**, are used to determine the appropriate price on the journal line. You can add a custom field on the time entry. If you want the field value to be propagated to actuals, create the field on the Actuals entity, and use field mappings to copy the field from the time entry to the actual.
+The fields that affect default pricing, such as **Role** and **Resourcing Unit**, are used to determine the appropriate price on the journal line. You can add a custom field on the time entry. If you want the field value to be propagated to actuals, create the field on the Actuals and Journal line tables and use custom code to propagate the field value using from Time Entry to Actuals via journal line using Transaction Origins. For more information on Transaction Origins and Connections see [Linking Actuals to original records](/linkingactuals#example-how-transaction-origin-works-with-transaction-connection.md)
 
 ## Journal lines and basic expense submission
 
@@ -68,6 +68,8 @@ When a basic expense entry that is submitted is linked to a project that is mapp
 
 The logic for entering default prices for expenses is based on the expense category. The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list. The fields that affect default pricing, such as **Transaction Category** and **Unit**, are used to determine the appropriate price on the journal line. However, this only works when the pricing method setup in the price list is Price per unit. If pricing method setup is At cost or Markup over cost then the price entered when the expense entry is created is used for cost and the price on the sales journal line is calculated based on the pricing method. 
 
+You can add a custom field on the Expense entry. If you want the field value to be propagated to actuals, create the field on the Actuals and Journal line tables and use custom code to propagate the field value using from Time Entry to Actuals via journal line using Transaction Origins. For more information on Transaction Origins and Connections see [Linking Actuals to original records](/linkingactuals#example-how-transaction-origin-works-with-transaction-connection.md)
+
 ## Journal lines and material usage log submission
 
 For more information about expense entry, see [Material Usage Log](../material/material-usage-log.md).
@@ -83,6 +85,8 @@ When a material usage log entry that is submitted is linked to a project that is
 ### Default pricing
 
 The logic for entering default prices for material is based on the product and unit combination. The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list. The fields that affect default pricing, such as **Product Id** and **Unit**, are used to determine the appropriate price on the journal line. However, this only works for catalog products. For Write -In products, the price entered when the material usage log entry is created is used for cost and sales price on the journal lines. 
+
+You can add a custom field on the Material Usage Log entry. If you want the field value to be propagated to actuals, create the field on the Actuals and Journal line tables and use custom code to propagate the field value using from Time Entry to Actuals via journal line using Transaction Origins. For more information on Transaction Origins and Connections see [Linking Actuals to original records](/linkingactuals#example-how-transaction-origin-works-with-transaction-connection.md)
 
 ## Use entry journals to record costs
 
