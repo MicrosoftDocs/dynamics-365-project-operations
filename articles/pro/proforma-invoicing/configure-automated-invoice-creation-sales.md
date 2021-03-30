@@ -1,5 +1,5 @@
 ---
-title: Configure automatice invoice creation - lite
+title: Configure automatice invoice creation 
 description: This topic provides information about configuring automatic creation of proforma invoices.
 author: rumant
 manager: Annbe
@@ -10,15 +10,13 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Configure automatic invoice creation - lite
+# Configure automatic invoice creation 
  
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 You can configure automatic invoice creation in Dynamics 365 Project Operations. The system creates a draft proforma invoice based on the invoice schedule for each project contract and contract line. Invoice schedules are configured at the contract line level. Each line on a contract can have a distinct invoice schedule, or the same invoice schedule can be included on every line of the contract.
 
-When you create an invoice, the system always creates at least one invoice per project contract. In some cases, there may be multiple invoices created.
-
-For example, if the contract has multiple customers, the same number of invoices will be created as the number of customers that have billable transactions to invoice on that project contract.
+When you create an invoice, the system always creates at least one invoice per project contract. In some cases, there may be multiple invoices created.For example, if the contract has multiple customers, the same number of invoices will be created as the number of customers that have billable transactions to invoice on that project contract.
 
 ## Understand how transactions are included on an invoice 
 
