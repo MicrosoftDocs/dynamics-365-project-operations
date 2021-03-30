@@ -316,4 +316,4 @@ The following table lists the actuals that are created when a corrective invoice
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
