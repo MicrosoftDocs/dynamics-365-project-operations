@@ -3,7 +3,7 @@ title: Manage project price lists on project contracts
 description:  This topic provides information about managing project price lists on project contracts.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -16,13 +16,13 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Project contracts in Dynamics 365 Project Operations are designed to support multiple date effective sales price lists on a contract. In Project Operations, there is a new associated entity called **Project Price Lists**. This entity has a one-to-many relationship to a project contract.
 
-Project price lists are used to price time, material and expense transactions on a project. When a contract has one or more project price lists, these price lists are used to price for time, material and expense estimates and actuals on projects that are associated to the contract through the contract line.
+Project price lists are used to price time, material, and expense transactions on a project. When a contract has one or more project price lists, these price lists are used to price for time, material, expense estimates, and actuals on projects that are associated to the contract through the contract line.
 
-When there are no project price lists on a project contract, you will see a warning message that there are no project price lists and your estimates, actual project work, material and expenses logged will not be priced. There will be no price for sales values.
+When there are no project price lists on a project contract, you will see a warning message that there are no project price lists and your estimates, actual project work, material, and expenses logged will not be priced. There will be no price for sales values.
 
 ## Associate or unassociate a project price list on a project contract
 
-### Create or associate a specific price list for estimating project-based work, material and expenses
+### Create or associate a specific price list for estimating project-based work, material, and expenses
 
 1. On the project contract, select the **Project Price Lists** tab.
 2. In the subgrid, select **+ Add New Project Price List**.
@@ -47,7 +47,7 @@ When there are no project price lists on a project contract, you will see a warn
 
 ## Set up automatic defaulting of project price lists on a contract
 
-A project price list can be set up as the default project price list. This setup can help ensure that all contracts in your organization always start with a standard project price list for that price period.
+A project price list can be set up as the default project price list. This setup ensures that all contracts in your organization always start with a standard project price list for that price period.
 
 ### Set up the organizational default for project price lists
 
