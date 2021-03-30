@@ -3,7 +3,7 @@ title: Configure the chargeable components of a quote line
 description: This topic provides information about setting up chargeable and non-chargeable components on a project-based quote line.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -56,11 +56,28 @@ A transaction category can be chargeable or non-chargeable on a specific quote l
 A transaction's billing type can be configured on the **Chargeable Categories** tab of a quote line by updating the **Billing Type** field on the **Chargeable Categories** subgrid.
 
 ### Resolve chargeability
-An estimate or actual created for time will only be considered chargeable if **Time** is included on the quote line, and if **Role** is configured as chargeable on the quote line and if **Included Tasks** is set to Selected tasks on the Quote line, then the **Task** should also be configured as chargeable. 
+An estimate or actual created for time will only be considered chargeable if:
 
-An estimate or actual created for expense is only considered chargeable if **Expense** is included on the quote line and if the **Transaction category** is configured as chargeable on the quote line and if **Included Tasks** is set to Selected tasks on the quote line, then the **Task** should also be configured as chargeable. 
+   - **Time** is included on the quote line
+   - **Role** is configured as chargeable on the quote line 
+   - **Included Tasks** is set to **Selected tasks** on the quote line 
 
-An estimate or actual created for material will only be considered Chargeable if **Materials** is included on the Quote line and if **Included Tasks** is set to Selected tasks on the Quote line, then the **Task** should also be configured as chargeable. 
+If these three things are true, the **Task** is also configured as chargeable. 
+
+An estimate or actual created for expense is only considered chargeable if: 
+
+   - **Expense** is included on the quote line
+   - **Transaction category** is configured as chargeable on the quote line
+   - **Included Tasks** is set to **Selected tasks** on the quote line
+
+If these three things are true, the **Task** is also configured as chargeable. 
+
+An estimate or actual created for material will only be considered chargeable if:
+
+   - **Materials** is included on the quote line
+   - **Included Tasks** is set to **Selected tasks** on the quote line
+
+If these two things are true, the **Task** should also be configured as chargeable. 
 
 
 <table border="0" cellspacing="0" cellpadding="0">
@@ -109,7 +126,7 @@ An estimate or actual created for material will only be considered Chargeable if
             </td>
             <td width="350" valign="top">
                 <p>
-                    <strong></strong>
+                    <strong>Chargeability impact</strong>
                 </p>
             </td>
         </tr>
