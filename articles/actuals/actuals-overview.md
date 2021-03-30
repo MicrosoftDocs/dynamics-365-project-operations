@@ -30,9 +30,9 @@ ms.search.validFrom: 2020-10-01
 
 # Actuals 
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios_
+_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Actuals are the amount of work that has been completed on a project. They are created as a result of time and expense entries, and journal entries and invoices.
+Actuals represent the reviewed and approved financial and schedule progress on a project. They are created as a result of approval of time, expense and material usage entries, and journal entries and invoices.
 
 ## Journal lines and time submission
 
@@ -66,20 +66,34 @@ When a basic expense entry that is submitted is linked to a project that is mapp
 
 ### Default pricing
 
-The logic for entering default prices for expenses is based on the expense category. The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list. However, by default, the amount that is entered for the price itself is set directly on the related expense journal lines for cost and sales.
+The logic for entering default prices for expenses is based on the expense category. The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list. The fields that affect default pricing, such as **Transaction Category** and **Unit**, are used to determine the appropriate price on the journal line. However, this only works when the pricing method setup in the price list is Price per unit. If pricing method setup is At cost or Markup over cost then the price entered when the expense entry is created is used for cost and the price on the sales journal line is calculated based on the pricing method. 
 
-Category-based entry of per-unit default prices on expense entries isn't available.
+## Journal lines and material usage log submission
+
+For more information about expense entry, see [Material Usage Log](../material/material-usage-log.md).
+
+### Time and materials
+
+When a material usage log entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.
+
+### Fixed price
+
+When a material usage log entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.
+
+### Default pricing
+
+The logic for entering default prices for material is based on the product and unit combination. The transaction date, the contract line that the project is mapped to, and the currency are all used to determine the appropriate price list. The fields that affect default pricing, such as **Product Id** and **Unit**, are used to determine the appropriate price on the journal line. However, this only works for catalog products. For Write -In products, the price entered when the material usage log entry is created is used for cost and sales price on the journal lines. 
 
 ## Use entry journals to record costs
 
 You can use entry journals to record the cost or revenue in the material, fee, time, expense, or tax transaction classes. Journals can be used for the following purposes:
 
-- Record the actual cost of materials and sales on a project.
 - Move transaction actuals from another system to Microsoft Dynamics 365 Project Operations.
 - Record costs that occurred in another system. These costs can include procurement or subcontracting costs.
 
 > [!IMPORTANT]
 > The application doesn't validate the journal line type or the related pricing that is entered on the journal line. Therefore, only a user who is fully aware of the accounting impact that actuals have on the project should use entry journals to create actuals. Because of the impact of this journal type, you should carefully choose who has access to create entry journals.
+
 ## Record actuals based on project events
 
 Project Operations records the financial transactions that occur during a project. These transactions are recorded as actuals. The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.
