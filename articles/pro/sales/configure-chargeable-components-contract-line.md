@@ -57,11 +57,28 @@ A transaction's billing type can be configured on the **Chargeable Categories** 
 
 ### Resolve chargeability
 
-An estimate or actual created for time will only be considered chargeable if **Time** is included on the contract line, and if **Role** is configured as chargeable on the contract line and if **Included Tasks** is set to Selected tasks on the Contract line, then the **Task** should also be configured as chargeable. 
+An estimate or actual created for time is only considered chargeable if:
 
-An estimate or actual created for expense is only considered chargeable if **Expense** is included on the contract line and if the **Transaction category** is configured as chargeable on the contract line and if **Included Tasks** is set to Selected tasks on the Contract line, then the **Task** should also be configured as chargeable. 
+   - **Time** is included on the contract line
+   - **Role** is configured as chargeable on the contract line
+   - **Included Tasks** is set to **Selected tasks** on the contract line
+ 
+ If these three things are true, the task is configured as chargeable. 
 
-An estimate or actual created for material will only be considered Chargeable if **Materials** is included on the Contract line and if **Included Tasks** is set to Selected tasks on the Contract line, then the **Task** should also be configured as chargeable. 
+An estimate or actual created for expense is only considered chargeable if:
+
+   - **Expense** is included on the contract line
+   - **Transaction category** is configured as chargeable on the contract line
+   - **Included Tasks** is set to **Selected task** on the contract line
+  
+ If these three things are true, the **Task** is configured as chargeable. 
+
+An estimate or actual created for material is only considered chargeable if:
+
+   - **Materials** is included on the contract line
+   - **Included Tasks** is set to **Selected tasks** on the contract line
+
+If these two things are true, the **Task** is configured as chargeable. 
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -109,7 +126,7 @@ An estimate or actual created for material will only be considered Chargeable if
             </td>
             <td width="350" valign="top">
                 <p>
-                    <strong></strong>
+                    <strong>Chargeability impact</strong>
                 </p>
             </td>
         </tr>
@@ -146,18 +163,18 @@ An estimate or actual created for material will only be considered Chargeable if
             </td>
             <td width="65" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual: Chargeable
+                    Billing on a time actual: <strong>Chargeable</strong>
                 </p>
                 <p>
-                    Billing type on expense actual: Chargeable
+                    Billing type on expense actual: <strong>Chargeable</strong>
                 </p>
                 <p>
-                    Billing type on material actual: Chargeable
+                    Billing type on material actual: <strong>Chargeable</strong>
                 </p>
             </td>
         </tr>
@@ -199,13 +216,13 @@ An estimate or actual created for material will only be considered Chargeable if
             </td>
             <td width="350" valign="top">
                 <p>
-                    Billing on a time actual: Chargeable
+                    Billing on a time actual: <strong>Chargeable</strong>
                 </p>
                 <p>
-                    Billing type on expense actual: Chargeable
+                    Billing type on expense actual: <strong>Chargeable</strong>
                 </p>
                 <p>
-                    Billing type on material actual: Chargeable
+                    Billing type on material actual: <strong>Chargeable</strong>
                 </p>
             </td>
         </tr>
@@ -424,7 +441,7 @@ Billing type on expense actual: <strong> Non-Chargeable</strong>
             </td>
             <td width="65" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="70" valign="top">
@@ -434,7 +451,7 @@ Billing type on expense actual: <strong> Non-Chargeable</strong>
             </td>
             <td width="65" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="350" valign="top">
@@ -472,7 +489,7 @@ Billing type on expense actual: <strong> Non-Chargeable</strong>
             </td>
             <td width="65" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="70" valign="top">
@@ -482,7 +499,7 @@ Billing type on expense actual: <strong> Non-Chargeable</strong>
             </td>
             <td width="65" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="350" valign="top">
@@ -525,12 +542,12 @@ Billing type on material actual: Chargeable
             </td>
             <td width="70" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="65" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="350" valign="top">
@@ -573,12 +590,12 @@ Billing type on material actual: Chargeable
             </td>
             <td width="70" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="65" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="350" valign="top">
@@ -626,7 +643,7 @@ Billing type on material actual: Chargeable
             </td>
             <td width="65" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="350" valign="top">
@@ -674,7 +691,7 @@ Billing type on material actual: <strong> Not available</strong>
             </td>
             <td width="65" valign="top">
                 <p>
-                    Cannot be set
+                    Can't be set
                 </p>
             </td>
             <td width="350" valign="top">
