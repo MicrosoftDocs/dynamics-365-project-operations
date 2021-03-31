@@ -228,6 +228,8 @@
         href: project-management/resource-estimates.md
       - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
+      - name: Financial estimates for materials on projects
+        href: project-management/create-material-estimate.md
     - name: Project tracking
       items: 
       - name: Project effort tracking 
@@ -410,6 +412,8 @@
         href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
       - name: Confirm a proforma project invoice
         href: proforma-invoicing/confirm-proforma-invoice.md
+      - name: Create corrective project-based invoices 
+        href: invoicing/post-project-invoices.md
       - name: Configure project invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
@@ -682,6 +686,8 @@
         href: project-management/resource-estimates.md
       - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
+      - name: Financial estimates for materials on projects
+        href: project-management/create-material-estimate.md
     - name: Project tracking
       items: 
       - name: Project effort tracking 
