@@ -3,7 +3,7 @@ title: Approvals overview
 description: This topic provides information about working with approvals in Project Operations.
 author: stsporen
 manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -14,18 +14,18 @@ ms.author: stsporen
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Time, Expense and Material usage submissions move through an approval workflow. After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.
+Time, expense, and material usage submissions move through an approval workflow. After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.
 
 ## Approvals workflow
-When you create and submit a time, expense or material usage entry, an approval record is created. The Project approver or your manager reviews and approves your entry. If the entry is related to a project, when it's approved, the actuals will be created. This allows the cost and billing to be tracked. 
+When you create and submit a time, expense, or material usage entry, an approval record is created. The project approver or your manager reviews and approves your entry. If the entry is related to a project, the actuals will be created when it's approved. This allows the cost and billing to be tracked. 
 
 ## Approve an entry
 The **Approvals** form allows you to switch between different views so that you can view the different types of approvals.
   
-1. Go to the **Approvals** form and select **Expenses**, **Time**, **Material Usage** or **Recalls**.
+1. Go to the **Approvals** form and select **Expenses**, **Time**, **Material Usage**, or **Recalls**.
 2. Review each approval, and select the ones you want to approve.
 3. Select **Approve** to approve the selected entries.
-The system will process these entries and create actuals.
+The system processes these entries and create actuals.
 
 ## Reject an entry
 As the Project approver, you may have to send an entry back to a user for correction.
@@ -39,7 +39,7 @@ As the Project approver, you may have to send an entry back to a user for correc
 In some cases, you might need to cancel a previously approved entry. Cancelling a previously approved entry will have a financial impact. 
 
 ## Approving recall requests
-In some case a consultant may need to recall a previously approved entry. Cancelling a previously approved entry will have a financial impact. The Project approver is required to approve the recall in order to reverse the transaction in Actuals.
+In some cases, a consultant may need to recall a previously approved entry. Cancelling a previously approved entry will have a financial impact. The project approver is required to approve the recall to reverse the transaction in Actuals.
 
 ## Specify Project approvers
 Each project has a number of project team members. You can specify which team members are also Project approvers.
