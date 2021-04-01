@@ -1,14 +1,17 @@
 ---
 # required metadata
 
-title: Corrected invoices
-description: This topic provides information about corrected invoices. 
+title: Corrective project-based invoices
+description: This topic provides information about how to create and confirm corrective project-based invoices in Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: 
 ms.service: project-operations
+ms.reviewer: kfend 
+ms.author: rumant
+---
+
 #
 
 # optional metadata
@@ -29,17 +32,6 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
----
-title: Corrective project-based invoices
-description: This topic provides information about how to create and confirm corrective project-based invoices in Project Operations.
-author: rumant
-manager: Annbe
-ms.date: 03/29/2021
-ms.topic: article
-ms.service: project-operations
-ms.reviewer: kfend 
-ms.author: rumant
----
 
 # Corrective project-based invoices
 
