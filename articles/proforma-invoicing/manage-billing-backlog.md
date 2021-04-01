@@ -1,5 +1,5 @@
 ---
-title: Manage the billing backlog
+title: Manage billing backlog
 description: This topic provides information about how to view and work with the billing backlog in Project Operations.
 author: rumant
 manager: Annbe
@@ -10,29 +10,44 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Manage the billing backlog
+# Manage billing backlog
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios
 
-Dynamics 365 Project Operations has two dedicated views to help you work with and manage the billing backlog. They are **Fixed Price Milestones** and **Time and Material Billing Backlog** To select a view, in the **Sales** area of Project Operations, on the left navigation page, select **Billing**. The billing backlog links are stored there.
+Dynamics 365 Project Operations has dedicated views to help manage the billing backlog. To manage the billing backlog, select the links in the **Sales** area, under **Billing**. 
+
+The following views available:
+
+- Retainers and Advances
+- Available Retainers and Advances
+- Fixed Price Milestones
+- Time and Material Billing Backlog
+
+## Retainers and Advances
+
+The **Retainers and Advances** view lists all the retainers and advances across all project contracts in the system. After a retainer or advance is invoiced, the amount of the advance becomes available to use.
+
+## Available Retainers and Advances
+
+The **Available Retainers and Advances** view lists all available retainers and advances across all project contracts in the system. After a retainer or advance is invoiced, the amount of the advance becomes available to use and is added to the list. After the amount of the retainer or advance is used completely, it is removed from the list.
 
 ## Fixed Price Milestones
 
-This view lists all fixed price milestones across all of the project contract lines in the system. Single or multiple milestones can be marked as **Ready to Invoice** or **Not Ready to Invoice** from this view. When you mark a milestone as **Ready to Invoice**, the milestone becomes available for a draft invoice.
+The **Fixed Price Milestones** view lists all fixed price milestones across all project contract lines in the system. Single or multiple milestones can be marked as **Ready to invoice** or **Not ready to invoice** from this view. Marking a milestone as **Ready to invoice** makes it available to be put on a draft invoice.
 
-When multi-customer contract lines have a fixed price billing method, one milestone is created for each customer on the contract line. The user creates a milestone and that milestone is split into customer=specific milestone records internally, according to the billing percentage split defined for each customer on the contract line. In the **Fixed Price Milestones** view, you will see individual customer-specific milestone records. Each of these milestone records can be marked as **Ready to Invoice** separately from this view. When one or more of the related milestone splits are marked as **Ready to Invoice**, the header moves to a status of **In Progress** from **Not Started**. When all of the milestone splits have been invoiced, the header milestone status becomes **Completed**.
+When multi-customer contract lines have a fixed price billing method, a milestone is created for each customer on the contract line. A milestone can be created and then split into individual customer-specific milestone records. This split is internal and in accordance with the billing percentage split defined for each customer on the contract line. In the **Fixed Price Milestones** view, you will see the individual customer-specific milestone records. Each of these milestone records can be marked as **Ready to Invoice** separately from this view. When one or more of the related milestone splits are marked as **Ready to Invoice**, the header status is updated to **In Progress** from **Not Started**. When all of the milestone splits are invoiced, the header milestone status is updated to **Completed**.
 
-A milestone on a draft invoice is shown in this view with a billing status of **Customer Invoice Created**. When the draft invoice is confirmed, the billing status on this record is updated to **Invoice Posted**. Updating this status value by using custom code isn't recommended. Project Operations won't function correctly if these status values are updated with custom code.
+A milestone on a draft invoice is shown in this view with a billing status of **Customer Invoice Created**. When the draft invoice is confirmed, the billing status on the record is updated to **Customer Invoice Posted**. Don't update this status value by using custom code. Project Operations doesn't function correctly when these status values are updated with custom code.
 
 ## Time and Material Billing Backlog
 
-This view lists all unbilled sales actuals that haven't been invoiced across all project contracts in the system. Single or multiple unbilled sales actuals can be marked as **Ready to Invoice** or **Not Ready to Invoice** from this view. Marking an unbilled sales actual as **Ready to Invoice** makes it available to be put on a draft invoice.
+The **Time and Material Billing Backlog** view lists all unbilled sales actuals across all project contracts in the system that haven't been invoiced. Single or multiple unbilled sales actuals can be marked as **Ready to Invoice** or **Not Ready to Invoice** from this view. Marking an unbilled sales actual as **Ready to Invoice** makes it available to be put on a draft invoice.
 
-Unbilled sales actuals that have a **Not-to-Exceed** status of **Failed** can't be marked as **Ready to Invoice**. If these actuals need to be marked as such, reset the status on other actuals on the contract line that are committed, and then evaluate the **Not-to-Exceed** status.
+Unbilled sales actuals with a **Not-to-Exceed** status of **Failed** can't be marked as **Ready to Invoice**. If the actuals need to be marked as **Ready to Invoice**, reset the status on other actuals on the contract line that are committed. and then reevaluate the **Not-to-Exceed** status.
 
-In the case of multi-customer contract lines that have a time and material billing method, when time and expenses are approved, an unbilled sales actual is created for each customer on the contract line according to the billing percentage split defined for each customer on the contract line. In the **Time and Material Billing Backlog** view, you'll see these individual customer-specific unbilled sales actuals. Each of these unbilled sales actual records can be marked as **Ready to Invoice** separately from this view.
+If multi-customer contract lines have a time and material billing method, when time and expenses are approved, one unbilled sales actual is created for each customer on the contract line according to the billing percentage split defined for each of the customers. In the **Time and Material Billing Backlog** view, you will see these individual customer-specific unbilled sales actuals. Each of these unbilled sales actual records can be marked as **Ready to Invoice** separately from this view.
 
-An unbilled sales actual on a draft invoice is shown in this view with a **Billing Status** of **Customer Invoice Created**. When the draft invoice is confirmed, the billing status on this record is updated to **Customer Invoice Posted**. Updating this status value when it is in this state by using custom code isn't recommended. Project Operations won't function correctly when these status values are updated with custom code.
+An unbilled sales actual that is on a draft invoice is shown in this view with a billing status of **Customer Invoice Created**. When the draft invoice is confirmed, the billing status on this record is updated to **Customer Invoice Posted**. Don't update this status value using custom code. Project Operations doesn't function correctly when these status values are updated with custom code.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
