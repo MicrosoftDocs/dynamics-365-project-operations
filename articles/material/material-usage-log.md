@@ -16,9 +16,9 @@ _**Applies to:** Project Operations for resource/non-stocked based scenarios, Li
 
 As a project team works through tasks on a project, they consume or use materials. A material usage log provides a way to record this usage so that it can be approved by the project manager and eventually invoiced to the customer. 
 
-You can record the usage of catalog or write-in materials and submit them to the approver.
+To record the usage of catalog or write-in materials and submit them to the approver, follow these steps: 
 
-1. In the navigation pane, select **Material Usage** and then select **New**.
+1. In the navigation pane, select **Material Usage**, and then select **New**.
 2. On the **New Material Usage** page, enter the required material usage information, and then select **Save**.
 
 The following table provides information about the fields on the **Material Usage Log** page. 
@@ -28,15 +28,15 @@ The following table provides information about the fields on the **Material Usag
 | Description | A description of the specific material usage. | There is no downstream impact for this field. |
 | Date | The date on which the material is expected to be used. | There is no downstream impact for this field. |
 | Project | A list projects that are active. | Selecting a project for a material usage log impacts the **Task** field to show only those tasks that are on the project. |
-| Task | A list of tasks for the project including summary and leaf node tasks. | Selecting a task for a material usage log impacts the actual material cost and actual material sales for a task. If this field is left empty, the corresponding material usage cost and sales is tracked and summarized only at the project level. |
+| Task | A list of tasks for the project including summary and leaf node tasks. | Selecting a task for a material usage log impacts the actual material cost and actual material sales for a task. If this field is empty, the corresponding material usage cost and sales is tracked and summarized only at the project level. |
 | Select Product | Specify if this material usage is for an **Existing** (catalog) product or a **Write in** product. | This field determines the type of product. |
-| Product | The ID of the product from product catalog. When you select a product ID, the **Select Product** field automatically updates to **Existing product** . The ID is used to retrieve cost and sales prices from the price list. | There is no downstream impact for this field. |
+| Product | The ID of the product from product catalog. When you select a product ID, the **Select Product** field automatically updates to **Existing product**. The ID is used to retrieve cost and sales prices from the price list. | There is no downstream impact for this field. |
 | WriteIn Product Description | A text field to write in the name of the product. This field is available when you select **Write In** product in the **Select product** field.| There is no downstream impact for this field. |
-| Bookable Resource| Resource that used this material on the project. This field defaults to the bookable resource of the logged in user, but can be changed to record usage on behalf of other members on the project team.| There is no downstream impact for this field. |
+| Bookable Resource| Resource that used this material on the project. The default for this field is the bookable resource of the logged in user, but can be changed to record usage on behalf of other members on the project team. | There is no downstream impact for this field. |
 | Unit group | The default value in this field comes from the unit group that's set up as the default on the catalog product. You can update this field to select another unit group. | There is no downstream impact for this field. |
-| Unit | The value in this field defaults to the default unit of the selected product. You can update this field to select another unit. | Changing the unit results in a different default unit price and cost. |
+| Unit | The default value in this field is the default unit of the selected product. You can update this field to select another unit. | Changing the unit results in a different default unit price and cost. |
 | Quantity | The quantity of the product that has been used on the project or the project task. | There is no downstream impact for this field. |
-| Unit Cost | The unit cost of the selected product and unit combination as set up in the applicable cost price list. | The unit cost is always shown in the project's cost currency. If there's no setup of unit cost for the combination product and unit setup in the price list, the unit cost will default to 0.00. |
+| Unit Cost | The unit cost of the selected product and unit combination as set up in the applicable cost price list. | The unit cost is always shown in the project's cost currency. If there's no unit cost for the combination product and unit in the price list, the unit cost will default to 0.00. |
 | Total Cost | The cost amount that is calculated as quantity \* unit cost.| The cost amount is always shown in the project's cost currency. |
 
 
