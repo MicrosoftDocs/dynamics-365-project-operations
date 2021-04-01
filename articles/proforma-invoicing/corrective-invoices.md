@@ -10,9 +10,6 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
----
-
-#
 
 # optional metadata
 
