@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Create a manual proforma invoice
-description: This topic provides information about creating a proforma invoice.
+title: Proforma Invoices
+description: This topic provides information about proforma invoices in Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
@@ -29,19 +29,12 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Create a manual proforma invoice
+# Proforma Invoices
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Invoicing gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when the time and expense entries that project team members submit are approved.
+Proforma Invoicing gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when time, expense and material entries that project team members submit are approved. Confirmed proforma invoices are made available in the Project Accounting module of Project Operations for Project Accountants to perform additional updates such as Sales Tax, Accounting and Invoice Layout information.
 
-Dynamics 365 Project Operations isn't designed to generate customer-facing invoices, for the following reasons:
-
-- It doesn't contain tax information.
-- It can't convert other currencies to the invoicing currency by using correctly configured exchange rates.
-- It can't correctly format invoices so that they can be printed.
-
-Instead, you can use a financial or accounting system to create customer-facing invoices that use the information from generated invoice proposals.
 
 ## Creating project invoices
 
@@ -55,7 +48,7 @@ Follow this step to create an invoice for a specific project contract.
 
 - On the **Project Contracts** list page, open a project contract, and then select **Create Invoice**.
 
-    An invoice is generated for all transactions for the selected project contract that have a status of **Ready to Invoice**. These transactions include time, expenses, milestones, and product-based contract lines.
+    An invoice is generated for all transactions for the selected project contract that have a status of **Ready to Invoice**. These transactions include time, expenses, materials, milestones, and other unbilled sales journal lines that may have been confirmed
 
 Follow these steps to create invoices in bulk.
 
@@ -65,7 +58,7 @@ Follow these steps to create invoices in bulk.
 
 2. Select **OK** to close the message box.
 
-    An invoice is generated for all transactions on a contract line that have a status of **Ready to Invoice**. These transactions include time, expenses, milestones, and product-based contract lines.
+    An invoice is generated for all transactions on a contract line that have a status of **Ready to Invoice**. These transactions include time, expenses, materials, milestones, and other unbilled sales journal lines that may have been confirmed
 
 3. To view the invoices that are generated, go to **Sales** \> **Billing** \> **Invoices**. You will see one invoice for each project contract.
 
@@ -98,11 +91,10 @@ The batch process job for creating invoices is a recurrent job. If this batch pr
  
 ### Edit a draft invoice
 
-When you create a draft project invoice, all unbilled sales transactions that were created when the time and expense entries were approved are pulled onto the invoice. You can make the following adjustments while the invoice is still in a draft stage:
+When you create a draft project invoice, all unbilled sales transactions that were created when the time, expense and material usage entries were approved are pulled onto the invoice. You can make the following adjustments while the invoice is still in a draft stage:
 
 - Delete or edit invoice line details.
 - Edit and adjust the quantity and billing type.
-- Directly add time, expense, and fees as transactions on the invoice. You can use this feature if the invoice line is mapped to a contract line that allows for these transaction classes.
 
 Select **Confirm** to confirm an invoice. The Confirm action is a one-way action. When you select **Confirm**, the system makes the invoice read-only and creates billed sales actuals from each invoice line detail for each invoice line. If the invoice line detail references an unbilled sales actual, the system also reverses the unbilled sales actual. (Any invoice line detail that was created from a time or expense entry will reference an unbilled sales actual.) General ledger integration systems can use this reversal to reverse project work in progress (WIP) for accounting purposes.
 
