@@ -1,6 +1,6 @@
 ---
-title: Confirm a proforma invoice
-description: This topic provides information about confirming a proforma invoice. 
+title: Confirm a proforma project-based invoice
+description: This topic provides information about confirming a proforma project-based invoice. 
 author: rumant
 manager: AnnBe
 ms.date: 10/13/2020
@@ -10,11 +10,11 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Confirm a proforma invoice
+# Confirm a proforma project-based invoice
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. Going forward, the invoice can only be corrected if there are any customer-initiated corrections or credits, or when it's marked as paid.
+After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. Going forward, the invoice can only be corrected if there are any customer-initiated corrections or credits.
 
 The following table lists the actuals created by the system. These actuals are created when certain operations are performed on the draft project invoice before it is confirmed.
 
@@ -183,6 +183,81 @@ The following table lists the actuals created by the system. These actuals are c
             </td>
         </tr>
         <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+                    Invoicing a material transaction without any edits on the draft
+                    invoice.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    An unbilled sales reversal for the quantity and amount on the
+                    original material usage approval.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales actual for the quantity and amount on the
+                    original material usage approval.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+                    Invoicing a material transaction that was edited to reduce the
+                    quantity.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    An unbilled sales reversal for the quantity and amount on the
+                    original time approval.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    quantity and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is non-chargeable for the
+                    remaining quantity and amount after deducting the corrected
+                    figures on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+                    Invoicing a material transaction that was edited to increase
+                    the quantity.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    An unbilled sales reversal for the quantity and amount on the
+                    original material usage approval.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    quantity and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.
+                </p>
+            </td>
+        </tr>
+         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
                     Invoicing a fee.
