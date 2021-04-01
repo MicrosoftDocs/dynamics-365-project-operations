@@ -38,7 +38,7 @@ To create quote line details, select **+ New quote line detail** on the **Quote 
 | Category | Quick create | The category of the work or expense. | This field value defaults to the related quote line detail for cost that is automatically created. |
 | Start Date | Quick create | The start date of the work. | This field defaults to the quote line detail for cost that is automatically created. |
 | End Date | Quick create | The end date of the work. | This field defaults to the quote line detail for cost that is automatically created. |
-| Resourcing Unit | Quick create | Teh resourcing unit that will incur this cost and provide the resource to work on it. | This field value defaults to the related quote line detail for cost that is automatically created and used in the cost price retrieval. |
+| Resourcing Unit | Quick create | The resourcing unit that will incur this cost and provide the resource to work on it. | This field value defaults to the related quote line detail for cost that is automatically created and used in the cost price retrieval. |
 | Unit schedule | Quick create | The unit group of the work, product, or expense. Units belong to a unit schedule or a group of units. For example, miles and KMs are units that belong to a group of units that describes distance. | This field value defaults to the related quote line detail for cost that is automatically created. |
 | Unit | Quick create | The unit of the work, product or expense. | This field value defaults to the related quote line detail for cost that is automatically created. |
 | Quantity | Quick create | The quantity of work, product, or expense. | This field value defaults to the related quote line detail for cost that is automatically created. |
