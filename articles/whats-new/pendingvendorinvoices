@@ -35,7 +35,7 @@ Pending vendor invoices can be recorded in Accounts payable > Invoices > Pending
     a. Vendor balance amount
     b. Sales tax amount.
     c. Cost against the project will be recorded to Procurement integration account.
-    d. Project actual transaction in Dataverse. This transaction will be further processed using [Project Operations Integration journal](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal)
+    d. Project actual transaction in Dataverse. This transaction will be further processed using [Project Operations Integration journal](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal) Posting this journal will move amount from Procurement integration account to project cost account.
 
     
    
