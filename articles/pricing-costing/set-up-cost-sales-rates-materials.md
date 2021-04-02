@@ -24,8 +24,8 @@ To set up cost and sales rates for products, complete the following steps.
 
 For more information on how to define prices for catalog items visit the following links:
 
-[Setup pricing for products](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
+[Setup pricing for products](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products)
 
-[Decimal precision in currency and pricing](https://docs.microsoft.com/en-us/dynamics365/sales-enterprise/decimal-precision-currency-pricing)
+[Decimal precision in currency and pricing](https://docs.microsoft.com/dynamics365/sales-enterprise/decimal-precision-currency-pricing)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
