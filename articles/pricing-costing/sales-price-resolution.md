@@ -59,7 +59,7 @@ After a price list for sales is resolved, the system completes the following ste
 1. The system uses the **Product** and **Unit** field combination on the estimate line for material to match against the price list item lines in the price list that was resolved.
 2. If the system finds a price list item line that has a sales rate for the **Product** and **Unit** field combination, then that sales rate is defaulted. If the system finds a matching price list item line when pricing method is not currency amount, the pricing method may be used to default the sales price. 
 
-4. If the system is unable to match the **Product** and **Unit** field values, the sales rate defaults to zero(0).
+3. If the system is unable to match the **Product** and **Unit** field values, the sales rate defaults to zero(0).
 
 
 
