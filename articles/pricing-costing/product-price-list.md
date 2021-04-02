@@ -24,14 +24,14 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
 # Product price lists
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Price lists and price list item entities support product catalog pricing. For the most part, this functionality is used for catalog-based lines on project quotes and project contracts.
 
