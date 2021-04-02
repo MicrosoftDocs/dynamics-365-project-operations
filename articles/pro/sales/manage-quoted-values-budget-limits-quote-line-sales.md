@@ -28,19 +28,19 @@ The following table provides information about the fields on the **General** tab
 
 | **Field** | **Description** | **Downstream impact** |
 | --- | --- | --- |
-| Name | The name of quote line which should help you identify the discrete component of the quote that is being estimated. | Copied to the project contract line that is created from this quote line when the quote is won. |
-| Billing Method | On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line. This field includes the two main contracting models supported by Dynamics 365 Project Operations:</br>- Fixed price</br>- Time and material.| This field value is copied to the project contract line that is created from this quote line when the quote is won. |
-| Project | Use this optional field to identify the project that will be used to deliver the work on this engagement. When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details. When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail. | This field value is copied to the project contract line that is created from this quote line when the quote is won.|
-| Included Tasks | Indicates if this quote line is used for all or some of the project tasks for the selected project. This field has the following possible values:</br>- All project tasks</br>- Selected project tasks only</br>A blank value in this field is equivalent to the **All project tasks** option. | When **Selected project tasks only** is selected then on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line. This field value is copied to the project contract line that is created from this quote line when the quote is won. |
-| Include Time | A **Yes**/**No** flag indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line. A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line. A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line. | This field value is copied to the project contract line that is created from this quote line when the quote is won. |
-| Include Expense | A **Yes**/**No** flag indicates if expense costs on the selected project will be included in the estimate on this quote line. A **No** value indicates that the expense cost will not be included in the estimate on this quote line. A **Yes** value indicates that the expense cost will be included in the estimate on this quote line. | This field value is copied over to the project contract line that is created from this quote line when the quote is won. |
-| Include Material | A **Yes**/**No** flag indicates if material costs on the selected project will be included in the estimate on this quote line. A **No** value indicates that the material costs will not be included in the estimate on this quote line. A **Yes** value indicates that the material costs will be included in the estimate on this quote line. | This field value is copied over to the project contract line that is created from this quote line when the quote is won. |
-| Include Fee | A **Yes**/**No** flag indicates if fees on the selected project will be included in the estimate on this quote line. A **No** value indicates that the Fees will not be included in the estimate on this quote line. A **Yes** value indicates that the Fees will be included in the estimate on this quote line. | This field value is copied to the Project contract line that is created from this quote line when the quote is won. |
-| Quoted Amount | This is amount that will be quoted to the customer for all the work forecasted on this project-based quote line. On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line. When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details. | This field value is copied to the project contract line that is created from this quote line when the quote is won. |
-| Estimated Tax | This is an editable field for the user to add the estimated tax amount on the quote line. When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details. | This field value is copied to the project contract line that is created from this quote line when the quote is won. |
-| Quoted Amount after Tax | This field is the quote line amount after tax and is read-only. The amount in this field is calculated as *Quoted Amount + Tax*. | This field value is copied to the project contract line that is created from this quote line when the quote is won. |
-| Not-to-exceed Limit | This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method. | This field value is copied to the project contract line that is created from this quote line when the quote is won. |
-| Customer Budget | This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity. | This field value is copied to the project contract line that is created from this quote line when the quote is won. |
+| Name | The name of quote line that helps you to identify the discrete component of the quote that is being estimated. | Copied to the project contract line that is created from this quote line when the quote is won. |
+| Billing Method | On a quote created from an opportunity, this value is copied from the corresponding field on the opportunity line. This field includes the two main contracting models supported by Dynamics 365 Project Operations:</br>- Fixed price</br>- Time and material.| This value is copied to the project contract line that is created from this quote line when the quote is won. |
+| Project | Use this optional field to identify the project that will be used to deliver the work on this engagement. When a project is mapped to a quote line, it helps with setting up chargeable tasks and also with bringing in a project-based estimate to the quote line as quote line details. When a project is not mapped to a project-based quote line, the estimate should be created manually by creating each quote line detail. | This value is copied to the project contract line that is created from this quote line when the quote is won.|
+| Included Tasks | Indicates if this quote line is used for all or some of the project tasks for the selected project. This field has the following possible values:</br>- All project tasks</br>- Selected project tasks only</br>A blank value in this field is equivalent to the **All project tasks** option. | When **Selected project tasks only** is selected on the project page, the **Task billing setup** tab allows you to select specific tasks to associate them to this quote line. This value is copied to the project contract line that is created from this quote line when the quote is won. |
+| Include Time | A **Yes**/**No** value indicates if time transactions or labor costs on the selected project will be included in the estimate on this quote line. A **No** value indicates that the time transactions or labor cost will not be included in the estimate on this quote line. A **Yes** value indicates that the time transactions or labor cost will be included in the estimate on this quote line. | This value is copied to the project contract line that is created from this quote line when the quote is won. |
+| Include Expense | A **Yes**/**No** value indicates if expense costs on the selected project will be included in the estimate on this quote line. A **No** value indicates that the expense cost will not be included in the estimate on this quote line. A **Yes** value indicates that the expense cost will be included in the estimate on this quote line. | This value is copied over to the project contract line that is created from this quote line when the quote is won. |
+| Include Material | A **Yes**/**No** value indicates if material costs on the selected project will be included in the estimate on this quote line. A **No** value indicates that the material costs will not be included in the estimate on this quote line. A **Yes** value indicates that the material costs will be included in the estimate on this quote line. | This value is copied over to the project contract line that is created from this quote line when the quote is won. |
+| Include Fee | A **Yes**/**No** value indicates if fees on the selected project will be included in the estimate on this quote line. A **No** value indicates that the fees will not be included in the estimate on this quote line. A **Yes** value indicates that the fees will be included in the estimate on this quote line. | This value is copied to the Project contract line that is created from this quote line when the quote is won. |
+| Quoted Amount | This is the amount that will be quoted to the customer for all the work forecasted on this project-based quote line. On a quote created from an opportunity, this value is copied from the **Customer Budget** field on the opportunity line. When the project-based quote line has line details, this field is locked for editing and is summarized from the amount on the quote line details. | This value is copied to the project contract line that is created from this quote line when the quote is won. |
+| Estimated Tax | This is an editable field for the user to add the estimated tax amount on the quote line. When a project-based quote line has line details, this field is locked for editing and is summarized from the tax amount on the quote line details. | This value is copied to the project contract line that is created from this quote line when the quote is won. |
+| Quoted Amount after Tax | This field is the quote line amount after tax and is read-only. The amount in this field is calculated as *Quoted Amount + Tax*. | This value is copied to the project contract line that is created from this quote line when the quote is won. |
+| Not-to-exceed Limit | This field is editable and is only available on project-based quote lines that have a **Time and Material** billing method. | This value is copied to the project contract line that is created from this quote line when the quote is won. |
+| Customer Budget | This field is editable and is copied from the corresponding field on the opportunity line if the quote was created from an opportunity. | This value is copied to the project contract line that is created from this quote line when the quote is won. |
 
 
 ## Validation rules for fields on the General tab of project-based quote lines
@@ -170,7 +170,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-                    Violation of Rule #2 above. Time, Expense, and Fees on P1
+                    Violation of Rule #2. Time, Expense, and Fees on P1
                     project are included on quote lines QL1 and QL2
                 </p>
             </td>
@@ -299,7 +299,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-                    Violation of Rule #2 above. Time, Material, and Fees on P1
+                    Violation of Rule #2. Time, Material, and Fees on P1
                     project are included on quote lines QL1 and QL2
                 </p>
             </td>
@@ -558,7 +558,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-                    Violation of Rule #2 above
+                    Violation of Rule #2
                 </p>
                 <p>
                     Q1 includes Time, Material, Expenses and Fees on a subset
@@ -694,7 +694,7 @@ The following table provides information about the fields on the **General** tab
             </td>
             <td width="200" rowspan="2" valign="top">
                 <p>
-                    Per Rule #3 above,
+                    Per Rule #3,
                 </p>
                 <p>
                     Q1 includes Time, Material, Expenses, and Fees on a subset
@@ -707,7 +707,7 @@ The following table provides information about the fields on the **General** tab
                 <p>
                     The only additional validation is around the subset of
                     tasks on QL1 which is different from the subset of tasks on QL2
-                    to ensure that there is no overlaps there. This is done by
+                    to ensure that there is no overlap. This is done by
                     the system when tasks are associated.
                 </p>
             </td>
