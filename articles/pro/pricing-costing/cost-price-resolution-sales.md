@@ -1,6 +1,6 @@
 ---
-title: Resolve cost prices on estimates and actuals - lite
-description: This topic provides information about how cost prices on estimates and actuals are resolved.
+title: Resolve cost prices on project estimates and actuals
+description: This topic provides information about how cost prices on project estimates and actuals are resolved.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
@@ -11,7 +11,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Resolve cost prices on estimates and actuals - lite
+# Resolve cost prices on project estimates and actuals 
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -31,6 +31,12 @@ After a cost price list is resolved, the **Role** and **Resourcing Unit** fields
 Estimate lines for Expense refer to the quote and contract line details for expenses and the expense estimate lines on a project.
 
 After a cost price list is resolved, the system uses a combination of the **Category** and **Unit** fields on the expense estimate line to match against the **Category Price** lines on the resolved price list. If the system finds a category price line that has a cost rate for the **Category** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Category** and **Unit** values, or if it's able to find a matching category price line but the pricing method isn't **Price Per Unit**, the cost rate defaults to zero(0).
+
+## Resolving cost rates on actual and estimate lines for Material
+
+Estimate lines for Material refer to the quote and contract line details for materials and the material estimate lines on a project.
+
+After a cost price list is resolved, the system uses a combination of the **Product** and **Unit** fields on the estimate line for a material estimate to match against the **Price List Items** lines on the resolved price list. If the system finds a product price line that has a cost rate for the **Product** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Product** and **Unit** values, or if it is able to find a matching price list item line but the pricing method is based on Standard cost or Current cost and Standard or Current Cost is not defined on the product then unit cost is defaulted to zero(0).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
