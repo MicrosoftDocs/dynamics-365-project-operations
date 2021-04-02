@@ -26,7 +26,7 @@ To estimate a project-based contract line, go to the **Contract Line Detail** ta
 To create an estimate directly on a project contract line, follow these steps:
 
 1. Go to the contract line and select the **Contract Line Detail** tab. The lines you create on this tab are summarized and display as the **Contracted Value** for this **Contract Line**. 
-2. In the **Contract Line Details** subgrid, select **New Contract Line Detail**. A quick-create slider opens. The following fields are available on the **Contract Line Details** form:
+2. In the **Contract Line Details** subgrid, select **New Contract Line Detail**. A quick-create slider opens. The following fields are available on the **Contract Line Details** page.
 
 | Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
