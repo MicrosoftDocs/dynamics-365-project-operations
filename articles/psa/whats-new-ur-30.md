@@ -61,4 +61,4 @@ The following issues have been fixed:
 - When a price list is copied, prices aren't updated.
 - Closing a quote as won fails when the cost detail has a value for origin.
 - On the **Project Task** entity, **Estimated Cost** has been renamed to **Planned Cost (Base)**.
-- A Null Reference Exception generated when invoices are created or deleted.
+- A null reference exception is generated when invoices are created or deleted.
