@@ -37,7 +37,7 @@ Chargeability is defined on transaction categories for a  quote line and only ap
 
 ### Update a project task to be chargeable or non-chargeable
 
-A project task can be chargeable or non-chargeable in the context of a specific project-based quote line, which makes the following setup possible:
+A project task can be chargeable or non-chargeable in the context of a specific project-based quote line, which makes the following setup possible.
 
 If a project-based quote line includes **Time** and the task **T1**, the task is associated to the quote line as chargeable. If there is a second quote line that includes **Expenses**, you can associate the **T1** task on the quote line as non-chargeable. The result is that all time recorded on the task is chargeable and all expenses recorded on the task are non-chargeable.
 
@@ -58,24 +58,24 @@ A transaction's billing type can be configured on the **Chargeable Categories** 
 ### Resolve chargeability
 An estimate or actual created for time will only be considered chargeable if:
 
-   - **Time** is included on the quote line
-   - **Role** is configured as chargeable on the quote line 
-   - **Included Tasks** is set to **Selected tasks** on the quote line 
+   - **Time** is included on the quote line.
+   - **Role** is configured as chargeable on the quote line.
+   - **Included Tasks** is set to **Selected tasks** on the quote line. 
 
 If these three things are true, the **Task** is also configured as chargeable. 
 
 An estimate or actual created for expense is only considered chargeable if: 
 
-   - **Expense** is included on the quote line
-   - **Transaction category** is configured as chargeable on the quote line
-   - **Included Tasks** is set to **Selected tasks** on the quote line
+   - **Expense** is included on the quote line.
+   - **Transaction category** is configured as chargeable on the quote line.
+   - **Included Tasks** is set to **Selected tasks** on the quote line.
 
 If these three things are true, the **Task** is also configured as chargeable. 
 
 An estimate or actual created for material will only be considered chargeable if:
 
-   - **Materials** is included on the quote line
-   - **Included Tasks** is set to **Selected tasks** on the quote line
+   - **Materials** is included on the quote line.
+   - **Included Tasks** is set to **Selected tasks** on the quote line.
 
 If these two things are true, the **Task** should also be configured as chargeable. 
 
