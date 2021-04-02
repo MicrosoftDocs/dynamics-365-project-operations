@@ -48,7 +48,7 @@ To estimate a project-based quote line, on the quote line, select the **Quote Li
 
 ## Update prices on quote line details
 
-If you have changed prices on the project price list that is attached to the quote, or on cost price list of the contracting unit, you can select **Recalculate** on the **Quote** page, to refresh the prices on the individual quote line details to reflect this change. When you select **Recalculate**, a warning occurs that informs you that prices on quote line details for all quote lines on this quote will be reset. Select **Yes**, to refresh prices for both sales and cost quote line details.
+If you have changed prices on the project price list that is attached to the quote, or on cost price list of the contracting unit, you can select **Recalculate** on the **Quote** page, to refresh the prices on the individual quote line details to reflect this change. When you select **Recalculate**, a warning appears that informs you that prices on quote line details for all quote lines on this quote will be reset. Select **Yes**, to refresh prices for both sales and cost quote line details.
 
 ## Access quote line details for cost
 
