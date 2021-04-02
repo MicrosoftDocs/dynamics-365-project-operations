@@ -374,6 +374,10 @@
       items: 
       - name: VAT recovery
         href: expense/vat-recovery.md
+  - name: Material usage
+    items: 
+    - name: Record material usage on projects and project tasks
+      href: material/material-usage-log.md
   - name: Approvals
     items: 
     - name: Approvals overview
@@ -788,6 +792,10 @@
       href: expense/expense-overview.md
     - name: Expense entry (lite)
       href: expense/basic-expense.md
+  - name: Material usage
+    items: 
+    - name: Record material usage on projects and project tasks
+      href: material/material-usage-log.md
   - name: Approvals
     items: 
     - name: Approvals overview
@@ -978,6 +986,8 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update Release 30, V3
+      href: psa/whats-new-ur-30.md
     - name: What's new or changed in Update Release 29.5 Hotfix, V3
       href: psa/whats-new-ur-29-5.md
     - name: What's new or changed in Update Release 29, V3
