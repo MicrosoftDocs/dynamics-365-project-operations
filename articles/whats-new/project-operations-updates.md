@@ -67,15 +67,15 @@ Updates for Project management and accounting are released eight times a year.
 | Supported release | Generally available (self-update) |
 | --- | --- |
 | 10.0.16 | January 22, 2021 |
-| 10.0.15 | December 4, 2020 |
+| 10.0.17 | March 19, 2021 |
 
 
 Targeted release dates are subject to change. For more information, see [Service update availability](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
 
 | Targeted release date | Generally available (self- updated) |
 | --- | --- |
-| 10.0.17 | March 19, 2021 |
 | 10.0.18 | April 16, 2021 |
-
+| 10.0.19 | June 18, 2021 |
+| 10.0.20 | July 16, 2021 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
