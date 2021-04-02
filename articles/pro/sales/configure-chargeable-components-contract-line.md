@@ -37,7 +37,7 @@ Chargeability defined on transaction categories for a project contract line only
 
 ### Update a project task as chargeable or non-chargeable
 
-A project task can be chargeable or non-chargeable on a specific contract line which makes the following setup possible:
+A project task can be chargeable or non-chargeable on a specific contract line, which makes the following setup possible:
 
 If a project-based contract line includes **Time** and a certain task, **T1** is associated to it as chargeable. If there is a second contract line that includes **Expense**, you can associate the T1 task on the contract line as non-chargeable. The result is that all of the time recorded on the task is chargeable and all expenses are non-chargeable.
 
@@ -59,9 +59,9 @@ A transaction's billing type can be configured on the **Chargeable Categories** 
 
 An estimate or actual created for time is only considered chargeable if:
 
-   - **Time** is included on the contract line
-   - **Role** is configured as chargeable on the contract line
-   - **Included Tasks** is set to **Selected tasks** on the contract line
+   - **Time** is included on the contract line.
+   - **Role** is configured as chargeable on the contract line.
+   - **Included Tasks** is set to **Selected tasks** on the contract line.
  
  If these three things are true, the task is configured as chargeable. 
 
