@@ -3,7 +3,7 @@ title: Configure accounting for billable projects
 description: This topic provides information about the accounting options for billable projects.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -53,13 +53,25 @@ Complete the following steps to create a new project cost and revenue profile.
 
          - **Balance**: When posting the Project Operations integration journal, the expense transaction cost will be debited to the Ledger account type *WIP - Cost value* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the offset account on the journal line. Default offset accounts for expense are defined in **Project management and accounting** > **Setup** \> **Posting** \> **Default offset account for expenses**. The accountant will use the **Post costs** function to move this cost from the balance account to the profit and loss account on a periodic basis.
         - **Profit and loss**: When posting the Project Operations integration journal, the expense transaction cost will be debited to the Ledger account type *Cost* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the offset account on the journal line. Default offset accounts for expense are defined in **Project management and accounting** \> **Setup** \> **Posting** \> **Default offset account for expenses**.
+      
+    - **Post costs – item**:
+
+         - **Balance**: When posting the Project Operations Integration journal, the item transaction cost will be debited to the Ledger account type *WIP - Cost value - item* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the following:
+    
+              - For document type usage: **Cost - item** account on the **Ledger posting setup**.  
+              - For document type purchase: **Procurement integration account** on the **Project Management and accounting parameters**.
+           The accountant will use the **Post costs** function to move this cost from the balance account to the profit and loss account on a periodic basis.
+        - **Profit and loss**: When posting the Project Operations Integration journal, the item transaction cost will be debited to the Ledger account type *Cost* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the following:
+         
+             - For document type usage: **Cost - item** account on the **Ledger posting setup**.  
+             - For document type purchase: **Procurement integration account** on the **Project Management and accounting parameters**.
        
     - **On account invoicing**:
 
         - **Balance**: When posting the Project invoice proposal, an on-account transaction (billing milestone) will be credited to the Ledger account type *WIP Invoiced - on account* as defined on the **Revenue** tab on the **Ledger posting setup** page, and debited to the Customer balance account.
          - **Profit and loss**: When posting the Project invoice proposal, an on-account transaction (billing milestone) will be credited to the Ledger account type *Invoiced revenue- on account* as defined on the **Revenue** tab on the **Ledger posting setup** page, and debited to the Customer balance account. Customer balance accounts are defined in **Accounts receivable** \> **Setup** \> **Customer posting profiles**.
 
-   When you define the posting profiles for Time and material billing methods, you have the option to accrue revenue per transaction type (hour, expense, and fee). If the **Accrue revenue** option is set to **Yes**, unbilled sales transactions in the Project Operations Integration journal will be recorded to the general ledger. The sales value is debited to the **WIP - sales value account** and credited to the **Accrued revenue - sales value** account that was set up on the **Ledger posting setup** page, on the **Revenue** tab. 
+   When you define the posting profiles for Time and material billing methods, you have the option to accrue revenue per transaction type (hour, expense, item, and fee). If the **Accrue revenue** option is set to **Yes**, unbilled sales transactions in the Project Operations Integration journal will be recorded to the general ledger. The sales value is debited to the **WIP - sales value account** and credited to the **Accrued revenue - sales value** account that was set up on the **Ledger posting setup** page on the **Revenue** tab. 
   
   > [!NOTE]
   > The option, **Accrue revenue** is available only when the respective transaction type **Cost** is posted to the profit and loss account.
