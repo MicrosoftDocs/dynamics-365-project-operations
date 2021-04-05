@@ -23,16 +23,16 @@ A confirmed project invoice can be corrected to process changes or credits as ne
 To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**. 
 
 > [!NOTE]
-> This selection isn't available unless a project invoice is confirmed or if the project-based invoice has advances or retainers or reconciliations of advance or retainer.
+> This selection isn't available unless a project invoice is confirmed or the project-based invoice has advances or retainers or reconciliations of advances or retainers.
 
 A new draft invoice is created from the confirmed invoice. All invoice line details from the previously confirmed invoice are copied to the new draft. The following are some of the key points to understand about the line details on the new corrected invoice:
 
-- All quantities are updated to zero. The application assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created when the corrected invoice is confirmed. If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
+- All quantities are updated to zero. Dynamics 365 Project Operations assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created when the corrected invoice is confirmed. If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
 - Milestone corrections are always processed as full credits.
 
 
 > [!IMPORTANT]
-> Invoice line details that are corrections to other already invoiced charges have the field **Correction** set to **Yes**. Invoices that have corrected invoice line details have a field called **Has corrections** that is also set to **Yes**.
+> For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**. For invoices that have corrected invoice line details, the field **Has corrections** is set to **Yes**.
 
 ## Actuals created when a corrective invoice is confirmed
 
@@ -282,7 +282,7 @@ The following table lists the actuals that are created when a corrective invoice
             </td>
             <td width="408" valign="top">
                 <p>
-                    Unsupported
+                    This scenario isn't supproted.
                 </p>
             </td>
         </tr>       
