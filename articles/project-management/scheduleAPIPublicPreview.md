@@ -14,13 +14,11 @@ ms.author: chinuai
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
   
-  # Overview
+## Scheduling entities
 
-## Schedule entities
+Schedule APIs provide ability to perform create, update and delete operations with **Scheduling entities**. These entities are managed through the Scheduling engine in Project for the Web (P4W). Create, update and delete operations with Scheduling entities were restricted in earlier Project Operations releases.
 
-Schedule APIs provide ability to perform create, update and delete operations with **Schedule entities**. These entities are managed through the Scheduling engine in Project for the Web (P4W). Create, update and delete operations with Schedule entities were restricted in earlier Project Operations releases.
-
-Full list of Schedule entities provided below:
+Full list of Scheduling entities provided below:
 
 | **Entity Name ** | **Entity Logical Name** |
 | --- | --- |
@@ -43,11 +41,11 @@ OperationSet is a unit-of-work pattern that can be used when several schedule im
 
 ## Using Schedule APIs with OperationSet
 
-As records with both CreateProjectV1 and CreateTeamMemberV1 are created immediately, these APIs cannot be used in the OperationSet directly. However, you can use API to create needed records, then create an OperationSet and use these pre-created records in the OperationSet
+As records with both CreateProjectV1 and CreateTeamMemberV1 are created immediately, these APIs cannot be used in the OperationSet directly. However, you can use API to create needed records, then create an OperationSet and use these pre-created records in the OperationSet.
 
 ## Supported Operations
 
-| Schedule entity | Create | Update | Delete | Important considerations |
+| Scheduling entity | Create | Update | Delete | Important considerations |
 | --- | --- | --- | --- | --- |
 Project task | Yes | Yes | Yes |
 | Project task dependency | Yes | Yes | | Project task dependency records are not updated, instead old record can be deleted and new record can be created. |
@@ -68,11 +66,11 @@ The Id property is optional, if it is provided, system will attempt to use it an
 - Each user can only have a max of 10 open OperationSets.
 - Project Operations currently supports a max of 500 total tasks on a project.
 - OperationSet failure status and failure logs are not currently available.
-- **Schedule API are in Public preview, therefore using them is Production is not supported by Microsoft.**
+- **Schedule APIs are in Public preview, using these APIs in Production is not supported by Microsoft.**
 
 ## Sample scenario
 
-In this scenario we will create a Project, a TeamMember, 4 Tasks and 2 Resource Assignments. Then we will update 1 Task, update the Project, delete 1 Task, delete 1 Resource Assignment and create a Task Dependency.
+In this scenario we will create a Project, a Team Member, 4 Tasks and 2 Resource Assignments. Then we will update 1 Task, update the Project, delete 1 Task, delete 1 Resource Assignment and create a Task Dependency.
 
 ////Sample code snippet
 
