@@ -3,7 +3,7 @@ title: Confirm a proforma project-based invoice
 description: This topic provides information about confirming a proforma project-based invoice. 
 author: rumant
 manager: AnnBe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
@@ -48,7 +48,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    An unbilled sales actual of a negative amount of the retainer
+                    An unbilled sales actual with a negative amount of the retainer
                     or advance to be used for reconciliation.
                 </p>
             </td>
@@ -155,7 +155,7 @@ The following table lists the actuals created by the system. These actuals are c
                 <p>
                     A new unbilled sales actual that is non-chargeable for the
                     remaining hours and amount after deducting the corrected
-                    figures on edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.
+                    figures on the edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.
                 </p>
             </td>
         </tr>
@@ -184,7 +184,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-                    Invoicing an expense transaction without any edits on draft
+                    Invoicing an expense transaction without any edits on the draft
                     invoice.
                 </p>
             </td>
@@ -199,7 +199,7 @@ The following table lists the actuals created by the system. These actuals are c
             <td width="408" valign="top">
                 <p>
                     A billed sales actual for the quantity and amount on the
-                    original expense approval
+                    original expense approval.
                 </p>
             </td>
         </tr>
