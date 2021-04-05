@@ -57,14 +57,14 @@ Complete the following steps to create a new project cost and revenue profile.
     - **Post costs – item**:
 
          - **Balance**: When posting the Project Operations Integration journal, the item transaction cost will be debited to the Ledger account type *WIP - Cost value - item* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the following:
-         - 
-                - For document type usage: **Cost - item** account on the **Ledger posting setup**.  
-                - For document type purchase: **Procurement integration account** on the **Project Management and accounting parameters**.
+    
+              - For document type usage: **Cost - item** account on the **Ledger posting setup**.  
+              - For document type purchase: **Procurement integration account** on the **Project Management and accounting parameters**.
            The accountant will use the **Post costs** function to move this cost from the balance account to the profit and loss account on a periodic basis.
         - **Profit and loss**: When posting the Project Operations Integration journal, the item transaction cost will be debited to the Ledger account type *Cost* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the following:
-        - 
-                - For document type usage: **Cost - item** account on the **Ledger posting setup**.  
-                - For document type purchase: **Procurement integration account** on the **Project Management and accounting parameters**.
+         
+             - For document type usage: **Cost - item** account on the **Ledger posting setup**.  
+             - For document type purchase: **Procurement integration account** on the **Project Management and accounting parameters**.
        
     - **On account invoicing**:
 
