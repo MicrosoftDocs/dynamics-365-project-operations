@@ -3,7 +3,7 @@ title: Confirm a proforma project invoice
 description: This topic provides information about confirming proforma project invoices in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
