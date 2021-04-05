@@ -33,7 +33,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
- In Project Operations, **Product Price lists** and related price list item entities support functionality for pricing products on **product-based** ie. non-project quote and contract lines. For products used on **projects**, Price list items records of **Project price lists** are used. 
+ In Project Operations, **Product price lists** and related price list item entities support functionality for pricing products on product-based quote and contract lines. For products used on projects, the price list item records of project price lists are used. 
 
 Products should be set up so that they have default cost and price lists in the product catalog. Use the list price, standard cost, and current cost to configure default cost and list prices. The default list prices are used on a quote line or a project contract line only when the system can't find a price list line for that product in the product price list for the quote or project contract.
 
