@@ -11,22 +11,6 @@ ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: rumant
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
 ---
 
 
