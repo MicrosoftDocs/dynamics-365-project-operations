@@ -1,22 +1,22 @@
 ---
-title: Manage project price lists on project quotes - lite
-description: This topic provides information about working with project price lists on quotes. (Sales)
+title: Manage project price lists on project quotes 
+description: This topic provides information about working with project price lists on quotes.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Manage project price lists on project quotes - lite
+# Manage project price lists on project quotes 
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Project quotes are designed to support multiple date effective sales price lists. With Dynamics 365 Project Operations, a new associated entity called **Project price lists** is added. This entity has a 1-to-many relationship to a project quote.
 
-Project price lists are used to price time and expense transactions on a project. When a quote has one or more project price lists, these price lists are used to price time and expense estimates and actuals on projects that are associated to the quote through the quote line.
+Project price lists are used to price time, material, and expense transactions on a project. When a quote has one or more project price lists, these price lists are used to price time, material, expense estimates, and actuals on projects that are associated to the quote through the quote line.
 
 When there are no project price lists on a project quote, you will receive a warning message. The message states that because there are no project price lists, your estimated and actual project work and expenses will not be priced. Instead, they will have zero (0) price for sales values.
 
