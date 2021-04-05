@@ -35,9 +35,20 @@ OperationSet is a unit-of-work pattern that can be used when several schedule im
 
 ## Schedule APIs
 
-**CreateProjectV1** – this API can be used to create a Project. The project and default Project Bucket is created immediately.
+**msdyn_CreateProjectV1** – this API can be used to create a Project. The project and default Project Bucket is created immediately.
 
-**CreateTeamMemberV1** - This API can be used to create Project Team Member. The records are created immediately.
+**msdyn_CreateTeamMemberV1** - This API can be used to create Project Team Member. The records are created immediately.
+
+**msdyn_CreateOperationSetV1** - This API can be used to to schedule several requests that need to be performed within a transaction.
+
+**msdyn_PSSCreateV1** - This API can be used to create an entity. This entity can be any of the Scheduling entities supporting create operation.
+
+**msdyn_PSSUpdateV1** - This API can be used to update an entity. This entity can be any of the Scheduling entities supporting update operation.
+
+**msdyn_PSSDeleteV1** - This API can be used to delete an entity. This entity can be any of the Scheduling entities supporting delete operation.
+
+**msdyn_ExecuteOperationSetV1** - This API is used to execute all the operations within the given operation set. 
+
 
 ## Using Schedule APIs with OperationSet
 
@@ -52,8 +63,7 @@ Project task | Yes | Yes | Yes |
 | Resource assignment | Yes | Yes | | Operations with the following fields are not supported: BookableResourceID, Effort, EffortCompleted, EffortRemaining, PlannedWork. Resource assignment records are not updated, instead old record can be deleted and new record can be created. |
 | Project bucket | | | | Default bucket is created using CreateProjectV1 API |
 | Project team member | Yes | Yes | Yes | For create operation use API CreateTeamMemberV1 |
-| Project | Yes | Yes | | Operations with the following fields are not supported: StateCode, BulkGenerationStatus, GlobalRevisionToken, CalendarID, Effort, EffortCompleted, EffortRemaining, Progress, Finish, TaskEarliestStart, Duration
- |
+| Project | Yes | Yes | | Operations with the following fields are not supported: StateCode, BulkGenerationStatus, GlobalRevisionToken, CalendarID, Effort, EffortCompleted, EffortRemaining, Progress, Finish, TaskEarliestStart, Duration |
 
 These APIs can be called with entity objects that include custom fields.
 
