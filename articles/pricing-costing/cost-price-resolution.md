@@ -3,7 +3,7 @@ title: Resolving cost prices for estimates and actuals
 description: This topic provides information about how cost prices for estimates and actuals are resolved.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -31,10 +31,10 @@ Estimate lines for Expense refer to the quote and contract line details for expe
 
 After a cost price list is resolved, the system uses a combination of the **Category** and **Unit** fields on the estimate line for an expense to match against the **Category Price** lines on the resolved price list. If the system finds a category price line that has a cost rate for the **Category** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Category** and **Unit** values, or if it is able to find a matching category price line but the pricing method is not **Price Per Unit**, the cost rate is defaulted to zero(0).
 
-## Resolving cost rates on actual and estimate lines for Material
+## Resolving cost rates on actual and estimate lines for material
 
-Estimate lines for Material refer to the quote and contract line details for materials and the material estimate lines on a project.
+Estimate lines for material refer to the quote and contract line details for materials and the material estimate lines on a project.
 
-After a cost price list is resolved, the system uses a combination of the **Product** and **Unit** fields on the estimate line for a material estimate to match against the **Price List Items** lines on the resolved price list. If the system finds a product price line that has a cost rate for the **Product** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Product** and **Unit** values, or if it is able to find a matching price list item line but the pricing method is based on Standard cost or Current cost and Standard or Current Cost is not defined on the product then unit cost is defaulted to zero(0).
+After a cost price list is resolved, the system uses a combination of the **Product** and **Unit** fields on the estimate line for a material estimate to match against the **Price List Items** lines on the resolved price list. If the system finds a product price line that has a cost rate for the **Product** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Product** and **Unit** values, the unit cost defaults to zero. This default will also happen if there is a matching price list item line, but the pricing method is based on a standard cost or current cost that isn't defined in the product.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
