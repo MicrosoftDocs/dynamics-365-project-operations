@@ -3,7 +3,7 @@ title: Manage not-to-exceed status and validations
 description: This topic provides information about the not-to-exceed limit checks performed in Project Operations. 
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -16,7 +16,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 ## Not-to-exceed on approvals
 
-When a time or expense or material usage entry is submitted, an approval record is created. If the approval is chargeable and maps to a time and material contract line, the system completes a not-to-exceed validation check at the following levels:
+When a time, expense, or material usage entry is submitted, an approval record is created. If the approval is chargeable and maps to a time and material contract line, the system completes a not-to-exceed validation check at the following levels:
 
   - Check against the limit set up for the customer on the project contract line
   - Check against the limit set up on the contract line
@@ -29,11 +29,11 @@ If the check passes, the approval is given a validation status of **Success**.
 
 If the check fails, the approval is given a validation status of **Failed**. The not-to-exceed validation detail will inform the user at which level the validation failed.
 
-When the submitted time, expense or material usage entry is considered non-chargeable, the not-to-exceed validation status is set to **Not Applicable** with the validation detail equal to **Not applicable**.
+When the submitted time, expense, or material usage entry is considered non-chargeable, the not-to-exceed validation status is set to **Not Applicable** with the validation detail equal to **Not applicable**.
 
 ## Not-to-exceed on unbilled sales actuals
 
-When a time, expense or material usage entry is approved, cost and unbilled sales actuals records are created. If the unbilled sales actual being created is chargeable and maps to a time and material contract line, the application performs a not-to-exceed validation check at the following levels:
+When a time, expense, or material usage entry is approved, cost and unbilled sales actuals records are created. If the unbilled sales actual being created is chargeable and maps to a time and material contract line, the application performs a not-to-exceed validation check at the following levels:
 
   - Check against the limit set up for the customer of the project contract line
   - Check against the limit set up on the contract line
@@ -50,9 +50,9 @@ When the unbilled sales actual is considered non-chargeable or complimentary, if
 
 ## Reset the not-to-exceed status
 
-You can perform a bulk reset of the not-to-exceed status. This allows Project managers to adjust not-to-exceed validation to prioritize invoicing of one particular body of work, time, expense or material usage over others that are already committed from the available not-to-exceed amount.
+You can perform a bulk reset of the not-to-exceed status. Project managers can adjust the not-to-exceed validation to prioritize invoicing of one particular body of work, time, expense, or material usage over others that are already committed from the available not-to-exceed amount.
 
-After the not-to-exceed status is reset on unbilled sales actuals, the committed amount is reduced. The Project manager can select another body of work, time, expense or material usage entry that previously failed the not-to-exceed validation and reevaluate them. With the reduction in the committed amount, these actuals will now pass the validation. This helps the Project manager exert greater influence and control over the invoiceable transactions for that period.
+After the not-to-exceed status is reset on unbilled sales actuals, the committed amount is reduced. The Project manager can select another body of work, time, expense, or material usage entry that previously failed the not-to-exceed validation and reevaluate. With the reduction in the committed amount, these actuals now pass the validation which helps the Project manager exert greater influence and control over the invoiceable transactions for that period.
 
 To reset the not-to-exceed status, select one or more actuals from the **Time and Material Billing Backlog** or **Actuals** view, and then select **Reset Not-to-Exceed Status**.
 
