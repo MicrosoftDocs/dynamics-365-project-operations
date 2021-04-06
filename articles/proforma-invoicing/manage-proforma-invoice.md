@@ -1,6 +1,6 @@
 ---
 title: Manage a proforma project-based invoice
-description:  This topic provides information about how to manage and work with Proforma project-based invoices.
+description:  This topic provides information about how to manage and work with proforma project-based invoices.
 author: rumant
 manager: Annbe
 ms.date: 04/05/2021
@@ -34,7 +34,7 @@ The following information is available on a proforma invoice header in Project O
 | **Customer** | **Summary** tab | The reference to the linked project contract. A read-only field that is locked from editing. |
 | **Description** | **Summary** tab | The text field that describes the invoice. This field can be edited. | 
 | **Bill To** and related fields | **Summary Tab** | Defaults are set from the project contract customer. This field can be edited.  | 
-| **Status** | **Summary** tab | Sets the following options: **Active**, **Closed**, **Paid**, and **Canceled**, and can be editedr. Unsupported statuses for Project Operations include **Closed** and **Canceled**. </br> The status is set to **Active** when the invoice is created. </br>The status should be set to **Paid** only after the invoice is confirmed.  | 
+| **Status** | **Summary** tab | Sets the following options: **Active**, **Closed**, **Paid**, and **Canceled**, and can be edited. Unsupported statuses for Project Operations include **Closed** and **Canceled**. </br> The status is set to **Active** when the invoice is created. </br>The status should be set to **Paid** only after the invoice is confirmed.  | 
 | **Project Invoice Status** | **Summary** tab | Sets the following options: **Draft**, **In review**, and **Confirmed**, and can be edited. In both **Draft** and **In Review** statuses, the invoice can be edited. The invoice can't be edited after it's confirmed. | 
 | **Detail Amount** | **Summary** tab | The sum of amounts on all the invoice lines after advances and deductions. A read-only field that is locked from editing.  This field is used to calculate the final amount. | 
 | **Discount (%)** | **Summary** tab | This field can be edited to enter a discount percentage. This field is not supported by Project Operations functionality. This is an unsupported field.|  
@@ -74,10 +74,10 @@ The following fields are available on the invoice line detail that is backed by 
 
 | Field | Description |
 | --- | --- | 
-| **Invoice line** | A reference to the **Invoice Line ID**. Read-only field, locked for editing. This link can be used to navigate back to the invoice header. | 
+| **Invoice line** | A reference to the **Invoice Line ID**. This field is read only and locked for editing. This link can be used to navigate back to the invoice header. | 
 | **Description** | A description of the invoice line detail. Set by default from the **Internal Comments** field on the **Time Entry**, and from the **Description** field on **Expense Entry**. The field can be edited.| 
 | **External Description** | A description of the invoice line detail. Set by default from the **External Comments** field on the **Time Entry**, and the **Description** field on **Expense Entry**. The field can be edited. This description can be used to determine what should be on the printed invoice that will be sent to the customer. In Project Operations, a proforma invoice doesn't have all the required functionality to configure print settings for an invoice. | 
-| **Start Date** | This is a read=only field that is set by default from the source actual. |
+| **Start Date** | This is a read-only field that is set by default from the source actual. |
 | **Project** | This is a read-only field that is set by default from the source actual to the project on the related contract line. |  
 | **Task** | Set by default from the source actual. A read-only field that is locked from editing. |
 | **Transaction category** | Set by default from the source actual. A read-only field that is locked from editing. | 
@@ -101,7 +101,7 @@ The following fields are available on the invoice line detail that is backed by 
 | **Transaction Type** | This is a read-only field that is set by default from the source actual to **Billed Sales**. |  
 | **Transaction Class** | Set by default from the source actual. A read-only field that is locked from editing. | 
 
-The following fields are available on an invoice line detail that is backed by a milestone:
+The following fields are available on an invoice line detail that is backed by a milestone.
 
 | Field | Description |
 | --- | --- | 
@@ -133,7 +133,7 @@ If you have actuals that came in after the invoice was created, you can include 
 1. In the **Billing Backlog View**, mark the data as **Ready to Invoice**.   
 2. Open the draft proforma invoice and, on the **Actions** ribbon, select **Refresh Invoice Line Transactions**.
 
-  Invoice line details are created for any actual that is past dated and marked as **Ready to Invoice**; but isn't included on the invoice.
+  Invoice line details are created for any actual that is past dated and marked as **Ready to Invoice**, but isn't included on the invoice.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
