@@ -1,6 +1,6 @@
 ---
-title: Manage the billing backlog - lite
-description: This topic provides information about the various views available to use when managing the billing backlog.
+title: Manage project billing backlog 
+description: This topic provides information about the various views available to use when managing the billing backlog on projects.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Manage the billing backlog - lite
+# Manage project billing backlog 
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

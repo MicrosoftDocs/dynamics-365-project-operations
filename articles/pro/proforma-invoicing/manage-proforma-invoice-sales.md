@@ -1,16 +1,16 @@
 ---
-title: Manage a proforma invoice - lite
-description:  This topic provides information about working with Proforma invoices. 
+title: Manage a proforma project invoice 
+description:  This topic provides information about how to work with proforma project invoices.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Manage a proforma invoice - lite
+# Manage a proforma project invoice 
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -64,9 +64,9 @@ In Project Operations, there is always one invoice line for every project contra
 
 Each invoice line in a project invoice includes invoice line details. These line details are related to the unbilled sales actuals and milestones that relate to the contract line referenced by the invoice line. All these transactions are marked **Ready to Invoice**.
 
-For the **Time and Material Invoice** line, invoice line details are grouped into **Chargeable**, **Non-chargeable**, and **Complimentary** on the **Invoice Line** page. **Chargeable Invoice Line** details add up to the invoice line total. **Complimentary** and **Non-chargeable Actuals** do not add up to the invoice line total.
+For a **Time and Material Invoice** line, invoice line details are grouped into **Chargeable**, **Non-chargeable**, and **Complimentary** on the **Invoice Line** page. **Chargeable Invoice Line** details add up to the invoice line total. **Complimentary** and **Non-chargeable Actuals** don't add up to the invoice line total.
 
-For the **Fixed Price Invoice** line, invoice line details are created from milestones that are marked as **Ready to invoice** on the related contract line. After the invoice line detail is created from a milestone, the billing status on the milestone updates to **Customer Invoice Created**.
+For a **Fixed Price Invoice** line, invoice line details are created from milestones that are marked as **Ready to invoice** on the related contract line. After the invoice line detail is created from a milestone, the billing status on the milestone updates to **Customer Invoice Created**.
 
 ### Edit invoice line details
 
@@ -93,8 +93,12 @@ The following fields are available on an invoice line detail that is backed by a
 | **Tax** | Set by default from the source actual. The field can be edited by the user | The field can be edited by the user when creating a new invoice line detail without a backing actual. |
 | **Extended Amount** | A calculated field, calculated as **Amount + Tax**. A read-only field that is locked from editing. | &nbsp; |
 | **Billing Type** | Set by default from the source actual. The field can be edited by the user. | Selecting **Chargeable** adds the line to the invoice line total. **Complimentary** and **Non-chargeable** will exclude it from the invoice line total. |
+| **Select Product** | Set by default from the source actual, this is read-only field. | When you create a new invoice line detail without a backing actual, this field can be edited. |
+| **Product** | Set by default from the source actual, this is a read-only field. | When you create a new invoice line detail without a backing actual, this field can be edited if the **Select Product** field is set to **Existing product**. |
+| **Product Name** | Set by default from the source actual, this is a read-only field. | On a new invoice line detail, where the product ID is selected from catalog, this field is set to the product name. For a write in product, the field is set to the write in name. |
+| **Write In Description** | Set by default from the source actual, this field is read only. | When you create a new invoice line detail without a backing actual, you can add a write in description for the product. |
 | **Transaction Type** | Set by default from the source actual. A read-only field that is locked from editing. | Set by default to **Billed Sales** and locked when creating a new **Invoice line detail** without a backing actual.  |
-| **Transaction Class** | Set by default from the source actual. A read-only field that is locked from editing. | Set by default based on whether the user chooses to create a **Time**, **Expense**, or **Fee** invoice line detail while also creating a new **Invoice line detail** without an actual backing. Locked from editing. |
+| **Transaction Class** | Set by default from the source actual. A read-only field that is locked from editing. | Set by default based on whether the user chooses to create a **Time**, **Expense**, **Expense**, or **Fee** invoice line detail while also creating a new **Invoice line detail** without an actual backing. Locked from editing. |
 
 The following fields are available on an invoice line detail that is backed by a milestone:
 

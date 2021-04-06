@@ -405,24 +405,24 @@
     - name: Invoicing process overview
       href: invoicing/post-project-invoices.md
     - name: Manage project invoice proposals
-      href: invoicing/format-update-project-invoice-proposals.md
+      href: invoicing/format-update-project-invoice-proposals.md 
     - name: Proforma invoicing
       items:
-      - name: Manage project billing backlog
+      - name: Manage project-based billing backlog
         href: proforma-invoicing/manage-billing-backlog.md
       - name: Manage not-to-exceed status and validations
         href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-      - name: Create a proforma project invoice manually
+      - name: Proforma project-based invoices
         href: proforma-invoicing/create-manual-proforma-invoice.md
-      - name: Manage a proforma project invoice
+      - name: Manage a proforma project-based invoice
         href: proforma-invoicing/manage-proforma-invoice.md
       - name: Invoice a retainer or an advance
         href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-      - name: Confirm a proforma project invoice
+      - name: Confirm a proforma project-based invoice
         href: proforma-invoicing/confirm-proforma-invoice.md
       - name: Create corrective project-based invoices 
-        href: invoicing/post-project-invoices.md
-      - name: Configure project invoice automation
+        href: proforma-invoicing/corrective-invoices.md
+      - name: Configure project-based invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
     items:
@@ -824,7 +824,7 @@
       href: pro/proforma-invoicing/manage-billing-backlog-sales.md
     - name: Manage not-to-exceed status and validations
       href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-    - name: Create a proforma project invoice manually
+    - name: Proforma project invoices 
       href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
     - name: Manage a proforma project invoice 
       href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
