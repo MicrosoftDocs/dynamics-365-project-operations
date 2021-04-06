@@ -10,9 +10,9 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Map projects and tasks to a project-based contract line - lite
+# Map projects and tasks to a project-based contract line 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 On project-based contract lines, you can map specific tasks in a project to the contract line.
 

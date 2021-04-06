@@ -1,6 +1,6 @@
 ---
-title: Create corrective project invoices
-description: This topic provides information about how to use corrective invoices in Project Operations.
+title: Create corrective project-based invoices 
+description: This topic provides information about corrective invoices in Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 03/29/2021
@@ -10,9 +10,9 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Create corrective project invoices
+# Create corrective project-based invoices 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.
 
@@ -21,18 +21,17 @@ To make edits to a confirmed invoice, open the confirmed invoice and select **Co
 > [!NOTE]
 > This selection isn't available unless a project invoice is confirmed.
 
-A new draft invoice is created from the confirmed invoice. All invoice line details from the previously confirmed invoice are copied to the new draft. The following are some of the key points to understand about the line details on the new corrected invoice:
+A new draft invoice is created from the confirmed invoice. All invoice line details from the previously confirmed invoice are copied to the new draft. The following are some key points to help you understand more about the line details on the new corrected invoice:
 
-- All quantities are updated to zero. The application assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created when the corrected invoice is confirmed. If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
-- Previously confirmed product-based contract lines are not copied over. Processing corrections on a product-based project invoice is not supported.
+- All quantities are updated to zero. This assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created when the corrected invoice is confirmed. If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
 - Milestone corrections are always processed as full credits.
 - Retainer or advance amounts can be corrected if the customer was invoiced for an incorrect amount.
 - Reconciliations of retainers and advances can be corrected if an incorrect amount was used to reconcile against the charges on a previously confirmed invoice.
 
 > [!IMPORTANT]
-> Invoice line details that are corrections to other already invoiced charges have the field **Correction** set to **Yes**. Invoices that have corrected invoice line details have a field called **Has corrections** that is also set to **Yes**.
+> Invoice line details that are corrections to other already invoiced charges have the **Correction** field set to **Yes**. Invoices that have corrected invoice line details have a field called **Has corrections** that is also set to **Yes**.
 
-## Actuals created when a corrective invoice is confirmed
+## Actuals created on confirmation of a corrective invoice
 
 The following table lists the actuals that are created when a corrective invoice is confirmed.
 
@@ -296,7 +295,7 @@ The following table lists the actuals that are created when a corrective invoice
                     invoice line detail for the milestone.
                 </p>
                 <p>
-                    The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.
+                    The invoice status on the milestone is updated from <b>Customer invoice posted</b> to <b>Ready to Invoice</b>.
                 </p>
             </td>
         </tr>
@@ -312,21 +311,9 @@ The following table lists the actuals that are created when a corrective invoice
                     Unsupported
                 </p>
             </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-                    Credits and corrections of a previously invoiced product-based contract line.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-                    Unsupported
-                </p>
-            </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

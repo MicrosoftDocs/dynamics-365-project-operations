@@ -85,16 +85,20 @@
       - name: Manage multiple customers on a project quote
         href: sales/manage-multiple-customers-quote.md
       - name: Manage project price lists on a quote
-        href: sales/managing-project-price-lists.md
+        href: pro/sales/manage-project-price-lists-sales.md
       - name: Project-based quote lines
         items:
         - name: Project-based quote lines overview
-          href: sales/manage-quoted-values-budget-limits-quote-line.md 
+          href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
+        - name: Map projects and tasks to project-based quote lines
+          href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+        - name: Configure chargeable components for project-based quote lines
+          href: pro/sales/configure-chargeable-components-quote-line-sales.md
         - name: Configure the chargeable components of a project quote line
           href: sales/configure-chargeable-quoteline.md
-        - name: Create estimates on a quote line
+        - name: Estimate a project quote line
           href: sales/create-estimate-quote-line.md
         - name: Import estimates from a project to a project-based quote line
           href: sales/import-estimate-quote-line.md
@@ -119,12 +123,14 @@
       - name: Project-based contract lines
         items: 
         - name: Project-based contract lines overview
-          href: sales/manage-contract-values-project-based.md
+          href: pro/sales/manage-contract-values-project-based-sales.md
         - name: Manage multiple customers on project-based contract lines
           href: sales/manage-multiple-customers-contract-line.md
-        - name: Configure chargeable components of a project-based contract line
-          href: sales/configure-chargeable-contract-line.md
-        - name: Estimate a project-based contract line
+        - name: Map projects and tasks on a project contract line 
+          href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+        - name: Configure chargeable components for a project contract line 
+          href: pro/sales/configure-chargeable-components-contract-line.md
+        - name: Estimate a project contract line
           href: sales/create-estimate-contract-line.md
         - name: Import estimates from a project to a project-based contract line
           href: sales/import-estimate-project-contract-line.md
@@ -132,8 +138,6 @@
           href: sales/invoice-schedules-contract-line.md
       - name: Confirm a project contract
         href: pro/sales/confirm-contract-sales.md
-      - name: Copy a project contract
-        href: pro/sales/copy-project-contracts-sales.md
       - name: Advances and retainers
         items: 
         - name: Advances and retainer-based contracts
@@ -228,6 +232,8 @@
         href: project-management/resource-estimates.md
       - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
+      - name: Financial estimates for materials on projects
+        href: project-management/create-material-estimate.md
     - name: Project tracking
       items: 
       - name: Project effort tracking 
@@ -372,6 +378,10 @@
       items: 
       - name: VAT recovery
         href: expense/vat-recovery.md
+  - name: Material usage
+    items: 
+    - name: Record material usage on projects and project tasks
+      href: material/material-usage-log.md
   - name: Approvals
     items: 
     - name: Approvals overview
@@ -384,6 +394,8 @@
     items: 
     - name: Actuals overview
       href: actuals/actuals-overview.md
+    - name: Link actuals to original records
+      href: actuals/linkingactuals.md
     - name: Correction journals
       items:
       - name: Create and confirm Correction journals
@@ -408,6 +420,8 @@
         href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
       - name: Confirm a proforma project invoice
         href: proforma-invoicing/confirm-proforma-invoice.md
+      - name: Create corrective project-based invoices 
+        href: invoicing/post-project-invoices.md
       - name: Configure project invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
   - name: Project accounting
@@ -680,6 +694,8 @@
         href: project-management/resource-estimates.md
       - name: Financial estimates for expenses on projects
         href: project-management/create-expense-estimates.md
+      - name: Financial estimates for materials on projects
+        href: project-management/create-material-estimate.md
     - name: Project tracking
       items: 
       - name: Project effort tracking 
@@ -780,6 +796,10 @@
       href: expense/expense-overview.md
     - name: Expense entry (lite)
       href: expense/basic-expense.md
+  - name: Material usage
+    items: 
+    - name: Record material usage on projects and project tasks
+      href: material/material-usage-log.md
   - name: Approvals
     items: 
     - name: Approvals overview
@@ -792,6 +812,8 @@
     items: 
     - name: Actuals overview
       href: actuals/actuals-overview.md
+    - name: Link actuals to original records
+      href: actuals/linkingactuals.md
     - name: Correction journals
       items:
       - name: Create and confirm Correction journals
@@ -968,6 +990,10 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update Release 30, V3
+      href: psa/whats-new-ur-30.md
+    - name: What's new or changed in Update Release 29.5 Hotfix, V3
+      href: psa/whats-new-ur-29-5.md
     - name: What's new or changed in Update Release 29, V3
       href: psa/whats-new-ur-29.md
     - name: What's new or changed in Update Release 28.6 Hotfix, V3
