@@ -16,7 +16,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios
 
 Each price list has a set of role prices, or labor rates, that are effective for the context and date effectivity included on the price list header. Bill rates for time in Dynamics 365 Project Operations can be set up in only one currency, which is the currency on the Price list header.
 
-1. To set up labor bill rates for a sales price list, create a price list based on the price list header. 
+1. To set up labor bill rates for a sales price list, create a price list from Sales->Customers->Price Lists, click on '+ New' to create a new price list. 
 2. On the **Role Prices** tab, in the subgrid, select **+ New Role Price**. 
 3. On the **Quick Create** pane, enter the role and organization unit combination for which you need to set up the bill rate.
 
