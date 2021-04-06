@@ -18,7 +18,7 @@ You can set up cost and sales prices for products in Dynamics 365 Project Operat
 
 To set up cost and sales rates for products, complete the following steps. 
 
-1. Create a price list based on the price list header. 
+1. From Sales->Customers->Price Lists, click on '+ New' to create a new price list. 
 2. On the **Price list items**, on the subgrid menu, select **+ New price list item**. 
 3. On the **Quick Create** page, enter the product and unit that you are creating the new price for.
 
