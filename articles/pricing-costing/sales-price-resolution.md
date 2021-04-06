@@ -57,7 +57,9 @@ In Project Operations, estimate lines for material are used to denote the quote 
 After a price list for sales is resolved, the system completes the following steps to default the unit sales price.
 
 1. The system uses the **Product** and **Unit** field combination on the estimate line for material to match against the price list item lines in the price list that was resolved.
-2. If the system finds a price list item line that has a sales rate for the **Product** and **Unit** field combination, the sales rate is used as the default. If the system finds a matching price list item line when pricing method is not currency amount, the pricing method may be used to default the sales price. 
+
+2. If the system finds a price list item line that has a sales rate for the **Product** and **Unit** field combination and pricing method is **Currency amount** then the sales price that is specified on the price list line is used.
+ 
 3. If the **Product** and **Unit** field values aren't a match, the sales rate defaults to zero.
 
 
