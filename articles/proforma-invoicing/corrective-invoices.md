@@ -32,7 +32,7 @@ A new draft invoice is created from the confirmed invoice. All invoice line deta
 
 
 > [!IMPORTANT]
-> For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**. For invoices that have corrected invoice line details, the field **Has corrections** is set to **Yes**.
+> For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**. For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.
 
 ## Actuals created when a corrective invoice is confirmed
 
@@ -282,7 +282,7 @@ The following table lists the actuals that are created when a corrective invoice
             </td>
             <td width="408" valign="top">
                 <p>
-                    This scenario isn't supproted.
+                    This scenario isn't supported.
                 </p>
             </td>
         </tr>       
