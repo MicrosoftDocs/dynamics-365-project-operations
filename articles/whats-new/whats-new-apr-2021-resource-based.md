@@ -29,6 +29,7 @@ The following features are included in this release:
   - Tracking the use of non-stocked materials during project delivery. For more information, see [Record material usage on projects and project tasks](../material/material-usage-log.md).
   - Invoicing used non-stocked material costs. For more information, see [Manage billing backlog](../proforma-invoicing/manage-billing-backlog.md).
 - Task based billing: Added the ability to associate project tasks with project contract lines, thereby subjecting them to the same billing method, invoice frequency, and customers as those on the contract line. This association ensures accurate invoicing, accounting, revenue estimation, and recognition to work in accordance with this setup on project tasks.
+  - New APIs in Dynamics 365 Dataverse allow create, update, and delete operations with **Scheduling entities**. For more information, see [Use Schedule APIs to perform operations with Scheduling entities](../project-management/schedule-api-preview.md).
 
 ## Quality updates
 
