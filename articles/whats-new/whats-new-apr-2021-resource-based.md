@@ -25,9 +25,9 @@ This topic applies to the following Dynamics 365 Project Operations components a
 The following features are included in this release:
 
 - Non-stocked materials for projects. Key capabilities include:
-  - Estimating and pricing non-stocked materials during the sales cycle for a project. For more information, see [Set up cost and sales rates for catalog products - lite](../pricing-costing/set-up-cost-sales-rates-catalog-products.md).
-  - Tracking the use of non-stocked materials during project delivery. For more information, see [Record material usage on projects and project tasks](../../material/material-usage-log.md).
-  - Invoicing used non-stocked material costs. For more information, see [Manage the billing backlog - lite](../proforma-invoicing/manage-billing-backlog-sales#product-billing-backlog.md).
+  - Estimating and pricing non-stocked materials during the sales cycle for a project. For more information, see [Set up cost and sales rates for catalog products - lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
+  - Tracking the use of non-stocked materials during project delivery. For more information, see [Record material usage on projects and project tasks](../material/material-usage-log.md).
+  - Invoicing used non-stocked material costs. For more information, see [Manage the billing backlog - lite](../proforma-invoicing/manage-billing-backlog-sales.md#product-billing-backlog).
 - Task based billing: Added the ability to associate project tasks with project contract lines, thereby subjecting them to the same billing method, invoice frequency, and customers as those on the contract line. This association ensures accurate invoicing, accounting, revenue estimation, and recognition to work in accordance with this setup on project tasks.
 
 ## Quality updates
