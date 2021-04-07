@@ -16,7 +16,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 ## Scheduling entities
 
-Schedule APIs provide the ability to perform create, update, and delete operations with **Scheduling entities**. These entities are managed through the Scheduling engine in Microsoft Project for the Web. Create, update, and delete operations with **Scheduling entities** were restricted in earlier Dynamics 365 Project Operations releases.
+Schedule APIs provide the ability to perform create, update, and delete operations with **Scheduling entities**. These entities are managed through the Scheduling engine in Project for the web. Create, update, and delete operations with **Scheduling entities** were restricted in earlier Dynamics 365 Project Operations releases.
 
 The following table provides a full list of the **Scheduling entities**.
 
