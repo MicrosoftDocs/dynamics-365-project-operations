@@ -3,7 +3,7 @@ title: Resolve cost prices on project estimates and actuals
 description: This topic provides information about how cost prices on project estimates and actuals are resolved.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/202
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -36,7 +36,7 @@ After a cost price list is resolved, the system uses a combination of the **Cate
 
 Estimate lines for Material refer to the quote and contract line details for materials and the material estimate lines on a project.
 
-After a cost price list is resolved, the system uses a combination of the **Product** and **Unit** fields on the estimate line for a material estimate to match against the **Price List Items** lines on the resolved price list. If the system finds a product price line that has a cost rate for the **Product** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Product** and **Unit** values, or if it is able to find a matching price list item line but the pricing method is based on Standard cost or Current cost and Standard or Current Cost is not defined on the product then unit cost is defaulted to zero(0).
+After a cost price list is resolved, the system uses a combination of the **Product** and **Unit** fields on the estimate line for a material estimate to match against the **Price List Items** lines on the resolved price list. If the system finds a product price line that has a cost rate for the **Product** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Product** and **Unit** values, or if it's able to find a matching price list item line but the pricing method is based on Standard cost or Current cost and neither is defined on the product, the unit cost defaults to zer.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
