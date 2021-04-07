@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Use Schedule APIs to operations with Scheduling entities
+# Use Schedule APIs to perform operations with Scheduling entities
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Schedule APIs provide the ability to perform create, update, and delete operations with **Scheduling entities**. These entities are managed through the Scheduling engine in Microsoft Project for the Web. Create, update, and delete operations with **Scheduling entities** were restricted in earlier Dynamics 365 Project Operations releases.
 
-The following table provides a full list of the **Scheduling entities**:
+The following table provides a full list of the **Scheduling entities**.
 
 | Entity name  | Entity logical name |
 | --- | --- |
@@ -57,7 +57,7 @@ Project task | Yes | Yes | Yes | None |
 | Project task dependency | Yes | Yes | | Project task dependency records aren't updated. Instead, an old record can be deleted and a new record can be created. |
 | Resource assignment | Yes | Yes | | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, and **PlannedWork**. Resource assignment records aren't updated. Instead, the old record can be deleted and a new record can be created. |
 | Project bucket | N/A | N/A | N/A | The default bucket is created using the **CreateProjectV1** API. |
-| Project team member | Yes | Yes | Yes | For the create operation, use the API **CreateTeamMemberV1**. |
+| Project team member | Yes | Yes | Yes | For the create operation, use the **CreateTeamMemberV1** API. |
 | Project | Yes | Yes | N/A | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
 
 These APIs can be called with entity objects that include custom fields.
@@ -65,6 +65,7 @@ These APIs can be called with entity objects that include custom fields.
 The ID property is optional. If it's provided, the system attempts to use it and throws an exception if it can't be used. If it isn't provided, the system will generate it.
 
 ## Limitations and known issues
+The following is a list of limitations and known issues:
 
 - Schedule APIs can only be used by **Users with Microsoft Project License.** They can't be used by:
     - Application users
