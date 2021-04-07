@@ -36,7 +36,7 @@ The following features are included in this release:
 
 | **Feature area** | **Reference number** | **Quality update** |
 | --- | --- | --- |
-| Billing and pricing | 2124532 | &The **Correct Invoice** button is displayed on a proforma invoice when the retainer amount or applied retainer amount is present on the original invoice. The button is displayed only for environments with Finance version 10.0.19 or higher. |
+| Billing and pricing | 2124532 | The **Correct Invoice** button is displayed on a proforma invoice when the retainer amount or applied retainer amount is present on the original invoice. The button is displayed only for environments with Finance version 10.0.19 or higher. |
 | Billing and pricing | 2224568 | Added logic to enable customizations that involve invoking the invoice confirmation plug-in. |
 | Billing and pricing | 2101098 | Improved the logic of default fields to proforma invoice: **Bill-to Address**, **Bill to Name**, and **Payment Terms** now default from the corresponding project contract customer record. |
 | Billing and pricing | 2021413 | Updated the **Actual Cost** and **Sales** fields on the **Task** entity to include sales values from unbilled and billed expenses on tasks. |
@@ -44,7 +44,7 @@ The following features are included in this release:
 | Opportunity Management | 2186741 | Added validations to ensure the **Origin** field and **Transaction Type** can't be updated on existing quote line details. |
 | Opportunity Management | 2191353 | Milestones must not be created on a time and material contract line. |
 | Opportunity Management | 2216956 | Fixed issues with **Update prices**. |
-| Planning and Tracking | 2182979 | Project copy function improved to ensure expense estimate lines are copied from the original project. |
+| Planning and Tracking | 2182979 | Project copy function improved to ensure the expense estimate lines are copied from the original project. |
 | Planning and Tracking | 2184144 | Project copy function improved to ensure the resource position name is copied from the original project. |
 | Planning and Tracking | 2184799 | Project copy: Tightened control to ensure the estimated start date can't be changed while copying is in progress. |
 | Planning and Tracking | 2185134 | Project copy: Destination project estimated start date is set to today's date. |
@@ -65,7 +65,7 @@ The following features are included in this release:
 | Project management and accounting | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | The **Accounting adjustment** feature creates an issue with ledger accounts that have **Do not allow manual entry** selected. |
 | Project management and accounting | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Added business logic to process correction invoices including retainer amount or applied retainer amount. |
 | Project management and accounting | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP-sales value posting in intercompany project invoicing picks an unexpected account. |
-| Project management and accounting | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | When working with retainers in Project Operations, changing the default project on contract after the prepayments are invoiced causes issues later with incoming deductions. |
+| Project management and accounting | [521807](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521807) | When working with retainers in Project Operations, changing the default project on a contract after the prepayments are invoiced causes issues with incoming deductions. |
 | Project management and accounting | [527319](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527319) | In Project Operations, removing a project from a contract should reset the default project of the contract, if needed. |
 | Project management and accounting | [528212](https://fix.lcs.dynamics.com/Issue/Details/?bugId=528212) | In Project Operations, the wrong expense lines show in the **Add line** list on the intercompany invoice. |
 | Project management and accounting | [543968](https://fix.lcs.dynamics.com/Issue/Details/?bugId=543968) | In Project Operations, the **Purchase Agreement** page isn't visible in Finance legal entities that are integrated with Project Operations. |
@@ -79,14 +79,14 @@ The following features are included in this release:
 | Travel and Expense | [487971](https://fix.lcs.dynamics.com/Issue/Details/?bugId=487971) | An expense report is incorrectly posted in an intercompany scenario if the sales tax is posted to the destination legal entity. |
 | Travel and Expense | [505696](https://fix.lcs.dynamics.com/Issue/Details/?bugId=505696) | Report submission dates aren't printed on approved expense reports. |
 | Travel and Expense | [508726](https://fix.lcs.dynamics.com/Issue/Details/?bugId=508726) | The **Date Approved** and **Date Rejected** fields aren't populated after an expense is approved. |
-| Travel and Expense | [509913](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509913) | A travel requisition created for one worker can be used for another workers expense report. |
+| Travel and Expense | [509913](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509913) | A travel requisition created for one worker can be used for another worker's expense report. |
 | Travel and Expense | [518186](https://fix.lcs.dynamics.com/Issue/Details/?bugId=518186) | Expense categories are locked when adding a new expense line. |
 | Travel and Expense | [520914](https://fix.lcs.dynamics.com/Issue/Details/?bugId=520914) | Itemizing an already split expense report lines results in an incomplete posting of the Accounts Payable\General Ledger voucher and breaks the Accounting Source Explorer because **TRVEXPTRANS.SOURCEDOCUMENTLINE** is duplicated. |
 | Travel and Expense | [521943](https://fix.lcs.dynamics.com/Issue/Details/?bugId=521943) | The travel requisition policy isn't working as expected. |
 | Travel and Expense | [522567](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522567) | The vendor account name isn't showing on posted project transactions for expense reports. |
 | Travel and Expense | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | In Project Operations, you can't approve time with a task for an intercompany project. |
 | Travel and Expense | [526336](https://fix.lcs.dynamics.com/Issue/Details/?bugId=526336) | The cash advance return category isn't updating cash advance balances when posted. |
-| Travel and Expense | [527218](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527218) | The sales price is calculated wrong on expense reports that were created in a foreign currency using imported credit card transactions and are associated with a project. |
+| Travel and Expense | [527218](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527218) | The sales price is calculated incorrectly on expense reports that were created in a foreign currency using imported credit card transactions and are associated with a project. |
 | Travel and Expense | [542927](https://fix.lcs.dynamics.com/Issue/Details/?bugId=542927) | Rolled back the **TrvRequisitionLine** data entity and the associated unique index. |
 | Travel and Expense | [543239](https://fix.lcs.dynamics.com/Issue/Details/?bugId=543239) | Added instrumentation to the **SOURCEDOCUMENTLINE** generation. |
 | Travel and Expense | [544323](https://fix.lcs.dynamics.com/Issue/Details/?bugId=544323) | The wrong subledger journal is shown in an intercompany scenario if sales tax is posted to the destination legal entity. |
