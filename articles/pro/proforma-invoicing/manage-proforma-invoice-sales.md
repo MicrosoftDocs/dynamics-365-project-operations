@@ -98,7 +98,7 @@ The following fields are available on an invoice line detail that is backed by a
 | **Product Name** | Set by default from the source actual, this is a read-only field. | On a new invoice line detail, where the product ID is selected from catalog, this field is set to the product name. For a write in product, the field is set to the write in name. |
 | **Write In Description** | Set by default from the source actual, this field is read only. | When you create a new invoice line detail without a backing actual, you can add a write in description for the product. |
 | **Transaction Type** | Set by default from the source actual. A read-only field that is locked from editing. | Set by default to **Billed Sales** and locked when creating a new **Invoice line detail** without a backing actual.  |
-| **Transaction Class** | Set by default from the source actual. A read-only field that is locked from editing. | Set by default based on whether the user chooses to create a **Time**, **Expense**, **Expense**, or **Fee** invoice line detail while also creating a new **Invoice line detail** without an actual backing. Locked from editing. |
+| **Transaction Class** | Set by default from the source actual. A read-only field that is locked from editing. | Set by default based on whether the user chooses to create a **Time**, **Expense**, **Material**, or **Fee** invoice line detail while also creating a new **Invoice line detail** without an actual backing. Locked from editing. |
 
 The following fields are available on an invoice line detail that is backed by a milestone:
 
