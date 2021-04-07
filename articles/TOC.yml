@@ -262,6 +262,8 @@
       items:
       - name: Develop project templates with Copy Project
         href: project-management/dev-copy-project.md
+      - name: Use Schedule APIs (Public Preview)
+        href: project-management/schedule-api-preview.md
   - name: Resource management
     items: 
     - name: Key concepts
@@ -726,6 +728,8 @@
       items:
       - name: Develop project templates with Copy Project
         href: project-management/dev-copy-project.md
+      - name: Use Schedule APIs (Public Preview)
+        href: project-management/schedule-api-preview.md
   - name: Resource management
     items: 
     - name: Key concepts
