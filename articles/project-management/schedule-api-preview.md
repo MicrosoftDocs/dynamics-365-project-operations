@@ -3,7 +3,7 @@ title: Use Schedule APIs to perfom operations with Scheduling entities
 description: This topic provides information and samples for using Schedule APIs.
 author: sigitac
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -171,332 +171,187 @@ In this scenario, you will create a project, a team member, four tasks, and two 
       return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
     }
 
-///\&lt;summary\&gt;
-
-/// Calls the action to update an entity, only Task and Resource Assignment for now
-
-///\&lt;/summary\&gt;
-
-///\&lt;paramname=&quot;recordId&quot;\&gt;Id of the record to be deleted\&lt;/param\&gt;
-
-///\&lt;paramname=&quot;entityLogicalName&quot;\&gt;Entity logical name of the record\&lt;/param\&gt;
-
-///\&lt;paramname=&quot;operationSetId&quot;\&gt;OperationSet Id\&lt;/param\&gt;
-
-///\&lt;returns\&gt;OperationSetResponse\&lt;/returns\&gt;
-
-private OperationSetResponse CallPssDeleteAction(string recordId, string entityLogicalName, string operationSetId)
-
-{
-
-OrganizationRequest operationSetRequest = new OrganizationRequest(&quot;msdyn\_PssDeleteV1&quot;);
-
-operationSetRequest[&quot;RecordId&quot;] = recordId;
-
-operationSetRequest[&quot;EntityLogicalName&quot;] = entityLogicalName;
-
-operationSetRequest[&quot;OperationSetId&quot;] = operationSetId;
-
-return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
-
-}
-
-///\&lt;summary\&gt;
-
-/// Calls the action to execute requests in an operationSet
-
-///\&lt;/summary\&gt;
-
-///\&lt;paramname=&quot;operationSetId&quot;\&gt;operationSet id\&lt;/param\&gt;
-
-///\&lt;returns\&gt;OperationSetResponse\&lt;/returns\&gt;
-
-private OperationSetResponse CallExecuteOperationSetAction(string operationSetId)
-
-{
-
-OrganizationRequest operationSetRequest = new OrganizationRequest(&quot;msdyn\_ExecuteOperationSetV1&quot;);
-
-operationSetRequest[&quot;OperationSetId&quot;] = operationSetId;
-
-return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
-
-}
-
-///\&lt;summary\&gt;
-
-/// This can be used to abandon an operationSet that is no longer needed
-
-///\&lt;/summary\&gt;
-
-///\&lt;paramname=&quot;operationSetId&quot;\&gt;operationSet id\&lt;/param\&gt;
-
-///\&lt;returns\&gt;OperationSetResponse\&lt;/returns\&gt;
-
-protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId)
-
-{
-
-OrganizationRequest operationSetRequest = new OrganizationRequest(&quot;msdyn\_AbandonOperationSetV1&quot;);
-
-operationSetRequest[&quot;OperationSetId&quot;] = operationSetId.ToString();
-
-return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
-
-}
-
-///\&lt;summary\&gt;
-
-/// Calls the action to create a new project
-
-///\&lt;/summary\&gt;
-
-///\&lt;paramname=&quot;project&quot;\&gt;Project\&lt;/param\&gt;
-
-///\&lt;returns\&gt;project Id\&lt;/returns\&gt;
-
-private Guid CallCreateProjectAction(Entity project)
-
-{
-
-OrganizationRequest createProjectRequest = new OrganizationRequest(&quot;msdyn\_CreateProjectV1&quot;);
-
-createProjectRequest[&quot;Project&quot;] = project;
-
-OrganizationResponse response = organizationService.Execute(createProjectRequest);
-
-var projectId = Guid.Parse((string)response[&quot;ProjectId&quot;]);
-
-return projectId;
-
-}
-
-///\&lt;summary\&gt;
-
-/// Calls the action to create a new project team member
-
-///\&lt;/summary\&gt;
-
-///\&lt;paramname=&quot;teamMember&quot;\&gt;Project team member\&lt;/param\&gt;
-
-///\&lt;returns\&gt;project team member Id\&lt;/returns\&gt;
-
-privatestring CallCreateTeamMemberAction(Entity teamMember)
-
-{
-
-OrganizationRequest request = new OrganizationRequest(&quot;msdyn\_CreateTeamMemberV1&quot;);
-
-request[&quot;TeamMember&quot;] = teamMember;
-
-OrganizationResponse response = organizationService.Execute(request);
-
-return (string)response[&quot;TeamMemberId&quot;];
-
-}
-
-private OperationSetResponse GetOperationSetResponseFromOrgResponse(OrganizationResponse orgResponse)
-
-{
-
-return JsonConvert.DeserializeObject\&lt;OperationSetResponse\&gt;((string)orgResponse.Results[&quot;OperationSetResponse&quot;]);
-
-}
-
-private EntityCollection GetDefaultBucket(EntityReference projectReference)
-
-{
-
-var columnsToFetch = new ColumnSet(&quot;msdyn\_project&quot;, &quot;msdyn\_name&quot;);
-
-var getDefaultBucket = new QueryExpression(&quot;msdyn\_projectbucket&quot;)
-
-{
-
-ColumnSet = columnsToFetch,
-
-Criteria =
-
-{
-
-Conditions =
-
-{
-
-new ConditionExpression(&quot;msdyn\_project&quot;, ConditionOperator.Equal, projectReference.Id),
-
-new ConditionExpression(&quot;msdyn\_name&quot;, ConditionOperator.Equal, &quot;Bucket 1&quot;)
-
-}
-
-}
-
-};
-
-return organizationService.RetrieveMultiple(getDefaultBucket);
-
-}
-
-private Entity GetBucket(EntityReference projectReference)
-
-{
-
-var bucketCollection = GetDefaultBucket(projectReference);
-
-if (bucketCollection.Entities.Count \&gt; 0)
-
-{
-
-return bucketCollection[0].ToEntity\&lt;Entity\&gt;();
-
-}
-
-thrownew Exception($&quot;Please open project with id {projectReference.Id} in the Dynamics UI and navigate to the Tasks tab&quot;);
-
-}
-
-private Entity CreateProject()
-
-{
-
-var project = new Entity(&quot;msdyn\_project&quot;, Guid.NewGuid());
-
-project[&quot;msdyn\_subject&quot;] = $&quot;Proj {DateTime.Now.ToShortTimeString()}&quot;;
-
-return project;
-
-}
-
-private Entity GetTask(string name, EntityReference projectReference, EntityReference parentReference = null)
-
-{
-
-var task = new Entity(&quot;msdyn\_projecttask&quot;, Guid.NewGuid());
-
-task[&quot;msdyn\_project&quot;] = projectReference;
-
-task[&quot;msdyn\_subject&quot;] = name;
-
-task[&quot;msdyn\_effort&quot;] = 4d;
-
-task[&quot;msdyn\_scheduledstart&quot;] = DateTime.Today;
-
-task[&quot;msdyn\_scheduledend&quot;] = DateTime.Today.AddDays(5);
-
-task[&quot;msdyn\_progress&quot;] = 0.34m;
-
-task[&quot;msdyn\_start&quot;] = DateTime.Now.AddDays(1);
-
-task[&quot;msdyn\_projectbucket&quot;] = GetBucket(projectReference).ToEntityReference();
-
-task[&quot;msdyn\_LinkStatus&quot;] = new OptionSetValue(192350000);
-
-//Custom field handling
-
-/\*
-
-task[&quot;new\_custom1&quot;] = &quot;Just my test&quot;;
-
-task[&quot;new\_age&quot;] = 98;
-
-task[&quot;new\_amount&quot;] = 591.34m;
-
-task[&quot;new\_isready&quot;] = new OptionSetValue(100000000);
-
-\*/
-
-if (parentReference == null)
-
-{
-
-task[&quot;msdyn\_outlinelevel&quot;] = 1;
-
-}
-
-else
-
-{
-
-task[&quot;msdyn\_parenttask&quot;] = parentReference;
-
-}
-
-return task;
-
-}
-
-private Entity GetResourceAssignment(string name, Entity teamMember, Entity task, Entity project)
-
-{
-
-var assignment = new Entity(&quot;msdyn\_resourceassignment&quot;, Guid.NewGuid());
-
-assignment[&quot;msdyn\_projectteamid&quot;] = teamMember.ToEntityReference();
-
-assignment[&quot;msdyn\_taskid&quot;] = task.ToEntityReference();
-
-assignment[&quot;msdyn\_projectid&quot;] = project.ToEntityReference();
-
-assignment[&quot;msdyn\_name&quot;] = name;
-
-assignment[&quot;msdyn\_start&quot;] = DateTime.Now;
-
-assignment[&quot;msdyn\_finish&quot;] = DateTime.Now;
-
-return assignment;
-
-}
-
-protected Entity GetTaskDependency(Entity project, Entity predecessor, Entity successor)
-
-{
-
-var taskDependency = new Entity(&quot;msdyn\_projecttaskdependency&quot;, Guid.NewGuid());
-
-taskDependency[&quot;msdyn\_project&quot;] = project.ToEntityReference();
-
-taskDependency[&quot;msdyn\_predecessortask&quot;] = predecessor.ToEntityReference();
-
-taskDependency[&quot;msdyn\_successortask&quot;] = successor.ToEntityReference();
-
-taskDependency[&quot;msdyn\_linktype&quot;] = new OptionSetValue(192350000);
-
-return taskDependency;
-
-}
-
-#endregion
-
-}
-
-#region OperationSetResponse DataContract --- Sample code ----
-
-[DataContract]
-
-publicclassOperationSetResponse
-
-{
-
-[DataMember(Name = &quot;operationSetId&quot;)]
-
-public Guid OperationSetId { get; set; }
-
-[DataMember(Name = &quot;operationSetDetailId&quot;)]
-
-public Guid OperationSetDetailId { get; set; }
-
-[DataMember(Name = &quot;operationType&quot;)]
-
-publicstring OperationType { get; set; }
-
-[DataMember(Name = &quot;recordId&quot;)]
-
-publicstring RecordId { get; set; }
-
-[DataMember(Name = &quot;correlationId&quot;)]
-
-publicstring CorrelationId { get; set; }
-
-}
+    /// <summary>
+    /// Calls the action to update an entity, only Task and Resource Assignment for now
+    /// <summary>
+    /// <paramname="recordId">Id of the record to be deleted</param>
+    /// <paramname="entityLogicalName">Entity logical name of the record</param>
+    /// <paramname="operationSetId">OperationSet Id</param>
+    /// <returns>OperationSetResponse</returns>
+    private OperationSetResponse CallPssDeleteAction(string recordId, string entityLogicalName, string operationSetId)
+    {
+      OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn\_PssDeleteV1");
+      operationSetRequest["RecordId"] = recordId;
+      operationSetRequest["EntityLogicalName"] = entityLogicalName;
+      operationSetRequest["OperationSetId"] = operationSetId;
+      return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
+    }
+
+    /// <summary>
+    /// Calls the action to execute requests in an operationSet
+    /// <summary>
+    /// <paramname="operationSetId">operationSet id</param>
+    /// <returns>OperationSetResponse</returns>
+    private OperationSetResponse CallExecuteOperationSetAction(string operationSetId)
+    {
+      OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn\_ExecuteOperationSetV1");
+      operationSetRequest["OperationSetId"] = operationSetId;
+      return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
+    }
+
+    /// <summary>
+    /// This can be used to abandon an operationSet that is no longer needed
+    /// </summary>
+    /// <paramname="operationSetId">operationSet id</param>
+    /// <returns>OperationSetResponse</returns>
+    protected OperationSetResponse CallAbandonOperationSetAction(Guid operationSetId)
+    {
+      OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn\_AbandonOperationSetV1");
+      operationSetRequest["OperationSetId"] = operationSetId.ToString();
+      return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
+    }
+
+    /// <summary>
+    /// Calls the action to create a new project
+    /// </summary>
+    /// <paramname="project">Project</param>
+    /// <returns>project Id</returns>
+    private Guid CallCreateProjectAction(Entity project)
+    {
+      OrganizationRequest createProjectRequest = new OrganizationRequest("msdyn\_CreateProjectV1";
+      createProjectRequest["Project"] = project;
+      OrganizationResponse response = organizationService.Execute(createProjectRequest);
+      var projectId = Guid.Parse((string)response["ProjectId"]);
+
+      return projectId;
+    }
+
+    /// <summary>
+    /// Calls the action to create a new project team member
+    /// </summary>
+    /// <paramname="teamMember">Project team member</param>
+    /// <returns>project team member Id</returns>
+    privatestring CallCreateTeamMemberAction(Entity teamMember)
+    {
+      OrganizationRequest request = new OrganizationRequest("msdyn\_CreateTeamMemberV1");
+      request["TeamMember"] = teamMember;
+      OrganizationResponse response = organizationService.Execute(request);
+      return (string)response["TeamMemberId"];
+    }
+
+    private OperationSetResponse GetOperationSetResponseFromOrgResponse(OrganizationResponse orgResponse)
+    {
+      return JsonConvert.DeserializeObject>OperationSetResponse\>
+      ((string)orgResponse.Results["OperationSetResponse";]);
+    }
+
+    private EntityCollection GetDefaultBucket(EntityReference projectReference)
+    {
+      var columnsToFetch = new ColumnSet(";msdyn\_project", "msdyn\_name");
+      var getDefaultBucket = new QueryExpression("msdyn\_projectbucket")
+      {
+        ColumnSet = columnsToFetch,
+        Criteria =
+        {
+          Conditions =
+          {
+            new ConditionExpression("msdyn\_project", ConditionOperator.Equal, projectReference.Id),
+            new ConditionExpression("msdyn\_name", ConditionOperator.Equal, "Bucket 1")
+          }
+        }
+      };
+      return organizationService.RetrieveMultiple(getDefaultBucket);
+    }
+    private Entity GetBucket(EntityReference projectReference)
+    {
+      var bucketCollection = GetDefaultBucket(projectReference);
+      if (bucketCollection.Entities.Count > 0)
+      {
+        return bucketCollection[0].ToEntity<Entity>();
+      }
+
+      throw new Exception($"Please open project with id {projectReference.Id} in the Dynamics UI and navigate to the Tasks tab");
+    }
+
+    private Entity CreateProject()
+    {
+      var project = new Entity("msdyn\_project", Guid.NewGuid());
+      project["msdyn\_subject"] = $"Proj {DateTime.Now.ToShortTimeString()}";
+      return project;
+    }
+
+    private Entity GetTask(string name, EntityReference projectReference, EntityReference parentReference = null)
+    {
+      var task = new Entity("msdyn\_projecttask", Guid.NewGuid());
+      task["msdyn\_project"] = projectReference;
+      task["msdyn\_subject"] = name;
+      task["msdyn\_effort";] = 4d;
+      task["msdyn\_scheduledstart"] = DateTime.Today;
+      task["msdyn\_scheduledend"] = DateTime.Today.AddDays(5);
+      task["msdyn\_progress"] = 0.34m;
+      task["msdyn\_start"] = DateTime.Now.AddDays(1);
+      task["msdyn\_projectbucket"] = GetBucket(projectReference).ToEntityReference();
+      task["msdyn\_LinkStatus"] = new OptionSetValue(192350000);
+
+      //Custom field handling
+      /\*
+      task["new\_custom1"] = "Just my test";
+      task[";new\_age"] = 98;
+      task["new\_amount"] = 591.34m;
+      task["new\_isready"] = new OptionSetValue(100000000);
+      \*/
+
+      if (parentReference == null)
+      {
+        task["msdyn\_outlinelevel"] = 1;
+      }
+      else
+      {
+        task["msdyn\_parenttask"] = parentReference;
+      }
+      return task;
+    }
+
+    private Entity GetResourceAssignment(string name, Entity teamMember, Entity task, Entity project)
+    {
+      var assignment = new Entity("msdyn\_resourceassignment", Guid.NewGuid());
+      assignment["msdyn\_projectteamid"] = teamMember.ToEntityReference();
+      assignment["msdyn\_taskid"] = task.ToEntityReference();
+      assignment["msdyn\_projectid"] = project.ToEntityReference();
+      assignment["msdyn\_name"] = name;
+      assignment["msdyn\_start"] = DateTime.Now;
+      assignment["msdyn\_finish"] = DateTime.Now;
+      return assignment;
+    }
+
+    protected Entity GetTaskDependency(Entity project, Entity predecessor, Entity successor)
+    {
+      var taskDependency = new Entity("msdyn\_projecttaskdependency", Guid.NewGuid());
+      taskDependency["msdyn\_project"] = project.ToEntityReference();
+      taskDependency["msdyn\_predecessortask"] = predecessor.ToEntityReference();
+      taskDependency["msdyn\_successortask"] = successor.ToEntityReference();
+      taskDependency["msdyn\_linktype"] = new OptionSetValue(192350000);
+      return taskDependency;
+    }
+
+  #endregion
+  }
+
+  #region OperationSetResponse DataContract --- Sample code ----
+
+  [DataContract]
+  publicclassOperationSetResponse
+  {
+  [DataMember(Name = "operationSetId")]
+  public Guid OperationSetId { get; set; }
+  [DataMember(Name = "operationSetDetailId")]
+  public Guid OperationSetDetailId { get; set; }
+  [DataMember(Name = "operationType")]
+  publicstring OperationType { get; set; }
+  [DataMember(Name = "recordId")]
+  publicstring RecordId { get; set; }
+  [DataMember(Name = "correlationId")]
+  publicstring CorrelationId { get; set; }
+  }
 
 #endregion
