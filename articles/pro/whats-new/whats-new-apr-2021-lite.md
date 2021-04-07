@@ -39,7 +39,7 @@ The following features are included in this release:
 | Opportunity Management | 2186741 | Added validations to ensure the **Origin** field and **Transaction Type** can't be updated on existing quote line details. |
 | Opportunity Management | 2191353 | Milestones must not be created on a time and material contract line. |
 | Opportunity Management | 2216956 | Fixed issues with **Update Prices**. |
-| Planning and Tracking | 2182979 | Project copy function improved to ensure expense estimate lines are copied from the original project. |
+| Planning and Tracking | 2182979 | Project copy function improved to ensure the expense estimate lines are copied from the original project. |
 | Planning and Tracking | 2184144 | Project copy function improved to ensure the resource position name is copied from the original project. |
 | Planning and Tracking | 2184799 | Project copy: Tightened control to ensure the estimated start date can't be changed while copying is in progress. |
 | Planning and Tracking | 2185134 | Project copy: Destination project estimated start date is set to today's date. |
