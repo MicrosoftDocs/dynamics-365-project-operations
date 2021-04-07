@@ -129,9 +129,10 @@ In this scenario, you will create a project, a team member, four tasks, and two 
   
 ## Additional samples
 
-#region Call actions 
+
 
   ```C#
+  #region Call actions 
 
     ///<summary>
     /// Calls the action to create an operationSet
