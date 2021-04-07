@@ -38,7 +38,7 @@ The following is a list of current Schedule APIs.
 
   - **msdyn_CreateProjectV1**: This API can be used to create a project. The project and default project bucket is created immediately.
   - **msdyn_CreateTeamMemberV1**: This API can be used to create a project team member. The team member record is created immediately.
-  - **msdyn_CreateOperationSetV1**: This API can be used to to schedule several requests that must be performed within a transaction.
+  - **msdyn_CreateOperationSetV1**: This API can be used to schedule several requests that must be performed within a transaction.
   - **msdyn_PSSCreateV1**: This API can be used to create an entity. The entity can be any of the Scheduling entities that support the create operation.
   - **msdyn_PSSUpdateV1**: This API can be used to update an entity. The entity can be any of the Scheduling entities that support the update operation.
   - **msdyn_PSSDeleteV1**: This API can be used to delete an entity. The entity can be any of the Scheduling entities that support the delete operation.
@@ -65,7 +65,12 @@ The ID property is optional. If it's provided, the system attempts to use it and
 
 ## Limitations and known issues
 
-- Schedule APIs can only be used by **Users with Microsoft Project License.** They can't be used by application users, system users, integration users, or other users that don't have the required license.
+- Schedule APIs can only be used by **Users with Microsoft Project License.** They can't be used by:
+     - Application users
+     - System users 
+     - Integration users 
+     - Other users that don't have the required license
+     
 - Each **OperationSet** can only have a maximum of 100 operations.
 - Each user can only have a maximum of 10 open **OperationSets**.
 - Project Operations currently supports a maximum of 500 total tasks on a project.
