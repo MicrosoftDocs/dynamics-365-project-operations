@@ -3,7 +3,7 @@ title: What's new April 2021 - Project Operations lite deployment
 description: This topic provides information about the quality updates available in the April 2021 release of Project Operations lite deployment.
 author: sigitac
 manager: tfehr
-ms.date: 04/05/2021
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -26,7 +26,7 @@ The following features are included in this release:
 - Non-stocked materials for projects. Key capabilities include:
   - Estimating and pricing non-stocked materials during the sales cycle for a project. For more information, see [Set up cost and sales rates for catalog products - lite](../pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Tracking the use of non-stocked materials during project delivery. For more information, see [Record material usage on projects and project tasks](../../material/material-usage-log.md).
-  - Invoicing used non-stocked material costs. For more information, see [Manage the billing backlog - lite](../proforma-invoicing/manage-billing-backlog-sales#product-billing-backlog.md).
+  - Invoicing used non-stocked material costs. For more information, see [Manage the billing backlog - lite](../proforma-invoicing/manage-billing-backlog-sales.md#product-billing-backlog).
 
 ## Quality updates
 
