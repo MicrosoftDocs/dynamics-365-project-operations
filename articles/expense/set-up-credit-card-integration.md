@@ -2,7 +2,7 @@
 # required metadata
 
 title: Set up credit card integration
-description: This topic explains how to import and maintain expense-related credit card transactions.
+description: This topic explains how to work with expense-related credit card transactions.
 author: suvaidya
 manager: AnnBe
 ms.date: 04/02/2021
@@ -55,5 +55,12 @@ After an employee record is terminated, the employee’s Active Directory Domain
 
 Select one or more credit card transactions, and then select **Reassign transactions**. You can then select another employee to assign the credit card transactions to. After the credit card transactions have been reassigned, they can be selected for an expense report and paid through the usual process for expense report reimbursement.
 
+## Delete credit card transactions 
+
+Sometimes, after credit card transactions are imported, certain transactions may need to be deleted. This could be because the transactions are duplicates or because the data might isn't accurate. Admins can use the **"Delete credit card transactions"** feature to select and delete credit card transactions that are **not attached** to an expense report. 
+
+1. Go to **Periodic tasks** > **Delete credit card transactions**.
+2. Select **Filter** and provide information to identify the records to include.
+3. Select **OK** to delete the records. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
