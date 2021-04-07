@@ -1,5 +1,5 @@
 ---
-title: Use Schedule APIs to perfom operations with Scheduling entities
+title: Use Schedule APIs to perform operations with Scheduling entities
 description: This topic provides information and samples for using Schedule APIs.
 author: sigitac
 manager: Annbe
@@ -38,7 +38,7 @@ The following is a list of current Schedule APIs.
 
   - **msdyn_CreateProjectV1**: This API can be used to create a project. The project and default project bucket is created immediately.
   - **msdyn_CreateTeamMemberV1**: This API can be used to create a project team member. The team member record is created immediately.
-  - **msdyn_CreateOperationSetV1**: This API can be used to to schedule several requests that must be performed withinin a transaction.
+  - **msdyn_CreateOperationSetV1**: This API can be used to to schedule several requests that must be performed within a transaction.
   - **msdyn_PSSCreateV1**: This API can be used to create an entity. The entity can be any of the Scheduling entities that support the create operation.
   - **msdyn_PSSUpdateV1**: This API can be used to update an entity. The entity can be any of the Scheduling entities that support the update operation.
   - **msdyn_PSSDeleteV1**: This API can be used to delete an entity. The entity can be any of the Scheduling entities that support the delete operation.
@@ -54,7 +54,7 @@ Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are cre
 | --- | --- | --- | --- | --- |
 Project task | Yes | Yes | Yes | None |
 | Project task dependency | Yes | Yes | | Project task dependency records aren't updated. Instead, an old record can be deleted and a new record can be created. |
-| Resource assignment | Yes | Yes | | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, abd **PlannedWork**. Resource assignment records aren't updated. Instead, the old record can be deleted and a new record can be created. |
+| Resource assignment | Yes | Yes | | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, and **PlannedWork**. Resource assignment records aren't updated. Instead, the old record can be deleted and a new record can be created. |
 | Project bucket | N/A | N/A | N/A | The default bucket is created using the **CreateProjectV1** API. |
 | Project team member | Yes | Yes | Yes | For the create operation, use the API **CreateTeamMemberV1**. |
 | Project | Yes | Yes | N/A | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
