@@ -31,9 +31,11 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations latest version
 
-| Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments |
+| Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
 | --- | --- |
-| 4.8.0.92 | 10.0.17 |
+| 4.9.0.221 | 10.0.17 |
+
+For Project Operations Resource/non-stocked scenario, we recommend to use Dual Write Orchestration version 2.2.2.50 or higher.
 
 ## Release schedule for Project Operations on Dataverse environment
 
@@ -42,23 +44,23 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | First Release |  4.8.0.92       | TBD     | 02-Apr-21           |
+|   &nbsp;  | First Release |  4.9.0.221       | TBD     | 23-Apr-21           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.8.0.92       | TBD     | 02-Apr-21           |
-|    &nbsp; | Canada        |  4.8.0.92       | TBD     | 02-Apr-21           |
-|   &nbsp;  | India         |  4.8.0.92       | TBD     | 02-Apr-21           |
-|   &nbsp;  | France         |  4.8.0.92       | TBD     | 02-Apr-21           |
-|   &nbsp;  | United Arab Emirates         |  4.8.0.92       | TBD     | 02-Apr-21           |
-|   &nbsp;  | South Africa         |  4.8.0.92       | TBD     | 02-Apr-21           |
+|   &nbsp;  | South America |  4.9.0.221       | TBD     | 23-Apr-21           |
+|    &nbsp; | Canada        |  4.9.0.221       | TBD     | 23-Apr-21           |
+|   &nbsp;  | India         |  4.9.0.221       | TBD     | 23-Apr-21           |
+|   &nbsp;  | France         |  4.9.0.221       | TBD     | 23-Apr-21           |
+|   &nbsp;  | United Arab Emirates         |  4.9.0.221       | TBD     | 23-Apr-21           |
+|   &nbsp;  | South Africa         |  4.9.0.221       | TBD     | 23-Apr-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.8.0.92       | TBD     | 09-Apr-21           |
-|   &nbsp;  | Asia Pacific  |  4.8.0.92       | TBD     | 09-Apr-21           |
-|   &nbsp;  | Great Britain |  4.8.0.92       | TBD     | 09-Apr-21           |
-|   &nbsp;  | Oceania       |  4.8.0.92       | TBD     | 09-Apr-21           |
+|   &nbsp;  | Japan         |  4.8.0.92       | 4.9.0.221     | 09-Apr-21           |
+|   &nbsp;  | Asia Pacific  |  4.8.0.92       | 4.9.0.221     | 09-Apr-21           |
+|   &nbsp;  | Great Britain |  4.8.0.92       | 4.9.0.221     | 09-Apr-21           |
+|   &nbsp;  | Oceania       |  4.8.0.92       | 4.9.0.221     | 09-Apr-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        |  4.8.0.92       | TBD     | 16-Apr-21           |
+|   &nbsp;  | Europe        |  4.8.0.92       | 4.9.0.221     | 16-Apr-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | North America |  4.8.0.92       | TBD     | 23-Apr-21           |
+|   &nbsp;  | North America |  4.8.0.92       | 4.9.0.221     | 23-Apr-21           |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
@@ -66,8 +68,8 @@ Updates for Project management and accounting are released eight times a year.
 
 | Supported release | Generally available (self-update) |
 | --- | --- |
-| 10.0.16 | January 22, 2021 |
 | 10.0.17 | March 19, 2021 |
+| 10.0.16 | January 22, 2021 |
 
 
 Targeted release dates are subject to change. For more information, see [Service update availability](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=/dynamics365/finance/toc.json).
@@ -77,5 +79,6 @@ Targeted release dates are subject to change. For more information, see [Service
 | 10.0.18 | April 16, 2021 |
 | 10.0.19 | June 18, 2021 |
 | 10.0.20 | July 16, 2021 |
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
