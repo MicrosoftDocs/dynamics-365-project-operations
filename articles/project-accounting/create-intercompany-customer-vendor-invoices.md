@@ -23,7 +23,7 @@ The project accountant for the lending legal entity can set up a batch process t
 
 ## Manually create an intercompany customer invoice for project transactions 
 
-Use this procedure to manually create an intercompany customer invoice for project transactions. Search for hours that were posted by workers on projects in the borrowing legal entities and for expenses that were incurred by your legal entity on behalf of borrowing legal entities. You can search by legal entity name, project contract number, project number, date range, or any combination of these options. In the search results, select the transactions to add to an intercompany invoice.
+Use this procedure to manually create an intercompany customer invoice for project transactions. Search for hours that were posted by workers on projects in the borrowing legal entities and for expenses that were incurred by your legal entity on behalf of borrowing legal entities. You can search by legal entity name, project contract number, project number, date range, or any combination of these options. In the search results, select the transactions to add to an intercompany invoice. Steps below must be performed in the lending legal entity. 
 
 1. In Dynamics 365 Finance, go to **Project management and accounting** > **Project invoices** > **Intercompany customer invoices**. On the **Intercompany customer invoices**  list page, on the Action Pane, select **New.**
 2. On the **Create intercompany invoice** page, in the **Legal entity** field, select a borrowing legal entity.
@@ -33,9 +33,9 @@ Use this procedure to manually create an intercompany customer invoice for proje
 6. In the search results, select the transactions to include in the intercompany invoice proposal, and then select **OK**.
 7. On the **Intercompany customer invoice** page, the intercompany project transactions that you selected from the search results are displayed. To modify the transactions before you send the invoice to the borrowing legal entity, do the following:
   
-    1. Open the **Create invoice proposal** page. Select additional intercompany transactions for the current invoice, and then select **Add line**.
+    1. In the **Intercompany customer invoice** pag open the invoice details and then select **Add line**.
     2. To remove a line, select it, and then select **Remove**.
-    3. View comments, reasons, financial dimensions, and other information about a selected line on the  **Invoice lines**  FastTab.
+    3. View comments, reasons, financial dimensions, and other information about a selected line on the Invoice line details.
     
 8. To post the intercompany customer invoice, on the Action Pane, select **Post**.
 
