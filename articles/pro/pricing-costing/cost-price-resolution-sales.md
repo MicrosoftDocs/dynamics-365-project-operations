@@ -3,7 +3,7 @@ title: Resolve cost prices on project estimates and actuals
 description: This topic provides information about how cost prices on project estimates and actuals are resolved.
 author: rumant
 manager: Annbe
-ms.date: 04/07/202
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
