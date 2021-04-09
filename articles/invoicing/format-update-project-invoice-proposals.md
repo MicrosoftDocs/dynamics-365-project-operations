@@ -75,7 +75,8 @@ The **Sales tax group** and **Item sales tax group**  values default from the se
     - **Customer** will always default to the billing sales tax group from the customer.
     - **Search** will search across all the entities in this list and select the first value available. Search starts with the **Project** entity, then the **Project contract** entity, and then the **Customer** entity.
 
-- **Fixed price milestone item sales tax group** is used to default the value to the **Item sales tax group** field.
+- **Fixed price milestone item sales tax group** is used to default the value to the **Item sales tax group** field to the billing milestone. Accountant can review and modify the defaulted value in On-account transactions form. System uses the value from On-account transaction when creating Project invoice proposal line.
+ 
 
 ### Financial dimensions
 
