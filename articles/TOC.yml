@@ -152,16 +152,16 @@
     items: 
     - name: Price list setup
       items: 
-      - name: Set up price lists
+      - name: Price list definition
         href: pricing-costing/price-list-setup.md
-      - name: Product price lists
-        href: pricing-costing/product-price-list.md
       - name: Set up labor bill rates
         href: pricing-costing/set-up-labor-bill-rate.md
       - name: Set up labor cost rates
         href: pricing-costing/set-up-labor-cost-rate.md
       - name: Set up cost and sales rates for expenses
-        href: pricing-costing/set-up-cost-sales-rates-expenses.md      
+        href: pricing-costing/set-up-cost-sales-rates-expenses.md
+      - name: Set up cost and sales rates for materials 
+        href: pricing-costing/set-up-cost-sales-rates-materials.md
     - name: Defaults and overrides
       items:
       - name: Default price lists
@@ -616,18 +616,18 @@
     items: 
     - name: Price list setup
       items: 
-      - name: Set up price lists
+      - name: Price list definition
         href: pricing-costing/price-list-setup.md
-      - name: Set up sales price list
-        href: pricing-costing/sales-price-list-setup.md
-      - name: Set up labor bill rates - lite
+      - name: Set up product price lists 
+        href: pricing-costing/product-price-list.md
+      - name: Set up bill rates for labor 
         href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-      - name: Set up labor cost rates - lite
-        href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-      - name: Set up cost and sales rates for catalog products - lite
-        href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+      - name: Set up cost rates for labor
+        href: pro/pricing-costing/set-up-labor-cost-rates-sales.md      
       - name: Set up cost and sales rates for expenses
         href: pricing-costing/set-up-cost-sales-rates-expenses.md
+      - name: Set up cost and sales rates for materials 
+        href: pricing-costing/set-up-cost-sales-rates-materials.md
     - name: Defaults and overrides
       items:
       - name: Default price lists

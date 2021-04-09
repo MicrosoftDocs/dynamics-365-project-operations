@@ -3,7 +3,7 @@ title: Set up cost and sales rates for expenses
 description: This topic provides information about how to set up the cost and sales rates for transaction and expense categories. 
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -18,9 +18,10 @@ You can set up cost and sales prices for transaction categories in Dynamics 365 
 
 To set up cost and sales rates for transaction categories, complete the following steps. 
 
-1. Create a price list based on the price list header. 
-2. On the **Category Prices**, on the subgrid menu, select **+ New Category Price**. 
-3. On the **Quick Create** page, enter the transaction category and unit that you are creating the new price for.
+1. Go to **Sales** > **Customers** > **Price Lists**.
+2. Select **New** to create a new price list. 
+3. On the **Category Prices**, on the subgrid menu, select **New Category Price**. 
+4. On the **Quick Create** page, enter the transaction category and unit that you are creating the new price for.
 
 The following table lists the fields on the **General** tab and **Quick Create** page of a category price line that you should keep in mind as you create category prices on a sales or cost price list.
 
