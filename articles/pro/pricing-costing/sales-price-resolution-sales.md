@@ -1,16 +1,16 @@
 ---
-title: Resolve sales prices for estimates and actuals - lite
-description: This topic provides information about resolving sales prices on estimates and actuals.
+title: Resolve sales prices for project estimates and actuals
+description: This topic provides information about resolving sales prices on project estimates and actuals.
 author: rumant
 manager: Annbe
-ms.date: 10/19/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Resolve sales prices for estimates and actuals - lite
+# Resolve sales prices for project estimates and actuals
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -50,5 +50,14 @@ After a price list for sales is resolved, the system completes the following ste
 
 4. If the system is unable to match the **Category** and **Unit** field values, the sales rate defaults to zero(0).
 
+## Resolving sales rates on actual and estimate lines for Material
+
+In Project Operations, estimate lines for material are used to denote the quote line and contract line details for materials and the material estimate lines on the project.
+
+After a price list for sales is resolved, the system completes the following steps to default the unit sales price.
+
+1. The system uses the **Product** and **Unit** field combination on the estimate line for material to match against the price list item lines in the price list that was resolved.
+2. If the system finds a price list item line that has a sales rate for the **Product** and **Unit** field combination and the pricing method is **Currency amount**, the sales price that is specified on the price list line is used.
+3. If the **Product** and **Unit** field values aren't a match, the sales rate defaults to zero.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

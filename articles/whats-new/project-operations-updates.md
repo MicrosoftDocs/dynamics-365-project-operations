@@ -25,9 +25,9 @@ Dynamics 365 Project Operations consists of two components:
 - Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The Finance and Operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
 
 ## Project Operations release notes
-- Project Operations latest release notes for [Resource/non-stocked](whats-new-mar-2021-resource-based.md) scenario.
-- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-mar-2021-lite.md) scenario.
-- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-jan-2021-stocked.md) scenario.
+- Project Operations latest release notes for [Resource/non-stocked](whats-new-apr-2021-resource-based.md) scenario.
+- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-apr-2021-lite.md) scenario.
+- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-mar-2021-stocked.md) scenario.
 
 ## Project Operations latest version
 
@@ -53,10 +53,10 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | United Arab Emirates         |  4.9.0.221       | TBD     | 23-Apr-21           |
 |   &nbsp;  | South Africa         |  4.9.0.221       | TBD     | 23-Apr-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.8.0.92       | 4.9.0.221     | 09-Apr-21           |
-|   &nbsp;  | Asia Pacific  |  4.8.0.92       | 4.9.0.221     | 09-Apr-21           |
-|   &nbsp;  | Great Britain |  4.8.0.92       | 4.9.0.221     | 09-Apr-21           |
-|   &nbsp;  | Oceania       |  4.8.0.92       | 4.9.0.221     | 09-Apr-21           |
+|   &nbsp;  | Japan         |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | Asia Pacific  |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | Great Britain |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | Oceania       |  4.9.0.221       | TBD     | 30-Apr-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | Europe        |  4.8.0.92       | 4.9.0.221     | 16-Apr-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
