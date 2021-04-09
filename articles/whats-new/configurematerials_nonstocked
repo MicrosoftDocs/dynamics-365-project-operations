@@ -21,11 +21,11 @@ Using non-stocked materials and pending vendor invoices for Project Operations n
 
 Dataverse solutions:
 
-- Microsoft Dynamics 365 Project Operations – 4.9XXX or higher
+- Microsoft Dynamics 365 Project Operations – 4.9.0.221 or higher
 - Dual-write application orchestration solution - 2.2.2.23 or higher
 
 Finance and Operations apps:
-- 10.0.18 (10.0.793.XX) or higher. Please make sure Finance and Operations environment is up- to date and all quality updates are applied to meet minimum version requirements.
+- 10.0.18 (10.0.793.52) or higher. Please make sure Finance and Operations environment is up- to date and all quality updates are applied to meet minimum version requirements.
 
 ## Run Dual Write maps for non-stocked materials and vendor invoice integration
 
@@ -97,7 +97,7 @@ Project Operations allow recording material estimates and usage for both catalog
   8. Save the record
   9. In Plan tab select Default order settings. In Inventory tab, set Default site and if required Default warehouse.
   10. Save the record.
-  11. Navigate to Project management and accounting \&gt; Setup \&gt; Project management and accounting parameters and open Project Operations on Dynamics 365 Customer Engagement. In Materials tab set Write-in product value to the release product set up in the previous steps
+  11. Navigate to Project management and accounting > Setup > Project management and accounting parameters and open Project Operations on Dynamics 365 Customer Engagement. In Materials tab set Write-in product value to the release product set up in the previous steps
 2. In Dataverse environment:
   1. In the site map open Products entity and find the Write-in product record. Open record details and set product state to Retired. This will prevent accidently using this record directly in material estimates and usage documents.
 
@@ -112,4 +112,4 @@ To set up Procurement integration account navigate to Project management and acc
 
 #### Set up Project Category defaults for Item
 
-Navigate to Project management and accounting \&gt; Setup \&gt; Project management and accounting parameters and open Project Operations on Dynamics 365 Customer Engagement. In Project category defaults tab set the value in **Item** field. This project category will be used for material transactions, where project category was not set on Project actuals record.
+Navigate to Project management and accounting > Setup > Project management and accounting parameters and open Project Operations on Dynamics 365 Customer Engagement. In Project category defaults tab set the value in **Item** field. This project category will be used for material transactions, where project category was not set on Project actuals record.
