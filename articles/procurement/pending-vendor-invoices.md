@@ -24,22 +24,22 @@ For example, Contoso Robotics US is performing an equipment renewal project and 
 
 ## Post a project-related pending vendor invoice 
 
-Pending vendor invoices can be recorded on the **Pending vendor invoices** page (**Accounts payable** > **Invoices** > **Pending vendor invoices**). 
+Pending vendor invoices can be recorded on the **Pending vendor invoices** page (**Accounts payable** > **Invoices** > **Pending vendor invoices**). Complete the following steps to post a project-related pending vendor invoice:
 
 1. Go to **Accounts payable** > **Invoices** and select **New**. 
 2. In the **Invoice account** field, select a vendor and in the **Number** field, enter the vendor invoice identification.
-3. Add a line to vendor invoice and in the **Item number** field, select the non-stocked item purchased from the vendor. 
+3. Add a line to the vendor invoice and in the **Item number** field, select the non-stocked item purchased from the vendor. 
 
     > [!NOTE]
     > Vendor invoice lines that are based on a procurement category can't be recorded against the project. 
     
-5. Add the quantity purchased. The system will populate the unit price based on non-stocked item price configuration. 
+5. Add the quantity purchased. The system will populate the unit price based on the non-stocked item price configuration. 
 6. Verify the total amount and other required details on the line.
-7. On the line details, on the**Project** tab, select the ID of the project that this item will be recorded to.
-8. Optional - Select the activity number, and update project category and line property.
+7. On the line details, on the **Project** tab, select the ID of the project that this item will be recorded to.
+8. Optionally, select the activity number, and update yhe project category and line property.
 9. Post pending vendor invoice. When the invoice is posted, the system records:
     
     - The vendor balance amount.
     - The sales tax amount.
-    - The cost against the project is recorded to procurement integration account.
-    - The project actual transaction in Dataverse. This transaction is further processed using the [Project Operations Integration journal](../project-accounting/project-operations-integration-journal.md). Posting this journal moves the amount from the procurement integration account to t project cost account.
+    - The cost against the project is recorded to the procurement integration account.
+    - The project actual transaction in Dataverse. This transaction is further processed using the [Project Operations Integration journal](../project-accounting/project-operations-integration-journal.md). Posting this journal moves the amount from the procurement integration account to the project cost account.
