@@ -395,9 +395,9 @@
 - name: Procurement
     items:
     - name: Configure non-stocked materials and pending vendor invoices
-      href: configurematerials_nonstocked.md
+      href: configure-materials-nonstocked.md
     - name: Procure non-stocked materials for projects using pending vendor invoices
-      href: pendingvendorinvoices.md
+      href: pending-vendor-invoices.md
 - name: Invoicing
     items:
     - name: Invoicing process overview
