@@ -392,13 +392,13 @@
       items:
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
-- name: Procurement
+  - name: Procurement
     items:
     - name: Configure non-stocked materials and pending vendor invoices
       href: procurement/configure-materials-nonstocked.md
     - name: Procure non-stocked materials for projects using pending vendor invoices
       href: procurement/pending-vendor-invoices.md
-- name: Invoicing
+  - name: Invoicing
     items:
     - name: Invoicing process overview
       href: invoicing/post-project-invoices.md
