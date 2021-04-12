@@ -5,7 +5,7 @@ title: Create intercompany transactions
 description: This topic provides information about how to create intercompany transactions.
 author:  sigitac
 manager: tfehr
-ms.date: 11/19/2020 
+ms.date: 04/12/2021 
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
@@ -91,7 +91,7 @@ Molly Clark, developer employed in GBPM records 10 hours of work against a USPM 
     This unbilled sale is now ready for invoicing. The invoice for the customer Adventure Works can be financially posted when needed.
 
 10. Sign in as the **GBPM** accountant. Open the Finance instance of Project Operations, and open the company, **GBPM**. 
-11. Go to **Project management and accounting** > **Periodic** > **Project Operations on Customer Engagement** > **Import from staging** and run the periodic process to  fill in Project Operations Integration journal.
+11. Go to **Project management and accounting** > **Periodic** > **Project Operations integration** > **Import from staging table** and run the periodic process to  fill in Project Operations Integration journal.
 12. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the lines. The system creates the following lines.
 
     | **Transaction type** | **Price** | **Transaction currency** | **Amount** |

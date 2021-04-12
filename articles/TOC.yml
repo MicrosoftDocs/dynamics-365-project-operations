@@ -404,6 +404,12 @@
       items:
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
+  - name: Procurement
+    items:
+    - name: Configure non-stocked materials and pending vendor invoices
+      href: procurement/configure-materials-nonstocked.md
+    - name: Procure non-stocked materials for projects using pending vendor invoices
+      href: procurement/pending-vendor-invoices.md
   - name: Invoicing
     items:
     - name: Invoicing process overview
@@ -428,6 +434,8 @@
         href: proforma-invoicing/corrective-invoices.md
       - name: Configure project-based invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: Manage project invoice proposals
+      href: invoicing/format-update-project-invoice-proposals.md
   - name: Project accounting
     items:
     - name: Financial dimension defaults
