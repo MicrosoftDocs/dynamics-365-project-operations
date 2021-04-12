@@ -5,7 +5,7 @@ title: Create intercompany transactions
 description: This topic provides information about how to create intercompany transactions.
 author:  sigitac
 manager: tfehr
-ms.date: 11/19/2020 
+ms.date: 04/12/2021 
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
