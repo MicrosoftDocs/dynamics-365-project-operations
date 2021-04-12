@@ -1,6 +1,6 @@
 ---
-title: Purchase non-stocked materials using Pending vendor invoice document
-description: This topic provides information about how to record pending vendor invoices in Project operations for resource/non-stocked based scenarios. 
+title: Purchase non-stocked materials using a pending vendor invoice
+description: This topic explains how to record pending vendor invoices. 
 author: sigitac
 manager: tfehr
 ms.date: 04/12/2021
@@ -11,33 +11,35 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Purchase non-stocked materials using Pending vendor invoice document
+# Purchase non-stocked materials using a pending vendor invoice
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-As company procures non-stocked materials, it's cost can be immediately recorded against the project. For example, Contoso Robotics US is performing equipment renewal project and needs software licenses. These licenses are procured from third party vendor. 
-Accounts payable clerk using Dynamics 365 Finance records pending vendor invoice document and attributes license cost directly against equipment renewal project. 
+As a company procures non-stocked materials for a project, the costs can be immediately recorded against the project. 
 
-**!Note Review and apply required configurations as described in [Enable non-stocked materials and pending vendor invoices | Microsoft Docs] (configurematerials_nonstocked.md) in your environment before using functionality described in this article. 
+For example, Contoso Robotics US is performing an equipment renewal project and needs software licenses. These licenses are procured from a third-party vendor.  Using Dynamics 365 Finance, the Accounts payable clerk records a pending vendor invoice document and attributes the license costs directly against the equipment renewal project. 
 
-## Post project related pending vendor invoice document
+> [!IMPORTANT]
+> Before you use the functionality described in this topic, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md). 
 
-Pending vendor invoices can be recorded in Accounts payable > Invoices > Pending vendor invoices. 
-1. Create a new invoice by using New button. 
-2. Select the vendor in Invoice account field. Fill in vendor invoice identification in the Number field.
-3. Add a line to vendor invoice. In Item number field select non-stocked item purchased from the vendor. Note that Procurement category based vendor invoice lines cannot be recorded against the project. 
-4. Fill in quantity purchased. System will default Unit price based on non-stocked item price configuration. Verify total amount and other required details on the line
-5. In line details open Project tab:
-    a. Select Project ID this item will be recorded to.
-    b. Optionally select Activity number, update project category and line property.
- 6. Post pending vendor invoice. Upon posting, system will record:
-    a. Vendor balance amount
-    b. Sales tax amount.
-    c. Cost against the project will be recorded to Procurement integration account.
-    d. Project actual transaction in Dataverse. This transaction will be further processed using [Project Operations Integration journal](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal) Posting this journal will move amount from Procurement integration account to project cost account.
+## Post a project-related pending vendor invoice 
 
+Pending vendor invoices can be recorded on the **Pending vendor invoices** page (**Accounts payable** > **Invoices** > **Pending vendor invoices**). 
+
+1. Go to **Accounts payable** > **Invoices** and select **New**. 
+2. In the **Invoice account** field, select a vendor and in the **Number** field, enter the vendor invoice identification.
+3. Add a line to vendor invoice and in the **Item number** field, select the non-stocked item purchased from the vendor. 
+
+    > [!NOTE]
+    > Vendor invoice lines that are based on a procurement category can't be recorded against the project. 
     
-   
- 
-
-
+5. Add the quantity purchased. The system will populate the unit price based on non-stocked item price configuration. 
+6. Verify the total amount and other required details on the line.
+7. On the line details, on the**Project** tab, select the ID of the project that this item will be recorded to.
+8. Optional - Select the activity number, and update project category and line property.
+9. Post pending vendor invoice. When the invoice is posted, the system records:
+    
+    - The vendor balance amount.
+    - The sales tax amount.
+    - The cost against the project is recorded to procurement integration account.
+    - The project actual transaction in Dataverse. This transaction is further processed using the [Project Operations Integration journal](../project-accounting/project-operations-integration-journal.md). Posting this journal moves the amount from the procurement integration account to t project cost account.
