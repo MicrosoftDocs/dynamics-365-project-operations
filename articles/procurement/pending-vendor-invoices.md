@@ -36,7 +36,7 @@ Pending vendor invoices can be recorded on the **Pending vendor invoices** page 
 5. Add the quantity purchased. The system will populate the unit price based on the non-stocked item price configuration. 
 6. Verify the total amount and other required details on the line.
 7. On the line details, on the **Project** tab, select the ID of the project that this item will be recorded to.
-8. Optionally, select the activity number, and update yhe project category and line property.
+8. Optionally, select the activity number, and update the project category and line property.
 9. Post pending vendor invoice. When the invoice is posted, the system records:
     
     - The vendor balance amount.
