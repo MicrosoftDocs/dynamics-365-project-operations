@@ -3,7 +3,7 @@ title: Manage project invoice proposals
 description: This topic provides details about processing customer-facing invoices with Project Operations for resource/ non-stocked based scenarios.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -75,7 +75,7 @@ The **Sales tax group** and **Item sales tax group**  values default from the se
     - **Customer** will always default to the billing sales tax group from the customer.
     - **Search** will search across all the entities in this list and select the first value available. Search starts with the **Project** entity, then the **Project contract** entity, and then the **Customer** entity.
 
-- **Fixed price milestone item sales tax group** is used to default the value to the **Item sales tax group** field to the billing milestone. Accountant can review and modify the defaulted value in On-account transactions form. System uses the value from On-account transaction when creating Project invoice proposal line.
+- **Fixed price milestone item sales tax group** is used to default the value in the **Item sales tax group** field to the billing milestone. The accountant can review and modify the default value in the **On-account transactions** page. The system uses the value from the on-account transaction when creating a project invoice proposal line.
  
 
 ### Financial dimensions
