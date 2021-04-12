@@ -1,10 +1,9 @@
-  
 ---
 title: Purchase non-stocked materials using Pending vendor invoice document
 description: This topic provides information about how to record pending vendor invoices in Project operations for resource/non-stocked based scenarios. 
 author: sigitac
 manager: tfehr
-ms.date: 04/01/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
