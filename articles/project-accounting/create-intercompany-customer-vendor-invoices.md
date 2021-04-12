@@ -37,7 +37,7 @@ The following steps must be performed in the lending legal entity.
   
     1. On the **Intercompany customer invoice** page, open the invoice details, and then select **Add line**.
     2. To remove a line, select it, and then select **Remove**.
-    3. View comments, reasons, financial dimensions, and other information about a selected line on the Invoice line details.
+    3. View comments, reasons, financial dimensions, and other information about a selected line on the invoice line details.
     
 8. To post the intercompany customer invoice, on the Action Pane, select **Post**.
 
