@@ -36,6 +36,8 @@
         href: environment/resource-configure-integration-per-legal-entity.md
   - name: What's new 
     items:
+    - name: April 2021 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-apr-2021-resource-based.md
     - name: March 2021 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-mar-2021-resource-based.md
     - name: February 2021 - Project Operations for resource/non-stocked based scenarios
@@ -85,16 +87,20 @@
       - name: Manage multiple customers on a project quote
         href: sales/manage-multiple-customers-quote.md
       - name: Manage project price lists on a quote
-        href: sales/managing-project-price-lists.md
+        href: pro/sales/manage-project-price-lists-sales.md
       - name: Project-based quote lines
         items:
         - name: Project-based quote lines overview
-          href: sales/manage-quoted-values-budget-limits-quote-line.md 
+          href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
+        - name: Map projects and tasks to project-based quote lines
+          href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+        - name: Configure chargeable components for project-based quote lines
+          href: pro/sales/configure-chargeable-components-quote-line-sales.md
         - name: Configure the chargeable components of a project quote line
           href: sales/configure-chargeable-quoteline.md
-        - name: Create estimates on a quote line
+        - name: Estimate a project quote line
           href: sales/create-estimate-quote-line.md
         - name: Import estimates from a project to a project-based quote line
           href: sales/import-estimate-quote-line.md
@@ -119,12 +125,14 @@
       - name: Project-based contract lines
         items: 
         - name: Project-based contract lines overview
-          href: sales/manage-contract-values-project-based.md
+          href: pro/sales/manage-contract-values-project-based-sales.md
         - name: Manage multiple customers on project-based contract lines
           href: sales/manage-multiple-customers-contract-line.md
-        - name: Configure chargeable components of a project-based contract line
-          href: sales/configure-chargeable-contract-line.md
-        - name: Estimate a project-based contract line
+        - name: Map projects and tasks on a project contract line 
+          href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+        - name: Configure chargeable components for a project contract line 
+          href: pro/sales/configure-chargeable-components-contract-line.md
+        - name: Estimate a project contract line
           href: sales/create-estimate-contract-line.md
         - name: Import estimates from a project to a project-based contract line
           href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
           href: sales/invoice-schedules-contract-line.md
       - name: Confirm a project contract
         href: pro/sales/confirm-contract-sales.md
-      - name: Copy a project contract
-        href: pro/sales/copy-project-contracts-sales.md
       - name: Advances and retainers
         items: 
         - name: Advances and retainer-based contracts
@@ -146,16 +152,16 @@
     items: 
     - name: Price list setup
       items: 
-      - name: Set up price lists
+      - name: Price list definition
         href: pricing-costing/price-list-setup.md
-      - name: Product price lists
-        href: pricing-costing/product-price-list.md
       - name: Set up labor bill rates
         href: pricing-costing/set-up-labor-bill-rate.md
       - name: Set up labor cost rates
         href: pricing-costing/set-up-labor-cost-rate.md
       - name: Set up cost and sales rates for expenses
-        href: pricing-costing/set-up-cost-sales-rates-expenses.md      
+        href: pricing-costing/set-up-cost-sales-rates-expenses.md
+      - name: Set up cost and sales rates for materials 
+        href: pricing-costing/set-up-cost-sales-rates-materials.md
     - name: Defaults and overrides
       items:
       - name: Default price lists
@@ -256,6 +262,8 @@
       items:
       - name: Develop project templates with Copy Project
         href: project-management/dev-copy-project.md
+      - name: Use Schedule APIs (Public Preview)
+        href: project-management/schedule-api-preview.md
   - name: Resource management
     items: 
     - name: Key concepts
@@ -374,6 +382,10 @@
       items: 
       - name: VAT recovery
         href: expense/vat-recovery.md
+  - name: Material usage
+    items: 
+    - name: Record material usage on projects and project tasks
+      href: material/material-usage-log.md
   - name: Approvals
     items: 
     - name: Approvals overview
@@ -402,23 +414,25 @@
     items:
     - name: Invoicing process overview
       href: invoicing/post-project-invoices.md
+    - name: Manage project invoice proposals
+      href: invoicing/format-update-project-invoice-proposals.md 
     - name: Proforma invoicing
       items:
-      - name: Manage project billing backlog
+      - name: Manage project-based billing backlog
         href: proforma-invoicing/manage-billing-backlog.md
       - name: Manage not-to-exceed status and validations
         href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-      - name: Create a proforma project invoice manually
+      - name: Proforma project-based invoices
         href: proforma-invoicing/create-manual-proforma-invoice.md
-      - name: Manage a proforma project invoice
+      - name: Manage a proforma project-based invoice
         href: proforma-invoicing/manage-proforma-invoice.md
       - name: Invoice a retainer or an advance
         href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-      - name: Confirm a proforma project invoice
+      - name: Confirm a proforma project-based invoice
         href: proforma-invoicing/confirm-proforma-invoice.md
       - name: Create corrective project-based invoices 
-        href: invoicing/post-project-invoices.md
-      - name: Configure project invoice automation
+        href: proforma-invoicing/corrective-invoices.md
+      - name: Configure project-based invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Manage project invoice proposals
       href: invoicing/format-update-project-invoice-proposals.md
@@ -476,6 +490,8 @@
       href: environment/security-model.md
   - name: What's new
     items:
+    - name: What's new April 2021 - lite deployment
+      href: pro/whats-new/whats-new-apr-2021-lite.md
     - name: What's new March 2021 - lite deployment
       href: pro/whats-new/whats-new-mar-2021-lite.md
     - name: What's new February 2021 - lite deployment
@@ -608,27 +624,27 @@
     items: 
     - name: Price list setup
       items: 
-      - name: Set up price lists
+      - name: Price list definition
         href: pricing-costing/price-list-setup.md
-      - name: Set up sales price list
-        href: pricing-costing/sales-price-list-setup.md
-      - name: Set up labor bill rates - lite
+      - name: Set up product price lists 
+        href: pricing-costing/product-price-list.md
+      - name: Set up bill rates for labor 
         href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-      - name: Set up labor cost rates - lite
-        href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-      - name: Set up cost and sales rates for catalog products - lite
-        href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+      - name: Set up cost rates for labor
+        href: pro/pricing-costing/set-up-labor-cost-rates-sales.md      
       - name: Set up cost and sales rates for expenses
         href: pricing-costing/set-up-cost-sales-rates-expenses.md
+      - name: Set up cost and sales rates for materials 
+        href: pricing-costing/set-up-cost-sales-rates-materials.md
     - name: Defaults and overrides
       items:
       - name: Default price lists
         href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Resolve cost prices on estimates and actuals - lite
+      - name: Resolve cost prices on project estimates and actuals
         href: pro/pricing-costing/cost-price-resolution-sales.md
-      - name: Resolve sales prices for estimates and actuals - lite
+      - name: Resolve sales prices for project estimates and actuals
         href: pro/pricing-costing/sales-price-resolution-sales.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
@@ -720,6 +736,8 @@
       items:
       - name: Develop project templates with Copy Project
         href: project-management/dev-copy-project.md
+      - name: Use Schedule APIs (Public Preview)
+        href: project-management/schedule-api-preview.md
   - name: Resource management
     items: 
     - name: Key concepts
@@ -794,6 +812,10 @@
       href: expense/expense-overview.md
     - name: Expense entry (lite)
       href: expense/basic-expense.md
+  - name: Material usage
+    items: 
+    - name: Record material usage on projects and project tasks
+      href: material/material-usage-log.md
   - name: Approvals
     items: 
     - name: Approvals overview
@@ -818,7 +840,7 @@
       href: pro/proforma-invoicing/manage-billing-backlog-sales.md
     - name: Manage not-to-exceed status and validations
       href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-    - name: Create a proforma project invoice manually
+    - name: Proforma project invoices 
       href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
     - name: Manage a proforma project invoice 
       href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -984,6 +1006,8 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update Release 30, V3
+      href: psa/whats-new-ur-30.md
     - name: What's new or changed in Update Release 29.5 Hotfix, V3
       href: psa/whats-new-ur-29-5.md
     - name: What's new or changed in Update Release 29, V3

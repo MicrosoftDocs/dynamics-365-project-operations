@@ -1,46 +1,293 @@
 ---
 # required metadata
 
-title: Corrected invoices
-description: This topic provides information about corrected invoices. 
+title: Corrective project-based invoices
+description: This topic provides information about how to create and confirm corrective project-based invoices in Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: 
 ms.service: project-operations
-#
+ms.reviewer: kfend 
+ms.author: rumant
 
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
 ---
 
-# Corrected invoices
+
+# Corrective project-based invoices
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Confirmed invoices can be edited. When you edit a confirmed invoice, a draft of the corrected invoice is created. Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).
+A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.
 
-When transactions don't require correction, you can remove them from the draft corrective invoice. To reverse or return only a partial quantity, you can edit the Quantity field on the line detail. If you open the invoice line detail, you can see the original invoice quantity. You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.
+To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**. 
 
-When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created. If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too. For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:
+> [!NOTE]
+> This selection isn't available unless a project invoice is confirmed or the project-based invoice has advances or retainers or reconciliations of advances or retainers.
 
-- A billed sales actual for six hours.
-- An unbilled sales actual for the remaining two hours. This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.
+A new draft invoice is created from the confirmed invoice. All invoice line details from the previously confirmed invoice are copied to the new draft. The following are some of the key points to understand about the line details on the new corrected invoice:
+
+- All quantities are updated to zero. Dynamics 365 Project Operations assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created when the corrected invoice is confirmed. If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
+- Milestone corrections are always processed as full credits.
+
+
+> [!IMPORTANT]
+> For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**. For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.
+
+## Actuals created when a corrective invoice is confirmed
+
+The following table lists the actuals that are created when a corrective invoice is confirmed.
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+                    <strong>Scenario</strong>
+                </p>
+            </td>
+            <td width="808" valign="top">
+                <p>
+                    <strong>Actuals created on confirmation</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+                    Invoicing the full credit of a previously invoiced time
+                    transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the hours and amount on the
+                    original invoice line detail for time.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual for the hours and amount on the
+                    original invoice line detail for time.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+                    Invoicing the partial credit on a time transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the hours and amount invoiced
+                    on the original invoice line detail for time.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    hours and amount on the edited invoice
+                    line detail, a reversal of this, and an equivalent billed sales actual.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    remaining hours and amount after deducting the corrected
+                    figures on the invoice line detail.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+                    Invoicing the full credit of a previously invoiced expense
+                    transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount on the
+                    original invoice line detail for the expense.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual for the quantity and amount on
+                    the original invoice line detail for the expense.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+                    Invoicing the partial credit of a previously invoiced expense
+                    transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount
+                    invoiced on the original invoice line detail for an expense.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    quantity and amount on the corrected invoice
+                    line detail, a reversal of this, and an equivalent billed sales actual.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    remaining quantity and amount after deducting the corrected
+                    figures on the invoice line detail.
+                </p>
+            </td>
+        </tr>
+                <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+                    Invoicing the full credit of a previously invoiced material
+                    transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount on the
+                    original invoice line detail for material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual for the quantity and amount on the
+                    original invoice line detail for material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+                    Invoicing the partial credit on a material transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount invoiced
+                    on the original invoice line detail for material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    quantity and amount on the edited invoice
+                    line detail, a reversal of this, and an equivalent billed sales actual.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    remaining quantity and amount after deducting the corrected
+                    figures on the invoice line detail.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+                    Invoicing the full credit of a previously invoiced fee
+                    transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount on the
+                    original invoice line detail for the fee.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual for the quantity and amount on
+                    the original invoice line detail for the fee.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+                    Invoicing the partial credit of a previously invoiced fee
+                    transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount
+                    invoiced on the original invoice line detail for fee.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    quantity and amount on the edited corrective invoice
+                    line detail, a reversal of this, and an equivalent billed sales actual.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+                    Invoicing the full credit of a previously invoiced milestone.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the amount on the original
+                    invoice line detail for the milestone.
+                </p>
+                <p>
+                    The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+                    Invoicing the partial credit of a previously invoiced
+                    milestone.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    This scenario isn't supported.
+                </p>
+            </td>
+        </tr>       
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

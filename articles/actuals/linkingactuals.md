@@ -68,7 +68,7 @@ Transaction class represents the different types of costs that are incurred on p
 
 **ansaction connection** is an entity that stores the relationship between two similar business transactions, such as cost and related sales actuals, or transaction reversals triggered by billing activities such as invoice confirmation or invoice corrections.
 
-Together, **ransaction origin** and **Transaction connection** help you track relationships between business transactions and actions that resulted in a specific business transaction.
+Together, **Transaction origin** and **Transaction connection** help you track relationships between business transactions and actions that resulted in a specific business transaction.
 
 ### Example: How Transaction origin works with Transaction connection
 

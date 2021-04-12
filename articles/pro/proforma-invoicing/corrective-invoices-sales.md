@@ -1,16 +1,16 @@
 ---
-title: Create corrective project invoices
-description: This topic provides information about how to use corrective invoices in Project Operations.
+title: Corrective project invoices
+description: This topic provides information about how to create and confirm corrective invoices in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 03/29/2021
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Create corrective project invoices
+# Corrective project invoices
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -226,6 +226,59 @@ The following table lists the actuals that are created when a corrective invoice
                 <p>
                     A new unbilled sales actual that is chargeable for the
                     quantity and amount on the corrected invoice
+                    line detail, a reversal of this, and an equivalent billed sales actual.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    remaining quantity and amount after deducting the corrected
+                    figures on the invoice line detail.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+                    Invoicing the full credit of a previously invoiced material
+                    transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount on the
+                    original invoice line detail for material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual for the quantity and amount on the
+                    original invoice line detail for material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+                    Invoicing the partial credit on a material transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount invoiced
+                    on the original invoice line detail for material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    quantity and amount on the edited invoice
                     line detail, a reversal of this, and an equivalent billed sales actual.
                 </p>
             </td>

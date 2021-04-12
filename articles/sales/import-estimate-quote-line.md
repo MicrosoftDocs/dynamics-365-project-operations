@@ -1,6 +1,6 @@
 ---
-title: Import estimates for a project to a project-based quote line
-description: This topic provides information about importing estimates from a project to a quote line.
+title: Import estimates for a project to a project quote line
+description: This topic provides information about importing estimates from a project to a project quote line.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Import estimates for a project to a project-based quote line
+# Import estimates for a project to a project quote line
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
