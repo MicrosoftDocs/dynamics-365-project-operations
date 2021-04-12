@@ -83,21 +83,21 @@ In Project Operations, you can record material estimates and usage for catalog p
 
 1. In Finance, go to **Product Information Management** > **Products** > **Released products**, and select **New**.
 2. In the **Product type** field, select **Item** and in the **Product subtype** field, select **Product**.
-3. Enter the product number ( WRITEIN) and the product name (Write-in Product).
+3. Enter the product number (WRITEIN) and the product name (Write-in Product).
 4. Select  the item model group. Make sure that the item model group you select has the **Inventory policy Stocked product** field set to **False**.
-5. Select values in the **Item group**, **Storage dimension group**, and **Tracking dimension group** fields. You should use the **Storage dimension** for **Site** only, and not set any tracking dimensions.
+5. Select values in the **Item group**, **Storage dimension group**, and **Tracking dimension group** fields. Use the **Storage dimension** for **Site** only, and not set any tracking dimensions.
 6. Select values in the **Inventory unit**, **Purchase unit**, and **Sales unit** field, and then save your changes.
 7. In the **Plan** tab, set the default order settings, and on the **Inventory** tab, set the default site and warehouse.
 8. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters** and open **Project Operations on Dynamics 365 Dataverse**. 
-9. On the **Materials** tab, in the **Write-in product** field, select the product you just created.
+9. On the **Materials** tab, in the **Write-in product** field, select the product you created.
 10. In your Dataverse environment, in the site map, open the **Products** entity and find the write-in product record. 
-11. Open the record details and set product state to **Retired**. This will prevent anyone from accidentally using this record directly in material estimates and usage documents.
+11. Open the record details and set product state to **Retired**. This product state prevents anyone from accidentally using this record directly in material estimates and usage documents.
 
 ### Set up a procurement integration account
 
 The procurement integration account is used as a clearing account when posting a pending vendor invoice with lines attributed to a project.
 
-When the system posts a pending vendor invoice, this account is used for the project cost amount. The vendor invoice details are processed in Dataverse, and a corresponding project actual is created. The information from the project actual is added to the Project Operations Integration journal. When you post the integration journal, the amount is cleard from the procurement integration account and recorded to the project cost.
+When the system posts a pending vendor invoice, this account is used for the project cost amount. The vendor invoice details are processed in Dataverse, and a corresponding project actual is created. The information from the project actual is added to the Project Operations Integration journal. When you post the integration journal, the amount is cleared from the procurement integration account and recorded to the project cost.
 
 1. To set up the procurement integration account, go to **Project management and accounting** > **Setup** > **Project management and accounting parameters**, and open **Project Operations on Dynamics 365 Dataverse**. 
 2. Select the **Materials** tab, and select a value in the **Procurement integration account** field.
