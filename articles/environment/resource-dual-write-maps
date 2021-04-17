@@ -68,11 +68,11 @@ Follow these steps to run the maps listed in this section:
 
 1. Enable Project resource roles for all companies (bookableresourcecategories) table map, as this map requires initial sync. Set Master for initial sync to Common data service. Wait until this step is complete.
 
-![Resource role table map sync](RackMultipart20210417-4-89vu8w_html_682c904452b9684a.png)
+![Resource role table map sync](media/6ResourceInitialSync.jpg)
 
-Wait until map status is &quot;Running&quot; before proceeding with the next step.
+Wait until map status is **Running** before proceeding with the next step.
 
-1. Select all remaining required maps. You can filter them in Dual Write map list using &quot;Project&quot; keyword, multi-select and run as described in this article: [Manage multiple table maps - Finance &amp; Operations | Dynamics 365 | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure to enable and run related entity maps as well.
+2. Select all remaining required maps. You can filter them in Dual Write map list using **Project** keyword in the search at the top right corner, multi-select all maps and run as described in this article: [Manage multiple table maps - Finance &amp; Operations | Dynamics 365 | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure to enable and run related entity maps as well.
 
 ### Project Operations Dual Write map versions
 
