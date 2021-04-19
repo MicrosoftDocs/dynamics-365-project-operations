@@ -44,21 +44,21 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | First Release |  4.9.0.221       | TBD     | 23-Apr-21           |
+|   &nbsp;  | First Release |  4.9.0.221       | TBD     | 30-Apr-21           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.9.0.221       | TBD     | 23-Apr-21           |
-|    &nbsp; | Canada        |  4.9.0.221       | TBD     | 23-Apr-21           |
-|   &nbsp;  | India         |  4.9.0.221       | TBD     | 23-Apr-21           |
-|   &nbsp;  | France         |  4.9.0.221       | TBD     | 23-Apr-21           |
-|   &nbsp;  | United Arab Emirates         |  4.9.0.221       | TBD     | 23-Apr-21           |
-|   &nbsp;  | South Africa         |  4.9.0.221       | TBD     | 23-Apr-21           |
+|   &nbsp;  | South America |  4.9.0.221       | TBD     | 30-Apr-21           |
+|    &nbsp; | Canada        |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | India         |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | France         |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | United Arab Emirates         |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | South Africa         |  4.9.0.221       | TBD     | 30-Apr-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.9.0.221       | TBD     | 30-Apr-21           |
-|   &nbsp;  | Asia Pacific  |  4.9.0.221       | TBD     | 30-Apr-21           |
-|   &nbsp;  | Great Britain |  4.9.0.221       | TBD     | 30-Apr-21           |
-|   &nbsp;  | Oceania       |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | Japan         |  4.9.0.221       | TBD     | 07-May-21           |
+|   &nbsp;  | Asia Pacific  |  4.9.0.221       | TBD     | 07-May-21           |
+|   &nbsp;  | Great Britain |  4.9.0.221       | TBD     | 07-May-21           |
+|   &nbsp;  | Oceania       |  4.9.0.221       | TBD     | 07-May-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        |  4.8.0.92       | 4.9.0.221     | 16-Apr-21           |
+|   &nbsp;  | Europe        |  4.9.0.221       | TBD     | 14-May-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | North America |  4.8.0.92       | 4.9.0.221     | 23-Apr-21           |
 
@@ -68,6 +68,7 @@ Updates for Project management and accounting are released eight times a year.
 
 | Supported release | Generally available (self-update) |
 | --- | --- |
+| 10.0.18 | April 16, 2021 |
 | 10.0.17 | March 19, 2021 |
 | 10.0.16 | January 22, 2021 |
 
@@ -76,7 +77,6 @@ Targeted release dates are subject to change. For more information, see [Service
 
 | Targeted release date | Generally available (self- updated) |
 | --- | --- |
-| 10.0.18 | April 16, 2021 |
 | 10.0.19 | June 18, 2021 |
 | 10.0.20 | July 16, 2021 |
 
