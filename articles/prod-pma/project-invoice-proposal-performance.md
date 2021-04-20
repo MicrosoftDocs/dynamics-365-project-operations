@@ -5,7 +5,7 @@ title: Project invoice proposal performance
 description: This topic provides information about performance improvements to project invoice proposals.
 author: Yowelle
 manager: AnnBe
-ms.date: 03/05/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -33,8 +33,6 @@ ms.dyn365.ops.version: 10.0.18
 # Project invoice proposal performance
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 When you create a new invoice proposal you might encounter performance issues as the number of projects and subprojects increase. To improve performance, a feature is available that reduces the time needed to create a new invoice proposal for posted project transactions.
 
