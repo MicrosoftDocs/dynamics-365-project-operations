@@ -34,9 +34,9 @@
         href: environment/security-model.md
       - name: Configure Project Operations integration per legal entity
         href: environment/resource-configure-integration-per-legal-entity.md
-    - name: Configure Dual Write integration
+    - name: Configure dual-write integration
       items:
-      - name: Dual Write integration overview
+      - name: Dual-write integration overview
         href: environment/resource-dual-write-overview.md
   - name: What's new 
     items:
