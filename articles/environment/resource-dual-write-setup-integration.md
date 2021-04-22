@@ -25,7 +25,7 @@ Project contracts, contract lines, and projects are created in Dataverse and syn
 
 Sales activity leads, opportunities, and quotes are tracked in Dataverse and don't synchronize to Finance and Operations apps because there is no downstream accounting associated with this activity.
 
-The project contract functionality in Dataverse creates a project contract record in Finance and Operations apps using the **Project contract headers (salesorders)** table map. Saving a project contract in Dataverse also starts the creation of a project contract customer entity record. This record is synchronized to Finance and Operations apps using the **Project funding source (msdyn\_projectcontractssplitbillingrules)** table map. This map also synchronizes further project contract customer additions, updates, and deletions. Split billing percentages between project contract customers are mastered only in Dataverse and not synchronized to Finance and Operations apps.
+The project contract functionality in Dataverse creates a project contract record in Finance and Operations apps using the **Project contract headers (salesorders)** table map. Saving a project contract in Dataverse also starts the creation of a project contract customer entity record. This record is synchronized to Finance and Operations apps using the **Project funding source (msdyn\_projectcontractssplitbillingrules)** table map. This map also synchronizes project contract customer additions, updates, and deletions. Split billing percentages between project contract customers are mastered only in Dataverse and not synchronized to Finance and Operations apps.
 
 After a project contract is created in Dataverse, the project accountant can update the accounting attributes for this project contract in Finance and Operations apps by going to **Project management and accounting** > **Project contracts** > **Set up** > **Show default accounting**. The accountant can review operational project contract attributes, such as requested delivery date and contract amount by selecting the project contract ID in Finance and Operations apps which opens the related project contract record in Dataverse.
 
@@ -39,7 +39,7 @@ A project is associated with a project contract through the **Project contract l
 
 Project contract lines in Dataverse creates a project contract billing rule in Finance and Operations apps using the **Project contract lines (salesorderdetails)** table map. The billing method defines the project contract billing rule type in Finance and Operations apps:
 
-  - Project contract lines with a billing method of Time and material create a billing rule of time and material type.
+  - Project contract lines with a billing method of time and material create a billing rule of time and material type.
   - Fixed price billing method contract lines create a milestone billing rule.
 
 Project contract lines can be reviewed by the project accountant in Finance and Operations apps by going to **Project management and accounting** > **Project contracts** > **Set up** > **Show default accounting**, and reviewing the details on the **Contract lines** tab. The accountant can also set default financial dimensions for the fixed price billing method contract lines on this tab.
