@@ -26,7 +26,7 @@ Project Operations in Finance provides project accounting and revenue recognitio
 
 Project Operations integration consists of the following component integration:
 
-- Project Operations setup and configuration data integration 
+- [Project Operations setup and configuration data integration](resource-dual-write-setup-integration.md) 
 - Project estimates and actuals
 - Project invoices 
 - Expense management
