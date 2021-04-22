@@ -3,7 +3,7 @@ title: What's new April 2021 - Project Operations for resource/non-stocked based
 description: This topic provides information about the quality updates available in the April 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
 manager: tfehr
-ms.date: 04/21/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -80,7 +80,7 @@ If you encounter an issue with starting the map, follow instructions in the [Mis
 
 | **Feature area** | **Reference number** | **Quality update** |
 | --- | --- | --- |
-| Project management and accounting | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Reverse estimate elimination isn't working in **Periodic**.  |
+| Project management and accounting | [491941](https://fix.lcs.dynamics.com/Issue/Details/?bugId=491941) | Reverse estimate elimination isn't working in the **Periodic** section.  |
 | Project management and accounting | [509773](https://fix.lcs.dynamics.com/Issue/Details/?bugId=509773) | The **Accounting adjustment** feature creates an issue with ledger accounts that have **Do not allow manual entry** selected. |
 | Project management and accounting | [510728](https://fix.lcs.dynamics.com/Issue/Details/?bugId=5109728) | Added business logic to process correction invoices including retainer amount or applied retainer amount. |
 | Project management and accounting | [514364](https://fix.lcs.dynamics.com/Issue/Details/?bugId=514364) | WIP-sales value posting in intercompany project invoicing picks an unexpected account. |
