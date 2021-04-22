@@ -3,7 +3,7 @@ title: Project Operations dual-write map versions
 description: This topic provides the list of dual-write maps required for Dynamics 365 Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 04/21/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -22,14 +22,10 @@ The following maps are required prerequisites for the Project Operations solutio
 
 | Table map | Initial sync |
 | --- | --- |
-| Ledger (msdyn_ledgers)
- | Requires initial sync for the table map and all prerequisites. Master for initial sync is Finance and Operations apps. |
-| Legal entities (cdm_companies)
- | Not required. System populates this entity automatically when environments are linked using Dual Write. |
-| Customers V3 (accounts)
- | Not required for provisioning. |
-| Vendors V2 (msdyn_vendors)
- | Not required for provisioning. |
+| Ledger (msdyn_ledgers) | Requires initial sync for the table map and all prerequisites. Master for initial sync is Finance and Operations apps. |
+| Legal entities (cdm_companies) | Not required. System populates this entity automatically when environments are linked using Dual Write. |
+| Customers V3 (accounts) | Not required for provisioning. |
+| Vendors V2 (msdyn_vendors) | Not required for provisioning. |
 
 1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **Finance and Operations apps** for both ledger map and all prerequisite maps. Select **Run**.
 
