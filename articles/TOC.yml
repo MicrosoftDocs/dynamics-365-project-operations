@@ -38,6 +38,10 @@
       items:
       - name: Dual-write integration overview
         href: environment/resource-dual-write-overview.md
+      - name: Project Operations dual-write map versions
+        href: environment/resource-dual-write-maps.md  
+      - name: Project Operations setup and configuration data integration
+        href: environment/resource-dual-write-setup-integration.md  
   - name: What's new 
     items:
     - name: April 2021 - Project Operations for resource/non-stocked based scenarios
