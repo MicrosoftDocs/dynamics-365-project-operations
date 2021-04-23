@@ -3,7 +3,7 @@ title: Project Operations setup and configuration data integration
 description: This topic provides information about setting up and configuring Project Operations dual-write maps. 
 author: sigitac
 manager: Annbe
-ms.date: 4/22/2021
+ms.date: 4/23/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -15,7 +15,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic provides information about the setup and configuration related to Dynamics 365 Project Operations dual-write maps.
+This topic provides information about Project Operations dual-write integration for setup and configuration entities.
 
 ## Project contracts, contract lines, and projects
 
