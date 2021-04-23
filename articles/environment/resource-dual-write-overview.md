@@ -2,7 +2,7 @@
 title: Project Operations dual-write integration 
 description: This topic provides an overview of Project Operations dual-write integration.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -20,7 +20,7 @@ The following illustration shows how data is synchronized as part of this integr
 
 ![Project Operations data flows overview](./media/ProjectOperationsFlows.jpg)
 
-Project Operations on Dataverse provides a modern user interface (UI) and easy no-code/low-code extensibility using Power Platform capabilities. Project managers, Resource managers, Project team members, and other front-office personas perform their activities in Project Operations on Dataverse.
+Project Operations on Dataverse provides a modern user interface (UI) and easy no-code/low-code extensibility using Power Platform capabilities. Project managers, Resource managers, Project team members, and other front-office personas, perform their activities in Project Operations on Dataverse.
 
 Project Operations in Finance provides project accounting and revenue recognition support. Project Operations plugs in to the financial framework in Finance for sales tax calculation, currency exchange rates, financial dimension reporting, and more. The Project accountant experiences are mostly based in Finance.
 
