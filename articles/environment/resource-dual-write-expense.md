@@ -26,9 +26,7 @@ In a full expense deployment, expense categories are created and maintained in D
 
   ![Expense categories integration](./media/DW6ExpenseCategories.png)
 
-Expense categories in Finance and Operations apps are company-, or legal entity-specific. There are separate, corresponding legal entity-specific records in Dataverse. When a project manager creates a new expense in Dataverse for a project created in Finance and Operations apps, only those expense categories that are in the **Owning company** field can be selected. 
-
-When the Project manager records expense estimates in Dataverse **Project Details** form **Expense Estimates** tab, system allows to pick only expense categories matching this project owning company or without a reference to a company record.
+Expense categories in Finance and Operations apps are company-, or legal entity-specific. There are separate, corresponding legal entity-specific records in Dataverse. When a project manager estimates expenses, they cant' select expense categories that were created for a project that is owned by a different company that the one that owns the project they are working on. 
 
 ## Expense reports
 
