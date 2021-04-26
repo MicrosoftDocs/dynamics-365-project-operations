@@ -37,14 +37,14 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 The following issues have been fixed:
 
-- Time entry control command buttons on the **Bookable Resource** page are misleading.
-- A Null Reference Exception was generated in **Project.SetTrackingFields** when approving a time entry.
+- Time entry control command buttons on the **Bookable Resource** page were confusing.
+- A null reference exception was generated in **Project.SetTrackingFields** when approving a time entry.
 
 **Resource Management**
 
 The following issues have been fixed:
 
-- **Create Team Member** doesn't correctly defaut to respect the booking setup metadata setting for **Default Booking Committed Status**.
+- **Create Team Member** doesn't correctly display the booking setup metadata setting for **Default Booking Committed Status**.
 - When upgrading from PSA 1.X to 3.X, the upgrade process fails at **UpgradeResourceRequirements**.
 
 
@@ -53,7 +53,7 @@ The following issues have been fixed:
 The following issues have been fixed:
 
 - Actual revenue converts the amounts to the project currency in the tracking grid.
-- Currency defaulting is unclear when creating journal lines, quote lines, and contract lines in scenarios where an organization's base currency differs from the project currency.
+- The currency default is unclear when creating journal lines, quote lines, and contract lines in scenarios where an organization's base currency differs from the project currency.
 - **Pending correction journal validation** query doesn't filter by project.
 - Remaining sales are calculated incorrectly on a project.
 - Quotes based on a contact fail when they are created without a price list.
