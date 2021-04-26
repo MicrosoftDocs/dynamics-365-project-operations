@@ -43,25 +43,25 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | Station  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | April 23, 2021
+| | <i>First Release</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | May 28, 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | April 30, 2021
-| | <i>Canada</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | April 30, 2021
-| | <i>India</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | April 30, 2021
-| | <i>France</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | April 30, 2021
-| | <i>United Arab Emirates</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | April 30, 2021
-| | <i>South Africa</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | April 30, 2021
-| | <i>Germany</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | April 30, 2021
-| | <i>Switzerland</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | April 30, 2021
+| | <i>South America</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | April 30, 2021
+| | <i>Canada</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | April 30, 2021
+| | <i>India</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | April 30, 2021
+| | <i>France</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | April 30, 2021
+| | <i>United Arab Emirates</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | April 30, 2021
+| | <i>South Africa</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | April 30, 2021
+| | <i>Germany</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | April 30, 2021
+| | <i>Switzerland</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | April 30, 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | May 07, 2021
-| | <i>Asia Pacific</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | May 07, 2021
-| | <i>Great Britain</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | May 07, 2021
-| | <i>Oceana</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | May 07, 2021
+| | <i>Japan</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | May 07, 2021
+| | <i>Asia Pacific</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | May 07, 2021
+| | <i>Great Britain</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | May 07, 2021
+| | <i>Oceana</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | May 07, 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.51.61](whats-new-ur-30.md) | TBD | May 14, 2021
+| | <i>Europe</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | May 14, 2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | April 23, 2021
+| | <i>North America</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | May 21, 2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | April 30, 2021
 | | <i>Dedicated Scale Groups</i> | [3.10.47.150](whats-new-ur-29-5.md) | [3.10.51.61](whats-new-ur-30.md) | April 30, 2021
