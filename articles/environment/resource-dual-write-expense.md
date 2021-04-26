@@ -14,7 +14,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic provides information about expense reports integration in Project Operations [full expense deployment](https://docs.microsoft.com/en-us/dynamics365/project-operations/expense/expense-overview#full) using dual-write.
+This topic provides information about expense reports integration in Project Operations [full expense deployment]../expense/expense-overview.md) using dual-write.
 
 ## Expense categories
 
