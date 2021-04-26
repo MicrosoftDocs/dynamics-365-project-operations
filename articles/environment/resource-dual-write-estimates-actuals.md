@@ -3,7 +3,7 @@ title: Project estimates and actuals integration
 description: This topic provides information about Project Operations dual-write integration for project estimates and actuals.
 author: sigitac
 manager: Annbe
-ms.date: 4/23/2021
+ms.date: 4/26/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -17,62 +17,62 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This topic provides information about Project Operations dual-write integration for project estimates and actuals.
 
-# Project estimates
+## Project estimates
 
-Project labor, expense and material estimates are created and maintained in Dataverse and synchronized to Finance and Operations apps for accounting purposes. Create, update, and delete operations are not supported through Finance and Operations apps.
+Project labor, expense, and material estimates are created and maintained in Dataverse and synchronized to Finance and Operations apps for accounting purposes. Create, update, and delete operations aren't supported through the Finance and Operations apps.
 
-Note that creating estimates require valid accounting configuration for the project. Projects associated with contract lines must have a valid project cost and revenue profile defined in Project cost and revenue profile rules. See [Configure accounting for billable projects | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-accounting/configure-accounting-billable-projects#configure-project-cost-and-revenue-profile-rules).
+Creating estimates requires a valid accounting configuration for the project. Projects that are associated with contract lines must have a valid project cost and revenue profile defined in the Project cost and revenue profile rules. For more information, see [Configure accounting for billable projects](../project-accounting/configure-accounting-billable-projects.md#configure-project-cost-and-revenue-profile-rules).
 
 ## Labor estimates
 
-Labor estimates are created by Project Manager or Resource manager assigning generic or named resource to the project task. Resource assignment records can be reviewed by opening Project details in Dataverse and opening Resource assignments tab. Resource assignment records in Dataverse creates hour forecast records in Finance and Operations apps using **Project Operations integration entity for hour estimates (msdyn\_resourceassignments)**.
+Labor estimates are created by the Project Manager or Resource manager who also assigns a generic or named resource to the project task. Resource assignment records can be reviewed on the **Resource Assignments** tab on the **Project Details** page in Dataverse. Resource assignment records in Dataverse create hour forecast records in Finance and Operations apps using **Project Operations integration entity for hour estimates (msdyn\_resourceassignments)**.
 
-![Labor estimates integration](./Media/DW4LaborEstimates.png)
+   ![Labor estimates integration](./Media/DW4LaborEstimates.png)
 
-Dual-write synchronizes resource assignment records to the staging table (ProjCDSEstimateHoursImport), and then system uses business logic to create/ update hour forecast records (ProjForecastEmpl).
+Dual-write synchronizes resource assignment records to the staging table (**ProjCDSEstimateHoursImport**), and then uses business logic to create and update hour forecast records (**ProjForecastEmpl**).
 
-Project Accountant can review created forecast hour records in Finance and Operations apps by navigating to Project Management and Accounting \&gt; All projects \&gt; Plan \&gt; Hour forecasts.
+The Project accountant reviews forecast hour records created in Finance and Operations apps by going to **Project management and accounting** > **All projects** > **Plan** > **Hour forecasts**.
 
 ## Expense estimates
 
-Expense estimates are created by Project Manager in Project details form Expense estimates tab in Dataverse. Expense estimate records are stored in Estimate line entity in Dataverse. Such records will have transaction class Expense. Estimate line records (transaction class Expense) are synchronized to expense forecast records in Finance and Operations apps using **Project Operations integration entity for expense estimates (msdyn\_estimatelines)**.
+Expense estimates are created by the Project manager on the **Expense Estimates** tab on the **Project Details** page in Dataverse. Expense estimate records are stored in the **Estimate Line** entity in Dataverse. These estimate records have transaction class, **Expense** and are synchronized to expense forecast records in Finance and Operations apps using **Project Operations integration entity for expense estimates (msdyn\_estimatelines)**.
 
-![Expense estimates integration](./Media/DW4ExpenseEstimates.png)
+   ![Expense estimates integration](./Media/DW4ExpenseEstimates.png)
 
-Dual-write synchronizes expense estimate records to the staging table (ProjCDSEstimateExpenseImport), and then system uses business logic to create/ update expense forecast records (ProjForecastCost). Note that Estimate line stores sales estimate and cost estimate records separately. Business logic in Finance and Operations apps populates a single Expense forecast record using this detail in the staging table.
+Dual-write synchronizes expense estimate records to the staging table, **ProjCDSEstimateExpenseImport)** and then uses business logic to create and update expense forecast records (**ProjForecastCost**). Estimate lines store sales estimate and cost estimate records separately. The business logic in Finance and Operations apps populates a single Expense forecast record using this detail in the staging table.
 
-Project Accountant can review created expense forecast records in Finance and Operations apps by navigating to Project Management and Accounting \&gt; All projects \&gt; Plan \&gt; Expense forecasts.
+The Project accountant can review expense forecast records in Finance and Operations apps by going to **Project management and accounting** > **All projects** > **Plan** > **Expense forecasts**.
 
 ## Material estimates
 
-Material estimates are created by Project Manager in Project details form Material estimates tab in Dataverse. Material estimate records are stored in Estimate line entity in Dataverse. Such records will have transaction class Material. Estimate line records (transaction class Material) are synchronized to item forecast records in Finance and Operations apps using **Project integration table for material estimates (msdyn\_estimatelines)**.
+Material estimates are created by Project manager on the **Material Estimates** tab on the **Project Details** page in Dataverse. Material estimate records are stored in the **Estimate Line** entity in Dataverse. These estimate records have the transaction class, **Material** and are synchronized to item forecast records in Finance and Operations apps using **Project integration table for material estimates (msdyn\_estimatelines)**.
 
-![Material estimates integration](./Media/DW4MaterialEstimates.png)
+   ![Material estimates integration](./Media/DW4MaterialEstimates.png)
 
-Dual-write synchronizes material estimate records to the staging table (ProjForecastSalesImport), and then system uses business logic to create/ update item forecast records (ForecastSales). Note that Estimate line stores sales estimate and cost estimate records separately. Business logic in Finance and Operations apps populates a single Item forecast record using this detail in the staging table.
+Dual-write synchronizes material estimate records to the staging table **ProjForecastSalesImpor**, and then uses business logic to create and update item forecast records (**ForecastSales**). Estimate lines store sales estimate and cost estimate records separately. The business logic in Finance and Operations apps populates a single Item forecast record using this detail in the staging table.
 
-Project Accountant can review created item forecast records in Finance and Operations apps by navigating to Project Management and Accounting \&gt; All projects \&gt; Plan \&gt; Item forecasts.
+The Project accountant can review item forecast records in Finance and Operations apps by going to **Project management and accounting** > **All projects** > **Plan** > **Item forecasts**.
 
-# Project Actuals
+## Project actuals
 
-Project Actuals are created in Dataverse, based on time, expense, material, and billing activity. All operational attributes of these transactions (i.e. quantity, cost price, sales price, project etc.) are captured in this Dataverse entity. See [Actuals | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/actuals/actuals-overview). Actual records are synchronized to Finance and Operations apps using dual-write table map **Project Operations integration actuals (msdyn\_actuals)** for downstream accounting.
+Project actuals are created in Dataverse, based on time, expense, material, and billing activity. All operational attributes of these transactions including quantity, cost price, sales price, and project are captured in this Dataverse entity. For more information, see [Actuals](../actuals/actuals-overview.md). Actual records are synchronized to Finance and Operations apps using the dual-write table map **Project Operations integration actuals (msdyn\_actuals)** for downstream accounting.
 
-![Actuals integration](./Media/DW4Actuals.png)
+   ![Actuals integration](./Media/DW4Actuals.png)
 
-**Project Operations integration actuals** table map synchronizes all the records from Actuals entity in Dataverse, with the attribute **Skip Sync (internal use only)** set to False. This attribute value is set by Dataverse automatically at the time of record creation. Examples where this attribute is set to true are:
+The **Project Operations integration actuals** table map synchronizes all the records from the **Actuals** entity in Dataverse, with the attribute **Skip Sync (internal use only)** set to **False**. This attribute value is set in Dataverse automatically when the record is created. Examples where this attribute is set to **True** are:
 
-1. Project cost actuals for intercompany transactions. See [Create intercompany transactions | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-accounting/create-intercompany-transactions). These records are skipped, as system will recreate project cost actual in Finance and Operations apps at the time of intercompany vendor invoice is posted.
-2. Negative unbilled sales records created at the time of proforma invoice confirmation. These records are skipped, as Project subledger in Finance and Operations apps does not reverse the unbilled sales record at the invoicing time but changes its status to Fully invoiced.
+  - Project cost actuals for intercompany transactions. For more information, see [Create intercompany transactions](../project-accounting/create-intercompany-transactions.md). These records are skipped because the system recreates the project cost actual in Finance and Operations apps when the intercompany vendor invoice is posted.
+  - Negative unbilled sales records created when the proforma invoice is confirmed. These records are skipped because the project subledger in Finance and Operations apps doesn't reverse the unbilled sales record at invoicing but changes the status to fully invoiced.
 
-Dual-write table map synchronizes Actuals records to the staging table ( **ProjCDSActualsImport** ). These records then are processed by periodic process Import from staging table when creating Project Operations integration journal lines and Project invoice proposal lines. See [Integration journal in Project Operations | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal).
+The dual-write table map synchronizes the actuals records to the staging table, **ProjCDSActualsImport**. These records are processed by the periodic process **Import from staging table** when creating Project Operations integration journal lines and project invoice proposal lines. For more information, see [Integration journal in Project Operations](../project-accounting/project-operations-integration-journal.md).
 
-Dataverse also captures links between the Project actual transactions in Transaction connection entity. See [Link actuals to original records | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/actuals/linkingactuals). Links between actual transactions are also synchronized to Finance and Operations apps using dual-write table map Integration entity for project transaction relationships (msdyn\_transactionconnections). These records are used by periodic process Import from staging table when creating Project Operations integration journal lines and Project invoice proposal lines.
+Dataverse also captures the links between the project actual transactions in the **Transaction connection** entity. For more information, see [Link actuals to original records](../actuals/linkingactuals.md). Links between actual transactions are also synchronized to Finance and Operations apps using the dual-write table map, **Integration entity for project transaction relationships (msdyn\_transactionconnections)**. These records are used by the periodic process, **Import from staging table** when creating Project Operations integration journal lines and Project invoice proposal lines.
 
-Posting Project Operations integration journal and Project invoice proposal triggers an update in respective records in the staging table ( **ProjCDSActualsImport** ). System captures and records the following accounting attributes for Actual transactions:
+Posting a Project Operations integration journal and a project invoice proposal triggers an update in respective records in the staging table, **ProjCDSActualsImport**. The system captures and records the following accounting attributes for actuals transactions:
 
 - Accounting currency amount
 - Exchange rate
 - Voucher number
 - Sales tax amount
 
-**Project Operations integration actuals** table map updates respective Actuals records in Dataverse with this detail.
+The **Project Operations integration actuals** table map updates respective actuals records in Dataverse with this detail.
