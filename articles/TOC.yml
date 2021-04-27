@@ -889,9 +889,9 @@
   - name: Set up and use pay-when-paid vendor payments
     href: prod-pma/setup-manage-vendor-payments.md
   - name: Project cost accrual on purchase receipts
-    href: https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+    href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
   - name: Project invoicing
-    href: https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing
+    href: /dynamics365/finance/accounts-payable/project-invoicing
   - name: Project invoice proposal performance
     href: prod-pma/project-invoice-proposal-performance.md
   - name: Project contracts
@@ -1347,7 +1347,7 @@
       - name: View resource utilization
         href: psa/view-resource-utilization.md
       - name: Universal Resource Scheduling (URS)
-        href: https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
+        href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
     - name: Project manager guide
       items:
       - name: Project manager guide (Project Service)
