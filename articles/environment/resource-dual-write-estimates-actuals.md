@@ -19,7 +19,7 @@ This topic provides information about Project Operations dual-write integration 
 
 ## Project estimates
 
-Project labor, expense, and material estimates are created and maintained in Dataverse and synchronized to Finance and Operations apps for accounting purposes. Create, update, and delete operations aren't supported through the Finance and Operations apps.
+Project labor, expense, and material estimates are created and maintained in Microsoft Dataverse and synchronized to Finance and Operations apps for accounting purposes. Create, update, and delete operations aren't supported through the Finance and Operations apps.
 
 Creating estimates requires a valid accounting configuration for the project. Projects that are associated with contract lines must have a valid project cost and revenue profile defined in the Project cost and revenue profile rules. For more information, see [Configure accounting for billable projects](../project-accounting/configure-accounting-billable-projects.md#configure-project-cost-and-revenue-profile-rules).
 
@@ -45,7 +45,7 @@ The Project accountant can review expense forecast records in Finance and Operat
 
 ## Material estimates
 
-Material estimates are created by Project manager on the **Material Estimates** tab on the **Project Details** page in Dataverse. Material estimate records are stored in the **Estimate Line** entity in Dataverse. These estimate records have the transaction class, **Material** and are synchronized to item forecast records in Finance and Operations apps using **Project integration table for material estimates (msdyn\_estimatelines)**.
+Material estimates are created by the Project manager on the **Material Estimates** tab on the **Project Details** page in Dataverse. Material estimate records are stored in the **Estimate Line** entity in Dataverse. These estimate records have the transaction class, **Material** and are synchronized to item forecast records in Finance and Operations apps using **Project integration table for material estimates (msdyn\_estimatelines)**.
 
    ![Material estimates integration](./Media/DW4MaterialEstimates.png)
 
@@ -75,4 +75,4 @@ Posting a Project Operations integration journal and a project invoice proposal 
 - Voucher number
 - Sales tax amount
 
-The **Project Operations integration actuals** table map updates respective actuals records in Dataverse with this detail.
+The **Project Operations integration actuals** table map updates respective actuals records in Dataverse with this information.
