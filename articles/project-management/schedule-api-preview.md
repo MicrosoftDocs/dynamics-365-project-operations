@@ -67,6 +67,190 @@ These APIs can be called with entity objects that include custom fields.
 
 The ID property is optional. If it's provided, the system attempts to use it and throws an exception if it can't be used. If it isn't provided, the system will generate it.
 
+## Restricted Fields
+
+The following tables define the fields that are restricted from **Create** and **Edit.**
+
+### Project task
+
+| **Logical name**                       | **Can create** | **Can edit**     |
+|----------------------------------------|----------------|------------------|
+| msdyn_actualcost                       | no             | no               |
+| msdyn_actualcost_base                  | no             | no               |
+| msdyn_actualend                        | no             | no               |
+| msdyn_actualsales                      | no             | no               |
+| msdyn_actualsales_base                 | no             | no               |
+| msdyn_actualstart                      | no             | no               |
+| msdyn_costatcompleteestimate           | no             | no               |
+| msdyn_costatcompleteestimate_base      | no             | no               |
+| msdyn_costconsumptionpercentage        | no             | no               |
+| msdyn_effortcompleted                  | no             | no               |
+| msdyn_effortestimateatcomplete         | no             | no               |
+| msdyn_iscritical                       | no             | no               |
+| msdyn_iscriticalname                   | no             | no               |
+| msdyn_ismanual                         | no             | no               |
+| msdyn_ismanualname                     | no             | no               |
+| msdyn_ismilestone                      | no             | no               |
+| msdyn_ismilestonename                  | no             | no               |
+| msdyn_LinkStatus                       | no             | no               |
+| msdyn_linkstatusname                   | no             | no               |
+| msdyn_msprojectclientid                | no             | no               |
+| msdyn_plannedcost                      | no             | no               |
+| msdyn_plannedcost_base                 | no             | no               |
+| msdyn_plannedsales                     | no             | no               |
+| msdyn_plannedsales_base                | no             | no               |
+| msdyn_pluginprocessingdata             | no             | no               |
+| msdyn_progress                         | no             | no (yes for P4W) |
+| msdyn_remainingcost                    | no             | no               |
+| msdyn_remainingcost_base               | no             | no               |
+| msdyn_remainingsales                   | no             | no               |
+| msdyn_remainingsales_base              | no             | no               |
+| msdyn_requestedhours                   | no             | no               |
+| msdyn_resourcecategory                 | no             | no               |
+| msdyn_resourcecategoryname             | no             | no               |
+| msdyn_resourceorganizationalunitid     | no             | no               |
+| msdyn_resourceorganizationalunitidname | no             | no               |
+| msdyn_salesconsumptionpercentage       | no             | no               |
+| msdyn_salesestimateatcomplete          | no             | no               |
+| msdyn_salesestimateatcomplete_base     | no             | no               |
+| msdyn_salesvariance                    | no             | no               |
+| msdyn_salesvariance_base               | no             | no               |
+| msdyn_scheduleddurationminutes         | no             | no               |
+| msdyn_scheduledend                     | no             | no               |
+| msdyn_scheduledstart                   | no             | no               |
+| msdyn_schedulevariance                 | no             | no               |
+| msdyn_skipupdateestimateline           | no             | no               |
+| msdyn_skipupdateestimatelinename       | no             | no               |
+| msdyn_summary                          | no             | no               |
+| msdyn_varianceofcost                   | no             | no               |
+| msdyn_varianceofcost_base              | no             | no               |
+
+### Project task dependency
+
+| **Logical name**              | **Can create** | **Can edit** |
+|-------------------------------|----------------|--------------|
+| msdyn_linktype                | no             | no           |
+| msdyn_linktypename            | no             | no           |
+| msdyn_predecessortask         | yes            | no           |
+| msdyn_predecessortaskname     | yes            | no           |
+| msdyn_project                 | yes            | no           |
+| msdyn_projectname             | yes            | no           |
+| msdyn_projecttaskdependencyid | yes            | no           |
+| msdyn_successortask           | yes            | no           |
+| msdyn_successortaskname       | yes            | no           |
+
+### Resource assignment
+
+| **Logical name**             | **Can create** | **Can edit** |
+|------------------------------|----------------|--------------|
+| msdyn_bookableresourceid     | yes            | no           |
+| msdyn_bookableresourceidname | yes            | no           |
+| msdyn_bookingstatusid        | no             | no           |
+| msdyn_bookingstatusidname    | no             | no           |
+| msdyn_committype             | no             | no           |
+| msdyn_committypename         | no             | no           |
+| msdyn_effort                 | no             | no           |
+| msdyn_effortcompleted        | no             | no           |
+| msdyn_effortremaining        | no             | no           |
+| msdyn_finish                 | no             | no           |
+| msdyn_plannedcost            | no             | no           |
+| msdyn_plannedcost_base       | no             | no           |
+| msdyn_plannedcostcontour     | no             | no           |
+| msdyn_plannedsales           | no             | no           |
+| msdyn_plannedsales_base      | no             | no           |
+| msdyn_plannedsalescontour    | no             | no           |
+| msdyn_plannedwork            | no             | no           |
+| msdyn_projectid              | yes            | no           |
+| msdyn_projectidname          | no             | no           |
+| msdyn_projectteamid          | no             | no           |
+| msdyn_projectteamidname      | no             | no           |
+| msdyn_start                  | no             | no           |
+| msdyn_taskid                 | no             | no           |
+| msdyn_taskidname             | no             | no           |
+| msdyn_userresourceid         | no             | no           |
+
+### Project team member
+
+| **Logical name**                                 | **Can create** | **Can edit** |
+|--------------------------------------------------|----------------|--------------|
+| msdyn_calendarid                                 | no             | no           |
+| msdyn_creategenericteammemberwithrequirementname | no             | no           |
+| msdyn_deletestatus                               | no             | no           |
+| msdyn_deletestatusname                           | no             | no           |
+| msdyn_effort                                     | no             | no           |
+| msdyn_effortcompleted                            | no             | no           |
+| msdyn_effortremaining                            | no             | no           |
+| msdyn_finish                                     | no             | no           |
+| msdyn_hardbookedhours                            | no             | no           |
+| msdyn_hours                                      | no             | no           |
+| msdyn_markedfordeletiontimer                     | no             | no           |
+| msdyn_markedfordeletiontimestamp                 | no             | no           |
+| msdyn_msprojectclientid                          | no             | no           |
+| msdyn_percentage                                 | no             | no           |
+| msdyn_requiredhours                              | no             | no           |
+| msdyn_softbookedhours                            | no             | no           |
+| msdyn_start                                      | no             | no           |
+
+### Project
+
+| **Logical name**                       | **Can create** | **Can edit** |
+|----------------------------------------|----------------|--------------|
+| msdyn_actualexpensecost                | no             | no           |
+| msdyn_actualexpensecost_base           | no             | no           |
+| msdyn_actuallaborcost                  | no             | no           |
+| msdyn_actuallaborcost_base             | no             | no           |
+| msdyn_actualsales                      | no             | no           |
+| msdyn_actualsales_base                 | no             | no           |
+| msdyn_contractlineproject              | yes            | no           |
+| msdyn_contractorganizationalunitid     | yes            | no           |
+| msdyn_contractorganizationalunitidname | yes            | no           |
+| msdyn_costconsumption                  | no             | no           |
+| msdyn_costestimateatcomplete           | no             | no           |
+| msdyn_costestimateatcomplete_base      | no             | no           |
+| msdyn_costvariance                     | no             | no           |
+| msdyn_costvariance_base                | no             | no           |
+| msdyn_duration                         | no             | no           |
+| msdyn_effort                           | no             | no           |
+| msdyn_effortcompleted                  | no             | no           |
+| msdyn_effortestimateatcompleteeac      | no             | no           |
+| msdyn_effortremaining                  | no             | no           |
+| msdyn_finish                           | yes            | yes          |
+| msdyn_globalrevisiontoken              | no             | no           |
+| msdyn_islinkedtomsprojectclient        | no             | no           |
+| msdyn_islinkedtomsprojectclientname    | no             | no           |
+| msdyn_linkeddocumenturl                | no             | no           |
+| msdyn_msprojectdocument                | no             | no           |
+| msdyn_msprojectdocumentname            | no             | no           |
+| msdyn_plannedexpensecost               | no             | no           |
+| msdyn_plannedexpensecost_base          | no             | no           |
+| msdyn_plannedlaborcost                 | no             | no           |
+| msdyn_plannedlaborcost_base            | no             | no           |
+| msdyn_plannedsales                     | no             | no           |
+| msdyn_plannedsales_base                | no             | no           |
+| msdyn_progress                         | no             | no           |
+| msdyn_remainingcost                    | no             | no           |
+| msdyn_remainingcost_base               | no             | no           |
+| msdyn_remainingsales                   | no             | no           |
+| msdyn_remainingsales_base              | no             | no           |
+| msdyn_replaylogheader                  | no             | no           |
+| msdyn_salesconsumption                 | no             | no           |
+| msdyn_salesestimateatcompleteeac       | no             | no           |
+| msdyn_salesestimateatcompleteeac_base  | no             | no           |
+| msdyn_salesvariance                    | no             | no           |
+| msdyn_salesvariance_base               | no             | no           |
+| msdyn_scheduleperformance              | no             | no           |
+| msdyn_scheduleperformancename          | no             | no           |
+| msdyn_schedulevariance                 | no             | no           |
+| msdyn_taskearlieststart                | no             | no           |
+| msdyn_teamsize                         | no             | no           |
+| msdyn_teamsize_date                    | no             | no           |
+| msdyn_teamsize_state                   | no             | no           |
+| msdyn_totalactualcost                  | no             | no           |
+| msdyn_totalactualcost_base             | no             | no           |
+| msdyn_totalplannedcost                 | no             | no           |
+| msdyn_totalplannedcost_base            | no             | no           |
+
+
 ## Limitations and known issues
 The following is a list of limitations and known issues:
 
@@ -80,6 +264,12 @@ The following is a list of limitations and known issues:
 - Project Operations currently supports a maximum of 500 total tasks on a project.
 - **OperationSet** failure status and failure logs aren't currently available.
 - Schedule APIs are in Public preview. Using these APIs in a Production environment isn't supported by Microsoft.
+- [Limits and boundaries on projects and tasks](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+
+## Error Handling
+
+   - To review errors generated from the Operation Sets, go to **Settings** \> **Schedule Integration** \> **Operations Sets**.
+   - To review errors generated from the Project Scheduling Service, go to **Settings** \> **Schedule Integration** \> **PSS Error Logs**.
 
 ## Sample scenario
 
