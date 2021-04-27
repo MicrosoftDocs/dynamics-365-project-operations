@@ -2,10 +2,10 @@
 # required metadata
 
 title: Set up credit card integration
-description: This topic explains how to import and maintain expense-related credit card transactions.
+description: This topic explains how to work with expense-related credit card transactions.
 author: suvaidya
 manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: 
 ms.service: project-operations
@@ -31,27 +31,36 @@ ms.dyn365.ops.version:
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Expense-related credit card transactions can be set up so that they are automatically imported on a recurring schedule. Alternatively, the transactions can be manually imported as they are required. The credit card transactions are imported through the Credit card transactions data entity.
+Expense-related credit card transactions can be set up so that they are automatically imported on a recurring schedule. Alternatively, the transactions can be manually imported as they are required. The credit card transactions are imported through the credit card transactions data entity.
 
 ## Import credit card transactions
 
+To import credit card transactions, follow these steps:
+
 1. On the **Credit card transactions** page, select **Import transactions**. If you’re opening data management for the first time, the system must update the list of data entities before you can continue.
-2. In the **Name** field, enter a unique description of the import job.
+2. In the **Name** field, enter a unique description for the import job.
 3. In the **Source data format** field, select the format of the file that contains the credit card transactions to import.
 4. Select **Upload**, and then find and select the file to import.
-5. After the file has been uploaded, validate the mapping of the credit card transaction file and the columns of the Credit card transactions data entity by selecting the **View map** link on the tile. If there are mapping errors, or if you must change the mapping, make the mapping changes from either the **Mapping visualization** tab or the **Mapping details** tab.
+5. After the file has been uploaded, validate the mapping of the credit card transaction file and the columns of the credit card transactions data entity by selecting the **View map** link on the tile. If there are mapping errors, or if you must change the mapping, make the mapping changes from either the **Mapping visualization** tab or the **Mapping details** tab.
 6. To automate the credit card transactions, select **Create recurring data job**. You can then set the recurrence that defines how often credit card transactions should be imported. When you’ve finished, select **OK**.
 7. To import the selected file now, select **Import**.
-8. If errors occur during the import, you can view the execution log or staging data to see the errors that you must fix to help guarantee a successful import.
+8. If errors occur during the import, you can view the execution log or staging data to see the errors that you must fix to help ensure a successful import.
 
 > [!NOTE]
-> If you must import more than one file format, you must create separate import jobs for each format type.
+> If you need to import more than one file format, you must create separate import jobs for each format type.
 
 ## Reassign the credit card transactions for terminated employees
 
-After an employee record is terminated, the employee’s Active Directory Domain Services (AD DS) account is disabled. However, there might be active credit card transactions that must still be expensed and reimbursed. From the **Credit card transactions** page, you can reassign the employee for any credit card transaction where the associated employee has been terminated.
+After an employee record is terminated, the employee’s Active Directory Domain Services (AD DS) account is disabled. However, there might be active credit card transactions that must still be expensed and reimbursed. On the **Credit card transactions** page, you can reassign the employee for any credit card transaction where the associated employee has been terminated.
 
 Select one or more credit card transactions, and then select **Reassign transactions**. You can then select another employee to assign the credit card transactions to. After the credit card transactions have been reassigned, they can be selected for an expense report and paid through the usual process for expense report reimbursement.
 
+## Delete credit card transactions 
+
+Sometimes, after credit card transactions are imported, certain transactions may need to be deleted. This could be because the transactions are duplicates or because the data might isn't accurate. Admins can use the **"Delete credit card transactions"** feature to select and delete credit card transactions that are **not attached** to an expense report. 
+
+1. Go to **Periodic tasks** > **Delete credit card transactions**.
+2. Select **Filter** and provide information to identify the records to include.
+3. Select **OK** to delete the records. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

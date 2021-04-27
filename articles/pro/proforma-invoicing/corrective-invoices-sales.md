@@ -1,16 +1,16 @@
 ---
-title: Corrected invoices - lite
-description: This topic provides information about corrected invoices in Project Operations
+title: Corrective project invoices
+description: This topic provides information about how to create and confirm corrective invoices in Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/15/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Corrected invoices - lite
+# Corrective project invoices
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -32,9 +32,9 @@ A new draft invoice is created from the confirmed invoice. All invoice line deta
 > [!IMPORTANT]
 > Invoice line details that are corrections to other already invoiced charges have the field **Correction** set to **Yes**. Invoices that have corrected invoice line details have a field called **Has corrections** that is also set to **Yes**.
 
-## Actuals created on Confirmation of a corrective invoice:
+## Actuals created when a corrective invoice is confirmed
 
-Below are the actuals created by the application on confirmation of a corrective based on the operations performed on the draft corrective invoice before confirmation.
+The following table lists the actuals that are created when a corrective invoice is confirmed.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -242,6 +242,59 @@ Below are the actuals created by the application on confirmation of a corrective
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+                    Invoicing the full credit of a previously invoiced material
+                    transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount on the
+                    original invoice line detail for material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual for the quantity and amount on the
+                    original invoice line detail for material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+                    Invoicing the partial credit on a material transaction.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+                    A billed sales reversal for the quantity and amount invoiced
+                    on the original invoice line detail for material.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    quantity and amount on the edited invoice
+                    line detail, a reversal of this, and an equivalent billed sales actual.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+                    A new unbilled sales actual that is chargeable for the
+                    remaining quantity and amount after deducting the corrected
+                    figures on the invoice line detail.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
                     Invoicing the full credit of a previously invoiced fee
                     transaction.
                 </p>
@@ -296,8 +349,7 @@ Below are the actuals created by the application on confirmation of a corrective
                     invoice line detail for the milestone.
                 </p>
                 <p>
-                    The milestone invoice or billing status on the project
-                    contract line is updated to **Ready to Invoice**.
+                    The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.
                 </p>
             </td>
         </tr>

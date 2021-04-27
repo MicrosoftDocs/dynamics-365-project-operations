@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Opportunity settings
+# Header details for project-based opportunities
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -30,7 +30,7 @@ The following table includes the fields in a project-based opportunity that are 
 | Account Manager | General tab | The name of the Account manager for this project-based opportunity. | The Account manager is responsible for managing the relationship with the customer through the completion of this project. Based on the bookable resource record tied to the Account manager, the contracting unit is defaulted. |
 | Contracting Unit | General tab | The Organization unit that is responsible for the delivery of the project or projects associated with this deal. | The contracting unit is the division of the company that will complete the project(s) after the deal is closed. Every contracting unit has a currency, and this currency is used to report estimated and actual costs incurred during the project. |
 
-For all the other fields and sections on the **Summary** tab of the opportunity, see [Create or edit opportunities (Sales and Sales hub)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales).
+For all the other fields and sections on the **Summary** tab of the opportunity, see [Create or edit opportunities (Sales and Sales hub)](/dynamics365/sales-enterprise/create-edit-opportunity-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Opportunity header - lite
+# Header details for project opportunities
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

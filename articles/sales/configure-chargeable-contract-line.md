@@ -1,5 +1,5 @@
 ---
-title: Configure chargeable components of a project-based contract line
+title: Configure chargeable components of a project contract line
 description: This topic provides information about included, chargeable, and non-chargeable components on contract lines.
 author: rumant
 manager: Annbe
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: stsporen
 ---
 
-# Configure chargeable components of a project-based contract line
+# Configure chargeable components of a project contract line
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

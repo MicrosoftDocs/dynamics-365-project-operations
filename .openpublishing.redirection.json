@@ -1,6 +1,11 @@
 {
     "redirections": [
       {
+        "source_path": "articles/project-management/update-completed-estimate.md",
+        "redirect_url": "project-tracking-overview",
+        "redirect_document_id": "false"
+      },
+      {
         "source_path": "articles/sales/create-estimate-quote-line-sales.md",
         "redirect_url": "../pro/sales/create-estimate-quote-line-sales",
         "redirect_document_id": "false"

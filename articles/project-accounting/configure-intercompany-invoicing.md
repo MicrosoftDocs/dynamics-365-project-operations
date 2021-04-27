@@ -5,7 +5,7 @@ title: Configure intercompany invoicing
 description: This topic provides information and examples about configuring intercompany invoicing for projects.
 author:  sigitac
 manager: tfehr
-ms.date: 11/20/2020 
+ms.date: 04/12/2021 
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
@@ -36,7 +36,7 @@ In the following example, Contoso Robotics USA (USPM) is the borrowing legal ent
      3. Expand **Name**, filter the records by **Type** and select **Legal entities**. 
      4. Find and select the customer record for **Contoso Robotics USA (USPM)**.
      5. Select **Use match**. 
-     6. Select the customer group and then save the record.
+     6. Select the customer group **50 - Intercompany customers** and then save the record.
      7. Select the legal entity **USPM**.
      8. Go to **Accounts payable** > **Vendors** > **All vendors**. Create a new record for the legal entity, **GBPM**.
      9. Expand **Name**, filter records by **Type**, and select **Legal entities**. 
@@ -44,7 +44,7 @@ In the following example, Contoso Robotics USA (USPM) is the borrowing legal ent
      11. Select **Use match**, select the vendor group, and then save the record.
      12. In the vendor record, select **General** > **Set up** > **Intercompany**.
      13. On the **Trading relationship** tab, set **Active** to **Yes**.
-     14. Select the vendor company **GBPM** and in **My account record**, select the customer record that you created earlier in the procedure.
+     14. Set the **Customer company** field to **GBPM** and in **My account record**, select the customer record that you created earlier in the procedure.
 
 3. **Configure intercompany settings in Project management and accounting parameters**. 
 
@@ -56,7 +56,7 @@ In the following example, Contoso Robotics USA (USPM) is the borrowing legal ent
     6. In the **When lending resources** group, select **...** > **New**. 
     7. In the grid, select the following information:
 
-          - **Borrowing legal entity** = **GBPM**
+          - **Borrowing legal entity** = **USPM**
           - **Accrue revenue** = **Yes**
           - **Default timesheet category** = **Default – Hour**
           - **Default expense category** = **Default – expense**
@@ -68,14 +68,14 @@ In the following example, Contoso Robotics USA (USPM) is the borrowing legal ent
      3. On the **Cost accounts** tab, in **Ledger account type**, select **Intercompany cost**. Create a new record with the following information:
       
         - **Lending legal entity** = **GBPM**
-        - **Main account** = Select the main account for intercompany cost
+        - **Main account** = Select the main account for intercompany cost. This setup is required. The setup is used for intercompany flows in Finance, but not in project-related intercompany flows. This selection has no downstream impact. 
         
      4. Select lending legal entity, **GBPM**. 
      5. Go to **Project management and accounting** > **Setup** > **Posting** > **Ledger posting setup**. 
      6. On the **Revenue accounts** tab, in **Ledger account type**, select **Intercompany revenue**. Create a new record with the following information:
 
         - **Borrowing legal entity** = **USPM**
-        - **Main account** = Select the main account for intercompany revenue 
+        - **Main account** = Select the main account for intercompany revenue. This setup is required. The setup is used for intercompany flows in Finance, but not in project-related intercompany flows. This selection has no downstream impact. 
 
 5. **Set up transfer pricing for labor**. Intercompany transfer pricing is configured in Project Operations on Dataverse. Configure [labor cost rates](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) and [labor bill rates](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) for intercompany invoicing. Transfer pricing isn't supported for intercompany expense transactions. The inter-organization unit sale price will always be set to the same value as the resourcing unit cost price.
 

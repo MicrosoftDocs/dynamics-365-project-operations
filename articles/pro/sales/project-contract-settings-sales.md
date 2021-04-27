@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project contract settings - lite
+# Header details for project contracts
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
