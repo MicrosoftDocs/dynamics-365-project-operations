@@ -3,7 +3,7 @@ title: Use Schedule APIs to perform operations with Scheduling entities
 description: This topic provides information and samples for using Schedule APIs.
 author: sigitac
 manager: Annbe
-ms.date: 04/12/2021
+ms.date: 04/27/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -67,7 +67,7 @@ These APIs can be called with entity objects that include custom fields.
 
 The ID property is optional. If it's provided, the system attempts to use it and throws an exception if it can't be used. If it isn't provided, the system will generate it.
 
-## Restricted Fields
+## Restricted fields
 
 The following tables define the fields that are restricted from **Create** and **Edit.**
 
@@ -266,7 +266,7 @@ The following is a list of limitations and known issues:
 - Schedule APIs are in Public preview. Using these APIs in a Production environment isn't supported by Microsoft.
 - [Limits and boundaries on projects and tasks](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
-## Error Handling
+## Error handling
 
    - To review errors generated from the Operation Sets, go to **Settings** \> **Schedule Integration** \> **Operations Sets**.
    - To review errors generated from the Project Scheduling Service, go to **Settings** \> **Schedule Integration** \> **PSS Error Logs**.
