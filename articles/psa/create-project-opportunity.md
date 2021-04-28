@@ -35,7 +35,7 @@ Opportunities are warm leads from customers who are interested in contracting yo
   
 3.  In the **Summary** area, enter your opportunity's company and other information.  
   
-4.  Add any notes and activities (for example, phone calls or emails) related to this lead. To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Add any notes and activities (for example, phone calls or emails) related to this lead. To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  To add stakeholders, in the **Stakeholders** area, click **+**.  
   

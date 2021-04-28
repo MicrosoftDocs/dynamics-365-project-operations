@@ -87,7 +87,7 @@ To complete this task, follow the steps in the topic, [Add an Azure subscription
 
 ## Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios
 
-Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
+Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
 
 ## Install CDS setup and configuration data
 
