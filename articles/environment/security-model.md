@@ -53,7 +53,7 @@ Groups allow the permissions of the project and supporting collaboration artifac
 
 Project Operations does not create a group through implicit action and only does so through the explicit action of pressing groups.
 
-Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group. For more information, see [Control user access to environments: security groups and licenses](https://docs.microsoft.com/power-platform/admin/control-user-access).
+Group member search in the **Group management** dialog, is limited to those who are set as part of the environment's security group. For more information, see [Control user access to environments: security groups and licenses](/power-platform/admin/control-user-access).
 
 ![Group mode](./media/groupsmode.png)
 
@@ -65,7 +65,7 @@ Group member search in the **Group management** dialog, is limited to those who 
 ## Deployment recommendation
 As the Office group collaboration model evolves, functionality will be added to provide more detailed control over time. Customers that deploy Project Operations today are encouraged to focus on a traditional Microsoft Dynamics 365 security model.
 
-For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security).
+For more information, see [Security in Common Data Service](/power-platform/admin/wp-security).
 
 ## Project Operations and Microsoft Dynamics 365 Finance security
 Project Operations includes the following roles:
@@ -73,7 +73,7 @@ Project Operations includes the following roles:
 - Project manager
 - Project accountant
 
-For more information about security in Finance, see [Role-based security](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+For more information about security in Finance, see [Role-based security](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
 
