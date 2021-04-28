@@ -30,6 +30,6 @@ Project Operations integration consists of the following component integration:
 - [Project Operations setup and configuration data integration](resource-dual-write-setup-integration.md) 
 - [Project estimates and actuals](resource-dual-write-estimates-actuals.md)
 - [Setup and configuration data](resource-dual-write-setup-integration.md) 
-- Project invoices 
+- [Project invoices](resource-dual-write-project-invoice.md)
 - [Expense management](resource-dual-write-expense.md)
 - Vendor invoices
