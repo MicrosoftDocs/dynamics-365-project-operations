@@ -2,7 +2,7 @@
 title: Expense management integration
 description: This topic provides information about expense report integration in Project Operations using dual-write. 
 author: sigitac
-ms.date: 04/26/2021
+ms.date: 04/28/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -32,7 +32,7 @@ Expense categories in Finance and Operations apps are company- or legal entity-s
 
 Expense reports are created and approved in Finance and Operations apps. For more information, see [Create and process expense reports in Dynamics 365 Project Operations](/learn/modules/create-process-expense-reports/). After the expense report is approved by the Project manager, it's posted to the general ledger. In Project Operations, project-related expense report lines are posted using special posting rules:
 
-  - Project-related cost (including non-recoverable tax) is not immediately posted to project cost account in general ledger, but instead is posted to expense integration account. This account is configured in Project management and accounting \&gt; Setup \&gt; Project management and accounting parameters, Project Operations on Dynamics 365 Customer engagement tab.
+  - Project-related cost (including non-recoverable tax) is not immediately posted to project cost account in general ledger, but instead is posted to expense integration account. This account is configured in **Project management and accounting** > **Setup** > **Project management and accounting parameters**, **Project Operations on Dynamics 365 Customer engagement** tab.
   - Dual-write synchronizes to Dataverse using **Project Operations integration project expenses export entity (msdyn\_expenses)** table map.
   - Tax subledger, vendor subledger, and other financial postings are recorded as applicable at the time of expense report posting.
 
