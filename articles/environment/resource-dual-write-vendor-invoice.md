@@ -1,6 +1,6 @@
 ---
 title: Vendor invoice integration
-description: This topic provides information about vendor invoice integration in Project Operations for resource/ non-stocked scenarios.
+description: This topic provides information about vendor invoice integration in Project Operations.
 author: sigitac
 manager: Annbe
 ms.date: 4/27/2021
@@ -15,26 +15,28 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Project related procurement in Project Operations for resource/ non-stocked scenarios can be recorded using Pending vendor invoice document in Accounts Payable > Invoices > Pending vendor invoices. See [Purchase non-stocked materials using a pending vendor invoice | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/procurement/pending-vendor-invoices) for more details.
+Project related procurement in Dynamics 365 Project Operations can be recorded by going to **Accounts Payable** > **Invoices** > **Pending vendor invoices** and using a pending vendor invoice document. For more information, see [Purchase non-stocked materials using a pending vendor invoice](../procurement/pending-vendor-invoices.md).
 
-Important!
-Before you use the functionality described in this topic, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](https://docs.microsoft.com/en-us/dynamics365/project-operations/procurement/configure-materials-nonstocked).
+> [!IMPORTANT]
+> Before you use the functionality described in this topic, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](../procurement/configure-materials-nonstocked.md).
 
-In Project Operations for resource based/ non stocked scenarios, project related vendor invoices are posted using special posting rules:
+In Project Operations, project related vendor invoices are posted using special posting rules:
 
-1. Project related cost (including non-recoverable tax) is not immediately posted to project cost account in general ledger, but instead is posted to **Procurement integration account**. This account is configured in Project management and accounting > Setup > Project management and accounting parameters, Project Operations on Dynamics 365 Customer engagement tab.
-2. Dual-write synchronizes vendor invoice details to Dataverse using the following table maps:
+- Project related cost (including non-recoverable tax) isn't immediately posted to the project cost account in the general ledger. Instead, the cost is posted to the **Procurement integration account**. This account is configured in **Project management and accounting** > **Setup** > **Project management and accounting parameters** on the **Project Operations on Dynamics 365 Customer engagement** tab.
+- Dual-write synchronizes vendor invoice details to Dynamics 365 Dataverse using the following table maps:
 
-     - **Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices)** synchronizes vendor invoice header information. Note that only vendor invoices with at least one line with Project ID filled in are synchronized to Dataverse.
-     - **Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines)** synchronizes vendor invoice line information. Note that only lines with Project ID filled in are synchronized to Dataverse.
-     - Vendor invoice details in Dataverse are not editable.
+     - **Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices)**: This table map synchronizes vendor invoice header information. Only vendor invoices with at least one line that contains a project ID are synchronized to Dataverse.
+     - **Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines)**: This table map synchronizes vendor invoice line information. Only lines that contain a project ID are synchronized to Dataverse.
 
-3. Tax subledger, vendor subledger and other financial postings are recorded as applicable in Dynamics 365 Finance, at the time of vendor invoice posting.
+     > [!NOTE]
+     > Vendor invoice details in Dataverse are not editable.
+
+Tax subledger, vendor subledger and other financial postings are recorded as applicable in Dynamics 365 Finance, when the vendor invoice is posted.
 
 ![Vendor invoice integration](DW7VendorInvoice.png)
 
-As record gets written to Vendor invoice entities in Dataverse, system triggers automated approval process of these records. If needed, automated approval process status can be reviewed in Dataverse by navigating to Advanced settings > System > System jobs. Once approval is complete, system creates Material transaction class records in the Actuals entity.
+When records are written to a **Vendor invoice** entity in Dataverse, an automated approval process of the records begins. If needed, the automated approval process status can be reviewed in Dataverse by going to **Advanced settings** > **System** > **System jobs**. After the approval is complete, the system creates material transaction class records in the **Actuals** entity.
 
-Material related actuals are then processed using dual-write table map **Project Operations integration actuals (msdyn_actuals)**. See [Project estimates and actuals]( resource-dual-write-estimates-actuals.md) for more details.
+Material-related actuals are then processed using the dual-write table map, **Project Operations integration actuals (msdyn_actuals)**. For more information, see [Project estimates and actuals](resource-dual-write-estimates-actuals.md).
 
-**Import from staging** periodic process creates vendor invoice related Project Operations integration journal lines. Offset account is defaulted to Procurement integration account. Posting integration journal, clears this account balance for the vendor invoice transaction and moves line amount to project cost account. System also creates Project subledger transactions for downstream invoicing and revenue recognition purposes.
+The periodic process, **Import from staging** creates vendor invoice related Project Operations integration journal lines. The offset account defaults to the procurement integration account. When the integration journal is posted, the account balance is cleard for the vendor invoice transaction and the line amount is moved to the project cost account. Project subledger transactions are also created for downstream invoicing and revenue recognition purposes.
