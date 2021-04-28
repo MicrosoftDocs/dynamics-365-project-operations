@@ -94,3 +94,6 @@ The parameters control the general behavior in Expense management.
 | <strong>Anti-corruption message for submitter</strong> |                                                                                             Enter the text that will be displayed to the employee when creating a new expense report. Click the <strong>Translations</strong> button to enter language specific text that will be displayed based on the user language.                                                                                             |
 | <strong>Anti-corruption message for approver</strong>  |                                                                                             Enter the text that will be displayed to the approver when creating a new expense report. Click the <strong>Translations</strong> button to enter language specific text that will be displayed based on the user language.                                                                                             |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

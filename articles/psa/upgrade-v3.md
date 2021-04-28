@@ -24,6 +24,9 @@ search.app:
 
 
 # Upgrade considerations - PSA version 2.x or 1.x to version 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## Project Service Automation and Field Service
@@ -105,3 +108,6 @@ For tasks that are assigned to a role with an org unit that differs from the org
  
 Changing the default of the different resourcing org units on ungenerated team members is the reason we recommend that you generate or regenerate the team on each project that contains generic resources prior to the upgrade so that the org unit assignments are not lost.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

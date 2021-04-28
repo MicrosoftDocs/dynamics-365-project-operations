@@ -23,6 +23,8 @@ search.app:
 ---
 # Book named bookable resources to a project team and assign tasks 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 You can  add a named resource to your project team by booking them directly onto the team. To do this, complete the following steps.
@@ -62,3 +64,6 @@ You can use the **Reconciliation** tab’s extend booking capability or the **Sc
 ![Extending bookings for a team member on the resource reconciliation tab](media/RM-how-to-7.png)
 
 After a team member is booked on your project, you can use maintain bookings or use the Schedule Board directly to manage their bookings.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

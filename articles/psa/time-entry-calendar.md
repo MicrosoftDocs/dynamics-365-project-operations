@@ -24,6 +24,8 @@ search.app:
 
 # Time entry calendar
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 On the **Time Entries** page, you can view the time entries on the calendar by selecting **Show as** \> **Calendar Control**.
@@ -37,3 +39,6 @@ The calendar doesn't support actions on individual calendar items, and you can't
 ## Extensibility
 
 On the **Time Entries** page that has the time entry grid, you can add custom fields, set up lookup fields, and create custom views. You can also set up custom business logic that is based on the values that are selected or entered in custom fields.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

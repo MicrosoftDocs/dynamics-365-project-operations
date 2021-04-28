@@ -25,6 +25,8 @@ search.app:
 
 # Cancel previously approved time or expense entries
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 In the latest version of Dynamics 365 Project Service Automation, approvers can cancel time or expense entries that they previously approved.
@@ -58,3 +60,6 @@ A project is also affected financially when an approval is canceled. First, the 
 Next, reversal entries are created in the Actuals table. To create reversal entries, the system copies over the field values from the original actuals. The only values that aren't copied over are the quantity values. These values are reversed instead. Reversed actuals are created for both **Cost** and **Unbilled Sales** actuals. The **Adjustment Status** field on the reversed actuals is set to **Unadjustable**, and the billing status is set to **Canceled**.
 
 After these changes are made, the amount that is recorded as spent on the project and the revenue backlog on the project will longer account for the amounts that these actuals represent.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

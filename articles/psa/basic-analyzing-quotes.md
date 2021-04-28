@@ -24,6 +24,8 @@ search.app:
 
 # Analysis of project quotes
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Dynamics 365 Project Service Automation analyzes project quotes to estimate profitability. It also analyzes how well the quote is aligned with customer expectations about the delivery date or completion date, and about the budget.tions.
@@ -55,3 +57,6 @@ You can analyze quotes and generate charts for customer expectations about the s
 Analysis of customer expectations about the schedule is done by comparing the latest end date of the quote line detail with the requested delivery date across all quote lines in the quote.
 
 Analysis of customer expectations about the budget is done by comparing the sum of the total customer budget with the quoted amount across all quote lines.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

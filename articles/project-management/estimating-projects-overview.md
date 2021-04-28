@@ -1,27 +1,37 @@
 ---
 # required metadata
-title: Estimate projects overview
-description: This topic provides information about estimates in Dynamics 365 Project Operations. 
-author: ruhercul
+title: Financial estimation concepts
+description: This topic provides information about financial estimates of projects in  Project Operations. 
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
+ms.author: rumant
 ---
 
-# Estimate projects overview
+# Financial estimation concepts
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
+In Dynamics 365 Project Operations, you can financially estimate your projects in two stages: 
+1. During the pre-sales stage before the deal is won. 
+2. During the execution stage after the project contract is created. 
+
+You can create a financial estimate for project-based work using any of the following 3 pages:
+- The **Quote line** page, using the quote line details.  
+- The **Project contract line** page, using the contract line details. 
+- The **Project** page, using the **Tasks**  or **Expense Estimates** tab pages.
+
+## Use a project quote to create an estimate
 On a project-based quote, you can use the **Quote line detail** entity to estimate the work that is required to deliver a project. You can then share that estimate with the customer.
 
 Project-based quote lines can have zero to many quote line details. Quote line details are used to estimate time, expenses, or fees. Microsoft Dynamics 365 Project Operations doesn't allow for material estimates on quote line details. These are called transaction classes. Estimated tax amounts can also be entered on a transaction class.
 
 In addition to transaction classes, quote line details have a transaction type. Two transaction types are supported for quote line details: **Cost** and **Project Contract**.
 
-## Estimate by using a contract
+## Use a project contract to create an estimate
 
 If you used a quote when you created a project-based contract, the estimate that you did for each quote line on the quote is copied to the project contract. The structure of a project contract is like the structure of project quote that has lines, line details, and invoice schedules.
 
@@ -31,25 +41,19 @@ Contract line details can be used to estimate time, expenses, or fees. Estimated
 
 Material estimates are not allowed on contract line details.
 
-The processes that are supported on a project contract are invoice creation and confirmation. Invoice creation creates a draft of a project-based invoice that includes all unbilled sales actuals until the current date.
+## Use a project to create an estimate 
 
-Confirmation makes the contract read-only and changes its status from **Draft** to **Confirmed**. After you take this action, you can't undo it. Because this action is permanent, it's a best practice to keep the contract in a **Draft** status.
-
-The only differences between draft contracts and confirmed contracts are their status and the fact that draft contracts can be edited whereas confirmed contracts can't. Invoice creation and tracking actuals can be done on both draft contracts and confirmed contracts.
-
-Project operations doesn't support change orders on contracts or projects.
-
-## Estimating projects
-
-You can estimate time and expenses on projects. Project operations doesn't allow \estimates of materials or fees on projects.
+You can estimate time and expenses on projects. Project Operations doesn't support estimates of materials or fees on projects.
 
 Time estimates are generated when you create a task and identify the attributes of a generic resource that is required to perform the task. Time estimates are generated from schedule tasks. Time estimates aren't created if you create generic team members outside the context of the schedule.
 
-Expense estimates are entered in the grid on the **Estimates** page.
+Expense estimates are entered in the grid on the **Expense Estimates** page.
 
-## Understanding estimation
+Creating an estimate for a project is considered a best practice because you can build bottom-up detailed estimates for labor or time and expenses on each task in the project plan. You can then use this detailed estimate to create estimates for each quote line and build a more credible quote for the customer. When you import or create a detailed estimate on the quote line using the project plan, Project Operations imports the sales values and the cost values of these estimates. After import, you can view the profitability, margins, and feasibility metrics on the project quote.
 
-Use the following table as a guide for understanding the business logic in the estimation phase.
+## Understanding estimates
+
+Use the following table as a guide for understanding the business logic in the estimate phase.
 
 | Scenario                                                                                                                                                                                                                                                                                                                                          | Entity record                                                                                                                                                                                                       | Transaction Type | Transaction Class | Additional information                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|-------------|-----------------------------------------------------------------------------------|
@@ -75,3 +79,6 @@ If you added a custom field on the quote line detail and want the system to ente
 7. Select **OK** to close the dialog box, and then select **Update Step**.
 8. Repeat steps 1 through 7 for the second plug-in.
 9. Close the **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

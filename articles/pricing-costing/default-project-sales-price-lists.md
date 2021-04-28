@@ -52,3 +52,6 @@ Cost price lists don't default to any entity in Project Operations. Determining 
 5. Next the system looks at the date effectivity of the price lists that match the date of the incoming estimate or actual line. 
 6. If there are multiple price lists that are effective for the date on the incoming estimate or actual, the price list created most recently is selected.
 7. If there are no cost price lists attached to the project parameters that match the currency and effective date, the system defaults the cost rate to zero (0) on the incoming estimate or actual line.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

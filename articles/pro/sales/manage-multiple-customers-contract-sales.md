@@ -47,3 +47,6 @@ A contract customer can be created, updated, or deleted from the **Customers** t
 Billing split percentages can be edited using the in-line grid edit experience. When the billing split percentages do not total to 100 percent, you will receive an error. After you edit the billing split percentages, refresh the page to dismiss the error.
 
 You can also select **Evenly Distribute** on the **Contract Customers** subgrid to allocate billing splits evenly to all contract customers. If there is a rounding factor, it will be added to the rounding customer. One of the contract customers is always tagged as the **rounding** customer, which means that the contract customer record has the rounding flag set to **Yes**. Typically, this is the primary customer of the contract, but it can be changed as well.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

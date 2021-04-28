@@ -54,3 +54,6 @@ To eliminate an estimate project, it must be complete. The following steps expla
 5. After the elimination process is complete, the eliminated estimate project is displayed with a negative value. 
 
 If you did not intend to eliminate an estimate, you can select the eliminated estimate and select **Reverse elimination**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Use this deployment type if your expectation from Project Operations is to use t
 - An integrated system that manages internal and billable projects for schedules and financials from project sales to invoicing.
 - A third-party Enterprise resource planning (ERP/Financial accounting system to integrate with Project Operations.
 - A third-party system to work with sales taxes, exchange rates, expense reimbursements, and non-project expenses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

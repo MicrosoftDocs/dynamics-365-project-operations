@@ -30,3 +30,6 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # What's new in Project operations
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Set up cost and sales rates for expenses
 description: This topic provides information about how to set up the cost and sales rates for transaction and expense categories. 
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -18,9 +18,10 @@ You can set up cost and sales prices for transaction categories in Dynamics 365 
 
 To set up cost and sales rates for transaction categories, complete the following steps. 
 
-1. Create a price list based on the price list header. 
-2. On the **Category Prices**, on the subgrid menu, select **+ New Category Price**. 
-3. On the **Quick Create** page, enter the transaction category and unit that you are creating the new price for.
+1. Go to **Sales** > **Customers** > **Price Lists**.
+2. Select **New** to create a new price list. 
+3. On the **Category Prices**, on the subgrid menu, select **New Category Price**. 
+4. On the **Quick Create** page, enter the transaction category and unit that you are creating the new price for.
 
 The following table lists the fields on the **General** tab and **Quick Create** page of a category price line that you should keep in mind as you create category prices on a sales or cost price list.
 
@@ -50,3 +51,6 @@ When this pricing method is selected on the category price line that is linked t
 
 ### Markup over cost
 When this pricing method is selected on the category price line that is linked to a sales price list, the price defaults for the category and unit combination only for an expense actual. For example, unbilled sales actuals for the expense transaction class. This unit price is set on the unbilled sales actual to a calculated value from the unit price on the cost actual for that expense after the defined markup percent is applied. Price defaulting based on cost isn't done in on project estimates for expenses or quote line and contract line details for expenses.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -24,6 +24,8 @@ search.app:
 ---
 # Enable Project Finder Mobile app features (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Your resources can use the Project Finder Mobile app on their phone with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to find new projects to work on and update their skillsets.  
@@ -62,3 +64,6 @@ Your resources can use the Project Finder Mobile app on their phone with [!INCLU
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

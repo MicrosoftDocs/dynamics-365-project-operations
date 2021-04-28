@@ -24,6 +24,8 @@ search.app:
 
 # Review the invoicing backlog on projects and project contracts
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 When a transaction is ready to have an invoice created and processed, the transaction should be marked **Ready to invoice**. This topic describes the types of transactions that can be created.
@@ -56,3 +58,6 @@ Each project contract line that has a fixed-price billing method must define con
 To review billing milestones, go to **Sales** \> **Billing** \> **Fixed Price Milestones**. Select the milestones that are ready to be invoiced, and then select **Ready to invoice**. The billing status of these milestones is changed to **Ready to Invoice**.
 
 ![Fixed-price milestones](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

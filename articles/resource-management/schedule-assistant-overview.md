@@ -52,3 +52,6 @@ The filter pane shows work-related options, including:
 -   Resourcing company
 -   Resource types
 -   Preferred resources
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

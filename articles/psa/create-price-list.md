@@ -23,6 +23,8 @@ search.app:
 ---
 # Create a price list (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Price lists provide a template your account managers can use for creating quotes and projects, and for establishing the costs of a project. They provide a line item list of roles and expenses, and the price you will charge for each. You can create multiple price lists so that you can maintain separate price structures for different regions you sell your products in or for different sales channels. It’s a good idea to create at least one price list for every currency you plan to bill your customers in.  
@@ -65,3 +67,6 @@ Price lists rely on roles and expense categories, so before you create a price l
   
 ### See Also  
  [Configure Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

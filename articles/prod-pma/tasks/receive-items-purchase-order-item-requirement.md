@@ -59,3 +59,6 @@ This task uses the USSI data set.
 21. In the **Product receipt** field, type a value.
 22. Select **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

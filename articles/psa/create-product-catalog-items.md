@@ -21,11 +21,16 @@ search.app:
 ---
 # Create product catalog items (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 If you want to include products, such as software licenses, on your project quotes and estimates, you need to add each product to the product catalog.  
   
- For more information about adding products to the product catalog, see [Create a product (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales).  
+ For more information about adding products to the product catalog, see [Create a product (Sales)](/dynamics365/sales-enterprise/create-product-sales).  
   
 ### See Also  
  [Configure Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

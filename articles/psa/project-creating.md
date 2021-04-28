@@ -24,6 +24,8 @@ search.app:
 
 # Project schedules 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 A project schedule communicates what work must be completed, which resources will do the work, and the timeframe that the work must be finished in. It reflects all the work that is associated with delivering the project on time. In Dynamics 365 Project Service Automation, you create a project schedule by breaking the work down into manageable tasks, estimating the time that is required to do each task, setting task dependencies, setting task durations, and estimating the generic resources that will do the tasks. The project schedule is created on the **Schedule** tab of the project page.
@@ -144,3 +146,6 @@ By default, if a leaf node task doesn't have predecessors, its start date is set
 ### Manual scheduling
 
 If the rules of automatic scheduling don't meet your requirements, you can set the task mode for the task to **Manually Scheduled**. This setting stops the scheduling engine from calculating the values of other scheduling attributes. Regardless of the task mode, if you set predecessors on tasks, you always affect the dependent task's start date.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

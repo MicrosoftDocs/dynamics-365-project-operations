@@ -48,3 +48,6 @@ Complete the following steps to update and re-register the plug-ins.
 7. Select **OK** to close the page, and then select **Update Step**.
 8. Repeat steps 2-7 for the second plug-in, **PreOperationQuoteLineDetail**. For this plug-in, you need to update the **Update of msdyn_quotelinetransaction** step.
 9. Close **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

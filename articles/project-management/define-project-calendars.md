@@ -63,3 +63,8 @@ To create a calendar template for your organization, there are two key requireme
 > [!NOTE]
 > When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template. If the working hours of the copied template change, those changes will not propagate to the calendar template.
 
+You can now associate the work template with a project calendar template.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+

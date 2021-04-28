@@ -47,3 +47,6 @@ You can create project-based sales orders in two ways:
 - Go to the project itself. On the Action Pane, select **Manage > Item tasks > Sales order**. The project information will default to the sales order from the project. If the project contract has more than one funding source, you will need to select the funding source to set the customer for the sales order. If there is only one funding source for the project, the customer will be automatically set.
 - Go to the **All sales order** list page and create a new sales order. You will need to select the project for the sales order. After the project is selected, the customer will be set from the funding source or you will need to select the funding source if the project contract has multiple funding sources.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -25,6 +25,8 @@ search.app:
 
 # Sign in to Project Service Automation
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 When you sign in to Dynamics 365 apps, you need to have the following information from your administrator:  
@@ -35,7 +37,7 @@ When you sign in to Dynamics 365 apps, you need to have the following informatio
   
 - Your password  
   
-  You probably received this information in an email from your admin. If you don’t have all this info, or if you have issues signing in, [Find your administrator or support person](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
+  You probably received this information in an email from your admin. If you don’t have all this info, or if you have issues signing in, [Find your administrator or support person](/dynamics365/customerengagement/on-premises/basics/find-administrator-support).  
   
 ## Set your personal options to allow email  
  You need to configure your email settings to allow others to send email on your behalf, so [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] can send email notifications for you when you have time and expenses to approve or sign up for projects.  
@@ -52,3 +54,6 @@ When you sign in to Dynamics 365 apps, you need to have the following informatio
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

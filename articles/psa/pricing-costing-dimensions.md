@@ -21,6 +21,8 @@ search.app:
 
 # Pricing and costing dimensions home page
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 The dimensions used to set labor pricing and costing in project-based organizations are influenced by the following attributes:
 
 - People doing work similar to their experience, role, or geography
@@ -71,3 +73,6 @@ The following example shows bill rates that are set up based on the role and the
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Contoso US  |Hour | 145|USD     |
 | My company_Band2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

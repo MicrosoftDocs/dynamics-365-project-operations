@@ -39,3 +39,6 @@ To use the wizard, follow these steps.
 1. Go to **Project management and accounting** > **Quotations** > **Project quotations**.
 2. Select the quotation you want to transfer and on the **Follow up** tab, in the **Modify** group, select **Transfer to project**.
 3. Follow the **Transfer quotation to project** wizard to associate and transfer the quotation with a project.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

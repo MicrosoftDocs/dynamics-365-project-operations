@@ -20,6 +20,9 @@ search.app:
 ---
 
 # Add custom fields to price setup and transactional entities 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
 
 In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.
@@ -142,3 +145,6 @@ The following table provides a comprehensive list of out-of-the-box forms and vi
 |  Actual|• Information<br>• Active Actuals|• Actual Associated view|
 
 Custom fields may also need to be added on business rules depending on what you have defined. One out-of-the-box example is for the business rule **Editability of Time Entry based on status**. This rule defines which fields need to be locked when the Time Entry is in a non-editable status such as **Approved**. Add fields to this business rule so that the fields are locked for editing when the Time Entry is in a status other than **Draft** or **Returned**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

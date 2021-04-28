@@ -23,6 +23,8 @@ search.app:
 ---
 # Configure expense categories (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Your consultants incur expenses when they work for your clients, including airfare, meals, mileage, and other expenses. Set up expense categories your consultants can use to enter their expenses, so you can invoice your client for those expenses.  
@@ -49,3 +51,6 @@ Each expense category can have its own unit group and unit. You can define prici
   
 ### See Also  
  [Configure Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

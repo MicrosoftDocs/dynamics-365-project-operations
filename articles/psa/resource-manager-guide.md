@@ -23,6 +23,8 @@ search.app:
 ---
 # Resource manager guide (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] help you find the right resources at the right time for the right project and make sure all resources are utilized efficiently.  
@@ -67,3 +69,6 @@ The [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] 
  [Account Manager Guiden](../psa/account-manager-guide.md)   
  [Project Manager Guide](../psa/project-manager-guide.md)   
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

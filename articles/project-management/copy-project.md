@@ -5,7 +5,7 @@ title: Copy a project
 description: This topic provides information about copying projects in Dynamics 365 Project Operations. 
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. To copy a project, open the project you want to copy, and then select **Copy project**. The action will copy:
 
-- Project properties
+- Project properties (The estimated start date is copied from the source project)
 - The Work breakdown structure
 - Project team members
 - Project estimates
@@ -58,3 +58,6 @@ When a project team is copied from the source project, the generic resources are
 When the project is copied, both resource and expense estimate lines are copied from the source project. 
 
 For information on how to programmatically access Copy Project, see [Develop project templates with Copy Project](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

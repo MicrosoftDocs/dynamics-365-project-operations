@@ -48,3 +48,6 @@ Project categories represent most granular level of category configuration and m
 Category groups are used to share properties, primarily posting profiles, between related Project categories. There must be at least one category group for each transaction type and each project category is assigned a group.
 
 The posting specifications in Project Operations are defined by the project cost and revenue profile rules, project categories, and category groups. You can set up category groups by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Category groups**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

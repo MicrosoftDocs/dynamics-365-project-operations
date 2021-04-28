@@ -81,3 +81,6 @@ You can use one of the following methods to create a purchase order in Project m
 
 For more information, see [Receive items on purchase order from item requirement](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

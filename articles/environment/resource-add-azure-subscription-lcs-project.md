@@ -3,7 +3,7 @@ title: Add an Azure subscription to an LCS project
 description: This topic provides information about how to connect your Azure subscription to an LCS project.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -57,7 +57,7 @@ The authorization is now complete.
 3. In the **Configure to use Azure Resource Manager** field, select **Yes**.
 4. Make sure Azure's Subscription AAD Tenant Domain matches the domain-owning Azure subscription that you are using, and select **Next**.
 5. On the **Microsoft Azure Setup** screen, select **Next** to confirm. If you receive an error on this screen, return to the section [Provide Dynamics Deployment Services access to Azure subscription](#provide) in this topic and make sure you have completed all of the steps.
-6. Download the Azure Management Certificate to a local folder on your computer, and then upload it to Azure Management Portal by going to **Settings** > **Management Certificates**. This certificate will enable LCS to communicate with Azure on your behalf. You can skip this step if your user has access to the subscription.
+6. Download the Azure Management Certificate to a local folder on your computer. Ask your Azure subscription administrator to upload the certificate to Azure Management Portal by selecting the subscription and going to **Settings** > **Management Certificates**. This certificate enables LCS to communicate with Azure on your behalf. You can skip this step if your user has access to the subscription.
 7. Select  **Next**.
 8. Select the Azure region to deploy in and select a data center that is close to where you plan to use this system.
 9.  Select  **Connect**.
@@ -65,3 +65,6 @@ The authorization is now complete.
 You have successfully connected your Azure subscription. You can now deploy Dynamics 365 Finance cloud-hosted environments.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

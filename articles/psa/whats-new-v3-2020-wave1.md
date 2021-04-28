@@ -24,6 +24,9 @@ search.app:
 
 
 # What's new or changed in Project Service Automation version 3 wave 1 2020
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 The topic highlights key upgrade considerations when moving to the latest release of Project Service Automation (PSA) version 3.x wave 1 2020.
 
 ## Time entry
@@ -38,3 +41,6 @@ Additionally, if you have any custom app modules that include all forms for the 
 
 ### Currently extended time entry changes
 To minimize the impact to current users of time entry, this role change is the only core requirement necessary to continue utilizing time entry. If you have created custom views or separate time entry experiences, you must set the **Time Entry Setting** fields to the correct PSA value.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -24,6 +24,8 @@ search.app:
 
 # Approve time and expenses (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 After consultants enter their time and expenses for a project, you need to approve them so they are properly billed or costed to projects.  
@@ -42,3 +44,6 @@ After consultants enter their time and expenses for a project, you need to appro
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

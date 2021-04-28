@@ -14,4 +14,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-You can use the functionality provided in Universal Resource Scheduling for Dynamics 365 Field Service to set up booking statuses for your organization. For information on how to complete this set up, see [Set up booking statuses](https://docs.microsoft.com/dynamics365/field-service/set-up-booking-statuses).
+You can use the functionality provided in Universal Resource Scheduling for Dynamics 365 Field Service to set up booking statuses for your organization. For information on how to complete this set up, see [Set up booking statuses](/dynamics365/field-service/set-up-booking-statuses).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,24 +1,22 @@
 ---
-title: Configure automatice invoice creation - lite
-description: This topic provides information about configuring automatic creation of proforma invoices.
+title: Set up automatice invoice creation 
+description: This topic provides information about set up and configure automatic creation of proforma invoices.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Configure automatic invoice creation - lite
+# Set up automatic invoice creation 
  
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 You can configure automatic invoice creation in Dynamics 365 Project Operations. The system creates a draft proforma invoice based on the invoice schedule for each project contract and contract line. Invoice schedules are configured at the contract line level. Each line on a contract can have a distinct invoice schedule, or the same invoice schedule can be included on every line of the contract.
 
-When you create an invoice, the system always creates at least one invoice per project contract. In some cases, there may be multiple invoices created.
-
-For example, if the contract has multiple customers, the same number of invoices will be created as the number of customers that have billable transactions to invoice on that project contract.
+When you create an invoice, the system always creates at least one invoice per project contract. In some cases, there may be multiple invoices created. For example, if the contract has multiple customers, the same number of invoices will be created as the number of customers that have billable transactions to invoice on that project contract.
 
 ## Understand how transactions are included on an invoice 
 
@@ -86,3 +84,6 @@ The batch process job for creating invoices is a recurrent job. If this batch pr
 
 > [!NOTE]
 > Batch invoicing in Project Operations only runs for project contract lines that are configured by invoice schedules. A contract line with a fixed price billing method must have milestones configured. A project contract line with a time and material billing method will need a date-based invoice schedule set up.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

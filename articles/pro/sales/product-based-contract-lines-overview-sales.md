@@ -41,3 +41,6 @@ If a contract line is based on a product catalog, you can override the sales pri
 If you set the **Pricing** field to **Override pricing**, the default price isn't set. Enter a price for the product on the contract line. If you set the field to **Use default**, the default sales price is used and the field can't be edited.
 
 After you install Project Operations, default sales prices are entered on the product-based lines on a contract. The **Pricing** field is set to **Override pricing** so that you can edit the default price on the contract lines. This is a Project Operations-specific override to product-based lines behavior in Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -25,6 +25,8 @@ search.app:
 
 # Manage resource requests (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Account managers and project managers regularly request resources for their projects. With the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities, you can find and match consultants who have the required skills and proficiencies to those resource requests.  
@@ -47,3 +49,6 @@ Account managers and project managers regularly request resources for their proj
   
 ### See Also  
  [Resource Manager Guide](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

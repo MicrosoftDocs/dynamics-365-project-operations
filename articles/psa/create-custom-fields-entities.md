@@ -21,6 +21,8 @@ search.app:
 
 # Create custom fields and entities 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Complete the following steps any time that you want to create a custom option set or entity on the Power Apps platform.  
 The procedures in this topic should be completed using the web interface of Project Service Automation (PSA).
 
@@ -66,3 +68,6 @@ You can create data for entity-based dimensions manually, or by using Microsoft 
 > ![Sample Data for Standard Title entity ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,7 +5,7 @@ title: Create intercompany transactions
 description: This topic provides information about how to create intercompany transactions.
 author:  sigitac
 manager: tfehr
-ms.date: 11/19/2020 
+ms.date: 04/12/2021 
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
@@ -66,7 +66,7 @@ Molly Clark, developer employed in GBPM records 10 hours of work against a USPM 
     5. Create a new project and associate it with this contract line.
 4. Sign in as the resource, **Molly Clark**. Go to **Projects** > **Time entries**, and create a time entry for the Adventure Works project.
 5. Sign in as the Project manager. Go to **Projects** > **Approvals**, and approve the time entry transaction logged by Molly Clark.
-6. Navigate to the Adventure Works project and select **Related > **Actuals**. The following actuals transactions are created.
+6. Navigate to the Adventure Works project and select **Related** > **Actuals**. The following actuals transactions are created.
 
 | **Transaction type** | **Price** | **Transaction currency** | **Amount** |
 | --- | --- | --- | --- |
@@ -91,7 +91,7 @@ Molly Clark, developer employed in GBPM records 10 hours of work against a USPM 
     This unbilled sale is now ready for invoicing. The invoice for the customer Adventure Works can be financially posted when needed.
 
 10. Sign in as the **GBPM** accountant. Open the Finance instance of Project Operations, and open the company, **GBPM**. 
-11. Go to **Project management and accounting** > **Periodic** > **Project Operations on Customer Engagement** > **Import from staging** and run the periodic process to  fill in Project Operations Integration journal.
+11. Go to **Project management and accounting** > **Periodic** > **Project Operations integration** > **Import from staging table** and run the periodic process to  fill in Project Operations Integration journal.
 12. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the lines. The system creates the following lines.
 
     | **Transaction type** | **Price** | **Transaction currency** | **Amount** |
@@ -110,3 +110,6 @@ Molly Clark, developer employed in GBPM records 10 hours of work against a USPM 
     - Credit: Project – Accrued Revenue 120 USD
 
     The system is now ready to create an intercompany customer invoice.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

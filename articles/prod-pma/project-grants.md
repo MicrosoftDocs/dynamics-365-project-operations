@@ -84,3 +84,6 @@ You can create a grant by entering all the details in a new record, or you can c
 2. Select the grant to modify.
 3. On the Action Pane, on the **Grant** tab, in the **Maintain** group, select **Edit**.
 4. Review the grant details, and make any changes that are required.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

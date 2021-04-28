@@ -59,3 +59,6 @@ The following table lists the types of workflows that you can create in **Expens
 |      <strong>Cash advance request</strong>      |         Create approval workflows for cash advance requests.          |
 |        <strong>VAT tax recovery</strong>        | Create approval workflows for the recovery of value-added tax (VAT).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

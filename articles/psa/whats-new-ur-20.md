@@ -23,7 +23,9 @@ search.app:
 
 # Project Service Automation Update Release 20, V3
 
-We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).
 
 This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 20. This version has a build number of V 3.10.31.37 and is generally available through a self-update in June 2020.
 
@@ -57,3 +59,6 @@ The following issues have been fixed:
 - **Org Unit Cost Price** lists permit overlaps in the date effectivity.
 - Users are not permitted to change the **OrgUnit** when the order type is not work-based because it will lead to a null reference exception error.
 - When attempting to navigate from the **Quote Line Details** form, back to the **Quote** tab, the form refreshes and displays the **Summary** tab.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

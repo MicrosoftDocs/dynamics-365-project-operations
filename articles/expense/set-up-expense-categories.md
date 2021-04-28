@@ -56,3 +56,6 @@ Before you can begin the setup process, the following decisions must be made for
 
     - Are any of the subcategories excluded from tax recovery?
     - What is the item sales tax group of the subcategories?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

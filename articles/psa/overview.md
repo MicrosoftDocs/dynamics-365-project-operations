@@ -23,6 +23,8 @@ search.app:
 ---
 # What is Dynamics 365 Project Service Automation?
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
 The Project Service Automation (PSA) application helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing. The app enables you to:
@@ -42,10 +44,10 @@ easily enter and track project time and expenses either on mobile or using a web
 ## What's new in PSA
 The team is excited to announce our newest updates! Ranging from improvements to the user interface, fixing bugs, and adding important new features and capabilties. You asked; we listened.
 
-Take a look at the [October '19 Release Notes](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.
+Take a look at the [October '19 Release Notes](/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.
 
 ### In development
-To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](/dynamics365-release-plan/2020wave1/index).
 
 ## Get help with PSA version 3.x
 Looking for resources to help plan your implementation? Check out these downloadable guides.
@@ -81,3 +83,6 @@ Looking for resources to help plan your implementation? Check out these download
  <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

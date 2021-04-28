@@ -24,6 +24,8 @@ search.app:
 
 # Project stage types 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Project stages are designed to reflect the state of the project as it progresses. Customizations can be used to automatically update the stages with business process flows, Power Automate, or plug-in extensions.
@@ -60,3 +62,6 @@ When the work for the project is completed, the project manager can update the s
 ## Close
 
 When all transactions are recorded for the project, the project manager can update the stage to **Close**. At that point, no transactions can be recorded, and the project is set to read-only.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

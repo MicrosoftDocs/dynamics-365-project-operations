@@ -38,3 +38,6 @@ Each bookable resource working on a project must have a calendar of working hour
 2. From the grid view, select up to 25 **Bookable Resources** to update.
 3. Select **Set Calendar** and a dialog will prompt you with a list of available work hour templates.
 4. Select the template you want to use, and then select **Apply**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

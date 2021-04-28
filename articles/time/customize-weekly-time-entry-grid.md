@@ -139,3 +139,6 @@ Use plug-in validations for any validations that require more context than is av
 
 ### Copying time entries
 Use the view **Copy Time Entry Columns** to define the list of fields to copy during time entry. **Date** and **Duration** are required fields and shouldn't be removed from the view.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

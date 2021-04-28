@@ -23,6 +23,8 @@ search.app:
 ---
 # Resourcing projects home page
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:
@@ -47,3 +49,6 @@ You can staff your project with a team of generic or named resources in PSA. You
 - [Book named resources from resource requirements](book-named-resource.md)
 - [Submit a resource request](submit-resource-request.md)
 - [Accept or reject a proposed project resource from a resource request](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

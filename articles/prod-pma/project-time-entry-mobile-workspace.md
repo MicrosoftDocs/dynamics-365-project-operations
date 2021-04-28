@@ -53,7 +53,7 @@ Specifically, in the **Project time entry** mobile workspace, users can perform 
 The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.
 
 ### Prerequisites if you use Dynamics 365 Finance
-If Finance has been deployed for your organization, the system administrator must publish the **Project time entry** mobile workspace. For instructions, see [Publish a mobile workspace](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+If Finance has been deployed for your organization, the system administrator must publish the **Project time entry** mobile workspace. For instructions, see [Publish a mobile workspace](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### Prerequisites if you use version 1611 with Platform update 3 or later
 If version 1611 with Platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites. 
@@ -73,17 +73,17 @@ If version 1611 with Platform update 3 or later has been deployed for your organ
 <td>System administrator</td>
 <td>KB 4018050 is an X++ update or metadata hotfix that contains the <strong>Project time entry</strong> mobile workspace. To implement KB 4018050, your system administrator must follow these steps.
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ProjectMobile</strong> models, and then upload the deployable package to LCS.</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ProjectMobile</strong> models, and then upload the deployable package to LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publish the <strong>Project time entry</strong> mobile workspace.</td>
 <td>System administrator</td>
-<td>See <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</td>
+<td>See <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -108,13 +108,16 @@ Download and install the Finance and Operations mobile app:
 2.  Select **Time entry**. The calendar dates for the current week are shown.
 3.  For a selected date, select **Actions** &gt; **New entry**.
 4.  Enter the number of hours to record.
-5.  Select the project for the time entry. A list shows the projects that are loaded into your app for offline use. By default, 50 items are loaded, but a developer can change this number. For more information, see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+5.  Select the project for the time entry. A list shows the projects that are loaded into your app for offline use. By default, 50 items are loaded, but a developer can change this number. For more information, see [Mobile platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 6.  If your project isn't in the list, select **Search**. Search by name, or switch to search by project name or customer.
-7.  Select a category. A list shows the categories that are loaded into your app for offline use. By default, 50 items are loaded, but a developer can change this number. For more information, see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+7.  Select a category. A list shows the categories that are loaded into your app for offline use. By default, 50 items are loaded, but a developer can change this number. For more information, see [Mobile platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 8.  If your category isn't in the list, select **Search**. Search by category, or switch to search by category name.
-9.  Select an activity. A list shows the activities that are loaded into your app for offline use. By default, 50 items are loaded, but a developer can change this number. For more information, see [Mobile platform](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
+9.  Select an activity. A list shows the activities that are loaded into your app for offline use. By default, 50 items are loaded, but a developer can change this number. For more information, see [Mobile platform](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page).
 10. If your activity isn't in the list, select **Search**. Search by activity number, or switch to search by purpose.
 
 11. Select the line property.
 12. Optional: Enter any external and internal comments.
 13. Select **Done**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

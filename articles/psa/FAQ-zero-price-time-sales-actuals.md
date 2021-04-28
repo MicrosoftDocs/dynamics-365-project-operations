@@ -23,6 +23,8 @@ search.app:
 ---
 # Why is price defaulting to zero on time sales actuals?
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 This FAQ applies to actuals where the transaction class is set to Time and transaction type is Unbilled Sales. The following three checks will help you troubleshoot why price (bill rate) is defaulting to 0 on time sales actuals.
@@ -52,3 +54,6 @@ If there is no row in the role price grid for the pricing dimensions on the time
 
 If you still don't see a valid price on your time sales actual after following the three checks above, please log a support ticket. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ If the project quote that is closed as Lost references a project on any of its l
 
 > [!NOTE]
 > In Project Operations, closing a quote as Won or Lost will not impact that status of the Opportunity, which will remain open until it is manually closed.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

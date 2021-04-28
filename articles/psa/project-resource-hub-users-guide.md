@@ -23,6 +23,8 @@ search.app:
 ---
 # User guide for Project Resource Hub
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 With the Project Resource Hub app, you can enter time and expenses for the projects you’re working on the go. Stay on top of your time and expense entry to make sure:
@@ -42,7 +44,7 @@ There are two flavors of [!INCLUDE[pn_dyn_365_project_service_auto](../includes/
 ## Install the mobile app
 Before you can start using the Project Resource Hub app, you need to install the mobile app on your device. 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets).
 
 ## Basic Navigation
 1.	When you sign in on the mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
@@ -93,9 +95,12 @@ Enter your expenses at least weekly—or at the frequency requested by your mana
 5. Continue entering expenses for the week. When you’re done and everything looks correct, tap **Submit**. A manager will review and approve your expenses.
 
 ## General information on how to use the mobile app 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Mobile Basics Guide](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### See Also  
  [Overview of Project Service](../psa/overview.md)   
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

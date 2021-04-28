@@ -24,6 +24,8 @@ search.app:
 
 # Organizational units 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Dynamics 365 Project Service Automation, an organizational unit is a distinct group or division in a professional services company that employs billable resources that have cost rates.
@@ -162,3 +164,6 @@ If your company operates as one unit that has one cost price list, you don't hav
 When a project is created on its own, the default contracting unit of the project is based on the user who creates it. That user is also the default project manager. If the project is mapped to a sales entity such as a quote or project contract, the contracting unit on the project is based on the sales entity instead. In this case, project estimates might be recalculated, because the cost price list is used to calculate the cost estimate changes if the contracting unit is changed. The sales price list is used to calculate the sales estimates that will be changed so that they are in sync with the project price list on the quote.
 
 The **Contracting Unit** and **Currency** fields on the project are locked for editing, because they must be in sync with the values on the sales entity (quote or project contract) that the project is mapped to.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

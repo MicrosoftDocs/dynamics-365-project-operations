@@ -24,6 +24,8 @@ search.app:
 
 # Create time entries
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 In previous versions of Dynamics 365 Project Service Automation, time entries were entered on a weekly basis. In version 3 of Project Service Automation, time entries are entered on a daily basis. However, after a few time entries have been created, you can bulk create or copy them.
@@ -65,3 +67,6 @@ You can import data from project bookings and assignments. When you import data,
 ## Group by, sort, search, and filter capabilities
 
 You can group and filter time entries by the dimensions that are specified in the columns. In the **Group by** field, select the dimension to use to filter time entries. You can also sort the time entry records in ascending or descending order by using the sort arrow on the column headings. Additionally, you can show or hide entries by selecting the **Filter** button on the column headings, and then, in the **Search** box, entering the text that should be used to search for time entries by project name, project task, time entry, or resource.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

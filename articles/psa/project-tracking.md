@@ -22,6 +22,8 @@ search.app:
     
 # Project progress and cost consumption
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 The need to track progress against a schedule varies by industry. Some industries track at a granular level, whereas other industries track at a higher level. This topic shows how to schedule in order to meet your organization's requirements.
@@ -91,3 +93,6 @@ Tracking data in the **Effort tracking** and **Cost tracking** views shows the p
 The **Overall project status** field is an editable field that shows the overall status of the project. It uses color-coding, such as green, yellow, and red, to indicate increasing risk. The **Comments** field lets the project manager enter specific comments about the status. The **Status updated on** field is not editable and the value is a timestamp that indicates when the status was last updated.
 
 The **Schedule performance** and **Cost performance** fields are set from the tracking date. When the schedule and cost variance for the root node in the **Effort tracking** view are positive, you can set these fields to **Ahead**. When the schedule and cost variance for the root node are negative, you can set them to **Behind**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

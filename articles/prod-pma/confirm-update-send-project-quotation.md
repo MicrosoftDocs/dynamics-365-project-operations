@@ -62,3 +62,6 @@ To modify an existing project quotation, the quotation status must be **Created*
 
 > [!NOTE]
 > You can’t modify a project quotation after the status is changed to **Sent**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -23,6 +23,7 @@ search.app:
 ---
 # Resource bookings and how they relate to task assignments
 
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 There are two ways that named resources can be booked to a project team and assigned project tasks:
 
@@ -63,3 +64,6 @@ The **Reconciliation View** allows the project manager to see the bookings and a
 > [!NOTE]
 > If you move a task that you have contoured yourself, these contours aren’t maintained. The contours are regenerated according to the project calendar to account for changes in work hours and holidays. This is by design because the system doesn’t know the intent of the original contour and can’t determine whether it makes sense to retain that contour in a new time period. Because bookings and assignments are disconnected, the bookings retain the original booking contours. In this case, you’ll need to cancel and rebook to the new assignment contour.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

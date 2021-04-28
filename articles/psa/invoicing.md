@@ -23,6 +23,8 @@ search.app:
 
 # Invoicing in Project Service Automation
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Invoicing in Dynamics 365 Project Service Automation is useful because it gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when the time and expense entries that project team members submit are approved.
@@ -112,3 +114,6 @@ When you confirm a corrective invoice, the original billed sales actual is rever
 
 - A billed sales actual for six hours.
 - An unbilled sales actual for the remaining two hours. This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

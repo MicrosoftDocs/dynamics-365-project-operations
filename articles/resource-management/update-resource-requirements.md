@@ -32,3 +32,5 @@ As a Project manager, complete the following steps to edit a team member’s res
 ## Edit resource assignment contours
 
 In addition to editing the details of the resource requirements, a Project manager can update the individual contours of the resource requirement using the **Specify Pattern** functionality. When **Specify Pattern** is selected, a page opens and you can view contours at the day, week, or month time scale. Each contour can be adjusted for start time, end time, and total effort in a given period.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

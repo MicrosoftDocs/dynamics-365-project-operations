@@ -31,7 +31,7 @@ Use following steps to enable the Project Operations automated provisioning flow
 
 ## Provision a Project Operations environment
 
-1. Open a new Dynamics 365 Finance [demo environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) or [sandbox/ production environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) deployment. 
+1. Open a new Dynamics 365 Finance [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) or [sandbox/ production environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) deployment. 
 2. Walk through the **Environment provisioning** wizard. 
 
 > [!IMPORTANT]
@@ -204,3 +204,6 @@ If you have applied demo data to the Finance environment, see [Set up and apply 
 
 
 Your Project Operations environment is now provisioned and configured. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

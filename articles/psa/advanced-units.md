@@ -24,6 +24,8 @@ search.app:
 
 # Unit groups and units
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Unit groups and units are basic entities in Microsoft Dynamics 365. A unit is a single unit of measure, and multiple units can be grouped into unit groups. A unit group is sometimes referred to as a unit schedule in the Dynamics 365 user interface (UI). 
@@ -107,3 +109,6 @@ No. Schedule estimation is currently restricted to hours and can’t be changed.
 
 ### Can units and unit groups be edited, deleted, and added?
 Yes. With exception of the **Time** unit group and the **Hour** unit, all units can be deleted or edited, and new units can be added. In PSA, the **Time** unit group and the **Hour** unit can't be deleted. However, they can be updated with a translated text for the **Name** field.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

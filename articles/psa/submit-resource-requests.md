@@ -23,6 +23,8 @@ search.app:
 ---
 # Submit resource requests (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Once you’ve won a project contract, you’ll need to staff your project. Your work breakdown structure already established the resource roles you need to complete the project, so now it’s time to request the resources that match the requirements.  
@@ -49,3 +51,6 @@ Once you’ve won a project contract, you’ll need to staff your project. Your 
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

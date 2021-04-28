@@ -22,6 +22,8 @@ search.app:
 
 # Plan your work in Microsoft Project with the Project Service add-in
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes it easier for you to do your project planning, including estimates. You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.  
@@ -235,3 +237,6 @@ The following table outlines how Project Task Dependencies entity data is synchr
 
 ### Additional resources
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

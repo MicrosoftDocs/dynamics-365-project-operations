@@ -56,3 +56,6 @@ This topic explains how to set up standard costs for labor and expenses for a pr
 22. In the **Pricing** field, enter a number. The actual sales price, which is applied when a worker enters transactions in an expense journal, is the sales price with the highest level of detail. For example, if both a general and a worker-specific sales price are set up, the worker-specific sales price is used.  
 23. Select **Save**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

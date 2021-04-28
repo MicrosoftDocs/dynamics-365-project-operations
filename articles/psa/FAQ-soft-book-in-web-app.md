@@ -24,6 +24,8 @@ search.app:
 
 # How do I "soft book" resources in the web app (Project Service app v2.x)?
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1.x-2.x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 You can tentatively schedule or "soft book" a resource onto a project team to show you plan to assign the resource to a project. Soft bookings don’t consume a resource’s available capacity. Soft-booked team members can’t be assigned to project tasks. Only resources with the Status Hard Booked and Commit Type Committed can be assigned to tasks (assuming they have enough hard booking hours to cover the assignment effort).
@@ -82,3 +84,6 @@ When you’re ready to change a soft-booked team member resource to a hard-booke
 2. When the schedule board opens, expand the resource to show their bookings. You’ll see the booking marked as Soft.
 3. Right-click the booking, under Change Status, select Hard Book and then Hard. The booking status is now Hard.
 4. After closing the schedule board, you’ll see that the hours for the resource have changed from Soft to Hard on the team member grid. You may now assign the resource to tasks (provided there is alignment between the hard-booked hours and the effort hours of the task for assignment). Note that if you followed the generic resource fulfilment steps in item #3 above, when you change the status of the soft-booked bookable resource to hard, the generic team member is removed from the team.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

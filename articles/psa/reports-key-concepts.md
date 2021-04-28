@@ -24,6 +24,8 @@ search.app:
 
 # Key concepts
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 The following table defines key concepts that are used in the Dynamics 365 Project Service Automation app.
@@ -43,3 +45,6 @@ The following table defines key concepts that are used in the Dynamics 365 Proje
 | Contour                    | Task, requirement, or assignment hours as they are broken down into a daily distribution. For example, a five-day, 40-hour task can be contoured into eight hours per day over five days. |
 | Reconciliation view        | A view that shows the bookings and assignments for each project team member. This view lets the project manager look for any mismatch between bookings and assignments, and to take corrective action if any mismatch occurs. |
 | Work hours                 | An entity that is used to identify resource capacity, and working and non-working hours. This entity is also referred to as the resource calendar. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

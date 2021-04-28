@@ -23,6 +23,8 @@ search.app:
 ---
 # Create a project quote (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Creating a quote is similar to creating an opportunity. While an opportunity is for internal information, a quote is what you send out to your potential customers. You can create one or more quotes for each opportunity. When you’re creating a quote to send to your potential customer, you’re in the **Propose** stage of your project.  
@@ -49,3 +51,6 @@ Creating a quote is similar to creating an opportunity. While an opportunity is 
   
 ### See Also  
  [Account Manager Guide](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

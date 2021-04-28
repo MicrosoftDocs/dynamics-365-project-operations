@@ -130,3 +130,6 @@ The following illustration shows an example of the template task mapping in Data
 > The mapping shows the field information that will be synchronized from Project Service Automation to Finance.
 
 [![Project Service Automation to Finance template mapping](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

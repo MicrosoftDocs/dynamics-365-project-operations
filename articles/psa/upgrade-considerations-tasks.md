@@ -25,25 +25,28 @@ search.app:
 
 
 # Upgrade considerations for the work breakdown structure
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x. This topic defines the healthy state of a project in Project Service Automation (PSA) that is required for a successful upgrade. There is also information about the common blocking conditions that will cause upgrade to fail. For more information about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
 
 ## Key entities
 For an accurate work breakdown structure that is already loaded with resources, the following entities are required:
 
-- [Project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Project Team](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Project Task](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Resource Assignments](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Project Task Dependency](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Bookable Resources](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Project Team](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Project Task](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Resource Assignments](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Project Task Dependency](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Bookable Resources](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 To define a resource loaded work breakdown structure, you must complete the following steps:
 
-1. Create a new project. For more information about how to create a new project, see [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Define the task dependencies. For more information, see [Project Task Dependency](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Assign project team members to the project. For more information, see [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Assign project team members to the tasks. For more information, see [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Create a new project. For more information about how to create a new project, see [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Create one or more tasks. For more information about how to create a task, see [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Define the task dependencies. For more information, see [Project Task Dependency](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Assign project team members to the project. For more information, see [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Assign project team members to the tasks. For more information, see [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## Project team relationships
 
@@ -92,3 +95,6 @@ To ensure a successful upgrade, the following relationships must be correctly ma
 
 - All project task dependencies must be related to the same project.
 - A task can't have the same dependency referenced more than once.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Summary information on a project quote - lite
+# Header details for project quotes
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -36,3 +36,6 @@ Below are the tabs and KPIs available on a project quote that are unique to Proj
 | Profitability analysis | Tab on the Quote | The tab shows the following metrics:</br>- Total chargeable cost</br></br>- Total non-chargeable cost</br>- Total revenue</br>- Total revenue (base)</br>- Gross margin</br>- Adjusted gross margin|
 | Comparison to Customer Expectations | Tab on the Quote | This tab shows the following metrics:</br>- Estimated completion</br>- Requested completion</br>- Customer budget</br>- Quote value |
 | Quote analysis | Tab on the Quote | This tab summarizes the following top KPIs for a project quote</br>- Comparison to customer expectations for budget and schedule</br>- Gross margin</br>- Adjusted gross margin |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -29,3 +29,6 @@ Project opportunities can easily be copied to create new project opportunities.
     | Copy pricing | A Yes/No value that indicates if the pricing on the opportunity should be copied from the source opportunity. | If **Yes** is selected, price lists are copied from the source to the target opportunity. If **No** is selected, price lists are defaulted based on the latest price lists that were set up. |
 
 3. Select **OK**. The system creates a copy of the project opportunity based on the selected parameters and the new project opportunity is opened.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

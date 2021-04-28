@@ -52,3 +52,6 @@ If the **Pre-authorized** field is enabled, the reconciled amount and authorized
 
 > [!NOTE]
 > When you map an expense report to an approved travel requisition, the transaction amount can't be greater than the authorized amount. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

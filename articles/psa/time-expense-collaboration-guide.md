@@ -23,6 +23,8 @@ search.app:
 ---
 # Time, expense, and collaboration guide (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales. 
@@ -67,3 +69,6 @@ Click on a link below to learn more about what you can do with [!INCLUDE[pn_proj
  [Account Manager Guide](../psa/account-manager-guide.md)   
  [Project Manager Guide](../psa/project-manager-guide.md)   
  [Resource Manager Guide](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

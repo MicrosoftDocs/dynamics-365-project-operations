@@ -22,7 +22,9 @@ search.app:
   - ProjectOperations
 ---
 
-# Why is the price defaulting to zero on expense cost actuals?
+# Why is the price defaulting to zero on expense cost actuals
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -33,3 +35,6 @@ This FAQ applies to expense actuals where the transaction class is set to Expens
 Go to the related expense entry and make sure that there’s an amount in the expense entry field. If the originating expense entry didn’t have the amount field filled, then you have isolated the problem.
  
 To solve this problem, recreate the expense entry with a valid amount and approve it.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -23,6 +23,8 @@ search.app:
 ---
 # Add resource roles (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Set target utilization rates for each role. These settings determine resource availability and utilization when you’re staffing projects and analyzing actuals.  
@@ -41,3 +43,6 @@ Set target utilization rates for each role. These settings determine resource av
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

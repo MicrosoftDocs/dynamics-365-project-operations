@@ -39,3 +39,6 @@ When you make a selection, the resource is added to the project team and assigne
 You can use the **Reconciliation** tab’s extend booking capability or the **Schedule Board** to book the resource’s capacity to the project.
 
 After a team member is booked on your project, you can use **Maintain bookings** or the **Schedule Board** directly to manage their bookings.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

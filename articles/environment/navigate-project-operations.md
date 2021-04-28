@@ -33,3 +33,6 @@ Select **Login** > **Log on to environment** to navigate to the **Project manage
 
 > [!NOTE]
 > You can access Project Operations in the Common Data Service and the **Project management and accounting** module directly by using their respective URLs. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Match a receipt to an expense using OCR
+title: Capture a receipt using OCR
 description: This topic provides information about optical character recognition (OCR) processing for receipts.
 author: suvaidya
 manager: AnnBe
@@ -27,7 +27,7 @@ ms.search.validFrom:
 ms.dyn365.ops.version: 
 ---
 
-# Match a receipt to an expense using OCR
+# Capture a receipt using OCR
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -99,3 +99,6 @@ Currently, the United States is supported.
 Finance will contact Cognitive Services to extract the field data. Cognitive Services will retain a copy of your receipt for up to 24 hours while processing occurs. After processing is completed, Cognitive Services will remove the receipt. Receipts are still stored in Finance.
 
 For more information, see [Enable receipt understanding with Form Recognizer's new capability](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

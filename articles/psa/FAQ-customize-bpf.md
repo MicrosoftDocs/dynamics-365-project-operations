@@ -25,6 +25,9 @@ search.app:
 
 
 # How do I customize the Project Stages business process flow?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
@@ -103,3 +106,6 @@ To create your own business process flow for the project entity do the following
 
    ![Screenshot of modifying views on the Project entity](media/FAQ-Customize-BPF-8-720.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

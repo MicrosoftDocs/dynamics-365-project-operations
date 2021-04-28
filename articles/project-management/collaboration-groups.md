@@ -21,3 +21,6 @@ Office Groups allow you to share a project with other team members in the Common
 > [!NOTE] 
 > Users are only added to the group if you press **Groups** and add them. This is different to the behaviour of Project for the Web. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

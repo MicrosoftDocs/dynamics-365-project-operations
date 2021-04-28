@@ -23,6 +23,8 @@ search.app:
 ---
 # Find your next project with the Project Finder Mobile app (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 With the Project Finder Mobile app on your [!INCLUDE[tn_iphone](../includes/tn-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)] phone, or [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)], you can look up projects and sign up for ones that best meet your skill set and interests. You can also update your skills and proficiency levels with the app.  
@@ -43,3 +45,6 @@ With the Project Finder Mobile app on your [!INCLUDE[tn_iphone](../includes/tn-i
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

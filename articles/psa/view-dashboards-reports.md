@@ -23,6 +23,8 @@ search.app:
 ---
 # View dashboards and reports (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Dashboards and reports give you an understanding of where your business stands. The Practice Management dashboard gives you an all-up view of your costs, gross margin, and role utilization. You can also track your sales numbers with the Sales Activity Social dashboard.  
@@ -43,3 +45,6 @@ Dashboards and reports give you an understanding of where your business stands. 
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

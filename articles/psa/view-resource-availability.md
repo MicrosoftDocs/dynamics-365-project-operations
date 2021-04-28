@@ -23,6 +23,8 @@ search.app:
 ---
 # View resource availability (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.  
@@ -42,3 +44,6 @@ You can check resource availability to get an overall view of how booked your re
 
 ### See Also  
  [Resource Manager Guide](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

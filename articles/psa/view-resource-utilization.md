@@ -23,6 +23,8 @@ search.app:
 ---
 # View resource utilization (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 You can check resource utilization to determine utilization levels for your resources and help you make decisions about how to fully take advantage of your resources’ time.  
@@ -37,3 +39,6 @@ You can check resource utilization to determine utilization levels for your reso
   
 ### See Also  
  [Resource Manager Guide](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

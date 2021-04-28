@@ -24,6 +24,8 @@ search.app:
 
 # Project costs and revenue
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Project estimates provide the financial view for work that is estimated and scheduled in the project schedule. The **Estimates** tab on the **Projects** page shows the cost and revenue impact of the work that you’re planning. It also provides information about many predefined dimensions. 
@@ -92,3 +94,6 @@ In both the grid view and the time-phased view, you can select which fields are 
 ## Expense estimates
 
 The **Add a New Expense Estimate** button in the grid view lets you record any expenses that are incurred in the project, but that aren't directly related to labor. You can record the expense estimates for a specific task or for the entire project. Select expense categories and the tentative date when you expect to incur the expense. If the associated cost price list and sales price list have default prices (or if markup percentages are defined for expense categories), they are automatically entered on the estimate line when the association occurs.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

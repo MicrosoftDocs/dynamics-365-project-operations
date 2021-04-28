@@ -21,6 +21,8 @@ search.app:
 
 # Resource management changes (Project Service Automation 3.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 The sections of this topic provide information about the changes that have been made to the Resource management area of Dynamics 365 Project Service Automation version 3.x.
 
 ## Project estimates
@@ -164,3 +166,6 @@ The following fields for planned, actual, and remaining cost and sales are uncha
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

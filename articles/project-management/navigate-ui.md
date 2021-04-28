@@ -100,3 +100,6 @@ The follow is a brief overview of the typical controls found on the various proj
 **Add column**: Allows the user to define the visible columns in the grid. Only out-of-the-box columns can be added to the grids in the **Project Planning** form.
 
 ![Add column button](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -22,6 +22,8 @@ search.app:
 
 # Setting up custom fields as pricing dimensions 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Before you begin, this topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md) and [Add custom fields to price setup and transactional entities](field-references.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
 
 This topic provides information about setting up custom pricing dimensions. In the Project Service web interface, on the **Parameters** page, the **Amount-Based Pricing Dimensions** tab shows the records in the pricing dimension entities. By default, Project Service installation creates 2 rows in the grid on this tab:
@@ -88,3 +90,6 @@ Setting the dimension priority helps Project Service pricing produce a price eve
 
 - **Cost Priority**: The value of a dimension's cost priority will indicate the weight of that dimension when matching against the setup of cost prices. The value of **Cost Priority** must be unique across dimensions that are **Applicable to Cost**.
 - **Sales Priority**: The value of dimension's sales priority will indicate the weight of that dimension when matching against the setup of sales prices or bill rates. The value of **Sales Priority** must be unique across dimensions that are **Applicable to Sales**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

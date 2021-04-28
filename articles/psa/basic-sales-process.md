@@ -24,6 +24,8 @@ search.app:
 
 # Sales processes
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 The sales processes that are used in a project-based organization differ from the sales processes that are used in a product-based organization. This difference occurs because the sales cycles for project-based organizations are longer and require customized estimation techniques to analyze and create quotes for each deal. Dynamics 365 Project Service Automation uses some of the same functionality that is used in the sales process for Dynamics 365 Sales. Here are some examples:
@@ -88,3 +90,6 @@ In PSA, you can't track revisions that are made to a quote. Instead, you must ma
 
 ## Tracking comments and approvals of quotes and project contracts
 You can manage the review and approval of quotes and project contracts by using the record wall and posts. Your organization can create custom workflows and plug-ins to assign, redirect, escalate, and manage notifications of review and approval work items.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

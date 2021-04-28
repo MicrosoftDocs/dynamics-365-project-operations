@@ -34,3 +34,6 @@ Complete the following steps to invoice the customer for an advance.
     | **Invoice Status** | This is an option setting that indicates whether this advance is added to a draft invoice for this customer. The possible values are:</br>- **Not ready to invoice**</br>- **Ready to invoice** | When an advance or pre-payment is marked as **Ready to invoice**, it is added as a line time on a draft invoice. Only a fully invoiced advance can be used to reconcile against project costs for the next invoice period. |
 
 4. Select **Save and close** on the quick create dialog to record the advance or the pre-payment.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -24,6 +24,8 @@ search.app:
 
 # Propose project resources
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Resource managers can propose a resource to the project manager by using a resource request.
 
 1. From the request grid or the request itself, select **Find Resources**.
@@ -108,3 +110,6 @@ Because Dynamics 365 Project Service Automation uses the Universal Resource Sche
 To view more details about an individual resource, right-click it to open the resource card.
 
 ![Resource card](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -115,8 +115,8 @@ When the Project Service Automation to Finance integration solution is applied, 
 ## Prerequisites and mapping setup
 
 - Before synchronization of project contracts and projects can occur, you must synchronize accounts.
-- In your connection set, add an integration key field mapping for **msdyn\_organizationalunits** to **msdyn\_name \[Name\]**. You might first need to add a project to the connection set. For more information, see [Integrate data into Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
-- In your connection set, add an integration key field mapping for **msdyn\_projects** to **msdynce\_projectnumber \[Project Number\]**. You might first need to add a project to the connection set. For more information, see [Integrate data into Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- In your connection set, add an integration key field mapping for **msdyn\_organizationalunits** to **msdyn\_name \[Name\]**. You might first need to add a project to the connection set. For more information, see [Integrate data into Common Data Service for Apps](/powerapps/administrator/data-integrator).
+- In your connection set, add an integration key field mapping for **msdyn\_projects** to **msdynce\_projectnumber \[Project Number\]**. You might first need to add a project to the connection set. For more information, see [Integrate data into Common Data Service for Apps](/powerapps/administrator/data-integrator).
 - **SourceDataID** for project contracts and projects can be updated to a different value or removed from the mapping. The default template value is **Project Service Automation**.
 - The **PaymentTerms** mapping must be updated so that it reflects valid terms of payment in Finance. You can also remove the mapping from the project task. The default value map has default values for demo data. The following table shows the values in Project Service Automation.
 
@@ -159,3 +159,6 @@ The following illustrations show examples of the template task mappings in Data 
 #### Project contract line milestone mapping in the Projects and Contracts (PSA 3.x to Dynamics) - v2 template:
 
 [![Project contract line milestone mapping with version two template](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

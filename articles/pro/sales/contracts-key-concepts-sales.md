@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project contracts - Key concepts - lite
+# Concepts unique to Project Contracts
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -88,3 +88,6 @@ Project Operations contracts are built on Dynamics 365 Sales contracts. However,
 - Project Operations contracts have their own form and UI elements, business rules, business logic in plug-ins, and client-side scripts that make them unique from Sales contracts.
 
 For these reasons, you shouldn't use a Sales contract and Project contract interchangeably.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

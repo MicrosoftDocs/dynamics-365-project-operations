@@ -23,6 +23,8 @@ search.app:
 ---
 # Reporting guide
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
 The reporting methods and technologies in this app can to help you determine the health of your projects and identify when you need to take corrective action. 
@@ -35,3 +37,6 @@ The PDF link that was previously in this topic has been removed and the content 
 
 > [!NOTE]
 > This topic will be removed in a future documentation update. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

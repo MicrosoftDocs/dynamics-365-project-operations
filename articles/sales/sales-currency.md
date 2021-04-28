@@ -76,3 +76,6 @@ Before you start this procedure, verify that your security role includes system 
 
 > [!IMPORTANT]
 >  You can't delete currencies that are in use by other records; you can only deactivate them. Deactivating currency records doesn't remove the currency information stored in existing records, such as opportunities or orders. However, you won't be able to select the deactivated currency for new transactions.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

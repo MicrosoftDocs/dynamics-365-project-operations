@@ -23,6 +23,8 @@ search.app:
 ---
 
 # View chargeable utilization for resources
+
+[!include [banner](../includes/psa-now-project-operations.md)]
  
 The **Utilization View** on the **Project Service Resource Utilization** page shows the chargeable utilization for each bookable resource. Because the view is based on the schedule board, you’ll find many of the same functions.
 
@@ -96,3 +98,6 @@ If you are not seeing chargeable utilization, here are some things you can check
   - The role on the project contract line backing the project has been set to non-chargeable.
   - The project does not have an associated contract line.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

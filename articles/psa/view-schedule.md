@@ -23,6 +23,8 @@ search.app:
 ---
 # View your schedule (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 When you want to see what you’re working on for the week, take a look at your schedule.  
@@ -39,3 +41,6 @@ When you want to see what you’re working on for the week, take a look at your 
   
 ### See Also  
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

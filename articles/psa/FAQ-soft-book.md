@@ -18,6 +18,8 @@ search.app:
 
 # Soft book a resource
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 You can tentatively schedule or "soft book" a resource onto a project team to show that you plan to assign the resource to the project. Soft bookings don’t consume a resource’s available capacity, and you can assign soft-booked team members to project tasks. However, because soft booking doesn’t consume a resource’s capacity, you can still "hard book" the resource for other tasks within the same period. Generic resources can’t be soft booked, nor can a soft booking fulfill a request for a generic resource.
@@ -62,3 +64,6 @@ When you’re ready to change a soft-booked team member resource to a hard-booke
 2. Right-click the booking, and under **Change Status**, select **Hard Book** \> **Hard**. The booking status is now **Hard**.
 3. After you close the Schedule board, return to the project, and open the **Team** tab, you’ll see that the hours for the resource have moved from the **Soft Booked Hours** column to the **Hard Booked Hours** column on the **Team** tab when in the **Named Team Members** view. If the resource was assigned to tasks, they’ll no longer show a booking deficit on the **Reconciliation** tab as their bookings are now hard.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

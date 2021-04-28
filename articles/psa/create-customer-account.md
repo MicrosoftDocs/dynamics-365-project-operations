@@ -23,6 +23,8 @@ search.app:
 ---
 # Create a customer account (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Create an account for each client you’re working with, whether you’re quoting a project or actively working on an existing project for them.  
@@ -41,3 +43,6 @@ Create an account for each client you’re working with, whether you’re quotin
   
 ### See Also  
  [Account Manager Guide](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

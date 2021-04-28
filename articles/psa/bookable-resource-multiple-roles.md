@@ -21,6 +21,8 @@ search.app:
 
 # Estimate project sales and costs when a bookable resource fills multiple roles for a project 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Project-based companies often have the need for one resource to perform multiple roles on a project. Each of these roles could be priced and costed differently, which means the same resource's time on the project could get a different financial estimate depending on the bill and cost rates for each of the roles. Project Service Automation allows the setup of the values on the team member record for the named resource and allows for different overrides on each of the tasks that the team member is assigned to.
 
 The following example  explains how the simple override of this value allows a resource to have multiple roles on a project with different cost and bill rates.
@@ -67,3 +69,6 @@ When you expand the row of that Team Member record, you can see distinct assignm
 When you navigate to the **Estimates** grid, you will notice that both assignments for the same resource are priced differently.
 The assignment for the resource on Task A is priced using the **Role** attribute value of **Consulting Lead**. The assignment for the same resource on Task B is priced using the **Role** attribute value of **Network Technician**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

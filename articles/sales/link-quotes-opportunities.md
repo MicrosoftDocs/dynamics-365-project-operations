@@ -51,3 +51,6 @@ An existing quote can be linked to an Opportunity. Complete the following steps 
    When you move an opportunity to this stage, you can select this quote from a list of quotes associated with this opportunity. Selecting this quote indicates that you're moving forward with it.
 
    All the other quotes associated with the Opportunity will still be available and active until one of them is won. You can move the sales process back to the previous stage **Qualify**, and pick another quote to move forward with.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ For more information, see [Expense entry (lite)](basic-expense.md)
 
 ## Determine your Expense deployment
 To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

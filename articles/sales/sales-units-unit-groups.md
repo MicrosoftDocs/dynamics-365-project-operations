@@ -51,3 +51,6 @@ To complete the steps in this topic, make sure that you have been assigned to th
 3. In the **QUantity** field, enter the quantity that the unit will contain. For example, if a box contains two pieces, enter "2". 
 4. In the **Base unit** field, select a base unit to establish the lowest unit of measurement for the unit. For example, you might select "Piece".
 5. Select **Save**:
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

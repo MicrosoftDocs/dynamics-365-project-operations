@@ -23,6 +23,8 @@ search.app:
 ---
 # Create a project opportunity (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 Opportunities are warm leads from customers who are interested in contracting your services. [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the steps for opening an opportunity for one of your accounts, preparing a project quote, and working out a project contract with your customer. Start by adding an opportunity. You can add estimates for services and products to the opportunity, as well. When you add an opportunity, you’re in the **Qualify** phase of your project.  
@@ -33,7 +35,7 @@ Opportunities are warm leads from customers who are interested in contracting yo
   
 3.  In the **Summary** area, enter your opportunity's company and other information.  
   
-4.  Add any notes and activities (for example, phone calls or emails) related to this lead. To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
+4.  Add any notes and activities (for example, phone calls or emails) related to this lead. To learn more about adding notes and activities, see [Keep track of notes, tasks, calls, or email with activities](/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
 5.  To add stakeholders, in the **Stakeholders** area, click **+**.  
   
@@ -49,3 +51,6 @@ Opportunities are warm leads from customers who are interested in contracting yo
   
 ### See Also  
  [Account Manager Guide](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

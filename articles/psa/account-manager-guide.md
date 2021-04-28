@@ -23,6 +23,8 @@ search.app:
 ---
 # Account Manager Guide (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] guide you through the sales and contracts process for project-based accounts. In addition to creating accounts, this guide takes you through the sales process, including:  
@@ -42,3 +44,6 @@ search.app:
  [Project Manager Guide](../psa/project-manager-guide.md)   
  [Resource Manager Guide](../psa/resource-manager-guide.md)   
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

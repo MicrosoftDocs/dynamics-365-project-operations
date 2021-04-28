@@ -24,6 +24,8 @@ search.app:
 
 # Actuals overview
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Actuals are the amount of work that has been completed on a project. Project actuals can be traced back to their source documents. Those source documents include time, expense, and journal entries, and also invoices.
@@ -325,3 +327,6 @@ PSA records the financial transactions that occur during a project. These transa
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

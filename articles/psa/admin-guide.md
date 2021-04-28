@@ -23,6 +23,8 @@ search.app:
 ---
 # Administrator guide (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 This guide takes you through the process of installing and configuing :  
@@ -47,3 +49,6 @@ This guide takes you through the process of installing and configuing :
  [Project Manager Guide](../psa/project-manager-guide.md)   
  [Resource Manager Guide](../psa/resource-manager-guide.md)   
  [Time, Expense, and Collaboration Guide](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

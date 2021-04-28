@@ -50,7 +50,7 @@ Leads that have the **Type** value set to **Work-based** are called project-base
 - A contact record associated to the account based on the values in the **First Name** and **Last Name** fields on the lead.
 - A project-based opportunity that has the **Type** field set to **Work-based**.
 
-For more detailed information on qualifying leads, see [Qualify or convert leads](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+For more detailed information on qualifying leads, see [Qualify or convert leads](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## Lead qualification and legal entity information 
 
@@ -75,3 +75,6 @@ The Lead to Opportunity business process supports the following stages:
 | Develop | Opportunity | Develop the opportunity to add more information on the work involved, key stakeholders, and competition. |
 | Propose | Opportunity | Develop the proposal and get approval from the internal review team. |
 | Close | Opportunity | Win the opportunity to close the deal. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

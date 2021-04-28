@@ -24,6 +24,8 @@ search.app:
 
 # Manage resources
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Dynamics 365 Project Service Automation includes a resource manager dashboard that provides a visual overview of resource demand and utilization throughout the organization. You can use the charts on this dashboard to visualize the following information:
@@ -339,3 +341,6 @@ If you have task assignments for a resource but no bookings, on the **Projects**
 ![Extend Booking dialog box](media/Resource-Management-image58.png)
 
 The project manager or resource manager can then use the Schedule Board to manage any situations where a resource is overbooked beyond its capacity.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

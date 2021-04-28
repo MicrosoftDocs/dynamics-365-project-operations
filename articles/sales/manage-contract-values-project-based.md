@@ -52,3 +52,6 @@ Rule: A project and a certain transaction class can only be included on one proj
 | C1       | CL2           | P1      | No           | Yes             | No          | Valid           | Time and fees on project P1 are   included on the CL1. Expense on project P1 is included on CL2. </br>   There is no overlap in what is being included on each contract line and is   therefore valid.  |
 | C1       | CL1           | P1      | Yes          | Yes             | Yes         | Not valid       | Violates the rule. Time,   expense, and fees on project P1 are included on the lines of two contracts.                                                                                               |
 | CL2      | CL2           | P1      | Yes          | Yes             | Yes         | Not valid       | Violates the rule. Time,   expense, and fees on project P1 are included on the lines of two contracts.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

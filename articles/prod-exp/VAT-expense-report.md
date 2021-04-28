@@ -76,3 +76,6 @@ When Arnie is ready to send the expense report data to the third-party vendor th
 Arnie must verify that the expense report transactions are eligible for VAT recovery, and that the digital receipts are attached to the reports. To start to process eligible expenses for domestic recovery, Arnie opens the **Expense tax recovery** page and selects the expense report that requires verification. He verifies that receipts are in the name of the company instead of the employee. For VAT recovery, receipts must be in the name of the company. Arnie then confirms that the correct sales tax group and item sales tax codes were applied.
 
 When Arnie receives the paper receipts, he changes the status of the expense report to **Ready for recovery**. He can then file the return with the appropriate tax authority. In this case, the appropriate tax authority in the US is the Internal Revenue Service (IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

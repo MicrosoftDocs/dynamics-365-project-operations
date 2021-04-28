@@ -25,6 +25,9 @@ search.app:
 
 
 # What's new or changed in Project Service Automation version 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
@@ -253,3 +256,6 @@ The following graphic shows after custom price lists have been created.
 
 > [!NOTE]
 > A short lag might occur between when you click **Create Custom Pricing** to when the custom price list is created. We recommend refreshing the grid instead of clicking multiple times. A custom price list has been created if the associated price list name has the quote name or the project contract name appended to it.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

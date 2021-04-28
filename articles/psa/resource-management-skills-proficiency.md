@@ -24,6 +24,8 @@ search.app:
 
 # Skills and proficiency models
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Skills are resource characteristics that are shared between Dynamics 365 Project Service Automation and if present, Dynamics 365 Field Service. 
@@ -43,3 +45,6 @@ Skills for resources are rated by proficiency models. The individual ratings are
 > ![Minimum and maximum ratings defined](media/Resource-Management-image85.png)
 
 These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

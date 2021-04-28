@@ -42,7 +42,7 @@ For more information, see [Configure expense management](plan-expense-management
 
 ### What's new and in development
 
-To see what new features are planned, see the [Microsoft Dynamics 365 release plans](https://go.microsoft.com/fwlink/?linkid=2010158).
+To see what new features are planned, see the [Microsoft Dynamics 365 release plans](/dynamics365/release-plans/).
 
 #### Expense report entry
 
@@ -63,3 +63,6 @@ Additional help is available as task guides. To access task guides, select the *
 ### Videos
 
 Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

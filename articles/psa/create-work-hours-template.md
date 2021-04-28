@@ -23,6 +23,8 @@ search.app:
 ---
 # Create a work hours template (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-3x.md)]
 
 To create and manage a project, you must apply a calendar template to the project. The calendar template defines the following project attributes:
@@ -56,7 +58,9 @@ To create a calendar template for your organization, there are two key requireme
 > [!NOTE]
 > When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template. If the working hours of the copied template change, those changes will not propagate to the calendar template.
 
-  
-### Additional resources
 
-[Set up resources](../psa/set-up-resources.md)
+### See Also  
+ [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

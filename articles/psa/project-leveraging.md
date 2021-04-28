@@ -24,6 +24,8 @@ search.app:
 
 # Sales estimates and projects
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 During the sales process, you can create sales estimates by linking a project to a sales quote. In this way, deterministic estimation can occur during the sales process, to take advantage of project scheduling and estimation capabilities. If the sale goes through, the schedule that was used for sales estimation purposes can be used as the basis for further refinement of the project plan.
@@ -49,3 +51,6 @@ You can define the work effort and schedule estimates by using the fields on the
 ## Importing estimates from a project into a quote
 
 After you define project estimates, you can import them into the quote line. On the **Quote Line Details** page, select **Import from estimates** on the ribbon to summarize project estimates by transaction type, role, or task level.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

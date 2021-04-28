@@ -3,7 +3,7 @@ title: Determine your deployment type
 description: This topic provides information to help you determine the correct deployment type of Project operations for your company.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -27,6 +27,9 @@ Project Operations includes the capabilities that shipped with Project Service A
 Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is. See [Project Operations for stocked/production order scenarios](#pma).
 
 
+## Deployment regions
+To determine which regions support Project Operations deployment, see [Geographical availability for Dynamics 365 and Power Platform report](https://dynamics.microsoft.com/en-us/geographic-availability/). Select **View Report**, and expand **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** to view the supported regions.
+
 ## Deployment types
 Project Operations supports multiple deployment options to match your requirements. Whether you're a new or existing Dynamics 365 customer, Project Operations can support your needs.
 
@@ -48,7 +51,7 @@ The lite deployment includes the following capabilities:
 - Unified resource management
 - Time tracking
 - Basic expense
-- Proforma and customer-facing invoicing 
+- Proforma invoicing for Project manager's review and edits 
 
 #### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
@@ -79,17 +82,20 @@ For this deployment, see [Sign-up for preview subscriptions](resource-sign-up-pr
 ### <a name="pma"></a>Project Operations for stocked/production order scenarios
 
 - Project planning using WBS
-- Resource Management
-- Time Tracking
-- Full Expense
+- Resource management
+- Time tracking
+- Full expense
 - Receipt OCR
-- Full Invoicing
-- Revenue Recognition
-- Production Orders
-- Materials support
+- Full invoicing
+- Revenue recognition
+- Production orders
+- Stocked materials support with inventory
 
 #### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
 
-For this deployment, see [Sign-up for preview subscriptions](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/finance/toc.json) and [Provision new environment](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/finance/toc.json). 
+For this deployment, see [Sign-up for preview subscriptions](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) and [Provision new environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

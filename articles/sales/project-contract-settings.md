@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project contract settings
+# Header details for project-based contracts
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -53,3 +53,6 @@ The following KPIs are available on the **Contract Performance** tab of a projec
 | Cost Incurred | Product-based lines | The sum of all cost actuals logged for the product-based contract line. |
 | Gross Margin | Project-based lines | Billed amount - Cost incurred till date / Billed amount |
 | Expected Margin | Product-based lines | (Contract line value - Estimated costs for the contract line) / Contract line value |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

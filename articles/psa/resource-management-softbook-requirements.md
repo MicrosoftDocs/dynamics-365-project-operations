@@ -24,6 +24,8 @@ search.app:
 
 # Soft-book requirements
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 A resource requirement can be hard-booked. A hard booking creates a proposal that consumes a resource's capacity. The proposal is then sent back to the requester for approval. A soft booking tentatively adds a resource to a project team and has a different status on the Schedule Board, but it doesn't consume the resource's capacity. To soft-book a resource from the Schedule Board, set the **Booking Status** field to **Soft**.
 
 ![Booking status set to Soft](media/Resource-Management-image77.png)
@@ -58,3 +60,6 @@ You can use the same method to cancel a hard booking or a soft booking from the 
 To convert a resource that is soft-booked to hard-booked on the project's **Team** tab, select the resource, and then select **Confirm**.
 
 ![Confirm command](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

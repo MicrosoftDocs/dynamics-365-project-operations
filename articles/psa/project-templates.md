@@ -24,6 +24,8 @@ search.app:
 
 # Project templates 
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 A project template is a predefined framework that helps you quickly and easily start a project. You can use a predefined template to create a new project with a single click. As for projects, you must define the prerequisites for project templates. You must define a project calendar for each project template, and roles and price lists must be predefined in the organization, so that the components of the template have useful data.
@@ -64,3 +66,6 @@ When you copy across project estimate lines, the price lists are updated. For th
 ### Copying a project team
 
 When a project team is copied from a project template to a project, the generic resources are copied, together with the skills and proficiencies that are defined in the template. Generic resource assignments are also maintained as they were in the project template. Named resources aren't supported in project templates.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

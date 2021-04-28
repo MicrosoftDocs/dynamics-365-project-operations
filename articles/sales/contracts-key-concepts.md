@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project contracts - Key concepts
+# Concepts unique to Project-based Contracts
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -83,3 +83,6 @@ Invoice schedules are specific to each contract line and are required for automa
 ## Changes from Dynamics 365 Sales Orders
 
 Contracts in Project Operations are built on Orders in Dynamics 365 Sales. However, there are important deviations and differences in functionality. Contracts have their own form and UI elements, business rules, business logic in plug-ins, and client-side scripts that make them unique from Orders. For these reasons, don't use a Sales order and Project Operations contract interchangeably.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

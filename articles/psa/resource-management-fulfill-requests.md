@@ -24,6 +24,8 @@ search.app:
 
 # Fulfilling resource requests
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.
@@ -41,3 +43,6 @@ The Schedule Assistant appears and is filtered by the requirements. Select the r
 > ![Resource selected](media/Resource-Management-image61.png)
 
 The generic team member is replaced with the hard-booked named resource on the project team and task assignments in the project schedule.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Import estimates for a project to a project-based quote line
-description: This topic provides information about importing estimates from a project to a quote line.
+title: Import estimates for a project to a project quote line
+description: This topic provides information about importing estimates from a project to a project quote line.
 author: rumant
 manager: Annbe
 ms.date: 10/09/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Import estimates for a project to a project-based quote line
+# Import estimates for a project to a project quote line
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -62,3 +62,6 @@ When the user selects to summarize by Transaction class, Category, and Leaf Node
 | Task A | Airfare | 10/1/2020 | 4 | 400 | 1600 |
 | Task B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Task C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

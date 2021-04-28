@@ -24,6 +24,8 @@ search.app:
 
 # Associate skills with resource roles (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 While you were adding resource roles, you probably already associated some skills to them. From time to time, you might need to add additional skills to a resource role.  
@@ -42,3 +44,6 @@ While you were adding resource roles, you probably already associated some skill
   
 ### See Also  
  [Set up resources](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

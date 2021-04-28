@@ -349,3 +349,6 @@ During the first month, a total of 800 hours are recorded by the consultants on 
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

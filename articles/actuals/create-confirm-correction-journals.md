@@ -94,3 +94,6 @@ Complete the following steps to correct one or more expense entries.
 8. In the project page, on the **Actuals** tab, review the **Actual Associated View**. The original entries and the corrected entries are listed. The following graphic shows original expense entry amounts and the corresponding corrected expense entry amounts. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

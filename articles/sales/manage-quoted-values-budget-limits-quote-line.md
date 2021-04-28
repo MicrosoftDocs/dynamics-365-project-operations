@@ -1,6 +1,6 @@
 ---
-title: Project-based quote lines overview
-description: This topic provides information about using project-based quote lines for project work.
+title: Project quote lines overview
+description: This topic provides information about using project quote lines for project work.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Project-based quote lines overview
+# Project quote lines overview
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -731,3 +731,6 @@ The following table provides information about the fields on the **General** tab
     </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

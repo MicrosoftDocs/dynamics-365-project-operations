@@ -63,3 +63,6 @@ Open the Fixed price quote line where you need to create a milestone. On the **I
 | Invoice status | Quick create | When a milestone is created, this status is always set to **Not ready for invoicing**. | This is propagated to the project contract line milestone and to the invoice. |
 | Line Amount | Quick create | Amount or value of the milestone that will be invoiced to the customer. | This is propagated to the project contract line milestone and to the invoice. |
 | Tax | Quick create | Tax amount that will be applied to the milestone. | This is propagated to the project contract line milestone and to the invoice. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

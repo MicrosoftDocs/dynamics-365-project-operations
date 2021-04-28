@@ -23,13 +23,15 @@ search.app:
 ---
 # Schedule resources for a project (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 You can check resource availability to get an overall view of how booked your resources are, or you can filter the view by skills, team, location, and other options.  
   
 The schedule board shows list of resources and their availability. Select a view mode to show availability by **Hours**, **Day**, **Week**, or **Month**.  
   
-Before you use the schedule board, it’s important to set it up. For more information, see [Configure the schedule board (Field Service or Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Before you use the schedule board, it’s important to set it up. For more information, see [Configure the schedule board (Field Service or Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 If you are using an older version, for resource availability, see [View resource availability](../psa/view-resource-availability.md).  
 
@@ -77,3 +79,6 @@ If you are using an older version, for resource availability, see [View resource
   
 ### Additional resources  
  [Resource manager guide](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

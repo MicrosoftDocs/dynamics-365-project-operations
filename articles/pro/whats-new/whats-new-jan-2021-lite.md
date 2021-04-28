@@ -36,3 +36,6 @@ This topic applies to the following Dynamics 365 Project Operations components a
 | **Opportunity Management** | 2040713 | Fixed the script error that occurs when creating an invoice from a contract and Field Service is installed. |
 | **Project Planning and Tracking** | 2090202 | Marked business rules that are no longer used as **Deprecated**. |
 | **Time and Expense** | 2091249 | Tightened controls so that users can't change the task on a submitted or approved time entry. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

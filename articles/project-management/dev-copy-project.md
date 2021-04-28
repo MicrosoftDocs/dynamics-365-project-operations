@@ -39,7 +39,7 @@ There are three input parameters:
 - **{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.
 - **{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.
 
-For more defaults on actions, see [Use Web API actions](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+For more defaults on actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## Specify fields to copy 
 When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.
@@ -107,3 +107,6 @@ The following example shows how to call the **CopyProject** custom action with t
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

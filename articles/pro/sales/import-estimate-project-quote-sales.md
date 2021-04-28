@@ -10,9 +10,9 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Import estimates for a project to a project-based quote line - lite
+# Import estimates for a project to a project-based quote line 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.
 
@@ -25,7 +25,7 @@ If a project is created during the pre-sales stage, you can select to import the
   - **Role** 
   - **Project task**
 
-Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over. To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time**, **Include Expenses**, and **Include Fees**.  To check what tasks are included, select the **Chargeable Tasks** tab on the quote line.
+Based on your selection, the estimate from the project for all transaction classes included on this quote line are copied over. To check what transaction classes are included, select the **General** tab on the project-based quote line, and check the values for **Include Time**, **Include Expenses**, **Include Materials**, and **Include Fees**.  To check what tasks are included, select the **Chargeable Tasks** tab on the quote line.
 
 Depending on the Tasks associated and Included transaction classes, the estimates for those task and transaction class combinations are imported to the quote line.
 
@@ -63,3 +63,6 @@ When the user selects to summarize by Transaction class, Category and Leaf Node 
 | Task A | Airfare | 10/1/2020 | 4 | 400 | 1600 |
 | Task B | Hotel | 10/1/2020 | 4 | 200 | 800 |
 | Task C | Hotel | 11/1/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

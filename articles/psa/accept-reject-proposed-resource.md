@@ -23,6 +23,8 @@ search.app:
 ---
 # Accept or reject a proposed project resource
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 This topic provides information about how to approve or reject a proposed project resource.
@@ -39,3 +41,6 @@ To reject the proposal, click **Reject Resource**.
 ![Accepting a resource proposal](media/RM-how-to-20.png) 
 
 Similar to directly fulfilling a generic resource request with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

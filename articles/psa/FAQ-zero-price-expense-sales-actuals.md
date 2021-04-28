@@ -25,6 +25,8 @@ search.app:
 
 # Why is the price defaulting to zero on expense sales actuals?
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 This FAQ applies to expense actuals where the transaction class is set to Expense and transaction type is Unbilled Sales. The following three checks will help you troubleshoot why price (bill rate) is defaulting to 0 on expense sales actuals.
@@ -67,3 +69,6 @@ If the price setup for the expense category isn't valid, then you have isolated 
 If you still don't see a valid price on your expense sales actual after doing the three checks above, log a support ticket.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

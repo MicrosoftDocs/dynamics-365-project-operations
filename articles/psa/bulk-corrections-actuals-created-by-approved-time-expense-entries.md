@@ -24,6 +24,8 @@ search.app:
 
 # Bulk corrections of actuals created by approved time and expense entries
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Occasionally a time or expense entry may be entered incorrectly. For example, a consultant might select the wrong date when creating a time entry or they might transpose the numbers when entering an expense. If a consultant can’t make the updates to the submitted entries, an administrator can directly correct the entry for a project.
 
 To complete the procedures in this topic, you will need Administrator permissions.
@@ -85,3 +87,6 @@ Complete the following steps to correct one or more expense entries.
 8. In the project page, on the **Actuals** tab, review the **Actual Associated View**. The original entries and the corrected entries are listed. The following graphic shows original expense entry amounts and the corresponding corrected expense entry amounts. 
 
 ![Expense_actuals](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

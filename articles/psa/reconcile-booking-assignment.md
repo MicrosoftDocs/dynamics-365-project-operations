@@ -22,6 +22,8 @@ search.app:
 
 # Reconcile bookings and assignments
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 A project team member's project bookings and project task assignments are loosely coupled. Therefore, a resource can have task assignments that don't correspond to bookings and bookings that don't correspond to task assignments. Ideally, project bookings and assignments are aligned, so that resources have committed capacity to perform their task assignments. However, the reality is that bookings can occur based on availability, and task timings can change as the project continues through its lifecycle. Therefore, the loose coupling allows for flexibility.
@@ -94,3 +96,6 @@ After the Extend Booking functionality has been executed on each resource, booki
 
 However, a closer look at the details of the bookings shows differences in the start time of the bookings. The bookings will start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource.
  ![New bookings of the resources in the schedule board](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
-title: Manage the billing backlog - lite
-description: This topic provides information about the various views available to use when managing the billing backlog.
+title: Manage project billing backlog 
+description: This topic provides information about the various views available to use when managing the billing backlog on projects.
 author: rumant
 manager: Annbe
 ms.date: 10/26/2020
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Manage the billing backlog - lite
+# Manage project billing backlog 
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -55,3 +55,6 @@ Unbilled sales actuals with a **Not-to-Exceed** status of **Failed** can't be ma
 If multi-customer contract lines have a time and material billing method, when time and expenses are approved, one unbilled sales actual is created for each customer on the contract line according to the billing percentage split defined for each of the customers. In the **Time and Material Billing Backlog** view, you will see these individual customer-specific unbilled sales actuals. Each of these unbilled sales actual records can be marked as **Ready to Invoice** separately from this view.
 
 An unbilled sales actual that is on a draft invoice is shown in this view with a billing status of **Customer Invoice Created**. When the draft invoice is confirmed, the billing status on this record is updated to **Customer Invoice Posted**. Don't update this status value using custom code. Project Operations doesn't function correctly when these status values are updated with custom code.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
