@@ -2,7 +2,7 @@
 title: Project Operations dual-write integration 
 description: This topic provides an overview of Project Operations dual-write integration.
 author: sigitac
-ms.date: 04/23/2021
+ms.date: 04/28/2021
 ms.topic: article
 ms.prod:
 ms.service: project-operations
@@ -29,7 +29,6 @@ Project Operations integration consists of the following component integration:
 
 - [Project Operations setup and configuration data integration](resource-dual-write-setup-integration.md) 
 - [Project estimates and actuals](resource-dual-write-estimates-actuals.md)
-- [Setup and configuration data](resource-dual-write-setup-integration.md) 
 - [Project invoices](resource-dual-write-project-invoice.md)
 - [Expense management](resource-dual-write-expense.md)
-- Vendor invoices
+- [Vendor invoice](resource-dual-write-vendor-invoice.md)
