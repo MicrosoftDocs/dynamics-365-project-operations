@@ -42,6 +42,14 @@
         href: environment/resource-dual-write-maps.md  
       - name: Project Operations setup and configuration data integration
         href: environment/resource-dual-write-setup-integration.md  
+      - name: Project estimates and actuals integration
+        href: environment/resource-dual-write-estimates-actuals.md
+      - name: Project invoice integration
+        href: environment/resource-dual-write-project-invoice.md
+      - name: Expense management integration
+        href: environment/resource-dual-write-expense.md
+      - name: Vendor invoice integration
+        href: environment/resource-dual-write-vendor-invoice.md  
   - name: What's new 
     items:
     - name: April 2021 - Project Operations for resource/non-stocked based scenarios
