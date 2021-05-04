@@ -20,7 +20,7 @@ Dynamics 365 Project Operations provides the ability for organizations to define
 
 There are three scheduling modes available in Project Operations:
 
-  - Fixed duration (this is thee default mode)
+  - Fixed duration (this is the default mode)
   - Fixed work
   - Fixed units
 
@@ -28,9 +28,9 @@ The values impacted by the definition of a specific scheduling mode are determin
 
   Effort (*Work*) = Duration x Units
 
-When you define a project’s scheduling mode, you are setting one of these values, which then can't be changed. Holding this value as a constant places a priority on that value, which tells Project Operations not to change it when the other two values change. The table below provides information about the impacts of selecting a specific mode.
+When you define a project’s scheduling mode, you are setting one of these values, which then can't be changed. Holding this value as a constant places a priority on that value, which notifies the system not to change it when the other two values change. The following table provides information about the impacts of selecting a specific mode.
 
-| **In a**             | **If you revise units**   | **If you revise duration** | **If you revise effort**  |
+| **In this task**             | **If you revise units**   | **If you revise duration** | **If you revise effort**  |
 |----------------------|---------------------------|----------------------------|---------------------------|
 | Fixed units task     | Duration is recalculated. | Effort is recalculated.    | Duration is recalculated. |
 | Fixed effort task    | Duration is recalculated. | Units are recalculated.    | Duration is recalculated. |
