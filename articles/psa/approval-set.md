@@ -12,6 +12,10 @@ ms.author: stsporen
 
 # Approval sets
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+
 Approval sets group approval requests together into smaller subsets of operations. This grouping allows approvals to be processed in order by Project and allows for retrying and sequencing. Grouping improves the reliability and traceability of approval processing for large volumes of approvals.
 
 Approval sets indicate the overall processing state of their related records. When an approval record is processed using an approval set, the record moves from **Submitted** to **Approved**, and is unlinked from the approval set. If a record fails when it is submitted for approval, the record remains in a status of **Submitted** and the approval set is marked as failed. The approval set logs the error message of the failure.
@@ -44,3 +48,4 @@ Valid values are:
   - Zero: All requests should be processed asynchronously. 
   - Numbers greater than zero: Approvals are processed asynchronously only when the submitted number of approvals exceeds this value.
 
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
