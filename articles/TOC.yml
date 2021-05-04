@@ -224,6 +224,8 @@
       href: project-management/understand-project-status.md
     - name: Define project calendars
       href: project-management/define-project-calendars.md
+    - name: Scheduling modes
+      href: project-management/scheduling-modes.md
     - name: Update a project
       href: project-management/update-project.md
     - name: Copy a project
@@ -698,6 +700,8 @@
       href: project-management/understand-project-status.md
     - name: Define project calendars
       href: project-management/define-project-calendars.md
+    - name: Scheduling modes
+      hreF: project-management/scheduling-modes.md
     - name: Update a project
       href: project-management/update-project.md
     - name: Copy a project
