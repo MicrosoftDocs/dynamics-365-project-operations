@@ -16,11 +16,11 @@ ms.author: ruhercul
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
-Dynamics 365 Project Operations provides the ability for organizations to define how they manage changes to key variables in tasks within the work breakdown structure. Based on the specific needs of the organization, Project Managers can be make changes to the scheduling mode when a project is created.
+Dynamics 365 Project Operations provides the ability for organizations to define how they manage changes to key variables in tasks within the work breakdown structure. Based on the specific needs of the organization, Project Managers can make changes to the scheduling mode when a project is created.
 
 There are three scheduling modes available in Project Operations:
 
-  - Fixed duration - this is thee default mode
+  - Fixed duration (this is thee default mode)
   - Fixed work
   - Fixed units
 
@@ -36,14 +36,14 @@ When you define a project’s scheduling mode, you are setting one of these valu
 | Fixed effort task    | Duration is recalculated. | Units are recalculated.    | Duration is recalculated. |
 | Fixed duration task  | Effort is recalculated.   | Effort is recalculated.    | Units are recalculated.   |
 
-For more information about the implications of a given mode, see [Change the task type for more accurate scheduling](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). Note that in the topic, the term **Work** is used instead of **Effort**.
+For more information about the implications of a given mode, see [Change the task type for more accurate scheduling](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). In the topic, the term **Work** is used instead of **Effort**.
 
 ## Change the organization’s scheduling mode
 
 Complete the following steps to define the scheduling mode of an organization.
 
 1. Go to **Settings** \> **General** \> **Parameters**, and then select the project parameter. 
-2. On the **Prject Parameters** page, select the default scheduling mode for the organization, and then define ability for the Project manager to override the setting when creating a new project.
+2. On the **Project Parameters** page, select the default scheduling mode for the organization, and then define ability for the Project manager to override the setting when creating a new project.
 
 ## Change the scheduling mode setting on a project
 
@@ -51,8 +51,8 @@ If an organization allows the Project manager to override the default scheduling
 
 ## Copied projects
 
-Because a project is created when the copy project action is taken, the Project manager can't set the scheduling mode. This means that the destination project will always default to the mode defined at the organizational level.
+Because a project is created when the copy project action is taken, the Project manager can't set the scheduling mode. The destination project will always default to the mode defined at the organizational level.
 
 ## Copied tasks
 
-When a task a is copied from one project to another, the task inherits the scheduling mode of the destination project.
+When a task is copied from one project to another, the task inherits the scheduling mode of the destination project.
