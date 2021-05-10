@@ -5,11 +5,9 @@ title: Import and maintain credit card transactions
 
 description: This topic explains how to import and maintain expense-related credit card transactions. These transactions can be set up so that they are automatically imported on a recurring schedule, or they can be manually imported as they are required.
 author: KimANelson 
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

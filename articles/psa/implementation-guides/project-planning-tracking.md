@@ -2,8 +2,6 @@
 title: Project planning and tracking
 description: This topic provides a link to information about planning and tracking in Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 2/04/2019

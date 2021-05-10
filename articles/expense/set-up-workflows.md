@@ -4,11 +4,9 @@
 title: Set up workflows for Expense management
 description: You can set up a workflow process that is used to review and approve travel and expense documents.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

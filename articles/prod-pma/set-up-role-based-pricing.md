@@ -4,11 +4,9 @@
 title: Set up role-based pricing
 description: This topic provides information about how to set up pricing for specific roles.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

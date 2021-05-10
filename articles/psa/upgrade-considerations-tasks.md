@@ -1,8 +1,6 @@
 ---
 title: Upgrade considerations for the work breakdown structure
 description: This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x.
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 10/18/2019

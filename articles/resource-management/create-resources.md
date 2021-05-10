@@ -2,10 +2,8 @@
 title: Create resources
 description: This topic provides a link to information about how to create bookable resources.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---

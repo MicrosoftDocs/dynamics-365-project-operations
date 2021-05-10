@@ -2,8 +2,6 @@
 title: Resource management home page
 description: This topic provides information about how to manage resources.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/28/2019

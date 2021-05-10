@@ -4,11 +4,9 @@
 title: Expense management workflow
 description: This topic explains how you can use the workflow system in Microsoft Dynamics 365 Finance, to set up a review process for expense reports in Expense management.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

@@ -2,10 +2,8 @@
 title: Set up and apply configuration data in the Common Data Service 
 description: This topic provides information about setting up and applying configuration data in Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

@@ -2,8 +2,6 @@
 title: Account Manager Guide
 description: An account manager's guide for Project Service that walks through the sales and contracts process for project-based accounts
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 7/30/2018

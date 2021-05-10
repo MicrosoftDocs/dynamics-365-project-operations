@@ -2,10 +2,8 @@
 title: Configure the chargeable components of a project-based quote line
 description: This topic provides information about included, chargeable, and non-chargeable components on project-based quote lines.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

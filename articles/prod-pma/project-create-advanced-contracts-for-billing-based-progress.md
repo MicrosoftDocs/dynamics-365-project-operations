@@ -4,11 +4,9 @@
 title: Create advanced contracts for billing based on progress
 description: This topic explains how to create project contracts so that you can generate invoices for customers, based on a percentage of completed work.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

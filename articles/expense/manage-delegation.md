@@ -4,11 +4,9 @@
 title: Manage delegation
 description: This topic provides information about how an expense delegate can create and manage expense reports for another employee .
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

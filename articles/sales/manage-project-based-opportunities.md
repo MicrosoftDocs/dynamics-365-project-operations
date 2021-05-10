@@ -2,10 +2,8 @@
 title: Manage project-based opportunities
 description: This topic provides information about how to work with opportunities that are related to projects.
 author: rumant
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

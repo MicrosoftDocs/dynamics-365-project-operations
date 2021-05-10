@@ -2,11 +2,9 @@
 title: Cost product-based contract lines - lite
 description: This topic provides information about creating 
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

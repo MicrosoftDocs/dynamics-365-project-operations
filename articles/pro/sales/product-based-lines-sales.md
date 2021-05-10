@@ -2,11 +2,9 @@
 title: Product-based opportunity lines - lite
 description: This topic provides information about product-based opportunity line items in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

@@ -2,8 +2,6 @@
 title: Configure Project Service Automation
 description: Steps for configuring Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

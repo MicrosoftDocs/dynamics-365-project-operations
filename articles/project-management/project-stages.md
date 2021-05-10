@@ -4,11 +4,9 @@
 title: Project stages
 description: This topic provides information about the project stages that are available in Microsoft Dynamics Project Operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

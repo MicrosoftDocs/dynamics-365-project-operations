@@ -2,8 +2,6 @@
 title: Customize weekly time entry
 description: This topic provides information about how to implement custom business rules that support an organization's practices.
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 07/09/2019

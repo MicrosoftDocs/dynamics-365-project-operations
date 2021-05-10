@@ -2,8 +2,6 @@
 title: What is Dynamics 365 Project Service Automation?
 description: Introduction and overview of Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 9/23/2019

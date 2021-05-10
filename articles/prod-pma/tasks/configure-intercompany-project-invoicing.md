@@ -4,11 +4,9 @@
 title: Configure intercompany project invoicing
 description: This topic shows how to set up project invoicing between two companies in your organization. 
 author: Yowelle
-manager: AnnBe 
 ms.date: 07/29/2019
 ms.topic: business-process 
 ms.prod:  
-ms.service: dynamics-ax-applications 
 ms.technology:  
  
 # optional metadata 

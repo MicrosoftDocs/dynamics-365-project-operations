@@ -2,10 +2,8 @@
 title: Revenue recognition overview
 description: This topic provides information about revenue recognition in Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

@@ -2,10 +2,8 @@
 title: What's new November 2020 - Project Operations for resource/non-stocked based scenarios
 description: This topic provides information about the quality updates available in the November 2020 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-manager: Annbe
 ms.date: 10/30/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

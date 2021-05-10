@@ -5,7 +5,6 @@ author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

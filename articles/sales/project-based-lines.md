@@ -2,10 +2,8 @@
 title: Project-based opportunity lines
 description: This topic provides information about working with project-based opportunity lines.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

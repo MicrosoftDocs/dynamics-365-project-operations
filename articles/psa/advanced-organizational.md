@@ -2,8 +2,6 @@
 title: Organizational units
 description: This topic provides information about organizational units in Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/04/2019

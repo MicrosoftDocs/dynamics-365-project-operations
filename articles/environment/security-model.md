@@ -2,10 +2,8 @@
 title: Security model
 description: This topic provides information about the security model in Dynamics 365 Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: stsporen
 ---

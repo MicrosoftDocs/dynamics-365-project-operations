@@ -2,10 +2,8 @@
 title: Estimate a project–based contract line - lite
 description:  This topic provides information about estimating a project–based contract line.
 author: rumant
-manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

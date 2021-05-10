@@ -2,10 +2,8 @@
 title: Default price lists
 description: This topic provides information about default sales and cost price lists in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

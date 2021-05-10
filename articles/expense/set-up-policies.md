@@ -4,11 +4,9 @@
 title: Define expense policies
 description: You can define expense policies that your workers must follow when entering and submitting expense reports and travel requisitions. 
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

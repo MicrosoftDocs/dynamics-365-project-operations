@@ -2,11 +2,9 @@
 title: What's new December 2020 - Project Operations Lite deployment - deal to proforma invoicing
 description: This topic provides information about the quality updates available in the December 2020 release of Project Operations Lite deployment - deal to proforma invoicing. 
 author: sigitac
-manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

@@ -4,11 +4,9 @@
 title: Set up project resources
 description: This topic provides information about setting up or requesting project resources.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

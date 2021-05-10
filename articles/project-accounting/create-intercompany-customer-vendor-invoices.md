@@ -4,10 +4,8 @@
 title: Create intercompany customer and vendor invoices
 description: This topic provides information about how to create intercompany customer and vendor invoices.
 author:  sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
 

@@ -4,11 +4,9 @@
 title: Adjust project transactions
 description: This task guide shows you how to adjust a transaction on a project.  
 author: Yowelle
-manager: AnnBe 
 ms.date: 11/01/2017
 ms.topic: business-process 
 ms.prod:  
-ms.service: dynamics-ax-applications 
 ms.technology:  
  
 # optional metadata 

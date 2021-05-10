@@ -4,11 +4,9 @@
 title: Travel requisitions overview
 description: This topic provides information about travel requisitions. A travel requisition documents planned travel expenses. 
 author: saraschi2
-manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

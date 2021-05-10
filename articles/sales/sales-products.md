@@ -4,11 +4,9 @@
 title: Products
 description: This topic provides information about the product catalog that you can use to provide information to customers about the products and pricing your organization offers.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

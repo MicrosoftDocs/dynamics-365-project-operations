@@ -4,10 +4,8 @@
 title: Maintain team members
 description: This topic provides information about booking named resources to project teams and assigning them to tasks. 
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
 ---

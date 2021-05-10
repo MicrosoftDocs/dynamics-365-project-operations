@@ -2,13 +2,11 @@
 title: Seting up custom fields as pricing dimensions
 description: This topic provides information about setting up custom pricing dimensions.
 author: Rumant
-manager: kfend
 ms.custom: 
   - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
 #
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType: 

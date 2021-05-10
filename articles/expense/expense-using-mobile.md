@@ -4,11 +4,9 @@
 title: Mobile Expense app
 description: This topic provides information about the Expense management mobile workspace.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

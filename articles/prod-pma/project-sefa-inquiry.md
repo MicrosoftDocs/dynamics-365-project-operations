@@ -4,11 +4,9 @@
 title: Schedule of Expenditures of Federal Awards inquiry
 description: This topic provides information about the Schedule of Expenditures of Federal Awards inquiry.
 author: velofog
-manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

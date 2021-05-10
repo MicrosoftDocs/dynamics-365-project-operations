@@ -4,11 +4,9 @@
 title: Set up a sales price list 
 description: This topic provides information about sales price lists for project pricing.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

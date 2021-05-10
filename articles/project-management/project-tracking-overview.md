@@ -4,10 +4,8 @@
 title: Project effort tracking 
 description: This topic provides information about how to track project effort and progress of work.
 author: ruhercul
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
 ---
