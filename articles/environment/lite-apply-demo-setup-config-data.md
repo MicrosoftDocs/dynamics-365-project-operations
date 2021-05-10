@@ -23,8 +23,8 @@ Before you begin the configuration, you must have a Common Data Service (CDS) en
 
 ## Instructions
 
-1. Download the [Master Data Package](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip). 
-2. Navigate to the folder *ProjOpsDemoDataSetupAndMaster - Integrated CMT* and run the executable file, *DataMigrationUtility*.
+1. Download the [Master Data Package](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
+2. Navigate to the folder *ProjOpsSampleSetupData - CE only CMT* and run the executable file, *DataMigrationUtility*.
 3. On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.
 
     ![Configuration Migration](./media/1ConfigurationMigration.png)
@@ -36,7 +36,7 @@ Before you begin the configuration, you must have a Common Data Service (CDS) en
    ![Configuration Sign in](./media/2ConfigurationSignin.png)
 
 7. On page 3, from the list of Organizations on the Tenant, select which organization you want to import the demo data into and then select **Login**.
-8. On page 4, select the zip file, *MasterAndSetupData* from the unpacked folder, *ProjOpsDemoDataSetupAndMaster - Integrated CMT*.
+8. On page 4, select the zip file, *SampleSetupAndConfigData* from the unpacked folder, *ProjOpsSampleSetupData - CE only CMT*.
 
    ![Zip file](./media/3ZipFile.png)
 
@@ -47,7 +47,7 @@ Before you begin the configuration, you must have a Common Data Service (CDS) en
    ![Import data](./media/5ImportData.png)
 
 10. Import will run for approximately two-ten minutes depending on your network speed. After it completes, exit the CMT Wizard. 
-11. Check your organization for data in the following 20 entities:
+11. Check your organization for data in the following 18 entities:
 
     -	Currency
     -	Account
