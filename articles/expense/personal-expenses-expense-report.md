@@ -24,4 +24,14 @@ There are two methods you can use to work with an employee's personal expenses:
 You can select the method that your organization uses on the **Expense management parameters** page.
 
 
+# Enable split expense function when personal amount field has value defined
+
+This feature only applies to expense reports approved using line level workflow and approved from Process expense reports > Expense reports assign to me > Open expense report. 
+
+When this feature is enabled,  expense lines using the split to personal amount will generate 2 lines upon expense report submit, so that the approver can approve each line separately.
+
+To enable this feature, go to workspaces--> Feature Management--> select "Enable split expense function when personal amount field has value defined" and click "enable now". 
+
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
