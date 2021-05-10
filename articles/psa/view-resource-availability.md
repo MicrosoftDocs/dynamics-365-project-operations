@@ -2,8 +2,6 @@
 title: View resource availability
 description: How to view resource availability in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

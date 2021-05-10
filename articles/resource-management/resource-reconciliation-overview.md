@@ -4,11 +4,9 @@
 title: Resource reconciliation overview
 description: This topic provides information that will help you ensure that resource bookings and assignments for projects are aligned.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

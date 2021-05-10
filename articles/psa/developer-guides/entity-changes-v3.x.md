@@ -2,13 +2,11 @@
 title: Entity, control, and user interface changes (Project Service Automation 3.x)
 description: This topic describes solution changes for Microsoft Dynamics Project Service Automation 3.x.
 author: makk
-manager: kfend
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
 #
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType: 

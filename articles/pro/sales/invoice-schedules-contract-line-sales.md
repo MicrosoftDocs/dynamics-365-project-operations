@@ -2,10 +2,8 @@
 title: Create invoice schedules on a project-based contract line - lite
 description: This topic provides information about creating invoice schedules and milestones.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

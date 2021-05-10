@@ -2,10 +2,8 @@
 title: Navigate Project Operations
 description: This topic provides information about how to access Project Operations from Lifecycle Services.
 author: sigitac
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

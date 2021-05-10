@@ -2,8 +2,6 @@
 title: Time, expense, and collaboration guide
 description: A guide to time, expense, and collaboration for Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

@@ -2,10 +2,8 @@
 title: Define resource calendars
 description: This topic provides information about how to define the working hour calendars for resources in Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---

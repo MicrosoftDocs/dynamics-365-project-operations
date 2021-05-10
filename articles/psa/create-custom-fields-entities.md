@@ -2,12 +2,10 @@
 title: Create custom fields and entities
 description: This topic explains how to create option sets and entities in your own solution in the Power Apps platform.
 author: Rumant
-manager: kfend
 ms.custom: 
   - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType: 

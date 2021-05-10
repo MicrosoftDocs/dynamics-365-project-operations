@@ -4,11 +4,9 @@
 title: Creat a project team
 description: This topic provides information about how to create and manage project teams.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

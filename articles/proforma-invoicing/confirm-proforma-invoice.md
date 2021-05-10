@@ -2,10 +2,8 @@
 title: Confirm a proforma project-based invoice
 description: This topic provides information about confirming a proforma project-based invoice. 
 author: rumant
-manager: AnnBe
 ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
 ---

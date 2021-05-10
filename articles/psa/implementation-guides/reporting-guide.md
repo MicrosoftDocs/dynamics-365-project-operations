@@ -2,8 +2,6 @@
 title: Reporting guide
 description: This topic provides links to information about reporting.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 02/11/2019

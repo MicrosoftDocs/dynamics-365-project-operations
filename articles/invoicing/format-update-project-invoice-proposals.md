@@ -2,10 +2,8 @@
 title: Manage project invoice proposals
 description: This topic provides details about processing customer-facing invoices with Project Operations for resource/ non-stocked based scenarios.
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

@@ -4,11 +4,9 @@
 title: Actuals 
 description: This topic provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 04/01/2021
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

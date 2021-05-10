@@ -1,9 +1,7 @@
 ---
 title: Upgrade home page
 description: This topic shows where to find important information about the new and changed features in Dynamics 365 Project Service Automation, and the process for upgrading to the newest version.
-manager: kfend
 ms.prod:
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 05/30/2019

@@ -2,10 +2,8 @@
 title: Manage multiple customers on project-based contract lines - lite
 description:  This topic provides information about managing multiple customers on project-based contract lines.
 author: rumant
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

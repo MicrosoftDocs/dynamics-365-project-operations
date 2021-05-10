@@ -2,8 +2,6 @@
 title: Add resources
 description: How to add resources in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 7/31/2018

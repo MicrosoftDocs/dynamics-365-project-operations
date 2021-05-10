@@ -4,11 +4,9 @@
 title: Confirm, update, and send a project quotation
 description: This topic provides information about sending a quote to the customer for confirmation, modifying based on feedback, and then resending the quotation.
 author: ruhercul
-manager: AnnBe
 ms.date: 05/09/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

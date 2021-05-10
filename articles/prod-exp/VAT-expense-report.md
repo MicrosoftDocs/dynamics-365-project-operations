@@ -4,11 +4,9 @@
 title: VAT recovery
 description: This topic explains how to recover refunds on value-added tax (VAT) transactions.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

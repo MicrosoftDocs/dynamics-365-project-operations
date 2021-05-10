@@ -4,11 +4,9 @@
 title: Project forecasts and budgets
 description: Microsoft Dynamics 365 Finance provides project forecasts and project budgets to manage and control your projects. 
 author: Yowelle
-manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

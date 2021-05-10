@@ -4,11 +4,9 @@
 title: Project resourcing home page
 description: This topic provides information about project resourcing.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

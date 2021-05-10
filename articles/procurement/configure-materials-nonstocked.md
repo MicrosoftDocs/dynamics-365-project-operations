@@ -2,11 +2,9 @@
 title: Configure non-stocked materials and pending vendor invoices
 description: This topic explains how to enable non-stocked materials and pending vendor invoices.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---
@@ -56,11 +54,11 @@ If you are using standard demo data, you might also need to stop and restart the
 
 ### Activate workflow to create accounts based on vendor entity
 
-The Dual Write Orchestration solution provides [Vendors master integration](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). As a prerequisite for this feature, vendor data must be created in the **Accounts** entity. Activate a template workflow process to create vendors in the **Accounts** table as described in [Switch between vendor designs](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+The Dual Write Orchestration solution provides [Vendors master integration](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). As a prerequisite for this feature, vendor data must be created in the **Accounts** entity. Activate a template workflow process to create vendors in the **Accounts** table as described in [Switch between vendor designs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
 
 ### Set products to be created as active
 
-Non-stocked materials must be configured as **Released products** in Finance. The Dual Write Orchestration solution provides an out-of-the-box [Released products integration to Dataverse Product catalog](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping). By default, products from Finance are synchronized to Dataverse in a draft state. To synchronize the product to an active state so that it can be directly used in material usage documents or pending vendor invoices, go to **System** > **Administration** > **System administration** > **System settings**, and on the **Sales** tab, set **Create products in active state** to **Yes**.
+Non-stocked materials must be configured as **Released products** in Finance. The Dual Write Orchestration solution provides an out-of-the-box [Released products integration to Dataverse Product catalog](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md). By default, products from Finance are synchronized to Dataverse in a draft state. To synchronize the product to an active state so that it can be directly used in material usage documents or pending vendor invoices, go to **System** > **Administration** > **System administration** > **System settings**, and on the **Sales** tab, set **Create products in active state** to **Yes**.
 
 ## Configure prerequisites in Finance
 

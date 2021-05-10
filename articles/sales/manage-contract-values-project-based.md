@@ -2,10 +2,8 @@
 title: Work with project–based contract lines
 description:  This topic provides information about project–based contract lines.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

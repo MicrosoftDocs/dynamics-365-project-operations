@@ -2,8 +2,6 @@
 title: Unit groups and units
 description: This topic provides information about unit groups and units.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/05/2019

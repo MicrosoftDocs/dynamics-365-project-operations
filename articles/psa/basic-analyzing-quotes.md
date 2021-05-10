@@ -2,8 +2,6 @@
 title: Analysis of project quotes
 description: This topic provides information about the analysis of project quotes.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/05/2019

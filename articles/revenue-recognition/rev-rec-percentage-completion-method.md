@@ -2,10 +2,8 @@
 title: Fixed price revenue estimate projects 
 description: This topic provides information about fixed price revenue in projects.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

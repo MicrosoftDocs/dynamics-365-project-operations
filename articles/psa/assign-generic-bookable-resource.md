@@ -2,8 +2,6 @@
 title: Assign generic bookable resources to a task and project team
 description: This topic provides information about booking generic resources to tasks and project teams.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 12/11/2018

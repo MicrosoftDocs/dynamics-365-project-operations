@@ -2,8 +2,6 @@
 title: Create a work hours template
 description: This topic describes how to create a work hours template in Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
@@ -47,7 +45,7 @@ To create a calendar template for your organization, there are two key requireme
 
 1. Go to **Resources** \> **Resources**.
 2. Create a new resource to reference in the calendar template, or select an existing resource.
-3. Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.
+3. Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](/dynamics365/field-service/set-work-hours-resource.md) to configure the calendar rules.
 
 **Create a new calendar template**
 

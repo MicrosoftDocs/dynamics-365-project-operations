@@ -2,8 +2,6 @@
 title: Actuals overview
 description: This topic provides information about project actuals.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 08/03/2020

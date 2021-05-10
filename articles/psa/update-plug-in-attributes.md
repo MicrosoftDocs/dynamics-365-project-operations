@@ -2,11 +2,9 @@
 title: Update plug-in attributes to include new pricing dimensions
 description: This topic provides information about updating plug-in attributes for pricing dimensions.
 author: Rumant
-manager: kfend
 ms.custom: 
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType: 

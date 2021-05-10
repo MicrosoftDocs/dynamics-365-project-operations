@@ -2,11 +2,9 @@
 title: What's new or changed in Project Operations, March 2021 for stocked/production-based scenarios
 description: This topic provides information about the quality updates available in the March 2021 release of Project Operations for stocked/production-based scenarios.
 author: andchoi
-manager: tfehr
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: andchoi
 ---
@@ -118,7 +116,7 @@ The following features are included in this release:
 | Project management and accounting | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | The legacy work breakdown structure (WBS) class method, **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** is deprecated.                                                                                                   |
 
 ### Regulatory updates
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates.md). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

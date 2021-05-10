@@ -2,8 +2,6 @@
 title: Project schedules
 description: This topic provides information about how to create a schedule.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 3/01/2019

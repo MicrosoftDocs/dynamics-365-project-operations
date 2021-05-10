@@ -2,10 +2,8 @@
 title: Expense entry (lite) 
 description: This topic provides information about how to work with expense entry in a lite deployment.
 author: stsporen
-manager: AnnBe
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
 ---

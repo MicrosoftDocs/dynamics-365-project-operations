@@ -4,11 +4,9 @@
 title: Set up expense policies
 description: You can set up the expense policies that your workers must follow when entering and submitting expense reports and travel requisitions in Microsoft Dynamics 365 Finance. 
 author: suvaidya
-manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

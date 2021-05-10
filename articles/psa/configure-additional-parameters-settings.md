@@ -2,8 +2,6 @@
 title: Configure additional parameter settings
 description: How to configure additional parameter settings in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

@@ -2,10 +2,8 @@
 title: Integration journal in Project Operations
 description: This topic provides information about working with the Integration journal in Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

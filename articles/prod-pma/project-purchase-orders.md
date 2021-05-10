@@ -4,11 +4,9 @@
 title: Purchase orders for a project
 description: This article describes the various methods that you can use to create purchase orders for a project. The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

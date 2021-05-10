@@ -2,11 +2,9 @@
 title: Set up cost and sales rates for catalog products - lite
 description: This topic provides information about how to set up cost and sales rates for items in a product catalog.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

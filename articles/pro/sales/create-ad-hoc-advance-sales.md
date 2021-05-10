@@ -2,10 +2,8 @@
 title: Creating an ad hoc advance on a contract
 description: This topic provides information about creating an advance on a contract as needed.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

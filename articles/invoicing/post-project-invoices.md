@@ -2,10 +2,8 @@
 title: Invoicing process overview
 description: This topic provides a process overview of invoicing in Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-manager: Annbe
 ms.date: 01/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

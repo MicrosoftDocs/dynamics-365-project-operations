@@ -2,10 +2,8 @@
 title: Updating plug-in attributes with new pricing dimensions
 description: This topic provides information about how to update plug-in attributes for pricing dimensions.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

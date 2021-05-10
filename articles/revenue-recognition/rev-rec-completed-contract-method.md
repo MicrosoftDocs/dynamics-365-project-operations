@@ -2,10 +2,8 @@
 title: Manage revenue estimates
 description: This topic provides information about how to work with revenue estimates for projects.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

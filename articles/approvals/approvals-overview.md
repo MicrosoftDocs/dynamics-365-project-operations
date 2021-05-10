@@ -2,10 +2,8 @@
 title: Approvals overview
 description: This topic provides information about working with approvals in Project Operations.
 author: stsporen
-manager: Annbe
 ms.date: 03/31/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: stsporen
 ---

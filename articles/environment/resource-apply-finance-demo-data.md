@@ -2,10 +2,8 @@
 title: Apply demo data to a Finance Cloud-hosted environment
 description: This topic explains how to apply demo data from Project Operations to a Dynamics 365 Finance Cloud-hosted environment.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

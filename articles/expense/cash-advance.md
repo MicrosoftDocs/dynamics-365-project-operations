@@ -2,10 +2,8 @@
 title: Cash advance
 description: This topic provides information about cash advances.
 author: suvaidya
-manager: AnnBe
 ms.date: 03/25/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: 

@@ -3,10 +3,8 @@
 title: Financial estimation concepts
 description: This topic provides information about financial estimates of projects in  Project Operations. 
 author: rumant
-manager: AnnBe
 ms.date: 03/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
 ---

@@ -2,11 +2,9 @@
 title: What's new or changed in Project Operations, January 2021 for stocked/production-based scenarios
 description: This topic provides information about the quality updates available in the January 2021 release of Project Operations for stocked/production based scenarios.
 author: andchoi
-manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: andchoi
 ---
