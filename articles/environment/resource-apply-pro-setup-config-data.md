@@ -28,7 +28,7 @@ Before you beging to configure data in the Common Data Service (CDS), the follow
 
 ## Install setup and configuration data
 
-1. Download, unblock, and unzip the [Setup and Configuration Data Package](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip).
+1. Download, unblock, and unzip the [Setup and Configuration Data Package](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip).
 2. Navigate to the unzipped folder and run the executable file, *DataMigrationUtility*.
 3. On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.
 
@@ -52,13 +52,20 @@ Before you beging to configure data in the Common Data Service (CDS), the follow
 ![Import Data](./media/5ImportData.png)
 
 10. Import will run for approximately two-ten minutes depending on your network speed. After import completes, exit the CMT Wizard. 
-11. Check your organization for data in the following 19 entities:
+11. Check your organization for data in the following 26 entities:
 
   - Currency
+  - Chart of Accounts
+  - Fiscal Calendar
+  - Currency Exchange Rate Types
+  - Payment Day
+  - Payment Schedule
+  - Payment Term
   - Organizational Unit
   - Contact
   - Tax Group
   - Customer Group
+  - Vendor Group
   - Unit
   - Unit Group
   - Price List
