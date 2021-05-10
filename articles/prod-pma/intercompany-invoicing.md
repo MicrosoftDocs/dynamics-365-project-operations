@@ -4,11 +4,9 @@
 title: Intercompany invoicing
 description: This article provides information and examples about intercompany invoicing for projects.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

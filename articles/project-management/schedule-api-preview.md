@@ -2,10 +2,8 @@
 title: Use Schedule APIs to perform operations with Scheduling entities
 description: This topic provides information and samples for using Schedule APIs.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

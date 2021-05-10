@@ -3,10 +3,8 @@
 title: Scheduling modes
 description: This topic provides information about scheduling modes. 
 author: ruhercul
-manager: AnnBe
 ms.date: 05/04/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
 ---

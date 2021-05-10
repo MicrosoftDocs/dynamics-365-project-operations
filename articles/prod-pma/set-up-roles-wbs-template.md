@@ -4,11 +4,9 @@
 title: Set up roles on Work breakdown structure templates
 description: This topic provides information about setting up role information on Work breakdown structure templates.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

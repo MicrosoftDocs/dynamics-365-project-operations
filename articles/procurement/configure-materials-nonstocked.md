@@ -2,11 +2,9 @@
 title: Configure non-stocked materials and pending vendor invoices
 description: This topic explains how to enable non-stocked materials and pending vendor invoices.
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

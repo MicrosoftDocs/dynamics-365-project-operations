@@ -5,8 +5,6 @@ description: This topic provides information about quoting, pricing, and billing
 #
 author: rumant
 ms.author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/01/2019

@@ -2,10 +2,8 @@
 title: Manage multiple customers on project contracts
 description: This topic provides information about how to manage multiple customers on a project contract.
 author: rumant
-manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

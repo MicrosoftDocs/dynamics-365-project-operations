@@ -4,11 +4,9 @@
 title: Manage project price lists on a quote
 description: This topic provides information about the Project price list entity.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

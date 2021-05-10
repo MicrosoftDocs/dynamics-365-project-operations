@@ -2,8 +2,6 @@
 title: View dashboards and reports
 description: How to view dashboards and reports in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

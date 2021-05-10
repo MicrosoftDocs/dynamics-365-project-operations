@@ -2,10 +2,8 @@
 title: Book to a project
 description: This topic provides information about booking a resource to a project.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---

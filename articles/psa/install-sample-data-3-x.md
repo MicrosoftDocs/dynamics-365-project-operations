@@ -3,7 +3,6 @@ title: Sample data installation
 description: This topic provides information about installing sample data in Project Service Automation.
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: 
 applies_to: Dynamics 365 Project Service Automation

@@ -4,11 +4,9 @@
 title: What's new in Project operations
 description: This topic provides information about the new features and functionality in Microsoft Dynamics 365 Project operations.
 author: ruhercul
-manager: AnnBe
 ms.date: 06/21/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

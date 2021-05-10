@@ -2,10 +2,8 @@
 title: Manage project quotes
 description: This topic provides information about project quotes.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

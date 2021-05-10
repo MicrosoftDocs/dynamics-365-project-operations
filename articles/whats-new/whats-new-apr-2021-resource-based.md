@@ -2,11 +2,9 @@
 title: What's new April 2021 - Project Operations for resource/non-stocked based scenarios
 description: This topic provides information about the quality updates available in the April 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

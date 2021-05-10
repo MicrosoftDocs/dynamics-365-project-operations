@@ -2,10 +2,8 @@
 title: Developer notes for Approvals
 description: This topic provides additional developer information about working with approvals.
 author: stsporen
-manager: Annbe
 ms.date: 11/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: stsporen
 ---

@@ -4,11 +4,9 @@
 title: Quotes - Key concepts
 description: This topic provides information about project quotes and sales quotes available in Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

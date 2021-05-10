@@ -5,7 +5,6 @@ title: Expense management mobile workspace
 
 description: This topic provides information about the Expense management mobile workspace. This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later. Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports. 
 author: suvaidya 
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 

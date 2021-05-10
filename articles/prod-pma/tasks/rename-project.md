@@ -4,11 +4,9 @@
 title: Rename or modify a project stage
 description: This task shows how to rename or modify a project stage. 
 author: Yowelle
-manager: AnnBe 
 ms.date: 11/07/2017
 ms.topic: business-process 
 ms.prod:  
-ms.service: dynamics-ax-applications 
 ms.technology:  
  
 # optional metadata 

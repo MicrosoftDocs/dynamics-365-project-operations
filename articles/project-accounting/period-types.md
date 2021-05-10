@@ -2,10 +2,8 @@
 title: Period types
 description: This topic provides information about how to set up period types for revenue estimation.
 author: sigitac
-manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

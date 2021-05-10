@@ -2,10 +2,8 @@
 title: Set up a retainer schedule
 description: This topic provides information about how to set up a retainer schedule in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

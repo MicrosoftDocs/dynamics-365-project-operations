@@ -2,11 +2,9 @@
 title: What's new January 2021 - Project Operations lite deployment
 description: This topic provides information about the quality updates available in the January 2021 release of Project Operations lite deployment.
 author: sigitac
-manager: tfehr
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

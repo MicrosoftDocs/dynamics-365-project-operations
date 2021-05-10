@@ -2,8 +2,6 @@
 title: Create a project
 description: How to create a project in Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/13/2020

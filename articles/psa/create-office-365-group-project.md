@@ -2,8 +2,6 @@
 title: Create an Office 365 Group for a project
 description: How to Create an Office 365 Group in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

@@ -2,8 +2,6 @@
 title: Schedule time off
 description: How to schedule time off in Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

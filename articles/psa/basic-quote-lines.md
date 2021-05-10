@@ -2,8 +2,6 @@
 title: Quotes and quote lines
 description: This topic provides information about quotes and quote lines.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 3/01/2019

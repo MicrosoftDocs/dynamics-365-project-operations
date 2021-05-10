@@ -2,10 +2,8 @@
 title: Edit bookings
 description: This topic provides information about how to update and make changes to bookings. 
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---

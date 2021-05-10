@@ -4,11 +4,9 @@
 title: Define project calendars
 description: This topic provides information about how to apply a calendar template to a project to track the project schedule.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

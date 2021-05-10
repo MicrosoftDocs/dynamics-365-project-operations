@@ -2,8 +2,6 @@
 title: What's new or changed in Project Service Automation Early Access Wave 1 2021, V3
 description: This topic lists the features and fixes that are available in Project Service Automation Early Access Wave 1 2021, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
 ms.topic: article

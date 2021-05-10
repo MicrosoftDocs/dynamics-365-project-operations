@@ -4,10 +4,8 @@
 title: Corrective project-based invoices
 description: This topic provides information about how to create and confirm corrective project-based invoices in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 03/29/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 

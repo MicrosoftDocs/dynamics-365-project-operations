@@ -2,10 +2,8 @@
 title: Manage time zones
 description: When a project is created, its time zone is based upon the time zone defined in the work hour template applied.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---

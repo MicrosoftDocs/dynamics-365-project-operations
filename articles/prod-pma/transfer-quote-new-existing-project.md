@@ -4,11 +4,9 @@
 title: Transfer a quotation to a project
 description: This topic provides information about how to transfer a quotation to a new or existing project.
 author: kfend
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

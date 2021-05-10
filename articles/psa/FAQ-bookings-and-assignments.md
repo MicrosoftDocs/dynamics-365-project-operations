@@ -2,8 +2,6 @@
 title: Resource bookings and how they relate to task assignments
 description: This topic provides information about how to manage named resources, resource bookings and task assignments and how they relate to each other.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 9/27/2019

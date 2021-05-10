@@ -4,11 +4,9 @@
 title: Expense reports and multiple approvers
 description: This topic provides information about expense reports that require approval by more than one person.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

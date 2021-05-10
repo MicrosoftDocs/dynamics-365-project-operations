@@ -4,10 +4,8 @@
 title: Project sales tracking 
 description: This topic provides information about how Project Operations tracks progress against labor revenue on a project.
 author: rumant
-manager: AnnBe
 ms.date: 03/24/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
 ---

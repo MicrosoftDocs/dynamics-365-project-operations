@@ -4,11 +4,9 @@
 title: Deactivate price pists 
 description: This topic explains how to deactivate or remove unsused or old price lists.
 author: rumant
-manager: AnnBe
 ms.date: 03/19/2021
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

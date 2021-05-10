@@ -4,11 +4,9 @@
 title: Project resource scheduling performance
 description: This topic provides information about how to improve the performance of resource scheduling for a large number of projects.
 author: Yowelle
-manager: AnnBe
 ms.date: 08/31/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

@@ -3,10 +3,8 @@
 title: Create a work breakdown structure 
 description: This topic explains how to create a work breakdown structure (WBS) inclusive of the basic controls in the new scheduling interface.
 author:  ruhercul
-manager: tfehr 
 ms.date: 01/07/2021  
 ms.topic: article 
-ms.service: project-operations 
 ms.reviewer: kfend 
 ms.author: ruhercul
 --- 

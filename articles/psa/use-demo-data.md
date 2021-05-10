@@ -2,8 +2,6 @@
 title: Experiment with demo data
 description: How to download and experiment with demo data for Project Service Automation.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

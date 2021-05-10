@@ -4,11 +4,9 @@
 title: Dynamics 365 Project Operations 
 description: This topic provides information about Dynamics 365 Project operations.
 author: stsporen
-manager: AnnBe
 ms.date: 09/16/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

@@ -4,11 +4,9 @@
 title: Review proposed resources
 description: This topic provides information about how to propose project resources.
 author: ruhercul
-manager: AnnBe
 ms.date: 11/05/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

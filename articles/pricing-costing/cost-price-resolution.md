@@ -2,10 +2,8 @@
 title: Resolving cost prices for estimates and actuals
 description: This topic provides information about how cost prices for estimates and actuals are resolved.
 author: rumant
-manager: Annbe
 ms.date: 04/09/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

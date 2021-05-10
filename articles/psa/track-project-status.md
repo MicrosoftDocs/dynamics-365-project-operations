@@ -2,8 +2,6 @@
 title: Track a project’s status
 description: How to track a project’s status in Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

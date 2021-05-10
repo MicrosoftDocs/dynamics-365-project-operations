@@ -2,10 +2,8 @@
 title: Record material usage on projects and project tasks
 description: This topic provides information about how to log material usage against projects and project tasks.
 author: rumant
-manager: AnnBe
 ms.date: 03/31/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
 ---
