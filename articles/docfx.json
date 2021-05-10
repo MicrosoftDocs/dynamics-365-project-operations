@@ -46,7 +46,11 @@
       "feedback_product_url": "https://experience.dynamics.com/ideas/categories/?forum=3f5f410a-0bfd-ea11-a815-000d3a9b112e&forumName=Dynamics%20365%20Project%20Operations",
       "recommendations": "true"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+        "ms.service": {
+            "**.md": "dynamics-365-project-operations"
+        }
+    },
     "template": [],
     "dest": "dynamics-365-project-operations",
     "markdownEngineName": "markdig"
