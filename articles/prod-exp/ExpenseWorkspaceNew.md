@@ -4,11 +4,9 @@
 title: Redesigned expense reports 
 description: This topic provides information about the redesigned and reimagined experience for expense report entry.
 author: ryansandness
-manager: AnnBe
 ms.date: 06/14/2019
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

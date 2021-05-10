@@ -4,10 +4,8 @@
 title: Copy a project
 description: This topic provides information about copying projects in Dynamics 365 Project Operations. 
 author: ruhercul
-manager: AnnBe
 ms.date: 02/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---

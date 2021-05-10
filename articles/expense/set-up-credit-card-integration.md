@@ -4,11 +4,9 @@
 title: Set up credit card integration
 description: This topic explains how to work with expense-related credit card transactions.
 author: suvaidya
-manager: AnnBe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

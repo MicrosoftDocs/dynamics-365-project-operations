@@ -4,11 +4,9 @@
 title: Set up custom fields as pricing dimensions
 description: This topic provides information about how to set up pricing dimensions using custom fields. 
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

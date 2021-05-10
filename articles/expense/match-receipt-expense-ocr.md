@@ -4,11 +4,9 @@
 title: Capture a receipt using OCR
 description: This topic provides information about optical character recognition (OCR) processing for receipts.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

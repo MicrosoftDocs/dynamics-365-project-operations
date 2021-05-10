@@ -2,10 +2,8 @@
 title: Project contract settings
 description: This topic provides information about the fields that impact contract lines and the information about the contract that is summarized to across all the line items.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

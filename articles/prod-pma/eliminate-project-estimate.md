@@ -4,11 +4,9 @@
 title: Eliminate a project estimate
 description: This topic provides information about eliminating a project estimate after it is complete. 
 author: Yowelle
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

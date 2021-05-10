@@ -2,10 +2,8 @@
 title: Set up cost and sales rates for materials
 description: This topic provides information about how to set up the cost and sales rates for materials used on projects. 
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---
@@ -22,6 +20,6 @@ To set up cost and sales rates for products, complete the following steps.
 2. On the **Price list items**, on the subgrid menu, select **New price list item**. 
 3. On the **Quick Create** page, enter the product and unit that you are creating the new price for.
 
-For more information about how to define prices for catalog items, see [Setup pricing for products](https://docs.microsoft.com/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](https://docs.microsoft.com/dynamics365/sales-enterprise/decimal-precision-currency-pricing).
+For more information about how to define prices for catalog items, see [Setup pricing for products](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) and [Decimal precision in currency and pricing](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

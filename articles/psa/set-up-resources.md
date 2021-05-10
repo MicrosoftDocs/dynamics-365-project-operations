@@ -2,8 +2,6 @@
 title: Set up resources
 description: How to set up resources in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

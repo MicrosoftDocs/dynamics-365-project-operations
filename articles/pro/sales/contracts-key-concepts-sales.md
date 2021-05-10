@@ -2,10 +2,8 @@
 title: Project contracts - Key concepts - lite
 description: This topic provides information about the key concepts of project contracts.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

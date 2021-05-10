@@ -2,11 +2,9 @@
 title: Project Operations updates
 description: This topic provides information about the released versions of Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---
@@ -33,9 +31,9 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
 | --- | --- |
-| 4.9.0.221 | 10.0.17 |
+| 4.10.0.186 | 10.0.18 |
 
-For Project Operations Resource/non-stocked scenario, we recommend to use Dual Write Orchestration version 2.2.2.50 or higher.
+For Project Operations Resource/non-stocked scenario, we recommend to use Dual Write Orchestration version 2.2.2.60 or higher.
 
 ## Release schedule for Project Operations on Dataverse environment
 
@@ -44,23 +42,23 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station   | Region        | Current version | Next version | Generally available |
 |-----------|---------------|-----------------|--------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | First Release |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | First Release |  4.10.0.186       | TBD     | 28-May-21           |
 | Station 2 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |
-|   &nbsp;  | South America |  4.9.0.221       | TBD     | 30-Apr-21           |
-|    &nbsp; | Canada        |  4.9.0.221       | TBD     | 30-Apr-21           |
-|   &nbsp;  | India         |  4.9.0.221       | TBD     | 30-Apr-21           |
-|   &nbsp;  | France         |  4.9.0.221       | TBD     | 30-Apr-21           |
-|   &nbsp;  | United Arab Emirates         |  4.9.0.221       | TBD     | 30-Apr-21           |
-|   &nbsp;  | South Africa         |  4.9.0.221       | TBD     | 30-Apr-21           |
+|   &nbsp;  | South America |  4.10.0.186       | TBD     | 28-May-21           |
+|    &nbsp; | Canada        |  4.10.0.186       | TBD     | 28-May-21           |
+|   &nbsp;  | India         |  4.10.0.186       | TBD     | 28-May-21           |
+|   &nbsp;  | France         |  4.10.0.186       | TBD     | 28-May-21           |
+|   &nbsp;  | United Arab Emirates         |  4.10.0.186       | TBD     | 28-May-21           |
+|   &nbsp;  | South Africa         |  4.10.0.186       | TBD     | 28-May-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.9.0.221       | TBD     | 07-May-21           |
-|   &nbsp;  | Asia Pacific  |  4.9.0.221       | TBD     | 07-May-21           |
-|   &nbsp;  | Great Britain |  4.9.0.221       | TBD     | 07-May-21           |
-|   &nbsp;  | Oceania       |  4.9.0.221       | TBD     | 07-May-21           |
+|   &nbsp;  | Japan         |  4.9.0.221       | 4.10.0.186     | 14-May-21           |
+|   &nbsp;  | Asia Pacific  |  4.9.0.221       | 4.10.0.186     | 14-May-21           |
+|   &nbsp;  | Great Britain |  4.9.0.221       | 4.10.0.186     | 14-May-21           |
+|   &nbsp;  | Oceania       |  4.9.0.221       | 4.10.0.186     | 14-May-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        |  4.9.0.221       | TBD     | 14-May-21           |
+|   &nbsp;  | Europe        |  4.9.0.221       | 4.10.0.186     | 21-May-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | North America |  4.9.0.221       | TBD     | 21-May-21           |
+|   &nbsp;  | North America |  4.9.0.221       | 4.10.0.186     | 28-May-21           |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
@@ -70,8 +68,6 @@ Updates for Project management and accounting are released eight times a year.
 | --- | --- |
 | 10.0.18 | April 16, 2021 |
 | 10.0.17 | March 19, 2021 |
-| 10.0.16 | January 22, 2021 |
-
 
 Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 

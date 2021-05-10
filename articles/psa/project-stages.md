@@ -2,8 +2,6 @@
 title: Project stage types
 description: This topic provides information about project stages.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 06/19/2020

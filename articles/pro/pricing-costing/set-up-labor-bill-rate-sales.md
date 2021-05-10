@@ -2,10 +2,8 @@
 title: Set up labor bill rates - lite
 description: This topic provides information about setting up labor billing rates in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

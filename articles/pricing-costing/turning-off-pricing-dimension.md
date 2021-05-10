@@ -4,11 +4,9 @@
 title: Turning off a pricing dimension
 description: This topic provides information about how to turn off pricing dimensions.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

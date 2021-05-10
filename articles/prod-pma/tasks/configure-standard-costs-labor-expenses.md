@@ -4,11 +4,9 @@
 title: Configure standard costs for labor and expenses
 description: This topic explains how to set up standard costs for labor and expenses for a project. 
 author: Yowelle
-manager: AnnBe 
 ms.date: 08/02/2019
 ms.topic: business-process 
 ms.prod:  
-ms.service: dynamics-ax-applications 
 ms.technology:  
  
 # optional metadata 

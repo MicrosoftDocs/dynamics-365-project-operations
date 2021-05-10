@@ -2,8 +2,6 @@
 title: Basic Guide to Quoting, Pricing, and Billing
 description: This topic provides links to information about basic quoting, pricing, and billing in Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 2/14/2019

@@ -2,8 +2,6 @@
 title: View and edit project estimates
 description: How to view and edit project estimates in Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

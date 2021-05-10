@@ -2,8 +2,6 @@
 title: Propose project resources
 description: This topic provides information about proposing project resources.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/28/2019

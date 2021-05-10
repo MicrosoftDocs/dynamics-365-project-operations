@@ -4,11 +4,9 @@
 title: Expense reports reimagined
 description: This topic explains the redesigned and reimagined experience for expense report entry.
 author: suvaidya
-manager: AnnBe
 ms.date: 03/26/2021
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

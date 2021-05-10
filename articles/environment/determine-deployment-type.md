@@ -2,10 +2,8 @@
 title: Determine your deployment type
 description: This topic provides information to help you determine the correct deployment type of Project operations for your company.
 author: stsporen
-manager: Annbe
 ms.date: 03/15/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: stsporen
 ---

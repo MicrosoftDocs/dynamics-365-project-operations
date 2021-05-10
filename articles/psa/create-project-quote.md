@@ -2,8 +2,6 @@
 title: Create a project quote
 description: How to create a project quote in Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

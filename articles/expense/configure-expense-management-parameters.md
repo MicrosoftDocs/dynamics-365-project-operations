@@ -2,10 +2,8 @@
 title: Configure Expense management parameters
 description: This topic describes the parameters that control the general behavior in Expense management.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: suvaidya
 ---

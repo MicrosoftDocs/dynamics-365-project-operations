@@ -4,11 +4,9 @@
 title: Create a credit note on project invoices
 description: This process shows how to create a credit note on project invoices that have been posted.
 author: Yowelle
-manager: AnnBe 
 ms.date: 11/01/2017
 ms.topic: business-process 
 ms.prod:  
-ms.service: dynamics-ax-applications 
 ms.technology:  
  
 # optional metadata 

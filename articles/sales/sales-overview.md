@@ -2,10 +2,8 @@
 title: Sales process overview
 description: This topic provides information about basic sales processes.  
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
 ---

@@ -2,10 +2,8 @@
 title: Confirm a project contract
 description: This topic provides information how to confirm a contract in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

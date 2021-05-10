@@ -5,7 +5,6 @@ ms.custom: dyn365-projectservice
 ms.date: 12/07/2020
 ms.reviewer: kfend
 ms.prod:
-ms.service: project-operations
 ms.suite: ""
 #
 ms.tgt_pltfrm: ""
@@ -16,7 +15,6 @@ author: kfend
 ms.assetid: 
 caps.latest.revision: 42
 ms.author: rumant
-manager: annbe
 search.audienceType: 
   - admin
   - customizer

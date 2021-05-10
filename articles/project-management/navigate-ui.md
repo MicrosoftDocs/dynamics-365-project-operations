@@ -4,10 +4,8 @@
 title: Navigating the user interface
 description: This topic provides information about Project management in Dynamics 365 Project operations. 
 author: ruhercul
-manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
 

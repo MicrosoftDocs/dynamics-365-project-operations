@@ -2,11 +2,9 @@
 title: Link actuals to original records
 description: This topic explains how to link actuals to original records such as time entry, expense entry, or material usage logs.
 author: rumant
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

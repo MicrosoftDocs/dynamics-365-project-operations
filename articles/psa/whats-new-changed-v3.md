@@ -1,8 +1,6 @@
 ---
 title: What's new or changed in Project Service Automation version 3
 description: This topic provides information about what is new and changed in Project Service Automation version 3.
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 11/28/2018

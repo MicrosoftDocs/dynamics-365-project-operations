@@ -2,11 +2,9 @@
 title: Project Operations setup and configuration data integration
 description: This topic provides information about setting up and configuring Project Operations dual-write maps. 
 author: sigitac
-manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod:
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: sigitac
 ---

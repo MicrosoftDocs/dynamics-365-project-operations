@@ -4,11 +4,9 @@
 title: Product price lists
 description: This topic provides information about the price lists in catalog pricing used for project quotes and contracts. 
 author: rumant
-manager: AnnBe
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

@@ -2,8 +2,6 @@
 title: Project progress and cost consumption
 description: This topic provides information about tracking project progress and cost consumption.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 08/21/2020

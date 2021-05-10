@@ -2,8 +2,6 @@
 title: Set up time units
 description: How to set up time units in Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

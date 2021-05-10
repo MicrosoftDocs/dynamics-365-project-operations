@@ -3,10 +3,8 @@
 title: Create a solution for custom pricing dimensions 
 description:  This topic provides information about how to create solutions for custom pricing dimensions.
 author: Rumant
-manager: tfehr 
 ms.date: 11/09/2020  
 ms.topic: article 
-ms.service: project-operations 
 ms.reviewer: kfend 
 ms.author: rumant 
 --- 

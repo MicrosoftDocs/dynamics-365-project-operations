@@ -4,11 +4,9 @@
 title: Currency
 description: This topic provides information about how to add and remove currency types in Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: 
-ms.service: project-operations
 #
 
 # optional metadata

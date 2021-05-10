@@ -4,11 +4,9 @@
 title: Project invoice proposal performance
 description: This topic provides information about performance improvements to project invoice proposals.
 author: Yowelle
-manager: AnnBe
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

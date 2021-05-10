@@ -2,8 +2,6 @@
 title: Add resource roles
 description: How to assign a role to Project Service resources
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 7/31/2018

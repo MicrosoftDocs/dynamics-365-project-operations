@@ -2,8 +2,6 @@
 title: Manage resources
 description: This topic provides information about how you can manage resources.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 05/13/2019

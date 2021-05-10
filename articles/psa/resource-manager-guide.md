@@ -2,8 +2,6 @@
 title: Resource manager guide
 description: A guide to resource management in Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018

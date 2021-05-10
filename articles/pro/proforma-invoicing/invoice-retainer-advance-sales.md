@@ -2,10 +2,8 @@
 title: Invoice a retainer or an advance
 description: This topic provides information about how to invoice a retainer or an advance in Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

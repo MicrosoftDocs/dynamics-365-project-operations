@@ -2,10 +2,8 @@
 title: Resolve sales prices for estimates and actuals
 description: This topic provides information about how to resolve sales rates for estimates and actuals.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: rumant
 ---

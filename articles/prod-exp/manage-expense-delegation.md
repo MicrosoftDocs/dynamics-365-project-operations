@@ -4,11 +4,9 @@
 title: Manage expense delegation
 description: An expense delegate user can create and manage expense reports for another employee in the organization.
 author: KimANelson
-manager: AnnBe
 ms.date: 01/10/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

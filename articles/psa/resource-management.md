@@ -2,8 +2,6 @@
 title: Resourcing projects home page
 description: This topic provides information about resource management capabilities in Project Service Automation (PSA) for Dynamics 365.
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 11/28/2018

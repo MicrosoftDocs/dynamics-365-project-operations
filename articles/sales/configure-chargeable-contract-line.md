@@ -2,10 +2,8 @@
 title: Configure chargeable components of a project contract line
 description: This topic provides information about included, chargeable, and non-chargeable components on contract lines.
 author: rumant
-manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: stsporen
 ---

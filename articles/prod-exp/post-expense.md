@@ -4,11 +4,9 @@
 title: Post an expense report
 description: This topic explains how to post an expense report to the general ledger.
 author: saraschi2
-manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

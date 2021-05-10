@@ -4,11 +4,9 @@
 title: Project grants
 description: This topic explains how to create or modify a grant. 
 author: RadhikaRS
-manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
 ms.technology: 
 
 # optional metadata

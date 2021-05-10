@@ -2,8 +2,6 @@
 title: Configure expense categories
 description: How to configure expense categories in Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
