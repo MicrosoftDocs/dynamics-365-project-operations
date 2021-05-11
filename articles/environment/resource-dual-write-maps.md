@@ -33,7 +33,7 @@ The following maps are required prerequisites for the Project Operations solutio
 
 ## Project Operations dual-write maps
 
-The following maps are required for a Project Operations solution.
+The following maps are required for a Project Operations solution. Dual write map versions are listed as of Project Operations May 2021 update, version 4.10.0.186.
 
 | **Entity map** | **Latest version** | **Initial sync** |
 | --- | --- | --- |
