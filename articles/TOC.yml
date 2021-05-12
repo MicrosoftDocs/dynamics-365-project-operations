@@ -52,6 +52,8 @@
         href: environment/resource-dual-write-vendor-invoice.md  
   - name: What's new 
     items:
+    - name: May 2021 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-may-2021-resource-based.md
     - name: April 2021 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-apr-2021-resource-based.md
     - name: March 2021 - Project Operations for resource/non-stocked based scenarios
