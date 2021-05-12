@@ -22,7 +22,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
 The following features are included in this release:
 
-- [Scheduling modes](../project-operations/project-management/scheduling-modes.md):  Project managers can define whether a project should be managed using the fixed duration, fixed work, or fixed units scheduling mode.
+- [Scheduling modes](../project-management/scheduling-modes.md):  Project managers can define whether a project should be managed using the fixed duration, fixed work, or fixed units scheduling mode.
 
 ## Project Operations dual-write maps updates
 
@@ -47,7 +47,7 @@ If you encounter an issue with starting the map, follow the instructions in the 
 | --- | --- | --- |
 | Billing and Pricing | 2227635 | The values in the **Unit group** and **Unit** fields default from the product in the **Material Estimates** grid. |
 | Billing and Pricing | 2234127 | The **Task ID** field now correctly integrates to Dataverse project actuals when a vendor invoice is posted. |
-| Billing and Pricing | 2235564 | aving the journal line ensures that the currency displayed in the journal line entry matches the default currency to the line after saving. |
+| Billing and Pricing | 2235564 | Saving the journal line ensures that the currency displayed in the journal line entry matches the default currency to the line after saving. |
 | Billing and Pricing | 2246671 | Making a transaction non-chargeable during invoicing reverses the original unbilled sales record and creates a new unbilled sales record as non-chargeable. |
 | Billing and Pricing | 2264042 | Valid invoice correction must not be blocked if there is an invoice correction detail that isn't valid in the environment. |
 | Billing and Pricing | 2146367 | Project invoice header dual-write mapping is extended to include payment terms. |
