@@ -51,10 +51,10 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | United Arab Emirates         |  4.10.0.186       | TBD     | 28-May-21           |
 |   &nbsp;  | South Africa         |  4.10.0.186       | TBD     | 28-May-21           |
 | Station 3  |      &nbsp;   |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Japan         |  4.9.0.221       | 4.10.0.186     | 14-May-21           |
-|   &nbsp;  | Asia Pacific  |  4.9.0.221       | 4.10.0.186     | 14-May-21           |
-|   &nbsp;  | Great Britain |  4.9.0.221       | 4.10.0.186     | 14-May-21           |
-|   &nbsp;  | Oceania       |  4.9.0.221       | 4.10.0.186     | 14-May-21           |
+|   &nbsp;  | Japan         |  4.10.0.186       | TBD     | 04-June-21           |
+|   &nbsp;  | Asia Pacific  |  4.10.0.186       | TBD     | 04-June-21           |
+|   &nbsp;  | Great Britain |  4.10.0.186       | TBD     | 04-June-21           |
+|   &nbsp;  | Oceania       |  4.10.0.186       | TBD     | 04-June-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | Europe        |  4.9.0.221       | 4.10.0.186     | 21-May-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
