@@ -21,7 +21,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
 The following features are included in this release:
 
-- [Scheduling modes](../../project-operations/project-management/scheduling-modes.md): Project managers can now define if a project should be managed using a fixed duration, fixed work, or fixed units scheduling mode.
+- [Scheduling modes](../../project-management/scheduling-modes.md): Project managers can now define if a project should be managed using a fixed duration, fixed work, or fixed units scheduling mode.
 
 ## Quality updates
 
