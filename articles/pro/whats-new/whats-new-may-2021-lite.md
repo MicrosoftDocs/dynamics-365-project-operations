@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _Applies To: Lite deployment - deal to proforma invoicing_
 
-This article applies to the following Dynamics 365 Project Operations components and versions:
+This topic applies to the following Dynamics 365 Project Operations components and versions:
 
    - Project Operations on Dataverse environment version 4.10.0.186.
 
@@ -43,6 +43,6 @@ The following features are included in this release:
 | Planning and Tracking | 2186541 | Fixed issues in the **Estimates** grid when grouping by **Resource**. |
 | Planning and Tracking | 2166906 | The transaction category from a task must be copied to the **Resource assignment** entity. |
 | Resource Management | 2125362 | Fixed issues with creating a generic team member using the hours-based allocation method. |
-| Time and Expense | 2113603 | Fixed customization-related issue with removing attributes from the **Time entry** page. The sytems checks if the attribute exists on the page before accessing them by using a script. |
+| Time and Expense | 2113603 | Fixed customization-related issue with removing attributes from the **Time entry** page. The system checks if the attribute exists on the page before accessing the attribute by using a script. |
 | Time and Expense | 2204377 | Copied timesheets must show automatically when you select **Copy Week**. |
 | Time and Expense | 2209059 | The **Status** field is editable for Dynamics 365 Field Service time entries. |
