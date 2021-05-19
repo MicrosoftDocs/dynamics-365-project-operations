@@ -8,7 +8,7 @@ ms.reviewer: kfend
 ms.author: suvaidya
 ---
 
-# Set up Mileage
+# Set up Mileage using Mileage Rate Tiers
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -21,10 +21,7 @@ In  the Dynamics 365 Finance version 10.0.18 (PU42) the design of Mileage tier s
 The difference between old and the new design of Mileage rate tiers is in Quantity field processing. 
 Before 10.0.18 the Quantity field was considered as *lower limit* - when accumulation crosses that Quantity – the corresponding rate was used. 
 
-From 10.0.18 onwards, the Quantity field is considered as the *upper limit* – and corresponding rate is used when mileage accumulation is lesser than that defined in the Quantity field.  The new model for mileage tiers helps with consistency across mileage tiers and better usability.  
-
-It is necessary to setup new tiers after upgrading to 10.0.18 to reflect new design of Mileage tiers setup. 
-We recommend testing the setup first in UAT/TEST environment and validating the results. 
+From 10.0.18 onwards, the Quantity field is considered as the *upper limit* – and corresponding rate is used when mileage accumulation is lesser than that defined in the Quantity field.  The new model for mileage tiers helps with consistency across mileage tiers and better usability.   
 
 All approved expense reports will be recalculated during posting according to the new design.
 
@@ -42,8 +39,10 @@ If any employee exceeds total quantity of miles/kilometers 999 999 999.00 - syst
   
 Expense report after posting with 2 lines - 1000 (rate 0.45) +  500 (rate 0.25) = 575
 
+## Enabling the new design
 
-
-
+The **Mileage amount calculation for multiple mileage tiers with same rate** feature addresses key bug fixes and improvements for mileage rate calculation. 
+To enable this feature, go to **Workspaces > Feature Management**, select **Mileage amount calculation for multiple mileage tiers with same rate**, and then select **Enable now**.
+It is necessary to setup the new tiers after upgrading to 10.0.18 to reflect new design of Mileage tiers setup. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
