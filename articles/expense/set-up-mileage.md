@@ -16,7 +16,7 @@ When the employee reports expenses with "mileage" expense category, the amount f
 
 In  the Dynamics 365 Finance version 10.0.18 (PU42) the design of Mileage tier setup has been modified to better reflect customer needs . Below you find explanation of old design and new design and recommendations to proceed once you upgrade customer database to 10.0.18 version. 
 
-** Setting up Mileage rate Tiers** 
+**Setting up Mileage rate Tiers** 
 
 The difference between old and the new design of Mileage rate tiers is in Quantity field processing. 
 Before 10.0.18 the Quantity field was considered as *lower limit* - when accumulation crosses that Quantity – the corresponding rate was used. 
