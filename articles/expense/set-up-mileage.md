@@ -42,7 +42,8 @@ Expense report after posting with 2 lines - 1000 (rate 0.45) +  500 (rate 0.25) 
 
 ## Enabling the new design
 
-The **Mileage amount calculation for multiple mileage tiers with same rate** feature addresses key bug fixes and improvements for mileage rate calculation. 
+The **Mileage amount calculation for multiple mileage tiers with same rate** feature addresses key bug fixes and improvements for mileage rate calculation [refer KB: 4580513]
+
 To enable this feature, go to **Workspaces > Feature Management**, select **Mileage amount calculation for multiple mileage tiers with same rate**, and then select **Enable now**.
 It is necessary to setup the new tiers after upgrading to 10.0.18 to reflect new design of Mileage tiers setup. 
 
