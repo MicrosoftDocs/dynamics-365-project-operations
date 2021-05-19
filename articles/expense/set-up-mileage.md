@@ -1,6 +1,6 @@
 ---
-title: Set up expense categories
-description: This topic provides information about how to set up expense categories and shared categories for expense reports.
+title: Setting up mileage using mileage rate tiers
+description: This topic provides information about mileage rates and mileage rate tiers.
 author: suvaidya
 ms.date: 05/18/2021
 ms.topic: article
@@ -8,43 +8,45 @@ ms.reviewer: kfend
 ms.author: suvaidya
 ---
 
-# Set up Mileage using Mileage Rate Tiers
+# Setting up mileage using mileage rate tiers
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-When the employee reports expenses with "mileage" expense category, the amount for that expense line is calculated according to the “rate per mileage” amount.  The “rate per mileage” is determined using mileage tiers setup or standard rate of mileage when the mileage rate tiers are not defined. 
+When an expense is reported and the selected expense category is **Mileage**, the amount for that expense line is calculated according to the *rate per mileage* amount. This amount is determined by using defined mileage tiers or, if no mileage rate tiers are setup, by following a standard rate of mileage. 
 
-Mileage Rate tiers can be set up from **Expense Management >Setup >General >Expense Categories >Mileage >Category SetUp**
+Mileage rate tiers can be set up by going to, **Expense Management** > **Setup** > **General** > **Expense categories** > **Mileage** > **Category setup**.
 
-In  the Dynamics 365 Finance version 10.0.18 (PU42) the design of Mileage tier setup has been modified to better reflect customer needs . Please review recommendations to proceed once you upgrade to 10.0.18 (PU 42) version. 
+In version 10.0.18 of Dynamics 365 Finance, mileage rate tier setup has been updated for a better experience. After you upgrade to 10.0.18, review the recommendations to proceed.
 
-**Setting up Mileage rate Tiers** 
-
-The difference between old and the new design of Mileage rate tiers is in Quantity field processing. 
-Before 10.0.18 the Quantity field was considered as *lower limit* - when accumulation crosses that Quantity – the corresponding rate was used. 
-
-From 10.0.18 onwards, the Quantity field is considered as the *upper limit* – and corresponding rate is used when mileage accumulation is lesser than that defined in the Quantity field.  The new model for mileage tiers helps with consistency across mileage tiers and better usability.   
+The new design of mileage rate tiers impacts how the value in the **Quantity** field is processed. Prior to the release of 10.0.18, the value in the **Quantity** field was considered to be the lower limit. When accumulation crossed that value, the corresponding rate was used.  As of 10.0.18, the value in the **Quantity** field is considered the upper limit. The corresponding rate is used when mileage accumulation is less than the value in the **Quantity** field.  The new model for mileage tiers helps with consistency across mileage tiers and better usability.   
 
 All approved expense reports will be recalculated during posting according to the new design.
 
-## Example below 
+## Example
  
-The Quantity field represents lower limit of mileage. If accumulated miles/kilometers for a user crosses quantity in the field - the related rate is used. If there's no line with Zero quantity - system will use 'Standard rate of mileage' from Expense management setup. 
+### Prior to 10.0.18
+The **Quantity** field represents the lower mileage limit and currently has a value of zero (0). If a user's accumulated miles or kilometers crosses the value in the field, the related rate is used. If there's no line with zero quantity, the system uses the standard rate of mileage that is defined in Expense management. 
  
-Expense report after posting with 2 lines - 1000 (rate 0.45) +  500 (rate 0.25) = 575
+After the expense report is posted, the two mileage lines would be: 1000 (rate 0.45) +  500 (rate 0.25) = 575
 
-In 10.0.18 ,the Quantity field represents the upper limit of the tier. If all upper limits are exceeded, system will use 'Standard rate of mileage setup' from Expense management parameters. 
+### After 10.0.18
+In 10.0.18, the **Quantity** field represents the upper limit of the tier. If all upper limits are exceeded, the system uses the standard rate of mileage that is defined in Expense management. 
  
-To correctly calculate the same scenario, the tier set up needs to change as below: 
-If any employee exceeds total quantity of miles/kilometers 999 999 999.00 - system will use rate from 'Standard rate of mileage' from Expense management parameters. 
+To correctly calculate the same scenario, the tier set up must be changed. If an employee exceeds the total quantity of miles or kilometers (999,999,999.00), the system will use rate from 'Standard rate of mileage' from Expense management parameters. 
   
 Expense report after posting with 2 lines - 1000 (rate 0.45) +  500 (rate 0.25) = 575
 
-## Enabling the new design
+## Enable the new feature
+
+The **Mileage amount calculation for multiple mileage tiers with same rate** feature addresses fixes and improvements for mileage rate calculation. Complete the following steps to enable this feature.
+
+1. Go to **Workspaces** > **Feature Management**. 
+2. In the list, locate and select **Mileage amount calculation for multiple mileage tiers with same rate**, and then select **Enable now**.
+
+Set up the new tiers after you upgrade to 10.0.18 to reflect the new design of the mileage tiers setup. 
 
 The **Mileage amount calculation for multiple mileage tiers with same rate** feature addresses key bug fixes and improvements for mileage rate calculation [refer KB: 4580513]
 
-To enable this feature, go to **Workspaces > Feature Management**, select **Mileage amount calculation for multiple mileage tiers with same rate**, and then select **Enable now**.
-It is necessary to setup the new tiers after upgrading to 10.0.18 to reflect new design of Mileage tiers setup. 
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
