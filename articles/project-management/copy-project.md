@@ -16,7 +16,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. To copy a project, open the project you want to copy, and then select **Copy project**. The action will copy:
 
-- Project properties (The estimated start date is copied from the source project)
+- Project properties 
 - The Work breakdown structure
 - Project team members
 - Project estimates
@@ -37,7 +37,7 @@ When the project is copied, the values in the following fields are copied:
 - Overall Project Status
 - Comments
 - Estimates
-- Estimated Start Date
+- Estimated Start Date - This field is refactored to current date on the target project
 - Finish Date
 - Effort (Hours)
 - Estimated Labor Cost
