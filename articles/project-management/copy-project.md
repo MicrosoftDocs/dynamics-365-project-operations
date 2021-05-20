@@ -39,7 +39,7 @@ When the project is copied, the values in the following fields are copied:
 - Comments
 - Estimates
 - Estimated Start Date - This field is refactored to current date on the target project
-- Finish Date
+- Estimated Finish Date - This field is refactored based on the refactored start date of the target project
 - Effort (Hours)
 - Estimated Labor Cost
 - Estimated Expense Cost
