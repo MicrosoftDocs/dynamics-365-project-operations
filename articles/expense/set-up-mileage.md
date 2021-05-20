@@ -16,7 +16,7 @@ When an expense is reported and the selected expense category is **Mileage**, th
 
 Mileage rate tiers can be set up by going to **Expense Management** > **Setup** > **General** > **Expense categories** > **Mileage** > **Category setup**.
 
-In version 10.0.18 of Dynamics 365 Finance, mileage rate tier setup has been updated for a better experience. After you upgrade to 10.0.18, review the recommendations to proceed.
+*After you upgrade to 10.0.18, if your Organization uses mileage expense category, please consider enabling the mileage feature after reviewing the design changes below.* 
 
 The new design of mileage rate tiers impacts how the value in the **Quantity** field is processed. Prior to the release of 10.0.18, the value in the **Quantity** field was considered to be the lower limit. When accumulation crossed that value, the corresponding rate was used.  As of 10.0.18, the value in the **Quantity** field is considered the upper limit. The corresponding rate is used when mileage accumulation is less than the value in the **Quantity** field.  The new model for mileage tiers helps with consistency across mileage tiers and better usability.   
 
@@ -43,7 +43,7 @@ The **Mileage amount calculation for multiple mileage tiers with same rate** fea
 1. Go to **Workspaces** > **Feature Management**. 
 2. In the list, locate and select **Mileage amount calculation for multiple mileage tiers with same rate**, and then select **Enable now**.
 
-Set up the new tiers after you upgrade to 10.0.18 to reflect the new design of the mileage tiers setup. 
+After enabling the feature, you will need to reset the mileage tiers as per the new design to reflect the quantity field accordingly. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
