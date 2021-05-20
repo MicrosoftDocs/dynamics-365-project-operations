@@ -25,16 +25,16 @@ All approved expense reports will be recalculated during posting according to th
 ## Example
  
 ### Prior to 10.0.18
-The **Quantity** field represents the lower mileage limit and currently has a value of zero (0). If a user's accumulated miles or kilometers crosses the value in the field, the related rate is used. If there's no line with zero quantity, the system uses the standard rate of mileage that is defined in Expense management. 
+With two mileage rate tiers, the **Quantity** field in each tier represents the lower mileage limit. Currently, tier one has a value of zero (0) and a standard rate of 0.45, and tier two has a value of 1000 and a standard rate of 0.25. If a user's accumulated miles or kilometers crosses the value in the field, the related rate is used. If there's no line with zero quantity, the system uses the standard rate of mileage that is defined in Expense management. 
  
-After the expense report is posted, the two mileage lines would be: 1000 (rate 0.45) +  500 (rate 0.25) = 575
+If an employee submits an expense report with 1,500 miles, the two mileage lines on the posted expense report would be: 1000 (rate 0.45) +  500 (rate 0.25) = 575.00.
 
 ### After 10.0.18
-In 10.0.18, the **Quantity** field represents the upper limit of the tier. If all upper limits are exceeded, the system uses the standard rate of mileage that is defined in Expense management. 
+In 10.0.18, the **Quantity** field in each tier represents the upper limit of the tier. Currently, tier one has a value of 999 and a standard rate of 0.45, and tier two has a value of 999,999,999.00 and a standard rate of 0.25. If a user's accumulated miles or kilometers crosses the value in the **Quantity** field, the related rate is used. If all upper limits are exceeded, the system uses the standard rate of mileage that is defined in Expense management. 
  
-To correctly calculate the same scenario, the tier set up must be changed. If an employee exceeds the total quantity of miles or kilometers (999,999,999.00), the system will use rate from 'Standard rate of mileage' from Expense management parameters. 
+To correctly calculate the same scenario, the tier set up must be changed. The **Quantity** field in tier one has a value of 999.00 and a value of 999,999,999.00 in tier two. If an employee exceeds the total quantity of miles or kilometers in tier one, the system will use rate from 'Standard rate of mileage' from Expense management parameters. 
   
-Expense report after posting with 2 lines - 1000 (rate 0.45) +  500 (rate 0.25) = 575
+If an employee submits an expense report with 1,500 miles, the two mileage lines on the posted expense report would be: 1000 (rate 0.45) +  500 (rate 0.25) = 575
 
 ## Enable the new feature
 
