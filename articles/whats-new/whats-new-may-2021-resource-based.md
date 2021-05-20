@@ -23,6 +23,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 The following features are included in this release:
 
 - [Scheduling modes](../project-management/scheduling-modes.md):  Project managers can define whether a project should be managed using the fixed duration, fixed work, or fixed units scheduling mode.
+- [Set up mileage using mileage rate tiers](../expense/set-up-mileage.md): Update mileage rate tiers for employee expense reports.
 
 ## Project Operations dual-write maps updates
 
