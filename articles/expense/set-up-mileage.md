@@ -1,14 +1,14 @@
 ---
-title: Setting up mileage using mileage rate tiers
+title: Set up mileage using mileage rate tiers
 description: This topic provides information about mileage rates and mileage rate tiers.
 author: suvaidya
-ms.date: 05/18/2021
+ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: suvaidya
 ---
 
-# Setting up mileage using mileage rate tiers
+# Set up mileage using mileage rate tiers
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -44,8 +44,6 @@ The **Mileage amount calculation for multiple mileage tiers with same rate** fea
 2. In the list, locate and select **Mileage amount calculation for multiple mileage tiers with same rate**, and then select **Enable now**.
 
 Set up the new tiers after you upgrade to 10.0.18 to reflect the new design of the mileage tiers setup. 
-
-The **Mileage amount calculation for multiple mileage tiers with same rate** feature addresses key bug fixes and improvements for mileage rate calculation [refer KB: 4580513]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
