@@ -4,7 +4,7 @@
 title: Copy a project
 description: This topic provides information about copying projects in Dynamics 365 Project Operations. 
 author: ruhercul
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -38,14 +38,15 @@ When the project is copied, the values in the following fields are copied:
 - Overall Project Status
 - Comments
 - Estimates
-- Estimated Start Date - This field is refactored to current date on the target project
-- Estimated Finish Date - This field is refactored based on the refactored start date of the target project
+- Estimated Start Date: This is the date that the project is created from the copy.
+- Estimated Finish Date: This date is adjusted based on the start date of the new project that was made from the copy.
 - Effort (Hours)
 - Estimated Labor Cost
 - Estimated Expense Cost
 - Estimated Material Cost
 
-Note: Copy Project is a long running operation. Project record along with relevant attributes and many related entities are also copied. Given the long running nature of the operation, once copy is initiated, the target project page is locked for any further edits until the copy operation is completed.
+> [!NOTE]
+> Copy project is a long running operation. Project records, their relevant attributes, and many related entities are also copied. Because of the long running nature of the operation, after the copy starts, the target project page is locked for editing until the copy operation is complete.
 
 ## Work breakdown structure
 
