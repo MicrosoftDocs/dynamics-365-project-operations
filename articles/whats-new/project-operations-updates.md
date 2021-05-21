@@ -39,7 +39,7 @@ For Project Operations Resource/non-stocked scenario, we recommend to use Dual W
 
 Updates for Project Operations on Dataverse environment are available monthly. 
 
-| Station   | Region        | Current version | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version | Generally available |
+| Station   | Region        | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|---------------|-----------------|--------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;      |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | First Release |  4.10.0.186     | Complete     | Complete            | TBD                 | 28-May-21           |
