@@ -64,14 +64,14 @@ Updates for Project Operations on Dataverse environment are available monthly.
 
 Updates for Project management and accounting are released eight times a year.
 
-|          Version          | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
+|          Supported Version          | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
 |          10.0.18          |        March 5, 2021        |           April 16, 2021          |                            April 30, 2021                            |    July 16, 2021   |
 |          10.0.17          |       February 1, 2021      |           March 19, 2021          |                             April 2, 2021                            |    June 11, 2021   |
 
 Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|          Version          | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
+|          Targeted Version          | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
 |          10.0.20          |         May 28, 2021        |           July 16, 2021           |                             July 30, 2021                             |  October 22, 2021  |
 |          10.0.19          |        April 23, 2021       |            June 18, 2021           |                             July 2, 2021                             | September 17, 2021 |
