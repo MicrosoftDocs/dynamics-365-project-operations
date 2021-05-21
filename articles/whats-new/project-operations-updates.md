@@ -56,7 +56,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | Great Britain |  4.10.0.186       | TBD     | 04-June-21           |
 |   &nbsp;  | Oceania       |  4.10.0.186       | TBD     | 04-June-21           |
 | Station 4 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
-|   &nbsp;  | Europe        |  4.9.0.221       | 4.10.0.186     | 21-May-21           |
+|   &nbsp;  | Europe        |  4.10.0.186       | TBD     | 11-June-21           |
 | Station 5 |     &nbsp;    |     &nbsp;      |     &nbsp;   |      &nbsp;         |
 |   &nbsp;  | North America |  4.9.0.221       | 4.10.0.186     | 28-May-21           |
 
