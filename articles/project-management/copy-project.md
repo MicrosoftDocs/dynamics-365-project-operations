@@ -4,7 +4,7 @@
 title: Copy a project
 description: This topic provides information about copying projects in Dynamics 365 Project Operations. 
 author: ruhercul
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -14,13 +14,14 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. To copy a project, open the project you want to copy, and then select **Copy project**. The action will copy:
+With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. To copy a project, open the project you want to copy, and then select **Copy project**. The action will copy the following:
 
-- Project properties (The estimated start date is copied from the source project)
-- The Work breakdown structure
+- Project properties 
+- Work breakdown structure
 - Project team members
 - Project estimates
 - Project expense estimates
+- Project material estimates
 
 ## Project properties
 
@@ -37,11 +38,15 @@ When the project is copied, the values in the following fields are copied:
 - Overall Project Status
 - Comments
 - Estimates
-- Estimated Start Date
-- Finish Date
+- Estimated Start Date: This is the date that the project is created from the copy.
+- Estimated Finish Date: This date is adjusted based on the start date of the new project that was made from the copy.
 - Effort (Hours)
 - Estimated Labor Cost
 - Estimated Expense Cost
+- Estimated Material Cost
+
+> [!NOTE]
+> Copy project is a long running operation. Project records, their relevant attributes, and many related entities are also copied. Because of the long running nature of the operation, after the copy starts, the target project page is locked for editing until the copy operation is complete.
 
 ## Work breakdown structure
 
@@ -53,7 +58,7 @@ When a project team is copied from the source project, the generic resources are
 
 ## Estimates
 
-When the project is copied, both resource and expense estimate lines are copied from the source project. 
+When the project is copied, resource, expense and material estimate lines are copied from the source project. 
 
 For information on how to programmatically access Copy Project, see [Develop project templates with Copy Project](dev-copy-project.md).
 
