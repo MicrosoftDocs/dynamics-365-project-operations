@@ -6,6 +6,7 @@ description: This topic provides information about Dynamics 365 Project operatio
 author: stsporen
 ms.date: 09/16/2020
 ms.topic: article
+ms.search.scope: ProjectOperations
 ms.prod: 
 #
 
