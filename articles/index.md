@@ -16,7 +16,6 @@ ms.prod:
 audience: Application User
 # ms.devlang: 
 ms.reviewer: kfend
-ms.search.scope: 
 # ms.tgt_pltfrm: 
 ms.custom: 
 ms.assetid: 
