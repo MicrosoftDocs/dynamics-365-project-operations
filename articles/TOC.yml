@@ -1272,6 +1272,8 @@
         href: psa/time-entry-calendar.md
       - name: Customize weekly time entry
         href: psa/time-entry-extensibility-v3.md
+      - name: Approval sets
+        href: psa/approval-set.md
   - name: FAQ and troubleshooting (3.x)
     items: 
     - name: Why is the price defaulting to zero on expense cost actuals?
