@@ -3,7 +3,7 @@ title: Approval sets
 description: This topic provides information about approval set, requests, and the subsets of those operations.
 author: stsporen
 manager: tfehr
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
