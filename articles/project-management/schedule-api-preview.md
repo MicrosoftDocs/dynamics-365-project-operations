@@ -261,7 +261,6 @@ The following is a list of limitations and known issues:
 - Each user can only have a maximum of 10 open **OperationSets**.
 - Project Operations currently supports a maximum of 500 total tasks on a project.
 - **OperationSet** failure status and failure logs aren't currently available.
-- Schedule APIs are in Public preview. Using these APIs in a Production environment isn't supported by Microsoft.
 - [Limits and boundaries on projects and tasks](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## Error handling
