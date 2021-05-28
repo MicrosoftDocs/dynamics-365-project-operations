@@ -62,7 +62,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>North America</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 25, 2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 25, 2021
-| | <i>Dedicated Scale Groups</i> | [3.10.51.61](whats-new-ur-30.md) | [3.10.52.77](whats-new-ur-31.md) | May 28, 2021
+| | <i>Dedicated Scale Groups</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | July 02, 2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) indicate the timing of the next automatic update. Dates in GCC indicate version availability; at this time, there is no automatic update for these regions.
