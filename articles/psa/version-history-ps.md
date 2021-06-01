@@ -33,7 +33,7 @@ search.app:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    | 3.10.52.77 |
+| Project Service Automation    | 3.10.53.108 |
 | Project Service Automation desktop add-in                | 3.15          |
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](/dynamics365/release-plans/). 
@@ -41,28 +41,28 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | Station  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | May 28, 2021
+| | <i>First Release</i> | [3.10.53.108](whats-new-ur-31.md) | TBD | July 02, 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 4, 2021
-| | <i>Canada</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 4, 2021
-| | <i>India</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 4, 2021
-| | <i>France</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 4, 2021
-| | <i>United Arab Emirates</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 4, 2021
-| | <i>South Africa</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 4, 2021
-| | <i>Germany</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 4, 2021
-| | <i>Switzerland</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 4, 2021
+| | <i>South America</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 4, 2021
+| | <i>Canada</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 4, 2021
+| | <i>India</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 4, 2021
+| | <i>France</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 4, 2021
+| | <i>United Arab Emirates</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 4, 2021
+| | <i>South Africa</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 4, 2021
+| | <i>Germany</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 4, 2021
+| | <i>Switzerland</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 4, 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 11, 2021
-| | <i>Asia Pacific</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 11, 2021
-| | <i>Great Britain</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 11, 2021
-| | <i>Oceana</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 11, 2021
+| | <i>Japan</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 11, 2021
+| | <i>Asia Pacific</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 11, 2021
+| | <i>Great Britain</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 11, 2021
+| | <i>Oceana</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 11, 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 18, 2021
+| | <i>Europe</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 18, 2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 25, 2021
+| | <i>North America</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 25, 2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | June 25, 2021
-| | <i>Dedicated Scale Groups</i> | [3.10.52.77](whats-new-ur-31.md) | TBD | July 02, 2021
+| | <i>Government Community Cloud</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | June 25, 2021
+| | <i>Dedicated Scale Groups</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-31.md) | July 02, 2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) indicate the timing of the next automatic update. Dates in GCC indicate version availability; at this time, there is no automatic update for these regions.
