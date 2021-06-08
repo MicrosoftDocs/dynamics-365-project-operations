@@ -1,6 +1,6 @@
 ---
 title: Correct accounting on draft project invoice proposals
-description: This topic provides the details about adjusting accounting related information on draft invoice proposal with Project Operations for resource/ non-stocked based scenarios.
+description: This topic provides the details about adjusting accounting related information on a draft invoice proposal.
 author: sigitac
 ms.date: 06/07/2021
 ms.topic: article
@@ -11,20 +11,27 @@ ms.author: sigitac
 # Correct accounting on draft project invoice proposals
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
-Project invoice operational details are maintained by project manager in proforma invoice. This includes decisions on which hours, expenses, materials, or milestones need invoicing, what are the rates, advance and retainer amounts application and similar. After confirming original proforma invoice, user can adjust this detail by creating [corrective proforma invoice](https://docs.microsoft.com/en-us/dynamics365/project-operations/proforma-invoicing/corrective-invoices) and confirming it.
 
-Project invoice accounting details are maintained in customer facing invoice document. This includes sales tax calculation and financial dimensions applied to the invoice. This article outlines the details how this information can be adjusted on draft project invoice proposal
+Project invoice operational details are maintained on a proforma invoice by the project manager. This includes the decision of what hours, expenses, materials, or milestones need invoicing, what the rates are, and advance and retainer amounts application. After you confirm the original proforma invoice, you can adjust these details by creating and confirming a [corrective proforma invoice](../proforma-invoicing/corrective-invoices.md).
+
+Project invoice accounting details are maintained in a customer-facing invoice document. This includes sales tax calculation and the financial dimensions applied to the invoice. This topic provides details about how this information can be adjusted on a draft project invoice proposal.
 
 ## Adjusting sales tax
 
-Billing sales tax group and item sales tax group defaults can be adjusted directly on the invoice proposal document, by clicking Edit button and selecting desired values in fields Sales tax group and Item sales tax group on each project invoice proposal line.
+Billing sales tax group and item sales tax group defaults can be adjusted directly on the invoice proposal document. To adjust these groups, select **Edit** and then select or enter the new values in the **Sales tax group** or **Item sales tax group** fields on each project invoice proposal line.
 
 ## Adjusting financial dimensions
 
-Financial dimensions cannot be edited directly on project invoice proposal line. User must perform the following actions to adjust financial dimensions on project invoice proposal:
+Financial dimensions can't be edited directly on a project invoice proposal line. Instead, complete the following steps to adjust financial dimensions on project invoice proposal.
 
-1. Delete project invoice proposal lines by clicking **Delete all** lines button. Note that this button is available only after system administrator enables the feature **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** in **Feature management** workspace.
-2. Adjust financial dimensions:
-  1. **On-account transactions** (billing milestones) financial dimensions can be adjusted in **All projects \&gt; Manage \&gt; On-account transactions** by selecting the milestone that needs adjustment, and editing values in **Financial dimensions** tab.
-  2. **Time, expense, and material transactions** financial dimensions can be adjusted by using **Adjust accounting** function in Posted project transactions form.
-3. Once financial dimension values are adjusted, run periodic process Import from staging table in **Project Management and Accounting \&gt; Periodic \&gt; Project Operations integration.** Process will recreate project invoice proposal lines using updated financial dimension values and will use these values in project subledger and general ledger when posting project invoice.
+1.On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines. 
+
+  > [!NOTE]
+  > This button is available only after the system administrator enables the feature, **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** in the **Feature management** workspace.
+
+2. Adjust the financial dimensions:
+  
+   - **On-account transactions** (billing milestones): Go to **All projects** > **Manage** > **On-account transactions**, select the milestone that needs adjustment, and on the **Financial dimesions** tab, update the values as necessary.
+   - **Time, expense, and material transactions**: On the **Posted project transactions** page, select **Adjust accounting** to update the financial dimensions.
+
+3. After you finish adjusting the financial dimension values, go to **Project management and accounting** > **Periodic** > **Project Operations integration**, and select **Import from staging table** to run the periodic process. The process recreates the project invoice proposal lines using updated financial dimension values. These updated values are used in the project subledger and general ledger when posting the project invoice.
