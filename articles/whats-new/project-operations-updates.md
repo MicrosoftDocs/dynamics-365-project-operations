@@ -2,7 +2,7 @@
 title: Project Operations updates
 description: This topic provides information about the released versions of Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 03/03/2021
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -56,9 +56,9 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | Great Britain         |  4.10.0.186     | Complete     | Complete            | TBD                 | 04-June-21          |
 |   &nbsp;  | Oceania               |  4.10.0.186     | Complete     | Complete            | TBD                 | 04-June-21          |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.10.0.186     | Complete     | 04-June-21          | TBD                 | 11-June-21          |
+|   &nbsp;  | Europe                |  4.10.0.186     | Complete     | Complete            | TBD                 | 11-June-21          |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.10.0.186     | 04-June-21   | 11-June-21          | TBD                 | 18-June-21          |
+|   &nbsp;  | North America         |  4.10.0.186     | Complete     | 11-June-21          | TBD                 | 18-June-21          |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 

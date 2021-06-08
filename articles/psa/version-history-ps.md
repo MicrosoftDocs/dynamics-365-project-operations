@@ -2,7 +2,7 @@
 title: Update release schedule for Project Service 3.x
 description: This topic provides information about the available and upcoming releases of Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 12/07/2020
+ms.date: 06/07/2021
 ms.reviewer: kfend
 ms.prod:
 ms.suite: ""
@@ -43,14 +43,14 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |<strong>Station 1</strong> | |  |  | |
 | | <i>First Release</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 02, 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 4, 2021
-| | <i>Canada</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 4, 2021
-| | <i>India</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 4, 2021
-| | <i>France</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 4, 2021
-| | <i>United Arab Emirates</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 4, 2021
-| | <i>South Africa</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 4, 2021
-| | <i>Germany</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 4, 2021
-| | <i>Switzerland</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 4, 2021
+| | <i>South America</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 09, 2021
+| | <i>Canada</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 09, 2021
+| | <i>India</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 09, 2021
+| | <i>France</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 09, 2021
+| | <i>United Arab Emirates</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 09, 2021
+| | <i>South Africa</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 09, 2021
+| | <i>Germany</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 09, 2021
+| | <i>Switzerland</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 09, 2021
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 11, 2021
 | | <i>Asia Pacific</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.108](whats-new-ur-32.md) | June 11, 2021
