@@ -17,20 +17,21 @@ During LCS deployment, if you have followed this document then you are able to s
 
 The following four procedures are required to deploy Project Operations in Dataverse with dual-write support:
 
-  1. [Create a new environment in Dataverse with dual-write support](#create)
-  2. [Add dual-write prerequisites to the environment](#prerequisites)
-  3. [Add the Project Operations Dataverse app](#dataverse)
-  4. [Link your environments](#link)
+1. [Create a new environment in Dataverse with dual-write support](#create)
+2. [Add dual-write prerequisites to the environment](#prerequisites)
+3. [Add the Project Operations Dataverse app](#dataverse)
+4. [Link your environments](#link)
 
 ## <a name="create">Create a new environment in Dataverse with dual-write support</a>
 To complete the following steps, log in as an administrator.
-1.	Go to the [Power Platform Admin center](https://admin.powerplatform.com), and create a new environment.
-2.	Name the environment and then select the environment type. If you signed up for the trial offer, select **Trial (subscription-based)**.
-4.	Confirm the deployment region and then enable the field, **Create a database for this environment**. 
-6.	Confirm the language and then confirm that the currency matches the currency for your Dynamics 365 Finance and Operations apps.
-8.	Enable **Dynamics 365 apps** and verify that the **Automatically deploy these apps** field is set to **None**.
-9.	Add a security group if required, Press **Save** to begin creating the environment.
-10.	Wait for the environment to complete it's deployment and reach **Ready** state.
+
+1. Go to the [Power Platform Admin center](https://admin.powerplatform.com), and create a new environment.
+2. Name the environment and then select the environment type. If you signed up for the trial offer, select **Trial (subscription-based)**.
+3. Confirm the deployment region and then enable the field, **Create a database for this environment**. 
+4. Confirm the language and then confirm that the currency matches the currency for your Dynamics 365 Finance and Operations apps.
+5. Enable **Dynamics 365 apps** and verify that the **Automatically deploy these apps** field is set to **None**.
+6. Add a security group if required and then select **Save** to create the environment.
+7. Wait for the environment to complete it's deployment and reach the **Ready** state.
 
 
 
@@ -39,9 +40,9 @@ Dual-write support includes additional fields that are added to key entities, su
 
 Complete the following steps to add the dual-write prerequisites to your environment. 
 
-1.	Open the environment you just created and then go to **Resource** > **Dynamics 365 apps**.
-2.	From the app list, select and install, **Dual-write core solution**.
-3.	When the installation is complete, from the app list, select and install **Dual-write application orchestration solution**.
+1. Open the environment you just created and then go to **Resource** > **Dynamics 365 apps**.
+2. From the app list, select and install, **Dual-write core solution**.
+3. When the installation is complete, from the app list, select and install **Dual-write application orchestration solution**.
 
 ## <a name="dataverse">Add the Project Operations Dataverse app</a>
 Before you complete the steps in this procedure, you must have completed the steps in the previous sections prior to installing Project Operations. During installation, the system checks to see what the environment configuration is and then adds support for dual-write if required.
