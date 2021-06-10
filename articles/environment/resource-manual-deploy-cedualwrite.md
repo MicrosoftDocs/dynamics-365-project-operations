@@ -29,6 +29,7 @@ To complete the following steps, log in as an administrator.
 6.	Confirm the language and then confirm that the currency matches the currency for your Dynamics 365 Finance and Operations apps.
 8.	Enable **Dynamics 365 apps** and verify that the **Automatically deploy these apps** field is set to **None**.
 10.	Add a security group if required, and then wait for the environment to complete it's provision.
+11.	Press **Save** to begin creating the environment.
 
 
 ## <a name="prerequisites">Add dual-write prerequisites to the environment</a>
