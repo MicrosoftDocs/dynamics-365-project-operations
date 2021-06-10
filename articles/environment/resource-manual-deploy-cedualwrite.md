@@ -12,7 +12,7 @@ ms.author: stsporen
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This topic explains how to manually deploy Dynamics 365 Project Operations in Dynamics 365 Dataverse with dual-write support. Project Operations detects the environments configuration and adds additional support for Dual-write if the pre-requisites are available.
-During LCS deployment, if you have followed this step then you are able to skip the Power Platform Environment (previously CDS) Setting, as you will have the correct setup already.
+During LCS deployment, if you have followed the steps in this topic, you can skip the *Power Platform Environment Setting*, because you will already have the correct setup.
 
 The following four procedures are required to deploy Project Operations in Dataverse with dual-write support:
 
