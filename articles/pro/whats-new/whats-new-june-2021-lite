@@ -1,0 +1,39 @@
+---
+title: What's new June 2021 - Project Operations lite deployment
+description: This topic provides information about the quality updates available in the June 2021 release of Project Operations lite deployment.
+author: sigitac
+ms.date: 06/10/2021
+ms.topic: article
+ms.prod:
+ms.reviewer: kfend 
+ms.author: sigitac
+---
+
+# What's new June 2021 - Project Operations lite deployment
+
+_Applies To: Lite deployment - deal to proforma invoicing_
+
+Note!
+
+This article applies to Project Operations components with version listed below.
+
+| Project Operations on CDS environment |
+| --- |
+| 4.11.0.156 |
+
+## Quality updates
+
+| **Feature area** | **Reference number** | **Quality update** |
+| --- | --- | --- |
+| Billing and Pricing | 2281417 | Fixed issue with failing Automatic invoice creation action through invoice schedule |
+| Billing and Pricing | 2287835 | Improved Invoice confirmation performance |
+| Opportunity Management | 2222555 | Material estimates chargeabily must be correctly copied to Quote line details when using &quot;Import from Project Estimation&quot; function |
+| Opportunity Management | 2223427 | Customizations now allowed for GenerateRetainersFromRetainerScheduleOptions action |
+| Opportunity Management | 2277528 | Fixed billing milestone value calculation for project contract lines with multiple customers. |
+| OProject Planning and Tracking | 2226110 | Fixed intermittent issue with Generate Requirement function in Project team grid. |
+| Project Planning and Tracking | 2208109 | Ensure user cannot create a project in one currency but related tasks in another currency |
+| Project Planning and Tracking | 2258228 | Updated list of fields allowed to modify with Scheduling entities using Schedule API |
+| Project Planning and Tracking | 2293989 | Correct Language and Regional settings must be passed to the project Tasks grid |
+| Resource Management | 2220493 | Fixed user experience in the Task grid when quickly marking Resource request as complete |
+| Time and Expense | 2194431 | Time entry grid must honor start of the week setting in System settings |
+| Time and Expense | 2277311 | Time entry grid: after deleting a cell value cursor now remains in the grid |
