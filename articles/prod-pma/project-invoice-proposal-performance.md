@@ -49,4 +49,5 @@ Complete the following steps to turn off the project invoice proposal performanc
 3.	Refresh your browser.
 
 > [!NOTE]
-> Invoice proposal performance can't be applied when billing rules are enabled or batch processes are running.
+> Invoice proposal performance can't be applied when billing rules are enabled.
+> Specific to invoice proposal creation batch process, the number of subtasks, although entered by the user, will split the tasks to a maximum number based on the number of contracts with invoiceable transactions.  i.e. entering 3 in the Number of subtasks for invoice proposal creation in batch and there are only two contracts with invoiceable transactions will only create two subtasks.
