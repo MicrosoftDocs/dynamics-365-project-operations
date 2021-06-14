@@ -4,7 +4,7 @@
 title: Expense reports reimagined
 description: This topic explains the redesigned and reimagined experience for expense report entry.
 author: suvaidya
-ms.date: 03/26/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: 
 #
@@ -31,13 +31,13 @@ Expense report entry has been redesigned to simplify the process and reduce the 
 
 - A new expense management workspace that lets you access your delegate's expenses.
 - A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.
-- A new read-only grid that lets you view many more expense lines and additional columns of data. You can now see all itemized and split lines, together with their parent expenses.
+- A new read-only grid that lets you view many more expense lines and other columns of data. You can now see all itemized and split lines, together with their parent expenses.
 - A simplified pane for editing expenses.
 - Redesigned error, warning, and policy messages to provide the correct context and understanding of the issue and how to resolve it. We have removed several of the messages that appeared before users could complete their tasks and address the issues.
 - A new page to specify required fields, optional fields, and the fields that should not be included. This page helps to reduce the number of fields that must be set.
 - A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.
 
-To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined** feature. When you turn on this feature, the following actions occur:
+To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined workspace** feature. When you turn on this feature, the following actions occur:
 
 - The existing expense workspace is replaced with the new workspace.
 - A new menu item for expense field visibility is added.
@@ -50,7 +50,7 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 
 | New feature | Description |
 |---|----|
-| Expense field visibility | A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended. |
+| Expense field visibility | A new setup page lets you specify which fields should be disabled for an organization. You can also specify which fields should be required, and which fields are recommended. |
 | Required fields | New simple configuration lets you make some fields required without having to use the policy framework. |
 | Optional fields | A second page for optional fields is added. In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible. |
 | Add unattached receipts | The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report. |
@@ -62,13 +62,14 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 | Exchange rate calculator | An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions. |
 | Save and add new expense lines | **Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines. |
 | Better visibility into split and itemized lines | Itemized and split lines are added directly to the list of expenses to increase visibility and help you easily determine whether there are any errors. |
+| View subcategory details in itemized lines | Itemized lines of a parent expense show the subcategory labels in the expense report, which helps you to review the granular details at a glance.|
 | Show receipts during itemization | Receipts can be shown during itemization. |
 | Cash advance selection | Select one or more cash advances for fulfilling a single expense transaction. |
 | Cash advance balance | Review the cash advance balance in real time when you create an expense entry against approved and paid cash advances. |
 
 The initial release is focused on expense entry scenarios. Any expense report review or approval scenario will continue to use the existing expense entry page.
 
-The following features aren't supported on the Reimagined Expense Workspace:
+The following features aren't supported on the Expense reports reimagined workspace, but are planned for future releases: 
 
 - Travel requisition integration
 - Per diem expense entry
