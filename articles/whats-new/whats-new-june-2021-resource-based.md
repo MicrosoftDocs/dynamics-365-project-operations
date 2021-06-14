@@ -45,11 +45,11 @@ If you encounter an issue starting the map, follow the instructions in the [Miss
 | Opportunity Management | 2222555 | Material estimates chargeability must be correctly copied to quote line details when using **Import from Project Estimation**. |
 | Opportunity Management | 2223427 | Customizations are now allowed for the action, **GenerateRetainersFromRetainerScheduleOptions**. |
 | Opportunity Management | 2277528 | Fixed billing milestone value calculation for project contract lines with multiple customers. |
-| Project Planning and Tracking | 2226110 | Fixed the intermittent issue with the function, **Generate Requirement** in the **Project team** grid. |
+| Project Planning and Tracking | 2226110 | Fixed the intermittent issue with the **Generate Requirement** function in the **Project team** grid. |
 | Project Planning and Tracking | 2208109 | Users can't create a project in one currency with related tasks in another currency. |
 | Project Planning and Tracking | 2258228 | The list of fields allowed to modify with **Scheduling** entities using the Schedule API has been updated. |
 | Project Planning and Tracking | 2293989 | The correct language and regional settings must be passed to the **Project Tasks** grid. |
-| Resource Management | 2220493 | Fixed user experience in the **Task** grid when quickly marking a resource request as complete. |
+| Resource Management | 2220493 | Fixed the user experience in the **Task** grid when quickly marking a resource request as complete. |
 | Time and Expense | 2194431 | The **Time entry** grid must honor the start of the week as set in the **System settings**. |
 | Time and Expense | 2277311 | After you delete the value in a cell in the **Time entry** grid, the cursor remains in the grid. |
 
@@ -72,12 +72,12 @@ If you encounter an issue starting the map, follow the instructions in the [Miss
 | Travel and expense | [522463](https://fix.lcs.dynamics.com/Issue/Details/?bugId=522463) | The action, **Split to personal for intercompany expense transactions** isn't working correctly. |
 | Travel and expense | [534702](https://fix.lcs.dynamics.com/Issue/Details/?bugId=534702) | Expense report line justifications are accidentally deleted when certain travel requisitions are deleted. This occurs when the recID of the expense report and the travel requisition are the same. |
 | Travel and expense | [544368](https://fix.lcs.dynamics.com/Issue/Details/?bugId=544368) | There is an issue in the Expense mobile app when the **Project ID** field is required in expense report policies. |
-| Travel and expense | [545331](https://fix.lcs.dynamics.com/Issue/Details/?bugId=545331) | Intercompany expenses that are associated with a project can't be edited. Instead, the following error message occurs, "Object reference not set to an instance of an object." |
+| Travel and expense | [545331](https://fix.lcs.dynamics.com/Issue/Details/?bugId=545331) | Intercompany expenses that are associated with a project can't be edited. Instead, the following error message displays, "Object reference not set to an instance of an object." |
 | Travel and expense | [548659](https://fix.lcs.dynamics.com/Issue/Details/?bugId=548659) | After the expense report is posted, the wrong currency and amount is listed in the bank subledger. |
 | Travel and expense | [558336](https://fix.lcs.dynamics.com/Issue/Details/?bugId=558336) | Improvements have been made to the *Delete credit card transactions* feature.  |
 | Travel and expense | [525070](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525070) | Sales tax included in an expense report isn't consistently calculated when a different reporting currency is specified in a legal entity. |
-| Travel and expense | [527779](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527779) | Performance is impated when adding a new cash travel expense. |
+| Travel and expense | [527779](https://fix.lcs.dynamics.com/Issue/Details/?bugId=527779) | Performance is impacted when adding a new cash travel expense. |
 | Travel and expense | [537841](https://fix.lcs.dynamics.com/Issue/Details/?bugId=537841) | Expense policy rules aren't triggered on an expense report. |
 | Travel and expense | [566386](https://fix.lcs.dynamics.com/Issue/Details/?bugId=566386) | Uploading a new shared category by using the Data Management Framework removes all subcategories for all shared categories. |
-| Travel and expense | [574131](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574131) | When you create an expense line and then select a category, the following error message occurs, "The combination of Sales tax group DOM and item sales tax group STD is not valid." |
+| Travel and expense | [574131](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574131) | When you create an expense line and then select a category, the following error message displays, "The combination of Sales tax group DOM and item sales tax group STD is not valid." |
 | Travel and expense | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | There are synchronization issues in the Expense mobile application. |
