@@ -26,10 +26,10 @@ This topic applies to the following Dynamics 365 Project Operations components a
 | Opportunity Management | 2222555 | Material estimates chargeability must be correctly copied to quote line details when using **Import from Project Estimation**. |
 | Opportunity Management | 2223427 | Customizations are now allowed for the action, **GenerateRetainersFromRetainerScheduleOptions**. |
 | Opportunity Management | 2277528 | Fixed billing milestone value calculation for project contract lines with multiple customers. |
-| OProject Planning and Tracking | 2226110 | Fixed the intermittent issue with the function, **Generate Requirement** in the **Project team** grid. |
+| Project Planning and Tracking | 2226110 | Fixed the intermittent issue with the **Generate Requirement** function in the **Project team** grid. |
 | Project Planning and Tracking | 2208109 | Users can't create a project in one currency with related tasks in another currency. |
 | Project Planning and Tracking | 2258228 | The list of fields allowed to modify with **Scheduling** entities using the Schedule API has been updated. |
 | Project Planning and Tracking | 2293989 | The correct language and regional settings must be passed to the **Project Tasks** grid.|
-| Resource Management | 2220493 | Fixed user experience in the **Task** grid when quickly marking a resource request as complete. |
+| Resource Management | 2220493 | Fixed the user experience in the **Task** grid when quickly marking a resource request as complete. |
 | Time and Expense | 2194431 | The **Time entry** grid must honor the start of the week as set in the **System settings**. |
 | Time and Expense | 2277311 | After you delete the value in a cell in the **Time entry** grid, the cursor remains in the grid. |
