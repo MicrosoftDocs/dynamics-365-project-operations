@@ -22,7 +22,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
 The following features are included in this release:
 
-- Ability to delete [Project invoice proposal lines for adjustment scenarios](../invoicing/corrective-invoices.md).
+- Ability to delete [Project invoice proposal lines for adjustment scenarios](../invoicing/correct-project-invoice-proposals.md).
 - Itemized expense lines reflect subcategory names in the expense report [Expense Reports Reimagined-New Features](../expense/expense-reports-reimagined.md#new-features).
 - Payment method is available in the new expense pane when creating a new expense.
 
