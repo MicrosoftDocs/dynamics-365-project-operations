@@ -37,7 +37,7 @@ Expense report entry has been redesigned to simplify the process and reduce the 
 - A new page to specify required fields, optional fields, and the fields that should not be included. This page helps to reduce the number of fields that must be set.
 - A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.
 
-To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined** feature. When you turn on this feature, the following actions occur:
+To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined workspace** feature. When you turn on this feature, the following actions occur:
 
 - The existing expense workspace is replaced with the new workspace.
 - A new menu item for expense field visibility is added.
@@ -69,7 +69,7 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 
 The initial release is focused on expense entry scenarios. Any expense report review or approval scenario will continue to use the existing expense entry page.
 
-The following features aren't supported on the Reimagined Expense Workspace, but are are planned for future releases: 
+The following features aren't supported on the Expense reports reimagined workspace, but are are planned for future releases: 
 
 - Travel requisition integration
 - Per diem expense entry
