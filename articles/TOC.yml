@@ -436,8 +436,6 @@
     items:
     - name: Invoicing process overview
       href: invoicing/post-project-invoices.md
-    - name: Manage project invoice proposals
-      href: invoicing/format-update-project-invoice-proposals.md 
     - name: Proforma invoicing
       items:
       - name: Manage project-based billing backlog
@@ -456,8 +454,22 @@
         href: proforma-invoicing/corrective-invoices.md
       - name: Configure project-based invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
-    - name: Manage project invoice proposals
-      href: invoicing/format-update-project-invoice-proposals.md
+    - name: Customer invoicing
+      items:  
+      - name: Manage project invoice proposals
+        href: invoicing/format-update-project-invoice-proposals.md
+      - name: Correct accounting on draft project invoice proposals
+        href: invoicing/correct-project-invoice-proposals.md
+    - name: Intercompany invoicing
+      items: 
+      - name: Intercompany invoicing overview
+        href: project-accounting/intercompany-invoicing-overview.md
+      - name: Configure intercompany invoicing
+        href: project-accounting/configure-intercompany-invoicing.md
+      - name: Create intercompany transactions
+        href: project-accounting/create-intercompany-transactions.md
+      - name: Create intercompany customer and vendor invoices
+        href: project-accounting/create-intercompany-customer-vendor-invoices.md
   - name: Project accounting
     items:
     - name: Financial dimension defaults
@@ -470,16 +482,6 @@
       href: project-accounting/configure-accounting-billable-projects.md
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
-    - name: Intercompany invoicing
-      items: 
-      - name: Intercompany invoicing overview
-        href: project-accounting/intercompany-invoicing-overview.md
-      - name: Configure intercompany invoicing
-        href: project-accounting/configure-intercompany-invoicing.md
-      - name: Create intercompany transactions
-        href: project-accounting/create-intercompany-transactions.md
-      - name: Create intercompany customer and vendor invoices
-        href: project-accounting/create-intercompany-customer-vendor-invoices.md
   - name: Revenue recognition
     items:
     - name: Revenue recognition overview
