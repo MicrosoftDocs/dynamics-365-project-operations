@@ -144,5 +144,7 @@ by clicking **New**.
 
 11.	Click **OK**.
 
-
+> [!NOTE]
+> Please note that project client add-in doesn’t support underscore, period, space, or slash in project ID format
+> 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
