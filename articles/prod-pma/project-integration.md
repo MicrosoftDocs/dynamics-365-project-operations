@@ -4,7 +4,7 @@
 title: Microsoft Project client integration
 description: Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task. Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure. 
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -144,5 +144,12 @@ by clicking **New**.
 
 11.	Click **OK**.
 
+> [!NOTE]
+> The Project Client add-in doesn’t support the following characters in the project ID format:
+> 
+>   - Underscore
+>   - Period
+>   - Space
+>   - Slash
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
