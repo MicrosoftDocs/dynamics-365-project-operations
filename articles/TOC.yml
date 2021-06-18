@@ -28,6 +28,8 @@
         href: environment/resource-apply-pro-setup-config-data.md
     - name: Deploy environments
       items:
+      - name: Manually deploy the Project Operations Dataverse app with dual-write support
+        href: environment/resource-manual-deploy-dataverse-dualwrite.md
       - name: Provision a new environment
         href: environment/resource-provision-new-environment.md
       - name: Security model
