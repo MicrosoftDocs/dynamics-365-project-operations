@@ -42,14 +42,14 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.11.0.164     | Completed for 4.11.0.156     | Completed for 4.11.0.156           | TBD                 | 02-July-21          |
+|   &nbsp;  | First Release         |  4.11.0.164     | Complete*    | Complete*           | TBD                 | 02-July-21          |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.11.0.164     | Completed for 4.11.0.156     | 18-June-21          | TBD                 | 02-July-21          |
-|    &nbsp; | Canada                |  4.11.0.164     | Completed for 4.11.0.156     | 18-June-21          | TBD                 | 02-July-21          |
-|   &nbsp;  | India                 |  4.11.0.164     | Completed for 4.11.0.156     | 18-June-21          | TBD                 | 02-July-21          |
-|   &nbsp;  | France                |  4.11.0.164     | Completed for 4.11.0.156     | 18-June-21          | TBD                 | 02-July-21          |
-|   &nbsp;  | United Arab Emirates  |  4.11.0.164     | Completed for 4.11.0.156     | 18-June-21          | TBD                 | 02-July-21          |
-|   &nbsp;  | South Africa          |  4.11.0.164     | Completed for 4.11.0.156     | 18-June-21          | TBD                 | 02-July-21          |
+|   &nbsp;  | South America         |  4.11.0.164     | Complete*    | 18-June-21          | TBD                 | 02-July-21          |
+|    &nbsp; | Canada                |  4.11.0.164     | Complete*    | 18-June-21          | TBD                 | 02-July-21          |
+|   &nbsp;  | India                 |  4.11.0.164     | Complete*    | 18-June-21          | TBD                 | 02-July-21          |
+|   &nbsp;  | France                |  4.11.0.164     | Complete*    | 18-June-21          | TBD                 | 02-July-21          |
+|   &nbsp;  | United Arab Emirates  |  4.11.0.164     | Complete*    | 18-June-21          | TBD                 | 02-July-21          |
+|   &nbsp;  | South Africa          |  4.11.0.164     | Complete*    | 18-June-21          | TBD                 | 02-July-21          |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Japan                 |  4.11.0.164     | 18-June-21   | 25-June-21          | TBD                 | 09-July-21          |
 |   &nbsp;  | Asia Pacific          |  4.11.0.164     | 18-June-21   | 25-June-21          | TBD                 | 09-July-21          |
@@ -59,6 +59,9 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | Europe                |  4.10.0.186     | Complete     | Complete            | 4.11.0.164          | 21-June-21          |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | North America         |  4.10.0.186     | Complete     | Complete            | 4.11.0.164          | 25-June-21          |
+
+>[!Note]
+> - Complete* - Auto-deployment completed for version 4.11.0.156. No auto-deployment planned for updated version of June 2021 release.
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
