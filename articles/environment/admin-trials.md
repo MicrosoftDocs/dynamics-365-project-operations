@@ -92,10 +92,10 @@ Start the Provisioning Questionnaire
 ![questionaire step 1](./media/16questionnairestep1.png)
 
 2.	Review the recommended deploy and select Begin Setup to initiate provisioning.
- ![questionnaire summary](./media/ 17questionnairesummary.png)
+ ![questionnaire summary](./media/17questionnairesummary.png)
  
 3.	Review the terms and conditions and select Start.
-  ![questionnaire terms and conditions](./media/ 18questionnairetandc.png)
+  ![questionnaire terms and conditions](./media/18questionnairetandc.png)
   
 4.	Provisioning will be initiated and the user. 
  
@@ -105,7 +105,18 @@ Start the Provisioning Questionnaire
  
 7.	Once your provisioning has been completed, select the respective CDS and Finance & Operations URLs to validate the environments have been deployed.
 
-## Current 
+## Help Resources
+The following video links provide brief introductions to the key scenarios supported by the application:
+|                     | Lite/Non Stocked                                                                                                         | Stocked Materials                                                                                                        |
+|---------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| Lead to Quote       | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | n/a                                                                                                                      |
+| Create a Project    | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
+| Create a Contract   | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
+| Resource a project  | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
+| Time and Expense    | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
+| Invoice             | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
+| Revenue Recognition | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
