@@ -8,16 +8,16 @@ ms.reviewer: kfend
 ms.author: ruhercul
 ---
 
-# Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
+# Sign up for Project Operations Admin Lead Trials for resource/ non-stocked scenarios
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations for Lite/resource/non-stocked based scenarios_
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 This topic explains how to subscribe to the preview/partner offer and deploy Project Operations environment for resource/ non-stocked based scenarios.
 
 ## Overview
-The following article outlines the path to try Project Operations.    We will review the process to redeem your trial offer, configure Dual Write and walk thru all support scenarios to get the most out of your trial experience.   Your Project Operations Trial can be redeemed once in your tenant and can be renewed once.    
+With the new Project Operations Admin Lead Trial, customers will have the ability to automatically deploy any of the 3 suported deployment scenarios by simply completing a questionnaire to recommend the best deployment approach.   The proceeding sections will review the process to redeem your trial offer, administer Dual Write and provide links to all supporting material to help you get the most out of your trial experience.    
 
 ## Admin Trial Details
 |                                                     | **Lite**                                                                                                                                                 | **Non-Stocked Materials** | **Stocked Materials** |
@@ -34,7 +34,7 @@ The following article outlines the path to try Project Operations.    We will re
 | Provisioning Time                                   | 15                                                                                                                                                       | 150                       | 30                    |
 | Versions at launch                                  | UR11                                                                                                                                                     | 10.0.19/UR11              | 10.0.19               |
 | DW Version                                          | n/a                                                                                                                                                      | TBD                       | TBD                   |
-| Supporting Documentation                            |                                                                                                                                                          |                           |                       |
+
 | CDS Environment Life Cycle Management Support (ELM) | Environment backup is available Solutions can be exported                                                                                                |                           |                       |
 | CDS Application Life Cycle Support (ALM)            | CDS apps can be upgraded Adjacent CDS apps can be installed (e.g. Field Service)                                                                         |                           |                       |
 | F&O ELM & ALM                                       | These environments will not have to Life Cycle Services (LCS), therefore customers will not have access to upgrades, quality updates or backup & restore |                           |                       |
@@ -89,11 +89,14 @@ Upon successful redemption of the offer, you will be redirected to, https://admi
 
 Start the Provisioning Questionnaire
 1.	Navigate to https://admin.powerplatform.com/projectoperationstrial.  Complete each question.
- 
+![questionaire step 1](./media/16questionnairestep1.png)
+
 2.	Review the recommended deploy and select Begin Setup to initiate provisioning.
+ ![questionnaire summary](./media/ 17questionnairesummary.png)
  
 3.	Review the terms and conditions and select Start.
- 
+  ![questionnaire terms and conditions](./media/ 18questionnairetandc.png)
+  
 4.	Provisioning will be initiated and the user. 
  
 5.	Once provisioning has been initiated, you will be redirected to the environment list in the Power Platform Admin center. While provisioning is in progress, the state of your environment will be PreparingInstance.
