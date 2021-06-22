@@ -54,7 +54,7 @@ If you are using standard demo data, you might also need to stop and restart the
 
 ### Activate workflow to create accounts based on vendor entity
 
-The Dual Write Orchestration solution provides [Vendors master integration](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md). As a prerequisite for this feature, vendor data must be created in the **Accounts** entity. Activate a template workflow process to create vendors in the **Accounts** table as described in [Switch between vendor designs](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type).
+The Dual Write Orchestration solution provides [Vendors master integration](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping). As a prerequisite for this feature, vendor data must be created in the **Accounts** entity. Activate a template workflow process to create vendors in the **Accounts** table as described in [Switch between vendor designs](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch).
 
 ### Set products to be created as active
 
@@ -83,7 +83,7 @@ In Project Operations, you can record material estimates and usage for catalog p
 2. In the **Product type** field, select **Item** and in the **Product subtype** field, select **Product**.
 3. Enter the product number (WRITEIN) and the product name (Write-in Product).
 4. Select  the item model group. Make sure that the item model group you select has the **Inventory policy Stocked product** field set to **False**.
-5. Select values in the **Item group**, **Storage dimension group**, and **Tracking dimension group** fields. Use the **Storage dimension** for **Site** only, and do not set any tracking dimensions.
+5. Select values in the **Item group**, **Storage dimension group**, and **Tracking dimension group** fields. Use the **Storage dimension** for **Site** only, and set **Tracking dimensions** to **None**.
 6. Select values in the **Inventory unit**, **Purchase unit**, and **Sales unit** field, and then save your changes.
 7. In the **Plan** tab, set the default order settings, and on the **Inventory** tab, set the default site and warehouse.
 8. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters** and open **Project Operations on Dynamics 365 Dataverse**. 
