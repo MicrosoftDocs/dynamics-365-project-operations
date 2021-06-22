@@ -1,14 +1,14 @@
 ---
-title: Use Schedule APIs to perform operations with Scheduling entities
-description: This topic provides information and samples for using Project Scheduling APIs.
+title: Use Project schedule APIs to perform operations with Scheduling entities
+description: This topic provides information and samples for using Project schedule APIs.
 author: sigitac
-ms.date: 04/27/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
 ---
 
-# Use Project Scheduling APIs to perform operations with Scheduling entities
+# Use Project schedule APIs to perform operations with Scheduling entities
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -17,9 +17,9 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 ## Scheduling entities
 
-Project Scheduling APIs provide the ability to perform create, update, and delete operations with **Scheduling entities**. These entities are managed through the Scheduling engine in Project for the web. Create, update, and delete operations with **Scheduling entities** were restricted in earlier Dynamics 365 Project Operations releases.
+Project schedule APIs provide the ability to perform create, update, and delete operations with **Scheduling entities**. These entities are managed through the Scheduling engine in Project for the web. Create, update, and delete operations with **Scheduling entities** were restricted in earlier Dynamics 365 Project Operations releases.
 
-The following table provides a full list of the **Project Scheduling entities**.
+The following table provides a full list of the Project schedule entities.
 
 | Entity name  | Entity logical name |
 | --- | --- |
@@ -34,9 +34,9 @@ The following table provides a full list of the **Project Scheduling entities**.
 
 OperationSet is a unit-of-work pattern that can be used when several schedule impacting requests must be processed within a transaction.
 
-## Schedule APIs
+## Project schedule APIs
 
-The following is a list of current Schedule APIs.
+The following is a list of current Project schedule APIs.
 
 - **msdyn_CreateProjectV1**: This API can be used to create a project. The project and default project bucket is created immediately.
 - **msdyn_CreateTeamMemberV1**: This API can be used to create a project team member. The team member record is created immediately.
@@ -46,7 +46,7 @@ The following is a list of current Schedule APIs.
 - **msdyn_PSSDeleteV1**: This API can be used to delete an entity. The entity can be any of the Project scheduling entities that support the delete operation.
 - **msdyn_ExecuteOperationSetV1**: This API is used to execute all of the operations within the given operation set.
 
-## Using Project Scheduling APIs with OperationSet
+## Using Project schedule APIs with OperationSet
 
 Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are created immediately, these APIs can't be used in the **OperationSet** directly. However, you can use the API to create needed records, create an **OperationSet**, and then use these pre-created records in the **OperationSet**.
 
@@ -266,7 +266,7 @@ The following is a list of limitations and known issues:
 ## Error handling
 
    - To review errors generated from the Operation Sets, go to **Settings** \> **Schedule Integration** \> **Operations Sets**.
-   - To review errors generated from the Project Scheduling Service, go to **Settings** \> **Schedule Integration** \> **PSS Error Logs**.
+   - To review errors generated from the Project schedule Service, go to **Settings** \> **Schedule Integration** \> **PSS Error Logs**.
 
 ## Sample scenario
 
