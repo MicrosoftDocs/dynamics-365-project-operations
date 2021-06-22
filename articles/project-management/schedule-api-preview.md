@@ -252,7 +252,7 @@ The following tables define the fields that are restricted from **Create** and *
 ## Limitations and known issues
 The following is a list of limitations and known issues:
 
-- Project Scheduleing APIs can only be used by **Users with Microsoft Project License.** They can't be used by:
+- Project Schedule APIs can only be used by **Users with Microsoft Project License.** They can't be used by:
     - Application users
     - System users
     - Integration users
