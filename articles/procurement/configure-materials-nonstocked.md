@@ -2,7 +2,7 @@
 title: Configure non-stocked materials and pending vendor invoices
 description: This topic explains how to enable non-stocked materials and pending vendor invoices.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -83,7 +83,7 @@ In Project Operations, you can record material estimates and usage for catalog p
 2. In the **Product type** field, select **Item** and in the **Product subtype** field, select **Product**.
 3. Enter the product number (WRITEIN) and the product name (Write-in Product).
 4. Select  the item model group. Make sure that the item model group you select has the **Inventory policy Stocked product** field set to **False**.
-5. Select values in the **Item group**, **Storage dimension group**, and **Tracking dimension group** fields. Use the **Storage dimension** for **Site** only, and set **Tracking dimensions** to **None**.
+5. Select values in the **Item group**, **Storage dimension group**, and **Tracking dimension group** fields. Use the **Storage dimension** for **Site** only, and in the **Tracking dimensions** field, select **None**.
 6. Select values in the **Inventory unit**, **Purchase unit**, and **Sales unit** field, and then save your changes.
 7. In the **Plan** tab, set the default order settings, and on the **Inventory** tab, set the default site and warehouse.
 8. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters** and open **Project Operations on Dynamics 365 Dataverse**. 
