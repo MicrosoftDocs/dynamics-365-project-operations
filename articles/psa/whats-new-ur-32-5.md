@@ -34,5 +34,5 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 The following issue has been fixed:
 
-- The Schedule Board does not load correctly when existing bookings are created with coordinates.
+- The Schedule Board doesn't load correctly when existing bookings are created with coordinates.
 
