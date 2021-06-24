@@ -20,9 +20,9 @@ The **Weekly time entry** grid is a custom control that has two main sections, *
 |------------	|------------------------	|
 | New        	| Alt + Shift + n        	|
 | Copy row   	| Alt + Shift + c        	|
-| Edit 3ntry 	| Alt + Shift + e        	|
+| Edit entry 	| Alt + Shift + e        	|
 | Edit row   	| Alt + Shift + Ctrl + e 	|
-| Open 3ntry 	| Alt + Shift + o        	|
+| Open entry 	| Alt + Shift + o        	|
 | Submit     	| Alt + Shift + s        	|
 | Recall     	| Alt + Shift + r        	|
 | Delete     	| Alt + Shift + d        	|
