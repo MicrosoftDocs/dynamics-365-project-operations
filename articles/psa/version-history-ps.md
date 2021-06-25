@@ -59,7 +59,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.10.53.231](whats-new-ur-32-5.md) | TBD | July 23, 2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.53.231](whats-new-ur-32.5.md) | TBD | July 30, 2021
+| | <i>North America</i> | [3.10.53.231](whats-new-ur-32-5.md) | TBD | July 30, 2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.53.231](whats-new-ur-32-5.md) | TBD | July 30, 2021
 | | <i>Dedicated Scale Groups</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.231](whats-new-ur-32-5.md) | July 02, 2021
