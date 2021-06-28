@@ -57,12 +57,12 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Great Britain</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 16, 2021
 | | <i>Oceana</i> | [3.10.53.108](whats-new-ur-32.md) | TBD | July 16, 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.53.231](whats-new-ur-32.5.md) | TBD | July 23, 2021
+| | <i>Europe</i> | [3.10.53.231](whats-new-ur-32-5.md) | TBD | July 23, 2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.231](whats-new-ur-32.5.md) | June 25, 2021
+| | <i>North America</i> | [3.10.53.231](whats-new-ur-32-5.md) | TBD | July 30, 2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.231](whats-new-ur-32.5.md) | June 25, 2021
-| | <i>Dedicated Scale Groups</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.231](whats-new-ur-32.5.md) | July 02, 2021
+| | <i>Government Community Cloud</i> | [3.10.53.231](whats-new-ur-32-5.md) | TBD | July 30, 2021
+| | <i>Dedicated Scale Groups</i> | [3.10.52.77](whats-new-ur-31.md) | [3.10.53.231](whats-new-ur-32-5.md) | July 02, 2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) indicate the timing of the next automatic update. Dates in GCC indicate version availability; at this time, there is no automatic update for these regions.
