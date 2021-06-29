@@ -115,6 +115,28 @@ The following video links provide brief introductions to the key scenarios suppo
 | Invoice             | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
 | Revenue Recognition | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
 
+Frequently Asked Questions
+==========================
+
+I require ALM or ELM for my Finance and Operations environment. 
+----------------------------------------------------------------
+
+For partners who require full environment lifecycle management capabilities
+please follow this link to review the new partner driven offer for details,
+<https://experience.dynamics.com/requestlicense>. If you require access to a
+Tier 1 environment for development and testing, please follow this link,
+[here](microsoft.com)
+
+I would like to extend my trial beyond 30 days
+----------------------------------------------
+
+To extend your trials, do the following:
+
+I would like to upgrade from Lite to Non-Stocked Materials
+----------------------------------------------------------
+
+Currently, we do not have native support to update an environment from lite to
+non-stocked materials.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
