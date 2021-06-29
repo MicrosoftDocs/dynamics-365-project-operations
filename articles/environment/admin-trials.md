@@ -1,6 +1,6 @@
 ---
 title: Sign up for Project Operations Admin Lead Trials for resource/ non-stocked scenarios
-description: This topic provides information about how to subscribe to and deploy Project Operations for resouce/non-stocked based scenarios.
+description: This topic provides information about how to deploy an admin lead trial of Project Operations for all scenarios.
 author: ruhercul
 ms.date: 07/09/2021
 ms.topic: article
@@ -33,12 +33,10 @@ With the new Project Operations Admin Lead Trial, customers will have the abilit
 | Transactional Data                                  | No                                                                                                                                                       | No                        | No                    |
 | Provisioning Time                                   | 15                                                                                                                                                       | 150                       | 30                    |
 | Versions at launch                                  | UR11                                                                                                                                                     | 10.0.19/UR11              | 10.0.19               |
-| DW Version                                          | n/a                                                                                                                                                      | TBD                       | TBD                   |
-
-| CDS Environment Life Cycle Management Support (ELM) | Environment backup is available Solutions can be exported                                                                                                |                           |                       |
+| CDS Environment Life Cycle Management Support (ELM) | N/A                                                                                                |           N/A                |             N/A          |
 | CDS Application Life Cycle Support (ALM)            | CDS apps can be upgraded Adjacent CDS apps can be installed (e.g. Field Service)                                                                         |                           |                       |
 | F&O ELM & ALM                                       | These environments will not have to Life Cycle Services (LCS), therefore customers will not have access to upgrades, quality updates or backup & restore |                           |                       |
-| Upgrade to Paid                                     | No upgrade to paid at this time                                                                                                                          |                           |                       |
+| Upgrade to Paid                                     | Not availabe                                                                                                                          |              Not availabe              |           Not availabe              |
 
 
 
