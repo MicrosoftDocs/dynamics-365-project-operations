@@ -39,20 +39,20 @@ The following issues have been fixed:
 - When a time entry is created, the resource role defaults to an inactive role.
 - Journal lines associated with a recalled and deleted expense aren't deleted.
 - On the **Time entry Quick Create Form**, update the **Project Task List** view to change the date displayed by default to the start date of the task.
-- When you create a time entry from the **Related** tab of the bookable resource, the time entry is incorrectly created for the logged in user instead of the parent bookable resource.
+- When you create a time entry from the **Related** tab of the bookable resource, the time entry is incorrectly created for the signed-in user instead of the parent bookable resource.
 - New fields are added to the **Bulk approval MDD** dialog box.
 
 **Project planning**
 
-The following issue has been fixed:
-- Slow project creation performance observed when project work hour templates are applied with complex calendars.
-- When the start date is greater than the end date, an error is thrown on the copy project template because of differences in the time component of each field.
+The following issues have been fixed:
+- Slow project creation performance when project work hour templates are applied with complex calendars.
+- When the start date is greater than the end date, an error displays on the copy project template because of differences in the time component of each field.
 
 **Resource management**
 
 The following issues have been fixed:
-- The wrong parameter is used in the resource utilization query and the xml leads to incorrect filter results on the **Resource Utilization** grid.
-- The **Extend Bookings** confirmation displays the wrong end date of the bookings.
+- An incorrect parameter is used in the resource utilization query and the XML leads to incorrect filter results on the **Resource Utilization** grid.
+- The **Extend Bookings** confirmation displays incorrect end date for bookings.
 
 **Sales**
 
