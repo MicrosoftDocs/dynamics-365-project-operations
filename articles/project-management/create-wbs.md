@@ -3,7 +3,7 @@
 title: Create a work breakdown structure 
 description: This topic explains how to create a work breakdown structure (WBS) inclusive of the basic controls in the new scheduling interface.
 author:  ruhercul
-ms.date: 01/07/2021  
+ms.date: 06/30/2021  
 ms.topic: article 
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -113,5 +113,26 @@ The task mode has no effect on updates that are made to the start and end dates 
 
 The **Schedule** grid is fully accessible and can be used with screen readers such as Narrator, JAWS, or NVDA. You can move through the grid area by using arrow keys (as in Microsoft Excel), you can use the Tab key to advance through the interactive user interface elements, and you can use the Down arrow key, the Enter key, or the Spacebar to select and open the drop-down menus.
 
+## Project limitations 
+You should be aware of the following limitations if you are using the work breakdown structure in Project Operations. These limits apply to projects and tasks. For more information, see [Project for the web limits and boundaries](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Field**                                          |  **Limit**           |
+|----------------------------------------------------|----------------------|
+| Maximum total tasks for a project                  | 500                  |
+| Maximum total duration for a project               | 3650 days (10 years) |
+| Maximum total resources for a project              | 150                  |
+| Maximum total links (successor only) for a project | 600                  |
+| Maximum total custom fields for a project          | 10                   |
+
+**Task limitations**
+
+| **Field**                               |   **Limit**           |
+|-----------------------------------------|-----------------------|
+| Maximum hierarchy level                 | 10 levels             |
+| Maximum links (successor + predecessor) | 20                    |
+| Maximum duration of leaf task           | 1250 days             |
+| Maximum duration of a summary task      | 3650 days (10 years)  |
+| Maximum resources assigned to a task    | 20 resources          |
+| Supported date range for a task         | 1/1/2000 - 12/31/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
