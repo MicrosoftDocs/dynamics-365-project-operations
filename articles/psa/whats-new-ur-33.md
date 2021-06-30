@@ -35,7 +35,7 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed:
 
 - Two locked fields, **msdyn_description** and **msdyn_externaldescription** are editable after submission.
-- A Null Reference Exception is thrown if an expense is created that isn't related to a project.
+- An error message occurs if an expense is created that isn't related to a project.
 - When a time entry is created, the resource role defaults to an inactive role.
 - Journal lines associated with a recalled and deleted expense aren't deleted.
 - On the **Time entry Quick Create Form**, update the **Project Task List** view to change the date displayed by default to the start date of the task.
@@ -57,5 +57,5 @@ The following issues have been fixed:
 **Sales**
 
 The following issues have been fixed:
-- A Null Reference Exception thrown if a category price is created with missing values.
-- A Null Reference Exception thrown if a contract line milestone is created without an order line.
+- An error message occurs if a category price is created with missing values.
+- An error message occurs if a contract line milestone is created without an order line.
