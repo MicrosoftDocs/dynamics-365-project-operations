@@ -30,31 +30,32 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 ### Bug fixes
 
-#### Time and Expense
+**Time and Expense**
 
 The following issues have been fixed:
-- 2 locked fields, msdyn_description and msdyn_externaldescription fields are editable after submission.
-- Null Reference Exception thrown if an expense is created that is not related to a project.
-- When creating a time entry, a resource's role defaults to an inactive one.
-- Journal Lines associated to a recalled and deleted Expense are not deleted.
-- On the **Time entry Quick Create Form**, Update the Project Task List View to change the date displayed by default to the start date of the task.
-- From the related tab of the bookable resource, creating a time entry would incorrectly create a time entry for the logged in user instead of the parent bookable resource.
-- New fields added to the bulk approval MDD dialog.
 
-#### Project Planning
+- Two locked fields, **msdyn_description** and **msdyn_externaldescription** are editable after submission.
+- A Null Reference Exception is thrown if an expense is created that isn't related to a project.
+- When a time entry is created, the resource role defaults to an inactive role.
+- Journal lines associated with a recalled and deleted expense aren't deleted.
+- On the **Time entry Quick Create Form**, update the **Project Task List** view to change the date displayed by default to the start date of the task.
+- When you create a time entry from the **Related** tab of the bookable resource, the time entry is incorrectly created for the logged in user instead of the parent bookable resource.
+- New fields are added to the **Bulk approval MDD** dialog box.
+
+**Project planning**
 
 The following issue has been fixed:
 - Slow project creation performance observed when project work hour templates are applied with complex calendars.
-- Start Date greater than end date error thrown on copying project/template due to differences in the time component of each field.
+- When the start date is greater than the end date, an error is thrown on the copy project template because of differences in the time component of each field.
 
-#### Resource Management
-
-The following issue has been fixed:
-- Incorrect parameter used in resource utilization query xml leads to incorrect filter results on the Resource Utilization grid.
-- **Extend Bookings** confirmation displays the incorrect end date of the bookings.
-
-#### Sales
+**Resource management**
 
 The following issues have been fixed:
-- Null Reference Exception thrown if a category price is created with missing values.
-- Null Reference Exception thrown if a contract line milestone is created without an order line.
+- The wrong parameter is used in the resource utilization query and the xml leads to incorrect filter results on the **Resource Utilization** grid.
+- The **Extend Bookings** confirmation displays the wrong end date of the bookings.
+
+**Sales**
+
+The following issues have been fixed:
+- A Null Reference Exception thrown if a category price is created with missing values.
+- A Null Reference Exception thrown if a contract line milestone is created without an order line.
