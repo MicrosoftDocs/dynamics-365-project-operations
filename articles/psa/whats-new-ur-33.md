@@ -30,39 +30,31 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 ### Bug fixes
 
-#### General
-
-- When a major upgrade fails, only the main application entry points should be blocked, to ensure that shared entities are still accessible.
-
 #### Time and Expense
 
 The following issues have been fixed:
-
-- **TimeEntriesImportFromResourceAssignment** doesn't maintain the start and end times of the resource assignment contour slice.
-- When you select **Open Entry** on the **Time Entry** grid, you might be prevented from selecting other forms.
-- While you import assignments to time entries, the client code query could generate a long URL that fails the query.
-- In the **Time Entry** grid, after a value is deleted from a cell, the focus doesn't remain in the grid.
-- The **Reject** button has been removed from the **Processing approvals** view for modern approvals.
-- The stability and performance of time entry bulk approval are affected by deadlocks and a failure to appropriately handle customizations that are related to the **Time Entry** entity.
+- 2 locked fields, msdyn_description and msdyn_externaldescription fields are editable after submission.
+- Null Reference Exception thrown if an expense is created that is not related to a project.
+- When creating a time entry, a resource's role defaults to an inactive one.
+- Journal Lines associated to a recalled and deleted Expense are not deleted.
+- On the **Time entry Quick Create Form**, Update the Project Task List View to change the date displayed by default to the start date of the task.
+- From the related tab of the bookable resource, creating a time entry would incorrectly create a time entry for the logged in user instead of the parent bookable resource.
+- New fields added to the bulk approval MDD dialog.
 
 #### Project Planning
 
-- A null reference exception is generated when you update a project that has a null value in the **Contracting Unit** field.
-- **Refresh Project Totals** incorrectly calculates the remaining cost and remaining sales on a project.
-- Redundant pricing calculations affect performance that is related to updates on resource assignment contours.
+The following issue has been fixed:
+- Slow project creation performance observed when project work hour templates are applied with complex calendars.
+- Start Date greater than end date error thrown on copying project/template due to differences in the time component of each field.
 
 #### Resource Management
 
 The following issue has been fixed:
-
-- When a bookable resource's calendar capacity is more than 1, Project Service Automation incorrectly recognizes the capacity as 0 (zero). Therefore, an infinite loop occurs in the schedule view.
+- Incorrect parameter used in resource utilization query xml leads to incorrect filter results on the Resource Utilization grid.
+- **Extend Bookings** confirmation displays the incorrect end date of the bookings.
 
 #### Sales
 
 The following issues have been fixed:
-
-- When a journal line is created that has a custom transaction type, the following null reference exception occurs: *Microsoft.Dynamics.ProjectService.Plugins.JournalLinePlugins.ValidateUnitScheduleAndUnitWithTransactionType(TransactionTypetransactionType, TransactionTypeCode transTypeCodeFromPlugin)*.
-- Roles and categories that are inactivated before a quotation is copied should not be added to chargeable roles and categories of the newly copied quotation.
-- The document date and accounting date aren't aligned with the start date that is provided on an invoice line detail that is created directly on a draft invoice.
-- Null reference exceptions are generated in scenarios that are related to inactivation of roles and categories before a quotation is copied.
-- The **Update Prices** action on the **Projects** page doesn't update expense estimates and material estimates.
+- Null Reference Exception thrown if a category price is created with missing values.
+- Null Reference Exception thrown if a contract line milestone is created without an order line.
