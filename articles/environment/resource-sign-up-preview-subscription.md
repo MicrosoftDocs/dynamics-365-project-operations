@@ -14,30 +14,24 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-This topic explains how to subscribe to the preview/partner offer and deploy Project Operations environment for resource/ non-stocked based scenarios.
+This topic explains how to subscribe to the trial offer and deploy Project Operations environment for resource / non-stocked based scenarios.
 
 ## Prerequisites
-
-- You will receive an email inviting you to participate in the preview. You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- The user who deploys the preview must have Azure tenant global administrator rights.
+- The user who deploys the preview must have Azure tenant global administrator rights. You can create a tenant during the first offer redemption. 
 - Deploying a Finance environment requires a valid Azure subscription that will be billed per environment. You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/en-us/free/) to get started. The CDS environment will be provided free for a limited 30 day period.
-
-## Subscribe
-
-When your [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) is approved, you will receive three offers from Microsoft by email. These offers allow you to deploy the Project Operations Preview:
-
-- Dynamics 365 Project Operations (CRM) - Preview Trial
-- Office 365 Project Operations - Preview Trial
-- Dynamics 365 Finance - Preview Trial
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
 
-### Dynamics 365 Project Operations (CRM) - Preview Trial 
+> [!IMPORTANT]
+> Trials are single use in the tenant, you can only run a trial once and we recommend you create a new tenant for the purpose of the trial.
+
+
+### Dynamics 365 Project Operations (CE) - Preview Trial 
 
 Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.
 
-1. Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.
+1. Redeem the first offer code, **Dynamics 365 Project Operations (CE)** here [Project Operations Trial](https://aka.ms/try-po).
 
 ![Redeem Offer](./media/16RedeemFirstOfferNew.png)
 
@@ -49,13 +43,9 @@ You will see confirmation offer was successfully redeemed.
 
 ![Confirmation](./media/18OrderConfirmationNew.png)
 
-### Office 365 Project Operations - Preview Trial
-
-Repeat the same steps as with the first offer code. Make sure to add the second offer code using the same user account that was used with the first offer code.
-
 ### Dynamics 365 Finance preview trial
 
-Repeat the same steps with the last offer from the Welcome email.
+Repeat the same steps with this offer Sign up for the Cloud Hosted Environment offer here [Dynamics 365 for Finance and Operations Preview Trial](https://aka.ms/trypoche)
 
 ## Assign licenses
 
@@ -70,7 +60,7 @@ Repeat the same steps with the last offer from the Welcome email.
 
 ![Assign Licenses](./media/15AssignLicenses.png)
 
-3. Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** license have been selected and select **Save changes**.
+3. Verify that the **Dynamics 365 Project Operations (CE) Preview** license has been selected and select **Save changes**.
 
 > [!NOTE]
 > The Finance trial offer does not need to be assigned to a user.
