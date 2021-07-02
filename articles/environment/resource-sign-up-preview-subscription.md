@@ -2,7 +2,7 @@
 title: Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
 description: This topic provides information about how to subscribe to and deploy Project Operations for resouce/non-stocked based scenarios.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
@@ -14,7 +14,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-This topic explains how to subscribe to the trial offer and deploy Project Operations environment for resource / non-stocked based scenarios.
+This topic explains how to subscribe to the trial offer and deploy Project Operations environment for resource/non-stocked based scenarios.
 
 ## Prerequisites
 - The user who deploys the preview must have Azure tenant global administrator rights. You can create a tenant during the first offer redemption. 
@@ -22,9 +22,8 @@ This topic explains how to subscribe to the trial offer and deploy Project Opera
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
-
-> [!IMPORTANT]
-> Trials are single use in the tenant, you can only run a trial once and we recommend you create a new tenant for the purpose of the trial.
+> 
+> Trials are single use in the tenant. You can only run a trial one time. We recommend that you create a new tenant for the purpose of the trial.
 
 
 ### Dynamics 365 Project Operations (CE) - Preview Trial 
@@ -32,14 +31,13 @@ This topic explains how to subscribe to the trial offer and deploy Project Opera
 Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.
 
 1. Redeem the first offer code, **Dynamics 365 Project Operations** here [Project Operations Trial](https://aka.ms/try-po).
-
 2. Confirm your order.
 
-You will see confirmation offer was successfully redeemed.
+  You will see confirmation offer was successfully redeemed.
 
 ### Dynamics 365 Finance preview trial
 
-Repeat the same steps with this offer Sign up for the Cloud Hosted Environment offer here [Dynamics 365 for Finance Preview Trial](https://aka.ms/trypoche)
+Go to [Dynamics 365 for Finance Preview Trial](https://aka.ms/trypoche) and repeat the steps from the previous section with the offer, Sign up for the Cloud Hosted Environment.  
 
 ## Assign licenses
 
@@ -70,7 +68,7 @@ Follow the guidance in the topic, [Provision a new environment](resource-provisi
 ## Install CDS setup and configuration data
 
 Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).
-Complete this step only after Finance demo environment is deployed and demo data in FO is ready.
+Complete this step only after Finance demo environment is deployed and demo data is ready.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
