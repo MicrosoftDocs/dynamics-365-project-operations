@@ -24,20 +24,15 @@ This topic explains how to subscribe to the trial offer and deploy Dynamics 365 
 > [!IMPORTANT]
 > Trials are single use in the tenant, you can only run a trial once and we recommend you create a new tenant for the purpose of the trial.
 
-### Dynamics 365 Project Operations (CE) - Preview Trial 
+### Dynamics 365 Project Operations Trial 
 
 Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.
 
-1. Redeem the first offer code, **Dynamics 365 Project Operations (CE)** here [Project Operations Trial](https://aka.ms/try-po).
-
-![Redeem Offer](./media/16RedeemFirstOfferNew.png)
+1. Redeem the first offer code, **Dynamics 365 Project Operations** here [Project Operations Trial](https://aka.ms/try-po).
 
 2. Confirm your order.
-![Confirm the order](./media/17ConfirmOrderNew.png)
 
 You'll see confirmation offer was successfully redeemed.
-
-![Confirmation](./media/18OrderConfirmationNew.png)
 
 ## Assign licenses
 
@@ -47,18 +42,14 @@ You'll see confirmation offer was successfully redeemed.
 
 1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
-![Admin center home page](./media/14AdminPortal.png)
-
 2. On the **Active users** page, select the users that you want to assign a license to.
 
-![Assign Licenses](./media/15AssignLicenses.png)
-
-3. Verify that the **Dynamics 365 Project Operations (CRM) Preview** license is selected. 
+3. Verify that the **Dynamics 365 Project Operations** license is selected. 
 4. Select **Save changes**.
 
-## Create a new CDS environment
+## Create a new Dataverse environment
 
-1. Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
+1. Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
 ![New environment](./media/19CreateEnvironment.png)
 
 2. Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.  
