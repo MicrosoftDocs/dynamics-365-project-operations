@@ -2,7 +2,7 @@
 title: Sign up for a preview subscription - lite
 description: This topic provides information about how to subscribe to and deploy Project Operations lite deployment - deal to proforma invoicing.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
@@ -20,19 +20,17 @@ This topic explains how to subscribe to the trial offer and deploy Dynamics 365 
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
+> 
+> Trials are single use in the tenant. You can only run a trial one time. We recommend that you create a new tenant for the purpose of the trial.
 
-> [!IMPORTANT]
-> Trials are single use in the tenant, you can only run a trial once and we recommend you create a new tenant for the purpose of the trial.
-
-### Dynamics 365 Project Operations Trial 
+### Dynamics 365 Project Operations trial 
 
 Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.
 
-1. Redeem the first offer code, **Dynamics 365 Project Operations** here [Project Operations Trial](https://aka.ms/try-po).
-
+1. Go to [Project Operations Trial](https://aka.ms/try-po) to redeem the first offer code, **Dynamics 365 Project Operations**.
 2. Confirm your order.
 
-You'll see confirmation offer was successfully redeemed.
+  You'll see the confirmation offer was successfully redeemed.
 
 ## Assign licenses
 
@@ -41,21 +39,20 @@ You'll see confirmation offer was successfully redeemed.
 
 
 1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
-
 2. On the **Active users** page, select the users that you want to assign a license to.
-
 3. Verify that the **Dynamics 365 Project Operations** license is selected. 
 4. Select **Save changes**.
 
 ## Create a new Dataverse environment
 
 1. Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
-![New environment](./media/19CreateEnvironment.png)
+
+  ![New environment](./media/19CreateEnvironment.png)
 
 2. Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.  
 3. Select **Save** to create the environment.
 
-![Add database](./media/20CreateEnvironment1.png)
+  ![Add database](./media/20CreateEnvironment1.png)
 
 4. After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution. 
 
