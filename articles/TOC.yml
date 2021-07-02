@@ -890,6 +890,10 @@
   items: 
   - name: What's new
     items:
+    - name: What's new July 2021 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+    - name: What's new May 2021 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-may-2021-stocked.md
     - name: What's new April 2021 - Project Operations for stocked/production-based scenarios
       href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
     - name: What's new March 2021 - Project Operations for stocked/production-based scenarios
@@ -1042,6 +1046,8 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update Release 33, V3
+      href: psa/whats-new-ur-33.md
     - name: What's new or changed in Update Release 32.5, V3
       href: psa/whats-new-ur-32-5.md
     - name: What's new or changed in Update Release 32, V3
