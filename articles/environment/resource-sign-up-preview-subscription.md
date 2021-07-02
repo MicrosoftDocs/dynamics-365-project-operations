@@ -31,21 +31,15 @@ This topic explains how to subscribe to the trial offer and deploy Project Opera
 
 Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.
 
-1. Redeem the first offer code, **Dynamics 365 Project Operations (CE)** here [Project Operations Trial](https://aka.ms/try-po).
-
-![Redeem Offer](./media/16RedeemFirstOfferNew.png)
+1. Redeem the first offer code, **Dynamics 365 Project Operations** here [Project Operations Trial](https://aka.ms/try-po).
 
 2. Confirm your order.
 
-![Confirm the order](./media/17ConfirmOrderNew.png)
-
 You will see confirmation offer was successfully redeemed.
-
-![Confirmation](./media/18OrderConfirmationNew.png)
 
 ### Dynamics 365 Finance preview trial
 
-Repeat the same steps with this offer Sign up for the Cloud Hosted Environment offer here [Dynamics 365 for Finance and Operations Preview Trial](https://aka.ms/trypoche)
+Repeat the same steps with this offer Sign up for the Cloud Hosted Environment offer here [Dynamics 365 for Finance Preview Trial](https://aka.ms/trypoche)
 
 ## Assign licenses
 
@@ -54,13 +48,9 @@ Repeat the same steps with this offer Sign up for the Cloud Hosted Environment o
 
 1. Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
-![Admin center home page](./media/14AdminPortal.png)
-
 2. On the **Active users** page, select the users that you want to assign a license to.
 
-![Assign Licenses](./media/15AssignLicenses.png)
-
-3. Verify that the **Dynamics 365 Project Operations (CE) Preview** license has been selected and select **Save changes**.
+3. Verify that the **Dynamics 365 Project Operations** license has been selected and select **Save changes**.
 
 > [!NOTE]
 > The Finance trial offer does not need to be assigned to a user.
