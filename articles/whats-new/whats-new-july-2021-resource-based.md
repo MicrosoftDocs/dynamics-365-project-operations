@@ -1,6 +1,12 @@
 ---
-title: "What's new July 2021 - Project Operations for resource/non-stocked based scenarios"
+title: What's new July 2021 - Project Operations for resource/non-stocked based scenarios
+description: This topic provides information about the quality updates available in the June 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
+ms.date: 07/04/2021
+ms.topic: article
+ms.prod:
+ms.reviewer: kfend 
+ms.author: sigitac
 ---
 
 What's new July 2021 - Project Operations for resource/non-stocked based scenarios
