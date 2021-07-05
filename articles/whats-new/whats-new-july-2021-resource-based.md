@@ -17,7 +17,7 @@ What's new July 2021 - Project Operations for resource/non-stocked based scenari
 This topic applies to the following Dynamics 365 Project Operations components
 and versions:
 
--   Project Operations on Dynamics 365 Dataverse environment version 4.12.0.129.
+-   Project Operations on Dynamics 365 Dataverse environment version 4.12.0.148.
 
 -   Project management and accounting in Finance and Operations apps
     environments version 10.0.20.
