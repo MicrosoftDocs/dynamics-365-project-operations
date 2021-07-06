@@ -7,6 +7,7 @@ ms.date: 03/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
+ms.custom: "intro-internal"
 ---
 
 # Financial estimation concepts

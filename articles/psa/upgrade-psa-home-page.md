@@ -4,6 +4,7 @@ description: This topic shows where to find important information about the new 
 ms.prod:
 ms.custom: 
   - dyn365-projectservice
+  - intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 #

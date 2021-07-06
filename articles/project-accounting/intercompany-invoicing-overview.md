@@ -8,7 +8,7 @@ ms.date: 11/19/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-
+ms.custom: "intro-internal"
 ---
 
 # Intercompany invoicing overview

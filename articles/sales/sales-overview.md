@@ -6,6 +6,7 @@ ms.date: 10/29/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
+ms.custom: "intro-internal"
 ---
 
 # Sales process overview
