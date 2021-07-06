@@ -6,6 +6,7 @@ ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
+ms.custom: "intro-internal"
 ---
 
 # Resource utilization overview

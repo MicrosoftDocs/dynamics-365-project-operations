@@ -4,6 +4,7 @@ description: This topic provides information about reporting in Dynamics 365 Pro
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
+  - intro-internal
 ms.date: 03/01/2019
 ms.topic: article
 #

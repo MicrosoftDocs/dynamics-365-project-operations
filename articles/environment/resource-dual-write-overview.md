@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
 ms.author: sigitac
+ms.custom: "intro-internal"
 ---
 
 # Project Operations dual-write integration overview

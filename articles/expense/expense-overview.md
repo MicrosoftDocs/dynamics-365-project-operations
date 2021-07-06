@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod:
 ms.reviewer: kfend
 ms.author: stsporen
+ms.custom: "intro-internal"
 ---
 
 # Expense home page
