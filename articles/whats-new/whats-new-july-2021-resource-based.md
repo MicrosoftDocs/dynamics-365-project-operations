@@ -1,116 +1,89 @@
 ---
 title: What's new July 2021 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates available in the June 2021 release of Project Operations for resource/non-stocked based scenarios.
+description: This topic provides information about the quality updates available in the July 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-ms.date: 07/04/2021
+ms.date: 07/06/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
 ms.author: sigitac
 ---
 
-What's new July 2021 - Project Operations for resource/non-stocked based scenarios
-==================================================================================
+# What's new July 2021 - Project Operations for resource/non-stocked based scenarios
 
 *Applies To: Project Operations for resource/non-stocked based scenarios*
 
-This topic applies to the following Dynamics 365 Project Operations components
-and versions:
+This topic applies to the following Dynamics 365 Project Operations components and versions:
 
--   Project Operations on Dynamics 365 Dataverse environment version 4.12.0.148.
+   - Project Operations on Dynamics 365 Dataverse environment version 4.12.0.148.
+   - Project management and accounting in Dynamics 365 Finance environment version 10.0.20.
 
--   Project management and accounting in Finance and Operations apps
-    environments version 10.0.20.
-
-Features included in this release
----------------------------------
+## Features included in this release
 
 The following features are included in this release:
 
--   Ability to delete [Project invoice proposal lines for adjustment
-    scenarios](../invoicing/correct-project-invoice-proposals.md).
+- Ability to delete [Project invoice proposal lines for adjustment scenarios](../invoicing/correct-project-invoice-proposals.md).
+- Itemized expense lines reflect subcategory names in the expense report [Expense Reports Reimagined-New Features](../expense/expense-reports-reimagined.md#new-features).
+- Payment method is available in the new expense pane when creating a new expense.
 
--   Itemized expense lines reflect subcategory names in the expense report
-    [Expense Reports Reimagined-New
-    Features](../expense/expense-reports-reimagined.md#new-features).
-
--   Payment method is available in the new expense pane when creating a new
-    expense.
-
-Project Operations dual-write maps updates
-------------------------------------------
+## Project Operations dual-write maps updates
 
 There are no updates for Project Operations dual-write maps in this release.
 
-For a current list and versions of Project Operations dual-write maps, see
-[Project Operations dual-write map
-versions](../environment/resource-dual-write-maps.md).
+For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
-Always run the latest version of the map in your environment and enable all
-related table maps as you update your Project Operations Dataverse solution and
-Finance and Operations apps solution version. Certain features and capabilities
-might not work correctly if the latest version of the map isn't activated. You
-can see the active version of the map on the **Dual-write** page in the
-**Version** column. Activate a new version of the map by selecting **Table map
-versions**, selecting the latest version, and then saving the selected version.
-If you have customized an out-of-the-box table map, reapply the changes. For
-more information, see [Application lifecycle
-management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Certain features and capabilities might not work correctly if the latest version of the map isn't activated. You can see the active version of the map on the **Dual-write** page in the **Version** column. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-If you encounter an issue starting the map, follow the instructions in the
-[Missing table columns issue on
-maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps)
-section of the Dual-write troubleshooting guide.
+If you encounter an issue starting the map, follow the instructions in the [Missing table columns issue on maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual-write troubleshooting guide.
 
-Quality updates
----------------
+## Quality updates
 
 ### Project Operations on Dataverse
 
 | **Feature area**              | **Reference number** | **Quality update**                                                                                                                                                                                             |
 |-------------------------------|----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Billing and Pricing           | 2224046              | "Transaction class" is editable on editable grid under Quote line Details tab but same field are locked if you open the Quote Line Details                                                                     |
-| Billing and Pricing           | 2224400              | **Close Quote As Won** ribbon action fails on quote with no-date milestones                                                                                                                                    |
-| Billing and Pricing           | 2234089              | Write-in Product description are cleared after entering quantity in Material estimates                                                                                                                         |
-| Billing and Pricing           | 2234100              | Task billing setup grid does not include Material column and its value on the Project's task billing tab                                                                                                       |
-| Billing and Pricing           | 2277409              | Product ID not available in Contract Line Detail for Material type line                                                                                                                                        |
-| Billing and Pricing           | 2281728              | Contract line creation reevaluates actuals unnecessarily causing significant increases in data volume and impacting performance                                                                                |
-| Billing and Pricing           | 2298668              | Journal Lines associated to a recalled and deleted expense are not removed                                                                                                                                     |
-| Billing and Pricing           | 2300192              | When multiple users are editing an invoice it is possible for a new invoice line detail to be created on a confirmed invoice                                                                                   |
-| Billing and Pricing           | 2301569              | Invoices cannot be corrected if a \$0 amount retainer has been applied.                                                                                                                                        |
-| Billing and Pricing           | 2307965              | A Null Reference Exception thrown if a category price is created with missing values                                                                                                                           |
-| Billing and Pricing           | 2326870              | A Null Reference Exception thrown in the Microsoft.Dynamics.ProjectService.Plugins.PostInvoiceLineDelete if producttypecode is null                                                                            |
-| Billing and Pricing           | 2332732              | A Null Reference Exception thrown if a contract line milestone is created without an order line                                                                                                                |
-| Project Planning and Tracking | 2181094              | The Project Scheduling API now support an PSS Logs and Operation Set Logs stored for 90 days.                                                                                                                  |
-| Project Planning and Tracking | 2254201              | Schedule Mode Label updated with details describing the defaulting logic.                                                                                                                                      |
-| Project Planning and Tracking | 2300252              | **openProject** response cache has been updated to include the token owner in the cache key and **base Url** and **Segment Url** so that **Request Url** can always be re-created if the **base Url** changes. |
-| Project Planning and Tracking | 2301312              | "msdyn_membershipstatus" has been removed from Project Team Member view                                                                                                                                        |
-| Project Planning and Tracking | 2302759              | Products are being fetched on Resource Assignments, Estimates, and Expense Estimates tabs unnecessarily                                                                                                        |
-| Project Planning and Tracking | 2308050              | **CopyProject** failing with error – “Failed to get token to talk to remote service”                                                                                                                           |
-| Project Planning and Tracking | 2322650              | The Project Task List View has been updated to display date display the date of the task by default                                                                                                            |
-| Project Planning and Tracking | 2327266              | **CopyProject** generating the following exception when copying estimates - "key not found in dictionary"                                                                                                      |
-| Project Planning and Tracking | 2328123              | **CopyProject** is failing with error "Failed to get token to talk to remote service"                                                                                                                          |
-| Project Planning and Tracking | 2336258              | **CopyProject** incorrectly copies position names of resources                                                                                                                                                 |
-| Billing and Pricing           | 2224476              | Bookable resource field is not correctly defaulted to the logged in user on the material usage form                                                                                                            |
-| Resource Management           | 2277249              | A null reference exception error is thrown when a non-project based resource requirement is updated                                                                                                            |
-| Resource Management           | 2323869              | Resource Utilization does not correctly respect filtered resources                                                                                                                                             |
-| Time and Expense              | 2176538              | Incorrect filter operators applied to the Time Entry control                                                                                                                                                   |
-| Time and Expense              | 2177462              | Deleting a time entry in the grid does not update the Submit, Recall, Delete, and Edit Entry button status to disabled.                                                                                        |
-| Time and Expense              | 2299985              | **TimeEntriesImportFromResourceAssignment** does not maintain the start/end time from the assignment contours                                                                                                  |
-| Time and Expense              | 2318426              | User was able to edit time entry locked fields after submitting a time entry                                                                                                                                   |
-| Time and Expense              | 2323749              | A Null Reference Exception is thrown when creating an expense from the related tab of a bookable resource                                                                                                      |
-| Time and Expense              | 2327678              | When creating a time entry from the related tab of a bookable resource, the parent resource is not passed to the time entry control                                                                            |
-| General                       | 2296857              | Progress tracking for long running jobs                                                                                                                                                                        |
-| General                       | 2253682              | The Project Operations Dual Write solution should not install when Dual Write Core is installed in an environment without the Dual Write Orchestration solution                                                |
-| General                       | 2316420              | Project Service Core Provisioning Fails if the application user’s business unit is changed                                                                                                                     |
+| Billing and Pricing           | 2224046              | The **Transaction Class** field is editable on the **Quote Line Details** tab, but is locked if you are working from the **Quote Line Details** page.                                                                     |
+| Billing and Pricing           | 2224400              | The action, **Close Quote As Won** fails when a quote has no date milestones.                                                                                                                                    |
+| Billing and Pricing           | 2234089              | When you manually enter a product description, it's cleared after you enter a quantity for a material estimate.                                                                                                                         |
+| Billing and Pricing           | 2234100              | The **Task Billing Setup** grid doesn't include the **Material** column and it's value on the **task Billing** tab of the project.                                                                                                       |
+| Billing and Pricing           | 2277409              | The product ID isn't available on the contract line detail for a material type line.                                                                                                                                        |
+| Billing and Pricing           | 2281728              | Creating a contract line unnecessarily reevaluates actuals causing significant increases in data volume and impacting performance.                                                                                |
+| Billing and Pricing           | 2298668              | Journal lines associated to a recalled and deleted expense aren't removed.                                                                                                                                     |
+| Billing and Pricing           | 2300192              | When multiple users are editing an invoice, it's possible for a new invoice line detail to be created on a confirmed invoice.                                                                                   |
+| Billing and Pricing           | 2301569              | Invoices can't be corrected if a \$0 amount retainer has been applied.                                                                                                                                        |
+| Billing and Pricing           | 2307965              | An error occurs if a category price is created with missing values.                                                                                                                           |
+| Billing and Pricing           | 2326870              | An error occurs in the **Microsoft.Dynamics.ProjectService.Plugins.PostInvoiceLineDelete** if **producttypecode** is null.                                                                            |
+| Billing and Pricing           | 2332732              | An error occurs if a contract line milestone is created without an order line.                                                                                                                |
+| Project Planning and Tracking | 2181094              | The Project Scheduling API now supports PSS Logs and Operation Set Logs which are stored for 90 days.                                                                                                                  |
+| Project Planning and Tracking | 2254201              | The **Schedule Mode** label is updated with details that describe the defaulting logic.                                                                                                                                      |
+| Project Planning and Tracking | 2300252              | The **openProject** response cache is updated and includes the token owner in the cache key, **base Url**, and **Segment Url** so that **Request Url** can always be re-created if the **base Url** changes. |
+| Project Planning and Tracking | 2301312              | **msdyn_membershipstatus** has been removed from the **Project Team Member** view.                                                                                                                                        |
+| Project Planning and Tracking | 2302759              | Products are unecessarily fetched on the **Resource Assignments**, **Estimates**, and **Expense Estimates** tabs.                                                                                                        |
+| Project Planning and Tracking | 2308050              | **CopyProject** fails with the error, “Failed to get token to talk to remote service”.                                                                                                                           |
+| Project Planning and Tracking | 2322650              | The **Project Task List** view has been updated to display the date of the task by default.                                                                                                            |
+| Project Planning and Tracking | 2327266              | **CopyProject** generates the exception, "Key not found in dictionary" when copying estimates.                                                                                                      |
+| Project Planning and Tracking | 2328123              | **CopyProject** is failing with error, "Failed to get token to talk to remote service".                                                                                                                          |
+| Project Planning and Tracking | 2336258              | **CopyProject** incorrectly copies the position names of resources.                                                                                                                                                 |
+| Billing and Pricing           | 2224476              | The **Bookable Resource** field doesn't correctly default to the logged in user on the **Material Usage** page.                                                                                                            |
+| Resource Management           | 2277249              | An error occurs when a non-project based resource requirement is updated.                                                                                                            |
+| Resource Management           | 2323869              | Resource utilization doesn't correctly respect filtered resources.                                                                                                                                             |
+| Time and Expense              | 2176538              | Incorrect filter operators are applied to the **Time Entry** control.                                                                                                                                                   |
+| Time and Expense              | 2177462              | Deleting a time entry in the grid does not update the **Submit**, **Recall**, **Delete**, and **Edit Entry** button status as expected.                                                                                        |
+| Time and Expense              | 2299985              | **TimeEntriesImportFromResourceAssignment** doesn't maintain the start/end time from the assignment contours.                                                                                                  |
+| Time and Expense              | 2318426              | After a time entry is submitted, locked fields can still be edited.                                                                                                                                   |
+| Time and Expense              | 2323749              | An error occurs when an expense is created from the **Related** tab of a bookable resource.                                                                                                      |
+| Time and Expense              | 2327678              | When you create a time entry from the **Related** tab of a bookable resource, the parent resource isn't passed to the time entry control.                                                                            |
+| General                       | 2296857              | Progress tracking for long running jobs.                                                                                                                                                                        |
+| General                       | 2253682              | The Project Operations dual-write solution shouldn't be installed when dual-write core is installed in an environment without the dual-write orchestration solution.                                                |
+| General                       | 2316420              | Project service core provisioning fails if the application user’s business unit is changed.                                                                                                                     |
 
 ### Project management and accounting on Dynamics 365 Finance
 
 | Feature area                      | Reference number | Quality update                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Project management and accounting | 4620267          | Cannot personalize forms to add Purpose in Project posted transaction form, Invoice proposal creation form and Invoice proposal form.                                                                                                                                                                                         |
-| Project management and accounting | 4613449          | When selecting Project contract ID in F&O, the Project Operations integrated environment opens the form for creating new records, instead of the already existing Project contract.                                                                                                                                           |
-| Project management and accounting | 4614445          | When in the Project operations integrated scenario deployment, the user cannot edit the Item sales tax group field on the invoice proposal imported from staging. It is expected the Item sales tax group to be editable for an open invoice proposal for all transaction types: on account, hours, expenses, fees and items. |
-| Project management and accounting |                  | Cannot post invoice proposal resulting from negative time transaction correction                                                                                                                                                                                                                                              |
-| Project management and accounting |                  | Invoice proposal lines are duplicated due to multiple Import from staging periodic processes running at a time                                                                                                                                                                                                                |
+| Project management and accounting | 4620267          | Can't personalize forms to add a **Purpose** field to the **Project posted transaction**, **Invoice proposal creation**, and **Invoice proposal** pages.                                                                                                                                                                                         |
+| Project management and accounting | 4613449          | When you select a Project contract ID in Finance, the Project Operations integrated environment opens the page to create a new record, instead of the page for already created project contracts.                                                                                                                                           |
+| Project management and accounting | 4614445          | In the Project Operations integrated scenario deployment, you can't edit the **Item sales tax group** field on the invoice proposal that's imported from staging. The item sales tax group should be editable for an open invoice proposal of all transaction types including on account, hours, expenses, fees, and items. |
+| Project management and accounting |                  | Can't post an invoice proposal resulting from a negative time transaction correction.                                                                                                                                                                                                                                              |
+| Project management and accounting |                  | Invoice proposal lines are duplicated because of multiple **Import from staging** periodic processes running at the same time.                                                                                                                                                                                                                |
 
