@@ -6,6 +6,7 @@ ms.date: 10/28/2020
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: rumant
+ms.custom: "intro-internal"
 ---
 
 # Project-based contract lines overview

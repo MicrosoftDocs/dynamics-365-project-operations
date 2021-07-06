@@ -7,6 +7,7 @@ ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
+ms.custom: "intro-internal"
 ---
 
 # Project management overview

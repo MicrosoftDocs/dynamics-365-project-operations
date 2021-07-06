@@ -6,6 +6,7 @@ ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
+ms.custom: "intro-internal"
 ---
 
 # Revenue recognition overview

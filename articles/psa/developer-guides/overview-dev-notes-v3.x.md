@@ -4,6 +4,7 @@ description: This topic provides links to topics that provide development inform
 author: makk
 ms.custom: 
   - dyn365-projectservice
+  - intro-internal
 ms.date: 03/26/2019
 ms.topic: article
 #
