@@ -2,7 +2,7 @@
 title: What's new July 2021 - Project Operations for resource/non-stocked based scenarios
 description: This topic provides information about the quality updates available in the July 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-ms.date: 07/06/2021
+ms.date: 07/07/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -22,7 +22,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
 The following features are included in this release:
 
-- Ability for administrators to view PSS logs and Operations Set logs from the settings menu.  The logs will be stored for 90 days.
+- Ability for administrators to view PSS logs and Operations Set logs from the settings menu. The logs are stored for 90 days.
 
 ## Project Operations dual-write maps updates
 
@@ -66,7 +66,7 @@ If you encounter an issue starting the map, follow the instructions in the [Miss
 | Resource Management           | 2277249              | An error occurs when a non-project-based resource requirement is updated.                                                                                                            |
 | Resource Management           | 2323869              | Resource utilization doesn't correctly recognize filtered resources.                                                                                                                                             |
 | Time and Expense              | 2176538              | Incorrect filter operators are applied to the **Time Entry** control.                                                                                                                                                   |
-| Time and Expense              | 2177462              | Deleting a time entry in the grid does not update the **Submit**, **Recall**, **Delete**, and **Edit Entry** button status as expected.                                                                                        |
+| Time and Expense              | 2177462              | Deleting a time entry in the grid doesn't update the **Submit**, **Recall**, **Delete**, and **Edit Entry** button status as expected.                                                                                        |
 | Time and Expense              | 2299985              | **TimeEntriesImportFromResourceAssignment** doesn't maintain the start/end time from the assignment contours.                                                                                                  |
 | Time and Expense              | 2318426              | After a time entry is submitted, locked fields can still be edited.                                                                                                                                   |
 | Time and Expense              | 2323749              | An error occurs when an expense is created from the **Related** tab of a bookable resource.                                                                                                      |
