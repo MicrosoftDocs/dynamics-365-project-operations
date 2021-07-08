@@ -41,7 +41,7 @@ When the **Legal entity for intercompany tax posting** parameter is set to **Sou
 For legal entities in the United States, when the parameter is set to **Source**, the **Sales tax receivable** field must also be configured on the new **Ledger posting groups** page. The accounting engine will use the information from this field for tax-related accounting entry.   
 The behavior is consistent for expense lines posted with or without a project.  
 
-# New expense expression builder to address issues with the inter-company expenses scenarios that use projects
+## New expense expression builder to address issues with the inter-company expenses scenarios that use projects
 This feature ensures that when creating intercompany expenses, the expense policy is correctly validated against the project selected in the expense line, and that the expense report can be successfully submitted.
 
 For the feature to work, the feature must be enabled first, and then the expense policy with project id should be set up. 
