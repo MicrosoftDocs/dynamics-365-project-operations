@@ -7,6 +7,7 @@ ms.topic: article
 ms.prod: 
 ms.reviewer: kfend 
 ms.author: rumant 
+ms.custom: "intro-internal"
 --- 
 
 # Pricing dimensions overview

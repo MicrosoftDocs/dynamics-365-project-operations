@@ -21,7 +21,7 @@ Time and expense entries create **Actual** transactions which represent the oper
 Records in the Project Operations Integration journal are created using periodic process, **Import from staging table**. You can run this process by going to **Dynamics 365 Finance** > **Project management and accounting** > **Periodic** > **Project Operations Integration** > **Import from staging table**. You can run the process interactively or configure the process to run in the background as needed.
 
 When the periodic process runs, any actuals that aren't yet added to the Project Operations Integration journal are found. A journal line for each actual transaction is created.
-The system groups journal lines into separate journals based on the value selected in the **Period unit on Project Operations Integration journal** field (**Finance** > **Project management and accounting** > **Setup** > **Project management and accounting parameters**, **Project Operations on Dynamics 365 Customer Engagement*** tab). Possible values for this field include:
+The system groups journal lines into separate journals based on the value selected in the **Period unit on Project Operations Integration journal** field (**Finance** > **Project management and accounting** > **Setup** > **Project management and accounting parameters**, **Project Operations on Dynamics 365 Customer Engagement** tab). Possible values for this field include:
 
   - **Days**: Actuals are grouped by transaction date. A separate journal is created for each day.
   - **Months**: Actuals are grouped by calendar month. A separate journal is created for each month.

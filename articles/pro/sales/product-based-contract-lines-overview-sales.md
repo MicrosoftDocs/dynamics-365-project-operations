@@ -6,6 +6,7 @@ ms.date: 10/07/2020
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: rumant
+ms.custom: "intro-internal"
 ---
 
 # Product-based contract lines overview - lite

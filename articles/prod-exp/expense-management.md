@@ -18,7 +18,7 @@ audience: Application User, IT Pro
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
-ms.custom: 15001
+ms.custom: "intro-internal"
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 # ms.search.industry: 

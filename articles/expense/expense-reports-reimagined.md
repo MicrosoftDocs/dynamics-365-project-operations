@@ -13,7 +13,7 @@ ms.prod:
 
 ms.search.form: 
 audience: Application User
-# ms.devlang: 
+# ms.devlan: 
 ms.reviewer: kfend
 ms.search.scope: 
 # ms.tgt_pltfrm: 
@@ -31,13 +31,13 @@ Expense report entry has been redesigned to simplify the process and reduce the 
 
 - A new expense management workspace that lets you access your delegate's expenses.
 - A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.
-- A new read-only grid that lets you view many more expense lines and additional columns of data. You can now see all itemized and split lines, together with their parent expenses.
+- A new read-only grid that lets you view many more expense lines and other columns of data. You can now see all itemized and split lines, together with their parent expenses.
 - A simplified pane for editing expenses.
 - Redesigned error, warning, and policy messages to provide the correct context and understanding of the issue and how to resolve it. We have removed several of the messages that appeared before users could complete their tasks and address the issues.
 - A new page to specify required fields, optional fields, and the fields that should not be included. This page helps to reduce the number of fields that must be set.
 - A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.
 
-To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined** feature. When you turn on this feature, the following actions occur:
+To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined workspace** feature. When you turn on this feature, the following actions occur:
 
 - The existing expense workspace is replaced with the new workspace.
 - A new menu item for expense field visibility is added.
@@ -50,7 +50,7 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 
 | New feature | Description |
 |---|----|
-| Expense field visibility | A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended. |
+| Expense field visibility | A new setup page lets you specify which fields should be disabled for an organization. You can also specify which fields should be required, and which fields are recommended. |
 | Required fields | New simple configuration lets you make some fields required without having to use the policy framework. |
 | Optional fields | A second page for optional fields is added. In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible. |
 | Add unattached receipts | The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report. |
@@ -69,7 +69,8 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 
 The initial release is focused on expense entry scenarios. Any expense report review or approval scenario will continue to use the existing expense entry page.
 
-The following features aren't supported on the Reimagined Expense Workspace, but are planned to a future release.
+
+The following features aren't supported on the Expense reports reimagined workspace, but are planned for future releases: 
 
 - Travel requisition integration
 - Per diem expense entry

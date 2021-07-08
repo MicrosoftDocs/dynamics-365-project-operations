@@ -18,7 +18,7 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
-ms.custom: 23861
+ms.custom: "intro-internal"
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 # ms.search.industry: 

@@ -28,6 +28,8 @@
         href: environment/resource-apply-pro-setup-config-data.md
     - name: Deploy environments
       items:
+      - name: Manually deploy the Project Operations Dataverse app with dual-write support
+        href: environment/resource-manual-deploy-dataverse-dualwrite.md
       - name: Provision a new environment
         href: environment/resource-provision-new-environment.md
       - name: Security model
@@ -52,6 +54,10 @@
         href: environment/resource-dual-write-vendor-invoice.md  
   - name: What's new 
     items:
+    - name: July 2021 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-july-2021-resource-based.md
+    - name: June 2021 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-june-2021-resource-based.md
     - name: May 2021 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-may-2021-resource-based.md
     - name: April 2021 - Project Operations for resource/non-stocked based scenarios
@@ -282,7 +288,7 @@
       items:
       - name: Develop project templates with Copy Project
         href: project-management/dev-copy-project.md
-      - name: Use Schedule APIs (Public Preview)
+      - name: Use Project schedule APIs (Public Preview)
         href: project-management/schedule-api-preview.md
   - name: Resource management
     items: 
@@ -436,8 +442,6 @@
     items:
     - name: Invoicing process overview
       href: invoicing/post-project-invoices.md
-    - name: Manage project invoice proposals
-      href: invoicing/format-update-project-invoice-proposals.md 
     - name: Proforma invoicing
       items:
       - name: Manage project-based billing backlog
@@ -456,8 +460,22 @@
         href: proforma-invoicing/corrective-invoices.md
       - name: Configure project-based invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
-    - name: Manage project invoice proposals
-      href: invoicing/format-update-project-invoice-proposals.md
+    - name: Customer invoicing
+      items:  
+      - name: Manage project invoice proposals
+        href: invoicing/format-update-project-invoice-proposals.md
+      - name: Correct accounting on draft project invoice proposals
+        href: invoicing/correct-project-invoice-proposals.md
+    - name: Intercompany invoicing
+      items: 
+      - name: Intercompany invoicing overview
+        href: project-accounting/intercompany-invoicing-overview.md
+      - name: Configure intercompany invoicing
+        href: project-accounting/configure-intercompany-invoicing.md
+      - name: Create intercompany transactions
+        href: project-accounting/create-intercompany-transactions.md
+      - name: Create intercompany customer and vendor invoices
+        href: project-accounting/create-intercompany-customer-vendor-invoices.md
   - name: Project accounting
     items:
     - name: Financial dimension defaults
@@ -470,16 +488,6 @@
       href: project-accounting/configure-accounting-billable-projects.md
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
-    - name: Intercompany invoicing
-      items: 
-      - name: Intercompany invoicing overview
-        href: project-accounting/intercompany-invoicing-overview.md
-      - name: Configure intercompany invoicing
-        href: project-accounting/configure-intercompany-invoicing.md
-      - name: Create intercompany transactions
-        href: project-accounting/create-intercompany-transactions.md
-      - name: Create intercompany customer and vendor invoices
-        href: project-accounting/create-intercompany-customer-vendor-invoices.md
   - name: Revenue recognition
     items:
     - name: Revenue recognition overview
@@ -512,6 +520,10 @@
       href: environment/security-model.md
   - name: What's new
     items:
+    - name: What's new July 2021 - lite deployment
+      href: pro/whats-new/whats-new-july-2021-lite.md
+    - name: What's new June 2021 - lite deployment
+      href: pro/whats-new/whats-new-june-2021-lite.md
     - name: What's new May 2021 - lite deployment
       href: pro/whats-new/whats-new-may-2021-lite.md
     - name: What's new April 2021 - lite deployment
@@ -762,7 +774,7 @@
       items:
       - name: Develop project templates with Copy Project
         href: project-management/dev-copy-project.md
-      - name: Use Schedule APIs (Public Preview)
+      - name: Use Project schedule APIs (Public Preview)
         href: project-management/schedule-api-preview.md
   - name: Resource management
     items: 
@@ -882,6 +894,10 @@
   items: 
   - name: What's new
     items:
+    - name: What's new July 2021 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+    - name: What's new May 2021 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-may-2021-stocked.md
     - name: What's new April 2021 - Project Operations for stocked/production-based scenarios
       href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
     - name: What's new March 2021 - Project Operations for stocked/production-based scenarios
@@ -1034,6 +1050,10 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update Release 33, V3
+      href: psa/whats-new-ur-33.md
+    - name: What's new or changed in Update Release 32.5, V3
+      href: psa/whats-new-ur-32-5.md
     - name: What's new or changed in Update Release 32, V3
       href: psa/whats-new-ur-32.md
     - name: What's new or changed in Update Release 31, V3

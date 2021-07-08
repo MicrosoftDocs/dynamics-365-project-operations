@@ -6,6 +6,7 @@ ms.date: 01/29/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
+ms.custom: "intro-internal"
 ---
 
 # Invoicing process overview
