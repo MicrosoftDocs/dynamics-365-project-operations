@@ -3,7 +3,7 @@
 
 title: Intercompany expenses
 description: This topic provides information about how to use intercompany expenses to assign a worker’s expenses to the legal entity for which the work was performed.
-author: ShylaThompson
+author: Surya Vaidyanathan
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: 
@@ -20,7 +20,7 @@ ms.search.scope: Core, Operations
 # ms.custom: 
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 
@@ -41,5 +41,12 @@ When the **Legal entity for intercompany tax posting** parameter is set to **Sou
 For legal entities in the United States, when the parameter is set to **Source**, the **Sales tax receivable** field must also be configured on the new **Ledger posting groups** page. The accounting engine will use the information from this field for tax-related accounting entry.   
 The behavior is consistent for expense lines posted with or without a project.  
 
+# New expense expression builder to address issues with the inter-company expenses scenarios that use projects
+This feature ensures that when creating intercompany expenses, the expense policy is correctly validated against the project selected in the expense line, and that the expense report can be successfully submitted.
+
+For the feature to work, the feature must be enabled first, and then the expense policy with project id should be set up. 
+Alternatively, if you have already configured policies, which validate the Project id on the expense line, those must be retired first, then the feature enabled, and the policy reconfigured.
+
+To enable the feature, go to **Workspaces-> Feature Management-- > New expense expression builder to address issues with the inter-company expenses scenarios that use projects**
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
