@@ -43,14 +43,14 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |<strong>Station 1</strong> | |  |  | |
 | | <i>First Release</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | July 28, 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 06, 2021
-| | <i>Canada</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 06, 2021
-| | <i>India</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 06, 2021
-| | <i>France</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 06, 2021
-| | <i>United Arab Emirates</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 06, 2021
-| | <i>South Africa</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 06, 2021
-| | <i>Germany</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 06, 2021
-| | <i>Switzerland</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 06, 2021
+| | <i>South America</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
+| | <i>Canada</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
+| | <i>India</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
+| | <i>France</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
+| | <i>United Arab Emirates</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
+| | <i>South Africa</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
+| | <i>Germany</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
+| | <i>Switzerland</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | July 16, 2021
 | | <i>Asia Pacific</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | July 16, 2021
@@ -62,7 +62,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>North America</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | July 30, 2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | July 30, 2021
-| | <i>Dedicated Scale Groups</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | August 06, 2021
+| | <i>Dedicated Scale Groups</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | August 6, 2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) indicate the timing of the next automatic update. Dates in GCC indicate version availability; at this time, there is no automatic update for these regions.
