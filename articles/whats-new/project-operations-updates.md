@@ -42,23 +42,23 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.12.0.148     | Complete     | 09-July-21          | TBD                 | 06-August-21        |
+|   &nbsp;  | First Release         |  4.12.0.148     | Complete     | Complete            | TBD                 | 06-August-21        |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;       |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.12.0.148     | 09-July-21   | 16-July-21          | TBD                 | 06-August-21        |
-|    &nbsp; | Canada                |  4.12.0.148     | 09-July-21   | 16-July-21          | TBD                 | 06-August-21        |
-|   &nbsp;  | India                 |  4.12.0.148     | 09-July-21   | 16-July-21          | TBD                 | 06-August-21        |
-|   &nbsp;  | France                |  4.12.0.148     | 09-July-21   | 16-July-21          | TBD                 | 06-August-21        |
-|   &nbsp;  | United Arab Emirates  |  4.12.0.148     | 09-July-21   | 16-July-21          | TBD                 | 06-August-21        |
-|   &nbsp;  | South Africa          |  4.12.0.148     | 09-July-21   | 16-July-21          | TBD                 | 06-August-21        |
+|   &nbsp;  | South America         |  4.12.0.148     | Complete     | 16-July-21          | TBD                 | 06-August-21        |
+|    &nbsp; | Canada                |  4.12.0.148     | Complete     | 16-July-21          | TBD                 | 06-August-21        |
+|   &nbsp;  | India                 |  4.12.0.148     | Complete     | 16-July-21          | TBD                 | 06-August-21        |
+|   &nbsp;  | France                |  4.12.0.148     | Complete     | 16-July-21          | TBD                 | 06-August-21        |
+|   &nbsp;  | United Arab Emirates  |  4.12.0.148     | Complete     | 16-July-21          | TBD                 | 06-August-21        |
+|   &nbsp;  | South Africa          |  4.12.0.148     | Complete     | 16-July-21          | TBD                 | 06-August-21        |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.11.0.164     | Complete     | Complete            | 4.12.0.148          | 09-July-21          |
-|   &nbsp;  | Asia Pacific          |  4.11.0.164     | Complete     | Complete            | 4.12.0.148          | 09-July-21          |
-|   &nbsp;  | Great Britain         |  4.11.0.164     | Complete     | Complete            | 4.12.0.148          | 09-July-21          |
-|   &nbsp;  | Oceania               |  4.11.0.164     | Complete     | Complete            | 4.12.0.148          | 09-July-21          |
+|   &nbsp;  | Japan                 |  4.12.0.148     | 16-July-21   | 23-July-21          | TBD                 | 13-August-21        |
+|   &nbsp;  | Asia Pacific          |  4.12.0.148     | 16-July-21   | 23-July-21          | TBD                 | 13-August-21        |
+|   &nbsp;  | Great Britain         |  4.12.0.148     | 16-July-21   | 23-July-21          | TBD                 | 13-August-21        |
+|   &nbsp;  | Oceania               |  4.12.0.148     | 16-July-21   | 23-July-21          | TBD                 | 13-August-21        |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Europe                |  4.11.0.164     | Complete     | Complete            | 4.12.0.148          | 16-July-21          |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;   |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.11.0.164     | Complete     | 09-July-21          | 4.12.0.148          | 23-July-21          |
+|   &nbsp;  | North America         |  4.11.0.164     | Complete     | Complete            | 4.12.0.148          | 23-July-21          |
 
 
 
