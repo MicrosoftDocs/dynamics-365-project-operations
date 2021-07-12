@@ -4,7 +4,7 @@
 title: Expense reports reimagined
 description: This topic explains the redesigned and reimagined experience for expense report entry.
 author: suvaidya
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: 
 #
@@ -13,7 +13,7 @@ ms.prod:
 
 ms.search.form: 
 audience: Application User
-# ms.devlang: 
+# ms.devlan: 
 ms.reviewer: kfend
 ms.search.scope: 
 # ms.tgt_pltfrm: 
@@ -62,12 +62,13 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 | Exchange rate calculator | An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions. |
 | Save and add new expense lines | **Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines. |
 | Better visibility into split and itemized lines | Itemized and split lines are added directly to the list of expenses to increase visibility and help you easily determine whether there are any errors. |
-| View subcategory details in itemized lines | Itemized lines of a parent expense show the subcategory labels in the expense report, which helps you to review the granular details at a glance.|
+| View subcategory details in itemized lines | Itemized lines of a parent expense show the subcategory labels on the expense report. The itemization lets you  review the granular details at a glance.|
 | Show receipts during itemization | Receipts can be shown during itemization. |
 | Cash advance selection | Select one or more cash advances for fulfilling a single expense transaction. |
 | Cash advance balance | Review the cash advance balance in real time when you create an expense entry against approved and paid cash advances. |
 
 The initial release is focused on expense entry scenarios. Any expense report review or approval scenario will continue to use the existing expense entry page.
+
 
 The following features aren't supported on the Expense reports reimagined workspace, but are planned for future releases: 
 

@@ -3,8 +3,8 @@
 
 title: Intercompany expenses
 description: This topic provides information about how to use intercompany expenses to assign a worker’s expenses to the legal entity for which the work was performed.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -20,7 +20,7 @@ ms.search.scope: Core, Operations
 # ms.custom: 
 ms.search.region: Global
 # ms.search.industry: 
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 
@@ -41,5 +41,17 @@ When the **Legal entity for intercompany tax posting** parameter is set to **Sou
 For legal entities in the United States, when the parameter is set to **Source**, the **Sales tax receivable** field must also be configured on the new **Ledger posting groups** page. The accounting engine will use the information from this field for tax-related accounting entry.   
 The behavior is consistent for expense lines posted with or without a project.  
 
+## New expense expression builder
+
+The new expense expression builder addresses issues with intercompany expense scenarios that use projects. This feature ensures that, when you create an intercompany expense, the expense policy is correctly validated against the project that is selected on the expense line, and that the expense report can be successfully submitted.
+
+For the expense expression builder feature to work, it must be turned on. Additionally, the expense policy that has a project ID should be set up.
+
+If you've already configured policies that validate the project ID on the expense line, those policies must be retired. You can then turn on the feature and reconfigure the policies.
+
+To turn on the feature, follow these steps.
+
+1. Go to **Workspaces** \> **Feature Management**.
+2. In the list, select **New expense expression builder to address issues with the inter-company expenses scenarios that use projects**. Then select **Enable now**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
