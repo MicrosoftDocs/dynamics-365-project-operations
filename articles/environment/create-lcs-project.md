@@ -19,13 +19,13 @@ Use Lifecycle Services (LCS) to manage you Dynamics 365 Project Operations envir
 3. Select the plus sign ( **+** ) to create a new project.
 4. For preview purposes, select **Migrate, create solutions, and learn** project type.
 
-  ![Pick LCS project type](./media/create-lcs-1.png)
+  ![Pick LCS project type.](./media/create-lcs-1.png)
 
 5. Name the project. 
 6. Select **Finance and Operations** as the product name, and select the industry and methodology. 
 7. Select **Create**.
 
-![Create LCS project](./media/create-lcs-2.png)
+![Create LCS project.](./media/create-lcs-2.png)
 
 Use this LCS project to deploy your Project Operations environment.
 

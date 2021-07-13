@@ -81,7 +81,7 @@ Professional service organizations typically quote and invoice their customers b
 
 One or more of these transaction classifications can be associated with each quote line. After a quote is won, the mapping between transaction classification and quote line is transferred to the contract line.
  
-> ![Screenshot of mapping transaction types to quote and contract lines](media/basic-guide-5.png)
+> ![Screenshot of mapping transaction types to quote and contract lines.](media/basic-guide-5.png)
   
 For example, a quote might contain the following two quote lines: 
 - Consulting work that uses a Time and material billing method where time and fee transaction classifications are applicable. For example, all time and fee transactions for the **Dynamics AX Implementation** example project are invoiced to the customer based on the time and materials that are used. 

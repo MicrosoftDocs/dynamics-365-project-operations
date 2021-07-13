@@ -18,7 +18,7 @@ Project Operations uses [dual-write capabilities](/dynamics365/fin-ops-core/dev-
 
 The following illustration shows how data is synchronized as part of this integration between Dataverse and Finance.
 
-![Project Operations data flows overview](./media/ProjectOperationsFlows.jpg)
+![Project Operations data flows overview.](./media/ProjectOperationsFlows.jpg)
 
 Project Operations on Dataverse provides a modern user interface (UI) and easy no-code/low-code extensibility using Power Platform capabilities. Project managers, Resource managers, Project team members, and other front-office personas, perform their activities in Project Operations on Dataverse.
 

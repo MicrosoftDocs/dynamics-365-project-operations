@@ -14,7 +14,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Time and expense entries create **Actual** transactions which represent the operational view of work completed against a project. Dynamics 365 Project Operations provides accountants with a tool to review transactions and adjust the accounting attributes as needed. After the review and adjustments are complete, the transactions are posted to the Project subledger and General ledger. An accountant can perform these activities using the **Project Operations Integration** journal(**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration** journal.
 
-![Integration journal flow](./media/IntegrationJournal.png)
+![Integration journal flow.](./media/IntegrationJournal.png)
 
 ### Create records in the Project Operations Integration journal
 

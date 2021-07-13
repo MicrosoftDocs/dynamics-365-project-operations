@@ -47,11 +47,11 @@ For a field to become a pricing dimension, it must be:
 
 - Created as a row in the **Pricing Dimension** table. For example, add pricing dimension rows as shown in the following graphic. 
 
-![Amount - based Pricing Dimension Rows](media/Amt-based-PD.png)
+![Amount - based Pricing Dimension Rows.](media/Amt-based-PD.png)
 
 Resource Work hours (**msdyn_resourceworkhours**) is added as a markup-based dimension and has been added to the grid on the **Markup Based Pricing Dimension** tab.
 
-![Markup - based Pricing Dimension Rows](media/Markup-based-PD.png)
+![Markup - based Pricing Dimension Rows.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]

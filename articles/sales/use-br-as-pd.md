@@ -60,18 +60,18 @@ The pricing dimension record for **msydn_bookableresource** must be notified of 
 1. Double-click the row in the **Pricing Dimensions** grid to open the dimension page of **msdyn_bookableresource**.
 2. On dimension page, on the **Related** tab, select **Pricing Dimension Field Names**.
 
-  ![Pricing dimension field names tab](media/PD-fieldname.png)
+  ![Pricing dimension field names tab.](media/PD-fieldname.png)
 
 3. In the associated view that opens, select **Add New Pricing Dimension Field Name**.
 
-  ![Add New Pricing Dimension Field Names](media/Add-NewPD-fieldname.png)
+  ![Add New Pricing Dimension Field Names.](media/Add-NewPD-fieldname.png)
 
   This opens the **New Pricing dimension field name** page for **msdyn_bookableresource**. 
 
 4. On the **New Pricing Dimension Field Name** page, add **msdyn_projectteam** to **Entity Locigal Name**.
 5. Add  **msdyn_bookableresourceid** to **Field Name**.
 
- ![New Pricing dimension field name form](media/PD-fieldname-Added.png)
+ ![New Pricing dimension field name form.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

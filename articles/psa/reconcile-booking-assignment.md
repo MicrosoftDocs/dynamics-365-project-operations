@@ -46,11 +46,11 @@ In some cases, when the **Timescale** field is set to a level that is higher tha
 
 When you view higher time levels, the **Reconciliation** tab shows a cell indicator to notify you that there are differences at lower time levels. For example, in the following illustration, a cell indicator appears in the cell for the month of October 2018 for the resource that is named Katelyn Merritt. Therefore, you can see that, even though the resource's bookings and assignments are equal when they are aggregated at the **Month** level, they don't match at lower levels.
 
-![Mismatched bookings and assignments at the monthly level](media/reconcile-assignments-01.JPG)
+![Mismatched bookings and assignments at the monthly level.](media/reconcile-assignments-01.JPG)
 
 Double-click a cell to zoom in to the next lower level and view the difference. For example, if you double-click the October 2018 difference for Katelyn Merritt, you drill down to the **Week** level. You can then see that the resource has bookings of 16 hours but no assignments in the first two weeks of October, and 16 hours of assignments but no bookings in the third week of October.
 
-![Mismatched bookings and assignments at the weekly level](media/reconcile-assignments-02.JPG)
+![Mismatched bookings and assignments at the weekly level.](media/reconcile-assignments-02.JPG)
 
 You can right-click a cell to zoom out the next higher level. You can also turn off the cell indicator by selecting the **Settings** button. 
 
@@ -63,13 +63,13 @@ To ensure accurate and predictable results when using Extend Booking, there are 
 
 - The user must configure their device's time zone to match the time zone defined in your system's Personalization Settings.
  
-  ![Time zone settings in Windows 10](media/reconcile-assignments-03.png)
+  ![Time zone settings in Windows 10.](media/reconcile-assignments-03.png)
 
-  ![Time zone settings in personalization settings](media/reconcile-assignments-04.png)
+  ![Time zone settings in personalization settings.](media/reconcile-assignments-04.png)
  
 - The Bookable Resource must have at least one minute of working time that overlaps with the contours that are used to define the requested extension. For instance, the following example shows review resources with working hours that fall between 9:00 AM and 7:00 PM. 
 
-  ![Comparison of resource contours](media/reconcile-assignments-05.png)
+  ![Comparison of resource contours.](media/reconcile-assignments-05.png)
 
 The following table shows:
 
@@ -80,20 +80,20 @@ The following table shows:
 
 |Entity  |Calendar  |
 |-|-|
-|Project calendar template   | ![project calendar](media/reconcile-assignments-06.png) |
-|Resource A  | ![Resource A calendar](media/reconcile-assignments-06.png) |
-|Resource B  |  ![Resource B calendar](media/reconcile-assignments-07.png) |
-|Resource C  |  ![Resource C calendar](media/reconcile-assignments-08.png) |
-|Resource D  | ![Resource D calendar](media/reconcile-assignments-09.png)  |
+|Project calendar template   | ![project calendar.](media/reconcile-assignments-06.png) |
+|Resource A  | ![Resource A calendar.](media/reconcile-assignments-06.png) |
+|Resource B  |  ![Resource B calendar.](media/reconcile-assignments-07.png) |
+|Resource C  |  ![Resource C calendar.](media/reconcile-assignments-08.png) |
+|Resource D  | ![Resource D calendar.](media/reconcile-assignments-09.png)  |
  
 When you navigate to the reconciliation view, the resource assignments and the associated booking shortages will be displayed.
- ![Reconciliation view before extension](media/reconcile-assignments-10.png)
+ ![Reconciliation view before extension.](media/reconcile-assignments-10.png)
 
 After the Extend Booking functionality has been executed on each resource, bookings are successfully extended for each resource. This is because each resource’s working hours overlapped with the contours of the shortage.
- ![Reconciliation view after booking extension](media/reconcile-assignments-11.png) 
+ ![Reconciliation view after booking extension.](media/reconcile-assignments-11.png) 
 
 However, a closer look at the details of the bookings shows differences in the start time of the bookings. The bookings will start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource.
- ![New bookings of the resources in the schedule board](media/reconcile-assignments-12.png)
+ ![New bookings of the resources in the schedule board.](media/reconcile-assignments-12.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

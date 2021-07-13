@@ -28,7 +28,7 @@ This topic provides information about how to update Dynamics 365 Project Operati
 4. Verify that the environment is running. If it isn't started, start the environment.
 5. In the **New release** section under **Available updates**, select **View update** for 10.0.15.
 
-![View update button](media/view-update.png)
+![View update button.](media/view-update.png)
 
 6. On the **Binary updates** page, select **Save package**.
 7. On the **Review and save updates** page, select **Save package**.
@@ -42,11 +42,11 @@ This topic provides information about how to update Dynamics 365 Project Operati
 2. From the list, select the package that you saved earlier, and then select **Apply**.
 3. Select **Yes** to confirm that you want to deploy the package.
 
-![Confirm package deployment dialog box](media/confirm-package-deployment.png)
+![Confirm package deployment dialog box.](media/confirm-package-deployment.png)
 
 4. Select **Yes** to confirm that you want to update the application.
 
-![Confirm application update dialog box](media/confirm-application-update.png)
+![Confirm application update dialog box.](media/confirm-application-update.png)
 
 The deployment and application update will start. 
 
@@ -80,7 +80,7 @@ The following updates to the security privileges for entities are required as pa
 
 1. In your Dataverse environment, go to **Settings**, and in the **System** group, select **Security**.
 
-![Dataverse environment settings](media/Picture21.png)
+![Dataverse environment settings.](media/Picture21.png)
 
 2. Select **Security Roles**.
 3. From the list of roles, select **dual-write app user** and select the **Custom Entities** tab. 
@@ -117,7 +117,7 @@ The following updates to the security privileges for entities are required as pa
 6. From the list of maps, select the **Ledger (msdyn_ledgers)** map with all prerequisites and select the **Initial sync** check box. 
 7. In the **Master for initial sync** field, select **Finance and Operations apps** and then select **Run**.
  
- ![Ledger map synchronization](media/DW6.png)
+ ![Ledger map synchronization.](media/DW6.png)
  
 
 

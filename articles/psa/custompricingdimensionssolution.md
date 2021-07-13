@@ -28,7 +28,7 @@ search.app:
 1. Select **Settings** > **Solutions**, and then select **New**. 
 2. Name the solution, **\<your organization name> pricing dimensions**, enter the remaining required information, and then select **Save**.
 
-> ![Creating a custom solution for pricing dimensions](media/Creation-of-custom-pricing-dimension-solution.PNG)
+> ![Creating a custom solution for pricing dimensions.](media/Creation-of-custom-pricing-dimension-solution.PNG)
   
 ## Add all required entities and related components to the Pricing dimension solution
 You will need to add the following Project Service entities to your pricing solution. Complete the steps in this procedure to make some important schema changes in the pricing solution so that the entities become aware of the new pricing dimensions.
@@ -50,16 +50,16 @@ You will need to add the following Project Service entities to your pricing solu
 - Role Price 
 - Time Entry 
 
-> ![Add existing entities to the pricing dimensions solution](media/Existing-entities-to-PD-solution.png)
+> ![Add existing entities to the pricing dimensions solution.](media/Existing-entities-to-PD-solution.png)
 
-> ![Select solution components](media/Dimension-Components.png)
+> ![Select solution components.](media/Dimension-Components.png)
 
 > [!NOTE]
 > Make sure to include all forms and views for each of the entities selected.
 
 4. When prompted to include any dependent entities for the selected entities, select **No**.
 
-> ![Do not include all related components](media/Do-not-include-required.png)
+> ![Do not include all related components.](media/Do-not-include-required.png)
 
 
 

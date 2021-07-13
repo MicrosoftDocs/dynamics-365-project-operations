@@ -43,7 +43,7 @@ One challenge for project managers and resource managers during the project plan
 - Estimate the number of resources that are required for the whole life cycle of a project.
 - Draft a work breakdown structure (WBS) by using the initial resource assignments.
 
-[![Project life cycle](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Project life cycle.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 As project planning proceeds, planned resources can be replaced with staffed resources. The project manager can also go back and update the resourcing reservations during any project stage.
 

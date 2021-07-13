@@ -29,7 +29,7 @@ Because of this, there are two types of pricing dimension values available:
 Dynamics 365 Project Operations ships with a default set of pricing dimensions. You can view these pricing dimensions by going to **Project Operations** > **Parameters**. In the parameter record, on the **Amount-based pricing dimensions** tab, verify that the role, **msdyn_resourcecategory** and resourcing organizational unit, **msdyn_organizationalunit** have the fields **Applicable to sales** and **Applicable to cost** set to **Yes**. 
 With these fields enabled, you can set up the price and cost for each role and organizational unit combination.
 
-![Screenshot of Project Service parameters with “Applicable to Sales” highlighted](media/PS-OOB-parameters.png)
+![Screenshot of Project Service parameters with “Applicable to Sales” highlighted.](media/PS-OOB-parameters.png)
 
 If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics. 
   

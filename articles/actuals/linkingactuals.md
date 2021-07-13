@@ -72,7 +72,7 @@ Together, **Transaction origin** and **Transaction connection** help you track r
 
 The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
-> ![Processing time entires in a Project Service life cycle](media/basic-guide-17.png)
+> ![Processing time entires in a Project Service life cycle.](media/basic-guide-17.png)
  
 1. A time entry submission creates two journal lines: one line for cost and one line for unbilled sales.
 2. Eventual approval of the time entry creates two actuals: one actual for cost and one actual for unbilled sales.

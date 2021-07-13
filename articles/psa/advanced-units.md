@@ -41,7 +41,7 @@ For example, in a **Time** unit group, if you set up **Hour** as the first unit,
 
 The following image shows an example setup for the **Day** unit, where the **Quantity** field shows the number of hours that are in a day, and **Week**, where the **Quantity** field show the number of days that are in a week.
 
-> ![Unit group: Information page](media/advanced-2.png)
+> ![Unit group: Information page.](media/advanced-2.png)
 
 ## Using units and unit groups
 

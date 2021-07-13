@@ -50,7 +50,7 @@ PSA also adds new quote-related entities to the Dynamics 365 data model. Here ar
 
 Other entities that PSA adds to quotes are **Quote Line Project Price List**, **Quote Line Resource Category**, and **Quote Line Transaction Category**.
 
-![Diagram showing quote, quote line, and project relationships](media/PS-Reporting-image2.png "Diagram showing quote, quote line, and project relationships")
+![Diagram showing quote, quote line, and project relationships.](media/PS-Reporting-image2.png "Diagram showing quote, quote line, and project relationships")
 
 ## Reporting on project contracts
 
@@ -66,7 +66,7 @@ PSA also adds new entities that are designed for project contracts. Here are som
 
 Other entities that PSA adds to contracts are **Project Contract Line Project Price List**, **Project Contract Line Resource Category**, and **Project Contract Line Transaction Category**.
 
-![Diagram showing order, order line, and project relationships](media/PS-Reporting-image3.png "Diagram showing order, order line, and project relationships")
+![Diagram showing order, order line, and project relationships.](media/PS-Reporting-image3.png "Diagram showing order, order line, and project relationships")
 
 ## Reporting on projects
 
@@ -78,7 +78,7 @@ The **Projects** entity and its related entities are exclusive to PSA. **Project
 - **Resource Requirement** – This entity contains the requirements for any generic resource team members.
 - **Estimate** and **Estimate line** – These entities have a header/line relationship and contain expense estimates for the project. Task estimates are stored on the **Resource Estimate** entity.
 
-![Diagram showing resource requirement and project relationships](media/PS-Reporting-image4.png "Diagram showing resource requirement and project relationships")
+![Diagram showing resource requirement and project relationships.](media/PS-Reporting-image4.png "Diagram showing resource requirement and project relationships")
 
 ## Reporting on resources
 
@@ -89,7 +89,7 @@ Project resources use the **Bookable Resource** entities from Universal Resource
 - **Bookable Resource Category** – This entity represents the role of the bookable resource.
 - **Bookable resource bookings** – This entity represents the time that is booked on projects for the resource. Each booking has both a header entity and line entities, and each line has a status that represents the status of the booking.
 
-![Diagram showing bookable resource characteristics relationships](media/PS-Reporting-image5.png "Diagram showing bookable resource characteristics relationships")
+![Diagram showing bookable resource characteristics relationships.](media/PS-Reporting-image5.png "Diagram showing bookable resource characteristics relationships")
 
 ## Reporting on actual transactions
 
@@ -117,7 +117,7 @@ When you're working with the **Actual** entity, it's important that you understa
 
 The **Transaction Origin** entity records the origin of the **Actual** record, and the **Transaction Connection** entity records the related records for the **Actual** record. Additionally, the **Actual** record contains references the project, project contract (order), bookable resource, and customer.
 
-![Diagram showing transaction connection, origin and actual relationships](media/PS-Reporting-image6.png "Diagram showing transaction connection, origin and actual relationships")
+![Diagram showing transaction connection, origin and actual relationships.](media/PS-Reporting-image6.png "Diagram showing transaction connection, origin and actual relationships")
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

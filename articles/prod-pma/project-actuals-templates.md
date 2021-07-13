@@ -47,7 +47,7 @@ The Project Service Automation to Finance integration solution uses the Data int
 
 The following illustration shows how the data is synchronized between Project Service Automation and Finance.
 
-[![Data flow for Project Service Automation integration with Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Data flow for Project Service Automation integration with Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## Project actuals from Project Service Automation
 
@@ -98,9 +98,9 @@ To update the inserted conditional column in the template, click the **Map** arr
 
 The following illustrations show an example of the template task mapping in Data integration. The mapping shows the field information that will be synchronized from Project Service Automation to Finance.
 
-[![Template mapping - Actuals](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![Template mapping - Actuals.](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![Template mapping - Transaction connections](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![Template mapping - Transaction connections.](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## Import from staging table after integration from Project Service Automation
 
@@ -140,9 +140,9 @@ In the project actuals update template, you must use Power Query to complete the
 
 The following illustrations show examples of the template task mappings in Data integration. The mapping shows the field information that will be synchronized from Finance to Project Service Automation.
 
-[![Template mapping - Actuals update](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![Template mapping - Actuals update.](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![Template mapping - Transaction update](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![Template mapping - Transaction update.](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

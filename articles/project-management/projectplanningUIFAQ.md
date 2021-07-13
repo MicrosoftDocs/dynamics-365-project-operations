@@ -19,7 +19,7 @@ This topic describes how to fix issues that you might encounter while working wi
 
 Project Operations requires that third-party cookies be enabled in order to render the work breakdown structure. When third-party cookies aren't enabled, instead of seeing tasks, you will see a blank page when you select the **Tasks** tab on the **Project** page.
 
-![Blank tab when third party cookies are not enabled](media/blankschedule.png)
+![Blank tab when third party cookies are not enabled.](media/blankschedule.png)
 
 
 ### Workaround
@@ -47,7 +47,7 @@ For Microsoft Edge or Google Chrome browsers, the following procedures outline h
 Project Operations requires that a project parameter reference the PEX Endpoint. This endpoint is required to communicate with the service used to render the work breakdown structure. If the parameter isn't enabled, you will receive the error, "The project parameter is not valid". 
 
 ### Workaround
- ![PEX Endpoint field on the project parameter](media/projectparameter.png)
+ ![PEX Endpoint field on the project parameter.](media/projectparameter.png)
 
 1. Add the **PEX Endpoint** field to the **Project Parameters** page.
 2. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
@@ -62,7 +62,7 @@ Project Operations relies on an external scheduling service. The service require
 
 1. Go to **Setting > Security > Users > Application Users**.  
 
-   ![Application reader](media/applicationuser.jpg)
+   ![Application reader.](media/applicationuser.jpg)
    
 2. Double-click the application user record to verify the following:
 
@@ -71,7 +71,7 @@ Project Operations relies on an external scheduling service. The service require
  
 3. If this user doesn't exist, you can create a new user record. Select **New Users**. Change the entry form to **Application User**, and then add the **Application ID**.
 
-   ![Application user details](media/applicationuserdetails.jpg)
+   ![Application user details.](media/applicationuserdetails.jpg)
 
 4. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.
 5. Verify that the user can open project.microsoft.com.

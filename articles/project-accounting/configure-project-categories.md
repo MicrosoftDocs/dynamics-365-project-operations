@@ -18,7 +18,7 @@ The following diagram illustrates the correlation between transaction categories
 
 Transaction categories are the basic grouping for project transactions. Within that grouping, there is a set of shared categories that can be shared across applications and modules. Getting even further into specifics, project categories are the most granular level of categories. Project categories are specific to legal entity, module, and application.
 
-![Correlation between transaction categories, shared categories, and project categories](media/project-categories.png)
+![Correlation between transaction categories, shared categories, and project categories.](media/project-categories.png)
 
 ## Transaction categories
 

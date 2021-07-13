@@ -38,7 +38,7 @@ A pricing dimension can be an option set or an entity. Both must be created in y
 2. In Solution Explorer, on the left navigation pane, select **Entities**.
 3. Click **New** to create a new entity called **Standard Title**. Enter the remaining required information, and then click **Save**.
 
-> ![Standard title entity definition](media/Standard-Title-entity-definition.png)
+> ![Standard title entity definition.](media/Standard-Title-entity-definition.png)
 
 
 ### Option set-based dimensions 
@@ -49,9 +49,9 @@ You can create two option set-based dimensions. Use **Resource Work Location** t
 2. In Solution Explorer, on the left navigation pane, select  **Option Sets**. 
 3. Click **New** to create a new option set, enter the remaining required information, and then click **Save**.
 
-> ![Option set based pricing dimension called Resource Work Location ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Option set based pricing dimension called Resource Work Location .](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Option set based pricing dimension called Resource Work Hours ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Option set based pricing dimension called Resource Work Hours .](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## Create data for entity-based dimensions
@@ -63,7 +63,7 @@ You can create data for entity-based dimensions manually, or by using Microsoft 
 3. Close the form. 
 4. Repeat steps 1 - 3 to create another standard title for "Senior Systems Engineer".
 
-> ![Sample Data for Standard Title entity ](media/ST-data.png)
+> ![Sample Data for Standard Title entity .](media/ST-data.png)
 
 
 

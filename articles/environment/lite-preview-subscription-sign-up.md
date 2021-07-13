@@ -47,16 +47,16 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 
 1. Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
 
-  ![New environment](./media/19CreateEnvironment.png)
+  ![New environment.](./media/19CreateEnvironment.png)
 
 2. Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.  
 3. Select **Save** to create the environment.
 
-  ![Add database](./media/20CreateEnvironment1.png)
+  ![Add database.](./media/20CreateEnvironment1.png)
 
 4. After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution. 
 
-![Install Solution](./media/21InstallSolution.png)
+![Install Solution.](./media/21InstallSolution.png)
 
 ## Install a CDS configuration and setup demo data
 

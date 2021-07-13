@@ -52,7 +52,7 @@ When a custom pricing dimension is option set-based, add it as a field to key en
 > [!IMPORTANT]
 > When you add a field to more than one entity, use the same field name across all of the entities. 
 
-> ![Adding Resource Work Location to Role Price](media/RWL-Field.png)
+> ![Adding Resource Work Location to Role Price.](media/RWL-Field.png)
 
 In the sales and estimation phases for a project, estimates of the work effort that is required to complete **Local** and **Onsite** work, in **Regular hours** and **Overtime hours**  are used to estimate the value of the Quote/Project. The fields **Resource Work Location** and **Resource Work Hours** will be added to the estimation entities, **Quote Line Detail**, **Contract Line detail**, **Project Team Member**, and **Estimate Line**.
 
@@ -64,7 +64,7 @@ In the sales and estimation phases for a project, estimates of the work effort t
 6. Repeat steps 1 - 5 to add this field to the **Project Contract line detail**, **Project Team Member**, and **Estimate Line** entities.
 7. Repeat steps 1 - 6 for the **Resource Work Hours** option set. 
 
-> ![Adding Resource Work Location to Estimate Line](media/RWL-Default-Value.png)
+> ![Adding Resource Work Location to Estimate Line.](media/RWL-Default-Value.png)
 
 For delivery and invoicing, completed work needs to be accurately priced to select whether it was performed **Local** or **Onsite**, and whether it was completed during **Regular hours** or **Overtime** on the Project Actuals. The **Resource Work Location** and **Resource Work hours** fields should be added to the **Time Entry**, **Actual**, **Invoice Line Detail**, and **Journal Line** entities.
 
@@ -76,7 +76,7 @@ For delivery and invoicing, completed work needs to be accurately priced to sele
 6. Repeat steps 1 - 5 to add this field to the **Actual**, **Invoice Line Detail**, and **Journal Line** entities.
 7. Repeat steps 1 - 6 for the **Resource Work Hours** option set. 
 
-> ![Adding Resource Work Location to Time Entry](media/RWL-time-entry.png)
+> ![Adding Resource Work Location to Time Entry.](media/RWL-time-entry.png)
 
 This completes the schema changes required for option set-based custom dimensions.
 
@@ -89,7 +89,7 @@ When the custom pricing dimension is an entity, you will add 1:N relationships b
 3. Expand the **Standard Title** entity and select **1:N Relationships**.
 4. Select **New** to create a new 1:N relationship called **Standard Title to Bookable Resource**. Enter the required information, and then select **Save**.
 
-> ![Adding Standard Title as a reference field to Bookable Resource](media/ST-BR.png)
+> ![Adding Standard Title as a reference field to Bookable Resource.](media/ST-BR.png)
 
 The Standard Title will also need to be added to Pricing entities, **Role Price** and **Role Price Markup**. This is also completed using 1:N relationships between the **Standard Title** and **Role Price** entities and **Standard Title** and **Role Price Markup** entities.
 
@@ -107,13 +107,13 @@ In the sales and estimation phases for the project, to price the Quote/Project, 
 
 5. Repeat steps 1 - 5 to create 1:N relationships from **Standard Title** to **Quote line Detail**, **Project Contract Line Detail**, **Project Team Member**, and **Estimate Line**.
 
-> ![Adding Standard Title as a reference field to Estimate Line](media/ST-Estimate-Line.png)
+> ![Adding Standard Title as a reference field to Estimate Line.](media/ST-Estimate-Line.png)
 
   In the Delivery and Invoicing phases, the work completed by each standard title must be accurately priced on the Project Actuals. This means that there needs to be 1:N relationships from **Standard Title** to **Time Entry**, **Actual**, **Invoice Line Detail**, and **Journal Line entities**.
 
 6. Repeat steps 1 - 6 to create 1:N relationships from **Standard Title** to **Time Entry**, **Actual**, **Invoice Line Detail**, and **Journal Line entities**.
 
-> ![Adding Standard Title as a reference field to Time Entry](media/ST-Mapping.png)
+> ![Adding Standard Title as a reference field to Time Entry.](media/ST-Mapping.png)
 
 ### Set up Dimension value defaulting using the mappings features of the platform
 For Time Entry, it would be helpful to have the system default the standard title on the Time Entry from the Bookable Resource that is recording the time entry. Use the following steps to add field mappings on the 1:N relationship from **Bookable Resource** to **Time Entry**.
@@ -123,7 +123,7 @@ For Time Entry, it would be helpful to have the system default the standard titl
 3. Double-click **Bookable Resource to Time Entry**. On the **Relationship** page, select **Use Field mappings**. 
 4. Select **New** to create a new field mapping between the **Standard Title** field on the **Bookable Resource** entity to the **Standard Title** reference field on **Time Entry** entity. 
 
-> ![Setup field mappings to allow defaulting of Standard Title from Bookable Resource to Time Entry](media/ST-Mapping2.png)
+> ![Setup field mappings to allow defaulting of Standard Title from Bookable Resource to Time Entry.](media/ST-Mapping2.png)
 
 This completes the schema changes required for entity-based custom dimensions.
 

@@ -32,7 +32,7 @@ A financial estimate for time on a leaf node task is the sum of the financial es
 
 A financial estimate for time on a summary or parent task is the sum of the financial estimates on all of its child tasks. This is the estimated labor cost on the project. 
 
-![Resource Estimates](./media/navigation12.png)
+![Resource Estimates.](./media/navigation12.png)
 
 ## Default cost price and cost currency
 

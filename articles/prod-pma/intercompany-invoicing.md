@@ -38,7 +38,7 @@ Your organization might have multiple divisions, subsidiaries, and other legal e
 
 The following illustration shows a typical scenario where two legal entities, SI FR (the borrowing legal entity) and SI USA (the lending legal entity) share resources to deliver a project for customer A. For this scenario, SI FR is contracted to deliver the work to customer A. 
 
-[![Intercompany invoicing example](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
+[![Intercompany invoicing example.](./media/interco.invoicing-01.jpg)](./media/interco.invoicing-01.jpg) 
 
 The goal is to make cost control, revenue recognition, taxes, and transfer price for intercompany project transactions more flexible and powerful. In addition, the following capabilities are provided:
 

@@ -34,7 +34,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 The processes for resource synchronization help guarantee that information for the calendar and base calendar trickles down into project resource scheduling. If the calendar is changed, the processes make the required updates to the scheduling of project resources. The processes also help improve performance, because the calendar's resource information is synchronized in advance. Therefore, updates to resource scheduling information occur more quickly. We recommend that you schedule the processes as a batch instead of one at a time. Otherwise, there is a risk that someone will forget the inclusive dates when the information was last synchronized. If inclusive dates aren't used, gaps can occur during date synchronization.
 
-![Calendar synchronization](./media/projectresourcing04-1024x471.jpg)
+![Calendar synchronization.](./media/projectresourcing04-1024x471.jpg)
 
 ## Synchronize resource capacity roll-ups
 
@@ -51,7 +51,7 @@ We recommend that you use a batch. The options are available during synchronizat
     | Start date  | Enter the start date for the synchronization process for resource capacity roll-ups. |
     | End date    | Enter the end date for the synchronization process for resource capacity roll-ups. |
 
-[![Synchronization process](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+[![Synchronization process.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
