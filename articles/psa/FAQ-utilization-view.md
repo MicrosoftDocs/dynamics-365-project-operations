@@ -26,7 +26,7 @@ search.app:
  
 The **Utilization View** on the **Project Service Resource Utilization** page shows the chargeable utilization for each bookable resource. Because the view is based on the schedule board, you’ll find many of the same functions.
 
-> ![Screenshot of Utilization View](media/FAQ-utilization-1.png)
+> ![Screenshot of Utilization View.](media/FAQ-utilization-1.png)
  
 
 The chargeable utilization calculation works as follows:
@@ -45,7 +45,7 @@ The target utilization can be set on the resource’s default role or on the ind
 2. Select a resource to open the record. 
 3. On the **Project Service** tab, you can set the resource’s target utilization.
 
-> ![Screenshot of using the Project Service tab to set target utilization](media/FAQ-utilization-2.png)
+> ![Screenshot of using the Project Service tab to set target utilization.](media/FAQ-utilization-2.png)
  
 ## Set target utilization on a role
 
@@ -53,7 +53,7 @@ The target utilization can be set on the resource’s default role or on the ind
 2. Select a role and open the record. 
 3. Set the target utilization for the role.
 
-> ![Screenshot of using Resource Roles to set the target utilization](media/FAQ-utilization-3.png)
+> ![Screenshot of using Resource Roles to set the target utilization.](media/FAQ-utilization-3.png)
  
 ## Calculate chargeable utilization for a resource
 

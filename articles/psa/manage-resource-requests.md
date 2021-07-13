@@ -41,7 +41,7 @@ Account managers and project managers regularly request resources for their proj
   
    -   Click **Filter** to display the **Filter** pane, which lets you filter your results by organizational unit, role, skill, or other attributes.  
   
-       ![Project Service Resource Request screen](../psa/media/project-service-resource-request-screen.png "Project Service Resource Request screen")  
+       ![Project Service Resource Request screen.](../psa/media/project-service-resource-request-screen.png "Project Service Resource Request screen")  
   
 3. In the calendar for the resource you want to book, select the time period to book the resource, and then either click **Book** to book the resource or **Propose Booking** to propose the booking and have the requestor approve it. When you book a resource, you can soft book or hard book.  
   

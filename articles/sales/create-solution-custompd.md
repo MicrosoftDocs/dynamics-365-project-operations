@@ -22,7 +22,7 @@ ms.author: rumant
 2.	Name the solution, *<your organization name> pricing dimensions*.
 3. Enter the remaining required information, and then select **Save**.
 
-  ![Creation of custom pricing dimension solution](./media/Creation-of-custom-pricing-dimension-solution.png)
+  ![Creation of custom pricing dimension solution.](./media/Creation-of-custom-pricing-dimension-solution.png)
  
 ## Add all required entities and related components to the Pricing dimension solution
 
@@ -45,19 +45,19 @@ Add the following Project Service entities to your pricing solution to make impo
    - **Role Price**
    - **Time Entry**
  
-   ![Add existing entities custom pricing dimension solution](./media/Existing-entities-to-PD-solution.png)
+   ![Add existing entities custom pricing dimension solution.](./media/Existing-entities-to-PD-solution.png)
  
  4. For each entity, review the components being added and the final list of entity assets for each entity. 
 
    >[!NOTE]
    > Include all forms and views for each of the selected entities.
 
-  ![Entities added](./media/solution-component-selection.png)
+  ![Entities added.](./media/solution-component-selection.png)
 
 
 5.	When prompted to include any dependent entities for the selected entities, select **No, do not include required components.**
 
-    ![Including dependent entities](./media/Do-not-include-required.png)
+    ![Including dependent entities.](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

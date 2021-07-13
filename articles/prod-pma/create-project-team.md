@@ -38,7 +38,7 @@ View settings can also be customized to give a better view of resource availabil
 
 The project manager can select a role on the page and then, if there is an available resource that fits the requirement, select to reserve a resource to fill the role. Note that the resources don't have to be reserved at this point in the planning stage. When you create a WBS, you can replace roles with staffed resources for the project. If roles are replaced with staffed resources in the WBS, the resource setup automatically updates the project team listing and scheduling.
 
-[![Project team listing that includes both roles and actual resources](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Project team listing that includes both roles and actual resources.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 The project manager has various options for booking a resource for a project, such as **Remaining capacity**, **Full capacity**, **Capacity percentage**, and **Specify hours**. These booking options can be canceled at any time if resource assignments change. Two types of booking are supported:
 

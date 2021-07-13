@@ -37,7 +37,7 @@ Given the typical nature of these attrubutes of the work and the people required
 PSA ships with a default set of pricing dimensions. You can view these by going to **Project Service** > **Parameters**. In the parameter record, on the **Amount-based pricing dimensions** tab, verify that the role, **msdyn_resourcecategory** and resourcing organizational unit, **msdyn_organizationalunit** have the fields **Applicable to sales** and **Applicable to cost** set to **Yes**. 
 This will allow you to set up the price and cost for each role and organizational unit combination.
 
-![Screenshot of Project Service parameters with “Applicable to Sales” highlighted](media/PS-OOB-parameters.png)
+![Screenshot of Project Service parameters with “Applicable to Sales” highlighted.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > If you have been the using out-of-the box fields of role and organizational unit as pricing dimensions prior to version 3 of PSA, there will not be any observable change. You can continue to use Project Service as usual. 

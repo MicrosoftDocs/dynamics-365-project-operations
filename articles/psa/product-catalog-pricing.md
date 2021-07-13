@@ -41,7 +41,7 @@ You can add products from a product catalog to different price lists. Price list
 
 PSA supports various rounding options when prices are configured as a function of the list price, standard cost, or current cost. In addition to taking advantage of multiple pricing methods and rounding options, you can associate discount lists with price list items. 
 
-> ![Adding products from a catalog to different price lists](media/basic-guide-16.png)
+> ![Adding products from a catalog to different price lists.](media/basic-guide-16.png)
 
 When you create a new custom price list for a quote by selecting **Create Custom Pricing** on the **Project Quote** page, PSA makes a copy of the price list, and the **Entity** field on the header of the new price list is set to **Sales Entity**. The name of the new price list is appended with the name of the quote and a timestamp. You also can use the name of the new price list and the name of the quote in custom workflows to trigger additional review and approvals for quotes that use custom pricing.
 

@@ -31,7 +31,7 @@ In Project Operations, project-related vendor invoices are posted using special 
 
 Tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance when the vendor invoice is posted.
 
-![Vendor invoice integration](media/DW7VendorInvoice.png)
+![Vendor invoice integration.](media/DW7VendorInvoice.png)
 
 When records are written to a **Vendor invoice** entity in Dataverse, an automated approval process of the records begins. If needed, the automated approval process status can be reviewed in Dataverse by going to **Advanced settings** > **System** > **System jobs**. After the approval is complete, the system creates material transaction class records in the **Actuals** entity.
 

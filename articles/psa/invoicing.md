@@ -47,7 +47,7 @@ Follow this step to create an invoice for a specific project contract.
 
 - On the **Project Contracts** list page, open a project contract, and then select **Create Invoice**.
 
-    ![Creating project invoices for a specific project contract](media/CreateProjectInvoicesOneByOne.png)
+    ![Creating project invoices for a specific project contract.](media/CreateProjectInvoicesOneByOne.png)
 
     An invoice is generated for all transactions for the selected project contract that have a status of **Ready to Invoice**. These transactions include time, expenses, milestones, and product-based contract lines.
 
@@ -55,7 +55,7 @@ Follow these steps to create invoices in bulk.
 
 1. On the **Project Contracts** list page, select one or more project contracts that you must create an invoice for, and then select **Create Project Invoices**.
 
-    ![Creating project invoices in bulk](media/CreateProjectInvoicesBulk.png)
+    ![Creating project invoices in bulk.](media/CreateProjectInvoicesBulk.png)
 
     A warning message informs you that there might be a delay before invoices are created. The process is also shown.
 

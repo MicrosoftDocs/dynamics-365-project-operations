@@ -19,7 +19,7 @@ Your organization might have multiple divisions, subsidiaries, and other legal e
 
 The following illustration shows a typical scenario where two legal entities, Contoso Robotics USA (the borrowing legal entity) and Contoso Robotics UK (the lending legal entity) share resources to deliver a project for the customer, Adventure works. For this scenario, Contoso Robotics USA is contracted to deliver the work to Adventure Works.
 
-![Intercompany invoicing](./media/IntercompanyScenario.png) 
+![Intercompany invoicing.](./media/IntercompanyScenario.png) 
 
 Dynamics 365 Project Operations uses the following flow to process intercompany transactions:
 
@@ -32,7 +32,7 @@ Dynamics 365 Project Operations uses the following flow to process intercompany 
 
 The following diagram illustrates intercompany invoicing as it relates to accounting events and expected postings to the general ledger.
 
-![Intercompany flow](./media/IntercompanyFlow.png)
+![Intercompany flow.](./media/IntercompanyFlow.png)
 
 ## Additional resources
 

@@ -44,7 +44,7 @@ There are several ways to create a project from a project template:
 
 - When you create a project from a quote, you can select a project template in the **Quick Create: Project** dialog box.
 
-> ![Quick Create: Project dialog box](media/project-11.png)
+> ![Quick Create: Project dialog box.](media/project-11.png)
 
 - When you create a project by selecting **New Project**, the **Project** page appears before the record is saved. In the **Pick a Template** field, select one of the predefined project templates in the organization.
 - Use **Create Project from a Template** on the **Template Entity** page.

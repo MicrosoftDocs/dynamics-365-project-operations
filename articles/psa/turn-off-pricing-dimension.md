@@ -29,7 +29,7 @@ Turning off a pricing dimension, regardless if it is out-of-the-box or custom, c
 
 However, when you do this, you might receive the following error message.
 
-![Business Process Error likely when turning off a pricing dimension](media/Business-Process-Error.png)
+![Business Process Error likely when turning off a pricing dimension.](media/Business-Process-Error.png)
 
 
 This error message indicates that there are price records that were previously set up for the dimension that is being turned off. All **Role Price** and **Role Price Markup** records that refer to a dimension must be deleted before the dimension’s applicability can be to set to **No**. This rule applies to both out-of-the-box pricing dimensions and any custom pricing dimensions that you may have created. The reason for this validation is because Project Service has a constraint that each **Role Price** record must have a unique combination of dimensions. For example, on a price list called **US Cost Rates 2018**, you have the following **Role price** rows. 

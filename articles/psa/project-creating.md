@@ -91,7 +91,7 @@ The **Schedule** grid is fully accessible and can be used with screen readers su
 
 A task's name describes the work that must be completed. In PSA, the attributes that are associated with a task describe the schedule of the task and its staffing requirements.
 
-> ![Task attributes](media/project-2.png)
+> ![Task attributes.](media/project-2.png)
  
 ### Schedule attributes
 

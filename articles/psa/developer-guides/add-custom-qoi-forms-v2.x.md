@@ -53,7 +53,7 @@ Follow these steps to create a custom version of the **Project Information** for
     - Export the **My Project Information** form as part of an unmanaged solution, and then look up the **formId** value in the customization.xml file of the exported solution.
     - Open the **My Project Information** form in the form editor, and then look for the globally unique identifier (GUID) next to the **fromId** parameter in the URL, as shown in the following illustration.
 
-    ![The formId value of the new form in the URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![The formId value of the new form in the URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Create an **msdyn\_ordertype** mapping for the **formId** value by editing the msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js web resource. Remove the code from the resource, and replace it with the following code.
 

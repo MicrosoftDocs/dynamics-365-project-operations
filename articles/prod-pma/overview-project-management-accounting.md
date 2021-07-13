@@ -39,14 +39,14 @@ A project is a group of activities that is designed to provide a service, produc
 ## Projects across industries
 The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.
 
-[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projects accross industries.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 In a call center, a ticket can be used to describe the set of actions that are required to resolve a call. Consulting companies, such as management or technical consulting organizations or advertising agencies, refer to their activities as projects. In marketing, a campaign represents a set of work that must be delivered. In project-based manufacturing, a production order relates the various work that must be done to produce some finished goods. Whatever name is used for them, these projects involve resources, schedules, and costs, and the project management and accounting functionality can help with the planning, execution, and analysis of these projects.
 
 ## Project phases
 Although the following process flow is aimed toward external projects, or project that are completed for one or more customers, the functionality also applies to internal, cost-only projects. 
 
-![3 stages of a project](./media/3-stages-of-a-project.png) 
+![3 stages of a project.](./media/3-stages-of-a-project.png) 
 
 As shown in the preceding illustration, project management and accounting can be divided into three phases:
 
@@ -55,7 +55,7 @@ As shown in the preceding illustration, project management and accounting can be
 3.  Analyze
 
 ## Initiate the project
-During project initiation, several key processes occur. You can use a project quotation to communicate  the estimated labor, expenses, and materials to the customer. You can record the billing terms, limits, and agreements in a project contract. You can use a work breakdown structure (WBS) to plan and estimate the work. You can set up forecasts and budgets to guide the project execution. The following illustration shows the structure of a project.[![project structure](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+During project initiation, several key processes occur. You can use a project quotation to communicate  the estimated labor, expenses, and materials to the customer. You can record the billing terms, limits, and agreements in a project contract. You can use a work breakdown structure (WBS) to plan and estimate the work. You can set up forecasts and budgets to guide the project execution. The following illustration shows the structure of a project.[![project structure.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### Create project quotations
 

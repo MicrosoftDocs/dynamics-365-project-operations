@@ -49,7 +49,7 @@ To create entity-based dimensions, follow these steps:
 3. Select **New** to create a new entity called **Standard Title**. 
 4. Enter the remaining required information, and then select **Save**.
 
-> ![Standard title entity definition](media/Standard-Title-entity-definition.png)
+> ![Standard title entity definition.](media/Standard-Title-entity-definition.png)
 
 ### Option set-based dimensions 
 You can create two option set-based dimensions. 
@@ -59,11 +59,11 @@ You can create two option set-based dimensions.
 
 The following graphic provides a view of the **Resource Work Location** dimension. 
 
-> ![Option set based pricing dimension called Resource Work Location](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Option set based pricing dimension called Resource Work Location.](media/Option-set-PD-called-Resource-Work-Location.png)
 
 The following graphic provides a view of the **Resource Work Hours** dimension. 
 
-> ![Option set based pricing dimension called Resource Work Hours](media/Option-set-PD-called-Resource-Work-Hours.png)
+> ![Option set based pricing dimension called Resource Work Hours.](media/Option-set-PD-called-Resource-Work-Hours.png)
 
 1. Go to **Settings** > **Solutions**, and double-click  **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, in the left navigation pane, select  **Option Sets**. 
@@ -79,7 +79,7 @@ You can create data for entity-based dimensions manually, or by using Microsoft 
 4. Close the page. 
 5. Repeat steps 1-3 to create another standard title for "Senior Systems Engineer".
 
-> ![Sample data for Standard Title entity](media/ST-data.png)
+> ![Sample data for Standard Title entity.](media/ST-data.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,12 +47,12 @@ Use following steps to enable the Project Operations automated provisioning flow
 
 6. Select the environment type for your deployment. A subscription-based trial will let you deploy a CDS environment for 30 days. 
 
-![Deployment Settings](./media/1DeploymentSettings.png)
+![Deployment Settings.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Select **Agree** to acknowledge the terms of service and then select **Done** to return to the deployment settings.
 
-![Deployment Consent](./media/2DeploymentConsent.png)
+![Deployment Consent.](./media/2DeploymentConsent.png)
 
 7. Optional - Apply demo data to the environment. Go to **Advanced settings**, select **Customize SQL Database Configuration**, and set **Specify a dataset for Application database** to **Demo**.
 
@@ -62,7 +62,7 @@ Use following steps to enable the Project Operations automated provisioning flow
 
 9. To confirm that the environment has deployed successfully, select **Login** and log on to the environment to confirm.
 
-![Environment Details](./media/3EnvironmentDetails.png)
+![Environment Details.](./media/3EnvironmentDetails.png)
 
 ## Apply updates to the Finance environment
 
@@ -72,19 +72,19 @@ You might need to apply quality updates to your Finance environment to receive t
 
 1. In LCS, on the **Environment details** page, in the **Available Updates** section, select **View Update**.
 
-![View Updates](./media/5ViewUpdates.png)
+![View Updates.](./media/5ViewUpdates.png)
 
 2. On the **Binary updates** page, select **Save package.**
 
-![Save package](./media/6SavePackage.png)
+![Save package.](./media/6SavePackage.png)
 
 3. Click **Select all** and then select **Save package**.
 
-![Review and save updates](./media/7ReviewAndSaveUpdates.png)
+![Review and save updates.](./media/7ReviewAndSaveUpdates.png)
 
 4. Enter a name and a description of the package, and then select **Save**. Depending on the internet connection, this process might take some time.
 
-![Upload package to Assets Library](./media/8UploadPackageToAssetsLibrary.png)
+![Upload package to Assets Library.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. After the package is saved, select **Done** and save this package to the Assets library in your LCS project.
 
@@ -92,15 +92,15 @@ Saving and validating the package might take ~15 minutes.
 
 6. To apply the update, navigate to the **Environment details** page in LCS and select **Maintain** > **Apply updates**.
 
-![Maintain Environments](./media/9MaintainEnvironment.png)
+![Maintain Environments.](./media/9MaintainEnvironment.png)
 
 7. In the updates list select the package you created, and select **Apply**.
 
-![Apply Updates](./media/10ApplyUpdates.png)
+![Apply Updates.](./media/10ApplyUpdates.png)
 
 Environment servicing will take some time. After it is complete, the environment will return to a deployed state.
 
-![Environment Deployed](./media/11EnvironmentDeployed.png)
+![Environment Deployed.](./media/11EnvironmentDeployed.png)
 
 ## Establish a Dual Write connection 
 
@@ -108,41 +108,41 @@ Environment servicing will take some time. After it is complete, the environment
 2. Under **Common Data Service Environment Information**, select **Link to CDS for Apps**.
 3. After the link is complete, select **Link to CDS for Apps** again. You will be redirected to Dual Write in Finance.
 
-![Link to CDS](./media/12LinktoCDS.png)
+![Link to CDS.](./media/12LinktoCDS.png)
 
 4. Select **Apply Solution** to access the entities that will be mapped in the integration.
 
-![Apply Solutions](./media/13ApplySolutions.png)
+![Apply Solutions.](./media/13ApplySolutions.png)
 
 5. Select both solutions, **Dynamics 365 Finance and Operations Dual Write Entity Map** and **Dynamics 365 Project Operations Dual Write Entity Maps**, and then select **Apply**.
 
-![Confirm Solutions](./media/14ConfirmSolutions.png)
+![Confirm Solutions.](./media/14ConfirmSolutions.png)
 
 After the solutions are applied, the Dual Write entities are applied to the environment.
 
-![Applying Solutions](./media/15ApplyingSolutions.png)
+![Applying Solutions.](./media/15ApplyingSolutions.png)
 
 After the entities are applied, all available mappings are listed in the environment.
 
-![Dual Write Maps](./media/15DWMappings.png)
+![Dual Write Maps.](./media/15DWMappings.png)
 
 ## Refresh the data entities after the update
 
 1. In Finance, go to the **Data management** workspace.
 
-![Data Management workspace](./media/16DataManagement.png)
+![Data Management workspace.](./media/16DataManagement.png)
 
 2. Select the **Framework parameters** tile.
 
-![Framework Parameters](./media/17FrameworkParameters.png)
+![Framework Parameters.](./media/17FrameworkParameters.png)
 
 3. On the **Entity settings** page, select **Refresh Entity list**.
 
-![Refresh Entity List](./media/18RefreshEntityList.png)
+![Refresh Entity List.](./media/18RefreshEntityList.png)
 
 The refresh is going to take approximately 20 minutes. You will receive an alert when it is complete.
 
-![Refresh Confirmation](./media/19RefreshConfirmation.png)
+![Refresh Confirmation.](./media/19RefreshConfirmation.png)
 
 ## Update security settings on Project Operations on Dataverse
 
@@ -183,17 +183,17 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 4. To refresh the entity, select the map name, and then select **Refresh entities**. 
 
 
-![Refresh Map](./media/20RefreshMapping.png)
+![Refresh Map.](./media/20RefreshMapping.png)
 
 5. After the refresh is complete, run the map. Before you enable the next map, verify that the map in the table is in a state of **Running**. Running maps with a larger number of prerequisites might take some time.
 
 To run a map with prerequisites, enable the **Show related entity maps** toggle. If the table indicates **Prerequisite initial sync** is **No**, verify that the **Initial sync** flag is **Off** in all the prerequisite maps before you run it.
 
-![Run Map](./media/21RunMap.png)
+![Run Map.](./media/21RunMap.png)
 
 6. Validate all project related maps are in the running state.
 
-![All Maps Running](./media/22AllMapsRunning.png)
+![All Maps Running.](./media/22AllMapsRunning.png)
 
 
 ## Apply configuration data in CDS for Project Operations (optional)

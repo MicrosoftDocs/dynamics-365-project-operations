@@ -82,7 +82,7 @@ You should plan for the computer to remain connected to a network, and for the i
 The computer should have the screen saver function turned off. Otherwise, session credentials for the installation may be lost when the screen saver engages (unless you keep your session active throughout).
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of screen saver settings, with screen saver turned off](media/sample-data-1.png)
+> ![Screenshot of screen saver settings, with screen saver turned off.](media/sample-data-1.png)
 
 ## Download and unpack
 
@@ -138,7 +138,7 @@ The demo data package requires six users. For the package to install correctly, 
 3. Open **PkgFolder** and then find and open **ImportUserMapFile.xml**. Update the **New=** fields to the email addresses of corresponding Users in your system.
 
    > [!div class="mx-imgBorder"]
-   > ![Screen shot of UserMapFile](media/sample-data-7.png)
+   > ![Screen shot of UserMapFile.](media/sample-data-7.png)
 
 4. If your "Spencer Low" full name user has a different user ID than **"spencerl"**, then you need to update an additional file. Open **DemoDataPreImportConfig.xml** and find the **userstocreateandconfigure** tag. Update the **\<login\>** tag with the loginId (case-sensitive). 
 
@@ -168,7 +168,7 @@ The demo data package requires six users. For the package to install correctly, 
 5. Select **Next** until you see the **Demo Data Setup** dialog.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of the demo data installer status window](media/sample-data-3.png)
+   > ![Screenshot of the demo data installer status window.](media/sample-data-3.png)
 
 6. Before proceeding, note that installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
 
@@ -187,10 +187,10 @@ After the sample data completely loads, sign in as the Spencer Low user and conf
 - If the Field Service application is installed, go to **Project Service** > **Settings** > **Price Lists**. Confirm that bill rates and costs rates exist. Go to **Field Service** > **Settings** > **Price Lists** and check that bill rates and costs rates exist, with the appropriate currency, for each country/region in the data set.
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of active price lists](media/sample-data-4.png)
+  > ![Screenshot of active price lists.](media/sample-data-4.png)
 
   > [!div class="mx-imgBorder"]
-  > ![Screenshot of active organizational units](media/sample-data-5.png)
+  > ![Screenshot of active organizational units.](media/sample-data-5.png)
 
 ## Technical notes
 
@@ -291,7 +291,7 @@ If you need to change the work hours for sample bookable resources, go to **Univ
 Select a user (for example, Spencer Low) and change Spencer's work hours to the hours you want to apply to multiple users. Go to **Universal Resource Scheduling** > **Settings** > **Work Hour Templates** and edit the **Default Work Template** record. In the **Template Resource** field, select a user with work hours that you want to apply to other resources. Go to **Universal Resource Scheduling** > **Scheduling** > **Resources** > **Active Bookable Resources**. Select the resources you want to change, and then select **Set Calendar**. On the **Work Template** drop-down list, select the **Default Work Hour** template or another template with the correct templating resource. When you go to the schedule board, you should see that the resources now have updated work hours.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of active bookable resources](media/sample-data-6.png)
+> ![Screenshot of active bookable resources.](media/sample-data-6.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -23,11 +23,11 @@ After you provision Project Operations as described in this topic, the Lifecycle
 
 Use the environment name in the section, **Common Data Service Environment Name** to navigate to Project Operations on a CDS environment. 
 
-  ![Common Data Service environment name](./media/environment-name.PNG)
+  ![Common Data Service environment name.](./media/environment-name.PNG)
 
 Select **Login** > **Log on to environment** to navigate to the **Project management and accounting** module in Finance.  
 
-   ![Log into Finance](./media/environment-login.PNG)
+   ![Log into Finance.](./media/environment-login.PNG)
 
 > [!NOTE]
 > You can access Project Operations in the Common Data Service and the **Project management and accounting** module directly by using their respective URLs. 

@@ -30,15 +30,15 @@ Resource requirements can be sent as resource requests to the resource manager w
 
 Resource requests are shown as a list in the **Active Resource Requests** view.
 
-> ![List of resource requests](media/Resource-Management-image59.png)
+> ![List of resource requests.](media/Resource-Management-image59.png)
 
 To fulfill a request, select it in the list, and then select **Find Resources**. Alternatively, double-click a row to open the request. You can then select the **Resource Requirement** tab to view the requirements for that request. To start to fulfill the request, select **Find Resources**.
 
-> ![Resource request details](media/Resource-Management-image60.png)
+> ![Resource request details.](media/Resource-Management-image60.png)
 
 The Schedule Assistant appears and is filtered by the requirements. Select the resource, and then select **Book**.
 
-> ![Resource selected](media/Resource-Management-image61.png)
+> ![Resource selected.](media/Resource-Management-image61.png)
 
 The generic team member is replaced with the hard-booked named resource on the project team and task assignments in the project schedule.
 

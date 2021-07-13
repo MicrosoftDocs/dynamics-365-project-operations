@@ -32,11 +32,11 @@ During the sales process, you can create sales estimates by linking a project to
 
 When you create a project-based quote line, you can create a new project or associate an existing project pn the **Quote Line** page. 
 
-> ![Quote Line form](media/project-8.png)
+> ![Quote Line form.](media/project-8.png)
  
 When you create a new project from the quote line details, you can take advantage of project templates. Project templates are model projects that represent standard project plans and financial estimates that are typical in an organization. They can also represent copies of project plans and estimates from past projects.
 
-> ![Quote line details](media/project-9.png)
+> ![Quote line details.](media/project-9.png)
   
 When you create the project from the quote, the project is automatically associated with the quote line.
 

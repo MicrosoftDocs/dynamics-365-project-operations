@@ -25,7 +25,7 @@ Creating estimates requires a valid accounting configuration for the project. Pr
 
 Labor estimates are created by the Project Manager or Resource manager who also assigns a generic or named resource to the project task. Resource assignment records can be reviewed on the **Resource Assignments** tab on the **Project Details** page in Dataverse. Resource assignment records in Dataverse create hour forecast records in Finance and Operations apps using **Project Operations integration entity for hour estimates (msdyn\_resourceassignments)**.
 
-   ![Labor estimates integration](./Media/DW4LaborEstimates.png)
+   ![Labor estimates integration.](./Media/DW4LaborEstimates.png)
 
 Dual-write synchronizes resource assignment records to the staging table (**ProjCDSEstimateHoursImport**), and then uses business logic to create and update hour forecast records (**ProjForecastEmpl**).
 
@@ -35,7 +35,7 @@ The Project accountant reviews forecast hour records created in Finance and Oper
 
 Expense estimates are created by the Project manager on the **Expense Estimates** tab on the **Project Details** page in Dataverse. Expense estimate records are stored in the **Estimate Line** entity in Dataverse. These estimate records have transaction class, **Expense** and are synchronized to expense forecast records in Finance and Operations apps using **Project Operations integration entity for expense estimates (msdyn\_estimatelines)**.
 
-   ![Expense estimates integration](./Media/DW4ExpenseEstimates.png)
+   ![Expense estimates integration.](./Media/DW4ExpenseEstimates.png)
 
 Dual-write synchronizes expense estimate records to the staging table, **ProjCDSEstimateExpenseImport)** and then uses business logic to create and update expense forecast records (**ProjForecastCost**). Estimate lines store sales estimate and cost estimate records separately. The business logic in Finance and Operations apps populates a single Expense forecast record using this detail in the staging table.
 
@@ -45,7 +45,7 @@ The Project accountant can review expense forecast records in Finance and Operat
 
 Material estimates are created by the Project manager on the **Material Estimates** tab on the **Project Details** page in Dataverse. Material estimate records are stored in the **Estimate Line** entity in Dataverse. These estimate records have the transaction class, **Material** and are synchronized to item forecast records in Finance and Operations apps using **Project integration table for material estimates (msdyn\_estimatelines)**.
 
-   ![Material estimates integration](./Media/DW4MaterialEstimates.png)
+   ![Material estimates integration.](./Media/DW4MaterialEstimates.png)
 
 Dual-write synchronizes material estimate records to the staging table **ProjForecastSalesImpor**, and then uses business logic to create and update item forecast records (**ForecastSales**). Estimate lines store sales estimate and cost estimate records separately. The business logic in Finance and Operations apps populates a single Item forecast record using this detail in the staging table.
 
@@ -55,7 +55,7 @@ The Project accountant can review item forecast records in Finance and Operation
 
 Project actuals are created in Dataverse, based on time, expense, material, and billing activity. All operational attributes of these transactions including quantity, cost price, sales price, and project are captured in this Dataverse entity. For more information, see [Actuals](../actuals/actuals-overview.md). Actual records are synchronized to Finance and Operations apps using the dual-write table map **Project Operations integration actuals (msdyn\_actuals)** for downstream accounting.
 
-   ![Actuals integration](./Media/DW4Actuals.png)
+   ![Actuals integration.](./Media/DW4Actuals.png)
 
 The **Project Operations integration actuals** table map synchronizes all the records from the **Actuals** entity in Dataverse, with the attribute **Skip Sync (internal use only)** set to **False**. This attribute value is set in Dataverse automatically when the record is created. Examples where this attribute is set to **True** are:
 

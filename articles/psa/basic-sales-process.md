@@ -36,7 +36,7 @@ The sales processes that are used in a project-based organization differ from th
 
 The following illustration shows a typical sales process in a project-based organization.
 
-> ![Sales process in a project-based organization](media/basic-guide-1.png)
+> ![Sales process in a project-based organization.](media/basic-guide-1.png)
 
 ## Estimating a sale
 The value of a sale can be estimated based on projects that have previously been delivered and the complexity of projects. For projects that involve extensions to previous projects, or projects where the vendor's expertise is high and well-known work templates are used, you can use a simpler estimation process. More complex projects usually have a longer purchase process. Therefore, there are more stages in the sales estimation process. Early in the process, the sales team uses the input of account managers and subject matter experts (SMEs) to start to create a high-level estimate for each distinct component of work that is quoted. These components of work are represented by quote lines. 
@@ -47,7 +47,7 @@ You can create multiple quotes for a project and group them under a single oppor
 
 You can also create alternate quotes under one opportunity entity type or set up the system so that a project contract is created when a quote is won. In this case, you can attach a Word document that represents the SOW to the project contract record.
 
-![Closing a quote to create a project contract](media/basic-guide-2.png)
+![Closing a quote to create a project contract.](media/basic-guide-2.png)
 
 ## Configuring the sales process
 You can use business process flows (BPFs) in Microsoft Dynamics 365 to configure your sales process. BPFs give your sales staff a guided visual interface that they can use to move deals forward through the stages that are typical for your company.
@@ -63,7 +63,7 @@ For example, your company might have the following six stages in the sales proce
 
 These six stages are represented by chevrons (\>) that you select to expand in each opportunity entity type that you create.
 
-![Business process configuration in Dynamics 365](media/basic-guide-3.png)
+![Business process configuration in Dynamics 365.](media/basic-guide-3.png)
  
 Your organization might use different entities to represent the same deal as it evolves. Early in the sales process, a deal is represented by the Opportunity entity. As time passes and more details emerge, you might use high-level estimates to create one or more quotes. If one of these quotes is reviewed by internal and customer stakeholders, the Quote entity represents the deal. After the customer accepts the quote, a project contract or SOW represents the deal. To support this behavior, BPFs are structured so that each stage in the process is linked to a different database table.
 
@@ -74,7 +74,7 @@ As you move deals through the stages, you're prompted to create the appropriate 
 > [!NOTE]
 > PSA has specific pages for the Opportunity, Quote, Order, and Invoice entities. You must create project service opportunities, quotes, orders, and invoices using the project information pages for these entities. If you use another page to create a record, you won't be able to open the record from the **Project Information** page. If you want to open a record from the **Project Information** page, you must delete the record and recreate it using the **Project Information** page. On the **Project Information** page, business logic for each of these entity types ensures that the **Type** field of the record is set correctly, and all of the mandatory concepts are properly initialized.
 
-> ![Project information for a new order](media/basic-guide-4.png)
+> ![Project information for a new order.](media/basic-guide-4.png)
  
 ## Differences between Project Service Automation and Sales
 Although the sales process in PSA uses the basic capabilities of the sales process in Sales, it does have some key differences because of variations in the business practices of project-based organizations. Here are some examples:

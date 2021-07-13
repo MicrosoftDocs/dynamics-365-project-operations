@@ -79,7 +79,7 @@ Looking for resources to help plan your implementation? Check out these download
  [Notes for developers (app version 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## Watch a 2-minute overview video
- <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
 

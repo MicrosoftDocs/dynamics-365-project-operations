@@ -43,7 +43,7 @@ The Price list entity has three related tables that store prices:
   - **Transaction Category Price** - This table stores prices by transaction category and is used to set up expense category prices.
   - **Price List Items** - This table stores prices for catalog products.
 
-> ![Configuring prices by using a price list](media/basic-guide-12.png)
+> ![Configuring prices by using a price list.](media/basic-guide-12.png)
  
 The price list is a rate card. A rate card is a combination of the Price List entity and related rows in the Role Price, Transaction Category Price, and Price List Items tables.
 
@@ -55,7 +55,7 @@ Human resources time is usually quoted based on the role that a resource fills o
 
 The **Time** unit group is crated when PSA is installed. It has a default unit of **Hour**. You can't delete, rename, or edit the attributes fo teh **Time** unit group or the **Hour** unit. However, you can add other units to the **Time** unit group. If you try to delete either the **Time** unit group or the **Hour** unit, you might cause failures in the PSA business logic.
 
-> ![Configuring prices by role](media/basic-guide-13.png)
+> ![Configuring prices by role.](media/basic-guide-13.png)
  
 ## Transaction categories and expense categories
 
@@ -65,7 +65,7 @@ Travel and other expenses that project consultants incur are usually billed to t
 - **Markup percentage** - The percentage over the actual cost is billed to the customer. 
 - **Price per unit** - A billing price is set for each unit of the expense category. The amount that is billed ot the customer is calculated based on the number of expense units that the consultant reports. Mileage uses the price-per-unit pricing method. For example, the mileage expense category can be configured for 30 US dollars (USD) per day or 2 USD per mile. When a consultant reports mileage on a project, the amount to bill is calculated based on the number of miles that the consultant reported.
 
-> ![Configuring pricing for expense categories](media/basic-guide-14.png)
+> ![Configuring pricing for expense categories.](media/basic-guide-14.png)
  
 ## Project sales pricing and overrides
 
@@ -111,7 +111,7 @@ However, on a quote, you can use a master price list. Alternatively, you can cop
 
 When you create a custom project price list, only the project components of the price list are copied. In other words, a new price list created as a copy of the existing project price list that is attached on the quote, and this new price list has only related role prices and transaction category prices.
 
-> ![Viewing and configuring custom pricing for a project contract](media/basic-guide-15.png)
+> ![Viewing and configuring custom pricing for a project contract.](media/basic-guide-15.png)
   
 ## Tracking costs
 
