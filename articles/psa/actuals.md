@@ -29,7 +29,7 @@ search.app:
 
 Actuals are the amount of work that has been completed on a project. Project actuals can be traced back to their source documents. Those source documents include time, expense, and journal entries, and also invoices.
 
-![How project actuals are traced to source documents](media/basic-guide-18.png)
+![How project actuals are traced to source documents.](media/basic-guide-18.png)
 
 ## Submitting a time entry
 

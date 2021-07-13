@@ -34,7 +34,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 Resource competencies are an essential part of resource management. Competencies can be used as a baseline to determine resources that have the correct balance of skills, education, certification, and project experience. You should set up this information for each resource and update it on a regular basis. In this way, you can maximize capabilities when specific resource competencies are matched during project resource assignment.
 
-[![Examples of skills, certifications, education, and project experience](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![Examples of skills, certifications, education, and project experience.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 The following procedures explain how to set up some of the competencies for a resource.
 

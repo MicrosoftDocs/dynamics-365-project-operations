@@ -158,13 +158,13 @@ For fields of the **Date** type, this property passes the date value of the fiel
 
 Below is a screenshot from the mobile app of a timesheet entry creation. It shows the out-of-box fields and a custom field in the "Time entry" section called "Test string" with an enum value of "Second option" already set.
 
-![Test string custom field in the app](media/timesheet-entry.jpg)
+![Test string custom field in the app.](media/timesheet-entry.jpg)
 
 
 
 Below is a screenshot from the mobile app of the user selecting one of the enum options available for the "Test string" custom field.  The two options are "First option" and "Second option" shown as radio buttons. The second option is currently selected.
 
-![Option buttons (radio buttons) for the Test string custom field](media/enum-option.jpg)
+![Option buttons (radio buttons) for the Test string custom field.](media/enum-option.jpg)
 
 
 
@@ -176,7 +176,7 @@ Note that custom fields don't have to have any backing database records. They ca
 
 Below is a screenshot from Visual Studio of the Application Object Tree. It shows an extension of the TSTimesheetLine table with the TestLineString field added as a custom field.
 
-![Line string](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Line string.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### Use chain of command on the buildCustomFieldList method of the TSTimesheetSettings class to show a field in the timesheet entry section
 
@@ -322,11 +322,11 @@ final class TSTimesheetEntryService_Extension
 
 Below is a screenshot from the mobile app of a user viewing a timesheet. The "More information" button has been selected in the upper-right corner to show the "View more details" option.  
 
-![View more details command](media/show-more.png)
+![View more details command.](media/show-more.png)
 
 Below is a screenshot from the mobile app showing the “More” section of a timesheet. A custom field called “Utilization rate of this timesheet (computed custom field)” has been added to the timesheet header section. A read-only value of "0.667" is set on the custom field.
 
-![More section](media/more-section.jpg)
+![More section.](media/more-section.jpg)
 
 ### Extend the TSTimesheetTable table so that it has a custom field
 
@@ -419,7 +419,7 @@ Existing logic for timesheet functionality at the database level will still work
 
 From the project parameters, you can make out-of-box fields read-only or hidden in the mobile app. Set the options in the **Mobile timesheets** section on the **Timesheet** tab of the **Project management and accounting parameters** page.
 
-![Project parameters](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Project parameters.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### Changing the activities that are available for selection via extensions
 

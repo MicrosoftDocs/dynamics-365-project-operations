@@ -56,7 +56,7 @@ If you set this field to **Override pricing**, Dynamics 365 doesn't set a defaul
 
 After you install PSA, default sales prices are entered on the product-based lines on a quote. The **Pricing** field is then set to **Override pricing** so that you can edit the default price on the quote lines.
 
-> ![Setting override pricing](media/basic-guide-10.png)
+> ![Setting override pricing.](media/basic-guide-10.png)
  
 ## Quantity factors for products
 
@@ -76,7 +76,7 @@ For example, Dynamics 365 might have the following properties:
 
 Tne **No of Users** and **No of Months** properties can be flagged as quantity factors by editing the properties of the product line. 
 
-> ![Flagging No of Users and No of Months as quality factors](media/basic-guide-11.png)
+> ![Flagging No of Users and No of Months as quality factors.](media/basic-guide-11.png)
  
 
 

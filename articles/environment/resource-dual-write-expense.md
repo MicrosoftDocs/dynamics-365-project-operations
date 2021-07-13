@@ -23,7 +23,7 @@ In a full expense deployment, expense categories are created and maintained in F
 2. In Finance, go to **Expense management** > **Setup** > **Shared categories** and select a shared category with an **Expense** transaction class. Set the **Can be used in Expense** parameter to **True** and define the expense type to use.
 3. Using this shared category record, create a new expense category by going to **Expense management** > **Setup** > **Expense categories** and selecting **New**. When the record is saved, dual-write uses the table map, **Project Operations integration project expense categories export entity (msdyn\_expensecategories)** to synchronize this record to Dataverse.
 
-  ![Expense categories integration](./media/DW6ExpenseCategories.png)
+  ![Expense categories integration.](./media/DW6ExpenseCategories.png)
 
 Expense categories in Finance and Operations apps are company- or legal entity-specific. There are separate, corresponding legal entity-specific records in Dataverse. When a project manager estimates expenses, they can’t select expense categories that were created for a project that is owned by a different company than the company that owns the project they are working on. 
 
@@ -35,7 +35,7 @@ Expense reports are created and approved in Finance and Operations apps. For mor
   - Dual-write synchronizes to Dataverse using **Project Operations integration project expenses export entity (msdyn\_expenses)** table map.
   - Tax subledger, vendor subledger, and other financial postings are recorded as applicable at the time of expense report posting.
 
-  ![Expense reports integration](./media/DW6ExpenseReports.png)
+  ![Expense reports integration.](./media/DW6ExpenseReports.png)
 
 When a record is written to the **Expense** entity in Dataverse, the system triggers the automated approval process of the record. If needed, the automated approval process status can be reviewed in Dataverse by going to **Advanced settings** > **System** > **System jobs**. After approval is complete, expense transaction class records are created in the **Actuals** entity.
 

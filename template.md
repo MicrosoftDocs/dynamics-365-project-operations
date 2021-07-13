@@ -222,11 +222,11 @@ Use backticks (&#96;) for `inline code`. Use inline code for command-line comman
 
 ### Static image or animated gif
 
-![this is the alt text](../images/Logo_DotNet.png)
+![this is the alt text.](../images/Logo_DotNet.png)
 
 ### Linked image
 
-[![alt text for linked image](../images/Logo_DotNet.png)](https://dot.net) 
+[![alt text for linked image.](../images/Logo_DotNet.png)](https://dot.net) 
 
 ## Videos
 
@@ -263,5 +263,5 @@ It's important to use the following alert styles so they render with the proper 
 > This is IMPORTANT
 
 And they'll render like this:
-![Alert styles](../images/alerts.png)
+![Alert styles.](../images/alerts.png)
 

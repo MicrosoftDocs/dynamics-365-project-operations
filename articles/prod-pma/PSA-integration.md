@@ -62,7 +62,7 @@ The following illustration shows how data is synchronized as part of the integra
 > [!NOTE]
 > Not all templates are currently available. Templates will be released as they are completed.
 
-[![Project Service Automation integration with Finance](./media/PSA-integration.png)](./media/PSA-integration.png)
+[![Project Service Automation integration with Finance.](./media/PSA-integration.png)](./media/PSA-integration.png)
 
 ## System requirements for Finance
 

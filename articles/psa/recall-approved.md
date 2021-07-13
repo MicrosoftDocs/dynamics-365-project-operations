@@ -97,13 +97,13 @@ If a recall request is rejected, there is no financial impact on the project.
 
 The following illustration shows the changes that occur for approved time entries when they are recalled.
 
-![Time Entry state transitions](media/TimeEntryStateTransitions.png)
+![Time Entry state transitions.](media/TimeEntryStateTransitions.png)
 
 ## Changes to expense entry records
 
 The following illustration shows the changes that occur for approved expense entries when they are recalled.
 
-![Expense Entry state transitions](media/ExpenseEntryStateTransitions.png)
+![Expense Entry state transitions.](media/ExpenseEntryStateTransitions.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

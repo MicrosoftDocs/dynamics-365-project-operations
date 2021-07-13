@@ -28,7 +28,7 @@ search.app:
 
 All financial transactions that occur during a project are recorded. These transactions are recorded as **actuals**. The following table shows the different types of actuals that are created, depending on whether the project is a time-and-material, fixed-price, or internal project, or whether it's in the presales stage.
 
-> ![Table showing how actuals are recorded](media/advanced-table2.png)
+> ![Table showing how actuals are recorded.](media/advanced-table2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

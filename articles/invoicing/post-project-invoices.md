@@ -15,7 +15,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Project Operations for resource/non-stocked based scenarios offers comprehensive capabilities tailored to fit the needs of both Project manager and Accounts receivable clerk/project accountant. For the invoicing process, the Project manager manages the project billing backlog and the Accounts receivable clerk/project accountant creates a compliant and accurate customer-facing invoice document.
 
-![Invoicing flow diagram](./media/invoicing-flow.png)
+![Invoicing flow diagram.](./media/invoicing-flow.png)
 
 The project contract line defines the billing method for associated project transactions. When the Project manager approves time and expense transactions, the system records the transactions in the **Project Actuals** entity and sends the information to the **Project management and accounting** module in Dynamics 365 Finance. The Project accountant then reviews and posts the records using the [Project Operations Integration journal](../project-accounting/project-operations-integration-journal.md). This journal includes important accounting details for project actuals, such as billing, sales tax group, billing item sales tax group, and financial dimensions.
 

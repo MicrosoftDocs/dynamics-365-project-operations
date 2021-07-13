@@ -85,7 +85,7 @@ Together, Transaction origin and Transaction connection help you keep track of r
 
 The following example shows the typical processing of time entries in a PSA project lifecycle.
 
-> ![Processing time entires in a Project Service life cycle](media/basic-guide-17.png)
+> ![Processing time entires in a Project Service life cycle.](media/basic-guide-17.png)
  
 1. Submission of a time entry causes the creation of two journal lines: one for cost and one for unbilled sales.
 2. Eventual approval of the time entry causes the creation of two actuals: one for cost and one for unbilled sales.

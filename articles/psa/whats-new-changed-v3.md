@@ -35,7 +35,7 @@ This topic provides information about the changes to user interface (UI), functi
 ## Project scheduling
 The project schedule, which was known as the Work Breakdown Structure (WBS) in previous versions, has been renamed Schedule and is accessed by clicking the **Schedule** tab. 
 
-![Project Schedule](media/psa-schedule-01.png)
+![Project Schedule.](media/psa-schedule-01.png)
 
 The schedule now has a new surface for interaction that is both modern and accessible. However, the underlying Project Service Automation scheduling engine has not changed. The control buttons in the schedule grid’s ribbon allow you to interact with the schedule similar to the previous version of Project Service Automation. Additional changes to the schedule include:
 
@@ -94,22 +94,22 @@ When you move the schedule of existing project forward, the following happens:
 ## Estimates
 Estimates have been split into two tabs, **Resource assignment** and **Estimates**. The **Resource assignment** tab contains the effort estimates and shows the resource assignments for the tasks in a time-phased view. You can edit the estimates based on what the scheduling engine has generated.
 
-![Resource assignments tab showing effort estimates and resource assignments for tasks](media/resource-assignments-tab-02.png)
+![Resource assignments tab showing effort estimates and resource assignments for tasks.](media/resource-assignments-tab-02.png)
 
 The **Estimates** tab shows the cost and sales amounts for resource assignments. The amounts are read-only. The costing and sales pricing are now driven from the team member assignments on the schedule. This means that if you have a task without any assignment, the task will show under the unassigned bucket. This also means that without **role**, which is a default pricing dimension, there will be no estimated cost or sales if you have a customer or contract/quote associated with the project. 
 
-![Estimates tab showing cost and sales amounts](media/estimates-tab-03.png)
+![Estimates tab showing cost and sales amounts.](media/estimates-tab-03.png)
   
 Category is also supported on tasks in the schedule view. Grouping by category on the time-phased view of estimates will provide a better experience, especially when you also have expense estimates in your project. Expense estimates are entered using a grid on a separate tab. 
 
 Expense estimates can be entered in the grid on the **Expense estimates** tab. 
 
-![Expense estimates tab showing expense estimates grid](media/expense-estimates-tab-04.png)
+![Expense estimates tab showing expense estimates grid.](media/expense-estimates-tab-04.png)
 
 ## Resource management
 In Project Service Automation version 3, with the new Unified Client UI and changes in the relationship between bookings and assignments, staffing a project with generic or real resources has changed dramatically from version 2 and version 1. However, the concepts of bookable resources, both **real** and **generic** remain the same, as do team members, requirements, assignments, and bookings.   
 
-![Using the resource picker](media/resource-management-05.png)
+![Using the resource picker.](media/resource-management-05.png)
 
 ### Assign a real bookable resource 
 In Project Service Automation version 3, bookings and task assignments are not as tightly intertwined as in previous versions of Project Service Automation. You can use the team grid to book a **real** team member, similar to in-market.
@@ -135,7 +135,7 @@ When a requirement is fulfilled with multiple resources, the generic resource re
 ### Reconciliation
 The **Reconciliation** tab shows bookings and all assignments for each project team member. The view shows hours in cells which can represent time points from months to days. This view allows project managers to reconcile team member bookings and their assignments for their project team. This is helpful because bookings and task assignments are not tightly coupled, which allows for more flexibility when planning a project. 
 
-![Reconciliation tab showing bookings and assignments for project team members](media/resource-reconciliation-tab-06.png)
+![Reconciliation tab showing bookings and assignments for project team members.](media/resource-reconciliation-tab-06.png)
 
 For each resource, the view takes the difference between a team member's bookings and a rollup of their task assignments and shows the following two differences that can occur with bookings and assignments in a project: 
 
@@ -150,19 +150,19 @@ This section provides information about the changes in time, expense, and approv
 ### Landing page
 The non-extensible custom time entry experience has been deprecated in version 3. Instead, there is now an extensible and accessible native grid experience. You can access time entry functionality by using the sitemap on the left. With this change, you will no longer be able to enter time for one week at a time. Instead, you will need to create a time entry for each day in the grid. After a few time entries have been created, users can bulk create time entries with **Copy** function explained later in this topic. 
 
-![Time entry landing page](media/time-entry-landing-page-07.png)
+![Time entry landing page.](media/time-entry-landing-page-07.png)
  
 ### Create new time entries 
 Click **New** in the ribbon to open a quick-create page for time entry where you enter duration in minutes, hours, or days. To do this, just start typing h, m, or d along with the quantity.  
 
-![Time entry quick create](media/quick-create-time-entry-08.png)
+![Time entry quick create.](media/quick-create-time-entry-08.png)
 
 Look-up fields are backed by system views. For example, after you enter project information, the **Project task** field is set by default to **My open project tasks** view. To create time entries for tasks that are not assigned to the user, click **Change view** on the lookup and select **All Active project tasks**. After the time entry has been created and shows in the grid, you can edit any line values directly in the grid.  
 
 ### Bulk create/copy 
 After a few time entries have been created, you can use the copy functionality to bulk create additional time entries. Click **Copy** to open the **Copy** dialog. In **From period: Start Date**, set the date range from which time periods must be copied from. In **To Period: Start Date**, specify the date for which time entries must be created. Click **Copy** to copy the time entries to the corresponding day of the week indicated in the **To Period**. For example, Monday's time entry from last week will be copied into Monday for the week indicated in the **To Period**. 
 
-![Copy time entries in bulk](media/bulk-copy-time-entry-09.png)
+![Copy time entries in bulk.](media/bulk-copy-time-entry-09.png)
  
 ### Import data 
 Assignments and exchange follow the same UI pattern, which allow the user to specify the date range from when bookings need to be imported. You must then explicitly choose the bookings that should be copied into **Draft** time entries. In version 3, you can no longer see the pattern of **Suggested** time entries on the grid and calendar.  
@@ -178,7 +178,7 @@ In version 3, we have moved away from the custom calendar control and are now us
 
 **Capture data on custom fields in time and expense entry and propagate it through entities supporting the submission and approval flow** - The typical processing of time entries is shown in the following diagram.
 
-![Process of time entry flow](media/process-time-entries-10.png)
+![Process of time entry flow.](media/process-time-entries-10.png)
 
 If business requirements stipulate that time and expense entities must capture custom pricing dimensions and propagate the values that are set by a time and entry resource in the custom pricing dimension through all of the entities in the previous graphic, see [Set up custom fields as pricing dimensions](set-up-pricing-dimensions.md)
 
@@ -235,7 +235,7 @@ In versions 1 and 2, chargeability setup for roles and categories for specific q
 
 As of version 3, setup of chargeability options by role and  Expense category will be done at the quote or contract line level. Pricing setup is separate from Chargeability setup. You will be able to find **Chargeable roles** and **Chargeable categories** as tabs on the **Quote line** and  **Contract line** pages without having to use the top navigation.
 
-![Chargeable roles](media/chargeable-12.png)
+![Chargeable roles.](media/chargeable-12.png)
  
 The setup of Chargeable roles and Chargeable categories also leverages the out-of-the-box editable grid control. For each role and category, the supported options for billing type during the Quoting and Contracting phase remain unchanged from prior versions as **Chargeable** and **Non-chargeable**. **Complimentary** is not a supported type during the Quoting or Contracting phase. **Complimentary** is supported only during Time or Expense approval.  
  
@@ -246,11 +246,11 @@ As of version 3, creating and using a custom project price list on a Project Ser
   
 The following graphic is before custom price lists have been created.
 
-![Before custom price lists](media/before-custom-price-lists-13.png)
+![Before custom price lists.](media/before-custom-price-lists-13.png)
 
 The following graphic shows after custom price lists have been created.
 
-![After custom price lists](media/after-custom-price-lists-14.png)
+![After custom price lists.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > A short lag might occur between when you click **Create Custom Pricing** to when the custom price list is created. We recommend refreshing the grid instead of clicking multiple times. A custom price list has been created if the associated price list name has the quote name or the project contract name appended to it.

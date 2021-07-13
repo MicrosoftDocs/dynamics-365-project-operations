@@ -56,7 +56,7 @@ You can also assign categories for a resource as you require. The category type 
 
 A project manager can use the project resourcing functionality to create the roles that are required for the project. Roles can be used if confirmed resources are still unknown when resources are being reserved. Roles can be temporarily reserved as planned resources, so that you can continue the project planning stages.
 
-[![Example of a role](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Example of a role.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Scenario:** Contoso was hired to complete a Time and material project that has an approved project charter. The junior project manager is still completing the scope of the project. The resource manager is currently identifying specific resources that will be reserved to work on the new project. Because of the critical nature of the project, the project sponsor requested Senior project manager as one of the roles. The resource manager must acquire the new resource and define the role in the system in case the junior project manager requires the resource information during project planning.
 

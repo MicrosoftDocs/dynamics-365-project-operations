@@ -50,7 +50,7 @@ The organizational unit plays two roles in PSA:
 - **Contracting unit** – The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer. The contracting unit is identified by the **Contracting Unit** field in the header section of the **Opportunity**, **Quote**, **Project Contract**, and **Project** pages.
 - **Resourcing unit** – The organizational unit that a resource belongs to or is assigned to. This organizational unit can provide its resources for some roles on statements of work (SOWs) and projects that are owned by the contracting unit.
 
-> ![Contracting units and resourcing units](media/advanced-1.png)
+> ![Contracting units and resourcing units.](media/advanced-1.png)
 
 ## Organizational unit FAQs
 

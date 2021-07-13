@@ -48,28 +48,28 @@ Before you can start using the Project Resource Hub app, you need to install the
 1.	When you sign in on the mobile app, you’ll see the MyApps page with a list of the apps that you access to. 
 2.	Select **Project Resource Hub**.
 
-![Choose an app](media/chooseApp_1.png "Choose an app")
+![Choose an app.](media/chooseApp_1.png "Choose an app")
 
 **The navigation bar**
 
-Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![More Button](media/MoreButton.png "More Button")
+Use the nav bar to get to your work area, create a new record, search, or do other tasks. To access more commands, tap ![More Button.](media/MoreButton.png "More Button")
 
-![Nav Bar](media/NavBar_2.png "Nav Bar")
+![Nav Bar.](media/NavBar_2.png "Nav Bar")
 
 **Favorites and recently used records**
 
 The Favorites and Recently Used sections provide quick access to your records, views, and dashboards. 
 
-- To access these sections, tap the **Menu** ![Menu button](media/MenuButton.png "Menu button") button on the nav bar, and then tap the **Favorites and Recent** ![Fav Button](media/FavButton.png "Fav Button") button.
+- To access these sections, tap the **Menu** ![Menu button.](media/MenuButton.png "Menu button") button on the nav bar, and then tap the **Favorites and Recent** ![Fav Button](media/FavButton.png "Fav Button") button.
 
 - To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This will pin and move the item to Favorites.
 
-  ![Favorites and Recent items](media/Favs_3.png "Favorites and Recent items")
+  ![Favorites and Recent items.](media/Favs_3.png "Favorites and Recent items")
  
 ## Enter time
 Enter your hours at least weekly—or at the frequency requested by your managers—to ensure your clients are invoiced and you’re credited correctly.
 
-1. Tap the menu ![Menu button](media/MenuButton.png "Menu button") button, and then tap **Time Entries**. This brings up your calendar.
+1. Tap the menu ![Menu button.](media/MenuButton.png "Menu button") button, and then tap **Time Entries**. This brings up your calendar.
 
 2. To see your calendar for the previous or next week, tap the **Previous** or **Next** button. Tap **Today** to get back to the current week.
 

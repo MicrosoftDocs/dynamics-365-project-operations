@@ -19,7 +19,7 @@ This topic provides information about Project Operations dual-write integration 
 
 Project contracts, contract lines, and projects are created in Dataverse and synchronized to Finance and Operations apps for additional accounting. The records in these entities can be created and deleted only in Dataverse. However, accounting attributes such as sales tax group defaults and financial dimensions can be added to these records in the Finance and Operations apps.
 
-  ![Project contract integration concepts](./media/1ProjectContract.jpg)
+  ![Project contract integration concepts.](./media/1ProjectContract.jpg)
 
 Sales activity leads, opportunities, and quotes are tracked in Dataverse and don't synchronize to Finance and Operations apps because there is no downstream accounting associated with this activity.
 
@@ -46,7 +46,7 @@ Project contract lines can be reviewed by the project accountant in Finance and 
 
 Project contract lines using the fixed price billing method are invoiced through billing milestones. Billing milestones are synchronized to project on-account transactions in Finance and Operations apps by using the **Project Operations integration contract line milestones (msdyn\_contractlinescheduleofvalues)** table map.
 
-  ![Billing milestones integration](./media/2Milestones.jpg)
+  ![Billing milestones integration.](./media/2Milestones.jpg)
 
 The accountant can review on-account transactions and adjust the accounting attributes for those transactions by going to **Project management and accounting** > **Project contracts** > **Maintain** > **On-account transactions** or **Project management and accounting** > **All projects** > **Maintain** > **On-account transactions**.
 
@@ -56,13 +56,13 @@ When you first create a billing milestone for a given project contract line, the
 
 Project tasks are synchronized to Finance and Operations apps through the **Project tasks (msdyn\_projecttasks)** table map for reference purposes only. Creating, updating, and deleting operations isn't supported through Finance and Operations apps.
 
-  ![Project tasks integration](./media/3Tasks.jpg)
+  ![Project tasks integration.](./media/3Tasks.jpg)
 
 ## Project resources
 
 The **Project resource roles** entity is synchronized to Finance and Operations apps using the **Project resource roles for all companies (bookableresourcecategories)** table map for reference purposes only. Because resource roles in Dataverse are not company-specific, the system automatically creates respective company-specific resource roles records in Finance and Operations apps automatically for all legal entities included into dual-write integration scope.
 
-![Resource roles integration](./media/5Resources.jpg)
+![Resource roles integration.](./media/5Resources.jpg)
 
 Project resources in Project Operations are maintained in Dataverse and aren't synchronized to Finance and Operations apps.
 
@@ -70,6 +70,6 @@ Project resources in Project Operations are maintained in Dataverse and aren't s
 
 Transaction categories are maintained in Dataverse and synchronized to Finance and Operations apps using the **Project transaction categories (msdyn\_transactioncategories)** table map. After the transaction category record is synchronized, the system automatically creates four shared category records. Each record corresponds to a transaction type in Finance and Operations apps and links them to the transaction category record.
 
-![Transaction categories integration](./media/4TransactionCategories.jpg)
+![Transaction categories integration.](./media/4TransactionCategories.jpg)
 
 Using transaction categories for estimates and actuals requires the project accountant or system administrator to create corresponding project categories in every legal entity. For more information, see [Configure project categories](../project-accounting/configure-project-categories.md).

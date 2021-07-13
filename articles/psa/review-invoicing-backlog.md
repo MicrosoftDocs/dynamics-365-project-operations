@@ -39,7 +39,7 @@ Unbilled sales actuals represent the billing backlog, and their billing status m
 
 To review the billing backlog for time and materials, go to **Sales** \> **Billing** \> **Time and Material Billing Backlog**. Select all the unbilled sales actuals that are ready to be invoiced, and then select **Ready to Invoice**. The billing status of these actuals is changed to **Ready to Invoice**.
 
-![Time and material billing backlog](media/TMBacklog.png)
+![Time and material billing backlog.](media/TMBacklog.png)
 
 ## Review the product billing backlog
 
@@ -47,7 +47,7 @@ In PSA, when a project contract has product-based contract lines, those lines ar
 
 To review the billing backlog for products, go to **Sales** \> **Billing** \> **Product Billing Backlog**. Select all the product-based contract lines that are ready to be invoiced, and then select **Ready to Invoice**. The billing status of these lines is changed to **Ready to Invoice**.
 
-![Product billing backlog](media/ProductBacklog.png)
+![Product billing backlog.](media/ProductBacklog.png)
 
 ## Review billing milestones on fixed-price contracts
 
@@ -55,7 +55,7 @@ Each project contract line that has a fixed-price billing method must define con
 
 To review billing milestones, go to **Sales** \> **Billing** \> **Fixed Price Milestones**. Select the milestones that are ready to be invoiced, and then select **Ready to invoice**. The billing status of these milestones is changed to **Ready to Invoice**.
 
-![Fixed-price milestones](media/FPBacklog.png)
+![Fixed-price milestones.](media/FPBacklog.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

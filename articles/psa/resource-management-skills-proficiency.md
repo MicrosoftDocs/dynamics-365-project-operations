@@ -30,7 +30,7 @@ Skills are resource characteristics that are shared between Dynamics 365 Project
 
 To maintain the repository of skills in Project Service Automation, go to **Resources** \> **Resource Skills**. 
 
-> ![Resource Skills](media/Resource-Management-image84.png)
+> ![Resource Skills.](media/Resource-Management-image84.png)
 
 ## Use proficiency models to rate resources
 
@@ -40,7 +40,7 @@ Skills for resources are rated by proficiency models. The individual ratings are
 2. In the new rating model, specify the minimum rating value, the maximum rating value, and the entity that is being rated.
 3. In the **Rating Values** subgrid, you can define the different rating values, from the minimum to the maximum.
 
-> ![Minimum and maximum ratings defined](media/Resource-Management-image85.png)
+> ![Minimum and maximum ratings defined.](media/Resource-Management-image85.png)
 
 These rating values are shown on the **Resource Requirements**, **Schedule Board**, and **Schedule Assistant** filters.
 

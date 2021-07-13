@@ -28,7 +28,7 @@ search.app:
 
 Project estimates provide the financial view for work that is estimated and scheduled in the project schedule. The **Estimates** tab on the **Projects** page shows the cost and revenue impact of the work that you’re planning. It also provides information about many predefined dimensions. 
 
-> ![Estimates tab](media/project-5.png)
+> ![Estimates tab.](media/project-5.png)
 
 ## Cost and sales values of the project
 
@@ -63,13 +63,13 @@ If the system doesn't find a price for the role, the sales price on the estimate
 
 The **Estimates** tab has a grid view that shows estimate lines. The grid includes columns for the unit, total cost price, and total sales price, as shown in the following illustration. 
 
-> ![Grid view on the Estimates tab](media/project-6.png)
+> ![Grid view on the Estimates tab.](media/project-6.png)
 
 ## Time-phased view of project estimates
 
 The time-phased view of project estimates shows the estimate data from the grid view across the timeline, in a time scale that you select. By default, the estimate data is pivoted on the **Role** dimension.
 
-> ![Time-phased view for project estimates](media/project-7.png)
+> ![Time-phased view for project estimates.](media/project-7.png)
 
 ## Allocating estimated effort based on the task mode
 

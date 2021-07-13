@@ -96,23 +96,23 @@ Complete the following steps to create a new project cost and revenue profile.
 
 Time and materials – no WIP
 
-![Cost and revenue profile: Time and materials - no WIP](media/time-material-no-wip.png)
+![Cost and revenue profile: Time and materials - no WIP.](media/time-material-no-wip.png)
 
 Time and materials – WIP (revenue)
 
-![Cost and revenue profile: Time and materials - WIP](media/time-material-with-wip.png)
+![Cost and revenue profile: Time and materials - WIP.](media/time-material-with-wip.png)
 
 Fixed Price – No WIP
 
-![Cost and revenue profile: Fixed price - no WIP](media/fixed-price-no-wip.png)
+![Cost and revenue profile: Fixed price - no WIP.](media/fixed-price-no-wip.png)
 
 Fixed Price – completed contract
 
-![Cost and revenue profile: Fixed price - completed contract](media/fixed-price-completed-contract.png)
+![Cost and revenue profile: Fixed price - completed contract.](media/fixed-price-completed-contract.png)
 
 Fixed Price – percentage completion
 
-![Cost and revenue profile: Fixed price - percentage completion](media/fixed-price-completed-percentage.png)
+![Cost and revenue profile: Fixed price - percentage completion.](media/fixed-price-completed-percentage.png)
 
 
 ## Accounting event examples for sample Project cost and revenue profiles.

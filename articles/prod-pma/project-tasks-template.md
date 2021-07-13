@@ -45,7 +45,7 @@ The Project Service Automation to Finance integration solution uses the Data int
 
 The following illustration shows how the data is synchronized between Project Service Automation and Finance.
 
-[![Data flow for Project Service Automation integration with Finance](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+[![Data flow for Project Service Automation integration with Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
 
 ## Template and task
 
@@ -86,7 +86,7 @@ If you must use Power Query, follow this guideline:
 
 The following illustration shows an example of the template task mappings in Data integration. The mapping shows the field information that will be synchronized from Project Service Automation to Finance.
 
-[![Template mapping](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![Template mapping.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

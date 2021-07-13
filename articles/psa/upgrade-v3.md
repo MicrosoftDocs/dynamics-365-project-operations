@@ -33,7 +33,7 @@ Both Dynamics 365 Project Service Automation and Dynamics 365 Field Service use 
 ## Resource assignments
 In Project Service Automation version 2 and version 1, task assignments were stored as child tasks (also called line tasks) in the **Task entity**, and indirectly related to the **Resource Assignment** entity. The line task was visible in the assignment pop-up window on the Work Breakdown Structure (WBS).
 
-![Line tasks on the WBS in Project Service Automation version 2 and version 1](media/upgrade-line-task-01.png)
+![Line tasks on the WBS in Project Service Automation version 2 and version 1.](media/upgrade-line-task-01.png)
 
 In version 3 of Project Service Automation, the underlying schema of assigning bookable resources to tasks has changed. The line task has been deprecated and there is a direct 1:1 relationship between the task in the **Task entity** and the team member in the **Resource Assignment** entity. Tasks that are assigned to a project team member are now stored directly in the Resource Assignment entity.  
 
@@ -44,26 +44,26 @@ Using the underlying task entity, tasks in version 2 and version 1 allowed team 
 
 If you have assigned a resource to a task outside of their default role in version 2 and version 1, when you upgrade, the named resource will be assigned the default role for all task assignments, regardless of role assignment in version 2. This assignment results in differences in the calculated estimates from version 2 or version 1 to version 3 because estimates are calculated based on the role of the resource and not the line task assignment. For example, in version 2, two tasks have been assigned to Ashley Chinn. The role on the line task for task 1 is Developer and for task 2, Program Manager. Ashley Chinn has the default role of Program Manager.
 
-![Multiple roles assigned to one resource](media/upgrade-multiple-roles-02.png)
+![Multiple roles assigned to one resource.](media/upgrade-multiple-roles-02.png)
 
 Because the roles of Developer and Program Manager differ, the cost and sales estimates are as follows:
 
-![Cost estimates for resource roles](media/upggrade-cost-estimates-03.png)
+![Cost estimates for resource roles.](media/upggrade-cost-estimates-03.png)
 
-![Sales estimates for resource roles](media/upgrade-sales-estimates-04.png)
+![Sales estimates for resource roles.](media/upgrade-sales-estimates-04.png)
 
 When you upgrade to version 3, line tasks are replaced with resource assignments on the task of the bookable resource team member. The assignment will use the default role of the bookable resource. In the following graphic, Ashley Chinn who has a role of Program Manager, is the resource.
 
-![Resource assignments](media/resource-assignment-v2-05.png)
+![Resource assignments.](media/resource-assignment-v2-05.png)
 
 Because the estimates are based on the default role for the resource, the sales and cost estimates may change. In the following graphic, you no longer see the **Developer** role as the role is now taken from the bookable resource’s default role.
 
-![Cost estimates for default roles](media/resource-assignment-cost-estimate-06.png)
-![Sales estimate for default roles](media/resource-assignment-sales-estimate-07.png)
+![Cost estimates for default roles.](media/resource-assignment-cost-estimate-06.png)
+![Sales estimate for default roles.](media/resource-assignment-sales-estimate-07.png)
 
 After upgrade is complete, you can edit a team member's role to be something other than the assigned default. However, if you change a team members role, it will be changed on all of their assigned tasks because team members can't be assigned multiple roles in version 3.
 
-![Updating a resource role](media/resource-role-assignment-08.png)
+![Updating a resource role.](media/resource-role-assignment-08.png)
 
 This is also true for line tasks that were assigned to named resources when you change the resource’s organization unit from the default to another organization unit. After the version 3 upgrade is complete, the assignment will use the resource’s default organization unit instead of the one set on the line task.
 
@@ -81,24 +81,24 @@ For tasks that are assigned to generic team members that were generated with **G
 
 For example, in the Project Z project, the contracting org unit is Contoso US. In the project plan, testing tasks within the Implementation phase have been assigned the role Technical Consultant and the assigned org unit is Contoso India.
 
-![Implementation phase org assignment](media/org-unit-assignment-09.png)
+![Implementation phase org assignment.](media/org-unit-assignment-09.png)
 
 After the implementation phase, the integration test task is assigned to the role Technical consultant, but the org is set to Contoso US.  
 
-![Integration test task org assignment](media/org-unit-generate-team-10.png)
+![Integration test task org assignment.](media/org-unit-generate-team-10.png)
 
 When you generate a team for the project, two generic team members are created due to the different org units on the tasks. Technical consultant 1 will be assigned the Contoso India tasks and Technical consultant 2 will have the Contoso US tasks.  
 
-![Generated generic team members](media/org-unit-assignments-multiple-resources-11.png)
+![Generated generic team members.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > In Project Service Automation version 2 and version 1, the team member does not hold the organization unit, that is maintained on the line task.
 
-![Version 2 and version 1 line tasks in Project Service Automation](media/line-tasks-12.png)
+![Version 2 and version 1 line tasks in Project Service Automation.](media/line-tasks-12.png)
 
 You can see the organization unit on the estimates view. 
 
-![Org unit estimates](media/org-unit-estimates-view-13.png)
+![Org unit estimates.](media/org-unit-estimates-view-13.png)
  
 When the upgrade is complete, the organization unit on the line task that corresponds to the generic team member is added to the generic team member and the line task is removed. Because of this, we recommend that before you upgrade, you generate or regenerate the team on each project that contains generic resources.
 

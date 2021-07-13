@@ -27,7 +27,7 @@ The following maps are required prerequisites for the Project Operations solutio
 
 1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **Finance and Operations apps** for both ledger map and all prerequisite maps. Select **Run**.
 
-![Ledger map synchronization](media/DW6.png)
+![Ledger map synchronization.](media/DW6.png)
 
 2. Follow the same steps for all remaining table maps listed in the above table. Do not select the **Initial sync** check box when running those maps.
 
@@ -60,7 +60,7 @@ Complete the following steps to run the listed maps.
 
 1. Enable the Project resource roles for **all companies (bookableresourcecategories)** table map as this map requires the initial sync. In the **Master for initial sync** field, select **Common data service**. 
 
- ![Resource role table map sync](media/6ResourceInitialSync.jpg)
+ ![Resource role table map sync.](media/6ResourceInitialSync.jpg)
 
  Wait until the status of the map is **Running** before you move to the next step.
 

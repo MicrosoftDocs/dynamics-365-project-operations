@@ -94,7 +94,7 @@ Additional options have been added in the WBS to better use the resourcing funct
 
 4. Set the dates and effort (hours), as shown in the following illustration.
 
-    [![Setting the dates and effort](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Setting the dates and effort.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Select the **Initiating** task line, and then, in the **Role** field, select **Senior Project Manager**.
 6. Select **Publish**.
