@@ -52,10 +52,10 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Germany</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
 | | <i>Switzerland</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 6, 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | July 16, 2021
-| | <i>Asia Pacific</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | July 16, 2021
-| | <i>Great Britain</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | July 16, 2021
-| | <i>Oceana</i> | [3.10.53.108](whats-new-ur-32.md) | [3.10.54.98](whats-new-ur-33.md) | July 16, 2021
+| | <i>Japan</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 13, 2021
+| | <i>Asia Pacific</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 13, 2021
+| | <i>Great Britain</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 13, 2021
+| | <i>Oceana</i> | [3.10.54.98](whats-new-ur-33.md) | TBD | August 13, 2021
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.10.53.231](whats-new-ur-32-5.md) | [3.10.54.98](whats-new-ur-33.md) | July 23, 2021
 |<strong>Station 5</strong> | |  |  | |
