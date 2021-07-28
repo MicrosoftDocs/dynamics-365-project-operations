@@ -832,6 +832,12 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
+  - name: Subcontract Management in Project Operations
+    items: 
+    - name: Managing Subcontracts - Overview
+      href: time/time-entry-overview.md
+    - name: Key Concepts in Subcontracting
+      href: time/time-entry-overview.md
   - name: Time
     items: 
     - name: Time overview
