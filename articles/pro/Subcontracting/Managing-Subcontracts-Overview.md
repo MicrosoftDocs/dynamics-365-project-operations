@@ -13,6 +13,8 @@ ms.author: rumant
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Subcontracting in Project Operations supports the business process flow as below:
+
+> ![Subcontracting Process Flow.](media/RWL-Default-Value.png)
   
 Below is a step-by-step description of Subcontracting process in Project Operations:
 1.	Project Manager creates a subcontract with a Vendor. Price lists on the subcontract are defaulted from the Price Lists attached to the Vendor record. Vendor is an Account with Relationship type as Vendor or Supplier.
