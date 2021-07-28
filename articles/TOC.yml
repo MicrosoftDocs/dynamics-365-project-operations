@@ -835,9 +835,9 @@
   - name: Subcontract Management in Project Operations
     items: 
     - name: Managing Subcontracts - Overview
-      href: pro/Subcontracting/time-entry-overview.md
+      href: pro/Subcontracting/Managing-Subcontracts-Overview.md
     - name: Key Concepts in Subcontracting
-      href: pro/Subcontracting/time-entry-overview.md
+      href: pro/Subcontracting/Key-Concepts-Subcontracting.md
   - name: Time
     items: 
     - name: Time overview
