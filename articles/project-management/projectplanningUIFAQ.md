@@ -50,7 +50,7 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
  ![PEX Endpoint field on the project parameter.](media/projectparameter.png)
 
 1. Add the **PEX Endpoint** field to the **Project Parameters** page.
-2. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
+2. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`
 3. Remove the field from the **Project Parameters** page.
 
 ## Privileges for Project for the Web
