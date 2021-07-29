@@ -38,4 +38,5 @@ Note: To associate a Bookable resource to a Subcontract line, the Bookable resou
 ## Updating Type of Worker and Vendor mapping for Bookable Resources
 
 Type of Worker and Vendor fields on a Bookable Resources determine if the Bookable resource is a Contract Worker or an Employee and the Vendor account that they are associated to. Associating a Bookable resource as a contact for a Vendor indicates that the contact is an employee of the vendor company. If the Type of Worker and Vendor fields on a Bookable Resource are changed, then the changes impact any future validations on new records such as time entries etc. created by this Bookable resource. However, updates to these fields will not render any of the already created records invalid.
+
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
