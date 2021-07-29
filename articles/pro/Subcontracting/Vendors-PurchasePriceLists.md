@@ -1,6 +1,6 @@
 ---
-title: Key concepts in Subcontracting 
-description: This topic provides some of key concepts as they apply to Subcontracting in Project Operations.
+title: Managing vendors and Purchase Price Lists in Project Operations 
+description: This topic covers the creation and maintenance of Vendor data and Purchase Price Lists to be used in the context of Subcontracting in Project Operations.
 author: rumant
 ms.date: 07/28/2021
 ms.topic: article
