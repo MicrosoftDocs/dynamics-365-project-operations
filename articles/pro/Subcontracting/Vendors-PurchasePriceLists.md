@@ -1,4 +1,4 @@
---
+---
 title: Key concepts in Subcontracting 
 description: This topic provides some of key concepts as they apply to Subcontracting in Project Operations.
 author: rumant
@@ -8,45 +8,40 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Key Concepts of subcontracting in Project Operations
+# Managing vendors and Purchase Price Lists in Project Operations
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
+## Vendors in Project Operations
 
-The following are key concepts to be aware of before you begin using Subcontracting experiences in Project Operations:
+Vendors in Project Operations are accounts where relationship type is &quot;Vendor&quot; or &quot;Supplier&quot;. All other relationship type values (including blank value) on an Account record do not allow the account to be selected as vendor on a Subcontract.
 
-## Contracting Unit on the subcontract
+All references to &quot;Vendor&quot; in Project Operations User Interface and in product documentation should deemed to refer to an account record where the relationship type is &quot;Vendor&quot; or &quot;Supplier&quot;.
 
-Contracting unit represents the division or practice that owns the delivery of the eventual project. This is also the division that is entering into the contract relationship with the vendor
+On vendor record in Project Operations, you can associate one or more Purchase price lists. However, all purchase price lists attached to a vendor record should have distinct date effectivities. Overlapping date-effectivities for purchase price lists is not supported by Project Operations.
 
-## Purchase Currency
+The following fields and concepts on the vendor record will default on a Subcontract that is created for this vendor:
 
-Purchase currency in Project Operations is the currency in which the subcontract is created. This is also the currency in which subcontractor costs are recorded on a project. Purchase currency can be different from the Project currency which in turn can be different from the sales currency.
+1. Payment terms
+2. Bill To contact
+3. Primary contact of the vendor is defaulted on the Subcontract as the Vendor Account Manager
+4. Currency
+5. Purchase price lists that are current
 
-## Billing Methods on Subcontract Lines
+## Purchase price lists in Project Operations
 
-In the world of projects, there are typically fixed fee and consumption-based contracting models. Project Operations supports these billing methods in the Sales and Purchase context. In the purchase context, the following is how Billing Methods work:
+A price list that has the Context field set to &quot;Purchase&quot; is considered a Purchase Price list. Purchase price list can be defined to represent a catalog of purchase rates for Time, Expense and Materials. A Purchase price list has a lot of similarities with Cost and Sales price lists in Project Operations. Below are a list concepts that apply to Purchase price lists in the same way as they apply to Cost and Sales price lists:
 
-- Time and Material: When a subcontract line has a Time and Material billing method, as subcontractors work on projects and record time, the cost of that time is recorded on the project. These cost transactions from subcontractors are then matched with the Vendor Invoice lines items. In this model, Project Managers using Project Operations will be able to match and verify Vendor Invoice Lines with Subcontractor Time that is recorded and approved and the original subcontracted line. Once is verification is complete, previous cost actuals that were recorded on approval are reversed and new cost actuals based vendor invoice are created on the project.
-- Fixed Price: This is a fixed fee contracting model where the vendor invoices based fixed milestones. However, subcontractor resources can also report time which is reviewed and approved by the project manager. On approval, Project Operations creates &quot;temporary cost actuals&quot; on the project. Once the vendor sends an invoice for a milestone, the system allows the Project Manager to match previously recorded cost actuals against the milestone. Once the verification is complete, the cost actuals are reversed and the milestone – based cost is recorded in the system.
+1. Date effectivity: Like cost and sales price lists, Purchase price lists also have a date effectivity represented by Start and End date fields on the price list. The period between start and end dates is the period
+2. Currency: The currency on the price list header is used as the currency in which purchase prices are expressed for Labor (role prices), Expense Category prices (Category prices), Products in the catalog (Price List Items)
+3. Default time unit: This is used as the default unit of time in which Labor prices for purchase are expressed. The time unit field on the Price List is only used for defaulting and can be changed on individual Role prices rows.
 
-## Project Price lists on Subcontracts
+Vendor-specific Purchase Price Lists:
 
-Project price lists are price lists that will used to purchase prices for time, expense and other project related components. There can be multiple prices lists each with its own date effectivity a Subcontract in Project Operations. Overlapping date – effectivities on project price lists on a Subcontract are not supported in Project Operations.
+Purchase price lists can be attached to Vendor records as associations called Project Price lists. When attached to a vendor record, the most current among them will be defaulted on Subcontracts that are created for the vendor. These project price lists are then used for defaulting prices on Subcontract lines. Only purchase price lists that have the context field set to &quot;Purchase&quot; can be attached to Vendor records
 
-## Transaction Classes on Subcontracts
+### Subcontract-specific Purchase Price Lists:
 
-Project Operations supports 4 types of transaction classes:
-
-1. Time
-2. Expense
-3. Material
-4. Fee
-
-Purchase costs can be estimated and incurred ONLY on Time, Expense and Material transaction classes. Fee is a revenue only class of transactions and is not available in the Purchase context
-
-## Purchase pricing dimensions
-
-Pricing dimensions are a concept in Project Operations that allow a customer to decide what attributes will used for price setup and defaulting on Time transactions. In the purchase context, the application supports only fixed dimension sets for purchase price setup and defaulting. The attributes for purchase price setup (definition) and defaulting on Subcontract lines and Subcontract Time transactions are Role and Bookable Resource.
+Purchase price lists can be attached to Subcontracts as associations called Project Price lists. Purchase price lists attached to a Subcontract record are used for defaulting prices on Subcontract lines. When a Subcontract has multiple purchase price lists attached, they need to have distinct date effectivities. Purchase prices with overlapping date effectivities are not supported in Project Operations. Only purchase price lists that have the context field set to &quot;Purchase&quot; can be attached to Subcontracts.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
