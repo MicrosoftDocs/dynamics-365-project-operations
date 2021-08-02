@@ -50,17 +50,19 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 1. Add the **PEX Endpoint** field to the **Project Parameters** page.
 2. Identify the product type that you are using. This value is used when the PEX Endpoint is set. Upon retrieval, the product type is already defined in the PEX Endpoint. Keep that value. 
+   
+    ![PEX Endpoint field on the project parameter.](media/pex-endpoint.png)
 
+3. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
    | Product type                         | Type parameter |
    |--------------------------------------|----------------|
    | Project for the Web on Default org   | type=0         |
    | Project for the Web on CDS named org | type=1         |
    | Project Operations                   | type=2         |
    
-    ![PEX Endpoint field on the project parameter.](media/pex-endpoint.png)
-
-3. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
-5. Remove the field from the **Project Parameters** page.
+4. Remove the field from the **Project Parameters** page.
 
 ## Privileges for Project for the Web
 
