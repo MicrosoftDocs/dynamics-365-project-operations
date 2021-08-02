@@ -2,13 +2,13 @@
 title: Managing subcontracts in Project Operations
 description: This topic provides overview about end-to-end management of Subcontracts in Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: rumant
 ---
 
-# Managing Subcontracts in Project Operations
+# Managing subcontracts in Project Operations
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
