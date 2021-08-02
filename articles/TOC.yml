@@ -832,12 +832,12 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
-  - name: Subcontract Management in Project Operations
+  - name: Subcontract management in Project Operations
     items: 
-    - name: Managing Subcontracts - Overview
-      href: pro/Subcontracting/Managing-Subcontracts-Overview.md
-    - name: Key Concepts in Subcontracting
-      href: pro/Subcontracting/Key-Concepts-Subcontracting.md
+    - name: Managing subcontracts overview
+      href: pro/Subcontracting/managing-subcontracts-overview.md
+    - name: Key concepts in subcontracting
+      href: pro/Subcontracting/key-concepts-subcontracting.md
   - name: Time
     items: 
     - name: Time overview
