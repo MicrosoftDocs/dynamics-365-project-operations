@@ -15,7 +15,7 @@ _Applies To: Lite deployment - deal to proforma invoicing_
 
 This topic applies to the following Dynamics 365 Project Operations components and versions:
 
-  - Project Operations on Dataverse environment version 4.12.0.148.
+  - Project Operations on Dataverse environment version 4.12.0.148 or 4.12.0.152.
 
 ## Quality updates
 | **Feature area**              | **Reference number** | **Quality update**                                                                                                                                                                                             |
@@ -54,3 +54,4 @@ This topic applies to the following Dynamics 365 Project Operations components a
 | General                       | 2296857              | Progress tracking for long running jobs.                                                                                                                                                                        |
 | General                       | 2253682              | The Project Operations dual-write solution shouldn't be installed when dual-write core is installed in an environment without the dual-write orchestration solution.                                                |
 | General                       | 2316420              | Project service core provisioning fails if the application user’s business unit is changed.                                                                                                                     |
+| General                       | 2376405              | Fixed publisher driven update issue (Quality update is available in version 4.12.0.152)                                                                                                                     |
