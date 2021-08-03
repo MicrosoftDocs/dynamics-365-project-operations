@@ -21,12 +21,12 @@ Follow these steps to set up subcontractors as bookable resources in Microsoft D
     - **Contact** or **Account** – Select one of these resource types if the subcontractor doesn't require access to Project Operations, but must be available for task assignments or bookings on projects. Neither of these resource types provides access to the system. Select **Account** to represent the company of the vendor as a bookable resource. Select **Contact** to represent the individual employees of the vendor.
 
 3. Depending on the resource type that you selected, you're prompted to select the corresponding user, account, or contact record.
-4. In the **Type of Worker** field, select the contract worker to set up the subcontractor as a bookable resource.
+4. In the **Type of Worker** field, select the "Contract worker" to set up the subcontractor as a bookable resource.
 
     > [!NOTE]
-    > If you leave the **Type of Worker** field blank, the system to view the bookable resource as an employee.
+    > If you leave the **Type of Worker** field blank, the bookable resource will be considered as an employee.
 
-5. If you select **Contract Worker**, select the vendor that the resource works for.
+5. If you selected **Contract Worker** as the type of worker, select the vendor that the resource works for..
 6. Select the time zone of the resource, and then select **Save**. To assign a work hour template to the bookable resource, you can select **Set calendar** on the **Bookable Resource** list page.
 
 To be associated with a subcontract line, a bookable resource must meet these conditions:
