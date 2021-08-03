@@ -38,10 +38,10 @@ A price list where the **Context** field is set to **Purchase** is considered a 
 - **Currency** – The currency on the price list header is used as the currency that purchase prices are expressed in for labor, expense categories, and products in the catalog.
 - **Default time unit** – The default time unit expresses labor prices for purchases. The time unit field on a price list is used only to provide a default value. That value can be changed on individual role price rows.
 
-Purchase price lists can be attached to vendor records as associations that are known as project price lists. These price lists are used to enter default prices on subcontract lines. By default, when multiple purchase price lists are attached to a vendor record, the most current price list is used for subcontracts that are created for the vendor. Only purchase price lists where the **Context** field is set to **Purchase** can be attached to vendor records.
+Purchase price lists can be attached to vendor records as associations that are known as project price lists. These price lists are used to enter default prices on subcontract lines. By default, when multiple purchase price lists are attached to a vendor record, the most current price list is used for subcontracts that are created for the vendor. Only  price lists where the **Context** field is set to **Purchase** can be attached to vendor records.
 
 ### Subcontract-specific purchase price lists
 
-Purchase price lists can also be attached to subcontracts as associations that are known as project price lists. These price lists are used to enter default prices on subcontract lines. By default, when multiple purchase price lists are attached to a subcontract, each must have distinct date effectivity. Project Operations doesn't support purchase price lists that have overlapping date effectivity. Only purchase price lists where the **Context** field is set to **Purchase** can be attached to subcontracts.
+Purchase price lists can also be attached to subcontracts as associations that are known as project price lists. These price lists are used to enter default prices on subcontract lines. By default, when multiple purchase price lists are attached to a subcontract, each must have distinct date effectivity. Project Operations doesn't support purchase price lists that have overlapping date effectivity. Only price lists where the **Context** field is set to **Purchase** can be attached to subcontracts.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
