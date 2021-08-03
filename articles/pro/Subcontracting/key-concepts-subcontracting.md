@@ -31,7 +31,7 @@ For projects, there are typically fixed-fee and consumption-based contracting mo
 
 ## Project price lists on subcontracts
 
-Project price lists are price lists that are used to purchase prices for time, expense, and other project-related components. There can be multiple prices lists, each of which can have its own date-effective subcontract in Project Operations. Project Operations doesn't support overlapping effective dates on project price lists for a subcontract.
+Project price lists are price lists that are used to setup purchase prices for time, expense, and other project-related components. There can be multiple prices lists, each of which can have its own date-effective subcontract in Project Operations. Project Operations doesn't support overlapping effective dates on project price lists for a subcontract.
 
 ## Transaction classes on subcontracts
 
