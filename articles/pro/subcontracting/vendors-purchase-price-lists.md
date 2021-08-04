@@ -10,6 +10,8 @@ ms.author: rumant
 
 # Vendor and purchase price list management in Project Operations
 
+[!include [banner](../../includes/dataverse-preview.md)]
+
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 ## Vendors in Project Operations

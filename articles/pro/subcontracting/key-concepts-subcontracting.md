@@ -10,6 +10,8 @@ ms.author: rumant
 
 # Key concepts in subcontracting
 
+[!include [banner](../../includes/dataverse-preview.md)]
+
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 The topic explains some key concepts that you should be aware of before you start to use the subcontracting functionality in Microsoft Dynamics 365 Project Operations.
