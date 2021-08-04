@@ -832,7 +832,7 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
-  - name: Subcontract management in Project Operations (Preview)
+  - name: Subcontract management in Project Operations
     items: 
     - name: Managing subcontracts overview
       href: pro/subcontracting/managing-subcontracts-overview.md
