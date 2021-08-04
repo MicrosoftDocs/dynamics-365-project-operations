@@ -843,7 +843,7 @@
     - name: Subcontractors as bookable resources 
       href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Header Details for Subcontracts  
-      href: pro/subcontracting/subcontractors-as-bookable-resources.md
+      href: pro/subcontracting/subcontract_header_details.md
   - name: Time
     items: 
     - name: Time overview
