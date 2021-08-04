@@ -15,8 +15,6 @@ ms.author: rumant
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 
-Subcontracting Project Operations – October 2021 Early Access Scope:
-
 The October 2021 early access release is lighting up portions of the subcontracting capabilities for Project Operations customers. However, this feature set is not ready for Production or live usage. Subcontracting feature set will remain in Preview mode until the full capability set is released. Until the Preview tag is removed in the Docs site, it is strongly advised to not use the Subcontracts capability set for live production scenarios.
 
 As outlined in the overview article, the full scope and vision of subcontracting will take a few releases to land. Below is the outlined scope for October 2021 Early Access:
