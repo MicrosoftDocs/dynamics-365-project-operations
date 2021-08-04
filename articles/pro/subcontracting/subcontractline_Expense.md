@@ -1,6 +1,6 @@
 ---
-title: Vendor and purchase price list management in Project Operations
-description: This topic provides information that will help you create and maintain vendor data and purchase price lists for subcontracting.
+title:  Subcontract lines for Expense Categories
+description: This topic provides information that will help you record Subcontract lines for Expense and how to use the various fields to record the purchase of time from vendors.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
@@ -8,42 +8,40 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Vendor and purchase price list management in Project Operations
+#  Subcontract lines for Expense Categories
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-## Vendors in Project Operations
+A subcontract in Project Operations can have Subcontract line for expense categories. Subcontract lines for expense categories allow a project manager to purchase categories of services or products from vendors that they can, then, charge to project.
 
-In Microsoft Dynamics 365 Project Operations, vendor accounts have a relationship type of **Vendor** or **Supplier**. You can select only an account record that has one of these relationship types as a vendor on a subcontract.
+To create a subcontract line for categories of expenses in Project Operations, follow these steps:
 
-You can associate one or more purchase price lists with a vendor record. However, each purchase price list that is associated with a vendor record should have distinct date effectivity. Project Operations doesn't support overlapping date effectivity for purchase price lists.
+- Open a Subcontract and navigate to Subcontract Lines tab.
+- On the Subcontract Line tan select + New to create a new Subcontract Line
+- On the Quick Create for Subcontract Line, make sure to select Transaction Class as &#39;Expense&#39;, fill in the required fields and Save the subcontract line.
 
-By default, the following fields and concepts on a vendor record are used for any subcontract that is created for the vendor:
+The following table provides information about the fields on the Subcontract line details page and the quick create page as they are relevant for purchasing expense categories.
 
-- Payment terms
-- Bill to contact
-- Primary contact
+| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
+| --- | --- | --- | --- |
+| Name | Quick Create page and General tab of the Subcontract line details page | Name of the subcontract line to help with identification | This will be shown as the first column in all look ups based on Subcontract lines |
+| Description | Quick Create page and General tab of the Subcontract line details page | Description of categories of service or products that are being ordered/purchased on the Subcontract line | |
+| Line Type | Quick Create page and General tab of the Subcontract line details page | Defaulted to &#39;Quantity-based&#39;* | |
+| Billing Method | Quick Create page and General tab of the Subcontract line details page | This is an option set that represents the two main contracting models supported by Project Operations: <br> -  **Fixed Price** <br> -  **Time and Material** | Based on the billing method of the referenced subcontract line, a milestone – based invoice schedule is made available for Fixed Price billing method. |
+| Transaction Class | Quick Create page and General tab of the Subcontract line details page | Defaulted to Time. For creating Subcontract Lines for purchasing products, set the Transaction Class to &#39;Expense&#39;. | This indicates that the subcontract line is being used to record a purchase of a category of products or services to be used on projects |
+| Transaction Category | Quick Create page and General tab of the Subcontract line details page | Shows a dropdown list of active transaction categories setup in the system. | |
+| Requested Start | Quick Create page and General tab of the Subcontract line details page | Date when the categories of purchase are required to be available from the vendor | Requested start is used to pick a project price list from the project price lists attached to the subcontract. Cost of the category on the subcontract line is then defaulted from that price list |
+| Requested end | Quick Create page and General tab of the Subcontract line details page | Date when the categories of purchase would no longer be needed | This will be used to show warnings when a project manager is associating this subcontract line to specific expense estimates on the project that are dated after this end date. |
+| Quantity Ordered | Quick Create page and General tab of the Subcontract line details page | Quantity of the category being purchased from the vendor | This will be used to show warnings when a project manager is over-drawing from this quantity being purchased |
+| Unit Group | Quick Create page and General tab of the Subcontract line details page | Defaulted based on the Default unit group setup for the selected category | |
+| Unit | Quick Create page and General tab of the Subcontract line details page | Defaulted based on the Default unit setup for the selected category | The combination of Category and Unit will be used to default the unit price on the Subcontract line. |
+| Unit Price | Quick Create page and General tab of the Subcontract line details page | Unit price is defaulted using the combination of Category and Unit from the Category prices related to the project price list applicable for the Requested start of the Subcontract line | |
+| Subtotal | Quick Create page and General tab of the Subcontract line details page | Read only field that is automatically computed as Quantity* Unit price if both Quantity and Unit price values are entered. If either quantity or unit price or both are left empty, then this field is available for entering a value. | |
+| Sales Tax | Quick Create page and General tab of the Subcontract line details page | Editable field that is available for the user to enter a value. | |
+| Total Amount | Quick Create page and General tab of the Subcontract line details page | This is a calculated field that is denotes the total amount of the subcontract line after including taxes. Calculated as Subtotal +Tax | |
 
-    > [!NOTE]
-    > By default, the primary contact of the vendor is used as the vendor account manager of the subcontract.
-
-- Currency
-- Current purchase price lists
-
-## Purchase price lists in Project Operations
-
-A price list where the **Context** field is set to **Purchase** is considered a purchase price list. Purchase price lists can be defined to represent a catalog of purchase rates for time, expenses, and materials. Purchase price lists resemble cost and sales price lists in Project Operations. The following concepts apply to purchase price lists in the same way that they apply to cost and sales price lists:
-
-- **Date effectivity** – Purchase price lists have date effectivity. Date effectivity is represented by start date and end date fields on each price list. The time between the start date and end date is the date effective period.
-- **Currency** – The currency on the price list header is used as the currency that purchase prices are expressed in for labor, expense categories, and products in the catalog.
-- **Default time unit** – The default time unit expresses labor prices for purchases. The time unit field on a price list is used only to provide a default value. That value can be changed on individual role price rows.
-
-Purchase price lists can be attached to vendor records as associations that are known as project price lists. These price lists are used to enter default prices on subcontract lines. By default, when multiple purchase price lists are attached to a vendor record, the most current price list is used for subcontracts that are created for the vendor. Only  price lists where the **Context** field is set to **Purchase** can be attached to vendor records.
-
-### Subcontract-specific purchase price lists
-
-Purchase price lists can also be attached to subcontracts as associations that are known as project price lists. These price lists are used to enter default prices on subcontract lines. By default, when multiple purchase price lists are attached to a subcontract, each must have distinct date effectivity. Project Operations doesn't support purchase price lists that have overlapping date effectivity. Only price lists where the **Context** field is set to **Purchase** can be attached to subcontracts.
+*See Subcontracting in Project Operations - Early Access Scope
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
