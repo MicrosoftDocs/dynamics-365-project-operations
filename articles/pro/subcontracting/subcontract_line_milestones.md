@@ -32,7 +32,7 @@ The following steps will automatically generate a milestone-based invoice schedu
 - **Milestone Date**  is set to the date that is dictated based on the invoice frequency.
 - **Milestone Amount**  is calculated by dividing the subtotal amount on the subcontract line by the number of milestones as dictated by the parameters input on the dialog.
 
-1. If the subcontract line has a value in the  **Estimated Tax Amount**  field, this field is also apportioned to each milestone equally when generating periodic milestones.
+If the subcontract line has a value in the  **Estimated Tax Amount**  field, this field is also apportioned to each milestone equally when generating periodic milestones.
 
 Sum of the Subcontract line milestone amounts should equal the value of the subcontract line. If they aren&#39;t equal, an error occurs. You can fix that error by verifying that the milestones total is equal to the subcontract line value by either creating, editing, or deleting milestone and tax amounts. After the changes are made, save and refresh the page to ensure that errors no longer appear.
 
