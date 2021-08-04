@@ -33,7 +33,7 @@ As outlined in the overview article, the full scope and vision of subcontracting
 
 The figure below represents this scope figuratively and contrasts it with the full vision:
 
-![Subcontracting process flow](../media/SubcontractingProcessFlow.png)
+![Subcontracting process flow](../media/SubcontractingEAFlow.png)
   
 Below is the list of capabilities that will land in monthly updates post-October 2021 EA:
 6.	Once the subcontract is setup, it should be confirmed. Confirmed subcontracts cannot be edited but should changes occur, a Subcontract can be ‘reopened for edits’ that moves the status from Confirmed back to Draft. 
