@@ -30,12 +30,7 @@ The following table provides information about the fields on the Subcontract hea
 | Description | General tab | Description of services and products that are being ordered/purchased on the Subcontract | |
 | Vendor | General tab | Name of the Vendor company that the products and services are being purchased from. This is an Account record where the relationship type is Vendor or Supplier. | |
 | Subcontract Date | General tab | Date of the Subcontract creation | |
-| Status Reason | General tab | Status of the Subcontract*. The supported values are:
-- Draft
-- Confirmed
-- Closed
-- Canceled
- | |
+| Status Reason | General tab | Status of the Subcontract*. The supported values are:- Draft- Confirmed- Closed- Canceled | |
 | Currency | General tab | Currency in which products and services are being purchased in.The value in the currency field defaults from the Vendor Account but can be change by the user. | Project price lists used for pricing products and services on the Subcontract should be in this currency. Price lists in any other currency cannot be associated to the Subcontract. Eventually this is also the currency in which the cost of products and services incurred on this subcontract are recorded on the project |
 | Contracting Unit | General tab | Division of the company that is entering into a purchase contract or a subcontract with the Vendor | |
 | Payment terms | General tab | Terms of payment of vendor invoices issues on this subcontract. The value in this field defaults from the Vendor account record | This will be used as the Payment terms on Vendor invoices created for this Subcontract |
