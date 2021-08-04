@@ -38,8 +38,10 @@ The below is functionality not yet released for Early Access of 2021 Release Wav
 12.	System will automatically associate all cost actuals that match the subcontract line and project to the vendor invoice to facilitate 3-way match and verification process. 
 13.	Project Manager will be able to review the automatically matched project actuals, remove or add other project cost actuals and complete verification process. 
 14.	Completing the verification process on all lines will mark the Vendor Invoice as Ready for Payment. At this stage, vendor invoice and its lines can be transferred to an Accounting or Payables system for processing the payment to the vendor. Previously recorded project costs will be reversed and actual costs from the vendor invoice line will be recorded on the project. 
-Concept of Quantity-based Subcontract lines and Work-based Subcontract lines
-A subcontract line can be quantity – based or work – based. 
+
+## Concept of Quantity-based Subcontract lines and Work-based Subcontract lines
+
+A subcontract line in Project Operations can be quantity – based or work – based. 
 When a subcontract line is quantity-based, the quantity being purchased on the subcontract line for time, expense or material can be used on any project.
 When a subcontract line is work-based, subcontract line maps to a body of represented by a node in the Project plan. The value of the subcontract line is the sum of all the components that are required to deliver that body of work. These are modeled as Subcontract line details and can be a collection of Time, Expense or Materials class of line details. The core distinction of work-based subcontract line is also that the subcontract line is dedicated to a single project. 
 
