@@ -10,6 +10,8 @@ ms.author: rumant
 
 # Subcontract management in Project Operations
 
+[!include [banner](../../includes/dataverse-preview.md)]
+
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Subcontracting in Microsoft Dynamics 365 Project Operations supports the following business process flow.
