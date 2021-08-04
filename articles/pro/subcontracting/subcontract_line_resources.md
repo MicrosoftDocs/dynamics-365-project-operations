@@ -1,6 +1,6 @@
 ---
-title: Vendor and purchase price list management in Project Operations
-description: This topic provides information that will help you create and maintain vendor data and purchase price lists for subcontracting.
+title: Subcontract line resources
+description: This topic provides information that will help you specify dedicated resources that will be provided by the vendor for a specific subcontract line for time.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
