@@ -832,6 +832,16 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
+  - name: Subcontract management in Project Operations (Preview)
+    items: 
+    - name: Managing subcontracts overview
+      href: pro/subcontracting/managing-subcontracts-overview.md
+    - name: Key concepts in subcontracting
+      href: pro/subcontracting/key-concepts-subcontracting.md
+    - name: Managing vendors and Project price lists 
+      href: pro/subcontracting/vendors-purchase-price-lists.md
+    - name: Subcontractors as Bookable Resources 
+      href: pro/subcontracting/subcontractors-as-bookable-resources.md
   - name: Time
     items: 
     - name: Time overview
