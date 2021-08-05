@@ -1,0 +1,59 @@
+---
+title: What's new or changed in Project Service Automation Update Release 34, V3
+description: This topic lists the features and fixes that are available in Project Service Automation Update Release 34, V3.
+author: ruhercul
+ms.custom: dyn365-projectservice
+ms.date: 08/04/2021
+ms.topic: article
+ms.author: ruhercul
+audience: Admin
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
+search.app: 
+  - D365CE
+  - D365PS
+  - ProjectOperations
+---
+
+
+# What's new or changed in Project Service Automation Update Release 34, V3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
+We're pleased to announce the latest update for the Microsoft Dynamics 365 Project Service Automation app. This release includes some important improvements to quality, performance, and usability. It's compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online solutions page, and install the update. For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).
+
+This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 34. This version has a build number of V3.10.55.38 and is generally available through a self-update in July 2021.
+
+## Update Release 34
+
+### Bug fixes
+
+**General**
+- Publisher driven updates do not activate the new modern approval workflow.
+- **Target Status** and **Action Type** attributes are missing on the Approval Set main form.
+
+**Time and Expense**
+
+The following issues have been fixed:
+
+- Users are unable to approve a recall request using the modern approval flow.
+- Copying a week of time entries does not work when copying entries not related to the logged in user.
+
+**Project planning**
+
+The following issues have been fixed:
+- Resource assignment Contours are corrupted when importing from Microsoft Project desktop add-in.
+
+**Resource management**
+
+The following issues have been fixed:
+- When publishin a project from the Microsoft Project desktop client add-in, the end date of existing requirements are changed.
+- Decimal precision exceeds two decimal places in the extend bookings confirmation dialog.
+
+**Sales**
+
+The following issues have been fixed:
+- When adding a product based line with an existing produc to a project contract, a key not foun in dictionary exception is thrown.
+- Users are unable to qualify a lead when a order type is mapped from a lead to an opportunity.
