@@ -1,6 +1,6 @@
 ---
 title: Subcontract management in Project Operations
-description: This topic provides an overview of the end-to-end subcontract management process in Microsoft Dynamics 365 Project Operations.
+description: This topic provides an overview of the end-to-end subcontract management process typically in project-based organizations.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
