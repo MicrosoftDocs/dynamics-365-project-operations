@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 34, V3
 description: This topic lists the features and fixes that are available in Project Service Automation Update Release 34, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 08/04/2021
+ms.date: 08/05/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -31,29 +31,32 @@ This topic lists the features and fixes that are new or changed for Project Serv
 ### Bug fixes
 
 **General**
-- Publisher driven updates do not activate the new modern approval workflow.
-- **Target Status** and **Action Type** attributes are missing on the Approval Set main form.
+- Publisher driven updates don't activate the new modern approval workflow.
+- The **Target Status** and **Action Type** attributes are missing on the **Approval Set** main page.
 
 **Time and Expense**
 
 The following issues have been fixed:
 
-- Users are unable to approve a recall request using the modern approval flow.
-- Copying a week of time entries does not work when copying entries not related to the logged in user.
+- Unable to approve a recall request using the modern approval flow.
+- Copying a week of time entries doesn't work when copying entries that aren't related to the logged in user.
 
 **Project planning**
 
 The following issues have been fixed:
-- Resource assignment Contours are corrupted when importing from Microsoft Project desktop add-in.
+
+- Resource assignment contours are corrupted when importing from the Microsoft Project desktop add-in.
 
 **Resource management**
 
 The following issues have been fixed:
-- When publishin a project from the Microsoft Project desktop client add-in, the end date of existing requirements are changed.
+
+- When you publish a project from the Microsoft Project desktop client add-in, the end date of existing requirements are changed.
 - Decimal precision exceeds two decimal places in the extend bookings confirmation dialog.
 
 **Sales**
 
 The following issues have been fixed:
-- When adding a product based line with an existing produc to a project contract, a key not foun in dictionary exception is thrown.
-- Users are unable to qualify a lead when a order type is mapped from a lead to an opportunity.
+
+- When you add a product based line with an existing product to a project contract, a **key not found in dictionary** exception is thrown.
+- Leads can't be qualified when an order type is mapped from a lead to an opportunity.
