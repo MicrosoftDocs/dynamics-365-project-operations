@@ -29,34 +29,28 @@ This topic lists the features and fixes that are new or changed for Project Serv
 ## Update Release 34
 
 ### Bug fixes
+The following issues have been fixed.
 
 **General**
+
 - Publisher driven updates don't activate the new modern approval workflow.
 - The **Target Status** and **Action Type** attributes are missing on the **Approval Set** main page.
 
 **Time and Expense**
-
-The following issues have been fixed:
 
 - Unable to approve a recall request using the modern approval flow.
 - Copying a week of time entries doesn't work when copying entries that aren't related to the logged in user.
 
 **Project planning**
 
-The following issues have been fixed:
-
 - Resource assignment contours are corrupted when importing from the Microsoft Project desktop add-in.
 
 **Resource management**
 
-The following issues have been fixed:
-
-- When you publish a project from the Microsoft Project desktop client add-in, the end date of existing requirements are changed.
+- When you publish a project from the Microsoft Project desktop client add-in, the end date of existing requirements is changed.
 - Decimal precision exceeds two decimal places in the extend bookings confirmation dialog.
 
 **Sales**
 
-The following issues have been fixed:
-
-- When you add a product based line with an existing product to a project contract, a **key not found in dictionary** exception is thrown.
+- When you add a product-based line with an existing product to a project contract, a **key not found in dictionary** exception is displayed.
 - Leads can't be qualified when an order type is mapped from a lead to an opportunity.
