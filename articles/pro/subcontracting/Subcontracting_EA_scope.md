@@ -1,6 +1,6 @@
 ---
-title: Subcontracting - October 2021 Release Early Access Scope
-description: This topic provides an overview of the October 2021 Release Early Access Scope for Sucbontracting capabilities in Project Operations.
+title: Subcontracting (Preview release)
+description: This topic provides an overview of the sucbontracting capabilities in Project Operations that are part of the October 2021 preview release.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
@@ -8,16 +8,15 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Subcontracting - October 2021 Release Early Access Scope
+# Subcontracting (Preview release)
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
+This topic provides an overview of the sucbontracting capabilities in Dynamics 365 Project Operations that are part of the October 2021 preview release. This feature set is not ready for production or live environments, so these features will remain in Preview until the full feature set is released. We strongly recommend that you do not use the subcontracting feature set for live production scenarios until the Preview banner is removed. 
 
-The October 2021 early access release is lighting up portions of the subcontracting capabilities for Project Operations customers. However, this feature set is not ready for Production or live usage. Subcontracting feature set will remain in Preview mode until the full capability set is released. It is strongly advised to not use the Subcontracts capability set for live production scenarios until the Preview banner is removed. 
-
-Below is the outlined scope for October 2021 Early Access:
+The following list provides an outline of what is currently available in the Preview release:
 
 1. The project manager creates a subcontract with a vendor. By default, the price lists that are attached to the vendor record are used for the subcontract. The vendor account has a relationship type of **Vendor** or **Supplier**.
 
@@ -27,17 +26,18 @@ Below is the outlined scope for October 2021 Early Access:
 
 4. At this point or later in the process, if the subcontract line is for time, the vendor account manager associates vendor contacts with each subcontract line. This association provides information to the project manager who is working on the subcontract. When a vendor contact is associated with a subcontract line, the system automatically creates a bookable resource from the contact, if a bookable resource doesn't already exist.
 
-5. The billing method on each subcontract line can be **Fixed Price** or **Time and Material**. For fixed-price subcontract lines, a milestone-based invoice schedule is setup.
+5. The billing method on each subcontract line can be **Fixed Price** or **Time and Material**. For fixed-price subcontract lines, a milestone-based invoice schedule is set up.
 
-The rest of the steps in business process flow for Subcontracting is currently not available in the scope of October 2021 Early access. As new functionality is added, this page will be updated. 
+The remaining steps in the business process flow for subcontracting are currently not available. As new functionality is added, this topic will be updated. 
 
-The figure below represents the October 2021 Early Access scope figuratively as contrasted with the end-to-end business process outline in the Overview topic:
+The following illustration represents the Subcontracting preview release as contrasted with the end-to-end business process.
 
 ![Subcontracting process flow](../media/SubcontractingEAFlow.png)  
 
 
-## Scope of Quantity-based and Work-based Subcontract lines for October 2021 Early Access
-In the Early access scope of October 2021, only quantity-based subcontract lines are supported. This means that a subcontract line can be used to purchase Time, Expenses or Materials from a vendor but not a whole body of work. It also means that the quantity being purchased (units of time, expenses, or quantity of materials) on a subcontract line can be used on any project in the system. 
+## Quantity-based and work-based subcontract lines (Preview)
+In the Preview release, only quantity-based subcontract lines are supported. This means that a subcontract line can be used to purchase time, expenses, or materials from a vendor but not a whole body of work. This also means that the quantity being purchased (units of time, expenses, or quantity of materials) on a subcontract line can be used on any project in the system.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
