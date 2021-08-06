@@ -2,7 +2,7 @@
 title:  Subcontract lines for expense categories
 description: This topic explains how to record subcontract lines for expense and use the fields to record the purchase of time from vendors.
 author: rumant
-ms.date: 08/05/2021
+ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: rumant
@@ -34,7 +34,7 @@ The following table provides information about the fields on the **Subcontract l
 | Transaction Category | Select the transaction category. |
 | Requested Start | The date when the purchase categories must be available from the vendor. The requested start is used to pick a project price list from the project price lists attached to the subcontract. The cost of the category on the subcontract line defaults from that price list. |
 | Requested end | The date when the purchase categories are no longer needed. This date calls a warning when a project manager associates this subcontract line with specific expense estimates on the projects that are dated after this date. |
-| Quantity Ordered | The quantity of the category being purchased from the vendor. This amount calls a when a project manager overdraws from the purchased quantity.  |
+| Quantity Ordered | The quantity of the category being purchased from the vendor. When a project manager overdraws from the purchased quantity, a warning will occur.  |
 | Unit Group | This field value defaults based on the default unit group that is set up for the selected category. |
 | Unit | This field value defaults based on the default unit set up for the selected category. The combination of category and unit is used to default the unit price on the subcontract line. |
 | Unit Price | The unit price field value defaults from the combination of the category and unit from the category prices related to the project price list which is applicable for the requested start of the subcontract line.  |
