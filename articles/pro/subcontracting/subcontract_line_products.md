@@ -1,8 +1,8 @@
 ---
 title: Subcontract lines for products
-description: This topic provides information that will help you record Subcontract lines for Products and how to use the various fields to record the purchase of products from vendors for use on projects and project tasks.
+description: This topic explains how to record subcontract lines for products and use the various fields to record product purchases from vendors.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: rumant
@@ -14,36 +14,36 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-A subcontract in Project Operations can have Subcontract line for products. Subcontract lines for products allow a project manager to purchase products from vendors that they can, then, use / consume on Project tasks.
+A subcontract in Dynamics 365 Project Operations can have subcontract line for products. These lines allow a Project Manager to purchase products from vendors that they can then use on project tasks.
 
-To create a subcontract line for products in Project Operations, follow these steps:
+Complete the following steps to create a subcontract line for products in Project Operations.
 
-- Open a Subcontract and navigate to Subcontract Lines tab.
-- On the Subcontract Line tan select + New to create a new Subcontract Line
-- On the Quick Create for Subcontract Line, make sure to select Transaction Class as &#39;Material&#39;, fill in the required fields and Save the subcontract line.
+1. On the navigation page, select **Subcontracts**, and then open the subcontract you want to work with. 
+2. On the **Subcontract Lines** tab, select **+ New** to create a new subcontract line.
+3. On the **Quick Create**, in the **Transaction Class** field, select **Material** and enter or select the required field information. 
+4. Select **Save**.
 
 The following table provides information about the fields on the Subcontract line details page and the quick create page as they are relevant for purchasing products.
 
-| **Field** | **Location** | **Relevance, purpose, and guidance** | **Downstream impact** |
-| --- | --- | --- | --- |
-| Name | Quick Create page and General tab of the Subcontract line details page | Name of the subcontract line to help with identification | This will be shown as the first column in all look ups based on Subcontract lines |
-| Description | Quick Create page and General tab of the Subcontract line details page | Description of products that are being ordered/purchased on the Subcontract line | |
-| Line Type | Quick Create page and General tab of the Subcontract line details page | Defaulted to &#39;Quantity-based&#39;* | |
-| Billing Method | Quick Create page and General tab of the Subcontract line details page | This is an option set that represents the two main contracting models supported by Project Operations: <br> -  **Fixed Price**<br> -  **Time and Material** | Based on the billing method of the referenced subcontract line, a milestone – based invoice schedule is made available for Fixed Price billing method. |
-| Transaction Class | Quick Create page and General tab of the Subcontract line details page | Defaulted to Time. For creating Subcontract Lines for purchasing products, set the Transaction Class to &#39;Material&#39;. | This indicates that the subcontract line is being used to record a purchase of products or materials to be used on projects |
-| Select Product | Quick Create page and General tab of the Subcontract line details page | Should be used to define if the product being purchased is maintained in the product catalog or is going to be a write – in. Supported choices are:<br>- Existing<br>- Write In | Selecting &#39;Existing&#39; would indicate that the product being purchased is maintained in the product catalog.Selecting &#39;Write in&#39; would indicate that the product being purchased is not in the catalog. |
-| Product | Quick Create page and General tab of the Subcontract line details page | Shows a dropdown list of active products in the catalog. This field is shown only when **Select**** Product** is set to &#39;Existing&#39; | |
-| Write In Product | Quick Create page and General tab of the Subcontract line details page | Allows the user to type in the name of the write-in product. This field is shown only when **Select**** Product** is set to &#39;Write in&#39; | |
-| Requested Delivery Date | Quick Create page and General tab of the Subcontract line details page | Date when the products are required to be delivered | Requested delivery date is also used to pick a project price list from the project price lists attached to the subcontract. Cost of the product on the subcontract line is then defaulted from that price list |
-| Contracted delivery date | Quick Create page and General tab of the Subcontract line details page | Date when the products are contractually agreed to be delivered | |
-| Quantity Ordered | Quick Create page and General tab of the Subcontract line details page | Quantity of the product being purchased from the vendor | This will be used to show warnings when a project manager is over-drawing from this quantity of the product being purchased |
-| Unit Group | Quick Create page and General tab of the Subcontract line details page | Defaulted for catalog products only. When Product and Requested delivery date are both selected. Based on the delivery date, the system picks the applicable price list and related price list items are queried for the matching product. Unit and unit group values are defaulted from the setup on the price list item record. | |
-| Unit | Quick Create page and General tab of the Subcontract line details page | Defaulted to the unit setup on the price list item record. User may change this to any other unit | The combination of product and Unit will be used to default the unit price on the Subcontract line for existing catalog products. |
-| Unit Price | Quick Create page and General tab of the Subcontract line details page | Unit price is defaulted using the combination of Product and Unit from the price list items related to the project price list applicable for the Requested Delivery Date of the Subcontract line | |
-| Subtotal | Quick Create page and General tab of the Subcontract line details page | Read only field that is automatically computed as Quantity * Unit price if both Quantity and Unit price values are entered. If either quantity or unit price or both are left empty, then this field is available for entering a value. | |
-| Sales Tax | Quick Create page and General tab of the Subcontract line details page | Editable field that is available for the user to enter a value. | |
-| Total Amount | Quick Create page and General tab of the Subcontract line details page | This is a calculated field that is denotes the total amount of the subcontract line after including taxes. Calculated as Subtotal +Tax | |
+| Field | Description |
+| ----- | ----------- |
+| Name | The name of the subcontract line. |
+| Description | A brief description of products that are being ordered on the subcontract line. |
+| Line Type | This field value defaults to **Quantity-based**. |
+| Billing Method |  The billing method of the subcontract line. A milestone-based invoice schedule is available for fixed-price billing methods. |
+| Transaction Class | This field value defaults to **Time**. To create subcontract lines for purchasing products, in the **Transaction Class** field select **Material**. This selection indicates that the subcontract line is used to record a purchase of products to be used on projects. |
+| Select Product | Select if the product being purchased is maintained in the product catalog or is a write-in  product. |
+| Product | Select an active product from the catalog. This field is available only when **Select Product** is set to **Existing**. |
+| Write-In Product | Enter the name of the write-in product. This field is available only when **Select Product** is set to **Write-in**.  |
+| Requested Delivery Date | Select the required deliver date for the products. This date is also used to pick a project price list from the project price lists attached to the subcontract. The cost of the product on the subcontract line then defaults from that price list. |
+| Contracted delivery date | Select the date when the products are contractually agreed to be delivered.  |
+| Quantity Ordered | Enter te quantity of the product being purchased from the vendor. If a Project Manager overdraws from this quantity, a warning will occur. |
+| Unit Group | This value defaults for catalog products only. When **Product** and **Requested delivery date** are both selected, the system picks the applicable price list based on the delivery date. The related price list items are queried for the matching product. The unit and unit group values default from the setup on the price list item record. |
+| Unit | This value defaults to the unit setup on the price list item record. You can change this to another unit as necessary. The combination of product and unit is used to default the unit price on the subcontract line for existing catalog products. |
+| Unit Price | The unit price defaults by using the combination of product and unit from the price list items related to the project price list that is applicable for the requested delivery date of the subcontract line.  |
+| Subtotal | This read-only field is calculated as Quantity x Unit price if both fields have values entered. If either the **Quantity** field, **Unit price** field, or both are empty, you can enter a value manually.  |
+| Sales Tax | Enter the sales tax value. |
+| Total Amount | This calculated field shows the total amount of the subcontract line after including taxes. The value in this field is calculated as subtotal + tax. |
 
-*See Subcontracting in Project Operations - Early Access Scope
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
