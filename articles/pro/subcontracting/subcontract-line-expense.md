@@ -30,7 +30,7 @@ The following table provides information about the fields on the **Subcontract l
 | Description | A brief description of the service or product categories that are being purchased on the subcontract line. |
 | Line Type | This field has a default value of **Quantity-based**.  |
 | Billing Method | The billing method of the subcontract line. Based on the billing method of the line, a milestone-based invoice schedule is available for the fixed-price billing method.  |
-| Transaction Class | This field has a default value of **Time**. To create subcontract lines for purchasing products, set the **Transaction Class** field to **Expense**. | This indicates that the subcontract line is being used to record a purchase of a category of products or services to be used on projects |
+| Transaction Class | This field has a default value of **Time**. To create subcontract lines for purchasing products, set the **Transaction Class** field to **Expense**. This field value indicates that the subcontract line is being used to record a purchase of a category of products or services to be used on projects. |
 | Transaction Category | Select the transaction category. |
 | Requested Start | The date when the purchase categories must be available from the vendor. The requested start is used to pick a project price list from the project price lists attached to the subcontract. The cost of the category on the subcontract line defaults from that price list. |
 | Requested end | The date when the purchase categories are no longer needed. This date calls a warning when a project manager associates this subcontract line with specific expense estimates on the project that are dated after this date. |
