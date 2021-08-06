@@ -1,5 +1,5 @@
 ---
-title: Subcontracting (Preview release)
+title: Subcontracting in October 2021 Early Access Release
 description: This topic provides an overview of the sucbontracting capabilities in Project Operations that are part of the October 2021 early access release.
 author: rumant
 ms.date: 08/02/2021
@@ -8,7 +8,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Subcontracting (Preview release)
+# Subcontracting in October 2021 Early Access Release
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
