@@ -43,7 +43,7 @@ Fixed-price milestones on a subcontract line can be generated manually when they
 1. On the navigation pane, select **Subcontracts** and open the subcontract you want to work with.
 2. Open the fixed price subcontract line for which you want to create a milestone.
 3. On the **Subcontract line milestones** tab, on the sub grid, select **+ New Subcontract Line Milestone**.
-4. On the **New Subcontract Line <ilestone** page, enter the required information based on the following table.
+4. On the **New Subcontract Line Milestone** page, enter the required information based on the following table.
 
     | Field | Description |
     | --- | --- |
