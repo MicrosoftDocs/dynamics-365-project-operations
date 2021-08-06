@@ -1,8 +1,8 @@
 ---
 title: Subcontract line milestones
-description: This topic provides information that will help you create and maintain a milestone based invoice schedule for a subcontract with a vendor.
+description: This topic explains how to create and maintain a milestone-based invoice schedule for a subcontract with a vendor.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: rumant
@@ -14,50 +14,48 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-A subcontract line in Project Operations with a Fixed Price Billing method can specify a milestone-based invoice schedule with the vendor.
+A subcontract line in Dynamics 365 Project Operations with a fixed-price billing method can specify a milestone-based invoice schedule with the vendor.
 
-Milestones for vendor invoicing can be generated automatically using a set frequency or manually.
+Milestones for vendor invoicing can be generated automatically using a set frequency or, you can create them manually.
 
-## Creating milestone-based invoice schedule automatically for a Subcontract line:
+## Create a milestone-based invoice schedule automatically for a subcontract line
 
-The following steps will automatically generate a milestone-based invoice schedule for a fixed set of milestones that distribute equally for the calendar period.
+Complete the following steps to automatically generate a milestone-based invoice schedule for a fixed set of equally distributed milestones.
 
-1. Go to  **Settings**  ->  **Invoice Frequencies**  to set up a desired invoice frequency.
-2. Open the fixed price subcontract line on which you need to create a milestone schedule.
-3. On the  **Subcontract Line Milestones**  tab, select  **Generate Periodic Milestones**.
-4. A dialog opens that allows you to input a date range, number of milestones and invoice frequency. You have the choice to input a start date, number of milestones and invoice frequency or start date, end date and invoice frequency. Both end date and number of milestones cannot be filled.
-5. Using this information, the system generates milestones and records are shown in the Milestones grid.
+1. Go to **Settings** > **Invoice Frequencies** and set up the invoice frequency for the subcontract lines.
+2. Open the **Subcontracts** page, open the subcontract you want to work with, and then open the fixed-price subcontract line for which you are going to create a milestone schedule.
+3. On the **Subcontract Line Milestones** tab, select **Generate Periodic Milestones**.
+4. In the dialog box, enter or select a date range, the number of milestones, and the invoice frequency. You can select a start date, or you can select the number of milestones and the invoice frequency or start date, or you can select the end date and invoice frequency. You can't select the end date and the number of milestones.
+Using this information, the system generates milestones and records are shown in the **Milestones** grid.
 
-- **Milestone Name**  is set to the date that is dictated based on the invoice frequency.
-- **Milestone Date**  is set to the date that is dictated based on the invoice frequency.
-- **Milestone Amount**  is calculated by dividing the subtotal amount on the subcontract line by the number of milestones as dictated by the parameters input on the dialog.
+   - **Milestone Name**  is set to the date based on the invoice frequency.
+   - **Milestone Date**  is set to the date based on the invoice frequency.
+   - **Milestone Amount**  is calculated by dividing the subtotal amount on the subcontract line by the number of milestones.
 
-If the subcontract line has a value in the  **Estimated Tax Amount**  field, this field is also apportioned to each milestone equally when generating periodic milestones.
+If the subcontract line has a value in the **Estimated Tax Amount** field, this value is added to each milestone equally when generating periodic milestones.
 
-Sum of the Subcontract line milestone amounts should equal the value of the subcontract line. If they aren&#39;t equal, an error occurs. You can fix that error by verifying that the milestones total is equal to the subcontract line value by either creating, editing, or deleting milestone and tax amounts. After the changes are made, save and refresh the page to ensure that errors no longer appear.
+The sum of the subcontract line milestone amounts should be equal to the value of the subcontract line. If they aren't equal, an error occurs. You can fix the error and verify that the milestones total is equal to the subcontract line value by creating, editing, or deleting milestone and tax amounts. After the changes are made, save and refresh the page to ensure that there are no more errors.
 
-## Manually creating subcontract line milestones
+## Manually create subcontract line milestones
 
-Fixed price milestones on a subcontract line can be generated manually when they aren&#39;t periodically split. To create a subcontract line milestone manually, complete the following steps.
+Fixed-price milestones on a subcontract line can be generated manually when they aren't periodically split. To create a subcontract line milestone manually, complete the following steps.
 
-Open the fixed price subcontract line on which you want to create a milestone.
+1. On the navigation pane, select **Subcontracts** and open the subcontract you want to work with.
+2. Open the fixed price subcontract line for which you want to create a milestone.
+3. On the **Subcontract line milestones** tab, on the sub grid, select **+ New Subcontract Line Milestone**.
+4. On the **New Subcontract Line <ilestone** page, enter the required information based on the following table.
 
-On the  **Subcontract line milestones**  tab, on the sub grid, select  **+ New Subcontract line milestone**.
+    | Field | Description |
+    | --- | --- |
+    | Milestone Name | The name of the milestone. |
+    | Description | A description of the milestone.  |
+    | Milestone Date | The date when the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. This value is included on the vendor invoice line when invoicing for this subcontract. |
+    | Amount | The amount or value of the milestone that will be invoiced to the customer. This value is included on the vendor invoice line when invoicing for this subcontract. |
+    | Tax | The tax amount applied on the milestone. This value is included on the vendor invoice line when invoicing for this subcontract. |
+    | Amount after tax | This read-only field that is calculated as Amount + Tax. This value is included on the vendor invoice line when invoicing for this subcontract. |
+    | Invoice Status | When the milestone is created, this status is always set to  **Not ready for invoicing**.  When the status is **Ready to Invoice**, the vendor invoice creation includes this milestone on the vendor invoice. |
 
-On the New Subcontract line milestone page, enter the required information based on the following table.
+5. Select **Save and Close**.
 
-| Field | Location | Description | Downstream impact |
-| --- | --- | --- | --- |
-| Milestone Name | Quick Create | Text field for the name of the milestone. | This field will be used to identify the milestone in all downstream lookups and on the vendor invoice. |
-| Description | Quick Create | A description of the Milestone | Used primarily for identification |
-| Milestone Date | Quick Create | The date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This will be shown on the vendor invoice line when invoicing for this subcontract.* |
-| Amount | Quick Create | The amount or value of the milestone that will be invoiced to the customer. | This will be shown on the vendor invoice line when invoicing for this subcontract.* |
-| Tax | Quick Create | The tax amount applied on the milestone. | This will be copied over to the vendor invoice line when invoicing for this subcontract.* |
-| Amount after tax | Quick create | A read-only field that is calculated as Amount + Tax | This will be copied over to the vendor invoice line when invoicing for this subcontract.* |
-| Invoice Status | Quick Create | When the milestone is created, this status is always set to  **Not ready for invoicing**   | When the status is &quot;ready to invoice&quot;, vendor invoice creation will include this milestone on the vendor invoice* |
-
-Select  **Save and Close**.
-
-*See Subcontracting in Project Operations - Early Access Scope
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
