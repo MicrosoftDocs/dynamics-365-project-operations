@@ -844,6 +844,8 @@
       href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Subcontractor line resources
       href: pro/subcontracting/subcontract-line-resources.md
+    - name: Subcontract line milestones
+      href: pro/subcontracting/subcontract-line-milestones.md
   - name: Time
     items: 
     - name: Time overview
@@ -1062,6 +1064,8 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update Release 34, V3
+      href: psa/whats-new-ur-34.md
     - name: What's new or changed in Update Release 33, V3
       href: psa/whats-new-ur-33.md
     - name: What's new or changed in Update Release 32.5, V3
