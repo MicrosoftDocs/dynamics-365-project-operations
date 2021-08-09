@@ -2,7 +2,7 @@
 title: Project Operations updates
 description: This topic provides information about the released versions of Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 07/12/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
 | --- | --- |
-| 4.12.0.152 | 10.0.20 |
+| 4.13.0.152 | 10.0.20 |
 
 For Project Operations Resource/non-stocked scenario, we recommend to use Dual Write Orchestration version 2.2.2.83 or higher.
 
@@ -42,26 +42,27 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.12.0.152     | Complete*          | Complete*           | TBD                 | August 6, 2021      |
+|   &nbsp;  | First Release         |  4.13.0.152     | Complete           | August 13, 2021     | TBD                 | August 27, 2021     |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.12.0.152     | Complete*          | Complete*           | TBD                 | August 6, 2021      |
-|    &nbsp; | Canada                |  4.12.0.152     | Complete*          | Complete*           | TBD                 | August 6, 2021      |
-|   &nbsp;  | India                 |  4.12.0.152     | Complete*          | Complete*           | TBD                 | August 6, 2021      |
-|   &nbsp;  | France                |  4.12.0.152     | Complete*          | Complete*           | TBD                 | August 6, 2021      |
-|   &nbsp;  | United Arab Emirates  |  4.12.0.152     | Complete*          | Complete*           | TBD                 | August 6, 2021      |
-|   &nbsp;  | South Africa          |  4.12.0.152     | Complete*          | Complete*           | TBD                 | August 6, 2021      |
+|   &nbsp;  | South America         |  4.13.0.152     | August 13, 2021    | August 20, 2021     | TBD                 | August 27, 2021     |
+|    &nbsp; | Canada                |  4.13.0.152     | August 13, 2021    | August 20, 2021     | TBD                 | August 27, 2021     |
+|   &nbsp;  | India                 |  4.13.0.152     | August 13, 2021    | August 20, 2021     | TBD                 | August 27, 2021     |
+|   &nbsp;  | France                |  4.13.0.152     | August 13, 2021    | August 20, 2021     | TBD                 | August 27, 2021     |
+|   &nbsp;  | United Arab Emirates  |  4.13.0.152     | August 13, 2021    | August 20, 2021     | TBD                 | August 27, 2021     |
+|   &nbsp;  | South Africa          |  4.13.0.152     | August 13, 2021    | August 20, 2021     | TBD                 | August 27, 2021     |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.12.0.152     | Complete*          | Complete            | TBD                 | August 13, 2021     |
-|   &nbsp;  | Asia Pacific          |  4.12.0.152     | Complete*          | Complete            | TBD                 | August 13, 2021     |
-|   &nbsp;  | Great Britain         |  4.12.0.152     | Complete*          | Complete            | TBD                 | August 13, 2021     |
-|   &nbsp;  | Oceania               |  4.12.0.152     | Complete*          | Complete            | TBD                 | August 13, 2021     |
+|   &nbsp;  | Japan                 |  4.12.0.152     | Complete*          | Complete            | 4.13.0.152          | August 13, 2021     |
+|   &nbsp;  | Asia Pacific          |  4.12.0.152     | Complete*          | Complete            | 4.13.0.152          | August 13, 2021     |
+|   &nbsp;  | Great Britain         |  4.12.0.152     | Complete*          | Complete            | 4.13.0.152          | August 13, 2021     |
+|   &nbsp;  | Oceania               |  4.12.0.152     | Complete*          | Complete            | 4.13.0.152          | August 13, 2021     |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.12.0.152     | Complete           | August 06, 2021     | TBD                 | August 20, 2021     |
+|   &nbsp;  | Europe                |  4.12.0.152     | Complete           | Complete            | 4.13.0.152          | August 20, 2021     |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.12.0.152     | August 06, 2021    | August 13, 2021     | TBD                 | August 27, 2021     |
+|   &nbsp;  | North America         |  4.12.0.152     | August 13, 2021    | August 20, 2021     | 4.13.0.152          | August 27, 2021     |
 
->[!Note]
-> - Complete* - Auto-deployment completed for version 4.12.0.148. No auto-deployment planned for updated version of July 2021 release.
+
+> [!NOTE]
+> Auto-deployment is completed for version 4.12.0.148. No auto-deployment is planned for the updated version of the July 2021 release.
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
