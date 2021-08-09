@@ -60,6 +60,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | North America         |  4.12.0.152     | August 13, 2021    | August 20, 2021     | 4.13.0.152          | August 27, 2021     |
 
+
 >[!Note]
 > - Complete* - Auto-deployment completed for version 4.12.0.148. No auto-deployment planned for updated version of July 2021 release.
 
