@@ -14,27 +14,27 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-A subcontract line in Dynamics 365 Project Operations with a fixed-price billing method can specify a milestone-based invoice schedule with the vendor.
+In Dynamics 365 Project Operations, a subcontract line with a fixed-price billing method can specify a milestone-based invoice schedule with the vendor.
 
-Milestones for vendor invoicing can be generated automatically using a set frequency or, you can create them manually.
+Milestones for vendor invoicing can be generated automatically using a set frequency, or you can create them manually.
 
-## Create a milestone-based invoice schedule automatically for a subcontract line
+## Automatically create a milestone-based invoice schedule for a subcontract line
 
 Complete the following steps to automatically generate a milestone-based invoice schedule for a fixed set of equally distributed milestones.
 
 1. Go to **Settings** > **Invoice Frequencies** and set up the invoice frequency for the subcontract lines.
-2. Open the **Subcontracts** page, open the subcontract you want to work with, and then open the fixed-price subcontract line for which you are going to create a milestone schedule.
+2. Open the **Subcontracts** page, open the subcontract that you want to work with, and then open the fixed-price subcontract line for which you are going to create a milestone schedule.
 3. On the **Subcontract Line Milestones** tab, select **Generate Periodic Milestones**.
 4. In the dialog box, enter or select a date range, the number of milestones, and the invoice frequency. You can select a start date, or you can select the number of milestones and the invoice frequency or start date, or you can select the end date and invoice frequency. You can't select the end date and the number of milestones.
-Using this information, the system generates milestones and records are shown in the **Milestones** grid.
+Using this information, the system generates milestones and records that are shown in the **Milestones** grid.
 
-   - **Milestone Name**  is set to the date based on the invoice frequency.
-   - **Milestone Date**  is set to the date based on the invoice frequency.
-   - **Milestone Amount**  is calculated by dividing the subtotal amount on the subcontract line by the number of milestones.
+   - **Milestone Name** - The date based on the invoice frequency.
+   - **Milestone Date** - The date based on the invoice frequency.
+   - **Milestone Amount** - Calculated by dividing the subtotal amount on the subcontract line by the number of milestones.
 
 If the subcontract line has a value in the **Estimated Tax Amount** field, this value is added to each milestone equally when generating periodic milestones.
 
-The sum of the subcontract line milestone amounts should be equal to the value of the subcontract line. If they aren't equal, an error occurs. You can fix the error and verify that the milestones total is equal to the subcontract line value by creating, editing, or deleting milestone and tax amounts. After the changes are made, save and refresh the page to ensure that there are no more errors.
+The sum of the subcontract line milestone amounts should be equal to the value of the subcontract line. If they aren't equal, an error occurs. You can fix the error and verify that the milestone total is equal to the subcontract line value by creating, editing, or deleting milestone and tax amounts. After the changes are made, save and refresh the page to ensure that there are no more errors.
 
 ## Manually create subcontract line milestones
 
