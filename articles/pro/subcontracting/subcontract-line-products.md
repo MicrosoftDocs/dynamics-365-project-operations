@@ -20,7 +20,7 @@ Complete the following steps to create a subcontract line for products in Projec
 
 1. On the navigation page, select **Subcontracts**, and then open the subcontract you want to work with. 
 2. On the **Subcontract Lines** tab, select **+ New** to create a new subcontract line.
-3. On the **Quick Create**, in the **Transaction Class** field, select **Material** and enter or select the required field information. 
+3. On the **Quick Create** form for Subcontract Line, in the **Transaction Class** field, select **Material** and enter or select the required field information. 
 4. Select **Save**.
 
 The following table provides information about the fields on the **Subcontract line details** page and the **Quick create** page as they are relevant for purchasing products.
