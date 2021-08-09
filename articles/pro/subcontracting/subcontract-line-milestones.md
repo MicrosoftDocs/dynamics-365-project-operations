@@ -28,7 +28,7 @@ Complete the following steps to automatically generate a milestone-based invoice
 4. In the dialog box, enter or select a date range, the number of milestones, and the invoice frequency. You can select a start date, or you can select the number of milestones and the invoice frequency or start date, or you can select the end date and invoice frequency. You can't select the end date and the number of milestones.
 Using this information, the system generates milestones and records that are shown in the **Milestones** grid.
 
-   - **Milestone Name** - The date based on the invoice frequency.
+   - **Milestone Name** - The name of the milestone is set to the date of the milestone based on the invoice frequency.
    - **Milestone Date** - The date based on the invoice frequency.
    - **Milestone Amount** - Calculated by dividing the subtotal amount on the subcontract line by the number of milestones.
 
