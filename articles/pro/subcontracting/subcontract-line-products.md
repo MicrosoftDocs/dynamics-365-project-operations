@@ -14,7 +14,7 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-A subcontract in Dynamics 365 Project Operations can have subcontract line for products. These lines allow a Project Manager to purchase products from vendors that they can then use on project tasks.
+A subcontract in Dynamics 365 Project Operations can have a subcontract line for products. These lines allow a Project Manager to purchase products from vendors that they can then use on project tasks.
 
 Complete the following steps to create a subcontract line for products in Project Operations.
 
@@ -23,7 +23,7 @@ Complete the following steps to create a subcontract line for products in Projec
 3. On the **Quick Create**, in the **Transaction Class** field, select **Material** and enter or select the required field information. 
 4. Select **Save**.
 
-The following table provides information about the fields on the Subcontract line details page and the quick create page as they are relevant for purchasing products.
+The following table provides information about the fields on the **Subcontract line details** page and the **Quick create** page as they are relevant for purchasing products.
 
 | Field | Description |
 | ----- | ----------- |
@@ -37,7 +37,7 @@ The following table provides information about the fields on the Subcontract lin
 | Write-In Product | Enter the name of the write-in product. This field is available only when **Select Product** is set to **Write-in**.  |
 | Requested Delivery Date | Select the required deliver date for the products. This date is also used to pick a project price list from the project price lists attached to the subcontract. The cost of the product on the subcontract line then defaults from that price list. |
 | Contracted delivery date | Select the date when the products are contractually agreed to be delivered.  |
-| Quantity Ordered | Enter te quantity of the product being purchased from the vendor. If a Project Manager overdraws from this quantity, a warning will occur. |
+| Quantity Ordered | Enter the quantity of the product being purchased from the vendor. If a Project Manager overdraws from this quantity, a warning will occur. |
 | Unit Group | This value defaults for catalog products only. When **Product** and **Requested delivery date** are both selected, the system picks the applicable price list based on the delivery date. The related price list items are queried for the matching product. The unit and unit group values default from the setup on the price list item record. |
 | Unit | This value defaults to the unit setup on the price list item record. You can change this to another unit as necessary. The combination of product and unit is used to default the unit price on the subcontract line for existing catalog products. |
 | Unit Price | The unit price defaults by using the combination of product and unit from the price list items related to the project price list that is applicable for the requested delivery date of the subcontract line.  |
