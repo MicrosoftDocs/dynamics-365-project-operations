@@ -22,7 +22,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
 The following features are included in this release:
 
-- **Approval sets**: Approval sets group time, expense, or material usage approval requests together into smaller subsets of operations. This grouping allows approvals to be processed in a specific order by project and allows for retrying and sequencing. Grouping the requests improves the reliability and traceability of approval processing for large volumes of approvals.
+- **Approval sets**: Approval sets group time, expense, or material usage approval requests together into smaller subsets of operations. This grouping allows approvals to be processed in a specific order by project and allows for retrying and sequencing. Grouping the requests improves the reliability and traceability of approval processing for large volumes of approvals. For more information, see [Approval sets in Project Operations](../approvals/approval-sets.md).
 
 ## Project Operations dual-write maps updates
 
