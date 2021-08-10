@@ -22,42 +22,40 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
 The following features are included in this release:
 
-- Approval sets. Approval sets group time, expense, or material usage approval requests together into smaller subsets of operations. This grouping allows approvals to be processed in order by Project and allows for retrying and sequencing. Grouping improves the reliability and traceability of approval processing for large volumes of approvals.
+- **Approval sets**: Approval sets group time, expense, or material usage approval requests together into smaller subsets of operations. This grouping allows approvals to be processed in a specific order by project and allows for retrying and sequencing. Grouping the requests improves the reliability and traceability of approval processing for large volumes of approvals.
 
 ## Project Operations dual-write maps updates
 
-No updates for Project Operations Dual Write maps in this release. Please refer to [Project Operations dual-write map versions | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-dual-write-maps) for current list and versions of Project Operations Dual Write maps.
+There are no updates to Project Operations Dual Write maps in this release. 
 
-You should always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance and Operations solution version. Certain features and capabilities might not work correctly if the latest version of the map is not activated. You can see the active version of the map in the  **Version**  column on the  **Dual-write**  page. You can activate a new version of the map by selecting  **Table map versions** , selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../project-operations/environment/resource-dual-write-maps.md).
 
-If you encounter an issue with starting the map, follow instructions in the [Missing table columns issue on maps](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual Write troubleshooting guide.
+Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Certain features and capabilities might not work correctly if the latest version of the map isn't activated. You can see the active version of the map on the **Dual-write** page in the **Version** column. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+
+If you encounter an issue starting the map, follow the instructions in the [Missing table columns issue on maps](dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section in the Dual-write troubleshooting guide.
 
 ## Quality updates
-
-###
 
 ### Project Operations on Dataverse
 
 | **Feature area** | **Reference number** | **Quality update** |
 | --- | --- | --- |
-| Billing and pricing | 2295625 | Milestone name must be copied from invoice schedule to invoice line detail |
-| Billing and pricing | 2316323 | Discount should not be editable on proforma invoice in Project Operations for resource based scenarios |
-| Opportunity management | 2338619 | Opportunity and Quote Business Rule must be invoked on forms only. |
-| Resource management | 2316523 | Using &quot;Send Request&quot; from a resource requirement with a role attached must not throw an error |
-| Resource management | 2326885 | Creating Resource Requirement through project must not throw an error |
-| Time and expense | 2335584 | Deprecated task flows in the time entry |
-| Time and expense | 2336884 | Copy Week time entry ribbon button must work not only for current user |
+| Billing and pricing | 2295625 | The milestone name must be copied from the invoice schedule to the invoice line detail. |
+| Billing and pricing | 2316323 | The discount shouldn't be editable on a proforma invoice in Project Operations for resource-based scenarios. |
+| Opportunity management | 2338619 | **Opportunity** and **Quote** business rules must be invoked only on pages. |
+| Resource management | 2316523 | Using **Send Request** from a resource requirement that has a role attached must not throw an error. |
+| Resource management | 2326885 | Creating a resource requirement through a project must not throw an error. |
+| Time and expense | 2335584 | Deprecated task flows in the time entry. |
+| Time and expense | 2336884 | The **Copy Week** time entry button must work for more than just the current user. |
 
-
-###
 
 ### Project management and accounting on Dynamics 365 Finance
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-| Travel and expense | [4618082](https://fix.lcs.dynamics.com/Issue/Details?kb=4618082&amp;bugId=583101&amp;dbType=3&amp;qc=9c85ac8ca1e5e9cd07fac9e9aa2cb0914724e28b86ad3339dacf7741f554c605) | Incorrect amounts on Vendor transaction and Sales tax transaction posted from Expense created from Credit card transaction |
-| Travel and expense | [4620366](https://fix.lcs.dynamics.com/Issue/Details?kb=4620366&amp;bugId=579485&amp;dbType=3&amp;qc=e864789bd95505ea624c537d585bf113c2de60b97c88439d44693dbd85aa8e92) | Expense Management - Wrong settlement lines created when generating the payment journal |
-| Travel and expense | [4618082](https://fix.lcs.dynamics.com/Issue/Details?kb=4618082&amp;bugId=583101&amp;dbType=3&amp;qc=9c85ac8ca1e5e9cd07fac9e9aa2cb0914724e28b86ad3339dacf7741f554c605) | Incorrect amounts on Sales tax transaction posted from Expense created from Credit card transaction |
-| Travel and expense | [4621765](https://fix.lcs.dynamics.com/Issue/Details?kb=4621765&amp;bugId=587306&amp;dbType=3&amp;qc=6fbfad0123d4e95eaf8d5a5a2f6c354577c991b7905c852ab02d1f94e728a876) | Deleting expense line might take a long time |
-| Project accounting | [4623737](https://fix.lcs.dynamics.com/Issue/Details?kb=4623737&amp;bugId=598109&amp;dbType=3&amp;qc=4101fc5865201e21815299f2ff11ae46d5d5370510868df86c25ee09a8ca1a0c) | System does not support setup Continuous of Number Sequence when Posting Estimate after applying KB 4619395 |
-| Project accounting | [4623332](https://fix.lcs.dynamics.com/Issue/Details?kb=4623332&amp;bugId=586034&amp;dbType=3&amp;qc=2f64bb1977c4a9c9dd2ce9de7e72230b86eca14b6295c5bbfb614ea97ad81caf) | Vendor invoice posting might fail with an error message: The transactions on voucher do not balance as per 5/17/2021. (accounting currency: 0.00 - reporting currency: 0.01) |
+| Travel and expense | [4618082](https://fix.lcs.dynamics.com/Issue/Details?kb=4618082&amp;bugId=583101&amp;dbType=3&amp;qc=9c85ac8ca1e5e9cd07fac9e9aa2cb0914724e28b86ad3339dacf7741f554c605) | Incorrect vendor transaction and sales tax transaction amounts are posted when an expense is created from a credit card transaction. |
+| Travel and expense | [4620366](https://fix.lcs.dynamics.com/Issue/Details?kb=4620366&amp;bugId=579485&amp;dbType=3&amp;qc=e864789bd95505ea624c537d585bf113c2de60b97c88439d44693dbd85aa8e92) | The wrong settlement are lines created when the payment journal is generated. |
+| Travel and expense | [4618082](https://fix.lcs.dynamics.com/Issue/Details?kb=4618082&amp;bugId=583101&amp;dbType=3&amp;qc=9c85ac8ca1e5e9cd07fac9e9aa2cb0914724e28b86ad3339dacf7741f554c605) | Incorrect sales tax transaction amounts are posted when an expense is created from a credit card transaction. |
+| Travel and expense | [4621765](https://fix.lcs.dynamics.com/Issue/Details?kb=4621765&amp;bugId=587306&amp;dbType=3&amp;qc=6fbfad0123d4e95eaf8d5a5a2f6c354577c991b7905c852ab02d1f94e728a876) | Deleting an expense line might take a long time. |
+| Project accounting | [4623737](https://fix.lcs.dynamics.com/Issue/Details?kb=4623737&amp;bugId=598109&amp;dbType=3&amp;qc=4101fc5865201e21815299f2ff11ae46d5d5370510868df86c25ee09a8ca1a0c) | The system doesn't support the setup of continuous number sequencing when you post an estimate after applying KB 4619395. |
+| Project accounting | [4623332](https://fix.lcs.dynamics.com/Issue/Details?kb=4623332&amp;bugId=586034&amp;dbType=3&amp;qc=2f64bb1977c4a9c9dd2ce9de7e72230b86eca14b6295c5bbfb614ea97ad81caf) | Vendor invoice posting might fail with the error message, "The transactions on voucher do not balance as per 5/17/2021. (accounting currency: 0.00 - reporting currency: 0.01)" |
