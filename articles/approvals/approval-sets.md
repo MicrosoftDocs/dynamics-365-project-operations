@@ -19,7 +19,7 @@ Approval sets group approval requests together into smaller subsets of operation
 Approval sets indicate the overall processing state of their related records. When an approval record is processed using an approval set, the record moves from **Submitted** to **Approved**, and is no longer linked to the approval set. If a record fails when it is submitted for approval, the record remains in a status of **Submitted** and the approval set is marked as failed. The approval set logs the error message of the failure.
 
 ## Processing approvals and approval sets
-Approvals that are queued for processing are visible in the **Processing Approvals** view. The system proccesses all the entries multiple times asynchronously, including retrying an approval if previous attempts failed.
+Approvals that are queued for processing are visible in the **Processing Approvals** view. The system processes all the entries multiple times asynchronously, including retrying an approval if previous attempts failed.
 
 The **Approval Set Lifetime** field records the number of attempts left to process the set before it's marked as failed.
 
