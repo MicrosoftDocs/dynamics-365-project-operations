@@ -32,7 +32,7 @@ The following features are included in this release:
 | Billing and pricing | 2295625 | The milestone name must be copied from the invoice schedule to the invoice line detail. |
 | Billing and pricing | 2316323 | The discount shouldn't be editable on a proforma invoice in Project Operations for resource-based scenarios. |
 | Opportunity management | 2338619 | **Opportunity** and **Quote** business rules must be invoked only on pages. |
-| Resource management | 2316523 | Using **Send Request** from a resource requirement that has a role attached must not throw an error. |
-| Resource management | 2326885 | Creating a resource requirement through a project must not throw an error. |
+| Resource management | 2316523 | Using **Send Request** from a resource requirement that has a role attached should not display an error. |
+| Resource management | 2326885 | Creating a resource requirement through a project should not display an error. |
 | Time and expense | 2335584 | Deprecated task flows in the time entry. |
 | Time and expense | 2336884 | The **Copy Week** time entry button must work for more than just the current user. |
