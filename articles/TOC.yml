@@ -420,7 +420,7 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
-    - name: Approval sets in Project Operations
+    - name: Approval sets 
       href: approvals/approval-sets.md
     - name: Developer notes
       items:
@@ -890,7 +890,7 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
-    - name: Approval sets in Project Operations
+    - name: Approval sets
       href: approvals/approval-sets.md
     - name: Developer notes
       items:
@@ -1330,7 +1330,7 @@
         href: psa/time-entry-calendar.md
       - name: Customize weekly time entry
         href: psa/time-entry-extensibility-v3.md
-      - name: Approval sets
+      - name: Approval sets in Project Service Automation
         href: psa/approval-set.md
   - name: FAQ and troubleshooting (3.x)
     items: 
