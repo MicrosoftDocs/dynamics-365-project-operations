@@ -21,10 +21,10 @@ The release is only applied when an environment is [opted into Early Access](/po
 
 ## Features included in this release
 
-[Subcontract management](../pro/subcontracting/subcontracting_EA_scope.md). The preview of subcontract management includes the following capabilities:
+[Subcontract management](../pro/subcontracting/subcontracting_EA_scope.md) - This feature provides better visibility and control over all aspects of work on a project. The preview of subcontract management includes the following capabilities:
 
   - A project manager can create a subcontract with a vendor. By default, the price lists that are attached to the vendor record are used for the subcontract. The vendor account has a relationship type of **Vendor** or **Supplier**.
   - A project manager can itemize all of the purchases as line items on the subcontract. Subcontract lines can be for time, expenses, or products. The transaction class of the subcontract line determines what the line is for.
   - The vendor account manager and the project manager can iterate over the subcontract. Pricing can be adjusted in the purchase price lists that are attached to the subcontract.
   - During the process, if the subcontract line is for time, the vendor account manager can associate vendor contacts with each subcontract line. This association provides information to the project manager who is working on the subcontract. When a vendor contact is associated with a subcontract line, the system automatically creates a bookable resource from the contact, if a bookable resource doesn't already exist.
-  - The billing method on each subcontract line can be Fixed-price or Time and material. For Fixed-price subcontract lines, a milestone-based invoice schedule is set up.
+  - The billing method on each subcontract line can be fixed-price or time and material. For fixed-price subcontract lines, a milestone-based invoice schedule is set up.
