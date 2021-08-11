@@ -2,7 +2,7 @@
 title: Sign up for Project Operations admin lead trials
 description: This topic provides information about how to deploy an admin lead trial of Project Operations.
 author: ruhercul
-ms.date: 07/09/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -17,37 +17,38 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 This topic explains how to subscribe to the preview partner offer and deploy a Project Operations environment.
 
 ## Overview
-With the new Project Operations admin lead trial, you can automatically deploy any of the three suported deployment scenarios by completing a questionnaire which recommends the best deployment approach. This topic reviews the process to redeem your trial offer and administer Dual-write, and provides links to supporting materials to help you get the most out of your trial experience.    
+With the new Project Operations admin lead trial, you can automatically deploy any of the three suported deployment scenarios by completing a questionnaire which recommends the best deployment approach. This topic reviews the process to:
+
+- Redeem your trial offer
+- Initiate provisioning
+- Administer Dual-write
+- learn more about Project Operations 
+
+
+| **Offer Item**                    | **Details**                                  |
+|------------------------------|----------------------------------------------|
+| Offer type                   | Admin Lead (requires tenant admin to redeem) |
+| Offer use                    | Once per tenant                              |
+| Offer duration               | 30 calendar days                             |
+| Redemptions per tenant       | 1                                            |
+| Number of users              | 25                                           |
+| Extension                    | 1 extension, 30 calendars days               |
+| Number of trial environments | 3                                            |
+
 
 ## Admin trial details
 The following table lists the trial details and how they apply to each deployment type.
-
-|        **Details**                                   | **Lite**                                                                                                                                                 | **Non-stocked materials** | **Stocked materials** |
-|-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|-----------------------|
-| Offer type                                          | Admin lead (requires tenant admin to redeem)                                                                                                             |                           |                       |
-| Offer use                                           | Once per tenant                                                                                                                                          |                           |                       |
-| Offer duration                                      | 30 calendar days                                                                                                                                         |                           |                       |
-| Redemptions per tenant                              | 1                                                                                                                                                        |                           |                       |
-| Number of users                                     | 25                                                                                                                                                       |                           |                       |
-| Extension                                           | 30                                                                                                                                                       |                           |                       |
-| Number of trials environments                       | 3                                                                                                                                                        |                           |                       |
-| Setup data provided                                 | Yes                                                                                                                                                      | Yes                       | Yes (USSI)            |
-| Transactional data                                  | No                                                                                                                                                       | No                        | No                    |
-| Provisioning time                                   | 15                                                                                                                                                       | 150                       | 30                    |
-| Versions at launch                                  | UR11                                                                                                                                                     | 10.0.19/UR11              | 10.0.19               |
-| CDS Environment Life Cycle Management Support (ELM) | N/A                                                                                                |           N/A                |             N/A          |
-| CDS Application Life Cycle Support (ALM)            | Microsoft CDS apps can be upgraded. Adjacent CDS apps can be installed (e.g. Field Service).                                                                         |                           |                       |
-| Finance and Operations apps ELM and ALM                                       | These environments don't have access to Life Cycle Services (LCS), therefore customers will not have access to upgrades, quality updates, or backup and restore. |                           |                       |
-| Upgrade to paid                                     | Not available                                                                                                                          |              Not available              |           Not available              |
-
-
+| **Item**                   | **Lite**                                     | **Non-stocked materials** | **Stocked materials** |
+|-------------------------------|----------------------------------------------|---------------------------|-----------------------|
+|     |
+| Setup data provided           | Yes                                          | Yes                       | Yes (USSI)            |
+| Transactional data            | No                                           | No                        | No                    |
+| Provisioning time (minutes)   | 15                                           | 90                        | 30                    |
 
 ## Prerequisites
 
 - Sign-up for the [Dynamics 365 Project Operations - Preview Trial](https://www.aka.ms/try-po).
 - The user who deploys the preview must have Azure tenant global administrator rights.
-- The Microsoft CDS environment will be provided free for a limited 30 day period.
-
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
@@ -70,6 +71,21 @@ You will see confirmation offer was successfully redeemed.
 
 You will be redirected to the [Power Platform admin center](https://admin.powerplatform.com/projectoperationstrial).
 
+## Questionnaire and provisioning
+
+1.	Go to the [Power Platform admin center](https://admin.powerplatform.com/projectoperationstrial) and complete the questionnaire.  
+2.	Review the recommended deployment type and select **Begin Setup** to initiate provisioning.
+3.	Review the terms and conditions and then select **Start**.
+
+   After provisioning starts, you are redirected to the environment list in the Power Platform admin center. While provisioning is in progress, the state of your environment is **PreparingInstance**.
+ 
+  After the provisioning is complete, the state of your environment is **Ready**.
+ 
+4.	When the provisioning is complete, select the respective CDS and Finance and Operations apps URLs to validate the deployment.
+
+## Configuring Dual Write
+For Non-stocked materials deployments only, configure your dual write mappings per the public documentation provided [here](https:/docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-dual-write-maps).
+
 ## Assign licenses
 
 > [!IMPORTANT]
@@ -85,41 +101,36 @@ You will be redirected to the [Power Platform admin center](https://admin.powerp
 
 3. Verify that the **Dynamics 365 Project Operations Preview**  license has been selected, and then select **Save changes**.
 
-## Questionnaire and provisioning
-
-1.	Go to the [Power Platform admin center](https://admin.powerplatform.com/projectoperationstrial) and complete the questionnaire.  
-2.	Review the recommended deployment type and select **Begin Setup** to initiate provisioning.
-3.	Review the terms and conditions and then select **Start**.
-
-   After provisioning starts, you are redirected to the environment list in the Power Platform admin center. While provisioning is in progress, the state of your environment is **PreparingInstance**.
- 
-  After the provisioning is complete, the state of your environment is **Ready**.
- 
-4.	When the provisioning is complete, select the respective CDS and Finance and Operations apps URLs to validate the deployment.
-
 ## Resources
-The following topics provide brief introductions to the key scenarios supported by the application.
+The following resources provide helpful guidance as you begin your journey with Project Operations:
 
-|       Topic              | Lite/Non Stocked                                                                                                         | Stocked Materials                                                                                                        |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| Lead to Quote       | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | n/a                                                                                                                      |
-| Create a Project    | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
-| Create a Contract   | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
-| Resource a project  | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
-| Time and Expense    | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
-| Invoice             | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
-| Revenue Recognition | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) | [here](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data) |
+-   [Video Series -Project Operations Overview, feature deep dives and
+    roadmap](https://youtube.com/playlist?list=PLcakwueIHoT_LJ3Fr1tHnkPk5lioqE6uH)
+
+-   [Dynamics 365 Project Operations \|Microsoft
+    Learn](https://docs.microsoft.com/en-us/learn/modules/examine-dynamics-365-project-operations/)
+
+-   [Determine your deployment type \|Microsoft
+    Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/determine-deployment-type)
 
 ## Frequently asked questions
 
 ### What if I require ALM or ELM for my Finance and Operations environment?
-For partners who require full environment lifecycle management capabilities, see [](https://experience.dynamics.com/requestlicense) to review the new partner driven offer. If you require access to a Tier 1 environment for development and testing, go to [Microsoft](microsoft.com) for more information.
+- For partners who require full environment lifecycle management capabilities, see [](https://experience.dynamics.com/requestlicense) to review the new partner driven offer. If you require access to a Tier 1 environment for development and testing, go to [Microsoft](microsoft.com) for more information.
+- For Partners seeking more information on Internal Use Rights, the following link provides additional information: [Internal Use Rights cloud and software benefit (microsoft.com)] (https://partner.microsoft.com/en-us/membership/internal-use-software)
 
 ### Can I extend my trial beyond 30 days?
 To extend your trials, do the following:
+ - Navigate to Microsoft 365 Admin Center > Billing > Your products
+ - Select **Dynamics 365 Project Operations (CE) - Preview Trial**
+ - Under Expiration Date, Select **Extend Date**
 
 ### Can I upgrade from the Lite deployment to Project Operations for resource/non-stocked based scenarios?
-Currently, there is no support to update an environment from lite to non-stocked based deployment.
+Currently, there is no support to upgrade an environment from lite to non-stocked based deployment.
 
+### Can I access Life Cycle Services (LCS) for my D365 Finance environments?  
+No, for the admin lead trials, deployment is handled through the Power Platform Admin Center and access to the D365 Finance environment is restricted.
 
+### Can I install my trial on an existing org?
+If you have an existing environment, from the Power Platform Admin center you will be allowed to intall the lite deployment on an existing sales dataverse environment.
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
