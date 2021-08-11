@@ -2,7 +2,7 @@
 title: What's new August 2021 - Project Operations for resource/non-stocked based scenarios
 description: This topic provides information about the quality updates available in the August 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-ms.date: 08/10/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -28,11 +28,11 @@ The following features are included in this release:
 
 There are no updates to Project Operations Dual Write maps in this release. 
 
-For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../project-operations/environment/resource-dual-write-maps.md).
+For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
 Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Certain features and capabilities might not work correctly if the latest version of the map isn't activated. You can see the active version of the map on the **Dual-write** page in the **Version** column. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-If you encounter an issue starting the map, follow the instructions in the [Missing table columns issue on maps](dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section in the Dual-write troubleshooting guide.
+If you encounter an issue starting the map, follow the instructions in the [Missing table columns issue on maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section in the Dual-write troubleshooting guide.
 
 ## Quality updates
 
