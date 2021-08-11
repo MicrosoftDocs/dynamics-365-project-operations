@@ -23,8 +23,8 @@ Dynamics 365 Project Operations consists of two components:
 - Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The Finance and Operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
 
 ## Project Operations release notes
-- Project Operations latest release notes for [Resource/non-stocked](whats-new-july-2021-resource-based.md) scenario.
-- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-july-2021-lite.md) scenario.
+- Project Operations latest release notes for [Resource/non-stocked](whats-new-august-2021-resource-based.md) scenario.
+- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-august-2021-lite.md) scenario.
 - Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) scenario.
 
 ## Project Operations latest version
