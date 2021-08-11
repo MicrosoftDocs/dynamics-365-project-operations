@@ -418,6 +418,8 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
+    - name: Approval sets in Project Operations
+      href: approvals/approval-sets.md
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
@@ -882,6 +884,8 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
+    - name: Approval sets in Project Operations
+      href: approvals/approval-sets.md
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
