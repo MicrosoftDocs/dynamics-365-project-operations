@@ -1,5 +1,5 @@
 ---
-title: Approval sets in Project Operations
+title: Approval sets
 description: This topic explains how to work with approval sets, requests, and the subsets of those operations.
 author: stsporen
 manager: tfehr
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: stsporen
 ---
 
-# Approval sets in Project Operations
+# Approval sets
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
