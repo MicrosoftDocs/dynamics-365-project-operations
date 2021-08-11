@@ -1,6 +1,6 @@
 ---
 title: Sign up for Project Operations admin lead trials
-description: This topic provides information about how to deploy an admin lead trial of Project Operations.
+description: This topic provides information about how to deploy a trial of Project Operations.
 author: ruhercul
 ms.date: 08/09/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: kfend
 ms.author: ruhercul
 ---
 
-# Sign up for Project Operations admin lead trials 
+# Sign up for Project Operations Trials 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
 
@@ -21,7 +21,7 @@ With the new Project Operations admin lead trial, you can automatically deploy a
 
 - Redeem your trial offer
 - Initiate provisioning
-- Administer Dual-write
+- Configure Dual-write
 - learn more about Project Operations 
 
 
