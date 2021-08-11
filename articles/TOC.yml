@@ -54,6 +54,8 @@
         href: environment/resource-dual-write-vendor-invoice.md  
   - name: What's new 
     items:
+    - name: August 2021 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-august-2021-resource-based.md
     - name: July 2021 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-july-2021-resource-based.md
     - name: June 2021 - Project Operations for resource/non-stocked based scenarios
@@ -418,6 +420,8 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
+    - name: Approval sets in Project Operations
+      href: approvals/approval-sets.md
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
@@ -520,6 +524,10 @@
       href: environment/security-model.md
   - name: What's new
     items:
+    - name: What's new 2021 wave 2 early access - lite deployment
+      href: pro/whats-new/whats-new-2021-early-access-lite.md
+    - name: What's new August 2021 - lite deployment
+      href: pro/whats-new/whats-new-august-2021-lite.md
     - name: What's new July 2021 - lite deployment
       href: pro/whats-new/whats-new-july-2021-lite.md
     - name: What's new June 2021 - lite deployment
@@ -882,6 +890,8 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
+    - name: Approval sets in Project Operations
+      href: approvals/approval-sets.md
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
