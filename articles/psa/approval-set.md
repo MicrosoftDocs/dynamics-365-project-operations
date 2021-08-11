@@ -1,5 +1,5 @@
 ---
-title: Approval sets
+title: Approval sets in Project Service Automation
 description: This topic provides information about approval set, requests, and the subsets of those operations.
 author: stsporen
 manager: tfehr
@@ -10,7 +10,7 @@ ms.reviewer: kfend
 ms.author: stsporen
 ---
 
-# Approval sets
+# Approval sets in Project Service Automation
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
