@@ -1,6 +1,6 @@
 ---
 title: What's new 2021 wave 2 early access - Project Operations lite deployment
-description: This topic provides information about the features available in the 2021 release of Project Operations lite deployment.
+description: This topic provides information about the features available in the 2021 wave 2 early access release of Project Operations lite deployment.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -9,7 +9,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# What's new July 2021 - Project Operations lite deployment
+# What's new 2021 wave 2 early access - Project Operations lite deployment
 
 _Applies To: Lite deployment - deal to proforma invoicing_
 
@@ -17,14 +17,14 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
   - Project Operations on Dataverse environment version 4.23.0.4
 
-The release is only applied when an environment is [opted into Early Access](https://docs.microsoft.com/en-us/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates)
+The release is only applied when an environment is [opted into Early Access](/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
 ## Features included in this release
 
-[Subcontract management](https://docs.microsoft.com/en-us/dynamics365/project-operations/pro/subcontracting/subcontracting_ea_scope).  Preview includes the following capabilities:
+[Subcontract management](../pro/subcontracting/subcontracting_EA_scope.md). The preview of subcontract management includes the following capabilities:
 
-  - The project manager creates a subcontract with a vendor. By default, the price lists that are attached to the vendor record are used for the subcontract. The vendor account has a relationship type of Vendor or Supplier.
-  - The project manager can itemize all the purchases as line items on the subcontract. Subcontract lines can be for time, expenses, or products. The transaction class of the subcontract line determines what the line is for.
+  - A project manager can create a subcontract with a vendor. By default, the price lists that are attached to the vendor record are used for the subcontract. The vendor account has a relationship type of **Vendor** or **Supplier**.
+  - A project manager can itemize all of the purchases as line items on the subcontract. Subcontract lines can be for time, expenses, or products. The transaction class of the subcontract line determines what the line is for.
   - The vendor account manager and the project manager can iterate over the subcontract. Pricing can be adjusted in the purchase price lists that are attached to the subcontract.
-  - At this point or later in the process, if the subcontract line is for time, the vendor account manager associates vendor contacts with each subcontract line. This association provides information to the project manager who is working on the subcontract. When a vendor contact is associated with a subcontract line, the system automatically creates a bookable resource from the contact, if a bookable resource doesn't already exist.
-  - The billing method on each subcontract line can be Fixed Price or Time and Material. For fixed-price subcontract lines, a milestone-based invoice schedule is set up.
+  - During the process, if the subcontract line is for time, the vendor account manager can associate vendor contacts with each subcontract line. This association provides information to the project manager who is working on the subcontract. When a vendor contact is associated with a subcontract line, the system automatically creates a bookable resource from the contact, if a bookable resource doesn't already exist.
+  - The billing method on each subcontract line can be Fixed-price or Time and material. For Fixed-price subcontract lines, a milestone-based invoice schedule is set up.
