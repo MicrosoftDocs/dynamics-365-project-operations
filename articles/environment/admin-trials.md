@@ -16,16 +16,15 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 This topic explains how to subscribe to the preview partner offer and deploy a Dynamics 365 Project Operations environment.
 
-## Overview
-With the new Project Operations trial, you can automatically deploy any of the three suported deployment scenarios by completing a questionnaire which recommends the best deployment approach. This topic provides information about how to:
+With the new Project Operations trial, you can automatically deploy any of the three supported deployment scenarios by completing a questionnaire that recommends the best deployment approach. This topic provides information about how to:
 
-- Redeem your trial offer
-- Initiate provisioning
-- Configure Dual-write
-- Learn more about Project Operations 
+- Redeem your trial offer.
+- Initiate provisioning.
+- Configure dual-write.
+- Learn more about Project Operations. 
 
 
-| **Offer Item**               | **Details**                                  |
+| **Offer item**               | **Details**                                  |
 |------------------------------|----------------------------------------------|
 | Offer type                   | This offer type is Admin lead so a tenant admin is required in order to redeem. |
 | Offer use                    | One time per tenant                          |
@@ -38,6 +37,7 @@ With the new Project Operations trial, you can automatically deploy any of the t
 
 ## Admin trial details
 The following table lists the trial details and how they apply to each deployment type.
+
 | **Item**                      | **Lite**                                     | **Non-stocked materials** | **Stocked materials** |
 |-------------------------------|----------------------------------------------|---------------------------|-----------------------|
 | Setup data provided           | Yes                                          | Yes                       | Yes (USSI)            |
@@ -45,16 +45,17 @@ The following table lists the trial details and how they apply to each deploymen
 | Provisioning time in minutes  | 15                                           | 90                        | 30                    |
  
 ## Prerequisites
+The following prerequisites are required to deploy a trial of Dynamics 365 Project Operations.
 
 - Sign-up for the [Dynamics 365 Project Operations - Preview Trial](https://www.aka.ms/try-po).
 - The user who deploys the preview must have Azure tenant global administrator rights.
 
 > [!IMPORTANT]
-> Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
+> Only one person in an organization, the tenant administrator, needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
 
 ### Dynamics 365 Project Operations - Preview trial 
 
-Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.
+Before you begin, make sure you are signed in to a browser with the user work account in the tenant where you want the Project Operations preview.
 
 1. Redeem the first offer code, **Dynamics 365 Project Operations - Preview Trial** by pasting it into the browser URL.
 
@@ -80,10 +81,10 @@ Before you begin, make sure you are logged in to a browser with the user work ac
  
   After the provisioning is complete, the state of your environment is **Ready**.
  
-4.	When the provisioning is complete, select the respective CDS and Dynamics 365 finance and operations apps URLs to validate the deployment.
+4.	When the provisioning is complete, select the respective Microsoft Dataverse URL, and the Finance and Fperations apps URLs to validate the deployment.
 
 ## Configuring dual-write
-For Non-stocked materials deployments only, configure your dual-write mappings. For more information, see [Project Operations dual-write map versions](resource-dual-write-maps.md).
+For non-stocked materials deployments only, configure your dual-write mappings. For more information, see [Project Operations dual-write map versions](resource-dual-write-maps.md).
 
 ## Assign licenses
 
@@ -99,7 +100,7 @@ You will need administrative access to your organization's Microsoft 365 Portal 
 
 3. Verify that the **Dynamics 365 Project Operations Preview**  license has been selected, and then select **Save changes**.
 
-## Resources
+## Additional resources
 
 The following resources provide helpful guidance as you begin your journey with Project Operations:
 
@@ -109,9 +110,9 @@ The following resources provide helpful guidance as you begin your journey with 
 
 ## Frequently asked questions
 
-### What if I require ALM or ELM for my finance and operations apps environment?
-- For partners who require full environment lifecycle management capabilities, see the [Partner Sandbox License Request](https://experience.dynamics.com/requestlicense) to review the new partner driven offer. If you require access to a Tier 1 environment for development and testing, go to [Microsoft](microsoft.com) for more information.
-- For partners seeking more information on Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com)](https://partner.microsoft.com/en-us/membership/internal-use-software).
+### What if I require ALM or ELM for my Finance and Operations apps environment?
+- For partners who require full environment lifecycle management capabilities, see the [Partner Sandbox License Request](https://experience.dynamics.com/requestlicense) to review the new partner offer. If you require access to a Tier 1 environment for development and testing, go to [Microsoft](microsoft.com) for more information.
+- For partners seeking more information about Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com)](https://partner.microsoft.com/membership/internal-use-software).
 
 ### Can I extend my trial beyond 30 days?
 To extend your trial, do the following:
@@ -120,13 +121,13 @@ To extend your trial, do the following:
 2. Select **Dynamics 365 Project Operations (CE) - Preview Trial**.
 3. Under **Expiration Date**, select **Extend Date**.
 
-### Can I upgrade from the Lite deployment to the Resource/non-stocked based scenario deployment?
+### Can I upgrade from the lite deployment to the resource/non-stocked based scenario deployment?
 Currently, there is no support to upgrade an environment from a lite to a non-stocked based deployment.
 
 ### Can I access Lifecycle Services (LCS) for my Finance environments?  
 No. For these trials, deployment is handled through the Power Platform Admin Center. Access to the Finance environment is restricted.
 
 ### Can I install my trial on an existing environment?
-If you have an existing environment, you will be allowed to intall the lite deployment on an existing sales dataverse environment from the Power Platform Admin center.
+If you have an existing environment, you will be allowed to install the lite deployment on an existing sales Dataverse environment from the Power Platform Admin center.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
