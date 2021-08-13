@@ -8,7 +8,7 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Subcontracting (October 2021 Early Access release)
+# Subcontracting in October 2021 Early Access release
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
