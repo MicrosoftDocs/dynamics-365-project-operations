@@ -1,5 +1,5 @@
 ---
-title: Subcontracting (October 2021 Early Access release)
+title: Subcontracting in October 2021 Early Access release
 description: This topic provides an overview of the subcontracting capabilities in Project Operations that are part of the October 2021 early access release.
 author: rumant
 ms.date: 08/02/2021
@@ -8,13 +8,13 @@ ms.reviewer: kfend
 ms.author: rumant
 ---
 
-# Subcontracting (October 2021 Early Access release)
+# Subcontracting in October 2021 Early Access release
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-This topic provides an overview of the subcontracting capabilities in Dynamics 365 Project Operations that are part of the October 2021 early access release. This feature set is not ready for production or live environments, so these features will remain in Preview until the full feature set is released. We strongly recommend that you do not use the subcontracting feature set for live production scenarios until the Preview banner is removed. 
+This topic provides an overview of the subcontracting capabilities in Dynamics 365 Project Operations that are part of the October 2021 early access release. This feature set is not ready for production or live environments, so these features will remain in early access release until the full feature set is released. We strongly recommend that you do not use the subcontracting feature set for live production scenarios until the preview banner is removed. 
 
 The following list provides an outline of what is currently available in the October 2021 Early Access release:
 
@@ -35,7 +35,7 @@ The following illustration represents the Subcontracting Early Access release as
 ![Subcontracting process flow](../media/SubcontractingEAFlow.png)  
 
 
-## Quantity-based and work-based subcontract lines (Preview)
+## Quantity-based and work-based subcontract lines early access release
 In the October 2021 Early Access release, only quantity-based subcontract lines are supported. This means that a subcontract line can be used to purchase time, expenses, or materials from a vendor but not a whole body of work. This also means that the quantity being purchased (units of time, expenses, or quantity of materials) on a subcontract line can be used on any project in the system.
 
 
