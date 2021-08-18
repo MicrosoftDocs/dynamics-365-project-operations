@@ -34,7 +34,10 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 Resource managers can propose a resource to the project manager by using a resource request.
 
 1. From the request grid or the request itself, select **Find Resources**.
-2. On the **Schedule Assistant** page, select the resource, and then, in the **Create Resource Booking** pane, in the **Booking Status** field, select **Book**.
+2. 3. On the **Schedule Assistant** page, select the resource, confirm all proposed hours have been included in the proposed booking.
+4. In the **Create Resource Booking** pane, set the **Booking Status** field to **Proposed** and Select **Book**.
+
+Please note, setting the **Booking Status** to **Propose** will not hard book the resource and will not replace the generic resource with the named team member.
 
 The following status updates occur:
 
