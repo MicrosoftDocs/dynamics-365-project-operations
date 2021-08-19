@@ -2,7 +2,7 @@
 title: Sign up for Project Operations trials
 description: This topic provides information about how to deploy a trial of Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/11/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -23,7 +23,8 @@ With the new Project Operations trial, you can automatically deploy any of the t
 - Configure dual-write.
 - Learn more about Project Operations. 
 
-The summary below outlines the details of the new trial offer.
+The following table outlines the details of the new trial offer.
+
 | **Offer item**               | **Details**                                  |
 |------------------------------|----------------------------------------------|
 | Offer type                   | This offer type is Admin lead so a tenant admin is required in order to redeem. |
@@ -83,10 +84,11 @@ Before you begin, make sure you are signed in to a browser with the user work ac
  
 4.	When the provisioning is complete, select the respective Microsoft Dataverse URL, and the Finance and Fperations apps URLs to validate the deployment.
 
-## Installatiokn of Demo Data
-the following link provides access to the demo data packages for both lite and non-stocked materials: 
-- [non-stocked materials demo data](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data)
-- [lite demo data](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/lite-apply-demo-setup-config-data)
+## Demo data installation
+
+USe the followign links to access demo data packages for both non-stocked materials and lite deployment scenarios. 
+- [Non-stocked materials demo data](resource-apply-pro-setup-config-data.md)
+- [Lite demo data](lite-apply-demo-setup-config-data.md)
 
 ## Configuring dual-write
 For non-stocked materials deployments only, configure your dual-write mappings. For more information, see [Project Operations dual-write map versions](resource-dual-write-maps.md).
@@ -116,8 +118,9 @@ The following resources provide helpful guidance as you begin your journey with 
 ## Frequently asked questions
 
 ### What if I require ALM or ELM for my Finance and Operations apps environment?
+
 - For partners who require full environment lifecycle management capabilities, see the [Partner Sandbox License Request](https://experience.dynamics.com/requestlicense) to review the new partner offer. 
-- For partners seeking more information about Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com)](https://partner.microsoft.com/membership/internal-use-software).
+- For partners seeking more information about Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
 
 ### Can I extend my trial beyond 30 days?
 To extend your trial, do the following:
