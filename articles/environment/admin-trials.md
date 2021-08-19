@@ -23,7 +23,7 @@ With the new Project Operations trial, you can automatically deploy any of the t
 - Configure dual-write.
 - Learn more about Project Operations. 
 
-
+The summary below outlines the details of the new trial offer.
 | **Offer item**               | **Details**                                  |
 |------------------------------|----------------------------------------------|
 | Offer type                   | This offer type is Admin lead so a tenant admin is required in order to redeem. |
@@ -111,7 +111,7 @@ The following resources provide helpful guidance as you begin your journey with 
 ## Frequently asked questions
 
 ### What if I require ALM or ELM for my Finance and Operations apps environment?
-- For partners who require full environment lifecycle management capabilities, see the [Partner Sandbox License Request](https://experience.dynamics.com/requestlicense) to review the new partner offer. If you require access to a Tier 1 environment for development and testing, go to [Microsoft](microsoft.com) for more information.
+- For partners who require full environment lifecycle management capabilities, see the [Partner Sandbox License Request](https://experience.dynamics.com/requestlicense) to review the new partner offer. 
 - For partners seeking more information about Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com)](https://partner.microsoft.com/membership/internal-use-software).
 
 ### Can I extend my trial beyond 30 days?
