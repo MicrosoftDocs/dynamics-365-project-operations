@@ -123,7 +123,7 @@ The following resources provide helpful guidance as you begin your journey with 
 - For partners seeking more information about Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
 
 ### Can I extend my trial beyond 30 days?
-To extend your trial, complete the followign steps.
+To extend your trial, complete the following steps.
 
 1. In the **Microsoft 365 Admin Center**, go to **Billing** > **Your products**.
 2. Select **Dynamics 365 Project Operations (CE) - Preview Trial**.
