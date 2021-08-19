@@ -56,7 +56,7 @@ The following prerequisites are required to deploy a trial of Dynamics 365 Proje
 
 ### Dynamics 365 Project Operations - Preview trial 
 
-Before you begin, make sure you are signed in to a browser with the user work account in the tenant where you want the Project Operations preview.
+Before you begin, sign in to a browser with the user work account in the tenant where you want the Project Operations preview.
 
 1. Redeem the first offer code, **Dynamics 365 Project Operations - Preview Trial** by pasting it into the browser URL.
 
@@ -82,11 +82,11 @@ Before you begin, make sure you are signed in to a browser with the user work ac
  
   After the provisioning is complete, the state of your environment is **Ready**.
  
-4.	When the provisioning is complete, select the respective Microsoft Dataverse URL, and the Finance and Fperations apps URLs to validate the deployment.
+4.	When the provisioning is complete, select the respective Microsoft Dataverse URL, and the Finance and Operations apps URLs to validate the deployment.
 
 ## Demo data installation
 
-USe the followign links to access demo data packages for both non-stocked materials and lite deployment scenarios. 
+Use the following links to access demo data packages for both non-stocked materials and lite deployment scenarios. 
 - [Non-stocked materials demo data](resource-apply-pro-setup-config-data.md)
 - [Lite demo data](lite-apply-demo-setup-config-data.md)
 
@@ -123,7 +123,7 @@ The following resources provide helpful guidance as you begin your journey with 
 - For partners seeking more information about Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
 
 ### Can I extend my trial beyond 30 days?
-To extend your trial, do the following:
+To extend your trial, complete the followign steps.
 
 1. In the **Microsoft 365 Admin Center**, go to **Billing** > **Your products**.
 2. Select **Dynamics 365 Project Operations (CE) - Preview Trial**.
