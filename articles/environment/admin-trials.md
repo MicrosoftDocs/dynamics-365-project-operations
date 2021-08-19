@@ -85,8 +85,8 @@ Before you begin, make sure you are signed in to a browser with the user work ac
 
 ## Installatiokn of Demo Data
 the following link provides access to the demo data packages for both lite and non-stocked materials: 
-- [non-stocked materials demo data] (https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data)
-- [lite demo data] (https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/lite-apply-demo-setup-config-data)
+- [non-stocked materials demo data](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-apply-pro-setup-config-data)
+- [lite demo data](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/lite-apply-demo-setup-config-data)
 
 ## Configuring dual-write
 For non-stocked materials deployments only, configure your dual-write mappings. For more information, see [Project Operations dual-write map versions](resource-dual-write-maps.md).
