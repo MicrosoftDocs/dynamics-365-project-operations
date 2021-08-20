@@ -12,6 +12,8 @@
     items:
     - name: Project Operations for resource/non-stocked based scenarios deployment overview
       href: environment/project-operations-integrated-deployment-overview.md
+    - name: Sign up for Project Operations trials
+      href: environment/admin-trials.md
     - name: Sign up for a preview subscription 
       href: environment/resource-sign-up-preview-subscription.md
     - name: Navigate Project Operations
@@ -514,6 +516,8 @@
     items:
     - name: Lite deployment overview
       href: pro/project-operations-overview-lite.md
+    - name: Sign up for Project Operations trials
+      href: environment/admin-trials.md
     - name: Sign up for a preview subscription - lite
       href: environment/lite-preview-subscription-sign-up.md
     - name: Deploy Project Operations - lite
@@ -926,6 +930,10 @@
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
 - name: Project Operations for stocked/production-based scenarios
   items: 
+  - name: Get started
+    items:
+    - name: Sign up for Project Operations trials
+      href: environment/admin-trials.md
   - name: What's new
     items:
     - name: What's new July 2021 - Project Operations for stocked/production-based scenarios
