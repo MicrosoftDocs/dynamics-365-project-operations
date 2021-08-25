@@ -70,7 +70,7 @@ Before you begin, sign in to a browser with the user work account in the tenant 
 
    ![Confirmation](./media/18OrderConfirmationNew.png)
 
-  You will be redirected to the [Power Platform admin center](https://admin.powerplatform.com/projectoperationstrial).
+  You will be redirected to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/projectoperationstrial).
 
 ## Questionnaire and provisioning
 
