@@ -43,6 +43,6 @@ To create a subcontract, complete the following steps.
     | Total Amount |  This calculated field shows the total amount of the subcontract after taxes are included.  |None|
     | Date Confirmed | The date that the subcontract was confirmed.  | None|
     | Requested By | The value in this field defaults to the name of the user who creates the subcontract. This value can be changed by the creator of the subcontract to indicate that person on behalf of whom they are creating the subcontract.  |None|
-    | Vendor Account Manager | The name of the primary contact of the vendor account. The value in this field defaults from the vendor account record. This field value can be changed by the user to select a different contact as the vendor account manager of the subcontract. |Email alerts aorund changes to the subcontract as a result of important price negotiations can be configured and sent to this contact. |
+    | Vendor Account Manager | The name of the primary contact of the vendor account. The value in this field defaults from the vendor account record. This field value can be changed by the user to select a different contact as the vendor account manager of the subcontract. |Email alerts around changes to the subcontract as a result of important price negotiations can be configured and sent to this contact. |
 
 
