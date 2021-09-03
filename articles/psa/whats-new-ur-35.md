@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 35, V3
 description: This topic lists the features and fixes that are available in Project Service Automation Update Release 35, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 09/02/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -32,24 +32,24 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed.
 
 **Time and Expense**
-- The Project Approver is experiencing read privilege error when approving expense entry with "Project Approver" role.
-- The Project Approver is experiencing write privilege error on msdyn_projectapproval when canceling the approved time entry with "Project Approver" role.
-- "Copy week" in a Time Entry in Dynamics 365 for phone - Project Resource Hub app module throws an error "...\OfficeProductivity_RibbonRules.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE".
-- Retry policy automatically approves the entry that was previously rejected.
-- Approval Sets subgrid incorrectly displays non-applicable ribbon actions.
-- Project Task and Resource Role are missing icons on the Time Entry entity.
-- When importing Resource Assignments, time entries are not imported with the correct duration for assignments created with manual mode tasks.
-- Delete button is not found in Advanced Find for Time Entry records.
-- "Save" Button is not present in Time entry information form and preventing a save when the form is closed.
+- The Project Approver receives a read privilege error when approving expense entries with a **Project Approver** role.
+- The Project Approver receives a write privilege error on **msdyn_projectapproval** when canceling an approved time entry with a **Project Approver** role.
+- When you select **Copy week** in a Time Entry in the Dynamics 365 for phone - Project Resource Hub app module, the following error occurs, "...\OfficeProductivity_RibbonRules.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE".
+- The **Retry** policy automatically approves entries that were previously rejected.
+- The **Approval Sets** subgrid displays non-applicable ribbon actions.
+- **Project Task** and **Resource Role** are missing icons on the **Time Entry** entity.
+- When you import resource assignments, time entries aren't imported with the correct duration for assignments that are created with manual mode tasks.
+- **Delete** is missing from the **Advanced Find for Time Entry records**.
+- **Save** is missing from the **Time entry information** page. This is preventing changes from being saved when the page is closed.
 
 **Project planning**
-- Resource Assignment and Resource Reconciliation grids are not sorting grouped attributes alphabetically.
-- Tasks cannot be created if date behavior is customized to "Date Only".
+- The **Resource Assignment** and **Resource Reconciliation** grids aren't sorting grouped attributes alphabetically.
+- Tasks can't be created if the date behavior is customized to **Date Only**.
 
 **Resource management**
-- Users are experiencing overlayering issues when trying to associate the 'Resource Requirement Associated View' to a main form when the customer has both Field Service and Project Service Automation installed.
-- From the Team Member Quick Create, double clicking save prevents creation of the resource requirement.
+- Overlayering issues occur when associating the **Resource Requirement Associated View** to a main page when both Dynamics 365 Field Service and Dynamics 365 Project Service Automation are installed.
+- From the **Team Member Quick Create** dialog page, double-clicking **Save** prevents the resource requirement from being created.
 
 **Sales**
-- An exception is thrown when deleting a task associated to a won quote.
+- An exception is thrown when you delete a task associated to a quote with a status of **Won**.
 
