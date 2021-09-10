@@ -292,7 +292,7 @@
       items:
       - name: Develop project templates with Copy Project
         href: project-management/dev-copy-project.md
-      - name: Use Project schedule APIs (Public Preview)
+      - name: Use Project schedule APIs
         href: project-management/schedule-api-preview.md
   - name: Resource management
     items: 
@@ -784,7 +784,7 @@
       items:
       - name: Develop project templates with Copy Project
         href: project-management/dev-copy-project.md
-      - name: Use Project schedule APIs (Public Preview)
+      - name: Use Project schedule APIs
         href: project-management/schedule-api-preview.md
   - name: Resource management
     items: 
