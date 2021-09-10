@@ -12,8 +12,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-> [!IMPORTANT] 
-> Some or all of the functionality noted in this topic is available as part of a preview release. The content and the functionality are subject to change. 
+
 
 ## Scheduling entities
 
