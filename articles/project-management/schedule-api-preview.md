@@ -2,7 +2,7 @@
 title: Use Project schedule APIs to perform operations with Scheduling entities
 description: This topic provides information and samples for using Project schedule APIs.
 author: sigitac
-ms.date: 06/22/2021
+ms.date: 09/09/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
@@ -12,8 +12,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-> [!IMPORTANT] 
-> Some or all of the functionality noted in this topic is available as part of a preview release. The content and the functionality are subject to change. 
+
 
 ## Scheduling entities
 
