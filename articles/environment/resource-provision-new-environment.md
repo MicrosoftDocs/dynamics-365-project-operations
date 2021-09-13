@@ -155,6 +155,8 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
       - **Chart Of Accounts**
       - **Fiscal Calendar**
       - **Ledger**
+      - **Company**
+      - **Currency Exchange Rate Type**
 
 5. After the security role is updated, go to **Settings** > **Security** > **Teams**, and select the default team in the **Local Business Owner** team view.
 6. Select **Manage Roles** and verify that the **dual-write app user** security privilege is applied to this team.
@@ -163,35 +165,10 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 
 1. In your LCS project, go to the **Environment details** page.
 2. Under **Common Data Service Environment Information**, select **Link to CDS for Apps.** After you select the link, you will be redirected to the list of entities in the mappings.
-3. Start the maps as described in the following table. Make sure to follow the sequence as listed.
 
-| **Entity Map** | **Refresh entity** | **Initial sync** | **Master for initial sync** | **Run prerequisites** | **Prerequisites initial sync** |
-| --- | --- | --- | --- | --- | --- |
-| **Project Resource Roles for All Companies (bookableresourcecategories)** | No | Yes | Common Data Service | No | N\A |
-| **Legal entities (cdm\_companies)** | No | Yes | Finance and Operations apps | No | N\A |
-| **Ledger (msdyn_ledgers)** | No | Yes | Finance and Operations apps | Yes | Yes, Finance and Operations apps |
-| **Project Operations integration actuals (msdyn\_actuals)** | No | No | N\A | Yes | No |
-| **Project contract lines (salesorderdetails)** | No | No | N\A | No | No |
-| **Integration entity for project transaction relationships (msdyn\_transactionconnections)** | No | No | N\A | No | N\A |
-| **Project Operations integration contract line milestones (msdyn\_contractlinesscheduleofvalues)** | No | No | N\A | No | N\A |
-| **Project Operations integration entity for expense estimates (msdyn\_estimateslines)** | No | No | N\A | No | N\A |
-| **Project Operations integration project expense categories export entity (msdyn\_expensecategories)** | No | No | N\A | No | N\A |
-| **Project Operations integration project expenses export entity (msdyn\_expenses)** | Yes | No | N\A | No | N\A |
-| **Project Operations integration entity for hour estimates (msdyn\_resourceassignments)** | Yes | No | N\A | No | N\A |
+3. Start the maps as described in [Project Operations dual-write map versions | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-dual-write-maps#project-operations-dual-write-maps)
 
-
-4. To refresh the entity, select the map name, and then select **Refresh entities**. 
-
-
-![Refresh Map.](./media/20RefreshMapping.png)
-
-5. After the refresh is complete, run the map. Before you enable the next map, verify that the map in the table is in a state of **Running**. Running maps with a larger number of prerequisites might take some time.
-
-To run a map with prerequisites, enable the **Show related entity maps** toggle. If the table indicates **Prerequisite initial sync** is **No**, verify that the **Initial sync** flag is **Off** in all the prerequisite maps before you run it.
-
-![Run Map.](./media/21RunMap.png)
-
-6. Validate all project related maps are in the running state.
+4. Validate all project related maps are in the running state.
 
 ![All Maps Running.](./media/22AllMapsRunning.png)
 
