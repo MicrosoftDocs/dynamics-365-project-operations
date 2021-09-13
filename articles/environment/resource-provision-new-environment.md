@@ -157,6 +157,7 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
       - **Ledger**
       - **Company**
       - **Currency Exchange Rate Type**
+      - **Expense**
 
 5. After the security role is updated, go to **Settings** > **Security** > **Teams**, and select the default team in the **Local Business Owner** team view.
 6. Select **Manage Roles** and verify that the **dual-write app user** security privilege is applied to this team.
