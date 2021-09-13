@@ -2,7 +2,7 @@
 title: Purchase non-stocked materials using a pending vendor invoice
 description: This topic explains how to record pending vendor invoices. 
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -40,4 +40,5 @@ Pending vendor invoices can be recorded on the **Pending vendor invoices** page 
     - The vendor balance amount.
     - The sales tax amount.
     - The cost against the project is recorded to the procurement integration account.
-    - The project actual transaction in Dataverse. This transaction is further processed using the [Project Operations Integration journal](../project-accounting/project-operations-integration-journal.md). Posting this journal moves the amount from the procurement integration account to the project cost account.
+    - The project actual cost transaction in Dataverse.  This transaction is further processed using the [Project Operations Integration journal](../project-accounting/project-operations-integration-journal.md). Posting this journal moves the amount from the procurement integration account to the project cost account. 
+    - Purchases that are billed to the project customer using the time and materials billing method. Additionally, unbilled sales transactions are created for the purchases in Dataverse. The product pricelist in Dataverse is used for the sales prices and amounts for unbilled sales transaction.
