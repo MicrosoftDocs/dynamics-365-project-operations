@@ -40,4 +40,5 @@ Pending vendor invoices can be recorded on the **Pending vendor invoices** page 
     - The vendor balance amount.
     - The sales tax amount.
     - The cost against the project is recorded to the procurement integration account.
-    - The project actual transaction in Dataverse. This transaction is further processed using the [Project Operations Integration journal](../project-accounting/project-operations-integration-journal.md). Posting this journal moves the amount from the procurement integration account to the project cost account.
+    - The project actual cost transaction in Dataverse.  This transaction is further processed using the [Project Operations Integration journal](../project-accounting/project-operations-integration-journal.md). Posting this journal moves the amount from the procurement integration account to the project cost account. 
+    - Purchases that will be billed to project customer using time and materials billing method will also get unbilled sales transaction created in Dataverse. System will use  Product pricelist in Dataverse for sales price/ amount for unbilled sales transaction.
