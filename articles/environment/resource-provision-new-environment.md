@@ -2,7 +2,7 @@
 title: Provision a new environment
 description: This topic provides information about how to provision a new Project Operations environment.
 author: sigitac
-ms.date: 12/11/2020
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -24,16 +24,16 @@ Use following steps to enable the Project Operations automated provisioning flow
 1. Go to [LCS](https://lcs.dynamics.com/v2) and select the **Preview Feature management** tile.
 2. In the **Preview feature** list, select **Project Operations Feature**, and then select **Preview feature enabled** to enable Project Operations.
 
-> [!NOTE]
-> This step is performed only one time per LCS project.
+   > [!NOTE]
+   > This step is performed only one time per LCS project.
 
 ## Provision a Project Operations environment
 
 1. Open a new Dynamics 365 Finance [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) or [sandbox/ production environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) deployment. 
 2. Walk through the **Environment provisioning** wizard. 
 
-> [!IMPORTANT]
-> Make sure selected application version is 10.0.13 or higher.
+   > [!IMPORTANT]
+   > Make sure selected application version is 10.0.13 or higher.
 
 3. To provision Project Operations, under **Advance settings**, select **Common Data Service**. 
 4. Enable the **Common Data Service Setting** by selecting **Yes** and then enter information in the required fields:
@@ -44,25 +44,23 @@ Use following steps to enable the Project Operations automated provisioning flow
   - Currency
  
 5. In the **Common Data Service Template** field, select **Project Operations** 
-
 6. Select the environment type for your deployment. A subscription-based trial will let you deploy a CDS environment for 30 days. 
 
-![Deployment Settings.](./media/1DeploymentSettings.png)
+     ![Deployment Settings.](./media/1DeploymentSettings.png)
 
-> [!IMPORTANT]
-> Select **Agree** to acknowledge the terms of service and then select **Done** to return to the deployment settings.
-
-![Deployment Consent.](./media/2DeploymentConsent.png)
+    > [!IMPORTANT]
+    > Select **Agree** to acknowledge the terms of service and then select **Done** to return to the deployment settings.
+    >
+    >![Deployment Consent.](./media/2DeploymentConsent.png)
 
 7. Optional - Apply demo data to the environment. Go to **Advanced settings**, select **Customize SQL Database Configuration**, and set **Specify a dataset for Application database** to **Demo**.
-
 8. Complete the remaining required fields in the wizard and confirm the deployment. The time to provision the environment varies based on the environment type. Provisioning might take up to six hours.
 
-  After the deployment completes successfully, the environment will show as **Deployed**.
+   After the deployment completes successfully, the environment will show as **Deployed**.
 
 9. To confirm that the environment has deployed successfully, select **Login** and log on to the environment to confirm.
 
-![Environment Details.](./media/3EnvironmentDetails.png)
+    ![Environment Details.](./media/3EnvironmentDetails.png)
 
 ## Apply updates to the Finance environment
 
@@ -72,35 +70,35 @@ You might need to apply quality updates to your Finance environment to receive t
 
 1. In LCS, on the **Environment details** page, in the **Available Updates** section, select **View Update**.
 
-![View Updates.](./media/5ViewUpdates.png)
+    ![View Updates.](./media/5ViewUpdates.png)
 
 2. On the **Binary updates** page, select **Save package.**
 
-![Save package.](./media/6SavePackage.png)
+    ![Save package.](./media/6SavePackage.png)
 
 3. Click **Select all** and then select **Save package**.
 
-![Review and save updates.](./media/7ReviewAndSaveUpdates.png)
+    ![Review and save updates.](./media/7ReviewAndSaveUpdates.png)
 
 4. Enter a name and a description of the package, and then select **Save**. Depending on the internet connection, this process might take some time.
 
-![Upload package to Assets Library.](./media/8UploadPackageToAssetsLibrary.png)
+    ![Upload package to Assets Library.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. After the package is saved, select **Done** and save this package to the Assets library in your LCS project.
 
-Saving and validating the package might take ~15 minutes.
+   Saving and validating the package might take ~15 minutes.
 
 6. To apply the update, navigate to the **Environment details** page in LCS and select **Maintain** > **Apply updates**.
 
-![Maintain Environments.](./media/9MaintainEnvironment.png)
+    ![Maintain Environments.](./media/9MaintainEnvironment.png)
 
 7. In the updates list select the package you created, and select **Apply**.
 
-![Apply Updates.](./media/10ApplyUpdates.png)
+    ![Apply Updates.](./media/10ApplyUpdates.png)
 
-Environment servicing will take some time. After it is complete, the environment will return to a deployed state.
+   Environment servicing will take some time. After it is complete, the environment will return to a deployed state.
 
-![Environment Deployed.](./media/11EnvironmentDeployed.png)
+    ![Environment Deployed.](./media/11EnvironmentDeployed.png)
 
 ## Establish a Dual Write connection 
 
@@ -108,48 +106,48 @@ Environment servicing will take some time. After it is complete, the environment
 2. Under **Common Data Service Environment Information**, select **Link to CDS for Apps**.
 3. After the link is complete, select **Link to CDS for Apps** again. You will be redirected to Dual Write in Finance.
 
-![Link to CDS.](./media/12LinktoCDS.png)
+    ![Link to CDS.](./media/12LinktoCDS.png)
 
 4. Select **Apply Solution** to access the entities that will be mapped in the integration.
 
-![Apply Solutions.](./media/13ApplySolutions.png)
+    ![Apply Solutions.](./media/13ApplySolutions.png)
 
 5. Select both solutions, **Dynamics 365 Finance and Operations Dual Write Entity Map** and **Dynamics 365 Project Operations Dual Write Entity Maps**, and then select **Apply**.
 
-![Confirm Solutions.](./media/14ConfirmSolutions.png)
+    ![Confirm Solutions.](./media/14ConfirmSolutions.png)
 
-After the solutions are applied, the Dual Write entities are applied to the environment.
+    After the solutions are applied, the Dual Write entities are applied to the environment.
 
-![Applying Solutions.](./media/15ApplyingSolutions.png)
+    ![Applying Solutions.](./media/15ApplyingSolutions.png)
 
-After the entities are applied, all available mappings are listed in the environment.
+    After the entities are applied, all available mappings are listed in the environment.
 
-![Dual Write Maps.](./media/15DWMappings.png)
+    ![Dual Write Maps.](./media/15DWMappings.png)
 
 ## Refresh the data entities after the update
 
 1. In Finance, go to the **Data management** workspace.
 
-![Data Management workspace.](./media/16DataManagement.png)
+    ![Data Management workspace.](./media/16DataManagement.png)
 
 2. Select the **Framework parameters** tile.
 
-![Framework Parameters.](./media/17FrameworkParameters.png)
+    ![Framework Parameters.](./media/17FrameworkParameters.png)
 
 3. On the **Entity settings** page, select **Refresh Entity list**.
 
-![Refresh Entity List.](./media/18RefreshEntityList.png)
+    ![Refresh Entity List.](./media/18RefreshEntityList.png)
 
 The refresh is going to take approximately 20 minutes. You will receive an alert when it is complete.
 
-![Refresh Confirmation.](./media/19RefreshConfirmation.png)
+  ![Refresh Confirmation.](./media/19RefreshConfirmation.png)
 
 ## Update security settings on Project Operations on Dataverse
 
 1. Go to Project Operations on your Dataverse environment. 
 2. Go to **Settings** > **Security** > **Security roles**. 
 3. On the **Security roles** page, in the list of roles, select **dual-write app user** and select the **Custom Entities** tab.  
-4. Verify that the role has **Read** and **Append To** permissions for the:
+4. Verify that the role has **Read** and **Append To** permissions for the following entities:
       
       - **Currency Exchange Rate Type**
       - **Chart Of Accounts**
@@ -166,12 +164,10 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 
 1. In your LCS project, go to the **Environment details** page.
 2. Under **Common Data Service Environment Information**, select **Link to CDS for Apps.** After you select the link, you will be redirected to the list of entities in the mappings.
-
-3. Start the maps as described in [Project Operations dual-write map versions | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-dual-write-maps#project-operations-dual-write-maps)
-
+3. Start the maps. For more information, see [Project Operations dual-write map versions](resource-dual-write-maps#project-operations-dual-write-maps)
 4. Validate all project related maps are in the running state.
 
-![All Maps Running.](./media/22AllMapsRunning.png)
+    ![All Maps Running.](./media/22AllMapsRunning.png)
 
 
 ## Apply configuration data in CDS for Project Operations (optional)
