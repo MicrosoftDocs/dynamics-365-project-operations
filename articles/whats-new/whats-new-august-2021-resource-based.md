@@ -26,7 +26,7 @@ The following features are included in this release:
 
 ## Project Operations dual-write maps updates
 
-There are no updates to Project Operations Dual Write maps in this release. 
+There are no updates for Project Operations dual-write maps in this release.
 
 For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
