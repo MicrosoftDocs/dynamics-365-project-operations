@@ -35,8 +35,8 @@ If you encounter an issue starting the map, follow instructions in the [Missing 
 | Time and expense | 1811407 | Adjusted the Project Approver security role for expense entry approvals. |
 | Time and expense | 1811438 | Adjusted the Project Approver security role for time entry approval cancellation. |
 | Time and expense | 2370126 | Updated the **Project Task** and **Role** icons in **Time Entry** entity. |
-| Billing and Pricing | 2371906 | Proforma invoice total amount must not be adjustable in Project Operations for resource-based deployments. |
 | Time and expense | 2379879 | Corrected the **Copy Week** function in time entry when using Dynamics 365 for phone. |
+| Billing and Pricing | 2371906 | Proforma invoice total amount must not be adjustable in Project Operations for resource-based deployments. |
 | Billing and Pricing | 2385802 | Fixed the error that occurs with negative actual hours when project totals are refreshed. |
 | Billing and Pricing | 2389675 | Improved proforma invoice confirmation behavior. Long running jobs entity must take into account the activity required to write confirmation results for accounting. |
 
