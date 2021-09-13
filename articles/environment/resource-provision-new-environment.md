@@ -164,7 +164,7 @@ The refresh is going to take approximately 20 minutes. You will receive an alert
 
 1. In your LCS project, go to the **Environment details** page.
 2. Under **Common Data Service Environment Information**, select **Link to CDS for Apps.** After you select the link, you will be redirected to the list of entities in the mappings.
-3. Start the maps. For more information, see [Project Operations dual-write map versions](resource-dual-write-maps#project-operations-dual-write-maps)
+3. Start the maps. For more information, see [Project Operations dual-write map versions](resource-dual-write-maps.md#project-operations-dual-write-maps)
 4. Validate all project related maps are in the running state.
 
     ![All Maps Running.](./media/22AllMapsRunning.png)
