@@ -26,7 +26,7 @@ To create a subcontract, complete the following steps.
     The following table provides information about the fields on the **Subcontract header** page.
 
     | Field | Description |Functional Impact |
-    |---|---|---| 
+    |---|------|---| 
     | Name | The name of the subcontract. | In all subcontract drop-down lists, the name of the subcontract is listed in the first column to help you identify the subcontract. | 
     | Description | A brief description of services and products that are being purchased on the subcontract. | None |
     | Vendor | The name of the company that the products and services are being purchased from. This account record has a relationship type of **Vendor** or **Supplier**. | Based on the vendor that is selected, default values are automatically entered for the following fields:<br/> **• Currency** </br> **• Price Lists** </br> **• Payment Terms**</br> **• Payment Address**</br> **• Bill To Address**</br> **• Bill To Name** </br>**• Vendor Account Manager**|
