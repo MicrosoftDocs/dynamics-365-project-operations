@@ -23,8 +23,8 @@ Dynamics 365 Project Operations consists of two components:
 - Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The Finance and Operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
 
 ## Project Operations release notes
-- Project Operations latest release notes for [Resource/non-stocked](whats-new-august-2021-resource-based.md) scenario.
-- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-august-2021-lite.md) scenario.
+- Project Operations latest release notes for [Resource/non-stocked](whats-new-sept-2021-resource-based.md) scenario.
+- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-sept-2021-lite.md) scenario.
 - Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) scenario.
 
 ## Project Operations latest version
@@ -44,19 +44,19 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | First Release         |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.14.0.99      | Complete           | September 17, 2021  | TBD                 | October 01, 2021    |
-|    &nbsp; | Canada                |  4.14.0.99      | Complete           | September 17, 2021  | TBD                 | October 01, 2021    |
-|   &nbsp;  | India                 |  4.14.0.99      | Complete           | September 17, 2021  | TBD                 | October 01, 2021    |
-|   &nbsp;  | France                |  4.14.0.99      | Complete           | September 17, 2021  | TBD                 | October 01, 2021    |
-|   &nbsp;  | United Arab Emirates  |  4.14.0.99      | Complete           | September 17, 2021  | TBD                 | October 01, 2021    |
-|   &nbsp;  | South Africa          |  4.14.0.99      | Complete           | September 17, 2021  | TBD                 | October 01, 2021    |
+|   &nbsp;  | South America         |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
+|    &nbsp; | Canada                |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
+|   &nbsp;  | India                 |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
+|   &nbsp;  | France                |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
+|   &nbsp;  | United Arab Emirates  |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
+|   &nbsp;  | South Africa          |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.14.0.99      | September 17, 2021 | September 24, 2021  | TBD                 | October 08, 2021    |
-|   &nbsp;  | Asia Pacific          |  4.14.0.99      | September 17, 2021 | September 24, 2021  | TBD                 | October 08, 2021    |
-|   &nbsp;  | Great Britain         |  4.14.0.99      | September 17, 2021 | September 24, 2021  | TBD                 | October 08, 2021    |
-|   &nbsp;  | Oceania               |  4.14.0.99      | September 17, 2021 | September 24, 2021  | TBD                 | October 08, 2021    |
+|   &nbsp;  | Japan                 |  4.14.0.99      | Complete           | September 24, 2021  | TBD                 | October 08, 2021    |
+|   &nbsp;  | Asia Pacific          |  4.14.0.99      | Complete           | September 24, 2021  | TBD                 | October 08, 2021    |
+|   &nbsp;  | Great Britain         |  4.14.0.99      | Complete           | September 24, 2021  | TBD                 | October 08, 2021    |
+|   &nbsp;  | Oceania               |  4.14.0.99      | Complete           | September 24, 2021  | TBD                 | October 08, 2021    |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.13.0.152     | Complete           | Complete            | 4.14.0.99           | September 17, 2021  |
+|   &nbsp;  | Europe                |  4.14.0.99      | September 24, 2021 | October 01, 2021    | TBD                 | October 15, 2021    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | North America         |  4.13.0.152     | Complete           | Complete            | 4.14.0.99           | September 24, 2021  |
 
@@ -65,18 +65,16 @@ Updates for Project Operations on Dataverse environment are available monthly.
 
 Updates for Project management and accounting are released eight times a year.
 
-|          Supported Version          | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
-|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.20          |         May 28, 2021        |           July 16, 2021           |                             July 30, 2021                             |  October 22, 2021  |
-|          10.0.19          |        April 23, 2021       |            June 18, 2021           |                             July 2, 2021                             | September 17, 2021 |
-
-
+|Supported Version| Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|    10.0.21      |         August 02, 2021     |           September 17, 2021      |                             October 1, 2021                          |  December 10, 2021 |
+|    10.0.20      |         May 28, 2021        |           July 16, 2021           |                             July 30, 2021                            |  October 22, 2021  |
 
 Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|          Targeted Version          | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
-|:-------------------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|          10.0.21          |         August 02, 2021     |           September 17, 2021      |                             October 1, 2021                           |  December 10, 2021  |
-|          10.0.22          |      September 3, 2021      |          October 22, 2021         |                           November 5, 2021                           |  January 14, 2022  |
+|Targeted Version | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
+|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      September 3, 2021      |          October 22, 2021         |                           November 5, 2021                           |  January 14, 2022  |
+|     10.0.23     |      October 15, 2021       |        December 10, 2021          |                          December 31, 2021                           | March 18, 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
