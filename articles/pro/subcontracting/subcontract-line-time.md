@@ -25,7 +25,7 @@ To create a subcontract line for time in Project Operations, complete the follow
 
   The following table provides information about the fields on the **Subcontract line** page and the **Quick Create** page.
 
-| **Field** | **Description** | **Downstream impact** |
+| **Field** | **Description** | **Functional impact** |
 | --- | --- | --- |
 | Name | Name of the subcontract line to help with identification | This will be shown as the first column in all look ups based on Subcontract lines |
 | Description | Description of services that are being ordered/purchased on the Subcontract line |None |
