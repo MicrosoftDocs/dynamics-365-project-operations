@@ -26,21 +26,21 @@ The following table provides information about the fields on the **Subcontract l
 
 | **Field** | **Description** | **Functional impact** |
 | --- | --- | --- |
-| Name | Name of the subcontract line to help with identification | This will be shown as the first column in all look ups based on Subcontract lines |
+| Name | Name of the subcontract line to help with identification. | This will be shown as the first column in all lookups based on subcontract lines. |
 | Description | A brief description of the expense categories that are being purchased on the subcontract line. | None |
 |Line Type | This field has a default value of  **Quantity-based**. |None |
-| Billing Method | This is an option set that represents the two main contracting models supported by Project Operations:</br> -  **Fixed Price**</br> -  **Time and Material** | A milestone – based invoice schedule is made available for Subcontract lines where Billing method selected is Fixed Price. |
-| Transaction Class | This field has a default value of  **Time**. To create subcontract lines for purchasing products, set the  **Transaction Class**  field to  **Expense**.  | This indicates that the subcontract line is being used to record the purchase of a category of expenses to be used on projects |
-| Transaction Category | Shows a dropdown list of active transaction categories in the system. |None |
-| Requested Start | Date when the categories of purchase must be available from the vendor | Requested start is used to pick a project price list from the project price lists attached to the subcontract. Cost of the category on the subcontract line is defaulted from that price list. |
-| Requested end | Date when the categories of purchase would no longer be needed | This will be used to show warnings when a project manager is associating this subcontract line to specific expense estimates on the project that are required after this date. |
-| Quantity Ordered | Quantity of the category being purchased from the vendor | When a project manager over-draws from this quantity, a warning will be shown. |
-| Unit Group | This field value defaults based on the default unit group that is set up for the selected category. |None |
-| Unit | This field value defaults based on the default unit set up for the selected category.  | The combination of Category and Unit will be used to default the unit price on the Subcontract line. |
-| Unit Price | The unit price field value defaults from the combination of the category and unit from the category prices related to the project price list which is applicable for the requested start of the subcontract line. |None |
-| Subtotal | This read-only field is automatically calculated as the quantity X unit price if both the quantity and unit price values are entered. If either or both fields are empty, you can manually enter a value in this field. |None |
+| Billing Method | This is an option set that represents the two main contracting models supported by Project Operations: **Fixed Price** and **Time and Material**. | A milestone–based invoice schedule is made available for subcontract lines if the Fixed Price billing method selected. |
+| Transaction Class | This field has a default value of  **Time**. To create subcontract lines for purchasing products, set the  **Transaction Class**  field to  **Expense**.  | This indicates that the subcontract line is being used to record the purchase of a category of expenses to be used on projects. |
+| Transaction Category | Shows a list of active transaction categories in the system. |None |
+| Requested Start | Enter the date when the categories of purchase must be available from the vendor. | Requested start is used to pick a project price list from the project price lists attached to the subcontract. The cost of the category on the subcontract line comes from that price list. |
+| Requested End | Enter the date when the categories of purchase would no longer be needed. | This will be used to show warnings when a project manager is associating this subcontract line to specific expense estimates on the project that are required after this date. |
+| Quantity Ordered | Quantity of the category being purchased from the vendor. | This will be used to show warnings when a project manager is over-drawing from this quantity.|
+| Unit Group | The default value is based on the default unit group that is set up for the selected category. |None |
+| Unit | The default is based on the default unit set up for the selected category.  | The combination of **Category** and **Unit** will be used as the default or computed for the unit price for the subcontract line.  |
+| Unit Price | The default value uses the combination of the **Category** and **Unit** from the category prices related to the project price list, which is applicable for the requested start of the subcontract line. |None |
+| Subtotal | This is a read-only field  that is calculated as Quantity X Unit price, if both the quantity and unit price values are entered. If either or both fields are blank, you can enter a value in this field. |None |
 | Sales Tax | Enter the sales tax amount. |None |
-| Total Amount | The total amount of the subcontract line including taxes. This field is calculated as subtotal + sales tax. |None |
+| Total Amount | The total amount of the subcontract line including taxes. This field is calculated as Subtotal + Sales tax. |None |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
