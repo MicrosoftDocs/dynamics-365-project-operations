@@ -25,23 +25,22 @@ To create a subcontract line for time in Project Operations, complete the follow
 
   The following table provides information about the fields on the **Subcontract line** page and the **Quick Create** page.
 
-| **Field** | **Description** |
-| --- | --- |
-| Name | The name of the subcontract line. |
-| Description | A brief description of services that are being purchased on the subcontract line. | 
-| Line Type | This field is a default value.  |
-| Billing Method | Select the billing method. Based on the billing method of the referenced subcontract line, a milestone-based invoice schedule is made available for the Fixed Price billing method. |
-| Transaction Class | This field is a default value that indicates if the subcontract line is being used to record a purchase of subcontractor time. |
-| Role | The role of the subcontract resources whose time is being purchased. The role assigned to the subcontract resources determines the cost of the purchase. |
-| Requested Start | The date when the subcontractor resources are required to start working. The requested start is used to pick a project price list from the project price lists attached to the subcontract. The cost of the role on the subcontract line then defaults from that price list. |
-| Requested end | The date when the subcontractor resources' assignment ends. This date is used to show warnings when a Project Manager is drawing from this capacity for resource requirements occurring after this date. |
-| Quantity Ordered | The number of Role hours being purchased from the vendor. This value is used to show warnings when a Project Manager is over-drawing from this capacity for resource requirements. |
-| Unit Group | This field value defaults to the Time unit group and can't be changed.  |
-| Unit | This field defaults to the base unit of hours from the Time unit group. You can change this value to buy any unit of the Time unit group, such as day or week. The combination of Role and Unit is used to calculate the unit price for the subcontract line. |
-| Unit Price | The unit price defaults from the combination of Role and Unit from the project price list that is applicable for the requested start date of the subcontract line. When the applicable project price list has the price set up in a different unit than the unit on the subcontract line, the system uses the unit conversion to calculate the per unit price. |
-| Subtotal | This is a read-only field that is automatically calculated as **Quantity x Unit price** if both the quantity and unit price values are entered. If either quantity, unit price, or both are blank, you can enter a value in the field. |
-| Sales Tax |  Enter the sales tax amount. |
-| Total Amount | The total amount of the subcontract line after taxes are included. |
-
+| **Field** | **Description** | **Functional impact** |
+| --- | --- | --- |
+| Name | Name of the subcontract line to help with identification. | This will be shown as the first column in all lookups based on subcontract lines. |
+| Description | A brief description of services that are being purchased on the subcontract line. |None |
+| Line Type | 	This field has a default value of **Quantity-based**.| None |
+| Billing Method | This is an option set that represents the two main contracting models supported by Project Operations: **Fixed Price** and **Time and Material**. | Based on the billing method selected, a milestone-based invoice schedule is made available for subcontract lines with the Fixed Price billing method. |
+| Transaction Class | The default value is **Time**. | This indicates that the subcontract line is being used to record a purchase of subcontractor time. |
+| Role | Select the role of the subcontract resources whose time is being purchased. | Role performed by the subcontract resources determines the cost of the purchase. |
+| Requested Start | Enter the date when the subcontractor resources are required to start working. | This is used to pick a project price list from the project price lists attached to the subcontract. The cost of the role on the subcontract line comes from that price list. |
+| Requested End | Enter the date when the subcontractor resource's assignment ends. | This will be used to show warnings when a project manager is drawing from the capacity for resource requirements occurring after this date. |
+| Quantity Ordered | Enter the number of hours of the role being purchased from the vendor. | This will be used to show warnings when a project manager is over-drawing from this capacity for resource requirements. |
+| Unit Group | The default value is **Time unit group**, which can't be changed. | None|
+| Unit | The default for this field is the base unit of hours from the **Time unit group**. You can change this value to buy any unit of the **Time unit group**, such as day or week. | The combination of **Role** and **Unit** will be used as the default or computed for the unit price for the subcontract line. |
+| Unit Price | The default unit price uses the combination of **Role** and **Unit** from the project price list applicable for the **Requested Start** date of the subcontract line. | When the applicable project price list has the price set up in a different unit than the unit on the subcontract line, the system uses the unit conversion to calculate the per unit price. |
+| Subtotal | 	This is a read-only field that is calculated as Quantity x Unit price, if both the quantity and unit price values are entered. If either quantity, unit price, or both are blank, you can enter a value in the field. | None|
+| Sales Tax | 	Enter the sales tax amount. |None |
+| Total Amount | The total amount of the subcontract line including taxes. This field is calculated as Subtotal + Sales tax.|None |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
