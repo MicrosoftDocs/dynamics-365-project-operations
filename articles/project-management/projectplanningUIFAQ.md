@@ -85,9 +85,7 @@ the following:
 2.  Identify the product type that you are using. This value is used when the
     PEX Endpoint is set. Upon retrieval, the product type is already defined in
     the PEX Endpoint. Keep that value.
-
-3.  Update the field with the following value:
-    > 'https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2'
+3. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
 
 | **Product type**                     | **Type parameter** |
 |--------------------------------------|--------------------|
