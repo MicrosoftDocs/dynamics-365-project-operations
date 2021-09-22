@@ -119,7 +119,14 @@ Alternatively, do the following:
 -   Toggle** Pop-ups** and redirects off for blocking** pop-ups,** or toggle on
     to** allow pop-ups** on your device.
 
+**Google Chrome**
+- On your computer, open Chrome.
+- Go to a page where pop-ups are blocked.
+- In the address bar, click Pop-up blocked Pop-up blocked.
+- Click the link for the pop-up you want to see.
 
+> To always see pop-ups for the site, select Always allow pop-ups and redirects from [site] and then Done.
+> 
 Issue \#3 – Administration of Privileges for Project for the Web
 ----------------------------------------------------------------
 
