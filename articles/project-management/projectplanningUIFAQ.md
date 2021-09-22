@@ -30,8 +30,10 @@ Common issues can be grouped as follows:
 
 2.  When opening the project, the project does not load the UI is stuck on the
     spinner.
+    
+3.  Administration of the Project Application User.
 
-3.  When attempting to create, update or delete a task, changes are not saved.
+4.  When attempting to create, update or delete a task, changes are not saved.
 
 Issue \#1 – The task tab is completely blank
 --------------------------------------------
