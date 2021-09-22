@@ -14,11 +14,11 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project for the web_
 
-The task grid leveraged by Dynamics 365 Project Operations is a hosted iframe within Microsoft Dataverse. As a result of this use, specific requirements must be met to ensure authentication and authorization are functioning correctly. This topic outlines the common issues that can impact the ability to render the grid or manage tasks in the work breakdown structure (WBS).
+The Task grid leveraged by Dynamics 365 Project Operations is a hosted iframe within Microsoft Dataverse. As a result of this use, specific requirements must be met to ensure authentication and authorization are functioning correctly. This topic outlines the common issues that can impact the ability to render the grid or manage tasks in the work breakdown structure (WBS).
 
 Common issues include:
 
-- The **Task** tab on the task grid is empty.
+- The **Task** tab on the Task grid is empty.
 - When opening the project, the project doesn't load and the user interface (UI) is stuck on the spinner.
 - Administration of privileges for **Project for the Web**.
 - Changes aren't saved when you create, update, or delete a task.
@@ -68,7 +68,7 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
-For the purposes of authentication, pop-ups must be enabled for the task grid to load. If pop-ups aren't enabled, the screen will be stuck on the loading spinner. The following graphic shows the URL with a blocked pop-up label in the address bar which is resulting in the spinner getting stuck trying to load the page. 
+For the purposes of authentication, pop-ups must be enabled for the Task grid to load. If pop-ups aren't enabled, the screen will be stuck on the loading spinner. The following graphic shows the URL with a blocked pop-up label in the address bar which is resulting in the spinner getting stuck trying to load the page. 
 
    ![Application user details.](media/popupsblocked.png)
 
