@@ -98,7 +98,7 @@ the following:
 Issue \#2 - The project does not load the UI is stuck on the spinner
 --------------------------------------------------------------------
 
-![Graphical user interface, website Description automatically generated](media/1857433745031ff62c83294272dca526.png)
+![Application user details.](media/popupsblocked.png)
 
 ### Mitigation \#1 - Enable Popups
 
@@ -109,8 +109,8 @@ When your project is stuck on the spinner it is possible popups are enabled.
 To enable popups either select the notification in the top right of the browser
 and select “allow popups and redirects…..” from the specific dataverse
 environment.
-
-![Graphical user interface, text, application, chat or text message Description automatically generated](media/086153b424d72919df1baae29ec875c6.png)
+    
+ ![Application reader.](media/enablepopups.png)
 
 Alternatively, do the following:
 
@@ -147,27 +147,21 @@ access.
 
    ![Application user details.](media/applicationuserdetails.jpg)
 
-4. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.
-5. Verify that the user can open project.microsoft.com.
-6. Verify through the project parameters that the system is pointing to the correct project endpoint.
-7. Verify that the project application user is created.
-8. Apply the following security roles to the user:
 
-  - Dataverse User
-  - Project Operations System
-  - Project System
-
-## Error when updating the work breakdown structure
+Issue \#4 – Error when updating the work breakdown structure
+---------------------------------------------------------------- 
 
 When one or more updates are made to the work breakdown structure, the changes eventually fail and aren't saved. An error occurs in the schedule grid noting that “Recent change you’ve made couldn’t be saved.”
 
-### Workaround
+### Mitigation \#1 - Validate license assignment
 
-1. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.
+1. Verify that the user has been assigned the correct license and that the service is enabled in the service plans details of the license.  
 2. Verify that the user can open project.microsoft.com.
-3. Verify that the system is pointing to the correct project endpoint,.
-4. Verify that the Project Application user has been created.
-5. Apply the following security roles to the user:
+    
+    
+### Mitigation \#2 - Validation configuration of the Project Application User
+1. Verify that the Project Application user has been created.
+2. Apply the following security roles to the user:
   
   - Dataverse user or Base user
   - Project Operations System
