@@ -37,6 +37,7 @@ For Microsoft Edge or Google Chrome browsers, the following procedures outline h
 2. In the upper-right corner, select the **ellipsis** (...), and then select **Settings**.
 3. Under **Cookies and site permissions**, select **Cookies and site data**.
 4. Turn off **Block third-party cookies**.
+5. Refresh your browser. 
 
 #### Google Chrome
 
@@ -44,6 +45,7 @@ For Microsoft Edge or Google Chrome browsers, the following procedures outline h
 2. In the upper-right corner, select the three vertical dots, and then select **Settings**.
 3. Under **Privacy and security**, select **Cookies and other site data**.
 4. Select **Allow all cookies**.
+5. Refresh your browser. 
 
 > [!NOTE]
 > If you block third-party cookies, all cookies and site data from other sites will be blocked, even if the site is allowed on your exceptions list.
@@ -66,6 +68,10 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
+For the purposes of authentication, pop-ups must be enabled for the task grid to load. If pop-ups aren't enabled, the screen will be stuck on the loading spinner. The following graphic shows the URL with a blocked pop-up label in the address bar which is resulting in the spinner getting stuck trying to load the page. 
+
+   ![Application user details.](media/popupsblocked.png)
+
 ### Mitigation 1: Enable pop-ups
 
 When your project is stuck on the spinner, it's possible that pop-ups aren't enabled.
@@ -84,12 +90,14 @@ Alternatively, you can complete the following steps.
 1. Open your Edge browser.
 2. In the upper-right corner, select the **ellipsis** (...), and then select **Settings** > **Site permissions** > **Pop-ups and redirects**.
 3. Toggle **Pop-ups and redirects** off for blocking pop-ups, or toggle on to allow pop-ups on your device.
+4. After you enable pop-ups, refresh your browser. 
 
 #### Google Chrome
 1. Open your Chrome browser.
 2. Navigate to a page where pop-ups are blocked.
 3. In the address bar, select **Pop-up blocked**.
 4. Select the link for the pop-up you want to see.
+5. After you enable pop-ups, refresh your browser. 
 
 > [!NOTE]
 > To always see pop-ups for the site, select **Always allow pop-ups and redirects from [site]** and then select **Done**.
