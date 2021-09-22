@@ -14,7 +14,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project for the web_
 
-The task grid leveraged by Dynamics 365 Project Operations is a hosted iframe within Microsoft Dataverse. As a result of this leverage, specific requirements must be met to ensure authentication and authorization are functioning correctly. This topic outlines the common issues that can impact the ability to render the grid or manage tasks in the work breakdown structure (WBS).
+The task grid leveraged by Dynamics 365 Project Operations is a hosted iframe within Microsoft Dataverse. As a result of this use, specific requirements must be met to ensure authentication and authorization are functioning correctly. This topic outlines the common issues that can impact the ability to render the grid or manage tasks in the work breakdown structure (WBS).
 
 Common issues include:
 
@@ -27,7 +27,7 @@ Common issues include:
 
 ### Mitigation 1: Enable Cookies
 
-Project Operations requires that third-party cookies be enabled in order to render the work breakdown structure. When third-party cookies aren't enabled, instead of seeing tasks, you will see a blank page when you select the **Tasks** tab on the **Project** page.
+Project Operations requires that third-party cookies be enabled to render the work breakdown structure. When third-party cookies aren't enabled, instead of seeing tasks, you will see a blank page when you select the **Tasks** tab on the **Project** page.
 
 For Microsoft Edge or Google Chrome browsers, the following procedures outline how to update your browser setting to enable third-party cookies.
 
@@ -50,10 +50,10 @@ For Microsoft Edge or Google Chrome browsers, the following procedures outline h
 
 ### Mitigation 2: Validate the PEX Endpoint has been correctly configured
 
-Project Operations requires that a project parameter reference the PEX Endpoint. This endpoint is required to communicate with the service that's used to render the work breakdown structure. If the parameter isn't enabled, you will receive the error, *The project parameter is not valid*. To update the PEX Endpoint complete the following steps.
+Project Operations requires that a project parameter reference the PEX Endpoint. This endpoint is required to communicate with the service that's used to render the work breakdown structure. If the parameter isn't enabled, you will receive the error, *The project parameter is not valid*. To update the PEX Endpoint, complete the following steps.
 
 1. Add the **PEX Endpoint** field to the **Project Parameters** page.
-2. Identify the product type that you are using. This value is used when the PEX Endpoint is set. Upon retrieval, the product type is already defined inthe PEX Endpoint. Keep that value.
+2. Identify the product type that you are using. This value is used when the PEX Endpoint is set. Upon retrieval, the product type is already defined in the PEX Endpoint. Keep that value.
 3. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. The following table provides the type parameter that should be used based on the product type.
 
       | **Product type**                     | **Type parameter** |
@@ -72,12 +72,12 @@ When your project is stuck on the spinner, it's possible popups aren't enabled.
 
 #### Microsoft Edge
 
-There are two ways to enable pop-ups in your Edge browswer.
+There are two ways to enable pop-ups in your Edge browser.
 
-1. In your Edge browswer, select the notification in the top right of the browser.
+1. In your Edge browser, select the notification in the top right of the browser.
 2. Select **Always allow popups and redirects from** the specific Dataverse environment.
  
-     ![Application reader.](media/enablepopups.png)
+     ![Pop ups blocked window.](media/enablepopups.png)
 
 Alternatively, you can complete the following steps.
 
@@ -96,9 +96,9 @@ Alternatively, you can complete the following steps.
 
 ## Issue 3: Administration of privileges for Project for the Web
 
-Project Operations relies on an external scheduling service. The service requires that a user have several roles assigned that allows them to read and write to entities related to the WBS. These entities include project tasks, resource assignments, and task dependencies. If a user can't render theWBS when they navigate to the **Tasks** tab, it is probably because **Project** for **Project Operations** has not been enabled. A user might receive either a security role error, or an error related to a denial of access.
+Project Operations relies on an external scheduling service. The service requires a user have several roles assigned that allows them to read and write to entities related to the WBS. These entities include project tasks, resource assignments, and task dependencies. If a user can't render theWBS when they navigate to the **Tasks** tab, it is probably because **Project** for **Project Operations** has not been enabled. A user might receive either a security role error, or an error related to a denial of access.
 
-### Mitigation 1: Validate the Application User and End User security roles
+### Mitigation 1: Validate the Application User and End-User security roles
 
 1. Go to **Setting** > **Security** > **Users** > **Application Users**.  
 
