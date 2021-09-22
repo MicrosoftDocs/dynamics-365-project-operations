@@ -70,7 +70,7 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 For the purposes of authentication, pop-ups must be enabled for the Task grid to load. If pop-ups aren't enabled, the screen will be stuck on the loading spinner. The following graphic shows the URL with a blocked pop-up label in the address bar which is resulting in the spinner getting stuck trying to load the page. 
 
-   ![Application user details.](media/popupsblocked.png)
+   ![Stuck spinner and pop-up block.](media/popupsblocked.png)
 
 ### Mitigation 1: Enable pop-ups
 
