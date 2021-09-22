@@ -19,13 +19,13 @@ The task grid leveraged by Dynamics 365 Project Operations is a hosted iframe wi
 Common issues include:
 
 - The **Task** tab on the task grid is empty.
-- When opening the project, the project doesn't load and the UI is stuck on the spinner.
+- When opening the project, the project doesn't load and the user interface (UI) is stuck on the spinner.
 - Administration of privileges for **Project for the Web**.
 - Changes aren't saved when you create, update, or delete a task.
 
 ## Issue: The Task tab is empty
 
-### Mitigation 1: Enable Cookies
+### Mitigation 1: Enable cookies
 
 Project Operations requires that third-party cookies be enabled to render the work breakdown structure. When third-party cookies aren't enabled, instead of seeing tasks, you will see a blank page when you select the **Tasks** tab on the **Project** page.
 
@@ -50,7 +50,7 @@ For Microsoft Edge or Google Chrome browsers, the following procedures outline h
 
 ### Mitigation 2: Validate the PEX Endpoint has been correctly configured
 
-Project Operations requires that a project parameter reference the PEX Endpoint. This endpoint is required to communicate with the service that's used to render the work breakdown structure. If the parameter isn't enabled, you will receive the error, *The project parameter is not valid*. To update the PEX Endpoint, complete the following steps.
+Project Operations requires that a project parameter reference the PEX Endpoint. This endpoint is required to communicate with the service that's used to render the work breakdown structure. If the parameter isn't enabled, you will receive the error, "The project parameter is not valid". To update the PEX Endpoint, complete the following steps.
 
 1. Add the **PEX Endpoint** field to the **Project Parameters** page.
 2. Identify the product type that you are using. This value is used when the PEX Endpoint is set. Upon retrieval, the product type is already defined in the PEX Endpoint. Keep that value.
@@ -66,18 +66,18 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
-### Mitigation 1: Enable Popups
+### Mitigation 1: Enable pop-ups
 
-When your project is stuck on the spinner, it's possible popups aren't enabled.
+When your project is stuck on the spinner, it's possible that pop-ups aren't enabled.
 
 #### Microsoft Edge
 
 There are two ways to enable pop-ups in your Edge browser.
 
-1. In your Edge browser, select the notification in the top right of the browser.
+1. In your Edge browser, select the notification in the upper-right of the browser.
 2. Select **Always allow popups and redirects from** the specific Dataverse environment.
  
-     ![Pop ups blocked window.](media/enablepopups.png)
+     ![Pop-ups blocked window.](media/enablepopups.png)
 
 Alternatively, you can complete the following steps.
 
@@ -96,9 +96,9 @@ Alternatively, you can complete the following steps.
 
 ## Issue 3: Administration of privileges for Project for the Web
 
-Project Operations relies on an external scheduling service. The service requires a user have several roles assigned that allows them to read and write to entities related to the WBS. These entities include project tasks, resource assignments, and task dependencies. If a user can't render theWBS when they navigate to the **Tasks** tab, it is probably because **Project** for **Project Operations** has not been enabled. A user might receive either a security role error, or an error related to a denial of access.
+Project Operations relies on an external scheduling service. The service requires a user have several roles assigned that allows them to read and write to entities related to the WBS. These entities include project tasks, resource assignments, and task dependencies. If a user can't render the WBS when they navigate to the **Tasks** tab, it is probably because **Project** for **Project Operations** has not been enabled. A user might receive either a security role error, or an error related to a denial of access.
 
-### Mitigation 1: Validate the Application User and End-User security roles
+### Mitigation 1: Validate the application user and end-user security roles
 
 1. Go to **Setting** > **Security** > **Users** > **Application Users**.  
 
@@ -117,7 +117,7 @@ Project Operations relies on an external scheduling service. The service require
 
 ## Issue 4: Changes aren't saved when you create, update, or delete a task
 
-When you make one or more updates to the WBS, the changes fail and aren't saved. An error occurs in the schedule grid with a message that says, **Recent change you’ve made couldn’t be saved**.
+When you make one or more updates to the WBS, the changes fail and aren't saved. An error occurs in the schedule grid with a message that says, "Recent change you’ve made couldn’t be saved".
 
 ### Mitigation 1: Validate the license assignment
 
