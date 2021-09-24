@@ -34,7 +34,7 @@ The following table provides information about the fields on the **Subcontract l
 | Transaction Class |This field has a default value of  **Time**. To create subcontract lines for purchasing products, set the  **Transaction Class**  field to  **Material**.  | This indicates that the subcontract line is being used to record the purchase of products to be used on projects. |
 | Select Product | Select if the product being purchased is maintained in the product catalog or is a write-in  product. |None |
 | Product | Select an active product from the catalog. This field is available only when **Select Product** is set to **Existing**. |The combination of **Product** and **Unit** will be used as the default or computed for the unit price for the subcontract line.
-| Write-In Product | Enter the name of the write-in product. This field is available only when **Select Product** is set to **Write-in**.  |Purchase price will not be automatically filled for Write In products|
+| Write-In Product | Enter the name of the write-in product. This field is available only when **Select Product** is set to **Write-in**.  |Purchase price will not be automatically filled for Write-in products|
 | Requested Delivery Date | Select the required delivery date for the products.| This date is also used to pick a project price list from the project price lists attached to the subcontract. The cost of the product on the subcontract line then defaults from that price list. |
 | Contracted delivery date | Select the date when the products are contractually agreed to be delivered.  |None|
 | Quantity Ordered | Enter the quantity of the product being purchased from the vendor.| This will be used to show warnings when a project manager is over-drawing from this quantity.|
