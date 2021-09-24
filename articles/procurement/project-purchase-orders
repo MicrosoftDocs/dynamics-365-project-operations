@@ -1,0 +1,44 @@
+---
+title: Order non-stocked materials for project using Project Purchase Orders
+description: This topic explains how procurement department can order non-stocked materials for project using Project Purchase Orders.
+author: sigitac
+ms.date: 09/24/2021
+ms.topic: article
+ms.prod:
+ms.reviewer: kfend 
+ms.author: sigitac
+---
+
+# Order non-stocked materials for project using Project Purchase Orders
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+
+Procurement department might use [Purchase orders](https://docs.microsoft.com/en-us/dynamics365/supply-chain/procurement/purchase-order-overview) to track goods and services orders. Non-stock materials Purchase Orders can be attributed to a project. Invoicing such purchase order will record the cost against the project.
+
+> [!Important]
+> Complete the following steps to enable Project Purchase Orders functionality:
+>
+> 1. Enable required feature key:
+>   a. In Finance, go to the  **Feature Management**  workspace.
+>   b. In the feature list, find  **Enable project purchase orders on Project Operations for resource based/non-stocked scenarios** feature and select  **Enable**.
+> 2. Configure non-stocked materials and pending vendor invoices as described in [Configure non-stocked materials and pending vendor invoices | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/procurement/configure-materials-nonstocked)
+
+## Create a project purchase order from the project purchase order list
+
+1. In Finance go to **Project management and accounting**  >  **Projects > All Projects** and select a project.
+2. On the  **Action Pane** , on the  **Manage**  tab, in the  **New**  group, click  **Item task \&gt; Purchase order**.
+3. In the  **Create purchase order**  form, select the vendor that you want to place the purchase order with, enter other information as appropriate, and then click  **OK**.
+4. In the  **Purchase order**  form, in the  **Purchase order lines**  table, click  **Add line**.
+5. Enter an item number, quantity, unit, unit price, and other information as appropriate.
+
+> [!Note]
+> Only non-stocked items and services can be used with Project purchase orders. Stocked items and Procurement categories are not supported.
+
+1. Proceed with adding additional items as required and confirming Purchase Order.
+
+Goods and services receipts can be recorded by creating and posting Product receipt.
+
+> [!Note]
+> Product receipts are not recorded to the project actuals in Dataverse and do not impact Project subledger.
+
+Once vendor sends an invoice for items and services on the purchase order, procurement department persona can generate an invoice for the purchase order by opening **Invoice \&gt; Generate \&gt; Invoice** in the action pane. More information about pending vendor invoices are available in [Purchase non-stocked materials using a pending vendor invoice | Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/procurement/pending-vendor-invoices)
