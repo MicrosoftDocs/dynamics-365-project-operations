@@ -27,8 +27,8 @@ To create subcontract line resources, complete the following steps.
 
 The following table explains the fields on the subcontract line resource.
 
-| Field |  Description | Functional Impact |
-| ----- | ------------ | ---------------------------- |
+| Field | Description | Functional Impact |
+| ----- | ----------- | ----------------- |
 | Bookable Resource | Select a bookable resource of "Contract worker" type that you want to use as the resource on the subcontract line.| If you haven't created a bookable resource for the contract worker yet, leave this field empty. A bookable resource will be created when you save the record.  |
 | Contact | You can create your subcontract line resource from an existing contact. Use the lookup to view the list of active contacts in the system. Select a contact for the vendor of this subcontract. If the contact you selected is not a valid contact for the vendor on the subcontract, the subcontract line resource record won't save.| If there is no bookable resource for the selected contact, the system creates a bookable resource for the selected contact before creating the subcontract line resource. |
 | User | You can create a subcontract line resource by selecting an active user. Use the lookup to view the list of active users in the system.| If there is no bookable resource for the selected user, the system creates a bookable resource for the selected user before the subcontract line resource is created. |
