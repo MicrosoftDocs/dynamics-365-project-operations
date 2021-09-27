@@ -447,7 +447,7 @@
     - name: Procure non-stocked materials for projects using pending vendor invoices
       href: procurement/pending-vendor-invoices.md
     - name: Order non-stocked materials for projects using project purchase orders
-      href: procurement/project-purchase-orders.md
+      href: procurement/non-stocked-materials-project-purchase-orders.md
   - name: Invoicing
     items:
     - name: Invoicing process overview
