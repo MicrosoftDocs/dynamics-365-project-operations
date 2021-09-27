@@ -45,14 +45,14 @@ Fixed-price milestones on a subcontract line can be generated manually when they
 3. On the **Subcontract line milestones** tab, on the sub grid, select **+ New Subcontract Line Milestone**.
 4. On the **New Subcontract Line Milestone** page, enter the required information based on the following table.
 
-    | Field | Description |Functional Impact|
+    | Field | Description |Functional impact|
     | --- | --- |----------------------|
-    | Milestone Name | The name of the milestone. |This will be shown as the first column in all lookups based on subcontract line milestones. Vendor invoice line that is created based on this milestone will also use the name of the subcontract line milestone as the default name of the vendor invoice line|
-    | Description | A description of the milestone. |Vendor invoice line that is created based on this milestone will also use the description of the subcontract line milestone as the default description of the vendor invoice line|
-    | Milestone Date | The date when the automatic invoice creation process should look for the status of this milestone to consider it for invoicing.| This value will be used as default date of the vendor invoice line when invoicing for this subcontract line. |
+    | Milestone Name | The name of the milestone. |This will be shown as the first column in all lookups based on subcontract line milestones. The vendor invoice line that is created based on this milestone will also use the name of the subcontract line milestone as the default name of the vendor invoice line.|
+    | Description | A description of the milestone. |The vendor invoice line that is created based on this milestone will also use the description of the subcontract line milestone as the default description of the vendor invoice line.|
+    | Milestone Date | The date when the automatic invoice creation process should look for the status of this milestone to consider it for invoicing.| This value will be used as the default date of the vendor invoice line when invoicing for this subcontract line. |
     | Amount | The amount or value of the milestone that will be invoiced to the customer. |This value is used as the default amount on the vendor invoice line when invoicing for this subcontract line. |
     | Tax | The tax amount applied on the milestone.| This value is used as the default tax amount on the vendor invoice line when invoicing for this subcontract line. |
-    | Amount after tax | This read-only field that is calculated as Amount + Tax.|This value is used as the default  on the vendor invoice line when invoicing for this subcontract line. |
+    | Amount after tax | This read-only field is calculated as Amount + Tax.|This value is used as the default on the vendor invoice line when invoicing for this subcontract line. |
     | Invoice Status | When the milestone is created, this status is always set to  **Not ready for invoicing**.|  When the status is **Ready to Invoice**, the vendor invoice creation includes this milestone on the vendor invoice. |
 
 5. Select **Save and Close**.
