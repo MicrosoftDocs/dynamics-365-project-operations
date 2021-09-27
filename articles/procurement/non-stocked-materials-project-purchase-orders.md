@@ -28,13 +28,13 @@ Complete the following steps to enable the project purchase orders functionality
 1. In Finance, go to **Project management and accounting** > **Projects** > **All Projects** and select a project.
 2. On the Action Pane, on the **Manage** tab, in the **New** group, select **Item task** > **Purchase order**.
 3. On the **Create purchase order** page, select the vendor that you want to place the purchase order with, enter other information as appropriate, and then select **OK**.
-4. On the **Purchase order** page, in the **Purchase order lines** gid, select **Add line**.
+4. On the **Purchase order** page, in the **Purchase order lines** grid, select **Add line**.
 5. Enter an item number, quantity, unit, unit price, and other information as appropriate.
 
     > [!NOTE]
     > Only non-stocked items and services can be used with project purchase orders. Stocked items and procurement categories aren't supported.
 
-6. Continue to add additional items as required and confirm the purchase order.
+6. Continue to add items as required and confirm the purchase order.
 
     Goods and services receipts can be recorded by creating and posting product receipt.
 
