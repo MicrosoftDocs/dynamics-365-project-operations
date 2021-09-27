@@ -1,6 +1,6 @@
 ---
 title: Vendor retention overview
-description: This topic provides high level overview of vendor retention capabilities.
+description: This topic provides an overview of vendor retention capabilities.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
@@ -15,7 +15,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Your organization might want to retain a portion of payments to vendors who work on projects for your organization. For example, before you pay your vendor, you might want to make sure that items and services they provided meet your expectations.
 
-When you negotiate purchases for projects with vendors, you can specify the vendor retention terms that include the percentage or amount to retain. As the vendor delivers items and services, you deduct the specified retention percentage or amount from your payment to the vendor. When the project is completed or reaches an interim stage as specified in the contract with the vendor, you release the retained amount and create a payment to the vendor.
+When you negotiate purchases for projects with vendors, you can specify the vendor retention terms that include the percentage or amount to retain. As the vendor delivers items and services, you deduct the specified retention percentage or amount from your payment to the vendor. When the project is complete, or reaches an interim stage as specified in the vendor contract, you release the retained amount and create a payment to the vendor.
 
 ## Vendor retention example
 
