@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Your organization might want to retain a portion of payments to vendors who work on projects for your organization. For example, before you pay your vendor, you might want to make sure that items and services they provided meet your expectations.
+Your organization might want to retain a portion of payments to vendors who work on projects for your org. For example, before you pay your vendor, you might want to make sure that the items and services they provided meet your expectations.
 
 When you negotiate purchases for projects with vendors, you can specify the vendor retention terms that include the percentage or amount to retain. As the vendor delivers items and services, you deduct the specified retention percentage or amount from your payment to the vendor. When the project is complete, or reaches an interim stage as specified in the vendor contract, you release the retained amount and create a payment to the vendor.
 
