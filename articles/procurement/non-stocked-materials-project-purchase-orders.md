@@ -36,9 +36,9 @@ Complete the following steps to enable the project purchase orders functionality
 
 6. Continue to add additional items as required and confirm the purchase order.
 
-Goods and services receipts can be recorded by creating and posting product receipt.
+    Goods and services receipts can be recorded by creating and posting product receipt.
 
-> [!NOTE]
-> Product receipts aren't recorded to the project actuals in Microsoft Dataverse and don't impact the project subledger.
+    > [!NOTE]
+    > Product receipts aren't recorded to the project actuals in Microsoft Dataverse and don't impact the project subledger.
 
-After a vendor sends the invoice for items and services on the purchase order, the procurement department can generate an invoice for the purchase order by going to **Invoice** > **Generate** > **Invoice** on the Action Pane. For more information about pending vendor invoices, see [Purchase non-stocked materials using a pending vendor invoice](pending-vendor-invoices.md)
+    After a vendor sends the invoice for items and services on the purchase order, the procurement department can generate an invoice for the purchase order by going to **Invoice** > **Generate** > **Invoice** on the Action Pane. For more information about pending vendor invoices, see [Purchase non-stocked materials using a pending vendor invoice](pending-vendor-invoices.md)
