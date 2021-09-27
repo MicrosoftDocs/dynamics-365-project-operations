@@ -13,15 +13,15 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Your organization might want to retain a portion of payments to vendors who work on projects for your organization. For example, you might want to make sure that items and services from a vendor meet your expectations before you pay the vendor.
+Your organization might want to retain a portion of payments to vendors who work on projects for your organization. For example, before you pay your vendor, you might want to make sure that items and services they provided meet your expectations.
 
-When you negotiate purchases for projects with vendors, you can specify the vendor retention terms that include the percentage or amount to retain. As a vendor delivers items and services, you deduct the specified retention percentage or amount from your payment to the vendor. When the project is completed or reaches an interim stage specified in the contract with the vendor, you release the retained amount and create a payment to the vendor.
+When you negotiate purchases for projects with vendors, you can specify the vendor retention terms that include the percentage or amount to retain. As the vendor delivers items and services, you deduct the specified retention percentage or amount from your payment to the vendor. When the project is completed or reaches an interim stage as specified in the contract with the vendor, you release the retained amount and create a payment to the vendor.
 
-**Example**
+## Vendor retention example
 
 The following example shows how a percentage of a vendor invoice amount is retained based on the percentage that is complete for a project.
 
-Contoso Robotics USA has contracted vendor Fabrikam to deliver 100 hours of training for the equipment renewal project. Total contract value is USD 30,000 (agreed purchase price is USD 300 per hour)
+Contoso Robotics USA has contracted with the vendor Fabrikam to deliver 100 hours of training for the equipment renewal project. The total contract value is USD 30,000 with an agreed purchase price of USD 300 per hour.
 
 Training will be delivered in three phases with the following schedule:
 
@@ -47,11 +47,11 @@ The transactions result in the following amounts:
   - The amount payable is 30 x 300, or 9,000.
   - 10 percent of the amount, or 900, is retained.
   - 10 percent of the 3,000 that was retained in Phase 1, or 300, is released.
-  - The amount that is paid to the vendor is 8,400. This amount consists of 9,000 less the 900 retention plus the 300 that was released from the Phase 1 retention.
+  - The amount that is paid to the vendor is 8,400. This amount is 9,000 less the 900 retention plus the 300 that was released from the Phase 1 retention.
 - Phase 3:
   - The amount payable is 20 x 300, or 6,000.
   - No amount is retained.
   - The amount that is released is 3,600. This amount consists of the 3,000 that was retained in Phase 1, less the 300 from Phase 1 that was released in Phase 2, plus the 900 that was retained in Phase 2.
   - The amount that is paid to the vendor is 9,600. This amount consists of the retained amount of 3,600 plus the 6,000 for completion of Phase 3.
 
-The total amount that is paid to the vendor after the three phases are completed is 3,000, which is the total amount of the purchase order (15,000 + 9,000 + 6,000).
+The total amount paid to the vendor after the three phases are complete is 30,000, which is the total amount of the purchase order (15,000 + 9,000 + 6,000).
