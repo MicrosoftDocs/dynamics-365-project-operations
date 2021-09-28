@@ -37,7 +37,7 @@ Use the **Vendor retention terms** page to set up and maintain retention terms f
 > [!NOTE]
 > If you have more than one milestone for different levels of project completion, enter a separate vendor retention term line for every retention rule. Each line can specify a different percentage to retain and a different percentage to release for each designated level of project completion.
 
-## Set up vendor agreement for the project
+## Set up a vendor agreement for the project
 
 Set up the vendor retention terms that apply to the project. The vendor retention terms are also displayed on purchase orders that you create for the vendor.
 
@@ -45,9 +45,9 @@ Set up the vendor retention terms that apply to the project. The vendor retentio
 2. Select a project, and on the Action Pane, select **Project group** > **Vendor agreements**.
 3. On the **Vendor agreements** page, add a new line.
 4. In the **Account code** field, select one of the following options:
-  - **Table**: The vendor retention terms apply to a single vendor.
-  - **Group**: The vendor retention terms apply to all vendors in a vendor group.
-  - **All**:The vendor retention terms apply to all vendors.
+   - **Table**: The vendor retention terms apply to a single vendor.
+   - **Group**: The vendor retention terms apply to all vendors in a vendor group.
+   - **All**: The vendor retention terms apply to all vendors.
 5. In the **Vendor/Vendor group** field, select the vendor or vendor group to which the vendor retention terms apply. If you selected  **All**  in the previous step, this field is unavailable.
 6. In the **Vendor retention terms** field, select the rule ID for the retention terms to apply to this vendor.
 
