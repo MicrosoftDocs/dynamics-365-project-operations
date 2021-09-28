@@ -18,10 +18,10 @@ The Procurement department in your organization might use [purchase orders](/dyn
 ## Prerequisites
 Complete the following steps to enable the project purchase orders functionality.
 
-1. In Finance, go to the **Feature Management** workspace.
+1. In Dynamics 365 Finance, go to the **Feature Management** workspace.
 2. In the feature list, find and select the feature, **Enable project purchase orders on Project Operations for resource based/non-stocked scenarios**.
 3. Select **Enable**.
-4. Configure non-stocked materials and pending vendor invoices as described in [Configure non-stocked materials and pending vendor invoices | Microsoft Docs](configure-materials-nonstocked.md)
+4. Configure non-stocked materials and pending vendor invoices as described in [Configure non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md).
 
 ## Create a project purchase order from the project purchase order list
 
@@ -36,9 +36,9 @@ Complete the following steps to enable the project purchase orders functionality
 
 6. Continue to add items as required and confirm the purchase order.
 
-    Goods and services receipts can be recorded by creating and posting product receipt.
+    Goods and services receipts can be recorded by creating and posting a product receipt.
 
     > [!NOTE]
     > Product receipts aren't recorded to the project actuals in Microsoft Dataverse and don't impact the project subledger.
 
-    After a vendor sends the invoice for items and services on the purchase order, the procurement department can generate an invoice for the purchase order by going to **Invoice** > **Generate** > **Invoice** on the Action Pane. For more information about pending vendor invoices, see [Purchase non-stocked materials using a pending vendor invoice](pending-vendor-invoices.md)
+    After a vendor sends the invoice for items and services on the purchase order, the procurement department can generate an invoice for the purchase order by going to **Invoice** > **Generate** > **Invoice** on the Action Pane. For more information about pending vendor invoices, see [Purchase non-stocked materials using a pending vendor invoice](pending-vendor-invoices.md).
