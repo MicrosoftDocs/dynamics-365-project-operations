@@ -80,15 +80,12 @@ Before you begin, sign in to a browser with the user work account in the tenant 
 
    After provisioning starts, you are redirected to the environment list in the Power Platform admin center. While provisioning is in progress, the state of your environment is **PreparingInstance**.
  
-  After the provisioning is complete, the state of your environment is **Ready**.
+  After the provisioning is complete, the state of your environment is **Ready**.   Provisioning of your environment includes deployment of demo data.
  
 4.	When the provisioning is complete, select the respective Microsoft Dataverse URL, and the Finance and Operations apps URLs to validate the deployment.
 
-## Demo data installation
 
-Use the following links to access demo data packages for both non-stocked materials and lite deployment scenarios. 
-- [Non-stocked materials demo data](resource-apply-pro-setup-config-data.md)
-- [Lite demo data](lite-apply-demo-setup-config-data.md)
+
 
 ## Configuring dual-write
 For non-stocked materials deployments only, configure your dual-write mappings. For more information, see [Project Operations dual-write map versions](resource-dual-write-maps.md).
