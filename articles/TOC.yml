@@ -448,6 +448,12 @@
       href: procurement/pending-vendor-invoices.md
     - name: Order non-stocked materials for projects using project purchase orders
       href: procurement/non-stocked-materials-project-purchase-orders.md
+    - name: Vendor retention
+      items:
+      - name: Vendor retention overview
+        href: procurement/vendor-retention-overview.md
+      - name: Set up vendor retention
+        href: procurement/set-up-vendor-retention.md
   - name: Invoicing
     items:
     - name: Invoicing process overview
