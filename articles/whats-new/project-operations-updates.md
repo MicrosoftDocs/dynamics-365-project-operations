@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
 | --- | --- |
-| 4.14.0.99 | 10.0.20 |
+| 4.25.0.91 | 10.0.20 |
 
 For Project Operations Resource/non-stocked scenario, we recommend to use Dual Write Orchestration version 2.2.2.83 or higher.
 
@@ -42,23 +42,23 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
+|   &nbsp;  | First Release         |  4.25.0.91      | Complete           | October 08, 2021    | TBD                 | October 29, 2021    |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
-|    &nbsp; | Canada                |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
-|   &nbsp;  | India                 |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
-|   &nbsp;  | France                |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
-|   &nbsp;  | South Africa          |  4.14.0.99      | Complete           | Complete            | TBD                 | October 01, 2021    |
+|   &nbsp;  | South America         |  4.25.0.91      | October 08, 2021   | October 15, 2021    | TBD                 | October 29, 2021    |
+|    &nbsp; | Canada                |  4.25.0.91      | October 08, 2021   | October 15, 2021    | TBD                 | October 29, 2021    |
+|   &nbsp;  | India                 |  4.25.0.91      | October 08, 2021   | October 15, 2021    | TBD                 | October 29, 2021    |
+|   &nbsp;  | France                |  4.25.0.91      | October 08, 2021   | October 15, 2021    | TBD                 | October 29, 2021    |
+|   &nbsp;  | South Africa          |  4.25.0.91      | October 08, 2021   | October 15, 2021    | TBD                 | October 29, 2021    |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.14.0.99      | Complete           | Complete            | TBD                 | October 08, 2021    |
-|   &nbsp;  | Asia Pacific          |  4.14.0.99      | Complete           | Complete            | TBD                 | October 08, 2021    |
-|   &nbsp;  | Great Britain         |  4.14.0.99      | Complete           | Complete            | TBD                 | October 08, 2021    |
-|   &nbsp;  | Oceania               |  4.14.0.99      | Complete           | Complete            | TBD                 | October 08, 2021    |
-|   &nbsp;  | United Arab Emirates  |  4.14.0.99      | Complete           | Complete            | TBD                 | October 08, 2021    |
+|   &nbsp;  | Japan                 |  4.14.0.99      | Complete           | Complete            | 4.25.0.91           | October 08, 2021    |
+|   &nbsp;  | Asia Pacific          |  4.14.0.99      | Complete           | Complete            | 4.25.0.91           | October 08, 2021    |
+|   &nbsp;  | Great Britain         |  4.14.0.99      | Complete           | Complete            | 4.25.0.91           | October 08, 2021    |
+|   &nbsp;  | Oceania               |  4.14.0.99      | Complete           | Complete            | 4.25.0.91           | October 08, 2021    |
+|   &nbsp;  | United Arab Emirates  |  4.14.0.99      | Complete           | Complete            | 4.25.0.91           | October 08, 2021    |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.14.0.99      | Complete           | October 01, 2021    | TBD                 | October 15, 2021    |
+|   &nbsp;  | Europe                |  4.14.0.99      | Complete           | Complete            | 4.25.0.91           | October 15, 2021    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.14.0.99      | October 01, 2021   | October 08, 2021    | TBD                 | October 22, 2021    |
+|   &nbsp;  | North America         |  4.14.0.99      | Complete           | October 08, 2021    | 4.25.0.91           | October 22, 2021    |
 
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
