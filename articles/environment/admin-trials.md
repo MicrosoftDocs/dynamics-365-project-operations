@@ -2,7 +2,7 @@
 title: Sign up for Project Operations trials
 description: This topic provides information about how to deploy a trial of Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 09/30/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
