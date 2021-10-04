@@ -33,7 +33,7 @@ search.app:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    | 3.10.56.110 |
+| Project Service Automation    | 3.10.57.152 |
 | Project Service Automation desktop add-in                | 3.15          |
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](/dynamics365/release-plans/). 
@@ -62,7 +62,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>North America</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | October 29, 2021
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | October 29, 2021
-| | <i>Dedicated Scale Groups</i> | [3.10.55.38](whats-new-ur-34.md) | [3.10.56.110](whats-new-ur-35.md) | October 01, 2021
+| | <i>Dedicated Scale Groups</i> | [3.10.56.110](whats-new-ur-35.md) | TBD | November 05, 2021
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) indicate the timing of the next automatic update. Dates in GCC indicate version availability; at this time, there is no automatic update for these regions.
