@@ -22,16 +22,14 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
 The following features are included in this release:
 
-[Subcontract management](https://docs.microsoft.com/en-us/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - includes ability to create a subcontract with the vendor, itemize all the purchases as line items on the subcontract, adjust the pricing and associate the contacts.
-
+[Subcontract management](../subcontracting/managing-subcontracts-overview.md): THis feature provides the ability to create a subcontract with the vendor, itemize all purchases as line items on the subcontract, adjust pricing, and associate contacts.
 
 
 ## Quality updates
 
-
 | **Feature area** | **Reference number** | **Quality update** |
 | --- | --- | --- |
-| Billing and pricing | 2209402 | Corrected the validations preventing from invoicing retainer amounts when project contract is confirmed |
-| Opportunity management | 2227414 | Product, Write- In, and IsProductOverriden fields are copied to quote line details/ contract line details |
-| Billing and pricing | 2338357 | Currency on material usage log must be defaulted from the project&#39;s currency as soon as the project selected |
-| Time and expense | 2414777 | Must be possible to cancel approval when the expense/time entry has more than one associated project approval |
+| Billing and pricing | 2209402 | Corrected the validations that were preventing retainer amounts from being invoiced when a project contract is confirmed. |
+| Opportunity management | 2227414 | The **Product**, **Write- In**, and **IsProductOverriden** fields are copied to the quote line details and contract line details. |
+| Billing and pricing | 2338357 | The currency on the material usage log must default from the project's currency when the project selected. |
+| Time and expense | 2414777 | Canceling an approval when the expense or time entry has more than one associated project approval must be possible. |
