@@ -1,0 +1,35 @@
+---
+title: What's new October 2021 - Project Operations lite deployment
+description: This topic provides information about the quality updates available in the October 2021 release of Project Operations lite deployment.
+author: sigitac
+ms.date: 10/05/2021
+ms.topic: article
+ms.prod:
+ms.reviewer: kfend 
+ms.author: sigitac
+---
+
+# What's new October 2021 - Project Operations lite deployment
+
+_Applies To: Lite deployment - deal to proforma invoicing_
+
+This topic applies to the following Dynamics 365 Project Operations components and versions:
+
+  - Project Operations on Microsoft Dataverse environment version 4.25.0.91
+
+
+## Features included in this release
+
+The following features are included in this release:
+
+[Subcontract management](../subcontracting/managing-subcontracts-overview.md): This feature provides the ability to create a subcontract with the vendor, itemize all purchases as line items on the subcontract, adjust pricing, and associate contacts.
+
+
+## Quality updates
+
+| **Feature area** | **Reference number** | **Quality update** |
+| --- | --- | --- |
+| Billing and pricing | 2209402 | Corrected the validations that were preventing retainer amounts from being invoiced when a project contract is confirmed. |
+| Opportunity management | 2227414 | The **Product**, **Write- In**, and **IsProductOverriden** fields are copied to the quote line details and contract line details. |
+| Billing and pricing | 2338357 | The currency on the material usage log must default from the project's currency when the project is selected. |
+| Time and expense | 2414777 | Canceling an approval when the expense or time entry has more than one associated project approval must be possible. |
