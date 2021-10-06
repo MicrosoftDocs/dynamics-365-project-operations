@@ -2,7 +2,7 @@
 title: Update release schedule for Project Service 3.x
 description: This topic provides information about the available and upcoming releases of Dynamics 365 Project Service Automation.
 ms.custom: dyn365-projectservice
-ms.date: 09/20/2021
+ms.date: 10/04/2021
 ms.reviewer: kfend
 ms.prod:
 ms.suite: ""
@@ -63,6 +63,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 29, 2021
 | | <i>Dedicated Scale Groups</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | November 05, 2021
+
 
 >[!Note]
 > - Dates in all regions except Government Community Cloud (GCC) indicate the timing of the next automatic update. Dates in GCC indicate version availability; at this time, there is no automatic update for these regions.
