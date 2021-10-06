@@ -31,7 +31,7 @@ There are no updates for Project Operations dual-write maps in this release. For
 
 Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Certain features and capabilities might not work correctly if the latest version of the map isn't activated. You can see the active version of the map on the Dual-write page in the Version column. To activate a new version of the map, select Table map versions, select the latest version, and then save the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-If you encounter an issue starting the map, follow instructions in the [Missing table columns issue on maps](dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual Write troubleshooting guide.
+If you encounter an issue starting the map, follow instructions in the [Missing table columns issue on maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual Write troubleshooting guide.
 
 ## Quality updates
 
