@@ -47,14 +47,14 @@ The following issues have been fixed.
 
 **Sales**
 - When an environment has a large volume of products, performance degrades in the **Materials Estimate** grid.
-- When creating a project from a template, the project currrency isn't defaulted to respect the Project Manager's contracting unit.
+- When creating a project from a template, the project currency does not default to the respective Project Manager's contracting unit.
 - Actual amounts don't always match what is reflected on the project due, or the amounts become negative in specific recall scenarios.
 - An error occurs when you associate a project created from project template to a contract line.
 - Users are able to delete a contract line with the milestones, **Ready to invoice** and **Invoice Created**. This shouldn't be allowed.
-- When estimates are imported from a project, the quote line detail chargeability is set incorrectly when task based billing is enabled for the quote line.
+- When estimates are imported from a project, the quote line detail chargeability is set incorrectly when task-based billing is enabled for the quote line.
 - When you add a fixed price billing milestone, the milestone isn't reflected in the milestone subgrid until the page is refreshed.
-- A Null Reference Exception is generated when you create a project contract with a quote name that is null.
-- Manual mode tasks where the project currrency is different from the resource's currency result in incorrect price estimates.
+- A null reference exception is generated when you create a project contract with a quote name that is null.
+- Manual mode tasks where the project currency is different from the resource's currency result in incorrect price estimates.
 - Users can't recall a transaction that has been successfully corrected by a corrective invoice.
 - Deactivated transaction categories appear in the **Expense Estimates** grid.
 
