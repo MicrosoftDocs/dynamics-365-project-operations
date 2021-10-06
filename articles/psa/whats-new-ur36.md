@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 36, V3
 description: This topic lists the features and fixes that are available in Microsoft Dynamics 365 Project Service Automation Update Release 36, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 10/03/A
+ms.date: 10/06/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -32,35 +32,31 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed.
 
 **General**
-- "Default Work Hour Template" string incorrectly translated on the Project Parameter form.
-- Async plugins do not correcty handled exceptions related to the SharedVariableService.
+- The **Default Work Hour Template** field name is translated incorrectly on the **Project Parameters** page.
+- Async plug-ins aren't correctly handling exceptions related to the **SharedVariableService**.
 
 **Time and Expense**
-- The incorrect error is thrown when cancelling Project Approvals in scenarios where journal lines are missing or the user does not have the correct privileges to read journal lines.
-- Users are unable to cancel an approval when an expense or time entry has more than one associated project approval.
-- "Absence" and "Vacation" are incorrectly translated for Chinese language in a lookup on the time entry quick create form.
-
+- When journal lines are missing or the user doesn't have the correct privileges to read journal lines, an incorrect error occurs when project approvals are canceled.
+- Users can't cancel an approval when an expense or time entry has more than one associated project approval.
+- **Absence** and **Vacation** are incorrectly translated for the Chinese language in a lookup on the **Time Entry** quick create page.
 
 **Resource management**
-
-- User are unable to search for resources in Schedule Assistant when view mode is set to Day, Week or month.
+- User can't search for resources in the **Schedule Assistant** when the view mode is set to **Day**, **Week**, or **Month**.
 - Generic resources are incorrectly allowed to have empty position names. 
-- Closing a contract as lost does not cancel future bookings.
-
+- Closing a contract as lost doesn't cancel future bookings.
 
 **Sales**
-
-- When an environment has a large volume of products, performanc degrades in the materials estimate grid.
-- When creating a project from a template, the project currrency is not defaulted to respect the Project Manager's contracting unit.
-- Actual amounts do not always match what is reflected on the project due or become negative in specific recall scenarios.
-- Associating a project created from project template to a contract line throws an exception.
-- Users incorrectly have the ability to delete a contract line with "Ready to invoice"/ "Invoice Created" milestone.
-- Quote Line Detail chargeability is set incorrectly when Task Based Billing is enabled for the Quote Line in scenarios when estimates are imported from project.
-- when adding a fixed pricing billing milestone, the milestone is not being reflected in the milestone subgrid until the form is refreshed.
-- Null Reference Exception is generated when creating a Project contract when quote name is null.
+- When an environment has a large volume of products, performance degrades in the **Materials Estimate** grid.
+- When creating a project from a template, the project currrency isn't defaulted to respect the Project Manager's contracting unit.
+- Actual amounts don't always match what is reflected on the project due, or the amounts become negative in specific recall scenarios.
+- An error occurs when you associate a project created from project template to a contract line.
+- Users are able to delete a contract line with the milestones, **Ready to invoice** and **Invoice Created**. This shouldn't be allowed.
+- When estimates are imported from a project, the quote line detail chargeability is set incorrectly when task based billing is enabled for the quote line.
+- When you add a fixed price billing milestone, the milestone isn't reflected in the milestone subgrid until the page is refreshed.
+- A Null Reference Exception is generated when you create a project contract with a quote name that is null.
 - Manual mode tasks where the project currrency is different from the resource's currency result in incorrect price estimates.
-- Users are unable to recall a transaction that has been successfully corrected by a corrective invoice.
-- Deactivated transaction categories appear in the expense estimates grid.
+- Users can't recall a transaction that has been successfully corrected by a corrective invoice.
+- Deactivated transaction categories appear in the **Expense Estimates** grid.
 
 
 
