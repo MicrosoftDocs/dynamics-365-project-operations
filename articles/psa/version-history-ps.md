@@ -43,13 +43,13 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |<strong>Station 1</strong> | |  |  | |
 | | <i>First Release</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | October 29, 2021
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 08, 2021
-| | <i>Canada</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 08, 2021
-| | <i>India</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 08, 2021
-| | <i>France</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 08, 2021
-| | <i>South Africa</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 08, 2021
-| | <i>Germany</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 08, 2021
-| | <i>Switzerland</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 08, 2021
+| | <i>South America</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 05, 2021
+| | <i>Canada</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 05, 2021
+| | <i>India</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 05, 2021
+| | <i>France</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 05, 2021
+| | <i>South Africa</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 05, 2021
+| | <i>Germany</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 05, 2021
+| | <i>Switzerland</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 05, 2021
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 15, 2021
 | | <i>Asia Pacific</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 15, 2021
