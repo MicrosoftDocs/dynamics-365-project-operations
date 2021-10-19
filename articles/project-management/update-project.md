@@ -1,5 +1,5 @@
 ---
-title: Update a project
+title: Create and update a project
 description: This topic provides information about updating projects Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
@@ -21,7 +21,7 @@ Below is a summary of the fields that can be updated on a project after it has b
 - **Customer**: The company the project will be delivered to.
 - **Calendar template**: The working hours of the project. When the field is changed, the entire schedule is recalculated.
 - **Currency**: The currency for the project. This field defaults based on the currency defined in the contracting unit. When the contracting unit is updated, the field is also updated.
-- **Contracting Unit**: The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer. 
+- **Contracting Unit**: The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer.  When the Organzational unit of the Project Manager is undefined, this field defaults to the value defined in the Project Parameters.
 - **Project Manager**: The project team member who has the authority to review and approve time entries and expenses.
 
 ## Estimate fields
