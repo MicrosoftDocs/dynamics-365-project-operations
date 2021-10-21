@@ -50,15 +50,15 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | France                |  4.25.0.91      | Complete           | Complete            | TBD                 | November 05, 2021   |
 |   &nbsp;  | South Africa          |  4.25.0.91      | Complete           | Complete            | TBD                 | November 05, 2021   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.25.0.91      | Complete           | October 22, 2021    | TBD                 | November 12, 2021   |
-|   &nbsp;  | Asia Pacific          |  4.25.0.91      | Complete           | October 22, 2021    | TBD                 | November 12, 2021   |
-|   &nbsp;  | Great Britain         |  4.25.0.91      | Complete           | October 22, 2021    | TBD                 | November 12, 2021   |
-|   &nbsp;  | Oceania               |  4.25.0.91      | Complete           | October 22, 2021    | TBD                 | November 12, 2021   |
-|   &nbsp;  | United Arab Emirates  |  4.25.0.91      | Complete           | October 22, 2021    | TBD                 | November 12, 2021   |
+|   &nbsp;  | Japan                 |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
+|   &nbsp;  | Asia Pacific          |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
+|   &nbsp;  | Great Britain         |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
+|   &nbsp;  | Oceania               |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
+|   &nbsp;  | United Arab Emirates  |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.25.0.91      | October 22, 2021   | October 29, 2021    | TBD                 | November 19, 2021   |
+|   &nbsp;  | Europe                |  4.25.0.91      | Complete           | October 29, 2021    | TBD                 | November 19, 2021   |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.14.0.99      | Complete           | Complete            | 4.25.0.91           | October 22, 2021    |
+|   &nbsp;  | North America         |  4.25.0.91      | October 29, 2021   | November 05, 2021   | TBD                 | November 26, 2021   |
 
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
@@ -67,14 +67,15 @@ Updates for Project management and accounting are released eight times a year.
 
 |Supported Version| Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      September 3, 2021      |        October 22, 2021           |                          November 5, 2021                            | January 14, 2022   |
 |    10.0.21      |         August 02, 2021     |           September 17, 2021      |                             October 1, 2021                          |  December 10, 2021 |
-|    10.0.20      |         May 28, 2021        |           July 16, 2021           |                             July 30, 2021                            |  October 22, 2021  |
+
 
 Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Targeted Version | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      September 3, 2021      |        October 22, 2021           |                          November 5, 2021                            | January 14, 2022   |
 |     10.0.23     |      October 15, 2021       |        December 10, 2021          |                          December 31, 2021                           | March 18, 2022     |
+|     10.0.24     |      December 3, 2021       |        January 14, 2022           |                          February 4, 2022                            | April 15, 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
