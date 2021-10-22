@@ -25,7 +25,7 @@ The following features are included in this release:
 - Ability to delete [Project invoice proposal lines for adjustment scenarios](../invoicing/correct-project-invoice-proposals.md).
 - Itemized expense lines reflect subcategory names in the expense report [Expense Reports Reimagined-New Features](../expense/expense-reports-reimagined.md#new-features).
 - Payment method is available in the new expense pane when creating a new expense.
-- General availability of Project schedule APIs. This new functionality allows customers to programatically perform create, update, and delete operations on project tasks, resource assignments, task dependencies, and project team member records. For more information, see, [Use Project schedule APIs to perform operations with Scheduling entities](../project-management/schedule-api-preview.md).
+- General availability of Project schedule APIs. This new functionality allows customers to programatically perform create, update, and delete operations on project tasks, resource assignments, task dependencies, and project team member records. For more information, see [Use Project schedule APIs to perform operations with Scheduling entities](../project-management/schedule-api-preview.md).
 
 ## Project Operations dual-write maps updates
 
