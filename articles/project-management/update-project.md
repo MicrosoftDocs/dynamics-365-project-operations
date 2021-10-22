@@ -1,18 +1,18 @@
 ---
-title: Update a project
+title: Create and update a project
 description: This topic provides information about updating projects Project Operations.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---
 
-# Update a project
+# Create and update a project
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Below is a summary of the fields that can be updated on a project after it has been created and any applicable implications of the updates.
+The following is a summary of the fields that can be updated on a project after it has been created. This also includes any applicable implications based on these updates.
 
 ## Project detail fields
 
@@ -20,8 +20,8 @@ Below is a summary of the fields that can be updated on a project after it has b
 - **Description**: An overview of the project.
 - **Customer**: The company the project will be delivered to.
 - **Calendar template**: The working hours of the project. When the field is changed, the entire schedule is recalculated.
-- **Currency**: The currency for the project. This field defaults based on the currency defined in the contracting unit. When the contracting unit is updated, the field is also updated.
-- **Contracting Unit**: The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer. 
+- **Currency**: The currency for the project. The default value for this field is based on the currency that defined in the contracting unit. When the contracting unit is updated, the field is also updated.
+- **Contracting Unit**: The organizational unit that represents the company group or division that is primarily responsible for winning the sale and managing the delivery of work and services to the customer.  When the Project manager's organzational unit isn't defined, this field defaults to the value defined in the project parameters.
 - **Project Manager**: The project team member who has the authority to review and approve time entries and expenses.
 
 ## Estimate fields
