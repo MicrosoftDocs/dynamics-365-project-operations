@@ -57,7 +57,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Oceana</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 12, 2021
 | | <i>United Arab Emirates</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 12, 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 22, 2021
+| | <i>Europe</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | November 19, 2021
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | October 29, 2021
 |<strong>Station 6</strong> | |  |  | |
