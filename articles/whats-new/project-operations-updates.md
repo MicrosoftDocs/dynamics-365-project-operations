@@ -50,15 +50,15 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | France                |  4.25.0.91      | Complete           | Complete            | TBD                 | November 05, 2021   |
 |   &nbsp;  | South Africa          |  4.25.0.91      | Complete           | Complete            | TBD                 | November 05, 2021   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
-|   &nbsp;  | Asia Pacific          |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
-|   &nbsp;  | Great Britain         |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
-|   &nbsp;  | Oceania               |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
-|   &nbsp;  | United Arab Emirates  |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
+|   &nbsp;  | Japan                 |  4.25.0.91      | Complete           | Complete            | TBD                 | November 05, 2021   |
+|   &nbsp;  | Asia Pacific          |  4.25.0.91      | Complete           | Complete            | TBD                 | November 05, 2021   |
+|   &nbsp;  | Great Britain         |  4.25.0.91      | Complete           | Complete            | TBD                 | November 05, 2021   |
+|   &nbsp;  | Oceania               |  4.25.0.91      | Complete           | Complete            | TBD                 | November 05, 2021   |
+|   &nbsp;  | United Arab Emirates  |  4.25.0.91      | Complete           | Complete            | TBD                 | November 05, 2021   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.25.0.91      | Complete           | October 29, 2021    | TBD                 | November 19, 2021   |
+|   &nbsp;  | Europe                |  4.25.0.91      | Complete           | Complete            | TBD                 | November 12, 2021   |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.25.0.91      | October 29, 2021   | November 05, 2021   | TBD                 | November 26, 2021   |
+|   &nbsp;  | North America         |  4.25.0.91      | Complete           | November 05, 2021   | TBD                 | November 19, 2021   |
 
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
