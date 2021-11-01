@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 37, V3
 description: This topic lists the features and fixes that are available in Microsoft Dynamics 365 Project Service Automation Update Release 37, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 10/29/2021
+ms.date: 11/01/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -31,20 +31,18 @@ This topic lists the features and fixes that are new or changed for Project Serv
 
 The following issues have been fixed.
 
-
-
 **Time and Expense**
-- Users are unable to delete time entry by clearing the cell.
-- "My failed approval" view only contains project approvals in "Submitted" stage.
+- Users are unable to delete a time entry by clearing the cell.
+- The **My failed approval** view only contains project approvals in with a status of **Submitted**.
 
 **Project management**
-- Users receive a Null Reference Exception error when trying to open a project in the Microsoft desktop add-in when a Project team member's position name is null.
-- "Save" Button is not present in Project Task form preventing users from saving changes to task records.
-- Users are unable to delete a project containing a task associated to a won quote.
+- Users receive a Null Reference Exception error when opening a project in the Microsoft desktop add-in if the Project team member's position name is empty.
+- There is no **Save** button on the **Project Task** page so users can't save changes to task records.
+- Users can't delete a project that has a task associated to a quote with a status of **Won**.
 
 **Sales**
-- The Project form's currency field is updated to match the applied template's currency.
-- Cost is incorrect calculated on tasks where there are multiple ccurrencies.
+- The **Currency** field on the **Project** page is updated to match the applied template's currency.
+- The cost is calculated incorrectly on tasks that have multiple ccurrencies.
 
 
 
