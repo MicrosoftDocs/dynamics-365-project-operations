@@ -42,7 +42,7 @@ The following issues have been fixed.
 
 **Sales**
 - The **Currency** field on the **Project** page is updated to match the applied template's currency.
-- The cost is calculated incorrectly on tasks that have multiple ccurrencies.
+- The cost is calculated incorrectly on tasks that have multiple currencies.
 
 
 
