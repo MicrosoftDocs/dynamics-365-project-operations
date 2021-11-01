@@ -33,16 +33,13 @@ The following issues have been fixed.
 
 **Time and Expense**
 - Users are unable to delete a time entry by clearing the cell.
-- The **My failed approval** view only contains project approvals in with a status of **Submitted**.
+- The **My failed approval** view only contains project approvals with a status of **Submitted**.
 
 **Project management**
-- Users receive a Null Reference Exception error when opening a project in the Microsoft desktop add-in if the Project team member's position name is empty.
+- Users receive a null reference exception error when opening a project in the Microsoft desktop add-in if the Project team member's position name is empty.
 - There is no **Save** button on the **Project Task** page so users can't save changes to task records.
 - Users can't delete a project that has a task associated to a quote with a status of **Won**.
 
 **Sales**
 - The **Currency** field on the **Project** page is updated to match the applied template's currency.
 - The cost is calculated incorrectly on tasks that have multiple currencies.
-
-
-
