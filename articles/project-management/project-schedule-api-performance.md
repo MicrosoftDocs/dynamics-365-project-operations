@@ -1,8 +1,8 @@
 ---
 title: Project Schedule API performance
-description: This topic provides information about the performance benchmarks of the PRoject Schedule APIs and identifies best practices for optimum use.
+description: This topic provides information about the performance benchmarks of the Project Schedule APIs and identifies best practices for optimum use.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 11/02/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
