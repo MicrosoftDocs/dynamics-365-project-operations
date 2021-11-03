@@ -1,8 +1,8 @@
 ---
 title: Project Schedule API performance
 description: This topic provides information about the performance benchmarks of the Project Schedule APIs and identifies best practices for optimum use.
-author: sigitac
-ms.date: 11/02/2021
+author: ruhercul
+ms.date: 11/03/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
@@ -46,11 +46,11 @@ The following illustration shows the flow that a partner will experience when th
 **Step 5**: This step represents is the PERSIST phase. The Project Scheduling Service asynchronously writes the batch to Dataverse in a transaction. If the write operation is successful, the OperationSet is marked as **Completed**. Any errors roll back the transaction and the batch, and the OperationSet is marked as **Failed**.
 
 ## Performance methodology
-Execution time is defined as the time from the call to the **ExecuteOperationSetV1** API until the Project Scheduling Service has finished writing to Dataverse. All operations are run a combined 2,200 times, and the P99 execution time measurements are reported. Single-record and bulk operations are measured.
+Execution time is defined as the time from the call to the **ExecuteOperationSetV1** API until the Project Scheduling Service has finished writing to Dataverse. All operations run a combined 2,200 times, and the P99 execution time measurements are reported. Single-record and bulk operations are measured.
 
 For a single-record operation, the OperationSet contains one request. For bulk operations, it contains 20, 50, or 100 requests. Each bulk size is reported separately.
 
-These operations are run on a UR 15 Project Operations Lite deployment in North America.
+These operations run on a UR 15 Project Operations Lite deployment in North America.
 
 ## Results
 ### Create operations
@@ -329,5 +329,5 @@ The following table shows the execution times when the Project Schedule APIs are
 ## Best practices
 Based on the preceding scenario results, the APIs perform better in the following conditions:
 
-  - You group as many operations together as possible. The average runtime for bulk operations is better than the average runtime for single-record operations. The smaller the number of OperationSets that you use, the faster the average execution time will be.
-  - You set only the minimum attributes that are required to accomplish your scenario. Be selective about the types of non-required fields that you include in an OperationSet request. Fields that contain foreign keys or rollup fields will negatively affect performance.
+  - Group as many operations together as possible. The average runtime for bulk operations is better than the average runtime for single-record operations. The smaller the number of OperationSets that you use, the faster the average execution time will be.
+  - Set only the minimum attributes that are required to accomplish your scenario. Be selective about the types of non-required fields that you include in an OperationSet request. Fields that contain foreign keys or rollup fields will negatively affect performance.
