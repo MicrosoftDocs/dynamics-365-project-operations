@@ -10,7 +10,7 @@ ms.author: sigitac
 
 # Project Schedule API performance
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project for the web_
 
 This topic provides information about the performance benchmarks of the Project Schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
 
