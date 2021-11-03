@@ -1,6 +1,6 @@
 ---
-title: Project Schedule API performance
-description: This topic provides information about the performance benchmarks of the Project Schedule APIs and identifies best practices for optimum use.
+title: Project schedule API performance
+description: This topic provides information about the performance benchmarks of the Project schedule APIs and identifies best practices for optimum use.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -8,18 +8,18 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Project Schedule API performance
+# Project schedule API performance
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project for the web_
 
-This topic provides information about the performance benchmarks of the Project Schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
+This topic provides information about the performance benchmarks of the Project schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
 
 ## Project Scheduling Service
 The Project Scheduling Service is a multi-tenant service that runs in Microsoft Azure. It's designed to improve interaction by providing a fast and fluid experience when users work on projects. This improvement is achieved by accepting change requests, processing them, and then immediately returning the result. The service asynchronously persists to Dataverse and doesn't block users from performing other operations.
 
-The Project Schedule APIs rely on the Project Scheduling Service to run requests that are described in more detail in later sections of this topic.
+The Project schedule APIs rely on the Project Scheduling Service to run requests that are described in more detail in later sections of this topic.
 
-The Project Schedule APIs are designed to work with the following work breakdown structure (WBS) entities:
+The Project schedule APIs are designed to work with the following work breakdown structure (WBS) entities:
 
   - Project
   - Project Task
@@ -29,7 +29,7 @@ The Project Schedule APIs are designed to work with the following work breakdown
   
 Both out-of-box fields and custom fields are supported. Unless otherwise noted, all common operations are supported, such as create, update, and delete. For more information, see [Use Project schedule APIs to perform operations and scheduling entities](schedule-api-preview.md).
 
-As part of the Project Schedule APIs, a unit-of-work pattern has been added. This pattern is known as an OperationSet, and it can be used when several requests must be processed in a single transaction.
+As part of the Project schedule APIs, a unit-of-work pattern has been added. This pattern is known as an OperationSet, and it can be used when several requests must be processed in a single transaction.
 
 The following illustration shows the flow that a partner will experience when this feature is used.
 
@@ -39,7 +39,7 @@ The following illustration shows the flow that a partner will experience when th
 
 **Step 2**: After the new OperationSet is created, an **OperationSetId** value is returned.
 
-**Step 3**: The client uses the **OperationSetId** value to make another Project Schedule API request. The result is a create, update, or delete request on a scheduling entity. When this request is made, metadata validation is done. If the validation fails, the request is terminated, and an error is returned.
+**Step 3**: The client uses the **OperationSetId** value to make another Project schedule API request. The result is a create, update, or delete request on a scheduling entity. When this request is made, metadata validation is done. If the validation fails, the request is terminated, and an error is returned.
 
 **Steps 4a–4c**: These steps represent the ACCEPT phase. The client calls the **ExecuteOperationSetV1** API, which sends all the changes to the Project Scheduling Service in one batch. The Project Scheduling Service runs its own validations on requests in the batch. Any validation failures undo the batch and return an exception to the caller. If the batch is successfully accepted by the Project Scheduling Service, the OperationSet status is updated to reflect the fact that the OperationSet is being processed by the Project Scheduling Service.
 
@@ -317,7 +317,7 @@ For each record operation, the **ExecuteOperationSet** API takes about 800 milli
 When 100 records are created, updated, or deleted, the **ExecuteOperationSet** API takes about three seconds to send the request to the Project Scheduling Service. The Project Scheduling Service then takes about five seconds to process the requests and call Dataverse. Bulk operations must pay a **Project Scheduling Service tax** one time, for all the records in the OperationSet. Therefore, bulk operations have a significantly lower average execution time than single-record operations.
 
 ## Scenarios
-The following table shows the execution times when the Project Schedule APIs are used to accomplish specific scenarios. The times are in seconds.
+The following table shows the execution times when the Project schedule APIs are used to accomplish specific scenarios. The times are in seconds.
 
 | Scenario                                                                   | Time  |
 |----------------------------------------------------------------------------|-------|
