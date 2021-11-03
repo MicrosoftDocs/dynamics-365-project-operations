@@ -329,5 +329,5 @@ The following table shows the execution times when the Project Schedule APIs are
 ## Best practices
 Based on the preceding scenario results, the APIs perform better in the following conditions:
 
-  - Group as many operations together as possible. The average runtime for bulk operations is better than the average runtime for single-record operations. The smaller the number of OperationSets that you use, the faster the average execution time will be.
-  - Set only the minimum attributes that are required to accomplish your scenario. Be selective about the types of non-required fields that you include in an OperationSet request. Fields that contain foreign keys or rollup fields will negatively affect performance.
+  - Group as many operations together as possible. The average runtime for bulk operations is better than the average runtime for single-record operations. The smaller the number of OperationSets in use, the faster the average execution time will be.
+  - Set only the minimum attributes that are required to accomplish your scenario. Be selective about the types of non-required fields included in an OperationSet request. Fields that contain foreign keys or rollup fields will negatively affect performance.
