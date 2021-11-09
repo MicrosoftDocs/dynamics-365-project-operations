@@ -12,7 +12,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-To uninstall Dynmaics 365 Project operations, you must be assigned the role of Administrator.
+To uninstall Dynamics 365 Project Operations, you must be assigned the role of Administrator.
 
 1. Go to **Settings** > **Solutions**.
 
