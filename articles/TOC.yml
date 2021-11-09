@@ -54,6 +54,8 @@
         href: environment/resource-dual-write-expense.md
       - name: Vendor invoice integration
         href: environment/resource-dual-write-vendor-invoice.md  
+    - name: Uninstall Dynamics 365 Project Operations
+      href: environment/uninstall-project-operations.md
   - name: What's new 
     items:
     - name: October 2021 - Project Operations for resource/non-stocked based scenarios
