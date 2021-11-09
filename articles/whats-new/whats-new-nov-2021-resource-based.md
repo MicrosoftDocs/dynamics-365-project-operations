@@ -53,6 +53,11 @@ If you encounter an issue with starting the map, follow instructions in the [Mis
 | Billing and Pricing | 2448623 | Allow updating price lists after associating them with an organizational unit |
 | Time and Expense | 2460396 | Allow deleting time entry by clearing the cell |
 | Billing and Pricing | 2467386 | Allow deleting a project with task that was associated with a won quote |
+| Time and Expense | 2461744 | "My failed approval" view only contains project approvals in "Submitted" stage |
+| Time and Expense | 2464082 | Remove the link from project approvals to approval set when matching target status |
+| Time and Expense | 2468108 | Schedule job should not set "processing" approval set status |
+| Time and Expense | 2471503 | Delete approval sets that are 7 days old |
+| Billing and Pricing | 2480687 | Quote Line reference must not be removed when creating Quote Line Milestone through UI |
 
 ### Project management and accounting on Dynamics 365 Finance
 
