@@ -92,16 +92,16 @@ No, Microsoft has built a general machine learning model for its receipt process
 
 The availbility of this feature in different regions is provided below. If your region is not currently supoorted, please submit a request to prioritize availaility of the OCR service in the region. 
 
-| Region | Supported                      |
-|--------|--------------------------------|
-| USA    | Yes                            |
-| CAN    | Yes                            |
-| UK     | Yes                            |
-| AUS    | Yes                            |
-| EU     | Partial- only english receipts |
-| Asia   | No                             |
-| Japan  | No                             |
-| Africa | No                             |
+| Region | Supported                         |
+|--------|-----------------------------------|
+| USA    | Yes                               |
+| CAN    | Yes                               |
+| UK     | Yes                               |
+| AUS    | Yes                               |
+| EU     | Partially - only english receipts |
+| Asia   | No                                |
+| Japan  | No                                |
+| Africa | No                                |
 
 **Where do my receipts go?**
 
