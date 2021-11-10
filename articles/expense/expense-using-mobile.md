@@ -52,42 +52,9 @@ You can also use these features:
 - Submit an expense report for approval and reimbursement.
 - Approve or reject expense reports that you're an assigned approver for.
 
-## Prerequisites
-The prerequisites vary, based on the version that has been deployed for your organization.
+## Prerequisites if you use Dynamics 365 Finance
 
-### Prerequisites if you use Dynamics 365 Finance 
 If Finance has been deployed for your organization, the system administrator must publish the **Expense management** mobile workspace. 
-
-### Prerequisites if you use version 1611 with platform update 3 or later
-If version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Prerequisite</th>
-<th>Role</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implement KB 4019015.</td>
-<td>System administrator</td>
-<td>KB 4019015 is an X++ update or metadata hotfix that contains the <strong>Expense management</strong> mobile workspace. To implement KB 4019015, your system administrator must follow these steps.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Download updates from Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Install the metadata hotfix</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Create a deployable package</a> that contains the <strong>ApplicationSuite</strong> and <strong>ExpenseMobile</strong> models, and then upload the deployable package to LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Apply the deployable package</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Publish the <strong>Expense management</strong> mobile workspace.</td>
-<td>System administrator</td>
-<td>See <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## Download and install the Dynamics 365 Unified Ops mobile app
 Download and install the Dynamics 365 Unified Ops mobile app:
@@ -138,7 +105,7 @@ Download and install the Dynamics 365 Unified Ops mobile app:
 
 10. Select **Done**.
 
-## Approve an expense report by using the Expense management mobile workspace (if you use the July 2017 update)
+## Approve an expense report by using the Expense management mobile workspace
 
 1. On your mobile device, open the **Expense management** workspace.
 2. **Expense approvals** shows the number of expense reports that are assigned to you for approval. The number is updated approximately every 30 minutes. Select **Expense approvals**.
@@ -151,7 +118,7 @@ Download and install the Dynamics 365 Unified Ops mobile app:
 6. Enter any comments for the approval action.
 7. Select **Done**.
 
-## Create a new expense report and submit it for approval by using the Expense management mobile workspace (if you use the July 2017 update)
+## Create a new expense report and submit it for approval by using the Expense management mobile workspace
 
 1. On your mobile device, open the **Expense management** workspace.
 2. Select **Expense entry**.
