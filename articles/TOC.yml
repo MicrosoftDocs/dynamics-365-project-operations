@@ -58,6 +58,8 @@
       href: environment/uninstall-project-operations.md
   - name: What's new 
     items:
+    - name: November 2021 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-nov-2021-resource-based.md
     - name: October 2021 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-oct-2021-resource-based.md
     - name: September 2021 - Project Operations for resource/non-stocked based scenarios
