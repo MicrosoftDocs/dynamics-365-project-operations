@@ -90,7 +90,7 @@ No, Microsoft has built a general machine learning model for its receipt process
 
 **Where is this feature available and processed?**
 
-The availbility of this feature in different regions is provided below. If your region is not currently supoorted, please submit a request to prioritize availaility of the OCR service in the region. 
+The availability of this feature in different regions is provided below. If your region is not currently supported, please submit a request to prioritize availaility of the OCR service in the region. 
 
 | Region | Supported                         |
 |--------|-----------------------------------|
