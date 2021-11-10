@@ -4,7 +4,7 @@
 title: Capture a receipt using OCR
 description: This topic provides information about optical character recognition (OCR) processing for receipts.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: 
 #
@@ -90,7 +90,7 @@ No, Microsoft has built a general machine learning model for its receipt process
 
 **Where is this feature available and processed?**
 
-The availability of this feature in different regions is provided below. If your region is not currently supported, please submit a request to prioritize availaility of the OCR service in the region. 
+The availability of this feature in different regions is listed in the following table. If your region isn't currently supported, submit a request to prioritize the availaility of the OCR service in your region. 
 
 | Region | Supported                         |
 |--------|-----------------------------------|
@@ -98,7 +98,7 @@ The availability of this feature in different regions is provided below. If your
 | CAN    | Yes                               |
 | UK     | Yes                               |
 | AUS    | Yes                               |
-| EU     | Partially - only english receipts |
+| EU     | Partially. English receipts only. |
 | Asia   | No                                |
 | Japan  | No                                |
 | Africa | No                                |
