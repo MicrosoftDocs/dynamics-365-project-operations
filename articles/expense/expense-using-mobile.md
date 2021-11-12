@@ -207,5 +207,33 @@ Download and install the Dynamics 365 Unified Ops mobile app:
 23. Enter any comments for the approver.
 24. Select **Done**.
 
+## Frequently asked questions
+
+1. **Expense mobile does not default the payment method**
+
+	Organizations can customize the "Default Payment method" per Expense category when creating each new Expense Category .  An additional setting for Payment method allows it      be  set to "import only" [Available in Expense Management--> Set Up-->Payment Methods].   
+   When 	(1)  Payment method has "import only" enabled: For expense categories with this Payment method, the payment method will NOT default and will be blank. This  experience    is consistent on both web and mobile.  
+	
+   When (2) Payment method has "Import only" turned off : For expense categories set up with this Payment method, the Payment method defaults to the set value on desktop.    
+   However, on the mobile app, this is a known issue srising out of platform limitations.  The workaround is for the user to manually make a "Payment Method" selection  
+   before saving the expense report. 
+
+
+2. **Cannot add or edit financial dimensions on mobile.**
+
+   Entering of dimensions and distributions is not supported at this time.  As a workaround, companies can default these fields on mobile by setting up the default financial    
+   dimensions per Project or employee. If this is a feature you would like to see included in a future version of the app, please upvote here- 
+   
+   
+ 3. **Project/Category validation is not correctly reflected in Expense report mobile app.** 
+    
+    This is not currently supported due to technical limitations with the existing platform.
+    
+ 4. **What doc types are supported on expense mobile?** 
+ 
+    The mobile app supports images. Pdf's and docs are not currently supported on expense mobile .
+
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
