@@ -61,4 +61,11 @@ Sometimes, after credit card transactions are imported, certain transactions may
 2. Select **Filter** and provide information to identify the records to include.
 3. Select **OK** to delete the records. 
 
+## Options to store credit card numbers
+
+We currently offer 3 options for storing credit card numbers in the system under "Expense Management Parameters".  
+1. Prevent card number entry :  The credit card nubmers are not stored. 
+2. Hash card numbers (store last 4 digits) : The last 4 digits of the user's credit card are stored in an encrypted form. 
+3. Store card numbers :  Choosing this option implies that the credit card numbers will be stored in an unencrypted format. This option is not PCI DSS compliant , and organization admins should choose betwen options 1 and 2 if they would like to stay in compliance with PCI DSS regulations. 
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
