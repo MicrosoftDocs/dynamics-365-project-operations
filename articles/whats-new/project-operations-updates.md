@@ -33,7 +33,7 @@ Dynamics 365 Project Operations consists of two components:
 | --- | --- |
 | 4.26.0.148 | 10.0.22 |
 
-For Project Operations Resource/non-stocked scenario, we recommend to use Dual Write Orchestration version 2.2.2.83 or higher.
+For Project Operations Resource/non-stocked scenario, we recommend to use Dual Write Orchestration version 2.3.1.15 or higher.
 
 ## Release schedule for Project Operations on Dataverse environment
 
