@@ -32,4 +32,4 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed.
 
 **Resource Management**
-- Duplicate boookings are created when you update existing bookings and **Proportional** is selected for **Increase hours method** or **Decrease hours method**.
+- Duplicate bookings are created when you update existing bookings and **Proportional** is selected for **Increase hours method** or **Decrease hours method**.
