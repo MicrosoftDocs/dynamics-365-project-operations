@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 37.5, 
 description: This topic lists the features and fixes that are available in Microsoft Dynamics 365 Project Service Automation Update Release 37.5, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 11/12/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -32,4 +32,4 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed.
 
 **Resource Management**
-- Duplicate boookings are created when "Increase hours method" or "Decrease hours method" is set to Proportional when updating existing bookings.
+- Duplicate boookings are created when you update existing bookings and **Proportional** is selected for **Increase hours method** or **Decrease hours method**.
