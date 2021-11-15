@@ -2,7 +2,7 @@
 title: Project Operations updates
 description: This topic provides information about the released versions of Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -33,7 +33,7 @@ Dynamics 365 Project Operations consists of two components:
 | --- | --- |
 | 4.26.0.148 | 10.0.22 |
 
-For Project Operations Resource/non-stocked scenario, we recommend to use Dual Write Orchestration version 2.3.1.15 or higher.
+For Project Operations Resource/non-stocked scenario, we recommend to use dual-write Orchestration version 2.3.1.15 or higher.
 
 ## Release schedule for Project Operations on Dataverse environment
 
