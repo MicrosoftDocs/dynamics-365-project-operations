@@ -952,6 +952,8 @@
   items: 
   - name: What's new
     items:
+    - name: What's new September 2021 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
     - name: What's new July 2021 - Project Operations for stocked/production-based scenarios
       href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
     - name: What's new May 2021 - Project Operations for stocked/production-based scenarios
