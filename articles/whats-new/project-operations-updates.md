@@ -2,7 +2,7 @@
 title: Project Operations updates
 description: This topic provides information about the released versions of Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 10/04/2021
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -23,17 +23,17 @@ Dynamics 365 Project Operations consists of two components:
 - Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The Finance and Operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
 
 ## Project Operations release notes
-- Project Operations latest release notes for [Resource/non-stocked](whats-new-oct-2021-resource-based.md) scenario.
-- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-oct-2021-lite.md) scenario.
+- Project Operations latest release notes for [Resource/non-stocked](whats-new-nov-2021-resource-based.md) scenario.
+- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-nov-2021-lite.md) scenario.
 - Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) scenario.
 
 ## Project Operations latest version
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
 | --- | --- |
-| 4.26.0.148 | 10.0.21 |
+| 4.26.0.148 | 10.0.22 |
 
-For Project Operations Resource/non-stocked scenario, we recommend to use Dual Write Orchestration version 2.2.2.83 or higher.
+For Project Operations Resource/non-stocked scenario, we recommend to use dual-write Orchestration version 2.3.1.15 or higher.
 
 ## Release schedule for Project Operations on Dataverse environment
 
