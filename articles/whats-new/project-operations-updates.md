@@ -42,19 +42,19 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 03, 2021   |
+|   &nbsp;  | First Release         |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 03, 2021   |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 03, 2021   |
-|   &nbsp;  | Canada                |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 03, 2021   |
-|   &nbsp;  | India                 |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 03, 2021   |
-|   &nbsp;  | France                |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 03, 2021   |
-|   &nbsp;  | South Africa          |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 03, 2021   |
+|   &nbsp;  | South America         |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 03, 2021   |
+|   &nbsp;  | Canada                |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 03, 2021   |
+|   &nbsp;  | India                 |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 03, 2021   |
+|   &nbsp;  | France                |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 03, 2021   |
+|   &nbsp;  | South Africa          |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 03, 2021   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 10, 2021   |
-|   &nbsp;  | Asia Pacific          |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 10, 2021   |
-|   &nbsp;  | Great Britain         |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 10, 2021   |
-|   &nbsp;  | Oceania               |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 10, 2021   |
-|   &nbsp;  | United Arab Emirates  |  4.26.0.148     | November 12, 2021  | November 19, 2021   | TBD                 | December 10, 2021   |
+|   &nbsp;  | Japan                 |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 10, 2021   |
+|   &nbsp;  | Asia Pacific          |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 10, 2021   |
+|   &nbsp;  | Great Britain         |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 10, 2021   |
+|   &nbsp;  | Oceania               |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 10, 2021   |
+|   &nbsp;  | United Arab Emirates  |  4.26.0.148     | Complete           | November 19, 2021   | TBD                 | December 10, 2021   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Europe                |  4.25.0.91      | Complete           | Complete            | 4.26.0.148          | November 12, 2021   |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
