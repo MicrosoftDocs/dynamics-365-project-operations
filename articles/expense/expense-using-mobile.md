@@ -4,7 +4,7 @@
 title: Mobile Expense app
 description: This topic provides information about the Expense management mobile workspace.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: 
 #
@@ -209,29 +209,26 @@ Download and install the Dynamics 365 Unified Ops mobile app:
 
 ## Frequently asked questions
 
-1. **Expense mobile does not default the payment method**
+### Why doesn't Expense mobile app default the payment method?
 
-	Organizations can customize the "Default Payment method" per Expense category when creating each new Expense Category .  An additional setting for Payment method allows it      be  set to "import only" [Available in Expense Management--> Set Up-->Payment Methods].   
-   When 	(1)  Payment method has "import only" enabled: For expense categories with this Payment method, the payment method will NOT default and will be blank. This  experience    is consistent on both web and mobile.  
+Organizations can customize the **Default Payment method** for each expense category as it's created. Additionally, when you set up payment methods, you can set the **Default payment method** field to **Import only**.   
+
+When a payment method has **Import only** enabled, the payment method doesn't default and will be blank in expense categories that have this payment method set up. This is consistent on both web and mobile.  
 	
-   When (2) Payment method has "Import only" turned off : For expense categories set up with this Payment method, the Payment method defaults to the set value on desktop.    
-   However, on the mobile app, this is a known issue srising out of platform limitations.  The workaround is for the user to manually make a "Payment Method" selection  
-   before saving the expense report. 
+When a payment method doesn't have **Import only**" enabled,  For expense categories that have this payment method set up, it defaults to the set value. However, on the mobile app, this is a known issue. To work around this issue, manually select a payment method before you save the expense report. 
 
+### Why can't I add or edit financial dimensions on the Expense mobile app?
 
-2. **Cannot add or edit financial dimensions on mobile.**
-
-   Entering of dimensions and distributions is not supported at this time.  As a workaround, companies can default these fields on mobile by setting up the default financial    
-   dimensions per Project or employee. If this is a feature you would like to see included in a future version of the app, please upvote here- 
+Entering dimensions and distributions isn't supported. To work around this limitation, you can default these fields on the mobile app by setting up the default financial dimensions per project or employee.
    
    
- 3. **Project/Category validation is not correctly reflected in Expense report mobile app.** 
+### Why isn't project and category validation correctly reflected in the Expense mobile app?
     
-    This is not currently supported due to technical limitations with the existing platform.
+Because of technical limitations with the existing platform, this isn't supported.
     
- 4. **What doc types are supported on expense mobile?** 
+### What document types are supported on the Expense mobile app?
  
-    The mobile app supports images. Pdf's and docs are not currently supported on expense mobile .
+The Expense mobile app supports images. At this time, PDF's and  other documents aren't supproted.
 
 
 
