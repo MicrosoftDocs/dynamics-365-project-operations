@@ -75,11 +75,11 @@ Download and install the Dynamics 365 Unified Ops mobile app:
 3. Select **Take photo** or **Choose image**.
 4. Follow one of these steps:
 
-   - If you selected **Take photo**, follow these steps:
+    - If you selected **Take photo**, follow these steps:
 
-      1. You're taken to the camera on your mobile device, so that you can take a photo of the receipt. 
-      2. When you've finished taking a photo, select **OK** to accept the photo.
-      3. Optional: Enter a name for the photo, and enter any notes.
+        1. You're taken to the camera on your mobile device, so that you can take a photo of the receipt. 
+        2. When you've finished taking a photo, select **OK** to accept the photo.
+        3. Optional: Enter a name for the photo, and enter any notes.
 
     - If you selected **Choose image**, follow these steps:
 
@@ -111,7 +111,7 @@ Download and install the Dynamics 365 Unified Ops mobile app:
 2. **Expense approvals** shows the number of expense reports that are assigned to you for approval. The number is updated approximately every 30 minutes. Select **Expense approvals**.
 
     The list of expense reports that are assigned to you for approval is shown.
-    
+
 3. Select an expense report to view the expense details for it.
 4. Select an expense to view the details for it. The information that is shown for an expense includes any receipt, guest, and itemization details.
 5. Back on the **Expense report** page, select to approve or reject the expense report.
@@ -156,12 +156,12 @@ Download and install the Dynamics 365 Unified Ops mobile app:
                     1. Select an image in the list.
                     2. Optional: Enter a name for the image, and enter any notes.
 
-            3.  Select **Done**.
+            3. Select **Done**.
 
         - If you selected **Attach receipt**, follow these steps:
 
-            1.  Select one or more images in the list.
-            2.  Select **Done**.
+            1. Select one or more images in the list.
+            2. Select **Done**.
 
     3. Select the **Back** button to return to the expense details.
 
@@ -209,31 +209,28 @@ Download and install the Dynamics 365 Unified Ops mobile app:
 
 ## Frequently asked questions
 
-### Why doesn't Expense mobile app default the payment method?
+### Why doesn't the Expense mobile app enter the payment method by default?
 
-Organizations can customize the **Default Payment method** for each expense category as it's created. Additionally, when you set up payment methods, you can set the **Default payment method** field to **Import only**.   
+Organizations can customize the **Default payment method** setting for each expense category as it's created. Additionally, when you set up payment methods, you can set the **Default payment method** field to **Import only**.
 
-When a payment method has **Import only** enabled, the payment method doesn't default and will be blank in expense categories that have this payment method set up. This is consistent on both web and mobile.  
+When **Import only** is enabled for a payment method, the payment method isn't entered by default. It will be blank in expense categories where this payment method is set up. This behavior is consistent in both the web experience and the mobile experience.
 	
-When a payment method doesn't have **Import only**" enabled,  For expense categories that have this payment method set up, it defaults to the set value. However, on the mobile app, this is a known issue. To work around this issue, manually select a payment method before you save the expense report. 
+When **Import only** isn't enabled for a payment method, the set value is entered by default for expense categories where this payment method is set up. However, there is a known issue where the default value isn't entered in the Expense mobile app. To work around this issue, manually select a payment method before you save the expense report. 
 
-### Why can't I add or edit financial dimensions on the Expense mobile app?
+### Why can't I add or edit financial dimensions in the Expense mobile app?
 
-Entering dimensions and distributions isn't supported. To work around this limitation, you can default these fields on the mobile app by setting up the default financial dimensions per project or employee.
-   
-### Why do I sometimes see a sync error in the app?
+Entry of dimensions and distributions isn't supported. To work around this limitation, you can have these fields set by default in the mobile app by setting up the default financial dimensions per project or employee.
 
-When the expense lines do not meet the policy requirements and user does not address the policy warning and submits the expense report , then the mobile data fails to sync to server and results in a sync failure. As a result, all expense reports submitted after a sync failure remain in a failed state leading to more sync failures and can be  resolved only by manually deleting the sync notifications. The issue has been addressed by stopping the submit of expense reports when the policy errors have not been addressed, such that the sync errors are avoided.
- 
+### Why do I sometimes see a synchronization error in the Expense mobile app?
+
+If the expense lines don't meet the policy requirements, and the user submits the expense report without addressing the policy warning, the mobile data isn't synced to the server, and a synchronization failure occurs. All expense reports that are submitted after a synchronization failure occurs will remain in a failed state and cause more synchronization failures. The only way to fix this situation is to manually delete the synchronization notifications. This issue has been addressed by stopping the submission of expense reports when policy warnings haven't been addressed, so that the synchronization errors are avoided.
+
 ### Why isn't project and category validation correctly reflected in the Expense mobile app?
-    
-This is not currently supported but maybe in the future. 
 
-### What document types are supported on the Expense mobile app?
- 
-The Expense mobile app supports images. At this time, PDF's and  other documents are not supported.
+This validation isn't currently supported. However, support might be added in the future. 
 
+### What document types are supported in the Expense mobile app?
 
-
+The Expense mobile app supports only images. It doesn't currently support PDFs or other documents.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
