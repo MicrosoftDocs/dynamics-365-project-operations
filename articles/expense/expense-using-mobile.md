@@ -221,14 +221,17 @@ When a payment method doesn't have **Import only**" enabled,  For expense catego
 
 Entering dimensions and distributions isn't supported. To work around this limitation, you can default these fields on the mobile app by setting up the default financial dimensions per project or employee.
    
-   
+### Why do I sometimes see a sync error in the app?
+
+When the expense lines do not meet the policy requirements and user does not address the policy warning and submits the expense report , then the mobile data fails to sync to server and results in a sync failure. As a result, all expense reports submitted after a sync failure remain in a failed state leading to more sync failures and can be  resolved only by manually deleting the sync notifications. The issue has been addressed by stopping the submit of expense reports when the policy errors have not been addressed, such that the sync errors are avoided.
+ 
 ### Why isn't project and category validation correctly reflected in the Expense mobile app?
     
-Because of technical limitations with the existing platform, this isn't supported.
-    
+This is not currently supported but maybe in the future. 
+
 ### What document types are supported on the Expense mobile app?
  
-The Expense mobile app supports images. At this time, PDF's and  other documents aren't supproted.
+The Expense mobile app supports images. At this time, PDF's and  other documents are not supported.
 
 
 
