@@ -25,7 +25,7 @@ Dynamics 365 Project Operations consists of two components:
 ## Project Operations release notes
 - Project Operations latest release notes for [Resource/non-stocked](whats-new-nov-2021-resource-based.md) scenario.
 - Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-nov-2021-lite.md) scenario.
-- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-jul-2021-stocked.md) scenario.
+- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-oct-2021-stocked.md) scenario.
 
 ## Project Operations latest version
 
