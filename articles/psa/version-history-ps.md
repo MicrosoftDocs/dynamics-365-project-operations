@@ -33,7 +33,7 @@ search.app:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    | 3.10.58.120 |
+| Project Service Automation    | 3.10.58.130 |
 | Project Service Automation desktop add-in                | 3.15          |
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](/dynamics365/release-plans/). 
@@ -51,18 +51,18 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Germany</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 10, 2021
 | | <i>Switzerland</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 10, 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | November 12, 2021
-| | <i>Asia Pacific</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | November 12, 2021
-| | <i>Great Britain</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | November 12, 2021
-| | <i>Oceana</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | November 12, 2021
-| | <i>United Arab Emirates</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | November 12, 2021
+| | <i>Japan</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
+| | <i>Asia Pacific</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
+| | <i>Great Britain</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
+| | <i>Oceana</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
+| | <i>United Arab Emirates</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | November 19, 2021
+| | <i>Europe</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | November 19, 2021
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | December 03, 2021
+| | <i>North America</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | December 03, 2021
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | December 03, 2021
-| | <i>Dedicated Scale Groups</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | December 10, 2021
+| | <i>Government Community Cloud</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | December 03, 2021
+| | <i>Dedicated Scale Groups</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | December 10, 2021
 
 
 
