@@ -2,7 +2,7 @@
 title: What's new or changed in Project Operations, October 2021 for stocked/production-based scenarios
 description: This topic provides information about the quality updates that are available in the October 2021 release of Project Operations for stocked/production-based scenarios.
 author: andchoi
-ms.date: 11/15/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -32,7 +32,7 @@ This topic applies to the following components and versions of Microsoft Dynamic
 | Project management and accounting | [582682](https://fix.lcs.dynamics.com/Issue/Details/?bugId=582682) | Resource names are duplicated in Project Operations when they are edited in Microsoft Project. |
 | Project management and accounting | [583873](https://fix.lcs.dynamics.com/Issue/Details/?bugId=583873) | Intercompany expense reports that have Accounts payable intercompany pending vendor invoice costs are first posted to the **Project WIP cost** posting type. However, during processing, the estimate-related costs are posted to the **Project cost** posting type instead of the expected **Intercompany cost** posting type. |
 | Project management and accounting | [584732](https://fix.lcs.dynamics.com/Issue/Details/?bugId=584732) | Vendor retainage results in project expense transactions aren't shown. |
-| Project management and accounting | [587453](https://fix.lcs.dynamics.com/Issue/Details/?bugId=587453) | The timesheet must round the transaction amount in the transaction currency to a specified number of decimal places on all accounting distributions and GJAE entries. |
+| Project management and accounting | [587453](https://fix.lcs.dynamics.com/Issue/Details/?bugId=587453) | The timesheet must round the transaction amount in the transaction currency to a specified number of decimal places on all accounting distributions and general journal allocation entries. |
 | Project management and accounting | [589409](https://fix.lcs.dynamics.com/Issue/Details/?bugId=589409) | Quantities of project item requirements are automatically updated when the planned orders are firmed. |
 | Project management and accounting | [590206](https://fix.lcs.dynamics.com/Issue/Details/?bugId=590206) | The voucher number, transaction type vendor balance, and account number can't be reversed on the prepayment invoice of a purchase order. |
 | Project management and accounting | [593068](https://fix.lcs.dynamics.com/Issue/Details/?bugId=593068) | The intercompany vendor invoice is broken when vendor invoice integration is turned on. |
