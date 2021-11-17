@@ -70,9 +70,9 @@ The Project Scheduling Service error logs capture failures when a **Save** or **
 |---------------------|---------------------------------------------------------------------------------|-----------------|
 | msdyn_CallStack     | The call stack of the exception.                                                | Call Stack      |
 | msdyn_correlationid | The correlation ID of the error.                                                | CorrelationId   |
-| msdyn_errorcode     | Used to store the Cds error code or the http error code.                                 | Error Code      |
+| msdyn_errorcode     | Used to store the Dataverse error code or the http error code.                                 | Error Code      |
 | msdyn_HelpLink      | Link to the public help documentation.                                          | Help Link       |
-| msdyn_log           | The log from the PRoject Scheduling Service.                                                                | Log             |
+| msdyn_log           | The log from the Project Scheduling Service.                                                                | Log             |
 | msdyn_project       | The project associated with the error log.                                          | Project         |
 | msdyn_projectName   | The name of the project when the payload of the operation set will be persisted. | N/A             |
 | msdyn_psserrorlogId | Unique identifier for entity instances.                                          | PSS Error Log   |
