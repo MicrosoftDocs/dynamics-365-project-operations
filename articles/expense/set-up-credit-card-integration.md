@@ -4,7 +4,7 @@
 title: Set up credit card integration
 description: This topic explains how to work with expense-related credit card transactions.
 author: suvaidya
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: 
 #
@@ -61,11 +61,12 @@ Sometimes, after credit card transactions are imported, certain transactions may
 2. Select **Filter** and provide information to identify the records to include.
 3. Select **OK** to delete the records. 
 
-## Options to store credit card numbers
+## Storing credit card numbers
 
-We currently offer 3 options for storing credit card numbers in the system under "Expense Management Parameters".  
-1. Prevent card number entry :  The credit card nubmers are not stored. 
-2. Hash card numbers (store last 4 digits) : The last 4 digits of the user's credit card are stored in an encrypted form. 
-3. Store card numbers :  Choosing this option implies that the credit card numbers will be stored in an unencrypted format. This option is not PCI DSS compliant , and organization admins should choose betwen options 1 and 2 if they would like to stay in compliance with PCI DSS regulations. 
+There are three available options for storing credit card numbers. The numbers are stored on the **Expense management parameters** page.  
+
+- Prevent card number entry:  Credit card nubmers aren't stored. 
+- Hash card numbers (store last four digits): The last four digits of a credit card are stored in an encrypted format. 
+- Store card numbers:  Credit card numbers are stored in an unencrypted format. This option is not PCI DSS compliant. Organization admins should choose to not store credit card numbers or to store hash card numbers to remain in compliance with PCI DSS regulations. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
