@@ -12,9 +12,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_, _Project for the Web_
 
----
-title: Project Scheduling Logs
----
+
 
 Overview
 ========
@@ -30,7 +28,7 @@ and history of operations, two new administrative logs: **Operation Sets** and
 **Project Scheduling Service (PSS),** have been implemented. These logs can be
 accessed by navigating to **Settings** \> **Schedule Integration**.
 
-![Diagram Description automatically generated](media/a53174fda300e4ccf783497d56e46770.jpg)
+![Scheduling Log Data Model](media/LOGDATAMODEL.jpg)
 
 Operation Set Log
 =================
