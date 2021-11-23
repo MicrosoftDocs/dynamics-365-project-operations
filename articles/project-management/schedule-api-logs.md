@@ -21,7 +21,7 @@ Dynamics 365 Project Operations uses [Project for the Web](https://support.micro
 The Operation Set log tracks the execution of an operation set which is issued to batch one or many create, update or delete operations on the **Projects, Project Tasks, Resource Assignments, Task Dependencies, Project Buckets or Project Team Members**. The overall status of the Operation Set is tracked in the **Operation in Status** field. The details of the Operation Set payload are captured in the related Operation Set detail records.
 
 ### Operation Set
-Fields related to the Operartion Set entity.
+Fields related to the Operation Set entity.
 
 | **SchemaName**        | **Description**                                                          | **DisplayName**        |
 |-----------------------|--------------------------------------------------------------------------|------------------------|
