@@ -86,31 +86,26 @@ Both Project Scheduling Service error logs and Operation Set logs can be cleaned
 2. Use Client code using the [WebApi SDK](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
 3. Use Service SDK code using the Xrm SDK updateRecord (Client API reference) in model-driven apps. Power Apps includes description and supported parameters for the **updateRecord** method.
 
->   Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter')  
->   .then(function (response) {  
->   parameter = response.entities[0];  
->   var staleOperationValue = prompt("All records older than (x) days will be
->   deleted, please enter X between 1 to 90 days", 1)  
->   var newData = {};  
->   newData.msdyn_projectparameterid = parameter.msdyn_projectparameterid;  
->   newData.msdyn_staleoperationsetage = parseInt(staleOperationValue);  
->   Xrm.WebApi.updateRecord("msdyn_projectparameter",
->   parameter.msdyn_projectparameterid, newData).then(  
->   function success(result) {  
->   console.log("Project Parameter: Stale Operation Expiry is set to: " +
->   newData.msdyn_staleoperationsetage);  
->   // perform operations on record update  
->   Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter')  
->   .then(function (response2) { console.log("Confirmed Project Parameter: Stale
->   Operation Expiry is set to: " +
->   response2.entities[0].msdyn_staleoperationsetage) });  
->   },  
->   function (error) {  
->   console.log("Failed to Update Project Ednpoint with error: " +
->   error.message);  
->   // handle error conditions  
->   }  
->   );  
->   });
+```
+Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {
+	parameter = response.entities[0];
+	var staleOperationValue = prompt("All records older than (x) days will be deleted, please enter X between 1 to 90 days", 1)
+	var newData = {};
+	newData.msdyn_projectparameterid = parameter.msdyn_projectparameterid;
+	newData.msdyn_staleoperationsetage = parseInt(staleOperationValue);
+	Xrm.WebApi.updateRecord("msdyn_projectparameter", parameter.msdyn_projectparameterid, newData).then(
+		function success(result) {
+			console.log("Project Parameter: Stale Operation Expiry is set to: " + newData.msdyn_staleoperationsetage);
+			// perform operations on record update
+			Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter')
+			.then(function (response2) { console.log("Confirmed Project Parameter: Stale Operation Expiry is set to: " + response2.entities[0].msdyn_staleoperationsetage) });
+		},
+		function (error) {
+			console.log("Failed to Update Project Ednpoint with error: " + error.message);
+		// handle error conditions
+		}
+	);
+});
+```
 
 
