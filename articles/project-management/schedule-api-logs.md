@@ -21,6 +21,7 @@ Dynamics 365 Project Operations uses [Project for the Web](https://support.micro
 The Operation Set log tracks the execution of an operation set which is issued to batch one or many create, update or delete operations on the **Projects, Project Tasks, Resource Assignments, Task Dependencies, Project Buckets or Project Team Members**. The overall status of the Operation Set is tracked in the **Operation in Status** field. The details of the Operation Set payload are captured in the related Operation Set detail records.
 
 ### Operation Set
+Fields related to the Operartion Set entity.
 
 | **SchemaName**        | **Description**                                                          | **DisplayName**        |
 |-----------------------|--------------------------------------------------------------------------|------------------------|
@@ -39,6 +40,7 @@ The Operation Set log tracks the execution of an operation set which is issued t
 | msdyn_useraadid       | The Azure Active Directory Object ID of the user this request belongs to. | UserAADID              |
 
 ### Operation Set detail
+Fields related to teh Operation Set Detail Entity.
 
 | **SchemaName**             | **Description**                                                                      | **DisplayName**       |
 |----------------------------|--------------------------------------------------------------------------------------|-----------------------|
@@ -56,6 +58,7 @@ The Operation Set log tracks the execution of an operation set which is issued t
 | msdyn_requestnumber        | An auto-generated number used to identify the order in which requests where received. | Request Number        |
 
 ## Project Scheduling Service error logs
+Fields related to the Schedule Service Error log entity.
 
 The Project Scheduling Service error logs capture failures when a **Save** or **Open** operation is attempted by the Project Scheduling Service. There are three supported scenarios where the logs are generated.
 
