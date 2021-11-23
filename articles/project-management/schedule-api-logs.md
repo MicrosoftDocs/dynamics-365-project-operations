@@ -40,7 +40,7 @@ Fields related to the Operation Set entity.
 | msdyn_useraadid       | The Azure Active Directory Object ID of the user this request belongs to. | UserAADID              |
 
 ### Operation Set detail
-Fields related to teh Operation Set Detail Entity.
+Fields related to teh Operation Set Detail entity.
 
 | **SchemaName**             | **Description**                                                                      | **DisplayName**       |
 |----------------------------|--------------------------------------------------------------------------------------|-----------------------|
