@@ -2,7 +2,7 @@
 title: Project scheduling logs
 description: This topic provides information and samples for using the Project scheduling logs.
 author: ruhercul
-ms.date: 11/17/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -21,7 +21,7 @@ Dynamics 365 Project Operations uses [Project for the Web](https://support.micro
 The Operation Set log tracks the execution of an operation set which is issued to batch one or many create, update or delete operations on the **Projects, Project Tasks, Resource Assignments, Task Dependencies, Project Buckets or Project Team Members**. The overall status of the Operation Set is tracked in the **Operation in Status** field. The details of the Operation Set payload are captured in the related Operation Set detail records.
 
 ### Operation Set
-Fields related to the Operation Set entity.
+The fields in the following table are related to the Operation Set entity.
 
 | **SchemaName**        | **Description**                                                          | **DisplayName**        |
 |-----------------------|--------------------------------------------------------------------------|------------------------|
@@ -40,7 +40,7 @@ Fields related to the Operation Set entity.
 | msdyn_useraadid       | The Azure Active Directory Object ID of the user this request belongs to. | UserAADID              |
 
 ### Operation Set detail
-Fields related to teh Operation Set Detail entity.
+The fields in the following table are related to the Operation Set Detail entity.
 
 | **SchemaName**             | **Description**                                                                      | **DisplayName**       |
 |----------------------------|--------------------------------------------------------------------------------------|-----------------------|
@@ -67,7 +67,7 @@ The Project Scheduling Service error logs capture failures when a **Save** or **
 - Errors experienced by the user when failing to open a record. For example opening a project or refreshing a team member's information.
 
 ### Project Scheduling Service log
-
+The fields in the following table are included in the Project Scheduling Service log.
 
 | **SchemaName**      | **Description**                                                                 | **DisplayName** |
 |---------------------|---------------------------------------------------------------------------------|-----------------|
@@ -89,7 +89,7 @@ Both Project Scheduling Service error logs and Operation Set logs can be cleaned
 2. Use Client code using the [WebApi SDK](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
 3. Use Service SDK code using the Xrm SDK updateRecord (Client API reference) in model-driven apps. Power Apps includes description and supported parameters for the **updateRecord** method.
 
-```
+```C#
 Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {
 	parameter = response.entities[0];
 	var staleOperationValue = prompt("All records older than (x) days will be deleted, please enter X between 1 to 90 days", 1)
