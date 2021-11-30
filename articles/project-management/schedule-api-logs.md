@@ -1,6 +1,6 @@
 ---
-title: Project scheduling logs
-description: This topic provides information and samples for using the Project scheduling logs.
+title: Project Scheduling logs
+description: This topic provides information and samples that will help you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
 author: ruhercul
 ms.date: 11/22/2021
 ms.topic: article
@@ -8,107 +8,111 @@ ms.reviewer: kfend
 ms.author: ruhercul
 ---
 
-# Use Project Scheduling Logs to track Failures related to Project Scheduling Service and Project Scheduling APIs
+# Project Scheduling logs
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_, _Project for the Web_
 
-Dynamics 365 Project Operations uses [Project for the Web](https://support.microsoft.com/en-us/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) as its primary scheduling engine. Instead of using the standard Microsoft Dataverse Web APIs, Project Operations uses the new Project Scheduling APIs to create, update, and delete project tasks, resource assignments, task dependencies, project buckets, or project teams members. However, when executing create, update, or delete operations on work breakdown structure entities programmatically, errors may occur. To track the errors and history of operations, two new administrative logs have been implemented: **Operation Sets** and **Project Scheduling Service (PSS)**. You can access these logs by going to **Settings** > **Schedule Integration**.
+Microsoft Dynamics 365 Project Operations uses [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) as its primary scheduling engine. Instead of using the standard Microsoft Dataverse Web application programming interfaces (APIs), Project Operations uses the new Project Scheduling APIs to create, update, and delete project tasks, resource assignments, task dependencies, project buckets, and project teams members. However, when create, update, or delete operations are programmatically run on work breakdown structure (WBS) entities, errors might occur. To track these errors and the history of operations, two new administrative logs have been implemented: **Operation Set** and **Project Scheduling Service (PSS)**. To access these logs, go to **Settings** \> **Schedule Integration**.
 
-  ![Scheduling Log Data Model](media/LOGDATAMODEL.jpg)
+The following illustration shows the data model for the Project Scheduling logs.
+
+![Data model for the Project Scheduling logs.](media/LOGDATAMODEL.jpg)
 
 ## Operation Set log
 
-The Operation Set log tracks the execution of an operation set which is issued to batch one or many create, update or delete operations on the **Projects, Project Tasks, Resource Assignments, Task Dependencies, Project Buckets or Project Team Members**. The overall status of the Operation Set is tracked in the **Operation in Status** field. The details of the Operation Set payload are captured in the related Operation Set detail records.
+The Operation Set log tracks the execution of an operation set that is used to run one or many create, update, or delete operations in a batch on projects, project tasks, resource assignments, task dependencies, project buckets, or project team members. The **Operation in Status** field shows the overall status of the operation set. The details of the operation set payload are captured in related Operation Set Detail records.
 
 ### Operation Set
-The fields in the following table are related to the Operation Set entity.
 
-| **SchemaName**        | **Description**                                                          | **DisplayName**        |
-|-----------------------|--------------------------------------------------------------------------|------------------------|
-| msdyn_completedon     | Datetime the operationSet completed or failed.                           | CompletedOn            |
-| msdyn_correlationid   | Request correlationId.                                                   | CorrelationId          |
-| msdyn_description     | The description of the operationSet.                                     | Description            |
-| msdyn_executedon      | The datetime this record was executed.                                   | Executed On            |
-| msdyn_operationsetId  | Unique identifier for entity instances.                                   | OperationSet           |
-| msdyn_Project         | Project related to the operation set.                                    | Project                |
-| msdyn_projectid       | Request projectId.                                                        | ProjectId (Deprecated) |
-| msdyn_projectName     | N/A                                                                      | N/A                    |
-| msdyn_PSSErrorLog     | Unique identifier for the PSS Error Log associated with the OperationSet.        | PSS Error Log          |
-| msdyn_PSSErrorLogName | N/A                                                                      | N/A                    |
-| msdyn_status          | OperationSet status.                                                      | Status                 |
-| msdyn_statusName      | N/A                                                                      | N/A                    |
-| msdyn_useraadid       | The Azure Active Directory Object ID of the user this request belongs to. | UserAADID              |
+The following table shows the fields that are related to the **Operation Set** entity.
 
-### Operation Set detail
-The fields in the following table are related to the Operation Set Detail entity.
+| SchemaName            | Description                                                                                                  | DisplayName            |
+|-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
+| msdyn_completedon     | The date/time when the operation set was completed or failed.                                                | CompletedOn            |
+| msdyn_correlationid   | The **correlationId** value of the request.                                                                  | CorrelationId          |
+| msdyn_description     | The description of the operation set.                                                                        | Description            |
+| msdyn_executedon      | The date/time when the record was run.                                                                       | Executed On            |
+| msdyn_operationsetId  | The unique identifier of entity instances.                                                                   | OperationSet           |
+| msdyn_Project         | The project that is related to the operation set.                                                            | Project                |
+| msdyn_projectid       | The **projectId** value of the request.                                                                      | ProjectId (Deprecated) |
+| msdyn_projectName     | Not applicable.                                                                                              | Not applicable         |
+| msdyn_PSSErrorLog     | The unique identifier of the Project Scheduling Service error log that is associated with the operation set. | PSS Error Log          |
+| msdyn_PSSErrorLogName | Not applicable.                                                                                              | Not applicable         |
+| msdyn_status          | The status of the operation set.                                                                             | Status                 |
+| msdyn_statusName      | Not applicable.                                                                                              | Not applicable         |
+| msdyn_useraadid       | The Azure Active Directory (Azure AD) object ID of the user that the request belongs to.                     | UserAADID              |
 
-| **SchemaName**             | **Description**                                                                      | **DisplayName**       |
-|----------------------------|--------------------------------------------------------------------------------------|-----------------------|
-| msdyn_cdspayload           | Serialized Dataverse fields for request.                                                    | CdsPayload            |
-| msdyn_entityname           | The name of the entity for this request.                                             | EntityName            |
-| msdyn_httpverb             | The request method.                                                                   | HTTPVerb (Deprecated) |
-| msdyn_httpverbName         | N/A                                                                                  | N/A                   |
-| msdyn_operationset         | Unique identifier for the operationSet this record belongs to.                        | OperationSet          |
-| msdyn_operationsetdetailId | Unique identifier for entity instances.                                               | OperationSet Detail   |
-| msdyn_operationsetName     | N/A                                                                                  | N/A                   |
-| msdyn_operationtype        | Operation type of the operation set detail.                                          | OperationType         |
-| msdyn_operationtypeName    | N/A                                                                                  | N/A                   |
-| msdyn_psspayload           | Serialized Project Scheduling Service fields for request.                                                    | PssPayload            |
-| msdyn_recordid             | The identified for request record.                                                    | Record ID             |
-| msdyn_requestnumber        | An auto-generated number used to identify the order in which requests where received. | Request Number        |
+### Operation Set Detail
+
+The following table shows the fields that are related to the **Operation Set Detail** entity.
+
+| SchemaName                 | Description                                                                                 | DisplayName           |
+|----------------------------|---------------------------------------------------------------------------------------------|-----------------------|
+| msdyn_cdspayload           | The serialized Dataverse fields for the request.                                            | CdsPayload            |
+| msdyn_entityname           | The name of the entity for the request.                                                     | EntityName            |
+| msdyn_httpverb             | The request method.                                                                         | HTTPVerb (Deprecated) |
+| msdyn_httpverbName         | Not applicable.                                                                             | Not applicable        |
+| msdyn_operationset         | The unique identifier of the operation set that the record belongs to.                      | OperationSet          |
+| msdyn_operationsetdetailId | The unique identifier of entity instances.                                                  | OperationSet Detail   |
+| msdyn_operationsetName     | Not applicable.                                                                             | Not applicable        |
+| msdyn_operationtype        | The operation type of the operation set detail.                                             | OperationType         |
+| msdyn_operationtypeName    | Not applicable.                                                                             | Not applicable        |
+| msdyn_psspayload           | The serialized Project Scheduling Service fields for the request.                           | PssPayload            |
+| msdyn_recordid             | The identifier of the request record.                                                       | Record ID             |
+| msdyn_requestnumber        | An automatically generated number that identifies the order that requests were received in. | Request Number        |
 
 ## Project Scheduling Service error logs
+
 Fields related to the Schedule Service Error log entity.
 
-The Project Scheduling Service error logs capture failures when a **Save** or **Open** operation is attempted by the Project Scheduling Service. There are three supported scenarios where the logs are generated.
+The Project Scheduling Service error logs capture failures that occur when the Project Scheduling Service tries a **Save** or **Open** operation. There are three supported scenarios where these logs are generated:
 
-- User-initiated actions that critically fail. For example, being unable to create an assignment because of missing privileges.
-- Programmatically, the Project Scheduling Service can't create, update, delete, or perform any other cascading operation on an entity.
-- Errors experienced by the user when failing to open a record. For example opening a project or refreshing a team member's information.
+- User-initiated actions critically fail (for example, an assignment can't be created because of missing privileges).
+- The Project Scheduling Service can't programmatically create, update, delete, or perform any other cascading operation on an entity.
+- The user experiences errors when a record fails to open (for example, when a project is opened or a team member's information is updated).
 
 ### Project Scheduling Service log
-The fields in the following table are included in the Project Scheduling Service log.
 
-| **SchemaName**      | **Description**                                                                 | **DisplayName** |
-|---------------------|---------------------------------------------------------------------------------|-----------------|
-| msdyn_CallStack     | The call stack of the exception.                                                | Call Stack      |
-| msdyn_correlationid | The correlation ID of the error.                                                | CorrelationId   |
-| msdyn_errorcode     | Used to store the Dataverse error code or the http error code.                                 | Error Code      |
-| msdyn_HelpLink      | Link to the public help documentation.                                          | Help Link       |
-| msdyn_log           | The log from the Project Scheduling Service.                                                                | Log             |
-| msdyn_project       | The project associated with the error log.                                          | Project         |
-| msdyn_projectName   | The name of the project when the payload of the operation set will be persisted. | N/A             |
-| msdyn_psserrorlogId | Unique identifier for entity instances.                                          | PSS Error Log   |
-| msdyn_SessionId     | The project session ID.                                                             | Session Id      |
+The following table shows the fields that are included in the Project Scheduling Service log.
+
+| SchemaName          | Description                                                                    | DisplayName    |
+|---------------------|--------------------------------------------------------------------------------|----------------|
+| msdyn_CallStack     | The call stack of the exception.                                               | Call Stack     |
+| msdyn_correlationid | The correlation ID of the error.                                               | CorrelationId  |
+| msdyn_errorcode     | A field that is used to store the Dataverse error code or the HTTP error code. | Error Code     |
+| msdyn_HelpLink      | A link to the public Help documentation.                                       | Help Link      |
+| msdyn_log           | The log from the Project Scheduling Service.                                   | Log            |
+| msdyn_project       | The project that is associated with the error log.                             | Project        |
+| msdyn_projectName   | The name of the project if the payload of the operation set will be persisted. | Not applicable |
+| msdyn_psserrorlogId | The unique identifier of entity instances.                                     | PSS Error Log  |
+| msdyn_SessionId     | The project session ID.                                                        | Session Id     |
 
 ## Error log cleanup
 
-Both Project Scheduling Service error logs and Operation Set logs can be cleaned up every 90 days by default. Any records older than 90 days will be deleted. However, by modifying the value of the **msdyn_StateOperationSetAge** field on the **Project Parameters** page, administrators can adjust the cleanup range between 1 and 120 days. This can be done using one of the following methods.
+By default, both Project Scheduling Service error logs and the Operation Set log can be cleaned up every 90 days. Any records that are older than 90 days will be deleted. However, by changing the value of the **msdyn_StateOperationSetAge** field on the **Project Parameters** page, administrators can adjust the cleanup range so that it's between 1 and 120 days. Several methods for changing this value are available:
 
-1. Customize the **Project Parameter** entity by creating a custom page and adding the **Stale Operations Set Age** field.
-2. Use Client code using the [WebApi SDK](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
-3. Use Service SDK code using the Xrm SDK updateRecord (Client API reference) in model-driven apps. Power Apps includes description and supported parameters for the **updateRecord** method.
+- Customize the **Project Parameter** entity by creating a custom page and adding the **Stale Operations Set Age** field.
+- Use client code that uses the [WebApi software development kit (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
+- Use Service SDK code that uses the Xrm SDK **updateRecord** method (Client API reference) in model-driven apps. Power Apps includes a description and supported parameters for the **updateRecord** method.
 
-```C#
-Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {
-	parameter = response.entities[0];
-	var staleOperationValue = prompt("All records older than (x) days will be deleted, please enter X between 1 to 90 days", 1)
-	var newData = {};
-	newData.msdyn_projectparameterid = parameter.msdyn_projectparameterid;
-	newData.msdyn_staleoperationsetage = parseInt(staleOperationValue);
-	Xrm.WebApi.updateRecord("msdyn_projectparameter", parameter.msdyn_projectparameterid, newData).then(
-		function success(result) {
-			console.log("Project Parameter: Stale Operation Expiry is set to: " + newData.msdyn_staleoperationsetage);
-			// perform operations on record update
-			Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter')
-			.then(function (response2) { console.log("Confirmed Project Parameter: Stale Operation Expiry is set to: " + response2.entities[0].msdyn_staleoperationsetage) });
-		},
-		function (error) {
-			console.log("Failed to Update Project Ednpoint with error: " + error.message);
-		// handle error conditions
-		}
-	);
-});
-```
-
-
+    ```C#
+    Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {
+        parameter = response.entities[0];
+        var staleOperationValue = prompt("All records older than (x) days will be deleted, please enter X between 1 to 90 days", 1)
+        var newData = {};
+        newData.msdyn_projectparameterid = parameter.msdyn_projectparameterid;
+        newData.msdyn_staleoperationsetage = parseInt(staleOperationValue);
+        Xrm.WebApi.updateRecord("msdyn_projectparameter", parameter.msdyn_projectparameterid, newData).then(
+            function success(result) {
+                console.log("Project Parameter: Stale Operation Expiry is set to: " + newData.msdyn_staleoperationsetage);
+                // perform operations on record update
+                Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter')
+                .then(function (response2) { console.log("Confirmed Project Parameter: Stale Operation Expiry is set to: " + response2.entities[0].msdyn_staleoperationsetage) });
+            },
+            function (error) {
+                console.log("Failed to Update Project Ednpoint with error: " + error.message);
+            // handle error conditions
+            }
+        );
+    });
+    ```
