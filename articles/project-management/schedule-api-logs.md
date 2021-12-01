@@ -1,14 +1,14 @@
 ---
-title: Project Scheduling logs
+title: Project scheduling logs
 description: This topic provides information and samples that will help you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
 author: ruhercul
-ms.date: 11/22/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
 ---
 
-# Project Scheduling logs
+# Project scheduling logs
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_, _Project for the Web_
 
