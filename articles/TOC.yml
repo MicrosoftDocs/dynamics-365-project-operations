@@ -304,6 +304,8 @@
         href: project-management/schedule-api-preview.md
       - name: Project schedule API performance
         href: project-management/project-schedule-api-performance.md
+      - name: Project scheduling logs
+        href: project-management/schedule-api-logs.md
   - name: Resource management
     items: 
     - name: Key concepts
