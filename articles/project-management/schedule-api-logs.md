@@ -63,8 +63,6 @@ The following table shows the fields that are related to the **Operation Set Det
 
 ## Project Scheduling Service error logs
 
-Fields related to the Schedule Service Error log entity.
-
 The Project Scheduling Service error logs capture failures that occur when the Project Scheduling Service tries a **Save** or **Open** operation. There are three supported scenarios where these logs are generated:
 
 - User-initiated actions critically fail (for example, an assignment can't be created because of missing privileges).
