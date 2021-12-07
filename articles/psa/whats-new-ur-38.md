@@ -32,25 +32,22 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed.
 
 **Time and Expense**
-- An exception when the length of approval set logs exceeds 100,000.
-- Users are unable to access the **Time Entry** grid from The **Time Entry** main page.
-- The **Time Entry Import** dialog box doesn't display any text when there are no items eligible for import.
-- Users are able to create approval sets with the **Target Status** set to **Unknown**.
+
+- An exception occurs when the length of approval set logs exceeds 100,000.
+- Users can't access the **Time Entry** grid from The **Time Entry** main page.
+- The **Time Entry Import** dialog box doesn't show any text when no items are eligible for import.
+- Users can create approval sets where the **Target Status** field is set to **Unknown**.
 
 **Project Management**
-- Contours aren't displayed correctly in resource assignments for UTC(+09:30) and UTC(+10:00) when daylight savings time starts.
-- The work breakdown structure **Additional Column** drop-down list is hidden in some locales.
-- The date picker for the the calendar control on the **Project Task** grid isn't correctly localized for Chinese.
+
+- Contours aren't shown correctly in resource assignments for UTC(+09:30) and UTC(+10:00) when daylight saving time starts.
+- The **Additional Column** field for work breakdown structures is hidden in some locales.
+- The date picker for the calendar control in the **Project Task** grid isn't correctly localized for Chinese.
 
 **Sales**
-- **Contract Performance** and **Project Actual Cost** don't match when bookable resources with different contracting units and currencies submit time entries.
-- Custom workflow to auto-confirm invoices fails with the message, **Microsoft.Xrm.Sdk.InvalidPluginExecutionException Message: Invalid invoice status** when they're imported as a managed soultion.
-- When **Root** is selected as the summarization option and the project has estimates from a mix of transactions classes, such as a combination of time, expense, and material estimates, the system summarizes across transaction classes as a single fee line.
-- In scenarios where an expense line is added before a contract line is associated with a project, the **Update Price** field doesn't default the correct pricing.
+
+- **Contract Performance** and **Project Actual Cost** values don't match when bookable resources that have different contracting units and currencies submit time entries.
+- A custom workflow to automatically confirm invoices fails when the invoices are imported as a managed solution. The following message is shown: "Microsoft.Xrm.Sdk.InvalidPluginExecutionException Message: Invalid invoice status."
+- When **Root** is selected as the summarization option, and the project has estimates from a mixture of transactions classes (for example, a combination of time, expense, and material estimates), the system summarizes across transaction classes as a single fee line.
+- In scenarios where an expense line is added before a contract line is associated with a project, the correct pricing isn't entered as a default value in the **Update Price** field.
 - Negative sales amounts aren't allowed on **Project** and **Task** entities.
-
-
-
-
-
-
