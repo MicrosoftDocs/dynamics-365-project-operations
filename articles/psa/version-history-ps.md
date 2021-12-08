@@ -33,35 +33,35 @@ search.app:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    | 3.10.58.130 |
-| Project Service Automation desktop add-in                | 3.15          |
+| Project Service Automation    | 3.10.59.117 |
+| Project Service Automation desktop add-in                | 3.60          |
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](/dynamics365/release-plans/). 
 
 | Station  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 03, 2021
+| | <i>First Release</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | January 14, 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 10, 2021
-| | <i>Canada</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 10, 2021
-| | <i>India</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 10, 2021
-| | <i>France</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 10, 2021
-| | <i>South Africa</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 10, 2021
-| | <i>Germany</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 10, 2021
-| | <i>Switzerland</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | December 10, 2021
+| | <i>South America</i> | [3.10.58.120](whats-new-ur-37.md) | [3.10.59.117](whats-new-ur-38.md) | December 10, 2021
+| | <i>Canada</i> | [3.10.58.120](whats-new-ur-37.md) | [3.10.59.117](whats-new-ur-38.md) | December 10, 2021
+| | <i>India</i> | [3.10.58.120](whats-new-ur-37.md) | [3.10.59.117](whats-new-ur-38.md) | December 10, 2021
+| | <i>France</i> | [3.10.58.120](whats-new-ur-37.md) | [3.10.59.117](whats-new-ur-38.md) | December 10, 2021
+| | <i>South Africa</i> | [3.10.58.120](whats-new-ur-37.md) | [3.10.59.117](whats-new-ur-38.md) | December 10, 2021
+| | <i>Germany</i> | [3.10.58.120](whats-new-ur-37.md) | [3.10.59.117](whats-new-ur-38.md) | December 10, 2021
+| | <i>Switzerland</i> | [3.10.58.120](whats-new-ur-37.md) | [3.10.59.117](whats-new-ur-38.md) | December 10, 2021
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
-| | <i>Asia Pacific</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
-| | <i>Great Britain</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
-| | <i>Oceana</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
-| | <i>United Arab Emirates</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | December 17, 2021
+| | <i>Japan</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | December 17, 2021
+| | <i>Asia Pacific</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | December 17, 2021
+| | <i>Great Britain</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | December 17, 2021
+| | <i>Oceana</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | December 17, 2021
+| | <i>United Arab Emirates</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | December 17, 2021
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | January 07, 2022
+| | <i>Europe</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | January 07, 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | January 14, 2022
+| | <i>North America</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | January 14, 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | TBD | January 14, 2022
+| | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | January 14, 2022
 | | <i>Dedicated Scale Groups</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.130](whats-new-ur-37-5.md) | December 10, 2021
 
 
