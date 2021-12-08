@@ -894,7 +894,7 @@
       href: pro/subcontracting/subcontract-line-resources.md
     - name: Subcontract line milestones
       href: pro/subcontracting/subcontract-line-milestones.md
-    - name: Configure Schedule Board to show Contract Workers and Subcontracted capacity
+    - name: Configure Schedule Board to show contract workers and subcontracted capacity
       href: pro/subcontracting/configure_sb_subcon.md      
   - name: Time
     items: 
