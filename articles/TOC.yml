@@ -894,6 +894,8 @@
       href: pro/subcontracting/subcontract-line-resources.md
     - name: Subcontract line milestones
       href: pro/subcontracting/subcontract-line-milestones.md
+    - name: State transitions for subcontract in Project Operations
+      href: pro/subcontracting/subcon_states.md
   - name: Time
     items: 
     - name: Time overview
