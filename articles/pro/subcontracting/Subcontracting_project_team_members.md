@@ -8,7 +8,7 @@ ms.reviewer: tonyafehr
 ms.author: rumant
 ---
 
-# Subcontracting_project_team_members.md
+# Subcontracting project team members
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
