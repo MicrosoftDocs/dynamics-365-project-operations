@@ -21,7 +21,7 @@ In Microsoft Dynamics 365 Project Operations, you can choose to subcontract unst
 
 When you link a project team member to a subcontract line, any assignments to tasks that the team member has will be re-costed based on the purchase price list attached to the subcontract.  On the **Estimates** tab on the **Project Details** page, select the **Update prices** button to see updated pricing and/or costing resulting from the decision to subcontract. 
 
-## Subcontracting unstaffed project team members
+## Subcontracting an unstaffed project team member
 The **Team Member details** page has subcontract and subcontract line fields that allow a project manager to express how they would like to draw the capacity required from a subcontract. To subcontract a project team member as a generic resource, follow these steps:
 
 1.	Choose a subcontract on the **Team member detail** page.
@@ -36,7 +36,7 @@ The **Team Member details** page has subcontract and subcontract line fields tha
 
 When a generic team member is associated with a subcontract and subcontract line, the **Worker type** field on the generic team member row will be updated to **Contract Worker** and **Subcontract Validity** will be set to **Valid**.
 
-## Subcontracting staffed project team members
+## Subcontracting a staffed project team member
 Like generic or unstaffed team members, staffed team member capacity required on a project can also be linked to a subcontract. To subcontract a named project team member, follow these steps:
 
 1.	Make sure that the named resource is set up as a contract worker type of bookable resource. Also, make sure that the **Vendor** field on the bookable resource matches the vendor on the subcontract that you are selecting. 
