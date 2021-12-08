@@ -4,7 +4,7 @@ description: This topic explains the state transistions on a Subcontract in Micr
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: tonyafehr 
 ms.author: rumant
 ---
 
@@ -16,6 +16,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 The following picture represents the state transitions on a Subcontract in Project Operations:
 
+![Subcontract state model](../media/SubconStates.png)  
 
 
 The table below gives a description of what each state represents in the lifecycle of a Subcontract in Project Operations:
