@@ -1,6 +1,6 @@
 ---
-title: Costing subcontracted resource assignments 
-description: This topic provides a description of how labor estimates or task assignments of subcontracted resources are costed in Project Operations.
+title: Configure Schedule Board to show Contract Workers and Subcontracted capacity 
+description: This topic provides a description of how to configure Schedule Board in Project Operations to show subcontracted resource capacity when staffing project resource requirements.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: tonyafehr
 ms.author: rumant
 ---
 
-# Costing subcontracted resource assignments 
+# Configure Schedule Board to show Contract Workers and Subcontracted capacity 
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
