@@ -25,7 +25,8 @@ To search for and staff resource requirements with contract workers that belong 
 6. Select one of the filtered resources and book the resource for the requirement. 
 7. Project team member is created and updated with subcontract and subcontract line reference.  Navigate to Project Estimates and click on update prices to see the updated cost of the resource assignment. 
 
-Note: Updating the project team member with a subcontract and subcontract line reference may not always be possible during the booking if the resource is assigned to multiple subcontract lines. If the system is unable to update the project team member with a subcontract and subcontract line, then open the project team member record and manually update these fields so that the financial cost estimate accurately reflects the subcontractor cost.
+> [!NOTE]
+> Updating the project team member with a subcontract and subcontract line reference may not always be possible during the booking if the resource is assigned to multiple subcontract lines. If the system is unable to update the project team member with a subcontract and subcontract line, then open the project team member record and manually update these fields so that the financial cost estimate accurately reflects the subcontractor cost.
 
 To search for and staff resource requirements with any contract worker, follow these steps:
 
@@ -38,7 +39,8 @@ To search for and staff resource requirements with any contract worker, follow t
 7. Select a contract worker from ones listed and book the resource for the requirement.
 8. Project team member is created. However, the project team member is not updated with any subcontract or subcontract line and therefore the resource assignment will not be costed using the subcontract pricing. Manually update the project team member with a subcontract line and navigate to Project Estimates and click on update prices to see the updated cost of the resource assignment. 
 
-Note: Project team members that have “Worker type” as “Contract worker” but do not have a subcontract reference are flagged as “Invalid” on the “Project team members” grid. When you see any project team members with this status, open the project team member record and manually update the subcontract and subcontract line fields so that the financial cost estimate accurately reflects the subcontractor cost on the Estimates tab. 
+> [!NOTE]
+> Project team members that have “Worker type” as “Contract worker” but do not have a subcontract reference are flagged as “Invalid” on the “Project team members” grid. When you see any project team members with this status, open the project team member record and manually update the subcontract and subcontract line fields so that the financial cost estimate accurately reflects the subcontractor cost on the Estimates tab. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
