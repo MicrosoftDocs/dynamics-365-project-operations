@@ -2,7 +2,7 @@
 title: Sign up for Project Operations trials
 description: This topic provides information about how to deploy a trial of Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -84,9 +84,9 @@ Before you begin, sign in to a browser with the user work account in the tenant 
  
 4.	Select the respective Microsoft Dataverse URL and the Finance and Operations apps URLs to validate the deployment.
 
-## Configuring Dual Write
-1. To confgure security roles for Dual Write, see [Update security settings on Project Operations in Dataverse](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-provision-new-environment)
-2. To configure Dual Wrtite Maps, see [Run Project Operations Dual Write Maps](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/resource-provision-new-environment#run-project-operations-dual-write-maps)
+## Configuring dual-write
+- To confgure security roles for dual-write, see [Update security settings on Project Operations in Dataverse](resource-provision-new-environment.md)
+- To configure dual-write maps, see [Run Project Operations dual-write maps](resource-provision-new-environment.md#run-project-operations-dual-write-maps)
 
 ## Assign licenses
 
