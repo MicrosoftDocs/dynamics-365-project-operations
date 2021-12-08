@@ -35,7 +35,7 @@ The query used for searching should also be updated to use these additional filt
 3. In the list of settings in this section, update the Filter Layout to **Default Filter Layout for Project Operations Lite**
 4. Update **Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Lite**.
 
-![Update Schedule Board settings for general resource search](../media/SubcontractingEAFlow.png)  
+![Update Schedule Board settings for general resource search](../media/BoardSettings.png)  
 
 
 ## Update Schedule Board settings for requirement – based resource search
@@ -55,7 +55,7 @@ The query used for searching should also be updated to use these additional filt
 5. Then open the tab **Schedule Types** and navigate to **Project**.
 6. Under the settings for **Project**, update the **Schedule Assistant Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Lite** and update **Schedule Assistant Retrieve Constraints Query** to **Default Retrieve Constraints Query for Project Operations Lite**.
 
-![Update Schedule Board settings for requirement – based resource search](../media/SubcontractingEAFlow.png)  
+![Update Schedule Board settings for requirement – based resource search](../media/SASettings.png)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
