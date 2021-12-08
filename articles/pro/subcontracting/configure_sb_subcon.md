@@ -1,5 +1,5 @@
 ---
-title: Configure Schedule Board to show Contract Workers and Subcontracted capacity 
+title: Configure Schedule Board to show contract workers and subcontracted capacity 
 description: This topic provides a description of how to configure Schedule Board in Project Operations to show subcontracted resource capacity when staffing project resource requirements.
 author: rumant
 ms.date: 08/02/2021
@@ -8,7 +8,7 @@ ms.reviewer: tonyafehr
 ms.author: rumant
 ---
 
-# Configure Schedule Board to show Contract Workers and Subcontracted capacity 
+# Configure Schedule Board to show contract workers and subcontracted capacity 
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
