@@ -1,53 +1,58 @@
 ---
-title: Key concepts in subcontracting 
-description: This topic explains some key concepts that apply to subcontracting in Microsoft Dynamics 365 Project Operations.
+title: Subcontracting project team members
+description: This topic explains how to subcontract project team members in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: tonyafehr 
 ms.author: rumant
 ---
 
-# Key concepts in subcontracting
+# Subcontracting_project_team_members.md
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-The topic explains some key concepts that you should be aware of before you start to use the subcontracting functionality in Microsoft Dynamics 365 Project Operations.
+In Project Operations, you can choose to subcontract staffed or unstaffed project team members.
 
-## Contracting unit on the subcontract
+•	Unstaffed project team members are team members that have a generic resource assigned. 
 
-The contracting unit represents the division or practice that owns the delivery of the eventual project. The contracting unit is also the division that enters into the contract relationship with the vendor.
+•	Staffed team members are team members that have a named resource assigned. 
 
-## Purchase currency
+When you link a project team member to a subcontract line, any assignments to tasks that the team member has will be re-costed based on the purchase price list attached to the subcontract.  On the Estimates tab of the Project Details page, click on “Update prices” button to see updated pricing and /or costing resulting from the decision to subcontract. 
 
-In Project Operations, the purchase currency is the currency that the subcontract is created in. It's also the currency that subcontractor costs on a project are recorded in. The purchase currency can differ from the project currency, and the project currency can, in turn, differ from the sales currency.
+## Subcontracting an unstaffed project team member:
+The Team Member details page has subcontract and subcontract line fields that allow a project manager to express that he or she would like to draw the capacity required from a subcontract. When deciding to subcontract a project team member that has a generic resource, follow the steps below:
 
-## Billing methods on subcontract lines
+a.	Choose a subcontract on the team member detail page to do this.
 
-For projects, there are typically fixed-fee and consumption-based contracting models. Project Operations supports these billing methods in the sales and purchase contexts. For a purchase, billing methods work in the following way:
+b.	You can only select subcontracts in Draft or Confirmed status. Closed or cancelled subcontracts cannot be selected. 
 
-- **Time and Material** – When a subcontract line uses the **Time and Material** billing method, the cost of time is recorded on the project as subcontractors work on that project and record time. These cost transactions from subcontractors are then matched with the line items on vendor invoices. In this model, project managers who use Project Operations can match and verify vendor invoice lines with subcontractor time that is recorded and approved. After the verification is completed, previous cost actuals that were recorded after approval are reversed, and new cost actuals that are based on the vendor invoice are created on the project.
-- **Fixed Price** – In this fixed-fee contracting model, vendor invoices are based on fixed milestones. However, subcontractor resources can also report time. The time is then reviewed and approved by the project manager. When it's approved, Project Operations creates temporary cost actuals on the project. After the vendor sends an invoice for a milestone, the project manager can match previously recorded cost actuals against the milestone. When the verification is completed, the cost actuals are reversed, and the milestone-based cost is recorded.
+c.	Subcontract line field becomes visible once you have selected a subcontract.
 
-## Project price lists on subcontracts
+d.	In the Subcontract line field, you can only select subcontract lines that are for time. You cannot select subcontract lines for Expense or Material
 
-Project price lists are price lists that are used to setup purchase prices for time, expense, and other project-related components. There can be multiple prices lists, each of which can have its own date-effective subcontract in Project Operations. Project Operations doesn't support overlapping effective dates on project price lists for a subcontract.
+e.	The role required on the project team member record needs to match the role on the subcontract line. This is to ensure that the role whose time is being estimated on the project is the role being purchased on the Subcontract line. 
 
-## Transaction classes on subcontracts
+Once a generic team member is associated with a subcontract and subcontract line, worker type field on the generic team member row will be updated to Contract Worker and Subcontract Validity will be set to the value “Valid”.
 
-Project Operations supports four types of transaction classes:
+## Subcontracting a staffed project team member:
+Like generic or unstaffed team members, staffed team member capacity required on a project can also be linked to a subcontract. When deciding to subcontract a named project team member, follow the steps below:
 
-- Time
-- Expense
-- Material
-- Fee
+a.	Make sure that the named resource is setup as a contract worker type of bookable resource. Also, make sure is that the vendor field on the bookable resource matches the vendor on the subcontract that you are selecting. 
 
-Purchase costs can be estimated and incurred only on **Time**, **Expense**, and **Material** transaction classes. **Fee** is a revenue-only transaction class and isn't available in the content of purchasing.
+b.	You can only select subcontracts in Draft or Confirmed status. Closed or cancelled subcontracts cannot be selected. 
 
-## Purchase pricing dimensions
+c.	Subcontract line field becomes visible once you have selected a subcontract.
 
-Pricing dimensions let you decide what attributes are used for purchase price setup and defaulting on time transactions. In relation to purchasing, Project Operations supports only fixed dimension sets for purchase price setup and defaulting. For purchase price setup and defaulting on subcontract lines and subcontract time transactions, the attributes are **Role** and **Bookable Resource**.
+d.	In the Subcontract line field, you can only select subcontract lines that are for time. You cannot select subcontract lines for Expense or Material
+
+e.	The role on the project team member record needs to match with the role on the subcontract line. This is to ensure that the role whose time is being estimated on the project is the role being purchased on the Subcontract line. 
+
+Named project team members that are set up as contract worker type of bookable resource will be show with a subcontract validity status of “Not valid” if they are not linked with a subcontract.  Once a named project team member is associated with a subcontract and subcontract line, worker type field on the team member row will be updated to Contract Worker and Subcontract Validity will be set to the value “Valid”.
+
+
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
