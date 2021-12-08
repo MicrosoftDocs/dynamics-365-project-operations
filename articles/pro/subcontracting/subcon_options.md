@@ -15,12 +15,14 @@ ms.author: rumant
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 In Project Operations, you can evaluate the subcontracting options available for one or more Project Team Members. Subcontracting options available are:
+
 •	Create a new subcontract and or create new lines on an existing subcontract for the selected project team members 
 •	Reserve against an already existing subcontract and subcontract line. 
 
 You can review and choose from the available subcontracting options for generic project team members or for project team members that have been staffed with a named resource who is a contract worker. 
 
 There are no subcontracting options available for 
+
 a.	Project team members that have been staffed with an Employee. 
 b.	Project team members that are already associated to a Subcontract and Subcontract line. 
 
