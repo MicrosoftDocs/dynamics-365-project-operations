@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
 | --- | --- |
-| 4.26.0.150 | 10.0.22 |
+| 4.27.0.195 | 10.0.22 |
 
 For Project Operations Resource/non-stocked scenario, we recommend to use dual-write Orchestration version 2.3.1.15 or higher.
 
@@ -42,23 +42,23 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.26.0.150     | Complete           | Complete            | TBD                 | December 06, 2021   |
+|   &nbsp;  | First Release         |  4.27.0.195     | Complete           | December 10, 2021   | TBD                 | January 14, 2022    |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.26.0.150     | Complete           | Complete            | TBD                 | December 06, 2021   |
-|   &nbsp;  | Canada                |  4.26.0.150     | Complete           | Complete            | TBD                 | December 06, 2021   |
-|   &nbsp;  | India                 |  4.26.0.150     | Complete           | Complete            | TBD                 | December 06, 2021   |
-|   &nbsp;  | France                |  4.26.0.150     | Complete           | Complete            | TBD                 | December 06, 2021   |
-|   &nbsp;  | South Africa          |  4.26.0.150     | Complete           | Complete            | TBD                 | December 06, 2021   |
+|   &nbsp;  | South America         |  4.27.0.195     | December 10, 2021  | December 17, 2021   | TBD                 | January 14, 2022    |
+|   &nbsp;  | Canada                |  4.27.0.195     | December 10, 2021  | December 17, 2021   | TBD                 | January 14, 2022    |
+|   &nbsp;  | India                 |  4.27.0.195     | December 10, 2021  | December 17, 2021   | TBD                 | January 14, 2022    |
+|   &nbsp;  | France                |  4.27.0.195     | December 10, 2021  | December 17, 2021   | TBD                 | January 14, 2022    |
+|   &nbsp;  | South Africa          |  4.27.0.195     | December 10, 2021  | December 17, 2021   | TBD                 | January 14, 2022    |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.26.0.150     | Complete           | Complete            | TBD                 | December 10, 2021   |
-|   &nbsp;  | Asia Pacific          |  4.26.0.150     | Complete           | Complete            | TBD                 | December 10, 2021   |
-|   &nbsp;  | Great Britain         |  4.26.0.150     | Complete           | Complete            | TBD                 | December 10, 2021   |
-|   &nbsp;  | Oceania               |  4.26.0.150     | Complete           | Complete            | TBD                 | December 10, 2021   |
-|   &nbsp;  | United Arab Emirates  |  4.26.0.150     | Complete           | Complete            | TBD                 | December 10, 2021   |
+|   &nbsp;  | Japan                 |  4.26.0.150     | Complete           | Complete            | 4.27.0.195          | December 10, 2021   |
+|   &nbsp;  | Asia Pacific          |  4.26.0.150     | Complete           | Complete            | 4.27.0.195          | December 10, 2021   |
+|   &nbsp;  | Great Britain         |  4.26.0.150     | Complete           | Complete            | 4.27.0.195          | December 10, 2021   |
+|   &nbsp;  | Oceania               |  4.26.0.150     | Complete           | Complete            | 4.27.0.195          | December 10, 2021   |
+|   &nbsp;  | United Arab Emirates  |  4.26.0.150     | Complete           | Complete            | 4.27.0.195          | December 10, 2021   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.26.0.150     | Complete           | December 10, 2021   | TBD                 | December 17, 2021   |
+|   &nbsp;  | Europe                |  4.26.0.150     | Complete           | December 10, 2021   | 4.27.0.195          | December 17, 2021   |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.26.0.150     | December 10, 2021  | December 17, 2021   | TBD                 | January 07, 2022    |
+|   &nbsp;  | North America         |  4.26.0.150     | December 10, 2021  | December 17, 2021   | 4.27.0.195          | January 07, 2022    |
 
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
