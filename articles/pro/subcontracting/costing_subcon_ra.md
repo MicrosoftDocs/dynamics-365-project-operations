@@ -35,7 +35,9 @@ Using the Team tab on the project, you can create a generic or a named team memb
 
 ## Updating Estimates
 Once you have assigned project team members to tasks you will need to navigate to the Estimates tab on the project and click on **Update prices** to ensure that the cost rates of subcontractor resource assignments are updated based on the purchase price list attached to the subcontract. Note that estimates are not generated for unassigned tasks in Project Operations. So, it is required that you create task assignments to price and cost various tasks on your project. 
-Note: Project team members that have **Worker type** as **Contract worker** but do not have a subcontract reference are flagged as **Invalid** on the **Project team members** grid. When you see any project team members with this status, open the project team member record and manually update the subcontract and subcontract line fields so that the financial cost estimate accurately reflects the subcontractor cost on the Estimates tab. 
+
+> [Note!] 
+> Project team members that have **Worker type** as **Contract worker** but do not have a subcontract reference are flagged as **Invalid** on the **Project team members** grid. When you see any project team members with this status, open the project team member record and manually update the subcontract and subcontract line fields so that the financial cost estimate accurately reflects the subcontractor cost on the Estimates tab. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
