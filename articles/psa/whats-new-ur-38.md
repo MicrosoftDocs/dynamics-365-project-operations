@@ -33,7 +33,7 @@ The following issues have been fixed.
 
 **Time and Expense**
 
-- An exception occurs when the length of approval set logs exceeds 100,000.
+- An exception occurs when the length of approval set logs exceeds 100,000 records.
 - Users can't access the **Time Entry** grid from The **Time Entry** main page.
 - The **Time Entry Import** dialog box doesn't show any text when no items are eligible for import.
 - Users can create approval sets where the **Target Status** field is set to **Unknown**.
