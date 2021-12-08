@@ -894,6 +894,8 @@
       href: pro/subcontracting/subcontract-line-resources.md
     - name: Subcontract line milestones
       href: pro/subcontracting/subcontract-line-milestones.md
+    - name: Recording time, expenses and material usage for subcontracted components
+      href: pro/subcontracting/recording_subcon_actuals.md
   - name: Time
     items: 
     - name: Time overview
