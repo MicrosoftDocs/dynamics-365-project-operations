@@ -16,7 +16,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Task assignments of subcontracted project team members are costed using the **Purchase** price list attached to the subcontract on the related team member record. This is different from how employee resource assignments are costed where task assignments of employee resources are costed using the **Cost** price list that is attached to the contracting unit of the project. 
 
-For generic project team members that are subcontracted, the assignments are costed using a role-based price setup in the purchase price list attached to the subcontract. Purchase prices can also be set up specifically for each resource. These resources will given priority when costing task assignments of named project team members are contract workers. 
+For generic project team members that are subcontracted, the assignments are costed using a role-based price setup in the purchase price list attached to the subcontract. Purchase prices can also be set up specifically for each resource. These resource-specific prices will be given priority when costing task assignments of named project team members are contract workers. 
 
 Priority of using role-specific purchase price versus resource-specific is driven by the set up of the pricing dimension priority in **Parameters > Amount-based-pricing dimensions**.
 
