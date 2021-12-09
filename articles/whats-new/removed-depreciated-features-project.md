@@ -31,7 +31,7 @@ This list is intended to help you consider these removals and deprecations for y
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for depreciation/ removal** | Deprecated due to low usage. Customers using Project Operations for resource/non-stocked scenarios can leverage [Collaboration with Office Groups](https://docs.microsoft.com/dynamics365/project-operations/project-management/collaboration-groups). |
+| **Reason for depreciation/ removal** | Deprecated due to low usage. Customers using Project Operations for resource/non-stocked scenarios can leverage [Collaboration with Office Groups](../project-management/collaboration-groups.md). |
 | **Replaced by another features?** | No |
 | **Product areas affected** | Application  |
 | **Deployment option** | Project Operations for production/stocked scenarios |
