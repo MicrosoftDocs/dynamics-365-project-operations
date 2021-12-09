@@ -20,11 +20,8 @@ This topic applies to the following components and versions of Microsoft Dynamic
 
 ## Features included in this release
 
-- Improved troubleshooting for system administrators. When a user can't open a project, the administrator can review non-license related errors generated from Project for the web in [Project scheduling logs](../project-management/schedule-api-logs.md).
+- Improved troubleshooting for system administrators. When a user can't open a project, the administrator can review non-license related errors generated from Project for the web in [Project scheduling logs](../../project-management/schedule-api-logs.md).
 - [Use task checklists in Microsoft Project for the web](https://support.microsoft.com/en-us/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c). In Microsoft Project for the web, you can add a checklist to a task to keep track of specific items.
-
-
-##
 
 ## Quality updates
 
