@@ -896,6 +896,10 @@
       href: pro/subcontracting/subcontract-line-milestones.md
     - name: Recording time, expenses, and material usage for subcontracted components
       href: pro/subcontracting/recording_subcon_actuals.md
+    - name: Cost estimation of subcontracted resource assignments
+      href: pro/subcontracting/costing_subcon_ra.md
+    - name: State transitions on a subcontract in Project Operations
+      href: pro/subcontracting/subcon_states.md
   - name: Time
     items: 
     - name: Time overview
