@@ -11,7 +11,7 @@
   - name: Removed or deprecated features
     items: 
     - name: Removed or deprecated features in Project Operations
-    - href: whats-new/removed-depreciated-features-project.md
+      href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations for resource/non-stocked based scenarios
   items:
   - name: Get started
