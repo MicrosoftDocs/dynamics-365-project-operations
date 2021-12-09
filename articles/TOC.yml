@@ -896,6 +896,16 @@
       href: pro/subcontracting/subcontract-line-milestones.md
     - name: Subcontracting options for project team members
       href: pro/subcontracting/subcon_options.md      
+    - name: Configure Schedule Board to show contract workers and subcontracted capacity
+      href: pro/subcontracting/configure_sb_subcon.md      
+    - name: Staffing a project with contract workers and subcontracted capacity
+      href: pro/subcontracting/staffing_cw.md
+    - name: Recording time, expenses, and material usage for subcontracted components
+      href: pro/subcontracting/recording_subcon_actuals.md
+    - name: Cost estimation of subcontracted resource assignments
+      href: pro/subcontracting/costing_subcon_ra.md
+    - name: State transitions on a subcontract in Project Operations
+      href: pro/subcontracting/subcon_states.md
   - name: Time
     items: 
     - name: Time overview
@@ -1120,6 +1130,8 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update Release 38, V3
+      href: psa/whats-new-ur-38.md
     - name: What's new or changed in Update Release 37.5, V3
       href: psa/whats-new-ur-37-5.md
     - name: What's new or changed in Update Release 37, V3
