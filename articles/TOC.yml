@@ -8,6 +8,10 @@
     href: environment/admin-trials.md
   - name: Project Operations updates
     href: whats-new/project-operations-updates.md
+  - name: Removed or deprecated features
+    items: 
+    - name: Removed or deprecated features in Project Operations
+      href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations for resource/non-stocked based scenarios
   items:
   - name: Get started
