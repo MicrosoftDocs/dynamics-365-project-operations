@@ -895,19 +895,19 @@
     - name: Subcontract line milestones
       href: pro/subcontracting/subcontract-line-milestones.md
     - name: Subcontracting project team members
-      href: pro/subcontracting/Subcontracting_project_team_members.md
+      href: pro/subcontracting/subcontracting-project-team-members.md
     - name: Subcontracting options for project team members
-      href: pro/subcontracting/subcon_options.md      
+      href: pro/subcontracting/subcon-options.md      
     - name: Configure Schedule Board to show contract workers and subcontracted capacity
-      href: pro/subcontracting/configure_sb_subcon.md      
+      href: pro/subcontracting/configure-sb-subcon.md      
     - name: Staffing a project with contract workers and subcontracted capacity
-      href: pro/subcontracting/staffing_cw.md
+      href: pro/subcontracting/staffing-cw.md
     - name: Recording time, expenses, and material usage for subcontracted components
-      href: pro/subcontracting/recording_subcon_actuals.md
+      href: pro/subcontracting/recording-subcon-actuals.md
     - name: Cost estimation of subcontracted resource assignments
-      href: pro/subcontracting/costing_subcon_ra.md
+      href: pro/subcontracting/costing-subcon-ra.md
     - name: State transitions on a subcontract in Project Operations
-      href: pro/subcontracting/subcon_states.md
+      href: pro/subcontracting/subcon-states.md
   - name: Time
     items: 
     - name: Time overview
