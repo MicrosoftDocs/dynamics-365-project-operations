@@ -912,15 +912,15 @@
       href: pro/subcontracting/subcontracting-project-team-members.md
     - name: Subcontracting options for project team members
       href: pro/subcontracting/subcon-options.md      
+    - name: Cost estimation of subcontracted resource assignments
+      href: pro/subcontracting/costing-subcon-ra.md
     - name: Configure Schedule Board to show contract workers and subcontracted capacity
       href: pro/subcontracting/configure-sb-subcon.md      
     - name: Staffing a project with contract workers and subcontracted capacity
       href: pro/subcontracting/staffing-cw.md
     - name: Recording time, expenses, and material usage for subcontracted components
       href: pro/subcontracting/recording-subcon-actuals.md
-    - name: Cost estimation of subcontracted resource assignments
-      href: pro/subcontracting/costing-subcon-ra.md
-    - name: State transitions on a subcontract in Project Operations
+    - name: State transitions on a subcontract 
       href: pro/subcontracting/subcon-states.md
   - name: Time
     items: 
