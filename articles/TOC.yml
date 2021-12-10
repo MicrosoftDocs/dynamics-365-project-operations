@@ -536,12 +536,12 @@
       href: revenue-recognition/cost-complete-methods.md
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md
-    - name: Troubleshooting
-      items:
-      - name: Project sales process
-        items:
-        - name: Currency mismatch error when creating project, contract, quote, or bookable resource
-          href: troubleshooting/project-sales-process/currency-mismatch-error.md   
+- name: Troubleshooting
+  items:
+  - name: Project sales process
+    items:
+    - name: Currency mismatch error when creating project, contract, quote, or bookable resource
+      href: troubleshooting/project-sales-process/currency-mismatch-error.md   
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Get started
