@@ -22,9 +22,9 @@ This topic applies to the following components and versions of Microsoft Dynamic
 
 - Improved troubleshooting for system administrators. When a user can't open a project, the administrator can review non-license related errors generated from Project for the web in [Project scheduling logs](../../project-management/schedule-api-logs.md).
 - [Use task checklists in Microsoft Project for the web](https://support.microsoft.com/en-us/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c). In Microsoft Project for the web, you can add a checklist to a task to keep track of specific items.
-- Subcontract management - This release enhances to the subcontract management capabiliites to include the following additional features:
-
-1. A project manager can create associate generic or named team members with subcontracts and suncontract lines to impact staffing and estimation.[Subcontracting project team members](../../project-management/schedule-api-logs.md).
+## Subcontract management 
+This release enhances to the subcontract management capabiliites to include the following additional features:
+1. A project manager can create associate generic or named team members with subcontracts and suncontract lines to impact staffing and estimation.[Subcontracting project team  members](../../project-management/schedule-api-logs.md).
 2. When making staffing choices for named or generic project team members, the project manager can review existing subcontracts or create new subcontracts for one or more project team members. [Subcontracting options for project team members](../../project-management/schedule-api-logs.md).
 3. Project cost estimation will take into account subcontracted resource assignments and will cost them using the purchase price lists associated with Subcontracts. [Cost estimation of subcontracted resource assignments](../../project-management/schedule-api-logs.md).
 4. Schedule Board in Project Operations can now be configured to search for and suggest contract worker type of bookable resources and subcontracted capacity along with employees. This configuration can be applied when searching for resources within the context of staffing for specific project requirement or when searching outside of the context of a project requirement. [Configure Schedule Board to show contract workers and subcontracted capacity](../../project-management/schedule-api-logs.md).
