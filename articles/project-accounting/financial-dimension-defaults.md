@@ -2,7 +2,7 @@
 title: Financial dimension defaults
 description: This topic provides information about how to set up financial dimension defaults.
 author: sigitac
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
@@ -55,6 +55,15 @@ Projects are created and maintained in CDS. Accounting attributes for projects a
 4. Set the financial dimension defaults. Notice that financial dimensions default from the customer account. If the project is associated with a contract line with multiple project contract customers, the primary customer is used to default financial dimensions.
 
 Project default financial dimensions are used to set journal line defaults for time, expense, and fee transactions in the **Project Operations Integration Journal** and on related project invoice lines.
+
+## Apply financial dimensions for project time entries
+To apply financial dimensions for project time entries, note that the default dimension value is based on the following order:
+
+1. Resource
+2. Project
+3. Funding source
+
+For example, if the default dimension is specified on a resource it will be applied over a default that is specified on the project. Similarly, a default project dimension will be applied over the default that is specified in the funding source.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
