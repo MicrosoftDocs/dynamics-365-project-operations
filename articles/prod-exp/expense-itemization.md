@@ -14,14 +14,14 @@ ms.author: suvaidya
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-# Enabling Quick Itemization 
+## Enabling Quick Itemization 
 
 Enable the Reimagined Expense UI and then enable "Ability to itemize recurring expenses quickly " feature. 
 
 The "Ability to itemize recurring expenses quickly " feature enables users to itemize recurring expenses quickly while avoiding the need to enter the daily expenses each time for the duration of stay.
 
 
-# Itemization Grid 
+## Itemization Grid 
 
 If an Expense category has subcategories, then these expenses can be itemized.  To Itemize an expense, select the expense line in the expense report, and in the expense details pane, click on "Actions"--> "Itemize". The Itemization slider will reveal a grid wiht the following fields. Below is an example of each field in the grid and how this will render in the expense report. 
 
