@@ -91,7 +91,7 @@ As an administrator, you can define custom fields on the task entity. However th
 
 ## Staffing attributes
 
-Staffing attributes are accessed through the **Resources** field in the schedule. You can either search for an existing resource, or select **Create**, and in the **Quick Create** pane, add a project team member as a new resource.
+Staffing attributes are accessed through the **Resources** field in the schedule. You can either search for an existing resource, or select **Create**, and in the **Quick Create** pane, add a project team member as a new resource.  When searching for a resource in the resource picker in the task grid, board view or gantt, the search will return either existing project team members or active bookable resources.
 
 The **Role**, **Resourcing Unit**, and **Position Name** fields are used to describe the staffing requirements for the task. These staffing attributes, together with the task schedule are used to find available resources to do this task.
 
@@ -123,6 +123,7 @@ You should be aware of the following limitations if you are using the work break
 | Maximum total resources for a project              | 150                  |
 | Maximum total links (successor only) for a project | 600                  |
 | Maximum total custom fields for a project          | 10                   |
+| Maximum checklist items per task         | 20                   |
 
 **Task limitations**
 
