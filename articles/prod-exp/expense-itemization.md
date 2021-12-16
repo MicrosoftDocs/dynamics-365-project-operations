@@ -1,6 +1,6 @@
 ---
 title: Expense itemization
-description: This topic describes how users can itemize their expenses using the reimagined expense workspace
+description: This topic explains how to itemize expenses using the reimagined Expense workspace.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -39,8 +39,7 @@ To itemize an expense, select the expense line in the expense report, and in the
 
 ![Itemize expense.](media/Itemization%20screen%201.png)
 
-
-On saving the itemization , users will see an individual itemized line, for the quantity specified in their itemization grid, each starting on the date specified in the grid.
+When you save an itemization, you will see an individual itemized line for the quantity specified in the Itemization grid. Each line starta on the date specified in the grid.
 
 ![Itemized report.](media/Itemization%20screen%202.png)
 
