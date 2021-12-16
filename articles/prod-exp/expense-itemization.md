@@ -1,6 +1,6 @@
 ---
 title: Expense itemization
-description: 
+description: This topic describes how users can itemize their expenses using the reimagined expense workspace
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
@@ -27,7 +27,8 @@ You can use the **Ability to itemize recurring expenses quickly** feature to ite
 
 ## Itemization grid 
 
-If an expense category has subcategories, then these expenses can be itemized. To itemize an expense, select the expense line in the expense report, and in the **Expense details** pane, select **Actions** > **Itemize**. The **Itemization** slider reveals a grid with fields. The following table provides an example of each field in the grid and how the field is rendered in the expense report. 
+If an expense category has subcategories or different components that make up that expense, then it can be itemized. 
+To itemize an expense, select the expense line in the expense report, and in the **Expense details** pane, select **Actions** > **Itemize**. The **Itemization** slider reveals a grid with fields. The following table provides an example of each field in the grid and how the field is rendered in the expense report. 
 
 |     Field          |     Description                                                                                  |     Examples             |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
@@ -36,10 +37,10 @@ If an expense category has subcategories, then these expenses can be itemized. T
 |     Daily Rate     |     The amount incurred for the expense item.                                                    |     200                  |
 |     Quantity       |     The number of times the charge is repeated across a continuous period.                       |     3                    |
 
-![Itemize expense.](https://user-images.githubusercontent.com/60446296/146428241-944b3824-91b1-43e9-8925-9e94bd49c952.png)
+![Itemize expense.](media/Itemization%20screen%201.png)
+
 
 On saving the itemization , users will see an individual itemized line, for the quantity specified in their itemization grid, each starting on the date specified in the grid.
 
-![Itemized report.](https://user-images.githubusercontent.com/60446296/146428356-e2e83e46-f9da-4505-bd84-33fa2b54116b.png)
-
+![Itemized report.](media/Itemization%20screen%202.png)
 
