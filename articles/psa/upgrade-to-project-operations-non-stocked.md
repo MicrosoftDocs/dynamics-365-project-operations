@@ -19,12 +19,11 @@ search.app:
 Introduction
 ============
 
-As a team we are excited to announce the first of three phases of upgrade to
-Project Operations from our existing Project Service Automation (PSA). For
-customers embarking on this exciting journey we are providing this documentation
-along with future articles which include developer considerations and details on
+As a team we are excited to announce the first of three phases of upgrade from Project Service Automation (PSA) to Project Operations. For
+customers embarking on this exciting journey, we are providing this overview 
+along with future articles which will include developer considerations and details on
 the feature enhancements to provide guidance on not only how to prepare for your
-upgrade but what to expect once you have upgraded to Project Operations. The
+upgrade but also what to expect once you have upgraded to Project Operations. The
 upgrade delivery program will be split into the 3 phases as described below:
 
 |                                                                                                                     | **Phase 1 (January 2022)** | **Phase 2 (April Wave 2022)** | **Phase 3 (April Wave 2022)** |
@@ -38,29 +37,27 @@ Features of the upgrade process
 
 As part of the upgrade process, we have added upgrade logs to the site map to
 make it easier for administrators to diagnose failures. Along with the new
-interface, there are new validation rules which will be added to ensure valid
-data is store post upgrade. The following validations will be added to the
+interface, there are new validation rules which will be added to ensure data integrity post upgrade. The following validations will be added to the
 upgrade process:
 
 |                                                                                                                                                                                                   | **Phase 1 (January 2022)** | **Phase 2 (April Wave 2022)** | **Phase 3 (April Wave 2022)** |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|-------------------------------|-------------------------------|
-| The work breakdown structure will be validated against common data integrity violations (e.g. Resource assignments are associated with the same parent task but have a different parent projects) |                            | ü                             | ü                             |
-| The work breakdown structure will be validated against the [known limits of Project for the Web](https://docs.microsoft.com/en-us/project-for-the-web/project-for-the-web-limits-and-boundaries)  |                            | ü                             | ü                             |
-| The work breakdown structure will be validated against the know limits of the Microsoft Project Desktop Client                                                                                    |                            | ü                             | ü                             |
-| Bookable resources and project calendars will be evaluated against common incompatible calendar rule exceptions                                                                                   |                            | ü                             | ü                             |
+| The work breakdown structure will be validated against common data integrity violations (e.g. Resource assignments are associated with the same parent task but have a different parent projects) |                            | :heavy_check_mark:                              | :heavy_check_mark:                            |
+| The work breakdown structure will be validated against the [known limits of Project for the Web](https://docs.microsoft.com/en-us/project-for-the-web/project-for-the-web-limits-and-boundaries)  |                            | :heavy_check_mark:                            | :heavy_check_mark:                             |
+| The work breakdown structure will be validated against the know limits of the Microsoft Project Desktop Client                                                                                    |                            | :heavy_check_mark:                             | :heavy_check_mark:                            |
+| Bookable resources and project calendars will be evaluated against common incompatible calendar rule exceptions                                                                                   |                            | :heavy_check_mark:                             | :heavy_check_mark:                            |
 
 In Phase 2, Customers who choose to upgrade to Project Operations will have
-their existing projects upgraded to a read only experience in project planning.
+their existing projects upgraded to a read only experience for project planning where the full work breakdown structure will be visible in the tracking grid.
 To edit their work breakdown structures (WBS), Project Managers will select
 **Convert** from the project main form. This background process will update the
 project to support the new project scheduling experience from Project for the
 Web. This phase is appropriate for customers who have projects that fit within
 the [known limits of Project for the
 Web](https://docs.microsoft.com/en-us/project-for-the-web/project-for-the-web-limits-and-boundaries).
-In Phase 3, supported will be added for the desktop client and customers who
-wish to continue editing their projects from the desktop client will be afforded
-that option. However, if they choose to convert their existing projects to the
-new Project for the Web experience, access to the add-in will be disabled.
+In Phase 3, support will be added for the Microft Project desktop client for customers who
+wish to continue editing their projects from that application. However, if they choose to convert their existing projects to the
+new Project for the Web experience, access to the add-in will be disabled for each converted project.
 
 Prerequisites
 =============
@@ -79,18 +76,18 @@ criteria:
 
 4.  The target environment must be updated to Project Service Automation Update Release 38 or newer.
 
+
 Prerequisites for Phase 2 and Phase 3 will be updated as we approach the general
 availability dates.
 
 Licensing
 =========
 
-Currently licensed Project Service Automation customers are entitled through
-grandfathering to install and use Project Operations, this allows you to install
-and test the Project Operations capabilities while continuing to utilize PSA in
-production. Once your PSA license expires you will need to transition over to
+Customer with active licenses for Project Service Automation (PSA) are entitled through
+grandfathering to install and use Project Operations. This allows customers to test capabilities while continuing to utilize PSA in
+production. Once your PSA licenses expire you will need to transition to
 Project Operations which includes all the capabilities of PSA and more. However,
-the Project Operations license does not include a license to PSA 3.x, this
+the Project Operations license does not include a license to PSA, this
 should be accounted for in planning for your transition.
 
 
@@ -167,17 +164,17 @@ Executing upgrade in production
     installed.
 
     Note: Depending on the amount of data in the environment, this upgrade may
-    take several hours to complete. The core team managing the upgrade should plan accordningly and execute the upgrade in non-business hours.  In som einstances, if the data volume is large, the upgrade run should be executed during the weekend.   The scheduling of this decision should be based on testing in lower
+    take several hours to complete. The core team managing the upgrade should plan accordningly and execute the upgrade in non-business hours.  In some instances, if the data volume is large, the upgrade run should be executed during the weekend.   The scheduling of this decision should be based upon the testing results in lower
     environments.
 
 2.  Upgrade any custom solutions as applicable. You will likely have made
     changes to your customizations in the “Testing and Refactoring
     Customizations” step above, and now is the time to deploy these.
 
-3.  Uninstall the Project Operations Deprecated Components solution.
+3.  From **Settings > Solutions**, uninstall the Project Operations Deprecated Components solution.
 
-    This solution is meant as a temporary solution that existing data model and
-    components are present during upgrade. Step 2 above should remove all
+    This solution is intended to be a temporary solution to house the existing data model and
+    components that are present during upgrade. Step 2 above should remove all
     dependencies on these components. By removing this solution, you remove all
     the fields and components no longer used, which allows for a simpler
     interface and easier integration/extension.
@@ -185,9 +182,7 @@ Executing upgrade in production
 Overview of major changes between Project Service Automation (PSA) and Project Operations
 =========================================================================================
 
-The [Feature Changes](docs.microsoft.com) article provides an in-depth analysis
-of all the changes between PSA and Project Operations. The list below is a
-summary of what users can expect.
+The list below is a summary the major changes users can expect:
 
 Project Planning
 ----------------
@@ -199,14 +194,14 @@ scheduling capabilities enables several new features including but not limited
 to: Board and Gantt Views, Resource Driven Planning, [Task Checklist
 Items](https://support.microsoft.com/en-us/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c)
 and Project Scheduling Modes. The new scheduling capabilities are also supported
-by a rich set of new APIs geared towards ensuring that any programmatic
+by a rich set of new [APIs](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-management/schedule-api-preview) geared towards ensuring that any programmatic
 operations to create, update or delete an entity in the work breakdown structure
 do not corrupt the calculated fields in the schedule.
 
 Billing and Pricing
 -------------------
 
-As part of our continuing investments in Project Operations we have launch a
+As part of our continuing investments in Project Operations we have also launched a
 number new capabilities in Billing and Pricing, including the following:
 
 -   [Recording material usage on projects and project
