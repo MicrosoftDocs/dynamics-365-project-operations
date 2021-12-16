@@ -3,7 +3,7 @@
 title: Create a work breakdown structure 
 description: This topic explains how to create a work breakdown structure (WBS) inclusive of the basic controls in the new scheduling interface.
 author:  ruhercul
-ms.date: 06/30/2021  
+ms.date: 12/16/2021  
 ms.topic: article 
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -91,11 +91,11 @@ As an administrator, you can define custom fields on the task entity. However th
 
 ## Staffing attributes
 
-Staffing attributes are accessed through the **Resources** field in the schedule. You can either search for an existing resource, or select **Create**, and in the **Quick Create** pane, add a project team member as a new resource.
+Staffing attributes are accessed through the **Resources** field in the schedule. You can either search for an existing resource, or select **Create**, and in the **Quick Create** pane, add a project team member as a new resource.  When you search for a resource using the resource picker in the task grid, board view or gantt, the search returns either existing project team members or active bookable resources.
 
 The **Role**, **Resourcing Unit**, and **Position Name** fields are used to describe the staffing requirements for the task. These staffing attributes, together with the task schedule are used to find available resources to do this task.
 
-   - **Role**: Specify the type of resource that is required to do the task.
+   - **Role**: Specify the type of resource that is required to do the task.,
    - **Resourcing unit**: Specify the unit that resources for the task should be assigned from. This attribute affects the cost and sales estimate for the task if the cost and bill rate for the resource are set based on resourcing units.
    - **Position name**: Enter a name for the generic resource that serves as a placeholder for the resource that will ultimately do the work.
 
@@ -123,6 +123,7 @@ You should be aware of the following limitations if you are using the work break
 | Maximum total resources for a project              | 150                  |
 | Maximum total links (successor only) for a project | 600                  |
 | Maximum total custom fields for a project          | 10                   |
+| Maximum checklist items per task                   | 20                   |
 
 **Task limitations**
 
