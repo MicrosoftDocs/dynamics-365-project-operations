@@ -14,16 +14,18 @@ ms.author: suvaidya
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
+Organizations often require employees to provide the detailed breakdown of expenses incurred during travel.  For e.g. a hotel folio may contain several itemized lines for room rate, tax , parking, and other miscellaneous expenses incurred each day during the duration of stay . Or a Meal expense may require providing more granular expense breakdown for breakfast, lunch or dinner. Whatever the needs of the Organization, each expense category can be set up to reflect the subcategories or the line items making up that expense. While itemization has always been supported in D365 expense management module, the Reimagined expense workspace enables more efficient itemization when the "Ability to itemize recurring expenses quickly" feature is turned on.  
+
 ## Enabling Quick Itemization 
 
-Enable the Reimagined Expense UI and then enable "Ability to itemize recurring expenses quickly " feature. 
+Navigate to Feature Management and first enable the "Expense Reports Reimagined" feature and then turn on the "Ability to itemize recurring expenses quickly " feature. 
 
 The "Ability to itemize recurring expenses quickly " feature enables users to itemize recurring expenses quickly while avoiding the need to enter the daily expenses each time for the duration of stay.
 
 
 ## Itemization Grid 
 
-If an Expense category has subcategories, then these expenses can be itemized.  To Itemize an expense, select the expense line in the expense report, and in the expense details pane, click on "Actions"--> "Itemize". The Itemization slider will reveal a grid wiht the following fields. Below is an example of each field in the grid and how this will render in the expense report. 
+If an Expense category has subcategories, then these expenses can be itemized.  To Itemize an expense, select the expense line in the expense report, and in the expense details pane, click on "Actions"--> "Itemize". The Itemization slider will reveal a grid with the following fields. Below is an example of each field in the grid and how this will render in the expense report. 
 
 |     Field Name     |     Field   Description                                                                          |     Example(s)           |
 |--------------------|--------------------------------------------------------------------------------------------------|--------------------------|
