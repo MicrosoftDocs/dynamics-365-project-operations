@@ -63,6 +63,7 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 | Save and add new expense lines | **Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines. |
 | Better visibility into split and itemized lines | Itemized and split lines are added directly to the list of expenses to increase visibility and help you easily determine whether there are any errors. |
 | View subcategory details in itemized lines | Itemized lines of a parent expense show the subcategory labels on the expense report. The itemization lets you  review the granular details at a glance.|
+|Itemize recurring expenses quickly | The reimagined expense workspace provides the ability to itemize recurring expenses quickly by adding the subcategory, start date and the quantity. The quantity refers to the number of times the charge is repeated/recurring across a continuous period. |
 | Show receipts during itemization | Receipts can be shown during itemization. |
 | Cash advance selection | Select one or more cash advances for fulfilling a single expense transaction. |
 | Cash advance balance | Review the cash advance balance in real time when you create an expense entry against approved and paid cash advances. |
