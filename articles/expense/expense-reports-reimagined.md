@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Expense reports reimagined (Video)
+title: Expense reports reimagined (contains video)
 description: This topic explains the redesigned and reimagined experience for expense report entry.
 author: suvaidya
 ms.date: 07/08/2021
