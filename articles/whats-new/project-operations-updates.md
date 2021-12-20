@@ -61,7 +61,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | North America         |  4.26.0.155     | January 07, 2022   | January 14, 2022    | 4.27.0.242          | January 17, 2022    |
 
 >[!Note]
-> - Complete* - Auto updates completed with version 4.27.0.242.
+> - Complete* - Auto updates completed with version 4.27.0.195.
 
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
