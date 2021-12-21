@@ -406,6 +406,8 @@
         href: expense/set-up-expense-categories.md
       - name: Set up mileage using mileage rate tiers
         href: expense/set-up-mileage.md
+    - name: Expense itemization
+      href: prod-exp/expense-itemization.md
     - name: Personal expenses
       href: expense/personal-expenses-expense-report.md
     - name: Intercompany expenses
