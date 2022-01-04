@@ -2,7 +2,7 @@
 title: Correct the accounting on draft project invoice proposals
 description: This topic explains how to adjust accounting-related information on a draft invoice proposal.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
@@ -23,17 +23,17 @@ Default billing sales tax groups and item sales tax groups can be adjusted direc
 ## Adjust financial dimensions
 
 ### Header dimensions
-By default, invoice financial dimensions are derived from the unbilled project transaction records being invoiced. However, system settings allow using project invoice proposal header financial dimensions for customer balance posting. Parameter can be turned on in Project management and accounting parameters, Financials tab by selecting **Allow updates to project dimensions for accounts receivable**.
-Invoice header financial dimensions can be edited before posting the invoice in the Project invoice proposal form by opening Header view and editing values in the Financial dimensions tab. 
+By default, invoice financial dimensions are derived from the unbilled project transaction records that are being invoiced. However, system settings allow you to use project invoice proposal header financial dimensions for customer balance posting. This parameter can be turned. Go to the **Project management and accounting parameters** page, and on the **Financials** tab, select **Allow updates to project dimensions for accounts receivable**.
+Invoice header financial dimensions can be edited before posting the invoice in the **Project invoice proposal** page by opening the **Header view** and editing values on the **Financial dimensions** tab. 
 
-    > The **Header view** is available only after the system administrator enables the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature in the **Feature management** workspace. Feature requires Finance and Operations update 10.0.25 or higher.
+The **Header view** is available only after the system administrator enables the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature in the **Feature management** workspace. Feature requires Finance and Operations update 10.0.25 or higher.
     
 ### Line dimensions
 Financial dimensions can't be edited directly on a project invoice proposal line. Instead, follow these steps to adjust financial dimensions on a project invoice proposal.
 
 1. On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines.
 
-    > The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.
+   The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.
 
 2. Adjust the financial dimensions:
 
