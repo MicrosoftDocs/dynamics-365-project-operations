@@ -538,6 +538,10 @@
       href: revenue-recognition/cost-complete-methods.md
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md
+  - name: Tutorials
+    items:
+    - name: Migrate fully invoiced billing milestones during cutover
+      href: Tutorials/migratinginvoicedmilestones.md     
   - name: Troubleshooting
     items:
     - name: Project sales process
