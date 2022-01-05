@@ -2,7 +2,7 @@
 title: Correct the accounting on draft project invoice proposals
 description: This topic explains how to adjust accounting-related information on a draft invoice proposal.
 author: sigitac
-ms.date: 01/04/2022
+ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
