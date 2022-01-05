@@ -28,7 +28,7 @@ By default, invoice financial dimensions are derived from the unbilled project t
 
 Financial dimensions on invoice headers can be edited before an invoice is posted. On the **Project invoice proposal** page, switch to the **Header** view, and then edit values on the **Financial dimensions** tab.
 
-The **Header** view is available only after the system administrator enables the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature in the **Feature management** workspace. This feature requires Finance and Operations update 10.0.25 or later.
+The **Header** view is available only after the system administrator enables the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature in the **Feature management** workspace. This feature requires Finance update 10.0.25 or later.
 
 ### Line dimensions
 
