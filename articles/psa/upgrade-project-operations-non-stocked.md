@@ -3,7 +3,7 @@ title: Upgrade from Project Service Automation to Project Operations
 description: This topic provides an overview of the process to upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/03/2022
+ms.date: 01/05/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -68,7 +68,7 @@ Here are some things to watch out for:
 - Import might fail because of missing dependencies. In other words, the customizations reference fields or other components that have been removed in Project Operations. In this case, remove these dependencies from the development environment.
 - If your unmanaged and managed solutions include components that aren't customized, remove those components from the solution. For example, when you customize the **Project** entity, add only the entity header to your solution. Don't add all the fields. If you've previously added all subcomponents, you might have to manually create a new solution and add relevant components to it.
 - Forms and views might not appear as unexpected. Under some circumstances, if you've customized any of the out-of-box forms or views, the customizations might prevent new updates in Project Operations from taking effect. To identify these issues, we recommend that you do a side-by-side review of a clean installation of Project Operations and an installation of Project Operations that includes your customizations. Compare the most commonly used forms in your business to confirm that your version of the form still makes sense and isn't missing something from the clean version of the form. Do the same type of side-by-side review for any views that you've customized.
-- Business logic might fail at runtime. Because references to fields in your plug-ins aren't validated at the time of import, business logic might fail because of references to fields that no longer exist, and you might receive an error message that resembles the following example: "'Project' entity doesn't contain attribute with Name = 'msdyn_plannedhours' and NameMapping = 'Logical'." In this case, modify your customizations so that they use the new fields that are listed in the table earlier in the topic. If you use automatically generated proxy classes and strong type references in your plug-in logic, consider regenerating those proxies from a clean installation. In this way, you can easily identify all the places where your plug-ins depend on deprecated fields.
+- Business logic might fail at runtime. Because references to fields in your plug-ins aren't validated at the time of import, business logic might fail because of references to fields that no longer exist, and you might receive an error message that resembles the following example: "'Project' entity doesn't contain attribute with Name = 'msdyn_plannedhours' and NameMapping = 'Logical'." In this case, modify your customizations so that they use the new fields. If you use automatically generated proxy classes and strong type references in your plug-in logic, consider regenerating those proxies from a clean installation. In this way, you can easily identify all the places where your plug-ins depend on deprecated fields.
 
 After you update your customizations to cleanly import Project Operations, move on to the next steps.
 
