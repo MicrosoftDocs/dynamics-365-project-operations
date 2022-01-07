@@ -57,21 +57,25 @@ Contoso is going live with Project Operations for resource/non-stocked scenarios
 
 1. Create milestones in the Project Operations Dataverse environment with the invoice status **Ready for invoicing**. At this point, don't migrate any milestones that haven't been invoiced. Make sure that the financial dimensions related to the project contract line are set as expected before you migrate the billing milestones. Financial dimemsions can't be edited after the migration.
 2. After all milestones are migrated, stop the following dual-write maps:
-  1. Project Operations integration contract line milestones (msdyn\_contractlinescheduleofvalues)
-  2. Project Operations integration actuals (msdyn\_actuals)
-  3. Project invoice proposal V2 (invoices)
+  
+   - Project Operations integration contract line milestones (msdyn\_contractlinescheduleofvalues)
+   - Project Operations integration actuals (msdyn\_actuals)
+   - Project invoice proposal V2 (invoices)
 
 3. To stop the maps, go to **Data management** > **Dual-write**, and select the map. 
 4. Open the map details and select **Stop**. Wait until system stops the map.
-5. Create and confirm proforma invoices for the billing milestones on the Project Operations Dataverse environment. You can create the invoices by navigating to the Project contracts in sitemap, multi-selecting the contracts and clicking Create invoices button. Once invoices are created, they can be opened from the Invoices menu on the site map and confirmed using Confirm button. Note that this step will create required records in the Dataverse environment but will not impact financials and accounts receivable, as dual-write maps above are stopped.
+5. Create and confirm proforma invoices for the billing milestones on the Project Operations Dataverse environment. 
+
+   1. To create the invoice, go to the project contracts in the sitemap, select the contracts, and then select **Create invoices**. After the invoices are created, they can be opened from the **Invoices** menu on the site map and confirmed by selecting **Confirm**. This step creates the required records in the Dataverse environment but will not impact financials and accounts receivable, because the dual-write maps listed above are stopped.
+
 6. After all of the proforma invoices are confirmed, return all dual-write maps to their initial state.
 
-  1. Update the Project Operations integration contract line milestones (msdyn\_contractlinescheduleofvalues) dual-write map version back to the original. 
-  2. Select the dual-write map in the map list, select **Table map version**, and then select the original table map version.
-  3. Select **Save**.
-  4. Restart the following dual-write maps:
-    - Project Operations integration contract line milestones (msdyn\_contractlinescheduleofvalues)
-    - Project Operations integration actuals (msdyn\_actuals)
-    - Project invoice proposal V2 (invoices)
+   1. Update the Project Operations integration contract line milestones (msdyn\_contractlinescheduleofvalues) dual-write map version back to the original. 
+   2. Select the dual-write map in the map list, select **Table map version**, and then select the original table map version.
+   3. Select **Save**.
+   4. Restart the following dual-write maps:
+      - Project Operations integration contract line milestones (msdyn\_contractlinescheduleofvalues)
+      - Project Operations integration actuals (msdyn\_actuals)
+      - Project invoice proposal V2 (invoices)
 
-The milestones are now migrated and the system is ready for the next steps in the cutover activity.
+   The milestones are now migrated and the system is ready for the next steps in the cutover activity.
