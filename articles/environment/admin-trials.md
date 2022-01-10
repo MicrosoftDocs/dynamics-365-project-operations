@@ -2,7 +2,7 @@
 title: Sign up for Project Operations trials
 description: This topic provides information about how to deploy a trial of Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -31,7 +31,6 @@ The following table outlines the details of the new trial offer.
 | Offer use                    | One time per tenant                          |
 | Offer duration               | 30 calendar days                             |
 | Redemptions per tenant       | 1                                            |
-| Number of users              | 25                                           |
 | Extension                    | 1 extension, 30 calendars days               |
 | Number of trial environments | 3                                            |
 
