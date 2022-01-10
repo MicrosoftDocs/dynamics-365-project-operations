@@ -541,7 +541,7 @@
   - name: Advanced configuration
     items:
     - name: Migrate fully invoiced billing milestones during cutover
-      href: advanced-configuration/migratinginvoicedmilestones.md   
+      href: advanced-configuration/migrating-invoiced-milestones.md   
   - name: Troubleshooting
     items:
     - name: Project sales process
