@@ -57,9 +57,9 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Oceana</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | January 28, 2022
 | | <i>United Arab Emirates</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | January 28, 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | January 07, 2022
+| | <i>Europe</i> | [3.10.59.117](whats-new-ur-38.md) | TBD | January 28, 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | January 14, 2022
+| | <i>North America</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | February 04, 2022
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | January 14, 2022
 | | <i>Dedicated Scale Groups</i> | [3.10.58.130](whats-new-ur-37-5.md) | [3.10.59.117](whats-new-ur-38.md) | January 21, 2022
