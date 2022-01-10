@@ -537,7 +537,11 @@
     - name: Cost to complete methods
       href: revenue-recognition/cost-complete-methods.md
     - name: Manage revenue estimates
-      href: revenue-recognition/rev-rec-completed-contract-method.md
+      href: revenue-recognition/rev-rec-completed-contract-method.md  
+  - name: Advanced configuration
+    items:
+    - name: Migrate fully invoiced billing milestones during cutover
+      href: advanced-configuration/migrating-invoiced-milestones.md   
   - name: Troubleshooting
     items:
     - name: Project sales process
