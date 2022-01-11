@@ -10,7 +10,7 @@ ms.author: sigitac
 
 # Migrate fully invoiced billing milestones at cutover
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 ## Scenario
 
