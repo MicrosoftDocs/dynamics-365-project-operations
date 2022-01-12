@@ -53,12 +53,12 @@ Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are cre
 
 | Scheduling entity | Create | Update | Delete | Important considerations |
 | --- | --- | --- | --- | --- |
-Project task | Yes | Yes | Yes | None |
-| Project task dependency | Yes | Yes | | Project task dependency records aren't updated. Instead, an old record can be deleted and a new record can be created. |
+Project task | Yes | Yes | Yes | Progress, EffortCompleted and EffortRemaining can be edited in Project for the Web, but are not editable in Project Operations.  |
+| Project task dependency | Yes |  |Yes | Project task dependency records aren't updated. Instead, an old record can be deleted and a new record can be created. |
 | Resource assignment | Yes | Yes | | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, and **PlannedWork**. Resource assignment records aren't updated. Instead, the old record can be deleted and a new record can be created. |
-| Project bucket | N/A | N/A | N/A | The default bucket is created using the **CreateProjectV1** API. |
+| Project bucket | Yes | | Yes | The default bucket is created using the **CreateProjectV1** API.  Support for creation and deletion of Project Buckets was added in Update Release 16. |
 | Project team member | Yes | Yes | Yes | For the create operation, use the **CreateTeamMemberV1** API. |
-| Project | Yes | Yes | N/A | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
+| Project | Yes | Yes |  | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
 
 These APIs can be called with entity objects that include custom fields.
 
@@ -81,7 +81,8 @@ The following tables define the fields that are restricted from **Create** and *
 | msdyn_costatcompleteestimate           | no             | no               |
 | msdyn_costatcompleteestimate_base      | no             | no               |
 | msdyn_costconsumptionpercentage        | no             | no               |
-| msdyn_effortcompleted                  | no             | no               |
+| msdyn_effortcompleted                  | no (yes for Project)             | no (yes for Project)               |
+| msdyn_effortremaining                  | no (yes for Project)              | no (yes for Project)                |
 | msdyn_effortestimateatcomplete         | no             | no               |
 | msdyn_iscritical                       | no             | no               |
 | msdyn_iscriticalname                   | no             | no               |
@@ -97,7 +98,7 @@ The following tables define the fields that are restricted from **Create** and *
 | msdyn_plannedsales                     | no             | no               |
 | msdyn_plannedsales_base                | no             | no               |
 | msdyn_pluginprocessingdata             | no             | no               |
-| msdyn_progress                         | no             | no (yes for P4W) |
+| msdyn_progress                         | no (yes for Project)             | no (yes for Project) |
 | msdyn_remainingcost                    | no             | no               |
 | msdyn_remainingcost_base               | no             | no               |
 | msdyn_remainingsales                   | no             | no               |
