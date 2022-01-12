@@ -249,6 +249,14 @@ The following tables define the fields that are restricted from **Create** and *
 | msdyn_totalplannedcost_base            | no             | no           |
 
 
+### Project Bucket
+| **LogicalName**       | **Can Create**  | **Can Edit** |
+|-----------------------|-----------------|--------------|
+| msdyn_displayorder    | Yes             | No           |
+| msdyn_name            | Yes             | Yes          |
+| msdyn_project         | Yes             | No           |
+| msdyn_projectbucketid | Yes             | No           |
+
 ## Limitations and known issues
 The following is a list of limitations and known issues:
 
