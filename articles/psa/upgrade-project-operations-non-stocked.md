@@ -3,7 +3,7 @@ title: Upgrade from Project Service Automation to Project Operations
 description: This topic provides an overview of the process to upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -37,7 +37,7 @@ As part of the upgrade process, we have added upgrade logs to the site map, so t
 |-------------|------------------------|---------------------------|---------------------------|
 | The WBS will be validated against common data integrity violations (for example, resource assignments that are associated with the same parent task but have different parent projects). | | :heavy_check_mark: | :heavy_check_mark: |
 | The WBS will be validated against the [known limits of Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| The WBS will be validated against the known limits of the Project desktop client. | | :heavy_check_mark: | :heavy_check_mark: |
+| The WBS will be validated against the known limits of the Project desktop client. | |  | :heavy_check_mark: |
 | Bookable resources and project calendars will be evaluated against common incompatible calendar rule exceptions. | | :heavy_check_mark: | :heavy_check_mark: |
 
 In phase 2, customers who upgrade to Project Operations will have their existing projects upgraded to a read-only experience for project planning. In this read-only experience, the full WBS will be visible in the tracking grid. To edit the WBS, project managers can select **Convert** on the main **Projects** page. A background process will then update the project so that it supports the new project scheduling experience from Project for the Web. This phase is appropriate for customers who have projects that fit within the [known limits of Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
@@ -51,7 +51,7 @@ To be eligible for the phase 1 upgrade, a customer must meet the following crite
 - The target environment must not contain any records in the **msdyn_projecttask** entity.
 - Valid Project Operations licenses must be assigned to all the customer's active users. 
 - The customer must validate the upgrade process in at least one non-production environment that has a representative dataset that is aligned with production data.
-- The target environment must be updated to Project Service Automation Update Release 38 or later.
+- The target environment must be updated to Project Service Automation Update Release 38 (3.10.59.117) or later.
 
 Prerequisites for phase 2 and phase 3 will be updated as the general availability dates approach.
 
@@ -72,9 +72,9 @@ Here are some things to watch out for:
 
 After you update your customizations to cleanly import Project Operations, move on to the next steps.
 
-## End-to-end testing in lower environments
+## End-to-end testing in development environments
 
-### Run the upgrade in production
+### Initiate upgrade 
 
 1. In the Power Platform admin center, find and select your environment. Then, in the applications, find and select **Dynamics 365 Project Operations**.
 2. Select **Install** to start the upgrade. The Power Platform admin center will present this installation as a new installation. However, the presence of an earlier version of Project Service Automation will be detected, and the existing installation will be upgraded.
@@ -88,6 +88,10 @@ After you update your customizations to cleanly import Project Operations, move 
 4. Go to **Settings** \> **Solutions**, and select to uninstall the **Project Operations Deprecated Components** solution.
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.
+    
+### Validate common scenarios
+
+When you validate your specific customizations, we recommend that you also review the business processes that are supported across the applications. These business processes include, but aren't limited to, the creation of sales entities such as quotations and contracts, and the creation of projects that include WBSs and approval of actuals.
 
 ## Major changes between Project Service Automation and Project Operations
 
