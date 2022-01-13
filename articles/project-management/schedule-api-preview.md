@@ -2,7 +2,7 @@
 title: Use Project schedule APIs to perform operations with Scheduling entities
 description: This topic provides information and samples for using Project schedule APIs.
 author: sigitac
-ms.date: 09/09/2021
+ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
@@ -53,10 +53,10 @@ Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are cre
 
 | Scheduling entity | Create | Update | Delete | Important considerations |
 | --- | --- | --- | --- | --- |
-Project task | Yes | Yes | Yes | Progress, EffortCompleted and EffortRemaining can be edited in Project for the Web, but are not editable in Project Operations.  |
+Project task | Yes | Yes | Yes | **Progress**, **EffortCompleted**, and **EffortRemaining** can be edited in Project for the Web, but can't be edited in Project Operations.  |
 | Project task dependency | Yes |  |Yes | Project task dependency records aren't updated. Instead, an old record can be deleted and a new record can be created. |
 | Resource assignment | Yes | Yes | | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, and **PlannedWork**. Resource assignment records aren't updated. Instead, the old record can be deleted and a new record can be created. |
-| Project bucket | Yes | Yes| Yes | The default bucket is created using the **CreateProjectV1** API.  Support for creation and deletion of Project Buckets was added in Update Release 16. |
+| Project bucket | Yes | Yes| Yes | The default bucket is created using the **CreateProjectV1** API.  Support for creating and deleting project buckets was added in Update Release 16. |
 | Project team member | Yes | Yes | Yes | For the create operation, use the **CreateTeamMemberV1** API. |
 | Project | Yes | Yes |  | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
 
@@ -249,8 +249,8 @@ The following tables define the fields that are restricted from **Create** and *
 | msdyn_totalplannedcost_base            | no             | no           |
 
 
-### Project Bucket
-| **LogicalName**       | **Can Create**  | **Can Edit** |
+### Project bucket
+| **LogicalName**       | **Can create**  | **Can edit** |
 |-----------------------|-----------------|--------------|
 | msdyn_displayorder    | Yes             | No           |
 | msdyn_name            | Yes             | Yes          |
