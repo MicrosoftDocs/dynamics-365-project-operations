@@ -89,9 +89,9 @@ After you update your customizations to cleanly import Project Operations, move 
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.
     
- ### Validate common scenarios
-When you validate your specific customizations, we recommend that you also review the business processes that are supported across the applications. This includes, but isn't limited to creating sales entities such as quotes and contracts and creating projects with work breakdown structures and approval of actuals.
- 
+### Validate common scenarios
+
+When you validate your specific customizations, we recommend that you also review the business processes that are supported across the applications. These business processes include, but aren't limited to, the creation of sales entities such as quotations and contracts, and the creation of projects that include WBSs and approval of actuals.
 
 ## Major changes between Project Service Automation and Project Operations
 
