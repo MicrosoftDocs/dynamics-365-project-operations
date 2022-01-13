@@ -3,7 +3,7 @@ title: Upgrade from Project Service Automation to Project Operations
 description: This topic provides an overview of the process to upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -74,7 +74,7 @@ After you update your customizations to cleanly import Project Operations, move 
 
 ## End-to-end testing in development environments
 
-### Initiate the upgrade 
+### Initiate upgrade 
 
 1. In the Power Platform admin center, find and select your environment. Then, in the applications, find and select **Dynamics 365 Project Operations**.
 2. Select **Install** to start the upgrade. The Power Platform admin center will present this installation as a new installation. However, the presence of an earlier version of Project Service Automation will be detected, and the existing installation will be upgraded.
@@ -89,8 +89,8 @@ After you update your customizations to cleanly import Project Operations, move 
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.
     
- ### Validate Common scenarios
- Along with validation of your specific customizations, it is recommended that customers review supported business processes across the applications including but not limited to creation of sales entities such as quotes and contracts, creation of projects with work breakdown structures and approval of actuals.
+ ### Validate common scenarios
+When you validate your specific customizations, we recommend that you also review the business processes that are supported across the applications. This includes, but isn't limited to creating sales entities such as quotes and contracts and creating projects with work breakdown structures and approval of actuals.
  
 
 ## Major changes between Project Service Automation and Project Operations
