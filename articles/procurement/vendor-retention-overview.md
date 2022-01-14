@@ -3,7 +3,7 @@ title: Vendor retention overview
 description: This topic provides an overview of vendor retention capabilities.
 author: sigitac
 ms.date: 10/01/2021
-ms.topic: article
+ms.topic: overview
 ms.prod:
 ms.reviewer: kfend 
 ms.author: sigitac

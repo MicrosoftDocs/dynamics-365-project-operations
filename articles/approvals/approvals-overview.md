@@ -3,10 +3,10 @@ title: Approvals overview
 description: This topic provides information about working with approvals in Project Operations.
 author: stsporen
 ms.date: 03/31/2021
-ms.topic: article
+ms.topic: overview
 ms.reviewer: kfend 
 ms.author: stsporen
-ms.custom: "intro-internal"
+
 ---
 
 # Approvals overview

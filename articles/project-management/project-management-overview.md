@@ -4,10 +4,10 @@ title: Project management overview
 description: This topic provides information about Project management in Dynamics 365 Project Operations. 
 author: ruhercul
 ms.date: 10/06/2020
-ms.topic: article
+ms.topic: overview
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: "intro-internal"
+
 ---
 
 # Project management overview

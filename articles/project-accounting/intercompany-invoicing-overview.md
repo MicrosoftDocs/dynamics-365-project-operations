@@ -5,10 +5,10 @@ title: Intercompany invoicing overview
 description: This topic provides information and examples about intercompany invoicing for projects.
 author:  sigitac
 ms.date: 11/19/2020 
-ms.topic: article
+ms.topic: overview
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: "intro-internal"
+
 ---
 
 # Intercompany invoicing overview
