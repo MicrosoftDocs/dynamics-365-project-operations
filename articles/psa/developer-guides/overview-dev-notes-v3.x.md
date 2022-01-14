@@ -6,7 +6,7 @@ ms.custom:
   - dyn365-projectservice
   - intro-internal
 ms.date: 03/26/2019
-ms.topic: article
+ms.topic: overview
 #
 ms.author: makk
 audience: admin

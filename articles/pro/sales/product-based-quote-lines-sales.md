@@ -3,10 +3,10 @@ title: Product-based quote lines overview - lite
 description: This topic provides information about working with product-based quote lines.
 author: rumant
 ms.date: 10/30/2020
-ms.topic: article
+ms.topic: overview
 ms.reviewer: kfend 
 ms.author: rumant
-ms.custom: "intro-internal"
+
 ---
 
 # Product-based quote lines overview - lite

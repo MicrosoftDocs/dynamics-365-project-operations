@@ -5,7 +5,7 @@ title: Project Service Automation overview
 description: This topic provides information about the Dynamics 365 Project Service Automation to Dynamics 365 Finance integration solution.
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: 
 ms.technology: 
 
@@ -18,7 +18,7 @@ audience: Application User
 ms.reviewer: ruhercul
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
-ms.custom: "intro-internal"
+
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 # ms.search.industry: 

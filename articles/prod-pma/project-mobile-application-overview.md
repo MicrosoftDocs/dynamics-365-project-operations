@@ -5,7 +5,7 @@ title: Project mobile applications overview
 description: This topic provides general information about the project time-related applications for Microsoft Dynamics 365 Project Timesheet, Project Time Entry, and My timesheets/Timesheets that are available on a mobile device.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: 
 ms.technology: 
 
@@ -18,7 +18,7 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
-ms.custom: "intro-internal"
+
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries

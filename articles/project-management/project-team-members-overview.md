@@ -3,10 +3,10 @@ title: Project team members
 description: This topic provides information about how to work with project team member information, attributes, and scheduling.
 author: ruhercul
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: overview
 ms.reviewer: kfend 
 ms.author: ruhercul
-ms.custom: "intro-internal"
+
 ---
 
 # Project team members
