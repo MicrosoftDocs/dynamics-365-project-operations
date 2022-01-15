@@ -3,10 +3,10 @@ title: Project-based contract lines overview
 description:  This topic provides information about working with project–based contract lines.
 author: rumant
 ms.date: 10/28/2020
-ms.topic: article
+ms.topic: overview
 ms.reviewer: kfend 
 ms.author: rumant
-ms.custom: "intro-internal"
+
 ---
 
 # Project-based contract lines overview

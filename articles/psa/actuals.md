@@ -6,7 +6,7 @@ ms.custom:
   - dyn365-projectservice
   - intro-internal
 ms.date: 08/03/2020
-ms.topic: article
+ms.topic: overview
 #
 #
 ms.author: rumant

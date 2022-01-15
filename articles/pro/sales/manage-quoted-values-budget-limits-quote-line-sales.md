@@ -3,10 +3,10 @@ title: Project-based quote lines overview
 description: This topic provides information about using project-based quote lines for project work.
 author: rumant
 ms.date: 03/30/2021
-ms.topic: article
+ms.topic: overview
 ms.reviewer: kfend 
 ms.author: rumant
-ms.custom: "intro-internal"
+
 ---
 
 # Project-based quote lines overview 

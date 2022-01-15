@@ -3,11 +3,11 @@ title: Project Operations dual-write integration
 description: This topic provides an overview of Project Operations dual-write integration.
 author: sigitac
 ms.date: 04/28/2021
-ms.topic: article
+ms.topic: overview
 ms.prod:
 ms.reviewer: kfend 
 ms.author: sigitac
-ms.custom: "intro-internal"
+
 ---
 
 # Project Operations dual-write integration overview
