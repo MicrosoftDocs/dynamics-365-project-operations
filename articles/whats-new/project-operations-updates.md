@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
 | --- | --- |
-| 4.27.0.242 | 10.0.23 |
+| 4.27.0.244 | 10.0.23 |
 
 For Project Operations Resource/non-stocked scenario, we recommend to use dual-write Orchestration version 2.3.1.15 or higher.
 
@@ -42,23 +42,23 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.27.0.242     | Complete*          | Complete*           | TBD                 | January 14, 2022    |
+|   &nbsp;  | First Release         |  4.27.0.244     | Complete*          | Complete*           | TBD                 | January 21, 2022    |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 14, 2022    |
-|   &nbsp;  | Canada                |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 14, 2022    |
-|   &nbsp;  | India                 |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 14, 2022    |
-|   &nbsp;  | France                |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 14, 2022    |
-|   &nbsp;  | South Africa          |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 14, 2022    |
+|   &nbsp;  | South America         |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
+|   &nbsp;  | Canada                |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
+|   &nbsp;  | India                 |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
+|   &nbsp;  | France                |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
+|   &nbsp;  | South Africa          |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 21, 2022    |
-|   &nbsp;  | Asia Pacific          |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 21, 2022    |
-|   &nbsp;  | Great Britain         |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 21, 2022    |
-|   &nbsp;  | Oceania               |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 21, 2022    |
-|   &nbsp;  | United Arab Emirates  |  4.27.0.242     | Complete           | January 07, 2022    | TBD                 | January 21, 2022    |
+|   &nbsp;  | Japan                 |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
+|   &nbsp;  | Asia Pacific          |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
+|   &nbsp;  | Great Britain         |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
+|   &nbsp;  | Oceania               |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
+|   &nbsp;  | United Arab Emirates  |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.26.0.155     | Complete           | January 07, 2022    | 4.27.0.242          | January 10, 2022    |
+|   &nbsp;  | Europe                |  4.26.0.155     | Complete           | Complete            | 4.27.0.244          | January 21, 2022    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.26.0.155     | January 07, 2022   | January 14, 2022    | 4.27.0.242          | January 17, 2022    |
+|   &nbsp;  | North America         |  4.26.0.155     | Complete           | January 21, 2022    | 4.27.0.242          | January 24, 2022    |
 
 >[!Note]
 > - Complete* - Auto updates completed with version 4.27.0.195.
