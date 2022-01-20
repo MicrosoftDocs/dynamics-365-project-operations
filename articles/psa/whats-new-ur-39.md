@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 39, V3
 description: This topic lists the features and fixes that are available in Microsoft Dynamics 365 Project Service Automation Update Release 39, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/19/2022
+ms.date: 01/20/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,7 +17,7 @@ search.app:
   - ProjectOperations
 ---
 
-# What's new or changed in Project Service Automation Update Release 38, V3
+# What's new or changed in Project Service Automation Update Release 39, V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -37,10 +37,10 @@ The following issues have been fixed.
 
 **Project Management**
 
-- An exception is thrown when changing the project manager on a project to a user who is already a team member.
+- An exception occurs when you change the project manager on a project to a user who is already a team member on the project.
 
 **Sales**
 
-- Owner of the **Project contract price list** is incorrect when created automatically. 
-- Price list date effectivity is not honored on price lists applied to the project parameter.
-- Contracting unit can be incorrectly defaulted when editing two separate quotes.
+- The owner of the **Project contract price list** is incorrect when the price list is created automatically. 
+- A price list's date effectivity isn't honored when the price list is applied to the project parameter.
+- The contracting unit can default incorrectly when editing two separate quotes.
