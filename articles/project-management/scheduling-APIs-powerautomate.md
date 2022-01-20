@@ -185,14 +185,14 @@ Step 4: Create generic team member
 4.	Rename the step to **Create Team Member**.
 5.	In the Action Name field, Select **TeamMemberAction** from the **Dynamic Content** dialog.
 6.	In the Action Parameters field, enter:
-<blockquote>{
+~~~~ {
                 "TeamMember": {
                     "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projectteam",
                     "msdyn_projectteamid": "@{guid()}",
                     "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
                     "msdyn_name": "ScheduleAPIDemoTM1"
         }
- }</blockquote>
+ }~~~~ 
 7.	
 
 
