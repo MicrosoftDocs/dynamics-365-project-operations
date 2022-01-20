@@ -37,7 +37,7 @@ independently.
 
 -   Execute Operation Sets
 
-The following steps:
+The following is a complete list of the steps documented in the sample flow:
 
 1.  Create PowerApps trigger
 
@@ -196,6 +196,22 @@ Below is an explanation of each parameter:
  ![inserting a guid](media/guid.png)
 4.	**msdyn_project@odata.bind:** the project id of the owning project. This will be dynamic content coming from the response of the create project step. Ensure that you type the full path and add dynamic content between the brackets. Note that the quotes are necessary as well. E.g. **"/msdyn_projects(ADD DYNAMIC CONTENT)"**
  
+Step 5: Create an operation set
+===========================================
+1.	1.  In the flow, select **+New Step**
+
+    ![New Flow Step](media/newstep.png)
+
+2.  In the **Choose an operation** dialog box, in the search box, enter
+    **Perform an unbound action** and select it from the results on the
+    **Actions** tab.
+3.	In the new step, click on the Ellipsis, and then select **Rename**. 
+4.	Rename the step to **Create Operation Set**.
+5.	In the Action Name field, select the Dataverse custom action **msdyn_CreateOperationSetV1**
+6.	In the Description field, enter **ScheduleAPIDemoOperationSet**
+7.	In the Project, select **msdyn_CreateProjectV1Response ProjectId** from the Dynamic Content dialog.
+
+
 
 
 
