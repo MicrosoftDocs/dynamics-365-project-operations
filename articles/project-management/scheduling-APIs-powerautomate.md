@@ -198,16 +198,25 @@ Below is an explanation of each parameter:
  
 Step 5: Create an operation set
 ===========================================
-1.	1.  In the flow, select **+New Step**
-
-    ![New Flow Step](media/newstep.png)
-
+1.	In the flow, select **+New Step**
 2.  In the **Choose an operation** dialog box, in the search box, enter
     **Perform an unbound action** and select it from the results on the
     **Actions** tab.
 3.	In the new step, click on the Ellipsis, and then select **Rename**. 
 4.	Rename the step to **Create Operation Set**.
 5.	In the Action Name field, select the Dataverse custom action **msdyn_CreateOperationSetV1**
+6.	In the Description field, enter **ScheduleAPIDemoOperationSet**
+7.	In the Project, select **msdyn_CreateProjectV1Response ProjectId** from the Dynamic Content dialog.
+
+Step 6: Create a project bucket
+===========================================
+1.	In the flow, select **+New Step**
+2.  In the **Choose an operation** dialog box, in the search box, enter
+    **add a new row** and select it from the results on the
+    **Actions** tab.
+3.	In the new step, click on the Ellipsis, and then select **Rename**. 
+4.	Rename the step to **Create Bucket**.
+5.	In the Table Name field, select **Project Buckets**
 6.	In the Description field, enter **ScheduleAPIDemoOperationSet**
 7.	In the Project, select **msdyn_CreateProjectV1Response ProjectId** from the Dynamic Content dialog.
 
