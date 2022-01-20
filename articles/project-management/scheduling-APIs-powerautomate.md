@@ -154,11 +154,9 @@ Complete the following steps to create a sample project.
 
 4.  Rename the step to **Create Project.**
 
-    ![Graphical user interface, text, application, chat or text message Description automatically generated](media/e55f4a26c7adb985aebb164fedd7c986.png)
+   ![rename a step](media/renamestep.png)
 
 5.  In the **Action Name** field, select **msdyn_CreateProjectV1**.
-
-    ![rename a step](media/renamestep.png)
 
 6.  In the **msdyn_subject** field, select **Add Dynamics Content**.
 
@@ -167,7 +165,7 @@ Complete the following steps to create a sample project.
 
 8.  Select **OK.**
 
-    ![Graphical user interface, text, application, chat or text message Description automatically generated](media/eaced80b4c2349f1840b965bd7c68c3e.png)
+    ![expression builder](media/expressionbuilder.png)
 
 The entry in **msdyn_subject** will have **Project Name – utcNow().**
 
