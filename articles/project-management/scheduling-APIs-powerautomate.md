@@ -148,7 +148,7 @@ Complete the following steps to create a sample project.
     **Perform an unbound action** and select it from the results list on the
     **Actions** tab.
 
-    ![Graphical user interface, application Description automatically generated](media/3eb264bb41af8a815bdab662496d62bb.png)
+    ![Choose an Operation](media/chooseactiontab.png)
 
 3.  In the action step, click on the **Ellipsis** and then select **Rename.**
 
@@ -158,7 +158,7 @@ Complete the following steps to create a sample project.
 
 5.  In the **Action Name** field, select **msdyn_CreateProjectV1**.
 
-    ![Graphical user interface, application Description automatically generated](media/42f5721f13583915e0b54c849047138a.png)
+    ![rename a step](media/renamestep.png)
 
 6.  In the **msdyn_subject** field, select **Add Dynamics Content**.
 
