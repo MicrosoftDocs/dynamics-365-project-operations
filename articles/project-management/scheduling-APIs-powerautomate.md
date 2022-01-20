@@ -195,7 +195,15 @@ Step 4: Create generic team member
         }
  } 
  ~~~~ 
-7.	
+Below is an explanation of each parameter:
+
+1.	**@@odata.type**: entity name  ("Microsoft.Dynamics.CRM.msdyn_projectteam")
+2.	**msdyn_name**: name of the team member. (“ScheduleAPIDemoTM1”)
+3.	**msdyn_projectteamid**: is the primary key of the project team ID which is just a GUID expression
+ ![inserting a guid](media/guid.png)
+4.	**msdyn_project@odata.bind:** the project id of the owning project. This will be dynamic content coming from the response of the create project step. Ensure that you type the full path and add dynamic content between the brackets. Note that the quotes are necessary as well. E.g. **"/msdyn_projects(ADD DYNAMIC CONTENT)"**
+ 
+
 
 
 
