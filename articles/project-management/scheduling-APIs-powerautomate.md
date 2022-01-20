@@ -133,7 +133,7 @@ Step 1: Create a Power Automate trigger
 
 2.  Select **Create.**
 
-[./media/image4.png](./media/powerautomatetrigger.png)
+[./media/powerautomatetrigger.png](./media/powerautomatetrigger.png)
 ----------------------------------------
 
 ~   Graphical user interface Description automatically generated
