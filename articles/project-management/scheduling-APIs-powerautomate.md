@@ -124,11 +124,14 @@ Create a new flow
 
 1.  In the **Flow name** field, enter **Schedule API Flow Demo.**
 
-2.  In the **Choose how to trigger this flow** list, select **Power Apps.** When
+Step 1: Create a Power Automate trigger
+=========================
+
+1.  In the **Choose how to trigger this flow** list, select **Power Apps.** When
     you create a Power Apps trigger, the logic is up to you as the author. In
     this topic, leave the input parameters empty for testing purposes.
 
-3.  Select **Create.**
+2.  Select **Create.**
 
 [./media/image4.png](./media/image4.png)
 ----------------------------------------
