@@ -167,8 +167,19 @@ Complete the following steps to create a sample project.
 
     ![expression builder](media/expressionbuilder.png)
 
-The entry in **msdyn_subject** will have **Project Name – utcNow().**
+Step 3: Create a generic team member
+===========================================
+Complete the following steps to create a team member and assign tasks.
 
-![](media/ced44e1e67fc8bfba3670a3eac062241.png)
+1.	Select +New Step to add new step.
+2.	In the Choose an operation dialog box, search for initialize variable and select it from the results on the Actions tab.
+3.	In the new step, click on the Ellipsis, and then select Rename, to rename the step to Init team member.
+4.	In the Name field, enter TeamMemberAction.
+5.	In the Type field, select String.
+6.	In the Value field, enter msdyn_CreateTeamMemberV1.   
+  
+
+
+
 
 
