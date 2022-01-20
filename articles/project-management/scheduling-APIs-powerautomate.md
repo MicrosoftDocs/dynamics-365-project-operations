@@ -169,9 +169,7 @@ Complete the following steps to create a sample project.
 
 Step 3: Create a generic team member
 ===========================================
-Complete the following steps to create a team member and assign tasks.
-
-1.	Select +New Step to add new step.
+1.	In the flow, select **+New Step**
 2.	In the Choose an operation dialog box, search for initialize variable and select it from the results on the Actions tab.
 3.	In the new step, click on the Ellipsis, and then select Rename, to rename the step to Init team member.
 4.	In the Name field, enter TeamMemberAction.
