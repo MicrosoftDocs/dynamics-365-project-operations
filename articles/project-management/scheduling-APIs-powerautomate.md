@@ -167,7 +167,7 @@ Complete the following steps to create a sample project.
 
     ![expression builder](media/expressionbuilder.png)
 
-Step 3: Create a generic team member
+Step 3: Init team member variable
 ===========================================
 1.	In the flow, select **+New Step**
 2.	In the **Choose an operation** dialog box, search for **initialize variable** and select it from the results on the **Actions** tab.
@@ -177,8 +177,26 @@ Step 3: Create a generic team member
 6.	In the Type field, select **String**.
 7.	In the Value field, enter **msdyn_CreateTeamMemberV1**.   
   
+Step 4: Create generic team member
+===========================================
+1.	In the flow, select **+New Step**
+2.	In the **Choose an operation** dialog box, search for **Perform an unbound action ** and select it from the results on the **Actions** tab.
+3.	In the new step, click on the Ellipsis, and then select **Rename**
+4.	Rename the step to **Create Team Member**.
+5.	In the Action Name field, Select **TeamMemberAction** from the **Dynamic Content** dialog.
+6.	In the Action Parameters field, enter:
+<blockquote>
+    {
+                "TeamMember": {
+                    "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projectteam",
+                    "msdyn_projectteamid": "@{guid()}",
+                    "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
+                    "msdyn_name": "ScheduleAPIDemoTM1"
+        }
+ }
 
-
+    </blockquote>
+7.	
 
 
 
