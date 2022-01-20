@@ -135,3 +135,42 @@ Create a new flow
 
 ~   Graphical user interface Description automatically generated
 
+Step 2: Create a project 
+=========================
+
+Complete the following steps to create a sample project.
+
+1.  In the flow, select **+New Step**
+
+    ![Graphical user interface, application Description automatically generated](media/0d7a58e596efdab1abdb50648fe9abb1.png)
+
+2.  In the **Choose an operation** dialog box, in the search box, enter
+    **Perform an unbound action** and select it from the results list on the
+    **Actions** tab.
+
+    ![Graphical user interface, application Description automatically generated](media/3eb264bb41af8a815bdab662496d62bb.png)
+
+3.  In the action step, click on the **Ellipsis** and then select **Rename.**
+
+4.  Rename the step to **Create Project.**
+
+    ![Graphical user interface, text, application, chat or text message Description automatically generated](media/e55f4a26c7adb985aebb164fedd7c986.png)
+
+5.  In the **Action Name** field, select **msdyn_CreateProjectV1**.
+
+    ![Graphical user interface, application Description automatically generated](media/42f5721f13583915e0b54c849047138a.png)
+
+6.  In the **msdyn_subject** field, select **Add Dynamics Content**.
+
+7.  On the **Expression** tab, in the function box, enter **Project name –
+    utcNow()**.
+
+8.  Select **OK.**
+
+    ![Graphical user interface, text, application, chat or text message Description automatically generated](media/eaced80b4c2349f1840b965bd7c68c3e.png)
+
+The entry in **msdyn_subject** will have **Project Name – utcNow().**
+
+![](media/ced44e1e67fc8bfba3670a3eac062241.png)
+
+
