@@ -37,10 +37,10 @@ The following issues have been fixed.
 
 **Project Management**
 
-- An exception occurs when you change the project manager on a project to a user who is already a team member on the project.
+- An error occurs when you change the project manager on a project to a user who is already a team member on the project.
 
 **Sales**
 
 - The owner of the **Project contract price list** is incorrect when the price list is created automatically. 
 - A price list's date effectivity isn't honored when the price list is applied to the project parameter.
-- The contracting unit can default incorrectly when editing two separate quotes.
+- The contracting unit may not have the correct default value when editing two separate quotes.
