@@ -108,8 +108,9 @@ The solution aware flow makes it easier to export the flow to use in the future.
 
 ![](media/fd2a44ffd815beb6fb5c609607627bfa.png)
 
-Create a new flow
------------------
+
+Step 1: Create a new Flow and Power Automate trigger
+=========================
 
 1.  On the **Solutions** page, select the solution you created.
 
@@ -122,21 +123,17 @@ Create a new flow
 
 ![Graphical user interface, application Description automatically generated](media/8815fa1fa5b32db8a33669c9b7a65713.png)
 
-1.  In the **Flow name** field, enter **Schedule API Flow Demo.**
+4.  In the **Flow name** field, enter **Schedule API Flow Demo.**
 
-Step 1: Create a Power Automate trigger
-=========================
 
-1.  In the **Choose how to trigger this flow** list, select **Power Apps.** When
+5.  In the **Choose how to trigger this flow** list, select **Power Apps.** When
     you create a Power Apps trigger, the logic is up to you as the author. In
     this topic, leave the input parameters empty for testing purposes.
 
-2.  Select **Create.**
+6.  Select **Create.**
 
-[./media/powerautomatetrigger.png](./media/powerautomatetrigger.png)
+![./media/powerautomatetrigger.png](./media/powerautomatetrigger.png)
 ----------------------------------------
-
-~   Graphical user interface Description automatically generated
 
 Step 2: Create a project 
 =========================
@@ -145,7 +142,7 @@ Complete the following steps to create a sample project.
 
 1.  In the flow, select **+New Step**
 
-    ![Graphical user interface, application Description automatically generated](media/0d7a58e596efdab1abdb50648fe9abb1.png)
+    ![New Flow Step](media/newstep.png)
 
 2.  In the **Choose an operation** dialog box, in the search box, enter
     **Perform an unbound action** and select it from the results list on the
