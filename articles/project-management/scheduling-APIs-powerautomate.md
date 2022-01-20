@@ -145,12 +145,12 @@ Complete the following steps to create a sample project.
     ![New Flow Step](media/newstep.png)
 
 2.  In the **Choose an operation** dialog box, in the search box, enter
-    **Perform an unbound action** and select it from the results list on the
+    **Perform an unbound action** and select it from the results on the
     **Actions** tab.
 
     ![Choose an Operation](media/chooseactiontab.png)
 
-3.  In the action step, click on the **Ellipsis** and then select **Rename.**
+3.  In the step, click on the **Ellipsis** and then select **Rename.**
 
 4.  Rename the step to **Create Project.**
 
@@ -170,11 +170,12 @@ Complete the following steps to create a sample project.
 Step 3: Create a generic team member
 ===========================================
 1.	In the flow, select **+New Step**
-2.	In the Choose an operation dialog box, search for initialize variable and select it from the results on the Actions tab.
-3.	In the new step, click on the Ellipsis, and then select Rename, to rename the step to Init team member.
-4.	In the Name field, enter TeamMemberAction.
-5.	In the Type field, select String.
-6.	In the Value field, enter msdyn_CreateTeamMemberV1.   
+2.	In the **Choose an operation** dialog box, search for **initialize variable** and select it from the results on the **Actions** tab.
+3.	In the new step, click on the Ellipsis, and then select **Rename**
+4.	Rename the step to **Init team member**.
+5.	In the Name field, enter **TeamMemberAction**.
+6.	In the Type field, select **String**.
+7.	In the Value field, enter **msdyn_CreateTeamMemberV1**.   
   
 
 
