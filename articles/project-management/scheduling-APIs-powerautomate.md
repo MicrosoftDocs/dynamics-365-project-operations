@@ -106,25 +106,18 @@ The solution aware flow makes it easier to export the flow to use in the future.
 3.  On the **New solution** pane, fill in the required fields, and then select
     **Create**.
 
-![](media/fd2a44ffd815beb6fb5c609607627bfa.png)
-
 
 Step 1: Create a new Flow and Power Automate trigger
 =========================
 
 1.  On the **Solutions** page, select the solution you created.
 
-    ![Graphical user interface, text, application, chat or text message Description automatically generated](media/9bb6481233dcf79f593f292ca92916a9.png)
-
 2.  Select **New**.
 
 3.  In the left pane, select **Cloud flows** \> **Automation** \> **Cloud flow**
     \> **Instant**.
 
-![Graphical user interface, application Description automatically generated](media/8815fa1fa5b32db8a33669c9b7a65713.png)
-
 4.  In the **Flow name** field, enter **Schedule API Flow Demo.**
-
 
 5.  In the **Choose how to trigger this flow** list, select **Power Apps.** When
     you create a Power Apps trigger, the logic is up to you as the author. In
