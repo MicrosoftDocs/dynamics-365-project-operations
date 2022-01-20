@@ -192,7 +192,7 @@ Step 4: Create generic team member
                     "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
                     "msdyn_name": "ScheduleAPIDemoTM1"
         }
- }~~~~ 
+ } ~~~~ 
 7.	
 
 
