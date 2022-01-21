@@ -262,6 +262,19 @@ Step 8: Init Number of tasks
 4.	Set the condition to **less than equal to**.
 5.	Set the second value in the conditional statement to **0**
 
+ Step 11: Set Project Task
+===========================================
+In the flow, select **+New Step**
+2.	In the **Choose an operation** dialog box, search for **set variable** and select it from the results on the **Actions** tab.
+3.	In the new step, click on the Ellipsis, and then select **Rename**
+4.	Rename the step to **Set Project Task**.
+5.	In the Name field, select **msdyn_projecttaskid**.
+6.	In the Value field, enter **guid()**, in the Expression Builder. 
+
+
+
+
+
 
 
 
