@@ -387,6 +387,18 @@ Step 14: Rename Project Task
 6.  In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
 
 
+Step 15: Execute Operation Set
+====================================================
+1. In the flow, select **+New Step**.
+2. In the **Choose an operation** dialog box, in the search box, enter
+     **Perform
+    an unbound action** and select it from the results on the
+    **Actions** tab.
+3. In the action step, click on the **Ellipsis** menu and select **Rename**, to
+    rename the step to **Execute Operation Set**
+4. In the Action Name field, select **msdyn_ExecuteOperationSetV1**
+5. In the OperationSetId field, select **msdyn_CreateOperationSetV1Response OperationSetId** from the Dynamid Content dialog.
+    
 
 
 
