@@ -271,10 +271,35 @@ In the flow, select **+New Step**
 5.	In the Name field, select **msdyn_projecttaskid**.
 6.	In the Value field, enter **guid()**, in the Expression Builder. 
 
+Step 12 – Create Project Task
+============================
 
+In this step, we will create a Project Task that has a specific unique ID;
+belonging to the current Project and the previously created Project Bucket.
 
+1.  In the flow, select **+New Step**.
+2.  In the **Choose an operation** dialog box, in the search box, enter
+    **Perform an unbound action** and select it from the results on the
+    **Actions** tab.
+3.  In the step, click on the **Ellipsis** and then select **Rename.**
+4.  Rename the step to **Create Project Task.**
+5.  In the action name, select **msdyn_PssCreateV1
+6.  In the entity field, enter:
+~~~~ 
+{
+  "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projecttask",
+  "msdyn_projecttaskid": "@{variables('msdyn_projecttaskid')}",
+  "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
+  "msdyn_subject": "ScheduleAPIDemoTask1",
+  "msdyn_projectbucket@odata.bind": "/msdyn_projectbuckets(@{outputs('Create_Project_Buckets')?['body/msdyn_projectbucketid']})",
+  "msdyn_start": "@{addDays(utcNow(), 1)}",
+  "msdyn_scheduledstart": "@{utcNow()}",
+  "msdyn_scheduledend": "@{addDays(utcNow(), 5)}",
+  "msdyn_LinkStatus": "192350000"
+}
 
-
+~~~~ 
+7.  In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
 
 
 
