@@ -48,6 +48,8 @@ When a Resource manager needs to book a resource directly to a project, they can
     - Booking status
     - Booking method
     - Duration
+   
+   > Project Operations does not currently support the schedule board.   
 
 ## Book from the Project form
 
