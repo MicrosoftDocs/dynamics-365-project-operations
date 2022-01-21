@@ -302,6 +302,62 @@ belonging to the current Project and the previously created Project Bucket.
 7.  In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
 
 
+Copy and paste the JSON representation of the task entity
+
+{
+
+"\@\@odata.type": "Microsoft.Dynamics.CRM.msdyn_projecttask",
+
+"msdyn_projecttaskid": "\@{variables('msdyn_projecttaskid')}",
+
+"msdyn_project\@odata.bind":
+"/msdyn_projects(\@{outputs('Create_Project')?['body/ProjectId']})",
+
+"msdyn_subject": "ScheduleAPIDemoTask1",
+
+"msdyn_projectbucket\@odata.bind":
+"/msdyn_projectbuckets(\@{outputs('Create_Project_Buckets')?['body/msdyn_projectbucketid']})",
+
+"msdyn_start": "\@{addDays(utcNow(), 1)}",
+
+"msdyn_scheduledstart": "\@{utcNow()}",
+
+"msdyn_scheduledend": "\@{addDays(utcNow(), 5)}",
+
+"msdyn_LinkStatus": "192350000"
+
+}
+
+Below is the explanation of each parameter:
+
+1.  **\@\@odata.type**: "Microsoft.Dynamics.CRM.msdyn_projecttask"
+
+2.  **msdyn_projecttaskid**: Unique ID for the task. It should be set to dynamic
+    variable from **msdyn_projecttaskid**
+
+3.  **msdyn_project\@odata.bind**: The project id of the owning project. This
+    will be a dynamics content coming from the response of the create project
+    step. Ensure that you type the full path and add dynamic content between the
+    brackets. Note that the quotes are necessary as well. E.g.
+    "/msdyn_projects(ADD DYNAMIC CONTENT)"
+
+3.  **msdyn_subject**: Any random task name
+
+5.  **msdyn_projectbucket\@odata.bind**: Project bucket containing the tasks.
+    This will be a dynamics content coming from the response of the create
+    project bucket step. Ensure that you type the full path and add dynamic
+    content between the brackets. Note that the quotes are necessary as well.
+    E.g. "/msdyn_projectbuckets(ADD DYNAMIC CONTENT)"
+
+6.  **msdyn_start**: dynamics content for the start date. E.g. Tomorrow would
+    represented as “addDays(utcNow(), 1)”
+
+7.  **msdyn_scheduledstart**: schedule start date. Same as above
+
+8.  **msdyn_scheduleend**: schedule end date; select a data in the future. E.g.
+    “addDays(utcNow(), 5)”
+
+9. **msdyn_LinkStatus**: "192350000"
 
 
 
