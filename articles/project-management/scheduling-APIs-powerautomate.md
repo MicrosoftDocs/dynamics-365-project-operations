@@ -65,10 +65,10 @@ The following is a complete list of the steps documented in the sample flow:
 
 13. [Create Resource Assignment](#13)
 
-14. Decrement Variable
-15. Rename Task
+14. [Decrement Variable](#14)
+15. [Rename Task](#15)
 
-16. Execute Operation Set
+16. [Execute Operation Set](#16)
 
 Assumptions
 ===========
