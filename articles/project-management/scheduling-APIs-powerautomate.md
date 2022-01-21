@@ -59,11 +59,11 @@ The following is a complete list of the steps documented in the sample flow:
 
 10. [Do Until](#10)
 
-11. Set Project Task
+11. [Set Project Task](#11)
 
-12. Create Project Task
+12. [Create Project Task](#12)
 
-13. Create Resource Assignment
+13. [Create Resource Assignment](#13)
 
 14. Decrement Variable
 15. Rename Task
@@ -263,7 +263,7 @@ Step 8: Init Number of tasks<a id="8"></a>
 4.	Set the condition to **less than equal to**.
 5.	Set the second value in the conditional statement to **0**
 
- Step 11: Set Project Task
+ Step 11: Set Project Task<a id="11"></a> 
 ===========================================
 In the flow, select **+New Step**
 2.	In the **Choose an operation** dialog box, search for **set variable** and select it from the results on the **Actions** tab.
@@ -272,7 +272,7 @@ In the flow, select **+New Step**
 5.	In the Name field, select **msdyn_projecttaskid**.
 6.	In the Value field, enter **guid()**, in the Expression Builder. 
 
-Step 12: Create Project Task
+Step 12: Create Project Task<a id="12"></a> 
 ============================
 
 In this step, we will create a Project Task that has a specific unique ID;
@@ -334,7 +334,7 @@ Below is the explanation of each parameter:
 
 9. **msdyn_LinkStatus**: "192350000"
 
-Step 12: Create Assignment
+Step 13: Create Assignment<a id="13"></a> 
 ============================
 1.  In the flow, select **+New Step**.
 2.  In the **Choose an operation** dialog box, in the search box, enter
@@ -356,7 +356,7 @@ Step 12: Create Assignment
 ~~~~
 7.  In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
 
-Step 13: Decrement Variable
+Step 14: Decrement Variable<a id="14"></a> 
 ==========================
 1.  In the flow, select **+New Step**.
 2.  In the **Choose an operation** dialog box, in the search box, enter
@@ -365,7 +365,7 @@ Step 13: Decrement Variable
 3.  In the Name fied, select **number of tasks**
 4.  In the Value field, enter **1**.
 
-Step 14: Rename Project Task
+Step 15: Rename Project Task<a id="15"></a> 
 ======================================
 1.  In the flow, select **+New Step**.
 2.  In the **Choose an operation** dialog box, in the search box, enter
@@ -387,7 +387,7 @@ Step 14: Rename Project Task
 6.  In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
 
 
-Step 15: Execute Operation Set
+Step 16: Execute Operation Set<a id="16"></a> 
 ====================================================
 1. In the flow, select **+New Step**.
 2. In the **Choose an operation** dialog box, in the search box, enter
