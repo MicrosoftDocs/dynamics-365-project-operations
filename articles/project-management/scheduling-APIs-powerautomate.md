@@ -271,7 +271,7 @@ In the flow, select **+New Step**
 5.	In the Name field, select **msdyn_projecttaskid**.
 6.	In the Value field, enter **guid()**, in the Expression Builder. 
 
-Step 12 – Create Project Task
+Step 12: Create Project Task
 ============================
 
 In this step, we will create a Project Task that has a specific unique ID;
