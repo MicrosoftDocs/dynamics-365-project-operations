@@ -41,23 +41,23 @@ The following is a complete list of the steps documented in the sample flow:
 
 1.  [Create PowerApps trigger](#1)
 
-2.  Create Project
+2.  [Create Project](#2)
 
-3.  Init Team Member
+3.  [Init Team Member](#3)
 
-4.  Create Team Member
+4.  [Create Team Member](#4)
 
-5.  Create Operation Set
+5.  [Create Operation Set](#5)
 
-6.  Create Project Buckets
+6.  [Create Project Buckets](#6)
 
-7.  Init Linkstatus
+7.  [Init Linkstatus](#7)
 
-8.  Init Number of tasks
+8.  [Init Number of tasks](#8)
 
-9.  Init ProjectTaskID
+9.  [Init ProjectTaskID](#9)
 
-10. Do Until
+10. [Do Until](#10)
 
 11. Set Project Task
 
@@ -129,7 +129,7 @@ Step 1: Create a new Flow and Power Automate trigger<a id="1"></a>
 ![./media/powerautomatetrigger.png](./media/powerautomatetrigger.png)
 ----------------------------------------
 
-Step 2: Create a project 
+Step 2: Create a project<a id="2"></a> 
 =========================
 
 Complete the following steps to create a sample project.
@@ -161,7 +161,7 @@ Complete the following steps to create a sample project.
 
     ![expression builder](media/expressionbuilder.png)
 
-Step 3: Init team member variable
+Step 3: Init team member variable<a id="3"></a>
 ===========================================
 1.	In the flow, select **+New Step**
 2.	In the **Choose an operation** dialog box, search for **initialize variable** and select it from the results on the **Actions** tab.
@@ -171,7 +171,7 @@ Step 3: Init team member variable
 6.	In the Type field, select **String**.
 7.	In the Value field, enter **msdyn_CreateTeamMemberV1**.   
   
-Step 4: Create generic team member
+Step 4: Create generic team member<a id="4"></a>
 ===========================================
 1.	In the flow, select **+New Step**
 2.	In the **Choose an operation** dialog box, search for **Perform an unbound action ** and select it from the results on the **Actions** tab.
@@ -197,7 +197,7 @@ Below is an explanation of each parameter:
  ![inserting a guid](media/guid.png)
 4.	**msdyn_project@odata.bind:** the project id of the owning project. This will be dynamic content coming from the response of the create project step. Ensure that you type the full path and add dynamic content between the brackets. Note that the quotes are necessary as well. E.g. **"/msdyn_projects(ADD DYNAMIC CONTENT)"**
  
-Step 5: Create an operation set
+Step 5: Create an operation set<a id="5"></a>
 ===========================================
 1.	In the flow, select **+New Step**
 2.  In the **Choose an operation** dialog box, in the search box, enter
@@ -212,7 +212,7 @@ Step 5: Create an operation set
 9.	In the Project field, enter **)**
 
 
-Step 6: Create a project bucket
+Step 6: Create a project bucket<a id="6"></a>
 ===========================================
 1.	In the flow, select **+New Step**
 2.  In the **Choose an operation** dialog box, in the search box, enter
@@ -225,7 +225,7 @@ Step 6: Create a project bucket
 7.	In the Project, select **msdyn_CreateProjectV1Response ProjectId** from the Dynamic Content dialog.
 
 
-Step 7: Init Link Status
+Step 7: Init Link Status<a id="7"></a>
 ===========================================
 1.	In the flow, select **+New Step**
 2.	In the **Choose an operation** dialog box, search for **initialize variable** and select it from the results on the **Actions** tab.
@@ -235,7 +235,7 @@ Step 7: Init Link Status
 6.	In the Type field, select **Integer**.
 7.	In the Value field, enter **192350000**.   
 
-Step 8: Init Number of tasks
+Step 8: Init Number of tasks<a id="8"></a>
 ===========================================
 1.	In the flow, select **+New Step**
 2.	In the **Choose an operation** dialog box, search for **initialize variable** and select it from the results on the **Actions** tab.
@@ -245,7 +245,7 @@ Step 8: Init Number of tasks
 6.	In the Type field, select **Integer**.
 7.	In the Value field, enter **5**. 
 
- Step 9: Init ProjectTaskID
+ Step 9: Init ProjectTaskID<a id="9"></a>
 ===========================================
 1.	In the flow, select **+New Step**
 2.	In the **Choose an operation** dialog box, search for **initialize variable** and select it from the results on the **Actions** tab.
@@ -255,7 +255,7 @@ Step 8: Init Number of tasks
 6.	In the Type field, select **String**.
 7.	In the Value field, enter **guid()**, in the Expression Builder. 
 
- Step 10: Do Until 
+ Step 10: Do Until<a id="10"></a> 
 ===========================================
 1.  In the flow, select **+New Step**
 2.	In the **Choose an operation** dialog box, search for **Do Unit** and select it from the results on the **Actions** tab.
