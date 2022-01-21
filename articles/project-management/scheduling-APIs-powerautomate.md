@@ -206,7 +206,10 @@ Step 5: Create an operation set
 4.	Rename the step to **Create Operation Set**.
 5.	In the Action Name field, select the Dataverse custom action **msdyn_CreateOperationSetV1**
 6.	In the Description field, enter **ScheduleAPIDemoOperationSet**
-7.	In the Project, select **msdyn_CreateProjectV1Response ProjectId** from the Dynamic Content dialog.
+7.	In the Project field, select enter **/msdyn_projects(**
+8.	Select **msdyn_CreateProjectV1Response ProjectId** from the Dynamic Content dialog.
+9.	In the Project field, enter **)**
+
 
 Step 6: Create a project bucket
 ===========================================
@@ -217,8 +220,49 @@ Step 6: Create a project bucket
 3.	In the new step, click on the Ellipsis, and then select **Rename**. 
 4.	Rename the step to **Create Bucket**.
 5.	In the Table Name field, select **Project Buckets**
-6.	In the Description field, enter **ScheduleAPIDemoOperationSet**
+6.	In the Name field, enter **ScheduleAPIDemoBucket1**
 7.	In the Project, select **msdyn_CreateProjectV1Response ProjectId** from the Dynamic Content dialog.
+
+
+Step 7: Init Link Status
+===========================================
+1.	In the flow, select **+New Step**
+2.	In the **Choose an operation** dialog box, search for **initialize variable** and select it from the results on the **Actions** tab.
+3.	In the new step, click on the Ellipsis, and then select **Rename**
+4.	Rename the step to **Init linkstatus**.
+5.	In the Name field, enter **linkstatus**.
+6.	In the Type field, select **Integer**.
+7.	In the Value field, enter **192350000**.   
+
+Step 8: Init Number of tasks
+===========================================
+1.	In the flow, select **+New Step**
+2.	In the **Choose an operation** dialog box, search for **initialize variable** and select it from the results on the **Actions** tab.
+3.	In the new step, click on the Ellipsis, and then select **Rename**
+4.	Rename the step to **Init Number of tasks**.
+5.	In the Name field, enter **number of tasks**.
+6.	In the Type field, select **Integer**.
+7.	In the Value field, enter **5**. 
+
+ Step 9: Init ProjectTaskID
+===========================================
+1.	In the flow, select **+New Step**
+2.	In the **Choose an operation** dialog box, search for **initialize variable** and select it from the results on the **Actions** tab.
+3.	In the new step, click on the Ellipsis, and then select **Rename**
+4.	Rename the step to **Init ProjectTaskID**.
+5.	In the Name field, enter **number of tasks**.
+6.	In the Type field, select **String**.
+7.	In the Value field, enter **guid()**, in the Expression Builder. 
+
+ Step 10: Do Until 
+===========================================
+1.  In the flow, select **+New Step**
+2.	In the **Choose an operation** dialog box, search for **Do Unit** and select it from the results on the **Actions** tab.
+3.	Set the first value in the conditional statement to the **number of tasks** varible from the Dynamic Content
+4.	Set the condition to **less than equal to**.
+5.	Set the second value in the conditional statement to **0**
+
+
 
 
 
