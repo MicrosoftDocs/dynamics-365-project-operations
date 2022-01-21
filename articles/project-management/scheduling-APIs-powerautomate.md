@@ -400,6 +400,18 @@ Step 16: Execute Operation Set<a id="16"></a>
 5. In the OperationSetId field, select **msdyn_CreateOperationSetV1Response OperationSetId** from the Dynamid Content dialog.
     
 
+References
+==========
+
+1.  [Overview of how to integrate flows with Dataverse - Power Automate \|
+    Microsoft Docs](https://docs.microsoft.com/en-us/power-automate/dataverse/overview?WT.mc_id=email)
+
+2.  [Use Project schedule APIs to perform operations with Scheduling entities \|
+    Microsoft Docs](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-management/schedule-api-preview?WT.mc_id=email)
+
+3.  [Overview of the cloud flows - Power Automate \| Microsoft Docs](https://docs.microsoft.com/en-us/power-automate/overview-cloud?WT.mc_id=email)
+
+1.  [Overview of solution-aware flows - Power Automate \| Microsoft Docs](https://docs.microsoft.com/en-us/power-automate/overview-solution-flows?WT.mc_id=email)
 
 
 
