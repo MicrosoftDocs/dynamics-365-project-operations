@@ -66,8 +66,9 @@ The following is a complete list of the steps documented in the sample flow:
 13. Create Resource Assignment
 
 14. Decrement Variable
+15. Rename Task
 
-15. Execute Operation Set
+16. Execute Operation Set
 
 Assumptions
 ===========
@@ -283,7 +284,7 @@ belonging to the current Project and the previously created Project Bucket.
     **Actions** tab.
 3.  In the step, click on the **Ellipsis** and then select **Rename.**
 4.  Rename the step to **Create Project Task.**
-5.  In the action name, select **msdyn_PssCreateV1
+5.  In the action name, select **msdyn_PssCreateV1**
 6.  In the entity field, enter:
 ~~~~ 
 {
@@ -341,7 +342,7 @@ Step 12: Create Assignment
     **Actions** tab.
 3.  In the step, click on the **Ellipsis** and then select **Rename.**
 4.  Rename the step to **Create Assignment.**
-5.  In the action name, select **msdyn_PssCreateV1
+5.  In the action name, select **msdyn_PssCreateV1**
 6.  In the entity field, enter:
 ~~~~
 {
@@ -353,6 +354,40 @@ Step 12: Create Assignment
   "msdyn_projectid@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})"
 }
 ~~~~
+7.  In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
+
+Step 13: Decrement Variable
+==========================
+1.  In the flow, select **+New Step**.
+2.  In the **Choose an operation** dialog box, in the search box, enter
+    **decrement variable** and select it from the results on the
+    **Actions** tab.
+3.  In the Name fied, select **number of tasks**
+4.  In the Value field, enter **1**.
+
+Step 14: Rename Project Task
+======================================
+1.  In the flow, select **+New Step**.
+2.  In the **Choose an operation** dialog box, in the search box, enter
+     **Perform
+    an unbound action** and select it from the results on the
+    **Actions** tab.
+3.  In the action step, click on the **Ellipsis** menu and select **Rename**, to
+    rename the step to **Rename Project Task**
+4.  In the Action Name field, select **msdyn_PssUpdateV1**.
+5.  In the Entity field, enter:
+~~~~
+{
+                "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projecttask",
+                "msdyn_projecttaskid": "@{variables('msdyn_projecttaskid')}",
+                "msdyn_subject": "ScheduleDemoTask1-UpdatedName"
+}
+
+~~~~
+6.  In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
+
+
+
 
 
 
