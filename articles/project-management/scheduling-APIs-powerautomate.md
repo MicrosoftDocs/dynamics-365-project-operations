@@ -39,7 +39,7 @@ independently.
 
 The following is a complete list of the steps documented in the sample flow:
 
-1.  Create PowerApps trigger
+1.  [Create PowerApps trigger](#1)
 
 2.  Create Project
 
@@ -108,7 +108,7 @@ The solution aware flow makes it easier to export the flow to use in the future.
     **Create**.
 
 
-Step 1: Create a new Flow and Power Automate trigger
+Step 1: Create a new Flow and Power Automate trigger<a id="1"></a>
 =========================
 
 1.  On the **Solutions** page, select the solution you created.
