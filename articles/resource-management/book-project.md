@@ -2,7 +2,7 @@
 title: Book to a project
 description: This topic provides information about booking a resource to a project.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 01/24/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -49,7 +49,8 @@ When a Resource manager needs to book a resource directly to a project, they can
     - Booking method
     - Duration
    
-   > Project Operations does not currently support the schedule board.   
+   > [!NOTE]
+   > Currently, Dynamics 365 Project Operations doesn't support the schedule board.   
 
 ## Book from the Project form
 
