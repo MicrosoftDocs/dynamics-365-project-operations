@@ -122,14 +122,16 @@ Complete the following steps to create a sample project.
 5. In the **Action Name** field, select **TeamMemberAction** from the **Dynamic Content** dialog.
 6. In the **Action Parameters** field, enter:
 
-        {
-                "TeamMember": {
-                    "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projectteam",
-                    "msdyn_projectteamid": "@{guid()}",
-                    "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
-                    "msdyn_name": "ScheduleAPIDemoTM1"
-                               }
-         } 
+   ```
+   {
+           "TeamMember": {
+               "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projectteam",
+               "msdyn_projectteamid": "@{guid()}",
+               "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
+               "msdyn_name": "ScheduleAPIDemoTM1"
+                          }
+    } 
+    ```
      
 Below is an explanation of each parameter:
 
@@ -223,18 +225,19 @@ In this step, we will create a Project Task that has a specific unique ID; belon
 5. In the action name, select **msdyn_PssCreateV1**
 6. In the entity field, enter:
 
-        {
-          "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projecttask",
-          "msdyn_projecttaskid": "@{variables('msdyn_projecttaskid')}",
-          "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
-          "msdyn_subject": "ScheduleAPIDemoTask1",
-          "msdyn_projectbucket@odata.bind": "/msdyn_projectbuckets(@{outputs('Create_Project_Buckets')?['body/msdyn_projectbucketid']})",
-          "msdyn_start": "@{addDays(utcNow(), 1)}",
-          "msdyn_scheduledstart": "@{utcNow()}",
-          "msdyn_scheduledend": "@{addDays(utcNow(), 5)}",
-          "msdyn_LinkStatus": "192350000"
-        }
-
+   ```
+   {
+     "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projecttask",
+     "msdyn_projecttaskid": "@{variables('msdyn_projecttaskid')}",
+     "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
+     "msdyn_subject": "ScheduleAPIDemoTask1",
+     "msdyn_projectbucket@odata.bind": "/msdyn_projectbuckets(@{outputs('Create_Project_Buckets')?['body/msdyn_projectbucketid']})",
+     "msdyn_start": "@{addDays(utcNow(), 1)}",
+     "msdyn_scheduledstart": "@{utcNow()}",
+     "msdyn_scheduledend": "@{addDays(utcNow(), 5)}",
+     "msdyn_LinkStatus": "192350000"
+   }
+   ```
  
 7. In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
 
@@ -260,14 +263,16 @@ Below is the explanation of each parameter:
 5. In the action name, select **msdyn_PssCreateV1**
 6. In the entity field, enter:
 
-        {
-          "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
-          "msdyn_resourceassignmentid": "@{guid()}",
-          "msdyn_name": "ScheduleAPIDemoAssign1",
-          "msdyn_taskid@odata.bind": "/msdyn_projecttasks(@{variables('msdyn_projecttaskid')})",
-          "msdyn_projectteamid@odata.bind": "/msdyn_projectteams(@{outputs('Create_Team_Member')?['body/TeamMemberId']})",
-          "msdyn_projectid@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})"
-        }
+   ```
+   {
+     "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
+     "msdyn_resourceassignmentid": "@{guid()}",
+     "msdyn_name": "ScheduleAPIDemoAssign1",
+     "msdyn_taskid@odata.bind": "/msdyn_projecttasks(@{variables('msdyn_projecttaskid')})",
+     "msdyn_projectteamid@odata.bind": "/msdyn_projectteams(@{outputs('Create_Team_Member')?['body/TeamMemberId']})",
+     "msdyn_projectid@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})"
+   }
+   ```
 
 7. In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
 
@@ -286,11 +291,13 @@ Below is the explanation of each parameter:
 4. In the Action Name field, select **msdyn_PssUpdateV1**.
 5. In the Entity field, enter:
 
-        {
-                        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projecttask",
-                        "msdyn_projecttaskid": "@{variables('msdyn_projecttaskid')}",
-                        "msdyn_subject": "ScheduleDemoTask1-UpdatedName"
-        }
+   ```
+   {
+              "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projecttask",
+              "msdyn_projecttaskid": "@{variables('msdyn_projecttaskid')}",
+              "msdyn_subject": "ScheduleDemoTask1-UpdatedName"
+   }
+   ```
 
 6. In the OperationSetId field, select **msdyn_CreateOperationSetV1Response** from the Dynamic Content dialog.
 
