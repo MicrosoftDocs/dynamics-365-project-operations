@@ -15,7 +15,7 @@ ms.author: sigitac
 
 This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Dataverse environment version 4.27.0.195, 4.27.0.242
+- Project Operations in a Dataverse environment version 4.27.0.195, 4.27.0.242, 4.27.0.244
 - Project management and accounting in a Dynamics 365 Finance environment version 10.0.23
 
 ## Features included in this release

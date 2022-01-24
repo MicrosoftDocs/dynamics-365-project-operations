@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
 | --- | --- |
-| 4.27.0.244 | 10.0.23 |
+| 4.28.0.120 | 10.0.24 |
 
 For Project Operations Resource/non-stocked scenario, we recommend to use dual-write Orchestration version 2.3.1.15 or higher.
 
@@ -42,27 +42,23 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.27.0.244     | Complete*          | Complete*           | TBD                 | January 21, 2022    |
+|   &nbsp;  | First Release         |  4.28.0.120     | Complete           | January 28, 2022    | TBD                 | March 4, 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
-|   &nbsp;  | Canada                |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
-|   &nbsp;  | India                 |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
-|   &nbsp;  | France                |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
-|   &nbsp;  | South Africa          |  4.27.0.244     | Complete           | January 21, 2022    | TBD                 | January 24, 2022    |
+|   &nbsp;  | South America         |  4.27.0.244     | Complete           | Complete            | 4.28.0.120          | January 24, 2022    |
+|   &nbsp;  | Canada                |  4.27.0.244     | Complete           | Complete            | 4.28.0.120          | January 24, 2022    |
+|   &nbsp;  | India                 |  4.27.0.244     | Complete           | Complete            | 4.28.0.120          | January 24, 2022    |
+|   &nbsp;  | France                |  4.27.0.244     | Complete           | Complete            | 4.28.0.120          | January 24, 2022    |
+|   &nbsp;  | South Africa          |  4.27.0.244     | Complete           | Complete            | 4.28.0.120          | January 24, 2022    |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
-|   &nbsp;  | Asia Pacific          |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
-|   &nbsp;  | Great Britain         |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
-|   &nbsp;  | Oceania               |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
-|   &nbsp;  | United Arab Emirates  |  4.27.0.244     | January 21, 2022   | January 28, 2022    | TBD                 | January 31, 2022    |
+|   &nbsp;  | Japan                 |  4.27.0.244     | Complete           | January 28, 2022    | 4.28.0.120          | January 31, 2022    |
+|   &nbsp;  | Asia Pacific          |  4.27.0.244     | Complete           | January 28, 2022    | 4.28.0.120          | January 31, 2022    |
+|   &nbsp;  | Great Britain         |  4.27.0.244     | Complete           | January 28, 2022    | 4.28.0.120          | January 31, 2022    |
+|   &nbsp;  | Oceania               |  4.27.0.244     | Complete           | January 28, 2022    | 4.28.0.120          | January 31, 2022    |
+|   &nbsp;  | United Arab Emirates  |  4.27.0.244     | Complete           | January 28, 2022    | 4.28.0.120          | January 31, 2022    |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.26.0.155     | Complete           | Complete            | 4.27.0.244          | January 21, 2022    |
+|   &nbsp;  | Europe                |  4.27.0.244     | January 28, 2022   | February 04, 2022   | 4.28.0.120          | February 07, 2022   |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.26.0.155     | Complete           | January 21, 2022    | 4.27.0.242          | January 24, 2022    |
-
->[!Note]
-> - Complete* - Auto updates completed with version 4.27.0.195.
-
+|   &nbsp;  | North America         |  4.26.0.155     | Complete           | Complete            | 4.27.0.242          | January 24, 2022    |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
@@ -70,15 +66,13 @@ Updates for Project management and accounting are released eight times a year.
 
 |Supported Version| Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.24     |      December 3, 2021       |        January 14, 2022           |                          February 4, 2022                            | April 15, 2022     |
 |     10.0.23     |      October 15, 2021       |        December 10, 2021          |                          December 31, 2021                           | March 18, 2022     |
-|     10.0.22     |      September 3, 2021      |        October 22, 2021           |                          November 5, 2021                            | January 14, 2022   |
-
 
 Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Targeted Version | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.24     |      December 3, 2021       |        January 14, 2022           |                          February 4, 2022                            | April 15, 2022     |
 |     10.0.25     |      January 31, 2022       |        March 18, 2022             |                          April 1, 2022                               | June 10, 2022      |
-
+|     10.0.26     |      March 4, 2022          |        April 15, 2022             |                          April 29, 2022                              | July 15, 2022      |
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
