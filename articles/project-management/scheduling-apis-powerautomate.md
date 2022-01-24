@@ -2,7 +2,7 @@
 title: Use Project schedule APIs with Power Automate
 description: This topic provides a sample flow utilizing the Project schedule APIs .
 author: ruhercul
-ms.date: 01/20/2022
+ms.date: 01/24/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
