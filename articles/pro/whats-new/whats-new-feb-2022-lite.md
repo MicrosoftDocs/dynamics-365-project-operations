@@ -19,7 +19,7 @@ This topic applies to the following components and versions of Microsoft Dynamic
 
 ## Features included in this release
 
-With this release, you can add up to 300 team members to a single project. Previously, the maximum team member limit was 150. For more information, see [Project limits](../project-management/create-wbs.md#project-limitations).
+With this release, you can add up to 300 team members to a single project. Previously, the maximum team member limit was 150. For more information, see [Project limits](../../project-management/create-wbs.md#project-limitations).
 
 
 ## Quality updates
