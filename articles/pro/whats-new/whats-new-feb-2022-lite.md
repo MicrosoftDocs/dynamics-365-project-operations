@@ -19,17 +19,17 @@ This topic applies to the following components and versions of Microsoft Dynamic
 
 ## Features included in this release
 
-- With this release it is possible to add up to 300 team members to a single project (previously it was possible to add 150 team members). For more details see [Project limits](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-management/create-wbs#project-limitations).
+With this release, you can add up to 300 team members to a single project. Previously, the maximum team member limit was 150. For more information, see [Project limits](../project-management/create-wbs.md#project-limitations).
 
 
 ## Quality updates
 
 | **Feature area** | **Reference number** | **Quality update** |
 | --- | --- | --- |
-| Billing and pricing | 2497369 | Material correction must follow the date value on the Correction parameters |
-| Billing and pricing | 2498697 | Improved security configuration for time entry recall function |
-| Billing and pricing | 2517455 | Refresh invoice line transactions action must not be allowed to trigger multiple times for the same invoice simultaneously |
-| Billing and pricing | 2517465 | Deactivate Invoice line details action is blocked as it is not supported. |
-| Billing and pricing | 2556660 | Fixed data effectivity check on the pricelist attached to Project parameters record |
-| Opportunity management | 2369202 | Corrected business logic checking no pricelists with overlap effectivity date can be attached to the same Project contract |
-| Opportunity management | 2385965 | Corrected &quot;Save and close&quot; button behavior in Project contract Customers tab. |
+| Billing and pricing | 2497369 | Material correction must follow the date value on the **Correction** parameters. |
+| Billing and pricing | 2498697 | Improved the security configuration for **Time entry recall**. |
+| Billing and pricing | 2517455 | The **Refreshed invoice line transactions** action must not be allowed to trigger multiple times for the same invoice simultaneously. |
+| Billing and pricing | 2517465 | The **Deactivate invoice line details** action is blocked because it's not supported. |
+| Billing and pricing | 2556660 | Fixed data effectivity checks on the pricelist that's attached to a project parameters record. |
+| Opportunity management | 2369202 | Corrected the business logic that verifes pricelists with overlapping effectivity dates can be attached to the same project contract. |
+| Opportunity management | 2385965 | Corrected the behavior on the **Project contract** page, on the **Customers** tab, when you select **Save and close**. |
