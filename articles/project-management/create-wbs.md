@@ -120,7 +120,7 @@ You should be aware of the following limitations if you are using the work break
 |----------------------------------------------------|----------------------|
 | Maximum total tasks for a project                  | 500                  |
 | Maximum total duration for a project               | 3650 days (10 years) |
-| Maximum total resources for a project              | 150                  |
+| Maximum total resources for a project              | 300                  |
 | Maximum total links (successor only) for a project | 600                  |
 | Maximum total custom fields for a project          | 10                   |
 | Maximum checklist items per task                   | 20                   |
