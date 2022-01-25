@@ -12,16 +12,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This topic describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity.
-
-The steps in the flow are divided into phases that can be completed independently of each other:
-
-- Create a project
-- Create project team members
-- Create an Operation Set
-- Create project tasks and resource assignments
-- Update project tasks
-- Run Operation Sets
+This topic describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity.  The example will demonstrate how to create a project, project team member, Operation Sets, project tasks and resource assignments.  It will also demonstrate how to update an entity and execute an Operation Set.
 
 Here is a complete list of the steps that are documented in the sample flow in this topic:
 
@@ -44,7 +35,7 @@ Here is a complete list of the steps that are documented in the sample flow in t
 
 ## Assumptions
 
-This topic assumes that you have a basic knowledge of the Dataverse platform, cloud flows, and the Schedule application programming interface (API). For more information, see the [References](#references) section later in this topic.
+This topic assumes that you have a basic knowledge of the Dataverse platform, cloud flows, and the Project Schedule Application Programming Interface (API). For more information, see the [References](#references) section later in this topic.
 
 ## Create a flow
 
@@ -72,8 +63,6 @@ Follow these steps to create a [solution-aware flow](/power-automate/overview-so
 4. In the **Choose how to trigger this flow** list, select **Power Apps**. When you create a Power Apps trigger, the logic is up to you as the author. In this topic, leave the input parameters blank for testing purposes.
 5. Select **Create**.
 
-![Creating an instant cloud flow and selecting a trigger.](./media/powerautomatetrigger.png)
-
 ## <a id="2"></a>Step 2: Create a project
 
 Follow these steps to create a sample project.
@@ -87,16 +76,13 @@ Follow these steps to create a sample project.
     ![Selecting an operation.](media/chooseactiontab.png)
 
 3. In the new step, select the ellipsis (**...**), and then select **Rename**.
+
+![Renaming a step.](media/renamestep.png)
+
 4. Rename the step **Create Project**.
-
-    ![Renaming a step.](media/renamestep.png)
-
 5. In the **Action Name** field, select **msdyn\_CreateProjectV1**.
 6. Under the **msdyn\_subject** field, select **Add dynamic content**.
 7. On the **Expression** tab, in the function field, enter **Project name - utcNow()**.
-
-    ![Entering a function in the expression builder.](media/expressionbuilder.png)
-
 8. Select **OK**.
 
 ## <a id="3"></a>Step 3: Initialize a variable for the team member
@@ -132,9 +118,7 @@ Follow these steps to create a sample project.
     Here is an explanation of the parameters:
 
     - **\@\@odata.type** – The entity name. For example, enter **"Microsoft.Dynamics.CRM.msdyn\_projectteam"**.
-    - **msdyn\_projectteamid** – The primary key of the project team ID. The value is a globally unique identifier (GUID) expression.
-
-        ![Inserting a GUID.](media/guid.png)
+    - **msdyn\_projectteamid** – The primary key of the project team ID. The value is a globally unique identifier (GUID) expression.   The ID is generated from the expression tab.
 
     - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value will be dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
     - **msdyn\_name** – The name of the team member. For example, enter **"ScheduleAPIDemoTM1"**.
