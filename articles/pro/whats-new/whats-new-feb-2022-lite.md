@@ -31,5 +31,5 @@ With this release, you can add up to 300 team members to a single project. Previ
 | Billing and pricing | 2517455 | The **Refreshed invoice line transactions** action must not be allowed to trigger multiple times for the same invoice simultaneously. |
 | Billing and pricing | 2517465 | The **Deactivate invoice line details** action is blocked because it's not supported. |
 | Billing and pricing | 2556660 | Fixed data effectivity checks on the pricelist that's attached to a project parameters record. |
-| Opportunity management | 2369202 | Corrected the business logic that verifes pricelists with overlapping effectivity dates can be attached to the same project contract. |
+| Opportunity management | 2369202 | Corrected the business logic that verifies pricelists with overlapping effectivity dates can be attached to the same project contract. |
 | Opportunity management | 2385965 | Corrected the behavior on the **Project contract** page, on the **Customers** tab, when you select **Save and close**. |
