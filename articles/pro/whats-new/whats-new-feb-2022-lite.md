@@ -17,6 +17,11 @@ This topic applies to the following components and versions of Microsoft Dynamic
 
 - Project Operations in a Dataverse environment version 4.28.0.120
 
+## Features included in this release
+
+- With this release it is possible to add up to 300 team members to a single project (previously it was possible to add 150 team members). For more details see [Project limits](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-management/create-wbs#project-limitations).
+
+
 ## Quality updates
 
 | **Feature area** | **Reference number** | **Quality update** |
