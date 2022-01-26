@@ -78,6 +78,8 @@ Meals and incidentals for days 1-3 =  75-22.5 =  57.5 USD
 **Total meals and incidentals = sum of meals and incidentals across 5 days = 332.5 USD 
 Total amount payable = total amount – meal reduction =  1150- 67.5 = 1082.5 USD **
 
+![Alt text](media/2-meal-type-per-day.png)
+
 **3. Per diem is set to number of meals per day**
 The meal reduction is calculated based on no. of meals provided for (unselected in grid) per day- 
 Configuraton - 
@@ -93,3 +95,5 @@ Meals and incidentals allowance which includes $5 for incidentals-
 
 Total meals and incidentals = sum (meals and incidentals/day) =235 USD
 Total amount =  $Total allowance - Total meal reduction = 985 USD
+
+![Alt text](media/3-number-of-meals-per-day.png)
