@@ -12,7 +12,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Office Groups allow you to share a project with other team members in the Common Data Service. When you add users to the group, project ownership transfers to the group. All users will have edit permission on the project. Users may also see the project if privileges have been granted by the administrator. These users won't be displayed in the group.
 

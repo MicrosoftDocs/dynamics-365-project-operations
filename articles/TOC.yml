@@ -308,6 +308,8 @@
         href: project-management/dev-copy-project.md
       - name: Use Project schedule APIs
         href: project-management/schedule-api-preview.md
+      - name: Use Project schedule APIs with Power Automate
+        href: project-management/scheduling-apis-powerautomate.md
       - name: Project schedule API performance
         href: project-management/project-schedule-api-performance.md
       - name: Project scheduling logs
@@ -1094,6 +1096,8 @@
     href: prod-pma/project-grants.md
   - name: Eliminate a project estimate
     href: prod-pma/eliminate-project-estimate.md
+  - name: Defaulting financial dimensions for project time entries
+    href: prod-pma/time-entry-dimension-defaults.md
 - name: Expense management
   items: 
   - name: Expense management overview
