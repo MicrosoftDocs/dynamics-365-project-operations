@@ -28,7 +28,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 This topic provides information about the changes to user interface (UI), functionality, and terminology in Project Service Automation between version 2 or version 1 and version 3.
 

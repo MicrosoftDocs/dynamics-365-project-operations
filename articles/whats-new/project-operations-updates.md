@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## Project Operations components
 

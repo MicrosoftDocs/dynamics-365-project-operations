@@ -12,7 +12,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## Prerequisites
 

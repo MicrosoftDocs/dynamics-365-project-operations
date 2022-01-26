@@ -12,7 +12,7 @@ ms.author: sigitac
 
 _**Lite deployment - deal to proforma invoicing_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## Prerequisites
 
