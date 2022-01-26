@@ -2,7 +2,7 @@
 title: Use Project schedule APIs with Power Automate
 description: This topic provides a sample flow that uses the Project schedule application programming interfaces (APIs).
 author: ruhercul
-ms.date: 01/24/2022
+ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: ruhercul
@@ -12,9 +12,9 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This topic describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity.  The example will demonstrate how to create a project, project team member, Operation Sets, project tasks and resource assignments.  It will also demonstrate how to update an entity and execute an Operation Set.
+This topic describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example demonstrates how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This topic also explains how to update an entity and execute an Operation Set.
 
-Here is a complete list of the steps that are documented in the sample flow in this topic:
+The following is a complete list of the steps that are documented in the sample flow in this topic:
 
 1. [Create a PowerApps trigger](#1)
 2. [Create a project](#2)
