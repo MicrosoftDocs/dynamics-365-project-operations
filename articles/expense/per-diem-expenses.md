@@ -34,7 +34,11 @@ Per diem rates can be based on the time of year, the travel location, or both. W
 
 The per diem calculation is done by calculating the total allowance offered per day minus the meal reduction (cost of complimentary meals) provided to the employee. 
 
-# Configuration
+## Per diems in Reimagined Expense interface 
+The Per diem feature is supported in the reimagined expense workspace in 10.0.25 release and above.  
+To enable this feature, in Feature Management, first enable the "Reimagined expense " interface and then enable the "Per-diem for expense report re-imagined interface".
+
+## Configuration
 
 **Step 1:** Using "Per diems" tab under Expense Management Parameters , configure per diems to be calculated based on one of the following 3 options-  
 1.	**Meal type per trip** – Per diem will be calculated based on the type of meal entered (i.e., breakfast/lunch/dinner) **and** the meal reduction specified for each of these for the per diem allowance for the duration of the trip. 
@@ -43,6 +47,7 @@ The per diem calculation is done by calculating the total allowance offered per 
 
 Under “ Calculations and codes”, update the "Per diem locations"  and in the  "per diems" section, update the daily allowance for hotel, meals and incidentals  and the meal reduction per location. 
 
+## How the per diem feature works
 Below is an example of the user experience when either of the 3 scenarios mentioned above, is configured-  
 
 **1.	Per diem is set to meal type per trip**
