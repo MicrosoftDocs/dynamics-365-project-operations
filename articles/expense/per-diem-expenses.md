@@ -65,6 +65,8 @@ Meal reduction = 3(30%*75) + 2(30%*75) +0 =  3(22.5)+2(22.5) +0=  67.5+45 = 112.
 **So, meals and incidentals = 400 USD- 112.5 USD = 287.5 USD 
 So, Total amount = Total amount payable- Meal reduction = 1150 USD – 112.5 USD = 1037.5 USD **
 
+ ![Alt text](media/1-meal-type-per-trip.png)
+
 
 **2.	Per diem is set to meal type per day**
 
