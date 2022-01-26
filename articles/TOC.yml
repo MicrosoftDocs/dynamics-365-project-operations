@@ -1094,6 +1094,8 @@
     href: prod-pma/project-grants.md
   - name: Eliminate a project estimate
     href: prod-pma/eliminate-project-estimate.md
+  - name: Defaulting financial dimensions for project time entries
+    href: prod-pma/time-entry-dimension-defaults.md
 - name: Expense management
   items: 
   - name: Expense management overview
