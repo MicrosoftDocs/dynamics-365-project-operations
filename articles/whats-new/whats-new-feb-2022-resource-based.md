@@ -2,7 +2,7 @@
 title: What's new February 2022 - Project Operations for resource/non-stocked based scenarios
 description: This topic provides information about the quality updates that are available in the February 2022 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-ms.date: 01/24/2021
+ms.date: 01/27/2021
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -42,13 +42,13 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-| Billing and pricing | 2415109 | The **Operations payment terms** field must default to the project contract customer record and the proforma invoice record. |
+| Billing and pricing | 2415109 | The default value in the **Operations payment terms** field must be the project contract customer record and the proforma invoice record. |
 | Billing and pricing | 2497369 | Material correction must follow the date value in the **Correction** parameters. |
 | Billing and pricing | 2498697 | Improved the security configuration for **Time entry recall**. |
 | Billing and pricing | 2513824 | For resource-based scenarios, the transaction category ID must not exceed 28 characters in Project Operations. |
 | Billing and pricing | 2517455 | The **Refresh invoice line transactions** action must not be allowed to be triggered multiple simultaneous times for the same invoice. |
 | Billing and pricing | 2517465 | The **Deactivate invoice line details** action is blocked because it isn't supported. |
-| Billing and pricing | 2556660 | Fixed the data effectivity check that is done on the price list that is attached to a project parameters record. |
+| Billing and pricing | 2556660 | Fixed the date effectivity check that is done on the price list that is attached to a project parameters record. |
 | Opportunity management | 2369202 | Corrected the business logic that verifies that price lists that have overlapping effectivity dates can be attached to the same project contract. |
 | Opportunity management | 2385965 | Corrected the behavior on the **Customers** tab of the **Project contract** page when you select **Save and close**. |
 | Time and expense | 2538503 | A project task must be available in the **Project actuals** entity after an expense report is posted. |
