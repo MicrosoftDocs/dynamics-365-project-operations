@@ -2,7 +2,7 @@
 # required metadata
 
 title: Per diem expenses
-description: 
+description: This topic provides information about how to work with per diem expenses.
 author: suvaidya
 ms.date: 01/26/2022
 ms.topic: article
@@ -26,6 +26,7 @@ ms.dyn365.ops.version:
 ---
 
 # Per diem expenses
+
 Per diem is a fixed, predetermined amount of money that a company pays its employees who are traveling for work. 
 
 As per IRS, per diem payment is a daily allowance paid by a company to its employees for lodging, meals, and incidental expenses incurred when travelling. This allowance is paid instead of paying their actual travel expenses.  Employees can use their “incidentals/other” per diem allowance to cover tips, room service, laundry, or dry-cleaning services for all-important business meetings. There is a per diem rate for combined lodging and meal costs, and a per diem rate for meals and incidentals alone. An employer can use either of these per diem methods for reimbursing employee travel expenses. 
@@ -69,7 +70,7 @@ Meal reduction = 3(30%*75) + 2(30%*75) + 0 =  3(22.5)+2(22.5) +0=  67.5+45 = 112
 **So, meals and incidentals = 400 USD- 112.5 USD = 287.5 USD 
 So, Total amount = Total allowance - Meal reduction = 1150 USD – 112.5 USD = 1037.5 USD **
 
- ![Alt text](media/1-meal-type-per-trip.png)
+ ![New expense.](media/1-meal-type-per-trip.png)
 
 
 **2.	Per diem is set to meal type per day**
@@ -84,7 +85,7 @@ Meals and incidentals for days 1-3 =  75-22.5 =  57.5 USD
 **Total meals and incidentals = sum of meals and incidentals across 5 days = 332.5 USD 
 Total amount payable = total amount – meal reduction =  1150- 67.5 = 1082.5 USD **
 
-![Alt text](media/2-meal-type-per-day.png)
+![Edit expense.](media/2-meal-type-per-day.png)
 
 **3. Per diem is set to number of meals per day**
 The meal reduction is calculated based on no. of meals provided for (unselected in grid) per day- 
@@ -102,7 +103,7 @@ Meals and incidentals allowance which includes $5 for incidentals-
 Total meals and incidentals = sum (meals and incidentals/day) =235 USD
 Total amount =  $Total allowance - Total meal reduction = 985 USD
 
-![Alt text](media/3-number-of-meals-per-day.png)
+![Meals and incidentals total amount.](media/3-number-of-meals-per-day.png)
 
 ## Notes ##
 In the new expense experience, users will not be able to create per diem expenses with overlapping dates.  On doing so, they will see an error similar to "There is another expense of category Per diem, overlaps for the date range 1/1/2021  12:00:00 am, 1/10/2021 12:00:00 am". 
