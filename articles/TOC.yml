@@ -838,6 +838,8 @@
         href: project-management/dev-copy-project.md
       - name: Use Project schedule APIs
         href: project-management/schedule-api-preview.md
+      - name: Use Project schedule APIs with Power Automate
+        href: project-management/scheduling-apis-powerautomate.md
       - name: Project schedule API performance
         href: project-management/project-schedule-api-performance.md
   - name: Resource management
