@@ -97,3 +97,7 @@ Total meals and incidentals = sum (meals and incidentals/day) =235 USD
 Total amount =  $Total allowance - Total meal reduction = 985 USD
 
 ![Alt text](media/3-number-of-meals-per-day.png)
+
+## Notes ##
+In the new expense experience, users will not be able to create per diem expenses with overlapping dates.  On doing so, they will see an error similar to "There is another expense of category Per diem, overlaps for the date range 1/1/2021  12:00:00 am, 1/10/2021 12:00:00 am". 
+
