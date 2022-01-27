@@ -48,7 +48,7 @@ The following maps are required for a Project Operations solution. Dual-write ma
 | Project Operations integration entity for expense estimates (msdyn_estimatelines) | 1.0.0.2 | Not required for provisioning. |
 | Project Operations integration entity for hour estimates (msdyn_resourceassignments) | 1.0.0.5 | Not required for provisioning. |
 | Project Operations integration project expense categories export entity (msdyn_expensecategories) | 1.0.0.1 | Not required for provisioning. |
-| Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.2 | Not required for provisioning. |
+| Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.3 | Not required for provisioning. |
 | Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices) | 1.0.0.0 | Not required for provisioning. |
 | Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Not required for provisioning. |
 | Project resource roles for all companies (bookableresourcecategories) | 1.0.0.1 | Requires an initial sync for the table map to synchronize the Project Manager and Team member resource roles that are populated in the Dynamics 365 Dataverse environment during provisioning. Dataverse is the main source for the initial synchronization. |
