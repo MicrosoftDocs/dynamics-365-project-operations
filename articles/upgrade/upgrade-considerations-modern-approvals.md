@@ -1,6 +1,6 @@
 ---
 title: Upgrade considerations for Modern Approvals
-description: The topic covers the considerations an administrator should follow when enablding Modern approvals functionality.
+description: The topic covers the considerations an administrator should follow when enabling Modern approvals functionality.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: kfend
 ms.author: stsporen
 ---
 
-# Upgrade considersations for Modern Approvals 
+# Upgrade considerations for Modern Approvals 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -22,15 +22,15 @@ Before you upgrade to Modern Approvals, ensure that you have no pending approval
 ## After you upgrade
 After you upgrade to Modern Approvals, an administrator must complete the following steps to validate that the Cloud Flow, which processes the approvals, has been enabled.
 
-1. Login to [flow.microsoft.com](https://flow.microsoft.com)
+1. Log in to [flow.microsoft.com](https://flow.microsoft.com)
 2. In the top right of the page, switch your environment to the environment you have upgraded.
 3. Select **Solutions** to list the solutions installed on the environment.
 4. Select **Project Operations** or **Project Service** from the solutions list.
 5. Change the filter from **All** to **Cloud Flows**.
 6. Verify that **Project Service – Recurrently Schedule Project Approval Sets** is set to **On**. If it's not, select the flow and then select **Turn on**. 
-7. Verify that processing is happening every five mintues by reviewing the **System Jobs** in the environment settings.
+7. Verify that processing is happening every five minutes by reviewing the **System Jobs** in the environment settings.
 
-## Short term rollback 
+## Short-term rollback 
 If you are unable to update the changes, or you encounter a severe issue with this feature, you can revert back to the original approval flow. First, ensure that there are no pending approvals, and then turn off the **Feature Control | Modern Approvals**. 
 
 ## Removing the feature flag
