@@ -55,15 +55,19 @@ Create a new Per diem expense and select the location and provide the start and 
 The per diem is calculated based on the daily allowance set for that location for hotel, meals, and incidentals. 
 
 
-For e.g. For Redmond (USA) location if the daily hotel allowance is $150, meals is $75 and Incidentals (Other) is $5, then for the selected duration of 10th- 14th Jan (5 days- assuming calendar day with time)
+For e.g. For Redmond (USA) location if the daily hotel allowance is $150, meals is $75 and Incidentals (Other) is $5, 
+then for the selected duration of 10th- 14th Jan (5 days- assuming calendar day with time)
+
 Total amount payable = 5 (150+75+5)  = 5* 230  =  1150 USD
 Meals and incidentals portion of the total amount = 5(75+5) = 400 USD
-Now, if Breakfast, lunch, and dinner were provided during the trip, then those will need to be accounted for. The # of meals that are provided are deducted from the total amount or allowance and referred to as meal reduction. 
+Now, if Breakfast, lunch, and dinner were provided during the trip, then those will need to be accounted for as meal reduction. 
+
 Let’s assume meal reduction is 30% for breakfast, 30% for lunch and 40% for dinner, then: 
-As an example, in this scenario when 3 breakfasts, 2 lunches and 0 dinners were provided -  
-Meal reduction = 3(30%*75) + 2(30%*75) +0 =  3(22.5)+2(22.5) +0=  67.5+45 = 112.5 
+As an example, when 3 breakfasts, 2 lunches and 0 dinners were provided to the employee-
+
+Meal reduction = 3(30%*75) + 2(30%*75) + 0 =  3(22.5)+2(22.5) +0=  67.5+45 = 112.5 
 **So, meals and incidentals = 400 USD- 112.5 USD = 287.5 USD 
-So, Total amount = Total amount payable- Meal reduction = 1150 USD – 112.5 USD = 1037.5 USD **
+So, Total amount = Total allowance - Meal reduction = 1150 USD – 112.5 USD = 1037.5 USD **
 
  ![Alt text](media/1-meal-type-per-trip.png)
 
@@ -73,8 +77,10 @@ So, Total amount = Total amount payable- Meal reduction = 1150 USD – 112.5 USD
 In this case, a meals grid opens, and the user can uncheck the meals that were provided for (complimentary) during the trip.  
 As an example, when breakfast has been provided for the first 3 days of the trip , 
 Per day meal reduction on the first 3 days = 30% (75) = 22.5 , 
-Total meal reduction =  3(22.5)  =  67.5 USD
+
+Total meal reduction =  3(22.5)  =  67.5 USD  
 Meals and incidentals for days 1-3 =  75-22.5 =  57.5 USD 
+
 **Total meals and incidentals = sum of meals and incidentals across 5 days = 332.5 USD 
 Total amount payable = total amount – meal reduction =  1150- 67.5 = 1082.5 USD **
 
