@@ -41,12 +41,14 @@ To enable this feature, in Feature Management, first enable the "Expense Reports
 
 ## Configuration
 
-**Step 1:** Using "Per diems" tab under Expense Management Parameters , configure per diems to be calculated based on one of the following 3 options-  
+**Step 1:** Under Expense Management Parameters > Per diems , configure **per diems** to be calculated based on one of the following 3 options-  
 1.	**Meal type per trip** – Per diem will be calculated based on the type of meal entered (i.e., breakfast/lunch/dinner) **and** the meal reduction specified for each of these for the per diem allowance for the duration of the trip. 
 2.	**Meal type per day** - Per diem will be calculated based on the type of meal entered (i.e., breakfast/lunch/dinner) **and** the meal reduction specified for each of these for the per diem allowance /day.  
 3.	**Number of meals per day** – Per diem will be calculated based on the number of meals entered per day **and** the meal reduction for the number of meals provided per day.
 
-Under “ Calculations and codes”, update the "Per diem locations"  and in the  "per diems" section, update the daily allowance for hotel, meals and incidentals  and the meal reduction per location. 
+**Step 2:** To add per diem locations, go to Set up > Calculations and codes > Per diem locations.
+
+**Step 3:** Under "Per diems" tab, for each of the locations added above, select a per diem rate and currency that is valid between a specific start and end date for hotel, meals, and other expenses. Per diem rates and currencies are configured under Set up > Calculations and codes > Per diems.
 
 ## How the per diem feature works
 Below is an example of the user experience when either of the 3 scenarios mentioned above, is configured-  
