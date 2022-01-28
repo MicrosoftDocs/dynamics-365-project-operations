@@ -51,11 +51,11 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Germany</i> | [3.10.60.170](whats-new-ur-39.md) | TBD | February 04, 2022
 | | <i>Switzerland</i> | [3.10.60.170](whats-new-ur-39.md) | TBD | February 04, 2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.59.117](whats-new-ur-38.md) | [3.10.60.170](whats-new-ur-39.md) | January 28, 2022
-| | <i>Asia Pacific</i> | [3.10.59.117](whats-new-ur-38.md) | [3.10.60.170](whats-new-ur-39.md) | January 28, 2022
-| | <i>Great Britain</i> | [3.10.59.117](whats-new-ur-38.md) | [3.10.60.170](whats-new-ur-39.md) | January 28, 2022
-| | <i>Oceana</i> | [3.10.59.117](whats-new-ur-38.md) | [3.10.60.170](whats-new-ur-39.md) | January 28, 2022
-| | <i>United Arab Emirates</i> | [3.10.59.117](whats-new-ur-38.md) | [3.10.60.170](whats-new-ur-39.md) | January 28, 2022
+| | <i>Japan</i> | [3.10.60.170](whats-new-ur-39.md) | TBD | February 11, 2022
+| | <i>Asia Pacific</i> | [3.10.60.170](whats-new-ur-39.md) | TBD | February 11, 2022
+| | <i>Great Britain</i> | [3.10.60.170](whats-new-ur-39.md) | TBD | February 11, 2022
+| | <i>Oceana</i> | [3.10.60.170](whats-new-ur-39.md) | TBD | February 11, 2022
+| | <i>United Arab Emirates</i> | [3.10.60.170](whats-new-ur-39.md) | TBD | February 11, 2022
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.10.59.117](whats-new-ur-38.md) | [3.10.60.170](whats-new-ur-39.md) | February 04, 2022
 |<strong>Station 5</strong> | |  |  | |
