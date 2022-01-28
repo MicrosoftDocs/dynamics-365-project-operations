@@ -107,5 +107,5 @@ Total amount =  $Total allowance - Total meal reduction = 985 USD**
 ![Meals and incidentals total amount.](media/3-number-of-meals-per-day.png) 
 
 ## Notes ##
-In the new expense experience, users will not be able to create per diem expenses with overlapping dates.  On doing so, they will see an error similar to "There is another expense of category Per diem, overlaps for the date range 1/1/2021  12:00:00 am, 1/10/2021 12:00:00 am". 
+In the Reimagined expense interface, users will not be able to create per diem expenses with overlapping dates starting release version 10.0.23.  On doing so, they will see an error similar to "There is another expense of category Per diem, overlaps for the date range 1/1/2021  12:00:00 am, 1/10/2021 12:00:00 am". 
 
