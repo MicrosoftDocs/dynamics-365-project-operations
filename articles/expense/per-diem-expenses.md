@@ -27,9 +27,9 @@ ms.dyn365.ops.version:
 
 # Per diem expenses
 
-Per diem is a fixed, predetermined amount of money that a company pays its employees who are traveling for work. 
+Per diem is a fixed, predetermined amount of money that a company pays to its employees who are traveling for work. 
 
-As per IRS, per diem payment is a daily allowance paid by a company to its employees for lodging, meals, and incidental expenses incurred when travelling. This allowance is paid instead of paying their actual travel expenses.  Employees can use their “incidentals/other” per diem allowance to cover tips, room service, laundry, or dry-cleaning services for all-important business meetings. There is a per diem rate for combined lodging and meal costs, and a per diem rate for meals and incidentals alone. An employer can use either of these per diem methods for reimbursing employee travel expenses. 
+As per IRS (Internal Revenue Service), per diem payment is a daily allowance paid by a company to its employees for lodging, meals, and incidental expenses incurred when travelling. This allowance is paid instead of paying their actual travel expenses.  Employees can use their “incidentals/other” per diem allowance to cover tips, room service, laundry, or dry-cleaning services for all-important business meetings. The per diem rate can differ depending upon whether the employer chooses to reimburse for the combined lodging and meal costs or if they choose to reimburse for meals and incidentals alone .
 
 Per diem rates can be based on the time of year, the travel location, or both. When you create a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services. You can also set a minimum and maximum number of hours that the per diem rate can apply to a worker's travel.
 
@@ -37,7 +37,7 @@ The per diem calculation is done by calculating the total allowance offered per 
 
 ## Per diems in Reimagined Expense interface 
 The Per diem feature is supported in the reimagined expense workspace in 10.0.25 release and above.  
-To enable this feature, in Feature Management, first enable the "Reimagined expense " interface and then enable the "Per-diem for expense report re-imagined interface".
+To enable this feature, in Feature Management, first enable the "Expense Reports Reimagined " interface and then enable the "Per-diem for expense report re-imagined interface".
 
 ## Configuration
 
@@ -50,18 +50,19 @@ Under “ Calculations and codes”, update the "Per diem locations"  and in the
 
 ## How the per diem feature works
 Below is an example of the user experience when either of the 3 scenarios mentioned above, is configured-  
+Note that the Total amount is same across all 3 scenarios until the meal reduction is applied based on the chosen configuration making the total amount payable different across each scenario. 
 
-**1.	Per diem is set to meal type per trip**
-Create a new Per diem expense and select the location and provide the start and end dates, 
+Create a new Per diem expense and select the location and provide the start and end dates.
 The per diem is calculated based on the daily allowance set for that location for hotel, meals, and incidentals. 
-
 
 For e.g. For Redmond (USA) location if the daily hotel allowance is $150, meals is $75 and Incidentals (Other) is $5, 
 then for the selected duration of 10th- 14th Jan (5 days- assuming calendar day with time)
 
 Total amount payable = 5 (150+75+5)  = 5* 230  =  1150 USD
 Meals and incidentals portion of the total amount = 5(75+5) = 400 USD
-Now, if Breakfast, lunch, and dinner were provided during the trip, then those will need to be accounted for as meal reduction. 
+Now, if Breakfast, lunch, and dinner were provided during the trip, then those will need to be accounted for as meal reduction.
+
+**1.	Per diem is set to meal type per trip**
 
 Let’s assume meal reduction is 30% for breakfast, 30% for lunch and 40% for dinner, then: 
 As an example, when 3 breakfasts, 2 lunches and 0 dinners were provided to the employee-
@@ -70,7 +71,7 @@ Meal reduction = 3(30%*75) + 2(30%*75) + 0 =  3(22.5)+2(22.5) +0=  67.5+45 = 112
 **So, meals and incidentals = 400 USD- 112.5 USD = 287.5 USD 
 So, Total amount = Total allowance - Meal reduction = 1150 USD – 112.5 USD = 1037.5 USD **
 
- ![New expense.](media/1-meal-type-per-trip.png)
+ ![New expense.](media/1-meal-type-per-trip.png) 
 
 
 **2.	Per diem is set to meal type per day**
@@ -82,13 +83,13 @@ Per day meal reduction on the first 3 days = 30% (75) = 22.5 ,
 Total meal reduction =  3(22.5)  =  67.5 USD  
 Meals and incidentals for days 1-3 =  75-22.5 =  57.5 USD 
 
-**Total meals and incidentals = sum of meals and incidentals across 5 days = 332.5 USD 
+**Total meals and incidentals = sum of meals and incidentals across 5 days = 400-67.5= 332.5 USD 
 Total amount payable = total amount – meal reduction =  1150- 67.5 = 1082.5 USD **
 
-![Edit expense.](media/2-meal-type-per-day.png)
+![Edit expense.](media/2-meal-type-per-day.png) 
 
 **3. Per diem is set to number of meals per day**
-The meal reduction is calculated based on no. of meals provided for (unselected in grid) per day- 
+The meal reduction is calculated based on the no. of meals provided for (unselected in grid) per day- 
 Configuraton - 
 Hotel= $150, Meals =$75, Incidentals =$5
 1 meal – meal reduction = 20% = $15
@@ -100,10 +101,10 @@ Meals and incidentals allowance which includes $5 for incidentals-
 2 meals =  $75 -$37.5 =  $37.5 +$5 =  $42.5
 3 meals = $75- $75 =0 +$5 = $5 
 
-Total meals and incidentals = sum (meals and incidentals/day) =235 USD
-Total amount =  $Total allowance - Total meal reduction = 985 USD
+**Total meals and incidentals = sum (meals and incidentals/day) =235 USD
+Total amount =  $Total allowance - Total meal reduction = 985 USD**
 
-![Meals and incidentals total amount.](media/3-number-of-meals-per-day.png)
+![Meals and incidentals total amount.](media/3-number-of-meals-per-day.png) 
 
 ## Notes ##
 In the new expense experience, users will not be able to create per diem expenses with overlapping dates.  On doing so, they will see an error similar to "There is another expense of category Per diem, overlaps for the date range 1/1/2021  12:00:00 am, 1/10/2021 12:00:00 am". 
