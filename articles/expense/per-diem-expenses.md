@@ -76,6 +76,8 @@ So, Total amount = Total allowance - Meal reduction = 1150 USD – 112.5 USD = 1
 
 **2.	Per diem is set to meal type per day**
 
+Let’s assume meal reduction is 30% for breakfast, 30% for lunch and 40% for dinner, 
+
 In this case, a meals grid opens, and the user can uncheck the meals that were provided for (complimentary) during the trip.  
 As an example, when breakfast has been provided for the first 3 days of the trip , 
 Per day meal reduction on the first 3 days = 30% (75) = 22.5 , 
