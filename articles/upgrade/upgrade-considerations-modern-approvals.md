@@ -2,7 +2,7 @@
 title: Upgrade considerations for Modern Approvals
 description: The topic covers the points that administrators should consider when they enable Modern Approvals functionality.
 author: stsporen
-ms.date: 01/27/2022
+ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: stsporen
@@ -35,10 +35,9 @@ After you upgrade to Modern Approvals, an administrator must validate that the c
 ## Short-term rollback
 
 If you can't uptake the changes, or if you encounter a severe issue with this feature, you can temporarily revert to the original approval flow by performing the following steps:
-1. Sign-in to your environment and ensure that they are no pending approvals.
-2. Open the **Project Parameters** from the **Settings** area.
-3. Select **Feature Control**.
-4. Select **Modern Approvals** to disable the feature.
+1. Sign-in to your environment and verify that there are no pending approvals.
+2. Go to **Settings** > **Project Parameters**.
+3. Select **Feature Control** and then select **Modern Approvals** to turn off feature.
 
 ## Removing the feature flag
 
