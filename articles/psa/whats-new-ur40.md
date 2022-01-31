@@ -34,7 +34,7 @@ The following issues have been fixed.
 **Time and Expense**
 - A note entry is missing when a time entry is rejected or canceled. 
 
-
 **Sales**
 
 - When updating cost or sales estimates via out of the box plugins, customers are incorrectly permitted to send invalid JSON payloads outside of the user interface.
+- When updating quote lines via the quick view, customers are incorrectly permitted to activate quotes.
