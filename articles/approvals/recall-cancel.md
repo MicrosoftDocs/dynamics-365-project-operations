@@ -1,6 +1,6 @@
 ---
-title: Recall approved time, expense or material usage entries
-description: This topic provides information on how a consultant can request the recall and how a project manager can approve or reject recall requests on a previously submitted and approved time, expense, material usage records.
+title: Recalling a previously approved entries
+description: This topic provides information on how a project team member can request the recall and how a project manager can approve or reject recall requests on a previously submitted and approved time, expense, material usage records.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
@@ -10,11 +10,11 @@ ms.author: rumant
 ---
 
 
-# Recalling a previously approved time, expense or material usage entries
+# Recalling a previously approved entries
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-A project team member or an other person who submits a time, expense or material usage entry can recall that entry after it has been approved. The process for recalling an approved time or expense entry has two steps:
+A project team member who submits a time, expense or material usage entry can recall that entry after it has been approved. The process for recalling an approved time or expense entry has two steps:
 
 1. A submitter requests a recall.
 2. An approver approves the recall.
