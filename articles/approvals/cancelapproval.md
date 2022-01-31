@@ -1,5 +1,5 @@
 ---
-title: Cancel approval on approved entries
+title: Cancel approval on previously approved entries
 description: This topic provides information on how a project manager can cancel approval on previously approved time, expense, material usage entries.
 author: rumant
 ms.date: 01/31/2021
