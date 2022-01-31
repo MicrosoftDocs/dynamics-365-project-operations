@@ -36,5 +36,5 @@ The following issues have been fixed.
 
 **Sales**
 
-- When updating cost or sales estimates via out of the box plugins, customers are incorrectly permitted to send invalid JSON payloads outside of the user interface.
-- When updating quote lines via the quick view, customers are incorrectly permitted to activate quotes.
+- When you update cost or sales estimates using out-of-the-box plug-ins, you are incorrectly permitted to send JSON payloads that aren't valid outside of the user interface.
+- When you update quote lines using the quick view, you are are incorrectly permitted to activate quotes.
