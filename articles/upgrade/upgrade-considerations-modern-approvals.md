@@ -30,11 +30,15 @@ After you upgrade to Modern Approvals, an administrator must validate that the c
 4. In the solution list, select **Project Operations** or **Project Service**.
 5. Change the filter from **All** to **Cloud Flows**.
 6. Verify that the **Project Service – Recurrently Schedule Project Approval Sets** option is set to **On**. If it isn't, select the flow, and then select **Turn on**.
-7. Verify that processing is occurring every five minutes by reviewing the **System Jobs** in the environment settings.
+7. Verify that processing is occurring every five minutes by reviewing the **System Jobs** list in the **Settings** area.
 
 ## Short-term rollback
 
-If you can't update the changes, or if you encounter a severe issue with this feature, you can revert to the original approval flow. First, make sure that there are no pending approvals. Then turn off the **Feature Control | Modern Approvals**.
+If you can't uptake the changes, or if you encounter a severe issue with this feature, you can temporarily revert to the original approval flow by performing the following steps:
+1. Sign-in to your environment and ensure that they are no pending approvals.
+2. Open the **Project Parameters** from the **Settings** area.
+3. Select **Feature Control**.
+4. Select **Modern Approvals** to disable the feature.
 
 ## Removing the feature flag
 
