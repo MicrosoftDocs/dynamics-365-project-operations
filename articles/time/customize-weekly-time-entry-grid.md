@@ -38,7 +38,7 @@ Time entries are a core entity used in multiple scenarios. In April Wave 1 2020,
 
 
 ### Time entries and the Time source entity
-Each time entry is associated to a time source record. This record determines how and which applications should process the time entry.
+Each time entry is associated to a time source record. This record determines which applications should process the time entry and how.
 
 Time entries are always one contiguous block of time with the start, end, and duration linked.
 
@@ -50,7 +50,7 @@ The logic will automatically update the time entry record in the following situa
     - **msdyn_end**
     - **msdyn_duration**
 
-- The fields, **msdyn_start** and **msdyn_end** are timezone aware.
+- The **msdyn_start** and **msdyn_end** fields are time zone aware.
 - Time entries created with only **msdyn_date** and **msdyn_duration** specified will start at midnight. The **msdyn_start** and **msdyn_end** fields will update accordingly.
 
 #### Time entry types
@@ -67,7 +67,6 @@ Time entry records have an associated type that defines the behavior in the subm
 |Vacation	| 192,350,002|
 
 
-
 ## <a name="customize"></a>Customize the weekly Time entry control
 Developers can add additional fields and lookups to other entities, and implement custom business rules to support their business scenarios.
 
@@ -76,51 +75,55 @@ There are three main steps to adding a custom field to the weekly time entry gri
 
 1. Add the custom field to the **Quick create** dialog box.
 2. Configure the grid to show the custom field.
-3. Add the custom field to the **Row edit** or **Time entry edit** pages as appropriate.
+3. Add the custom field to the **Row edit** or **Time entry edit** page, as appropriate.
 
-Make sure that the new field has the required validations in the row or cell edit pages. As part of this, lock the field based on the time entry status.
+Make sure that the new field has the required validations on the **Row edit** or **Time entry edit** page. As part of this task, lock the field, based on the status of the time entry.
 
-After you add a custom field to the **Time entry** grid, any time entries that are created directly in the grid automatically have these custom fields set to match the row. 
+When you add a custom field to the **Time entry** grid and then create time entries directly in the grid, the custom field for those entries is automatically set so that it matches the row. 
 
 ### Add the custom field to the Quick create dialog box
-Add the custom field to the **Create Time Entry** Quick create form so that users can enter a value when they add time entries by selecting **New**.
+Add the custom field to the **Quick create: Create Time Entry** dialog box. Users can then enter a value when they add time entries by selecting **New**.
 
 ### Configure the grid to show the custom field
-There are two ways add a custom field to the **Weekly time entry** grid. The first option is to customize the **My Weekly Time Entries** view and add the custom field to it. You can choose the position and size of the custom field in the grid by editing the properties in the view.
-The second option is to create a new custom time entry view and set it as the default view. This view should contain the **Description** and **External Comments** fields, in addition to the columns that you want to have in the grid. You can choose the position, size, and default sort order of the grid by editing those properties in the view. Next, configure the custom control for this view so that it's a **Time Entry Grid** control. Add this control to the view, and select it for **Web**, **Phone**, and **Tablet**. Next, configure the parameters for the **Weekly time entry** grid. Set the **Start Date** field to **msdyn_date**, set the **Duration** field to **msdyn_duration**, and set the **Status** field to **msdyn_entrystatus**. The **Read-only Status List** field is set to **192350002 (Approved)**,**192350003 (Submitted)**, or **192350004 (Recall Requested)**.
+There are two ways add a custom field to the **Weekly time entry** grid.
 
-### Add the custom field to the appropriate edit forms
-The forms that are used for editing a time entry or row of time entries can be found under **Forms**. The **Edit entry** button in teh grid opens the **Edit Entry** page and the **Edit row** button opens the **Row Edit** page. These pages can be edited to include custom fields.
+- Customize the **My Weekly Time Entries** view, and add the custom field to it. You can specify the position and size of the custom field in the grid by editing the properties in the view.
+- Create a new custom time entry view, and set it as the default view. This view should contain the **Description** and **External comments** fields in addition to the columns that you want the grid to include. You can specify the position, size, and default sort order of the grid by editing the properties in the view. Next, configure the custom control for this view so that it's a **Time Entry Grid** control. Add the control to the view, and select it for **Web**, **Phone**, and **Tablet**. Next, configure the parameters for the **Weekly time entry** grid. Set the **Start date** field to **msdyn\_date**, set the **Duration** field to **msdyn\_duration**, and set the **Status** field to **msdyn\_entrystatus**. The **Read-only Status List** field is set to **192350002 (Approved)**, **192350003 (Submitted)**, or **192350004 (Recall Requested)**.
 
-Both options remove some out-of-box filtering on Project and Project Task entities, so that all lookup views for the entities are visible. Out of the box, only the relevant lookup views are visible.
+### Add the custom field to the appropriate edit page
+The pages that are used to edit a time entry or a row of time entries can be found under **Forms**. The **Edit entry** button in the grid opens the **Edit entry** page, and the **Edit row** button opens the **Row edit** page. You can edit these pages so that they include custom fields.
 
-You must determine the appropriate form for the custom field. Most likely, if you added the field to the grid, it should go in the row edit form that is used for fields that apply to the whole row of time entries. If the custom field has a unique value every day in the row, such as a custom field for **End time**, it should go in the cell edit form.
+Both options remove some out-of-box filtering on **Project** and **Project Task** entities, so that all lookup views for the entities are visible. Out of the box, only the relevant lookup views are visible.
 
-To add the custom field to a form, drag a **Field** element into the appropriate position on the page, and then set its properties. 
+You must determine the appropriate page for the custom field. Most likely, if you added the field to the grid, it should go on the **Row edit** page that is used for fields that apply to the whole row of time entries. If the custom field has a unique value in the row every day (for example, if it's a custom field for the end time), it should go on the **Time entry edit** page.
+
+To add the custom field to a page, drag a **Field** element into the appropriate position on the page, and then set its properties.
 
 ### Add new option set values
-1. To add option set values to an out-of-box field, open the editing page for the field, and then, under **Type**, select **Edit** next to the option set. 
+To add option set values to an out-of-box field, follow these steps.
+
+1. Open the editing page for the field, and then, under **Type**, select **Edit** next to the option set.
 2. Add a new option that has a custom label and color. If you want to add a new time entry status, the out-of-box field is named **Entry Status**.
 
 ### Designate a new time entry status as read-only
-To designate a new time entry status as read-only, add the new time entry value (the number, not the label) to the **Read-only Status List** property. The editable part of the time entry grid will be locked for rows that have the new status. YOucan have the **Read-only Status List** property set differently for different **Time Entry** views by adding the **Time Entry** grid under the view’s **Custom Controls** section, and configuring the parameters appropriately. 
-Next, add business rules to lock all the fields on the **Time Entry Row Edit** and **Time Entry Edit** pages. You can access the business rules for these forms by opening the form editor for the page and then selecting **Business Rules**. You can add the new status to the condition in the existing business rules, or you can add a new business rule for the new status.
+To designate a new time entry status as read-only, add the new time entry value to the **Read-only Status List** property. Be sure to add the number, not the label. The editable part of the time entry grid will now be locked for rows that have the new status. To set the **Read-only Status List** property differently for different **Time Entry** views, add the **Time entry** grid in a view's **Custom controls** section, and configure the parameters as appropriate.
 
+Next, add business rules to lock all the fields on the **Row edit** and **Time entry edit** pages. To access the business rules for these pages, open the form editor for each page, and then select **Business rules**. You can add the new status to the condition in the existing business rules, or you can add a new business rule for the new status.
 
 ### Add custom validation rules
-There are two types of validation rules that you can add for the weekly time entry grid experience: 
+You can add two types of validation rules for the **Weekly time entry** grid experience:
 
-   - Client-side business rules that work in forms
-   - Server-side plug-in validations that apply to all time entry updates.
+- Client-side business rules that work on pages
+- Server-side plug-in validations that apply to all time entry updates
 
-#### Business rules
-Use business rules to lock and unlock fields, enter default values in fields, and define validations that require information only from the current time entry record. You can access the business rules for a form by opening the form editor, and then selecting **Business Rules**. You can then edit the existing business rules or add a new business rule. 
+#### Client-side business rules
+Use business rules to lock and unlock fields, enter default values in fields, and define validations that require information only from the current time entry record. To access the business rules for a page, open the form editor, and then select **Business rules**. You can then edit the existing business rules or add a new business rule.
 
-#### Plug-in validations
-You should use plug-in validations for any validations that require more context than is available in a single time entry record, or for any validations that you want to run on inline updates in the grid. To complete the validation, create a custom plug-in on the **Time Entry** entity.
+#### Server-side plug-in validations
+You should use plug-in validations for any validations that require more context than is available in a single time entry record. You should also use them for any validations that you want to run on inline updates in the grid. To complete the validations, create a custom plug-in on the **Time Entry** entity.
 
 ### Limits
-The time entry grid currently has a size limit of 500 rows. If there are more than 500 rows, the excess ones won’t be displayed. There is no way to increase this size limit. 
+Currently, the **Time entry** grid has a size limit of 500 rows. If there are more than 500 rows, the excess rows won't be show. There is no way to increase this size limit.
 
 ### Copying time entries
 Use the view **Copy Time Entry Columns** to define the list of fields to copy during time entry. **Date** and **Duration** are required fields and shouldn't be removed from the view.
