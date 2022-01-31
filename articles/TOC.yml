@@ -448,10 +448,12 @@
       href: approvals/approvals-overview.md
     - name: Approval sets 
       href: approvals/approval-sets.md
+    - name: Recalling previously approved entries 
+      href: approvals/recall-cancel.md   
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
-        href: approvals/dev-notes-approvals.md
+        href: approvals/dev-notes-approvals.md        
   - name: Actuals
     items: 
     - name: Actuals overview
@@ -964,6 +966,8 @@
       href: approvals/approvals-overview.md
     - name: Approval sets
       href: approvals/approval-sets.md
+    - name: Recalling previously approved entries 
+      href: approvals/recall-cancel.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
