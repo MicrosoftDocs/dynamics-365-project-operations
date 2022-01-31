@@ -14,14 +14,14 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-A project team member who submits a time, expense or material usage entry can recall that entry after it has been approved. The process for recalling an approved time or expense entry has two steps:
+A project team member who submits a time, expense or material usage entry can recall that entry after it has been approved. The process for recalling an approved time, expense or material usage entry has two steps:
 
 1. A submitter requests a recall.
 2. An approver approves the recall.
 
 ## Request a recall
 
-Follow these steps to request a recall of an approved time or expense entry.
+Follow these steps to request a recall of an approved time, expense or material usage entry.
 
 1. For time entries, go to **Projects** \> **My Work** \> **Time Entry**.
 
@@ -45,7 +45,7 @@ Follow these steps to request a recall of an approved time or expense entry.
 4. Enter a reason for the recall, and then select **OK** to confirm the operation. The system sends the person who approved the entries a request to approve the recall.
 
 > [!NOTE]
-> Although approved time and expense entries can be recalled, if an approved time or expense has already been invoiced to the customer, a recall request can't be created. A user who tries to create a recall request will receive a message that states that the time or expense can't be recalled because it was already invoiced. Recall will become possible again if a full credit or refund is issued to the customer on the original invoice using a corrective invoice.
+> Although approved time, expense and material usage entries can be recalled, if the entry has already been invoiced to the customer, a recall request can't be created. A user who tries to create a recall request will receive a message that states that the time, expense or material usage can't be recalled because it was already invoiced. Recall will become possible again if a full credit or refund is issued to the customer on the original invoice using a corrective invoice.
 
 ## Approve or reject a recall request
 
@@ -61,7 +61,7 @@ Follow these steps to approve or reject a recall request.
     If you selected **Reject**, the recall request is rejected.
 
 > [!NOTE]
-> As when a recall is requested, when a recall is approved, the system checks for any invoicing activity on the time or expense entries. If an entry was already invoiced, or if it's on a draft invoice, the approver will receive an error message that states that the time or expense can't be approved for recall, because it was already invoiced. Approving the recall will become possible again if a full credit or refund is issued to the customer on the original invoice using a corrective invoice.
+> As when a recall is requested, when a recall is approved, the system checks for any invoicing activity on the time, expense or material usage entries. If an entry was already invoiced, or if it's on a draft invoice, the approver will receive an error message that states that the time or expense can't be approved for recall, because it was already invoiced. Approving the recall will become possible again if a full credit or refund is issued to the customer on the original invoice using a corrective invoice.
 
 ## Impact of a recall request
 
@@ -69,7 +69,7 @@ When an approval is recalled, there is both operational impact and financial imp
 
 ### Operational impact
 
-If a recall request is approved, the approval record is marked as **Rejected**. The status of the entry is changed to either **Returned** or **Rejected**, depending on whether it's a time entry or an expense entry.
+If a recall request is approved, the approval record is marked as **Rejected**. The status of the entry is changed to either **Returned** or **Rejected**, depending on whether it's a time entry or an expense or material usage entry.
 
 The project team member can view entries, edit and then resubmit entries, or delete entries entirely.
 
@@ -88,13 +88,13 @@ If a recall request is rejected, there is no financial impact on the project.
 
 ## Changes to time entry records
 
-The following illustration shows the changes that occur for approved time entries when they are recalled.
+The following illustration shows the changes that occur for approved time entries and the corresponding approval records when they are recalled.
 
 ![Time Entry state transitions.](media/TimeEntryStateTransitions.png)
 
 ## Changes to expense and material usage entry records
 
-The following illustration shows the changes that occur for approved expense and material usage entries when they are recalled.
+The following illustration shows the changes that occur for approved expense and material usage entries and the corresponding approval records when they are recalled.
 
 ![Expense Entry state transitions.](media/ExpenseEntryStateTransitions.png)
 
