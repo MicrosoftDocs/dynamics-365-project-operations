@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Concept of Business Transactions in Project Operations 
+title: Business Transactions in Project Operations 
 description: This topic provides an overview of the concept of business transactions in Project Operations.
 author: rumant
 ms.date: 01/31/2022
@@ -26,7 +26,7 @@ ms.author: rumant
 ms.search.validFrom: 2022-01-31
 ---
 
-# Concepts that apply to Business Transactions 
+# Business Transactions in Project Operations
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
