@@ -22,16 +22,16 @@ Approvals that are queued for processing are visible in the **Processing Approva
 
 The **Approval Set Lifetime** field records the number of attempts left to process the set before it's marked as failed.
 
-Approval sets are processed through the periodic activation based on a **Cloud Flow** named **Project Service - Recurrently Schedule Project Approval Sets** which is found in the **Solution** named **Project Operations**. 
+Approval sets are processed through the periodic activation based on a **Cloud Flow** named **Project Service - Recurrently Schedule Project Approval Sets**. This is found in the **Solution** named **Project Operations**. 
 
 Make sure that flow is activated by completing the following steps.
 
-1. As the administrator, log in to [flow.microsoft.com](https://powerautomate.microsoft.com).
-2. In the upper right corner, switch to the environment that you use for Dynamics 365 Project Operations.
+1. As the administrator, sign in to [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. In the upper-right corner, switch to the environment that you use for Dynamics 365 Project Operations.
 3. Select **Solutions** to list the solutions that are installed in the environment.
 4. In the solution list, select **Project Operations**.
 5. Change the filter from **All** to **Cloud Flows**.
-6. Verify that the **Project Service – Recurrently Schedule Project Approval Sets** flow is set to **On**. If it isn't, select the flow, and then press **Turn on**.
+6. Verify that the **Project Service – Recurrently Schedule Project Approval Sets** flow is set to **On**. If it isn't, select the flow, and then select **Turn on**.
 7. Verify that processing occurs every five minutes by reviewing the **System Jobs** list in the **Settings** area within your Project Operations Dataverse environment.
 
 ## Failed approvals and approval sets
