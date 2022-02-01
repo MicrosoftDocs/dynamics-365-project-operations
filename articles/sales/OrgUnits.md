@@ -63,9 +63,9 @@ The Organizational Unit entity represents a company group or division that has d
 
 When you implement Dynamics 365, optimize security authorization for the hierarchy of business units and the assignment of users to business units. Assign all users who must typically access the same set of records to the same business unit. The organizational unit has no effect on security authorization or access.
 
-Example of organizational units and business units
+	**Example of organizational units and business units**
 
-Contoso, Ltd. has a thriving Microsoft technology practice. Prakash and Tricia are both C\# developers, but Tricia is in the United States, whereas Prakash is in India. Most of the project engagements require resources from Contoso India and Contoso US, and Prakash and Tricia require the same level of security access to projects in this practice area. However, the cost of developers from Contoso India differs significantly from the cost of developers from Contoso US.
+	Contoso, Ltd. has a thriving Microsoft technology practice. Prakash and Tricia are both C\# developers, but Tricia is in the United States, whereas Prakash is in India. Most of the project engagements require resources from Contoso India and Contoso US, and Prakash and Tricia require the same level of security access to projects in this practice area. However, the cost of developers from Contoso India differs significantly from the cost of developers from Contoso US.
 
 Here is an optimal way to design for this scenario by using Dynamics 365 and Project Operations.
 
@@ -80,13 +80,13 @@ There is no association or relationship between sales territories and organizati
 
 An organizational unit is an internal group or division in the company that tracks costs for a set of roles that it sells to other divisions or to external customers.
 
-Example of organizational units and sales territories
+	**Example of organizational units and sales territories**
 
-Contoso, Ltd. has two development centers: Contoso US and Contoso India. Costs of resources differ greatly between these two development centers.
+	Contoso, Ltd. has two development centers: Contoso US and Contoso India. Costs of resources differ greatly between these two development centers.
 
-Contoso sells its IT services in many international markets, such as Latin America, North America, Asia-Pacific, Western Europe, and the Middle East. Bill rates for the same project roles can vary widely across these markets.
+	Contoso sells its IT services in many international markets, such as Latin America, North America, Asia-Pacific, Western Europe, and the Middle East. Bill rates for the 	same project roles can vary widely across these markets.
 
-Contoso US and Contoso India should be set up as organizational units, and each organizational unit should have its own cost price list. Asia-Pacific, Latin America, North America, Western Europe, and the Middle East should be set up as sales territories, and each sales territory should have its own sales price list.
+	Contoso US and Contoso India should be set up as organizational units, and each organizational unit should have its own cost price list. Asia-Pacific, Latin America, 		North America, Western Europe, and the Middle East should be set up as sales territories, and each sales territory should have its own sales price list.
 
 #### Why is there a restriction on the association of price lists with organizational units? 
 
