@@ -389,11 +389,19 @@ for more details and a link to the solution.
 | msdyn_opportunitylinetransaction.msdyn_unit                                                   |
 | msdyn_opportunitylinetransaction.msdyn_unitschedule                                           |
 | msdyn_opportunitylinetransaction.msdyn_vendortype                                             |
+
+**msdyn_opportunitylinetransactioncategory**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylinetransactioncategory.msdyn_billingtype                                    |
 | msdyn_opportunitylinetransactioncategory.msdyn_description                                    |
 | msdyn_opportunitylinetransactioncategory.msdyn_opportunitylinetransactioncategoryid           |
 | msdyn_opportunitylinetransactioncategory.msdyn_opportunitylinetransactionclassification       |
 | msdyn_opportunitylinetransactioncategory.msdyn_transactioncategory                            |
+
+**msdyn_opportunitylinetransactionclassificatio**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylinetransactionclassificatio.msdyn_billingtype                               |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_description                               |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_include                                   |
