@@ -24,6 +24,8 @@ ms.author: suvaidya
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ---
+> [!IMPORTANT] 
+> Functionality noted in this article is available to targeted users as part of a preview release.
 
 # Per diem expenses
 
@@ -58,7 +60,9 @@ Complete the following steps to configure per diem expenses.
 ## How the feature works
 The following is an example of the each of the three scenario configurations. The total amount is the same across all three scenarios until the meal reduction is applied based on the selected configuration. This will make the total amount payable difference in each scenario.
 
-1. Create a new per diem expense, select the location, and provide the start and end dates. The per diem is calculated, for hotel, meals, and incidentals, based on the daily allowance set for the location you select. 
+To create a new per diem expense, 
+1. Navigate to Workspaces> Expense Management> New expense report or click on an existing expense report.  
+2. Add a new expense , select "category" as "per diem", select the "location", and select the "start date" and "end date" for your trip. The per diem is calculated, for hotel, meals, and incidentals, based on the daily allowance set for the location you select. 
 
    For example, if you select Redmond (USA) as the location, if the daily hotel allowance is $150, meals are $75 and Incidentals (Other) is $5, then for the selected duration of 10th-14th January (five days, assuming calendar day with time) the calculation would be:
 
