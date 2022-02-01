@@ -273,18 +273,35 @@ deprecated components solution post upgrade, see [this
 article](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution)
 for more details and a link to the solution.
 
+**invoicedetail**
 | Fields                                                    |
 |-----------------------------------------------------------------------------------------------|
 |invoicedetail.msdyn_contractline    |
+
+**msdyn_actual**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_actual.msdyn_salescontractline                                                          |
+
+**msdyn_characteristicreqforteammember**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_characteristicreqforteammember.msdyn_characteristic                                     |
 | msdyn_characteristicreqforteammember.msdyn_characteristicreqforteammemberid                   |
 | msdyn_characteristicreqforteammember.msdyn_characteristictype                                 |
 | msdyn_characteristicreqforteammember.msdyn_name                                               |
 | msdyn_characteristicreqforteammember.msdyn_ratingvalue                                        |
 | msdyn_characteristicreqforteammember.msdyn_resourcerequirementid                              |
+
+**msdyn_contractlineinvoiceschedule**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_contractlineinvoiceschedule.msdyn_contractline                                          |
 | msdyn_contractlinescheduleofvalue.msdyn_contractline                                          |
+ 
+**msdyn_dataexport**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_dataexport.msdyn_dataexportid                                                           |
 | msdyn_dataexport.msdyn_datatoken                                                              |
 | msdyn_dataexport.msdyn_entityname                                                             |
@@ -293,7 +310,15 @@ for more details and a link to the solution.
 | msdyn_dataexport.msdyn_linkedentitydata                                                       |
 | msdyn_dataexport.msdyn_name                                                                   |
 | msdyn_dataexport.msdyn_pagingdata                                                             |
+
+**msdyn_fact**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_fact.msdyn_salescontractline                                                            |
+
+**msdyn_findworkevent**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_findworkevent.msdyn_bookableresource                                                    |
 | msdyn_findworkevent.msdyn_findworkeventid                                                     |
 | msdyn_findworkevent.msdyn_name                                                                |
@@ -301,14 +326,30 @@ for more details and a link to the solution.
 | msdyn_findworkevent.msdyn_type                                                                |
 | msdyn_findworkevent.msdyn_value                                                               |
 | msdyn_findworkevent.msdyn_work                                                                |
+
+**msdyn_invoicelinetransaction**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_invoicelinetransaction.msdyn_invoiceline                                                |
 | msdyn_invoicelinetransaction.msdyn_salescontractline                                          |
+
+**msdyn_journalline**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_journalline.msdyn_salescontractline                                                     |
+
+**msdyn_opportunitylineresourcecategory**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylineresourcecategory.msdyn_billingtype                                       |
 | msdyn_opportunitylineresourcecategory.msdyn_description                                       |
 | msdyn_opportunitylineresourcecategory.msdyn_opportunitylineresourcecategoryid                 |
 | msdyn_opportunitylineresourcecategory.msdyn_opportunitylinetransactionclassification          |
 | msdyn_opportunitylineresourcecategory.msdyn_resourcecategory                                  |
+
+**msdyn_opportunitylinetransaction**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_opportunitylinetransaction.msdyn_accountcustomer                                        |
 | msdyn_opportunitylinetransaction.msdyn_accountingdate                                         |
 | msdyn_opportunitylinetransaction.msdyn_accountvendor                                          |
@@ -359,10 +400,26 @@ for more details and a link to the solution.
 | msdyn_opportunitylinetransactionclassificatio.msdyn_opportunityline                           |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_opportunitylinetransactionclassificatioid |
 | msdyn_opportunitylinetransactionclassificatio.msdyn_transactionclassification                 |
+
+**msdyn_orderlineresourcecategory**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_orderlineresourcecategory.msdyn_contractline                                            |
+
+**msdyn_orderlinetransaction**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_orderlinetransaction.msdyn_salescontractline                                            |
 | msdyn_orderlinetransactioncategory.msdyn_contractline                                         |
+
+**msdyn_orderlinetransactionclassification**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_orderlinetransactionclassification.msdyn_contractline                                   |
+
+**msdyn_project**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_project.msdyn_actualdurationminutes                                                     |
 | msdyn_project.msdyn_actualhours                                                               |
 | msdyn_project.msdyn_istemplate                                                                |
@@ -373,6 +430,11 @@ for more details and a link to the solution.
 | msdyn_project.msdyn_scheduledend                                                              |
 | msdyn_project.msdyn_stagename                                                                 |
 | msdyn_project.msdyn_wbsduration                                                               |
+
+
+**msdyn_projecttask**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_projecttask.msdyn_actualdurationminutes                                                 |
 | msdyn_projecttask.msdyn_actualeffort                                                          |
 | msdyn_projecttask.msdyn_aggregationdirection                                                  |
@@ -388,6 +450,10 @@ for more details and a link to the solution.
 | msdyn_projecttask.msdyn_salesestimatecontour                                                  |
 | msdyn_projecttask.msdyn_scheduledhours                                                        |
 | msdyn_projecttask.msdyn_wbsid                                                                 |
+
+**msdyn_projecttaskstatususer**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_projecttaskstatususer.msdyn_bookableresource                                            |
 | msdyn_projecttaskstatususer.msdyn_description                                                 |
 | msdyn_projecttaskstatususer.msdyn_expectedcompletiondate                                      |
@@ -398,6 +464,10 @@ for more details and a link to the solution.
 | msdyn_projecttaskstatususer.msdyn_projecttaskid                                               |
 | msdyn_projecttaskstatususer.msdyn_projecttaskstatusindicator                                  |
 | msdyn_projecttaskstatususer.msdyn_projecttaskstatususerid                                     |
+
+**msdyn_projectteam**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_projectteam.msdyn_applicantcount                                                        |
 | msdyn_projectteam.msdyn_applicantsavailable                                                   |
 | msdyn_projectteam.msdyn_assignedhours                                                         |
@@ -407,22 +477,38 @@ for more details and a link to the solution.
 | msdyn_projectteam.msdyn_membershipstatus                                                      |
 | msdyn_projectteam.msdyn_number                                                                |
 | msdyn_projectteam.msdyn_to                                                                    |
+
+**msdyn_projectteammembersignup**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_projectteammembersignup.msdyn_bookableresource                                          |
 | msdyn_projectteammembersignup.msdyn_membershipstatus                                          |
 | msdyn_projectteammembersignup.msdyn_name                                                      |
 | msdyn_projectteammembersignup.msdyn_projectteammembersignupid                                 |
 | msdyn_projectteammembersignup.msdyn_teammembership                                            |
+
+**msdyn_projecttransactioncategory**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_projecttransactioncategory.msdyn_billingtype                                            |
 | msdyn_projecttransactioncategory.msdyn_name                                                   |
 | msdyn_projecttransactioncategory.msdyn_project                                                |
 | msdyn_projecttransactioncategory.msdyn_projecttransactioncategoryid                           |
 | msdyn_projecttransactioncategory.msdyn_transactioncategory                                    |
+
+**msdyn_quotelineinvoiceschedule**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_quotelineinvoiceschedule.msdyn_quoteline                                                |
 | msdyn_quotelineresourcecategory.msdyn_quoteline                                               |
 | msdyn_quotelinescheduleofvalue.msdyn_quoteline                                                |
 | msdyn_quotelinetransaction.msdyn_quoteline                                                    |
 | msdyn_quotelinetransactioncategory.msdyn_quoteline                                            |
 | msdyn_quotelinetransactionclassification.msdyn_quoteline                                      |
+
+**msdyn_resourceassignment**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | msdyn_resourceassignment.msdyn_hours                                                          |
 | msdyn_resourceassignment.msdyn_fromdate                                                       |
 | msdyn_resourceassignment.msdyn_msprojectclientid                                              |
@@ -432,5 +518,9 @@ for more details and a link to the solution.
 | msdyn_resourceassignmentdetail.msdyn_name                                                     |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentdetailid                               |
 | msdyn_resourceassignmentdetail.msdyn_resourceassignmentid                                     |
+
+**salesorderdetail**
+| Fields                                                    |
+|-----------------------------------------------------------------------------------------------|
 | salesorderdetail.msdyn_quoteline                                                              |
 
