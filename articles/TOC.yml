@@ -104,6 +104,8 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
+      - name: Organizational Units
+        href: sales/OrgUnits.md
     - name: Manage project leads
       href: sales/manage-leads.md
     - name: Manage project opportunities
@@ -612,6 +614,8 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
+      - name: Organizational Units
+        href: sales/OrgUnits.md
     - name: Manage project leads 
       href: pro/sales/managing-leads-sales.md
     - name: Manage project opportunities
