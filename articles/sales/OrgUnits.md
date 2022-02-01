@@ -17,7 +17,7 @@ search.app:
 ---
 
 # Organizational units
-Dynamics 365 Project Operations, an organizational unit is a distinct group or division in a professional services company that employs billable resources that have cost rates.
+In Dynamics 365 Project Operations, an organizational unit is a distinct group or division in a professional services company that employs billable resources that have cost rates.
 
 For professional services companies that employ technical resources in various practice areas or business lines, the cost to fill a role in one practice area or business line might differ from the cost to fill a role in another practice area or business line. The concept  organizational units helps in this scenario by providing a way to group a set of billable roles in a division of a company that has a distinct cost structure for these roles.
 
@@ -53,7 +53,7 @@ The Organization entity in Microsoft Dynamics 365 represents the name of a globa
 
 The Organizational Unit entity represents a group or division in the global enterprise. This group or division has a set of roles and a cost price list for those roles, and those roles and price list differ from the roles and price list of other groups or divisions in the enterprise.
 
-When PSA is installed, a default organizational unit is created based on the organization. All existing resources are assigned to the default organizational unit. If any new Active Directory users or resources are imported into Dynamics 365, the user import process assigns them to the default organizational unit in PSA.
+When Project Operations is installed, a default organizational unit is created based on the organization. All existing resources are assigned to the default organizational unit. If any new Active Directory users or resources are imported into Dynamics 365, the user import process assigns them to the default organizational unit in Project Operations.
  
 #### How does the organizational unit entity differ from the business unit entity?
 
