@@ -42,7 +42,7 @@ Of these entities, Quote line details, Contract line details, and Estimate lines
 
 Project Operations treats records in these five entities as business transactions. The only distinction is that records in entities that are mapped to the estimation phase are considered financial forecasts, whereas the records in entities that are mapped to the execution phase are considered financial facts that have already occurred.
 
-For more information, see [Estimates](estimates.md) and [Actuals](actuals.md).
+For more information, see [Estimates](../project-management/estimating-projects-overview.md) and [Actuals](actuals-overview.md).
 
 ## Concepts that are unique to business transactions
 The following concepts are unique to the concept of business transactions:
