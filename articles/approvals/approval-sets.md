@@ -2,8 +2,7 @@
 title: Approval sets
 description: This topic explains how to work with approval sets, requests, and the subsets of those operations.
 author: stsporen
-manager: tfehr
-ms.date: 08/10/2021
+ms.date: 02/01/2022
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend 
@@ -25,15 +24,15 @@ The **Approval Set Lifetime** field records the number of attempts left to proce
 
 Approval sets are processed through the periodic activation based on a **Cloud Flow** named **Project Service - Recurrently Schedule Project Approval Sets** which is found in the **Solution** named **Project Operations**. 
 
-Ensure that this flow is activated by follow these steps:
+Make sure that flow is activated by completing the following steps.
 
-1. As the administrator login to [flow.microsoft.com](flow.microsoft.com)
-2. In the upper right of the page, switch your environment to the environment that you use for Project Operations.
+1. As the administrator, log in to [flow.microsoft.com](https://powerautomate.microsoft.com).
+2. In the upper right corner, switch to the environment that you use for Dynamics 365 Project Operations.
 3. Select **Solutions** to list the solutions that are installed in the environment.
-4. In the solution list, select Project Operations.
+4. In the solution list, select **Project Operations**.
 5. Change the filter from **All** to **Cloud Flows**.
 6. Verify that the **Project Service – Recurrently Schedule Project Approval Sets** flow is set to **On**. If it isn't, select the flow, and then press **Turn on**.
-7. Verify that processing is occurring every five minutes by reviewing the **System Jobs** list in the **Settings** area within your Project Operations Dataverse environment.
+7. Verify that processing occurs every five minutes by reviewing the **System Jobs** list in the **Settings** area within your Project Operations Dataverse environment.
 
 ## Failed approvals and approval sets
 The **Failed Approvals** view lists all of the approvals that require user intervention. Open the associated approval set logs to identify the cause of the failure.
