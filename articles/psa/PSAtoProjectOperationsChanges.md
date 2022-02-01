@@ -193,4 +193,75 @@ refer to the [Project Scheduling API
 documentation](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-management/schedule-api-preview)
 for implementation guidance.
 
+Data Model Changes
+------------------
+
+As part of Upgrade Phase 1, there are changes to the data model (primarily field
+changes to existing entities).  In Phase 1, the following entities are of 
+refactoring of customizations: **msydn_project** and **msdyn_projectteam**.  Please note, this section will updated with other entities as future upgrade phases are completed.
+
+The following fields have been replaced by the new fields.
+
+| **Entity**        | **Old Logical Name** | **New Logical Name**  |
+|-------------------|----------------------|-----------------------|
+| msdyn_project     | msdyn_actualhours    | msdyn_effortcompleted |
+| msdyn_project     | msdyn_plannedhours   | msdyn_effort          |
+| msdyn_project     | msdyn_remaininghours | msdyn_effortremaining |
+| msdyn_project     | msdyn_scheduledend   | msdyn_finish          |
+| msdyn_project     | msdyn_wbsduration    | msdyn_duration        |
+| msdyn_projectteam | msdyn_assignedhours  | msdyn_effort          |
+| msdyn_projectteam | msdyn_from           | msdyn_start           |
+| msdyn_projectteam | msdyn_to             | msdyn_finish          |
+
+The following fields have been added:
+
+| **Entity**        | **Logical Name**                             | **Description**                                                                                                                                                                   |
+|-------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| msdyn_project     | msdyn_actualfeesales                         | Shows the aggregate of actual fee sales on the project - For PSA use only                                                                                                         |
+| msdyn_project     | msdyn_actualmaterialcost                     | Shows the aggregate of actual material cost on the project - For PSA use only                                                                                                     |
+| msdyn_project     | msdyn_actualmaterialsales                    | Shows the aggregate of actual material sales on the project - For PSA use only                                                                                                    |
+| msdyn_project     | msdyn_businesscase                           |                                                                                                                                                                                   |
+| msdyn_project     | msdyn_contractlineproject                    | The Contract Line associated with this project                                                                                                                                    |
+| msdyn_project     | msdyn_copyprojectcorrelationid               | This is an internal field, used for Copy Project related Correlation Identifier. System Field - For PSA Use Only.                                                                 |
+| msdyn_project     | msdyn_copyprojectsessionid                   | This is an internal field, used for Copy Project related Session Identifier. System Field - For PSA Use Only.                                                                     |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Last sync xRM Global Revision Token from PSS                                                                                                                                      |
+| msdyn_project     | msdyn_msprojectdocument                      | The MS Project document belonging to the project                                                                                                                                  |
+| msdyn_project     | msdyn_plannedmaterialcost                    | Shows the aggregate of planned material cost on the project - For PSA use only                                                                                                    |
+| msdyn_project     | msdyn_plannedmaterialsales                   | Shows the aggregate of planned material sales on the project - For PSA use only                                                                                                   |
+| msdyn_project     | msdyn_program                                | The program this project is related to.                                                                                                                                           |
+| msdyn_project     | msdyn_quotelineproject                       | The Quote Line associated with this project                                                                                                                                       |
+| msdyn_project     | msdyn_replaylogheader                        | Header for the replay logs.                                                                                                                                                       |
+| msdyn_project     | msdyn_schedulemode                           | Default Scheduling Mode used for all tasks on the project                                                                                                                         |
+| msdyn_project     | msdyn_taskearlieststart                      | The earliest start date of any task in the project.                                                                                                                               |
+| msdyn_project     | msdyn_valuestatement                         |                                                                                                                                                                                   |
+| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Shows the project team member that this project team member was copied from.                                                                                                      |
+| msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Indicate whether to create the resource requirement for a newly created generic team member.                                                                                      |
+| msdyn_projectteam | msdyn_deletestatus                           | The delete status of the team member to track whether there is a delete request sent to PSS and whether PSS sends back response successfully and within the expected time window. |
+| msdyn_projectteam | msdyn_effortcompleted                        | Completed hours tracks the effort accomplished by the team member on their assignments.                                                                                           |
+| msdyn_projectteam | msdyn_effortremaining                        | Remaining hours tracks the effort yet to be completed by the team member on their assignments.                                                                                    |
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | The waiting period from team member delete request is sent to PSS till the team member is actually deleted on CDS.                                                                |
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | The timestamp to record when team member delete request is sent to PSS.                                                                                                           |
+| msdyn_projectteam | msdyn_copiedfromprojectteammember            | Shows the project team member that this project team member was copied from.                                                                                                      |
+
+
+Billing and Pricing
+===================
+
+The following new features have been added in Project Operations, these features
+are additive in nature and do not impact the data model of PSA:
+
+-   [Recording material usage on projects and project
+    tasks](https://docs.microsoft.com/en-us/dynamics365/project-operations/material/material-usage-log)
+
+-   [Subcontract
+    management](https://docs.microsoft.com/en-us/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview)
+
+-   [Advances and retainer-based
+    contracts](https://docs.microsoft.com/en-us/dynamics365/project-operations/pro/sales/set-up-advances-retainer-based-contracts-sales)
+
+-   [Contract not-to-exceed status and validations
+    ](https://docs.microsoft.com/en-us/dynamics365/project-operations/pro/proforma-invoicing/manage-nte-status-validations-sales)
+
+-   [Task based
+    billing](https://docs.microsoft.com/en-us/dynamics365/project-operations/pro/sales/mapping-projects-tasks-quote-line-sales)
 
