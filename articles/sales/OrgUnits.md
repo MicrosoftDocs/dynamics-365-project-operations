@@ -173,5 +173,4 @@ To create an Organizational unit in Project Operations, follow these steps:
   
 7.  When you’re done, click **Save** at the bottom right corner of the screen.  
   
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
