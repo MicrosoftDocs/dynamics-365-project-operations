@@ -112,12 +112,12 @@ The main form now includes new tabs including:
 The Status tab has been removed and the status field now appear on the summary
 tab along with the project’s scheduling mode.
 
-![Graphical user interface Description automatically generated](media/cc3056351ef346dacfc66b2f7b1112e5.png)
+![updates to the project form](media/projectform.png)
 
 The schedule tab has been renamed to the Task tab and features the new project
 planning experience with Project for the Web.
 
-![Graphical user interface, text Description automatically generated](media/560d4bcbb545e9575fed4db4091871b4.png)
+![new project tasks tab](media/tasktab.png)
 
 Scheduling Modes
 ----------------
@@ -128,7 +128,7 @@ All existing PSA Projects will be defaulted to **Fixed Duration**. However,
 defaulting for new projects can be managed In **Settings \> Parameters \>
 Parameter \> Schedule Mode.**
 
-![Graphical user interface, text, application, email Description automatically generated](media/3608c98c2d84967f94a483410995689d.png)
+![Project Parameter settings for schedule mode](media/projectparameter.png)
 
 
 
