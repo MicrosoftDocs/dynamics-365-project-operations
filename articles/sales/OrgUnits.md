@@ -157,10 +157,7 @@ The **Contracting Unit** and **Currency** fields on the project are locked for e
 # Create organizational units (Project Operations)
 
 
-Your company probably organizes its consulting business by geography, function, or other areas. You can create organizational units that reflect your consulting business. A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is a group or division in a professional services company that employs billable resources with cost rates that are distinct from other such groups or divisions in the company.  
-  
-> [!NOTE]
->  A [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] organizational unit is separate from a business unit in [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)]. Business units are more of a security structure that affects levels of access to [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] information, and are usually organized around company divisions, like parent company and subsidiaries or divisions. Organizational units represent how your consulting company categorizes its different businesses, whether by geographic location (like EMEA or LATAM), by function (like Product Development or IT Outsourcing), or by other parameters.  
+To create an Organizational unit in Project Operations, follow these steps:
   
 1.  Go to **Settings > Organizational Units**.  
   
