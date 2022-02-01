@@ -28,7 +28,7 @@ This topic lists the features and fixes that are new or changed for Project Serv
 ## Update Release 40
 
 ### Features
-Phase 1 of upgrade from Project Service Automation to Project Operations Lite will be rolling out in February 20222 to all cusstomers, see [article](https://docs.microsoft.com/en-us/dynamics365/project-operations/psa/upgrade-project-operations-non-stocked) for criteria in Phase 1.   If the app does not appear in your instance, please contant support and request the flight to be enabled for your environments, please specify each environment ID where the flight needs to be enabled.
+Phase 1 of upgrade from Project Service Automation to Project Operations Lite will be rolling out in February 20222 to all customers, see [article](https://docs.microsoft.com/en-us/dynamics365/project-operations/psa/upgrade-project-operations-non-stocked) for criteria in Phase 1.   If the app does not appear in your instance, please contant support and request the flight to be enabled for your environments, please specify each environment ID where the flight needs to be enabled.
 
 ### Bug fixes
 
