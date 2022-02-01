@@ -273,8 +273,9 @@ deprecated components solution post upgrade, see [this
 article](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution)
 for more details and a link to the solution.
 
-| Fields invoicedetail.msdyn_contractline                                                       |
+| Fields                                                    |
 |-----------------------------------------------------------------------------------------------|
+|invoicedetail.msdyn_contractline    |
 | msdyn_actual.msdyn_salescontractline                                                          |
 | msdyn_characteristicreqforteammember.msdyn_characteristic                                     |
 | msdyn_characteristicreqforteammember.msdyn_characteristicreqforteammemberid                   |
