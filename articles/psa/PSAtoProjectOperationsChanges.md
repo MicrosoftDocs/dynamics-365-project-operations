@@ -50,7 +50,7 @@ Automation vs Project Operations.
 | WBS integration with desktop client                                                                                           |                        |         |
 | **Constraints**                                                                                                               | :heavy_check_mark:                     |         |
 | Start no earlier than, finish no later than                                                                                   |                        |         |
-| **Milestones**                                                                                                                |  :heavy_check_mark:                   |         |
+| **Milestones**                                                                                                                | :heavy_check_mark:                   |         |
 | tasks with zero duration                                                                                                      |                        |         |
 | **Resource Driven tasks**                                                                                                     |:heavy_check_mark:                     |         |
 | tasks will respect the availability of assigned resources                                                                     |                        |         |
@@ -74,7 +74,7 @@ Automation vs Project Operations.
 | Multi-select tasks and modify their position on the WBS                                                                       |                        |         |
 | **Flexible Persistent Views**                                                                                                 | :heavy_check_mark:                      |         |
 | Allow users define more granular views of task attributes                                                                     |                        |         |
-| **Sorting / Filtering**                                                                                                       |  :heavy_check_mark:                     |         |
+| **Sorting / Filtering**                                                                                                       | :heavy_check_mark:                     |         |
 | Sort or filter the WBS                                                                                                        |                        |         |
 | **Boards view**                                                                                                               | :heavy_check_mark:                      |         |
 | Boards views for non-waterfall project delivery                                                                               |                        |         |
@@ -92,7 +92,7 @@ Automation vs Project Operations.
 Project Planning User Interface
 -------------------------------
 
-The default Project Main form has a number of notable differences compared to
+The default Project main form has a number of notable differences compared to
 PSA as highlighted below:
 
 The following ribbon actions have been removed as part of the Phase 1 upgrade:
@@ -109,8 +109,32 @@ The main form now includes new tabs including:
 
 -   Task Billing Setup
 
+The Status tab has been removed and the status field now appear on the summary
+tab along with the project’s scheduling mode.
+
+![Graphical user interface Description automatically generated](media/cc3056351ef346dacfc66b2f7b1112e5.png)
+
+The schedule tab has been renamed to the Task tab and features the new project
+planning experience with Project for the Web.
+
+![Graphical user interface, text Description automatically generated](media/560d4bcbb545e9575fed4db4091871b4.png)
+
+Scheduling Modes
+----------------
+
+Project Operations has introduced a new feature, [Scheduling
+Modes](https://docs.microsoft.com/en-us/dynamics365/project-operations/project-management/scheduling-modes).
+All existing PSA Projects will be defaulted to **Fixed Duration**. However,
+defaulting for new projects can be managed In **Settings \> Parameters \>
+Parameter \> Schedule Mode.**
+
+![Graphical user interface, text, application, email Description automatically generated](media/3608c98c2d84967f94a483410995689d.png)
+
+
+
 Project Planning limits
 -----------------------
+Project Oeprations relies upon Project for the Web for all project shceduling operations.   Project for the Web manages the work breakdown structure with the limits outlined below:
 
 | **Field**                                          | **Limit**            |
 |----------------------------------------------------|----------------------|
@@ -119,12 +143,6 @@ Project Planning limits
 | Maximum total resources for a project              | 300                  |
 | Maximum total links (successor only) for a project | 600                  |
 | Maximum total custom fields for a project          | 10                   |
-
-Task limits
------------
-
-| **Field**                               | **Limit**             |
-|-----------------------------------------|-----------------------|
 | Maximum hierarchy level                 | 10 levels             |
 | Maximum links (successor + predecessor) | 20                    |
 | Maximum duration of leaf task           | 1250 days             |
