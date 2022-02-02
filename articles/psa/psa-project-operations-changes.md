@@ -19,7 +19,7 @@ search.app:
 
 # Feature changes from Project Service Automation to Project Operations
 
-Upgrade from Dynamics 365 Project Service Automation to Dynamics 365 Project Operations Lite will be delivered in three phases. This topic provides information about the major changes you can expect to see when the upgrade is complete.
+The upgrade from Dynamics 365 Project Service Automation to Dynamics 365 Project Operations Lite will be delivered in three phases. This topic provides information about the major changes that you can expect to see when the upgrade is complete.
 
 | Upgrade delivery | Phase 1 (January 2022) | Phase 2 (April Wave 2022) | Phase 3 (April Wave 2022) |
 |------------------|------------------------|---------------------------|---------------------------|
@@ -48,13 +48,13 @@ The following table summarizes the scheduling differences between Project Servic
 | Percent complete - Mark task progress   | :heavy_check_mark:  |  &nbsp;  |
 | [Project Schedule Modes](../project-management/scheduling-modes.md) - Define the project as fixed units, fixed effort, or fixed duration | :heavy_check_mark: | &nbsp; |
 | Timeline - Build and customize the timeline view to visualize schedule details and communicate with stakeholders. | :heavy_check_mark:  | &nbsp; |
-| Effort-driven tasks - Scheduling engine support for scheduling a task as effor driven  | :heavy_check_mark:  | &nbsp; |
+| Effort-driven tasks - Scheduling engine support for scheduling a task as effort driven  | :heavy_check_mark:  | &nbsp; |
 | **Task information** dialog box - Save task details using a dialog box | :heavy_check_mark:  |  &nbsp;  |
 | Drag and drop - Multi-select tasks and modify their position on the WBS | :heavy_check_mark: | &nbsp;  |
 | Flexible persistent views - Define more granular views of task attributes   | :heavy_check_mark:  | &nbsp; |
 | Sort and filter the WBS  | :heavy_check_mark:  | &nbsp; |
 | Boards view for non-waterfall project delivery  | :heavy_check_mark:   | &nbsp; |
-| Timeline view - Interactive gantt chart used to visualize and edit the WBS   | :heavy_check_mark:  | &nbsp; |
+| Timeline view - Interactive Gantt chart used to visualize and edit the WBS   | :heavy_check_mark:  | &nbsp; |
 | Keyboard Shortcuts - Use keyboard shortcuts for common operations, such as indent or insert  | :heavy_check_mark:  |  &nbsp; |
 | Multi-level undo - Perform what-if analysis to fully understand the impact of changes by reversing and reapplying an entire set of operations | :heavy_check_mark: | &nbsp; |
 | Cut/Copy/Paste - Collaborate on schedule development by copying and pasting schedule details between applications  | :heavy_check_mark: | &nbsp; |
@@ -91,7 +91,7 @@ Project Operations has introduced a new feature, [Scheduling modes](../project-m
 
 ## Project planning limits
 
-Project Oeprations relies on Project for the Web for all project shceduling operations. Project for the Web manages the work breakdown structure using the limits in the following table.
+Project Operations relies on Project for the Web for all project scheduling operations. Project for the Web manages the work breakdown structure using the limits in the following table.
 
 | **Field**                                          | **Limit**             |
 |----------------------------------------------------|-----------------------|
@@ -169,13 +169,13 @@ The following fields have been added.
 | msdyn_projectteam | msdyn_deletestatus                           | The delete status of the team member to track if there is a delete request sent to PSS and whether PSS sends back response successfully and within the expected time window. |
 | msdyn_projectteam | msdyn_effortcompleted                        | Tracks the effort accomplished by the team member on their assignments. |
 | msdyn_projectteam | msdyn_effortremaining                        | Tracks the effort yet to be completed by the team member on their assignments. |
-| msdyn_projectteam | msdyn_markedfordeletiontimer                 | The waiting period from when the team member sends a delete request to PSS until the team member is actually deleted on Dataverse.|
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | The waiting period from when the team member sends a delete request to PSS until the team member is actually deleted on Microsoft Dataverse.|
 | msdyn_projectteam | msdyn_markedfordeletiontimestamp             | The timestamp to record when the team member delete request is sent to PSS. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Shows the project team member that this project team member was copied from.  |
 
 ## Project templates
 
-Project Operations doesn't provide support for project templates. However, you can replicate much of the core functionality with the use of the [Project Copy API] (../project-operations/project-management/dev-copy-project.md).
+Project Operations doesn't provide support for project templates. However, you can replicate much of the core functionality with the use of the [Project Copy API](../project-operations/project-management/dev-copy-project.md).
 
 ## Desktop add-in support
 
