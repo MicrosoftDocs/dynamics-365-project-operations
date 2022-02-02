@@ -21,7 +21,7 @@ search.app:
 
 The upgrade from Dynamics 365 Project Service Automation to Dynamics 365 Project Operations Lite will be delivered in three phases. This topic provides information about the major changes that you can expect to see when the upgrade is complete.
 
-| Upgrade delivery | Phase 1 (January 2022) | Phase 2 (April Wave 2022) | Phase 3 (April Wave 2022) |
+| Upgrade delivery | Phase 1 (January 2022) | Phase 2 (April 2022) | Phase 3 (April 2022) |
 |------------------|------------------------|---------------------------|---------------------------|
 | No dependency on the work breakdown structure (WBS) for projects. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | The WBS is included in the currently supported limits of Project Operations. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
@@ -154,7 +154,7 @@ The following fields have been added.
 | msdyn_project     | msdyn_contractlineproject                    | The contract line associated with this project. |
 | msdyn_project     | msdyn_copyprojectcorrelationid               | This is an internal system field that's used for **Copy Project** related to the Correlation Identifier. For use in Project Service Automation only. |
 | msdyn_project     | msdyn_copyprojectsessionid                   | This is an internal system field, used for **Copy Project** related to the Session Identifier. For use in Project Service Automation only. |
-| msdyn_project     | msdyn_globalrevisiontoken                    | Last sync xRM Global Revision Token from PSS. |
+| msdyn_project     | msdyn_globalrevisiontoken                    | Last sync xRM Global Revision Token from the Project scheduling service. |
 | msdyn_project     | msdyn_msprojectdocument                      | The Microsoft Project document that belongs to the project. |
 | msdyn_project     | msdyn_plannedmaterialcost                    | The aggregate of planned material cost on the project. For use in Project Service Automation only. |
 | msdyn_project     | msdyn_plannedmaterialsales                   | The aggregate of planned material sales on the project. For use in Project Service Automation only. |
@@ -166,16 +166,16 @@ The following fields have been added.
 | msdyn_project     | msdyn_valuestatement                         |                |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | The project team member that this project team member was copied from. |
 | msdyn_projectteam | msdyn_creategenericteammemberwithrequirement | Indicates whether to create the resource requirement for a newly created generic team member.  |
-| msdyn_projectteam | msdyn_deletestatus                           | The delete status of the team member to track if there is a delete request sent to PSS and whether PSS sends back response successfully and within the expected time window. |
+| msdyn_projectteam | msdyn_deletestatus                           | The delete status of the team member to track if there is a delete request sent to the Project scheduling service and whether it successfully sends a response back within the expected time window. |
 | msdyn_projectteam | msdyn_effortcompleted                        | Tracks the effort accomplished by the team member on their assignments. |
 | msdyn_projectteam | msdyn_effortremaining                        | Tracks the effort yet to be completed by the team member on their assignments. |
-| msdyn_projectteam | msdyn_markedfordeletiontimer                 | The waiting period from when the team member sends a delete request to PSS until the team member is actually deleted on Microsoft Dataverse.|
-| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | The timestamp to record when the team member delete request is sent to PSS. |
+| msdyn_projectteam | msdyn_markedfordeletiontimer                 | The waiting period from when the team member sends a delete request to the Project scheduling service until the team member is actually deleted on Microsoft Dataverse.|
+| msdyn_projectteam | msdyn_markedfordeletiontimestamp             | The timestamp to record when the team member delete request is sent to the Project scheduling service. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Shows the project team member that this project team member was copied from.  |
 
 ## Project templates
 
-Project Operations doesn't provide support for project templates. However, you can replicate much of the core functionality with the use of the [Project Copy API](../project-operations/project-management/dev-copy-project.md).
+Project Operations doesn't provide support for project templates. However, you can replicate much of the core functionality with the use of the [Project Copy API](../project-management/dev-copy-project.md).
 
 ## Desktop add-in support
 
