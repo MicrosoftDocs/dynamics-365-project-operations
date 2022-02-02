@@ -546,6 +546,10 @@
     items:
     - name: Migrate fully invoiced billing milestones during cutover
       href: advanced-configuration/migrating-invoiced-milestones.md   
+  - name: Upgrade
+    items:
+    - name: Upgrade considerations for Modern approvals
+      href: upgrade/upgrade-considerations-modern-approvals.md
   - name: Troubleshooting
     items:
     - name: Project sales process
@@ -996,6 +1000,10 @@
       href: pro/proforma-invoicing/corrective-invoices-sales.md
     - name: Configure project invoice automation
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
+  - name: Upgrade
+    items:
+    - name: Upgrade considerations for Modern approvals
+      href: upgrade/upgrade-considerations-modern-approvals.md
 - name: Project Operations for stocked/production-based scenarios
   items: 
   - name: What's new
