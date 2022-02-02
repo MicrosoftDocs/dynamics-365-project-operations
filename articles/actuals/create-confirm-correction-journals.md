@@ -29,9 +29,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Occasionally a time or expense entry may be entered incorrectly. For example, a consultant might select the wrong date when creating a time entry or they might transpose the numbers when entering an expense. If a consultant can’t make the updates to the submitted entries, an administrator can directly correct the entry for a project.
-
-To complete the procedures in this topic, you will need Administrator permissions.
+Occasionally a time or expense entry may be entered incorrectly. For example, a consultant might select the wrong date when creating a time entry or they might pick the wrong project when entering an expense. If a consultant can’t make the updates to the submitted entries, a backend admin can directly correct the actuals for a project.
 
 ## Correct approved time entries     
 
