@@ -46,7 +46,7 @@ The following table summarizes the scheduling differences between Project Servic
 | Automatic/manual scheduling - Use the Project scheduling engine to automatically or manually schedule tasks |  &nbsp; | :heavy_check_mark:  |
 | Edit large projects directly in the user interface: There is no limit to the size of plans that are editable  | 500 task limit  | :heavy_check_mark:       |
 | Percent complete - Mark task progress   | :heavy_check_mark:  |  &nbsp;  |
-| [Project Schedule Modes](../project-operations/project-management/scheduling-modes.md) - Define the project as fixed units, fixed effort, or fixed duration | :heavy_check_mark: | &nbsp; |
+| [Project Schedule Modes](../project-management/scheduling-modes.md) - Define the project as fixed units, fixed effort, or fixed duration | :heavy_check_mark: | &nbsp; |
 | Timeline - Build and customize the timeline view to visualize schedule details and communicate with stakeholders. | :heavy_check_mark:  | &nbsp; |
 | Effort-driven tasks - Scheduling engine support for scheduling a task as effor driven  | :heavy_check_mark:  | &nbsp; |
 | **Task information** dialog box - Save task details using a dialog box | :heavy_check_mark:  |  &nbsp;  |
@@ -85,7 +85,7 @@ The **Schedule** tab has been renamed to the **Task** tab and features the new p
 
 ## Scheduling modes
 
-Project Operations has introduced a new feature, [Scheduling modes](../project-operations/project-management/scheduling-modes.md). All existing Project Service Automation projects will default to **Fixed Duration** in Project Operations. However, the default for new projects can be managed by going to **Settings** > **Parameters** > **Parameter** > **Schedule Mode**.
+Project Operations has introduced a new feature, [Scheduling modes](../project-management/scheduling-modes.md). All existing Project Service Automation projects will default to **Fixed Duration** in Project Operations. However, the default for new projects can be managed by going to **Settings** > **Parameters** > **Parameter** > **Schedule Mode**.
 
    ![Project parameter settings for Schedule mode.](media/projectparameter.png)
 
@@ -121,7 +121,7 @@ After you upgrade to Project Operations, you must use the Project Scheduling API
 | Project Bucket          | msdyn_projectbucket         |
 | Project Team Member     | msdyn_projectteam           |
 
-If you currently have customizations that involve these entities, see [Use Project schedule APIs to perform operations with Scheduling entities](../project-operations/project-management/schedule-api-preview.md) for implementation guidance.
+If you currently have customizations that involve these entities, see [Use Project schedule APIs to perform operations with Scheduling entities](../project-management/schedule-api-preview.md) for implementation guidance.
 
 ## Data model changes
 
@@ -189,11 +189,11 @@ The ability to edit resource assignment contours will be available when Phase 2 
 
 The following new features have been added in Project Operations. These features are additive in nature and don't impact the Project Service Automation data model.
 
-- [Recording material usage on projects and project tasks](../project-operations/material/material-usage-log.md)
-- [Subcontract management](../project-operations/pro/subcontracting/managing-subcontracts-overview.md)
-- [Advances and retainer-based contracts](../project-operations/pro/sales/set-up-advances-retainer-based-contracts-sales.md)
-- [Contract not-to-exceed status and validations](../project-operations/pro/proforma-invoicing/manage-nte-status-validations-sales.md)
-- [Task based billing](../project-operations/pro/sales/mapping-projects-tasks-quote-line-sales.md)
+- [Recording material usage on projects and project tasks](../material/material-usage-log.md)
+- [Subcontract management](../pro/subcontracting/managing-subcontracts-overview.md)
+- [Advances and retainer-based contracts](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
+- [Contract not-to-exceed status and validations](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
+- [Task based billing](../pro/sales/mapping-projects-tasks-quote-line-sales.md)
 
 ## Deprecated components
 
