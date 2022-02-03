@@ -21,7 +21,7 @@ search.app:
 
 The upgrade from Dynamics 365 Project Service Automation to Dynamics 365 Project Operations Lite will be delivered in three phases. This topic provides information about the major changes that you can expect to see when the upgrade is complete.
 
-| Upgrade delivery | Phase 1 <br>(January 2022) | Phase 2 <br>(April Wave 2022) | Phase 3 <br>(April Wave 2022) |
+| Upgrade delivery | Phase 1 <br>(January 2022) | Phase 2 <br>(April Wave 2022) | Phase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | No dependency on the work breakdown structure (WBS) for projects. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | The WBS is included in the currently supported limits of Project Operations. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
