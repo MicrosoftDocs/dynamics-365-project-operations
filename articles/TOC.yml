@@ -1256,7 +1256,7 @@
       href: psa/implementation-guides/reporting-guide.md
   - name: Upgrade from Project Service Automation to Project Operations - lite
     href: psa/upgrade-project-operations-non-stocked.md
-  - name: title: Feature changes from Project Service Automation to Project Operations
+  - name: Feature changes from Project Service Automation to Project Operations
     href: psa/psa-project-operations-changes.md
   - name: Project Service Automation upgrade (app version 3.x)
     items: 
