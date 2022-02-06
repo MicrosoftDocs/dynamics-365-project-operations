@@ -92,7 +92,8 @@ There are few key differences between actuals created by Entry journal confirmat
 4. Entry journal lines created for Time entered by inter-organizational resources does not result in the automatic creation of Resourcing Unit cost and Interorg Sales actuals. These would have to be created manually. This is different from Time entries recorded by inter-organizational resources where on time approval, the application automatically creates Cost actuals on the project, Resourcing Unit cost and Interorg Sales actuals on the Employee&#39;s owning division and links these together to using Transaction connections and links them to the originating Time entry using Transaction Origins.
 5. When entry journals are confirmed, they create Actuals. But these Actuals cannot be corrected using Correction journals. This is different from actuals created on approval of Time, Expense and Material usage log where the application allows you to correct these actuals using correction journals for any errors if those actuals have not been invoiced. If these are invoiced, you can still correct these actuals if you process a full credit of that actual to the customer.
 
-[Note!]Entry journals do not enforce strict defaulting rules. So, use these minimally and exercise caution and care to ensure that you are not creating corrupt financial data in your system. Use Time, Expense, Material usage logs, milestone and retainer setup on Project contracts and Project invoice confirmation process where possible to create actuals instead of entry journals
+> [!NOTE]
+> Entry journals do not enforce strict defaulting rules. So, use these minimally and exercise caution and care to ensure that you are not creating corrupt financial data in your system. Use Time, Expense, Material usage logs, milestone and retainer setup on Project contracts and Project invoice confirmation process where possible to create actuals instead of entry journals
 
 
 
