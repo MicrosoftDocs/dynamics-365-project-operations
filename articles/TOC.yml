@@ -458,7 +458,7 @@
       href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Link actuals to original records
+    - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Correction journals
       items:
@@ -976,7 +976,7 @@
       href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Link actuals to original records
+    - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Correction journals
       items:
