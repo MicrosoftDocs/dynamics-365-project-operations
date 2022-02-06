@@ -13,7 +13,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Transaction Origin records are created to lik actuals to the originating sources of those actuals such Time Entries, Expense entries, Material Usage Logs and Project Invoices 
+Transaction Origin records are created to link actuals to the originating sources of those actuals such Time Entries, Expense entries, Material Usage Logs and Project Invoices 
 
 The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
