@@ -1,5 +1,5 @@
 ---
-title: Transaction Origins - Link actuals to original records
+title: Transaction Origins - Link actuals to source
 description: This topic explains how actuals are linked to original records such as time entry, expense entry, or material usage logs using the concept of Transaction Origins.
 author: rumant
 ms.date: 03/25/2021
@@ -9,7 +9,7 @@ ms.reviewer: tonyafehr
 ms.author: rumant
 ---
 
-# Transaction Origins - Link actuals to original records
+# Transaction Origins - Link actuals to source
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
