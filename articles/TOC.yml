@@ -460,9 +460,9 @@
       href: actuals/linkingactuals.md
     - name: Journals
       items:
-     - name: Create and confirm Entry journals
+      - name: Create and confirm Entry journals
         href: actuals/create-confirm-entry-journals.md
-     - name: Create and confirm Correction journals
+      - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
   - name: Procurement
     items:
@@ -982,9 +982,9 @@
       href: actuals/linkingactuals.md
     - name: Journals
       items:
-     - name: Create and confirm Entry journals
+      - name: Create and confirm Entry journals
         href: actuals/create-confirm-entry-journals.md
-     - name: Create and confirm Correction journals
+      - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
     items:
