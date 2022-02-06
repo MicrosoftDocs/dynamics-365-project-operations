@@ -29,7 +29,6 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-# Create and confirm entry journals
 
 Use entry journals in Project Operations to record actuals directly into Project Operations. Using entry journals is designed to help bypass entering Time, Expenses and Material usage logs in Project Operations and record actuals directly. Please Note:
 
