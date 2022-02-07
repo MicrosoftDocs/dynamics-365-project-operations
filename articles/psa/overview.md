@@ -40,14 +40,6 @@ The Project Service Automation (PSA) application helps organizations efficiently
 In addition, to help you monitor and control costs for your project-based work, individual consultants
 easily enter and track project time and expenses either on mobile or using a web browser.
 
-## What's new in PSA
-The team is excited to announce our newest updates! Ranging from improvements to the user interface, fixing bugs, and adding important new features and capabilties. You asked; we listened.
-
-Take a look at the [October '19 Release Notes](/dynamics365-release-plan/2019wave2/index) to see our newest enhancements and additions.
-
-### In development
-To see what we have planned in the near future, head over to the [Dynamics 365: 2020 release wave 1 plan](/dynamics365-release-plan/2020wave1/index).
-
 ## Get help with PSA version 3.x
 Looking for resources to help plan your implementation? Check out these downloadable guides.
 
@@ -77,10 +69,6 @@ Looking for resources to help plan your implementation? Check out these download
  [White papers (app version 2.x or 1.x)](../psa/white-papers.md)
 
  [Notes for developers (app version 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## Watch a 2-minute overview video
- <a name="heroArea"></a> [![ProjectService&#95;IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 
