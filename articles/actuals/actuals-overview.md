@@ -30,8 +30,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Actuals represent the reviewed and approved financial and schedule progress on a project. They are created as a result of approval of time, expense, material usage entries, and journal entries and invoices. Actuals should not be edited or deleted from the system as this could tamper the financial integrity and any integration with other financial and accounting sytems. Project Operations provides for corrections of actuals by creating reversing and replacing actuals at various points in the business process lifecycle of your projects. 
-
+Actuals represent the reviewed and approved financial and schedule progress on a project. They are created when time, expense, and material usage entries, journal entries, and invoices are approved. You should not edit actuals or delete them from the system. Otherwise, you might adversely affect the financial integrity and any integration with other financial and accounting systems. Instead, Microsoft Dynamics 365 Project Operations lets you correct actuals by creating reversing and replacing actuals at various points in the business process lifecycle of your projects. 
 
 ## Record actuals based on project events
 
