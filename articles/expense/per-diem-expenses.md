@@ -70,7 +70,7 @@ To create the per diem expense that is used for all three examples, follow these
 2. Select **New expense report**, or select an existing expense report.
 3. Add a new expense. In the **Category** field, select **Per diem**. Select the location, and the start and end dates of your trip. The per diem for lodging, meals, and incidentals (other expenses) is calculated based on the daily allowance that is set for the selected location.
 
-    For example, you select **Redmond (USA)** as the location. The daily allowance for that location is 150 US dollars (USD 150) for lodging, USD 75 for meals, and USD 5 for incidentals. The start date is January 10, and the end date is January 14. Therefore, the selected duration is five days (assuming calendar days with time). Here are the calculations:
+    For example, you select **Redmond (USA)** as the location. The daily allowance for that location is 150 US dollars (USD 150) for lodging, USD 75 for meals, and USD 5 for incidentals. The start date is January 10, and the end date is January 14. Therefore, the selected duration is five days (when the configuration selected is "calendar days with time and the selected time begins and ends at 12:00 am on the start and end dates"). Here are the calculations:
 
     - Total amount payable = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
     - Meal and incidental portion of the total amount = 5 × (75 + 5) = USD 400
@@ -104,20 +104,26 @@ For example, here are the calculations if breakfast was provided for the first t
 ### Example 3: Per diem where meal reductions are based on number of meals per day
 
 In this example, the meal reduction is calculated based on the number of meals that were provided per day (that is, the **Calculate meal reduction by** field on the **Expense management parameters** page is set to **Number of meals per day**). In the **Meals** grid in the **Edit expense** dialog box, you clear checkboxes to indicate which meals were provided.
+In this case, the meal reduction is based only on the # of meals provided , and not on the type of meal ( Breakfast/lunch/dinner) provided.
 
 Here are the calculations for per diems when the daily allowance is USD 150 for lodging, USD 75 for meals, and USD 5 for incidentals:
 
+- **Total amount payable** = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
 - **One meal:** Meal reduction = 20% = USD 15
 - **Two meals:** Meal reduction = 50% = USD 37.50
 - **Three meals:** Meal reduction = 100% = USD 75
 
-Here are the calculations for the meals and incidentals allowance, which includes USD 5 for incidentals:
+Here are the calculations for the **meals and incidentals allowance**, which includes USD 5 for incidentals:
 
-- One meal = (75 – 15) + 5 = 60 + 5 = USD 65
-- Two meals = (75 – 37.50) + 5 = 37.50 + 5 = USD 42.50
-- Three meals = (75 – 75) + 5 = 0 + 5 = USD 5
-- Total meals and incidentals = Sum of meals and incidentals per day = USD 235
-- Total amount payable = Total allowance – Total meal reduction = USD 985
+- Day 1 - Two meals provided = (75 – 37.50) + 5 = 37.50 + 5 = USD 42.50
+- Day 2 - Two meals provided = (75 – 37.50) + 5 = 37.50 + 5 = USD 42.50
+- Day 3 - One meal provided = (75 – 15) + 5 = 60 + 5 = USD 65
+- Day 4 - Zero meals provided = (75-0) + 5 = 75 + 5 = USD 80
+- Day 5 - Three meals provided = (75 – 75) + 5 = 0 + 5 = USD 5
+
+- Total meals and incidentals = Meals and Incidentals for Day 1+ Day 2 +Day 3+Day 4+ Day 5 = USD 235
+- Total meal reduction = Meal reduction for Day 1+ Day 2 +Day 3+Day 4+ Day 5= 37.5+ 37.5+ 15 + 0+ 75 = USD 165
+- Total amount payable = Total allowance – Total meal reduction = USD 1,150 - USD 165 = USD 985
 
 ![Per diem expense where the meal reduction is based on number of meals per day.](media/3-number-of-meals-per-day.png)
 
