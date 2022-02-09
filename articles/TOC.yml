@@ -458,9 +458,11 @@
         href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
+    - name: Business Transactions in Project Operations
+      href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Link actuals to original records
+    - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Correction journals
       items:
@@ -982,9 +984,11 @@
         href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
+    - name: Business Transactions in Project Operations
+      href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Link actuals to original records
+    - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Correction journals
       items:
