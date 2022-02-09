@@ -4,7 +4,7 @@
 title: Per diem expenses
 description: This topic provides information about how to work with per diem expenses.
 author: suvaidya
-ms.date: 01/26/2022
+ms.date: 02/09/2022
 ms.topic: article
 ms.prod: 
 #
@@ -70,7 +70,7 @@ To create the per diem expense that is used for all three examples, follow these
 2. Select **New expense report**, or select an existing expense report.
 3. Add a new expense. In the **Category** field, select **Per diem**. Select the location, and the start and end dates of your trip. The per diem for lodging, meals, and incidentals (other expenses) is calculated based on the daily allowance that is set for the selected location.
 
-    For example, you select **Redmond (USA)** as the location. The daily allowance for that location is 150 US dollars (USD 150) for lodging, USD 75 for meals, and USD 5 for incidentals. The start date is January 10, and the end date is January 14. Therefore, the selected duration is five days (when the configuration selected is "calendar days with time and the selected time begins and ends at 12:00 am on the start and end dates"). Here are the calculations:
+    For example, you select **Redmond (USA)** as the location. The daily allowance for that location is 150 US dollars (USD 150) for lodging, USD 75 for meals, and USD 5 for incidentals. The start date is January 10, and the end date is January 14. Therefore, the selected duration is five days when the configuration selected is calendar days with time, and the selected time begins and ends at 12:00 am on the start and end dates. Here are the calculations:
 
     - Total amount payable = 5 × (150 + 75 + 5) = 5 × 230 = USD 1,150
     - Meal and incidental portion of the total amount = 5 × (75 + 5) = USD 400
