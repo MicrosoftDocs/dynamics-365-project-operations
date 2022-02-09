@@ -1,29 +1,34 @@
 {
-    "redirections": [
-      {
-        "source_path": "articles/project-management/update-completed-estimate.md",
-        "redirect_url": "project-tracking-overview",
-        "redirect_document_id": "false"
-      },
-      {
-        "source_path": "articles/sales/create-estimate-quote-line-sales.md",
-        "redirect_url": "../pro/sales/create-estimate-quote-line-sales",
-        "redirect_document_id": "false"
-      },
-      {
-        "source_path": "articles/sales/manage-multiple-customers-quote-sales.md",
-        "redirect_url": "../pro/sales/manage-multiple-customers-quote-sales",
-        "redirect_document_id": "false"
-      },
-      {
-        "source_path": "articles/sales/quote-values-budget-limits-contract-sales.md",
-        "redirect_url": "../pro/sales/quote-values-budget-limits-contract-sales",
-        "redirect_document_id": "false"
-      },
-      {
-        "source_path": "articles/sales/manage-project-price-lists-sales.md",
-        "redirect_url": "../pro/sales/manage-project-price-lists-sales",
-        "redirect_document_id": "false"
-      }
-    ]
+  "redirections": [
+    {
+      "source_path": "articles/pro/subcontracting/Subcontracting_EA_scope.md",
+      "redirect_url": "managing-subcontracts-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/project-management/update-completed-estimate.md",
+      "redirect_url": "project-tracking-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sales/create-estimate-quote-line-sales.md",
+      "redirect_url": "../pro/sales/create-estimate-quote-line-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sales/manage-multiple-customers-quote-sales.md",
+      "redirect_url": "../pro/sales/manage-multiple-customers-quote-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sales/quote-values-budget-limits-contract-sales.md",
+      "redirect_url": "../pro/sales/quote-values-budget-limits-contract-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sales/manage-project-price-lists-sales.md",
+      "redirect_url": "../pro/sales/manage-project-price-lists-sales",
+      "redirect_document_id": "false"
+    }
+  ]
 }
