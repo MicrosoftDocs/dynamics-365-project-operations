@@ -450,12 +450,12 @@
       href: approvals/approvals-overview.md
     - name: Approval sets 
       href: approvals/approval-sets.md
-    - name: Cancel approval on previously approved entries
-      href: approvals/cancelapproval.md
+    - name: Recall previously approved entries 
+      href: approvals/recall-cancel.md   
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
-        href: approvals/dev-notes-approvals.md
+        href: approvals/dev-notes-approvals.md        
   - name: Actuals
     items: 
     - name: Business Transactions in Project Operations
@@ -976,8 +976,8 @@
       href: approvals/approvals-overview.md
     - name: Approval sets
       href: approvals/approval-sets.md
-    - name: Cancel approval on previously approved entries
-      href: approvals/cancelapproval.md
+    - name: Recall previously approved entries 
+      href: approvals/recall-cancel.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
