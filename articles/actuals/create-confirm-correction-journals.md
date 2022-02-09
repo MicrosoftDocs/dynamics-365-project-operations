@@ -29,7 +29,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Occasionally a time or expense entry may be entered incorrectly. For example, a consultant might select the wrong date when creating a time entry or they might pick the wrong project when entering an expense. If a consultant can’t make the updates to the submitted entries, a backend admin can directly correct the actuals for a project.
+Occasionally, a time or expense entry might be entered incorrectly. For example, a consultant might select the wrong date when they create a time entry, or they might select the wrong project when they enter an expense. If a consultant can't update the submitted entries, a back-end admin can directly correct the actuals for a project.
 
 ## Correct approved time entries     
 
@@ -47,8 +47,8 @@ Complete the following steps to correct single or multiple time entries for a pr
 
 6. Select **Preview**. In the dialog box, select **OK**. On the **Journal lines** tab, you can view a list of the original actuals that are related to the selected time entries that have been reversed and the corrected corresponding lines that have been created. If additional corrections need to be made, repeat steps 5 and 6. 
 
-> [!NOTE]
-> All the corrected actuals will have the same values that you selected in the **New values for Time Entries** section.
+    > [!NOTE]
+    > All the corrected actuals will have the same values that you selected in the **New values for Time Entries** section.
 
 7. If the corrections appear as expected, select **Confirm**. In the dialog box, select **OK**.
 
@@ -56,8 +56,8 @@ Complete the following steps to correct single or multiple time entries for a pr
 
 9. On the **Projects** page, on the **Actuals** tab, view the changes that you made. 
 
-> [!NOTE]
-> If the **Actuals** tab is not visible, select **Related** > **Actuals**.  
+    > [!NOTE]
+    > If the **Actuals** tab is not visible, select **Related** > **Actuals**.  
 
 10. In the **Actual Associated View** list, you can see that the original time entries that have been reversed are still listed, as are the corresponding corrected time entries. 
 
@@ -78,32 +78,30 @@ Complete the following steps to correct one or more expense entries.
 
 6. If the corrected values are as expected, select **Confirm**. In the dialog box, select **OK.** If the values are not showing as expected, select **Cancel** to return to the **Approved Expenses** list. Repeat steps 2 through 5. 
 
-7. After you confirm the correction journal, navigate back to the project or projects that you updated, to view your changes.  
+7. After you confirm the correction journal, return to the project or projects that you updated to view your changes.
 
-8. In the project page, on the **Actuals** tab, review the **Actual Associated View**. The original entries and the corrected entries are listed. 
+8. On the project page, on the **Actuals** tab, review the **Actual Associated View** list. The original entries and the corrected entries are listed.
 
 
-## Correct approved materaial usage logs
+## Correct approved material usage logs
 
-Complete the following steps to correct one or more material usage log entries. 
+Complete the following steps to correct one or more material usage log entries.
 
 1. In the **Sales** area, in the left navigation pane, under **Transactions**, select **Actuals**.
 
-2. In the **Actuals** list, use column filters to select transaction class of Material to limit the actuals shown to Materials only. Use other column filters to further limit the number of actuals. Once the desired set of Actuals can be located, select the actuals and then select **Correct entries**. A new correction journal will be created automatically with the assigned type of **Material correction**. 
+2. In the **Actuals** list, use column filters to select the **Material** transaction class, so that only the actuals for materials are shown. Use other column filters to further limit the actuals that are shown. After you can find the desired set of actuals, select the actuals, and then select **Correct entries**. A new correction journal is automatically created, and the **Material correction** type is assigned.
 
-3. On the **New Journal** page, enter a **Description** for the correction, and on the **Material Correction** tab, in the **New Values for Materials** section, select the data fields that you want to correct for the selected material lines. For example, you can assign the material to another **Project**, or correct the **Porduct**, **Material Date**, or **Subcontract**.
+3. On the **New Journal** page, in the **Description** field, enter a description for the correction. Then, on the **Material Correction** tab, in the **New Values for Materials** section, select the data fields to correct for the selected material lines. For example, you can assign the material to another project, or correct the product, material date, or subcontract.
 
-4. Select **Preview**. In the dialog box, select **OK**. 
+4. Select **Preview**. Then, in the dialog box, select **OK**.
 
-5. Verify the corrections on the **Journal lines** tab. You can view a list of the original actuals that are related to the selected material entries that have been reversed and the corrected corresponding lines that have been created.
+5. On the **Journal lines** tab, verify the corrections. You can view a list of the original actuals that are related to the selected material entries that have been reversed and the corrected corresponding lines that have been created.
 
-6. If the corrected values are as expected, select **Confirm**. In the dialog box, select **OK.** If the values are not showing as expected, select **Cancel** to return to the **Actuals** list. Repeat steps 2 through 5. 
+6. If the corrected values are as expected, select **Confirm**. Then, in the dialog box, select **OK**. If the values aren't as expected, select **Cancel** to return to the **Actuals** list. Then repeat steps 2 through 5.
 
-7. After you confirm the correction journal, navigate back to the project or projects that you updated, to view your changes.  
+7. After you confirm the correction journal, return to the project or projects that you updated to view your changes.
 
-8. In the project page, on the **Actuals** tab, review the **Actual Associated View**. The original entries and the corrected entries are listed.  
-
-
+8. On the project page, on the **Actuals** tab, review the **Actual Associated View** list. The original entries and the corrected entries are listed.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
