@@ -60,7 +60,7 @@ To enable per diems, follow these steps.
 1. In the **Feature Management** workspace, find and select the **Expense Reports Reimagined** feature in the list, and then select **Enable now**.
 2. Find and select the **Per-diem for expense report re-imagined interface** feature in the list, and then select **Enable now**.
 
-## How the feature works in the reimagined expense interface
+## How the feature works
 
 This section provides examples for three configuration scenarios. For each example, the **Calculate meal reduction by** field is set to a different value. For all three examples, the total amount that is payable is the same until the meal reduction is applied. After that point, the total amount payable differs for each example.
 
