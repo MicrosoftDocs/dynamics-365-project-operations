@@ -104,6 +104,8 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
+      - name: Organizational units
+        href: sales/OrgUnits.md
     - name: Manage project leads
       href: sales/manage-leads.md
     - name: Manage project opportunities
@@ -430,8 +432,8 @@
       href: expense/travel-requisition.md
     - name: Cash advance
       href: expense/cash-advance.md
-    - name: Per diems
-      href: expense/per-diems.md
+    - name: Per diem expenses
+      href: expense/per-diem-expenses.md
     - name: Mobile Expense app
       href: expense/expense-using-mobile.md
     - name: Financial management
@@ -448,7 +450,7 @@
       href: approvals/approvals-overview.md
     - name: Approval sets 
       href: approvals/approval-sets.md
-    - name: Recalling previously approved entries 
+    - name: Recall previously approved entries 
       href: approvals/recall-cancel.md   
     - name: Developer notes
       items:
@@ -456,9 +458,11 @@
         href: approvals/dev-notes-approvals.md        
   - name: Actuals
     items: 
+    - name: Business Transactions in Project Operations
+      href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Link actuals to original records
+    - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Correction journals
       items:
@@ -548,6 +552,10 @@
     items:
     - name: Migrate fully invoiced billing milestones during cutover
       href: advanced-configuration/migrating-invoiced-milestones.md   
+  - name: Upgrade
+    items:
+    - name: Upgrade considerations for Modern approvals
+      href: upgrade/upgrade-considerations-modern-approvals.md
   - name: Troubleshooting
     items:
     - name: Project sales process
@@ -614,6 +622,8 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
+      - name: Organizational units
+        href: sales/OrgUnits.md
     - name: Manage project leads 
       href: pro/sales/managing-leads-sales.md
     - name: Manage project opportunities
@@ -966,7 +976,7 @@
       href: approvals/approvals-overview.md
     - name: Approval sets
       href: approvals/approval-sets.md
-    - name: Recalling previously approved entries 
+    - name: Recall previously approved entries 
       href: approvals/recall-cancel.md 
     - name: Developer notes
       items:
@@ -974,9 +984,11 @@
         href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
+    - name: Business Transactions in Project Operations
+      href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Link actuals to original records
+    - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Correction journals
       items:
@@ -1000,6 +1012,10 @@
       href: pro/proforma-invoicing/corrective-invoices-sales.md
     - name: Configure project invoice automation
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
+  - name: Upgrade
+    items:
+    - name: Upgrade considerations for Modern approvals
+      href: upgrade/upgrade-considerations-modern-approvals.md
 - name: Project Operations for stocked/production-based scenarios
   items: 
   - name: What's new
@@ -1166,6 +1182,8 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update release 40, V3
+      href: psa/whats-new-ur-40.md
     - name: What's new or changed in Update Release 39, V3
       href: psa/whats-new-ur-39.md
     - name: What's new or changed in Update Release 38, V3
@@ -1258,6 +1276,8 @@
       href: psa/implementation-guides/reporting-guide.md
   - name: Upgrade from Project Service Automation to Project Operations - lite
     href: psa/upgrade-project-operations-non-stocked.md
+  - name: Feature changes from Project Service Automation to Project Operations
+    href: psa/psa-project-operations-changes.md
   - name: Project Service Automation upgrade (app version 3.x)
     items: 
     - name: Project Service Automation upgrade 

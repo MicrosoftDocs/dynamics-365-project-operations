@@ -2,7 +2,7 @@
 title: Correct the accounting on draft project invoice proposals
 description: This topic explains how to adjust accounting-related information on a draft invoice proposal.
 author: sigitac
-ms.date: 06/07/2021
+ms.date: 01/05/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: sigitac
@@ -22,12 +22,21 @@ Default billing sales tax groups and item sales tax groups can be adjusted direc
 
 ## Adjust financial dimensions
 
+### Header dimensions
+
+By default, invoice financial dimensions are derived from the unbilled project transaction records that are being invoiced. However, system settings let you use financial dimensions on the header of project invoice proposals to post customer balances. To enable this functionality, select **Allow updates to project dimensions for accounts receivable** on the **Financials** tab of the **Project management and accounting parameters** page.
+
+Financial dimensions on invoice headers can be edited before an invoice is posted. On the **Project invoice proposal** page, switch to the **Header** view, and then edit values on the **Financial dimensions** tab.
+
+The **Header** view is available only after the system administrator enables the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature in the **Feature management** workspace. This feature requires Finance update 10.0.25 or later.
+
+### Line dimensions
+
 Financial dimensions can't be edited directly on a project invoice proposal line. Instead, follow these steps to adjust financial dimensions on a project invoice proposal.
 
 1. On the project invoice proposal, select **Delete all** to remove the project invoice proposal lines.
 
-    > [!NOTE]
-    > The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.
+    The **Delete all** button is available only after the system administrator enables the **Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios** feature in the **Feature management** workspace.
 
 2. Adjust the financial dimensions:
 
