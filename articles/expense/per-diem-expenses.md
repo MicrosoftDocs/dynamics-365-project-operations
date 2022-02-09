@@ -60,7 +60,7 @@ To configure per diem expenses, follow these steps.
 4. Add locations where per diems can be used.
 5. For each location that you add, on the **Per diems** tab, select the per diem rate and currency that are valid between specific start and end dates for lodging, meals, and other expenses. To configure per diem rates and currencies, go to **Expense management** \> **Setup** \> **Calculations and codes** \> **Per diems**.
 
-## How the feature works
+## How the feature works in the reimagined expense interface
 
 This section provides examples for three configuration scenarios. For each example, the **Calculate meal reduction by** field is set to a different value. For all three examples, the total amount that is payable is the same until the meal reduction is applied. After that point, the total amount payable differs for each example.
 
