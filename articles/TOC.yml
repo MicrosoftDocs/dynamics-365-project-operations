@@ -104,6 +104,8 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
+      - name: Organizational units
+        href: sales/OrgUnits.md
     - name: Manage project leads
       href: sales/manage-leads.md
     - name: Manage project opportunities
@@ -448,15 +450,19 @@
       href: approvals/approvals-overview.md
     - name: Approval sets 
       href: approvals/approval-sets.md
+    - name: Recall previously approved entries 
+      href: approvals/recall-cancel.md   
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
-        href: approvals/dev-notes-approvals.md
+        href: approvals/dev-notes-approvals.md        
   - name: Actuals
     items: 
+    - name: Business Transactions in Project Operations
+      href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Link actuals to original records
+    - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Correction journals
       items:
@@ -616,6 +622,8 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
+      - name: Organizational units
+        href: sales/OrgUnits.md
     - name: Manage project leads 
       href: pro/sales/managing-leads-sales.md
     - name: Manage project opportunities
@@ -968,15 +976,19 @@
       href: approvals/approvals-overview.md
     - name: Approval sets
       href: approvals/approval-sets.md
+    - name: Recall previously approved entries 
+      href: approvals/recall-cancel.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
         href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
+    - name: Business Transactions in Project Operations
+      href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Link actuals to original records
+    - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Correction journals
       items:

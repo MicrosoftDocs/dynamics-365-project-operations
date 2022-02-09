@@ -15,7 +15,7 @@ ms.prod:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: tonyafehr
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 
@@ -30,71 +30,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Actuals represent the reviewed and approved financial and schedule progress on a project. They are created as a result of approval of time, expense, material usage entries, and journal entries and invoices.
-
-## Journal lines and time submission
-
-For more information about time entry, see [Time entry overview](../time/time-entry-overview.md).
-
-### Time and materials
-
-When a time entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.
-
-### Fixed price
-
-When a time entry that is submitted is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.
-
-### Default pricing
-
-The logic for creating default prices resides on the journal line. The field values from the time entry are copied to the journal line. These values include the transaction date, the contract line that the project is mapped to, and the currency result in the appropriate price list.
-
-The fields that affect default pricing, such as **Role** and **Resourcing Unit**, are used to determine the appropriate price on the journal line. You can add a custom field on the time entry. If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables. Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins. For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## Journal lines and basic expense submission
-
-For more information about expense entry, see [Expense overview](../expense/expense-overview.md).
-
-### Time and materials
-
-When a basic expense entry that is submitted is linked to a project that is mapped to a time-and-materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.
-
-### Fixed price
-
-When a submitted basic expense entry is linked to a project that's mapped to a fixed-price contract line, the system creates one journal line for cost.
-
-### Default pricing
-
-The logic for entering default prices for expenses is based on the expense category. The transaction date, the contract line that the project is mapped to, and the currency, are all used to determine the appropriate price list. The fields that affect default pricing, such as **Transaction Category** and **Unit**, are used to determine the appropriate price on the journal line. However, this only works when the pricing method in the price list is **Price per unit**. If pricing method is **At cost** or **Markup over cost**, the price entered when the expense entry is created is used for cost and the price on the sales journal line is calculated based on the pricing method. 
-
-You can add a custom field on the expense entry. If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables. Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins. For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## Journal lines and material usage log submission
-
-For more information about expense entry, see [Material Usage Log](../material/material-usage-log.md).
-
-### Time and materials
-
-When a submitted material usage log entry is linked to a project that is mapped to a time and materials contract line, the system creates two journal lines, one for cost and one for unbilled sales.
-
-### Fixed price
-
-When a submitted material usage log entry is linked to a project that is mapped to a fixed-price contract line, the system creates one journal line for cost.
-
-### Default pricing
-
-The logic for entering default prices for material is based on the product and unit combination. The transaction date, the contract line that the project is mapped to, and the currency, are all used to determine the appropriate price list. The fields that affect default pricing, such as **Product ID** and **Unit**, are used to determine the appropriate price on the journal line. However, this only works for catalog products. For write-in products, the price entered when the material usage log entry is created is used for cost and sales price on the journal lines. 
-
-You can add a custom field on the **Material Usage Log** entry. If you want the field value to be propagated to actuals, create the field in the **Actuals** and **Journal Line** tables. Use custom code to propagate the selected field value from Time Entry to Actuals through the journal line using transaction origins. For more information about transaction origins and connections, see [Linking Actuals to original records](linkingactuals.md#example-how-transaction-origin-works-with-transaction-connection).
-
-## Use entry journals to record costs
-
-You can use entry journals to record the cost or revenue in the material, fee, time, expense, or tax transaction classes. Journals can be used for the following purposes:
-
-- Move transaction actuals from another system to Microsoft Dynamics 365 Project Operations.
-- Record costs that occurred in another system. These costs can include procurement or subcontracting costs.
-
-> [!IMPORTANT]
-> The application doesn't validate the journal line type or the related pricing that is entered on the journal line. Therefore, only a user who is fully aware of the accounting impact that actuals have on the project should use entry journals to create actuals. Because of the impact of this journal type, you should carefully choose who has access to create entry journals.
+Actuals represent the reviewed and approved financial and schedule progress on a project. They are created when time, expense, and material usage entries, journal entries, and invoices are approved. You should not edit actuals or delete them from the system. Otherwise, you might adversely affect the financial integrity and any integration with other financial and accounting systems. Instead, Microsoft Dynamics 365 Project Operations lets you correct actuals by creating reversing and replacing actuals at various points in the business process lifecycle of your projects. 
 
 ## Record actuals based on project events
 
