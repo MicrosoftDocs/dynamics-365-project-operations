@@ -36,15 +36,6 @@ Per diem rates can be based on the time of year, the travel location, or both. W
 
 The per diem is calculated as the total allowance that is offered per day minus the meal reduction (cost of complimentary meals) that is provided to the employee.
 
-## Per diems in the reimagined expense interface
-
-The per diem feature is supported in the reimagined **Expense Management** workspace in Microsoft Dynamics 365 Finance version 10.0.25 and later.
-
-To enable per diems, follow these steps.
-
-1. In the **Feature Management** workspace, find and select the **Expense Reports Reimagined** feature in the list, and then select **Enable now**.
-2. Find and select the **Per-diem for expense report re-imagined interface** feature in the list, and then select **Enable now**.
-
 ## Configure per diems
 
 To configure per diem expenses, follow these steps.
@@ -59,6 +50,15 @@ To configure per diem expenses, follow these steps.
 3. Go to **Expense management** \> **Setup** \> **Calculations and codes** \> **Per diem locations**.
 4. Add locations where per diems can be used.
 5. For each location that you add, on the **Per diems** tab, select the per diem rate and currency that are valid between specific start and end dates for lodging, meals, and other expenses. To configure per diem rates and currencies, go to **Expense management** \> **Setup** \> **Calculations and codes** \> **Per diems**.
+
+## Per diems in the reimagined expense interface
+
+The per diem feature is supported in the reimagined **Expense Management** workspace in Microsoft Dynamics 365 Finance version 10.0.25 and later.
+
+To enable per diems, follow these steps.
+
+1. In the **Feature Management** workspace, find and select the **Expense Reports Reimagined** feature in the list, and then select **Enable now**.
+2. Find and select the **Per-diem for expense report re-imagined interface** feature in the list, and then select **Enable now**.
 
 ## How the feature works in the reimagined expense interface
 
