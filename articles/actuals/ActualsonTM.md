@@ -1,4 +1,34 @@
-### Actuals on a Time and Materials Billing arrangement
+---
+# required metadata
+
+title: Actuals Impact in a Time and Materials Engagement
+description: This topic provides information the impact on the Actuals table at various events during the lifecylce of a Time and Materials engagement in Microsoft Dynamics 365 Project Operations.
+author: rumant
+ms.date: 04/01/2021
+ms.topic: overview
+ms.prod: 
+#
+# optional metadata
+
+# ms.search.form: 
+# ROBOTS: 
+audience: Application User
+# ms.devlang: 
+ms.reviewer: tonyafehr
+ms.search.scope: 
+# ms.tgt_pltfrm: 
+
+ms.assetid: 
+ms.search.region: 
+ms.search.industry: 
+ms.author: rumant
+ms.search.validFrom: 2020-10-01
+---
+
+#  Actuals Impact in a Time and Materials Engagement 
+
+_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 
 | **Event** | **Cost actual** | **Unbilled Sales actual** | **Billed Sales actual** | **Example** |
 | --- | --- | --- | --- | --- |
