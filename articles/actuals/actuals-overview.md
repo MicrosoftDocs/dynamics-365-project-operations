@@ -32,13 +32,13 @@ _**Applies to:** Project Operations for resource/non-stocked based scenarios, Li
 
 Actuals represent the reviewed and approved financial and schedule progress on a project. They are created as a result of approval of time, expense, material usage entries, and journal entries and invoices. 
 > Note
-> Actuals should not be edited or deleted from the system as this could tamper the financial integrity and any integration with other financial and accounting sytems. Project Operations provides for corrections of actuals by creating reversing and replacing actuals at various points in the business process lifecycle of your projects. 
+> Actuals should not be edited or deleted from the system as this could tamper the financial integrity and any integration with other financial and accounting sytems. Project Operations provides for the ability to edit actuals using reversing and replacing actuals at various points in the business process lifecycle of your projects. 
 
 
 ## Record actuals based on project events
 
-Project Operations records the financial transactions that occur during a project. These transactions are recorded as actuals. Actuals are created at various events and the behavior varies depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.
-The pages below explain the impact on actuals table at various events for each of these different types:
+Project Operations records the financial transactions that occur during a project engagement liefcycle as **Actuals**. The creation of Actuals at various events in the  lifecycle varies depending on whether the project engagement is using time-and-materials or fixed-price billing model, and whether it is in the presales stage, or an internal project.
+The pages below explain the impact on actuals table at various events for each of these different variations:
 
 - [Actuals on a Time and Materials Engagement](ActualsonTM.md) 
 - [Actuals on a Fixed Price Engagement](ActualonFP.md) 
