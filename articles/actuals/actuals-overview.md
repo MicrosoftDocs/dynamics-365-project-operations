@@ -43,7 +43,7 @@ The pages below explain the impact on actuals table at various events for each o
 - [Actuals on a Time and Materials Engagement](ActualsonTM.md) 
 - [Actuals on a Fixed Price Engagement](ActualonFP.md) 
 - [Actuals during the Pre-sales Engagement](ActualonPreSales.md) 
-- [Actuals for an Internal Project](ActualonFP.md) 
+- [Actuals for an Internal Project](ActualonInternal.md) 
 
 
 
