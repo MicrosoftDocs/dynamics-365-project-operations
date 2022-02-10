@@ -40,10 +40,10 @@ Actuals represent the reviewed and approved financial and schedule progress on a
 Project Operations records the financial transactions that occur during a project. These transactions are recorded as actuals. Actuals are created at various events and the behavior varies depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.
 The pages below explain the impact on actuals table at various events for each of these different types:
 
-- [Actuals on a Time and Materials Engagement](actuals-overview.md) 
-- [Actuals on a Fixed Price Engagement](actuals-overview.md) 
-- [Actuals during the Pre-sales Engagement](actuals-overview.md) 
-- [Actuals for an Internal Project](actuals-overview.md) 
+- [Actuals on a Time and Materials Engagement](ActualonTM.md) 
+- [Actuals on a Fixed Price Engagement](ActualonFP.md) 
+- [Actuals during the Pre-sales Engagement](ActualonFP.md) 
+- [Actuals for an Internal Project](ActualonFP.md) 
 
 
 
