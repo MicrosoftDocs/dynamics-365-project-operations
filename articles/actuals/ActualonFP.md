@@ -42,3 +42,6 @@ _**Applies to:** Project Operations for resource/non-stocked based scenarios, Li
 | Invoice is created | |   |   |   |
 | Invoice is confirmed with a miletone |   |   | New milestone-based billed sales actuals are created | **Unchanged actuals:**<br>  Cost Actual: Bob Kozack, 8hrs, 800 USD <br> **New Actuals created for recording Billed Sales values:** <br>  Billed Sales Actual: Milestone, 5000 USD |
 | Invoice is corrected to credit the milestone |   |   | Reversal billed sales actuals are created | **Unchanged actuals:** <br> Cost Actual: Bob Kozack, 8hrs, 800 USD<br>  **Existing Actuals Updated:** Billed Sales Actual: Milestone, 5000 USD, _Adjusted_ <br> **New Actuals created for reversing previous Billed Sales:** <br> Billed Sales Actual: Milestone, (5000 USD),_Unadjustable_ |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
