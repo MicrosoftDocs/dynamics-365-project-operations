@@ -454,12 +454,12 @@
         href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
-    - name: Business Transactions in Project Operations
+    - name: Concept of Business Transactions 
       href: actuals/businesstransactions.md
-    - name: Actuals overview
-      href: actuals/actuals-overview.md
     - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
+    - name: Actuals in Project Operations
+      href: actuals/actuals-overview.md    
     - name: Correction journals
       items:
       - name: Create and confirm Correction journals
@@ -972,12 +972,12 @@
         href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
-    - name: Business Transactions in Project Operations
+    - name: Concept of Business Transactions 
       href: actuals/businesstransactions.md
-    - name: Actuals overview
-      href: actuals/actuals-overview.md
     - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
+    - name: Actuals in Project Operations
+      href: actuals/actuals-overview.md   
     - name: Correction journals
       items:
       - name: Create and confirm Correction journals
