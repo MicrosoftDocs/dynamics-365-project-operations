@@ -30,276 +30,38 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Actuals represent the reviewed and approved financial and schedule progress on a project. They are created as a result of approval of time, expense, material usage entries, and journal entries and invoices. Actuals should not be edited or deleted from the system as this could tamper the financial integrity and any integration with other financial and accounting sytems. Project Operations provides for corrections of actuals by creating reversing and replacing actuals at various points in the business process lifecycle of your projects. 
+Actuals represent the reviewed and approved financial and schedule progress on a project. They are created as a result of approval of time, expense, material usage entries, and journal entries and invoices. 
+> Note
+> Actuals should not be edited or deleted from the system as this could tamper the financial integrity and any integration with other financial and accounting sytems. Project Operations provides for corrections of actuals by creating reversing and replacing actuals at various points in the business process lifecycle of your projects. 
 
 
 ## Record actuals based on project events
 
 Project Operations records the financial transactions that occur during a project. These transactions are recorded as actuals. The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.
 
-### The resource belongs to same organizational unit as the project's contracting unit
+### Actuals on a Time and Materials Billing arrangement
 
-<table>
-<thead>
-<tr>
-<th rowspan="3">Event</th>
-<th colspan="4">Billable or sold project</th>
-<th rowspan="3">Project in the presales stage</th>
-<th rowspan="3">Internal project</th>
-</tr>
-<tr>
-<th colspan="2">Time and materials</th>
-<th colspan="2">Fixed price</th>
-</tr>
-<tr>
-<th>Actuals</th>
-<th>Transaction currency</th>
-<th>Fixed price</th>
-<th>Transaction currency</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A time entry is created.</td>
-<td colspan="6">No activity in the Actuals entity</td>
-</tr>
-<tr>
-<td>A time entry is submitted.</td>
-<td colspan="6">No activity in the Actuals entity</td>
-</tr>
-<tr>
-<td rowspan="2">Time is approved, and no change to or increase in billable hours occurs during approval.</td>
-<td>Cost actual</td>
-<td>Contracting unit currency</td>
-<td rowspan="2">Cost actual</td>
-<td rowspan="2">Contracting unit currency
-<td rowspan="2">Cost actual</td>
-<td rowspan="2">Cost actual</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Chargeable</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">Time is approved, and a decrease in billable hours occurs during approval.</td>
-<td>Cost actual</td>
-<td>Contracting unit currency</td>
-<td rowspan="3">Cost actual</td>
-<td rowspan="3">Contracting unit currency</td>
-<td rowspan="3">Cost actual</td>
-<td rowspan="3">Cost actual</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Chargeable for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Non-chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="2">An invoice is confirmed, and no change to or increase in billable hours occurs.</td>
-<td>Unbilled sales reversal</td>
-<td>Project contract currency</td>
-<td rowspan="2">Billed sales for milestone</td>
-<td rowspan="2">Project contract currency</td>
-<td rowspan="2">Not applicable</td>
-<td rowspan="2">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">An invoice is confirmed, and a decrease in billable hours occurs.</td>
-<td>Unbilled sales reversal</td>
-<td>Project contract currency</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales – Chargeable for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Billed sales – Non-chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="2">An invoice is corrected to increase the chargeable quantity.</td>
-<td>Billed sales – Reversal</td>
-<td>Project contract currency</td>
-<td rowspan="5">
-<ul>
-<li>Billed sales reversal for milestone</li>
-<li>Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></li>
-</ul>
-</td>
-<td rowspan="5">Project contract currency</td>
-<td rowspan="5">Not applicable</td>
-<td rowspan="5">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">An invoice is corrected to decrease the chargeable quantity.</td>
-<td>Billed sales – Reversal</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Billed sales for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Unbilled sales – Chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-</tbody>
-</table>
+| **Event** | **Cost actual** | **Unbilled Sales actual** | **Billed Sales actual** | **Example** |
+| --- | --- | --- | --- | --- |
+|Time is created |   |   |   | Bob Kozack, from Fabrikam US Org Unit with a cost rate of 100 US per hour is working on a project "Arm Installation at Adatum". On this project, his contracted bill rate is 200 USD per hour. Here's a sample time entry from Bob Kozak: <br>Bob Kozack - 8 hours |
+|Time is submitted |   |   |   | Cost journal line and Unbilled Sales journals are created for this time entry. Price and Cost rate is defaulted on the journal entry || Time entry is recalled before it is approved |   |   |   |   |
+|Time is approved: Submitted hours = Billable hours | Created | Created | | **New Actuals Created:** <br>Cost Actual: Bob Kozack, 8hrs, 800 USD <br>Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD |
+|Time is approved: Billable hours are reduced below submitted hours | Created | 2 unbilled sales actuals are created <br> Chargeable unbilled sales actual for the billable hours. <br> Non-chargeable unbilled sales actual for the remaining quantity | | **New Actuals Created:** <br> Cost Actual: Bob Kozack, 8hrs, 800 USD <br> Unbilled Sales Actual: Bob Kozack, 6hrs, 1200 USD, _Chargeable_ <br> Unbilled Sales Actual: Bob Kozack, 2hrs, 400 USD, _Non-Chargeable_ |
+|Time is approved: Billable hours are increased over submitted hours | Created | Created |   | **New Actuals Created:**<br> Cost Actual: Bob Kozack, 8hrs, 800 USD <br> Unbilled Sales Actual: Bob Kozack, 10hrs, 2000 USD |
+|Time approval is cancelled | Adjustment status on the original is updated to Adjusted<br> Reversal is Created with Adjustment status as Unadjustable | Adjustment status on the original is updated to Adjusted <br>Reversal is Created with Adjustment status as Unadjustable | | **Existing actuals updated:**<br> Cost Actual: Bob Kozack, 8hrs, 800 USD, _Adjusted_ <br> Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD, _Adjusted_<br> **New Actuals Created for reversing previous financial impact:**<br> Cost Actual: Bob Kozack, (8hrs), (800 USD), _Unadjustable_ <br> Unbilled Sales Actual: Bob Kozack, (8hrs), (1600 USD), _Unadjustable_ |
+|Time entry is recalled after it is approved | Adjustment status on the original is updated to Adjusted. <br> Reversal is Created with Adjustment status as Unadjustable | Adjustment status on the original is updated to Adjusted. <br>Reversal is Created with Adjustment status as Unadjustable | | **Existing actuals updated:**<br>Cost Actual: Bob Kozack, 8hrs, 800 USD, _Adjusted_ <br> Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD, _Adjusted_<br>**New Actuals Created for reversing previous financial impact:**<br>Cost Actual: Bob Kozack, (8hrs), (800 USD), _Unadjustable_ <br> Unbilled Sales Actual: Bob Kozack, (8hrs), (1600 USD), _Unadjustable_ |
+|Contract is confirmed | Old cost actuals are updated to Adjustment status Adjusted.<br> Reversal cost actuals are created with Adjustment status as Unadjustable<br> New cost actuals created after re-evaluating contractual rules | Old unbilled sales actuals are updated to Adjustment status Adjusted.<br> Reversal unbilled sales actuals are created with Adjustment status as Unadjustable <br> New unbilled sales actuals created after re-evaluating contractual rules | | **Existing actuals updated:**<br>Cost Actual: Bob Kozack, 8hrs, 800 USD, _Adjusted_<br> Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD, _Adjusted_<br>**New Actuals Created for reversing previous financial impact:**<br> Cost Actual: Bob Kozack, (8hrs), (800 USD), _Unadjustable_<br> Unbilled Sales Actual: Bob Kozack, (8hrs), (1600 USD), _Unadjustable_<br> **New Actuals Created for re-evaluated financial impact**<br> Cost Actual: Bob Kozack, 8hrs, 800 USD<br> Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD |
+|Invoice is created | | |||
+|Invoice is confirmed with no change to the quanity on the invoice line detail from the quantity on the unbilled sales actual |   | Invoice status on old unbilled sales is updated.<br> Reversal unbilled sales actuals are created with Adjustment status as Unadjustable | Created | **Unchanged actuals:**<br>Cost Actual: Bob Kozack, 8hrs, 800 USD<br> **Existing Actuals Updated:**<br> Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD, _Customer Invoice Posted_<br>**New Actuals created for reversing financial WIP:**<br> Unbilled Sales Actual: Bob Kozack, (8hrs), (1600 USD)<br>**New Actuals created for recording Billed Sales values:**<br> Billed Sales Actual: Bob Kozack, 8hrs, 1600 USD |
+| Invoice is confirmed after decreasing the quanity on the invoice line detail from the quantity on the unbilled sales actual | | Original unbilled sales actuals are updated to Adjustment status Adjusted<br> Reversal unbilled sales are created for the original unbilled sales actuals with Adjustment status "Unadjustable"<br> 2 new unbilled sales actuals are created: a. Chargeable unbilled sales actual for the billable hours b. Non-chargeable unbilled sales actual for the remaining quantity Reversal unbilled sales are created for these 2 new unbilled sales actuals | 2 Billed sales actuals are created a. Chargeable billed sales actual for the billable hours b. Non-chargeable billed sales actual for the remaining quantity | **Unchanged actuals:**<br>Cost Actual: Bob Kozack, 8hrs, 800 USD<br> **Existing Actuals Updated:**<br> Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD, _Adjusted_<br>**New Actuals created for reversing previous financial WIP:**<br>Unbilled Sales Actual: Bob Kozack, (8hrs), (1600 USD), _Unadjustable_<br>**New Actuals created for recording updated Sales WIP:**<br> Unbilled Sales Actual: Bob Kozack, 6hrs, 1200 USD, _Chargeable_<br> Unbilled Sales Actual: Bob Kozack, 2hrs, 400 USD, _Non-Chargeable_<br>**New Actuals created for reversing the updated Sales WIP:** <br> Unbilled Sales Actual: Bob Kozack, (6hrs), (1200 USD), Chargeable<br> Unbilled Sales Actual: Bob Kozack, (2hrs), (400 USD), Non-Chargeable<br>**New Actuals created for recording Billed Sales values:**<br> Billed Sales Actual: Bob Kozack, 6hrs, 1200 USD, Chargeable<br> Billed Sales Actual: Bob Kozack, 2hrs, 400 USD, Non-Chargeable |
+|Invoice is confirmed after increasing the quanity on the invoice line detail from the quantity on the unbilled sales actual | | Original unbilled sales actuals are updated to Adjustment status Adjusted<br> Reversal unbilled sales are created for the original unbilled sales actuals with Adjustment status "Unadjustable"<br> New unbilled sales actuals are created for new quantity<br> Reversal unbilled sales are created for the new unbilled sales actuals | Created for the new quantity | **Unchanged actuals:**<br> Cost Actual: Bob Kozack, 8hrs, 800 USD<br> **Existing Actuals Updated:**<br> Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD, _Adjusted_<br> New Actuals created for reversing previous financial WIP:<br>Unbilled Sales Actual: Bob Kozack, (8hrs), (1600 USD),_Unadjustable_<br>**New Actuals created for recording updated Sales WIP:**<br> Unbilled Sales Actual: Bob Kozack, 10hrs, 2000 USD, Chargeable<br>**New Actuals created for reversing the updated Sales WIP:**<br>Unbilled Sales Actual: Bob Kozack, (10hrs), (2000 USD), Chargeable, _Unadjustable_<br>**New Actuals created for recording Billed Sales values:**<br> Billed Sales Actual: Bob Kozack, 10hrs, 2000 USD, Chargeable |
+|Invoice is corrected to decrease the chargeable quantity or price | | 2 new unbilled sales actuals are created<br> a. Chargeable unbilled sales actual for the qty on the corrective invoice<br> b. Chargeable unbilled sales actual for the remaining quantity<br> Reversal unbilled sales are created for these 2 new unbilled sales actuals |Reversal billed sales actuals are created<br> New Billed Sales actuals are created for the new quantity | **Unchanged actuals:**<br>Cost Actual: Bob Kozack, 8hrs, 800 USD<br> Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD, Customer Invoice Posted<br> Unbilled Sales Actual: Bob Kozack, (8hrs), (1600 USD)<br>**Existing Actuals Updated:**<br> Billed Sales Actual: Bob Kozack, (8hrs), (1600 USD) _Adjusted_<br>**New Actuals created for reversing previous Billed Sales :**<br>Billed Sales Actual: Bob Kozack, (8hrs), (1600 USD) _Unadjustable_<br> **New Actuals created for recording corrected Sales WIP:**<br> Unbilled Sales Actual: Bob Kozack, 6hrs, 1200 USD, _Chargeable, Customer invoice posted_ <br>Unbilled Sales Actual: Bob Kozack, 2hrs, 400 USD, Chargeable<br> **New Actuals created for reversing corrected Sales WIP:**<br> Unbilled Sales Actual: Bob Kozack, (6hrs), (1200 USD), Chargeable, _Unadjustable_<br>**New Actuals created for recording corrected Billed Sales values:**<br>Billed Sales Actual: Bob Kozack, 6hrs, 1200 USD, Chargeable |
+|Invoice is corrected to increase the chargeable quantity or price || New unbilled sales actuals are created for new quantity<br> Reversal unbilled sales are created for the new unbilled sales actuals | Reversal billed sales actuals are created<br> New Billed Sales actuals are created for the new quantity | **Unchanged actuals:**<br>Cost Actual: Bob Kozack, 8hrs, 800 USD<br> Unbilled Sales Actual: Bob Kozack, 8hrs, 1600 USD, Customer Invoice Posted<br> Unbilled Sales Actual: Bob Kozack, (8hrs), (1600 USD)<br>**Existing Actuals Updated:**<br> Billed Sales Actual: Bob Kozack, (8hrs), (1600 USD) _Adjusted_<br>**New Actuals created for reversing previous Billed Sales :**<br>Billed Sales Actual: Bob Kozack, (8hrs), (1600 USD) _Unadjustable_<br>**New Actuals created for recording corrected Sales WIP:** <br>Unbilled Sales Actual: Bob Kozack, 10hrs, 2000 USD, _Chargeable_, _Customer invoice posted_<br>**New Actuals created for reversing corrected Sales WIP:**<br> Unbilled Sales Actual: Bob Kozack, (10hrs), (2000 USD), Chargeable<br>**New Actuals created for recording corrected Billed Sales values:**<br>Billed Sales Actual: Bob Kozack, 10hrs, 2000 USD, Chargeable |
 
-### The resource belongs to an organizational unit that differs from the project's contracting unit
+### Actuals on a Fixed price Billing arrangement
 
-<table>
-<thead>
-<tr>
-<th rowspan="3">Event</th>
-<th colspan="4">Billable or sold project</th>
-<th rowspan="3">Project in the presales stage</th>
-<th rowspan="3">Internal project</th>
-</tr>
-<tr>
-<th colspan="2">Time and materials</th>
-<th colspan="2">Fixed price</th>
-</tr>
-<tr>
-<th>Actuals</th>
-<th>Transaction currency</th>
-<th>Fixed price</th>
-<th>Transaction currency</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A time entry is created.</td>
-<td colspan="6">No activity in the Actuals entity</td>
-</tr>
-<tr>
-<td>A time entry is submitted.</td>
-<td colspan="6">No activity in the Actuals entity</td>
-</tr>
-<tr>
-<td rowspan="4">Time is approved, and no change to or increase in billable hours occurs during approval.</td>
-<td>Cost actual</td>
-<td>Contracting unit currency</td>
-<td rowspan="4">Cost actual</td>
-<td rowspan="4">Contracting unit currency</td>
-<td rowspan="4">Cost actual</td>
-<td rowspan="4">Cost actual</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Chargeable</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Resourcing unit cost</td>
-<td>Resourcing unit currency</td>
-</tr>
-<tr>
-<td>Interorganizational sales</td>
-<td>Contracting unit currency</td>
-</tr>
-<tr>
-<td rowspan="5">Time is approved, and a decrease in billable hours occurs during approval.</td>
-<td>Cost actual</td>
-<td>Contracting unit currency</td>
-<td rowspan="5">Cost actual</td>
-<td rowspan="5">Contracting unit currency</td>
-<td rowspan="5">Cost actual</td>
-<td rowspan="5">Cost actual</td>
-</tr>
-<tr>
-<td>Resourcing unit cost</td>
-<td>Resourcing unit currency</td>
-</tr>
-<tr>
-<td>Interorganizational sales</td>
-<td>Contracting unit currency</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Chargeable for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Non-chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="2">An invoice is confirmed, and no change to or increase in billable hours occurs.</td>
-<td>Unbilled sales reversal</td>
-<td>Project contract currency</td>
-<td rowspan="2">Billed sales for milestone</td>
-<td rowspan="2">Project contract currency</td>
-<td rowspan="2">Not applicable</td>
-<td rowspan="2">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">An invoice is confirmed, and a decrease in billable hours occurs.</td>
-<td>Unbilled sales reversal</td>
-<td>Project contract currency</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales – Chargeable for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Billed sales – Non-chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="2">An invoice is corrected to increase the chargeable quantity.</td>
-<td>Billed sales – Reversal</td>
-<td>Project contract currency</td>
-<td rowspan="5">
-<ul>
-<li>Billed sales reversal for milestone</li>
-<li>Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></li>
-</ul>
-</td>
-<td rowspan="5">Project contract currency</td>
-<td rowspan="5">Not applicable</td>
-<td rowspan="5">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">An invoice is corrected to decrease the chargeable quantity.</td>
-<td>Billed sales – Reversal</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Billed sales for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Unbilled sales – Chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-</tbody>
-</table>
+### Actuals on a Pre-Sales stage Project
 
+### Actuals on an Internal Project (no customer billings)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
