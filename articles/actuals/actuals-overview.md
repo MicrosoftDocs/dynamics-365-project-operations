@@ -37,14 +37,16 @@ Actuals represent the reviewed and approved financial and schedule progress on a
 
 ## Record actuals based on project events
 
-Project Operations records the financial transactions that occur during a project. These transactions are recorded as actuals. The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.
+Project Operations records the financial transactions that occur during a project. These transactions are recorded as actuals. Actuals are created at various events and the behavior varies depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.
+The pages below explain the impact on actuals table at various events for each of these different types:
+Actuals on a Time and Materials Engagement
+Actuals on a Fixed Price Engagement
+Actuals during the Pre-sales Engagement
+Actuals for an Internal Project
 
 
 
-### Actuals on a Fixed price Billing arrangement
 
-### Actuals on a Pre-Sales stage Project
 
-### Actuals on an Internal Project (no customer billings)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
