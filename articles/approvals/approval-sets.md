@@ -4,7 +4,6 @@ description: This topic explains how to work with approval sets, requests, and t
 author: stsporen
 ms.date: 02/01/2022
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend 
 ms.author: stsporen
 ---
