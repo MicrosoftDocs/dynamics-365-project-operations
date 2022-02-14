@@ -29,6 +29,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
+The below table gives a list of actuals of different transaciton types that are created at various events on a Fixed Price Engagement. 
 
 | **Event** | **Cost actual** | **Unbilled Sales actual** | **Billed Sales actual** | **Example** |
 | --- | --- | --- | --- | --- |
