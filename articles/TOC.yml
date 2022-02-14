@@ -918,8 +918,6 @@
     items: 
     - name: Subcontract management in Project Operations
       href: pro/subcontracting/managing-subcontracts-overview.md
-    - name: Subcontracting in October 2021 Early Access
-      href: pro/subcontracting/Subcontracting_EA_scope.md
     - name: Key concepts in subcontracting
       href: pro/subcontracting/key-concepts-subcontracting.md
     - name: Managing vendors and project price lists 
