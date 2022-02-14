@@ -466,8 +466,10 @@
       href: actuals/actuals-overview.md
     - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
-    - name: Correction journals
+    - name: Journals
       items:
+      - name: Create and confirm Entry journals
+        href: actuals/create-confirm-entry-journals.md
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
   - name: Procurement
@@ -994,8 +996,10 @@
       href: actuals/actuals-overview.md
     - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
-    - name: Correction journals
+    - name: Journals
       items:
+      - name: Create and confirm Entry journals
+        href: actuals/create-confirm-entry-journals.md
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
