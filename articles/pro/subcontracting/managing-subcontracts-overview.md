@@ -41,7 +41,7 @@ A subcontract line can be quantity-based or work-based.
 
 When a subcontract line is **quantity-based**, the quantity being purchased on the subcontract line for time, expense, or material can be used on any project.
 
-When a subcontract line is **work-based**, the subcontract line maps to a body of work represented by a node in the project plan. The value of the subcontract line is the sum of all the components that are required to deliver that body of work. These are modeled as subcontract line details and can be a collection of time, expense, or materials. For a work-based subcontract line, the subcontract line is also dedicated to a single project.
+When a subcontract line is **work-based**, the subcontract line maps to a body of work represented by a node in the project plan. The value of the subcontract line is the sum of all the components that are required to deliver that body of work. These are modeled as subcontract line details and can be a collection of time, expense, or materials. For a work-based subcontract line, the subcontract line is also dedicated to a single project. These types of subcontracts are currenlty not supported by Project Operations.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
