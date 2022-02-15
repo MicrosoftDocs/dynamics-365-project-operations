@@ -4,7 +4,7 @@
 title: Project effort tracking 
 description: This topic provides information about how to track project effort and progress of work.
 author: ruhercul
-ms.date: 03/22/2021
+ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: kfend
 ms.author: ruhercul
@@ -43,7 +43,8 @@ Effort on summary tasks or container tasks can be reprojected. Project managers 
 - The new EAC on each of the individual tasks down to the leaf node tasks is calculated. 
 - The affected child tasks down to the leaf nodes have their remaining effort and progress percentage recalculated based on the EAC value. This results in a new projection for the effort variance of the task. 
 - The EACs of the summary tasks all the way to the root node are recalculated.
-
+- The approved effort on a summary task is the sum of the approved effort on all child tasks plus the approved effort on the summary task.
+- The remaining effort on the summary task is the sum of the remaining effort on all child tasks minus the approved effort on the summary task.
 
 ## Project status summary
 
