@@ -458,13 +458,13 @@
         href: approvals/dev-notes-approvals.md        
   - name: Actuals
     items: 
-    - name: Business Transactions in Project Operations
+    - name: Business transactions in Project Operations
       href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Transaction Origins - Link actuals to source
+    - name: Transaction origins - Link actuals to source
       href: actuals/linkingactuals.md
-    - name: Transaction Connections - Linking actuals of different transaction types
+    - name: Transaction connections - Link actuals of different transaction types
       href: actuals/connectingactuals.md
     - name: Journals
       items:
@@ -986,13 +986,13 @@
         href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
-    - name: Business Transactions in Project Operations
+    - name: Business transactions in Project Operations
       href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-    - name: Transaction Origins - Link actuals to source
+    - name: Transaction origins - Link actuals to source
       href: actuals/linkingactuals.md
-    - name: Transaction Connections - Linking actuals of different transaction types
+    - name: Transaction connections - Link actuals of different transaction types
       href: actuals/connectingactuals.md
     - name: Journals
       items:
