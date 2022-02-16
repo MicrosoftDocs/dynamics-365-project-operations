@@ -41,7 +41,7 @@ The following table shows the records in the **Transaction connection** entity f
 | New Unbilled Sales Actual GUID | Replacing                     | msdyn_actual | Billed Sales GUID           | Original             | msdyn_actual     |                    |
 
 
-The following illustration shows the links that are created between differnt types of actuals at various events using the example of time entries in Project Operations.
+The following illustration shows the links that are created between different types of actuals at various events using the example of time entries in Project Operations.
 
 > ![How actuals of different types are linked to each other in Project Operations.](media/TransactionConnections.png)
 
