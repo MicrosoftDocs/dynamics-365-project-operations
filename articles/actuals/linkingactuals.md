@@ -17,7 +17,7 @@ Transaction origin records are created to link actuals to their source, such tim
 
 The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
-> ![Processing time entires in a Project Service lifecycle.](media/basic-guide-17.png)
+> ![Processing time entires in Project Operations.](media/basic-guide-17.png)
  
 1. Submission of a time entry causes two journal lines to be created: one for cost and one for unbilled sales.
 2. Eventual approval of the time entry causes two actuals to be created: one for cost and one for unbilled sales.
@@ -63,5 +63,10 @@ The following table shows the records in the Transaction origin entity for the p
 | Correction ILD GUID          | Invoice Line Transaction | New Unbilled Sales Actual GUID    | Actual                            |                          |
 | Correction IL GUID           | Invoice Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
 | Correction Invoice GUID      | Invoice                  | New Unbilled Sales Actual GUID    | Actual                            |                          |
+
+
+The following is picture that shows the links created between actuals and thier sources at various events taking the example of time entries in Project Operations 
+
+> ![How Actuals are linked to Source records in Project Operations](media/basic-guide-17.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
