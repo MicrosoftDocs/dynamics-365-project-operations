@@ -292,8 +292,6 @@
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
         href: project-management/project-sales-tracking.md
-      - name: Update estimate at completion
-        href: project-management/update-completed-estimate.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -466,6 +464,8 @@
       href: actuals/actuals-overview.md
     - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
+    - name: Transaction Connections - Linking actuals of different transaction types
+      href: actuals/connectingactuals.md
     - name: Journals
       items:
       - name: Create and confirm Entry journals
@@ -834,8 +834,6 @@
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
         href: project-management/project-sales-tracking.md
-      - name: Update estimate at completion
-        href: project-management/update-completed-estimate.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -994,6 +992,8 @@
       href: actuals/actuals-overview.md
     - name: Transaction Origins - Link actuals to source
       href: actuals/linkingactuals.md
+    - name: Transaction Connections - Linking actuals of different transaction types
+      href: actuals/connectingactuals.md
     - name: Journals
       items:
       - name: Create and confirm Entry journals
