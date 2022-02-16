@@ -1,5 +1,5 @@
 ---
-title: Transaction connections - Linking actuals of different transaction types
+title: Transaction connections - Link actuals of different transaction types
 description: This topic explains how a transaction connection is used to link actuals of different types to help track profitability, billing backlog, and billed versus unbilled revenue calculations.
 author: rumant
 ms.date: 03/25/2021
@@ -8,17 +8,17 @@ ms.reviewer: tonyafehr
 ms.author: rumant
 ---
 
-# Transaction connections - Linking actuals of different transaction types
+# Transaction connections - Link actuals of different transaction types
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-A transaction connection records is created to link actuals of different types as a time, expense, or material usage moves in its lifecycle from the quote or pre-sales stage to contract stage, approvals and/or recalls, invoicing, and potentially credit or corrective invoicing.
+Transaction connection records are created to link actuals of different types as time, expense, or material usage moves in its lifecycle from the quote or pre-sales stage to the contract stage, approvals and/or recalls, invoicing, and potentially credit or corrective invoicing.
 
 The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
-> ![Processing time entires in Project Operations.](media/basic-guide-17.png)
+> ![Processing time entries in Project Operations.](media/basic-guide-17.png)
 
-The processing of time entries example shows the following steps: 
+The processing of time entries in a Project Operations project lifecycle follows these steps: 
 
 1. Submission of a time entry causes two journal lines to be created: one for cost and one for unbilled sales. 
 2. Eventual approval of the time entry causes two actuals to be created: one for cost and one for unbilled sales. These 2 actuals are linked using transaction connections.
