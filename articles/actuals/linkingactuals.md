@@ -65,7 +65,7 @@ The following table shows the records in the Transaction origin entity for the p
 | Correction Invoice GUID      | Invoice                  | New Unbilled Sales Actual GUID    | Actual                            |                          |
 
 
-The following illustration shows the links created between actuals and their sources at various events using the example of time entries in Project Operations.
+The following illustration shows the links that are created between actuals and their sources at various events using the example of time entries in Project Operations.
 
 > ![How actuals are linked to source records in Project Operations.](media/TransactionOrigins.png)
 
