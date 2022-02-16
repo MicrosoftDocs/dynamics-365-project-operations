@@ -67,6 +67,6 @@ The following table shows the records in the Transaction origin entity for the p
 
 The following is picture that shows the links created between actuals and thier sources at various events taking the example of time entries in Project Operations 
 
-> ![How Actuals are linked to Source records in Project Operations](media/basic-guide-17.png)
+> ![How Actuals are linked to Source records in Project Operations](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
