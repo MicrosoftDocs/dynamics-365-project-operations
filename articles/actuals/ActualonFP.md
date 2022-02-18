@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Actuals Impact in a Fixed Price Engagement
-description: This topic provides information the impact on the Actuals table at various events during the lifecylce of a Fixed Price engagement in Microsoft Dynamics 365 Project Operations.
+title: Actuals impact in a fixed price engagement
+description: This topic provides information about the impact on the Actuals table at various events during the lifecycle of a fixed price engagement in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: overview
@@ -25,24 +25,23 @@ ms.author: rumant
 ms.search.validFrom: 2020-10-01
 ---
 
-#  Actuals Impact in a Fixed Price Engagement 
+# Actuals impact in a fixed price engagement
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The below table gives a list of actuals of different transaciton types that are created at various events on a Fixed Price Engagement. 
+The following table lists the actuals of different transaction types that are created at various events in a fixed price engagement.
 
-| **Event** | **Cost actual** | **Unbilled Sales actual** | **Billed Sales actual** | **Example** |
-| --- | --- | --- | --- | --- |
-| Time is created |   |   |   | Bob Kozack, from Fabrikam US Org Unit with a cost rate of 100 US per hour is working on a project "Arm Installation at Adatum".This project maps to a Fixed price billing method on the contract line. Here's a sample time entry from Bob Kozak: Bob Kozack - 8 hours |
-| Time is submitted |   |   |   | Cost journal line is created for this time entry. Cost rate is defaulted on the journal entry |
-| Time entry is recalled before it is approved |   |   |   |   |
-| Time is approved| Created |   |   | **New Actuals Created:** <br> Cost Actual: Bob Kozack, 8hrs, 800 USD |
-| Time approval is cancelled | Adjustment status on the original is updated to Adjusted <br> Reversal is Created with Adjustment status as Unadjustable |   |   | **Existing actuals updated:** <br> Cost Actual: Bob Kozack, 8hrs, 800 USD, _Adjusted_ <br>  **New Actuals Created for reversing previous financial impact:** <br>  Cost Actual: Bob Kozack, (8hrs), (800 USD), _Unadjustable_ |
-| Time entry is recalled after it is approved | Adjustment status on the original is updated to Adjusted <br>  Reversal is Created with Adjustment status as Unadjustable |   |   | **Existing actuals updated:** Cost Actual: Bob Kozack, 8hrs, 800 USD, _Adjusted_ <br> **New Actuals Created for reversing previous financial impact:**  <br> Cost Actual: Bob Kozack, (8hrs), (800 USD), _Unadjustable_|
-| Contract is confirmed | Old cost actuals are updated to Adjustment status Adjusted <br> Reversal cost actuals are created with Adjustment status as Unadjustable <br>  New cost actuals created after re-evaluating contractual rules |   |   | **Existing actuals updated:** <br> Cost Actual: Bob Kozack, 8hrs, 800 USD, _Adjusted_ **New Actuals Created for reversing previous financial impact:**<br>   Cost Actual: Bob Kozack, (8hrs), (800 USD), _Unadjustable_<br>  **New Actuals Created for re-evaluated financial impact**<br>  Cost Actual: Bob Kozack, 8hrs, 800 USD |
-| Invoice is created | |   |   |   |
-| Invoice is confirmed with a miletone |   |   | New milestone-based billed sales actuals are created | **Unchanged actuals:**<br>  Cost Actual: Bob Kozack, 8hrs, 800 USD <br> **New Actuals created for recording Billed Sales values:** <br>  Billed Sales Actual: Milestone, 5000 USD |
-| Invoice is corrected to credit the milestone |   |   | Reversal billed sales actuals are created | **Unchanged actuals:** <br> Cost Actual: Bob Kozack, 8hrs, 800 USD<br>  **Existing Actuals Updated:** Billed Sales Actual: Milestone, 5000 USD, _Adjusted_ <br> **New Actuals created for reversing previous Billed Sales:** <br> Billed Sales Actual: Milestone, (5000 USD),_Unadjustable_ |
-
+| Event | Cost actual | Unbilled sales actual | Billed sales actual | Example |
+|---|---|---|---|---|
+| Time is created. | Not applicable | Not applicable | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." This project is mapped to a fixed price billing method on the contract line. Here is a sample time entry from Bob Kozak:</p><p>Bob Kozack - 8 hours</p> |
+| Time is submitted. | Not applicable | Not applicable | Not applicable | A cost journal line is created for the time entry. The default cost rate is entered in the journal entry. |
+| The time entry is recalled before it's approved. | Not applicable | Not applicable | Not applicable | |
+| Time is approved. | A cost actual is created. | Not applicable | Not applicable | <p>New actual that is created:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800</li></ul> |
+| Time approval is canceled. | <p>The adjustment status of the original cost actual is updated to **Adjusted**.</p><p>A reversal cost actual is created that has an adjustment status of **Unadjustable**.</p> | Not applicable | Not applicable | <p>Existing actual that is updated:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800, *Adjusted*</li></ul><p>New actual that is created to reverse the previous financial impact:</p><ul><li>**Cost actual:** Bob Kozack, (8 hr), (USD 800), *Unadjustable*</li></ul> |
+| The time entry is recalled after it's approved. | <p>The adjustment status of the original cost actual is updated to **Adjusted**.</p><p>A reversal cost actual is created that has an adjustment status of **Unadjustable**.</p> | Not applicable | Not applicable | <p>Existing actual that is updated:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800, *Adjusted*</li></ul><p>New actual that is created to reverse the previous financial impact:</p><ul><li>**Cost actual:** Bob Kozack, (8 hr), (USD 800), *Unadjustable*</li></ul> |
+| The contract is confirmed. | <p>The adjustment status of the old cost actuals is updated to **Adjusted**.</p><p>Reversal cost actuals are created that have an adjustment status of **Unadjustable**.</p><p>New cost actuals are created after the contractual rules are reevaluated.</p> | Not applicable | Not applicable | <p>Existing actual that is updated:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800, *Adjusted*</li></ul><p>New actual that is created to reverse the previous financial impact:</p><ul><li>**Cost actual:** Bob Kozack, (8 hr), (USD 800), *Unadjustable*</li></ul><p>New actual that is created for the reevaluated financial impact:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800</li></ul> |
+| An invoice is created. | Not applicable | Not applicable | Not applicable | |
+| The invoice is confirmed with a milestone. | Not applicable | Not applicable | New milestone-based billed sales actuals are created. | <p>Existing actual that remains unchanged:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800</li></ul><p>New actual that is created to record the billed sales values:</p><ul><li>**Billed sales actual:** Milestone, USD 5,000</li></ul> |
+| The invoice is corrected to credit the milestone. | Not applicable | Not applicable | Reversal billed sales actuals are created. | <p>Existing actual that remains unchanged:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, 800 USD</li></ul><p>Existing actual that is updated:</p><ul><li>**Billed sales actual:** Milestone, USD 5,000, *Adjusted*</li></ul><p>New actual that is created to reverse the previous billed sales values:</p><ul><li>**Billed sales actual:** Milestone, (USD 5,000),*Unadjustable*</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
