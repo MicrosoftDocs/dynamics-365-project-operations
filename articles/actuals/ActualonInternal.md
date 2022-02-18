@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Actuals Impact for an Internal Project 
-description: This topic provides information the impact on the Actuals table at various events for an Internal Project in Microsoft Dynamics 365 Project Operations.
+title: Actuals impact for an internal project
+description: This topic provides information about the impact on the Actuals table at various events for an internal project in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: overview
@@ -25,22 +25,19 @@ ms.author: rumant
 ms.search.validFrom: 2020-10-01
 ---
 
-#  Actuals Impact for an Internal Project  
+# Actuals impact for an internal project
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The below table gives a list of actuals of different transaciton types that are created at various events on an internal project engagement. 
+The following table lists the actuals of different transaction types that are created at various events in an internal project engagement.
 
-| **Event** | **Cost actual** | **Example** |
-| --- | --- | --- |
-|Time is created |   | Bob Kozack, from Fabrikam US Org Unit with a cost rate of 100 US per hour is working on a project "Arm Installation at Adatum".This project maps to a Fixed price billing method on the contract line. Here's a sample time entry from Bob Kozak: Bob Kozack - 8 hours |
-|Time is submitted |   | Cost journal line is created for this time entry. Cost rate is defaulted on the journal entry |
-|Time entry is recalled before it is approved |   |   |
-|Time is approved| Created | **New Actuals Created:**<br> Cost Actual: Bob Kozack, 8hrs, 800 USD |
-|Time approval is cancelled | Adjustment status on the original is updated to Adjusted<br> Reversal is Created with Adjustment status as Unadjustable | **Existing actuals updated:**<br>Cost Actual: Bob Kozack, 8hrs, 800 USD, _Adjusted_<br>**New Actuals Created for reversing previous financial impact:**<br> Cost Actual: Bob Kozack, (8hrs), (800 USD), _Unadjustable_ |
-|Time entry is recalled after it is approved | Adjustment status on the original is updated to Adjusted<br> Reversal is Created with Adjustment status as Unadjustable | **Existing actuals updated:**<br>Cost Actual: Bob Kozack, 8hrs, 800 USD, _Adjusted_<br>**New Actuals Created for reversing previous financial impact:**<br> Cost Actual: Bob Kozack, (8hrs), (800 USD), _Unadjustable_ |
-
+| Event | Cost actual | Example |
+|---|---|---|
+| Time is created. | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." This project is mapped to a fixed price billing method on the contract line. Here is a sample time entry from Bob Kozak:</p><p>Bob Kozack - 8 hours</p> |
+| Time is submitted. | Not applicable | A cost journal line is created for the time entry. The default cost rate is entered in the journal entry. |
+| The time entry is recalled before it's approved. | Not applicable | |
+| Time is approved. | A cost actual is created. | <p>New actual that is created:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800</li></ul> |
+| The time approval is canceled. | <p>The adjustment status of the original cost actual is updated to **Adjusted**.</p><p>A reversal cost actual is created that has an adjustment status of **Unadjustable**.</p> | <p>Existing actual that is updated:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800, *Adjusted*</li></ul><p>New actual that is created to reverse the previous financial impact:</p><ul><li>**Cost actual:** Bob Kozack, (8 hr), (USD 800), *Unadjustable*</li></ul> |
+| The time entry is recalled after it's approved. | <p>The adjustment status of the original cost actual is updated to **Adjusted**.</p><p>A reversal cost actual is created that has an adjustment status of **Unadjustable**.</p> | <p>Existing actual that is updated:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800, *Adjusted*</li></ul><p>New actual that is created to reverse the previous financial impact:</p><ul><li>**Cost actual:** Bob Kozack, (8 hr), (USD 800), *Unadjustable*</li></ul> |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-
