@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Actuals 
+title: Actuals
 description: This topic provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 04/01/2021
@@ -26,25 +26,24 @@ ms.author: rumant
 ms.search.validFrom: 2020-10-01
 ---
 
-# Actuals 
+# Actuals
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Actuals represent the reviewed and approved financial and schedule progress on a project. They are created as a result of approval of time, expense, material usage entries, and journal entries and invoices. 
-> Note
-> Actuals should not be edited or deleted from the system as this could tamper the financial integrity and any integration with other financial and accounting sytems. Project Operations provides for the ability to edit actuals using reversing and replacing actuals at various points in the business process lifecycle of your projects. 
+Actuals represent the reviewed and approved financial and schedule progress on a project. They are created when time, expense, and material usage entries, journal entries, and invoices are approved.
 
+> [!IMPORTANT]
+> Actuals should not be edited or deleted from the system. Otherwise, financial integrity and any integration with other financial and accounting systems might be adversely affected. Microsoft Dynamics 365 Project Operations lets you use reversing and replacing actuals to edit actuals at various points in the business process lifecycle of your projects.
 
-## Record actuals based on project events
+## Recording actuals based on project events
 
-Project Operations records the financial transactions that occur during a project engagement liefcycle as **Actuals**. The creation of Actuals at various events in the  lifecycle varies depending on whether the project engagement is using time-and-materials or fixed-price billing model, and whether it is in the presales stage, or an internal project.
-The pages below explain the impact on actuals table at various events for each of these different variations:
+Project Operations records the financial transactions that occur during a project engagement lifecycle as actuals. The creation of actuals at various events in the lifecycle varies, depending on whether the project engagement uses the time and materials billing model or the fixed price billing model, and whether it's in the pre-sales stage or it's an internal project.
 
-- [Actuals on a Time and Materials Engagement](ActualsonTM.md) 
-- [Actuals on a Fixed Price Engagement](ActualonFP.md) 
-- [Actuals during the Pre-sales Engagement](ActualonPreSales.md) 
-- [Actuals for an Internal Project](ActualonInternal.md) 
+The following topics explain the impact on the Actuals table at various events for different variations:
 
-
+- [Actuals impact in a time and materials engagement](ActualsonTM.md)
+- [Actuals impact in a fixed price engagement](ActualonFP.md)
+- [Actuals impact during the pre-sales stage of an engagement](ActualonPreSales.md)
+- [Actuals impact for an internal project](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
