@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Business Transactions in Project Operations 
-description: This topic provides an overview of the concept of business transactions in Project Operations.
+title: Business transactions in Project Operations 
+description: This topic provides an overview of the concept of business transactions in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
@@ -26,11 +26,11 @@ ms.author: rumant
 ms.search.validFrom: 2022-01-31
 ---
 
-# Business Transactions in Project Operations
+# Business transactions in Project Operations
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-In Dynamics 365 Project Operations, *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities use this abstraction:
+In Microsoft Dynamics 365 Project Operations, *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities use this abstraction:
 
 - Quote line details
 - Contract line details
@@ -38,13 +38,14 @@ In Dynamics 365 Project Operations, *business transaction* is an abstract concep
 - Journal lines
 - Actuals
 
-Of these entities, Quote line details, Contract line details, and Estimate lines are mapped to the estimation phase in the project lifecycle. The Journal lines and Actuals entities are mapped to the execution phase in the project lifecycle.
+Of these entities, Quote line details, Contract line details, and Estimate lines are mapped to the *estimation phase* in the project lifecycle. The Journal lines and Actuals entities are mapped to the *execution phase* in the project lifecycle.
 
-Project Operations treats records in these five entities as business transactions. The only distinction is that records in entities that are mapped to the estimation phase are considered financial forecasts, whereas the records in entities that are mapped to the execution phase are considered financial facts that have already occurred.
+Project Operations treats records in all five of these entities as business transactions. The only distinction is that records in the entities that are mapped to the estimation phase (Quote line details, Contract line details, and Estimate lines) are considered *financial forecasts*, whereas records in the entities that are mapped to the execution phase (Journal lines and Actuals) are considered *financial facts* that have already occurred.
 
 For more information, see [Estimates](../project-management/estimating-projects-overview.md) and [Actuals](actuals-overview.md).
 
 ## Concepts that are unique to business transactions
+
 The following concepts are unique to the concept of business transactions:
 
 - Transaction type
@@ -54,7 +55,8 @@ The following concepts are unique to the concept of business transactions:
 
 ### Transaction type
 
-Transaction type represents the timing and context of the financial impact on a project. It's represented by an option set that has the following supported values in Project Operations:
+Transaction type represents the timing and context of the financial impact on a project. It's defined by an option set that has the following supported values in Project Operations:
+
 - Cost
 - Project contract
 - Unbilled sales
@@ -64,7 +66,7 @@ Transaction type represents the timing and context of the financial impact on a 
 
 ### Transaction class
 
-Transaction class represents the different types of costs that are incurred on projects. It's represented by an option set that has the following supported values in Project Operations:
+Transaction class represents the different types of costs that are incurred on projects. It's defined by an option set that has the following supported values in Project Operations:
 
 - Time
 - Expense
@@ -73,18 +75,17 @@ Transaction class represents the different types of costs that are incurred on p
 - Milestone
 - Tax
 
-The **Milestone** value is typically used by the business logic for fixed-price billing in Project Operations.
+> [!NOTE]
+> The **Milestone** value is typically used by the business logic for fixed-price billing in Project Operations.
 
 ### Transaction origin
 
-Transaction origin is an entity that stores the origin of each business transaction. As project execution gets underway, each business transaction will give rise to another business transaction which in turn will create another and so on. Transaction origin entity was designed to store data about each transaction’s origin to help reporting and traceability. 
+Transaction origin is an entity that stores the origin of each business transaction to help with reporting and traceability. As project execution begins, each business transaction creates another business transaction that will, in turn, create another business transaction, and so on.
 
 ### Transaction connection
 
-Transaction connection is an entity that stores the relation between two similar business transactions such as cost and related sales actuals or transaction reversals triggered by billing activities such invoice confirmation or invoice corrections.
+Transaction connection is an entity that stores the relation between two similar business transactions, such as cost and related sales actuals or transaction reversals that are triggered by billing activities such invoice confirmation or invoice corrections.
 
-Together, Transaction origin and Transaction connection help you keep track of relationships between business transactions and actions that resulted in the creation of a specific business transaction.
-
-
+Together, the Transaction origin and Transaction connection entities help you track relationships between business transactions and actions that caused a specific business transaction to be created.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

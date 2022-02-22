@@ -104,6 +104,8 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
+      - name: Organizational units
+        href: sales/OrgUnits.md
     - name: Manage project leads
       href: sales/manage-leads.md
     - name: Manage project opportunities
@@ -290,8 +292,6 @@
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
         href: project-management/project-sales-tracking.md
-      - name: Update estimate at completion
-        href: project-management/update-completed-estimate.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -430,8 +430,8 @@
       href: expense/travel-requisition.md
     - name: Cash advance
       href: expense/cash-advance.md
-    - name: Per diems
-      href: expense/per-diems.md
+    - name: Per diem expenses
+      href: expense/per-diem-expenses.md
     - name: Mobile Expense app
       href: expense/expense-using-mobile.md
     - name: Financial management
@@ -448,20 +448,28 @@
       href: approvals/approvals-overview.md
     - name: Approval sets 
       href: approvals/approval-sets.md
+    - name: Cancel approval on previously approved entries
+      href: approvals/cancelapproval.md
+    - name: Recall previously approved entries 
+      href: approvals/recall-cancel.md   
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
-        href: approvals/dev-notes-approvals.md
+        href: approvals/dev-notes-approvals.md        
   - name: Actuals
     items: 
-    - name: Concept of Business Transactions 
+    - name: Business transactions in Project Operations
       href: actuals/businesstransactions.md
-    - name: Transaction Origins - Link actuals to source
+    - name: Actuals overview
+      href: actuals/actuals-overview.md
+    - name: Transaction origins - Link actuals to source
       href: actuals/linkingactuals.md
-    - name: Actuals in Project Operations
-      href: actuals/actuals-overview.md    
-    - name: Correction journals
+    - name: Transaction connections - Link actuals of different transaction types
+      href: actuals/connectingactuals.md
+    - name: Journals
       items:
+      - name: Create and confirm Entry journals
+        href: actuals/create-confirm-entry-journals.md
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
   - name: Procurement
@@ -548,6 +556,10 @@
     items:
     - name: Migrate fully invoiced billing milestones during cutover
       href: advanced-configuration/migrating-invoiced-milestones.md   
+  - name: Upgrade
+    items:
+    - name: Upgrade considerations for Modern approvals
+      href: upgrade/upgrade-considerations-modern-approvals.md
   - name: Troubleshooting
     items:
     - name: Project sales process
@@ -614,6 +626,8 @@
         href: sales/sales-units-unit-groups.md
       - name: Currency
         href: sales/sales-currency.md
+      - name: Organizational units
+        href: sales/OrgUnits.md
     - name: Manage project leads 
       href: pro/sales/managing-leads-sales.md
     - name: Manage project opportunities
@@ -820,8 +834,6 @@
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
         href: project-management/project-sales-tracking.md
-      - name: Update estimate at completion
-        href: project-management/update-completed-estimate.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -904,8 +916,6 @@
     items: 
     - name: Subcontract management in Project Operations
       href: pro/subcontracting/managing-subcontracts-overview.md
-    - name: Subcontracting in October 2021 Early Access
-      href: pro/subcontracting/Subcontracting_EA_scope.md
     - name: Key concepts in subcontracting
       href: pro/subcontracting/key-concepts-subcontracting.md
     - name: Managing vendors and project price lists 
@@ -966,20 +976,28 @@
       href: approvals/approvals-overview.md
     - name: Approval sets
       href: approvals/approval-sets.md
+    - name: Cancel approval on previously approved entries
+      href: approvals/cancelapproval.md
+    - name: Recall previously approved entries 
+      href: approvals/recall-cancel.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
         href: approvals/dev-notes-approvals.md
   - name: Actuals
     items: 
-    - name: Concept of Business Transactions 
+    - name: Business transactions in Project Operations
       href: actuals/businesstransactions.md
-    - name: Transaction Origins - Link actuals to source
+    - name: Actuals overview
+      href: actuals/actuals-overview.md
+    - name: Transaction origins - Link actuals to source
       href: actuals/linkingactuals.md
-    - name: Actuals in Project Operations
-      href: actuals/actuals-overview.md   
-    - name: Correction journals
+    - name: Transaction connections - Link actuals of different transaction types
+      href: actuals/connectingactuals.md
+    - name: Journals
       items:
+      - name: Create and confirm Entry journals
+        href: actuals/create-confirm-entry-journals.md
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
@@ -1000,6 +1018,10 @@
       href: pro/proforma-invoicing/corrective-invoices-sales.md
     - name: Configure project invoice automation
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
+  - name: Upgrade
+    items:
+    - name: Upgrade considerations for Modern approvals
+      href: upgrade/upgrade-considerations-modern-approvals.md
 - name: Project Operations for stocked/production-based scenarios
   items: 
   - name: What's new
@@ -1260,6 +1282,8 @@
       href: psa/implementation-guides/reporting-guide.md
   - name: Upgrade from Project Service Automation to Project Operations - lite
     href: psa/upgrade-project-operations-non-stocked.md
+  - name: Feature changes from Project Service Automation to Project Operations
+    href: psa/psa-project-operations-changes.md
   - name: Project Service Automation upgrade (app version 3.x)
     items: 
     - name: Project Service Automation upgrade 

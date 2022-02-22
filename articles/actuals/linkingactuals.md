@@ -1,6 +1,6 @@
 ---
-title: Transaction Origins - Link actuals to source
-description: This topic explains how actuals are linked to original source records such as time entry, expense entry, or material usage logs using the concept of Transaction Origins.
+title: Transaction origins - Link actuals to their source
+description: This topic explains how the concept of transaction origins is used to link actuals to original source records, such as time entry, expense entry, or material usage logs.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
@@ -9,22 +9,22 @@ ms.reviewer: tonyafehr
 ms.author: rumant
 ---
 
-# Transaction Origins - Link actuals to source
+# Transaction origins - Link actuals to their source
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Transaction Origin records are created to link actuals to the originating sources of those actuals such Time Entries, Expense entries, Material Usage Logs and Project Invoices 
+Transaction origin records are created to link actuals to their source, such time entries, expense entries, material usage logs, and project invoices.
 
 The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
-> ![Processing time entires in a Project Service life cycle.](media/basic-guide-17.png)
+> ![Processing time entires in Project Operations.](media/basic-guide-17.png)
  
-1. Submission of a time entry causes the creation of two journal lines: one for cost and one for unbilled sales.
-2. Eventual approval of the time entry causes the creation of two actuals: one for cost and one for unbilled sales.
-3. When the user creates a project invoice, the invoice line transaction is created by using data from the unbilled sales actual. 
+1. Submission of a time entry causes two journal lines to be created: one for cost and one for unbilled sales.
+2. Eventual approval of the time entry causes two actuals to be created: one for cost and one for unbilled sales.
+3. When the user creates a project invoice, the invoice line transaction is created by using data from the unbilled sales actual.
 4. When the invoice is confirmed, two new actuals are created: an unbilled sales reversal and a billed sales actual.
 
-Each of these events triggers the creation of records in the Transaction origin to help build a trace of relationships between these records that are created across time entry, journal line, actuals, and invoice line details.
+Each event in this processing workflow triggers the creation of records in the Transaction origin entity to help build a trace of the relationships between these records that are created across time entry, journal line, actual, and invoice line details.
 
 The following table shows the records in the Transaction origin entity for the preceding workflow.
 
@@ -64,5 +64,9 @@ The following table shows the records in the Transaction origin entity for the p
 | Correction IL GUID           | Invoice Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
 | Correction Invoice GUID      | Invoice                  | New Unbilled Sales Actual GUID    | Actual                            |                          |
 
+
+The following illustration shows the links that are created between actuals and their sources at various events using the example of time entries in Project Operations.
+
+> ![How actuals are linked to source records in Project Operations.](media/TransactionOrigins.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,7 +4,7 @@
 title: Actuals
 description: This topic provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 04/01/2021
+ms.date: 02/22/2022
 ms.topic: overview
 ms.prod: 
 #
@@ -34,6 +34,7 @@ Actuals represent the reviewed and approved financial and schedule progress on a
 
 > [!IMPORTANT]
 > Actuals should not be edited or deleted from the system. Otherwise, financial integrity and any integration with other financial and accounting systems might be adversely affected. Microsoft Dynamics 365 Project Operations lets you use reversing and replacing actuals to edit actuals at various points in the business process lifecycle of your projects.
+Actuals represent the reviewed and approved financial and schedule progress on a project. They are created when time, expense, and material usage entries, journal entries, and invoices are approved. You should not edit actuals or delete them from the system. Otherwise, you might adversely affect the financial integrity and any integration with other financial and accounting systems. Instead, Microsoft Dynamics 365 Project Operations lets you correct actuals by creating reversing and replacing actuals at various points in the business process lifecycle of your projects. 
 
 ## Recording actuals based on project events
 

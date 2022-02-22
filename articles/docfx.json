@@ -48,7 +48,7 @@
     },
     "fileMetadata": {
         "ms.service": {
-            "**.md": "dynamics-365-project-operations"
+            "**.*": "dynamics-365-project-operations"
         },
         "search.app":{
             "**.md": "ProjectOperations"
