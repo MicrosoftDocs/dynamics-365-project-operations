@@ -4,7 +4,7 @@
 title: Actuals impact during the pre-sales stage of an engagement
 description: This topic provides information about the impact on the Actuals table at various events while an engagment is in the pre-sales stage in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 04/01/2021
+ms.date: 02/22/2022
 ms.topic: overview
 ms.prod: 
 #
