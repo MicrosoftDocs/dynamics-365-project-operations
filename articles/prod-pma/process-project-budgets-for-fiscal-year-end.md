@@ -2,7 +2,7 @@
 # required metadata
 
 title: Transfer project budgets at fiscal year end
-description: This article provides inoformation about how to transfer remaining budget amounts to future years and create budget register details. 
+description: This article provides information about how to transfer remaining budget amounts to future years and create budget register details. 
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article
