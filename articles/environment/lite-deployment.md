@@ -2,7 +2,7 @@
 title: Deploy Project Operations - lite
 description: This topic provides information about how to install Project Operations lite deployment - deal to proforma invoicing.
 author: stsporen
-ms.date: 10/02/2020
+ms.date: 02/28/2022
 ms.topic: article
 ms.reviewer: kfend
 ms.author: stsporen
@@ -32,7 +32,7 @@ Project Operations supports multiple deployment models. To determine the best de
 
 
 ## <a name="existing"></a>Install Project Operations to an existing Dataverse environment
-1. Ensure that the environment has not been configured with [dual-write](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) as installation will then install the [Project Operations for resource/non-stocked based scenarios](https://docs.microsoft.com/en-us/dynamics365/project-operations/environment/project-operations-integrated-deployment-overview) capabilties.
+1. Ensure that the environment has not been configured with [dual-write](../dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) as installation will then install the [Project Operations for resource/non-stocked based scenarios](project-operations-integrated-deployment-overview.md) capabilties.
 2. As the [Global or Power Platform Administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) with a Project Operations license, locate the environment in the [PowerPlatform admin center](https://admin.powerplatform.com) where you want to install Project Operations.
 3. Install **Microsoft Dynamics 365 Project Operations** from the deployment list of Dynamics 365 apps. For more information, see [Manage Dynamics 365 apps](/power-platform/admin/manage-apps).
 
