@@ -1,5 +1,5 @@
 {:allowed-branchname-matches ["^main$"]
- :allowed-filename-matches ["articles"]
+ :allowed-filename-matches ["(?i)articles/(?:(?!invoicing|environment))"]
  :use-skip-label true
  :targets
  {
