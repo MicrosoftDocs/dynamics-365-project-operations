@@ -26,8 +26,9 @@ A list of all project contracts can be seen on the **Contracts** list page.
 2. Select the **View switcher** (the drop-down arrow next to the name of the view) to select other filtered views. You can create your own views with custom filter criteria.
 
 Contracts can be created or deleted from this list page or detail pages.
-    > [!NOTE]
-    > Contracts that have Projects, Tasks, Estimates, Journals and/or Actuals associated with them cannot be deleted. 
+
+> [!NOTE]
+> Contracts that have Projects, Tasks, Estimates, Journals and/or Actuals associated with them cannot be deleted. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
