@@ -28,7 +28,7 @@ A list of all project contracts can be seen on the **Contracts** list page.
 Contracts can be created or deleted from this list page or detail pages.
 
 > [!NOTE]
-> Contracts that have Projects, Tasks, Estimates, Journals and/or Actuals associated with them cannot be deleted. 
+> Contracts that have projects, tasks, estimates, journals, and/or actuals associated with them cannot be deleted. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
