@@ -80,6 +80,8 @@ When you create a draft project invoice, all unbilled sales transactions that we
 - Edit and adjust the quantity and billing type.
 
 Select **Confirm** to confirm an invoice. The Confirm action is a one-way action. When you select **Confirm**, the system makes the invoice read-only and creates billed sales actuals from each invoice line detail for each invoice line. If the invoice line detail references an unbilled sales actual, the system also reverses the unbilled sales actual. (Any invoice line detail that was created from a time or expense entry will reference an unbilled sales actual.) General ledger integration systems can use this reversal to reverse project work in progress (WIP) for accounting purposes.
+> [!NOTE]
+> Confirmed proforma invoices and related records like invoice lines, invoice line details cannot be edited or deleted. 
 
 ### Correct a confirmed invoice
 
