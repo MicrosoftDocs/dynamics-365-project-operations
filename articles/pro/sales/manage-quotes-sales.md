@@ -26,6 +26,8 @@ A list of all the project quotes can be seen from the **Quotes** list page.
 2. Use the **View Switcher** to select other filtered views of the quotes. Using custom filter criteria, you can configure your own views and navigation options.
 
 Quotes can be created or deleted from this list page or detail pages.
+    > [!NOTE]
+    > Quotes that have Projects, Tasks, Estimates, Journals and/or Actuals associated with them cannot be deleted. Also once a quote is closed as Won or Lost, it can no longer be deleted or modified. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
