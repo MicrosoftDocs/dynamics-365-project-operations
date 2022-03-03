@@ -1,10 +1,10 @@
 ---
 # required metadata
 
-title: Actuals 
+title: Actuals
 description: This topic provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 04/01/2021
+ms.date: 02/22/2022
 ms.topic: overview
 ms.prod: 
 #
@@ -26,279 +26,24 @@ ms.author: rumant
 ms.search.validFrom: 2020-10-01
 ---
 
-# Actuals 
+# Actuals
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Actuals represent the reviewed and approved financial and schedule progress on a project. They are created when time, expense, and material usage entries, journal entries, and invoices are approved. You should not edit actuals or delete them from the system. Otherwise, you might adversely affect the financial integrity and any integration with other financial and accounting systems. Instead, Microsoft Dynamics 365 Project Operations lets you correct actuals by creating reversing and replacing actuals at various points in the business process lifecycle of your projects. 
+Actuals represent the reviewed and approved financial and schedule progress on a project. They are created when time, expense, and material usage entries, journal entries, and invoices are approved.
 
-## Record actuals based on project events
+> [!IMPORTANT]
+> Actuals should not be edited or deleted from the system. Otherwise, financial integrity and any integration with other financial and accounting systems might be adversely affected. Microsoft Dynamics 365 Project Operations lets you use reversing and replacing actuals to edit actuals at various points in the business process lifecycle of your projects.
 
-Project Operations records the financial transactions that occur during a project. These transactions are recorded as actuals. The following tables show the different types of actuals that are created, depending on whether the project is a time-and-materials or fixed-price project, is in the presales stage, or is an internal project.
+## Recording actuals based on project events
 
-### The resource belongs to same organizational unit as the project's contracting unit
+Project Operations records the financial transactions that occur during a project engagement lifecycle as actuals. The creation of actuals at various events in the lifecycle varies, depending on whether the project engagement uses the time and materials billing model or the fixed price billing model, and whether it's in the pre-sales stage or it's an internal project.
 
-<table>
-<thead>
-<tr>
-<th rowspan="3">Event</th>
-<th colspan="4">Billable or sold project</th>
-<th rowspan="3">Project in the presales stage</th>
-<th rowspan="3">Internal project</th>
-</tr>
-<tr>
-<th colspan="2">Time and materials</th>
-<th colspan="2">Fixed price</th>
-</tr>
-<tr>
-<th>Actuals</th>
-<th>Transaction currency</th>
-<th>Fixed price</th>
-<th>Transaction currency</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A time entry is created.</td>
-<td colspan="6">No activity in the Actuals entity</td>
-</tr>
-<tr>
-<td>A time entry is submitted.</td>
-<td colspan="6">No activity in the Actuals entity</td>
-</tr>
-<tr>
-<td rowspan="2">Time is approved, and no change to or increase in billable hours occurs during approval.</td>
-<td>Cost actual</td>
-<td>Contracting unit currency</td>
-<td rowspan="2">Cost actual</td>
-<td rowspan="2">Contracting unit currency
-<td rowspan="2">Cost actual</td>
-<td rowspan="2">Cost actual</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Chargeable</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">Time is approved, and a decrease in billable hours occurs during approval.</td>
-<td>Cost actual</td>
-<td>Contracting unit currency</td>
-<td rowspan="3">Cost actual</td>
-<td rowspan="3">Contracting unit currency</td>
-<td rowspan="3">Cost actual</td>
-<td rowspan="3">Cost actual</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Chargeable for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Non-chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="2">An invoice is confirmed, and no change to or increase in billable hours occurs.</td>
-<td>Unbilled sales reversal</td>
-<td>Project contract currency</td>
-<td rowspan="2">Billed sales for milestone</td>
-<td rowspan="2">Project contract currency</td>
-<td rowspan="2">Not applicable</td>
-<td rowspan="2">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">An invoice is confirmed, and a decrease in billable hours occurs.</td>
-<td>Unbilled sales reversal</td>
-<td>Project contract currency</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales – Chargeable for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Billed sales – Non-chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="2">An invoice is corrected to increase the chargeable quantity.</td>
-<td>Billed sales – Reversal</td>
-<td>Project contract currency</td>
-<td rowspan="5">
-<ul>
-<li>Billed sales reversal for milestone</li>
-<li>Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></li>
-</ul>
-</td>
-<td rowspan="5">Project contract currency</td>
-<td rowspan="5">Not applicable</td>
-<td rowspan="5">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">An invoice is corrected to decrease the chargeable quantity.</td>
-<td>Billed sales – Reversal</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Billed sales for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Unbilled sales – Chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-</tbody>
-</table>
+The following topics explain the impact on the Actuals table at various events for different variations:
 
-### The resource belongs to an organizational unit that differs from the project's contracting unit
-
-<table>
-<thead>
-<tr>
-<th rowspan="3">Event</th>
-<th colspan="4">Billable or sold project</th>
-<th rowspan="3">Project in the presales stage</th>
-<th rowspan="3">Internal project</th>
-</tr>
-<tr>
-<th colspan="2">Time and materials</th>
-<th colspan="2">Fixed price</th>
-</tr>
-<tr>
-<th>Actuals</th>
-<th>Transaction currency</th>
-<th>Fixed price</th>
-<th>Transaction currency</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A time entry is created.</td>
-<td colspan="6">No activity in the Actuals entity</td>
-</tr>
-<tr>
-<td>A time entry is submitted.</td>
-<td colspan="6">No activity in the Actuals entity</td>
-</tr>
-<tr>
-<td rowspan="4">Time is approved, and no change to or increase in billable hours occurs during approval.</td>
-<td>Cost actual</td>
-<td>Contracting unit currency</td>
-<td rowspan="4">Cost actual</td>
-<td rowspan="4">Contracting unit currency</td>
-<td rowspan="4">Cost actual</td>
-<td rowspan="4">Cost actual</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Chargeable</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Resourcing unit cost</td>
-<td>Resourcing unit currency</td>
-</tr>
-<tr>
-<td>Interorganizational sales</td>
-<td>Contracting unit currency</td>
-</tr>
-<tr>
-<td rowspan="5">Time is approved, and a decrease in billable hours occurs during approval.</td>
-<td>Cost actual</td>
-<td>Contracting unit currency</td>
-<td rowspan="5">Cost actual</td>
-<td rowspan="5">Contracting unit currency</td>
-<td rowspan="5">Cost actual</td>
-<td rowspan="5">Cost actual</td>
-</tr>
-<tr>
-<td>Resourcing unit cost</td>
-<td>Resourcing unit currency</td>
-</tr>
-<tr>
-<td>Interorganizational sales</td>
-<td>Contracting unit currency</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Chargeable for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Unbilled sales actual – Non-chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="2">An invoice is confirmed, and no change to or increase in billable hours occurs.</td>
-<td>Unbilled sales reversal</td>
-<td>Project contract currency</td>
-<td rowspan="2">Billed sales for milestone</td>
-<td rowspan="2">Project contract currency</td>
-<td rowspan="2">Not applicable</td>
-<td rowspan="2">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">An invoice is confirmed, and a decrease in billable hours occurs.</td>
-<td>Unbilled sales reversal</td>
-<td>Project contract currency</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-<td rowspan="3">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales – Chargeable for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Billed sales – Non-chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="2">An invoice is corrected to increase the chargeable quantity.</td>
-<td>Billed sales – Reversal</td>
-<td>Project contract currency</td>
-<td rowspan="5">
-<ul>
-<li>Billed sales reversal for milestone</li>
-<li>Change in milestone status from <strong>Invoiced</strong> to <strong>Ready for invoice</strong></li>
-</ul>
-</td>
-<td rowspan="5">Project contract currency</td>
-<td rowspan="5">Not applicable</td>
-<td rowspan="5">Not applicable</td>
-</tr>
-<tr>
-<td>Billed sales</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td rowspan="3">An invoice is corrected to decrease the chargeable quantity.</td>
-<td>Billed sales – Reversal</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Billed sales for the new quantity</td>
-<td>Project contract currency</td>
-</tr>
-<tr>
-<td>Unbilled sales – Chargeable for the difference</td>
-<td>Project contract currency</td>
-</tr>
-</tbody>
-</table>
-
+- [Actuals impact in a time and materials engagement](ActualsonTM.md)
+- [Actuals impact in a fixed price engagement](ActualonFP.md)
+- [Actuals impact during the pre-sales stage of an engagement](ActualonPreSales.md)
+- [Actuals impact for an internal project](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
