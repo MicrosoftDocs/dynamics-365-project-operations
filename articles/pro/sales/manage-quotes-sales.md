@@ -28,7 +28,7 @@ A list of all the project quotes can be seen from the **Quotes** list page.
 Quotes can be created or deleted from this list page or detail pages.
 
  > [!NOTE]
- > Quotes that have Projects, Tasks, Estimates, Journals and/or Actuals associated with them cannot be deleted. Also once a quote is closed as Won or Lost, it can no longer be deleted or modified. 
+ > Quotes that have projects, tasks, estimates, journals and/or actuals associated with them cannot be deleted. Also, when a quote is closed as Won or Lost, it can no longer be deleted or modified. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
