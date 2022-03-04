@@ -41,28 +41,28 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | Station  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 04, 2022
+| | <i>First Release</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 01, 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 11, 2022
-| | <i>Canada</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 11, 2022
-| | <i>India</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 11, 2022
-| | <i>France</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 11, 2022
-| | <i>South Africa</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 11, 2022
+| | <i>South America</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
+| | <i>Canada</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
+| | <i>India</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
+| | <i>France</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
+| | <i>South Africa</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
 | | <i>Germany</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 11, 2022
-| | <i>Switzerland</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 11, 2022
+| | <i>Switzerland</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 18, 2022
-| | <i>Asia Pacific</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 18, 2022
-| | <i>Great Britain</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 18, 2022
-| | <i>Oceana</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 18, 2022
-| | <i>United Arab Emirates</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 18, 2022
+| | <i>Japan</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 18, 2022
+| | <i>Asia Pacific</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 18, 2022
+| | <i>Great Britain</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 18, 2022
+| | <i>Oceana</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 18, 2022
+| | <i>United Arab Emirates</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 18, 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | March 25, 2022
+| | <i>Europe</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 25, 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | April 01, 2022
+| | <i>North America</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | April 01, 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.61.61](whats-new-ur-40.md) | TBD | April 01, 2022
-| | <i>Dedicated Scale Groups</i> | [3.10.60.170](whats-new-ur-39.md) | [3.10.61.61](whats-new-ur-40.md) | March 04, 2022
+| | <i>Government Community Cloud</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | April 01, 2022
+| | <i>Dedicated Scale Groups</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | April 08, 2022
 
 
 
