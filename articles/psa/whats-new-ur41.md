@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 41, V3
 description: This topic lists the features and fixes that are available in Microsoft Dynamics 365 Project Service Automation Update Release 41, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 03/04/2022
+ms.date: 03/07/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -30,13 +30,12 @@ This topic lists the features and fixes that are new or changed for Project Serv
 ### Bug fixes
 
 The following issues have been fixed.
+
 **Project Management**
-- When attempting to create a project from a template based upon a project created from the desktop add-in, users receive the following error, "Resource Assignment's Planned Work field validation: Each Resource Assignment Time Slice's End Date must not be earlier than its Start Date"
+- When you attempt to create a project from a template that's based on a project created from the desktop add-in, the following error occurs, **Resource Assignment's Planned Work field validation: Each Resource Assignment Time Slice's End Date must not be earlier than its Start Date**.
 
 **Time and Expense**
-- When attempting to delete a time entry, users receive the following error message, "An unexpected error occurs from ISV code."
+- When you try to delete a time entry, the following error message occurs, **An unexpected error occurs from ISV code.**
 
 **Sales**
-
-- When creating an invoice for a fixed price milestone, the description and external Description are not being populated.
-- 
+- When you create an invoice for a fixed price milestone, the **Description** and **External Description** fields aren't populated. 
