@@ -32,10 +32,10 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed.
 
 **Project Management**
-- When you attempt to create a project from a template that's based on a project created from the desktop add-in, the following error occurs, **Resource Assignment's Planned Work field validation: Each Resource Assignment Time Slice's End Date must not be earlier than its Start Date**.
+- When you attempt to create a project from a template that's based on a project created from the desktop add-in, the following error displays, "Resource Assignment's Planned Work field validation: Each Resource Assignment Time Slice's End Date must not be earlier than its Start Date".
 
 **Time and Expense**
-- When you try to delete a time entry, the following error message occurs, **An unexpected error occurs from ISV code.**
+- When you try to delete a time entry, the following error message displays, "An unexpected error occurs from ISV code".
 
 **Sales**
 - When you create an invoice for a fixed price milestone, the **Description** and **External Description** fields aren't populated. 
