@@ -28,7 +28,7 @@ The following table lists the fields on a project contract that are unique to Dy
 | Requested Delivery Date | **Summary** tab | When a contract is created from a project quote, this field is copied from the corresponding field on the project quote. | This date is used as the end date to generate invoice schedules. |
 
 The following KPIs are available on the **Contract Performance** tab of a project contract. 
->[Note]
+>[!Note]
 >All amounts on the contract performance tab are expressed in the default currency of the environment.
 
 | Field | Location | Description |
