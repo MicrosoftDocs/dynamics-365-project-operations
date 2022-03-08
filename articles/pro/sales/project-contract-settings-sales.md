@@ -2,7 +2,7 @@
 title: Project contract settings - lite
 description: This topic provides information about fields that impact contract lines and the information about the contract that is summarized to across all the line items.
 author: rumant
-ms.date: 10/20/2020
+ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: rumant
@@ -28,12 +28,13 @@ The following table lists the fields on a project contract that are unique to Dy
 | Requested Delivery Date | **Summary** tab | When a contract is created from a project quote, this field is copied from the corresponding field on the project quote. | This date is used as the end date to generate invoice schedules. |
 
 The following KPIs are available on the **Contract Performance** tab of a project contract. 
->[!Note]
->All amounts on the contract performance tab are expressed in the default currency of the environment.
+
+>[!NOTE]
+>All amounts on the **Contract Performance** tab are expressed in the default currency of the environment.
 
 | Field | Location | Description |
 | --- | --- | --- |
-| Contract Value | Overall contract | The total value of the Project contract|
+| Contract Value | Overall contract | The total value of the project contract.|
 | Billed Amount | Overall contract | The sum of the amounts on all invoices against this contract.|
 | Cost Incurred | Overall contract | The sum of all cost actuals logged on all projects that are mapped to the contract. |
 | Gross Margin | Overall contract | Billed amount - Cost incurred till date / Billed amount |
