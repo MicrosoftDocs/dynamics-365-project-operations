@@ -57,10 +57,7 @@ Complete the following steps to correct single or multiple time entries for a pr
 
 10. In the **Actual Associated View** list, you can see that the original time entries that have been reversed are still listed, as are the corresponding corrected time entries. 
 
-For example, in the following graphic, there are two line items with a quantity of 8.00 that have debits listed in the Amount column. Additionally, there are two line items with a quantity of -8.00 that show credited amounts in the Amount column. These corrections bring the quantity to zero.
 
-![Actual associated view list.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
- 
 ## Correct approved expense entries
 
 Complete the following steps to correct one or more expense entries. 
@@ -83,8 +80,6 @@ Complete the following steps to correct one or more expense entries.
 7. After you confirm the correction journal, navigate back to the project or projects that you updated, to view your changes.  
 
 8. In the project page, on the **Actuals** tab, review the **Actual Associated View**. The original entries and the corrected entries are listed. The following graphic shows original expense entry amounts and the corresponding corrected expense entry amounts. 
-
-![Expense_actuals.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
