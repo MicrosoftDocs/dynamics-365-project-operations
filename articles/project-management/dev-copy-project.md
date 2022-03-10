@@ -2,7 +2,7 @@
 title: Develop project templates with Copy Project
 description: This topic provides information about how to create project templates using the Copy Project custom action.
 author: stsporen
-ms.date: 03/07/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.reviewer: kfend 
 ms.author: stsporen
@@ -27,22 +27,13 @@ When you select **Copy Project**, the status of the target project is updated. U
 ### Input parameters
 There are three input parameters:
 
-1.  **ReplaceNamedResources / ClearTeamsAndAssignments** - Only set either of
-    the 2 options and not both.
+- **ReplaceNamedResources / ClearTeamsAndAssignments** - Only set one of the options. Don't set both.
 
-    -   **{"ClearTeamsAndAssignments":true}:** The default behavior for Project
-        for the Web and will remove all assignments and team members.
+    - **{"ClearTeamsAndAssignments":true}** - The default behavior for Project for the Web which removes all assignments and team members.
+    - **{"ReplaceNamedResources":true}** - The default behavior for Project Operations which replaces any named resources with generic resources.
 
-    -   **{"ReplaceNamedResources":true}**: The default behavior for Project
-        Operations, and will replace any named resources with generic resources.
-
-2.  **SourceProject** – Entity Reference of the source project to copy from,
-    this cannot be null.
-
-3.  **Target** – Entity Reference of the target project to copy to, this cannot
-    be null.
-
-
+- **SourceProject** – Entity Reference of the source project to copy from, this can't be null.
+- **Target** – Entity Reference of the target project to copy to, this can't be null.
 
 | Parameter                | Type             | Values         |
 |--------------------------|------------------|----------------|
@@ -55,19 +46,15 @@ There are three input parameters:
 For more defaults on actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ### Validations
+The following validations are completed.
 
-1.  Null checks and retrieves on the Source and Target projects to confirm
-    existence of both the projects in the organization.
+1. Null checks and retrieves the source and target projects to confirm the existence of both projects in the organization.
+2. The system validates that the target project is valid for copy by verifing that:
 
-2.  Is Target Project valid for copy?
+    - There is no prior activity on the project (including opening the **Tasks** tab) and the project is newly created.
+    - There is no prior copy, no import has been requested on this project, and the project isn't in a **Failed** status.
 
-    1.  No prior activity on the project (including opening the Tasks tab) and
-        is newly created.
-
-    2.  No prior copy or import has been requested on this project and it is not
-        in any “Failed” status.
-
-3.  Operation not called using http
+3. The operation isn't called using http.
 
 
 ## Specify fields to copy 
