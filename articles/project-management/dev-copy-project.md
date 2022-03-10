@@ -42,7 +42,7 @@ There are three input parameters:
 3.  **Target** – Entity Reference of the target project to copy to, this cannot
     be null.
 
-INPUT PARAMETERS
+
 
 | Parameter                | Type             | Values         |
 |--------------------------|------------------|----------------|
@@ -54,34 +54,34 @@ INPUT PARAMETERS
 
 For more defaults on actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
+### Validations
+
+1.  Null checks and retrieves on the Source and Target projects to confirm
+    existence of both the projects in the organization.
+
+2.  Is Target Project valid for copy?
+
+    1.  No prior activity on the project (including opening the Tasks tab) and
+        is newly created.
+
+    2.  No prior copy or import has been requested on this project and it is not
+        in any “Failed” status.
+
+3.  Operation not called using http
+
+
 ## Specify fields to copy 
 When the action is called, **Copy Project** will look at the project view **Copy Project Columns** to determine which fields to copy when the project is copied.
 
 
 ### Example
-The following example shows how to call the **CopyProject** custom action with the **removeNamedResources** parameter set.
+The following example shows how to call the **CopyProjectV3** custom action with the **removeNamedResources** parameter set.
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -99,26 +99,33 @@ The following example shows how to call the **CopyProject** custom action with t
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+            
+            if (replaceNamedResources)
+            {
+            	  req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+	  req["ClearTeamsAndAssignments"] = true;
+            }
+            
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
+
 ```
 
 
