@@ -22,20 +22,35 @@ When you select **Copy Project**, the status of the target project is updated. U
 
 ### Name 
 
-**msdyn_CopyProjectV2**
+**msdyn_CopyProjectV3**
 
 ### Input parameters
 There are three input parameters:
 
-| Parameter          | Type   | Values                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** or **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Entity Reference | Source Project |
-| Target             | Entity Reference | Target Project |
+1.  **ReplaceNamedResources / ClearTeamsAndAssignments** - Only set either of
+    the 2 options and not both.
 
+    -   **{"ClearTeamsAndAssignments":true}:** The default behavior for Project
+        for the Web and will remove all assignments and team members.
 
-- **{"clearTeamsAndAssignments":true}**: Thee default behavior for Project for the Web, and will remove all assignments and team members.
-- **{"removeNamedResources":true}** The default behavior for Project Operations, and will revert assignments to generic resources.
+    -   **{"ReplaceNamedResources":true}**: The default behavior for Project
+        Operations, and will replace any named resources with generic resources.
+
+2.  **SourceProject** – Entity Reference of the source project to copy from,
+    this cannot be null.
+
+3.  **Target** – Entity Reference of the target project to copy to, this cannot
+    be null.
+
+INPUT PARAMETERS
+
+| Parameter                | Type             | Values         |
+|--------------------------|------------------|----------------|
+| ReplaceNamedResources    | Boolean          | True/False     |
+| ClearTeamsAndAssignments | Boolean          | True/False     |
+| SourceProject            | Entity Reference | Source Project |
+| Target                   | Entity Reference | Target Project |
+
 
 For more defaults on actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
