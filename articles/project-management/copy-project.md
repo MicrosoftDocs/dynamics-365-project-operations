@@ -23,33 +23,33 @@ With Dynamics 365 Project Operations, you can quickly build new projects by sele
 - Project expense estimates
 - Project material estimates
 - Project checklists
-- Project Buckets
+- Project buckets
 
 
 ## Project properties
 
 When the project is copied, the values in the following fields are copied:
 
-|                                                                                                                      | Project Operations Non-Stocked Materials | Project Operations Lite | Project for the Web |
-|----------------------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------|---------------------|
-| Name                                                                                                                 | :heavy_check_mark:                       | :heavy_check_mark:      | :heavy_check_mark:  |
-| Description                                                                                                          | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Customer                                                                                                             | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Calendar Template                                                                                                    | :heavy_check_mark:                       | :heavy_check_mark:      | :heavy_check_mark:  |
-| Currency                                                                                                             | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Contracting Unit                                                                                                     | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Owning Company                                                                                                       | :heavy_check_mark:                       |                         |                     |
-| Project Manager                                                                                                      | :heavy_check_mark:                       | :heavy_check_mark:      | :heavy_check_mark:  |
-| Status                                                                                                               | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Overall Project Status                                                                                               | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Comments                                                                                                             | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Estimates                                                                                                            | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Estimated Start Date: This is the date that the project is created from the copy.                                    | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Estimated Finish Date: This date is adjusted based on the start date of the new project that was made from the copy. | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Effort (Hours)                                                                                                       | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Estimated Labor Cost                                                                                                 | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Estimated Expense Cost                                                                                               | :heavy_check_mark:                       | :heavy_check_mark:      |                     |
-| Estimated Material Cost                                                                                              |                                          | :heavy_check_mark:      |                     |
+|  Field | Project Operations Non-Stocked Materials | Project Operations Lite | Project for the Web |
+|--------|------------------------------------------|-------------------------|---------------------|
+| Name   | :heavy_check_mark:                       | :heavy_check_mark:      | :heavy_check_mark:  |
+| Description | :heavy_check_mark:                  | :heavy_check_mark:      |      &nbsp;         |
+| Customer | :heavy_check_mark:                     | :heavy_check_mark:      |      &nbsp;         |
+| Calendar Template | :heavy_check_mark:            | :heavy_check_mark:      | :heavy_check_mark:  |
+| Currency | :heavy_check_mark:                     | :heavy_check_mark:      |       &nbsp;        |
+| Contracting Unit | :heavy_check_mark:             | :heavy_check_mark:      |   &nbsp;            |
+| Owning Company | :heavy_check_mark:               |   &nbsp;                |         &nbsp;      |
+| Project Manager | :heavy_check_mark:              | :heavy_check_mark:      | :heavy_check_mark:  |
+| Status | :heavy_check_mark:                       | :heavy_check_mark:      | &nbsp;              |
+| Overall Project Status | :heavy_check_mark:       | :heavy_check_mark:      | &nbsp;              |
+| Comments   | :heavy_check_mark:                   | :heavy_check_mark:      | &nbsp;              |
+| Estimates  | :heavy_check_mark:                   | :heavy_check_mark:      | &nbsp;              |
+| Estimated Start Date <br>This is the date that the project is created from the copy. | :heavy_check_mark: | :heavy_check_mark:  | &nbsp;   |
+| Estimated Finish Date <br> This date is adjusted based on the start date of the new project that was made from the copy. | :heavy_check_mark:  | :heavy_check_mark:  | &nbsp;   |
+| Effort (Hours) | :heavy_check_mark:               | :heavy_check_mark:      |  &nbsp;                   |
+| Estimated Labor Cost | :heavy_check_mark:         | :heavy_check_mark:      |  &nbsp;                   |
+| Estimated Expense Cost | :heavy_check_mark:       | :heavy_check_mark:      |  &nbsp;                   |
+| Estimated Material Cost |   &nbsp;                | :heavy_check_mark:      |  &nbsp;                   |
 
 
 > [!NOTE]
@@ -72,8 +72,8 @@ When the project is copied, resource, expense and material estimate lines are co
 
 For information on how to programmatically access Copy Project, see [Develop project templates with Copy Project](dev-copy-project.md).
 
-## Quotes and Contracts
-Quotes and Contracts are not linked to the destination project.
+## Quotes and contracts
+Quotes and contracts are not linked to the destination project.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
