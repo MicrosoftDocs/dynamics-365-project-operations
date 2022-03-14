@@ -43,13 +43,13 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |<strong>Station 1</strong> | |  |  | |
 | | <i>First Release</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 01, 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
-| | <i>Canada</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
-| | <i>India</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
-| | <i>France</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
-| | <i>South Africa</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
-| | <i>Germany</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
-| | <i>Switzerland</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 11, 2022
+| | <i>South America</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
+| | <i>Canada</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
+| | <i>India</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
+| | <i>France</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
+| | <i>South Africa</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
+| | <i>Germany</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
+| | <i>Switzerland</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 18, 2022
 | | <i>Asia Pacific</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | March 18, 2022
