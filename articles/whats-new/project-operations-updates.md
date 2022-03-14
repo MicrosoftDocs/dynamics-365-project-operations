@@ -44,17 +44,17 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | First Release         |  4.30.0.99      | Complete           | Complete            | TBD                 | April 1, 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.30.0.99      | March 11, 2022     | March 11, 2022      | TBD                 | April 1, 2022       |
-|   &nbsp;  | Canada                |  4.30.0.99      | March 11, 2022     | March 11, 2022      | TBD                 | April 1, 2022       |
-|   &nbsp;  | India                 |  4.30.0.99      | March 11, 2022     | March 11, 2022      | TBD                 | April 1, 2022       |
-|   &nbsp;  | France                |  4.30.0.99      | March 11, 2022     | March 11, 2022      | TBD                 | April 1, 2022       |
-|   &nbsp;  | South Africa          |  4.30.0.99      | March 11, 2022     | March 11, 2022      | TBD                 | April 1, 2022       |
+|   &nbsp;  | South America         |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
+|   &nbsp;  | Canada                |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
+|   &nbsp;  | India                 |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
+|   &nbsp;  | France                |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
+|   &nbsp;  | South Africa          |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.28.0.120     | Complete           | Complete            | 4.30.0.99           | March 11, 2022      |
-|   &nbsp;  | Asia Pacific          |  4.28.0.120     | Complete           | Complete            | 4.30.0.99           | March 11, 2022      |
-|   &nbsp;  | Great Britain         |  4.28.0.120     | Complete           | Complete            | 4.30.0.99           | March 11, 2022      |
-|   &nbsp;  | Oceania               |  4.28.0.120     | Complete           | Complete            | 4.30.0.99           | March 11, 2022      |
-|   &nbsp;  | United Arab Emirates  |  4.28.0.120     | Complete           | Complete            | 4.30.0.99           | March 11, 2022      |
+|   &nbsp;  | Japan                 |  4.30.0.99      | March 18, 2022     | March 18, 2022      | TBD                 | April 15, 2022      |
+|   &nbsp;  | Asia Pacific          |  4.30.0.99      | March 18, 2022     | March 18, 2022      | TBD                 | April 15, 2022      |
+|   &nbsp;  | Great Britain         |  4.30.0.99      | March 18, 2022     | March 18, 2022      | TBD                 | April 15, 2022      |
+|   &nbsp;  | Oceania               |  4.30.0.99      | March 18, 2022     | March 18, 2022      | TBD                 | April 15, 2022      |
+|   &nbsp;  | United Arab Emirates  |  4.30.0.99      | March 18, 2022     | March 18, 2022      | TBD                 | April 15, 2022      |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Europe                |  4.28.0.120     | Complete           | Complete            | 4.30.0.99           | March 18, 2022      |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
