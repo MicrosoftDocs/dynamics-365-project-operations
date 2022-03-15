@@ -68,3 +68,14 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Travel and Expense | [618943](https://fix.lcs.dynamics.com/Issue/Details/?bugId=618943) | The **Receipts Required** expense policy violation incorrectly shows a warning on expense reports. |
 | Travel and Expense | [633470](https://fix.lcs.dynamics.com/Issue/Details/?bugId=633470) | A project transaction doesn't include non-recoverable sales tax in the total sales amount when the transaction is a result of a mileage expense. |
 | Travel and Expense | [642979](https://fix.lcs.dynamics.com/Issue/Details/?bugId=642979) | When an itemized line has tax, you can't change the itemization line date, and a source document state error occurs. |
+
+##
+## Removed and depreciated features
+The [Removed or deprecated features in Project Operations](https://docs.microsoft.com/en-us/dynamics365/project-operations/whats-new/removed-depreciated-features-project) topic describes features that have been removed or deprecated for Dynamics 365 Project Operations.
+
+- A removed feature is no longer available in the product.
+- A deprecated feature is not in active development and may be removed in a future update.
+
+Before any feature is removed from the product, the deprecation notice will be announced in the [Removed or deprecated features in Project Operations](https://docs.microsoft.com/en-us/dynamics365/project-operations/whats-new/removed-depreciated-features-project) topic 12 months prior to the removal.
+
+For breaking changes that only affect compilation time, but are binary compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these are functional updates that need to be made to the compiler.
