@@ -38,7 +38,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 | **Feature area** | **Reference number** | **Quality update** |
 | --- | --- | --- |
 | Time and expense | 2388011| Show reject comments to time entry submitters during bulk approval. |
-| Project planning and tracking | 2495294 | Project details must not be editable on the **Task details** pae. |
+| Project planning and tracking | 2495294 | Project details must not be editable on the **Task details** page. |
 | Billing and pricing | 2499605 | Contract milestones that are created from quote milestones are incorrectly marked as read-only. |
 | Project planning and tracking | 2506050 | Operation set stays pending for one hour if there is no change to save and then falsely marks the set as **Failed**, when it should be completed immediately. |
 | Billing and pricing | 2507401 | Contracting unit defaults incorrectly on projects because of incorrect caching. |
