@@ -14,11 +14,11 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-A vendor invoice in Dynamics 365 Project Operations can have a vendor invoice lines for materials, also called as products. Vendor Invoice lines for material allow a Project Manager to record the costs of materials that were purchased on the project.
+A vendor invoice in Dynamics 365 Project Operations can have a vendor invoice lines for products, also referred to as materials. Vendor Invoice lines for product allow a Project Manager to record the costs of products that were purchased on the project.
 
-Vendor Invoice lines for material may or may not reference a subcontract line for material. When a vendor invoice line for material references a subcontract, Project managers will be able to match and verify the materials being invoiced by the vendor invoice line with the usage of purchased material recorded and approved by project manager.
+Vendor Invoice lines for product may or may not reference a subcontract line for material. When a vendor invoice line for products references a subcontract, Project managers will be able to match and verify the products being invoiced by the vendor invoice line with the usage of purchased product recorded and approved by project manager.
 
-The following table provides information about the fields on the  **Vendor Invoice line**  for material.
+The following table provides information about the fields on the  **Vendor Invoice line**  for products.
 
 | **Field** | **Description** | **Functional impact** |
 | --- | --- | --- |
