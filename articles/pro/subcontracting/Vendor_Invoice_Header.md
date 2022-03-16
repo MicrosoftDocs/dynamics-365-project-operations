@@ -1,7 +1,7 @@
 ---
 title: Header details for Vendor Invoice
 description: This topic explains the functionality provided on the Vendor Invoice header in Dynamics 365 Project Operations.
-ms.date: 03/15/2021
+ms.date: 03/15/2022
 ms.topic: article
 ms.reviewer: tonyafehr 
 ms.author: rumant
