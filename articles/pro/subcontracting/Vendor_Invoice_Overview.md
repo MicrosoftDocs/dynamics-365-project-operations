@@ -2,7 +2,7 @@
 title: Vendor Invoicing - Concept and Creation  
 description: This topic describes the concept of vendor invoice, scenarios for usage and how to create vendor invoices in Project Operations.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 03/15/2022
 ms.topic: article
 ms.reviewer: tonyafehr 
 ms.author: rumant
