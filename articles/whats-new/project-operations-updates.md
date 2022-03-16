@@ -49,6 +49,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | India                 |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
 |   &nbsp;  | France                |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
 |   &nbsp;  | South Africa          |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
+|   &nbsp;  | Switzerland           |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Japan                 |  4.30.0.99      | March 18, 2022     | March 18, 2022      | TBD                 | April 15, 2022      |
 |   &nbsp;  | Asia Pacific          |  4.30.0.99      | March 18, 2022     | March 18, 2022      | TBD                 | April 15, 2022      |
