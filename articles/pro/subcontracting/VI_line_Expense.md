@@ -21,8 +21,8 @@ Vendor Invoice lines for expense categories may or may not reference a subcontra
 The following table provides information about the fields on the  **Vendor Invoice line**  for expense categories.
 
 | **Field** | **Description** | **Functional impact** |
-| Name | Name of the vendor invoice line to help with identification. | This will be shown as the first column in all lookups based on vendor invoice lines. |
 | --- | --- | --- |
+| Name | Name of the vendor invoice line to help with identification. | This will be shown as the first column in all lookups based on vendor invoice lines. |
 | Description | A brief description of services that are being invoiced by the vendor on the vendor invoice line. | None |
 | Subcontract | The subcontract on which the services were originally ordered | When the vendor invoice has a subcontract selected, all lines on the vendor invoice will also inherit this selection. A vendor invoice cannot have vendor invoice lines that reference different subcontracts. |
 | Subcontract Line | The subcontract line on which the services were ordered.The list of subcontract lines that can be selected is limited to the lines on the subcontract selected | When a subcontract line is selected on a vendor invoice line for time, the fields Project, project task and Transaction category are defaulted from the corresponding values on the subcontract line. When the selected subcontract line has values in the Project, Project Task and Transaction Category fields, then the values of these fields on the vendor invoice line are not allowed to be different than those on the selected subcontract line. |
