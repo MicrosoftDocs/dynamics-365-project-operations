@@ -23,6 +23,49 @@ This list is intended to help you consider these removals and deprecations for y
 > [!NOTE]
 > Detailed information about objects in Finance and Operations apps can be found in the [**Technical reference reports**](/dynamics/s-e/global/axtechrefrep_61). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of Finance and Operations apps.
 
+## Features removed or deprecated in the Project Operations March 2022 release
+
+### Project management and accounting parameter "Always create adjustment transaction"
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reason for depreciation/ removal** | When depreciated, setting will be hidden from the User Interface. System will always create adjustment transactions, as this setting would be set to "Yes". Adjustment transactions are required for audit purposes.|
+| **Replaced by another features?** | No |
+| **Product areas affected** | Application  |
+| **Deployment option** | Project Operations for production/stocked scenarios |
+| **Status** | Deprecated: By March 1, 2023, we will hide the setting and change system behavior to always create adjustment transactions. |
+
+### Project management and accounting parameter "Use adjustment date as new project date"
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reason for depreciation/ removal** | This setting was originally used to allow adjustments when fiscal period is closed. Now this setting is not required, as accounting date of the transaction can be changed to the first date onf the open period if configured. Project date must not be changed, as it represents when transaction has occurred|
+| **Replaced by another features?** | No |
+| **Product areas affected** | Application  |
+| **Deployment option** | Project Operations for production/stocked scenarios |
+| **Status** | Deprecated: By March 1, 2023, we will hide the setting and change system behavior to never change project date on adjustment. |
+
+### Resource request workflow in Project Operations for stocked/ production- based scenarios
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reason for depreciation/ removal** | Depreciated due to low usage and transaction volumes limitations|
+| **Replaced by another features?** | No |
+| **Product areas affected** | Application  |
+| **Deployment option** | Project Operations for production/stocked scenarios |
+| **Status** | Deprecated: By March 1, 2023, we will disable option to request resources for the project using the workflow. |
+
+
+### Project invoice proposal form without header and lines view
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reason for depreciation/ removal** | Depreciated due to improved form introduced with the feature key Use Project invoice proposal and invoice journal forms with the Header and Lines view |
+| **Replaced by another features?** | Yes |
+| **Product areas affected** | Application  |
+| **Deployment option** | Project Operations for production/stocked scenarios; Project Operations for resource/ non-stocked scenarios |
+| **Status** | Deprecated: By March 1, 2023, we will disable legacy form and will make feature key "Use Project invoice proposal and invoice journal forms with the Header and Lines view" on by default |
+
 ## Features removed or deprecated in the Project Operations December 2021 release
 
 ### Collaboration workspaces
