@@ -948,6 +948,8 @@
       href: pro/subcontracting/recording-subcon-actuals.md
     - name: State transitions on a subcontract 
       href: pro/subcontracting/subcon-states.md
+    - name: Vendor Invoice Lines for Time 
+      href: pro/subcontracting/vendor_invoice_line_time.md
   - name: Time
     items: 
     - name: Time overview
