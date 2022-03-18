@@ -25,46 +25,45 @@ This list is intended to help you consider these removals and deprecations for y
 
 ## Features removed or deprecated in the Project Operations March 2022 release
 
-### Project management and accounting parameter "Always create adjustment transaction"
+### Project management and accounting "Always create adjustment transaction" parameter
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | When deprecated, this setting will be hidden. The system will always create adjustment transactions, as this setting would be set to **Yes**. Adjustment transactions are required for audit purposes.|
-| **Replaced by another features?** | No |
-| **Product areas affected** | Application  |
+| **Reason for deprecation/removal** | Adjustment transactions are required for audit purposes. After deprecation, this parameter will be hidden. The system will always create adjustment transactions, just as it currently does when the parameter is set to **Yes**. |
+| **Replaced by another feature?** | No |
+| **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By March 1, 2023, we will hide the setting and change the system behavior to always create adjustment transactions. |
+| **Status** | Deprecated: By March 1, 2023, we will hide the parameter and change the system behavior so that adjustment transactions are always created. |
 
-### Project management and accounting parameter, "Use adjustment date as new project date"
+### Project management and accounting "Use adjustment date as new project date" parameter
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | This setting was originally used to allow adjustments when a fiscal period was closed. This setting is no longer required, as the accounting date of the transaction can be changed to the first date of the open period, if configured. The Project date must not be changed because it represents when transaction occurred. |
-| **Replaced by another features?** | No |
-| **Product areas affected** | Application  |
+| **Reason for deprecation/removal** | This parameter was originally used to allow for adjustments when a fiscal period was closed. However, it's no longer required, because the accounting date of the transaction can be changed to the first date of the open period, if it's configured. The project date must not be changed, because it represents the date when transaction occurred. |
+| **Replaced by another feature?** | No |
+| **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By March 1, 2023, we will hide the setting and change the system behavior to never change the project date on adjustment. |
+| **Status** | Deprecated: By March 1, 2023, we will hide the parameter and change the system behavior so that the project date is never changed on adjustments. |
 
-### Resource request workflow in Project Operations for stocked/production- based scenarios
+### Resource request workflow in Project Operations for stocked/production-based scenarios
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | Depreciated due to low usage and transaction volume limitations. |
-| **Replaced by another features?** | No |
-| **Product areas affected** | Application  |
+| **Reason for deprecation/removal** | Deprecated because of low usage and transaction volume limitations. |
+| **Replaced by another feature?** | No |
+| **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By March 1, 2023, we will disable the option to request resources for the project using the workflow. |
+| **Status** | Deprecated: By March 1, 2023, we will disable the option to request resources for the project by using the workflow. |
 
-
-### Project invoice proposal form without header and lines view
+### Project invoice proposal page without Header and Lines views
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | Deprecated due to improved the form that was introduced with the feature key, **Use Project invoice proposal and invoice journal forms with the Header and Lines view**. |
-| **Replaced by another features?** | Yes |
-| **Product areas affected** | Application  |
+| **Reason for deprecation/removal** | Deprecated because of improvements to the page that was introduced together with the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature key. |
+| **Replaced by another feature?** | Yes |
+| **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios; Project Operations for resource/ non-stocked scenarios |
-| **Status** | Deprecated: By March 1, 2023, we will turn off the legacy form and turn the feature key, **Use Project invoice proposal and invoice journal forms with the Header and Lines view** on by default. |
+| **Status** | Deprecated: By March 1, 2023, we will turn off the earlier (legacy) page and turn on the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature key by default. |
 
 ## Features removed or deprecated in the Project Operations December 2021 release
 
@@ -75,7 +74,7 @@ This list is intended to help you consider these removals and deprecations for y
 | &nbsp; | &nbsp; |
 |--------|--------|
 | **Reason for deprecation/removal** | Deprecated due to low usage. Customers using Project Operations for resource/non-stocked scenarios can leverage [Collaboration with Office Groups](../project-management/collaboration-groups.md). |
-| **Replaced by another features?** | No |
+| **Replaced by another feature?** | No |
 | **Product areas affected** | Application  |
 | **Deployment option** | Project Operations for production/stocked scenarios |
 | **Status** | Deprecated: By December 1, 2022, we plan to no longer support Collaboration workspaces. |
