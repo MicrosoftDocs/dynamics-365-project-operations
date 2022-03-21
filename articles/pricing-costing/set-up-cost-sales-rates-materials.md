@@ -22,7 +22,7 @@ To set up cost and sales rates for products, complete the following steps.
 
 For more information about how to define prices for catalog items, see [Setup pricing for products](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!Note]
-> Dynamics 365 Project operations does not support all the pricing methods for products as Dyanmics 365 Sales. The only pring method supported for products is *Currency amount* for products used on projects.
+> Dynamics 365 Project operations does not support all the pricing methods for products as Dyanmics 365 Sales. The only pricing method supported for products to be used on projects is *Currency amount*.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
