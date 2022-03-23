@@ -1,6 +1,6 @@
 ---
-title: Vendor Invoice lines for products
-description: This topic explains how to record vendor invoice lines for products and use the various fields to record product purchases from vendors.
+title: Vendor invoice lines for products
+description: This topic explains how to record vendor invoice lines for products and use the different fields to record product purchases from vendors.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article
@@ -8,36 +8,36 @@ ms.reviewer: tonyafehr
 ms.author: rumant
 ---
 
-# Vendor Invoice lines for products
+# Vendor invoice lines for products
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-A vendor invoice in Dynamics 365 Project Operations can have a vendor invoice lines for products, also referred to as materials. Vendor Invoice lines for product allow a Project Manager to record the costs of products that were purchased on the project.
+A vendor invoice in Microsoft Dynamics 365 Project Operations can have vendor invoice lines for products (also referred to as materials). Project managers can use vendor invoice lines for products to record the costs of products that were purchased on projects.
 
-Vendor Invoice lines for product may or may not reference a subcontract line for material. When a vendor invoice line for products references a subcontract, Project managers will be able to match and verify the products being invoiced by the vendor invoice line with the usage of purchased product recorded and approved by project manager.
+Vendor invoice lines for products might or might not reference a subcontract line for materials. If a vendor invoice line for products references a subcontract, project managers will be able to match and verify the products that are being invoiced by the vendor invoice line against the use of purchased products that are recorded and approved by project managers.
 
-The following table provides information about the fields on the  **Vendor Invoice line**  for products.
+The following table provides information about the fields on vendor invoice lines for products.
 
-| **Field** | **Description** | **Functional impact** |
+| Field | Description | Functional impact |
 | --- | --- | --- |
-| Name | Name of the vendor invoice line to help with identification. | This will be shown as the first column in all lookups based on vendor invoice lines. |
+| Name | The name of the vendor invoice line, to help with identification. | This name will be shown as the first column in all lookups that are based on vendor invoice lines. |
 | Description | A brief description of the products that are being invoiced by the vendor on the vendor invoice line. | None |
-| Subcontract | The subcontract on which the products were originally ordered | When the vendor invoice has a subcontract selected, all lines on the vendor invoice will also inherit this selection. A vendor invoice cannot have vendor invoice lines that reference different subcontracts. |
-| Subcontract Line | The subcontract line on which the products were ordered.The list of subcontract lines that can be selected is limited to the lines on the subcontract selected | When a subcontract line is selected on a vendor invoice line for material, the fields Project, Project task and Product are defaulted from the corresponding values on the subcontract line. When the selected subcontract line has values in the Project, Task and Product fields, then the values of these fields on the vendor invoice line are not allowed to be different than those on the selected subcontract line. |
-| Transaction Date | Date on which the cost actual of this vendor invoice line will be recorded on the project | |
-| Transaction Class | When invoicing products, this field should be set to **Material**. | This indicates that the vendor invoice line is being used to record invoice amount for materials purchased. |
-| Project | Name of the project on which these products being invoiced were used | Project is a required field and cannot be left empty. |
-| Task | Name of the project task on which these products being invoiced were used. Project task field becomes available only when a project is selected. Selecting a project task is optional. | When left empty, the project manager can match this vendor invoice line to the purchased product used on any task of the project. If the vendor invoice line does not reference a subcontract line, leaving the project task field empty will result in the cost actual created by vendor invoice line to not be linked to any unbilled sales actuals. When task-based billing is setup, this could mean that these costs cannot be invoiced to the end customer as well. |
-| Select product | Select whether the product being invoiced is an **existing** product from the catalog or if it is a **Write – In** product | Defaulted from the subcontract line when the subcontract line is selected. |
-| Product | Select the product from the catalog. When the product is a Write-In product, type the name of the product | Product field is used to default purchase prices for existing products |
-| Quantity | Enter the quantity of material being invoiced by the vendor on this invoice line. | None |
-| Unit Group | Select the unit group of the unit in which the quantity being invoiced is expressed | None |
-| Unit | The default for this field is the base unit of **unit group** selected. You can change this value to pay in any unit of the selected **unit group** | The combination of  **Product**  and  **Unit**  will be used as the default or computed for the unit price for the vendor invoice line. |
-| Unit Price | The default unit price uses the combination of  **Product**  and  **Unit**  from the project price list applicable for the  **Transaction date** of the vendor invoice line. | None |
-| Subtotal | This is a read-only field that is calculated as Quantity x Unit price, if both the quantity and unit price values are entered. If either quantity, unit price, or both are blank, you can enter a value in the field. | None |
-| Sales Tax | Enter the sales tax amount. | None |
-| Total Amount | The total amount of the vendor invoice line including taxes. This field is calculated as Subtotal + Sales tax. | None |
+| Subcontract | The subcontract that the products were originally ordered on. | When a subcontract is selected for the vendor invoice, all lines on the vendor invoice will inherit that selection. A vendor invoice can't have vendor invoice lines that reference different subcontracts. |
+| Subcontract line | The subcontract line that the products were ordered on. The list of subcontract lines that can be selected is limited to the lines on the selected subcontract. | When a subcontract line is selected on a vendor invoice line for products, default values for the **Project**, **Task**, and **Product** fields are entered from the corresponding fields on the subcontract line. If the selected subcontract line has values in the **Project**, **Task**, and **Product** fields, the values of the corresponding fields on the vendor invoice line can't differ from those values. |
+| Transaction date | The date when the cost actual of the vendor invoice line will be recorded on the project. | |
+| Transaction class | When products are invoiced, this field should be set to **Material**. | The value **Material** indicates that the vendor invoice line is being used to record the invoice amount for materials that were purchased. |
+| Project | The name of the project that the products that are being invoiced were used on. | This field is required and can't be left blank. |
+| Task | The name of the project task that the products that are being invoiced were used on. This field is available only if a project is selected. Selection of a project task is optional. | If this field is left blank, the project manager can match the vendor invoice line to the purchased product that is used on any task of the project. If the vendor invoice line doesn't reference a subcontract line, and this field is left blank, the cost actual that is created by the vendor invoice line won't be linked to any unbilled sales actuals. In this case, if task-based billing is set up, the costs won't be able to be invoiced to the end customer. |
+| Select product | Select whether the product that is being invoiced is an existing product from the catalog or a write-in product. | The default value is entered from the subcontract line when a subcontract line is selected. |
+| Product | Select the product from the catalog. If the product is a write-in product, enter the name of the product. | This field is used to enter default purchase prices for existing products. |
+| Quantity | Enter the quantity of material that is being invoiced by the vendor on this invoice line. | None |
+| Unit group | Select the unit group of the unit that the quantity that is being invoiced is expressed in. | None |
+| Unit | The default value is the base unit of the unit group that is selected. You can change this value to pay in any unit of the selected unit group. | The combination of **Product** and **Unit** values will be used as the default or computed value for the **Unit price** field on the vendor invoice line. |
+| Unit price | The default unit price uses the combination of **Product** and **Unit** values from the project price list that is applicable to the transaction date of the vendor invoice line. | None |
+| Subtotal | This read-only field is calculated as *Quantity* &times; *Unit price*, if values are entered in both the **Quantity** field and the **Unit price** field. If one or both those fields are blank, you can enter a value in this field. | None |
+| Sales tax | Enter the sales tax amount. | None |
+| Total amount | The total amount of the vendor invoice line, including taxes. This field is calculated as *Subtotal* + *Sales tax*. | None |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
