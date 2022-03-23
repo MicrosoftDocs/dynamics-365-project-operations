@@ -48,7 +48,9 @@ Vendor invoices that are created in this way can also reference a subcontract.
 
 1. Go to **Purchasing** \> **Subcontracts**.
 2. Select one or more subcontracts.
-3. On the subcontract list page or the details page for single subcontract, select **Create vendor invoice** to create a new vendor invoice. A new vendor invoice in **Draft** status is created for each subcontract that you selected.
+3. On the subcontract list page or the details page for a single subcontract, select **Create vendor invoice** to create a new vendor invoice.
+
+A new vendor invoice in **Draft** status is created for each subcontract that you selected.
 
 Vendor invoices that you create in this way always reference the subcontract on the vendor invoice header. Each line on the subcontract that has a Time and material billing method will cause a line to be created on the vendor invoice. Each line on the subcontract that has a Fixed price billing method will cause a line to be created on the vendor invoice for every subcontract line milestone that has a status of **Ready to invoice**.
 
