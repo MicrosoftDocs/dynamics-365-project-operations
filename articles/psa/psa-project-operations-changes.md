@@ -197,7 +197,7 @@ The following new features have been added in Project Operations. These features
 
 ## Deprecated components
 
-The following tables document all deprecated fields that are moved to the deprecated components solution post upgrade. For more information and a link to the solution, see [Dynamics 365 Project Service Automation 3x to Project Operations 4x deprecated components](https://Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
+The following tables document all deprecated fields that are moved to the deprecated components solution post upgrade. For more information and a link to the solution, see [Dynamics 365 Project Service Automation 3x to Project Operations 4x deprecated components](https://github.com/microsoft/Dynamics365-Project-Operations-PowerApps/tree/main/3x-4x-deprecated-solution).
 
 ### invoicedetail
 
