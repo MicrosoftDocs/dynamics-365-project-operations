@@ -949,7 +949,7 @@
     - name: State transitions on a subcontract 
       href: pro/subcontracting/subcon-states.md
     - name: Vendor invoice lines for expense categories
-      href: pro/subcontracting/VI_line_Expense.md
+      href: pro/subcontracting/vi-line-expense.md
   - name: Time
     items: 
     - name: Time overview
