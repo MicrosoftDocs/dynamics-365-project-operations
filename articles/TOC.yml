@@ -948,8 +948,8 @@
       href: pro/subcontracting/recording-subcon-actuals.md
     - name: State transitions on a subcontract 
       href: pro/subcontracting/subcon-states.md
-    - name: Vendor Invoicing - Concept and Creation  
-      href: pro/subcontracting/Vendor_Invoice_Overview.md  
+    - name: Vendor invoicing - Concept and creation  
+      href: pro/subcontracting/vendor-invoice-overview.md  
   - name: Time
     items: 
     - name: Time overview
