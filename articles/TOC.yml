@@ -958,6 +958,8 @@
       href: pro/subcontracting/vi-line-material.md    
     - name: Vendor invoice lines for milestones
       href: pro/subcontracting/vi-line-milestone.md
+    - name: Vendor invoice lines for expense categories
+      href: pro/subcontracting/vi-line-expense.md
   - name: Time
     items: 
     - name: Time overview
