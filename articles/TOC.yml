@@ -949,7 +949,7 @@
     - name: State transitions on a subcontract 
       href: pro/subcontracting/subcon-states.md
     - name: Vendor Invoice lines for products
-      href: pro/subcontracting/VI__Line_material.md    
+      href: pro/subcontracting/vi-line-material.md    
   - name: Time
     items: 
     - name: Time overview
