@@ -2,7 +2,7 @@
 title: Vendor invoicing - Concept and creation
 description: This topic describes the concept of vendor invoices, scenarios for use, and how to create vendor invoices in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 03/15/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: tonyafehr 
 ms.author: rumant
