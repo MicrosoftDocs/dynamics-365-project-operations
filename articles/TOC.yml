@@ -62,6 +62,8 @@
       href: environment/uninstall-project-operations.md
   - name: What's new 
     items:
+    - name: March 2022 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-mar-2022-resource-based.md    
     - name: February 2022 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-feb-2022-resource-based.md
     - name: December 2021 - Project Operations for resource/non-stocked based scenarios
@@ -584,6 +586,8 @@
     items:
     - name: What's new 2021 wave 2 early access - lite deployment
       href: pro/whats-new/whats-new-2021-early-access-lite.md
+    - name: What's new March 2022 - lite deployment
+      href: pro/whats-new/whats-new-mar-2022-lite.md
     - name: What's new February 2022 - lite deployment
       href: pro/whats-new/whats-new-feb-2022-lite.md
     - name: What's new December 2021 - lite deployment
@@ -948,6 +952,12 @@
       href: pro/subcontracting/recording-subcon-actuals.md
     - name: State transitions on a subcontract 
       href: pro/subcontracting/subcon-states.md
+    - name: Vendor invoicing - Concept and creation  
+      href: pro/subcontracting/vendor-invoice-overview.md  
+    - name: Vendor invoice lines for products
+      href: pro/subcontracting/vi-line-material.md    
+    - name: Vendor invoice lines for milestones
+      href: pro/subcontracting/vi-line-milestone.md
     - name: Vendor invoice lines for expense categories
       href: pro/subcontracting/vi-line-expense.md
   - name: Time
