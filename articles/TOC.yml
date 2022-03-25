@@ -949,8 +949,8 @@
     - name: State transitions on a subcontract 
       href: pro/subcontracting/subcon-states.md
     - name: Vendor invoice line milestones
-      href: pro/subcontracting/VI_Line_Milestone.md
-- name: Time
+      href: pro/subcontracting/vi-line-milestone.md
+  - name: Time
     items: 
     - name: Time overview
       href: time/time-entry-overview.md
