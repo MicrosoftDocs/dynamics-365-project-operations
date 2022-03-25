@@ -954,6 +954,8 @@
       href: pro/subcontracting/subcon-states.md
     - name: Vendor invoicing - Concept and creation  
       href: pro/subcontracting/vendor-invoice-overview.md  
+    - name: Vendor invoice lines for time 
+      href: pro/subcontracting/vendor-invoice-line-time.md
     - name: Vendor invoice lines for products
       href: pro/subcontracting/vi-line-material.md    
     - name: Vendor invoice lines for milestones
