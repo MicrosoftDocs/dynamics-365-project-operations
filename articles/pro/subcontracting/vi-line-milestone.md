@@ -2,7 +2,7 @@
 title: Vendor invoice lines for milestones
 description: This topic explains how to create vendor invoice lines for milestones on a subcontract.
 author: rumant
-ms.date: 03/15/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: tonyafehr 
 ms.author: rumant
