@@ -2,7 +2,7 @@
 title: Project Operations updates
 description: This topic provides information about the released versions of Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 11/15/2021
+ms.date: 03/28/2022
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
