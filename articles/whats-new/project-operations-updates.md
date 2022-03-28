@@ -2,7 +2,7 @@
 title: Project Operations updates
 description: This topic provides information about the released versions of Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 11/15/2021
+ms.date: 03/28/2022
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -42,24 +42,24 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.30.0.99      | Complete           | Complete            | TBD                 | April 1, 2022       |
+|   &nbsp;  | First Release         |  4.30.0.99      | Complete           | Complete            | TBD                 | April 01, 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
-|   &nbsp;  | Canada                |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
-|   &nbsp;  | India                 |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
-|   &nbsp;  | France                |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
-|   &nbsp;  | South Africa          |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
-|   &nbsp;  | Switzerland           |  4.30.0.99      | Complete           | Complete            | TBD                 | April 8, 2022       |
+|   &nbsp;  | South America         |  4.30.0.99      | Complete           | Complete            | TBD                 | April 01, 2022       |
+|   &nbsp;  | Canada                |  4.30.0.99      | Complete           | Complete            | TBD                 | April 01, 2022       |
+|   &nbsp;  | India                 |  4.30.0.99      | Complete           | Complete            | TBD                 | April 01, 2022       |
+|   &nbsp;  | France                |  4.30.0.99      | Complete           | Complete            | TBD                 | April 01, 2022       |
+|   &nbsp;  | South Africa          |  4.30.0.99      | Complete           | Complete            | TBD                 | April 01, 2022       |
+|   &nbsp;  | Switzerland           |  4.30.0.99      | Complete           | Complete            | TBD                 | April 01, 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.30.0.99      | Complete           | Complete            | TBD                 | April 15, 2022      |
-|   &nbsp;  | Asia Pacific          |  4.30.0.99      | Complete           | Complete            | TBD                 | April 15, 2022      |
-|   &nbsp;  | Great Britain         |  4.30.0.99      | Complete           | Complete            | TBD                 | April 15, 2022      |
-|   &nbsp;  | Oceania               |  4.30.0.99      | Complete           | Complete            | TBD                 | April 15, 2022      |
-|   &nbsp;  | United Arab Emirates  |  4.30.0.99      | Complete           | Complete            | TBD                 | April 15, 2022      |
+|   &nbsp;  | Japan                 |  4.30.0.99      | Complete           | Complete            | TBD                 | April 08, 2022      |
+|   &nbsp;  | Asia Pacific          |  4.30.0.99      | Complete           | Complete            | TBD                 | April 08, 2022      |
+|   &nbsp;  | Great Britain         |  4.30.0.99      | Complete           | Complete            | TBD                 | April 08, 2022      |
+|   &nbsp;  | Oceania               |  4.30.0.99      | Complete           | Complete            | TBD                 | April 08, 2022      |
+|   &nbsp;  | United Arab Emirates  |  4.30.0.99      | Complete           | Complete            | TBD                 | April 08, 2022      |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.30.0.99      | March 25, 2022     | March 25, 2022      | TBD                 | April 22, 2022      |
+|   &nbsp;  | Europe                |  4.30.0.99      | Complete           | Complete            | TBD                 | April 15, 2022      |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.28.0.120     | Complete           | Complete            | 4.30.0.99           | March 25, 2022      |
+|   &nbsp;  | North America         |  4.30.0.99      | April 01, 2022     | April 01, 2022      | TBD                 | April 22, 2022      |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
