@@ -8,6 +8,7 @@ ms.reviewer: tonyafehr
 ms.author: rumant
 ---
 
+
 # Verification of vendor invoices with approved actuals
 
 [!include [banner](../../includes/dataverse-preview.md)]
@@ -57,3 +58,6 @@ Unmatching cost actuals also helps with the verification process on a vendor inv
 
 1. Open the vendor invoice line and navigate to the M **atched Cost Actuals** tab. A list of cost actuals that reference the vendor invoice line are shown
 2. Select one or more of these cost actuals and click on **Unmatch** from the grid tool bar
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
