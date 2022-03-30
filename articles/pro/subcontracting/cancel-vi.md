@@ -25,6 +25,6 @@ The following will be the behavior on clicking &quot;Cancel&quot; on a vendor in
 5. Once a vendor invoice is cancelled, it will become possible to create Correction journals or process time entry recalls or cancel approval on the original time, expense or material actuals again.
 
 >[!Note]
->Vendor invoice cancellation is only possible confirmed vendor invoices.
+>Only confirmed project vendor invoices can be canceled. Vendor invoices in any other states cannot be canceled.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
