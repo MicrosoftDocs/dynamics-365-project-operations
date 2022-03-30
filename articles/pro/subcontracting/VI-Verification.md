@@ -13,7 +13,7 @@ ms.author: rumant
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_Verifying a vendor invoice line
+_**Applies To:** Lite deployment - deal to proforma invoicing
 
 Project Operations supports verification of vendor invoice lines by project managers by
 
