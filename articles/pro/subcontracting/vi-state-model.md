@@ -15,6 +15,9 @@ ms.author: rumant
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 This topic explains the state transitions on a vendor invoice in Microsoft Dynamics 365 Project Operations. Each state is represented as either Draft, In review, On hold, confirmed, or canceled. The following image represents the state transitions.
+The following image represents the state transitions.
+
+![Subcontract state model](../media/SubconStates.png)  
 
 The following table provides a description of what each state represents in the lifecycle of a vendor invoice in Project Operations.
 
