@@ -24,7 +24,7 @@ Per diems are now supported in the new and reimagined modern expense workspace. 
 
 ## Project Operations dual-write maps updates
 
-The following list shows the dual-write maps that have been modified or added in the Project Operations March 2021 release.
+The following list shows the dual-write maps that have been modified or added in the Project Operations March 2022 release.
 
 | **Entity map** | **Updated version** | **Comments** |
 | --- | --- | --- |
