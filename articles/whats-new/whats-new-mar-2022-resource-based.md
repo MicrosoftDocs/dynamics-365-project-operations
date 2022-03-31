@@ -2,7 +2,7 @@
 title: What's new March 2022 - Project Operations for resource/non-stocked based scenarios
 description: This topic provides information about the quality updates that are available in the March 2022 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-ms.date: 03/15/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
@@ -24,11 +24,11 @@ Per diems are now supported in the new and reimagined modern expense workspace. 
 
 ## Project Operations dual-write maps updates
 
-The following list shows the dual-write maps that have been modified or added in the Project Operations April 2021 release.
+The following list shows the dual-write maps that have been modified or added in the Project Operations March 2021 release.
 
 | **Entity map** | **Updated version** | **Comments** |
 | --- | --- | --- |
-| Project Operations integration project vendor invoice line export entity msdyn\_projectvendorinvoicelines | 1.0.0.3 | Mappings updated to align with vendor invoice line entity in Dataverse. Note: do not activate mapping version 1.0.0.4, it will be ready to use in combination with Dynamics 365 Finance environment version 10.0.26 in the next monthly update. |
+| Project Operations integration project vendor invoice line export entity msdyn\_projectvendorinvoicelines | 1.0.0.3 | Mappings updated to align with vendor invoice line entity in Dataverse. <br> > **NOTE:** Don't activate mapping version 1.0.0.4. It will be ready to use in combination with Finance environment version 10.0.26 in the next monthly update. |
 
 Always run the latest version of the map in your environment, and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Some features and capabilities might not work correctly if the latest version of the map isn't activated. You can view the active version of the map in the **Version** column on the **Dual-write** page. To activate a new version of the map, select **Table map versions**, select the latest version, and then save the selected version. If you've customized an out-of-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
