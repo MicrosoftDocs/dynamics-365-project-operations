@@ -28,7 +28,7 @@ The following list shows the dual-write maps that have been modified or added in
 
 | **Entity map** | **Updated version** | **Comments** |
 | --- | --- | --- |
-| Project Operations integration project vendor invoice line export entity msdyn\_projectvendorinvoicelines | 1.0.0.3 | Mappings updated to align with vendor invoice line entity in Dataverse. <br> > **NOTE:** Don't activate mapping version 1.0.0.4. It will be ready to use in combination with Finance environment version 10.0.26 in the next monthly update. |
+| Project Operations integration project vendor invoice line export entity msdyn\_projectvendorinvoicelines | 1.0.0.3 | Mappings updated to align with vendor invoice line entity in Dataverse. <br>Don't activate mapping version 1.0.0.4. It will be ready to use in combination with Finance environment version 10.0.26 in the next monthly update. |
 
 Always run the latest version of the map in your environment, and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Some features and capabilities might not work correctly if the latest version of the map isn't activated. You can view the active version of the map in the **Version** column on the **Dual-write** page. To activate a new version of the map, select **Table map versions**, select the latest version, and then save the selected version. If you've customized an out-of-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
