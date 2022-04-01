@@ -66,6 +66,9 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 4. Remove the field from the **Project Parameters** page.
 
+### Mitigation 3: Login to project.microsoft.com
+Open a new tab and navigate to project.microsoft.com and login with the user you are using to access Project Operations.
+
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
 For the purposes of authentication, pop-ups must be enabled for the Task grid to load. If pop-ups aren't enabled, the screen will be stuck on the loading spinner. The following graphic shows the URL with a blocked pop-up label in the address bar which is resulting in the spinner getting stuck trying to load the page. 
