@@ -964,8 +964,8 @@
       href: pro/subcontracting/vi-line-milestone.md
     - name: Vendor invoice lines for expense categories
       href: pro/subcontracting/vi-line-expense.md
-    - name: State transitions on a vendor invoice
-      href: pro/subcontracting/vi-state-model.md   
+    - name: Confirm a project vendor invoice
+      href: pro/subcontracting/confirm-vi.md
   - name: Time
     items: 
     - name: Time overview
