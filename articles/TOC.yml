@@ -966,6 +966,10 @@
       href: pro/subcontracting/vi-line-expense.md
     - name: Verification of vendor invoices with approved actuals
       href: pro/subcontracting/VI-Verification.md
+    - name: Cancel a project vendor invoice
+      href: pro/subcontracting/cancel-vi.md
+    - name: Confirm a project vendor invoice
+      href: pro/subcontracting/confirm-vi.md
   - name: Time
     items: 
     - name: Time overview
