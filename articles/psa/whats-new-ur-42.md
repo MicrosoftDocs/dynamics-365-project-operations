@@ -3,7 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 42, V3
 description: This topic lists the features and fixes that are available in Microsoft Dynamics 365 Project Service Automation Update Release 42, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 04/07/2022
+ms.date: 04/05/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -32,9 +32,9 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed.
 
 **Time and Expense**
-- When a time sheet is rejected, the user who rejected the time sheet is incorrectly identified as "System".
-- When importing time entries, the Resource Category is missing.
-- Project Approvers are able to approve submitted projects when their permissions are not specifically set to "Can Approve".
+- When a time sheet is rejected, the user who rejected the time sheet is incorrectly identified as **System**.
+- When importing time entries, the **Resource Category** is missing.
+- Project Approvers are able to approve submitted projects when their permissions are not specifically set to **Can Approve**.
 
 **Sales**
 - When actuals are logged on non-root level tasks, the actual costs are incorrectly aggregated.
