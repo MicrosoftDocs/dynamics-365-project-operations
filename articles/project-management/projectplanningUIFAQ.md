@@ -2,7 +2,7 @@
 title: Troubleshoot working in the Task grid 
 description: This topic provides troubleshooting information needed when working in the Task grid.
 author:  ruhercul
-ms.date: 09/22/2021 
+ms.date: 04/05/2022
 ms.topic: article
 ms.product:
 ms.reviewer: kfend
@@ -66,8 +66,8 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 4. Remove the field from the **Project Parameters** page.
 
-### Mitigation 3: Login to project.microsoft.com
-In your Edge browser, open a new tab, navigate to project.microsoft.com, and then login with the user you are using to access Project Operations.
+### Mitigation 3: Log in to project.microsoft.com
+In your Edge browser, open a new tab, navigate to project.microsoft.com, and then log in with the user role you are using to access Project Operations.
 
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
