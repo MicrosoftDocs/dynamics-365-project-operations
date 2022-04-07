@@ -61,7 +61,7 @@ Before you submit an expense report, you can select the cash advance that aligns
  
  When these features are enabled:
  
-  - You can sadd one or more cash advances for each expense line.
+  - You can add one or more cash advances for each expense line.
   - The available balance of a cash advance is visible in real time when an expense report is saved. This allows you to process expense transactions and return cash transaction at the same time.
   - You can select multiple cash advances for one expense transaction.
   - Cash advance reconciliation data is available by using a query. 
