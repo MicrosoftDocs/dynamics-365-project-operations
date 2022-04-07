@@ -32,9 +32,11 @@ This topic lists the features and fixes that are new or changed for Project Serv
 The following issues have been fixed.
 
 **Time and Expense**
-- When a time sheet is rejected, the user who rejected the time sheet is incorrectly identified as **System**.
-- When importing time entries, the **Resource Category** is missing.
-- Project Approvers are able to approve submitted projects when their permissions are not specifically set to **Can Approve**.
+
+- When a time sheet is rejected, the user who rejected it is incorrectly identified as **System**.
+- When time entries are imported, the **Resource Category** value is missing.
+- Project approvers can approve submitted projects when their permissions aren't specifically set to **Can Approve**.
 
 **Sales**
+
 - When actuals are logged on non-root level tasks, the actual costs are incorrectly aggregated.
