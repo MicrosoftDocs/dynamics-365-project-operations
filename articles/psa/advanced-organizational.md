@@ -1,5 +1,5 @@
 ---
-title: Organizational units
+title: Advanced organizational units
 description: This topic provides information about organizational units in Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom: 
@@ -20,7 +20,7 @@ search.app:
   - ProjectOperations
 ---
 
-# Organizational units 
+# About organizational units 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
