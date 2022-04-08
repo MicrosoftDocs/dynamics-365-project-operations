@@ -916,7 +916,7 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
-  - name: Subcontract management in Project Operations
+  - name: Subcontract Management
     items: 
     - name: Subcontract management in Project Operations
       href: pro/subcontracting/managing-subcontracts-overview.md
@@ -952,6 +952,8 @@
       href: pro/subcontracting/recording-subcon-actuals.md
     - name: State transitions on a subcontract 
       href: pro/subcontracting/subcon-states.md
+  - name: Project vendor invoices 
+    items:  
     - name: Vendor invoicing - Concept and creation  
       href: pro/subcontracting/vendor-invoice-overview.md  
     - name: Header details for vendor invoices
