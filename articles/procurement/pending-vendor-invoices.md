@@ -9,7 +9,7 @@ ms.reviewer: kfend
 ms.author: sigitac
 ---
 
-# Purchase non-stocked materials using a pending vendor invoice
+# Purchase non-stocked materials or procurement categories using a pending vendor invoice
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
