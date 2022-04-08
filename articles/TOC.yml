@@ -478,9 +478,11 @@
     items:
     - name: Configure non-stocked materials and pending vendor invoices
       href: procurement/configure-materials-nonstocked.md
-    - name: Procure non-stocked materials for projects using pending vendor invoices
+    - name: Configure procurement categories for projects
+      href: procurement/configure_procurement-categories.md      
+    - name: Procure goods and services for projects using pending vendor invoices
       href: procurement/pending-vendor-invoices.md
-    - name: Order non-stocked materials for projects using project purchase orders
+    - name: Order goods and services for projects using project purchase orders
       href: procurement/non-stocked-materials-project-purchase-orders.md
     - name: Vendor retention
       items:
