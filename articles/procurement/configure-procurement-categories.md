@@ -42,7 +42,7 @@ Complete the following steps to enable functionality to use procurement categori
 Complete the following steps to map **Project categories** to **Procurement categories** in the **Procurement category** hierarchy:
 
 1. Go to **navigation pane > Modules > Procurement and sourcing > Procurement categories**.
-1. Select **Edit category hierarchy**
+1. Select **Edit category hierarchy**.
 1. Select the desired category hierarchy node, and then in the **Assign project categories** tab, associate the node with the Project category from the Time, Expense or Item Project category (i.e. Default-Time or Default-Expense categories).
 1. Select **Save**.
 1. Close the page.
