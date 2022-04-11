@@ -14,7 +14,7 @@ ms.author: sigitac
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Purchasing professionals can create and maintain catalogs of the items and services that can be used in **Project purchase orders** and **Pending vendor invoices**.
-[Procurement catalogs](https://docs.microsoft.com/en-us/dynamics365/supply-chain/procurement/procurement-catalogs) provide an easy way to categorize purchases without a need to configure and use a released products catalog. Each **Procurement category** can be mapped to a **Project category** for time, expense or item transactions.
+[Procurement catalogs](/supply-chain/procurement/procurement-catalogs) provide an easy way to categorize purchases without a need to configure and use a released products catalog. Each **Procurement category** can be mapped to a **Project category** for time, expense or item transactions.
 After a pending vendor invoice that uses a procurement category is posted, the system will create time, expense or material project actuals, project transactions and subledger entries.
 
 ## Minimum version requirement
