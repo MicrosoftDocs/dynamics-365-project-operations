@@ -43,13 +43,15 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |<strong>Station 1</strong> | |  |  | |
 | | <i>First Release</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | April 29, 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 08, 2022
-| | <i>Canada</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 08, 2022
-| | <i>India</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 08, 2022
-| | <i>France</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 08, 2022
-| | <i>South Africa</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 08, 2022
-| | <i>Germany</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 08, 2022
-| | <i>Switzerland</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 08, 2022
+| | <i>South America</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
+| | <i>Canada</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
+| | <i>India</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
+| | <i>France</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
+| | <i>South Africa</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
+| | <i>Germany</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
+| | <i>Switzerland</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
+| | <i>Korea</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
+| | <i>Norway</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 15, 2022
 | | <i>Asia Pacific</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 15, 2022
@@ -62,7 +64,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>North America</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 29, 2022
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 29, 2022
-| | <i>Dedicated Scale Groups</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | April 08, 2022
+| | <i>Dedicated Scale Groups</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | May 06, 2022
 
 
 
