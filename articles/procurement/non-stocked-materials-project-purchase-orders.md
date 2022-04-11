@@ -22,7 +22,7 @@ Complete the following steps to enable the project purchase orders functionality
 2. In the feature list, find and select the feature, **Enable project purchase orders on Project Operations for resource based/non-stocked scenarios**.
 3. Select **Enable**.
 4. Configure non-stocked materials and pending vendor invoices as described in [Configure non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md).
-5. Configure procurement categories as described in [Use procurement categories with project purchase orders and pending vendor invoices].(configure_procurement-categories.md)
+5. Configure procurement categories as described in [Use procurement categories with project purchase orders and pending vendor invoices](configure-procurement-categories.md).
 
 ## Create a project purchase order from the project purchase order list
 
