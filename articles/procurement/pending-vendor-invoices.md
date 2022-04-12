@@ -18,20 +18,20 @@ As a company procures non-stocked materials or procurement categories for a proj
 For example, Contoso Robotics US is performing an equipment renewal project and needs software licenses. These licenses are procured from a third-party vendor.  Using Dynamics 365 Finance, the Accounts payable clerk records a pending vendor invoice document and attributes the license costs directly against the equipment renewal project. 
 
 > [!IMPORTANT]
-> Before you use the functionality described in this topic, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md) and [Use procurement categories with project purchase orders and pending vendor invoices].(configure_procurement-categories.md)
+> Before you use the functionality described in this topic, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md) and [Use procurement categories with project purchase orders and pending vendor invoices](configure-procurement-categories.md)
 
 ## Post a project-related pending vendor invoice 
 
 Pending vendor invoices can be recorded on the **Pending vendor invoices** page (**Accounts payable** > **Invoices** > **Pending vendor invoices**). Complete the following steps to post a project-related pending vendor invoice:
 
 1. Go to **Accounts payable** > **Invoices** and select **New**. 
-2. In the **Invoice account** field, select a vendor and in the **Number** field, enter the vendor invoice identification.
-3. Add a line to the vendor invoice and in the **Item number** field, select the non-stocked item purchased from the vendor or alternatively select **Procurement category** to be purchased from the vendor.   
-4. Add the quantity purchased. The system will populate the unit price based on the non-stocked item price configuration. 
-5. Verify the total amount and other required details on the line.
-6. On the line details, on the **Project** tab, select the ID of the project that this item will be recorded to.
-7. Optionally, select the activity number, and update the project category and line property.
-8. Post pending vendor invoice. When the invoice is posted, the system records:
+1. In the **Invoice account** field, select a vendor and in the **Number** field, enter the vendor invoice identification.
+1. Add a line to the vendor invoice and in the **Item number** field, select the non-stocked item purchased from the vendor or alternatively select **Procurement category** to be purchased from the vendor.   
+1. Add the quantity purchased. The system will populate the unit price based on the non-stocked item price configuration. 
+1. Verify the total amount and other required details on the line.
+1. On the line details, on the **Project** tab, select the ID of the project that this item will be recorded to.
+1. Optionally, select the activity number, and update the project category and line property.
+1. Post pending vendor invoice. When the invoice is posted, the system records:
     
     - The vendor balance amount.
     - The sales tax amount.
