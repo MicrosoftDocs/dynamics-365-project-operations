@@ -11,7 +11,7 @@ ms.author: sigitac
 
 # What's new April 2022 - Project Operations for resource/non-stocked based scenarios
 
-*Applies To: Project Operations for resource/non-stocked based scenarios*
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -20,14 +20,14 @@ This topic applies to the following components and versions of Microsoft Dynamic
 
 ## Features included in this release
 
-Procurement categories can be used in Project purchase orders and pending vendor invoices. See more detail in [Use procurement categories with project purchase orders and pending vendor invoices](configure_procurement-categories.md)
+**Procurement categories** can be used in **Project purchase orders** and pending vendor invoices. See more detail in [Use procurement categories with project purchase orders and pending vendor invoices](configure-procurement-categories.md)
 
 ## Project Operations dual-write maps updates
 
 The following list shows the dual-write maps that have been modified or added in the Project Operations March 2022 release.
 
 | **Entity map** | **Updated version** | **Comments** |
-| --- | --- | --- |
+| -------------- | ------------------- | --- ---------|
 | Project Operations integration project vendor invoice line export entity msdyn\_projectvendorinvoicelines | 1.0.0.4 | Supporting procurement categories usage with purchase orders and pending vendor invoices|
 
 Always run the latest version of the map in your environment, and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Some features and capabilities might not work correctly if the latest version of the map isn't activated. You can view the active version of the map in the **Version** column on the **Dual-write** page. To activate a new version of the map, select **Table map versions**, select the latest version, and then save the selected version. If you've customized an out-of-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
@@ -39,7 +39,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 ### Project Operations on Dataverse
 
 | Feature area | Reference number | Quality update |
-| --- | --- | --- |
+| ------------ | ---------------- | -------------- |
 | Time and expense | 2573900 | Modern Approval feature must be enabled by default |
 | Billing and pricing | 2603313 | Fixed duplicate record error preventing adding quote/ contract line with product |
 | Deployment and configuration | 2611368 | Customer must be able to add up to 5 custom entities to the solution using modern app designer. |
