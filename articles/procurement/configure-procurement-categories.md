@@ -14,7 +14,7 @@ ms.author: sigitac
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Purchasing professionals can create and maintain catalogs of the items and services that can be used in **Project purchase orders** and **Pending vendor invoices**.
-[Procurement catalogs](/supply-chain/procurement/procurement-catalogs) provide an easy way to categorize purchases without a need to configure and use a released products catalog. Each **Procurement category** can be mapped to a **Project category** for time, expense or item transactions.
+[Procurement catalogs](/dynamics365/supply-chain/procurement/procurement-catalogs) provide an easy way to categorize purchases without a need to configure and use a released products catalog. Each **Procurement category** can be mapped to a **Project category** for time, expense or item transactions.
 After a pending vendor invoice that uses a procurement category is posted, the system will create time, expense or material project actuals, project transactions and subledger entries.
 
 ## Minimum version requirement
@@ -32,7 +32,7 @@ Ensure the mapping for **Project Operations integration project vendor invoice l
 Complete the following steps to enable functionality to use procurement categories with project purchase orders.
 
 1. In Dynamics 365 Finance, go to the **Feature management** workspace.
-2. In the feature list, find the **Use procurement categories in Project Operations for resource based/non-stocked scenarios** feature, and then select **Enable**.
+1. In the feature list, find the **Use procurement categories in Project Operations for resource based/non-stocked scenarios** feature, and then select **Enable**.
 
 > [!NOTE]
 > As a prerequisite, you must also enable the feature **Enable pending vendor invoices on Project Operations for resource based/non-stocked scenarios**.
@@ -42,10 +42,10 @@ Complete the following steps to enable functionality to use procurement categori
 Complete the following steps to map **Project categories** to **Procurement categories** in the **Procurement category** hierarchy:
 
 1. Go to **navigation pane > Modules > Procurement and sourcing > Procurement categories**.
-2. Select **Edit category hierarchy**.
-3. Select the desired category hierarchy node, and then in the **Assign project categories** tab, associate the node with the Project category from the Time, Expense or Item Project category (i.e. Default-Time or Default-Expense categories).
-4. Select **Save**.
-5. Close the page.
+1. Select **Edit category hierarchy**.
+1. Select the desired category hierarchy node, and then in the **Assign project categories** tab, associate the node with the Project category from the Time, Expense or Item Project category (i.e. Default-Time or Default-Expense categories).
+1. Select **Save**.
+1. Close the page.
 
 > [!NOTE]
 > Mapping a **Procurement category** to **Project category** is optional. If **Procurement category** is not mapped, the system will use the value set in the **Project Management and Accounting parameters > Project Operations on Dynamics 365 Customer engagement > Project category defaults > Item**.
