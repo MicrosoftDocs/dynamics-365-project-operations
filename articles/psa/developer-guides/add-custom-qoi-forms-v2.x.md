@@ -6,7 +6,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-#
 ms.author: makk
 audience: admin
 search.audienceType: 
@@ -15,6 +14,7 @@ search.audienceType:
 search.app: 
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Add new custom entity forms (Project Service Automation 2.x)

@@ -6,8 +6,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 7/31/2018
 ms.topic: article
-#
-#
 ms.author: revathim
 audience: Admin
 search.audienceType: 
@@ -18,6 +16,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Allow someone else to enter your time entry or expense (Project Service)
 

@@ -16,6 +16,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Use the Project Service Automation Add-in to plan your work in Microsoft Project

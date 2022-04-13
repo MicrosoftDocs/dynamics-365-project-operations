@@ -1,8 +1,6 @@
 ---
 title: Quoting, pricing, and billing home page
 description: This topic provides information about quoting, pricing, and billing.
-#
-#
 author: rumant
 ms.author: rumant
 ms.custom: 
@@ -19,6 +17,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Quoting, pricing, and billing home page
