@@ -66,8 +66,8 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 
 4. Remove the field from the **Project Parameters** page.
 
-### Mitigation 3: Log in to project.microsoft.com
-In your Edge browser, open a new tab, navigate to project.microsoft.com, and then log in with the user role you are using to access Project Operations.
+### Mitigation 3: Sign in to project.microsoft.com
+In your Microsoft Edge browser, open a new tab, go to project.microsoft.com, and sign in by using the user role that you're using to access Project Operations.
 
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
