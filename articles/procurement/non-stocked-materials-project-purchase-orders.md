@@ -33,9 +33,9 @@ Complete the following steps to enable the project purchase orders functionality
 5. Enter an item number or procurement category, quantity, unit, unit price, and other information as appropriate.
 
     > [!NOTE]
-    > Only procurement categories, non-stocked items and services can be used with project purchase orders. Stocked items aren't supported.
+    > Only procurement categories, non-stocked items, and services can be used with project purchase orders. Stocked items aren't supported.
 
-6. Continue to add items or procurement categories as required and confirm the purchase order.
+6. Continue to add items or procurement categories as required, and confirm the purchase order.
 
     Goods and services receipts can be recorded by creating and posting a product receipt.
 
