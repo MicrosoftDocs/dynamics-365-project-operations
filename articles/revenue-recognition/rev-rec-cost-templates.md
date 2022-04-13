@@ -4,7 +4,7 @@ description: This topic provides information about how to create and use cost te
 author:  sigitac
 ms.date: 11/18/2020 
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

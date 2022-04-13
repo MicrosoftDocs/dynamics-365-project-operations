@@ -4,7 +4,7 @@ description: This topic provides information about how to work with expense entr
 author: stsporen
 ms.date: 11/19/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 

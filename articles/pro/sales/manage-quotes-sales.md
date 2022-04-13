@@ -4,7 +4,7 @@ description: This topic provides information about project quotes.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

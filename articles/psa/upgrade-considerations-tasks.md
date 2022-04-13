@@ -5,8 +5,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 10/18/2019
 ms.topic: article
-#
-#
 author: ruhercul
 ms.author: ruhercul
 audience: Admin
@@ -18,6 +16,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

@@ -7,8 +7,6 @@ ms.custom:
   - intro-internal
 ms.date: 11/28/2018
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -19,6 +17,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Resourcing projects home page
 

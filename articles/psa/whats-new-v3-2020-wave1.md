@@ -5,8 +5,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 05/15/2020
 ms.topic: article
-#
-#
 author: stsporen
 ms.author: stsporen
 audience: Admin
@@ -18,6 +16,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

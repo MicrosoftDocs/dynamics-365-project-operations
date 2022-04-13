@@ -14,7 +14,7 @@ ms.technology:
 # ms.search.form:  
 audience: Application User
 # ms.devlang: 
-ms.reviewer: roschlom
+ms.reviewer: johnmichalak
 ms.search.scope: Operations, Core 
 # ms.tgt_pltfrm: 
 # ms.custom: 

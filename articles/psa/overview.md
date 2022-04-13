@@ -7,8 +7,6 @@ ms.custom:
   - intro-internal
 ms.date: 9/23/2019
 ms.topic: overview
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -19,6 +17,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # What is Dynamics 365 Project Service Automation?
 

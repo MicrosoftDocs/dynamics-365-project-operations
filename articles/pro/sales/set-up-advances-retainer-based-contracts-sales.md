@@ -4,7 +4,7 @@ description: This topic provides information about retainer-based contracting mo
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

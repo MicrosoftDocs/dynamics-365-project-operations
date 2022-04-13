@@ -6,7 +6,7 @@ description: This topic provides information about how to create and confirm cor
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---

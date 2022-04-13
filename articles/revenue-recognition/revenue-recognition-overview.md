@@ -4,7 +4,7 @@ description: This topic provides information about revenue recognition in Projec
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 
 ---

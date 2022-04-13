@@ -4,7 +4,7 @@ description: This topic explains how to manually deploy the Project Operations D
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 # Manually deploy the Project Operations Dataverse app with dual-write support

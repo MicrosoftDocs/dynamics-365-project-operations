@@ -4,7 +4,7 @@ description: This topic explains the subcontracting options for project team mem
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

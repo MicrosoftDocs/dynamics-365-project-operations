@@ -4,7 +4,7 @@ description: This topic provides information about resolving sales prices on pro
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

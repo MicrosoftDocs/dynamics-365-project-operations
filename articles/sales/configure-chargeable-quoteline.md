@@ -4,7 +4,7 @@ description: This topic provides information about included, chargeable, and non
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

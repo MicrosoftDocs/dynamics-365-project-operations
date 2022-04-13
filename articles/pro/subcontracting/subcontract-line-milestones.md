@@ -4,7 +4,7 @@ description: This topic explains how to create and maintain a milestone-based in
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

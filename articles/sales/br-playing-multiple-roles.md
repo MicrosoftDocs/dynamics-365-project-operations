@@ -4,7 +4,7 @@ description: This topic explains how to use pricing dimensions to support pricin
 author:  rumant
 ms.date: 11/16/2020  
 ms.topic: article 
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant 
 
 --- 

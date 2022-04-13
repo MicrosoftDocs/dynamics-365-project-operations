@@ -14,7 +14,7 @@ ms.prod:
 ms.search.form: 
 audience: Application User
 # ms.devlan: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 # ms.custom: 

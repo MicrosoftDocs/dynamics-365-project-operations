@@ -6,7 +6,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 03/18/2019
 ms.topic: article
-#
 ms.author: makk
 audience: admin
 search.audienceType: 
@@ -15,6 +14,7 @@ search.audienceType:
 search.app: 
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Resource management changes (Project Service Automation 3.x)
