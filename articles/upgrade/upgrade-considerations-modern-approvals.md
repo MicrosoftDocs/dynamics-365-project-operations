@@ -4,7 +4,7 @@ description: The topic covers the points that administrators should consider whe
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 

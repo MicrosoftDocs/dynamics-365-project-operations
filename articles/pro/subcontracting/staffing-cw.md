@@ -4,7 +4,7 @@ description: This topic explains how project requirements can be staffed using c
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

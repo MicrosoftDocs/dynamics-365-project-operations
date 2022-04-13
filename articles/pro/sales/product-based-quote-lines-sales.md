@@ -4,7 +4,7 @@ description: This topic provides information about working with product-based qu
 author: rumant
 ms.date: 10/30/2020
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---

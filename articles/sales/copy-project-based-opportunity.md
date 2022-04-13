@@ -4,7 +4,7 @@ description: This topic provides information about copying project-based opportu
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

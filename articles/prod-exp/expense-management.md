@@ -15,7 +15,7 @@ ms.search.form: TrvExpenseWorkspace
 # ROBOTS: 
 audience: Application User, IT Pro
 # ms.devlang: 
-ms.reviewer: roschlom
+ms.reviewer: johnmichalak
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 

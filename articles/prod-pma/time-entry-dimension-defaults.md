@@ -4,7 +4,7 @@ description: This topic provides information about how defaulting financial dime
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 

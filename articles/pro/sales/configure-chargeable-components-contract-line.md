@@ -4,7 +4,7 @@ description: This topic provides information about how to add chargeable compone
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

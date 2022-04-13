@@ -6,7 +6,7 @@ description: This topic provides information about how Project Operations tracks
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

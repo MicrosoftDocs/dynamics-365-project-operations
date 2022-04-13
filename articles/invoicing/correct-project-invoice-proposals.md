@@ -4,7 +4,7 @@ description: This topic explains how to adjust accounting-related information on
 author: sigitac
 ms.date: 01/05/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

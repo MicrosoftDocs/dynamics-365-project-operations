@@ -4,7 +4,7 @@ description: This topic provides information about corrective invoices in Projec
 author: rumant
 ms.date: 03/29/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

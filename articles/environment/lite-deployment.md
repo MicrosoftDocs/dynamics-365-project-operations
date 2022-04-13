@@ -4,7 +4,7 @@ description: This topic provides information about how to install Project Operat
 author: stsporen
 ms.date: 02/28/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 

@@ -4,7 +4,7 @@ description: This topic describes how to configure Schedule Board in Microsoft D
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
-ms.reviewer: tonyafehr 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

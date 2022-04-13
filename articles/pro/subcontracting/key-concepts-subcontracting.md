@@ -4,7 +4,7 @@ description: This topic explains some key concepts that apply to subcontracting 
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

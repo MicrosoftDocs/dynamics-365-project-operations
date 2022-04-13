@@ -4,7 +4,7 @@ description: This topic provides information about how to create an estimate on 
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

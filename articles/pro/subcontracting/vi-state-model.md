@@ -4,7 +4,7 @@ description: This topic explains the state transitions on a vendor invoice in Mi
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
-ms.reviewer: tonyafehr 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

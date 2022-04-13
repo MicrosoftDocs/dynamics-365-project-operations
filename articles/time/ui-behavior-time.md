@@ -4,7 +4,7 @@ description: This topic provides information about the behavior of the UI for Ti
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 

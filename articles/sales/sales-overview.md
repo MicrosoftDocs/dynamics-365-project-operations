@@ -4,7 +4,7 @@ description: This topic provides information about basic sales processes.
 author: rumant
 ms.date: 10/29/2020
 ms.topic: overview
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---

@@ -4,7 +4,7 @@ description: This topic provides information about how to uninstall Dynamics 365
 author: stsporen
 ms.date: 11/09/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

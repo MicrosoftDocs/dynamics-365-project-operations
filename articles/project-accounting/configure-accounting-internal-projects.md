@@ -4,7 +4,7 @@ description: This topic provides information about how to set up accounting prac
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

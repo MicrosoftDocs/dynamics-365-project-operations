@@ -5,7 +5,7 @@ description: This topic explains how to create a work breakdown structure (WBS) 
 author:  ruhercul
 ms.date: 12/16/2021  
 ms.topic: article 
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 --- 
 

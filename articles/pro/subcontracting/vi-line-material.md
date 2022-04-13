@@ -4,7 +4,7 @@ description: This topic explains how to record vendor invoice lines for products
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
-ms.reviewer: tonyafehr 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

@@ -4,7 +4,7 @@ description: This topic explains how to apply demo data from Project Operations 
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
