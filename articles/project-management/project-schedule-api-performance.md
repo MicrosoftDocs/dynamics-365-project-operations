@@ -4,7 +4,7 @@ description: This topic provides information about the performance benchmarks of
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

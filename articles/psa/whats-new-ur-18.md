@@ -5,8 +5,6 @@ author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -17,6 +15,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Project Service Automation Update Release 18, V3

@@ -4,7 +4,7 @@ description: This topic provides a process overview of invoicing in Project Oper
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 
 ---

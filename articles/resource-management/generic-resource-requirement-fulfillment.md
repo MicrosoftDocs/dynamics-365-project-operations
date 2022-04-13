@@ -4,7 +4,7 @@ description: This topic provides information about how to book named resources f
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

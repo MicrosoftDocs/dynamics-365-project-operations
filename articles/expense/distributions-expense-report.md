@@ -4,7 +4,7 @@ description: When you enter expenses on an expense report, you can distribute th
 author: suvaidya
 ms.date: 10/10/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 

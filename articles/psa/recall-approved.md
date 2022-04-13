@@ -6,8 +6,6 @@ ms.custom:
 ms.author: rumant
 ms.date: 03/08/2019
 ms.topic: article
-#
-#
 audience: Admin
 search.audienceType: 
   - admin
@@ -17,6 +15,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

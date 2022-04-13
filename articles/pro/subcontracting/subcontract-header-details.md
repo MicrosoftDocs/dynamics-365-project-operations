@@ -4,7 +4,7 @@ description: This topic explains the functionality provided on the subcontract h
 author: rumant
 ms.date: 09/14/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

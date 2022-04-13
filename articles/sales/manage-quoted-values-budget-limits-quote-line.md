@@ -4,7 +4,7 @@ description: This topic provides information about using project quote lines for
 author: rumant
 ms.date: 10/01/2020
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---

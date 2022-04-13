@@ -15,6 +15,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # What's new or changed in Project Service Automation Update Release 37.5, V3

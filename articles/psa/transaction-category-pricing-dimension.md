@@ -15,6 +15,7 @@ search.audienceType:
 search.app: 
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Use transaction category as a pricing dimension

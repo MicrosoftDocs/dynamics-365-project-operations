@@ -4,7 +4,7 @@ description: This topic provides the list of dual-write maps required for Dynami
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

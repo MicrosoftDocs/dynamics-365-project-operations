@@ -4,7 +4,7 @@ description: This topic provides information about how to map projects and tasks
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

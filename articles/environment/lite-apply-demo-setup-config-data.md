@@ -4,7 +4,7 @@ description: This topic provides information about how to apply demo setup and c
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

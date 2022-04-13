@@ -4,7 +4,7 @@ description: This topic provides information about how to create project templat
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 

@@ -4,7 +4,7 @@ description: This topic provides information about the Time functionality in Dyn
 author: stsporen
 ms.date: 10/02/2020
 ms.topic: overview
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
 
 ---

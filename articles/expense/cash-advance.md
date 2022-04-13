@@ -4,7 +4,7 @@ description: This topic provides information about cash advances.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01

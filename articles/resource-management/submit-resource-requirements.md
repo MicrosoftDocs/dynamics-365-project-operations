@@ -4,7 +4,7 @@ description: You can submit a generated resource requirement as a resource reque
 author: ruhercul
 ms.date: 10/04/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 
 ---

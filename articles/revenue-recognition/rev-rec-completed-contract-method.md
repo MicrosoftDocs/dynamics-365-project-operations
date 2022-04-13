@@ -4,7 +4,7 @@ description: This topic provides information about how to work with revenue esti
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

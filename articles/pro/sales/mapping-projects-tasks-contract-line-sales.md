@@ -4,7 +4,7 @@ description: This topic provides information about adding and removing projects 
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

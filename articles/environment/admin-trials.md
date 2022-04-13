@@ -4,7 +4,7 @@ description: This topic provides information about how to deploy a trial of Dyna
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

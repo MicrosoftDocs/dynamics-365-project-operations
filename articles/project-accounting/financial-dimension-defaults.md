@@ -4,7 +4,7 @@ description: This topic provides information about how to set up financial dimen
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

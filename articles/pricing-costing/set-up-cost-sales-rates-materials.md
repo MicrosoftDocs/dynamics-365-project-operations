@@ -4,7 +4,7 @@ description: This topic provides information about how to set up the cost and sa
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

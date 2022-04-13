@@ -4,7 +4,7 @@ description: This topic provides information about the quality updates available
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

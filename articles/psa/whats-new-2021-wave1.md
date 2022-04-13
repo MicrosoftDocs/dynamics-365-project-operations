@@ -15,6 +15,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # What's new or changed in Project Service Automation Early Access Wave 1 2021, V3
