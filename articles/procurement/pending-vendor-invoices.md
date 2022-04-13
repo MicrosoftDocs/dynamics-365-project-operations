@@ -24,14 +24,14 @@ For example, Contoso Robotics US is performing an equipment renewal project and 
 
 Pending vendor invoices can be recorded on the **Pending vendor invoices** page (**Accounts payable** > **Invoices** > **Pending vendor invoices**). Complete the following steps to post a project-related pending vendor invoice:
 
-1. Go to **Accounts payable** > **Invoices** and select **New**. 
-1. In the **Invoice account** field, select a vendor and in the **Number** field, enter the vendor invoice identification.
-1. Add a line to the vendor invoice and in the **Item number** field, select the non-stocked item purchased from the vendor or alternatively select **Procurement category** to be purchased from the vendor.   
-1. Add the quantity purchased. The system will populate the unit price based on the non-stocked item price configuration. 
+1. Go to **Accounts payable** > **Invoices**, and select **New**. 
+1. In the **Invoice account** field, select a vendor, and then, in the **Number** field, enter the vendor invoice identification.
+1. Add a line to the vendor invoice, and then, in the **Item number** field, select the non-stocked item that was purchased from the vendor. Alternatively, in the **Procurement category** field, select the procurement category that was purchased from the vendor.   
+1. Add the quantity that was purchased. The system fills in the unit price, based on the non-stocked item price configuration. 
 1. Verify the total amount and other required details on the line.
-1. On the line details, on the **Project** tab, select the ID of the project that this item will be recorded to.
-1. Optionally, select the activity number, and update the project category and line property.
-1. Post pending vendor invoice. When the invoice is posted, the system records:
+1. In the line details, on the **Project** tab, select the ID of the project that this item will be recorded to.
+1. Optional: Select the activity number, and update the project category and line property.
+1. Post the pending vendor invoice. When the invoice is posted, the system records the following information:
     
     - The vendor balance amount.
     - The sales tax amount.
