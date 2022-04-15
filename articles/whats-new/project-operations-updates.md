@@ -51,13 +51,13 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | South Africa          |  4.41.0.45      | Complete           | Complete            | TBD                 | April 29, 2022      |
 |   &nbsp;  | Switzerland           |  4.41.0.45      | Complete           | Complete            | TBD                 | April 29, 2022      |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.41.0.45      | April 15, 2022     | April 15, 2022      | TBD                 | May 06, 2022        |
-|   &nbsp;  | Asia Pacific          |  4.41.0.45      | April 15, 2022     | April 15, 2022      | TBD                 | May 06, 2022        |
-|   &nbsp;  | Great Britain         |  4.41.0.45      | April 15, 2022     | April 15, 2022      | TBD                 | May 06, 2022        |
-|   &nbsp;  | Oceania               |  4.41.0.45      | April 15, 2022     | April 15, 2022      | TBD                 | May 06, 2022        |
-|   &nbsp;  | United Arab Emirates  |  4.41.0.45      | April 15, 2022     | April 15, 2022      | TBD                 | May 06, 2022        |
+|   &nbsp;  | Japan                 |  4.41.0.45      | Complete           | Complete            | TBD                 | May 06, 2022        |
+|   &nbsp;  | Asia Pacific          |  4.41.0.45      | Complete           | Complete            | TBD                 | May 06, 2022        |
+|   &nbsp;  | Great Britain         |  4.41.0.45      | Complete           | Complete            | TBD                 | May 06, 2022        |
+|   &nbsp;  | Oceania               |  4.41.0.45      | Complete           | Complete            | TBD                 | May 06, 2022        |
+|   &nbsp;  | United Arab Emirates  |  4.41.0.45      | Complete           | Complete            | TBD                 | May 06, 2022        |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 15, 2022      |
+|   &nbsp;  | Europe                |  4.41.0.45      | April 22, 2022     | April 22, 2022      | TBD                 | May 13, 2022        |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | North America         |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 22, 2022      |
 
