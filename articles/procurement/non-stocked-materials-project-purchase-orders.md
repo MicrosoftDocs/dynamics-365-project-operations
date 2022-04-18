@@ -9,11 +9,11 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# Order non-stocked materials for a project using project purchase orders
+# Order procurement categories or non-stocked materials for a project using project purchase orders
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-The Procurement department in your organization might use [purchase orders](/dynamics365/supply-chain/procurement/purchase-order-overview) to track goods and services orders. Purchase orders for non-stock materials can be attributed to a project. Invoicing these purchase orders records the cost against the project.
+The Procurement department in your organization might use [purchase orders](/dynamics365/supply-chain/procurement/purchase-order-overview) to track goods and services orders. Purchase orders for procurement categories or non-stock materials can be attributed to a project. Invoicing these purchase orders records the cost against the project.
 
 ## Prerequisites
 Complete the following steps to enable the project purchase orders functionality.
@@ -22,6 +22,7 @@ Complete the following steps to enable the project purchase orders functionality
 2. In the feature list, find and select the feature, **Enable project purchase orders on Project Operations for resource based/non-stocked scenarios**.
 3. Select **Enable**.
 4. Configure non-stocked materials and pending vendor invoices as described in [Configure non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md).
+5. Configure procurement categories as described in [Use procurement categories with project purchase orders and pending vendor invoices](configure-procurement-categories.md).
 
 ## Create a project purchase order from the project purchase order list
 
@@ -29,12 +30,12 @@ Complete the following steps to enable the project purchase orders functionality
 2. On the Action Pane, on the **Manage** tab, in the **New** group, select **Item task** > **Purchase order**.
 3. On the **Create purchase order** page, select the vendor that you want to place the purchase order with, enter other information as appropriate, and then select **OK**.
 4. On the **Purchase order** page, in the **Purchase order lines** grid, select **Add line**.
-5. Enter an item number, quantity, unit, unit price, and other information as appropriate.
+5. Enter an item number or procurement category, quantity, unit, unit price, and other information as appropriate.
 
     > [!NOTE]
-    > Only non-stocked items and services can be used with project purchase orders. Stocked items and procurement categories aren't supported.
+    > Only procurement categories, non-stocked items, and services can be used with project purchase orders. Stocked items aren't supported.
 
-6. Continue to add items as required and confirm the purchase order.
+6. Continue to add items or procurement categories as required, and confirm the purchase order.
 
     Goods and services receipts can be recorded by creating and posting a product receipt.
 
