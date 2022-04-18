@@ -6,7 +6,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 12/14/2018
 ms.topic: article
-#
 ms.author: makk
 audience: admin
 search.audienceType: 
@@ -15,6 +14,7 @@ search.audienceType:
 search.app: 
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Deprecated web resources in Project Service Automation 3.x

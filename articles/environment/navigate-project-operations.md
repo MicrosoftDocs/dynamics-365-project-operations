@@ -4,7 +4,7 @@ description: This topic provides information about how to access Project Operati
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

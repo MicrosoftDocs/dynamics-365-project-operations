@@ -4,7 +4,7 @@ description: This topic provides information about the accounting options for bi
 author: sigitac
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

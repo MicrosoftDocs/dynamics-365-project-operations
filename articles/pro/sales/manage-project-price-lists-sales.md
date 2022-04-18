@@ -4,7 +4,7 @@ description: This topic provides information about working with project price li
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

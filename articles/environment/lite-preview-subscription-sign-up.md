@@ -4,7 +4,7 @@ description: This topic provides information about how to subscribe to and deplo
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

@@ -4,7 +4,7 @@ description: This topic explains the state transitions on a subcontract in Micro
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
-ms.reviewer: tonyafehr 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

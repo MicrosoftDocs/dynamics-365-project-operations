@@ -6,12 +6,11 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 9/25/2019
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.app: 
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Soft book a resource

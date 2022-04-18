@@ -5,8 +5,6 @@ author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -17,6 +15,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

@@ -4,7 +4,7 @@ description: This topic provides information about working with approvals in Pro
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: stsporen
 
 ---

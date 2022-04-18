@@ -6,8 +6,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 05/20/2019
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
@@ -18,6 +16,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Time entry calendar

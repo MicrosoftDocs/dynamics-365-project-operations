@@ -4,7 +4,7 @@ description: This topic provides information about mileage rates and mileage rat
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 

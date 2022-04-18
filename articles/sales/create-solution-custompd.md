@@ -5,7 +5,7 @@ description:  This topic provides information about how to create solutions for 
 author: Rumant
 ms.date: 11/09/2020  
 ms.topic: article 
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant 
 --- 
 
@@ -19,7 +19,7 @@ ms.author: rumant
 ## Create a solution for custom pricing dimensions
 
 1.	Select **Settings** > **Solutions**, and then select **New**.
-2.	Name the solution, *<your organization name> pricing dimensions*.
+2.	Name the solution, *\<your organization name\> pricing dimensions*.
 3. Enter the remaining required information, and then select **Save**.
 
   ![Creation of custom pricing dimension solution.](./media/Creation-of-custom-pricing-dimension-solution.png)

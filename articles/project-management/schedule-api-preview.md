@@ -4,7 +4,7 @@ description: This topic provides information and samples for using Project sched
 author: sigitac
 ms.date: 01/13/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

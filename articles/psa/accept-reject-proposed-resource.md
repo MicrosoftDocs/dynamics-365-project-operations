@@ -5,8 +5,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 12/07/2018
 ms.topic: article
-#
-#
 author: JohnPBurrows
 ms.author: ruhercul
 audience: Admin
@@ -18,6 +16,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Accept or reject a proposed project resource
 

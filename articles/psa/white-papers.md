@@ -6,8 +6,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
-#
-#
 ms.author: kfend
 audience: Admin
 search.audienceType: 
@@ -18,6 +16,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # White papers for Project Service
 

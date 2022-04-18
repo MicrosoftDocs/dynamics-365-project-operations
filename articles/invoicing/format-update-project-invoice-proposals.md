@@ -4,7 +4,7 @@ description: This topic provides details about processing customer-facing invoic
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

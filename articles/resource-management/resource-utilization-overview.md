@@ -4,7 +4,7 @@ description: This topic provides information about resource utilization in Proje
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 
 ---

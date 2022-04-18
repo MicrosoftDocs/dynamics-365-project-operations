@@ -7,8 +7,6 @@ ms.custom:
   - intro-internal
 ms.date: 03/01/2019
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
@@ -19,6 +17,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Project planning home page

@@ -4,7 +4,7 @@ description: When a project is created, its time zone is based upon the time zon
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

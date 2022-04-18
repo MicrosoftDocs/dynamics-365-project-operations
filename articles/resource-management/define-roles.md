@@ -4,7 +4,7 @@ description: This topic provides a link to information about setting up bookable
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

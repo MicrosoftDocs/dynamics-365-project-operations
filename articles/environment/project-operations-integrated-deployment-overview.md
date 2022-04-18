@@ -4,7 +4,7 @@ description: This topic provides information about the deployment type, Project 
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---

@@ -4,7 +4,7 @@ description: This topic provides information about updating projects Project Ope
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

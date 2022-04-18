@@ -4,7 +4,7 @@ description: This topic provides an overview of the end-to-end subcontract manag
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

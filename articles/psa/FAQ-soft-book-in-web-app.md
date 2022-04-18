@@ -6,8 +6,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 8/21/2018
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
@@ -18,6 +16,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # How do I "soft book" resources in the web app (Project Service app v2.x)?
