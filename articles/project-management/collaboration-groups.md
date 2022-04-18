@@ -4,7 +4,7 @@ description: Office Groups allow you to share a project with other team members 
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

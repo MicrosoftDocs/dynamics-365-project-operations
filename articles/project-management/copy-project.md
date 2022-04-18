@@ -6,7 +6,7 @@ description: This topic provides information about copying projects in Dynamics 
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

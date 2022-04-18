@@ -6,8 +6,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 03/28/2019
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -18,6 +16,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Use the Schedule Board to book project resources

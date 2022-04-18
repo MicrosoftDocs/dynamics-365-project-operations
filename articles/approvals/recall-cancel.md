@@ -4,7 +4,7 @@ description: This topic explains how a project team member can request the recal
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---

@@ -4,7 +4,7 @@ description: This topic provides information about how cost prices for estimates
 author: rumant
 ms.date: 04/09/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

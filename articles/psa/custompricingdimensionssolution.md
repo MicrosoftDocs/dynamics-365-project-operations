@@ -6,7 +6,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
@@ -16,6 +15,7 @@ search.audienceType:
 search.app: 
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Create custom solutions for pricing dimensions

@@ -4,7 +4,7 @@ description: This topic provides information how to confirm a contract in Projec
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

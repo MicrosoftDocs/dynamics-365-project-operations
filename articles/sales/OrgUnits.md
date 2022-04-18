@@ -14,9 +14,10 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
-# Organizational units
+# Organizational units overview
 
 In Microsoft Dynamics 365 Project Operations, an *organizational unit* is a distinct group or division in a professional services company that employs billable resources that have cost rates.
 

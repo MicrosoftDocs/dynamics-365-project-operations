@@ -7,8 +7,6 @@ ms.custom:
   - intro-internal
 ms.date: 08/03/2020
 ms.topic: overview
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
@@ -19,6 +17,7 @@ search.app:
   - D365CE
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Actuals overview

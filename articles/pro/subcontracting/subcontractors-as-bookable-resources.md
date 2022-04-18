@@ -4,7 +4,7 @@ description: This topic explains how to set up and maintain subcontractor resour
 author: rumant
 ms.date: 07/28/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

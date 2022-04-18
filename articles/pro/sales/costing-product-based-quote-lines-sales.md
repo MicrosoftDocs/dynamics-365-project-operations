@@ -4,7 +4,7 @@ description: This topic provides information about applying a cost price to a pr
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

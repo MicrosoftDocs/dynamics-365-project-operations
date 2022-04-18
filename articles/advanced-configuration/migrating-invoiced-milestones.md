@@ -4,7 +4,7 @@ description: This topic explains how to migrate fixed-priced billing milestones 
 author: sigitac
 ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

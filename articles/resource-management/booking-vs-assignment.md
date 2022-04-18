@@ -4,7 +4,7 @@ description: This topic provides information the differences between resource bo
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

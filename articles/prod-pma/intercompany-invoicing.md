@@ -15,7 +15,7 @@ ms.search.form: LedgerInterCompany
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 ms.custom: 94153

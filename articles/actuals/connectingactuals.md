@@ -4,7 +4,7 @@ description: This topic explains how a transaction connection is used to link ac
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
-ms.reviewer: tonyafehr 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

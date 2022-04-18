@@ -4,7 +4,7 @@ description: This topic provides information about how to set up the cost rates 
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

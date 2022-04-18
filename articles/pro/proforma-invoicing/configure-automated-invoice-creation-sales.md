@@ -4,7 +4,7 @@ description: This topic provides information about set up and configure automati
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

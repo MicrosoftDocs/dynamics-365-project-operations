@@ -5,7 +5,7 @@ description: This topic provides information about scheduling modes.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

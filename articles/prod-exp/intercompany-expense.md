@@ -3,7 +3,7 @@
 
 title: Intercompany expenses
 description: This topic provides information about how to use intercompany expenses to assign a worker’s expenses to the legal entity for which the work was performed.
-author: Surya Vaidyanathan
+author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article
 ms.prod: 
@@ -14,7 +14,7 @@ ms.technology:
 ms.search.form: TrvParameters
 audience: Application User
 # ms.devlang: 
-ms.reviewer: roschlom
+ms.reviewer: johnmichalak
 ms.search.scope: Core, Operations
 # ms.tgt_pltfrm: 
 # ms.custom: 

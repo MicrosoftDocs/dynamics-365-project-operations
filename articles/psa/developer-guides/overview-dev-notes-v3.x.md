@@ -7,7 +7,6 @@ ms.custom:
   - intro-internal
 ms.date: 03/26/2019
 ms.topic: overview
-#
 ms.author: makk
 audience: admin
 search.audienceType: 
@@ -16,6 +15,7 @@ search.audienceType:
 search.app: 
   - D365PS
   - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Development home page (Project Service Automation 3.x)
 

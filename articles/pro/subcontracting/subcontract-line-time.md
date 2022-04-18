@@ -4,7 +4,7 @@ description: This topic explains how to record subcontract lines for time and re
 author: rumant
 ms.date: 08/05/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 

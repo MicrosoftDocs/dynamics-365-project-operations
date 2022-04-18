@@ -6,7 +6,7 @@ description: This topic provides information and examples about intercompany inv
 author:  sigitac
 ms.date: 11/19/2020 
 ms.topic: overview
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
 
 ---
