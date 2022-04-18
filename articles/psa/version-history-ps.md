@@ -53,11 +53,11 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Korea</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
 | | <i>Norway</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 06, 2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 15, 2022
-| | <i>Asia Pacific</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 15, 2022
-| | <i>Great Britain</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 15, 2022
-| | <i>Oceana</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 15, 2022
-| | <i>United Arab Emirates</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 15, 2022
+| | <i>Japan</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 13, 2022
+| | <i>Asia Pacific</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 13, 2022
+| | <i>Great Britain</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 13, 2022
+| | <i>Oceana</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 13, 2022
+| | <i>United Arab Emirates</i> | [3.10.73.61](whats-new-ur-42.md) | TBD | May 13, 2022
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.10.62.162](whats-new-ur-41.md) | [3.10.73.61](whats-new-ur-42.md) | April 22, 2022
 |<strong>Station 5</strong> | |  |  | |
