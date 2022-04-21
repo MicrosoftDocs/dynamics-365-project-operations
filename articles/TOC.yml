@@ -63,6 +63,8 @@
   - name: What's new 
     items:
     - name: March 2022 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-apr-2022-resource-based.md      
+    - name: March 2022 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-mar-2022-resource-based.md    
     - name: February 2022 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-feb-2022-resource-based.md
