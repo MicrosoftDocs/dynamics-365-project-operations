@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Proforma project pnvoices
+# Proforma project invoices
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
