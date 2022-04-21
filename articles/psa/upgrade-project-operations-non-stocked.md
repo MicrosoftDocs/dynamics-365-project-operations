@@ -34,7 +34,7 @@ The upgrade delivery program will be split into the three phases.
 
 As part of the upgrade process, we have added upgrade logs to the site map, so that administrators can more easily diagnose failures. In addition to the new interface, new validation rules will be added to ensure data integrity after an upgrade. The following validations will be added to the upgrade process.
 
-| Validations | Phase 1 (January 2022) | Phase 2 (April Wave 2022) | Phase 3 (April Wave 2022) |
+| Validations | Phase 1 (January 2022) | Phase 2 (April Wave 2022) | Phase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | The WBS will be validated against common data integrity violations (for example, resource assignments that are associated with the same parent task but have different parent projects). | | :heavy_check_mark: | :heavy_check_mark: |
 | The WBS will be validated against the [known limits of Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
@@ -52,7 +52,7 @@ To be eligible for the phase 1 upgrade, a customer must meet the following crite
 - The target environment must not contain any records in the **msdyn_projecttask** entity.
 - Valid Project Operations licenses must be assigned to all the customer's active users. 
 - The customer must validate the upgrade process in at least one non-production environment that has a representative dataset that is aligned with production data.
-- The target environment must be updated to Project Service Automation Update Release 38 (3.10.59.117) or later.
+- The target environment must be updated to Project Service Automation Update Release 41 (3.10.62.162) or later.
 
 Prerequisites for phase 2 and phase 3 will be updated as the general availability dates approach.
 
