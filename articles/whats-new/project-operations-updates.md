@@ -57,9 +57,9 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | Oceania               |  4.41.0.45      | Complete           | Complete            | TBD                 | May 06, 2022        |
 |   &nbsp;  | United Arab Emirates  |  4.41.0.45      | Complete           | Complete            | TBD                 | May 06, 2022        |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.41.0.45      | April 22, 2022     | April 22, 2022      | TBD                 | May 13, 2022        |
+|   &nbsp;  | Europe                |  4.41.0.45      | Complete           | Complete            | TBD                 | May 13, 2022        |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 22, 2022      |
+|   &nbsp;  | North America         |  4.41.0.45      | April 29, 2022     | April 29, 2022      | TBD                 | May 20, 2022        |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
@@ -67,15 +67,15 @@ Updates for Project management and accounting are released eight times a year.
 
 |Supported Version| Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.26     |      March 4, 2022          |        April 15, 2022             |                          April 29, 2022                              | July 15, 2022      |
 |     10.0.25     |      January 31, 2022       |        March 18, 2022             |                          April 1, 2022                               | June 10, 2022      |
-|     10.0.24     |      December 3, 2021       |        January 14, 2022           |                          February 4, 2022                            | April 15, 2022     |
 
 
 Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Targeted Version | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.26     |      March 4, 2022          |        April 15, 2022             |                          April 29, 2022                              | July 15, 2022      |
 |     10.0.27     |      April 22, 2022         |        June 17, 2022              |                          July 1, 2022                                | September 16, 2022 |
+|     10.0.28     |      May 27, 2022           |        July 15, 2022              |                          July 29, 2022                               | October 21, 2022   |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
