@@ -566,6 +566,10 @@
     items:
     - name: Upgrade considerations for Modern approvals
       href: upgrade/upgrade-considerations-modern-approvals.md
+  - name: Project Operations Apps
+    items:
+    - name: Project Operations Team Member App
+      href: team-member/project-operations-team-member.md      
   - name: Troubleshooting
     items:
     - name: Project sales process
@@ -1052,6 +1056,10 @@
     items:
     - name: Upgrade considerations for Modern approvals
       href: upgrade/upgrade-considerations-modern-approvals.md
+  - name: Project Operations Apps
+    items:
+    - name: Project Operations Team Member App
+      href: team-member/project-operations-team-member.md  
 - name: Project Operations for stocked/production-based scenarios
   items: 
   - name: What's new
