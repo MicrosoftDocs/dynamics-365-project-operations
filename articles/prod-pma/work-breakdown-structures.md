@@ -16,7 +16,7 @@ ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 # ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: Core, Operations
+
 # ms.tgt_pltfrm: 
 
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae

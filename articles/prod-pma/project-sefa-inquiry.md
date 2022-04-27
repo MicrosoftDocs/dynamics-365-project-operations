@@ -15,7 +15,7 @@ ms.search.form: PSNProjSEFAinquiry
 audience: Application User
 ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: Operations, Core 
+
 ms.tgt_pltfrm: 
 ms.custom: 
 ms.search.region: Global
