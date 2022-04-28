@@ -31,7 +31,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The Project Operations Team Member app (formally known as the Project Resource Hub) includes all the capabilities that Microsoft Dynamics 365 Project Operations offers to the Team Members user license.
+The Project Operations Team Member app (formerly known as the Project Resource Hub) includes all the capabilities that Microsoft Dynamics 365 Project Operations offers to the Team Members user license.
 
 Here are some of the capabilities of the Project Operations Team Member app:
 
