@@ -33,7 +33,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Formally known as the **Project Resource Hub**, the **Project Operations Team Member** app includes all the capability offered by Project Operations to the Team Members user license.
 
-Capabilities of the **Project Operations Team Member** app include
+Capabilities of the **Project Operations Team Member** app include:
 -	Time Entry
 -	Expense Entry (Lite deployment)
 -	Material Usage
