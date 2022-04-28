@@ -55,6 +55,13 @@
         },
         "ms.search.scope":{
             "**.md": "ProjectOperations"
+        },
+        "searchScope":{
+          "**.*":[
+            "dynamics365-finops",
+            "Dynamics 365",
+            "Unified Operations"
+          ]
         }
     },
     "template": [],
