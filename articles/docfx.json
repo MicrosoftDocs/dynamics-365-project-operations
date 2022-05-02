@@ -54,7 +54,7 @@
             "**.md": "ProjectOperations"
         },
         "ms.search.scope":{
-            "**.md": "Operations"
+            "**.md": "ProjectOperations"
         },
         "searchScope":{
           "**.*":[
