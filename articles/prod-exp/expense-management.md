@@ -16,7 +16,7 @@ ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 # ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: Core, Operations
+
 # ms.tgt_pltfrm: 
 
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34

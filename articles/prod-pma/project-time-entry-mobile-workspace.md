@@ -16,7 +16,7 @@ ms.technology:
 audience: Application User
 # ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: Core, Operations
+
 # ms.tgt_pltfrm: 
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60

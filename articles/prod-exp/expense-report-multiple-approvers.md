@@ -15,7 +15,7 @@ ms.search.form:  TrvExpensesReportList
 audience: Application User
 # ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: Core, Operations
+
 # ms.tgt_pltfrm: 
 # ms.custom: 
 ms.search.region: Global
