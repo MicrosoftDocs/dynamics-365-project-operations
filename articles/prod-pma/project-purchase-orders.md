@@ -16,7 +16,7 @@ ms.search.form: ProjTable
 audience: Application User
 # ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: Core, Operations
+
 # ms.tgt_pltfrm: 
 ms.custom: 83972
 ms.assetid: 247e4d72-610b-4fa5-9873-601ed0f4b2d6

@@ -8,7 +8,7 @@ ms.topic: article
 #
 audience: Application User
 ms.reviewer: johnmichalak
-ms.search.scope: Core, Operations
+
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
