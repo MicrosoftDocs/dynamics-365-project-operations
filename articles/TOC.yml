@@ -1218,16 +1218,16 @@
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Create and apply vendor payment retention terms
       href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
- - name: Sales
-   items:
-   - name: Project invoicing
-     href: /dynamics365/finance/accounts-payable/project-invoicing
-   - name: Project invoice proposal performance
-     href: prod-pma/project-invoice-proposal-performance.md
-   - name: Create advanced contracts for billing based on progress
-     href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-   - name: Project sales orders
-     href: prod-pma/project-sales-orders.md
+  - name: Sales
+    items:
+    - name: Project invoicing
+      href: /dynamics365/finance/accounts-payable/project-invoicing
+    - name: Project invoice proposal performance
+      href: prod-pma/project-invoice-proposal-performance.md
+    - name: Create advanced contracts for billing based on progress
+      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+    - name: Project sales orders
+      href: prod-pma/project-sales-orders.md
   - name: Intercompany invoicing
     items:
     - name: Intercompany invoicing
