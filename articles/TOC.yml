@@ -1099,9 +1099,11 @@
      - name: Project grants
        href: prod-pma/project-grants.md
   - name: Pricing and costing
-     - name: Configure standard costs for labor and expenses
-       href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    items:
+    - name: Configure standard costs for labor and expenses
+      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
   - name: Project management
+    items:
     - name: Work breakdown structures overview
       href: prod-pma/work-breakdown-structures.md
     - name: Microsoft Project Client integration
