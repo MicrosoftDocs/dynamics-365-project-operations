@@ -1086,43 +1086,37 @@
     href: prod-pma/project-operations-prod-order-deployment-overview.md
   - name: Project management and accounting overview
     href: prod-pma/overview-project-management-accounting.md
-  - name: Intercompany invoicing
-    href: prod-pma/intercompany-invoicing.md
-  - name: Configure intercompany project invoicing
-    href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-  - name: Configure standard costs for labor and expenses
-    href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-  - name: Create and apply vendor payment retention terms
-    href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-  - name: Set up and use pay-when-paid vendor payments
-    href: prod-pma/setup-manage-vendor-payments.md
-  - name: Project cost accrual on purchase receipts
-    href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-  - name: Project invoicing
-    href: /dynamics365/finance/accounts-payable/project-invoicing
-  - name: Project invoice proposal performance
-    href: prod-pma/project-invoice-proposal-performance.md
-  - name: Project contracts
-    href: prod-pma/project-contracts.md
-  - name: Create advanced contracts for billing based on progress
-    href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-  - name: Project forecasts and budgets
-    href: prod-pma/project-forecasts-budgets.md
-  - name: Create forecast models for project budgets
-    href: prod-pma/create-forecast-models-project-budgets.md
-  - name: Transfer project budgets at fiscal year end
-    href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-  - name: Project sales orders
-    href: prod-pma/project-sales-orders.md
-  - name: Purchase orders for a project
-    href: prod-pma/project-purchase-orders.md
-  - name: Project quotations
-    href: prod-pma/project-quotations.md
-  - name: Confirm, update, and send a project quotation
-    href: prod-pma/confirm-update-send-project-quotation.md
-  - name: Transfer a quotation to a project
-    href: prod-pma/transfer-quote-new-existing-project.md
-  - name: Project resourcing
+  - name: Project sales process
+    items:
+     - name: Project quotations
+       href: prod-pma/project-quotations.md
+     - name: Confirm, update, and send a project quotation
+       href: prod-pma/confirm-update-send-project-quotation.md
+     - name: Transfer a quotation to a project
+       href: prod-pma/transfer-quote-new-existing-project.md
+     - name: Project contracts
+       href: prod-pma/project-contracts.md
+     - name: Project grants
+       href: prod-pma/project-grants.md
+  - name: Pricing and costing
+     - name: Configure standard costs for labor and expenses
+       href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+  - name: Project management
+    - name: Work breakdown structures overview
+      href: prod-pma/work-breakdown-structures.md
+    - name: Microsoft Project Client integration
+      href: prod-pma/project-integration.md
+    - name: Project mobile applications overview
+      href: prod-pma/project-mobile-application-overview.md
+    - name: Project time entry mobile workspace
+      href: prod-pma/project-time-entry-mobile-workspace.md
+    - name: Project timesheet mobile app
+      href: prod-pma/project-timesheet.md
+    - name: Project timesheets on a mobile device
+      href: prod-pma/mobile-timesheets.md
+    - name: Implement custom fields for the Project timesheet mobile app
+      href: prod-pma/custom-fields-mobile.md
+  - name: Resource management
     items:
     - name: Project resourcing overview
       href: prod-pma/project-resourcing.md
@@ -1144,30 +1138,104 @@
       href: prod-pma/set-up-roles-wbs-template.md
     - name: Resource fulfillment for planned resources
       href: prod-pma/resource-fulfillment-planned-resources.md
-  - name: Receive items on purchase order from item requirement
-    href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-  - name: Work breakdown structures
+  - name: Project budgets and forecasts
     items:
-    - name: Work breakdown structures overview
-      href: prod-pma/work-breakdown-structures.md
-    - name: Microsoft Project Client integration
-      href: prod-pma/project-integration.md
-    - name: Project mobile applications overview
-      href: prod-pma/project-mobile-application-overview.md
-    - name: Project time entry mobile workspace
-      href: prod-pma/project-time-entry-mobile-workspace.md
-    - name: Project timesheet mobile app
-      href: prod-pma/project-timesheet.md
-    - name: Project timesheets on a mobile device
-      href: prod-pma/mobile-timesheets.md
-    - name: Implement custom fields for the Project timesheet mobile app
-      href: prod-pma/custom-fields-mobile.md
-  - name: Project grants
-    href: prod-pma/project-grants.md
-  - name: Eliminate a project estimate
-    href: prod-pma/eliminate-project-estimate.md
-  - name: Defaulting financial dimensions for project time entries
-    href: prod-pma/time-entry-dimension-defaults.md
+    - name: Project forecasts and budgets
+      href: prod-pma/project-forecasts-budgets.md
+    - name: Create forecast models for project budgets
+      href: prod-pma/create-forecast-models-project-budgets.md
+    - name: Transfer project budgets at fiscal year end
+      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+  - name: Time
+    items:
+    - name: Defaulting financial dimensions for project time entries
+      href: prod-pma/time-entry-dimension-defaults.md
+  - name: Expense
+     items:
+    - name: Expense overview
+      href: expense/expense-overview.md
+    - name: New expense experience
+      items: 
+      - name: Expense reports reimagined
+        href: expense/expense-reports-reimagined.md
+      - name: Capture a receipt using OCR
+        href: expense/match-receipt-expense-ocr.md
+    - name: Configuration and setup
+      items:
+      - name: Set up policies
+        href: expense/set-up-policies.md
+      - name: Set up workflows
+        href: expense/set-up-workflows.md
+      - name: Manage delegation
+        href: expense/manage-delegation.md
+      - name: Configure Expense management parameters
+        href: expense/configure-expense-management-parameters.md
+      - name: Set up credit card integration
+        href: expense/set-up-credit-card-integration.md
+      - name: Set up expense categories
+        href: expense/set-up-expense-categories.md
+      - name: Set up mileage using mileage rate tiers
+        href: expense/set-up-mileage.md
+    - name: Expense itemization
+      href: prod-exp/expense-itemization.md
+    - name: Personal expenses
+      href: expense/personal-expenses-expense-report.md
+    - name: Intercompany expenses
+      href: prod-exp/intercompany-expense.md
+    - name: Create expense reports
+      items:
+      - name: Distributions on an expense report
+        href: expense/distributions-expense-report.md
+    - name: Approve expense reports
+      items: 
+      - name: Expense reports and multiple approvers
+        href: expense/expense-reports-multiple-approvers.md
+    - name: Post expense reports
+      href: expense/posting-expense-reports.md
+    - name: Travel requisition
+      href: expense/travel-requisition.md
+    - name: Cash advance
+      href: expense/cash-advance.md
+    - name: Per diem expenses
+      href: expense/per-diem-expenses.md
+    - name: Mobile Expense app
+      href: expense/expense-using-mobile.md
+    - name: Financial management
+      items: 
+      - name: VAT recovery
+        href: expense/vat-recovery.md
+  - name: Procurement
+    items:
+    - name: Purchase orders for a project
+      href: prod-pma/project-purchase-orders.md
+    - name: Project cost accrual on purchase receipts
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+    - name: Receive items on purchase order from item requirement
+      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+    - name: Set up and use pay-when-paid vendor payments
+      href: prod-pma/setup-manage-vendor-payments.md
+    - name: Create and apply vendor payment retention terms
+      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+ - name: Sales
+   items:
+  - name: Project invoicing
+    href: /dynamics365/finance/accounts-payable/project-invoicing
+  - name: Project invoice proposal performance
+    href: prod-pma/project-invoice-proposal-performance.md
+  - name: Create advanced contracts for billing based on progress
+    href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+  - name: Project sales orders
+    href: prod-pma/project-sales-orders.md
+  - name: Intercompany invoicing
+    items:
+    - name: Intercompany invoicing
+      href: prod-pma/intercompany-invoicing.md
+    - name: Configure intercompany project invoicing
+      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+  - name: Revenue recognition
+    items:
+    - name: Eliminate a project estimate
+      href: prod-pma/eliminate-project-estimate.md
 - name: Expense management
   items: 
   - name: Expense management overview
