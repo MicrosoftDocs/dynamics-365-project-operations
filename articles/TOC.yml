@@ -1153,7 +1153,7 @@
     - name: Defaulting financial dimensions for project time entries
       href: prod-pma/time-entry-dimension-defaults.md
   - name: Expense
-     items:
+    items:
     - name: Expense overview
       href: expense/expense-overview.md
     - name: New expense experience
