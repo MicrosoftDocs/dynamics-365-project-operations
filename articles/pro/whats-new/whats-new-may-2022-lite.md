@@ -21,8 +21,8 @@ This topic applies to the following components and versions of Microsoft Dynamic
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-| Resource management | 2634019 | Improved error messages for business validations when adding Generic team members as resources. |
-| Project planning and tracking | 2648515 | Restricted updates of ownerid, state and status in scheduling entities. |
-| Billing and pricing | 2653167 | Estimates grid decimal separator must follow Format settings in Personal Options. |
-| Billing and pricing| 2662251 | Corrected unit and unit group defaulting when creating records in material estimates. |
-| Billing and pricing| 2571408 | Unbilled sales actuals are stamped with a proforma invoice ID when creating draft invoice. |
+| Resource management | 2634019 | Improved error messages for business validations when adding generic team members as resources. |
+| Project planning and tracking | 2648515 | Restricted updates of **ownerid**, **state**, and **status** in scheduling entities. |
+| Billing and pricing | 2653167 | The **Estimates** grid decimal separator must follow the format settings in **Personal Options**. |
+| Billing and pricing| 2662251 | Values in the **Corrected unit** and **Unit group** fields default when creating records in material estimates. |
+| Billing and pricing| 2571408 | Unbilled sales actuals are stamped with a proforma invoice ID when creating a draft invoice. |
