@@ -62,6 +62,8 @@
       href: environment/uninstall-project-operations.md
   - name: What's new 
     items:
+    - name: May 2022 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-may-2022-resource-based.md         
     - name: April 2022 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-apr-2022-resource-based.md      
     - name: March 2022 - Project Operations for resource/non-stocked based scenarios
@@ -594,6 +596,10 @@
     items:
     - name: What's new 2021 wave 2 early access - lite deployment
       href: pro/whats-new/whats-new-2021-early-access-lite.md
+    - name: What's new May 2022 - lite deployment
+      href: pro/whats-new/whats-new-may-2022-lite.md
+    - name: What's new April 2022 - lite deployment
+      href: pro/whats-new/whats-new-apr-2022-lite.md      
     - name: What's new March 2022 - lite deployment
       href: pro/whats-new/whats-new-mar-2022-lite.md
     - name: What's new February 2022 - lite deployment
