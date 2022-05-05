@@ -1,0 +1,71 @@
+---
+title: Item requirements for project contracts with multiple funding sources
+description: This topic provides information about how to configure and use item requirements with multiple funding sources.
+author: sigitac
+ms.date: 05/04/2022
+ms.topic: article
+ms.reviewer: johnmichalak
+ms.author: sigitac
+---
+
+# Item requirements for project contracts with multiple funding sources
+
+_**Applies To:** Project Operations for stocked/production based scenarios_
+
+# Item requirements for project contracts with multiple funding sources
+
+In some contractual agreements for project-based deliverables, multiple funding sources might be paying for it. This topic explains configuring and selecting desired funding source for item requirements for such project contracts and projects.
+
+## Terminology
+
+**Funding source** – entity funding project contract work. This entity can be internal organization. or external invoice account (customer or grant).
+
+**Project customer** – entity to which project work is being delivered.
+
+**Invoice account** – external entity paying for the project work.
+
+## Example
+
+Contoso have won equipment renewal contract with their customers Adatum US and Adatum Corporate. Contract includes hardware and installation services that will be delivered to Adatum US (project customer). Hardware will be financed by Adatum Corporate (invoice account 1) and installation work will be financed by Adatum US (invoice account 2) directly.
+
+## Set up invoice account defaulting rules for item requirements
+
+### Prerequisites
+
+- Using item requirements with multiple invoice accounts requires **10.0.27 or higher Dynamics 365 Finance and Operations version**.
+- System administrator must enable feature **Allow item requirements with multiple funding sources for Project Operations stocked/production-based scenarios** in Feature management workspace.
+
+### Set up invoice account defaulting rules
+
+1. Go to  **Project management and accounting**  \&gt;  **Setup**  \&gt;  **Project management and accounting parameters**  and open  **General** tab.
+2. In **Sales orders and Item requirements** group:
+  - Set parameter **Allow for projects with multiple funding sources** to Yes.
+  - Select value in **Default customer** field:
+    - From funding source – selecting this option will default project delivery customer on the item requirement from the funding source. If project contract has multiple funding sources associated, it will use the first funding source from the list.
+    - From project – selecting this option will default project delivery customer on the item requirement from the customer, selected in Project record Account field.
+
+1. Optionally set or change **Default invoice account** on the **Project** records. Go to **Project management and accounting \&gt; Projects \&gt; All projects** and open project record details. In the **General** tab set or update field **Default invoice account** value. This value will be used as a default value for invoice account for new item requirements created for this project. If value in this field is empty, system will default Invoice account to the first project contract funding source and user will be able to change it when saving the record.
+
+### Pick invoice account when creating an item requirement
+
+1. Go to **Project management and accounting \&gt; Projects \&gt; All projects** and pick the project record. In **Plan** tab select **Item requirements** menu item.
+2. Create a new item requirement record:
+  1. Notice system defaults **Invoice account** field on the record as per Default invoice account setup on project. If desired, change Invoice account to a different value and save the record. Note that system will not allow to update the value after the record is saved. If you need to update invoice account on the item requirement, delete existing item requirement and create a new item requirement with the desired value.
+  2. **Customer** field value on the item requirement is defaulted based on Project management and accounting parameters setting Default customer.
+3. When item requirement record is saved, system associates it with Item requirement Sales Order header record. If open sales order header with selected invoice account does not exists, system will automatically create one and will associate item requirement line to it.
+
+Note:
+
+Item requirement is always fully invoiced to the invoice account set on the record. System currently does not support funding allocation rules with item requirements and will not split the posting based on the funding allocation rules setup.
+
+### Create item requirement from item forecast record
+
+1. Go to **Project management and accounting \&gt; Projects \&gt; All projects** and pick the project record. In **Plan** tab select **Item forecasts** menu item.
+2. Create a new item forecast record. Optionally select desired invoice account in the Funding source field in the Project tab.
+3. Select a button Create item requirement and confirm the dialog window. Note system copies project funding source from item forecast record to newly created item requirement record.
+
+###
+
+### Default invoice account when system automatically creates an item requirement from Purchase order line
+
+When Create item requirement parameter is set to yes in Project Management and accounting parameters form, system automatically creates item requirement when new project purchase order line is saved. Invoice account for such item requirement is defaulted based on Default invoice account setting in the Project record. Currently system does not support updating/ changing invoice account for such record.
