@@ -36,7 +36,7 @@ ms.reviewer: johnmichalak
 ## Download and install the add-in  
  Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready. You will need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  From the Download Center, download the add-in for your supported version of Project Service, either [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) or [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  From the Download Center, download the add-in for your supported version of Project Service, either [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) or [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Click the download link.  
 
