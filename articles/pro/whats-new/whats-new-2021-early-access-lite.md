@@ -21,7 +21,7 @@ The release is only applied when an environment is [opted into Early Access](/po
 
 ## Features included in this release
 
-[Subcontract management](/dynamics-365-project-operations/pro/whats-new/managing-subcontracts-overview) - This feature provides better visibility and control over all aspects of work on a project. The preview of subcontract management includes the following capabilities:
+[Subcontract management](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - This feature provides better visibility and control over all aspects of work on a project. The preview of subcontract management includes the following capabilities:
 
   - A project manager can create a subcontract with a vendor. By default, the price lists that are attached to the vendor record are used for the subcontract. The vendor account has a relationship type of **Vendor** or **Supplier**.
   - A project manager can itemize all of the purchases as line items on the subcontract. Subcontract lines can be for time, expenses, or products. The transaction class of the subcontract line determines what the line is for.
