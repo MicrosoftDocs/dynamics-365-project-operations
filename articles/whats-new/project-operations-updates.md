@@ -44,18 +44,18 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | First Release         |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.42.0.70      | May 06, 2022       | May 06, 2022        | TBD                 | May 27, 2022        |
-|   &nbsp;  | Canada                |  4.42.0.70      | May 06, 2022       | May 06, 2022        | TBD                 | May 27, 2022        |
-|   &nbsp;  | India                 |  4.42.0.70      | May 06, 2022       | May 06, 2022        | TBD                 | May 27, 2022        |
-|   &nbsp;  | France                |  4.42.0.70      | May 06, 2022       | May 06, 2022        | TBD                 | May 27, 2022        |
-|   &nbsp;  | South Africa          |  4.42.0.70      | May 06, 2022       | May 06, 2022        | TBD                 | May 27, 2022        |
-|   &nbsp;  | Switzerland           |  4.42.0.70      | May 06, 2022       | May 06, 2022        | TBD                 | May 27, 2022        |
+|   &nbsp;  | South America         |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
+|   &nbsp;  | Canada                |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
+|   &nbsp;  | India                 |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
+|   &nbsp;  | France                |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
+|   &nbsp;  | South Africa          |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
+|   &nbsp;  | Switzerland           |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.41.0.45      | Complete           | Complete            | 4.42.0.70           | May 06, 2022        |
-|   &nbsp;  | Asia Pacific          |  4.41.0.45      | Complete           | Complete            | 4.42.0.70           | May 06, 2022        |
-|   &nbsp;  | Great Britain         |  4.41.0.45      | Complete           | Complete            | 4.42.0.70           | May 06, 2022        |
-|   &nbsp;  | Oceania               |  4.41.0.45      | Complete           | Complete            | 4.42.0.70           | May 06, 2022        |
-|   &nbsp;  | United Arab Emirates  |  4.41.0.45      | Complete           | Complete            | 4.42.0.70           | May 06, 2022        |
+|   &nbsp;  | Japan                 |  4.42.0.70      | May 13, 2022       | May 13, 2022        | TBD                 | June 03, 2022       |
+|   &nbsp;  | Asia Pacific          |  4.42.0.70      | May 13, 2022       | May 13, 2022        | TBD                 | June 03, 2022       |
+|   &nbsp;  | Great Britain         |  4.42.0.70      | May 13, 2022       | May 13, 2022        | TBD                 | June 03, 2022       |
+|   &nbsp;  | Oceania               |  4.42.0.70      | May 13, 2022       | May 13, 2022        | TBD                 | June 03, 2022       |
+|   &nbsp;  | United Arab Emirates  |  4.42.0.70      | May 13, 2022       | May 13, 2022        | TBD                 | June 03, 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Europe                |  4.41.0.45      | Complete           | Complete            | 4.42.0.70           | May 13, 2022        |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
