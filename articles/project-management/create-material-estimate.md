@@ -12,7 +12,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Dynamics 365 Project Operations allows Project managers to define project-based material costs for each project or task. Each material estimate can be associated with a specific project task. Materials used on projects can be **write - in** or from the product catalog. Each product and unit combination can have a price defined in the project price lists for sales and in project price lists for cost.  
+Dynamics 365 Project Operations allows Project managers to define project-based material costs for each project or task. Each material estimate can be associated with a specific project task. Materials that are used on projects can be write-in products or products from the product catalog. For each combination of a product and a unit, a price can be defined in the project price lists for sales and the project price lists for cost.  
 
 Complete the following steps to view, add, or delete a project material estimate.
 
