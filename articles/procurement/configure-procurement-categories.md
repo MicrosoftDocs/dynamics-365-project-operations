@@ -42,7 +42,7 @@ Follow these steps to map project categories to procurement categories in the **
 
 1. Go to **Procurement and sourcing \> Procurement categories**.
 1. Select **Edit category hierarchy**.
-1. Select the desired category hierarchy node, and then, on the **Assign project categories** tab, associate the node with the project category from the **Time**, Expense**, or **,Item Project** category (that is, the **Default-Time** or **Default-Expense** category).
+1. Select the desired category hierarchy node, and then, on the **Assign project categories** tab, associate the node with the project category from the **Time**, **Expense**, or, **Item Project** category (that is, the **Default-Time** or **Default-Expense** category).
 1. Select **Save**.
 1. Close the page.
 
