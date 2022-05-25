@@ -57,9 +57,9 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | Oceania               |  4.42.0.70      | Complete           | Complete            | TBD                 | June 03, 2022       |
 |   &nbsp;  | United Arab Emirates  |  4.42.0.70      | Complete           | Complete            | TBD                 | June 03, 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.42.0.70      | May 20, 2022       | May 20, 2022        | TBD                 | June 10, 2022       |
+|   &nbsp;  | Europe                |  4.42.0.70      | May 27, 2022       | May 27, 2022        | TBD                 | June 10, 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.41.0.45      | Complete           | Complete            | 4.42.0.70           | May 20, 2022        |
+|   &nbsp;  | North America         |  4.42.0.70      | June 03, 2022      | June 03, 2022       | TBD                 | June 17, 2022       |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
