@@ -35,4 +35,4 @@ The following issues have been fixed.
 
 **Time and Expense**
 
-- Delayed sysem jobs were preventing the processing of pending approvals.
+- Delayed system jobs were preventing the processing of pending approvals.
