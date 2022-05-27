@@ -121,7 +121,6 @@ As part of continuing investments in Project Operations, several new capabilitie
 | Project Service Automation                             | Project Operations Lite Deployment                        | Supported               |
 | Dynamics 365 Finance Project Management and Accounting | Project Operations Lite Deployment                        | Not currently supported |
 | Finance Project Management and Accounting              | Project Operations for resource/non-stocked scenarios     | Not currently supported |
-| Finance Project Management and Accounting              | Project Operations for stocked/production order scenarios | Not currently supported |
 | Project Service Automation 3.x                         | Project Operations for resource/non-stocked scenarios     | Not currently supported |
 | Project for the Web (dedicated environment)            | Project Operations Lite Deployment                        | Not currently supported |
 
