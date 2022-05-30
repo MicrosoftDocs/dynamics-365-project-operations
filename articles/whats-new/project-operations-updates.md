@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
 | --- | --- |
-| 4.42.0.70 | 10.0.26 |
+| 4.43.0.77 | 10.0.26 |
 
 For Project Operations Resource/non-stocked scenario, we recommend that you use dual-write Orchestration version 2.3.1.15 or higher.
 
@@ -42,24 +42,24 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
+|   &nbsp;  | First Release         |  4.43.0.77      | Complete           | Complete            | TBD                 | July 01, 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
-|   &nbsp;  | Canada                |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
-|   &nbsp;  | India                 |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
-|   &nbsp;  | France                |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
-|   &nbsp;  | South Africa          |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
-|   &nbsp;  | Switzerland           |  4.42.0.70      | Complete           | Complete            | TBD                 | May 27, 2022        |
+|   &nbsp;  | South America         |  4.43.0.77      | June 03, 2022      | June 03, 2022       | TBD                 | July 01, 2022       |
+|   &nbsp;  | Canada                |  4.43.0.77      | June 03, 2022      | June 03, 2022       | TBD                 | July 01, 2022       |
+|   &nbsp;  | India                 |  4.43.0.77      | June 03, 2022      | June 03, 2022       | TBD                 | July 01, 2022       |
+|   &nbsp;  | France                |  4.43.0.77      | June 03, 2022      | June 03, 2022       | TBD                 | July 01, 2022       |
+|   &nbsp;  | South Africa          |  4.43.0.77      | June 03, 2022      | June 03, 2022       | TBD                 | July 01, 2022       |
+|   &nbsp;  | Switzerland           |  4.43.0.77      | June 03, 2022      | June 03, 2022       | TBD                 | July 01, 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.42.0.70      | Complete           | Complete            | TBD                 | June 03, 2022       |
-|   &nbsp;  | Asia Pacific          |  4.42.0.70      | Complete           | Complete            | TBD                 | June 03, 2022       |
-|   &nbsp;  | Great Britain         |  4.42.0.70      | Complete           | Complete            | TBD                 | June 03, 2022       |
-|   &nbsp;  | Oceania               |  4.42.0.70      | Complete           | Complete            | TBD                 | June 03, 2022       |
-|   &nbsp;  | United Arab Emirates  |  4.42.0.70      | Complete           | Complete            | TBD                 | June 03, 2022       |
+|   &nbsp;  | Japan                 |  4.42.0.70      | Complete           | Complete            | 4.43.0.77           | June 03, 2022       |
+|   &nbsp;  | Asia Pacific          |  4.42.0.70      | Complete           | Complete            | 4.43.0.77           | June 03, 2022       |
+|   &nbsp;  | Great Britain         |  4.42.0.70      | Complete           | Complete            | 4.43.0.77           | June 03, 2022       |
+|   &nbsp;  | Oceania               |  4.42.0.70      | Complete           | Complete            | 4.43.0.77           | June 03, 2022       |
+|   &nbsp;  | United Arab Emirates  |  4.42.0.70      | Complete           | Complete            | 4.43.0.77           | June 03, 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.42.0.70      | May 27, 2022       | May 27, 2022        | TBD                 | June 10, 2022       |
+|   &nbsp;  | Europe                |  4.42.0.70      | Complete           | Complete            | 4.43.0.77           | June 10, 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.42.0.70      | June 03, 2022      | June 03, 2022       | TBD                 | June 17, 2022       |
+|   &nbsp;  | North America         |  4.42.0.70      | June 03, 2022      | June 03, 2022       | 4.43.0.77           | June 17, 2022       |
 
 ## Release schedule for Project management and accounting in the Finance and Operations apps environment
 
