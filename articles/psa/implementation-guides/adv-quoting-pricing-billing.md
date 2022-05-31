@@ -27,7 +27,7 @@ ms.reviewer: johnmichalak
 
 The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals. 
 
-The PDF link that was previously in this article has been removed and the content has been moved to the following topics:
+The PDF link that was previously in this article has been removed and the content has been moved to the following articles:
 
 - [Quoting, pricing, and billing](../quote-bill-price.md)
 - [Sales processes](../basic-sales-process.md)

@@ -31,7 +31,7 @@ With these fields enabled, you can set up the price and cost for each role and o
 
 ![Screenshot of Project Service parameters with “Applicable to Sales” highlighted.](media/PS-OOB-parameters.png)
 
-If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics. 
+If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following articles. 
   
   > [!NOTE]
   > The procedures must be completed in the order they are listed.

@@ -24,7 +24,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-The PDF link that was previously in this article has been removed and the content has been moved to the following topics:
+The PDF link that was previously in this article has been removed and the content has been moved to the following articles:
 
 - [Resource management home page](../resource-management-home-page.md)
 - [Key concepts](../reports-key-concepts.md)

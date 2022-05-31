@@ -26,7 +26,7 @@ ms.reviewer: johnmichalak
 
 The reporting methods and technologies in this app can to help you determine the health of your projects and identify when you need to take corrective action. 
 
-The PDF link that was previously in this article has been removed and the content has been moved to the following topics:
+The PDF link that was previously in this article has been removed and the content has been moved to the following articles:
 
 - [Reporting home page](../reports-reporting-dynamics-365-project-service.md)
 - [Dashboards](../reports-dashboards.md)

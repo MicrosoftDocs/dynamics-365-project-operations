@@ -39,7 +39,7 @@ Actuals represent the reviewed and approved financial and schedule progress on a
 
 Project Operations records the financial transactions that occur during a project engagement lifecycle as actuals. The creation of actuals at various events in the lifecycle varies, depending on whether the project engagement uses the time and materials billing model or the fixed price billing model, and whether it's in the pre-sales stage or it's an internal project.
 
-The following topics explain the impact on the Actuals table at various events for different variations:
+The following articles explain the impact on the Actuals table at various events for different variations:
 
 - [Actuals impact in a time and materials engagement](ActualsonTM.md)
 - [Actuals impact in a fixed price engagement](ActualonFP.md)

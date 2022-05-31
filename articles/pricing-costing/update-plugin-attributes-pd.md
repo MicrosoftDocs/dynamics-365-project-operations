@@ -17,7 +17,7 @@ This article provides information about how to update plug-in attributes for pri
 > This article is only applicable to the quote and contract features in Dynamics 365 Project Operations.
 
 ## Prerequisites
-Before you complete the steps in this topic, you must have completed the procedures in the following topics:
+Before you complete the steps in this article, you must have completed the procedures in the following articles:
 
   - [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md) 
   - [Add custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md)

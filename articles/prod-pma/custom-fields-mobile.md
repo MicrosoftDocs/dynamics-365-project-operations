@@ -32,7 +32,7 @@ ms.search.validFrom: 2019-05-29
 
 [!include [banner](../includes/banner.md)]
 
-This article provides common patterns for using extensions to implement custom fields. The following topics are covered:
+This article provides common patterns for using extensions to implement custom fields. The following articles are covered:
 
 - The various data types that the custom field framework supports
 - How to show read-only or editable fields on timesheet entries, and save user-provided values back to the database

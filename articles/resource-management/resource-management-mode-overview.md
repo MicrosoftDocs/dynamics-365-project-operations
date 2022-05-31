@@ -34,7 +34,7 @@ For organizations who require flexibility in the allocation of resources, the hy
 
 ![Hybrid Mode.](./media/resource-management-hybrid.png)
 
-In addition to the supported Central mode process, see the following topics to manage all other supported booking flows in the Hybrid mode:
+In addition to the supported Central mode process, see the following articles to manage all other supported booking flows in the Hybrid mode:
 
 Book a resource directly to a project:
 - [Book named bookable resources to a project team and assign tasks](/dynamics365/project-service/assign-named-bookable-resource)

@@ -26,7 +26,7 @@ ms.reviewer: johnmichalak
 
 The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget. 
 
-The PDF link that was previously in this article has been removed and the content has been moved to the following topics:
+The PDF link that was previously in this article has been removed and the content has been moved to the following articles:
 
 - [Project schedules](../project-creating.md)
 - [Project costs and revenue](../project-estimating.md)

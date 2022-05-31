@@ -16,7 +16,7 @@ ms.author: rumant
 This article provides information about how to use a bookable resource as a pricing dimension. If your pricing strategy is set up so that each bookable resource must have a specific price or cost rate, use a bookable resource as a pricing dimension.
 
 ## Prerequisites
-Before you complete the procedures in this topic, you must have a new pricing dimension solution for your organization. If you haven't already created one, see [Create custom fields and entities](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
+Before you complete the procedures in this article, you must have a new pricing dimension solution for your organization. If you haven't already created one, see [Create custom fields and entities](../pricing-costing/create-custom-fields-entities-pricing-dimensions.md).
 
 ## Add the Bookable Resource field to forms and views
 To make the **Bookable Resource** field visible in the pricing dimension solution, you need to add the field to all the forms and views as an entity.

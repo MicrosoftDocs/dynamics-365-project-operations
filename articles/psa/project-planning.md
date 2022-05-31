@@ -38,7 +38,7 @@ The project management tools in PSA help you easily run projects. Built-in templ
 - Forecast resource requirements for projects that are in the pipeline.
 - Successfully deliver projects by tracking progress and cost consumption.
 
-The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:
+The following articles provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:
 
 - [Creating a schedule](project-creating.md)
 - [Estimating project cost and revenue](project-estimating.md)

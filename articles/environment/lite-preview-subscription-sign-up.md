@@ -45,7 +45,7 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 
 ## Create a new Dataverse environment
 
-1. Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
+1. Provision a new Project Operations Dataverse deployment environment by following instructions in the article, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
 
   ![New environment.](./media/19CreateEnvironment.png)
 
@@ -60,7 +60,7 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 
 ## Install a CDS configuration and setup demo data
 
-Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
+Install the CDS configuration and set up demo data by following instructions in the article, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

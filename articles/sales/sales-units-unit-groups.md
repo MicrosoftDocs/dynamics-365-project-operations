@@ -33,7 +33,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.
 
-To complete the steps in this topic, make sure that you have been assigned to the System Administrator or Sales Professional Manager role or have equivalent permissions.
+To complete the steps in this article, make sure that you have been assigned to the System Administrator or Sales Professional Manager role or have equivalent permissions.
 
 ## Create a unit group
 

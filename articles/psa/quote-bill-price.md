@@ -28,7 +28,7 @@ ms.reviewer: johnmichalak
 
 Quoting, pricing, and billing are features that are used by both small and large organizations. By understanding how these features work in the application, organizations can more easily customize configurations.
 
-The following topics provide more information about the quoting, pricing, and billing functionality in PSA:
+The following articles provide more information about the quoting, pricing, and billing functionality in PSA:
 
 - [Sales process](basic-sales-process.md)
 - [Quote lines](basic-quote-lines.md)

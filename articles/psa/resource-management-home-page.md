@@ -26,7 +26,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resources are the most important asset of a service-based organization. The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. The following topics are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:
+Resources are the most important asset of a service-based organization. The ability to find and book the correct resources when you need them, and to keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. The following articles are focused on teh resource management capabilities of Dynamics 365 Project Service Automation:
 
 - [Manage resources](manage-resources.md)
 - [Key concepts](reports-key-concepts.md)

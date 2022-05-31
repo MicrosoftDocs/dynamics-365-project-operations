@@ -47,7 +47,7 @@ One challenge for project managers and resource managers during the project plan
 
 As project planning proceeds, planned resources can be replaced with staffed resources. The project manager can also go back and update the resourcing reservations during any project stage.
 
-The following topics provide information about the tasks that need to be completed when you are working on resourcing projects.
+The following articles provide information about the tasks that need to be completed when you are working on resourcing projects.
 
 - [Set up project resources](set-up-project-resources.md)
 - [Manage resource competencies](manage-resource-competencies.md)
