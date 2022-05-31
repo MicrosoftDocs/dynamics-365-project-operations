@@ -1,6 +1,6 @@
 ---
 title: What's new or changed in Project Service Automation Update Release 19, V3
-description: This topic lists the features and fixes that are available in Project Service Automation Update Release 19, V3.
+description: This article lists the features and fixes that are available in Project Service Automation Update Release 19, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
@@ -24,7 +24,7 @@ ms.reviewer: johnmichalak
 
 We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).
 
-This topic lists the features and fixes that are new or changed for PSA V3, Update Release 19. This version has a build number of V3.10.30.41 and is generally available through a self-update in May 2020.
+This article lists the features and fixes that are new or changed for PSA V3, Update Release 19. This version has a build number of V3.10.30.41 and is generally available through a self-update in May 2020.
 
 ## Update Release 19
 

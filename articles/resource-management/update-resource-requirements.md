@@ -1,6 +1,6 @@
 ---
 title: Edit a resource requirement
-description: This topic provides information about updating resource requirement information.
+description: This article provides information about updating resource requirement information.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Add new custom entity forms (Project Service Automation 2.x)
-description: This topic provides information about how to add custom entity forms for opportunities, quotes, orders, or invoices in Dynamics 365 Project Service Automation 2.x.
+description: This article provides information about how to add custom entity forms for opportunities, quotes, orders, or invoices in Dynamics 365 Project Service Automation 2.x.
 author: makk
 ms.custom: 
   - dyn365-projectservice

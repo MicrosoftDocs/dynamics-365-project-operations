@@ -1,6 +1,6 @@
 ---
 title: What's new February 2022 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates that are available in the February 2022 release of Project Operations for resource/non-stocked based scenarios.
+description: This article provides information about the quality updates that are available in the February 2022 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 *Applies To: Project Operations for resource/non-stocked based scenarios*
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in a Dataverse environment version 4.28.0.120
 - Project management and accounting in a Dynamics 365 Finance environment version 10.0.24
@@ -71,11 +71,11 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 ## Removed and deprecated features
 
-The [Removed or deprecated features in Project Operations](removed-depreciated-features-project.md) topic describes features that have been removed or deprecated for Dynamics 365 Project Operations.
+The [Removed or deprecated features in Project Operations](removed-depreciated-features-project.md) article describes features that have been removed or deprecated for Dynamics 365 Project Operations.
 
 - A removed feature is no longer available in the product.
 - A deprecated feature isn't in active development and might be removed in a future update.
 
-A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](removed-depreciated-features-project.md) topic 12 months before any feature is removed from the product.
+A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.
 
 For breaking changes that only affect compilation time, but are binary compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.

@@ -1,6 +1,6 @@
 ---
 title: Vendor invoice integration
-description: This topic provides information about vendor invoice integration in Project Operations.
+description: This article provides information about vendor invoice integration in Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article

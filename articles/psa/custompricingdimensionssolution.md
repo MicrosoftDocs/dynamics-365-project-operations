@@ -1,6 +1,6 @@
 ---
 title: Create custom solutions for pricing dimensions
-description: This topic explains how to create a custom solution when creating custom pricing dimensions.
+description: This article explains how to create a custom solution when creating custom pricing dimensions.
 author: Rumant
 ms.custom: 
   - dyn365-projectservice

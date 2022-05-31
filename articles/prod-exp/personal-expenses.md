@@ -2,7 +2,7 @@
 # required metadata
 
 title: Personal expenses on an expense report
-description: This topic explains the two methods for handling a worker's personal expenses in Microsoft Dynamics 365 Finance.
+description: This article explains the two methods for handling a worker's personal expenses in Microsoft Dynamics 365 Finance.
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: article

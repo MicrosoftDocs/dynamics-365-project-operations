@@ -1,6 +1,6 @@
 ---
 title: Invoicing in Project Service Automation
-description: This topic provides information about invoicing.
+description: This article provides information about invoicing.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

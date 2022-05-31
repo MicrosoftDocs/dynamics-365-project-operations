@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project resourcing home page
-description: This topic provides information about project resourcing.
+description: This article provides information about project resourcing.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -32,7 +32,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 [!include [banner](../includes/banner.md)]
 
-This topic provides information about project resourcing.
+This article provides information about project resourcing.
 
 One challenge for project managers and resource managers during the project planning stage is resource allocation, where they must determine and reserve the correct resource to work on a project. In Dynamics 365 Finance, resourcing capabilities for projects let you define roles that are treated as temporary resources that can be reserved for a specific engagement or part of an engagement. This type of resourcing lets project managers and resource managers complete the following tasks:
 

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Creat a project team
-description: This topic provides information about how to create and manage project teams.
+description: This article provides information about how to create and manage project teams.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

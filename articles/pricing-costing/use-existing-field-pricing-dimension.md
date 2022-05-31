@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project Operations fields as pricing dimensions
-description: This topic provides information using fields as pricing dimensions in Dynamics 365 Project Operations. 
+description: This article provides information using fields as pricing dimensions in Dynamics 365 Project Operations. 
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

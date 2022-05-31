@@ -1,6 +1,6 @@
 ---
 title: What's new May 2022 - Project Operations lite deployment
-description: This topic provides information about the quality updates that are available in the May 2022 release of Microsoft Dynamics 365 Project Operations lite deployment.
+description: This article provides information about the quality updates that are available in the May 2022 release of Microsoft Dynamics 365 Project Operations lite deployment.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in a Dataverse environment version 4.42.0.70
 

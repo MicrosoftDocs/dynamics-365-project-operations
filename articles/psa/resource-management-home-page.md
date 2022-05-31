@@ -1,6 +1,6 @@
 ---
 title: Resource management home page
-description: This topic provides information about how to manage resources.
+description: This article provides information about how to manage resources.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

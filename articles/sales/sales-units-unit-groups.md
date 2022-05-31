@@ -2,7 +2,7 @@
 # required metadata
 
 title: Units and unit groups
-description: This topic provides information about how to create units and unit groups in Dynamics 365 Project Operations.
+description: This article provides information about how to create units and unit groups in Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

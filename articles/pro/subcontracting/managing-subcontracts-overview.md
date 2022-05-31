@@ -1,6 +1,6 @@
 ---
 title: Subcontract management in Project Operations
-description: This topic provides an overview of the end-to-end subcontract management process typically in project-based organizations.
+description: This article provides an overview of the end-to-end subcontract management process typically in project-based organizations.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
@@ -14,7 +14,7 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-This topic provides an overview of the end-to-end subcontract management process in project-based organizations. Subcontracting for services typically follows the business process flow that is shown in the following diagram.
+This article provides an overview of the end-to-end subcontract management process in project-based organizations. Subcontracting for services typically follows the business process flow that is shown in the following diagram.
 
 ![Subcontracting process flow](../media/SubcontractingProcessFlow.png)
 

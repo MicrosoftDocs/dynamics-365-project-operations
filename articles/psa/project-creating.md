@@ -1,6 +1,6 @@
 ---
 title: Project schedules
-description: This topic provides information about how to create a schedule.
+description: This article provides information about how to create a schedule.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

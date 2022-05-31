@@ -1,6 +1,6 @@
 ---
 title: Sign up for a preview subscription - lite
-description: This topic provides information about how to subscribe to and deploy Project Operations lite deployment - deal to proforma invoicing.
+description: This article provides information about how to subscribe to and deploy Project Operations lite deployment - deal to proforma invoicing.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.author: sigitac
 
 # Sign up for a preview subscription - lite 
 
-This topic explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.
+This article explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.
 
 > [!NOTE]
 > This process will change in upcoming releases of Project Operations.

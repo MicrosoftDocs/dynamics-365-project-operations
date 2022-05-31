@@ -1,6 +1,6 @@
 ---
 title: What's new 2021 wave 2 early access - Project Operations lite deployment
-description: This topic provides information about the features available in the 2021 wave 2 early access release of Project Operations lite deployment.
+description: This article provides information about the features available in the 2021 wave 2 early access release of Project Operations lite deployment.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _Applies To: Lite deployment - deal to proforma invoicing_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
   - Project Operations on Dataverse environment version 4.23.0.4
 

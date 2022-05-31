@@ -2,7 +2,7 @@
 # required metadata 
  
 title: Receive items on purchase order from item requirement
-description: This topic explains how to receive items on a purchase order from an item requirement. 
+description: This article explains how to receive items on a purchase order from an item requirement. 
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: business-process 
@@ -28,7 +28,7 @@ ms.dyn365.ops.version: Version 7.0.0
 
 [!include [banner](../../includes/banner.md)]
 
-This topic explains how to receive items on a purchase order from an item requirement.
+This article explains how to receive items on a purchase order from an item requirement.
 
 By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning. 
 

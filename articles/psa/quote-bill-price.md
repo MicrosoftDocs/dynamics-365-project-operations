@@ -1,6 +1,6 @@
 ---
 title: Quoting, pricing, and billing home page
-description: This topic provides information about quoting, pricing, and billing.
+description: This article provides information about quoting, pricing, and billing.
 author: rumant
 ms.author: rumant
 ms.custom: 

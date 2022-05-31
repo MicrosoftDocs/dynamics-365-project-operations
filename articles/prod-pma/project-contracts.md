@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project contracts
-description: This topic provides examples of the project contracts that you can create for various types of projects and funding sources, and how you can manage contracts and invoice project customers.
+description: This article provides examples of the project contracts that you can create for various types of projects and funding sources, and how you can manage contracts and invoice project customers.
 author: Yowelle
 ms.date: 11/03/2017
 ms.topic: article

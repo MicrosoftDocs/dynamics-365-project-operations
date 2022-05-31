@@ -1,6 +1,6 @@
 ---
 title: Create and update a project
-description: This topic provides information about updating projects Project Operations.
+description: This article provides information about updating projects Project Operations.
 author: ruhercul
 ms.date: 10/20/2021
 ms.topic: article

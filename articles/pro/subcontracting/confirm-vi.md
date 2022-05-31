@@ -1,6 +1,6 @@
 ---
 title: Confirm a project vendor invoice
-description: This topic explains how to confirm a project vendor invoice in Microsoft Dynamics 365 Project Operations and the financial impact of confirming a project vendor invoice.
+description: This article explains how to confirm a project vendor invoice in Microsoft Dynamics 365 Project Operations and the financial impact of confirming a project vendor invoice.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article

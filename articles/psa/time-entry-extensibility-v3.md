@@ -1,6 +1,6 @@
 ---
 title: Customize weekly time entry
-description: This topic provides information about how to implement custom business rules that support an organization's practices.
+description: This article provides information about how to implement custom business rules that support an organization's practices.
 author: stsporen
 ms.custom: 
   - dyn365-projectservice
@@ -41,7 +41,7 @@ The **Dimensions** section shows, as column headings, all the dimensions that ti
 - Type
 - Entry Status
 
-The **Dimensions** section doesn't allow for inline editing. This section is backed by a view that enables custom fields to be added to the weekly time entry grid. For information about how to add custom fields, see the "Extensibility" section later in this topic.
+The **Dimensions** section doesn't allow for inline editing. This section is backed by a view that enables custom fields to be added to the weekly time entry grid. For information about how to add custom fields, see the "Extensibility" section later in this article.
 
 ### Duration
 The Duration section shows the days of the week as column headers. This section allows for inline editing. After a time entry row is created that has appropriate dimensions, users can quickly enter, inline, the amount of time that they spent on those dimensions.

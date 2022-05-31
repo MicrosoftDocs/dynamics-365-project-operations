@@ -1,6 +1,6 @@
 ---
 title: Recall approved time or expense entries
-description: This topic provides information about how to recall a previously approved time or expense transaction.
+description: This article provides information about how to recall a previously approved time or expense transaction.
 author: rumant
 ms.custom: 
 ms.author: rumant

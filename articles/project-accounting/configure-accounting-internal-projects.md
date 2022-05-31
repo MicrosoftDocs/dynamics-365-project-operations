@@ -1,6 +1,6 @@
 ---
 title: Configure accounting for internal projects
-description: This topic provides information about how to set up accounting practices for internal projects in Project Operations.
+description: This article provides information about how to set up accounting practices for internal projects in Project Operations.
 author: sigitac
 ms.date: 10/09/2020
 ms.topic: article

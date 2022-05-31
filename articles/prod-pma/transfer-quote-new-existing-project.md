@@ -2,7 +2,7 @@
 # required metadata
 
 title: Transfer a quotation to a project
-description: This topic provides information about how to transfer a quotation to a new or existing project.
+description: This article provides information about how to transfer a quotation to a new or existing project.
 author: kfend
 ms.date: 05/28/2020
 ms.topic: article

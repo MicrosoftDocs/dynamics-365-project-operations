@@ -2,7 +2,7 @@
 # required metadata
 
 title: Resource management overview
-description: This topic provides information about Resource management functionality in Dynamics 365 Project operations. 
+description: This article provides information about Resource management functionality in Dynamics 365 Project operations. 
 author: ruhercul
 ms.date: 06/22/2020
 ms.topic: article

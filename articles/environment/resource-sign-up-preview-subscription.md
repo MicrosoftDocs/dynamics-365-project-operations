@@ -1,6 +1,6 @@
 ---
 title: Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
-description: This topic provides information about how to subscribe to and deploy Project Operations for resouce/non-stocked based scenarios.
+description: This article provides information about how to subscribe to and deploy Project Operations for resouce/non-stocked based scenarios.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -14,7 +14,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 
 
-This topic explains how to subscribe to the trial offer and deploy Project Operations environment for resource/non-stocked based scenarios.
+This article explains how to subscribe to the trial offer and deploy Project Operations environment for resource/non-stocked based scenarios.
 
 ## Prerequisites
 - The user who deploys the preview must have Azure tenant global administrator rights. You can create a tenant during the first offer redemption. 

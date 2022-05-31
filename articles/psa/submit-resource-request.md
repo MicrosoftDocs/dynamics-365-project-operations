@@ -1,6 +1,6 @@
 ---
 title: Submitting a resource request
-description: This topic provides information about submitting a request for a project resource.
+description: This article provides information about submitting a request for a project resource.
 ms.custom: 
   - dyn365-projectservice
 ms.date: 12/1/2018

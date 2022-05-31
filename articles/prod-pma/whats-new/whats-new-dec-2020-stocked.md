@@ -1,6 +1,6 @@
 ---
 title: What's new December 2020 - Project Operations for stocked/production based scenarios
-description: This topic provides information about the quality updates available in the December 2020 release of Project Operations for stocked/production based scenarios.
+description: This article provides information about the quality updates available in the December 2020 release of Project Operations for stocked/production based scenarios.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: andchoi
 
 _Applies To: Project Operations for stocked/production-based scenarios_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
   - Project management and accounting in Dynamics 365 Finance environment version 10.0.15
 

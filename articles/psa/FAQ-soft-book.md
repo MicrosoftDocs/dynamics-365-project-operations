@@ -1,6 +1,6 @@
 ---
 title: Soft book a resource
-description: This topic provides information about how to tentatively schedule or soft book project team members.
+description: This article provides information about how to tentatively schedule or soft book project team members.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

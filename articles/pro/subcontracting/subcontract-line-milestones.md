@@ -1,6 +1,6 @@
 ---
 title: Subcontract line milestones
-description: This topic explains how to create and maintain a milestone-based invoice schedule for a subcontract with a vendor.
+description: This article explains how to create and maintain a milestone-based invoice schedule for a subcontract with a vendor.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article

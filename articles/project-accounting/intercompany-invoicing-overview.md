@@ -2,7 +2,7 @@
 # required metadata
 
 title: Intercompany invoicing overview
-description: This topic provides information and examples about intercompany invoicing for projects.
+description: This article provides information and examples about intercompany invoicing for projects.
 author:  sigitac
 ms.date: 11/19/2020 
 ms.topic: overview

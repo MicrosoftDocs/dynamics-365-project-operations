@@ -1,6 +1,6 @@
 ---
 title: Set up cost templates
-description: This topic provides information about how to create and use cost templates in Project Operations.
+description: This article provides information about how to create and use cost templates in Project Operations.
 author:  sigitac
 ms.date: 11/18/2020 
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 
-This topic provides information about how to create and use cost templates in Project Operations. A cost template determines:
+This article provides information about how to create and use cost templates in Project Operations. A cost template determines:
 
 - The project categories for forecast and actual transactions to be included in a percentage of the project completion calculation. The percent-complete value is then used to calculate how much revenue is recognized.
 - Whether the percentage of completion can be modified if it's automatically calculated.

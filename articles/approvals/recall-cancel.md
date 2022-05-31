@@ -1,6 +1,6 @@
 ---
 title: Recall previously approved entries
-description: This topic explains how a project team member can request the recall of previously submitted and approved time, expense, and material usage records, and how a project manager can approve or reject recall requests.
+description: This article explains how a project team member can request the recall of previously submitted and approved time, expense, and material usage records, and how a project manager can approve or reject recall requests.
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview

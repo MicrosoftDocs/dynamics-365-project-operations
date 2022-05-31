@@ -1,6 +1,6 @@
 ---
 title: Map projects and tasks to a project-based contract line - lite
-description: This topic provides information about adding and removing projects and tasks to a contract line.
+description: This article provides information about adding and removing projects and tasks to a contract line.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

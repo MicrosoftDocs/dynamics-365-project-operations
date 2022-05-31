@@ -1,6 +1,6 @@
 ---
 title: Copy project contracts - lite
-description: This topic provides information about copying project contracts in Project Operations.
+description: This article provides information about copying project contracts in Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
@@ -21,7 +21,7 @@ A dialog page will open where you can select the parameters of the copied contra
 
 | **Field** | **Description** | **Downstream impact** |
 | --- | --- | --- |
-| Topic | Enter the topic of the target contract. When the dialog page opens, the system will set this field to the name of the source contract with **copy** appended to it. | There's no downstream impact for this field. |
+| Article | Enter the article of the target contract. When the dialog page opens, the system will set this field to the name of the source contract with **copy** appended to it. | There's no downstream impact for this field. |
 | Customer | Reference to the customer's company or account record. When the dialog opens, the system will set this field to the account on the source contract. | This field is the primary customer on the contract. |
 | Contracting Unit | The Organization unit that is responsible for the delivery of the project(s) associated with this deal. When the dialog page opens, the system will set it to the contracting unit of the source contract. | The contracting unit is the division of the company that will be executing the projects after the deal is closed. Every contracting unit has a currency. This currency is used to report estimated and actual costs incurred during the project. |
 | Currency | The currency that the deal is transacted in. When the dialog page opens, the system will set the field to the currency of the source contract. The currency can be changed. If it is, the **Copy Pricing** field is always set to **No** because the price lists on source contract are no longer relevant. | Currency is used for default price lists, for building financial estimates on the contract, and for invoicing the customer when the deal is won. |

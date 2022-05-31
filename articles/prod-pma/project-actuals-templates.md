@@ -2,7 +2,7 @@
 # required metadata
 
 title: Synchronize project actuals directly from Project Service Automation to the project integration journal for posting in Finance and Operations
-description: This topic describes the templates and underlying tasks that are used to synchronize project actuals directly from Microsoft Dynamics 365 Project Service Automation to Finance and Operations.
+description: This article describes the templates and underlying tasks that are used to synchronize project actuals directly from Microsoft Dynamics 365 Project Service Automation to Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -31,7 +31,7 @@ ms.dyn365.ops.version: AX 7.3.0
 
 [!include[banner](../includes/banner.md)]
 
-This topic describes the templates and underlying tasks that are used to synchronize project actuals directly from Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+This article describes the templates and underlying tasks that are used to synchronize project actuals directly from Dynamics 365 Project Service Automation to Dynamics 365 Finance.
 
 The template synchronizes transactions from Project Service Automation into a staging table in Finance. After synchronization is completed, you **must** import the data from the staging table into the integration journal.
 

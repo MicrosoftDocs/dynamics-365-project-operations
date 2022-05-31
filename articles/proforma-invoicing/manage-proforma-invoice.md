@@ -1,6 +1,6 @@
 ---
 title: Manage a proforma project-based invoice
-description:  This topic provides information about how to manage and work with proforma project-based invoices.
+description:  This article provides information about how to manage and work with proforma project-based invoices.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Expense receipt processing
-description: This topic provides information about optical character recognition (OCR) processing for receipts. This feature is designed to improve the user experience when expense reports are created in Microsoft Dynamics 365 Finance.
+description: This article provides information about optical character recognition (OCR) processing for receipts. This feature is designed to improve the user experience when expense reports are created in Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 
 # optional metadata
 
-# ms.search.form: [Operations AOT form name to tie this topic to]
+# ms.search.form: [Operations AOT form name to tie this article to]
 audience: Application User
 # ms.devlang: 
 ms.reviewer: johnmichalak

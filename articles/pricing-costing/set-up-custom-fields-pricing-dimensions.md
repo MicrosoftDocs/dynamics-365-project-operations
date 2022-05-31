@@ -2,7 +2,7 @@
 # required metadata
 
 title: Set up custom fields as pricing dimensions
-description: This topic provides information about how to set up pricing dimensions using custom fields. 
+description: This article provides information about how to set up pricing dimensions using custom fields. 
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -31,9 +31,9 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Before you begin, this topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md) and [Add required custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
+Before you begin, this article assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md) and [Add required custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md). If you haven't completed those procedures, go back and complete them and then return to this article. 
 
-This topic provides information about setting up custom pricing dimensions. On the **Parameters** page, the **Amount-Based Pricing Dimensions** tab shows the records in the pricing dimension entities. By default, there are two rows in the grid on this tab:
+This article provides information about setting up custom pricing dimensions. On the **Parameters** page, the **Amount-Based Pricing Dimensions** tab shows the records in the pricing dimension entities. By default, there are two rows in the grid on this tab:
 
 - **msdyn_resourcecategory** (Role)
 - **msdyn_OrganizationalUnit** (Organizational Unit)

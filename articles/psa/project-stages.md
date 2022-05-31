@@ -1,6 +1,6 @@
 ---
 title: Project stage types
-description: This topic provides information about project stages.
+description: This article provides information about project stages.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Project planning home page
-description: This topic provides information about project planning.
+description: This article provides information about project planning.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

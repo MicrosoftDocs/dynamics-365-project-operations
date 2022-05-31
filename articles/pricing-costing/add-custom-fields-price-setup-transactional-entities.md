@@ -2,7 +2,7 @@
 # required metadata
 
 title: Add required custom fields to price setup and transactional entities
-description: This topic provides information about how to add required custom field references to entities and to forms and views.
+description: This article provides information about how to add required custom field references to entities and to forms and views.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -31,7 +31,7 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities to be used as pricing dimensions](create-custom-fields-entities-pricing-dimensions.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
+This article assumes that you have completed the procedures in the topic, [Create custom fields and entities to be used as pricing dimensions](create-custom-fields-entities-pricing-dimensions.md). If you haven't completed those procedures, go back and complete them and then return to this article. 
 
 In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.
 

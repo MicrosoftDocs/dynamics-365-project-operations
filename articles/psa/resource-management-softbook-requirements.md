@@ -1,6 +1,6 @@
 ---
 title: Soft-book requirements
-description: This topic provides information about how to soft-book requirements.
+description: This article provides information about how to soft-book requirements.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

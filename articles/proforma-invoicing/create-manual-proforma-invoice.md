@@ -2,7 +2,7 @@
 # required metadata
 
 title: Proforma invoices
-description: This topic provides information about proforma invoices in Project Operations.
+description: This article provides information about proforma invoices in Project Operations.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Purchase non-stocked materials or procurement categories using a pending vendor invoice
-description: This topic explains how to record pending vendor invoices. 
+description: This article explains how to record pending vendor invoices. 
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article

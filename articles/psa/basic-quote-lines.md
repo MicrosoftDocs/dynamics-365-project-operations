@@ -1,6 +1,6 @@
 ---
 title: Quotes and quote lines
-description: This topic provides information about quotes and quote lines.
+description: This article provides information about quotes and quote lines.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
@@ -34,7 +34,7 @@ In Dynamics 365 Project Service Automation, there are two types of quotes: proje
 - A sales quote doesn't include some fields and concepts that are included on a project quote has fields. The fields include **Contracting Unit**, **Account Manager**, and **Bill to Contact Name**.  
 - Sales quotes and project quotes are also identified by an option set–based field that is named **Type**. For a sales quote, this field has the value **Item-based**. For a project quote, it has the value **Work-based**.
 
-This topic will focus on the details of project quotes.
+This article will focus on the details of project quotes.
 
 A project quote in PSA can have multiple line items or quote lines. In fact, a project quote has two grids for line items. One grid is for project-based lines that allow for detailed estimations. The other grid is for product-based lines that use a simple unit price and quantity-based approach.
 

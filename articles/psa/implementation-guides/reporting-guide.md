@@ -1,6 +1,6 @@
 ---
 title: Reporting guide
-description: This topic provides links to information about reporting.
+description: This article provides links to information about reporting.
 author: kfend
 ms.custom: 
   - dyn365-projectservice
@@ -26,14 +26,14 @@ ms.reviewer: johnmichalak
 
 The reporting methods and technologies in this app can to help you determine the health of your projects and identify when you need to take corrective action. 
 
-The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
+The PDF link that was previously in this article has been removed and the content has been moved to the following topics:
 
 - [Reporting home page](../reports-reporting-dynamics-365-project-service.md)
 - [Dashboards](../reports-dashboards.md)
 - [Working with the Project Service Automation data model](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> This topic will be removed in a future documentation update. 
+> This article will be removed in a future documentation update. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

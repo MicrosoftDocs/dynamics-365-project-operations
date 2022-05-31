@@ -1,6 +1,6 @@
 ---
 title: Manage not-to-exceed status and validations 
-description: This topic provides information about the not-to-exceed limit checks performed in Project Operations. 
+description: This article provides information about the not-to-exceed limit checks performed in Project Operations. 
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

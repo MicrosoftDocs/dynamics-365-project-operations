@@ -2,7 +2,7 @@
 # required metadata
 
 title: Manage project price lists on a quote
-description: This topic provides information about the Project price list entity.
+description: This article provides information about the Project price list entity.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

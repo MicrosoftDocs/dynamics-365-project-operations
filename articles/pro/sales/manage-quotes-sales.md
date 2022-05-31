@@ -1,6 +1,6 @@
 ---
 title: Manage project quotes
-description: This topic provides information about project quotes.
+description: This article provides information about project quotes.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article

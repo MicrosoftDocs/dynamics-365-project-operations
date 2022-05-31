@@ -1,6 +1,6 @@
 ---
 title: Manage leads
-description: This topic provides information about managing project-based leads.
+description: This article provides information about managing project-based leads.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
@@ -33,7 +33,7 @@ The following table includes important field information for a lead, and the dow
  
 | **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |
-| Topic | General tab | This text field should contain a short description of the deal. | The topic of the lead will default as the topic of the Opportunity, and the Name of Quote and Project contract. |
+| Article | General tab | This text field should contain a short description of the deal. | The article of the lead will default as the article of the Opportunity, and the Name of Quote and Project contract. |
 | Type | General tab | This option set field has the following options:</br>- Work-based (available only when Project Operations is installed)</br>- Item-based (available only when Project Operations and Sales are installed)</br>- Service maintenance-based (available when Field Service is installed) | When the value of this field is set to **Work-based** on the lead, the lead is qualified to create a Project-based Opportunity. A project-based opportunity is required to enable all project-specific extensions and functionality in the downstream sales process for this deal. |
 | First name | General tab | First name of the prospect's contact | When the lead is qualified, an account, contact, and opportunity are created. The first name of the contact is the value set here. |
 | Last name | General tab | Last name of the prospect's contact | When the lead is qualified, an account, contact, and opportunity are created. The last name of the contact the value set here. |

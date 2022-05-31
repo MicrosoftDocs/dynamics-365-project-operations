@@ -2,7 +2,7 @@
 # required metadata
 
 title: Product price lists
-description: This topic provides information about the price lists in catalog pricing used for project quotes and contracts. 
+description: This article provides information about the price lists in catalog pricing used for project quotes and contracts. 
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

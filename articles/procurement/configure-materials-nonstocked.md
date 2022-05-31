@@ -1,6 +1,6 @@
 ---
 title: Configure non-stocked materials and pending vendor invoices
-description: This topic explains how to enable non-stocked materials and pending vendor invoices.
+description: This article explains how to enable non-stocked materials and pending vendor invoices.
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
@@ -27,7 +27,7 @@ Dynamics 365 Finance:
 
 ## Run Dual-write maps for non-stocked materials and vendor invoice integration
 
-This section provides information about specific the maps required for non-stocked materials and vendor invoices. Verify that the prerequisite maps listed in the [Provision a new environment](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) topic are running on your environment.
+This section provides information about specific the maps required for non-stocked materials and vendor invoices. Verify that the prerequisite maps listed in the [Provision a new environment](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) article are running on your environment.
 
 1. Go to Lifecycle Services (LCS), navigate to your LCS project, and go to the **Environment details** page.
 2. In the **Common Data Service Environment Information** section, select **Link to CDS for Apps**. After you select the link, you will be redirected to the list of entities in the mappings.

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Copy a project
-description: This topic provides information about copying projects in Dynamics 365 Project Operations. 
+description: This article provides information about copying projects in Dynamics 365 Project Operations. 
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article

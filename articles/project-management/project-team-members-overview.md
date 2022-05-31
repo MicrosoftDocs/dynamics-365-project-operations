@@ -1,6 +1,6 @@
 ---
 title: Project team members
-description: This topic provides information about how to work with project team member information, attributes, and scheduling.
+description: This article provides information about how to work with project team member information, attributes, and scheduling.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

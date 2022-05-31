@@ -2,7 +2,7 @@
 # required metadata
 
 title: Create a new project
-description: This topic provides information about how to create a new project.
+description: This article provides information about how to create a new project.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

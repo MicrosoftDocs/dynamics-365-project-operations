@@ -1,7 +1,7 @@
 ---
 # required metadata
 title: Scheduling modes
-description: This topic provides information about scheduling modes. 
+description: This article provides information about scheduling modes. 
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article

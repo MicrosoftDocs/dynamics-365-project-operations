@@ -1,6 +1,6 @@
 ---
 title: Header details for vendor invoices
-description: This topic explains the functionality that is provided on the vendor invoice header in Microsoft Dynamics 365 Project Operations.
+description: This article explains the functionality that is provided on the vendor invoice header in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-This topic explains the functionality that is provided on the vendor invoice header in Microsoft Dynamics 365 Project Operations.
+This article explains the functionality that is provided on the vendor invoice header in Microsoft Dynamics 365 Project Operations.
 
 As project managers plan and execute projects, they might employ subcontractors and purchase products and services from vendors. During a project's execution, costs are incurred from services, materials, and expense categories that are procured on subcontracts with vendors. Vendors invoice these costs to projects by creating vendor invoices.
 

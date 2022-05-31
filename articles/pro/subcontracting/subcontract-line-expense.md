@@ -1,6 +1,6 @@
 ---
 title:  Subcontract lines for expense categories
-description: This topic explains how to record subcontract lines for expense and use the fields to record the purchase of time from vendors.
+description: This article explains how to record subcontract lines for expense and use the fields to record the purchase of time from vendors.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article

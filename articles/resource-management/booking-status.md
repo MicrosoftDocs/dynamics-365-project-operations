@@ -1,6 +1,6 @@
 ---
 title: Booking statuses
-description: This topic provides a link to information about how to set up booking statuses for Project Operations.
+description: This article provides a link to information about how to set up booking statuses for Project Operations.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

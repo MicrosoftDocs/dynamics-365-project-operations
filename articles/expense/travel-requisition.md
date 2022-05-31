@@ -1,6 +1,6 @@
 ---
 title: Travel requisitions
-description: This topic provides information about travel requisitions.
+description: This article provides information about travel requisitions.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

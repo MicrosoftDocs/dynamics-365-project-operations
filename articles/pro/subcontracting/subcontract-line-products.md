@@ -1,6 +1,6 @@
 ---
 title: Subcontract lines for products
-description: This topic explains how to record subcontract lines for products and use the various fields to record product purchases from vendors.
+description: This article explains how to record subcontract lines for products and use the various fields to record product purchases from vendors.
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Reconcile bookings and assignments
-description: This topic provides information about actuals.
+description: This article provides information about actuals.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

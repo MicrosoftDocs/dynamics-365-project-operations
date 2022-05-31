@@ -1,6 +1,6 @@
 --- 
 title: Pricing dimensions overview
-description: This topic provides information about the pricing dimensions in Dynamics 365 Project Operations.
+description: This article provides information about the pricing dimensions in Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview

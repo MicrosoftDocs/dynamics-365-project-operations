@@ -1,6 +1,6 @@
 ---
 title: Assign a resource to a task
-description: This topic provides information about how to assign resources to tasks.
+description: This article provides information about how to assign resources to tasks.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

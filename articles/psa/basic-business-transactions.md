@@ -1,6 +1,6 @@
 ---
 title: Business transactions
-description: This topic provides information about business transactions.
+description: This article provides information about business transactions.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

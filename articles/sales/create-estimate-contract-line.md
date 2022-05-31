@@ -1,6 +1,6 @@
 ---
 title: Estimate a project contract line
-description: This topic provides information about estimates on a project contract line.
+description: This article provides information about estimates on a project contract line.
 author: rumant
 ms.date: 10/27/2020
 ms.topic: article

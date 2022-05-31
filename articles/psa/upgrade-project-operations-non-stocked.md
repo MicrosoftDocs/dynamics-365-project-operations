@@ -1,6 +1,6 @@
 ---
 title: Upgrade from Project Service Automation to Project Operations
-description: This topic provides an overview of the process to upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
+description: This article provides an overview of the process to upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 # Upgrade from Project Service Automation to Project Operations
 
-We are excited to announce the first of three phases for upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations. This topic provides an overview for customers who are embarking on this exciting journey. Future topics will include developer considerations and details about feature enhancements. They will not only provide guidance to help you prepare for your upgrade to Project Operations but also explain what you can expect after you've upgraded.
+We are excited to announce the first of three phases for upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations. This article provides an overview for customers who are embarking on this exciting journey. Future topics will include developer considerations and details about feature enhancements. They will not only provide guidance to help you prepare for your upgrade to Project Operations but also explain what you can expect after you've upgraded.
 
 The upgrade delivery program will be split into the three phases.
 
@@ -85,7 +85,7 @@ After you update your customizations to cleanly import Project Operations, move 
     > [!NOTE]
     > Depending on the amount of data in the environment, the upgrade might take several hours. The core team that is managing the upgrade should plan accordingly and run the upgrade during non-business hours. In some cases, if the data volume is large, the upgrade should be run during the weekend. The decision about scheduling should be based on the testing results in lower environments.
 
-3. Upgrade custom solutions as appropriate. At this point, deploy any changes that you made to your customizations in the [Testing and refactoring customizations](#testing-and-refactoring-customizations) section of this topic.
+3. Upgrade custom solutions as appropriate. At this point, deploy any changes that you made to your customizations in the [Testing and refactoring customizations](#testing-and-refactoring-customizations) section of this article.
 4. Go to **Settings** \> **Solutions**, and select to uninstall the **Project Operations Deprecated Components** solution.
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.

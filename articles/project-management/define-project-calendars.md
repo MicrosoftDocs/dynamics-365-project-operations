@@ -2,7 +2,7 @@
 # required metadata
 
 title: Define project calendars
-description: This topic provides information about how to apply a calendar template to a project to track the project schedule.
+description: This article provides information about how to apply a calendar template to a project to track the project schedule.
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article

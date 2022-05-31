@@ -2,7 +2,7 @@
 # required metadata
 
 title: Configure intercompany invoicing
-description: This topic provides information and examples about configuring intercompany invoicing for projects.
+description: This article provides information and examples about configuring intercompany invoicing for projects.
 author:  sigitac
 ms.date: 04/12/2021 
 ms.topic: article

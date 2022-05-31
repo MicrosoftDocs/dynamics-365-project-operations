@@ -1,6 +1,6 @@
 ---
 title: Financial dimension defaults
-description: This topic provides information about how to set up financial dimension defaults.
+description: This article provides information about how to set up financial dimension defaults.
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article

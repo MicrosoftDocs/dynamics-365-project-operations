@@ -2,7 +2,7 @@
 # required metadata
 
 title: Set up a sales price list 
-description: This topic provides information about sales price lists for project pricing.
+description: This article provides information about sales price lists for project pricing.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

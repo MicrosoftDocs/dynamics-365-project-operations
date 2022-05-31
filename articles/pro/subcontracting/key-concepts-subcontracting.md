@@ -1,6 +1,6 @@
 ---
 title: Key concepts in subcontracting 
-description: This topic explains some key concepts that apply to subcontracting in Microsoft Dynamics 365 Project Operations.
+description: This article explains some key concepts that apply to subcontracting in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 08/03/2021
 ms.topic: article
@@ -14,7 +14,7 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-The topic explains some key concepts that you should be aware of before you start to use the subcontracting functionality in Microsoft Dynamics 365 Project Operations.
+The article explains some key concepts that you should be aware of before you start to use the subcontracting functionality in Microsoft Dynamics 365 Project Operations.
 
 ## Contracting unit on the subcontract
 

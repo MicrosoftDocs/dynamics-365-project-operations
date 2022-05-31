@@ -2,7 +2,7 @@
 # required metadata
 
 title: Sample data home page
-description: This topic provides information about the sample data available for Dynamics 365 Project operations. 
+description: This article provides information about the sample data available for Dynamics 365 Project operations. 
 author: rumant
 ms.date: 06/22/2020
 ms.topic: article

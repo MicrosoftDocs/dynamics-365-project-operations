@@ -2,7 +2,7 @@
 # required metadata
 
 title: Synchronize resource capacity
-description: This topic provides information about how to synchronize a resource's capacity across calendars and projects.
+description: This article provides information about how to synchronize a resource's capacity across calendars and projects.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

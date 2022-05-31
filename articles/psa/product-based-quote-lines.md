@@ -1,6 +1,6 @@
 ---
 title: Product-based quote lines
-description: This topic provides information about product-based quote lines.
+description: This article provides information about product-based quote lines.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

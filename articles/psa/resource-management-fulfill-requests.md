@@ -1,6 +1,6 @@
 ---
 title: Fulfilling resource requirements
-description: This topic provides information about how to fulfill resource requirements.
+description: This article provides information about how to fulfill resource requirements.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

@@ -1,6 +1,6 @@
 ---
 title: Vendor invoice lines for time
-description: This topic explains how to record vendor invoice lines for time costs that subcontractors put in.
+description: This article explains how to record vendor invoice lines for time costs that subcontractors put in.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article

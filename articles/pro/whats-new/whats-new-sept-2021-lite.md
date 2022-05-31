@@ -1,6 +1,6 @@
 ---
 title: What's new September 2021 - Project Operations lite deployment
-description: This topic provides information about the quality updates available in the September 2021 release of Project Operations lite deployment.
+description: This article provides information about the quality updates available in the September 2021 release of Project Operations lite deployment.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _Applies To: Lite deployment - deal to proforma invoicing_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
   - Project Operations on Microsoft Dataverse environment version 4.14.0.99
 

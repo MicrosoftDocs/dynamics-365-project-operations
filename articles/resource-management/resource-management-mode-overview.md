@@ -1,6 +1,6 @@
 ---
 title: Resource management modes overview
-description: This topic provides information about Resource management functionality in Dynamics 365 Project Operations.
+description: This article provides information about Resource management functionality in Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview

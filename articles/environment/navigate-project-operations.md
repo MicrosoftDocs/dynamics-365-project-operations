@@ -1,6 +1,6 @@
 ---
 title: Navigate Project Operations
-description: This topic provides information about how to access Project Operations from Lifecycle Services.
+description: This article provides information about how to access Project Operations from Lifecycle Services.
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article

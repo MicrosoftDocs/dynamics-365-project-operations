@@ -2,7 +2,7 @@
 # required metadata
 
 title: Expense management overview
-description: This topic provides general information about Expense management and links to additional resources. You can use Expense management to create an integrated workflow where you can store payment method information, import credit card transactions, and track the money that employees spend when they incur expenses for your business.
+description: This article provides general information about Expense management and links to additional resources. You can use Expense management to create an integrated workflow where you can store payment method information, import credit card transactions, and track the money that employees spend when they incur expenses for your business.
 author: ShylaThompson
 ms.date: 07/25/2019
 ms.topic: overview

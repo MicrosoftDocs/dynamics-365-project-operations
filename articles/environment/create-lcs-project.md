@@ -1,6 +1,6 @@
 ---
 title: Start a new LCS project
-description: This topic provides information about creating a new project in LCS for your Project Operations environment.
+description: This article provides information about creating a new project in LCS for your Project Operations environment.
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article

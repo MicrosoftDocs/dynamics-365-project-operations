@@ -1,6 +1,6 @@
 ---
 title: Invoice schedules on project-based quote lines
-description: This topic provides information about creating invoice schedules and milestones for quote lines.
+description: This article provides information about creating invoice schedules and milestones for quote lines.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

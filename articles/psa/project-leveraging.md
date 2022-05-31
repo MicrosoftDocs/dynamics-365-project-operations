@@ -1,6 +1,6 @@
 ---
 title: Sales estimates and projects
-description: This topic provides information about how to take advantage of the schedule and estimates in the sales process.
+description: This article provides information about how to take advantage of the schedule and estimates in the sales process.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
