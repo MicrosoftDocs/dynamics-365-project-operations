@@ -20,7 +20,7 @@ This will open a dialog page where you can enter the parameters of the copy. The
 
 | **Field** | **Description** | **Downstream impact** |
 | --- | --- | --- |
-| Article | Enter the relevant article, or name, of the target quote. When the dialog opens, the system will set it to the article of the source quote with **-copy** appended to it. | |
+| Topic | Enter the relevant article, or name, of the target quote. When the dialog opens, the system will set it to the article of the source quote with **-copy** appended to it. | |
 | Potential Customer | Reference to the customer's company or account record. When the dialog opens, the system will set it to the account on the source quote. | This field is the primary customer on the quote. |
 | Contracting Unit | The organization unit that is responsible for the delivery of the project(s) associated with this deal.
 When the dialog opens, the system will set it to the contracting unit of the source quote. | Contracting unit is the division of the company that will execute the projects after the deal is closed. Every contracting unit has a currency. The currency is used to report estimated and actual costs incurred during the execution of the project. |
