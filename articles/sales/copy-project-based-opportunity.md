@@ -20,7 +20,7 @@ Project opportunities can easily be copied to create new project opportunities.
 
     | **Field** | **Description** | **Downstream impact** |
     | --- | --- | --- |
-    | Topic | Enter the relevant article of the target opportunity. When the dialog opens, the system will set it to the article of the source opportunity with **copy** appended to it. | There's no downstream impact for this field. |
+    | Topic | Enter the relevant topic of the target opportunity. When the dialog opens, the system will set it to the topic of the source opportunity with **copy** appended to it. | There's no downstream impact for this field. |
     | Account | References the customer's company or account record. Wen the dialog opens, the system will set it to the account on the source opportunity. | This field is the primary customer on the opportunity. |
     | Contracting Unit | The organization unit responsible for the delivery of the projects associated with this deal. When the dialog opens, the system will set it to the contracting unit of the source opportunity. | The contracting unit is the division of the company that executes the projects after the deal is closed. Every contracting unit has a currency, and this currency is used to report estimated and actual costs incurred during the project. |
     | Currency | The currency that the deal is transacted in. When the dialog page opens, the system will set it to the currency of the source opportunity. | Currency is used to default a price list and build financial estimates on the quote. Eventually, the currency is used to invoice the customer when the deal is won. |
