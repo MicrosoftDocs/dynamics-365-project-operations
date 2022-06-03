@@ -2,7 +2,7 @@
 # required metadata
 
 title: View an expense report from General ledger or Procurement and sourcing
-description: This topic explains how to view the original expense report that a transaction appeared on.
+description: This article explains how to view the original expense report that a transaction appeared on.
 author: saraschi2
 ms.date: 02/26/2018
 ms.topic: article

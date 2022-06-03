@@ -1,6 +1,6 @@
 ---
 title: Use Project schedule APIs with Power Automate
-description: This topic provides a sample flow that uses the Project schedule application programming interfaces (APIs).
+description: This article provides a sample flow that uses the Project schedule application programming interfaces (APIs).
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
@@ -12,9 +12,9 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This topic describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example demonstrates how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This topic also explains how to update an entity and execute an Operation Set.
+This article describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example demonstrates how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This article also explains how to update an entity and execute an Operation Set.
 
-The following is a complete list of the steps that are documented in the sample flow in this topic:
+The following is a complete list of the steps that are documented in the sample flow in this article:
 
 1. [Create a PowerApps trigger](#1)
 2. [Create a project](#2)
@@ -35,7 +35,7 @@ The following is a complete list of the steps that are documented in the sample 
 
 ## Assumptions
 
-This topic assumes that you have a basic knowledge of the Dataverse platform, cloud flows, and the Project Schedule Application Programming Interface (API). For more information, see the [References](#references) section later in this topic.
+This article assumes that you have a basic knowledge of the Dataverse platform, cloud flows, and the Project Schedule Application Programming Interface (API). For more information, see the [References](#references) section later in this article.
 
 ## Create a flow
 
@@ -60,7 +60,7 @@ Follow these steps to create a [solution-aware flow](/power-automate/overview-so
 1. On the **Solutions** page, select the solution that you created, and then select **New**.
 2. In the left pane, select **Cloud flows** \> **Automation** \> **Cloud flow** \> **Instant**.
 3. In the **Flow name** field, enter **Schedule API Demo Flow**.
-4. In the **Choose how to trigger this flow** list, select **Power Apps**. When you create a Power Apps trigger, the logic is up to you as the author. In this topic, leave the input parameters blank for testing purposes.
+4. In the **Choose how to trigger this flow** list, select **Power Apps**. When you create a Power Apps trigger, the logic is up to you as the author. In this article, leave the input parameters blank for testing purposes.
 5. Select **Create**.
 
 ## <a id="2"></a>Step 2: Create a project

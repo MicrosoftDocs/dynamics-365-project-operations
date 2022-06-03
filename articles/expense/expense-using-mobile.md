@@ -2,7 +2,7 @@
 # required metadata
 
 title: Mobile Expense app
-description: This topic provides information about the Expense management mobile workspace.
+description: This article provides information about the Expense management mobile workspace.
 author: suvaidya
 ms.date: 11/15/2021
 ms.topic: article
@@ -29,7 +29,7 @@ ms.dyn365.ops.version:
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This topic provides information about the **Expense management** mobile workspace. This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later. Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports. Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.
+This article provides information about the **Expense management** mobile workspace. This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later. Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports. Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.
 
 This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.
 

@@ -2,7 +2,7 @@
 # required metadata
 
 title: What's new in Project operations
-description: This topic provides information about the new features and functionality in Microsoft Dynamics 365 Project operations.
+description: This article provides information about the new features and functionality in Microsoft Dynamics 365 Project operations.
 author: ruhercul
 ms.date: 06/21/2020
 ms.topic: article

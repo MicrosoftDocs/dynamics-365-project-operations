@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot working in the Task grid 
-description: This topic provides troubleshooting information needed when working in the Task grid.
+description: This article provides troubleshooting information needed when working in the Task grid.
 author:  ruhercul
 ms.date: 04/05/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project for the web_
 
-The Task grid leveraged by Dynamics 365 Project Operations is a hosted iframe within Microsoft Dataverse. As a result of this use, specific requirements must be met to ensure authentication and authorization are functioning correctly. This topic outlines the common issues that can impact the ability to render the grid or manage tasks in the work breakdown structure (WBS).
+The Task grid leveraged by Dynamics 365 Project Operations is a hosted iframe within Microsoft Dataverse. As a result of this use, specific requirements must be met to ensure authentication and authorization are functioning correctly. This article outlines the common issues that can impact the ability to render the grid or manage tasks in the work breakdown structure (WBS).
 
 Common issues include:
 

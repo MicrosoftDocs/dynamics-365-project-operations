@@ -1,6 +1,6 @@
 ---
 title: Close an opportunity
-description: This topic provides information about closing a project opportunity.
+description: This article provides information about closing a project opportunity.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

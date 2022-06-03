@@ -1,6 +1,6 @@
 ---
 title: Configure chargeable components of a project-based contract line 
-description: This topic provides information about how to add chargeable components to contract lines in Project Operations.
+description: This article provides information about how to add chargeable components to contract lines in Project Operations.
 author: rumant
 ms.date: 10/08/2020
 ms.topic: article

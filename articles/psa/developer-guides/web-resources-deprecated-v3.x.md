@@ -1,6 +1,6 @@
 ---
 title: Deprecated web resources in Project Service Automation 3.x
-description: This topic describes the web resources that are no longer used in Dynamics 365 Project Service Automation 3.0.
+description: This article describes the web resources that are no longer used in Dynamics 365 Project Service Automation 3.0.
 author: makk
 ms.custom: 
   - dyn365-projectservice

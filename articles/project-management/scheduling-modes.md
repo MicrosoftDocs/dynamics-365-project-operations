@@ -1,7 +1,7 @@
 ---
 # required metadata
 title: Scheduling modes
-description: This topic provides information about scheduling modes. 
+description: This article provides information about scheduling modes. 
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
@@ -34,7 +34,7 @@ When you define a project’s scheduling mode, you are setting one of these valu
 | Fixed effort task    | Duration is recalculated. | Units are recalculated.    | Duration is recalculated. |
 | Fixed duration task  | Effort is recalculated.   | Effort is recalculated.    | Units are recalculated.   |
 
-For more information about the implications of a given mode, see [Change the task type for more accurate scheduling](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). In the topic, the term **Work** is used instead of **Effort**.
+For more information about the implications of a given mode, see [Change the task type for more accurate scheduling](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). In the article, the term **Work** is used instead of **Effort**.
 
 ## Change the organization’s scheduling mode
 

@@ -2,7 +2,7 @@
 # required metadata
 
 title: Set up credit card integration
-description: This topic explains how to work with expense-related credit card transactions.
+description: This article explains how to work with expense-related credit card transactions.
 author: suvaidya
 ms.date: 11/17/2021
 ms.topic: article

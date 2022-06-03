@@ -1,6 +1,6 @@
 ---
 title: Upgrade considerations for the work breakdown structure
-description: This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x.
+description: This article provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x.
 ms.custom: 
   - dyn365-projectservice
 ms.date: 10/18/2019
@@ -25,7 +25,7 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-This topic provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x. This topic defines the healthy state of a project in Project Service Automation (PSA) that is required for a successful upgrade. There is also information about the common blocking conditions that will cause upgrade to fail. For more information about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
+This article provides information about upgrading the work breakdown structure from Project Service Automation 2.x to 3.x. This article defines the healthy state of a project in Project Service Automation (PSA) that is required for a successful upgrade. There is also information about the common blocking conditions that will cause upgrade to fail. For more information about defining project tasks and their functions within a project schedule, see [Project schedules](project-creating.md).
 
 ## Key entities
 For an accurate work breakdown structure that is already loaded with resources, the following entities are required:

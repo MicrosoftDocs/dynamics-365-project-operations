@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project invoice proposal performance
-description: This topic provides information about performance improvements to project invoice proposals.
+description: This article provides information about performance improvements to project invoice proposals.
 author: Yowelle
 ms.date: 06/16/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Create resource assignments
-description: This topic provides information about creating generic and named resource assignments.
+description: This article provides information about creating generic and named resource assignments.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: ruhercul
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
-A resource assignment is the direct association of a project team member to a leaf node task. This topic provides information about the different ways to assign resources.
+A resource assignment is the direct association of a project team member to a leaf node task. This article provides information about the different ways to assign resources.
 
 ## Create a generic team member through task assignment
 

@@ -1,6 +1,6 @@
 ---
 title: Item requirements for project contracts with multiple funding sources
-description: This topic provides information about how to configure and use item requirements with multiple funding sources.
+description: This article provides information about how to configure and use item requirements with multiple funding sources.
 author: sigitac
 ms.date: 05/04/2022
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for stocked/production based scenarios_
 
-Some contractual agreements for project-based deliverables might require multiple funding sources. This topic explains how to select and configure the desired funding sources when multiple sources are required for a project or project contract.
+Some contractual agreements for project-based deliverables might require multiple funding sources. This article explains how to select and configure the desired funding sources when multiple sources are required for a project or project contract.
 
 ## Terminology
 

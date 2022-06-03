@@ -1,7 +1,7 @@
 ---
 # required metadata
 title: Project management overview
-description: This topic provides information about Project management in Dynamics 365 Project Operations. 
+description: This article provides information about Project management in Dynamics 365 Project Operations. 
 author: ruhercul
 ms.date: 10/06/2020
 ms.topic: overview

@@ -1,6 +1,6 @@
 ---
 title: Financial estimates for resource time on projects
-description: This topic provides information about how financial estimates for time are calculated.
+description: This article provides information about how financial estimates for time are calculated.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article

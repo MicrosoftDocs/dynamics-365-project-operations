@@ -1,6 +1,6 @@
 ---
 title: Cost estimation of subcontracted resource assignments
-description: This topic explains some how Microsoft Dynamics 365 Project Operations calculates cost estimation of subcontracted resource assignments.
+description: This article explains some how Microsoft Dynamics 365 Project Operations calculates cost estimation of subcontracted resource assignments.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article

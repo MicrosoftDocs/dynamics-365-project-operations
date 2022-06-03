@@ -2,7 +2,7 @@
 # required metadata
 
 title: Create estimates on a quote line
-description: This topic provides information about how to create an estimate on a quote line for a project.
+description: This article provides information about how to create an estimate on a quote line for a project.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

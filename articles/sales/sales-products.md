@@ -2,7 +2,7 @@
 # required metadata
 
 title: Products
-description: This topic provides information about the product catalog that you can use to provide information to customers about the products and pricing your organization offers.
+description: This article provides information about the product catalog that you can use to provide information to customers about the products and pricing your organization offers.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

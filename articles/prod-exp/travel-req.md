@@ -2,7 +2,7 @@
 # required metadata
 
 title: Travel requisitions overview
-description: This topic provides information about travel requisitions. A travel requisition documents planned travel expenses. 
+description: This article provides information about travel requisitions. A travel requisition documents planned travel expenses. 
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: overview

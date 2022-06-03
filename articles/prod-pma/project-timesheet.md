@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project timesheet mobile application 
-description: This topic provides information about the Microsoft Dynamics 365 Project Timesheet mobile application. The Project Timesheet mobile app enables users to submit and approve timesheets for projects on their mobile device.
+description: This article provides information about the Microsoft Dynamics 365 Project Timesheet mobile application. The Project Timesheet mobile app enables users to submit and approve timesheets for projects on their mobile device.
 author: abruer
 ms.date: 04/08/2019
 ms.topic: article

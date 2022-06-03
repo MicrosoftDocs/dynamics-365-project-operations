@@ -2,7 +2,7 @@
 # required metadata
 
 title: Eliminate a project estimate
-description: This topic provides information about eliminating a project estimate after it is complete. 
+description: This article provides information about eliminating a project estimate after it is complete. 
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article

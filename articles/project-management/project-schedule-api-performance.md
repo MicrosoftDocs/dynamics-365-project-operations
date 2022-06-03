@@ -1,6 +1,6 @@
 ---
 title: Project schedule API performance
-description: This topic provides information about the performance benchmarks of the Project schedule APIs and identifies best practices for optimum use.
+description: This article provides information about the performance benchmarks of the Project schedule APIs and identifies best practices for optimum use.
 author: ruhercul
 ms.date: 11/03/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project for the web_
 
-This topic provides information about the performance benchmarks of the Project schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
+This article provides information about the performance benchmarks of the Project schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
 
 ## Project Scheduling Service
 The Project Scheduling Service is a multi-tenant service that runs in Microsoft Azure. It's designed to improve interaction by providing a fast and fluid experience when users work on projects. This improvement is achieved by accepting change requests, processing them, and then immediately returning the result. The service asynchronously persists to Dataverse and doesn't block users from performing other operations.
 
-The Project schedule APIs rely on the Project Scheduling Service to run requests that are described in more detail in later sections of this topic.
+The Project schedule APIs rely on the Project Scheduling Service to run requests that are described in more detail in later sections of this article.
 
 The Project schedule APIs are designed to work with the following work breakdown structure (WBS) entities:
 

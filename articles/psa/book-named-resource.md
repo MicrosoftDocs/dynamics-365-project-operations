@@ -1,6 +1,6 @@
 ---
 title: Book named resources from resource requirements
-description: This topic provides information about booking named resources for a generic resource requirement.
+description: This article provides information about booking named resources for a generic resource requirement.
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice

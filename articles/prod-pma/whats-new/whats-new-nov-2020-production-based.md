@@ -1,6 +1,6 @@
 ---
 title: What's new November 2020 - Project Operations for stocked/production-based scenarios
-description: This topic provides information about the quality updates available in the November 2020 release of Project Operations for stocked-production-based scenarios.
+description: This article provides information about the quality updates available in the November 2020 release of Project Operations for stocked-production-based scenarios.
 author: sigitac
 ms.date: 10/15/2020
 ms.topic: article

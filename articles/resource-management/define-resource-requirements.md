@@ -1,6 +1,6 @@
 ---
 title: Define resource requirements
-description: This topic provides information about defining resource requirement information.
+description: This article provides information about defining resource requirement information.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article

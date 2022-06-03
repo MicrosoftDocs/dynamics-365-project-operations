@@ -2,7 +2,7 @@
 # required metadata
 
 title: Per diem rules
-description: This topic provides information about the per diem rules.
+description: This article provides information about the per diem rules.
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: article

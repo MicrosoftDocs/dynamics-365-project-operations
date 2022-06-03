@@ -1,6 +1,6 @@
 ---
 title: Update Project Operations in your Finance environment
-description: This topic provides information about how to update Project Operations in your Dynamics 365 Finance environment.
+description: This article provides information about how to update Project Operations in your Dynamics 365 Finance environment.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
@@ -14,7 +14,7 @@ ms.author: ruhercul
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 
-This topic provides information about how to update Dynamics 365 Project Operations in your Dynamics 365 Finance environment. There are three procedures that are required to update Project Operations to Update 5 (UR5):
+This article provides information about how to update Dynamics 365 Project Operations in your Dynamics 365 Finance environment. There are three procedures that are required to update Project Operations to Update 5 (UR5):
 
 - [Import the package into your preview project](#import)
 - [Apply the update](#apply)

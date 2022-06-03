@@ -1,6 +1,6 @@
 ---
 title: Manage leads
-description: This topic provides information about managing project-based leads.
+description: This article provides information about managing project-based leads.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

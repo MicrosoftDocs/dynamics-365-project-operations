@@ -1,6 +1,6 @@
 ---
 title: Opportunity settings - lite
-description: This topic provides information about project-based deals and project-based opportunity lines.
+description: This article provides information about project-based deals and project-based opportunity lines.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

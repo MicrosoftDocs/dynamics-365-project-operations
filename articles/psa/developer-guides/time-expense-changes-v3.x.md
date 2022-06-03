@@ -1,6 +1,6 @@
 ---
 title: Time and Expense changes (Project Service Automation 3.x)
-description: This topic provides information about the solution changes for Time and Expense.
+description: This article provides information about the solution changes for Time and Expense.
 author: makk
 ms.custom: 
   - dyn365-projectservice

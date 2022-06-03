@@ -1,6 +1,6 @@
 ---
 title: Product catalog pricing
-description: This topic provides information about how product catalog pricing works in Dynamics 365 Project Service Automation (PSA).
+description: This article provides information about how product catalog pricing works in Dynamics 365 Project Service Automation (PSA).
 author: rumant
 ms.custom: 
   - dyn365-projectservice

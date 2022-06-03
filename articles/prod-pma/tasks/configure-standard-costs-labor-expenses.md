@@ -2,7 +2,7 @@
 # required metadata 
  
 title: Configure standard costs for labor and expenses
-description: This topic explains how to set up standard costs for labor and expenses for a project. 
+description: This article explains how to set up standard costs for labor and expenses for a project. 
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: business-process 
@@ -28,7 +28,7 @@ ms.dyn365.ops.version: Version 7.0.0
 
 [!include [banner](../../includes/banner.md)]
 
-This topic explains how to set up standard costs for labor and expenses for a project. This task uses the USSI data set.
+This article explains how to set up standard costs for labor and expenses for a project. This task uses the USSI data set.
 
 1. In the navigation pane, go to **Modules > Project management and accounting > Setup > Prices > Cost price (hour)**.
 2. Select **New**.

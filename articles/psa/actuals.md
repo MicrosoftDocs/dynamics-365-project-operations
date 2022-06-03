@@ -1,6 +1,6 @@
 ---
 title: Actuals overview
-description: This topic provides information about project actuals.
+description: This article provides information about project actuals.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

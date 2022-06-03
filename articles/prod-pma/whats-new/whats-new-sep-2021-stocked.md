@@ -1,6 +1,6 @@
 ---
 title: What's new or changed in Project Operations, September 2021 for stocked/production-based scenarios
-description: This topic provides information about the quality updates that are available in the September 2021 release of Project Operations for stocked/production-based scenarios.
+description: This article provides information about the quality updates that are available in the September 2021 release of Project Operations for stocked/production-based scenarios.
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: andchoi
 
 _**Applies To:** Project Operations for stocked/production based-scenarios_
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project management and accounting in a Dynamics 365 Finance environment version 10.0.21
  

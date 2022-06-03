@@ -1,6 +1,6 @@
 ---
 title: Configure Project Operations integration per legal entity 
-description: This topic provides information about setting up integration by legal entity in Project Operations.
+description: This article provides information about setting up integration by legal entity in Project Operations.
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic walks you through the steps required to configure Dynamics 365 Project Operations per legal entity.
+This article walks you through the steps required to configure Dynamics 365 Project Operations per legal entity.
 
 ## Enable feature keys in Dynamics 365 Finance
 

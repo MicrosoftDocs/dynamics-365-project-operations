@@ -1,7 +1,7 @@
 ---
 # required metadata
 title: Financial estimation concepts
-description: This topic provides information about financial estimates of projects in  Project Operations. 
+description: This article provides information about financial estimates of projects in  Project Operations. 
 author: rumant
 ms.date: 03/22/2021
 ms.topic: overview

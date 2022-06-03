@@ -1,6 +1,6 @@
 ---
 title: Accept or reject a proposed project resource
-description: This topic provides information about how to approve or reject a proposed project resource.
+description: This article provides information about how to approve or reject a proposed project resource.
 ms.custom: 
   - dyn365-projectservice
 ms.date: 12/07/2018
@@ -24,7 +24,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-This topic provides information about how to approve or reject a proposed project resource.
+This article provides information about how to approve or reject a proposed project resource.
 
 When a resource manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member will be updated to **Needs Review**. The request will be sent to the project manager for approval or rejection.
 

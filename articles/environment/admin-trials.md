@@ -1,6 +1,6 @@
 ---
 title: Sign up for Project Operations trials
-description: This topic provides information about how to deploy a trial of Dynamics 365 Project Operations.
+description: This article provides information about how to deploy a trial of Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
@@ -14,9 +14,9 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 
 
-This topic explains how to subscribe to the preview partner offer and deploy a Dynamics 365 Project Operations environment.
+This article explains how to subscribe to the preview partner offer and deploy a Dynamics 365 Project Operations environment.
 
-With the new Project Operations trial, you can automatically deploy any of the three supported deployment scenarios by completing a questionnaire that recommends the best deployment approach. This topic provides information about how to:
+With the new Project Operations trial, you can automatically deploy any of the three supported deployment scenarios by completing a questionnaire that recommends the best deployment approach. This article provides information about how to:
 
 - Redeem your trial offer.
 - Initiate provisioning.

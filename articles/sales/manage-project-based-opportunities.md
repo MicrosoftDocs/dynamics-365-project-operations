@@ -1,6 +1,6 @@
 ---
 title: Manage project-based opportunities
-description: This topic provides information about how to work with opportunities that are related to projects.
+description: This article provides information about how to work with opportunities that are related to projects.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
@@ -14,7 +14,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Project-based companies typically have their operations for delivery spread across multiple countries and geographies. The cost of the project execution and delivery can vary  based on which geography or division manages the delivery. In turn, this can impact the margins of the deal. Delivery of project-based services typically involves large quantities of human resource time, considerable expenses for travel, material costs, and other expenses.
 
-Project-based opportunities in Dynamics 365 Project Operations are designed with extensions to Dynamics 365 Sales. The topic provides details about the different fields and business logic included in the additional functionality that is required by project-based companies to manage project-based opportunities.
+Project-based opportunities in Dynamics 365 Project Operations are designed with extensions to Dynamics 365 Sales. The article provides details about the different fields and business logic included in the additional functionality that is required by project-based companies to manage project-based opportunities.
 
 ## View all project-based opportunities
 

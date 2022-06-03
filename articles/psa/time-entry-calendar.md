@@ -1,6 +1,6 @@
 ---
 title: Time entry calendar
-description: This topic provides information about how to use the time entry calendar.
+description: This article provides information about how to use the time entry calendar.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

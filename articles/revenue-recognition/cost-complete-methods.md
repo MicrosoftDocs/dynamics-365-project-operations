@@ -1,6 +1,6 @@
 ---
 title: Cost to complete methods
-description: This topic provides information about the methods used to calculate the cost to complete a project.
+description: This article provides information about the methods used to calculate the cost to complete a project.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic provides information about the methods used to calculate the cost to complete a project. There are multiple methods you can use to calculate the cost to complete a project. 
+This article provides information about the methods used to calculate the cost to complete a project. There are multiple methods you can use to calculate the cost to complete a project. 
 
 When you create an estimate for a project, on the **Create estimate** page, in the **Cost to complete method** field, you can select one of the following cost to complete methods.
 

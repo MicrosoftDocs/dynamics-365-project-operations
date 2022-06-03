@@ -1,6 +1,6 @@
 ---
 title: Booking allocation methods in Project Service Automation
-description: This topic provides information about the different ways you can book allocations.
+description: This article provides information about the different ways you can book allocations.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
@@ -24,7 +24,7 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This topic explains how each method works, and which methods could lead to overbooking resources.
+Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This article explains how each method works, and which methods could lead to overbooking resources.
 
 ## Full Capacity 
 The Full Capacity method books the resource’s full capacity for the specified from and to dates. For example, if a resource has a calendar set to work eight hours per day, five days a week, setting a start and end date that covers five working days will book the resource for 40 hours. The booking is done without regard to the resource's remaining capacity. If a resource is already booked on other projects during that period, the 40 hours is booked as additional hours, which potentially leads to overbookings.

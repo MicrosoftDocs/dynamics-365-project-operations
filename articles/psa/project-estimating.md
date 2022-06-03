@@ -1,6 +1,6 @@
 ---
 title: Project costs and revenue
-description: This topic provides information about estimating project costs and revenue.
+description: This article provides information about estimating project costs and revenue.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

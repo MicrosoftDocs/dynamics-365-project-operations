@@ -1,6 +1,6 @@
 ---
 title: Defaulting financial dimensions for project time entries
-description: This topic provides information about how defaulting financial dimensions are applied to time entries.
+description: This article provides information about how defaulting financial dimensions are applied to time entries.
 author: stsporen
 ms.date: 01/24/2022
 ms.topic: article

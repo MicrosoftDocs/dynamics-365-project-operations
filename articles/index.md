@@ -2,7 +2,7 @@
 # required metadata
 
 title: Dynamics 365 Project Operations 
-description: This topic provides information about Dynamics 365 Project operations.
+description: This article provides information about Dynamics 365 Project operations.
 author: stsporen
 ms.date: 09/16/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Financial estimates for materials on projects
-description: This topic provides information about defining or estimating project-based materials.
+description: This article provides information about defining or estimating project-based materials.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

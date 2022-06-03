@@ -1,6 +1,6 @@
 ---
 title: Resource management changes (Project Service Automation 3.x)
-description: This topic provides information about the changes to the Resource management area.
+description: This article provides information about the changes to the Resource management area.
 author: makk
 ms.custom: 
   - dyn365-projectservice
@@ -21,7 +21,7 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
-The sections of this topic provide information about the changes that have been made to the Resource management area of Dynamics 365 Project Service Automation version 3.x.
+The sections of this article provide information about the changes that have been made to the Resource management area of Dynamics 365 Project Service Automation version 3.x.
 
 ## Project estimates
 

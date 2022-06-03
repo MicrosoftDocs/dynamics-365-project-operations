@@ -1,6 +1,6 @@
 ---
 title: What's new or changed in Project Service Automation version 3.x wave 1 2020
-description: This topic provides information about what is new and changed in Project Service Automation version 3 wave 1 2020.
+description: This article provides information about what is new and changed in Project Service Automation version 3 wave 1 2020.
 ms.custom: 
   - dyn365-projectservice
 ms.date: 05/15/2020
@@ -24,7 +24,7 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-The topic highlights key upgrade considerations when moving to the latest release of Project Service Automation (PSA) version 3.x wave 1 2020.
+The article highlights key upgrade considerations when moving to the latest release of Project Service Automation (PSA) version 3.x wave 1 2020.
 
 ## Time entry
 The time entry experience has been extended to deliver capabilities for extending time entry into more customer scenarios. This includes the capability to add entry types, which now drive specific behavior based on the field schema name **Time Entry Settings**, displayed as **Time Source**. A new solution, called Time, Expense, Statusing, and Approvals (TESA) has been added to support this functionality.

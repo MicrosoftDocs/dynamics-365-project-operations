@@ -1,6 +1,6 @@
 ---
 title: Skills and certifications
-description: This topic provides information about adding skill and certification characteristics to resources.
+description: This article provides information about adding skill and certification characteristics to resources.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
