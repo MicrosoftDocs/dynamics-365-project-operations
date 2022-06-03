@@ -1,6 +1,6 @@
 ---
 title: Configure project categories
-description: This topic provides information about setting up project categories.
+description: This article provides information about setting up project categories.
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article

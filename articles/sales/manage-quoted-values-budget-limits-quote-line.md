@@ -1,6 +1,6 @@
 ---
 title: Project quote lines overview
-description: This topic provides information about using project quote lines for project work.
+description: This article provides information about using project quote lines for project work.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: overview

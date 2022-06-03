@@ -2,7 +2,7 @@
 # required metadata
 
 title: Currency
-description: This topic provides information about how to add and remove currency types in Project Operations.
+description: This article provides information about how to add and remove currency types in Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

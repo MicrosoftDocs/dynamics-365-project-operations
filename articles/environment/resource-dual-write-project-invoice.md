@@ -1,6 +1,6 @@
 ---
 title: Project invoice integration
-description: This topic provides information about Project Operations dual-write integration for customer invoicing.
+description: This article provides information about Project Operations dual-write integration for customer invoicing.
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: sigitac
 
 # Project invoice integration
 
-This topic provides information about Project Operations dual-write integration for customer invoicing.
+This article provides information about Project Operations dual-write integration for customer invoicing.
 
 In Project Operations, the Project manager manages the project billing backlog and creates a proforma invoice for the customer in Microsoft Dataverse. Based on this proforma invoice, the Accounts receivable clerk or Project accountant creates a customer-facing invoice. Dual-write integration ensures that the proforma invoice details are synchronized to Finance and Operations apps. After the customer-facing invoice is posted, the system updates the relevant project actuals in Dataverse with the accounting detail. The following graphic provides a high-level conceptual overview of this integration.
 

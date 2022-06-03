@@ -2,7 +2,7 @@
 # required metadata
 
 title: Post expense reports
-description: This topic explains how to post expense reports.
+description: This article explains how to post expense reports.
 author: suvaidya
 ms.date: 09/09/2020
 ms.topic: article

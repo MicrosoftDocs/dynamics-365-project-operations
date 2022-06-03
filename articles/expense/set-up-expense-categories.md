@@ -1,6 +1,6 @@
 ---
 title: Set up expense categories
-description: This topic provides information about how to set up expense categories and shared categories for expense reports.
+description: This article provides information about how to set up expense categories and shared categories for expense reports.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

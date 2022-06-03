@@ -1,6 +1,6 @@
 ---
 title: Work with project–based contract lines
-description:  This topic provides information about project–based contract lines.
+description:  This article provides information about project–based contract lines.
 author: rumant
 ms.date: 10/28/2020
 ms.topic: article

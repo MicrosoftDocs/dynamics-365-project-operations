@@ -1,6 +1,6 @@
 ---
 title: Unit groups and units
-description: This topic provides information about unit groups and units.
+description: This article provides information about unit groups and units.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

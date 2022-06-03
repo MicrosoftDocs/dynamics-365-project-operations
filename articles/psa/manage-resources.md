@@ -1,6 +1,6 @@
 ---
 title: Manage resources
-description: This topic provides information about how you can manage resources.
+description: This article provides information about how you can manage resources.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

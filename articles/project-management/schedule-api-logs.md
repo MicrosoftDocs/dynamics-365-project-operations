@@ -1,6 +1,6 @@
 ---
 title: Project scheduling logs
-description: This topic provides information and samples that will help you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
+description: This article provides information and samples that will help you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article

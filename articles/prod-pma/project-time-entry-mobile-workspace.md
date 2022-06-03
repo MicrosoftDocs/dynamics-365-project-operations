@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project time entry mobile workspace 
-description: This topic provides information about the Project time entry mobile workspace. This workspace lets users enter and save time against a project by using their mobile device.
+description: This article provides information about the Project time entry mobile workspace. This workspace lets users enter and save time against a project by using their mobile device.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -32,7 +32,7 @@ ms.search.validFrom: 2016-11-30
 
 [!include [banner](../includes/banner.md)]
 
-This topic provides information about the **Project time entry** mobile workspace. This workspace lets users enter and save time against a project by using their mobile device.
+This article provides information about the **Project time entry** mobile workspace. This workspace lets users enter and save time against a project by using their mobile device.
 
 This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app. 
 

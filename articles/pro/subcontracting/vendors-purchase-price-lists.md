@@ -1,6 +1,6 @@
 ---
 title: Vendor and purchase price list management in Project Operations
-description: This topic provides information that will help you create and maintain vendor data and purchase price lists for subcontracting.
+description: This article provides information that will help you create and maintain vendor data and purchase price lists for subcontracting.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article

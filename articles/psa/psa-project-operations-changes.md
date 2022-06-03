@@ -1,6 +1,6 @@
 ---
 title: Feature changes from Project Service Automation to Project Operations
-description: This topic provides an overview of the feature changes from Project Service Automation to Dynamics 365 Project Operations.
+description: This article provides an overview of the feature changes from Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 # Feature changes from Project Service Automation to Project Operations
 
-The upgrade from Dynamics 365 Project Service Automation to Dynamics 365 Project Operations Lite will be delivered in three phases. This topic provides information about the major changes that you can expect to see when the upgrade is complete.
+The upgrade from Dynamics 365 Project Service Automation to Dynamics 365 Project Operations Lite will be delivered in three phases. This article provides information about the major changes that you can expect to see when the upgrade is complete.
 
 | Upgrade delivery | Phase 1 <br>(January 2022) | Phase 2 <br>(April Wave 2022) | Phase 3  |
 |------------------|------------------------|---------------------------|---------------------------|

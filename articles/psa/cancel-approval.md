@@ -1,6 +1,6 @@
 ---
 title: Cancel previously approved time and expense entries
-description: This topic provides information about how to cancel an approved project time and expense transaction.
+description: This article provides information about how to cancel an approved project time and expense transaction.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

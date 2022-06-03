@@ -1,6 +1,6 @@
 ---
 title: Revenue recognition overview
-description: This topic provides information about revenue recognition in Project Operations.
+description: This article provides information about revenue recognition in Project Operations.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-In Dynamics 365 Project Operations, revenue recognition principles vary based on the selected billing method for a project or portion of the project. This topic provides information about revenue recognition in Project Operations.
+In Dynamics 365 Project Operations, revenue recognition principles vary based on the selected billing method for a project or portion of the project. This article provides information about revenue recognition in Project Operations.
 
 ## Transactions accounted using time and material billing method
 

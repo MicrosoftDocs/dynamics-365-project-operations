@@ -1,6 +1,6 @@
 ---
 title: Configure automatic invoice creation
-description: This topic provides information about how to configure the system to generate invoices automatically.
+description: This article provides information about how to configure the system to generate invoices automatically.
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Set up cost and sales rates for materials
-description: This topic provides information about how to set up the cost and sales rates for materials used on projects. 
+description: This article provides information about how to set up the cost and sales rates for materials used on projects. 
 author: rumant
 ms.date: 03/21/2022
 ms.topic: article

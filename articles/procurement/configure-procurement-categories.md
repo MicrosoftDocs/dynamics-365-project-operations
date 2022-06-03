@@ -1,6 +1,6 @@
 ---
 title: Use procurement categories with project purchase orders and pending vendor invoices
-description: This topic describes how to configure procurement categories that can be used with project purchase orders and pending vendor invoices.
+description: This article describes how to configure procurement categories that can be used with project purchase orders and pending vendor invoices.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article

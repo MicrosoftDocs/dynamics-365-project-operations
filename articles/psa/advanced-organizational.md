@@ -1,6 +1,6 @@
 ---
 title: Advanced organizational units
-description: This topic provides information about organizational units in Dynamics 365 Project Service Automation.
+description: This article provides information about organizational units in Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

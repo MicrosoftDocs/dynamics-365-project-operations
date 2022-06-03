@@ -1,6 +1,6 @@
 ---
 title: Sign up for a preview subscription - lite
-description: This topic provides information about how to subscribe to and deploy Project Operations lite deployment - deal to proforma invoicing.
+description: This article provides information about how to subscribe to and deploy Project Operations lite deployment - deal to proforma invoicing.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.author: sigitac
 
 # Sign up for a preview subscription - lite 
 
-This topic explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.
+This article explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.
 
 > [!NOTE]
 > This process will change in upcoming releases of Project Operations.
@@ -45,7 +45,7 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 
 ## Create a new Dataverse environment
 
-1. Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
+1. Provision a new Project Operations Dataverse deployment environment by following instructions in the article, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
 
   ![New environment.](./media/19CreateEnvironment.png)
 
@@ -60,7 +60,7 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 
 ## Install a CDS configuration and setup demo data
 
-Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
+Install the CDS configuration and set up demo data by following instructions in the article, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

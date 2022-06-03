@@ -1,6 +1,6 @@
 ---
 title: What's new December 2020 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates available in the December 2020 release of Project Operations for resource/non-stocked based scenarios.
+description: This article provides information about the quality updates available in the December 2020 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on Dataverse environment version 4.5.0.134
 - Project management and accounting in Dynamics 365 Finance environment version 10.0.15

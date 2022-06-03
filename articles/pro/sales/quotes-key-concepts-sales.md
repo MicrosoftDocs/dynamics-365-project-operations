@@ -1,6 +1,6 @@
 ---
 title: Quotes - Key concepts - lite
-description: This topic provides information about using project quotes in Project Operations.
+description: This article provides information about using project quotes in Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

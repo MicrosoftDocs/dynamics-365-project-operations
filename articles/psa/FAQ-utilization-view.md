@@ -1,6 +1,6 @@
 ---
 title: View chargeable utilization for resources
-description: This topic provides information about the resource utilization view.
+description: This article provides information about the resource utilization view.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

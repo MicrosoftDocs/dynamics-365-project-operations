@@ -1,6 +1,6 @@
 ---
 title: Sales processes
-description: This topic provides information about the basic sales processes.
+description: This article provides information about the basic sales processes.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

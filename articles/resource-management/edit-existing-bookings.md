@@ -1,6 +1,6 @@
 ---
 title: Edit bookings
-description: This topic provides information about how to update and make changes to bookings. 
+description: This article provides information about how to update and make changes to bookings. 
 author: ruhercul
 ms.date: 11/12/2020
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: ruhercul
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
-When changes occur on a project that require you to update existing bookings, there are several ways to make the changes. This topic outlines how to update and make changes to bookings.
+When changes occur on a project that require you to update existing bookings, there are several ways to make the changes. This article outlines how to update and make changes to bookings.
 
 ## Resource reconciliation
 

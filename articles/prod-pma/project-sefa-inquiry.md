@@ -2,7 +2,7 @@
 # required metadata
 
 title: Schedule of Expenditures of Federal Awards inquiry
-description: This topic provides information about the Schedule of Expenditures of Federal Awards inquiry.
+description: This article provides information about the Schedule of Expenditures of Federal Awards inquiry.
 author: velofog
 ms.date: 04/2/2020
 ms.topic: article

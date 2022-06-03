@@ -1,6 +1,6 @@
 ---
 title: What's new May 2022 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates that are available in the May 2022 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
+description: This article provides information about the quality updates that are available in the May 2022 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in a Dataverse environment version 4.42.0.70
 - Project management and accounting in a Dynamics 365 Finance environment version 10.0.26

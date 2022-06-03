@@ -1,6 +1,6 @@
 ---
 title: Cash advance
-description: This topic provides information about cash advances.
+description: This article provides information about cash advances.
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article

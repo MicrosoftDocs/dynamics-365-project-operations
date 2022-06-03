@@ -1,6 +1,6 @@
 ---
 title: Manage project price lists on project quotes 
-description: This topic provides information about working with project price lists on quotes.
+description: This article provides information about working with project price lists on quotes.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

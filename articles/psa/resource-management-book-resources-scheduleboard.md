@@ -1,6 +1,6 @@
 ---
 title: Use the Schedule Board to book project resources
-description: This topic provides information about how to book resources.
+description: This article provides information about how to book resources.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

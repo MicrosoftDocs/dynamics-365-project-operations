@@ -1,6 +1,6 @@
 ---
 title: Project-based opportunity lines - lite
-description: This topic provides information about project-based opportunity lines. (Pro)
+description: This article provides information about project-based opportunity lines. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

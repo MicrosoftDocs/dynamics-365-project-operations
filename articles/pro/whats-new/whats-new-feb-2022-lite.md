@@ -1,6 +1,6 @@
 ---
 title: What's new February 2022 - Project Operations lite deployment
-description: This topic provides information about the quality updates that are available in the February 2022 release of Project Operations lite deployment.
+description: This article provides information about the quality updates that are available in the February 2022 release of Project Operations lite deployment.
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _Applies To: Lite deployment - deal to proforma invoicing_
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in a Dataverse environment version 4.28.0.120
 

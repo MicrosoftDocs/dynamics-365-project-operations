@@ -1,6 +1,6 @@
 ---
 title: Expense management integration
-description: This topic provides information about expense report integration in Project Operations using dual-write. 
+description: This article provides information about expense report integration in Project Operations using dual-write. 
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic provides information about expense reports integration in Project Operations [full expense deployment](../expense/expense-overview.md) using dual-write.
+This article provides information about expense reports integration in Project Operations [full expense deployment](../expense/expense-overview.md) using dual-write.
 
 ## Expense categories
 

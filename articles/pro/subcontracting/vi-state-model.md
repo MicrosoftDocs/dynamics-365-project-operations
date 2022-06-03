@@ -1,6 +1,6 @@
 ---
 title: State transitions on a vendor invoice
-description: This topic explains the state transitions on a vendor invoice in Microsoft Dynamics 365 Project Operations.
+description: This article explains the state transitions on a vendor invoice in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
@@ -14,7 +14,7 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-This topic explains the state transitions on a vendor invoice in Microsoft Dynamics 365 Project Operations. The following states are used: **Draft**, **In review**, **Confirmed**, **On hold**, and **Canceled**.
+This article explains the state transitions on a vendor invoice in Microsoft Dynamics 365 Project Operations. The following states are used: **Draft**, **In review**, **Confirmed**, **On hold**, and **Canceled**.
 
 The following illustrations shows the state transitions.
 

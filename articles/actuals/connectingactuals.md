@@ -1,6 +1,6 @@
 ---
 title: Transaction connections - Link actuals of different transaction types
-description: This topic explains how a transaction connection is used to link actuals of different types to help track profitability, billing backlog, and billed versus unbilled revenue calculations.
+description: This article explains how a transaction connection is used to link actuals of different types to help track profitability, billing backlog, and billed versus unbilled revenue calculations.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article

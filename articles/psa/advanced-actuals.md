@@ -1,6 +1,6 @@
 ---
 title: Recording actuals
-description: This topic provies information about how actuals are recorded.
+description: This article provies information about how actuals are recorded.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

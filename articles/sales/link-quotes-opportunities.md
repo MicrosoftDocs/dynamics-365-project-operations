@@ -1,6 +1,6 @@
 ---
 title: Create project quotes from opportunities
-description: This topic provides information about creating a project quote from an opportunity.
+description: This article provides information about creating a project quote from an opportunity.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

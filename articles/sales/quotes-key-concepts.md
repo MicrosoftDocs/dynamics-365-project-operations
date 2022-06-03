@@ -2,7 +2,7 @@
 # required metadata
 
 title: Quotes - Key concepts
-description: This topic provides information about project quotes and sales quotes available in Project Operations.
+description: This article provides information about project quotes and sales quotes available in Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -40,7 +40,7 @@ In Dynamics 365 Project Operations, there are two types of quotes, project and s
 - **Fields and concepts**: A sales quote doesn't include some fields and concepts that are included on a project quote. The fields include **Contracting Unit**, **Account Manager**, and **Bill to Contact Name**.  
 - **Type**: Sales and project quotes are also identified by the option set–based field, **Type**. For a sales quote, this field has the value **Item-based**. For a project quote, it has the value **Work-based**.
 
-This topic focuses on the details of project quotes.
+This article focuses on the details of project quotes.
 
 A project quote in Project Operations can have multiple line items or quote lines. In fact, a project quote has two grids for line items. One grid is for project-based lines that allow for detailed estimations. The other grid is for product-based lines that use a simple unit price and quantity-based approach.
 

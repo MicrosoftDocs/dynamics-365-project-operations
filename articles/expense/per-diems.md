@@ -1,6 +1,6 @@
 ---
 title: Per diems
-description: This topic provides information about the per diem rules that are used in Expense management.
+description: This article provides information about the per diem rules that are used in Expense management.
 author: suvaidya
 ms.date: 10/01/2020
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Integration journal in Project Operations
-description: This topic provides information about working with the Integration journal in Project Operations.
+description: This article provides information about working with the Integration journal in Project Operations.
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article

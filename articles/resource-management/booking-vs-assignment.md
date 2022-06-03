@@ -1,6 +1,6 @@
 ---
 title: Bookings vs assignments
-description: This topic provides information the differences between resource bookings and resource assignments.
+description: This article provides information the differences between resource bookings and resource assignments.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: article

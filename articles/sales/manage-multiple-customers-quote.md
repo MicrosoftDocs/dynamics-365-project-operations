@@ -1,6 +1,6 @@
 ---
 title: Manage multiple customers on a project quote
-description: This topic provides information about working on quotes that involve multiple customers who will fund the project.
+description: This article provides information about working on quotes that involve multiple customers who will fund the project.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

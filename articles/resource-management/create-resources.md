@@ -1,6 +1,6 @@
 ---
 title: Create resources
-description: This topic provides a link to information about how to create bookable resources.
+description: This article provides a link to information about how to create bookable resources.
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: article

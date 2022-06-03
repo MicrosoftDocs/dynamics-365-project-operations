@@ -1,6 +1,6 @@
 ---
 title: Configure the chargeable components of a quote line 
-description: This topic provides information about setting up chargeable and non-chargeable components on a project-based quote line.
+description: This article provides information about setting up chargeable and non-chargeable components on a project-based quote line.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article

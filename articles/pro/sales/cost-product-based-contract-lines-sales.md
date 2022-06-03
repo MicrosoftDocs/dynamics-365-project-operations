@@ -1,6 +1,6 @@
 ---
 title: Cost product-based contract lines - lite
-description: This topic provides information about creating 
+description: This article provides information about creating 
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article

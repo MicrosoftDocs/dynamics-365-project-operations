@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project Operations Team Member app
-description: This topic provides information about the Project Operations Team Member app in Microsoft Dynamics 365 Project Operations.
+description: This article provides information about the Project Operations Team Member app in Microsoft Dynamics 365 Project Operations.
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article

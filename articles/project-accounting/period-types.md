@@ -1,6 +1,6 @@
 ---
 title: Period types
-description: This topic provides information about how to set up period types for revenue estimation.
+description: This article provides information about how to set up period types for revenue estimation.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-A period type defines how frequently revenue on a project is estimated. This topic provides information about how to set up period types for revenue estimation. 
+A period type defines how frequently revenue on a project is estimated. This article provides information about how to set up period types for revenue estimation. 
 
 ## Create and work with period types
 To create and work with period types, complete the following steps:

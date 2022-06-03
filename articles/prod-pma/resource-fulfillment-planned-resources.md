@@ -2,7 +2,7 @@
 # required metadata
 
 title: Resource fulfillment for planned resources
-description: This topic provides information about planned resources for a project.
+description: This article provides information about planned resources for a project.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

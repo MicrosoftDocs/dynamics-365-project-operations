@@ -1,6 +1,6 @@
 ---
 title: Provision a new environment
-description: This topic provides information about how to provision a new Project Operations environment.
+description: This article provides information about how to provision a new Project Operations environment.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -15,7 +15,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 
 
-This topic provides information about how to provision a new Dynamics 365 Project Operations environment for resource/non-stocked based scenarios.
+This article provides information about how to provision a new Dynamics 365 Project Operations environment for resource/non-stocked based scenarios.
 
 ## Enable Project Operations automated provisioning in an LCS project
 

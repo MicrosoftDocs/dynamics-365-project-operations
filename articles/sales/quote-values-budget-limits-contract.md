@@ -1,6 +1,6 @@
 ---
 title: Project quote settings
-description: This topic provides information about the information and settings that apply to and impact project quotes.
+description: This article provides information about the information and settings that apply to and impact project quotes.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article

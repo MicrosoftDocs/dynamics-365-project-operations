@@ -1,6 +1,6 @@
 ---
 title: Set up price lists
-description: This topic provides information about how to set up cost and sale price lists.
+description: This article provides information about how to set up cost and sale price lists.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

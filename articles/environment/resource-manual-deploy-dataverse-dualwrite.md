@@ -1,6 +1,6 @@
 ---
 title: Manually deploy the Project Operations Dataverse app with dual-write support
-description: This topic explains how to manually deploy the Project Operations Dataverse app so that it supports dual-write.
+description: This article explains how to manually deploy the Project Operations Dataverse app so that it supports dual-write.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,9 +11,9 @@ ms.author: stsporen
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic explains how to manually deploy Microsoft Dynamics 365 Project Operations in Microsoft Dataverse so that it supports dual-write. Project Operations detects the environment's configuration and adds additional support for dual-write if the prerequisites are met.
+This article explains how to manually deploy Microsoft Dynamics 365 Project Operations in Microsoft Dataverse so that it supports dual-write. Project Operations detects the environment's configuration and adds additional support for dual-write if the prerequisites are met.
 
-During deployment through Microsoft Dynamics Lifecycle Services (LCS), if you've followed the instructions in this topic, you can skip the deployment of the Microsoft Power Platform integration (previously known as the Common Data Service environment).
+During deployment through Microsoft Dynamics Lifecycle Services (LCS), if you've followed the instructions in this article, you can skip the deployment of the Microsoft Power Platform integration (previously known as the Common Data Service environment).
 
 The process of deploying Project Operations in Dataverse so that it supports dual-write has four main steps:
 

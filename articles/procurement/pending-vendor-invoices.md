@@ -1,6 +1,6 @@
 ---
 title: Purchase non-stocked materials or procurement categories using a pending vendor invoice
-description: This topic explains how to record pending vendor invoices. 
+description: This article explains how to record pending vendor invoices. 
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
@@ -18,7 +18,7 @@ As a company procures non-stocked materials or procurement categories for a proj
 For example, Contoso Robotics US is performing an equipment renewal project and needs software licenses. These licenses are procured from a third-party vendor.  Using Dynamics 365 Finance, the Accounts payable clerk records a pending vendor invoice document and attributes the license costs directly against the equipment renewal project. 
 
 > [!IMPORTANT]
-> Before you use the functionality described in this topic, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md) and [Use procurement categories with project purchase orders and pending vendor invoices](configure-procurement-categories.md)
+> Before you use the functionality described in this article, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md) and [Use procurement categories with project purchase orders and pending vendor invoices](configure-procurement-categories.md)
 
 ## Post a project-related pending vendor invoice 
 

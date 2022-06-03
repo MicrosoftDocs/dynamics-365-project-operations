@@ -2,7 +2,7 @@
 # required metadata
 
 title: Define skills and proficiencies
-description: This topic provides information about how to set up proficiency models to rate resources. 
+description: This article provides information about how to set up proficiency models to rate resources. 
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article

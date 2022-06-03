@@ -1,6 +1,6 @@
 ---
 title: What's new February 2021 - Project Operations lite deployment
-description: This topic provides information about the quality updates available in the February 2021 release of Project Operations lite deployment.
+description: This article provides information about the quality updates available in the February 2021 release of Project Operations lite deployment.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
@@ -11,7 +11,7 @@ ms.author: sigitac
 
 # What's new February 2021 - Project Operations lite deployment
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
   - Project Operations on Dataverse environment version 4.7.0.95
 

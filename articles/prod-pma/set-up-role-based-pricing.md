@@ -2,7 +2,7 @@
 # required metadata
 
 title: Set up role-based pricing
-description: This topic provides information about how to set up pricing for specific roles.
+description: This article provides information about how to set up pricing for specific roles.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

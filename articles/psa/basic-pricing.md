@@ -1,6 +1,6 @@
 ---
 title: Project pricing
-description: This topic provides information about how pricing works in Dynamics 365 Project Service Automation.
+description: This article provides information about how pricing works in Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom: 
   - dyn365-projectservice

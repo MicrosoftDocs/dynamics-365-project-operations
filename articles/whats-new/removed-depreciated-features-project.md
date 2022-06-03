@@ -1,6 +1,6 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Project Operations
-description: This topic describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
+description: This article describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios_
 
-This topic describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
+This article describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
 
 - A *removed* feature is no longer available in the product.
 - A *deprecated* feature is not in active development and may be removed in a future update.

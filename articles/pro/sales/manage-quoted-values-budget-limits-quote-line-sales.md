@@ -1,6 +1,6 @@
 ---
 title: Project-based quote lines overview 
-description: This topic provides information about using project-based quote lines for project work.
+description: This article provides information about using project-based quote lines for project work.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: overview

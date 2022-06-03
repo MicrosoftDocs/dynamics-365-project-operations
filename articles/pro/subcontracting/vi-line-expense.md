@@ -1,6 +1,6 @@
 ---
 title: Vendor invoice lines for expense categories
-description: This topic explains how to record vendor invoice lines for expense categories.
+description: This article explains how to record vendor invoice lines for expense categories.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article

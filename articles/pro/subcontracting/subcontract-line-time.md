@@ -1,6 +1,6 @@
 ---
 title: Subcontract lines for time
-description: This topic explains how to record subcontract lines for time and record the purchase of time from vendors.
+description: This article explains how to record subcontract lines for time and record the purchase of time from vendors.
 author: rumant
 ms.date: 08/05/2021
 ms.topic: article

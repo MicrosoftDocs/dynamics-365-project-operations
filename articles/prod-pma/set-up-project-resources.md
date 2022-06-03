@@ -2,7 +2,7 @@
 # required metadata
 
 title: Set up project resources
-description: This topic provides information about setting up or requesting project resources.
+description: This article provides information about setting up or requesting project resources.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article

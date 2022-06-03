@@ -2,7 +2,7 @@
 # required metadata
 
 title: Create custom fields and entities as pricing dimensions
-description: This topic provides information about how to create custom option sets or entities.
+description: This article provides information about how to create custom option sets or entities.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article

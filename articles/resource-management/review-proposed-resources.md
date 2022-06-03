@@ -2,7 +2,7 @@
 # required metadata
 
 title: Review proposed resources
-description: This topic provides information about how to propose project resources.
+description: This article provides information about how to propose project resources.
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article

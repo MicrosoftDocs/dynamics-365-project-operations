@@ -1,6 +1,6 @@
 ---
 title: Currency mismatch error 
-description: This topic provides troubleshooting information about a currency mismatch error that occurs when you save specific record types.
+description: This article provides troubleshooting information about a currency mismatch error that occurs when you save specific record types.
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article

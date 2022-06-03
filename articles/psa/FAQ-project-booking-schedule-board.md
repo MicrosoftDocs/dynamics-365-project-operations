@@ -1,6 +1,6 @@
 ---
 title: Create a project booking from the Schedule board
-description: This topic provides information about how to create a project booking from the schedule board.
+description: This article provides information about how to create a project booking from the schedule board.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice

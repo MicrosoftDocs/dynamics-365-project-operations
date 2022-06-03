@@ -2,7 +2,7 @@
 # required metadata
 
 title: Turning off a pricing dimension
-description: This topic provides information about how to turn off pricing dimensions.
+description: This article provides information about how to turn off pricing dimensions.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article

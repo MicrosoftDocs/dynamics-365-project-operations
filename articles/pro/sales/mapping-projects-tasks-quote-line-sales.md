@@ -1,6 +1,6 @@
 ---
 title: Map projects and tasks to a project-based quote line
-description: This topic provides information about how to map projects and tasks to a project-based task line.
+description: This article provides information about how to map projects and tasks to a project-based task line.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article

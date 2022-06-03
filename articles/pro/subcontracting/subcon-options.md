@@ -1,6 +1,6 @@
 ---
 title: Subcontracting options for project team members
-description: This topic explains the subcontracting options for project team members in Microsoft Dynamics 365 Project Operations.
+description: This article explains the subcontracting options for project team members in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article

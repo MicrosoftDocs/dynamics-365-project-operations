@@ -1,6 +1,6 @@
 ---
 title: Set up automatice invoice creation 
-description: This topic provides information about set up and configure automatic creation of proforma invoices.
+description: This article provides information about set up and configure automatic creation of proforma invoices.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: Developer notes for Approvals
-description: This topic provides additional developer information about working with approvals.
+description: This article provides additional developer information about working with approvals.
 author: stsporen
 ms.date: 11/09/2020
 ms.topic: article

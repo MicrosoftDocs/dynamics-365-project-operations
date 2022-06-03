@@ -1,6 +1,6 @@
 ---
 title: Develop project templates with Copy Project
-description: This topic provides information about how to create project templates using the Copy Project custom action.
+description: This article provides information about how to create project templates using the Copy Project custom action.
 author: stsporen
 ms.date: 03/10/2022
 ms.topic: article

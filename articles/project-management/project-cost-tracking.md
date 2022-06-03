@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project cost tracking 
-description: This topic provides information about how Project Operations tracks progress against labor cost and spend on a project.
+description: This article provides information about how Project Operations tracks progress against labor cost and spend on a project.
 author: rumant
 ms.date: 03/22/2021
 ms.topic: article

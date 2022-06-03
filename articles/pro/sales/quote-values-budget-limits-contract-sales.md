@@ -1,6 +1,6 @@
 ---
 title: Summary information on a project quote - lite
-description: This topic provides information about the information and settings that apply to and impact project quotes. (Sales)
+description: This article provides information about the information and settings that apply to and impact project quotes. (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
