@@ -19,7 +19,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Features included in this release
 
-Item requirements can be used for project contracts that have multiple funding sources. For more information, see [Item requirements for project contracts with multiple funding sources](prod-pma/multiple-funding-sources-item-req.md).
+Item requirements can be used for project contracts that have multiple funding sources. For more information, see [Item requirements for project contracts with multiple funding sources](multiple-funding-sources-item-req.md).
 
 ## Quality updates
 
