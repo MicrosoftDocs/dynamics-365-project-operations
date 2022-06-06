@@ -84,7 +84,7 @@ Before you begin, sign in to a browser with the user work account in the tenant 
 4.	Select the respective Microsoft Dataverse URL and the Finance and Operations apps URLs to validate the deployment.
 
 ## Configuring dual-write
-- To configure security roles for dual-write, see [Update security settings on Project Operations in Dataverse](resource-provision-new-environment#update-security-settings-on-project-operations-on-dataverse).
+- To configure security roles for dual-write, see [Update security settings on Project Operations in Dataverse](/resource-provision-new-environment#update-security-settings-on-project-operations-on-dataverse).
 - To access dual-write configuration, Navigate to Finance and Operations instance, then navigate to **Data Management** > **Dual Write**.
 - To configure dual-write maps, see [Run Project Operations dual-write maps](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
