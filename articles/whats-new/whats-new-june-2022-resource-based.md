@@ -35,16 +35,16 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-| Subcontracting | 2708885 | Fixed error message thrown when user creates a bookable resource booking header record with no bookable resource filled in. |
-| Project planning and tracking | 2629441 | Corrected workflow triggering logic to avoid infinte loop when updating project task.|
-| Time and expense| 2641209 | Time Entries Import from Assignments/Bookings must retain Bookable Resource reference. |
-| Project planning and tracking | 2651148 | Project Document Header must be guarded.  |
-| Project planning and tracking | 2653145 | Added validations to ensure a project record cannot be created with invalid characters in it's name |
-| Time and expense | 2654710 | Corrected filtering on Approvals form|
-| Billing and pricing | 2667805 | Added validations to prevent creating billed sale actuals when backing unbilled sales actuals do not exist|
-| Billing and pricing | 2668378 | Added validations to prevent adding custom pricing dimension without filling in logical name and field name |
-| Subcontracting| 2677485 | Updated target version of vendor invoice lines dual write map|
-| Time and expense | 2700428 | Improved approvals logic, ensuring other approval sets for the project can be processed, even if one of the approval sets is stuck in system jobs. |
+| Subcontracting | 2708885 | Fixed the error message that displays when a user creates a bookable resource booking header record with no bookable resource filled in.|
+| Project planning and tracking | 2629441 | Corrected the workflow triggering logic to avoid an infinite loop when updating project task.|
+| Time and expense| 2641209 | Time Entries Import from Assignments/Bookings must retain Bookable Resource reference.|
+| Project planning and tracking | 2651148 | Project Document Header must be guarded.|
+| Project planning and tracking | 2653145 | Added validations to ensure a project record cannot be created with invalid characters in its name.|
+| Time and expense | 2654710 | Corrected filtering on the Approvals form.|
+| Billing and pricing | 2667805 | Added validations to prevent creating billed sale actuals when backing unbilled sales actuals do not exist.|
+| Billing and pricing | 2668378 | Added validations to prevent adding custom pricing dimension without filling in a logical name and a field name.|
+| Subcontracting| 2677485 | Updated the target version of vendor invoice lines dual write map.|
+| Time and expense | 2700428 | Improved the approvals logic to ensure other approval sets for the project can be processed even if one of the approval sets is stuck in system jobs.|
 
 
 
