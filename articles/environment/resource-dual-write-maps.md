@@ -20,7 +20,7 @@ The following maps are required prerequisites for the Project Operations solutio
 
 | Table map | Initial sync |
 | --- | --- |
-| Ledger (msdyn_ledgers) | Requires initial sync for the table map and all prerequisites. Master for initial sync is Finance and Operations apps. |
+| Ledger (msdyn_ledgers) | Requires initial sync for the table map and all prerequisites. Master for initial sync is finance and operations apps. |
 | Legal entities (cdm_companies) | Not required. The system populates this entity automatically when environments are linked using dual-write. |
 | Customers V3 (accounts) | Not required for provisioning. |
 | Vendors V2 (msdyn_vendors) | Not required for provisioning. |

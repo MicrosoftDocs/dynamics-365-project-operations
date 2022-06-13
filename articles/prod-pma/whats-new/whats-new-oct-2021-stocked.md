@@ -75,6 +75,6 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ### Regulatory updates
 
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Microsoft Dynamics Lifecycle Services (LCS) and use the Issue search tool to view the planned regulatory updates. Issue search lets you search by country or region, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Microsoft Dynamics Lifecycle Services (LCS) and use the Issue search tool to view the planned regulatory updates. Issue search lets you search by country or region, type of feature, and release.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
