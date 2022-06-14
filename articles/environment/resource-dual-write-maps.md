@@ -25,7 +25,7 @@ The following maps are required prerequisites for the Project Operations solutio
 | Customers V3 (accounts) | Not required for provisioning. |
 | Vendors V2 (msdyn_vendors) | Not required for provisioning. |
 
-1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **Finance and Operations apps** for both ledger map and all prerequisite maps. Select **Run**.
+1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **Finance and operations apps** for both ledger map and all prerequisite maps. Select **Run**.
 
 ![Ledger map synchronization.](media/DW6.png)
 
