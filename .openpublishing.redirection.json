@@ -1,5 +1,50 @@
 {
-  "redirections": [
+  "redirections": [    {
+      "source_path": "articles/prod-exp/ExpenseWorkspaceNew.md",
+      "redirect_url": "/dynamics365/project-operations/expense/expense-reports-reimagined",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/per-diem.md",
+      "redirect_url": "/dynamics365/project-operations/expense/per-diems",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/personal-expenses.md",
+      "redirect_url": "/dynamics365/project-operations/expense/personal-expenses-expense-report",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/post-expense.md",
+      "redirect_url": "/dynamics365/project-operations/expense/posting-expense-reports",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/travel-req.md",
+      "redirect_url": "/dynamics365/project-operations/expense/travel-requisition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/VAT-expense-report.md",
+      "redirect_url": "/dynamics365/project-operations/expense/vat-recovery",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/resource-management/resource-management-overview.md",
+      "redirect_url": "/dynamics365/project-operations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/whats-new/whats-new-project-operations.md",
+      "redirect_url": "/dynamics365/project-operations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sample-data/sample-data-overview.md",
+      "redirect_url": "/dynamics365/project-operations",
+      "redirect_document_id": "false"
+    },
+
     {
       "source_path": "articles/pro/subcontracting/Subcontracting_EA_scope.md",
       "redirect_url": "managing-subcontracts-overview",
