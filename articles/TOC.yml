@@ -472,6 +472,15 @@
       href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
+      items:
+      - name: Actuals impact in a time and materials engagement
+        href: ActualsTM.md
+      - name: Actuals impact in a fixed price engagement
+        href: ActualonFP.md
+      - name: Actuals impact during the pre-sales stage of an engagement
+        href: ActualonPreSales.md
+      - name: Actuals impact for an internal project
+        href: ActualonInternal.md
     - name: Transaction origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Transaction connections - Link actuals of different transaction types
@@ -1375,7 +1384,9 @@
     - name: What's new or changed in Update Release 23, V3
       href: psa/whats-new-ur-23.md
     - name: What's new or changed in Update Release 22, V3
-      href: psa/whats-new-ur-21.md
+      href: psa/whats-new-ur-22.md
+    - name: What's new or changed in Update Release 21, V3
+      href: psa/whats-new-ur-21.md      
     - name: What's new or changed in Update Release 20, V3
       href: psa/whats-new-ur-20.md
     - name: What's new or changed in Update Release 19, V3
