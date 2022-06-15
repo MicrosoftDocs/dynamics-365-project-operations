@@ -472,15 +472,14 @@
       href: actuals/businesstransactions.md
     - name: Actuals overview
       href: actuals/actuals-overview.md
-      items:
-      - name: Actuals impact in a time and materials engagement
-        href: ActualsTM.md
-      - name: Actuals impact in a fixed price engagement
-        href: ActualonFP.md
-      - name: Actuals impact during the pre-sales stage of an engagement
-        href: ActualonPreSales.md
-      - name: Actuals impact for an internal project
-        href: ActualonInternal.md
+    - name: Actuals impact in a time and materials engagement
+      href: actuals/ActualsTM.md
+    - name: Actuals impact in a fixed price engagement
+      href: actuals/ActualonFP.md
+    - name: Actuals impact during the pre-sales stage of an engagement
+      href: actuals/ActualonPreSales.md
+    - name: Actuals impact for an internal project
+      href: actuals/ActualonInternal.md
     - name: Transaction origins - Link actuals to source
       href: actuals/linkingactuals.md
     - name: Transaction connections - Link actuals of different transaction types
@@ -1271,6 +1270,8 @@
   items: 
   - name: Expense management overview
     href: prod-exp/expense-management.md
+  - name: Expense receipt processing
+    href: prod-exp/expense-receipt-processing.md   
   - name: New expense experience
     items: 
     - name: Expense reports reimagined
@@ -1285,6 +1286,8 @@
       href: expense/set-up-workflows.md
     - name: Manage delegation
       href: expense/manage-delegation.md
+    - name: Configure expense management
+      href: expense/plan-expense-management.md     
     - name: Configure Expense management parameters
       href: expense/configure-expense-management-parameters.md
     - name: Set up credit card integration
@@ -1299,10 +1302,14 @@
     items:
     - name: Distributions on an expense report
       href: expense/distributions-expense-report.md
+    - name: Import and maintain credit card transactions
+      href: expense/import-credit-card.md      
   - name: Approve expense reports
     items: 
     - name: Expense reports and multiple approvers
       href: expense/expense-reports-multiple-approvers.md
+    - name: Manage expense delegation
+      href: expense/manage-expense-delegation.md      
   - name: Post expense reports
     href: expense/posting-expense-reports.md
   - name: Travel requisition
@@ -1317,6 +1324,8 @@
     items: 
     - name: VAT recovery
       href: expense/vat-recovery.md
+    - name: View an expense report from General ledger or Procurement and sourcing
+      href: expense/view-expense-report.md      
 - name: Dynamics 365 Project Service Automation  
   items:
   - name: Project Service Automation 
