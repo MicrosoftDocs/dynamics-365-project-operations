@@ -10,7 +10,7 @@ ms.author: rumant
 
 # Manage project price lists on project quotes 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 Project quotes are designed to support multiple date effective sales price lists. With Dynamics 365 Project Operations, a new associated entity called **Project price lists** is added. This entity has a 1-to-many relationship to a project quote.
 
