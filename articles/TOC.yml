@@ -517,7 +517,7 @@
       - name: Confirm a proforma project-based invoice
         href: proforma-invoicing/confirm-proforma-invoice.md
       - name: Create corrective project-based invoices 
-        href: proforma-invoicing/corrective-invoices.md
+        href: pro/proforma-invoicing/corrective-invoices-sales.md
       - name: Configure project-based invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Customer invoicing
