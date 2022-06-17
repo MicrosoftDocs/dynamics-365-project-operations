@@ -90,12 +90,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "articles/sample-data/sample-data-overview.md",
-      "redirect_url": "/dynamics365/project-operations",
-      "redirect_document_id": "false"
-    },
-
-    {
       "source_path": "articles/pro/subcontracting/Subcontracting_EA_scope.md",
       "redirect_url": "managing-subcontracts-overview",
       "redirect_document_id": "false"
