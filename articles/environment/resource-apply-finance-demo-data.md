@@ -71,7 +71,7 @@ This takes a couple of minutes to complete. You should receive a confirmation me
 
 18. Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Finance and operations.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

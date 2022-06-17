@@ -81,11 +81,11 @@ Before you begin, sign in to a browser with the user work account in the tenant 
  
   When provisioning is complete, the state of your environment is **Ready**. Provisioning the environment includes deploying demo data.
  
-4.	Select the respective Microsoft Dataverse URL and the Finance and Operations apps URLs to validate the deployment.
+4.	Select the respective Microsoft Dataverse URL and the finance and operations apps URLs to validate the deployment.
 
 ## Configuring dual-write
 - To configure security roles for dual-write, see [Update security settings on Project Operations in Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- To access dual-write configuration, Navigate to Finance and Operations instance, then navigate to **Data Management** > **Dual Write**.
+- To access dual-write configuration, Navigate to finance and operations instance, then navigate to **Data Management** > **Dual Write**.
 - To configure dual-write maps, see [Run Project Operations dual-write maps](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## Assign licenses
@@ -112,7 +112,7 @@ The following resources provide helpful guidance as you begin your journey with 
 
 ## Frequently asked questions
 
-### What if I require ALM or ELM for my Finance and Operations apps environment?
+### What if I require ALM or ELM for my finance and operations apps environment?
 
 - For partners who require full environment lifecycle management capabilities, see the [Partner Sandbox License Request](https://experience.dynamics.com/requestlicense) to review the new partner offer. 
 - For partners seeking more information about Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).

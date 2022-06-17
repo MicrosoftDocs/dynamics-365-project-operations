@@ -112,7 +112,7 @@ You might need to apply quality updates to your Finance environment to receive t
 
     ![Apply Solutions.](./media/13ApplySolutions.png)
 
-5. Select both solutions, **Dynamics 365 Finance and Operations Dual Write Entity Map** and **Dynamics 365 Project Operations Dual Write Entity Maps**, and then select **Apply**.
+5. Select both solutions, **Dynamics 365 Finance Dual Write Entity Map** and **Dynamics 365 Project Operations Dual Write Entity Maps**, and then select **Apply**.
 
     ![Confirm Solutions.](./media/14ConfirmSolutions.png)
 

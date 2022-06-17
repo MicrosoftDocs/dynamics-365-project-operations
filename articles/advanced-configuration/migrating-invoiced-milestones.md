@@ -41,7 +41,7 @@ Contoso is going live with Microsoft Dynamics 365 Project Operations for resourc
 3. Add a mapping for the transaction status.
 
     1. Select **Add mapping**.
-    2. On the new line, in the **Finance and Operations apps** column, select the **TRANSSTATUS \[TRANSSTATUS\]** field.
+    2. On the new line, in the **Finance and operations apps** column, select the **TRANSSTATUS \[TRANSSTATUS\]** field.
     3. In the **Microsoft Dataverse** column, select **msdyn\_invoicestatus \[Invoice status\]**.
     4. In the **Map type** column, select the right arrow (**\>**).
     5. In the dialog box that appears, in the **Sync direction** field, select **Dataverse to Finance and Operations apps**.

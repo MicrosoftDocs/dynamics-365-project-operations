@@ -115,7 +115,7 @@ The following updates to the security privileges for entities are required as pa
 4. On the **Table map version** page, apply a new version of the map to each of the three entities.
 5. On the **Dual-write** page, select run to restart the maps.
 6. From the list of maps, select the **Ledger (msdyn_ledgers)** map with all prerequisites and select the **Initial sync** check box. 
-7. In the **Master for initial sync** field, select **Finance and Operations apps** and then select **Run**.
+7. In the **Master for initial sync** field, select **Finance and operations apps** and then select **Run**.
  
  ![Ledger map synchronization.](media/DW6.png)
  

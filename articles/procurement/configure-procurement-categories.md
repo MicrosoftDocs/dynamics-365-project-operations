@@ -20,7 +20,7 @@ Purchasing professionals can create and maintain catalogs of the items and servi
 The following versions are required to use procurement categories with project purchase orders for Microsoft Dynamics 365 Project Operations non-stocked/resource-based scenarios:
 
 - Project Operations Dataverse solution version 4.41.0.45 or later
-- Finance and Operations environment version 10.0.26 or later
+- Finance and operations environment version 10.0.26 or later
 
 ## Run dual-write maps for procurement category support
 

@@ -137,7 +137,7 @@ This article applies to the following Dynamics 365 Project Operations components
 | Travel and Expense                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | In Project Operations, time with intercompany tasks in Dataverse can't be created or approved.                                                                                                                                                                                             |
 
 ### Regulatory updates
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
