@@ -59,7 +59,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Oceana</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | July 15, 2022
 | | <i>United Arab Emirates</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | July 15, 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | June 17, 2022
+| | <i>Europe</i> | [3.10.75.142](whats-new-ur-44.md) | TBD | July 15, 2022
 |<strong>Station 5</strong> | |  |  | |
 | | <i>North America</i> | [3.10.74.200](whats-new-ur43.md) | [3.10.75.142](whats-new-ur-44.md) | June 24, 2022
 |<strong>Station 6</strong> | |  |  | |
