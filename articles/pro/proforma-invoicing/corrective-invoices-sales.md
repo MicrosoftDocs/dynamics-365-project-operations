@@ -10,7 +10,7 @@ ms.author: rumant
 
 # Corrective project invoices
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.
 

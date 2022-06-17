@@ -157,7 +157,7 @@
         - name: Configure the chargeable components of a project quote line
           href: sales/configure-chargeable-quoteline.md
         - name: Estimate a project quote line
-          href: sales/create-estimate-quote-line.md
+          href: sales/create-estimate-project-quote-line.md          
         - name: Import estimates from a project to a project-based quote line
           href: sales/import-estimate-quote-line.md
         - name: Invoice schedules on project-based quote lines
@@ -517,7 +517,7 @@
       - name: Confirm a proforma project-based invoice
         href: proforma-invoicing/confirm-proforma-invoice.md
       - name: Create corrective project-based invoices 
-        href: proforma-invoicing/corrective-invoices.md
+        href: pro/proforma-invoicing/corrective-invoices-sales.md
       - name: Configure project-based invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Customer invoicing
