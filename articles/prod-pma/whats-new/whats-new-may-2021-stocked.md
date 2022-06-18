@@ -88,7 +88,7 @@ This article applies to the following Dynamics 365 Project Operations components
 | Travel and Expense                  | [574900](https://fix.lcs.dynamics.com/Issue/Details/?bugId=574900) | There are synchronization issues with the Expense mobile application. 
 
 ### Regulatory updates
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Lifecycle Services (LCS) and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Lifecycle Services (LCS) and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

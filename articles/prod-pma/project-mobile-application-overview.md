@@ -40,11 +40,11 @@ The Dynamics 365 Project Timesheet mobile app lets users submit and approve time
 
 ## Project Time Entry workspace
 
-The Project Time Entry workspace lets users enter and save time against a project. However, it doesn't let users submit or approve project timesheets. It can be used only for time entry. This mobile workspace is intended to be used together with the Finance and Operations mobile application.
+The Project Time Entry workspace lets users enter and save time against a project. However, it doesn't let users submit or approve project timesheets. It can be used only for time entry. This mobile workspace is intended to be used together with the finance and operations mobile application.
 
 ## My timesheets/Timesheets for my review
 
-My timesheets (Optimized for mobile) and Timesheets for my review (Optimized for mobile) make up a solution that lets employees create, submit, and approve project timesheets on a mobile device. Workers can access the Finance functionality through the URL for the application. This solution doesn't require the Finance and Operations mobile application.
+My timesheets (Optimized for mobile) and Timesheets for my review (Optimized for mobile) make up a solution that lets employees create, submit, and approve project timesheets on a mobile device. Workers can access the Finance functionality through the URL for the application. This solution doesn't require the finance and operations mobile application.
 
 ## For more information
 

@@ -20,7 +20,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 Dynamics 365 Project Operations consists of two components:
 
 - Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the lite deployment and resource/non-stocked scenarios deployment of Project Operations.
-- Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The Finance and Operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
+- Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The finance and operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
 
 ## Project Operations release notes
 - Project Operations latest release notes for [Resource/non-stocked](whats-new-may-2022-resource-based.md) scenario.
@@ -29,7 +29,7 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations latest version
 
-| Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
+| Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | 
 | --- | --- |
 | 4.43.0.77 | 10.0.26 |
 
@@ -61,7 +61,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | North America         |  4.42.0.70      | Complete           | Complete            | 4.43.0.77           | June 17, 2022       |
 
-## Release schedule for Project management and accounting in the Finance and Operations apps environment
+## Release schedule for Project management and accounting in the finance and operations apps environment
 
 Updates for Project management and accounting are released eight times a year.
 

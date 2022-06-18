@@ -31,7 +31,7 @@ To complete this procedure, you must sign in as an administrator.
 3. Select the environment type. If you signed up for the trial offer, select **Trial (subscription-based)**.
 4. Confirm the deployment region.
 5. Enable the **Create a database for this environment** option. 
-6. Confirm the language, and then confirm that the currency matches the currency for your Finance and Operations apps.
+6. Confirm the language, and then confirm that the currency matches the currency for your finance and operations apps.
 7. Enable the **Dynamics 365 apps** option, and confirm that the **Automatically deploy these apps** field is set to **None**.
 8. Add a security group, if a security group is required.
 9. Select **Save** to create the environment.
@@ -56,4 +56,4 @@ You can complete this procedure only if you completed the previous procedures be
 
 ## <a name="link"></a>Link your environments
 
-After the Dataverse environment is deployed, you can set up the link in your Finance and Operations apps. Follow the steps in [Use the dual-write wizard to link your environments](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+After the Dataverse environment is deployed, you can set up the link in your finance and operations apps. Follow the steps in [Use the dual-write wizard to link your environments](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
