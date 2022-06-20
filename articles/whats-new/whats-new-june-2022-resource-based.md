@@ -15,7 +15,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Dataverse environment version 4.43.0.77
+- Project Operations in a Dataverse environment version 4.43.0.77 or 4.43.0.119
 - Project management and accounting in a Dynamics 365 Finance environment version 10.0.27
 
 ## Project Operations dual-write maps updates
