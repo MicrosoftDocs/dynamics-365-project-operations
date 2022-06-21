@@ -20,7 +20,7 @@ Every project quote and contract in Dynamics 365 Project Operations contains a d
 The system completes the following process to determine which price list to default on a project quote:
 
 1. The system looks at the price lists that are attached to the account's project price lists. 
-2. If there are project price lists attached to the account record, the system looks at the sales price lists attached to the project parameters that match the currency of the project quote.
+2. If there are no project price lists attached to the account record, the system looks at the sales price lists attached to the project parameters that match the currency of the project quote.
 3. Next, the system checks the date effectivity of the price lists that match the date range of the project quote. Specifically, the date the quote was created.
 4. If there are multiple price lists that are effective for the date of the project quote, all of the price lists default on the project quote.
 5. If no price lists in effect for the date of the project quote, there's no default project price list on the project quote. A warning message will occur on the project quote. The message states that actuals and estimates on the project won't be priced because there are no project price lists attached.
