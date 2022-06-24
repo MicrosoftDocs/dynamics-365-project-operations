@@ -1,5 +1,6 @@
 {
-  "redirections": [    {
+  "redirections": [
+    {
       "source_path": "articles/prod-exp/expense-management-mobile-workspace.md",
       "redirect_url": "/dynamics365/project-operations/expense/expense-using-mobile",
       "redirect_document_id": "false"
@@ -16,6 +17,11 @@
     },
     {
       "source_path": "articles/prod-exp/expense-workflow.md",
+      "redirect_url": "/dynamics365/project-operations/expense/set-up-workflows",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-workflows.md",
       "redirect_url": "/dynamics365/project-operations/expense/set-up-workflows",
       "redirect_document_id": "false"
     },
