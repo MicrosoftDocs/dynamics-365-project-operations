@@ -1,5 +1,30 @@
 {
   "redirections": [    {
+      "source_path": "articles/prod-exp/expense-management-mobile-workspace.md",
+      "redirect_url": "/dynamics365/project-operations/expense/expense-using-mobile",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/Expense-Management-Parameters.md",
+      "redirect_url": "/dynamics365/project-operations/expense/configure-expense-management-parameters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/travel-expense-policies.md",
+      "redirect_url": "/dynamics365/project-operations/expense/set-up-policies",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-workflow.md",
+      "redirect_url": "/dynamics365/project-operations/expense/set-up-workflows",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-report-multiple-approvers.md",
+      "redirect_url": "/dynamics365/project-operations/expense/expense-reports-multiple-approvers",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "articles/invoicing/corrective-invoices.md",
       "redirect_url": "/dynamics365/project-operations/pro/proforma-invoicing/corrective-invoices-sales",
       "redirect_document_id": "false"
@@ -51,42 +76,42 @@
     },
     {
       "source_path": "articles/prod-exp/ExpenseWorkspaceNew.md",
-      "redirect_url": "/dynamics365/dynamics365/project-operations/expense/expense-reports-reimagined",
+      "redirect_url": "/dynamics365/project-operations/expense/expense-reports-reimagined",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/prod-exp/per-diem.md",
-      "redirect_url": "/dynamics365/dynamics365/project-operations/expense/per-diems",
+      "redirect_url": "/dynamics365/project-operations/expense/per-diems",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/prod-exp/personal-expenses.md",
-      "redirect_url": "/dynamics365/dynamics365/project-operations/expense/personal-expenses-expense-report",
+      "redirect_url": "/dynamics365/project-operations/expense/personal-expenses-expense-report",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/prod-exp/post-expense.md",
-      "redirect_url": "/dynamics365/dynamics365/project-operations/expense/posting-expense-reports",
+      "redirect_url": "/dynamics365/project-operations/expense/posting-expense-reports",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/prod-exp/travel-req.md",
-      "redirect_url": "/dynamics365/dynamics365/project-operations/expense/travel-requisition",
+      "redirect_url": "/dynamics365/project-operations/expense/travel-requisition",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/prod-exp/VAT-expense-report.md",
-      "redirect_url": "/dynamics365/dynamics365/project-operations/expense/vat-recovery",
+      "redirect_url": "/dynamics365/project-operations/expense/vat-recovery",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/resource-management/resource-management-overview.md",
-      "redirect_url": "/dynamics365/dynamics365/project-operations",
+      "redirect_url": "/dynamics365/project-operations",
       "redirect_document_id": "false"
     },
     {
       "source_path": "articles/whats-new/whats-new-project-operations.md",
-      "redirect_url": "/dynamics365/dynamics365/project-operations",
+      "redirect_url": "/dynamics365/project-operations",
       "redirect_document_id": "false"
     },
     {
