@@ -45,16 +45,14 @@ The **Mileage amount calculation for multiple mileage tiers with same rate** fea
 
 After you enable the feature, reset the mileage tiers to correctly reflect the value of the **Quantity** field. 
 
-## Enable Mileage totals calculation by fiscal year
+## Enable the Mileage totals calculation by fiscal year feature
 
-**Mileage totals calculation by fiscal year** enables a new setting under Expense management parameters that performs mileage totals calculations by fiscal year instead of calendar year.
-
-To enable Mileage totals calculation by fiscal year, complete the following steps:
+The **Mileage totals calculation by fiscal year** feature enables a new setting in Expense management parameters that performs mileage totals calculations by fiscal year instead of calendar year. Complete the following steps to enable this feature.
 
 1. Go to **Workspaces** > **Feature Management**.
 1. In the list, locate and select **Mileage totals calculation by fiscal year**, and then select **Enable now**.
 1. Go to **Expense Management** > **Setup** > **General** > **Expense management parameters**.
-1. On the parameters page, locate and enable **Use fiscal year for mileage totals**.
+1. On the **Expense management parameters** page, locate and enable **Use fiscal year for mileage totals**.
 
 After you enable **Use fiscal year for mileage totals**, mileage totals are calculated by fiscal year.
 
