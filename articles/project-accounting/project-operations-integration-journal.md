@@ -47,7 +47,17 @@ Only the following accounting attributes can be updated in the Project Operation
 
 Integration journal lines can be deleted, however any unposted lines will be inserted into the journal again after you rerun the **Import from staging** periodic process.
 
+### Post Project Operations Integration journal
+
 When you post the Integration journal, a project subledger and general ledger transactions are created. These are used in downstream customer invoicing, revenue recognition, and financial reporting.
 
+Selected Project Operations integration journal can be posted by using Post button in the Project Operations integration journal form. All journals can be automatically posted by running a process in Periodics > Project Operations integration > Post Project Operations integration journal. 
+Posting can be performed interactively or in a batch. Note that all journals with more than 100 lines will be automatically directed for posting in a batch. Enable **Post Project Operations integration journal using multiple batch tasks** feature in Feature management workspace for better performance when posting journals with high number of lines in a batch. 
+
+#### Transfer all lines with posting errors to a new journal
+
+[!Note] Enable **Transfer all lines with posting errors to a new Project Operations integration journal** feature in Feature management workspace to use this capability.
+
+When posting Project Operations integration journal, system validates every line in the journal. System posts all lines without errors and creates a new journal for all the lines with posting errors. User can review the journals with such lines in Project management and accounting > Journals > Project Operations integration journal, by filtering the journals with the field "Original journal" populated.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
