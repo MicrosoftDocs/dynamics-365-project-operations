@@ -57,7 +57,7 @@ Dynamics 365 Project Timesheet** parameter.
 
 **Explanation:** These issues are caused by a change made to Microsoft Azure Active Directory (Azure AD) in May, 2022 regarding external users. Because this change wasn't made to the Finance and Operations apps, it can affect customers on any version of the platform or application.
 
-**Fix:** All external users need to be invited to the tenant through Azure AD. For more information, see Invite users with [Azure Active Directory B2B collaboration](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration.md).
+**Fix:** All external users need to be invited to the tenant through Azure AD. For more information, see Invite users with [Azure Active Directory B2B collaboration](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
 
 ## Sign in to the app
 
