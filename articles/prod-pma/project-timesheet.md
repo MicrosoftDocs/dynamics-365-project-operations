@@ -52,6 +52,17 @@ mobile app must be enabled. To enable the functionality, go to **Project
 management and accounting parameters \> Timesheet** and select the **Enable Microsoft
 Dynamics 365 Project Timesheet** parameter.
 
+### Resolve sign-in issues
+Issue: During sign-in to the Project Timesheet Mobile app, users receive an error message saying they "cannot access the application '2bc50526-cdc3-4e36-a970-c284c34cbd6e' in that tenant"
+
+Issue: During sign into the Project Timesheet Mobile app, a user receives an error like the following:
+- "AADSTS50020: User account 'XXX' from identity provider 'https://sts.windows.net/XXX' does not exist in tenant 'XXX' and cannot access the application 'xxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx' in that tenant."
+- "Selected user account does not exist in tenant 'XXX' and cannot access the application 'xxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx' in that tenant."
+
+Explanation: This issue is caused by a change made to Azure Active Directory (Azure AD) in May 2022 regarding external users. Because this change was not made to the Finance and Operations apps, it can affect customers on any version of the platform or application.
+
+Fix: All external users need to be invited to the tenant through Azure AD. For more information, see Invite users with [Azure Active Directory B2B collaboration](https://docs.microsoft.com/en-us/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+
 ## Sign in to the app
 
 1.  Start the app on your mobile device.
