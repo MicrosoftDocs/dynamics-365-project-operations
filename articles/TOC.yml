@@ -1084,6 +1084,28 @@
       href: team-member/project-operations-team-member.md  
 - name: Project Operations for stocked/production-based scenarios
   items: 
+  - name: Get started
+    items:
+    - name: Configure Data integration
+      items: 
+      - name: Project Service Automation overview
+        href: prod-pma/PSA-integration.md
+      - name: Project Service Automation integration parameters
+        href: prod-pma/PSA-parameters.md
+      - name: Synchronize project contracts and projects directly from Project Service Automation to Finance
+      - href: prod-pma/project-contracts-templates.md
+      - name: Synchronize project actuals directly from Project Service Automation to the project integration journal for posting in finance and operations
+      - href: prod-pma/project-actuals-templates.md
+      - name: Synchronize project estimates directly from Project Service Automation to finance and operations
+      - href: prod-pma/project-estimates-templates.md
+      - name: Synchronize project expense categories between finance and operations and Project Service Automation
+      - href: prod-pma/project-categories-templates.md
+      - name: Synchronize project tasks directly from Project Service Automation to finance and operations
+      - href: prod-pma/project-tasks-template.md
+    - name: Deploy environments
+      items: 
+      - name: Update Project Operations in your Finance environment
+      - href: whats-new/ur5-nonstocked-installation.md
   - name: What's new
     items:
     - name: What's new June 2022 - Project Operations for stocked/production-based scenarios
@@ -1142,6 +1164,8 @@
       href: prod-pma/project-timesheet.md
     - name: Project timesheets on a mobile device
       href: prod-pma/mobile-timesheets.md
+    - name: Rename or modify a project stage
+      href: prod-pma/tasks/rename-project.md
     - name: Implement custom fields for the Project timesheet mobile app
       href: prod-pma/custom-fields-mobile.md
   - name: Resource management
@@ -1170,6 +1194,8 @@
     items:
     - name: Project forecasts and budgets
       href: prod-pma/project-forecasts-budgets.md
+    - name: Allocate a project budget or budget revision across periods
+      href: prod-pma/tasks/allocate-project.md
     - name: Create forecast models for project budgets
       href: prod-pma/create-forecast-models-project-budgets.md
     - name: Transfer project budgets at fiscal year end
@@ -1266,6 +1292,10 @@
     items:
     - name: Eliminate a project estimate
       href: prod-pma/eliminate-project-estimate.md
+  - name: Public sector
+    items:
+    - name: Schedule of Expenditures of Federal Awards inquiry
+      href: prod-pma/project-sefa-inquiry.md
 - name: Expense management
   items: 
   - name: Expense management overview
