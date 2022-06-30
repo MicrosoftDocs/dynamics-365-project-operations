@@ -45,20 +45,21 @@ Only the following accounting attributes can be updated in the Project Operation
 - **Billing sales tax group** and **Billing item sales tax group**
 - **Financial dimensions** (using the **Distribute amounts** action)
 
-Integration journal lines can be deleted, however any unposted lines will be inserted into the journal again after you rerun the **Import from staging** periodic process.
+Integration journal lines can be deleted. However, any unposted lines will be inserted into the journal again after you rerun the **Import from staging** periodic process.
 
-### Post Project Operations Integration journal
+### Post the Project Operations integration journal
 
 When you post the Integration journal, a project subledger and general ledger transactions are created. These are used in downstream customer invoicing, revenue recognition, and financial reporting.
 
-The selected Project Operations integration journal can be posted by using **Post** on the Project Operations integration journal form. All journals can be automatically posted by running a process in **Periodics** > **Project Operations integration** > **Post Project Operations integration journal**.
+The selected Project Operations integration journal can be posted by using **Post** on the Project Operations integration journal page. All journals can be automatically posted by running a process at **Periodics** > **Project Operations integration** > **Post Project Operations integration journal**.
 
-Posting can be performed interactively or in a batch. Note that all journals with more than 100 lines will automatically post in a batch. For better performance when posting journals with high number of lines in a batch, enable the **Post Project Operations integration journal using multiple batch tasks** feature in the Feature management workspace. 
+Posting can be performed interactively or in a batch. Note that all journals that have more than 100 lines will automatically be posted in a batch. For better performance when journals that have many lines are posted in a batch, enable the **Post Project Operations integration journal using multiple batch tasks** feature in the **Feature management** workspace. 
 
-#### Transfer all lines with posting errors to a new journal
+#### Transfer all lines that have posting errors to a new journal
 
-[!Note] To use this capability, enable **Transfer all lines with posting errors to a new Project Operations integration journal** feature in the Feature management workspace.
+> [!NOTE]
+> To use this capability, enable the **Transfer all lines with posting errors to a new Project Operations integration journal** feature in the **Feature management** workspace.
 
-When posting to the Project Operations integration journal, the system validates every line in the journal. The system posts all lines without errors and creates a new journal for all the lines with posting errors. You can review the journals with posting error lines in **Project management and accounting** > **Journals** > **Project Operations integration journal**, by filtering the journals using the **Original journal** field.
+During posting to the Project Operations integration journal, the system validates every line in the journal. The system posts all lines that have no errors and creates a new journal for all lines that have posting errors. To review the journals that have posting error lines, go to **Project management and accounting** > **Journals** > **Project Operations integration journal**, and filter the journals by using the **Original journal** field.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
