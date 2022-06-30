@@ -1093,19 +1093,19 @@
       - name: Project Service Automation integration parameters
         href: prod-pma/PSA-parameters.md
       - name: Synchronize project contracts and projects directly from Project Service Automation to Finance
-      - href: prod-pma/project-contracts-templates.md
+        href: prod-pma/project-contracts-templates.md
       - name: Synchronize project actuals directly from Project Service Automation to the project integration journal for posting in finance and operations
-      - href: prod-pma/project-actuals-templates.md
+        href: prod-pma/project-actuals-templates.md
       - name: Synchronize project estimates directly from Project Service Automation to finance and operations
-      - href: prod-pma/project-estimates-templates.md
+        href: prod-pma/project-estimates-templates.md
       - name: Synchronize project expense categories between finance and operations and Project Service Automation
-      - href: prod-pma/project-categories-templates.md
+        href: prod-pma/project-categories-templates.md
       - name: Synchronize project tasks directly from Project Service Automation to finance and operations
-      - href: prod-pma/project-tasks-template.md
+        href: prod-pma/project-tasks-template.md
     - name: Deploy environments
       items: 
       - name: Update Project Operations in your Finance environment
-      - href: whats-new/ur5-nonstocked-installation.md
+        href: whats-new/ur5-nonstocked-installation.md
   - name: What's new
     items:
     - name: What's new June 2022 - Project Operations for stocked/production-based scenarios
