@@ -34,7 +34,7 @@ ms.search.validFrom: 2019-01-15
 
 ## Overview
 
-The Microsoft Dynamics 365 Project Timesheet mobile app enables users to submit and approve timesheets for projects on their mobile device (iPhone or Android). This mobile app surfaces the timesheet functionality that resides in the Project management and accounting area of Dynamics 365 Finance. The app helps improve user productivity and efficiency, as well as enables timely entry and approval of project timesheets.
+The Microsoft Dynamics 365 Project Timesheet mobile app lets users submit and approve timesheets for projects on their mobile device (iPhone or Android). This mobile app surfaces the timesheet functionality that resides in the Project management and accounting area of Dynamics 365 Finance. It helps improve user productivity and efficiency, and also enables timely entry and approval of project timesheets.
 
 ## Download and install the mobile app
 
@@ -49,15 +49,17 @@ management and accounting parameters \> Timesheet** and select the **Enable Micr
 Dynamics 365 Project Timesheet** parameter.
 
 ### Resolve sign-in issues
-**Issue:** During sign-in to the Project Timesheet Mobile app, users receive an error message saying they "cannot access the application '2bc50526-cdc3-4e36-a970-c284c34cbd6e' in that tenant."
 
-**Issue:** During sign into the Project Timesheet Mobile app, a user receives an error like the following:
+**Issue:** During sign-in to the Project Timesheet Mobile app, users receive an error message that states that they "cannot access the application '2bc50526-cdc3-4e36-a970-c284c34cbd6e' in that tenant."
+
+**Issue:** During sign-in to the Project Timesheet Mobile app, users receive an error that resembles one of the following examples:
+
 - "AADSTS50020: User account '[user name]' from identity provider 'https://sts.windows.net/[app id]' does not exist in tenant '[tenant id]' and cannot access the application '[app id]' in that tenant."
 - "Selected user account does not exist in tenant '[tenant id]' and cannot access the application '[app id]' in that tenant."
 
-**Explanation:** These issues are caused by a change made to Microsoft Azure Active Directory (Azure AD) in May, 2022 regarding external users. Because this change wasn't made to the Finance and Operations apps, it can affect customers on any version of the platform or application.
+**Explanation:** These issues are caused by a change that was made to Azure Active Directory (Azure AD) in May 2022 and that is related to external users. Because this change wasn't made to finance and operations apps, it can affect customers on any version of the platform or application.
 
-**Fix:** All external users need to be invited to the tenant through Azure AD. For more information, see Invite users with [Azure Active Directory B2B collaboration](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+**Fix:** All external users must be invited to the tenant through Azure AD. For more information, see [Invite users with Azure Active Directory B2B collaboration](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
 
 ## Sign in to the app
 
@@ -68,14 +70,14 @@ Dynamics 365 Project Timesheet** parameter.
 3.  The first time that you sign in, you're prompted for your user name and
     password. Enter your credentials.
 
-4.  You'll be signed into your default company.
+4. You'll be signed into your default company.
 
 ## Submit a project timesheet
 
 You can create and submit a project timesheet in the app. You can base a new timesheet on
 information from a previous timesheet, saved lines, or project assignments. If
 you're designated as a delegate, you can also enter a timesheet for another
-worker. To create a timesheet as a delegate, select the **Menu** button and then select a resource name..
+worker. To create a timesheet as a delegate, select the **Menu** button and then select a resource name.
 
 The timesheet page will create a new timesheet for the timesheet period, based
 on the current date. The work week will be displayed. If the timesheet period
@@ -138,7 +140,7 @@ Click **Submit** to send the timesheet to the approval workflow.
 
 ## Review timesheets
 
-A list of the timesheets that need to be reviewed is available in the menu. This option is only available if you've been designated as a workflow approver. Both header and line approval are supported. Line level
+A list of the timesheets that need to be reviewed is available on the menu. This option is only available if you've been designated as a workflow approver. Both header and line approval are supported. Line level
 approval offers the ability to mark one or more lines for approval. After
 reviewing the timesheet information, click **Approve**, **Delegate**, or
 **Return** to continue the workflow.
