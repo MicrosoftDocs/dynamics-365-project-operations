@@ -20,7 +20,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Features included in this release
 
-Procurement categories can be used in project purchase orders and pending vendor invoices. For more information, see [Use procurement categories with project purchase orders and pending vendor invoices](procurement/configure-procurement-categories.md).
+Procurement categories can be used in project purchase orders and pending vendor invoices. For more information, see [Use procurement categories with project purchase orders and pending vendor invoices](../procurement/configure-procurement-categories.md).
 
 ## Project Operations dual-write maps updates
 
