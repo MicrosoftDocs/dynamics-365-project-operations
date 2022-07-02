@@ -2,7 +2,7 @@
 title: Project Operations dual-write map versions
 description: This article provides the list of dual-write maps required for Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
@@ -41,7 +41,7 @@ The following maps are required for a Project Operations solution. Dual-write ma
 | Project contract headers (sales orders) | 1.0.0.1 | Not required for provisioning. ||
 | Project contract lines (salesorderdetails) | 1.0.0.0 | Not required for provisioning. ||
 | Project funding source (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Not required for provisioning. ||
-| Project Operations integration table for material estimates (msdyn\_estimatelines) | 1.0.0.0 | Not required for provisioning. ||
+| Project integration table for material estimates (msdyn\_estimatelines) | 1.0.0.0 | Not required for provisioning. ||
 | Project invoice proposals V2 (invoices) | 1.0.0.3 | Not required for provisioning. ||
 | Project Operations integration actuals (msdyn_actuals) | 1.0.0.14 | Not required for provisioning. ||
 | Project Operations integration contract line milestones (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Not required for provisioning. ||
