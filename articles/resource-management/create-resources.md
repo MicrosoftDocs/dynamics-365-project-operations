@@ -14,5 +14,12 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 You can use Dynamics 365 Field Service to create bookable resources to use in your Dynamics 365 Project Operations environment. To create these resources, see [Set up bookable resources](/dynamics365/field-service/set-up-bookable-resources).
 
+Project Operations supports the following resource types:
+- Account
+- Contact
+- User
+- Equipment
+- Generic
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
