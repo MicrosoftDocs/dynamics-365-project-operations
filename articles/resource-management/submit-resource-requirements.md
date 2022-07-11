@@ -20,11 +20,11 @@ You can submit a generated resource requirement as a resource request. The reque
 
 The request status of the generic team member will change to **Submitted**.
 
-The recipient of the resource request has the ability to either partially fullfill the request with one or more resources or alternatively completely fulfill the resource request.
+The recipient of the resource request has the ability to either partially fullfill the request using one or more resources, or completely fulfill the resource request.
 
-After the request is completely fulfilled, one or many named resources will be added to the project as project team members.  If the resource requirement is fulfillled by a single resource, the generic team member associated with the resource request will be deleted. 
+After the request is completely fulfilled, one or more named resources are added to the project as project team members. If the resource requirement is fulfillled by one resource, the generic team member associated with the resource request will be deleted. 
 
-Once the recipient of the Resource Request has proposed the resource and are ready for the Project Manager to review who has been proposed, they should update the status of the resource request to **Needs Review**.
+After the recipient of the Resource Request has proposed resources and is ready for the Project Manager to review the resources who have been proposed, they should update the status of the resource request to **Needs Review**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
