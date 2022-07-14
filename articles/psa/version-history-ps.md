@@ -61,10 +61,10 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 29, 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.75.142](whats-new-ur44.md) | 3.10.76.168 | August 05, 2022
+| | <i>North America</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | August 05, 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur44.md) | 3.10.76.168 | August 03, 2022
-| | <i>Dedicated Scale Groups</i> | [3.10.75.142](whats-new-ur44.md) | 3.10.76.168 | August 05, 2022
+| | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | August 03, 2022
+| | <i>Dedicated Scale Groups</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | August 05, 2022
 
 
 
