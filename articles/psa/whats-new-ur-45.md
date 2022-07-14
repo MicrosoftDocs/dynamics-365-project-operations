@@ -24,7 +24,7 @@ ms.reviewer: johnmichalak
 
 We're pleased to announce the latest update for the Microsoft Dynamics 365 Project Service Automation app. This release includes some important improvements to quality, performance, and usability. It's compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online solutions page, and install the update. For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).
 
-This article lists the features and fixes that are new or changed for Project Service Automation Update Release 45, V3. This version has a build number of V3.10.76.168  and is generally available through a self-update in June 2022.
+This article lists the features and fixes that are new or changed for Project Service Automation Update Release 45, V3. This version has a build number of V3.10.76.168  and is generally available through a self-update in July 2022.
 
 ## Update Release 45
 
@@ -32,6 +32,10 @@ This article lists the features and fixes that are new or changed for Project Se
 
 The following issues have been fixed.
 
+**Sales**
+- Users are unable to create invoices successfully after user attempts create an invoice without any unbilled sales while viewing the same instance of the form without refreshing the form.
+
 **Time and Expense**
 
-- Delayed system jobs were preventing the processing of pending approvals.
+- When Modern Approvals is enabled, and a recalled project approval is approved, the record stage is incorrectly updated to "Recall Request Approved"
+- When Modern Approvals is enabled, and Cloud Flows are inactive, the approval process is not successful and the submitting or approving users are not notified.
