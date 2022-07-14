@@ -42,24 +42,24 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.43.0.119      | Complete           | Complete            | TBD                 | July 01, 2022       |
+|   &nbsp;  | First Release         |  4.43.0.119      | Complete           | Complete            | 4.44.0.22                 | July 15, 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.43.0.119      | Complete           | Complete            | TBD                 | July 01, 2022       |
-|   &nbsp;  | Canada                |  4.43.0.119      | Complete           | Complete            | TBD                 | July 01, 2022       |
-|   &nbsp;  | India                 |  4.43.0.119      | Complete           | Complete            | TBD                 | July 01, 2022       |
-|   &nbsp;  | France                |  4.43.0.119      | Complete           | Complete            | TBD                 | July 01, 2022       |
-|   &nbsp;  | South Africa          |  4.43.0.119      | Complete           | Complete            | TBD                 | July 01, 2022       |
-|   &nbsp;  | Switzerland           |  4.43.0.119      | Complete           | Complete            | TBD                 | July 01, 2022       |
+|   &nbsp;  | South America         |  4.43.0.119      | Complete           | Complete            | 4.44.0.22                 | July 16, 2022       |
+|   &nbsp;  | Canada                |  4.43.0.119      | Complete           | Complete            | 4.44.0.22                 | July 16, 2022       |
+|   &nbsp;  | India                 |  4.43.0.119      | Complete           | Complete            | 4.44.0.22                 | July 16, 2022       |
+|   &nbsp;  | France                |  4.43.0.119      | Complete           | Complete            | 4.44.0.22                 | July 16, 2022       |
+|   &nbsp;  | South Africa          |  4.43.0.119      | Complete           | Complete            | 4.44.0.22                 | July 16, 2022       |
+|   &nbsp;  | Switzerland           |  4.43.0.119      | Complete           | Complete            | 4.44.0.22                 | July 16, 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.43.0.119      | Complete      | Complete       | TBD                 | July 08, 2022       |
-|   &nbsp;  | Asia Pacific          |  4.43.0.119      | Complete      | Complete       | TBD                 | July 08, 2022       |
-|   &nbsp;  | Great Britain         |  4.43.0.119      | Complete      | Complete       | TBD                 | July 08, 2022       |
-|   &nbsp;  | Oceania               |  4.43.0.119      | Complete      | Complete       | TBD                 | July 08, 2022       |
-|   &nbsp;  | United Arab Emirates  |  4.43.0.119      | Complete      | Complete      | TBD                 | July 08, 2022       |
+|   &nbsp;  | Japan                 |  4.43.0.119      | Complete      | Complete       | 4.44.0.22                 | July 22, 2022       |
+|   &nbsp;  | Asia Pacific          |  4.43.0.119      | Complete      | Complete       | 4.44.0.22                | July 22, 2022       |
+|   &nbsp;  | Great Britain         |  4.43.0.119      | Complete      | Complete       | 4.44.0.22                 | July 22, 2022       |
+|   &nbsp;  | Oceania               |  4.43.0.119      | Complete      | Complete       | 4.44.0.22                 | July 22, 2022       |
+|   &nbsp;  | United Arab Emirates  |  4.43.0.119      | Complete      | Complete      | 4.44.0.22                 | July 22, 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.42.0.119      | Complete           | Complete            | TBD           | July 15, 2022       |
+|   &nbsp;  | Europe                |  4.43.0.119      | Complete           | Complete            | 4.44.0.22           | July 29, 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.42.0.70      | Complete           | Complete            | 4.43.0.119           | June 20, 2022       |
+|   &nbsp;  | North America         |  4.43.0.119      | Complete           | Complete            | 4.44.0.22           | August 05, 2022       |
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
