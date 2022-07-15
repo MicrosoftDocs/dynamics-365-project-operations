@@ -52,7 +52,7 @@ When you associate a project with a quote, or when you create a project from a q
 
 ## Plan
 
-When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**. While the project is in the **Plan** stage, the **Project Entity** page shows details of the contract.
+When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**. While the project is in the **Plan** stage, the **Sales** tab on the **Project Entity** page shows details of the contract.
 
 ## Deliver
 
