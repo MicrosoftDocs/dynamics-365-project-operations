@@ -38,4 +38,4 @@ The following issues have been fixed.
 **Time and Expense**
 
 - When Modern Approvals is enabled and a recalled project approval is approved, the record stage is incorrectly updated to "Recall Request Approved."
-- When Modern Approvals is enabled and Cloud Flows is inactive, the approval process is not successful and the submitting or approving users are not notified.
+- When Modern Approvals is enabled and Cloud Flows is inactive, the approval process isn't successful, and the submitting or approving users aren't notified.
