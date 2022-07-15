@@ -33,9 +33,9 @@ This article lists the features and fixes that are new or changed for Project Se
 The following issues have been fixed.
 
 **Sales**
-- Users are unable to create invoices successfully after user attempts create an invoice without any unbilled sales while viewing the same instance of the form without refreshing the form.
+- Users are unable to create invoices successfully after they attempt to create an invoice without any unbilled sales, while also viewing the same instance of the form without refreshing it.
 
 **Time and Expense**
 
-- When Modern Approvals is enabled, and a recalled project approval is approved, the record stage is incorrectly updated to "Recall Request Approved"
-- When Modern Approvals is enabled, and Cloud Flows are inactive, the approval process is not successful and the submitting or approving users are not notified.
+- When Modern Approvals is enabled and a recalled project approval is approved, the record stage is incorrectly updated to "Recall Request Approved."
+- When Modern Approvals is enabled and Cloud Flows is inactive, the approval process is not successful and the submitting or approving users are not notified.
