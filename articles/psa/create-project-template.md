@@ -38,11 +38,10 @@ Project templates save you time if your company regularly bids on similar types 
 ## Create a project template from an existing project
 You can create a project template from a project in the following ways:
 
-- **Work breakdown structure**: A work breakdown structure in a template derived from a project will copy all tasks and dependencies. The assignments created will be based on the generic team members added to the project team when the project template is created.
-- **Project estimates**: When creating a project template from an existing project, the estimates from the source project are copied to the project template.
-- **Project team members**: When creating a template from an existing project, all named team members are replaced with the organization's generic resource. All position names and roles are maintained.
+- **Work breakdown structure**: A work breakdown structure in a template that is derived from a project will copy all tasks and dependencies. The assignments that are created will be based on the generic team members that are added to the project team when the project template is created.
+- **Project estimates**: When a project template is created from an existing project, the estimates from the source project are copied to the project template.
+- **Project team members**: When a template is created from an existing project, all named team members are replaced with the organization's generic resource. All position names and roles are maintained.
 
-  
 ## Create a project from a template  
  You can create a project from a template in the following ways:  
   
