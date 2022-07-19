@@ -41,17 +41,17 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | Station  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 15, 2022
+| | <i>First Release</i> | 3.10.76.168 | TBD | August 26, 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 16, 2022
-| | <i>Canada</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 16, 2022
-| | <i>India</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 16, 2022
-| | <i>France</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 16, 2022
-| | <i>South Africa</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 16, 2022
-| | <i>Germany</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 16, 2022
-| | <i>Switzerland</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 16, 2022
-| | <i>Korea</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 16, 2022
-| | <i>Norway</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 16, 2022
+| | <i>South America</i> | 3.10.76.168 | TBD | September 02, 2022
+| | <i>Canada</i> | 3.10.76.168 | TBD | September 02, 2022
+| | <i>India</i> | 3.10.76.168 | TBD | September 02, 2022
+| | <i>France</i> | 3.10.76.168 | TBD | September 02, 2022
+| | <i>South Africa</i> | 3.10.76.168 | TBD | September 02, 2022
+| | <i>Germany</i> | 3.10.76.168 | TBD | September 02, 2022
+| | <i>Switzerland</i> | 3.10.76.168 | TBD | September 02, 2022
+| | <i>Korea</i> | 3.10.76.168 | TBD | September 02, 2022
+| | <i>Norway</i> | 3.10.76.168 | TBD | September 02, 2022
 |<strong>Station 3</strong> | |  |  | |
 | | <i>Japan</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 22, 2022
 | | <i>Asia Pacific</i> | [3.10.75.142](whats-new-ur-44.md) | 3.10.76.168 | July 22, 2022
