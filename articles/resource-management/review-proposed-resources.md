@@ -45,8 +45,8 @@ To review proposed resources, follow these steps:
     The following status updates occur:
 
     - On the **Schedule Assistant** page, the status indicators are updated to indicate that the booking is proposed, not hard booked.
-    - On the resource request, the status is changed to **Needs Review**.
-    - On the **Team** tab of the project, the generic team member's **Request Status** value is changed to **Needs Review**.
+    - On the resource request, the status the reviewer of the request should change the status to **Needs Review**.
+    - On the **Team** tab of the project, the generic team member's **Request Status** value is automatically changed to **Needs Review**.
 
 The project manager can accept or reject the proposal.
 
