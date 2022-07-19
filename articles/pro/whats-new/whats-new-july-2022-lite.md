@@ -1,6 +1,6 @@
 ---
 title: What's new July 2022 - Project Operations lite deployment
-description: This article provides information about the quality updates that are available in the June 2022 release of Microsoft Dynamics 365 Project Operations lite deployment.
+description: This article provides information about the quality updates that are available in the July 2022 release of Microsoft Dynamics 365 Project Operations lite deployment.
 author: ramagadu
 ms.date: 07/19/2022
 ms.topic: article
