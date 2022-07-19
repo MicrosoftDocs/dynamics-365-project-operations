@@ -33,10 +33,10 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
 | Deployment and Configuration | 2761472 | PO Installation error handled. |
-| Billing and Pricing |2746940 | Subcontract line name should have max length of 100 characters.|
+| Billing and Pricing |2746940 | Subcontract line name should have max length of 100 characters. |
 | Billing and Pricing |2739162 | Customers must be able to see ribbon buttons on the actuals grid view. |
 | Project Planning and Tracking | 2730318 |Updated validation for unsupported characters in Project Subject. |
-| Billing and Pricing |2705361 | Milestone Billed Sales actuals must  be included in Project Tracking Fields. |
+| Billing and Pricing |2705361 | Milestone Billed Sales actuals must be included in Project Tracking Fields. |
 | Billing and Pricing |2675880 | Prevent a project from being linked to a contract line that is not work based. |
 | Billing and Pricing |2664396 | While saving a quote price list without quote, there must be an error stating that quote cannot be empty. |
 | Billing and Pricing |2184019 | Task Based Billing tab should not show up for Projects with no backing Contract or Quote. |
@@ -47,7 +47,7 @@ For information about the bug fixes that are included in this update, sign in to
 
 ## Features turned on by default in upcoming release
 
-The following table lists the features that are turned on by default in 10.0.29. Most features that have been turned on atomically can be turned off in [Feature management](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that have been turned on automatically might be removed from Feature management and will become mandatory. This is to ensure that customers are using current functionality, so that as enhancements are added they can build on the current functionality. Features will never be automatically enabled in less than one year, unless they are determined to be essential.
+The following table lists the features that are turned on by default in 10.0.29. Most features that have been turned on atomically can be turned off in [Feature management](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that have been turned on automatically might be removed from Feature management and will become mandatory. This is to ensure that customers are using current functionality, so that as enhancements are added they can build on the current functionality. Features will never be automatically enabled in less than one year, unless they are determined to be essential.
 
 | Feature name | Enable date | Feature added |Feature state| Module |
 | --- | --- | --- |--- |--- |
