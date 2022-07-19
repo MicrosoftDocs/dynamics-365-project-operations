@@ -2,7 +2,7 @@
 title: What's new July 2022 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the July 2022 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: ramagadu
-ms.date: 19/07/2022
+ms.date: 07/19/2022
 ms.topic: article
 ms.prod:
 ms.reviewer: johnmichalak 
@@ -47,7 +47,7 @@ For information about the bug fixes that are included in this update, sign in to
 
 ## Features turned on by default in upcoming release
 
-The following table lists the features that are turned on by default in 10.0.29. Most features that have been turned on atomically can be turned off in [Feature management](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that have been turned on automatically might be removed from Feature management and will become mandatory. This is to ensure that customers are using current functionality, so that as enhancements are added they can build on the current functionality. Features will never be automatically enabled in less than one year, unless they are determined to be essential.
+The following table lists the features that are turned on by default in 10.0.29. Most features that have been turned on atomically can be turned off in [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that have been turned on automatically might be removed from Feature management and will become mandatory. This is to ensure that customers are using current functionality, so that as enhancements are added they can build on the current functionality. Features will never be automatically enabled in less than one year, unless they are determined to be essential.
 
 | Feature name | Enable date | Feature added |Feature state| Module |
 | --- | --- | --- |--- |--- |
