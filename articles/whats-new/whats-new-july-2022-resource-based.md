@@ -32,14 +32,14 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-| Deployment and Configuration | 2761472 | PO Installation error handled. |
-| Billing and Pricing |2746940 | Subcontract line name should have max length of 100 characters. |
-| Billing and Pricing |2739162 | Customers must be able to see ribbon buttons on the actuals grid view. |
-| Project Planning and Tracking | 2730318 |Updated validation for unsupported characters in Project Subject. |
-| Billing and Pricing |2705361 | Milestone Billed Sales actuals must be included in Project Tracking Fields. |
-| Billing and Pricing |2675880 | Prevent a project from being linked to a contract line that isn't work based. |
-| Billing and Pricing |2664396 | While saving a quote price list without quote, there must be an error stating that quote can't be empty. |
-| Billing and Pricing |2184019 | Task Based Billing tab shouldn't show up for Projects with no backing Contract or Quote. |
+| Deployment and Configuration | 2761472 | A PO installation error is handled. |
+| Billing and Pricing | 2746940 | The subcontract line name should have a maximum length of 100 characters. |
+| Billing and Pricing | 2739162 | Customers must be able to see ribbon buttons in the actuals grid view. |
+| Project Planning and Tracking | 2730318 | Updated validation for unsupported characters in the project subject. |
+| Billing and Pricing | 2705361 | Milestone billed sales actuals must be included in project tracking fields. |
+| Billing and Pricing | 2675880 | Prevent a project from being linked to a contract line that isn't work-based. |
+| Billing and Pricing | 2664396 | If a quote price list is saved without a quote, there must be an error that states that the quote can't be empty. |
+| Billing and Pricing | 2184019 | The **Task Based Billing** tab should not be shown for projects that have no backing contract or quote. |
 
 ### Project management and accounting in Finance
 
@@ -47,27 +47,28 @@ For information about the bug fixes that are included in this update, sign in to
 
 ## Features turned on by default in upcoming release
 
-The following table lists the features that are turned on by default in 10.0.29. Most features that have been turned on atomically can be turned off in [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that have been turned on automatically might be removed from Feature management and will become mandatory. This ensures that customers are using current functionality, so that as enhancements are added they can build on the current functionality. Features will never be automatically enabled in less than one year, unless they're determined to be essential.
+The following table lists the features that are turned on by default in version 10.0.29. Most features that have been automatically turned on can be turned off in [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that have been automatically turned on might be removed from Feature management and become mandatory. This change ensures that customers are using current functionality, so that enhancements can build on the current functionality as they are added. Features will never be automatically enabled in less than one year, unless they are determined to be essential.
 
-| Feature name | Enable date | Feature added |Feature state| Module |
+| Feature name | Enable date | Feature added | Feature state | Module |
 | --- | --- | --- |--- |--- |
-|Enable adjustment of hour transaction </br>based on change in funding rule allocation | 09/16/2022 | 10/07/2020| On by default | Project management and accounting|
-|Project purchase order prepayment </br>invoice reversal feature.|09/16/2022 |10/06/2021|On by default|Project management and accounting|
-|Delete invoice proposal lines when </br>using Project Operations for </br>resource based/ non-stocked scenarios|09/16/2022|10/06/2021|On by default|Project management and accounting|
-|Adjust accounting on a </br>posted project transaction|09/16/2022 |05/10/2020|On by default|Project management and accounting|
-|Enable default accounting setup for project|09/16/2022|2/19/2020|On by default|Project management and accounting|
-|Enable multiple contract lines for a project|09/16/2022|6/29/2020|On by default|Project management and accounting|
-|Make Project Hour journals read-only </br>if current approval status doesn't allow editing.|09/16/2022 |10/06/2021|On by default|Project management and accounting|
-|Enable sync sales lines from purchase lines when purchase lines</br>are updated and purchase order change management parameter is turned on|09/16/2022|10/07/2020|On by default|Project management and accounting|
-|Enable Project Operations on</br> Dynamics 365 Customer Engagement|09/16/2022 |6/29/2020|On by default|Project management and accounting|
-|Project transaction reversal correction feature|09/16/2022|7/13/2020|On by default|Project management and accounting|
+| Enable adjustment of hour transaction based on change in funding rule allocation | September 16, 2022 | October 7, 2020 | On by default | Project management and accounting |
+| Project purchase order prepayment invoice reversal feature | September 16, 2022 | October 6, 2021 | On by default | Project management and accounting |
+| Delete invoice proposal lines when using Project Operations for resource based/ non-stocked scenarios | September 16, 2022 | October 6, 2021 | On by default | Project management and accounting |
+| Adjust accounting on a posted project transaction | September 16, 2022 | May 10, 2020 | On by default | Project management and accounting |
+| Enable default accounting setup for project | September 16, 2022 | February 19, 2020 | On by default | Project management and accounting |
+| Enable multiple contract lines for a project | September 16, 2022 | June 29, 2020 | On by default | Project management and accounting |
+| Make Project Hour journals read-only if current approval status doesn't allow editing | September 16, 2022 | October 6, 2021 | On by default | Project management and accounting |
+| Enable sync sales lines from purchase lines when purchase lines are updated and purchase order change management parameter is turned on | September 16, 2022 | October 7, 2020 | On by default | Project management and accounting |
+| Enable Project Operations on Dynamics 365 Customer Engagement | September 16, 2022 | June 29, 2020 | On by default | Project management and accounting |
+| Project transaction reversal correction feature | September 16, 2022 | July 13, 2020 | On by default | Project management and accounting |
 
-## Features turned Mandatory in upcoming release
+## Features that become mandatory in the upcoming release
 
-The following table lists the features that are mandatory from 10.0.29 onwards.
-| Feature name | Enable date | Feature added |Feature state| Module |
-| --- | --- | --- |--- |--- |
-|Calculate the committed value on funding </br>source without rounding the exchange rate| 09/16/2022|6/14/2020|Mandatory|Project management and accounting|
-|Enable project adjustment posting </br>with same ledger account as original transaction.|09/16/2022|6/14/2020|Mandatory|Project management and accounting|
-|Project contract committed amount detail|09/16/2022|8/31/2019|Mandatory|Project management and accounting|
-|Enable sorting by resource during </br>project invoice proposal creation|09/16/2022|8/31/2019 |Mandatory|Project management and accounting
+The following table lists the features that are mandatory from version 10.0.29 onward.
+
+| Feature name | Enable date | Feature added | Feature state | Module |
+| --- | --- | --- | --- | --- |
+| Calculate the committed value on funding source without rounding the exchange rate | September 16, 2022 | June 14, 2020 | Mandatory | Project management and accounting |
+| Enable project adjustment posting with same ledger account as original transaction | September 16, 2022 | June 14, 2020 | Mandatory | Project management and accounting |
+| Project contract committed amount detail | September 16, 2022 | August 31, 2019 | Mandatory | Project management and accounting |
+| Enable sorting by resource during project invoice proposal creation | September 16, 2022 | August 31, 2019 | Mandatory | Project management and accounting |
