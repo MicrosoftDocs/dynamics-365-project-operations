@@ -21,12 +21,11 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-| Deployment and Configuration | 2761472 | PO Installation error handled. |
-| Billing and Pricing |2746940 | Subcontract line name should have max length of 100 characters.|
-| Billing and Pricing |2739162 | Customers must be able to see ribbon buttons on the actuals grid view. |
-| Project Planning and Tracking | 2730318 |Updated validation for unsupported characters in Project Subject. |
-| Billing and Pricing |2705361 | Milestone Billed Sales actuals must  be included in Project Tracking Fields. |
-| Billing and Pricing |2675880 | Prevent a project from being linked to a contract line that is not work based. |
-| Billing and Pricing |2664396 | While saving a quote price list without quote, there must be an error stating that quote cannot be empty. |
-| Billing and Pricing |2184019 | Task Based Billing tab should not show up for Projects with no backing Contract or Quote. |
-
+| Deployment and Configuration | 2761472 | A PO installation error is handled. |
+| Billing and Pricing | 2746940 | The subcontract line name should have a maximum length of 100 characters. |
+| Billing and Pricing | 2739162 | Customers must be able to see ribbon buttons in the actuals grid view. |
+| Project Planning and Tracking | 2730318 | Updated validation for unsupported characters in the project subject. |
+| Billing and Pricing | 2705361 | Milestone billed sales actuals must be included in project tracking fields. |
+| Billing and Pricing | 2675880 | Prevent a project from being linked to a contract line that isn't work-based. |
+| Billing and Pricing | 2664396 | If a quote price list is saved without a quote, there must be an error that states that the quote can't be empty. |
+| Billing and Pricing | 2184019 | The **Task Based Billing** tab should not be shown for projects that have no backing contract or quote. |
