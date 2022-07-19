@@ -4,7 +4,7 @@ description: How to create a project template in Project Service
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -29,7 +29,7 @@ Project templates save you time if your company regularly bids on similar types 
 ## Components of project template
  A project template consists of three components:  
   
-- **Work breakdown structure**: A work breakdown structure in a project template has the same set of elements as in the project. You can create a task hierarchy, associate roles to task, define schedule attributes, set dependencies and view all the data in the Gantt. The work breakdown structure in project templates also support task modes for each task. There is no difference between a project template and a project when creating work schedule.  
+- **Work breakdown structure**: A work breakdown structure in a project template has the same set of elements as in the project. You can create a task hierarchy, associate roles to task, define schedule attributes, set dependencies, and view all the data in the Gantt. The work breakdown structure in project templates also supports task modes for each task. There is no difference between a project template and a project when creating a work schedule.  
   
 - **Project estimates**: Project estimates in templates work the same way as they do in projects, except the price lists for defaulting the cost and sales prices are always the default cost and sales price lists defined in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parameters. The rest of the functionality is the same as in a project.  
   
@@ -38,9 +38,9 @@ Project templates save you time if your company regularly bids on similar types 
 ## Create a project template from an existing project
 You can create a project template from a project in the following ways:
 
-- **Work breakdown structure**: A work breakdown structure in a template derived from a project will copy all tasks and dependencies.  In addition, the assignments created will be based upon the generic team members addded to the project team when the project template is created.
-- **Project estimates**: When creating a project template from an existing project, the estimates from the source project will be copied to the project template.
-- **Project team members**: When creating a template from an existing project, all named team members are replaced with the organization's generic resource.   All position names and roles are maintained.
+- **Work breakdown structure**: A work breakdown structure in a template derived from a project will copy all tasks and dependencies. The assignments created will be based on the generic team members added to the project team when the project template is created.
+- **Project estimates**: When creating a project template from an existing project, the estimates from the source project are copied to the project template.
+- **Project team members**: When creating a template from an existing project, all named team members are replaced with the organization's generic resource. All position names and roles are maintained.
 
   
 ## Create a project from a template  
