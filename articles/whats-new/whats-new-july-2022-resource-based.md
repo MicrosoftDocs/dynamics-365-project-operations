@@ -32,7 +32,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-| Deployment and Configuration | 2761472 | A PO installation error is handled. |
+| Deployment and Configuration | 2761472 | A Project Operations installation error is handled. |
 | Billing and Pricing | 2746940 | The subcontract line name should have a maximum length of 100 characters. |
 | Billing and Pricing | 2739162 | Customers must be able to see ribbon buttons in the actuals grid view. |
 | Project Planning and Tracking | 2730318 | Updated validation for unsupported characters in the project subject. |
