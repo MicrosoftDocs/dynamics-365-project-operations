@@ -15,7 +15,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Dataverse environment version 4.44.0.10
+- Project Operations in a Dataverse environment version 4.44.0.22
 
 ## Quality updates
 
