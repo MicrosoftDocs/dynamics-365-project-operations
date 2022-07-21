@@ -1308,8 +1308,6 @@
   items: 
   - name: Expense management overview
     href: prod-exp/expense-management.md
-  - name: Expense receipt processing
-    href: prod-exp/expense-receipt-processing.md   
   - name: New expense experience
     items: 
     - name: Expense reports reimagined
