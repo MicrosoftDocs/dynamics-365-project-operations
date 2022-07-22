@@ -67,7 +67,9 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 4. Remove the field from the **Project Parameters** page.
 
 ### Mitigation 3: Sign in to project.microsoft.com
-In your Microsoft Edge browser, open a new tab, go to project.microsoft.com, and sign in by using the user role that you're using to access Project Operations.
+In your browser, open a new tab, go to project.microsoft.com, and sign in by using the user role that you're using to access Project Operations.   Please note, it is important that only single user is logged in to a Microsoft product within the browser.  The "login.microsoftonline.com refused to connect." error most often occurs when more than one user is logged in, as shown in the image below:
+
+   ![Application reader.](media/MULTIPLE_USERS_LOGGED_IN.jpg)
 
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
