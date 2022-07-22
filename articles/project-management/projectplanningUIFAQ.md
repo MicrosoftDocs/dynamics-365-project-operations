@@ -2,7 +2,7 @@
 title: Troubleshoot working in the Task grid 
 description: This article provides troubleshooting information needed when working in the Task grid.
 author:  ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product:
 ms.reviewer: johnmichalak
