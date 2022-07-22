@@ -67,9 +67,10 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 4. Remove the field from the **Project Parameters** page.
 
 ### Mitigation 3: Sign in to project.microsoft.com
-In your browser, open a new tab, go to project.microsoft.com, and sign in with the user role that you're using to access Project Operations.   Note, it's important that only one user is signed in to a Microsoft product within the browser.  The "login.microsoftonline.com refused to connect." error message occurs most often when more than one user is logged in, as shown in the image below:
 
-   ![Pick an account sign in screen displays two users signed in.](media/MULTIPLE_USERS_LOGGED_IN.png)
+In your browser, open a new tab, go to project.microsoft.com, and sign in with the user role that you're using to access Project Operations. It's important that only one user be signed in to a Microsoft product in the browser. The "login.microsoftonline.com refused to connect" error message most often occurs when more than one user is signed in, as shown in the following illustration.
+
+![Pick an account sign-in page showing that two users are signed in.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
@@ -109,7 +110,7 @@ Alternatively, you can complete the following steps.
 
 ## Issue 3: Administration of privileges for Project for the Web
 
-Project Operations relies on an external scheduling service. The service requires a user have several roles assigned that allows them to read and write to entities related to the WBS. These entities include project tasks, resource assignments, and task dependencies. If a user can't render the WBS when they navigate to the **Tasks** tab, it's probably because **Project** for **Project Operations** hasn't been enabled. A user might receive either a security role error, or an error related to a denial of access.
+Project Operations relies on an external scheduling service. The service requires that a user have several roles assigned that allow them to read and write to entities related to the WBS. These entities include project tasks, resource assignments, and task dependencies. If a user can't render the WBS when they navigate to the **Tasks** tab, it's probably because **Project** for **Project Operations** hasn't been enabled. A user might receive either a security role error, or an error related to a denial of access.
 
 ### Mitigation 1: Validate the application user and end-user security roles
 
