@@ -13,7 +13,7 @@ ms.author: rumant
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing
+_**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Microsoft Dynamics 365 Project Operations lets project managers verify vendor invoice lines in the following ways:
 
