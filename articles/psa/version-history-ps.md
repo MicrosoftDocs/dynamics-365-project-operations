@@ -59,12 +59,12 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 09, 2022
 | | <i>United Arab Emirates</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 09, 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | July 29, 2022
+| | <i>Europe</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 16, 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | September 16, 2022
+| | <i>North America</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | August 05, 2022
 |<strong>Station 6</strong> | |  |  | |
 | | <i>Government Community Cloud</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | August 03, 2022
-| | <i>Dedicated Scale Groups</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | August 05, 2022
+| | <i>Dedicated Scale Groups</i> | [3.10.75.142](whats-new-ur-44.md) | [3.10.76.168](whats-new-ur-45.md) | August 12, 2022
 
 
 
