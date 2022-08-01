@@ -57,7 +57,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | Oceania               |  4.44.0.22      | Complete      | Complete       | TBD                 | August 12, 2022       |
 |   &nbsp;  | United Arab Emirates  |  4.44.0.22      | Complete      | Complete       | TBD                 | August 12, 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.43.0.119      | Complete           | Complete            | 4.44.0.22           | July 29, 2022       |
+|   &nbsp;  | Europe                |  4.44.0.22      | Complete           | Complete            | TBD           | August 19, 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | North America         |  4.43.0.119      | Complete           | Complete            | 4.44.0.22           | August 05, 2022       |
 
