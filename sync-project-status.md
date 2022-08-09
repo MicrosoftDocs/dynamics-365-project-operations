@@ -45,10 +45,9 @@ Update the Project Operations Projects V2 dual-write map
 12. Click Save As
 13. Set the **Publisher** field
 14. Set the **Version** field to 1.0.0.3
-15. Set the **Publisher** field to **Default publisher**.
-16. Select Save.
-17. Start the map
-
+15. Select Save.
+16. CLick Run to start the map
+17. Click past the confirmation if asked to confirm prior to run. 
 ## Close a newly completed project
 
 Dynamics 365 finance and operations uses the **project stage** field to differentiate between projects **in process** or **finished**. **Finished** projects cannot incur expenses or be invoiced to customers.
@@ -60,11 +59,8 @@ Dynamics 365 finance and operations uses the **project stage** field to differen
 Note: You can select either the inactive or closed option as they will both behave the same in the context of finance and operations.
 
 4.  In finance and operations open the All projects list page
-
 5. Confirm the inactivated project does not appear in the list
-
 6. In the **show projects** filter above the list change the value from **Active** to **All**.
-
 7.  You will now see the inactivated project
 
 If you attempt to log time or expense against this project in finance and operations you should not see the project for selection. If you manually enter the project number on an expense you will see a message like "Project stage finished does not allow recording in the project". Invoicing and other billing functions should be disabled as they will be in the context of a closed project.
