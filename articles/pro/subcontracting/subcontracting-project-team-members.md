@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Subcontracting project team members
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 In Microsoft Dynamics 365 Project Operations, you can choose to subcontract unstaffed or staffed project team members.
