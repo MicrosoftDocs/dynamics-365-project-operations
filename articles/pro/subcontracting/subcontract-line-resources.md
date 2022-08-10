@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Subcontract line resources
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 In Dynamics 365 Project Operations, a vendor can specify resources that will be used to supply the resource capacity being purchased on the subcontract line for time.
