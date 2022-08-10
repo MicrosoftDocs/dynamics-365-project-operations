@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Cost estimation of subcontracted resource assignments
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Task assignments of subcontracted project team members are costed using the **Purchase** price list attached to the subcontract on the related team member record. This is different from how employee resource assignments are costed where task assignments of employee resources are costed using the **Cost** price list that is attached to the contracting unit of the project. 
