@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Subcontracting options for project team members
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 In Microsoft Dynamics 365 Project Operations, you can evaluate the subcontracting options available for one or more project team members. The available subcontracting options allow you to:
