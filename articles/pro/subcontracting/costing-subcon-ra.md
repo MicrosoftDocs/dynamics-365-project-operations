@@ -16,7 +16,7 @@ Task assignments of subcontracted project team members are costed using the **Pu
 
 For generic project team members that are subcontracted, the assignments are costed using a role-based price setup in the purchase price list attached to the subcontract. Purchase prices can also be set up specifically for each resource. These resource-specific prices will be given priority when costing task assignments of named project team members are contract workers. 
 
-Priority of using role-specific purchase price versus resource-specific is driven by the set up of the pricing dimension priority in **Parameters > Amount-based-pricing dimensions**.
+Priority of using role-specific purchase price versus resource-specific is driven by the setup of the pricing dimension priority in **Parameters > Amount-based-pricing dimensions**.
 
 This functionality of dynamically deriving prices based on dimension setup for purchase prices of subcontractors is similar to how cost and bill rates are derived for full-time employees. 
 
