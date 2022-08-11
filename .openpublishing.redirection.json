@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "articles/prod-pma/tasks/Create-credit-on-project-invoice.md",
+      "redirect_url": "/dynamics365/project-operations/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-pma/tasks/Adjust-project-transactions.md",
+      "redirect_url": "/dynamics365/project-operations/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-receipt-processing.md",
+      "redirect_url": "/dynamics365/project-operations/expense/match-receipt-expense-ocr",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-report-distributions.md",
+      "redirect_url": "/dynamics365/project-operations/expense/distributions-expense-report",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "articles/prod-exp/expense-management-mobile-workspace.md",
       "redirect_url": "/dynamics365/project-operations/expense/expense-using-mobile",
       "redirect_document_id": "false"

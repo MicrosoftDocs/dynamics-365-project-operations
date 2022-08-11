@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Vendor invoice lines for expense categories
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 A vendor invoice in Microsoft Dynamics 365 Project Operations can have vendor invoice lines for expense categories. Project managers can use vendor invoice lines for expense categories to record the costs of services that are procured as expense categories.

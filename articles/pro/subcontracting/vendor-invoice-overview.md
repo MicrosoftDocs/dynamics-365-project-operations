@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Vendor invoicing - Concept and creation
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Vendor invoicing in Microsoft Dynamics 365 Project Operations can be used to record costs from deliveries of services and/or materials on a project by vendors.

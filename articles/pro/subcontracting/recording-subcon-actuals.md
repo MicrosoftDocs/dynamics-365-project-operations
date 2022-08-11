@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Recording time, expenses, and material usage on projects for subcontracted components
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 This article explains how time, expense, and material usage recorded on projects from subcontracted components is tracked by Microsoft Dynamics 365 Project Operations.

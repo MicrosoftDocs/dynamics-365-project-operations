@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Subcontract lines for time
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 A subcontract in Dynamics 365 Project Operations can have a subcontract line for time. Subcontract lines for time allow a Project Manager to buy vendor resource time to staff project tasks and resource requirements.

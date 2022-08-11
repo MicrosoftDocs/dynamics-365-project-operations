@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Set up subcontractors as bookable resources
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Follow these steps to set up subcontractors as bookable resources in Microsoft Dynamics 365 Project Operations.

@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Header details for subcontracts
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 This article explains the functionality provided on the subcontract header in Dynamics 365 Project Operations.
