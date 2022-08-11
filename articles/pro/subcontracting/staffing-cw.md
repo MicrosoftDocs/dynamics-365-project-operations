@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Staffing a project with contract workers and subcontracted capacity
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Generic project team members can be staffed with employees or contract workers. When staffing a project with contract workers, you can limit your staffing options to specific contract workers that are assigned to a subcontract line. 

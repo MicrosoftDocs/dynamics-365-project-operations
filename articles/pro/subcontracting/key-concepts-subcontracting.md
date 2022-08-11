@@ -10,7 +10,6 @@ ms.author: rumant
 
 # Key concepts in subcontracting
 
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
