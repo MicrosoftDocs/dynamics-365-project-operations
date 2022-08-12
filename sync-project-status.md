@@ -27,26 +27,29 @@ Contoso is live with Microsoft Dynamics 365 Project Operations for resource/non-
 
 To update the Project Operations Projects V2 dual-write map:
 
-1.  Go to the **Data management** workspace and select **Dual-write**.
-2.  Select the **Project V2** (**msdyn\_projects**) dual-write map.
-3.  Stop the map.
-4.  Open the map and select **column** for PROJECTSTAGE \[PROJECTSTAGE\].
-5.  Type a filter **value of state** to filter the list.
-6.  Choose the value **statecode \[Project Status\]** and then select OK.
-7.  Select the **map type** column to edit the transform.
-8.  Set **transform value** to **valuemap**.
-9.  Add value mapping for **InProcess** to **0**.
-10. Add value mapping for **completed** to 1.
+1. Go to the **Data management** workspace and select **Dual-write**.
+2. Select the **Dual-write** tile.
+3. from the T**Table map** column, locate and select **Project V2 (msdyn\_projects)**, and then select Stop.
+4. Select the map name to open the map and then locate **PROJECTSTAGE \[PROJECTSTAGE\]**. You can type **state** in the filter value to narrow the list. 
+5. Choose the value **statecode \[Project Status\]** and then select OK.
+6.  Select **Add or edit transform** in the **map type** column to edit the transform.
+7.  From **Transform type** select **valuemap**.
+8.  Select **Add value mapping, and then type the following **Keys** and **Values**:
+
+   Key       | Value 
+   ----------|-------
+   InProcess | 0     
+   completed | 1     
 
 ![Screenshot showing Dual-write mapping](media/projectstage-dw-mapping.png)
 
-11. Select **Save**.
-12. Select **Save As**.
-13. Set the **Publisher** field.
-14. Set the **Version** field to 1.0.0.3.
-15. Select **Save**.
-16. Selec **Run** to start the map.
-17. Select **Confirm** if asked to confirm prior to run. 
+9. Select **Save**.
+10. Select **Save As**.
+11. Set the **Publisher** field.
+12. Set the **Version** field to 1.0.0.3.
+14. Select **Save**.
+15. Selec **Run** to start the map.
+16. Select **Confirm** if asked to confirm prior to run. 
 
 ## Close a newly completed project
 
