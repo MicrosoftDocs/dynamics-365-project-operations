@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | 
 | --- | --- |
-| 4.44.0.22 | 10.0.28 |
+| 4.45.0.53 | 10.0.28 |
 
 For Project Operations Resource/non-stocked scenario, we recommend that you use dual-write Orchestration version 2.3.1.15 or higher.
 
@@ -42,24 +42,24 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.44.0.22      | Complete           | Complete            | TBD                 | August 05, 2022       |
+|   &nbsp;  | First Release         |  4.45.0.53      | Complete           | Complete            | TBD                 | August 26, 2022       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.44.0.22      | Complete           | Complete            | TBD                 | August 06, 2022       |
-|   &nbsp;  | Canada                |  4.44.0.22      | Complete           | Complete            | TBD                 | August 06, 2022       |
-|   &nbsp;  | India                 |  4.44.0.22      | Complete           | Complete            | TBD                 | August 06, 2022       |
-|   &nbsp;  | France                |  4.44.0.22      | Complete           | Complete            | TBD                 | August 06, 2022       |
-|   &nbsp;  | South Africa          |  4.44.0.22      | Complete           | Complete            | TBD                 | August 06, 2022       |
-|   &nbsp;  | Switzerland           |  4.44.0.22      | Complete           | Complete            | TBD                 | August 06, 2022       |
+|   &nbsp;  | South America         |  4.45.0.53      | Complete           | Complete            | TBD                 | September 02, 2022       |
+|   &nbsp;  | Canada                |  4.45.0.53      | Complete           | Complete            | TBD                 | September 02, 2022       |
+|   &nbsp;  | India                 |  4.45.0.53      | Complete           | Complete            | TBD                 | September 02, 2022       |
+|   &nbsp;  | France                |  4.45.0.53      | Complete           | Complete            | TBD                 | September 02, 2022       |
+|   &nbsp;  | South Africa          |  4.45.0.53      | Complete           | Complete            | TBD                 | September 02, 2022       |
+|   &nbsp;  | Switzerland           |  4.45.0.53      | Complete           | Complete            | TBD                 | September 02, 2022       |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.44.0.22      | Complete      | Complete       | TBD                 | August 12, 2022       |
-|   &nbsp;  | Asia Pacific          |  4.44.0.22      | Complete      | Complete       | TBD                 | August 12, 2022       |
-|   &nbsp;  | Great Britain         |  4.44.0.22      | Complete      | Complete       | TBD                 | August 12, 2022       |
-|   &nbsp;  | Oceania               |  4.44.0.22      | Complete      | Complete       | TBD                 | August 12, 2022       |
-|   &nbsp;  | United Arab Emirates  |  4.44.0.22      | Complete      | Complete       | TBD                 | August 12, 2022       |
+|   &nbsp;  | Japan                 |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | August 19, 2022       |
+|   &nbsp;  | Asia Pacific          |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | August 19, 2022       |
+|   &nbsp;  | Great Britain         |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | August 19, 2022       |
+|   &nbsp;  | Oceania               |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | August 19, 2022       |
+|   &nbsp;  | United Arab Emirates  |  4.44.0.22      | Complete      | Complete       | 4.45.0.53                 | August 19, 2022       |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.44.0.22      | Complete           | Complete            | TBD           | August 19, 2022       |
+|   &nbsp;  | Europe                |  4.44.0.22      | Complete           | Complete            | 4.45.0.53           | August 26, 2022       |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.43.0.119      | Complete           | Complete            | 4.44.0.22           | August 05, 2022       |
+|   &nbsp;  | North America         |  4.44.0.22      | Complete           | Complete            | 4.45.0.53           | September 02, 2022       |
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
