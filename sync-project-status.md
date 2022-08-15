@@ -30,42 +30,40 @@ To update the Project Operations Projects V2 dual-write map:
 1. Go to the **Data management** workspace and select **Dual-write**.
 2. Select the **Dual-write** tile.
 3. from the T**Table map** column, locate and select **Project V2 (msdyn\_projects)**, and then select Stop.
-4. Select the map name to open the map and then locate **PROJECTSTAGE \[PROJECTSTAGE\]**. You can type **state** in the filter value to narrow the list. 
-5. Choose the value **statecode \[Project Status\]** and then select OK.
+4. Select the map name to open the map and then select **[None]**.
+5. From the Select column dialog box, select **statecode \[Project Status\]** and then select OK. You can type **state** in the filter value to narrow the list.
 6.  Select **Add or edit transform** in the **map type** column to edit the transform.
-7.  From **Transform type** select **valuemap**.
-8.  Select **Add value mapping, and then type the following **Keys** and **Values**:
+7.  From **Transform type** select **ValueMap**.
+8.  Select **Add value mapping**, and then add the following **Keys** and **Values**:
 
    Key       | Value 
    ----------|-------
    InProcess | 0     
    completed | 1     
 
-![Screenshot showing Dual-write mapping](media/projectstage-dw-mapping.png)
+![Screenshot showing Dual-write mapping](/media/projectstage-dw-mapping.png)
 
 9. Select **Save**.
-10. Select **Save As**.
-11. Set the **Publisher** field.
+10. From the top of the **Dual-write > Projects V2 (msdyn_projects)** page, select **Save As**.
+11. From **Add table** in the **Publisher** field, select **CDS Default Publisher**.
 12. Set the **Version** field to 1.0.0.3.
-14. Select **Save**.
-15. Selec **Run** to start the map.
-16. Select **Confirm** if asked to confirm prior to run. 
+13. Type a **Description**, and then select **Save**.
+14. From the top of the **Dual-write > Projects V2 (msdyn_projects)** page, select **Run** to start the map, and then sekect **Yes** if asked to confirm prior to run. 
 
 ## Close a newly completed project
 
 Dynamics 365 finance and operations uses the **project stage** field to differentiate between projects **in process** or **finished**. **Finished** projects can't incur expenses or be invoiced to customers.
 
-1. Select a project in Dataverse to inactivate.
-2. Navigate to an existing project in Dataverse.
-3. Select **Deactivate** in the ribbon.
+1. Open a project to deactivate.
+2. From the ribbon, select **Deactivate**.
 
 > [!NOTE]
-> You can select either the **inactive** or the **closed** option as they will both behave the same in the context of finance and operations.
+> You can either the deactive or close a project as they will both behave the same in the context of finance and operations.
 
-4. In finance and operations, open the **All projects list** page.
-5. Confirm the inactivated project does not appear in the list.
-6. In the **show projects** filter above the list change the value from **Active** to **All**.
-7. You will now see the inactivated project.
+3. In finance and operations, open the **All projects list** page.
+4. Confirm the deactivated project does not appear in the list.
+5. In the **show projects** filter above the list change the value from **Active** to **All**.
+6. You will now see the deactivated project.
 
 If you attempt to log time or expense against this project in finance and operations you should not see the project for selection. If you manually enter the project number on an expense you will see a message like "Project stage finished does not allow recording in the project". Invoicing and other billing functions should be disabled as they will be in the context of a closed project.
 
