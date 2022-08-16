@@ -579,7 +579,9 @@
   - name: Advanced configuration
     items:
     - name: Migrate fully invoiced billing milestones during cutover
-      href: advanced-configuration/migrating-invoiced-milestones.md   
+      href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Sync Project Status to prevent entry against closed projects
+      href: advanced-configuration/sync-project-status.md      
   - name: Upgrade
     items:
     - name: Upgrade considerations for Modern approvals
