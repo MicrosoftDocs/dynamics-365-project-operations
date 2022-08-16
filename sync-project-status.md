@@ -23,7 +23,7 @@ Contoso is live with Microsoft Dynamics 365 Project Operations for resource/non-
 -   Microsoft Dynamics 365 Finance 10.0.29 or later must be installed.
 -   Dual Write map 1.0.0.3 for Projects V2 (msdyn\_projects) must be installed or manually configured as described below.
 
-## Create an updated version of the Project Operations integration Projects V2 dual-write map
+### Create an updated version of the Project Operations integration Projects V2 dual-write map
 
 To update the Project Operations Projects V2 dual-write map:
 
@@ -50,20 +50,20 @@ To update the Project Operations Projects V2 dual-write map:
 13. Type a **Description**, and then select **Save**.
 14. From the top of the **Dual-write > Projects V2 (msdyn_projects)** page, select **Run** to start the map, and then sekect **Yes** if asked to confirm prior to run. 
 
-## Close a newly completed project
+### Close a newly completed project
 
-Dynamics 365 finance and operations uses the **project stage** field to differentiate between projects **in process** or **finished**. **Finished** projects can't incur expenses or be invoiced to customers.
+Dynamics 365 Finance uses the **project stage** field to differentiate between projects **in process** or **finished**. **Finished** projects can't incur expenses or be invoiced to customers.
 
 1. Open a project to deactivate.
 2. From the ribbon, select **Deactivate**.
 
 > [!NOTE]
-> You can either the deactive or close a project as they will both behave the same in the context of finance and operations.
+> You can either the deactive or close a project as they will both behave the same in the context of Finance.
 
-3. In finance and operations, open the **All projects list** page.
+3. In Finance, open the **All projects list** page.
 4. Confirm the deactivated project does not appear in the list.
 5. In the **show projects** filter above the list change the value from **Active** to **All**.
 6. You will now see the deactivated project.
 
-If you attempt to log time or expense against this project in finance and operations you should not see the project for selection. If you manually enter the project number on an expense you will see a message like "Project stage finished does not allow recording in the project". Invoicing and other billing functions should be disabled as they will be in the context of a closed project.
+If you attempt to log time or expense against this project in Finance you should not see the project for selection. If you manually enter the project number on an expense you will see a message like "Project stage finished does not allow recording in the project". Invoicing and other billing functions should be disabled as they will be in the context of a closed project.
 
