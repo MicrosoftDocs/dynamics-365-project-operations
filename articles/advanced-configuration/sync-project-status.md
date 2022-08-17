@@ -58,12 +58,12 @@ Dynamics 365 Finance uses the **project stage** field to differentiate between p
 2. From the ribbon, select **Deactivate**.
 
 > [!NOTE]
-> You can either the deactive or close a project as they will both behave the same in the context of Finance.
+> You can either the deactive or close a project as they'll both behave the same in the context of Finance.
 
 3. In Finance, open the **All projects list** page.
-4. Confirm the deactivated project does not appear in the list.
-5. In the **show projects** filter above the list change the value from **Active** to **All**.
-6. You will now see the deactivated project.
+4. Confirm the deactivated project doesn't appear in the list.
+5. In the **show projects** filter above the list, change the value from **Active** to **All**.
+6. You'll now see the deactivated project.
 
-If you attempt to log time or expense against this project in Finance you should not see the project for selection. If you manually enter the project number on an expense you will see a message like "Project stage finished does not allow recording in the project". Invoicing and other billing functions should be disabled as they will be in the context of a closed project.
+If you attempt to log time or expense against this project in Finance, you should not see the project for selection. If you manually enter the project number on an expense, you'll see a message like "Project stage finished doesn't allow recording in the project". Invoicing and other billing functions should be disabled as they will be in the context of a closed project.
 
