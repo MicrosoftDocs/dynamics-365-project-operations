@@ -2,7 +2,7 @@
 title: What's new or changed in Project Operations, July 2022 for stocked/production-based scenarios
 description: This article provides information about the quality updates that are available in the July 2022 release of Microsoft Dynamics 365 Project Operations for stocked/production-based scenarios.
 author: ramagadu
-ms.date: 06/03/2022
+ms.date: 8/17/2022
 ms.topic: article
 ms.prod:
 ms.reviewer: johnmichalak
