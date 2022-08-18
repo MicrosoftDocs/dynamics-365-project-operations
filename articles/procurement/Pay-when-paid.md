@@ -2,7 +2,7 @@
 title: Pay when paid vendor payments
 description: This topic explains how to use pay when paid scenario. 
 author: mukumarm
-ms.date: 08/10/2022
+ms.date: 08/18/2022
 ms.topic: article
 ms.prod:
 ms.reviewer: johnmichalak  
