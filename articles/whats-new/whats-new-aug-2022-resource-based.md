@@ -43,5 +43,3 @@ If you encounter an issue when you start the map, follow the instructions in the
 ### Project management and accounting in Finance
 
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics Lifecycle Services (LCS), and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=694438).
-
-
