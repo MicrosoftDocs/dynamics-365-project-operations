@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Subcontract lines for products
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 A subcontract in Dynamics 365 Project Operations can have a subcontract line for products. These lines allow a Project Manager to purchase products from vendors that they can then use on project tasks.

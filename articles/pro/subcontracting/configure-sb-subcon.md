@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Configure Schedule Board to show contract workers and subcontracted capacity 
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 Schedule Board in Microsoft Dynamics 365 Project Operations can be used for search for resources in two ways:

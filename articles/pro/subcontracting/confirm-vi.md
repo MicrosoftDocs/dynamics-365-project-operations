@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Confirm a project vendor invoice
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 After you've verified all the lines on a vendor invoice in Microsoft Dynamics 365 Project Operations, you can use the Confirm action to confirm the vendor invoice.
