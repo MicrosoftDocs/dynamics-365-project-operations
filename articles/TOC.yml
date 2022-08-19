@@ -581,7 +581,9 @@
   - name: Advanced configuration
     items:
     - name: Migrate fully invoiced billing milestones during cutover
-      href: advanced-configuration/migrating-invoiced-milestones.md   
+      href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: Sync Project Status to prevent entry against closed projects
+      href: advanced-configuration/sync-project-status.md      
   - name: Upgrade
     items:
     - name: Upgrade considerations for Modern approvals
@@ -1312,8 +1314,6 @@
   items: 
   - name: Expense management overview
     href: prod-exp/expense-management.md
-  - name: Expense receipt processing
-    href: prod-exp/expense-receipt-processing.md   
   - name: New expense experience
     items: 
     - name: Expense reports reimagined

@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Header details for vendor invoices
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 This article explains the functionality that is provided on the vendor invoice header in Microsoft Dynamics 365 Project Operations.

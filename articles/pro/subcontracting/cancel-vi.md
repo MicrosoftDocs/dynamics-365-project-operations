@@ -10,8 +10,6 @@ ms.author: rumant
 
 # Cancel a project vendor invoice
 
-[!include [banner](../../includes/dataverse-preview.md)]
-
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 After a vendor invoice is confirmed, it can't be edited or deleted. If there was an error on a vendor invoice that was confirmed, you can use the Cancel action to reverse the impact of the vendor invoice and create a new vendor invoice.

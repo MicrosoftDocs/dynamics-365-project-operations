@@ -2,7 +2,7 @@
 title: Troubleshoot working in the Task grid 
 description: This article provides troubleshooting information needed when working in the Task grid.
 author:  ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product:
 ms.reviewer: johnmichalak
@@ -14,7 +14,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project for the web_
 
-The Task grid leveraged by Dynamics 365 Project Operations is a hosted iframe within Microsoft Dataverse. As a result of this use, specific requirements must be met to ensure authentication and authorization are functioning correctly. This article outlines the common issues that can impact the ability to render the grid or manage tasks in the work breakdown structure (WBS).
+The Task grid used by Dynamics 365 Project Operations is a hosted iframe within Microsoft Dataverse. As a result of this use, specific requirements must be met to ensure authentication, and authorization are functioning correctly. This article outlines the common issues that can impact the ability to render the grid or manage tasks in the work breakdown structure (WBS).
 
 Common issues include:
 
@@ -27,7 +27,7 @@ Common issues include:
 
 ### Mitigation 1: Enable cookies
 
-Project Operations requires that third-party cookies be enabled to render the work breakdown structure. When third-party cookies aren't enabled, instead of seeing tasks, you will see a blank page when you select the **Tasks** tab on the **Project** page.
+Project Operations requires that third-party cookies be enabled to render the work breakdown structure. When third-party cookies aren't enabled, instead of seeing tasks, you'll see a blank page when you select the **Tasks** tab on the **Project** page.
 
 For Microsoft Edge or Google Chrome browsers, the following procedures outline how to update your browser setting to enable third-party cookies.
 
@@ -52,10 +52,10 @@ For Microsoft Edge or Google Chrome browsers, the following procedures outline h
 
 ### Mitigation 2: Validate the PEX Endpoint has been correctly configured
 
-Project Operations requires that a project parameter reference the PEX Endpoint. This endpoint is required to communicate with the service that's used to render the work breakdown structure. If the parameter isn't enabled, you will receive the error, "The project parameter is not valid". To update the PEX Endpoint, complete the following steps.
+Project Operations requires that a project parameter reference the PEX Endpoint. This endpoint is required to communicate with the service that's used to render the work breakdown structure. If the parameter isn't enabled, you'll receive the error, "The project parameter isn't valid". To update the PEX Endpoint, complete the following steps.
 
 1. Add the **PEX Endpoint** field to the **Project Parameters** page.
-2. Identify the product type that you are using. This value is used when the PEX Endpoint is set. Upon retrieval, the product type is already defined in the PEX Endpoint. Keep that value.
+2. Identify the product type that you're using. This value is used when the PEX Endpoint is set. Upon retrieval, the product type is already defined in the PEX Endpoint. Keep that value.
 3. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`. The following table provides the type parameter that should be used based on the product type.
 
       | **Product type**                     | **Type parameter** |
@@ -67,11 +67,14 @@ Project Operations requires that a project parameter reference the PEX Endpoint.
 4. Remove the field from the **Project Parameters** page.
 
 ### Mitigation 3: Sign in to project.microsoft.com
-In your Microsoft Edge browser, open a new tab, go to project.microsoft.com, and sign in by using the user role that you're using to access Project Operations.
+
+In your browser, open a new tab, go to project.microsoft.com, and sign in with the user role that you're using to access Project Operations. It's important that only one user be signed in to a Microsoft product in the browser. The "login.microsoftonline.com refused to connect" error message most often occurs when more than one user is signed in, as shown in the following illustration.
+
+![Pick an account sign-in page showing that two users are signed in.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
-For the purposes of authentication, pop-ups must be enabled for the Task grid to load. If pop-ups aren't enabled, the screen will be stuck on the loading spinner. The following graphic shows the URL with a blocked pop-up label in the address bar which is resulting in the spinner getting stuck trying to load the page. 
+For the purposes of authentication, pop-ups must be enabled for the Task grid to load. If pop-ups aren't enabled, the screen will be stuck on the loading spinner. The following graphic shows the URL with a blocked pop-up label in the address bar, which is resulting in the spinner getting stuck trying to load the page. 
 
    ![Stuck spinner and pop-up block.](media/popupsblocked.png)
 
@@ -107,7 +110,7 @@ Alternatively, you can complete the following steps.
 
 ## Issue 3: Administration of privileges for Project for the Web
 
-Project Operations relies on an external scheduling service. The service requires a user have several roles assigned that allows them to read and write to entities related to the WBS. These entities include project tasks, resource assignments, and task dependencies. If a user can't render the WBS when they navigate to the **Tasks** tab, it is probably because **Project** for **Project Operations** has not been enabled. A user might receive either a security role error, or an error related to a denial of access.
+Project Operations relies on an external scheduling service. The service requires that a user have several roles assigned that allow them to read and write to entities related to the WBS. These entities include project tasks, resource assignments, and task dependencies. If a user can't render the WBS when they navigate to the **Tasks** tab, it's probably because **Project** for **Project Operations** hasn't been enabled. A user might receive either a security role error, or an error related to a denial of access.
 
 ### Mitigation 1: Validate the application user and end-user security roles
 

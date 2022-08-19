@@ -62,7 +62,7 @@ If you have active licenses for Project Service Automation, you can install and 
 
 ## Testing and refactoring customizations
 
-As a starting point, import all customizations into a clean Project Operations (lite) environment to confirm that import is successful, and that business operations behave as expected.
+As a starting point, import all customizations into a clean Project Operations (Lite) environment to confirm that import is successful, and that business operations behave as expected.
 
 Here are some things to watch out for:
 

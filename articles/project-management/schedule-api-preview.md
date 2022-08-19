@@ -40,9 +40,9 @@ The following is a list of current Project schedule APIs.
 - **msdyn_CreateProjectV1**: This API can be used to create a project. The project and default project bucket are created immediately.
 - **msdyn_CreateTeamMemberV1**: This API can be used to create a project team member. The team member record is created immediately.
 - **msdyn_CreateOperationSetV1**: This API can be used to schedule several requests that must be performed within a transaction.
-- **msdyn_PSSCreateV1**: This API can be used to create an entity. The entity can be any of the Project scheduling entities that support the create operation.
-- **msdyn_PSSUpdateV1**: This API can be used to update an entity. The entity can be any of the Project scheduling entities that support the update operation.
-- **msdyn_PSSDeleteV1**: This API can be used to delete an entity. The entity can be any of the Project scheduling entities that support the delete operation.
+- **msdyn_PssCreateV1**: This API can be used to create an entity. The entity can be any of the Project scheduling entities that support the create operation.
+- **msdyn_PssUpdateV1**: This API can be used to update an entity. The entity can be any of the Project scheduling entities that support the update operation.
+- **msdyn_PssDeleteV1**: This API can be used to delete an entity. The entity can be any of the Project scheduling entities that support the delete operation.
 - **msdyn_ExecuteOperationSetV1**: This API is used to execute all of the operations within the given operation set.
 
 ## Using Project schedule APIs with OperationSet
