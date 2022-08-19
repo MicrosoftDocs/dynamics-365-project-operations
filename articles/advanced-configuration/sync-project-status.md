@@ -41,7 +41,7 @@ To update the Project Operations Projects V2 dual-write map:
    InProcess | 0     
    completed | 1     
 
-![Screenshot showing Dual-write mapping](/media/projectstage-dw-mapping.png)
+![Screenshot showing Dual-write mapping](media/projectstage-dw-mapping.png)
 
 9. Select **Save**.
 10. From the top of the **Dual-write > Projects V2 (msdyn_projects)** page, select **Save As**.
