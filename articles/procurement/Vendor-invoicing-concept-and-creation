@@ -42,22 +42,19 @@ Alternatively, you can also create a Vendor Invoice, by going to **Accounts Paya
 
 Vendor invoices that you create in this way may reference the subcontract on the vendor invoice header in CE. After adding the Vendor invoice lines, the Vendor Invoice can be posted. On posting the Vendor invoice , the invoice becomes available in Dataverse for further processing.  
 
-The Vendor invoice in Finance is created using the following fields that enable matching the VI lines with the submitted actuals.  The following fields and related records will be copied from the subcontract to the header of the vendor invoice:
-
+The following fields and related records will be copied from the subcontract to the header of the vendor invoice:
 - Currency.
 - Contracting unit.
 - Payment terms.
 
 For Time and material subcontract lines, the following fields and related records will be copied from the subcontract line to the vendor invoice line:
-
-- Subcontract and subcontract line references
 - Transaction class
 - Role
 - Project category/Transaction category
 - Product fields
 - Project
 - Task
-- Bookable resource
+The subcontract and subcontract line references will default when an exact match is found with Project, Transaction class, Product ID, transaction category , task (Activity ID) and Role on the Vendor Invoice line. 
 
 Fixed price subcontract lines are not supported in this deployment mode. 
 
