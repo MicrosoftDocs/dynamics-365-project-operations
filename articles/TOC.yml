@@ -386,6 +386,42 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
+  - name: Subcontract Management
+    items: 
+    - name: Subcontract management in Project Operations
+      href: pro/subcontracting/managing-subcontracts-overview.md
+    - name: Key concepts in subcontracting
+      href: pro/subcontracting/key-concepts-subcontracting.md
+    - name: Managing vendors and project price lists 
+      href: pro/subcontracting/vendors-purchase-price-lists.md
+    - name: Subcontractors as bookable resources 
+      href: pro/subcontracting/subcontractors-as-bookable-resources.md
+    - name: Header Details for Subcontracts  
+      href: pro/subcontracting/subcontract-header-details.md
+    - name: Subcontract lines for time
+      href: pro/subcontracting/subcontract-line-time.md
+    - name: Subcontract lines for expense categories
+      href: pro/subcontracting/subcontract-line-expense.md
+    - name: Subcontract lines for products 
+      href: pro/subcontracting/subcontract-line-products.md
+    - name: Subcontractor line resources
+      href: pro/subcontracting/subcontract-line-resources.md
+    - name: Subcontract line milestones
+      href: pro/subcontracting/subcontract-line-milestones.md
+    - name: Subcontracting project team members
+      href: pro/subcontracting/subcontracting-project-team-members.md
+    - name: Subcontracting options for project team members
+      href: pro/subcontracting/subcon-options.md      
+    - name: Cost estimation of subcontracted resource assignments
+      href: pro/subcontracting/costing-subcon-ra.md
+    - name: Configure Schedule Board to show contract workers and subcontracted capacity
+      href: pro/subcontracting/configure-sb-subcon.md      
+    - name: Staffing a project with contract workers and subcontracted capacity
+      href: pro/subcontracting/staffing-cw.md
+    - name: Recording time, expenses, and material usage for subcontracted components
+      href: pro/subcontracting/recording-subcon-actuals.md
+    - name: State transitions on a subcontract 
+      href: pro/subcontracting/subcon-states.md
   - name: Time
     items: 
     - name: Time overview
