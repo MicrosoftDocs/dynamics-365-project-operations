@@ -45,10 +45,9 @@ On posting the Vendor invoice , the invoice becomes available in Dataverse for v
 ## Vendor Invoice processing 
 
 In resource/non stocked scenario, vendor invoices containing a reference to a subcontract will require PM confirmation. 
-Under **Project Management and accounting parameters **\> **Financial **\> **Vendor Invoice** \> , set the value for **Manual confirmation by PM is required** field. The value of this field determines if the vendor invoice should be auto confirmed or if it needs manual confirmation by the PM in dataverse.  
+Under **Project Management and accounting parameters **\> **Financial **\> **Vendor Invoice** \> , set the value for **Manual confirmation by PM is required** field. The value of this field when set to "No" implies that the vendor invoice should be auto confirmed. When set to "Yes" , it implies that the vendor invoice needs manual confirmation by the PM in dataverse.  
 The value set here will default to the header of all vendor invoices created in the resource/non stocked scenario. If required, the value can be updated for each vendor invoice using the same field in the invoice header . 
-If the value is set to "YES", the vendor invoice is created in dataverse with a "draft" status. It means it needs to be validated by the PM and confirmed before it gets processed and posted to the specific project and ledger accounts in Finance. 
-If the value of the field is set to "NO" , then the vendor invoice is auto confimed and needs no further action. 
+If the value is set to "YES", the vendor invoice is created in dataverse with a "draft" status ,and when set to "No" it is created with a "confirmed" status. 
 
 The following fields and related records will be copied from the subcontract to the header of the vendor invoice:
 - Currency.
