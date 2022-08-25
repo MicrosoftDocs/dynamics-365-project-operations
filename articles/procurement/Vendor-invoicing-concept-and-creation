@@ -40,21 +40,29 @@ In the resource/non -stocked deployment, Vendor invoices are created in F&O from
 
 Alternatively, you can also create a Vendor Invoice, by going to **Accounts Payable** \> **Invoices** \> **Open Vendor Invoices \> New** 
 
-Vendor invoices that you create in this way may reference the subcontract on the vendor invoice header in CE. After adding the Vendor invoice lines, the Vendor Invoice can be posted. On posting the Vendor invoice , the invoice becomes available in Dataverse for further processing.  
+On posting the Vendor invoice , the invoice becomes available in Dataverse for verification and processing. 
+
+## Vendor Invoice processing 
+
+In resource/non stocked scenario, vendor invoices containing a reference to a subcontract will require PM confirmation. 
+Under **Project Management and accounting parameters **\> **Financial **\> **Vendor Invoice** \> , set the value for **Manual confirmation by PM is required** field. The value of this field determines if the vendor invoice should be auto confirmed or if it needs manual confirmation by the PM in dataverse.  
+The value set here will default to the header of all vendor invoices created in the resource/non stocked scenario. If required, the value can be updated for each vendor invoice using the same field in the invoice header . 
+If the value is set to "YES", the vendor invoice is created in dataverse with a "draft" status. It means it needs to be validated by the PM and confirmed before it gets processed and posted to the specific project and ledger accounts in Finance. 
+If the value of the field is set to "NO" , then the vendor invoice is auto confimed and needs no further action. 
 
 The following fields and related records will be copied from the subcontract to the header of the vendor invoice:
 - Currency.
 - Contracting unit.
 - Payment terms.
 
-For Time and material subcontract lines, the following fields and related records will be copied from the subcontract line to the vendor invoice line:
+For Time and material subcontract lines, the following fields and related records will be used to match the subcontract lines to the vendor invoice line:
 - Transaction class
 - Role
-- Project category/Transaction category
+- Transaction category
 - Product fields
 - Project
 - Task
-The subcontract and subcontract line references will default when an exact match is found with Project, Transaction class, Product ID, transaction category , task (Activity ID) and Role on the Vendor Invoice line. 
+The subcontract and subcontract line references will default on the VI line, when the Project, Transaction class, Product ID, transaction category , task and Role on the subcontract match that of the Vendor Invoice line submitted in F&O. 
 
 Fixed price subcontract lines are not supported in this deployment mode. 
 
