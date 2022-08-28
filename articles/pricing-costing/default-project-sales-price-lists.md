@@ -38,18 +38,22 @@ The system completes the following process to determine which price list to defa
 
 Cost price lists don't default to any entity in Project Operations. Determining the cost price list to use for project costs is always done in the moment. The system completes the following process to determine which price list to use for project costs:
 
-1. The system first looks at the price lists that are attached to the contracting organization unit of the project.
-2. The system then looks at the date effectivity of the price lists that match the date of the incoming estimate or actual line. In this situation, *estimate line* refers to all three contexts of estimation in Project Operations:
+1. As a first step, the system looks at the price lists that are attached to the contracting organization unit of the project.
+2. As a second step, the system looks at the date effectivity of the price lists that match the date of the incoming estimate context or actual context. 
+- *Estimate context* refers to any of three contexts of estimation in Project Operations:
 
     - Project estimate line
     - Quote line detail
     - Contract line detail
   
-3. If there are multiple price lists that are effective for the date on the incoming estimate or actual, the price list created most recently is selected.
-4. If there no price lists attached to the contracting organization unit of the project, the system looks at cost price lists attached to project parameters that match the currency of the project.
-5. Next the system looks at the date effectivity of the price lists that match the date of the incoming estimate or actual line. 
-6. If there are multiple price lists that are effective for the date on the incoming estimate or actual, the price list created most recently is selected.
-7. If there are no cost price lists attached to the project parameters that match the currency and effective date, the system defaults the cost rate to zero (0) on the incoming estimate or actual line.
+ - *Actual context* refers to any of three sources for actuals in Project Operations:
+   - Entry Journal line created manually or correction journal lines created on a correction journal
+   - Journal lines created during time, expense or material usage log submission 
+   - Invoice line detail
+ - When matching date effectivity of the incoming journal line or invoice line detail in the *actual context*, Project Operations uses the transaction date field.     
+ - If there are multiple price lists that are effective for the date on the incoming estimate or actual contexts, the price list created most recently is selected.
+ - If there no price lists attached to the contracting organization unit of the project, the application looks at cost price lists attached to project parameters that      match the currency of the project.
+  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
