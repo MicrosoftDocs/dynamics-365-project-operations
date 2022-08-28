@@ -16,7 +16,17 @@ When determining sales prices on estimates and actuals in Dynamics 365 Project O
 
 ## Determine sales rates on actual and estimate lines for time
 
-In Project Operations, estimate lines for time are used to denote the quote line and contract line details for time and the resource assignments on the project.
+Estimate context for Time refers to
+
+- Quote line details for time
+- Contract line details for time
+- Resource assignments on a project.
+
+Actual context for Time refers to
+
+- Entry and Correction journal lines for time
+- Journal lines created when a time entry is submitted
+- Invoice line details for Time 
 
 After a price list for sales is resolved, the system completes the following steps to default the bill rate.
 
@@ -29,7 +39,17 @@ After a price list for sales is resolved, the system completes the following ste
 
 ## Resolve sales rates on actual and estimate lines for expense
 
-In Project Operations, estimate lines for expense are used to denote the quote line and contract line details for expenses and the expense estimate lines on the project.
+Estimate context for Expense refers to
+
+- Quote line details for Expense
+- Contract line details for Expense
+- Expense estimate lines on a project.
+
+Actual context for Expense refers to
+
+- Entry and Correction journal lines for Expense
+- Journal lines created when a Expense entry is submitted
+- Invoice line details for Expense 
 
 After a price list for sales is resolved, the system completes the following steps to default the unit sales price.
 
@@ -50,7 +70,17 @@ After a price list for sales is resolved, the system completes the following ste
 
 ## Resolving sales rates on actual and estimate lines for Material
 
-In Project Operations, estimate lines for material are used to denote the quote line and contract line details for materials and the material estimate lines on the project.
+Estimate context for Material refers to
+
+- Quote line details for Material
+- Contract line details for Material
+- Material estimate lines on a project.
+
+Actual context for Material refers to
+
+- Entry and Correction journal lines for Material
+- Journal lines created when a Material usage log is submitted
+- Invoice line details for Material 
 
 After a price list for sales is resolved, the system completes the following steps to default the unit sales price.
 
