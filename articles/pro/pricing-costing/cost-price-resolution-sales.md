@@ -25,7 +25,6 @@ Estimate context for Time refers to
 Actual context for Time refers to 
 - Entry and Correction journal lines for time
 - Journal lines created when a time entry is submitted
-- Invoice line details for time 
 
 After determining the cost price list, the **Role** and **Resourcing Unit** fields on the estimate context or actual context for Time are matched against the role price lines in the price list. This match assumes that you're using the standard pricing dimensions for labor cost. If you configured the application to match fields instead of, or in addition to **Role** and **Resourcing Unit**, then a different combination will be used to retrieve a matching role price line. If the application finds a role price line that has a cost rate for the **Role** and **Resourcing Unit** combination, that is the default cost rate. If the application can't match the **Role** and **Resourcing Unit** values, then it retrieves role price lines with a matching role, but null values of the **Resourcing Unit**. After it has a matching role price record, the cost rate defaults from that record. 
 
@@ -42,9 +41,8 @@ Estimate context for Expense refers to
 Actual context for Expense refers to 
 - Entry and Correction journal lines for Expense
 - Journal lines created when an expense entry is submitted
-- Invoice line details for Expense 
 
-After a cost price list is determined, the application uses a combination of the **Category** and **Unit** fields on the estimate and actual context of the expense to match against the **Category Price** lines on the cost price list. If the application finds a category price line that has a cost rate for the **Category** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Category** and **Unit** values then price defaults to O. In the estimation context, if the application is able to find a matching category price line but the pricing method isn't **Price Per Unit**, the cost rate defaults to zero(0). This is because currently Project Operations does not support any pricing method other than Price per unit in the estimation context. All 3 priicng methods, **Price per unit**, **At cost** and **Markup over cost** are supported in the actauls context. 
+After a cost price list is determined, the application uses a combination of the **Category** and **Unit** fields on the estimate and actual context of the expense to match against the **Category Price** lines on the cost price list. If the application finds a category price line that has a cost rate for the **Category** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Category** and **Unit** values then price defaults to O. In the estimation context, if the application is able to find a matching category price line but the pricing method isn't **Price Per Unit**, the cost rate defaults to zero(0).  
 
 ## Determining cost rates on actual and estimate lines for Material
 
@@ -56,7 +54,6 @@ Estimate context for Material refers to
 Actual context for Material refers to 
 - Entry and Correction journal lines for Material
 - Journal lines created when an Material usage log is submitted
-- Invoice line details for Material 
 
 
 After a cost price list is determined, the system uses a combination of the **Product** and **Unit** fields on the estimate and actual context for a material to match against the **Price List Items** lines on the price list. If the application finds a price list item that has a cost rate for the **Product** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Product** and **Unit** values, the unit cost defaults to zero.
