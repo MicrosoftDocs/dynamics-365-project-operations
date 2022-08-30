@@ -226,9 +226,9 @@
         href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Resolve cost prices for estimates and actuals
+      - name: Determine cost prices for estimates and actuals
         href: pricing-costing/cost-price-resolution.md
-      - name: Resolve sales prices for estimates and actuals
+      - name: Determine sales prices for estimates and actuals
         href: pricing-costing/sales-price-resolution.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
@@ -796,9 +796,9 @@
         href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Resolve cost prices on project estimates and actuals
+      - name: Determine cost prices on project estimates and actuals
         href: pro/pricing-costing/cost-price-resolution-sales.md
-      - name: Resolve sales prices for project estimates and actuals
+      - name: Determine sales prices for project estimates and actuals
         href: pro/pricing-costing/sales-price-resolution-sales.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
