@@ -36,7 +36,7 @@ The system completes the following process to determine which price list to defa
 
 ## Cost price lists
 
-Cost price lists don't default to any entity in Project Operations. Determining the cost price list to use for project costs is always done in the moment. The system completes the following process to determine which price list to use for project costs:
+Cost price lists don't default to any entity in Project Operations. Determining the cost price list to use for project costs is always done on a per transaction basis. The system completes the following process to determine which price list to use for project costs:
 
 1. As a first step, the system looks at the price lists that are attached to the contracting organization unit of the project.
 2. As a second step, the system looks at the date effectivity of the price lists that match the date of the incoming estimate context or actual context. 
@@ -50,10 +50,20 @@ Cost price lists don't default to any entity in Project Operations. Determining 
    - Entry Journal line created manually or correction journal lines created on a correction journal
    - Journal lines created during time, expense or material usage log submission 
    - Invoice line detail
- - When matching date effectivity of the incoming journal line or invoice line detail in the *actual context*, Project Operations uses the transaction date field.     
- - If there are multiple price lists that are effective for the date on the incoming estimate or actual contexts, the price list created most recently is selected.
- - If there no price lists attached to the contracting organization unit of the project, the application looks at cost price lists attached to project parameters that      match the currency of the project.
+
+- When matching date effectivity of the incoming journal line or invoice line detail in the *actual context*, Project Operations uses the transaction date field.     
+    - If there are multiple price lists that are effective for the date on the incoming estimate or actual contexts, the price list created most recently is selected.
+    - If there no price lists attached to the contracting organization unit of the project, the application looks at cost price lists attached to project parameters that match the currency of the project.
   
+## Enable multi-currency cost price list
+This setting can be found in Settings -> Parameters. The default value of this setting is **No**. 
+When this setting is enabled or turned to **Yes**, the application  
+1. will allow associating cost price lists in any currency to the Organizational Unit. So you could have a cost price list in EUR currency attached to an Organizational unit whose currency is USD. The application will continue to validate that cost price lists attached to an Organizational Unit do not have overlapping date effectivity.
+2. will validate that cost price lists that are attached to Project Parameters do not have overlapping date effectivities even if they are have different currency. This is different from the default behavior when this setting is set to **No** where cost price lists that have **same** currency are validated for overlapping date - effectivities
+3. for an incoming transaction context, the application will determine the cost price list based on the date effectivity only. This is different from the default behavior when this setting is set to **No** where the system will select the cost price list that matches the currency on the project AND the date effectivity. 
+
+As a consequence of these changes in behaviors, Project Operations customers will be able to maintian a global cost price list that will be relevant for the entire company. It will not be necessary to have price lists in each currency of operations. This global price list will have date effectivity and will allow setup of cost rates in any currency for a for a specific combination of pricing dimension values. The currency on the cost price list will only be used for defaulting when creating Role prices, Category prices and PRice List item records and will not be used to determine the price list. 
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
