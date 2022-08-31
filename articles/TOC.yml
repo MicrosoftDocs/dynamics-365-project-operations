@@ -198,6 +198,8 @@
           href: sales/import-estimate-project-contract-line.md
         - name: Create invoice schedules on project-based contract lines
           href: sales/invoice-schedules-contract-line.md
+      - name: Copy project-based contracts
+        href: sales/copy-project-based-contracts-sales.md
       - name: Confirm a project contract
         href: pro/sales/confirm-contract-sales.md
       - name: Advances and retainers
