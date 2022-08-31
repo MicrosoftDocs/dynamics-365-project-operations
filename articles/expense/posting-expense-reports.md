@@ -35,15 +35,15 @@ To post an expense report, on the **Approved expense reports** page, select the 
 
 You can also post all the expense reports in the list at the same time. Select all the expense reports, and then select **Post**.
 
-## Enable the Ability to post expense liability in vendor currency for cash payment method
+## Enable the Ability to post expense liability in vendor currency for cash payment method feature
 
 The **Ability to post expense liability in vendor currency for cash payment method** feature enables expense reports to be posted in a vendor currency for the cash payment method.
 
-As of today, when submitting the cash expenses, expense reports are posted in accounting currency. Due to amount conversion between transaction currency, accounting currency, and vendor currency, an incorrect amount is paid to vendors if there is a difference in exchange rate between the transaction date of expense and the actual payment date.
+Currently, when you submit cash expenses, expense reports are posted in the accounting currency. Because of amount conversion among the transaction currency, accounting currency, and vendor currency, an incorrect amount is paid to vendors if the transaction date of the expense and the actual payment date have different exchange rates.
 
-This feature will ensure the vendor balance is recorded in the vendor currency when posting the expense report.
+This feature will ensure that the vendor balance is recorded in the vendor currency when the expense report is posted.
 
-1. Go to **Workspaces** > **Feature Management**.
-2. In the list, locate and select **Ability to post expense liability in vendor currency for cash payment method**, and then select **Enable now**.
+1. Go to **Workspaces** \> **Feature Management**.
+2. In the list, find and select **Ability to post expense liability in vendor currency for cash payment method**, and then select **Enable now**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
