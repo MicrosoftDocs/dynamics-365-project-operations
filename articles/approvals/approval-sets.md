@@ -40,7 +40,7 @@ Selecting **Retry** adds to the approval set lifetime count, moves the approval 
 ## Configure approval sets
 
 ### Enable the Approval sets feature
-Before you enable the Approval sets feature, verify that there are no approvals currently being processed. Once enabled, this feature can not be disabled.
+Before you enable the Approval sets feature, verify that there are no approvals currently being processed. After this feature is enabled, it can't be disabled.
 
 - Go to the **Project parameters** page and select **Feature Control** > **Enable Modern Approvals**.
 
