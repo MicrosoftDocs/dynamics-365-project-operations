@@ -1,5 +1,5 @@
 ---
-title: Security and Approvals
+title: Security and approvals
 description: This article provides information about the security setup for working with approvals in Project Operations.
 author: stsporen
 ms.date: 08/29/2022
@@ -8,22 +8,24 @@ ms.reviewer: johnmichalak
 ms.author: stsporen
 
 ---
-# Security and Approvals
+# Security and approvals
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-We include two roles for approving Time, Expense, Material entries
+Project Operations uses two security roles to allow approving time, expense, and material entries:
 -	Project Approver
 -	Project Approver Admin
 
 ## Project Approver
-To approve project time, expense, or material entries you are required to have the correct permissions. These are demonstrated in the **Project Approver** security role, you are also required to have access to the relevant related entities such as Project, which can be assigned with **Project Manager** role. Additionally, to the role you are required to be a team member of the project and marked as an approver.
+The **Project Approver** security role is required for you to have the ability to approve project time, expenses, and material entries. You must also have access to the relevant related entities, such as **Project**, which can be assigned by someone with the **Project Manager** role. Additionally, you're required to be a team member of the project and marked as an approver.
 
-To approve non project entries, you are required to be the manager of the submitter.
+To approve non-project entries, you are required to be the manager of the submitter.
 
 ## Project Approver Admin
-NOTE: Project Approver Admin functionality requires the enablement of [Approval sets](./approvals/approval-sets) feature.
 
-For scenarios which require users to bypass policies and allow for approval of entries across all projects, we include a special role **Project Approver Admin**, assigning this role will bypass the validation logic requiring team membership and being marked approver. Additional permissions required as listed in the **Project Approver** role.
+> [!NOTE]
+> The [Approval sets](./approvals/approval-sets) feature must be enabled to use the Project Approver Admin functionality.
 
-SYSTEM user context bypasses validations in the same was that Project Approver Admin does.
+The **Project Approver Admin** security role allows users to bypass policies and allow for approval of entries across all projects. Assigning this role will bypass the validation logic that requires team membership and being marked approver. You must have access to the relevant related entities, such as **Project**, which can be assigned by someone with the **Project Manager** role.
+
+The SYSTEM user context bypasses validations in the same way that Project Approver Admin does.
