@@ -27,13 +27,15 @@ To turn on the ability to activate and revise project-based quotes, follow these
 
 ## Activating a quote
 
-Once the feature Activation and revision of quotes is enabled, on a draft project quote, the buttons Close quote as Won and Close quote as lost will not be available. These buttons will be avaialble once a quote is activated. 
+Once the feature Activation and revision of quotes is enabled, on a draft project quote, the buttons **Close quote as Won** and **Close quote as lost** will not be available. These buttons will be avaialble once a quote is activated. 
+
 Activation represents a stage in the quoting process when you would like to lock the quote from any more changes. At this stage the quote is usually sent for internal review or to the customer. 
-An activated quote will have the ribbon buttons for **Close quote as Won** and **Close quote as lost** avaialble. You can close an activated quote using these buttons based on the outcome of internal or customer reviews.
-Negotiation and changes can be made on activated quotes using the **Revise quote** action
+
+An activated quote will have the ribbon buttons for **Close quote as Won** and **Close quote as lost** avaialble. You can close an activated quote using these buttons based on the outcome of internal or customer reviews. Negotiation and changes can be made on activated quotes using the **Revise quote** action
 
 ## Revising a quote
-If you need to make any changes to an activated quote, click the ribbon action to **Revise quote**. This will close the quote with the reason **revised** and will create a new quote with the same id but with incremented revision number. 
+If you need to make any changes to an activated quote, click the ribbon action to **Revise quote**. This will close the quote with the reason **revised** and will create a new quote with the same id but with incremented revision number.
+
 All the details from the original quote are copied to the newly created revision. The newly created quote will be in draft status and can be edited as necessary. 
 
 
