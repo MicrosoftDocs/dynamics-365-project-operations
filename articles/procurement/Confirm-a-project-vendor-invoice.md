@@ -12,7 +12,7 @@ ms.author: suvaidya
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios
 
-Project vendor invoices are created in Dynamics 365 Finance . When the parameter **Manual confirmation by PM is required** flag is set to **YES**, then the vendor invoice is created in dataverse with a draft status. This must be reviewed and manually confirmed. If the parameter is disabled/ set to **NO**, then the vendor invoice is synchronized to dataverse with a confirmed status and no further action is needed. 
+Project vendor invoices are created in Dynamics 365 Finance . When the parameter **Manual confirmation by PM is required** flag is set to **YES**, then the vendor invoice is created in dataverse with a draft status. This must be reviewed and manually confirmed. If the parameter is set to **NO**, then the vendor invoice is synchronized to dataverse with a confirmed status and no further action is needed. 
 
 After you have verified all the lines on a vendor invoice in Microsoft Dynamics 365 Project Operations, you can use the Confirm action to confirm the vendor invoice.
 
