@@ -2,7 +2,7 @@
 title: Activate and revise a project quote
 description: This article provides information about activating and revision quotes in Project Operations.
 author: rumant
-ms.date: 10/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
