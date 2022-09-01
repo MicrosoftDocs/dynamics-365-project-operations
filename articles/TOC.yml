@@ -168,6 +168,8 @@
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project quotes
         href: sales/lose-quote.md
+      - name: Activate and revise a project quote
+        href: sales/activation-and-revision.md
       - name: Close project quotes
         href: sales/win-quote.md
     - name: Manage project contracts
@@ -768,6 +770,8 @@
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project-based quotes
         href: sales/lose-quote.md
+      - name: Activate and revise a project quote
+        href: sales/activation-and-revision.md
       - name: Close project-based quotes
         href: pro/sales/win-quote-sales.md
     - name: Manage project-based contracts
