@@ -26,18 +26,18 @@ To turn on the ability to activate and revise project-based quotes, follow these
 1. Open the **Parameters** record, and then open the ribbon menu for **Feature Control**.
 1. In the **Feature Control** ribbon menu, select **Enable activation and revision of quotes**.
 1. In the confirmation dialog, select **Ok**. 
-1. After a few moments, refresh your browser. **Activation and revision** capabilities are now avaialble. It is best to verify that the capability is enabled. Do this by checking the ribbon menu to ensure the option to **Enable activation and revision for quotes** isn't listed in the menu options. 
+1. After a few moments, refresh your browser. **Activation and revision** capabilities are now available. It's best to verify that the capability is enabled. Verify this by checking the ribbon menu to ensure the option to **Enable activation and revision for quotes** isn't listed in the menu options. 
 
 ## Activating a quote
 
-Once the **Activation and revision** of quotes feature is enabled, **Close quote as Won** and **Close quote as lost** aren't available for draft project quotes. These are avaialble once a quote is activated. 
+Once the **Activation and revision** of quotes feature is enabled, **Close quote as Won** and **Close quote as lost** aren't available for draft project quotes. These features are available once a quote is activated. 
 
-Activation represents the stage in the quoting process when you want to prevent any more changes to the quote. At this stage, the quote is usually sent for internal review or to the customer. 
+Activation represents the stage in the quoting process when you want to prevent any more changes to the quote. At this stage, the quote is sent for internal review or to the customer. 
 
 Activated quotes have the ribbon buttons for **Close quote as Won** and **Close quote as lost**. You can close an activated quote using these buttons based on the outcome of internal or customer reviews. Negotiations and changes can be made on activated quotes using **Revise quote**.
 
 ## Revising a quote
-If you need to make changes to an activated quote, select **Revise quote**. This closes the quote with the reason **revised**, and then creates a new quote that has the same ID and an incremented revision number.
+If you need to make changes to an activated quote, select **Revise quote**. The quote is closed with the reason code of **revised**, and then a new quote is created with the same ID and an incremented revision number.
 
 All of the details from the original quote are copied to the newly created revision. The newly created quote is in draft status and can be edited as necessary. 
 
