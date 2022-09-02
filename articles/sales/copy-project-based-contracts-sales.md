@@ -41,4 +41,4 @@ The following information isn't copied from the **Source** to the **Target Contr
 Because this information is specific to each contract, these fields and records aren't copied. Contract lines for projects and products, estimations on contract line details, and not-to-exceed values at the contract level are copied. Price and cost rate defaulting depend on the selection in the **Copy pricing** field on the **Copy Parameters** dialog page.
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
