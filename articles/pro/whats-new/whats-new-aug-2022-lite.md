@@ -22,3 +22,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
 | Opportunity management | 2762089 | Error handling while closing the contract as lost if auto-save is disabled in the org.|
+|Project Planning and Tracking | 2767841 | Telemetry updates Project entity Create or Update scenarios.|
+|Billing and Pricing | 2771072 | Null reference exception handling while winning quote.|
+|Billing and Pricing | 2844181 |Failure in getting a correlation id and blocking an invoice creation.|
+|Billing and Pricing | 2852836 | Intercompany actuals missing for Intercompany Expense created and approved in CE.|
