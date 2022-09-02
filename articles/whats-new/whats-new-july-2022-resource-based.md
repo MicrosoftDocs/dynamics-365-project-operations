@@ -41,9 +41,9 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Billing and Pricing | 2664396 | If a quote price list is saved without a quote, there must be an error that states that the quote can't be empty. |
 | Billing and Pricing | 2184019 | The **Task Based Billing** tab should not be shown for projects that have no backing contract or quote. |
 | Time and Expense | 2754459 | When recurrent scheduling cloud flow is inactive, show banner and bypass async processing. |
-| Billing and Pricing | 2724391 | Wrong exception is thrown when msdyn_projectcontractsplitbillingrule is missing customer. |
+| Billing and Pricing | 2724391 | Wrong exception is thrown when project contract split billing rule is missing a customer value. |
 | Billing and Pricing | 2708638 | Record was not found while searching using grid search in Material Usages and Approvals for Material Usages.|
-| Billing and Pricing | 2686977 | Prevent validation of invoicelinedetail during invoice creation. |
+| Billing and Pricing | 2686977 | Prevent validation for invoice line during invoice creation. |
 | Billing and Pricing | 2683032 | Copying of chargeable roles and categories does not scale beyond 5000 records.|
 | Billing and Pricing | 2673363 | Cost Consumption % on Project is corrupted when both Effort and Expense estimates and actuals exists for a project. |
 
