@@ -21,7 +21,9 @@ However, let’s say you need to change the price of Network Technician from Oct
 To setup Date effective price overrides for human resource time on a project, follow these steps:
 1.	Turn on **Date effective price overrides** feature
 2.	Setup a date-effective price override
-### Turning on **Date effective price overrides** feature:
+
+### Turning on **Date effective price overrides** feature
+
 > [!NOTE]
 > After the feature date effective price overrides is enabled, it can't be disabled.
 
@@ -40,7 +42,10 @@ Date effective price overrides can be set up on Cost, Sales or Purchase price li
 >1. Only **Role Price** and **Role Price Markup** support date effective price overrides in Project Operations. 
 >2. When copying price lists using the **Copy** action on the Price List details page and when creating project price list from a standard or custom price list during contract creation, date effective price overrides are **NOT** copied from the source price list. 
 
+### Setup a date-effective price override
+
 To set up a date effective price override for a role price or role price markup, follow these steps:
+
 1.	Open the Price list that you want to set up the date effective price override
 2.	On the Price list page, open the tab for **Role Prices**. A list of all **role price** records in the price list will open. 
 3.	Select the specific role price for which you want to set up a new date effective override price. Double click to open the **Role price** details page.
