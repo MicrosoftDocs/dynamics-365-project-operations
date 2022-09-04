@@ -60,25 +60,25 @@ Here's an example of how date effectivity is determined for specific role price 
 
 | **Price List – Start and End date** |-|-|-| **Effect on pricing incoming transactions** |
 | --- | ----- | ----- | ----- | --- |
-|**PL A – Jan 1st – Jun 30th **||||
-| **Role Price** | **Role Price** | **Unit** | **Price** | |
-| | Network technician | Hour | 100 | This price will be used on any transactions with transaction date that falls between Jan 1st – March 14th |
-| **Role Price Override** | **Effective From** | **Unit** | **Price** | |
-| | March 15th | Hour | 110 | This price will be used on any transactions with transaction date that falls between March 15th– March 30th |
-| | April 1st | Hour | 120 | This price will be used on any transactions with transaction date that falls between April 1st and June 30th |
+|**PL A – Jan 1st – Jun 30th **|-|-|-|
+| **Role Price** | **Role Price** | **Unit** | **Price** | -|
+|- | Network technician | Hour | 100 | This price will be used on any transactions with transaction date that falls between Jan 1st – March 14th |
+| **Role Price Override** | **Effective From** | **Unit** | **Price** | -|
+| -| March 15th | Hour | 110 | This price will be used on any transactions with transaction date that falls between March 15th– March 30th |
+| -| April 1st | Hour | 120 | This price will be used on any transactions with transaction date that falls between April 1st and June 30th |
 
 Here's an example of how date effectivity is determined for specific role price markup that has a couple role price overrides setup:
 
 | **Price List – Start and End date** | -|- |- |- | **Effect on pricing incoming transactions** |
 | --- | --- | --- | --- | ----- | --- |
-| **PL A – Jan 1st – Jun 30th** | | | | | |
-| **Role Price** | **Role Price** | **Work Hours** | **Unit** | **Price** | |
-| | Network technician | Regular | Hour | 100 | This price will be used on any transactions with transaction date that falls between Jan 1st – March 14th |
-| **Role Price Markup** | | **Organization Unit** | **Work Hours** | **Mark up %** | |
-| | | Contoso US | Overtime | 10% | |
-| **Role price markup override** | | | **Effective From** | **Price** | |
-| | | | March 15th | 20% | This markup percent will be used on any transactions with transaction date that falls between March 15th– March 30th |
-| | | | April 1st | 25% | This markup will be used on any transactions with transaction date that falls between April 1st and June 30th |
+| **PL A – Jan 1st – Jun 30th** | -|- |- |- |- |
+| **Role Price** | **Role Price** | **Work Hours** | **Unit** | **Price** |- |
+| -| Network technician | Regular | Hour | 100 | This price will be used on any transactions with transaction date that falls between Jan 1st – March 14th |
+| **Role Price Markup** | | **Organization Unit** | **Work Hours** | **Mark up %** | -|
+| -| -| Contoso US | Overtime | 10% | -|
+| **Role price markup override** |- |- | **Effective From** | **Price** | -|
+|- |- | -| March 15th | 20% | This markup percent will be used on any transactions with transaction date that falls between March 15th– March 30th |
+|- |- | -| April 1st | 25% | This markup will be used on any transactions with transaction date that falls between April 1st and June 30th |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
