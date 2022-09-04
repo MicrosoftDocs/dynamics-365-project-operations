@@ -58,7 +58,7 @@ To set up a date effective price override for a role price or role price markup,
 
 Here's an example of how date effectivity is determined for specific role price that has a couple role price overrides setup:
 
-| **Price List – Start and End date** |||| **Effect on pricing incoming transactions** |
+| **Price List – Start and End date** |-|-|-| **Effect on pricing incoming transactions** |
 | --- | ----- | ----- | ----- | --- |
 |**PL A – Jan 1st – Jun 30th **||||
 | **Role Price** | **Role Price** | **Unit** | **Price** | |
@@ -69,7 +69,7 @@ Here's an example of how date effectivity is determined for specific role price 
 
 Here's an example of how date effectivity is determined for specific role price markup that has a couple role price overrides setup:
 
-| **Price List – Start and End date** | | | | | **Effect on pricing incoming transactions** |
+| **Price List – Start and End date** | -|- |- |- | **Effect on pricing incoming transactions** |
 | --- | --- | --- | --- | ----- | --- |
 | **PL A – Jan 1st – Jun 30th** | | | | | |
 | **Role Price** | **Role Price** | **Work Hours** | **Unit** | **Price** | |
@@ -81,4 +81,4 @@ Here's an example of how date effectivity is determined for specific role price 
 | | | | April 1st | 25% | This markup will be used on any transactions with transaction date that falls between April 1st and June 30th |
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
