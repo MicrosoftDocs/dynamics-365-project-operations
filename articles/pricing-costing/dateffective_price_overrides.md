@@ -14,8 +14,9 @@ ms.author: rumant
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Date-effective price overrides provide a way to override or change prices for specific prices in the price list. 
-For eg: Let’s say you have a standard price list with date effectivity from January 1st 2022 to December 31st 2022. In this price list, let’s say that you have a role price for a Network Technician set up as 100 USD. Typically, whenever anyone logs time as a Network Technician between January 1st 2022 and December 31st 2022, their time is priced at 100 USD.
-However, let’s say you need to change the price of Network Technician from Oct 1st 2022, to be 110 USD and not 100 USD. With date effective price overrides, you can go to the role price record for Network Technician and create a new price that is effective from October 1st 2022, as 110 USD. 
+
+For eg: Let’s say you have a standard price list with date effectivity from January 1st 2022 to December 31st 2022. In this price list, there are many role prices and one them is for a Network Technician set up as 100 USD per hour. This means that whenever anyone logs time as a Network Technician between January 1st 2022 and December 31st 2022, their time is priced at 100 USD.
+If you need to change the price of **ONLY** the Network Technician row in the list of Role prices to be 110 USD and not 100 USD from Oct 1st 2022, date effective price overrides feature enables you to set this up as an override for that specific role price row isntead of having to copy the whole price list and change the price of that one row.
 
 ## Date effective price overrides for Labor pricing 
 To setup Date effective price overrides for human resource time on a project, follow these steps:
