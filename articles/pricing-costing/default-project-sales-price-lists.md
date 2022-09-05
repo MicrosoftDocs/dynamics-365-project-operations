@@ -36,34 +36,38 @@ The system completes the following process to determine which price list to defa
 
 ## Cost price lists
 
-Cost price lists don't default to any entity in Project Operations. Determining the cost price list to use for project costs is always done on a per transaction basis. The system completes the following process to determine which price list to use for project costs:
+Cost price lists don't default to any entity in Project Operations. Determining the cost price list to use for project costs is always done on a per-transaction basis. The system completes the following process to determine which price list to use for project costs:
 
 1. The system looks at the price lists that are attached to the contracting organization unit of the project.
-1. Next, the system looks at the date effectivity of the price lists that match the date of the incoming estimate context or actual context. 
-- *Estimate context* refers to any of three contexts of estimation in Project Operations:
+1. Next, the system looks at the date effectivity of the price lists that match the date of the incoming estimate context or actual context.
 
-    - Project estimate line
-    - Quote line detail
-    - Contract line detail
-  
- - *Actual context* refers to any of three sources for actuals in Project Operations:
-   - Entry Journal line created manually, or correction journal lines created on a correction journal.
-   - Journal lines created during time, expense, or material usage log submission.
-   - Invoice line detail.
+    - *Estimate context* refers to any of three contexts of estimation in Project Operations:
 
-- When matching date effectivity of the incoming journal line or invoice line detail in the *actual context*, Project Operations uses the transaction date field.     
-    - If there are multiple price lists that are effective for the date on the incoming estimate or actual contexts, the price list created most recently is selected.
-    - If there aren't any price lists attached to the contracting organization unit of the project, the application looks at cost price lists attached to project parameters that match the currency of the project.
-  
+        - Project estimate line
+        - Quote line detail
+        - Contract line detail
+
+    - *Actual context* refers to any of three sources for actuals in Project Operations:
+
+       - Entry journal lines that are manually created, or correction journal lines that are created in a correction journal
+       - Journal lines that are created during submission of time, expense, or material usage logs
+       - Invoice line detail
+
+    When Project Operations matches date effectivity of the incoming journal line or invoice line detail in the *actual context*, it uses the **Transaction date** field.
+
+    - If multiple price lists are effective for the date of the incoming estimate context or actual context, the most recently created price list is selected.
+    - If no price lists are attached to the contracting organization unit of the project, the system looks at cost price lists that are attached to project parameters that match the currency of the project.
+
 ## Enable multi-currency cost price list
-This setting can be found in Settings -> Parameters. The default value of this setting is **No**. 
-When this setting is enabled or set to **Yes**, the system will: 
-1. Allow associating cost price lists in any currency to the Organizational Unit. So you could have a cost price list in EUR currency attached to an Organizational unit whose currency is USD. The system will continue to validate that cost price lists attached to an Organizational Unit don't have overlapping date effectivity.
-1. Validate that cost price lists that are attached to Project Parameters don't have overlapping date effectivities even if they have different currencies. This is different from the default behavior when this setting is set to **No** where cost price lists that have the **same** currency are validated for overlapping date effectivities.
-1. For an incoming transaction context, determine the cost price list based on date effectivity only. This is different from the default behavior when this setting is set to **No** where the system will select the cost price list that matches the currency on the project AND date effectivity. 
 
-Because of these changes in behaviors, Project Operations customers will be able to maintain a global cost price list that will be relevant for the entire company. It will not be necessary to have price lists in each currency of operations. This global price list will have date effectivity and will allow setup of cost rates in any currency for a for a specific combination of pricing dimension values. The currency on the cost price list is only used for defaulting when creating **Role prices**, **Category prices**, and **Price list** item records, and won't be used to determine the price list. 
+This setting can be found at **Settings** \> **Parameters**. The default value is **No**.
 
+When this setting is enabled (that is, the value is set to **Yes**), the system behaves in the following way:
 
+- It allows cost price lists in any currency to be associated with the organizational unit. For example, a cost price list in the EUR currency can be attached to an organizational unit in the USD currency. The system will continue to validate that cost price lists that are attached to an organizational unit don't have overlapping date effectivity.
+- It validates that cost price lists that are attached to project parameters don't have overlapping date effectivity, even if they have different currencies. This behavior differs from the default behavior (that is, the behavior when the value is set to **No**). In the default behavior, only cost price lists that have the **same** currency are validated for non-overlapping date effectivity.
+- For an incoming transaction context, it determines the cost price list based on date effectivity only. This behavior differs from the default behavior, where the system selects the cost price list that matches both the currency of the project and date effectivity.
+
+Because of these changes in behavior, Project Operations customers will be able to maintain a global cost price list that will be relevant for the whole company. They won't have to have price lists in each currency of operations. The global price list will have date effectivity and will enable cost rates to be set up in any currency for a specific combination of pricing dimension values. The currency of the cost price list is used only to enter default values when **Role prices**, **Category prices**, and **Price list** item records are created. It won't be used to determine the price list.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
