@@ -58,9 +58,9 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 
 ![Install Solution.](./media/21InstallSolution.png)
 
-## Install a CDS configuration and setup demo data
+## Set up demo data
 
-Install the CDS configuration and set up demo data by following instructions in the article, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
+Set up demo data by following instructions in the article, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
