@@ -6,7 +6,6 @@ description: This article explains how to post expense reports.
 author: ramagadu
 ms.date: 08/12/2022
 ms.topic: article
-ms.reviewer: johnmichalak
 ms.prod: 
 #
 
