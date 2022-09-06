@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
-## # Vendor invoicing - Concept and creation
+# Vendor invoicing - Concept and creation
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -99,4 +99,4 @@ On the Vendor invoice line, Project operations uses the following field values t
 
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
