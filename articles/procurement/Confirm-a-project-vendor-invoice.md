@@ -31,4 +31,4 @@ When you select **Confirm** on a vendor invoice, the following behavior occurs:
 > [!NOTE]
 > If any line on a vendor invoice has a verification status other than **Complete**, the vendor invoice can't be confirmed.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
