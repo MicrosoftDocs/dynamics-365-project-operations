@@ -242,7 +242,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
     ```
     {
-        "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
+        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
         "msdyn_resourceassignmentid": "@{guid()}",
         "msdyn_name": "ScheduleAPIDemoAssign1",
         "msdyn_taskid@odata.bind": "/msdyn_projecttasks(@{variables('msdyn_projecttaskid')})",
