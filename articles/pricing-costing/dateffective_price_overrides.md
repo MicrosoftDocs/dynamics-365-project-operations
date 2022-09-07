@@ -13,12 +13,12 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-**Date-effective price overrides** provide a way to override or change prices for specific prices in the price list. For example, you have a standard price list with date effectivity from January 1, 2022 until December 31, 2022. This price list has prices for many roles, for this example, the Network Technician price is set up as $100 USD per hour. When a Network Technician logs time between January 1, 2022 and December 31, 2022, the time is priced at $100 USD. On October 1,2022 you need to adjust the price *only* for the Network Technician from $100 USD per hour to $110 USD per hour. The Date effective price overrides feature lets you set up this change as an override for that specific role price row isntead of copying the whole price list and changing the price of that one row.
+**Date-effective price overrides** provide a way to override or change prices for specific prices in the price list. For example, you have a standard price list with date effectivity from January 1, 2022, until December 31, 2022. This price list has prices for many roles, for this example, the Network Technician price is set up as $100 USD per hour. When a Network Technician logs time between January 1, 2022, and December 31, 2022, the time is priced at $100 USD. On October 1,2022 you need to adjust the price *only* for the Network Technician from $100 USD per hour to $110 USD per hour. The Date effective price overrides feature lets you set up this change as an override for that specific role price row instead of copying the whole price list and changing the price of that one row.
 
 ## Date effective price overrides for Labor pricing 
-To setup **Date effective price overrides** for labor time on a project, follow these steps:
+To set up **Date effective price overrides** for labor time on a project, follow these steps:
 1.	Turn on **Date effective price overrides** feature
-1.	Setup a date-effective price override
+1.	Set up a date-effective price override
 
 ### Enable the **Date effective price overrides** feature
 
@@ -50,32 +50,32 @@ To set up a **Date effective price override** for **Role price** or **Role price
 1.	Select the button on the grid tool bar to create a new role price override. A **quick create** form opens to create a new role price override. On the form, add the effective from date for this price override, the unit, the new price and then select **Save** and close the form. 
 
 > [!NOTE]
->- A date effective price override for a **Role price** or a **Role markup** is applicable for same the pricing dimension values combination on its parent **Role price** or **Role price markup** row. 
->- The date selected in the **Effective date** should be between the date effectivity of the parent price List. The price override will be used from the date specified in the **Effective From** field and will apply until the end of the parent price list’s end date. If you set up another date effective override for the same **Role price**, then the new price will be effective from the date in the **Effective From** column till the start of the next override. 
+>- A **Date effective price override** for a **Role price** or a **Role markup** is applicable for same the pricing dimension values combination on its parent **Role price** or **Role price markup** row. 
+>- The date selected in the **Effective date** field should be between the date effectivity of the parent price List. The price override will be used from the date specified in the **Effective From** field and will apply until the end of the parent price list’s end date. If you set up another date effective override for the same **Role price**, then the new price will be effective from the date in the **Effective From** column till the start of the next override. 
 
-Here's an example of how date effectivity is determined for a specific **Role price** that has a couple role price overrides setup:
+The following example shows how date effectivity is determined for a specific **Role price** that has **Role price** overrides setup:
 
-| **Price List – Start and End date** |&nbsp;|&nbsp;|&nbsp;| **Effect on pricing incoming transactions** |
+| **Price list start and end date** |&nbsp;|&nbsp;|&nbsp;| **Effect on pricing for incoming transactions** |
 | ---- | ----- | ----- | ----- | --- |
 | **Price list A: January 1 through June 30** | &nbsp; | &nbsp; | &nbsp; |
 | **Role Price** | **Role Price** | **Unit** | **Price** |&nbsp;|
-| &nbsp; | Network technician | Hour | 100 | This price will be used on any transactions with transaction date that falls between Jan 1st – March 14th |
+| &nbsp; | Network technician | Hour | 100 | This price will be used on any transactions with transaction date that falls between January 1 through March 14 |
 | **Role Price Override** | **Effective From** | **Unit** | **Price** | &nbsp;|
-| &nbsp;| March 15th | Hour | 110 | This price will be used on any transactions with transaction date that falls between March 15th– March 30th |
-| &nbsp;| April 1st | Hour | 120 | This price will be used on any transactions with transaction date that falls between April 1st and June 30th |
+| &nbsp;| March 15 | Hour | 110 | This price will be used on any transactions with transaction date that falls between March 15 through March 30 |
+| &nbsp;| April 1 | Hour | 120 | This price will be used on any transactions with transaction date that falls between April 1 and June 30 |
 
-Here's an example of how date effectivity is determined for a specific **Role price markup** that has a couple role price overrides setup:
+The following example shows how date effectivity is determined for a specific **Role price markup** that has **Role price markup** overrides setup:
 
-| **Price List – Start and End date** | &nbsp;|&nbsp; |&nbsp; |&nbsp; | **Effect on pricing incoming transactions** |
+| **Price list start and end date** | &nbsp;|&nbsp; |&nbsp; |&nbsp; | **Effect on pricing for incoming transactions** |
 | --- | --- | --- | --- | ----- | --- |
-| **Price list A: January 1 – June 30** | &nbsp;|&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| **Price list A: January 1 through June 30** | &nbsp;|&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | **Role Price** | **Role Price** | **Work Hours** | **Unit** | **Price** |&nbsp; |
-| &nbsp; | Network technician | Regular | Hour | 100 | This price will be used on any transactions with transaction date that falls between Jan 1st – March 14th |
+| &nbsp; | Network technician | Regular | Hour | 100 | This price will be used on any transactions with transaction date that falls between January 1 through March 14 |
 | **Role Price Markup** | | **Organization Unit** | **Work Hours** | **Mark up %** | &nbsp; |
 | &nbsp;| &nbsp;| Contoso US | Overtime | 10% | &nbsp;|&nbsp;
 | **Role price markup override** | &nbsp; | &nbsp; | **Effective From** | **Price** | &nbsp; |
-| &nbsp; | &nbsp; | &nbsp;| March 15th | 20% | This markup percent will be used on any transactions with transaction date that falls between March 15th– March 30th |
-| &nbsp; | &nbsp; | &nbsp; | April 1st | 25% | This markup will be used on any transactions with transaction date that falls between April 1st and June 30th |
+| &nbsp; | &nbsp; | &nbsp;| March 15 | 20% | This markup percent will be used on any transactions with transaction date that falls between March 15 through March 30 |
+| &nbsp; | &nbsp; | &nbsp; | April 1 | 25% | This markup will be used on any transactions with transaction date that falls between April 1 and June 30 |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
