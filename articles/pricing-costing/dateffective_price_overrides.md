@@ -55,7 +55,7 @@ To set up a **Date effective price override** for **Role price** or **Role price
 
 The following example shows how date effectivity is determined for a specific **Role price** that has **Role price** overrides setup:
 
-| **Price list start and end date** |&nbsp;|&nbsp;|&nbsp;| **Effect on pricing for incoming transactions** |
+| **Price list start and end date** | &nbsp; | &nbsp; | &nbsp; | **Effect on pricing for incoming transactions** |
 | ---- | ----- | ----- | ----- | --- |
 | **Price list A: January 1 through June 30** | &nbsp; | &nbsp; | &nbsp; |
 | **Role Price** | **Role Price** | **Unit** | **Price** |&nbsp;|
@@ -66,7 +66,7 @@ The following example shows how date effectivity is determined for a specific **
 
 The following example shows how date effectivity is determined for a specific **Role price markup** that has **Role price markup** overrides setup:
 
-| **Price list start and end date** | &nbsp;|&nbsp; |&nbsp; |&nbsp; | **Effect on pricing for incoming transactions** |
+| **Price list start and end date** | &nbsp; | &nbsp; | &nbsp; | &nbsp; | **Effect on pricing for incoming transactions** |
 | --- | --- | --- | --- | ----- | --- |
 | **Price list A: January 1 through June 30** | &nbsp;|&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | **Role Price** | **Role Price** | **Work Hours** | **Unit** | **Price** |&nbsp; |
