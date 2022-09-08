@@ -34,7 +34,7 @@ The upgrade delivery program will be split into the three phases.
 
 As part of the upgrade process, we have added upgrade logs to the site map, so that administrators can more easily diagnose failures. In addition to the new interface, new validation rules will be added to ensure data integrity after an upgrade. The following validations will be added to the upgrade process.
 
-| Validations | Phase 1 (January 2022) | Phase 2 (April Wave 2022) | Phase 3  |
+| Validations | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | The WBS will be validated against common data integrity violations (for example, resource assignments that are associated with the same parent task but have different parent projects). | | :heavy_check_mark: | :heavy_check_mark: |
 | The WBS will be validated against the [known limits of Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
