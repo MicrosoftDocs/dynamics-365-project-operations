@@ -225,14 +225,16 @@
       - name: Set up cost and sales rates for expenses
         href: pricing-costing/set-up-cost-sales-rates-expenses.md
       - name: Set up cost and sales rates for materials 
-        href: pricing-costing/set-up-cost-sales-rates-materials.md
+        href: pricing-costing/set-up-cost-sales-rates-materials.md 
     - name: Defaults and overrides
       items:
       - name: Default price lists
         href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Determine cost prices for estimates and actuals
+      - name: Set up Date-effective overrides for specific prices in a price list
+        href: pricing-costing/dateffective_price_overrides.md
+      - name: Resolve cost prices for estimates and actuals
         href: pricing-costing/cost-price-resolution.md
       - name: Determine sales prices for estimates and actuals
         href: pricing-costing/sales-price-resolution.md
@@ -844,7 +846,9 @@
         href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Determine cost prices on project estimates and actuals
+      - name: Set up Date-effective overrides for specific prices in a price list
+        href: pricing-costing/dateffective_price_overrides.md
+      - name: Resolve cost prices on project estimates and actuals
         href: pro/pricing-costing/cost-price-resolution-sales.md
       - name: Determine sales prices for project estimates and actuals
         href: pro/pricing-costing/sales-price-resolution-sales.md
