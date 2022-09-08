@@ -24,7 +24,7 @@ We are excited to announce the first of three phases for upgrade from Microsoft 
 
 The upgrade delivery program will be split into the three phases.
 
-| Upgrade delivery | Phase 1 (January 2022) | Phase 2 (April Wave 2022) | Phase 3  |
+| Upgrade delivery | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3 (April Wave 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | No dependency on the work breakdown structure (WBS) for projects | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | The WBS within the currently supported limits of Project Operations | | :heavy_check_mark: | :heavy_check_mark: |

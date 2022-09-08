@@ -16,7 +16,7 @@ _**Lite deployment - deal to proforma invoicing_
 
 ## Prerequisites
 
-Before you begin the configuration, you must have a Common Data Service (CDS) environment provisioned for Dynamics 365 Project Operations.
+Before you begin the configuration, you must have a Dataverse environment provisioned for Dynamics 365 Project Operations.
 
 
 ## Instructions
