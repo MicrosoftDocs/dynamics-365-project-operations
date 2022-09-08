@@ -40,7 +40,7 @@ To enable the **Date-effective price overrides** feature, follow these steps.
 Date-effective price overrides can be set up on **Cost**, **Sales**, or **Purchase** price lists.
 
 > [!NOTE]
-> After update 10.0.26 for Microsoft Dynamics 365 Project Operations, the behavior of the **Date effective price overrides** feature has the following limitations:
+>The behavior of the **Date effective price overrides** currently has the following limitations:
 >
 > - Only role prices and role price markups support the **Date effective price overrides** feature in Project Operations.
 > - When you copy a price list by using the **Copy** action on the **Price List details** page, and when you create a project price list from a standard or custom price list during contract creation, date-effective price overrides are **not** copied from the source price list.
