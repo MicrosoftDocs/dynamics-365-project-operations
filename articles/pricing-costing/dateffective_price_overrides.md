@@ -51,8 +51,8 @@ To set up a date-effective price override for a role price or a role price marku
 1. Select the **Role prices** tab. This tab lists all the **Role price** records in the price list.
 1. Select the **Role price** record that you want to set up a new date-effective override price for, and then double-tap (or double-click) **Role price** to open the **Role price details** page.
 1. Select the **Date effective overrides** tab. The grid on this tab lists all the date-effective price overrides for the selected **Role price** record.
-1. On the toolbar above the grid, select the button to create a role price override. A **Quick create** dialog box appears.
-1. Specify the effective-from date, the unit, and the new price for the price override. Then select **Save**, and close the dialog box.
+1. On the toolbar above the grid, select **New role price override**. The **New role price override** slider opens.
+1. Specify the effective-from date, the unit, and the new price for the price override. Then select **Save**, and close the form.
 
 > [!NOTE]
 > - A date-effective price override for a role price or a role price markup is applicable to the same combination of pricing dimension values that exists on the parent **Role price** or **Role price markup** row.
