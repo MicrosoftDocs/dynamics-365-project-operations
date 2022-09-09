@@ -848,7 +848,7 @@
         href: pricing-costing/override-project-sales-price-list-default.md
       - name: Set up Date-effective overrides for specific prices in a price list
         href: pricing-costing/dateffective_price_overrides.md
-      - name: Resolve cost prices on project estimates and actuals
+      - name: Determine cost prices on project estimates and actuals
         href: pro/pricing-costing/cost-price-resolution-sales.md
       - name: Determine sales prices for project estimates and actuals
         href: pro/pricing-costing/sales-price-resolution-sales.md
