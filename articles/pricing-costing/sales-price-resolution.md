@@ -1,6 +1,6 @@
 ---
 title: Determine sales prices for project-based estimates and actuals
-description: This article provides information about how sales prices for project estimates and actuals are determined.
+description: This article provides information about how sales prices for project-based estimates and actuals are determined.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
