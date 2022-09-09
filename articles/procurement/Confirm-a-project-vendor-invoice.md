@@ -23,9 +23,7 @@ When you select **Confirm** on a vendor invoice, the following behavior occurs:
 3. If any cost actuals reference the vendor invoice line as part of the matching process, all cost actuals that are associated with the referenced vendor invoice line are reversed.
 4. New cost actuals are created by using the information on the vendor invoice line.
 5. After the vendor invoice is confirmed, you can no longer create correction journals, process time entry recalls, or cancel approval of the original time, expense, or material actuals that were reversed.
-6. **Project cost** is updated in **Finance** using the **Project integration journal** and **Procurement integration account** gets **reversed** once the **project integration journal** is **posted**.
-
-
+6. **Project cost** is updated in Finance using the **Project integration journal** and the **Procurement integration account** gets **reversed** once the **project integration journal** is posted.
 
 
 > [!NOTE]
