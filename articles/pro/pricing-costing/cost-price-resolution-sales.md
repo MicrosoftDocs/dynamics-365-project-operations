@@ -13,7 +13,8 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-To determine the cost price list and cost rates in the estimate and actual contexts, the system uses the information in the **Date**, **Currency**, and **Contracting Unit** fields of the related project.
+
+To determine cost rates on estimates and actuals in Microsoft Dynamics 365 Project Operations, the system first uses the date and currency in the incoming estimate or actual context to determine the cost price list. In the actual context specifically, the system uses the **Transaction date** field to determine which price list is applicable. **Transaction date** of the incoming estimate or actual is compared with the **Effective Start (Timezone independant)** and **Effective End (Timezone Independant)** on the price list. After the cost price list is determined, the system determines cost rate. 
 
 ## Determining cost rates in estimate and actual contexts for Time
 
