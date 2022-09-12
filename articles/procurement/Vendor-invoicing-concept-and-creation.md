@@ -77,7 +77,7 @@ When an Accounts payable clerk receives an invoice from the subcontractor, a new
 1.	In the vendor invoice lines area, select the **Project** tab.
 1.	Select the *Project** against which the subcontract invoice is shared by the subcontractor.
 1.	Select the **Project category**. It can be of any type of **Item**, **Expense**, or **Items**.
-1.	Select the **Role** If the selected **project category** is of **Hour** type. 
+1.	Select the **Role** only if the selected **project category** is of **Hour** type. 
 1.	Select **Post** to post the vendor invoice.
 
 Alternatively, you can also create a Vendor Invoice, by going to **Accounts Payable** \> **Invoices** \> **Open Vendor Invoices \> New** 
