@@ -2,7 +2,7 @@
 title: Determine sales prices for project-based estimates and actuals
 description: This article provides information about how sales prices for project-based estimates and actuals are determined.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
@@ -12,7 +12,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-To determine sales prices on estimates and actuals in Microsoft Dynamics 365 Project Operations, the system first uses the date and currency in the incoming estimate or actual context to determine the sales price list. In the actual context specifically, the system uses the **Transaction date** field to determine which price list is applicable. **Transaction date** of the incoming estimate or actual is compared with the **Effective Start (Timezone independant)** and **Effective End (Timezone Independant)** on the price list. After the sales price list is determined, the system determines the sales or bill rate.
+To determine sales prices on estimates and actuals in Microsoft Dynamics 365 Project Operations, the system first uses the date and currency in the incoming estimate or actual context to determine the sales price list. In the actual context specifically, the system uses the **Transaction date** field to determine which price list is applicable. The **Transaction date** of the incoming estimate or actual is compared with the **Effective Start (Timezone independent)** and **Effective End (Timezone independent)** on the price list. After the sales price list is determined, the system determines the sales or bill rate.
 
 ## Determining sales rates on actual and estimate lines for Time
 
@@ -30,11 +30,11 @@ Actual context for **Time** refers to:
 
 After a price list for sales is determined, the system completes the following steps to enter the default bill rate.
 
-1. The system matches the combination of the **Role**, **Resourcing Company** and **Resourcing Unit** fields in the estimate or actual context for **Time** against the role price lines on the price list. This matching assumes that you're using the out-of-box pricing dimensions for bill rates. If you've configured pricing so that it's based on fields other than or in addition to **Role**, **Resourcing Company** and **Resourcing Unit**, that combination of fields is used to retrieve a matching role price line.
-1. If the system finds a role price line that has a bill rate for the **Role**, **Resourcing Company** and **Resourcing Unit** combination, that bill rate is used as the default bill rate.
+1. The system matches the combination of the **Role**, **Resourcing Company**, and **Resourcing Unit** fields in the estimate or actual context for **Time** against the role price lines on the price list. This matching assumes that you're using the out-of-box pricing dimensions for bill rates. If you've configured pricing so that it's based on fields other than or in addition to **Role**, **Resourcing Company**, and **Resourcing Unit**, that combination of fields is used to retrieve a matching role price line.
+1. If the system finds a role price line that has a bill rate for the **Role**, **Resourcing Company**, and **Resourcing Unit** combination, that bill rate is used as the default bill rate.
 
 > [!NOTE]
-> If you configure a different prioritization of the **Role**, **Resourcing Company** and **Resourcing Unit** fields, or if you have other dimensions that have higher priority, the preceding behavior will change accordingly. The system retrieves role price records that have values that match each pricing dimension value in order of priority. Rows that have null values for those dimensions come last.
+> If you configure a different prioritization of the **Role**, **Resourcing Company**, and **Resourcing Unit** fields, or if you have other dimensions that have higher priority, the preceding behavior will change accordingly. The system retrieves role price records that have values that match each pricing dimension value in order of priority. Rows that have null values for those dimensions come last.
 
 ## Determining sales rates on actual and estimate lines for Expense
 
