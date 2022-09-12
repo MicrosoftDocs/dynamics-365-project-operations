@@ -12,7 +12,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-To determine sales prices on estimates and actuals in Microsoft Dynamics 365 Project Operations, the system first uses the date and currency in the incoming estimate or actual context to determine the sales price list. In the actual context specifically, the system uses the **Transaction date** field to determine which price list is applicable. The **Transaction date** of the incoming estimate or actual is compared with the **Effective Start (Timezone independent)** and **Effective End (Timezone independent)** on the price list. After the sales price list is determined, the system determines the sales or bill rate.
+To determine sales prices on estimates and actuals in Microsoft Dynamics 365 Project Operations, the system first uses the date and currency in the incoming estimate or actual context to determine the sales price list. In the actual context specifically, the system uses the **Transaction date** field to determine which price list is applicable. The **Transaction date** value of the incoming estimate or actual is compared with the **Effective Start (Timezone independent)** and **Effective End (Timezone independent)** values on the price list. After the sales price list is determined, the system determines the sales or bill rate.
 
 ## Determining sales rates on actual and estimate lines for Time
 
@@ -88,4 +88,3 @@ After a price list for sales is determined, the system completes the following s
 1. If the **Product** and **Unit** field values aren't a match, or if the pricing method is something other than **Currency amount**, the sales rate is set to **0** (zero) by default. This behavior occurs because Project Operations supports only the **Currency amount** pricing method for materials that are used on a project.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
