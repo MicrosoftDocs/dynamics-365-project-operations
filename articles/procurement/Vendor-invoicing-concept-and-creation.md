@@ -1,6 +1,6 @@
 ---
-title: Vendor invoicing concept and creation
-description: This article explains how to enable non-stocked materials and pending vendor invoices.
+title: Creating vendor invoices
+description: This article describes the concept of vendor invoices, and how to create them in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
 ms.date: 9/12/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
-# Vendor invoicing - Concept and creation
+# Creating vendor invoices
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
