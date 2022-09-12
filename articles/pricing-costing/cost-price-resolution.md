@@ -2,7 +2,7 @@
 title: Determine cost rates for project-based estimates and actuals
 description: This article provides information about how cost rates for project-based estimates and actuals are determined.
 author: rumant
-ms.date: 04/09/2021
+ms.date: 9/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
@@ -12,7 +12,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-To determine cost prices on estimates and actuals in Microsoft Dynamics 365 Project Operations, the system first uses the date and currency in the incoming estimate or actual context to determine the sales price list. In the actual context specifically, the system uses the **Transaction date** field to determine which price list is applicable. **Transaction date** of the incoming estimate or actual is compared with the **Effective Start (Timezone independant)** and **Effective End (Timezone Independant)** on the price list. After the cost price list is determined, the system determines the cost rate.
+To determine cost prices on estimates and actuals in Microsoft Dynamics 365 Project Operations, the system first uses the date and currency in the incoming estimate or actual context to determine the sales price list. In the actual context specifically, the system uses the **Transaction date** field to determine which price list is applicable. The **Transaction date** of the incoming estimate or actual is compared with the **Effective Start (Timezone independent)** and the **Effective End (Timezone independent)** on the price list. After the cost price list is determined, the system determines the cost rate.
 
 ## Determining cost rates in estimate and actual contexts for Time
 
@@ -29,9 +29,9 @@ Actual context for **Time** refers to:
 
 After a cost price list is determined, the system completes the following steps to enter the default cost rate.
 
-1. The system matches the combination of the **Role** , **Resourcing Company** and **Resourcing Unit** fields in the estimate or actual context for **Time** against the role price lines on the price list. This matching assumes that you're using the standard pricing dimensions for labor cost. If you've configured the system to match fields other than or in addition to **Role** , **Resourcing Company** and **Resourcing Unit**, a different combination is used to retrieve a matching role price line.
-1. If the system finds a role price line that has a cost rate for the **Role**, , **Resourcing Company** and **Resourcing Unit** combination, that cost rate is used as the default cost rate.
-1. If the system can't match the **Role** , **Resourcing Company** and **Resourcing Unit** values, it drops the dimension with the lowest priority and searches for role price lines that match for the other 2 dimension values and continues to progressively drop dimensions until a matching role price row is found. The cost rate from that record will be used as the default cost rate. If the system does not find a matching role price row, then price will default to 0 
+1. The system matches the combination of the **Role**, **Resourcing Company**, and **Resourcing Unit** fields in the estimate or actual context for **Time** against the role price lines on the price list. This matching assumes that you're using the standard pricing dimensions for labor cost. If you've configured the system to match fields other than or in addition to **Role**, **Resourcing Company** and **Resourcing Unit**, a different combination is used to retrieve a matching role price line.
+1. If the system finds a role price line that has a cost rate for the **Role**, **Resourcing Company**, and **Resourcing Unit** combination, that cost rate is used as the default cost rate.
+1. If the system can't match the **Role**, **Resourcing Company**, and **Resourcing Unit** values, it drops the dimension with the lowest priority, searches for role price lines that match for the other 2 dimension values, and continues to progressively drop dimensions until a matching role price row is found. The cost rate from that record will be used as the default cost rate. If the system does not find a matching role price row, then price will default to 0. 
 
 > [!NOTE]
 > If you configure a different prioritization of the **Role** and **Resourcing Unit** fields, or if you have other dimensions that have higher priority, the preceding behavior will change accordingly. The system retrieves role price records that have values that match each pricing dimension value in order of priority. Rows that have null values for those dimensions come last.
@@ -49,7 +49,7 @@ Actual context for **Expense** refers to:
 - Entry and Correction journal lines for **Expense**.
 - Journal lines that are created when an expense entry is submitted.
 
-After a cost price list is determined, the system complete the following steps to enter the default cost rate.
+After a cost price list is determined, the system completes the following steps to enter the default cost rate.
 
 1. The system matches the combination of the **Category** and **Unit** fields in the estimate or actual context for **Expense** against the category price lines on the price list.
 1. If the system finds a category price line that has a cost rate for the **Category** and **Unit** combination, that cost rate is used as the default cost rate.
@@ -69,7 +69,7 @@ Actual context for **Material** refers to:
 - Entry and Correction journal lines for **Material**.
 - Journal lines that are created when a Material usage log is submitted.
 
-After a cost price list is determined, the system complete the following steps to enter the default cost rate.
+After a cost price list is determined, the system completes the following steps to enter the default cost rate.
 
 1. The system uses the combination of the **Product** and **Unit** fields in the estimate or actual context for **Material** against the price list item lines on the price list.
 1. If the system finds a price list item line that has a cost rate for the **Product** and **Unit** combination, that cost rate is used as the default cost rate.
