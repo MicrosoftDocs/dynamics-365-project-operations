@@ -74,7 +74,7 @@ When an Accounts payable clerk receives an invoice from the subcontractor, a new
 1. On the **Invoice line** FastTab, select **Add line** to create a vendor invoice line.
 1. Select the procurement category that was created for subcontract lines, and enter the unit price, unit of measurement, and quantity.
 1. In the vendor invoice lines section, on the **Project** tab, select the project that the subcontractor shares the subcontract invoice against.
-1. Select the project category. It can be of any type of **Item**, **Expense**, or **Items**.
+1. Select the project category. It can be of any type of **Item**, **Expense**, **Materials**, or **Hours**.
 1. Select the role only if the selected project category is of the **Hour** type.
 1. Select **Post** to post the vendor invoice.
 
