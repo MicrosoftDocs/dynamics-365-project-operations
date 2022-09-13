@@ -107,7 +107,7 @@ You will need administrative access to your organization's Microsoft 365 Portal 
 The following resources provide helpful guidance as you begin your journey with Project Operations:
 
 - [Video Series -Project Operations Overview, feature deep dives and roadmap](https://youtube.com/playlist?list=PLcakwueIHoT_LJ3Fr1tHnkPk5lioqE6uH)
-- [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
+- [Dynamics 365 Project Operations](/training/modules/examine-dynamics-365-project-operations/)
 - [Determine your deployment type](determine-deployment-type.md)
 
 ## Frequently asked questions
