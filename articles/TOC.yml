@@ -546,6 +546,14 @@
       href: procurement/pending-vendor-invoices.md
     - name: Order goods and services for projects using project purchase orders
       href: procurement/non-stocked-materials-project-purchase-orders.md
+    - name: Vendor invoices for subcontracts in Dataverse 
+      items:
+      - name: Create vendor invoices
+        href: procurement/Vendor-invoicing-concept-and-creation.md
+      - name: Verification of vendor invoices with approved actuals
+        href: pro/subcontracting/VI-Verification.md
+      - name: Confirm project vendor invoices
+        href: procurement/Confirm-a-project-vendor-invoice.md
     - name: Vendor retention
       items:
       - name: Vendor retention overview
