@@ -13,7 +13,7 @@ ms.author: rumant
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-To determine the cost price list and cost rates in the estimate and actual contexts, the system uses the information in the **Date**, **Currency**, and **Contracting Unit** fields of the related project.
+To determine cost rates on estimates and actuals in Microsoft Dynamics 365 Project Operations, the system first uses the date and currency in the incoming estimate or actual context to determine the cost price list. In the actual context specifically, the system uses the **Transaction date** field to determine which price list is applicable. The **Transaction date** value of the incoming estimate or actual is compared with the **Effective Start (Timezone independent)** and **Effective End (Timezone independent)** values on the price list. After the cost price list is determined, the system determines cost rate. 
 
 ## Determining cost rates in estimate and actual contexts for Time
 
@@ -28,7 +28,7 @@ Actual context for **Time** refers to:
 - Entry and Correction journal lines for **Time**.
 - Journal lines that are created when a time entry is submitted.
 
-After a cost price list is determined, the system complete the following steps to enter the default cost rate.
+After a cost price list is determined, the system completes the following steps to enter the default cost rate.
 
 1. The system matches the combination of the **Role** and **Resourcing Unit** fields in the estimate or actual context for **Time** against the role price lines on the price list. This matching assumes that you're using the standard pricing dimensions for labor cost. If you've configured the system to match fields other than or in addition to **Role** and **Resourcing Unit**, a different combination is used to retrieve a matching role price line.
 1. If the system finds a role price line that has a cost rate for the **Role** and **Resourcing Unit** combination, that cost rate is used as the default cost rate.
@@ -50,7 +50,7 @@ Actual context for **Expense** refers to:
 - Entry and Correction journal lines for **Expense**.
 - Journal lines that are created when an expense entry is submitted.
 
-After a cost price list is determined, the system complete the following steps to enter the default cost rate.
+After a cost price list is determined, the system completes the following steps to enter the default cost rate.
 
 1. The system matches the combination of the **Category** and **Unit** fields in the estimate or actual context for **Expense** against the category price lines on the price list.
 1. If the system finds a category price line that has a cost rate for the **Category** and **Unit** combination, that cost rate is used as the default cost rate.
@@ -70,7 +70,7 @@ Actual context for **Material** refers to:
 - Entry and Correction journal lines for **Material**.
 - Journal lines that are created when a Material usage log is submitted.
 
-After a cost price list is determined, the system complete the following steps to enter the default cost rate.
+After a cost price list is determined, the system completes the following steps to enter the default cost rate.
 
 1. The system uses the combination of the **Product** and **Unit** fields in the estimate or actual context for **Material** against the price list item lines on the price list.
 1. If the system finds a price list item line that has a cost rate for the **Product** and **Unit** combination, that cost rate is used as the default cost rate.
