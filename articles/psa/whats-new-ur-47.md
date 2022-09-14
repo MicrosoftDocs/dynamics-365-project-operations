@@ -33,4 +33,4 @@ This article lists the features and fixes that are new or changed for Project Se
 The following issues have been fixed.
 
 **Resource Management**
-- A validation was updated to ensure users cannot trigger a null refererence exception when attempting to create a Project Team Member without a Bookable Resource.
+- A validation was updated to ensure users cannot trigger a null reference exception when attempting to create a Project Team Member without a **Bookable Resource**.
