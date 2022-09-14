@@ -11,7 +11,7 @@ ms.author: rumant
 
 # Verification of vendor invoices with approved actuals
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios , Lite deployment - deal to proforma invoicing_
 
 Microsoft Dynamics 365 Project Operations lets project managers verify vendor invoice lines in the following ways:
 
