@@ -2,7 +2,7 @@
 title: Set up subcontractors as bookable resources
 description: This article explains how to set up and maintain subcontractor resources that are created from users and contacts in the system, so that they can be associated with subcontracts in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 07/28/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
