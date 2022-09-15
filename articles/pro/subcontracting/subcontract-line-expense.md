@@ -2,7 +2,7 @@
 title:  Subcontract lines for expense categories
 description: This article explains how to record subcontract lines for expense and use the fields to record the purchase of time from vendors.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
@@ -10,7 +10,7 @@ ms.author: rumant
 
 #  Subcontract lines for expense categories
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 A subcontract in Dynamics 365 Project Operations can have a line for expense categories. Subcontract lines for expense categories allow a Project Manager to purchase categories of services or products from vendors that they can charge to a project.
 
