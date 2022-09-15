@@ -2,7 +2,7 @@
 title: State transitions on a subcontract 
 description: This article explains the state transitions on a subcontract in Microsoft Dynamics 365 Project Operations as the subcontract is created, executed, and closed.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
