@@ -501,7 +501,9 @@
     - name: Cancel approval on previously approved entries
       href: approvals/cancelapproval.md
     - name: Recall previously approved entries 
-      href: approvals/recall-cancel.md   
+      href: approvals/recall-cancel.md 
+    - name: Security and approvals
+      href: approvals/approvals-security.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
@@ -1084,6 +1086,8 @@
       href: approvals/cancelapproval.md
     - name: Recall previously approved entries 
       href: approvals/recall-cancel.md 
+    - name: Security and approvals
+      href: approvals/approvals-security.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
