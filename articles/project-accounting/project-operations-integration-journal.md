@@ -63,7 +63,7 @@ Posting can be performed interactively or in a batch. Note that all journals tha
 This feature improves the Project Operations integration journal experience by preventing any dual-write timing issues or setup issues from preventing the posting of valid journals. During posting to the Project Operations integration journal, the system validates every line in the journal. The system posts all lines that have no errors and creates a new journal for all lines that have posting errors. To review the journals that have posting error lines, go to **Project management and accounting** > **Journals** > **Project Operations integration journal**, and filter the journals by using the **Original journal** field.
 
 See the screenshot below for an example:
-![Integration journal flow.](./media/transferLines-originalJournal.png)
+![Screenshot with original journal showing.](./media/transferLines-originalJournal.png)
 
 If a periodic batch job is configured to post the integration journal these journals will be attempted again and posted if the timing issue has resolved itself. Any remaining journals should be manually reviewed to investigate the logs and any required action.
 
