@@ -507,7 +507,9 @@
     - name: Cancel approval on previously approved entries
       href: approvals/cancelapproval.md
     - name: Recall previously approved entries 
-      href: approvals/recall-cancel.md   
+      href: approvals/recall-cancel.md 
+    - name: Security and approvals
+      href: approvals/approvals-security.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
@@ -560,6 +562,8 @@
         href: procurement/vendor-retention-overview.md
       - name: Set up vendor retention
         href: procurement/set-up-vendor-retention.md
+      - name: Pay when paid
+        href: procurement/Pay-when-paid.md  
   - name: Invoicing
     items:
     - name: Invoicing process overview
@@ -1102,6 +1106,8 @@
       href: approvals/cancelapproval.md
     - name: Recall previously approved entries 
       href: approvals/recall-cancel.md 
+    - name: Security and approvals
+      href: approvals/approvals-security.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
