@@ -39,9 +39,9 @@ OperationSet is a unit-of-work pattern that can be used when several schedule im
 **Project schedule APIs**
 
 The following is a list of current Project schedule APIs.
-| **API**               | Description|
-| **msdyn_CreateProjectV1**               | This API can be used to create a project. The project and default project bucket are created immediately.                         |
+| **API**                                 | Description                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | This API can be used to create a project. The project and default project bucket are created immediately.                         |
 | **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately.                                  |
 | **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction.                                        |
 | **msdyn_PssCreateV1**                   | This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation. |
@@ -49,6 +49,7 @@ The following is a list of current Project schedule APIs.
 | **msdyn_PssDeleteV1**                   | This API is used to delete an entity. The entity can be any of the Project scheduling entities that support the delete operation. |
 | **msdyn_ExecuteOperationSetV1**         | This API is used to execute all of the operations within the given operation set.                                                 |
 | **msdyn_PssUpdateResourceAssignmentV1** | This API can be used to update a Resource Assignment planned work contour.                                                        |
+
 
 
 **Using Project schedule APIs with OperationSet**
