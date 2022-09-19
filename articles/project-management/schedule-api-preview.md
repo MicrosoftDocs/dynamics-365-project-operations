@@ -39,16 +39,17 @@ OperationSet is a unit-of-work pattern that can be used when several schedule im
 **Project schedule APIs**
 
 The following is a list of current Project schedule APIs.
+
 | **API**                                 | Description                                                                                                                       |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | This API can be used to create a project. The project and default project bucket are created immediately.                         |
+| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately.                         |
 | **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately.                                  |
 | **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction.                                        |
 | **msdyn_PssCreateV1**                   | This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation. |
 | **msdyn_PssUpdateV1**                   | This API is used to update an entity. The entity can be any of the Project scheduling entities that support the update operation  |
 | **msdyn_PssDeleteV1**                   | This API is used to delete an entity. The entity can be any of the Project scheduling entities that support the delete operation. |
-| **msdyn_ExecuteOperationSetV1**         | This API is used to execute all of the operations within the given operation set.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | This API can be used to update a Resource Assignment planned work contour.                                                        |
+| **msdyn_ExecuteOperationSetV1**         | This API is used to execute all the operations within the given operation set.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | This API is used to update a Resource Assignment planned work contour.                                                        |
 
 
 
@@ -57,6 +58,7 @@ The following is a list of current Project schedule APIs.
 Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are created immediately, these APIs can't be used in the **OperationSet** directly. However, you can use the API to create needed records, create an **OperationSet**, and then use these pre-created records in the **OperationSet**.
 
 **Supported operations**
+
 | **Scheduling entity**   | **Create** | **Update** | **Delete** | **Important considerations**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Project task            | Yes        | Yes        | Yes        | The **Progress**, **EffortCompleted**, and **EffortRemaining** fields can be edited in Project for the Web, but they can't be edited in Project Operations.                                                                                                                                                                                             |
@@ -68,7 +70,7 @@ Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are cre
 | Project Checklists      | Yes        | Yes        | Yes        |                                                                                                                                                                                                                                                                                                                                                         |
 | Project Label           | No         | Yes        | No         | Label names can be changed. This feature is only available for Project for the Web                                                                                                                                                                                                                                                                      |
 | Project Task to Label   | Yes        | No         | Yes        | This feature is only available for Project for the Web                                                                                                                                                                                                                                                                                                  |
-| Project Sprint          | Yes        | Yes        | Yes        | The Start field must have a date earlier than the Finish field. Sprints for the same project cannot overlap with each other.  This feature is only available for Project for the Web                                                                                                                                                                    |
+| Project Sprint          | Yes        | Yes        | Yes        | The **Start** field must have a date earlier than the **Finish** field. Sprints for the same project cannot overlap with each other. This feature is only available for Project for the Web                                                                                                                                                                    |
 
 
 
@@ -91,7 +93,7 @@ The following is a list of limitations and known issues:
 -   Each list of updated contours can contain a maximum of 100 time slices.
 -   **OperationSet** failure status and failure logs aren't currently available.
 -   There is a maximum of 400 sprints per project.
--   [Limits and boundaries on projects and tasks](https://docs.microsoft.com/en-us/project-for-the-web/project-for-the-web-limits-and-boundaries).
+-   [Limits and boundaries on projects and tasks](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 -   Labels are currently only available for Project for the Web.
 
 **Error handling**
@@ -111,11 +113,11 @@ Given schedule mode is:
 
 This assignment is for one week, four hours a day. This is because the resource calendar is from 9-1 PST, or four hours a day.
 
-|            | Task | Start Date | End Date  | Quantity | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Task | Start Date | End Date  | Quantity | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
 | 9-1 worker |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
 
-For example, let us say we want the worker to only work three hours a day this week to allow for one hour for other tasks.
+For example, if you want the worker to only work three hours each day this week and allow for one hour for other tasks.
 
 #### UpdatedContours sample payload:
 
@@ -133,7 +135,7 @@ For example, let us say we want the worker to only work three hours a day this w
 
 This is the assignment after the Update Contour Schedule API is run.
 
-|            | Task | Start Date | End Date  | Quantity | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+| &nbsp;     | Task | Start Date | End Date  | Quantity | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
 | 9-1 worker | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
