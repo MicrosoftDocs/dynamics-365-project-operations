@@ -57,7 +57,6 @@ The following is a list of current Project schedule APIs.
 Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are created immediately, these APIs can't be used in the **OperationSet** directly. However, you can use the API to create needed records, create an **OperationSet**, and then use these pre-created records in the **OperationSet**.
 
 **Supported operations**
-
 | **Scheduling entity**   | **Create** | **Update** | **Delete** | **Important considerations**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Project task            | Yes        | Yes        | Yes        | The **Progress**, **EffortCompleted**, and **EffortRemaining** fields can be edited in Project for the Web, but they can't be edited in Project Operations.                                                                                                                                                                                             |
@@ -67,11 +66,12 @@ Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are cre
 | Project team member     | Yes        | Yes        | Yes        | For the create operation, use the **CreateTeamMemberV1** API.                                                                                                                                                                                                                                                                                           |
 | Project                 | Yes        | Yes        |            | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**.                                                                                       |
 | Project Checklists      | Yes        | Yes        | Yes        |                                                                                                                                                                                                                                                                                                                                                         |
-| Project Label           | No         | Yes        | No         | Label names can be changed                                                                                                                                                                                                                                                                                                                              |
-| Project Task to Label   | Yes        | No         | Yes        |                                                                                                                                                                                                                                                                                                                                                         |
-| Project Sprint          | Yes        | Yes        | Yes        | The Start field must have a date earlier than the Finish field. Sprints for the same project cannot overlap with each other.                                                                                                                                                                                                                            |
+| Project Label           | No         | Yes        | No         | Label names can be changed. This feature is only available for Project for the Web                                                                                                                                                                                                                                                                      |
+| Project Task to Label   | Yes        | No         | Yes        | This feature is only available for Project for the Web                                                                                                                                                                                                                                                                                                  |
+| Project Sprint          | Yes        | Yes        | Yes        | The Start field must have a date earlier than the Finish field. Sprints for the same project cannot overlap with each other.  This feature is only available for Project for the Web                                                                                                                                                                    |
 
-These APIs can be called with entity objects that include custom fields.
+
+
 
 The ID property is optional. If it's provided, the system attempts to use it and throws an exception if it can't be used. If it isn't provided, the system will generate it.
 
@@ -119,6 +119,7 @@ For example, let us say we want the worker to only work three hours a day this w
 
 #### UpdatedContours sample payload:
 
+```json
 [{
 
 "minutes":900.0,
@@ -128,6 +129,7 @@ For example, let us say we want the worker to only work three hours a day this w
 "end":"2022-06-18T00:00:00-07:00"
 
 }]
+```
 
 This is the assignment after the Update Contour Schedule API is run.
 
@@ -136,7 +138,7 @@ This is the assignment after the Update Contour Schedule API is run.
 | 9-1 worker | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
-**Sample scenario
+**Sample scenario**
 
 In this scenario, you will create a project, a team member, four tasks, and two resource assignments. Next, you will update one task, update the project, delete one task, delete one resource assignment, and create a task dependency.
 
