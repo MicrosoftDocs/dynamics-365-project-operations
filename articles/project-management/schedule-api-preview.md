@@ -13,7 +13,7 @@ ms.author: sigitac
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
-##Scheduling entities##
+**Scheduling entities**
 
 Project schedule APIs provide the ability to perform create, update, and delete operations with **Scheduling entities**. These entities are managed through the Scheduling engine in Project for the web. Create, update, and delete operations with **Scheduling entities** were restricted in earlier Dynamics 365 Project Operations releases.
 
@@ -32,28 +32,30 @@ The following table provides a full list of the Project schedule entities.
 | Project Task to Label   | msdyn_projecttasktolabel    |
 | Project Sprint          | msdyn_projectsprint         |
 
-##OperationSet##
+**OperationSet**
 
 OperationSet is a unit-of-work pattern that can be used when several schedule impacting requests must be processed within a transaction.
 
-##Project schedule APIs##
+**Project schedule APIs**
 
 The following is a list of current Project schedule APIs.
+| **API**               | Description|
+| **msdyn_CreateProjectV1**               | This API can be used to create a project. The project and default project bucket are created immediately.                         |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately.                                  |
+| **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction.                                        |
+| **msdyn_PssCreateV1**                   | This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation. |
+| **msdyn_PssUpdateV1**                   | This API is used to update an entity. The entity can be any of the Project scheduling entities that support the update operation  |
+| **msdyn_PssDeleteV1**                   | This API is used to delete an entity. The entity can be any of the Project scheduling entities that support the delete operation. |
+| **msdyn_ExecuteOperationSetV1**         | This API is used to execute all of the operations within the given operation set.                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | This API can be used to update a Resource Assignment planned work contour.                                                        |
 
--   **msdyn_CreateProjectV1**: This API can be used to create a project. The project and default project bucket are created immediately.
--   **msdyn_CreateTeamMemberV1**: This API is used to create a project team member. The team member record is created immediately.
--   **msdyn_CreateOperationSetV1**: This API is used to schedule several requests that must be performed within a transaction.
--   **msdyn_PssCreateV1**: This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation.
--   **msdyn_PssUpdateV1**: This API is used to update an entity. The entity can be any of the Project scheduling entities that support the update operation.
--   **msdyn_PssDeleteV1**: This API is used to delete an entity. The entity can be any of the Project scheduling entities that support the delete operation.
--   **msdyn_ExecuteOperationSetV1**: This API is used to execute all of the operations within the given operation set.
--   **msdyn_PssUpdateResourceAssignmentV1**: This API can be used to update a Resource Assignment planned work contour.
 
-##Using Project schedule APIs with OperationSet##
+**Using Project schedule APIs with OperationSet**
 
 Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are created immediately, these APIs can't be used in the **OperationSet** directly. However, you can use the API to create needed records, create an **OperationSet**, and then use these pre-created records in the **OperationSet**.
 
-##Supported operations##
+**Supported operations**
 
 | **Scheduling entity**   | **Create** | **Update** | **Delete** | **Important considerations**                                                                                                                                                                                                                                                                                                                            |
 |-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -72,7 +74,7 @@ These APIs can be called with entity objects that include custom fields.
 
 The ID property is optional. If it's provided, the system attempts to use it and throws an exception if it can't be used. If it isn't provided, the system will generate it.
 
-##Limitations and known issues##
+**Limitations and known issues**
 
 The following is a list of limitations and known issues:
 
@@ -91,12 +93,12 @@ The following is a list of limitations and known issues:
 -   [Limits and boundaries on projects and tasks](https://docs.microsoft.com/en-us/project-for-the-web/project-for-the-web-limits-and-boundaries).
 -   Labels are currently only available for Project for the Web.
 
-##Error handling##
+**Error handling**
 
 -   To review errors generated from the Operation Sets, go to **Settings** \> **Schedule Integration** \> **Operations Sets**.
 -   To review errors generated from the Project schedule Service, go to **Settings** \> **Schedule Integration** \> **PSS Error Logs**.
 
-##Editing Resource Assignment Contours##
+**Editing Resource Assignment Contours**
 
 Unlike all other project scheduling APIs that update an entity, the resource assignment contour API is solely responsible for updates to a single field, msdyn_plannedwork, on a single entity, msydn_resourceassignment.
 
@@ -133,7 +135,7 @@ This is the assignment after the Update Contour Schedule API is run.
 | 9-1 worker | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
 
 
-## Sample scenario
+**Sample scenario
 
 In this scenario, you will create a project, a team member, four tasks, and two resource assignments. Next, you will update one task, update the project, delete one task, delete one resource assignment, and create a task dependency.
 
@@ -183,7 +185,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## Additional samples
+** Additional samples
 
 ```csharp
 #region Call actions --- Sample code ----
