@@ -26,7 +26,7 @@ Once a project has been successfully upgraded from Project Service Automation (P
 To convert a project a user must:
 
 1.  Navigate to the project’s main form and select **Convert** from the ribbon.
-2.  Select **OK** on the confirmation dialog to start the project conversion**.**
+2.  Select **OK** on the confirmation dialog to start the project conversion:
     1.  A banner will be displayed on the project’s main form indicating “*The project schedule is being converted. You cannot make changes to the project until the conversion is complete.”*
     2.  The user will be redirected to the project list.
 3.  Once the project conversion has been completed:
