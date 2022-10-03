@@ -72,4 +72,4 @@ The following table lists the features that are turned on by default in version 
 | Enable async operation when user needs to switch between sync and async operations | October 21, 2022 | April 9, 2021 | On by default | Expense management |
 | Expense policy evaluation for receipts required | October 21, 2022 | December 20, 2021 | On by default | Expense management |
 | List view of expense reports created by delegating workers | October 21, 2022 | February 19, 2020 | On by default | Expense management |
-| Mileage totals calculation by fiscal year | October 21, 2022 | May 10, 20202 | On by default | Expense management |
+| Mileage totals calculation by fiscal year | October 21, 2022 | May 10, 2022 | On by default | Expense management |
