@@ -1,6 +1,6 @@
 ---
 title: Feature changes for Project Service Automation to Project Operations
-description: This article provides an overview of the feature changes for Microsoft Dynamics 365 Project Service Automation to Microsoft Dynamics 365 Project Operations.
+description: This article provides an overview of the feature changes for Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -18,61 +18,65 @@ search.app:
 ms.reviewer: johnmichalak
 ---
 
-# Overview
-After a project has been successfully upgraded from Microsoft Dynamics 365 Project Service Automation (PSA) 3.X to Mircosoft Dynamics 365 Project Operations Lite, all project work breakdown structures (WBS) that are editable in the task grid will not be available. Customers will have the ability to review the WBS in the tracking grid where new fields have been added to provide all details related to the task. For projects where edits to the WBS are required, customers can selectively convert eligible projects to be editable in Project for the Web.
+# Feature changes for Project Service Automation to Project Operations
 
-## Conversion Process
+After a project has been successfully upgraded from Microsoft Dynamics 365 Project Service Automation 3.X to Dynamics 365 Project Operations Lite, all project work breakdown structures (WBSs) that are editable in the task grid will not be available. Customers will be able to review the WBSs in the tracking grid, where new fields have been added to provide all details that are related to the task. For projects where edits to the WBS are required, customers can selectively convert eligible projects so that they are editable in Project for the Web.
 
-To convert a project, complete these steps.
+## Project conversion process
 
-1.  Navigate to the project’s main form and select **Convert** from the ribbon.
-1.  Select **OK** on the confirmation dialog to start the project conversion:
-    1.  A banner displays on the project’s main form indicating **The project schedule is being converted. You cannot make changes to the project until the conversion is complete.**
-    1.  You are redirected to the project list.
-1.  After the project conversion is complete:
-    1.  The assigned project manager receives an in-app notification on the right side of the application.
-    1.  The banner indicating that conversion is in progress is removed.
-    1.  The schedule tab displays the new scheduling experience with Project for the Web. Any user with the appropriate licenses and security roles are able to edit the WBS.
-    1.  The **Scheduling engine** field is updated to Project for the Web.
-    1.  The conversion ribbon action is removed.
+To convert a project, follow these steps.
 
-> [!Note]
-> Bulk conversion of projects are not permitted and any attempts to update a large volume of projects at the same time will be throttled. These guardrails are in place to ensure high performance for all customers.
+1. Open the project's main page, and select **Convert** on the Action Pane.
+1. In the confirmation message box, select **OK** to start the project conversion. The following actions occur:
 
-## Manual vs Automatic Tasks
+    1. A message bar that appears on the project's main page states, "The project schedule is being converted. You cannot make changes to the project until the conversion is complete."
+    1. You're redirected to the project list.
 
-When an environment is upgraded from Project Service Automation to Project Operations, all tasks in the WBS are considered automatically scheduled. The concept of manually scheduled tasks is not available in Project for the Web. However, You have the option to define the preferred scheduling behavior for your projects using the [scheduling mode](/project-management/scheduling-modes.md) setting when creating new projects.
+    After the project conversion is completed, the following actions occur:
 
-## Restricted Operations for pre-conversion projects
+    1. The assigned project manager receives a notification on the right side of the application.
+    1. The message bar that states that conversion is in progress is removed.
+    1. The **Schedule** tab shows the new scheduling experience with Project for the Web. Any user who has the appropriate licenses and security roles can edit the WBS.
+    1. The **Scheduling engine** field is updated to **Project for the Web**.
+    1. The **Convert** button is removed from the Action Pane.
 
-This section outlines the functional differences expected when projects have not been converted.
+> [!IMPORTANT]
+> Bulk conversion of projects isn't permitted. Any attempt to update a large volume of projects at the same time will be throttled. This limitation helps ensure high performance for all customers.
+
+## Manual tasks vs. automatic tasks
+
+When an environment is upgraded from Project Service Automation to Project Operations, all tasks in the WBS are considered automatically scheduled. The concept of manually scheduled tasks isn't available in Project for the Web. However, you can define the preferred scheduling behavior for your projects by using the [scheduling mode](/project-management/scheduling-modes.md) setting when you create new projects.
+
+## Restricted operations for pre-conversion projects
+
+This section outlines the functional differences that you can expect when projects haven't been converted.
 
 ### Copy project
 
-The **Copy** operation is only supported on converted projects. Upgraded projects cannot be converted prior to conversion.
+The **Copy** operation is supported only on converted projects. Upgraded projects can't be converted before conversion.
 
-### Move Project
+### Move project
 
-Changing the start date of a project will not proportionately move the start of the tasks unless the project has been converted.
+A change to the start date of a project won't proportionately move the start of the tasks unless the project has been converted.
 
 ## Frequently asked questions
 
-### What are the differences between converted projects and new project created after upgrade has been completed?
+### What are the differences between converted projects and new projects that are created after the upgrade has been completed?
 
-Projects converted after the environment has been upgraded will have a flag set on the projects setting the schedule to only respect the project calendar which is the behavior in project service automation. However, new projects created after the upgrade will not have this flag set, and will respect the working hours of a resource when they are assigned to a task.
+For projects that are converted after the environment has been upgraded, a flag will be set that instructs the schedule to respect only the project calendar. This behavior matches the behavior in Project Service Automation. However, the flag won't be set for new projects that are created after the upgrade. Therefore, the schedule will respect the working hours of resources when they are assigned to a task.
 
-### What do I do if my project fails to convert?
+### What should I do if my project fails to be converted?
 
-If your project fails to convert, the first step is to review the error logs to identify any common issues related to your work breakdown structure. If the logs do not identify a specific error that is actionable by you, then please contact customer support where your case can be reviewed further.
+If your project fails to be converted, the first step is to review the error logs to identify any common issues that are related to your WBS. If the logs don't indicate a specific error that you can take action on, contact Customer Support so that your case can be reviewed further.
 
-### How are business closures handled in project for the web?
+### How are business closures handled in Project for the Web?
 
-Project for the web does not respect enterprise defined business closures defined at the organization level, but it will respect other types of days off defined in a given work hour template.
+Project for the Web doesn't respect business closures that the enterprise defines at the organization level. However, it will respect other types of days off that are defined in a given work hour template.
 
 ### What are the limitations of Project for the Web?
 
-[Create a work breakdown structure: Project Limitations](/project-management/create-wbs#project-limitations.md)
+See [Create a work breakdown structure: Project Limitations](/project-management/create-wbs#project-limitations.md).
 
 ### Can I expect changes to my cost and sales estimates?
 
-In rare cases where resource assignment contours are recalculated or fall on a different date boundary than the source project, there is a possibility that differences in sales and cost estimates could be observed. As part of the upgrade process, it is expected that customers test a representative sample set of projects to understand any potential schedule changes.
+In rare cases where resource assignment contours are recalculated, or where they fall on a different date boundary than the source project, you might see differences in sales and cost estimates. As part of the upgrade process, customers are expected to test a representative sample set of projects, so that they can understand any potential schedule changes.
