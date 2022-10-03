@@ -1,6 +1,6 @@
 ---
 title: Feature changes from Project Service Automation to Project Operations
-description: This article provides an overview of the feature changes from Project Service Automation to Dynamics 365 Project Operations.
+description: This article provides an overview of the feature changes from Microsoft Dynamics 365 Project Service Automation to Microsoft Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
@@ -19,24 +19,25 @@ ms.reviewer: johnmichalak
 ---
 
 # Overview
-Once a project has been successfully upgraded from Project Service Automation (PSA) 3.X to Project Operations Lite, all project work breakdown structures editable task grid will not be available. Customers will have the ability to review the work breakdown structure (WBS) in the tracking grid where new fields have been added to provide all details related to the task. For projects where edits to the WBS are required, customers will be able to selectively convert eligible projects to be editable in Project for the Web.
+After a project has been successfully upgraded from Microsoft Dynamics 365 Project Service Automation (PSA) 3.X to Mircosoft Dynamics 365 Project Operations Lite, all project work breakdown structures editable in the task grid will not be available. Customers will have the ability to review the work breakdown structure (WBS) in the tracking grid where new fields have been added to provide all details related to the task. For projects where edits to the WBS are required, customers can selectively convert eligible projects to be editable in Project for the Web.
 
 # Conversion Process
 
-To convert a project a user must:
+To convert a project, complete these steps.
 
 1.  Navigate to the project’s main form and select **Convert** from the ribbon.
-2.  Select **OK** on the confirmation dialog to start the project conversion:
-    1.  A banner will be displayed on the project’s main form indicating “*The project schedule is being converted. You cannot make changes to the project until the conversion is complete.”*
-    2.  The user will be redirected to the project list.
-3.  Once the project conversion has been completed:
-    1.  The assigned project manager will receive an in-app notification on the right side of the application
-    2.  The banner indicating conversion in projects will be removed.
-    3.  The schedule tab will the new scheduling experience with Project for the Web. Any user with the appropriate licenses and security roles will be able to edit the work breakdown structure.
-    4.  The scheduling engine field will be updated to Project for the Web.
-    5.  The conversion ribbon action will be removed.
+1.  Select **OK** on the confirmation dialog to start the project conversion:
+    1.  A banner is displayed on the project’s main form indicating **The project schedule is being converted. You cannot make changes to the project until the conversion is complete.**
+    1.  You are redirected to the project list.
+1.  After the project conversion is complete:
+    1.  The assigned project manager received an in-app notification on the right side of the application.
+    1.  The banner indicating conversion in projects is removed.
+    1.  The schedule tab displays the new scheduling experience with Project for the Web. Any user with the appropriate licenses and security roles are able to edit the work breakdown structure.
+    1.  The **Scheduling engine** field is updated to Project for the Web.
+    1.  The conversion ribbon action is removed.
 
-**Please note**: bulk conversion of projects is not permitted and any attempts to update a large volume of projects at the same time will be throttled. These guardrails are in place to ensure high performance for all customers.
+> [!Note]
+> Bulk conversion of projects is not permitted and any attempts to update a large volume of projects at the same time will be throttled. These guardrails are in place to ensure high performance for all customers.
 
 # Manual vs Automatic Tasks
 
