@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 # Feature changes for Project Service Automation to Project Operations
 
-After a project has been successfully upgraded from Microsoft Dynamics 365 Project Service Automation 3.X to Dynamics 365 Project Operations Lite, all project work breakdown structures (WBSs) that are editable in the task grid will not be available. Customers will be able to review the WBSs in the tracking grid, where new fields have been added to provide all details that are related to the task. For projects where edits to the WBS are required, customers can selectively convert eligible projects so that they are editable in Project for the web.
+After a project has been successfully upgraded from Microsoft Dynamics 365 Project Service Automation 3.X to Dynamics 365 Project Operations Lite, editing project tasks in the task grid work breakdown structure (WBS) is not possible. Customers will be able to review the WBSs in the tracking grid where new fields have been added to provide all details that are related to the task. For projects where edits to the WBS are required, you can selectively convert eligible projects to the new Project for the web scheduling experience.
 
 ## Project conversion process
 
@@ -53,7 +53,7 @@ This section outlines the functional differences that you can expect when projec
 
 ### Copy project
 
-The **Copy** operation is supported only on converted projects. Upgraded projects can't be converted before conversion.
+The **Copy** operation is supported only on converted projects. Upgraded projects can't be copied before conversion.
 
 ### Move project
 
