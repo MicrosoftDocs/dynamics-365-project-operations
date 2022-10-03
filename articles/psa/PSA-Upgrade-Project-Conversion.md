@@ -1,6 +1,6 @@
 ---
-title: Feature changes from Project Service Automation to Project Operations
-description: This article provides an overview of the feature changes from Microsoft Dynamics 365 Project Service Automation to Microsoft Dynamics 365 Project Operations.
+title: Feature changes for Project Service Automation to Project Operations
+description: This article provides an overview of the feature changes for Microsoft Dynamics 365 Project Service Automation to Microsoft Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2022
