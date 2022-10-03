@@ -19,13 +19,13 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Features included in this release
 
-|Feature area|Feature name|More information|
+| Feature area | Feature name | More information |
 | --- | --- | --- |
-|Expense management|**Ability to post expense liability in vendor currency** </br> </br>This feature enables expense reports to be posted in a vendor currency for the cash payment method.|[Ability to post expense liability in vendor currency](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature)|
+| Expense management | **Ability to post expense liability in vendor currency**<br>This feature enables expense reports to be posted in a vendor currency for the cash payment method. | [Ability to post expense liability in vendor currency](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
 
 ## Quality updates
 
-For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics Lifecycle Services (LCS), and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
+For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
 
 ## Features turned on by default in upcoming release
 
@@ -33,7 +33,7 @@ The following table lists the features that are turned on by default in version 
 
 | Feature name | Enable date | Feature added | Feature state | Module |
 | --- | --- | --- |--- |--- |
-| Enable async operation when user needs to switch between sync and async operations. | October 21, 2022 | April 9, 2021 | On by default |Expense management |
-| Expense policy evaluation for receipts required| October 21, 2022 | December 20, 2021 | On by default | Expense management |
-| List view of expense reports created by delegating workers. | October 21, 2022 | February 19, 2020 | On by default | Expense management |
-| Mileage totals calculation by fiscal year | October 21, 2022 | May 10, 20202| On by default | Expense management|
+| Enable async operation when user needs to switch between sync and async operations | October 21, 2022 | April 9, 2021 | On by default | Expense management |
+| Expense policy evaluation for receipts required | October 21, 2022 | December 20, 2021 | On by default | Expense management |
+| List view of expense reports created by delegating workers | October 21, 2022 | February 19, 2020 | On by default | Expense management |
+| Mileage totals calculation by fiscal year | October 21, 2022 | May 10, 20202 | On by default | Expense management |
