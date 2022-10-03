@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 # Feature changes for Project Service Automation to Project Operations
 
-After a project has been successfully upgraded from Microsoft Dynamics 365 Project Service Automation 3.X to Dynamics 365 Project Operations Lite, all project work breakdown structures (WBSs) that are editable in the task grid will not be available. Customers will be able to review the WBSs in the tracking grid, where new fields have been added to provide all details that are related to the task. For projects where edits to the WBS are required, customers can selectively convert eligible projects so that they are editable in Project for the Web.
+After a project has been successfully upgraded from Microsoft Dynamics 365 Project Service Automation 3.X to Dynamics 365 Project Operations Lite, all project work breakdown structures (WBSs) that are editable in the task grid will not be available. Customers will be able to review the WBSs in the tracking grid, where new fields have been added to provide all details that are related to the task. For projects where edits to the WBS are required, customers can selectively convert eligible projects so that they are editable in Project for the web.
 
 ## Project conversion process
 
@@ -36,8 +36,8 @@ To convert a project, follow these steps.
 
     1. The assigned project manager receives a notification on the right side of the application.
     1. The message bar that states that conversion is in progress is removed.
-    1. The **Schedule** tab shows the new scheduling experience with Project for the Web. Any user who has the appropriate licenses and security roles can edit the WBS.
-    1. The **Scheduling engine** field is updated to **Project for the Web**.
+    1. The **Schedule** tab shows the new scheduling experience with Project for the web. Any user who has the appropriate licenses and security roles can edit the WBS.
+    1. The **Scheduling engine** field is updated to **Project for the web**.
     1. The **Convert** button is removed from the Action Pane.
 
 > [!IMPORTANT]
@@ -45,7 +45,7 @@ To convert a project, follow these steps.
 
 ## Manual tasks vs. automatic tasks
 
-When an environment is upgraded from Project Service Automation to Project Operations, all tasks in the WBS are considered automatically scheduled. The concept of manually scheduled tasks isn't available in Project for the Web. However, you can define the preferred scheduling behavior for your projects by using the [scheduling mode](/project-management/scheduling-modes.md) setting when you create new projects.
+When an environment is upgraded from Project Service Automation to Project Operations, all tasks in the WBS are considered automatically scheduled. The concept of manually scheduled tasks isn't available in Project for the web. However, you can define the preferred scheduling behavior for your projects by using the [scheduling mode](/project-management/scheduling-modes.md) setting when you create new projects.
 
 ## Restricted operations for pre-conversion projects
 
@@ -69,11 +69,11 @@ For projects that are converted after the environment has been upgraded, a flag 
 
 If your project fails to be converted, the first step is to review the error logs to identify any common issues that are related to your WBS. If the logs don't indicate a specific error that you can take action on, contact Customer Support so that your case can be reviewed further.
 
-### How are business closures handled in Project for the Web?
+### How are business closures handled in Project for the web?
 
-Project for the Web doesn't respect business closures that the enterprise defines at the organization level. However, it will respect other types of days off that are defined in a given work hour template.
+Project for the web doesn't respect business closures that the enterprise defines at the organization level. However, it will respect other types of days off that are defined in a given work hour template.
 
-### What are the limitations of Project for the Web?
+### What are the limitations of Project for the web?
 
 See [Create a work breakdown structure: Project Limitations](/project-management/create-wbs#project-limitations.md).
 
