@@ -20,17 +20,16 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Features included in this release
 
-|Feature area|Feature name|More information|
+| Feature area | Feature name | More information |
 | --- | --- | --- |
-|Opportunity Management|**Revision and Activation of Quotes** </br> </br> Project Operations brings in the full support of the Sales process. Project quotes can be activated to represent a state where the quote is read-only and is being reviewed. Activated quotes can be revised to created new quotes with an incremented revision number. Activated project quotes or quote revisions can be closed as won or lost.|[Activate and revise a project quote](/dynamics365/project-operations/sales/activation-and-revision)|
-|Billing and Pricing|**Time-zone agnostic price defaulting** </br> </br> Project Operations has introduced the concept of a time-zone agnostic date on all project actuals. This new field called **Transaction date** is now available on journal lines and actuals, and will be used to the store the date on which the transaction occurred (without converting it to UTC(. This date will be used for downstream processes like price defaulting and invoice creation. |[Determine cost rates for project-based estimates and actuals](/dynamics365/project-operations/pricing-costing/cost-price-resolution) </br> </br> [Determine sales prices for project-based estimates and actuals](/dynamics365/project-operations/pricing-costing/sales-price-resolution)|
-|Billing and Pricing|**Date-effective price overrides in Project Operations** </br> </br> Date-effective price overrides provide a way to override or change specific prices in the price list.|[Date-effective price overrides](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides)|
-|Subcontracting|**Subcontracting and vendor invoice reconciliation** </br> </br> This features allows customers to create subcontracts to purchase  resource time, expense categories and materials used for project work and record vendors invoice in F&O that will be available to the Project Managers in Dataverse for verification.|[Subcontract management](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) </br> </br> [Create vendor invoices](/dynamics365/project-operations/procurement/vendor-invoicing-concept-and-creation)|
-|Time and Expense|**Global Approver** </br> </br> Allows ISV and centralized approval regardless of Project or Team member status within the Project|[Security and approvals](/dynamics365/project-operations/approvals/approvals-security)|
-|Expense management|**Ability to post expense liability in vendor currency** </br> </br> This feature enables expense reports to be posted in a vendor currency for the cash payment method.|[Ability to post expense liability in vendor currency](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature)|
-|Project Procurement|**Pay when paid vendor payments** </br> </br>This feature enables the use of Pay when paid (PWP) feature with ProjOps non-stock environments. It allows to block/retain the vendor payments based upon retention terms until received the payment from the customer.|[Pay when paid vendor payments](/dynamics365/project-operations/procurement/pay-when-paid)|
-|Project Procurement|**Project purchase requisitions** </br> </br>This feature will allow user to create project related purchase orders in Legal entities with Project Operations on Dynamics 365 Customer Engagement integration enabled. Project purchase orders can be used to record non-stocked materials procurement against the project by Procurement department persona. Project Purchase Order will not sync to Dataverse, however you can use virtual entity to surface Project purchase order lines in Dataverse for Project Manager information. Project related vendor invoice cost is integrated to Project Actuals entity in Dataverse. Project cost is recorded in Project subledger using Project Operations Integration journal.||
-
+| Opportunity Management | **Revision and Activation of Quotes**<br>Project Operations brings in the full support of the sales process. Project quotes can be activated to represent a state where the quote is read-only and is being reviewed. Activated quotes can be revised to create new quotes that have an incremented revision number. Activated project quotes or quote revisions can be closed as won or lost. | [Activate and revise a project quote](/dynamics365/project-operations/sales/activation-and-revision) |
+| Billing and Pricing | **Time-zone agnostic price defaulting**<br>Project Operations has introduced the concept of a time-zone agnostic date on all project actuals. A new field, **Transaction date**, is now available on journal lines and actuals, and will be used to store the date when the transaction occurred, but without converting that date to Coordinated Universal Time. This date will be used for downstream processes such as price defaulting and invoice creation. | <p>[Determine cost rates for project-based estimates and actuals](/dynamics365/project-operations/pricing-costing/cost-price-resolution)</p><p>[Determine sales prices for project-based estimates and actuals](/dynamics365/project-operations/pricing-costing/sales-price-resolution)</p> |
+| Billing and Pricing | **Date-effective price overrides in Project Operations**<br>Date-effective price overrides provide a way to override or change specific prices in the price list. | [Date-effective price overrides](/dynamics365/project-operations/pricing-costing/dateffective_price_overrides) |
+| Subcontracting | **Subcontracting and vendor invoice reconciliation**<br>This feature enables customers to create subcontracts to purchase resource time, expense categories, and materials that are used for project work. It also enables customers to record, in finance and operations apps, vendor invoices that will be available to project managers in Dataverse for verification. | <p>[Subcontract management](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview)</p><p>[Create vendor invoices](/dynamics365/project-operations/procurement/vendor-invoicing-concept-and-creation)</p> |
+| Time and Expense | **Global Approver**<br>This feature enables independent software vendor (ISV) and centralized approval, regardless of project or team member status in the project. | [Security and approvals](/dynamics365/project-operations/approvals/approvals-security) |
+| Expense management | **Ability to post expense liability in vendor currency**<br>This feature enables expense reports to be posted in a vendor currency for the cash payment method. | [Ability to post expense liability in vendor currency](/dynamics365/project-operations/expense/posting-expense-reports#enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature) |
+| Project Procurement | **Pay when paid vendor payments**<br>This feature enables the Pay when paid (PWP) feature to be used with Project Operations non-stock environments. It enables the vendor payments to be blocked/retained, based on retention terms, until the payment is received from the customer. | [Pay when paid vendor payments](/dynamics365/project-operations/procurement/pay-when-paid) |
+| Project Procurement | **Project purchase requisitions**<br>This feature enables users to create project-related purchase orders in legal entities where Project Operations on Dynamics 365 Customer Engagement integration is enabled. Project purchase orders can be used to record non-stocked material procurement against the project by Procurement department persona. Project purchase orders won't be synced to Dataverse. However, you can use a virtual entity to surface Project purchase order lines in Dataverse for project manager information. Project-related vendor invoice cost is integrated with the Project Actuals entity in Dataverse. Project cost is recorded in the Project subledger by using the Project Operations Integration journal. | |
 
 ## Project Operations dual-write maps updates
 
@@ -38,9 +37,9 @@ The following table shows the dual-write maps that have been modified or added i
 
 | Entity map | Updated version | Comments |
 | -------------- | ------------------- | ------------|
-| Project Operations integration actuals (msdyn_actuals) | 1.0.0.15| This map supports the subcontract actuals processing with Project Operations for resource based scenarios. |
-| Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices) | 1.0.0.2| This map supports the subcontract actuals processing with Project Operations for resource based scenarios. |
-| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.5| This map supports the subcontract actuals processing with Project Operations for resource based scenarios. |
+| Project Operations integration actuals (msdyn_actuals) | 1.0.0.15 | This map supports the subcontract actuals processing with Project Operations for resource-based scenarios. |
+| Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices) | 1.0.0.2 | This map supports the subcontract actuals processing with Project Operations for resource-based scenarios. |
+| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.5 | This map supports the subcontract actuals processing with Project Operations for resource-based scenarios. |
 
 Always run the latest version of the map in your environment, and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Some features and capabilities might not work correctly if the latest version of the map isn't activated. You can view the active version of the map in the **Version** column on the **Dual-write** page. To activate a new version of the map, select **Table map versions**, select the latest version, and then save the selected version. If you've customized an out-of-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
@@ -52,17 +51,17 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-|Billing and Pricing|2754422|Material and Expense estimates are not flowing to Microsoft Dynamics 365 Finance upon copying projects in Dataverse.|
-|Time and Expense|2787409|Able to approve non-project time entry as invalid approver.|
-|Opportunity Management|2788907|Updated error message on uniqueness validation for order lines include flags.|
-|Time and Expense|2842253|Null exception handling for time approval.|
-|Billing and Pricing|2844181|Failure in getting correlation id blocking invoice creation.|
-|Billing and Pricing|2876628|QLD, CLD - Estimate price list resolution should use legacy date range fields of the price list.|
-|Subcontracting|2893222|When a subcontract line does not have a role specified, it should be possible to select it on a Team member for any role.|
+| Billing and Pricing | 2754422 | Material and Expense estimates don't flow to Finance when projects are copied in Dataverse. |
+| Time and Expense | 2787409 | A non-valid approver can approve a non-project time entry. |
+| Opportunity Management | 2788907 | Updated error message on uniqueness validation for order lines that include flags. |
+| Time and Expense | 2842253 | Null exception handling for time approval. |
+| Billing and Pricing | 2844181 | Failure to get the correlation ID blocks invoice creation. |
+| Billing and Pricing | 2876628 | QLD, CLD - Estimate price list resolution should use legacy date range fields of the price list. |
+| Subcontracting | 2893222 | If no role is specified for a subcontract line, it should be possible to select that line on a team member for any role. |
 
 ### Project management and accounting in Finance
 
-For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics Lifecycle Services (LCS), and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
+For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=726559).
 
 ## Features turned on by default in upcoming release
 
@@ -70,7 +69,7 @@ The following table lists the features that are turned on by default in version 
 
 | Feature name | Enable date | Feature added | Feature state | Module |
 | --- | --- | --- |--- |--- |
-| Enable async operation when user needs to switch between sync and async operations. | October 21, 2022 | April 9, 2021 | On by default |Expense management |
-| Expense policy evaluation for receipts required| October 21, 2022 | December 20, 2021 | On by default | Expense management |
-| List view of expense reports created by delegating workers. | October 21, 2022 | February 19, 2020 | On by default | Expense management |
-| Mileage totals calculation by fiscal year | October 21, 2022 | May 10, 20202| On by default | Expense management|
+| Enable async operation when user needs to switch between sync and async operations | October 21, 2022 | April 9, 2021 | On by default | Expense management |
+| Expense policy evaluation for receipts required | October 21, 2022 | December 20, 2021 | On by default | Expense management |
+| List view of expense reports created by delegating workers | October 21, 2022 | February 19, 2020 | On by default | Expense management |
+| Mileage totals calculation by fiscal year | October 21, 2022 | May 10, 20202 | On by default | Expense management |
