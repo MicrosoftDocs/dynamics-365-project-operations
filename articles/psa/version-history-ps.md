@@ -33,7 +33,7 @@ search.app:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Project Service Automation desktop add-in                | 3.60          |
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](/dynamics365/release-plans/). 
@@ -41,30 +41,30 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | Station  | Region | Current version | Next version |  Scheduled date
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | August 26, 2022
+| | <i>First Release</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | October 07, 2022
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 02, 2022
-| | <i>Canada</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 02, 2022
-| | <i>India</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 02, 2022
-| | <i>France</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 02, 2022
-| | <i>South Africa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 02, 2022
-| | <i>Germany</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 02, 2022
-| | <i>Switzerland</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 02, 2022
-| | <i>Korea</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 02, 2022
-| | <i>Norway</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 02, 2022
+| | <i>South America</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 14, 2022
+| | <i>Canada</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 14, 2022
+| | <i>India</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 14, 2022
+| | <i>France</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 14, 2022
+| | <i>South Africa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 14, 2022
+| | <i>Germany</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 14, 2022
+| | <i>Switzerland</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 14, 2022
+| | <i>Korea</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 14, 2022
+| | <i>Norway</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 14, 2022
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 09, 2022
-| | <i>Asia Pacific</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 09, 2022
-| | <i>Great Britain</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 09, 2022
-| | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 09, 2022
-| | <i>United Arab Emirates</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 09, 2022
+| | <i>Japan</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 21, 2022
+| | <i>Asia Pacific</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 21, 2022
+| | <i>Great Britain</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 21, 2022
+| | <i>Oceana</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 21, 2022
+| | <i>United Arab Emirates</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 21, 2022
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 16, 2022
+| | <i>Europe</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | October 21, 2022
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 23, 2022
+| | <i>North America</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | November 04 2022
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 21, 2022
-| | <i>Dedicated Scale Groups</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | September 30, 2022
+| | <i>Government Community Cloud</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | November 02, 2022
+| | <i>Dedicated Scale Groups</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | November 11, 2022
 
 
 
