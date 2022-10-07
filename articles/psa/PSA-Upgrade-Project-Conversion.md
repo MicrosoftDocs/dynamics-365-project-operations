@@ -1,9 +1,9 @@
 ---
-title: Project Service Automation to Project Operations conversion process
+title: Project Service Automation to Project Operations project scheduling conversion process
 description: This article provides an overview of the feature changes for Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 10/07/2023
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -18,7 +18,7 @@ search.app:
 ms.reviewer: johnmichalak
 ---
 
-# Project Service Automation to Project Operations conversion process
+# Project Service Automation to Project Operations project scheduling conversion process
 
 After a project has been successfully upgraded from Microsoft Dynamics 365 Project Service Automation 3.X to Dynamics 365 Project Operations Lite, editing project tasks in the task grid work breakdown structure (WBS) is not possible. Customers will be able to review the WBSs in the tracking grid where new fields have been added to provide all details that are related to the task. For projects where edits to the WBS are required, you can selectively convert eligible projects to the new Project for the web scheduling experience.
 
