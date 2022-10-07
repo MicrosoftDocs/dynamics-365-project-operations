@@ -1540,7 +1540,7 @@
       href: psa/upgrade-project-operations-non-stocked.md    
     - name: Feature changes from Project Service Automation to Project Operations
       href: psa/psa-project-operations-changes.md 
-    - name: Project Service Automation to Project Operations conversion process  
+    - name: Project Service Automation to Project Operations project scheduling conversion process  
       href: psa/PSA-Upgrade-Project-Conversion.md
   - name: Plan your implementation (app version 3.x)
     items: 
