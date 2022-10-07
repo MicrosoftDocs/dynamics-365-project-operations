@@ -109,6 +109,18 @@ You can use the schedule in Project Operations to create predecessor relationshi
 
 The task mode has no effect on updates that are made to the start and end dates of predecessor/dependent tasks.
 
+## Understanding the the impacts of duration, resource calendars and project calendars on tasks
+A task's duration is defined as the number of working hours betwen the start time of the start date and end time of the finish date of the task.   Project for  the web defines duration units of measure as follows:
+
+| **Measure of Duration** |	**Quantity**|
+|----------------------------------------------------|----------------------|
+| Hours per day	| 8 |
+| Hours per week |	40 |
+| Days per month |	20 |
+
+Unassigned tasks are scheduled using the project's calendar, but scheduling of a task is updated to respect the a resource's calendar upon initial resource assignment.  Subsequent changes to a task with an assignment will be governed by the [scheduling mode](project-management/scheduling-modes) on the project.  To learn more about the influence of calendars on a task, read [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
+
 ## Accessibility and keyboard shortcuts
 
 The **Schedule** grid is fully accessible and can be used with screen readers such as Narrator, JAWS, or NVDA. You can move through the grid area by using arrow keys (as in Microsoft Excel), you can use the Tab key to advance through the interactive user interface elements, and you can use the Down arrow key, the Enter key, or the Spacebar to select and open the drop-down menus.
