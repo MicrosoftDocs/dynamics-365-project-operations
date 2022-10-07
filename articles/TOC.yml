@@ -1542,7 +1542,7 @@
       href: psa/psa-project-operations-changes.md 
     - name: Project Service Automation to Project Operations conversion process  
       href: psa/PSA-Upgrade-Project-Conversion.md
-- name: Plan your implementation (app version 3.x)
+  - name: Plan your implementation (app version 3.x)
     items: 
     - name: Sample data installation
       href: psa/install-sample-data-3-x.md
