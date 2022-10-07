@@ -118,7 +118,7 @@ A task's duration is defined as the number of working hours betwen the start tim
 | Hours per week |	40 |
 | Days per month |	20 |
 
-Unassigned tasks are scheduled using the project's calendar, but scheduling of a task is updated to respect the a resource's calendar upon initial resource assignment.  Subsequent changes to a task with an assignment will be governed by the [scheduling mode](project-management/scheduling-modes.md) on the project.  To learn more about the influence of calendars on a task, read [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+Unassigned tasks are scheduled using the project's calendar, but scheduling of a task is updated to respect the a resource's calendar upon initial resource assignment.  Subsequent changes to a task with an assignment will be governed by the [scheduling mode](scheduling-modes.md) on the project.  To learn more about the influence of calendars on a task, read [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 
 ## Accessibility and keyboard shortcuts
