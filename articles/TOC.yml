@@ -1534,7 +1534,15 @@
       href: psa/whats-new-v3-2020-wave1.md
     - name: What's new or changed in Project Service Automation V3
       href: psa/whats-new-changed-v3.md
-  - name: Plan your implementation (app version 3.x)
+  - name: Project Service Automation (4.x)
+    items: 
+    - name: Upgrade from Project Service Automation to Project Operations
+      href: psa/upgrade-project-operations-non-stocked.md    
+    - name: Feature changes from Project Service Automation to Project Operations
+      href: psa/psa-project-operations-changes.md 
+    - name: Project Service Automation to Project Operations conversion process  
+      href: psa/PSA-Upgrade-Project-Conversion.md
+- name: Plan your implementation (app version 3.x)
     items: 
     - name: Sample data installation
       href: psa/install-sample-data-3-x.md
