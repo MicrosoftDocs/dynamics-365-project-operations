@@ -27,7 +27,7 @@ The upgrade delivery program will be split into the three phases.
 | Upgrade delivery | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3 (April Wave 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | No dependency on the work breakdown structure (WBS) for projects | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| A work breakdown structure(WBS) within the currently supported limits of Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
+| A WBS within the currently supported limits of Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
 | A WBS outside the currently supported limits of Project Operations, including support for the Project desktop client | | | :heavy_check_mark: |
 
 ## Upgrade process features 
