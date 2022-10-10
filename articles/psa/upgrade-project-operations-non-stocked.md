@@ -88,7 +88,6 @@ After you update your customizations to cleanly import Project Operations, move 
 
     After the upgrade is completed, the environment should show that Project Operations is installed, and that Project Service Automation isn't installed.
 
-    > [!NOTE]
     > Depending on the amount of data in the environment, the upgrade might take several hours. The core team that is managing the upgrade should plan accordingly and run the upgrade during non-business hours. In some cases, if the data volume is large, the upgrade should be run during the weekend. The decision about scheduling should be based on the testing results in lower environments.
 
 3. Upgrade custom solutions as appropriate. At this point, deploy any changes that you made to your customizations in the [Testing and refactoring customizations](#testing-and-refactoring-customizations) section of this article.
@@ -149,5 +148,4 @@ There are two options for installing Project Operations before the upgrade tooli
 - Provision a new environment.
 - Deploy Project Operations separately on any sales organization where Project Service Automation isn't present.
 
-> [!NOTE]
 > If Project Service Automation is installed on an organization, but it wasn't used, it can be uninstalled. After you completely remove Project Service Automation, Project Operations can be installed on the same organization.
