@@ -90,6 +90,23 @@ After you update your customizations to cleanly import Project Operations, move 
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.
     
+### Upgrade Operations
+The following steps outlined below describe the upgrade process and associated error logging:
+
+- **PSA Version check**
+	  - To install project operations, customers must have V3.10.58.120 or higher.
+- **Pre-validation**
+    - When an administrator initiates upgrade, the system will execute a pre-validation operation on each entity core to the Project Operations solution. This step will verify all entities references are valid and it will also ensure that data related to the work breakdown structure is within the published limits of Project for the Web.
+- **Meta-data upgrade**
+	- Upon successful pre-validation, the system will initiate changes to the schema and create a deprecrate components solution which can be later removed once a customer has completed all required refactoring of customizations.  This stage is the longest part of the upgrade process, and can take up to 4 hours to complete.
+- **Data upgrade**
+	- After all required schema changes have beem competed in the meta-data upgrade step, the customer’s data will migrated to the new schema including any required defaulting and recalculation.
+- **Project schedule engine update**
+  - Upon successful data upgrade, the schedule tab on the main form will be relabeled **Tasks**. When a user accesses this tab post upgrade, they will directed to navigate to the tracking grid to view a read only version of the WBS. To edit the WBS, the customer must initiate the schedule [conversion process](PSA-Upgrade-Project-Conversion.md). All projects without a pre-existing WBS, can use the new scheduling experience directly without conversion.
+
+
+
+    
 ### Validate common scenarios
 
 When you validate your specific customizations, we recommend that you also review the business processes that are supported across the applications. These business processes include, but aren't limited to, the creation of sales entities such as quotations and contracts, and the creation of projects that include WBSs and approval of actuals.
