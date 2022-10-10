@@ -1534,7 +1534,7 @@
       href: psa/whats-new-v3-2020-wave1.md
     - name: What's new or changed in Project Service Automation V3
       href: psa/whats-new-changed-v3.md
-  - name: Project Service Automation (4.x)
+  - name: Project Service Automation upgrade (app version Project Operations Lite 4.x)
     items: 
     - name: Upgrade from Project Service Automation to Project Operations
       href: psa/upgrade-project-operations-non-stocked.md    
