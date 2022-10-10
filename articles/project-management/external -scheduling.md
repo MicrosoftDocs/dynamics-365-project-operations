@@ -29,7 +29,7 @@ When a project has enabled external scheduling, access to Project for the Web is
 
 When a project has enabled external scheduling, it is incumbent upon the customer to define the data for all work breakdown structure (WBS) related entities including tasks, team members, resource assignments and dependencies.
 
-![](RackMultipart20221010-1-lt0se0_html_2834483a1404aea8.gif)
+![](../media/projectplanningdatamodel.png)
 
 ## Validations
 
