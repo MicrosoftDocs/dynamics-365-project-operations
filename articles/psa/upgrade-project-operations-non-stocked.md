@@ -127,6 +127,9 @@ As part of continuing investments in Project Operations, several new capabilitie
 - [Contract not-to-exceed status and validations](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - Task-based billing
 
+### Resource Management
+Project Operations will provide optional support for the Universal Resource Scheduling (URS) board and scheduling  assistant.  This new experience will become mandatory in the April 2023 wave.
+
 ## Frequently asked questions
 
 ### Which deployment types are currently supported for upgrade?
