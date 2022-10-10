@@ -52,11 +52,6 @@ the following operations are not permitted until a project has been converted:
 ### Quoting and Contracting
 
 - **Importing Quote Line and Contract Line details** : When importing quote or contract line details from a project, the application has only been tested to support a maximum of 500 tasks in the work breakdown structure based on a limit of 20 assignments per task.
-- **Task based billing** :
-
-### Time and Expense
-
-- **Importing Time entries for assignments** :
 
 ### Actuals and Invoicing
 
