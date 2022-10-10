@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 
-# Scheduling modes
+# External Scheduling
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -29,7 +29,7 @@ When a project has enabled external scheduling, access to Project for the Web is
 
 When a project has enabled external scheduling, it is incumbent upon the customer to define the data for all work breakdown structure (WBS) related entities including tasks, team members, resource assignments and dependencies.
 
-![](../media/projectplanningdatamodel.png)
+![](media/projectplanningdatamodel.png)
 
 ## Validations
 
