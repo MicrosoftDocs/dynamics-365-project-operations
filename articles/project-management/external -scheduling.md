@@ -15,11 +15,11 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 ## Overview
 
-The external scheduling mode enables customers to natively create, update and delete work breakdown structure related entities with limited validation and without the current limits enforced by Project for the Web. This project mode should only be used by customers who have the tools to define the work breakdown structure outside the scheduling logic provided by Project Operations or customers who need to store a very simple list of tasks and therefore do not required any scheduling logic. It is important to note that if the data is not correctly populated in the work breakdown structure related entities, it may not be rendered in the other grids used by Project Operations such as the resource reconciliation grid, the estimates grid, the tracking grid or the resource assignment grid.
+The external scheduling mode enables customers to natively create, update and delete work breakdown structure related entities with limited validation and without the current limits enforced by Project for the Web. This project mode should only be used by customers who have the tools to define the work breakdown structure outside the scheduling logic provided by Project Operations or customers who need to store a very simple list of tasks and therefore do not required any scheduling logic. It is important to note that if the data is not correctly populated in the work breakdown structure related entities, it may not be rendered in the resource reconciliation grid, estimates grid, tracking grid or the resource assignment grid.
 
 ## Settings
 
-To use the external scheduling mode, customers must first create a new project and select the mode **Externally Scheduled** from the drop down on the project main form. Once this mode has been set on a project, it cannot be changed.
+To use the external scheduling mode, customers must first create a new project and select the scheduling engine **Externally Scheduled** from the drop down on the project main form. Once this mode has been set on a project, it cannot be changed.
 
 ## Viewing the Work Breakdown Structure
 
@@ -30,12 +30,6 @@ When a project has enabled external scheduling, access to Project for the Web is
 When a project has enabled external scheduling, it is incumbent upon the customer to define the data for all work breakdown structure (WBS) related entities including tasks, team members, resource assignments and dependencies.
 
 ![](media/projectplanningdatamodel.png)
-
-## Validations
-
-When accessing the tracking grid, the following validations remain in place and are enforced regardless of project mode:
-
-- Need DEVS input
 
 ## Functional Limitations
 
@@ -51,7 +45,8 @@ the following operations are not permitted until a project has been converted:
 
 ### Resource Management
 
-- **Generic resource fulfillment:** Generic resource fulfillment will not be supported on externally scheduled projects. Attempts to fulfill active open requirements will create new project team members but will not
+- **Generic resource fulfillment:** Generic resource fulfillment will not be supported on externally scheduled projects. Attempts to fulfill active open requirements will create new project team members but will not delete the generic team member or replace them on any existing resource assignments.
+
 - **Delete Team Member:** Delete team member will not automatically delete resource assignments.
 
 ### Quoting and Contracting
