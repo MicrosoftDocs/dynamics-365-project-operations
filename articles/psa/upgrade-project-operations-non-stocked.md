@@ -117,7 +117,7 @@ This section provides a summary of the major changes that you can expect between
 
 The project planning capabilities in Project Operations no longer rely on a combination client-side logic and server-side logic. Instead, Project Operations uses Project for the Web as its scheduling engine. This change in scheduling capabilities enables several new features, such as Board and Gantt views, resource-driven planning, [task checklist items](https://support.microsoft.com/office/use-task-checklists-in-microsoft-project-for-the-web-c69bcf73-5c75-4ad3-9893-6d6f92360e9c), and project scheduling modes. The new scheduling capabilities are also supported by a rich set of new [application programming interfaces (APIs)](../project-management/schedule-api-preview.md). These APIs are intended to help ensure that no programmatic operation for creating, updating, or deleting an entity in the WBS corrupts the calculated fields in the schedule.
 
-## Billing and pricing
+### Billing and pricing
 
 As part of continuing investments in Project Operations, several new capabilities are available in Billing and pricing. Here are some examples:
 
