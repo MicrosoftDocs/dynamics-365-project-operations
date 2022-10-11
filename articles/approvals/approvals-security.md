@@ -28,6 +28,6 @@ To approve non-project entries, you must be the manager of the submitter.
 > [!NOTE]
 > The [Approval sets](approval-sets.md) feature must be enabled before you can use the Project Approver Admin functionality.
 
-The **Project Approver Admin** security role allows users to bypass policies and allows for the approval of entries across all projects. Assignment of this role will bypass the validation logic that requires team membership and being marked as an approver. You must have access to the relevant related entities, such as **Project**. That access can be assigned by someone who has the **Project Manager** role.
+The **Project Approver Admin** security role allows users to bypass policies and allows for the approval of entries across all projects. Assignment of this role will bypass the validation logic that requires team membership and being marked as an approver. You must have access to the relevant related tables, such as **Project**, via security roles assigned to you.
 
 The SYSTEM user context bypasses validations in the same way as the Project Approver Admin security role.
