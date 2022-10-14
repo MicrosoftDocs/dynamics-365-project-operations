@@ -96,7 +96,7 @@ After you update your customizations to cleanly import Project Operations, move 
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.
     
-### Upgrade Operations
+### Upgrade to Project Operations Lite
 
 The following steps describe the upgrade process and associated error logging:
 
