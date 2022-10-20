@@ -1442,6 +1442,10 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update release 47, V3
+      href: psa/whats-new-ur-47.md
+    - name: What's new or changed in Update release 45, V3
+      href: psa/whats-new-ur-45.md        
     - name: What's new or changed in Update release 44, V3
       href: psa/whats-new-ur-44.md        
     - name: What's new or changed in Update release 43, V3
@@ -1530,6 +1534,14 @@
       href: psa/whats-new-v3-2020-wave1.md
     - name: What's new or changed in Project Service Automation V3
       href: psa/whats-new-changed-v3.md
+  - name: Project Service Automation upgrade (app version Project Operations Lite 4.x)
+    items: 
+    - name: Upgrade from Project Service Automation to Project Operations
+      href: psa/upgrade-project-operations-non-stocked.md    
+    - name: Feature changes from Project Service Automation to Project Operations
+      href: psa/psa-project-operations-changes.md 
+    - name: Project Service Automation to Project Operations project scheduling conversion process  
+      href: psa/PSA-Upgrade-Project-Conversion.md
   - name: Plan your implementation (app version 3.x)
     items: 
     - name: Sample data installation

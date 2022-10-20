@@ -59,7 +59,7 @@ Complete the following steps to indent or promote a task.
 
 ### Move tasks up and down
 
-Tasks can me moved to any level in the work breakdown structure in one of two ways:
+Tasks can be moved to any level in the work breakdown structure in one of two ways:
 
 - Select one more tasks and drag them to the desired location.
 - Select one or more tasks, right-click and select **Cut**, select the destination cell in the schedule, and then right-click and select **Paste**.
@@ -108,6 +108,18 @@ The **Category** field holds the values that indicate a broader type of work tha
 You can use the schedule in Project Operations to create predecessor relationships between tasks. The **Predecessor** field uses one or more values to indicate the tasks that a task depends on. When predecessor values are assigned to a task, the task can start only after all of the predecessor tasks have been completed. Because of the dependency, the planned start date of the task is reset to the date when the predecessor tasks are completed.
 
 The task mode has no effect on updates that are made to the start and end dates of predecessor/dependent tasks.
+
+## Understanding the impacts of duration, resource calendars, and project calendars on tasks
+A task's duration is defined as the number of working hours between the start time of the start date and end time of the finish date of the task.   Project for  the web defines duration units of measure as follows:
+
+| **Measure of Duration** |	**Quantity**|
+|----------------------------------------------------|----------------------|
+| Hours per day	| 8 |
+| Hours per week |	40 |
+| Days per month |	20 |
+
+Unassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment will be governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## Accessibility and keyboard shortcuts
 
