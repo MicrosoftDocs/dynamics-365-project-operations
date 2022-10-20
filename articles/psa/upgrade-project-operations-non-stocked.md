@@ -65,7 +65,7 @@ Prerequisites for Phase 3 will be updated as the general availability date appro
 
 ## Licensing
 
-If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. You can then test the capabilities of Project Operations in a separate environment while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you will have to transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license.
+If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. In this way, you can test the capabilities of Project Operations while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you will have to transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license. Customers who have scenarios where they have deployed Project Service Automation and need to continue to use or increase their licenses for PSA while they plan to move to Project Operations, may request temporary PSA licenses based on Project Operations purchased licenses. One Project Service Automation license will be issued for one Project Operations license. Temporary PSA licenses may be requested by using this link: aka.ms/ineedpsa
 
 ## Testing and refactoring customizations
 
