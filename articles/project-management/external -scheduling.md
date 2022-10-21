@@ -58,4 +58,4 @@ The following operations are not permitted on an externally scheduled project:
 
 ### Actuals and Invoicing
 
-While there are no changes to existing validations between the WBS and financial transactions, it is important to note that a customer should conform to the out of the box data model to ensure all downstream transactions execute as expected.
+- While there are no changes to existing validations between the WBS and financial transactions, it is important to note that a customer should conform to the out of the box data model to ensure all downstream transactions execute as expected.
