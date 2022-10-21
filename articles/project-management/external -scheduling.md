@@ -36,7 +36,7 @@ When a project has enabled external scheduling, it is incumbent upon the custome
 
 ## Functional Limitations
 
-the following operations are not permitted until a project has been converted:
+The following operations are not permitted on an externally scheduled project:
 
 ### Project Planning
 
