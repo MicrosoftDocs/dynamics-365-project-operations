@@ -15,7 +15,10 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 ## Overview
 
-The external scheduling mode enables customers to natively create, update and delete work breakdown structure related entities with limited validation and without the current limits enforced by Project for the Web. This project mode should only be used by customers who have the tools to define the work breakdown structure outside the scheduling logic provided by Project Operations or customers who need to store a very simple list of tasks and therefore do not required any scheduling logic. It is important to note that if the data is not correctly populated in the work breakdown structure related entities, it may not be rendered in the resource reconciliation grid, estimates grid, tracking grid or the resource assignment grid.
+The external scheduling mode enables customers to natively create, update and delete work breakdown structure related entities with limited validation and without the current limits enforced by Project for the Web. This mode should only be used by customers who have the tools to define a work breakdown structure outside the scheduling logic provided by Project Operations or customers who do need to manage schedule hieracrchy, dependencies or task duration. It is important to note that if the data is not correctly populated in the work breakdown structure related entities, it may not be rendered in the resource reconciliation grid, estimates grid, tracking grid or the resource assignment grid.
+
+## Configuration
+This feature is enabled by default.  However, on the out of the box project main form, the field is not visible by default.  To enable the field, navigate to the main form of the project entity in the Maker portal, select the **Scheduling Engine** field and change the field to be **Visible by Default**.  For customers who do not use the out of the box project main form, simply edit your existing form and add the **Scheduling Engine** field.  
 
 ## Settings
 
@@ -23,7 +26,7 @@ To use the external scheduling mode, customers must first create a new project a
 
 ## Viewing the Work Breakdown Structure
 
-When a project has enabled external scheduling, access to Project for the Web is restricted on that project. For a customer to view the work breakdown structure (WBS) they will need to navigate to the tracking tab where the full work breakdown structure will be displayed.
+When a project is externally scheduled, access to Project for the Web is restricted on that project. For a customer to view the work breakdown structure (WBS) they will need to navigate to the tracking grid where the full work breakdown structure will be displayed, 
 
 ## Creating and editing the Work Breakdown Structure
 
