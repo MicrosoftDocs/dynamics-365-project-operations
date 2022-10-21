@@ -1752,8 +1752,6 @@
         href: psa/FAQ-soft-book-in-web-app.md
       - name: How do I customize the Project Stages business process flow?
         href: psa/FAQ-customize-bpf.md
-      - name: Upgrade considerations for the work breakdown structure
-        href: psa/upgrade-considerations-tasks.md
     - name: White papers
       href: psa/white-papers.md
     - name: Administrator guide

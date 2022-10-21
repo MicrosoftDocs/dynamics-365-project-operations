@@ -1,12 +1,17 @@
 {
   "redirections": [
     {
-      "source_path": "articles/prod-pma/tasks/Create-credit-on-project-invoice.md",
+      "source_path": "articles/psa/upgrade-considerations-tasks.md",
       "redirect_url": "/dynamics365/project-operations/",
       "redirect_document_id": "false"
     },
     {
-      "source_path": "articles/prod-pma/tasks/Adjust-project-transactions.md",
+      "source_path": "articles/prod-pma/tasks/create-credit-on-project-invoice.md",
+      "redirect_url": "/dynamics365/project-operations/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-pma/tasks/adjust-project-transactions.md",
       "redirect_url": "/dynamics365/project-operations/",
       "redirect_document_id": "false"
     },
