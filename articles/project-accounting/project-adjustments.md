@@ -2,7 +2,7 @@
 title: Project adjustments
 description: This article provides information about project adjustments
 author: ryansandness
-ms.date: 10/03/2022
+ms.date: 10/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ryansandness
@@ -18,7 +18,11 @@ You can configure Project Operations so users can make changes to posted transac
 
 Users can access the adjustment functionality from multiple locations including:
 
-- adjust transactions by using the Adjust Transactions form, the Posted project transactions form, and the Posted transactions link from within a Project.
+- Using the adjust transactions form accessible from Project Management and accounting - > setup.
+
+- Using the Adjustment button within the Posted project transactions form accessible from Project Management and accounting - > Transactions.
+
+- Using the Adjustment button within the Posted project transactions form within the context of a project, accessible from Project Management and accounting - > All projects.
 
 To allow for adjustments you will need to enable one or more transaction statuses within project management and accounting parameters to yes. Example transaction statuses would be posted transactions, invoiced transactions, or eliminated transactions.
 
@@ -53,7 +57,11 @@ Key functionality enabled by this feature include:
 - This feature enables a multi-select control from the posted project transactions form. You can apply filters to the list page and select your records prior to beginning adjustments.
 - This feature will disable the adjustment button if any single transaction can not be adjusted or if you select a combination of credit notes and journals together rather than individually.
 - With the addition of the multi-row select control, the Committed cost window is no longer disabled with multiple rows selected.
-- A warning message is added telling users this may take a long time if more than 1,000 records were selected. Users will see “You have selected more than %1 records for adjustment. Proceeding with this action might take some time. Are you sure you would like to proceed with this action?”
+- A warning message is added telling users this may take a long time if more than 1,000 records were selected. Users will see “You have selected more than (selected number) records for adjustment. Proceeding with this action might take some time. Are you sure you would like to proceed with this action?”
+
+This feature also removes step 2 from the process flow so that any transactions selected prior to open adjustments will automatically be in the list to adjust, instead of needing to use the select button.
+
+Note: Even with this feature disabled, multi-selection of records is now possible for adjustment. But if the feature is disabled, only a single record will remain selected and users will see the select transactions dialog after immediately clicking to open adjustments.
 
 ## Adjustment transaction statuses that can be enabled or disabled for adjustments
 
@@ -70,8 +78,8 @@ These statuses can be enabled or disabled from the General Tab of Project manage
 
 |Parameter Name  |Parameter Description  |
 |----------------|-----------------------|
-|Always create adjustment transaction     |         |
-|Autoupdate field     |         |
-|Use adjustment date as new project     |         |
-|Allow closed activities     |         |
+|Always create adjustment transaction     | The system will always create a new reversing entry and transaction when there is a financial or reporting impact. When this setting is disabled it will update the original transaction instead of creating a new transaction for a scenario such as updating the transaction text.          |
+|Autoupdate field     |This parameter will have the system recalculate cost price and sales price.         |
+|Use adjustment date as new project     |This feature was used to move transactions into a future fiscal period before the system supported this function. It is not recommended as it changes the business date of the transaction and will be deprecated in a future release.          |
+|Allow closed activities     |Normally transactions can not be created for closed activities. Enabling this setting will override that behavior and allow adjustments to be created for closed activities.          |
 
