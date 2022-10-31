@@ -59,7 +59,8 @@ Key functionality enabled by this feature include:
 
 This feature also removes step 2 from the process flow so that any transactions that were selected prior to opening **Adjustments** will be in the list to adjust, instead of needing to use the **Select** button.
 
-> [!NOTE] Even with this feature disabled, multi-selection of records is now possible for adjustment. But if the feature is disabled, only a single record will remain selected, and users will see the select transactions dialog after immediately clicking to open adjustments.
+> [!NOTE] 
+> Even with this feature disabled, multi-selection of records is now possible for adjustment. But if the feature is disabled, only a single record will remain selected, and users will see the select transactions dialog after immediately clicking to open adjustments.
 
 ## Adjustment transaction statuses that can be enabled or disabled for adjustments
 
