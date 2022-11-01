@@ -1,6 +1,6 @@
 ---
 # required metadata
-title: External scheduling mode
+title: External scheduling
 description: This article provides information about external scheduling. 
 author: ruhercul
 ms.date: 10/31/2022
@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 
-# External scheduling mode
+# External scheduling
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
