@@ -13,49 +13,55 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-## Overview
+The external scheduling mode lets you natively create, update, and delete entities that are related to work breakdown structures (WBSs), but without the current limits that are enforced by Microsoft Project for the Web. It also provides limited validation. This mode should be used only by the following customers:
 
-The external scheduling mode enables you to natively create, update, and delete work breakdown structure related entities with limited validation and without the current limits enforced by Microsoft Project for the Web. This mode should only be used by customers who have the tools to define a work breakdown structure outside the scheduling logic provided by Project Operations, or by customers who do need to manage schedule hierarchy, dependencies, or task duration. It's important to note that if the data isn't correctly populated in the work breakdown structure related entities, it may not be rendered in the resource reconciliation grid, estimates grid, tracking grid, or the resource assignment grid.
+- Customers who have the tools that are required to define a WBS outside the scheduling logic that is provided by Project Operations
+- Customers who have to manage schedule hierarchy, dependencies, or task duration
+
+> [!IMPORTANT]
+> Data that isn't correctly entered in the WBS–related entities might not be rendered in the resource reconciliation grid, estimates grid, tracking grid, or resource assignment grid.
 
 ## Configuration
-This feature is enabled by default. However, on the out of the box project main form, the field isn't visible by default. To enable the field, navigate to the main form of the project entity in the Maker portal, select the **Scheduling Engine** field, and then change the field to **Visible by Default**.  If you do not use the out of the box project main form, edit your existing form, and add the **Scheduling Engine** field.  
+
+This feature is enabled by default. However, on the out-of-box main page for projects, the related field isn't visible by default. To enable the field, in the Maker portal, open the main page for the project entity, select the **Scheduling Engine** field, and then change the field to **Visible by Default**. If you don't use the out-of-box project main page, edit your existing page, and add the **Scheduling Engine** field to it.
 
 ## Settings
 
-To use the external scheduling mode, you must first create a new project, and then select the scheduling engine **Externally Scheduled** from the drop down on the project main form. Once this mode has been set up on a project, it can't be changed.
+To use the external scheduling mode, you must first create a new project and select the **Externally Scheduled** scheduling engine in the drop-down list on the project main page. After this mode has been set up for a project, it can't be changed.
 
-## Viewing the Work Breakdown Structure
+## Viewing the WBS
 
-When a project is externally scheduled, access to Project for the Web is restricted on that project. To view the work breakdown structure (WBS) you need to navigate to the tracking grid where the full work breakdown structure is displayed, 
+If a project is externally scheduled, access to Project for the Web is restricted for that project. To view the WBS, you must go to the tracking grid, where the full WBS is shown.
 
-## Creating and editing the Work Breakdown Structure
+## Creating and editing the WBS
 
-When a project has enabled external scheduling, it's necessary for you to define the data for all work breakdown structure (WBS) related entities including tasks, team members, resource assignments and dependencies.
+If external scheduling is enabled for a project, you must define the data for all WBS–related entities, including tasks, team members, resource assignments, and dependencies.
 
-![Diagram of the project planning data model](media/projectplanningdatamodel.png)
+The following illustration shows the data model for project planning.
 
-## Functional Limitations
+![Project planning data model.](media/projectplanningdatamodel.png)
 
-The following operations aren't permitted on an externally scheduled project:
+## Functional limitations
 
-### Project Planning
+The following operations aren't permitted on externally scheduled projects.
 
-- **Copy project:** This operation isn't supported on externally scheduled projects.
-- **Move project:** Changing the start date of a project won't move the start of tasks or resource assignments in the work breakdown structure (WBS).
-- **Updating the Project Manager:** Changing the project manager on the project main form won't automatically create a new project team member until the project has been converted.
-- **Updating the project's work hour template:** Changing the project's work hour template won't recalculate the project's schedule.
-- **Resource Assignment Contours:** Creating resource assignments won't automatically update mdyn\_PlannedWork, the field used to store resource assignment effort contours. You must define valid resource assignment contours if you display time-phased effort in the resource assignment grid or in the resource reconciliation grid. This contour must be correctly formatted to trigger the calculation of both cost and sales price contours. It's recommended that you create a test project scheduled by Project for the Web, and then review the associated data to confirm the requirements and formatting.
+### Project planning
 
-### Resource Management
+- **Copy project** – This operation isn't supported on externally scheduled projects.
+- **Move project** – Changes to the start date of a project won't move the start of tasks or resource assignments in the WBS.
+- **Updating the Project Manager** – Changes to the project manager on the project main page won't automatically create a new project team member until the project has been converted.
+- **Updating the project's work hour template** – Changes to the project's work hour template won't recalculate the project's schedule.
+- **Resource Assignment Contours** – The creation of resource assignments won't automatically update the **mdyn\_PlannedWork** field. This field is used to store contours for resource assignment effort. If you show time-phased effort in the resource assignment grid or the resource reconciliation grid, you must define valid resource assignment contours. These contours must be correctly formatted so that they trigger the calculation of both cost contours and sales price contours. We recommend that you create a test project that is scheduled by Project for the Web, and then review the associated data to confirm the requirements and formatting.
 
-- **Generic resource fulfillment:** Generic resource fulfillment won't be supported on externally scheduled projects. Attempts to fulfill active open requirements will create new project team members but won't delete the generic team member or replace them on any existing resource assignments.
+### Resource management
 
-- **Delete Team Member:** Delete team member won't automatically delete resource assignments.
+- **Generic resource fulfillment** – Generic resource fulfillment isn't supported for externally scheduled projects. Attempts to fulfill active open requirements will create new project team members, but it won't delete the generic team member or replace the generic team member on any existing resource assignments.
+- **Delete Team Member** – Deletion of a team member won't automatically delete resource assignments.
 
-### Quoting and Contracting
+### Quoting and contracting
 
-- **Importing Quote Line and Contract Line details** : When importing quote or contract line details from a project, the application has only been tested to support a maximum of 500 tasks in the work breakdown structure based on a limit of 20 assignments per task.
+- **Importing Quote Line and Contract Line details** – When quote or contract line details are imported from a project, the application has been tested to support a maximum of only 500 tasks in the WBA, based on a limit of 20 assignments per task.
 
-### Actuals and Invoicing
+### Actuals and invoicing
 
-- While there are no changes to existing validations between the WBS and financial transactions, it's important to note that you should conform to the out of the box data model to ensure all downstream transactions execute as expected.
+- Although there are no changes to existing validations between the WBS and financial transactions, it's important that you conform to the out-of-box data model, to ensure that all downstream transactions run as expected.
