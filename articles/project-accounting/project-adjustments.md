@@ -1,6 +1,6 @@
 ---
 title: Project adjustments
-description: This article provides information about project adjustments
+description: This article provides information about project adjustments.
 author: ryansandness
 ms.date: 10/25/2022
 ms.topic: article
@@ -14,57 +14,57 @@ _**Applies To:** Project Operations for stocked/production-based scenarios_
 
 ## Adjustments overview
 
-You can configure Microsoft Dynamics 365 Project Operations so users can make changes to posted transactions. You can adjust project transactions individually or select multiple transactions from a list of all project transactions. Project adjustments are used, for example, to mass update the billable status, recalculate cost after a configuration change, or update funding sources.
+You can configure Microsoft Dynamics 365 Project Operations so that users can make changes to posted transactions. You can adjust project transactions individually, or you can select multiple transactions at a time in a list of all project transactions. Project adjustments are used, for example, to mass-update the billable status, recalculate cost after a configuration change, or update funding sources.
 
 Users can access the project adjustment functionality in several ways:
 
-- Using the **Adjust transactions** form accessible from **Project Management and accounting** - > **Setup**.
-- Using the **Adjustment** button within the **Posted project transactions** form accessible from **Project Management and accounting** - > **Transactions**.
-- Using the **Adjustment** button within the **Posted project transactions** form within the context of a project, accessible from **Project Management and accounting** - > **All projects**.
+- By using the **Adjust transactions** page that can be accessed from **Project Management and accounting** \> **Setup**.
+- By using the **Adjustment** button on the **Posted project transactions** page that can be accessed from **Project Management and accounting** \> **Transactions**.
+- By using the **Adjustment** button on the **Posted project transactions** page in the context of a project. This page can be accessed from **Project Management and accounting** \> **All projects**.
 
-To allow for adjustments you need to enable one or more transaction statuses within project management, and change accounting parameters to yes. For example, transaction statuses would be posted transactions, invoiced transactions, or eliminated transactions.
+To allow for adjustments you must enable one or more transaction statuses in project management. Examples of transaction statuses include posted transactions, invoiced transactions, or eliminated transactions. You must also change the setting of accounting parameters to **Yes**. 
 
-There is a configuration option that can be disabled to update the original transaction instead of creating new transactions during adjustment in a subset of scenarios. This option is available in **Project management and accounting** parameters and is named **Always create adjustment transaction**.
-This parameter has been announced to be deprecated by March 1, 2023. After March 1, 2023 the system will behave as if the option is on.
+A configuration option that is named **Always create adjustment transaction** is currently available in Project management and accounting parameters. You can disable this option to update the original transaction instead of creating new transactions during adjustment in a subset of scenarios. It has been announced that this parameter will be deprecated by March 1, 2023. After March 1, 2023, the system will always behave as if the option is enabled.
 
 ## Adjustments process flow
 
-The typical flow for processing adjustments is described below:
+The following steps show the typical flow for processing adjustments.
 
-1. Open the **Project adjustments** form.
-2. Select the **Select** button to search for transactions that meet the expected criteria for adjustment.
-3. From the list of transactions, select all transactions or a subset of the transactions for adjustment.
-4. Select **Adjust** and modify the attributes on the line or select to default values from the system defaults if the values were manually specified during transaction entry.
-5. The list of transactions is returned and the **Pending adjustment** column is checked to indicate where changes were made. Any adjustments with pending changes are shown in the bottom half of the window where you can make additional detailed changes beyond what was shown in the previous screen.
-6. Select the **Post** button to post the adjustment transactions.
-7. Depending on the configuration, most often new transactions are created for the adjustment.
-    - The original transaction is marked as **Invoice Status** = **Adjusted**.
-    - A reversal transaction is created to reverse the original transaction with **Status** = **Adjusted**.
-    - A new transaction is created with the changes made in the adjustment process.
+1. Open the **Project adjustments** page.
+2. Select **Select** to search for transactions that meet the expected criteria for adjustment.
+3. In the list of transactions, select all transactions or a subset of the transactions for adjustment.
+4. Select **Adjust**, and modify the attributes on the line. Alternatively, if the values were manually specified during transaction entry, you can select to enter default system values.
+5. The list of transactions is returned, and a check mark appears in the **Pending adjustment** column to indicate where changes were made. Any adjustments that have pending changes are shown in the lower half of the page. There, you can make additional detailed changes beyond what was shown on the previous page.
+6. Select **Post** to post the adjustment transactions.
 
+Depending on the configuration, new transactions are typically created for the adjustment.
 
-### Multi-select posted project transactions for adjustments and credit notes
+- The **Invoice Status** field of the original transaction is set to **Adjusted**.
+- A reversal transaction is created to reverse the original transaction, and the **Status** field is set to **Adjusted**.
+- A new transaction is created that has the changes that were made during the adjustment process.
 
-A new feature was introduced in the 10.0.30 release to allow for multi-selecting transactions to adjust from within the project posted transaction form.
+### Selecting multiple posted project transactions at a time for adjustments and credit notes
 
-Before you can use this feature, it must be enabled in your system. Admins can use the **Feature management** workspace to check the status of the feature and enable it if needed. From the **Feature management** workspace, search for and select **Multi-select posted project transactions for adjustments and credit notes**, and then select **Enable now**.
+A new feature that was introduced in the 10.0.30 release enables the selection of multiple transactions for adjustment at a time from the **Posted project transactions** page.
 
-Key functionality enabled by this feature include:
+Before you can use this feature, it must be enabled in your system. Admins can use the **Feature management** workspace to check the status of the feature and enable it if it's required. In the **Feature management** workspace, search for and select **Multi-select posted project transactions for adjustments and credit notes**, and then select **Enable now**.
 
-- It is accessible from the posted transaction page within a project using the existing adjustment button.
-- It enables a multi-select control from the **Posted project transactions** form. You can apply filters to the list page and select your records prior to beginning adjustments.
-- Disables the **Adjustment** button if any single transaction can't be adjusted, or if you select a combination of credit notes and journals together rather than individually.
-- With the addition of the multi-row select control, the **Committed cost** window is no longer disabled when multiple rows are selected.
-- A warning message: **You have selected more than (selected number) records for adjustment. Proceeding with this action might take some time. Are you sure you would like to proceed with this action?**
+This feature enables the following key functionality:
 
-This feature also removes step 2 from the process flow so that any transactions that were selected prior to opening **Adjustments** will be in the list to adjust, instead of needing to use the **Select** button.
+- It can be accessed from the posted transaction page within a project by using the existing **Adjustment** button.
+- It enables a multi-row select control on the **Posted project transactions** page. You can apply filters to the list page and select your records before you begin adjustments.
+- It disables the **Adjustment** button if any single transaction can't be adjusted, or if you select a combination of credit notes and journals together instead of individually.
+- Because of the addition of the multi-row select control, the **Committed cost** window is no longer disabled if multiple rows are selected.
+- It adds the following warning message: "You have selected more than (selected number) records for adjustment. Proceeding with this action might take some time. Are you sure you would like to proceed with this action?"
+
+This feature also removes step 2 from the process flow that was described earlier in this article. Therefore, any transactions that were selected before **Adjustments** was opened will be included in the list of transactions for adjustment. You don't have to use the **Select** button to search for them.
 
 > [!NOTE] 
-> Even with this feature disabled, multi-selection of records is now possible for adjustment. But if the feature is disabled, only a single record will remain selected, and users will see the select transactions dialog after immediately clicking to open adjustments.
+> Even if this feature is disabled, you can still select multiple records for adjustment. However, only one record will *remain selected*, and the **Select transactions** dialog box will appear immediately after you select to open adjustments.
 
 ## Adjustment transaction statuses that can be enabled or disabled for adjustments
 
-These statuses can be enabled or disabled from the **General** tab of the **Project management and accounting parameters** form.
+The following statuses can be enabled or disabled on the **General** tab of the **Project management and accounting parameters** page:
 
 - Posted
 - Invoice Proposal
@@ -73,12 +73,11 @@ These statuses can be enabled or disabled from the **General** tab of the **Proj
 - Eliminated
 - Beginning balance (hour)
 
-## Adjustment Parameters
+## Adjustment parameters
 
-| Parameter Name  | Parameter Description  |
-|----------------|-----------------------|
-| Always create adjustment transaction     | The system will always create a new reversing entry and transaction when there is a financial or reporting impact. When this setting is disabled, it updates the original transaction instead of creating a new transaction for a scenario such as updating the transaction text.          |
-| Autoupdate field     | This parameter has the system recalculate cost price and sales price.         |
-| Use adjustment date as new project     | This feature is used to move transactions into a future fiscal period before the system supported this function. It isn't recommended as it changes the business date of the transaction and will be deprecated in a future release.          |
-| Allow closed activities     | Normally transactions can't be created for closed activities. Enabling this setting will override that behavior and allow adjustments to be created for closed activities.          |
-
+| Parameter name | Description |
+|----------------|-------------
+| Always create adjustment transaction | If this parameter is enabled, the system will always create a new reversing entry and transaction when there is a financial or reporting impact. If the parameter is disabled, the system will update the original transaction instead of creating a new transaction for a scenario such as an update of the transaction text. |
+| Autoupdate field | If this parameter is enabled, the system will recalculate cost price and sales price. |
+| Use adjustment date as new project | This parameter is used to move transactions into a future fiscal period before the system supported this function. We don't recommend that you use it, because it changes the business date of the transaction and will be deprecated in a future release. |
+| Allow closed activities | Usually, transactions can't be created for closed activities. If this parameter is enabled, that behavior is overridden. Therefore, adjustments can be created for closed activities. |
