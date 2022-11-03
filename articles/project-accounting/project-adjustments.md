@@ -54,10 +54,10 @@ This feature enables the following key functionality:
 - It can be accessed from the posted transaction page within a project by using the existing **Adjustment** button.
 - It enables a multi-row select control on the **Posted project transactions** page. You can apply filters to the list page and select your records before you begin adjustments.
 - It disables the **Adjustment** button if any single transaction can't be adjusted, or if you select a combination of credit notes and journals together instead of individually.
-- Because of the addition of the multi-row select control, the **Committed cost** window is no longer disabled if multiple rows are selected.
+- Because of the addition of the multi-row select control, the **Committed cost** link in the ribbon is no longer disabled if multiple rows are selected.
 - It adds the following warning message: "You have selected more than (selected number) records for adjustment. Proceeding with this action might take some time. Are you sure you would like to proceed with this action?"
 
-This feature also removes step 2 from the process flow that was described earlier in this article. Therefore, any transactions that were selected before **Adjustments** was opened will be included in the list of transactions for adjustment. You don't have to use the **Select** button to search for them.
+This feature also removes step 2 from the process flow that was described earlier in this article. Therefore, any transactions that were selected before the **Adjust transactions** page was opened will be included in the list of transactions for adjustment. You don't have to use the **Select** button to search for them.
 
 > [!NOTE] 
 > Even if this feature is disabled, you can still select multiple records for adjustment. However, only one record will *remain selected*, and the **Select transactions** dialog box will appear immediately after you select to open adjustments.
@@ -75,9 +75,11 @@ The following statuses can be enabled or disabled on the **General** tab of the 
 
 ## Adjustment parameters
 
+These parameters are listed on the **Project management and accounting parameters** page on the **General** tab under the **Adjustment** group and will modify behavior for how adjustments are processed. 
+
 | Parameter name | Description |
 |----------------|-------------
-| Always create adjustment transaction | If this parameter is enabled, the system will always create a new reversing entry and transaction when there is a financial or reporting impact. If the parameter is disabled, the system will update the original transaction instead of creating a new transaction for a scenario such as an update of the transaction text. |
+| Always create adjustment transaction | If this parameter is enabled, the adjustment process will always create a new reversing transaction and new adjusted transaction when there is a financial or reporting impact. If the parameter is disabled, the adjustment process will update the original transaction instead of creating a reversal and new transaction for a scenario such as an update of the transaction text. |
 | Autoupdate field | If this parameter is enabled, the system will recalculate cost price and sales price. |
 | Use adjustment date as new project | This parameter is used to move transactions into a future fiscal period before the system supported this function. We don't recommend that you use it, because it changes the business date of the transaction and will be deprecated in a future release. |
 | Allow closed activities | Usually, transactions can't be created for closed activities. If this parameter is enabled, that behavior is overridden. Therefore, adjustments can be created for closed activities. |
