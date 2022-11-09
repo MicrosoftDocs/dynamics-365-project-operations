@@ -22,7 +22,7 @@ Users can access the project adjustment functionality in several ways:
 - By using the **Adjustment** button on the **Posted project transactions** page that can be accessed from **Project Management and accounting** \> **Transactions**.
 - By using the **Adjustment** button on the **Posted project transactions** page in the context of a project. This page can be accessed from **Project Management and accounting** \> **All projects**.
 
-To allow for adjustments you must enable one or more transaction statuses in project management. Examples of transaction statuses include posted transactions, invoiced transactions, or eliminated transactions. You must also change the setting of accounting parameters to **Yes**. 
+To allow for adjustments you must enable one or more transaction statuses from **Project Management and accounting** \> **Project Management and accounting paramaters** on the **General** tab under the section **Allow adjustment of transaction status**. Examples of transaction statuses include posted transactions, invoiced transactions, or eliminated transactions.
 
 A configuration option that is named **Always create adjustment transaction** is currently available in Project management and accounting parameters. You can disable this option to update the original transaction instead of creating new transactions during adjustment in a subset of scenarios. It has been announced that this parameter will be deprecated by March 1, 2023. After March 1, 2023, the system will always behave as if the option is enabled.
 
