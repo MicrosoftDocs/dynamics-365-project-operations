@@ -2,7 +2,7 @@
 title: Project adjustments
 description: This article provides information about project adjustments.
 author: ryansandness
-ms.date: 10/25/2022
+ms.date: 11/09/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ryansandness
