@@ -1216,8 +1216,12 @@
         href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
   - name: Project Operations for stocked/production-based scenarios deployment overview
     href: prod-pma/project-operations-prod-order-deployment-overview.md
-  - name: Project management and accounting overview
-    href: prod-pma/overview-project-management-accounting.md
+  - name: Project accounting
+    items:
+     - name: Project management and accounting overview
+       href: prod-pma/overview-project-management-accounting.md
+     - name: Project adjustments
+       href: project-accounting/project-adjustments.md
   - name: Project sales process
     items:
      - name: Project quotations
