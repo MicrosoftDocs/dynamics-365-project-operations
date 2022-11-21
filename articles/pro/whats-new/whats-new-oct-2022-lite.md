@@ -21,6 +21,8 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
+| Project Planning and Tracking | **Project Operations External Scheduling**<br>The external scheduling mode provides the ability for customers natively create, update, and delete entities related to the work breakdown structures (WBS) using the native Dataverse APIs without the current limits enforced by Microsoft Project for the Web.| [External Scheduling](/dynamics365/project-operations/project-management/external-scheduling) |
+| Deployment and Configuration | **Allow customers to choose the deployment type**<br>Product Driven Updates(PDU) of Project Operations used to install Project Operations Dual write solution automatically when Dual write core and orchestration solutions are installed on the environment.<br><br>With this feature, a new parameter setting called Solution upgrade behavior is now available on Project parameters and this can be set to "Lite only".  When this setting is set to "Lite only", product driven updates will no longer install Project Operations Dual write solution automatically even if Dual write core and orchestration solutions are installed on the environment. This is beneficial to customers who plan to use Dual write solutions for integrating Sales Orders to Dynamics 365 Finance and Operations but would want to use Project Operations in a Lite mode i.e. without integration to Dynamics 365 Finance and Operations.| |
 
 ## Quality updates
 

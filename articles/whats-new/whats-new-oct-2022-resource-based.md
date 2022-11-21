@@ -22,6 +22,9 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
+| Project Planning and Tracking | **Project Operations External Scheduling**<br>The external scheduling mode provides the ability for customers natively create, update, and delete entities related to the work breakdown structures (WBS) using the native Dataverse APIs without the current limits enforced by Microsoft Project for the Web.| [External Scheduling](/dynamics365/project-operations/project-management/external-scheduling) |
+| Deployment and Configuration | **Allow customers to choose the deployment type**<br>Product Driven Updates(PDU) of Project Operations used to install Project Operations Dual write solution automatically when Dual write core and orchestration solutions are installed on the environment.<br><br>With this feature, a new parameter setting called Solution upgrade behavior is now available on Project parameters and this can be set to "Lite only".  When this setting is set to "Lite only", product driven updates will no longer install Project Operations Dual write solution automatically even if Dual write core and orchestration solutions are installed on the environment. This is beneficial to customers who plan to use Dual write solutions for integrating Sales Orders to Dynamics 365 Finance and Operations but would want to use Project Operations in a Lite mode i.e. without integration to Dynamics 365 Finance and Operations.| |
+| Billing and Pricing | **Currency conversion for expense unbilled sale transaction in Integrated environments**<br>For customers using Project Operations integrated with Dynamics 365 Finance and Operations, i.e. in the resource/non-stocked deployment type,  exchange rates are typically mastered in Dynamics 365 Finance and Operations. However, if an expense category should be priced using "at cost" or as a "markup over cost" price calculation methods when billing to the customer, the exchange rate used to calculate sales amount used the exchange rates in Dataverse and not those from Dynamics 365 Finance and Operations. With this feature, a new parameter setting called Currency conversion behavior is available on Project parameters and this can be set to "Extended with fallback".  When this setting is set to "Extended with fallback", unbilled sales amounts on expense transactions are calculated using the Exchange rates from Dynamics 365 Finance and Operations. | |
 
 ## Project Operations dual-write maps updates
 
@@ -61,11 +64,3 @@ If you encounter an issue when you start the map, follow the instructions in the
 ### Project management and accounting in Finance
 
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=745468).
-
-## Features turned on by default in upcoming release
-
-The following table lists the features that are turned on by default in version 10.0.30. Most features that have been automatically turned on can be turned off in [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that have been automatically turned on might be removed from Feature management and become mandatory. This change ensures that customers are using current functionality, so that enhancements can build on the current functionality as they are added. Features will never be automatically enabled in less than one year, unless they are determined to be essential.
-
-| Feature name | Enable date | Feature added | Feature state | Module |
-| --- | --- | --- |--- |--- |
-| Enable async operation when user needs to switch between sync and async operations | October 21, 2022 | April 9, 2021 | On by default | Expense management |
