@@ -43,7 +43,7 @@ This feature enables project managers to produce more accuracy cost and sales es
 ### Navigation
 To access the contour editing grid, the project manager will first navigate to the **Tasks** Tab in the **Project Main Form**, then select the **Assignments** tab. 
 
-![Assignment Grid Navigation](media/assignmentgrid.png)
+![Assignment Grid Navigation](media/AssignmentGrid.png)
  
 The grid supports two methods of grouping, **group by resource** and **group by task**.  Unlike the Grid view, columns are not configurable, the only visible columns are **Assigned To, Task Name, Assignment Start, Assignment Finish and Assignment Effort**.
 When the grid is initiated rendered, it will start at the earliest assignment contour.  Please note, if your schedule does not contain any assignments with effort, the grid will be blank and will not render anything.  
