@@ -36,5 +36,24 @@ You can use the search box in the **Resource Picker** to search all active booka
 2. In the search box, start typing a name. The search results for the name are displayed in the **Resource Selector** under **Other Resources**.
 3. Select the resource that you want to assign to the task or select the name of the resource under **Other Team Resources**.
 
+## Editing Resource Assignment Contour Editing
+By default, when resources are assigned to a task in the schedule, their effort is linearly distributed between each resource based upon their respective working hours and the project’s schedule mode. The resource assignment grid provides a project manager with the ability to refine the effort estimates of each individual resource assigned to one or many tasks across the varying timescales.
+This feature enables project managers to produce more accuracy cost and sales estimates which are driven by the resource assignment contours generated when a resource is assigned to a task. Additionally, project managers can more easily reflect the resource demand needed to build the demand in a resource requirement.
+
+### Navigation
+To access the contour editing grid, the project manager will first navigate to the Tasks Tab in the Project Main Form, then select the Assignments tab.  
+ 
+The grid supports two methods of grouping, group by resource and group by task.  Unlike the Grid view, columns are not configurable, the only visible columns are Assigned To, Task Name, Assignment Start, Assignment Finish and Assignment Effort.
+When the grid is initiated rendered, it will start at the earliest assignment contour.  Please note, if your schedule does not contain any assignments with effort, the grid will be blank and will not render anything.  
+ 
+To view your contours and varying time scales, the read only resource assignment grid and resource reconciliation grids are also available.
+
+### Resource Calendars
+The ability to edit a contour for a specific day is governed by the resource’s working days reflected in their calendar. If a cell is disabled for a given resource, it is because that resource does not have working days during that period. 
+A resource’s contours can extend beyond the assigned task’s current start and finish dates. When an update is made to a contour that is greater than the latest finish date of a task or the earliest start date of a task, the task’s finish date or start date will change respectively.  However, assignments contours updated before the start date of a task linked to a predecessor will fail because the assignment will trigger the task to start before its predecessor finishes which currently not supported.
+
+### Co-Authoring
+When changes are made to the resource assignment grid. They will be automatically reflected in any associated views, including the chart, timeline, board or grid views. If multiple users are reviewing the project at the same time, any changes made by a single user will also be reflected in the grid and conversely, any changes made in the resource assignment grid will be displayed to any other users viewing the project in the same session.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
