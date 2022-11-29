@@ -22,7 +22,7 @@ Project Operations supports multiple deployment models. To determine the best de
 
 - [Install Project Operations into a new Dataverse environment](#new)
 - [Install into an existing Dataverse environment](#existing)
--[Install into an existing Dataverse environment that has Dual write components](#existingdw)
+- [Install into an existing Dataverse environment that has Dual write components](#existingdw)
 
 
 
