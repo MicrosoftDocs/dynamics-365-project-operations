@@ -128,13 +128,13 @@
       href: sales/manage-leads.md
     - name: Manage project-based opportunities
       items:
-      - name: Manage project-based opportunities overview
+      - name: Manage project opportunities overview
         href: sales/manage-project-based-opportunities.md
       - name: Header details for project-based opportunities
         href: sales/opportunity-header.md
       - name: Project-based opportunity lines
         href: sales/project-based-lines.md
-      - name: Create project quotes from opportunities
+      - name: Create quotes from project opportunities
         href: sales/link-quotes-opportunities.md
       - name: Copy project opportunities
         href: sales/copy-project-based-opportunity.md
