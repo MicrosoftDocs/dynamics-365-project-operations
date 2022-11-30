@@ -1,5 +1,5 @@
 ---
-title: Manage multiple customers on project-based quote lines - lite
+title: Manage multiple customers on project quote lines
 description: This article describes how to manage multiple customers on project-based quote lines.
 author: rumant
 ms.date: 10/06/2020
@@ -8,11 +8,11 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Manage multiple customers on project-based quote lines - lite
+# Manage multiple customers on project quote lines
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-Project-based quote lines support scenarios where each quote line has a list of customers that are paying for it. This list of customers on the project-based quote line can be the same as the list of customers on the quote. You can also change the list of customers to be different. When a project quote is won, the customer list on the project-based quote line is copied to the corresponding project–based contract line to create the eventual project contract. Customers on the project-based quote are copied to the project contract.
+Project quote lines support scenarios where each quote line has a list of customers that are paying for it. This list of customers on the project-based quote line can be the same as the list of customers on the quote. You can also change the list of customers to be different. When a project quote is won, the customer list on the project-based quote line is copied to the corresponding project–based contract line to create the eventual project contract. Customers on the project-based quote are copied to the project contract.
 
 When you invoice the eventual project contract, the customer list on the project-based contract line takes priority over the list on the project contract. The customer list on the project contract is only used for defaults on new project contract lines.
 
