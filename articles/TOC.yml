@@ -666,7 +666,7 @@
       href: pro/project-operations-overview-lite.md
     - name: Sign up for a preview subscription - lite
       href: environment/lite-preview-subscription-sign-up.md
-    - name: Deploy Project Operations - lite
+    - name: Deploy Project Operations Lite
       href: environment/lite-deployment.md
     - name: Apply demo setup and configuration data - lite
       href: environment/lite-apply-demo-setup-config-data.md
