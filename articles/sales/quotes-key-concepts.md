@@ -110,4 +110,4 @@ Project Operations quotes are built on the Dynamics 365 Sales quotes. However, t
 For these reasons, it is not recommended to use a Sales quote and a Project Operations quote interchangeably.
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
