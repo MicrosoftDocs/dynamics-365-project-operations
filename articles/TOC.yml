@@ -142,7 +142,7 @@
         href: sales/close-opportunity.md
     - name: Manage project-based quotes
       items:
-      - name: Manage project-based quotes overview
+      - name: Manage project quotes overview
         href: pro/sales/manage-quotes-sales.md
       - name: Concepts unique to project-based quotes 
         href: sales/quotes-key-concepts.md
@@ -150,35 +150,35 @@
         href: sales/quote-values-budget-limits-contract.md
       - name: Manage multiple customers on a project-based quote
         href: sales/manage-multiple-customers-quote.md
-      - name: Manage project price lists on a project-based quote
+      - name: Project price lists on project quotes
         href: pro/sales/manage-project-price-lists-sales.md
       - name: Project-based quote lines
         items:
-        - name: Project-based quote lines overview
+        - name: Project quote lines overview
           href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
-        - name: Map projects and tasks to project-based quote lines
+        - name: Map projects and tasks to project quote lines
           href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-        - name: Configure chargeable components for project-based quote lines
+        - name: Configure chargeable components on project quote lines
           href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Estimate a project-based quote line
-          href: sales/create-estimate-quote-line.md          
-        - name: Import estimates from a project to a project-based quote line
-          href: sales/import-estimate-quote-line.md
-        - name: Invoice schedules on project-based quote lines
+        - name: Estimate a project quote line
+          href: pro/sales/create-estimate-quote-line-sales.md        
+        - name: Import estimates from a project to a project quote line
+          href: pro/sales/import-estimate-project-quote-sales.md
+        - name: Invoice schedules on project quote lines
           href: sales/invoice-schedule-quote-line.md 
-      - name: Copy project-based quotes
+      - name: Copy project quotes
         href: sales/lose-quote.md
-      - name: Activate and revise a project-based quote
+      - name: Activate and revise a project quote
         href: sales/activation-and-revision.md
       - name: Close project-based quotes
         href: sales/win-quote.md
     - name: Manage project-based contracts
       items:
-      - name: Manage project-based contracts overview
+      - name: Manage project contracts
         href: pro/sales/manage-contracts-sales.md
-      - name: Concepts unique to project-based contracts
+      - name: Concepts unique to Project-based Contracts
         href: sales/contracts-key-concepts.md
       - name: Header details for project-based contracts
         href: sales/project-contract-settings.md
@@ -188,23 +188,23 @@
         href: sales/manage-multiple-customers-contract.md
       - name: Project-based contract lines
         items: 
-        - name: Project-based contract lines overview
+        - name: Project contract lines overview
           href: pro/sales/manage-contract-values-project-based-sales.md
         - name: Manage multiple customers on project-based contract lines
           href: sales/manage-multiple-customers-contract-line.md
-        - name: Map projects and tasks on a project-based contract line 
+        - name: Map projects and tasks to a project contract line
           href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-        - name: Configure chargeable components for a project-based contract line 
+        - name: Configure chargeable components of a project contract line 
           href: pro/sales/configure-chargeable-components-contract-line.md
         - name: Estimate a project-based contract line
           href: sales/create-estimate-contract-line.md
-        - name: Import estimates from a project to a project-based contract line
-          href: sales/import-estimate-project-contract-line.md
-        - name: Create invoice schedules on project-based contract lines
+        - name: Import estimates from a project to a project contract line
+          href: pro/sales/import-estimate-project-contract-line-sales.md
+        - name: Create invoice schedules on a project-based contract line
           href: sales/invoice-schedules-contract-line.md
       - name: Copy project-based contracts
         href: sales/copy-project-based-contracts-sales.md
-      - name: Confirm a project-based contract
+      - name: Confirm a project contract
         href: pro/sales/confirm-contract-sales.md
       - name: Advances and retainers
         items: 
@@ -212,7 +212,7 @@
           href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
         - name: Set up a retainer schedule
           href: pro/sales/set-up-schedule-retainers-sales.md
-        - name: Create an ad hoc advance on a contract
+        - name: Create an ad hoc advance on a project contract
           href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
