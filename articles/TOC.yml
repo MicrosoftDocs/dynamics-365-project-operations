@@ -643,7 +643,9 @@
     - name: Migrate fully invoiced billing milestones during cutover
       href: advanced-configuration/migrating-invoiced-milestones.md
     - name: Sync Project Status to prevent entry against closed projects
-      href: advanced-configuration/sync-project-status.md      
+      href: advanced-configuration/sync-project-status.md   
+    - name: Currency conversion setup for calculating sales prices from cost rates
+      href: advanced-configuration/currencyconversion.md 
   - name: Upgrade
     items:
     - name: Upgrade considerations for Modern approvals
