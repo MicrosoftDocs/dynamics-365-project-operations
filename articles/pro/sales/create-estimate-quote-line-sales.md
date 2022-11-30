@@ -19,7 +19,7 @@ To estimate a project-based quote line, on the project-based quote line, select 
 - Manually create the estimate directly on the quote line using quote line details. 
 - Create a project and a project plan, and then associate the project and tasks on the project to the quote line. The process to import the estimates on the project plan into the quote line based on the information you provided will be enabled.
 
-## Create estimates directly on a project-based quote line
+## Create estimates directly on a project quote line
 
 To create an estimate on a project-based quote line, select the **Quote Line Detail** tab. The line item that you create on this tab will summarize the quoted value for this quote line. 
 
