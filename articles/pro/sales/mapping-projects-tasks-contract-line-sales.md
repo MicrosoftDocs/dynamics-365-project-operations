@@ -20,7 +20,7 @@ If you have a scenario where one phase of a project, for example the Prototype P
 
 All the other phases in your project work breakdown structure (WBS) can be associated to the time and material-based contract line.
 
-## Associate tasks to project-based contract lines
+## Associate tasks to project contract lines
 
 Tasks can be associated to contract lines from the **Chargeable Tasks** tab on the **Contract Line** page or from the **Task Billing** tab on the **Project** page.
 
