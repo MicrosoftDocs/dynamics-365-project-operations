@@ -1,6 +1,6 @@
 ---
-title: Estimating a project-based quote line
-description: This article provides information about how to create an estimate on a project-based quote line.
+title: Estimate a project quote line
+description: This article provides information about how to create an estimate on a project quote line.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Estimating a project-based quote line
+# Estimate a project quote line
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
