@@ -1,6 +1,6 @@
 ---
 title: Manage multiple customers on project quote lines
-description: This article describes how to manage multiple customers on project-based quote lines.
+description: This article describes how to manage multiple customers on project quote lines.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
