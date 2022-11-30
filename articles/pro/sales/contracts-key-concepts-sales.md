@@ -1,5 +1,5 @@
 ---
-title: Project contracts - Key concepts - lite
+title: Concepts unique to Project Contracts
 description: This article provides information about the key concepts of project contracts.
 author: rumant
 ms.date: 10/07/2020
