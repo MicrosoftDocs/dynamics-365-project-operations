@@ -1,5 +1,5 @@
 ---
-title: Currency conversion behavior options for calculating sales prices in sales from cost rates 
+title: Currency conversion setup for calculating sales prices from cost rates
 description: This article provides information about how to configure currency conversion behavior in Project Operations that will be used when generating sales transactions from cost transaction .
 author: rumant
 ms.date: 11/01/2022
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Currency conversion behavior options for calculating sales prices in sales from cost rates 
+# Currency conversion setup for calculating sales prices from cost rates
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
