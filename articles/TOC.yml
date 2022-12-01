@@ -774,7 +774,7 @@
           href: pro/sales/costing-product-based-quote-lines-sales.md
         - name: Manage complex units for product-based quote lines
           href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-      - name: Project-based quote lines
+      - name: Project quote lines
         items:
         - name: Project-based quote lines overview
           href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
