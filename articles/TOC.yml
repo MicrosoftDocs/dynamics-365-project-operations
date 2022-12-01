@@ -796,15 +796,15 @@
         href: sales/activation-and-revision.md
       - name: Close project quotes
         href: pro/sales/win-quote-sales.md
-    - name: Manage project-based contracts
+    - name: Manage project contracts
       items: 
-      - name: Project-based contracts overview
+      - name: Project contracts overview
         href: pro/sales/manage-contracts-sales.md
       - name: Concepts unique to project contracts
         href: pro/sales/contracts-key-concepts-sales.md
       - name: Header details for project contracts
         href: pro/sales/project-contract-settings-sales.md
-      - name: Multiple customers on project contracts
+      - name: Manage multiple customers on project contracts
         href: pro/sales/manage-multiple-customers-contract-sales.md
       - name: Project price lists on project contracts
         href: sales/contracts-manage-project-price-lists.md
@@ -816,21 +816,21 @@
           href: pro/sales/cost-product-based-contract-lines-sales.md
         - name: Manage complex units for product-based contract lines 
           href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-      - name: Project-based contract lines
+      - name: Project contract lines
         items: 
-        - name: Project-based contract lines overview
+        - name: Project contract lines overview
           href: pro/sales/manage-contract-values-project-based-sales.md
-        - name: Manage multiple contract customers 
+        - name: Manage multiple customers on project contracts
           href: pro/sales/manage-multiple-customers-contract-line-sales.md
-        - name: Map projects and tasks to a project contract line 
+        - name: Map projects and tasks to a project contract line
           href: pro/sales/mapping-projects-tasks-contract-line-sales.md
         - name: Configure chargeable components on a project contract line 
           href: pro/sales/configure-chargeable-components-contract-line.md
-        - name: Estimate a project-based contract line
+        - name: Estimate a project contract line
           href: pro/sales/create-estimate-project-contract-line-sales.md
-        - name: Import estimates from a project to a project contract line 
+        - name: Import estimates from a project to a project contract line
           href: pro/sales/import-estimate-project-contract-line-sales.md
-        - name: Manage invoice schedules on a project contract line 
+        - name: Create invoice schedules on a project contract line
           href: pro/sales/invoice-schedules-contract-line-sales.md
       - name: Copy project contracts 
         href: pro/sales/copy-project-contracts-sales.md
@@ -838,11 +838,11 @@
         href: pro/sales/confirm-contract-sales.md
       - name: Advances and retainers
         items: 
-        - name: Advances and retainer-based contracts - lite
+        - name: Advances and retainer-based contracts
           href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-        - name: Set up a retainer schedule - lite
+        - name: Set up a retainer scheduleSet up a retainer schedule
           href: pro/sales/set-up-schedule-retainers-sales.md
-        - name: Create an ad hoc advance on a contract - lite
+        - name: Create an ad hoc advance on a project contract
           href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
