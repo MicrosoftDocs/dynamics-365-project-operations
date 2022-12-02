@@ -4,7 +4,7 @@
 title: Concepts unique to Project-based quotes
 description: This article provides information about project quotes in Project Operations.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 12/02/2022
 ms.topic: article
 ms.prod: 
 #
@@ -35,17 +35,17 @@ The following are key concepts to be aware of before you begin using project quo
 
 ## Owning Company
 
-The owning represents the legal entity that owns the project delivery. The customer on the quote should be a valid customer in that Legal entity in finance and operations. The currency of the owning company and contracting unit selected on a project-based must match. 
+Owning company represents the legal entity that owns the project delivery. The customer on the quote should be a valid customer in that Legal entity in finance and operations. The currency of the owning company and contracting unit selected on a project-based must match. 
 
 ## Contracting unit
 
-The contracting unit represents the division or practice that owns the project delivery. You can set up resource costs for each contracting unit. When you specify resource cost for a resource in the contracting unit, you will also be able to set up different cost rates for resources that this contracting unit borrows from, or other division or practices within the enterprise. These are referred to as transfer prices, resource borrowing, or exchange prices. When you set up the cost of borrowing resources from other divisions, you can also choose to set up those cost rates in the currency of the lending division.
+Contracting unit represents the division or practice that owns the project delivery. You can set up resource costs for each contracting unit. When you specify resource cost for a resource in the contracting unit, you can set up different cost rates for resources that this contracting unit borrows from, or other divisions or practices within the enterprise. These are referred to as transfer prices, resource borrowing, or exchange prices. When you set up the cost of borrowing resources from other divisions, you can also choose to set up those cost rates in the currency of the lending division.
 
 ## Cost currency
 
-Cost currency in Project Operations is the currency in which costs are reported. This currency is derived from the currency attached to the **Contracting unit** field on the quote, contract, and project. Costs can be logged in any currency against a project. However, there is currency conversion from the currency costs were recorded in, to the cost currency of the project.
+Cost currency in Project Operations is the currency in which costs are reported. This currency is derived from the currency attached to the **Contracting unit** field on the quote, contract, and project. Costs can be logged in any currency against a project. However, there is currency conversion from the currency the costs were recorded in, to the cost currency of the project.
 
-Because of the exchange rates in the CDS platform can't be date-effective, the on-screen totals for cost may change over time if you update currency exchange rates. However, costs recorded in the database remain unchanged because the amounts are stored in the currency that they were incurred in.
+Because the exchange rates in the CDS platform can't be date-effective, the on-screen totals for cost may change over time if you update currency exchange rates. However, costs recorded in the database remain unchanged because the amounts are stored in the currency that they were incurred in.
 
 ## Sales currency
 
@@ -85,7 +85,7 @@ Entities that represent work are Projects and Tasks. Entities that represent bil
 
 ## Multi-customer deals
 
-Multi-customer deals occur are when there is more than one customer to invoice. Common examples of this include:
+Multi-customer deals occur when there is more than one customer to invoice. Common examples of this include:
 
 - **OEM Enterprises and their partners:** Partners and resellers sell a product with value-added services. This is usually a scenario where during a particular deal with a customer, the OEM offers to finance a portion of the project. 
 
