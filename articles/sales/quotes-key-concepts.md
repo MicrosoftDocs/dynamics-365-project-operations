@@ -45,7 +45,7 @@ A contracting unit represents the division or practice that owns the project del
 
 The cost currency in Project Operations is the currency that costs are reported in. This currency is derived from the currency that's attached to the **Contracting unit** field on the quote, contract, and project. Costs against a project can be recorded in any currency. However, there's currency conversion from the currency that the costs were recorded in to the cost currency of the project.
 
-Because exchange rates on the CDS platform can't be date-effective, the on-screen totals for cost might change over time if you update currency exchange rates. However, costs that are recorded in the database remain unchanged, because the amounts are stored in the currency that they were incurred in.
+Because exchange rates on the Dataverse platform can't be date-effective, the on-screen totals for cost might change over time if you update currency exchange rates. However, costs that are recorded in the database remain unchanged, because the amounts are stored in the currency that they were incurred in.
 
 ## Sales currency
 
