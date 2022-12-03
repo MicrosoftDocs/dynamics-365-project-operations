@@ -1,5 +1,5 @@
 ---
-title: Estimate a project contract line
+title: Estimate a project-based contract line
 description: This article provides information about estimates on a project contract line.
 author: rumant
 ms.date: 10/27/2020
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Estimate a project contract line
+# Estimate a project-based contract line
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_ 
 

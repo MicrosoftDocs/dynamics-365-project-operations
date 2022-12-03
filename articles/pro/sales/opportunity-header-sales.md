@@ -1,5 +1,5 @@
 ---
-title: Opportunity settings - lite
+title:  Header details for project opportunities
 description: This article provides information about project-based deals and project-based opportunity lines.
 author: rumant
 ms.date: 10/01/2020

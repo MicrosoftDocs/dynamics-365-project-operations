@@ -1,6 +1,6 @@
 ---
-title: Project contract settings
-description: This article provides information about the fields that impact contract lines and the information about the contract that is summarized to across all the line items.
+title: Header details for project-based contracts
+description: This article provides information about the fields and the information about project-based contracts in Project Operations.
 author: rumant
 ms.date: 10/20/2020
 ms.topic: article

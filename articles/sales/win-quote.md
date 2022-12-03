@@ -1,5 +1,5 @@
 ---
-title: Close a quote
+title: Close project-based quotes
 description: This article provides information about closing quotes in Project Operations.
 author: rumant
 ms.date: 10/01/2020
@@ -8,11 +8,11 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Close a quote
+# Close project-based quotes
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-A project quote can be closed as Won or Lost. Because the functions Activate and Revise are not supported on quotes in Microsoft Dynamics 365 Project Operations, you can close a draft quote.
+A project quote can be closed as **won** or **lost**. 
 
 ## Close a quote as Won
 

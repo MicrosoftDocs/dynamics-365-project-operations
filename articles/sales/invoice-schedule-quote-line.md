@@ -1,5 +1,5 @@
 ---
-title: Invoice schedules on project-based quote lines
+title: Invoice schedules on project quote lines
 description: This article provides information about creating invoice schedules and milestones for quote lines.
 author: rumant
 ms.date: 10/01/2020
@@ -8,15 +8,15 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Invoice schedules on project-based quote lines
+# Invoice schedules on project quote lines
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-A project-based quote line gives the ability to express an invoice schedule. This is optional during the quote phase because the application does not support invoicing a project when it is tied to a Quote line. Invoicing is only allowed after the quote is won. The only downstream impact of creating an invoice schedule during the quote phase, is that this invoice schedule is copied over to the project-based contract line. If you do not create an invoice schedule during the quote phase, you will be able to do so on the project-based contract line.
+A project quote line gives the ability to express an invoice schedule. This is optional during the quote phase because the application does not support invoicing a project when it is tied to a Quote line. Invoicing is only allowed after the quote is won. The only downstream impact of creating an invoice schedule during the quote phase, is that this invoice schedule is copied over to the project-based contract line. If you do not create an invoice schedule during the quote phase, you will be able to do so on the project-based contract line.
 
 Overall, the purpose of invoice schedules is to allow for the automatic creation of draft invoices for a project-based contract line. 
 
-## Create a Time and material invoice schedule for a project-based quote line
+## Create a Time and material invoice schedule for a project quote line
 
 When the billing method for a project-based quote line is Time and material, the system generates a date-based invoice schedule. To automatically generate a date-based invoice schedule, complete the following steps.
 
@@ -31,7 +31,7 @@ When the billing method for a project-based quote line is Time and material, the
     - **Transaction cut-off date** is set to the day before the **Invoice Run Date**.
     - **Run Status** is automatically set to **Not Run**. When the automatic invoice creation job runs for a certain invoice run date, it will update this field to either **Run Successful** or **Run Failed**.
 
-## Create a Fixed price invoice schedule for a project-based quote line
+## Create a Fixed price invoice schedule for a project quote line
 
 When the project-based quote line has a **Fixed** billing method, the system creates a milestone-based invoice schedule. Complete the following steps to automatically generate this schedule for a fixed set of milestones that are equally distributed for the calendar period.
 

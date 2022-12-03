@@ -1,5 +1,5 @@
 ---
-title: Project-based quote lines overview 
+title: Project quote lines overview 
 description: This article provides information about using project-based quote lines for project work.
 author: rumant
 ms.date: 03/30/2021
@@ -9,7 +9,7 @@ ms.author: rumant
 
 ---
 
-# Project-based quote lines overview 
+# Project quote lines overview 
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 

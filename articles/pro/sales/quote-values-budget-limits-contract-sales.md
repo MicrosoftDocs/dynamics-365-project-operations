@@ -1,5 +1,5 @@
 ---
-title: Summary information on a project quote - lite
+title: Header details for project quotes
 description: This article provides information about the information and settings that apply to and impact project quotes. (Sales)
 author: rumant
 ms.date: 10/01/2020

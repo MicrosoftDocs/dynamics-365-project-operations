@@ -1,5 +1,5 @@
 ---
-title: Manage multiple customers on project contracts - lite
+title: Manage multiple customers on project contracts
 description:  This article provides information about managing multiple customers on project contracts.
 author: rumant
 ms.date: 10/27/2020
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Manage multiple customers on project contracts - lite
+# Manage multiple customers on project contracts
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

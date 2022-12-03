@@ -1,6 +1,6 @@
 ---
-title: Project contract settings - lite
-description: This article provides information about fields that impact contract lines and the information about the contract that is summarized to across all the line items.
+title:  Header details for project contracts
+description: This article provides information about the fields and the information about project contracts in Project Operations.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
