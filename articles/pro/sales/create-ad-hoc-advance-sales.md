@@ -1,5 +1,5 @@
 ---
-title: Creating an ad hoc advance on a contract
+title: Create an ad hoc advance on a project contract
 description: This article provides information about creating an advance on a contract as needed.
 author: rumant
 ms.date: 10/26/2020
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Creating an ad hoc advance on a contract
+# Create an ad hoc advance on a project contract
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

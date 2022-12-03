@@ -1,6 +1,6 @@
 ---
-title: Copy project-based quotes
-description: This article provides information about how to copy project-based quotes in Project Operations.
+title: Copy project quotes
+description: This article provides information about how to copy project quotes in Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Copy project-based quotes
+# Copy project quotes
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

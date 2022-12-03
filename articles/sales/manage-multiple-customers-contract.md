@@ -1,6 +1,6 @@
 ---
-title: Manage multiple customers on project contracts
-description: This article provides information about how to manage multiple customers on a project contract.
+title: Manage multiple customers on project-based contracts
+description: This article provides information about how to manage multiple customers on a project-based contract.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Manage multiple customers on project contracts
+# Manage multiple customers on project-based contracts
 
 This article provides information about how to manage multiple customers on a project contract. You can use a project contract when a contractual agreement for multiple customers is needed for funding a deal. On the **Project Contract** page, the **Summary** tab includes information about the primary customer for a deal. Other customers that participate in the deal can be added to the **Customers** tab.
 

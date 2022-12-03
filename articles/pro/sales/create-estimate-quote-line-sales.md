@@ -1,6 +1,6 @@
 ---
-title: Estimating a project-based quote line
-description: This article provides information about how to create an estimate on a project-based quote line.
+title: Estimate a project quote line
+description: This article provides information about how to create an estimate on a project quote line.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
@@ -8,9 +8,9 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Estimating a project-based quote line
+# Estimate a project quote line
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 A project-based quote line has details that help with estimating the cost and potential revenue of the work involved to deliver the quote line.
 
@@ -19,7 +19,7 @@ To estimate a project-based quote line, on the project-based quote line, select 
 - Manually create the estimate directly on the quote line using quote line details. 
 - Create a project and a project plan, and then associate the project and tasks on the project to the quote line. The process to import the estimates on the project plan into the quote line based on the information you provided will be enabled.
 
-## Create estimates directly on a project-based quote line
+## Create estimates directly on a project quote line
 
 To create an estimate on a project-based quote line, select the **Quote Line Detail** tab. The line item that you create on this tab will summarize the quoted value for this quote line. 
 
@@ -64,7 +64,7 @@ Currency on the quote line detail for cost defaults from the price list of the c
 Profitability calculations convert the amount on quote line details for cost and sales into the base currency of the environment to report the overall estimated margin on the quote.
 
 > [!NOTE
-> > Currency rounding errors and changed margins could occur because of the lack of date effective exchange rates. Use these calculations only on project contracts as these are approximations and are not for actual statutory or other reporting that requires higher precision of rounding and awareness of date effectivity for exchange rates.
+> Currency rounding errors and changed margins could occur because of the lack of date effective exchange rates. Use these calculations only on project contracts as these are approximations and are not for actual statutory or other reporting that requires higher precision of rounding and awareness of date effectivity for exchange rates.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
