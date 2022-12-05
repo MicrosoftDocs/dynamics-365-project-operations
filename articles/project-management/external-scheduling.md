@@ -23,7 +23,7 @@ The external scheduling mode lets you natively create, update, and delete entiti
 
 ## Configuration
 
-This feature is enabled by default. However, on the out-of-box main page for projects, the related field isn't visible by default. To enable the field, in the Maker portal, open the main page for the project entity, select the **Scheduling Engine** field, and then change the field to **Visible by Default**. If you don't use the out-of-box project main page, edit your existing page, and add the **Scheduling Engine** field to it.
+This feature is enabled by default. However, on the out-of-box main page for projects, the related field isn't visible by default. To enable the field, in the Maker portal, open the main page for the project table, select the **Scheduling Engine** field, and then change the field to **Visible by Default**. If you don't use the out-of-box project main page, edit your existing page, and add the **Scheduling Engine** field to it.
 
 ## Settings
 
@@ -60,7 +60,7 @@ The following operations aren't permitted on externally scheduled projects.
 
 ### Quoting and contracting
 
-- **Importing Quote Line and Contract Line details** – When quote or contract line details are imported from a project, the application has been tested to support a maximum of only 500 tasks in the WBA, based on a limit of 20 assignments per task.
+- **Importing Quote Line and Contract Line details** – When quote or contract line details are imported from a project, the application has been tested to support a maximum of only 500 tasks in the WBS, based on a limit of 20 assignments per task.
 
 ### Actuals and invoicing
 
