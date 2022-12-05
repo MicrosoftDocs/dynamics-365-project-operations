@@ -23,7 +23,7 @@ The external scheduling mode lets you natively create, update, and delete entiti
 
 ## Configuration
 
-This feature is enabled by default. However, on the out-of-box main page for projects, the related field isn't visible by default. To enable the field, in the Maker portal, open the main page for the project entity, select the **Scheduling Engine** field, and then change the field to **Visible by Default**. If you don't use the out-of-box project main page, edit your existing page, and add the **Scheduling Engine** field to it.
+This feature is enabled by default. However, on the out-of-box main page for projects, the related column isn't visible by default. To enable the column, in the Maker portal, open the main page for the project entity, select the **Scheduling Engine** column, and then change the column to **Visible by Default**. If you don't use the out-of-box project main page, edit your existing page, and add the **Scheduling Engine** column to it.
 
 ## Settings
 
@@ -51,7 +51,7 @@ The following operations aren't permitted on externally scheduled projects.
 - **Move project** – Changes to the start date of a project won't move the start of tasks or resource assignments in the WBS.
 - **Updating the Project Manager** – Changes to the project manager on the project main page won't automatically create a new project team member until the project has been converted.
 - **Updating the project's work hour template** – Changes to the project's work hour template won't recalculate the project's schedule.
-- **Resource Assignment Contours** – The creation of resource assignments won't automatically update the **mdyn\_PlannedWork** field. This field is used to store contours for resource assignment effort. If you show time-phased effort in the resource assignment grid or the resource reconciliation grid, you must define valid resource assignment contours. These contours must be correctly formatted so that they trigger the calculation of both cost contours and sales price contours. We recommend that you create a test project that is scheduled by Project for the Web, and then review the associated data to confirm the requirements and formatting.
+- **Resource Assignment Contours** – The creation of resource assignments won't automatically update the **mdyn\_PlannedWork** column. This column is used to store contours for resource assignment effort. If you show time-phased effort in the resource assignment grid or the resource reconciliation grid, you must define valid resource assignment contours. These contours must be correctly formatted so that they trigger the calculation of both cost contours and sales price contours. We recommend that you create a test project that is scheduled by Project for the Web, and then review the associated data to confirm the requirements and formatting.
 
 ### Resource management
 
