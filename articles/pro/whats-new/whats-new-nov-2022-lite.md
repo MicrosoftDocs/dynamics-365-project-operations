@@ -1,6 +1,6 @@
 ---
-title: What's new October 2022 - Project Operations lite deployment
-description: This article provides information about the quality updates that are available in the October 2022 release of Microsoft Dynamics 365 Project Operations lite deployment.
+title: What's new November 2022 - Project Operations lite deployment
+description: This article provides information about the quality updates that are available in the November 2022 release of Microsoft Dynamics 365 Project Operations lite deployment.
 author: ryansandness
 ms.date: 12/16/2022
 ms.topic: article
@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: ryansandness
 ---
 
-# What's new October 2022 - Project Operations lite deployment
+# What's new November 2022 - Project Operations lite deployment
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
