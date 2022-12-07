@@ -1,6 +1,6 @@
 ---
-title: What's new October 2022 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates that are available in the October 2022 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
+title: What's new November 2022 - Project Operations for resource/non-stocked based scenarios
+description: This article provides information about the quality updates that are available in the November 2022 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: ryansandness
 ms.date: 12/16/2022
 ms.topic: article
