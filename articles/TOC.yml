@@ -846,7 +846,7 @@
         items: 
         - name: Advances and retainer-based contracts
           href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-        - name: Set up a retainer scheduleSet up a retainer schedule
+        - name: Set up a retainer schedule
           href: pro/sales/set-up-schedule-retainers-sales.md
         - name: Create an ad hoc advance on a project contract
           href: pro/sales/create-ad-hoc-advance-sales.md
