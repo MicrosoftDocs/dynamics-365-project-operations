@@ -2,7 +2,7 @@
 title: Use Project schedule APIs to perform operations with Scheduling entities
 description: This article provides information and samples for using Project schedule APIs.
 author: sigitac
-ms.date: 01/13/2022
+ms.date: 09/19/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
