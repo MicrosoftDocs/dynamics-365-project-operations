@@ -2,7 +2,7 @@
 title: Manage multiple customers on project quotes
 description: This article provides information about working on quotes with multiple customers who will fund the project. (Sales)
 author: rumant
-ms.date: 12/2022
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
