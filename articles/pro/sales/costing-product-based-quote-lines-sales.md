@@ -2,7 +2,7 @@
 title: Costing product-based quote lines
 description: This article provides information about applying a cost price to a product-based quote line.
 author: rumant
-ms.date: 10/01/2020
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant

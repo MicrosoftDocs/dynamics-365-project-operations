@@ -2,7 +2,7 @@
 title: Corrective project invoices
 description: This article provides information about how to create and confirm corrective invoices in Project Operations.
 author: rumant
-ms.date: 04/05/2021
+ms.date: 06/19/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant

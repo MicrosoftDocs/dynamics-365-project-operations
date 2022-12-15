@@ -4,7 +4,7 @@
 title: Review proposed resources
 description: This article provides information about how to propose project resources.
 author: ruhercul
-ms.date: 08/18/2021
+ms.date: 07/19/2022
 ms.topic: article
 ms.prod: 
 #

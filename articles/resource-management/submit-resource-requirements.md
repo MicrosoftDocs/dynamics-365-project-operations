@@ -2,7 +2,7 @@
 title: Submit a resource request
 description: You can submit a generated resource requirement as a resource request. The request is then sent to a Resource Manager for fulfillment. 
 author: ruhercul
-ms.date: 10/04/2020
+ms.date: 07/11/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul

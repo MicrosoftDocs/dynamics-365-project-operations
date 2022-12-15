@@ -2,7 +2,7 @@
 title: Manage project contracts 
 description: This article provides information about viewing project-based contracts.
 author: rumant
-ms.date: 10/26/2020
+ms.date: 03/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant

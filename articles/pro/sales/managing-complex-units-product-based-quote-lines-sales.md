@@ -2,7 +2,7 @@
 title: Managing complex units such as per-user, per-month for product-based quote lines
 description: This article provides information about managing complex units for product-based quote lines.
 author: rumant
-ms.date: 10/06/2020
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
