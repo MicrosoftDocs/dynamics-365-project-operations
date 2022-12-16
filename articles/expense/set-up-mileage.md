@@ -2,7 +2,7 @@
 title: Set up mileage using mileage rate tiers
 description: This article provides information about mileage rates and mileage rate tiers.
 author: suvaidya
-ms.date: 05/20/2021
+ms.date: 06/28/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya

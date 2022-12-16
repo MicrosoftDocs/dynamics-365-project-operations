@@ -2,7 +2,7 @@
 title: Approval sets
 description: This article explains how to work with approval sets, requests, and the subsets of those operations.
 author: stsporen
-ms.date: 02/01/2022
+ms.date: 09/16/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen

@@ -2,7 +2,7 @@
 title: Concepts unique to Project Contracts
 description: This article provides information about the key concepts of project contracts.
 author: rumant
-ms.date: 10/07/2020
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant

@@ -4,7 +4,7 @@
 title: Create and confirm Correction journals
 description: This article provides information about how to create and confirm a correction journal.
 author: rumant
-ms.date: 09/18/2020
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: 
 #

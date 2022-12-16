@@ -2,7 +2,7 @@
 title: Transaction origins - Link actuals to their source
 description: This article explains how the concept of transaction origins is used to link actuals to original source records, such as time entry, expense entry, or material usage logs.
 author: rumant
-ms.date: 03/25/2021
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod:
 ms.reviewer: johnmichalak
