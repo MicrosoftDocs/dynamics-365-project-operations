@@ -19,7 +19,10 @@ In a project each phase, task or work package would incur costs as labour, mater
 This article provides an overview of the end-to-end project budget management process in project-based organizations. 
 Project budget management typically follows the business process flow that is shown in the following diagram.
 
-![Picture explaining the project budget management in project operations](./media/Project budget management overview.png)
+
+![Picture explaining the project budget management in project operations](./media/project-budget-management-overview.png)
+
+
 
 ## See also
 
