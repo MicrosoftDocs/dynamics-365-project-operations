@@ -143,6 +143,16 @@ The following fields have been replaced with new fields.
 | msdyn_projectteam | msdyn_assignedhours  | msdyn_effort          |
 | msdyn_projectteam | msdyn_from           | msdyn_start           |
 | msdyn_projectteam | msdyn_to             | msdyn_finish          |
+|msdyn\_projecttask|msdyn\_ActualEffort|msdyn\_effortcompleted|
+|msdyn\_projecttask|msdyn\_RemainingHours|msdyn\_effortremaining|
+|msdyn\_projecttask|msdyn\_scheduledend|msdyn\_finish|
+|msdyn\_projecttask|msdyn\_scheduledstart|msdyn\_start|
+|msdyn\_projecttask|msdyn\_scheduleddurationminutes| msdyn\_duration|
+|msdyn\_projecttask|msdyn\_wbsid|msdyn\_OutlineLevel|
+|msdyn\_projecttask|msdyn\_wbsid|msdyn\_DisplaySequence|
+|msdyn\_resourceassignment|msdyn\_hours|msdyn\_effort|
+|msdyn\_resourceassignment|msdyn\_todate|msdyn\_finish|
+|msdyn\_resourceassignment|msdyn\_fromdate|msdyn\_start|
 
 The following fields have been added.
 
@@ -173,6 +183,7 @@ The following fields have been added.
 | msdyn_projectteam | msdyn_markedfordeletiontimer                 | The waiting period from when the team member sends a delete request to the Project scheduling service until the team member is actually deleted on Microsoft Dataverse.|
 | msdyn_projectteam | msdyn_markedfordeletiontimestamp             | The timestamp to record when the team member delete request is sent to the Project scheduling service. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Shows the project team member that this project team member was copied from.  |
+
 
 ## Project templates
 
