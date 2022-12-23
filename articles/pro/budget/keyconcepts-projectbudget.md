@@ -36,6 +36,7 @@ Actual is a time entry, expense or a material usage approved by the set workflow
 ### Budget line match priority
 
 Budget line match priority defines the order in which the budget to actual matching logic would respect various dimensions of actual while matching against the budget lines. 
+
 For instance. As per the default budget match priority for transaction class expense the following would be the priority order in which the actual would be matched.
 
 | **Field name** | **Applicable transaction class** | **Context** | **Budget match priority** |
@@ -45,6 +46,10 @@ For instance. As per the default budget match priority for transaction class exp
 | msdyn_costtype | Expense | Cost | 3 |
 | msdyn_accountvendor | Expense | Cost | 4 |
 
+Actual expense would be attempted to match to the budget line with maximum number of dimensions matched. 
+A budget line with msdyn_transactioncategory, msdyn_task, msdyn_costtype, msdyn_accountvendor defined would be attempted to be matched. 
+If there is no match, the lowest priority dimension msdyn_accountvendor would be avoided in the next pass to match against a budget line. 
+If there is no match still, the next lowest priority dimension msdyn_costtype would be avoided in the next pass to match against a budget line. This continues till a unique budget line is matched or an error is encountered.
 
 
 
