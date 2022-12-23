@@ -57,8 +57,19 @@ Actual expense would be attempted to match to the budget line with maximum numbe
   d. This continues till a unique budget line is matched or an error is encountered.
 
 ### Budget forecast
+
 Budget forecast is the expected spend or revenue per budget line during the period defined in the budget line. Forecast would be equal to budgeted value when budget is approved.
 
 Forecast would be made equal to actuals if actuals are more than forecast for the budget line. This is the forecast would be atleast equal to actuals now.
 
+### Variance
+
+Variance is the difference between budgeted spend or revenue and the actual spend or revenue.
+
+| **Budget type** | **Condition** | **Variance value** |
+| --- | --- | --- |
+| Cost | If actual is **less** than forecast | Zero |
+| Cost | If actual is **more** than forecast | Equivalent to (actual – forecast) |
+| Revenue | If actual is **more** than forecast |  Zero |
+| Revenue | If actual is **less** than forecast | Equivalent to (actual – forecast) |
 
