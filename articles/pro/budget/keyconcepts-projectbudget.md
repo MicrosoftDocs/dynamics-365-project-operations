@@ -73,3 +73,11 @@ Variance is the difference between budgeted spend or revenue and the actual spen
 | Revenue | If actual is **more** than forecast |  Zero |
 | Revenue | If actual is **less** than forecast | Equivalent to (actual – forecast) |
 
+
+## See also
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+[Microsoft](https://www.microsoft.com)
