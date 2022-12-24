@@ -37,15 +37,18 @@ After enabling the feature flag, the page would refresh automatically and a new 
 Create a project cost budget by following the below steps. 
 
   1.	Sign-in to Project Operations
-  2.	Change area to **Projects** in left nav
-  3.	Click on the project you wish to create a budget for.
-  4.	In the project page, you should see **Create Budget** in the top ribbon.
+  2.	Change area to **Projects** in left nav  
+  3.	Click on the project you wish to create a budget for.  
+  4.	In the project page, you should see **Create Budget** in the top ribbon.  
   5.	Select how you wish to create a budget – **Manual** or **From estimates**
-      a.	If Manual is selected, a **Budget** tab would be created with empty rows in a grid. 
-      b.	Click **+New Project Budget Line** on top of the grid to create budget lines. 
-      c.	If **From estimates** is selected, user can choose the source estimates for time. 
-      d.	A new **Budget** tab would be created with time, material, expense estimates pre-filled from the project estimates.
-      e.	Click **+New Project Budget Line** if you wish to create additional budget lines.
-      f.	Grid and the values in the grid are editable and you can make necessary changes, till the project budget is Submitted for approval.
+  
+  - If Manual is selected, a **Budget** tab would be created with empty rows in a grid.
+  - Click **+New Project Budget Line** on top of the grid to create budget lines.
+  - If **From estimates** is selected, user can choose the source estimates for time.
+  - A new **Budget** tab would be created with time, material, expense estimates pre-filled from the project estimates.
+  - Click **+New Project Budget Line** if you wish to create additional budget lines.
+  - Grid and the values in the grid are editable and you can make necessary changes, till the project budget is Submitted for approval.
+    
   6.	Refer ‘Project budget line – Time, Material, Expense’ for steps to be followed for budget line creation.
+  
   7.	Only one cost and one revenue budget can be created for a project.
