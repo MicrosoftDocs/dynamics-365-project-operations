@@ -47,14 +47,10 @@ For instance. As per the default budget match priority for transaction class exp
 | msdyn_accountvendor | Expense | Cost | 4 |
 
 Actual expense would be attempted to match to the budget line with maximum number of dimensions matched. 
-
-  a. A budget line with msdyn_transactioncategory, msdyn_task, msdyn_costtype, msdyn_accountvendor defined would be attempted to be matched. 
-
-  b. If there is no match, the lowest priority dimension msdyn_accountvendor would be avoided in the next pass to match against a budget line. 
-
-  c. If there is no match still, the next lowest priority dimension msdyn_costtype would be avoided in the next pass to match against a budget line.
-
-  d. This continues till a unique budget line is matched or an error is encountered.
+- A budget line with msdyn_transactioncategory, msdyn_task, msdyn_costtype, msdyn_accountvendor defined would be attempted to be matched. 
+- If there is no match, the lowest priority dimension msdyn_accountvendor would be avoided in the next pass to match against a budget line. 
+- If there is no match still, the next lowest priority dimension msdyn_costtype would be avoided in the next pass to match against a budget line.
+- This continues till a unique budget line is matched or an error is encountered.
 
 ### Budget forecast
 
@@ -78,6 +74,6 @@ Variance is the difference between budgeted spend or revenue and the actual spen
 
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 [Microsoft](https://www.microsoft.com)
