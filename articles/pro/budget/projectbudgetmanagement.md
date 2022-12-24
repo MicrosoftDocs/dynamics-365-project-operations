@@ -2,7 +2,7 @@
 title: Project budget management overview 
 description: This article provides overview of project budget management.
 author: niranjanmaski
-ms.date: 16/12/2022
+ms.date: 12/16/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: nimaski
