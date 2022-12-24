@@ -44,10 +44,8 @@ Project budget can be created for all types of projects viz fixed-price, time an
 
 ## See also
 
-- [Approvals overview](../approvals/approvals-overview.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 [Microsoft](https://www.microsoft.com)
 
