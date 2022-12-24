@@ -66,9 +66,6 @@ Delete a project cost budget by following below steps.
   5.	Click Budget, and click **Delete** to delete the project budget.
   
 
-## See also
-
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 [Microsoft](https://www.microsoft.com)
