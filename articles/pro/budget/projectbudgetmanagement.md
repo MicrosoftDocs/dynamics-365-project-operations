@@ -42,7 +42,6 @@ The following provides a step-by-step description of the project budget manageme
 
 Project budget can be created for all types of projects viz fixed-price, time and material, investment.
 
-## See also
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
