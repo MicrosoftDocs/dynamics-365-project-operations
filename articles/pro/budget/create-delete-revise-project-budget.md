@@ -1,6 +1,6 @@
 ---
-title: Create, delete, revise project budget
-description: This article provides the details to how to create, delete, revise a project budget.
+title: Creation and deletion of project budget
+description: This article provides the details to how to create and delete a project cost budget.
 author: niranjanmaski
 ms.date: 12/16/2022
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Create, delete, revise project budget
+# Creation and deletion of project budget
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
@@ -34,13 +34,13 @@ After enabling the feature flag, the page would refresh automatically and a new 
 
 ## Create a project cost budget
 
-Create a project cost budget by following the below steps. 
+Create a project cost budget by following below steps. 
 
-  1.	Sign-in to Project Operations
-  2.	Change area to **Projects** in left nav  
+  1.	Sign-in to Project Operations.
+  2.	Change area to **Projects** in left nav. 
   3.	Click on the project you wish to create a budget for.  
   4.	In the project page, you should see **Create Budget** in the top ribbon.  
-  5.	Select how you wish to create a budget – **Manual** or **From estimates**
+  5.	Select how you wish to create a budget – **Manual** or **From estimates**.
   
   - If Manual is selected, a **Budget** tab would be created with empty rows in a grid.
   - Click **+New Project Budget Line** on top of the grid to create budget lines.
@@ -51,3 +51,19 @@ Create a project cost budget by following the below steps.
     
   6.	Refer **Project budget line – Time, Material, Expense** for steps to be followed for creating cost budget lines.  
   7.	Only one cost and one revenue budget can be created for a project.
+
+## Delete a project cost budget
+
+Delete a project cost budget by following below steps. 
+
+> [!NOTE]
+> Project budget can be deleted only if budget is in either **Draft** status or in **Rejected** status. Project budget **cannot** be deleted in **review** or **Approved** or **Revised** status.
+
+  1.	Sign-in to Project Operations.
+  2.	Change area to **Projects** in left nav.
+  3.	Click on the project you wish to create a budget for.
+  4.	In the project page, you should see **Budget** in the top ribbon. 
+  5.	Click Budget, and click **Delete** to delete the project budget.
+  
+  
+  
