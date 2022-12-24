@@ -24,6 +24,21 @@ Project budget lines can be created under three Transaction classes - time, mate
 > [!NOTE]
 > Budget dimensions should be unique across all budget lines. Two budget lines with same dimensions cannot be created to ensure that there is no ambiguity while matching an actual to a budget line.
 
+## Time budget line
+
+Pre-requisite: Project cost budget is created and **Budget** tab is created in a project page.
+
+Follow the below steps for creating a project budget line for transaction class ‘Time’.
+  1. Sign-in to Project Operations.
+  2. Change area to ‘Projects’ in left nav.
+  3. Click the project you wish to create the Time budget line.
+  4. Since project budget is created, you should see a tab ‘Budget’.
+  5. Click ‘+New Project Budget Line’ to create budget line.
+  6. Quick create form would launch with default Transaction class selected as ‘Time’.
+  7. Once all fields are updated as per the below table, select ‘Save & Create New’ to create another budget line or select ‘Save & Close’ to save the details and close the quick create form.
+  8. Budget line fields can be edited on the grid under ‘Budget’ tab, it would be saved when you tab out to next line in the grid. This is possible only till budget is submitted for approval.
+
+
 
 
 
