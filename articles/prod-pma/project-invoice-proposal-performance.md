@@ -46,7 +46,7 @@ To enable the **Project invoice proposal performance enhancement** feature to re
 2. Select **Enable now**.
 3. Refresh your browser, and then create a new invoice proposal.
 
-A default value of four subtasks will default for all legal entities once the feature is enabled. This value can be modified within the **Project management and accounting parameters** page under the **Invoicing** tab for the parameter of **Number of subtasks for invoice proposal creation in batch**.
+A default value of 4 subtasks will default for all legal entities once the feature is enabled. This value can be modified within the **Project management and accounting parameters** page under the **Invoicing** tab for the parameter of **Number of subtasks for invoice proposal creation in batch**.
 
 > [!NOTE]
 > The Project invoice proposal performance feature does not address invoicing when billing rules are used.
@@ -57,7 +57,7 @@ A default value of four subtasks will default for all legal entities once the fe
 
 This feature improves performance during invoice proposal creation when using time and material or milestone billing rules with many billing rules and a high volume of transactions and milestones.
 
-With a large number of milestones or project transactions, users could experience issues interacting with the invoice proposal from billing rule form. In some cases the form could get stuck loading or stop responding when interacting with the form.
+With a large number of milestones or project transactions, users could experience issues interacting with the invoice proposal from billing rule form. In some cases, the form could get stuck loading or stop responding when interacting with the form.
 
 This feature improves performance by enforcing the **Project** filter to return transactions only matching the filter. Previously, if the project filter was set to a subproject or parent project then billing rules assigned to anything in the parent, sibling projects, or child projects would be returned. Users can now filter to specific subprojects, the parent project, or leave the **Project** filter blank to return all transactions for the specified contract.
 
