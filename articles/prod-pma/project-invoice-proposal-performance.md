@@ -3,8 +3,8 @@
 
 title: Project invoice proposal performance
 description: This article provides information about performance improvements to project invoice proposals.
-author: Yowelle
-ms.date: 01/3/2022
+author: ryansandness
+ms.date: 01/4/2022
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -46,12 +46,12 @@ To enable the **Project invoice proposal performance enhancement** feature to re
 2. Select **Enable now**.
 3. Refresh your browser, and then create a new invoice proposal.
 
-A default value of 4 subtasks will default for all legal entities once the feature is enabled. This value can be modified within the **Project management and accounting parameters** page under the **Invoicing** tab for the parameter of **Number of subtasks for invoice proposal creation in batch**.
+A default value of **4** subtasks will default for all legal entities once the feature is enabled. This value can be modified within the **Project management and accounting parameters** page under the **Invoicing** tab for the parameter of **Number of subtasks for invoice proposal creation in batch**.
 
 > [!NOTE]
 > The Project invoice proposal performance feature does not address invoicing when billing rules are used.
 >
-> During the batch process to create invoice proposals, the number of subtasks will split the tasks to a maximum number based on the number of contracts with invoiceable transactions, regardless of what you have entered. For example, if you enter **3** for the number of subtasks for invoice proposal creation in batch, and there are only two contracts with invoiceable transactions, only two subtasks are created.
+> During the batch process to create invoice proposals, the number of subtasks will split the tasks to a maximum number based on the number of contracts with invoiceable transactions, regardless of what you have entered. For example, if you enter **3** for the number of subtasks for invoice proposal creation in batch, and there are only two contracts with invoiceable transactions, only two subtasks are created. 
 
 ## Enable performance improvement to filter by project for project invoice proposals with billing rules
 
@@ -61,13 +61,15 @@ With a large number of milestones or project transactions, users could experienc
 
 This feature improves performance by enforcing the **Project** filter to return transactions only matching the filter. Previously, if the project filter was set to a subproject or parent project then billing rules assigned to anything in the parent, sibling projects, or child projects would be returned. Users can now filter to specific subprojects, the parent project, or leave the **Project** filter blank to return all transactions for the specified contract.
 
+If you create an invoice proposal from within a project, the **Project** filter will be read-only and locked to the current parent or subproject. You can create an invoice proposal from the contract or from the **Project invoice proposals** menu to be able to add and change the **Project** filter specified.
+
 > [!NOTE]
 > The project filter only works for time and material or milestone type billing rules as only these billing rule types specify the project as part of the configuration.
 
-To enable the **performance improvement to filter by project for project invoice proposals with billing rules** feature to reduce the time needed to create a new invoice proposal for posted project transactions, complete the following steps.
+To enable the **Performance improvement to filter by project for project invoice proposals with billing rules** feature to reduce the time needed to create a new invoice proposal for posted project transactions, complete the following steps.
 
-1. Go to **Feature management** > **All**. In the feature list, locate **performance improvement to filter by project for project invoice proposals with billing rules**.
+1. Go to **Feature management** > **All**. In the feature list, locate **Performance improvement to filter by project for project invoice proposals with billing rules**.
 2. Select **Enable now**.
 3. Refresh your browser, and then create a new invoice proposal.
 
-This feature can be used with the project invoice proposal performance enhancement feature to prevent the automatic display of transactions prior to applying filters.
+This feature can be used with the **Project invoice proposal performance enhancement** feature to prevent the automatic display of transactions prior to applying filters.
