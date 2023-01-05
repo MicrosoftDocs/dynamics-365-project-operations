@@ -32,13 +32,13 @@ ms.dyn365.ops.version: 10.0.18
 
 [!include [banner](../includes/banner.md)]
 
-When you create a new invoice proposal, you may encounter slowner processing when the number of projects and transactions increase. This article describes features you can enable to work more efficiently.
+When you create a new invoice proposal, you may encounter slower processing when the number of projects and transactions increase. This article describes features you can enable that help you work more efficiently.
 
 ## Enable project invoice proposal performance enhancement
 
 This feature improves performance and reduces the time necessary to create an invoice proposal. It enables multi-threaded tasks for the invoice proposal creation and improves the logic used to scan projects for transactions that need invoices.
 
-This feature introduces a parameter in the **Invoice** tab on the **Project Management and accounting parameters** page to **Display available transactions automatically**. This parameter is set to **No** initially to prevent transactions from displaying while they are loading when the **Create invoice proposal** form opens. Instead, transactions display after the search button is used. This encourages users to select criteria to filter transactions they may not need before the query is run, thereby helping to reduce the need to refine and search again. This parameter applies to all users of the legal entity and prevents individual users from changing their settings on the **Create invoice proposal** form. 
+This feature introduces a parameter in the **Invoice** tab on the **Project Management and accounting parameters** page to **Display available transactions automatically**. This parameter is set to **No** initially to prevent transactions from displaying while they are loading when the **Create invoice proposal** form opens. Instead, transactions display after the search button is used. This encourages users to select criteria to filter transactions they may not need before the query runs, which helps to reduce the need to refine and search again. This parameter applies to all users of the legal entity and prevents individual users from changing their settings on the **Create invoice proposal** form. 
 
 To enable the **Project invoice proposal performance enhancement** feature, complete the following steps.
 
@@ -57,7 +57,7 @@ By default, the value for **Subtasks** is set to **4** for all legal entities on
 
 This feature improves performance during invoice proposal creation when using time and material or milestone billing rules with many billing rules and a high volume of transactions and milestones.
 
-When there are manu milestones or project transactions, users can experience issues interacting with the invoice proposal from billing rule form. In some cases, the form can get stuck loading or stop responding when interacting with the form.
+When there are many milestones or project transactions, users can experience issues interacting with the invoice proposal from billing rule form. In some cases, the form can get stuck loading or stop responding when interacting with the form.
 
 Performance is improved by enforcing the **Project** filter to return transactions that only match the filter. Previously, if the project filter was set to a **Subproject** or **Parent project** and the billing rules were assigned to anything in the parent, then sibling projects, or child projects would be returned. Users can now filter to specific subprojects, the parent project, or leave the **Project** filter blank to return all transactions for the specified contract.
 
