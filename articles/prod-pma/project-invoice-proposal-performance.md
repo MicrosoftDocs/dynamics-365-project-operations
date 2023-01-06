@@ -46,12 +46,12 @@ To enable the **Project invoice proposal performance enhancement** feature, comp
 1. Select **Enable now**.
 1. Refresh your browser, and then create a new invoice proposal.
 
-By default, the value for **Subtasks** is set to **4** for all legal entities once the feature is enabled. This value can be modified within the **Project management and accounting parameters** page under the **Invoicing** tab for the parameter of **Number of subtasks for invoice proposal creation in batch**.
+Project invoice proposals created through batch will be created faster by splitting the work to be done into multiple **Subtasks**. By default, the value for **Subtasks** is set to **4** for all legal entities once the feature is enabled. This value can be modified within the **Project management and accounting parameters** page under the **Invoicing** tab for the parameter of **Number of subtasks for invoice proposal creation in batch**.
 
 > [!NOTE]
 > The **Project invoice proposal performance** feature does not address invoicing when billing rules are used.
 >
-> Regardless of the value you have entered for **Subtasks**, when the batch process runs to create invoice proposals, subtasks will split the tasks to a maximum number that is based on the number of contracts with invoiceable transactions. For example, if you enter **3** for the number of subtasks for invoice proposal creation in batch, and there are only two contracts with invoiceable transactions, only two subtasks are created. 
+> An individual contract won't have its transactions broken down into multiple **Subtasks**. If there are only one or two contracts with transactions to invoice, then a Subtask will be created for each contract, rather than the higher number configured. For example, if you enter **3** for the number of subtasks for invoice proposal creation in batch, and there are only two contracts with invoiceable transactions, only two subtasks are created. 
 
 ## Enable performance improvement to filter by project for project invoice proposals with billing rules
 
