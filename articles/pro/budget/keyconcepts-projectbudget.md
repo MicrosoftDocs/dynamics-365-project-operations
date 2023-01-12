@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Project budget management overview
+# Key concepts in Project budget management
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
