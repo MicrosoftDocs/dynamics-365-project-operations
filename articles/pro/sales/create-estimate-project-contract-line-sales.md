@@ -2,7 +2,7 @@
 title: Estimate a projec contract line
 description:  This article provides information about estimating a project–based contract line.
 author: rumant
-ms.date: 03/30/2021
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant

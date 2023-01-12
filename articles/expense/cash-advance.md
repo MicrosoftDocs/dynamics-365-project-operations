@@ -2,7 +2,7 @@
 title: Cash advance
 description: This article provides information about cash advances.
 author: suvaidya
-ms.date: 03/25/2021
+ms.date: 04/07/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya

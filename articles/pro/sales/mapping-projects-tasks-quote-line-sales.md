@@ -2,7 +2,7 @@
 title: Map projects and tasks to project quote lines
 description: This article provides information about how to map projects and tasks to project quote lines.
 author: rumant
-ms.date: 10/05/2020
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant

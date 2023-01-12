@@ -13,13 +13,13 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The external scheduling mode lets you natively create, update, and delete entities that are related to work breakdown structures (WBSs), but without the current limits that are enforced by Microsoft Project for the Web. It also provides limited validation. This mode should be used only by the following customers:
+The external scheduling mode lets you natively create, update, and delete data in tables that are related to work breakdown structures (WBSs), but without the current limits that are enforced by Microsoft Project for the Web. It also provides limited validation. This mode should be used only by the following customers:
 
 - Customers who have the tools that are required to define a WBS outside the scheduling logic that is provided by Project Operations
 - Customers who have to manage schedule hierarchy, dependencies, or task duration
 
 > [!IMPORTANT]
-> Data that isn't correctly entered in the WBS–related entities might not be rendered in the resource reconciliation grid, estimates grid, tracking grid, or resource assignment grid.
+> Data that isn't correctly entered in the WBS–related tables might not be rendered in the resource reconciliation grid, estimates grid, tracking grid, or resource assignment grid.
 
 ## Configuration
 
@@ -35,7 +35,7 @@ If a project is externally scheduled, access to Project for the Web is restricte
 
 ## Creating and editing the WBS
 
-If external scheduling is enabled for a project, you must define the data for all WBS–related entities, including tasks, team members, resource assignments, and dependencies.
+If external scheduling is enabled for a project, you must define the data for all WBS–related tables, including tasks, team members, resource assignments, and dependencies.
 
 The following illustration shows the data model for project planning.
 
@@ -60,7 +60,7 @@ The following operations aren't permitted on externally scheduled projects.
 
 ### Quoting and contracting
 
-- **Importing Quote Line and Contract Line details** – When quote or contract line details are imported from a project, the application has been tested to support a maximum of only 500 tasks in the WBA, based on a limit of 20 assignments per task.
+- **Importing Quote Line and Contract Line details** – When quote or contract line details are imported from a project, the application has been tested to support a maximum of only 500 tasks in the WBS, based on a limit of 20 assignments per task.
 
 ### Actuals and invoicing
 
