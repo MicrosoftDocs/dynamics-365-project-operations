@@ -15,7 +15,7 @@ _**Applies to:** Project Operations for resource/non-stocked based scenarios, Li
 The article explains some key concepts that you should be aware of before you start to use Project budget management in Microsoft Dynamics 365 Project Operations.
 
 ### Budget
-Project budget represents a point in time snapshot of the estimated spend across the project phases and its associated tasks. Even if there is a change in prices of the resources, material, or expenses, that donot impact the budget snapshot once it is made part of the budget.
+Project budget represents a point in time snapshot of the estimated spend across the project phases and its associated tasks. Even if there's a change in prices of the resources, material, or expenses, that do not impact the budget snapshot once it's made part of the budget.
 
 ### Cost budget
 
@@ -27,7 +27,7 @@ Revenue budget is the point in time snapshot of estimated revenue for the projec
 
 ### Budget line
 
-Budget line of a project budget identifies a discrete set of dimensions on which the cost or revenue of the project needs to be tracked. Dimensions across the budget lines needs to be unique, this is to ensure all actuals matching certain dimension would compare against the same budget line.
+Budget line of a project budget identifies a discrete set of dimensions on which the cost or revenue of the project needs to be tracked. Dimensions across budget lines need to be unique to ensure that actuals matching a certain dimensions would always gets counted against the same budget line.
 
 ### Actual
 
@@ -37,7 +37,7 @@ Actual is a time entry, expense or a material usage approved by the set workflow
 
 Budget line match priority defines the order in which the budget to actual matching logic would respect various dimensions of actual while matching against the budget lines. 
 
-For instance. As per the default budget match priority for transaction class expense the following would be the priority order in which the actual would be matched.
+For instance, as per the default budget match priority for transaction class expense the following table would show the typical priority order in which the actual would be matched.
 
 | **Field name** | **Applicable transaction class** | **Context** | **Budget match priority** |
 | --- | --- | --- | --- |
@@ -47,16 +47,16 @@ For instance. As per the default budget match priority for transaction class exp
 | msdyn_accountvendor | Expense | Cost | 4 |
 
 Actual expense would be attempted to match to the budget line with maximum number of dimensions matched. 
-- A budget line with msdyn_transactioncategory, msdyn_task, msdyn_costtype, msdyn_accountvendor defined would be attempted to be matched. 
-- If there is no match, the lowest priority dimension msdyn_accountvendor would be avoided in the next pass to match against a budget line. 
-- If there is no match still, the next lowest priority dimension msdyn_costtype would be avoided in the next pass to match against a budget line.
-- This continues till a unique budget line is matched or an error is encountered.
+- A budget line with msdyn_transactioncategory, msdyn_task, msdyn_costtype, msdyn_accountvendor defined would be searched for. 
+- If there's no match, the lowest priority dimension msdyn_accountvendor would be avoided in the next pass to match against a budget line. 
+- If there's no match still, the next lowest priority dimension msdyn_costtype would be avoided in the next pass to match against a budget line.
+- This will continue till an unique budget line is matched or an error is encountered.
 
 ### Budget forecast
 
 Budget forecast is the expected spend or revenue per budget line during the period defined in the budget line. Forecast would be equal to budgeted value when budget is approved.
 
-Forecast would be made equal to actuals if actuals are more than forecast for the budget line. This is the forecast would be atleast equal to actuals now.
+Forecast would be made equal to actuals if actuals are more than forecast for the budget line. Since actuals have already more than budget now, forecast would be atleast equal to actuals.
 
 ### Variance
 
