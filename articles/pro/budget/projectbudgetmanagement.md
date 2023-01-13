@@ -20,7 +20,7 @@ This article provides an overview of the end-to-end project budget management pr
 
 Project budget management typically follows the business process flow that is shown in the following diagram.
 
-![Picture explaining the project budget management in project operations.](../media/1-project-budget-management-overview.png)
+![Picture explaining the project budget management in project operations.](media/1-project-budget-management-overview-pic.png)
 
 
 The following provides a step-by-step description of the project budget management process.
