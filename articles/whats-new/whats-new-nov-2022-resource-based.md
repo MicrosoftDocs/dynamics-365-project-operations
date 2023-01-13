@@ -2,7 +2,7 @@
 title: What's new November 2022 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the November 2022 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: ryansandness
-ms.date: 12/16/2022
+ms.date: 01/13/2023
 ms.topic: article
 ms.prod:
 ms.reviewer: johnmichalak 
@@ -26,6 +26,12 @@ Always run the latest version of the map in your environment and enable all rela
 
 If you encounter an issue when you start the map, follow the instructions in the [Missing table columns issue on maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual-write troubleshooting guide.
 
+## Features included in this release
+
+| Feature area | Feature name | More information |
+| --- | --- | --- |
+| Project Planning and Tracking | **Resource Assignment Contour Editing**<br> We are introducing the ability to edit the time phased effort of each resource assigned to a given task in the work breakdown structure, leveraging the modern Project for the Web project scheduling user interface. This new grid supports all of the existing experience in the Project for the Web including co-authoring and undo/redo.| [Editing Resource Assignment Contours](/articles/project-management/create-assignments) |
+
 ## Quality updates
 
 ### Project Operations on Dataverse
@@ -44,7 +50,8 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Opportunity Management | 2783798 | When importing project estimates on quote line, task descriptions are missing for expense and material estimates.|
 | Opportunity Management | 2988635 | Improve error msg description when deleting Customer on Quote. |
 | Opportunity Management | 3001191 | Unable to create quote from Opportunity where billing method is specified as null. |
-| Upgrade | 3012324 | Project conversion failed on a project with control characters like Tab in its name. || Project Planning and Tracking | 2790384 | The Pending OperationSet time-out is too short. |
+| Upgrade | 3012324 | Project conversion failed on a project with control characters like Tab in its name. |
+| Project Planning and Tracking | 2790384 | The Pending OperationSet time-out is too short. |
 | Project Planning and Tracking | 3044275 | Missing localization for: missingProjectSchedulerErrorMessage. |
 | Project Planning and Tracking | 3044277 | Project Recon grid does not load when scheduler is unset.|
 | Resource Management | 2943153 | Update Tracking tab to show two decimal places for Duration.|
