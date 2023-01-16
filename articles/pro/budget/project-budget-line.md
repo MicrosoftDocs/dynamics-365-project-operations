@@ -132,3 +132,8 @@ Follow the below steps for creating a project budget line for transaction class 
 | Contingency | Optional | Fill the contingency amount you wish to add to the budgeted amount. </br> Budget for the selected dimensions would be equal to Amount + Contingency. |
 | Budget | Mandatory | Auto-filled based on the dimensions. </br> This holds the budget for the budget line for the selected dimensions. </br> Budget = Amount + Contingency. |
 
+  
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
+[Microsoft](https://www.microsoft.com)
