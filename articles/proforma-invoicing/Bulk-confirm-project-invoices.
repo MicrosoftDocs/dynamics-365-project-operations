@@ -1,0 +1,26 @@
+---
+title: Bulk confirm proforma project-based invoices
+description: This article provides information about bulk confirming proforma project-based invoices. 
+author: suvaidya
+ms.date: 01/20/2023
+ms.topic: article
+ms.reviewer: johnmichalak
+ms.author: suvaidya
+---
+# Bulk confirm a proforma project-based invoice
+
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
+
+**Bulk confirm Proforma Project invoices**
+
+With this feature, users will be able to multi select project invoices and use the confirm action on the ribbon to confirm all the selected invoices. 
+To use this feature, admins must enable it under Parameters--> Organization unit-->Feature control -->Enable bulk confirm. 
+
+Once confirmed, all selected invoices that meet the back end validations are scheduled by a batch job to be processed asynchronously. 
+Users can track the progress on an invoice using the **Bulk confirmation status" field which reflects the current state of each invoice being processed. 
+The possible values for this field include-  Blank (default), Invoice confirmation scheduled, Invoice confirmation complete, Invoice confirmation failed and Invoice currently processing. 
+
+When the "Bulk confirmation status" field is in any stage other than confirmed , the "Project invoice status" field will be "Draft".  
+When the Bulk confirmation status field is "Confirmed", the **project invoice status** will also reflect the "confirmed" status. 
+
+** 
