@@ -34,7 +34,7 @@ The following provides a step-by-step description of the project budget manageme
 1. The project manager decides to revise the budget based on the new forecasts based on allocation of additional budget to project or with an update on the contract based on spend.
 1. The revised project budget follows the project budget approval workflow, and after the project is approved, a new version of the project budget would be used for actual vs budget comparison.
 
-The project budget can be created for all types of projects viz fixed-price, time and material, investment.
+The project budget can be created for all types of projects, particularly fixed-price, time and material, investment.
 
 
 
