@@ -16,11 +16,15 @@ _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operation
 With this feature, users will be able to multi select project invoices and use the confirm action on the ribbon to confirm all the selected invoices. 
 To use this feature, admins must enable it under Parameters--> Organization unit-->Feature control -->Enable bulk confirm. 
 
-Once confirmed, all selected invoices that meet the back end validations are scheduled by a batch job to be processed asynchronously. 
+On "Confirm", all selected invoices that meet the invoice validation criteria, will be scheduled by a batch job to be processed asynchronously. 
 Users can track the progress on an invoice using the **Bulk confirmation status" field which reflects the current state of each invoice being processed. 
 The possible values for this field include-  Blank (default), Invoice confirmation scheduled, Invoice confirmation complete, Invoice confirmation failed and Invoice currently processing. 
 
 When the "Bulk confirmation status" field is in any stage other than confirmed , the "Project invoice status" field will be "Draft".  
 When the Bulk confirmation status field is "Confirmed", the **project invoice status** will also reflect the "confirmed" status. 
 
-** 
+## Error Handling
+Users can confirm upto 250 invoices at a single point in time 
+Invoices that have already been scheduled for confirmation i.e. those in "currently processing " state  or those have already been confirmed i.e.those in "confirmed" state will automatically be skipped from processing during bulk cofnirmation . 
+Failed invoices can be tracked using the bulk confirmation status "Invoice confirmation failed" . Users can navigate to the details tab--> timeline to view the failure details on each invoice. 
+
