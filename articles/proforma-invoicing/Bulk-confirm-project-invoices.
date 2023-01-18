@@ -20,11 +20,12 @@ On "Confirm", all selected invoices that meet the invoice validation criteria, w
 Users can track the progress on an invoice using the **Bulk confirmation status" field which reflects the current state of each invoice being processed. 
 The possible values for this field include-  Blank (default), Invoice confirmation scheduled, Invoice confirmation complete, Invoice confirmation failed and Invoice currently processing. 
 
-When the "Bulk confirmation status" field is in any stage other than confirmed , the "Project invoice status" field will be "Draft".  
-When the Bulk confirmation status field is "Confirmed", the **project invoice status** will also reflect the "confirmed" status. 
+Note: The "Project invoice status" reflects the state of each invoice confirmed individually.  The "Bulk confirmation status" reflects the state of each invoice confirmed in bulk.
+If the invoice has been scheduled using bulk confirmation, the "Project invoice status" field will be "Draft" , and the "Bulk confirmation status" will reflect the processing stage of the invoice.
+If the invoice was bulk confirmed, then both the **project invoice status** and the "Bulk confirmation status" will be "confirmed" . 
 
 ## Error Handling
 Users can confirm upto 250 invoices at a single point in time 
-Invoices that have already been scheduled for confirmation i.e. those in "currently processing " state  or those have already been confirmed i.e.those in "confirmed" state will automatically be skipped from processing during bulk cofnirmation . 
+On Bulk confirmation, invalid invoices, invoices with "Invoice currently processing" and " Invoice Confirmation Complete" statuses will be skipped from further processing. 
 Failed invoices can be tracked using the bulk confirmation status "Invoice confirmation failed" . Users can navigate to the details tab--> timeline to view the failure details on each invoice. 
 
