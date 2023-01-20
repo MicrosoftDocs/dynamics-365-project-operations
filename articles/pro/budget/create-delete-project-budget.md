@@ -1,5 +1,5 @@
 ---
-title: Creatie and delete project cost budgets
+title: Create and delete project cost budgets
 description: This article provides the details for how to create and delete a project cost budget.
 author: niranjanmaski
 ms.date: 01/13/2023
