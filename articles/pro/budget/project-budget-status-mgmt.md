@@ -10,7 +10,7 @@ ms.author: nimaski
 
 # Project budget status management
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies to:** _Lite deployment - deal to proforma invoicing._
 
 Prerequisite for this article is that the project budget is created. See the article, [Create and delete project cost budgets](create-delete-project-budget.md) to understand how a project budget is created for a project.
 
