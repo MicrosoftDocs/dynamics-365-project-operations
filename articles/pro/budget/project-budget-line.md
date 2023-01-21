@@ -10,7 +10,7 @@ ms.author: nimaski
 
 # Project budget line – Time, Material, and Expense
 
-**_Applies To:_** _Lite deployment - deal to proforma invoicing_
+**_Applies To:_** _Lite deployment - deal to proforma invoicing._
 
 The Project budget has budget lines that are a snapshot of the budgeted quantity and the amount against dimensions which needs to be tracked.
 
