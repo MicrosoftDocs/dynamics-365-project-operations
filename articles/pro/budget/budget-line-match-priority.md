@@ -10,7 +10,7 @@ ms.author: nimaski
 
 # Budget line match priority
 
-**_Applies To:_** _ Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+**_Applies To:_** Lite deployment - deal to proforma invoicing_
 
 Budget line match priority defines the order in which an actual would be attempted to match against the various dimensions of budget lines.
 
