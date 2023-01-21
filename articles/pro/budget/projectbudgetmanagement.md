@@ -10,7 +10,7 @@ ms.author: nimaski
 
 # Project budget management overview
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies to:** _Lite deployment - deal to proforma invoicing._
 
 In a project each phase, task or work package would incur costs as labour, material, and expenses. Project budget represents a point in time snapshot of the estimated spend across the project phases and its associated tasks.
 
