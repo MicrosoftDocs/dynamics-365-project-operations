@@ -10,7 +10,7 @@ ms.author: nimaski
 
 # Create and delete project cost budgets
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies to:** Lite deployment - deal to proforma invoicing._
 
 ## Enable the project cost budget feature
 
