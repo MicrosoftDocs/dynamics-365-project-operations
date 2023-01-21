@@ -10,7 +10,7 @@ ms.author: nimaski
 
 # Key concepts in Project budget management
 
-_**Applies to:** Lite deployment - deal to proforma invoicing._
+_**Applies to:** _Lite deployment - deal to proforma invoicing._
 
 This article explains key concepts that you should be aware of before you start to use Project budget management in Microsoft Dynamics 365 Project Operations.
 
