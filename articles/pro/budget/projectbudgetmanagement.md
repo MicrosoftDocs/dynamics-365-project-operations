@@ -1,8 +1,8 @@
 ---
 title: Project budget management overview 
-description: This article provides overview of project budget management.
+description: This article provides an overview of the project budget management.
 author: niranjanmaski
-ms.date: 12/16/2022
+ms.date: 01/23/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: nimaski
@@ -12,15 +12,15 @@ ms.author: nimaski
 
 _**Applies to:** _Lite deployment - deal to proforma invoicing._
 
-In a project each phase, task or work package would incur costs as labour, material, and expenses. Project budget represents a point in time snapshot of the estimated spend across the project phases and its associated tasks.
+In a project each phase, task, or work package incurs costs as labor, material, and expenses. Project budget represents a point in time snapshot of the estimated spend across the project phases and its associated tasks.
 
-## Project budget management in Project Operations
+## Project budget management in Microsoft Dynamics 365 Project Operations
 
 This article provides an overview of the end-to-end project budget management process in project-based organizations. 
 
 Project budget management typically follows the business process flow that is shown in the following diagram.
 
-![Diagram of the project bugeting process flow for project budget management in Project Operations.](media/1-project-budget-management-overview-pic.png)
+![Diagram of the project budgeting process flow for project budget management in Project Operations.](media/1-project-budget-management-overview-pic.png)
 
 
 The following provides a step-by-step description of the project budget management process.
