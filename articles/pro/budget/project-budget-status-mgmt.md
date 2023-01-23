@@ -1,6 +1,6 @@
 ---
 title: Project budget status management
-description: This article provides the stauts management of project budget.
+description: This article provides information about the status management of project budget.
 author: niranjanmaski
 ms.date: 01/13/2023
 ms.topic: article
@@ -12,47 +12,42 @@ ms.author: nimaski
 
 _**Applies to:** _Lite deployment - deal to proforma invoicing._
 
-Prerequisite for this article is that the project budget is created. See the article, [Create and delete project cost budgets](create-delete-project-budget.md) to understand how a project budget is created for a project.
+Prerequisite for this article is that the project budget is created. To understand how a project budget is created for a project, see [Create and delete project cost budgets](create-delete-project-budget.md).
 
-This article explains the various status of project budget. What are the triggers for the status transition and explain the status in which project budget would be open for edit. 
+This article explains the various statuses of a project budget, the triggers for the status transition, and the status in which project budget would be open for edit. 
 
 > [!NOTE]
->Project budget needs to be in approved status, for actuals to get tracked against the project budget.
+> Project budget needs to be in approved status, for actuals to get tracked against the project budget.
 
 
 
-Project budget status transition would be as explained in below picture.
+Project budget status transition are explained in the following image.
 
-
-
-![Picture explaining the project budget's status transition.](media/2-project-budget-state-management-pic.png)
+![Image explaining the project budget's status transitions.](media/2-project-budget-state-management-pic.png)
 
 
 
 | **Budget status** | **What does the status mean?** |
 |         ---       | --- |
-|       Draft     | Budget dimensions, quantity, prices, budget amounts can be updated and saved in this status. Budget needs to be submitted to move to In review status. Budget lines are editable.|
-|       In Review | Budget is submitted for approval, and it is in review. Can move to Approved status if its approved or move back to Rejected status if it is rejected. Budget is not editable in this status.|
-|       Approved     | Budget is approved and actuals would be tracked against the budget lines. Budget is not editable in this status.|
-|       Rejected     | Budget which was submitted for review is rejected. Budget lines needs to be updated as per the user need and re-submitted to move it to In review status. Budget lines are editable in this status.|
-|       Revised     | An approved budget version is revised, and a new budget version was approved. At this stage the previous approved version would move to Revised status. Budget lines are not editable in this status. |
-
+|       Draft     | The budget dimensions, quantity, prices, and budget amounts can be updated and saved in this status. The budget needs to be submitted to move to the **In review** status. Budget lines are editable.|
+|       In Review | The budget is submitted for approval, and it's in review. Can move to the **Approved** status if it's approved, or moved back to the **Rejected** status if it's rejected. The budget isn't editable in this status.|
+|       Approved     | The budget is approved and the actuals are tracked against the budget lines. Teh budget isn't editable in this status.|
+|       Rejected     | The budget that was submitted for review is rejected. The budget lines need to be updated by the user and then resubmitted to move it to the **In review** status. The budget lines are editable in this status.|
+|       Revised     | An approved budget version is revised, and a new budget version was approved. At this stage the previously approved version is moved to the **Revised** status. The budget lines aren't editable in this status. |
 
 
 
 ## Budget approval
 
-Follow the below steps for approving a project budget.
+To approve a project budget, follow these steps.
 
-1.	Sign-in to Project Operations.
-2.	Change area to **Projects** in left nav.
-3.	Assuming that budget is created, **Budget** tab is visible and budget lines are created as per project needs.
-4.	As soon as it's ensured that all budget lines are created and you wish to get it approved.
-5.	Click **Submit budget** on the top ribbon. 
-6.	This action would moved budget to **In Review** status and budget would be not editable.
-7.	Click the **Budget** in the top ribbon, you would see options – **Approve**, **Reject**.
-8.	After validating the submitted budget, click on **Approve** to approve the submitted budget. 
-9.	If you want some additional changes to be done in budget, click on **Reject** in above step, which moves the budget to *Rejected* status and budget would be editable. Which can be submitted again for approval after making the needed edits.
+1. Sign-in to Microsoft Dynamics 365 Project Operations.
+1. From the left navigation, change the area to **Projects**.
+1. Assuming that budget is created, the **Budget** tab is visible, and the budget lines are created based on the project's needs.
+1. When all budget lines are created and you are ready to get it approved, select **Submit budget**. The budget status is set to **In Review**, and the budget isn't editable.
+1. Select the **Budget** in the top ribbon to see the **Approve** and **Reject** options.
+1. After validating the submitted budget, select **Approve** to approve the submitted budget. 
+1. If you want to make changes to the budget, select **Reject** to move the budget to the *Rejected* status. You can edit the budget and submit it again for approval.
  
 > [!NOTE]
 > Currently there is no approval workflow implemented for budget approval. 
@@ -60,22 +55,20 @@ Follow the below steps for approving a project budget.
 
 ## Delete budget
 
-Follow the below steps for deleting a project budget.
+To delete a project budget, follow these steps.
 
 > [!NOTE]
-> Budget data cannot be recovered once a budget is deleted. 
+> Budget data can't be recovered once a budget is deleted. 
 
-1.	Sign-in to Project Operations.
-2.	Change area to **Projects** in left nav.
-3.	Assuming that budget is created, **Budget** tab is visible and budget lines are created as per project needs.
-4.	Click the **Budget** in the top ribbon, you would see options – Approve, Reject, **Delete**.
-5.	You would see **Delete** option only if the budget can be deleted as per the budget status. 
-6.	Budget can be deleted only if budget is in either *Draft* or *Rejected* status. Budget cannot be deleted if budget is in *In Review*, *Approved* or *Revised* status.
-7.	To delete a budget, Click **Delete** option and click **Confirm** on the confirmation dialog, if you really want to delete the budget.
-8.	Clicking **Cancel**’ on the confirmation dialog would cancel the budget deletion.
+1. Sign-in to Microsoft Dynamics 365 Project Operations.
+1. From the left navigation, change the area to **Projects**.
+1. Assuming that budget is created, the **Budget** tab is visible, and the budget lines are created based on the project's needs.
+1. Select the **Budget** in the top ribbon to see the **Approve** and **Reject** options. The **Delete** option is only only available if the budget status is either **Draft** or **Rejected**. Budgets can't be deleted if the status is either **In Review**, **Approved**, or **Revised**.
+1. To delete a budget, select **Delete**, and then select **Confirm**.
+1. Select **Cancel**’ on the confirmation dialog to cancel the budget deletion.
 
 > [!NOTE]
-> A project with a budget cannot be deleted unless the project budget is deleted.
+> A project with a budget can't be deleted unless the project budget is deleted.
 
 
 
