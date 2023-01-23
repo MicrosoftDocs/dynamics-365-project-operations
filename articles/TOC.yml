@@ -987,9 +987,9 @@
     - name: Project budget line – time, material, and expense
       href: pro/budget/project-budget-line.md
     - name: Project budget status management
-      href: pro/budget/poject-budget-status-mgmt.md
+      href: pro/budget/project-budget-status-mgmt.md
     - name: Budget line match priority
-      href: pro/budget/project-budget-line-match-priority.md
+      hpro/budget/budget-line-match-priority.md
   - name: Resource management
     items: 
     - name: Key concepts
