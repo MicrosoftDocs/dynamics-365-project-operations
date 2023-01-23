@@ -989,7 +989,7 @@
     - name: Project budget status management
       href: pro/budget/project-budget-status-mgmt.md
     - name: Budget line match priority
-      hpro/budget/budget-line-match-priority.md
+      href: hpro/budget/budget-line-match-priority.md
   - name: Resource management
     items: 
     - name: Key concepts
