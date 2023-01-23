@@ -976,6 +976,20 @@
         href: project-management/scheduling-apis-powerautomate.md
       - name: Project schedule API performance
         href: project-management/project-schedule-api-performance.md
+  - name: Project budget management
+    items:
+    - name: Project budget management overview
+      href: pro/budget/projectbudgetmanagement.md
+    - name: Key concepts in project budget management
+      href: pro/budget/keyconcepts-projectbudget.md 
+    - name: Create and delete project cost budgets
+      href: pro/budget/create-delete-project-budget.md
+    - name: Project budget line – time, material, and expense
+      href: pro/budget/project-budget-line.md
+    - name: Project budget status management
+      href: pro/budget/poject-budget-status-mgmt.md
+    - name: Budget line match priority
+      href: pro/budget/project-budget-line-match-priority.md
   - name: Resource management
     items: 
     - name: Key concepts
@@ -1032,7 +1046,7 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
-  - name: Subcontract Management
+  - name: Subcontract management
     items: 
     - name: Subcontract management in Project Operations
       href: pro/subcontracting/managing-subcontracts-overview.md
