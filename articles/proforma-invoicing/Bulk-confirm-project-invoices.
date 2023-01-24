@@ -18,7 +18,7 @@ To use this feature, admins must enable it under Parameters--> Organization unit
 
 On "Confirm", all selected invoices that meet the invoice validation criteria, will be scheduled by a batch job to be processed asynchronously. 
 Users can track the progress on an invoice using the **Bulk confirmation status" field which reflects the current state of each invoice being processed. 
-The possible values for this field include-  Blank (default), Invoice confirmation scheduled, Invoice currently processing, Invoice confirmation complete and Invoice confirmation failed. 
+The values for this field include-  blank (default), scheduled, processing, complete and failed. 
 
 Note: The "Project invoice status" reflects the state of each invoice confirmed individually.  The "Bulk confirmation status" reflects the state of each invoice when confirmed in bulk.
 If the invoice has been scheduled using bulk confirmation, the "Project invoice status" field will be "Draft" , and the "Bulk confirmation status" will reflect the processing stage of the invoice.
