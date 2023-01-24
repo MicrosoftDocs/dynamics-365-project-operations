@@ -1,6 +1,6 @@
 ---
-title: Key concepts in Project budget management
-description: This article explains key concepts of Project budget management in Microsoft Dynamics 365 Project Operations.
+title: Key concepts in project budget management
+description: This article explains key concepts of project budget management in Microsoft Dynamics 365 Project Operations.
 author: niranjanmaski
 ms.date: 12/16/2022
 ms.topic: article
@@ -8,68 +8,68 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Key concepts in Project budget management
+# Key concepts in project budget management
 
-_**Applies to:** _Lite deployment - deal to proforma invoicing._
+**_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
-This article explains key concepts that you should be aware of before you start to use Project budget management in Microsoft Dynamics 365 Project Operations.
+This article explains key concepts that you should be aware of before you start to use project budget management in Microsoft Dynamics 365 Project Operations.
 
-### Project budget
-Project budget represents a point in time snapshot of the estimated spend across the project phases and its associated tasks. Even if there's a change in prices of the resources, material, or expenses, that do not impact the budget snapshot once it's made part of the budget.
+## Project budget
 
-### Cost budget
+A project budget represents a point-in-time snapshot of the estimated spend across the project phases and its associated tasks. Even if the prices of the resources, materials, or expenses change, the changes don't affect the budget snapshot after it's made part of the budget.
 
-Cost budget is the point in time snapshot of estimated cost for the project. All actual costs incurred on the project amongst time, material, expenses would be compared against the cost budget to track the costs spent on the project.
+## Cost budget
 
-### Revenue budget
+A cost budget represents a point-in-time snapshot of estimated cost for the project. All actual costs that are incurred on the project among time, materials, and expenses are compared against the cost budget to track the costs that are spent on the project.
 
-Revenue budget is the point in time snapshot of estimated revenue for the project. All unbilled and billed sales on the project would be compared against the revenue budget to track the revenue on the project.
+## Revenue budget
 
-### Budget line
+A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget to track the revenue on the project.
 
-Budget line of a project budget identifies a discrete set of dimensions on which the cost or revenue of the project needs to be tracked. Dimensions across budget lines need to be unique to ensure that actuals matching a certain dimensions would always get counted against the same budget line.
+## Budget line
 
-### Actual
+A budget line of a project budget identifies a discrete set of dimensions that the cost or revenue of the project must be tracked on. Dimensions across budget lines must be unique to ensure that actuals that match a specific dimension are always counted against the same budget line.
 
-Actual is a time entry, expense, or a material usage approved by the set workflow, which can be considered as a cost to the project.
+## Actual
 
-### Budget line match priority
+An actual is a time entry, expense, or a material use that's approved by the defined workflow, and that can be considered a cost to the project.
 
-Budget line match priority defines the order in which the budget to actual matching logic respects various dimensions of an actual while matching against the budget lines. 
+## Budget line match priority
 
-For instance, as per the default budget match priority for transaction class expense the following table shows the typical priority order in which the actual is matched.
+Budget line match priority defines the order in which the budget-to-actual matching logic respects the different dimensions of an actual while it matches against the budget lines.
 
-| **Field name** | **Applicable transaction class** | **Context** | **Budget match priority** |
-| --- | --- | --- | --- |
-| msdyn_transactioncategory | Expense | Cost | 1 |
-| msdyn_task | Expense | Cost | 2 |
-| msdyn_costtype | Expense | Cost | 3 |
-| msdyn_accountvendor | Expense | Cost | 4 |
+For example, the following table shows the typical priority order that the actual is matched in if the default budget match priority for the **Expense** transaction class is used.
 
-The actual expense attempts to match to the budget line with maximum number of dimensions matched. 
-- A budget line with msdyn_transactioncategory, msdyn_task, msdyn_costtype, and msdyn_accountvendor defined would be searched for. 
-- If there's no match, the lowest priority dimension msdyn_accountvendor would be avoided in the next pass to match against a budget line. 
-- If there's no match still, the next lowest priority dimension msdyn_costtype would be avoided in the next pass to match against a budget line.
-- This will continue utill a unique budget line is matched or an error is encountered.
+| Field name | Applicable transaction class | Context | Budget match priority |
+|---|---|---|---|
+| msdyn\_transactioncategory | Expense | Cost | 1 |
+| msdyn\_task | Expense | Cost | 2 |
+| msdyn\_costtype | Expense | Cost | 3 |
+| msdyn\_accountvendor | Expense | Cost | 4 |
 
-### Budget forecast
+The logic tries to match the actual expense to the budget line where the largest number of dimensions is matched.
 
-Budget forecast is the expected spend or revenue per budget line during the period defined on the budget line. The forecast is equal to the budgeted value when the budget is approved.
+1. A budget line where **msdyn\_transactioncategory**, **msdyn\_task**, **msdyn\_costtype**, and **msdyn\_accountvendor** are defined is searched for.
+1. If there's no match, the lowest-priority dimension, **msdyn\_accountvendor**, is avoided in the next attempt to match against a budget line.
+1. If there still is no match, the next-lowest-priority dimension, **msdyn\_costtype**, is avoided in the next attempt to match against a budget line.
+1. The process continues until a unique budget line is matched or an error is encountered.
 
-The forecast would be made equal to the actuals if the actuals are more than the forecast for the budget line. Because the actuals have already more than the budget, the forecast would be at least equal to the actuals.
+## Budget forecast
 
-### Variance
+A budget forecast is the expected spend or revenue per budget line during the period that's defined on the budget line. The forecast equals the budgeted value when the budget is approved.
 
-Variance is the difference between budgeted spend or revenue and the actual spend or revenue.
+If the actuals are more than the forecast for the budget line, the forecast will be made equal to the actuals. Because the actuals already have more than the budget, the forecast will be at least equal to the actuals.
 
-| **Budget type** | **Condition** | **Variance value** |
-| --- | --- | --- |
-| Cost | If actual is **less** than forecast | Zero |
-| Cost | If actual is **more** than forecast | Equivalent to (actual – forecast) |
-| Revenue | If actual is **more** than forecast |  Zero |
-| Revenue | If actual is **less** than forecast | Equivalent to (actual – forecast) |
+## Variance
 
+Variance is the difference between the budgeted spend or revenue and the actual spend or revenue.
 
+| Budget type | Condition | Variance value |
+|---|---|---|
+| Cost | The actual is **less** than the forecast. | 0 (zero) |
+| Cost | The actual is **more** than the forecast. | *Variance* = *Actual* – *Forecast* |
+| Revenue | The actual is **more** than the forecast. | 0 (zero) |
+| Revenue | The actual is **less** than the forecast. | *Variance* = *Actual* – *Forecast* |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
