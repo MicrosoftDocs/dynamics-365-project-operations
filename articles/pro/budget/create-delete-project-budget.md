@@ -1,6 +1,6 @@
 ---
 title: Create and delete project cost budgets
-description: This article provides the details for how to create and delete a project cost budget.
+description: This article explains how to create and delete a project cost budget.
 author: niranjanmaski
 ms.date: 01/13/2023
 ms.topic: article
@@ -10,61 +10,55 @@ ms.author: nimaski
 
 # Create and delete project cost budgets
 
-_**Applies to:** _Lite deployment - deal to proforma invoicing._
+**_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
 ## Enable the project cost budget feature
 
-The project cost budget feature is enabled using a feature flag. All project cost budgeting capabilities are enabled only if feature flag is enabled.
+You enable the project cost budget feature by using a feature flag. Project cost budgeting capabilities are enabled only if the feature flag is enabled.
+
+> [!NOTE]
+> After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
 
 To enable project cost budgeting, follow these steps.
 
-1. Sign-in to Microsoft Dynamics 365 Project Operations.
-1. From the left navigation, change the area to **Settings**.
-1. In the **General section, select **Parameters**. You will see list of **Organization Units**. 
-1. Double-click the **Organization Units** row on the columns that are not links. 
-1. On the **Project Parameters** page, from the **Feature Control** drop-down list, select **Feature Control**.
+1. Sign in to Microsoft Dynamics 365 Project Operations.
+1. In the left navigation, change the area to **Settings**.
+1. In the **General** section, select **Parameters**.
+1. You should see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
+1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
 1. Select **Enable Project Budgeting Feature Flag**.
- 
-After enabling the project budgeting feature, the page refreshes and a the **Budget Match Priorities** tab is created.
 
-> [!NOTE]
-> Once the project budget feature is enabled in an organization, it is not possible to disable. However, you don't have to create a budget for every project.
+After you enable the project cost budget feature, the page is refreshed, and a **Budget match priorities** tab is added.
 
 ## Create a project cost budget
 
-To create a project cost budget,  follow these steps. 
+To create a project cost budget, follow these steps.
 
-1. Sign-in to Project Operations.
-1. From the left navigation, change the area to **Projects**. 
-1. Select the project you wish to create a budget for.  
-1. On the project page, select **Create Budget** in the top ribbon.  
-1. Select how you wish to create the budget – **Manual** or **From estimates**.
+1. Sign in to Project Operations.
+1. In the left navigation, change the area to **Projects**.
+1. Select the project to create a budget for.
+1. On the project page, on the Action Pane, select **Create Budget**, and then follow one of these steps:
 
-   - When **Manual** is selected, a **Budget** tab is created with empty rows in a grid.
-     - To create budget lines, select **+ New Project Budget Line**.
-   - When **From estimates** is selected, you can choose the source estimates for time.
-     - A new **Budget** tab is created with time, material, expense estimates pre-filled from the project estimates.
-     - Select **+ New Project Budget Line** if you wish to create additional budget lines.
-     - The grid and values are editable until the project budget is **Submitted for approval**.
-   
-For information about creating cost budget lines, see [Project budget line – Time, Material, Expense](project-budget-line.md).  
+    - To manually create the budget, select **Manual**. A **Budget** tab is added to the page and includes a blank grid for budget lines. To create budget lines, select **New Project Budget Line**.
+    - To create the budget from project estimates, select **From estimates**. You can then select the source estimates for time. A **Budget** tab is added to the page, and time, material, and expense estimates are pre-filled from the project estimates. To create additional budget lines, select **New Project Budget Line**. The grid and values can be edited until the project budget is submitted for approval.
 
-Only one cost and one revenue budget can be created for a project.
+For information about how to create cost budget lines, see [Project budget lines – Time, Material, Expense](project-budget-line.md).
+
+> [!NOTE]
+> Only one cost budget and one revenue budget can be created for each project.
 
 ## Delete a project cost budget
 
-To delete a project cost budget, follow these steps. 
-
 > [!NOTE]
-> A project cost budget can be deleted only if the budget is in either the **Draft** or **Rejected** status. Project budget **can't** be deleted if it is in the **Review**, **Approved**, or **Revised** status.
+> A project cost budget can be deleted only if the budget is in either **Draft** or **Rejected** status. It can't be deleted if it's in **Review**, **Approved**, or **Revised** status.
 
-1. Sign-in to Project Operations.
-1. From the left navigation, change the area to **Projects**.
-1. Select the project you wish to delete the budget for.
+To delete a project cost budget, follow these steps.
+
+1. Sign in to Project Operations.
+1. In the left navigation, change the area to **Projects**.
+1. Select the project to delete the budget for.
 1. On the project page, select **Budget**, and then select **Delete**.
-  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 [Microsoft](https://www.microsoft.com)
-
