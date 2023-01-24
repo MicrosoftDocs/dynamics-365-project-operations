@@ -27,4 +27,4 @@ If the invoice was bulk confirmed, then both the **project invoice status** and 
 ## Error Handling
 Users can confirm upto 250 invoices at a single point in time. 
 On Bulk confirmation, invalid invoices, invoices with a bulk confirmation status of "processing"  or "complete" will be skipped from further processing. 
-Failed invoices can be tracked using the bulk confirmation status "Invoice confirmation failed" . Users can navigate to the details tab--> timeline to view the failure details on each invoice.
+Failed invoices can be tracked using the bulk confirmation status "failed" . Users can navigate to the details tab--> timeline to view the failure details on each invoice.
