@@ -43,7 +43,7 @@ Project Operations supports the following pricing methods for Sales price lists 
 |Item B | **At cost**        | $100 |   | $100 | &nbsp;|
 |Item C | **Markup percentage**| $100| 10%  |  $110|
 
-To use the new pricing methods, turn on the feature **Enable material pricing methods** under Settings--> Parameters--> Feature control. 
+To use the new pricing methods, turn on the feature **Enable material pricing methods** under Settings --> Parameters--> Feature control. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
