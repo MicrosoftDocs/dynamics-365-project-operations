@@ -22,25 +22,28 @@ To set up cost and sales rates for products, complete the following steps.
 
 For more information about how to define prices for catalog items, see [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
 > [!NOTE]
-> Dynamics 365 Project Operations does not support all the pricing methods for products as Dynamics 365 Sales. The only pricing method supported for products to be used on projects is *Currency amount*.
+> Dynamics 365 Project Operations does not support all the pricing methods for products as Dynamics 365 Sales. Till date, only **Currency amount** pricing method was supported for products to be used on projects . Beginning Project Ops UR 30,  we will support 2 additional pricing methods . Please read below for more information. 
 
 ## Material pricing methods in Project Operations 
 Project Operations supports the following pricing methods for Sales price lists -  
 1. Price per unit
-2. At cost 
-3. Mark up percentage
+2. At cost **new**
+3. Markup percentage **new**
 
-**Price per unit** - Sales price for the material will default to use the amount specified in the **Currency Amount** field. 
+**Price per unit** - Sales price for the material will default to the amount specified in the **Currency Amount** field. 
 
 **At cost** - Sales price for the material will default to the transaction cost for the material. 
 
 **Markup percentage** - Sales price for the material will be calculated as a mark up percentage over the transaction cost for the material. 
 
-**Example** - Below we have 3 products with 3 diferent pricing configurations. Currency amount = $120 , and transaction cost = $100
+**Example** - Below we have 3 products with 3 diferent pricing configurations. When currency amount = $120 , and transaction cost = $100
 | Product | Project Pricing | Cost price | Markup percentage| Sales price| 
 | ---  | --- | --- | --- | --- |
 |Item A | **Price per unit** | $100 |   | $120 |
 |Item B | **At cost**        | $100 |   | $100 | &nbsp;|
 |Item C | **Markup percentage**| $100| 10%  |  $110|
+
+To use the new pricing methods, turn on the feature **Enable material pricing methods** under Settings--> Parameters--> Feature control. 
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
