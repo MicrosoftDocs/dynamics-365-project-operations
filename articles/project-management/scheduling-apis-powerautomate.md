@@ -171,7 +171,7 @@ Follow these steps to create a sample project.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the new step, select the ellipsis (**...**), and then select **Rename**.
 4. Rename the step **Init ProjectTaskID**.
-5. In the **Name** field, enter **number of tasks**.
+5. In the **Name** field, enter **project task ID**.
 6. In the **Type** field, select **String**.
 7. For the **Value** field, enter **guid()** in the expression builder.
 
