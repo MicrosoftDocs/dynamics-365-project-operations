@@ -120,6 +120,9 @@ A task's duration is defined as the number of working hours between the start ti
 
 Unassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment will be governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
+> [!NOTE]
+> Please note that Project for the Web does not respect business closures defined in the resource or project calendars.
+
 However, it is important to note that a resource assignment can only be created when the resource's calendar rule has 100% overlap with the task's start date and end date. This means if your calendar rule start after the starts after the start of the task, starts after the end of the task or finish before the end of the task, the assignment will not be scheduled as there will not be enough time in the schedule for the resource to perform the task.
 
 For example, let's say a resource calendar is defined from Monday to Friday, begining on January 2nd, 2023, but the resource calendar also contains an end date rule set up to Wednesday, February 15th, 2023. In the project where this resource is added, any tasks assigned to this resource need to fit within the range of days from January 2nd to February 15th, 2023 as described in the figure below:
