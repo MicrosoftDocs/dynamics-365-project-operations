@@ -1,68 +1,107 @@
 ---
-title: Vendor invoicing concept and creation
-description: This article explains how to enable non-stocked materials and pending vendor invoices.
+title: Create vendor invoices
+description: This article describes the concept of vendor invoices and explains how to create them in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
-ms.date: 08/23/2022
+ms.date: 9/12/2022
 ms.topic: article
-ms.prod:
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
-## # Vendor invoicing - Concept and creation
+# Create vendor invoices
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Vendor invoicing in Microsoft Dynamics 365 Project Operations can be used to record costs from deliveries of services and/or materials on a project by vendors.
+To use the functionality that is described in this article, you must enable the **Enable subcontract actuals processing with Project Operations for resource based scenarios** feature in the **Feature management** workspace.
 
-When services and/or materials are subcontracted to a vendor, a subcontract represents the contractual agreement with that vendor. As the vendor delivers the services, or the materials are received and used on project tasks, costs are recorded on the project. Periodically, the vendor sends invoices that are verified and matched with costs that are recorded on the project. After the verification process is completed, the vendor invoice is confirmed and released for payment.
+Vendor invoicing in Microsoft Dynamics 365 Project Operations can be used to record costs from deliveries of services and/or materials on a project that is completed by vendors.
+
+When services and/or materials are subcontracted to a vendor, a subcontract represents the contractual agreement with that vendor. As the vendor delivers the services, or as the materials are received and used on project tasks, costs are recorded on the project. The vendor then periodically sends invoices. Those invoices are verified and matched with costs that are recorded on the project. After the verification process is completed, the vendor invoice is confirmed and released for payment.
 
 ## Scenarios for use
 
-Vendor invoices in Project Operations can be used to support two distinct scenarios.
+Vendor invoices in Project Operations can be used to support two distinct scenarios:
+
+- Customers use the full subcontracting experiences.
+- Customers don't use the full subcontracting experiences but want to have a unified view of costs on projects in Project Operations.
 
 ### Customers use the full subcontracting experiences
 
-Vendor invoice experiences provide a way to verify and match time entries, material usage, and expense entries that reference subcontracted components with vendor invoice lines. This process can be used to verify the accuracy of the vendor invoice lines. After the verification process is completed and the vendor invoice is confirmed, the application will reverse the actuals that were recorded by approved time, expense, and material usage logs, and create new cost actuals by using the vendor invoice lines.
+Vendor invoice experiences provide a way to verify time entries, material usage, and expense entries that reference subcontracted components, and match them with vendor invoice lines. This process can be used to verify the accuracy of the vendor invoice lines. After the verification process is completed and the vendor invoice is confirmed, the system reverses the actuals that were recorded by approved time, expense, and material usage logs, and then creates new cost actuals by using the vendor invoice lines.
 
 ### Customers don't use the full subcontracting experiences but want to have a unified view of costs on projects in Project Operations
 
-If you're tracking the subcontract process in a third-party system, you can record costs from that third-party system to Project Operations by creating vendor invoices that don't reference subcontracts. In this way, your project managers can have single, unified view of all costs on a given project.
+If you're tracking the subcontract process in a third-party system, you can record costs from that third-party system to Project Operations by creating vendor invoices that don't reference subcontracts. In this way, your project managers can have a single, unified view of all costs on a given project.
 
-## Creation of vendor invoices in Project Operations
+## Create vendor invoices in Project Operations
 
-In the resource/non -stocked deployment, Vendor invoices are created in F&O from the Accounts Payable module in Finance. Creating Vendor invoices in Dataverse is not supported in this deployment mode. 
+Vendor invoices are created in Dynamics 365 Finance, by using the **Accounts payable** module. You can't create vendor invoices directly in Dataverse.
 
-### Creation from the Accounts Payable module in Finance
+### Set up vendor invoice verification
 
-1. Go to **Accounts Payable** \> **Invoices** \> **Pending Vendor Invoices** 
-2. On the **Pending Vendor Invoices** page ,select **New** to create a new vendor invoice.
+If the vendor invoice is intended for a subcontract in Dataverse, you must enable the **Manual verification by PM is required** parameter. The setting of the option determines whether the vendor invoice should be automatically confirmed in Dataverse, or whether it requires manual confirmation. The header of every project vendor invoice includes an option of the same name. By default, the option on the header of all project vendor invoices is set to the value that you set here. However, you can update the value as required on the header of individual vendor invoices.
 
-Alternatively, you can also create a Vendor Invoice, by going to **Accounts Payable** \> **Invoices** \> **Open Vendor Invoices \> New** 
+If the option is set to **Yes**, the vendor invoice that is created in Finance and synchronized to Dataverse has **Draft** status. The invoice must then be validated and verified by the project manager, and confirmed, before it's processed and posted to the specific project and ledger accounts in Finance.
 
-On posting the Vendor invoice , the invoice becomes available in Dataverse for verification and processing. 
+If the option is set to **No**, the vendor invoice is automatically confirmed. No further action is required.
 
-## Vendor Invoice processing 
+To set up vendor invoice verification, follow these steps.
 
-In resource/non stocked scenario, vendor invoices containing a reference to a subcontract will require PM confirmation. 
-Under **Project Management and accounting parameters **\> **Financial **\> **Vendor Invoice** \> , set the value for **Manual confirmation by PM is required** field. The value of this field when set to "No" implies that the vendor invoice should be auto confirmed. When set to "Yes" , it implies that the vendor invoice needs manual confirmation by the PM in dataverse.  
-The value set here will default to the header of all vendor invoices created in the resource/non stocked scenario. If required, the value can be updated for each vendor invoice using the same field in the invoice header . 
-If the value is set to "YES", the vendor invoice is created in dataverse with a "draft" status ,and when set to "No" it is created with a "confirmed" status. 
+1. In Finance, go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
+1. On the **Financial** tab, set the **Manual verification by PM is required** option to **Yes** if company policy requires verification of subcontractor vendor invoices. If verification by the project manager isn't required in Dataverse, leave the option set to **No**. By default, the setting will be used on the **Pending vendor invoice** page.
+
+> [!NOTE]
+> Vendor invoices that are created for subcontracts in Dataverse can be processed correctly only if the **Manual verification by PM is required** option is set to **Yes**. Time, material, and expense cost actuals that subcontractors create can be manually matched with vendor invoice lines by the project manager only if this option is set to **Yes**.
+
+### Set up a procurement integration account for vendor invoices
+
+When a vendor invoice is posted in Finance for Project Operations – Integrated environment (non-stock), financials are posted to the Procurement integration account. The system generates the actuals in Dataverse for the posted invoice. These actuals are posted in Finance by using the Project integration journal. Posting of the Project integration journal posts the actual cost and reverses the Procurement integration account.
+
+To set up a Procurement integration account for vendor invoices, follow these steps.
+
+1. In Finance, go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
+1. On the **Project operations on Dynamics 365 customer engagement** tab, select **Materials** \> **Procurement integration account**.
+
+### Create and post subcontract vendor invoices
+
+When an Accounts payable clerk receives an invoice from the subcontractor, a new invoice is created in Finance.
+
+1. In Finance, go to **Accounts payables** \> **Invoices** \> **Pending vendor invoices**.
+1. On the **Action Pane**, select **New** to create a vendor invoice.
+1. On the invoice header, in the **Invoice account** field, select **Subcontractor**.
+1. Select the invoice date.
+1. On the **Header** tab, set the **Manual verification by PM is required** option to **Yes**. The default setting of this option comes from the **Project management and accounting parameters** page. However, it can be changed at vendor invoice level.
+1. On the **Invoice line** FastTab, select **Add line** to create a vendor invoice line.
+1. Select the procurement category that was created for subcontract lines, and enter the unit price, unit of measurement, and quantity.
+1. In the vendor invoice lines section, on the **Project** tab, select the project that the subcontractor shares the subcontract invoice against.
+1. Select the project category. It can be of any type of **Item**, **Expense**, **Materials**, or **Hours**.
+1. Select the role only if the selected project category is of the **Hour** type.
+1. Select **Post** to post the vendor invoice.
+
+Alternatively, you can create a vendor invoice by going to **Accounts payable** \> **Invoices** \> **Open vendor invoices** and selecting **New**.
+
+When the vendor invoice is posted, it becomes available in Dataverse for project manager verification and processing.
+
+## Vendor invoice processing in Dataverse
+
+In the vendor invoice that is created in Dataverse, some field values come from the vendor invoice that is recorded in Finance. Other values are default values that come from the subcontract.
 
 The following fields and related records will be copied from the subcontract to the header of the vendor invoice:
-- Currency.
-- Contracting unit.
-- Payment terms.
 
-For Time and material subcontract lines, the following fields and related records will be used to match the subcontract lines to the vendor invoice line:
+- Currency
+- Contracting unit
+- Payment terms
+
+On the vendor invoice lines, Project Operations uses the following field values to enter the default subcontract and subcontract line reference:
+
 - Transaction class
 - Role
 - Transaction category
 - Product fields
 - Project
 - Task
-The subcontract and subcontract line references will default on the VI line, when the Project, Transaction class, Product ID, transaction category , task and Role on the subcontract match that of the Vendor Invoice line submitted in F&O. 
 
-Fixed price subcontract lines are not supported in this deployment mode. 
+> [!NOTE]
+> Fixed price subcontract lines aren't supported in Project Operations.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
