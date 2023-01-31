@@ -120,11 +120,11 @@ A task's duration is defined as the number of working hours between the start ti
 
 Unassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment will be governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
-However, in scenarios where the resource calendar contains an end date rule on its work hours's, and in the project where this resource is assigned the task start date is driven by the effort, then the calendar of the resource cannot end before the task finish date, otherwise the scheduling may not find enough time to schedule all the required work to accomplish the task. 
+However, it is important to note that a resource assignment can only be created when the resource's calendar rule has 100% overlap with the task's start date and end date.  This means if your calendar rule start after the starts after the start of the task, starts after the end of the task or finish before the end of the task, the assignment will not be scheduled as there will not be enough time in the schedule for the resource to perform the task.
 
 For example, let's say a resource calendar is defined as Monday to Friday, from 9:00 to 17:00, in addition the resource work hours also contains an end date rule on February 15th, 2023. In the project where this resource is added, the project calendar is also set up as Monday to Friday, from 9:00 to 17:00, however any tasks assigned to this resource has the limit of February 15th, 2023 to finish and cannot end later than this date, as described in the figure below:
 
-![Example of maximum date to finish task.](articles/media/Create-wbs-figure-01.png)
+![Example of maximum date to finish task.](media/Create-wbs-figure-01.png)
 
 ## Accessibility and keyboard shortcuts
 
