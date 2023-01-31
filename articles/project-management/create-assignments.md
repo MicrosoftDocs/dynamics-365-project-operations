@@ -48,7 +48,7 @@ To access the contour editing grid, the project manager first selects the **Task
 
 The grid supports two methods for grouping: **group by resource** and **group by task**. Unlike in the grid view, columns aren't configurable. The only visible columns are **Assigned To**, **Task Name**, **Assignment Start**, **Assignment Finish**, and **Assignment Effort**.
 
-When the grid is initially rendered, it starts at the earliest assignment contour. If your schedule doesn't contain any assignments that have effort, the grid will be blank and won't render anything.
+When the grid is initiated rendered, it will start at the earliest assignment contour.  Please note, if your schedule does not contain any assignments with effort, the grid will be blank and will not render anything. The minimum value of a resource contour is zero, and the maximum value permitted is 9,999,999.
 
 ![Blank assignment grid.](media/emptyassignmentgrid.png)
 
