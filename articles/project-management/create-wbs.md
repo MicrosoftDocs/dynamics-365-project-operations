@@ -125,9 +125,11 @@ Unassigned tasks are scheduled by using the project's calendar. However, upon in
 
 However, it is important to note that a resource assignment can only be created when the resource's calendar rule has 100% overlap with the task's start date and end date. This means if your calendar rule start after the starts after the start of the task, starts after the end of the task or finish before the end of the task, the assignment will not be scheduled as there will not be enough time in the schedule for the resource to perform the task.
 
-For example, let's say a resource calendar is defined from Monday to Friday, begining on January 2nd, 2023, but the resource calendar also contains an end date rule set up to Wednesday, February 15th, 2023. In the project where this resource is added, any tasks assigned to this resource need to fit within the range of days from January 2nd to February 15th, 2023 as described in the figure below:
+For example, let's say a resource calendar begins on March 1st, 2023, but the resource calendar ends on Friday, April 14th, 2023. In the project where this resource is added, any tasks assigned to this resource need to fit within the range of days from March 1st to April 14th, 2023 as described in the figure below:
 
 ![Example of schedulling tasks.](media/Create-wbs-figure-01.png)
+
+From this example, the picture shows in green color which tasks are allowed to be scheduled and in red color which ones are not allowed, according to the resource calendar availability.
 
 ## Accessibility and keyboard shortcuts
 
