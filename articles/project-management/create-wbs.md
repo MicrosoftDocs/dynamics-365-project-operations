@@ -127,7 +127,7 @@ However, it is important to note that a resource assignment can only be created 
 
 For example, let's say a resource calendar is defined from Monday to Friday, begining on January 2nd, 2023, but the resource calendar also contains an end date rule set up to Wednesday, February 15th, 2023. In the project where this resource is added, any tasks assigned to this resource need to fit within the range of days from January 2nd to February 15th, 2023 as described in the figure below:
 
-![Example of maximum date to finish task.](media/Create-wbs-figure-01.png)
+![Example of schedulling tasks.](media/Create-wbs-figure-01.png)
 
 ## Accessibility and keyboard shortcuts
 
