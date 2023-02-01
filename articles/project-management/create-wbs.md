@@ -123,13 +123,13 @@ Unassigned tasks are scheduled by using the project's calendar. However, upon in
 > [!NOTE]
 > Please note that Project for the Web does not respect business closures defined in the resource or project calendars.
 
-However, it is important to note that a resource assignment can only be created when the resource's calendar rule has 100% overlap with the task's start date and end date. This means if your calendar rule start after the starts after the start of the task, starts after the end of the task or finish before the end of the task, the assignment will not be scheduled as there will not be enough time in the schedule for the resource to perform the task.
+However, it is important to note that a resource assignment can only be created when the end of the resource's calendar rule overlaps with the task's end date. This means if your calendar rule finishes before the end of the task, the assignment will not be scheduled as there will not be enough time in the schedule for the resource to perform the task.
 
-For example, let's say a resource calendar begins on March 1st, 2023, but the resource calendar ends on Friday, April 14th, 2023. In the project where this resource is added, any tasks assigned to this resource need to fit within the range of days from March 1st to April 14th, 2023 as described in the figure below:
+For example, let's say a resource calendar begins on March 1st, 2023, but ends on Friday, April 14th, 2023. In the project where this resource is added, any tasks assigned to this resource cannot end later than April 14th, 2023 otherwise they will not be scheduled, because they exceed the last day of the resource's calendar:
 
 ![Example of schedulling tasks.](media/Create-wbs-figure-01.png)
 
-From this example, the picture shows in green color which tasks are allowed to be scheduled and in red color which ones are not allowed, according to the resource calendar availability.
+The picture shows, in green color, which tasks are allowed to be scheduled because they end before the last day of the resource availability, and in red color, which ones are not allowed.
 
 ## Accessibility and keyboard shortcuts
 
