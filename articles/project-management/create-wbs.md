@@ -3,7 +3,7 @@
 title: Create a work breakdown structure 
 description: This article explains how to create a work breakdown structure (WBS) inclusive of the basic controls in the new scheduling interface.
 author:  ruhercul
-ms.date: 10/10/2022  
+ms.date: 02/01/2023  
 ms.topic: article 
 ms.reviewer: johnmichalak
 ms.author: ruhercul
@@ -120,6 +120,16 @@ A task's duration is defined as the number of working hours between the start ti
 
 Unassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment will be governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
+> [!NOTE]
+> Project for the Web does not respect business closures that are defined in the resource or project calendars.
+
+It is important to note that a resource assignment can only be created when the end of the resource's calendar rule overlaps with the task's end date. This means if your calendar rule finishes before the end of the task, the assignment won't be scheduled as there won't be enough time in the schedule for the resource to perform the task.
+
+For example, if a resource calendar begins on Wednesday March 1st, 2023, but ends on Friday, April 14th, 2023. In the project where this resource is added, any tasks assigned to this resource cannot end later than April 14th, 2023. Otherwise, they will not be scheduled because they exceed the last day of the resource's calendar.
+
+![Screenshot example of scheduling tasks.](media/Create-wbs-figure-01.png)
+
+The screenshot above shows, in green color, which tasks can be scheduled because they end before the last day of the resource availability, and in red color, which ones aren't allowed.
 
 ## Accessibility and keyboard shortcuts
 
