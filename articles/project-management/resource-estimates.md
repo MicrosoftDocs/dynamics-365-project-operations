@@ -44,11 +44,15 @@ The default sales price comes from the project price lists attached to the relat
 
 ## Performance improvements on Price Estimates
 
-The calculation of role price estimates on a project will vary depending on task duration, start and end dates and the # of tasks in the project. This is very performance intensive as the role prices have to be retrieved from price lists and the estimates calculated depending upon these paramters.     
-With this feature, customers can choose whether they want to price the estimates in real time or on demand. 
+The calculation of role price estimates on a project will vary depending on a number of associated parameters like resource(s) assigned, task duration, start and end dates and the # of tasks in the project. The **performance of the price estimation logic** can vary depending upon the no of tasks in the project and the number of dependent  that were altered.   
+With this feature, customers can choose whether they want to price the estimates in **real-time** or **on-demand** per their need. 
 
-Real time pricing will continue to keep the current behaviour to calculate and default the price estimates as soon as - project tasks are created with start date and duration/end date , project tasks are deleted, or the duration on tasks with resource assignments is changed.  
-On demand pricing will not update the price estimates as the above actions are done. Users will need to click on **update prices** to view the price estimates when new tasks are added , or when any of the paramters on a task - like resource assignment, start date, end date, duration etc. are changed . 
+Real time pricing will continue to keep the current behaviour to calculate and default the price estimates as soon as - 
+  project tasks are created with start date and duration/end date , 
+  project tasks are deleted, 
+  or the duration on tasks with resource assignments is changed.  
+On demand pricing will not update the price estimates immediately when any of the above actions are done. Users will need to click on **update prices** to view the price estimates when new tasks are added , or when any of the associated parameters for price calculation - like resource assignment, start date, end date, duration etc. are changed .  
 
+To see improved performance in estimates pricing , admins can enable the on-demand pricing feature from the parameters 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
