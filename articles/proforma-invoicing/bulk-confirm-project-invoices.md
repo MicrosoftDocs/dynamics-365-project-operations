@@ -17,7 +17,7 @@ With this feature, users will be able to multi-select project invoices and use t
 To use this feature, admins must enable it under Parameters--> Organization unit-->Feature control -->Enable bulk confirm. 
 
 On **confirm**, all selected invoices that meet the invoice validation criteria, are scheduled by a batch job to be processed asynchronously. The **Bulk confirmation status** field which reflects the current state of each invoice being processed, allows users to track the confirmation status of an invoice.
-The values for this field include-  blank , scheduled, processing, complete and failed. Users can expect the bulk confirmation status to be "blank" if the invoice was not bulk confirmed. 
+The values for this field include-  blank , scheduled, processing, complete and failed. 
 
 The **Project invoice status** reflects the state of each invoice confirmed individually.  The **Bulk confirmation status** reflects the state of each invoice when confirmed in bulk.
 
