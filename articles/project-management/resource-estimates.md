@@ -2,7 +2,7 @@
 title: Financial estimates for resource time on projects
 description: This article provides information about how financial estimates for time are calculated.
 author: rumant
-ms.date: 03/19/2021
+ms.date: 2/3/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
@@ -41,5 +41,14 @@ The default cost price comes from the price lists attached to the contracting un
 ## Default bill rate and sales currency
 
 The default sales price comes from the project price lists attached to the related project contract if the deal is won, or from the related project quote if the deal is still in the pre-sales stage. The sales currency of the project is always the currency of the project quote or the project contract. On a resource assignment, the financial estimate for sales is stored in the sales currency of the project. Unlike cost, the sales price that is set up in the price list can never be different from the project's sales currency. There is no scenario where currency conversion is needed. On the **Estimates** grid, all sales estimates are displayed and summarized in the project's sales currency. 
+
+## Performance improvements on Price Estimates
+
+The calculation of role price estimates on a project will vary depending on task duration, start and end dates and the # of tasks in the project. This is very performance intensive as the role prices have to be retrieved from price lists and the estimates calculated depending upon these paramters.     
+With this feature, customers can choose whether they want to price the estimates in real time or on demand. 
+
+Real time pricing will continue to keep the current behaviour to calculate and default the price estimates as soon as - project tasks are created with start date and duration/end date , project tasks are deleted, or the duration on tasks with resource assignments is changed.  
+On demand pricing will not update the price estimates as the above actions are done. Users will need to click on **update prices** to view the price estimates when new tasks are added , or when any of the paramters on a task - like resource assignment, start date, end date, duration etc. are changed . 
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
