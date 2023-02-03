@@ -20,11 +20,11 @@ A project budget represents a point-in-time snapshot of the estimated spend acro
 
 ## Cost budget
 
-A cost budget represents a point-in-time snapshot of estimated cost for the project. All actual costs that are incurred on the project among time, materials, and expenses are compared against the cost budget to track the costs that are spent on the project.
+A cost budget represents a point-in-time snapshot of estimated cost for the project. All actual costs that are incurred on the project among time, materials, and expenses are compared against the cost budget, to track the costs on the project.
 
 ## Revenue budget
 
-A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget to track the revenue on the project.
+A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget, to track the revenue on the project.
 
 ## Budget line
 
@@ -32,13 +32,13 @@ A budget line of a project budget identifies a discrete set of dimensions that t
 
 ## Actual
 
-An actual is a time entry, expense, or a material use that's approved by the defined workflow, and that can be considered a cost to the project.
+An actual is a time entry, expense, or a material use that's approved by defined workflow. This is the cost to the project.
 
 ## Budget line match priority
 
-Budget line match priority defines the order in which the budget-to-actual matching logic respects the different dimensions of an actual while it matches against the budget lines.
+Budget line match priority defines the order in which the budget-to-actual matching logic respects the different dimensions of an actual, while it matches against the budget lines.
 
-For example, the following table shows the typical priority order that the actual is matched in if the default budget match priority for the **Expense** transaction class is used.
+For example, the following table shows the typical priority order that the actual is matched, if the default budget match priority for the **Expense** transaction class is used.
 
 | Field name | Applicable transaction class | Context | Budget match priority |
 |---|---|---|---|
@@ -47,18 +47,18 @@ For example, the following table shows the typical priority order that the actua
 | msdyn\_costtype | Expense | Cost | 3 |
 | msdyn\_accountvendor | Expense | Cost | 4 |
 
-The logic tries to match the actual expense to the budget line where the largest number of dimensions is matched.
+The logic tries to match the actual expense to a budget line with most number of dimensions matched.
 
 1. A budget line where **msdyn\_transactioncategory**, **msdyn\_task**, **msdyn\_costtype**, and **msdyn\_accountvendor** are defined is searched for.
-1. If there's no match, the lowest-priority dimension, **msdyn\_accountvendor**, is avoided in the next attempt to match against a budget line.
-1. If there still is no match, the next-lowest-priority dimension, **msdyn\_costtype**, is avoided in the next attempt to match against a budget line.
+1. If there's no match, the lowest-priority dimension, **msdyn\_accountvendor**, is avoided in the next attempt to match against all budget lines.
+1. If there's no match, the next-lowest-priority dimension, **msdyn\_costtype**, is avoided in the next attempt to match against all budget lines.
 1. The process continues until a unique budget line is matched or an error is encountered.
 
 ## Budget forecast
 
 A budget forecast is the expected spend or revenue per budget line during the period that's defined on the budget line. The forecast equals the budgeted value when the budget is approved.
 
-If the actuals are more than the forecast for the budget line, the forecast will be made equal to the actuals. Because the actuals already have more than the budget, the forecast will be at least equal to the actuals.
+If actuals are more than the forecast for a budget line, forecast will be made equal to actuals. This is due to the fact that actuals already have than the budget, the forecast will be at least equal to the actuals.
 
 ## Variance
 

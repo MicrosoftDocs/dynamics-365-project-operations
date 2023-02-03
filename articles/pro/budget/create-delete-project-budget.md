@@ -14,7 +14,7 @@ ms.author: nimaski
 
 ## Enable the project cost budget feature
 
-You enable the project cost budget feature by using a feature flag. Project cost budgeting capabilities are enabled only if the feature flag is enabled.
+Project cost budgeting capabilities are enabled only if the feature flag is enabled.
 
 > [!NOTE]
 > After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
@@ -37,15 +37,16 @@ To create a project cost budget, follow these steps.
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
 1. Select the project to create a budget for.
-1. On the project page, on the Action Pane, select **Create Budget**, and then follow one of these steps:
+1. On the project page, on the Action Pane, select **Create Budget**, and then follow these steps:
 
-    - To manually create the budget, select **Manual**. A **Budget** tab is added to the page and includes a blank grid for budget lines. To create budget lines, select **New Project Budget Line**.
-    - To create the budget from project estimates, select **From estimates**. You can then select the source estimates for time. A **Budget** tab is added to the page, and time, material, and expense estimates are pre-filled from the project estimates. To create additional budget lines, select **New Project Budget Line**. The grid and values can be edited until the project budget is submitted for approval.
+    - To manually create the budget, select **Manual**. A **Budget** tab is added to the page and includes a blank grid for budget lines. 
+    - To create budget lines, select **New Project Budget Line**.
+    
 
 For information about how to create cost budget lines, see [Project budget lines – Time, Material, Expense](project-budget-line.md).
 
 > [!NOTE]
-> Only one cost budget and one revenue budget can be created for each project.
+> Only one cost budget can be created for each project.
 
 ## Delete a project cost budget
 
