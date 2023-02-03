@@ -42,7 +42,7 @@ The default cost price comes from the price lists attached to the contracting un
 
 The default sales price comes from the project price lists attached to the related project contract if the deal is won, or from the related project quote if the deal is still in the pre-sales stage. The sales currency of the project is always the currency of the project quote or the project contract. On a resource assignment, the financial estimate for sales is stored in the sales currency of the project. Unlike cost, the sales price that is set up in the price list can never be different from the project's sales currency. There is no scenario where currency conversion is needed. On the **Estimates** grid, all sales estimates are displayed and summarized in the project's sales currency. 
 
-## Performance improvements on Price Estimates
+## Performance improvements in Estimates pricing
 
 The calculation of role price estimates on a project task depends on a number of parameters like resource(s) assigned to the task, task duration, start and end dates. The time taken to perform price estimation calculations can vary depending on changes made to any of the above parameters and the number of tasks in the project.   This in turn can lead to a longer time to process the estimates grid, thus impacting user experience.  
 
