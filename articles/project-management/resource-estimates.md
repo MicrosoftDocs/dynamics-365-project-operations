@@ -55,10 +55,10 @@ Real time pricing will continue to keep the current behaviour to calculate and d
 **On demand pricing** will not update the price estimates immediately when any of the above actions are done. 
 After making any changes to tasks in the project tasks grid , to see price estimates, users must click on **update prices** to view the cost and sales estimates.  
 
-During performance tests on a standard environment, for a project with 30 tasks, and 1 dependency per task, in comparing with real time pricing, using on-demand pricing, we observed a performance gain of- 
+During performance tests on a standard environment, for a project with 30 tasks, and 1 dependency per task, using on-demand pricing we observed a performance gain of- 
   105% for updates on task duration
   110% for changes to task start date
-  70% for copy project 
+  70%  for copy project 
 
 The feature can be configured under **Parameters -> Estimate Pricing Options -> On-Demand pricing**. The default option is **real time pricing**.  
 
