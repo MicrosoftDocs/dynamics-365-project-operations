@@ -46,7 +46,7 @@ Project for the web is great for most projects, but it isn't a complete replacem
 
 
 ## Work breakdown structure (WBS) Limits
-In addition to the unsupported capabilities above, the WBS must conform to the existing limits described [here](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/create-wbs#project-limitations).
+In addition to the unsupported capabilities above, the WBS must conform to the [existing limits](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/create-wbs#project-limitations).
 
 ## Handling Project Custom Fields
 For customers who have cusotmized the project main form with required fields, it is important that these fields all have default values to avoid errors when importing files to create new projects.  Customization of the import form is currently not supported.
