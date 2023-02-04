@@ -48,20 +48,20 @@ The calculation of role price estimates on a project task depends on a number of
 
 To address this issue, we have introduced an option to price estimates *on demand* , which will be more performant and render a much better user experience. With this feature, customers can choose whether they want to price the estimates in **real-time** or **on-demand** per their need. The default option is **real time pricing**.  
 
-**Real time pricing** will continue to keep the current behaviour to calculate and default the price estimates as soon as - 
+Use **Real time pricing** to keep the existing system behaviour to calculate and default the price estimates as soon as - 
   - project tasks with resource assignments are created with start date and duration/end date , 
   - project tasks with resource assignments are deleted, 
   - or the task duration on a project task with resource assignments is changed.  
   
-**On demand pricing** will not update the price estimates immediately when any of the above actions are done. 
-After making any changes to tasks in the project tasks grid , to see price estimates, users must click on **update prices** to view the cost and sales estimates.  
+Use **On demand pricing** if you do not need to update the price estimates immediately when any of the above project task actions are done. 
+When this option is on, users must click on **update prices** option in the Estimates grid to view the cost and sales estimates after making any changes to project tasks in the task grid.
 
-During performance tests on a standard environment, for a project with 30 tasks, and 1 dependency per task, using on-demand pricing we observed a performance gain of- 
+During performance tests on a standard environment, for a project with 30 tasks, and 1 dependency per task, **using on-demand pricing** we observed a **performance gain** of- 
  - 105% for updates on task duration
  - 110% for changes to task start date
  - 70%  for copy project 
 
-The feature can be configured under **Parameters -> Estimate Pricing Options -> On-Demand pricing**. 
+The feature can be configured under **Parameters -> Estimate Pricing Options -> On-Demand pricing**. At any point, admins can switch back to **real time pricing** and pricing of estimates will be done accordingly going forward. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
