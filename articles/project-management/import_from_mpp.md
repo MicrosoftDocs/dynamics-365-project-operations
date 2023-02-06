@@ -33,7 +33,8 @@ To import a new project from a Project desktop client file, complete the followi
 ## Unsupported Desktop Client Capabilities in the Import
 Project for the web is great for most projects, but it isn't a complete replacement for Project desktop. The following features aren't supported, and can't be migrated. Before you begin, you should evaluate your project and make sure it doesn't rely on these features.
 
-> [!NOTE] This list may not be exhaustive. If your new Project for the web project is missing elements or data, they may rely on an unsupported feature that is not listed.
+> [!Note] 
+> This list may not be exhaustive. If your new Project for the web project is missing elements or data, they may rely on an unsupported feature that is not listed.
 
 [Move your project from Project desktop to Project for the web > Features that don't migrate](https://support.microsoft.com/office/move-your-project-from-project-desktop-to-project-for-the-web-143ab391-002e-451a-aedb-3b6fa1f6ab8b#:~:text=1%20Download%20the%20required%20PowerShell%20commands.%202%20Find,Your%20instance%20ID%20with%20the%20ID%20you%20looked)
 
