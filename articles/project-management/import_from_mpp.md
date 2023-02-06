@@ -40,7 +40,7 @@ Project for the web is great for most projects, but it isn't a complete replacem
 
 
 ## Work breakdown structure (WBS) Limits
-In addition to the unsupported capabilities above, the WBS must conform to the [existing limits](create-wbs#project-limitations.md).
+In addition to the unsupported capabilities above, the WBS must conform to the [existing limits](create-wbs.md#project-limitations).
 
 ## Handling Project Custom Fields
 If you have customized the project main form with required fields, these fields must have default values to avoid errors when importing files to create new projects. Customization of the import form is currently not supported.
