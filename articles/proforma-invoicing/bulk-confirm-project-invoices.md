@@ -12,15 +12,15 @@ ms.author: suvaidya
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 
-With this feature, users will be able to multi-select project invoices and use the confirm action on the form ribbon to confirm all the selected invoices. 
-To use this feature, enable it under Parameters > Organization unit -> Feature control ->Enable bulk confirm. 
+With this feature, users are able to multi-select project invoices and use the **Confirm** action on the form ribbon to confirm all the selected invoices. 
+To use this feature, enable it under **Parameters > Organization unit -> Feature control ->Enable bulk confirm**. 
 
-On **confirm**, all selected invoices that meet the invoice validation criteria, are scheduled by a batch job to be processed asynchronously. 
+On **Confirm**, all selected invoices that meet the invoice validation criteria, are scheduled by a batch job to be processed asynchronously. 
 
-The **Project invoice status** reflects the state of each invoice confirmed individually .  The **Bulk confirmation status** reflects the current status of each invoice when **confirmed in bulk** and could have one of these states - blank , scheduled, processing, complete and failed. A "blank" state implies that no bulk confirm action was performed on the invoice. 
+The **Project invoice status** reflects the state of each invoice confirmed individually. The **Bulk confirmation status** reflects the current status of each invoice when **confirmed in bulk** and could have one of these states - blank, scheduled, processing, complete and failed. A "blank" state implies that no bulk confirmation action was performed on the invoice. 
 
-When an invoice is scheduled using bulk confirmation, the **Project invoice status** will be **Draft** , and the **Bulk confirmation status** will reflect the processing stage of the invoice.  Once the invoice is confirmed, the **Project invoice status** will be **Confirmed** and the **Bulk confirmation status** will be **Complete**. 
+When an invoice is scheduled using bulk confirmation, the **Project invoice status** will be **Draft**, and the **Bulk confirmation status** will reflect the processing stage of the invoice.  Once the invoice is confirmed, the **Project invoice status** will be **Confirmed** and the **Bulk confirmation status** will be **Complete**. 
 
-> [!Note:]
-> Users can bulk-confirm upto **250** invoices at a single point in time. 
+> [!Note]
+> Users can bulk-confirm up to **250** invoices at a single point in time. 
 > Failed invoices can be tracked using the bulk confirmation status **failed**. Users can navigate to the timeline under details tab to view the failure details on each invoice.
