@@ -22,27 +22,27 @@ To set up cost and sales rates for products, complete the following steps.
 
 For more information about how to define prices for catalog items, see [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
 
-> [!Note]
-> Project Operations does not support all of the pricing methods for products Microsoft Dynamics 365 Sales. Oiginally only the **Currency amount** pricing method was supported for use on projects. Beginning with Project Operations release UR 30, two more pricing methods are supported. See below for more information. 
+> [!NOTE]
+> Project Operations doesn't support all the pricing methods for products that Dynamics 365 Sales supports. Originally, only the **Currency amount** pricing method could be used for projects. However, as of Project Operations release UR 30, three pricing methods are supported. For more information, see the next section.
 
-## Material pricing methods in Project Operations 
-Project Operations supports the following pricing methods for Sales price lists:  
+## Material pricing methods in Project Operations
 
-- **Price per unit** - The sales price for the material will default to the amount specified in the **Currency amount** field. 
-- **At cost** - The sales price for the material will default to the transaction cost for the material. 
-- **Markup percentage** - The sales price for the material will be calculated as a mark up percentage over the transaction cost for the material. 
+Project Operations supports the following pricing methods for sales price lists:
+
+- **Price per unit** – By default, the sales price of the material will be set to the amount that's specified in the **Currency amount** field.
+- **At cost** – By default, the sales price of the material will be set to the transaction cost of the material.
+- **Markup percentage** – The sales price of the material will be calculated as a markup percentage over the transaction cost of the material.
 
 ### Example
 
-The following table shows three products with three diferent pricing configurations. The **Currency amount** = $120, and the **Transaction cost** = $100.
+The following table shows three products, each of which has a different pricing configuration. The currency amount is $120, and the transaction cost is $100.
 
-| Product | Project Pricing | Cost price | Markup percentage| Sales price| 
-| ---  | --- | --- | --- | --- |
-|Item A | **Price per unit** | $100 |   | $120 |
-|Item B | **At cost**        | $100 |   | $100 |
-|Item C | **Markup percentage**| $100| 10%  |  $110|
+| Product | Project pricing | Cost price | Markup percentage | Sales price |
+|---|---|---|---|---|
+| Item A | Price per unit | $100 | | $120 |
+| Item B | At cost | $100 | | $100 |
+| Item C | Markup percentage | $100| 10% | $110 |
 
-To use the new pricing methods, turn on the feature **Enable material pricing methods** under Settings --> Parameters--> Feature control. 
-
+To use the new pricing methods, turn on the **Enable material pricing methods** feature at **Settings** \> **Parameters** \> **Feature control**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
