@@ -46,22 +46,18 @@ The default sales price comes from the project price lists attached to the relat
 
 The calculation of role price estimates on a project task depends on several parameters like resource(s) assigned to the task, task duration, start dates, and end dates. The time taken to perform price estimation calculations can vary depending on changes made to any of the above parameters and the number of tasks in the project.   This in turn can lead to a longer time to process the estimates grid, thus impacting user experience.  
 
-To address this issue, we've introduced an option to price estimates *on demand*, which is more performant and provide a much better user experience. With this feature, you can choose to have the price the estimates in **real-time** or **on-demand**. The default option is **real-time pricing**.  
+To address this issue, we have introduced an option to price project estimates **on demand** which improves performance and the user experience. 
+To use this feature, configure using **Parameters -> Estimate Pricing Options -> On-Demand pricing**. The default option is **real-time pricing**. At any point, admins can switch back to **real-time pricing** and pricing of estimates are done accordingly going forward.
 
-Use **Real-time pricing** to keep the existing system behavior to calculate and default the price estimates when: 
+Use **Real-time pricing** to keep the existing system behavior to calculate and default the price estimates when:
   - Project tasks with resource assignments are created with start date and duration/end date.
   - Project tasks with resource assignments are deleted. 
   - The task duration on a project task with resource assignments is changed.  
   
 Use **On demand pricing** if you don't need to update the price estimates immediately when any of the above project task actions are done. 
-When **On demand pricing** is selected, users must select the **update prices** option in the **Estimates** grid to view the cost and sales estimates after making any changes to project tasks in the task grid.
+When **On demand pricing** is configured, for tasks with resource assignments, role prices are not automatically retreived and default to a role price of **0.00**. Users must select the **update prices** option in the **Estimates** grid to view the cost and sales price estimates for these tasks. 
 
-During performance tests on a standard environment, for a project with 30 tasks, one dependency per task, and when **using on-demand pricing** the following **performance gains** were observed: 
- - 105% for updates on task duration.
- - 110% for changes to task start date.
- - 70%  for copy project. 
+*Note: In both real time and on demand pricing, updates to the quantity field will update the amount fields automatically when there is already a role price on record.*
 
-This feature can be configured using **Parameters -> Estimate Pricing Options -> On-Demand pricing**. At any point, admins can switch back to **real-time pricing** and pricing of estimates are done accordingly going forward. 
-
-
+ 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
