@@ -929,7 +929,9 @@
     - name: Update a project
       href: project-management/update-project.md
     - name: Copy a project
-      href: project-management/copy-project.md    
+      href: project-management/copy-project.md 
+    - name: Import projects from the Microsoft Project desktop client
+      href: project-management/import_from_mpp.md
     - name: Work breakdown structure planning
       items: 
       - name: Create a work breakdown structure
