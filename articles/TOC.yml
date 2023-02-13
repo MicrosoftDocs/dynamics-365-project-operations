@@ -1176,6 +1176,8 @@
       href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
     - name: Confirm a proforma project invoice
       href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+    - name: Bulk-confirm proforma project-based invoices 
+      href: proforma-invoicing/bulk-confirm-project-invoices.md
     - name: Create corrective project invoices 
       href: pro/proforma-invoicing/corrective-invoices-sales.md
     - name: Configure project invoice automation
