@@ -100,7 +100,6 @@ Project Operations relies on Project for the Web for all project scheduling oper
 | Maximum total duration for a project               | 3650 days (10 years)  |
 | Maximum total resources for a project              | 300                   |
 | Maximum total links (successor only) for a project | 600                   |
-| Maximum total custom fields for a project          | 10                    |
 | Maximum hierarchy level                            | 10 levels             |
 | Maximum links (successor + predecessor)            | 20                    |
 | Maximum duration of leaf task                      | 1250 days             |

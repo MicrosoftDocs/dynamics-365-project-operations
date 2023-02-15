@@ -590,6 +590,8 @@
         href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
       - name: Confirm a proforma project-based invoice
         href: proforma-invoicing/confirm-proforma-invoice.md
+      - name: Bulk-confirm proforma project-based invoices 
+        href: proforma-invoicing/bulk-confirm-project-invoices.md
       - name: Create corrective project-based invoices 
         href: pro/proforma-invoicing/corrective-invoices-sales.md
       - name: Configure project-based invoice automation
@@ -933,7 +935,9 @@
     - name: Update a project
       href: project-management/update-project.md
     - name: Copy a project
-      href: project-management/copy-project.md    
+      href: project-management/copy-project.md 
+    - name: Import projects from the Microsoft Project desktop client
+      href: project-management/import_from_mpp.md
     - name: Work breakdown structure planning
       items: 
       - name: Create a work breakdown structure
@@ -1176,6 +1180,8 @@
       href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
     - name: Confirm a proforma project invoice
       href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+    - name: Bulk-confirm proforma project-based invoices 
+      href: proforma-invoicing/bulk-confirm-project-invoices.md
     - name: Create corrective project invoices 
       href: pro/proforma-invoicing/corrective-invoices-sales.md
     - name: Configure project invoice automation
