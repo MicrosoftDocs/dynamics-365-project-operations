@@ -62,10 +62,12 @@
       href: environment/uninstall-project-operations.md
   - name: What's new 
     items:
-    - name: November 2022 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-nov-2022-resource-based.md
+    - name: January 2023 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-jan-2023-resource-based.md
     - name: Archive
       items:
+       - name: November 2022 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-nov-2022-resource-based.md
        - name: October 2022 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-oct-2022-resource-based.md
        - name: September 2022 - Project Operations for resource/non-stocked based scenarios
@@ -678,10 +680,12 @@
       href: environment/security-model.md
   - name: What's new
     items:
-    - name: What's new November 2022 - lite deployment
-      href: pro/whats-new/whats-new-nov-2022-lite.md
+    - name: What's new January 2023 - lite deployment
+      href: pro/whats-new/whats-new-jan-2023-lite.md
     - name: Archive
       items:
+      - name: What's new November 2022 - lite deployment
+        href: pro/whats-new/whats-new-nov-2022-lite.md
       - name: What's new October 2022 - lite deployment
         href: pro/whats-new/whats-new-oct-2022-lite.md
       - name: What's new September 2022 - lite deployment
