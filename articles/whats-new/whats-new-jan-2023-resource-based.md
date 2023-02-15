@@ -22,7 +22,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-| Project Planning and Tracking | **Importing Projects from Micrsoft Project Desktop Client**<br>Project Operations allows Project Managers the ability to import their Project Deskto Files (.MPP) to create projects.| [Importing Projects from Micrsoft Project Desktop Client](/dynamics365/project-operations/project-management/import_from_mpp) |
+| Project Planning and Tracking | **Importing Projects from Microsoft Project Desktop Client**<br>Project Operations allows Project Managers the ability to import their Project Desktop Files (.MPP) to create projects.| [Importing Projects from Microsoft Project Desktop Client](/dynamics365/project-operations/project-management/import_from_mpp) |
 ## Quality updates
 
 ### Project Operations on Dataverse
