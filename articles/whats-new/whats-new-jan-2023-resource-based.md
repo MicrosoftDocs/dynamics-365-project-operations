@@ -15,14 +15,14 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Dataverse environment version 4.59.0.178
+- Project Operations in a Dataverse environment version 4.59.0.210
 - Project management and accounting in a Dynamics 365 Finance environment version 10.0.30
 
 ## Features included in this release
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-
+| Project Planning and Tracking | **Importing Projects from Micrsoft Project Desktop Client**<br>Project Operations allows Project Managers the ability to import their Project Deskto Files (.MPP) to create projects.| [Importing Projects from Micrsoft Project Desktop Client](/dynamics365/project-operations/project-management/import_from_mpp) |
 ## Quality updates
 
 ### Project Operations on Dataverse

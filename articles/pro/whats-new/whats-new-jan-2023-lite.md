@@ -15,13 +15,14 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Dataverse environment version 4.59.0.178
+- Project Operations in a Dataverse environment version 4.59.0.210
 
 ## Features included in this release
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-| Project Budgeting and Forecasting|**Project cost budget management – Manual**<br>In Project operations Lite deployment, the first phase of project budget management is introduced. This is the first step toward budget management in the Project operations Lite deployment. <br><br> This release includes the following capabilities: Manual project cost budget creation; budget approval and rejection; actual to budget line matching for time, expense, and material actuals.|[Project cost budget management](/dynamics365/project-operations/pro/budget/projectbudgetmanagement)|
+| Project Planning and Tracking | **Importing Projects from Micrsoft Project Desktop Client**<br>Project Operations allows Project Managers the ability to import their Project Deskto Files (.MPP) to create projects.| [Importing Projects from Micrsoft Project Desktop Client](/dynamics365/project-operations/project-management/import_from_mpp) |
+| Project Budgeting and Forecasting | **Project cost budget management – Manual**<br>Introducing first phase of project budget management in Project operations Lite deployment. This is the first step towards providing budget management in Project operations Lite deployment. <br> Capabilities included in this release – Manual project cost budget creation; Approval & rejection of budget; Actual to budget line matching for time, expense, material actuals.|[Project cost budget management](/dynamics365/project-operations/pro/budget/projectbudgetmanagement)|
 
 
 ## Quality updates
