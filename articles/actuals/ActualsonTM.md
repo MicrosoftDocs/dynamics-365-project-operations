@@ -33,7 +33,7 @@ The following table lists the actuals of different transaction types that are cr
 
 | Event | Cost actual | Unbilled sales actual | Billed sales actual | Example |
 |---|---|---|---|---|
-| Time is created. | Not applicable | Not applicable | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." For this project, his contracted bill rate is USD 200 per hour. Here is a sample time entry from Bob Kozak:</p><p>Bob Kozack, 8 hours</p> |
+| Time is created. | Not applicable | Not applicable | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." For this project, Bob's contracted bill rate is USD 200 per hour. Here is a sample time entry from Bob Kozak:</p><p>Bob Kozack, 8 hours</p> |
 | Time is submitted. | Not applicable | Not applicable | Not applicable | A cost journal line and Unbilled sales journals are created for the time entry. The default price and cost rate are entered in the journal entry. |
 | The time entry is recalled before it's approved. | Not applicable | Not applicable | Not applicable | |
 | Time is approved: Submitted hours equal billable hours. | A cost actual is created. | An unbilled sales actual is created. | Not applicable | <p>New actuals that are created:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800</li><li>**Unbilled sales actual:** Bob Kozack, 8 hr, USD 1,600</li></ul> |
