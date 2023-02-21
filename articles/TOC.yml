@@ -546,7 +546,7 @@
         href: actuals/create-confirm-entry-journals.md
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
-  - name: Procurement
+  - name: 
     items:
     - name: Configure non-stocked materials and pending vendor invoices
       href: procurement/configure-materials-nonstocked.md
@@ -1392,7 +1392,21 @@
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Create and apply vendor payment retention terms
       href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-  - name: Project invoicing
+    - name: Example scenarios
+      items:
+      - name: Purchase orders for stocked items with item requirements
+        href: prod-pma/STKProjectcostwithtemrequirements.md
+      - name: Purchase orders for stocked items without Item requirements
+        href: prod-pma/STKProjectcostwithoutItemrequirement.md
+      - name: Inventory consumption from stock
+        href: prod-pma/STKProjectcostInventoryConsumption.md
+      - name: Purchase orders for stocked items - Fixed receipt price
+        href: prod-pma/STKProjectcostfixedreceiptprice.md
+      - name: Purchase order for Non-stock/Service items with item requirements
+        href: prod-pma/NSTKProjectcostwithitemrequirements.md
+      - name: Purchase order for Non-stock/Service items without item requirements
+        href: pprod-pma/NSTKProjectcostwithoutitemrequirement.md
+    - name: Project invoicing
     items:
     - name: Project invoicing
       href: /dynamics365/finance/accounts-payable/project-invoicing
