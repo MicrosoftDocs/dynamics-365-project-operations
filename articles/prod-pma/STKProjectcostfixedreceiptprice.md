@@ -2,10 +2,10 @@
 title: Purchase orders for stocked items with fixed price.
 description: This article provides information about project purchase orders for stocked items with fixed price.
 author: mukumarm
-ms.author: mukumarm@microsoft.com
+ms.author: mukumarm
 ms.reviewer: johnmichalak
 ms.topic: article
-ms.date: 21/02/2022
+ms.date: 2/21/2023
 ms.custom:
 ---
 # Purchase orders for stocked items - Fixed receipt price 
