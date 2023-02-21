@@ -1,4 +1,15 @@
-## Purchase order for Non-stock/Service items with item requirements
+---
+title: Purchase orders for Non-stocked/service items with item requirements.
+description: This article provides information about project purchase orders for Non-stock/service items with item requirements.
+author: mukumarm
+ms.author: mukumarm@microsoft.com
+ms.reviewer: johnmichalak
+ms.topic: article
+ms.date: 21/02/2022
+ms.custom:
+---
+
+# Purchase order for Non-stock/Service items with item requirements
 
 To use the **Non-stocked** or **Service** items with **Item requirements,** below setup's are required.
 
@@ -14,7 +25,7 @@ Item requirements are automatically posted when purchase order packing slip is p
 
 When a **purchase order invoice** is posted and if there is any change in unit price or discount then project cost is updated during the vendor invoice posting process and project subledger details have been updated accordingly.
 
-### Example scenario
+## Example scenario
 
 The following example shows the **Purchase order** and **Project transactions** for the **Non-stocked** or **Service** items. The purchase order is created with **Net amount** USD 2,000.00. There is a change in vendor invoice **unit price** USD 2,500.00 **.**
 ![image](https://user-images.githubusercontent.com/103096040/220303131-0bc79d5e-cac7-45e3-8730-1692d7830bca.png)
