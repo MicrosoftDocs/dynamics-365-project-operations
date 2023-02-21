@@ -1,4 +1,4 @@
-## Purchase orders with item requirements
+## Purchase orders for stocked items with item requirements
 
 To use this feature, the **item requirements** parameter in the **Project management & accounting parameters** must be set to **Yes**.
 
