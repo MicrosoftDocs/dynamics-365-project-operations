@@ -1,4 +1,15 @@
-## Purchase orders for stocked items with item requirements
+---
+title: Purchase orders for stocked items with item requirements.
+description: This article provides information about project purchase orders for stocked items with item requirements.
+author: mukumarm
+ms.author: mukumarm@microsoft.com
+ms.reviewer: johnmichalak
+ms.topic: article
+ms.date: 21/02/2022
+ms.custom:
+---
+
+# Purchase orders for stocked items with item requirements
 
 To use this feature, the **item requirements** parameter in the **Project management & accounting parameters** must be set to **Yes**.
 
@@ -18,7 +29,7 @@ Once the purchase order invoice is posted, and if there are any changes like add
 
 This rule is applicable to all items with different inventory costing methods including **FIFO, LIFO, Weighted average, and standard costing**.
 
-### Example scenario
+## Example scenario
 
 The following screen shows the purchase order with items using **FIFO, Weighted average** costing method, and **Miscellaneous charges** applied on the purchase orders. The system has generated the **Item requirements** for each purchase order line.
 
