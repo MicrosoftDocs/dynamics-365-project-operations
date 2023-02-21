@@ -1,4 +1,4 @@
-# Project purchase orders for stocked items without **Item requirements**
+# Purchase orders for stocked items without **Item requirements**
 
 To use this feature, the **Item requirements** parameter in the **Project management & accounting parameters** must be set to **No**.
 
