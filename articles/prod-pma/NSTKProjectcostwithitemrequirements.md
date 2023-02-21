@@ -1,4 +1,4 @@
-## Project purchase order for Non-stock/Service items with item requirements
+## Purchase order for Non-stock/Service items with item requirements
 
 To use the **Non-stocked** or **Service** items with **Item requirements,** below setup's are required.
 
