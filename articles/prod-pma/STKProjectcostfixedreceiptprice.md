@@ -1,4 +1,14 @@
-## Purchase orders for stocked items - Fixed receipt price 
+---
+title: Purchase orders for stocked items with fixed price.
+description: This article provides information about project purchase orders for stocked items with fixed price.
+author: mukumarm
+ms.author: mukumarm@microsoft.com
+ms.reviewer: johnmichalak
+ms.topic: article
+ms.date: 21/02/2022
+ms.custom:
+---
+# Purchase orders for stocked items - Fixed receipt price 
 
 To use this feature, the **Fixed receipt price** parameter in the **Inventory model group** must be set to **Yes**
 
@@ -12,7 +22,7 @@ For project item consumption, either through **Item requirements** or **Purchase
 
 When there is a change in the fixed cost price, need to run the **Inventory closing** , adjust the on-hand inventory, and then activate the new cost.
 
-### Example scenario
+## Example scenario
 
 The following example shows the project cost for the items with **Fixed price** set to **Yes** on the **Item model group**.
 
