@@ -1,6 +1,8 @@
 ## Purchase orders for stocked items - Fixed receipt price 
 
-set to Yes on Inventory model group
+To use this feature, the **Fixed receipt price** parameter in the **Inventory model group** must be set to **Yes**
+
+**Inventory management**>**Setup**>**Inventory**>**Item model group**
 
 This feature works like a standard cost where all the receipts and consumption happen on the cost price defined for the item.
 
