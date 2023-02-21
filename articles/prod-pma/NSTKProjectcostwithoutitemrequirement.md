@@ -11,5 +11,9 @@ When a purchase order is created without using the item requirements feature, **
 ### Example scenario
 
 The following example shows the **Purchase order** and **Project transactions** for the **Non-stocked** or **Service** items. Purchase order is created with **Net amount** USD 2,700.00 after discount. Miscellaneous charges of USD 100.00 added on the purchase order line ( **Item, Debit** ).
+![image](https://user-images.githubusercontent.com/103096040/220301641-f17887ad-8aa4-4e0e-a7dc-55ad5ab17f6b.png)
 
-The following screen shows the project cost USD2,800.00 and **Project subledger** generated for purchase order when vendor invoice is posted. ![](RackMultipart20230221-1-74n8kx_html_ee4c12199345f6dc.png)
+
+The following screen shows the project cost USD2,800.00 and **Project subledger** generated for purchase order when vendor invoice is posted. 
+![image](https://user-images.githubusercontent.com/103096040/220301766-9137d971-5d98-4e7b-bcf2-c30653bff97a.png)
+
