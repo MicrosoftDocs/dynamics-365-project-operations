@@ -1,4 +1,6 @@
-## Project cost for stocked items - Fixed receipt price set to Yes on Inventory model group
+## Purchase orders for stocked items - Fixed receipt price 
+
+set to Yes on Inventory model group
 
 This feature works like a standard cost where all the receipts and consumption happen on the cost price defined for the item.
 
