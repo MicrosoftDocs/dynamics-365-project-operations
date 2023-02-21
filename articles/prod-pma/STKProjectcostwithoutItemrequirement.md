@@ -1,3 +1,13 @@
+---
+title: Purchase orders for stocked items without item requirements.
+description: This article provides information about project purchase orders for stocked items without item requirements.
+author: mukumarm
+ms.author: mukumarm@microsoft.com
+ms.reviewer: johnmichalak
+ms.topic: article
+ms.date: 21/02/2022
+ms.custom:
+---
 # Purchase orders for stocked items without **Item requirements**
 
 To use this feature, the **Item requirements** parameter in the **Project management & accounting parameters** must be set to **No**.
@@ -19,7 +29,7 @@ Both transactions are linked with each other ( **Inventory marking on the invent
 
 Inventory recalculation doesn't have an impact on the project posted transactions because these transactions are generated during vendor invoice posting, and the project consumption line is linked with purchase order inventory cost. This rule is applicable for all items with different inventory costing methods, including **FIFO, LIFO, Weighted average, and standard costing**.
 
-### Example scenario
+## Example scenario
 
 In this example, there are two purchase order lines with items using **FIFO, Weighted average** costing method, and **Miscellaneous charges** applied on the purchase orders.
 
