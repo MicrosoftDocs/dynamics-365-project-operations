@@ -1,4 +1,15 @@
-## Inventory consumption from stock
+---
+title: Inventory consumption for projects.
+description: This article provides information about inventory consumption for projects.
+author: mukumarm
+ms.author: mukumarm@microsoft.com
+ms.reviewer: johnmichalak
+ms.topic: article
+ms.date: 21/02/2022
+ms.custom:
+---
+
+# Inventory consumption from stock
 
 **Dynamics 365 Finance** allows inventory consuming from the warehouse using Project **Item requirements** and **Project item journal**. **Dynamics 365 Finance** always considers the **Weighted average** costing method for item requirements, except for standard costing. Whenever a new item requirement is posted, irrespective of the item model group mapped on the product, the default **Weighted average** costing method is applied, and the same is reflected on the Project posted transactions.
 
@@ -6,7 +17,7 @@ This is in line with the sales orders without projects where actual cost consump
 
 After the **Inventory recalculation** process, the system calculates the actual cost based upon inventory model mapped with the item and adjusts the inventory cost for projects as well.
 
-### Example scenario
+## Example scenario
 
 The following examples show the project cost transactions posted for item requirements for items with different **Inventory costing** methods applied on the items.
 
