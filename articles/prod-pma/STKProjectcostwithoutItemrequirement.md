@@ -1,6 +1,6 @@
-Project purchase orders without **Item requirements**
+# Project purchase orders without **Item requirements**
 
-To use this feature, the **item requirements** parameter in the **Project management & accounting parameters** must be set to **No**.
+To use this feature, the **Item requirements** parameter in the **Project management & accounting parameters** must be set to **No**.
 
 **Project management and accounting** \> **Setup** \> **Project management & accounting parameters** \> **General** \> **Create Item requirements** : **No**
 
@@ -47,6 +47,11 @@ Miscellaneous charges: 666.67
 
 The following screen shows the **Purchase order** along with **Miscellaneous charges** applied to item **FIFO**.
 
-The following screen shows the **Project posted transactions** generated at purchase order invoice for item F001 and W001. For item F001, Project cost is recorded as USD 2,666.67 which is inclusive of purchase order price and Miscellaneous charges applied on the purchase order.
+![image](https://user-images.githubusercontent.com/103096040/220292356-7ac35de9-7661-449f-8f10-2d592fe5bda4.png)
 
+The following screen shows the **Project posted transactions** generated at purchase order invoice for item F001 and W001. 
+For item F001, Project cost is recorded as USD 2,666.67 which is inclusive of purchase order price and Miscellaneous charges applied on the purchase order.
 For item W001 Project cost is recorded as USD 1,333.33 which is inclusive of purchase order price and Miscellaneous charges applied on the purchase order.
+
+![image](https://user-images.githubusercontent.com/103096040/220292631-3b095c8f-67d4-4d7b-aaba-72049561219d.png)
+
