@@ -2,10 +2,10 @@
 title: Purchase orders for Non-stocked/service items with item requirements.
 description: This article provides information about project purchase orders for Non-stock/service items with item requirements.
 author: mukumarm
-ms.author: mukumarm@microsoft.com
+ms.author: mukumarm
 ms.reviewer: johnmichalak
 ms.topic: article
-ms.date: 21/02/2022
+ms.date: 2/21/2023
 ms.custom:
 ---
 
