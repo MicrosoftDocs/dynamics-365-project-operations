@@ -1,4 +1,4 @@
-## Project purchase order without item requirements
+## Project purchase order without item requirements for Non-stock/Service items
 
 To use this feature, the **Item requirements** parameter in the **Project management & accounting parameters** must be set to **No**.
 
