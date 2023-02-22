@@ -28,10 +28,10 @@ When a **purchase order invoice** is posted and if there is any change in unit p
 ## Example scenario
 
 The following example shows the **Purchase order** and **Project transactions** for the **Non-stocked** or **Service** items. The purchase order is created with **Net amount** USD 2,000.00. There is a change in vendor invoice **unit price** USD 2,500.00.
-![image](https://user-images.githubusercontent.com/103096040/220303131-0bc79d5e-cac7-45e3-8730-1692d7830bca.png)
+![Imagereference:Screenshot of purchase order](media/NSTKWithIRPurchaseorder.png)
 
 The following screen shows the project posted transactions generated when **Purchase Order Product receipt** is posted.
-![image](https://user-images.githubusercontent.com/103096040/220303103-0b8140e9-fa4e-4dbc-bcbb-b11c0d7864d7.png)
+![Imagereference:Screenshot of project posted transactions after product receipt](media/NSTKWithIRPurchaseProductReceipt.png)
 
 The following screen shows the project posted transactions when purchase order vendor invoice is posted. There is a change in **Unit price** and system has posted an adjustment to the existing project posted transaction.
-![image](https://user-images.githubusercontent.com/103096040/220303067-ef96d8ea-71de-4794-b88a-4d8309ba27b0.png)
+![Imagereference:Screenshot of project posted transactions after vendor invoice](media/NSTKWithIRProjectPostedTransafterVendorInvoice.png)
