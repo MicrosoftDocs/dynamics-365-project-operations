@@ -1405,7 +1405,7 @@
       - name: Purchase order for Non-stock/Service items with item requirements
         href: prod-pma/NSTKProjectcostwithitemrequirements.md
       - name: Purchase order for Non-stock/Service items without item requirements
-        href: pprod-pma/NSTKProjectcostwithoutitemrequirement.md
+        href: prod-pma/NSTKProjectcostwithoutitemrequirement.md
     - name: Project invoicing
       items:
       - name: Project invoicing
