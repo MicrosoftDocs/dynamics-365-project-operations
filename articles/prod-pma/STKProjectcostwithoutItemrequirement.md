@@ -35,15 +35,15 @@ In this example, there are two purchase order lines with items using **FIFO, Wei
 
 **Line 1:**
 
-Item: W001, Quantity: 2, Unit price 1000
+**Item**: W001, **Quantity**: 2, **Unit price**: 1000
 
-Inventory costing method: Weighted average
+**Inventory costing method**: **Weighted average**
 
-Miscellaneous charges: 666.67
+**Miscellaneous charges**: 666.67
 
 **Line 2:**
 
-**Item** F001, **Quantity** : 1, **Unit price** : 1000
+**Item**: F001, **Quantity** : 1, **Unit price** : 1000
 
 **Inventory costing method** : **FIFO**
 
@@ -56,12 +56,10 @@ Miscellaneous charges: 666.67
 **Item** : F001, 1333.33 (Purchase cost 1000, Miscellaneous charges: 1333.33)
 
 The following screen shows the **Purchase order** along with **Miscellaneous charges** applied to item **FIFO**.
-
-![image](https://user-images.githubusercontent.com/103096040/220292356-7ac35de9-7661-449f-8f10-2d592fe5bda4.png)
+![Imagereference:Screenshot of purchase order](media/StockWithoutIRPurchaserorder.png)
 
 The following screen shows the **Project posted transactions** generated at purchase order invoice for item F001 and W001. 
 For item F001, Project cost is recorded as USD 2,666.67 which is inclusive of purchase order price and Miscellaneous charges applied on the purchase order.
 For item W001 Project cost is recorded as USD 1,333.33 which is inclusive of purchase order price and Miscellaneous charges applied on the purchase order.
-
-![image](https://user-images.githubusercontent.com/103096040/220292631-3b095c8f-67d4-4d7b-aaba-72049561219d.png)
+![Imagereference:Screenshot of Project posted transactions](media/StockWithoutIRProjectPostedTransactions.png)
 
