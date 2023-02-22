@@ -28,8 +28,8 @@ The following example shows the project cost for the items with **Fixed price** 
 
 The following screen shows the purchase order and vendor invoice posted for the purchase order.
 
-![image](https://user-images.githubusercontent.com/103096040/220296385-83f07201-d3af-46ee-a99e-0ab3786312e3.png)
+![Imagereference:Screenshot of purchase order](media/STKFixedreceiptpricePO.png)
 
 The following screen shows the Project posted transaction with project cost posted as USD 100.00.
 
-![image](https://user-images.githubusercontent.com/103096040/220296443-c77a7d53-d8c9-44d1-b568-dd52f995ae42.png)
+![Imagereference:Screenshot of project posted transactions](media/STKFixedreceiptpricePostedTransactions.png)
