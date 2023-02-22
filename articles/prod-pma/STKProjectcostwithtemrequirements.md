@@ -32,13 +32,10 @@ This rule is applicable to all items with different inventory costing methods in
 ## Example scenario
 
 The following screen shows the purchase order with items using **FIFO, Weighted average** costing method, and **Miscellaneous charges** applied on the purchase orders. The system has generated the **Item requirements** for each purchase order line.
-
-![image](https://user-images.githubusercontent.com/103096040/220294443-28395a18-2571-4ba6-9406-663845a2190d.png)
+![Imagereference:Screenshot of purchase order](media/STKWithIRPurcahseorder.png)
 
 The following screen shows the **Project posted transactions** afterpurchase order **product receipt.** Project cost is generated using **Weighted average** inventory costing method except **item** WAvgPP. For this item **Include physical value** is set to **Yes** on the item model group.
-
-![image](https://user-images.githubusercontent.com/103096040/220294491-9ccca049-5710-4164-ad5f-0a65abb08ad1.png)
+![Imagereference:Screenshot of project posted transactions after product receipt](media/STKWithIRProjectPostedtransactionafterProductReceipt.png)
 
 The following screen shows the **Project posted transactions** after **Inventory recalculation**. **Inventory recalculation** performs the adjustment transactions for the project subledger based upon vendor invoice amount.
-
-![image](https://user-images.githubusercontent.com/103096040/220294545-fd8944b7-855a-4ed4-9033-6b875efa7ad9.png)
+![Imagereference:Screenshot of project posted transaction after inventory recalculation process](media/STKWithIRProjectPostedtransactionafterInventoryRecalc.png)
