@@ -21,7 +21,7 @@ After the **Inventory recalculation** process, the system calculates the actual 
 
 The following examples show the project cost transactions posted for item requirements for items with different **Inventory costing** methods applied on the items.
 
-_ **Inventory costing method: FIFO** _
+**Inventory costing method: FIFO**
 
 The following example shows the project cost transactions posted for **Item requirements** for an item with **FIFO** inventory costing method.
 
@@ -32,15 +32,13 @@ The following example shows the project cost transactions posted for **Item requ
 | Purchase order without Project | F001 | 100.00 | 1,000.00 | 100,000.00 |   |   |
 | Item requirements or Project item journal | F001 | (1.00) | 200.00 | (200.00) | 466.67 | 200.00 |
 
-The following screen shows the project posted transactions generated after the **Item requirements** posting process.
-
-![image](https://user-images.githubusercontent.com/103096040/220300562-0933986d-c6e2-4138-a168-47c3efabf415.png)
+The following screen shows the project posted transactions generated after the **Item requirements** packing slip posting process.
+![Imagereference:Screenshot of project posted transactions voucher](media/STKIRVoucher.png)
 
 The following screen shows the project posted transactions generated after the **Inventory recalculation** process. The system has generated adjustment vouchers for the transactions generated for **Item requirements.**
+![Imagereference:Screenshot of project posted transactions after inventory recalculation process](media/STKIRVoucherafterAdjustment.png)
 
-![image](https://user-images.githubusercontent.com/103096040/220300610-5ec66d84-ee71-4118-9bcc-eb201af5e17a.png)
-
-_ **Inventory costing method: Weighted average** _
+**Inventory costing method: Weighted average**
 
 The following example shows the project cost transactions posted for **Item requirements** for an item with **Weighted average** inventory costing method.
 
@@ -52,4 +50,4 @@ The following example shows the project cost transactions posted for **Item requ
 | Item requirements | W001 | (1.00) | 300.00 | (300.00) | 1133.33 | 1133.33 |
 
 The following screen shows the project posted transactions generated after the **Item requirements** posting process.
-![image](https://user-images.githubusercontent.com/103096040/220300701-dd916044-92f9-4fe6-82c6-afcae0436114.png)
+![Imagereference:Screenshot of project posted transactions](media/STKIRVoucherWAvg.png)
