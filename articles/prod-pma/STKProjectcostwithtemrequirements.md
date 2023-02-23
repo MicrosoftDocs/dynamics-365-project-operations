@@ -21,7 +21,7 @@ When a purchase order is created using the **Item requirements** feature, **Micr
 
 For the item requirements, the system displays the unit price for purchase orders as an item cost price after deducting the discount applicable for purchase order lines. Item requirement **cost price** doesn't include the **Miscellaneous charges** applied on the purchase order line.
 
-When a purchase order packing slip is posted, if the **Item consumption** parameter is set to **Yes.**, the Item requirements are automatically posted. Otherwise, the system shows the message **Do you want to consume the material** if item consumption is marked to **No**. You can post the item requirements manually as well.
+Item requirements are automatically posted when a purchase order packing slip is posted and the **Item consumption** parameter is set to **Yes.**. Otherwise, the system shows the message **Do you want to consume the material** if item consumption is marked to **No**. You can post the item requirements manually as well.
 
 The system posts/generates the project cost on the **Purchase order unit price** or **Weighted average**. If **Include physical price** is enabled on the item model group for the item, the system posts the project cost with purchase order unit price at purchase order **Packing slip**. Otherwise, the system generates the project transactions with weighted average inventory cost method.
 
