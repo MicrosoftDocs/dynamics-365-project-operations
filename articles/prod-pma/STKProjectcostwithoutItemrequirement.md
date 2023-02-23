@@ -10,9 +10,10 @@ ms.custom:
 ---
 # Purchase orders for stocked items without **Item requirements**
 
-To use this feature, the **Item requirements** parameter in the **Project management & accounting parameters** must be set to **No**.
+To use purchase orders without item requirements, set the **Item requirements** parameter to **No** using these steps.
 
-**Project management and accounting** \> **Setup** \> **Project management & accounting parameters** \> **General** \> **Create Item requirements** : **No**
+1. From **Project management and accounting**, select **Setup**, **Project management & accounting parameters**, and then the **General** tab.
+1. Locate **Create Item requirements**, and set to **No**.
 
 When a purchase order is created without using the **Item requirements** feature, Dynamics 365 Finance generates & posts the project cost at time of vendor invoice.
 
