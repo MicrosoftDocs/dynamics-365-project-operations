@@ -15,7 +15,7 @@ To use purchase orders without item requirements, set the **Item requirements** 
 1. From **Project management and accounting**, select **Setup**, **Project management & accounting parameters**, and then the **General** tab.
 1. Locate **Create Item requirements**, and set to **No**.
 
-When a purchase order is created without using the **Item requirements** feature, Dynamics 365 Finance generates & posts the project cost at time of vendor invoice.
+When a purchase order is created without using the **Item requirements** feature, Microsoft Dynamics 365 Finance generates and posts the project cost at time of vendor invoice.
 
 When a packing slip is posted for the purchase order as part of product receipt, no project cost transactions are generated irrespective of the **Item model group** ( **Include physical value** option – Yes or No) mapped on the item master.
 
@@ -57,10 +57,12 @@ In this example, there are two purchase order lines with items using **FIFO, Wei
 **Item** : F001, 1333.33 (Purchase cost 1000, Miscellaneous charges: 1333.33)
 
 The following screen shows the **Purchase order** along with **Miscellaneous charges** applied to item **FIFO**.
-![Imagereference:Screenshot of purchase order](media/StockWithoutIRPurchaserorder.png)
+
+![Screenshot of purchase order](media/StockWithoutIRPurchaserorder.png)
 
 The following screen shows the **Project posted transactions** generated at purchase order invoice for item F001 and W001. 
 For item F001, Project cost is recorded as USD 2,666.67 which is inclusive of purchase order price and Miscellaneous charges applied on the purchase order.
 For item W001 Project cost is recorded as USD 1,333.33 which is inclusive of purchase order price and Miscellaneous charges applied on the purchase order.
-![Imagereference:Screenshot of Project posted transactions](media/StockWithoutIRProjectPostedTransactions.png)
+
+![Screenshot of Project posted transactions](media/StockWithoutIRProjectPostedTransactions.png)
 
