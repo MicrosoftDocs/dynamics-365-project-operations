@@ -11,9 +11,9 @@ ms.custom: bap-template
 
 # Purchase order for Non-stock/Service items without item requirements
 
-To use this feature, set the **Item requirements** parameter to **No** using these steps.
+To use purchase orders without item requirements, set the **Item requirements** parameter to **No** using these steps.
 
-1. From **Project management and accounting**, select **Setup**, **Project management & accounting parameters**, and **General**.
+1. From **Project management and accounting**, select **Setup**, **Project management & accounting parameters**, and then the **General** tab.
 1. Locate **Create Item requirements**, and set to **No**.
 
 When a purchase order is created without using the item requirements feature, **Dynamics 365 Finance** generates & posts the project cost at time of vendor invoice. When the **Purchase order** product receipt is posted, no project cost transactions are generated.
