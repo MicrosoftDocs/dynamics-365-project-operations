@@ -20,11 +20,11 @@ When a purchase order is created, **Dynamics 365 Finance** generates the project
 
 Item requirements are automatically posted when a purchase order packing slip is posted and the parameter **Item consumption** is set to **Yes.** Otherwise, the system shows the message **Do you want to consume the material**. If **Item consumption** is set to **No**, you can post the item requirements manually as well. Regardless of how an item requirement is posted, manually or automatically, the Project cost is generated.
 
-When a **purchase order invoice** is posted, if there is any change in unit price or a discount, then the project cost is updated during the vendor invoice posting process and the project subledger details are updated accordingly.
+When a **purchase order invoice** is posted, if there's any change in unit price or a discount, then the project cost is updated during the vendor invoice posting process and the project subledger details are updated accordingly.
 
 ## Example scenario
 
-The following example shows the **Purchase order** and **Project transactions** for the **Non-stocked** or **Service** items. The purchase order is created with **Net amount** USD 2,000.00. There is a change in vendor invoice **unit price** USD 2,500.00.
+The following example shows the **Purchase order** and **Project transactions** for the **Non-stocked** or **Service** items. The purchase order is created with **Net amount** USD 2,000.00. There's a change in vendor invoice **unit price** USD 2,500.00.
 
 ![Screenshot of purchase order](media/NSTKWithIRPurchaseorder.png)
 
@@ -32,6 +32,6 @@ The following screen shows the project posted transactions generated when **Purc
 
 ![Screenshot of project posted transactions after product receipt](media/NSTKWithIRPurchaseProductReceipt.png)
 
-The following screen shows the project posted transactions when purchase order vendor invoice is posted. There is a change in **Unit price** and system has posted an adjustment to the existing project posted transaction.
+The following screen shows the project posted transactions when purchase order vendor invoice is posted. There's a change in **Unit price** and system has posted an adjustment to the existing project posted transaction.
 
 ![Screenshot of project posted transactions after vendor invoice](media/NSTKWithIRProjectPostedTransafterVendorInvoice.png)
