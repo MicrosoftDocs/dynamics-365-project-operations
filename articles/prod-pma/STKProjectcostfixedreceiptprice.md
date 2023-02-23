@@ -15,7 +15,7 @@ To use **Fixed receipt price** parameter in the **Inventory model group**, enabl
 1. From **Inventory management**, select **Setup**, **Inventory**, and **Item model group**.
 1. Set **Item model group** to **Yes**.
 
-This feature works like a standard cost where all the receipts and consumption happen on the cost price defined for the item.
+This feature works like a standard cost where all the receipts and consumption happens on the cost price defined for the item.
 
 When there is a purchase with a unit price that is more or less than the cost price defined for the item, the system posts the variance into purchase fixed receipt price profit or loss account and fixed receipt price offset account. Because of this, the system always maintains the item cost price like the standard cost price for the product.
 
@@ -29,8 +29,8 @@ The following example shows the project cost for the items with **Fixed price** 
 
 The following screen shows the purchase order and vendor invoice posted for the purchase order.
 
-![Imagereference:Screenshot of purchase order](media/STKFixedreceiptpricePO.png)
+![Screenshot of purchase order](media/STKFixedreceiptpricePO.png)
 
 The following screen shows the Project posted transaction with project cost posted as USD 100.00.
 
-![Imagereference:Screenshot of project posted transactions](media/STKFixedreceiptpricePostedTransactions.png)
+![Screenshot of project posted transactions](media/STKFixedreceiptpricePostedTransactions.png)
