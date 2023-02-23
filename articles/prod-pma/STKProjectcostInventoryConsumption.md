@@ -11,15 +11,15 @@ ms.custom:
 
 # Inventory consumption from stock
 
-**Dynamics 365 Finance** allows inventory consuming from the warehouse using Project **Item requirements** and **Project item journal**. **Dynamics 365 Finance** always considers the **Weighted average** costing method for item requirements, except for standard costing. Whenever a new item requirement is posted, irrespective of the item model group mapped on the product, the default **Weighted average** costing method is applied, and the same is reflected on the Project posted transactions.
+**Microsoft Dynamics 365 Finance** allows inventory consuming from the warehouse using Project **Item requirements** and **Project item journal**. ** Microsoft Dynamics 365 Finance** always considers the **Weighted average** costing method for item requirements, except for standard costing. Whenever a new item requirement is posted, irrespective of the item model group mapped on the product, the default **Weighted average** costing method is applied, and the same is reflected on the Project posted transactions.
 
-This is in line with the sales orders without projects where actual cost consumption updated after the inventory recalculation and costing.
+This is in line with the sales orders without projects where actual cost consumption is updated after the inventory recalculation and costing.
 
-After the **Inventory recalculation** process, the system calculates the actual cost based upon inventory model mapped with the item and adjusts the inventory cost for projects as well.
+After the **Inventory recalculation** process, the system calculates the actual cost based upon the inventory model that is mapped to the item and adjusts the inventory cost for the project as well.
 
 ## Example scenario
 
-The following examples show the project cost transactions posted for item requirements for items with different **Inventory costing** methods applied on the items.
+The following examples show the project cost transactions that are posted with item requirements for items that have different **Inventory costing** methods applied to the items.
 
 **Inventory costing method: FIFO**
 
@@ -33,10 +33,12 @@ The following example shows the project cost transactions posted for **Item requ
 | Item requirements or Project item journal | F001 | (1.00) | 200.00 | (200.00) | 466.67 | 200.00 |
 
 The following screen shows the project posted transactions generated after the **Item requirements** packing slip posting process.
-![Imagereference:Screenshot of project posted transactions voucher](media/STKIRVoucher.png)
+
+![Screenshot of project posted transactions voucher](media/STKIRVoucher.png)
 
 The following screen shows the project posted transactions generated after the **Inventory recalculation** process. The system has generated adjustment vouchers for the transactions generated for **Item requirements.**
-![Imagereference:Screenshot of project posted transactions after inventory recalculation process](media/STKIRVoucherafterAdjustment.png)
+
+![Screenshot of project posted transactions after inventory recalculation process](media/STKIRVoucherafterAdjustment.png)
 
 **Inventory costing method: Weighted average**
 
@@ -50,4 +52,5 @@ The following example shows the project cost transactions posted for **Item requ
 | Item requirements | W001 | (1.00) | 300.00 | (300.00) | 1133.33 | 1133.33 |
 
 The following screen shows the project posted transactions generated after the **Item requirements** posting process.
-![Imagereference:Screenshot of project posted transactions](media/STKIRVoucherWAvg.png)
+
+![Screenshot of project posted transactions](media/STKIRVoucherWAvg.png)
