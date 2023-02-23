@@ -17,7 +17,7 @@ To use purchase orders with item requirements, set the **Item requirements** par
 1. Locate **Create Item requirements**, and set to **Yes**.
 1. Locate **Item consumption**, and set to **Yes**
 
-When a purchase order is created using the **Item requirements** feature, **Dynamics 365 Finance** generates the project item requirements. Each purchase order line has a direct relationship with project item requirements, and both lines are linked to each other. Any changes to the purchase order have a direct impact and update on the project item requirements.
+When a purchase order is created using the **Item requirements** feature, **Microsoft Dynamics 365 Finance** generates the project item requirements. Each purchase order line has a direct relationship with project item requirements, and both lines are linked to each other. Any changes to the purchase order have a direct impact and update on the project item requirements.
 
 For the item requirements, the system displays the unit price for purchase orders as an item cost price on the item requirements after deducting the discount applicable for purchase order lines. Item requirement **cost price** does not include the **Miscellaneous charges** applied on the purchase order line.
 
@@ -32,10 +32,13 @@ This rule is applicable to all items with different inventory costing methods in
 ## Example scenario
 
 The following screen shows the purchase order with items using **FIFO, Weighted average** costing method, and **Miscellaneous charges** applied on the purchase orders. The system has generated the **Item requirements** for each purchase order line.
-![Imagereference:Screenshot of purchase order](media/STKWithIRPurcahseorder.png)
+
+![Screenshot of purchase order](media/STKWithIRPurcahseorder.png)
 
 The following screen shows the **Project posted transactions** afterpurchase order **product receipt.** Project cost is generated using **Weighted average** inventory costing method except **item** WAvgPP. For this item **Include physical value** is set to **Yes** on the item model group.
-![Imagereference:Screenshot of project posted transactions after product receipt](media/STKWithIRProjectPostedtransactionafterProductReceipt.png)
+
+![Screenshot of project posted transactions after product receipt](media/STKWithIRProjectPostedtransactionafterProductReceipt.png)
 
 The following screen shows the **Project posted transactions** after **Inventory recalculation**. **Inventory recalculation** performs the adjustment transactions for the project subledger based upon vendor invoice amount.
-![Imagereference:Screenshot of project posted transaction after inventory recalculation process](media/STKWithIRProjectPostedtransactionafterInventoryRecalc.png)
+
+![Screenshot of project posted transaction after inventory recalculation process](media/STKWithIRProjectPostedtransactionafterInventoryRecalc.png)
