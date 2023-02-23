@@ -17,11 +17,11 @@ To use **Fixed receipt price** parameter in the **Inventory model group**, enabl
 
 This feature works like a standard cost where all the receipts and consumption happen on the cost price defined for the item.
 
-When there's a purchase with a unit price that is more or less than the cost price defined for the item, the system posts the variance into purchase fixed receipt price profit or loss account and fixed receipt price offset account. Because of this variance, the system always maintains the item cost price like the standard cost price for the product.
+When there's a purchase with a unit price that is more or less than the cost price defined for the item, the system posts the variance into the purchase fixed receipt price profit or loss account and the fixed receipt price offset account. Because of this variance, the system always maintains the item cost price like the standard cost price for the product.
 
 For project item consumption, either through **Item requirements** or **Purchase orders** with **Item requirements**, the project cost is always updated with the item cost price.
 
-When there's a change in the fixed cost price, need to run the **Inventory closing** , adjust the on-hand inventory, and then activate the new cost.
+When there's a change in the fixed cost price, need to run the **Inventory closing**, adjust the on-hand inventory, and then activate the new cost.
 
 ## Example scenario
 
