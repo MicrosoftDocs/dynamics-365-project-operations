@@ -10,9 +10,6 @@ ms.custom:
 ---
 # Purchase orders for stocked items - Fixed receipt price 
 
-To use this feature, the  must be set to **Yes**
-
-
 To use **Fixed receipt price** parameter in the **Inventory model group**, enable the **Item requirements** parameter using these steps.
 
 1. From **Inventory management**, select **Setup**, **Inventory**, and **Item model group**.
