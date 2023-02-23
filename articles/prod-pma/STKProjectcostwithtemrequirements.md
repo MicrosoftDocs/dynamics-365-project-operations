@@ -11,11 +11,11 @@ ms.custom:
 
 # Purchase orders for stocked items with item requirements
 
-To use this feature, the **item requirements** parameter in the **Project management & accounting parameters** must be set to **Yes**.
+To use purchase orders with item requirements, set the **Item requirements** parameter to **Yes** using these steps.
 
-**Project management and accounting** \> **Setup** \> **Project management & accounting parameters** \> **General** Tab
-
-**Item requirements** – **Yes** and **Item consumption** – **Yes/No**
+1. From **Project management and accounting**, select **Setup**, **Project management & accounting parameters**, and then the **General** tab.
+1. Locate **Create Item requirements**, and set to **Yes**.
+1. Locate **Item consumption**, and set to **Yes**
 
 When a purchase order is created using the **Item requirements** feature, **Dynamics 365 Finance** generates the project item requirements. Each purchase order line has a direct relationship with project item requirements, and both lines are linked to each other. Any changes to the purchase order have a direct impact and update on the project item requirements.
 
