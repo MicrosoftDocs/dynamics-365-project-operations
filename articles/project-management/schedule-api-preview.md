@@ -86,7 +86,7 @@ The following is a list of limitations and known issues:
     -   System users
     -   Integration users
     -   Other users that don't have the required license
--   Each **OperationSet** can only have a maximum of 100 operations.
+-   Each **OperationSet** can only have a maximum of 200 operations.
 -   Each user can only have a maximum of 10 open **OperationSets**.
 -   Project Operations currently supports a maximum of 500 total tasks on a project.
 -   Each Update Resource Assignment Contour operation counts as a single operation.
