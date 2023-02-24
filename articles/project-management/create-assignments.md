@@ -44,9 +44,13 @@ By default, when resources are assigned to a task in the schedule, their effort 
 
 To access the contour editing grid, the project manager first selects the **Tasks** tab on the project main page and then selects the **Assignments** tab.
 
-![Assignments tab on the Tasks tab of the project main page.](media/AssignmentGrid.png)
+![Assignments tab on the Tasks tab of the project main page.](media/AssignmentGridv2.png)
 
 The grid supports two methods for grouping: **group by resource** and **group by task**. Unlike in the grid view, columns aren't configurable. The only visible columns are **Assigned To**, **Task Name**, **Assignment Start**, **Assignment Finish**, and **Assignment Effort**.
+
+The contour editing grid has been enhanced to include the ability to group contours by week. It was also added **previous** and **next** controls to support quickly changing periods in the current view. Lastly, it was added a grand total row.
+
+![Call out to the new controls available on the contours form.](media/AssignmentGridComplements.png)
 
 When the grid is initially rendered, it starts at the earliest assignment contour. If your schedule doesn't contain any assignments that have effort, the grid will be blank and won't render anything. The minimum value of a resource contour is zero, and the maximum value permitted is 9,999,999.
 
