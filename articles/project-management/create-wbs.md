@@ -162,4 +162,12 @@ You should be aware of the following limitations if you are using the work break
 | Maximum resources assigned to a task    | 20 resources          |
 | Supported date range for a task         | 1/1/2000 - 12/31/2149 |
 
+
+## Planning a project in sprints
+
+You can also use sprints and plan your project based on agile project management. To know more, see [Plan a project in sprints in Project for the web.](https://support.microsoft.com/en-us/office/plan-a-project-in-sprints-in-project-for-the-web-7536fbef-0ece-47bf-beae-6a8ac2c69955)
+
+
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
