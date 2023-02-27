@@ -1,6 +1,6 @@
 ---
-title: Purchase orders for Non-stocked/service items with item requirements.
-description: This article provides information about project purchase orders for Non-stock/service items with item requirements.
+title: Purchase orders for Non-stocked/Service items with item requirements
+description: This article provides information about project purchase orders for Non-stocked/Service items with item requirements.
 author: mukumarm
 ms.author: mukumarm
 ms.reviewer: johnmichalak
@@ -9,29 +9,29 @@ ms.date: 2/21/2023
 ms.custom: bap-template
 ---
 
-# Purchase order for Non-stock/Service items with item requirements
+# Purchase orders for Non-stocked/Service items with item requirements
 
-To use **Non-stocked** or **Service** items with **Item requirements**, enable the **Item requirements** parameter using these steps.
+To use **Non-stocked** or **Service** items with item requirements, you enable the **Enable creation of item requirement for non-stocked items** parameter in Project management & accounting parameters.
 
-1. From **Project management & accounting parameters**, select **Setup**, **Project management & accounting parameters**, and then the **General** tab.
-1. Select **Enable creation of item requirement for non-stocked items**.
+1. Go to **Project management & accounting parameters** \> **Setup** \> **Project management & accounting parameters**.
+1. On the **General** tab, select **Enable creation of item requirement for non-stocked items**.
 
-When a purchase order is created, **Dynamics 365 Finance** generates the project item requirements. Each purchase order line has a direct relationship with project item requirements, and both lines are linked to each other. Any changes to the purchase order have a direct impact on, and updates the project item requirements.
+When a purchase order is created, Microsoft Dynamics 365 Finance generates the project item requirements. Each purchase order line has a direct relationship with project item requirements, and both lines are linked to each other. Any changes to the purchase order have a direct impact on the project item requirements and cause them to be updated.
 
-Item requirements are automatically posted when a purchase order packing slip is posted and the parameter **Item consumption** is set to **Yes.** Otherwise, the system shows the message **Do you want to consume the material**. If **Item consumption** is set to **No**, you can post the item requirements manually as well. Regardless of how an item requirement is posted, manually or automatically, the Project cost is generated.
+If the **Item consumption** option is set to **Yes**, item requirements are automatically posted when a purchase order packing slip is posted. If the option is set to **No**, you receive the following message: "Do you want to consume the material?" If the option is set to **No**, you can also manually post the item requirements. Regardless of whether an item requirement is posted manually or automatically, the project cost is generated.
 
-When a **purchase order invoice** is posted, if there's any change in unit price or a discount, then the project cost is updated during the vendor invoice posting process and the project subledger details are updated accordingly.
+When a purchase order invoice is posted, if there's any change in the unit price or a discount, the project cost is updated during the vendor invoice posting process, and the project subledger details are updated accordingly.
 
 ## Example scenario
 
-The following example shows the **Purchase order** and **Project transactions** for the **Non-stocked** or **Service** items. The purchase order is created with **Net amount** USD 2,000.00. There's a change in vendor invoice **unit price** USD 2,500.00.
+The following example shows a purchase order and project transactions for **Non-stocked** or **Service** items. The purchase order that's created has a net amount of USD 2,000.00. There's a change in the unit price of the vendor invoice to USD 2,500.00.
 
-![Screenshot of purchase order](media/NSTKWithIRPurchaseorder.png)
+![Purchase order and project transactions.](media/NSTKWithIRPurchaseorder.png)
 
-The following screen shows the project posted transactions generated when **Purchase Order Product receipt** is posted.
+The following illustration shows the project posted transactions that are generated when the purchase order product receipt is posted.
 
-![Screenshot of project posted transactions after product receipt](media/NSTKWithIRPurchaseProductReceipt.png)
+![Project posted transactions after product receipt.](media/NSTKWithIRPurchaseProductReceipt.png)
 
-The following screen shows the project posted transactions when purchase order vendor invoice is posted. There's a change in **Unit price** and system has posted an adjustment to the existing project posted transaction.
+The following illustration shows the project posted transactions when the purchase order vendor invoice is posted. Because there's a change in the unit price, the system has posted an adjustment to the existing project posted transactions.
 
-![Screenshot of project posted transactions after vendor invoice](media/NSTKWithIRProjectPostedTransafterVendorInvoice.png)
+![Screenshot of project posted transactions after vendor invoice.](media/NSTKWithIRProjectPostedTransafterVendorInvoice.png)
