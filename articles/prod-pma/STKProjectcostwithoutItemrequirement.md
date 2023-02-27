@@ -26,9 +26,9 @@ Finance generates two inventory transactions for each purchase order for stocked
 - Purchase order
 - Transaction for project consumption
 
-Both transactions are linked with each other (**Inventory marking on the inventory transactions**). Therefore, the system can consider the inventory cost as the project cost. Because of the markings and linkage between the inventory transactions, the system considers the project purchase order price together with the charges for the project cost.
+Both transactions are linked to each other (**Inventory marking on the inventory transactions**). Therefore, the system can consider the inventory cost as the project cost. Because of the markings and linkage between the inventory transactions, the system considers the project purchase order price together with the charges for the project cost.
 
-Inventory recalculation doesn't have an impact on the project posted transactions, because those transactions are generated during vendor invoice posting, and the project consumption line is linked with the purchase order inventory cost. This rule is applicable to all items that have different inventory costing methods, including **FIFO**, **LIFO**, **Weighted average**, and **Standard costing**.
+Inventory recalculation doesn't have an impact on the project posted transactions, because those transactions are generated during vendor invoice posting, and the project consumption line is linked to the purchase order inventory cost. This rule is applicable to all items that have different inventory costing methods, including **FIFO**, **LIFO**, **Weighted average**, and **Standard costing**.
 
 ## Example scenario
 
