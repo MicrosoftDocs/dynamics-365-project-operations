@@ -25,7 +25,7 @@ The following examples show the project cost transactions that are posted with i
 
 The following example shows the project cost transactions that are posted for the item requirements for an item that uses the **FIFO** inventory costing method.
 
-| Transaction type | Item id | Qty | Unit price | Total Amount | Item cost price | After Recalculation |
+| Transaction type | Item ID | Qty | Unit price | Total amount | Item cost price | After recalculation |
 |---|---|---|---|---|---|---|
 | Purchase order without Project | F001 | 100.00 | 200.00 | 20,000.00 | | |
 | Purchase order without Project | F001 | 100.00 | 200.00 | 20,000.00 | | |
@@ -44,7 +44,7 @@ The following illustration shows the project posted transactions that are genera
 
 The following example shows the project cost transactions that are posted for the item requirements for an item that uses the **Weighted average** inventory costing method.
 
-| Transaction type | Item id | Qty | Unit price | Total Amount | Item cost price | After Recalculation |
+| Transaction type | Item ID | Qty | Unit price | Total amount | Item cost price | After recalculation |
 |---|---|---|---|---|---|---|
 | Purchase order without Project | W001 | 100.00 | 100.00 | 10,000.00 | | |
 | Purchase order without Project | W001 | 100.00 | 300.00 | 30,000.00 | | |
