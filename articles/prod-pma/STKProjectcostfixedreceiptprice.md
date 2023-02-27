@@ -1,5 +1,5 @@
 ---
-title: Purchase orders for stocked items with fixed price.
+title: Purchase orders for stocked items with fixed price
 description: This article provides information about project purchase orders for stocked items with fixed price.
 author: mukumarm
 ms.author: mukumarm
@@ -8,29 +8,30 @@ ms.topic: article
 ms.date: 2/21/2023
 ms.custom:
 ---
-# Purchase orders for stocked items - Fixed receipt price 
 
-To use **Fixed receipt price** parameter in the **Inventory model group**, enable the **Item requirements** parameter using these steps.
+# Purchase orders for stocked items with fixed price
 
-1. From **Inventory management**, select **Setup**, **Inventory**, and **Item model group**.
-1. Set **Item model group** to **Yes**.
+To use the **Fixed receipt price** option for an inventory model group, you must set the **Item requirements** option to **Yes** for that group.
 
-This feature works like a standard cost where all the receipts and consumption happen on the cost price defined for the item.
+1. Go to **Inventory management** \> **Setup** \> **Inventory** \> **Item model group**.
+1. Set the **Item model group** option to **Yes**.
 
-When there's a purchase with a unit price that is more or less than the cost price defined for the item, the system posts the variance into the purchase fixed receipt price profit or loss account and the fixed receipt price offset account. Because of this variance, the system always maintains the item cost price like the standard cost price for the product.
+This feature works like a standard cost where all the receipts and consumption are done on the cost price that's defined for the item.
 
-For project item consumption, either through **Item requirements** or **Purchase orders** with **Item requirements**, the project cost is always updated with the item cost price.
+If there's a purchase where the unit price is more or less than the cost price that's defined for the item, the system posts the variance to the purchase fixed receipt price profit or loss account and the fixed receipt price offset account. Because of this variance, the system always maintains the item cost price like the standard cost price for the product.
 
-When there's a change in the fixed cost price, need to run the **Inventory closing**, adjust the on-hand inventory, and then activate the new cost.
+For project item consumption, the project cost is always updated with the item cost price, regardless of whether the consumption is done through item requirements or purchase orders that have item requirements.
+
+If there's a change in the fixed cost price, you must run the **Inventory closing** process, adjust the on-hand inventory, and then activate the new cost.
 
 ## Example scenario
 
-The following example shows the project cost for the items with **Fixed price** set to **Yes** on the **Item model group**.
+The following example shows the project cost for items where the **Fixed price** option is set to **Yes** for the item model group.
 
-The following screen shows the purchase order and vendor invoice posted for the purchase order.
+The following illustration shows the purchase order and vendor invoice that are posted for the purchase order.
 
-![Screenshot of purchase order](media/STKFixedreceiptpricePO.png)
+![Purchase order and vendor invoice.](media/STKFixedreceiptpricePO.png)
 
-The following screen shows the Project posted transaction with project cost posted as USD 100.00.
+The following illustration shows the project posted transaction where the project cost is posted as USD 100.00.
 
-![Screenshot of project posted transactions](media/STKFixedreceiptpricePostedTransactions.png)
+![Project posted transactions.](media/STKFixedreceiptpricePostedTransactions.png)
