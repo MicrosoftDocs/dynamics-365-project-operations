@@ -1,11 +1,11 @@
 ---
 title: Create resource assignments
 description: This article provides information about creating generic and named resource assignments.
-author: ruhercul
+author: gionoder
 ms.date: 02/24/2023
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
+ms.author: gionoder
 ---
 
 # Create resource assignments
