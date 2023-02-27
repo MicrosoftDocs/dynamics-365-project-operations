@@ -1,5 +1,5 @@
 ---
-title: Purchase orders for stocked items with item requirements.
+title: Purchase orders for stocked items with item requirements
 description: This article provides information about project purchase orders for stocked items with item requirements.
 author: mukumarm
 ms.author: mukumarm
@@ -11,34 +11,32 @@ ms.custom:
 
 # Purchase orders for stocked items with item requirements
 
-To use purchase orders with item requirements, set the **Item requirements** parameter to **Yes** using these steps.
+To use purchase orders with item requirements, you must set the **Create Item requirements** option to **Yes** in Project management & accounting parameters.
 
-1. From **Project management and accounting**, select **Setup**, **Project management & accounting parameters**, and then the **General** tab.
-1. Locate **Create Item requirements**, and set to **Yes**.
-1. Locate **Item consumption**, and set to **Yes**
+1. Go to **Project management and accounting** \> **Setup** \> **Project management & accounting parameters**.
+1. On the **General** tab, set the **Create Item requirements** option to **Yes**.
+1. Set the **Item consumption** option to **Yes**.
 
-When a purchase order is created using the **Item requirements** feature, **Microsoft Dynamics 365 Finance** generates the project item requirements. Each purchase order line has a direct relationship with project item requirements, and both lines are linked to each other. Any changes to the purchase order have a direct impact and update on the project item requirements.
+When a purchase order is created by using the **Item requirements** feature, Microsoft Dynamics 365 Finance generates the project item requirements. Each purchase order line has a direct relationship with project item requirements, and both lines are linked to each other. Any changes to the purchase order have a direct impact on the project item requirements and cause them to be updated.
 
-For the item requirements, the system displays the unit price for purchase orders as an item cost price after deducting the discount applicable for purchase order lines. Item requirement **cost price** doesn't include the **Miscellaneous charges** applied on the purchase order line.
+For the item requirements, the system shows the unit price for purchase orders as an item cost price after the discount that applies to purchase order lines has been deducted. The item requirement cost price doesn't include the miscellaneous charges that are applied on the purchase order line.
 
-Item requirements are automatically posted when a purchase order packing slip is posted and the **Item consumption** parameter is set to **Yes.**. Otherwise, the system shows the message **Do you want to consume the material** if item consumption is marked to **No**. You can post the item requirements manually as well.
+If the **Item consumption** option is set to **Yes** in Project management & accounting parameters, item requirements are automatically posted when a purchase order packing slip is posted. If the option is set to **No**, you receive the following message: "Do you want to consume the material?" If the option is set to **No**, you can also manually post the item requirements.
 
-The system posts/generates the project cost on the **Purchase order unit price** or **Weighted average**. If **Include physical price** is enabled on the item model group for the item, the system posts the project cost with purchase order unit price at purchase order **Packing slip**. Otherwise, the system generates the project transactions with weighted average inventory cost method.
+The system posts and generates the project cost on either the purchase order unit price or the weighted average. If the **Include physical price** option is set to **Yes** for the item model group of the item, the system posts the project cost together with purchase order unit price to the purchase order packing slip. Otherwise, the system generates the project transactions by using the **Weighted average** inventory costing method.
 
-Once the purchase order invoice is posted, and if there are any changes like additional discount or Miscellaneous changes (Debit, inventory) applied on the purchase order lines, then inventory recalculation process is required to update the project cost. **Inventory recalculation** process is also required if **Include physical price** is set to **No** for the item model group.
-
-This rule is applicable to all items with different inventory costing methods including **FIFO, LIFO, Weighted average, and standard costing**.
+After the purchase order invoice is posted, if any changes such as additional discounts or miscellaneous changes (Debit, inventory) are applied on the purchase order lines, the inventory recalculation process is required to update the project cost. The inventory recalculation process is also required if the **Include physical price** option is set to **No** for the item model group. This rule is applicable to all items that have different inventory costing methods, including **FIFO**, **LIFO**, **Weighted average**, and **Standard costing**.
 
 ## Example scenario
 
-The following screen shows the purchase order with items using **FIFO, Weighted average** costing method, and **Miscellaneous charges** applied on the purchase orders. The system has generated the **Item requirements** for each purchase order line.
+The following illustration shows a purchase order where some items use the **FIFO** costing method and others use the **Weighted average** costing method. Miscellaneous charges are applied on the purchase order. The system has generated the item requirements for each purchase order line.
 
-![Screenshot of purchase order](media/STKWithIRPurcahseorder.png)
+![Purchase order example.](media/STKWithIRPurcahseorder.png)
 
-The following screen shows the **Project posted transactions** afterpurchase order **product receipt.** Project cost is generated using **Weighted average** inventory costing method except **item** WAvgPP. For this item **Include physical value** is set to **Yes** on the item model group.
+The following illustration shows the project posted transactions after purchase order product receipt. For all items except WAvgPP, the project cost is generated by using the **Weighted average** inventory costing method. For the item model group of item WAvgPP, the **Include physical value** option is set to **Yes**.
 
-![Screenshot of project posted transactions after product receipt](media/STKWithIRProjectPostedtransactionafterProductReceipt.png)
+![Project posted transactions after product receipt.](media/STKWithIRProjectPostedtransactionafterProductReceipt.png)
 
-The following screen shows the **Project posted transactions** after **Inventory recalculation**. **Inventory recalculation** performs the adjustment transactions for the project subledger based upon vendor invoice amount.
+The following illustration shows the project posted transactions after the **Inventory recalculation** process is run. The **Inventory recalculation** process performs the adjustment transactions for the project subledger, based on the vendor invoice amount.
 
-![Screenshot of project posted transaction after inventory recalculation process](media/STKWithIRProjectPostedtransactionafterInventoryRecalc.png)
+![Project posted transactions after the Inventory recalculation process.](media/STKWithIRProjectPostedtransactionafterInventoryRecalc.png)
