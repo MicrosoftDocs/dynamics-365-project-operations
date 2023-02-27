@@ -1,11 +1,11 @@
 ---
 title: Create resource assignments
 description: This article provides information about creating generic and named resource assignments.
-author: ruhercul
+author: gionoder
 ms.date: 02/24/2023
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
+ms.author: gionoder
 ---
 
 # Create resource assignments
@@ -67,5 +67,14 @@ A resource's contours can extend beyond the assigned task's current start and en
 ### Co-authoring
 
 Changes to the resource assignment grid are automatically reflected in any associated views, including the chart, timeline, board, and grid views. If multiple users are reviewing the project at the same time, any changes that one user makes will be reflected in the grid. Conversely, any changes that are made in the resource assignment grid will be shown to all other users who are viewing the project in the same session.
+
+## Unassigned assignment
+
+In Project Operations, an unassigned assignment is an assignment that is assigned to a NULL team member and a NULL resource. Unassigned assignments can occur in a couple of scenarios:
+
+1. If a task has been created, but it hasn't yet been assigned to any team member, an unassigned assignment is always created.
+2. If all assignees on a task are removed, an unassigned assignment is re-created for that task.
+
+The contour will express hours of unassigned effort based on the project's calendar.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
