@@ -109,6 +109,10 @@ You can use the schedule in Project Operations to create predecessor relationshi
 
 The task mode has no effect on updates that are made to the start and end dates of predecessor/dependent tasks.
 
+## Task labels
+
+You can apply labels on tasks and use this capability to quick see what they have in common, to sort or filtering. To know more, see  [Use labels to sort tasks in Microsoft Project for the web.](https://support.microsoft.com/en-us/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c)
+
 ## Understanding the impacts of duration, resource calendars, and project calendars on tasks
 A task's duration is defined as the number of working hours between the start time of the start date and end time of the finish date of the task.   Project for  the web defines duration units of measure as follows:
 
