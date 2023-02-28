@@ -30,10 +30,12 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-| Billing and Pricing | **Allow the modification of Billing Method on Quote**<br>This feature changes the default behavior of the Quote to allow the user to update the Quote Line Billing Method, so long at there are not any pending transactions.| [Allow the modification of Billing Method on Quote](/dynamics365/project-operations/pro/sales/quotes-key-concepts-sales#billing-method) |
+| Opportunity Management | **Allow the modification of Billing Method on Quote**<br>This feature changes the default behavior of the Quote to allow the user to update the Quote Line Billing Method, so long at there are not any pending transactions.| [Allow the modification of Billing Method on Quote](/dynamics365/project-operations/pro/sales/quotes-key-concepts-sales#billing-method) |
 | Project Planning and Tracking | **Resource Assignment Contour Editing Enhancements**<br>The contour editing grid has been enhanced to include the ability to group contours by week. We have also added previous and next controls to support quickly changing periods in the current view. Lastly, we also added a grand total row.| [Create resource assignments](/dynamics365/project-operations/project-management/create-assignments) |
 | Project Planning and Tracking | **Schedule API Operation Set Details Limit Increase**<br>The Operation set detail limit has been increased from 100 to 200. | [Use Project schedule APIs to perform operations with Scheduling entities](/dynamics365/project-operations/project-management/schedule-api-preview) |
-| Project Planning and Tracking | **Work Breakdown Structure Save Performance Improvements**<br> For larger or more complex work breakdown structures, we have provided significant performance gains in save execution to Dataverse.|
+| Project Planning and Tracking | **Work Breakdown Structure Save Performance Improvements**<br> For larger or more complex work breakdown structures, we have provided significant performance gains in save execution to Dataverse.||
+| Billing and Pricing | **Bulk confirm of Invoices**<br> This feature provides customers the ability to bulk-confirm project invoices.|[Bulk-confirm proforma project-based invoices](/dynamics365/project-operations/proforma-invoicing/bulk-confirm-project-invoices) |
+| Billing and Pricing | **Performance improvements in Estimates pricing**<br> This feature helps customers see improved performance during pricing of resource time estimates using a newly introduced parameter to price estimates on-demand. |[Performance improvements in Estimates pricing](/dynamics365/project-operations/project-management/resource-estimates#performance-improvements-in-estimates-pricing) |
 
 
 ## Quality updates
