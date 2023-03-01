@@ -58,7 +58,7 @@ The logic tries to match the actual expense to a budget line with most number of
 
 A budget forecast is the expected spend or revenue per budget line during the period that's defined on the budget line. The forecast equals the budgeted value when the budget is approved.
 
-If actuals are more than the forecast for a budget line, forecast will be made equal to actuals. This is due to the fact that actuals already have than the budget, the forecast will be at least equal to the actuals.
+ If actual costs are more than the forecasted cost for a budget line, the forecast cost will be made equal to the actual cost. This is due to the fact that actuals already have more than the budget, the forecast will be at least equal to the actuals.
 
 ## Variance
 
