@@ -21,7 +21,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-| Opportunity Management | **Allow the modification of Billing Method on Quote**<br>This feature changes the default behavior of the Quote to allow the user to update the Quote Line Billing Method, so long as there are not any pending transactions.| [Allow the modification of Billing Method on Quote](/dynamics365/project-operations/pro/sales/quotes-key-concepts-sales#billing-method) |
+| Opportunity Management | **Allow the modification of Billing Method on Quote**<br>This feature changes the default behavior of the Quote to allow the user to update the Quote Line Billing Method, as long as there aren't any pending transactions.| [Allow the modification of Billing Method on Quote](/dynamics365/project-operations/pro/sales/quotes-key-concepts-sales#billing-method) |
 | Project Planning and Tracking | **Resource Assignment Contour Editing Enhancements**<br>The contour editing grid has been enhanced to include the ability to group contours by week. We have also added previous and next controls to support quickly changing periods in the current view. Lastly, we also added a grand total row.| [Create resource assignments](/dynamics365/project-operations/project-management/create-assignments) |
 | Project Planning and Tracking | **Schedule API Operation Set Details Limit Increase**<br>The Operation set detail limit has been increased from 100 to 200. | [Use Project schedule APIs to perform operations with Scheduling entities](/dynamics365/project-operations/project-management/schedule-api-preview) |
 | Project Planning and Tracking | **Work Breakdown Structure Save Performance Improvements**<br> For larger or more complex work breakdown structures, we have provided significant performance gains in save execution to Dataverse.||
@@ -52,6 +52,6 @@ This article applies to the following components and versions of Microsoft Dynam
 |Project Planning and Tracking|3138011|Editing Effort Remaining in the Tracking Grid is no longer possible.|
 |Project Planning and Tracking|3144016|Resource Reconciliation Grid Shows ISV Error when trying to Extend Bookings of too small a size.|
 |Project Planning and Tracking|3183764|The Estimates/Resource Assignments tab does not appear in the integrated environment.|
-|Resource Management|2520133|Handle a null-ref exception when attempting to create a Bookable Resource of type "Pool."|
+|Resource Management|2520133|Handle a null-ref exception when attempting to create a Bookable Resource of type **Pool**.|
 |Subcontracting|2928579|Unbilled sales actuals are 0 for an expense when the sales price is set at cost or as a markup over cost.|
-|Time and Expense|3034892|When you reselect "Overtime" or "Work," the project field does not repopulate.|
+|Time and Expense|3034892|When you reselect **Overtime** or **"Work**, the project field does not repopulate.|
