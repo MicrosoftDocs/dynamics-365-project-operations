@@ -17,7 +17,7 @@ To use purchase orders with item requirements, you must set the **Create Item re
 1. On the **General** tab, set the **Create Item requirements** option to **Yes**.
 1. Set the **Item consumption** option to **Yes**.
 
-When a purchase order is created by using the **Item requirements** feature, Microsoft Dynamics 365 Finance generates the project item requirements. Each purchase order line has a direct relationship with project item requirements, and both lines are linked to each other. Any changes to the purchase order have a direct impact on the project item requirements and cause them to be updated.
+When a purchase order is created by using the **Item requirements** feature, Microsoft Dynamics 365 Finance generates the project item requirements. Each purchase order line has a direct relationship with project item requirement created for purchase order line, and both lines are linked to each other. Any changes to the purchase order have a direct impact on the project item requirements and cause them to be updated.
 
 For the item requirements, the system shows the unit price for purchase orders as an item cost price after the discount that applies to purchase order lines has been deducted. The item requirement cost price doesn't include the miscellaneous charges that are applied on the purchase order line.
 
@@ -25,7 +25,7 @@ If the **Item consumption** option is set to **Yes** in Project management & acc
 
 The system posts and generates the project cost on either the purchase order unit price or the weighted average. If the **Include physical price** option is set to **Yes** for the item model group of the item, the system posts the project cost together with purchase order unit price to the purchase order packing slip. Otherwise, the system generates the project transactions by using the **Weighted average** inventory costing method.
 
-After the purchase order invoice is posted, if any changes such as additional discounts or miscellaneous changes (Debit, inventory) are applied on the purchase order lines, the inventory recalculation process is required to update the project cost. The inventory recalculation process is also required if the **Include physical price** option is set to **No** for the item model group. This rule is applicable to all items that have different inventory costing methods, including **FIFO**, **LIFO**, **Weighted average**, and **Standard costing**.
+After the purchase order invoice is posted, if any changes such as additional discounts or miscellaneous changes (if they are charges of the **Debit, inventory** type) are applied on the purchase order lines, the inventory recalculation process is required to update the project cost. The inventory recalculation process is also required if the **Include physical price** option is set to **No** for the item model group. This rule is applicable to all items that have different inventory costing methods, including **FIFO**, **LIFO**, **Weighted average**, and **Standard costing**.
 
 ## Example scenario
 
