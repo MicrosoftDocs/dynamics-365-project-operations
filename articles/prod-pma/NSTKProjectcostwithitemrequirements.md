@@ -16,7 +16,7 @@ To use **Non-stocked** or **Service** items with item requirements, you enable t
 1. Go to **Project management & accounting parameters** \> **Setup** \> **Project management & accounting parameters**.
 1. On the **General** tab, select **Enable creation of item requirement for non-stocked items**.
 
-When a purchase order is created, Microsoft Dynamics 365 Finance generates the project item requirements. Each purchase order line has a direct relationship with project item requirements, and both lines are linked to each other. Any changes to the purchase order have a direct impact on the project item requirements and cause them to be updated.
+When a purchase order line is created, Microsoft Dynamics 365 Finance generates the project item requirement. Each purchase order line has a direct relationship with project item requirement, and purchase order line & item requirement are linked to each other. Any changes to the purchase order have a direct impact on the project item requirement and cause them to be updated.
 
 If the **Item consumption** option is set to **Yes**, item requirements are automatically posted when a purchase order packing slip is posted. If the option is set to **No**, you receive the following message: "Do you want to consume the material?" If the option is set to **No**, you can also manually post the item requirements. Regardless of whether an item requirement is posted manually or automatically, the project cost is generated.
 
