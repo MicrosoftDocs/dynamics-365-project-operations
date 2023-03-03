@@ -17,8 +17,9 @@ You can set up cost and sales prices for products in Microsoft Dynamics 365 Proj
 To set up cost and sales rates for products, complete the following steps. 
 
 1. Go to **Sales** > **Customers** > **Price Lists** and select **New** to create a new price list. 
-2. On the **Price list items**, on the subgrid menu, select **New price list item**. 
-3. On the **Quick Create** page, enter the product and unit that you are creating the new price for.
+2. In the newly created price list, select the **Project Price list** form from the view selector. 
+3. On the **Material prices**, on the subgrid menu, select **New price list item**. 
+4. On the **Quick Create** page, enter the product and unit that you are creating the new price for.
 
 For more information about how to define prices for catalog items, see [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
 
@@ -35,7 +36,8 @@ Project Operations supports the following pricing methods for sales price lists:
 
 ### Example
 
-The following table shows three products, each of which has a different pricing configuration. The currency amount is $120, and the transaction cost is $100.
+The following table shows three products, each of which has a different pricing configuration. 
+![Screenshot of Project price list form with new columns](media/Material pricing -Project Price List form.png)
 
 | Product | Project pricing | Cost price | Markup percentage | Sales price |
 |---|---|---|---|---|
