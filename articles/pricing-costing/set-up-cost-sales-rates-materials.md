@@ -49,7 +49,6 @@ Assuming a transaction cost of $100 for each product, the unbilled sales actuals
 
 To use the new cost based material pricing methods, turn on the **Enable material pricing methods** feature at **Settings** \> **Parameters** \> **Feature control**.
 
-
 For more information about how to define prices for catalog items, see [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
 
 > [!NOTE]
