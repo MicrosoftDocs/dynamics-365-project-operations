@@ -11,10 +11,10 @@ ms.custom:
 
 # Purchase orders for stocked items with fixed price
 
-To use the **Fixed receipt price** option for an inventory model group, you must set the **Item requirements** option to **Yes** for that group.
+To use the **Fixed receipt price** option for project costing, you must set the **Fixed reciept price** option to **Yes** for item model group.
 
 1. Go to **Inventory management** \> **Setup** \> **Inventory** \> **Item model group**.
-1. Set the **Item model group** option to **Yes**.
+1. Set the **Fixed receipt price** option to **Yes**.
 
 This feature works like a standard cost where all the receipts and consumption are done on the cost price that's defined for the item.
 
