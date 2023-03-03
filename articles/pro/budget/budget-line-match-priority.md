@@ -25,21 +25,28 @@ After the feature flag is enabled, the **Budget match priorities** tab should ap
 
 | Field name | Applicable transaction class | Context | Budget match priority |
 |---|---|---|---|
+| msdyn\_unitschedule | Expense | Cost | 0 |
 | msdyn\_transactioncategory | Expense | Cost | 1 |
 | msdyn\_task | Expense | Cost | 2 |
 | msdyn\_costtype | Expense | Cost | 3 |
 | msdyn\_accountvendor | Expense | Cost | 4 |
+| msdyn\_unitschedule | Material | Cost | 0 |
 | msdyn\_product | Material | Cost | 1 |
 | msdyn\_writeinproductdescription | Material | Cost | 2 |
 | msdyn\_task | Material | Cost | 3 |
 | msdyn\_costtype | Material | Cost | 4 |
 | msdyn\_accountvendor | Material | Cost | 5 |
+| msdyn\_unitschedule | Time | Cost | 0 |
 | msdyn\_resourcecategory | Time | Cost | 1 |
 | msdyn\_resourceorganizationalunitid | Time | Cost | 2 |
 | msdyn\_bookableresource | Time | Cost | 3 |
 | msdyn\_task | Time | Cost | 4 |
 | msdyn\_costtype | Time | Cost | 5 |
 | msdyn\_accountvendor | Time | Cost | 6 |
+
+> [!NOTE]
+> msydn_unitschedule with the display name Unit Group, is a match priority which cannot be updated or deleted. This match priority ensures that the unit match and conversion happens in a right way.
+
 
 ## How does budget match priority work?
 
