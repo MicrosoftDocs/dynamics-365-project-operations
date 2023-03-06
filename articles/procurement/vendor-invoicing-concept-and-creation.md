@@ -2,8 +2,9 @@
 title: Create vendor invoices
 description: This article describes the concept of vendor invoices and explains how to create them in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
-ms.date: 02/06/2023
+ms.date: 03/06/2023
 ms.topic: article
+ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
