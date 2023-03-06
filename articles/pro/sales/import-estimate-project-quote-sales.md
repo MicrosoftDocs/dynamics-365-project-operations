@@ -1,14 +1,14 @@
 ---
-title: Import estimates for a project to a project-based quote line - lite
-description: This article provides information about how to import estimates from a project to a quote line.
+title: Import estimates from a project to a project quote line 
+description: This article provides information about how to import estimates from a project to a project quote line.
 author: rumant
-ms.date: 10/09/2020
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Import estimates for a project to a project-based quote line 
+# Import estimates from a project to a project quote line 
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 

@@ -2,11 +2,11 @@
 
 title: Create a work breakdown structure 
 description: This article explains how to create a work breakdown structure (WBS) inclusive of the basic controls in the new scheduling interface.
-author:  ruhercul
-ms.date: 12/16/2021  
+author:  gionoder
+ms.date: 02/01/2023  
 ms.topic: article 
 ms.reviewer: johnmichalak
-ms.author: ruhercul
+ms.author: gionoder
 --- 
 
 # Create a work breakdown structure (WBS)
@@ -59,7 +59,7 @@ Complete the following steps to indent or promote a task.
 
 ### Move tasks up and down
 
-Tasks can me moved to any level in the work breakdown structure in one of two ways:
+Tasks can be moved to any level in the work breakdown structure in one of two ways:
 
 - Select one more tasks and drag them to the desired location.
 - Select one or more tasks, right-click and select **Cut**, select the destination cell in the schedule, and then right-click and select **Paste**.
@@ -109,6 +109,32 @@ You can use the schedule in Project Operations to create predecessor relationshi
 
 The task mode has no effect on updates that are made to the start and end dates of predecessor/dependent tasks.
 
+## Task labels
+
+You can apply labels on tasks and use this capability to quick see what they have in common, to sort or filtering. To know more, see  [Use labels to sort tasks in Microsoft Project for the web.](https://support.microsoft.com/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c)
+
+## Understanding the impacts of duration, resource calendars, and project calendars on tasks
+A task's duration is defined as the number of working hours between the start time of the start date and end time of the finish date of the task.   Project for  the web defines duration units of measure as follows:
+
+| **Measure of Duration** |	**Quantity**|
+|----------------------------------------------------|----------------------|
+| Hours per day	| 8 |
+| Hours per week |	40 |
+| Days per month |	20 |
+
+Unassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment will be governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
+> [!NOTE]
+> Project for the Web does not respect business closures that are defined in the resource or project calendars.
+
+It is important to note that a resource assignment can only be created when the end of the resource's calendar rule overlaps with the task's end date. This means if your calendar rule finishes before the end of the task, the assignment won't be scheduled as there won't be enough time in the schedule for the resource to perform the task.
+
+For example, if a resource calendar begins on Wednesday March 1st, 2023, but ends on Friday, April 14th, 2023. In the project where this resource is added, any tasks assigned to this resource cannot end later than April 14th, 2023. Otherwise, they will not be scheduled because they exceed the last day of the resource's calendar.
+
+![Screenshot example of scheduling tasks.](media/Create-wbs-figure-01.png)
+
+The screenshot above shows, in green color, which tasks can be scheduled because they end before the last day of the resource availability, and in red color, which ones aren't allowed.
+
 ## Accessibility and keyboard shortcuts
 
 The **Schedule** grid is fully accessible and can be used with screen readers such as Narrator, JAWS, or NVDA. You can move through the grid area by using arrow keys (as in Microsoft Excel), you can use the Tab key to advance through the interactive user interface elements, and you can use the Down arrow key, the Enter key, or the Spacebar to select and open the drop-down menus.
@@ -135,5 +161,13 @@ You should be aware of the following limitations if you are using the work break
 | Maximum duration of a summary task      | 3650 days (10 years)  |
 | Maximum resources assigned to a task    | 20 resources          |
 | Supported date range for a task         | 1/1/2000 - 12/31/2149 |
+
+
+## Planning a project in sprints
+
+You can also use sprints and plan your project based on agile project management. To know more, see [Plan a project in sprints in Project for the web.](https://support.microsoft.com/office/plan-a-project-in-sprints-in-project-for-the-web-7536fbef-0ece-47bf-beae-6a8ac2c69955)
+
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

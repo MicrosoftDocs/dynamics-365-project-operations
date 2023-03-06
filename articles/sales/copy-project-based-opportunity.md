@@ -1,5 +1,5 @@
 ---
-title: Copy project-based opportunities
+title: Copy project opportunities
 description: This article provides information about copying project-based opportunities in Project Operations.
 author: rumant
 ms.date: 10/09/2020
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Copy project-based opportunities
+# Copy project opportunities
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

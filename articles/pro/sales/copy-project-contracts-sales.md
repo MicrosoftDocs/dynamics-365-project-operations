@@ -1,14 +1,14 @@
 ---
-title: Copy project contracts - lite
+title: Copy project contracts
 description: This article provides information about copying project contracts in Project Operations.
 author: rumant
-ms.date: 10/07/2020
+ms.date: 09/06/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Copy project contracts - lite
+# Copy project contracts
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

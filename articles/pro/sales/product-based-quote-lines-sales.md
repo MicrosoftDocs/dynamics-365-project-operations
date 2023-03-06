@@ -1,15 +1,15 @@
 ---
-title: Product-based quote lines overview - lite
+title: Product-based quote lines overview
 description: This article provides information about working with product-based quote lines.
 author: rumant
-ms.date: 10/30/2020
+ms.date: 12/03/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---
 
-# Product-based quote lines overview - lite
+# Product-based quote lines overview
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

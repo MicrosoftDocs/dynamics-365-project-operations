@@ -2,7 +2,7 @@
 title: Sign up for Project Operations trials
 description: This article provides information about how to deploy a trial of Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 01/10/2022
+ms.date: 06/06/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
@@ -107,7 +107,7 @@ You will need administrative access to your organization's Microsoft 365 Portal 
 The following resources provide helpful guidance as you begin your journey with Project Operations:
 
 - [Video Series -Project Operations Overview, feature deep dives and roadmap](https://youtube.com/playlist?list=PLcakwueIHoT_LJ3Fr1tHnkPk5lioqE6uH)
-- [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
+- [Dynamics 365 Project Operations](/training/modules/examine-dynamics-365-project-operations/)
 - [Determine your deployment type](determine-deployment-type.md)
 
 ## Frequently asked questions

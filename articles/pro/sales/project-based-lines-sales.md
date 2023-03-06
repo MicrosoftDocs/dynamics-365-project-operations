@@ -1,22 +1,22 @@
 ---
-title: Project-based opportunity lines - lite
+title: Project opportunity lines 
 description: This article provides information about project-based opportunity lines. (Pro)
 author: rumant
-ms.date: 10/01/2020
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Project-based opportunity lines - lite
+# Project opportunity lines 
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-Project-based opportunity lines are only available in project-based opportunities. Project-based opportunity records have the **Type** field value set to **Work-based**.
+Project opportunity lines are only available in project-based opportunities. Project-based opportunity records have the **Type** field value set to **Work-based**.
 
-Project-based opportunity lines are the line items that will be delivered to the customer using a project. However, a project can't be tied to a project-based opportunity line. Projects can be tied to line items from the **Quote** stage and forward because typically the opportunity is at an early stage in the lifecycle of a deal. The determination of how many projects will be used to deliver the work for the customer is a decision that is made later in the sales phase. You can use the opportunity phase to identify the discrete delivery components for the customer. The decisions surrounding the actual number of projects used to deliver these components can be pushed out until more information is known about the work itself.
+Project opportunity lines are the line items that will be delivered to the customer using a project. However, a project can't be tied to a project-based opportunity line. Projects can be tied to line items from the **Quote** stage and forward because typically the opportunity is at an early stage in the lifecycle of a deal. The determination of how many projects will be used to deliver the work for the customer is a decision that is made later in the sales phase. You can use the opportunity phase to identify the discrete delivery components for the customer. The decisions surrounding the actual number of projects used to deliver these components can be pushed out until more information is known about the work itself.
 
-Below are the fields on a project-based opportunity line:
+Below are the fields on a project opportunity line:
 
 | **Field** | **Location** | **Description** | **Downstream impact** |
 | --- | --- | --- | --- |

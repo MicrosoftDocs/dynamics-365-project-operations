@@ -4,7 +4,7 @@
 title: Dynamics 365 Project Operations 
 description: This article provides information about Dynamics 365 Project operations.
 author: stsporen
-ms.date: 09/16/2020
+ms.date: 11/02/2022
 ms.topic: article
 ms.prod: 
 #
@@ -42,7 +42,7 @@ Project Operations is powerful on its own, but can be expanded by our customers 
 For more information, see:
 
 - [Project Operations Overview](https://dynamics.microsoft.com/en-us/project-operations/overview/)
-- [Overview of Dynamics 365 Project Operations 2022 release wave 1](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-project-operations/)
+- [Overview of Dynamics 365 Project Operations 2022 release wave 2](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-project-operations/)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

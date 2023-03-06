@@ -1,5 +1,5 @@
 ---
-title: Manage project-based opportunities
+title: Manage project opportunities
 description: This article provides information about how to work with opportunities that are related to projects.
 author: rumant
 ms.date: 10/21/2020
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Manage project-based opportunities
+# Manage project opportunities
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

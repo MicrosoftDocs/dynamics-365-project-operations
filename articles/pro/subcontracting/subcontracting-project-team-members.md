@@ -2,7 +2,7 @@
 title: Subcontracting project team members
 description: This article explains how to subcontract project team members in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 9/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
@@ -10,7 +10,7 @@ ms.author: rumant
 
 # Subcontracting project team members
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 In Microsoft Dynamics 365 Project Operations, you can choose to subcontract unstaffed or staffed project team members.
 

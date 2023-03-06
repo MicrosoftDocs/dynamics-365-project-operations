@@ -35,7 +35,7 @@ Complete the following steps to soft book a resource from the Schedule board.
 6. Click **Book**. The resource now shows on the **Team** tab as a resource for the project. On the **Named Team Member** view you’ll see the soft-booked hours in the **Soft Booked Hours** column.
 
 > [!NOTE]
-> You can now assign the soft booked to tasks on the **Schedule** tab. On the **Reconciliation** tab, the resource shows a booking deficit relative to the task assignment as the **Reconciliation** tab only considers hard-bookings. You can use the **Extend Bookings** feature to hard-book the resource to eliminate the deficit of hard-bookings against the resources assignments. You’ll have to manually cancel the soft booking for the resource by using **Maintain Bookings**.
+> You can now assign the soft booked resource to tasks on the **Schedule** tab. On the **Reconciliation** tab, the resource shows a booking deficit relative to the task assignment as the **Reconciliation** tab only considers hard-bookings. You can use the **Extend Bookings** feature to hard-book the resource to eliminate the deficit of hard-bookings against the resources assignments. You’ll have to manually cancel the soft booking for the resource by using **Maintain Bookings**.
 
 ## Soft book on the Team tab
 

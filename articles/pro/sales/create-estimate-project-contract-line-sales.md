@@ -1,27 +1,27 @@
 ---
-title: Estimate a project–based contract line - lite
+title: Estimate a projec contract line
 description:  This article provides information about estimating a project–based contract line.
 author: rumant
-ms.date: 03/30/2021
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Estimate a project–based contract line - lite
+# Estimate a project contract line
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-In Dynamics 365 Project Operations, a project-based contract line has details that help estimate the cost and potential revenue of the work involved to deliver the contract line.
+In Dynamics 365 Project Operations, a project contract line has details that help estimate the cost and potential revenue of the work involved to deliver the contract line.
 
-To estimate a project-based contract line, go to the **Contract Line Detail** tab on the project-based **Contract Line**.  There are two ways to create an estimate on a project-based contract line:
+To estimate a project contract line, go to the **Contract Line Detail** tab on the project-based **Contract Line**.  There are two ways to create an estimate on a project-based contract line:
 
    - Create an estimate directly on the contract line by manually adding contract line details.
    - Create a project and a project plan, and then associate the project and tasks to the project's contract line. This enables the process by which you can import the project plan estimate into the contract line based on the components included on the contract line.
 
 ## Create an estimation directly on a project–based contract line
 
-To create an estimation directly on a project–based contract line, follow these steps:
+To create an estimation directly on a project contract line, follow these steps:
 
 1. Go to the contract line and select the **Contract Line Detail** tab. The lines you create on this tab are summarized and display as the **Contracted Value** for this **Contract Line**. 
 2. In the **Contract Line Details** subgrid, select **New Contract Line Detail**. A quick-create slider opens. The following fields are available on the **Contract Line Details** page.

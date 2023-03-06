@@ -2,7 +2,7 @@
 title: Use Project schedule APIs with Power Automate
 description: This article provides a sample flow that uses the Project schedule application programming interfaces (APIs).
 author: ruhercul
-ms.date: 01/26/2022
+ms.date: 09/06/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
@@ -171,7 +171,7 @@ Follow these steps to create a sample project.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the new step, select the ellipsis (**...**), and then select **Rename**.
 4. Rename the step **Init ProjectTaskID**.
-5. In the **Name** field, enter **number of tasks**.
+5. In the **Name** field, enter **project task ID**.
 6. In the **Type** field, select **String**.
 7. For the **Value** field, enter **guid()** in the expression builder.
 
@@ -242,7 +242,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
     ```
     {
-        "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
+        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourceassignment",
         "msdyn_resourceassignmentid": "@{guid()}",
         "msdyn_name": "ScheduleAPIDemoAssign1",
         "msdyn_taskid@odata.bind": "/msdyn_projecttasks(@{variables('msdyn_projecttaskid')})",

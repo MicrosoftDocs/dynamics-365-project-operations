@@ -1,18 +1,18 @@
 ---
-title: Configure chargeable components of a project-based contract line 
+title: Configure chargeable components of a project contract line 
 description: This article provides information about how to add chargeable components to contract lines in Project Operations.
 author: rumant
-ms.date: 10/08/2020
+ms.date: 12/03/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Configure chargeable components of a project-based contract line
+# Configure chargeable components of a project contract line
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
-A project-based contract line has *included* components and *chargeable* components.
+A project contract line has *included* components and *chargeable* components.
 
 Included components are components that are subject to:
 

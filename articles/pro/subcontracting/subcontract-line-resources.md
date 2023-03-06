@@ -2,7 +2,7 @@
 title: Subcontract line resources
 description: This article explains how to specify the dedicated resources that are provided by the vendor for a specific subcontract line for time.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
@@ -10,7 +10,7 @@ ms.author: rumant
 
 # Subcontract line resources
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 In Dynamics 365 Project Operations, a vendor can specify resources that will be used to supply the resource capacity being purchased on the subcontract line for time.
 

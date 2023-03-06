@@ -2,7 +2,7 @@
 title: Project Operations dual-write map versions
 description: This article provides the list of dual-write maps required for Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 07/01/2021
+ms.date: 07/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
@@ -43,14 +43,14 @@ The following maps are required for a Project Operations solution. Dual-write ma
 | Project funding source (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Not required for provisioning. ||
 | Project integration table for material estimates (msdyn\_estimatelines) | 1.0.0.0 | Not required for provisioning. ||
 | Project invoice proposals V2 (invoices) | 1.0.0.3 | Not required for provisioning. ||
-| Project Operations integration actuals (msdyn_actuals) | 1.0.0.14 | Not required for provisioning. ||
+| Project Operations integration actuals (msdyn_actuals) | 1.0.0.15 | Not required for provisioning. |10.0.29 or later|
 | Project Operations integration contract line milestones (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Not required for provisioning. ||
 | Project Operations integration entity for expense estimates (msdyn_estimatelines) | 1.0.0.2 | Not required for provisioning. ||
 | Project Operations integration entity for hour estimates (msdyn_resourceassignments) | 1.0.0.5 | Not required for provisioning. ||
 | Project Operations integration project expense categories export entity (msdyn_expensecategories) | 1.0.0.1 | Not required for provisioning. ||
 | Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.3 | Not required for provisioning. ||
-| Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices) | 1.0.0.1 | Not required for provisioning. |10.0.26 or later|
-| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.4 | Not required for provisioning. | 10.0.26 or later |
+| Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices) | 1.0.0.2 | Not required for provisioning. |10.0.29 or later|
+| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Not required for provisioning. | 10.0.29 or later |
 | Project resource roles for all companies (bookableresourcecategories) | 1.0.0.1 | Requires an initial sync for the table map to synchronize the Project Manager and Team member resource roles that are populated in the Dynamics 365 Dataverse environment during provisioning. Dataverse is the main source for the initial synchronization. ||
 | Project tasks (msdyn_projecttasks) | 1.0.0.4 | Not required for provisioning. ||
 | Project transaction categories (msdyn_transactioncategories) | 1.0.0.0 | Not required for provisioning. ||

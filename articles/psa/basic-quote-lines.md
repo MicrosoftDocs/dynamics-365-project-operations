@@ -93,7 +93,7 @@ For example, a quote might contain the following two quote lines:
 
 The **Billing Type** field defines the concept of chargeability in PSA. It's an option set that has the following possible values:
 
-- **Chargeable** – The cost that is accrued by this role/category is a direct cost that drives project execution, and the customer will pay for this work. The payment can be administered as a time-and-material or fixed-price arrangement. However, the employee who spends this time will receive the corresponding credit for his or her billable utilization.
+- **Chargeable** – The cost that is accrued by this role/category is a direct cost that drives project execution, and the customer will pay for this work. The payment can be administered as a time-and-material or fixed-price arrangement. However, the employee who spends this time will receive the corresponding credit for their billable utilization.
 - **Non-chargeable** – The cost that is accrued by this role/category is considered a direct cost that drives project execution, even though the customer doesn't recognize this fact and won't pay for this work. The employee who spends this time won't be credited with billable utilization for it.
 - **Complimentary** – The cost that is accrued by this role/category is considered a direct cost that drives project execution, and the customer recognizes this fact. The employee who spends this time will be credited for billable utilization for it. However, this cost isn't charged to the customer.
 - **Not available** – The costs that are incurred on internal projects that don't require revenue tracking are tracked by using this option.

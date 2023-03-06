@@ -1,15 +1,15 @@
 ---
-title: Project-based contract lines overview
-description:  This article provides information about working with project–based contract lines.
+title: Project contract lines overview
+description:  This article provides information about working with project contract lines in Project Operations.
 author: rumant
-ms.date: 10/28/2020
+ms.date: 12/03/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---
 
-# Project-based contract lines overview
+# Project contract lines overview
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

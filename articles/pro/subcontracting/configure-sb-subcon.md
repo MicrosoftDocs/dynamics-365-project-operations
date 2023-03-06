@@ -2,7 +2,7 @@
 title: Configure Schedule Board to show contract workers and subcontracted capacity 
 description: This article describes how to configure Schedule Board in Microsoft Dynamics 365 Project Operations to show subcontracted resource capacity when staffing project resource requirements.
 author: rumant
-ms.date: 08/02/2021
+ms.date: 08/19/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant

@@ -3,7 +3,7 @@ title: Feature changes from Project Service Automation to Project Operations
 description: This article provides an overview of the feature changes from Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 02/03/2022
+ms.date: 12/21/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -22,7 +22,7 @@ ms.reviewer: johnmichalak
 
 The upgrade from Dynamics 365 Project Service Automation to Dynamics 365 Project Operations Lite will be delivered in three phases. This article provides information about the major changes that you can expect to see when the upgrade is complete.
 
-| Upgrade delivery | Phase 1 <br>(January 2022) | Phase 2 <br>(April Wave 2022) | Phase 3  |
+| Upgrade delivery | Phase 1 <br>(January 2022) | Phase 2 <br>(November 2022) | Phase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | No dependency on the work breakdown structure (WBS) for projects. | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | The WBS is included in the currently supported limits of Project Operations. | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
@@ -100,7 +100,6 @@ Project Operations relies on Project for the Web for all project scheduling oper
 | Maximum total duration for a project               | 3650 days (10 years)  |
 | Maximum total resources for a project              | 300                   |
 | Maximum total links (successor only) for a project | 600                   |
-| Maximum total custom fields for a project          | 10                    |
 | Maximum hierarchy level                            | 10 levels             |
 | Maximum links (successor + predecessor)            | 20                    |
 | Maximum duration of leaf task                      | 1250 days             |
@@ -143,6 +142,16 @@ The following fields have been replaced with new fields.
 | msdyn_projectteam | msdyn_assignedhours  | msdyn_effort          |
 | msdyn_projectteam | msdyn_from           | msdyn_start           |
 | msdyn_projectteam | msdyn_to             | msdyn_finish          |
+|msdyn\_projecttask|msdyn\_ActualEffort|msdyn\_effortcompleted|
+|msdyn\_projecttask|msdyn\_RemainingHours|msdyn\_effortremaining|
+|msdyn\_projecttask|msdyn\_scheduledend|msdyn\_finish|
+|msdyn\_projecttask|msdyn\_scheduledstart|msdyn\_start|
+|msdyn\_projecttask|msdyn\_scheduleddurationminutes| msdyn\_duration|
+|msdyn\_projecttask|msdyn\_wbsid|msdyn\_OutlineLevel|
+|msdyn\_projecttask|msdyn\_wbsid|msdyn\_DisplaySequence|
+|msdyn\_resourceassignment|msdyn\_hours|msdyn\_effort|
+|msdyn\_resourceassignment|msdyn\_todate|msdyn\_finish|
+|msdyn\_resourceassignment|msdyn\_fromdate|msdyn\_start|
 
 The following fields have been added.
 
@@ -173,6 +182,31 @@ The following fields have been added.
 | msdyn_projectteam | msdyn_markedfordeletiontimer                 | The waiting period from when the team member sends a delete request to the Project scheduling service until the team member is actually deleted on Microsoft Dataverse.|
 | msdyn_projectteam | msdyn_markedfordeletiontimestamp             | The timestamp to record when the team member delete request is sent to the Project scheduling service. |
 | msdyn_projectteam | msdyn_copiedfromprojectteammember            | Shows the project team member that this project team member was copied from.  |
+|msdyn\_projecttask|msdyn\_actualexpensecost|Shows the aggregate of actual expense cost on the task. System Field. |
+|msdyn\_projecttask|msdyn\_actualexpensesales|Shows the aggregate of actual expense sales on the task. |
+|msdyn\_projecttask|msdyn\_actualfeesales|Shows the aggregate of actual fee sales on the task. |
+|msdyn\_projecttask|msdyn\_actualmaterialcost|Shows the aggregate of actual material cost on the task. |
+|msdyn\_projecttask|msdyn\_actualmaterialsales|Shows the aggregate of actual material sales on the task. |
+|msdyn\_projecttask|msdyn\_descriptionplaintext|Project task notes in plain text. |
+|msdyn\_projecttask|msdyn\_displaysequence|Value that can be used to sort the task by its ID.|
+|msdyn\_projecttask|msdyn\_iscritical|Indicates whether this task is in the critical path. |
+|msdyn\_projecttask|msdyn\_ismanual|Indicates whether a task is manually scheduled or automatically scheduled. |
+|msdyn\_projecttask|msdyn\_LinkStatus|Task Billing Setup link. |
+|msdyn\_projecttask|msdyn\_outlinelevel|Indicates the place of a task in the project outline hierarchy.|
+|msdyn\_projecttask|msdyn\_plannedexpensecost|Shows the aggregate of the estimated expense cost on the task. |
+|msdyn\_projecttask|msdyn\_plannedexpensesales|Shows the aggregate of planned expense sales on the task. |
+|msdyn\_projecttask|msdyn\_plannedmaterialcost|Shows the aggregate of estimated material cost on the task. |
+|msdyn\_projecttask|msdyn\_plannedmaterialsales|Shows the aggregate of planned material sales on the task. |
+|msdyn\_projecttask|msdyn\_projectbucket|The task board can be grouped by bucket so each bucket has its own column. |
+|msdyn\_projecttask|msdyn\_summary|Summary Task.|
+|msdyn\_projecttask|msdyn\_totalactualcost|Shows the aggregated cost from all project actuals for the task. |
+|msdyn\_projecttask|msdyn\_totalactualsales|Shows aggregated sales values from all project actuals for the task. |
+|msdyn\_projecttask|msdyn\_totalplannedcost|Shows the aggregate of estimated cost values on the task. |
+|msdyn\_projecttask|msdyn\_totalplannedsales|Shows aggregate of estimated sales values on the task. |
+|msydn\_resourceassignment|msdyn\_billingtype|Billing Type for the Resource Assignment. |
+|msydn\_resourceassignment|msdyn\_effortcompleted|Effort Completed (Hours). |
+|msydn\_resourceassignment|msdyn\_effortremaining|Effort Remaining (Hours). |
+|msydn\_resourceassignment|msdyn\_salescontractlineid|Unique identifier for Project Contract Line associated with the Resource Assignment. |
 
 ## Project templates
 

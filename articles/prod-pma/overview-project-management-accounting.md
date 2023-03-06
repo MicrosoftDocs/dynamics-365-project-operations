@@ -125,7 +125,7 @@ Here are some of the ways that you can use the resource scheduling functionality
 
 -   Use information about a worker’s attributes, such as education, skills, certifications, and project experience, to match the worker to the requirements of a project.
 -   Use information about a worker’s calendar and availability to match the worker’s schedule to the project calendar.
--   Review the capacity of each worker, and determine how that capacity is being used. For example, if a worker is being underused, the worker can be assigned to a project that fits his or her availability and attributes.
+-   Review the capacity of each worker, and determine how that capacity is being used. For example, if a worker is being underused, the worker can be assigned to a project that fits their availability and attributes.
 -   Review a worker's availability to make sure that there are no calendar conflicts with the worker's assignments.
 -   Review information about worker utilization in either a summary view (for example, by department or by worker) or a detailed view (for example, by workers in a department or by weekly detail for each worker).
 -   Modify resource assignments for various units of time, such as day, week, or month, to optimize how the workers are used.

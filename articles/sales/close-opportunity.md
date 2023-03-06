@@ -1,5 +1,5 @@
 ---
-title: Close an opportunity
+title: Close a project opportunity 
 description: This article provides information about closing a project opportunity.
 author: rumant
 ms.date: 10/01/2020
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Close an opportunity
+# Close a project opportunity 
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

@@ -62,10 +62,20 @@
       href: environment/uninstall-project-operations.md
   - name: What's new 
     items:
-    - name: August 2022 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-aug-2022-resource-based.md
+    - name: February 2023 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-feb-2023-resource-based.md
     - name: Archive
       items:
+       - name: January 2023 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-jan-2023-resource-based.md
+       - name: November 2022 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-nov-2022-resource-based.md
+       - name: October 2022 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-oct-2022-resource-based.md
+       - name: September 2022 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-sept-2022-resource-based.md
+       - name: August 2022 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-aug-2022-resource-based.md
        - name: July 2022 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-july-2022-resource-based.md
        - name: June 2022 - Project Operations for resource/non-stocked based scenarios
@@ -120,9 +130,9 @@
         href: sales/sales-currency.md
       - name: Organizational units
         href: sales/OrgUnits.md
-    - name: Manage project leads
+    - name: Manage project-based leads
       href: sales/manage-leads.md
-    - name: Manage project opportunities
+    - name: Manage project-based opportunities
       items:
       - name: Manage project opportunities overview
         href: sales/manage-project-based-opportunities.md
@@ -130,13 +140,13 @@
         href: sales/opportunity-header.md
       - name: Project-based opportunity lines
         href: sales/project-based-lines.md
-      - name: Create project quotes from opportunities
+      - name: Create quotes from project opportunities
         href: sales/link-quotes-opportunities.md
-      - name: Copy project-based opportunities
+      - name: Copy project opportunities
         href: sales/copy-project-based-opportunity.md
       - name: Close a project opportunity
         href: sales/close-opportunity.md
-    - name: Manage project quotes
+    - name: Manage project-based quotes
       items:
       - name: Manage project quotes overview
         href: pro/sales/manage-quotes-sales.md
@@ -144,69 +154,71 @@
         href: sales/quotes-key-concepts.md
       - name: Header details for project-based quotes
         href: sales/quote-values-budget-limits-contract.md
-      - name: Manage multiple customers on a project quote
+      - name: Manage multiple customers on a project-based quote
         href: sales/manage-multiple-customers-quote.md
-      - name: Manage project price lists on a quote
+      - name: Project price lists on project quotes
         href: pro/sales/manage-project-price-lists-sales.md
       - name: Project-based quote lines
         items:
-        - name: Project-based quote lines overview
+        - name: Project quote lines overview
           href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
         - name: Manage multiple customers on project-based quote lines
           href: sales/manage-multiple-customers-quote-line.md
-        - name: Map projects and tasks to project-based quote lines
+        - name: Map projects and tasks to project quote lines
           href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-        - name: Configure chargeable components for project-based quote lines
+        - name: Configure chargeable components on project quote lines
           href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Configure the chargeable components of a project quote line
-          href: sales/configure-chargeable-quoteline.md
         - name: Estimate a project quote line
-          href: sales/create-estimate-quote-line.md          
-        - name: Import estimates from a project to a project-based quote line
-          href: sales/import-estimate-quote-line.md
-        - name: Invoice schedules on project-based quote lines
+          href: pro/sales/create-estimate-quote-line-sales.md        
+        - name: Import estimates from a project to a project quote line
+          href: pro/sales/import-estimate-project-quote-sales.md
+        - name: Invoice schedules on project quote lines
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project quotes
         href: sales/lose-quote.md
-      - name: Close project quotes
+      - name: Activate and revise a project quote
+        href: sales/activation-and-revision.md
+      - name: Close project-based quotes
         href: sales/win-quote.md
-    - name: Manage project contracts
+    - name: Manage project-based contracts
       items:
-      - name: Manage project contracts overview
+      - name: Manage project contracts
         href: pro/sales/manage-contracts-sales.md
-      - name: Concepts unique to project-based contracts
+      - name: Concepts unique to Project-based Contracts
         href: sales/contracts-key-concepts.md
       - name: Header details for project-based contracts
         href: sales/project-contract-settings.md
-      - name: Manage project price lists on project contracts
+      - name: Manage project price lists on project-based contracts
         href: sales/contracts-manage-project-price-lists.md
-      - name: Manage multiple customers on project contracts
+      - name: Manage multiple customers on project-based contracts
         href: sales/manage-multiple-customers-contract.md
       - name: Project-based contract lines
         items: 
-        - name: Project-based contract lines overview
+        - name: Project contract lines overview
           href: pro/sales/manage-contract-values-project-based-sales.md
         - name: Manage multiple customers on project-based contract lines
           href: sales/manage-multiple-customers-contract-line.md
-        - name: Map projects and tasks on a project contract line 
+        - name: Map projects and tasks to a project contract line
           href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-        - name: Configure chargeable components for a project contract line 
+        - name: Configure chargeable components of a project contract line 
           href: pro/sales/configure-chargeable-components-contract-line.md
-        - name: Estimate a project contract line
+        - name: Estimate a project-based contract line
           href: sales/create-estimate-contract-line.md
-        - name: Import estimates from a project to a project-based contract line
-          href: sales/import-estimate-project-contract-line.md
-        - name: Create invoice schedules on project-based contract lines
+        - name: Import estimates from a project to a project contract line
+          href: pro/sales/import-estimate-project-contract-line-sales.md
+        - name: Create invoice schedules on a project-based contract line
           href: sales/invoice-schedules-contract-line.md
+      - name: Copy project-based contracts
+        href: sales/copy-project-based-contracts-sales.md
       - name: Confirm a project contract
         href: pro/sales/confirm-contract-sales.md
       - name: Advances and retainers
         items: 
-        - name: Advances and retainer-based contracts
+        - name: Advances and retainer-based project contracts
           href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
         - name: Set up a retainer schedule
           href: pro/sales/set-up-schedule-retainers-sales.md
-        - name: Create an ad hoc advance on a contract
+        - name: Create an ad hoc advance on a project contract
           href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
@@ -221,16 +233,18 @@
       - name: Set up cost and sales rates for expenses
         href: pricing-costing/set-up-cost-sales-rates-expenses.md
       - name: Set up cost and sales rates for materials 
-        href: pricing-costing/set-up-cost-sales-rates-materials.md
+        href: pricing-costing/set-up-cost-sales-rates-materials.md 
     - name: Defaults and overrides
       items:
       - name: Default price lists
         href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Resolve cost prices for estimates and actuals
+      - name: Set up Date-effective overrides for specific prices in a price list
+        href: pricing-costing/dateffective_price_overrides.md
+      - name: Determine cost prices for estimates and actuals
         href: pricing-costing/cost-price-resolution.md
-      - name: Resolve sales prices for estimates and actuals
+      - name: Determine sales prices for estimates and actuals
         href: pricing-costing/sales-price-resolution.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
@@ -278,6 +292,8 @@
       href: project-management/define-project-calendars.md
     - name: Scheduling modes
       href: project-management/scheduling-modes.md
+    - name: External scheduling
+      href: project-management/external-scheduling.md
     - name: Update a project
       href: project-management/update-project.md
     - name: Copy a project
@@ -386,6 +402,42 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
+  - name: Subcontract Management
+    items: 
+    - name: Subcontract management in Project Operations
+      href: pro/subcontracting/managing-subcontracts-overview.md
+    - name: Key concepts in subcontracting
+      href: pro/subcontracting/key-concepts-subcontracting.md
+    - name: Managing vendors and project price lists 
+      href: pro/subcontracting/vendors-purchase-price-lists.md
+    - name: Subcontractors as bookable resources 
+      href: pro/subcontracting/subcontractors-as-bookable-resources.md
+    - name: Header Details for Subcontracts  
+      href: pro/subcontracting/subcontract-header-details.md
+    - name: Subcontract lines for time
+      href: pro/subcontracting/subcontract-line-time.md
+    - name: Subcontract lines for expense categories
+      href: pro/subcontracting/subcontract-line-expense.md
+    - name: Subcontract lines for products 
+      href: pro/subcontracting/subcontract-line-products.md
+    - name: Subcontractor line resources
+      href: pro/subcontracting/subcontract-line-resources.md
+    - name: Subcontract line milestones
+      href: pro/subcontracting/subcontract-line-milestones.md
+    - name: Subcontracting project team members
+      href: pro/subcontracting/subcontracting-project-team-members.md
+    - name: Subcontracting options for project team members
+      href: pro/subcontracting/subcon-options.md      
+    - name: Cost estimation of subcontracted resource assignments
+      href: pro/subcontracting/costing-subcon-ra.md
+    - name: Configure Schedule Board to show contract workers and subcontracted capacity
+      href: pro/subcontracting/configure-sb-subcon.md      
+    - name: Staffing a project with contract workers and subcontracted capacity
+      href: pro/subcontracting/staffing-cw.md
+    - name: Recording time, expenses, and material usage for subcontracted components
+      href: pro/subcontracting/recording-subcon-actuals.md
+    - name: State transitions on a subcontract 
+      href: pro/subcontracting/subcon-states.md
   - name: Time
     items: 
     - name: Time overview
@@ -465,7 +517,9 @@
     - name: Cancel approval on previously approved entries
       href: approvals/cancelapproval.md
     - name: Recall previously approved entries 
-      href: approvals/recall-cancel.md   
+      href: approvals/recall-cancel.md 
+    - name: Security and approvals
+      href: approvals/approvals-security.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
@@ -504,12 +558,22 @@
       href: procurement/pending-vendor-invoices.md
     - name: Order goods and services for projects using project purchase orders
       href: procurement/non-stocked-materials-project-purchase-orders.md
+    - name: Vendor invoices for subcontracts in Dataverse 
+      items:
+      - name: Create vendor invoices
+        href: procurement/Vendor-invoicing-concept-and-creation.md
+      - name: Verification of vendor invoices with approved actuals
+        href: pro/subcontracting/VI-Verification.md
+      - name: Confirm project vendor invoices
+        href: procurement/Confirm-a-project-vendor-invoice.md
     - name: Vendor retention
       items:
       - name: Vendor retention overview
         href: procurement/vendor-retention-overview.md
       - name: Set up vendor retention
         href: procurement/set-up-vendor-retention.md
+      - name: Pay when paid
+        href: procurement/Pay-when-paid.md  
   - name: Invoicing
     items:
     - name: Invoicing process overview
@@ -528,6 +592,8 @@
         href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
       - name: Confirm a proforma project-based invoice
         href: proforma-invoicing/confirm-proforma-invoice.md
+      - name: Bulk-confirm proforma project-based invoices 
+        href: proforma-invoicing/bulk-confirm-project-invoices.md
       - name: Create corrective project-based invoices 
         href: pro/proforma-invoicing/corrective-invoices-sales.md
       - name: Configure project-based invoice automation
@@ -583,7 +649,9 @@
     - name: Migrate fully invoiced billing milestones during cutover
       href: advanced-configuration/migrating-invoiced-milestones.md
     - name: Sync Project Status to prevent entry against closed projects
-      href: advanced-configuration/sync-project-status.md      
+      href: advanced-configuration/sync-project-status.md   
+    - name: Currency conversion setup for calculating sales prices from cost rates
+      href: advanced-configuration/currencyconversion.md 
   - name: Upgrade
     items:
     - name: Upgrade considerations for Modern approvals
@@ -606,7 +674,7 @@
       href: pro/project-operations-overview-lite.md
     - name: Sign up for a preview subscription - lite
       href: environment/lite-preview-subscription-sign-up.md
-    - name: Deploy Project Operations - lite
+    - name: Deploy Project Operations Lite
       href: environment/lite-deployment.md
     - name: Apply demo setup and configuration data - lite
       href: environment/lite-apply-demo-setup-config-data.md
@@ -614,10 +682,20 @@
       href: environment/security-model.md
   - name: What's new
     items:
-    - name: What's new August 2022 - lite deployment
-      href: pro/whats-new/whats-new-aug-2022-lite.md
+    - name: What's new February 2023 - lite deployment
+      href: pro/whats-new/whats-new-feb-2023-lite.md
     - name: Archive
       items:
+      - name: What's new January 2023 - lite deployment
+        href: pro/whats-new/whats-new-jan-2023-lite.md
+      - name: What's new November 2022 - lite deployment
+        href: pro/whats-new/whats-new-nov-2022-lite.md
+      - name: What's new October 2022 - lite deployment
+        href: pro/whats-new/whats-new-oct-2022-lite.md
+      - name: What's new September 2022 - lite deployment
+        href: pro/whats-new/whats-new-sept-2022-lite.md
+      - name: What's new August 2022 - lite deployment
+        href: pro/whats-new/whats-new-aug-2022-lite.md
       - name: What's new July 2022 - lite deployment
         href: pro/whats-new/whats-new-july-2022-lite.md
       - name: What's new June 2022 - lite deployment
@@ -688,19 +766,19 @@
         href: pro/sales/project-based-lines-sales.md
       - name: Create quotes from project opportunities
         href: sales/link-quotes-opportunities.md
-      - name: Copy project-based opportunities
+      - name: Copy project opportunities
         href: sales/copy-project-based-opportunity.md
       - name: Close a project opportunity 
         href: sales/close-opportunity.md
-    - name: Manage project-based quotes
+    - name: Manage project quotes
       items:
-      - name: Project-based quotes overview
+      - name: Project quotes overview
         href: pro/sales/manage-quotes-sales.md
       - name: Concepts unique to project quotes
         href: pro/sales/quotes-key-concepts-sales.md
       - name: Header details for project quotes
         href: pro/sales/quote-values-budget-limits-contract-sales.md
-      - name: Multiple customers on project quotes
+      - name: Manage multiple customers on project quotes
         href: pro/sales/manage-multiple-customers-quote-sales.md
       - name: Project price lists on project quotes
         href: pro/sales/manage-project-price-lists-sales.md
@@ -712,35 +790,37 @@
           href: pro/sales/costing-product-based-quote-lines-sales.md
         - name: Manage complex units for product-based quote lines
           href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-      - name: Project-based quote lines
+      - name: Project quote lines
         items:
-        - name: Project-based quote lines overview
+        - name: Project quote lines overview
           href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-        - name: Manage multiple customers  
+        - name: Manage multiple customers on project quote lines
           href: pro/sales/manage-multiple-customers-quote-line-sales.md
-        - name: Map projects and tasks 
+        - name: Map projects and tasks to project quote lines
           href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-        - name: Configure chargeable components 
+        - name: Configure chargeable components on project quote lines
           href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Estimate a project-based quote line
+        - name: Estimate a project quote line
           href: pro/sales/create-estimate-quote-line-sales.md
-        - name: Import estimation from a project 
+        - name: Import estimates from a project to a project quote line
           href: pro/sales/import-estimate-project-quote-sales.md
-        - name: Manage invoice schedules 
+        - name: Invoice schedules on project quote lines
           href: sales/invoice-schedule-quote-line.md 
-      - name: Copy project-based quotes
+      - name: Copy project quotes
         href: sales/lose-quote.md
-      - name: Close project-based quotes
+      - name: Activate and revise a project quote
+        href: sales/activation-and-revision.md
+      - name: Close project quotes
         href: pro/sales/win-quote-sales.md
-    - name: Manage project-based contracts
+    - name: Manage project contracts
       items: 
-      - name: Project-based contracts overview
+      - name: Project contracts overview
         href: pro/sales/manage-contracts-sales.md
       - name: Concepts unique to project contracts
         href: pro/sales/contracts-key-concepts-sales.md
       - name: Header details for project contracts
         href: pro/sales/project-contract-settings-sales.md
-      - name: Multiple customers on project contracts
+      - name: Manage multiple customers on project contracts
         href: pro/sales/manage-multiple-customers-contract-sales.md
       - name: Project price lists on project contracts
         href: sales/contracts-manage-project-price-lists.md
@@ -752,21 +832,21 @@
           href: pro/sales/cost-product-based-contract-lines-sales.md
         - name: Manage complex units for product-based contract lines 
           href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-      - name: Project-based contract lines
+      - name: Project contract lines
         items: 
-        - name: Project-based contract lines overview
+        - name: Project contract lines overview
           href: pro/sales/manage-contract-values-project-based-sales.md
-        - name: Manage multiple contract customers 
+        - name: Manage multiple customers on project contracts
           href: pro/sales/manage-multiple-customers-contract-line-sales.md
-        - name: Map projects and tasks to a project contract line 
+        - name: Map projects and tasks to a project contract line
           href: pro/sales/mapping-projects-tasks-contract-line-sales.md
         - name: Configure chargeable components on a project contract line 
           href: pro/sales/configure-chargeable-components-contract-line.md
-        - name: Estimate a project-based contract line
+        - name: Estimate a project contract line
           href: pro/sales/create-estimate-project-contract-line-sales.md
-        - name: Import estimates from a project to a project contract line 
+        - name: Import estimates from a project to a project contract line
           href: pro/sales/import-estimate-project-contract-line-sales.md
-        - name: Manage invoice schedules on a project contract line 
+        - name: Create invoice schedules on a project contract line
           href: pro/sales/invoice-schedules-contract-line-sales.md
       - name: Copy project contracts 
         href: pro/sales/copy-project-contracts-sales.md
@@ -774,11 +854,11 @@
         href: pro/sales/confirm-contract-sales.md
       - name: Advances and retainers
         items: 
-        - name: Advances and retainer-based contracts - lite
+        - name: Advances and retainer-based contracts
           href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-        - name: Set up a retainer schedule - lite
+        - name: Set up a retainer schedule
           href: pro/sales/set-up-schedule-retainers-sales.md
-        - name: Create an ad hoc advance on a contract - lite
+        - name: Create an ad hoc advance on a project contract
           href: pro/sales/create-ad-hoc-advance-sales.md
   - name: Pricing and costing
     items: 
@@ -802,9 +882,11 @@
         href: pricing-costing/default-project-sales-price-lists.md
       - name: Override project sales price lists
         href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Resolve cost prices on project estimates and actuals
+      - name: Set up Date-effective overrides for specific prices in a price list
+        href: pricing-costing/dateffective_price_overrides.md
+      - name: Determine cost prices on project estimates and actuals
         href: pro/pricing-costing/cost-price-resolution-sales.md
-      - name: Resolve sales prices for project estimates and actuals
+      - name: Determine sales prices for project estimates and actuals
         href: pro/pricing-costing/sales-price-resolution-sales.md
       - name: Copy price lists
         href: pricing-costing/copy-price-lists.md
@@ -852,10 +934,14 @@
       href: project-management/define-project-calendars.md
     - name: Scheduling modes
       hreF: project-management/scheduling-modes.md
+    - name: External scheduling
+      href: project-management/external-scheduling.md
     - name: Update a project
       href: project-management/update-project.md
     - name: Copy a project
-      href: project-management/copy-project.md    
+      href: project-management/copy-project.md 
+    - name: Import projects from the Microsoft Project desktop client
+      href: project-management/import_from_mpp.md
     - name: Work breakdown structure planning
       items: 
       - name: Create a work breakdown structure
@@ -902,6 +988,20 @@
         href: project-management/scheduling-apis-powerautomate.md
       - name: Project schedule API performance
         href: project-management/project-schedule-api-performance.md
+  - name: Project budget management
+    items:
+    - name: Project budget management overview
+      href: pro/budget/projectbudgetmanagement.md
+    - name: Key concepts in project budget management
+      href: pro/budget/keyconcepts-projectbudget.md 
+    - name: Create and delete project cost budgets
+      href: pro/budget/create-delete-project-budget.md
+    - name: Project budget line – time, material, and expense
+      href: pro/budget/project-budget-line.md
+    - name: Project budget status management
+      href: pro/budget/project-budget-status-mgmt.md
+    - name: Budget line match priority
+      href: pro/budget/budget-line-match-priority.md
   - name: Resource management
     items: 
     - name: Key concepts
@@ -958,7 +1058,7 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
-  - name: Subcontract Management
+  - name: Subcontract management
     items: 
     - name: Subcontract management in Project Operations
       href: pro/subcontracting/managing-subcontracts-overview.md
@@ -1048,6 +1148,8 @@
       href: approvals/cancelapproval.md
     - name: Recall previously approved entries 
       href: approvals/recall-cancel.md 
+    - name: Security and approvals
+      href: approvals/approvals-security.md 
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
@@ -1082,6 +1184,8 @@
       href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
     - name: Confirm a proforma project invoice
       href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+    - name: Bulk-confirm proforma project-based invoices 
+      href: proforma-invoicing/bulk-confirm-project-invoices.md
     - name: Create corrective project invoices 
       href: pro/proforma-invoicing/corrective-invoices-sales.md
     - name: Configure project invoice automation
@@ -1120,10 +1224,16 @@
         href: whats-new/ur5-nonstocked-installation.md
   - name: What's new
     items:
-    - name: What's new July 2022 - Project Operations for stocked/production-based scenarios
-      href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+    - name: What's new February 2023 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-feb-2023-stocked.md
     - name: Archive
       items:
+      - name: What's new October 2022 - Project Operations for stocked/production-based scenarios
+        href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
+      - name: What's new September 2022 - Project Operations for stocked/production-based scenarios
+        href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+      - name: What's new July 2022 - Project Operations for stocked/production-based scenarios
+        href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
       - name: What's new June 2022 - Project Operations for stocked/production-based scenarios
         href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
       - name: What's new October 2021 - Project Operations for stocked/production-based scenarios
@@ -1146,8 +1256,12 @@
         href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
   - name: Project Operations for stocked/production-based scenarios deployment overview
     href: prod-pma/project-operations-prod-order-deployment-overview.md
-  - name: Project management and accounting overview
-    href: prod-pma/overview-project-management-accounting.md
+  - name: Project accounting
+    items:
+     - name: Project management and accounting overview
+       href: prod-pma/overview-project-management-accounting.md
+     - name: Project adjustments
+       href: project-accounting/project-adjustments.md
   - name: Project sales process
     items:
      - name: Project quotations
@@ -1284,18 +1398,32 @@
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Create and apply vendor payment retention terms
       href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-  - name: Project invoicing
-    items:
+    - name: Example scenarios
+      items:
+      - name: Purchase orders for stocked items with item requirements
+        href: prod-pma/STKProjectcostwithtemrequirements.md
+      - name: Purchase orders for stocked items without Item requirements
+        href: prod-pma/STKProjectcostwithoutItemrequirement.md
+      - name: Inventory consumption from stock
+        href: prod-pma/STKProjectcostInventoryConsumption.md
+      - name: Purchase orders for stocked items - Fixed receipt price
+        href: prod-pma/STKProjectcostfixedreceiptprice.md
+      - name: Purchase order for Non-stock/Service items with item requirements
+        href: prod-pma/NSTKProjectcostwithitemrequirements.md
+      - name: Purchase order for Non-stock/Service items without item requirements
+        href: prod-pma/NSTKProjectcostwithoutitemrequirement.md
     - name: Project invoicing
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: Project invoice proposal performance
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: Create advanced contracts for billing based on progress
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: Project sales orders
-      href: prod-pma/project-sales-orders.md
-    - name: Item requirements for project contracts with multiple funding sources
-      href: prod-pma/multiple-funding-sources-item-req.md   
+      items:
+      - name: Project invoicing
+        href: /dynamics365/finance/accounts-payable/project-invoicing
+      - name: Project invoice proposal performance
+        href: prod-pma/project-invoice-proposal-performance.md
+      - name: Create advanced contracts for billing based on progress
+        href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+      - name: Project sales orders
+        href: prod-pma/project-sales-orders.md
+      - name: Item requirements for project contracts with multiple funding sources
+        href: prod-pma/multiple-funding-sources-item-req.md   
   - name: Intercompany invoicing
     items:
     - name: Intercompany invoicing
@@ -1376,6 +1504,10 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update release 47, V3
+      href: psa/whats-new-ur-47.md
+    - name: What's new or changed in Update release 45, V3
+      href: psa/whats-new-ur-45.md        
     - name: What's new or changed in Update release 44, V3
       href: psa/whats-new-ur-44.md        
     - name: What's new or changed in Update release 43, V3
@@ -1464,6 +1596,14 @@
       href: psa/whats-new-v3-2020-wave1.md
     - name: What's new or changed in Project Service Automation V3
       href: psa/whats-new-changed-v3.md
+  - name: Project Service Automation upgrade (app version Project Operations Lite 4.x)
+    items: 
+    - name: Upgrade from Project Service Automation to Project Operations
+      href: psa/upgrade-project-operations-non-stocked.md    
+    - name: Feature changes from Project Service Automation to Project Operations
+      href: psa/psa-project-operations-changes.md 
+    - name: Project Service Automation to Project Operations project scheduling conversion process  
+      href: psa/PSA-Upgrade-Project-Conversion.md
   - name: Plan your implementation (app version 3.x)
     items: 
     - name: Sample data installation
@@ -1674,8 +1814,6 @@
         href: psa/FAQ-soft-book-in-web-app.md
       - name: How do I customize the Project Stages business process flow?
         href: psa/FAQ-customize-bpf.md
-      - name: Upgrade considerations for the work breakdown structure
-        href: psa/upgrade-considerations-tasks.md
     - name: White papers
       href: psa/white-papers.md
     - name: Administrator guide
