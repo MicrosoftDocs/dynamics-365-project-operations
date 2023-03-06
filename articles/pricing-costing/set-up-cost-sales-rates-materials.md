@@ -2,8 +2,9 @@
 title: Set up cost and sales rates for materials
 description: This article provides information about how to set up the cost and sales rates for materials used on projects. 
 author: rumant
-ms.date: 01/25/2023
+ms.date: 03/06/2023
 ms.topic: article
+ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
@@ -14,13 +15,13 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 You can set up cost and sales prices for products in Microsoft Dynamics 365 Project Operations. Cost and sales prices for products can only be listed in one currency, which must be the currency on the price list header.
 
-To set up cost and sales rates for products, complete the following steps. 
+To set up cost and sales rates for products, follow these steps. 
 
 1. Go to **Sales** > **Customers** > **Price Lists** and select **New** to create a new price list. 
-2. In the newly created price list, select the **Project Price list** form from the view selector. 
-3. On the **Material prices**, on the subgrid menu, select **New price list item**. 
-4. On the **Quick Create** page, enter the product and unit that you are creating the new price for.
-5. Select the pricing method under **Project Pricing** and update the Pricing method and amount fields under **Product Pricing**
+1. In the newly created price list, select the **Project Price list** form from the view selector. 
+1. On the **Material prices**, on the subgrid menu, select **New price list item**. 
+1. On the **Quick Create** page, enter the product and unit that you are creating the new price for.
+1. Select the pricing method under **Project Pricing** and update the Pricing method and amount fields under **Product Pricing**
 
 ![Screenshot of Project form for material price set up](media/Material-Pricing-Project-Price-List-Form.png)
 
@@ -30,12 +31,12 @@ To set up cost and sales rates for products, complete the following steps.
 Project Operations supports the following pricing methods for sales price lists:
 
 - **Price per unit** – By default, the sales price of the material will be set to the amount that's specified in the **Currency amount** field.
-- **At cost** – By default, the sales price of the material will be set to the **transaction cost of the material**.
-- **Markup percentage** – The sales price of the material will be calculated as a **markup percentage** over the transaction cost of the material.
+- **At cost** – By default, the sales price of the material is set to the **transaction cost of the material**.
+- **Markup percentage** – The sales price of the material is calculated as a **markup percentage** over the transaction cost of the material.
 
 ### Example
 
-Below, you can see a view of 3 different products, set up with different project pricing methods. The amount field refers to the amount used for pricing product based contract lines.
+Below, you can see a view of 3 different products that are set up with different project pricing methods. The amount field refers to the amount used for pricing product based contract lines.
 
 ![Screenshot of List of products/materials and their prices when used in projects](media/Transaction-cost-based-PM-Material.png)
 
