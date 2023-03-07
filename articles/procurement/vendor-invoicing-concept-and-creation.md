@@ -69,7 +69,7 @@ To set up a Procurement integration account for vendor invoices, follow these st
 When an Accounts payable clerk receives an invoice from the subcontractor, a new invoice is created in Finance.
 
 1. In Finance, go to **Accounts payables** \> **Invoices** \> **Pending vendor invoices**.
-1. On the **Action Pane**, select **New** to create a vendor invoice.
+1. On the Action Pane, select **New** to create a vendor invoice.
 1. On the invoice header, in the **Invoice account** field, select **Subcontractor**.
 1. Select the invoice date.
 1. On the **Header** tab, set the **Manual verification by PM is required** option to **Yes**. The default setting of this option comes from the **Project management and accounting parameters** page. However, it can be changed at vendor invoice level.
@@ -77,7 +77,7 @@ When an Accounts payable clerk receives an invoice from the subcontractor, a new
 1. Select the procurement category that was created for subcontract lines, and enter the unit price, unit of measurement, and quantity.
 1. In the vendor invoice lines section, on the **Project** tab, select the project that the subcontractor shares the subcontract invoice against.
 1. Select the project category. It can be of any type (**Item**, **Expense**, **Materials**, or **Hours**).
-1. Select the role only if the selected project category is of the **Hour** type.
+1. If the selected project category is of the **Hour** type, select the role.
 1. Select **Post** to post the vendor invoice.
 
 Alternatively, you can create a vendor invoice by going to **Accounts payable** \> **Invoices** \> **Open vendor invoices** and selecting **New**.
@@ -86,7 +86,7 @@ When the vendor invoice is posted, it becomes available in Dataverse for project
 
 ## Vendor invoice processing in Dataverse
 
-In the vendor invoice that is created in Dataverse, some field values come from the vendor invoice that is recorded in Finance. Other values are default values that come from the subcontract.
+In the vendor invoice that's created in Dataverse, some field values come from the vendor invoice that's recorded in Finance. Other values are default values that come from the subcontract.
 
 The following fields and related records will be copied from the subcontract to the header of the vendor invoice:
 
