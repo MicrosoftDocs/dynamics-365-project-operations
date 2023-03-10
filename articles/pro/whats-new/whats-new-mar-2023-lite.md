@@ -2,7 +2,7 @@
 title: What's new March 2023 - Project Operations lite deployment
 description: This article provides information about the quality updates that are available in the March 2023 release of Microsoft Dynamics 365 Project Operations lite deployment.
 author: ramagadu
-ms.date: 02/08/2023
+ms.date: 03/10/2023
 ms.topic: article
 ms.prod:
 ms.reviewer: johnmichalak 
@@ -21,7 +21,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-| Opportunity Management | **Support for all material pricing methods as supported by D365 Sales**<br>This feature helps customers of Dynamics 365 Project Operations set up sales prices for catalog products as a function of what it cost to procure the catalog product. Sales pricing methods supported for catalog products are at transaction cost, or a specified markup or markdown in addition to the transaction cost.| [Support for all material pricing methods as supported by D365 Sales](/dynamics365/project-operations/pro/sales/*****) |
+| Opportunity Management | **Support for all material pricing methods as supported by D365 Sales**<br>This feature helps customers of Dynamics 365 Project Operations set up sales prices for catalog products as a function of what it cost to procure the catalog product. Sales pricing methods supported for catalog products are at transaction cost, or a specified markup or markdown in addition to the transaction cost.| [Support for all material pricing methods as supported by D365 Sales](/dynamics365/project-operations/pricing-costing/set-up-cost-sales-rates-materials)  |
 
 ## Quality updates
 | Feature area | Reference number | Quality update |

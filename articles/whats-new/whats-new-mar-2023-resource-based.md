@@ -30,7 +30,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-| Opportunity Management | **Support for all material pricing methods as supported by D365 Sales**<br>This feature helps customers of Dynamics 365 Project Operations set up sales prices for catalog products as a function of what it cost to procure the catalog product. Sales pricing methods supported for catalog products are at transaction cost, or a specified markup or markdown in addition to the transaction cost.| [ASupport for all material pricing methods as supported by D365 Sales](/dynamics365/project-operations/pro/sales/*****) |
+| Opportunity Management | **Support for all material pricing methods as supported by D365 Sales**<br>This feature helps customers of Dynamics 365 Project Operations set up sales prices for catalog products as a function of what it cost to procure the catalog product. Sales pricing methods supported for catalog products are at transaction cost, or a specified markup or markdown in addition to the transaction cost.| [Support for all material pricing methods as supported by D365 Sales](/dynamics365/project-operations/pricing-costing/set-up-cost-sales-rates-materials) |
 
 
 ## Quality updates
