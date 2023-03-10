@@ -23,9 +23,9 @@ Dynamics 365 Project Operations consists of two components:
 - Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The finance and operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
 
 ## Project Operations release notes
-- Project Operations latest release notes for [Resource/non-stocked](whats-new-july-2022-resource-based.md) scenario.
-- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-july-2022-lite.md) scenario.
-- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-jul-2022-stocked.md) scenario.
+- Project Operations latest release notes for [Resource/non-stocked](whats-new-feb-2023-resource-based.md) scenario.
+- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-feb-2023-lite.md) scenario.
+- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-feb-2023-stocked.md) scenario.
 
 ## Project Operations latest version
 
@@ -51,11 +51,11 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | South Africa          |  4.60.0.112     | February 24, 2023  | February 24, 2023   | TBD                 | March 17, 2023      |
 |   &nbsp;  | Switzerland           |  4.60.0.112     | February 24, 2023  | February 24, 2023   | TBD                 | March 17, 2023      |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.60.0.112     | March 3, 2023      | March 3, 2023       | TBD                 | March 24, 2023      |
-|   &nbsp;  | Asia Pacific          |  4.60.0.112     | March 3, 2023      | March 3, 2023       | TBD                 | March 24, 2023      |
-|   &nbsp;  | Great Britain         |  4.60.0.112     | March 3, 2023      | March 3, 2023       | TBD                 | March 24, 2023      |
-|   &nbsp;  | Oceania               |  4.60.0.112     | March 3, 2023      | March 3, 2023       | TBD                 | March 24, 2023      |
-|   &nbsp;  | United Arab Emirates  |  4.60.0.112     | March 3, 2023      | March 3, 2023       | TBD                 | March 24, 2023      |
+|   &nbsp;  | Japan                 |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
+|   &nbsp;  | Asia Pacific          |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
+|   &nbsp;  | Great Britain         |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
+|   &nbsp;  | Oceania               |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
+|   &nbsp;  | United Arab Emirates  |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Europe                |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 31, 2023      |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
