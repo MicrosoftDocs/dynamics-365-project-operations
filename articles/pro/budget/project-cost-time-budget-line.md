@@ -67,3 +67,8 @@ The following table explains how to set the fields in the quick create dialog bo
 | Amount | Mandatory | If you set the **Quantity** field, the amount is calculated as *Quantity* &times; *Unit price*. If you didn't set the **Quantity** field, enter the amount to budget against the selected dimensions of the budget line. The value must be a positive non-zero number. |
 | Contingency | Optional | Enter the contingency amount to add to the budgeted amount. The budget for the selected dimensions will be calculated as *Amount* + *Contingency*. |
 | Budget | Mandatory | The budget for the budget line for the selected dimensions. This field is automatically set based on the dimensions. The value is calculated as *Amount* + *Contingency*. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
+[Microsoft](https://www.microsoft.com)
