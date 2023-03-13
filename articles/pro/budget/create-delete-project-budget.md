@@ -37,7 +37,7 @@ To create a project cost budget, follow these steps.
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
 1. Select the project to create a budget for.
-1. On the project page, on the Action Pane, select **Create Budget**, and then follow these steps:
+1. On the command bar of the project's main form, select **Create Budget**, and then follow these steps:
 
     - To manually create the budget, select **Manual**. A **Budget** tab is added to the page and includes a blank grid for budget lines. 
     - To create budget lines, select **New Project Budget Line**.
