@@ -24,6 +24,7 @@ This article explains how to create a budget line for the transaction class Time
 
 > [!NOTE]
 > Budget dimensions should be unique across all budget lines. You can't create multiple budget lines that have the same dimensions.
+> Dimensions considered for such comparision are defined in budget line match priority table. See [Budget line match priority](budget-line-match-priority.md).
 
 ## Create a Time budget line
 
