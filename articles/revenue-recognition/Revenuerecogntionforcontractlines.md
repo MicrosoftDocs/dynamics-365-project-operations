@@ -66,8 +66,8 @@ The following screen displays the project created in **Dataverse.** This project
 <img width="468" alt="DataverseProject" src="https://user-images.githubusercontent.com/103096040/224676352-90ea97d6-5952-4ffc-b12d-d94c8f0401f5.png">
 
 The following screen displays the project contract created in **Dataverse.**
-<img width="468" alt="DataverserContract" src="https://user-images.githubusercontent.com/103096040/224676597-a57557d2-401f-4f2d-b80f-6169416d172f.png">
 
+<img width="468" alt="DataverserContract" src="https://user-images.githubusercontent.com/103096040/224676597-a57557d2-401f-4f2d-b80f-6169416d172f.png">
 The following screen displays the project contract lines created in **Dataverse** and all the contract lines are configured as billing method **Fixed price.** 
 There are four contract lines created for each phase of the project and each contract line has **Fixed price** billing method.
 <img width="468" alt="Dataversecontractlines" src="https://user-images.githubusercontent.com/103096040/224676822-2d80b4b6-b986-452a-940b-65622f1b915d.png">
