@@ -30,11 +30,11 @@ When the feature **Enable contract line-based revenue recognition with Project O
 
 Refer below to know more about **Project contract lines** in **Dataverse** and how contract lines are linked with project tasks.
 
-[Project contract lines overview | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/sales/manage-contract-values-project-based-sales)
+[Project contract lines overview](../pro/sales/manage-contract-values-project-based-sales.md)
 
 This article provides an overview of project contract lines.
 
-[Map projects and tasks to a project contract line | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/sales/mapping-projects-tasks-contract-line-sales)
+[Map projects and tasks to a project contract line](../pro/sales/mapping-projects-tasks-contract-line-sales.md)
 
 This article provides an overview of mapping projects and tasks to a project contract line.
 ## Review project contracts for contract lines
@@ -91,14 +91,14 @@ Default project is required to post the accrued revenue amount which impact the 
 
 ## Recommended content
 
-[Project contract lines overview | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/sales/manage-contract-values-project-based-sales)
+[Project contract lines overview](../pro/sales/manage-contract-values-project-based-sales.md)
 
 This article provides an overview for project contract lines.
 
-[Map projects and tasks to a project contract line | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/sales/mapping-projects-tasks-contract-line-sales)
+[Map projects and tasks to a project contract line](../pro/sales/mapping-projects-tasks-contract-line-sales.md)
 
 This article provides an overview of mapping projects and tasks to a project contract line.
 
-[Manage revenue estimates | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/revenue-recognition/rev-rec-completed-contract-method)
+[Manage revenue estimates](rev-rec-completed-contract-method.md)
 
 This article provides an overview of managing and executing the revenue recognition estimates.
