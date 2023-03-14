@@ -26,7 +26,7 @@ When you create a project contract line with the following attributes in Dynamic
 - An associated project.
 - At least one milestone defined on the Invoice schedule tab on the Project contract line page.
 
-If the feature **Enable contract line-based revenue recognition with Project Operations for non-stocked/ resource-based scenarios** is enabled, then **Dynamics 365 for Finance** creates the **fixed price revenue estimate project** for each contract line which has a fixed price billing method and milestones are defined for the contract line.
+When the feature **Enable contract line-based revenue recognition with Project Operations for non-stocked/resource-based scenario** is activated, **Dynamics 365 for Finance** generates a fixed-price revenue estimate project for each contract line that utilizes a fixed-price billing method and has defined milestone.
 
 Refer below to know more about **Project contract lines** in **Dataverse** and how contract lines are linked with project tasks.
 
@@ -44,7 +44,7 @@ To review the project contract lines or to update addtional details in **Dynamic
 1. In the **Dynamics 365 Finance** environment, go to **Project management and accounting**  \>  **Projects**  \>  **Project contracts**
 2. Select **Show default accounting** on the **project contract** action pane.
 3. Select the **contract line** from the drop down for defaulting the financial dimensions applicable for the contract line.
-4. Select the **start date** and **end date** in case if revenue recognition **straight line** principal is applied on the **revenue recognition project** for the selected contract line. **Start date** and **end date** is used to calculate the number of days required for **straight line revenue recognition** principal.
+4. Specify the **start date** and **end date** if revenue recognition **straight line** principal is applied on the **revenue recognition project** for the selected contract line. **Start date** and **end date** is used to calculate the number of days required for **straight line revenue recognition** principal.
 
 ## Review fixed price revenue estimates projects.
 
