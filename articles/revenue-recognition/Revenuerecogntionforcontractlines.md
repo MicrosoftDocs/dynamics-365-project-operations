@@ -37,17 +37,26 @@ This article provides an overview of project contract lines.
 [Map projects and tasks to a project contract line | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/sales/mapping-projects-tasks-contract-line-sales)
 
 This article provides an overview of mapping projects and tasks to a project contract line.
+## Review project contracts for contract lines
+
+To review the project contract lines or to update addtional details in **Dynamics 365 for finance**, complete the following:
+
+1. In the **Dynamics 365 Finance** environment, go to **Project management and accounting**  \>  **Projects**  \>  **Project contracts**
+2. Select **Show default accounting** on the **project contract** action pane.
+3. Select the **contract line** from the drop down for defaulting the financial dimensions applicable for the contract line.
+4. Select the **start date** and **end date** in case if revenue recognition **straight line** principal is applied on the **revenue recognition project** for the selected contract line. **Start date** and **end date** is used to calculate the number of days required for **straight line revenue recognition** principal.
 
 ## Review fixed price revenue estimates projects.
 
 To review fixed price revenue estimates projects, complete the following steps:
 
-1. In the Dynamics 365 Finance environment, go to Projects **management and accounting**  \>  **Projects**  \>  **Fixed price revenue estimate projects**.
+1. In the **Dynamics 365 Finance** environment, go to **Project management and accounting**  \>  **Projects**  \>  **Fixed price revenue estimate projects**.
 2. Select the **Revenue project** that you want to view and double-click the Estimate project ID to open the record and review the details of the project.
-3. Select the **Default project** on the header which is required to post the estimated revenue recognition amount. All the required financial postings happened against the default project selected at header.
+3. Select the **Default project** on the header which is required to post the estimated revenue recognition amount. All the required financial postings happened against the default project selected at header. **Financial dimensions** selected on the **default project** is used to post revenue recognition related financial vouchers.
 4. Select the **Cost template** on the header. This template is used to do the required calculations like completed percentage, completed contract or straight line.
 5. Expand the  **Contract line**  tab. You will see one contract line in the Selected contract lines grid. This is the default contract line for which the revenue recognition project has been created.
 6. To change the association, select additional contract lines and add them to the Selected contract lines grid. If multiple contract lines are selected in this grid, the percentage completion and revenue estimates are calculated together for of all selected contract lines.
+7. For **straight line** revenue recognition principal, only one contract line is applicable for one **revenue recognition project**. It is not allowed to add multiple contract lines for one revenue recognition project with **straight line** revenue recognition principal.
 
 Project cost, revenue profile, cost template, and the period code can be set manually. If they aren't set manually, the values default during the first estimate calculation for the project using the rules configured for project cost and revenue profiles.
 
