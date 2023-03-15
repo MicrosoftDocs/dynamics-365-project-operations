@@ -39,7 +39,7 @@ This article provides an overview of project contract lines.
 This article provides an overview of mapping projects and tasks to a project contract line.
 ## Review project contracts for contract lines
 
-To review the project contract lines or to update addtional details in **Dynamics 365 for finance**, complete the following:
+To review the project contract lines or to update additional details in **Dynamics 365 for finance**, complete the following:
 
 1. In the **Dynamics 365 Finance** environment, go to **Project management and accounting**  \>  **Projects**  \>  **Project contracts**
 2. Select **Show default accounting** on the **project contract** action pane.
@@ -93,7 +93,7 @@ Default project is required to post the accrued revenue amount which impact the 
 
 [Project contract lines overview](../pro/sales/manage-contract-values-project-based-sales.md)
 
-This article provides an overview for project contract lines.
+This article provides an overview of project contract lines.
 
 [Map projects and tasks to a project contract line](../pro/sales/mapping-projects-tasks-contract-line-sales.md)
 
