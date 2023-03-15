@@ -1,6 +1,6 @@
 ---
 title: Revenue recognition for contract lines
-description: This topic provides information about contract lines based revenue recognition in Project Operations.
+description: This article provides information about contract lines based revenue recognition in Project Operations.
 author: mukumarm
 ms.date: 03/13/2023
 ms.topic: overview
@@ -12,11 +12,11 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-To use **Contract line-based revenue recognition with Project operations,** feature **Enable contract line-based revenue recognition with Project Operations for non-stocked/ resource-based scenarios** should be enabled. Once this feature is enabled, then it can't be disabled further. All the older projects or revenue recognition projects can be managed in an older manner.
+To use the **Contract line-based revenue recognition with Project operations** feature, activate **Enable contract line-based revenue recognition with Project Operations for non-stocked/resource-based scenarios**. Once this feature is enabled, it can't be disabled. All of the older projects or revenue recognition projects can be managed.
 
-Once this feature is enabled then **Dynamics 365 for Finance** generates the revenue recognition for each contract line which is used as a fixed price billing method only.
+When this feature is enabled, Microsoft Dynamics 365 for Finance only generates the revenue recognition for each contract line that's used as a fixed price billing method.
 
-This feature allows us to recognize the revenue recognition for each contract line associated with the contract. It provides flexibility to define different revenue recognition methods per contract line and **Dynamics 365 for Finance** generates and posts the revenue recognition amounts accordingly.
+This feature allows you to recognize the revenue for each contract line that's associated with the contract. Contract line-based revenue recognition provides the flexibility to define different revenue recognition methods for contract line, then Dynamics 365 for Finance generates and posts the revenue recognition amounts accordingly.
 
 ## Fixed price revenue estimate project with contract line
 
@@ -24,22 +24,18 @@ When you create a project contract line with the following attributes in Dynamic
 
 - A fixed price billing method.
 - An associated project.
-- At least one milestone defined on the Invoice schedule tab on the Project contract line page.
+- At least one milestone defined on the **Invoice schedule** tab on the **Project contract line** page.
 
-When the feature **Enable contract line-based revenue recognition with Project Operations for non-stocked/resource-based scenario** is activated, **Dynamics 365 for Finance** generates a fixed-price revenue estimate project for each contract line that utilizes a fixed-price billing method and has defined milestone.
+When **Enable contract line-based revenue recognition with Project Operations for non-stocked/resource-based scenario** is activated, Dynamics 365 for Finance generates a fixed-price revenue estimate project for each contract line that utilizes a fixed-price billing method and has defined milestone.
 
-Refer below to know more about **Project contract lines** in **Dataverse** and how contract lines are linked with project tasks.
+For more information about **Project contract lines** in **Dataverse** and how contract lines are linked with project tasks, see [Project contract lines overview](../pro/sales/manage-contract-values-project-based-sales.md).
 
-[Project contract lines overview](../pro/sales/manage-contract-values-project-based-sales.md)
+For more information about mapping projects and tasks to a project contract line, see [Map projects and tasks to a project contract line](../pro/sales/mapping-projects-tasks-contract-line-sales.md).
 
-This article provides an overview of project contract lines.
 
-[Map projects and tasks to a project contract line](../pro/sales/mapping-projects-tasks-contract-line-sales.md)
-
-This article provides an overview of mapping projects and tasks to a project contract line.
 ## Review project contracts for contract lines
 
-To review the project contract lines or to update additional details in **Dynamics 365 for finance**, complete the following:
+To review the project contract lines or to update additional details in Dynamics 365 Finance, follow these steps.
 
 1. In the **Dynamics 365 Finance** environment, go to **Project management and accounting**  \>  **Projects**  \>  **Project contracts**
 2. Select **Show default accounting** on the **project contract** action pane.
@@ -48,15 +44,15 @@ To review the project contract lines or to update additional details in **Dynami
 
 ## Review fixed price revenue estimates projects.
 
-To review fixed price revenue estimates projects, complete the following steps:
+To review fixed price revenue estimates projects, follow these steps.
 
 1. In the **Dynamics 365 Finance** environment, go to **Project management and accounting**  \>  **Projects**  \>  **Fixed price revenue estimate projects**.
 2. Select the **Revenue project** that you want to view and double-click the Estimate project ID to open the record and review the details of the project.
 3. Select the **Default project** on the header which is required to post the estimated revenue recognition amount. All the required financial postings happened against the default project selected at header. **Financial dimensions** selected on the **default project** is used to post revenue recognition related financial vouchers.
 4. Select the **Cost template** on the header. This template is used to do the required calculations like completed percentage, completed contract or straight line.
-5. Expand the  **Contract line**  tab. You will see one contract line in the Selected contract lines grid. This is the default contract line for which the revenue recognition project has been created.
+5. Expand the  **Contract line**  tab. You'll see one contract line in the Selected contract lines grid. This is the default contract line for which the revenue recognition project has been created.
 6. To change the association, select additional contract lines and add them to the Selected contract lines grid. If multiple contract lines are selected in this grid, the percentage completion and revenue estimates are calculated together for of all selected contract lines.
-7. For **straight line** revenue recognition principal, only one contract line is applicable for one **revenue recognition project**. It is not allowed to add multiple contract lines for one revenue recognition project with **straight line** revenue recognition principal.
+7. For **straight line** revenue recognition principal, only one contract line is applicable for one **revenue recognition project**. It isn't allowed to add multiple contract lines for one revenue recognition project with **straight line** revenue recognition principal.
 
 Project cost, revenue profile, cost template, and the period code can be set manually. If they aren't set manually, the values default during the first estimate calculation for the project using the rules configured for project cost and revenue profiles.
 
@@ -82,7 +78,7 @@ There are four contract lines created for each phase of the project and each con
 <img width="468" alt="Dataversecontractlines" src="https://user-images.githubusercontent.com/103096040/224676822-2d80b4b6-b986-452a-940b-65622f1b915d.png">
 
 The following screen displays the **Fixed price revenue estimate projects** in **Dynamics 365 for finance** for each contract line. 
-For each contract line as per the screenshot above, there is one **Fixed price revenue estimate project** created in Dynamics 365 for Finance.
+For each contract line as per the screenshot above, there's one **Fixed price revenue estimate project** created in Dynamics 365 for Finance.
 <img width="468" alt="FinanceRevRecProjects" src="https://user-images.githubusercontent.com/103096040/224676931-42e65714-cccb-448f-9b68-8dd9db30788b.png">
 
 The following screen displays the **Revenue project** for implementation phase. Select the **Default project** and **Project cost and revenue profile.** 
