@@ -30,14 +30,14 @@ The following table shows and example and how each of the booking allocation met
 
 | Booking allocation method | RR (Duration) | Total | Monday | Tuesday | Wednesday | Thursday | Friday | Respect capacity | Respect availability | Respect requirement duration | Comments |
 |---------------------------|---------------|-------|--------|---------|-----------|----------|--------|------------------|----------------------|----------|-------|
-| Resource's working capacity | | 40 | 10 | 10 | 10 | 10 | 0 | | | | 
-| Resource's existing bookings | | 16 | 6 | 4 | 2 | 2 | 2 | | | | | | 
+| Resource's working capacity | | 40 | 10 | 10 | 10 | 10 | 0 | | | | | 
+| Resource's existing bookings | | 16 | 6 | 4 | 2 | 2 | 2 | | | | |  
 | Full capacity | N/A | 40 | 10 | 10 | 10 | 10 | 0 | Yes | No | No | | 
 | Remaining capacity | N/A | 26 | 4 | 6 | 8 | 8 | 0 | Yes | Yes | No | | 
 | Percentage (50%) | N/A | 20 | 5 | 5 | 5 | 5 | 0 | Yes | No | No | | 
 | Percentage (100%) | N/A | 40 | 10 | 10 | 10 | 10 | 0 | Yes | No | No | | 
-| Evenly distribute | 80 | 80 | 20 | 20 | 20 | 20 | 0 | No | No | No | Will spread the time over the working days of the resource.  |
-| Front load | 80 | 26 | 4 | 8 | 8 | 8 | 0 | Yes | Yes | Yes | |
+| Evenly distribute | 80 | 80 | 20 | 20 | 20 | 20 | 0 | No | No | Yes | Will spread the time over the working days of the resource. |
+| Front load | 80 | 26 | 4 | 6 | 8 | 8 | 0 | Yes | Yes | Yes | |
 
 
 ## Full Capacity 
