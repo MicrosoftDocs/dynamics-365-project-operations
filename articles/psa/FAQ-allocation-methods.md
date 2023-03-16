@@ -26,6 +26,20 @@ ms.reviewer: johnmichalak
 
 Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This article explains how each method works, and which methods could lead to overbooking resources.
 
+The following table shows and example and how each of the booking allocation methods behaves:
+
+| Booking allocation method | RR (Duration) | Total | Monday | Tuesday | Wednesday | Thursday | Friday | Respect capacity | Respect availability | Respect requirement duration | Comments |
+|---------------------------|---------------|-------|--------|---------|-----------|----------|--------|------------------|----------------------|----------|-------|
+| Resource's working capacity | | 40 | 10 | 10 | 10 | 10 | 0 | | | | 
+| Resource's existing bookings | | 16 | 6 | 4 | 2 | 2 | 2 | | | | | | 
+| Full capacity | N/A | 40 | 10 | 10 | 10 | 10 | 0 | Yes | No | No | | 
+| Remaining capacity | N/A | 26 | 4 | 6 | 8 | 8 | 0 | Yes | Yes | No | | 
+| Percentage (50%) | N/A | 20 | 5 | 5 | 5 | 5 | 0 | Yes | No | No | | 
+| Percentage (100%) | N/A | 40 | 10 | 10 | 10 | 10 | 0 | Yes | No | No | | 
+| Evenly distribute | 80 | 80 | 20 | 20 | 20 | 20 | 0 | No | No | No | Will spread the time over the working days of the resource.  |
+| Front load | 80 | 26 | 4 | 8 | 8 | 8 | 0 | Yes | Yes | Yes | |
+
+
 ## Full Capacity 
 The Full Capacity method books the resource’s full capacity for the specified from and to dates. For example, if a resource has a calendar set to work eight hours per day, five days a week, setting a start and end date that covers five working days will book the resource for 40 hours. The booking is done without regard to the resource's remaining capacity. If a resource is already booked on other projects during that period, the 40 hours is booked as additional hours, which potentially leads to overbookings.
 
