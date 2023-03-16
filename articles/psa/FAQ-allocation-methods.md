@@ -41,7 +41,7 @@ The following table shows and example and how each of the booking allocation met
 
 
 ## Full Capacity 
-The Full Capacity method books the resource’s full capacity for the specified from and to dates. For example, if a resource has a calendar set to work eight hours per day, five days a week, setting a start and end date that covers five working days will book the resource for 40 hours. The booking is done without regard to the resource's remaining capacity. If a resource is already booked on other projects during that period, the 40 hours is booked as additional hours, which potentially leads to overbookings.
+The Full Capacity method books the resource’s full capacity for the specified from and to dates. For example, if a resource has a calendar set to work eight hours per day, five days a week, setting a start and end date that covers five working days will book the resource for 40 hours. The booking is done without regard to the resource's remaining capacity, or the duration of the requirement being scheduled. If a resource is already booked on other projects during that period, the 40 hours is booked as additional hours, which potentially leads to overbookings.
 
 ## Remaining Capacity
 The Remaining Capacity method is only available when you book directly to a project using the Schedule board. This method books the resource’s available capacity within the specified date range. For example, if a resource has a capacity of 40 hours per week and has already been booked 10 hours, booking for the same week results in booking the remaining 30 hours of capacity for that week.
