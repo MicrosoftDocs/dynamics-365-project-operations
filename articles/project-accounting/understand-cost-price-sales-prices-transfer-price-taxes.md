@@ -1,5 +1,5 @@
 ---
-title: Project adjustments
+title: Understanding how prices and taxes work together
 description: This article provides information about project adjustments.
 author: ryansandness
 ms.date: 03/17/2023
