@@ -85,4 +85,3 @@ These same rules apply when determining the project cost and sales price when en
 |No |Yes|0 |1000|1050|1000 / 1.05 = 952.38|952.38 x 1.05 markup = 1000|Divide the original amount by 1 + tax rate for cost without tax|
 |Yes|Yes|0 |1000|1050|1000 / 1.05 = 952.38 + 47.62 tax = 1000|952.38 x 1.05 markup x 1.05 tax = 1050|Divide the original amount by 1 + tax rate for cost without tax|
 |No |Yes|20|1000|1050|1000 / 1.05 = 952.38 + 9.52 tax = 961|952.38 x 1.05 markup x 1.01 tax = 1010|5% tax multiplied by 20% non-deductible = 1%. 20% of 47.62 tax amount = 9.52
- |
