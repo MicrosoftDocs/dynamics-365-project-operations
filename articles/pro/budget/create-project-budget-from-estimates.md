@@ -30,9 +30,10 @@ To enable project cost budgeting, follow these steps.
 
 After you enable the project cost budget feature, the page is refreshed, and a **Budget match priorities** tab is added.
 
-## Importing budget from estimatesCreate a Create a project cost budget
+## Importing cost budget from estimates
 
-To create a project cost budget, follow these steps.
+Projects are planned by defining tasks, assigning resources, and estimating material and expense costs. This is reflected in the estimates of the project which can be referred under **Estimates** tab. 
+By following these steps, well-planned estimates can be used as the foundation for creating a project cost budget. This can be accomplished by importing the estimates into the budget.
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
