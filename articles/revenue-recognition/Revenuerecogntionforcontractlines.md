@@ -68,22 +68,22 @@ Contoso systems awarded one contract to implement Business applications for one 
 In **Project Operations** on **Dataverse** a new project and a new project contract is created for the customer.
 
 The following screen displays the project created in **Dataverse.** This project has multiple tasks associated with.
-<img width="468" alt="DataverseProject" src="https://user-images.githubusercontent.com/103096040/224676352-90ea97d6-5952-4ffc-b12d-d94c8f0401f5.png">
+<img width="468" alt="DataverseProject" src="https://user-images.githubusercontent.com/103096040/media/DataverseProject.png">
 
 The following screen displays the project contract created in **Dataverse.**
 
-<img width="468" alt="DataverserContract" src="https://user-images.githubusercontent.com/103096040/224676597-a57557d2-401f-4f2d-b80f-6169416d172f.png">
+<img width="468" alt="DataverserContract" src="https://user-images.githubusercontent.com/103096040/media/DataverserContract.png">
 The following screen displays the project contract lines created in **Dataverse** and all the contract lines are configured as billing method **Fixed price.** 
 There are four contract lines created for each phase of the project and each contract line has **Fixed price** billing method.
-<img width="468" alt="Dataversecontractlines" src="https://user-images.githubusercontent.com/103096040/224676822-2d80b4b6-b986-452a-940b-65622f1b915d.png">
+<img width="468" alt="Dataversecontractlines" src="https://user-images.githubusercontent.com/103096040/media/Dataversecontractlines.png">
 
 The following screen displays the **Fixed price revenue estimate projects** in **Dynamics 365 for finance** for each contract line. 
 For each contract line as per the screenshot above, there's one **Fixed price revenue estimate project** created in Dynamics 365 for Finance.
-<img width="468" alt="FinanceRevRecProjects" src="https://user-images.githubusercontent.com/103096040/224676931-42e65714-cccb-448f-9b68-8dd9db30788b.png">
+<img width="468" alt="FinanceRevRecProjects" src="https://user-images.githubusercontent.com/103096040/media/FinanceRevRecProjects.png">
 
 The following screen displays the **Revenue project** for implementation phase. Select the **Default project** and **Project cost and revenue profile.** 
 Default project is required to post the accrued revenue amount which impact the project subledger. Project cost and revenue profile are required to identify the revenue recognition accounting rule applicable for the revenue project.
-<img width="468" alt="FinanceRevRecProjectdetails" src="https://user-images.githubusercontent.com/103096040/224677042-438f586c-3070-4532-a996-06c1362f14d2.png">
+<img width="468" alt="FinanceRevRecProjectdetails" src="https://user-images.githubusercontent.com/103096040/media/FinanceRevRecProjectdetails.png.png">
 
 ## Recommended content
 
