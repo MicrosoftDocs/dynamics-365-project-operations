@@ -30,10 +30,11 @@ To enable project cost budgeting, follow these steps.
 
 After you enable the project cost budget feature, the page is refreshed, and a **Budget match priorities** tab is added.
 
-## Importing cost budget from estimates
+## Importing budget from estimates
 
 Projects are planned by defining tasks, assigning resources, and estimating material and expense costs. This is reflected in the estimates of the project which can be referred under **Estimates** tab. 
-By following these steps, well-planned estimates can be used as the foundation for creating a project cost budget. This can be accomplished by importing the estimates into the budget.
+
+By following these steps, well-planned estimates can be used as the foundation for creating a project cost budget. This can be accomplished by importing the estimates into the budget. 
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
@@ -42,9 +43,11 @@ By following these steps, well-planned estimates can be used as the foundation f
 
     - To manually create the budget, select **Manual**. A **Budget** tab is added to the page and includes a blank grid for budget lines. 
     - To create budget lines, select **New Project Budget Line**.
-    
+   
+After importing the estimates, you can make any necessary edits in the grid and add new budget lines, just as you would when creating a budget manually.
 
-For information about how to create cost budget lines, see [Project budget lines – Time, Material, Expense](project-budget-line.md).
+For information about how to create cost budget lines, see [Project budget lines – Time](project-cost-time-budget-line.md), [Material](project-cost-material-budget-line.md), [Expense](project-cost-expense-budget-line.md)
+
 
 > [!NOTE]
 > Only one cost budget can be created for each project.
