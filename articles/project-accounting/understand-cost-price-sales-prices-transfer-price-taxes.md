@@ -1,6 +1,6 @@
 ---
-title: Understand how cost prices, sales prices, transfer prices and taxes work together
-description: This article helps you understand how cost prices, sales prices, transfer prices and taxes work together.
+title: Understand how cost prices, sales prices, transfer prices, and taxes work together
+description: This article helps you understand how cost prices, sales prices, transfer prices, and taxes work together.
 author: ryansandness
 ms.date: 03/17/2023
 ms.topic: article
@@ -8,80 +8,84 @@ ms.reviewer: johnmichalak
 ms.author: ryansandness
 ---
 
-# Understand how cost prices, sales prices, transfer prices and taxes work together
+# Understand how cost prices, sales prices, transfer prices, and taxes work together
 
 _**Applies To:** Project Operations for stocked/production-based scenarios_
 
-## Overview
+You must configure several prices to calculate and determine the internal organizational cost of goods and services, and the amount that your customers are billed for, based on the sales prices that they pay. Additionally, you can set the sales price for intercompany billing by configuring transfer prices. For these scenarios, you must also consider other conditions that are related to the way that taxes are included in calculated prices.
 
-There are several different prices that need to be configured to calculate and determine the internal organizational cost of goods and services and what your customer is billed for through the sales price they pay. Additionally, you can set the sales price for intercompany billing by configuring transfer prices. For these scenarios, there are also added conditions to consider regarding how taxes are included in calculated prices.
+### Cost prices
 
-### Cost Prices
+Project cost prices exist in several areas in Project management and accounting, such as timesheets, journals, item requirements, purchase orders, and expenses. Cost prices don't apply to fees or subscriptions. They apply to all project types. 
 
-Project cost prices exist in several areas in **Project management and accounting** including timesheets, journals, item requirements, purchase orders, and expenses. Cost prices don't apply to fees or subscriptions. Cost prices apply to all project types. 
+- Cost prices for hours are configured at **Project Management and accounting** \> **Setup** \> **Cost price - (hour)**.
+- Cost prices for expenses are configured at **Project Management and accounting** \> **Setup** \> **Cost price - (expense)**.
+- Cost prices for items are configured in Inventory Management.
 
-- Cost prices for hours are configured from **Project Management and accounting** \> **Setup** \> **Cost price - (hour)**
-- Cost prices for expenses are configured from **Project Management and accounting** \> **Setup** \> **Cost price - (expense)**
-- Cost prices for items are configured within **Inventory Management** 
+### Sales prices
 
-### Sales Prices
+Sales prices exist for the previously mentioned documents, and they include fees and subscriptions. Sales prices apply differently, depending on the project type. For example, item sales prices don't apply to a fixed price project, but fee prices do apply. Sales prices apply to all document types in time and material projects.
 
-Sales prices exist for the documents previously mentioned and include fees and subscriptions. Sales prices apply differently depending on the project type. For example, item sales price wouldn't apply to a fixed price project, but fee prices would apply. Sales prices would apply for all document types in Time and material projects.
+- Sales prices for hours are configured at **Project Management and accounting** \> **Setup** \> **Sales price - (hour)**
+- Sales prices for expenses are configured at **Project Management and accounting** \> **Setup** \> **Sales price - (expense)**
+- Sales prices for fees are configured at **Project Management and accounting** \> **Setup** \> **Sales price - (fee)**
+- Sales prices for expenses are configured at **Project Management and accounting** \> **Setup** \> **Sales price - (subscription)**
+- Sales prices for items are configured in Inventory Management.
 
-- Sales prices for hours are configured from **Project Management and accounting** \> **Setup** \> **Sales price - (hour)**
-- Sales prices for expenses are configured from **Project Management and accounting** \> **Setup** \> **Sales price - (expense)**
-- Sales prices for fees are configured from **Project Management and accounting** \> **Setup** \> **Sales price - (fee)**
-- Sales prices for expenses are configured from **Project Management and accounting** \> **Setup** \> **Sales price - (subscription)**
-- Sales prices for items are configured within **Inventory Management**
-
-### Transfer Prices
+### Transfer prices
 
 Transfer prices exist for hours, expenses, and vendor invoices.
 
-Transfer prices define sales prices for workers who work on projects in related legal entities, for project expenses in other legal entities, and for purchased goods that are transferred to related legal entities. For a lending legal entity, a transfer price for an **Hour** transaction type is used as a sales price for hours that a worker spends working on a project for another legal entity in your organization. The transfer price for an **Expense** or **Vendor invoice line** transaction type is used as the value for costs that one legal entity incurs, and that a related legal entity then reimburses to that legal entity. The transfer price for these transaction types represents a project cost for the borrowing legal entity.
+Transfer prices define sales prices for workers who work on projects in related legal entities, for project expenses in other legal entities, and for purchased goods that are transferred to related legal entities.
+
+For a lending legal entity, the transfer price for an **Hour** transaction type is used as the sales price for hours that a worker spends working on a project for another legal entity in your organization. The transfer price for an **Expense** or **Vendor invoice line** transaction type is used as the value of costs that one legal entity incurs, and that a related legal entity then reimburses to that legal entity. The transfer price for these transaction types represents a project cost for the borrowing legal entity.
 
 You can set up a transfer price that applies to all project work and expenses that are recorded in a borrowing legal entity. Alternatively, you can set specific prices for any combination of worker, project, transaction type, and category criteria for each borrowing legal entity.
 
-Before you can use the transfer prices that you set up, you must enable **Enable intercompany resource scheduling and timesheets** in the **Project management and accounting parameters** form, on the **Intercompany** page.
+Before you can use the transfer prices that you set up, you must enable the **Enable intercompany resource scheduling and timesheets** option on the **Intercompany** tab of the **Project management and accounting parameters** page.
 
 ## Taxes
 
-The calculation of taxes can have an impact on both your cost and sales price. This is most noticeable when working with scenarios where the prices you're entering is inclusive of tax and a calculation is performed to determine the individual cost, tax, and sales prices.
+The calculation of taxes can have an impact on both your cost price and your sales price. This impact is most noticeable in scenarios where the prices that you enter include tax, and a calculation is done to determine the individual costs, taxes, and sales prices.
 
-### Enable the streamline cost price and sales price calculations feature
-With the 10.0.32 release, the **Streamline cost price and sales price calculations** feature is available to be enabled in your Dynamics 365 environment. With this change, improvements have been made to project-related scenarios in the following areas:
+### Enable the Streamline cost price and sales price calculations feature
 
-- Purchase orders and vendor invoices created in combination with the general ledger parameter for applying taxation rules
-- Purchase orders and vendor invoices in combination with posting with amounts including sales tax
-- Tax involving use tax
+In the 10.0.32 release, the **Streamline cost price and sales price calculations** feature can be enabled in your Dynamics 365 environment. This feature introduces improvements to project-related scenarios in the following areas:
+
+- Purchase orders and vendor invoices that are created in combination with the general ledger parameter for applying taxation rules
+- Purchase orders and vendor invoices in combination with posting where amounts include sales tax
+- Tax that involves use tax
 - Funding source limits
 - Committed costs
 - Purchase order corrections
-- Adds support for **Amount includes sales tax** in the Purchase Order header
 
-This feature should be enabled as a baseline to ensure behavior is consistent in how taxes should impact cost and sales prices.
+This feature also adds support for the **Amount includes sales tax** option on the purchase order header.
 
-### Taxes impacting project cost
-The two scenarios below are situations where taxes should be included in the project cost:
+This feature should be enabled as a baseline to ensure that taxes affect cost and sales prices in a consistent manner.
 
-- Legal entities with the sales tax parameter Sales taxation rules enabled. Typically, this is US-based legal entities. 
-- Legal entities with non-deductible tax percentages. This non-deductible tax is always included in the project cost.
+### Taxes that affect project cost
+
+In both the following scenarios, taxes should be included in the project cost:
+
+- Legal entities where the **Sales taxation rules** sales tax parameter is enabled. Typically, these legal entities are based in the United States.
+- Legal entities that use non-deductible tax percentages. This non-deductible tax is always included in the project cost.
 
 ### Expense-related scenarios with markup
-For any project expense type transaction, Dynamics 365 can modify the sales price dynamically based on one of several factors defined in the **Sales price – (expense)** form. One of the commonly used methods is to apply a **charges percentage** markup, to mark up all costs by a set amount. For example, a 5% markup on all expenses which makes a $1000 expense invoiceable at $1050 by defaulting that sales price in the vendor invoice which will later transfer to our customer invoice.
 
-Let’s look at some specific examples to understand how prices and taxes are calculated. For these examples, the tax percentage is set to 5% and there's a sales price 5% markup on cost price. We'll follow the document flow of a purchase order through to a vendor invoice and review the financial impact in the **Posted project transactions** form.
+For any project expense–type transaction, Dynamics 365 can dynamically modify the sales price, based on one of several factors that are defined on the **Sales price – (expense)** page. In one commonly used method, a *charge percentage* markup is applied to mark up all costs by a specific amount. For example, a 5-percent markup on all expenses makes a $1,000 expense invoiceable at $1,050 by entering that sales price by default on the vendor invoice. That sales price will then be transferred to the customer invoice.
 
-|Apply sales taxation rules|Amounts including Sales Tax|Non-Deductible %|Cost Price in Document|Sales Price In Document|Posted Project Cost|Posted Project Sales Price|Notes|
+The following examples will help you understand how prices and taxes are calculated. For these examples, the tax percentage is set to 5 percent, and there's a sales price 5-percent markup on the cost price. You'll follow the document flow of a purchase order through to a vendor invoice and review the financial impact on the **Posted project transactions** page.
+
+| Apply sales taxation rules | Amounts include sales tax | Non-deductible percentage | Cost price in document | Sales price in document | Posted project cost | Posted project sales price | Notes |
 |---|---|--|---|---|---|---|---|
-|No |No |0 |1000|1050|1000|1000 x 1.05 markup = 1050|   |
-|Yes|No |0 |1000|1050|1000 + 50 tax = 1050          |1000 x 1.05 markup x 1.05 tax = 1102.50|   |
-|No |No |20|1000|1050|1000 + 10 tax = 1010          |1000 x 1.05 markup x 1.01 tax = 1060.50|5% tax multiplied by 20% non-deductible = 1%. <br> 20% of 50 tax amount = 10   |
+| No | No | 0 | 1,000 | 1,050 | 1,000 | 1,000 &times; 1.05 markup = 1,050 | |
+| Yes | No | 0 | 1,000 | 1,050 | 1,000 + 50 tax = 1,050 | 1,000 &times; 1.05 markup &times; 1.05 tax = 1,102.50 | |
+| No | No | 20 | 1,000 | 1,050 | 1,000 + 10 tax = 1,010 | 1,000 &times; 1.05 markup &times; 1.01 tax = 1,060.50 | <p>5% tax multiplied by 20% non-deductible = 1%</p><p>20% of 50 tax amount = 10</p> |
 
-These same rules apply when determining the project cost and sales price when entering a purchase order with an amount that already includes sales tax. In the case of the purchase order or vendor invoice, there's an option in the header that **Prices include sales tax** to indicate the amount entered should be inclusive of tax and the base amount and tax need to be calculated from the entered amount. Since the actual cost and sales price may include a markup of tax, the amounts entered for sales price and cost will be recalculated and different values will be posted in the final voucher. Consider the examples below with the same 5% tax rate and 5% markup described earlier:
+These same rules are applied to determine the project cost and sales price when you enter a purchase order where an amount already includes sales tax. In the case of a purchase order or vendor invoice, the header includes a **Prices include sales tax** option. You can use this option to indicate that the amount that's entered should include tax, and the base amount and tax must be calculated based on the entered amount. Because the actual cost and sales price might include a markup of tax, the amounts that are entered for sales price and cost will be recalculated, and different values will be posted in the final voucher. The following examples use the same 5-percent tax rate and 5-percent markup as the previous examples.
 
-|Apply sales taxation rules|Amounts including Sales Tax|Non-Deductible %|Cost Price in Document|Sales Price In Document|Posted Project Cost|Posted Project Sales Price|Notes|
+| Apply sales taxation rules | Amounts include sales tax | Non-deductible percentage | Cost price in document | Sales price in document | Posted project cost | Posted project sales price | Notes |
 |---|---|--|---|---|---|---|---|
-|No |Yes|0 |1000|1050|1000 / 1.05 = 952.38|952.38 x 1.05 markup = 1000|Divide the original amount by 1 + tax rate for cost without tax|
-|Yes|Yes|0 |1000|1050|1000 / 1.05 = 952.38 + 47.62 tax = 1000|952.38 x 1.05 markup x 1.05 tax = 1050|Divide the original amount by 1 + tax rate for cost without tax|
-|No |Yes|20|1000|1050|1000 / 1.05 = 952.38 + 9.52 tax = 961|952.38 x 1.05 markup x 1.01 tax = 1010|5% tax multiplied by 20% non-deductible = 1%. 20% of 47.62 tax amount = 9.52
+| No | Yes | 0 | 1,000 | 1,050 | 1,000 &divide; 1.05 = 952.38 | 952.38 &times; 1.05 markup = 1,000 | Divide the original amount by 1 + tax rate for cost without tax. |
+| Yes | Yes | 0 | 1,000 | 1,050 | 1,000 &divide; 1.05 = 952.38 + 47.62 tax = 1,000 | 952.38 &times; 1.05 markup &times; 1.05 tax = 1,050 | Divide the original amount by 1 + tax rate for cost without tax. |
+| No | Yes | 20 | 1,000 | 1,050 | 1,000 &divide; 1.05 = 952.38 + 9.52 tax = 961 | 952.38 &times; 1.05 markup &times; 1.01 tax = 1,010 | <p>5% tax multiplied by 20% non-deductible = 1%</p><p>20% of 47.62 tax amount = 9.52</p> |
