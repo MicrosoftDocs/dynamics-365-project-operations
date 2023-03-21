@@ -1246,7 +1246,9 @@
        href: prod-pma/overview-project-management-accounting.md
      - name: Project adjustments
        href: project-accounting/project-adjustments.md
-  - name: Project sales process
+     - name: Understand how cost prices, sales prices, transfer prices and taxes work together
+       href: project-accounting/understand-cost-price-sales-prices-transfer-price-taxes.md
+     - name: Project sales process
     items:
      - name: Project quotations
        href: prod-pma/project-quotations.md
