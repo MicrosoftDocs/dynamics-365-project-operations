@@ -646,6 +646,8 @@
       href: revenue-recognition/cost-complete-methods.md
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md  
+    - name: Manage revenue recognition for contract lines
+      href: revenue-recognition/Revenuerecogntionforcontractlines.md  
   - name: Advanced configuration
     items:
     - name: Migrate fully invoiced billing milestones during cutover
