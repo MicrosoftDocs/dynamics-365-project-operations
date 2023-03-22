@@ -1,6 +1,6 @@
 ---
-title: Create a project budget by importing from estimates
-description: This article explains how to create a project budget by importing from estimates.
+title: Create a project budget from estimates
+description: This article explains how to create a project budget from estimates.
 author: niranjanmaski
 ms.date: 03/15/2023
 ms.topic: article
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Create a project budget by importing from estimates
+# Create a project budget from estimates
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
@@ -30,11 +30,16 @@ To enable project cost budgeting, follow these steps.
 
 After you enable the project cost budget feature, the page is refreshed, and a **Budget match priorities** tab is added.
 
-## Importing budget from estimates
+## Creating budget from estimates
 
 Projects are planned by defining tasks, assigning resources, and estimating material and expense costs. This is reflected in the estimates of the project which can be referred under **Estimates** tab, in the project's page. 
 
-By following these steps, a well-planned estimates can be used as the foundation for creating a project cost budget. This can be accomplished by importing the estimates into the budget. 
+By following these steps, a well-planned estimates can be used as the foundation for creating a project cost budget. This can be accomplished by creating the budget from estimates. 
+
+> [!NOTE]
+> Creating a budget from estimates will be executed on a best effort basis, which means that all estimates that pass budget-related validations will be created as budget lines. 
+> 
+> **Timeline** section in the project **Summary** page will display a summary of the create budget from estimates process, including any error logs for estimates that could not be created as budget lines.
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
@@ -53,20 +58,43 @@ By following these steps, a well-planned estimates can be used as the foundation
     
     - The contingency amount for each budget line will be calculated as a percentage of the budgeted amount and added to the budgeted amount for that line.
     
-    - Upon clicking the **Import** button, you will see an information strip on the project page indicating that the budget import from estimates is in progress.
+    - Upon clicking the **Import** button, you will see an information strip on the project page indicating that the budget creation from estimates is in progress.
          
-    - 
+    - Budget creation would take some time based on number of estimates involved, wait for the **Notification** to indicate that the budget creation from estimates is completed.
     
-    - A **Budget** tab is added to the page and budget lines which were successfully imported can be seen in the grid. 
+    - After the budget creation from estimates process is complete, a new **Budget** tab will be added to the project page. 
+    
+    - A budget version will be created in **Draft** status, and you can view the budget lines which are successfully created from estimates in the grid.
+    
+    - To view the summary of the budget creation from estimates process, check the **Timeline** section on the project summary tab.
     
        
-After importing the estimates, you can make any necessary edits in the grid and can also add new budget lines, just as you would when creating a budget manually.
+After creation of budget from estimates, you can make any necessary edits in the grid and can also add any new budget lines, just as you would when creating a budget manually.
 
-For information about how to create cost budget lines, see [Project budget lines – Time](project-cost-time-budget-line.md), [Material](project-cost-material-budget-line.md), [Expense](project-cost-expense-budget-line.md)
+For information about how to create additional cost budget lines, see [Project budget lines – Time](project-cost-time-budget-line.md), [Material](project-cost-material-budget-line.md), [Expense](project-cost-expense-budget-line.md)
 
+
+## Re-importing estimates to create budget
+
+In case there are errors during creation of budget from estimates, you can make the necessary changes to the estimates to address the errors, and then attempt to re-create the budget from estimates.
 
 > [!NOTE]
-> Only one cost budget can be created for each project.
+> Re-importing estimates to create a budget will result in the deletion and recreation of the budget, and any changes made to the budget will be overwritten.
+
+> [!NOTE]
+> Re-importing estimates would be enabled only if the budget is in **Draft** status.
+
+To re-import estimates to create a budget, follow these steps.
+
+1. Sign in to Project Operations.
+1. In the left navigation, change the area to **Projects**.
+1. Select the project to re-import estimates to create budget.
+1. On the project page, select **Budget**, and then select **Reimport estimates**.
+1. A confirmation dialog will open to confirm if you want to reimport estimates as it would delete all budget lines and recreate from estimates.
+1. Click **OK** to reimport. This would open the **Import from estimates** dialog and follow the steps mentioned in the section [Create budget from estimates](create-project-budget-from-estimates.md#creating-budget-from-estimates)
+
+
+
 
 ## Delete a project cost budget
 
