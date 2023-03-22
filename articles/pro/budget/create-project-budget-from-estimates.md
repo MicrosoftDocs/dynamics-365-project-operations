@@ -97,7 +97,6 @@ To re-import estimates to create a budget, follow these steps.
 
 
 
-
 ## Delete a project cost budget
 
 > [!NOTE]
