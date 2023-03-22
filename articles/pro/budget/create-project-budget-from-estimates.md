@@ -39,7 +39,7 @@ By following these steps, a well-planned estimates can be used as the foundation
 > [!NOTE]
 > Creating a budget from estimates will be executed on a best effort basis, which means that all estimates that pass budget-related validations will be created as budget lines. 
 > 
-> **Timeline** section in the project **Summary** page will display a summary of the create budget from estimates process, including any error logs for estimates that could not be created as budget lines.
+> **Timeline** section in the project **Summary** page will provide a summary of the creating budget from estimates action. 
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
@@ -68,7 +68,9 @@ By following these steps, a well-planned estimates can be used as the foundation
     
     - To view the summary of the budget creation from estimates process, check the **Timeline** section on the project summary tab.
     
-       
+> [!NOTE]
+> If an estimate can't be converted into a budget line, the reason for the failure is logged in the error log, which can be accessed from the **Timeline** section of the project summary tab. By addressing these errors, you can resolve the issues and re-import the estimates.
+    
 After creation of budget from estimates, you can make any necessary edits in the grid and can also add any new budget lines, just as you would when creating a budget manually.
 
 For information about how to create additional cost budget lines, see [Project budget lines – Time](project-cost-time-budget-line.md), [Material](project-cost-material-budget-line.md), [Expense](project-cost-expense-budget-line.md)
@@ -90,8 +92,8 @@ To re-import estimates to create a budget, follow these steps.
 1. In the left navigation, change the area to **Projects**.
 1. Select the project to re-import estimates to create budget.
 1. On the project page, select **Budget**, and then select **Reimport estimates**.
-1. A confirmation dialog will open to confirm if you want to reimport estimates as it would delete all budget lines and recreate from estimates.
-1. Click **OK** to reimport. This would open the **Import from estimates** dialog and follow the steps mentioned in the section [Create budget from estimates](create-project-budget-from-estimates.md#creating-budget-from-estimates)
+1. A confirmation dialog will open to confirm if you want to reimport estimates, as it would delete all budget lines and recreate budget from estimates.
+1. Click **OK** to reimport. This would open the **Import from estimates** dialog and you can follow the steps mentioned in the section [Create budget from estimates](create-project-budget-from-estimates.md#creating-budget-from-estimates)
 
 
 
