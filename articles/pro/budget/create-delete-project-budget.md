@@ -43,7 +43,7 @@ To create a project cost budget, follow these steps.
     - To create budget lines, select **New Project Budget Line**.
     
 
-For information about how to create cost budget lines, see [Project budget lines – Time, Material, Expense](project-budget-line.md).
+For information about how to create cost budget lines, see [Project budget lines – Time](project-cost-time-budget-line.md), [Material](project-cost-material-budget-line.md), [Expense](project-cost-expense-budget-line.md).
 
 > [!NOTE]
 > Only one cost budget can be created for each project.
