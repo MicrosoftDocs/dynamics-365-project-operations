@@ -1,9 +1,10 @@
 ---
-title: Project material budget line.
+title: Project material budget line
 description: This article explains how to create project cost material budget line.
 author: niranjanmaski
 ms.date: 03/13/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
@@ -11,6 +12,8 @@ ms.author: nimaski
 # Project material budget line.
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
+
+This article explains how to create a budget line for the transaction class Material.
 
 A project budget has budget lines that are a snapshot of the budgeted quantity and amount.
 
@@ -20,9 +23,7 @@ Project budget lines can be created under three transaction classes:
 - A **Material** budget line tracks the consumed materials that are approved against the project.
 - An **Expense** budget line tracks the approved expenses against the project.
 
-This article explains how to create a budget line for the transaction class Material.
-
-> [!NOTE]
+> [!Note]
 > Budget dimensions should be unique across all budget lines. You can't create multiple budget lines that have the same dimensions.
 
 ## Create a Material budget line
