@@ -1,6 +1,6 @@
 ---
 title: Project expense budget line
-description: This article describes how to create project cost expense budget line.
+description: This article explains how to create project cost expense budget line.
 author: niranjanmaski
 ms.date: 03/13/2023
 ms.topic: how-to
