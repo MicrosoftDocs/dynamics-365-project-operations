@@ -1,9 +1,10 @@
 ---
-title: Project expense budget line.
-description: This article explains how to create project cost expense budget line.
+title: Project expense budget line
+description: This article describes how to create project cost expense budget line.
 author: niranjanmaski
 ms.date: 03/13/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
@@ -11,6 +12,8 @@ ms.author: nimaski
 # Project expense budget line.
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
+
+This article explains how to create a budget line for the transaction class Expense.
 
 A project budget has budget lines that are a snapshot of the budgeted quantity and amount.
 
@@ -20,9 +23,7 @@ Project budget lines can be created under three transaction classes:
 - A **Material** budget line tracks the consumed materials that are approved against the project.
 - An **Expense** budget line tracks the approved expenses against the project.
 
-This article explains how to create a budget line for the transaction class Expense.
-
-> [!NOTE]
+> [!Note]
 > Budget dimensions should be unique across all budget lines. You can't create multiple budget lines that have the same dimensions.
 
 ## Create an Expense budget line
@@ -33,14 +34,8 @@ To create a project budget line for the **Expense** transaction class, follow th
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
-1. Select the project to create the **Expense** budget line for.
-
-    Because a project budget was previously created, the **Budget** tab should be visible.
-
-1. Select **New Project Budget Line** to create a budget line.
-
-    A quick create form appears. By default, the **Transaction class** field is set to **Time**.
-
+1. Select the project to create the **Expense** budget line for. Because a project budget was previously created, the **Budget** tab should be visible.
+1. Select **New Project Budget Line** to create a budget line. A quick create form appears. By default, the **Transaction class** field is set to **Time**.
 1. Update all the fields in the form according to the table that follows.
 1. When you've finished, select **Save & Create New** to create another budget line, or select **Save & Close** to save the details and close the quick create form.
 1. You can edit budget line fields in the grid on the **Budget** tab. Changes are saved when you select the **Tab** key to move to the next line in the grid. Edits can be made only until the budget is submitted for approval.
