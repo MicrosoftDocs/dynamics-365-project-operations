@@ -34,14 +34,8 @@ To create a project budget line for the **Material** transaction class, follow t
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
-1. Select the project to create the **Material** budget line for.
-
-    Because a project budget was previously created, the **Budget** tab should be visible.
-
-1. Select **New Project Budget Line** to create a budget line.
-
-    A quick create form appears. By default, the **Transaction class** field is set to **Time**.
-
+1. Select the project to create the **Material** budget line for. Because a project budget was previously created, the **Budget** tab should be visible.
+1. Select **New Project Budget Line** to create a budget line. A quick create form appears. By default, the **Transaction class** field is set to **Time**.
 1. Update all the fields in the form according to the table that follows.
 1. When you've finished, select **Save & Create New** to create another budget line, or select **Save & Close** to save the details and close the quick create form.
 1. You can edit budget line fields in the grid on the **Budget** tab. Changes are saved when you select the **Tab** key to move to the next line in the grid. Edits can be made only until the budget is submitted for approval.
