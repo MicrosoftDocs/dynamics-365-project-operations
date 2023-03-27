@@ -35,9 +35,9 @@ After you enable the project cost budget feature, the page is refreshed, and a *
 
 ## Create a budget from an estimate
 
-Projects are planned by defining tasks, assigning resources, and estimating material and expense costs. This is reflected in the estimates of the project which can be referred to under **Estimates** tab, in the project's page. 
+Projects are planned by defining tasks, assigning resources, and estimating material and expense costs. This is reflected in the estimates of the project, which can be referred to under **Estimates** tab, in the project's page. 
 
-By following these steps, a well-planned estimates can be used as the foundation for creating a project cost budget. This can be accomplished by creating the budget from estimates. 
+By following these steps, well-planned estimates can be used as the foundation for creating a project cost budget. This can be accomplished by creating the budget from estimates. 
 
 > [!Note]
 > Creating a budget from estimate will be executed on a best effort basis, which means that all estimates that pass budget-related validations will be created as budget lines. 
@@ -55,16 +55,16 @@ To create a budget from an estimate, follow these steps.
       - If you want to create time budget lines based on the resources assigned to the tasks, from the **Time source** drop-down, select **Resource Assignments**. You can see these estimates under **Resource Assignments** tab on the project page. 
       - If you want to create time budget lines based on the resources made part of project team members, from the **Time source** drop-down, select **Project team members**. You can see these under **Team** tab on the project page. 
    1. In the **Contingency** section of the dialog box, indicate the percentage by which you would like to increase the **Time**, **Material**, and **Expense** budget lines as contingency. The contingency amount for each budget line is calculated as a percentage of the budgeted amount and added to the budgeted amount for that line.
-   1. After selecting the **Import** button, you will see an information strip on the project page that indicates the budget creation from estimates is in progress. Budget creation takes some time depending on the number of estimates involved, wait until the **Notification** indicates that the budget creation from estimates is complete. 
+   1. After selecting the **Import** button, you'll see an information strip on the project page that indicates the budget creation from estimates is in progress. Budget creation takes some time depending on the number of estimates involved, wait until the **Notification** indicates that the budget creation from estimates is complete. 
 
-After the budget creation from estimates process is complete, a new **Budget** tab is added to the project page. A budget version will be created in **Draft** status, and you can view the budget lines which are successfully created from estimates in the grid. To view the summary of the budget creation from estimates process, check the **Timeline** section on the project summary tab.
+After the budget creation from estimates process is complete, a new **Budget** tab is added to the project page. A budget version will be created in **Draft** status, and you can view the budget lines, which are successfully created from estimates in the grid. To view the summary of the budget creation from estimates process, check the **Timeline** section on the project summary tab.
     
 > [!Note]
 > If an estimate can't be converted into a budget line, the reason for the failure is logged in the error log, which is accessed from the **Timeline** section of the project summary tab. By addressing these errors, you can resolve the issues and re-import the estimates.
     
 After creation of budget from estimates, you can make any necessary edits in the grid and can also add any new budget lines, just as you would when creating a budget manually.
 
-For information about how to create additional cost budget lines, see [Project budget lines – Time](project-cost-time-budget-line.md), [Material](project-cost-material-budget-line.md), [Expense](project-cost-expense-budget-line.md)
+For information about how to create more cost budget lines, see [Project budget lines – Time](project-cost-time-budget-line.md), [Material](project-cost-material-budget-line.md), [Expense](project-cost-expense-budget-line.md)
 
 
 ## Re-importing estimates to create budget
