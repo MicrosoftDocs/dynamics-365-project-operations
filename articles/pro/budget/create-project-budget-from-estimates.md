@@ -3,7 +3,8 @@ title: Create a project budget from estimates
 description: This article describes how to create a project budget from estimates.
 author: niranjanmaski
 ms.date: 03/15/2023
-ms.topic: article
+ms.topic: how-to
+This article explains how to create a budget line for the transaction class Expense.
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
