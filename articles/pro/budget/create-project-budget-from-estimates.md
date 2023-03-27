@@ -1,6 +1,6 @@
 ---
-title: Create a project budget from estimates
-description: This article explains how to create a project budget from estimates.
+title: Create a project budget from an estimate
+description: This article explains how to create a project budget from an estimate.
 author: niranjanmaski
 ms.date: 03/15/2023
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Create a project budget from estimates
+# Create a project budget from an estimate
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
@@ -33,7 +33,7 @@ To enable project cost budgeting, follow these steps.
 
 After you enable the project cost budget feature, the page is refreshed, and a **Budget match priorities** tab is added.
 
-## Create a budget from an estimates
+## Create a budget from an estimate
 
 Projects are planned by defining tasks, assigning resources, and estimating material and expense costs. This is reflected in the estimates of the project which can be referred to under **Estimates** tab, in the project's page. 
 
@@ -84,7 +84,7 @@ To re-import estimates to create a budget, follow these steps.
 1. Select the project to re-import estimates to create budget.
 1. On the project page, select **Budget**, and then select **Reimport estimates**.
 1. A confirmation dialog opens to confirm if you want to reimport estimates, as it would delete all budget lines and recreate budget from estimates.
-1. Click **OK** to reimport. This would open the **Import from estimates** dialog and you can follow the steps mentioned in the section [Create budget from estimates](create-project-budget-from-estimates.md#creating-budget-from-estimates)
+1. Click **OK** to reimport. This would open the **Import from estimates** dialog and you can follow the steps mentioned in the section [Create budget from estimates](create-a-project-budget-from-an-estimate.md#creating-budget-from-estimates)
 
 
 ## Delete a project cost budget
