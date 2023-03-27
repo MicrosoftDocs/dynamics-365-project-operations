@@ -3,7 +3,8 @@ title: Re-evaluate cost actual to budget association
 description: This article explains how to re-evaluate actual to cost budget association. 
 author: niranjanmaski
 ms.date: 03/20/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
@@ -12,26 +13,27 @@ ms.author: nimaski
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
-Project cost actuals which are created against the project will go through the approval process and would be available under **Actuals** tab. Actuals tab can be
-added to project page, from the **Related** entities. 
+This article explains how to re-evaluate cost actual to budget association.
 
-Actuals are also available under **Sales** in the left navigation, change the area to **Sales**, under Transactions in the left navigation, select **Actuals** to see
-**Active Actuals** view. Filter by the **ProjectID** and add the project name you are interested to see all actuals of a particular project.
+Project cost actuals, which are created against the project, go through the approval process and are available under **Actuals** tab. The **Actuals** tab can be
+added to the project page using **Related** entities. 
 
-Once a project budget is created and approved as per, [budget creation](create-delete-project-budget.md) and [budget approval](project-budget-status-mgmt.md), project
-cost actuals would be attempted to be matched against the approved budget lines. Matching of an actual to a budget line would follow the [budget line match priority](budget-line-match-priority.md).
+Actuals are also available under **Sales** in the left navigation. Change the area to **Sales** and select **Transactions** in the left navigation, and then select **Actuals** to see the **Active Actuals** view. Filter by the **ProjectID**, and add the project name you are interested in to see all actuals for the project.
 
-The budget line to which the project cost actual is matched is available in the **Actuals** page under the tab **Budget Associations**.
+Once a project budget is created and approved using either, [budget creation](create-delete-project-budget.md) and [budget approval](project-budget-status-mgmt.md), project cost actuals are matched against the approved budget lines. Matching actuals to a budget lines follows the [budget line match priority](budget-line-match-priority.md).
 
-## How to re-evaluate cost actuals to budget association?
+The budget line to which the project cost actual is matched is available in the **Actuals** page on the **Budget Associations** tab.
 
-1. In **Actuals** list page, in **Active Actuals** view, select the cost actuals you wish to re-evaluate.
-2. **Re-evaluate Budget association** ribbon action would appear on the top of the page.
-3. Click **Re-evaluate Budget association**, the actual would be scheduled for re-evaluation.
-4. Other option is to click on cost actual, **Re-evaluate Budget association** ribbon action would be available, if clicked would also schedule the actual for re-evaluation.
-5. Cost actual to budget matching periodic job would pick the actual for evaluation. This job runs for every 5 mins, as a default configuration.
-6. To check the status, click on the cost actual, under **General** tab, two fields **Budget Evaluation Status** and **Budget Evaluation Result** will have the status. 
-7. If a cost actual is associated to a budget line it is available in **Budget Associations** tab.
+## How to re-evaluate cost actuals to budget association
+
+To re-evaluate cost actuals to budget association, follow these steps.
+
+1. On the **Actuals** list page, in the **Active Actuals** view, select the cost actuals you want to re-evaluate. The **Re-evaluate Budget association** ribbon action appears on the top of the page.
+1. Select **Re-evaluate Budget association**, the actual would be scheduled for re-evaluation. Another option is to select a cost actual, then the **Re-evaluate Budget association** ribbon action is available, also schedules the actual for re-evaluation. 
+
+The cost actual to budget matching periodic job then picks up the actual for evaluation. This job runs for every 5 mins, as a default configuration. To check the status, select the cost actual, then select the **General** tab. The **Budget Evaluation Status** and the **Budget Evaluation Result** fields show the status. 
+
+If a cost actual is associated to a budget line, it is available in **Budget Associations** tab.
 
 The following table explains how to interpret the status of the re-evaluate action.
 
