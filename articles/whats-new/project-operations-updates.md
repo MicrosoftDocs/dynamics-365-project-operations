@@ -42,24 +42,24 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.60.0.112     | February 24, 2023  | February 24, 2023   | TBD                 | March 17, 2023      |
+|   &nbsp;  | First Release         |  4.60.0.112     | February 24, 2023  | February 24, 2023   | 4.61.0.65           | March 17, 2023      |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.60.0.112     | February 24, 2023  | February 24, 2023   | TBD                 | March 17, 2023      |
-|   &nbsp;  | Canada                |  4.60.0.112     | February 24, 2023  | February 24, 2023   | TBD                 | March 17, 2023      |
-|   &nbsp;  | India                 |  4.60.0.112     | February 24, 2023  | February 24, 2023   | TBD                 | March 17, 2023      |
-|   &nbsp;  | France                |  4.60.0.112     | February 24, 2023  | February 24, 2023   | TBD                 | March 17, 2023      |
-|   &nbsp;  | South Africa          |  4.60.0.112     | February 24, 2023  | February 24, 2023   | TBD                 | March 17, 2023      |
-|   &nbsp;  | Switzerland           |  4.60.0.112     | February 24, 2023  | February 24, 2023   | TBD                 | March 17, 2023      |
+|   &nbsp;  | South America         |  4.60.0.112     | February 24, 2023  | February 24, 2023   | 4.61.0.65           | March 17, 2023      |
+|   &nbsp;  | Canada                |  4.60.0.112     | February 24, 2023  | February 24, 2023   | 4.61.0.65           | March 17, 2023      |
+|   &nbsp;  | India                 |  4.60.0.112     | February 24, 2023  | February 24, 2023   | 4.61.0.65           | March 17, 2023      |
+|   &nbsp;  | France                |  4.60.0.112     | February 24, 2023  | February 24, 2023   | 4.61.0.65           | March 17, 2023      |
+|   &nbsp;  | South Africa          |  4.60.0.112     | February 24, 2023  | February 24, 2023   | 4.61.0.65           | March 17, 2023      |
+|   &nbsp;  | Switzerland           |  4.60.0.112     | February 24, 2023  | February 24, 2023   | 4.61.0.65           | March 17, 2023      |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
-|   &nbsp;  | Asia Pacific          |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
-|   &nbsp;  | Great Britain         |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
-|   &nbsp;  | Oceania               |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
-|   &nbsp;  | United Arab Emirates  |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 24, 2023      |
+|   &nbsp;  | Japan                 |  4.60.0.112     | March 10, 2023     | March 10, 2023      | 4.61.0.65           | March 24, 2023      |
+|   &nbsp;  | Asia Pacific          |  4.60.0.112     | March 10, 2023     | March 10, 2023      | 4.61.0.65           | March 24, 2023      |
+|   &nbsp;  | Great Britain         |  4.60.0.112     | March 10, 2023     | March 10, 2023      | 4.61.0.65           | March 24, 2023      |
+|   &nbsp;  | Oceania               |  4.60.0.112     | March 10, 2023     | March 10, 2023      | 4.61.0.65           | March 24, 2023      |
+|   &nbsp;  | United Arab Emirates  |  4.60.0.112     | March 10, 2023     | March 10, 2023      | 4.61.0.65           | March 24, 2023      |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.60.0.112     | March 10, 2023     | March 10, 2023      | TBD                 | March 31, 2023      |
+|   &nbsp;  | Europe                |  4.60.0.112     | March 10, 2023     | March 10, 2023      | 4.61.0.65           | March 31, 2023      |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.60.0.112     | March 17, 2023     | March 17, 2023      | TBD                 | April 7, 2023       |
+|   &nbsp;  | North America         |  4.60.0.112     | March 24, 2023     | March 24, 2023      | 4.61.0.65           | April 7, 2023       |
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
