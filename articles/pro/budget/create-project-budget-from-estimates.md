@@ -86,7 +86,7 @@ To re-import estimates to create a budget, follow these steps.
 1. Select the project to re-import estimates for to create a budget.
 1. On the project page, select **Budget**, and then select **Reimport estimates**.
 1. A message box notifies you that a re-import of estimates will delete all budget lines and re-create the budget from estimates. Select **OK** to confirm that you want to re-import estimates.
-1. In the **Import from estimates** dialog box, follow the steps in the [Create a budget from an estimate](create-project-budget-from-estimates.md#create-a-budget-from-an-estimate) section.
+1. In the **Import from estimates** dialog box, follow the steps in the [Create a budget from estimates](#create-a-budget-from-estimates) section.
 
 ## Delete a project cost budget
 
