@@ -38,14 +38,14 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-|Billing and Pricing|2904555|Block updates to Intercompany and Owning Company pricing dimensions|
-|Opportunity Management|3194606|Unable to Revise Quote with Write-in Material quote line details|
-|Project Operations Upgrade|3236820|The upgrade from version 3.x to 4.x is unsuccessful because of dependencies on other solutions|
-|Project Operations Upgrade|3264007|PSA to PO upgrade may fail on solution import at adding fields to ProductPriceLevel|
-|Project Planning and Tracking|3118566|PostProjectCreate plugin must check for Primary Requirement before Creating one|
-|Project Planning and Tracking|3258616|Copy project with one team member fails in Integrated Environment|
-|Subcontracting|3106796|Can attach Time-base subcontract line to Product-Based Order line|
-|Subcontracting|3196083|Material Subcontract Lines are not defaulting product unit & unit group as per subcontracting price list|
+|Billing and Pricing|2904555|Block updates to Intercompany and Owning Company pricing dimensions.|
+|Opportunity Management|3194606|Unable to Revise Quote with Write-in Material quote line details.|
+|Project Operations Upgrade|3236820|The upgrade from version 3.x to 4.x is unsuccessful because of dependencies on other solutions.|
+|Project Operations Upgrade|3264007|PSA to PO upgrade may fail on solution import at adding fields to ProductPriceLevel.|
+|Project Planning and Tracking|3118566|PostProjectCreate plugin must check for Primary Requirement before Creating one.|
+|Project Planning and Tracking|3258616|Copy project with one team member fails in Integrated Environment.|
+|Subcontracting|3106796|Can attach Time-base subcontract line to Product-Based Order line.|
+|Subcontracting|3196083|Material Subcontract Lines are not defaulting product unit & unit group as per subcontracting price list.|
 
 ### Project management and accounting in Finance
 
