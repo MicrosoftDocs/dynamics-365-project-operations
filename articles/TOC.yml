@@ -1006,12 +1006,24 @@
       href: pro/budget/keyconcepts-projectbudget.md 
     - name: Create and delete project cost budgets
       href: pro/budget/create-delete-project-budget.md
-    - name: Project budget line – time, material, and expense
-      href: pro/budget/project-budget-line.md
+    - name: Create a project budget from estimates
+      href: pro/budget/create-project-budget-from-estimates.md
+    - name: Project budget line
+      items:
+      - name: Project time budget lines
+        href: pro/budget/project-cost-time-budget-line.md
+      - name: Project material budget lines
+        href: pro/budget/project-cost-material-budget-line.md
+      - name: Project expense budget lines
+        href: pro/budget/project-cost-expense-budget-line.md
     - name: Project budget status management
       href: pro/budget/project-budget-status-mgmt.md
     - name: Budget line match priority
       href: pro/budget/budget-line-match-priority.md
+    - name: Re-evaluate the cost actual-to-budget association
+      href: pro/budget/reevaluate-actual-budget-association.md
+    - name: Revise a project cost budget
+      href: pro/budget/revise-project-cost-budget.md
   - name: Resource management
     items: 
     - name: Key concepts
