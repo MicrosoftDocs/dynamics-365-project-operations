@@ -154,6 +154,8 @@
       items:
       - name: Manage project quotes overview
         href: pro/sales/manage-quotes-sales.md
+      - name: New Quote Form experience
+        href: sales/quotes-new-form.md
       - name: Concepts unique to project-based quotes 
         href: sales/quotes-key-concepts.md
       - name: Header details for project-based quotes
