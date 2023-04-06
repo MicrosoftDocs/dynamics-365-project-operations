@@ -12,10 +12,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
 ms.reviewer: johnmichalak
 ---
 # Assign generic bookable resources to a task and generate resource requirements 

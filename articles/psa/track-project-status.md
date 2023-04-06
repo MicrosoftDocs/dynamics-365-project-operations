@@ -12,10 +12,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
 ms.reviewer: johnmichalak
 ---
 # Track a project’s status (Project Service)

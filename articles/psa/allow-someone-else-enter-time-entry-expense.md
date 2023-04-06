@@ -12,10 +12,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
 ms.reviewer: johnmichalak
 ---
 # Allow someone else to enter your time entry or expense (Project Service)
