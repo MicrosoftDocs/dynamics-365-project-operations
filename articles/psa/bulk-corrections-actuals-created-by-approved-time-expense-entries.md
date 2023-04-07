@@ -16,8 +16,6 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: 7.0
 ms.search.validFrom: 2019-01-15
-search.app: 
-  - ProjectOperations
 ---
 
 # Bulk corrections of actuals created by approved time and expense entries

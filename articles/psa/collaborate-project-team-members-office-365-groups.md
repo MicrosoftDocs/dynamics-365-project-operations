@@ -12,10 +12,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
 ms.reviewer: johnmichalak
 ---
 # Collaborate with your project team members with Office 365 Groups (Project Service)

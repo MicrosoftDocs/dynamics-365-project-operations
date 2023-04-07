@@ -12,10 +12,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
 ms.reviewer: johnmichalak
 ---
 # Resource bookings and how they relate to task assignments
