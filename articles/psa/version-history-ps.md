@@ -19,10 +19,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
 ---
 
 # Update release schedule for Project Service 3.x

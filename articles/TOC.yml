@@ -62,10 +62,14 @@
       href: environment/uninstall-project-operations.md
   - name: What's new 
     items:
-    - name: February 2023 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-feb-2023-resource-based.md
+    - name: April 2023 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-apr-2023-resource-based.md
     - name: Archive
       items:
+       - name: March 2023 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-mar-2023-resource-based.md
+       - name: February 2023 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-feb-2023-resource-based.md
        - name: January 2023 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-jan-2023-resource-based.md
        - name: November 2022 - Project Operations for resource/non-stocked based scenarios
@@ -150,6 +154,8 @@
       items:
       - name: Manage project quotes overview
         href: pro/sales/manage-quotes-sales.md
+      - name: New Quote Form experience
+        href: sales/quotes-new-form.md
       - name: Concepts unique to project-based quotes 
         href: sales/quotes-key-concepts.md
       - name: Header details for project-based quotes
@@ -644,6 +650,8 @@
       href: revenue-recognition/cost-complete-methods.md
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md  
+    - name: Manage revenue recognition for contract lines
+      href: revenue-recognition/Revenuerecogntionforcontractlines.md  
   - name: Advanced configuration
     items:
     - name: Migrate fully invoiced billing milestones during cutover
@@ -682,10 +690,14 @@
       href: environment/security-model.md
   - name: What's new
     items:
-    - name: What's new February 2023 - lite deployment
-      href: pro/whats-new/whats-new-feb-2023-lite.md
+    - name: What's new April 2023 - lite deployment
+      href: pro/whats-new/whats-new-apr-2023-lite.md
     - name: Archive
       items:
+      - name: What's new March 2023 - lite deployment
+        href: pro/whats-new/whats-new-mar-2023-lite.md
+      - name: What's new February 2023 - lite deployment
+        href: pro/whats-new/whats-new-feb-2023-lite.md
       - name: What's new January 2023 - lite deployment
         href: pro/whats-new/whats-new-jan-2023-lite.md
       - name: What's new November 2022 - lite deployment
@@ -996,12 +1008,24 @@
       href: pro/budget/keyconcepts-projectbudget.md 
     - name: Create and delete project cost budgets
       href: pro/budget/create-delete-project-budget.md
-    - name: Project budget line – time, material, and expense
-      href: pro/budget/project-budget-line.md
+    - name: Create a project budget from estimates
+      href: pro/budget/create-project-budget-from-estimates.md
+    - name: Project budget line
+      items:
+      - name: Project time budget lines
+        href: pro/budget/project-cost-time-budget-line.md
+      - name: Project material budget lines
+        href: pro/budget/project-cost-material-budget-line.md
+      - name: Project expense budget lines
+        href: pro/budget/project-cost-expense-budget-line.md
     - name: Project budget status management
       href: pro/budget/project-budget-status-mgmt.md
     - name: Budget line match priority
       href: pro/budget/budget-line-match-priority.md
+    - name: Re-evaluate the cost actual-to-budget association
+      href: pro/budget/reevaluate-actual-budget-association.md
+    - name: Revise a project cost budget
+      href: pro/budget/revise-project-cost-budget.md
   - name: Resource management
     items: 
     - name: Key concepts
@@ -1224,10 +1248,12 @@
         href: whats-new/ur5-nonstocked-installation.md
   - name: What's new
     items:
-    - name: What's new February 2023 - Project Operations for stocked/production-based scenarios
-      href: prod-pma/whats-new/whats-new-feb-2023-stocked.md
+    - name: What's new April 2023 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-apr-2023-stocked.md
     - name: Archive
       items:
+      - name: What's new February 2023 - Project Operations for stocked/production-based scenarios
+        href: prod-pma/whats-new/whats-new-feb-2023-stocked.md
       - name: What's new October 2022 - Project Operations for stocked/production-based scenarios
         href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
       - name: What's new September 2022 - Project Operations for stocked/production-based scenarios
@@ -1262,6 +1288,8 @@
        href: prod-pma/overview-project-management-accounting.md
      - name: Project adjustments
        href: project-accounting/project-adjustments.md
+     - name: Understand how cost prices, sales prices, transfer prices and taxes work together
+       href: project-accounting/understand-cost-price-sales-prices-transfer-price-taxes.md
   - name: Project sales process
     items:
      - name: Project quotations

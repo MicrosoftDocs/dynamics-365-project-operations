@@ -11,9 +11,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
 ms.reviewer: johnmichalak
 ---
 
