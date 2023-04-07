@@ -9,7 +9,6 @@ applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
-search.app: 
 ---
 
 

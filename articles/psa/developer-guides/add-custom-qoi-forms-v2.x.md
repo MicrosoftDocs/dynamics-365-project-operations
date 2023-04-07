@@ -11,9 +11,6 @@ audience: admin
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365PS
-  - ProjectOperations
 ms.reviewer: johnmichalak
 ---
 
