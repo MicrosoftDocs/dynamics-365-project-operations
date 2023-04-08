@@ -53,8 +53,14 @@ As projects naturally evolves, so do the Bookings – and the Bookings statuses 
 
 The following table describes the possible booking statuses changes and some typical situations when these changes are applicable:
 
-
-
+| **Current Status** | **To Status** | **Typical Scenario** | **Impact on Capacity and Project Team Member** |
+| --- | --- | --- | --- |
+| Proposed | Soft | Resource Manager proposed a resource based on a Request, but the Project Manager is still not ready to confirm that booking | Adds resource to the Project Team Member |
+| Proposed | Hard | Resource Manager proposed a resource based on a Request and the Project Manager wants to confirm that booking | Adds resource to the Project Team Member Consumes Resource capacity|
+| Proposed | Canceled | Resource Manager proposed a resource to a request and the Project Manager did not accept it | No impact |
+| Soft | Hard | A Project that was waiting to be signed is confirmed and Proposed resources must be hard booked to the project | Consumes Resource capacity |
+| Soft | Canceled | A Project that was waiting to be signed is cancelled and Proposed resources must be freed | No impact |
+| Hard | Canceled | A task was suspended and a hard booked resource must be freed. |  Frees Resource Capacity |
 
 
 ## Recommennded Content
