@@ -38,7 +38,7 @@ When operating in Centralized mode, Project Managers request resources with spec
 
 At any point in time, all Booking statuses can be Canceled. Canceling a booking frees Resource’s capacity allocated time but doesn’t remove the resource from the Project’s Team Member grid. 
 
-## Resource Rerquirement Types
+## Resource Requirement Types
 
 Due to Project Operations technical design, Bookings must always be performed against a resource requirement. The process to generate a resource requirement is available in the project’s Team Member Grid and can be for a Generic Resource or for a Named Resource.
 When there is the need to book a resource directly to a project but there isn’t any specific request to that need (for example, when a Resource Manager or a Project Manager wants to allocate a resource to a project prior to have an Resource requirement)  it is possible to book the resource against the project requirement (known as Primary requirement, which is automatically created when a project is created).
