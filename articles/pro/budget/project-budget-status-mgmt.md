@@ -43,11 +43,11 @@ To approve a project budget, follow these steps.
     If a budget has been created, the **Budget** tab is visible, and budget lines have been created according to the requirements of the project.
 
 1. Make sure that all the budget lines have been created, and that you want to approve the budget.
-1. On the Action Pane, select **Submit budget**.
+1. On the command bar, select **Submit budget**.
 
     The budget moves to **In Review** status and can no longer be edited.
 
-1. After the submitted budget is validated, select **Budget** on the Action Pane. The menu that appears has two options: **Approve** and **Reject**. Follow one of these steps:
+1. After the submitted budget is validated, select **Budget** on the command bar. The menu that appears has two options: **Approve** and **Reject**. Follow one of these steps:
 
     - To approve the submitted budget, select **Approve**.
     - If you want additional changes to be made to the budget, select **Reject**. The budget moves to **Rejected** status and can be edited. After the required edits are made, the budget can be submitted again for approval.
@@ -67,7 +67,7 @@ To delete a project budget, follow these steps.
 
     If a budget has been created, the **Budget** tab is visible, and budget lines have been created according to the requirements of the project.
 
-1. On the Action Pane, select **Budget**, and then select **Delete**.
+1. On the command bar, select **Budget**, and then select **Delete**.
 
     The **Delete** option is available only if the budget is in a status that allows for deletion. (A budget can be deleted only if it's in either **Draft** or **Rejected** status. It can't be deleted if it's in **In Review**, **Approved** or **Revised** status.)
 
