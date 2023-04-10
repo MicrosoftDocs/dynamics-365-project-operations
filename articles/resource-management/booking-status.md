@@ -63,7 +63,7 @@ The following table describes the possible booking statuses changes and some typ
 | Hard | Canceled | A task was suspended and a hard booked resource must be freed. |  Frees Resource Capacity |
 
 
-## Recommennded Content
+## Recommended Content
 
 - [Resource bookings and how they relate to task assignments](dynamics365/project-operations/psa/faq-bookings-and-assignments?source=recommendations)
   This article provides information about how to manage named resources, resource bookings and task assignments and how they relate to each other.
