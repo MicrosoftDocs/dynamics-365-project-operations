@@ -28,10 +28,10 @@ Whether you add a team member directly to a project on the **Team** tab, or book
 
 The following table shows and example and how each of the booking allocation methods behaves:
 
-| Booking allocation method | Resource Requirement (Duration) | Total | Monday | Tuesday | Wednesday | Thursday | Friday | Respect capacity | Respect availability | Respect requirement duration |
+| Booking allocation method | Resource Requirement (Duration) | Total | Mon | Tue | Wed | Thurs | Fri | Respect capacity | Respect availability | Respect requirement duration |
 |---------------------------|---------------|-------|--------|---------|-----------|----------|--------|------------------|----------------------|----------|
-| Resource's working capacity | | 40 | 10 | 10 | 10 | 10 | 0 | | | | 
-| Resource's existing bookings | | 16 | 6 | 4 | 2 | 2 | 2 | | | |  
+| Resource's working capacity |- | 40 | 10 | 10 | 10 | 10 | 0 | | | | 
+| Resource's existing bookings |- | 16 | 6 | 4 | 2 | 2 | 2 | | | |  
 | Full capacity | N/A | 40 | 10 | 10 | 10 | 10 | 0 | Yes | No | No | 
 | Remaining capacity | N/A | 26 | 4 | 6 | 8 | 8 | 0 | Yes | Yes | No | 
 | Percentage (50%) | N/A | 20 | 5 | 5 | 5 | 5 | 0 | Yes | No | No | 
