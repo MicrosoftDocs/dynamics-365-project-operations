@@ -28,7 +28,7 @@ This booking status is used when the Resource Manager or the Project Manager wan
 
 ## Soft Booking
 
-There are times when it is necessary to reserve a resource for a specific project but still allows it to be visible as allocatable to other projects while a decision about that specific booking allocation is taken. When Soft Booking, the resource’s capacity is not consumed and it is still seen as available to be allocated to other projects but the resource is added to the Project Team. 
+There are times when it's necessary to reserve a resource for a specific project but still allows it to be visible as allocatable to other projects while a decision about that specific booking allocation is taken. When Soft Booking, the resource’s capacity is not consumed and it's still seen as available to be allocated to other projects but the resource is added to the Project Team. 
 
 ## Proposed Booking
 
@@ -41,7 +41,7 @@ At any point in time, all Booking statuses can be Canceled. Canceling a booking 
 ## Resource Requirement Types
 
 Due to Project Operations technical design, Bookings must always be performed against a resource requirement. The process to generate a resource requirement is available in the project’s Team Member Grid and can be for a Generic Resource or for a Named Resource.
-When there is the need to book a resource directly to a project but there isn’t any specific request to that need (for example, when a Resource Manager or a Project Manager wants to allocate a resource to a project prior to have an Resource requirement)  it is possible to book the resource against the project requirement (known as Primary requirement, which is automatically created when a project is created).
+When there is the need to book a resource directly to a project but there isn’t any specific request to that need (for example, when a Resource Manager or a Project Manager wants to allocate a resource to a project prior to have an Resource requirement)  it's possible to book the resource against the project requirement (known as Primary requirement, which is automatically created when a project is created).
 
 ## Change Booking Statuses
 
