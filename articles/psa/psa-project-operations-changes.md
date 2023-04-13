@@ -39,7 +39,7 @@ The following table summarizes the scheduling differences between Project Servic
 | Constraints - Start no earlier than, finish no later than  | :heavy_check_mark: |   &nbsp;  |
 | Milestones - Tasks with zero duration   | :heavy_check_mark:  |  &nbsp;  |
 | Resource driven tasks will respect the availability of assigned resources   | :heavy_check_mark: |  &nbsp;    |
-| Time-phased editing - Edit plans and work on a day-by-day basis   |   &nbsp;  | :heavy_check_mark: |
+| Time-phased editing - Edit plans and work on a day-by-day basis   |   :heavy_check_mark:  | :heavy_check_mark: |
 | Automatic/manual scheduling - Use the Project scheduling engine to automatically or manually schedule tasks |  &nbsp; | :heavy_check_mark:  |
 | Edit large projects directly in the user interface: There is no limit to the size of plans that are editable  | 500 task limit  | :heavy_check_mark:       |
 | Percent complete - Mark task progress   | :heavy_check_mark:  |  &nbsp;  |
