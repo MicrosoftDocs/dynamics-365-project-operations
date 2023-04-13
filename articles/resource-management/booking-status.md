@@ -65,10 +65,10 @@ The following table describes the possible booking statuses changes and some typ
 
 ## Recommended Content
 
-- [Resource bookings and how they relate to task assignments](dynamics365/project-operations/psa/faq-bookings-and-assignments?source=recommendations)
+- [Resource bookings and how they relate to task assignments](../psa/faq-bookings-and-assignments.md)
   This article provides information about how to manage named resources, resource bookings and task assignments and how they relate to each other.
   
-- [Resource management modes overview](/dynamics365/project-operations/resource-management/resource-management-mode-overview?source=recommendations)
+- [Resource management modes overview](resource-management-mode-overview.md)
   This article provides information about Resource management functionality in Dynamics 365 Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
