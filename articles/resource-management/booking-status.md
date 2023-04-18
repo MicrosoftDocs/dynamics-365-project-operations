@@ -12,11 +12,11 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Whether your organization is operating in **Centralized** or **Decentralized** mode, there are four booking statuses available in Microsoft Dynamics 365 Project Operations: Hard, Soft, Proposed, and Canceled. Booking statuses are defined or updated during the booking process, and are most commonly established in three different ways:
+Whether your organization is operating in **Centralized** or **Decentralized** mode, there are four booking statuses available in Microsoft Dynamics 365 Project Operations: **Hard**, **Soft**, **Proposed**, and **Canceled**. Booking statuses are defined or updated during the booking process, and are most commonly established in three different ways:
 
--	Book from the team member grid.
--	Book from the schedule board or schedule assistant.
--	Book from the Project form.
+-	Book from the **Team member** grid.
+-	Book from the **Schedule board** or **Schedule assistant**.
+-	Book from the **Project form**.
 
 For more information about each of these options, see [Book to a Project](/dynamics365/project-operations/resource-management/book-project).
 
@@ -24,7 +24,7 @@ You can use the functionality provided in **Universal Resource Scheduling** for 
 
 ## Hard booking
 
-The hard booking status is used when the Resource manager or the Project manager wants to firmly allocate and reserve a resource to a Project. The resource is automatically added to the Project’s team member list, and the resource’s capacity is consumed by the amount of time allocated to the project.
+Use the hard booking status when the Resource Manager or the Project Manager wants to firmly allocate and reserve a resource to a Project. The resource is automatically added to the Project’s team member list, and the resource’s capacity is consumed by the amount of time allocated to the project.
 
 ## Soft booking
 
@@ -32,17 +32,17 @@ Use the soft booking status when you need to reserve a resource for a specific p
 
 ## Proposed booking
 
-When operating in **Centralized** mode, project managers request resources with specific characteristics and the resource manager proposes resources to that request using proposed booking. Until a final decision about that proposal is made, the resource’s capacity isn't consumed, and the proposed resource isn't added to the project team.
+When operating in **Centralized** mode, Project Managers request resources with specific characteristics, and the Resource Manager proposes resources for that request using **Proposed booking**. Until a final decision about that proposal is made, the resource’s capacity isn't consumed, and the proposed resource isn't added to the project team.
 
 ## Canceling a booking
 
-At any point in time, all Booking statuses can be canceled. Canceling a booking frees capacity allocated time for resources, but doesn’t remove them from the project’s **Team member** grid. 
+At any point in time, all booking statuses can be canceled. Canceling a booking frees capacity allocated time for resources, but doesn’t remove them from the project’s **Team member** grid. 
 
 ## Resource requirement types
 
-Due to Project Operations technical design, Bookings must always be performed against a resource requirement. The process to generate a resource requirement is available in the project’s **Team member** grid and can be for a **Generic resource** or for a **Named resource**.
+Due to Project Operations technical design, bookings must always be performed against a resource requirement. The process to generate a resource requirement is available in the project’s **Team member** grid and can be for a **Generic resource** or for a **Named resource**.
 
-When you need to book a resource directly to a project, but there isn’t a specific request for that need, it's possible to book the resource against the project requirement. This is known as a primary requirement, and it is created automatically when the project is created. You can use this when a resource manager or a project manager wants to allocate a resource to a project prior to having a resource requirement. 
+When you need to book a resource directly to a project, but there isn’t a specific request for that need, it's possible to book the resource against the project requirement. This is known as a primary requirement, and it is created automatically when the project is created. You can use this when a Resource Manager or a Project Manager wants to allocate a resource to a project prior to having a resource requirement. 
 
 ## Change booking statuses
 
@@ -56,9 +56,9 @@ The following table describes the booking status changes and some of the typical
 
 | **Current Status** | **To Status** | **Typical Scenario** | **Impact on Capacity and Project Team Member** |
 | --- | --- | --- | --- |
-| Proposed | Soft | The resource manager proposed a resource based on a request, but the project manager is not ready to confirm that booking. | Adds the resource to the project **Team member** grid. |
-| Proposed | Hard | The resource manager proposed a resource based on a request, and the project manager wants to confirm that booking. | Adds the resource to the project **Team member** grid and consumes resource capacity. |
-| Proposed | Canceled | The resource manager proposed a resource on a request, and the project manager didn't accept it. | No impact. |
+| Proposed | Soft | The Resource Manager proposed a resource based on a request, but the Project Manager is not ready to confirm that booking. | Adds the resource to the project **Team member** grid. |
+| Proposed | Hard | The Resource Manager proposed a resource based on a request, and the Project Manager wants to confirm that booking. | Adds the resource to the project **Team member** grid and consumes resource capacity. |
+| Proposed | Canceled | The Resource Manager proposed a resource on a request, and the Project Manager didn't accept it. | No impact. |
 | Soft | Hard | A project that was waiting to start is confirmed and the proposed resources must be hard booked to the project. | Consumes Resource capacity. |
 | Soft | Canceled | A resource that was soft booked is no longer needed in the project, and the booking must be removed. | No impact. |
 | Hard | Canceled | A task was suspended, and a hard booked resource must be freed. |  Frees Resource Capacity. |
