@@ -42,26 +42,26 @@ At any point in time, all Booking statuses can be canceled. Canceling a booking 
 
 Due to Project Operations technical design, Bookings must always be performed against a resource requirement. The process to generate a resource requirement is available in the project’s **Team member** grid and can be for a **Generic resource** or for a **Named resource**.
 
-When there's the need to book a resource directly to a project, but there isn’t any specific request for that need, it's possible to book the resource against the project requirement. This is known as a primary requirement, and it is created automatically when the project is created. You can use this when a resource manager or a project manager wants to allocate a resource to a project prior to having a resource requirement. 
+When you need to book a resource directly to a project, but there isn’t a specific request for that need, it's possible to book the resource against the project requirement. This is known as a primary requirement, and it is created automatically when the project is created. You can use this when a resource manager or a project manager wants to allocate a resource to a project prior to having a resource requirement. 
 
 ## Change booking statuses
 
 As projects naturally evolve, so do the bookings, and the bookings statuses must reflect these changes. There are three ways booking statuses can be updated:
 
 -	In the **Schedule board** by right-clicking in a specific Booking. 
--	In the **Maintain bookings** option, available when a resource is highlighted in the **Team Member** grid.
+-	In the **Maintain bookings** option, available when a resource is highlighted in the **Team member** grid.
 -	In the **Resource request cycle** process. For more information, see [Booking to a Project session](/dynamics365/project-operations/resource-management/book-project) in **Centralized resource booking**.
 
 The following table describes the booking status changes and some of the typical situations when these changes are applicable:
 
 | **Current Status** | **To Status** | **Typical Scenario** | **Impact on Capacity and Project Team Member** |
 | --- | --- | --- | --- |
-| Proposed | Soft | The resource manager proposed a resource based on a request, but the project manager is not ready to confirm that booking | Adds resource to the Project Team Member |
-| Proposed | Hard | Resource Manager proposed a resource based on a Request and the Project Manager wants to confirm that booking | Adds resource to the Project Team Member and Consumes Resource capacity|
-| Proposed | Canceled | Resource Manager proposed a resource to a request and the Project Manager didn't accept it | No impact |
-| Soft | Hard | A Project that was waiting to start is confirmed and Proposed resources must be hard booked to the project | Consumes Resource capacity |
-| Soft | Canceled | A Resource that was soft booked is no longer needed in the project and the booking must be removed| No impact |
-| Hard | Canceled | A task was suspended, and a hard booked resource must be freed. |  Frees Resource Capacity |
+| Proposed | Soft | The resource manager proposed a resource based on a request, but the project manager is not ready to confirm that booking. | Adds the resource to the project **Team member** grid. |
+| Proposed | Hard | The resource manager proposed a resource based on a request, and the project manager wants to confirm that booking. | Adds the resource to the project **Team member** grid and consumes resource capacity. |
+| Proposed | Canceled | The resource manager proposed a resource on a request, and the project manager didn't accept it. | No impact. |
+| Soft | Hard | A project that was waiting to start is confirmed and the proposed resources must be hard booked to the project. | Consumes Resource capacity. |
+| Soft | Canceled | A resource that was soft booked is no longer needed in the project, and the booking must be removed. | No impact. |
+| Hard | Canceled | A task was suspended, and a hard booked resource must be freed. |  Frees Resource Capacity. |
 
 
 ## Recommended content
