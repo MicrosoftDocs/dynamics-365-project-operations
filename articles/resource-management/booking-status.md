@@ -12,7 +12,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Whether your organization is operating in **Centralized** or **Decentralized** mode, there are four booking statuses available in Microsoft Dynamics 365 Project Operations: **Hard**, **Soft**, **Proposed**, and **Canceled**. Booking statuses are defined or updated during the booking process, and are most commonly established in three different ways:
+Whether your organization is operating in **Centralized** or **Hybrid** mode (decentralized), there are four booking statuses available in Microsoft Dynamics 365 Project Operations: **Hard**, **Soft**, **Proposed**, and **Canceled**. Booking statuses are defined or updated during the booking process, and are most commonly established in three different ways:
 
 -	Book from the **Team member** grid.
 -	Book from the **Schedule board** or **Schedule assistant**.
