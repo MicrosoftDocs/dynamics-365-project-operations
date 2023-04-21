@@ -30,11 +30,11 @@ Use the **Hard** booking status when a resource manager or project manager wants
 
 ## Soft booking
 
-Use the **Soft** booking status when you must reserve a resource for a specific project, but you want that resource to remain allocatable to other projects until you make a final decision about the booking allocation. When you use soft booking, the resource's capacity isn't consumed and is available to other projects, but the resource is added to the project team.
+Use the **Soft** booking status when you must reserve a resource for a specific project, but you want that resource to remain allocable to other projects until you make a final decision about the booking allocation. When you use soft booking, the resource's capacity isn't consumed and is available to other projects, but the resource is added to the project team.
 
 ## Proposed booking
 
-When your organization is operating in **Centralized** mode, project managers request resources that have specific characteristics, and the resource manager proposes resources for that request by using proposed booking. Until a final decision about the proposal is made, the resource's capacity isn't consumed, and the proposed resource isn't added to the project team.
+When your organization is operating in **Centralized** mode, project managers request resources that have specific characteristics, and the resource manager proposes resources for those requests by using proposed booking. Until a final decision about a proposal is made, the resource's capacity isn't consumed, and the proposed resource isn't added to the project team.
 
 ## Canceled booking
 
@@ -44,7 +44,7 @@ All booking statuses can be canceled at any point. Cancellation of a booking fre
 
 Because of the technical design of Project Operations, bookings must always be made against a resource requirement. The process for generating a resource requirement can be initiated from the project's **Team member** grid, and is available for both generic resources and named resources.
 
-When you must book a resource directly to a project, but there's no specific request for that need, you can book the resource against the project requirement. This type of requirement is known as a primary requirement. It's automatically created when the project is created. You can use it when a resource manager or project manager wants to allocate a resource to a project before they have a resource requirement.
+If you must book a resource directly to a project, but there's no specific request for that need, you can book the resource against the project requirement. This type of requirement is known as a primary requirement. It's automatically created when the project is created. You can use it when a resource manager or project manager wants to allocate a resource to a project before they have a resource requirement.
 
 ## Change booking statuses
 
