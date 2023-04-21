@@ -1,5 +1,5 @@
 ---
-title: Seting up custom fields as pricing dimensions
+title: Setting up custom fields as pricing dimensions
 description: This article provides information about setting up custom pricing dimensions.
 author: Rumant
 ms.custom: 
