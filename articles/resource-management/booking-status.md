@@ -30,7 +30,7 @@ Use the **Hard** booking status when a resource manager or project manager wants
 
 ## Soft booking
 
-Use the **Soft** booking status when you must reserve a resource for a specific project, but you want that resource to remain allocable to other projects until you make a final decision about the booking allocation. When you use soft booking, the resource's capacity isn't consumed and is available to other projects, but the resource is added to the project team.
+Use the **Soft** booking status when you must reserve a resource for a specific project, but you want that resource to remain allocatable to other projects until you make a final decision about the booking allocation. When you use soft booking, the resource's capacity isn't consumed and is available to other projects, but the resource is added to the project team.
 
 ## Proposed booking
 
