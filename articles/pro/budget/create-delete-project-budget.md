@@ -37,13 +37,13 @@ To create a project cost budget, follow these steps.
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
 1. Select the project to create a budget for.
-1. On the project page, on the Action Pane, select **Create Budget**, and then follow these steps:
+1. On the command bar of the project's main form, select **Create Budget**, and then follow these steps:
 
     - To manually create the budget, select **Manual**. A **Budget** tab is added to the page and includes a blank grid for budget lines. 
     - To create budget lines, select **New Project Budget Line**.
     
 
-For information about how to create cost budget lines, see [Project budget lines – Time, Material, Expense](project-budget-line.md).
+For information about how to create cost budget lines, see [Project time budget lines](project-cost-time-budget-line.md), [Project material budget lines](project-cost-material-budget-line.md), and [Project expense budget lines](project-cost-expense-budget-line.md).
 
 > [!NOTE]
 > Only one cost budget can be created for each project.
@@ -61,5 +61,3 @@ To delete a project cost budget, follow these steps.
 1. On the project page, select **Budget**, and then select **Delete**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-
-[Microsoft](https://www.microsoft.com)
