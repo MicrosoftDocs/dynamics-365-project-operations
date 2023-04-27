@@ -43,25 +43,19 @@ In phase 3, support for the Project desktop client will be added, for the benefi
 
 ## Prerequisites
 
-To be eligible for the Phase 1 upgrade, you must meet the following criteria:
 
-- The target environment must not contain any records in the **msdyn_projecttask** entity.
-- Valid Project Operations licenses must be assigned to all active users. 
-- You must validate the upgrade process in at least one non-production environment that contains a representative dataset that is aligned with your production environment.
-- The target environment must be updated to Project Service Automation Update Release 37 (V3.10.58.120) or later.
-
-To be eligible for Phase 2 upgrade, you must meet the following criteria:
+To be eligible for upgrade, you must meet the following criteria:
 
 - Valid Project Operations licenses must be assigned to all active users. 
 - You must validate the upgrade process in at least one non-production environment that contains a representative dataset that is aligned with your production environment.
-- The target environment must be updated to Project Service Automation Update Release 37 (V3.10.58.120) or later.
+- The target environment must be updated to the latest Project Service Automation available Release.
 - Environments that contain tasks (msdyn_projecttask) are supported only if the total number of tasks per project is 500 or less.
 
 Prerequisites for Phase 3 will be updated as the general availability date approaches.
 
 ## Licensing
 
-If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. In this way, you can test the capabilities of Project Operations while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you will have to transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license. Customers who have scenarios where they have deployed Project Service Automation and need to continue to use or increase their licenses for PSA while they plan to move to Project Operations, may request temporary PSA licenses based on Project Operations purchased licenses. One Project Service Automation license will be issued for one Project Operations license. Temporary PSA licenses may be requested by using this link: aka.ms/ineedpsa
+If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. In this way, you can test the capabilities of Project Operations while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you will have to transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license. Customers who have scenarios where they have deployed Project Service Automation and need to continue to use or increase their licenses for PSA while they plan to move to Project Operations, may request temporary PSA licenses based on Project Operations purchased licenses. One Project Service Automation license will be issued for one Project Operations license. Temporary PSA licenses may be requested by using this link: [aka.ms/ineedpsa](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1ccNeVH0Y5Bias6PVDCNbZUOUg4TkZJUEswSVQ1ODhNNkpHVVlMMldPTi4u)
 
 ## Testing and refactoring customizations
 
@@ -96,7 +90,7 @@ After you update your customizations to cleanly import Project Operations, move 
 
 The following steps describe the upgrade process and associated error logging:
 
-1. **PSA Version check:** To install Project Operations, you must have V3.10.58.120 or higher.
+1. **PSA Version check:** To install Project Operations, you must have the latest Project Service Automation Release installed.
 1. **Pre-validation:** When an administrator initiates an upgrade, the system runs a pre-validation operation on each entity that is core to the Project Operations solution. This step verifies that all entities references are valid, and it ensures that data that is related to the WBS is within the published limits of Project for the Web.
 1. **Metadata upgrade:** After successful pre-validation, the system initiates changes to the schema and creates a deprecated components solution. You can remove this deprecated solution after you've completed all required refactoring of customizations. This step is the longest part of the upgrade process and can take up to four hours to be completed.
 1. **Data upgrade:** After all required schema changes have been completed in the metadata upgrade step, your data is migrated to the new schema, and any required defaulting and recalculation are done.
