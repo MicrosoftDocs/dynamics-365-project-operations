@@ -42,7 +42,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.71.0.12      | April 21, 2023     | April 21, 2023      | TBD                 | May 5, 2023         |
+|   &nbsp;  | First Release         |  4.71.0.12      | April 21, 2023     | April 21, 2023      | TBD                 | May 12, 2023         |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | South America         |  4.71.0.12      | April 21, 2023     | April 21, 2023      | TBD                 | May 12, 2023        |
 |   &nbsp;  | Canada                |  4.71.0.12      | April 21, 2023     | April 21, 2023      | TBD                 | May 12, 2023        |
