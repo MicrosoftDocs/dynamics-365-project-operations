@@ -56,6 +56,7 @@ The following table summarizes the scheduling differences between Project Servic
 | Multi-level undo - Perform what-if analysis to fully understand the impact of changes by reversing and reapplying an entire set of operations | :heavy_check_mark: | &nbsp; |
 | Cut/Copy/Paste - Collaborate on schedule development by copying and pasting schedule details between applications  | :heavy_check_mark: | &nbsp; |
 | Task checklists - Add up to 20 checklist items to a task   | :heavy_check_mark: | &nbsp; |
+| Task Sequence identification representation | Rendered in the UI based on msdyn_outlinelevel and msdyn_displaysequence | msdyn_wbsid |
 
 ## Project planning
 
