@@ -142,7 +142,7 @@ This is the assignment after the Update Contour Schedule API is run.
 
 **Sample scenario**
 
-In this scenario, you will create a project, a team member, four tasks, and two resource assignments. Next, you will update one task, update the project, delete one task, delete one resource assignment, and create a task dependency.
+In this scenario, you will create a project, a team member, four tasks, and two resource assignments. Next, you will update one task, update the project, update a resource assignment contour, delete one task, delete one resource assignment, and create a task dependency.
 
 ```csharp
 Entity project = CreateProject();
@@ -179,6 +179,16 @@ var task2UpdateResponse = CallPssUpdateAction(task2, operationSetId);
 project["msdyn_subject"] = $"Proj update {DateTime.Now.ToShortTimeString()}";
 var projectUpdateResponse = CallPssUpdateAction(project, operationSetId);
 
+List<UpdatedContour> updatedContours = new List<UpdatedContour>(); 
+UpdatedContour updatedContour = new UpdatedContour(); 
+updatedContour.Start = DateTime.UtcNow.Date; 
+updatedContour.End = DateTime.UtcNow.Date.AddDays(1); 
+updatedContour.Minutes = 120; 
+updatedContours.Add(updatedContour); 
+
+String serializedUpdate = JsonConvert.SerializeObject(updatedContours); 
+var updateContoursResponse = CallPssUpdateContourAction(assignment1.Id, serializedUpdate, operationSetId); 
+
 var task4DeleteResponse = CallPssDeleteAction(task4.Id.ToString(), task4.LogicalName, operationSetId);
 
 var assignment2DeleteResponse = CallPssDeleteAction(assignment2.Id.ToString(), assignment2.LogicalName, operationSetId);
@@ -211,9 +221,9 @@ private string CallCreateOperationSetAction(Guid projectId, string description)
 }
 
 /// <summary>
-/// Calls the action to create an entity, only Task and Resource Assignment for now
+/// Calls the action to create an entity
 /// </summary>
-/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="entity">Scheduling entity</param>
 /// <param name="operationSetId">operationSet id</param>
 /// <returns>OperationSetResponse</returns>
 
@@ -226,9 +236,9 @@ private OperationSetResponse CallPssCreateAction(Entity entity, string operation
 }
 
 /// <summary>
-/// Calls the action to update an entity, only Task for now
+/// Calls the action to update an entity
 /// </summary>
-/// <param name="entity">Task or Resource Assignment</param>
+/// <param name="entity">Scheduling entity</param>
 /// <param name="operationSetId">operationSet Id</param>
 /// <returns>OperationSetResponse</returns>
 private OperationSetResponse CallPssUpdateAction(Entity entity, string operationSetId)
@@ -240,7 +250,7 @@ private OperationSetResponse CallPssUpdateAction(Entity entity, string operation
 }
 
 /// <summary>
-/// Calls the action to update an entity, only Task and Resource Assignment for now
+/// Calls the action to update an entity
 /// </summary>
 /// <param name="recordId">Id of the record to be deleted</param>
 /// <param name="entityLogicalName">Entity logical name of the record</param>
@@ -254,6 +264,22 @@ private OperationSetResponse CallPssDeleteAction(string recordId, string entityL
     operationSetRequest["OperationSetId"] = operationSetId;
     return GetOperationSetResponseFromOrgResponse(organizationService.Execute(operationSetRequest));
 }
+
+/// <summary> 
+/// Calls the action to update a Resource Assignment contour
+/// </summary> 
+/// <param name="resourceAssignmentId">Id of the resource assignment to be updated</param> 
+/// <param name="serializedUpdates">JSON formatted contour updates</param>
+/// <param name="operationSetId">operationSet id</param> 
+/// <returns>OperationSetResponse</returns> 
+private OperationSetResponse CallPssUpdateContourAction(string resourceAssignmentId, string serializedUpdates string operationSetId) 
+{
+    OrganizationRequest operationSetRequest = new OrganizationRequest("msdyn_PssUpdateResourceAssignmentContourV1"); 
+    operationSetRequest["ResourceAssignmentId"] = resourceAssignmentId; 
+    operationSetRequest["UpdatedContours"] = serializedUpdates; 
+    operationSetRequest["OperationSetId"] = operationSetId; 
+    return GetOperationSetResponseFromOrgResponse(OrganizationService.Execute(operationSetRequest)); 
+} 
 
 /// <summary>
 /// Calls the action to execute requests in an operationSet
@@ -431,4 +457,21 @@ public string CorrelationId { get; set; }
 }
 
 #endregion
+
+#region UpdatedContour DataContract --- Sample code ---- 
+
+[DataContract] 
+public class UpdatedContour 
+{ 
+[DataMember(Name = "start")] 
+public DateTime Start { get; set; } 
+
+[DataMember(Name = "end")] 
+public DateTime End { get; set; } 
+
+[DataMember(Name = "minutes")] 
+public decimal Minutes { get; set; } 
+} 
+
+#endregion 
 ```
