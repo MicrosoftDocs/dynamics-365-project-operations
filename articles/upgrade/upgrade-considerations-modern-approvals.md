@@ -41,6 +41,15 @@ If you can't uptake the changes, or if you encounter a severe issue with this fe
 
 ## Removing the feature flag
 
-In the October 2022 Wave 2 update, the ability to turn this feature off will be removed.
+In the October 2022 Wave 2 update, the ability to turn this feature off will be removed. All customers will now have this feature enabled without the ability to disable.
+
+## Dealing with in-flight approvals while having the modern approvals feature enabled
+
+If you have inflight approvals that were submitted with the old logic and now have the feature enabled, please perform the following steps to resubmit these entries.
+1. The Administrator has enabled modern approvals, or the update has forced the enablement of Modern Approvals.
+2. The Resource who submitted the time entry, should recall the time entry. This will cause any Pending Approvals to be deleted and the system to roll back into a pre-submission state.
+3. The Resource should submit the entry again. This will create a new approval within Modern Approvals and an associated Approval Set.
+4. The Approver will be able to approve the entries from grid using Modern Approval.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
