@@ -33,5 +33,5 @@ This article applies to the following components and versions of Microsoft Dynam
 |Project Planning and Tracking|3240017|ImportProject_Errors started failing due to new limit added on Project side. |
 |Project Planning and Tracking|3324466|Add FCB for controlling using PCF Auth in PexWebControl in Dynamics solution. |
 |Project Planning and Tracking|3335771|Disabled bookings cause early exit in PostProjectTeamMemberCreate and shared variable setting skipped. |
-|Project Operations Upgrade|3242312|Fix typo in data validation message - ProjectServiceValidateTaskAssignmentCount.cs. |
+|Project Operations Upgrade|3242312|Fixed typo in data validation message - ProjectServiceValidateTaskAssignmentCount.cs. |
 |Subcontracting|3300148|Error Dialog showing up on selecting Subcontract Line while creating Material Usage Log. |
