@@ -30,10 +30,10 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-|Revenue Recognition| **Enable contract line based revenue recognition with Project Operations for non-stocked/ resource based scenarios**</br>This feature allows to generate revenue recognition for a contract line. In case if there are multiple contract lines for a contract, then multiple revenue recognition projects can be created for each contract line and revenue recognition can be calculated differently.| [Contract line-based revenue recognition with Project operations](/dynamics365/project-operations/revenue-recognition/revenuerecogntionforcontractlines) |
-|Resource Management| **Soft Bookings**</br>This enhancement will now allow users to create soft bookings on role based requirements.| |
-|Project Planning and Tracking| **Task Labels**</br>This feature can help you quickly see what tasks have in common, such as requirements, locations, dependencies, or important time constrain| [Task Labels](https://support.microsoft.com/en-us/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c) |
-|Project Planning and Tracking| **Sprints**</br>This feature supports agile project management. You can create and prioritize a backlog of tasks and schedule tasks in sprints. You can also collaborate on planning, tracking, and completing tasks within, and across, time boxed sprints.| [Sprints](https://support.microsoft.com/en-us/office/plan-a-project-in-sprints-in-project-for-the-web-7536fbef-0ece-47bf-beae-6a8ac2c69955) |
+|Revenue Recognition | **Enable contract line based revenue recognition with Project Operations for non-stocked/ resource based scenarios**</br>This feature allows you to generate revenue recognition for a contract line. When there are multiple contract lines for a contract, multiple revenue recognition projects can be created for each contract line and revenue recognition can be calculated differently.| [Contract line-based revenue recognition with Project operations](/dynamics365/project-operations/revenue-recognition/revenuerecogntionforcontractlines) |
+|Resource Management | **Soft Bookings**</br>This enhancement allows you to create soft bookings on role based requirements.| |
+|Project Planning and Tracking | **Task Labels**</br>This feature can help you quickly see what tasks have in common, such as requirements, locations, dependencies, or important time constraint. | [Use labels to sort tasks in Microsoft Project for the web](https://support.microsoft.com/en-us/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c).  |
+|Project Planning and Tracking| **Sprints**</br>This feature supports agile project management. You can create and prioritize a backlog of tasks and schedule tasks in sprints. You can also collaborate on planning, tracking, and completing tasks within, and across, time boxed sprints.| [Plan a project in sprints in Project for the web](https://support.microsoft.com/en-us/office/plan-a-project-in-sprints-in-project-for-the-web-7536fbef-0ece-47bf-beae-6a8ac2c69955). |
 
 ## Quality updates
 
@@ -41,12 +41,12 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-|Project Planning and Tracking|3106933|Schedule API inconsistent handling of updates to Team Member name|
-|Project Planning and Tracking|3240017|ImportProject_Errors started failing due to new limit added on Project side|
-|Project Planning and Tracking|3324466|Add FCB for controlling using PCF Auth in PexWebControl in Dynamics solution|
-|Project Planning and Tracking|3335771|Disabled bookings causes early exit in PostProjectTeamMemberCreate and shared variable setting skipped|
-|Project Operations Upgrade|3242312|Fix typo in data validation message - ProjectServiceValidateTaskAssignmentCount.cs|
-|Subcontracting|3300148|Error Dialog showing up on selecting Subcontract Line while creating Material Usage Log|
+|Project Planning and Tracking|3106933|Schedule API inconsistent handling of updates to Team Member name.|
+|Project Planning and Tracking|3240017|ImportProject_Errors started failing due to new limit added on Project side.|
+|Project Planning and Tracking|3324466|Add FCB for controlling using PCF Auth in PexWebControl in Dynamics solution. |
+|Project Planning and Tracking|3335771|Disabled bookings cause early exit in PostProjectTeamMemberCreate and shared variable setting skipped.|
+|Project Operations Upgrade|3242312|Fixed typo in data validation message - ProjectServiceValidateTaskAssignmentCount.cs.|
+|Subcontracting|3300148|Error Dialog showing up on selecting Subcontract Line while creating Material Usage Log.|
 
 ### Project management and accounting in Finance
 
