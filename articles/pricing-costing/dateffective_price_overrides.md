@@ -52,11 +52,26 @@ To set up a date-effective price override for a role price or a role price marku
 1. Select the **Role price** record that you want to set up a new date-effective override price for, and then double-tap (or double-click) **Role price** to open the **Role price details** page.
 1. Select the **Date effective overrides** tab. The grid on this tab lists all the date-effective price overrides for the selected **Role price** record.
 1. On the toolbar above the grid, select **New role price override**. The **New role price override** slider opens.
-1. Specify the effective-from date, the scope, the unit, and the new price for the price override. Then select **Save**, and close the form.
-1. Each price override has date effectivity and scope. Date effectivity is represented by the Effective date field on the price override record. 
 > [!NOTE]
 > - A date-effective price override for a role price or a role price markup is applicable to the same combination of pricing dimension values that exists on the parent **Role price** or **Role price markup** row.
+
+3. Specify the effective-from date, the scope, the unit, and the new price for the price override. Then select **Save**, and close the form.
+4. Each price override has date effectivity and scope. Date effectivity is represented by the Effective date field on the price override record. 
+
+> [!NOTE]
 > - The date that is selected in the **Effective from** field should be within the effective dates of the parent price list. The price override will take effect on the date that is selected in the **Effective from** field and will apply until the end of the parent price list's end date. If you set up another date-effective price override for the same role price, the first price override will take effect on the date that is selected in the **Effective from** field and will apply until the start of the second override.
+
+6. Scope field is dependant on the context of the price list. If the price list context is **Sales**, Scope field allows you to select from Customers, Quotes and Project Contracts. If the price list 
+context is **Cost**, Scope field allows you to select from Organizational Units. If the price list context is **Purchase**, Scope field allows you to select from Vendors, Subcontracts and Project Vendor invoices. 
+
+> [!NOTE]
+> -Scoping your price override to a specific 
+> customer will limit that price override to be applicable only on estimates and transactions for that customer.
+> quote will limit that price override to be applicable only on estimates and transactions for that quote. 
+> contract will limit that price override to be applicable only on estimates and transactions for that customer.
+
+
+
 
 ## Examples
 
