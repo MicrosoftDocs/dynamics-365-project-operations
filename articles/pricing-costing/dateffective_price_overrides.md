@@ -43,7 +43,7 @@ Date-effective price overrides can be set up on **Cost**, **Sales**, or **Purcha
 >The behavior of the **Date effective price overrides** currently has the following limitations:
 >
 > - Only role prices and role price markups support the **Date effective price overrides** feature in Project Operations.
-> - When you copy a price list by using the **Copy** action on the **Price List details** page, and when you create a project price list from a standard or custom price list during contract creation, date-effective price overrides are **not** copied from the source price list.
+> - When you copy a price list by using the **Copy** action on the **Price List details** page, date-effective price overrides are **not** copied from the source price list.
 
 To set up a date-effective price override for a role price or a role price markup, follow these steps.
 
@@ -52,17 +52,17 @@ To set up a date-effective price override for a role price or a role price marku
 1. Select the **Role price** record that you want to set up a new date-effective override price for, and then double-tap (or double-click) **Role price** to open the **Role price details** page.
 1. Select the **Date effective overrides** tab. The grid on this tab lists all the date-effective price overrides for the selected **Role price** record.
 1. On the toolbar above the grid, select **New role price override**. The **New role price override** slider opens.
-1. Specify the effective-from date, the unit, and the new price for the price override. Then select **Save**, and close the form.
-
+1. Specify the effective-from date, the scope, the unit, and the new price for the price override. Then select **Save**, and close the form.
+1. Each price override has date effectivity and scope. Date effectivity is represented by the Effective date field on the price override record. 
 > [!NOTE]
 > - A date-effective price override for a role price or a role price markup is applicable to the same combination of pricing dimension values that exists on the parent **Role price** or **Role price markup** row.
 > - The date that is selected in the **Effective from** field should be within the effective dates of the parent price list. The price override will take effect on the date that is selected in the **Effective from** field and will apply until the end of the parent price list's end date. If you set up another date-effective price override for the same role price, the first price override will take effect on the date that is selected in the **Effective from** field and will apply until the start of the second override.
 
 ## Examples
 
-### Example 1: Determining date effectivity for a role price that has role price overrides
+### Example 1: Understand how date effectivity concept on a role price override is used for determining the prices for time transactions
 
-The following example shows how date effectivity is determined for a specific role price that role price overrides are set up for.
+The following example shows how date effectivity date effectivity concept on a role price override is used for determining the prices for time transactions.
 
 **Price list A: January 1 through June 30**
 
@@ -74,14 +74,14 @@ The following example shows how date effectivity is determined for a specific ro
 
 *Role price override*
 
-| Effective from | Unit | Price | Effect on pricing for incoming transactions |
+| Effective from | Scope | Unit | Price | Effect on pricing for incoming transactions |
 |---|---|---|---|
-| March 15 | Hour | 110 | This price will be used on any transactions where the transaction date is between March 15 and March 30. |
-| April 1 | Hour | 120 | This price will be used on any transactions where the transaction date is between April 1 and June 30. |
+| March 15 | | Hour | 110 | This price will be used on any transactions where the transaction date is between March 15 and March 30. |
+| April 1 | | Hour | 120 | This price will be used on any transactions where the transaction date is between April 1 and June 30. |
 
-### Example 2: Determining date effectivity for a role price markup that has role price markup overrides
+### Example 2: Understand how date effectivity concept on a role price markup override is used for determining the prices for time transactions
 
-The following example shows how date effectivity is determined for a specific role price markup that role price markup overrides are set up for.
+The following example shows how date effectivity concept on a role price markup override is used determining price markup to apply on Time transactions.
 
 **Price list A: January 1 through June 30**
 
@@ -99,9 +99,28 @@ The following example shows how date effectivity is determined for a specific ro
 
 *Role price markup override*
 
-| Effective from | Price | Effect on pricing for incoming transactions |
+| Effective from | Scope | Price | Effect on pricing for incoming transactions |
 |---|---|---|
-| March 15 | 20% | This markup percent will be used on any transactions where the transaction date is between March 15 and March 30. |
-| April 1 | 25% | This markup will be used on any transactions where the transaction date is between April 1 and June 30. |
+| March 15 | | 20% | This markup percent will be used on any transactions where the transaction date is between March 15 and March 30. |
+| April 1 | | 25% | This markup will be used on any transactions where the transaction date is between April 1 and June 30. |
+
+### Example 3: Understand how the concept of scope influencues the context in which a role price override or a role price markup override is used on time transactions
+
+The following example shows the concept of scope influencues the context in which a role price override or a role price markup override is used on time transactions.
+
+**Price list A: January 1 through June 30**
+
+*Role price*
+
+| Role price | Unit | Price | Effect on pricing for incoming transactions |
+|---|---|---|---|
+| Network Technician | Hour | 100 | This price will be used on any transactions where the transaction date is between January 1 and March 14. |
+
+*Role price override*
+
+| Effective from | Scope| Unit | Price | Effect on pricing for incoming transactions |
+|---|---|---|---|
+| March 15 | Project Contract: Arm Installation at Adatum |Hour | 110 | This price will be used on any transactions recorded on Project Contract "Arm Installation at ADatum" where the transaction date is on after March 15 |
+| March 15 | | Hour | 120 | This price will be used on any transactions recorded on any transaction where the transaction date is on or after March 15 and Project Contract is **Not** "Arm Installation at ADatum" |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
