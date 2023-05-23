@@ -80,6 +80,8 @@ context is **Cost**, Scope field allows you to select from Organizational Units.
 > On Cost price list scoping your price override to a specific 
 > - Organizational Unit will limit that price override to be applicable only on estimates and transactions for resources that belong to that Organizational Unit.
 
+> [!NOTE]
+> Leaving the scope field blank, will make the price override applicable to any estimate or actual transaction in the context of the price list
 
 ## Examples
 
