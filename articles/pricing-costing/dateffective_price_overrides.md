@@ -66,14 +66,14 @@ context is **Cost**, Scope field allows you to select from Organizational Units.
 
 > [!NOTE]
 > On Sales price list scoping your price override to a specific 
-> - customer will limit that price override to be applicable only on estimates and transactions for that customer.
-> - quote will limit that price override to be applicable only on estimates and transactions for that quote. 
-> - contract will limit that price override to be applicable only on estimates and transactions for that project contract.
+> - customer will limit that price override to be applicable only on estimates and actual transactions for that customer.
+> - quote will limit that price override to be applicable only on estimates and actual transactions for that quote. 
+> - contract will limit that price override to be applicable only on estimates and actual transactions for that project contract.
 
 > [!NOTE]
 > On Purchase price list scoping your price override to a specific 
-> - vendor will limit that price override to be applicable only on estimates and transactions for that vendor.
-> - Subcontract will limit that price override to be applicable only on estimates and transactions for that subcontract. 
+> - vendor will limit that price override to be applicable only on estimates and actual transactions for that vendor.
+> - Subcontract will limit that price override to be applicable only on estimates and actual transactions for that subcontract. 
 > - Project vendor invoice will limit that price override to be applicable only on lines of that project vendor invoice.
 
 > [!NOTE]
@@ -81,7 +81,7 @@ context is **Cost**, Scope field allows you to select from Organizational Units.
 > - Organizational Unit will limit that price override to be applicable only on estimates and transactions for resources that belong to that Organizational Unit.
 
 > [!NOTE]
-> Leaving the scope field blank, will make the price override applicable to any estimate or actual transaction in the context of the price list
+> Leaving the scope field blank, will make the price override applicable to any estimate or actual transactions in the context of the price list
 
 ## Examples
 
