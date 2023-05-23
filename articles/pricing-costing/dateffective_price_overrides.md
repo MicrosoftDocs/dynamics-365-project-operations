@@ -75,7 +75,7 @@ The following example shows how date effectivity date effectivity concept on a r
 *Role price override*
 
 | Effective from | Scope | Unit | Price | Effect on pricing for incoming transactions |
-|---|---|---|---|
+|---|---|---|---|---|
 | March 15 | | Hour | 110 | This price will be used on any transactions where the transaction date is between March 15 and March 30. |
 | April 1 | | Hour | 120 | This price will be used on any transactions where the transaction date is between April 1 and June 30. |
 
@@ -100,7 +100,7 @@ The following example shows how date effectivity concept on a role price markup 
 *Role price markup override*
 
 | Effective from | Scope | Price | Effect on pricing for incoming transactions |
-|---|---|---|
+|---|---|---|---|
 | March 15 | | 20% | This markup percent will be used on any transactions where the transaction date is between March 15 and March 30. |
 | April 1 | | 25% | This markup will be used on any transactions where the transaction date is between April 1 and June 30. |
 
@@ -119,7 +119,7 @@ The following example shows the concept of scope influencues the context in whic
 *Role price override*
 
 | Effective from | Scope| Unit | Price | Effect on pricing for incoming transactions |
-|---|---|---|---|
+|---|---|---|---|---|
 | March 15 | Project Contract: Arm Installation at Adatum |Hour | 110 | This price will be used on any transactions recorded on Project Contract "Arm Installation at ADatum" where the transaction date is on after March 15 |
 | March 15 | | Hour | 120 | This price will be used on any transactions recorded on any transaction where the transaction date is on or after March 15 and Project Contract is **Not** "Arm Installation at ADatum" |
 
