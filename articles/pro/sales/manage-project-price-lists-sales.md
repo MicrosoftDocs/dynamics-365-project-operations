@@ -59,7 +59,18 @@ To set up a customer-specific project price list, complete the following steps.
 After you have organizational and customer-specific default project price lists, your project quotes will automatically be created with these project price list associations. However, in certain cases, you may need to create custom pricing for a specific project quote. 
 
 1. On the **Project Quote**, on the **Project Price List** tab, verify in the subgrid that no specific price list record is selected.
-2. Select **Create Custom Pricing**. This will make copies of all the standard price lists currently associated to the quote and associate these copies to the quote. The existing associations to standard price lists will be removed. The salesperson can then begin making edits to prices on these copies. These changed prices will be applicable to this project quote only.
+2. Select **Create Custom Pricing**. 
+
+### Managing the behavior of custom pricing on quotes
+
+When creating custom pricing on a quote in Project Operations, the application provides options to you on how custom price lists are created. There are 3 options available. To access these options navigate to **Settings** \> **Parameters**. On the **Parameters** page, Open the **Parameters** record. On the section **Price List Defaulting Behavior**, use the setting **Custom pricing options**. You will see 2 options:
+
+Option 1 - **Create full copy of standard price lists**: 
+Selecting this option will create a full copy of the quote price list with the name of the quote and date appended and attach this full copy to the Quote. The existing associations to standard price lists will be removed.  The salesperson can then begin making edits to prices on these copies. These changed prices will be applicable to this project quote only. Of the 2 options, this option will have a severe impact on the performance of creating custom pricing. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) that you are using during quote stage for the duration of the Project. 
+
+
+Option 2 - **Create protected price overrides for price list components used on the quote or the contract**:
+Selecting this option will create date effective price overrides scoped to the quote for estimated components i.e. components referenced on quote line details. This option will not create an entire copy of the quote price list and therefore will give much better performance than selecting Option 1 above. Dependning on the number of quote line details, this could take longer to create custom pricing or be very quick to create custom pricing if the Quote had only a few Quote line details.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
