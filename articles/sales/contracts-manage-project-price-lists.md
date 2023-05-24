@@ -62,9 +62,23 @@ You can also set up customer–specific project price lists when you have negoti
 3. Select the customer record to open it and then select the **Project Price Lists** tab. A subgrid shows a list of project price lists specific to this customer. 
 4. Create a new price list association here to have project price list specific to this customer.
 
-## Custom pricing on a project contract
+## Create custom pricing on a project contract
 
-After you have organizational and customer-specific default project price lists, your project contracts will be created with these project price list associations automatically. However, project price lists on a project contract are always copied with the date and contract name appended to them. The account and project managers can then begin making edits to prices on these copies. These changed prices will be applicable to this project contract only.
+After you have organizational and customer-specific default project price lists, your project contracts will automatically be created with these project price list associations. However, in certain cases, you may need to create custom pricing for a specific project contract. 
+
+1. On the **Project Contract**, on the **Project Price List** tab, verify in the subgrid that no specific price list record is selected.
+2. Select **Create Custom Pricing**. 
+
+### Managing the behavior of custom pricing on project contracts
+
+When creating custom pricing on a quote in Project Operations, the application provides options to you on how custom price lists are created. There are 3 options available. To access these options navigate to **Settings** \> **Parameters**. On the **Parameters** page, Open the **Parameters** record. On the section **Price List Defaulting Behavior**, use the setting **Custom pricing options**. You will see 2 options:
+
+Option 1 - **Create full copy of standard price lists**: 
+Selecting this option will create a full copy of the contract price list with the name of the contract and date appended and attach this full copy to the Project Contract. The existing associations to standard price lists will be removed.  The salesperson can then begin making edits to prices on these copies. These changed prices will be applicable to this project contract only. Of the 2 options, this option will have a severe impact on the performance of creating custom pricing. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) that you are using during execution stage for the duration of the Project. 
+
+Option 2 - **Create protected price overrides for price list components used on the quote or the contract**:
+Selecting this option will create date effective price overrides scoped to the Project Contract for estimated components i.e. components referenced on Contract line details. This option will not create an entire copy of the Contract price list and therefore will give much better performance than selecting Option 1 above. Depending on the number of contract line details, this could take longer to create custom pricing or be very quick to create custom pricing if the Project Contract had only a few Contract line details.
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
