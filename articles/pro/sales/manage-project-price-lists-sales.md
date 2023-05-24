@@ -44,18 +44,18 @@ Project price lists can be set up to default on a project quote. This setup ensu
 To set up an organizational default for the project price lists, follow these steps.
 
 1. Go to **Settings** \> **General** \> **Parameters**.
-2. On the **Active Parameters** list page, locate the record, and double-click to open it. 
-3. On the **Parameters** page, select the **Price List** tab. The list of default price lists is shown. Associating a sales price list associated for every currency that you sell in ensures that this sales price list is defaulted on any quote that you create for customers that transact in the currency.
+1. On the **Active Parameters** list page, locate the record, and double-click to open it. 
+1. On the **Parameters** page, select the **Price List** tab. The default price list is shown. Associating a sales price list associated for every currency that you sell in ensures that this sales price list is defaulted on any quote that you create for customers that transact in the currency.
 
 ### Set up customer-specific project price lists
 
-Customer-specific project price lists can also be set up when you have negotiated a master pricing agreement with your customers.
+Customer-specific project price lists can be set up when you have negotiated a master pricing agreement with your customers.
 
 To set up a customer-specific project price list, follow these steps.
 
 1. In the **Sales** area, select **Customers**.
-2. In the list of your active accounts, select and open the customer record that you have special price list for.
-3. On the **Project Price Lists** tab, you can create a new price list association to have the project price list that is specific to this customer.
+1. In the list of your active accounts, select and open the customer record that you have special price list for.
+1. On the **Project Price Lists** tab, you can create a new price list association to have the project price list that is specific to this customer.
 
 ## Create custom pricing on a project quote
 
@@ -64,7 +64,7 @@ After you have organizational and customer-specific default project price lists,
 To create custom pricing on a project quote, follow these steps.
 
 1. On the **Project Quote**, on the **Project Price List** tab, verify in the subgrid that no specific price list record is selected.
-2. Select **Create Custom Pricing**. 
+1. Select **Create Custom Pricing**. 
 
 ### Managing the behavior of custom pricing on quotes
 
