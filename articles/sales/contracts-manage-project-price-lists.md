@@ -12,11 +12,11 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Project contracts in Dynamics 365 Project Operations are designed to support multiple date-effective sales price lists on a contract. In Project Operations, there is a new associated entity called **Project Price Lists**. This entity has a one-to-many relationship to a project contract.
+Project contracts in Dynamics 365 Project Operations are designed to support multiple date-effective sales price lists on a contract. In Project Operations, there's a new associated entity called **Project Price Lists**. This entity has a one-to-many relationship to a project contract.
 
 Project price lists are used to price time, material, and expense transactions on a project. When a contract has one or more project price lists, these price lists are used to price for time, material, expense estimates, and actuals on projects that are associated to the contract through the contract line.
 
-When there are no project price lists on a project contract, you will see a warning message that there are no project price lists and your estimates, actual project work, material, and expenses logged will not be priced. There will be no price for sales values.
+If a project contract doesn't have a project price lists, a warning message displays. The message lets you know there aren't project price lists and your estimates, actual project work, material, and expenses logged won't be priced. There won't be price for sales values.
 
 ## Associate or disassociate a project price list on a project contract
 
@@ -41,7 +41,7 @@ When there are no project price lists on a project contract, you will see a warn
 
 - Select the project price list, and then select **Delete Contract Project Price List** on the subgrid. 
 
-  The price list is removed from the project price lists on the contract. The price list itself will not be deleted. Only the association to the contract will be deleted.
+  The price list is removed from the project price lists on the contract. The price list itself isn't deleted. Only the association to the contract is deleted.
 
 ## Set up automatic defaulting of project price lists on a contract
 
@@ -52,7 +52,7 @@ A project price list can be set up as the default project price list. This setup
 To set up an organizational default for the project price lists, follow these steps.
 
 1. Go to **Settings** \> **General** \> **Parameters**.
-1. On the **Active Parameters** list page, locate the record, and double-click to open it. While double–clicking, make sure that you are not clicking on a field value that is a hyperlink. 
+1. On the **Active Parameters** list page, locate the record, and double-click to open it. While double–clicking, make sure that you aren't clicking on a field value that is a hyperlink. 
 1. On the **Parameters** page, select the **Price List** tab. The default price list is shown. This is a list of standard cost and sales price lists. Having a **Sales** price list associated here for every currency that you sell in ensures that the sales price list is the default on any contract that you create for customers that transact in this currency.
 
 ### Set up a customer-specific project price list
@@ -67,7 +67,7 @@ To set up a customer-specific project price list, follow these steps.
 
 ## Managing how price lists defaulted during Contract creation
 
-When creating a Project Contract in Project Operations, the application provides options to you on how Project Price Lists are associated to Project Contract. There are two options available. To access these options navigate to **Settings** \> **Parameters**. On the **Parameters** page, Open the **Parameters** record. On the section **Price List Defaulting Behavior**, use the setting **During Contract creation**. You will see two options:
+When creating a Project Contract in Project Operations, the application provides options to you on how Project Price Lists are associated to Project Contract. There are two options available. To access these options, navigate to **Settings** \> **Parameters**. On the **Parameters** page, Open the **Parameters** record. On the section **Price List Defaulting Behavior**, use the setting **During Contract creation**. You see two options:
 
 #### Option 1 - Associate existing applicable standard price lists to project contracts
 
@@ -75,23 +75,24 @@ Selecting this option attaches the standard price list(s) from **Parameters** or
 
 #### Option 2 - Associate copies of applicable standard price lists to the project contract*
 
-Selecting this option creates a full copy of the standard price list from **Parameters** or from **Customer**. The name of the contract and date are appended, and attached to this full copy to the Project contract. Of the two options, this option has a severe impact on the time it take to create the Project Contract. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) for the full duration of the project. 
+Selecting this option creates a full copy of the standard price list from **Parameters** or from **Customer**. The name of the contract and date are appended, and attached to this full copy to the Project contract. Of the two options, this option has a severe impact on the time it takes to create the Project Contract. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) for the full duration of the project. 
 
 ## Create custom pricing on a project contract
 
-After you have organizational and customer-specific default project price lists, your project contracts are automatically created with these project price list associations. However, in certain cases, you may need to create custom pricing for a specific project contract. 
 
 1. On the **Project Contract**, on the **Project Price List** tab, verify in the subgrid that no specific price list record is selected.
-2. Select **Create Custom Pricing**. 
+1. Select **Create Custom Pricing**. 
 
 ### Managing the behavior of custom pricing on project contracts
 
-When creating custom pricing on a quote in Project Operations, the application provides options to you on how custom price lists are created. There are two options available. To access these options navigate to **Settings** \> **Parameters**. On the **Parameters** page, Open the **Parameters** record. On the section **Price List Defaulting Behavior**, use the setting **Custom pricing options**. You see two options:
+When you create a custom pricing on a quote in Project Operations, the application provides options to you on how custom price lists are created. There are two options available. To access these options, navigate to **Settings** \> **Parameters**. On the **Parameters** page, Open the **Parameters** record. On the section **Price List Defaulting Behavior**, use the setting **Custom pricing options**. You see two options:
 
-Option 1 - **Create full copy of standard price lists**: 
-Selecting this option creates a full copy of the contract price list. The name of the contract and the date is appended and attach ed to this full copy to the Project Contract. The existing associations with standard price lists is removed. The salesperson can then make edits to prices on these copies. These changed prices are applicable to this project contract only. Of the two options, this option has a severe impact on the performance of creating custom pricing. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) that you are using during execution stage for the duration of the Project. 
+#### Option 1 - Create full copy of standard price lists 
 
-Option 2 - **Create protected price overrides for price list components used on the quote or the contract**:
+Selecting this option creates a full copy of the contract price list. The name of the contract and the date is appended and attached to this full copy to the Project Contract. The existing associations with the standard price lists are removed. The salesperson can then make edits to prices on these copies. These changed prices are applicable to this project contract only. Of the two options, this option has a severe impact on the performance of creating custom pricing. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) that you're using during execution stage for the duration of the Project. 
+
+#### Option 2 - Create protected price overrides for price list components used on the quote or the contract
+
 Selecting this option creates date-effective price overrides that are scoped to the Project Contract for estimated components. In other words, the components referenced on Contract line details. This option doesn't create an entire copy of the Contract price list, therefore it has better performance than Option 1. Depending on the number of contract line details, it takes longer to create custom pricing, but is very quick to create custom pricing if the Project Contract only has a few Contract line details.
 
 
