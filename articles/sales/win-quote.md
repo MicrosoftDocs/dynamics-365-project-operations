@@ -18,19 +18,19 @@ A project quote can be closed as **won** or **lost**.
 
 When you close a project quote as Won, the status is set to **Closed**, and the status reason is set to **Won**. Closing the quote makes the project quote read-only and creates a draft project contract that contains the quote information. Because a closed quote can't be reopened, a confirmation dialog confirms your changes.
 
-The project contract created from a project quote is also made available in the Project management and accounting module of Project Operations. If a project contract is not mapped to a project on any of its lines, this project contract is made available as an inactive project contract and becomes active as soon as a project is mapped to at least one of its contract lines.
+The project contract created from a project quote is also made available in the Project management and accounting module of Project Operations. If a project contract isn't mapped to a project on any of its lines, this project contract is made available as an inactive project contract and becomes active as soon as a project is mapped to at least one of its contract lines.
 
 If the quote is attached to an opportunity, any other project quotes on the opportunity are automatically closed as **Lost**.
 
 ### Financial impact of closing a quote as Won
 
-If there have been any actuals for time recorded on a project while it is still attached to a draft quote, only the cost of the time or expense is recorded. After a quote is closed as Won, the application will refactor the costs by reversing the older cost actuals and re-creating new cost actuals. The application will process these cost actuals based on the Billing method of the associated project contract line. If the cost actuals reference a time and material contract line, the system will automatically create corresponding unbilled sales actuals for when the quote is closed and the project contract is created. If the cost actuals reference a fixed price contract line, the application will stop reprocessing the cost actuals based on the split billing rules for the project contract customers.
+If there have been any actuals for time recorded on a project while it's still attached to a draft quote, only the cost of the time or expense is recorded. After a quote is closed as Won, the application will refactor the costs by reversing the older cost actuals and re-creating new cost actuals. The application will process these cost actuals based on the Billing method of the associated project contract line. If the cost actuals reference a time and material contract line, the system will automatically create corresponding unbilled sales actuals for when the quote is closed and the project contract is created. If the cost actuals reference a fixed price contract line, the application will stop reprocessing the cost actuals based on the split billing rules for the project contract customers.
 
 All reprocessed actuals are available in the Project management and accounting module for the Project accountant to review, update, and post to the General ledger. 
 
 ### Managing how price lists attached to the quote are handled during Quote win
 
-If there are any actuals for time on a project while it is still attached to a draft quote, only the cost of the time or expense is recorded. 
+If there are any actuals for time on a project while i's still attached to a draft quote, only the cost of the time or expense is recorded. 
 
 After a quote is closed as **Won**, the application refactors the costs by reversing the older cost actuals and re-creating new cost actuals. The application processes these cost actuals based on the Billing method of the associated project contract line. If the cost actuals reference a time and material contract line, the corresponding unbilled sales actuals are created when the quote is closed, and the project contract is created. If the cost actuals reference a fixed price contract line, the application stops reprocessing the cost actuals that are based on the split billing rules for the project contract customers.
 
