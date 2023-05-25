@@ -31,9 +31,9 @@ A project price list association is created.
 You can repeat this process as needed to associate more than one project price list to the project quote. Only create multiple project price lists if you have different effective dates on each of the associated project price lists.
 
 > [!NOTE]
-> Project Operations doesn't support overlapping date effectivity of the project price lists. If there are multiple project prices lists for a transaction with a given date, the price on that transaction is defaulted to zero (0).
+> Project Operations doesn't support overlapping date effectivity of the project price lists. If there are multiple project price lists for a transaction with a given date, the price on that transaction is defaulted to zero (0).
 
-To remove a project price list association, select the project price list and then select **Delete Quote Project Price List**. The price list is removed from the project price lists on the quote, but the price list itself is not deleted. Only the association to the quote is deleted.
+To remove a project price list association, select the project price list and then select **Delete Quote Project Price List**. The price list is removed from the project price lists on the quote, but the price list itself isn't deleted. Only the association to the quote is deleted.
 
 ## Set up default project price lists on a quote
 
@@ -71,7 +71,7 @@ To create custom pricing on a project quote, follow these steps.
 When you create custom pricing on a quote in Project Operations, the application provides options to you based on how the custom price lists are created. There are two options available. To access these options, navigate to **Settings** \> **Parameters**. On the **Parameters** page, open the **Parameters** record. On the section **Price List Defaulting Behavior**, use the setting **Custom pricing options**. You see two options:
 
 #### Option 1 - Create full copy of standard price lists 
-Selecting this option creates a full copy of the quote price list. The name of the quote and the date is appended and attached to this full copy of the Quote. The existing associations with the standard price lists is removed. The salesperson can then make edits to the prices on these copies. These changes are applicable to this project quote only. Of the two options, this option has a severe impact on the performance of creating custom pricing. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) that you're using during quote stage for the duration of the Project. 
+Selecting this option creates a full copy of the quote price list. The name of the quote and the date is appended and attached to this full copy of the Quote. The existing associations with the standard price lists are removed. The salesperson can then make edits to the prices on these copies. These changes are applicable to this project quote only. Of the two options, this option has a severe impact on the performance of creating custom pricing. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) that you're using during quote stage for the duration of the Project. 
 
 
 #### Option 2 - Create protected price overrides for price list components used on the quote or the contract
