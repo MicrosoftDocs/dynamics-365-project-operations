@@ -29,7 +29,7 @@ After a quote is closed as **Won**, the application refactors the costs by rever
 
 ### Managing how price lists are attached to the quote are handled during Quote win
 
-When winning a quote in Project Operations, the application provides options to you on how to transfer Price Lists from Quote to the Project Contract. There are three options available. To access these options, navigate to **Settings** \> **Parameters**. On the **Parameters** page, Open the **Parameters** record. On the section **Price List Defaulting Behavior**, use the setting **During Contract creation from Quote**. You see three options:
+When you win a quote in Project Operations, the application provides options to you on how to transfer Price Lists from Quote to the Project Contract. There are three options available. To access these options, navigate to **Settings** \> **Parameters**. On the **Parameters** page, Open the **Parameters** record. On the section **Price List Defaulting Behavior**, use the setting **During Contract creation from Quote**. You see three options:
 
 #### Option 1 - Associate quote price lists to Project Contract
 
@@ -40,7 +40,7 @@ Selecting this option attaches the same price list(s) on the quote to the Projec
 Selecting this option creates contract-scoped price overrides for all the components estimated on the Quote line details. This option creates date-effective price overrides that are scoped to the contract for estimated components. In other words, components referenced on the quote line details. Due to these price overrides, any price changes in the price list for these components won't impact how the actuals are priced during the execution of the project. This option won't create an entire copy of the quote price list and therefore has better performance than selecting Option three below. However, it's slower than Option one because it leads to the creation of date-effective price overrides for the components references on the quote line details. Depending on the number of quote line details, it can take longer to win the quote or be quick to win the quote if the Quote only has a few Quote line details.
 
 #### Option 3 - Make copies of quote price lists and associate them to Project Contract
-Selecting this option creates a full copy of the quote price list. The name of the contract and date are appended, and attached to this full copy to the Project contract. Of the three options, this option has a severe impact on the performance of Quote win and the time it takes to create the Project Contract. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) that was used during quote stage for the duration of the Project. 
+Selecting this option creates a full copy of the quote price list. The name of the contract and the date are appended, and attached to this full copy to the Project contract. Of the three options, this option has a severe impact on the performance of Quote win and the time it takes to create the Project Contract. This option also creates data explosion of price list records. Use this option only when you need to protect the entire price list(s) that was used during quote stage for the duration of the Project. 
 
 ## Closing a quote as lost
 
@@ -49,7 +49,7 @@ When you close a project quote as lost, the status is set to **Closed**, and sta
 If the project quote that is closed as **Lost** references a project on any of its lines, that project is also marked as **Closed**. Any resource bookings from that day forward are canceled.
 
 > [!NOTE]
-> In Project Operations, closing a quote as **Won** or **Lost** won't impact that status of the opportunity, which will remain open until it is manually closed.
+> In Project Operations, closing a quote as **Won** or **Lost** won't impact that status of the opportunity, which will remain open until it's manually closed.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
