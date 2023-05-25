@@ -506,6 +506,16 @@
       href: expense/cash-advance.md
     - name: Per diem expenses
       href: expense/per-diem-expenses.md
+    - name: Expense Mobile App - Intuitive Expense Entry
+      items: 
+      - name: Expense Mobile App overview
+        href: expense/new-expense-mobile-app-overview.md
+      - name: Install and configure expense mobile app
+        href: expense/new-expense-mobile-app-Install-and-configure.md
+      - name: Manage expenses, reports and receipts
+        href: expense/new-expense-mobile-app-manage-expenses-reports-and-receipts.md
+      - name: Expense mobile app FAQ
+        href: expense/new-expense-mobile-app-faq.md
     - name: Mobile Expense app
       href: expense/expense-using-mobile.md
     - name: Financial management
@@ -1414,6 +1424,16 @@
       href: expense/cash-advance.md
     - name: Per diem expenses
       href: expense/per-diem-expenses.md
+    - name: Expense Mobile App - Intuitive Expense Entry
+      items: 
+      - name: Expense Mobile App overview
+        href: expense/new-expense-mobile-app-overview.md
+      - name: Install and configure expense mobile app
+        href: expense/new-expense-mobile-app-Install-and-configure.md
+      - name: Manage expenses, reports and receipts
+        href: expense/new-expense-mobile-app-manage-expenses-reports-and-receipts.md
+      - name: Expense mobile app FAQ
+        href: expense/new-expense-mobile-app-faq.md
     - name: Mobile Expense app
       href: expense/expense-using-mobile.md
     - name: Financial management
@@ -1522,6 +1542,16 @@
     href: expense/cash-advance.md
   - name: Per diems
     href: expense/per-diems.md
+  - name: Expense Mobile App - Intuitive Expense Entry
+    items: 
+    - name: Expense Mobile App overview
+      href: expense/new-expense-mobile-app-overview.md
+    - name: Install and configure expense mobile app
+      href: expense/new-expense-mobile-app-Install-and-configure.md
+    - name: Manage expenses, reports and receipts
+      href: expense/new-expense-mobile-app-manage-expenses-reports-and-receipts.md
+    - name: Expense mobile app FAQ
+      href: expense/new-expense-mobile-app-faq.md
   - name: Mobile Expense app
     href: expense/expense-using-mobile.md
   - name: Financial management
