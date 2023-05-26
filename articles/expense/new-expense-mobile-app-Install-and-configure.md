@@ -13,7 +13,7 @@ ms.author: ramagadu
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
 > [!IMPORTANT]
->The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change.  For more information about preview releases, see [**One version service updates FAQ**](https://learn.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+>The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change.  For more information about preview releases, see [**One version service updates FAQ**](/dynamics365/unified-operations/fin-and-ops/get-started/one-version.md).
 
 This article describes how administrators can prepare your Microsoft Dynamics 365 Finance and Dataverse environments to support the Expense mobile app. It also describes how to install the app on your mobile devices.
 
@@ -23,7 +23,7 @@ To run the Expense mobile app, you must be using Dynamics 365 Finance version 10
 
 ## Set up Dataverse for your Dynamics 365 Finance environment
 
-Dynamics 365 Finance environment must be linked with a Dataverse environment, If Dataverse isn't already set up for your environment, follow the instructions in [Enable Power Platform Integration - Finance & Operations](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration#enable-after-deploy)
+Dynamics 365 Finance environment must be linked with a Dataverse environment, If Dataverse isn't already set up for your environment, follow the instructions in [Enable Power Platform Integration - Finance & Operations](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration#enable-after-deploy.md)
 
 When you create the Dataverse environment where you want to install the app, be sure to enable Dynamics 365 apps.
 
@@ -37,7 +37,7 @@ When you create the Dataverse environment where you want to install the app, be 
 
 You must install the Expense mobile app in your Dataverse environment to enable users to access it when they sign in by using the Power Apps mobile app.
 
-1. Go to ["Dynamics 365 Expense Mobile Application (Public Preview)" in Microsoft AppSource.](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.msdyn_expense_mobile-preview?flightCodes=d365expensemobile&exp=ubp8)
+1. Go to ["Dynamics 365 Expense Mobile Application (Public Preview)" in Microsoft AppSource.](https://appsource.microsoft.com/product/dynamics-365/mscrm.msdyn_expense_mobile-preview?flightCodes=d365expensemobile&exp=ubp8)
 2. Select **Get it now** 
    :::image type="content" source="media/newexpensemobile/1.ExpenseMobile-AppSource.png" alt-text="Expense mobile app in App source"::: 
 3. You will be redirected to Power Platform Admin Center(PPAC) and window will appear to install the application, please select the environment where you would like to install the app and click on Install button. In this scenario, please select the environment that you have created/updated environment earlier.
@@ -60,7 +60,7 @@ It has two steps:
 
 The steps below describe the specific process of registering an app in Azure AD for the connector. This is required to grant permissions to the connector to call in Dataverse APIs.
 
-Note: Scope of these steps are quite specific. [Click here](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app), for more information on registering an application with Azure AD.
+Note: Scope of these steps are quite specific. [Click here](/azure/active-directory/develop/quickstart-register-app.md), for more information on registering an application with Azure AD.
 
 ### Prerequisites
 
@@ -79,7 +79,7 @@ Note: Scope of these steps are quite specific. [Click here](https://learn.micros
 1. Once **Register an application** page loads:
      1. Enter a descriptive and meaningful name of the application in **Name**
      2. Select the appropriate options **Supported account types**
-     3. Select **Redirect Uri** as **Web** and enter [_https://global.consent.azure-apim.net/redirect_](https://global.consent.azure-apim.net/redirect)as the value in the provided textbox.
+     3. Select **Redirect Uri** as **Web** and enter [_https://global.consent.azure-apim.net/redirect_](https://global.consent.azure-apim.net/redirect) as the value in the provided textbox.
      4. Click on the **Register** button provided at the bottom of the page.
 
     :::image type="content" source="media/newexpensemobile/5.NewRegisterAnApplicationDetails.png" alt-text="App registrations details page to enter the name and other key details"::: 
@@ -155,18 +155,18 @@ Now that the Azure AD application is registered and configured, you configure th
 
 ## Grant access to the mobile app in Dataverse
 
-After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Expense mobile app is a canvas app. To share it, follow the instructions in [Share an app](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/share-app).
+After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Expense mobile app is a canvas app. To share it, follow the instructions in [Share an app](/power-apps/maker/canvas-apps/share-app.md).
 
 Each relevant user must be assigned with a security role as **Basic user** that lets them to create a connection for custom connector. You can assign this role to a Dataverse group team. Any user who's a member of that team will then have the role too. Alternatively, you can assign the role directly to a user.
 
-- To assign a role to a group team, follow the instructions in [Manage the security roles](https://learn.microsoft.com/en-us/power-platform/admin/manage-group-teams#manage-the-security-roles-of-a-team) of a team. We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](https://learn.microsoft.com/en-us/power-platform/admin/manage-teams#manage-team-members).
-- To assign a role directly to a user, follow the instructions in [Assign a security role to a user](https://learn.microsoft.com/en-us/power-platform/admin/assign-security-roles).
+- To assign a role to a group team, follow the instructions in [Manage the security roles](/power-platform/admin/manage-group-teams.md#manage-the-security-roles-of-a-team) of a team. We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](/power-platform/admin/manage-teams#manage-team-members.md).
+- To assign a role directly to a user, follow the instructions in [Assign a security role to a user](/power-platform/admin/assign-security-roles.md).
 
 ## Install and open the Expense mobile app
 
 Follow these steps to install and use the Expense mobile app on a mobile device.
 
-1. Install the Power Apps mobile app by following the instructions in [Install the Power Apps mobile app](https://learn.microsoft.com/en-us/power-apps/mobile/run-powerapps-on-mobile).
+1. Install the Power Apps mobile app by following the instructions in [Install the Power Apps mobile app](/power-apps/mobile/run-powerapps-on-mobile.md).
 2. Open the Power Apps mobile app, and sign in by using the same corporate account that you use to sign in to Dynamics 365 Finance.
 3. Use the  **Search**  field to search for _Expense Mobile_. Because it's a canvas app, you can add it to your favourites list in Power Apps by swiping left on it after you find it.
 4. Open the Expense mobile app, and start to use it. While opening the application for the first time, you are required to create a connection to **Expense Core Service Connector** using the same corporate account that you use to sign in to Dynamics 365 Finance.
