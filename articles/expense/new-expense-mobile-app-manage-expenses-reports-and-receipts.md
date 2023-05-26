@@ -1,6 +1,6 @@
 ---
-title: Manage expenses, reports and receipts
-description: This article provides information about managing  expenses, reports and receipts using new expense mobile app.
+title: Manage expenses, reports, and receipts using the Expense mobile app
+description: This article provides information about managing expenses, reports, and receipts using the Expense mobile app.
 author: ramagadu
 ms.date: 05/26/2023
 ms.topic: article
@@ -8,23 +8,23 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# Manage expenses, reports and receipts
+# Manage expenses, reports, and receipts using the Expense mobile app
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
 > [!IMPORTANT]
->The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change.  For more information about preview releases, see [**One version service updates FAQ**](/dynamics365/unified-operations/fin-and-ops/get-started/one-version.md).
+>The functionality that's described in this article is available as part of a preview release. The functionality described and the content in this article are subject to change. For more information about preview releases, see [**One version service updates FAQ**](/dynamics365/unified-operations/fin-and-ops/get-started/one-version.md).
 
-This article provides information about how users can manage expenses, reports and receipts using new **Expense mobile app**.
+This article provides information about how you can manage expenses, reports, and receipts using the Expense mobile app.
 
-## Prerequisites for users to access the new mobile application
+## Prerequisites for using the Expense mobile app
 
-To carry out tasks within the new **Expense mobile app** , certain prerequisites must be in place. It is advised to collaborate with your **System Administrator** to ensure the following requirements are met.
+To carry out tasks within the Expense mobile app, certain prerequisites must be in place. It is advised to collaborate with your **System Administrator** to ensure the following requirements are met.
 
-1. You must have **access** to the **Dynamics 365 Finance** environment where you would want to enter expenses.
-2. You must have the role assigned as **Employee.**
-3. You must have the **Company** value set against your user record.
-4. You must be linked to an **Employee** who has an active employment.
+* You must have access to the Microsoft Dynamics 365 Finance environment where you want to enter expenses.
+* You must have the role **Employee** role assigned to your user account.
+* You must have the **Company** value set for your user account.
+* You must be linked to an **Employee** who has an active employment.
 
 ## Overview
 
