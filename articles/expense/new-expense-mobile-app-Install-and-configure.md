@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# Install and configure expense mobile app
+# Install and configure Expense mobile app
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
@@ -27,10 +27,11 @@ Dynamics 365 Finance environment must be linked with a Dataverse environment, If
 
 When you create the Dataverse environment where you want to install the app, be sure to enable Dynamics 365 apps.
 
-## Enable the feature Use expense mobile application for intuitive expense entry experience
+## Enable the feature in Dynamics 365 Finance
 
-1. Go to  **Workspaces**  \>  **Feature Management**.
-2. In the list, find and select  **feature Use expense mobile application for intuitive expense entry experience** , and then select  **Enable now**.
+1. Go to **Dynamics 365 Finance** environment
+2. Go to  **Workspaces**  \>  **Feature Management**.
+3. In the list, find and select  **feature Use expense mobile application for intuitive expense entry experience** , and then select  **Enable now**.
 
 ## Install the mobile app in Dataverse
 
@@ -48,7 +49,7 @@ As a next step, you would need to configure the connector the mobile app. Please
 
 ## Expense Core Service Connector Configuration
 
-Expense Mobile app uses _Expense Core Service Connector_ (Power Apps Custom Connector) for all its interactions with Microsoft Dataverse.
+Expense Mobile app uses **Expense Core Service Connector** (Power Apps Custom Connector) for all its interactions with Microsoft Dataverse.
 
 It has two steps:
 
@@ -107,7 +108,7 @@ Note: Scope of these steps are quite specific. [Click here](https://learn.micros
 1. Once the blade closes, the newly generated client secret will be displayed. **Copy** this value by clicking on the copy button and store it for later use.
  :::image type="content" source="media/newexpensemobile/11.ClientSecretKey.png" alt-text="Client secret key details"::: 
 
-## Configuring Expense Core Service Connector
+## Configure Expense Core Service Connector
 
 Now that the Azure AD application is registered and configured, you configure the Expense Core Service Connector to interact with Microsoft Dataverse.
 
@@ -132,29 +133,34 @@ Now that the Azure AD application is registered and configured, you configure th
 7. Once the Connector Configuration page loads:
    1. Select **General** tab
    2. Set **Scheme** as **HTTPS**
-   3. Replace **Host** value with the domain of your organization. For example, if your Organization URL is https://operations-demo.crm.dynamics.com/, enter only **operations-demo.crm.dynamics.com**.
+   3. Replace **Host** value with the domain of your organization. For example, if your Organization URL is **https://operations-demo.crm.dynamics.com/**, enter only **operations-demo.crm.dynamics.com**.
    4. Do not modify the default value for **Base URL** value, leave it as-is (/api/data/v9.2/).
-   5.  Navigate to the Security page, either by clicking **Security -\>** button at the bottom of the page or by selecting **2. Security** tab at the top.
+   5. Navigate to the Security page, either by clicking **Security -\>** button at the bottom of the page or by selecting **2. Security** tab at the top.
 
     :::image type="content" source="media/newexpensemobile/17.ConnectorGeneralTab.png" alt-text="Connector general tab details"::: 
 
-8.  Once the **Security** tab loads, click on **Edit** button in the **Authentication Type** section.
+8. Once the **Security** tab loads, click on **Edit** button in the **Authentication Type** section.
       :::image type="content" source="media/newexpensemobile/18.ConnectorSecurityEdit.png" alt-text="Connector security tab details"::: 
 
-9.  On the security page, provide Azure AD information for the application:
-    1.  For **Client id,** enter the **Application (client) ID** value you copied in **Step 3** of App registration for Expense Core Service Connector in Azure AD
-    2.  For **Client secret,** enter the secret value you copied in **Step 8** ofApp registration for Expense Core Service Connector in Azure AD
-    3.  For **Resource URL** , enter the URL of your Organization (with scheme). For example, [https://operations-demo.crm.dynamics.com](https://operations-demo.crm.dynamics.com/)
-    4.  Leave the rest of configuration as-is. Please refer to the image below in case they are accidentally changed or deleted.
-    5.  Once done, click on the **Update connector** button and wait for changes to be saved.
+9. On the security page, provide Azure AD information for the application:
+    1. For **Client id,** enter the **Application (client) ID** value you copied in **Step 3** of App registration for Expense Core Service Connector in Azure AD
+    2. For **Client secret,** enter the secret value you copied in **Step 8** ofApp registration for Expense Core Service Connector in Azure AD
+    3. For **Resource URL** , enter the URL of your Organization (with scheme). For example, [https://operations-demo.crm.dynamics.com](https://operations-demo.crm.dynamics.com/)
+    4. Leave the rest of configuration as-is. Please refer to the image below in case they are accidentally changed or deleted.
+    5. Once done, click on the **Update connector** button and wait for changes to be saved.
 
     :::image type="content" source="media/newexpensemobile/19.ConnectorUpdate.png" alt-text="Connector security tab details"::: 
 
 10. Expense Core Service Connector is now configured to be used by the mobile app. You can now click on the **Close** button and also close the Power Automate portal.
 
-## Share the mobile app with your organization
+## Grant access to the mobile app in Dataverse
 
-Please refer to this documentation on how to share the canvas powers apps with users in your organization [Share a canvas app with your organization](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/share-app)
+After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Expense mobile app is a canvas app. To share it, follow the instructions in [Share an app](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/share-app).
+
+Each relevant user must be assigned with a security role as **Basic user** that lets them to create a connection for custom connector. You can assign this role to a Dataverse group team. Any user who's a member of that team will then have the role too. Alternatively, you can assign the role directly to a user.
+
+- To assign a role to a group team, follow the instructions in [Manage the security roles](https://learn.microsoft.com/en-us/power-platform/admin/manage-group-teams#manage-the-security-roles-of-a-team) of a team. We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](https://learn.microsoft.com/en-us/power-platform/admin/manage-teams#manage-team-members).
+- To assign a role directly to a user, follow the instructions in [Assign a security role to a user](https://learn.microsoft.com/en-us/power-platform/admin/assign-security-roles).
 
 ## Install and open the Expense mobile app
 
@@ -163,4 +169,4 @@ Follow these steps to install and use the Expense mobile app on a mobile device.
 1. Install the Power Apps mobile app by following the instructions in [Install the Power Apps mobile app](https://learn.microsoft.com/en-us/power-apps/mobile/run-powerapps-on-mobile).
 2. Open the Power Apps mobile app, and sign in by using the same corporate account that you use to sign in to Dynamics 365 Finance.
 3. Use the  **Search**  field to search for _Expense Mobile_. Because it's a canvas app, you can add it to your favourites list in Power Apps by swiping left on it after you find it.
-4. Open the Expense mobile app, and start to use it. While opening the application for the first time, you are required to sign in to " **Expense Core Service Connector**" using the same corporate account that you use to sign in to Dynamics 365 Finance.
+4. Open the Expense mobile app, and start to use it. While opening the application for the first time, you are required to create a connection to **Expense Core Service Connector** using the same corporate account that you use to sign in to Dynamics 365 Finance.
