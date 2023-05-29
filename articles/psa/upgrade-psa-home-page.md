@@ -4,7 +4,7 @@ description: This article shows where to find important information about the ne
 ms.prod: 
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
+ms.collection: get-started
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant

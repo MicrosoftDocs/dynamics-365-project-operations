@@ -4,7 +4,7 @@ description: Introduction and overview of Project Service
 author: stsporen
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
+ms.collection: get-started
 ms.date: 9/23/2019
 ms.topic: overview
 ms.author: ruhercul

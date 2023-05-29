@@ -5,7 +5,7 @@ author: rumant
 ms.author: rumant
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
+ms.collection: get-started
 ms.date: 03/01/2019
 ms.topic: article
 audience: Admin
