@@ -4,7 +4,7 @@ description: This article provides links to articles that provide development in
 author: makk
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
+ms.collection: get-started
 ms.date: 03/26/2019
 ms.topic: overview
 ms.author: makk

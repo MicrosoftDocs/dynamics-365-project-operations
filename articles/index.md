@@ -17,7 +17,7 @@ audience: Application User
 # ms.devlang: 
 ms.reviewer: johnmichalak
 # ms.tgt_pltfrm: 
-ms.custom: "intro-internal"
+ms.collection: get-started
 ms.assetid: 
 ms.search.region: 
 ms.search.industry: 

@@ -4,7 +4,7 @@ description: This article provides information about reporting in Dynamics 365 P
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
+ms.collection: get-started
 ms.date: 03/01/2019
 ms.topic: article
 ms.author: ruhercul

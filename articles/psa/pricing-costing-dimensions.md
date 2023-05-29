@@ -4,7 +4,7 @@ description: This article provides an overview of pricing dimensions.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
+ms.collection: get-started
 ms.date: 10/01/2020
 ms.topic: article
 ms.author: rumant
