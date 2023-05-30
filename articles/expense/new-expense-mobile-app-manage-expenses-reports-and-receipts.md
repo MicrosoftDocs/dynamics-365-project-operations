@@ -1,5 +1,5 @@
 ---
-title: Manage expenses, rexpense reports, and receipts using the Expense mobile app
+title: Manage expenses, expense reports, and receipts using the Expense mobile app
 description: This article provides information about managing expenses, expense reports, and receipts using the Expense mobile app.
 author: ramagadu
 ms.date: 05/26/2023
@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Pr
 
 ## Prerequisites for using the Expense mobile app
 
-To carry out tasks within the Expense mobile app, certain prerequisites must be in place. It's advised to collaborate with your **System Administrator** to ensure the following requirements are met.
+To carry out tasks within the Expense mobile app, certain prerequisites must be in place. Collaborate with your **System Administrator** to ensure the following requirements are met.
 
 * You must have access to the Microsoft Dynamics 365 Finance environment where you want to enter expenses.
 * You must have the **Employee** role assigned to your user account.
@@ -39,7 +39,7 @@ The following sections explain how to manage your expenses using the Expense mob
 
 ### View expenses
 
-When you launch the Expense mobile app the **Expenses** page displays a list of **unattached expenses**.
+When you launch the Expense mobile app, the **Expenses** page displays a list of **unattached expenses**.
 
 * You can see all the unattached expenses that you have created manually or your imported credit card transactions.
 * You can see key information about the expenses in the list page, such as **Transaction date, Merchant Name, Amount**, and **Project ID.**
@@ -55,15 +55,15 @@ To enter expenses using optical character recognition (OCR), follow these steps.
 1. Select the **+** button.
 1. The camera app opens so you can:
    * **Take a photo** of a receipt to capture it.
-   * **Select existing** reciept that's already captured.
+   * **Select existing** receipt that's already captured.
    * **Select from device** to upload a receipt from your mobile device. 
 1. Preview the receipt and select **Done**. You can select the **Retake** button if you would like to retake the picture.
 1. On the **New Expense** page, information such as **Date**, **Amount**, **Merchant name** are populated using OCR.
 1. From the list of expense categories, select the expense category. You can filter the categories by typing expense category name.
 1. Enter the transaction date of the expense.
 1. Optional: 
-   * Enter the merchant for the expense if it's not populated by OCR or if you would like to change the populated value.
-   * Enter the amount of the expense if it's not populated by OCR or if you would like to change the amount.
+   * Enter the merchant for the expense if it isn't populated by OCR or if you would like to change the populated value.
+   * Enter the amount of the expense if it isn't populated by OCR or if you would like to change the amount.
 1. Select the currency of the expense.
 1. Select  **Done**.
 
@@ -96,7 +96,7 @@ To add a receipt, follow these steps.
 1. Select **Add receipt**.
 1. The camera app opens so you can:
    * **Take a photo** of a receipt to capture it.
-   * **Select existing** reciept that's already captured.
+   * **Select existing** receipt that's already captured.
    * **Select from device** to upload a receipt from your mobile device. 
 1. Preview the receipt and select **Done**. You can select the **Retake** button if you would like to retake the picture.
 
@@ -111,7 +111,7 @@ To change a receipt, follow these steps.
 1. Select **Change receipt** in View receipt page.
 1. The camera app opens so you can:
    * **Take a photo** of a receipt to capture it.
-   * **Select existing** reciept that's already captured.
+   * **Select existing** receipt that's already captured.
    * **Select from device** to upload a receipt from your mobile device. 
 1. Preview the receipt and Select **Done**. You can select the **Retake** button if you would like to retake the picture.
 
@@ -151,7 +151,7 @@ To attach expenses to reports, follow these steps.
 6. Select the report to which you would like to attach selected expense.
 7. Select **Yes** in the **Confirmation** dialog box.
 
-After expenses are attached a report, those expenses no longer show on the **Expenses** list. The **Expenses** list only shows expenses that have not been attache to a report.
+After expenses are attached a report, those expenses no longer show on the **Expenses** list. The **Expenses** list only shows expenses that have not been attached to a report.
 
 ## Manage expense reports
 
@@ -191,7 +191,7 @@ To delete expense reports, follow these steps.
 
 When the report is deleted successfully, all the expenses that were attached the report move to the **Expenses list**.
 
-### Submit an expsense report for review
+### Submit an expense report for review
 
 To submit an expense report for review, follow these steps.
 
@@ -201,7 +201,7 @@ To submit an expense report for review, follow these steps.
 1. Open the report that you would like to submit for review.
 1. Select **Submit**.
 
-When the report is successfully submitted, the Report moves to In review status and it's available under In review tab.
+When the report is successfully submitted, the Report moves to the **In review** status and it's available under In review tab.
 
 ### Recall an expense report
 
@@ -216,7 +216,7 @@ To recall an expense report, follow these steps.
 
 ## Manage receipts
 
-Many organizations require that a copy of a receipt be attached to a travel-related or business-related expense reports that an employee submits for reimbursement. The Expense mobile app allows users to create and manage receipts seamlessly.
+Many organizations require you to attach a copy of a receipt to a travel-related or business-related expense reports that an employee submits for reimbursement. The Expense mobile app allows users to create and manage receipts seamlessly.
 
 ### View receipts
 
@@ -255,7 +255,7 @@ To upload a new receipt from your mobile device, follow these steps.
 
 You can delete one or more receipts at a time.
 
-To delect multiple receipts, follow these steps.
+To delete multiple receipts, follow these steps.
 
 1. On your mobile device, open the **Power Apps mobile** application and open the **Expense mobile app.**
 1. Select the **Receipts** tab.
