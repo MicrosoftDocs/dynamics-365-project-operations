@@ -58,7 +58,7 @@ It has two steps:
   1. App registration in Azure Active Directory
   2. Configure the custom connector using the registered app details.
 
-The following sections explain how to regiter the Expense moblile app in Microsoft Azure Active Directory, and configure the custom connector.
+The following sections explain how to register the Expense mobile app in Microsoft Azure Active Directory, and configure the custom connector.
 
 ### App registration in Azure AD
 
@@ -69,7 +69,7 @@ The following steps describe the process of registering an app in Azure AD for t
 
 #### Prerequisites
 
-Before you can register the Expense mobile app in Azure AD, the following prerequsites must be completed.
+Before you can register the Expense mobile app in Azure AD, the following prerequisites must be completed.
 
 - You must have an Azure account that has an active subscription.
 - The Azure tenant must be the same tenant where the Power platform environment is installed and configured.
@@ -82,16 +82,16 @@ Before you can register the Expense mobile app in Azure AD, the following prereq
 
 To register the Expense mobile app in Azure AD, follow these steps.
 
-1. Open the [Azure Portal](https://portal.azure.com/).
+1. Open the [Azure portal](https://portal.azure.com/).
 1. Go to **Azure Active Directory \> App registrations**. 
 1. Select **New Registration,**.
    :::image type="content" source="media/newexpensemobile/4.NewAppRegistrations.png" alt-text="App registrations page to create an app in Azure"::: 
 1. On the **Register an application** page:
    1. Enter a descriptive and meaningful name of the application in **Name**.
    1. Select the appropriate options **Supported account types**
-   1. In the **Redirect Uri (optional)** section, from the drop down, select **Web** and then type **https://global.consent.azure-apim.net/redirect** in the provided textbox.
+   1. In the **Redirect Uri (optional)** section, from the drop-down, select **Web** and then type **https://global.consent.azure-apim.net/redirect** in the provided textbox.
    1. Select **Register** button provided at the bottom of the page.
-1. Once the application is registered, you'll now be redirected to its details page.
+1. After the application is registered, you're redirected to its details page.
      1. Copy the value/ID provided against **Application (client) ID** in the Essentials section and store it for later use.
      2. Select on **API permissions** from the left menu blade.
      :::image type="content" source="media/newexpensemobile/6.NewAppRegisterationAPIPersmission.png" alt-text="Screenshot of the App registrations home page with the Application (client) ID and the navigate to API permissions highlighted"::: 
@@ -99,10 +99,10 @@ To register the Expense mobile app in Azure AD, follow these steps.
 1. From the **Request API permissions** pane, select **Dynamics CRM** from Microsoft APIs tab.
  :::image type="content" source="media/newexpensemobile/7.NewAppRegisterationRequestAPIPermission.png" alt-text="Screenshot of the Request API Permission page with Dynamics CRM highlighted."::: 
     > [!NOTE]
-    > If you are unable to find Dynamics CRM, select the next tab, APIs my organization uses and search for Dataverse (or 00000007-0000-0000-c000-000000000000) and select it. Rest of the steps remain same.**
+    > If you're unable to find Dynamics CRM, select the next tab, APIs my organization uses and search for Dataverse (or 00000007-0000-0000-c000-000000000000) and select it. Rest of the steps remain same.**
 1. Select **Delegated permissions** and check the **user\_impersonation** checkbox
 1. Select **Add permissions**.
-1. From the Manage section on the left, select **Certificates & secrets**.
+1. From the Manage section, select **Certificates & secrets**.
 1. Select the **Client secrets** tab and then select **+ New client secret** to open **Add a client secret**.
 1. From **Add a client secret**, enter a **Description** for the secret and choose an appropriate **expiration period**.
 1. Select **Add**.
@@ -124,8 +124,8 @@ To configure the Expense Core Service Connector, follow these steps.
 1. Go to [Power Apps](https://make.powerapps.com/) Apps, sign-in and select the environment where you have installed the _Dynamics 365 Expense Mobile_ package.
 1. Select **Solutions**.
 1. On the **Solutions** page, select **Dynamics 365 Expense Mobile**.
-1. Select **Expense Core Service Connector**. You are redirected to Power Automate portal in a new tab/browser and maybe asked to sign in again.
-1. On the landing page, notice the **Redirect URL**. This must be same as the redirect Uri entered instep 4 of Azure AD App registration. 
+1. Select **Expense Core Service Connector**. You're redirected to Power Automate portal in a new tab/browser and maybe asked to sign in again.
+1. On the landing page, notice the **Redirect URL**. This URL must be same as the redirect Uri entered instep 4 of Azure AD App registration. 
 1. Select the **Edit** button at the top right corner.
 1. After the **Connector Configuration** page loads, select **General** tab.
 1. Set **Scheme** as **HTTPS**
@@ -138,16 +138,15 @@ To configure the Expense Core Service Connector, follow these steps.
     1. For **Client id,** enter the **Application (client) ID** value that you copied in step 5 of Register the Expense mobile app in Azure AD.
     1. For **Client secret,** enter the secret value you copied in step 11 of Register the Expense mobile app in Azure AD.
     1. For **Resource URL** , enter the URL of your Organization (with scheme). For example, https://operations-demo.crm.dynamics.com.
-    1. Leave the rest of configuration as-is. Refer to the image below in case they're accidentally changed or deleted.
-    1. Once done, select the **Update connector** button and wait for changes to be saved.
+    1. Leave the rest of configuration as-is. Refer to the following image in case they're accidentally changed or deleted.
        :::image type="content" source="media/newexpensemobile/19.ConnectorUpdate.png" alt-text="Screenshot of the Connector security tab details"::: 
-1. The Expense Core Service Connector is now configured to be used by the mobile app. Select the **Close** button and close the Power Automate portal.
+1. The Expense Core Service Connector is now configured for use by the mobile app. Select the **Close** button and close the Power Automate portal.
 
 ## Grant access to the mobile app in Dataverse
 
 After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Expense mobile app is a canvas app. To share it, follow the instructions in [Share a canvas app with your organization](/power-apps/maker/canvas-apps/share-app.md).
 
-Each relevant user must be assigned with a security role as **Basic user** that lets them to create a connection for custom connector. You can assign this role to a Dataverse group team. Any user who's a member of that team will then have the role too. Alternatively, you can assign the role directly to a user.
+Each relevant user must be assigned with a security role as **Basic user** that lets them create a connection for custom connector. You can assign this role to a Dataverse group team. Any user who's a member of that team has the role also. Alternatively, you can assign the role directly to a user.
 
 - To assign a role to a group team, follow the instructions in [Manage the security roles of a team](/power-platform/admin/manage-group-teams.md#manage-the-security-roles-of-a-team) of a team. We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](/power-platform/admin/manage-teams#manage-team-members.md).
 - To assign a role directly to a user, follow the instructions in [Assign a security role to a user](/power-platform/admin/assign-security-roles.md).
