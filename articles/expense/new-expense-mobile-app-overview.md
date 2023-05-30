@@ -13,7 +13,7 @@ ms.author: ramagadu
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
 > [!IMPORTANT]
->The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change.  For more information about preview releases, see [One version service updates FAQ](/dynamics365/unified-operations/fin-and-ops/get-started/one-version.md).
+>The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change.  For more information about preview releases, see [One version service updates FAQ](/dynamics365/fin-ops-core/fin-ops/get-started/one-version.md).
 
 This article provides information about the new Expense mobile app. The new Expense mobile app is developed using a Microsoft Power Apps Canvas app, and it can be accessed from Power Apps mobile. The Expense mobile app is a powerful solution that is designed to simplify and enhance the expense reimbursement process and increase user productivity. With a focus on being intuitive and easy to use, the app offers a range of features that make expense reporting seamless and efficient.
 
