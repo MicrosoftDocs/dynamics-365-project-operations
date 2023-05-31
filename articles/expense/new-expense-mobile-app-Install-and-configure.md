@@ -1,5 +1,5 @@
 ---
-title: Install and configure the Expense mobile app
+title: Install and configure the Expense mobile app 
 description: This article explains how to install and configure the Expense mobile app.
 author: ramagadu
 ms.date: 05/26/2023
@@ -16,7 +16,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Pr
 > [!IMPORTANT]
 > The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change. For more information about preview releases, see [One version service updates FAQ](/dynamics365/unified-operations/fin-and-ops/get-started/one-version.md).
 
-This article explains how administrators can prepare your Microsoft Dynamics 365 Finance and Dataverse environments to support the Expense mobile app. It also explains how to install the app on your mobile devices.
+This article explains how administrators can prepare your Microsoft Dynamics 365 Finance and Dataverse environments to support the Expense mobile app. For information on how to install the Expense mobile app on your mobile devices, see [Install and open the Expense mobile app on a mobile device](mobile-app-install-on-mobile-device.md).
 
 ## System requirements
 
@@ -194,11 +194,3 @@ Each relevant user must be assigned a **Basic user** security role that lets the
 - To assign a role to a group team, follow the instructions in [Manage the security roles of a team](/power-platform/admin/manage-group-teams.md#manage-the-security-roles-of-a-team). We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](/power-platform/admin/manage-teams#manage-team-members.md).
 - To assign a role directly to a user, follow the instructions in [Assign a security role to a user](/power-platform/admin/assign-security-roles.md).
 
-## Install and open the Expense mobile app
-
-To install and use the Expense mobile app on a mobile device, follow these steps.
-
-1. Install the Power Apps mobile app by following the instructions in [Install the Power Apps mobile app](/power-apps/mobile/run-powerapps-on-mobile.md).
-1. Open the Power Apps mobile app, and sign in by using the same corporate account that you use to sign in to Dynamics 365 Finance.
-1. Use the **Search** field to search for "Expense Mobile." Because the Expense mobile app is a canvas app, you can add it to your favorites list in Power Apps by swiping left on it after you find it.
-1. Open the Expense mobile app, and start to use it. The first time that you open the app, you must create a connection to Expense Core Service Connector by using the same corporate account that you use to sign in to Dynamics 365 Finance.
