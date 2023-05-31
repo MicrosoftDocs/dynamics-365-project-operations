@@ -1,6 +1,6 @@
 ---
-title: Expense mobile app overview
-description: This article explains how to manage expenses, expense reports, and receipts by using the Expense mobile app.
+title: Manage expenses, expense reports, and receipts by using the Expense mobile app overview
+description: This article provides and overview for how to manage expenses, expense reports, and receipts by using the Expense mobile app.
 author: ramagadu
 ms.date: 05/26/2023
 ms.topic: article
@@ -9,7 +9,7 @@ ms.author: ramagadu
 ms.custom: bap-template
 ---
 
-# Expense mobile app overview
+# Manage expenses, expense reports, and receipts by using the Expense mobile app overview
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
