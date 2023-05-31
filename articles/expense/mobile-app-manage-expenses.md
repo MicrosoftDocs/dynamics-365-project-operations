@@ -1,5 +1,5 @@
 ---
-title: Manage expenses using the Expense mobile app
+title: Manage expenses by using the Expense mobile app
 description: This article explains how to manage expenses by using the Expense mobile app.
 author: ramagadu
 ms.date: 05/26/2023
