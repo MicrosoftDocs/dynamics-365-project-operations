@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Install and open the Expense mobile app on a mobile device
 
-This article explains how to install and open the Expense mobile app on a mobile device. Before you can use the Expense mobile app, your admistrator must install and configure the app for your Microsoft Dynamics 365 Finance and Dataverse environment. For more information about installing and configuring the Expense mobile app for your Microsoft Dynamics 365 Finance and Dataverse environment, see [Install and configure the Expense mobile app](new-expense-mobile-app-Install-and-configure.md).
+This article explains how to install and open the Expense mobile app on a mobile device. Before you can use the Expense mobile app, your administrator must install and configure the app for your Microsoft Dynamics 365 Finance and Dataverse environment. For more information about installing and configuring the Expense mobile app for your Microsoft Dynamics 365 Finance and Dataverse environment, see [Install and configure the Expense mobile app](new-expense-mobile-app-Install-and-configure.md).
 
 To install and use the Expense mobile app on a mobile device, follow these steps.
 
