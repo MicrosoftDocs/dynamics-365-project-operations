@@ -513,7 +513,7 @@
       - name: Install and configure expense mobile app
         href: expense/new-expense-mobile-app-install-and-configure.md
       - name: Install and open the Expense mobile app on a mobile device
-        href: mobile-app-install-on-mobile-device.md
+        href: expense/mobile-app-install-on-mobile-device.md
       - name: Manage expenses, reports, and receipts
         items:
         - name: Manage expenses, expense reports, and receipts overview
@@ -1441,7 +1441,7 @@
       - name: Install and configure expense mobile app
         href: expense/new-expense-mobile-app-install-and-configure.md
       - name: Install and open the Expense mobile app on a mobile device
-        href: mobile-app-install-on-mobile-device.md
+        href: expense/mobile-app-install-on-mobile-device.md
       - name: Manage expenses, reports, and receipts
         items:
         - name: Manage expenses, expense reports, and receipts overview
@@ -1567,12 +1567,22 @@
     - name: Expense Mobile App overview
       href: expense/new-expense-mobile-app-overview.md
     - name: Install and configure expense mobile app
-      href: expense/new-expense-mobile-app-Install-and-configure.md
-    - name: Manage expenses, reports and receipts
-      href: expense/new-expense-mobile-app-manage-expenses-reports-and-receipts.md
+      href: expense/new-expense-mobile-app-install-and-configure.md
+    - name: Install and open the Expense mobile app on a mobile device
+      href: expense/mobile-app-install-on-mobile-device.md
+    - name: Manage expenses, reports, and receipts
+      items:
+      - name: Manage expenses, expense reports, and receipts overview
+        href: expense/mobile-app-manage expenses-overview.md
+      - name: Manage expenses by using the Expense mobile app
+        href: expense/mobile-app-manage-expenses.md
+      - name: Manage expense reports by using the Expense mobile app
+        href: expense/mobile-app-manage-expense-reports.md
+      - name: Manage receipts by using the Expense mobile app
+        href: expense/mobile-app-manage-receipts.md
     - name: Expense mobile app FAQ
       href: expense/new-expense-mobile-app-faq.md
-  - name: Mobile Expense app
+  - name: Mobile Expense app (legacy)
     href: expense/expense-using-mobile.md
   - name: Financial management
     items: 
