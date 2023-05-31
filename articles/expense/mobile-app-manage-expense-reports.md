@@ -1,6 +1,6 @@
 ---
-title: Manage expense reports using the Expense mobile app
-description: This article explains how to manage expenses reports using the Expense mobile app.
+title: Manage expense reports by using the Expense mobile app
+description: This article explains how to manage expenses reports by using the Expense mobile app.
 author: ramagadu
 ms.date: 05/26/2023
 ms.topic: article
@@ -9,7 +9,7 @@ ms.author: ramagadu
 ms.custom: bap-template
 ---
 
-# Manage expense reports using the Expense mobile app
+# Manage expense reports by using the Expense mobile app
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
