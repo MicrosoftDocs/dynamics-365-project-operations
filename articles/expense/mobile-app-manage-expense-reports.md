@@ -20,7 +20,7 @@ This article explains how to manage expenses reports using the Expense mobile ap
 
 The **Reports** tab of the Expense mobile app shows all expense reports for the employee for the selected company. It's subdivided into three tabs that group the expense reports based on their status:
 
-* **Draft** – This tab shows all the expense reports that are in **Draft** or **Rejected** status. Rejected expense reports are highlighted in red to indicate that they've been rejected against a report.
+* **Draft** – This tab shows all the expense reports that are in **Draft** or **Rejected** status. Rejected expense reports are highlighted in red to indicate that they've been rejected.
 * **In review** – This tab shows all the expense reports that are in **In review** status.
 * **Approved** – This tab shows all the expense reports that are in **Approved** or **Processed for payment** status.
 
