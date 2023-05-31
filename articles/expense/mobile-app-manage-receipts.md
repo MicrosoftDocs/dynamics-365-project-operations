@@ -1,5 +1,5 @@
 ---
-title: Manage receipts using the Expense mobile app
+title: Manage receipts by using the Expense mobile app
 description: This article explains how to manage receipts by using the Expense mobile app.
 author: ramagadu
 ms.date: 05/26/2023
@@ -9,7 +9,7 @@ ms.author: ramagadu
 ms.custom: bap-template
 ---
 
-# Manage receipts receipts using the Expense mobile app
+# Manage receipts receipts by using the Expense mobile app
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
