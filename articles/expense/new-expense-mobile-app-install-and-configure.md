@@ -14,7 +14,7 @@ ms.custom: bap-template
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
 > [!IMPORTANT]
-> The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change. For more information about preview releases, see [One version service updates FAQ](/dynamics365/unified-operations/fin-and-ops/get-started/one-version.md).
+> The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change. For more information about preview releases, see [One version service updates FAQ](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
 
 This article explains how administrators can prepare your Microsoft Dynamics 365 Finance and Dataverse environments to support the Expense mobile app. For information on how to install the Expense mobile app on your mobile devices, see [Install and open the Expense mobile app on a mobile device](mobile-app-install-on-mobile-device.md).
 
@@ -24,7 +24,7 @@ To run the Expense mobile app, you must use Dynamics 365 Finance version 10.0.34
 
 ## Set up Dataverse for your Dynamics 365 Finance environment
 
-Your Dynamics 365 Finance environment must be linked with a Dataverse environment, If Dataverse isn't already set up for your environment, follow the instructions in [Enable Power Platform Integration](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration#enable-after-deploy.md).
+Your Dynamics 365 Finance environment must be linked with a Dataverse environment, If Dataverse isn't already set up for your environment, follow the instructions in [Enable Power Platform Integration](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration#enable-after-deploy).
 
 When you create the Dataverse environment where you want to install the app, be sure to enable Dynamics 365 apps.
 
@@ -64,7 +64,7 @@ The following sections explain how to complete these steps.
 This section explains how to register the Expense mobile app in Azure AD for the connector. In this way, you grant the connector permission to call the app in Dataverse APIs.
 
 > [!NOTE]
-> The steps in this section are specific to registration of the Expense mobile app in Azure AD. For more information about how to register apps in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app.md).
+> The steps in this section are specific to registration of the Expense mobile app in Azure AD. For more information about how to register apps in Azure AD, see [Quickstart: Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
 
 #### Prerequisites
 
@@ -187,10 +187,10 @@ To configure the Expense Core Service Connector, follow these steps.
 
 ## Grant access to the mobile app in Dataverse
 
-After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Expense mobile app is a canvas app. To share it, follow the instructions in [Share a canvas app with your organization](/power-apps/maker/canvas-apps/share-app.md).
+After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Expense mobile app is a canvas app. To share it, follow the instructions in [Share a canvas app with your organization](/power-apps/maker/canvas-apps/share-app).
 
 Each relevant user must be assigned a **Basic user** security role that lets them create a connection for the custom connector. You can assign this role to a Dataverse group team. Then, any user who's a member of that team also has the role. Alternatively, you can assign the role directly to a user.
 
-- To assign a role to a group team, follow the instructions in [Manage the security roles of a team](/power-platform/admin/manage-group-teams.md#manage-the-security-roles-of-a-team). We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](/power-platform/admin/manage-teams#manage-team-members.md).
-- To assign a role directly to a user, follow the instructions in [Assign a security role to a user](/power-platform/admin/assign-security-roles.md).
+- To assign a role to a group team, follow the instructions in [Manage the security roles of a team](/power-platform/admin/manage-group-teams#manage-the-security-roles-of-a-team). We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](/power-platform/admin/manage-teams#manage-team-members).
+- To assign a role directly to a user, follow the instructions in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
