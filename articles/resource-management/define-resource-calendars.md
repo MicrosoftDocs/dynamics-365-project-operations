@@ -29,8 +29,9 @@ Each bookable resource working on a project must have a calendar of working hour
     - The working times within each day.
     - The time zone for the calendar rule.
     - If applicable, non-working time can also be specified for the rule.
+ 
 > [!NOTE]
-> The capacity for the bookable resource must be equal to 1. Capacity greater than 1 is not supported by Project for the web
+> The capacity for the bookable resource must be equal to 1. Capacity greater than 1 is not supported by Project for the web.
 
 ## Applying a calendar template to a resource
 
