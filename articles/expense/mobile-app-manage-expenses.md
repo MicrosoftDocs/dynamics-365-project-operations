@@ -14,7 +14,7 @@ ms.custom: bap-template
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
 > [!IMPORTANT]
-> The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change. For more information about preview releases, see [One version service updates FAQ](/dynamics365/unified-operations/fin-and-ops/get-started/one-version.md).
+> The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change. For more information about preview releases, see [One version service updates FAQ](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
 
 This article explains how to manage expenses by using the Expense mobile app.
 
@@ -44,7 +44,7 @@ To enter expenses by using optical character recognition (OCR), follow these ste
     On the **New Expense** page, information such as the date, amount, and merchant name should be filled in by OCR.
 
     > [!IMPORTANT]
-    > Information on the **New Expense** page is filled in by OCR only if the OCR option is enabled for the environment.
+    > Information on the **New Expense** page is filled in by OCR only if the OCR add-in is enabled for the environment.
 
 1. In the list of expense categories, select the category for the expense. You can filter the list by entering the name of the expense category.
 1. Enter the transaction date of the expense.
