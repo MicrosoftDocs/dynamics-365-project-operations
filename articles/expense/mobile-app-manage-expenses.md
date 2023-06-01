@@ -44,7 +44,7 @@ To enter expenses by using optical character recognition (OCR), follow these ste
     On the **New Expense** page, information such as the date, amount, and merchant name should be filled in by OCR.
 
     > [!IMPORTANT]
-    > Information on the **New Expense** page is filled in by OCR only if the OCR option is enabled for the environment.
+    > Information on the **New Expense** page is filled in by OCR only if the OCR add-in is enabled for the environment.
 
 1. In the list of expense categories, select the category for the expense. You can filter the list by entering the name of the expense category.
 1. Enter the transaction date of the expense.
