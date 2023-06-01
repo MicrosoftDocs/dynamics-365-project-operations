@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Mobile Expense app
+title: Mobile Expense app (legacy)
 description: This article provides information about the Expense management mobile workspace.
 author: suvaidya
 ms.date: 11/15/2021
@@ -25,7 +25,7 @@ ms.search.validFrom:
 ms.dyn365.ops.version: 
 ---
 
-# Mobile Expense app
+# Mobile Expense app (legacy)
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
