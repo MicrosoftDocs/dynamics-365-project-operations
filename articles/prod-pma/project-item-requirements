@@ -1,0 +1,56 @@
+---
+# required metadata
+
+title: Project item requirements
+description: This article explains how to create project-based item requirements
+author: ryansandness
+ms.date: 06/01/2023
+ms.topic: article
+ms.prod: 
+ms.technology: 
+
+# optional metadata
+
+# ms.search.form: 
+# ROBOTS: 
+audience: Application User
+# ms.devlang: 
+ms.reviewer: johnmichalak
+
+# ms.search.industry: 
+ms.author: ryansandness
+ms.search.validFrom: 2023-06-01
+ms.dyn365.ops.version: AX 10.0.33
+
+---
+
+# Project item requirements
+
+[!include[banner](../includes/banner.md)]
+
+An item requirement is a project-specific sales order document with many benefits built-in. The item requirement is unique in giving flexibility in planning for item consumption throughout the lifecycle of a project and allows costs to be recorded much earlier than what a sales order allows.
+
+Just like sales orders, an item requirement can represent a stocked item, a non-stocked item, or a service item. Since item requirements are integrated throughout the project module, organizations have flexibility start with planned requirements, execute against the project with using item requirements from stock or by acquiring through production or procurement, and then consume against the project at the right time. Item requirements provide great visibility into the financial implications of the transaction throughout the item's lifecycle.
+
+Note: You can differentiate between a sales order and an item requirement by reviewing the **Order type** of the **Sales order** with values **Sales order** or **Item requirements**.
+
+Item Requirements can be used in several project types and can be used in several project types where sales orders are not available.
+
+Types of projects where Item Requirements and Sales Orders can be used
+
+| Project Type     | Item Requirement | Sales Order |
+| ---------------- | ----------------- | ----------- |
+| Time and Material| x                 | x           |
+| Fixed Price      | x                 |             |
+| Investment       | x                 |             |
+| Cost             |                   |             |
+| Time             |                   |             |
+| Internal         |                   |             |
+
+## Creating item requirements
+
+Item requirements can be accessed from within a Project from the **Plan** tab or from the **Item requirements** menu item under **Item tasks** within the **Project management and accounting** module.
+
+The **Item requirements** form is a streamlined version of the **Sales order** form with required functions available in the ribbon.
+
+Previously, item requirements were always managed through a single sales order header. This is still generally the case where where most item requirements will continue adding lines to a single header, even if all previous lines were invoiced, but in certain situations, such as with multiple funding sources there will be multiple headers created to have a unique header per funding source.
