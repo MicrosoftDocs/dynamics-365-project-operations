@@ -54,3 +54,39 @@ Item requirements can be accessed from within a Project from the **Plan** tab or
 The **Item requirements** form is a streamlined version of the **Sales order** form with required functions available in the ribbon.
 
 Previously, item requirements were always managed through a single sales order header. This is still generally the case where where most item requirements will continue adding lines to a single header, even if all previous lines were invoiced, but in certain situations, such as with multiple funding sources there will be multiple headers created to have a unique header per funding source.
+
+## Posting the packing slip for item requirements
+
+When an item requirement has the packing slip posted, accounting entries are created to post the cost of the item and inventory is called to update the inventory state. 
+
+Previously, it was not possible to cancel the packing slip of an item requirement.
+
+### Item requirement cancellation feature
+
+With the 10.0.33 release, it is now possible to cancel a packing slip for item requirements. The **Enable packing slip cancellation for item requirements** feature released to preview in 10.0.33 and enables cancellation for item requirements. 
+
+The feature makes several changes including:
+
+- Changes how financial posting is done for stocked item requirements to closely resemble sales order postings. See table 2a below for more information.
+- Changes how inventory is posted for stocked items. See table 2b below.
+- Changes the behavior to have the line status of stocked item requirements with a posted packing slip as **delivered** instead of **invoiced**.
+- The packing slip journal can be now accessed from the item requirement form
+- A new packing slip ID field has been added and the packing slip ID is visible in project posted transactions to filter the transactions and see the original transaction and reversal from the cancellation together
+- Enables packing slip cancellation for item requirements that are not connected to a production order or purchase order that had their packing slip posted while the feature was enabled. Connected item requirements and packing slips that were previously posted will continue to behave as if the feature was off.
+- Enforces that packing slips cannot be cancelled if the transaction was previously invoiced, or invoiced or returned through a credit note.
+- Additional entries for project cost will appear in posted project transactions, but not in general ledger. The project cost is posted initially during the packing slip posting, but then is reversed and posted again during invoicing. These amounts may be the same, or it can change if inventory has determined that project cost has changed.
+
+Additionally, the following functionality was added in the 10.0.35 release:
+
+- Adds support for packing slip cancellation in committed costs
+- Add support for packing slip cancellation in funding limits
+- Adds support for adjusting transactions that have been posted with the feature on
+
+Table 2a - Accounting generated from a Time and Material project without WIP
+| Column 1 | Column 2                              | Column 3                                 |
+| -------- | ------------------------------------- | ---------------------------------------- |
+| Create Item Requirement    | - | -    |
+| Post Packing Slip  | **Account name** <br> - COGS - Finished Goods<br> - Finished Goods Inventory | **Posting type** <br>- Project Cost<br>- Cost of units, delivered |
+| Row 2    | - Bullet X<br>- Bullet Y<br>- Bullet Z | - Bullet P<br>- Bullet Q<br>- Bullet R    |
+| Row 3    | - Bullet Alpha<br>- Bullet Beta        | - Bullet One<br>- Bullet Two<br>- Bullet Three |
+
