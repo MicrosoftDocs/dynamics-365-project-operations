@@ -2,7 +2,7 @@
 title: Activate and revise a project quote
 description: This article provides information about activating and revising quotes in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/01/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
@@ -22,7 +22,7 @@ The activation and revision capabilities let you perform the following tasks:
 ## Activating a quote
 Activation represents the stage in the quotation process when you want to prevent more changes to the quote. At this stage, the quote is sent for internal review or to the customer.
 
-You will need to *Activate* the quote inorder to progress the quote with the **Close quote as won** and **Close quote as lost** buttons on the Action Pane.
+You will need to *Activate* the quote in order to progress the quote with the **Close quote as won** and **Close quote as lost** buttons on the Action Pane.
 
 Depending on the outcome of the internal or customer review, you can use one of these buttons to close an activated quote. You can make negotiations and changes on activated quotes by selecting **Revise quote**.
 
