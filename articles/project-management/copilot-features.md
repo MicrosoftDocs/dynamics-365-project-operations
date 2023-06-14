@@ -11,6 +11,8 @@ author: poojafandan
 
 # Project Operations Copilot overview
 
+[!INCLUDE[banner](../includes/preview-banner.md)]
+
 Project Management Copilot is an assistive capability powered by Azure Open AI's large language model. This feature was developed to improve the efficiency of various roles within the product, including the Project manager, Practice manager, and beyond. This capability provides you with a user-friendly and intuitive experience that maximizes productivity while significantly improving the visibility of project performance.
 
 There are four capabilities within the Copilot feature:
