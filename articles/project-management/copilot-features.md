@@ -49,11 +49,11 @@ Within the task details, you'll notice a distinctive label of 'suggested by AI' 
 
 In adherence to ethical guidelines and responsible AI usage, projects aimed at suggesting offensive, destructive, or abusive content is created using Copilot. Azure Open AI (AOAI) incorporates robust filters and safeguards to help prevent the generation of such content.
 
-**Risks and Mitigations**
+**Risk Assesment**
 
 The automated generation of risks and mitigation aims to assist project managers in identifying and documenting potential threats that could impact the project's well-being. The Copilot feature uses Project's metadata such as project's scope, schedule, and budget, to create risks to alert stakeholders about factors that may hinder project progress. The mitigation plan provides project managers with a set of recommended steps to address and minimize the identified risks. This proactive approach equips project managers with the means to effectively manage and mitigate potential obstacles, ensuring the project remains on track and minimizing any adverse impact.
 
-**Process to auto generate risks and mitigations:**
+**Process to auto generate risk assesment:**
 
 _Navigation path: Projects \> New Project \> Copilot suggestions \> Risks and Mitigation_
 
