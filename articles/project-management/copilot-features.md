@@ -97,7 +97,7 @@ The report is created using AI and the project metadata stored in the Dataverse 
 
 It is important to note that while the AI-generated summary narrative provides an initial overview, it may not always accurately represent the project's true context or health. Therefore, all parts of the summary narration are editable and should be thoroughly reviewed by the Project Manager prior to finalization and distribution. Any necessary edits should be made to ensure an accurate representation of the project's status.
 
-**Copilot Interactive experience**
+**Copilot interactive experience**
 
 There is a interactive, chat-like experience available where you can ask questions and get assistance in creating tasks, risks, and summary reports. Copilot assistant generates contextual answers based on user questions within the project's scope, providing a seamless and personalized experience.
 
