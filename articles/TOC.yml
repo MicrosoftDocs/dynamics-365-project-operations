@@ -354,6 +354,8 @@
         href: project-management/project-schedule-api-performance.md
       - name: Project scheduling logs
         href: project-management/schedule-api-logs.md
+    - name: Project Operations Copilot overview
+      href: project-management/copilot-features.md
   - name: Resource management
     items: 
     - name: Key concepts
@@ -1026,6 +1028,8 @@
         href: project-management/scheduling-apis-powerautomate.md
       - name: Project schedule API performance
         href: project-management/project-schedule-api-performance.md
+    - name: Project Operations Copilot overview
+      href: project-management/copilot-features.md
   - name: Project budget management
     items:
     - name: Project budget management overview
