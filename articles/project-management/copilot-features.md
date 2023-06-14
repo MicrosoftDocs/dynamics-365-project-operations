@@ -40,13 +40,13 @@ _Navigation path: Projects \< New Project \< Copilot suggestions \< Task plans_
   3. Provide the description. It is not a mandatory field to auto generate the tasks, but it provides context to create more relevant tasks.
   4. Provide other details such as project start and finish date. If the start date is not provided, the Copilot takes the project creation date and time as the start date.
   5. Click 'Copilot Suggestions' dropdown in the command bar and select Task Plan.
-  6. Tasks will be created based on your project name. AI will generate task name, duration and start date. Note, a maximum of 100 tasks will be created.
+  6. Tasks are created based on your project name. AI generates task name, duration and start date. Note, a maximum of 100 tasks are created.
   7. If the task creation was successful, you'll see a message on top of the command bar notifying that the tasks are created using AI. If the task creation was not successful, you'll see an error message on top of the command bar.
-  8. If you select Copilot - \> 'task plan' on an existing project that has manually created tasks, the auto generated tasks will be appended to the existing task list.
+  8. If you select Copilot - \> 'task plan' on an existing project that has manually created tasks, the auto generated tasks are appended to the existing task list.
 
 Within the task details, you'll notice a distinctive label of 'suggested by AI' for all tasks created using AI. These tasks can be customized to align with your specific project requirements. Additionally, you have the flexibility to add manual tasks into this list. Once the tasks are created, the process for editing, removing, or appending them is the same as with[manually created tasks.](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/create-wbs)It is to be noted that the auto generated tasks do NOT create assignees, dependencies or task checklist items automatically. You can add all the desired parameters once the tasks are auto generated.
 
-In adherence to ethical guidelines and responsible AI usage, projects aimed at suggesting offensive, destructive, or abusive content will not be created using Copilot. Azure Open AI (AOAI) incorporates robust filters and safeguards to help prevent the generation of such content.
+In adherence to ethical guidelines and responsible AI usage, projects aimed at suggesting offensive, destructive, or abusive content is created using Copilot. Azure Open AI (AOAI) incorporates robust filters and safeguards to help prevent the generation of such content.
 
 **Risks and Mitigations**
 
@@ -65,7 +65,7 @@ Auto Generate Risks and Mitigations:
 1. Select the project for which you want to auto generate risks and mitigations.
 2. Select Risks tab in the command bar.
 3. Click Copilot Suggestions drop down in the command bar and select Risks and Mitigations
-4. If the process was successful, you will receive a message on top of command bar notifying that Risks and Mitigations are created using Copilot. If the process was not successful, you'll receive an error message.
+4. If the process is successful, you receive a message on top of command bar notifying that Risks and Mitigations are created using Copilot. If the process was not successful, you'll receive an error message.
 5. New or existing risks can be manually added using the 'new risk' and 'Add existing risk' options available in the under the command bar.
 6. Select the risk in the grid to Edit, activate, deactivate, delete, or assign risks.
 7. Select the arrow button at the bottom right of the window to navigate to risks and mitigation on next page.
