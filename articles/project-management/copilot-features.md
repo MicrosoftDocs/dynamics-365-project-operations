@@ -10,7 +10,7 @@ ms.author: poojafandan
 
 # **Project operations copilot overview**
 
-Project Management Copilot is an assistive capability powered by Azure Open AI's large language model. This feature has been specifically developed to improve the efficiency of various roles within the product, including the Project Manager and beyond. The goal of this capability is to provide you with a user-friendly and intuitive experience that maximizes productivity while significantly improving the visibility of project performance.
+Project Management Copilot is an assistive capability powered by Azure Open AI's large language model. This feature has been developed to improve the efficiency of various roles within the product, including the Project Manager and beyond. The goal of this capability is to provide you with a user-friendly and intuitive experience that maximizes productivity while significantly improving the visibility of project performance.
 
 There are three capabilities within the Copilot feature:
 
@@ -23,7 +23,7 @@ There are three capabilities within the Copilot feature:
 
 _Navigation Path: Settings \> Parameters \> Feature Control \> Enable Copilot_
 
-The Copilot feature utilizes Azure Open AI to generate results by leveraging both the Dataverse table and the provided prompts. Follow the above navigation path to opt to turn on the Copilot feature. Once you click on 'Enable Copilot' you'll be presented with an option to choose or decline to turn the feature on. You can click the "see terms" link to learn more about the AI terms. You can click 'OK' to enable the feature or 'cancel' to opt out. Save your choice if you have enabled the Copilot feature.
+The Copilot feature utilizes Azure Open AI to generate results by using both the Dataverse table and the provided prompts. Follow the above navigation path to opt to turn on the Copilot feature. Once you click on 'Enable Copilot' are presented with an option to choose or decline to turn the feature on. You can click the "see terms" link to learn more about the AI terms. You can click 'OK' to enable the feature or 'cancel' to opt out. Save your choice if you have enabled the Copilot feature.
 
 **Auto task generation**
 
