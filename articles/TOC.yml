@@ -354,8 +354,6 @@
         href: project-management/project-schedule-api-performance.md
       - name: Project scheduling logs
         href: project-management/schedule-api-logs.md
-    - name: Project management Copilot overview
-      href: project-management/copilot-features.md
   - name: Resource management
     items: 
     - name: Key concepts
@@ -1356,6 +1354,8 @@
       href: prod-pma/tasks/rename-project.md
     - name: Implement custom fields for the Project timesheet mobile app
       href: prod-pma/custom-fields-mobile.md
+    - name: Project management Copilot overview
+      href: project-management/copilot-features.md
   - name: Resource management
     items:
     - name: Project resourcing overview
