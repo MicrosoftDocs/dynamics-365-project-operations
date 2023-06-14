@@ -38,7 +38,7 @@ _Navigation path: Projects \< New Project \< Copilot suggestions \< Task plans_
   1. Select 'new project' in the Projects command bar.
   2. Provide the name of the project. Be specific and ensure that the project name is in context of the type of project.
   3. Provide the description. It is not a mandatory field to auto generate the tasks, but it provides context to create more relevant tasks.
-  4. Provide other details such as project start and finish date. If the start date is not provided, the Copilot will take the project creation date and time as the start date.
+  4. Provide other details such as project start and finish date. If the start date is not provided, the Copilot takes the project creation date and time as the start date.
   5. Click 'Copilot Suggestions' dropdown in the command bar and select Task Plan.
   6. Tasks will be created based on your project name. AI will generate task name, duration and start date. Note, a maximum of 100 tasks will be created.
   7. If the task creation was successful, you'll see a message on top of the command bar notifying that the tasks are created using AI. If the task creation was not successful, you'll see an error message on top of the command bar.
