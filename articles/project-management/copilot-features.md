@@ -69,13 +69,6 @@ Auto Generate Risks and Mitigations:
 5. New or existing risks can be manually added using the 'new risk' and 'Add existing risk' options available in the under the command bar.
 6. Select the risk in the grid to Edit, activate, deactivate, delete, or assign risks.
 7. Select the arrow button at the bottom right of the window to navigate to risks and mitigation on next page.
-8. The following fields are available to depict the Risks and Mitigation plan:
-
-| Subject | Specifies the title of the risk |
-| --- | --- |
-| Description  | Specifies the details of the risk |
-| Risk Probability  | Specifies the probability of the risk to occur |
-| Mitigation Plan | A mitigation plan is suggested |
 
 **Status Report**
 
