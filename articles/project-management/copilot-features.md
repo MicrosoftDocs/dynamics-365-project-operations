@@ -98,7 +98,7 @@ It is important to note that while the AI-generated summary narrative provides a
 
 **Copilot Assistant**
 
-There is a chat-format copilot assistant available where you can ask questions and get assistance in creating tasks, risks, and summary reports. Copilot assistant generates contextual answers based on user questions within the project's scope, providing a seamless and personalized experience.
+There is a interactive, chat-like experience available where you can ask questions and get assistance in creating tasks, risks, and summary reports. Copilot assistant generates contextual answers based on user questions within the project's scope, providing a seamless and personalized experience.
 
 You can click the copilot icon to hide the assistant window.
 
