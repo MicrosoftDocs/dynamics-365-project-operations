@@ -27,7 +27,7 @@ The Copilot feature utilizes Azure Open AI to generate results by using both the
 
 **Auto task generation**
 
-The Auto-Generated Tasks with Suggested Duration and Efforts feature, powered by copilot, enables project managers to create a list of tasks quickly and easily for a project, along with suggested durations and efforts for each task. The tool uses machine learning algorithms, including natural language processing powered by Azure Open AI, to analyze previous projects, and create similar tasks that can be further tailored by the Project Manager as needed.
+The Auto-Generated Tasks with Suggested Duration and Efforts feature, powered by copilot, enables project managers to create a list of tasks quickly and easily for a project, along with suggested durations and efforts for each task. The tool uses machine learning algorithms, including natural language processing powered by Azure Open AI, to analyze the project name and description, and create tasks that can be further tailored by the Project Manager as needed.
 
 Project manager, or any other intended user is required to provide the project name, at minimum, to generate the suggested tasks for a project. The relevancy of the tasks increases as more specific information is added in the project details.
 
