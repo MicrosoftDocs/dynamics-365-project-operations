@@ -17,13 +17,14 @@ There are three capabilities within the Copilot feature:
 - Auto task generation
 - Risks and mitigation
 - Project summary report
-- Copilot assistant
+- Copilot 
 
-**Configuring Copilot Feature**
+**Enabling Copilot Feature**
 
 _Navigation Path: Settings \> Parameters \> Feature Control \> Enable Copilot_
 
 The Copilot feature utilizes Azure Open AI to generate results by using both the Dataverse table and the provided prompts. Follow the above navigation path to opt to turn on the Copilot feature. Once you click on 'Enable Copilot' are presented with an option to choose or decline to turn the feature on. You can click the "see terms" link to learn more about the AI terms. You can click 'OK' to enable the feature or 'cancel' to opt out. Save your choice if you have enabled the Copilot feature.
+You can disable the copilot feature following the same navigation path. 
 
 **Auto task generation**
 
@@ -33,7 +34,7 @@ Project manager, or any other intended user is required to provide the project n
 
 **Process to auto generated tasks / work breakdown structure (WBS):**
 
-_Navigation path: Projects \< New Project \< Copilot suggestions \< Task plans_
+_Navigation path: Projects \> New Project \> Copilot suggestions \> Task plans_
 
   1. Select 'new project' in the Projects command bar.
   2. Provide the name of the project. Be specific and ensure that the project name is in context of the type of project.
@@ -54,7 +55,7 @@ The automated generation of risks and mitigation aims to assist project managers
 
 **Process to auto generate risks and mitigations:**
 
-_Navigation path: Projects \< New Project \< Copilot suggestions \< Risks and Mitigation_
+_Navigation path: Projects \> New Project \> Copilot suggestions \> Risks and Mitigation_
 
 Prerequisites:
 
@@ -76,7 +77,7 @@ The Copilot project summary report empowers project managers by providing a head
 
 **Process to generate summary report:**
 
-_Navigation path: Projects \< New Project \< Copilot suggestions \< Status report \<Internal/External_
+_Navigation path: Projects \> New Project \> Copilot suggestions \> Status report \>Internal/External_
 
   1. Select the project for which the summary report is to be created.
   2. From the command bar, select Copilot suggestions option, select status report and then choose from the options Internal or External.
