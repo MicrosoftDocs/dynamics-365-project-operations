@@ -25,7 +25,7 @@ There are four capabilities within the Copilot feature:
 
 ## Enable the Copilot Feature
 
-The Copilot feature utilizes Azure Open AI to generate results by using both the Microsoft Dataverse table and the provided prompts. You can disable the Copilot feature following the same steps. To enable the Copilot feature, you are required to upgrade to the lastest version.
+The Copilot feature utilizes Azure Open AI to generate results by using both the Microsoft Dataverse table and the provided prompts. You can disable the Copilot feature following the same steps. To enable the Copilot feature, you are required to upgrade to the latest version.
 
 To enable the Copilot feature, follow these steps.
 
@@ -40,7 +40,7 @@ To enable the Copilot feature, follow these steps.
 
 ## Task plan generation
 
-This feature enables project managers to get reaslistic AI-generated task plan recommendations with suggested durations and efforts for each task to speed up the creation of projects. The feature uses machine learning algorithms, including natural language processing powered by Azure Open AI, to analyze the project name and description, and create tasks that can be modified by the Project manager.
+This feature enables project managers to get realistic AI-generated task plan recommendations with suggested durations and efforts for each task to speed up the creation of projects. The feature uses machine learning algorithms, including natural language processing powered by Azure Open AI, to analyze the project name and description, and create tasks that can be modified by the Project manager.
 
 The project manager, or any other intended user, must provide the project name to generate the suggested task plans for the project. The relevancy of the tasks increases as more specific information is added in the project details.
 
