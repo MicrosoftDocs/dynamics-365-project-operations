@@ -1,6 +1,6 @@
 ---
-title: Project Operations Copilot overview
-description: This article provides information about Microsoft Dynamics 365 Project Operations Copilot features.
+title: Project management Copilot overview
+description: This article provides information about Microsoft Dynamics 365 Project management Copilot features.
 ms.date: 06/15/2023
 ms.topic: how-to
 ms.custom: bap-template
@@ -9,7 +9,7 @@ ms.author: poojafandan
 author: poojafandan
 ---
 
-# Project Operations Copilot overview
+# Project management Copilot overview
 
 [!INCLUDE[banner](../includes/preview-banner.md)]
 
