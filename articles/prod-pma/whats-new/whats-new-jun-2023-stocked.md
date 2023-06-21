@@ -21,7 +21,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-|Expense Management| **Expense Mobile - Intuitive Expense Entry (Public Preview)**</br>The Expense mobile app is a powerful solution that's designed to simplify and enhance the expense reimbursement process and increase user productivity. Thanks to its focus on intuitiveness and ease of use, the Expense mobile app offers a range of features that make expense reporting seamless and efficient.| [Expense Mobile - Intuitive Expense Entry](/dynamics365/project-operations/expense/new-expense-mobile-app-overview) |
+|Expense Management| **Expense Mobile - Intuitive Expense Entry (Public Preview)**</br>The Expense mobile app is a powerful solution that's designed to simplify and enhance the expense reimbursement process and increase user productivity. Thanks to its focus on being intuitive and easy to use, the Expense mobile app offers a range of features that make reporting expenses seamless and efficient.| [Expense Mobile - Intuitive Expense Entry](/dynamics365/project-operations/expense/new-expense-mobile-app-overview) |
 
 ## Quality updates
 
