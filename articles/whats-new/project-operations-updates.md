@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | 
 | --- | --- |
-| 4.72.0.123 | 10.0.31 |
+| 4.72.0.123 | 10.0.33 |
 
 For Project Operations Resource/non-stocked scenario, we recommend that you use dual-write Orchestration version 2.3.1.15 or higher.
 
@@ -42,7 +42,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.72.0.123     | May 12, 2023       | May 12, 2023        | 4.73.0.78           | June 23, 2023        |
+|   &nbsp;  | First Release         |  4.72.0.123     | May 12, 2023       | May 12, 2023        | 4.73.0.78           | June 23, 2023       |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | South America         |  4.72.0.123     | May 12, 2023       | May 12, 2023        | 4.73.0.78           | June 23, 2023       |
 |   &nbsp;  | Canada                |  4.72.0.123     | May 12, 2023       | May 12, 2023        | 4.73.0.78           | June 23, 2023       |
@@ -67,13 +67,13 @@ Updates for Project management and accounting are released eight times a year.
 
 |Supported Version| Preview availability | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.28     |      May 27, 2022           |        July 15, 2022              |                          July 29, 2022                               | October 21, 2022   |
-|     10.0.27     |      April 22, 2022         |        June 17, 2022              |                          July 1, 2022                                | September 16, 2022 |
+|     10.0.33     |      March 3, 2023          |        April 14, 2023             |                          April 28, 2023                              | July 14, 2023      |
+|     10.0.32     |      January 30, 2023       |        March 17, 2023             |                          March 31, 2023                              | June 9, 2023       |
 
 Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Targeted Version | Preview availability | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.29     |      August 1, 2022         |       September 16, 2022          |                        September 30, 2022                            | January 13, 2023   |
+|     10.0.34     |      April 21, 2023         |       June 16, 2023               |                        June 30, 2023                                 | September 15, 2023 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
