@@ -22,16 +22,19 @@ The following is a complete list of the steps that are documented in the sample 
 4. [Create a generic team member](#4)
 5. [Create an Operation Set](#5)
 6. [Create a project bucket](#6)
-7. [Initialize a variable for the link status](#7)
-8. [Initialize a variable for the number of tasks](#8)
-9. [Initialize a variable for the project task ID](#9)
-10. [Do until](#10)
-11. [Set a project task](#11)
-12. [Create a project task](#12)
-13. [Create a resource assignment](#13)
-14. [Decrement a variable](#14)
-15. [Rename a project task](#15)
-16. [Run an Operation Set](#16)
+7. [Set a project goal](#7)
+8. [Create a project goal](#8)
+9. [Initialize a variable for the link status](#9)
+10. [Initialize a variable for the number of tasks](#10)
+11. [Initialize a variable for the project task ID](#11)
+12. [Do until](#12)
+13. [Set a project task](#13)
+14. [Create a project task](#14)
+15. [Associate a Project Task to a Project Goal](#15)
+16. [Create a resource assignment](#16)
+17. [Decrement a variable](#17)
+18. [Rename a project task](#18)
+19. [Run an Operation Set](#19)
 
 ## Assumptions
 
@@ -145,7 +148,45 @@ Follow these steps to create a sample project.
 6. In the **Name** field, enter **ScheduleAPIDemoBucket1**.
 7. For the **Project** field, select **msdyn\_CreateProjectV1Response ProjectId** in the **Dynamic content** dialog box.
 
-## <a id="7"></a>Step 7: Initialize a variable for the link status
+## <a id="7"></a>Step 7: Set a project goal
+
+1. In the flow, select **New step**
+2. In the Choose an operation dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
+3. In the new step, select the ellipsis (...), and then select **Rename**.
+4. Rename the step **Set Project Goal**.
+5. In the Name field, select **msdyn_projectgoalid**.
+6. In the **Type** field, select **String**.
+7. For the **Value** field, enter **guid()** in the expression builder. 
+
+## <a id="8"></a>Step 8: Create a project goal
+
+1. In the flow, select **New step**.
+2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
+3. In the step, select the ellipsis (...), and then select **Rename**.
+4. Rename the step **Create Project Goal**.
+5. In the **Action Name** field, select **msdyn_PssCreateV1**.
+6. In the **Entity** field, enter the following parameter information.
+   ```
+    {  
+    
+        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projectgoal",  
+        "msdyn_projectid@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",  
+        "msdyn_projectgoalid": "@{variables('msdyn_projectgoalid')}",  
+        "msdyn_name": "Demo Goal",  
+        "msdyn_description": " Demo Goal Description" 
+    
+    }  
+    ```
+    Here is an explanation of the parameters:
+
+    - **@@odata.type** – The entity name. For example, enter **"Microsoft.Dynamics.CRM.msdyn_projectgoal"**.
+    - **msdyn_projectgoalid** – The unique ID of the goal. The value should be set to a dynamic variable from **msdyn_projectgoalid**.
+    - **msdyn_projectid@odata.bind** – The project ID of the owning project. The value will be dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn_projects(ADD DYNAMIC CONTENT)"**.
+    - **msdyn_name** – Any goal name.
+    - **msdyn_description** – Any goal description.
+  7. For the **OperationSetId** field, select **msdyn_CreateOperationSetV1Response** in the **Dynamic content** dialog box.  
+
+## <a id="9"></a>Step 9: Initialize a variable for the link status
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -155,7 +196,7 @@ Follow these steps to create a sample project.
 6. In the **Type** field, select **Integer**.
 7. In the **Value** field, enter **192350000**.
 
-## <a id="8"></a>Step 8: Initialize a variable for the number of tasks
+## <a id="10"></a>Step 10: Initialize a variable for the number of tasks
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -165,7 +206,7 @@ Follow these steps to create a sample project.
 6. In the **Type** field, select **Integer**.
 7. In the **Value** field, enter **5**.
 
-## <a id="9"></a>Step 9: Initialize a variable for the project task ID
+## <a id="11"></a>Step 11: Initialize a variable for the project task ID
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -175,7 +216,7 @@ Follow these steps to create a sample project.
 6. In the **Type** field, select **String**.
 7. For the **Value** field, enter **guid()** in the expression builder.
 
-## <a id="10"></a>Step 10: Do until
+## <a id="12"></a>Step 12: Do until
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **do until**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -183,7 +224,7 @@ Follow these steps to create a sample project.
 4. Set the condition to **less than equal to**.
 5. Set the second value in the conditional statement to **0**.
 
-## <a id="11"></a>Step 11: Set a project task
+## <a id="13"></a>Step 13: Set a project task
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **set variable**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -192,7 +233,7 @@ Follow these steps to create a sample project.
 5. In the **Name** field, select **msdyn\_projecttaskid**.
 6. For the **Value** field, enter **guid()** in the expression builder.
 
-## <a id="12"></a>Step 12: Create a project task
+## <a id="14"></a>Step 14: Create a project task
 
 Follow these steps to create a project task that has a unique ID that belongs to the current project and the project bucket that you created.
 
@@ -231,7 +272,30 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response** in the **Dynamic content** dialog box.
 
-## <a id="13"></a>Step 13: Create a resource assignment
+## <a id="15"></a>Step 15: Associate a Project Task to a Project Goal
+1. In the flow, select **New step**.
+2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
+3. In the step, select the ellipsis (...), and then select **Rename**.
+4. Rename the step **Associate Task to Goal**.
+5. In the **Action Name** field, select **msdyn_PssCreateV1**.
+6. In the **Entity** field, enter the following parameter information.
+   ```
+    { 
+        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projecttasktogoal", 
+        "msdyn_projecttasktogoalid": "@{guid()}", 
+        "msdyn_projectgoalid@odata.bind": "/msdyn_projectgoals(@{variables(msdyn_projectgoalid)})", 
+        "msdyn_projecttaskid@odata.bind": "/msdyn_projecttasks(@{variables(msdyn_projecttaskid)})" 
+    }
+   ```
+   Here is an explanation of the parameters:  
+
+    -  **@@odata.type** – The entity name. For example, enter **"Microsoft.Dynamics.CRM.msdyn_projecttasktogoal"**.
+    -  **msdyn_projecttasktogoalid** – The unique ID of the task to goal association. The value should be set to a guid.
+    -  **msdyn_projectgoalid@odata.bind** – A project goal ID. The value is the id of the Project Goal created earlier.
+    -  **msdyn_projecttaskid@odata.bind** – A project task ID. The value is the id of a Project Task created earlier.
+7. For the **OperationSetId** field, select **msdyn_CreateOperationSetV1Response** in the **Dynamic content** dialog box.
+
+## <a id="16"></a>Step 16: Create a resource assignment
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -253,14 +317,14 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response** in the **Dynamic content** dialog box.
 
-## <a id="14"></a>Step 14: Decrement a variable
+## <a id="17"></a>Step 17: Decrement a variable
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **decrement variable**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the **Name** field, select **number of tasks**.
 4. In the **Value** field, enter **1**.
 
-## <a id="15"></a>Step 15: Rename a project task
+## <a id="18"></a>Step 18: Rename a project task
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -279,7 +343,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response** in the **Dynamic content** dialog box.
 
-## <a id="16"></a>Step 16: Run an Operation Set
+## <a id="19"></a>Step 19: Run an Operation Set
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
