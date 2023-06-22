@@ -1,13 +1,7 @@
 ### YamlMime:Hub
 
-# This template provides the structure of a product hub page. For additional guidance and information, see the article, Create a Dynamics 365 product hub page in the Contributors guide.
-# To provide feedback on this template, contact [bace feedback team](mailto:templateswg@microsoft.com).
-
-# Remove all comments and capitalized text in this template before you sign off or merge to the main branch
-
 title:  Microsoft Dynamics 365 Project Operations documentation
 summary: Discover how to make the most of Microsoft Dynamics 365 Project Operations with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
-# brand: aspnet | azure | dotnet | dynamics | m365 | office | sql | windows | visual-studio | xamarin
 brand: dynamics
 
 metadata:
@@ -115,14 +109,14 @@ additionalContent:
     items:
     - title: Guidance 
       links:
-         text: What’s new
+      - url: prod-pma/whats-new/whats-new-may-2023-stocked.md
+        text: What’s new
       - url: whats-new/ur5-nonstocked-installation.md
         text: Update Project Operations in your Finance environment
     - title: Try/Buy/Deploy
       links:
       - url: prod-pma/project-operations-prod-order-deployment-overview.md
         text: Project Operations for stocked/production-based scenarios deployment overview
-      - url: prod-pma/whats-new/whats-new-may-2023-stocked.md
     - title: Administer and develop
       links:
       - url: project-operations/prod-pma/psa-integration.md
