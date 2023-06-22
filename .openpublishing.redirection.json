@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "articles/index.md",
+      "redirect_url": "/dynamics365/project-operations/articles/index.yml",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "articles/pro/budget/project-budget-line.md",
       "redirect_url": "/dynamics365/project-operations/pro/budget/project-cost-expense-budget-line",
       "redirect_document_id": "false"
