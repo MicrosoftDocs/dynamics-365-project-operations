@@ -49,22 +49,18 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text:
+      - url: environment/security-model.md
+        text: Security Model
+      - url: approvals/approvals-security
+        text: Security and approvals
+      - url: whats-new/whats-new-may-2023-resource-based.md
+        text: What's new
     - title: Try/Buy/Deploy
       links: 
       - url: environment/project-operations-integrated-deployment-overview.md
         text: Overview
       - url: environment/resource-sign-up-preview-subscription.md
         text: Sign up for Project Operations
-      - url: whats-new/whats-new-may-2023-resource-based.md
-        text: What's new
     - title: Administer and develop 
       links:
       - url: environment/create-lcs-project.md
@@ -89,24 +85,22 @@ additionalContent:
       links:
       - url: environment/security-model.md
         text: Security Model
-      - url: 
-        text: 
+      - url: approvals/approvals-security
+        text: Security and approvals
+      - url: pro/whats-new/whats-new-may-2023-lite.md
+        text: What’s new
     - title: Try/Buy/Deploy
       links: 
       - url: environment/admin-trials.md
         text: Overview
       - url: environment/lite-preview-subscription-sign-up.md
         text: Preview subscription
-      - url: pro/whats-new/whats-new-may-2023-lite.md
-        text: What’s new
     - title: Administer and develop
       links:
       - url: environment/lite-deployment.md
         text: Deploy Project Operations Lite
       - url: environment/lite-apply-demo-setup-config-data.md
         text: Apply demo setup and configuration data
-      - url: 
-        text: 
     - title: Use Project Operations
       links:
       - url: sales/sales-overview.md
@@ -121,34 +115,20 @@ additionalContent:
     items:
     - title: Guidance 
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
+         text: What’s new
+      - url: whats-new/ur5-nonstocked-installation.md
+        text: Update Project Operations in your Finance environment
     - title: Try/Buy/Deploy
       links:
       - url: prod-pma/project-operations-prod-order-deployment-overview.md
-        text: Overview
+        text: Project Operations for stocked/production-based scenarios deployment overview
       - url: prod-pma/whats-new/whats-new-may-2023-stocked.md
-        text: What’s new
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
     - title: Administer and develop
       links:
       - url: project-operations/prod-pma/psa-integration.md
         text: Overview
       - url: prod-pma/psa-parameters.md
         text: Project Service Automation integration parameters
-      - url: whats-new/ur5-nonstocked-installation.md
-        text: Update Project Operations in your Finance environment
-      - url: 
-        text: 
     - title: Use Project Operations
       links:
       - url: prod-pma/overview-project-management-accounting.md
@@ -161,13 +141,9 @@ additionalContent:
     items:
     - title: Guidance 
       links:
-      - url: 
-        text: 
-      - url: 
-        text: 
-      - url: 
-        text: 
-    - title: Try/Buy/Deploy
+      - url: project-operations/psa/admin-guide
+        text:  Administrator guide (Project Service)
+    - title: Try/Buy
       links:
       - url: project-operations/psa/overview.md
         text: Overview
