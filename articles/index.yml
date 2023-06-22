@@ -27,7 +27,7 @@ highlightedContent:
     # Card
     - title: What's new
       itemType: whats-new
-      url: /whats-new/overview-whats-new.md
+      url: /whats-new/whats-new-home-page.md
     # Card
     - title: Training
       itemType: training
