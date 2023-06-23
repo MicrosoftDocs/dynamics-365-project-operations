@@ -28,7 +28,8 @@ Impact is also seen in the below scenarios when Quote customers and contract cus
 ### Steps for customizing payment terms optionset
 
 In the Project Contract Customer entity, navigate to **Customizations -> Entities -> Project contract Customer -> Fields -> Payment terms (msdyn_paymentterms) -> Add option**
-![List of products/materials and their prices when used in projects.](media/)
+
+![Payment terms of Project contract customer.](media/Adding_PaymentTerms.png)
 
 In the Quote customer entity, go to **Customizations -> Entities -> Quote Customer -> Fields -> Payment terms (msdyn_paymentterms) -> Add option**
 Publish all customizations
