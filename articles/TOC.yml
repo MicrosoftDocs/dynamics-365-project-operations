@@ -1,5 +1,5 @@
-- name: Dynamics 365 Project Operations
-  href: index.md
+- name: Welcom to Dynamics 365 Project Operations
+  href: welcome-to-project-operations.md
 - name: Get started
   items:
   - name: Determine your deployment type
