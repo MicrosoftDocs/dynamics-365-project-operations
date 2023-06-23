@@ -1,4 +1,6 @@
-- name: Welcom to Dynamics 365 Project Operations
+- name: Dynamics 365 Project Operations
+  href: index.yml
+- name: Welcome to Project Operations
   href: welcome-to-project-operations.md
 - name: Get started
   items:
