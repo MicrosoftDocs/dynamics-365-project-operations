@@ -4,7 +4,7 @@
 title: Project item requirements
 description: This article explains how to create project-based item requirements
 author: ryansandness
-ms.date: 06/01/2023
+ms.date: 06/23/2023
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -19,7 +19,7 @@ ms.reviewer: johnmichalak
 
 # ms.search.industry: 
 ms.author: ryansandness
-ms.search.validFrom: 2023-06-01
+ms.search.validFrom: 2023-06-23
 ms.dyn365.ops.version: AX 10.0.33
 
 ---
