@@ -14,6 +14,8 @@ metadata:
   ms.custom: bap-template
   hide_bc: true
 
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | tutorial | overview | quickstart | reference | sample | tutorial | video | whats-new
+
 highlightedContent:
 # itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -36,6 +38,7 @@ highlightedContent:
     - title: Troubleshoot
       itemType: concept
       url: /troubleshoot/troubleshoot-overview.md
+
       
 additionalContent: 
   sections:
@@ -150,11 +153,7 @@ additionalContent:
       - url: psa/pricing-costing-dimensions.md
         text: Pricing and costing dimensions
       - url: Quoting, pricing, and billing
-        text: project-operations/psa/quote-bill-price.md
-    - title: Use Project Operations
-      links:
-      - url: psa/schedule-project-work-breakdown-structure.md
-        text: Schedule a project with a work breakdown structure (Project Service)        
+        text: project-operations/psa/quote-bill-price.md      
   - title: Related products
     items:
         # Card
