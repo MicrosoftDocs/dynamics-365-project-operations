@@ -133,27 +133,7 @@ additionalContent:
       - url: Project resourcing
         text: prod-pma/project-resourcing.md
       - url: prod-pma/project-forecasts-budgets.md
-        text: Project forecasts and budgets
-  - title: Project Service Automation
-    items:
-    - title: Guidance 
-      links:
-      - url: project-operations/psa/admin-guide
-        text:  Administrator guide (Project Service)
-    - title: Try/Buy
-      links:
-      - url: project-operations/psa/overview.md
-        text: Overview
-      - url: upgrade-project-operations-non-stocked.md
-        text: Upgrade from Project Service Automation to Project Operations
-    - title: Use Project Operations
-      links:
-      - url: psa/schedule-project-work-breakdown-structure.md
-        text: Schedule a project with a work breakdown structure (Project Service)
-      - url: psa/pricing-costing-dimensions.md
-        text: Pricing and costing dimensions
-      - url: Quoting, pricing, and billing
-        text: project-operations/psa/quote-bill-price.md      
+        text: Project forecasts and budgets     
   - title: Related products
     items:
         # Card
