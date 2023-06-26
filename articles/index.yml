@@ -106,7 +106,7 @@ additionalContent:
         text: Set up price lists
       - url: project-management/project-management-overview.md
         text: Project management
-      - url: resource-management-key-concepts.md
+      - url: resource-management/resource-management-key-concepts.md
         text: Resource management
   - title: Project Operations for stocked/production-based scenarios
     items:
