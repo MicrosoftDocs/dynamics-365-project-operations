@@ -78,7 +78,7 @@ This article applies to the following Dynamics 365 Project Operations components
 | Travel and Expense                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | When the expense category is a non-project category, the financial dimensions selected on the **Expenses** page aren't copied to the expense report.                                          |
 
 ### Regulatory updates
-For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

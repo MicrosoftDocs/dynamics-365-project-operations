@@ -12,7 +12,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Project-based companies typically have their operations for delivery spread across multiple countries and geographies. The cost of the project execution and delivery can vary  based on which geography or division manages the delivery. In turn, this can impact the margins of the deal. Delivery of project-based services typically involves large quantities of human resource time, considerable expenses for travel, material costs, and other expenses.
+Project-based companies typically have their operations for delivery spread across multiple countries/regions and geographies. The cost of the project execution and delivery can vary  based on which geography or division manages the delivery. In turn, this can impact the margins of the deal. Delivery of project-based services typically involves large quantities of human resource time, considerable expenses for travel, material costs, and other expenses.
 
 Project-based opportunities in Dynamics 365 Project Operations are designed with extensions to Dynamics 365 Sales. The article provides details about the different fields and business logic included in the additional functionality that is required by project-based companies to manage project-based opportunities.
 

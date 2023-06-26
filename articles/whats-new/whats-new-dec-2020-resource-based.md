@@ -101,7 +101,7 @@ The following features are included in this release:
 | Travel   and Expense                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Expense report auto-posting workflow is completed but the invoice isn't posted                                                                                                                                                                                          |
 
 ### Regulatory updates
-For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
