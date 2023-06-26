@@ -29,7 +29,7 @@ highlightedContent:
     # Card
     - title: What's new
       itemType: whats-new
-      url: /whats-new/whats-new-home-page.md
+      url: whats-new/whats-new-home-page.md
     # Card
     - title: Training
       itemType: training
@@ -37,7 +37,7 @@ highlightedContent:
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: /troubleshoot/troubleshoot-overview.md
+      url: troubleshoot/troubleshoot-overview.md
 
       
 additionalContent: 
@@ -48,7 +48,7 @@ additionalContent:
       links: 
       - url: environment/security-model.md
         text: Security Model
-      - url: approvals/approvals-security
+      - url: approvals/approvals-security.md
         text: Security and approvals
       - url: whats-new/whats-new-may-2023-resource-based.md
         text: What's new
@@ -66,8 +66,8 @@ additionalContent:
         text: Set up and apply configuration data in the Common Data Service
       - url: project-management/scheduling-apis-powerautomate.md
         text: Use Project schedule APIs with Power Automate
-      - url: Use Project schedule APIs to perform operations with Scheduling entities
-        text: project-management/schedule-api-preview.md
+      - url: project-management/schedule-api-preview.md
+        text: Use Project schedule APIs to perform operations with Scheduling entities
     - title: Use Project Operations
       links: 
       - url: prod-pma/overview-project-management-accounting.md
@@ -106,8 +106,8 @@ additionalContent:
         text: Set up price lists
       - url: project-management/project-management-overview.md
         text: Project management
-      - url: Resource management
-        text: resource-management-key-concepts.md
+      - url: resource-management-key-concepts.md
+        text: Resource management
   - title: Project Operations for stocked/production-based scenarios
     items:
     - title: Guidance 
@@ -122,7 +122,7 @@ additionalContent:
         text: Project Operations for stocked/production-based scenarios deployment overview
     - title: Administer and develop
       links:
-      - url: project-operations/prod-pma/psa-integration.md
+      - url: prod-pma/psa-integration.md
         text: Overview
       - url: prod-pma/psa-parameters.md
         text: Project Service Automation integration parameters
@@ -130,8 +130,8 @@ additionalContent:
       links:
       - url: prod-pma/overview-project-management-accounting.md
         text: Project management and accounting
-      - url: Project resourcing
-        text: prod-pma/project-resourcing.md
+      - url: prod-pma/project-resourcing.md
+        text: Project resourcing
       - url: prod-pma/project-forecasts-budgets.md
         text: Project forecasts and budgets     
   - title: Related products
@@ -143,7 +143,7 @@ additionalContent:
           url: dynamics365/finance/
         - title: Lifecycle Services
           summary: Lifecycle Services (LCS) for Microsoft Dynamics is a collaboration portal that provides an environment and a set of regularly updated services.
-          url: dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs.md
+          url: dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md.md
         - title: Microsoft Power Automate
           summary: Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more.
           url: power-automate/
