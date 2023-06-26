@@ -106,8 +106,8 @@ additionalContent:
         text: Set up price lists
       - url: project-management/project-management-overview.md
         text: Project management
-      - url: Resource management
-        text: resource-management-key-concepts.md
+      - url: resource-management-key-concepts.md
+        text: Resource management
   - title: Project Operations for stocked/production-based scenarios
     items:
     - title: Guidance 
@@ -143,7 +143,7 @@ additionalContent:
           url: /dynamics365/finance/
         - title: Lifecycle Services
           summary: Lifecycle Services (LCS) for Microsoft Dynamics is a collaboration portal that provides an environment and a set of regularly updated services.
-          url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md.md
+          url: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md
         - title: Microsoft Power Automate
           summary: Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more.
           url: /power-automate/
