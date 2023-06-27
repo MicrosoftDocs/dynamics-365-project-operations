@@ -46,12 +46,12 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
+      - url: whats-new/whats-new-may-2023-resource-based.md
+        text: What's new
       - url: environment/security-model.md
         text: Security Model
       - url: approvals/approvals-security.md
         text: Security and approvals
-      - url: whats-new/whats-new-may-2023-resource-based.md
-        text: What's new
     - title: Try/Buy/Deploy
       links: 
       - url: environment/project-operations-integrated-deployment-overview.md
