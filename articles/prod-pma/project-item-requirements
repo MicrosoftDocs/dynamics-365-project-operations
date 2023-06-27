@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project item requirements
-description: This article explains how to create project-based item requirements
+description: This article explains how to create project-based item requirements.
 author: ryansandness
 ms.date: 06/23/2023
 ms.topic: article
@@ -38,7 +38,7 @@ Note: You can differentiate between a sales order and an item requirement by rev
 
 Item Requirements can be used in several project types and can be used in several project types where sales orders are not available.
 
-Types of projects where Item Requirements and Sales Orders can be used
+Types of projects where Item Requirements and Sales Orders can be used.
 
 | Project Type     | Item Requirement | Sales Order |
 | ---------------- | ----------------- | ----------- |
@@ -55,7 +55,7 @@ Item requirements can be accessed from within a Project from the **Plan** tab or
 
 The **Item requirements** form is a streamlined version of the **Sales order** form with required functions available in the ribbon.
 
-Previously, item requirements were always managed through a single sales order header. This is still generally the case where where most item requirements will continue adding lines to a single header, even if all previous lines were invoiced. In certain situations, such as with multiple funding sources there will be multiple headers created to have a unique header per funding source.
+Previously, item requirements were always managed through a single sales order header. This is still generally the case where most item requirements will continue adding lines to a single header, even if all previous lines were invoiced. In certain situations, such as with multiple funding sources, there will be multiple headers created to have a unique header per funding source.
 
 ## Posting the packing slip for item requirements
 
@@ -105,7 +105,7 @@ Table 2 - Inventory behavior for stocked items with feature off vs on
 
 #### Item requirements cancellation limitations
 
-- Using the feature with nonchargeable lines for stocked items or fixed price projects will leave transactions and amounts in the cost of units delivered posting type and associated account. Since these transactions cannot be invoiced, the amounts will never moved to cost of units invoiced posting type.
+- Using the feature with nonchargeable lines for stocked items or fixed price projects will leave transactions and amounts in the cost of units delivered posting type and associated account. Since these transactions cannot be invoiced, the amounts will never move to cost of units invoiced posting type.
 - Packing slips cannot be cancelled if the transaction was previously invoiced, or invoiced and then returned through a credit note.
 
 #### Demo data issues to consider
