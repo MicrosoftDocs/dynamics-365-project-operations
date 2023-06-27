@@ -123,7 +123,7 @@ additionalContent:
     - title: Administer and develop
       links:
       - url: prod-pma/psa-integration.md
-        text: Overview
+        text: Project Service Automation overview
       - url: prod-pma/psa-parameters.md
         text: Project Service Automation integration parameters
     - title: Use Project Operations
