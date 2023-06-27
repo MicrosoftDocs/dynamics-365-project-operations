@@ -1,12 +1,12 @@
 ### YamlMime:Hub
 
 title:  Microsoft Dynamics 365 Project Operations documentation
-summary: Discover how to make the most of Microsoft Dynamics 365 Project Operations with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
+summary: Discover how to make the most of Microsoft Dynamics 365 Project Operations with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
 brand: dynamics
 
 metadata:
   title: Microsoft Dynamics 365 Project Operations documentation
-  description: Discover how to make the most of Microsoft Dynamics 365 Project Operations with online training courses, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
+  description: Discover how to make the most of Microsoft Dynamics 365 Project Operations with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
   ms.topic: hub-page 
   author: johnmichalak
   ms.author: johnmichalak
@@ -42,7 +42,7 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Project Operations for resource/non-stocked based scenarios
+  - title: Resource and non-stocked based scenarios
     items:
     - title: Guidance 
       links: 
@@ -76,7 +76,7 @@ additionalContent:
         text: Work breakdown structures
       - url: project-management/project-management-overview.md
         text: Project management
-  - title: Lite deployment - deal to proforma invoicing
+  - title:  - Deal to proforma invoicing scenarios (Lite deployment)
     items:
     - title: Guidance 
       links:
@@ -108,7 +108,7 @@ additionalContent:
         text: Project management
       - url: resource-management/resource-management-key-concepts.md
         text: Resource management
-  - title: Project Operations for stocked/production-based scenarios
+  - title: Stocked and production-based scenarios
     items:
     - title: Guidance 
       links:
