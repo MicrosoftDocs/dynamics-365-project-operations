@@ -65,7 +65,7 @@ In the task details, all tasks that were created by using AI have a distinctive 
 This capability lets project managers assess potential risks, receive suggested mitigation plans, and track ongoing issues with their projects. It uses a project's metadata, such as the project's scope, schedule, and budget, to assess risks and alert stakeholders about factors that might hinder project progress. The mitigation plan provides a set of recommended steps that project managers can use to address and minimize the identified risks. This proactive approach gives project managers the means to effectively manage and mitigate potential obstacles, so that they can help the project remain on track and minimize adverse impact.
 
 > [!NOTE]
-> Actuals such as time, expense or materials need to be logged to generate Risk assessment and Status report through Copilot.
+> Actuals, such as time, expense, or materials, need to be logged to generate Risk assessment and Status report through Copilot.
 
 To use AI-generated risk assessments, follow these steps.
 
