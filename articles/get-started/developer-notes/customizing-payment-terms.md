@@ -1,6 +1,6 @@
 ---
 title: Developer notes for Payment Terms
-description: This article provides additional developer information about working with payment terms.
+description: This article provides more developer information about working with payment terms.
 author: suvaidya
 ms.date: 06/23/2023
 ms.topic: article
@@ -10,8 +10,8 @@ ms.author: suvaidya
 
 # Developer notes for Payment terms 
 
-When adding customized payment terms options to the account entity, developers must also add it to the option set in the **Quote customer** and **Project contract customer** entities. 
-Not adding the customized payment terms options, can result in the following error message displaying in all scenarios that involve the creation of a quote customer or a project contract customer. 
+When a developer adds customized payment terms options to the account entity, they must also add it to the option set in the **Quote customer** and **Project contract customer** entities. 
+If the developer doesn't add the customized payment terms options, can result in the following error message displaying in all scenarios that involve the creation of a quote customer or a project contract customer. 
 
 **Example of the Exception Message:** 
 
@@ -19,7 +19,7 @@ Not adding the customized payment terms options, can result in the following err
 A validation error occurred. The value 5 of 'msdyn_paymentterms' on record of type 'msdyn_projectcontractsplitbillingrule' is outside the valid range. Accepted Values: 1,2,3,192350001.
 ```
 
-In addition to the error message, impact is also seen in the scenarios listed below when the Quote customers and Project contract customers are created via lazy upgrade. 
+In addition to the error message, impact is also seen in the following scenarios when the Quote customers and Project contract customers are created via lazy upgrade. 
 
 - Confirmation of a contract.
 - Submission of a time, expense, or material usage log.
