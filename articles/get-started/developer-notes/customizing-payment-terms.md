@@ -10,26 +10,32 @@ ms.author: suvaidya
 
 # Developer notes for Payment terms 
 
-When adding customized Payment Terms options to the account entity, developers must also add it to the option set in Quote customer and Project contract customer entity. 
-Not doing so, can result in the below error in all scenarios that involve creation of a quote customer or a project contract customer . 
+When adding customized payment terms options to the account entity, developers must also add it to the option set in the **Quote customer** and **Project contract customer** entities. 
+Not adding the customized payment terms options, can result in the following error message displaying in all scenarios that involve the creation of a quote customer or a project contract customer. 
 
-**Example of the Exception Message:** A validation error occurred. The value 5 of 'msdyn_paymentterms' on record of type 'msdyn_projectcontractsplitbillingrule' is outside the valid range. Accepted Values: 1,2,3,192350001
+**Example of the Exception Message:** 
 
-Impact is also seen in the below scenarios when Quote customers and contract customers are created via lazy upgrade - 
+``` console
+A validation error occurred. The value 5 of 'msdyn_paymentterms' on record of type 'msdyn_projectcontractsplitbillingrule' is outside the valid range. Accepted Values: 1,2,3,192350001.
+```
 
-1. Confirmation of a contract
-2. Submission of time/expense/material usage log
-3. Creation of milestone 
-4. Invoicing  from contract or via schedule , Creation of invoice lines  and Creation of invoice for products 
-5. Update of Customer on project contract  or quote 
-6. Creation of actuals during approval or journal correction .
-7. Creation of invoice line detail .
+In addition to the error message, impact is also seen in the scenarios listed below when the Quote customers and Project contract customers are created via lazy upgrade. 
 
-### Steps for customizing payment terms optionset
+- Confirmation of a contract.
+- Submission of a time, expense, or material usage log.
+- Creation of milestone.
+- Invoicing from contract or via schedule, creation of invoice lines, and creation of invoice for products. 
+- Update of a Customer on project contract or quote. 
+- Creation of actuals during approval or journal correction.
+- Creation of invoice line detail.
 
-In the Project Contract Customer entity, navigate to **Customizations -> Entities -> Project contract Customer -> Fields -> Payment terms (msdyn_paymentterms) -> Add option**
+### Customize the payment terms options
 
-![Payment terms of Project contract customer.](media/Adding_PaymentTerms.png)
+To customize the payment terms options, follow these steps.
 
-In the Quote customer entity, go to **Customizations -> Entities -> Quote Customer -> Fields -> Payment terms (msdyn_paymentterms) -> Add option**
-Publish all customizations
+1. In the Project Contract Customer entity, navigate to **Customizations** > **Entities** > **Project contract Customer** > **Fields** > **Payment terms (msdyn_paymentterms)** > **Add option**.
+
+:::image type="content" source="media/adding-payment-terms.png" alt-text="Screenshot of Payment terms of Project contract customer."::: 
+
+2. In the Quote customer entity, navigate to **Customizations** > **Entities** > **Quote Customer** > **Fields** > **Payment terms (msdyn_paymentterms)** > **Add option**.
+3. Publish all customizations.
