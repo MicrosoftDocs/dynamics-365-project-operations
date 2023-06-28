@@ -28,17 +28,18 @@ ms.dyn365.ops.version: AX 10.0.33
 
 [!include[banner](../includes/banner.md)]
 
-An item requirement is a sales order (SO) document with project-specific integrations and enhancements over non-project SOs. An item requirement is unique in giving flexibility in planning for item consumption throughout the lifecycle of a project and enables costs to be recorded much earlier than what a sales order allows.
+An item requirement is a sales order (SO) document with project-specific integrations and enhancements over non-project SOs. An item requirement is unique and provides flexibility in planning for item consumption throughout the lifecycle of a project. You can record item requirements earlier than what a sales orders.
 
-Just like sales orders, an item requirement can represent a stocked item, a non-stocked item, or a service item. Since item requirements are integrated throughout the project module, organizations have flexibility to start with planned requirements, execute against the project with using item requirements from stock or by acquiring through production or procurement, and then consume against the project at the right time. Item requirements provide great visibility into the financial implications of the transaction throughout the item's lifecycle.
+Just like sales orders, an item requirement can represent a stocked item, a non-stocked item, or a service item. Because item requirements are integrated throughout the project module, organizations have flexibility to start with planned requirements. Then they can execute against the project with using item requirements from stock or by acquiring through production or procurement, and then they can consume against the project at the right time. Item requirements provide great visibility into the financial implications of the transaction throughout the item's lifecycle.
 
-Item requirements can also be created automatically from a purchase order with the **Create item requirement** parameter in the **Project purchase orders** section of the **Project management and accounting parameters** form.
+Item requirements can be created automatically from **Project management and accounting parameters** form     using the **Create item requirement** parameter in the **Project purchase orders** section.
 
-Note: You can differentiate between a sales order and an item requirement by reviewing the **Order type** of the **Sales order** with values **Sales order** or **Item requirements**.
+> [!NOTE]
+> You can differentiate between a sales order and an item requirement by reviewing the **Order type** of the **Sales order** with values **Sales order** or **Item requirements**.
 
-Item Requirements can be used in several project types and can be used in several project types where sales orders are not available.
+Item requirements can be used in several project types, and can be used in several project types where sales orders are not available.
 
-Types of projects where Item Requirements and Sales Orders can be used.
+The following table shows the types of projects where item requirements and sales orders can be used.
 
 | Project Type     | Item Requirement | Sales Order |
 | ---------------- | ----------------- | ----------- |
@@ -49,37 +50,35 @@ Types of projects where Item Requirements and Sales Orders can be used.
 | Time             |                   |             |
 | Internal         |                   |             |
 
-## Creating item requirements
+## Create item requirements
 
-Item requirements can be accessed from within a Project from the **Plan** tab or from the **Item requirements** menu item under **Item tasks** within the **Project management and accounting** module.
+To create item requirements from within a Project, from the **Plan** tab or from the **Item requirements** menu item under **Item tasks** within the **Project management and accounting** module.
 
 The **Item requirements** form is a streamlined version of the **Sales order** form with required functions available in the ribbon.
 
-Previously, item requirements were always managed through a single sales order header. This is still generally the case where most item requirements will continue adding lines to a single header, even if all previous lines were invoiced. In certain situations, such as with multiple funding sources, there will be multiple headers created to have a unique header per funding source.
+Previously, item requirements were always managed through a single sales order header. This is still generally the case where most item requirements will continue adding lines to a single header, even if all previous lines were invoiced. In certain situations, such as with multiple funding sources, multiple headers are created to have a unique header per funding source.
 
-## Posting the packing slip for item requirements
+## Post the packing slip for item requirements
 
-When an item requirement has the packing slip posted, accounting entries are created to post the cost of the item and inventory is called to update the inventory state.
-
-Previously, it was not possible to cancel the packing slip of an item requirement.
+When an item requirement's packing slip is posted, accounting entries are created to post the cost of the item and inventory is called to update the inventory state.
 
 ### Item requirement cancellation feature
 
-With the 10.0.33 release, it is now possible to cancel a packing slip for item requirements. The **Enable packing slip cancellation for item requirements** feature released to preview in 10.0.33 and enables cancellation for item requirements. 
+With the 10.0.33 release, you can cancel a packing slip for item requirements. To enable the cancellation for item requirements, use **Enable packing slip cancellation for item requirements**. 
 
 The feature makes several changes including:
 
-- Enables packing slip cancellation for item requirements that are not connected to a production order or purchase order that had their packing slip posted while the feature was enabled. Connected item requirements and packing slips that were previously posted will continue to behave as if the feature was off.
-- Newly posted packing slips for item requirements not connected to a production or purchase order will exhibit the new behavior covered here. Item requirements connected to purchase orders will modify their posting behavior in a future feature enabling product receipt cancellation.
+- Enables packing slip cancellation for item requirements that are not connected to a production order or purchase order that had their packing slip posted while the feature was enabled. Connected item requirements and packing slips that were previously posted continue to behave as if the feature was off.
+- Newly posted packing slips for item requirements not connected to a production or purchase order exhibit the new behavior covered here. Item requirements connected to purchase orders will modify their posting behavior in a future feature enabling product receipt cancellation.
 - Changes how financial posting is done for stocked item requirements to closely resemble sales order postings. See table 1 below for more information.
 - Changes how inventory is posted for stocked items. See table 2 below.
 - Changes the behavior to have the line status of stocked item requirements with a posted packing slip as **delivered** instead of **invoiced**.
 - The **packing slip journal** can be now accessed from the item requirement form under the **Inquiries** menu for navigation to view and cancel the packing slip.
 - A new packing slip ID field has been added and the packing slip ID is visible in **Posted project transactions**  to filter the transactions and see the original transaction and reversal from the cancellation together
 
-- Additional entries for project cost will appear in posted project transactions and in general ledger. The project cost is posted initially during the packing slip posting, but then is reversed and posted again during invoicing. These amounts may be the same, or it can change if inventory has determined that project cost has changed. 
+- Additional entries for project cost appear in posted project transactions and in general ledger. The project cost is posted initially during the packing slip posting, but then is reversed and posted again during invoicing. These amounts may be the same, or it can change if inventory has determined that project cost has changed. 
 
-Additionally, the following functionality was added in the 10.0.35 release:
+The following functionality was added in the 10.0.35 release:
 
 - Adds support for packing slip cancellation in committed costs
 - Add support for packing slip cancellation in funding limits
@@ -105,9 +104,14 @@ Table 2 - Inventory behavior for stocked items with feature off vs on
 
 #### Item requirements cancellation limitations
 
-- Using the feature with nonchargeable lines for stocked items or fixed price projects will leave transactions and amounts in the cost of units delivered posting type and associated account. Since these transactions cannot be invoiced, the amounts will never move to cost of units invoiced posting type.
+- Using the feature with nonchargeable lines for stocked items or fixed price projects leaves transactions and amounts in the cost of units delivered posting type and associated account. Since these transactions cannot be invoiced, the amounts will never move to cost of units invoiced posting type.
 - Packing slips cannot be cancelled if the transaction was previously invoiced, or invoiced and then returned through a credit note.
 
 #### Demo data issues to consider
 
-- In USSI, the Sale_367 number sequence is in an inconsistent state. If you try to cancel an item requirement, you will receive the following error: "Voucher 000001 is already used as of date 1/9/2017. Posting has been cancelled." To fix the issue, navigate to **number sequences**, filter number sequence code to Sale_367 and open the item. Under the **Performance** fasttab, set preallocation to **No** from **Yes** and save. Then, move back to **Yes**.
+- In USSI, the Sale_367 number sequence is in an inconsistent state. If cancel an item requirement, the following error will result.
+
+``` console
+: "Voucher 000001 is already used as of date 1/9/2017. Posting has been cancelled."
+```
+To fix the issue, navigate to **number sequences**, filter number sequence code to Sale_367 and open the item. Under the **Performance** fasttab, set preallocation to **No** from **Yes** and save. Then, move back to **Yes**.
