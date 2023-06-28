@@ -7,6 +7,8 @@ ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
+_Applies To:  Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
 
 # Developer notes for Payment terms 
 
