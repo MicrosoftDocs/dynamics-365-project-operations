@@ -1,5 +1,5 @@
 ---
-title: Developer notes for Payment Terms
+title: Developer notes for payment terms
 description: This article provides more developer information about working with payment terms.
 author: suvaidya
 ms.date: 06/23/2023
@@ -8,36 +8,31 @@ ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
-# Developer notes for Payment terms 
+# Developer notes for payment terms
 
-_Applies To:  Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_Applies To: Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-When a developer adds customized payment terms options to the account entity, they must also add it to the option set in the **Quote customer** and **Project contract customer** entities. 
-If the developer doesn't add the customized payment terms options, can result in the following error message displaying in all scenarios that involve the creation of a quote customer or a project contract customer. 
+If a developer adds customized payment term options to the account entity, they must also add them to the option set in the **Quote customer** and **Project contract customer** entities. Otherwise, the following error message can be shown in all scenarios that involve the creation of a quote customer or a project contract customer:
 
-**Example of the Exception Message:** 
+> A validation error occurred. The value 5 of 'msdyn\_paymentterms' on record of type 'msdyn\_projectcontractsplitbillingrule' is outside the valid range. Accepted Values: 1,2,3,192350001.
 
-``` console
-A validation error occurred. The value 5 of 'msdyn_paymentterms' on record of type 'msdyn_projectcontractsplitbillingrule' is outside the valid range. Accepted Values: 1,2,3,192350001.
-```
+In addition to the error message, impact is experienced in the following scenarios when quote customers and project contract customers are created via lazy upgrade:
 
-In addition to the error message, impact is also seen in the following scenarios when the Quote customers and Project contract customers are created via lazy upgrade. 
+- Confirmation of a contract
+- Submission of a time, expense, or material usage log
+- Creation of a milestone
+- Invoicing from a contract or via a schedule, creation of invoice lines, and creation of an invoice for products
+- Update of a customer on a project contract or quote
+- Creation of actuals during approval or journal correction
+- Creation of invoice line details
 
-- Confirmation of a contract.
-- Submission of a time, expense, or material usage log.
-- Creation of milestone.
-- Invoicing from contract or via schedule, creation of invoice lines, and creation of invoice for products. 
-- Update of a Customer on project contract or quote. 
-- Creation of actuals during approval or journal correction.
-- Creation of invoice line detail.
-
-### Customize the payment terms options
+## Customize the payment terms options
 
 To customize the payment terms options, follow these steps.
 
-1. In the Project Contract Customer entity, navigate to **Customizations** > **Entities** > **Project contract Customer** > **Fields** > **Payment terms (msdyn_paymentterms)** > **Add option**.
+1. In the **Project contract customer** entity, go to **Customizations** \> **Entities** \> **Project contract Customer** \> **Fields** \> **Payment terms (msdyn\_paymentterms)**, and select the **Add option** button (**\+**).
 
-:::image type="content" source="media/adding-payment-terms.png" alt-text="Screenshot of Payment terms of Project contract customer."::: 
+    :::image type="content" source="media/adding-payment-terms.png" alt-text="Screenshot that shows the Add option button on the Payment terms of Project Contract Customer page.":::
 
-2. In the Quote customer entity, navigate to **Customizations** > **Entities** > **Quote Customer** > **Fields** > **Payment terms (msdyn_paymentterms)** > **Add option**.
-3. Publish all customizations.
+1. In the **Quote customer** entity, go to **Customizations** \> **Entities** \> **Quote Customer** \> **Fields** \> **Payment terms (msdyn\_paymentterms)**, and select the **Add option** button (**\+**).
+1. Publish all customizations.
