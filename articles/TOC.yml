@@ -1456,6 +1456,8 @@
       href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
     - name: Project sales orders
       href: prod-pma/project-sales-orders.md
+    - name: Project item requirements
+      href: prod-pma/project-item-requirements.md
     - name: Item requirements for project contracts with multiple funding sources
       href: prod-pma/multiple-funding-sources-item-req.md   
   - name: Intercompany invoicing
