@@ -19,13 +19,15 @@ See the release plans for what's coming. Choose the following links to learn abo
 
 - [2023 release wave 1](/dynamics365/release-plan/2023wave1/finance-operations/dynamics365-project-operations/)  
 
-## Releases of Dynamics 365 Intelligent Order Management
+## Releases of Dynamics 365 Project Operations
 
 Learn more about what's new or changed in recent releases in the links in the following table.
 
 | Version | Build number | Auto-update availability | Learn more |
 |---------|--------------|---------------|-------------|
-| 10.0.32 |  10.0.1515   | March 2023    | |
+| Dataverse 4.73.0.78 </br> Finance 10.0.34 |     | June 2023    | [Project Operations for resource/non-stocked based scenarios](whats-new-may-2023-resource-based.md) </br> [Project Operations lite deployment](whats-new-may-2023-lite.md)  </br> [Project Operations for stocked/production-based scenarios](whats-new-may-2023-stocked.md)|
+| Dataverse 4.72.0.123 </br> Finance 10.0.33  |               | May 2023 |  [Project Operations for resource/non-stocked based scenarios](whats-new-jun-2023-resource-based.md) </br> [Project Operations lite deployment](whats-new-jun-2023-lite.md)  </br> [Project Operations for stocked/production-based scenarios](whats-new-jun-2023-stocked.md)|
+| Dataverse 4.62.0.83 </br> Finance 10.0.32  |               | April 2023 |  [Project Operations for resource/non-stocked based scenarios](whats-new-apr-2023-resource-based.md) </br> [Project Operations lite deployment](whats-new-apr-2023-lite.md)  </br> [Project Operations for stocked/production-based scenarios](whats-new-apr-2023-stocked.md)|
 
 For earlier versions, see the archived release plans at [Release plans for Dynamics 365 and Power Platform](/dynamics365/release-plans/archived-plans).  
 ## Get the latest version
