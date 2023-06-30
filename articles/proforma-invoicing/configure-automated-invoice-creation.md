@@ -15,7 +15,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Complete the following steps to configure an automated invoice run in Dynamics 365 Project operations.
 
-1. Go to **Settings** > **Batch jobs**.
+1. In **Project Operations**, go to **Settings** > **Recurring Invoice Setup**.
 2. Create a batch job, and name it **Project operations create invoices**. The name of the batch job must include the words "create invoices."
 3. In the **Job Type** field, select **None**. By default, the **Frequency Daily** and **Is Active** options are set to **Yes**.
 4. Select **Run Workflow**. In the **Look Up Record** dialog box, you will see three workflows:
