@@ -15,7 +15,7 @@ ms.collection:  #Required; The values for this attribute will be updated over ti
 
 Wondering about upcoming and recently released capabilities in Project Operations? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=Project+Operations). We've captured all the details, end to end, top to bottom, which you can use for planning.  
 
-See the release plans for what's coming. Choose the following links to learn about the latest versions of this app.
+See the release plans for what's coming. Choose the following link to learn about the latest versions of this app.
 
 - [2023 release wave 1](/dynamics365/release-plan/2023wave1/finance-operations/dynamics365-project-operations/)  
 
