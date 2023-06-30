@@ -60,7 +60,7 @@ In this example when the automatic invoicing runs on:
 Complete the following steps to configure an automated invoice run.
 
 1. In **Project Operations**, go to **Settings** > **Recurring Invoice Setup**.
-2. Create a batch job, and name it **rPoject Operations Create Invoices**. The name of the batch job must include the words, "create invoices".
+2. Create a batch job, and name it **Project Operations Create Invoices**. The name of the batch job must include the words, "create invoices".
 3. In the **Job Type** field, select **None**. By default, the **Frequency Daily** and **Is Active** fields are set to **Yes**.
 4. Select **Run Workflow**. In the **Look Up Record** dialog box, you will see three workflows:
 
