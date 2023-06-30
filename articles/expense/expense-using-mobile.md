@@ -173,7 +173,7 @@ Download and install the Dynamics 365 Unified Ops mobile app:
         - If you selected **Guest**, follow these steps:
 
             1. Enter the name of the guest.
-            2. Optional: Enter the organization and/or country of the guest.
+            2. Optional: Enter the organization and/or country/region of the guest.
             3. Optional: Enter the title of the guest.
             4. Select **Done**.
 
