@@ -14,7 +14,12 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Using Dynamics 365 Project Operations for resource/non-stocked scenarios requires a set of dual-write maps to be running in the environment. 
 
-## Prerequisite maps: Dual-write orchestration solution
+## Prerequisite apps on Dataverse environment (install in given order): 
+- Dual-write Application Core Solutions
+- Dual-write Asset Management Solutions
+- Dual Write Finance and Extended Solutions
+- Dual-write Human Resources solution
+- Dual Write Supply Chain Extended Solution
 
 The following maps are required prerequisites for the Project Operations solution. Make sure to run the maps listed in the following table and any related table maps in your environment.
 
@@ -37,10 +42,14 @@ The following maps are required for a Project Operations solution. Dual-write ma
 
 | Entity map | Latest version | Initial sync | Required Dynamics 365 Finance version |
 | --- | --- | --- | --- |
+| Project resource roles for all companies (bookableresourcecategories) | 1.0.0.1 | Requires an initial sync for the table map to synchronize the Project Manager and Team member resource roles that are populated in the Dynamics 365 Dataverse environment during provisioning. Dataverse is the main source for the initial synchronization. ||
 | Integration entity for project transaction relationships (msdyn\_transactionconnections) | 1.0.0.0 | Not required for provisioning. ||
-| Project contract headers (sales orders) | 1.0.0.1 | Not required for provisioning. ||
+| Project contract headers (salesorders) | 1.0.0.1 | Not required for provisioning. ||
 | Project contract lines (salesorderdetails) | 1.0.0.0 | Not required for provisioning. ||
 | Project funding source (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Not required for provisioning. ||
+| Projects V2 (msdyn_projects) | 1.0.0.2 | Not required for provisioning. ||
+| Project tasks (msdyn_projecttasks) | 1.0.0.4 | Not required for provisioning. ||
+| Project transaction categories (msdyn_transactioncategories) | 1.0.0.0 | Not required for provisioning. ||
 | Project integration table for material estimates (msdyn\_estimatelines) | 1.0.0.0 | Not required for provisioning. ||
 | Project invoice proposals V2 (invoices) | 1.0.0.3 | Not required for provisioning. ||
 | Project Operations integration actuals (msdyn_actuals) | 1.0.0.15 | Not required for provisioning. |10.0.29 or later|
@@ -51,20 +60,20 @@ The following maps are required for a Project Operations solution. Dual-write ma
 | Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.3 | Not required for provisioning. ||
 | Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices) | 1.0.0.2 | Not required for provisioning. |10.0.29 or later|
 | Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Not required for provisioning. | 10.0.29 or later |
-| Project resource roles for all companies (bookableresourcecategories) | 1.0.0.1 | Requires an initial sync for the table map to synchronize the Project Manager and Team member resource roles that are populated in the Dynamics 365 Dataverse environment during provisioning. Dataverse is the main source for the initial synchronization. ||
-| Project tasks (msdyn_projecttasks) | 1.0.0.4 | Not required for provisioning. ||
-| Project transaction categories (msdyn_transactioncategories) | 1.0.0.0 | Not required for provisioning. ||
-| Projects V2 (msdyn_projects) | 1.0.0.2 | Not required for provisioning. ||
 
 Complete the following steps to run the listed maps.
 
-1. Enable the Project resource roles for **all companies (bookableresourcecategories)** table map as this map requires the initial sync. In the **Master for initial sync** field, select **Common data service**. 
+1. Enable the Project resource roles for **Project resource roles for all companies (bookableresourcecategories)** table map as this map requires the initial sync. In the **Master for initial sync** field, select **Microsoft Dataverse**. 
 
  ![Resource role table map sync.](media/6ResourceInitialSync.jpg)
 
- Wait until the status of the map is **Running** before you move to the next step.
+ Wait until the status of the above map is **Running** before you move to the next step.
 
-2. Select all of the remaining required maps. You can filter them in the dual-write map list using the keyword, **Project** in search in the upper-right corner. You can multi-select all maps and then run. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure to also enable and run related entity maps.
+2. Select all of the remaining required maps. To filter the dual-write map list, utilize the keyword "Project" during your search in the upper-right corner. You can multi-select all maps and then run. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure to also enable and run related entity maps.
+
+   > [!NOTE]
+   > If you encounter the **Project validation failed** error while running all the maps simultaneously, choose the respective map and click on the **Refresh tables** button on the details page.
+    ![Refresh Tables - Dual Write map.](media/6RefreshTables.jpg)
 
 ### Project Operations dual-write map versions
 
