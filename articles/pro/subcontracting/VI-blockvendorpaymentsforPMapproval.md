@@ -4,7 +4,7 @@ description: This topic outlines the functionality within Microsoft Dynamics 365
 author: mukumarm
 ms.date: 06/07/2023
 ms.topic: article
-ms.reviewer:  
+ms.reviewer: johnmichalak 
 ms.author: mukumarm
 ---
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
