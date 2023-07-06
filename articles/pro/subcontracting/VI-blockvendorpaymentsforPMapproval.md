@@ -33,6 +33,12 @@ When an Accounts payable clerk receives an invoice from the subcontractor, a new
 10. Select the **Project category**. It can be of any type (Item, Expense, Materials, or Hours). If the selected **project category** is of the Hour type, select the role.
 11. Select **Post** to post the vendor invoice.
 
-When the vendor invoice is posted, it becomes available in Dataverse for project manager verification and processing.
+When the vendor invoice is posted, it becomes available in Dataverse for project manager verification and processing. For verification of vendor invoices in Dataverse see **Confirm project vendor invoices**.
 
-Refer to 
+## Enable vendor invoice for payment
+When the Project manager confirms the vendor invoice in **Dataverse**, Vendor invoice will be approved for **vendor payment**. In certain scenarios if the vendor payment is required even before the PM approval in **Dataverse** then vendor invoice can be approved manually for payments.
+1. Go to **Accounts payable** > **Vendors** > **All vendors**.
+2. Select the vendor from the list.
+3. On the **Action pane**, select **Transactions**.
+4. Select the **Vendor transaction** for vendor invoice.
+5. Go to **General** tab and set **Approved** field to **Yes**.
