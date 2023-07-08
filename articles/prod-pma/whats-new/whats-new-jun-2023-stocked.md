@@ -22,6 +22,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | Feature area | Feature name | More information |
 | --- | --- | --- |
 |Expense Management| **Expense Mobile - Intuitive Expense Entry (Public Preview)**</br>The Expense mobile app is a powerful solution that's designed to simplify and enhance the expense reimbursement process and increase user productivity. Thanks to its focus on being intuitive and easy to use, the Expense mobile app offers a range of features that make reporting expenses seamless and efficient.| [Expense Mobile - Intuitive Expense Entry](/dynamics365/project-operations/expense/new-expense-mobile-app-overview) |
+|Project Invoicing| **Enable packing slip cancellation for item requirements (Public Preview)**</br>This feature changes how financial posting is done for stocked item requirements to closely resemble sales order postings. It also changes how inventory is posted for stocked items and changes the behavior to have the line status of posted item requirements as delivered instead of invoiced. All of these changes have been made in support of enabling users to cancel packing slips for an item requirement.| [Enable packing slip cancellation for item requirements](/dynamics365/project-operations/prod-pma/project-item-requirements) |
 
 ## Quality updates
 
