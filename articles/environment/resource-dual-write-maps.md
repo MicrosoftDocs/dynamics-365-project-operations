@@ -14,14 +14,16 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Using Dynamics 365 Project Operations for resource/non-stocked scenarios requires a set of dual-write maps to be running in the environment. 
 
-## Prerequisite apps on Dataverse environment (install in given order): 
-- Dual-write Application Core Solutions
-- Dual-write Asset Management Solutions
-- Dual Write Finance and Extended Solutions
-- Dual-write Human Resources solution
-- Dual Write Supply Chain Extended Solution
+## Prerequisites
 
-The following maps are required prerequisites for the Project Operations solution. Make sure to run the maps listed in the following table and any related table maps in your environment.
+The following apps are required on the Dataverse environment. These must be installed in the following order:
+1. Dual-write Application Core Solutions
+2. Dual-write Asset Management Solutions
+3. Dual Write Finance and Extended Solutions
+4. Dual-write Human Resources solution
+5. Dual Write Supply Chain Extended Solution
+
+The following maps are required for the Project Operations solution. Make sure to run the maps listed in the following table and any related table maps in your environment.
 
 | Table map | Initial sync |
 | --- | --- |
@@ -32,7 +34,7 @@ The following maps are required prerequisites for the Project Operations solutio
 
 1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **Finance and operations apps** for both ledger map and all prerequisite maps. Select **Run**.
 
-![Ledger map synchronization.](media/DW6.png)
+   ![Ledger map synchronization.](media/DW6.png)
 
 2. Follow the same steps for all remaining table maps listed in the above table. Do not select the **Initial sync** check box when running those maps.
 
@@ -69,10 +71,10 @@ Complete the following steps to run the listed maps.
 
  Wait until the status of the above map is **Running** before you move to the next step.
 
-2. Select all of the remaining required maps. To filter the dual-write map list, utilize the keyword "Project" during your search in the upper-right corner. You can multi-select all maps and then run. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure to also enable and run related entity maps.
+2. Select all the remaining required maps. You can filter them in the dual-write map list using the keyword, **Project** in search in the upper-right corner. You can multi-select all maps and then run. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure to also enable and run related entity maps.
 
    > [!NOTE]
-   > If you encounter the **Project validation failed** error while running all the maps simultaneously, choose the respective map and click on the **Refresh tables** button on the details page.
+   > If you receive the error, **Project validation failed** while running all the maps simultaneously, select the respective map and then select **Refresh tables**.
     ![Refresh Tables - Dual Write map.](media/6RefreshTables.jpg)
 
 ### Project Operations dual-write map versions
@@ -83,4 +85,4 @@ Always run the latest version of the map in your environment. Certain features a
 - The latest version of the map isn't activated. 
 - Related table maps aren't activated.
 
-You can view the active version of the map in the **Version** column on the **Dual-write** page. You can activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, you will need reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+You can view the active version of the map on the **Dual-write** page in the **Version** column. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, you will need reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
