@@ -16,7 +16,8 @@ Using Dynamics 365 Project Operations for resource/non-stocked scenarios require
 
 ## Prerequisites
 
-The following apps are required on the Dataverse environment. These must be installed in the following order:
+The following apps are required in the Dataverse environment. They must be installed in the following order:
+
 1. Dual-write Application Core Solutions
 2. Dual-write Asset Management Solutions
 3. Dual Write Finance and Extended Solutions
@@ -34,7 +35,7 @@ The following maps are required for the Project Operations solution. Make sure t
 
 1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **Finance and operations apps** for both ledger map and all prerequisite maps. Select **Run**.
 
-   ![Ledger map synchronization.](media/DW6.png)
+    ![Ledger map synchronization.](media/DW6.png)
 
 2. Follow the same steps for all remaining table maps listed in the above table. Do not select the **Initial sync** check box when running those maps.
 
@@ -44,14 +45,14 @@ The following maps are required for a Project Operations solution. Dual-write ma
 
 | Entity map | Latest version | Initial sync | Required Dynamics 365 Finance version |
 | --- | --- | --- | --- |
-| Project resource roles for all companies (bookableresourcecategories) | 1.0.0.1 | Requires an initial sync for the table map to synchronize the Project Manager and Team member resource roles that are populated in the Dynamics 365 Dataverse environment during provisioning. Dataverse is the main source for the initial synchronization. ||
+| Project resource roles for all companies (bookableresourcecategories) | 1.0.0.1 | Requires an initial synchronization for the table map to sync the Project Manager and Team member resource roles that are populated in the Dynamics 365 Dataverse environment during provisioning. Dataverse is the main source for the initial synchronization. ||
 | Integration entity for project transaction relationships (msdyn\_transactionconnections) | 1.0.0.0 | Not required for provisioning. ||
 | Project contract headers (salesorders) | 1.0.0.1 | Not required for provisioning. ||
 | Project contract lines (salesorderdetails) | 1.0.0.0 | Not required for provisioning. ||
 | Project funding source (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Not required for provisioning. ||
-| Projects V2 (msdyn_projects) | 1.0.0.2 | Not required for provisioning. ||
-| Project tasks (msdyn_projecttasks) | 1.0.0.4 | Not required for provisioning. ||
-| Project transaction categories (msdyn_transactioncategories) | 1.0.0.0 | Not required for provisioning. ||
+| Projects V2 (msdyn\_projects) | 1.0.0.2 | Not required for provisioning. ||
+| Project tasks (msdyn\_projecttasks) | 1.0.0.4 | Not required for provisioning. ||
+| Project transaction categories (msdyn\_transactioncategories) | 1.0.0.0 | Not required for provisioning. ||
 | Project integration table for material estimates (msdyn\_estimatelines) | 1.0.0.0 | Not required for provisioning. ||
 | Project invoice proposals V2 (invoices) | 1.0.0.3 | Not required for provisioning. ||
 | Project Operations integration actuals (msdyn_actuals) | 1.0.0.15 | Not required for provisioning. |10.0.29 or later|
@@ -65,17 +66,18 @@ The following maps are required for a Project Operations solution. Dual-write ma
 
 Complete the following steps to run the listed maps.
 
-1. Enable the Project resource roles for **Project resource roles for all companies (bookableresourcecategories)** table map as this map requires the initial sync. In the **Master for initial sync** field, select **Microsoft Dataverse**. 
+1. Enable the Project resource roles for the **Project resource roles for all companies (bookableresourcecategories)** table map, because this map requires the initial synchronization. In the **Master for initial sync** field, select **Microsoft Dataverse**. 
 
- ![Resource role table map sync.](media/6ResourceInitialSync.jpg)
+    ![Resource role table map sync.](media/6ResourceInitialSync.jpg)
 
- Wait until the status of the above map is **Running** before you move to the next step.
+    Wait until the status of the map is **Running** before you move on to the next step.
 
-2. Select all the remaining required maps. You can filter them in the dual-write map list using the keyword, **Project** in search in the upper-right corner. You can multi-select all maps and then run. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure to also enable and run related entity maps.
+2. Select all the remaining required maps. You can filter the maps in the dual-write map list by entering the keyword **Project** in the search field in the upper-right corner. You can multi-select all maps and then run them. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure that you also enable and run related entity maps.
 
-   > [!NOTE]
-   > If you receive the error, **Project validation failed** while running all the maps simultaneously, select the respective map and then select **Refresh tables**.
-    ![Refresh Tables - Dual Write map.](media/6RefreshTables.jpg)
+    > [!NOTE]
+    > If you receive a "Project validation failed" message while you're running all the maps simultaneously, select the relevant map, and then select **Refresh tables**.
+    >
+    > ![Refresh tables button.](media/6RefreshTables.jpg)
 
 ### Project Operations dual-write map versions
 
@@ -85,4 +87,4 @@ Always run the latest version of the map in your environment. Certain features a
 - The latest version of the map isn't activated. 
 - Related table maps aren't activated.
 
-You can view the active version of the map on the **Dual-write** page in the **Version** column. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, you will need reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+You can view the active version of the map on the **Dual-write** page. The **Version** column indicates which version is active. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you've customized an out-of-box table map, you must reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
