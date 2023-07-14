@@ -28,7 +28,6 @@ ms.dyn365.ops.version: 10.0.35
 # GST/TDS-TCS tax support for Project integration journals
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 The Project integration journal is extended so that you can select tax attributes of direct and indirect taxes of India in the Integration journal. You can use this extension to apply and calculate the required taxes on Project invoice proposal transactions that go through Microsoft Dynamics 365 Project Operations.
 
