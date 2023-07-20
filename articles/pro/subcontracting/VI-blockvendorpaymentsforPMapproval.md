@@ -7,6 +7,9 @@ ms.topic: article
 ms.reviewer: johnmichalak 
 ms.author: mukumarm
 ---
+
+[!include [banner](../../includes/dataverse-preview.md)]
+
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 To use the functionality that's described in this article, you must enable the feature **Enable subcontract actuals processing with Project Operations for resource based scenarios** in the Feature management workspace.
