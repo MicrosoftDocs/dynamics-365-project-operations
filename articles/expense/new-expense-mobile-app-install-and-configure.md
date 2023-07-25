@@ -1,11 +1,11 @@
 ---
 title: Install and configure the Expense mobile app 
 description: This article explains how to install and configure the Expense mobile app.
-author: ramagadu
-ms.date: 05/26/2023
+author: mukumarm
+ms.date: 07/25/2023
 ms.topic: how-to
 ms.reviewer: johnmichalak
-ms.author: ramagadu
+ms.author: mukumarm
 ms.custom: bap-template
 ---
 
@@ -185,12 +185,17 @@ To configure the Expense Core Service Connector, follow these steps.
 
 1. The Expense Core Service Connector is now configured for use by the mobile app. Select **Close**, and close the Power Automate portal.
 
+## Enable Code components for canvas app
+Once the core service connector is configured, need to enable the code components which is required for localization controls. Refer [Code components for canvas apps](/power-platform/power-apps/component-framework-for-canvas-apps)
+
 ## Grant access to the mobile app in Dataverse
 
 After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Expense mobile app is a canvas app. To share it, follow the instructions in [Share a canvas app with your organization](/power-apps/maker/canvas-apps/share-app).
 
-Each relevant user must be assigned a **Basic user** security role that lets them create a connection for the custom connector. You can assign this role to a Dataverse group team. Then, any user who's a member of that team also has the role. Alternatively, you can assign the role directly to a user.
+Each relevant user must be assigned a **Basic user** and **Expense mobile user** security role in Dataverse that lets them create a connection for the custom connector. You can assign this role to a Dataverse group team. Then, any user who's a member of that team also has the role. Alternatively, you can assign the role directly to a user.
 
 - To assign a role to a group team, follow the instructions in [Manage the security roles of a team](/power-platform/admin/manage-group-teams#manage-the-security-roles-of-a-team). We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](/power-platform/admin/manage-teams#manage-team-members).
 - To assign a role directly to a user, follow the instructions in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+
+
 
