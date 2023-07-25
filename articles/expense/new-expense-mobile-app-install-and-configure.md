@@ -186,7 +186,8 @@ To configure the Expense Core Service Connector, follow these steps.
 1. The Expense Core Service Connector is now configured for use by the mobile app. Select **Close**, and close the Power Automate portal.
 
 ## Enable Code components for canvas app
-Once the core service connector is configured, need to enable the code components which is required for localization controls. Refer [Code components for canvas apps](/power-platform/power-apps/component-framework-for-canvas-apps)
+Once the core service connector is configured, need to enable the code components which is required for localization controls. Refer [Code components for canvas apps](/power-platform/developer/component-framework/component-framework-for-canvas-apps)
+
 
 ## Grant access to the mobile app in Dataverse
 
