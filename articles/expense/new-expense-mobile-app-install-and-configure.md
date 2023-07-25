@@ -188,6 +188,30 @@ To configure the Expense Core Service Connector, follow these steps.
 ## Enable Code components for canvas app
 Once the core service connector is configured, need to enable the code components which is required for localization controls. Refer [Code components for canvas apps](/power-platform/developer/component-framework/component-framework-for-canvas-apps)
 
+## Refresh virtual entities in Dataverse
+After enabling the code components required for canvas apps, need to enable the virtual entities that are being used for the expense mobile app. This step is required to for the canvas app to use the latest metadata of the virtual entities. Refer [Refresh virtual entities in Dataverse](/power-platform/enable-virtual-entities#refresh-virtual-entity-metadata)
+Below is the list of entities that is needs to be refreshed.
+
+- CurrencyEntity
+- ExpenseFieldsVisibilityEntity
+- LogisticsAddressCountryRegionEntity
+- LogisticsAddressCountryRegionTranslationEntity
+- LogisticsAddressStateEntity
+- TrvAddressZipcodeEntity
+- TrvAdminCustomFieldsEntity
+- TrvExpenseCategoryEntity
+- TrvExpMobileActivitiesEntity
+- TrvExpMobileAddressCityEntity
+- TrvExpMobileCompanyinfoEntity
+- TrvExpMobileDocumentEntity
+- TrvExpMobileExpenseEntity
+- TrvExpMobileExpenseFieldVisibilityEntity
+- TrvExpMobileItemTaxEntity
+- TrvExpMobileProjEntity
+- TrvExpMobileProjLinePropertyEntity
+- TrvExpMobileReportEntity
+- TrvExpMobileTaxGroupEntity
+- TrvPayMethodEntity
 
 ## Grant access to the mobile app in Dataverse
 
