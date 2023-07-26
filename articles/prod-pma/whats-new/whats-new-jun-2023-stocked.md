@@ -27,3 +27,29 @@ This article applies to the following components and versions of Microsoft Dynam
 ## Quality updates
 
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=805875).
+
+## Features turned on by default in upcoming release
+
+The following table lists the features that are turned on by default in version 10.0.36. Most features that have been automatically turned on can be turned off in [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that have been automatically turned on might be removed from Feature management and become mandatory. This change ensures that customers are using current functionality, so that enhancements can build on the current functionality as they're added. Features aren't automatically enabled in less than one year, unless they're determined to be essential.
+
+| Feature name | Enable date | Feature added | Feature state | Module |
+| --- | --- | --- |--- |--- |
+|Enable to display projects assigned to resources through the resource group in the mobile application.|September 15, 2023|May 22, 2023|On by default|Project management and accounting|
+|Auto default "Intercompany project category" in expense mobile app.|September 15, 2023|April 20, 2022|On by default|Expense management|
+|Use new version of Project forecast list page.|September 15, 2023|May 22, 2023|On by default|Project management and accounting|
+|Enable to make sure posted project transactions have correct invoice status based on contract billing rule setup.|September 15, 2023|October 3, 2021|On by default|Project management and accounting|
+|Update labels for revenue recognition related forms and processes in Project Operations.|September 15, 2023|April 20, 2022|On by default|Project management and accounting|
+|Keep project cost commitment for purchase requisition open until purchase order is confirmed.|September 15, 2023|April 29, 2021|On by default|Project management and accounting|
+|Create project revenue recognition using multiple batch tasks.|September 15, 2023|44205|On by default|Project management and accounting|
+|Allows future transactions to be allocated to a budget in the current period.|September 15, 2023|44205|On by default|Project management and accounting|
+|Enable project resource scheduling performance enhancement feature.|September 15, 2023|August 17, 2020|On by default|Project management and accounting|
+|Project invoice proposal performance enhancement feature.|September 15, 2023|February 20, 2021|On by default|Project management and accounting|
+|Enable to make sure posted project transactions have correct invoice status based on contract billing rule setup.|September 15, 2023|October 3, 2021|On by default|Project management and accounting|
+
+## Features that become mandatory in the upcoming release
+
+The following table lists the features that are mandatory from version 10.0.36 onward.
+
+| Feature name | Enable date | Feature added | Feature state | Module |
+| --- | --- | --- | --- | --- |
+|Mileage totals calculation by fiscal year|September 15, 2023|May 10, 2022|Mandatory|Expense management|

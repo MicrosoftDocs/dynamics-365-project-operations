@@ -68,10 +68,12 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
-    - name: June 2023 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-jun-2023-resource-based.md
+    - name: July 2023 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-jul-2023-resource-based.md
     - name: Archive
       items:
+       - name: June 2023 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-jun-2023-resource-based.md
        - name: May 2023 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-may-2023-resource-based.md
        - name: April 2023 - Project Operations for resource/non-stocked based scenarios
@@ -728,10 +730,12 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
-    - name: What's new June 2023 - lite deployment
-      href: pro/whats-new/whats-new-jun-2023-lite.md
+    - name: What's new July 2023 - lite deployment
+      href: pro/whats-new/whats-new-jul-2023-lite.md
     - name: Archive
       items:
+      - name: What's new June 2023 - lite deployment
+        href: pro/whats-new/whats-new-jun-2023-lite.md
       - name: What's new May 2023 - lite deployment
         href: pro/whats-new/whats-new-may-2023-lite.md
       - name: What's new April 2023 - lite deployment
