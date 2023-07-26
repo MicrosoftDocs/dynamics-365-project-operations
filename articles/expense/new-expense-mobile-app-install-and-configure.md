@@ -186,10 +186,10 @@ To configure the Expense Core Service Connector, follow these steps.
 1. The Expense Core Service Connector is now configured for use by the mobile app. Select **Close**, and close the Power Automate portal.
 
 ## Enable Code components for canvas app
-Once the core service connector is configured, need to enable the code components which is required for localization controls. Refer [Code components for canvas apps](/power-platform/developer/component-framework/component-framework-for-canvas-apps)
+Once you have set up the core service connector, the next step is to activate the necessary code components for localization controls. Refer [Code components for canvas apps](/powerapps-docs/powerapps-docs/developer/component-framework#component-framework-for-canvas-apps)
 
 ## Refresh virtual entities in Dataverse
-After enabling the code components required for canvas apps, need to enable the virtual entities that are being used for the expense mobile app. This step is required to for the canvas app to use the latest metadata of the virtual entities. Refer [Refresh virtual entities in Dataverse](/power-platform/enable-virtual-entities#refresh-virtual-entity-metadata)
+Once the code components for canvas apps have been enabled, the next crucial step is to enable the virtual entities used in the expense mobile app. This action ensures that the canvas app can utilize the most up-to-date metadata of these virtual entities, enhancing the overall functionality and user experience of the app. Refer [Refresh virtual entities in Dataverse](/power-platform/enable-virtual-entities#refresh-virtual-entity-metadata)
 Below is the list of entities that is needs to be refreshed.
 
 - CurrencyEntity
