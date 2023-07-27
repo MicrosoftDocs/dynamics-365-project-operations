@@ -40,8 +40,8 @@ The following table lists the features that are turned on by default in version 
 |Enable to make sure posted project transactions have correct invoice status based on contract billing rule setup.|September 15, 2023|October 3, 2021|On by default|Project management and accounting|
 |Update labels for revenue recognition related forms and processes in Project Operations.|September 15, 2023|April 20, 2022|On by default|Project management and accounting|
 |Keep project cost commitment for purchase requisition open until purchase order is confirmed.|September 15, 2023|April 29, 2021|On by default|Project management and accounting|
-|Create project revenue recognition using multiple batch tasks.|September 15, 2023|44205|On by default|Project management and accounting|
-|Allows future transactions to be allocated to a budget in the current period.|September 15, 2023|44205|On by default|Project management and accounting|
+|Create project revenue recognition using multiple batch tasks.|September 15, 2023|January 9, 2021|On by default|Project management and accounting|
+|Allows future transactions to be allocated to a budget in the current period.|September 15, 2023|January 9, 2021|On by default|Project management and accounting|
 |Enable project resource scheduling performance enhancement feature.|September 15, 2023|August 17, 2020|On by default|Project management and accounting|
 |Project invoice proposal performance enhancement feature.|September 15, 2023|February 20, 2021|On by default|Project management and accounting|
 |Enable to make sure posted project transactions have correct invoice status based on contract billing rule setup.|September 15, 2023|October 3, 2021|On by default|Project management and accounting|
