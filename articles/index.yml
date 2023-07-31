@@ -1,12 +1,12 @@
 ### YamlMime:Hub
 
-title:  Microsoft Dynamics 365 Project Operations documentation
-summary: Discover how to make the most of Microsoft Dynamics 365 Project Operations with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
+title:  Dynamics 365 Project Operations documentation
+summary: Discover how to make the most of Dynamics 365 Project Operations with training, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
 brand: dynamics
 
 metadata:
-  title: Microsoft Dynamics 365 Project Operations documentation
-  description: Discover how to make the most of Microsoft Dynamics 365 Project Operations with training courses, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
+  title: Dynamics 365 Project Operations documentation
+  description: Discover how to make the most of Dynamics 365 Project Operations with training, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
   ms.topic: hub-page 
   author: johnmichalak
   ms.author: johnmichalak
@@ -138,7 +138,7 @@ additionalContent:
     items:
         # Card
         
-        - title: Microsoft Dynamics 365 Finance
+        - title: Dynamics 365 Finance
           summary: Finance and operations apps are enterprise resource planning (ERP) software as a service (SaaS) offerings.
           url: /dynamics365/finance/
         - title: Lifecycle Services
