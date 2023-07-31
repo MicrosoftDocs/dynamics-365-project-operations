@@ -71,7 +71,7 @@ Project for the web doesn't respect business closures that the enterprise define
 
 ### What are the limitations of Project for the web?
 
-See [Create a work breakdown structure: Project Limitations](/project-management/create-wbs.md#project-limitations).
+See [Create a work breakdown structure: Project Limitations](../project-management/create-wbs.md#project-limitations).
 
 ### Can I expect changes to my cost and sales estimates?
 
