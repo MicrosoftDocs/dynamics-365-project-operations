@@ -5,7 +5,7 @@ description: This article points to articles that describe the new and changed f
 author: johnmichalak
 ms.author: johnmichalak
 ms.reviewer: johnmichalak
-ms.date: 06/30/2023
+ms.date: 08/01/2023
 ms.custom: bap-template
 ms.topic: whats-new
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
@@ -25,6 +25,7 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Version | Build number | Auto-update availability | Learn more |
 |---------|--------------|---------------|-------------|
+| Dataverse 4.74.0.59 </br> Finance 10.0.36 |     | October 2023    | [Project Operations for resource/non-stocked based scenarios](whats-new-jul-2023-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-jul-2023-lite.md)  </br> [Project Operations for stocked/production-based scenarios](../prod-pma/whats-new/whats-new-jun-2023-stocked.md)|
 | Dataverse 4.73.0.78 </br> Finance 10.0.34 |     | June 2023    | [Project Operations for resource/non-stocked based scenarios](whats-new-may-2023-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-may-2023-lite.md)  </br> [Project Operations for stocked/production-based scenarios](../prod-pma/whats-new/whats-new-may-2023-stocked.md)|
 | Dataverse 4.72.0.123 </br> Finance 10.0.33  |               | May 2023 |  [Project Operations for resource/non-stocked based scenarios](whats-new-jun-2023-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-jun-2023-lite.md)  </br> [Project Operations for stocked/production-based scenarios](../prod-pma/whats-new/whats-new-jun-2023-stocked.md)|
 | Dataverse 4.62.0.83 </br> Finance 10.0.32  |               | April 2023 |  [Project Operations for resource/non-stocked based scenarios](whats-new-apr-2023-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-apr-2023-lite.md)  </br> [Project Operations for stocked/production-based scenarios](../prod-pma/whats-new/whats-new-apr-2023-stocked.md)|
