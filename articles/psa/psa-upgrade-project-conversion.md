@@ -41,7 +41,7 @@ To convert a project, follow these steps.
 
 ## Manual tasks vs. automatic tasks
 
-When an environment is upgraded from Project Service Automation to Project Operations, all tasks in the WBS are considered automatically scheduled. The concept of manually scheduled tasks isn't available in Project for the web. However, you can define the preferred scheduling behavior for your projects by using the [scheduling mode](/project-management/scheduling-modes.md) setting when you create new projects.
+When an environment is upgraded from Project Service Automation to Project Operations, all tasks in the WBS are considered automatically scheduled. The concept of manually scheduled tasks isn't available in Project for the web. However, you can define the preferred scheduling behavior for your projects by using the [scheduling mode](../project-management/scheduling-modes.md) setting when you create new projects.
 
 ## Restricted operations for pre-conversion projects
 
@@ -71,7 +71,7 @@ Project for the web doesn't respect business closures that the enterprise define
 
 ### What are the limitations of Project for the web?
 
-See [Create a work breakdown structure: Project Limitations](/project-management/create-wbs#project-limitations.md).
+See [Create a work breakdown structure: Project Limitations](/project-management/create-wbs.md#project-limitations).
 
 ### Can I expect changes to my cost and sales estimates?
 
