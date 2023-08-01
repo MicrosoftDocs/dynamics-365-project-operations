@@ -14,7 +14,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 > [!IMPORTANT]
 > After you purchase the license, start here to determine the best deployment model of Dynamics 365 Project Operations using the [Guided installation flow](https://aka.ms/provisionprojectoperations).
-> After you have finshed the Guided installation flow, you will be directed to the correct management portal to complete your installation. See the deployment details to complete the installation.
+> After you have finished the Guided installation flow, you will be directed to the correct management portal to complete your installation. See the deployment details to complete the installation.
 
 
 ## Existing customers of Dynamics using Dynamics 365 Project Service Automation
