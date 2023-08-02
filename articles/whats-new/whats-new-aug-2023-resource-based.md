@@ -30,7 +30,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-|Subcontracting|**Enhanced Vendor Invoice Verification** </br></br>This feature introduces new fields that let users view real-time 3-way match progress for a vendor invoice line and ensures more accurate verification of invoices. </br>To view these updates, please enable the feature flag named **Enhanced Vendor Invoice Verification**. In subsequent releases, this feature will also introduce visualisations to track pending verification of invoice lines at the vendor invoice header level.| |
+|Subcontracting|**Enhanced Vendor Invoice Verification** </br></br>This feature introduces new fields that let users view real-time 3-way match progress for a vendor invoice line and ensures more accurate verification of invoices. </br>To view these updates, enable the feature flag named **Enhanced Vendor Invoice Verification**. In subsequent releases, this feature will introduce visualizations to track pending verification of invoice lines at the vendor invoice header level.| |
 
 ## Quality updates
 
@@ -38,17 +38,17 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-|Billing and Pricing|3186838|Cost price list fails to default when the end date is outside the price list range|
+|Billing and Pricing|3186838|Cost price list fails to default when the end date is outside the price list range.|
 |Billing and Pricing|3233975|Imported estimate values do not match the estimates calculated on project.|
-|Billing and Pricing|3370203|Validate ProjectParameterPriceList has a parameter reference|
-|Billing and Pricing|3419224|Material estimates should retain any price changes|
+|Billing and Pricing|3370203|Validate ProjectParameterPriceList has a parameter reference.|
+|Billing and Pricing|3419224|Material estimates should retain any price changes.|
 |Opportunity Management|3107890|Transform the **Close as Lost** process for quotes into a long-running job and notify the user if the process is already in progress.|
 |Project Management|2922153|When attempting to update the remaining effort for tasks, an error is thrown if the start date is later than the end date.|
 |Project Management|3409749|Unable to modify the role of a team member created by a generic resource.|
-|Project Management|3464455|Incorrect calculation of task start date due to Timezone difference in client and resource calendar|
-|Resource Management|3491774|Error received when using Specify Pattern on Team member grid|
-|Subcontracting|2920766|The Vendor field must be filled out when creating a subcontract, and it should throw an exception if left empty|
-|Subcontracting|3491867|Subcontract Line Resource creation leads to script error|
+|Project Management|3464455|Incorrect calculation of task start date due to Timezone difference in client and resource calendar.|
+|Resource Management|3491774|Error received when using Specify Pattern on Team member grid.|
+|Subcontracting|2920766|The Vendor field must be filled out when creating a subcontract, and it should throw an exception if left empty.|
+|Subcontracting|3491867|Subcontract Line Resource creation leads to script error.|
 
 ### Project management and accounting in Finance
 
@@ -60,17 +60,17 @@ The following table lists the features that are turned on by default in version 
 
 | Feature name | Enable date | Feature added | Feature state | Module |
 | --- | --- | --- |--- |--- |
-|Enable to display projects assigned to resources through the resource group in the mobile application.|September 15, 2023|May 22, 2023|On by default|Project management and accounting|
-|Auto default "Intercompany project category" in expense mobile app.|September 15, 2023|April 20, 2022|On by default|Expense management|
-|Use new version of Project forecast list page.|September 15, 2023|May 22, 2023|On by default|Project management and accounting|
-|Enable to make sure posted project transactions have correct invoice status based on contract billing rule setup.|September 15, 2023|October 3, 2021|On by default|Project management and accounting|
+|Enable to display the projects assigned to resources through the resource group in the mobile application.|September 15, 2023|May 22, 2023|On by default|Project management and accounting|
+|Auto default **Intercompany project category** in expense mobile app.|September 15, 2023|April 20, 2022|On by default|Expense management|
+|Use the new version of **Project forecast list** page.|September 15, 2023|May 22, 2023|On by default|Project management and accounting|
+|Enable to make sure posted project transactions have the correct invoice status based on the contract billing rule setup.|September 15, 2023|October 3, 2021|On by default|Project management and accounting|
 |Update labels for revenue recognition related forms and processes in Project Operations.|September 15, 2023|April 20, 2022|On by default|Project management and accounting|
 |Keep project cost commitment for purchase requisition open until purchase order is confirmed.|September 15, 2023|April 29, 2021|On by default|Project management and accounting|
 |Create project revenue recognition using multiple batch tasks.|September 15, 2023|January 9, 2021|On by default|Project management and accounting|
-|Allows future transactions to be allocated to a budget in the current period.|September 15, 2023|January 9, 2021|On by default|Project management and accounting|
-|Enable project resource scheduling performance enhancement feature.|September 15, 2023|August 17, 2020|On by default|Project management and accounting|
+|Allow future transactions to be allocated to a budget in the current period.|September 15, 2023|January 9, 2021|On by default|Project management and accounting|
+|Enable the project resource scheduling performance enhancement feature.|September 15, 2023|August 17, 2020|On by default|Project management and accounting|
 |Project invoice proposal performance enhancement feature.|September 15, 2023|February 20, 2021|On by default|Project management and accounting|
-|Enable to make sure posted project transactions have correct invoice status based on contract billing rule setup.|September 15, 2023|October 3, 2021|On by default|Project management and accounting|
+|Enable to make sure the posted project transactions have the correct invoice status based on contract billing rule setup.|September 15, 2023|October 3, 2021|On by default|Project management and accounting|
 
 ## Features that become mandatory in the upcoming release
 
