@@ -14,9 +14,15 @@ ms.author: nimaski
 
 This article explains how to setup a budget period setup, both at an organization level and also at a project level. 
 
+> [!NOTE]
+> Budget period setup is mandatory at the project level to enable the time phasing of budgeted values and quantities over the budget line's period.
+
 ## What is Budget period
 
-Budget period would define how you would define the week, month, quarter and fiscal periods in your organization. For example, in some countries fiscal and quarter 1 would start on 01st of April and in some countries it would start on 1st of January. In some countries a work week would start on Monday and in some it would start on Sunday. 
+Budget period would define how you would define the week, month, quarter and fiscal periods in your organization. 
+
+For example, in some countries fiscal and quarter 1 would start on 01st of April and in some countries it would start on 1st of January. In some countries a work week would start on Monday and in some it would start on Sunday. Budget period config would define these at an organization level or at project level.
+
 Budget period setup at organization level would be available for consumption at a project level. However based on a specific project needs a project manager can override the organization budget period config at a project level, to cater to a specific project needs. 
 
 ## Budget period setup at Organization level
