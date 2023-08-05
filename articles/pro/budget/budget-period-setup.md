@@ -25,7 +25,7 @@ For example, in some countries fiscal and quarter 1 would start on 01st of April
 
 Budget period setup at organization level would be available for consumption at a project level. However based on a specific project needs a project manager can override the organization budget period config at a project level, to cater to a specific project needs. 
 
-## Budget period setup at Organization level
+## Budget period setup at an Organization level
 
 To setup a budget period at an organization level, follow these steps.
 
@@ -42,7 +42,13 @@ To setup a budget period at an organization level, follow these steps.
 1. Double click on the budget period line to open the budget period main form and see the budget period details.
 1. You can edit the budget period config by updating any of the fields and clicking **Save** or **Save&Close** in the top ribbon bar.
 1. Based on the configuration update, the budget period detail line would be either extended or deleted and created again.
-   
+
+| Field | Requirement | Description | Comments |
+|---|---|---|--|
+| Name | Optional | It is the name of the budget period config. | Give a name of your choice to identify the budget period config |
+| Fiscal start | Mandatory | Defines the month when the fiscal would start. <p>This is also considered as a Quarter 1 start. </p>  <p> For example, if Fiscal start is January, the quarter 1 would be January to March </p>| An update of this field would delete and create budget period details |
+| Week starts on | Mandatory | Defines the day of the week when the work week would start. <p> First such weekday of the month would be considered as start of the month</p> <p> For example, if Week starts on is Monday, the first Monday of a month would be considered as month start for period calculation.</p>  | An update of this field would delete and create budget period details |
+| Name | Optional | It is the name of the budget period config. | Give a name of your choice to identify the budget period config |
 
 
 > [!NOTE]
