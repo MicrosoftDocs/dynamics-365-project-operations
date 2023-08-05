@@ -12,16 +12,35 @@ ms.author: nimaski
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
-This article explains the This article explains key concepts that you should be aware of before you start to use project budget management in Microsoft Dynamics 365 Project Operations.
+This article explains how to setup a budget period setup, both at an organization level and also at a project level. 
 
-## Project budget
+## What is Budget period
 
-A project budget represents a point-in-time snapshot of the estimated spend across the project phases and its associated tasks. Even if the prices of the resources, materials, or expenses change, the changes don't affect the budget snapshot after it's made part of the budget.
+Budget period would define how you would define the week, month, quarter and fiscal periods in your organization. For example, in some countries fiscal and quarter 1 would start on 01st of April and in some countries it would start on 1st of January. In some countries a work week would start on Monday and in some it would start on Sunday. 
+Budget period setup at organization level would be available for consumption at a project level. However based on a specific project needs a project manager can override the organization budget period config at a project level, to cater to a specific project needs. 
 
-## Cost budget
+## Budget period setup at Organization level
 
-A cost budget represents a point-in-time snapshot of estimated cost for the project. All actual costs that are incurred on the project among time, materials, and expenses are compared against the cost budget, to track the costs on the project.
+To setup a budget period at an organization level, follow these steps.
 
+1. Sign in to Microsoft Dynamics 365 Project Operations.
+1. In the left navigation, change the area to **Settings**.
+1. In the **General** section, select **Organizational Units**.
+1. You should see a list of active organizational units.
+1. Click the organizational unit for which you wanted to setup the budget period.
+1. In the organizational unit main form, you would see a tab **Budget Period**.
+1. Click the **Budget Period** tab.
+1. Under the **Budget Period** tab, if you donot see an existing budget period in the grid, Click **+ New Budget Period**.
+1. Click on **Save & Close**.
+1. You would see a budget period line created in the grid.
+1. Double click on the budget period line to open the budget period main form and see the budget period details.
+1. You can edit the budget period config by updating any of the fields and clicking **Save** or **Save&Close** in the top ribbon bar.
+1. Based on the configuration update, the budget period detail line would be either extended or deleted and created again.
+   
+
+
+> [!NOTE]
+> After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
 ## Revenue budget
 
 A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget, to track the revenue on the project.
