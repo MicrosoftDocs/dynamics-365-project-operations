@@ -100,40 +100,31 @@ To edit a budget period at a project level once it is created, follow these step
 1. Navigate to the **Projects** section in the bottom left-hand navigation.
 1. Click on the **Projects** in the left-hand navigation to view the list of active projects.
 1. Find and click on the desired project to open the project main form.
-1. In the top ribbon bar click on the **Budget**
-1. If budget periods are already configured at project level, you will see **Budget Periods** from the drop-down menu.
-1. Select **Budger Periods** from the drop-down menu.
+1. In the top ribbon bar, click on **Budget**, and then choose **Budget Periods** from the drop-down menu.
 1. Click on **Edit** to open the budget period configuration dialog.
-1. Edit the configuration as per the table above for the details of the fields.
-1. Make any necessary updates and save the changes by clicking **Save** or **Save & Close** in the top ribbon bar.
+1. Update the configuration as needed, referring to the details provided in the table above for field information.
+1. After making the necessary changes, save the modifications by clicking **Save** or **Save & Close** in the top ribbon bar.
 1. Depending on your configuration updates, the budget period detail line will be extended or deleted and created again.
+
+> [!NOTE]
+> If a project has an approved budget and budget line is already time-phased, you can only extend the budget period end date. You cannot change any other field for this project to protect the budget period detail lines created. If its a must to update the budget period configuration the only way is to create a copy of the project and create a new budget and budget period.
+   
 
 
 ## Delete Budget period at a Project level
 
-To edit or delete a budget period at a project level, follow these steps.
+To delete a budget period at a project level, follow these steps.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. Navigate to the **Projects** section in the bottom left-hand navigation.
 1. Click on the **Projects** in the left-hand navigation to view the list of active projects.
 1. Find and click on the desired project to open the project main form.
-1. In the top ribbon bar click on the **Budget**
-2. If budget periods are already configured at project level, you will see **Budget Periods** from the drop-down menu.
-3. Select **Budger Periods** from the drop-down menu.
-4. Click on **Edit** to open the budget period configuration dialog.
-5. Edit the configuration as per the table above for the details of the fields.
-6. Make any necessary updates and save the changes by clicking **Save** or **Save & Close** in the top ribbon bar.
-1. Depending on your configuration updates, the budget period detail line will be extended or deleted and created again.
-7. If you wish to delete the budget period, click on **Delete** on the top ribbon of the dialog or on the
+1. In the top ribbon bar, click on **Budget**, and then choose **Budget Periods** from the drop-down menu.
+1. Click on **Delete** which opens a confirmation dialog.
+2. Click on **Confirm** to delete the budget period configuration.
+   
 > [!NOTE]
-> Deleting the budget period config would stop the time phasing of the budget lines to budget line details. 
-7. 
-1. If an organization budget period configuration is set up, the **Fiscal start** and **Week starts on** will be taken from the organization budget period template. Otherwise, they will default to July and Monday.
-1. The **Start year** and **Start month** will be defaulted to the project's start year and month.
-1. The **End year** and **End month** will be defaulted to the project's end year and month.
-1. You can edit the budget period configuration at the project level to meet your specific needs.
-1. You can edit the budget period config at the project level as per your needs.
-1. Refer to the table below for details of the fields.
+> Deleting the budget period configuration will halt the time phasing of budget lines to budget line details. If the budget is already in an approved state, time phasing of budget lines will not occur during budget revision.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
