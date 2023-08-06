@@ -27,29 +27,69 @@ Budget period setup at organization level would be available for consumption at 
 
 ## Budget period setup at an Organization level
 
-To setup a budget period at an organization level, follow these steps.
+To setup or edit a budget period at an organization level, follow these steps.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
-1. In the left navigation, change the area to **Settings**.
-1. In the **General** section, select **Organizational Units**.
-1. You should see a list of active organizational units.
-1. Click the organizational unit for which you wanted to setup the budget period.
-1. In the organizational unit main form, you would see a tab **Budget Period**.
-1. Click the **Budget Period** tab.
-1. Under the **Budget Period** tab, if you donot see an existing budget period in the grid, Click **+ New Budget Period**.
-1. Click on **Save & Close**.
-1. You would see a budget period line created in the grid.
-1. Double click on the budget period line to open the budget period main form and see the budget period details.
-1. You can edit the budget period config by updating any of the fields and clicking **Save** or **Save&Close** in the top ribbon bar.
-1. Based on the configuration update, the budget period detail line would be either extended or deleted and created again.
+1. Navigate to the **Settings** section in the bottom left-hand navigation.
+1. Under the **General** category, select **Organizational Units**.
+1. You will see a list of active organizational units.
+1. Find and click on the desired organizational unit to open the main form.
+1. Once the main form opens, go to the **Budget Period** tab.
+1. If there is no existing budget period in the grid, click on **+ New Budget Period** to create one.
+1. Save your changes by clicking Save & Close.
+1. You will now have a budget period line created in the grid.
+1. To view or modify the budget period details, double-click on the budget period line.
+1. Make any necessary updates and save the changes by clicking **Save** or **Save & Close** in the top ribbon bar.
+1. Depending on your configuration updates, the budget period detail line will be extended or deleted and created again.
 
 | Field | Requirement | Description | Comments |
 |---|---|---|--|
 | Name | Optional | It is the name of the budget period config. | Give a name of your choice to identify the budget period config |
-| Fiscal start | Mandatory | Defines the month when the fiscal would start. <p>This is also considered as a Quarter 1 start. </p>  <p> For example, if Fiscal start is January, the quarter 1 would be January to March </p>| An update of this field would delete and create budget period details |
-| Week starts on | Mandatory | Defines the day of the week when the work week would start. <p> First such weekday of the month would be considered as start of the month</p> <p> For example, if Week starts on is Monday, the first Monday of a month would be considered as month start for period calculation.</p>  | An update of this field would delete and create budget period details |
-| Name | Optional | It is the name of the budget period config. | Give a name of your choice to identify the budget period config |
+| Fiscal start | Mandatory | Specifies the month when the fiscal year will begin. <p>This month is also considered as a Quarter 1 start for budget period configuration. </p>  <p> For example, if Fiscal start is January, the quarter 1 would be January to March. </p>| An update of this field would delete and create budget period details |
+| Week starts on | Mandatory | Specifies the day of the week when the workweek will start. <p> The first occurrence of that weekday in the month will be considered as the start of the month.</p> <p> For example, if Week starts on setting is set to Monday, the first Monday of a month will be considered as the start of the month for period calculation. </p>  | An update of this field would delete and create budget period details |
+| Start year | Mandatory | Specifies the calendar year from which the budget period creation will commence. <p> For example, if Start year is 2023, the budget period would start on the Year and month of Start year and Start month </p>  | An update of this field would extend the budget period details. |
+| Start month | Mandatory | Defines the month of the calender year from when the budget period creation would start. <p> For example, if Start year is 2023 and Start month is July, the budget period would start from the July month of 2023. </p>  | An update of this field would extend the budget period details. |
+| End year | Mandatory | Specifies the calendar year up to which the budget period will be created. <p> For example, if Start year is 2023, the budget period would start on the Year and month of Start year and Start month </p>  | An update of this field would extend the budget period details. |
+| End month | Mandatory | Specifies the month up to which the budget period will be created. <p> For example, if End year is 2033 and End month is June, the budget period would end at last week of June 2033. </p>  | An update of this field would extend the budget period details. |
 
+<p></p>
+<p></p>
+
+> [!NOTE]
+> Budget period setup at the organization level serves as a template that can be easily copied and applied at the project level as per specific needs. This approach streamlines the process of setting up budget periods for individual projects, ensuring consistency and efficiency across different projects within the organization. 
+
+<p></p>
+
+## Budget period setup at a Project level
+
+To setup or edit a budget period at a project level, follow these steps.
+
+> [!NOTE]
+> After copying the budget period to the project level, any subsequent changes to the organization-level configuration won't affect the project level. The project's budget period becomes independent and isolated from the organization-level template.
+
+1. Sign in to Microsoft Dynamics 365 Project Operations.
+1. Navigate to the **Projects** section in the bottom left-hand navigation.
+1. Click on the **Projects** in the left-hand navigation to view the list of active projects.
+1. Find and click on the desired project to open the project main form.
+1. In the top ribbon bar click on the **Budget** and then select **Create budget period** from the drop-down menu.
+1. The budget period configuration dialog for the selected project will open.
+1. If an organization budget period configuration is set up, the **Fiscal start** and **Week starts on** will be taken from the organization budget period template. Otherwise, they will default to July and Monday.
+1. The **Start year** and **Start month** will be defaulted to the project's start year and month.
+1. The **End year** and **End month** will be defaulted to the project's end year and month.
+1. You can edit the budget period configuration at the project level to meet your specific needs.
+1. You can edit the budget period config at the project level as per your needs.
+1. Refer to the table below for details of the fields.
+
+
+| Field | Requirement | Description | Comments |
+|---|---|---|--|
+| Name | Optional | It is the name of the budget period config. | Give a name of your choice to identify the budget period config |
+| Fiscal start | Mandatory | Specifies the month when the fiscal year will begin. <p>This month is also considered as a Quarter 1 start for budget period configuration. </p>  <p> For example, if Fiscal start is January, the quarter 1 would be January to March. </p>| An update of this field would delete and create budget period details |
+| Week starts on | Mandatory | Specifies the day of the week when the workweek will start. <p> The first occurrence of that weekday in the month will be considered as the start of the month.</p> <p> For example, if Week starts on setting is set to Monday, the first Monday of a month will be considered as the start of the month for period calculation. </p>  | An update of this field would delete and create budget period details |
+| Start year | Mandatory | Specifies the calendar year from which the budget period creation will commence. <p> For example, if Start year is 2023, the budget period would start on the Year and month of Start year and Start month </p>  | An update of this field would extend the budget period details. |
+| Start month | Mandatory | Defines the month of the calender year from when the budget period creation would start. <p> For example, if Start year is 2023 and Start month is July, the budget period would start from the July month of 2023. </p>  | An update of this field would extend the budget period details. |
+| End year | Mandatory | Specifies the calendar year up to which the budget period will be created. <p> For example, if Start year is 2023, the budget period would start on the Year and month of Start year and Start month </p>  | An update of this field would extend the budget period details. |
+| End month | Mandatory | Specifies the month up to which the budget period will be created. <p> For example, if End year is 2033 and End month is June, the budget period would end at last week of June 2033. </p>  | An update of this field would extend the budget period details. |
 
 > [!NOTE]
 > After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
