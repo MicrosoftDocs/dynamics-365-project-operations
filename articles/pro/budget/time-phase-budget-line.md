@@ -20,10 +20,35 @@ This distribution considers work hours according to the work hour calendars, ens
 
 ## Prerequisite to time phase a budget line
 
-As a prerequisite, the time phasing of project cost budget lines requires the creation of a budget period at the project level. This is necessary to determine work hours accurately. Please refer to [Budget period setup ](budget-period-setup.md) for instructions on setting up the budget period at the project level before proceeding with time phasing.
+As a prerequisite, the time phasing of project cost budget lines requires the creation of a budget period at the project level. 
+
+This is necessary to determine work hours accurately. Please refer to [Budget period setup ](budget-period-setup.md) for instructions on setting up the budget period at the project level before proceeding with time phasing.
 
 > [!NOTE]
 > As a best practice, it's recommended to set up the budget period before creating a budget line. This ensures that the time phasing of the budget line into its details is completed during the budget line creation process itself. 
+
+## Automatic time phasing during budget line creation
+
+Once the budget period is configured at the project level, the process of time phasing budget lines and creating budget line details will occur automatically. This applies to both cases: when a budget line is [created manually](create-delete-project-budget.md) or when it's [generated from estimates](create-project-budget-from-estimates.md).
+
+## On demand phasing of budget line
+
+You can perform on-demand time phasing of the budget line as long as the budget version remains in **Draft** status. 
+
+Here are the steps to time phase a budget line.
+
+1. Sign in to Microsoft Dynamics 365 Project Operations.
+1. Navigate to the **Projects** section in the bottom left-hand navigation.
+1. Click on **Projects** in the left-hand navigation to view the list of active projects.
+1. Find and click on the desired project to open its main form.
+1. Open the **Budget** tab on the project main form.
+1. Ensure that the budget and budget line are created, and the budget version status is in **Draft** status.
+1. Select the project budget line you intend to time phase.
+1. Click the **Time Phase** button located at the top of the budget grid.
+1. Once time phased, observe the creation of budget line details.
+1. Click the chevron on the left of the budget line to view the nested grid with budget line details.
+
+
 
 To enable project cost budgeting, follow these steps.
 
