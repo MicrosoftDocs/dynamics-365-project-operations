@@ -31,7 +31,7 @@ This is necessary to determine work hours accurately. Please refer to [Budget pe
 
 Once the budget period is configured at the project level, the process of time phasing budget lines and creating budget line details will occur automatically. This applies to both cases: when a budget line is [created manually](create-delete-project-budget.md) or when it's [generated from estimates](create-project-budget-from-estimates.md).
 
-## On demand phasing of budget line
+## On demand time phasing of budget line
 
 You can perform on-demand time phasing of the budget line as long as the budget version remains in **Draft** status. 
 
@@ -48,36 +48,53 @@ Here are the steps to time phase a budget line.
 1. Once time phased, observe the creation of budget line details.
 1. Click the chevron on the left of the budget line to view the nested grid with budget line details.
 
+## What happens when a budget line is time phased
 
+Time phasing of Time, Material and Expense budget lines will be as per the below explanation of each transaction class.
 
-To enable project cost budgeting, follow these steps.
+### Time budget line
 
-1. Sign in to Microsoft Dynamics 365 Project Operations.
-1. In the left navigation, change the area to **Settings**.
-1. In the **General** section, select **Parameters**.
-1. You should see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
-1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
-1. Select **Enable Project Budgeting Feature Flag**.
+The behavior of time phasing for Time budget lines varies depending on whether the **Resource** field is filled in the budget line or not along with the **Amount method** at budget line level.
 
-After you enable the project cost budget feature, the page is refreshed, and a **Budget match priorities** tab is added.
+If the **Resource** field is filled. 
 
-## Create a project cost budget
+1. The resource's calendar is used to calculate working hours between the start and end date of the budget line.
+1. If the **Amount Method** of the budget line is **Quantity * Price**, where the quantity of hours is defined in budget line, the budgeted hours are distributed in proportion to the working hours according to the budget period.
+1. Amount in budget line details is calculated as **quantity * unit price.**
+1. If the **Amount Method** is **Fixed Price**, where the quantity of hours isn't defined, the budgeted amount is distributed in proportion to the working hours as per the budget period.
+1. Rounding is defaulted to two decimal places.
+1. Any remaining quantity or amount after distribution across the budget period is adjusted with the last budget line detail's amount or quantity so that the total matches the budget.
 
-To create a project cost budget, follow these steps.
+If the **Resource** field is not filled.
 
-1. Sign in to Project Operations.
-1. In the left navigation, change the area to **Projects**.
-1. Select the project to create a budget for.
-1. On the command bar of the project's main form, select **Create Budget**, and then follow these steps:
+1. The project's calendar is used to calculate working days between the start and end date of the budget line.
+1. Working hours are calculated as default 8 hrs per day for all working days at project level.
+1. If the **Amount Method** of the budget line is **Quantity * Price**, where the quantity of hours is defined in budget line, the budgeted hours are distributed in proportion to the working hours according to the budget period.
+1. Amount in budget line details is calculated as **quantity * unit price.**
+1. If the **Amount Method** is **Fixed Price**, where the quantity of hours isn't defined, the budgeted amount is distributed in proportion to the working hours as per the budget period.
+1. Rounding is defaulted to two decimal places.
+1. Any remaining quantity or amount after distribution across the budget period is adjusted with the last budget line detail's amount or quantity so that the total matches the budget.
 
-    - To manually create the budget, select **Manual**. A **Budget** tab is added to the page and includes a blank grid for budget lines. 
-    - To create budget lines, select **New Project Budget Line**.
-    
+### Expense budget line
+The behavior of time phasing for Expense budget lines is determined by **Amount method** at the budget line level. 
 
-For information about how to create cost budget lines, see [Project time budget lines](project-cost-time-budget-line.md), [Project material budget lines](project-cost-material-budget-line.md), and [Project expense budget lines](project-cost-expense-budget-line.md).
+1. If the **Amount Method** of the budget line is **Quantity * Price**, where the quantity of expense is defined in budget line, expense quantity is distributed **equally** across the budget period between start and end date of the budget line. 
+1. The amount in budget line details is calculated as **quantity * unit price.**
+1. If the **Amount Method** is **Fixed Price**, where the quantity of expense isn't defined, the budgeted expense amount is distributed **equally** across the budget period between start and end date of the budget line. 
+1. Rounding is defaulted to two decimal places.
+1. Any remaining quantity or amount after distribution across the budget period is adjusted with the last budget line detail's amount or quantity so that the total matches the budget.
 
+### Material budget line
+The behavior of time phasing for Material budget lines is determined by **Amount method** at the budget line level. 
 
-
+1. If the **Amount Method** is **Quantity * Price**, and the budget line specifies a quantity of material, that quantity is evenly distributed across the budget period between the start and end dates.
+1. The amount in budget line details is calculated as **quantity * unit price.**
+1. If the **Amount Method** is **Fixed Price**, and no quantity of material is defined, the budgeted amount is equally distributed across the budget period between the start and end dates.
+1. For write-in products, rounding is defaulted to two decimal places.
+1. For existing products, the rounding setting on the product is applied.
+1. Any remaining quantity or amount after distribution across the budget period is adjusted with the last budget line detail's amount or quantity so that the total matches the budget.
+	
+	
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 [Microsoft](https://www.microsoft.com)
