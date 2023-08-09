@@ -38,7 +38,7 @@ Once the **vendor invoice** has been successfully posted, it becomes accessible 
 | Resourcing unit cost | This transaction is created for lending legal entity and  synchronize with D365 Finance for integration journal posting.          |
 
 ## Post the integration journal for lending legal entity
-Once the vendor invoice is validated and approved by the **Project Manager** within **Dataverse**, the subsequent step involves the posting of **Project Integration Journals** in D365 Finance specifically for the lending legal entity.
+Once the vendor invoice is validated and approved by the **Project Manager** within **Dataverse**, the subsequent step involves the posting of **Project Integration Journals** in **D365 Finance** specifically for the lending legal entity.
 
 1. In **D365 Finance** Go to **Project management and accounting** > **Periodic** > **Project Operations on Customer Engagement** > **Import from staging** and select to run the periodic process. This periodic process will fill in Project Operations Integration journal.
 2. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the journal lines. The system creates the journal lines for **Inter-organizational sales** and **Resourcing unit cost**.
@@ -46,5 +46,5 @@ Once the vendor invoice is validated and approved by the **Project Manager** wit
 
 Following the completion of the **Project integration journal** posting, the subsequent action entails generating an **Intercompany customer invoice** by the **lending legal entity**, succeeded by the **vendor invoice posting** performed by the **borrowing legal entity**.
 
-Refer **[Create intercompany customer and vendor invoices](/articles/project-accounting/create-intercompany-customer-vendor-invoices.md)**
+To understand the process of creating intercompany customer and vendor invoices, refer to the section on **[Create intercompany customer and vendor invoices](/articles/project-accounting/create-intercompany-customer-vendor-invoices.md)**
 
