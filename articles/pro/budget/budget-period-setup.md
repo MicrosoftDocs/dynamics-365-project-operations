@@ -2,7 +2,7 @@
 title: Budget period setup
 description: This article explains how to setup the budget period at an organization level and also at a project level. Budget period setup is a pre-requisite for time phasing.
 author: niranjanmaski
-ms.date: 25/08/2023
+ms.date: 08/25/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: nimaski
