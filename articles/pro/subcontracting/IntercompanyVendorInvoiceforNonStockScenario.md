@@ -28,7 +28,7 @@ This vendor invoice represents the outsourced labor and expense that were perfor
 10. Select the **Project category**. It can be of type **expenses** or **hours**. If the selected **project category** is of the Hour type, select the role.
 11. Select **Post** to post the vendor invoice.
 
-When the vendor invoice is posted, it becomes available in **Dataverse** for project manager verification and processing. For verification of vendor invoices in Dataverse see **[Verification of vendor invoices](articles/project-accounting/create-intercompany-customer-vendor-invoices.md)**.
+When the vendor invoice is posted, it becomes available in **Dataverse** for project manager verification and processing. For verification of vendor invoices in Dataverse see **[Verification of vendor invoices](/articles/project-accounting/create-intercompany-customer-vendor-invoices.md)**.
 When an intercompany vendor invoice is **confirmed** in **Dataverse**, the following **Actual transactions** are created in **Dataverse**.
 
 | Transaction type  | Description | 
