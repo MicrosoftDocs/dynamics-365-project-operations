@@ -12,11 +12,11 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-To use the functionality that's described in this article, you must enable the feature **Enable subcontract actuals processing with Project Operations for resource based scenarios** and **Enable Intercompany Vendor invoices for resource based/non-stocked scenarios.** in the **Feature management** workspace.
+To utilize the capabilities outlined in this article, it is necessary to activate the features **Enable subcontract actuals processing with Project Operations for resource-based scenarios** and **Enable Intercompany Vendor invoices for resource-based/non-stocked scenarios** within the Feature Management workspace.
 
 ## Create and post intercompany vendor invoice
-USPM, the lending legal entity, must create and post the intercompany vendor invoice for a project from GBPM, the borrowing legal entity. 
-This vendor invoice represents the outsourced labor and expense that were performed by vendors that are paid by USPM.
+**USPM**, the lending legal entity, must create and post the intercompany vendor invoice for a project from **GBPM**, the borrowing legal entity. 
+This **vendor invoice** represents the outsourced labor and expense that were performed by vendors that are paid by USPM.
 
 1. In **Finance**, go to **Accounts payables** > **Invoices** > **Pending vendor invoices**.
 2. On the **Action Pane**, select New to create a **vendor invoice**.
@@ -28,8 +28,7 @@ This vendor invoice represents the outsourced labor and expense that were perfor
 10. Select the **Project category**. It can be of type **expenses** or **hours**. If the selected **project category** is of the Hour type, select the role.
 11. Select **Post** to post the vendor invoice.
 
-When the vendor invoice is posted, it becomes available in **Dataverse** for project manager verification and processing. For verification of vendor invoices in Dataverse see **[Verification of vendor invoices](/articles/pro/subcontracting/VI-Verification.md)**.
-When an intercompany vendor invoice is **confirmed** in **Dataverse**, the following **Actual transactions** are created in **Dataverse**.
+Once the **vendor invoice** has been successfully posted, it becomes accessible within **Dataverse** for verification and processing by the **project manager**. To understand the process of verifying vendor invoices in Dataverse, refer to the section on **[Verification of vendor invoices](/articles/pro/subcontracting/VI-Verification.md)**. Upon confirmation of an **intercompany vendor invoice** in Dataverse, this action triggers the generation of corresponding actual transactions within the Dataverse system.
 
 | Transaction type  | Description | 
 | ------------- | ------------- |
