@@ -41,19 +41,27 @@ Here's how to access these cost actual views:
 1. The **Cost Actuals Unmatched to Budget** view will display the list of cost actuals that haven't been matched to an approved budget line.
 
 > [!NOTE]
-> Two new views on Actuals showing matched and unmatched actuals to a budget lines are also available on the Actuals list page as well.
+> Two new views on Actuals showing matched and unmatched actuals to budget lines are also available on the Actuals list page.
 > 
 
 ## Create budget lines from cost actuals unmatched to a budget line
 
-
 To create a project budget line from the unmatched cost actuals, follow these steps.
+
+> [!NOTE]
+> To perform this action, ensure that the selected budget version is in the Approved status.
+> 
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. Navigate to the **Projects** section in the bottom left-hand navigation.
 1. Click on the **Projects** in the left-hand navigation to view the list of active projects.
+2. Locate and click on the desired project to open the project main form.
+3. In the top ribbon bar click on the **Budget**
+4. Assuming that the budget version is in **Approved** status, you should see an option to **Revise**.
+5. Click on Revise to open a dialog 
+1. The budget period configuration dialog for the selected project will open.
 
-2. Click on the **Budget** tab 
+4. Click on the **Budget** tab 
 1. In the top ribbon bar click on the **Budget** and then select **Create budget period** from the drop-down menu.
 1. The budget period configuration dialog for the selected project will open.
 1. If an organization budget period configuration is set up, the **Fiscal start** and **Week starts on** will be taken from the organization budget period template. Otherwise, they will default to July and Monday.
