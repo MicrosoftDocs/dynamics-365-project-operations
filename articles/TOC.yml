@@ -1062,6 +1062,8 @@
       href: pro/budget/create-delete-project-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Project budget period setup
+      href: pro/budget/budget-period-setup.md
     - name: Project budget line
       items:
       - name: Project time budget lines
@@ -1070,6 +1072,8 @@
         href: pro/budget/project-cost-material-budget-line.md
       - name: Project expense budget lines
         href: pro/budget/project-cost-expense-budget-line.md
+    - name: Time phase project cost budget lines
+      href: pro/budget/time-phase-budget-line.md
     - name: Project budget status management
       href: pro/budget/project-budget-status-mgmt.md
     - name: Budget line match priority
@@ -1078,6 +1082,8 @@
       href: pro/budget/reevaluate-actual-budget-association.md
     - name: Revise a project cost budget
       href: pro/budget/revise-project-cost-budget.md
+    - name: Create budget lines from unmatched actuals
+      href: pro/budget/create-budgetline-from-unmatched-actuals.md
   - name: Resource management
     items: 
     - name: Key concepts
