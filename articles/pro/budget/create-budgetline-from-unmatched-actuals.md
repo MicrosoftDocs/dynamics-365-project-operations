@@ -1,6 +1,6 @@
 ---
 title: Create budget lines from unmatched actuals
-description: This article explains how to create project budget lines from cost actuals which could not be matched to an existing budget lines during revision. 
+description: This article explains how to create project budget lines from cost actuals that which couldn't be matched to an existing budget lines during revision. 
 author: niranjanmaski
 ms.date: 07/25/2023
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: nimaski
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
-This article outlines the process of creating budget lines from unmatched cost actuals. This can occur when actuals don't match existing budget lines based 
+This article outlines the process of creating budget lines from unmatched cost actuals. This situation can occur when actuals don't match existing budget lines based 
 on dimensions or defined budget match priorities. It's also possible due to unforeseen actuals during budget creation and approval.
 
 This feature allows users to create budget lines that correspond to unmatched cost actuals. 
@@ -23,11 +23,11 @@ This choice is available when revising an approved budget line.
 After a project budget is approved, all approved cost actuals related to the project undergo automatic evaluation to match with the planned budget lines. 
 This evaluation occurs periodically. To check the status of this evaluation, you can refer to the **Budget Evaluation Status** field on the Actual main form.
 
-If a cost actual fails to match with a budget line, the evaluation status will show as **Completed**, and the **Budget Evaluation Result** field will display an error message 
-indicating that a matching budget line for the actual could not be found. 
+If a cost actual fails to match with a budget line, the evaluation status shows as **Completed**, and the **Budget Evaluation Result** field displays an error message 
+indicating that a matching budget line for the actual couldn't be found. 
 
-To simplify the process of identifying cost actuals that do not match with budget lines, two default views have been introduced. These views help users quickly locate cost actuals 
-that have not been matched to an approved budget line.
+To simplify the process of identifying cost actuals that don't match with budget lines, two default views have been introduced. These views help users quickly locate cost actuals 
+that haven't been matched to an approved budget line.
 
 Here's how to access these cost actual views:
 
@@ -37,8 +37,8 @@ Here's how to access these cost actual views:
 1. Locate and click on the desired project to open the project main form.
 1. If you don't find the **Actuals** tab listed, click on **Related** and then select the Actuals tab.
 1. Within the Actuals tab, find the view selector drop-down at the top of the grid.
-1. Two new views will be available: **Cost Actuals Matched to Budget** and **Cost Actuals Unmatched to Budget**.
-1. The **Cost Actuals Unmatched to Budget** view will display the list of cost actuals that haven't been matched to an approved budget line.
+1. Two new views are available: **Cost Actuals Matched to Budget** and **Cost Actuals Unmatched to Budget**.
+1. The **Cost Actuals Unmatched to Budget** displays the list of cost actuals that haven't been matched to an approved budget line.
 
 > [!NOTE]
 > Two new views on Actuals showing matched and unmatched actuals to budget lines are also available on the Actuals list page.
