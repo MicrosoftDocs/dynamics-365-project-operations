@@ -1,6 +1,6 @@
 ---
 title: Vendor invoicing - Block vendor payments until approved by Project manager
-description: This topic outlines the functionality within Microsoft Dynamics 365 Project Operations that enables the blocking of vendor payments for vendor invoices until they are approved by the Project Manager.
+description: This topic outlines the functionality within Microsoft Dynamics 365 Project Operations that enables the blocking of vendor payments for vendor invoices until approved by the Project Manager in Dataverse.
 author: mukumarm
 ms.date: 06/07/2023
 ms.topic: article
@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-To use the functionality that's described in this article, you must enable the feature **Enable subcontract actuals processing with Project Operations for resource based scenarios** in the Feature management workspace.
+To use the functionality that's described in this article, you must enable the feature **Enable Hold Vendor Payment for vendor invoices till PM confirms the invoice for resource based/non-stocked scenarios.** in the Feature management workspace.
 
 ## Set up Subcontract vendor invoice verification and block vendor payments parameters 
 
