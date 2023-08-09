@@ -2,7 +2,7 @@
 title: Time phase project cost budget lines 
 description: This article explains how to time phase the project budget lines and create budget line details. 
 author: niranjanmaski
-ms.date: 25/07/2023
+ms.date: 07/28/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: nimaski
