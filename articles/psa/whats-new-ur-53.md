@@ -30,4 +30,4 @@ This is the first release of Project Service Automation to be supported in China
 
 The following issues have been fixed.
 
-**Performance has been improved during creation of Contract Line with many Resource/Transaction Categories.**
+**Performance has been improved during creation of Contract line with many resource/transaction categories.**
