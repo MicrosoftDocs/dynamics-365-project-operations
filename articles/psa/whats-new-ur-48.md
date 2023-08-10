@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 We're pleased to announce the latest update for the Microsoft Dynamics 365 Project Service Automation app. This release includes some important improvements to quality, performance, and usability. It's compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online solutions page, and install the update. For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).
 
-This article lists the features and fixes that are new or changed for Project Service Automation Update Release 48, V3. This version has a build number of V3.10.79.12 and is generally available through a self-update in October 2022.
+This article lists the features and fixes that are new or changed for Project Service Automation Update Release 48, V3. This version has a build number of V3.10.79.12 and is generally available through a self-update in October 2023.
 
 ## Update Release 48
 
@@ -28,5 +28,5 @@ This article lists the features and fixes that are new or changed for Project Se
 
 The following issues have been fixed.
 
-1. Changed "My Past Approvals" filter behavior.
+1. Changed the **My Past Approvals** filter behavior.
 2. Fixed issue where users are able to approve non-project time approvals as an invalid approver.
