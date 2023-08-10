@@ -18,7 +18,7 @@ This article explains how to time phase the project budget lines and create budg
 
 ## What is time phasing of project budget lines
 
-Budget lines are created within a specified start and end date, allocating a specific quantity or amount across a chosen dimensions for budgeting. Time phasing then distributes this budgeted quantity and amount over the time span between the start and end dates of the budget line. 
+Budget lines are created within a specified start and end date, allocating a specific quantity or amount across chosen dimensions for budgeting. Time phasing then distributes this budgeted quantity and amount over the time span between the start and end dates of the budget line. 
 
 This distribution considers work hours according to the work hour calendars, and ensures proportional allocation for time budget lines.
 
@@ -33,7 +33,7 @@ The budget period is necessary to determine work hours accurately. For instructi
 
 ## Automatic time phasing during budget line creation
 
-Once the budget period is configured at the project level, the process of time phasing budget lines and creating budget line details occura automatically, and applies to both cases: when a budget line is [created manually](create-delete-project-budget.md) or when it's [generated from estimates](create-project-budget-from-estimates.md).
+Once the budget period is configured at the project level, the process of time phasing budget lines and creating budget line details occur automatically, and applies to both cases: when a budget line is [created manually](create-delete-project-budget.md) or when it's [generated from estimates](create-project-budget-from-estimates.md).
 
 ## On demand time phasing of budget line
 
@@ -54,7 +54,7 @@ To time phase a budget line, follow these steps.
 
 ## What happens when a budget line is time phased
 
-Time phasing of Time, Material, and Expense budget lines is based on the following explanation of each transaction class.
+Time phasing of Time, Material, and Expense budget lines are based on the following explanation of each transaction class.
 
 ### Time budget line
 
