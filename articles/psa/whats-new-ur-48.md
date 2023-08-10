@@ -28,5 +28,5 @@ This article lists the features and fixes that are new or changed for Project Se
 
 The following issues have been fixed.
 
-1. Changed "My Past Approvals" filter behavior
-2. Fixed issue where users are able to approve non-project time approvals as an invalid approver
+1. Changed "My Past Approvals" filter behavior.
+2. Fixed issue where users are able to approve non-project time approvals as an invalid approver.
