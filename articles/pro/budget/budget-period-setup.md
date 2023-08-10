@@ -21,9 +21,9 @@ This article explains how to set up a budget period, both at an organizational l
 
 Budget period defines a week, month, quarter, and fiscal periods in your organization. 
 
-For example, in some countries, fiscal and quarter one starts on the first day in April.  In other countries, the fiscal and quarter one starts the first day in January. Work week may start on Monday, or for some may start on Sunday. A budget period defines these fiscal, quarter, month, and week starts at an organization level or at project level.
+For example, in some countries, fiscal and quarter one starts on the first day in April.  In other countries, the fiscal and quarter one starts the first day in January. Work week may start on Monday, or for some may start on Sunday. A budget period defines fiscal, quarter, month, and week starts at an organization level or at project level.
 
-A budget period that is set up at an organization level is available for consumption at a project level. However, based on a specific project needs, a project manager can override the organization budget period setup at a project level to cater to a specific project's needs. 
+A budget period that is set up at an organization level is available for consumption at a project level. However, based on a specific project's needs, a project manager can override the organization budget period setup at a project level to cater to a specific project's needs. 
 
 ## Set up a budget period at an Organization level
 
@@ -34,7 +34,7 @@ To set up or edit a budget period at an organization level, follow these steps.
 1. From the **General** category, select **Organizational Units**.
 1. Find and select the desired organizational unit to open the main page.
 1. Select the **Budget Period** tab. If there's no existing budget period in the grid, select **+ New Budget Period** to create one.
-1. Select Save & Close. You'll see a budget period line created in the grid.
+1. Select **Save & Close**. A budget period line is created in the grid.
 1. To view or modify the budget period details, double-click on the budget period line.
 1. Make any necessary updates, and select **Save** or **Save & Close** in the top ribbon bar. Depending on your configuration updates, the budget period detail line is extended or deleted and created again.
 
@@ -43,8 +43,8 @@ Refer to the following table for details of the fields.
 | Field | Requirement | Description | Comments |
 |---|---|---|--|
 | Name | Optional | The name of the budget period. | Give a name of your choice to identify the budget period. |
-| Fiscal start | Mandatory | Specifies the month when the fiscal year begins. <p>This month is also considered as a the quarter one start for the budget period. </p>  <p> For example, if the fiscal start is January, then quarter one is January through March. </p>| Updates to this field delete and create budget period details. |
-| Week starts on | Mandatory | Specifies the day of the week that the workweek starts. <p> The first occurrence of that weekday in the month is considered as the start of the month.</p> <p> For example, if **Week starts on** is set to Monday, the first Monday of a month is considered the start of the month for period calculation. </p>  | Updates to this field delete and create budget period details. |
+| Fiscal start | Mandatory | Specifies the month when the fiscal year begins. <p>This month is also considered the quarter one start for the budget period. </p>  <p> For example, if the fiscal start is January, then quarter one is January through March. </p>| Updates to this field delete and create budget period details. |
+| Week starts on | Mandatory | Specifies the day of the week that the workweek starts. <p> The first occurrence of that weekday in the month is considered the start of the month.</p> <p> For example, if **Week starts on** is set to Monday, the first Monday of a month is considered the start of the month for period calculation. </p>  | Updates to this field delete and create budget period details. |
 | Start year | Mandatory | Specifies the calendar year from which the budget period creation commences. <p> For example, if the **Start year** is 2023, the budget period starts on the Year and month of Start year and Start month.  | Updates to this field extend the budget period details. |
 | Start month | Mandatory | Defines the month of the calendar year from when the budget period creation starts. <p> For example, if the **Start year** is 2023 and the **Start month** is July, the budget period starts July of 2023. | Updates to this field extend the budget period details. |
 | End year | Mandatory | Specifies the calendar year up to which the budget period is created. <p> For example, if the **Start year** is 2023, the budget period starts on the Year and month of Start year and Start month.  | Updates to this field extend the budget period details. |
@@ -76,8 +76,8 @@ Refer to the following table for details of the fields.
 | Field | Requirement | Description | Comments |
 |---|---|---|--|
 | Name | Optional | The name of the budget period. | Give a name of your choice to identify the budget period. |
-| Fiscal start | Mandatory | Specifies the month when the fiscal year begins. <p>This month is also considered as a quarter one start for budget period. </p>  <p> For example, if the fiscal start is January, the quarter one is January through March. </p>| Updates to this field delete and create budget period details. |
-| Week starts on | Mandatory | Specifies the day of the week when the workweek starts. <p> The first occurrence of that weekday in the month is considered the start of the month.</p> <p> For example, if **Week starts on** is set to Monday, the first Monday of a month is considered as the start of the month for period calculation. </p>  | Updates to this field delete and create budget period details. |
+| Fiscal start | Mandatory | Specifies the month when the fiscal year begins. <p>This month is also considered the quarter one start for budget period. </p>  <p> For example, if the fiscal start is January, the quarter one is January through March. </p>| Updates to this field delete and create budget period details. |
+| Week starts on | Mandatory | Specifies the day of the week when the workweek starts. <p> The first occurrence of that weekday in the month is considered the start of the month.</p> <p> For example, if **Week starts on** is set to Monday, the first Monday of a month is considered the start of the month for period calculation. </p>  | Updates to this field delete and create budget period details. |
 | Start year | Mandatory | Specifies the calendar year from which the budget period creation commences. <p> For example, if the **Start year** is 2023, the budget period starts on the year and month of the **Start year** and **Start month**. | Updates to this field extend the budget period details. |
 | Start month | Mandatory | Defines the month of the calendar year from when the budget period creation starts. <p> For example, if the **Start year** is 2023 and the **Start month** is July, the budget period starts July of 2023. </p>  | Updates to this field extend the budget period details. |
 | End year | Mandatory | Specifies the calendar year up to which the budget period is created. <p> For example, if the **Start year** is 2023, the budget period starts on the year and month of the **Start year** and **Start month**.  | Updates to this field extend the budget period details. |
