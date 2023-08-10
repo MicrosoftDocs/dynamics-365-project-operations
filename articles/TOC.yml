@@ -1632,6 +1632,10 @@
     items:
     - name: Update Release schedule for Project Service 3.x
       href: psa/version-history-ps.md
+    - name: What's new or changed in Update release 53, V3
+      href: psa/whats-new-ur-53.md
+    - name: What's new or changed in Update release 48, V3
+      href: psa/whats-new-ur-48.md
     - name: What's new or changed in Update release 47, V3
       href: psa/whats-new-ur-47.md
     - name: What's new or changed in Update release 45, V3
