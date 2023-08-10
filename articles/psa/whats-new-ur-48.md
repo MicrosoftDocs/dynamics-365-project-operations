@@ -5,7 +5,7 @@ author: aarondodell-msft
 ms.custom: dyn365-projectservice
 ms.date: 08/09/2023
 ms.topic: article
-ms.author: aarondodell-msft
+ms.author: aarondodell
 audience: Admin
 search.audienceType: 
   - admin
