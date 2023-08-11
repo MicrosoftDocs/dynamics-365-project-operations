@@ -1,6 +1,6 @@
 ---
 title: Create budget lines from unmatched actuals
-description: This article explains how to create project budget lines from cost actuals that which couldn't be matched to an existing budget line during revision. 
+description: This article explains how to create project budget lines from cost actuals that could not be matched to an existing budget line during revision.
 author: niranjanmaski
 ms.date: 07/25/2023
 ms.topic: article
@@ -12,52 +12,53 @@ ms.author: nimaski
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
-This article explains the process of creating budget lines from unmatched cost actuals. This situation can occur when actuals don't match existing budget lines based on dimensions or defined budget match priorities. It's also possible due to unforeseen actuals during budget creation and approval.
+This article explains the process of creating budget lines from unmatched cost actuals. You might have to use this process when actuals don't match existing budget lines, based on dimensions or defined budget match priorities. You might also have to use it because of unforeseen actuals during budget creation and approval.
 
-This feature allows users to create budget lines that correspond to unmatched cost actuals. 
-This choice is available when revising an approved budget line.
+This feature lets users create budget lines that correspond to unmatched cost actuals. This option is available when an approved budget line is revised.
 
-## How to see cost actuals unmatched to a budget line
+## How to identify cost actuals that aren't matched to a budget line
 
-After a project budget is approved, all approved cost actuals related to the project undergo automatic evaluation to match with the planned budget lines. This evaluation occurs periodically. To check the status of this evaluation, you can refer to the **Budget Evaluation Status** field on the **Actual** main page.
+After a project budget is approved, automatic evaluation is periodically done to match all approved project-related cost actuals to the planned budget lines. To determine the status of this evaluation, review the **Budget Evaluation Status** field on the **Actual** main page.
 
-If a cost actual fails to match with a budget line, the evaluation status shows as **Completed**, and the **Budget Evaluation Result** field displays an error message that indicates a matching budget line for the actual couldn't be found. 
+If a cost actual can't be matched to a budget line, the evaluation status is **Completed**, and the **Budget Evaluation Result** field shows an error message that indicates that a matching budget line could not be found for the actual.
 
-To simplify the process of identifying cost actuals that don't match with budget lines, two default views have been introduced. These views help you quickly locate cost actuals that haven't been matched to an approved budget line.
-
-To access these cost actual views, follow these steps.
+To help you quickly and easily find cost actuals that haven't been matched to an approved budget line, two default views have been introduced: **Cost Actuals Matched to Budget** and **Cost Actuals Unmatched to Budget**. Follow these steps to access the new views on the project main page.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
-1. Navigate to the **Projects** section in the bottom left-hand navigation.
+1. Go to the **Projects** section in the lower-left navigation.
 1. Select **Projects** to view the list of active projects.
-1. Locate and select the desired project to open the project main page.
-1. If you don't find the **Actuals** tab listed, select **Related**, and then select the **Actuals** tab.
-1. Within the **Actuals** tab, locate the view selector dropdown at the top of the grid.
-1. Two new views are available: **Cost Actuals Matched to Budget** and **Cost Actuals Unmatched to Budget**.
-1. The **Cost Actuals Unmatched to Budget** displays the list of cost actuals that haven't been matched to an approved budget line.
+1. Find and select the desired project to open the project main page.
+1. On the **Actuals** tab, find the view selector (dropdown menu) above the grid. Notice that it includes the two new views: **Cost Actuals Matched to Budget** and **Cost Actuals Unmatched to Budget**.
+
+    > [!TIP]
+    > If the **Actuals** tab isn't shown, select **Related**, and then select the **Actuals** tab.
+
+1. To view the list of cost actuals that haven't been matched to an approved budget line, select the **Cost Actuals Unmatched to Budget** view in the view selector.
 
 > [!NOTE]
-> The two new views on the **Actuals** tab that show matched and unmatched actuals to budget lines are also available on the **Actuals list** page.
+> The two new views are also available on the **Actuals list** page.
 
-## Create budget lines from cost actuals unmatched to a budget line
+## Create budget lines from cost actuals that aren't matched to a budget line
 
 To create a project budget line from the unmatched cost actuals, follow these steps.
 
 > [!NOTE]
-> To perform this action, ensure that the selected budget version is in the **Approved** status.
+> Before you complete this procedure, ensure that the budget version is in **Approved** status.
 
-1. Sign in to Microsoft Dynamics 365 Project Operations.
-1. Navigate to the **Projects** section in the bottom left-hand navigation.
+1. Sign in to Project Operations.
+1. Go to the **Projects** section in the lower-left navigation.
 1. Select **Projects** to view the list of active projects.
-1. Locate and select the desired project to open the project main page.
-1. In the top ribbon bar select **Budget**.
-1. If the budget version is in **Approved** status, you should see an option to **Revise**.
-1. Select **Revise** to open a dialog box.
-1. Mark the option **Create budget lines from unbudgeted actuals** as **Yes**.
-1. Select **Revise** to start the revision.
-1. After revision, a new budget version is created in **Draft** status.
-1. The grid displays new budget lines from unbudgeted actuals alongside previous budget lines.
-1. For a revision summary, review the **Timeline** section of the **Project summary** tab.
+1. Find and select the desired project to open the project main page.
+1. On the Action Pane, select **Budget**.
 
+    If the budget version is in **Approved** status, a **Revise** option should be available.
+
+1. Select **Revise** to open a dialog box.
+1. Set the **Create budget lines from unbudgeted actuals** option to **Yes**.
+1. Select **Revise** to start the revision.
+
+    After the revision is completed, a new budget version is created in **Draft** status. The grid shows new budget lines from unbudgeted actuals alongside previous budget lines.
+
+1. For a revision summary, review the **Timeline** section of the **Project summary** tab.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
