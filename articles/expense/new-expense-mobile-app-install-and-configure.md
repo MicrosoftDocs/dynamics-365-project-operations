@@ -164,7 +164,7 @@ To configure the Expense Core Service Connector, follow these steps.
     1. In the **Base URL** field, leave the default value as is (**/api/data/v9.2/**).
     1. Select the **Security** button at the bottom of the page or the **2. Security** tab at the top.
 
-    :::image type="content" source="media/newexpensemobile/17.ConnectorGeneralTab.png" alt-text="Screenshot that shows the Scheme field group, the Host field, and the Security button on the 1. General tab of the Connector Configuration page.":::
+    :::image type="content" source="media/newexpensemobile/17.ConnectorGeneralTab.png" alt-text="Screenshot that shows the Scheme field group, the Host field, and the Security button on the one. General tab of the Connector Configuration page.":::
 
 1. On the **2. Security** tab, follow these steps:
 
@@ -184,14 +184,14 @@ To configure the Expense Core Service Connector, follow these steps.
 
     1. Select **Update connector** at the top of the page.
 
-    :::image type="content" source="media/newexpensemobile/19.ConnectorUpdate.png" alt-text="Screenshot that shows the fields and the Update connector button on the 2. Security tab of the Connector Configuration page.":::
+    :::image type="content" source="media/newexpensemobile/19.ConnectorUpdate.png" alt-text="Screenshot that shows the fields and the Update connector button on the two. Security tab of the Connector Configuration page.":::
 
 1. The Expense Core Service Connector is now configured for use by the mobile app. Select **Close**, and close the Power Automate portal.
 
 ## Refresh virtual entities in Dataverse
 Once the code components for canvas apps have been enabled, the next crucial step is to enable the virtual entities used in the Expense mobile app. This action ensures that the canvas app can utilize the most up-to-date metadata of these virtual entities to enhance the overall functionality and user experience of the app. For more information, see [Refresh virtual entities](https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/9ae4c7446f720f42f694048cd3561515569b7e98/articles/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md#refresh-virtual-entity-metadata)
 
-Below is the list of entities that need to be refreshed.
+The following list shows the entities that need to be refreshed.
 
 - CurrencyEntity
 - ExpenseFieldsVisibilityEntity
