@@ -26,7 +26,7 @@ Following is the **Dual write entity map** used for **vendor invoice**.
 ![Dual write maps](articles/pro/media/BlockvendorPaymentDualWrite.png)
 
 Following is the **Dual write** field mapping used for **vendor invoice**.
-
+![Dual write field mapping](articles/pro/media/VendorInvoiceDualwritefieldmapping.jpg)
 
 ## Set up Subcontract vendor invoice verification and block vendor payments parameters 
 
