@@ -12,7 +12,15 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-To use the functionality that's described in this article, you must enable the feature **Enable Hold Vendor Payment for vendor invoices till PM confirms the invoice for resource based/non-stocked scenarios.** in the Feature management workspace.
+To use the functionality that's described in this article, you must enable the feature **Enable Hold Vendor Payment for vendor invoices till PM confirms the invoice for resource based/non-stocked scenarios.** in the D365 Finance Feature management workspace.
+
+## Minimum version required
+The following versions are required to use this feature for **Microsoft Dynamics 365 Project Operations non-stocked/resource-based scenarios**
+
+**Project Operations Dataverse** version 4.41.0.45 or later, **D365 Finance environment** version 10.0.36 or later
+
+## Run dual-write maps for vendor invoice header
+Make sure that the mapping for **Project Operations integration project vendor invoice export entity V2** and **msdyn_projectvendorinvoices** uses version 1.0.0.0 or later.
 
 ## Set up Subcontract vendor invoice verification and block vendor payments parameters 
 
