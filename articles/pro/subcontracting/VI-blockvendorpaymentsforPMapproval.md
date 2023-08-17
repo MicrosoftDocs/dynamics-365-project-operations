@@ -1,8 +1,8 @@
 ---
 title: Vendor invoicing - Block vendor payments until approved by Project manager
-description: This topic outlines the functionality within Microsoft Dynamics 365 Project Operations that enables the blocking of vendor payments for vendor invoices until approved by the Project Manager in Dataverse.
+description: This article delves into the features present in Microsoft Dynamics 365 Project Operations that facilitate the withholding of vendor payments for vendor invoices until they receive approval from the Project Manager within Dataverse. Situations arise where Project Manager authorization is necessary prior to initiating vendor payment. During these instances, accounts payable clerks document the invoice and  await the Project Manager's approval before proceeding with payment processing.
 author: mukumarm
-ms.date: 06/07/2023
+ms.date: 08/17/2023
 ms.topic: article
 ms.reviewer: johnmichalak 
 ms.author: mukumarm
