@@ -22,7 +22,11 @@ The following versions are required to use this feature for **Microsoft Dynamics
 ## Run dual-write maps for vendor invoice header
 Make sure that the mapping for **Project Operations integration project vendor invoice export entity V2** and **msdyn_projectvendorinvoices** uses version 1.0.0.0 or later.
 
+Following is the **Dual write entity map** used for **vendor invoice**. 
 ![Dual write maps](articles/pro/media/BlockvendorPaymentDualWrite.png)
+
+Following is the **Dual write** field mapping used for **vendor invoice**.
+
 
 ## Set up Subcontract vendor invoice verification and block vendor payments parameters 
 
