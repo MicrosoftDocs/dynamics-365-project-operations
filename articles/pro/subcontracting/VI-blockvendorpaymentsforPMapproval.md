@@ -17,13 +17,13 @@ To use the functionality that's described in this article, you must enable the f
 ## Minimum version required
 The following versions are required to use this feature for **Microsoft Dynamics 365 Project Operations non-stocked/resource-based scenarios**
 
-**Project Operations Dataverse** version 4.41.0.45 or later, **D365 Finance environment** version 10.0.36 or later
+**Project Operations Dataverse** version 4.76.0.0 or later, **D365 Finance** version 10.0.36 or later
 
 ## Run dual-write maps for vendor invoice header
 Make sure that the mapping for **Project Operations integration project vendor invoice export entity V2** and **msdyn_projectvendorinvoices** uses version 1.0.0.0 or later.
 
 Following is the **Dual write entity map** used for **vendor invoice**. 
-![Dual write maps](articles/pro/media/BlockvendorPaymentDualWrite.png)
+![Dual write maps](pro/media/BlockvendorPaymentDualWrite.png)
 
 Following is the **Dual write** field mapping used for **vendor invoice**.
 ![Dual write field mapping](articles/pro/media/VendorInvoiceDualwritefieldmapping.jpg)
