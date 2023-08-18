@@ -8,6 +8,8 @@ ms.reviewer: johnmichalak
 ms.author: mukumarm
 ---
 
+# Vendor invoicing - Block vendor payments until approved by Project manager
+
 [!include [banner](../../includes/dataverse-preview.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
@@ -23,10 +25,10 @@ The following versions are required to use this feature for **Microsoft Dynamics
 Make sure that the mapping for **Project Operations integration project vendor invoice export entity V2** and **msdyn_projectvendorinvoices** uses version 1.0.0.0 or later.
 
 Following is the **Dual write entity map** used for **vendor invoice**. 
-![Dual write maps](pro/media/BlockvendorPaymentDualWrite.png)
+![Dual write maps](../media/BlockvendorPaymentDualWrite.png)
 
 Following is the **Dual write** field mapping used for **vendor invoice**.
-![Dual write field mapping](articles/pro/media/VendorInvoiceDualwritefieldmapping.jpg)
+![Dual write field mapping](../media/VendorInvoiceDualwritefieldmapping.jpg)
 
 ## Set up Subcontract vendor invoice verification and block vendor payments parameters 
 
