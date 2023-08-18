@@ -1,11 +1,11 @@
 ---
 title: Install and configure the Expense mobile app 
 description: This article explains how to install and configure the Expense mobile app.
-author: ramagadu
-ms.date: 05/26/2023
+author: mukumarm
+ms.date: 08/11/2023
 ms.topic: how-to
 ms.reviewer: johnmichalak
-ms.author: ramagadu
+ms.author: mukumarm
 ms.custom: bap-template
 ---
 
@@ -34,6 +34,9 @@ To enable the Expense mobile app in Dynamics 365 Finance, follow these steps.
 
 1. In your Dynamics 365 Finance environment, go to **Workspaces** \> **Feature Management**.
 1. In the list, find and select **feature Use expense mobile application for intuitive expense entry experience**, and then select **Enable now**.
+
+## Enable Code components for canvas app
+Once you enable the expense mobile app in **Dynamics 365 Finance**, the next step is to activate the necessary code components for localization controls. This step is required to display the localized labels on the Expense mobile app and must be performed before installing the Expense mobile app. For more information, see [Enable the Power Apps component framework feature](https://github.com/MicrosoftDocs/powerapps-docs/blob/8bdb6cf00e2c10f73beafd70c2f694edc84f239a/powerapps-docs/developer/component-framework/component-framework-for-canvas-apps.md)
 
 ## Install the Expense mobile app in Dataverse
 
@@ -161,7 +164,7 @@ To configure the Expense Core Service Connector, follow these steps.
     1. In the **Base URL** field, leave the default value as is (**/api/data/v9.2/**).
     1. Select the **Security** button at the bottom of the page or the **2. Security** tab at the top.
 
-    :::image type="content" source="media/newexpensemobile/17.ConnectorGeneralTab.png" alt-text="Screenshot that shows the Scheme field group, the Host field, and the Security button on the 1. General tab of the Connector Configuration page.":::
+    :::image type="content" source="media/newexpensemobile/17.ConnectorGeneralTab.png" alt-text="Screenshot that shows the Scheme field group, the Host field, and the Security button on the one. General tab of the Connector Configuration page.":::
 
 1. On the **2. Security** tab, follow these steps:
 
@@ -181,16 +184,44 @@ To configure the Expense Core Service Connector, follow these steps.
 
     1. Select **Update connector** at the top of the page.
 
-    :::image type="content" source="media/newexpensemobile/19.ConnectorUpdate.png" alt-text="Screenshot that shows the fields and the Update connector button on the 2. Security tab of the Connector Configuration page.":::
+    :::image type="content" source="media/newexpensemobile/19.ConnectorUpdate.png" alt-text="Screenshot that shows the fields and the Update connector button on the two. Security tab of the Connector Configuration page.":::
 
 1. The Expense Core Service Connector is now configured for use by the mobile app. Select **Close**, and close the Power Automate portal.
+
+## Refresh virtual entities in Dataverse
+Once the code components for canvas apps have been enabled, the next crucial step is to enable the virtual entities used in the Expense mobile app. This action ensures that the canvas app can utilize the most up-to-date metadata of these virtual entities to enhance the overall functionality and user experience of the app. For more information, see [Refresh virtual entities](https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/9ae4c7446f720f42f694048cd3561515569b7e98/articles/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md#refresh-virtual-entity-metadata)
+
+The following list shows the entities that need to be refreshed.
+
+- CurrencyEntity
+- ExpenseFieldsVisibilityEntity
+- LogisticsAddressCountryRegionEntity
+- LogisticsAddressCountryRegionTranslationEntity
+- LogisticsAddressStateEntity
+- TrvAddressZipcodeEntity
+- TrvAdminCustomFieldsEntity
+- TrvExpenseCategoryEntity
+- TrvExpMobileActivitiesEntity
+- TrvExpMobileAddressCityEntity
+- TrvExpMobileCompanyinfoEntity
+- TrvExpMobileDocumentEntity
+- TrvExpMobileExpenseEntity
+- TrvExpMobileExpenseFieldVisibilityEntity
+- TrvExpMobileItemTaxEntity
+- TrvExpMobileProjEntity
+- TrvExpMobileProjLinePropertyEntity
+- TrvExpMobileReportEntity
+- TrvExpMobileTaxGroupEntity
+- TrvPayMethodEntity
 
 ## Grant access to the mobile app in Dataverse
 
 After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Expense mobile app is a canvas app. To share it, follow the instructions in [Share a canvas app with your organization](/power-apps/maker/canvas-apps/share-app).
 
-Each relevant user must be assigned a **Basic user** security role that lets them create a connection for the custom connector. You can assign this role to a Dataverse group team. Then, any user who's a member of that team also has the role. Alternatively, you can assign the role directly to a user.
+Each relevant user must be assigned a **Basic user** and **Expense mobile user** security role in Dataverse that lets them create a connection for the custom connector. You can assign this role to a Dataverse group team. Then, any user who's a member of that team also has the role. Alternatively, you can assign the role directly to a user.
 
 - To assign a role to a group team, follow the instructions in [Manage the security roles of a team](/power-platform/admin/manage-group-teams#manage-the-security-roles-of-a-team). We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](/power-platform/admin/manage-teams#manage-team-members).
 - To assign a role directly to a user, follow the instructions in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
+
+
 
