@@ -27,7 +27,7 @@ To use this feature for **Microsoft Dynamics 365 Project Operations non-stocked/
 
 Make sure that the mapping for **Project Operations integration project vendor invoice export entity V2** and **msdyn_projectvendorinvoices** uses version 1.0.0.0 or later.
 
-The following screenshost shows the **Dual write entity map** used for **vendor invoice**. 
+The following screenshot shows the **Dual write entity map** used for **vendor invoice**. 
 
 ![A screenshot of the Dual write maps](../media/BlockvendorPaymentDualWrite.png)
 
@@ -40,7 +40,7 @@ The following screenshot shows the **Dual write** field mapping used for **vendo
 1. In Dynamics 365 Finance, go to **Project management and accounting** > **Setup** > **Project management and accounting parameters**.
 1. Select the **Financial** tab.
 1. If vendor invoice verification is required in Dataverse by the Project manager, the **Set Manual verification** field must be set to **Yes**. This action activates the **Block vendor payments till PM confirmation** field.
-1. If the vendor payment needs to be blocked untill the Program manager approves the vendor invoice in Dataverse, set **Block vendor payments till PM confirmation** to **Yes**. This field is activated only if **Manual verification by PM is required** is set to **Yes**.
+1. If the vendor payment needs to be blocked until the Program manager approves the vendor invoice in Dataverse, set **Block vendor payments till PM confirmation** to **Yes**. This field is activated only if **Manual verification by PM is required** is set to **Yes**.
 
 ## Create and post subcontract vendor invoices
 
@@ -52,13 +52,13 @@ When an Accounts payable clerk receives an invoice from the subcontractor, a new
 1. Select the **invoice date**.
 1. On the **Header** tab, validate that **Manual verification by PM is required** and **Block vendor payments till PM confirmation** are defaulted from the **Project management and accounting parameters** form. However, it can be changed at vendor invoice level.
 1. Set the **Manual verification by PM is required** and **Block vendor payments till PM confirmation** fields to **Yes**.
-1. On the **Invoice line** fast tab, select **Add line** to create a **vendor invoice line**.
+1. On the **Invoice line** FastTab, select **Add line** to create a **vendor invoice line**.
 1. Select the **Procurement category** that was created for the subcontract lines, and enter the **unit price**, **unit of measurement**, and **quantity**.
 1. In the **Vendor invoice lines** section, on the **Project** tab, select the project that the subcontractor shares the subcontract invoice against.
 1. Select the **Project category**. It can be of any type (Item, Expense, Materials, or Hours). If the selected **project category** is of the **Hour** type, select the role.
 1. Select **Post** to post the vendor invoice.
 
-When the vendor invoice is posted, it becomes available in Dataverse for Project manager verification and processing. For verification of vendor invoices in Dataverse, see [Confirm project vendor invoices](confirm-a-project-vendor-invoice.md).
+When the vendor invoice is posted, it becomes available in Dataverse for Project manager verification and processing. For verification of vendor invoices in Dataverse, see [Confirm project vendor invoices](../procurement/confirm-a-project-vendor-invoice.md).
 
 ## Enable vendor invoice for payment
 
