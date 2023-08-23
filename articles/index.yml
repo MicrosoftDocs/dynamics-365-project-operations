@@ -37,7 +37,7 @@ highlightedContent:
     # Card
     - title: Troubleshoot
       itemType: concept
-      url: project-management/projectplanninguifaq.md
+      url: troubleshooting/troubleshooting-overview.md
 
       
 additionalContent: 
