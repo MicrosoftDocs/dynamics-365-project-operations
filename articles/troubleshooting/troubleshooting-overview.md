@@ -30,9 +30,9 @@ This article contains a list of resources by deployment type that you can use to
 
 ## Dynamics 365 Project Service Automation
 
-- [Why is the price defaulting to zero on expense cost actuals](../psa/faq-zero-price-expense-cost-actuals.md).
-- [Why is the price defaulting to zero on expense sales actuals?](../psa/faq-zero-price-expense-sales-actuals.md).
-- [Why is the price defaulting to zero on time cost actuals?](../psa/faq-zero-price-time-cost-actuals.md).
-- [Why is price defaulting to zero on time sales actuals?](../psa/faq-zero-price-time-sales-actuals.md).
-- [Why can’t I delete records from the Actuals entity?](../psa/faq-deleting-actuals.md).
+- [Why is the price defaulting to zero on expense cost actuals](../psa/faq-zero-price-expense-cost-actuals.md)
+- [Why is the price defaulting to zero on expense sales actuals?](../psa/faq-zero-price-expense-sales-actuals.md)
+- [Why is the price defaulting to zero on time cost actuals?](../psa/faq-zero-price-time-cost-actuals.md)
+- [Why is price defaulting to zero on time sales actuals?](../psa/faq-zero-price-time-sales-actuals.md)
+- [Why can’t I delete records from the Actuals entity?](../psa/faq-deleting-actuals.md)
 
