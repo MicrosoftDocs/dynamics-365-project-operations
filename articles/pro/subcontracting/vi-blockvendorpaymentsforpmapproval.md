@@ -40,7 +40,7 @@ The following screenshot shows the dual-write field mapping that's used for vend
 ## Set up parameters for subcontract vendor invoice verification and vendor payment blocking
 
 1. In Finance, go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
-1. On the **Financial** tab, if the project manager must verify the vendor invoice in Dataverse, Mark the **Set Manual verification by PM** option to **Yes**. The **Block vendor payments till PM confirmation** field becomes available.
+1. On the **Financial** tab, if the project manager must verify the vendor invoice in Dataverse, Mark the **Manual verification by PM is required** option to **Yes**. The **Block vendor payments till PM confirmation** field becomes available.
 1. If the vendor payment must be blocked until the program manager approves the vendor invoice in Dataverse, set the **Block vendor payments till PM confirmation** option to **Yes**. This field is available only if the **Manual verification by PM is required** option is set to **Yes**.
 
 ## Create and post subcontract vendor invoices
