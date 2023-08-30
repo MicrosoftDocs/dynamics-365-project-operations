@@ -1,6 +1,6 @@
 ---
 title: Intercompany vendor invoice
-description: This topic outlines the functionality within Microsoft Dynamics 365 Project Operations that enables the intercompany vendor invoices for Project operations non
+description: This topic outlines the functionality within Microsoft Dynamics 365 Project Operations that enables the intercompany vendor invoices for Project operations resource based/non-stock scenarios.
 author: mukumarm
 ms.date: 08/09/2023
 ms.topic: article
@@ -14,6 +14,13 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 To utilize the capabilities outlined in this article, it is necessary to activate the features **Enable subcontract actuals processing with Project Operations for resource-based scenarios** and **Enable Intercompany Vendor invoices for resource-based/non-stocked scenarios** within the Feature Management workspace.
 
+## Minimum version required
+
+To use this feature for **Microsoft Dynamics 365 Project Operations non-stocked/resource-based scenarios**, the following versions are required:
+
+**Project Operations Dataverse** version 4.76.0.0 or later.
+**Dynamics 365 Finance** version 10.0.38 or later.
+  
 ## Create and post intercompany vendor invoice
 **USPM**, the lending legal entity, must create and post the intercompany vendor invoice for a project from **GBPM**, the borrowing legal entity. 
 This **vendor invoice** represents the outsourced labor and expense that were performed by vendors that are paid by USPM.
