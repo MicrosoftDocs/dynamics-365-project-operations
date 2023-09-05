@@ -35,6 +35,15 @@ To enable the Expense mobile app in Dynamics 365 Finance, follow these steps.
 1. In your Dynamics 365 Finance environment, go to **Workspaces** \> **Feature Management**.
 1. In the list, find and select **feature Use expense mobile application for intuitive expense entry experience**, and then select **Enable now**.
 
+## Enable the users in Dynamics 365 Finance
+
+To enable the users for Expense mobile app access, follow these steps in Dynamics 365 Finance.
+
+1. In your Dynamics 365 Finance environment, go to **System administration** > **Users** > **Users**. Select the **user**.
+2. Select the **Person** field to default the **employee** association with the user. **Employee** should have **employment** in the **default legal entity** mapped with the user.
+3. Assign the **Employee** role for the user.
+4. Click **User Options** to open the user default settings. **Go to** the **Preferences tab**. **Set up** the Default **company** for the user.
+   
 ## Enable Code components for canvas app
 Once you enable the expense mobile app in **Dynamics 365 Finance**, the next step is to activate the necessary code components for localization controls. This step is required to display the localized labels on the Expense mobile app and must be performed before installing the Expense mobile app. For more information, see [Enable the Power Apps component framework feature](https://github.com/MicrosoftDocs/powerapps-docs/blob/8bdb6cf00e2c10f73beafd70c2f694edc84f239a/powerapps-docs/developer/component-framework/component-framework-for-canvas-apps.md)
 
