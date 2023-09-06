@@ -35,14 +35,15 @@ To enable the Expense mobile app in Dynamics 365 Finance, follow these steps.
 1. In your Dynamics 365 Finance environment, go to **Workspaces** \> **Feature Management**.
 1. In the list, find and select **feature Use expense mobile application for intuitive expense entry experience**, and then select **Enable now**.
 
-## Enable the users in Dynamics 365 Finance
+## Enable users in Dynamics 365 Finance
 
-To enable the users for Expense mobile app access, follow these steps in Dynamics 365 Finance.
+To enable users for the Expense mobile app access, follow these steps in Dynamics 365 Finance.
 
-1. In your Dynamics 365 Finance environment, go to **System administration** > **Users** > **Users**. Select the **user**.
-2. Select the **Person** field to default the **employee** association with the user. **Employee** should have **employment** in the **default legal entity** mapped with the user.
-3. Assign the **Employee** role for the user.
-4. Click **User Options** to open the user default settings. **Go to** the **Preferences tab**. **Set up** the Default **company** for the user.
+1. In your Dynamics 365 Finance environment, go to **System administration** > **Users** > **Users**.
+1. Select the **user**.
+1. Select the **Person** field to default the **employee** association with the user. **Employee** should have **employment** in the **default legal entity** mapped with the user.
+1. Assign the **Employee** role for the user.
+1. Select **User Options** to open the user default settings. **Go to** the **Preferences tab**. **Set up** the Default **company** for the user.
    
 ## Enable Code components for canvas app
 Once you enable the expense mobile app in **Dynamics 365 Finance**, the next step is to activate the necessary code components for localization controls. This step is required to display the localized labels on the Expense mobile app and must be performed before installing the Expense mobile app. For more information, see [Enable the Power Apps component framework feature](https://github.com/MicrosoftDocs/powerapps-docs/blob/8bdb6cf00e2c10f73beafd70c2f694edc84f239a/powerapps-docs/developer/component-framework/component-framework-for-canvas-apps.md)
@@ -185,7 +186,7 @@ To configure the Expense Core Service Connector, follow these steps.
 
         | Field | Value |
         |---|---|
-        | Choose what authentication is implemented by your API | **OAuth 2.0** |
+        | Choose what authentication is implemented using your API | **OAuth 2.0** |
         | Identity Provider | **Azure Active Directory** |
         | Enable Service Principal support | Cleared |
         | Login URL | `https://login.windows.net` |
@@ -195,7 +196,7 @@ To configure the Expense Core Service Connector, follow these steps.
 
     :::image type="content" source="media/newexpensemobile/19.ConnectorUpdate.png" alt-text="Screenshot that shows the fields and the Update connector button on the two. Security tab of the Connector Configuration page.":::
 
-1. The Expense Core Service Connector is now configured for use by the mobile app. Select **Close**, and close the Power Automate portal.
+1. The Expense Core Service Connector is configured for use with the mobile app. Select **Close**, and close the Power Automate portal.
 
 ## Refresh virtual entities in Dataverse
 Once the code components for canvas apps have been enabled, the next crucial step is to enable the virtual entities used in the Expense mobile app. This action ensures that the canvas app can utilize the most up-to-date metadata of these virtual entities to enhance the overall functionality and user experience of the app. For more information, see [Refresh virtual entities](https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/9ae4c7446f720f42f694048cd3561515569b7e98/articles/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md#refresh-virtual-entity-metadata)
