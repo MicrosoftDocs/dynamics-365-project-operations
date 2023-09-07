@@ -61,8 +61,6 @@ This batch job is used to populate resources associated calendars' capacity hour
  > This will distribute general data to the **ResCalendarCapacity** table across all companies in your environment, so the batch job only needs to be run in one legal entity. The data in this batch job is needed to calculate resource capacity through the associated calendar.
 
 8. Go to **Project management and accounting** > **Periodic** > **Project resources** > **Populate project resources across all companies** and then select **OK**. This is the one-time data upgrade script for general data in the **ResProjectResource**, **ResCalendarDateTimeRange**, and **ResEffectiveDateTimeRange** tables. Values for the **PSAPRojSchedRole.RootActivity** field are also updated. If this is not run, you will receive a warning when you try to execute resource scheduling operations.
-
-Going forward, this job will need to be executed infrequently for future scheduling periods and when configuration changes are made. 
  
 ## Turn off resource scheduling performance enhancement
 It is not recommended to not turn off this feature. If a critical issue is found, you can follow these steps to disable the feature. 
