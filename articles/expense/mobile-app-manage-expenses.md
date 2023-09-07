@@ -18,17 +18,17 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Pr
 
 This article explains how to manage expenses by using the Expense mobile app.
 
-### Default Settings for Expense Creation and Updates
+## Default Settings for Expense Creation and Updates
 
 When an expense is either created or updated, specific values are automatically set based on predetermined settings or configurations:
 
-* Defaulting Setting for **Include tax** to **Yes**. However user can override the default setting and set **Include tax** to **No** as well.
+* Defaulting the setting for **Include tax** to **Yes**. However the user can override the default setting and set **Include tax** to **No** as well.
 * Set the **item sales tax group** based on the **expense category** by default.
 * Set the **sales tax group** based on the following **priority order**: **project, country, region, and vendor mapped with employee**.
-* Display or conceal expnese related fields in accordance with **expense configuration** settings.
-* Automatically Calculate the **tax amount** using both the **Sales tax group** and **Item sales tax group** and allowing the user for override the **tax amount** if required.
+* Display or conceal expense related fields in accordance with **expense configuration** settings.
+* Automatically Calculate the **tax amount** using both the **Sales tax group** and **Item sales tax group** and allowing the user for override the **tax amount** if necessary.
  
-### View expenses
+## View expenses
 
 When you open the Expense mobile app, the **Expenses** tab is selected and shows a list of all unattached expenses.
 
