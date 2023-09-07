@@ -641,7 +641,7 @@
       - name: Configure project-based invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
       - name: Corrective project-based invoices
-        href: proforma-invoicing/corrective-invoices.md
+        href: proforma-invoicing/revise-project-invoices.md
     - name: Customer invoicing
       items:  
       - name: Manage project invoice proposals
