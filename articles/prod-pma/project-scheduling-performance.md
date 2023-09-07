@@ -4,7 +4,7 @@
 title: Project resource scheduling performance
 description: This article provides information about how to improve the performance of resource scheduling for a large number of projects.
 author: Yowelle
-ms.date: 08/31/2020
+ms.date: 09/07/2023
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -34,6 +34,8 @@ ms.search.validFrom: 2020-09-01
 
 Performance issues related to resource scheduling can occur when the number of projects reaches into the thousands. To improve resource scheduling performance, a feature is available that allows users to reduce the time that it takes to launch the resource availability form. Specifically, this removes the resource capacity roll-up synchronization process and uses the **ResProjectResource** table to speed up the resource lookup. Note that the **ResRollup** table will no longer be used.
 
+This feature is now enabled by default as of 10.0.36. Changes have been made in this release to let the feature be enabled and not block previous behavior. It is suggested that if you see the warning message telling you to run the **Populate project resources across all companies** batch job, that you do so and complete the update to finish feature enablement. 
+
 > [!IMPORTANT]
 > If there is a dependency on either the resource capacity roll-up synchronization process or the **ResProjectResource** table, do not use this feature.
 
@@ -52,12 +54,18 @@ To enable resource scheduling performance enhancement, complete the following st
 6. If you leave the **Period code** field blank, select specific start and end dates to generate data.
 7. Select **OK**.
 
+This batch job is used to populate resources associated calendars' capacity hours. When executing this batch job, a start and end date is required. As time progresses and you need to schedule beyond the batch job end date, then the batch job will need to be executed again and set the end date to the next appropriate dates.  Also, if you have made any changes to the calendar time, such as adding a holiday or modifying the working hours for a specific date, you need to run the batch job again to reflect those changes.
+
+
  > [!NOTE]
  > This will distribute general data to the **ResCalendarCapacity** table across all companies in your environment, so the batch job only needs to be run in one legal entity. The data in this batch job is needed to calculate resource capacity through the associated calendar.
 
-8. Go to **Project management and accounting** > **Periodic** > **Project resources** > **Populate project resources across all companies** and then select **OK**. This is the data upgrade script for general data in the **ResProjectResource**, **ResCalendarDateTimeRange**, and **ResEffectiveDateTimeRange** tables. Values for the **PSAPRojSchedRole.RootActivity** field are also updated. If this is not run, you will receive a warning when you try to execute resource scheduling operations.
+8. Go to **Project management and accounting** > **Periodic** > **Project resources** > **Populate project resources across all companies** and then select **OK**. This is the one-time data upgrade script for general data in the **ResProjectResource**, **ResCalendarDateTimeRange**, and **ResEffectiveDateTimeRange** tables. Values for the **PSAPRojSchedRole.RootActivity** field are also updated. If this is not run, you will receive a warning when you try to execute resource scheduling operations.
+
+Going forward, this job will need to be executed infrequently for future scheduling periods and when configuration changes are made. 
  
 ## Turn off resource scheduling performance enhancement
+It is not recommended to not turn off this feature. If a critical issue is found, you can follow these steps to disable the feature. 
 
 1. Go to **Feature management** > **All**  and search for **Enable project resource scheduling performance enhancement feature**.
 2. Select the feature, and then select the **Disable** button.
