@@ -17,7 +17,7 @@ A confirmed project invoice can be revised to process changes or credits as nego
 To make edits to a confirmed invoice, open the confirmed invoice and select **Revise** (previously referred to as **Correct this invoice**).
 
 > [!NOTE]
-> The invoice revision process has been significantly improved to include the **Select transactions** capability so you can perform edits quickly to improve the user experience and productivity.   
+> The invoice revision process has been significantly improved to include the **Select transactions** capability so you can perform edits quickly and process invoice corrections in lesser duration.   
 
 Depending on the need to either edit only a few of the transactions or the entire invoice, use **Select transactions** or **Select all transactions**. 
 
