@@ -1,11 +1,6 @@
 {
   "redirections": [
     {
-      "source_path": "articles/proforma-invoicing/corrective-invoices-sales.md",
-      "redirect_url": "/dynamics365/project-operations/proforma-invoicing/revise-project-invoices",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "articles/proforma-invoicing/corrective-invoices.md",
       "redirect_url": "/dynamics365/project-operations/proforma-invoicing/revise-project-invoices",
       "redirect_document_id": "false"
