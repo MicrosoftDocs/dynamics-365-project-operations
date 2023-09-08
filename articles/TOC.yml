@@ -638,10 +638,10 @@
         href: proforma-invoicing/confirm-proforma-invoice.md
       - name: Bulk-confirm proforma project invoices 
         href: proforma-invoicing/bulk-confirm-project-invoices.md
-      - name: Configure project-based invoice automation
-        href: proforma-invoicing/configure-automated-invoice-creation.md
       - name: Revise (correct) project invoices
         href: proforma-invoicing/revise-project-invoices.md
+      - name: Configure project-based invoice automation
+        href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: Customer invoicing
       items:  
       - name: Manage project invoice proposals
