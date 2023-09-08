@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "articles/proforma-invoicing/corrective-invoices-sales.md",
+      "redirect_url": "/dynamics365/project-operations/proforma-invoicing/revise-project-invoices",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "articles/proforma-invoicing/corrective-invoices.md",
       "redirect_url": "/dynamics365/project-operations/proforma-invoicing/revise-project-invoices",
       "redirect_document_id": "false"
@@ -63,11 +68,6 @@
     {
       "source_path": "articles/prod-exp/expense-report-multiple-approvers.md",
       "redirect_url": "/dynamics365/project-operations/expense/expense-reports-multiple-approvers",
-      "redirect_document_id": "false"
-    },
-    {
-      "source_path": "articles/invoicing/corrective-invoices.md",
-      "redirect_url": "/dynamics365/project-operations/pro/proforma-invoicing/corrective-invoices-sales",
       "redirect_document_id": "false"
     },
     {
