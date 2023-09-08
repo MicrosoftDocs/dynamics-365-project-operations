@@ -1,5 +1,5 @@
 ---
-title: Bulk-confirm proforma project-based invoices
+title: Bulk-confirm proforma project invoices
 description: This article provides information about bulk confirmation of proforma project-based invoices.
 author: suvaidya
 ms.date: 03/06/2023
@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
-# Bulk-confirm proforma project-based invoices
+# Bulk-confirm proforma project invoices
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
