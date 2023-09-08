@@ -1,5 +1,5 @@
 ---
-title: Revise project invoices
+title: Revise (correct) project invoices
 description: This article provides information about how to revise project invoices in Project Operations.
 author: suvaidya    
 ms.date: 09/05/2023
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
-# Revise project invoices
+# Revise (correct) project invoices
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
