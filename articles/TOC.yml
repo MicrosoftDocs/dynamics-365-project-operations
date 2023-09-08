@@ -68,6 +68,8 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: What's new 2023 wave 1 early access - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-2023W1-resource-based.md
     - name: August 2023 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-aug-2023-resource-based.md
     - name: Archive
@@ -634,13 +636,11 @@
         href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
       - name: Confirm a proforma project-based invoice
         href: proforma-invoicing/confirm-proforma-invoice.md
-      - name: Bulk-confirm proforma project-based invoices 
+      - name: Bulk-confirm proforma project invoices 
         href: proforma-invoicing/bulk-confirm-project-invoices.md
-      - name: Create corrective project-based invoices 
-        href: pro/proforma-invoicing/corrective-invoices-sales.md
       - name: Configure project-based invoice automation
         href: proforma-invoicing/configure-automated-invoice-creation.md
-      - name: Corrective project-based invoices
+      - name: Revise (correct) project invoices
         href: proforma-invoicing/revise-project-invoices.md
     - name: Customer invoicing
       items:  
@@ -732,6 +732,8 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new 2023 wave 1 early access - Project Operations lite deployment
+      href: pro/whats-new/whats-new-2023W1-early-access-lite.md
     - name: What's new August 2023 - lite deployment
       href: pro/whats-new/whats-new-aug-2023-lite.md
     - name: Archive
