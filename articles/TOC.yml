@@ -1270,8 +1270,8 @@
       href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
     - name: Bulk-confirm proforma project-based invoices 
       href: proforma-invoicing/bulk-confirm-project-invoices.md
-    - name: Create corrective project invoices 
-      href: pro/proforma-invoicing/corrective-invoices-sales.md
+    - name: Revise (correct) project invoices 
+      href: proforma-invoicing/revise-project-invoices.md
     - name: Configure project invoice automation
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
   - name: Upgrade
