@@ -1,11 +1,11 @@
 ---
 title: Use Project schedule APIs to perform operations with Scheduling entities
 description: This article provides information and samples for using Project schedule APIs.
-author: sigitac
-ms.date: 09/19/2022
+author: abriccetti
+ms.date: 09/14/2023
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: sigitac
+ms.author: abriccetti
 ---
 
 # Use Project schedule APIs to perform operations with Scheduling entities
@@ -46,8 +46,11 @@ The following is a list of current Project schedule APIs.
 | **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately.                                  |
 | **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction.                                        |
 | **msdyn_PssCreateV1**                   | This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation. |
-| **msdyn_PssUpdateV1**                   | This API is used to update an entity. The entity can be any of the Project scheduling entities that support the update operation  |
+| **msdyn_PssCreateV2**                   | This API is used to create an entity. It functions similar to msdyn_PssCreateV1, however, multiple entities can be created in one action. |
+| **msdyn_PssUpdateV1**                   | This API is used to update an entity. The entity can be any of the Project scheduling entities that support the update operation.  |
+| **msdyn_PssUpdateV2**                   | This API is used to updated entities. It functions similar to msdyn_PssUpdateV1, however, multiple entities can be updated in one action. |
 | **msdyn_PssDeleteV1**                   | This API is used to delete an entity. The entity can be any of the Project scheduling entities that support the delete operation. |
+| **msdyn_PssDeleteV2**                   | This API is used to delete entities. It functions similar to msdyn_PssDeleteV1, however, multiple entities can be deleted in one action. |
 | **msdyn_ExecuteOperationSetV1**         | This API is used to execute all the operations within the given operation set.                                                 |
 | **msdyn_PssUpdateResourceAssignmentV1** | This API is used to update a Resource Assignment planned work contour.                                                        |
 
