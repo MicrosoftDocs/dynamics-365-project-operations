@@ -159,7 +159,7 @@ The following example shows how to call the **CopyProjectV3** custom action with
 
 ### Example
 
-The following example shows how to call the **CopyProjectV3** custom action with the the **TeamMemberOption** set to 2, and both **TeamMembers** and **TeamMembersMapping** sent.
+The following example shows how to call the **CopyProjectV4** custom action with the the **TeamMemberOption** set to 2, and both **TeamMembers** and **TeamMembersMapping** sent.
 
 ```C#
 C# example will go here for V4
