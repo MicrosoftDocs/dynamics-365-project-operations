@@ -45,4 +45,20 @@ The requirement is fulfilled by using the selected resource. In the **Booking Re
 ![Resource booked on the project.](media/Resource-Management-image76.png)
 
 
+# Enabling and Disabling the new Schedule Board
+Starting from the October 2023 early access release, the new Universal Resource Scheduling (URS) schedule board will be made available. For releases where the new board is on by default administrators will be able to re-enable the legacy schedule board. You will need to set the solution setting `msdyn_EnableOldScheduleBoard` to true. You can do so using the XRMUtility, or through a solution by [adding the settings solution component](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-environment-value).
+
+An example of the [XRM Utility](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-utility/getglobalcontext) command to change this setting:
+
+```javascript
+//Check the value of the setting
+Xrm.Utility.getGlobalContext().getCurrentAppSettings()["msdyn_EnableOldScheduleBoard"] 
+
+//Enable the legacy schedule board 
+ Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_EnableOldScheduleBoard", true, {overrideScope: 1}).then(() => {a = "success"}, (error) => {a = error})
+ ```
+
+Once the legacy schedule board has been enabled in your environment, users can switch between the legacy experience and the new experience directly on the schedule board. Please note, the legacy schedule board is on a path to deprecation and the ability to revert to the old board will not be supported long term.
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
