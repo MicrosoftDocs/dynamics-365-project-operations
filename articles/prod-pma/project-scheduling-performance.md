@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Project resource scheduling performance
+title: Project resource scheduling performance (preview)
 description: This article provides information about how to improve the performance of resource scheduling for a large number of projects.
 author: Yowelle
 ms.date: 09/07/2023
