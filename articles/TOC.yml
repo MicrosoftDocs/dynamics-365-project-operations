@@ -1406,7 +1406,7 @@
       href: prod-pma/create-project-team.md
     - name: Synchronize resource capacity
       href: prod-pma/synchronize-resource-capacity.md
-    - name: Project resource scheduling performance
+    - name: Project resource scheduling performance (preview)
       href: prod-pma/project-scheduling-performance.md
     - name: Set up roles on Work breakdown structure templates
       href: prod-pma/set-up-roles-wbs-template.md
