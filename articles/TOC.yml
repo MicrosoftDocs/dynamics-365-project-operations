@@ -610,6 +610,8 @@
         href: pro/subcontracting/VI-Verification.md
       - name: Confirm project vendor invoices
         href: procurement/Confirm-a-project-vendor-invoice.md
+      - name: Block vendor payments until approved by a project manager
+        href: pro/subcontracting/vi-blockvendorpaymentsforpmapproval.md
     - name: Vendor retention
       items:
       - name: Vendor retention overview
