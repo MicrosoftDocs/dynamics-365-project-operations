@@ -27,3 +27,20 @@ This article applies to the following components and versions of Microsoft Dynam
 ## Quality updates
 
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=787268).
+
+
+## Removed and deprecated features
+
+The [Removed or deprecated features in Project Operations](removed-depreciated-features-project.md) article describes features that have been removed or deprecated for Dynamics 365 Project Operations.
+
+- A removed feature is no longer available in the product.
+- A deprecated feature isn't in active development and might be removed in a future update.
+
+A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.
+
+For breaking changes that only affect compilation time, but are binary compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
+
+| Feature area | Functionality | 
+| --- | --- | 
+| Project Accounting | Project management and accounting **Always create adjustment transaction paramater** is removed. 
+| Project Accounting | Project management and accounting **Use adjustment date as new project date parameter** is removed. |
