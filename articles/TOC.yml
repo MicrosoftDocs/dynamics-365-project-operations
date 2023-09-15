@@ -610,6 +610,8 @@
         href: pro/subcontracting/VI-Verification.md
       - name: Confirm project vendor invoices
         href: procurement/Confirm-a-project-vendor-invoice.md
+      - name: Block vendor payments until approved by a project manager
+        href: pro/subcontracting/vi-blockvendorpaymentsforpmapproval.md
     - name: Vendor retention
       items:
       - name: Vendor retention overview
@@ -1406,7 +1408,7 @@
       href: prod-pma/create-project-team.md
     - name: Synchronize resource capacity
       href: prod-pma/synchronize-resource-capacity.md
-    - name: Project resource scheduling performance
+    - name: Project resource scheduling performance (preview)
       href: prod-pma/project-scheduling-performance.md
     - name: Set up roles on Work breakdown structure templates
       href: prod-pma/set-up-roles-wbs-template.md
