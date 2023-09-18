@@ -24,6 +24,6 @@ This article lists the features and fixes that are new or changed for Project Se
 
 ## October 2023 Early Access
 
-This release supports the new Universal Resource Scheduling (URS) [schedule board](https://learn.microsoft.com/en-us/dynamics365/field-service/preview-schedule-board).
+This release supports the new Universal Resource Scheduling (URS) schedule board. For more information, see [Experience the new and improved schedule board](/dynamics365/field-service/preview-schedule-board).
 
 
