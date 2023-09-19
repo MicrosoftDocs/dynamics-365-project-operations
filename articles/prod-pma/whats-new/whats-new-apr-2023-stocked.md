@@ -36,11 +36,11 @@ The [Removed or deprecated features in Project Operations](../../whats-new/remov
 - A removed feature is no longer available in the product.
 - A deprecated feature isn't in active development and might be removed in a future update.
 
-A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.
+A deprecation announcement appears in the [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.
 
-For breaking changes that only affect compilation time, but are binary compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
+For breaking changes that only affect compilation time, but are binary compatible with sandbox and production environments, the deprecation time is less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
 
 | Feature area | Functionality | 
 | --- | --- | 
-| Project Accounting | Project management and accounting **Always create adjustment transaction paramater** is removed. 
+| Project Accounting | Project management and accounting **Always create adjustment transaction parameter** is removed. 
 | Project Accounting | Project management and accounting **Use adjustment date as new project date parameter** is removed. |
