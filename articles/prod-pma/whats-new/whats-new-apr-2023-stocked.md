@@ -31,12 +31,12 @@ For information about the bug fixes that are included in this update, sign in to
 
 ## Removed and deprecated features
 
-The [Removed or deprecated features in Project Operations](../whats-new/removed-depreciated-features-project.md) article describes features that have been removed or deprecated for Dynamics 365 Project Operations.
+The [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) article describes features that have been removed or deprecated for Dynamics 365 Project Operations.
 
 - A removed feature is no longer available in the product.
 - A deprecated feature isn't in active development and might be removed in a future update.
 
-A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](../whats-new/removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.
+A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.
 
 For breaking changes that only affect compilation time, but are binary compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
 
