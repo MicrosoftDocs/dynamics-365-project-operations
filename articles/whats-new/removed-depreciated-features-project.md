@@ -43,7 +43,7 @@ This list is intended to help you consider these removals and deprecations for y
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By October 1, 2024, we will hide the parameter and change the system behavior so that the system will behave as if the parameter is always enabled, but multiple funding sources will not be required to be configured. |
+| **Status** | Deprecated: By October 1, 2024, we will hide the parameter and change the system behavior so that the system behaves as if the parameter is always enabled, but multiple funding sources aren't required. |
 
 ## Features removed or deprecated in the Project Operations March 2022 release
 
@@ -51,7 +51,7 @@ This list is intended to help you consider these removals and deprecations for y
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | Adjustment transactions are required for audit purposes. After deprecation, this parameter will be hidden. The system will always create adjustment transactions, just as it currently does when the parameter is set to **Yes**. |
+| **Reason for deprecation/removal** | Adjustment transactions are required for audit purposes. After deprecation, this parameter is hidden. The system always creates adjustment transactions, just as it currently does when the parameter is set to **Yes**. |
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
@@ -61,7 +61,7 @@ This list is intended to help you consider these removals and deprecations for y
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | This parameter was originally used to allow for adjustments when a fiscal period was closed. However, it's no longer required, because the accounting date of the transaction can be changed to the first date of the open period, if it's configured. The project date must not be changed, because it represents the date when transaction occurred. The project date will no longer change on adjustments. |
+| **Reason for deprecation/removal** | This parameter was originally used to allow for adjustments when a fiscal period was closed. However, it's no longer required, because the accounting date of the transaction can be changed to the first date of the open period, if it's configured. The project date must not be changed, because it represents the date when transaction occurred. The project date no longer changes on adjustments. |
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
