@@ -2,7 +2,7 @@
 title: Project Operations updates
 description: This article provides information about the released versions of Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 03/28/2022
+ms.date: 09/18/2023
 ms.topic: article
 ms.prod:
 ms.reviewer: johnmichalak
@@ -39,40 +39,44 @@ For Project Operations Resource/non-stocked scenario, we recommend that you use 
 
 Updates for Project Operations on Dataverse environment are available monthly. 
 
-| Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
+| Station | Region | Current version number | Auto updates for Lite deployment * | Auto updates for Resource/non-stocked deployment * | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.75.0.56      | August 4, 2023     | May 12, 2023        | TBD                 | September 22, 2023  |
+|   &nbsp;  | First Release         |  4.75.0.56      | August 4, 2023     | August 4, 2023      | TBD                 | September 22, 2023  |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.75.0.56      | August 18, 2023    | May 12, 2023        | TBD                 | September 22, 2023  |
-|   &nbsp;  | Canada                |  4.75.0.56      | August 18, 2023    | May 12, 2023        | TBD                 | September 22, 2023  |
-|   &nbsp;  | India                 |  4.75.0.56      | August 18, 2023    | May 12, 2023        | TBD                 | September 22, 2023  |
-|   &nbsp;  | France                |  4.75.0.56      | August 18, 2023    | May 12, 2023        | TBD                 | September 22, 2023  |
-|   &nbsp;  | South Africa          |  4.75.0.56      | August 18, 2023    | May 12, 2023        | TBD                 | September 22, 2023  |
-|   &nbsp;  | Switzerland           |  4.75.0.56      | August 18, 2023    | May 12, 2023        | TBD                 | September 22, 2023  |
+|   &nbsp;  | South America         |  4.75.0.56      | August 18, 2023    | August 18, 2023     | TBD                 | September 22, 2023  |
+|   &nbsp;  | Canada                |  4.75.0.56      | August 18, 2023    | August 18, 2023     | TBD                 | September 22, 2023  |
+|   &nbsp;  | India                 |  4.75.0.56      | August 18, 2023    | August 18, 2023     | TBD                 | September 22, 2023  |
+|   &nbsp;  | France                |  4.75.0.56      | August 18, 2023    | August 18, 2023     | TBD                 | September 22, 2023  |
+|   &nbsp;  | South Africa          |  4.75.0.56      | August 18, 2023    | August 18, 2023     | TBD                 | September 22, 2023  |
+|   &nbsp;  | Switzerland           |  4.75.0.56      | August 18, 2023    | August 18, 2023     | TBD                 | September 22, 2023  |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.75.0.56      | August 25, 2023    | April 21, 2023      | TBD                 | September 29, 2023  |
-|   &nbsp;  | Asia Pacific          |  4.75.0.56      | August 25, 2023    | April 21, 2023      | TBD                 | September 29, 2023  |
-|   &nbsp;  | Great Britain         |  4.75.0.56      | August 25, 2023    | April 21, 2023      | TBD                 | September 29, 2023  |
-|   &nbsp;  | Oceania               |  4.75.0.56      | August 25, 2023    | April 21, 2023      | TBD                 | September 29, 2023  |
-|   &nbsp;  | United Arab Emirates  |  4.75.0.56      | August 25, 2023    | April 21, 2023      | TBD                 | September 29, 2023  |
+|   &nbsp;  | Japan                 |  4.75.0.56      | August 25, 2023    | August 25, 2023     | TBD                 | September 29, 2023  |
+|   &nbsp;  | Asia Pacific          |  4.75.0.56      | August 25, 2023    | August 25, 2023     | TBD                 | September 29, 2023  |
+|   &nbsp;  | Great Britain         |  4.75.0.56      | August 25, 2023    | August 25, 2023     | TBD                 | September 29, 2023  |
+|   &nbsp;  | Oceania               |  4.75.0.56      | August 25, 2023    | August 25, 2023     | TBD                 | September 29, 2023  |
+|   &nbsp;  | United Arab Emirates  |  4.75.0.56      | August 25, 2023    | August 25, 2023     | TBD                 | September 29, 2023  |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.75.0.160     | September 1, 2023  | April 21, 2023      | TBD                 | Ocktober 6, 2023    |
+|   &nbsp;  | Europe                |  4.75.0.160     | September 1, 2023  | September 1, 2023   | TBD                 | October 6, 2023    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.75.0.160     | September 9, 2023  | April 28, 2023      | TBD                 | Ocktober 13, 2023   |
+|   &nbsp;  | North America         |  4.75.0.160     | September 9, 2023  | September 9, 2023   | TBD                 | October 13, 2023   |
+
+__\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the table above. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
+
+If auto update is unable to complete, update of your environment on the date defined in the above table. It will try again the next day for up to a week during the defined maintenance window for your environment
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
 Updates for Project management and accounting are released eight times a year.
 
-|Supported Version| Preview availability | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
+|Supported Version| Preview availability | Generally available (self-update) | Autoupdate schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
 |     10.0.33     |      March 3, 2023          |        April 14, 2023             |                          April 28, 2023                              | July 14, 2023      |
 |     10.0.32     |      January 30, 2023       |        March 17, 2023             |                          March 31, 2023                              | June 9, 2023       |
 
 Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|Targeted Version | Preview availability | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
+|Targeted Version | Preview availability | Generally available (self-update) | Autoupdate schedule (via LCS Update Settings) production start date |   End of service   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
 |     10.0.34     |      April 21, 2023         |       June 16, 2023               |                        June 30, 2023                                 | September 15, 2023 |
 
