@@ -1,18 +1,20 @@
 ---
-title: Use Project schedule APIs with Power Automate
+title: Use V1 Project schedule APIs with Power Automate
 description: This article provides a sample flow that uses the Project schedule application programming interfaces (APIs).
-author: ruhercul
-ms.date: 08/10/2023
+author: abriccetti
+ms.date: 09/20/2023
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: ruhercul
+ms.author: abriccetti
 ---
 
-# Use Project schedule APIs with Power Automate
+# Use V1 Project schedule APIs with Power Automate
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 This article describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example demonstrates how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This article also explains how to update an entity and execute an Operation Set.
+
+The example in this article uses the API PssCreateV1. For an example using PssCreateV2 see here
 
 The following is a complete list of the steps that are documented in the sample flow in this article:
 
