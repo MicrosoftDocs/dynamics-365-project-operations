@@ -14,7 +14,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 This article describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example demonstrates how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This article also explains how to update an entity and execute an Operation Set.
 
-The example in this article uses the API PssCreateV1. For an example using PssCreateV2 see here
+The example in this article uses the API PssCreateV1. For an example using PssCreateV2 see Use V2 Project schedule APIs with Power Automate.
 
 The following is a complete list of the steps that are documented in the sample flow in this article:
 
