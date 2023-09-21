@@ -22,7 +22,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | Feature area | Feature name | More information |
 | --- | --- | --- |
 | Project Accounting | **Streamline cost price and sales price calculations**</br>This feature introduces improvements and consistency in several areas related to taxes including amounts including sales tax. | [Understand how cost prices, sales prices, transfer prices, and taxes work together.](/dynamics365/project-operations/project-accounting/understand-cost-price-sales-prices-transfer-price-taxes) |
-| Project Management | **Cross company data sharing**</br>Cross company data sharing fills the gap between AX 2009, AX 2012, and Microsoft Dynamics 365 finance and operations apps. Virtual company setup information sharing was possible in earlier versions but removed from finance and opeations apps, causing upgrade issues. Now, Project Operations tables support virtual companies finance and operastions apps as part of a global release. | [Tables supported for duplicate record data sharing.](/dynamics365/fin-ops-core/dev-itpro/sysadmin/drs-srs-tables) |
+| Project Management | **Cross company data sharing**</br>Cross company data sharing fills the gap between AX 2009, AX 2012, and Microsoft Dynamics 365 finance and operations apps. Virtual company setup information sharing was possible in earlier versions but removed from finance and operations apps, causing upgrade issues. Now, Project Operations tables support virtual companies finance and operations apps as part of a global release. | [Tables supported for duplicate record data sharing.](/dynamics365/fin-ops-core/dev-itpro/sysadmin/drs-srs-tables) |
 
 ## Quality updates
 
