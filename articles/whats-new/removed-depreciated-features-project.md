@@ -16,7 +16,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 This article describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
 
 - A *removed* feature is no longer available in the product.
-- A *deprecated* feature is not in active development and may be removed in a future update.
+- A *deprecated* feature isn't in active development and may be removed in a future update.
 
 This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -29,11 +29,11 @@ This list is intended to help you consider these removals and deprecations for y
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | Transactions are much more difficult to audit if they are adjusted after they have been invoiced. This behavior causes confusion for the small number of users who use this functionality.  |
+| **Reason for deprecation/removal** | Transactions are much more difficult to audit if they're adjusted after they have been invoiced. This behavior causes confusion for the small number of users who use this functionality.  |
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By October 1, 2024, we will hide the parameter and change the system behavior so that adjustment transactions cannot be created for invoiced transactions. |
+| **Status** | Deprecated: By October 1, 2024, the parameter is hidden and the system behavior is changed so that adjustment transactions can't be created for invoiced transactions. |
 
 ### Project management and accounting "Allow for projects with multiple funding sources" parameter
 
@@ -43,7 +43,7 @@ This list is intended to help you consider these removals and deprecations for y
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By October 1, 2024, we will hide the parameter and change the system behavior so that the system behaves as if the parameter is always enabled, but multiple funding sources aren't required. |
+| **Status** | Deprecated: By October 1, 2024, the parameter is hidden and the system behavior is changed so that the system behaves as if the parameter is always enabled, but multiple funding sources aren't required. |
 
 ## Features removed or deprecated in the Project Operations March 2022 release
 
@@ -85,7 +85,7 @@ This list is intended to help you consider these removals and deprecations for y
 | **Replaced by another feature?** | Yes |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios; Project Operations for resource/ non-stocked scenarios |
-| **Status** | Deprecated: By March 1, 2023, we will turn off the earlier (legacy) page and turn on the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature key by default. |
+| **Status** | Deprecated: By March 1, 2023, the earlier (legacy) page is turned off and the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature key is turned on by default. |
 
 ## Features removed or deprecated in the Project Operations December 2021 release
 
@@ -95,7 +95,7 @@ This list is intended to help you consider these removals and deprecations for y
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | Deprecated due to low usage. Customers using Project Operations for resource/non-stocked scenarios can leverage [Collaboration with Office Groups](../project-management/collaboration-groups.md). |
+| **Reason for deprecation/removal** | Deprecated due to low usage. Customers using Project Operations for resource/non-stocked scenarios can use[Collaboration with Office Groups](../project-management/collaboration-groups.md). |
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application  |
 | **Deployment option** | Project Operations for production/stocked scenarios |
