@@ -45,6 +45,9 @@ The following illustration shows the data model for project planning.
 
 The following operations aren't permitted on externally scheduled projects.
 
+### Copilot functionality
+Copilot functionality to create tasks, risks and issues and generate status reports is not available on Externally scheduled projects. 
+
 ### Project planning
 
 - **Copy project** – This operation isn't supported on externally scheduled projects.
@@ -57,6 +60,7 @@ The following operations aren't permitted on externally scheduled projects.
 
 - **Generic resource fulfillment** – Generic resource fulfillment isn't supported for externally scheduled projects. Attempts to fulfill active open requirements will create new project team members, but it won't delete the generic team member or replace the generic team member on any existing resource assignments.
 - **Delete Team Member** – Deletion of a team member won't automatically delete resource assignments.
+- **Experiences on the Resouce reconciliation grid** – Resource reconciliation grid that shows discrepancies between bookings and assignments will have limited functionality with the operations supported.
 
 ### Quoting and contracting
 
