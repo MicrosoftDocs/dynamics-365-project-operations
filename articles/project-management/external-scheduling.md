@@ -46,7 +46,7 @@ The following illustration shows the data model for project planning.
 The following operations aren't permitted on externally scheduled projects.
 
 ### Copilot functionality
-Copilot functionality to create tasks, risks and issues and generate status reports is not available on Externally scheduled projects. 
+- Copilot functionality to create tasks, risks and issues and generate status reports is not available on Externally scheduled projects. 
 
 ### Project planning
 
