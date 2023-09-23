@@ -60,7 +60,7 @@ The following operations aren't permitted on externally scheduled projects.
 - **Creation of resource requirements from generic resource assignments** – Creation of resource requirements from generic team members with assignments cannot be done for externally scheduled projects. Create generic project team members directly on the team member grid and this will automatically create resource requirements. 
 - **Generic resource fulfillment** – Generic resource fulfillment isn't supported for externally scheduled projects if the generic resource has task assignments. Attempts to fulfill active open requirements will create new project team members, but it won't delete the generic team member or replace the generic team member on any existing resource assignments.
 - **Delete Team Member** – Deletion of a team member won't automatically delete resource assignments.
-- **Experiences on the Resouce Reconciliation grid** – Resource Reconciliation grid that shows discrepancies between bookings and assignments will have limited functionality with the operations supported.
+- **Experiences on the Resouce Reconciliation grid** – Resource Reconciliation grid that shows discrepancies between bookings and assignments will have limited functionality  with the operations supported. Extending bookings from this expereience is not enabled.
 
 ### Quoting and contracting
 
