@@ -1,6 +1,6 @@
 ---
 title: Use V1 Project schedule APIs with Power Automate
-description: This article provides a sample flow that uses the Project schedule application programming interfaces (APIs) V1.
+description: This article provides a sample flow that uses the V1 Project schedule application programming interfaces (APIs).
 author: abriccetti
 ms.date: 09/20/2023
 ms.topic: how-to
