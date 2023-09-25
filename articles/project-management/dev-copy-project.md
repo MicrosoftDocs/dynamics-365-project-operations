@@ -162,7 +162,60 @@ The following example shows how to call the **CopyProjectV3** custom action with
 The following example shows how to call the **CopyProjectV4** custom action with the the **TeamMemberOption** set to 2, and both **TeamMembers** and **TeamMembersMapping** sent.
 
 ```C#
-C# example will go here for V4
+            /* To simplify, the sample code below does not contain code to setup source project, create target project, etc.
+             * The sample code demonstrates calling Copy Project V4 with option to pass in team members for creation and mapping.
+             * 
+             * IN THE BELOW CODE EXAMPLE:
+             * sourceProjectRef is the EntityReference of the source project to copy.
+             * targetProjectRef is the target project, target project must be created before calling the API.
+             *  Target project should be created empty without doing any further setup like adding team members, tasks, etc.
+             * toBeCreatedTargetTeamMembers is an EntityCollection of team members to be created in the target project
+             *  as part of the copy and mapping.
+             * teamMembersMapping is a Dictionary<Guid, Guid> of the team member mapping between source and target project.
+             *  Key is the ID of a source team member; Value is the ID of the target team member.
+             * */
+
+            var request = new OrganizationRequest("msdyn_CopyProjectV4");
+            request["Target"] = targetProjectRef;
+            request["SourceProject"] = sourceProjectRef;
+            request["TeamMemberOption"] = new OptionSetValue(2); // 0: None, 1: CopyAsGeneric, 2: Specify
+            request["TeamMembers"] = toBeCreatedTargetTeamMembers;
+            request["TeamMembersMapping"] = JsonConverter.SerializeJson(teamMembersMapping);
+
+            OrganizationService.Execute(request);
+
+            /* Optional code to wait for the copy to complete as the main work is done in Async service.
+             * To see details on error, go to PSS Error Logs and/or Settings > System Jobs.
+             * */
+            EnsureProjectCopySuccessful(targetProjectRef);
+
+            void EnsureProjectCopySuccessful(EntityReference project)
+            {
+                var start = DateTime.Now;
+
+                do
+                {
+                    Thread.Sleep(TimeSpan.FromSeconds(10));
+                    var updatedProject = OrganizationService.Retrieve(Project.EntityLogicalName, project.Id, new ColumnSet(Project.AttributeStatuscode))
+                        .ToEntity<Project>();
+
+                    if (updatedProject.statuscode.Value == (int)project_statuscode.Projectcopyfailed)
+                    {
+                        throw new Exception("Project Copy failed.");
+                    }
+                    else if (updatedProject.statuscode.Value == (int)project_statuscode.Active)
+                    {
+                        break;
+                    }
+
+                    if (DateTime.Now > start + TimeSpan.FromMinutes(5))
+                    {
+                        throw new TimeoutException("Copy Project timed out");
+                    }
+                }
+                while (true);
+            }
+
 ```
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
