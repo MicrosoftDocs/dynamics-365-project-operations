@@ -35,12 +35,12 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 ## Features converted to parameters
 
-The following table lists the features that are are converted to parameter in version 10.0.36. These features can't be enabled from  [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) and these are controlled by the parameters.
+The following table lists the features that are converted to parameter in version 10.0.36. These features can't be enabled from  [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) and are controlled by the parameters.
 
 | Feature name | Module | More information|
 | --- | --- | --- |
-|Select project invoice proposal by funding source|Project management and accounting|This has been removed from feature management and moved to a parameter under the Contract tab of Project management and accounting parameters.|
-|Enable the Invoice summary for Project invoice proposals and Project invoices.|Project management and accounting|This has been removed from feature management and moved to a parameter under the Invoice tab of Project management and accounting parameters. |
+|Select project invoice proposal by funding source|Project management and accounting|This feature has been removed from feature management and moved to a parameter under the Contract tab of Project management and accounting parameters.|
+|Enable the Invoice summary for Project invoice proposals and Project invoices.|Project management and accounting|This feature has been removed from feature management and moved to a parameter under the Invoice tab of Project management and accounting parameters. |
 
 ## Quality updates
 
@@ -48,20 +48,20 @@ The following table lists the features that are are converted to parameter in ve
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-|Billing and Pricing|3235616|Update ImportConfig.xml file with solution hints|
-|Billing and Pricing|3508349|Journal Line with no Sales Contract causes unhelpful **Key Not Found** error during pricing|
-|Billing and Pricing|3529600|Remove delete of quote line details from pre validate quote delete plugin|
-|Billing and Pricing|3530621|Not to exceed incorrectly re-evaluated to Failed|
-|Deployment and Configuration|3526949|Fix Upgrade Readiness issue with Duplicate CustomAction ID in RibbonDiff|
-|Deployment and Configuration|3540616|Localized string is too long for import in German language pack|
-|Horizontals|3442847|Risk Register Grid does not refresh with risks when risks are created from Co-pilot|
-|Opportunity Management|3566033|Winning a quote fails with Null Reference Exception|
-|Project Management|3467461|Deep links to Tasks do not work when the Accelerator is installed|
-|Project Management|3511697|Disable ATM plugins registered on Associate & Disassociate (of all entities) to prevent large async backlog|
-|Project Planning and Tracking|3492526|Copilot tab showing up in project import window|
-|Project Planning and Tracking|3520700|msdyn_autoscheduling field in deprecated component solution should not be Required|
-|Project Service|3543997|Project history ownership should always update when project ownership changes|
-|Resource Management|3491772|Error received when using Specify Pattern on Team member grid|
+|Billing and Pricing|3235616|Update ImportConfig.xml file with solution hints.|
+|Billing and Pricing|3508349|Journal Line with no Sales Contract causes unhelpful **Key Not Found** error during pricing.|
+|Billing and Pricing|3529600|Remove delete of quote line details from pre validate quote delete plugin.|
+|Billing and Pricing|3530621|Not to exceed incorrectly reevaluated to Failed.|
+|Deployment and Configuration|3526949|Fix Upgrade Readiness issue with Duplicate CustomAction ID in RibbonDiff.|
+|Deployment and Configuration|3540616|Localized string is too long for import in German language pack.|
+|Horizontals|3442847|Risk Register Grid doesn't refresh with risks when risks are created from Copilot.|
+|Opportunity Management|3566033|Winning a quote fails with Null Reference Exception.|
+|Project Management|3467461|Deep links to Tasks don't work when the Accelerator is installed.|
+|Project Management|3511697|Disable ATM plugins registered on Associate & Disassociate (of all entities) to prevent large async backlog.|
+|Project Planning and Tracking|3492526|Copilot tab showing up in project import window.|
+|Project Planning and Tracking|3520700|msdyn_autoscheduling field in deprecated component solution shouldn't be Required.|
+|Project Service|3543997|Project history ownership should always update when project ownership changes.|
+|Resource Management|3491772|Error received when using Specify Pattern on Team member grid.|
 |Time and Expense|3251783|Message incorrectly displayed: "There are no appointments found between the selected dates" when trying to import time entries.|
 
 ### Project management and accounting in Finance
