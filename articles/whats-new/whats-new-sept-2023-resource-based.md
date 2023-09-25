@@ -35,7 +35,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 ## Features converted to parameters
 
-The following table lists the features that are are converted to parameter in version 10.0.36. These features can't be enabled from  [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) and these controlled by the parameters.
+The following table lists the features that are are converted to parameter in version 10.0.36. These features can't be enabled from  [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) and these are controlled by the parameters.
 
 | Feature name | Module | More information|
 | --- | --- | --- |
