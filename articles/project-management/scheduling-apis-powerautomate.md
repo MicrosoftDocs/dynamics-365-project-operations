@@ -3,7 +3,8 @@ title: Use V1 Project schedule APIs with Power Automate
 description: This article provides a sample flow that uses the Project schedule application programming interfaces (APIs).
 author: abriccetti
 ms.date: 09/20/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
@@ -116,12 +117,12 @@ Follow these steps to create a sample project.
     } 
     ```
 
-    Here is an explanation of the parameters:
+    Here's an explanation of the parameters:
 
     - **\@\@odata.type** – The entity name. For example, enter **"Microsoft.Dynamics.CRM.msdyn\_projectteam"**.
     - **msdyn\_projectteamid** – The primary key of the project team ID. The value is a globally unique identifier (GUID) expression.   The ID is generated from the expression tab.
 
-    - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value will be dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value is dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
     - **msdyn\_name** – The name of the team member. For example, enter **"ScheduleAPIDemoTM1"**.
 
 ## <a id="5"></a>Step 5: Create an Operation Set
@@ -207,15 +208,15 @@ Follow these steps to create a project task that has a unique ID that belongs to
     }
     ```
 
-    Here is an explanation of the parameters:
+    Here's an explanation of the parameters:
 
     - **\@\@odata.type** – The entity name. For example, enter **"Microsoft.Dynamics.CRM.msdyn\_projecttask"**.
     - **msdyn\_projecttaskid** – The unique ID of the task. The value should be set to a dynamic variable from **msdyn\_projecttaskid**.
-    - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value will be dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value is dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
     - **msdyn\_subject** – Any task name.
-    - **msdyn\_projectbucket\@odata.bind** – The project bucket that contains the tasks. The value will be dynamic content that comes from the response of the "Create Bucket" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projectbuckets(ADD DYNAMIC CONTENT)"**.
-    - **msdyn\_start** – Dynamic content for the start date. For example, tomorrow will be represented as **"addDays(utcNow(), 1)"**.
-    - **msdyn\_scheduledstart** – The scheduled start date. For example, tomorrow will be represented as **"addDays(utcNow(), 1)"**.
+    - **msdyn\_projectbucket\@odata.bind** – The project bucket that contains the tasks. The value is dynamic content that comes from the response of the "Create Bucket" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projectbuckets(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_start** – Dynamic content for the start date. For example, tomorrow is represented as **"addDays(utcNow(), 1)"**.
+    - **msdyn\_scheduledstart** – The scheduled start date. For example, tomorrow is represented as **"addDays(utcNow(), 1)"**.
     - **msdyn\_scheduleend** – The scheduled end date. Select a date in the future. For example, specify **"addDays(utcNow(), 5)"**.
     - **msdyn\_LinkStatus** – The link status. For example, enter **"192350000"**.
 
