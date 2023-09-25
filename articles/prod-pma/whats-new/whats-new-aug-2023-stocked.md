@@ -45,6 +45,6 @@ The following table lists the features that are mandatory from version 10.0.36 o
 
 | Feature name | Feature added | Feature state | Module |
 | --- | --- | --- | --- |
-|Mileage totals calculation by fiscal year|March 31, 2022|Mandatory|Expense management|
-|Enable multiple contract lines for a project|June 29, 2020|Mandatory|Project management and accounting|
-|Enable Project Operations on Dynamics 365 Customer Engagement|June 29, 2020|Mandatory|Project management and accounting|
+|Mileage totals calculation by fiscal year.|March 31, 2022|Mandatory|Expense management|
+|Enable multiple contract lines for a project.|June 29, 2020|Mandatory|Project management and accounting|
+|Enable Project Operations on Dynamics 365 Customer Engagement.|June 29, 2020|Mandatory|Project management and accounting|
