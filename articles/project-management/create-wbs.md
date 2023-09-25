@@ -2,18 +2,18 @@
 
 title: Create a work breakdown structure 
 description: This article explains how to create a work breakdown structure (WBS) inclusive of the basic controls in the new scheduling interface.
-author:  gionoder
+author:  abriccetti
 ms.date: 0/2023  
 ms.topic: article 
 ms.reviewer: johnmichalak
-ms.author: gionoder
+ms.author: abriccetti
 --- 
 
 # Create a work breakdown structure (WBS)
 
 A project schedule communicates what work must be completed, which resources do the work, and the timeframe in which the work must be completed. The schedule reflects all the work associated with delivering the project on time. In Dynamics 365 Project Operations, you create a project schedule by:
 
-  - Breaking the work down into manageable tasks.
+  - Breaking down the work into manageable tasks.
   - Estimating the time that is required to do each task.
   - Setting task dependencies.
   - Setting task durations.
@@ -23,7 +23,7 @@ The project schedule is created on the **Schedule** tab on the **Project** page.
 
 ## Tasks
 
-The first step in creating a project schedule is to break the work down into manageable portions. The schedule in Project Operations supports the following features:
+The first step in creating a project schedule is to break down the work into manageable portions. The schedule in Project Operations supports the following features:
 
 - Summary or container tasks
 - Leaf node tasks
@@ -61,7 +61,7 @@ Complete the following steps to indent or promote a task.
 
 Tasks can be moved to any level in the work breakdown structure in one of two ways:
 
-- Select one more tasks and drag them to the desired location.
+- Select one or more tasks and drag them to the desired location.
 - Select one or more tasks, right-click and select **Cut**, select the destination cell in the schedule, and then right-click and select **Paste**.
 
 ## Task attributes
@@ -97,7 +97,7 @@ The **Role**, **Resourcing Unit**, and **Position Name** fields are used to desc
 
    - **Role**: Specify the type of resource that is required to do the task.,
    - **Resourcing unit**: Specify the unit that resources for the task should be assigned from. This attribute affects the cost and sales estimate for the task if the cost and bill rate for the resource are set based on resourcing units.
-   - **Position name**: Enter a name for the generic resource that serves as a placeholder for the resource that ultimately complete the work.
+   - **Position name**: Enter a name for the generic resource that serves as a placeholder for the resource that ultimately completes the work.
 
 The **Resources** field holds the position name of the generic resource or named resource when one is found.
 
@@ -111,7 +111,7 @@ The task mode has no effect on updates that are made to the start and end dates 
 
 ## Task labels
 
-You can apply labels on tasks and use this capability to quick see what they have in common, to sort or filtering. To know more, see  [Use labels to sort tasks in Microsoft Project for the web.](https://support.microsoft.com/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c)
+You can apply labels on tasks and use this capability to quickly see what they have in common, to sort or filtering. To know more, see  [Use labels to sort tasks in Microsoft Project for the web.](https://support.microsoft.com/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c)
 
 ## Understanding the impacts of duration, resource calendars, and project calendars on tasks
 A task's duration is defined as the number of working hours between the start time of the start date and end time of the finish date of the task.  By default, Project for the Web defines duration units of measure as follows:
@@ -122,7 +122,7 @@ A task's duration is defined as the number of working hours between the start ti
 | Hours per week |	40 |
 | Days per month |	20 |
 
-These duration conversions are editiable at the project level to allow users in regions where work hours are defined differently than these defaults.
+These duration conversions are editable at the project level to allow users in regions where work hours are defined differently than these defaults.
 
 > [!NOTE]
 > These durations (whether default or customized) are only used to convert to hours when defining effort on a task.
@@ -132,9 +132,9 @@ This allows users to define duration in unitsUnassigned tasks are scheduled by u
 > [!NOTE]
 > Project for the Web does not respect business closures that are defined in the resource or project calendars.
 
-It is important to note that a resource assignment can only be created when the end of the resource's calendar rule overlaps with the task's end date. This means if your calendar rule finishes before the end of the task, the assignment won't be scheduled as there won't be enough time in the schedule for the resource to perform the task.
+It's important to note that a resource assignment can only be created when the end of the resource's calendar rule overlaps with the task's end date. This means if your calendar rule finishes before the end of the task, the assignment won't be scheduled as there won't be enough time in the schedule for the resource to perform the task.
 
-For example, if a resource calendar begins on Wednesday March 1st, 2023, but ends on Friday, April 14th, 2023. In the project where this resource is added, any tasks assigned to this resource cannot end later than April 14th, 2023. Otherwise, they aren't scheduled because they exceed the last day of the resource's calendar.
+For example, if a resource calendar begins on Wednesday March 1, 2023, but ends on Friday, April 14, 2023. In the project where this resource is added, any tasks assigned to this resource can't end later than April 14, 2023. Otherwise, they aren't scheduled because they exceed the last day of the resource's calendar.
 
 ![Screenshot example of scheduling tasks.](media/Create-wbs-figure-01.png)
 
@@ -145,7 +145,7 @@ The screenshot above shows, in green color, which tasks can be scheduled because
 The **Schedule** grid is fully accessible and can be used with screen readers such as Narrator, JAWS, or NVDA. You can move through the grid area by using arrow keys (as in Microsoft Excel), you can use the Tab key to advance through the interactive user interface elements, and you can use the Down arrow key, the Enter key, or the Spacebar to select and open the drop-down menus.
 
 ## Project limitations 
-You should be aware of the following limitations if you are using the work breakdown structure in Project Operations. These limits apply to projects and tasks. For more information, see [Project for the web limits and boundaries](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+You should be aware of the following limitations if you're using the work breakdown structure in Project Operations. These limits apply to projects and tasks. For more information, see [Project for the web limits and boundaries](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
 | **Field**                                          |  **Limit**           |
 |----------------------------------------------------|----------------------|
