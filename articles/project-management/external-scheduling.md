@@ -45,18 +45,22 @@ The following illustration shows the data model for project planning.
 
 The following operations aren't permitted on externally scheduled projects.
 
+### Copilot functionality
+- Copilot functionality to create tasks, risks and issues and generate status reports isn't available on externally scheduled projects. 
+
 ### Project planning
 
 - **Copy project** – This operation isn't supported on externally scheduled projects.
 - **Move project** – Changes to the start date of a project won't move the start of tasks or resource assignments in the WBS.
 - **Updating the Project Manager** – Changes to the project manager on the project main page won't automatically create a new project team member until the project has been converted.
 - **Updating the project's work hour template** – Changes to the project's work hour template won't recalculate the project's schedule.
-- **Resource Assignment Contours** – The creation of resource assignments won't automatically update the **mdyn\_PlannedWork** column. This column is used to store contours for resource assignment effort. If you show time-phased effort in the resource assignment grid or the resource reconciliation grid, you must define valid resource assignment contours. These contours must be correctly formatted so that they trigger the calculation of both cost contours and sales price contours. We recommend that you create a test project that is scheduled by Project for the Web, and then review the associated data to confirm the requirements and formatting.
+- **Resource Assignment Contours** – The creation of resource assignments won't automatically update the **mdyn\_PlannedWork** column. This column is used to store contours for resource assignment effort. If you show time-phased effort in the resource assignment grid or the resource reconciliation grid, you must define valid resource assignment contours. These contours must be correctly formatted so that they trigger the calculation of both cost contours and sales price contours. We recommend that you create a test project that is scheduled in Project for the Web, and then review the associated data to confirm the requirements and formatting.
 
 ### Resource management
-
-- **Generic resource fulfillment** – Generic resource fulfillment isn't supported for externally scheduled projects. Attempts to fulfill active open requirements will create new project team members, but it won't delete the generic team member or replace the generic team member on any existing resource assignments.
+- **Creation of resource requirements from generic resource assignments** – Creation of resource requirements from generic team members with assignments can't be done for externally scheduled projects. Create generic project team members directly on the team member grid and  automatically creates resource requirements. 
+- **Generic resource fulfillment** – Generic resource fulfillment isn't supported for externally scheduled projects if the generic resource has task assignments. If you fulfill an active open requirement, the system creates new project team members but it won't delete the generic team member or replace the generic team member on any existing resource assignments.
 - **Delete Team Member** – Deletion of a team member won't automatically delete resource assignments.
+- **Experiences on the Resource Reconciliation grid** – Resource Reconciliation grid that shows discrepancies between bookings and assignments have limited functionality  with the operations supported. Extending bookings from this experience isn't enabled.
 
 ### Quoting and contracting
 
