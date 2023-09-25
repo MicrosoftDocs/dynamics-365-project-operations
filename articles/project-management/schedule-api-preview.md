@@ -3,7 +3,8 @@ title: Use Project schedule APIs to perform operations with Scheduling entities
 description: This article provides information and samples for using Project schedule APIs.
 author: abriccetti
 ms.date: 09/14/2023
-ms.topic: article
+ms.topic: conceptual
+ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
@@ -58,7 +59,7 @@ The following is a list of current Project schedule APIs.
 
 **Using Project schedule APIs with OperationSet**
 
-Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are created immediately, these APIs can't be used in the **OperationSet** directly. However, you can use the API to create needed records, create an **OperationSet**, and then use these pre-created records in the **OperationSet**.
+Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are created immediately, these APIs can't be used in the **OperationSet** directly. However, you can use the API to create needed records, create an **OperationSet**, and then use these precreated records in the **OperationSet**.
 
 **Supported operations**
 
@@ -73,13 +74,13 @@ Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are cre
 | Project Checklists      | Yes        | Yes        | Yes        |                                                                                                                                                                                                                                                                                                                                                         |
 | Project Label           | No         | Yes        | No         | Label names can be changed. This feature is only available for Project for the Web. Labels are created the first you open a project.                                                                                                                                                                                                                                                                       |
 | Project Task to Label   | Yes        | No         | Yes        | This feature is only available for Project for the Web.                                                                                                                                                                                                                                                                                                  |
-| Project Sprint          | Yes        | Yes        | Yes        | The **Start** field must have a date earlier than the **Finish** field. Sprints for the same project cannot overlap with each other. This feature is only available for Project for the Web                                                                                                                                                                    |
+| Project Sprint          | Yes        | Yes        | Yes        | The **Start** field must have a date earlier than the **Finish** field. Sprints for the same project can't overlap with each other. This feature is only available for Project for the Web                                                                                                                                                                    |
 | Project Goal            | Yes        | Yes        | Yes        | Operations with the following fields aren’t supported: DescriptionPlainText, TaskDisplayOrder                                                                                                                                                                     |
 | Project Task to Goal    | Yes        | No         | Yes        | Operations with the following fields aren’t supported: TaskDisplayOrder                                                                                                                                                     |
 
 
 
-The ID property is optional. If it's provided, the system attempts to use it and throws an exception if it can't be used. If it isn't provided, the system will generate it.
+The ID property is optional. If it's provided, the system attempts to use it and throws an exception if it can't be used. If it isn't provided, the system generates it.
 
 **Limitations and known issues**
 
@@ -96,11 +97,11 @@ The following is a list of limitations and known issues:
 -   Each Update Resource Assignment Contour operation counts as a single operation.
 -   Each list of updated contours can contain a maximum of 100 time slices.
 -   **OperationSet** failure status and failure logs aren't currently available.
--   There is a maximum of 400 sprints per project.
+-   There's a maximum of 400 sprints per project.
 -   [Limits and boundaries on projects and tasks](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 -   Labels are currently only available for Project for the Web.
 -   Labels are created the first time you open a project.
--   There is a maximum of 10 goals per project.
+-   There's a maximum of 10 goals per project.
 -   Each task can appear in Project Task to Goal once.
 
 **Error handling**
@@ -115,8 +116,8 @@ Unlike all other project scheduling APIs that update an entity, the resource ass
 Given schedule mode is:
 
 -   **fixed units**
--   project calendar is 9-5p is 9-5pst, Mon, Tue, Thurs, Friday (NO WORK WEDNESDAYS)
--   and resource calendar is 9-1p PST Mon to Fri
+-   project calendar is 9-5 pm is 9-5 pm pst, Mon, Tue, Thurs, Friday (NO WORK WEDNESDAYS)
+-   and resource calendar is 9-1 pm PST Mon to Fri
 
 This assignment is for one week, four hours a day. This is because the resource calendar is from 9-1 PST, or four hours a day.
 
@@ -149,7 +150,7 @@ This is the assignment after the Update Contour Schedule API is run.
 
 **Sample scenario**
 
-In this scenario, you will create a project, a team member, four tasks, and two resource assignments. Next, you will update one task, update the project, update a resource assignment contour, delete one task, delete one resource assignment, and create a task dependency.
+In this scenario, you'll create a project, a team member, four tasks, and two resource assignments. Next, you'll update one task, update the project, update a resource assignment contour, delete one task, delete one resource assignment, and create a task dependency.
 
 ```csharp
 Entity project = CreateProject();
