@@ -30,7 +30,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-|Subcontracting|**Enhanced Vendor Invoice Verification** </br></br>This feature introduces new fields that let users view real-time 3-way match progress for a vendor invoice line and ensures more accurate verification of invoices. </br>To view these updates, enable the feature flag named **Enhanced Vendor Invoice Verification**. In subsequent releases, this feature will introduce visualizations to track pending verification of invoice lines at the vendor invoice header level.| |
+|Subcontracting|**Enhanced Vendor Invoice Verification** </br></br>This feature introduces new fields that let users view real-time 3-way match progress for a vendor invoice line and ensures more accurate verification of invoices. </br>To view these updates, enable the feature flag named **Enhanced Vendor Invoice Verification**. In subsequent releases, this feature introduces visualizations to track pending verification of invoice lines at the vendor invoice header level.| |
 
 ## Quality updates
 
@@ -39,7 +39,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
 |Billing and Pricing|3186838|Cost price list fails to default when the end date is outside the price list range.|
-|Billing and Pricing|3233975|Imported estimate values do not match the estimates calculated on project.|
+|Billing and Pricing|3233975|Imported estimate values don't match the estimates calculated on project.|
 |Billing and Pricing|3370203|Validate ProjectParameterPriceList has a parameter reference.|
 |Billing and Pricing|3419224|Material estimates should retain any price changes.|
 |Opportunity Management|3107890|Transform the **Close as Lost** process for quotes into a long-running job and notify the user if the process is already in progress.|
@@ -76,6 +76,8 @@ The following table lists the features that are turned on by default in version 
 
 The following table lists the features that are mandatory from version 10.0.36 onward.
 
-| Feature name | Enable date | Feature added | Feature state | Module |
-| --- | --- | --- | --- | --- |
-|Mileage totals calculation by fiscal year|September 15, 2023|May 10, 2022|Mandatory|Expense management|
+| Feature name | Feature added | Feature state | Module |
+| --- | --- | --- | --- |
+|Mileage totals calculation by fiscal year.|March 31, 2022|Mandatory|Expense management|
+|Enable multiple contract lines for a project.|June 29, 2020|Mandatory|Project management and accounting|
+|Enable Project Operations on Dynamics 365 Customer Engagement.|June 29, 2020|Mandatory|Project management and accounting|
