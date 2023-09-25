@@ -114,7 +114,7 @@ The task mode has no effect on updates that are made to the start and end dates 
 You can apply labels on tasks and use this capability to quick see what they have in common, to sort or filtering. To know more, see  [Use labels to sort tasks in Microsoft Project for the web.](https://support.microsoft.com/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c)
 
 ## Understanding the impacts of duration, resource calendars, and project calendars on tasks
-A task's duration is defined as the number of working hours between the start time of the start date and end time of the finish date of the task.   Project for  the web defines duration units of measure as follows:
+A task's duration is defined as the number of working hours between the start time of the start date and end time of the finish date of the task.  By default, Project for the Web defines duration units of measure as follows:
 
 | **Measure of Duration** |	**Quantity**|
 |----------------------------------------------------|----------------------|
@@ -122,7 +122,12 @@ A task's duration is defined as the number of working hours between the start ti
 | Hours per week |	40 |
 | Days per month |	20 |
 
-Unassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment will be governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+These duration conversions are editiable at the project level to allow users in regions where work hours are defined differently than these defaults.
+
+> [!NOTE]
+> These durations (whether default or customized) are only used to convert to hours when defining effort on a task.
+
+This allows users to define duration in unitsUnassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment will be governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 > [!NOTE]
 > Project for the Web does not respect business closures that are defined in the resource or project calendars.
