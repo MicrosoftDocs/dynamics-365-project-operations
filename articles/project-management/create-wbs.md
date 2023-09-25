@@ -3,7 +3,7 @@
 title: Create a work breakdown structure 
 description: This article explains how to create a work breakdown structure (WBS) inclusive of the basic controls in the new scheduling interface.
 author:  gionoder
-ms.date: 02/01/2023  
+ms.date: 0/2023  
 ms.topic: article 
 ms.reviewer: johnmichalak
 ms.author: gionoder
@@ -11,13 +11,13 @@ ms.author: gionoder
 
 # Create a work breakdown structure (WBS)
 
-A project schedule communicates what work must be completed, which resources will do the work, and the timeframe in which the work must be completed. The schedule reflects all the work associated with delivering the project on time. In Dynamics 365 Project Operations, you create a project schedule by:
+A project schedule communicates what work must be completed, which resources do the work, and the timeframe in which the work must be completed. The schedule reflects all the work associated with delivering the project on time. In Dynamics 365 Project Operations, you create a project schedule by:
 
   - Breaking the work down into manageable tasks.
   - Estimating the time that is required to do each task.
   - Setting task dependencies.
   - Setting task durations.
-  - Estimating the generic resources that will do the tasks. 
+  - Estimating the generic resources that complete the tasks. 
 
 The project schedule is created on the **Schedule** tab on the **Project** page.
 
@@ -54,7 +54,7 @@ When a task is indented, it becomes a child of the task that is directly above i
 Complete the following steps to indent or promote a task.
 
 1. On the **Project** page, on the **Tasks** tab, under **Summary tasks**, select the three vertical dots by the task name, and then select **Make subtask**. 
-2. Select the task to indent or promote. To select more than one task, select a task, press and hold Ctrl, and then select additional tasks.
+2. Select the task to indent or promote. To select more than one task, select a task, press and hold Ctrl, and then select more tasks.
 2. Select **Indent** or **Promote subtask**  to move tasks under or out from under summary tasks.
 
 ### Move tasks up and down
@@ -72,7 +72,7 @@ A task's name describes the work that must be completed. In Project Operations, 
 
 The **Effort**, **Start date**, **End date**, and **Duration** attributes define the schedule for the task.
 
-The following table shows additional schedule attributes.
+The following table shows more schedule attributes.
 
 | **Final display name** | **Final description** |
 | --- | --- |
@@ -97,7 +97,7 @@ The **Role**, **Resourcing Unit**, and **Position Name** fields are used to desc
 
    - **Role**: Specify the type of resource that is required to do the task.,
    - **Resourcing unit**: Specify the unit that resources for the task should be assigned from. This attribute affects the cost and sales estimate for the task if the cost and bill rate for the resource are set based on resourcing units.
-   - **Position name**: Enter a name for the generic resource that serves as a placeholder for the resource that will ultimately do the work.
+   - **Position name**: Enter a name for the generic resource that serves as a placeholder for the resource that ultimately complete the work.
 
 The **Resources** field holds the position name of the generic resource or named resource when one is found.
 
@@ -127,14 +127,14 @@ These duration conversions are editiable at the project level to allow users in 
 > [!NOTE]
 > These durations (whether default or customized) are only used to convert to hours when defining effort on a task.
 
-This allows users to define duration in unitsUnassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment will be governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+This allows users to define duration in unitsUnassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment is governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 > [!NOTE]
 > Project for the Web does not respect business closures that are defined in the resource or project calendars.
 
 It is important to note that a resource assignment can only be created when the end of the resource's calendar rule overlaps with the task's end date. This means if your calendar rule finishes before the end of the task, the assignment won't be scheduled as there won't be enough time in the schedule for the resource to perform the task.
 
-For example, if a resource calendar begins on Wednesday March 1st, 2023, but ends on Friday, April 14th, 2023. In the project where this resource is added, any tasks assigned to this resource cannot end later than April 14th, 2023. Otherwise, they will not be scheduled because they exceed the last day of the resource's calendar.
+For example, if a resource calendar begins on Wednesday March 1st, 2023, but ends on Friday, April 14th, 2023. In the project where this resource is added, any tasks assigned to this resource cannot end later than April 14th, 2023. Otherwise, they aren't scheduled because they exceed the last day of the resource's calendar.
 
 ![Screenshot example of scheduling tasks.](media/Create-wbs-figure-01.png)
 
