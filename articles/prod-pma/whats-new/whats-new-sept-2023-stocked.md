@@ -19,12 +19,12 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Features converted to parameters
 
-The following table lists the features that are are converted to parameter in version 10.0.36. These features can't be enabled from  [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) and these are controlled by the parameters.
+The following table lists the features that are converted to parameter in version 10.0.36. These features can't be enabled from  [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) and these are controlled by the parameters.
 
 | Feature name | Module | More information|
 | --- | --- | --- |
-|Select project invoice proposal by funding source|Project management and accounting|This has been removed from feature management and moved to a parameter under the Contract tab of Project management and accounting parameters.|
-|Enable the Invoice summary for Project invoice proposals and Project invoices.|Project management and accounting|This has been removed from feature management and moved to a parameter under the Invoice tab of Project management and accounting parameters. |
+|Select project invoice proposal by funding source.|Project management and accounting|This feature has been removed from feature management and moved to a parameter under the Contract tab of Project management and accounting parameters.|
+|Enable the Invoice summary for Project invoice proposals and Project invoices.|Project management and accounting|This feature has been removed from feature management and moved to a parameter under the Invoice tab of Project management and accounting parameters. |
 
 ## Quality updates
 
