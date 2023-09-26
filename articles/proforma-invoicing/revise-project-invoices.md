@@ -41,7 +41,7 @@ The following are some of the key points to understand about the line details on
 - All quantities are updated to zero. Dynamics 365 Project Operations assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created when the corrected invoice is confirmed. If you're making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
 - Milestone corrections are always processed as full credits.
 
-To use the *revise* feature with the *Select transactions* capability, turn on the Invoice revision updates feature at Settings > Parameters > Feature control.
+To use the **Revise** feature with the **Select transactions** capability, turn on the Invoice revision updates feature at **Settings** > **Parameters** > **Feature control**.
 
 > [!IMPORTANT]
 > For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**. For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.
