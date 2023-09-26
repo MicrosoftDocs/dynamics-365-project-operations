@@ -1,7 +1,7 @@
 ---
 title: Set up cost and sales rates for materials
 description: This article provides information about how to set up the cost and sales rates for materials used on projects. 
-author: rumant
+author: suvaidya
 ms.date: 03/06/2023
 ms.topic: article
 ms.custom: bap-template
@@ -46,8 +46,6 @@ If each product has a transaction cost of $100, the unbilled sales actuals per u
 | Material at Cost | At Cost | | 100 | USD |
 | Material at Mark up over transaction cost | Mark up percentage | 10 | 110 | USD |
 | Material at price per unit | Price per unit | | 200 | USD |
-
-To use the new cost-based material pricing methods, turn on the **Enable material pricing methods** feature at **Settings** \> **Parameters** \> **Feature control**.
 
 For more information about how to define prices for catalog items, see [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
 
