@@ -2,7 +2,7 @@
 title: Bulk-confirm proforma project invoices
 description: This article provides information about bulk confirmation of proforma project-based invoices.
 author: suvaidya
-ms.date: 03/06/2023
+ms.date: 09/26/2023
 ms.topic: article
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -12,8 +12,6 @@ ms.author: suvaidya
 # Bulk-confirm proforma project invoices
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
-
-This feature lets users select multiple project invoices and then use the **Confirm** button on the toolbar to confirm all of them at the same time. To use this feature, enable it at **Parameters \> Organization unit \> Feature control \> Enable bulk confirm**. 
 
 After you select **Confirm**, all selected invoices that meet the invoice validation criteria are scheduled by a batch job for asynchronous processing.
 
