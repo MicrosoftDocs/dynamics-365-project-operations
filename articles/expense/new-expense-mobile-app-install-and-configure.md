@@ -24,7 +24,7 @@ To run the Expense mobile app, you must use below Dynamics 365 Finance version w
 * 10.0.35 - 10.0.1627.120 and above
 * 10.0.36 - 10.0.1695.68 and above
 * 10.0.37 - 10.0.1725.37 and above
-
+  
 ## Set up Dataverse for your Dynamics 365 Finance environment
 
 Your Dynamics 365 Finance environment must be linked with a Dataverse environment, If Dataverse isn't already set up for your environment, follow the instructions in [Enable Power Platform Integration](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration#enable-after-deploy).
