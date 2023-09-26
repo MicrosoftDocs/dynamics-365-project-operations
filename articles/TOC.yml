@@ -68,12 +68,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: September 2023 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-sept-2023-resource-based.md
     - name: What's new 2023 wave 1 early access - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-2023W1-resource-based.md
-    - name: August 2023 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-aug-2023-resource-based.md
     - name: Archive
       items:
+       - name: August 2023 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-aug-2023-resource-based.md
        - name: July 2023 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-jul-2023-resource-based.md
        - name: June 2023 - Project Operations for resource/non-stocked based scenarios
@@ -734,12 +736,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new September 2023 - lite deployment
+      href: pro/whats-new/whats-new-sept-2023-lite.md
     - name: What's new 2023 wave 1 early access - Project Operations lite deployment
       href: pro/whats-new/whats-new-2023W1-early-access-lite.md
-    - name: What's new August 2023 - lite deployment
-      href: pro/whats-new/whats-new-aug-2023-lite.md
     - name: Archive
       items:
+      - name: What's new August 2023 - lite deployment
+        href: pro/whats-new/whats-new-aug-2023-lite.md
       - name: What's new July 2023 - lite deployment
         href: pro/whats-new/whats-new-jul-2023-lite.md
       - name: What's new June 2023 - lite deployment
@@ -1310,10 +1314,12 @@
         href: whats-new/ur5-nonstocked-installation.md
   - name: What's new
     items:
-    - name: What's new August 2023 - Project Operations for stocked/production-based scenarios
-      href: prod-pma/whats-new/whats-new-aug-2023-stocked.md
+    - name: What's new September 2023 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-sept-2023-stocked.md
     - name: Archive
       items:
+      - name: What's new August 2023 - Project Operations for stocked/production-based scenarios
+        href: prod-pma/whats-new/whats-new-aug-2023-stocked.md
       - name: What's new June 2023 - Project Operations for stocked/production-based scenarios
         href: prod-pma/whats-new/whats-new-jun-2023-stocked.md
       - name: What's new May 2023 - Project Operations for stocked/production-based scenarios
