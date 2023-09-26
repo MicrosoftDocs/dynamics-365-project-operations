@@ -19,21 +19,21 @@ The example in this article uses the API PssCreateV2. For an example using PssCr
 The following is a complete list of the steps that are documented in the sample flow in this article:
 
 1. [Create a PowerApps trigger](#1)
-2. [Create a project](#2)
-3. [Initialize a variable for the team member](#3)
-4. [Create a generic team member](#4)
-5. [Create an Operation Set](#5)
-6. [Create a project bucket](#6)
-7. [Initialize a variable for the number of tasks](#7)
-8. [Initialize a variable for the project task ID](#8)
+1. [Create a project](#2)
+1. [Initialize a variable for the team member](#3)
+1. [Create a generic team member](#4)
+1. [Create an Operation Set](#5)
+1. [Create a project bucket](#6)
+1. [Initialize a variable for the number of tasks](#7)
+1. [Initialize a variable for the project task ID](#8)
 1. [Initialize Array](#9)
-9. [Do until](#10)
-10. [Set a project task](#11)
-11. [Create a project task](#12)
-12. [Create a resource assignment](#13)
-13. [Decrement a variable](#14)
-14. [Add Tasks and Assignments to the Operation Set](#15)
-15. [Run an Operation Set](#16)
+1. [Do until](#10)
+1. [Set a project task](#11)
+1. [Create a project task](#12)
+1. [Create a resource assignment](#13)
+1. [Decrement a variable](#14)
+1. [Add Tasks and Assignments to the Operation Set](#15)
+1. [Run an Operation Set](#16)
 
 ## Assumptions
 
@@ -226,7 +226,7 @@ Follow these steps to create a sample project.
     - **msdyn\_start** – Dynamic content for the start date. For example, tomorrow will be represented as **"addDays(utcNow(), 1)"**.
     - **msdyn\_scheduledstart** – The scheduled start date. For example, tomorrow will be represented as **"addDays(utcNow(), 1)"**.
     - **msdyn\_scheduleend** – The scheduled end date. Select a date in the future. For example, specify **"addDays(utcNow(), 5)"**.
-    - **msdyn\_LinkStatus** – The link status. For example, enter **"192350000"**.
+    - **msdyn\_LinkStatus** – The link to billing setup. For example, enter **"192350000"** for no link to billing setup and **"192350001"** for billing setup linked.
 
 ## <a id="13"></a>Step 13: Create a resource assignment
 
@@ -255,7 +255,18 @@ Follow these steps to create a sample project.
 3. In the **Name** field, select **number of tasks**.
 4. In the **Value** field, enter **1**.
 
-## <a id="15"></a>Step 15: Run an Operation Set
+## <a id="15"></a>Step 15: Add Tasks and Assignments to the Operation Set
+1. In the flow, select **New step**.
+2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
+3. In the step, select the ellipsis (...), and then select **Rename**.
+4. Rename the step **Add Tasks and Assignments to Operation Set**.
+5. In the **Action Name** field, select **msdyn_PssCreateV2**.
+6. For the **OperationSetId** field, select **msdyn_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
+7. In the **EntityCollection** field, select **Switch Input to Entire Array**.
+8. In the **EntityCollection** field, select **Tasks and Assignments** in the **Dynamic content** dialog box.
+
+
+## <a id="16"></a>Step 16: Run an Operation Set
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
