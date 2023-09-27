@@ -58,7 +58,7 @@ A transaction's billing type can be configured on the **Chargeable Categories** 
 An estimate or actual created for time is only considered chargeable if:
 
    - **Time** is included on the contract line.
-   - **Role** is configured as chargeable on the contract line.
+   - **Role** is configured as chargeable on the contract line. If the role is not mentioned as chardgeable at contract line, then it must be set up as chargeable in the master.
    - **Included Tasks** is set to **Selected tasks** on the contract line.
  
  If these three things are true, the task is configured as chargeable. 
@@ -66,7 +66,7 @@ An estimate or actual created for time is only considered chargeable if:
 An estimate or actual created for expense is only considered chargeable if:
 
    - **Expense** is included on the contract line
-   - **Transaction category** is configured as chargeable on the contract line
+   - **Transaction category** is configured as chargeable on the contract line. If the transaction category is not mentioned as chardgeable at contract line, then it must be set up as chargeable in the master.
    - **Included Tasks** is set to **Selected task** on the contract line
   
  If these three things are true, the **Task** is configured as chargeable. 
