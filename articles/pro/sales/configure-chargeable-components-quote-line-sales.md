@@ -66,7 +66,7 @@ If these three things are true, the **Task** is also configured as chargeable.
 An estimate or actual created for expense is only considered chargeable if: 
 
    - **Expense** is included on the quote line.
-   - **Transaction category** is configured as chargeable on the quote line. If the transaction category isn't mentioned as chargeable at quote line, or if it isn't, then it must be set up as chargeable in the master.
+   - **Transaction category** is configured as chargeable on the quote line. If the transaction category isn't mentioned as chargeable at quote line, then it must be set up as chargeable in the master.
 
    - **Included Tasks** is set to **Selected tasks** on the quote line.
 
