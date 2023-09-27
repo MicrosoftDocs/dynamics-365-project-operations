@@ -45,13 +45,13 @@ A task's billing type can be configured on the **Chargeable Tasks** tab of the c
 
 A role can be chargeable or nonchargeable on a specific contract line.
 
-A role's billing type can be configured on the **Chargeable Roles** tab of a contract line. To configure this, update the **Billing Type** field on the **Chargeable Roles** subgrid.
+A role's billing type can be configured on the **Chargeable Roles** tab of a contract line. To configure the billing type, update the **Billing Type** field on the **Chargeable Roles** subgrid.
 
 ### Update a transaction category as chargeable or nonchargeable
 
 A transaction category can be chargeable or nonchargeable on a specific contract line.
 
-A transaction's billing type can be configured on the **Chargeable Categories** tab of a project-based contract line. To configure this, update the **Billing Type** field on the **Chargeable Categories** subgrid.
+A transaction's billing type can be configured on the **Chargeable Categories** tab of a project-based contract line. To configure the billing type, update the **Billing Type** field on the **Chargeable Categories** subgrid.
 
 ### Resolve chargeability
 
