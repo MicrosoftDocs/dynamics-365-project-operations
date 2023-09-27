@@ -57,7 +57,8 @@ A transaction's billing type can be configured on the **Chargeable Categories** 
 An estimate or actual created for time will only be considered chargeable if:
 
    - **Time** is included on the quote line.
-   - **Role** is configured as chargeable on the quote line.
+   - **Role** is configured as chargeable on the quote line. If the role is not mentioned as chardgeable at quote line, then it must be set up as chargeable in the master.
+
    - **Included Tasks** is set to **Selected tasks** on the quote line. 
 
 If these three things are true, the **Task** is also configured as chargeable. 
@@ -65,7 +66,8 @@ If these three things are true, the **Task** is also configured as chargeable.
 An estimate or actual created for expense is only considered chargeable if: 
 
    - **Expense** is included on the quote line.
-   - **Transaction category** is configured as chargeable on the quote line.
+   - **Transaction category** is configured as chargeable on the quote line. If the transaction category is not mentioned as chardgeable at quote line, or if it is not , then it must be set up as chargeable in the master.
+
    - **Included Tasks** is set to **Selected tasks** on the quote line.
 
 If these three things are true, the **Task** is also configured as chargeable. 
