@@ -1,6 +1,6 @@
 ---
 title: Configure chargeable components on project quote lines
-description: This article provides information about setting up chargeable and non-chargeable components on a project-based quote line.
+description: This article provides information about setting up chargeable and nonchargeable components on a project-based quote line.
 author: rumant
 ms.date: 12/03/2022
 ms.topic: article
@@ -23,7 +23,7 @@ Included components are subject to:
 A subset of the included components can be marked as chargeable using the **Billing Type** field. The **Billing Type** field is an option-set that allows the following values in the context of a quote line:
 
   - Chargeable
-  - Non-chargeable
+  - Nonchargeable
 
 Chargeable components can be defined on tasks, roles, and transaction categories.
 
@@ -33,23 +33,23 @@ Chargeability is defined on roles for a quote line and only applies to the **Tim
 
 Chargeability is defined on transaction categories for a  quote line and only applies to the **Expense** transaction class. If the field, **Include Expenses** is set to **No** on a project quote line, the **Chargeable Categories** tab isn't available.
 
-### Update a project task to be chargeable or non-chargeable
+### Update a project task to be chargeable or nonchargeable
 
-A project task can be chargeable or non-chargeable in the context of a specific project-based quote line, which makes the following setup possible.
+A project task can be chargeable or nonchargeable in the context of a specific project-based quote line, which makes the following setup possible.
 
-If a project-based quote line includes **Time** and the task **T1**, the task is associated to the quote line as chargeable. If there's a second quote line that includes **Expenses**, you can associate the **T1** task on the quote line as non-chargeable. The result is that all time recorded on the task is chargeable and all expenses recorded on the task are non-chargeable.
+If a project-based quote line includes **Time** and the task **T1**, the task is associated to the quote line as chargeable. If there's a second quote line that includes **Expenses**, you can associate the **T1** task on the quote line as nonchargeable. The result is that all time recorded on the task is chargeable and all expenses recorded on the task are nonchargeable.
 
 A task's billing type can be configured on the **Chargeable Tasks** tab of a project-based quote line by updating the **Billing Type** field on the **Quote Line Tasks** subgrid. Alternatively, you can update the billing type for a project task in the **Billing Type** field on the subgrid on the task billing setup of a project that shows the quote lines associated to a task.
 
-### Update a role to be chargeable or non-chargeable
+### Update a role to be chargeable or nonchargeable
 
-A role can be chargeable or non-chargeable in the context of a specific project-based quote line.
+A role can be chargeable or nonchargeable in the context of a specific project-based quote line.
 
 A role's billing type can be configured on the **Chargeable Roles** tab of a quote line by updating the **Billing Type** field on the **Chargeable Roles** subgrid.
 
-### Update a transaction category to be chargeable or non-chargeable
+### Update a transaction category to be chargeable or nonchargeable
 
-A transaction category can be chargeable or non-chargeable on a specific quote line.
+A transaction category can be chargeable or nonchargeable on a specific quote line.
 
 A transaction's billing type can be configured on the **Chargeable Categories** tab of a quote line by updating the **Billing Type** field on the **Chargeable Categories** subgrid.
 
