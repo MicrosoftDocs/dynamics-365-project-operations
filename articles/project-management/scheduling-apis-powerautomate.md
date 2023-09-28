@@ -1,6 +1,6 @@
 ---
 title: Use V1 Project schedule APIs with Power Automate
-description: This article provides a sample flow that uses the V1 Project schedule application programming interfaces (APIs).
+description: This article provides a sample flow that uses the V1 Project schedule APIs.
 author: abriccetti
 ms.date: 09/20/2023
 ms.topic: how-to
@@ -13,11 +13,11 @@ ms.author: abriccetti
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This article describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example demonstrates how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This article also explains how to update an entity and execute an Operation Set.
+This article describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example demonstrates how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This article also explains how to update an entity and run an Operation Set.
 
-The example in this article uses the API PssCreateV1. For an example using PssCreateV2 see Use V2 Project schedule APIs with Power Automate.
+The example in this article uses the PssCreateV1 API. For an example that uses the PssCreateV2 API, see [V2 Project schedule APIs with Power Automate](scheduling-apis-powerautomate-v2.md).
 
-The following is a complete list of the steps that are documented in the sample flow in this article:
+Here's a complete list of the steps that are documented in the sample flow in this article:
 
 1. [Create a PowerApps trigger](#1)
 2. [Create a project](#2)
@@ -37,7 +37,7 @@ The following is a complete list of the steps that are documented in the sample 
 
 ## Assumptions
 
-This article assumes that you have a basic knowledge of the Dataverse platform, cloud flows, and the Project Schedule Application Programming Interface (API). For more information, see the [References](#references) section later in this article.
+This article assumes that you have a basic knowledge of the Dataverse platform, cloud flows, and the Project Schedule API. For more information, see the [References](#references) section later in this article.
 
 ## Create a flow
 
@@ -77,9 +77,9 @@ Follow these steps to create a sample project.
 
     ![Selecting an operation.](media/chooseactiontab.png)
 
-3. In the new step, select the ellipsis (**...**), and then select **Rename**.
+3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
 
-![Renaming a step.](media/renamestep.png)
+    ![Renaming a step.](media/renamestep.png)
 
 4. Rename the step **Create Project**.
 5. In the **Action Name** field, select **msdyn\_CreateProjectV1**.
@@ -91,7 +91,7 @@ Follow these steps to create a sample project.
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the new step, select the ellipsis (**...**), and then select **Rename**.
+3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Init team member**.
 5. In the **Name** field, enter **TeamMemberAction**.
 6. In the **Type** field, select **String**.
@@ -101,7 +101,7 @@ Follow these steps to create a sample project.
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the new step, select the ellipsis (**...**), and then select **Rename**.
+3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Create Team Member**.
 5. For the **Action Name** field, select **TeamMemberAction** in the **Dynamic content** dialog box.
 6. In the **Action Parameters** field, enter the following parameter information.
@@ -120,8 +120,7 @@ Follow these steps to create a sample project.
     Here's an explanation of the parameters:
 
     - **\@\@odata.type** – The entity name. For example, enter **"Microsoft.Dynamics.CRM.msdyn\_projectteam"**.
-    - **msdyn\_projectteamid** – The primary key of the project team ID. The value is a globally unique identifier (GUID) expression.   The ID is generated from the expression tab.
-
+    - **msdyn\_projectteamid** – The primary key of the project team ID. The value is a globally unique identifier (GUID) expression. The ID is generated from the expression tab.
     - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value is dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
     - **msdyn\_name** – The name of the team member. For example, enter **"ScheduleAPIDemoTM1"**.
 
@@ -129,7 +128,7 @@ Follow these steps to create a sample project.
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the new step, select the ellipsis (**...**), and then select **Rename**.
+3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Create Operation Set**.
 5. In the **Action Name** field, select the **msdyn\_CreateOperationSetV1** Dataverse custom action.
 6. In the **Description** field, enter **ScheduleAPIDemoOperationSet**.
@@ -139,7 +138,7 @@ Follow these steps to create a sample project.
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **add new row**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the new step, select the ellipsis (**...**), and then select **Rename**.
+3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Create Bucket**.
 5. In the **Table Name** field, select **Project Buckets**.
 6. In the **Name** field, enter **ScheduleAPIDemoBucket1**.
@@ -151,7 +150,7 @@ Follow these steps to create a sample project.
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the new step, select the ellipsis (**...**), and then select **Rename**.
+3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Init Number of tasks**.
 5. In the **Name** field, enter **number of tasks**.
 6. In the **Type** field, select **Integer**.
@@ -161,7 +160,7 @@ Follow these steps to create a sample project.
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the new step, select the ellipsis (**...**), and then select **Rename**.
+3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Init ProjectTaskID**.
 5. In the **Name** field, enter **msdyn_projecttaskid**.
 6. In the **Type** field, select **String**.
@@ -179,7 +178,7 @@ Follow these steps to create a sample project.
 
 1. In the flow, select **Add an action**.
 2. In the **Choose an operation** dialog box, in the search field, enter **set variable**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the new step, select the ellipsis (**...**), and then select **Rename**.
+3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Set Project Task**.
 5. In the **Name** field, select **msdyn\_projecttaskid**.
 6. For the **Value** field, enter **guid()** in the expression builder.
@@ -190,7 +189,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the step, select the ellipsis (**...**), and then select **Rename**.
+3. In the step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Create Project Task**.
 5. In the **Action Name** field, select **msdyn\_PssCreateV1**.
 6. In the **Entity** field, enter the following parameter information.
@@ -226,7 +225,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 1. In the flow, select **Add an action**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the step, select the ellipsis (**...**), and then select **Rename**.
+3. In the step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Create Assignment**.
 5. In the **Action Name** field, select **msdyn\_PssCreateV1**.
 6. In the **Entity** field, enter the following parameter information.
@@ -255,7 +254,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the step, select the ellipsis (**...**), and then select **Rename**.
+3. In the step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Rename Project Task**.
 5. In the **Action Name** field, select **msdyn\_PssUpdateV1**.
 6. In the **Entity** field, enter the following parameter information.
@@ -274,7 +273,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
-3. In the step, select the ellipsis (**...**), and then select **Rename**.
+3. In the step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Execute Operation Set**.
 5. In the **Action Name** field, select **msdyn\_ExecuteOperationSetV1**.
 6. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
