@@ -67,6 +67,6 @@ If auto update is unable to complete, update of your environment on the date def
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
-Please refer to the [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) for the the release schedule for Project management and accounting in the finance and operations apps environment. 
+Please refer to the [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) for the release schedule for Project management and accounting in the finance and operations apps environment. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
