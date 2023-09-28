@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | 
 | --- | --- |
-| 4.75.0.56 | 10.0.33 |
+| 4.75.0.56 | 10.0.35 |
 
 For Project Operations Resource/non-stocked scenario, we recommend that you use dual-write Orchestration version 2.3.1.15 or higher.
 
@@ -67,17 +67,6 @@ If auto update is unable to complete, update of your environment on the date def
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
-Updates for Project management and accounting are released eight times a year.
-
-|Supported Version| Preview availability | Generally available (self-update) | Autoupdate schedule (via LCS Update Settings) production start date |   End of service   |
-|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.33     |      March 3, 2023          |        April 14, 2023             |                          April 28, 2023                              | July 14, 2023      |
-|     10.0.32     |      January 30, 2023       |        March 17, 2023             |                          March 31, 2023                              | June 9, 2023       |
-
-Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
-
-|Targeted Version | Preview availability | Generally available (self-update) | Autoupdate schedule (via LCS Update Settings) production start date |   End of service   |
-|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.34     |      April 21, 2023         |       June 16, 2023               |                        June 30, 2023                                 | September 15, 2023 |
+Please refer to the [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) for the the release schedule for Project management and accounting in the finance and operations apps environment. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
