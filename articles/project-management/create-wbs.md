@@ -14,11 +14,11 @@ ms.author: abriccetti
 
 A project schedule communicates what work must be completed, which resources do the work, and the timeframe in which the work must be completed. The schedule reflects all the work associated with delivering the project on time. In Dynamics 365 Project Operations, you create a project schedule by:
 
-  - Breaking down the work into manageable tasks.
-  - Estimating the time that is required to do each task.
-  - Setting task dependencies.
-  - Setting task durations.
-  - Estimating the generic resources that complete the tasks. 
+- Breaking down the work into manageable tasks.
+- Estimating the time that is required to do each task.
+- Setting task dependencies.
+- Setting task durations.
+- Estimating the generic resources that complete the tasks. 
 
 The project schedule is created on the **Schedule** tab on the **Project** page.
 
@@ -46,7 +46,7 @@ Complete the following steps to add one or more tasks.
 1. Go to **Projects** and select and open the project record for which you want to create a schedule. 
 2. Select the **Tasks** tab. 
 3. Select **Add new task**, enter a name for the task, and then press Enter.
-2. Enter another task name and press Enter again until you have a full list of tasks.
+4. Enter another task name and press Enter again until you have a full list of tasks.
 
 ### Manage hierarchy of a task
 
@@ -55,14 +55,14 @@ When a task is indented, it becomes a child of the task that is directly above i
 Complete the following steps to indent or promote a task.
 
 1. On the **Project** page, on the **Tasks** tab, under **Summary tasks**, select the three vertical dots by the task name, and then select **Make subtask**. 
-2. Select the task to indent or promote. To select more than one task, select a task, press and hold Ctrl, and then select more tasks.
-2. Select **Indent** or **Promote subtask**  to move tasks under or out from under summary tasks.
+2. Select the task to indent or promote. To select more than one task, select a task, select and hold the **Ctrl** key, and then select more tasks.
+3. Select **Indent** or **Promote subtask** to move tasks under or out from under summary tasks.
 
 ### Move tasks up and down
 
 Tasks can be moved to any level in the work breakdown structure in one of two ways:
 
-- Select one or more tasks and drag them to the desired location.
+- Select one or more tasks, and drag them to the desired location.
 - Select one or more tasks, right-click and select **Cut**, select the destination cell in the schedule, and then right-click and select **Paste**.
 
 ## Task attributes
@@ -75,30 +75,30 @@ The **Effort**, **Start date**, **End date**, and **Duration** attributes define
 
 The following table shows more schedule attributes.
 
-| **Final display name** | **Final description** |
+| Final display name | Final description |
 | --- | --- |
 | Effort Completed (Hours) | Completed work for the task in hours. |
 | Duration | Displays the duration in days for the task. |
 | Total Effort | Total work for the task in hours. |
 | Finish | Finish date and time. |
 | % Complete | The percentage of the task that is complete. |
-| Project Bucket | The task board can be grouped by bucket so each bucket has its own column. |
+| Project Bucket | The task board can be grouped by bucket. Therefore, each bucket has its own column. |
 | Effort Remaining (Hours) | The remaining work for the task in hours. |
 | Start | Start date and time. |
 | Name | The name of the task. |
 | ID | The ID of the task in the work breakdown structure. |
 
-As an administrator, you can define custom fields on the task entity. However the fields can't be displayed on the schedule grid. To see your custom fields, add them to the **Project Task** details page.
+As an administrator, you can define custom fields on the task entity. However, the fields can't be displayed on the schedule grid. To see your custom fields, add them to the **Project Task** details page.
 
 ## Staffing attributes
 
-Staffing attributes are accessed through the **Resources** field in the schedule. You can either search for an existing resource, or select **Create**, and in the **Quick Create** pane, add a project team member as a new resource.  When you search for a resource using the resource picker in the task grid, board view or gantt, the search returns either existing project team members or active bookable resources.
+Staffing attributes are accessed through the **Resources** field in the schedule. You can either search for an existing resource, or select **Create**, and in the **Quick Create** pane, add a project team member as a new resource. When you search for a resource using the resource picker in the task grid, board view, or Gantt, the search returns either existing project team members or active bookable resources.
 
-The **Role**, **Resourcing Unit**, and **Position Name** fields are used to describe the staffing requirements for the task. These staffing attributes, together with the task schedule are used to find available resources to do this task.
+The **Role**, **Resourcing Unit**, and **Position Name** fields are used to describe the staffing requirements for the task. These staffing attributes, together with the task schedule, are used to find available resources to do this task.
 
-   - **Role**: Specify the type of resource that is required to do the task.
-   - **Resourcing unit**: Specify the unit that resources for the task should be assigned from. This attribute affects the cost and sales estimate for the task if the cost and bill rate for the resource are set based on resourcing units.
-   - **Position name**: Enter a name for the generic resource that serves as a placeholder for the resource that ultimately completes the work.
+- **Role** – Specify the type of resource that is required to do the task.
+- **Resourcing unit** – Specify the unit that resources for the task should be assigned from. This attribute affects the cost and sales estimate for the task if the cost and bill rate for the resource are set based on resourcing units.
+- **Position name** – Enter a name for the generic resource that serves as a placeholder for the resource that ultimately completes the work.
 
 The **Resources** field holds the position name of the generic resource or named resource when one is found.
 
@@ -112,30 +112,31 @@ The task mode has no effect on updates that are made to the start and end dates 
 
 ## Task labels
 
-You can apply labels on tasks and use this capability to quickly see what they have in common, to sort or filtering. To know more, see  [Use labels to sort tasks in Microsoft Project for the web.](https://support.microsoft.com/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c)
+You can apply labels on tasks and use this capability to quickly see what they have in common, to sort or filter. To learn more, see [Use labels to sort tasks in Microsoft Project for the web.](https://support.microsoft.com/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c)
 
 ## Understanding the impacts of duration, resource calendars, and project calendars on tasks
-A task's duration is defined as the number of working hours between the start time of the start date and end time of the finish date of the task.  By default, Project for the Web defines duration units of measure as follows:
 
-| **Measure of Duration** |	**Quantity**|
-|----------------------------------------------------|----------------------|
-| Hours per day	| 8 |
-| Hours per week |	40 |
-| Days per month |	20 |
+A task's duration is defined as the number of working hours between the start time of the start date and end time of the finish date of the task. By default, Project for the Web defines duration units of measure as follows.
 
-These duration conversions are editable at the project level to allow users in regions where work hours are defined differently than these defaults.
+| Measure of duration | Quantity |
+|---------------------|----------|
+| Hours per day | 8 |
+| Hours per week | 40 |
+| Days per month | 20 |
+
+These duration conversions can be edited at the project level to support users in regions where work hours are defined differently than these default durations.
 
 > [!NOTE]
-> These durations (whether default or customized) are only used to convert to hours when defining effort on a task.
+> These durations (whether default or customized) are used to convert to hours only when effort on a task is defined.
 
 Unassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment is governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 > [!NOTE]
 > Project for the Web does not respect business closures that are defined in the resource or project calendars.
 
-It's important to note that a resource assignment can only be created when the end of the resource's calendar rule overlaps with the task's end date. This means if your calendar rule finishes before the end of the task, the assignment won't be scheduled as there won't be enough time in the schedule for the resource to perform the task.
+It's important to note that a resource assignment can be created only when the end of the resource's calendar rule overlaps the task's end date. Therefore, if your calendar rule ends before the end of the task, the assignment isn't scheduled, because there isn't enough time in the schedule for the resource to perform the task.
 
-For example, if a resource calendar begins on Wednesday March 1, 2023, but ends on Friday, April 14, 2023. In the project where this resource is added, any tasks assigned to this resource can't end later than April 14, 2023. Otherwise, they aren't scheduled because they exceed the last day of the resource's calendar.
+For example, a resource calendar begins on Wednesday March 1, 2023, but ends on Friday, April 14, 2023. In the project where this resource is added, tasks that are assigned to this resource can't end later than April 14, 2023. Otherwise, they aren't scheduled, because they exceed the last day of the resource's calendar.
 
 ![Screenshot example of scheduling tasks.](media/Create-wbs-figure-01.png)
 
@@ -145,23 +146,24 @@ The screenshot above shows, in green color, which tasks can be scheduled because
 
 The **Schedule** grid is fully accessible and can be used with screen readers such as Narrator, JAWS, or NVDA. You can move through the grid area by using arrow keys (as in Microsoft Excel), you can use the Tab key to advance through the interactive user interface elements, and you can use the Down arrow key, the Enter key, or the Spacebar to select and open the drop-down menus.
 
-## Project limitations 
+## Project limitations
+
 You should be aware of the following limitations if you're using the work breakdown structure in Project Operations. These limits apply to projects and tasks. For more information, see [Project for the web limits and boundaries](/project-for-the-web/project-for-the-web-limits-and-boundaries).
 
-| **Field**                                          |  **Limit**           |
+| Field                                              |  Limit               |
 |----------------------------------------------------|----------------------|
-| Maximum total tasks for a project                  | 500*                  |
+| Maximum total tasks for a project                  | 500\*                |
 | Maximum total duration for a project               | 3650 days (10 years) |
 | Maximum total resources for a project              | 300                  |
 | Maximum total links (successor only) for a project | 600                  |
 | Maximum total custom fields for a project          | 10                   |
 | Maximum checklist items per task                   | 20                   |
 
-*We are currently running a private preview of increased task limits to 1000 tasks per project. Sign up [here](https://aka.ms/PO1000tasklimit) to request access
+\* We are currently running a private preview of increased task limits to 1,000 tasks per project. To request access, sign up at [Microsoft Dynamics 365 Project Operations Increased Task Limit Private Preview](https://aka.ms/PO1000tasklimit).
 
 **Task limitations**
 
-| **Field**                               |   **Limit**           |
+| Field                                   |   Limit               |
 |-----------------------------------------|-----------------------|
 | Maximum hierarchy level                 | 10 levels             |
 | Maximum links (successor + predecessor) | 20                    |
@@ -170,12 +172,8 @@ You should be aware of the following limitations if you're using the work breakd
 | Maximum resources assigned to a task    | 20 resources          |
 | Supported date range for a task         | 1/1/2000 - 12/31/2149 |
 
-
 ## Planning a project in sprints
 
-You can also use sprints and plan your project based on agile project management. To know more, see [Plan a project in sprints in Project for the web.](https://support.microsoft.com/office/plan-a-project-in-sprints-in-project-for-the-web-7536fbef-0ece-47bf-beae-6a8ac2c69955)
-
-
-
+You can also use sprints and plan your project based on agile project management. To learn more, see [Plan a project in sprints in Project for the web.](https://support.microsoft.com/office/plan-a-project-in-sprints-in-project-for-the-web-7536fbef-0ece-47bf-beae-6a8ac2c69955)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
