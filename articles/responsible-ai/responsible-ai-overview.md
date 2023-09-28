@@ -17,5 +17,5 @@ ms.reviewer: johnmichalak
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
 
 
-- [Project management Copilot overview](../project-operations/project-management/copilot-features.md)
+- [Project management Copilot overview](../project-management/copilot-features.md)
 
