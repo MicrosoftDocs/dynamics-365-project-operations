@@ -53,7 +53,7 @@ You can create the Power Automate flow in your environment.
 
 Follow these steps to create a [solution-aware flow](/power-automate/overview-solution-flows). By creating a solution-aware flow, you can more easily export the flow to use it later.
 
-1. In the navigation pane, select **Solutions**.
+1. On the navigation pane, select **Solutions**.
 2. On the **Solutions** page, select **New solution**.
 3. In the **New solution** dialog box, set the required fields, and then select **Create**.
 
@@ -62,7 +62,7 @@ Follow these steps to create a [solution-aware flow](/power-automate/overview-so
 1. On the **Solutions** page, select the solution that you created, and then select **New**.
 2. In the left pane, select **Cloud flows** \> **Automation** \> **Cloud flow** \> **Instant**.
 3. In the **Flow name** field, enter **Schedule API Demo Flow**.
-4. In the **Choose how to trigger this flow** list, select **Power Apps**. When you create a Power Apps trigger, the logic is up to you as the author. In this article, leave the input parameters blank for testing purposes.
+4. In the **Choose how to trigger this flow** list, select **Power Apps**. When you create a Power Apps trigger, the logic is up to you as the author. For the example in this article, leave the input parameters blank for testing purposes.
 5. Select **Create**.
 
 ## <a id="2"></a>Step 2: Create a project
