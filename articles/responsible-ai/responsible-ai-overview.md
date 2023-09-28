@@ -17,5 +17,5 @@ ms.reviewer: johnmichalak
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
 
 
-- [FAQ for Supplier news communication](faq-for-supplier-news-communication.md)
+- [Project management Copilot overview](../project-operations/project-management/copilot-features.md)
 
