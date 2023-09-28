@@ -150,12 +150,14 @@ You should be aware of the following limitations if you're using the work breakd
 
 | **Field**                                          |  **Limit**           |
 |----------------------------------------------------|----------------------|
-| Maximum total tasks for a project                  | 500                  |
+| Maximum total tasks for a project                  | 500*                  |
 | Maximum total duration for a project               | 3650 days (10 years) |
 | Maximum total resources for a project              | 300                  |
 | Maximum total links (successor only) for a project | 600                  |
 | Maximum total custom fields for a project          | 10                   |
 | Maximum checklist items per task                   | 20                   |
+
+*We are currently running a private preview of increased task limits to 1000 tasks per project. Sign up [here](https://aka.ms/PO1000tasklimit) to request access
 
 **Task limitations**
 
