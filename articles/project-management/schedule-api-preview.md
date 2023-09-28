@@ -20,7 +20,7 @@ Project schedule APIs provide the ability to perform create, update, and delete 
 
 The following table provides a full list of the Project schedule entities.
 
-| **Entity name**         | **Entity logical name**     |
+| Entity name             | Entity logical name         |
 |-------------------------|-----------------------------|
 | Project                 | msdyn_project               |
 | Project Task            | msdyn_projecttask           |
@@ -41,73 +41,73 @@ OperationSet is a unit-of-work pattern that can be used when several schedule im
 
 The following is a list of current Project schedule APIs.
 
-| **API**                                 | Description                                                                                                                       |
-|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately.                         |
-| **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately.                                  |
-| **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction.                                        |
+| API                                     | Description |
+|-----------------------------------------|-------------|
+| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately. |
+| **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately. |
+| **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction. |
 | **msdyn_PssCreateV1**                   | This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation. |
-| **msdyn_PssCreateV2**                   | This API is used to create an entity. It functions similar to msdyn_PssCreateV1, however, multiple entities can be created in one action. |
-| **msdyn_PssUpdateV1**                   | This API is used to update an entity. The entity can be any of the Project scheduling entities that support the update operation.  |
-| **msdyn_PssUpdateV2**                   | This API is used to updated entities. It functions similar to msdyn_PssUpdateV1, however, multiple entities can be updated in one action. |
+| **msdyn_PssCreateV2**                   | This API is used to create an entity. It works like **msdyn_PssCreateV1**, but multiple entities can be created in one action. |
+| **msdyn_PssUpdateV1**                   | This API is used to update an entity. The entity can be any of the Project scheduling entities that support the update operation. |
+| **msdyn_PssUpdateV2**                   | This API is used to updated entities. It works like **msdyn_PssUpdateV1**, but multiple entities can be updated in one action. |
 | **msdyn_PssDeleteV1**                   | This API is used to delete an entity. The entity can be any of the Project scheduling entities that support the delete operation. |
-| **msdyn_PssDeleteV2**                   | This API is used to delete entities. It functions similar to msdyn_PssDeleteV1, however, multiple entities can be deleted in one action. |
-| **msdyn_ExecuteOperationSetV1**         | This API is used to execute all the operations within the given operation set.                                                 |
-| **msdyn_PssUpdateResourceAssignmentV1** | This API is used to update a Resource Assignment planned work contour.                                                        |
-
-
+| **msdyn_PssDeleteV2**                   | This API is used to delete entities. It works like **msdyn_PssDeleteV1**, but multiple entities can be deleted in one action. |
+| **msdyn_ExecuteOperationSetV1**         | This API is used to execute all the operations within the given operation set. |
+| **msdyn_PssUpdateResourceAssignmentV1** | This API is used to update a Resource Assignment planned work contour. |
 
 **Using Project schedule APIs with OperationSet**
 
-Because records with both **CreateProjectV1** and **CreateTeamMemberV1** are created immediately, these APIs can't be used in the **OperationSet** directly. However, you can use the API to create needed records, create an **OperationSet**, and then use these precreated records in the **OperationSet**.
+Because records are created immediately for both **CreateProjectV1** and **CreateTeamMemberV1**, these APIs can't be used directly in the **OperationSet**. However, you can use them to create the required records, create an **OperationSet**, and then use the pre-created records in the **OperationSet**.
 
 **Supported operations**
 
-| **Scheduling entity**   | **Create** | **Update** | **Delete** | **Important considerations**                                                                                                                                                                                                                                                                                                                            |
-|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Project task            | Yes        | Yes        | Yes        | The **Progress**, **EffortCompleted**, and **EffortRemaining** fields can be edited in Project for the Web, but they can't be edited in Project Operations.                                                                                                                                                                                             |
-| Project task dependency | Yes        | No         | Yes        | Project task dependency records aren't updated. Instead, an old record can be deleted, and a new record can be created.                                                                                                                                                                                                                                 |
-| Resource assignment     | Yes        | Yes\*      | Yes        | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, and **PlannedWork**. \*Resource assignment records aren't updated. Instead, the old record can be deleted, and a new record can be created. A separate API has been provided to update Resource Assignment contours. |
-| Project bucket          | Yes        | Yes        | Yes        | The default bucket is created by using the **CreateProjectV1** API. Support for creating and deleting project buckets was added in Update Release 16.                                                                                                                                                                                                   |
-| Project team member     | Yes        | Yes        | Yes        | For the create operation, use the **CreateTeamMemberV1** API.                                                                                                                                                                                                                                                                                           |
-| Project                 | Yes        | Yes        |            | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**.                                                                                       |
-| Project Checklists      | Yes        | Yes        | Yes        |                                                                                                                                                                                                                                                                                                                                                         |
-| Project Label           | No         | Yes        | No         | Label names can be changed. This feature is only available for Project for the Web. Labels are created the first you open a project.                                                                                                                                                                                                                                                                       |
-| Project Task to Label   | Yes        | No         | Yes        | This feature is only available for Project for the Web.                                                                                                                                                                                                                                                                                                  |
-| Project Sprint          | Yes        | Yes        | Yes        | The **Start** field must have a date earlier than the **Finish** field. Sprints for the same project can't overlap with each other. This feature is only available for Project for the Web                                                                                                                                                                    |
-| Project Goal            | Yes        | Yes        | Yes        | Operations with the following fields aren’t supported: DescriptionPlainText, TaskDisplayOrder                                                                                                                                                                     |
-| Project Task to Goal    | Yes        | No         | Yes        | Operations with the following fields aren’t supported: TaskDisplayOrder                                                                                                                                                     |
+| Scheduling entity       | Create     | Update     | Delete     | Important considerations |
+|-------------------------|------------|------------|------------|--------------------------|
+| Project task            | Yes        | Yes        | Yes        | The **Progress**, **EffortCompleted**, and **EffortRemaining** fields can be edited in Project for the Web, but they can't be edited in Project Operations. |
+| Project task dependency | Yes        | No         | Yes        | Project task dependency records aren't updated. Instead, an old record can be deleted, and a new record can be created. |
+| Resource assignment     | Yes        | Yes\*      | Yes        | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, and **PlannedWork**.  |
+| Project bucket          | Yes        | Yes        | Yes        | The default bucket is created by using the **CreateProjectV1** API. Support for creating and deleting project buckets was added in Update Release 16. |
+| Project team member     | Yes        | Yes        | Yes        | For the create operation, use the **CreateTeamMemberV1** API. |
+| Project                 | Yes        | Yes        |            | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
+| Project Checklists      | Yes        | Yes        | Yes        | |
+| Project Label           | No         | Yes        | No         | Label names can be changed. This feature is only available for Project for the Web. Labels are created the first you open a project. |
+| Project Task to Label   | Yes        | No         | Yes        | This feature is only available for Project for the Web. |
+| Project Sprint          | Yes        | Yes        | Yes        | The **Start** field must have a date earlier than the **Finish** field. Sprints for the same project can't overlap each other. This feature is only available for Project for the Web. |
+| Project Goal            | Yes        | Yes        | Yes        | Operations with the following fields aren't supported: DescriptionPlainText, TaskDisplayOrder |
+| Project Task to Goal    | Yes        | No         | Yes        | Operations with the following fields aren't supported: TaskDisplayOrder |
 
+\* Resource assignment records aren't updated. Instead, the old record can be deleted, and a new record can be created. A separate API has been provided to update Resource Assignment contours.
 
-
-The ID property is optional. If it's provided, the system attempts to use it and throws an exception if it can't be used. If it isn't provided, the system generates it.
+The ID property is optional. If it's provided, the system tries to use it and throws an exception if it can't be used. If it isn't provided, the system generates it.
 
 **Limitations and known issues**
 
 The following is a list of limitations and known issues:
 
--   Project Schedule APIs can only be used by **Users with Microsoft Project License**. They can't be used by:
-    -   Application users
-    -   System users
-    -   Integration users
-    -   Other users that don't have the required license
--   Each **OperationSet** can only have a maximum of 200 operations.
--   Each user can only have a maximum of 10 open **OperationSets**.
--   Project Operations currently supports a maximum of 500 total tasks on a project.
--   Each Update Resource Assignment Contour operation counts as a single operation.
--   Each list of updated contours can contain a maximum of 100 time slices.
--   **OperationSet** failure status and failure logs aren't currently available.
--   There's a maximum of 400 sprints per project.
--   [Limits and boundaries on projects and tasks](/project-for-the-web/project-for-the-web-limits-and-boundaries).
--   Labels are currently only available for Project for the Web.
--   Labels are created the first time you open a project.
--   There's a maximum of 10 goals per project.
--   Each task can appear in Project Task to Goal once.
+- Project Schedule APIs can only be used by **Users with Microsoft Project License**. They can't be used by:
+
+    - Application users
+    - System users
+    - Integration users
+    - Other users that don't have the required license
+
+- Each **OperationSet** can only have a maximum of 200 operations.
+- Each user can only have a maximum of 10 open **OperationSets**.
+- Project Operations currently supports a maximum of 500 total tasks on a project.
+- Each Update Resource Assignment Contour operation counts as a single operation.
+- Each list of updated contours can contain a maximum of 100 time slices.
+- **OperationSet** failure status and failure logs aren't currently available.
+- There's a maximum of 400 sprints per project.
+- [Limits and boundaries on projects and tasks](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+- Labels are currently only available for Project for the Web.
+- Labels are created the first time you open a project.
+- There's a maximum of 10 goals per project.
+- Each task can appear in Project Task to Goal once.
 
 **Error handling**
 
--   To review errors generated from the Operation Sets, go to **Settings** \> **Schedule Integration** \> **Operations Sets**.
--   To review errors generated from the Project schedule Service, go to **Settings** \> **Schedule Integration** \> **PSS Error Logs**.
+- To review errors generated from the Operation Sets, go to **Settings** \> **Schedule Integration** \> **Operations Sets**.
+- To review errors generated from the Project schedule Service, go to **Settings** \> **Schedule Integration** \> **PSS Error Logs**.
 
 **Editing Resource Assignment Contours**
 
@@ -115,11 +115,11 @@ Unlike all other project scheduling APIs that update an entity, the resource ass
 
 Given schedule mode is:
 
--   **fixed units**
--   project calendar is 9-5 pm is 9-5 pm pst, Mon, Tue, Thurs, Friday (NO WORK WEDNESDAYS)
--   and resource calendar is 9-1 pm PST Mon to Fri
+- **fixed units**.
+- The project calendar is from 9:00 to 5:00 PM (Pacific Time) Monday, Tuesday, Thursday, and Friday. (*There's no work on Wednesdays.*)
+- The resource calendar is from 9:00 AM to 1:00 PM (Pacific Time) Monday through Friday.
 
-This assignment is for one week, four hours a day. This is because the resource calendar is from 9-1 PST, or four hours a day.
+This assignment is for one week, four hours a day. This is because the resource calendar is from 9:00 AM to 1:00 PM (Pacific Time), or four hours a day.
 
 | &nbsp;     | Task | Start Date | End Date  | Quantity | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
@@ -127,7 +127,7 @@ This assignment is for one week, four hours a day. This is because the resource 
 
 For example, if you want the worker to only work three hours each day this week and allow for one hour for other tasks.
 
-#### UpdatedContours sample payload:
+#### UpdatedContours sample payload
 
 ```json
 [{
@@ -150,7 +150,7 @@ This is the assignment after the Update Contour Schedule API is run.
 
 **Sample scenario**
 
-In this scenario, you'll create a project, a team member, four tasks, and two resource assignments. Next, you'll update one task, update the project, update a resource assignment contour, delete one task, delete one resource assignment, and create a task dependency.
+In this scenario, you create a project, a team member, four tasks, and two resource assignments. Next, you update one task, update the project, update a resource assignment contour, delete one task, delete one resource assignment, and create a task dependency.
 
 ```csharp
 Entity project = CreateProject();
@@ -208,7 +208,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-** Additional samples
+**Additional samples**
 
 ```csharp
 #region Call actions --- Sample code ----
