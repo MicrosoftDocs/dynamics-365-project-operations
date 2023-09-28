@@ -23,7 +23,7 @@ See the release plans for what's coming. Choose the following link to learn abou
 
 Learn more about what's new or changed in recent releases in the links in the following table.
 
-| Version | Build number | Auto-update availability | Learn more |
+| Version | Build number | Autoupdate availability | Learn more |
 |---------|--------------|---------------|-------------|
 | Dataverse 4.76.0.200 </br> Finance 10.0.36 |     | September 2023    | [Project Operations for resource/non-stocked based scenarios](whats-new-sept-2023-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-sept-2023-lite.md)  </br> [Project Operations for stocked/production-based scenarios](../prod-pma/whats-new/whats-new-sept-2023-stocked.md)|
 | Dataverse 4.75.0.56 </br> Finance 10.0.35 |     | August 2023    | [Project Operations for resource/non-stocked based scenarios](whats-new-aug-2023-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-aug-2023-lite.md)  </br> [Project Operations for stocked/production-based scenarios](../prod-pma/whats-new/whats-new-aug-2023-stocked.md)|
