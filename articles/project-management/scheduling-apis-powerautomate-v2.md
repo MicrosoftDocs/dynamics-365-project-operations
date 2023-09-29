@@ -1,39 +1,39 @@
 ---
-title: Use V1 Project schedule APIs with Power Automate
-description: This article provides a sample flow that uses the V1 Project schedule APIs.
+title: Use V2 Project schedule APIs with Power Automate
+description: This article provides a sample flow that uses the V2 Project schedule APIs.
 author: abriccetti
 ms.date: 09/20/2023
-ms.topic: how-to
-ms.custom: bap-template
+ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
 
-# Use V1 Project schedule APIs with Power Automate
+# Use V2 Project schedule APIs with Power Automate
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This article describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example demonstrates how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This article also explains how to update an entity and run an Operation Set.
+This article describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example shows how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This article also explains how to update an entity and run an Operation Set.
 
-The example in this article uses the PssCreateV1 API. For an example that uses the PssCreateV2 API, see [V2 Project schedule APIs with Power Automate](scheduling-apis-powerautomate-v2.md).
+The example in this article uses the PssCreateV2 API. For an example that uses the PssCreateV1 API, see [Use V1 Project schedule APIs with Power Automate](scheduling-apis-powerautomate.md).
 
 Here's a complete list of the steps that are documented in the sample flow in this article:
 
 1. [Create a PowerApps trigger](#1)
-2. [Create a project](#2)
-3. [Initialize a variable for the team member](#3)
-4. [Create a generic team member](#4)
-5. [Create an Operation Set](#5)
-6. [Create a project bucket](#6)
-7. [Initialize a variable for the number of tasks](#7)
-8. [Initialize a variable for the project task ID](#8)
-9. [Do until](#9)
-10. [Set a project task](#10)
-11. [Create a project task](#11)
-12. [Create a resource assignment](#12)
-13. [Decrement a variable](#13)
-14. [Rename a project task](#14)
-15. [Run an Operation Set](#15)
+1. [Create a project](#2)
+1. [Initialize a variable for the team member](#3)
+1. [Create a generic team member](#4)
+1. [Create an Operation Set](#5)
+1. [Create a project bucket](#6)
+1. [Initialize a variable for the number of tasks](#7)
+1. [Initialize a variable for the project task ID](#8)
+1. [Initialize an array](#9)
+1. [Do until](#10)
+1. [Set a project task](#11)
+1. [Add a task to the array](#12)
+1. [Create a resource assignment](#13)
+1. [Decrement a variable](#14)
+1. [Add Tasks and Assignments to the Operation Set](#15)
+1. [Run an Operation Set](#16)
 
 ## Assumptions
 
@@ -120,7 +120,7 @@ Follow these steps to create a sample project.
     Here's an explanation of the parameters:
 
     - **\@\@odata.type** – The entity name. For example, enter **"Microsoft.Dynamics.CRM.msdyn\_projectteam"**.
-    - **msdyn\_projectteamid** – The primary key of the project team ID. The value is a globally unique identifier (GUID) expression. The ID is generated from the expression tab.
+    - **msdyn\_projectteamid** – The primary key of the project team ID. The value is a globally unique identifier (GUID) expression. The ID is generated from the **Expression** tab.
     - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value is dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
     - **msdyn\_name** – The name of the team member. For example, enter **"ScheduleAPIDemoTM1"**.
 
@@ -132,7 +132,7 @@ Follow these steps to create a sample project.
 4. Rename the step **Create Operation Set**.
 5. In the **Action Name** field, select the **msdyn\_CreateOperationSetV1** Dataverse custom action.
 6. In the **Description** field, enter **ScheduleAPIDemoOperationSet**.
-7. In the **Project** field, from the **Dynamic content** dialog box, select **msdyn_CreateProjectV1Response ProjectId**.
+7. For the **Project** field, select **msdyn\_CreateProjectV1Response ProjectId** in the **Dynamic content** dialog box.
 
 ## <a id="6"></a>Step 6: Create a project bucket
 
@@ -142,7 +142,7 @@ Follow these steps to create a sample project.
 4. Rename the step **Create Bucket**.
 5. In the **Table Name** field, select **Project Buckets**.
 6. In the **Name** field, enter **ScheduleAPIDemoBucket1**.
-7. In the **Project** field, enter **/msdyn_projects(**.
+7. In the **Project** field, enter **/msdyn\_projects(**.
 8. In the **Dynamic content** dialog box, select **msdyn\_CreateProjectV1Response ProjectId**.
 9. In the **Project** field, enter **)**.
 
@@ -162,11 +162,20 @@ Follow these steps to create a sample project.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Init ProjectTaskID**.
-5. In the **Name** field, enter **msdyn_projecttaskid**.
+5. In the **Name** field, enter **msdyn\_projecttaskid**.
 6. In the **Type** field, select **String**.
 7. For the **Value** field, enter **guid()** in the expression builder.
 
-## <a id="9"></a>Step 9: Do until
+## <a id="9"></a>Step 9: Initialize an array
+
+1. In the flow, select **New step**.
+2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
+3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
+4. Rename the step **Init Array**.
+5. In the **Name** field, enter **Tasks and Assignments**.
+6. In the **Type** field, select **Array**.
+
+## <a id="10"></a>Step 10: Do until
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **do until**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -174,7 +183,7 @@ Follow these steps to create a sample project.
 4. Set the condition to **less than equal to**.
 5. Set the second value in the conditional statement to **0**.
 
-## <a id="10"></a>Step 10: Set a project task
+## <a id="11"></a>Step 11: Set a project task
 
 1. In the flow, select **Add an action**.
 2. In the **Choose an operation** dialog box, in the search field, enter **set variable**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -183,16 +192,14 @@ Follow these steps to create a sample project.
 5. In the **Name** field, select **msdyn\_projecttaskid**.
 6. For the **Value** field, enter **guid()** in the expression builder.
 
-## <a id="11"></a>Step 11: Create a project task
-
-Follow these steps to create a project task that has a unique ID that belongs to the current project and the project bucket that you created.
+## <a id="12"></a>Step 12: Add a task to the array
 
 1. In the flow, select **New step**.
-2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
+2. In the **Choose an operation** dialog box, in the search field, enter **Append to array**.
 3. In the step, select the ellipsis (**&hellip;**), and then select **Rename**.
-4. Rename the step **Create Project Task**.
-5. In the **Action Name** field, select **msdyn\_PssCreateV1**.
-6. In the **Entity** field, enter the following parameter information.
+4. Rename the step **Add Task to Array**.
+5. In the **Name** field, select **Tasks and Assignments**.
+6. In the **Value** field, enter the following parameter information.
 
     ```
     {
@@ -203,7 +210,8 @@ Follow these steps to create a project task that has a unique ID that belongs to
         "msdyn_projectbucket@odata.bind": "/msdyn_projectbuckets(@{outputs('Create_Bucket')?['body/msdyn_projectbucketid']})",
         "msdyn_start": "@{addDays(utcNow(), 1)}",
         "msdyn_scheduledstart": "@{utcNow()}",
-        "msdyn_scheduledend": "@{addDays(utcNow(), 5)}"
+        "msdyn_scheduledend": "@{addDays(utcNow(), 5)}",
+        "msdyn_LinkStatus": "192350000"
     }
     ```
 
@@ -217,18 +225,16 @@ Follow these steps to create a project task that has a unique ID that belongs to
     - **msdyn\_start** – Dynamic content for the start date. For example, tomorrow is represented as **"addDays(utcNow(), 1)"**.
     - **msdyn\_scheduledstart** – The scheduled start date. For example, tomorrow is represented as **"addDays(utcNow(), 1)"**.
     - **msdyn\_scheduleend** – The scheduled end date. Select a date in the future. For example, specify **"addDays(utcNow(), 5)"**.
-    - **msdyn\_LinkStatus** – The link status. For example, enter **"192350000"**.
+    - **msdyn\_LinkStatus** – The link to the billing setup. For example, enter **"192350000"** if there's no link to the billing setup or **"192350001"** if the billing setup is linked.
 
-7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
-
-## <a id="12"></a>Step 12: Create a resource assignment
+## <a id="13"></a>Step 13: Create a resource assignment
 
 1. In the flow, select **Add an action**.
-2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
+2. In the **Choose an operation** dialog box, in the search field, enter **Append to Array**.
 3. In the step, select the ellipsis (**&hellip;**), and then select **Rename**.
-4. Rename the step **Create Assignment**.
-5. In the **Action Name** field, select **msdyn\_PssCreateV1**.
-6. In the **Entity** field, enter the following parameter information.
+4. Rename the step **Add Assignment to Array**.
+5. In the **Name** field, select **Tasks and Assignments**.
+6. In the **Value** field, enter the following parameter information.
 
     ```
     {
@@ -241,35 +247,24 @@ Follow these steps to create a project task that has a unique ID that belongs to
     }
     ```
 
-7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
-
-## <a id="13"></a>Step 13: Decrement a variable
+## <a id="14"></a>Step 14: Decrement a variable
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **decrement variable**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the **Name** field, select **number of tasks**.
 4. In the **Value** field, enter **1**.
 
-## <a id="14"></a>Step 14: Rename a project task
-
+## <a id="15"></a>Step 15: Add Tasks and Assignments to the Operation Set
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the step, select the ellipsis (**&hellip;**), and then select **Rename**.
-4. Rename the step **Rename Project Task**.
-5. In the **Action Name** field, select **msdyn\_PssUpdateV1**.
-6. In the **Entity** field, enter the following parameter information.
+4. Rename the step **Add Tasks and Assignments to Operation Set**.
+5. In the **Action Name** field, select **msdyn\_PssCreateV2**.
+6. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
+7. In the **EntityCollection** field, select **Switch Input to Entire Array**.
+8. For the **EntityCollection** field, select **Tasks and Assignments** in the **Dynamic content** dialog box.
 
-    ```
-    {
-        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projecttask",
-        "msdyn_projecttaskid": "@{variables('msdyn_projecttaskid')}",
-        "msdyn_subject": "ScheduleDemoTask1-UpdatedName"
-    }
-    ```
-
-7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
-
-## <a id="15"></a>Step 15: Run an Operation Set
+## <a id="16"></a>Step 16: Run an Operation Set
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
