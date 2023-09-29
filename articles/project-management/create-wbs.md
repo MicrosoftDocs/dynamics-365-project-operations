@@ -124,7 +124,7 @@ A task's duration is defined as the number of working hours between the start ti
 | Hours per week | 40 |
 | Days per month | 20 |
 
-These duration conversions can be edited at the project level to support users in regions where work hours are defined differently than these default durations.
+These duration conversions can be edited at the project level to support users in regions where work hours are defined differently than these default durations. Zero is not a valid quantity for hours or days.
 
 > [!NOTE]
 > These durations (whether default or customized) are used to convert to hours only when effort on a task is defined.
