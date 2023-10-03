@@ -22,7 +22,7 @@ To use this feature for **Microsoft Dynamics 365 Project Operations non-stocked/
 **Dynamics 365 Finance** version 10.0.38 or later.
 
 ## Run dual-write maps for the vendor invoice lines
-Make sure that the mapping for Project Operations integration **project vendor invoice line export entity V2** and **msdyn_projectvendorinvoices** uses version 1.0.0.0 or later.
+Make sure that the mapping for Project Operations integration **project vendor invoice line export entity** and **msdyn_projectvendorinvoicelines** uses version **1.0.0.6** or later.
 
 The following screenshot shows the dual-write entity map that's used for vendor invoice lines.
 
