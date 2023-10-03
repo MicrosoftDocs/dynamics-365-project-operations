@@ -26,8 +26,11 @@ Make sure that the mapping for Project Operations integration **project vendor i
 
 The following screenshot shows the dual-write entity map that's used for vendor invoice lines.
 
+![Screenshot of the dual-write maps.](../media/MKVendorInvoiceLinesDualWrite.png)
+
 The following screenshot shows the dual-write field mapping that's used for vendor invoices lines.
 
+![Screenshot of the dual-write maps.](../media/MKVendorInvoiceLinesDetailDualWrite.png)
 ## Create and post intercompany vendor invoice
 **USPM**, the lending legal entity, must create and post the intercompany vendor invoice for a project from **GBPM**, the borrowing legal entity. 
 This **vendor invoice** represents the outsourced labor and expense that were performed by vendors that are paid by USPM.
