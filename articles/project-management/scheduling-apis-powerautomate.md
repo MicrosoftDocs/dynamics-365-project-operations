@@ -24,16 +24,17 @@ Here's a complete list of the steps that are documented in the sample flow in th
 3. [Initialize a variable for the team member](#3)
 4. [Create a generic team member](#4)
 5. [Create an Operation Set](#5)
-6. [Create a project bucket](#6)
-7. [Initialize a variable for the number of tasks](#7)
-8. [Initialize a variable for the project task ID](#8)
-9. [Do until](#9)
-10. [Set a project task](#10)
-11. [Create a project task](#11)
-12. [Create a resource assignment](#12)
-13. [Decrement a variable](#13)
-14. [Rename a project task](#14)
-15. [Run an Operation Set](#15)
+6. [Initialize a variable for the Project Bucket Id](#6)
+7. [Create a project bucket](#7)
+8. [Initialize a variable for the number of tasks](#8)
+9. [Initialize a variable for the project task ID](#9)
+10. [Do until](#10)
+11. [Set a project task](#11)
+12. [Create a project task](#12)
+13. [Create a resource assignment](#13)
+14. [Decrement a variable](#14)
+15. [Rename a project task](#15)
+16. [Run an Operation Set](#16)
 
 ## Assumptions
 
@@ -134,17 +135,42 @@ Follow these steps to create a sample project.
 6. In the **Description** field, enter **ScheduleAPIDemoOperationSet**.
 7. In the **Project** field, from the **Dynamic content** dialog box, select **msdyn_CreateProjectV1Response ProjectId**.
 
-## <a id="6"></a>Step 6: Create a project bucket
+## <a id="6"></a>Step 6: Initialize variable for Project Bucket Id
 
 1. In the flow, select **New step**.
-2. In the **Choose an operation** dialog box, in the search field, enter **add new row**. Then, on the **Actions** tab, select the operation in the list of results.
+2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
+4. Rename the step **Init Project Bucket Id**.
+5. In the **Name** field, enter **project bucket id**.
+6. In the **Type** field, select **String**.
+7. In the **Value** field, enter **@{guid()}**.
+
+## <a id="7"></a>Step 6: Create a project bucket
+
+1. In the flow, select **Add an action**.
+2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
+3. In the step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Create Bucket**.
-5. In the **Table Name** field, select **Project Buckets**.
-6. In the **Name** field, enter **ScheduleAPIDemoBucket1**.
-7. In the **Project** field, enter **/msdyn_projects(**.
-8. In the **Dynamic content** dialog box, select **msdyn\_CreateProjectV1Response ProjectId**.
-9. In the **Project** field, enter **)**.
+5. 5. In the **Action Name** field, select **msdyn\_PssCreateV1**.
+6. In the **Entity** field, enter the following parameter information.
+
+    ```
+    {
+        "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projectbucket",
+        "msdyn_projectbucketid": "@{variables('project bucket id')}",
+        "msdyn_name": "ScheduleAPIDemoBucket1",
+        "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
+    }
+    ```
+
+    Here's an explanation of the parameters:
+
+    - **\@\@odata.type** – The entity name. For example, enter **"Microsoft.Dynamics.CRM.msdyn\_projectbucket"**.
+    - **msdyn\_projectbucketid** – The unique ID of the project bucket. The value should be set from the dynamic variable from [step 6](#6).
+    - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value is dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_name** – the project bucket name.
+
+7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
 
 ## <a id="7"></a>Step 7: Initialize a variable for the number of tasks
 
@@ -200,7 +226,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
         "msdyn_projecttaskid": "@{variables('msdyn_projecttaskid')}",
         "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
         "msdyn_subject": "ScheduleAPIDemoTask1",
-        "msdyn_projectbucket@odata.bind": "/msdyn_projectbuckets(@{outputs('Create_Bucket')?['body/msdyn_projectbucketid']})",
+        "msdyn_projectbucket@odata.bind": "/msdyn_projectbuckets(@{variables('project bucket id')})",
         "msdyn_start": "@{addDays(utcNow(), 1)}",
         "msdyn_scheduledstart": "@{utcNow()}",
         "msdyn_scheduledend": "@{addDays(utcNow(), 5)}"
@@ -213,7 +239,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
     - **msdyn\_projecttaskid** – The unique ID of the task. The value should be set to a dynamic variable from **msdyn\_projecttaskid**.
     - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value is dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
     - **msdyn\_subject** – Any task name.
-    - **msdyn\_projectbucket\@odata.bind** – The project bucket that contains the tasks. The value is dynamic content that comes from the response of the "Create Bucket" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projectbuckets(ADD DYNAMIC CONTENT)"**.
+    - **msdyn\_projectbucket\@odata.bind** – The project bucket that contains the tasks. The value is the same as used to set the **msdyn\_projectbucketid** on the "Create Bucket" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projectbuckets(ADD DYNAMIC CONTENT)"**.
     - **msdyn\_start** – Dynamic content for the start date. For example, tomorrow is represented as **"addDays(utcNow(), 1)"**.
     - **msdyn\_scheduledstart** – The scheduled start date. For example, tomorrow is represented as **"addDays(utcNow(), 1)"**.
     - **msdyn\_scheduleend** – The scheduled end date. Select a date in the future. For example, specify **"addDays(utcNow(), 5)"**.
