@@ -48,7 +48,7 @@ The term *resource role* refers to a set of skills, competencies, and certificat
 
 Human resources time is usually quoted based on the role that a resource fills on a specific project. For human resource time, PSA supports costing and billing that are based on resource role. Time can be priced in any unit in the **Time** unit group.
 
-The **Time** unit group is crated when PSA is installed. It has a default unit of **Hour**. You can't delete, rename, or edit the attributes fo teh **Time** unit group or the **Hour** unit. However, you can add other units to the **Time** unit group. If you try to delete either the **Time** unit group or the **Hour** unit, you might cause failures in the PSA business logic.
+The **Time** unit group is crated when PSA is installed. It has a default unit of **Hour**. You can't delete, rename, or edit the attributes for the **Time** unit group or the **Hour** unit. However, you can add other units to the **Time** unit group. If you try to delete either the **Time** unit group or the **Hour** unit, you might cause failures in the PSA business logic.
 
 > ![Configuring prices by role.](media/basic-guide-13.png)
  
