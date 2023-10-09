@@ -5,7 +5,7 @@ title: Configure intercompany project invoicing
 description: This article shows how to set up project invoicing between two companies in your organization. 
 author: Yowelle
 ms.date: 07/29/2019
-ms.topic: business-process 
+ms.topic: how-to 
 ms.prod:  
 ms.technology:  
  

@@ -364,8 +364,10 @@
         href: project-management/dev-copy-project.md
       - name: Use Project schedule APIs
         href: project-management/schedule-api-preview.md
-      - name: Use Project schedule APIs with Power Automate
+      - name: Use V1 Project schedule APIs with Power Automate
         href: project-management/scheduling-apis-powerautomate.md
+      - name: Use V2 Project schedule APIs with Power Automate
+        href: project-management/scheduling-apis-powerautomate-v2.md
       - name: Project schedule API performance
         href: project-management/project-schedule-api-performance.md
       - name: Project scheduling logs
@@ -1054,8 +1056,10 @@
         href: project-management/dev-copy-project.md
       - name: Use Project schedule APIs
         href: project-management/schedule-api-preview.md
-      - name: Use Project schedule APIs with Power Automate
+      - name: Use V1 Project schedule APIs with Power Automate
         href: project-management/scheduling-apis-powerautomate.md
+      - name: Use V2 Project schedule APIs with Power Automate
+        href: project-management/scheduling-apis-powerautomate-v2.md
       - name: Project schedule API performance
         href: project-management/project-schedule-api-performance.md
     - name: Project management Copilot overview
@@ -2114,3 +2118,9 @@
       items:
       - name: Add custom forms for entities
         href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
+- name: Responsible AI FAQs
+  items:
+  - name: Responsible AI FAQs for Project Operations
+    href: responsible-ai/responsible-ai-overview.md
+  - name: Project management Copilot overview
+    href: project-management/copilot-features.md
