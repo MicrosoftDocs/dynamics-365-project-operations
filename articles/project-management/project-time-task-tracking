@@ -1,0 +1,16 @@
+---
+title: Project Time Task Tracking
+description: This article provides information the Project Time Task Tracking setting.
+author: abriccetti
+ms.date: 10/10/2023
+ms.topic: how-to
+ms.custom: bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
+---
+
+# Project Time Task Tracking
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+Microsoft Dynamics 365 Project Operations offers the ability for customers to configure updates on the Project and Project Tasks ito happen in real-time (default behavior) or delayed. For project tasks, when delayed is selected updates to Microsoft Project for the Web will happen when a new session is started. 
