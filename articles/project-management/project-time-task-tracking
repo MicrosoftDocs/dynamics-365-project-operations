@@ -13,4 +13,10 @@ ms.author: abriccetti
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Microsoft Dynamics 365 Project Operations offers the ability for customers to configure updates on the Project and Project Tasks ito happen in real-time (default behavior) or delayed. For project tasks, when delayed is selected updates to Microsoft Project for the Web will happen when a new session is started. 
+Microsoft Dynamics 365 Project Operations offers the ability for customers to configure updates on the Project Task time tracking fields to sync to Microsoft Project for the Web in real-time (default behavior) or delayed update. When delayed update is selected these updates will only happen once a new project session is started (this occurs when the user navigates to the tasks tab on a project entity). 
+
+There are two main scenarios where setting this field to delayed update provides stability or performance improvements:
+
+1. **Bulk Time Entry Approval:** In situations where large amounts of time entries on project tasks are approved at once, for example a project manager approving 1000 time entries at the end of the month, if real-time update is chosen the queue of updates to Project for the Web will get saturated by these requests. This may lead to instability and performance issues for other operations which will update Project for the Web.
+2. **Bulk New Project Creation:** In bulk project creation scenarios leveraging CopyProjectV3 or V4, as the work breakdown structure is created on the new project there will be multiple update to time tracking fields on these new project tasks. If real-time update is set, this will create multiple calls to Project for the Web for each newly created project. Setting this feature to on-demand update will delay these calls and will meaningfully iimprove project createion performance in these scenarios.
+
