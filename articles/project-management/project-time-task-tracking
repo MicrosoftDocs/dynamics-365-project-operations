@@ -20,3 +20,10 @@ There are two main scenarios where setting this field to delayed update provides
 1. **Bulk Time Entry Approval:** In situations where large amounts of time entries on project tasks are approved at once, for example a project manager approving 1000 time entries at the end of the month, if real-time update is chosen the queue of updates to Project for the Web will get saturated by these requests. This may lead to instability and performance issues for other operations which will update Project for the Web.
 2. **Bulk New Project Creation:** In bulk project creation scenarios leveraging CopyProjectV3 or V4, as the work breakdown structure is created on the new project there will be multiple update to time tracking fields on these new project tasks. If real-time update is set, this will create multiple calls to Project for the Web for each newly created project. Setting this feature to on-demand update will delay these calls and will meaningfully iimprove project createion performance in these scenarios.
 
+## Project Task Time Tracking Options
+
+| Value            | Behavior                                                                                                                                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Null             | When this value is null, the behavior will be assumed to be Real-time update                                                                                                           |
+| Delayed Update   | Remaining Effort, Effort Completed, Effort Estimate at Complete will not be updated with time is approved on any task until a Project for the Web Session is opened.                   |
+| Real-time Update | Approved time logged against a task will update Remaining Effort, Effort Completed, Effort Estimate at Complete on that task and any tasks above it in the its hierarchy in real-time. |
