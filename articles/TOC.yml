@@ -846,6 +846,8 @@
       items:
       - name: Project quotes overview
         href: pro/sales/manage-quotes-sales.md
+      - name: New Quote Form experience
+        href: sales/quotes-new-form.md
       - name: Concepts unique to project quotes
         href: pro/sales/quotes-key-concepts-sales.md
       - name: Header details for project quotes
