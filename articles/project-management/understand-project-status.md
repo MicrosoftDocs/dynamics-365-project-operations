@@ -10,6 +10,8 @@ ms.author: ruhercul
 
 # Understand project status
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
@@ -25,6 +27,6 @@ The **Status** section on the **Project Entity** page provides a summary of 
 
 **Project task time tracking** - In **Settings** > **Parameters**, you can use this field to set project tasks time as **Real-time update** or **Delayed update**. During data migration, the **Delayed updated** setting is recommended to enable the best performance.
 
-**Project actual values tracking** - In **Settings** > **Parameters**, you can use this field to set project actual values as **Real-time update** or **On Demand update**. If you select **Real time update**, factoring the actuals in total takes time. The status of project is real time, and performance might be slow. Whereas, the **On-demand update** increases performance and this setting is recommended during data migration. After the data migration is complete, you can set the update to **Real time** and select the **Refresh Project Totals** button.
+**Project actual values tracking** - In **Settings** > **Parameters**, you can use this field to set project actual values as **Real-time update** or **On Demand update**. If you select **Real time update**, factoring the actuals in total takes time. The status of project is real time, and performance might be slow. Whereas the **On-demand update** increases performance and this setting is recommended during data migration. After the data migration is complete, you can set the update to **Real time** and select the **Refresh Project Totals** button.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
