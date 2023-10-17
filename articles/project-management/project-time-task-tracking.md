@@ -18,7 +18,7 @@ Microsoft Dynamics 365 Project Operations offers the ability for customers to co
 There are two main scenarios when setting this field to **Delayed update** provides stability or performance improvements:
 
 1. **Bulk Time Entry Approval** - In situations where there are many time entries on project tasks that are approved at once. For example, a project manager approves 1000 time entries at the end of the month. If **Real-time** update is selected, the queue of updates to Project for the Web gets saturated by these requests. This saturation can lead to instability and performance issues for other operations that also update Project for the Web.
-1. **Bulk New Project Creation** - In bulk project creation scenarios using CopyProjectV3 or CopyProjectV4, when the work breakdown structure is created on the new project, there are multiple updates to the time tracking fields for these new project tasks. If real-time update is selected, this creates multiple calls to Project for the Web for each newly created project. Setting this feature to on-demand update delays these calls and meaningfully improves project creation performance in these scenarios.
+1. **Bulk New Project Creation** - In bulk project creation scenarios using CopyProjectV3 or CopyProjectV4, when the work breakdown structure is created on the new project, there are multiple updates to the time tracking fields for these new project tasks. If **Real-time** update is selected, this creates multiple calls to Project for the Web for each newly created project. Setting this feature to on-demand update delays these calls and meaningfully improves project creation performance in these scenarios.
 
 ## Project Task Time Tracking Options
 
