@@ -342,6 +342,8 @@
       items: 
       - name: Project effort tracking 
         href: project-management/project-tracking-overview.md
+      - name: Project time task tracking
+        href: project-management/project-time-task-tracking.md
       - name: Labor cost tracking on projects
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
@@ -1034,6 +1036,8 @@
       items: 
       - name: Project effort tracking 
         href: project-management/project-tracking-overview.md
+      - name: Project time task tracking
+        href: project-management/project-time-task-tracking.md
       - name: Labor cost tracking on projects
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
