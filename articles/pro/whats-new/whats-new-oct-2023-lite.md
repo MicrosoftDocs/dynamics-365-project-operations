@@ -2,7 +2,7 @@
 title: What's new October 2023 - Project Operations Lite deployment
 description: This article provides information about the quality updates that are available in the October 2023 release of Microsoft Dynamics 365 Project Operations Lite deployment.
 author: ramagadu
-ms.date: 09/25/2023
+ms.date: 10/17/2023
 ms.topic: article
 ms.prod:
 ms.reviewer: johnmichalak 
@@ -15,7 +15,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version *******
+- Project Operations in a Microsoft Dataverse environment version 4.87.0.155
 
 ## Quality updates
 
