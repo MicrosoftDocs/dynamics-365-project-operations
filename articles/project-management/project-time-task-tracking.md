@@ -1,0 +1,29 @@
+---
+title: Project time task tracking
+description: This article provides information the Project time task tracking setting.
+author: abriccetti
+ms.date: 10/10/2023
+ms.topic: how-to
+ms.custom: bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
+---
+
+# Project time task tracking
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+Microsoft Dynamics 365 Project Operations offers the ability for customers to configure updates on the **Project task time tracking** fields to sync to Microsoft Project for the Web in **Real-time** (default behavior) or **Delayed update**. When delayed update is selected these updates only happen when a new project session is started (this occurs when the user navigates to the tasks tab on a project entity). 
+
+There are two main scenarios where setting this field to delayed update provides stability or performance improvements:
+
+1. **Bulk Time Entry Approval** - In situations where large amounts of time entries on project tasks are approved at once, for example a project manager approving 1000 time entries at the end of the month, if real-time update is chosen the queue of updates to Project for the Web will get saturated by these requests. This may lead to instability and performance issues for other operations which will update Project for the Web.
+1. **Bulk New Project Creation** - In bulk project creation scenarios leveraging CopyProjectV3 or V4, as the work breakdown structure is created on the new project there will be multiple update to time tracking fields on these new project tasks. If real-time update is set, this will create multiple calls to Project for the Web for each newly created project. Setting this feature to on-demand update will delay these calls and will meaningfully improve project creation performance in these scenarios.
+
+## Project Task Time Tracking Options
+
+| Value            | Behavior           |
+|------------------|--------------------|
+| Null             | When this value is null, the behavior is the same as Real-time update. 
+| Delayed update   | Remaining Effort, Effort Completed, Effort Estimate at Complete aren't updated with time is approved on any task until a Project for the Web Session is opened. |
+| Real-time update | Approved time logged against a task updates Remaining Effort, Effort Completed, Effort Estimate at Complete on that task and any tasks above it in its hierarchy in real-time. |
