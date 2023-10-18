@@ -13,7 +13,7 @@ author: poojafandan
 
 [!INCLUDE[banner](../includes/preview-banner.md)]
 
-Currently, the functionality in this article is availavle as preview to the United States customers. 
+Currently, the functionality in this article is available as a preview to the United States customers. 
 
 Project management Copilot is an assistive capability that's powered by Microsoft Azure Open AI's large language model. The Copilot feature is designed to help improve the efficiency of different roles in Dynamics 365 Project Operations, including the project manager and practice manager. It provides a user-friendly and intuitive experience that helps maximize productivity while it also helps improve visibility into project performance.
 
