@@ -15,8 +15,8 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version 4.87.0.155
-- Project management and accounting in a Microsoft Dynamics 365 Finance environment version 10.0.36
+- Project Operations in a Microsoft Dataverse environment version 4.87.0.155.
+- Project management and accounting in a Microsoft Dynamics 365 Finance environment version 10.0.36.
 
 ## Project Operations dual-write maps updates
 
@@ -32,15 +32,15 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Reference number | Quality update |
 | --- | --- | --- |
-|Billing and Pricing|3509236|Contract Price List Update does not affect line details|
-|Billing and Pricing|3523321|Null reference exception in GetConvertedAmountForBusinessTransaction function|
-|Billing and Pricing|3568745|Fix price list prices delete plugin by using GetTargetEntityFromEntityReference|
+|Billing and Pricing|3509236|Contract Price List Update doesn't affect line details.|
+|Billing and Pricing|3523321|Null reference exception in GetConvertedAmountForBusinessTransaction function.|
+|Billing and Pricing|3568745|Fix price list prices delete plugin by using GetTargetEntityFromEntityReference.|
 |Project Management|3514899|Revision token mismatch issue due to suppressed error causing transaction to be invalid.|
-|Project Operations Upgrade|3546437|Error deleting task after upgrade if there is a customization on the relation between Task and Assignment|
-|Project Operations Upgrade|3551934|Orgs with Tasks and Assignments with no Project or Task linked in 3x should be blocked from upgrade to 4x and forced to clean up|
-|Project Operations Upgrade|3564488|Timeout running PSA to PO upgrade data validation scripts|
-|Project Operations Upgrade|3589267|Create mitigation script to force fix affected relationships post 3x to 4x upgrade|
-|Time and Expense|3366683|Non-working day pop-up displayed for time entries submitted on working days|
+|Project Operations Upgrade|3546437|Error deleting task after upgrade if there's a customization on the relation between Task and Assignment.|
+|Project Operations Upgrade|3551934|Orgs with Tasks and Assignments with no Project or Task linked in 3x should be blocked from upgrade to 4x and forced to clean up.|
+|Project Operations Upgrade|3564488|Time out running PSA to PO upgrade data validation scripts.|
+|Project Operations Upgrade|3589267|Create mitigation script to force fix affected relationships post 3x to 4x upgrade.|
+|Time and Expense|3366683|Nonworking day pop-up displayed for time entries submitted on working days.|
 
 
 ### Project management and accounting in Finance
