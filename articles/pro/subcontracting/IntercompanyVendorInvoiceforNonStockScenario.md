@@ -2,11 +2,13 @@
 title: Intercompany vendor invoice
 description: This topic outlines the functionality within Microsoft Dynamics 365 Project Operations that enables the intercompany vendor invoices for Project operations resource based/non-stock scenarios.
 author: mukumarm
-ms.date: 03/10/2023
+ms.date: 10/31/2023
 ms.topic: article
 ms.reviewer: johnmichalak 
 ms.author: mukumarm
 ---
+
+# Intercompany vendor invoice
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
@@ -26,11 +28,14 @@ Make sure that the mapping for Project Operations integration **project vendor i
 
 The following screenshot shows the dual-write entity map that's used for vendor invoice lines.
 
-![Screenshot of the dual-write maps.](../media/MKVendorInvoiceLinesDualWrite.png)
+:::image type="content" source="../media/MKVendorInvoiceLinesDualWrite.png" alt-text="Screenshot of the dual-write maps with Project Operations integration project vendor incoice line export entity (msdyn_projectvendorinvoicelines) highlighted."::: 
+
 
 The following screenshot shows the dual-write field mapping that's used for vendor invoices lines.
 
-![Screenshot of the dual-write maps.](../media/MKVendorInvoiceLinesDetailDualWrite.png)
+:::image type="content" source="../media/MKVendorInvoiceLinesDetailDualWrite.png" alt-text="Screenshot of the dual-write maps with PROJDATAAREAID and DAREAID highlighted."::: 
+
+
 ## Create and post intercompany vendor invoice
 **USPM**, the lending legal entity, must create and post the intercompany vendor invoice for a project from **GBPM**, the borrowing legal entity. 
 This **vendor invoice** represents the outsourced labor and expense that were performed by vendors that are paid by USPM.
@@ -45,7 +50,7 @@ This **vendor invoice** represents the outsourced labor and expense that were pe
 10. Select the **Project category**. It can be of type **expenses** or **hours**. If the selected **project category** is of the Hour type, select the role.
 11. Select **Post** to post the vendor invoice.
 
-Once the **vendor invoice** has been successfully posted, it becomes accessible within **Dataverse** for verification and processing by the **project manager**. To understand the process of verifying vendor invoices in Dataverse, refer to the section on **[Verification of vendor invoices](/articles/pro/subcontracting/VI-Verification.md)**. Upon confirmation of an **intercompany vendor invoice** in Dataverse, this action triggers the generation of corresponding actual transactions within the Dataverse system.
+Once the **vendor invoice** has been successfully posted, it becomes accessible within **Dataverse** for verification and processing by the **project manager**. To understand the process of verifying vendor invoices in Dataverse, refer to the section on **[Verification of vendor invoices](VI-Verification.md)**. Upon confirmation of an **intercompany vendor invoice** in Dataverse, this action triggers the generation of corresponding actual transactions within the Dataverse system.
 
 | Transaction type  | Description | 
 | ------------- | ------------- |
@@ -63,5 +68,5 @@ Once the vendor invoice is validated and approved by the **Project Manager** wit
 
 Following the completion of the **Project integration journal** posting, the subsequent action entails generating an **Intercompany customer invoice** by the **lending legal entity**, succeeded by the **vendor invoice posting** performed by the **borrowing legal entity**.
 
-To understand the process of creating intercompany customer and vendor invoices, refer to the section on **[Create intercompany customer and vendor invoices](/articles/project-accounting/create-intercompany-customer-vendor-invoices.md)**
+To understand the process of creating intercompany customer and vendor invoices, refer to the section on **[Create intercompany customer and vendor invoices](../../project-accounting/create-intercompany-customer-vendor-invoices.md)**
 
