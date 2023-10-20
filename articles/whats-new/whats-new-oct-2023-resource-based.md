@@ -15,7 +15,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version 4.87.0.155.
+- Project Operations in a Microsoft Dataverse environment version 4.87.0.188.
 - Project management and accounting in a Microsoft Dynamics 365 Finance environment version 10.0.36.
 
 ## Project Operations dual-write maps updates
@@ -42,7 +42,20 @@ If you encounter an issue when you start the map, follow the instructions in the
 |Project Operations Upgrade|3589267|Create mitigation script to force fix affected relationships post 3x to 4x upgrade.|
 |Time and Expense|3366683|Nonworking day pop-up displayed for time entries submitted on working days.|
 
-
 ### Project management and accounting in Finance
 
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=831854).
+
+### Features deprecated/removed in this release
+
+This section describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations in this release.
+
+- A _removed_ feature is no longer available in the product.
+- A _deprecated_ feature isn't in active development and may be removed in a future update. 
+
+| Feature name | Reason for deprecation/removal | More information |
+| --- | --- | --- |
+|Project management and accounting adjustment parameter for **Invoiced**|Transactions are much more difficult to audit if they're adjusted after they have been invoiced. This behavior causes confusion for the small number of users who use this functionality.|[Project management and accounting adjustment parameter for **Invoiced**](/dynamics365/project-operations/whats-new/removed-depreciated-features-project#project-management-and-accounting-adjustment-parameter-for-invoiced)|
+|Project management and accounting **Allow for projects with multiple funding sources** parameter|This parameter was originally added before feature management was available. However, it's no longer required, because the functionality can now be safely enabled for sales orders and multiple funding sources. Multiple funding sources should now always be optionally configurable in the project contract.|[Project management and accounting **Allow for projects with multiple funding sources** parameter](/dynamics365/project-operations/whats-new/removed-depreciated-features-project#project-management-and-accounting-allow-for-projects-with-multiple-funding-sources-parameter)|
+
+For information, please refer to [Removed or deprecated features in Dynamics 365 Project Operation](/dynamics365/project-operations/whats-new/removed-depreciated-features-project#project-management-and-accounting-use-adjustment-date-as-new-project-date-parameter).
