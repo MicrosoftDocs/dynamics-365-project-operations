@@ -45,18 +45,26 @@ Date-effective price overrides can be set up on **Cost**, **Sales**, or **Purcha
 > - Only role prices and role price markups support the **Date effective price overrides** feature in Microsoft Dynamics 365 Project Operations.
 > - When you copy a price list by using the **Copy** action on the **Price List details** page, date-effective price overrides are **not** copied from the source price list.
 
-To set up a date-effective price override for a role price or a role price markup, follow these steps.
+To set up a date-effective price override for a role price or a role price markup, there are two different ways depending on the number of role prices to override.
 
+For single role price override:
 1. Open the page for the price list that you want to set up the date-effective price override for.
 1. Select the **Role prices** tab. This tab lists all the **Role price** records in the price list.
 1. Select the **Role price** record that you want to set up a new date-effective override price for, and then double-tap (or double-click) **Role price** to open the **Role price details** page.
 1. Select the **Date effective overrides** tab. The grid on this tab lists all the date-effective price overrides for the selected **Role price** record.
 1. On the toolbar above the grid, select **New role price override**. The **New role price override** dialog box opens.
+1. Specify the effective-from date, the scope, the unit, and the new price for the price override. Then select **Apply**.
+
+For multiple role price overrides or single role price override:
+1. Open the page for the price list that you want to set up the date-effective price override for.
+1. Select the **Role prices** tab. This tab lists all the **Role price** records in the price list.
+1. Select the **Role price** record(s) that you want to set up a new date-effective override price for.
+1. Select **Add Role price override** button which opens a dialog box.
+1. Specify the effective from date, price change amount or price change percent, and scope. Select **Apply**.
 
     > [!NOTE]
     > A date-effective price override for a role price or a role price markup applies to the same combination of pricing dimension values that exists on the parent **Role price** or **Role price markup** row.
 
-1. Specify the effective-from date, the scope, the unit, and the new price for the price override. Then select **Save**, and close the dialog box.
 
 Each price override has date effectivity and a scope.
 
