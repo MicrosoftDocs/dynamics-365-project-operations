@@ -2,7 +2,7 @@
 title: Manage receipts by using the Expense mobile app
 description: This article explains how to manage receipts by using the Expense mobile app.
 author: ramagadu
-ms.date: 05/26/2023
+ms.date: 10/25/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ramagadu
