@@ -62,27 +62,38 @@ Once the code components for canvas apps have been enabled, the next crucial ste
 
 The following list shows the entities that need to be refreshed.
 
-- CurrencyEntity
-- ExpenseFieldsVisibilityEntity
-- LogisticsAddressCountryRegionEntity
-- LogisticsAddressCountryRegionTranslationEntity
-- LogisticsAddressStateEntity
-- TrvAddressZipcodeEntity
-- TrvAdminCustomFieldsEntity
-- TrvExpenseCategoryEntity
-- TrvExpMobileActivitiesEntity
-- TrvExpMobileAddressCityEntity
-- TrvExpMobileCompanyinfoEntity
-- TrvExpMobileDocumentEntity
-- TrvExpMobileExpenseEntity
-- TrvExpMobileExpenseFieldVisibilityEntity
-- TrvExpMobileItemTaxEntity
-- TrvExpMobileProjEntity
-- TrvExpMobileProjLinePropertyEntity
-- TrvExpMobileReportEntity
-- TrvExpMobileTaxGroupEntity
-- TrvPayMethodEntity
-
+- mserp_currencyentity
+- mserp_expensefieldsvisibilityentity
+- mserp_logisticsaddresscountryregionentity
+- mserp_logisticsaddresscountryregiontranslationentity
+- mserp_dimattributetrvtraveltxtentity
+- mserp_trvtravellocationentity
+- mserp_trvexpenseparametersentity
+- mserp_logisticsaddressstateentity
+- mserp_trvaddresszipcodeentity
+- mserp_trvexpmobilemasterdataentity
+- mserp_trvmileagerateentity
+- mserp_trvexpmobilereportapprovalentity
+- mserp_trvadmincustomfieldsentity
+- mserp_trvexpensecategoryentity
+- mserp_trvexpmobileactivitiesentity
+- mserp_trvexpmobileaddresscityentity
+- mserp_trvexpmobilecompanyinfoentity
+- mserp_trvexpmobiledocumententity
+- mserp_trvexpmobileexpenseentity
+- mserp_trvexpmobileexpensefieldvisibilityentity
+- mserp_trvexpmobileitemtaxentity
+- mserp_trvexpmobileprojentity
+- mserp_trvexpmobileprojlinepropertyentity
+- mserp_trvexpmobilereportentity
+- mserp_trvexpmobiletaxgroupentity
+- mserp_trvexpmobileexpenselineattachedtoreportentity
+- mserp_trvexpmobilereceiptattachedtoexpenselineentity
+- mserp_trvlogisticsaddresscountryregiontranslationentity
+- mserp_trvpaymethodentity
+- mserp_trvexpmobileattacheddocumententity
+- mserp_trvexpmobileunattacheddocumententity
+  
 ## Grant access to the mobile app in Dataverse
 
 After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Expense mobile app is a canvas app. To share it, follow the instructions in [Share a canvas app with your organization](/power-apps/maker/canvas-apps/share-app).
