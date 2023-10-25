@@ -21,11 +21,51 @@ Upon the submission of an expense report for approval in D365 Finance, the syste
 ### Approve the expense report
 To **approve** the expense report, follow below steps:
 
+* On your **Mobile device**, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
+* On the **Approvals** tab, A list of expense reports pending for approval will be displayed.
+* Select the **Expense Report**. It will open the detailed expense report page, displaying a comprehensive list of all expenses submitted within the selected report.
+* Select the **Approve** option.
+* Provide the **Justification** and **Approval comments**. Justification and Approval comments are optional.
+* Select the **Approve** button to approve the expense report. 
+
 ### Reject the expense report
-To **approve** the expense report, follow below steps:
+To **reject** the expense report, follow below steps:
 
+* On your **Mobile device**, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
+* On the **Approvals** tab, A list of expense reports pending for approval will be displayed.
+* Select the **Expense Report**. It will open the detailed expense report page, displaying a comprehensive list of all expenses submitted within the selected report.
+* Select the **Reject** option.
+* Provide the **Justification** and **Rejection comments**. Justification and rejection comments are optional.
+* Select the **Reject** button to approve the expense report.
+  
 ### Delegate the expense report
-To **approve** the expense report, follow below steps:
+To **Delegate** the expense report, follow below steps:
 
-### Multi approvals
-To **approve** the expense report, follow below steps:
+* On your **Mobile device**, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
+* On the **Approvals** tab, A list of expense reports pending for approval will be displayed.
+* Select the **Expense Report**. It will open the detailed expense report page, displaying a comprehensive list of all expenses submitted within the selected report.
+* Select the **Delegate** option.
+* Provide the **Assign to** user and **Delegation comments**. Delegation comments are optional.
+* Select the **Delegate** button to approve the expense report.
+
+### Approve multiple expense reports
+To **approve** multiple expense reports, follow below steps:
+
+* On your **Mobile device**, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
+* Select the **Approvals** tab.
+* Select the **Filter** buttion on the top and filter the **expense reports** by user, project or by amount. **This step is optional**.
+* Select the **Multi select** button to select the multiple expense reports.
+* Select the **Approve** option.
+* Provide the **Justification** and **Approval comments**. Justification and Approval comments are optional.
+* Select the **Approve** button to approve selected the expense reports. 
+
+### Reject multiple expense reports
+To **reject** multiple expense reports, follow below steps:
+
+* On your **Mobile device**, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
+* Select the **Approvals** tab.
+*  Select the **Filter** buttion on the top and filter the **expense reports** by user, project or by amount. **This step is optional**.
+* Select the **Multi select** button to select the multiple expense reports.
+* Select the **Reject** option.
+* Provide the **Justification** and **Rejection comments**. Justification and rejection comments are optional.
+* Select the **Reject** button to approve selected the expense reports. 
