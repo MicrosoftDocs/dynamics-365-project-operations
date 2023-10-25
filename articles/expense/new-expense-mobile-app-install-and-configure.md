@@ -13,9 +13,6 @@ ms.custom: bap-template
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
-> [!IMPORTANT]
-> The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change. For more information about preview releases, see [One version service updates FAQ](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
-
 This article explains how administrators can prepare your Microsoft Dynamics 365 Finance and Dataverse environments to support the Expense mobile app. For information on how to install the Expense mobile app on your mobile devices, see [Install and open the Expense mobile app on a mobile device](mobile-app-install-on-mobile-device.md).
 
 ## System requirements
@@ -55,7 +52,7 @@ You must install the Expense mobile app in your Dataverse environment to enable 
 
 To install the Expense mobile app in your Dataverse environment, follow these steps.
 
-1. In AppSource, go to [Dynamics 365 Expense Mobile Application (Public Preview)](https://appsource.microsoft.com/product/dynamics-365/mscrm.msdyn_expense_mobile-preview?flightCodes=d365expensemobile&exp=ubp8).
+1. In AppSource, go to [Dynamics 365 Expense Mobile Application](https://appsource.microsoft.com/product/dynamics-365/mscrm.msdyn_expense_mobile-preview?flightCodes=d365expensemobile&exp=ubp8).
 1. Select **Get it now**.
 1. Select the previously created or updated environment where you want to install the Expense mobile app, and then select **Install**.
 1. After successful installation, **Dynamics 365 Expense Mobile** is listed as a solution on the **Solutions** tab in Power Apps.
