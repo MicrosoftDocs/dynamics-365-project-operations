@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
-This article explains how to approve the expense reports by using the Expense mobile app.
+This article explains how to approve, reject or delegate the expense reports by using the Expense mobile app.
 
 ## Expense report approvals by using the Expense mobile app
 Upon the submission of an expense report for approval in D365 Finance, the system adheres to preset workflow configurations. These configurations trigger the generation of work items assigned to the designated approvers. Approvers have the authority to review the expense report and perform necessary actions, including approval, rejection, or delegation, based on their evaluation.
