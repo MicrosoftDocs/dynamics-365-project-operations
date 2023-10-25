@@ -13,9 +13,6 @@ ms.custom: bap-template
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
-> [!IMPORTANT]
-> The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change. For more information about preview releases, see [One version service updates FAQ](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
-
 This article explains how to manage expenses by using the Expense mobile app.
 
 ## Default Settings for Expense Creation and Updates
