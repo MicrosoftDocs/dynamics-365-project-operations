@@ -1,7 +1,7 @@
 ---
 title: Manage expense reports by using the Expense mobile app
 description: This article explains how to manage expenses reports by using the Expense mobile app.
-author: ramagadu
+author: mukumarm
 ms.date: 05/26/2023
 ms.topic: article
 ms.reviewer: johnmichalak
@@ -12,9 +12,6 @@ ms.custom: bap-template
 # Manage expense reports by using the Expense mobile app
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
-
-> [!IMPORTANT]
-> The functionality that's described in this article is available as part of a preview release. The functionality and the content of this article are subject to change. For more information about preview releases, see [One version service updates FAQ](/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
 
 This article explains how to manage expenses reports using the Expense mobile app.
 
