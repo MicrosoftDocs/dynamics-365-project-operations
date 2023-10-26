@@ -27,13 +27,6 @@ Your Dynamics 365 Finance environment must be linked with a Dataverse environmen
 
 When you create the Dataverse environment where you want to install the app, be sure to enable Dynamics 365 apps.
 
-## Enable the Expense mobile app in Dynamics 365 Finance
-
-To enable the Expense mobile app in Dynamics 365 Finance, follow these steps.
-
-1. In your Dynamics 365 Finance environment, go to **Workspaces** \> **Feature Management**.
-1. In the list, find and select **feature Use expense mobile application for intuitive expense entry experience**, and then select **Enable now**.
-
 ## Enable users in Dynamics 365 Finance
 
 To enable users for the Expense mobile app access, follow these steps in Dynamics 365 Finance.
