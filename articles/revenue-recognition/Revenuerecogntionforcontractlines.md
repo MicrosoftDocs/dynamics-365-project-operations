@@ -2,7 +2,7 @@
 title: Contract line-based revenue recognition with Project operations
 description: This article provides information about contract lines based revenue recognition in Project Operations.
 author: mukumarm
-ms.date: 03/13/2023
+ms.date: 10/27/2023
 ms.topic: overview
 ms.reviewer: johnmichalak 
 ms.author: mukumarm
