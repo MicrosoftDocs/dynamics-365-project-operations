@@ -356,6 +356,8 @@
         href: project-management/project-team-members-overview.md
       - name: Maintain team members
         href: project-management/maintain-team-members.md
+    - name: Restricted guest user access
+      href: project-management/restricted-guest-user-access-projectoperations.md
     - name: Troubleshoot working in the Task grid
       href: project-management/projectplanningUIFAQ.md
     - name: Collaboration
