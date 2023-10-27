@@ -27,6 +27,6 @@ This section contains a list of restrictions on project access when RGA is enabl
 - Guest users can access group members for groups that they're part of.
 - Guest users can't add or remove members from the group.
 - During a task assignment, a guest user can see only active team members from project. They're not able to view everyone else.
-- When a guest user searches for a name that is not in the **Teams** tab to perform the task assignment, they receive a warning message: **You have limited access to search only among project members.**
+- When a guest user searches for a name that isn't in the **Teams** tab to perform the task assignment, they receive a warning message: **You have limited access to search only among project members.**
 
 To learn more details about RGA policy, read the document[Restrict guest access permissions in Microsoft Entra ID](/entra/identity/users/users-restrict-guest-permissions)
