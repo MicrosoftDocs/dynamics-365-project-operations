@@ -29,38 +29,38 @@ search.audienceType:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    | 3.10.82.3 |
+| Project Service Automation    | 3.10.93.8 |
 | Project Service Automation desktop add-in                | 3.60          |
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](/dynamics365/release-plans/). 
 
 | Station  | Region | Current version | Next version |  Scheduled date
-| :---   | :---   | :---   | :---   |:---   |         
+| :---     | :---   | :---            | :---         |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> | 3.10.82.3 | TBD | September 22, 2023
+| | <i>First Release</i> | 3.10.93.7 | TBD | November 3, 2023
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | 3.10.82.3 | TBD | September 29, 2023
-| | <i>Canada</i> | 3.10.82.3 | TBD | September 29, 2023
-| | <i>India</i> | 3.10.82.3 | TBD | September 29, 2023
-| | <i>France</i> | 3.10.82.3 | TBD | September 29, 2023
-| | <i>South Africa</i> | 3.10.82.3 | TBD | September 29, 2023
-| | <i>Germany</i> | 3.10.82.3 | TBD | September 29, 2023
-| | <i>Switzerland</i> | 3.10.82.3 | TBD | September 29, 2023
-| | <i>Korea</i> | 3.10.82.3 | TBD | September 29, 2023
-| | <i>Norway</i> | 3.10.82.3 | TBD | September 29, 2023
+| | <i>South America</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Canada</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>India</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>France</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>South Africa</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Germany</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Switzerland</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Korea</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Norway</i> | 3.10.93.7 | TBD | November 3, 2023
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | 3.10.82.3 | TBD | October 6, 2023
-| | <i>Asia Pacific</i> | 3.10.82.3 | TBD | October 6, 2023
-| | <i>Great Britain</i> | 3.10.82.3 | TBD | October 6, 2023
-| | <i>Oceana</i> | 3.10.82.3 | TBD | October 6, 2023
-| | <i>United Arab Emirates</i> | 3.10.82.3 | TBD | October 6, 2023
+| | <i>Japan</i> | 3.10.93.7 | TBD | November 10, 2023
+| | <i>Asia Pacific</i> | 3.10.93.7 | TBD | November 10, 2023
+| | <i>Great Britain</i> | 3.10.93.7 | TBD | November 10, 2023
+| | <i>Oceana</i> | 3.10.93.7 | TBD | November 10, 2023
+| | <i>United Arab Emirates</i> | 3.10.93.7 | TBD | November 10, 2023
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | 3.10.82.3 | TBD | October 13, 2023
+| | <i>Europe</i> | 3.10.93.7 | TBD | November 17, 2023
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | 3.10.82.3 | TBD | October 20, 2023
+| | <i>North America</i> | 3.10.93.7 | TBD | December 1, 2023
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | 3.10.82.3 | TBD | October 27, 2023
-| | <i>Dedicated Scale Groups</i> | 3.10.82.3 | TBD | October 27, 2023
+| | <i>Government Community Cloud</i> | 3.10.93.7 | TBD | October 27, 2023
+| | <i>Dedicated Scale Groups</i> | 3.10.93.8 | TBD | October 28, 2023
 
 
 
