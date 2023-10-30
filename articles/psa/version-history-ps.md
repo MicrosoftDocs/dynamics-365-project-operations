@@ -52,7 +52,7 @@ For information about updates to Project Service, see the [Dynamics 365 release 
 | | <i>Japan</i> | 3.10.93.7 | TBD | November 10, 2023
 | | <i>Asia Pacific</i> | 3.10.93.7 | TBD | November 10, 2023
 | | <i>Great Britain</i> | 3.10.93.7 | TBD | November 10, 2023
-| | <i>Oceana</i> | 3.10.93.7 | TBD | November 10, 2023
+| | <i>Oceania</i> | 3.10.93.7 | TBD | November 10, 2023
 | | <i>United Arab Emirates</i> | 3.10.93.7 | TBD | November 10, 2023
 |<strong>Station 4</strong> | |  |  | |
 | | <i>Europe</i> | 3.10.93.7 | TBD | November 17, 2023
