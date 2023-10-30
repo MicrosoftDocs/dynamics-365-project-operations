@@ -59,11 +59,12 @@ If you did not intend to eliminate an estimate, you can select the eliminated es
 # Estimates have been renamed to revenue recognition
 
 With the 10.0.36 version update, the feature **Update labels for revenue recognition and related forms and processes in Project Operations** was made mandatory and took effect for customers. This changes labels in many areas, including the major changes in:
-- The menu structure under Project management and accounting -> Periodic -> 
+
+- The menu structure under **Project management and accounting** -> **Periodic** -> 
     - **Estimates** changing to **Revenue recognition**
-- The menu structure under Project management and accounting -> Setup -> 
+- The menu structure under **Project management and accounting** -> **Setup** -> 
     - **Estimates** changing to **Revenue recognition**
-- The menu structure under Project management and accounting -> Inquiries and reports -> 
+- The menu structure under **Project management and accounting** -> **Inquiries and reports** -> 
     - **Estimates inquiries and reports** changing to **Revenue recognition inquiries and reports**
 - Within a project, the **Estimates** tab under **Manage** in the ribbon changing to **Revenue recognition**
 
