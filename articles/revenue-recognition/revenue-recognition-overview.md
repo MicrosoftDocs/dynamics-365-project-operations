@@ -2,7 +2,7 @@
 title: Revenue recognition overview
 description: This article provides information about revenue recognition in Project Operations.
 author: sigitac
-ms.date: 11/16/2020
+ms.date: 10/27/2023
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
@@ -12,7 +12,8 @@ ms.author: sigitac
 # Revenue recognition overview
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
-
+ > [!NOTE]
+   > Estimates have been renamed to revenue recognition in a recent product update with the **Update labels for revenue recognition and related forms and processes in Project Operations** feature. Terminology may reference either estimate or revenue recognition depending on if the feature is enabled.
 In Dynamics 365 Project Operations, revenue recognition principles vary based on the selected billing method for a project or portion of the project. This article provides information about revenue recognition in Project Operations.
 
 ## Transactions accounted using time and material billing method

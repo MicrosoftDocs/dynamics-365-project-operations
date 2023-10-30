@@ -2,7 +2,7 @@
 title: Contract line-based revenue recognition with Project operations
 description: This article provides information about contract lines based revenue recognition in Project Operations.
 author: mukumarm
-ms.date: 03/13/2023
+ms.date: 10/27/2023
 ms.topic: overview
 ms.reviewer: johnmichalak 
 ms.author: mukumarm
@@ -11,6 +11,8 @@ ms.author: mukumarm
 # Contract line-based revenue recognition with Project operations
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
+ > [!NOTE]
+   > Estimates have been renamed to revenue recognition in a recent product update with the **Update labels for revenue recognition and related forms and processes in Project Operations** feature. Terminology may reference either estimate or revenue recognition depending on if the feature is enabled.
 
 The **Contract line-based revenue recognition with Project operations** feature lets you recognize the revenue for each contract line that's associated with a contract. Contract line–based revenue recognition gives you the flexibility to define a different revenue recognition method for each contract line. Microsoft Dynamics 365 Finance then generates and posts the revenue recognition amounts accordingly.
 
