@@ -56,7 +56,7 @@ To eliminate an estimate project, it must be complete. The following steps expla
 
 If you did not intend to eliminate an estimate, you can select the eliminated estimate and select **Reverse elimination**.   
 
-# Estimates have been renamed to revenue recognition
+## Estimates have been renamed to revenue recognition
 
 With the 10.0.36 version update, the feature **Update labels for revenue recognition and related forms and processes in Project Operations** was made mandatory and took effect for customers. This changes labels in many areas, including the major changes in:
 
