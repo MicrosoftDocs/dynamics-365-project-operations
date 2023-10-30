@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | 
 | --- | --- |
-| 4.75.0.56 | 10.0.35 |
+| 4.87.0.190 | 10.0.35 |
 
 For Project Operations Resource/non-stocked scenario, we recommend that you use dual-write Orchestration version 2.3.1.15 or higher.
 
@@ -42,24 +42,24 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment * | Auto updates for Resource/non-stocked deployment * | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.75.0.56      | August 4, 2023     | August 4, 2023      | 4.76.0.237                 | October 03, 2023  |
+|   &nbsp;  | First Release         |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 10, 2023   |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.75.0.56      | August 18, 2023    | August 18, 2023     | 4.76.0.237                 | October 03, 2023	  |
-|   &nbsp;  | Canada                |  4.75.0.56      | August 18, 2023    | August 18, 2023     | 4.76.0.237                 | October 03, 2023	  |
-|   &nbsp;  | India                 |  4.75.0.56      | August 18, 2023    | August 18, 2023     | 4.76.0.237                 | October 03, 2023	  |
-|   &nbsp;  | France                |  4.75.0.56      | August 18, 2023    | August 18, 2023     | 4.76.0.237                 | October 03, 2023	  |
-|   &nbsp;  | South Africa          |  4.75.0.56      | August 18, 2023    | August 18, 2023     | 4.76.0.237                 | October 03, 2023	  |
-|   &nbsp;  | Switzerland           |  4.75.0.56      | August 18, 2023    | August 18, 2023     | 4.76.0.237                 | October 03, 2023  |
+|   &nbsp;  | South America         |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 10, 2023   |
+|   &nbsp;  | Canada                |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 10, 2023   |
+|   &nbsp;  | India                 |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 10, 2023   |
+|   &nbsp;  | France                |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 10, 2023   |
+|   &nbsp;  | South Africa          |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 10, 2023   |
+|   &nbsp;  | Switzerland           |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 10, 2023   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.75.0.56      | August 25, 2023    | August 25, 2023     | 4.76.0.237                 | October 06, 2023  |
-|   &nbsp;  | Asia Pacific          |  4.75.0.56      | August 25, 2023    | August 25, 2023     | 4.76.0.237                 | October 06, 2023  |
-|   &nbsp;  | Great Britain         |  4.75.0.56      | August 25, 2023    | August 25, 2023     | 4.76.0.237                 | October 06, 2023  |
-|   &nbsp;  | Oceania               |  4.75.0.56      | August 25, 2023    | August 25, 2023     | 4.76.0.237                 | October 06, 2023  |
-|   &nbsp;  | United Arab Emirates  |  4.75.0.56      | August 25, 2023    | August 25, 2023     | 4.76.0.237                 | October 06, 2023  |
+|   &nbsp;  | Japan                 |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 17, 2023   |
+|   &nbsp;  | Asia Pacific          |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 17, 2023   |
+|   &nbsp;  | Great Britain         |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 17, 2023   |
+|   &nbsp;  | Oceania               |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 17, 2023   |
+|   &nbsp;  | United Arab Emirates  |  4.87.0.190     | October 27, 2023   | October 27, 2023    | TBD                 | November 17, 2023   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.75.0.160     | September 1, 2023  | September 1, 2023   | 4.76.0.237                 | October 13, 2023    |
+|   &nbsp;  | Europe                |  4.87.0.190     | November 3, 2023   | November 3, 2023    | TBD                 | December 1, 2023    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.75.0.160     | September 9, 2023  | September 9, 2023   | 4.76.0.237                 | October 20, 2023   |
+|   &nbsp;  | North America         |  4.87.0.190     | November 10, 2023  | November 10, 2023   | TBD                 | December 8, 2023    |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the table above. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
