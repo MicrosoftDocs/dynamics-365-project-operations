@@ -2,7 +2,7 @@
 title: Install and open the Expense mobile app on a mobile device 
 description: This article explains how to Install and open the Expense mobile app on a mobile device.
 author: mukumarm
-ms.date: 05/26/2023
+ms.date: 11/01/2023
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: ramagadu
