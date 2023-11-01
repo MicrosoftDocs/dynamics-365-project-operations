@@ -57,7 +57,7 @@ To **approve** multiple expense reports, follow these steps.
 
 1. On your **Mobile device**, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab. The **Approvals** tab lists expense reports pending approval.
-1. Optional, select the **Filter** buttion on the top and filter the **expense reports** by user, project or by amount.
+1. Optional, select the **Filter** button on the top and filter the **expense reports** by user, project or by amount.
 1. Select the **Multi select** button to select multiple expense reports.
 1. Select **Approve**.
 1. Optional, provide **Justification** and **Approval comments**.
@@ -69,7 +69,7 @@ To **reject** multiple expense reports, follow these steps.
 
 1. On your **Mobile device**, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab. The **Approvals** tab lists expense reports pending approval.
-1. Select the **Filter** buttion on the top and filter the **expense reports** by user, project or by amount. **This step is optional**.
+1. Select the **Filter** button on the top and filter the **expense reports** by user, project or by amount. **This step is optional**.
 1. Select the **Multi select** button to select the multiple expense reports.
 1. Select **Reject**.
 1. Optional, provide **Justification** and **Approval comments**.
