@@ -4,7 +4,7 @@
 title: Project contracts
 description: This article provides examples of the project contracts that you can create for various types of projects and funding sources, and how you can manage contracts and invoice project customers.
 author: Yowelle
-ms.date: 11/03/2017
+ms.date: 11/01/2023
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -59,7 +59,7 @@ Because stocked items, such as those that appear on purchase requisitions and pu
 Here are some steps that you can take to make it easier to split the billing among multiple funding sources:
 
 -   Specify that all transactions that are entered for a project use the same sales currency as the project contract.
--   Set up funding limits, so that a funding source isn't invoiced more than a specified amount toward a project.
+-   Set up funding limits, so that a funding source isn't invoiced more than a specified amount toward a project. You can learn more about [funding limits](./project-funding-limits.md) here. 
 -   Configure funding rules and funding limits for each worker, item, category, category group, and transaction type (or for all transaction types).
 -   Select optional start and end dates to define the period when each funding rule is valid.
 -   Specify the percentage that each funding source is responsible for.
