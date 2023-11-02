@@ -29,7 +29,7 @@ When you create the Dataverse environment where you want to install the app, be 
 
 ## Enable users in Dynamics 365 Finance
 
-To enable users for the Expense mobile app access, follow these steps in Dynamics 365 Finance.
+To enable users for Expense mobile app access, follow these steps in Dynamics 365 Finance.
 
 1. In your Dynamics 365 Finance environment, go to **System administration** > **Users** > **Users**.
 1. Select the **user**.
@@ -38,7 +38,7 @@ To enable users for the Expense mobile app access, follow these steps in Dynamic
 1. Select **User Options** to open the user default settings. **Go to** the **Preferences tab**. **Set up** the Default **company** for the user.
    
 ## Enable Code components for canvas app
-Once you enable the expense mobile app in **Dynamics 365 Finance**, the next step is to activate the necessary code components for localization controls. This step is required to display the localized labels on the Expense mobile app and must be performed before installing the Expense mobile app. For more information, see [Enable the Power Apps component framework feature](https://github.com/MicrosoftDocs/powerapps-docs/blob/8bdb6cf00e2c10f73beafd70c2f694edc84f239a/powerapps-docs/developer/component-framework/component-framework-for-canvas-apps.md)
+Once you enable the expense mobile app in **Dynamics 365 Finance**, the next step is to activate the necessary code components for localization controls. This step is required to display the localized labels on the Expense mobile app and must be performed before installing the Expense mobile app. For more information, see [Enable the Power Apps component framework feature](https://github.com/MicrosoftDocs/powerapps-docs/blob/8bdb6cf00e2c10f73beafd70c2f694edc84f239a/powerapps-docs/developer/component-framework/component-framework-for-canvas-apps.md).
 
 ## Install the Expense mobile app in Dataverse
 
@@ -52,41 +52,41 @@ To install the Expense mobile app in your Dataverse environment, follow these st
 1. After successful installation, **Dynamics 365 Expense Mobile** is listed as a solution on the **Solutions** tab in Power Apps.
 
 ## Refresh virtual entities in Dataverse
-Once the code components for canvas apps have been enabled, the next crucial step is to enable the virtual entities used in the Expense mobile app. This action ensures that the canvas app can utilize the most up-to-date metadata of these virtual entities to enhance the overall functionality and user experience of the app. For more information, see [Refresh virtual entities](https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/9ae4c7446f720f42f694048cd3561515569b7e98/articles/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md#refresh-virtual-entity-metadata)
+Once the code components for canvas apps have been enabled, the next crucial step is to enable the virtual entities used in the Expense mobile app. This action ensures that the canvas app can utilize the most up-to-date metadata of these virtual entities to enhance the overall functionality and user experience of the app. For more information, see [Refresh virtual entities](https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/9ae4c7446f720f42f694048cd3561515569b7e98/articles/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md#refresh-virtual-entity-metadata).
 
 The following list shows the entities that need to be refreshed.
 
-- mserp_currencyentity
-- mserp_expensefieldsvisibilityentity
-- mserp_logisticsaddresscountryregionentity
-- mserp_logisticsaddresscountryregiontranslationentity
-- mserp_dimattributetrvtraveltxtentity
-- mserp_trvtravellocationentity
-- mserp_trvexpenseparametersentity
-- mserp_logisticsaddressstateentity
-- mserp_trvaddresszipcodeentity
-- mserp_trvexpmobilemasterdataentity
-- mserp_trvmileagerateentity
-- mserp_trvexpmobilereportapprovalentity
-- mserp_trvadmincustomfieldsentity
-- mserp_trvexpensecategoryentity
-- mserp_trvexpmobileactivitiesentity
-- mserp_trvexpmobileaddresscityentity
-- mserp_trvexpmobilecompanyinfoentity
-- mserp_trvexpmobiledocumententity
-- mserp_trvexpmobileexpenseentity
-- mserp_trvexpmobileexpensefieldvisibilityentity
-- mserp_trvexpmobileitemtaxentity
-- mserp_trvexpmobileprojentity
-- mserp_trvexpmobileprojlinepropertyentity
-- mserp_trvexpmobilereportentity
-- mserp_trvexpmobiletaxgroupentity
-- mserp_trvexpmobileexpenselineattachedtoreportentity
-- mserp_trvexpmobilereceiptattachedtoexpenselineentity
-- mserp_trvlogisticsaddresscountryregiontranslationentity
-- mserp_trvpaymethodentity
-- mserp_trvexpmobileattacheddocumententity
-- mserp_trvexpmobileunattacheddocumententity
+- mserp\_currencyentity
+- mserp\_expensefieldsvisibilityentity
+- mserp\_logisticsaddresscountryregionentity
+- mserp\_logisticsaddresscountryregiontranslationentity
+- mserp\_dimattributetrvtraveltxtentity
+- mserp\_trvtravellocationentity
+- mserp\_trvexpenseparametersentity
+- mserp\_logisticsaddressstateentity
+- mserp\_trvaddresszipcodeentity
+- mserp\_trvexpmobilemasterdataentity
+- mserp\_trvmileagerateentity
+- mserp\_trvexpmobilereportapprovalentity
+- mserp\_trvadmincustomfieldsentity
+- mserp\_trvexpensecategoryentity
+- mserp\_trvexpmobileactivitiesentity
+- mserp\_trvexpmobileaddresscityentity
+- mserp\_trvexpmobilecompanyinfoentity
+- mserp\_trvexpmobiledocumententity
+- mserp\_trvexpmobileexpenseentity
+- mserp\_trvexpmobileexpensefieldvisibilityentity
+- mserp\_trvexpmobileitemtaxentity
+- mserp\_trvexpmobileprojentity
+- mserp\_trvexpmobileprojlinepropertyentity
+- mserp\_trvexpmobilereportentity
+- mserp\_trvexpmobiletaxgroupentity
+- mserp\_trvexpmobileexpenselineattachedtoreportentity
+- mserp\_trvexpmobilereceiptattachedtoexpenselineentity
+- mserp\_trvlogisticsaddresscountryregiontranslationentity
+- mserp\_trvpaymethodentity
+- mserp\_trvexpmobileattacheddocumententity
+- mserp\_trvexpmobileunattacheddocumententity
   
 ## Grant access to the mobile app in Dataverse
 
