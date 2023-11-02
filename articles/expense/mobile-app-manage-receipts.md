@@ -9,7 +9,7 @@ ms.author: ramagadu
 ms.custom: bap-template
 ---
 
-# Manage receipts receipts by using the Expense mobile app
+# Manage receipts by using the Expense mobile app
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
