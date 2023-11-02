@@ -50,7 +50,7 @@ To recalculate spent amounts with updating values, you leave the parameter for *
 
 <i>Filter criteria is required for updating amounts. Provide a value or range and try again.</i>
 
-A filter can be provided for a single contract, a list, or a range of contracts when an update is performed. See related link for example - https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/advanced-filtering-query-options
+A filter can be provided for a single contract, a list, or a range of contracts when an update is performed. For more information about filtering, see [Advanced filtering and query syntax](/dynamics365/fin-ops-core/fin-ops/get-started/advanced-filtering-query-options).
 
 ### Funding limit history
 
