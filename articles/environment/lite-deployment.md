@@ -5,7 +5,7 @@ author: stsporen
 ms.date: 11/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: stsporen
+ms.author: rumant
 ---
 
 # Deploy Project Operations Lite
