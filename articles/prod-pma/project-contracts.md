@@ -74,7 +74,7 @@ To determine which tax group to associate with a transaction, the project is sea
 The following table provides scenarios for managing funding allocation among multiple funding sources. These scenarios are based on the following assumptions:
 
 -   Priority settings are factored into the allocation of funds before other funding rule criteria are applied.
--   No date range has been specified to define the period d when the funding rule is valid.
+-   No date range has been specified to define the period when the funding rule is valid.
 
 <table>
 <colgroup>
@@ -297,7 +297,7 @@ Your organization, a software development firm, agrees to develop a payroll acco
 
 When you create a customer invoice for the first time, the invoice amount is automatically calculated based on the following information:
 
--   After a month, the worker on the project submits a timesheet for the project. The cost of the worker’s hours is 5,000 for development and 1,000 for installation. The development work is 33 percent completed (5,000 actual cost, 15,000 budget cost), and the installation work is 20 percent completed (1,000 actual cost/5,000 budget cost).
+-   After a month, the worker on the project submits a timesheet for the project. The cost of the worker’s hours is 5,000 for development and 1,000 for installation. The development work is 33 percent completed (5,000 actual cost, 15,000 budget cost), and the installation work is 20 percent completed (1,000 actual cost, 5,000 budget cost).
 -   The invoice amount of 8,667 is automatically calculated (33 percent of 20,000 + 20 percent of 10,000).
 -   You create an invoice for 8,667 and send it to the customer.
 
