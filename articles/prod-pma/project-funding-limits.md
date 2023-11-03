@@ -39,13 +39,13 @@ When you establish funding limits on a project contract, you can navigate to the
 
 ## Enable recalculation of funding limits
 
-In the 10.0.37 release, new functionality is available to help with self-healing scenarios for configuration mistakes, product defects, and customization issues. This feature allows monitoring and updating funding limits that weren't correctly calculated in the category of **Spent amount** during document processing. You can **Enable recalculation of funding limits** from the **Project management and accounting parameters** form on the **Invoice** tab.
+In the 10.0.37 release, new functionality is available to help with self-healing scenarios for configuration mistakes, product defects, and customization issues. This feature allows monitoring and updating funding limits that weren't correctly calculated in the category of **Spent amount** during document processing. You can **Enable recalculation of funding limits** from the **Project management and accounting parameters** page on the **Invoice** tab.
 
-After you **Enable recalculation of funding limits**, two new forms are made available on **Project management and accounting** > **Periodic** > **Funding Limits**.
+After you **Enable recalculation of funding limits**, two new pages are made available on **Project management and accounting** > **Periodic** > **Funding Limits**.
 
 ### Recalculate spending limits
 
-The **Recalculate spending limits** form evaluates one or more funding limits to check for any inconsistencies and optionally lets the you save the recalculated value back to the **Funding limit** **Spent amount**.
+The **Recalculate spending limits** page evaluates one or more funding limits to check for any inconsistencies and optionally lets you save the recalculated value back to the **Funding limit** **Spent amount**.
 
 To recalculate the **Spent amount** without updating values, set **Update spent amounts** to **No**. You can then set a filter for **project contract ID** or set a filter for one or more contracts. This process populates a new list of data that contains a list of the **Project contracts** and associated **Funding limits**. The process also indicates if a variance was found as part of the recalculation.
 
@@ -61,9 +61,9 @@ A filter can be provided for one contract, a list, or a range of contracts when 
 
 ### View funding limit history
 
-The **Funding limit history** form contains a list of all contracts where the **Recalculate spent amounts** process runs. If contracts exist but aren’t included in a recalculate job execution, they aren't on the list.
+The **Funding limit history** page contains a list of all contracts where the **Recalculate spent amounts** process runs. If contracts exist but aren’t included in a recalculate job execution, they aren't on the list.
 
-Note: By default, the form opens to a list of a contract where the spent amount doesn’t match the calculated spent amount. If no **funding limits** are found to be out of sync, then the list is blank. Clear the **Requires update filter** on the left to see the **Project contracts** and their **Funding limit history**.
+Note: By default, the page opens to a list of a contract where the spent amount doesn’t match the calculated spent amount. If no **funding limits** are found to be out of sync, then the list is blank. Clear the **Requires update filter** to see the **Project contracts** and their **Funding limit history**.
 
 > [!NOTE]
 > The **Requires update** filter looks to the most recent recalculation record for evaluation purposes.
