@@ -1,6 +1,6 @@
 ---
-title: Expense mobile app FAQ
-description: This article provides answers to frequently asked questions about the Expense mobile app.
+title: Expense management mobile app FAQ
+description: This article provides answers to frequently asked questions about the Expense management mobile app.
 author: mukumarm
 ms.date: 10/25/2023
 ms.topic: article
@@ -8,27 +8,27 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# Expense mobile app FAQ
+# Expense management mobile app FAQ
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
-This article provides answers to frequently asked questions about the Expense mobile app. It also describes known issues that affect the app and explains how to work around them.
+This article provides answers to frequently asked questions about the Expense management mobile app. It also describes known issues that affect the app and explains how to work around them.
 
-## Which versions of Microsoft Dynamics 365 Finance support the Expense mobile app?
+## Which versions of Microsoft Dynamics 365 Finance support the Expense management mobile app?
 
-The Expense mobile app requires Dynamics 365 Finance version 10.0.37 - 10.0.1725.64 or later.
+The Expense management mobile app requires Dynamics 365 Finance version 10.0.37 - 10.0.1725.64 or later.
 
 ## Which platforms and mobile devices are supported?
 
-The Expense mobile app runs within the Power Apps mobile app. All platforms that the Power Apps mobile app supports can also run the Expense mobile app. For more information, see [System requirements, limits, and configuration values for Power Apps](/power-apps/limits-and-config).
+The Expense management mobile app runs within the Power Apps mobile app. All platforms that the Power Apps mobile app supports can also run the Expense management mobile app. For more information, see [System requirements, limits, and configuration values for Power Apps](/power-apps/limits-and-config).
 
-## Does the Expense mobile app support offline mode?
+## Does the Expense management mobile app support offline mode?
 
-No, the Expense mobile app doesn't currently support offline mode.
+No, the Expense management mobile app doesn't currently support offline mode.
 
-## Does the Expense mobile app require another license?
+## Does the Expense management mobile app require another license?
 
-No, there are no other licensing costs for the new Expense mobile app. Its license is covered under the **Team member** license. Users who have a **Team member** license can use this app.
+No, there are no other licensing costs for the new Expense management mobile app. Its license is covered under the **Team member** license. Users who have a **Team member** license can use this app.
 
 ## Where can I go to discuss the app with the community and submit suggestions to Microsoft?
 
