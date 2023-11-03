@@ -550,6 +550,8 @@
           href: expense/mobile-app-manage-expense-reports.md
         - name: Manage receipts by using the Expense mobile app
           href: expense/mobile-app-manage-receipts.md
+        - name: Manage expense report approvals using the Expense mobile app
+          href: expense/mobile-app-manage-approvals.md
       - name: Expense mobile app FAQ
         href: expense/new-expense-mobile-app-faq.md
     - name: Mobile Expense app (legacy)
@@ -1516,6 +1518,8 @@
           href: expense/mobile-app-manage-expense-reports.md
         - name: Manage receipts by using the Expense mobile app
           href: expense/mobile-app-manage-receipts.md
+        - name: Manage expense report approvals using the Expense mobile app
+          href: expense/mobile-app-manage-approvals.md
       - name: Expense mobile app FAQ
         href: expense/new-expense-mobile-app-faq.md
     - name: Mobile Expense app (legacy)
