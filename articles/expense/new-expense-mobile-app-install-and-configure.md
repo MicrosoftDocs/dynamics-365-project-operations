@@ -1,5 +1,5 @@
 ---
-title: Install and configure the Expense mobile app 
+title: Install and configure the Expense management mobile app 
 description: This article explains how to install and configure the Expense management mobile app.
 author: mukumarm
 ms.date: 10/25/2023
