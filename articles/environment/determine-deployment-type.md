@@ -5,7 +5,7 @@ author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: stsporen
+ms.author: rumant
 ---
 
 # Determine your deployment type
