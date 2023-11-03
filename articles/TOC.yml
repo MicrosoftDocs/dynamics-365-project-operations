@@ -1564,7 +1564,7 @@
       href: prod-pma/project-item-requirements.md
     - name: Item requirements for project contracts with multiple funding sources
       href: prod-pma/multiple-funding-sources-item-req.md  
-    - name: Project funding limits
+    - name: Configure and use project funding limits
       href: prod-pma/project-funding-limits.md
   - name: Intercompany invoicing
     items:
