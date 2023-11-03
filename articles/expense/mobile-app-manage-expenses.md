@@ -1,6 +1,6 @@
 ---
-title: Manage expenses by using the Expense mobile app
-description: This article explains how to manage expenses by using the Expense mobile app.
+title: Manage expenses by using the Expense management mobile app
+description: This article explains how to manage expenses by using the Expense management mobile app.
 author: mukumarm
 ms.date: 10/25/2023
 ms.topic: article
@@ -9,11 +9,11 @@ ms.author: ramagadu
 ms.custom: bap-template
 ---
 
-# Manage expenses by using the Expense mobile app
+# Manage expenses by using the Expense management mobile app
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
-This article explains how to manage expenses by using the Expense mobile app.
+This article explains how to manage expenses by using the Expense management mobile app.
 
 ## Default Settings for Expense Creation and Updates
 
@@ -27,7 +27,7 @@ When an expense is either created or updated, specific values are automatically 
  
 ## View expenses
 
-When you open the Expense mobile app, the **Expenses** tab is selected and shows a list of all unattached expenses.
+When you open the Expense management mobile app, the **Expenses** tab is selected and shows a list of all unattached expenses.
 
 * You can view all unattached expenses: both expenses that you manually created and your imported credit card transactions.
 * You can view key information about the expenses in the list, such as the transaction date, merchant name, amount, and project ID.
@@ -38,7 +38,7 @@ When you open the Expense mobile app, the **Expenses** tab is selected and shows
 
 To enter expenses by using optical character recognition (OCR), follow these steps.
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Expense mobile app.
+1. On your mobile device, open the Power Apps mobile app, and then open the Expense management mobile app.
 1. On the **Expenses** tab, select the plus sign (**+**) button.
 1. The camera app is opened, and you can perform any of the following actions:
 
@@ -64,13 +64,13 @@ To enter expenses by using optical character recognition (OCR), follow these ste
 1. Select **Done**.
 
 > [!NOTE]
-> Per-diem and mileage expenses aren't supported in the preview version of the Expense mobile app. However, support will be added to the app when it becomes generally available.
+> Per-diem and mileage expenses aren't supported in the preview version of the Expense management mobile app. However, support will be added to the app when it becomes generally available.
 
 ### Modify an expense
 
 To modify an expense, follow these steps.
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Expense mobile app.
+1. On your mobile device, open the Power Apps mobile app, and then open the Expense management mobile app.
 1. On the **Expenses** tab, select an expense.
 1. Update the values of the fields that you want to modify.
 
@@ -85,7 +85,7 @@ To modify an expense, follow these steps.
 
 To add a receipt, follow these steps.
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Expense mobile app.
+1. On your mobile device, open the Power Apps mobile app, and then open the Expense management mobile app.
 1. On the **Expenses** tab, select an expense.
 1. Select **Add receipt**.
 1. The camera app is opened, and you can perform any of the following actions:
@@ -100,7 +100,7 @@ To add a receipt, follow these steps.
 
 To change a receipt, follow these steps.
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Expense mobile app.
+1. On your mobile device, open the Power Apps mobile app, and then open the Expense management mobile app.
 1. On the **Expenses** tab, select an expense.
 1. Select **View receipt**.
 1. On the **View receipt** page, select **Change receipt**.
@@ -116,7 +116,7 @@ To change a receipt, follow these steps.
 
 To detach a receipt, follow these steps.
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Expense mobile app.
+1. On your mobile device, open the Power Apps mobile app, and then open the Expense management mobile app.
 1. On the **Expenses** tab, select an expense.
 1. Select **View receipt**.
 1. Select **Detach**.
@@ -126,7 +126,7 @@ To detach a receipt, follow these steps.
 
 To delete expenses, follow these steps.
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Expense mobile app.
+1. On your mobile device, open the Power Apps mobile app, and then open the Expense management mobile app.
 1. On the **Expenses** tab, select the **Multi select** button in the upper-right corner.
 1. Select the expenses.
 1. Select the **Delete** button.
@@ -138,7 +138,7 @@ After an expense is deleted, the receipt that was attached to it moves to the li
 
 To attach expenses to an expense report, follow these steps.
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Expense mobile app.
+1. On your mobile device, open the Power Apps mobile app, and then open the Expense management mobile app.
 1. On the **Expenses** tab, select the **Multi select** button in the upper-right corner.
 1. Select the expenses.
 1. Select the **Attach** button.
