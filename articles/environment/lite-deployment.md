@@ -46,7 +46,8 @@ If you want to continue running Project Operations in Lite Deployment mode, you 
 1. Go to **Project Operations -> Settings -> Parameters**. Open the **Project Parameter** details page and set the **Solution Upgrade Behavior** field to **Lite Only**. This ensures that any subsequent upgrades of Project Operations won't bring back the integration components into Project Operations.
 1.  Go to **Project Operations -> Settings -> Parameters**. Open the **Project Parameter** details page and open the tab **Pricing Dimensions** and remove msdyn_OwningCompany, msdyn_ResourcingCompany, msdyn_IsInterCompany records from the **Amount - based Pricing dimensions** grid. Deleting pricing dimensions records will require **Role Prices** table to be empty. Export data out of this table before attempting to delete pricing dimensions. After pricing dimension records are removed, re-import records to the **Role Prices** table.
 1. Go to **Actuals Configuration** table and remove records for Owning Company and Resourcing Company. 
-> [Note!]
+
+> [!Note]
 > Removing msdyn_OwningCompany and msdyn_IsInterCompany records from the pricing dimensions table will require plugin disablement. Please submit a Microsoft support ticket to do this. Once the plugins are disabled, delete msdyn_OwningCompany and msdyn_IsInterCompany records from the pricing dimensions table and re-enable the plugins. Re-enabling the plugins is required for proper working of Project Operations applications.
 
 
