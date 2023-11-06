@@ -1,8 +1,8 @@
 ---
-title: Expense management mobile app FAQ
-description: This article provides answers to frequently asked questions about the Expense management mobile app.
+title: Dynamics 365 expense management mobile app FAQ
+description: This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 10/25/2023
+ms.date: 11/06/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ramagadu
@@ -12,7 +12,7 @@ ms.author: ramagadu
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
-This article provides answers to frequently asked questions about the Expense management mobile app. It also describes known issues that affect the app and explains how to work around them.
+This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app. It also describes known issues that affect the app and explains how to work around them.
 
 ## Which versions of Microsoft Dynamics 365 Finance support the Expense management mobile app?
 
@@ -22,11 +22,15 @@ The Expense management mobile app requires Dynamics 365 Finance version 10.0.37 
 
 The Expense management mobile app runs within the Power Apps mobile app. All platforms that the Power Apps mobile app supports can also run the Expense management mobile app. For more information, see [System requirements, limits, and configuration values for Power Apps](/power-apps/limits-and-config).
 
-## Does the Expense management mobile app support offline mode?
+## Does the Dynamics 365 expense management mobile app support offline mode?
 
 No, the Expense management mobile app doesn't currently support offline mode.
 
-## Does the Expense management mobile app require another license?
+## Does the Dynamics 365 expense management mobile app support Itemization, Per diem and guest funtionality?
+
+No, the Expense management mobile app doesn't currently support, however these features will be added in the future releases. 
+
+## Does the Dynamics 365 expense management mobile app require another license?
 
 No, there are no other licensing costs for the new Expense management mobile app. Its license is covered under the **Team member** license. Users who have a **Team member** license can use this app.
 
