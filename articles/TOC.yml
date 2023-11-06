@@ -1336,10 +1336,12 @@
         href: whats-new/ur5-nonstocked-installation.md
   - name: What's new
     items:
-    - name: What's new September 2023 - Project Operations for stocked/production-based scenarios
-      href: prod-pma/whats-new/whats-new-sept-2023-stocked.md
+    - name: What's new November 2023 - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-nov-2023-stocked.md
     - name: Archive
       items:
+      - name: What's new September 2023 - Project Operations for stocked/production-based scenarios
+        href: prod-pma/whats-new/whats-new-sept-2023-stocked.md
       - name: What's new August 2023 - Project Operations for stocked/production-based scenarios
         href: prod-pma/whats-new/whats-new-aug-2023-stocked.md
       - name: What's new June 2023 - Project Operations for stocked/production-based scenarios
