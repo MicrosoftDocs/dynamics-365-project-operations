@@ -2,10 +2,10 @@
 title: Determine your deployment type
 description: This article provides information to help you determine the correct deployment type of Project operations for your company.
 author: stsporen
-ms.date: 03/15/2021
+ms.date: 11/06/2023
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: stsporen
+ms.author: rumant
 ---
 
 # Determine your deployment type
@@ -49,6 +49,9 @@ The lite deployment includes the following capabilities:
 - Unified resource management
 - Time tracking
 - Basic expense
+- Material usage
+- Project Budgeting and Time-Phased forecasting
+- Subcontracting
 - Proforma invoicing for Project manager's review and edits 
 
 #### Deployment steps
@@ -66,8 +69,10 @@ The Project Operations for resource/non-stocked scenarios includes the following
 - Unified resource management
 - Time tracking
 - Basic expense
-- Full expense
-- Receipt OCR
+- Full expense with Receipt OCR
+- Material usage
+- Project Budgeting and Time-Phased forecasting
+- Subcontracting
 - Proforma and customer-facing invoicing 
 - Revenue recognition for projects
 
@@ -94,6 +99,7 @@ Determine the best deployment model of Project Operations using the [Deployment 
 
 For this deployment, see [Sign-up for preview subscriptions](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) and [Provision new environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
-
+> [!Note]
+> There isn't an out-of-box supported migration of data betweeen deployments types. If you would like to moving data from one deployment type to another requires the creation of custom scripts, custom mapping of concepts, and potentially manual intervention to boot strap data to move it to the desired deployment type.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

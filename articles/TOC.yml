@@ -740,6 +740,8 @@
       href: environment/lite-apply-demo-setup-config-data.md
     - name: Security model
       href: environment/security-model.md
+    - name: Uninstall Dynamics 365 Project Operations
+      href: environment/uninstall-project-operations.md
     - name: Developer notes
       items:
       - name: Developer notes for payment terms
