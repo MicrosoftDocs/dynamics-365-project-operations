@@ -100,6 +100,6 @@ Determine the best deployment model of Project Operations using the [Deployment 
 For this deployment, see [Sign-up for preview subscriptions](/dynamics365/fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription?toc=%2fdynamics365%2ffinance%2ftoc.json) and [Provision new environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment?toc=%2fdynamics365%2ffinance%2ftoc.json). 
 
 > [!Note]
-> There is no out-of-box supported migration of data betweeen deployments types. If you would like to move data from one deployment type to another, this will require the creation of custom scripts, custom mapping of concepts and potentially manual intervention to boot strap data to move it to the desired deployment type.
+> There isn't an out-of-box supported migration of data betweeen deployments types. If you would like to moving data from one deployment type to another requires the creation of custom scripts, custom mapping of concepts, and potentially manual intervention to boot strap data to move it to the desired deployment type.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
