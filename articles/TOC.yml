@@ -68,10 +68,12 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
-    - name: October 2023 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-oct-2023-resource-based.md
+    - name: November 2023 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-nov-2023-resource-based.md
     - name: Archive
       items:
+       - name: October 2023 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-oct-2023-resource-based.md
        - name: September 2023 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-sept-2023-resource-based.md
        - name: What's new 2023 wave 1 early access - Project Operations for resource/non-stocked based scenarios
