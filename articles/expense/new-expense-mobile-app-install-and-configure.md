@@ -15,6 +15,9 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Pr
 
 This article explains how administrators can prepare your Microsoft Dynamics 365 Finance and Dataverse environments to support the Dynamics 365 expense management mobile app. For information on how to install the Dynamics 365 expense management mobile app on your mobile devices, see [Install and open the Dynamics 365 expense management mobile app on a mobile device](mobile-app-install-on-mobile-device.md).
 
+> [!Note]
+>  It is advisable to delete all components of the **Dynamics 365 expense management** mobile app from Dataverse if the Dynamics 365 Expense Management mobile app has already been installed during the public preview phase.
+
 ## System requirements
 
 To run the Dynamics 365 expense management mobile app, you must use the following versions of Microsoft Dynamics 365 Finance with the latest quality update (QU) or later.
