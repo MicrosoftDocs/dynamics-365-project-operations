@@ -52,6 +52,8 @@ To install the Dynamics 365 expense management mobile app in your Dataverse envi
 1. After successful installation, **Dynamics 365 Dynamics 365 expense management Mobile** is listed as a solution on the **Solutions** tab in Power Apps.
 
 ## Refresh virtual entities in Dataverse
+This step is optional. Virtual entities in **Dataverse** will be refreshed automatically. Perform this step only in case if encounter any issues related to data on the the Mobile app screens.
+
 Once the code components for canvas apps have been enabled, the next crucial step is to enable the virtual entities used in the Dynamics 365 expense management mobile app. This action ensures that the canvas app can utilize the most up-to-date metadata of these virtual entities to enhance the overall functionality and user experience of the app. For more information, see [Refresh virtual entities](https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/9ae4c7446f720f42f694048cd3561515569b7e98/articles/fin-ops-core/dev-itpro/power-platform/enable-virtual-entities.md#refresh-virtual-entity-metadata).
 
 The following list shows the entities that need to be refreshed.
