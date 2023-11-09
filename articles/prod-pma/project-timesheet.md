@@ -57,9 +57,9 @@ Dynamics 365 Project Timesheet** parameter.
 - "AADSTS50020: User account '[user name]' from identity provider 'https://sts.windows.net/[app id]' does not exist in tenant '[tenant id]' and cannot access the application '[app id]' in that tenant."
 - "Selected user account does not exist in tenant '[tenant id]' and cannot access the application '[app id]' in that tenant."
 
-**Explanation:** These issues are caused by a change that was made to Azure Active Directory (Azure AD) in May 2022 and that is related to external users. Because this change wasn't made to finance and operations apps, it can affect customers on any version of the platform or application.
+**Explanation:** These issues are caused by a change that was made to Microsoft Entra ID in May 2022 and that is related to external users. Because this change wasn't made to finance and operations apps, it can affect customers on any version of the platform or application.
 
-**Fix:** All external users must be invited to the tenant through Azure AD. For more information, see [Invite users with Azure Active Directory B2B collaboration](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
+**Fix:** All external users must be invited to the tenant through Microsoft Entra ID. For more information, see [Invite users with Microsoft Entra B2B collaboration](/power-platform/admin/invite-users-azure-active-directory-b2b-collaboration).
 
 ## Sign in to the app
 
