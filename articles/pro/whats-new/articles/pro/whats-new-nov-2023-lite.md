@@ -1,7 +1,7 @@
 ---
 
 title: What's new November 2023 - Project Operations Lite deployment
-description: This article provides information about the quality updates that are available in the October 2023 release of Microsoft Dynamics 365 Project Operations Lite deployment.
+description: This article provides information about the quality updates that are available in the November 2023 release of Microsoft Dynamics 365 Project Operations Lite deployment.
 author: tulsijhaveri
 ms.date: 11/06/2023
 ms.topic: article
@@ -23,7 +23,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
 | Time entry | **In-grid editability within Modern Time Entry Grid** This new capability is available when users switch to the **Modern Time Entry Grid**. This release introduces in-grid editability of a project, project task, and role fields without using the **Edit Row** form. To edit in-drid, double-clicking these fields: for **Draft**, **Returned**, and **Recalled** rows. Subsequent releases will have the ability to edit more fields. |   |
-| Project Budget Management | **Sales budgets included in Project sales budget management.** Project Operations is expanding its budget management capabilities to include sales budgets. This means you can create, approve, revise, and track your sales budgets just like you do with cost budgets. Unbilled sales and billed sales actuals track against the sales budget lines. This expansion simplifies your experience by using the existing 'Enable Project Budgeting' feature flag. If you have already enabled 'Enable Project Budgeting' feature flag, you can create sales budgets along with cost budgets. In summary, Project Operations now offers unified and comprehensive budget management for both cost and sales, making it easier to manage your project budgets. | [**Project budget management overview**](../budget/projectbudgetmanagement.md) |
+| Project Budget Management | **Sales budgets included in Project sales budget management.** Project Operations is expanding its budget management capabilities to include sales budgets. This means you can create, approve, revise, and track your sales budgets just like you do with cost budgets. Unbilled sales and billed sales actuals track against the sales budget lines. This expansion simplifies your experience by using the existing 'Enable Project Budgeting' feature flag. If you have already enabled 'Enable Project Budgeting' feature flag, you can create sales budgets along with cost budgets. In summary, Project Operations now offers unified and comprehensive budget management for both cost and sales, making it easier to manage your project budgets. | [**Project budget management overview**](../pro/budget/projectbudgetmanagement.md) |
 
 
 ## Quality updates 
