@@ -5,7 +5,7 @@ author: TulsiJhaveri
 ms.date: 11/06/2023
 ms.topic: article
 ms.prod:
-ms.reviewer:  
+ms.reviewer: johnmichalak 
 ms.author: TulsiJhaveri
 ---
 
@@ -24,19 +24,19 @@ The following table shows the dual-write maps that have been modified or added i
 
 | **Entity map** | **Updated version** | **Comments** |
 | --- | --- | --- |
-| Project Operations integration project vendor invoice export entity V2 (msdyn\_projectvendorinvoices) | 1.0.0.0 | New V2 entity added; This is required if user has enabled "Hold vendor payment" feature. The previous versioned entity, **Project Operations integration project vendor invoice export entity** , is deprecated and users should use the new updated entity.   |
+| Project Operations integration project vendor invoice export entity V2 (msdyn\_projectvendorinvoices) | 1.0.0.0 | New V2 entity added; This is required if user has enabled **Hold vendor payment** feature. The previous versioned entity, **Project Operations integration project vendor invoice export entity** , is deprecated and users should use the new updated entity.   |
 
-Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Some features and capabilities might not work correctly if the latest version of the map isn't activated. You can view the active version of the map in the  **Version**  column on the  **Dual-write**  page. To activate a new version of the map, select  **Table map versions** , select the latest version, and then save the selected version. If you've customized an out-of-box table map, reapply the changes. For more information, see [Application lifecycle management](https://github.com/MicrosoftDocs/dynamics-365-project-operations-pr/blob/PO_RN_UR39_Nov23/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Some features and capabilities might not work correctly if the latest version of the map isn't activated. You can view the active version of the map in the  **Version**  column on the  **Dual-write**  page. To activate a new version of the map, select  **Table map versions** , select the latest version, and then save the selected version. If you've customized an out-of-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-If you encounter an issue when you start the map, follow the instructions in the [Missing table columns issue on maps](https://github.com/MicrosoftDocs/dynamics-365-project-operations-pr/blob/PO_RN_UR39_Nov23/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual-write troubleshooting guide.
+If you encounter an issue when you start the map, follow the instructions in the [Missing table columns issue on maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the dual-write troubleshooting guide.
 
 ## Features included in this release 
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
 | Procurement | **Block vendor payments for vendor invoices until PM approval** Facilitate the withholding of vendor payments for vendor invoices until they receive approval from the project manager in Dataverse. In some cases, project manager authorization is required before vendor payment can be initiated. In these cases, Accounts payable (AP) clerks document the invoice and wait for the project manager's approval before they process the payment. | [Block vendor payments until approved by a project manager | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/subcontracting/vi-blockvendorpaymentsforpmapproval) |
-| Project Financials | **Enable Integration journal processing improvements** This feature adds new functionality for the integration journal in Project Operations for non-stock / resource based deployments. With this feature enabled, new statuses are visible within the journal line in header to optimize posting to ensure work can be split up into multiple threads. Any journals encountering a posting error will be prevented from posting again until the posting issue is addressed and the line is updated to draft status. | [Integration journal in Project Operations | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-accounting/project-operations-integration-journal) |
-| Time entry | **In-grid editability within Modern Time Entry Grid** This is a new capability that is available when a user switches to "Modern Time Entry Grid". This introduces in-grid editability of Project, Project Task and Role fields (for now) without using an "Edit Row" form. This can be done by double-clicking these fields, for "Draft", "Returned" and "Recalled" rows. Ability to edit more fields will be enabled in subsequent releases. |   |
+| Project Financials | **Enable Integration journal processing improvements** This feature adds new functionality for the integration journal in Project Operations for resource /non-stock based deployments. With this feature enabled, new statuses are visible within the journal line in header to optimize posting to ensure work can be split up into multiple threads. Any journals encountering a posting error will be prevented from posting again until the posting issue is addressed and the line is updated to draft status. | [Integration journal in Project Operations | Integration journal in Project Operations](../../project-accounting/project-operations-integration-journal.md) |
+| Time entry | **In-grid editability within Modern Time Entry Grid** This new capability is available when users switch to the **Modern Time Entry Grid**. This release introduces in-grid editability of a project, project task, and role fields without using the **Edit Row** form. To edit in-drid, double-clicking these fields: for **Draft**, **Returned**, and **Recalled** rows. Subsequent releases will have the ability to edit more fields. |   |
 
 ## Quality updates
 
@@ -44,13 +44,13 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Reference number** | **Quality Update** |
 | --- | --- | --- |
-| Billing and Pricing | 3457165 | Invoice can be confirmed without ProjOps confirmation business logic |
-| Billing and Pricing | 3349847 | NRE in ProjOps integrated upon creating invoice with corrupted split billing rules |
-| Billing and Pricing | 3445951 | Actuals re-evaluation fails for upgraded data - need split billing rule update |
-| Billing and Pricing | 3234349 | Journal Line can have contract line customer that doesn't match project contract |
+| Billing and Pricing | 3457165 | Invoice can be confirmed without Project Operations confirmation business logic. |
+| Billing and Pricing | 3349847 | NRE in Project Operations integrated upon creating invoice with corrupted split billing rules. |
+| Billing and Pricing | 3445951 | Actuals reevaluation fails for upgraded data - need split billing rule update. |
+| Billing and Pricing | 3234349 | Journal Line can have contract line customer that doesn't match project contract. |
 | Billing and Pricing | 3567544 | Quote Line Detail creation from Project Estimate Import failing. |
-| Project Operations Upgrade | 3507354 | 3x Add-In for Project Desktop can connect, read, and publish to an Upgraded PO4x org |
-| Project Planning and Tracking | 3572672 | Custom fields on tasks can't be updated via Dual-Write |
+| Project Operations Upgrade | 3507354 | 3x add-in for Project Desktop can connect, read, and publish to an Upgraded PO4x org. |
+| Project Planning and Tracking | 3572672 | Custom fields on tasks can't be updated via dual-write. |
 
 [**Project management and accounting in Finance**](https://github.com/MicrosoftDocs/dynamics-365-project-operations-pr/new/PO_RN_UR39_Nov23/articles/whats-new#project-management-and-accounting-in-finance)
 
