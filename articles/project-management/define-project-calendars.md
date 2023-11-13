@@ -31,6 +31,8 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
+## Setting a project's calendar
+
 When a project is created, you must apply a calendar template to the project. The default calendar template will be chosen automatically, but it can be changed before the proejct is saved. The calendar template defines the following project attributes:
 
 - Working hours, including start and end time
@@ -65,9 +67,12 @@ You can now associate the work template with a project calendar template.
 
 ## Edit a project's calendar
 
-Once a project is saved, there are two ways to edit the project's calendar. First you can apply a new calendar template to the project by selecting the drop down menu on the ribbon and then selecting change template. This will open a dialog box where a new calendar template can be applied to the project.
+Once a project is saved, there are two ways to edit the project's calendar. First you can apply a new calendar template to the project by selecting the **Calendar** drop down menu on the ribbon and then selecting **Change Template**. This will open a dialog box where a new calendar template can be applied to the project.
 
-Alternatively, the work hours of the project can be directly edited by selecting the calendar tab on the project entity. This tab displays the projects work hours calendar, and allows for edits to those work hours to be made directly. These edits can be applied to the project's work breakdown structure by selecting the calendar drop down menu on the ribbon, and then selecting sync from that menu. Alternatively, the updates will be applied automatically when a new Microsoft Project for the Web project session is started by navigating to the tasks tab, following at least 30 minutes of inactivity on the project's tasks tab.
+Alternatively, the work hours of the project can be directly edited by selecting the **Calendar** tab on the project entity. This tab displays the projects work hours calendar, and allows for edits to those work hours to be made directly. These edits can be applied to the project's work breakdown structure by selecting the **Calendar** drop down menu on the ribbon, and then selecting **Sync** from that menu. Alternatively, the updates will be applied automatically when a new Microsoft Project for the Web project session is started by navigating to the tasks tab, following at least 30 minutes of inactivity on the project's tasks tab.
+
+> [!NOTE]
+> When a project's calendar is changed, those changes will not propagate to the calendar template assigned to the project.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
