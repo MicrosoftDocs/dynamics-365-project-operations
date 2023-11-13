@@ -16,7 +16,7 @@ This article provides answers to frequently asked questions about the Dynamics 3
 
 ## Which versions of Microsoft Dynamics 365 Finance support the Expense management mobile app?
 
-The Expense management mobile app requires Dynamics 365 Finance version 10.0.37 - 10.0.1725.64 or later.
+The Expense management mobile app requires Dynamics 365 Finance version 10.0.37 - 10.0.1725.80 or later.
 
 ## Which platforms and mobile devices are supported?
 
