@@ -1,10 +1,10 @@
 ---
 # required metadata
 
-title: Define project calendars
+title: Define and edit project calendars
 description: This article provides information about how to apply a calendar template to a project to track the project schedule.
-author: ruhercul
-ms.date: 02/05/2021
+author: abriccetti
+ms.date: 11/13/2023
 ms.topic: article
 ms.prod: 
 #
@@ -27,11 +27,11 @@ ms.dyn365.ops.version:
 ms.search.validFrom: 2020-10-01
 ---
 
-# Define project calendars
+# Define and edit project calendars
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-To create and manage a project, you must apply a calendar template to the project. The calendar template defines the following project attributes:
+When a project is created, you must apply a calendar template to the project. The default calendar template will be chosen automatically, but it can be changed before the proejct is saved. The calendar template defines the following project attributes:
 
 - Working hours, including start and end time
 - Working days
@@ -63,6 +63,9 @@ To create a calendar template for your organization, there are two key requireme
 
 You can now associate the work template with a project calendar template.
 
+## Edit a project's calendar
+
+Once a project is saved, there are two ways to edit the project's calendar. First you can apply a new calendar template to the project by selecting the drop down menu on the ribbon and then selecting change template.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
