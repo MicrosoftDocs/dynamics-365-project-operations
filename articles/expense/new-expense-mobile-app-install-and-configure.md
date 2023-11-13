@@ -21,8 +21,8 @@ This article explains how administrators can prepare your Microsoft Dynamics 365
 ## System requirements
 
 To run the Dynamics 365 expense management mobile app, you must use the following versions of Microsoft Dynamics 365 Finance with the latest quality update (QU) or later.
-- 10.0.37 - 10.0.1725.37 or later
-- 10.0.38 - 10.0.1777.12 or later
+- 10.0.37 - 10.0.1725.80 or later
+- 10.0.38 - 10.0.1777.28 or later
   
 ## Set up Dataverse for your Dynamics 365 Finance environment
 
