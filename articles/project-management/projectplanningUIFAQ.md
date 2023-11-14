@@ -147,5 +147,22 @@ When you make one or more updates to the WBS, the changes fail and aren't saved.
   - Project System
   - Project Operations Dual-write System. This role is required for the resource/non-stocked based deployment scenario of Project Operations.
 
+## Issue 5: Permission error while updating a project
+
+While working on a project an issue may occur where the PSS Error Log displays a message indicating a permission access issue for a user when saving a record. This error can occur during actions like Project Copy, Project Convert, Project Import, or while working on the Task Grid, etc.
+
+### Mitigation 1: Update the users permissions for the specific entity
+
+In most cases, the error suggests that the user lacks the necessary permissions to perform specific operations (e.g., Read/Write) on an Entity record.
+
+1. First, customers should examine the error message to identify the entity name and user name. If the error displays only the user ID, the user name can be obtained using this web API: **<orgurl>/api/data/v9.2/systemusers(<Principal/User Id from the error message>)?$select=fullname,firstname,lastname,domainname,internalemailaddress,windowsliveid**
+2. If the username is either "Microsoft Project" or "Microsoft Portfolios", it indicates a permission issue with the Project Operations app user. This is a built-in user for the integration between Project Online and the customer's organization.
+
+**If the user is the built-in app user::**
+1. Ensure the built-in app user is assigned all out-of-the-box (OOB) roles. Refer to "Validation Configuration of the Project Application User" at http://aka.ms/po-tasks-grid-setup-documentation for more details. With each update of Project Operations, security roles are reassigned to this user automatically. However, issues can arise if customers manually remove the roles from this app user.
+2. If the app user already has all the OOB roles, inspect any customer plugins that might be triggering operations on additional entities. Customers may need to modify the customer/partner plugin or add extra roles/privileges to the app user.
+
+**If the user is a normal user:**
+1. Customers should inspect the customization/plugin responsible for triggering the CRUD operations on the entity, operating under the user context. They may either utilize the system service in their plugin or assign more roles/privileges to the user.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
