@@ -27,3 +27,5 @@ There are two main scenarios where the **Delayed update** setting provides stabi
 | Null             | The behavior is the same as the behavior when **Real-time update** is selected. |
 | **Delayed update**   | **Remaining Effort**, **Effort Completed**, and **Effort Estimate at Complete** aren't updated with time that's approved on any task until a Project for the Web session is opened. |
 | **Real-time update** | Approved time that's logged against a task updates, in real time, **Remaining Effort**, **Effort Completed**, and **Effort Estimate at Complete** on that task and any tasks above it in its hierarchy. |
+
+Details on the **Project actual values tracking** feature are availalbe [here](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/understand-project-status#status-summary-fields).
