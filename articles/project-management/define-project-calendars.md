@@ -67,7 +67,7 @@ You can now associate the work template with a project calendar template.
 
 ## Edit a project's calendar
 
-Once a project is saved, there are two ways to edit the project's calendar. First you can apply a new calendar template to the project by selecting the **Calendar** drop-down menu on the ribbon and then selecting **Change Template**. This opens a dialog box where a new calendar template can be applied to the project.
+Once a project is saved, there are two ways to edit the project's calendar. First you can apply a new calendar template to the project by selecting the **Calendar** drop-down menu on the ribbon and then selecting **Change Template**. Selecting **Change Template** opens a dialog box where a new calendar template can be applied to the project.
 
 Alternatively, the work hours of the project can be directly edited by selecting the **Calendar** tab on the project entity. This tab displays the projects work hours calendar and allows for edits to those work hours to be made directly. These edits can be applied to the project's work breakdown structure by selecting the **Calendar** drop-down menu on the ribbon, and then selecting **Sync** from that menu.
 
