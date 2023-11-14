@@ -50,12 +50,12 @@ Dynamics 365 Project Timesheet** parameter.
 
 ### Resolve sign-in issues
 
-**Issue:** During sign-in to the Project Timesheet Mobile app, users receive an error message that states that they "cannot access the application '2bc50526-cdc3-4e36-a970-c284c34cbd6e' in that tenant."
+**Issue:** During sign-in to the Project Timesheet Mobile app, users receive an error message that states that they "can't access the application '2bc50526-cdc3-4e36-a970-c284c34cbd6e' in that tenant."
 
 **Issue:** During sign-in to the Project Timesheet Mobile app, users receive an error that resembles one of the following examples:
 
-- "AADSTS50020: User account '[user name]' from identity provider 'https://sts.windows.net/[app id]' does not exist in tenant '[tenant id]' and cannot access the application '[app id]' in that tenant."
-- "Selected user account does not exist in tenant '[tenant id]' and cannot access the application '[app id]' in that tenant."
+- "AADSTS50020: User account '[user name]' from identity provider 'https://sts.windows.net/[app ID]' doesn't exist in tenant '[tenant ID]' and can't access the application '[app ID]' in that tenant."
+- "Selected user account doesn't exist in tenant '[tenant ID]' and can't access the application '[app ID]' in that tenant."
 
 **Explanation:** These issues are caused by a change that was made to Microsoft Entra ID in May 2022 and that is related to external users. Because this change wasn't made to finance and operations apps, it can affect customers on any version of the platform or application.
 
@@ -79,15 +79,15 @@ information from a previous timesheet, saved lines, or project assignments. If
 you're designated as a delegate, you can also enter a timesheet for another
 worker. To create a timesheet as a delegate, select the **Menu** button and then select a resource name.
 
-The timesheet page will create a new timesheet for the timesheet period, based
-on the current date. The work week will be displayed. If the timesheet period
+The timesheet page creates a new timesheet for the timesheet period, based
+on the current date. The work week is displayed. If the timesheet period
 covers multiple weeks, you can select another work week from the work week tabs.
-If a timesheet exists for the current date, it will be displayed. If you need to
+If a timesheet exists for the current date, it's displayed. If you need to
 create a new timesheet in a different timesheet period, select the **Menu** button and then select
 **New timesheet**.
 
 You can enter project information by clicking the **Add time** action
-or the **Copy time from** action. The **Copy time from** action will copy project
+or the **Copy time from** action. The **Copy time from** action copies project
 line information, but not the hours. The **Copy time from** menu includes the
 following options:
 
@@ -112,12 +112,12 @@ The customer and project lookups enable searching across both customers and proj
 
 Select information in the **Category**, **Activity**, **Line property**, **Sales tax group**, and **Item sales tax group** fields as required. These fields can be overridden.
 
-The **Line property** field will be set to a default value, based on project
+The **Line property** field is set to a default value, based on project
 management and accounting parameters. When the project/category and
-category/resource parameters are enabled, the **Line property** value will be set to
+category/resource parameters are enabled, the **Line property** value is set to
 the default value you have defined for this validation. When the
 project/category and category/resource parameters aren't enabled, the **Line
-property** value will default according to the **Enable default line property**
+property** value defaults according to the **Enable default line property**
 field on the **Project management and accounting parameters** page. The **Line
 property** value can be overridden.
 
