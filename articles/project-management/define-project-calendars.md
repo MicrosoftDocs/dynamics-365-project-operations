@@ -33,13 +33,13 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 ## Setting a project's calendar
 
-When a project is created, you must apply a calendar template to the project. The default calendar template will be chosen automatically, but it can be changed before the proejct is saved. The calendar template defines the following project attributes:
+When a project is created, you must apply a calendar template to the project. The default calendar template is chosen automatically, but it can be changed before the project is saved. The calendar template defines the following project attributes:
 
 - Working hours, including start and end time
 - Working days
-- Calendar exceptions such as non-working days
+- Calendar exceptions such as nonworking days
 
-The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.
+The calendar template applied to a project is a copy of the calendar template defined in your organization’s settings.
 
 > [!NOTE]
 > If you change the calendar template, those changes don't propagate to the working hours of the project. To change the working hours of the project, a new template must be applied.
@@ -61,18 +61,18 @@ To create a calendar template for your organization, there are two key requireme
 2. Select **New**, and enter a name, description, and template resource.
 
 > [!NOTE]
-> When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template. If the working hours of the copied template change, those changes will not propagate to the calendar template.
+> When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template. If the working hours of the copied template change, those changes don't propagate to the calendar template.
 
 You can now associate the work template with a project calendar template.
 
 ## Edit a project's calendar
 
-Once a project is saved, there are two ways to edit the project's calendar. First you can apply a new calendar template to the project by selecting the **Calendar** drop down menu on the ribbon and then selecting **Change Template**. This will open a dialog box where a new calendar template can be applied to the project.
+Once a project is saved, there are two ways to edit the project's calendar. First you can apply a new calendar template to the project by selecting the **Calendar** drop-down menu on the ribbon and then selecting **Change Template**. This opens a dialog box where a new calendar template can be applied to the project.
 
-Alternatively, the work hours of the project can be directly edited by selecting the **Calendar** tab on the project entity. This tab displays the projects work hours calendar, and allows for edits to those work hours to be made directly. These edits can be applied to the project's work breakdown structure by selecting the **Calendar** drop down menu on the ribbon, and then selecting **Sync** from that menu.
+Alternatively, the work hours of the project can be directly edited by selecting the **Calendar** tab on the project entity. This tab displays the projects work hours calendar and allows for edits to those work hours to be made directly. These edits can be applied to the project's work breakdown structure by selecting the **Calendar** drop-down menu on the ribbon, and then selecting **Sync** from that menu.
 
 > [!NOTE]
-> When a project's calendar is changed, those changes will not propagate to the calendar template assigned to the project.
+> When a project's calendar is changed, those changes don't propagate to the calendar template assigned to the project.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
