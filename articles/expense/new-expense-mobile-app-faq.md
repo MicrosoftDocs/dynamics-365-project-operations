@@ -34,6 +34,14 @@ No, the Expense management mobile app doesn't currently support itemization, per
 
 No, there are no other licensing costs for the new Expense management mobile app. Its license is covered under the **Team member** license. Users who have a **Team member** license can use this app.
 
+## Does OCR feature works with could hosted environments?
+
+No, OCR service works only with sandbox or production environments.
+
+## Does the Dynamics 365 expense management mobile app can be used for capturing expenses without projects?
+
+Yes, Dynamics 365 expense management mobile app can be used without projects.
+
 ## Where can I go to discuss the app with the community and submit suggestions to Microsoft?
 
 The [Mobile Experiences](https://teams.microsoft.com/l/channel/19%3A7f1fd50904c24fe9ab31b221a73fcc64%40thread.tacv2/Mobile%2520Experiences?groupId=b781f78d-32f2-432f-b1fa-265d8259f9be&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) team's channel is a great place to go if you want to exchange tips, ask questions, or submit suggestions for improvement. Teams channel participants include Microsoft partners, customers, experts, and employees.
