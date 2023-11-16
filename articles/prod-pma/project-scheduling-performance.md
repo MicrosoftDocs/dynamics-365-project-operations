@@ -32,7 +32,7 @@ ms.search.validFrom: 2020-09-01
 [!include [banner](../includes/preview-banner.md)]
 
 
-Performance issues related to resource scheduling can occur when the number of projects reaches into the thousands. To improve resource scheduling performance, a feature is available that allows users to reduce the time that it takes to launch the resource availability page. Specifically, this feature removes the resource capacity roll-up synchronization process and uses the **ResProjectResource** table to speed up the resource lookup. The **ResRollup** table is longer used.
+Performance issues related to resource scheduling can occur when the number of projects reaches into the thousands. To improve resource scheduling performance, a feature is available that allows users to reduce the time that it takes to launch the resource availability page. Specifically, this feature removes the resource capacity roll-up synchronization process and uses the **ResProjectResource** table to speed up the resource lookup. The **ResRollup** table is no longer used.
 
 This feature is enabled by default in release 10.0.36 or later. Changes have been made in this release to let the feature be enabled and not block previous behavior. It's suggested that if you see the warning message telling you to run the **Populate project resources across all companies** batch job, that you do so and complete the update to finish enabling the feature. 
 
