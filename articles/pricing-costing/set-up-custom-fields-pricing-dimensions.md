@@ -3,8 +3,8 @@
 
 title: Set up custom fields as pricing dimensions
 description: This article provides information about how to set up pricing dimensions using custom fields. 
-author: rumant
-ms.date: 09/18/2020
+author: avisness
+ms.date: 11/18/2023
 ms.topic: article
 ms.prod: 
 #
@@ -22,12 +22,14 @@ ms.custom:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: rumant
+ms.author: avisness
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
 # Set up custom fields as pricing dimensions
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
