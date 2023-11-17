@@ -40,7 +40,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 ## Quality updates
 
-[**Project Operations on Dataverse**](https://github.com/MicrosoftDocs/dynamics-365-project-operations-pr/new/PO_RN_UR39_Nov23/articles/whats-new#project-operations-on-dataverse)
+### Project Operations on Dataverse
 
 | **Feature area** | **Reference number** | **Quality Update** |
 | --- | --- | --- |
@@ -52,6 +52,6 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Project Operations Upgrade | 3507354 | 3x add-in for Project Desktop can connect, read, and publish to an Upgraded PO4x org. |
 | Project Planning and Tracking | 3572672 | Custom fields on tasks can't be updated via dual-write. |
 
-[**Project management and accounting in Finance**](https://github.com/MicrosoftDocs/dynamics-365-project-operations-pr/new/PO_RN_UR39_Nov23/articles/whats-new#project-management-and-accounting-in-finance)
+### Project management and accounting in Finance
 
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=838613).
