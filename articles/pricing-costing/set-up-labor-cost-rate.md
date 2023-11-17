@@ -1,17 +1,18 @@
 ---
 title: Set up labor cost rates
 description: This article provides information about how to set up rates for the cost of labor Project Operations
-author: rumant
-ms.date: 10/12/2020
+author: avisness
+ms.date: 11/18/2023
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: avisness
 ---
 
 # Set up labor cost rates
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
+[!INCLUDE[banner](../includes/banner.md)]
 
 Each price list has a set of labor rates (role prices) that align with the content and date effectivity of the price list.
 
