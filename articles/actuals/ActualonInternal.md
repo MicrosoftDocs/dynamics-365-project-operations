@@ -3,8 +3,8 @@
 
 title: Actuals impact for an internal project
 description: This article provides information about the impact on the Actuals table at various events for an internal project in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 02/22/2022
+author: avisness
+ms.date: 11/18/2023
 ms.topic: overview
 ms.prod: 
 #
@@ -21,11 +21,13 @@ ms.search.scope:
 ms.assetid: 
 ms.search.region: 
 ms.search.industry: 
-ms.author: rumant
+ms.author: avisness
 ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals impact for an internal project
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

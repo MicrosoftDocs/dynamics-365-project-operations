@@ -1,14 +1,16 @@
 ---
 title: Determine sales prices for project-based estimates and actuals
 description: This article provides information about how sales prices for project-based estimates and actuals are determined.
-author: rumant
-ms.date: 09/12/2022
+author: avisness
+ms.date: 11/18/2023
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: avisness
 ---
 
 #  Determine sales prices for project-based estimates and actuals
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
