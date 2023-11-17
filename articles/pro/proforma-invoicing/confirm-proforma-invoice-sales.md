@@ -6,6 +6,8 @@ ms.date: 11/18/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
+ms.custom:
+  -evergreen
 ---
 
 # Confirm a proforma project invoice 
