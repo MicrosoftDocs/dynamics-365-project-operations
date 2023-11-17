@@ -1,14 +1,16 @@
 ---
 title: Estimate a project-based contract line
 description: This article provides information about estimates on a project contract line.
-author: rumant
-ms.date: 10/27/2020
+author: avisness
+ms.date: 11/17/2023
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: avisness
 ---
 
 # Estimate a project-based contract line
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_ 
 
