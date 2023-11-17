@@ -10,7 +10,7 @@ ms.author: suvaidya
 
 # Confirm a proforma project invoice 
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
