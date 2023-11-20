@@ -3,11 +3,13 @@
 
 title: Dynamics 365 Project Operations 
 description: This article provides information about Dynamics 365 Project operations.
-author: stsporen
+author: johnmichalak
 ms.date: 11/02/2022
-ms.topic: article
+ms.topic: conceptual
 ms.prod: 
-#
+ms.custom: 
+  - bap-template
+
 
 # optional metadata
 
@@ -27,6 +29,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Dynamics 365 Project Operations
+
+[!INCLUDE[banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
 
