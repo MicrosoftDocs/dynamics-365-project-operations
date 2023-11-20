@@ -3,13 +3,17 @@ title: Project invoice integration
 description: This article provides information about Project Operations dual-write integration for customer invoicing.
 author: sigitac
 ms.date: 04/26/2021
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.prod:
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Project invoice integration
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 This article provides information about Project Operations dual-write integration for customer invoicing.
 
