@@ -3,12 +3,16 @@ title: Set up currency conversion to calculate sales prices from cost rates
 description: This article explains how to configure the currency conversion behavior that will be used in Microsoft Dynamics 365 Project Operations when sales transactions are generated from cost transactions.
 author: rumant
 ms.date: 11/01/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Set up currency conversion to calculate sales prices from cost rates
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
