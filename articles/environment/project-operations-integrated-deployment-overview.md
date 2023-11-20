@@ -4,12 +4,16 @@ description: This article provides information about the deployment type, Projec
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---
 
 # Project Operations for resource/non-stocked based scenarios deployment overview
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

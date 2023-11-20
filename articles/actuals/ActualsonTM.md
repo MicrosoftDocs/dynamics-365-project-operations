@@ -6,6 +6,8 @@ description: This article provides information about the impact on the Actuals t
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.prod: 
 #
 # optional metadata
@@ -26,6 +28,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals impact in a time and materials engagement
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

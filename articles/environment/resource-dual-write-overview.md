@@ -4,6 +4,8 @@ description: This article provides an overview of Project Operations dual-write 
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.prod:
 ms.reviewer: johnmichalak
 ms.author: sigitac
@@ -11,6 +13,8 @@ ms.author: sigitac
 ---
 
 # Project Operations dual-write integration overview
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
