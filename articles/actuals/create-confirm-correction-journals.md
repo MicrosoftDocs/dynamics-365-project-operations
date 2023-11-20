@@ -5,7 +5,9 @@ title: Create and confirm Correction journals
 description: This article provides information about how to create and confirm a correction journal.
 author: rumant
 ms.date: 05/31/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.prod: 
 #
 
@@ -26,6 +28,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Create and confirm Correction journals
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
