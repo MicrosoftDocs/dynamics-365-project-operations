@@ -7,7 +7,9 @@ author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
 ms.prod: 
-#
+ms.custom: 
+  - bap-template
+
 # optional metadata
 
 # ms.search.form: 
@@ -26,6 +28,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals impact in a fixed price engagement
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
