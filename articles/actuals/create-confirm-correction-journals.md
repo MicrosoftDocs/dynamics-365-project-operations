@@ -20,7 +20,6 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
-ms.custom: 
 ms.assetid: 
 ms.author: rumant
 ms.dyn365.ops.version: 
