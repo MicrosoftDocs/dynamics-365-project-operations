@@ -25,7 +25,7 @@ Contoso is live with Microsoft Dynamics 365 Project Operations for resource/non-
 ### Prerequisites
 
 -   Microsoft Dynamics 365 Finance 10.0.29 or later must be installed.
--   Dual Write map 1.0.0.3 for Projects V2 (msdyn\_projects) must be installed or manually configured as described below.
+-   Dual Write map 1.0.0.3 for Projects V2 (msdyn\_projects) must be installed or manually configured as described in this article.
 
 ### Create an updated version of the Project Operations integration Projects V2 dual-write map
 
@@ -69,5 +69,5 @@ Dynamics 365 Finance uses the **project stage** field to differentiate between p
 5. In the **show projects** filter above the list, change the value from **Active** to **All**.
 6. You'll now see the deactivated project.
 
-If you attempt to log time or expense against this project in Finance, you should not see the project for selection. If you manually enter the project number on an expense, you'll see a message like "Project stage finished doesn't allow recording in the project". Invoicing and other billing functions should be disabled as they will be in the context of a closed project.
+If you attempt to log time or expense against this project in Finance, you shouldn't see the project for selection. If you manually enter the project number on an expense, you'll see a message like "Project stage finished doesn't allow recording in the project." Invoicing and other billing functions should be disabled as they are in the context of a closed project.
 
