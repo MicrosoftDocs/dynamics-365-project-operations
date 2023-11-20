@@ -3,12 +3,16 @@ title: Deploy Project Operations Lite
 description: This article provides information about how to install Project Operations lite deployment - deal to proforma invoicing.
 author: stsporen
 ms.date: 11/06/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Deploy Project Operations Lite
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

@@ -3,12 +3,16 @@ title: Developer notes for Approvals
 description: This article provides additional developer information about working with approvals.
 author: stsporen
 ms.date: 11/09/2020
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 
 # Developer notes for Approvals
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

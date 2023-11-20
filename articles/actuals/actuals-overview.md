@@ -6,6 +6,8 @@ description: This article provides information about how to work with actuals in
 author: rumant
 ms.date: 05/31/2022
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.prod: 
 #
 
@@ -27,6 +29,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

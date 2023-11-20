@@ -3,12 +3,16 @@ title: Apply demo setup and configuration data - lite
 description: This article provides information about how to apply demo setup and configuration data for Project Operations.
 author: sigitac
 ms.date: 11/29/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Apply demo setup and configuration data for Project Operations - lite 
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Lite deployment - deal to proforma invoicing_
 

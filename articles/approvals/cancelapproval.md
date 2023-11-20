@@ -4,12 +4,16 @@ description: This article explains how a project manager can cancel the approval
 author: rumant
 ms.date: 01/31/2021
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---
 
 # Cancel the approval of previously approved entries
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

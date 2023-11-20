@@ -5,7 +5,9 @@ title: Create and confirm Entry journals
 description: This article provides information about how to create and confirm Entry journals in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/18/2020
-ms.topic: article
+ms.topic: how-to
+mscustom: 
+  - bap-template
 ms.prod: 
 #
 
@@ -26,6 +28,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Create and confirm Entry journals
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

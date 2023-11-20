@@ -3,12 +3,16 @@ title: Sign up for Project Operations trials
 description: This article provides information about how to deploy a trial of Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 06/06/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 
 # Sign up for Project Operations trials 
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
 

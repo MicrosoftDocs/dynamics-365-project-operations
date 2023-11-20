@@ -3,12 +3,16 @@ title: Add an Azure subscription to an LCS project
 description: This article provides information about how to connect your Azure subscription to an LCS project.
 author: sigitac
 ms.date: 04/12/2021
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Add an Azure subscription to an LCS project
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
