@@ -3,12 +3,16 @@ title: Set up and apply configuration data in the Microsoft Dataverse
 description: This article provides information about setting up and applying configuration data in Project Operations.
 author: sigitac
 ms.date: 08/19/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Set up and apply configuration data in the Common Data Service 
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
