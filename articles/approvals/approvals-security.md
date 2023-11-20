@@ -4,11 +4,15 @@ description: This article provides information about the security setup for work
 author: stsporen
 ms.date: 08/29/2022
 ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: stsporen
 
 ---
 # Security and approvals
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
