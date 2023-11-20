@@ -3,12 +3,16 @@ title: Approval sets
 description: This article explains how to work with approval sets, requests, and the subsets of those operations.
 author: stsporen
 ms.date: 09/16/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 
 # Approval sets
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
