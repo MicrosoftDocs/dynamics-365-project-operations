@@ -3,13 +3,16 @@ title: Manage expense report approvals by using the Dynamics 365 expense managem
 description: This article explains how to use the Dynamics 365 expense management mobile app to manage expense report approval.
 author: mukumarm
 ms.date: 11/06/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: mukumarm
-ms.custom: bap-template
 ---
 
 # Manage expense report approvals by using the Dynamics 365 expense management mobile app
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 

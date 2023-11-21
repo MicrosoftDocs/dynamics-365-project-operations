@@ -3,12 +3,16 @@ title: Dynamics 365 expense management mobile app overview
 description: This article provides an overview of the Dynamics 365 expense management mobile app.
 author: ramagadu
 ms.date: 05/26/2023
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
 # Dynamics 365 expense management mobile app overview
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 

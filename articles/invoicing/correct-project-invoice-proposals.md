@@ -3,12 +3,16 @@ title: Correct the accounting on draft project invoice proposals
 description: This article explains how to adjust accounting-related information on a draft invoice proposal.
 author: sigitac
 ms.date: 01/05/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Correct the accounting on draft project invoice proposals
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

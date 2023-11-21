@@ -3,12 +3,16 @@ title: Developer notes for payment terms
 description: This article provides more developer information about working with payment terms.
 author: suvaidya
 ms.date: 06/23/2023
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
 # Developer notes for payment terms
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _Applies To: Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
