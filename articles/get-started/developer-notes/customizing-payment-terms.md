@@ -12,7 +12,7 @@ ms.author: suvaidya
 
 # Developer notes for payment terms
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _Applies To: Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
