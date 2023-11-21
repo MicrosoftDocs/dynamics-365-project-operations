@@ -13,7 +13,7 @@ ms.author: suvaidya
 
 # Work with personal expenses on an expense report
 
-[!INCLUDE[banner](../includes/banner.md)
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
