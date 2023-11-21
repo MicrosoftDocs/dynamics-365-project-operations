@@ -1,13 +1,13 @@
 ---
 # required metadata
 
-title: Per diem expenses
+title: Per diem expenses(Preview)
 description: This article provides information about how to work with per diem expenses.
 author: suvaidya
 ms.date: 03/18/2022
-ms.topic: article
-ms.prod: 
-#
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
@@ -26,6 +26,8 @@ ms.dyn365.ops.version:
 ---
 
 # Per diem expenses
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 > [!IMPORTANT] 
 > Functionality that is described in this article is available to targeted users as part of a preview release.
