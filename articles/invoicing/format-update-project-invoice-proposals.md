@@ -12,7 +12,7 @@ ms.author: sigitac
 
 # Manage project invoice proposals
 
-[!INCLUDE[banner](../includes/banner.md)
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
