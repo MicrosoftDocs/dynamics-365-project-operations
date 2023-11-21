@@ -3,12 +3,17 @@ title: Set up mileage using mileage rate tiers
 description: This article provides information about mileage rates and mileage rate tiers.
 author: suvaidya
 ms.date: 06/28/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
 # Set up mileage using mileage rate tiers
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

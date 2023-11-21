@@ -3,13 +3,16 @@ title: Manage expenses, expense reports, and receipts by using the Dynamics 365 
 description: This article provides an overview for how to manage expenses, expense reports, and receipts by using the Dynamics 365 expense management mobile app.
 author: mukumarm
 ms.date: 10/25/2023
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: mukumarm
-ms.custom: bap-template
 ---
 
 # Manage expenses, expense reports, and receipts by using the Dynamics 365 expense management mobile app overview
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 

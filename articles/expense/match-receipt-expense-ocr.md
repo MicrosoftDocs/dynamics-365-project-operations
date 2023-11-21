@@ -5,9 +5,10 @@ title: Capture a receipt using OCR
 description: This article provides information about optical character recognition (OCR) processing for receipts.
 author: suvaidya
 ms.date: 11/10/2021
-ms.topic: article
-ms.prod: 
-#
+ms.topic: how-to
+ms.custom: 
+  - baptemplate
+
 
 # optional metadata
 
@@ -26,6 +27,8 @@ ms.dyn365.ops.version:
 ---
 
 # Capture a receipt using OCR
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
