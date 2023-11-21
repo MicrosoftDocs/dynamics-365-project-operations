@@ -8,7 +8,6 @@ ms.custom:
   - bap-template
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.custom: bap-template
 ---
 
 # Manage expense reports by using the Dynamics 365 expense management mobile app
