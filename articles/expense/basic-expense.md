@@ -3,12 +3,16 @@ title: Expense entry (lite)
 description: This article provides information about how to work with expense entry in a lite deployment.
 author: stsporen
 ms.date: 11/19/2020
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 
 # Expense entry (lite)
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Lite deployment - deal to proforma invoicing_
 
