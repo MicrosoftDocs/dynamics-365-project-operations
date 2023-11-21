@@ -5,9 +5,9 @@ title: Expense reports reimagined (contains video)
 description: This article explains the redesigned and reimagined experience for expense report entry.
 author: suvaidya
 ms.date: 12/16/2021
-ms.topic: article
-ms.prod: 
-#
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
@@ -26,6 +26,8 @@ ms.dyn365.ops.version:
 ---
 
 # Expense reports reimagined
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 Expense report entry has been redesigned to simplify the process and reduce the time needed to complete a report. Here are the major components of the new expense experience:
 
