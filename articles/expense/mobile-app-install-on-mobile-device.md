@@ -4,12 +4,16 @@ description: This article explains how to Install and open the Dynamics 365 expe
 author: mukumarm
 ms.date: 11/01/2023
 ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: ramagadu
 ms.custom: bap-template
 ---
 
 # Install and open the Dynamics 365 expense management mobile app on a mobile device
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 This article explains how to install and open the Dynamics 365 expense management mobile app on a mobile device. Before you can use the Dynamics 365 expense management mobile app, your administrator must install and configure the app for your Microsoft Dynamics 365 Finance and Dataverse environment. For more information about installing and configuring the Dynamics 365 expense management mobile app for your Microsoft Dynamics 365 Finance and Dataverse environment, see [Install and configure the Dynamics 365 expense management mobile app](new-expense-mobile-app-Install-and-configure.md).
 
