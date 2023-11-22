@@ -5,7 +5,7 @@ title: Add required custom fields to price setup and transactional entities
 description: This article provides information about how to add required custom field references to entities and to forms and views.
 author: avisness
 ms.date: 11/18/2023
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
   - bap-template
 
