@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Set up a budget period
 
-!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
