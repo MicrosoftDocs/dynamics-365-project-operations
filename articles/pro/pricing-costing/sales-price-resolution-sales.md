@@ -3,12 +3,16 @@ title: Determine sales prices for project estimates and actuals
 description: This article provides information about how sales prices for project estimates and actuals are determined.
 author: rumant
 ms.date: 09/01/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Determine sales prices for project estimates and actuals
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
