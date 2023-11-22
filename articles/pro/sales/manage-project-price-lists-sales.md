@@ -3,12 +3,16 @@ title: Manage project price lists on project quotes
 description: This article provides information about working with project price lists on quotes.
 author: rumant
 ms.date: 05/24/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Manage project price lists on project quotes 
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
