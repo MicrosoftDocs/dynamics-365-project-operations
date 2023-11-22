@@ -4,7 +4,8 @@ description: This article explains how to create a project budget from estimates
 author: niranjanmaski
 ms.date: 03/15/2023
 ms.topic: how-to
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
@@ -12,6 +13,8 @@ ms.author: nimaski
 # Create a project budget from estimates
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 This article explains how to create a project budget from estimates.
 

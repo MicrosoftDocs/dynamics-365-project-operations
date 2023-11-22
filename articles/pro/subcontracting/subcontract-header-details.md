@@ -3,12 +3,16 @@ title: Header details for subcontracts
 description: This article explains the functionality provided on the subcontract header in Project Operations.
 author: rumant
 ms.date: 09/14/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Header details for subcontracts
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

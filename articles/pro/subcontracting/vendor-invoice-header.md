@@ -3,12 +3,16 @@ title: Header details for vendor invoices
 description: This article explains the functionality that is provided on the vendor invoice header in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 03/25/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Header details for vendor invoices
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

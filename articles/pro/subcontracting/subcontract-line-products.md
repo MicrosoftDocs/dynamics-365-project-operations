@@ -3,12 +3,16 @@ title: Subcontract lines for products
 description: This article explains how to record subcontract lines for products and use the various fields to record product purchases from vendors.
 author: rumant
 ms.date: 09/14/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Subcontract lines for products
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

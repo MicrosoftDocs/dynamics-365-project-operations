@@ -5,9 +5,9 @@ title: Deactivate price pists
 description: This article explains how to deactivate or remove unsused or old price lists.
 author: rumant
 ms.date: 03/19/2021
-ms.topic: article
-ms.prod: 
-#
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
@@ -18,7 +18,6 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
-ms.custom: 
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Professional Service industries
@@ -28,6 +27,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Deactivate price lists 
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

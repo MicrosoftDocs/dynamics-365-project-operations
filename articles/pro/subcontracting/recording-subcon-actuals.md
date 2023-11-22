@@ -3,12 +3,16 @@ title: Recording time, expenses, and material usage for subcontracted components
 description: This article explains how time, expense, and material usage recorded on projects from subcontracted components is tracked by Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Recording time, expenses, and material usage on projects for subcontracted components
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios,Lite deployment - deal to proforma invoicing_
 

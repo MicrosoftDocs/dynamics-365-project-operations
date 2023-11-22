@@ -4,12 +4,15 @@ description: This article explains how to create project cost expense budget lin
 author: niranjanmaski
 ms.date: 03/13/2023
 ms.topic: how-to
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
 # Project expense budget lines
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 

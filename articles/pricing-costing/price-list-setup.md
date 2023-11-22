@@ -3,12 +3,16 @@ title: Set up price lists
 description: This article provides information about how to set up cost and sale price lists.
 author: rumant
 ms.date: 10/20/2020
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Set up price lists
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

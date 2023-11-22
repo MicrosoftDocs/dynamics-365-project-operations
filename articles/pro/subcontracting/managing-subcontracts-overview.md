@@ -4,12 +4,15 @@ description: This article provides an overview of the end-to-end subcontract man
 author: rumant
 ms.date: 09/14/2022
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Subcontract management in Project Operations
 
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

@@ -3,12 +3,16 @@ title: Subcontract line milestones
 description: This article explains how to create and maintain a milestone-based invoice schedule for a subcontract with a vendor.
 author: rumant
 ms.date: 09/14/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Subcontract line milestones
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

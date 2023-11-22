@@ -4,12 +4,15 @@ description: This article explains how to revise a project cost budget.
 author: niranjanmaski
 ms.date: 03/20/2023
 ms.topic: how-to
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
 # Revise a project cost budget
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 

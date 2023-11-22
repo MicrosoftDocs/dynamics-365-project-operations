@@ -3,12 +3,16 @@ title: Set up labor bill rates - lite
 description: This article provides information about setting up labor billing rates in Project Operations.
 author: rumant
 ms.date: 10/16/2020
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Set up labor bill rates - lite
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

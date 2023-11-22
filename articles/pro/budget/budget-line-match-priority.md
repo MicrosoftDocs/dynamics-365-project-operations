@@ -3,12 +3,16 @@ title: Budget line match priority
 description: This article explains how budget line match priority works for project budgets.
 author: niranjanmaski
 ms.date: 01/13/2023
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
 # Budget line match priority
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 

@@ -4,12 +4,16 @@ description: This article provides information about working with product-based 
 author: rumant
 ms.date: 12/03/2022
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---
 
 # Product-based quote lines overview
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

@@ -4,12 +4,15 @@ description: This article explains how to re-evaluate the cost actual-to-budget 
 author: niranjanmaski
 ms.date: 03/20/2023
 ms.topic: how-to
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
 # Re-evaluate the cost actual-to-budget association
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 

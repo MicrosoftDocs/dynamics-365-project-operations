@@ -3,13 +3,17 @@ title: Verification of vendor invoices with approved actuals
 description: This article explains how Microsoft Dynamics 365 Project Operations lets project managers verify vendor invoices with the actuals that were approved as contractors performed work and recorded time, and the expenses and materials that were used by project team members.
 author: rumant
 ms.date: 09/14/2022
-ms.topic: article
-ms.reviewer: johnmichalak
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmialak
 ms.author: rumant
 ---
 
 
 # Verification of vendor invoices with approved actuals
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios , Lite deployment - deal to proforma invoicing_
 
