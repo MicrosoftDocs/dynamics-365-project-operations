@@ -13,7 +13,7 @@ ms.author: rumant
 
 # Lite deployment overview
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
