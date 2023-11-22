@@ -3,12 +3,16 @@ title: Copy price lists
 description: This article provides information about how to copy price lists in Project Operations.
 author: rumant
 ms.date: 10/13/2020
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Copy price lists
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
