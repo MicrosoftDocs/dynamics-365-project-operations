@@ -3,12 +3,16 @@ title: Project budget management overview
 description: This article provides an overview of project budget management.
 author: niranjanmaski
 ms.date: 01/23/2023
-ms.topic: article
+ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
 # Project budget management overview
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 

@@ -3,12 +3,16 @@ title:  Subcontract lines for expense categories
 description: This article explains how to record subcontract lines for expense and use the fields to record the purchase of time from vendors.
 author: rumant
 ms.date: 09/14/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 #  Subcontract lines for expense categories
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

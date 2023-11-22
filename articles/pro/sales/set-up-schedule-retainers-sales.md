@@ -3,12 +3,16 @@ title: Set up a retainer schedule
 description: This article provides information about how to set up a retainer schedule in Project Operations.
 author: rumant
 ms.date: 10/22/2020
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Set up a retainer schedule
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

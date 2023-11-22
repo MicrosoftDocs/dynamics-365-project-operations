@@ -3,12 +3,16 @@ title: Manage project contracts
 description: This article provides information about viewing project-based contracts.
 author: rumant
 ms.date: 03/03/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Manage project contracts
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

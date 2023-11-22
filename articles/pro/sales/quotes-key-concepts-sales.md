@@ -3,12 +3,16 @@ title: Concepts unique to Project quotes
 description: This article provides information about using project quotes in Project Operations.
 author: rumant
 ms.date: 12/03/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Concepts unique to Project quotes
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

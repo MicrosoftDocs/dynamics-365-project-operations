@@ -4,12 +4,16 @@ description:  This article provides information about working with project contr
 author: rumant
 ms.date: 12/03/2022
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---
 
 # Project contract lines overview
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

@@ -3,13 +3,16 @@ title: Close project quotes
 description: This article provides information about closing a quote in Project Operations.
 author: rumant
 ms.date: 05/24/2023
-ms.topic: article
-ms.prod:
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Close project quotes
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

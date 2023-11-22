@@ -4,12 +4,16 @@ description: This article provides information about the Lite deployment of Dyna
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---
 
 # Lite deployment overview
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

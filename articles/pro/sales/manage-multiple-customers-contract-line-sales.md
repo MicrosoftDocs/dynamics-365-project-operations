@@ -3,12 +3,16 @@ title: Manage multiple customers on project contract lines
 description:  This article provides information about managing multiple customers on project-based contract lines.
 author: rumant
 ms.date: 12/03/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Manage multiple customers on project contract lines
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

@@ -3,12 +3,16 @@ title: Set up cost and sales rates for expenses
 description: This article provides information about how to set up the cost and sales rates for transaction and expense categories. 
 author: rumant
 ms.date: 04/07/2021
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Set up cost and sales rates for expenses
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

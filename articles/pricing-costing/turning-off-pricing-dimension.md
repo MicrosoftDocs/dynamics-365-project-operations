@@ -5,9 +5,9 @@ title: Turning off a pricing dimension
 description: This article provides information about how to turn off pricing dimensions.
 author: avisness
 ms.date: 11/18/2023
-ms.topic: article
-ms.prod: 
-#
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
@@ -18,7 +18,6 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
-ms.custom: 
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries

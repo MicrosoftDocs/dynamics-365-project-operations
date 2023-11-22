@@ -3,13 +3,16 @@ title: Advances and retainer-based contracts
 description: This article provides information about retainer-based contracting models and advances in Project Operations.
 author: rumant
 ms.date: 12/03/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Advances and retainer-based contracts
 
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

@@ -3,12 +3,16 @@ title: Header details for project quotes
 description: This article provides information about the information and settings that apply to and impact project quotes. (Sales)
 author: rumant
 ms.date: 12/03/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Header details for project quotes
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
