@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Budget line match priority
 
-!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
