@@ -3,12 +3,16 @@ title: Manage project billing backlog
 description: This article provides information about the various views available to use when managing the billing backlog on projects.
 author: rumant
 ms.date: 10/26/2020
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Manage project billing backlog 
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
