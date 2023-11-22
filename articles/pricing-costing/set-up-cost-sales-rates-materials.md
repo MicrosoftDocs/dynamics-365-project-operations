@@ -3,13 +3,17 @@ title: Set up cost and sales rates for materials
 description: This article provides information about how to set up the cost and sales rates for materials used on projects. 
 author: suvaidya
 ms.date: 09/26/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
 # Set up cost and sales rates for materials
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
