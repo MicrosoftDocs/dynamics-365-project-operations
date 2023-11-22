@@ -3,12 +3,16 @@ title: Default price lists
 description: This article provides information about default sales and cost price lists in Project Operations.
 author: rumant
 ms.date: 09/01/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Default price lists
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
