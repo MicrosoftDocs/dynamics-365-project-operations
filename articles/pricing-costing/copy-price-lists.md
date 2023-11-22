@@ -3,7 +3,7 @@ title: Copy price lists
 description: This article provides information about how to copy price lists in Project Operations.
 author: rumant
 ms.date: 10/13/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
