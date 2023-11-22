@@ -3,12 +3,16 @@ title: Vendor invoice lines for time
 description: This article explains how to record vendor invoice lines for time costs that subcontractors put in.
 author: rumant
 ms.date: 03/15/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Vendor invoice lines for time
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
