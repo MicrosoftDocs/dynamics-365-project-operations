@@ -3,12 +3,16 @@ title: Manage multiple customers on project quote lines
 description: This article describes how to manage multiple customers on project quote lines.
 author: rumant
 ms.date: 12/03/2022
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Manage multiple customers on project quote lines
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
