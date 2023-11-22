@@ -3,12 +3,16 @@ title: Subcontracting options for project team members
 description: This article explains the subcontracting options for project team members in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 09/14/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Subcontracting options for project team members
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
