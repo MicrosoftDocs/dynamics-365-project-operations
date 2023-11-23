@@ -47,7 +47,7 @@ Project for the web is great for most projects, but it isn't a complete replacem
 
 ### Work breakdown structure limits
 
-In addition to the unsupported capabilities that are described in the previous section, the work breakdown structure (WBS) must conform to the [existing limits](create-wbs.md#project-limitations).
+In addition to the unsupported capabilities that are described in the previous section, the work breakdown structure (WBS) must conform to the [existing limits](project-and-task-limitations).
 
 ### Project custom fields
 
