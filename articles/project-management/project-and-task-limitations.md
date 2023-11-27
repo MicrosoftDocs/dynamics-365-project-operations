@@ -24,7 +24,7 @@ You should be aware of the following limitations if you're using the work breakd
 | Maximum total custom fields for a project          | 10                   |
 | Maximum checklist items per task                   | 20                   |
 
-\* We are currently running a private preview of increased task limits to 1,000 tasks per project. To request access, sign up at [Microsoft Dynamics 365 Project Operations Increased Task Limit Private Preview](https://aka.ms/PO1000tasklimit).
+\* We're currently running a private preview of increased task limits to 1,000 tasks per project. To request access, sign up at [Microsoft Dynamics 365 Project Operations Increased Task Limit Private Preview](https://aka.ms/PO1000tasklimit).
 
 ## Task limitations
 
