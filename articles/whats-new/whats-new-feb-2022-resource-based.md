@@ -20,7 +20,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Features included in this release
 
-- As of this release, you can add up to 300 team members to a single project. Previously, the limit on the number of team members was 150. For more information, see [Project limits](../project-management/project-and-task-limitations).
+- As of this release, you can add up to 300 team members to a single project. Previously, the limit on the number of team members was 150. For more information, see [Project limits](../project-management/project-and-task-limitations.md).
 
 ## Project Operations dual-write map updates
 
