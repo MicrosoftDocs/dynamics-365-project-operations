@@ -29,7 +29,7 @@ To import a new project from a Project desktop client file, follow these steps.
 
 1. Select **Choose File**, browse to the .mpp file that you want to import, and then select **Open**.
 1. Select **Import** to start the import process.
-1. After the project has been successfully created, review the validation summary. The summary will indicate whether any items in the file have been excluded from the import. For example, the following screenshot shows an example where 9 resources were removed from the importation.
+1. After the project is successfully created, review the validation summary. The summary indicates whether any items in the file excluded from the import. For example, the following screenshot shows an example where nine resources were removed from the importation.
 
     ![File import and validation dialog box.](media/importsummary.png)
 
@@ -51,4 +51,4 @@ In addition to the unsupported capabilities that are described in the previous s
 
 ### Project custom fields
 
-If you've customized the project main page by adding required fields, those fields must have default values. Otherwise, errors will occur when files are imported to create new projects. Customization of the import dialog box isn't currently supported.
+If you've customized the project main page by adding required fields, those fields must have default values. Otherwise, errors occur when files are imported to create new projects. Customization of the import dialog box isn't currently supported.
