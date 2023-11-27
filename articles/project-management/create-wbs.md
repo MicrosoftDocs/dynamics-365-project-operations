@@ -3,7 +3,7 @@
 title: Create a work breakdown structure 
 description: This article explains how to create a work breakdown structure (WBS) inclusive of the basic controls in the new scheduling interface.
 author:  abriccetti
-ms.date: 09/25/2023  
+ms.date: 11/27/2023  
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -145,32 +145,6 @@ The screenshot above shows, in green color, which tasks can be scheduled because
 ## Accessibility and keyboard shortcuts
 
 The **Schedule** grid is fully accessible and can be used with screen readers such as Narrator, JAWS, or NVDA. You can move through the grid area by using arrow keys (as in Microsoft Excel), you can use the Tab key to advance through the interactive user interface elements, and you can use the Down arrow key, the Enter key, or the Spacebar to select and open the drop-down menus.
-
-## Project limitations
-
-You should be aware of the following limitations if you're using the work breakdown structure in Project Operations. These limits apply to projects and tasks. For more information, see [Project for the web limits and boundaries](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| Field                                              |  Limit               |
-|----------------------------------------------------|----------------------|
-| Maximum total tasks for a project                  | 500\*                |
-| Maximum total duration for a project               | 3650 days (10 years) |
-| Maximum total resources for a project              | 300                  |
-| Maximum total links (successor only) for a project | 600                  |
-| Maximum total custom fields for a project          | 10                   |
-| Maximum checklist items per task                   | 20                   |
-
-\* We are currently running a private preview of increased task limits to 1,000 tasks per project. To request access, sign up at [Microsoft Dynamics 365 Project Operations Increased Task Limit Private Preview](https://aka.ms/PO1000tasklimit).
-
-**Task limitations**
-
-| Field                                   |   Limit               |
-|-----------------------------------------|-----------------------|
-| Maximum hierarchy level                 | 10 levels             |
-| Maximum links (successor + predecessor) | 20                    |
-| Maximum duration of leaf task           | 1250 days             |
-| Maximum duration of a summary task      | 3650 days (10 years)  |
-| Maximum resources assigned to a task    | 20 resources          |
-| Supported date range for a task         | 1/1/2000 - 12/31/2149 |
 
 ## Planning a project in sprints
 
