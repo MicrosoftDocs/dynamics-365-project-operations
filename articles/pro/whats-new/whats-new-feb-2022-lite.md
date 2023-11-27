@@ -2,7 +2,7 @@
 title: What's new February 2022 - Project Operations lite deployment
 description: This article provides information about the quality updates that are available in the February 2022 release of Project Operations lite deployment.
 author: sigitac
-ms.date: 01/27/2021
+ms.date: 11/27/2023
 ms.topic: article
 ms.prod:
 ms.reviewer: johnmichalak
