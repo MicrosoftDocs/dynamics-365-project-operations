@@ -61,12 +61,12 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Project management and accounting | [619391](https://fix.lcs.dynamics.com/Issue/Details/?bugId=619391) | If an invoice proposal includes any zero-amount fee transactions that are unbilled sales actuals, invoicing can't occur. |
 | Project management and accounting | [624423](https://fix.lcs.dynamics.com/Issue/Details/?bugId=624423) | The posted cost isn't correct after the purchase price is updated and **Activate change management** is enabled.|
 | Project management and accounting | [628386](https://fix.lcs.dynamics.com/Issue/Details/?bugId=628386) | The posting estimate for a fixed-price project uses the incorrect currency and amount in the estimate voucher, even when the **Enable project contract currency for estimate calculation** feature is enabled. |
-| Project management and accounting | [629239](https://fix.lcs.dynamics.com/Issue/Details/?bugId=629239) | **ProjDMFDataPopulation\_Extension** should not make a call to enable change tracking without catching exceptions for entities that have configuration keys that aren't enabled. |
+| Project management and accounting | [629239](https://fix.lcs.dynamics.com/Issue/Details/?bugId=629239) | **ProjDMFDataPopulation\_Extension** shouldn't make a call to enable change tracking without catching exceptions for entities that have configuration keys that aren't enabled. |
 | Project management and accounting | [623818](https://fix.lcs.dynamics.com/Issue/Details/?bugId=623818) | The batch job is fixed when multiple advanced journals are posted and an error occurs. |
 | Travel and Expense | [616805](https://fix.lcs.dynamics.com/Issue/Details/?bugId=616805) | Because of a settlement issue that is related to cash advances on expense reports, the tax amount isn't covered as part of the cash advance. |
 | Travel and Expense | [616959](https://fix.lcs.dynamics.com/Issue/Details/?bugId=616959) | Sales tax information isn't included on the **Expense - Posted transactions** report. |
 | Travel and Expense | [618943](https://fix.lcs.dynamics.com/Issue/Details/?bugId=618943) | The **Receipts Required** expense policy violation incorrectly shows a warning on expense reports. |
-| Travel and Expense | [633470](https://fix.lcs.dynamics.com/Issue/Details/?bugId=633470) | A project transaction doesn't include non-recoverable sales tax in the total sales amount when the transaction is a result of a mileage expense. |
+| Travel and Expense | [633470](https://fix.lcs.dynamics.com/Issue/Details/?bugId=633470) | A project transaction doesn't include nonrecoverable sales tax in the total sales amount when the transaction is a result of a mileage expense. |
 | Travel and Expense | [642979](https://fix.lcs.dynamics.com/Issue/Details/?bugId=642979) | When an itemized line has tax, you can't change the itemization line date, and a source document state error occurs. |
 
 ## Removed and deprecated features
@@ -76,6 +76,6 @@ The [Removed or deprecated features in Project Operations](removed-depreciated-f
 - A removed feature is no longer available in the product.
 - A deprecated feature isn't in active development and might be removed in a future update.
 
-A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.
+A deprecation announcement appear in the [Removed or deprecated features in Project Operations](removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.
 
 For breaking changes that only affect compilation time, but are binary compatible with sandbox and production environments, the deprecation time will be less than 12 months. Typically, these changes are functional updates that must be made to the compiler.
