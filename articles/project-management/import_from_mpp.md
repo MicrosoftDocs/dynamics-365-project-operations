@@ -2,7 +2,7 @@
 title: Import projects from the Microsoft Project desktop client
 description: This article explains how to create projects by importing Microsoft Project desktop files.
 author: ruhercul
-ms.date:11/27/2023
+ms.date: 11/27/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
