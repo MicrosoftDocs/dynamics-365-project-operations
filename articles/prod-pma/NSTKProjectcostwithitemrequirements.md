@@ -5,16 +5,16 @@ author: mukumarm
 ms.author: mukumarm
 ms.reviewer: johnmichalak
 ms.topic: conceptual
-ms.date: 2/21/2023
+ms.date: 11/28/2023
 ms.custom: bap-template
 ---
 
 # Purchase orders for Non-stocked/Service items with item requirements
 
-To use **Non-stocked** or **Service** items with item requirements, you enable the **Enable creation of item requirement for non-stocked items** parameter in Project management & accounting parameters.
+To use **Non-stocked** or **Service** items with item requirements, you enable the **Enable creation of item requirement for non-stocked items** feature in **Feature management**. These item requirements are automatically created if the parameter for **Create item requirement** is set to **Yes** on the **Financial tab** within Project management and accounting parameters.
 
-1. Go to **Project management & accounting parameters** \> **Setup** \> **Project management & accounting parameters**.
-1. On the **General** tab, select **Enable creation of item requirement for non-stocked items**.
+1. Go to **Project management & accounting parameters** \> **Setup** \> **Project management and accounting parameters**.
+1. On the **General** tab, select **Create item requirement**.
 
 When a purchase order line is created, Microsoft Dynamics 365 Finance generates the project item requirement. Each purchase order line has a direct relationship with project item requirement, and purchase order line & item requirement are linked to each other. Any changes to the purchase order have a direct impact on the project item requirement and cause them to be updated.
 
