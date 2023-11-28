@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Purchase orders for Non-stocked/Service items with item requirements
 
-To use **Non-stocked** or **Service** items with item requirements, you enable the **Enable creation of item requirement for non-stocked items** feature in **Feature management**. These item requirements will be automatically created if the parameter for **Create item requirement** is set to **Yes** on the **Financial tab** within Project management and accounting parameters.
+To use **Non-stocked** or **Service** items with item requirements, you enable the **Enable creation of item requirement for non-stocked items** feature in **Feature management**. These item requirements are automatically created if the parameter for **Create item requirement** is set to **Yes** on the **Financial tab** within Project management and accounting parameters.
 
 1. Go to **Project management & accounting parameters** \> **Setup** \> **Project management and accounting parameters**.
 1. On the **General** tab, select **Create item requirement**.
