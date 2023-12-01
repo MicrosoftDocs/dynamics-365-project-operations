@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: aarondodell-msft
+ms.author: aarondodell
 ---
 
 # Change language localization settings
