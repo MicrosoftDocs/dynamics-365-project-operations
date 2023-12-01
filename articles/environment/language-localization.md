@@ -1,5 +1,5 @@
 ---
-title: Language localization
+title: Change language localization settings
 description: This article provides information about language localization in Dynamics 365 Project Operations.
 author: aarondodell-msft
 ms.date: 12/01/2023
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: aarondodell-msft
 ---
 
-# Language Localization
+# Change language localization settings
 
 [!INCLUDE[banner](../includes/banner.md)]
 
