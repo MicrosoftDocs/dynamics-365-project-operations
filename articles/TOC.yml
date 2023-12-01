@@ -60,7 +60,7 @@
         href: environment/resource-dual-write-expense.md
       - name: Vendor invoice integration
         href: environment/resource-dual-write-vendor-invoice.md  
-    - name: Language localization
+    - name: Change language localization settings
       href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
       href: environment/uninstall-project-operations.md
@@ -746,7 +746,7 @@
       href: environment/lite-apply-demo-setup-config-data.md
     - name: Security model
       href: environment/security-model.md
-    - name: Language localization
+    - name: Change language localization settings
       href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
       href: environment/uninstall-project-operations.md
