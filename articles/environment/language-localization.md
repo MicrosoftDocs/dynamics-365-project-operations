@@ -17,39 +17,44 @@ ms.author: aarondodell
 Microsoft Dynamics 365 Project Operations allows for localization of the user interface (UI) and data.
 
 > [!NOTE]
-> This only changes the localization for the current user. Each user needs to change their language settings individually.
+> Changes affect the localization for the current user only. Each user must change their language settings individually.
 
-## Language Localization of the Dynamics 365 Project Operations UI
+## Language localization of the Project Operations UI
 
-To view and change the language the Microsoft Dynamics 365 Project Operations UI is displayed in, complete the following steps.
+To view and change the language that the Project Operations UI is shown in, follow these steps.
 
-1. Select the **Settings** button. :::image type="content" source="media/settings-button.png" alt-text="An image of the Settings button for Dynamics 365.":::
+1. Select the **Settings** button (gear symbol).
+
+    :::image type="content" source="media/settings-button.png" alt-text="Image of the Settings button for Dynamics 365.":::
+
 1. Select **Personalization Settings**.
-1. Select the **Languages** tab. Here you can view and change which language to set for the Dynamics UI.
+1. On the **Languages** tab, you can view and change that language that's set for the Dynamics 365 UI.
 
-   :::image type="content" source="media/personalization-settings-languages-tab.png" alt-text="A screenshot of the Personalization Settings Languages tab for Dynamics 365."::: 
+    :::image type="content" source="media/personalization-settings-languages-tab.png" alt-text="Screenshot of the Languages tab in the personalization settings for Dynamics 365.":::
 
-### How to add more Language options
+### Add more language options
 
-If you need to add more language options to choose from in the **Languages** tab, a System Administrator needs to complete the following steps.
+If you want more language options to select among on the **Languages** tab, a system administrator must follow these steps.
 
-1. Select the **Settings** button.
-1. Select **Advanced Settings**, this opens in a new tab.
-1. Select the dropdown in the upper-left corner of the screen, then select **Administration**.
+1. Select the **Settings** button (gear symbol).
+1. Select **Advanced Settings**. The advanced settings are opened on a new tab.
+1. On the dropdown menu in the upper-left corner, select **Administration**.
 
-   :::image type="content" source="media/advanced-settings-dropdown-administration.png" alt-text="A screenshot of Advanced Settings Dropdown Administration."::: 
-1. Select the **Languages** feature. Here you can add languages as an option for users to select from. The end users still need to set their language settings individually.
+    :::image type="content" source="media/advanced-settings-dropdown-administration.png" alt-text="Screenshot that shows Administration on the dropdown menu in advanced settings for Dynamics 365.":::
 
-   :::image type="content" source="media/advanced-settings-language-settings.png" alt-text="A screenshot of the Languages Settings for Dynamics 365."::: 
+1. Select the **Languages** feature.
+1. In the **Language Settings** dialog box, you can add languages as options that users can select among. Users must still change their language settings individually.
 
-## Language Localization of the Tasks grid
+    :::image type="content" source="media/advanced-settings-language-settings.png" alt-text="Screenshot of the Languages Settings dialog box for Dynamics 365.":::
 
-To view and change the language the Tasks grid is displayed in, complete the following steps.
+## Language localization of the Tasks grid
 
-1. Select the **Settings** button.
+To view and change the language that the **Tasks** grid is shown in, follow these steps.
+
+1. Select the **Settings** button (gear symbol).
 1. Select **Personalization Settings**.
-1. Select the **Formats** tab. Here you can view and change which language to set for the Tasks grid.
+1. On the **Formats** tab, you can view and change the language that's set for the **Tasks** grid.
 
-   :::image type="content" source="media/personalization-settings-formats-tab.png" alt-text="A screenshot of the Personalization Settings Formats tab for Dynamics 365."::: 
+    :::image type="content" source="media/personalization-settings-formats-tab.png" alt-text="Screenshot of the Formats tab in the personalization settings for Dynamics 365.":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
