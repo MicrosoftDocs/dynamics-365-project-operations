@@ -40,7 +40,7 @@ The following table shows the fields that are related to the **Operation Set** e
 | msdyn_PSSErrorLogName | Not applicable.                                                                                              | Not applicable         |
 | msdyn_status          | The status of the operation set.                                                                             | Status                 |
 | msdyn_statusName      | Not applicable.                                                                                              | Not applicable         |
-| msdyn_useraadid       | The Azure Active Directory (Azure AD) object ID of the user that the request belongs to.                     | UserAADID              |
+| msdyn_useraadid       | The Microsoft Entra object ID of the user that the request belongs to.                     | UserAADID              |
 
 ### Operation Set Detail
 
