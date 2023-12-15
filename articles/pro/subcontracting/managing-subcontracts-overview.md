@@ -2,7 +2,7 @@
 title: Subcontract management in Project Operations
 description: This article provides an overview of the end-to-end subcontract management process typically in project-based organizations.
 author: rumant
-ms.date: 09/14/2022
+ms.date: 12/15/2023
 ms.topic: overview
 ms.custom: 
   - bap-template
