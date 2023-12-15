@@ -14,34 +14,38 @@ _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operation
 
 A confirmed project invoice can be revised to process changes or credits as negotiated with the customer and project manager.
 
-To make edits to a confirmed invoice, open the confirmed invoice and select **Revise** (previously referred to as **Correct this invoice**).
+To make edits to a confirmed invoice, open the confirmed invoice and select **Revise** (previously referred to as **Correct this invoice**). 
 
 > [!NOTE]
-> The invoice revision process has been significantly improved to include the **Select transactions** capability so you can perform edits quickly and process invoice corrections in lesser duration.   
+> Beginning UR 37,  the invoice revision process has been significantly improved to include the **Select transactions** capability so you can perform edits quickly and process invoice corrections in lesser duration. This also helps improve performance of invoice corrections when dealing with large invoices with hundreds or thousands of invoice line details, but requiring to connect only a few of those transactions.   
 
-Depending on the need to either edit only a few of the transactions or the entire invoice, use **Select transactions** or **Select all transactions**. 
+Depending on the need for correction, users can choose between 2 options - **Select transactions** to revise selected transactions or **Select all transactions** to revise the entire invoice. 
 
-**Select transactions** – Use this option to revise only specific transactions on the confirmed invoice.
+1. **Select transactions** – Use this option to revise **specific** transactions on the confirmed invoice.
+    - Selecting this option opens a dialog with a list of previously invoiced transactions categorized by transaction types of **Time and Material**, **Milsetones**, and **Advances and Retainers**.
+    - Select the invoice line details for revision by setting the **Revise** toggle to **Yes**.
+    - Select the **Create invoice** ribbon option to create a new revised invoice with the selected transactions.
+    - Select the **Add to invoice** ribbon option to append the selected transactions for revision to an existing draft invoice for the same project contract and project contract customer. 
 
-- Selecting this option opens a page with a list of invoice line details that have been previously invoiced. 
-- Select the invoice line details for revision by setting the **Revise** toggle to **Yes**.
-- Select the **Create invoice** ribbon option to create a draft invoice with the selected transactions.
+2. **Select all transactions** – Use this option to revise **all** the transactions on the confirmed invoice.
+   
+> [!IMPORTANT]
+The invoice correction form is not customizable. The correction form is only valid for invoices that are confirmed or paid. Invoices with custom status are not supported. 
 
-**Select all transactions** – Use this option to revise **ALL** the transactions on the confirmed invoice. 
-
-> [!NOTE]
-> The **Revise** option is available only after a project invoice is confirmed.
-
+## Revised invoice
 A new draft invoice is created from the confirmed invoice. 
 - If **Select transactions** was used, the selected invoice line details from the previously confirmed invoice are copied to the new draft. 
-- If **Select all transactions** was used, all invoice line details from the previously confirmed invoice are copied to the new draft. 
+- If **Select all transactions** was used, all invoice line details from the previously confirmed invoice are copied to the new draft.
+- In either case, the invoice header is updated to reflect the total amount on the invoice after correction.
 
 The following are some of the key points to understand about the line details on the new corrected invoice:
 
-- All quantities are updated to zero. Dynamics 365 Project Operations assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created when the corrected invoice is confirmed. If you're making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
+- All quantities are updated to zero. Dynamics 365 Project Operations assumes that all invoiced items are fully credited. If needed, you can manually update these quantities to reflect the quantity that is    being invoiced, and not the quantity that is being credited. Based on the quantity you enter, the application calculates the credited quantity. This amount is reflected in the actuals that are created       when the corrected invoice is confirmed. If you're making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.
 - Milestone corrections are always processed as full credits.
+- Product based lines corrections cannot be corrected using the revise option but instead can be adjusted manually using journals. 
 
-To use the **Revise** feature with the **Select transactions** capability, turn on the Invoice revision updates feature at **Settings** > **Parameters** > **Feature control**.
+> [!NOTE]
+> To use the **Revise** feature with the **Select transactions** capability, turn on the Invoice revision updates feature at **Settings** > **Parameters** > **Feature control** > **Invoice Revision updates**.
 
 > [!IMPORTANT]
 > For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**. For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.
