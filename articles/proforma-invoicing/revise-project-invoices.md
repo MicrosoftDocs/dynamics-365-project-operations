@@ -22,7 +22,7 @@ To make edits to a confirmed invoice, open the confirmed invoice and select **Re
 Depending on the need for correction, users can choose between 2 options - **Select transactions** to revise selected transactions or **Select all transactions** to revise the entire invoice. 
 
 1. **Select transactions** – Use this option to revise **specific** transactions on the confirmed invoice.
-    - Selecting this option opens a dialog with a list of previously invoiced transactions categorized by transaction types of **Time and Material**, **Milsetones**, and **Advances and Retainers**.
+    - Selecting this option opens a dialog with a list of previously invoiced transactions categorized by transaction types of **Time and Material**, **Milestones**, and **Advances and Retainers**.
     - Select the invoice line details for revision by setting the **Revise** toggle to **Yes**.
     - Select the **Create invoice** ribbon option to create a new revised invoice with the selected transactions.
     - Select the **Add to invoice** ribbon option to append the selected transactions for revision to an existing draft invoice for the same project contract and project contract customer. 
