@@ -3,13 +3,16 @@ title: Manage expenses by using the Dynamics 365 expense management mobile app
 description: This article explains how to manage expenses by using the Dynamics 365 expense management mobile app.
 author: mukumarm
 ms.date: 11/06/2023
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.custom: bap-template
 ---
 
 # Manage expenses by using the Dynamics 365 expense management mobile app
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 

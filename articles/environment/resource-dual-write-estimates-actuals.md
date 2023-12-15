@@ -3,13 +3,17 @@ title: Project estimates and actuals integration
 description: This article provides information about Project Operations dual-write integration for project estimates and actuals.
 author: sigitac
 ms.date: 4/26/2021
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.prod:
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Project estimates and actuals integration
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

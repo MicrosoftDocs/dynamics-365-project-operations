@@ -1,15 +1,19 @@
 ---
 title: Updating plug-in attributes with new pricing dimensions
 description: This article provides information about how to update plug-in attributes for pricing dimensions.
-author: rumant
-ms.date: 11/18/2020
-ms.topic: article
+author: avisness
+ms.date: 11/18/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: avisness
 ---
 
 
 # Update plug-in attributes with new pricing dimensions
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 This article provides information about how to update plug-in attributes for pricing dimensions.
 

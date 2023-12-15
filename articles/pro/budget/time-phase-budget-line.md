@@ -12,6 +12,8 @@ ms.custom:
 
 # Use time-phased project cost budget lines
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
 This article explains how to time-phase project budget lines and create budget line details.

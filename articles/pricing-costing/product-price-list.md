@@ -5,9 +5,9 @@ title: Product price lists
 description: This article provides information about the price lists in catalog pricing used for project quotes and contracts. 
 author: rumant
 ms.date: 04/05/2021
-ms.topic: article
-ms.prod: 
-#
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
@@ -18,7 +18,6 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
-ms.custom: 
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
@@ -28,6 +27,8 @@ ms.search.validFrom: 2020-10-01
 ---
 
 # Product price lists
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

@@ -3,12 +3,16 @@ title: Project budget status management
 description: This article provides information that will help you manage the status of a project budget.
 author: niranjanmaski
 ms.date: 01/13/2023
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
 # Project budget status management
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 

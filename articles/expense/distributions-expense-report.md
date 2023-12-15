@@ -3,12 +3,16 @@ title: Distributions on an expense report
 description: When you enter expenses on an expense report, you can distribute them across multiple projects, legal entities, or accounts in your organization.
 author: suvaidya
 ms.date: 10/10/2020
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
 # Distributions on an expense report
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

@@ -3,11 +3,11 @@
 
 title: Add required custom fields to price setup and transactional entities
 description: This article provides information about how to add required custom field references to entities and to forms and views.
-author: rumant
-ms.date: 09/18/2020
-ms.topic: article
-ms.prod: 
-#
+author: avisness
+ms.date: 11/18/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
@@ -18,16 +18,17 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
-ms.custom: 
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: avisness
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
 # Add required custom fields to price setup and transactional entities
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

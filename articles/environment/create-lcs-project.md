@@ -3,12 +3,16 @@ title: Start a new LCS project
 description: This article provides information about creating a new project in LCS for your Project Operations environment.
 author: stsporen
 ms.date: 10/01/2020
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 
 # Start a new LCS project
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

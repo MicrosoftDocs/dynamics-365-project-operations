@@ -3,11 +3,16 @@ title: Manually deploy the Project Operations Dataverse app with dual-write supp
 description: This article explains how to manually deploy the Project Operations Dataverse app so that it supports dual-write.
 author: stsporen
 ms.date: 06/18/2021
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
+
 # Manually deploy the Project Operations Dataverse app with dual-write support
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

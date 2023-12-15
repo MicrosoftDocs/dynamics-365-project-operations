@@ -4,13 +4,16 @@ description: This article provides information about the pricing dimensions in D
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
-ms.prod: 
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant 
 
 --- 
 
 # Pricing dimensions overview
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

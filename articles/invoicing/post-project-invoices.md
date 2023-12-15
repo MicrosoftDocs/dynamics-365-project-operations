@@ -4,12 +4,16 @@ description: This article provides a process overview of invoicing in Project Op
 author: sigitac
 ms.date: 01/29/2021
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: sigitac
 
 ---
 
 # Invoicing process overview
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

@@ -3,12 +3,16 @@ title: VAT recovery in Expense management
 description: This article explains how to receive refunds on eligible value-added tax (VAT) transactions.
 author: suvaidya
 ms.date: 10/10/2020
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
 # VAT recovery in Expense management
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

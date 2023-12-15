@@ -5,9 +5,9 @@ title: Set up workflows for Expense management
 description: You can set up a workflow process that is used to review and approve travel and expense documents.
 author: suvaidya
 ms.date: 09/23/2020
-ms.topic: article
-ms.prod: 
-#
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
@@ -27,6 +27,8 @@ ms.dyn365.ops.version:
 ---
 
 # Set up workflows for Expense management
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

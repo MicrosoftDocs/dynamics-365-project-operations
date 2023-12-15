@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Install and configure the Dynamics 365 expense management mobile app
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
 This article explains how administrators can prepare your Microsoft Dynamics 365 Finance and Dataverse environments to support the Dynamics 365 expense management mobile app. For information on how to install the Dynamics 365 expense management mobile app on your mobile devices, see [Install and open the Dynamics 365 expense management mobile app on a mobile device](mobile-app-install-on-mobile-device.md).

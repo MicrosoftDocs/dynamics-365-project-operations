@@ -5,9 +5,9 @@ title: Post expense reports
 description: This article explains how to post expense reports.
 author: ramagadu
 ms.date: 08/12/2022
-ms.topic: article
-ms.prod: 
-#
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
@@ -26,6 +26,8 @@ ms.dyn365.ops.version:
 ---
 
 # Post expense reports
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 After an expense report has been approved and transferred to the general journal, it can be posted. When you post an expense report, expenses that are eligible for recovery of value-added tax (VAT) are identified. The task of verifying and recovering VAT payments is assigned to the employee who is responsible for verifying the expense report.
 

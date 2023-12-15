@@ -3,12 +3,16 @@ title: Managing complex units such as per-user, per-month for product-based quot
 description: This article provides information about managing complex units for product-based quote lines.
 author: rumant
 ms.date: 12/03/2022
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Managing complex units such as per-user, per-month for product-based quote lines
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

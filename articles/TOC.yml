@@ -60,6 +60,8 @@
         href: environment/resource-dual-write-expense.md
       - name: Vendor invoice integration
         href: environment/resource-dual-write-vendor-invoice.md  
+    - name: Change language localization settings
+      href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
       href: environment/uninstall-project-operations.md
     - name: Developer notes
@@ -325,7 +327,9 @@
     - name: Update a project
       href: project-management/update-project.md
     - name: Copy a project
-      href: project-management/copy-project.md    
+      href: project-management/copy-project.md
+    - name: Project and task limitations
+      href: project-management/project-and-task-limitations.md
     - name: Work breakdown structure planning
       items: 
       - name: Create a work breakdown structure
@@ -742,6 +746,8 @@
       href: environment/lite-apply-demo-setup-config-data.md
     - name: Security model
       href: environment/security-model.md
+    - name: Change language localization settings
+      href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
       href: environment/uninstall-project-operations.md
     - name: Developer notes
@@ -1032,6 +1038,8 @@
       href: project-management/copy-project.md 
     - name: Import projects from the Microsoft Project desktop client
       href: project-management/import_from_mpp.md
+    - name: Project and task limitations
+      href: project-management/project-and-task-limitations.md
     - name: Work breakdown structure planning
       items: 
       - name: Create a work breakdown structure

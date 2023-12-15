@@ -4,12 +4,16 @@ description: This article provides information about working with approvals in P
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: stsporen
 
 ---
 
 # Approvals overview
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

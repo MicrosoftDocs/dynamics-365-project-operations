@@ -6,6 +6,8 @@ description: This article provides an overview of the concept of business transa
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.prod: 
 #
 
@@ -27,6 +29,8 @@ ms.search.validFrom: 2022-01-31
 ---
 
 # Business transactions in Project Operations
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
