@@ -2,7 +2,7 @@
 title: Subcontracting project team members
 description: This article explains how to subcontract project team members in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 9/14/2022
+ms.date: 12/15/2023
 ms.topic: how-to
 ms.custom: 
   - bap-template
