@@ -2,7 +2,7 @@
 title: Vendor invoice lines for products
 description: This article explains how to record vendor invoice lines for products and use the different fields to record product purchases from vendors.
 author: rumant
-ms.date: 03/25/2022
+ms.date: 12/15/2023
 ms.topic: how-to
 ms.custom: 
   - bap-template
