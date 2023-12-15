@@ -2,7 +2,7 @@
 title: Staffing a project with contract workers and subcontracted capacity
 description: This article explains how project requirements can be staffed using contract workers or subcontracted capacity in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 09/14/2022
+ms.date: 12/15/2023
 ms.topic: how-to
 ms.custom: 
   - bap-template

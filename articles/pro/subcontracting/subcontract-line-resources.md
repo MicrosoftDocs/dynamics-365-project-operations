@@ -2,7 +2,7 @@
 title: Subcontract line resources
 description: This article explains how to specify the dedicated resources that are provided by the vendor for a specific subcontract line for time.
 author: rumant
-ms.date: 09/14/2022
+ms.date: 12/15/2023
 ms.topic: how-to
 ms.custom: 
   - bap-template
