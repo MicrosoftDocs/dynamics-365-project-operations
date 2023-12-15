@@ -2,7 +2,7 @@
 title: Revise (correct) project invoices
 description: This article provides information about how to revise project invoices in Project Operations.
 author: suvaidya    
-ms.date: 09/26/2023
+ms.date: 12/15/2023
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
@@ -17,7 +17,7 @@ A confirmed project invoice can be revised to process changes or credits as nego
 To make edits to a confirmed invoice, open the confirmed invoice and select **Revise** (previously referred to as **Correct this invoice**). 
 
 > [!NOTE]
-> Beginning UR 37,  the invoice revision process has been significantly improved to include the **Select transactions** capability so you can perform edits quickly and process invoice corrections in lesser duration. This also helps improve performance of invoice corrections when dealing with large invoices with hundreds or thousands of invoice line details, but requiring to connect only a few of those transactions.   
+> Beginning UR 37,  the invoice revision process has been significantly improved to include the **Select transactions** capability so you can perform edits quickly and process invoice corrections in lesser duration. This also helps improve performance of invoice corrections when dealing with large invoices with hundreds or thousands of invoice line details, but requiring to correct only a few of those transactions.   
 
 Depending on the need for correction, users can choose between 2 options - **Select transactions** to revise selected transactions or **Select all transactions** to revise the entire invoice. 
 
