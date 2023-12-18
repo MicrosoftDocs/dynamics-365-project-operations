@@ -19,20 +19,18 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
+Project Operations makes it easier for you to do your project planning, including estimates. You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.  
 
-[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes it easier for you to do your project planning, including estimates. You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.  
-
-You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] and do your planning work in the familiar environment of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Use the robust planning and management capabilities of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and then update your project plan in Project Operations.  
+You can install the Microsoft Project desktop add-in for Project Operations and do your planning work in the familiar environment of Microsoft Project. Use the robust planning and management capabilities of Microsoft Project and then update your project plan in Project Operations.  
 
 > [!IMPORTANT]
 > - The add-in is only available for existing Project Operations customers who either have active usage of the addin or have projects that are currently outside the supported limits of Project for the Web.
 > - The add-in cannot be used to edit projects created using Project for the Web.
-> - To use SharePoint document management to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin will need to turn on document management. 
-> - The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.  
+> - To use SharePoint document management to store your Microsoft Project files for Project Operations projects, your Microsoft Project admin will need to turn on document management. 
+> - The Microsoft Project desktop add-in for Project Operation is only compatible with microsoft Project 2016 Professional Edition or newer.  
 
 ## Download and install the add-in  
- Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready. You will need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+ Have your Project Operations sign-in information ready. You will need this information to connect from Microsoft Project to Project Operations.  
 
 1.  From the Download Center, download the add-in for your supported version of Project Project Operations, either [V4.88+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
@@ -42,7 +40,7 @@ You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-m
 
 ## Configure the add-in  
 
-1. Open [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and select the **Project Operations** tab.  
+1. Open Microsoft Project and select the **Project Operations** tab.  
 
 2. Select **Connect**.  
 
@@ -50,7 +48,7 @@ You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-m
 
    Now you can start using the add-in.  
 
-## Assign [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] roles to project resources  
+## Assign Project Operations roles to project resources  
 
 1.  Open a project and select the **Task** ribbon.  
 
@@ -67,9 +65,9 @@ You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-m
 3.  Select **Book** and then select **OK**.  
 
 ## Publish your project  
-When your project planning is complete, the next step is to import and publish the project in to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+When your project planning is complete, the next step is to import and publish the project in to Project Operations.  
 
-The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. The pricing and team generation process are applied. Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure have been generated. The following table shows where to find the results.
+The project will import into Project Operations. The pricing and team generation process are applied. Open the project in Project Operations to see that the team, project estimates, and work breakdown structure have been generated. The following table shows where to find the results.
 
 
 |              Microsoft Project                                                           |                      Project Operations                                                                                   |
@@ -87,33 +85,33 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 4. Select **Publish**.  
 
-   Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to read-only.  In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+   Linking the Project file to Project Operations makes the Project file the master and sets the work breakdown structure in Project Operations to read-only.  In order to make changes to the project plan, you need to make them in Microsoft Project and publish them as updates to Project Operations.  
 
 ## Edit a project that’s been imported  
- To make changes to a project plan that's been imported into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you have two options:  
+ To make changes to a project plan that's been imported into Project Operations, you have two options:  
 
-- Open the master file and edit it in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
+- Open the master file and edit it in Microsoft Project.  
 
-- Unlink the file and edit it directly in Project Operations. By default, a project that’s been uploaded from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] is locked and can only be edited in Project. To edit the file in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], the file has to be unlinked.  
+- Unlink the file and edit it directly in Project Operations. By default, a project that’s been uploaded from Microsoft Project is locked and can only be edited in Project. To edit the file in Project Operations, the file has to be unlinked.  
 
-## Edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
-
-1. On the main menu, go to **Project Operations** > **Projects**.  
-
-2. From the list of projects, open the one that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
-
-3. Select **Open in MS Project** from the ribbon. This will open the linked master file in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
-
-### Unlink a file and edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service  
+## Edit in Microsoft Project  
 
 1. On the main menu, go to **Project Operations** > **Projects**.  
 
-2. From the list of projects, open the one that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
+2. From the list of projects, open the one that you created in Microsoft Project.  
+
+3. Select **Open in MS Project** from the ribbon. This will open the linked master file in Microsoft Project.  
+
+### Unlink a file and edit in Microsoft Project Service  
+
+1. On the main menu, go to **Project Operations** > **Projects**.  
+
+2. From the list of projects, open the one that you created in Microsoft Project.  
 
 3. Select **Unlink from MS Project** from the ribbon.  
 
 ## Upload a Project file to SharePoint or Office Groups  
- You can upload your Project file to SharePoint and find it under the Associated Documents for your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  You need to have your administrator configure SharePoint document management and turn it on for the Project entity. 
+ You can upload your Project file to SharePoint and find it under the Associated Documents for your Project Operations project.  You need to have your administrator configure SharePoint document management and turn it on for the Project entity. 
 
  You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] if you have Office Groups set up.
 
@@ -123,13 +121,13 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 2. Select **To Project Operations Project Documents**.  
 
-3. In the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog box, select **Yes** or **No**.  
+3. In the **Enable Open in Microsoft Project** dialog box, select **Yes** or **No**.  
 
-   - If you select **Yes**, you'll be able select **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** in Project Operations, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
+   - If you select **Yes**, you'll be able select **Open in Microsoft Project** in Project Operations, launch Microsoft Project, and load the Project file from the SharePoint document library.  
 
-   - If you select **No**, the link for **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** won't work.  
+   - If you select **No**, the link for **Open in Microsoft Project** won't work.  
 
-4. The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  
+4. The Microsoft Project file can be found in Project Operations under **Documents** for the specific Project Operations project.  
 
 ## Upload a file for Office Groups  
 
@@ -137,13 +135,13 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 2. Select **To Project Operations Project Documents**.  
 
-3. In the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog box, select **Yes** or **No**.  
+3. In the **Enable Open in Microsoft Project** dialog box, select **Yes** or **No**.  
 
-   - If you select **Yes**, you'll be able to select **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** in Project Operations, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
+   - If you select **Yes**, you'll be able to select **Open in Microsoft Project** in Project Operations, launch Microsoft Project, and load the Project file from the SharePoint document library.  
 
-   - If you select **No**, the link for **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** won't work.  
+   - If you select **No**, the link for **Open in Microsoft Project** won't work.  
 
-4. The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  
+4. The Microsoft Project file can be found in Project Operations under **Documents** for the specific Project Operations project.  
 
 
 ## Read a resource loaded schedule
