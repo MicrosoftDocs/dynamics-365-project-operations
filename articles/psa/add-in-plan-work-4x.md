@@ -1,6 +1,6 @@
 ---
-title: Plan your work in Microsoft Project with the Project Service add-in
-description: This article provides information about how to use the Microsoft Project add-in for Microsoft Project Service.
+title: Plan your work in Microsoft Project with the Project Operations add-in
+description: This article provides information about how to use the Microsoft Project add-in for Microsoft Project Operations.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
@@ -15,7 +15,7 @@ search.audienceType:
 ms.reviewer: johnmichalak
 ---
 
-# Plan your work in Microsoft Project with the Project Service add-in
+# Plan your work in Microsoft Project with the Project Operations add-in
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -23,10 +23,10 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes it easier for you to do your project planning, including estimates. You can define the work so that costs, effort, and sales value are clear as the final proposal is submitted.  
 
-You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] and do your planning work in the familiar environment of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Use the robust planning and management capabilities of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and then update your project plan in Project Service Automation.  
+You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] and do your planning work in the familiar environment of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Use the robust planning and management capabilities of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and then update your project plan in Project Operations.  
 
 > [!IMPORTANT]
-> - The add-in is only available for existing Project Service Automation customers who either have active usage of the addin or have projects that are currently outside the supported limits of Project for the Web.
+> - The add-in is only available for existing Project Operations customers who either have active usage of the addin or have projects that are currently outside the supported limits of Project for the Web.
 > - The add-in cannot be used to edit projects created using Project for the Web.
 > - To use SharePoint document management to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin will need to turn on document management. 
 > - The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.  
@@ -42,7 +42,7 @@ You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-m
 
 ## Configure the add-in  
 
-1. Open [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and select the **Project Service** tab.  
+1. Open [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and select the **Project Operations** tab.  
 
 2. Select **Connect**.  
 
@@ -56,11 +56,11 @@ You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-m
 
 2. Select the **Gantt Chart** menu and then choose **Resource Sheet**.  
 
-3. On the Resource Sheet, select the **Project Service Resource Role** drop-down menu and choose a Project Service Automation role.  
+3. On the Resource Sheet, select the **Project Operations Resource Role** drop-down menu and choose a Project Operations role.  
 
 ## Staff your project with resources  
 
-1.  From the Project Service tab, select a row and select **Find Resources**.  
+1.  From the Project Operations tab, select a row and select **Find Resources**.  
 
 2.  On the **Book Resource** screen, select the resource that you want to use for the project.  
 
@@ -72,18 +72,18 @@ When your project planning is complete, the next step is to import and publish t
 The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. The pricing and team generation process are applied. Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure have been generated. The following table shows where to find the results.
 
 
-|              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
+|              Microsoft Project                                                           |                      Project Operations                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt Chart**   | Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Work Breakdown Structure** screen. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resource Sheet** |   Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Team Members** screen.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Use Usage**    |    Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Estimates** screen.     |
 
 **To import and publish your project**  
-1. On the **Project Service** tab, go to **Publish** > **New Project Service Automation Project**.  
+1. On the **Project Operations** tab, go to **Publish** > **New Project Operations Project**.  
 
-2. In the **Publish to a new project in Project Service** dialog box, enter the **Project Name** and select the **Customer**.  
+2. In the **Publish to a new project in Project Operations** dialog box, enter the **Project Name** and select the **Customer**.  
 
-3. Optionally, select **Link project plan to Project Service Automation** to link the plan Project file to Project Service Automation.  
+3. Optionally, select **Link project plan to Project Operations** to link the plan Project file to Project Operations.  
 
 4. Select **Publish**.  
 
@@ -94,11 +94,11 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 - Open the master file and edit it in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
-- Unlink the file and edit it directly in Project Service. By default, a project that’s been uploaded from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] is locked and can only be edited in Project. To edit the file in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], the file has to be unlinked.  
+- Unlink the file and edit it directly in Project Operations. By default, a project that’s been uploaded from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] is locked and can only be edited in Project. To edit the file in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], the file has to be unlinked.  
 
 ### Edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
 
-1. On the main menu, go to **Project Service** > **Projects**.  
+1. On the main menu, go to **Project Operations** > **Projects**.  
 
 2. From the list of projects, open the one that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
@@ -106,7 +106,7 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 ### Unlink a file and edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service  
 
-1. On the main menu, go to **Project Service** > **Projects**.  
+1. On the main menu, go to **Project Operations** > **Projects**.  
 
 2. From the list of projects, open the one that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
@@ -119,13 +119,13 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 ### Upload a file for SharePoint  
 
-1. On the main menu, go to **Project Service** > **Upload**.  
+1. On the main menu, go to **Project Operations** > **Upload**.  
 
-2. Select **To Project Service Automation Project Documents**.  
+2. Select **To Project Operations Project Documents**.  
 
 3. In the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog box, select **Yes** or **No**.  
 
-   - If you select **Yes**, you'll be able select **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
+   - If you select **Yes**, you'll be able select **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** in Project Operations, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
 
    - If you select **No**, the link for **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** won't work.  
 
@@ -133,13 +133,13 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 ### Upload a file for Office Groups  
 
-1. On the main menu, go to **Project Service** > **Upload**.  
+1. On the main menu, go to **Project Operations** > **Upload**.  
 
-2. Select **To Project Service Automation Project Documents**.  
+2. Select **To Project Operations Project Documents**.  
 
 3. In the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog box, select **Yes** or **No**.  
 
-   - If you select **Yes**, you'll be able to select **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
+   - If you select **Yes**, you'll be able to select **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** in Project Operations, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
 
    - If you select **No**, the link for **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** won't work.  
 
@@ -148,16 +148,16 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 ## Read a resource loaded schedule
 
-When reading a project from Project Service Automation, the resource's calendar isn't synchronized to the desktop client. If there are differences in the task durations, effort, or end, it's probably because the resources and the desktop client don't have the same work hour template calendar applied to the project.  Project managed by Project for the Web will not be displayed in the project lookup.
+When reading a project from Project Operations, the resource's calendar isn't synchronized to the desktop client. If there are differences in the task durations, effort, or end, it's probably because the resources and the desktop client don't have the same work hour template calendar applied to the project.  Project managed by Project for the Web will not be displayed in the project lookup.
 
 
 ## Data synchronization
-The tables in this section provide information about the synchronization of entity data between Project Service Automation and the Microsoft Project desktop add-in.
+The tables in this section provide information about the synchronization of entity data between Project Operations and the Microsoft Project desktop add-in.
 
 ### Project Task entity 
-The following table outlines how Project Task entity data is synchronized between Project Service Automation and the Microsoft Project desktop add-in.
+The following table outlines how Project Task entity data is synchronized between Project Operations and the Microsoft Project desktop add-in.
 
-| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
+| **Entity** | **Field** | **Microsoft Project to Project Operations** | **Project Operations to Microsoft Project** |
 | --- | --- | --- | --- |
 | Project Task | Due Date | Synchronized | Not synchronized |
 | Project Task | Estimated Effort | Synchronized | Not synchronized |
@@ -172,9 +172,9 @@ The following table outlines how Project Task entity data is synchronized betwee
 | Project Task | WBS ID | Synchronized | Not synchronized |
 
 ### Team Member entity 
-The following table outlines how Team Member entity data is synchronized between Project Service Automation and the Micros
+The following table outlines how Team Member entity data is synchronized between Project Operations and the Micros
 
-| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
+| **Entity** | **Field** | **Microsoft Project to Project Operations** | **Project Operations to Microsoft Project** |
 | --- | --- | --- | --- |
 | Team Member | MS Project Client ID | Synchronized | Not synchronized |
 | Team Member | Position Name | Synchronized | Not synchronized |
@@ -185,9 +185,9 @@ The following table outlines how Team Member entity data is synchronized between
 | Team Member | Working Hours | Not synchronized | Not synchronized |
 
 ### Resource Assignment entity 
-The following table outlines how Resource Assignment entity data is synchronized between Project Service Automation and the Micros
+The following table outlines how Resource Assignment entity data is synchronized between Project Operations and the Micros
 
-| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
+| **Entity** | **Field** | **Microsoft Project to Project Operations** | **Project Operations to Microsoft Project** |
 | --- | --- | --- | --- |
 | Resource Assignment | From Date | Synchronized | Not synchronized |
 | Resource Assignment | Hours | Synchronized | Not synchronized |
@@ -200,9 +200,9 @@ The following table outlines how Resource Assignment entity data is synchronized
 | Resource Assignment | To Date | Synchronized | Not synchronized |
 
 ### Project Task Dependencies entity 
-The following table outlines how Project Task Dependencies entity data is synchronized between Project Service Automation and the Micros
+The following table outlines how Project Task Dependencies entity data is synchronized between Project Operations and the Micros
 
-| **Entity** | **Field** | **Microsoft Project to Project Service Automation** | **Project Service Automation to Microsoft Project** |
+| **Entity** | **Field** | **Microsoft Project to Project Operations** | **Project Operations to Microsoft Project** |
 | --- | --- | --- | --- |
 | Project Task Dependencies | Project Task Dependency | Synchronized | Not synchronized |
 | Project Task Dependencies | Link Type | Synchronized | Not synchronized |
