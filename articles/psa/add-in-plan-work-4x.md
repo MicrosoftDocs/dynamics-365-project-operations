@@ -96,7 +96,7 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 - Unlink the file and edit it directly in Project Operations. By default, a project that’s been uploaded from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] is locked and can only be edited in Project. To edit the file in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], the file has to be unlinked.  
 
-### Edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
+## Edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
 
 1. On the main menu, go to **Project Operations** > **Projects**.  
 
@@ -117,7 +117,7 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
  You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] if you have Office Groups set up.
 
-### Upload a file for SharePoint  
+## Upload a file for SharePoint  
 
 1. On the main menu, go to **Project Operations** > **Upload**.  
 
@@ -131,7 +131,7 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 4. The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  
 
-### Upload a file for Office Groups  
+## Upload a file for Office Groups  
 
 1. On the main menu, go to **Project Operations** > **Upload**.  
 
