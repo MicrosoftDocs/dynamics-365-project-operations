@@ -27,6 +27,7 @@ You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-m
 
 > [!IMPORTANT]
 > - The add-in is only available for existing Project Service Automation customers who either have active usage of the addin or have projects that are currently outside the supported limits of Project for the Web.
+> - The add-in cannot be used to edit projects created using Project for the Web.
 > - To use SharePoint document management to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin will need to turn on document management. 
 > - The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.  
 
@@ -144,22 +145,10 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 4. The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  
 
-## Publish  your project as a template  
- You can save your project and reuse it by saving it as a project template in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Project templates are reusable project plans in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. For more information, see [Create a project template (Project Service Automation)](../psa/create-project-template.md). 
-
-1. On the **Project Service** tab, go to **Publish** > **New Project Service Automation Project Template**.  
-
-2. In the **Publish to a new project in Project Service template** dialog box, enter the **Project template name**.  
-
-3. Optionally, select **Link project plan to Project Service Automation** to link the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
-
-4. Select **Publish**.  
-
-Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] template to read-only.  In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
 ## Read a resource loaded schedule
 
-When reading a project from Project Service Automation, the resource's calendar isn't synchronized to the desktop client. If there are differences in the task durations, effort, or end, it's probably because the resources and the desktop client don't have the same work hour template calendar applied to the project.
+When reading a project from Project Service Automation, the resource's calendar isn't synchronized to the desktop client. If there are differences in the task durations, effort, or end, it's probably because the resources and the desktop client don't have the same work hour template calendar applied to the project.  Project managed by Project for the Web will not be displayed in the project lookup.
 
 
 ## Data synchronization
