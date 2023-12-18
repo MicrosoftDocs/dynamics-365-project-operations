@@ -1038,6 +1038,8 @@
       href: project-management/copy-project.md 
     - name: Import projects from the Microsoft Project desktop client
       href: project-management/import_from_mpp.md
+    - name: Plan your work in Microsoft Project with the Project Operations add-in
+      href: psa/plan-work-in-project-operations-add-in.md
     - name: Project and task limitations
       href: project-management/project-and-task-limitations.md
     - name: Work breakdown structure planning
