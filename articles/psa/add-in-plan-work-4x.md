@@ -74,9 +74,9 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 |              Microsoft Project                                                           |                      Project Operations                                                                                   |
 |------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-|  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt Chart**   | Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Work Breakdown Structure** screen. |
-| [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resource Sheet** |   Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Team Members** screen.   |
-|   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Use Usage**    |    Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Estimates** screen.     |
+| **Gantt Chart**   | Imports into the **Work Breakdown Structure** screen. |
+| **Resource Sheet** |   Imports into the **Project Team Members** screen.   |
+| **Use Usage**    | Imports into the **Project Estimates** screen.     |
 
 **To import and publish your project**  
 1. On the **Project Operations** tab, go to **Publish** > **New Project Operations Project**.  
