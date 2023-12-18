@@ -1,6 +1,6 @@
 ---
-title: Plan your work in Microsoft Project with the Project Service add-in
-description: This article provides information about how to use the Microsoft Project add-in for Microsoft Project Service.
+title: Plan your work in Microsoft Project with the Project Service Automation add-in
+description: This article provides information about how to use the Microsoft Project add-in for Microsoft Project Service Automation.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
@@ -15,7 +15,7 @@ search.audienceType:
 ms.reviewer: johnmichalak
 ---
 
-# Plan your work in Microsoft Project with the Project Service add-in
+# Plan your work in Microsoft Project with the Project Service Automation add-in
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 

@@ -4,7 +4,7 @@ description: This article provides information about how to use the Microsoft Pr
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 12/07/2023
+ms.date: 12/18/2023
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -24,15 +24,15 @@ Project Operations makes it easier for you to do your project planning, includin
 You can install the Microsoft Project desktop add-in for Project Operations and do your planning work in the familiar environment of Microsoft Project. Use the robust planning and management capabilities of Microsoft Project and then update your project plan in Project Operations.  
 
 > [!IMPORTANT]
-> - The add-in is only available for existing Project Operations customers who either have active usage of the addin or have projects that are currently outside the supported limits of Project for the Web.
+> - The add-in is only available for existing Project Operations customers who either have active usage of the add-in or have projects that are currently outside the supported limits of Project for the Web.
 > - The add-in cannot be used to edit projects created using Project for the Web.
 > - To use SharePoint document management to store your Microsoft Project files for Project Operations projects, your Microsoft Project admin will need to turn on document management. 
 > - The Microsoft Project desktop add-in for Project Operation is only compatible with microsoft Project 2016 Professional Edition or newer.  
 
 ## Download and install the add-in  
- Have your Project Operations sign-in information ready. You will need this information to connect from Microsoft Project to Project Operations.  
+Have your Project Operations sign-in information ready. You will need this information to connect from Microsoft Project to Project Operations.  
 
-1.  From the Download Center, download the add-in for your supported version of Project Project Operations, either [V4.88+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  From the Download Center, download the add-in for your supported version of Project Operations [V4.88+](https://www.microsoft.com/en-us/download/details.aspx?id=105733).  
 
 2.  Select the download link.  
 
