@@ -1,6 +1,6 @@
 ---
 title: What's new December 2023 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates that are available in the November 2023 release of Microsoft Dynamics 365 Project Operations Lite deployment.
+description: This article provides information about the quality updates that are available in the December 2023 release of Microsoft Dynamics 365 Project Operations Lite deployment.
 author: tulsijhaveri
 ms.date: 12/15/2023
 ms.topic: conceptual
@@ -32,16 +32,16 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Proforma Invoicing | **Ability to select and revise specific transactions in an invoice.** This feature improves usability and performance of the invoice correction process by enabling users to select a subset of the transactions for correction without needing to revise the entire invoice, thereby leading to efficient and shorter invoicing cycles. | [Revise (correct) project invoices](../proforma-invoicing/revise-project-invoices.md) |
+| Proforma Invoicing | **Ability to select and revise specific transactions in an invoice.** This feature improves usability and performance of the invoice correction process. Users can select a subset of the transactions for correction without needing to revise the entire invoice, which leads to efficient and shorter invoicing cycles. | [Revise (correct) project invoices](../proforma-invoicing/revise-project-invoices.md) |
 
 ## Quality updates
 
 ### Project Operations on Dataverse
 
-| **Feaure area** | **Reference number** | **Quality Update** |
+| **Feature area** | **Reference number** | **Quality Update** |
 | --- | --- | --- |
 | Project Planning and Tracking | 3655580 | Unsaved alert shows on project form when feature is disabled and duration fields are hidden |
-| Project Planning and Tracking | 3647289 | Create error log when user doesn't have permissions to async operation entity and cannot query the system jobs |
+| Project Planning and Tracking | 3647289 | Create error log when user doesn't have permissions to async operation entity and can't query the system jobs |
 | Project Planning and Tracking | 3662968 | Create error log when user is missing any OOB privilege and save operation fails due to that |
 | Project Planning and Tracking | 3647295 | Create PSS Error log when the convert project fails |
 | Project Planning and Tracking | 3349866 | Project app user is missing readAccount privilege |
