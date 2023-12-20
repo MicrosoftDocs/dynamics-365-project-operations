@@ -32,7 +32,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Proforma Invoicing | **Ability to select and revise specific transactions in an invoice.** This feature improves usability and performance of the invoice correction process by enabling users to select a subset of the transactions for correction without needing to revise the entire invoice, thereby leading to efficient and shorter invoicing cycles. | [Revise (correct) project invoices](../proforma-invoicing/revise-project-invoices) |
+| Proforma Invoicing | **Ability to select and revise specific transactions in an invoice.** This feature improves usability and performance of the invoice correction process by enabling users to select a subset of the transactions for correction without needing to revise the entire invoice, thereby leading to efficient and shorter invoicing cycles. | [Revise (correct) project invoices](../proforma-invoicing/revise-project-invoices.md) |
 
 ## Quality updates
 
