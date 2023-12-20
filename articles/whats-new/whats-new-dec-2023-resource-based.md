@@ -1,10 +1,11 @@
 ---
-
 title: What's new December 2023 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the November 2023 release of Microsoft Dynamics 365 Project Operations Lite deployment.
 author: tulsijhaveri
 ms.date: 12/15/2023
-ms.topic: article
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.prod:
 ms.reviewer: johnmichalak 
 ms.author: tulsijhaveri
@@ -31,7 +32,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Proforma Invoicing | **Ability to select and revise specific transactions in an invoice.** This feature improves usability and performance of the invoice correction process by enabling users to select a subset of the transactions for correction without needing to revise the entire invoice, thereby leading to efficient and shorter invoicing cycles. | [Revise (correct) project invoices](https://learn.microsoft.com/en-us/dynamics365/project-operations/proforma-invoicing/revise-project-invoices) |
+| Proforma Invoicing | **Ability to select and revise specific transactions in an invoice.** This feature improves usability and performance of the invoice correction process by enabling users to select a subset of the transactions for correction without needing to revise the entire invoice, thereby leading to efficient and shorter invoicing cycles. | [Revise (correct) project invoices](../proforma-invoicing/revise-project-invoices) |
 
 ## Quality updates
 
