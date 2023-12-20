@@ -1,11 +1,11 @@
 ---
-
 title: What's new December 2023 - Project Operations Lite deployment
 description: This article provides information about the quality updates that are available in the November 2023 release of Microsoft Dynamics 365 Project Operations Lite deployment.
 author: tulsijhaveri
 ms.date: 12/15/2023
-ms.topic: article
-ms.prod:
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak 
 ms.author: tulsijhaveri
 ---
@@ -22,8 +22,8 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Budget Management | **Summarization of cost and sales budget lines during import to budget** This feature enables you to import estimates that are initially detailed but are then presented as summarized budget lines. This feature streamlines project tracking by reducing the number of budget lines. Additionally, the summarization process adheres to the budget match priority, ensuring consistency even when selecting summarization options during import. | [Project budget management overview](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/budget/projectbudgetmanagement) |
-| Proforma Invoicing | **Ability to select and revise specific transactions in an invoice.** This feature improves usability and performance of the invoice correction process by enabling users to select a subset of the transactions for correction without needing to revise the entire invoice, thereby leading to efficient and shorter invoicing cycles. | [Revise (correct) project invoices](https://learn.microsoft.com/en-us/dynamics365/project-operations/proforma-invoicing/revise-project-invoices) |
+| Project Budget Management | **Summarization of cost and sales budget lines during import to budget** This feature enables you to import estimates that are initially detailed but are then presented as summarized budget lines. This feature streamlines project tracking by reducing the number of budget lines. Additionally, the summarization process adheres to the budget match priority, ensuring consistency even when selecting summarization options during import. | [Project budget management overview](/dynamics365/project-operations/pro/budget/projectbudgetmanagement) |
+| Proforma Invoicing | **Ability to select and revise specific transactions in an invoice.** This feature improves usability and performance of the invoice correction process by enabling users to select a subset of the transactions for correction without needing to revise the entire invoice, thereby leading to efficient and shorter invoicing cycles. | [Revise (correct) project invoices](../proforma-invoicing/revise-project-invoices) |
 
 ## Quality updates
 
