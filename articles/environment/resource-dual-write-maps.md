@@ -67,6 +67,8 @@ The following maps are required for a Project Operations solution. Dual-write ma
 | Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.3 | Not required for provisioning. ||
 | Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices) | 1.0.0.2 | Not required for provisioning. |10.0.29 or later|
 | Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.5 | Not required for provisioning. | 10.0.29 or later |
+| Project Operations integration project vendor invoice export entity V2 (msdyn\_projectvendorinvoices) | 1.0.0.0 | Not required for provisioning.  ||
+
 
 Complete the following steps to run the listed maps.
 
