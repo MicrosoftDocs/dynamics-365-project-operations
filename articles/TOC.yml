@@ -1042,6 +1042,8 @@
       href: project-management/copy-project.md 
     - name: Import projects from the Microsoft Project desktop client
       href: project-management/import_from_mpp.md
+    - name: Plan your work in Microsoft Project with the Project Operations add-in
+      href: psa/plan-work-in-project-operations-add-in.md
     - name: Project and task limitations
       href: project-management/project-and-task-limitations.md
     - name: Work breakdown structure planning
@@ -1796,6 +1798,8 @@
       href: psa/psa-project-operations-changes.md 
     - name: Project Service Automation to Project Operations project scheduling conversion process  
       href: psa/PSA-Upgrade-Project-Conversion.md
+    - name: Plan your work in Microsoft Project with the Project Operations add-in
+      href: psa/plan-work-in-project-operations-add-in.md
   - name: Plan your implementation (app version 3.x)
     items: 
     - name: Sample data installation
@@ -1852,8 +1856,8 @@
         href: psa/project-stages.md
       - name: Project settings
         href: psa/project-settings.md
-      - name: Plan your work in Microsoft Project with the Project Service add-in
-        href: psa/add-in-plan-work-projects.md
+      - name: Plan your work in Microsoft Project with the Project Service Automation add-in
+        href: psa/plan-work-in-project-service-automation-add-in.md
     - name: Pricing and costing dimensions 
       items:
       - name: Pricing and costing dimensions home page

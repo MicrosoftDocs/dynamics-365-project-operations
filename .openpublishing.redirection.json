@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "articles/psa/add-in-plan-work-projects.md",
+      "redirect_url": "/articles/psa/plan-work-in-project-service-automation-add-in",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "articles/pro/proforma-invoicing/corrective-invoices-sales.md",
       "redirect_url": "/dynamics365/project-operations/proforma-invoicing/revise-project-invoices",
       "redirect_document_id": "false"
