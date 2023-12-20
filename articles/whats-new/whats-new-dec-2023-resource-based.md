@@ -42,12 +42,12 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Reference number** | **Quality Update** |
 | --- | --- | --- |
-| Project Planning and Tracking | 3655580 | Unsaved alert shows on project form when feature is disabled and duration fields are hidden |
-| Project Planning and Tracking | 3647289 | Create error log when user doesn't have permissions to async operation entity and can't query the system jobs |
-| Project Planning and Tracking | 3662968 | Create error log when user is missing any OOB privilege and save operation fails due to that |
-| Project Planning and Tracking | 3647295 | Create PSS Error log when the convert project fails |
-| Project Planning and Tracking | 3349866 | Project app user is missing readAccount privilege |
-| Project Planning and Tracking | 3615118 | Project is stuck in Copying/Importing/Converting status if PSS failed to update project status to Failed due to permission issue |
+| Project Planning and Tracking | 3655580 | Unsaved alert shows on project form when feature is disabled and duration fields are hidden. |
+| Project Planning and Tracking | 3647289 | Create error log when user doesn't have permissions to async operation entity and can't query the system jobs. |
+| Project Planning and Tracking | 3662968 | Create error log when user is missing any OOB privilege and save operation fails. |
+| Project Planning and Tracking | 3647295 | Create PSS Error log when the convert project fails. |
+| Project Planning and Tracking | 3349866 | Project app user is missing readAccount privilege. |
+| Project Planning and Tracking | 3615118 | Project is stuck in Copying/Importing/Converting status if PSS failed to update project status to Failed due to permission issue. |
 | Project Planning and Tracking | 3648246 | Plugin Deprecated: Microsoft.Dynamics.ProjectServiceCoreSandbox.Plugins.Plugins.PublishToEventHub.PostOperationUserUpdateEvent |
 
 ### Project management and accounting in Finance
