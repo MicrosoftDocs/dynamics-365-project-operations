@@ -1,11 +1,12 @@
 ---
-title: Plan your work in Microsoft Project with the Project Service add-in
-description: This article provides information about how to use the Microsoft Project add-in for Microsoft Project Service.
+title: Plan your work in Microsoft Project with the Project Service Automation add-in
+description: This article provides information about how to use the Microsoft Project add-in for Microsoft Project Service Automation.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 01/07/2021
-ms.topic: article
+  - bap-template
+ms.date: 12/19/2023
+ms.topic: how-to
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
@@ -15,9 +16,10 @@ search.audienceType:
 ms.reviewer: johnmichalak
 ---
 
-# Plan your work in Microsoft Project with the Project Service add-in
+# Plan your work in Microsoft Project with the Project Service Automation add-in
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -26,58 +28,58 @@ ms.reviewer: johnmichalak
 You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] and do your planning work in the familiar environment of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. Use the robust planning and management capabilities of [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and then update your project plan in Project Service Automation.  
 
 > [!IMPORTANT]
-> - To use SharePoint document management to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin will need to turn on document management. 
+> - To use SharePoint document management to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin needs to turn on document management. 
 > - The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.  
 
-## Download and install the add-in  
- Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready. You will need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+## Download and install the Project Service Automation add-in  
+ Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready. You need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+
+To download and install the Project Service Automation add-in, follow these steps.
 
 1.  From the Download Center, download the add-in for your supported version of Project Service, either [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) or [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  Select the download link.  
+1.  When the download is complete, select **Yes** to install the add-in.  
 
-2.  Select the download link.  
+## Configure the Project Service Automation add-in  
 
-3.  When the download is complete, select **Yes** to install the add-in.  
-
-## Configure the add-in  
+To configure the Project Service Automation add-in, follow these steps.
 
 1. Open [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and select the **Project Service** tab.  
-
-2. Select **Connect**.  
-
-3. Enter your sign-in information and then select **Sign in**.  
-
-   Now you can start using the add-in.  
+1. Select **Connect**.  
+1. Enter your sign-in information and then select **Sign in**.  Now you can start using the add-in.  
 
 ## Read from a template  
- Read from a template that you created in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] and copied into [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to start your project planning. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a project template (Project Service Automation)](../psa/create-project-template.md)  
+
+Read from a template that you created in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] and copied into [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to start your project planning. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a project template (Project Service Automation)](../psa/create-project-template.md)  
+
+To read from a template, follow these steps.
 
 1.  From the **Project Service** tab, select **Read** > **Project Service Automation Project Template**.  
-
-2.  Choose a project template from the list and then select **Open**.  
+1.  Choose a project template from the list and then select **Open**.  
 
     > [!NOTE]
     >  By default, the tasks that are copied from the template into Project are set as manually scheduled.  
 
 ## Assign [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] roles to project resources  
 
+To assign Project Serice roles to project resources, follow these steps.
+
 1.  Open a project and select the **Task** ribbon.  
-
-2. Select the **Gantt Chart** menu and then choose **Resource Sheet**.  
-
-3. On the Resource Sheet, select the **Project Service Resource Role** drop-down menu and choose a Project Service Automation role.  
+1. Select the **Gantt Chart** menu and then choose **Resource Sheet**.  
+1. On the Resource Sheet, select the **Project Service Resource Role** drop-down menu and choose a Project Service Automation role.  
 
 ## Staff your project with resources  
 
+To staff your project with resources, follow these steps.
+
 1.  From the Project Service tab, select a row and select **Find Resources**.  
-
-2.  On the **Book Resource** screen, select the resource that you want to use for the project.  
-
-3.  Select **Book** and then select **OK**.  
+1.  On the **Book Resource** screen, select the resource that you want to use for the project.  
+1.  Select **Book** and then select **OK**.  
 
 ## Publish your project  
 When your project planning is complete, the next step is to import and publish the project in to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. The pricing and team generation process are applied. Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure have been generated. The following table shows where to find the results.
+The project imports into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. The pricing and team generation process are applied. Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure have been generated. The following table shows where to find the results.
 
 
 |              Microsoft Project                                                           |                      Project Service Automation                                                                                   |
@@ -87,82 +89,81 @@ The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Use Usage**    |    Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Estimates** screen.     |
 
 **To import and publish your project**  
+
+To import and publish your project, follow these steps.
+
 1. On the **Project Service** tab, go to **Publish** > **New Project Service Automation Project**.  
-
-2. In the **Publish to a new project in Project Service** dialog box, enter the **Project Name** and select the **Customer**.  
-
-3. Optionally, select **Link project plan to Project Service Automation** to link the plan Project file to Project Service Automation.  
-
-4. Select **Publish**.  
+1. In the **Publish to a new project in Project Service** dialog box, enter the **Project Name** and select the **Customer**.  
+1. Optionally, select **Link project plan to Project Service Automation** to link the plan Project file to Project Service Automation.  
+1. Select **Publish**.  
 
    Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to read-only.  In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-## Edit a project that’s been imported  
+## Edit a project that’s been imported
+
  To make changes to a project plan that's been imported into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you have two options:  
 
 - Open the master file and edit it in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
-
 - Unlink the file and edit it directly in Project Service. By default, a project that’s been uploaded from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] is locked and can only be edited in Project. To edit the file in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], the file has to be unlinked.  
 
 ### Edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]  
 
+To edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], follow these steps.
+
 1. On the main menu, go to **Project Service** > **Projects**.  
-
-2. From the list of projects, open the one that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
-
-3. Select **Open in MS Project** from the ribbon. This will open the linked master file in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
+1. From the list of projects, open the one that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
+1. Select **Open in MS Project** from the ribbon. This opens the linked master file in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
 
 ### Unlink a file and edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service  
 
+To unlink a file and edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service, follow these steps.
+
 1. On the main menu, go to **Project Service** > **Projects**.  
-
-2. From the list of projects, open the one that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
-
-3. Select **Unlink from MS Project** from the ribbon.  
+1. From the list of projects, open the one that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].  
+1. Select **Unlink from MS Project** from the ribbon.  
 
 ## Upload a Project file to SharePoint or Office Groups  
+
  You can upload your Project file to SharePoint and find it under the Associated Documents for your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  You need to have your administrator configure SharePoint document management and turn it on for the Project entity. 
 
  You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../includes/pn-onedrive-for-business.md)] if you have Office Groups set up.
 
 ### Upload a file for SharePoint  
 
+To upload a file for SharePoint, follow these steps.
+
 1. On the main menu, go to **Project Service** > **Upload**.  
-
-2. Select **To Project Service Automation Project Documents**.  
-
-3. In the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog box, select **Yes** or **No**.  
+1. Select **To Project Service Automation Project Documents**.  
+1. In the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog box, select **Yes** or **No**.  
 
    - If you select **Yes**, you'll be able select **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
-
    - If you select **No**, the link for **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** won't work.  
 
 4. The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  
 
 ### Upload a file for Office Groups  
 
+To upload a file for Office Groups, follow these steps.
+
 1. On the main menu, go to **Project Service** > **Upload**.  
-
-2. Select **To Project Service Automation Project Documents**.  
-
-3. In the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog box, select **Yes** or **No**.  
+1. Select **To Project Service Automation Project Documents**.  
+1. In the **Enable Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** dialog box, select **Yes** or **No**.  
 
    - If you select **Yes**, you'll be able to select **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** in Project Service Automation, launch [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], and load the Project file from the SharePoint document library.  
-
    - If you select **No**, the link for **Open in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** won't work.  
 
-4. The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  
+1. The [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] file can be found in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] under **Documents** for the specific [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] project.  
 
 ## Publish  your project as a template  
- You can save your project and reuse it by saving it as a project template in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Project templates are reusable project plans in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. For more information, see [Create a project template (Project Service Automation)](../psa/create-project-template.md). 
+
+You can save your project and reuse it by saving it as a project template in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Project templates are reusable project plans in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. For more information, see [Create a project template (Project Service Automation)](../psa/create-project-template.md). 
+
+To publish your project as a template, follow these steps.
 
 1. On the **Project Service** tab, go to **Publish** > **New Project Service Automation Project Template**.  
-
-2. In the **Publish to a new project in Project Service template** dialog box, enter the **Project template name**.  
-
-3. Optionally, select **Link project plan to Project Service Automation** to link the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
-
-4. Select **Publish**.  
+1. In the **Publish to a new project in Project Service template** dialog box, enter the **Project template name**.  
+1. Optionally, select **Link project plan to Project Service Automation** to link the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
+1. Select **Publish**.  
 
 Linking the Project file to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] makes the Project file the master and sets the work breakdown structure in the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] template to read-only.  In order to make changes to the project plan, you need to make them in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] and publish them as updates to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
