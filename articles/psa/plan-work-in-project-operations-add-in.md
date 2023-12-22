@@ -29,7 +29,7 @@ You can install the Microsoft Project desktop add-in for Project Operations and 
 > - The add-in is only available for existing Project Operations customers who either have active usage of the add-in or have projects that are currently outside the supported limits of Project for the Web.
 > - The add-in cannot be used to edit projects that are created using Project for the Web.
 > - To use SharePoint document management to store your Microsoft Project files for Project Operations projects, your Microsoft Project admin needs to turn on document management. 
-> - The Microsoft Project desktop add-in for Project Operation is only compatible with Microsoft Project 2016 Professional Edition or newer.  
+> - The Microsoft Project desktop add-in for Project Operations is only compatible with Microsoft Project 2016 Professional Edition or newer.  
 
 ## Download and install the add-in  
 Have your Project Operations sign-in information ready. You need this information to connect from Microsoft Project to Project Operations.  
@@ -50,7 +50,7 @@ To configure the Microsoft Project desktop add-in for Project Operation, follow 
 
 ## Assign Project Operations roles to project resources  
 
-To assign Project Operations rols to the project resources, follow these steps.
+To assign Project Operations roles to the project resources, follow these steps.
 
 1. Open a project and select the **Task** ribbon.  
 1. Select the **Gantt Chart** menu, and then choose **Resource Sheet**.  
@@ -103,9 +103,9 @@ To edit in Microsoft Project, follow these steps.
 1. From the list of projects, open the one that you created in Microsoft Project.  
 1. Select **Open in MS Project** from the ribbon. This opens the linked master file in Microsoft Project.  
 
-### Unlink a file and edit in Microsoft Project Service  
+### Unlink a file and edit in Microsoft Project Operations  
 
-To unlink a file and edit in Microsoft Project Service, follow these steps.
+To unlink a file and edit in Microsoft Project Operations, follow these steps.
 
 1. On the main menu, go to **Project Operations** > **Projects**.  
 1. From the list of projects, open the one that you created in Microsoft Project.  
@@ -171,7 +171,7 @@ The following table outlines how Project Task entity data is synchronized betwee
 | Project Task | WBS ID | Synchronized | Not synchronized |
 
 ### Team Member entity 
-The following table outlines how Team Member entity data is synchronized between Project Operations and the Micros
+The following table outlines how Team Member entity data is synchronized between Project Operations and the Microsoft Project desktop add-in.
 
 | **Entity** | **Field** | **Microsoft Project to Project Operations** | **Project Operations to Microsoft Project** |
 | --- | --- | --- | --- |
@@ -184,7 +184,7 @@ The following table outlines how Team Member entity data is synchronized between
 | Team Member | Working Hours | Not synchronized | Not synchronized |
 
 ### Resource Assignment entity 
-The following table outlines how Resource Assignment entity data is synchronized between Project Operations and the Micros
+The following table outlines how Resource Assignment entity data is synchronized between Project Operations and the Microsoft Project desktop add-in.
 
 | **Entity** | **Field** | **Microsoft Project to Project Operations** | **Project Operations to Microsoft Project** |
 | --- | --- | --- | --- |
@@ -199,7 +199,7 @@ The following table outlines how Resource Assignment entity data is synchronized
 | Resource Assignment | To Date | Synchronized | Not synchronized |
 
 ### Project Task Dependencies entity 
-The following table outlines how Project Task Dependencies entity data is synchronized between Project Operations and the Micros
+The following table outlines how Project Task Dependencies entity data is synchronized between Project Operations and the Microsoft Project desktop add-in.
 
 | **Entity** | **Field** | **Microsoft Project to Project Operations** | **Project Operations to Microsoft Project** |
 | --- | --- | --- | --- |
