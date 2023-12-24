@@ -40,7 +40,7 @@ Summarize option is made part of import.
     3. This is to ensure that budget lines are summarized in a way where the actual matching would be succesful which runs based on **Budget match priority**
 
 > [!NOTE]
-> Budget match priority are by default defined at project parameters level. In case a match priority is defined at a project level, the match priority at project would take the precedence. For more information, see the [budget match priority](budget-line-match-priority.md),  section.
+> Budget match priorities for both cost & sales budget lines are by default defined at project parameters level. In case budget match priorities are defined at a project level, the match priority at project would take the precedence. For more information, see the [budget match priority](budget-line-match-priority.md),  section.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
