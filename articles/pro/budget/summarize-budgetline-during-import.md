@@ -36,8 +36,8 @@ Summarize option is made part of import.
     1. In **Cost budget line import options** section, choose the summarization options for Time, Expense, Material cost budget lines.
     1. In **Sales budget line import options** section, choose the summarization options for Time, Expense, Material sales budget lines.
     1. For each of the transaction class, the dimensions displayed as summarization options are as per the **Budget match priority**.
-    2. If you select a lower prority match priority dimension, all other higher priority dimensions are also considered as summarized options.
-    3. This is to ensure that budget lines are summarized in a way where the actual matching would be succesful which runs based on **Budget match priority**
+    1. If you select a lower prority match priority dimension, all other higher priority dimensions are also considered as summarized options.
+    1. This is to ensure that budget lines are summarized in a way where the actual matching would be succesful which runs based on **Budget match priority**
 
 > [!NOTE]
 > Budget match priorities for both cost & sales budget lines are by default defined at project parameters level. In case budget match priorities are defined at a project level, the match priority at project would take the precedence. For more information, see the [budget match priority](budget-line-match-priority.md),  section.
