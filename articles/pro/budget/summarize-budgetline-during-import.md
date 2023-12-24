@@ -33,13 +33,14 @@ Summarize option is made part of import.
 
     1. Select **Import**.
     1. In the import dialog there are two sections for Summarization, one for cost budget lines and one for sales budget lines. 
-    1. In case you want to create Cost budget In the dialog there are two sections for Summarization, one for cost budget and one for sales budget. 
-
-
-After the process of creating a budget from estimates is completed, a new **Budget** tab is added to the project page. A budget version is created in **Draft** status, and the grid shows the budget lines that were successfully created from estimates. For a summary of the process of creating a budget from estimates, review the **Timeline** section of the **Project summary** tab.
+    1. In **Cost budget line import options** section, choose the summarization options for Time, Expense, Material cost budget lines.
+    1. In **Sales budget line import options** section, choose the summarization options for Time, Expense, Material sales budget lines.
+    1. For each of the transaction class, the dimensions displayed as summarization options are as per the **Budget match priority**.
+    2. If you select a lower prority match priority dimension, all other higher priority dimensions are also considered as summarized options.
+    3. This is to ensure that budget lines are summarized in a way where the actual matching would be succesful which runs based on **Budget match priority**
 
 > [!NOTE]
-> If an estimate can't be converted to a budget line, the reason for the failure is logged in the error log. You can access the error log from the **Timeline** section of the **Project summary** tab. By addressing the errors that are logged, you can fix the issues. You can then re-import the estimates. For more information, see the [Re-import estimates to create a budget](#re-import-estimates-to-create-a-budget) section.
+> Budget match priority are by default defined at project parameters level. In case a match priority is defined at a project level, the match priority at project would take the precedence. For more information, see the [budget match priority](budget-line-match-priority.md),  section.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
