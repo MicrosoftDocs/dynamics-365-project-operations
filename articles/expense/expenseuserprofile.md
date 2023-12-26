@@ -30,6 +30,9 @@ To create an expense in legal entity other than selected legal entity , follow b
 1. Choose the **legal entity** for which the expense needs to be generated in the designated **selected legal entity** field. It will show a list of the **legal entities** where the present user holds employment.
 1. Click **Done** to confirm the changes.
 
+> [!NOTE]
+> Change of legal entity at user profile in the **Expense managment mobile** app will set the default legal entity in the D365 finance user profile.
+
 ## Notifications
 
 The user will receive notifications on the expense management mobile app for various cases. To access and take actions based on these notifications, users can navigate to the notification interface.
