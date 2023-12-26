@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Pr
 
 This article explains how to use the Dynamics 365 expense management mobile app to approve, reject, or delegate expense reports.
 
-When an expense report is submitted for approval in Microsoft Dynamics 365 Finance, the system adheres to preset workflow configurations. These configurations trigger the generation of work items that are assigned to the designated approvers. Approvers have the authority to review the expense report and take the required actions, based on their evaluation. These actions include approval, rejection, or delegation.
+When an expense report is submitted for approval in Microsoft Dynamics 365 Finance, the system adheres to preset workflow configurations. These configurations trigger the generation of work items that are assigned to the designated approvers. Approvers have the authority to review the expense report and take the required actions, based on their evaluation. These actions include approval, rejection, or delegation. The user has the ability to observe attachments alongside the workflow timelines, including approval actions undertaken by other users for the designated expense report.
 
 ## Approve an expense report
 
