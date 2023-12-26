@@ -1,6 +1,6 @@
 ---
 title: Manage user profile to create expenses by using the Dynamics 365 expense management mobile app
-description: This article explains how to manage user profile required to create or manage expenses using Dynamics 365 expense management mobile app.
+description: This article explains how to manage user profile and notifications required to create or manage expenses using Dynamics 365 expense management mobile app.
 author: mukumarm
 ms.date: 12/19/2023
 ms.topic: how-to
