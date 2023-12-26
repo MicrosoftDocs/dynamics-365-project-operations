@@ -26,7 +26,6 @@ To approve an expense report, follow these steps.
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense management mobile** app.
 1. Select the **User** on the left top of the mobile app. 
-1. Select an expense report. The report shows a comprehensive list of all expenses that were submitted for the report.
-1. Select **Approve**.
-1. Optional: Enter values in the **Justification** and **Approval comments** fields.
-1. Select the **Approve** button to approve the expense report.
+1. Select **Change legal entity** to change the current legal entity. 
+1. Choose the **legal entity** for which the expense needs to be generated in the designated **selected legal entity** field.. It will show a list of the **legal entities** where the present user holds employment.
+1. Click **Done** to confirm the changes.
