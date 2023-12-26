@@ -29,7 +29,7 @@ To approve an expense, follow these steps.
 1. Select an expense line. The line shows the expense line details.
 1. Select **Approve**.
 1. Optional: Enter values in the **Justification** and **Approval comments** fields.
-1. Select the **Approve** button to approve the expense report.
+1. Select the **Approve** button to approve the expense.
 
 ## Approve multiple expense lines
 
@@ -41,18 +41,18 @@ To approve multiple expense at the same time, follow these steps.
 1. Select the **Multi select** button to select multiple expense lines.
 1. Select **Approve**.
 1. Optional: Enter values in the **Justification** and **Approval comments** fields.
-1. Select the **Approve** button to approve the selected expense reports.
+1. Select the **Approve** button to approve the selected expense.
 
 ## Reject an expense line
 
-To reject an expense report, follow these steps.
+To reject an expense, follow these steps.
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab.  Select **Expense line** tab. This tab lists expense lines that are pending approval.
 1. Select an expense line. The line shows the expense line details.
 1. Select **Reject**.
 1. Optional: Enter values in the **Justification** and **Approval comments** fields.
-1. Select the **Reject** button to reject the expense report.
+1. Select the **Reject** button to reject the expense.
 
 ## Reject multiple expense lines
 
@@ -60,11 +60,11 @@ To reject multiple expense at the same time, follow these steps.
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab. Select **Expense line** tab. This tab lists expense lines that are pending approval.
-1. Optional: Select the **Filter** button at the top, and filter the expense reports by user, project, or amount.
+1. Optional: Select the **Filter** button at the top, and filter the expense by user, project, or amount.
 1. Select the **Multi select** button to select multiple expense lines.
 1. Select **Reject**.
 1. Optional: Enter values in the **Justification** and **Approval comments** fields.
-1. Select the **Reject** button to reject the selected expense reports.
+1. Select the **Reject** button to reject the selected expense.
 
 ## Delegate an expense line
 
@@ -75,4 +75,4 @@ To delegate an expense, follow these steps.
 1. Select an expense line. The line shows the expense line details.
 1. Select **Delegate**.
 1. Optional: Specify a user in the **Assign to** field, and enter a value in the **Delegation comments** field.
-1. Select the **Delegate** button to delegate the expense report.
+1. Select the **Delegate** button to delegate the expense.
