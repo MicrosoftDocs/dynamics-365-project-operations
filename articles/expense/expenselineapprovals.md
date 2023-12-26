@@ -22,7 +22,7 @@ When an expense report is submitted for approval in Microsoft Dynamics 365 Finan
 
 ## Approve an expense line
 
-To approve an expense report, follow these steps.
+To approve an expense, follow these steps.
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab. Select **Expense line** tab. This tab lists expense lines that are pending approval.
@@ -33,7 +33,7 @@ To approve an expense report, follow these steps.
 
 ## Approve multiple expense lines
 
-To approve multiple expense reports at the same time, follow these steps.
+To approve multiple expense at the same time, follow these steps.
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab. Select **Expense line** tab. This tab lists expense lines that are pending approval.
@@ -56,7 +56,7 @@ To reject an expense report, follow these steps.
 
 ## Reject multiple expense lines
 
-To reject multiple expense reports at the same time, follow these steps.
+To reject multiple expense at the same time, follow these steps.
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab. Select **Expense line** tab. This tab lists expense lines that are pending approval.
@@ -68,7 +68,7 @@ To reject multiple expense reports at the same time, follow these steps.
 
 ## Delegate an expense line
 
-To delegate an expense report, follow these steps.
+To delegate an expense, follow these steps.
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab. Select **Expense line** tab. This tab lists expense lines that are pending approval.
