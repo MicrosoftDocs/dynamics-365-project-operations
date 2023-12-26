@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mukumarm
 ---
 
-# Manage expense report approvals by using the Dynamics 365 expense management mobile app
+# Manage user profile and notifications by using the Dynamics 365 expense management mobile app
 
 [!INCLUDE[banner](../includes/banner.md)]
 
@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Pr
 
 This article explains how to use the Dynamics 365 expense management mobile app to manage user profile.
 
-Users are associated with a specific legal entity, and the legal entity is automatically set as the default in their user profile for expense creation and management. In certain situations, a user may be employed in multiple legal entities, requiring expenses to be generated within the appropriate legal entity. To document an expense within a specific legal entity, users may need to adjust the legal entity setting before initiating the expense creation process..
+Users are associated with a specific legal entity, and the legal entity is automatically set as the default in their user profile for expense creation and management. In certain situations, a user may be employed in multiple legal entities, requiring expenses to be generated within the appropriate legal entity. To document an expense within a specific legal entity, users may need to adjust the legal entity setting before initiating the expense creation process.
 
 ## Change legal entity
 
