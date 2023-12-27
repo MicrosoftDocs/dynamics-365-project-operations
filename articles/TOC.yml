@@ -622,6 +622,8 @@
       href: procurement/pending-vendor-invoices.md
     - name: Order goods and services for projects using project purchase orders
       href: procurement/non-stocked-materials-project-purchase-orders.md
+    - name: Intercompany vendor invoice
+      href: pro/subcontracting/IntercompanyVendorInvoiceforNonStockScenario.md
     - name: Vendor invoices for subcontracts in Dataverse 
       items:
       - name: Create vendor invoices
