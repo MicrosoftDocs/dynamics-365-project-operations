@@ -31,6 +31,7 @@ You can install the Microsoft Project desktop add-in for Project Operations and 
 > - Before you can use SharePoint document management to store your Microsoft Project files for Project Operations projects, your Microsoft Project admin must turn on document management. 
 > - The Microsoft Project desktop add-in for Project Operations is compatible only with Microsoft Project 2016 Professional Edition or later.
 
+
 ## Download and install the add-in
 
 Have your Project Operations sign-in information ready. You need this information to connect from Microsoft Project to Project Operations.
@@ -109,6 +110,7 @@ To edit in Microsoft Project, follow these steps.
 
 To unlink a file and edit it in Microsoft Project Service, follow these steps.
 
+
 1. On the main menu, go to **Project Operations** \> **Projects**.
 1. From the list of projects, open the project that you created in Microsoft Project.
 1. On the ribbon, select **Unlink from MS Project**.
@@ -171,6 +173,7 @@ The following table outlines how Project Task entity data is synchronized betwee
 | Project Task | Start Date | Synchronized | Not synchronized |
 | Project Task | WBS ID | Synchronized | Not synchronized |
 
+
 ### Team Member entity
 
 The following table outlines how Team Member entity data is synchronized between Project Operations and the Microsoft Project desktop add-in.
@@ -185,7 +188,9 @@ The following table outlines how Team Member entity data is synchronized between
 | Team Member | Role | Not synchronized | Synchronized |
 | Team Member | Working Hours | Not synchronized | Not synchronized |
 
+
 ### Resource Assignment entity
+
 
 The following table outlines how Resource Assignment entity data is synchronized between Project Operations and the Microsoft Project desktop add-in.
 
@@ -201,7 +206,9 @@ The following table outlines how Resource Assignment entity data is synchronized
 | Resource Assignment | Task | Synchronized | Not synchronized |
 | Resource Assignment | To Date | Synchronized | Not synchronized |
 
+
 ### Project Task Dependencies entity
+
 
 The following table outlines how Project Task Dependencies entity data is synchronized between Project Operations and the Microsoft Project desktop add-in.
 
