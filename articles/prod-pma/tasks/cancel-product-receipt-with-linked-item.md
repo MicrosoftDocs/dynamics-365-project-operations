@@ -4,7 +4,7 @@
 title: Cancel a purchase order product receipt with linked item requirement
 description: This article explains how to set up standard costs for labor and expenses for a project. 
 author: ryansandness
-ms.date: 08/02/2019
+ms.date: 01/04/2024
 ms.topic: how-to
 ms.prod:  
 ms.technology:  
