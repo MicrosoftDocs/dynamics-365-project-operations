@@ -4,7 +4,7 @@
 title: Get recommendations for a project team member
 description: This article provides information about getting optimal recommendations for a team member, before booking them onto the project.
 author: mohitmenon
-ms.date: 10/01/2024
+ms.date: 1/10/2024
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
