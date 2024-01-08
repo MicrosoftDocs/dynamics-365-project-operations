@@ -2,7 +2,7 @@
 # required metadata
 
 title: Get recommendations for a project team member
-description: This article provides information about getting optimal recommendations for a team member, before booking them onto the project.
+description: This article provides information about steps to be completed in order to use the resource recommendations feature for the first time.
 author: mohitmenon
 ms.date: 10/01/2024
 ms.topic: article
