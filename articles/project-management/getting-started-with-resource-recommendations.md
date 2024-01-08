@@ -10,13 +10,12 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Get recommendations for a project team member
+# Pre-requisites to use this feature
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-## Pre-requisites to use this feature
 
-### Enabling the resource recommendations feature
+## Enabling the resource recommendations feature
 
 To enable resource recommendations, first follow these steps:
 
@@ -27,7 +26,7 @@ To enable resource recommendations, first follow these steps:
 5.	On the **Project Parameters** page, in the **Feature Control** field, select Feature Control.
 6.	Select **Enable Resource Recommendations Feature**.
 
-### Get system administrator to activate dataflows 
+## Get system administrator to activate dataflows 
 
 Once you have completed this step, you must now activate 4 [dataflows](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-and-use-dataflows) with the help of your System Administrator. This is a mandatory, one-time step that must be completed on every new environment on which this feature is to be enabled. These workflows prepare the data infrastructure that is required to generate optimal recommendations for any new project team member.
 
