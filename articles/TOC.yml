@@ -1536,6 +1536,10 @@
           href: expense/mobile-app-manage-receipts.md
         - name: Manage expense report approvals using the Expense mobile app
           href: expense/mobile-app-manage-approvals.md
+        - name: Manage expense line approvals by using the Dynamics 365 expense management mobile app
+          href: expense/expenselineapprovals.md
+        - name: Manage user profile using the Dynamics 365 expense management mobile app
+          href: expense/expenseuserprofile.md
       - name: Expense mobile app FAQ
         href: expense/new-expense-mobile-app-faq.md
     - name: Mobile Expense app (legacy)
