@@ -2,7 +2,7 @@
 title: Manage expense line approvals by using the Dynamics 365 expense management mobile app
 description: This article explains how to use the Dynamics 365 expense management mobile app to manage expense line approvals.
 author: mukumarm
-ms.date: 12/19/2023
+ms.date: 01/08/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Pr
 
 This article explains how to use the Dynamics 365 expense management mobile app to approve, reject, or delegate expense lines.
 
-When an expense report is submitted for approval in Microsoft Dynamics 365 Finance, the system adheres to preset workflow configurations. These configurations trigger the generation of work items that are assigned to the designated approvers. Approvers have the authority to review the expense reports or expense lines based upon workflow configuration and take the required actions, based on their evaluation. These actions include approval, rejection, or delegation. The user has the ability to observe attachments alongside the workflow timelines, including approval actions undertaken by other users for the designated expenses.
+When an expense report is submitted for approval in Microsoft Dynamics 365 Finance, the system adheres to preset workflow configurations. These configurations trigger the generation of work items that are assigned to the designated approvers. Approvers have the authority to review the expense reports or expense lines based upon workflow configuration and take the required actions based on their evaluation. These actions include approval, rejection, or delegation. The user can observe attachments alongside the workflow timelines, including approval actions undertaken by other users for the designated expenses.
 
 ## Approve an expense line
 
@@ -33,7 +33,7 @@ To approve an expense, follow these steps.
 
 ## Approve multiple expense lines
 
-To approve multiple expense at the same time, follow these steps.
+To approve multiple expenses at the same time, follow these steps.
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab. Select **Expense line** tab. This tab lists expense lines that are pending approval.
@@ -54,7 +54,7 @@ To reject an expense, follow these steps.
 1. Optional: Enter values in the **Justification** and **Approval comments** fields.
 1. Select the **Reject** button to reject the expense.
 
-## Reject multiple expense lines
+## Reject multiple expenses lines
 
 To reject multiple expense at the same time, follow these steps.
 
@@ -74,5 +74,5 @@ To delegate an expense, follow these steps.
 1. Select the **Approvals** tab. Select **Expense line** tab. This tab lists expense lines that are pending approval.
 1. Select an expense line. The line shows the expense line details.
 1. Select **Delegate**.
-1. Optional: Specify a user in the **Assign to** field, and enter a value in the **Delegation comments** field.
+1. Optional: Specify a user in the **Assign to** field and enter a value in the **Delegation comments** field.
 1. Select the **Delegate** button to delegate the expense.
