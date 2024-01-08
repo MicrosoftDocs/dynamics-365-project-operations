@@ -36,12 +36,17 @@ To activate these dataflows, have your System Administrator complete the followi
 2. Open a new tab and sign in to the [**Power Apps Portal**](make.powerapps.com). For more information on the Power Apps portal, please refer to [this page](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sign-in-to-power-apps).
 3. In the **Environments** section on the top-right, ensure that the environment you are logged into is selected.
 4. Now use the left navigation pane, to select **Dataflows**. If this is not directly visible, then select **More** and then Dataflows.
-5. Select the **All Dataflows** tab, this should display a list of 4 dataflows. Each Dataflow has a number as prefix, this is to indicate the order in which they need to be activated.
+5. Select the **My Dataflows** tab, this should display a list of 4 dataflows. Each Dataflow has a number as prefix, this is to indicate the order in which they need to be activated.
 6. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Click the overflow icon (three dots) and select **Edit**.
-7. This navigates you to a Power Query page, with details for the selected dataflow. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used. _(Eg: demo-testing.crm.dynamics.com)_ within the space provided for **Current Value** and click **Manage Parameter**.
-8. ...
-9. ...
-10. ...
-11. Now Repeat Steps 6 to 10 for the remaining 3 dataflows, in order of their numbering.
-12. Tracking completion of dataflows.
-13. Once all 4 workflows are complete, you can now start getting recommendations for project team members. Refer to **Next Section** for more details on how to use the feature.
+7. This navigates you to a Power Query page, with details for the selected dataflow. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used **without https**. _(Eg: demo-testing.crm.dynamics.com)_ within the space provided for **Current Value**.
+8. On the left pane known as **Queries** select the first item after _EnvironmentName_ and _Name_, this must have an excalamation to it. _(In the case of the 1st dataflow, this item is msdyn_projecttask)_. An error will appear that says _"Credentials are required to connect to the CommonDataService source.."_, click **Configure Connection**.
+9. If you are doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_. Click **Sign in** and enter your (System Administrator) user credentials once again.
+10. Once sign in is complete, click **Connect** (if you receive any other errors at this step, just hit "Refresh" from the tool bar above). Then, click **Next**. You will see a new page, where the **Publish** button may take up to 2 minutes to be active.
+11. Once active, click **Publish** and you will be redirected back to the dataflows page. 
+12. Repeat Steps 6 to 11 for the remaining 3 dataflows, in order of their numbering.
+13. Once all 4 workflows have a green tick for their **Last refresh** you have completed all the pre-requisites to use this feature. Depending on the number of projects and tasks in your environment, it could take 12 to 24 hours for all 4 dataflows to complete their refresh.
+14. In case any of these dataflows fails to refresh with an error, please raise a support ticket or ICM to receive immediate assistance from our engineering team.
+15. Please refer to **Next Section** for more details on how to use the feature.
+
+**Rejected points:**
+From 11: Please wait until you receive an alert stating that _"Your dataflow was published succesfully and is currently refreshing."_ On receiving this alert, a green tick mark will appear on the **Last refresh** column. You can now continue to the next dataflow.
