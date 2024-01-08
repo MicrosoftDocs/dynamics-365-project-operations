@@ -34,7 +34,7 @@ To activate these dataflows, have your System Administrator complete the followi
 
 1. Sign in to your Microsoft **Dynamics 365 Project Operations** environment.
 2. Open a new tab and sign in to the [**Power Apps Portal**](make.powerapps.com). For more information on the Power Apps portal, please refer to [this page](https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sign-in-to-power-apps).
-3. In the **Environments** section on the top-right, ensure that the environment you are logged into is selected.
+3. In the **Environments** section on the top-right, ensure that the environment you are logged into is selected. To view your environment name, navigate to your environment, select your profile icon and copy the name from top-left of the dialog that appears.
 4. Now use the left navigation pane, to select **Dataflows**. If this is not directly visible, then select **More** and then Dataflows.
 5. Select the **My Dataflows** tab, this should display a list of 4 dataflows. Each Dataflow has a number as prefix, this is to indicate the order in which they need to be activated.
 6. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Click the overflow icon (three dots) and select **Edit**.
