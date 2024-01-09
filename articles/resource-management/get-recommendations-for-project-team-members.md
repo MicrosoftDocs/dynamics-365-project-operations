@@ -14,6 +14,8 @@ ms.author: mohitmenon
 
 # Get recommendations for a project team member (preview)
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 > [!IMPORTANT]
