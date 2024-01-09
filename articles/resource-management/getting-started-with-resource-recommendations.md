@@ -39,10 +39,17 @@ To activate these dataflows, have your System Administrator complete the followi
 3. In the **Environments** section on the top-right, ensure that the environment you are logged into is selected. 
     - To view your environment name, navigate to your environment, select the profile icon and copy the environment name from top-left of the dialog that appears.
 4. Now use the left navigation pane, to select **Dataflows**. If this is not directly visible, then select **More** and then Dataflows.
-5. Select the **My Dataflows** tab, this should display a list of 4 dataflows. 
+5. Select the **My Dataflows** tab, this should display a list of 4 dataflows. These 4 dataflows are: 
+    - _"1. Resource Recommendation - Daily KPE"_
+    - _"2. Resource Recommendation - Weekly Scoring Indexing"_
+    - _"3. Resource Recommendation - Weekly Add Time Summary"_
+    - _"4. Resource Recommendation - Weekly Update Time Summary"_
+   
 
-    >[!NOTE]
-    > Each Dataflow has a number as prefix, this is to indicate the order in which they need to be activated. Please ensure that they are **activated in this order** only.
+
+
+>[!NOTE]
+> Each Dataflow has a number as prefix, this is to indicate the order in which they need to be activated. Please ensure that they are **activated in this order** only.
 
 ## Steps to activate a dataflow
 
@@ -54,10 +61,9 @@ To activate these dataflows, have your System Administrator complete the followi
     - Once sign in is complete, click **Connect** _(if you receive any other errors at this step, just hit "Refresh" from the tool bar above)_
     - If this isn't the first time you're going through this step, directly click **Connect**.
 
-
 ![Configure Connection for Dataflow](../media/RRConfigureConnection.png)
 
-:::image type="content" source="media/resource-management/RRConfigureConnection.png" alt-text="Configure connection for dataflow."::: 
+:::image type="content" source="../media/RRConfigureConnection.png" alt-text="Configure connection for dataflow."::: 
 
 5. Then, click **Next**. You will see a new page, where the **Publish** button may take up to 2 minutes to be active.
 6. Once active, click **Publish** and you will be redirected back to the dataflows page _(refer to the image shown below for reference)_. 
