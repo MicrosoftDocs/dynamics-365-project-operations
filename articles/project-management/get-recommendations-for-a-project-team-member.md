@@ -21,9 +21,10 @@ Follow these steps to begin using recommended resources for a project team membe
 1. Ensure you have completed the [prerequisites for using resource recommendations](./getting-started-with-resource-recommendations.md).
 2. Navigate to **Projects** > **Select a project** that needs to be staffed with one or more resources.
 3. Go to the **Team** tab to view the list of team members on this project.
-4. Select any one team member row 
+4. Select any one team member row that is not already booked with a named resource. _(Do not select more than one row at a time)_
+5. A new **Suggest Resources** button will appear next to **Subcontracting Options**. Click this button.
+6. A loading screen will appear and after a few seconds, the list of recommended resources will be displayed within the side-pane. 
 
-Navigate to project, select one team member row (do not select multiple team members together), you will see a **Suggest Resources** button next to Subcontracting Options
 
 ## View more details
 
