@@ -44,7 +44,7 @@ To activate these dataflows, have your System Administrator complete the followi
 1. In the **Environments** section on the top-right, ensure that the environment you're logged into is selected. 
     - To view your environment name, navigate to your environment, select the profile icon and copy the environment name from top-left of the dialog that appears.
 1. On the left navigation pane, select **Dataflows**. If this option isn't directly visible, then select **More** and then **Dataflows**.
-1. Select the **My Dataflows** tab, this tab should display a list of four dataflows (apart from previously existing items). These are: 
+1. Select the **My Dataflows** tab, this tab should display a list of four dataflows (apart from previously existing items). 
     - **1. Resource Recommendation - Daily KPE**
     - **2. Resource Recommendation - Weekly Scoring Indexing**
     - **3. Resource Recommendation - Weekly Add Time Summary**
@@ -62,29 +62,26 @@ To activate these dataflows, have your System Administrator complete the followi
 1. If you're doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_ _(refer to the image shown for reference)_. Select **Sign in** and enter your (System Administrator) user credentials once again.
     - Once sign in is complete, select **Connect** _(if you receive any other errors at this step, hit "Refresh" from the tool bar)_
     - If it isn't the first time you're going through this step, directly select **Connect**.
-  
 
-![Configure Connection for Dataflow](media/RRConfigureConnection.png)
+   :::image type="content" source="media/RRConfigureConnection.png" alt-text="Screenshot of the Configure Connection for Dataflow screen."::: 
 
+1. Then, select **Next**. You see a new page, where the **Publish** button may take up to 2 minutes to be active.
+1. Once active, select **Publish** and you're redirected back to the dataflows page _(refer to the image shown for reference)_. 
 
+   :::image type="content" source="media/RRDataflowPublish.png" alt-text="Screenshot of Power Query Publish Dataflow."::: 
 
-5. Then, click **Next**. You see a new page, where the **Publish** button may take up to 2 minutes to be active.
-6. Once active, click **Publish** and you're redirected back to the dataflows page _(refer to the image shown for reference)_. 
-
-![Publish Dataflow](media/RRDataflowPublish.png)
-
-7. Repeat **Steps 1 to 6** for the remaining dataflows, in order of their numbering.
+1. Repeat **Steps 1 to 6** for the remaining dataflows, in order of their numbering.
 
 ## Completing prerequisites
 
-- Once all the workflows have a green tick in their **Last refresh** column, you completed the prerequisites to use this feature _(refer to the image shown for reference)_.   
-        - _Depending on the number of projects and tasks in your environment, it could take **up to 24 hours** for all dataflows to complete their refresh_.
+- After all the workflows have a green tick in their **Last refresh** column, you completed the prerequisites to use this feature _(refer to the image shown for reference)_.   
+- Depending on the number of projects and tasks in your environment, it could take **up to 24 hours** for all dataflows to complete their refresh.
 
-![Last Refresh Completed](media/RRLastRefreshCompleteV2.png)
+:::image type="content" source="media/RRLastRefreshCompleteV2.png" alt-text="Screenshot showing the last refresh has completed."::: 
 
 - If any of these dataflows fail to refresh, submit a support ticket to receive assistance.
 
-    >[!NOTE]
-    > If the System Administrator user account that was used to activate these dataflows for the first time is deleted or deactivated, these steps must be repeated again using new, active System Administrator credentials.
+>[!NOTE]
+> If the System Administrator user account that was used to activate these dataflows for the first time is deleted or deactivated, these steps must be repeated again using new, active System Administrator credentials.
 
-- For more information on how to use the feature, see [Get Recommendations for Project Team Members](./get-recommendations-for-project-team-members.md).
+For more information on how to use the feature, see [Get Recommendations for Project Team Members](./get-recommendations-for-project-team-members.md).
