@@ -69,7 +69,7 @@ To activate these dataflows, have your System Administrator complete the followi
 
 ![Last Refresh Completed](../media/RRLastRefreshComplete.png)
 
-In case any of these dataflows fails to refresh with an error, please raise a support ticket or ICM to receive immediate assistance from our engineering team.
+- In case any of these dataflows fails to refresh with an error, please raise a support ticket to receive assistance.
 
     >[!NOTE]
     > If the System Administrator user account that was used to activate these dataflows for the first time is deleted or deactivated, these steps must be repeated again using new, active System Administrator credentials.
