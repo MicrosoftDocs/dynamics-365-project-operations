@@ -34,7 +34,7 @@ To get suggested resources, follow these steps.
 
 ## View more details to evaluate suggested resources
 
-Each suggested resource is assigned a **recommendation score** _(out of 10)_ to signify their appropriateness to that particular team member requirement. This score is currently based only on how relevant their past experience on projects is to a team member requirement. This recommendation score will eventually be augmented to include more factors (Cost, Availability, Utilization, and Skill-match) in upcoming releases. The suggested resources are sorted in decreasing order of this score.
+Each suggested resource is assigned a **recommendation score** _(out of 10)_ to signify their appropriateness to that particular team member requirement. This score is currently based only on how relevant their past experience on projects is to a team member requirement. This recommendation score will be augmented in future releases to include more factors (such as Cost, Availability, Utilization, and Skill-match) in upcoming releases. The suggested resources are sorted in decreasing order of this score.
 
 
 >[!NOTE]
