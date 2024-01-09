@@ -12,8 +12,6 @@ ms.author: mohitmenon
 
 # Prerequisites to use resource recommendations
 
-[!INCLUDE[banner](../../includes/banner.md)]
-
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
@@ -63,5 +61,4 @@ To activate these dataflows, have your System Administrator complete the followi
 
 15. Please refer to **Next Section** for more details on how to use the feature.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
