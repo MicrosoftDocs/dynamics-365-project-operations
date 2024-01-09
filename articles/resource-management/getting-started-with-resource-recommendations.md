@@ -57,6 +57,8 @@ To activate these dataflows, have your System Administrator complete the followi
 
 ![Configure Connection for Dataflow](../media/RRConfigureConnection.png)
 
+:::image type="content" source="media/resource-management/RRConfigureConnection.png" alt-text="Configure connection for dataflow."::: 
+
 5. Then, click **Next**. You will see a new page, where the **Publish** button may take up to 2 minutes to be active.
 6. Once active, click **Publish** and you will be redirected back to the dataflows page _(refer to the image shown below for reference)_. 
 
