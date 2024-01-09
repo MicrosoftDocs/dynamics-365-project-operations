@@ -30,6 +30,9 @@ Follow these steps to begin using recommended resources for a project team membe
 
 Each suggested resource is assigned a **recommendation score** _(out of 10)_ to signify their appropriateness to that particular team member requirement. This score is currently based only on how relevant their past experience on projects is to a team member requirement, this will be augmented to include additional factors _(Cost, Availability, Utilisation & Skill-match in upcoming releases)_. The suggested resources are sorted in decreasing order of this score.
 
+  >[!NOTE]
+  > By default, contract workers are also displayed along with full-time employees. Disable the **Show Contractors** toggle to display only full-time employees.
+
 To get more information about a suggested resource and interpret their recommendation score, follow any one of these two steps:
 
 1. Directly click the **information icon** next to any resource's name OR
@@ -38,7 +41,8 @@ To get more information about a suggested resource and interpret their recommend
 This displays additional information related to past experience of that resource. The metrics being displayed are summarised below:
 
   - **Experience Match** (%) refers to the percentage similarity between work done by this resource on previous project tasks and the team member requirements being staffed.
-  - **Relevant past experience** consists of 3 parameters: number of relevant
+  - **Relevant past experience** consists of 3 parameters: number of similar project tasks and projects worked on as well as the number of hours worked on these similar project tasks (adjusted for experience match %).
+  - **Task-wise score** provides the recommendation score, for each task that is a part of the team member requirement. 
 
 ## Narrow down list of suggestions
 You can navigate to other resources from this view using the **Next** and **Previous** buttons.
