@@ -39,7 +39,7 @@ To activate these dataflows, have your System Administrator complete the followi
 3. In the **Environments** section on the top-right, ensure that the environment you are logged into is selected. 
     - To view your environment name, navigate to your environment, select the profile icon and copy the environment name from top-left of the dialog that appears.
 4. Now use the left navigation pane, to select **Dataflows**. If this option is not directly visible, then select **More** and then Dataflows.
-5. Select the **My Dataflows** tab, this should display a list of 4 dataflows. These 4 dataflows are: 
+5. Select the **My Dataflows** tab, this tab should display a list of 4 dataflows (apart from previously existing items). These 4 dataflows are: 
     - _"1. Resource Recommendation - Daily KPE"_
     - _"2. Resource Recommendation - Weekly Scoring Indexing"_
     - _"3. Resource Recommendation - Weekly Add Time Summary"_
@@ -49,25 +49,25 @@ To activate these dataflows, have your System Administrator complete the followi
 
 
 >[!NOTE]
-> Each Dataflow has a number as prefix, this is to indicate the order in which they need to be activated. Please ensure that they are **activated in this order** only.
+> Each Dataflow has a number as prefix, to indicate the order in which they need to be activated. Please ensure that they are **activated in this order** only.
 
 ## Steps to activate a dataflow
 
 1. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Click the overflow icon (three dots) and select **Edit**.
-2. This navigates you to a Power Query page, with details for the selected dataflow. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used **without https**. _(Eg: recommend.crm.dynamics.com)_ within the space provided for **Current Value**, replacing the placeholder text _({{envName}})_.
-3. On the left pane known as **Queries** select the first item after _EnvironmentName_ and _Name_, this must have a warning (exclamation) icon next to it. _(In the case of the 1st dataflow, this item is msdyn_projecttask)_.
-    -  An error will appear that says _"Credentials are required to connect to the CommonDataService source.."_, click **Configure Connection**.
-4. If you are doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_ _(refer to the image shown below for reference)_. Click **Sign in** and enter your (System Administrator) user credentials once again.
-    - Once sign in is complete, click **Connect** _(if you receive any other errors at this step, just hit "Refresh" from the tool bar above)_
-    - If this isn't the first time you're going through this step, directly click **Connect**.
+2. This action navigates you to a Power Query page, with details for the selected dataflow. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used **without https**. _(for example: recommend.crm.dynamics.com)_ within the space provided for **Current Value**, replacing the placeholder text _({{envName}})_.
+3. On the left pane known as **Queries** select the first item after _EnvironmentName_ and _Name_, this item must have a warning (exclamation) icon next to it. _(In the case of the 1st dataflow, this item is msdyn_projecttask)_.
+    -  An error appears that says _"Credentials are required to connect to the CommonDataService source.."_, click **Configure Connection**.
+4. If you are doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_ _(refer to the image shown for reference)_. Click **Sign in** and enter your (System Administrator) user credentials once again.
+    - Once sign in is complete, click **Connect** _(if you receive any other errors at this step, hit "Refresh" from the tool bar)_
+    - If it isn't the first time you're going through this step, directly click **Connect**.
   
 
 ![Configure Connection for Dataflow](media/RRConfigureConnection.png)
 
 
 
-5. Then, click **Next**. You will see a new page, where the **Publish** button may take up to 2 minutes to be active.
-6. Once active, click **Publish** and you will be redirected back to the dataflows page _(refer to the image shown below for reference)_. 
+5. Then, click **Next**. You see a new page, where the **Publish** button may take up to 2 minutes to be active.
+6. Once active, click **Publish** and you are redirected back to the dataflows page _(refer to the image shown for reference)_. 
 
 ![Publish Dataflow](media/RRDataflowPublish.png)
 
@@ -75,7 +75,7 @@ To activate these dataflows, have your System Administrator complete the followi
 
 ## Completing prerequisites
 
-- Once all the workflows have a green tick in their **Last refresh** column, you have completed the pre-requisites to use this feature _(refer to the image below for reference)_.   
+- Once all the workflows have a green tick in their **Last refresh** column, you would have completed the pre-requisites to use this feature _(refer to the image shown for reference)_.   
         - _Depending on the number of projects and tasks in your environment, it could take **up to 24 hours** for all dataflows to complete their refresh_.
 
 ![Last Refresh Completed](media/RRLastRefreshCompleteV2.png)
@@ -85,4 +85,4 @@ To activate these dataflows, have your System Administrator complete the followi
     >[!NOTE]
     > If the System Administrator user account that was used to activate these dataflows for the first time is deleted or deactivated, these steps must be repeated again using new, active System Administrator credentials.
 
-- Please refer to [Get Recommendations for Project Team Members](./get-recommendations-for-project-team-members.md) for more details on how to use the feature.
+- Refer to [Get Recommendations for Project Team Members](./get-recommendations-for-project-team-members.md) for more details on how to use the feature.
