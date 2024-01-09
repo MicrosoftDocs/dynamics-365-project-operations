@@ -76,4 +76,4 @@ To activate these dataflows, have your System Administrator complete the followi
     >[!NOTE]
     > If the System Administrator user account that was used to activate these dataflows for the first time is deleted or deactivated, these steps must be repeated again using new, active System Administrator credentials.
 
-- Please refer to **Next Section** for more details on how to use the feature.
+- Please refer to [Get Recommendations for Project Team Members](./get-recommendations-for-project-team-members.md) for more details on how to use the feature.
