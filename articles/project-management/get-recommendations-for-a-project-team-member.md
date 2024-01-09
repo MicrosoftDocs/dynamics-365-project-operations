@@ -46,12 +46,20 @@ This displays additional information related to past experience of that resource
   - **Relevant past experience** consists of 3 parameters: number of similar project tasks and projects worked on as well as the number of hours worked on these similar project tasks (adjusted for experience match %).
   - **Task-wise score** provides the recommendation score, for each task that is a part of the team member requirement. 
 
-## Narrow down list of suggestions
-You can navigate to other resources from this view using the **Next** and **Previous** buttons.
-Select one or more resources and click **Shortlist**. This resource will now appear in the **Shortlisted** tab, where more resources can be similarly added.
+## Shortlist resources to narrow down suggestions
 
-## Continue to book suggested resource
+All suggested resources are displayed across two tabs - _Suggested_ and _Shortlisted_. By default, the _Shortlisted_ tab is empty and all suggestions are contained within the _Suggested_ tab only. There are multiple ways to shortlist resources that fit the staffing criteria: 
 
-Once you have narrowed down your list to the desired number of resources, navigate to **Shortlisted** tab and select **Continue Booking**.
-This creates a new resource requirement or updates an existing requirement and re-directs you to the **Schedule Board**, where information about the resources' availability will be visible to make the final booking decision.
-For more information on using the **Schedule Board** to book a resource, please refer to [this page]() 
+  - From the _Suggested_ tab, on selecting **View Details** for a resource - you may navigate to other resources using the **Next** and **Previous** buttons.
+      - Within this view, use the **Shortlist** button to add a resource to the Shortlisted tab.
+  - Alternatively, select one or more resource rows from the _Suggested_ tab and click **Shortlist**. These resources will now appear in the **Shortlisted** tab, where more resources can be similarly added.
+    
+Similarly, a resource from the _Shortlisted_ tab can be removed and returned to the _Suggested_ tab by using the **Remove** button.
+
+## Continue to book shortlisted resources
+
+The final step to complete staffing of a team member from the list of recommendations, is to *Book* a resource. Follow these steps to complete booking a resource:
+
+  - Once you have narrowed down your list to the desired number of resources, navigate to the **Shortlisted** tab and select **Continue Booking**.
+  - This creates a new resource requirement or updates an existing requirement and re-directs you to the **Schedule Board**, where information about the resources' availability will be visible to make the final booking decision.
+  - For more information on using the **Schedule Board** to book a resource, please refer to [this page]() 
