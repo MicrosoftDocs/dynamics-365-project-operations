@@ -18,9 +18,7 @@ ms.author: mohitmenon
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-> [!IMPORTANT]
-> The functionality that's described in this article is available as part of a Public Preview release. The functionality and the content of this article are subject to change. 
-
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 ## Get suggested resources 
 
