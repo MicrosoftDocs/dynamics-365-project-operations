@@ -26,9 +26,15 @@ Follow these steps to begin using recommended resources for a project team membe
 6. A loading screen will appear and after a few seconds, the list of recommended resources will be displayed within the side-pane. 
 
 
-## View more details
+## View more details to evaluate suggested resources
 
-This can be done in two ways: 1) Select any one suggested resource and click **View Details** OR 2) Click the information icon next to any resource's name.
+Each suggested resource is assigned a recommendation score (out of 10) to signify their appropriateness to that particular team member requirement. This score is currently based only on how relevant their past experience on projects is to a team member requirement, this will be augmented to include more factors (Cost, Availability, Utilisation & Skill-match in upcoming releases). The suggested resources are sorted in decreasing order of this score.
+
+To get more information about a suggested resource and interpret their recommendation score, follow any one of these two steps:
+
+1. Directly click the information icon next to any resource's name OR
+2. Select any one suggested resource rows through the grid and then click **View Details** button.
+
 You can navigate to other resources from this view using the **Next** and **Previous** buttons.
 
 ## Narrow down list of suggestions
