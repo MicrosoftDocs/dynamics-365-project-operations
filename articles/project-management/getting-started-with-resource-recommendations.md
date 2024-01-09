@@ -52,7 +52,7 @@ To activate these dataflows, have your System Administrator complete the followi
 12. Repeat Steps 6 to 11 for the remaining 3 dataflows, in order of their numbering.
 13. Once all 4 workflows have a green tick for their **Last refresh**, you have completed all the pre-requisites to use this feature _(refer to the image below for reference)_. Depending on the number of projects and tasks in your environment, it could take up to 24 hours for all 4 dataflows to complete their refresh.
 
-![Last Refresh Complete](../media/RRLastRefreshCompleteV2.png)
+![Last Refresh Complete](../media/RRLastRefreshComplete.png)
 
 14. In case any of these dataflows fails to refresh with an error, please raise a support ticket or ICM to receive immediate assistance from our engineering team.
 15. Please refer to **Next Section** for more details on how to use the feature.
