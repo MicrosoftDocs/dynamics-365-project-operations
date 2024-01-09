@@ -60,15 +60,16 @@ To activate these dataflows, have your System Administrator complete the followi
 4. If you are doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_ _(refer to the image shown below for reference)_. Click **Sign in** and enter your (System Administrator) user credentials once again.
     - Once sign in is complete, click **Connect** _(if you receive any other errors at this step, just hit "Refresh" from the tool bar above)_
     - If this isn't the first time you're going through this step, directly click **Connect**.
+  
 
-![Configure Connection for Dataflow](../media/RRConfigureConnection.png)
+![Configure Connection for Dataflow](media/RRConfigureConnection.png)
 
-:::image type="content" source="../media/RRConfigureConnection.png" alt-text="Configure connection for dataflow."::: 
+
 
 5. Then, click **Next**. You will see a new page, where the **Publish** button may take up to 2 minutes to be active.
 6. Once active, click **Publish** and you will be redirected back to the dataflows page _(refer to the image shown below for reference)_. 
 
-![Publish Dataflow](../media/RRDataflowPublish.png)
+![Publish Dataflow](media/RRDataflowPublish.png)
 
 7. Repeat **Steps 1 to 6** for the remaining dataflows, in order of their numbering.
 
@@ -77,7 +78,7 @@ To activate these dataflows, have your System Administrator complete the followi
 - Once all the workflows have a green tick in their **Last refresh** column, you have completed the pre-requisites to use this feature _(refer to the image below for reference)_.   
         - _Depending on the number of projects and tasks in your environment, it could take **up to 24 hours** for all dataflows to complete their refresh_.
 
-![Last Refresh Completed](../media/RRLastRefreshComplete.png)
+![Last Refresh Completed](media/RRLastRefreshCompleteV2.png)
 
 - In case any of these dataflows fails to refresh with an error, please raise a support ticket to receive assistance.
 
