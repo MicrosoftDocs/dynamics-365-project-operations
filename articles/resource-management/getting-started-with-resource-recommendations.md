@@ -18,52 +18,50 @@ ms.author: mohitmenon
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-> [!IMPORTANT]
-> The functionality that's described in this article is available as part of a Public Preview release. The functionality and the content of this article are subject to change. 
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 ## Enabling the resource recommendations feature
 
-To enable resource recommendations, first follow these steps:
+To enable resource recommendations, follow these steps:
 
 1.	Sign in to Microsoft **Dynamics 365 Project Operations**.
-2.	In the left navigation, change the area to **Settings**.
-3.	In the **General** section, select **Parameters**.
-4.	You should see a list of organization units. Double-tap (or double-click) the Organization Units row for the columns that aren't links.
-5.	On the **Project Parameters** page, in the **Feature Control** field, select Feature Control.
-6.	Select **Enable Resource Recommendation Engine Feature**, then click OK.
+1.	In the left navigation, change the area to **Settings**.
+1.	In the **General** section, select **Parameters**.
+1.	You should see a list of organization units. Double-tap (or double-click) the Organization Units row for the columns that aren't links.
+1.	On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
+1.	Select **Enable Resource Recommendation Engine Feature**, and then **OK**.
 
-## Get system administrator to activate dataflows 
+After you complete these steps, you must activate four dataflows.
 
-Once you complete this step, you must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows) with the help of your System Administrator. This mandatory, one-time step must be completed for every new environment on which this feature is to be enabled. These workflows prepare the data infrastructure that is required to generate optimal recommendations for any new project team member.
+## Get your System Administrator to activate dataflows 
+
+After you enable resource recommendations, your System Administrator must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows). This mandatory, one-time step must be completed for every new environment on which this feature is enabled. These workflows prepare the data infrastructure that is required to generate optimal recommendations for any new project team member.
 
 To activate these dataflows, have your System Administrator complete the following steps:
 
 1. Sign in to your Microsoft **Dynamics 365 Project Operations** environment as System Administrator.
-2. Within the same window, open a new tab and sign in to the [**Power Apps Portal**](https://make.powerapps.com) as System Administrator. For more information on the Power Apps portal, see [this page](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
-3. In the **Environments** section on the top-right, ensure that the environment you're logged into is selected. 
+1. Within the same window, open a new tab and sign in to the [**Power Apps Portal**](https://make.powerapps.com) as System Administrator. For more information on the Power Apps portal, see [this page](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
+1. In the **Environments** section on the top-right, ensure that the environment you're logged into is selected. 
     - To view your environment name, navigate to your environment, select the profile icon and copy the environment name from top-left of the dialog that appears.
-4. Now use the left navigation pane, to select **Dataflows**. If this option isn't directly visible, then select **More** and then Dataflows.
-5. Select the **My Dataflows** tab, this tab should display a list of four dataflows (apart from previously existing items). These are: 
-    - _"1. Resource Recommendation - Daily KPE"_
-    - _"2. Resource Recommendation - Weekly Scoring Indexing"_
-    - _"3. Resource Recommendation - Weekly Add Time Summary"_
-    - _"4. Resource Recommendation - Weekly Update Time Summary"_
+1. On the left navigation pane, select **Dataflows**. If this option isn't directly visible, then select **More** and then **Dataflows**.
+1. Select the **My Dataflows** tab, this tab should display a list of four dataflows (apart from previously existing items). These are: 
+    - **1. Resource Recommendation - Daily KPE**
+    - **2. Resource Recommendation - Weekly Scoring Indexing**
+    - **3. Resource Recommendation - Weekly Add Time Summary**
+    - **4. Resource Recommendation - Weekly Update Time Summary**
    
-
-
-
 >[!NOTE]
 > Each Dataflow has a number as prefix, to indicate the order in which they need to be activated. Ensure that they are **activated in this order** only.
 
 ## Steps to activate a dataflow
 
-1. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Click the overflow icon (three dots) and select **Edit**.
-2. This action navigates you to a Power Query page, with details for the selected dataflow. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used **without https**. _(for example: recommend.crm.dynamics.com)_ within the space provided for **Current Value**, replacing the placeholder text _({{envName}})_.
-3. On the left pane known as **Queries** select the first item after _EnvironmentName_ and _Name_, this item must have a warning (exclamation) icon next to it. _(For the first dataflow, this item is msdyn_projecttask)_.
-    -  An error appears that says _"Credentials are required to connect to the CommonDataService source."_, click **Configure Connection**.
-4. If you're doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_ _(refer to the image shown for reference)_. Click **Sign in** and enter your (System Administrator) user credentials once again.
-    - Once sign in is complete, click **Connect** _(if you receive any other errors at this step, hit "Refresh" from the tool bar)_
-    - If it isn't the first time you're going through this step, directly click **Connect**.
+1. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Select the overflow icon (three dots) and select **Edit**. This action navigates you to a Power Query page, with details for the selected dataflow.
+1. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used **without https**, (for example, recommend.crm.dynamics.com) within the space provided for **Current Value**, replacing the placeholder text _({{envName}})_.
+1. On the **Queries** pane, select the first item after _EnvironmentName_ and _Name_, this item must have a warning (exclamation) icon next to it. For the first dataflow, this item is **msdyn_projecttask**.
+    -  An error appears that says **Credentials are required to connect to the CommonDataService source**. Select **Configure Connection**.
+1. If you're doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_ _(refer to the image shown for reference)_. Select **Sign in** and enter your (System Administrator) user credentials once again.
+    - Once sign in is complete, select **Connect** _(if you receive any other errors at this step, hit "Refresh" from the tool bar)_
+    - If it isn't the first time you're going through this step, directly select **Connect**.
   
 
 ![Configure Connection for Dataflow](media/RRConfigureConnection.png)
