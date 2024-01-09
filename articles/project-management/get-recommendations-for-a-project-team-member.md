@@ -16,6 +16,13 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 ## Get suggested resources 
 
+Follow these steps to begin using recommended resources for a project team member:
+
+1. Ensure you have completed the [prerequisites for using resource recommendations](./getting-started-with-resource-recommendations.md).
+2. Navigate to **Projects** > **Select a project** that needs to be staffed with one or more resources.
+3. Go to the **Team** tab to view the list of team members on this project.
+4. Select any one team member row 
+
 Navigate to project, select one team member row (do not select multiple team members together), you will see a **Suggest Resources** button next to Subcontracting Options
 
 ## View more details
