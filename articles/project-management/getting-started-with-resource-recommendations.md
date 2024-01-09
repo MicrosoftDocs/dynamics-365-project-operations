@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Pre-requisites to use this feature
+# Prerequisite steps to use resource recommendations
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
