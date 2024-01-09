@@ -24,7 +24,7 @@ To enable resource recommendations, first follow these steps:
 3.	In the **General** section, select **Parameters**.
 4.	You should see a list of organization units. Double-tap (or double-click) the Organization Units row for the columns that aren't links.
 5.	On the **Project Parameters** page, in the **Feature Control** field, select Feature Control.
-6.	Select **Enable Resource Recommendation Engine Feature**.
+6.	Select **Enable Resource Recommendation Engine Feature**, then click OK.
 
 ## Get system administrator to activate dataflows 
 
