@@ -33,6 +33,7 @@ Each suggested resource is assigned a **recommendation score** _(out of 10)_ to 
 
   >[!NOTE]
   > While displaying suggested resources, contract workers are also displayed along with full-time employees by default. Disable the **Show Contractors** toggle to display only full-time employees.
+  > By default the initial list of suggested resources is limited to 20 resources. This can be extended by 5 resources at a time by using the **View more suggestions** button.
 
 
 To get more information about a suggested resource and interpret their recommendation score, follow any one of these two steps:
