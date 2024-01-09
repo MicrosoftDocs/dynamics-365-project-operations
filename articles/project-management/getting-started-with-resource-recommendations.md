@@ -38,13 +38,19 @@ To activate these dataflows, have your System Administrator complete the followi
 4. Now use the left navigation pane, to select **Dataflows**. If this is not directly visible, then select **More** and then Dataflows.
 5. Select the **My Dataflows** tab, this should display a list of 4 dataflows. Each Dataflow has a number as prefix, this is to indicate the order in which they need to be activated.
 6. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Click the overflow icon (three dots) and select **Edit**.
-7. This navigates you to a Power Query page, with details for the selected dataflow. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used **without https**. _(Eg: demo-testing.crm.dynamics.com)_ within the space provided for **Current Value**, replacing the placeholder text _({{envName}})_.
+7. This navigates you to a Power Query page, with details for the selected dataflow. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used **without https**. _(Eg: recommend.crm.dynamics.com)_ within the space provided for **Current Value**, replacing the placeholder text _({{envName}})_.
 8. On the left pane known as **Queries** select the first item after _EnvironmentName_ and _Name_, this must have a warning (exclamation) icon next to it. _(In the case of the 1st dataflow, this item is msdyn_projecttask)_. An error will appear that says _"Credentials are required to connect to the CommonDataService source.."_, click **Configure Connection**.
-9. If you are doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_. Click **Sign in** and enter your (System Administrator) user credentials once again.
+9. If you are doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_ (refer to the image shown below). Click **Sign in** and enter your (System Administrator) user credentials once again.
+
+![Configure Connection for Dataflow](../media/RRConfigureConnection.png)
+
 10. Once sign in is complete, click **Connect** (if you receive any other errors at this step, just hit "Refresh" from the tool bar above). Then, click **Next**. You will see a new page, where the **Publish** button may take up to 2 minutes to be active.
-11. Once active, click **Publish** and you will be redirected back to the dataflows page. 
+11. Once active, click **Publish** and you will be redirected back to the dataflows page (refer to the image shown below). 
+
+![Publish Dataflow](../media/RRDataflowPublish.png)
+
 12. Repeat Steps 6 to 11 for the remaining 3 dataflows, in order of their numbering.
-13. Once all 4 workflows have a green tick for their **Last refresh**, you have completed all the pre-requisites to use this feature. Depending on the number of projects and tasks in your environment, it could take up to 24 hours for all 4 dataflows to complete their refresh.
+13. Once all 4 workflows have a green tick for their **Last refresh**, you have completed all the pre-requisites to use this feature (refer to the image below for reference). Depending on the number of projects and tasks in your environment, it could take up to 24 hours for all 4 dataflows to complete their refresh.
 14. In case any of these dataflows fails to refresh with an error, please raise a support ticket or ICM to receive immediate assistance from our engineering team.
 15. Please refer to **Next Section** for more details on how to use the feature.
 
