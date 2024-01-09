@@ -1,16 +1,20 @@
 ---
 # required metadata
 
-title: Enable resource recommendations for a project team member
-description: This article provides information about steps to be completed in order to use the resource recommendations feature for the first time.
+title: Enable resource recommendations for a project team member (preview)
+description: This article provides information about steps to be completed to use the resource recommendations feature for the first time.
 author: mohitmenon
 ms.date: 1/10/2024
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Prerequisites to use resource recommendations
+# Prerequisites to use resource recommendations (preview)
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -35,7 +39,7 @@ Once you complete this step, you must activate four [dataflows](/power-apps/make
 To activate these dataflows, have your System Administrator complete the following steps:
 
 1. Sign in to your Microsoft **Dynamics 365 Project Operations** environment as System Administrator.
-2. Within the same window, open a new tab and sign in to the [**Power Apps Portal**](https://make.powerapps.com) as System Administrator. For more information on the Power Apps portal, refer to [this page](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
+2. Within the same window, open a new tab and sign in to the [**Power Apps Portal**](https://make.powerapps.com) as System Administrator. For more information on the Power Apps portal, see [this page](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
 3. In the **Environments** section on the top-right, ensure that the environment you're logged into is selected. 
     - To view your environment name, navigate to your environment, select the profile icon and copy the environment name from top-left of the dialog that appears.
 4. Now use the left navigation pane, to select **Dataflows**. If this option isn't directly visible, then select **More** and then Dataflows.
@@ -49,7 +53,7 @@ To activate these dataflows, have your System Administrator complete the followi
 
 
 >[!NOTE]
-> Each Dataflow has a number as prefix, to indicate the order in which they need to be activated. Please ensure that they are **activated in this order** only.
+> Each Dataflow has a number as prefix, to indicate the order in which they need to be activated. Ensure that they are **activated in this order** only.
 
 ## Steps to activate a dataflow
 
@@ -75,12 +79,12 @@ To activate these dataflows, have your System Administrator complete the followi
 
 ## Completing prerequisites
 
-- Once all the workflows have a green tick in their **Last refresh** column, you would have completed the prerequisites to use this feature _(refer to the image shown for reference)_.   
+- Once all the workflows have a green tick in their **Last refresh** column, you completed the prerequisites to use this feature _(refer to the image shown for reference)_.   
         - _Depending on the number of projects and tasks in your environment, it could take **up to 24 hours** for all dataflows to complete their refresh_.
 
 ![Last Refresh Completed](media/RRLastRefreshCompleteV2.png)
 
-- In case any of these dataflows fails to refresh with an error, please raise a support ticket to receive assistance.
+- If any of these dataflows fail to refresh, submit a support ticket to receive assistance.
 
     >[!NOTE]
     > If the System Administrator user account that was used to activate these dataflows for the first time is deleted or deactivated, these steps must be repeated again using new, active System Administrator credentials.
