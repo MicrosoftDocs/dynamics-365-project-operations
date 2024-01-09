@@ -62,4 +62,4 @@ The final step to complete staffing of a team member from the list of recommenda
 
   - Once you have narrowed down your list to the desired number of resources, navigate to the **Shortlisted** tab and select **Continue Booking**.
   - This creates a new resource requirement or updates an existing requirement and re-directs you to the **Schedule Board**, where information about the resources' availability will be visible to make the final booking decision.
-  - For more information on using the **Schedule Board** to book a resource, please refer to [booking from the schedule board](dynamics365/project-operations/resource-management/book-project#book-from-the-schedule-board). 
+  - For more information on using the **Schedule Board** to book a resource, please refer to [booking from the schedule board](/dynamics365/project-operations/resource-management/book-project#book-from-the-schedule-board). 
