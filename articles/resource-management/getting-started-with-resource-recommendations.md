@@ -30,15 +30,15 @@ To enable resource recommendations, first follow these steps:
 
 ## Get system administrator to activate dataflows 
 
-Once you have completed this step, you must now activate 4 [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows) with the help of your System Administrator. This is a mandatory, one-time step that must be completed for every new environment on which this feature is to be enabled. These workflows prepare the data infrastructure that is required to generate optimal recommendations for any new project team member.
+Once you complete this step, you must activate 4 [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows) with the help of your System Administrator. This mandatory, one-time step must be completed for every new environment on which this feature is to be enabled. These workflows prepare the data infrastructure that is required to generate optimal recommendations for any new project team member.
 
 To activate these dataflows, have your System Administrator complete the following steps:
 
 1. Sign in to your Microsoft **Dynamics 365 Project Operations** environment as System Administrator.
-2. Within the same window, open a new tab and sign in to the [**Power Apps Portal**](https://make.powerapps.com) as System Administrator. For more information on the Power Apps portal, please refer to [this page](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
+2. Within the same window, open a new tab and sign in to the [**Power Apps Portal**](https://make.powerapps.com) as System Administrator. For more information on the Power Apps portal, refer to [this page](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
 3. In the **Environments** section on the top-right, ensure that the environment you are logged into is selected. 
     - To view your environment name, navigate to your environment, select the profile icon and copy the environment name from top-left of the dialog that appears.
-4. Now use the left navigation pane, to select **Dataflows**. If this is not directly visible, then select **More** and then Dataflows.
+4. Now use the left navigation pane, to select **Dataflows**. If this option is not directly visible, then select **More** and then Dataflows.
 5. Select the **My Dataflows** tab, this should display a list of 4 dataflows. These 4 dataflows are: 
     - _"1. Resource Recommendation - Daily KPE"_
     - _"2. Resource Recommendation - Weekly Scoring Indexing"_
