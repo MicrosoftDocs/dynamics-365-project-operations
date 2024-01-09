@@ -37,7 +37,11 @@ To activate these dataflows, have your System Administrator complete the followi
 3. In the **Environments** section on the top-right, ensure that the environment you are logged into is selected. 
     - To view your environment name, navigate to your environment, select the profile icon and copy the environment name from top-left of the dialog that appears.
 4. Now use the left navigation pane, to select **Dataflows**. If this is not directly visible, then select **More** and then Dataflows.
-5. Select the **My Dataflows** tab, this should display a list of 4 dataflows. Each Dataflow has a number as prefix, this is to indicate the order in which they need to be activated.
+5. Select the **My Dataflows** tab, this should display a list of 4 dataflows. 
+
+    >[!NOTE]
+    > Each Dataflow has a number as prefix, this is to indicate the order in which they need to be activated. Please ensure that they are **activated in this order** only.
+
 6. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Click the overflow icon (three dots) and select **Edit**.
 7. This navigates you to a Power Query page, with details for the selected dataflow. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used **without https**. _(Eg: recommend.crm.dynamics.com)_ within the space provided for **Current Value**, replacing the placeholder text _({{envName}})_.
 8. On the left pane known as **Queries** select the first item after _EnvironmentName_ and _Name_, this must have a warning (exclamation) icon next to it. _(In the case of the 1st dataflow, this item is msdyn_projecttask)_.
