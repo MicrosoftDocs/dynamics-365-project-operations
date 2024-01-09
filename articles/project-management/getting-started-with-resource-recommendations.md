@@ -12,6 +12,8 @@ ms.author: mohitmenon
 
 # Prerequisites to use resource recommendations
 
+[!INCLUDE[banner](../../includes/banner.md)]
+
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 
@@ -55,9 +57,11 @@ To activate these dataflows, have your System Administrator complete the followi
 ![Last Refresh Completed](../media/RRLastRefreshComplete.png)
 
 14. In case any of these dataflows fails to refresh with an error, please raise a support ticket or ICM to receive immediate assistance from our engineering team.
+
+    >[!NOTE]
+    > If the System Administrator user account that was used to activate these dataflows for the first time is deleted or deactivated, these steps must be repeated again using new, active System Administrator credentials.
+
 15. Please refer to **Next Section** for more details on how to use the feature.
 
-**Note:** if the System Administrator user account that was used to activate these 4 dataflows to enable this feature is deleted or deactivated then, these steps would have to be repeated once again using new, active System Administrator credentials.
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
-**Rejected points:**
-From 11: Please wait until you receive an alert stating that _"Your dataflow was published succesfully and is currently refreshing."_ On receiving this alert, a green tick mark will appear on the **Last refresh** column. You can now continue to the next dataflow.
