@@ -70,7 +70,7 @@ To activate the dataflows, have your system administrator follow these steps.
 
 1. Select **Next**. The page that appears has a **Publish** button. This button might take up to two minutes to become available.
 
-    :::image type="content" source="media/RRDataflowPublish.png" alt-text="Screenshot that show the Publish button for the dataflow.":::
+    :::image type="content" source="media/RRDataflowPublish.png" alt-text="Screenshot that shows the Publish button for the dataflow.":::
 
 1. Select **Publish**. You're redirected back to the **Dataflows** page.
 1. Repeat steps 1 through 7 for the remaining dataflows, in order of their numerical prefix.
