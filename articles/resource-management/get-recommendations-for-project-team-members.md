@@ -50,7 +50,7 @@ To get more information about any suggested resource and interpret that resource
 
 Both steps open additional information that's related to the past experience of the resource. The following metrics are shown:
 
-- **Experience match (%)** – This metric represents, as a percentage, the similarity between work that the resource has done on previous project tasks and the team member requirements that are being staffed.
+- **Experience match (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed.
 - **Relevant past experience** – This metric consists of three parameters: the number of similar project tasks, projects that were worked on, and the number of hours that were worked on those similar project tasks (adjusted for the **Experience match %** metric).
 - **Task-wise score** – This metric provides the recommendation score for each task that's part of the team member requirement.
 
@@ -65,7 +65,7 @@ To remove a resource from the **Shortlisted** tab and return it to the **Suggest
 
 ## Continue to book shortlisted resources
 
-After you've narrowed down the list of suggested resources, the last step to finish staffing a team member from the list of recommendations is to *book* a resource.
+After you narrow down the list of suggested resources, the last step to finish staffing a team member from the list of recommendations is to *book* a resource.
 
 To book a resource, on the **Shortlisted** tab, select **Continue booking**. A new resource requirement is created, or an existing requirement is updated. You're redirected to the **schedule board**, where you can review information about the resources' availability and use it to make the final booking decision.
 
