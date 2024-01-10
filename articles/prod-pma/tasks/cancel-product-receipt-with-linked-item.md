@@ -1,8 +1,8 @@
 ---
 # required metadata 
 
-title: Cancel a purchase order product receipt with linked item requirement
-description: This article explains how to cancel a project purchase order with a connected item requirement
+title: Cancel a purchase order product receipt with a linked item requirement
+description: This article explains how to cancel a project purchase order that has a linked item requirement.
 author: ryansandness
 ms.date: 01/04/2024
 ms.topic: how-to
@@ -27,72 +27,70 @@ ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ---
 
-# Cancel a purchase order product receipt with linked item requirement
+# Cancel a purchase order product receipt with a linked item requirement
 
 [!include [banner](../../includes/banner.md)]
 
-This article explains how to cancel a project purchase order with a connected item requirement.
+This article explains how to cancel a project purchase order that has a connected (linked) item requirement.
 
-## New feature available to enable cancellation
+## New feature to enable cancellation
 
-The version 10.0.37 release enables the cancellation of a product receipt with a linked item requirement. The prerequisite feature **Enable packing slip cancellation for item requirements** must be first enabled, and then the **Enable purchase order product receipt cancellation with linked item requirements** feature can be enabled.
-
-The first feature, **Enable packing slip cancellation for item requirements**, changes the posting behavior for newly created stocked item requirements. The second feature, **Enable purchase order product receipt cancellation with linked item requirements**, extends the posting changes to item requirements connected to purchase orders.
+The version 10.0.37 release lets you cancel product receipts that have a linked item requirement. You must first enable the prerequisite **Enable packing slip cancellation for item requirements** feature. This feature changes the posting behavior for newly created stocked item requirements. After that feature is enabled, you can enable the **Enable purchase order product receipt cancellation with linked item requirements** feature. This feature extends the posting changes to item requirements that are linked to purchase orders.
 
 > [!NOTE]
-> Existing item requirements are not affected by these features if they previously had the packing slip posted. Only new item requirements or item requirements with no packing slip posted use the new posting behavior.
+> These features don't affect existing item requirements if the packing slip was previously posted for them. Only new item requirements and existing item requirements that no packing slip has been posted for use the new posting behavior.
 
-The **Enable purchase order product receipt cancellation with linked item requirements** feature adds two new fields onto the **Project** tab of the **Purchase Order**. **Line details** provides the item requirement **Quantity** which drills down to the **Item requirement** form, and the **Deliver remainder** provides the remaining quantity on the item requirement.
+The **Enable purchase order product receipt cancellation with linked item requirements** feature adds two new fields to the **Project** tab of the **Purchase Order** page. The **Quantity** field in **Line details** shows the item requirement quantity and provides drill-down to the **Item requirement** page. The **Deliver remainder** field shows the remaining quantity on the item requirement.
 
-## Cancelling a product receipt with a linked item requirement
+## Cancel a product receipt that has a linked item requirement
 
-This task uses the USSI data set. To cancel a product receipt with a linked item requirement, follow these steps.
+This procedure uses the USSI data set. To cancel a product receipt that has a linked item requirement, follow these steps.
 
-1. In the navigation pane, go to **Modules > Project management and accounting > Projects > All projects**.
-2. In the list, select the project.
-3. On the Action Pane, select **Plan**.
-4. Select **Item requirements**.
-5. Select **New**.
-6. In the new row, enter or select a value in the **Item number** field.
-7. In the **Quantity** field, enter a number.
-8. Select **Save**.
-9. On the Action Pane, select **Manage**.
-10. Select **Functions**.
-11. Select **Create purchase order**.
-12. Select the **Include all** check box.
-13. In the **Vendor account** field, enter or select a value.
-14. Select **OK**.
-15. In the navigation pane, go back to the selected project.
-16. On the Action Pane, select **Manage**.
-17. Under related information, select **Item tasks** and then select **Purchase orders**.
-18. Open the newly created purchase order.
-19. On the Action Pane, select **Purchase**.
-20. Select **Confirm**.
-21. On the Action Pane, select **Receive**.
-22. Select **Product receipt**.
-23. In the **Product receipt** field, type a value.
-24. Select **OK**.
-25. If prompted to **Consume items for the project immediately**, select **Yes**. Selecting yes posts the packing slip for the item requirement.
-26. With the PO received and the item requirement delivered, cancel both documents in reverse order. From the purchase order, click into the **Project** on the **Line details** and select the link under the **Item requirement** header for the linked **Quantity**.
-27. In the **Item requirements** form, select **Manage**.
-28. Select **Inquiries**.
-29. Select **Packing slip journal**
-30. On the Action Pane, select **Cancel**.
-31. On the **Other** tab of the item requirement, click into the **Reference number** to open the linked purchase order.
-32. On the Action Pane of the purchase order, select **Receive**.
-33. Select **Product receipt**.
-34. Click **Cancel**.
-35. A prompt appears with a message stating that **This will cancel the receipt of all lines on this packing slip. Do you want to continue?** Select **Yes** to complete the cancellation of the **Product receipt**.
+1. Go to **Project management and accounting** \> **Projects** \> **All projects**.
+1. In the list, select the project.
+1. On the Action Pane, select **Plan**.
+1. Select **Item requirements**.
+1. Select **New**.
+1. On the new row, in the **Item number** field, enter or select a value.
+1. In the **Quantity** field, enter a number.
+1. Select **Save**.
+1. On the Action Pane, select **Manage**.
+1. Select **Functions**.
+1. Select **Create purchase order**.
+1. Select the **Include all** checkbox.
+1. In the **Vendor account** field, enter or select a value.
+1. Select **OK**.
+1. Use the navigation pane to go back to the selected project.
+1. On the Action Pane, select **Manage**.
+1. Under the related information, select **Item tasks**, and then select **Purchase orders**.
+1. Open the newly created purchase order.
+1. On the Action Pane, select **Purchase**.
+1. Select **Confirm**.
+1. On the Action Pane, select **Receive**.
+1. Select **Product receipt**.
+1. In the **Product receipt** field, enter a value.
+1. Select **OK**.
+1. If you receive a message that prompts you to consume items for the project immediately, select **Yes**. The packing slip for the item requirement is then posted.
+1. After the purchase order is received and the item requirement is delivered, cancel both documents in reverse order. From the purchase order, tap (or click) in the **Project** field in **Line details**, and select the link under the **Item requirement** header for the linked **Quantity** value.
+1. On the **Item requirements** page, select **Manage**.
+1. Select **Inquiries**.
+1. Select **Packing slip journal**
+1. On the Action Pane, select **Cancel**.
+1. On the **Other** tab of the item requirement, tap (or click) in the **Reference number** field to open the linked purchase order.
+1. On the Action Pane of the purchase order, select **Receive**.
+1. Select **Product receipt**.
+1. Select **Cancel**.
+1. You receive the following message: "This will cancel the receipt of all lines on this packing slip. Do you want to continue?" Select **Yes** to complete the cancellation of the product receipt.
 
 > [!NOTE]
-> Note: Whether the item is a **stocked**, **non-stocked** or **service** item, the line status for the item requirement is **Delivered** when posting the **packing slip**.
+> Regardless of whether the item is a **stocked**, **non-stocked**, or **service** item, the line status for the item requirement is **Delivered** when the packing slip is posted.
 
 The reversal resolves any used inventory and reverses any financial postings.
 
 #### Demo data issues to consider
 
-In the **USSI** legal entity, the **Sale\_367** number sequence is in an inconsistent state. Cancellation of an item requirement causes the following error:
+In the **USSI** legal entity, the **Sale\_367** number sequence is in an inconsistent state. Cancellation of an item requirement causes an error. Here's an example of the error message that you receive:
 
 > Voucher 000001 is already used as of date 1/9/2017. Posting has been cancelled.
 
-To fix the issue, go to **Number sequences**, filter for number sequence code **Sale\_367**, and open the item. On the **Performance** FastTab, change the value of the **Preallocation** option from **Yes** to **No**, and save the change. Then, change the value back to **Yes**.
+To fix the issue, go to **Number sequences**, filter for number sequence code **Sale\_367**, and open the item. On the **Performance** FastTab, change the value of the **Preallocation** option from **Yes** to **No**, and save the change. Then change the value back to **Yes**.
