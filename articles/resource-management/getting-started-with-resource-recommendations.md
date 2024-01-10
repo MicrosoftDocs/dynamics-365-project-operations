@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Enable resource recommendations for a project team member (preview)
-description: This article provides information about steps to be completed to use the resource recommendations feature for the first time.
+title: Prerequisites to use resource recommendations (preview)
+description: This article explains how to use the resource recommendations feature for the first time.
 author: mohitmenon
 ms.date: 1/10/2024
 ms.topic: how-to
@@ -20,68 +20,72 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
-## Enabling the resource recommendations feature
+## Enable the resource recommendations feature
 
-To enable resource recommendations, follow these steps:
+To enable resource recommendations, follow these steps.
 
-1.	Sign in to Microsoft **Dynamics 365 Project Operations**.
-1.	In the left navigation, change the area to **Settings**.
-1.	In the **General** section, select **Parameters**.
-1.	You should see a list of organization units. Double-tap (or double-click) the Organization Units row for the columns that aren't links.
-1.	On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
-1.	Select **Enable Resource Recommendation Engine Feature**, and then **OK**.
+1. Sign in to Microsoft Dynamics 365 Project Operations.
+1. On the left navigation, change the area to **Settings**.
+1. In the **General** section, select **Parameters**.
+1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
+1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
+1. Select **Enable Resource Recommendation Engine Feature**, and then select **OK**.
 
-After you complete these steps, you must activate four dataflows.
+After you complete this procedure, the next step is to activate four dataflows as described in the next section.
 
-## Get your System Administrator to activate dataflows 
+## Have your system administrator activate dataflows 
 
-After you enable resource recommendations, your System Administrator must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows). This mandatory, one-time step must be completed for every new environment on which this feature is enabled. These workflows prepare the data infrastructure that is required to generate optimal recommendations for any new project team member.
+After you enable the resource recommendations feature, your system administrator must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows). This mandatory, one-time step must be completed for every new environment where the feature is enabled. The four dataflows prepare the data infrastructure that's required to generate optimal recommendations for any new project team member.
 
-To activate these dataflows, have your System Administrator complete the following steps:
+To activate the dataflows, have your system administrator follow these steps.
 
-1. Sign in to your Microsoft **Dynamics 365 Project Operations** environment as System Administrator.
-1. Within the same window, open a new tab and sign in to the [**Power Apps Portal**](https://make.powerapps.com) as System Administrator. For more information on the Power Apps portal, see [this page](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
-1. In the **Environments** section on the top-right, ensure that the environment you're logged into is selected. 
-    - To view your environment name, navigate to your environment, select the profile icon and copy the environment name from top-left of the dialog that appears.
-1. On the left navigation pane, select **Dataflows**. If this option isn't directly visible, then select **More** and then **Dataflows**.
-1. Select the **My Dataflows** tab, this tab should display a list of four dataflows (apart from previously existing items). 
+1. Sign in to your Project Operations environment as System Administrator.
+1. Open a new tab in the same browser window, and sign in to the [Power Apps portal](https://make.powerapps.com) as System Administrator. For more information about the Power Apps portal, see [Sign in to Power Apps](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
+1. In the **Environments** section in the upper right, ensure that the environment that you're signed in to is selected.
+
+    To view the environment name, go to your environment, select the profile symbol, and copy the environment name from the upper left of the dialog box that appears.
+
+1. On the left navigation pane, select **Dataflows**. If this option isn't directly visible, select **More**, and then select **Dataflows**.
+1. Select the **My Dataflows** tab. This tab should list the following dataflows (in addition to any pre-existing items):
+
     - **1. Resource Recommendation - Daily KPE**
     - **2. Resource Recommendation - Weekly Scoring Indexing**
     - **3. Resource Recommendation - Weekly Add Time Summary**
     - **4. Resource Recommendation - Weekly Update Time Summary**
-   
->[!NOTE]
-> Each Dataflow has a number as prefix, to indicate the order in which they need to be activated. Ensure that they are **activated in this order** only.
 
-## Steps to activate a dataflow
+> [!IMPORTANT]
+> Every dataflow has a number as a prefix. The numbers indicate the order that the dataflows must be activated in. Make sure that they're activated **only in the specified order**.
 
-1. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Select the overflow icon (three dots) and select **Edit**. This action navigates you to a Power Query page, with details for the selected dataflow.
-1. Select the **_EnvironmentName_ parameter** and enter the URL of the environment being used **without https**, (for example, recommend.crm.dynamics.com) within the space provided for **Current Value**, replacing the placeholder text _({{envName}})_.
-1. On the **Queries** pane, select the first item after _EnvironmentName_ and _Name_, this item must have a warning (exclamation) icon next to it. For the first dataflow, this item is **msdyn_projecttask**.
-    -  An error appears that says **Credentials are required to connect to the CommonDataService source**. Select **Configure Connection**.
-1. If you're doing this step for the first time, a dialog box appears named **Connect to a data source** with Connection as _Create a new connection_, Connection Source as the name of your environment and Authentication Kind as _Organizational account_ _(refer to the image shown for reference)_. Select **Sign in** and enter your (System Administrator) user credentials once again.
-    - Once sign in is complete, select **Connect** _(if you receive any other errors at this step, hit "Refresh" from the tool bar)_
-    - If it isn't the first time you're going through this step, directly select **Connect**.
+## Activate a dataflow
 
-   :::image type="content" source="media/RRConfigureConnection.png" alt-text="Screenshot of the Configure Connection for Dataflow screen."::: 
+1. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Select the overflow symbol (three dots), and then select **Edit**. You're taken to a Power Query page that shows details of the selected dataflow.
+1. Select the **EnvironmentName** parameter. Then, in the space that's provided for **Current Value**, replace the placeholder text (_\{\{envName\}\}_) with the URL of the environment that's being used, **without the "https://"** (for example, enter _recommend.crm.dynamics.com_).
+1. In the **Queries** pane, select the first item after **EnvironmentName** and **Name**. This item must have a warning symbol (exclamation point) next to it. For the first dataflow, this item is **msdyn\_projecttask**.
+1. You receive the following error message: "Credentials are required to connect to the CommonDataService source." Select **Configure Connection**.
+1. If you're following these steps for the first time, a **Connect to data source** dialog box appears. In this dialog box, the **Connection** field is set to _Create a new connection_, the **Connection Source** field is set to the name of your environment, and the **Authentication Kind** field is set to _Organizational account_. (The following image shows an example.) Select **Sign in**, and enter your System Administrator user credentials again. Then, after sign-in is completed, select **Connect**. If you receive any error messages, select **Refresh** on the toolbar.
 
-1. Then, select **Next**. You see a new page, where the **Publish** button may take up to 2 minutes to be active.
-1. Once active, select **Publish** and you're redirected back to the dataflows page _(refer to the image shown for reference)_. 
+    :::image type="content" source="media/RRConfigureConnection.png" alt-text="Screenshot of the Connect to data source dialog box.":::
 
-   :::image type="content" source="media/RRDataflowPublish.png" alt-text="Screenshot of Power Query Publish Dataflow."::: 
+    If you aren't following these steps for the first time, no dialog box appears, and you can select **Connect** directly.
 
-1. Repeat **Steps 1 to 6** for the remaining dataflows, in order of their numbering.
+1. Select **Next**. The page that appears has a **Publish** button. This button might take up to two minutes to become available.
 
-## Completing prerequisites
+    :::image type="content" source="media/RRDataflowPublish.png" alt-text="Screenshot that show the Publish button for the dataflow.":::
 
-- After all the workflows have a green tick in their **Last refresh** column, you completed the prerequisites to use this feature _(refer to the image shown for reference)_.   
-- Depending on the number of projects and tasks in your environment, it could take **up to 24 hours** for all dataflows to complete their refresh.
+1. Select **Publish**. You're redirected back to the **Dataflows** page.
+1. Repeat steps 1 through 7 for the remaining dataflows, in order of their numerical prefix.
 
-:::image type="content" source="media/RRLastRefreshCompleteV2.png" alt-text="Screenshot showing the last refresh has completed."::: 
+## Complete the prerequisites
 
-- If any of these dataflows fail to refresh, submit a support ticket to receive assistance.
+When every dataflow has a green check mark in its **Last refresh** column, you've completed all the prerequisites to use this feature. (The following image shows an example.)
 
->[!NOTE]
-> If the System Administrator user account that was used to activate these dataflows for the first time is deleted or deactivated, these steps must be repeated again using new, active System Administrator credentials.
+:::image type="content" source="media/RRLastRefreshCompleteV2.png" alt-text="Screenshot of the Dataflows page where the last refresh has been completed for every dataflow.":::
 
-For more information on how to use the feature, see [Get Recommendations for Project Team Members](./get-recommendations-for-project-team-members.md).
+Depending on the number of projects and tasks in your environment, it might take **up to 24 hours** for all dataflows to complete their refresh.
+
+If any dataflows fail to refresh, submit a support ticket to get help.
+
+> [!NOTE]
+> If the System Administrator user account that was used to activate the dataflows for the first time is deleted or deactivated, the preceding steps must be repeated by using new, active System Administrator credentials.
+
+For more information about how to use the feature, see [Get recommendations for a project team member](./get-recommendations-for-project-team-members.md).
