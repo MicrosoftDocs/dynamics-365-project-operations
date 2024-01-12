@@ -99,7 +99,7 @@ When an Accounts payable clerk receives an invoice from the subcontractor, a new
 4. Enter the **Invoice number** and **invoice date**.
 5. Select **Post** to post the vendor invoice.
 
-Upon posting the vendor invoice, **synchronization** with **Dataverse** occurs, and an automatic **confirmation** is executed for the vendor invoices in **Dataverse**.
+Upon posting the vendor invoice, **synchronization** with **Dataverse** occurs, and an automatic **confirmation** is executed for the vendor invoices in **Dataverse**. Within **Dataverse**, the system initiates an **automatic matching** process for **vendor invoice lines** and the **original timesheet or expense entries** associated with subcontracts. This process involves generating a **reversal** entry for the original record and subsequently creating a new entry for the vendor invoice line.
    
 
 
