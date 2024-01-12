@@ -18,7 +18,7 @@
   items:
   - name: Get started
     items:
-    - name: Project Operations for resource/non-stocked based scenarios deployment overview
+    - name: Project Operations for resource/non- based scenarios deployment overview
       href: environment/project-operations-integrated-deployment-overview.md
     - name: Sign up for a preview subscription 
       href: environment/resource-sign-up-preview-subscription.md
@@ -1594,6 +1594,8 @@
         href: prod-pma/NSTKProjectcostwithitemrequirements.md
       - name: Purchase order for Non-stock/Service items without item requirements
         href: prod-pma/NSTKProjectcostwithoutitemrequirement.md
+      - name: Cancel a purchase order product receipt with a linked item requirement
+        href: prod-pma/tasks/cancel-product-receipt-with-linked-item.md
   - name: Project invoicing
     items:
     - name: Project invoicing
