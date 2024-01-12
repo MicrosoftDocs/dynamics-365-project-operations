@@ -58,7 +58,6 @@ It is important to note that creating subcontract purchase orders directly in D3
 
 Refer **[Subcontract management in Project Operations](../../pro/subcontracting/key-concepts-subcontracting.md)** to create and manage the subcontracts in **Dataverse**.
 
-articles/pro/subcontracting/key-concepts-subcontracting.md
 To view the list of subcontract purchase orders in **D365 Finance**, follow below steps:
 
 1.  In **D365 Finance**, go to **Project management and accounting** > **Item tasks** > **Subcontract purchase orders**.
@@ -71,3 +70,4 @@ To view the list of subcontract purchase orders in **D365 Finance**, follow belo
 8.  Click on **Receipt** action pane on the purchase order form.
 9.  On the **Journal** section, list of product receipts posted for the purchase order. **Product receipts** for subcontract purchase orders posted automatically based upon timesheet and expenses recorded in **Dataverse**. Manual product receipts are not allowed for subcontract purchase orders.
 
+## Generate and post the product receipt for subcontracts
