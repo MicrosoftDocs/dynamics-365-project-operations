@@ -70,4 +70,18 @@ To view the list of subcontract purchase orders in **D365 Finance**, follow belo
 8.  Click on **Receipt** action pane on the purchase order form.
 9.  On the **Journal** section, list of product receipts posted for the purchase order. **Product receipts** for subcontract purchase orders posted automatically based upon timesheet and expenses recorded in **Dataverse**. Manual product receipts are not allowed for subcontract purchase orders.
 
-## Generate and post the product receipt for subcontracts
+## Generate product receipt for subcontracts
+When a timesheet entry or expenses are logged in Dataverse, D365 Finance will automatically produce and post the product receipt for the subcontract purchase order through the periodic processes: **Generate Subcontract Product Receipt** and **Post Subcontract Product Receipt**. 
+
+To **generate product receipts** for timesheets and expenses recorded by subcontractor resources or shared by subcontractors in **Dataverse**, follow the steps outlined below:
+
+1.  In **D365 Finance**, go to **Project management and accounting** > **Periodic** > **Subcontracts** > **Generate product receipt for subcontracts**.
+2.  Click on **Generate product receipt for subcontracts** to generate the product receipt. This activity can be executed on periodic basis using batch process. It is recommened to run this process in batch mode on daily basis.
+3.  **D365 Finance** will consider all the timesheet entries, expenses and materials approved in **Dataverse** for the subcontract using timesheet, expenses, Material usage or journal entries.
+4.  After posting the **Project integration journal** for all entries, the system will proceed to **generate product receipts** for subcontract purchase orders. Each **accounting date** utilized for journals is taken into account during the product receipt generation process. If multiple entries have been posted through the **Project integration journal** with different accounting dates, **multiple product receipts** will be generated, each corresponding to its respective accounting date.
+5.  In **D365 Finance**, go to **Project management and accounting** > **Sub contracts** > **Project subcontracts product receipts** to view the list of product receipts along with the posted status.
+
+## Post product receipt for subcontracts
+
+
+
