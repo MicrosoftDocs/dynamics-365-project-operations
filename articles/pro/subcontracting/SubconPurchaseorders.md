@@ -13,7 +13,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios.
 
 This article presents an overview of the **subcontracting** feature seamlessly integrated with **D365 Finance**. This functionality enables users to generate subcontracts, document timesheets, expenses, and other pertinent information provided by subcontractors within **Dataverse**. For every subcontract, the system automatically generates purchase orders in **D365 Finance**. Likewise, for each recorded timesheet or expense in **Dataverse**, the system generates corresponding product receipts in **D365 Finance**. When the subcontractor submits an invoice in **D365 Finance**, the accounts payable clerk gains access to all recorded timesheets and expenses associated with the subcontract. This facilitates the accounts payable clerk in conducting a three-way matching process and successfully booking the invoice in **D365 Finance**.
 
@@ -49,5 +49,24 @@ For the automatic generation of purchase orders and purchase order lines in **D3
 3. Project subcontract purchase order header (msdyn_subcontracts)
 4. Project subcontract purchase order line (msdyn_subcontractlines)
 
+## Create and manage subcontracts
+Upon creating a **subcontract** in **Dataverse**, a corresponding purchase order is generated in **D365 Finance** for each subcontract. Additionally, for every **subcontract line** in **Dataverse**, a **purchase order line** is created. Leveraging the **Project Subcontract Category mapping** outlined earlier, the system identifies the **procurement category** and **project category** for each purchase order line. 
 
+Purchase orders are automatically **confirmed** in **D365 Finance** upon confirmation of the subcontract in **Dataverse**. Any modifications made to the subcontract or its lines in Dataverse are seamlessly updated in **D365 Finance**, thereby reflecting changes in the **purchase order status** in the **D365 Finance**.
+
+It is important to note that creating subcontract purchase orders directly in D365 Finance is restricted.
+
+**Refer** --------------------- to create and manage the subcontracts in **Dataverse**.
+
+To view the list of subcontract purchase orders in **D365 Finance**, follow below steps:
+
+1.  In **D365 Finance**, go to **Project management and accounting** > **Item tasks** > **Subcontract purchase orders**.
+2.  Select the **purchase order** to view the purchase order details. All the fields on the purchase orders are non-editable.
+3.  Click on the **Header** tab of the **purchase order**.
+4.  On the **General** tab, **Subcontract** details like subcontract id, subcontract name, subcontract date and subcontract status is available.
+5.  Click on the **Lines** tab of the **purchase order**.
+6.  On the **Lines** tab, list of the purchase order lines created for each subcontract line.
+7.  On the **Project** tab, Subcontract line details like subcontract line id, type and role id is available.
+8.  Click on **Receipt** action pane on the purchase order form.
+9.  On the **Journal** section, list of product receipts posted for the purchase order. **Product receipts** for subcontract purchase orders posted automatically based upon timesheet and expenses recorded in **Dataverse**. Manual product receipts are not allowed for subcontract purchase orders.
 
