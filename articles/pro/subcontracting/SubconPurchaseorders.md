@@ -56,8 +56,9 @@ Purchase orders are automatically **confirmed** in **D365 Finance** upon confirm
 
 It is important to note that creating subcontract purchase orders directly in D365 Finance is restricted.
 
-**Refer** --------------------- to create and manage the subcontracts in **Dataverse**.
+Refer **[Subcontract management in Project Operations](../../pro/subcontracting/key-concepts-subcontracting.md)** to create and manage the subcontracts in **Dataverse**.
 
+articles/pro/subcontracting/key-concepts-subcontracting.md
 To view the list of subcontract purchase orders in **D365 Finance**, follow below steps:
 
 1.  In **D365 Finance**, go to **Project management and accounting** > **Item tasks** > **Subcontract purchase orders**.
