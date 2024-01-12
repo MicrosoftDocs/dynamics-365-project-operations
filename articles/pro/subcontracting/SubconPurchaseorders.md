@@ -89,7 +89,7 @@ To post the **subcontract product receipts**, follow the steps outlined below:
 3.  On alternate basis, In **D365 Finance**, go to **Project management and accounting** > **Sub contracts** > **Project subcontracts product receipts** to view the list of product receipts along with the posted status. Select the **product receipt** and click **Post** to post the product receipt.
 4.  System will generate the Product receipt financial voucher if as per **Purchasing policy**, Product receipt accrual is configured for **procurement categories**.
 
-### Create and post subcontract vendor invoices
+## Create and post subcontract vendor invoices
 
 When an Accounts payable clerk receives an invoice from the subcontractor, a new invoice is created in **D365 Finance**.
 
