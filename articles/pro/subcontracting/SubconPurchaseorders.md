@@ -82,6 +82,11 @@ To **generate product receipts** for timesheets and expenses recorded by subcont
 5.  In **D365 Finance**, go to **Project management and accounting** > **Sub contracts** > **Project subcontracts product receipts** to view the list of product receipts along with the posted status.
 
 ## Post product receipt for subcontracts
+To post the **subcontract product receipts**, follow the steps outlined below:
 
+1.  In **D365 Finance**, go to **Project management and accounting** > **Periodic** > **Subcontracts** > **Post product receipt for subcontracts**.
+2.  Click on **Post product receipt for subcontracts** to post the product receipt. This activity can be executed on periodic basis using batch process. It is recommened to run this process in batch mode on daily basis.
+3.  On alternate basis, In **D365 Finance**, go to **Project management and accounting** > **Sub contracts** > **Project subcontracts product receipts** to view the list of product receipts along with the posted status. Select the **product receipt** and click **Post** to post the product receipt.
+   
 
 
