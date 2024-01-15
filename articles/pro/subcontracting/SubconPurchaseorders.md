@@ -66,9 +66,12 @@ To view the list of subcontract purchase orders in **D365 Finance**, follow belo
 4.  On the **General** tab, **Subcontract** details like subcontract id, subcontract name, subcontract date and subcontract status is available.
 5.  Click on the **Lines** tab of the **purchase order**.
 6.  On the **Lines** tab, list of the purchase order lines created for each subcontract line.
-7.  On the **Project** tab, Subcontract line details like subcontract line id, type and role id is available.
-8.  Click on **Receipt** action pane on the purchase order form.
-9.  On the **Journal** section, list of product receipts posted for the purchase order. **Product receipts** for subcontract purchase orders posted automatically based upon timesheet and expenses recorded in **Dataverse**. Manual product receipts are not allowed for subcontract purchase orders.
+7.  A **D365 Finance** purchase order line is generated for every **subcontract line** in Dataverse.
+8.  Procurement categories are used for **expense** and **time** transaction line types, with these categories being derived from the **project subcontract mapping**. **Item sales tax** groups are defaulted from the **procurement categories** setup.
+9.  **Material** type transactions utilize **released products**, with default settings assigning **site** and **warehouse** from the **default order settings**. Additionally, **project categories** and **item sales tax groups** are defaulted from the released products form.
+10.  On the **Project** tab, Subcontract line details like subcontract line id, type and role id is available.
+11.  Click on **Receipt** action pane on the purchase order form.
+12.  On the **Journal** section, list of product receipts posted for the purchase order. **Product receipts** for subcontract purchase orders posted automatically based upon timesheet and expenses recorded in **Dataverse**. Manual product receipts are not allowed for subcontract purchase orders.
 
 ## Generate product receipt for subcontracts
 When a timesheet entry or expenses are logged in Dataverse, D365 Finance will automatically produce and post the product receipt for the subcontract purchase order through the periodic processes: **Generate Subcontract Product Receipt** and **Post Subcontract Product Receipt**. 
