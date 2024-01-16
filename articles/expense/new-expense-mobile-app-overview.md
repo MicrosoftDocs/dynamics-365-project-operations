@@ -16,9 +16,6 @@ ms.author: ramagadu
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
-> [!IMPORTANT]
-> The functionality that's described in this article is available as part of a GA (General availability) release. The functionality and the content of this article are subject to change. 
-
 This article provides information about the new Dynamics 365 expense management mobile app. The Dynamics 365 expense management mobile app is developed by using a Microsoft Power Apps canvas app and can be accessed from the Power Apps mobile app. The Dynamics 365 expense management mobile app is a powerful solution that's designed to simplify and enhance the expense reimbursement process and increase user productivity. Thanks to its focus on intuitiveness and ease of use, the expense management mobile app offers a range of features that make expense reporting seamless and efficient.
 
 Many organizations require that you attach a copy of a receipt to a travel-related or business-related expense report that you submit for reimbursement. The Dynamics 365 expense management mobile app lets you quickly create new expense lines on your mobile device. It uses optical character recognition (OCR) to scan an attached photo of a receipt and add the information to the expense line. Alternatively, you can capture a photo of a receipt and then attach it to an expense report later. You can also create and manage your expense reports, and then submit them for approval and reimbursement by using your mobile device.
