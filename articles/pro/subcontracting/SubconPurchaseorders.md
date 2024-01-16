@@ -37,7 +37,7 @@ To set up the default procurement categories and project categories, follow thes
 When a timesheet entry or expenses are logged in Dataverse, D365 Finance will automatically genearte and post the product receipt for the subcontract purchase order through the periodic processes: **Generate Subcontract Product Receipt** and **Post Subcontract Product Receipt**. To facilitate the automatic generation of product receipts, it is necessary to configure a number sequence. 
 
 To set up the number sequence for subcontract product receipts, follow these steps:
-1. In **D365 Finance**, go to **Project management and accounting** > **Project management and accounting parameters**>.
+1. In **D365 Finance**, go to **Project management and accounting** > **Project management and accounting parameters**.
 2. Click on **Number sequence** tab.
 3. Select the **Product receipt** reference and select the number sequence for subcontract **product receipt**. 
 
