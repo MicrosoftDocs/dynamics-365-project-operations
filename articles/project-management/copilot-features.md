@@ -7,6 +7,8 @@ ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: poojafandan
 author: poojafandan
+ms.collection:
+  - bap-ai-copilot 
 ---
 
 # Project management Copilot overview
