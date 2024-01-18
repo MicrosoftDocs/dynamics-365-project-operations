@@ -1,12 +1,14 @@
 ---
 title: Project Operations updates
 description: This article provides information about the released versions of Dynamics 365 Project Operations.
-author: sigitac
-ms.date: 09/18/2023
-ms.topic: article
+author: abriccetti
+ms.date: 01/17/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.prod:
 ms.reviewer: johnmichalak
-ms.author: sigitac
+ms.author: abriccetti
 ---
 
 # Project Operations updates
@@ -32,6 +34,9 @@ Dynamics 365 Project Operations consists of two components:
 | Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | 
 | --- | --- |
 | 4.88.0.127 | 10.0.37 |
+
+> [!NOTE]
+> The minimum supported version of Project Operations is 4.28.0.120. If you are using an older version of the product, contact Microsoft support for assistance in upgrading
 
 For Project Operations Resource/non-stocked scenario, we recommend that you use dual-write Orchestration version 2.3.1.15 or higher.
 
@@ -67,6 +72,6 @@ If auto update is unable to complete, update of your environment on the date def
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
-Please refer to the [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) for the release schedule for Project management and accounting in the finance and operations apps environment. 
+Refer to the [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) for the release schedule for Project management and accounting in the finance and operations apps environment. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

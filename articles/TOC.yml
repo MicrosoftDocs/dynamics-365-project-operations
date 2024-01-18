@@ -434,6 +434,8 @@
         href: resource-management/define-roles.md
       - name: Define resource calendars
         href: resource-management/define-resource-calendars.md
+      - name: HR to RM integration
+        href: resource-management/hr-rm-integration.md
     - name: Booking allocation methods
       href: resource-management/booking-allocation-methods.md  
     - name: Booking statuses
