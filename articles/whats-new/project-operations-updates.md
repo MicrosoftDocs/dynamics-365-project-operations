@@ -31,12 +31,12 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations latest version
 
-| Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | 
-| --- | --- |
-| 4.88.0.127 | 10.0.37 |
+| Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | Project App on Dataverse Environments |
+| --- | --- | --- |
+| 4.88.0.127 | 10.0.37 | 1.0.88.122 |
 
 > [!NOTE]
-> The minimum supported version of Project Operations is 4.28.0.120. If you are using an older version of the product, contact Microsoft support for assistance in upgrading
+> The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively. If you are using an older version of either product, contact Microsoft support for assistance in upgrading
 
 For Project Operations Resource/non-stocked scenario, we recommend that you use dual-write Orchestration version 2.3.1.15 or higher.
 
