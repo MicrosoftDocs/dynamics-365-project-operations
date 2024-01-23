@@ -42,12 +42,12 @@ To set up the number sequence for subcontract product receipts, follow these ste
 3. Select the **Product receipt** reference and select the number sequence for subcontract **product receipt**. 
 
 ## Set Dual write maps
-For the automatic generation of purchase orders and purchase order lines in **D365 Finance** for each subcontract in **Dataverse**, the Dual Write maps must be in the running stage. The following is a list of Dual Write maps that need to be in the running stage:
+For the automatic generation of purchase orders and purchase order lines in **D365 Finance** for each subcontract in **Dataverse**, the Dual Write maps must be in the running stage. The following is a list of Dual Write maps and respective map versions that need to be in the running stage:
 
-1. Project Operations integration actuals (msdyn_actuals) - 1.0.0.17
-2. Project Operations integration project vendor invoice export entity V2 (msdyn_projectvendorinvoices)
-3. Project subcontract purchase order header (msdyn_subcontracts)
-4. Project subcontract purchase order line (msdyn_subcontractlines)
+1. Project Operations integration actuals (msdyn_actuals) - 1.0.0.18
+2. Project Operations integration project vendor invoice export entity V2 (msdyn_projectvendorinvoices) - 1.0.0.7
+3. Project subcontract purchase order header (msdyn_subcontracts) - 1.0.0.0
+4. Project subcontract purchase order line (msdyn_subcontractlines) - 1.0.0.0
 
 ## Create and manage subcontracts
 Upon creating a **subcontract** in **Dataverse**, a corresponding purchase order is generated in **D365 Finance** for each subcontract. Additionally, for every **subcontract line** in **Dataverse**, a **purchase order line** is created. Leveraging the **Project Subcontract Category mapping** outlined earlier, the system identifies the **procurement category** and **project category** for each purchase order line. 
