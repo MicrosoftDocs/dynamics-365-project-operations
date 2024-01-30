@@ -11,8 +11,6 @@ ms.author: mukumarm
 ---
 # Dynamics 365 Subcontract purchase orders overview
 
-[!INCLUDE[banner](../includes/banner.md)]
-
 _**Applies To:** Project Operations for resource/non-stocked based scenarios.
 
 This article presents an overview of the **subcontracting** feature seamlessly integrated with **D365 Finance**. This functionality enables users to generate subcontracts, document timesheets, expenses, and other pertinent information provided by subcontractors within **Dataverse**. For every subcontract, the system automatically generates purchase orders in **D365 Finance**. Likewise, for each recorded timesheet or expense in **Dataverse**, the system generates corresponding product receipts in **D365 Finance**. When the subcontractor submits an invoice in **D365 Finance**, the accounts payable clerk gains access to all recorded timesheets and expenses associated with the subcontract. This facilitates the accounts payable clerk in conducting a three-way matching process and successfully booking the invoice in **D365 Finance**.
