@@ -22,6 +22,13 @@ To utilize this functionality, it is necessary to activate the below **features*
 2. Enable project purchase orders on Project Operations for resource based/non-stocked scenarios.
 3. Enable subcontract purchase orders on Project Operations for resource based/non-stocked scenarios.
 
+## Minimum version required
+
+To use this feature for Microsoft Dynamics 365 Project Operations non-stocked/resource-based scenarios, the following versions are required:
+
+- **Project Operations Dataverse** version 4.91.0.0 or later.
+- **Dynamics 365 Finance** version 10.0.39 or later.
+  
 ## Set default procurement categories and project categories for subcontract lines
 To generate purchase order lines in D365 Finance for each subcontract line created in Dataverse, it is essential to configure default procurement categories and project categories. This configuration should be based on the roles or expense details specified in the subcontract line. 
 
