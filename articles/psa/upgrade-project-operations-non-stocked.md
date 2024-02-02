@@ -30,7 +30,7 @@ The upgrade delivery program is split into three phases.
 
 ## Upgrade process features 
 
-As part of the upgrade process, we have added upgrade logs to the site map to enable administrators to more easily diagnose failures. In addition to the new interface, new validation rules are added to ensure data integrity after an upgrade. The following validations are added to the upgrade process.
+As part of the upgrade process, upgrade logs are added to the site map to enable administrators to more easily diagnose failures. In addition to the new interface, new validation rules are added to ensure data integrity after an upgrade. The following validations are added to the upgrade process.
 
 | Validations | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
@@ -53,7 +53,7 @@ To be eligible for upgrade, you must meet the following criteria:
 - The target environment must be updated to the latest Project Service Automation available Release.
 - Environments that contain projects that violate the [limits](../project-management/project-and-task-limitations.md) of Project for the Web are allowed to use the Microsoft Project desktop add-in for Project Operations (documentation [here](plan-work-in-project-operations-add-in.md)). Environments that don't contain a project with >500 tasks can't use the add-in.
 
-With the release of phase 3 upgrade, individual projects need to upgrade separately from the environment. When a project is upgraded, it is built in Microsoft Project for the Web and is editable from the tasks tab within Project Operations. When the upgrade button is selected while viewing a project entity, validation checks commence to ensure the project conforms to the project and task [limits](../project-management/project-and-task-limitations.md) of Project for the Web. Projects that aren't or can't be upgraded can still be managed using [external scheduling](../project-management/external-scheduling.md) or the Project desktop add-in for Project Operations.
+With the release of phase 3 upgrade, individual projects need to upgrade separately from the environment. When a project is upgraded, it's built in Microsoft Project for the Web and is editable from the tasks tab within Project Operations. When the upgrade button is selected while viewing a project entity, validation checks commence to ensure the project conforms to the project and task [limits](../project-management/project-and-task-limitations.md) of Project for the Web. Projects that aren't or can't be upgraded can still be managed using [external scheduling](../project-management/external-scheduling.md) or the Project desktop add-in for Project Operations.
 
 ## Licensing
 
