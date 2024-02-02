@@ -60,17 +60,17 @@ Microsoft Project Client application if the work breakdown structure is in a dra
 application by clicking **Open** in the **Microsoft Dynamics 365** tab. Select the **Legal entity** and **Project** from the list.
 
 > [!NOTE]
-> If you're using Internet Explorer as your browser, you will need to click **Save** to manually open from the location that the file is downloaded to. Or, click **Save and open** to open the file in Microsoft Project Client. Do not rename the file name when saving.
+> If you're using Internet Explorer as your browser, you need to click **Save** to manually open from the location that the file is downloaded to. Or, click **Save and open** to open the file in Microsoft Project Client. Do not rename the file name when saving.
 
-Before making any edits to the file using Microsoft Project Client, you need to check it out. Click **Check out** in the **Microsoft 
-Dynamics 365** tab. This will prevent other users from editing the work breakdown structure from within Finance at the 
+Before making any edits to the file using Microsoft Project Client, you need to check it out. Select **Check out** in the **Microsoft 
+Dynamics 365** tab to prevent other users from editing the work breakdown structure from within Finance at the 
 same time. To publish the work breakdown structure after completing any edits, click **Check in** on the **Microsoft Dynamics 365** tab.
 
-If a project team has already been added to the project in Finance, the resource list will be populated with the team 
-members. If a project team has not yet been added to the project, you can select resources and build the team within Microsoft Project 
+If a project team has already been added to the project in Finance, the resource list is populated with the team 
+members. If a project team hasn't yet been added to the project, you can select resources and build the team within Microsoft Project 
 Client by clicking the **Resources** button on the **Microsoft Dynamics 365** tab. 
 
-The following data will be synced back to Finance as part of the check-in process:
+The following data is synced back to Finance as part of the check-in process:
 
 •	Task name
 
@@ -93,7 +93,7 @@ The following data will be synced back to Finance as part of the check-in proces
 •	Priority
 
 > [!NOTE]
-> If you add any other columns to your Microsoft Project Client file, they will not be saved to the file and will not be displayed when 
+> If you add any other columns to your Microsoft Project Client file, they aren't saved to the file and won't display when 
 the file is opened again.
 
 ## Create the work breakdown structure for an existing project using Microsoft Project Client
