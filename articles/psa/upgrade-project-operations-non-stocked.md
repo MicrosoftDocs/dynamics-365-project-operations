@@ -20,9 +20,9 @@ ms.reviewer: johnmichalak
 
 We're excited to announce the second of three phases for upgrade from Microsoft Dynamics 365 Project Service Automation to Microsoft Dynamics 365 Project Operations. This article provides an overview for customers who are embarking on this exciting journey. 
 
-The upgrade delivery program is split into three phases.
+The upgrade delivery program is split into three phases. Phase 3 is now live for customers.
 
-| Upgrade delivery | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3 (April Wave 2023)  |
+| Upgrade delivery | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3 (November 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | No dependency on the work breakdown structure (WBS) for projects | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | A WBS within the currently supported limits of Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -32,16 +32,13 @@ The upgrade delivery program is split into three phases.
 
 As part of the upgrade process, upgrade logs are added to the site map to enable administrators to more easily diagnose failures. In addition to the new interface, new validation rules are added to ensure data integrity after an upgrade. The following validations are added to the upgrade process.
 
-| Validations | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3  |
+| Validations | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3 (November 2023) |
 |-------------|------------------------|---------------------------|---------------------------|
 | The WBS is validated against common data integrity violations (for example, resource assignments that are associated with the same parent task but have different parent projects). | | :heavy_check_mark: | :heavy_check_mark: |
 | The WBS is validated against the [known limits of Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
 | The WBS is validated against the known limits of the Project desktop client. | |  | :heavy_check_mark: |
 | Bookable resources and project calendars is evaluated against common incompatible calendar rule exceptions. | | :heavy_check_mark: | :heavy_check_mark: |
 
-In phase 2, customers who upgrade to Project Operations will have their existing projects upgraded to a read-only experience for project planning. In this read-only experience, the full WBS will be visible in the tracking grid. To edit the WBS, project managers can select [**Convert**](psa-upgrade-project-conversion.md) on the project's main page. A background process then updates the project so that it supports the new project scheduling experience from Project for the Web. This phase is appropriate for customers who have projects that fit within the [known limits of Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-In phase 3, support for the Project desktop client will be added, for the benefit of customers who want to continue to edit their projects from that application. However, if existing projects are converted to the new Project for the Web experience, access to the add-in will be disabled for each converted project.
 
 ## Prerequisites
 
@@ -53,7 +50,7 @@ To be eligible for upgrade, you must meet the following criteria:
 - The target environment must be updated to the latest Project Service Automation available Release.
 - Environments that contain projects that violate the [limits](../project-management/project-and-task-limitations.md) of Project for the Web are allowed to use the Microsoft Project desktop add-in for Project Operations (documentation [here](plan-work-in-project-operations-add-in.md)). Environments that don't contain a project with >500 tasks can't use the add-in.
 
-With the release of phase 3 upgrade, individual projects need to upgrade separately from the environment. When a project is upgraded, it's built in Microsoft Project for the Web and is editable from the tasks tab within Project Operations. When the upgrade button is selected while viewing a project entity, validation checks commence to ensure the project conforms to the project and task [limits](../project-management/project-and-task-limitations.md) of Project for the Web. Projects that aren't or can't be upgraded can still be managed using [external scheduling](../project-management/external-scheduling.md) or the Project desktop add-in for Project Operations.
+With the release of phase 3 upgrade, individual projects need to upgrade separately from the environment. When a project is upgraded, it's built in Microsoft Project for the Web and is editable from the tasks tab within Project Operations. When the upgrade button is selected while viewing a project entity, validation checks commence to ensure the project conforms to the project and task [limits](../project-management/project-and-task-limitations.md) of Project for the Web. Projects that aren't or can't be upgraded can still be managed using [external scheduling](../project-management/external-scheduling.md) or the Project desktop add-in for Project Operations. Upgraded projects will no longer be editable using the Project desktop add-in.
 
 ## Licensing
 
