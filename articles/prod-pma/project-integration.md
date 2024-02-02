@@ -9,6 +9,7 @@ ms.topic: conceptual
 ms.custom: 
   - bap-template
   - evergreen
+  - 87983
 ms.prod: 
 ms.technology: 
 
@@ -21,7 +22,6 @@ audience: Application User
 ms.reviewer: johnmichalak
 
 # ms.tgt_pltfrm: 
-ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 # ms.search.industry: 
