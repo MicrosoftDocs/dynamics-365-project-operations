@@ -486,6 +486,8 @@
       href: pro/subcontracting/recording-subcon-actuals.md
     - name: State transitions on a subcontract 
       href: pro/subcontracting/subcon-states.md
+    - name: Subcontract purchase orders
+      href: pro/subcontracting/SubconPurchaseorders.md
   - name: Time
     items: 
     - name: Time overview
