@@ -124,6 +124,6 @@ To create and post subcontract vendor invoices, follow these steps.
 
 Upon posting the vendor invoice, **synchronization** with **Dataverse** occurs, and an automatic **confirmation** is executed for the vendor invoices in **Dataverse**. Within **Dataverse**, the system initiates an **automatic matching** process for **vendor invoice lines** and the **original timesheet or expense entries** associated with subcontracts. This process involves generating a **reversal** entry for the original record and subsequently creating a new entry for the vendor invoice line in the **Actual** entity.
    
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
 
