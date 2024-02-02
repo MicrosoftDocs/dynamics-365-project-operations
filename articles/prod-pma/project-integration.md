@@ -3,8 +3,8 @@
 
 title: Microsoft Project client integration
 description: Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task. Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure. 
-author: Yowelle
-ms.date: 06/16/2021
+author: Abriccetti
+ms.date: 02/02/2024
 ms.topic: article
 ms.prod: 
 ms.technology: 
@@ -31,6 +31,9 @@ ms.dyn365.ops.version: 7.3
 # Microsoft Project client integration
 
 [!include [banner](../includes/banner.md)]
+
+> [!NOTE]
+> **This integration is built on legacy technology and is not receiving further investment. Support for this feature will end by January 2025.**
 
 Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task. 
 Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure. The project manager 
