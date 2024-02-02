@@ -1,11 +1,13 @@
 ---
 title: Upgrade from Project Service Automation to Project Operations
 description: This article provides an overview of the process to upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
-author: ruhercul
-ms.custom: dyn365-projectservice
-ms.date: 11/01/2022
-ms.topic: article
-ms.author: ruhercul
+author: abriccetti
+ms.date: 02/02/2024
+ms.topic: overview
+ms.custom: 
+  - bap-template
+  - dyn365-projectservice
+ms.author: abriccetti
 audience: Admin
 search.audienceType: 
   - admin
@@ -16,11 +18,11 @@ ms.reviewer: johnmichalak
 
 # Upgrade from Project Service Automation to Project Operations
 
-We are excited to announce the second of three phases for upgrade from Microsoft Dynamics 365 Project Service Automation to Microsoft Dynamics 365 Project Operations. This article provides an overview for customers who are embarking on this exciting journey. 
+We're excited to announce the second of three phases for upgrade from Microsoft Dynamics 365 Project Service Automation to Microsoft Dynamics 365 Project Operations. This article provides an overview for customers who are embarking on this exciting journey. 
 
-The upgrade delivery program will be split into three phases.
+The upgrade delivery program is split into three phases. Phase 3 is now live for customers.
 
-| Upgrade delivery | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3 (April Wave 2023)  |
+| Upgrade delivery | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3 (November 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | No dependency on the work breakdown structure (WBS) for projects | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | A WBS within the currently supported limits of Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -28,18 +30,15 @@ The upgrade delivery program will be split into three phases.
 
 ## Upgrade process features 
 
-As part of the upgrade process, we have added upgrade logs to the site map to enable administrators to more easily diagnose failures. In addition to the new interface, new validation rules will be added to ensure data integrity after an upgrade. The following validations will be added to the upgrade process.
+As part of the upgrade process, upgrade logs are added to the site map to enable administrators to more easily diagnose failures. In addition to the new interface, new validation rules are added to ensure data integrity after an upgrade. The following validations are added to the upgrade process.
 
-| Validations | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3  |
+| Validations | Phase 1 (January 2022) | Phase 2 (November 2022) | Phase 3 (November 2023) |
 |-------------|------------------------|---------------------------|---------------------------|
-| The WBS will be validated against common data integrity violations (for example, resource assignments that are associated with the same parent task but have different parent projects). | | :heavy_check_mark: | :heavy_check_mark: |
-| The WBS will be validated against the [known limits of Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| The WBS will be validated against the known limits of the Project desktop client. | |  | :heavy_check_mark: |
-| Bookable resources and project calendars will be evaluated against common incompatible calendar rule exceptions. | | :heavy_check_mark: | :heavy_check_mark: |
+| The WBS is validated against common data integrity violations (for example, resource assignments that are associated with the same parent task but have different parent projects). | | :heavy_check_mark: | :heavy_check_mark: |
+| The WBS is validated against the [known limits of Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
+| The WBS is validated against the known limits of the Project desktop client. | |  | :heavy_check_mark: |
+| Bookable resources and project calendars is evaluated against common incompatible calendar rule exceptions. | | :heavy_check_mark: | :heavy_check_mark: |
 
-In phase 2, customers who upgrade to Project Operations will have their existing projects upgraded to a read-only experience for project planning. In this read-only experience, the full WBS will be visible in the tracking grid. To edit the WBS, project managers can select [**Convert**](psa-upgrade-project-conversion.md) on the project's main page. A background process then updates the project so that it supports the new project scheduling experience from Project for the Web. This phase is appropriate for customers who have projects that fit within the [known limits of Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-In phase 3, support for the Project desktop client will be added, for the benefit of customers who want to continue to edit their projects from that application. However, if existing projects are converted to the new Project for the Web experience, access to the add-in will be disabled for each converted project.
 
 ## Prerequisites
 
@@ -47,19 +46,19 @@ In phase 3, support for the Project desktop client will be added, for the benefi
 To be eligible for upgrade, you must meet the following criteria:
 
 - Valid Project Operations licenses must be assigned to all active users. 
-- You must validate the upgrade process in at least one non-production environment that contains a representative dataset that is aligned with your production environment.
+- You must validate the upgrade process in at least one nonproduction environment that contains a representative dataset that is aligned with your production environment.
 - The target environment must be updated to the latest Project Service Automation available Release.
-- Environments that contain tasks (msdyn_projecttask) are supported only if the total number of tasks per project is 500 or less.
+- Environments that contain projects that violate the [limits](../project-management/project-and-task-limitations.md) of Project for the Web are allowed to use the Microsoft Project desktop add-in for Project Operations (documentation [here](plan-work-in-project-operations-add-in.md)). Environments that don't contain a project with >500 tasks can't use the add-in.
 
-Prerequisites for Phase 3 will be updated as the general availability date approaches.
+With the release of phase 3 upgrade, individual projects need to upgrade separately from the environment. When a project is upgraded, it's built in Microsoft Project for the Web and is editable from the tasks tab within Project Operations. When the upgrade button is selected while viewing a project entity, validation checks commence to ensure the project conforms to the project and task [limits](../project-management/project-and-task-limitations.md) of Project for the Web. Projects that aren't or can't be upgraded can still be managed using [external scheduling](../project-management/external-scheduling.md) or the Project desktop add-in for Project Operations. Upgraded projects will no longer be editable using the Project desktop add-in.
 
 ## Licensing
 
-If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. In this way, you can test the capabilities of Project Operations while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you will have to transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license. Customers who have scenarios where they have deployed Project Service Automation and need to continue to use or increase their licenses for PSA while they plan to move to Project Operations, may request temporary PSA licenses based on Project Operations purchased licenses. One Project Service Automation license will be issued for one Project Operations license. Temporary PSA licenses may be requested by using this link: [aka.ms/ineedpsa](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1ccNeVH0Y5Bias6PVDCNbZUOUg4TkZJUEswSVQ1ODhNNkpHVVlMMldPTi4u)
+If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. In this way, you can test the capabilities of Project Operations while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you must transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license. Customers who have scenarios where they deployed Project Service Automation and need to continue to use or increase their licenses for PSA while they plan to move to Project Operations, may request temporary PSA licenses based on Project Operations purchased licenses. One Project Service Automation license is issued for one Project Operations license. Temporary PSA licenses may be requested by using this link: [aka.ms/ineedpsa](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1ccNeVH0Y5Bias6PVDCNbZUOUg4TkZJUEswSVQ1ODhNNkpHVVlMMldPTi4u)
 
 ## Testing and refactoring customizations
 
-As a starting point, import all customizations into a clean Project Operations (Lite) environment to confirm that import is successful, and that business operations behave as expected.
+As a starting point, import all customizations into a clean Project Operations Lite environment to confirm that import is successful, and that business operations behave as expected.
 
 Here are some things to watch out for:
 
@@ -75,14 +74,14 @@ After you update your customizations to cleanly import Project Operations, move 
 ### Initiate upgrade 
 
 1. In the Power Platform admin center, find and select your environment. Then, in the applications, find and select **Dynamics 365 Project Operations**.
-2. Select **Install** to start the upgrade. The Power Platform admin center will present this installation as a new installation. However, the presence of an earlier version of Project Service Automation will be detected, and the existing installation will be upgraded.
+2. Select **Install** to start the upgrade. The Power Platform admin center presents this installation as a new installation. However, the presence of an earlier version of Project Service Automation is detected, and the existing installation will be upgraded.
 
     After the upgrade is completed, the environment should show that Project Operations is installed, and that Project Service Automation isn't installed.
 
-    Depending on the amount of data in the environment, the upgrade might take several hours. The core team that is managing the upgrade should plan accordingly and run the upgrade during non-business hours. In some cases, if the data volume is large, the upgrade should be run during the weekend. The decision about scheduling should be based on the testing results in lower environments.
+    Depending on the amount of data in the environment, the upgrade might take several hours. The core team that is managing the upgrade should plan accordingly and run the upgrade during nonbusiness hours. In some cases, if the data volume is large, the upgrade should be run during the weekend. The decision about scheduling should be based on the testing results in lower environments.
 
 3. Upgrade custom solutions as appropriate. At this point, deploy any changes that you made to your customizations in the [Testing and refactoring customizations](#testing-and-refactoring-customizations) section of this article.
-4. Go to **make.powerapps.com**, select your environment from the drop down in the top right of the portal, select **Solutions** from the left menu, select the **Project Operations Deprecated Components** solution and **Uninstall**.
+4. Go to **make.powerapps.com**, select your environment from the drop-down in the top right of the portal, select **Solutions** from the left menu, select the **Project Operations Deprecated Components** solution and **Uninstall**.
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.
     
@@ -94,7 +93,7 @@ The following steps describe the upgrade process and associated error logging:
 1. **Pre-validation:** When an administrator initiates an upgrade, the system runs a pre-validation operation on each entity that is core to the Project Operations solution. This step verifies that all entities references are valid, and it ensures that data that is related to the WBS is within the published limits of Project for the Web.
 1. **Metadata upgrade:** After successful pre-validation, the system initiates changes to the schema and creates a deprecated components solution. You can remove this deprecated solution after you've completed all required refactoring of customizations. This step is the longest part of the upgrade process and can take up to four hours to be completed.
 1. **Data upgrade:** After all required schema changes have been completed in the metadata upgrade step, your data is migrated to the new schema, and any required defaulting and recalculation are done.
-1. **Project schedule engine update:** After successful data upgrade, the **Schedule** tab on the main page is relabeled **Tasks**. When a user selects this tab after the upgrade, they are directed to navigate to the tracking grid to view a read-only version of the WBS. To edit the WBS, they must initiate the schedule [conversion process](psa-upgrade-project-conversion.md). All projects without a pre-existing WBS can use the new scheduling experience directly, without conversion.
+1. **Project schedule engine update:** After successful data upgrade, the **Schedule** tab on the main page is relabeled **Tasks**. When a user selects this tab after the upgrade, they're directed to navigate to the tracking grid to view a read-only version of the WBS. To edit the WBS, they must initiate the schedule [conversion process](psa-upgrade-project-conversion.md). All projects without a pre-existing WBS can use the new scheduling experience directly, without conversion.
  
 ### Validate common scenarios
 
@@ -120,7 +119,7 @@ As part of continuing investments in Project Operations, several new capabilitie
 
 ### Resource management
 
-Project Operations provides optional support for the Universal Resource Scheduling (URS) board and scheduling assistant. This new experience will become mandatory in the April 2023 wave.
+Project Operations provides optional support for the Universal Resource Scheduling (URS) board and scheduling assistant. This new experience becomes mandatory in the April 2023 wave.
 
 ## Frequently asked questions
 
