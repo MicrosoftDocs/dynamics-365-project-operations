@@ -4,7 +4,9 @@ description: This article provides an overview of the process to upgrade from Mi
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/02/2024
-ms.topic: article
+ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.author: abriccetti
 audience: Admin
 search.audienceType: 
@@ -49,7 +51,7 @@ To be eligible for upgrade, you must meet the following criteria:
 - Valid Project Operations licenses must be assigned to all active users. 
 - You must validate the upgrade process in at least one non-production environment that contains a representative dataset that is aligned with your production environment.
 - The target environment must be updated to the latest Project Service Automation available Release.
-- Environments that contain projects which violate the [limits](https://learn.microsoft.com/dynamics365/project-operations/project-management/project-and-task-limitations) of Project for the Web will be allowed to use the Microsoft Project desktop add-in for Project Operations (documentation [here](https://learn.microsoft.com/dynamics365/project-operations/psa/plan-work-in-project-operations-add-in)). Environments which do not contain a project with >500 tasks will not be allowed to use the add-in.
+- Environments that contain projects which violate the [limits](https://learn.microsoft.com/dynamics365/project-operations/project-management/project-and-task-limitations) of Project for the Web are allowed to use the Microsoft Project desktop add-in for Project Operations (documentation [here](https://learn.microsoft.com/dynamics365/project-operations/psa/plan-work-in-project-operations-add-in)). Environments that don't contain a project with >500 tasks can't use the add-in.
 
 With the release of phase 3 upgrade, individual projects will need to be upgraded separately from the environment. When a project is upgraded it will be built in Microsoft Project for the Web and will be editable from the tasks tab within Project Operations. When the upgrade button is selected while viewing a project entity validation checks will commence to ensure the project conforms to the project and task [limits](https://learn.microsoft.com/dynamics365/project-operations/project-management/project-and-task-limitations) of Project for the Web. Projects which are not or cannot be upgraded can still be managed using [external scheduling](https://learn.microsoft.com/dynamics365/project-operations/project-management/external-scheduling) or the Project desktop add-in for Project Operations.
 
