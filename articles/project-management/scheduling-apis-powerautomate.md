@@ -19,12 +19,12 @@ The example in this article uses the PssCreateV1 API. For an example that uses t
 
 Here's a complete list of the steps that are documented in the sample flow in this article:
 
-1. [Create a PowerApps trigger](#1)
+1. [Create a Power Apps trigger](#1)
 2. [Create a project](#2)
 3. [Initialize a variable for the team member](#3)
 4. [Create a generic team member](#4)
 5. [Create an Operation Set](#5)
-6. [Initialize a variable for the Project Bucket Id](#6)
+6. [Initialize a variable for the Project Bucket ID](#6)
 7. [Create a project bucket](#7)
 8. [Initialize a variable for the number of tasks](#8)
 9. [Initialize a variable for the project task ID](#9)
@@ -58,7 +58,7 @@ Follow these steps to create a [solution-aware flow](/power-automate/overview-so
 2. On the **Solutions** page, select **New solution**.
 3. In the **New solution** dialog box, set the required fields, and then select **Create**.
 
-## <a id="1"></a>Step 1: Create a PowerApps trigger
+## <a id="1"></a>Step 1: Create a Power Apps trigger
 
 1. On the **Solutions** page, select the solution that you created, and then select **New**.
 2. In the left pane, select **Cloud flows** \> **Automation** \> **Cloud flow** \> **Instant**.
@@ -135,12 +135,12 @@ Follow these steps to create a sample project.
 6. In the **Description** field, enter **ScheduleAPIDemoOperationSet**.
 7. In the **Project** field, from the **Dynamic content** dialog box, select **msdyn_CreateProjectV1Response ProjectId**.
 
-## <a id="6"></a>Step 6: Initialize variable for Project Bucket Id
+## <a id="6"></a>Step 6: Initialize variable for Project Bucket ID
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the new step, select the ellipsis (**&hellip;**), and then select **Rename**.
-4. Rename the step **Init Project Bucket Id**.
+4. Rename the step **Init Project Bucket ID**.
 5. In the **Name** field, enter **project bucket id**.
 6. In the **Type** field, select **String**.
 7. In the **Value** field, enter **@{guid()}**.
