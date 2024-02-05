@@ -145,7 +145,7 @@ Follow these steps to create a sample project.
 6. In the **Type** field, select **String**.
 7. In the **Value** field, enter **@{guid()}**.
 
-## <a id="7"></a>Step 6: Create a project bucket
+## <a id="7"></a>Step 7: Create a project bucket
 
 1. In the flow, select **Add an action**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -172,7 +172,7 @@ Follow these steps to create a sample project.
 
 7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
 
-## <a id="7"></a>Step 7: Initialize a variable for the number of tasks
+## <a id="8"></a>Step 8: Initialize a variable for the number of tasks
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -182,7 +182,7 @@ Follow these steps to create a sample project.
 6. In the **Type** field, select **Integer**.
 7. In the **Value** field, enter **5**.
 
-## <a id="8"></a>Step 8: Initialize a variable for the project task ID
+## <a id="9"></a>Step 9: Initialize a variable for the project task ID
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **initialize variable**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -192,7 +192,7 @@ Follow these steps to create a sample project.
 6. In the **Type** field, select **String**.
 7. For the **Value** field, enter **guid()** in the expression builder.
 
-## <a id="9"></a>Step 9: Do until
+## <a id="10"></a>Step 10: Do until
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **do until**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -200,7 +200,7 @@ Follow these steps to create a sample project.
 4. Set the condition to **less than equal to**.
 5. Set the second value in the conditional statement to **0**.
 
-## <a id="10"></a>Step 10: Set a project task
+## <a id="11"></a>Step 11: Set a project task
 
 1. In the flow, select **Add an action**.
 2. In the **Choose an operation** dialog box, in the search field, enter **set variable**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -209,7 +209,7 @@ Follow these steps to create a sample project.
 5. In the **Name** field, select **msdyn\_projecttaskid**.
 6. For the **Value** field, enter **guid()** in the expression builder.
 
-## <a id="11"></a>Step 11: Create a project task
+## <a id="12"></a>Step 12: Create a project task
 
 Follow these steps to create a project task that has a unique ID that belongs to the current project and the project bucket that you created.
 
@@ -247,7 +247,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
 
-## <a id="12"></a>Step 12: Create a resource assignment
+## <a id="13"></a>Step 13: Create a resource assignment
 
 1. In the flow, select **Add an action**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -269,14 +269,14 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
 
-## <a id="13"></a>Step 13: Decrement a variable
+## <a id="14"></a>Step 14: Decrement a variable
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **decrement variable**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the **Name** field, select **number of tasks**.
 4. In the **Value** field, enter **1**.
 
-## <a id="14"></a>Step 14: Rename a project task
+## <a id="15"></a>Step 15: Rename a project task
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
@@ -295,7 +295,7 @@ Follow these steps to create a project task that has a unique ID that belongs to
 
 7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
 
-## <a id="15"></a>Step 15: Run an Operation Set
+## <a id="16"></a>Step 16: Run an Operation Set
 
 1. In the flow, select **New step**.
 2. In the **Choose an operation** dialog box, in the search field, enter **perform unbound action**. Then, on the **Actions** tab, select the operation in the list of results.
