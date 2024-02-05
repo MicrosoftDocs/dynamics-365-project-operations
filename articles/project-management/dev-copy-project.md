@@ -53,8 +53,8 @@ The following validations are done.
 1. Null checks and retrieves the source and target projects to confirm the existence of both projects in the organization.
 2. The system validates that the target project is valid for copying by verifying the following conditions:
 
-    - There is no previous activity on the project (including selection of the **Tasks** tab), and the project is newly created.
-    - There is no previous copy, no import has been requested on this project, and the project doesn't have a **Failed** status.
+    - There isn't previous activity on the project (including selection of the **Tasks** tab), and the project is newly created.
+    - There isn't a previous copy, no import was requested on this project, and the project doesn't have a **Failed** status.
 
 3. The operation isn't called by using HTTP.
 
@@ -72,7 +72,7 @@ There are five input parameters:
 - **Target** – The entity reference of the target project to copy to. This parameter can't be null.
 - **TeamMemberOption** – The option for copying team members to the target project. This parameter can't be null.
 
-    - **0** – Do not copy team members.
+    - **0** – Don't copy team members.
     - **1** – Copy team members as generic resources.
     - **2** – Copy team members to specified named or generic resources.
 
@@ -87,7 +87,7 @@ The following table provides a summary of the five parameters.
 | Target             | Entity Reference | The target project |
 | TeamMemberOption   | Option Set       | **0**, **1**, or **2** |
 | TeamMembers        | Entity Collection| Named or generic team members for the target project |
-| TeamMembersMappint | Json String      | The dictionary that maps team members from the source project to the target project |
+| TeamMembersMapping | Json String      | The dictionary that maps team members from the source project to the target project |
 
 For more defaults on actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
@@ -99,8 +99,8 @@ The following validations are done.
 2. The system validates that all team members in both the **TeamMembers** parameter and the **TeamMemberMapping** parameter are valid.
 3. The system validates that the target project is valid for copying by verifying the following conditions:
 
-    - There is no previous activity on the project (including selection of the **Tasks** tab), and the project is newly created.
-    - There is no previous copy, no import has been requested on this project, and the project doesn't have a **Failed** status.
+    - There isn't previous activity on the project (including selection of the **Tasks** tab), and the project is newly created.
+    - There isn't previous copy, no import was requested on this project, and the project doesn't have a **Failed** status.
 
 4. The operation isn't called by using HTTP.
 
