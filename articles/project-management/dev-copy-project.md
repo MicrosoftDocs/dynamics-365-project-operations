@@ -87,7 +87,7 @@ The following table provides a summary of the five parameters.
 | Target             | Entity Reference | The target project |
 | TeamMemberOption   | Option Set       | **0**, **1**, or **2** |
 | TeamMembers        | Entity Collection| Named or generic team members for the target project |
-| TeamMembersMappint | Json String      | The dictionary that maps team members from the source project to the target project |
+| TeamMembersMapping | Json String      | The dictionary that maps team members from the source project to the target project |
 
 For more defaults on actions, see [Use Web API actions](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
 
