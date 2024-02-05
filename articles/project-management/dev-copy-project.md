@@ -54,7 +54,7 @@ The following validations are done.
 2. The system validates that the target project is valid for copying by verifying the following conditions:
 
     - There isn't previous activity on the project (including selection of the **Tasks** tab), and the project is newly created.
-    - There isn't previous copy, no import has been requested on this project, and the project doesn't have a **Failed** status.
+    - There isn't a previous copy, no import was requested on this project, and the project doesn't have a **Failed** status.
 
 3. The operation isn't called by using HTTP.
 
@@ -99,8 +99,8 @@ The following validations are done.
 2. The system validates that all team members in both the **TeamMembers** parameter and the **TeamMemberMapping** parameter are valid.
 3. The system validates that the target project is valid for copying by verifying the following conditions:
 
-    - There is no previous activity on the project (including selection of the **Tasks** tab), and the project is newly created.
-    - There is no previous copy, no import has been requested on this project, and the project doesn't have a **Failed** status.
+    - There isn't previous activity on the project (including selection of the **Tasks** tab), and the project is newly created.
+    - There isn't previous copy, no import was requested on this project, and the project doesn't have a **Failed** status.
 
 4. The operation isn't called by using HTTP.
 
