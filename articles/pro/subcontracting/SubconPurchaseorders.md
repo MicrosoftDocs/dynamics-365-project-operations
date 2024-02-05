@@ -72,7 +72,7 @@ Before purchase orders and purchase order lines in Finance can be automatically 
 
 ## Create and manage subcontracts
 
-After you create a subcontract in Dataverse, a corresponding purchase order is generated for it in Finance. Additionally, for every subcontract line in Dataverse, a purchase order line is created. The systems uses the project subcontract category mapping that was outlined earlier to identify the procurement category and project category for each purchase order line.
+After you create a subcontract in Dataverse, a corresponding purchase order is generated for it in Finance. Additionally, for every subcontract line in Dataverse, a purchase order line is created. The system uses the project subcontract category mapping that was outlined earlier to identify the procurement category and project category for each purchase order line.
 
 After the subcontract is confirmed in Dataverse, purchase orders are automatically confirmed in Finance. If the subcontract or its lines are changed in Dataverse, the purchase orders are seamlessly updated in Finance. Therefore, the purchase order status in Finance reflects any changes.
 
@@ -100,20 +100,20 @@ To view the list of subcontract purchase orders in Finance, follow these steps.
 
 1. On the Action Pane, select **Receipt**.
 
-    The **Journal** section lists the product receipts that have been posted for the purchase order. Product receipts for subcontract purchase orders are automatically posted based on timesheets and expenses that are recorded in Dataverse. Manual product receipts aren't allowed for subcontract purchase orders.
+    The **Journal** section lists the product receipts that were posted for the purchase order. Product receipts for subcontract purchase orders are automatically posted based on timesheets and expenses that are recorded in Dataverse. Manual product receipts aren't allowed for subcontract purchase orders.
 
 ## Generate product receipts for subcontracts
 
 When timesheet entries or expenses are logged in Dataverse, Finance automatically generates and posts the product receipt for the subcontract purchase order through the **Generate Subcontract Product Receipt** and **Post Subcontract Product Receipt** periodic processes.
 
-To generate product receipts for timesheets and expenses that are recorded by subcontractor resources or shared by subcontractors in Dataverse, follow these steps.
+To generate product receipts for timesheets and expenses that subcontractor resources record or subcontractors share in Dataverse, follow these steps.
 
 1. In Finance, go to **Project management and accounting** \> **Periodic** \> **Subcontracts** \> **Generate product receipt for subcontracts**.
 1. Select **Generate product receipt for subcontracts** to generate the product receipt. You can use a batch process to perform this activity on a periodic basis. We recommend that you run this process in batch mode every day.
 
-    Finance uses the timesheet, expenses, material usage, or journal entries to consider all the timesheet entries, expenses, and materials that have been approved in Dataverse for the subcontract.
+    Finance uses the timesheet, expenses, material usage, or journal entries to consider all the timesheet entries, expenses, and materials that were approved in Dataverse for the subcontract.
 
-    After the Project integration journal for all entries is posted, the system generates product receipts for subcontract purchase orders. During the product receipt generation process, the system considers each accounting date that's used for journals. If multiple entries have been posted through the Project integration journal, but they have different accounting dates, multiple product receipts are generated. Each product receipt corresponds to the appropriate accounting date.
+    After the Project integration journal for all entries is posted, the system generates product receipts for subcontract purchase orders. During the product receipt generation process, the system considers each accounting date that's used for journals. If multiple entries were posted through the Project integration journal, but they have different accounting dates, multiple product receipts are generated. Each product receipt corresponds to the appropriate accounting date.
 
 1. In Finance, go to **Project management and accounting** \> **Sub contracts** \> **Project subcontracts product receipts** to view the list of product receipts together with the posted status.
 
@@ -124,7 +124,7 @@ To post the subcontract product receipts, follow one of these steps in Finance.
 - Go to **Project management and accounting** \> **Periodic** \> **Subcontracts** \> **Post product receipt for subcontracts**, and select **Post product receipt for subcontracts** to post the product receipt. You can use a batch process to perform this activity on a periodic basis. We recommend that you run this process in batch mode every day.
 - Go to **Project management and accounting** \> **Sub contracts** \> **Project subcontracts product receipts** to view the list of product receipts together with the posted status. Select the product receipt, and then select **Post** to post it.
 
-In both cases, the system generates the Product receipt financial voucher if product receipt accrual is configured for procurement categories in accordance with the purchasing policy.
+In both cases, the system generates the Product receipt financial voucher if product receipt accrual is configured for procurement categories, in accordance with the purchasing policy.
 
 ## Create and post subcontract vendor invoices
 
