@@ -1,5 +1,5 @@
 ### YamlMime: ContextObject
 brand: dynamics
-breadcrumb_path: ../breadcrumb/toc.json
-toc_rel: ../toc.json
+breadcrumb_path: ../breadcrumb/toc.yml
+toc_rel: ../toc.yml
 uhfHeaderId: MSDocsHeader-Dynamics365-ProjectOperations
