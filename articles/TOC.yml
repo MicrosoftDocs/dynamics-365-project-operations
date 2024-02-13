@@ -37,7 +37,7 @@
     - name: Pre-servicing and post-servicing
       href: /finance/fin-ops-core/fin-ops/lcs/pre-post-servicing.md?context=/dynamics365/project-operations/context/dev-itpro
     - name: Pause service updates
-      href: finance/fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/project-operations/context/dev-itpro
+      href: /finance/fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/project-operations/context/dev-itpro
     - name: Get notified about service updates
       href: /finance/fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/project-operations/context/dev-itpro
     - name: Proactive quality updates
