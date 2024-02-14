@@ -4,7 +4,7 @@
 title: Get recommendations for a project team member (preview)
 description: This article explains how to get optimal recommendations for team members before you book them on a project.
 author: mohitmenon
-ms.date: 1/10/2024
+ms.date: 02/14/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -35,7 +35,7 @@ To get suggested resources, follow these steps.
 
 ## View more details to evaluate suggested resources
 
-Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. Currently, this score is based only on the relevance of the resource's past experience on projects to a team member requirement. In upcoming releases, it will be augmented so that it includes more factors, such as cost, availability, utilization, and skill match. The suggested resources are listed in decreasing order of their recommendation scores.
+Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. Currently, this score is based only on the relevance of the resource's past experience on projects to a team member requirement. In upcoming releases, it is augmented so that it includes more factors, such as cost, availability, utilization, and skill match. The suggested resources are listed in decreasing order of their recommendation scores.
 
 > [!NOTE]
 > By default, both contract workers and full-time employees are shown in the list of suggested resources. To show only full-time employees, disable the **Show contractors** option.
