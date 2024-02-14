@@ -14,10 +14,10 @@
     items: 
     - name: Removed or deprecated features in Project Operations
       href: whats-new/removed-depreciated-features-project.md
-      - name: One Version service updates 
-      items:
-  - name: One Version service updates overview
-    href: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview?context=/dynamics365/project-operations/context/dev-itpro  
+   - name: One Version service updates 
+     items:
+     - name: One Version service updates overview
+       href: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview?context=/dynamics365/project-operations/context/dev-itpro  
 - name: Project Operations for resource/non-stocked based scenarios
   items:
   - name: Get started
