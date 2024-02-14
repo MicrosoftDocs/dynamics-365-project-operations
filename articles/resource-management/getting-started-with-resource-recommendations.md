@@ -4,7 +4,7 @@
 title: Prerequisites to use resource recommendations (preview)
 description: This article explains how to use the resource recommendations feature for the first time.
 author: mohitmenon
-ms.date: 1/10/2024
+ms.date: 02/14/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -25,7 +25,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 To enable resource recommendations, follow these steps.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
-1. Ensure you are using Project Operations version _4.91.0.X_ or above, since this feature is only available from this version onwards. 
+1. Ensure you're using Project Operations version _4.91.0.X_ or above, since this feature is only available from this version onwards. 
 2. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
 1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
