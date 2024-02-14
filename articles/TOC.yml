@@ -68,10 +68,10 @@
       items:
       - name: Developer notes for payment terms
         href: get-started/developer-notes/customizing-payment-terms.md
-  - name: One Version service updates 
-        items:
-        - name: One Version service updates overview
-          href: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?context=/dynamics365/project-operations/context/dev-itpro  
+    - name: One Version service updates 
+      items:
+      - name: One Version service updates overview
+        href: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?context=/dynamics365/project-operations/context/dev-itpro  
   - name: What's new 
     items:
     - name: December 2023 - Project Operations for resource/non-stocked based scenarios
