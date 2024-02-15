@@ -1,8 +1,8 @@
 ---
 # required metadata
 
-title: Deactivate price pists 
-description: This article explains how to deactivate or remove unsused or old price lists.
+title: Deactivate price lists 
+description: This article explains how to deactivate or remove unused or old price lists.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: how-to
@@ -46,13 +46,13 @@ To remove old or unused price lists from Dynamics 365 Project Operations, there 
       - **Project parameters** page > **Price Lists** tab
       - **Organizational Unit** page > **Price Lists** grid
       - **Account** page > **Project Price Lists** grid
-      - **Project Quotes** page > **Project Price Lists** grid: This applies to all active project quotes.
-      - **Project Contracts** page > **Project Price Lists** grid: This applies to all active project contracts.
+      - **Project Quotes** page > **Project Price Lists** grid: **Project Price Lists** applies to all active project quotes.
+      - **Project Contracts** page > **Project Price Lists** grid: **Project Price Lists** applies to all active project contracts.
 
  2. For each page, you need to select the price list that you want to delete, and then select **Delete**. 
  
 ## Delete or deactivate the price list from the Price Lists page
  
 1. To delete a price list from the active price lists, go to **Sales** > **Customers** > **Price Lists**. 
-2. Select the price list that you want to delete and then select **Delete**. If the price list is referenced on any existing transactions, you won't be able to delete it. If this happens, you can deactivate the price list so that it doesn't appear in any views. 
+2. Select the price list that you want to delete and then select **Delete**. If the price list is referenced on any existing transactions, you can't delete it. If this price list is referenced on any existing transactions, you can deactivate the price list so that it doesn't appear in any views. 
 3. To deactivate the price list, select the price list again, and then select **Deactivate**.   
