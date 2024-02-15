@@ -46,18 +46,18 @@ In this example when the automatic invoicing runs on:
 - **October 4 or any date before**: No invoice is generated for this contract because the **Invoice Schedule** table for each of these contract lines doesn't call out October 4, Sunday as an invoice run date.
 - **October 5 Monday**: One invoice is generated for:
 
-    - Prototype work that includes the milestone, if it's marked as **Ready to Invoice**.
-    - Implementation work that includes all Time transactions created before the transaction cut-off date of October 4, Sunday, that is marked as **Ready to Invoice**.
-    - Expense incurred that includes all Expense transactions created before the transaction cut-off date of October 4, Sunday, that is marked as **Ready to Invoice**.
+    - Prototype work that includes the milestone, that's marked as **Ready to Invoice**.
+    - Implementation work that includes all Time transactions created before the transaction cut-off date of October 4, Sunday, that's marked as **Ready to Invoice**.
+    - Expense incurred that includes all Expense transactions created before the transaction cut-off date of October 4, Sunday, that's marked as **Ready to Invoice**.
   
 - **On October 6 or any date before October 19**: No invoice is generated for this contract since the **Invoice Schedule** table for each of these contract lines doesn't call out October 6 or any date before October 19 as an invoice run date.
 - **October 19, Monday**: One invoice is generated for implementation work that includes all Time transactions created before the transaction cut-off date of October 18, Sunday, that is marked as **Ready to Invoice**.
 - **November 2 Monday**: One invoice is generated for:
 
-    - Implementation work that includes all Time transactions created before the transaction cut-off date of November 1, Sunday, that is marked as **Ready to Invoice**.
-    - Expense incurred that includes all Expense transactions created before the transaction cut-off date of November 1, Sunday, that is marked as **Ready to Invoice**.
+    - Implementation work that includes all Time transactions created before the transaction cut-off date of November 1, Sunday, that'is marked as **Ready to Invoice**.
+    - Expense incurred that includes all Expense transactions created before the transaction cut-off date of November 1, Sunday, that's marked as **Ready to Invoice**.
 
-- **November 3, Tuesday**: One invoice is generated for prototype work that includes the milestone for 12,000 USD, if it's marked as **Ready to Invoice**.
+- **November 3, Tuesday**: One invoice is generated for prototype work that includes the milestone for 12,000 USD, that's marked as **Ready to Invoice**.
 
 ## Configure automatic invoicing
 
