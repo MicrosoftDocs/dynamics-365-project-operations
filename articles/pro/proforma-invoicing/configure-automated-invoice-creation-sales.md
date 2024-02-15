@@ -32,7 +32,7 @@ Invoice schedules defined on each of these two line items look like the followin
 
 | Contract line | Invoice run date | Transaction cut-off date | Milestone date | Milestone amount |
 | --- | --- | --- | --- | --- |
-| Prototype work | October 5, Monday | - | October 5, Monday | 5000 USD |
+| Prototype work | October 5, Monday | - | October 5, Monday | 5,000 USD |
 | - | November 3, Tuesday | - | November 3, Tuesday | 12,000 USD |
 | Implementation work | October 5, Monday | October 4, Sunday | - | - |
 | - | October 19, Monday | October 18, Sunday | - | - |
@@ -57,7 +57,7 @@ In this example when the automatic invoicing runs on:
     - Implementation work that includes all Time transactions created before the transaction cut-off date of November 1, Sunday, that is marked as **Ready to Invoice**.
     - Expense incurred that includes all Expense transactions created before the transaction cut-off date of November 1, Sunday, that is marked as **Ready to Invoice**.
 
-- **November 3, Tuesday**: One invoice is generated for prototype work that includes the milestone for 12000 USD, if it's marked as **Ready to Invoice**.
+- **November 3, Tuesday**: One invoice is generated for prototype work that includes the milestone for 12,000 USD, if it's marked as **Ready to Invoice**.
 
 ## Configure automatic invoicing
 
