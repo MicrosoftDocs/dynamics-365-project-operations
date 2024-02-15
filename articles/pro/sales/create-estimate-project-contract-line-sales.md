@@ -18,7 +18,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 In Dynamics 365 Project Operations, a project contract line has details that help estimate the cost and potential revenue of the work that's involved to deliver the contract line.
 
-To estimate a project contract line, go to the **Contract Line Detail** tab on the project-based **Contract Line**.  There are two ways to create an estimate on a project-based contract line:
+To estimate a project contract line, go to the **Contract Line Detail** tab on the project-based **Contract Line**. There are two ways to create an estimate on a project-based contract line:
 
    - Create an estimate directly on the contract line by manually adding contract line details.
    - Create a project and a project plan, and then associate the project and tasks to the project's contract line. This enables the process by which you can import the project plan estimate into the contract line based on the components included on the contract line.
