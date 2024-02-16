@@ -82,9 +82,9 @@ A negative percentage is used to apply a markdown of the transaction cost.
 
 ## Transfer pricing or set up bill rates for resources from other organizational units or divisions 
 
-Project-based companies to use employees from different divisions of the company to work on projects. Projects can be executed from one division while the employees or consultants come from the same a different division of the company. The project could also be made up of a combination of people from different divisions. In Project Operations, the company that owns the delivery of the project is called the **Contracting Unit**. All the other divisions that provide resources are called the **Resourcing Units**. Because of the differences in labor costs across various geographies and labor markets across the world, bill rates for labor are also set up differently for different geographies.
+Project-based companies often use employees from different legal entities and different divisions within the legal entity to work on projects. Projects can be executed from a certain legal entity and division while the employees or consultants that work on the projects could come from the same legal entity and division or from a different one. The project could also be made up of a combination of people from different legal entities and divisions. In Project Operations, the legal entity that owns the delivery of the project is called the **Owning Company**, and the division that owns the delivery is called the **Contracting Unit**. All the other legal entities that provide resources are called the **Resourcing Companies**, and the divisions that provide resources are called **Resourcing Units**. Because of the differences in labor costs across various geographies and labor markets across the world, bill rates for labor are also set up differently for different geographies.
 
-For example, a developer from Fabrikam India working on a US project is billed at the rate of 100 USD per hour. A developer from Fabrikam US working on US Project is billed at 150 USD per hour.
+For example, a developer from the Robotics division of Fabrikam India working on a US project is billed at the rate of 100 USD per hour. A developer from the Robotics division of Fabrikam US working on a US Project is billed at 150 USD per hour.
 
 ### Example: Set up a bill rate
 
