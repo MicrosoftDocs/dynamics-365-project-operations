@@ -3,8 +3,8 @@
 
 title: New Quote form experience
 description: This article provides information about the updates to the project quotes form in Microsoft Dynamics 365 Project Operations.
-author: stsporen
-ms.date: 3/31/2023
+author: poojafandan
+ms.date: 2/16/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ms.prod: 
@@ -22,7 +22,7 @@ ms.search.scope:
 ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: stsporen
+ms.author: poojafandan
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
@@ -67,17 +67,17 @@ The **Analytics** tab is a replica of the out-of-box **Analytics** tab, where yo
 The Price Override button, integrated into the Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks  and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.
 
 **Usage Instructions:**
-Select the quote line detail that requires price adjustment. Click on the Price Override button to initiate the price modification process. A flyout will appear, allowing you to edit the price while retaining the context of the quote line detail.
+Select the quote line detail that requires price adjustment. Click on the Price Override button to initiate the price modification process. A flyout appears, allowing you to edit the price while retaining the context of the quote line detail.
 
 **Functionality:**
-If an existing price override exists, the system will automatically update it with the new price. In cases where no existing override is present, the system will generate a new price override. The Price Override button will only illuminate only if the price you are editing is sourced from the role price list.
+If an existing price override exists, the new price is automatically updated. In cases where no existing override is present, a new price override is updated. The Price Override button illuminates only if the price you are editing is sourced from the role price list.
 
 **Additional Details:**
-Upon creation, the price override will be assigned a default date effective, aligned with the start date of the Price list. You have the option to specify a different effective date for the price override within the flyout. The scope of the price override will be automatically configured to the respective quote. The scope is not allowed to be changed.
+Upon creation, the price override is assigned a default date effective, aligned with the start date of the Price list. You have the option to specify a different effective date for the price override within the flyout. The scope of the price override is automatically configured to the respective quote. 
 
-## One grid: nested Quote Line grid
+## Nested Quote Line grid
 
-With the introduction of nested grids, you have the capability to view and edit both quote lines and their corresponding quote line details within a single grid interface. This functionality enhances usability and efficiency by providing a consolidated view of all related information while enabling seamless editing of both quote lines and quote line details. Quote lines are presented with the respective Quote line details with latter being nested within the same grid, eliminating the need to switch between multiple screens or tabs.
+With the introduction of nested grid, you have the capability to view and edit both quote lines and their corresponding quote line details within a single grid interface. This functionality enhances usability and efficiency by providing a consolidated view of all related information while enabling seamless editing of both quote lines and quote line details. Quote lines are presented with the respective Quote line details with latter being nested within the same grid, eliminating the need to switch between multiple screens or tabs.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
