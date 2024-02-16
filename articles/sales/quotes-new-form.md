@@ -63,7 +63,7 @@ The **Analytics** tab is a replica of the out-of-box **Analytics** tab, where yo
 
 **Recalculate** must be selected on the quote to update the KPIs.
 
-## Role price override within Quote Line Detail form
+## Role price override within Quote Line form
 The Price Override button, integrated into the Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks  and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.
 
 **Usage Instructions:**
@@ -75,7 +75,7 @@ If an existing price override exists, the system will automatically update it wi
 **Additional Details:**
 Upon creation, the price override will be assigned a default date effective, aligned with the start date of the Price list. You have the option to specify a different effective date for the price override within the flyout. The scope of the price override will be automatically configured to the respective quote. The scope is not allowed to be changed.
 
-## One Grid: nested Quote Line grid
+## One grid: nested Quote Line grid
 
 With the introduction of nested grids, you have the capability to view and edit both quote lines and their corresponding quote line details within a single grid interface. This functionality enhances usability and efficiency by providing a consolidated view of all related information while enabling seamless editing of both quote lines and quote line details. Quote lines are presented with the respective Quote line details with latter being nested within the same grid, eliminating the need to switch between multiple screens or tabs.
 
