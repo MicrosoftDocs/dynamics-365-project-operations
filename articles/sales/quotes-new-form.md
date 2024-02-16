@@ -7,25 +7,10 @@ author: poojafandan
 ms.date: 2/16/2024
 ms.topic: conceptual
 ms.custom: bap-template
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm:  
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: poojafandan
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
 ---
+
 # New Quote form experience
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
@@ -64,16 +49,16 @@ The **Analytics** tab is a replica of the out-of-box **Analytics** tab, where yo
 **Recalculate** must be selected on the quote to update the KPIs.
 
 ## Role price override within Quote Line form
-The Price Override button, integrated into the Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks  and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.
+The Price Override button, integrated into the Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.
 
 **Usage Instructions:**
 Select the quote line detail that requires price adjustment. Click on the Price Override button to initiate the price modification process. A flyout appears, allowing you to edit the price while retaining the context of the quote line detail.
 
 **Functionality:**
-If an existing price override exists, the new price is automatically updated. In cases where no existing override is present, a new price override is updated. The Price Override button illuminates only if the price you are editing is sourced from the role price list.
+If an existing price override exists, the new price is automatically updated. In cases where no existing override is present, a new price override is updated. The Price Override button illuminates only if the price you're editing is sourced from the role price list.
 
 **Additional Details:**
-Upon creation, the price override is assigned a default date effective, aligned with the start date of the Price list. You have the option to specify a different effective date for the price override within the flyout. The scope of the price override is automatically configured to the respective quote. 
+Upon creation, the price override is assigned a default effective date, aligned with the start date of the Price list. You have the option to specify a different effective date for the price override within the flyout. The scope of the price override is automatically configured to the respective quote. 
 
 ## Nested Quote Line grid
 
