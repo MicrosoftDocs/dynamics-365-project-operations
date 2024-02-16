@@ -61,37 +61,23 @@ The **Product Lines** tab includes all the product capabilities, so that you can
 
 The **Analytics** tab is a replica of the out-of-box **Analytics** tab, where you can do a deep dive into the data behind the quote.
 
-## What's next and is it ready for production?
+**Recalculate** must be selected on the quote to update the KPIs.
 
-We'll be releasing monthly updates to this form. Some of the updates will drastically change the interface. We recommend that you use the form, but you should expect it to change in each release as we work to add more features and capabilities.
+## Role price override within Quote Line Detail form
+The Price Override button, integrated into the Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks  and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.
 
-Our next goal is to improve the grid experience by adding price editing capabilities and a nested grid for quote line details.
+**Usage Instructions:**
+Select the quote line detail that requires price adjustment. Click on the Price Override button to initiate the price modification process. A flyout will appear, allowing you to edit the price while retaining the context of the quote line detail.
 
-As this process is completed, we'll update this article with notes and progress information.
+**Functionality:**
+If an existing price override exists, the system will automatically update it with the new price. In cases where no existing override is present, the system will generate a new price override. The Price Override button will only illuminate only if the price you are editing is sourced from the role price list.
 
-## Known issues
+**Additional Details:**
+Upon creation, the price override will be assigned a default date effective, aligned with the start date of the Price list. You have the option to specify a different effective date for the price override within the flyout. The scope of the price override will be automatically configured to the respective quote. The scope is not allowed to be changed.
 
-- **Recalculate** must be selected on the quote to update the KPIs.
-- A nested grid for quote line details isn't available.
+## One Grid: nested Quote Line grid
 
-## Enable and disable the new Quote form experience
+With the introduction of nested grids, you have the capability to view and edit both quote lines and their corresponding quote line details within a single grid interface. This functionality enhances usability and efficiency by providing a consolidated view of all related information while enabling seamless editing of both quote lines and quote line details. Quote lines are presented with the respective Quote line details with latter being nested within the same grid, eliminating the need to switch between multiple screens or tabs.
 
-To enable and disable the new **Quote** form experience, follow these steps.
-
-1. As a user who has system customizer privileges, open the [Power Apps maker portal](https://make.powerapps.com).
-1. In the environment picker, select the correct environment.
-1. Select **Solutions** and **Project Operations** (name: **ProjectService**).
-1. Select **Edit**.
-1. Expand **Tables**, **Quote**, and then **Forms**.
-1. Enable or disable the new form:
-
-    - To enable the new form, select **Project Quote Information**, and then select **Turn On**.
-    - To disable the new form and enable the old form, select **Project Information**, and then select **Turn Off**.
-    - Optional: You can leave both forms enabled. In this way, you can switch between experiences.
-
-1. On the left, select **Back to solutions**.
-1. Select **Publish all customizations** to update the environment with the changes.
-
-If you ever want to revert to the original form, use the same basic procedure. However, in step 6, turn on **Project Information**, and turn off **Project Quote Information**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
