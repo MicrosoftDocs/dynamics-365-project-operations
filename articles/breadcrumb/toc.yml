@@ -5,10 +5,3 @@
   - name: Dynamics 365 Project Operations
     tocHref: /dynamics365/project-operations/
     topicHref: /dynamics365/project-operations/index
-- name: Dynamics 365
-  tocHref: /fin-ops-core/
-  topicHref: /dynamics365/index
-  items:
-  - name: Dynamics 365 Project Operations
-    tocHref: /fin-ops-core/dev-itpro
-    topicHref: /dynamics365/project-operations/index
