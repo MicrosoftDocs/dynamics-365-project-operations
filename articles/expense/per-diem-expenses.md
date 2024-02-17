@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Per diem expenses(Preview)
+title: Per diem expenses
 description: This article provides information about how to work with per diem expenses.
 author: suvaidya
 ms.date: 03/18/2022
