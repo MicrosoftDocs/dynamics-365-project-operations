@@ -1,6 +1,6 @@
 ---
-title: Set up labor bill rates Lite deployment (preview)
-description: This article provides information about setting up labor billing rates in Project Operations Lite deployment (preview).
+title: Set up labor bill rates Lite deployment
+description: This article provides information about setting up labor billing rates in Project Operations Lite deployment.
 author: avisness
 ms.date: 02/16/2024
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: avisness
 ---
 
-# Set up labor bill rates Lite deployment (preview)
+# Set up labor bill rates Lite deployment
 
 [!INCLUDE[banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
@@ -38,7 +38,7 @@ The following table shows the fields that appear on the **General** tab and in t
 | Unit Schedule | **General** tab and **Quick Create** pane | By default, this unit schedule is set to **Time** and can't be changed on the Role price entity because it's used to express rates by units of time. | This field has no downstream impact. |
 | Unit | **General** tab and **Quick Create** pane | The unit value comes from the **Time Unit** field on the sales price list header. However, the value can be overridden. For example, a developer from Fabrikam India has bill rate of 1,000 USD per India Day. A developer from Fabrikam USA has a bill rate of 1,500 USD per US Day. | When the default per-unit price is entered on an incoming estimate or actual line, the system uses the system of units and conversion in base units to calculate a per-unit price. For example, the estimate is for 10 India Days' worth of work for a developer from India, and the **India Day** unit is defined as 10 hours. When you price that estimate line, the application calculates the unit price on the estimate as 1,000 USD &divide; 10 hours = 100 USD per hour. |
 
-## Pricing methods for labor (roles)
+## Pricing methods for labor roles (Preview)
 
 When you set up role prices that are relevant in the context of sales pricing, three pricing methods are supported:
 
@@ -46,7 +46,7 @@ When you set up role prices that are relevant in the context of sales pricing, t
 - **At transaction cost** – The sales price of the role is set to the transaction cost of the role.
 - **Markup over transaction cost %** – The sales price of the role is calculated as a markup or markdown percentage, based on the transaction cost of the specified role.
 
-## Enable cost plus pricing
+## Enable cost plus pricing (Preview)
 
 To use all pricing methods and enable cost plus pricing, follow these steps.
 
@@ -81,9 +81,9 @@ A negative percentage is used to apply a markdown of the transaction cost.
 
 ## Transfer pricing or set up bill rates for resources from other organizational units or divisions 
 
-Project-based companies often use employees from different legal entities and different divisions within a legal entity to work on projects. Projects can be executed from a specific legal entity and division, and the employees or consultants who work on the projects can come from either the same legal entity and division or a different one. The project can also be made up of a combination of people from different legal entities and divisions. In Project Operations, the legal entity that owns the delivery of the project is called the **owning company**, and the division that owns the delivery is called the **contracting unit**. All the other legal entities that provide resources are called the **resourcing companies**, and the divisions that provide resources are called the **resourcing units**. Because of the differences in labor costs across geographies and labor markets around the world, bill rates for labor are also set up differently for different geographies.
+Project-based companies often use employees from different divisions of a company to work on projects. Projects can be executed from one division while the employees or consultants come from the same division or a different division. The project can also be made up of a combination of people from different divisions. In Project Operations, the company that owns the delivery of the project is called the **Contracting unit**. All the other divisions that provide resources are called **Resourcing units**. With the differences in labor costs across geographies and labor markets around the world, bill rates for labor are also set up differently for different geographies.
 
-For example, a developer from the Robotics division of Fabrikam India working on a US project is billed at the rate of 100 USD per hour. A developer from the Robotics division of Fabrikam US working on a US project is billed at 150 USD per hour.
+For example, a developer from the Fabrikam India working on a US project is billed at the rate of 100 USD per hour. A developer from the Fabrikam US working on a US project is billed at 150 USD per hour.
 
 ### Example: Set up a bill rate
 
