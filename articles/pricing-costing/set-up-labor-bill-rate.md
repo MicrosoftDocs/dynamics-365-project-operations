@@ -30,7 +30,7 @@ The following table shows the fields that appear on the **General** tab and in t
 | Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Role | **General** tab and **Quick Create** pane | Select the role that you're setting the bill rate for. | The role on the incoming estimate or actual is matched against this line to enter the default bill rate of the role. |
-| Resourcing Company | **General** tab and **Quick Create** pane | Select the company or legal entity that the role is from. For example, a developer from Fabrikam India or a developer from Fabrikam US. | The resourcing company on the incoming estimate or actual is matched against this line to default the bill rate of the role. |
+| Resourcing Company | **General** tab and **Quick Create** pane | Select the company or legal entity that the role is from. For example, a developer from Fabrikam India or a developer from Fabrikam USA. | The resourcing company on the incoming estimate or actual is matched against this line to default the bill rate of the role. |
 | Resourcing Unit | **General** tab and **Quick Create** pane | Select the organizational unit or division of the company that the role is from. Examples include a developer from the Robotics division of Fabrikam India and a developer from the Software division of Fabrikam USA. | The resourcing unit on the incoming estimate or actual is matched against this line to enter the default bill rate of the role. |
 | Price Calculation | **General** tab and **Quick Create** pane | Possible values of the **Pricing calculation** or **Pricing method** field are **Price per unit**, **At transaction cost**, and **Markup over transaction cost**. | During price setup, selection of the ***Price per unit** value locks the **Percent** field on the category price line. Selection of **At transaction cost** locks the **Price** and **Percent** fields on the sales price list. Selection of **Markup over transaction cost** locks the **Price** field on the sales price list. On an incoming actual line for an expense, the **At transaction cost** or **Markup over transaction cost** pricing calculation causes the corresponding unbilled sales line to be assigned a price that either equals the price on the cost actual or is calculated as a markup over the cost price. |
 | Price | **General** tab and **Quick Create** pane | Set up the bill rate for the role resourcing company and resourcing unit combination. For example, a developer from Fabrikam India has a bill rate of 100 USD or a developer from Fabrikam USA has a bill rate of 150 USD. | This price is the default bill rate on the per unit price of the incoming estimate or actual line for Time transaction class. |
@@ -39,7 +39,7 @@ The following table shows the fields that appear on the **General** tab and in t
 | Unit Schedule | **General** tab and **Quick Create** pane | By default, this unit schedule is set to **Time** and can't be changed on the Role price entity because it's used to express rates by units of time. | This field has no downstream impact. |
 | Unit | **General** tab and **Quick Create** pane | The unit value comes from the **Time Unit** field on the sales price list header. However, the value can be overridden. For example, a developer from Fabrikam India has bill rate of 1,000 USD per India Day. A developer from Fabrikam USA has a bill rate of 1,500 USD per US Day. | When the default per-unit price is entered on an incoming estimate or actual line, the system uses the system of units and conversion in base units to calculate a per-unit price. For example, the estimate is for 10 India Days' worth of work for a developer from India, and the **India Day** unit is defined as 10 hours. When you price that estimate line, the application calculates the unit price on the estimate as 1,000 USD &divide; 10 hours = 100 USD per hour. |
 
-## Pricing methods for labor (roles)
+## Pricing methods for labor roles (Preview)
 
 When you set up role prices that are relevant in the context of sales pricing, three pricing methods are supported:
 
@@ -47,7 +47,7 @@ When you set up role prices that are relevant in the context of sales pricing, t
 - **At transaction cost** – The sales price of the role is set to the transaction cost of the role.
 - **Markup over transaction cost %** – The sales price of the role is calculated as a markup or markdown percentage, based on the transaction cost of the specified role.
 
-## Enable cost plus pricing
+## Enable cost plus pricing (Preview)
 
 To use all pricing methods and enable cost plus pricing, follow these steps.
 
@@ -82,7 +82,7 @@ A negative percentage is used to apply a markdown of the transaction cost.
 
 ## Transfer pricing or set up bill rates for resources from other organizational units or divisions 
 
-Project-based companies often use employees from different legal entities and different divisions within a legal entity to work on projects. Projects can be executed from a specific legal entity and division, and the employees or consultants who work on the projects can come from either the same legal entity and division or a different one. The project can also be made up of a combination of people from different legal entities and divisions. In Project Operations, the legal entity that owns the delivery of the project is called the **owning company**, and the division that owns the delivery is called the **contracting unit**. All the other legal entities that provide resources are called the **resourcing companies**, and the divisions that provide resources are called the **resourcing units**. Because of the differences in labor costs across geographies and labor markets around the world, bill rates for labor are also set up differently for different geographies.
+Project-based companies often use employees from different legal entities and different divisions within a legal entity to work on projects. Projects can be executed from a specific legal entity and division, and the employees or consultants who work on the projects can come from either the same legal entity and division or a different one. The project can also be made up of a combination of people from different legal entities and divisions. In Project Operations, the legal entity that owns the delivery of the project is called the **Owning company**, and the division that owns the delivery is called the **Contracting unit**. All the other legal entities that provide resources are called the **Resourcing companies**, and the divisions that provide resources are called the **Resourcing units**. Because of the differences in labor costs across geographies and labor markets around the world, bill rates for labor are also set up differently for different geographies.
 
 For example, a developer from the Robotics division of Fabrikam India working on a US project is billed at the rate of 100 USD per hour. A developer from the Robotics division of Fabrikam US working on a US project is billed at 150 USD per hour.
 
