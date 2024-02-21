@@ -12,7 +12,7 @@ ms.author: avisness
 
 # Set up labor bill rates 
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
@@ -102,4 +102,4 @@ To set up a bill rate, follow these steps.
 3. Attach the sales price list, **Fabrikam US Bill Rates** to the project price list of the project contract or to a certain account.
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
