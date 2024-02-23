@@ -20,7 +20,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Sales | **Cost plus pricing - Quotes**<br><br>Introducing a Price Override button on the Quote Line Detail form to enable quick and easy editing of role prices, while remaining within the context of quote line detail. This button provides new functionality that reduces unnecessary clicks and streamline your Role price editing process. | [New Quote form experience](/dynamics365/project-operations/sales/quotes-new-form.md) |
+| Sales | **Cost plus pricing - Quotes**<br><br>Introducing a Price Override button on the Quote Line Detail form to enable quick and easy editing of role prices, while remaining within the context of quote line detail. This button provides new functionality that reduces unnecessary clicks and streamline your Role price editing process. | [New Quote form experience](/dynamics365/project-operations/sales/quotes-new-form) |
 
 ## Quality updates
 ### Project management and accounting in Finance
