@@ -110,6 +110,8 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: 2024 wave 1 early access - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-2024W1-resource-based.md
     - name: February 2024 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-feb-2024-resource-based.md
     - name: Archive
@@ -812,6 +814,8 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new 2024 wave 1 early access - lite deployment
+      href: pro/whats-new/whats-new-2024W1-early-access-lite.md
     - name: What's new February 2024 - lite deployment
       href: pro/whats-new/whats-new-feb-2024-lite.md
     - name: Archive
@@ -1414,6 +1418,8 @@
         href: whats-new/ur5-nonstocked-installation.md
   - name: What's new
     items:
+    - name: What's new 2024 wave 1 early access - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-2024W1EA-stocked.md
     - name: What's new February 2024 - Project Operations for stocked/production-based scenarios
       href: prod-pma/whats-new/whats-new-feb-2024-stocked.md
     - name: Archive
