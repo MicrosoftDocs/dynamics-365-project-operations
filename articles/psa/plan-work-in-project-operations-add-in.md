@@ -26,7 +26,7 @@ Microsoft Dynamics 365 Project Operations makes it easier to do project planning
 You can install the Microsoft Project desktop add-in for Project Operations and do your planning work in the familiar Microsoft Project environment. Use the robust planning and management capabilities of Microsoft Project, and then update your project plan in Project Operations.
 
 > [!IMPORTANT]
-> - The add-in is available only for customers upgrading from Project Service Automation to Project Operations and have projects that are currently outside the supported limits of Project for the Web.
+> - The add-in is available only for customers who are upgrading from Project Service Automation to Project Operations and have projects that are currently outside the supported limits of Project for the Web.
 > - The add-in can't be used to edit projects that are created by using Project for the Web.
 > - Before you can use SharePoint document management to store your Microsoft Project files for Project Operations projects, your Microsoft Project admin must turn on document management. 
 > - The Microsoft Project desktop add-in for Project Operations is compatible only with Microsoft Project 2016 Professional Edition or later.
