@@ -25,11 +25,11 @@ The following table lists the feature flags removed from Feature control. These 
 
 | Feature area | Feature flag name | More information |
 | --- | --- | --- |
-| Subcontracting | **Enhanced Vendor Invoicing Experience**<br><br>This feature introduces new fields that let users view real-time 3-way match progress for a vendor invoice line and ensures more accurate verification of invoices. This will now be available as the default experience with Vendor Invoices. | &nbsp; |
-| Project budget management | **Project budget management**<br><br>For Lite deployment, project budget management will be generally available in the 2024 Wave1 release in the coming months.<br><br>As part of this early access release, the project budget management feature will be available by default. This means you can create, track, and revise both cost and sales budgets for your projects, and begin tracking actuals against these budgets. | [Project budget management overview](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/budget/projectbudgetmanagement) |
+| Subcontracting | **Enhanced Vendor Invoicing Experience**<br><br>This feature introduces new fields that let users view real-time three-way match progress for a vendor invoice line and ensures more accurate verification of invoices. This feature is now available as the default experience with Vendor Invoices. | &nbsp; |
+| Project budget management | **Project budget management**<br><br>For Lite deployment, project budget management is generally available in the 2024 Wave 1 release in the coming months.<br><br>As part of this early access release, the project budget management feature is available by default. This means you can create, track, and revise both cost and sales budgets for your projects, and begin tracking actuals against these budgets. | [Project budget management overview](../budget/projectbudgetmanagement.md) |
 
 ## Features included in this release
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Pricing | **Cost plus pricing**<br><br>Supported columns added to grid view in Price lists specifically for Role prices tab. | [Set up labor bill rates - lite](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/pricing-costing/set-up-labor-bill-rate-sales) |
+| Pricing | **Cost plus pricing**<br><br>Supported columns added to grid view in Price lists specifically for Role prices tab. | [Set up labor bill rates - lite deployment](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/pricing-costing/set-up-labor-bill-rate-sales) |
