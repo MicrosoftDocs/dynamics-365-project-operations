@@ -1,6 +1,6 @@
 ---
 title: What's new or changed in 2024 Wave 1 Early access release of Project Operations for stocked/production-based scenarios
-description: This article provides information about the quality updates that are available in the 2024 Wave 1 Early access  release of Microsoft Dynamics 365 Project Operations for stocked/production-based scenarios.
+description: This article provides information about the quality updates that are available in the 2024 Wave 1 Early access release of Microsoft Dynamics 365 Project Operations for stocked/production-based scenarios.
 author: tulsijhaveri
 ms.date: 2/22/2024
 ms.topic: article
@@ -20,10 +20,10 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Sales | **Sales - Modern quote**<br><br>The Modern Quote form will be available by default. You will not need to enable the form via customization. | [New Quote form experience](https://learn.microsoft.com/en-us/dynamics365/project-operations/sales/quotes-new-form) |
+| Sales | **Sales - Modern quote**<br><br>The Modern Quote form is available by default. You won't need to enable the form via customization. | [New Quote form experience](../../sales/quotes-new-form.md) |
 
 ## Features included in this release
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Sales | **Modern Quote Nested Grid**<br><br>See quote lines and their quote line details all on the same grid, with the latter being in an expandable, nested grid. | [New Quote form experience](https://learn.microsoft.com/en-us/dynamics365/project-operations/sales/quotes-new-form) |
+| Sales | **Modern Quote Nested Grid**<br><br>See quote lines and their quote line details all on the same grid, with the latter being in an expandable, nested grid. | [New Quote form experience](../../sales/quotes-new-form.md) |
