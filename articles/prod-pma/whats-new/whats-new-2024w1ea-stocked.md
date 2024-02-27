@@ -8,7 +8,7 @@ ms.reviewer:
 ms.author: tulsijhaveri
 ---
 
-# What's new changed in Project Operations, February 2024 for stocked/production-based scenarios
+# What's new or changed in 2024 Wave 1 Early access release of Project Operations for stocked/production-based scenarios
 
 _**Applies To:** Project Operations for stocked/production-based scenarios_
 
@@ -20,7 +20,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Sales | **Sales - Modern quote**<br><br>The Modern Quote form is available by default. You won't need to enable the form via customization. | [New Quote form experience](../../sales/quotes-new-form.md) |
+| Sales | **Sales - Modern quote**<br><br>The Modern Quote form is available by default. You don't need to enable the form via customization. | [New Quote form experience](../../sales/quotes-new-form.md) |
 
 ## Features included in this release
 
