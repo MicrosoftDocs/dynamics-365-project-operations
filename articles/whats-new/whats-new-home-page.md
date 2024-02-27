@@ -17,7 +17,7 @@ Wondering about upcoming and recently released capabilities in Project Operation
 
 See the release plans for what's coming. Choose the following link to learn about the latest versions of this app.
 
-- [2024 release wave 1](/dynamics365/release-plan/2024wave1/finance-operations/dynamics365-project-operations/)  
+- [2024 release wave 1](/dynamics365/release-plan/2024wave1/finance-supply-chain/dynamics365-project-operations/)  
 
 ## Releases of Dynamics 365 Project Operations
 
