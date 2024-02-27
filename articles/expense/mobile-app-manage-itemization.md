@@ -54,3 +54,4 @@ To view the itemized expenses by using **expense managemement mobile** appplicat
 4. Select **Itemize expenses**. This button will be available only if the expense category is marked for **itemization**. It will open another page to create or view or update the itemization for the main expense.
 5. Select **View all itemizaed expenses** to view the itemized expenses created using **+Create new itemization**.
 6. Select the itemized expense to view the expense details of the itemized expense.
+7. **Itemized** expenses can be updated with additional details if needed. 
