@@ -48,7 +48,7 @@ To access the contour editing grid, the project manager first selects the **Task
 
 The grid supports two methods for grouping: **group by resource** and **group by task**. Unlike in the grid view, columns aren't configurable. The only visible columns are **Assigned To**, **Task Name**, **Assignment Start**, **Assignment Finish**, and **Assignment Effort**.
 
-The contour editing grid has been enhanced to include the ability to group contours by week. It was also added **previous** and **next** controls to support quickly changing periods in the current view. Lastly, it was added a grand total row.
+The contour editing grid has been enhanced to include the ability to group contours by week, month, and year. It was also added **previous** and **next** controls to support quickly changing periods in the current view. Lastly, it was added a grand total row.
 
 ![Call out to the new controls available on the contours form.](media/AssignmentGridComplements.png)
 
