@@ -20,9 +20,12 @@ The status of this save is indicated by an icon in the top right corner of the P
 
 A green check mark indicating there is no pending save, and Dataverse and Project for the Web are in sync:
 
+![No pending save.](media/save complete.png)
 
 A blue spinner indicating that a save is currently in progress:
 
+![Save in progress.](media/save in progress.png)
 
 A red x indicating that a save to Dataverse has failed and the project will be reverted to the previous state upon reload (this is accompanied by a warning banner):
 
+![Save failure.](media/save failure.png)
