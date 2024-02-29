@@ -31,6 +31,7 @@ The following table provides information about the fields on the **Expense Estim
 | Unit | The value in this field defaults to the default unit of the selected category. You can update this field to select another unit. | Changing the unit results in a different default unit price and cost. |
 | Cost price | The cost of the selected category and unit combination as set up in the applicable cost price list | The unit cost is always shown in the project's cost currency. |
 
-[!Note:] The grid allows in-line editing with the first line of the estimate being in cost context, by clicking the chevron this will expand to a child row which provides the sales context of the estimate line.  
+> [!NOTE]
+> The grid allows in-line editing with the first line of the estimate being in cost context, by clicking the chevron this will expand to a child row which provides the sales context of the estimate line.  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
