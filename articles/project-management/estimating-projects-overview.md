@@ -21,12 +21,12 @@ In Dynamics 365 Project Operations, you can financially estimate your projects i
 You can create a financial estimate for project-based work using any of the following 3 pages:
 - The **Quote line** page, using the quote line details.  
 - The **Project contract line** page, using the contract line details. 
-- The **Project** page, using the **Tasks**  or **Expense Estimates** tab pages.
+- The **Project** page, using the **Tasks**  or **Estimates** tab pages.
 
 ## Use a project quote to create an estimate
 On a project-based quote, you can use the **Quote line detail** entity to estimate the work that is required to deliver a project. You can then share that estimate with the customer.
 
-Project-based quote lines can have zero to many quote line details. Quote line details are used to estimate time, expenses, or fees. Microsoft Dynamics 365 Project Operations doesn't allow for material estimates on quote line details. These are called transaction classes. Estimated tax amounts can also be entered on a transaction class.
+Project-based quote lines can have zero to many quote line details. Quote line details are used to estimate time, expenses, materials, or fees. These are called transaction classes. Estimated tax amounts can also be entered on a transaction class.
 
 In addition to transaction classes, quote line details have a transaction type. Two transaction types are supported for quote line details: **Cost** and **Project Contract**.
 
@@ -36,17 +36,13 @@ If you used a quote when you created a project-based contract, the estimate that
 
 Estimates can be done directly in a project contract, as in a project quote. For a project quotation, the estimate is done by using contract lines and contract line details. Contract line details can also be generated from a project plan that was created by using the bottom-up estimate approach.
 
-Contract line details can be used to estimate time, expenses, or fees. Estimated tax amounts can also be entered on a contract line detail.
-
-Material estimates are not allowed on contract line details.
+Contract line details can be used to estimate time, expenses, materials, or fees. Estimated tax amounts can also be entered on a contract line detail.
 
 ## Use a project to create an estimate 
 
-You can estimate time and expenses on projects. Project Operations doesn't support estimates of materials or fees on projects.
+You can estimate time, expenses, and materials on projects. Time estimates can be viewed on the **Time phased estimates** tab within **Projects**. Both expense and material estimates can be viewed on the **Estimates** tab within **Projects**. Project Operations doesn't support estimates of fees on projects. All labor, expense, and materials estimates are displayed on the **Time phased estimates** tab.  
 
 Time estimates are generated when you create a task and identify the attributes of a generic resource that is required to perform the task. Time estimates are generated from schedule tasks. Time estimates aren't created if you create generic team members outside the context of the schedule.
-
-Expense estimates are entered in the grid on the **Expense Estimates** page.
 
 Creating an estimate for a project is considered a best practice because you can build bottom-up detailed estimates for labor or time and expenses on each task in the project plan. You can then use this detailed estimate to create estimates for each quote line and build a more credible quote for the customer. When you import or create a detailed estimate on the quote line using the project plan, Project Operations imports the sales values and the cost values of these estimates. After import, you can view the profitability, margins, and feasibility metrics on the project quote.
 
