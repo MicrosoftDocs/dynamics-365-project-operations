@@ -30,7 +30,8 @@ The following is a summary of the fields that can be updated on a project after 
 - **Finish Date**: The date that the project is scheduled to end.
 - **Effort**: The estimated effort of the project. When tasks are added to the project, this field is no longer editable.
 - **Estimated Labor Cost**: The estimated labor cost of the project. When labor costs are added to the project, this field is no longer editable.
-- **Estimated Expenses**: The estimated expenses of the project. When expenses are added to the project, this field is no longer editable.
+- **Estimated Expense Cost**: The estimated expenses of the project. When expenses are added to the project, this field is no longer editable.
+- **Estimated Material Cost**: The estimated materials of the project. When materials are added to the project, this field is no longer editable.
 
 ## Project actual fields
 - **Actual Start**: The date that the project started.
