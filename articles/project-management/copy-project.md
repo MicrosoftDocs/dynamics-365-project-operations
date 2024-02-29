@@ -19,9 +19,7 @@ With Dynamics 365 Project Operations, you can quickly build new projects by sele
 - Project properties 
 - Work breakdown structure
 - Project team members
-- Project estimates
-- Project expense estimates
-- Project material estimates
+- Project Estimates (Labor, Expense, and Material)
 - Project checklists
 - Project buckets
 
