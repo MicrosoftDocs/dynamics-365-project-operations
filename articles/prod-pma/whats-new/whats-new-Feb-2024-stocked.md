@@ -28,7 +28,7 @@ This article applies to the following components and versions of Microsoft Dynam
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=857683).
 
 ## Features turned on by default in upcoming release
-The following table lists the features that are turned on by default in version 10.0.39. Most features that have been automatically turned on can be turned off in [Feature management](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that have been automatically turned on might be removed from Feature management and become mandatory. This change ensures that customers are using current functionality, so that enhancements can build on the current functionality as they're added. Features aren't automatically enabled in less than one year unless they're determined to be essential. 
+The following table lists the features that are turned on by default in version 10.0.39. Most features that are automatically turned on can be turned off in [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). In the future, some features that are automatically turned on might be removed from Feature management and become mandatory. This change ensures that customers are using current functionality, so that enhancements can build on the current functionality as they're added. Features aren't automatically enabled in less than one year unless they're determined to be essential. 
 
 | **Feature name** | **Enable date** | **Feature added** | **Feature state** | **Module** |
 | --- | --- | --- | --- | --- |
@@ -38,12 +38,12 @@ The following table lists the features that are turned on by default in version 
 
 ## Features converted to parameters
 
-The following table lists the features that are converted to parameter in version 10.0.39. These features can't be enabled from [Feature management](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) and are controlled by the parameters.
+The following table lists the features that are converted to a parameter in version 10.0.39. These features can't be enabled from [Feature management](/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) and controlled using parameters.
 
 | **Feature area** | **Feature flag name** | **More information** |
 | --- | --- | --- |
-| Project Financials | Enable the Invoice summary for Project invoice proposals and Project invoices | [Project invoicing](https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/project-invoicing) |
-| Project Financials | Select project invoice proposal by funding source | [Creating invoice proposals](https://learn.microsoft.com/en-us/dynamics365/finance/accounts-payable/project-invoicing#creating-invoice-proposals) |
+| Project Financials | Enable the Invoice summary for Project invoice proposals and Project invoices | [Project invoicing](/dynamics365/finance/accounts-payable/project-invoicing) |
+| Project Financials | Select project invoice proposal by funding source | [Creating invoice proposals](/dynamics365/finance/accounts-payable/project-invoicing#creating-invoice-proposals) |
 
 ## Other features state changes
 
