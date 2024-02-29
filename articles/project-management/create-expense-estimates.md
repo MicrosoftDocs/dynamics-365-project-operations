@@ -32,6 +32,6 @@ The following table provides information about the fields on the **Expense Estim
 | Cost price | The cost of the selected category and unit combination as set up in the applicable cost price list | The unit cost is always shown in the project's cost currency. |
 
 > [!NOTE]
-> The grid allows in-line editing with the first line of the estimate being in cost context, by clicking the chevron this will expand to a child row which provides the sales context of the estimate line.  
+> The grid allows in-line editing with the first line of the estimate being in cost context, which is always shown in the project's cost currency. When selecting the chevron, the grid will expand to a child row which provides the sales context of the estimate line, this is always shown in the project's sales currency.    
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
