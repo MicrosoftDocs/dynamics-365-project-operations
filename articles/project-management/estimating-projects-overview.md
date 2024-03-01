@@ -2,12 +2,11 @@
 # required metadata
 title: Financial estimation concepts
 description: This article provides information about financial estimates of projects in  Project Operations. 
-author: rumant
-ms.date: 03/22/2021
+author: avisness
+ms.date: 03/01/2024
 ms.topic: overview
 ms.reviewer: johnmichalak
-ms.author: rumant
-
+ms.author: avisness
 ---
 
 # Financial estimation concepts
@@ -15,7 +14,7 @@ ms.author: rumant
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 In Dynamics 365 Project Operations, you can financially estimate your projects in two stages: 
-1. During the pre-sales stage before the deal is won. 
+1. During the presales stage before the deal is won. 
 2. During the execution stage after the project contract is created. 
 
 You can create a financial estimate for project-based work using any of the following 3 pages:
