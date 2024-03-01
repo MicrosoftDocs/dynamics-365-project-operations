@@ -1,11 +1,11 @@
 ---
 title: Financial estimates for expenses on projects
 description: This article provides information about defining or estimating project-based expenses.
-author: rumant
-ms.date: 03/19/2021
+author: avisness
+ms.date: 03/01/2024
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: avisness
 ---
 
 # Financial estimates for expenses on projects
