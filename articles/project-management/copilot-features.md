@@ -94,11 +94,11 @@ A chat-format Copilot assistant is available, where you can ask questions and ge
 
 To hide the Copilot assistant window, select the **AI** icon.
 
-## Enable/Disable the Copilot for project feature
+## Enable or disable the Copilot for project feature
 
-For existing tenants, the feature is turned on by default. For new tenants, follow the following steps to turn the feature on. Before you can enable the Copilot feature, you must upgrade to the latest version.
+For existing tenants, this feature is turned on by default. For new tenants, use the following steps to turn the feature on. Before you can enable the Copilot for project feature, you must upgrade to the latest version.
 
-To enable the Copilot feature, follow these steps.
+To enable Copilot for project, follow these steps.
 
 1. In Project Operations, go to **Settings** \> **Parameters** \> **Feature Control** \> **Enable Copilot**.
 1. Select **Accept** to enable the feature.
@@ -106,7 +106,8 @@ To enable the Copilot feature, follow these steps.
 1. Select **OK** to enable the feature.
 1. Select **Save**.
 
-You can disable the Copilot feature by following the same steps.
+   > [!NOTE]
+   > To disable the Copilot for project, follow the enable steps and select **Disable Copilot** in step 1.
 
 > [!IMPORTANT]
 Depending on where your environment is hosted, you might need to allow data movement across regions to use them. If your environment is hosted in a region that requires data movement across regions to use copilots and generative AI features, tenant administrator need to consent to the terms of use on the Move data across regions checkbox in the Power Platform admin center. [Learn more](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) how data movement works across regions. 
