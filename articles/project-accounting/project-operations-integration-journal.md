@@ -2,7 +2,7 @@
 title: Integration journal in Project Operations
 description: This article provides information about working with the Integration journal in Project Operations.
 author: sigitac
-ms.date: 02/15/2024
+ms.date: 03/4/2024
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
@@ -59,7 +59,7 @@ Posting can be performed interactively or in a batch. Note that all journals tha
 
 If there are configuration issues or other problems that are found during posting, the system will log a warning or error to describe the issue and leave the transaction in the integration journal to be posted later.
 
-A new feature is available in 10.0.37 that is recommended for all customers. The **Enable integration journal processing improvements** feature fixes product bugs and prevents the system from trying to continually post integration journals that will fail until the configuration issue is resolved.
+A new feature is available in 10.0.37 that is recommended for all customers. The **Enable integration journal processing improvements** feature prevents a race condition error and prevents the system from trying to continually post integration journals that will fail until the configuration issue is resolved.
 
 With this feature enabled, new statuses are visible within the integration journal line to control posting. This feature also optimizes posting to ensure work can be split up into multiple threads. This feature depends on the **Transfer all lines with posting errors to a new journal** feature.
 
@@ -68,8 +68,8 @@ Line Status | Description
 Draft | The line is in draft status as it existed prior to the new integration journal processing improvement feature being enabled. The line can be posted.
 Processing | The line is in processing status and will be moved to posted status soon. Note: If a line is listed in processing status for a long time, it's likely that an error has occurred and a user can manually reset the line to draft status.
 Posted | The line has been successfully posted and no further action is required.
-Unrecoverable | The line has an error that can't be posted by the system. A support ticket may be necessary 
-ActualsMissing | The line has an error that can't be posted due to missing **Actuals** within Dataverse. A support ticket may be necessary.
+Unrecoverable | The line has an error that can't be posted by the system. A support ticket may be necessary in this case. This error should only occur for transactions that existed prior to the feature being enabled. 
+ActualsMissing | The line has an error that can't be posted due to missing **Actuals** within Dataverse. A support ticket may be necessary in this case..
 
 Header Status | Description
 --- | ---
