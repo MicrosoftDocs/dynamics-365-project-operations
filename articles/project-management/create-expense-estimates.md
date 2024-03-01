@@ -23,15 +23,15 @@ The following table provides information about the fields on the **Expense Estim
 
 | **Field** | **Description** | **Downstream impact** |
 | --- | --- | --- |
-| Task | A list of tasks in the project. This includes summary and leaf node tasks. | Selecting a task for an expense estimate line will impact the estimated expense cost and estimated expense sales for a task. If this field is left empty, the expense estimate is tracked and summarized only at the project level. |
+| Task | A list of tasks in the project. This includes summary and leaf node tasks. | Selecting a task for an expense estimate line impacts the estimated expense cost and estimated expense sales for a task. If this field is left empty, the expense estimate is tracked and summarized only at the project level. |
 | Category | A list of transaction categories that have linked expense categories in the application. | Selecting a category drives pricing and costing on the expense estimate line. |
-| Start date | The forecasted date on which the expense will occur. | There is no downstream impact for this field. |
-| Quantity | The quantity of the estimated expense you will incur. | There is no downstream impact for this field. |
-| Unit group | The default value in this field comes from the unit group that's set up as default on the selected category. You can update this field to select another unit group. | There is no downstream impact for this field. |
+| Start date | The forecasted date on which the expense occurs. | There isn't a downstream impact for this field. |
+| Quantity | The quantity of the estimated expense you incur. | There isn't a downstream impact for this field. |
+| Unit group | The default value in this field comes from the unit group set up as default on the selected category. You can update this field to select another unit group. | There isn't a downstream impact for this field. |
 | Unit | The value in this field defaults to the default unit of the selected category. You can update this field to select another unit. | Changing the unit results in a different default unit price and cost. |
-| Cost price | The cost of the selected category and unit combination as set up in the applicable cost price list | The unit cost is always shown in the project's cost currency. |
+| Cost price | The cost of the selected category and unit combination is set up in the applicable cost price list | The unit cost is always shown in the project's cost currency. |
 
 > [!NOTE]
-> The grid allows in-line editing with the first line of the estimate being in cost context, which is always shown in the project's cost currency. When selecting the chevron, the grid will expand to a child row which provides the sales context of the estimate line, this is always shown in the project's sales currency.    
+> The grid allows in-line editing with the first line of the estimate being in cost context, which is always shown in the project's cost currency. When selecting the chevron, the grid expands to a child row which provides the sales context of the estimate line, this is always shown in the project's sales currency.    
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
