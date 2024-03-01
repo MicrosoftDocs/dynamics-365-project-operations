@@ -110,7 +110,7 @@ To enable Copilot for project, follow these steps.
    > To disable the Copilot for project, follow the enable steps and select **Disable Copilot** in step 1.
 
 > [!IMPORTANT]
-Depending on where your environment is hosted, you might need to allow data movement across regions to use them. If your environment is hosted in a region that requires data movement across regions to use copilots and generative AI features, tenant administrator need to consent to the terms of use on the Move data across regions checkbox in the Power Platform admin center. [Learn more](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) how data movement works across regions. 
+Depending on where your environment is hosted, you might need to allow data movement across regions to use them. If your environment is hosted in a region that requires data movement across regions to use copilots and generative AI features, tenant administrator need to consent to the terms of use on the Move data across regions checkbox in the Power Platform admin center. [Learn more](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) how data movement works across regions. 
 
 
 
