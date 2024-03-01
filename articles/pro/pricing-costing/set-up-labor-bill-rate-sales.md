@@ -2,7 +2,7 @@
 title: Set up labor bill rates Lite deployment
 description: This article provides information about setting up labor billing rates in Project Operations Lite deployment.
 author: avisness
-ms.date: 02/16/2024
+ms.date: 03/01/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
