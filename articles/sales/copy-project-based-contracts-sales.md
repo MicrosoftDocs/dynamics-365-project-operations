@@ -1,11 +1,11 @@
 ---
 title: Copy project-based contracts
 description: This article provides information about copying project contracts in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 09/01/2022
+author: poojafandan
+ms.date: 03/01/2024
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 ---
 
 # Copy project-based contracts
