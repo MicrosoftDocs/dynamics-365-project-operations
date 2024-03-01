@@ -17,22 +17,22 @@ ms.author: abriccetti
 
 End of Life means end of support. After the end of support date, any support tickets will be resolved with a request to upgrade to Dynamics 365 Project Operations (Project Operations). Product engineering will not be releasing regular maintenance updates for functional improvements, address performance issues, security and compliance or any other issues. Customers will be able to access and continue using Dynamics 365 Project Service Automation (PSA) beyond this date although we highly discourage this use. No license grandfathering will be supported from a Dynamics 365 Project Service Automation to Dynamics 365 Project Operations after this date.
 
-1. What is the licensing structure when upgrading from PSA to Project Operations?
+2. What is the licensing structure when upgrading from PSA to Project Operations?
     1. Do I need to purchase a new SKU?
 
 All PSA customers should have already had their license upgraded to Project Operations, with a separate entitlement via promo code for PSA. No new purchase is required for these customers.
 
-1. What will my new cost structure look like?
+3. What will my new cost structure look like?
     1. Can I be grandfathered into my existing cost structure?
     2. How are my existing enterprise volume discounts impacted?
 
 As all customers have been upgraded to Project Operations licenses already the cost structure should not change.
 
-1. Where can I see the capability map of Project Operations compared to PSA 3.x?
+4. Where can I see the capability map of Project Operations compared to PSA 3.x?
 
 Feature changes from PSA to Project Operations are outlined [here](https://learn.microsoft.com/en-us/dynamics365/project-operations/psa/psa-project-operations-changes).
 
-1. Where can I see the roadmap for Project Operations?
+5. Where can I see the roadmap for Project Operations?
 
 Features coming in the next wave can be found at <https://aka.ms/POroadmap>.
 
@@ -46,19 +46,19 @@ Detailed steps to validate customizations can be found [here](https://learn.micr
 
 This process may take significant time for customers with large data volume and/or heavy customization.
 
-1. How long does the upgrade last?
+2. How long does the upgrade last?
 
 The average upgrade time is about 3 hours but we have seen customers upgrade that took more than 6 hours. This depends on customer data/customization volume. Every customer should do upgrade testing on a test org which is a copy of a production org so run time or upgrade issues should not be a surprise in production org.
 
-1. In a standard upgrade, failed upgrades can be retried. Is this also true for upgrading PSA 3.x to Project Operations?
+3. In a standard upgrade, failed upgrades can be retried. Is this also true for upgrading PSA 3.x to Project Operations?
 
 It is only true for transient errors like errors related to environment infrastructure, etc. But for permanent errors like data corruption, retry would not help. For any upgrade failure, if the error is unclear from the Admin Portal, customers should always look for detailed errors at PSA > Settings > Upgrade Logs. If the error is missing or unclear here also, customers should reach out to Microsoft Support team.
 
-1. Do all my role and permission setup carry forward or do I have to do another security review of the system?
+4. Do all my role and permission setup carry forward or do I have to do another security review of the system?
 
 In general, all role and permissions should carry forward during upgrade. There are some new roles created in PO, which may need to be assigned to certain users following upgrade.
 
-1. How is my data upgraded?
+5. How is my data upgraded?
 
 There is a data model conversion which will change the names of some entities. The details are outlined [here](https://learn.microsoft.com/dynamics365/project-operations/psa/psa-project-operations-changes).
 
@@ -66,19 +66,19 @@ There is a data model conversion which will change the names of some entities. T
 
 There is no data lost in the data model conversion.
 
-1. Can I revert to PSA 3.x after upgrading to Project Operations?
+6. Can I revert to PSA 3.x after upgrading to Project Operations?
 
 Once the upgrade is complete, there is no way to roll back to PSA.
 
-1. Unlike standard UR upgrades, PSA to PO is a big upgrade. What kind of support does Microsoft offer for this process?
+7. Unlike standard UR upgrades, PSA to PO is a big upgrade. What kind of support does Microsoft offer for this process?
 
 We are committed to ensuring the success of your upgrade to PO. We have robust documentation on our docs site, as well as additional error logs within PSA to explain upgrade failures. If you still encounter issues with the upgrade process, please reach out to Microsoft support to get further assistance.
 
-1. Can I upgrade directly from PSA 3.x to Project Operations Integrated, or is the upgrade only available to LITE?
+8. Can I upgrade directly from PSA 3.x to Project Operations Integrated, or is the upgrade only available to LITE?
 
 Only upgrade to PO LITE is supported.
 
-1. After I upgrade to PO LITE, how do I upgrade to PO Integrated?
+9. After I upgrade to PO LITE, how do I upgrade to PO Integrated?
 
 Upgrade from PO lite to PO integrated is not supported at this time.
 
@@ -88,54 +88,52 @@ Upgrade from PO lite to PO integrated is not supported at this time.
 
 Your current projects will be brought into Project Operations in either the external scheduling (docs [here](https://learn.microsoft.com/dynamics365/project-operations/project-management/external-scheduling)) or add-in scheduling (docs [here](https://learn.microsoft.com/dynamics365/project-operations/psa/plan-work-in-project-operations-add-in)) mode depending on your usage of scheduling in PSA. From there, you can convert these projects to be scheduled by Project for the Web (the default scheduling engine in Project Operations). Project for the Web is the only task scheduling engine in Project Operations. If you need these projects to be externally scheduled, you will need to have your own custom scheduling logic or build a custom integration to another scheduling system.
 
-1. I have projects that exceed Project for the Web’s limits. Can I continue to work on them?
+2. I have projects that exceed Project for the Web’s limits. Can I continue to work on them?
 
 Yes. These projects can be managed using external scheduling, or using the Project Desktop client add-in ([documentation](https://learn.microsoft.com/en-us/dynamics365/project-operations/psa/plan-work-in-project-operations-add-in) and [download](https://www.microsoft.com/en-us/download/details.aspx?id=105733) links). If you later wish to convert them to be scheduled by Project for the web, they will need to conform to Project for the Web’s limits to be converted.
 
-1. Are the Project for the Web’s limits published?
+3. Are the Project for the Web’s limits published?
 
 Yes they can be viewed [here](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/project-and-task-limitations). Of note, we are continually improving our product and have a roadmap to increase these limits to better serve our customers in the future.
 
-1. Can I create new projects that are externally scheduled?
+4. Can I create new projects that are externally scheduled?
 
 Yes, you can create new projects which use external scheduling; however, the desktop client add-in will only be available for environments that have been upgraded from PSA.
 
-1. For downstream workflows like estimating pricing, or reporting time, is there any loss in functionality when choosing to schedule projects externally?
+5. For downstream workflows like estimating pricing, or reporting time, is there any loss in functionality when choosing to schedule projects externally?
 
 The limitations of external scheduling are documented [here](https://learn.microsoft.com/dynamics365/project-operations/project-management/external-scheduling#functional-limitations). Other than the limitations listed, all other downstream workflows will work if the external scheduling engine updates follow the same data model as Project Operations.
 
-1. Can I switch existing projects from Project for the Web scheduled to externally scheduled?
+6. Can I switch existing projects from Project for the Web scheduled to externally scheduled?
 
 This change in scheduling mode is not supported for projects already created in Project Operations. You can however choose to create new projects as externally scheduled.
 
-1. What about the Microsoft Project Add-in shipped by the Project Operations team? Can I use that for my projects?
+7. What about the Microsoft Project Add-in shipped by the Project Operations team? Can I use that for my projects?
 
 The Project desktop client add-in will continue to be available in environments which have been upgraded from PSA and which have projects that do not meet the restrictions of Project for the Web. This will only continue for a limited time as we work to increase Project for the Web’s limits. Of note, the Project Operations license does not include the Project desktop client (which was included in PSA). This will need to be purchased separately to use the add-in.
 
-1. Can I use the new scheduling engine, Project for the web, for my existing projects?
+8. Can I use the new scheduling engine, Project for the web, for my existing projects?
 
 Yes, for projects that are within the limitations of Project for the Web. When viewing a PSA project entity in Project Operations, there will be a convert button on the ribbon which will allow for the scheduling engine to be changed to Project for the Web.
 
-1. Can I preview the scheduling changes when changing the scheduling engine, and can I undo the scheduling engine change?
+9. Can I preview the scheduling changes when changing the scheduling engine, and can I undo the scheduling engine change?
 
 The conversion process cannot be undone. To test we recommend copying a project record to test the conversion.
 
-1. _Need other SMEs to chime in for breaking changes in their respective areas. From the top of my head, there should be none outside Project, but it is better to confirm._
-
-**Techno-functional experience**
+## Techno-functional experience
 
 1. When upgrading, do all my customizations continue to work?
 
 There are data model and UI changes between PSA and Project Operations, and these will potentially break some of your customizations.
 
-1. How do I determine what customizations will be broken before I upgrade?
+2. How do I determine what customizations will be broken before I upgrade?
 
 By reviewing the [feature changes](https://learn.microsoft.com/dynamics365/project-operations/psa/psa-project-operations-changes), you can get a sense of which customizations will be impacted by the upgrade.
 
-1. Is there a best practice document for creating customizations in Project Operations?
+3. Is there a best practice document for creating customizations in Project Operations?
 
 Project Operations is a Dataverse application, and best practices apply similarly across Dataverse applications. For scheduling entities in Project Operations, please review best practices and technical considerations at this [link](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/schedule-api-preview).
 
-1. Is the data model between PSA and Project Operations same? Are the changes published?
+4. Is the data model between PSA and Project Operations same? Are the changes published?
 
 Changes to Dataverse entities and fields from PSA to Project Operations are outlined [here](https://learn.microsoft.com/en-us/dynamics365/project-operations/psa/psa-project-operations-changes).
