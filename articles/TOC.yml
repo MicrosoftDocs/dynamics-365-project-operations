@@ -250,8 +250,8 @@
           href: pro/sales/import-estimate-project-quote-sales.md
         - name: Invoice schedules on project quote lines
           href: sales/invoice-schedule-quote-line.md 
-      - name: Copy project quotes
-        href: sales/lose-quote.md
+      - name: Copy project-based quotes
+        href: sales/copy-project-based-quotes.md
       - name: Activate and revise a project quote
         href: sales/activation-and-revision.md
       - name: Close project-based quotes
@@ -2240,5 +2240,5 @@
   items:
   - name: Responsible AI FAQs for Project Operations
     href: responsible-ai/responsible-ai-overview.md
-  - name: Project management Copilot overview
+  - name: Copilot for project overview
     href: project-management/copilot-features.md
