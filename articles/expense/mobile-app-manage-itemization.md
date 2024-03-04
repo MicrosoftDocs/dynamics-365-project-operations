@@ -23,7 +23,7 @@ To enter expenses by using **expense management mobile** application, follow the
 2. Navigation to the **Expenses** tab, select the plus sign (**+**) button.
 3. The camera app opens, and you can perform any of the following actions:
     * Take a photo of a receipt to capture it.
-    * Select an existing receipt that has already been captured.
+    * Select an existing receipt that's been captured.
     * Select a receipt to upload from your mobile device.
 4. Preview the receipt, and then select **Done**. If you want to retake the photo, select **Retake**.
     On the **New Expense** page, information such as the date, amount, and merchant name should be filled in by OCR.
