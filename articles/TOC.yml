@@ -1744,6 +1744,8 @@
       items:
       - name: Manage expenses, expense reports, and receipts overview
         href: expense/mobile-app-manage expenses-overview.md
+      - name: Manage itemization using Expense management mobile app
+        href: expense/mobile-app-manage-itemization.md
       - name: Manage expenses by using the Expense mobile app
         href: expense/mobile-app-manage-expenses.md
       - name: Manage expense reports by using the Expense mobile app
