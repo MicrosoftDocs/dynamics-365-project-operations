@@ -6,7 +6,6 @@ ms.date: 02/28/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
-ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
@@ -18,7 +17,7 @@ ms.author: suvaidya
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 The end-to-end process of invoice creation in Microsoft Dynamics 365 Project Operations involves multiple clicks and navigation between different forms and views. 
-The Billing hub experience aims to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **prior to invoice creation** to help accountants and billing users create proforma invoices quickly and efficiently. By leveraging the platform's out-of-the-box nested grid functionality, the experience enables users to complete invoice creation from a single unified view, eliminating the need to navigate between forms or views to help validate all information in a single click leading to faster invoice processing.
+The Billing hub experience aims to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **prior to invoice creation** to help accountants and billing users create proforma invoices quickly and efficiently. By using the platform's out-of-the-box nested grid functionality, the experience enables users to complete invoice creation from a single unified view, eliminating the need to navigate between forms or views to help validate all information in a single click leading to faster invoice processing.
 
 > [!Note]
 > To use Billing hub, enable the feature from **Settings > Parameters > Feature control > Billing hub**.
@@ -41,11 +40,11 @@ To use **Update totals**, follow these steps.
 
 ### Review or update the invoiceable backlog
 
-The contract lines for each project contract provide a view of all associated actuals for time, expense, material and fee. The Invoiceable backlog provides a comprehensive list of actuals across all transaction types. Use the hyperlinks to drill down into each category of invoiceable transactions and mark them as ready or not ready to invoice.
+The contract lines for each project contract provide a view of all associated actuals for time, expense, material, and fee. The Invoiceable backlog provides a comprehensive list of actuals across all transaction types. Use the hyperlinks to drill down into each category of invoiceable transactions and mark them as ready or not ready to invoice.
 
-To review or update the invoicable backlog, follow these steps.
+To review or update the invoiceable backlog, follow these steps.
 
-1. For Example, for a Time and material project contract line with approved time entries, selec on the **Time** amount field. Alternatively, you can also select **Invoiceable backlog** amount field. This opens up the list of invoiceable time transactions specific to that project contract and contract line.
+1. For a Time and material project contract line with approved time entries, for example, select the **Time** amount field. Alternatively, you can also select **Invoiceable backlog** amount field. A list of invoiceable time transactions specific to that project contract and contract line opens.
 1. Select the transactions and update the Billing status by selecting **Ready to invoice** or **Not ready to invoice** from the list of options on the sub grid.
 1. On the **Billing hub** form, select **Update Totals**. This updates the **Ready to be invoiced** amount.
 
@@ -55,10 +54,10 @@ The following information is available in the **Billing hub** view.
 | Field |Description|
 | --- | --- | 
 |Name | Name of the Project Contract. |
-|Customer | Name of the contract customer|
-|Total Amount| Amount on the contract , also referred to as **contract value**. |
-|Ready to be invoiced| Total amount of transactions with **ready to invoice** billing status.|
-|Available advances| Total amount of advances available for use against an invoice for the related project contract.|
+|Customer | Name of the contract customer. |
+|Total Amount| Amount on the contract, also referred to as **contract value**. |
+|Ready to be invoiced| Total amount of transactions with **ready to invoice** billing status. |
+|Available advances| Total amount of advances available for use against an invoice for the related project contract. |
 |Products| Number of product based lines on the contract. |
 
 ### Contract line fields
@@ -72,7 +71,7 @@ The following information is available in the **Billing hub** view.
 |Material| Billing backlog for all unbilled sales actuals of transaction type **material** for the selected project contract line. |
 |Expense| Billing backlog for all unbilled sales actuals of transaction type **expense** for the selected project contract line. |
 |Fee| Billing backlog for all unbilled sales actuals of transaction type **fee** for the selected project contract line. |
-|Invoiceable backlog| Billing backlog that includes all invocieable transactions for the project contract line. |
+|Invoiceable backlog| Billing backlog that includes all invoiceable transactions for the project contract line. |
 
 > [!Note]
 > Billing hub best supports scenarios where only one customer is on the project contract or project contract line. In split billing scenarios, it can still be used, but you may see a **ready to invoice** amount that does not differentiate between the amount split between the different customers included on the project contract or project contract line. For more information about split billing, see [Manage multiple customers on project-based contract lines](/dynamics365/project-operations/sales/manage-multiple-customers-contract-line).
