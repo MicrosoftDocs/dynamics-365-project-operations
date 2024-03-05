@@ -1,5 +1,5 @@
 ---
-title: Create proforma invoices with Billing hub
+title: Create proforma project invoices with Billing hub
 description: This article provides information about how to use Billing hub to create proforma project-based invoices.
 author: suvaidya
 ms.date: 02/28/2024
@@ -25,7 +25,7 @@ The end-to-end process of invoice creation in Microsoft Dynamics 365 Project Ope
 >
 > The Billing hub forms and views are currently not customizable, but will be as the feature becomes generally available. 
 
-## Create Project proforma invoices
+## Create proforma project invoices
 
 To use the Billing hub to create Project proforma invoices, follow these steps.
 
