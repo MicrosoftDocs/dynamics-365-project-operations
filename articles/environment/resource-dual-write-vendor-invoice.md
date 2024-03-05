@@ -1,12 +1,12 @@
 ---
 title: Vendor invoice integration
 description: This topic provides information about vendor invoice integration in Project Operations.
-author: sigitac
-ms.date: 04/27/2021
+author: mukumarm
+ms.date: 03/05/2024
 ms.topic: article
 ms.prod:
 ms.reviewer: kfend 
-ms.author: sigitac
+ms.author: mukumarm
 ---
 
 # Vendor invoice integration
@@ -26,10 +26,12 @@ In Project Operations, project-related vendor invoices are posted using special 
      - **Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices)**: This table map synchronizes vendor invoice header information. Only vendor invoices with at least one line that contains a project ID are synchronized to Dataverse.
      - **Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines)**: This table map synchronizes vendor invoice line information. Only lines that contain a project ID are synchronized to Dataverse.
 
-     > [!NOTE]
-     > Vendor invoice details in Dataverse are not editable.
 
-Tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance when the vendor invoice is posted.
+
+     > [!NOTE]
+     > As part of 10.0.38 upgrade, a new version dual write map version 1.0.0.6 has been created for vendor invoice lines which allows to perform intercompany vendor invoices. To achieve this functionality, integration keys has been changed. In case if dual write map for vendor invoice lines stopped working then follow below steps: Go to Dual write maps using Data management workspace, Select integration Key on Action pane, Select project vendor invoice line integration key and remove msdyn_owningcompany from the integartion key. Make sure that only msydyn_externalinvoiceline is the only field for vendor invoice line integration key. 
+
+Tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance when the vendor invoice is posted. vendor invoices are not editable in Dataverse.
 
 ![Vendor invoice integration.](media/DW7VendorInvoice.png)
 
