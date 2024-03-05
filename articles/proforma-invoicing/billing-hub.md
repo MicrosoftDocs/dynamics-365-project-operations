@@ -23,7 +23,7 @@ The end-to-end process of invoice creation in Microsoft Dynamics 365 Project Ope
 > [!Note]
 > To use Billing hub, enable the feature from **Settings > Parameters > Feature control > Billing hub**.
 >
-> The Billing hub forms and views will be customizable as the feature becomes generally available. 
+> You can customize the **billing hub** forms and views once the feature becomes generally available.
 
 ## Create new invoice(s)
 
