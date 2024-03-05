@@ -28,6 +28,15 @@ The following table shows the Dual-write maps that have been modified or added i
 | Project Operations integration entity for hour estimates (msdyn_resourceassignments) | 1.0.0.6 | Latest version updated |
 | Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.6 | Latest version updated |
 
+### Vendor invoice lines dual write map update
+As part of the 10.0.38 upgrade, a new iteration of the dual write map, version 1.0.0.6, has been introduced specifically for vendor invoice lines. This updated version enables the execution of intercompany vendor invoices. To enable this feature, certain integration keys have been modified. Should the dual write map for vendor invoice lines cease to function, please adhere to the following steps:
+
+1.  Navigate to the Dual Write Maps section within the **Data Management workspace**.
+2.  On the Action pane, select the **integration key**.
+3.  Choose the **project vendor invoice line** integration key.
+4.  Remove **msdyn_owningcompany** from the integration key.
+5.  Ensure that **msdyn_externalinvoiceline** remains the sole field for the vendor invoice line integration key.
+
 For a current list and versions of Project Operations Dual-write maps, see [Project Operations dual-write map versions](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
 Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance solution version. Some features and capabilities might not work correctly if the latest version of the map isn't activated. You can view the active version of the map in the **Version** column on the **Dual-write** page. To activate a new version of the map, select **Table map versions**, select the latest version, and then save the selected version. If you customized an out-of-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
