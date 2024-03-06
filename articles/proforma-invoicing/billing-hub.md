@@ -80,6 +80,6 @@ The following information is available in the **Billing hub** view.
 | Invoiceable backlog | The billing backlog that includes all invoiceable transactions for the project contract line. |
 
 > [!NOTE]
-> Billing hub best supports scenarios where there is only one customer on the project contract or project contract line. Although it can be used in split billing scenarios, you might notice that the **Ready to invoice** amount doesn't differentiate the amounts that are split between the different customers that are included on the project contract or project contract line. For more information about split billing, see [Manage multiple customers on project-based contract lines](/dynamics365/project-operations/sales/manage-multiple-customers-contract-line).
+> Billing hub best supports scenarios where there is only one customer on the project contract or project contract line. Although it can be used in split billing scenarios, you might notice that the **Ready to invoice** amount doesn't differentiate the amounts that are split between the different customers that are included on the project contract or project contract line. For more information about split billing, see [Manage multiple customers on project-based contract lines](../sales/manage-multiple-customers-contract-line).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
