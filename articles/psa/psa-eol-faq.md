@@ -107,7 +107,7 @@ Yes, you can create new projects that use external scheduling; however, the desk
 
 ### For downstream workflows like estimating pricing or reporting time, is there any loss in functionality when choosing to schedule projects externally?
 
-For information about limitations of external scheduling, see [Functional limitations](../project-management/external-scheduling#functional-limitations.md). Other than the limitations listed, all other downstream workflows work if the external scheduling engine updates follow the same data model as Project Operations.
+For information about limitations of external scheduling, see [Functional limitations](../project-management/external-scheduling.md#functional-limitations). Other than the limitations listed, all other downstream workflows work if the external scheduling engine updates follow the same data model as Project Operations.
 
 ### Can I switch existing projects from Project for the web scheduled to externally scheduled?
 
