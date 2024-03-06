@@ -1869,7 +1869,9 @@
   - name: Project Service Automation upgrade (app version Project Operations Lite 4.x)
     items: 
     - name: Upgrade from Project Service Automation to Project Operations
-      href: psa/upgrade-project-operations-non-stocked.md    
+      href: psa/upgrade-project-operations-non-stocked.md  
+    - name: PSA End of Life FAQ
+      href: psa/psa-eol-faq.md
     - name: Feature changes from Project Service Automation to Project Operations
       href: psa/psa-project-operations-changes.md 
     - name: Project Service Automation to Project Operations project scheduling conversion process  
