@@ -1,14 +1,20 @@
 ---
-title: PSA End of Life FAQ
-description: This article acts as a guide for frequently asked questions about the end of life for PSA.
+title: Project Service Automation end of life FAQ
+description: This article provides answers to frequently asked questions about the end of life for Project Service Automation.
 author: abriccetti
 ms.date: 03/1/2024
-ms.topic: article
+ms.topic: faq
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
 
 # Project Service Automation end of life frequently asked questions
+
+[!INCLUDE[banner](../includes/banner.md)]
+
+This article provides answers to frequently asked questions about the end of life for Project Service Automation.
 
 ## General, licensing and cost
 
