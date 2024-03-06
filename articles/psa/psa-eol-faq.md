@@ -20,7 +20,7 @@ This article provides answers to frequently asked questions about the end of lif
 
 ### When is PSA 3.x reaching its end-of-life? Is there an exception process for this?
 
-End-of-life means end of product support. After the end of support date, support tickets are resolved with a request to upgrade to Micrososft Dynamics 365 Project Operations. The Product engineering team won't release regular maintenance updates for functional improvements, performance issues, security and compliance issues, or any other issues. Customers are able to access and continue using Dynamics 365 Project Service Automation (PSA) beyond this date; although, we highly discourage this use. After this date, license grandfathering isn't supported from a PSA license to a Project Operations license.
+End-of-life means end of product support. After the end of support date, support tickets are resolved with a request to upgrade to Microsoft Dynamics 365 Project Operations. The Product engineering team won't release regular maintenance updates for functional improvements, performance issues, security and compliance issues, or any other issues. Customers are able to access and continue using Dynamics 365 Project Service Automation (PSA) beyond this date; although, we highly discourage this use. After this date, license grandfathering isn't supported from a PSA license to a Project Operations license.
 
 ### What is the licensing structure when upgrading from PSA to Project Operations? Do I need to purchase a new SKU?
 
@@ -28,7 +28,7 @@ All PSA customers should have already had their license upgraded to Project Oper
 
 ### What will my new cost structure look like? Can I be grandfathered into my existing cost structure? How are my existing enterprise volume discounts impacted?
 
-As all customers have been upgraded to Project Operations licenses already, the cost structure should not change.
+As all customers have been upgraded to Project Operations licenses already, the cost structure shouldn't change.
 
 ### Where can I see the capability map of Project Operations compared to PSA 3.x?
 
@@ -50,11 +50,11 @@ This process may take a significant amount of time for customers with large data
 
 ### How long does the upgrade last?
 
-The average upgrade takes about three hours to complete, but we have seen customer upgrades take more than six hours. The lenght of time an upgrade takes depends on your data and customization volume. Every customer should test the upgrade on a test org that is a copy of your production org so run time or upgrade issues aren't a surprise in your production org.
+The average upgrade takes about three hours to complete, but we have seen customer upgrades take more than six hours. The length of time an upgrade takes depends on your data and customization volume. Every customer should test the upgrade on a test org that is a copy of your production org so run time or upgrade issues aren't a surprise in your production org.
 
 ### In a standard upgrade, failed upgrades can be retried. Is this also true for upgrading PSA 3.x to Project Operations?
 
-It's only true for transient errors, like errors related to environment infrastructure, etc. For permanent errors, like data corruption, retrying doen't help. For any upgrade failure, if the error is unclear from the Admin Portal, look for detailed error infomation in PSA **Settings** \> **Upgrade Logs**. If the error is missing or unclear, reach out to the Microsoft Support team.
+It's only true for transient errors, like errors related to environment infrastructure, etc. For permanent errors, like data corruption, retrying doesn't help. For any upgrade failure, if the error is unclear from the Admin Portal, look for detailed error information in PSA **Settings** \> **Upgrade Logs**. If the error is missing or unclear, reach out to the Microsoft Support team.
 
 ### Do my role and permission setups carry forward, or do I have to do another security review of the system?
 
@@ -72,9 +72,9 @@ There isn't data lost in the data model conversion.
 
 Once the upgrade is complete, there you can't roll back to PSA.
 
-### Unlike standard UR upgrades, PSA to Project Operations is a big upgrade. What kind of support does Microsoft offer for this process?
+### Unlike standard UR upgrades, PSA to Project Operations is a large upgrade. What kind of support does Microsoft offer for this process?
 
-We are committed to ensuring the success of your upgrade to Project Operations. We have robust documentation, as well as more error logs within PSA that explain upgrade failures. If you encounter issues with the upgrade process, reach out to Microsoft support to get further assistance.
+We're committed to ensuring the success of your upgrade to Project Operations. We have robust documentation, and more error logs within PSA that explain upgrade failures. If you encounter issues with the upgrade process, reach out to Microsoft support to get further assistance.
 
 ### Can I upgrade directly from PSA 3.x to Project Operations for Resource and non-stocked based scenarios, or is the upgrade only available to Project Operations Deal to proforma invoicing scenarios (Lite deployment)?
 
@@ -82,7 +82,7 @@ Only upgrades to  Project Operations Deal to proforma invoicing scenarios (Lite 
 
 ### After I upgrade to  Project Operations Deal to proforma invoicing scenarios (Lite deployment), how do I upgrade to Project Operations for Resource and non-stocked based scenarios?
 
-Upgrade from  Project Operations Deal to proforma invoicing scenarios (Lite deployment) to Project Operations for Resource and non-stocked based scenarios is not supported at this time.
+Upgrade from  Project Operations Deal to proforma invoicing scenarios (Lite deployment) to Project Operations for Resource and non-stocked based scenarios isn't supported at this time.
 
 ## Functional experience
 
@@ -99,7 +99,7 @@ Yes. These projects can be managed using external scheduling, or using the Proje
 Yes, for more information, see [Project and task limitations](../project-management/project-and-task-limitations.md). 
 
 > [!NOTE]
-> We are continually improving our product and have a roadmap to increase these limits to better serve our customers in the future.
+> We're continually improving our product and have a roadmap to increase these limits to better serve our customers in the future.
 
 ### Can I create new projects that are externally scheduled?
 
@@ -107,11 +107,11 @@ Yes, you can create new projects that use external scheduling; however, the desk
 
 ### For downstream workflows like estimating pricing or reporting time, is there any loss in functionality when choosing to schedule projects externally?
 
-For information about limitations of external scheduling, see [Functional limitations](../project-management/external-scheduling#functional-limitations). Other than the limitations listed, all other downstream workflows work if the external scheduling engine updates follow the same data model as Project Operations.
+For information about limitations of external scheduling, see [Functional limitations](../project-management/external-scheduling#functional-limitations.md). Other than the limitations listed, all other downstream workflows work if the external scheduling engine updates follow the same data model as Project Operations.
 
 ### Can I switch existing projects from Project for the web scheduled to externally scheduled?
 
-This change in scheduling mode is not supported for projects already created in Project Operations. You can however choose to create new projects as externally scheduled.
+This change in scheduling mode isn't supported for projects already created in Project Operations. You can however choose to create new projects as externally scheduled.
 
 ### What about the Microsoft Project Add-in shipped by the Project Operations team? Can I use that for my projects?
 
@@ -122,7 +122,7 @@ The Project desktop client add-in is available in environments that have upgrade
 
 ### Can I use the new scheduling engine, Project for the web, for my existing projects?
 
-Yes, for projects that are within the limitations of Project for the web. When viewing a PSA project entity in Project Operations, a convert button on the ribbon allows the scheduling engine to change to Project for the web.
+Yes, for projects that are within the limitations of Project for the web. When you view a PSA project entity in Project Operations, a convert button on the ribbon allows the scheduling engine to change to Project for the web.
 
 ### Can I preview the scheduling changes when changing the scheduling engine, and can I undo the scheduling engine change?
 
