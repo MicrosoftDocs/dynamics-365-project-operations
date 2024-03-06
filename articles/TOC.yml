@@ -1870,7 +1870,7 @@
     items: 
     - name: Upgrade from Project Service Automation to Project Operations
       href: psa/upgrade-project-operations-non-stocked.md  
-    - name: PSA End of Life FAQ
+    - name: Project Service Automation end of life FAQ
       href: psa/psa-eol-faq.md
     - name: Feature changes from Project Service Automation to Project Operations
       href: psa/psa-project-operations-changes.md 
