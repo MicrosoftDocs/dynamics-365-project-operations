@@ -145,3 +145,5 @@ Project Operations is a Dataverse application, and best practices apply similarl
 ### Is the data model between PSA and Project Operations same? Are the changes published?
 
 For information regarding changes to Dataverse entities and fields from PSA to Project Operations, see [Feature changes from Project Service Automation to Project Operations](psa-project-operations-changes.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
