@@ -24,7 +24,7 @@ This article provides answers to frequently asked questions about the end of lif
 
 After the end-of-support date, license grandfathering from a Project Service Automation license to a Project Operations license isn't supported.
 
-### What's the licensing structure when I upgrade from Project Service Automation to Project Operations? Do I have to purchase a new stockkeeping unit (SKU)?
+### What's the licensing structure when I upgrade from Project Service Automation to Project Operations? Do I have to purchase a new stock-keeping unit (SKU)?
 
 All Project Service Automation customers should already have their license upgraded to a Project Operations license. They should have a separate entitlement via a promotion code for Project Service Automation. No new purchase is required for these customers.
 
@@ -134,7 +134,7 @@ The conversion process can't be undone. We recommend that you copy a project rec
 
 ### When I upgrade, will all my customizations continue to work?
 
-There are data model and user interface (UI) changes when you upgrade from Project Service Automation to Project Operations. These changes might break some of your customizations.
+During the upgrade from Project Service Automation to Project Operations, changes are made to the data model and user interface (UI). These changes might break some of your customizations.
 
 ### How do I determine which customizations will be broken before I upgrade?
 
