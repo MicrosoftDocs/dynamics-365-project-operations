@@ -1,6 +1,6 @@
 ---
 title: Vendor invoice integration
-description: This topic provides information about vendor invoice integration in Project Operations.
+description: This article provides information about vendor invoice integration in Project Operations.
 author: mukumarm
 ms.date: 03/05/2024
 ms.reviewer: johnmichalak 
@@ -29,19 +29,20 @@ In Project Operations, project-related vendor invoices are posted using special 
      - **Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices)**: This table map synchronizes vendor invoice header information. Only vendor invoices with at least one line that contains a project ID are synchronized to Dataverse.
      - **Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines)**: This table map synchronizes vendor invoice line information. Only lines that contain a project ID are synchronized to Dataverse.
 
-### Vendor invoice lines
-As part of the 10.0.38 upgrade, a new iteration of the dual write map, version 1.0.0.6, has been introduced specifically for vendor invoice lines. This updated version enables the execution of intercompany vendor invoices. To enable this feature, certain integration keys have been modified. Should the dual write map for vendor invoice lines cease to function, please adhere to the following steps:
+## Vendor invoice lines
 
-1.  Navigate to the Dual Write Maps section within the **Data Management workspace**.
-2.  On the Action pane, select the **integration key**.
-3.  Choose the **project vendor invoice line** integration key.
-4.  Remove **msdyn_owningcompany** from the integration key.
-5.  Ensure that **msdyn_externalinvoiceline** remains the sole field for the vendor invoice line integration key.
+As part of the 10.0.38 upgrade, a new iteration of the dual-write map, version 1.0.0.6, is introduced specifically for vendor invoice lines. This updated version enables the execution of intercompany vendor invoices. To enable this feature, some integration keys have been modified. If the dual-write map for vendor invoice lines stops working, follow these steps.
+
+1. In the **Data Management** workspace, go to the **Dual Write Maps** section.
+2. On the Action Pane, select **Integration key**.
+3. Select the **project vendor invoice line** integration key.
+4. Remove the **msdyn\_owningcompany** field from the integration key.
+5. Ensure that **msdyn\_externalinvoiceline** remains the only field for the integration key.
 
 > [!NOTE]
-> Vendor invoices are not editable in Dataverse.
+> Vendor invoices aren't editable in Dataverse.
 
-Tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance when the vendor invoice is posted. 
+When a vendor invoice is posted, tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance. 
 
 ![Vendor invoice integration.](media/DW7VendorInvoice.png)
 
