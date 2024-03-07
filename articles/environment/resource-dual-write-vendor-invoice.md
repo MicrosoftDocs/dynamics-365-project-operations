@@ -38,7 +38,8 @@ As part of the 10.0.38 upgrade, a new iteration of the dual write map, version 1
 4.  Remove **msdyn_owningcompany** from the integration key.
 5.  Ensure that **msdyn_externalinvoiceline** remains the sole field for the vendor invoice line integration key.
 
-> [!NOTE] vendor invoices are not editable in Dataverse.
+> [!NOTE]
+> Vendor invoices are not editable in Dataverse.
 
 Tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance when the vendor invoice is posted. 
 
