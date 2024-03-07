@@ -29,7 +29,7 @@ There are three input parameters:
 
 - **ReplaceNamedResources** or **ClearTeamsAndAssignments** – Set only one of the options. Don't set both.
 
-    - **\{"ReplaceNamedResources":true\}** – The default behavior for Project Operations. Any named resources are replaced with generic resources. The only exception to this is that assignments to the project manager on the source project will be assigned to the project manager of the target project (which is required to be a named resource and not a generic resource).
+    - **\{"ReplaceNamedResources":true\}** – The default behavior for Project Operations. Any named resources are replaced with generic resources. The only exception is assignments to the Project Manager on the source project are assigned to the Project Manager of the target project (a named resource is required, and not a generic resource).
     - **\{"ClearTeamsAndAssignments":true\}** – The default behavior for Project for the Web. All assignments and team members are removed.
 
 - **SourceProject** – The entity reference of the source project to copy from. This parameter can't be null.
