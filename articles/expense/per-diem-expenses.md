@@ -2,19 +2,19 @@
 # required metadata
 
 title: Per diem expenses
-description: This topic provides information about how to work with per diem expenses.
+description: This article provides information about how to work with per diem expenses.
 author: suvaidya
 ms.date: 03/18/2022
-ms.topic: article
-ms.prod: 
-#
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
 ms.search.form: 
 audience: Application User
 # ms.devlan: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 # ms.custom: 
@@ -27,8 +27,10 @@ ms.dyn365.ops.version:
 
 # Per diem expenses
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 > [!IMPORTANT] 
-> Functionality that is described in this topic is available to targeted users as part of a preview release.
+> Functionality that is described in this article is available to targeted users as part of a preview release.
 
 A per diem payment is a fixed, predetermined daily allowance that a company pays to its employees for lodging (hotels), meals, and incidental expenses that those employees incur while they travel for work. The company pays this allowance to the employees instead of paying the actual travel expenses. Employees can use their **Incidentals/Other** per diem allowance to cover tips, room service, laundry, or dry-cleaning services for important business meetings. The per diem rate can vary, depending upon whether the employer chooses to reimburse for the combined cost of lodging and meals, or only for the cost of meals and incidentals.
 

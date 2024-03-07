@@ -2,10 +2,12 @@
 # required metadata
 
 title: Actuals impact for an internal project
-description: This topic provides information about the impact on the Actuals table at various events for an internal project in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 02/22/2022
+description: This article provides information about the impact on the Actuals table at various events for an internal project in Microsoft Dynamics 365 Project Operations.
+author: avisness
+ms.date: 11/18/2023
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.prod: 
 #
 # optional metadata
@@ -14,18 +16,20 @@ ms.prod:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 
 ms.assetid: 
 ms.search.region: 
 ms.search.industry: 
-ms.author: rumant
+ms.author: avisness
 ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals impact for an internal project
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

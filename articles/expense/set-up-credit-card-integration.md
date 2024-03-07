@@ -2,19 +2,19 @@
 # required metadata
 
 title: Set up credit card integration
-description: This topic explains how to work with expense-related credit card transactions.
+description: This article explains how to work with expense-related credit card transactions.
 author: suvaidya
 ms.date: 11/17/2021
-ms.topic: article
-ms.prod: 
-#
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
 ms.search.form: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 # ms.custom: 
@@ -26,6 +26,8 @@ ms.dyn365.ops.version:
 ---
 
 # Set up credit card integration
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

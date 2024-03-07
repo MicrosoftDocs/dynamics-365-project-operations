@@ -1,23 +1,18 @@
 ---
 title: Propose project resources
-description: This topic provides information about proposing project resources.
+description: This article provides information about proposing project resources.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/28/2019
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Propose project resources

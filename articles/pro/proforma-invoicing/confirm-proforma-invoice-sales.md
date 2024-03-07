@@ -1,14 +1,19 @@
 ---
 title: Confirm a proforma project invoice 
-description: This topic provides information about confirming proforma project invoices in Project Operations.
-author: rumant
-ms.date: 04/05/2021
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+description: This article provides information about confirming proforma project invoices in Project Operations.
+author: suvaidya
+ms.date: 11/18/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+  - evergreen
+ms.reviewer: johnmichalak
+ms.author: suvaidya
 ---
 
 # Confirm a proforma project invoice 
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

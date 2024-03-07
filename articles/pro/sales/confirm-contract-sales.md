@@ -1,14 +1,18 @@
 ---
 title: Confirm a project contract
-description: This topic provides information how to confirm a contract in Project Operations.
+description: This article provides information how to confirm a contract in Project Operations.
 author: rumant
 ms.date: 10/13/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Confirm a project contract
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

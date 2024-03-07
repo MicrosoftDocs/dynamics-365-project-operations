@@ -1,10 +1,10 @@
 ---
 title: Schedule assistant overview
-description: This topic provides information about working with the Schedule assistant to book resources.
+description: This article provides information about working with the Schedule assistant to book resources.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 
 ---

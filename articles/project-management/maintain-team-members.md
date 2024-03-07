@@ -2,11 +2,11 @@
 # required metadata
 
 title: Maintain team members
-description: This topic provides information about booking named resources to project teams and assigning them to tasks. 
+description: This article provides information about booking named resources to project teams and assigning them to tasks. 
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

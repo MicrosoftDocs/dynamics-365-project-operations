@@ -1,16 +1,19 @@
 ---
 title: Work with personal expenses on an expense report
-description: This topic provides information about how to work with personal expenses incurred by employees while traveling for business purposes.
+description: This article provides information about how to work with personal expenses incurred by employees while traveling for business purposes.
 author:  suvaidya
 ms.date: 05/11/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
 
 # Work with personal expenses on an expense report
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

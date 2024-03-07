@@ -1,23 +1,18 @@
 ---
 title: Product-based quote lines
-description: This topic provides information about product-based quote lines.
+description: This article provides information about product-based quote lines.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/06/2019
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Product-based quote lines

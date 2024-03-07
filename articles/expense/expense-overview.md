@@ -1,16 +1,19 @@
 ---
 title: Expense overview
-description: This topic provides information about the Expense functionality in Project Operations. 
+description: This article provides information about the Expense functionality in Project Operations. 
 author: stsporen
 ms.date: 10/06/2020
 ms.topic: overview
-ms.prod:
-ms.reviewer: kfend
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: stsporen
 
 ---
 
 # Expense home page
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

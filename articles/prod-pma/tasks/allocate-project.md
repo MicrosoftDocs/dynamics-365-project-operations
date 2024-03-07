@@ -5,7 +5,7 @@ title: Allocate a project budget or budget revision across periods
 description: This procedure shows how to allocate project budget amounts across periods.
 author: Yowelle
 ms.date: 11/03/2017
-ms.topic: business-process 
+ms.topic: how-to 
 ms.prod:  
 ms.technology:  
 
@@ -14,8 +14,8 @@ ms.technology:
 # ms.search.form:   
 audience: Application User 
 # ms.devlang:  
-ms.reviewer: josaw
-ms.search.scope: Operations 
+ms.reviewer: johnmichalak
+
 # ms.tgt_pltfrm:  
 # ms.custom:  
 ms.search.region: Global

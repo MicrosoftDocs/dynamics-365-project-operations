@@ -1,23 +1,18 @@
 ---
 title: Create time entries
-description: This topic provides information about how to create time entries.
+description: This article provides information about how to create time entries.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
 ms.date: 05/20/2019
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Create time entries

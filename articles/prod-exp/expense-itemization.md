@@ -1,10 +1,10 @@
 ---
 title: Expense itemization
-description: This topic explains how to itemize expenses using the reimagined Expense workspace.
+description: This article explains how to itemize expenses using the reimagined Expense workspace.
 author: suvaidya
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 

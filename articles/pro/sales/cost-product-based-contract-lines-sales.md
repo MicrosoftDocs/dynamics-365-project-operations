@@ -1,15 +1,18 @@
 ---
-title: Cost product-based contract lines - lite
-description: This topic provides information about creating 
+title: Cost product-based contract lines - Lite
+description: This article provides information about creating cost product-based contract lines
 author: rumant
 ms.date: 10/19/2020
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Cost product-based contract lines - lite
+# Cost product-based contract lines - Lite
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

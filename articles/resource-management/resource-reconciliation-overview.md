@@ -2,7 +2,7 @@
 # required metadata
 
 title: Resource reconciliation overview
-description: This topic provides information that will help you ensure that resource bookings and assignments for projects are aligned.
+description: This article provides information that will help you ensure that resource bookings and assignments for projects are aligned.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview
@@ -15,7 +15,7 @@ ms.prod:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 

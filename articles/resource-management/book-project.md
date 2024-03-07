@@ -1,10 +1,10 @@
 ---
 title: Book to a project
-description: This topic provides information about booking a resource to a project.
+description: This article provides information about booking a resource to a project.
 author: ruhercul
 ms.date: 01/24/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 

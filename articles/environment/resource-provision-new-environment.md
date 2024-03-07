@@ -1,21 +1,25 @@
 ---
 title: Provision a new environment
-description: This topic provides information about how to provision a new Project Operations environment.
+description: This article provides information about how to provision a new Project Operations environment.
 author: sigitac
 ms.date: 09/13/2021
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.prod:
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Provision a new environment
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 
 
-This topic provides information about how to provision a new Dynamics 365 Project Operations environment for resource/non-stocked based scenarios.
+This article provides information about how to provision a new Dynamics 365 Project Operations environment for resource/non-stocked based scenarios.
 
 ## Enable Project Operations automated provisioning in an LCS project
 
@@ -112,7 +116,7 @@ You might need to apply quality updates to your Finance environment to receive t
 
     ![Apply Solutions.](./media/13ApplySolutions.png)
 
-5. Select both solutions, **Dynamics 365 Finance and Operations Dual Write Entity Map** and **Dynamics 365 Project Operations Dual Write Entity Maps**, and then select **Apply**.
+5. Select both solutions, **Dynamics 365 Finance Dual Write Entity Map** and **Dynamics 365 Project Operations Dual Write Entity Maps**, and then select **Apply**.
 
     ![Confirm Solutions.](./media/14ConfirmSolutions.png)
 

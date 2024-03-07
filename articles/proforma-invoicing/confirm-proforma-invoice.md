@@ -1,14 +1,18 @@
 ---
 title: Confirm a proforma project-based invoice
-description: This topic provides information about confirming a proforma project-based invoice. 
-author: rumant
-ms.date: 04/05/2021
+description: This article provides information about confirming a proforma project-based invoice. 
+author: suvaidya
+ms.date: 11/18/2023
 ms.topic: article
-ms.reviewer: kfend
-ms.author: rumant
+ms.reviewer: johnmichalak
+ms.author: suvaidya
+ms.custom:
+  -evergreen
 ---
 
 # Confirm a proforma project-based invoice
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

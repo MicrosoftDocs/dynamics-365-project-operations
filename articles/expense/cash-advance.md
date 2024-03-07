@@ -1,16 +1,20 @@
 ---
 title: Cash advance
-description: This topic provides information about cash advances.
+description: This article provides information about cash advances.
 author: suvaidya
-ms.date: 03/25/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 04/07/2022
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
 # Cash advance
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -61,7 +65,7 @@ Before you submit an expense report, you can select the cash advance that aligns
  
  When these features are enabled:
  
-  - You can sadd one or more cash advances for each expense line.
+  - You can add one or more cash advances for each expense line.
   - The available balance of a cash advance is visible in real time when an expense report is saved. This allows you to process expense transactions and return cash transaction at the same time.
   - You can select multiple cash advances for one expense transaction.
   - Cash advance reconciliation data is available by using a query. 

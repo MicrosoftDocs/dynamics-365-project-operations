@@ -1,14 +1,18 @@
 ---
 title: Migrate fully invoiced billing milestones at cutover
-description: This topic explains how to migrate fixed-priced billing milestones that have been invoiced to the customer for open project contracts before the go-live date.
+description: This article explains how to migrate fixed-priced billing milestones that have been invoiced to the customer for open project contracts before the go-live date.
 author: sigitac
-ms.date: 01/10/2022
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 06/18/2022
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Migrate fully invoiced billing milestones at cutover
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -41,7 +45,7 @@ Contoso is going live with Microsoft Dynamics 365 Project Operations for resourc
 3. Add a mapping for the transaction status.
 
     1. Select **Add mapping**.
-    2. On the new line, in the **Finance and Operations apps** column, select the **TRANSSTATUS \[TRANSSTATUS\]** field.
+    2. On the new line, in the **Finance and operations apps** column, select the **TRANSSTATUS \[TRANSSTATUS\]** field.
     3. In the **Microsoft Dataverse** column, select **msdyn\_invoicestatus \[Invoice status\]**.
     4. In the **Map type** column, select the right arrow (**\>**).
     5. In the dialog box that appears, in the **Sync direction** field, select **Dataverse to Finance and Operations apps**.

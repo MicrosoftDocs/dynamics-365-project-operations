@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project grants
-description: This topic explains how to create or modify a grant. 
+description: This article explains how to create or modify a grant. 
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,8 +15,8 @@ ms.technology:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
+
 # ms.tgt_pltfrm: 
 ms.custom: 
 ms.assetid: 

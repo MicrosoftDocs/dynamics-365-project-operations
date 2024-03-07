@@ -2,23 +2,18 @@
 title: Enable Project Finder Mobile app features
 description: How to enable Project Finder Mobile app features for Project Service
 author: JohnPBurrows
-ms.prod:
+ms.prod: 
 ms.custom: 
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Enable Project Finder Mobile app features (Project Service)
 

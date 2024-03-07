@@ -1,17 +1,20 @@
 ---
 title: Set up labor cost rates
-description: This topic provides information about how to set up rates for the cost of labor Project Operations
-author: rumant
-ms.date: 10/12/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+description: This article provides information about how to set up rates for the cost of labor Project Operations
+author: avisness
+ms.date: 11/18/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: avisness
 ---
 
 # Set up labor cost rates
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
+[!INCLUDE[banner](../includes/banner.md)]
 
 Each price list has a set of labor rates (role prices) that align with the content and date effectivity of the price list.
 
@@ -33,7 +36,7 @@ The following table includes some of the fields that are important when creating
 
 ## Transfer pricing and costs for resources outside of your division or legal entity
 
-In project-based companies, it's common to use employees from different legal entities or divisions on projects. A project can be executed by one legal entity, but the employees or consultants that work on the project could come from the same legal entity or from a different one, or there may be a combination of both. In Dynamics 365 Project Operations, the legal entity that owns the delivery of the project is the **Owning Company** and the division that owns the delivery is the **Contracting Unit**. Other legal entities that provide resources are the **Resourcing companies** and divisions that provide resources are the **Resourcing Units**. In most countries, companies are required to ensure that the resourcing legal entity or division, charge the owning company and the contracting unit for the use of resources.
+In project-based companies, it's common to use employees from different legal entities or divisions on projects. A project can be executed by one legal entity, but the employees or consultants that work on the project could come from the same legal entity or from a different one, or there may be a combination of both. In Dynamics 365 Project Operations, the legal entity that owns the delivery of the project is the **Owning Company** and the division that owns the delivery is the **Contracting Unit**. Other legal entities that provide resources are the **Resourcing companies** and divisions that provide resources are the **Resourcing Units**. In most countries/regions, companies are required to ensure that the resourcing legal entity or division, charge the owning company and the contracting unit for the use of resources.
 
 For example, the Fabrikam corporation must ensure that Fabrikam India-Robotics has a negotiated a cost rate card with Fabrikam US-Robotics or Fabrikam UK-Robotics.
 

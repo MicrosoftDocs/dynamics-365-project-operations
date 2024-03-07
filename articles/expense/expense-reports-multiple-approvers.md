@@ -2,19 +2,19 @@
 # required metadata
 
 title: Expense reports and multiple approvers
-description: This topic provides information about expense reports that require approval by more than one person.
+description: This article provides information about expense reports that require approval by more than one person.
 author: suvaidya
 ms.date: 09/23/2020
-ms.topic: article
-ms.prod: 
-#
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
 ms.search.form: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 # ms.custom: 
@@ -26,6 +26,8 @@ ms.dyn365.ops.version:
 ---
 
 # Expense reports and multiple approvers
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

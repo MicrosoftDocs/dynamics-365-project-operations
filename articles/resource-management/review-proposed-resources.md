@@ -2,9 +2,9 @@
 # required metadata
 
 title: Review proposed resources
-description: This topic provides information about how to propose project resources.
+description: This article provides information about how to propose project resources.
 author: ruhercul
-ms.date: 08/18/2021
+ms.date: 07/19/2022
 ms.topic: article
 ms.prod: 
 #
@@ -15,7 +15,7 @@ ms.prod:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -45,8 +45,8 @@ To review proposed resources, follow these steps:
     The following status updates occur:
 
     - On the **Schedule Assistant** page, the status indicators are updated to indicate that the booking is proposed, not hard booked.
-    - On the resource request, the status is changed to **Needs Review**.
-    - On the **Team** tab of the project, the generic team member's **Request Status** value is changed to **Needs Review**.
+    - On the resource request, the reviewer of the request should change the status to **Needs Review**.
+    - On the **Team** tab of the project, the generic team member's **Request Status** value is automatically changed to **Needs Review**.
 
 The project manager can accept or reject the proposal.
 

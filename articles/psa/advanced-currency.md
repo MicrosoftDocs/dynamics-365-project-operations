@@ -1,23 +1,18 @@
 ---
 title: Multiple-currency scenarios (version 3.x)
-description: This topic provides information about multiple-currency scenarios.
+description: This article provides information about multiple-currency scenarios.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
 ms.date: 12/26/2018
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Multiple-currency scenarios

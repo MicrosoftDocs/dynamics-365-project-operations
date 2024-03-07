@@ -1,11 +1,11 @@
 ---
 title: Removed or deprecated features in Dynamics 365 Project Operations
-description: This topic describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
+description: This article describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 03/16/2022
+ms.date: 09/15/2023
 ms.topic: article
 ms.prod:
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
@@ -13,15 +13,37 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios_
 
-This topic describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
+This article describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
 
 - A *removed* feature is no longer available in the product.
-- A *deprecated* feature is not in active development and may be removed in a future update.
+- A *deprecated* feature isn't in active development and may be removed in a future update.
 
 This list is intended to help you consider these removals and deprecations for your own planning.
 
 > [!NOTE]
-> Detailed information about objects in Finance and Operations apps can be found in the [**Technical reference reports**](/dynamics/s-e/global/axtechrefrep_61). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of Finance and Operations apps.
+> Detailed information about objects in finance and operations apps can be found in the [**Technical reference reports**](/dynamics/s-e/global/axtechrefrep_61). You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of finance and operations apps.
+
+## Features removed or deprecated in the Project Operations October 2023 release
+
+### Project management and accounting adjustment parameter for "Invoiced"
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reason for deprecation/removal** | Transactions are much more difficult to audit if they're adjusted after they have been invoiced. This behavior causes confusion for the small number of users who use this functionality.  |
+| **Replaced by another feature?** | No |
+| **Product areas affected** | Application |
+| **Deployment option** | Project Operations for production/stocked scenarios |
+| **Status** | Deprecated: By October 1, 2024, the parameter is hidden and the system behavior is changed so that adjustment transactions can't be created for invoiced transactions. |
+
+### Project management and accounting "Allow for projects with multiple funding sources" parameter
+
+| &nbsp; | &nbsp; |
+|--------|--------|
+| **Reason for deprecation/removal** | This parameter was originally added before feature management was available. However, it's no longer required, because the functionality can now be safely enabled for sales orders and multiple funding sources. Multiple funding sources should now always be optionally configurable in the project contract. |
+| **Replaced by another feature?** | No |
+| **Product areas affected** | Application |
+| **Deployment option** | Project Operations for production/stocked scenarios |
+| **Status** | Deprecated: By October 1, 2024, the parameter is hidden and the system behavior is changed so that the system behaves as if the parameter is always enabled, but multiple funding sources aren't required. |
 
 ## Features removed or deprecated in the Project Operations March 2022 release
 
@@ -29,21 +51,21 @@ This list is intended to help you consider these removals and deprecations for y
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | Adjustment transactions are required for audit purposes. After deprecation, this parameter will be hidden. The system will always create adjustment transactions, just as it currently does when the parameter is set to **Yes**. |
+| **Reason for deprecation/removal** | Adjustment transactions are required for audit purposes. After deprecation, this parameter is hidden. The system always creates adjustment transactions, just as it currently does when the parameter is set to **Yes**. |
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By March 1, 2023, we will hide the parameter and change the system behavior so that adjustment transactions are always created. |
+| **Status** | Removed as of 10.0.32.|
 
 ### Project management and accounting "Use adjustment date as new project date" parameter
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | This parameter was originally used to allow for adjustments when a fiscal period was closed. However, it's no longer required, because the accounting date of the transaction can be changed to the first date of the open period, if it's configured. The project date must not be changed, because it represents the date when transaction occurred. |
+| **Reason for deprecation/removal** | This parameter was originally used to allow for adjustments when a fiscal period was closed. However, it's no longer required, because the accounting date of the transaction can be changed to the first date of the open period, if it's configured. The project date must not be changed, because it represents the date when transaction occurred. The project date no longer changes on adjustments. |
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By March 1, 2023, we will hide the parameter and change the system behavior so that the project date is never changed on adjustments. |
+| **Status** | Removed as of 10.0.32.
 
 ### Resource request workflow in Project Operations for stocked/production-based scenarios
 
@@ -53,7 +75,7 @@ This list is intended to help you consider these removals and deprecations for y
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By March 1, 2023, we will disable the option to request resources for the project by using the workflow. |
+| **Status** | Deprecated as of 10.0.32 with the removal of enabling  workflow. Many objects marked as obsolete and some objects removed. |
 
 ### Project invoice proposal page without Header and Lines views
 
@@ -63,7 +85,7 @@ This list is intended to help you consider these removals and deprecations for y
 | **Replaced by another feature?** | Yes |
 | **Product areas affected** | Application |
 | **Deployment option** | Project Operations for production/stocked scenarios; Project Operations for resource/ non-stocked scenarios |
-| **Status** | Deprecated: By March 1, 2023, we will turn off the earlier (legacy) page and turn on the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature key by default. |
+| **Status** | Deprecated: By March 1, 2023, the earlier (legacy) page is turned off and the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature key is turned on by default. |
 
 ## Features removed or deprecated in the Project Operations December 2021 release
 
@@ -73,7 +95,7 @@ This list is intended to help you consider these removals and deprecations for y
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | Deprecated due to low usage. Customers using Project Operations for resource/non-stocked scenarios can leverage [Collaboration with Office Groups](../project-management/collaboration-groups.md). |
+| **Reason for deprecation/removal** | Deprecated due to low usage. Customers using Project Operations for resource/non-stocked scenarios can use[Collaboration with Office Groups](../project-management/collaboration-groups.md). |
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application  |
 | **Deployment option** | Project Operations for production/stocked scenarios |

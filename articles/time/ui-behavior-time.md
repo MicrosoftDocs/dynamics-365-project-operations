@@ -1,10 +1,10 @@
 ---
 title: Time entry UI behavior
-description: This topic provides information about the behavior of the UI for Time Entry. 
+description: This article provides information about the behavior of the UI for Time Entry. 
 author: stsporen
 ms.date: 03/03/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 

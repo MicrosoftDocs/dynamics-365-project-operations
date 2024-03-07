@@ -1,15 +1,19 @@
 ---
 title: Product-based contract lines overview - lite
-description: This topic provides information about product-based contract lines.
+description: This article provides information about product-based contract lines.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: overview
-ms.reviewer: kfend 
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---
 
 # Product-based contract lines overview - lite
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

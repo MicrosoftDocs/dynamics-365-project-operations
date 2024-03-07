@@ -1,10 +1,10 @@
 ---
 title: Extending time entries
-description: This topic provides information about how developers are able to extend the time entry control.
+description: This article provides information about how developers are able to extend the time entry control.
 author: stsporen
 ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 

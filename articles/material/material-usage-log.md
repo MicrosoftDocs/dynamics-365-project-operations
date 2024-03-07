@@ -1,14 +1,18 @@
 ---
 title: Record material usage on projects and project tasks
-description: This topic provides information about how to log material usage against projects and project tasks.
+description: This article provides information about how to log material usage against projects and project tasks.
 author: rumant
 ms.date: 03/31/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Record material usage on projects and project tasks
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

@@ -2,10 +2,12 @@
 # required metadata
 
 title: Business transactions in Project Operations 
-description: This topic provides an overview of the concept of business transactions in Microsoft Dynamics 365 Project Operations.
+description: This article provides an overview of the concept of business transactions in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 01/31/2022
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.prod: 
 #
 
@@ -15,7 +17,7 @@ ms.prod:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 
@@ -27,6 +29,8 @@ ms.search.validFrom: 2022-01-31
 ---
 
 # Business transactions in Project Operations
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

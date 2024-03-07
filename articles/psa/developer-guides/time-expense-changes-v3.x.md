@@ -1,20 +1,17 @@
 ---
 title: Time and Expense changes (Project Service Automation 3.x)
-description: This topic provides information about the solution changes for Time and Expense.
+description: This article provides information about the solution changes for Time and Expense.
 author: makk
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
-#
 ms.author: makk
 audience: admin
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Time and Expense changes (Project Service Automation 3.x)

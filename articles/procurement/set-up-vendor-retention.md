@@ -1,11 +1,11 @@
 ---
 title: Set up vendor retention
-description: This topic explains how to set up vendor retention. 
+description: This article explains how to set up vendor retention. 
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod:
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic provides information about how to set up vendor retention.
+This article provides information about how to set up vendor retention.
 
 ## Set up a vendor retention account in General ledger
 

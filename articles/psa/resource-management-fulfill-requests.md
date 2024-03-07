@@ -1,23 +1,18 @@
 ---
 title: Fulfilling resource requirements
-description: This topic provides information about how to fulfill resource requirements.
+description: This article provides information about how to fulfill resource requirements.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/28/2019
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Fulfilling resource requests

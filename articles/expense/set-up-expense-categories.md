@@ -1,14 +1,18 @@
 ---
 title: Set up expense categories
-description: This topic provides information about how to set up expense categories and shared categories for expense reports.
+description: This article provides information about how to set up expense categories and shared categories for expense reports.
 author: suvaidya
 ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
 # Set up expense categories
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

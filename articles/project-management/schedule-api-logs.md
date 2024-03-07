@@ -1,10 +1,10 @@
 ---
 title: Project scheduling logs
-description: This topic provides information and samples that will help you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
+description: This article provides information and samples that will help you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 
@@ -40,7 +40,7 @@ The following table shows the fields that are related to the **Operation Set** e
 | msdyn_PSSErrorLogName | Not applicable.                                                                                              | Not applicable         |
 | msdyn_status          | The status of the operation set.                                                                             | Status                 |
 | msdyn_statusName      | Not applicable.                                                                                              | Not applicable         |
-| msdyn_useraadid       | The Azure Active Directory (Azure AD) object ID of the user that the request belongs to.                     | UserAADID              |
+| msdyn_useraadid       | The Microsoft Entra object ID of the user that the request belongs to.                     | UserAADID              |
 
 ### Operation Set Detail
 

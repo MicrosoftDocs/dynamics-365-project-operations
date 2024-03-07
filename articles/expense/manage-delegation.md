@@ -2,19 +2,19 @@
 # required metadata
 
 title: Manage delegation
-description: This topic provides information about how an expense delegate can create and manage expense reports for another employee .
+description: This article provides information about how an expense delegate can create and manage expense reports for another employee .
 author: suvaidya
 ms.date: 10/01/2020
-ms.topic: article
-ms.prod: 
-#
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
 ms.search.form: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 # ms.custom: 
@@ -26,6 +26,9 @@ ms.dyn365.ops.version:
 ---
 
 # Manage delegation
+
+[!INCLUDE[banner](../includes/banner.md)]
+
 An expense delegate can create and manage expense reports for another employee.
 
 ## Configuring expense delegation

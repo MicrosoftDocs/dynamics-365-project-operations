@@ -2,7 +2,7 @@
 # required metadata
 
 title: Creat a project team
-description: This topic provides information about how to create and manage project teams.
+description: This article provides information about how to create and manage project teams.
 author: Yowelle
 ms.date: 09/01/2020
 ms.topic: article
@@ -15,8 +15,8 @@ ms.search.form: ProjProjectsListPage
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kdwns
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
+
 # ms.tgt_pltfrm: 
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898

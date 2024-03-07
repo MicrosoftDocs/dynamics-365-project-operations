@@ -5,8 +5,6 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 10/11/2018
 ms.topic: article
-#
-#
 author: JohnPBurrows
 ms.author: rumant
 audience: Admin
@@ -14,10 +12,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

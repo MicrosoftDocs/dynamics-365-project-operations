@@ -1,6 +1,6 @@
 ---
 title: Reconcile bookings and assignments
-description: This topic provides information about actuals.
+description: This article provides information about actuals.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
@@ -12,10 +12,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Reconcile bookings and assignments

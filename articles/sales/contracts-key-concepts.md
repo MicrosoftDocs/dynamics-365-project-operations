@@ -1,10 +1,10 @@
 ---
-title: Project contracts - Key concepts
-description: This topic provides information about the key concepts of project contracts in Project Operations.
+title: Concepts unique to Project-based Contracts
+description: This article provides information about the key concepts of project contracts in Project Operations.
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
@@ -14,7 +14,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 
 
-This topic provides the key concepts to be aware of before you begin using Project contracts in Dynamics 365 Project Operations:
+This article provides the key concepts to be aware of before you begin using Project contracts in Dynamics 365 Project Operations:
 
 ## Owning Company
 

@@ -1,14 +1,18 @@
 ---
-title: Create invoice schedules on a project-based contract line - lite
-description: This topic provides information about creating invoice schedules and milestones.
+title: Create invoice schedules on a project contract line
+description: This article provides information about creating invoice schedules and milestones.
 author: rumant
-ms.date: 10/26/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 12/15/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Create invoice schedules on a project-based contract line - lite
+# Create invoice schedules on a project contract line
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

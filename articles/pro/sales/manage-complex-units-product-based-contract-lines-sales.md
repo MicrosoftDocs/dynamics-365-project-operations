@@ -1,15 +1,19 @@
 ---
 title: Manage complex units for product-based contract lines - lite
-description:  This topic provides information about supporting the sale of subscription-based products.
+description:  This article provides information about supporting the sale of subscription-based products.
 author: rumant
 ms.date: 10/28/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 
 # Manage complex units for product-based contract lines - lite
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

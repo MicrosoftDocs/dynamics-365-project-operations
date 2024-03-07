@@ -1,11 +1,11 @@
 ---
 title: What's new or changed in Project Operations, April 2021 for stocked/production-based scenarios
-description: This topic provides information about the quality updates available in the April 2021 release of Project Operations for stocked/production-based scenarios.
+description: This article provides information about the quality updates available in the April 2021 release of Project Operations for stocked/production-based scenarios.
 author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod:
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
 
@@ -13,7 +13,7 @@ ms.author: andchoi
 
 _**Applies To:** Project Operations for stocked/production based scenarios_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project management and accounting in Dynamics 365 Finance environment version 10.0.18
  
@@ -78,7 +78,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 | Travel and Expense                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | When the expense category is a non-project category, the financial dimensions selected on the **Expenses** page aren't copied to the expense report.                                          |
 
 ### Regulatory updates
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

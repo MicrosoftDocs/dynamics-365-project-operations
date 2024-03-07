@@ -1,14 +1,18 @@
 ---
-title: Manage multiple customers on project quotes - lite
-description: This topic provides information about working on quotes with multiple customers who will fund the project. (Sales)
+title: Manage multiple customers on project quotes
+description: This article provides information about working on quotes with multiple customers who will fund the project. (Sales)
 author: rumant
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 12/03/2022
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Manage multiple customers on project quotes - lite
+# Manage multiple customers on project quotes
+
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

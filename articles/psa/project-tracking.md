@@ -1,6 +1,6 @@
 ---
 title: Project progress and cost consumption
-description: This topic provides information about tracking project progress and cost consumption.
+description: This article provides information about tracking project progress and cost consumption.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
@@ -12,10 +12,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
     
 # Project progress and cost consumption
@@ -24,7 +21,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-The need to track progress against a schedule varies by industry. Some industries track at a granular level, whereas other industries track at a higher level. This topic shows how to schedule in order to meet your organization's requirements.
+The need to track progress against a schedule varies by industry. Some industries track at a granular level, whereas other industries track at a higher level. This article shows how to schedule in order to meet your organization's requirements.
 
 ## Effort tracking view
 

@@ -1,24 +1,19 @@
 ---
 title: Actuals overview
-description: This topic provides information about project actuals.
+description: This article provides information about project actuals.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
+ms.collection: get-started
 ms.date: 08/03/2020
 ms.topic: overview
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Actuals overview

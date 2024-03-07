@@ -1,20 +1,24 @@
 ---
 title: Correct the accounting on draft project invoice proposals
-description: This topic explains how to adjust accounting-related information on a draft invoice proposal.
+description: This article explains how to adjust accounting-related information on a draft invoice proposal.
 author: sigitac
 ms.date: 01/05/2022
-ms.topic: article
-ms.reviewer: kfend 
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Correct the accounting on draft project invoice proposals
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 *Operational details* for project invoices are maintained by the project manager on a pro forma invoice. These details include the decision about the hours, expenses, materials, or milestones that must be invoiced, the rates, and the application of advance and retainer amounts. After you confirm the original pro forma invoice, you can adjust the operational details by creating and confirming a [corrective pro forma invoice](../proforma-invoicing/corrective-invoices.md).
 
-*Accounting details* for project invoices are maintained in a customer-facing invoice document. These details include the sales tax calculation and the financial dimensions that are applied to the invoice. This topic provides details about how these accounting details can be adjusted on a draft project invoice proposal.
+*Accounting details* for project invoices are maintained in a customer-facing invoice document. These details include the sales tax calculation and the financial dimensions that are applied to the invoice. This article provides details about how these accounting details can be adjusted on a draft project invoice proposal.
 
 ## Adjust sales tax
 

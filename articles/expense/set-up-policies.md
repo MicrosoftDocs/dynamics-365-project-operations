@@ -5,16 +5,16 @@ title: Define expense policies
 description: You can define expense policies that your workers must follow when entering and submitting expense reports and travel requisitions. 
 author: suvaidya
 ms.date: 09/23/2020
-ms.topic: article
-ms.prod: 
-#
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 
 # optional metadata
 
 ms.search.form:  
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 # ms.custom: 
@@ -26,6 +26,8 @@ ms.dyn365.ops.version:
 ---
 
 # Define expense policies
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

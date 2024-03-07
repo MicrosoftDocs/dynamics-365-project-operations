@@ -1,11 +1,11 @@
 ---
 title: What's new March 2021 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates available in the March 2021 release of Project Operations for resource/non-stocked based scenarios.
+description: This article provides information about the quality updates available in the March 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod:
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
@@ -13,7 +13,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on Dataverse environment version 4.8.0.91 
 - Project management and accounting on Dynamics 365 Finance environment version 10.0.16 
@@ -43,7 +43,7 @@ For more information, see [What's new January 2021 - Project Operations for reso
 
 ## Regulatory updates
 
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). Another way to learn about regulatory updates is to sign in to LCS and view the planned regulatory updates using the issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). Another way to learn about regulatory updates is to sign in to LCS and view the planned regulatory updates using the issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

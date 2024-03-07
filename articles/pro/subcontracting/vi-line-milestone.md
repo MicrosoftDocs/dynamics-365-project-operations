@@ -1,16 +1,18 @@
 ---
 title: Vendor invoice lines for milestones
-description: This topic explains how to create vendor invoice lines for milestones on a subcontract.
+description: This article explains how to create vendor invoice lines for milestones on a subcontract.
 author: rumant
-ms.date: 03/25/2022
-ms.topic: article
-ms.reviewer: tonyafehr 
+ms.date: 12/15/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Vendor invoice lines for milestones
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 

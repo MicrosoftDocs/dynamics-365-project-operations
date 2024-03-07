@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project time entry mobile workspace 
-description: This topic provides information about the Project time entry mobile workspace. This workspace lets users enter and save time against a project by using their mobile device.
+description: This article provides information about the Project time entry mobile workspace. This workspace lets users enter and save time against a project by using their mobile device.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,8 +15,8 @@ ms.technology:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
+
 # ms.tgt_pltfrm: 
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
@@ -32,7 +32,7 @@ ms.search.validFrom: 2016-11-30
 
 [!include [banner](../includes/banner.md)]
 
-This topic provides information about the **Project time entry** mobile workspace. This workspace lets users enter and save time against a project by using their mobile device.
+This article provides information about the **Project time entry** mobile workspace. This workspace lets users enter and save time against a project by using their mobile device.
 
 This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app. 
 
@@ -88,7 +88,7 @@ If version 1611 with Platform update 3 or later has been deployed for your organ
 
 ## Download and install the mobile app
 
-Download and install the Finance and Operations mobile app:
+Download and install the finance and operations mobile app:
 
 -   [For Android phones](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [For iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

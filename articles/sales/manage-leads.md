@@ -1,26 +1,24 @@
 ---
-title: Manage leads
-description: This topic provides information about managing project-based leads.
+title: Manage project-based leads
+description: This article provides information about managing project-based leads.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Manage leads
+# Manage project-based leads
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 Project-based leads can be managed and qualified in Project Operations. The process of lead management includes creating work-based leads and qualifying those leads. 
 
-## Project sales leads
-
 In the **Sales** section, in the left navigation pane, open the **Leads** list page to view a list of all lead records in the system. The list of leads shown are work-based and other types of leads that can be created if you also have the Dynamics 365 Sales or Dynamics 365 Field Service applications.
 
 You can create a filtered view to see only project-based leads by creating a filter on the **Type** value. For example, you can select to show only work-based leads.
 
-## Create a new lead for a project-based deal
+## Create a new project-based lead 
 
 When a project-based lead is qualified, an opportunity and an account are created. A project-based opportunity is the starting point for sales pursuit activities in the Opportunity phase. Project-based opportunities have unique capabilities that are required for selling project work. These capabilities include:
 

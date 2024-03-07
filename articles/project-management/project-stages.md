@@ -2,7 +2,7 @@
 # required metadata
 
 title: Project stages
-description: This topic provides information about the project stages that are available in Microsoft Dynamics Project Operations.
+description: This article provides information about the project stages that are available in Microsoft Dynamics Project Operations.
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,7 +15,7 @@ ms.prod:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 ms.custom: 
@@ -52,7 +52,7 @@ When you associate a project with a quote, or when you create a project from a q
 
 ## Plan
 
-When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**. While the project is in the **Plan** stage, the **Project Entity** page shows details of the contract.
+When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**. While the project is in the **Plan** stage, the **Sales** tab on the **Project Entity** page shows details of the contract.
 
 ## Deliver
 

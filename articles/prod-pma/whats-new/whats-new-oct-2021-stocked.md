@@ -1,11 +1,11 @@
 ---
 title: What's new or changed in Project Operations, October 2021 for stocked/production-based scenarios
-description: This topic provides information about the quality updates that are available in the October 2021 release of Project Operations for stocked/production-based scenarios.
+description: This article provides information about the quality updates that are available in the October 2021 release of Project Operations for stocked/production-based scenarios.
 author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod:
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
 
@@ -13,7 +13,7 @@ ms.author: andchoi
 
 _**Applies To:** Project Operations for stocked/production based-scenarios_
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project management and accounting in a Dynamics 365 Finance environment version 10.0.22
  
@@ -75,6 +75,6 @@ This topic applies to the following components and versions of Microsoft Dynamic
 
 ### Regulatory updates
 
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Microsoft Dynamics Lifecycle Services (LCS) and use the Issue search tool to view the planned regulatory updates. Issue search lets you search by country or region, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Microsoft Dynamics Lifecycle Services (LCS) and use the Issue search tool to view the planned regulatory updates. Issue search lets you search by country or region, type of feature, and release.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

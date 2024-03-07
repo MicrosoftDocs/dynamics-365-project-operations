@@ -2,7 +2,7 @@
 # required metadata
 
 title: Create and apply vendor payment retention terms
-description: This topic provides information about how to set up and maintain retention terms for vendor payments.
+description: This article provides information about how to set up and maintain retention terms for vendor payments.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article
@@ -15,8 +15,8 @@ ms.technology:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
+
 # ms.tgt_pltfrm: 
 ms.custom: 
 ms.assetid: 

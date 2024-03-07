@@ -2,10 +2,12 @@
 # required metadata
 
 title: Actuals
-description: This topic provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
+description: This article provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 02/22/2022
+ms.date: 05/31/2022
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.prod: 
 #
 
@@ -15,7 +17,7 @@ ms.prod:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: tonyafehr
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 
@@ -28,6 +30,8 @@ ms.search.validFrom: 2020-10-01
 
 # Actuals
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Actuals represent the reviewed and approved financial and schedule progress on a project. They are created when time, expense, and material usage entries, journal entries, and invoices are approved.
@@ -39,7 +43,7 @@ Actuals represent the reviewed and approved financial and schedule progress on a
 
 Project Operations records the financial transactions that occur during a project engagement lifecycle as actuals. The creation of actuals at various events in the lifecycle varies, depending on whether the project engagement uses the time and materials billing model or the fixed price billing model, and whether it's in the pre-sales stage or it's an internal project.
 
-The following topics explain the impact on the Actuals table at various events for different variations:
+The following articles explain the impact on the Actuals table at various events for different variations:
 
 - [Actuals impact in a time and materials engagement](ActualsonTM.md)
 - [Actuals impact in a fixed price engagement](ActualonFP.md)

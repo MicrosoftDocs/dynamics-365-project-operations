@@ -1,23 +1,18 @@
 ---
 title: Project settings
-description: This topic provides information about project management settings.
+description: This article provides information about project management settings.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/01/2019
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Project settings

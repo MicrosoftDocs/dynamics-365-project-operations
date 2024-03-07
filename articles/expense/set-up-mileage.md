@@ -1,14 +1,19 @@
 ---
 title: Set up mileage using mileage rate tiers
-description: This topic provides information about mileage rates and mileage rate tiers.
+description: This article provides information about mileage rates and mileage rate tiers.
 author: suvaidya
-ms.date: 05/20/2021
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 06/28/2022
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
 # Set up mileage using mileage rate tiers
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -45,5 +50,15 @@ The **Mileage amount calculation for multiple mileage tiers with same rate** fea
 
 After you enable the feature, reset the mileage tiers to correctly reflect the value of the **Quantity** field. 
 
+## Enable the Mileage totals calculation by fiscal year feature
+
+The **Mileage totals calculation by fiscal year** feature enables a new setting in Expense management parameters that performs mileage totals calculations by fiscal year instead of calendar year. Complete the following steps to enable this feature.
+
+1. Go to **Workspaces** > **Feature Management**.
+1. In the list, locate and select **Mileage totals calculation by fiscal year**, and then select **Enable now**.
+1. Go to **Expense Management** > **Setup** > **General** > **Expense management parameters**.
+1. On the **Expense management parameters** page, locate and enable **Use fiscal year for mileage totals**.
+
+After you enable **Use fiscal year for mileage totals**, mileage totals are calculated by fiscal year.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

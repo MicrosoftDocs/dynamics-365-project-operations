@@ -2,11 +2,11 @@
 # required metadata
 
 title: Create intercompany transactions
-description: This topic provides information about how to create intercompany transactions.
+description: This article provides information about how to create intercompany transactions.
 author:  sigitac
 ms.date: 04/12/2021 
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 

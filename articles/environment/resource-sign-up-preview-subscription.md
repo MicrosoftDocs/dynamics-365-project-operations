@@ -1,20 +1,24 @@
 ---
 title: Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
-description: This topic provides information about how to subscribe to and deploy Project Operations for resouce/non-stocked based scenarios.
+description: This article provides information about how to subscribe to and deploy Project Operations for resource/non-stocked based scenarios.
 author: sigitac
 ms.date: 07/02/2021
-ms.topic: article
-ms.reviewer: kfend 
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 
 
-This topic explains how to subscribe to the trial offer and deploy Project Operations environment for resource/non-stocked based scenarios.
+This article explains how to subscribe to the trial offer and deploy Project Operations environment for resource/non-stocked based scenarios.
 
 ## Prerequisites
 - The user who deploys the preview must have Azure tenant global administrator rights. You can create a tenant during the first offer redemption. 
@@ -55,19 +59,19 @@ Go to [Dynamics 365 for Finance Preview Trial](https://aka.ms/trypoche) and repe
 
 ## Start a new project in LCS
 
-Create a new LCS project as described in the topic, [Start a new project in LCS](create-lcs-project.md)
+Create a new LCS project as described in the article, [Start a new project in LCS](create-lcs-project.md)
 
 ## Add an Azure subscription to an LCS project
 
-To complete this task, follow the steps in the topic, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).
+To complete this task, follow the steps in the article, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).
 
 ## Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios
 
-Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
+Follow the guidance in the article, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
 
 ## Install CDS setup and configuration data
 
-Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).
+Install CDS setup and configuration data as described in the article, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).
 Complete this step only after Finance demo environment is deployed and demo data is ready.
 
 

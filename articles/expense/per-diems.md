@@ -1,14 +1,18 @@
 ---
 title: Per diems
-description: This topic provides information about the per diem rules that are used in Expense management.
+description: This article provides information about the per diem rules that are used in Expense management.
 author: suvaidya
 ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
 # Per diems
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 

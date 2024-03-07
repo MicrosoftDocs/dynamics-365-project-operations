@@ -1,14 +1,18 @@
 ---
 title: Start a new LCS project
-description: This topic provides information about creating a new project in LCS for your Project Operations environment.
+description: This article provides information about creating a new project in LCS for your Project Operations environment.
 author: stsporen
 ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: stsporen
 ---
 
 # Start a new LCS project
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
@@ -22,7 +26,7 @@ Use Lifecycle Services (LCS) to manage you Dynamics 365 Project Operations envir
   ![Pick LCS project type.](./media/create-lcs-1.png)
 
 5. Name the project. 
-6. Select **Finance and Operations** as the product name, and select the industry and methodology. 
+6. Select **Finance and operations** as the product name, and select the industry and methodology. 
 7. Select **Create**.
 
 ![Create LCS project.](./media/create-lcs-2.png)

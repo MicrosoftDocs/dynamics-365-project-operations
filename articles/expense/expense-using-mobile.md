@@ -1,20 +1,20 @@
 ---
 # required metadata
 
-title: Mobile Expense app
-description: This topic provides information about the Expense management mobile workspace.
+title: Mobile Expense app (legacy)
+description: This article provides information about the Expense management mobile workspace.
 author: suvaidya
 ms.date: 11/15/2021
-ms.topic: article
-ms.prod: 
-#
+ms.topic: conceptual
+ms.custom:
+  - bap-template
 
 # optional metadata
 
 ms.search.form: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: 
 # ms.tgt_pltfrm: 
 # ms.custom: 
@@ -25,11 +25,13 @@ ms.search.validFrom:
 ms.dyn365.ops.version: 
 ---
 
-# Mobile Expense app
+# Mobile Expense app (legacy)
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This topic provides information about the **Expense management** mobile workspace. This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later. Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports. Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.
+This article provides information about the **Expense management** mobile workspace. This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later. Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports. Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.
 
 This mobile workspace is intended to be used with the Dynamics 365 Unified Ops mobile app.
 
@@ -173,7 +175,7 @@ Download and install the Dynamics 365 Unified Ops mobile app:
         - If you selected **Guest**, follow these steps:
 
             1. Enter the name of the guest.
-            2. Optional: Enter the organization and/or country of the guest.
+            2. Optional: Enter the organization and/or country/region of the guest.
             3. Optional: Enter the title of the guest.
             4. Select **Done**.
 

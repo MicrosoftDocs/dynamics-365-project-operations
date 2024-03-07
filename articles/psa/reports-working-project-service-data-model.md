@@ -1,23 +1,18 @@
 ---
 title: Working with the Project Service Automation data model
-description: This topic provides information about how to work with the data model.
+description: This article provides information about how to work with the data model.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/01/2019
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Working with the Project Service Automation data model
@@ -27,7 +22,7 @@ search.app:
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-Dynamics 365 Project Service Automation extends other app entities and introduces its own entities in the Common Data Service data model. This topic describes some of the entities that you will encounter in typical PSA reporting scenarios.
+Dynamics 365 Project Service Automation extends other app entities and introduces its own entities in the Common Data Service data model. This article describes some of the entities that you will encounter in typical PSA reporting scenarios.
 
 ## Reporting on opportunities
 

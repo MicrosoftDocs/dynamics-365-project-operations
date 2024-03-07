@@ -1,11 +1,11 @@
 ---
 title: What's new January 2021 - Project Operations lite deployment
-description: This topic provides information about the quality updates available in the January 2021 release of Project Operations lite deployment.
+description: This article provides information about the quality updates available in the January 2021 release of Project Operations lite deployment.
 author: sigitac
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod:
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
@@ -14,7 +14,7 @@ ms.author: sigitac
 
 _Applies To: Lite deployment - deal to proforma invoicing_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
   - Project Operations on Dataverse environment version 4.6.0.154.
   

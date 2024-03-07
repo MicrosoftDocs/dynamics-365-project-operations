@@ -1,23 +1,18 @@
 ---
 title: Resource management FAQ
-description: This topic provides answers to frequently asked questions about resource management.
+description: This article provides answers to frequently asked questions about resource management.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/28/2019
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Resource management FAQ
 

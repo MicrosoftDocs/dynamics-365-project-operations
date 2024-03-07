@@ -1,11 +1,11 @@
 ---
 title: What's new December 2020 - Project Operations for stocked/production based scenarios
-description: This topic provides information about the quality updates available in the December 2020 release of Project Operations for stocked/production based scenarios.
+description: This article provides information about the quality updates available in the December 2020 release of Project Operations for stocked/production based scenarios.
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod:
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
 
@@ -13,7 +13,7 @@ ms.author: andchoi
 
 _Applies To: Project Operations for stocked/production-based scenarios_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
   - Project management and accounting in Dynamics 365 Finance environment version 10.0.15
 
@@ -134,7 +134,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 
 ## Regulatory updates
 
-For information about regulatory updates for Dynamics 365 Finance, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). Another way to learn about regulatory updates is to sign in to Lifecycle Services (LCS) and view the planned regulatory updates using the issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for Dynamics 365 Finance, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). Another way to learn about regulatory updates is to sign in to Lifecycle Services (LCS) and view the planned regulatory updates using the issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

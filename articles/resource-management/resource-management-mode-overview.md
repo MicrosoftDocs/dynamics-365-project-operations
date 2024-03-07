@@ -1,10 +1,10 @@
 ---
 title: Resource management modes overview
-description: This topic provides information about Resource management functionality in Dynamics 365 Project Operations.
+description: This article provides information about Resource management functionality in Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 
 ---
@@ -34,7 +34,7 @@ For organizations who require flexibility in the allocation of resources, the hy
 
 ![Hybrid Mode.](./media/resource-management-hybrid.png)
 
-In addition to the supported Central mode process, see the following topics to manage all other supported booking flows in the Hybrid mode:
+In addition to the supported Central mode process, see the following articles to manage all other supported booking flows in the Hybrid mode:
 
 Book a resource directly to a project:
 - [Book named bookable resources to a project team and assign tasks](/dynamics365/project-service/assign-named-bookable-resource)

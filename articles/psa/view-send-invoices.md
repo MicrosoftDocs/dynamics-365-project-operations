@@ -6,18 +6,13 @@ ms.custom:
   - dyn365-projectservice
 ms.date: 8/03/2018
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # View and send invoices (Project Service)
 

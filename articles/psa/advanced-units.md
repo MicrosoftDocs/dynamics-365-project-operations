@@ -1,23 +1,18 @@
 ---
 title: Unit groups and units
-description: This topic provides information about unit groups and units.
+description: This article provides information about unit groups and units.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
 ms.date: 03/05/2019
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Unit groups and units

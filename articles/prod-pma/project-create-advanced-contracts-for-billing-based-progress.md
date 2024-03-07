@@ -2,7 +2,7 @@
 # required metadata
 
 title: Create advanced contracts for billing based on progress
-description: This topic explains how to create project contracts so that you can generate invoices for customers, based on a percentage of completed work.
+description: This article explains how to create project contracts so that you can generate invoices for customers, based on a percentage of completed work.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,8 +15,8 @@ ms.technology:
 # ROBOTS: 
 audience: Application User
 # ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
+
 # ms.tgt_pltfrm: 
 ms.custom: 
 ms.assetid: 
@@ -31,9 +31,9 @@ ms.search.validFrom: 2019-01-15
 # Create advanced contracts for billing based on progress
 [!include [banner](../includes/banner.md)]
 
-This topic explains how to create project contracts so that you can create invoices for customers, based on a percentage of completed work. Invoice amounts are automatically calculated for the budget categories of work that you set up for a project. The invoice timing is set when you negotiate the project contract with the customer.
+This article explains how to create project contracts so that you can create invoices for customers, based on a percentage of completed work. Invoice amounts are automatically calculated for the budget categories of work that you set up for a project. The invoice timing is set when you negotiate the project contract with the customer.
 
-Use the procedures in this topic to set up a contract, an associated project, and the billing rules that calculate invoice amounts for the budget categories of work that you set up for the project.
+Use the procedures in this article to set up a contract, an associated project, and the billing rules that calculate invoice amounts for the budget categories of work that you set up for the project.
 
 After you've created the contract and the project, you can set up the details of the project. For example, you can define activities and assign workers to the project.
 
