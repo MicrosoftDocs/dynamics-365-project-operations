@@ -29,7 +29,7 @@ There are three input parameters:
 
 - **ReplaceNamedResources** or **ClearTeamsAndAssignments** – Set only one of the options. Don't set both.
 
-    - **\{"ReplaceNamedResources":true\}** – The default behavior for Project Operations. Any named resources are replaced with generic resources.
+    - **\{"ReplaceNamedResources":true\}** – The default behavior for Project Operations. Any named resources are replaced with generic resources. The only exception is assignments to the Project Manager on the source project are assigned to the Project Manager of the target project (a named resource is required, and not a generic resource).
     - **\{"ClearTeamsAndAssignments":true\}** – The default behavior for Project for the Web. All assignments and team members are removed.
 
 - **SourceProject** – The entity reference of the source project to copy from. This parameter can't be null.
@@ -73,7 +73,7 @@ There are five input parameters:
 - **TeamMemberOption** – The option for copying team members to the target project. This parameter can't be null.
 
     - **0** – Don't copy team members.
-    - **1** – Copy team members as generic resources.
+    - **1** – Copy team members as generic resources (behaves the same as in V3).
     - **2** – Copy team members to specified named or generic resources.
 
 - **TeamMembers** – The entity collection of named or generic team members to replace the existing team members. This parameter must be null if **0** or **1** is selected for the **TeamMemberOption** parameter. It can't be null if **2** is selected.
