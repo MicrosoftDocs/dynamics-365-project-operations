@@ -702,6 +702,8 @@
       href: invoicing/post-project-invoices.md
     - name: Proforma invoicing
       items:
+      - name: Create proforma project invoices with Billing hub
+        href: proforma-invoicing/billing-hub.md
       - name: Manage project-based billing backlog
         href: proforma-invoicing/manage-billing-backlog.md
       - name: Manage not-to-exceed status and validations
@@ -1366,6 +1368,8 @@
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
     items:
+    - name: Create proforma project invoices with Billing hub
+      href: proforma-invoicing/billing-hub.md
     - name: Manage project billing backlog
       href: pro/proforma-invoicing/manage-billing-backlog-sales.md
     - name: Manage not-to-exceed status and validations
