@@ -358,6 +358,8 @@
     items: 
     - name: Project management overview
       href: project-management/project-management-overview.md
+    - name: Saving changes to a project's work breakdown structure
+      href: project-management/saving-changes-to-projects.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Navigate the user interface
@@ -1086,6 +1088,8 @@
     items: 
     - name: Project management overview
       href: project-management/project-management-overview.md
+    - name: Saving changes to a project's work breakdown structure
+      href: project-management/saving-changes-to-projects.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Navigating the user interface
