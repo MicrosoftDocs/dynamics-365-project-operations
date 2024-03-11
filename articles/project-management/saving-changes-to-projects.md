@@ -1,5 +1,5 @@
 --- 
-title: Saving changes to a project 
+title: Saving changes to a project's work breakdown structure 
 description: This article explains how changes made the work breakdown structure are saved to Dataverse.
 author:  abriccetti
 ms.date: 03/11/2024  
@@ -9,9 +9,11 @@ ms.reviewer: johnmichalak
 ms.author: abriccetti
 --- 
 
-# Saving changes to a project's work breakdown structure (WBS)
+# Saving changes to a project's work breakdown structure
 
 [!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 Microsoft Dynamics 365 Project Operations embeds Microsoft Project for the Web inside the tasks tab of a project entity. When edits are made to the WBS the UI immediately shows the changes; however, an asynchronous save process is triggered to update the relevant fields in Dataverse. The amount of time this asynchronous save takes depends on the size of the changes. If a change requires updates to many entities (for example, adjusting dates on a task that many other tasks depend on), it takes much longer than a simple change that only impacts a few entities.
 
