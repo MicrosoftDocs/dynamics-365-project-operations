@@ -13,13 +13,13 @@ ms.author: abriccetti
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Project Operations embeds Microsoft Project for the Web inside the tasks tab of a project entity. When edits are made to the WBS the UI will immediately show the changes; however, an asynchronous save process will be triggered to update the relevant fields in Dataverse. The amount of time this asynchronous save takes will heavily depend on the size of the changes. If a change requires updates to many entities (for example adjusting dates on a task which many other tasks depend on), this will take much longer than a simple change which only impacts a few entities.
+Microsoft Dynamics 365 Project Operations embeds Microsoft Project for the Web inside the tasks tab of a project entity. When edits are made to the WBS the UI immediately shows the changes; however, an asynchronous save process is triggered to update the relevant fields in Dataverse. The amount of time this asynchronous save takes depends on the size of the changes. If a change requires updates to many entities (for example, adjusting dates on a task that many other tasks depend on), it takes much longer than a simple change that only impacts a few entities.
 
 ## Save Status
 
 The status of this save is indicated by an icon in the top right corner of the Project for the Web UI. This icon has three states:
 
-A green check mark indicating there is no pending save, and Dataverse and Project for the Web are in sync:
+A green check mark indicates there isn't a pending save, and Dataverse and Project for the Web are in sync:
 
 ![No pending save.](media/save complete.png)
 
@@ -27,7 +27,7 @@ A blue spinner indicating that a save is currently in progress:
 
 ![Save in progress.](media/save in progress.png)
 
-A red x indicating that a save to Dataverse has failed and the project will be reverted to the previous state upon reload (this is accompanied by a warning banner and requires a page refresh to revert the failed save and continue editing):
+A red x indicates the save to Dataverse failed, and the project reverts to the previous state upon reload (this reload shows a warning banner and requires a page refresh to revert the failed save and continue editing):
 
 ![Save failure.](media/save failure.png)
 
