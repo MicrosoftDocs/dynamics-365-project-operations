@@ -78,11 +78,11 @@ After installation and configuration, the Worker (cdm_workers) Dual-write map sh
 The following prerequisites must be completed for the new feature to take effect for any mapped workers.
 
 1. Enable the **Use employment default dimensions on integration journals** feature in feature management.
-1. Apply solution in Dual-write for the Dynamics 365 Project Operations Dual Write Entity Maps. This imports one new map and two updated maps for this feature. 
+1. Apply solution in Dual-write for the Dynamics 365 Project Operations Dual Write Entity Maps to import one new map and two updated maps for this feature. 
 1. Modify the integration key for the new bookable resources map.
    1. Select the integration key and add a bookable resource ID [Bookable Resource] in the first column next to **Bookable Resource**. 
    1. Select **Save**, and exit the integration key screen.
-1. Stop the **Project Operations Integration Actuals** map and select **Table map version** to update from 1.0.14 to 10.0.17 or later. You may need to select **Refresh tables** from within the Dual-write map to see and run the new table schema. This also starts the new map for Project worker resource import (bookable resources). 
+1. Stop the **Project Operations Integration Actuals** map and select **Table map version** to update from 1.0.14 to 10.0.17 or later. You may need to select **Refresh tables** from within the Dual-write map to see and run the new table schema. This refresh also starts the new map for Project worker resource import (bookable resources). 
 1. Stop the **Project Operations integration** entity for the **Hour estimates** map, and select **Table map version** to update from 1.0.4 to 1.0.6 or later. You may need to select **Refresh tables** from within the Dual-write map to see and run the new table schema.
 
 ### Changes enabled by this feature
