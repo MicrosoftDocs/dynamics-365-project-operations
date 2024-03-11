@@ -112,10 +112,12 @@
     items:
     - name: 2024 wave 1 early access - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-2024w1-resource-based.md
-    - name: February 2024 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-feb-2024-resource-based.md
+    - name: March 2024 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-mar-2024-resource-based.md
     - name: Archive
       items:
+       - name: February 2024 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-feb-2024-resource-based.md
        - name: December 2023 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-dec-2023-resource-based.md
        - name: November 2023 - Project Operations for resource/non-stocked based scenarios
@@ -358,6 +360,8 @@
     items: 
     - name: Project management overview
       href: project-management/project-management-overview.md
+    - name: Saving changes to a project's work breakdown structure
+      href: project-management/saving-changes-to-projects.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Navigate the user interface
@@ -818,10 +822,12 @@
     items:
     - name: What's new 2024 wave 1 early access - lite deployment
       href: pro/whats-new/whats-new-2024w1-early-access-lite.md
-    - name: What's new February 2024 - lite deployment
-      href: pro/whats-new/whats-new-feb-2024-lite.md
+    - name: What's new March 2024 - lite deployment
+      href: pro/whats-new/whats-new-mar-2024-lite.md
     - name: Archive
       items:
+      - name: What's new February 2024 - lite deployment
+        href: pro/whats-new/whats-new-feb-2024-lite.md
       - name: What's new December 2023 - lite deployment
         href: pro/whats-new/whats-new-dec-2023-lite.md
       - name: What's new November 2023 - lite deployment
@@ -1086,6 +1092,8 @@
     items: 
     - name: Project management overview
       href: project-management/project-management-overview.md
+    - name: Saving changes to a project's work breakdown structure
+      href: project-management/saving-changes-to-projects.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Navigating the user interface
