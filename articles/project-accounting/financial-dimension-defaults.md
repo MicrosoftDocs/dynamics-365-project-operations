@@ -59,7 +59,7 @@ Projects are created and maintained in Dataverse. Accounting attributes for proj
 
 Project default financial dimensions are used to set journal line defaults for time, expense, and fee transactions in the Project Operations integration journal and on related project invoice lines.
 
-## <!--FROM HERE-->Enable default financial dimensions for bookable resources
+## Enable default financial dimensions for bookable resources
 
 Previously, an employee's financial dimensions weren't considered in the financial entries that were generated from the employee's work. However, new functionality is available to map an individual worker to a bookable resource and use that worker's financial dimensions in the related integration journal and forecast lines and postings. This feature has a dependency on an optional Dataverse solution and integration. The Dynamics 365 HR Integration to URS app must be installed as a prerequisite. For more information and installation instructions, see [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
