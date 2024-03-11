@@ -13,13 +13,13 @@ ms.author: abriccetti
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-Microsoft Dynamics 365 Project Operations embeds Microsoft Project for the Web inside the tasks tab of a project entity. When edits are made to the WBS the UI immediately shows the changes; however, an asynchronous save process is triggered to update the relevant fields in Dataverse. The amount of time this asynchronous save takes depends on the size of the changes. If a change requires updates to many entities (for example, adjusting dates on a task that many other tasks depend on), it takes much longer than a simple change that only impacts a few entities.
+Microsoft Dynamics 365 Project Operations embeds Microsoft Project for the Web inside the tasks tab of a project entity. When edits are made to the work breakdown structure (WBS) the UI immediately shows the changes; however, an asynchronous save process is triggered to update the relevant fields in Dataverse. The amount of time this asynchronous save takes depends on the size of the changes. If a change requires updates to many entities (for example, adjusting dates on a task that many other tasks depend on), it takes longer than a change that updates a few entities.
 
 ## Save Status
 
-The status of this save is indicated by an icon in the top right corner of the Project for the Web UI. This icon has three states:
+An icon in the top right corner of the Project for the Web UI indicates the save status. The save status icon has three states.
 
 A green check mark indicates there isn't a pending save, and Dataverse and Project for the Web are in sync:
 
