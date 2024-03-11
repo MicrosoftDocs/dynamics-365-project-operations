@@ -1,5 +1,4 @@
 --- 
-
 title: Saving changes to a project 
 description: This article explains how changes made the work breakdown structure are saved to Dataverse.
 author:  abriccetti
@@ -11,6 +10,8 @@ ms.author: abriccetti
 --- 
 
 # Saving changes to a project's work breakdown structure (WBS)
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 Project Operations embeds Microsoft Project for the Web inside the tasks tab of a project entity. When edits are made to the WBS the UI will immediately show the changes; however, an asynchronous save process will be triggered to update the relevant fields in Dataverse. The amount of time this asynchronous save takes will heavily depend on the size of the changes. If a change requires updates to many entities (for example adjusting dates on a task which many other tasks depend on), this will take much longer than a simple change which only impacts a few entities.
 
@@ -29,3 +30,5 @@ A blue spinner indicating that a save is currently in progress:
 A red x indicating that a save to Dataverse has failed and the project will be reverted to the previous state upon reload (this is accompanied by a warning banner and requires a page refresh to revert the failed save and continue editing):
 
 ![Save failure.](media/save failure.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
