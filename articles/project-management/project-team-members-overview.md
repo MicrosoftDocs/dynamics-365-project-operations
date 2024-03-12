@@ -24,7 +24,7 @@ The following table lists the key attributes of a project team member.
 | Allocation method        | The allocation method used to book resources on the project.                                                                         |
 | Billing Type             | Select whether the team member is classified as billable.                                                                                                                                       |
 | Bookable Resource        | The bookable resource selected to replace the generic resource.                                                                                                                   |
-| Delete Status            | The delete status of the team member to track if there's a delete request sent to PSS and whether PSS sends back response successfully and within the expected time window. |
+| Delete Status            | The **Delete status** of the team member to track if there's a delete request sent to PSS and whether PSS sends back response successfully and within the expected time window. |
 | Total Effort (Hours)     | The sum of the team member's effort on their assignments.                                                                                                                         |
 | Effort Completed (Hours) | A tracking of the effort accomplished by the team member on their assignments.                                                                                           |
 | Effort Remaining (Hours) | A tracking of the effort not yet completed by the team member on their assignments.                                                                                    |
@@ -41,7 +41,7 @@ The following table lists the key attributes of a project team member.
 
 From the team member grid, the following actions can be taken:
 
-- **Book**: For organizations that execute leveraging the hybrid bookings methodology, the book action allows users to book a named resource based on the require requirements generated from the generic team member
+- **Book**: For organizations that execute using the hybrid bookings methodology, the book action allows users to book a named resource based on the requirements generated from the generic team member
 - **Generate Requirement**: This action generates the requirement.
 - **Specify Pattern**: Allows project managers to adjust resource requirement contours at a granular level. Project managers can adjust for the specific needs of the project in instances where the default distribution doesn't fit.
 - **Submit Request**: For organizations using the central bookings methodology.
@@ -53,7 +53,7 @@ From the team member grid, the following actions can be taken:
     - Total effort allocation
 
 - **New**: In addition to adding resources directly from the schedule, Project managers can add new named or generic team members from the team member grid.
-- **Delete**: Selecting one or many team members, the Project manager can delete resources who are no longer going to be participating on the project. Deleting a team member also deletes all associated resource assignments and  cancel all existing bookings. The delete operation is asynchronous and may take some time to complete. During this process the team member record can't be modified. The status of the delete action is tracked by the **Delete Status** attribute. If the delete operation doesn't succeed within three minutes, the **Delete Status** updates to **Error** and the you can retry the delete action.
+- **Delete**: If you select one or many team members, the Project manager can delete resources who are no longer going to be participating on the project. Deleting a team member also deletes all associated resource assignments and cancels all existing bookings. The delete operation is asynchronous and may take some time to complete. During this process the team member record can't be modified. The status of the delete action is tracked by the **Delete status** attribute. If the delete operation doesn't succeed within three minutes, the **Delete status** updates to **Error** and then you can retry the delete action.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
