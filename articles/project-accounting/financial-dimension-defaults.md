@@ -76,7 +76,7 @@ The following prerequisites must be completed for the new feature to take effect
 1. Apply the solution in dual-write for the Project Operations dual-write entity maps to import one new map and two updated maps for this feature.
 1. Modify the integration key for the new bookable resources map.
 
-    1. Select the integration key, and add a bookable resource ID [Bookable Resource] in the first column next to **Bookable Resource**.
+    1. Select the integration key, and then, in the first column next to **Bookable Resource**, add **bookableresourceid [Bookable Resource]**.
     1. Select **Save**, and close the integration key page.
 
 1. Stop the **Project Operations Integration Actuals** map, and then select **Table map version** to update from version 1.0.14 to 10.0.17 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema. This refresh also starts the new map for project worker resource import (bookable resources).
