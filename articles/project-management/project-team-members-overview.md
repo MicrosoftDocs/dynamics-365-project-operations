@@ -53,7 +53,7 @@ From the team member grid, the following actions can be taken:
     - Total effort allocation
 
 - **New**: In addition to adding resources directly from the schedule, Project managers can add new named or generic team members from the team member grid.
-- **Delete**: By selecting one or many team members, the Project manager can delete resources who are no longer going to be participating on the project. Deleting a team member will also delete all associated resource assignments and  cancel all existing bookings. The delete operation is asynchronous and may take some time to complete. During this process the team member record cannot be modified.
+- **Delete**: By selecting one or many team members, the Project manager can delete resources who are no longer going to be participating on the project. Deleting a team member will also delete all associated resource assignments and  cancel all existing bookings. The delete operation is asynchronous and may take some time to complete. During this process the team member record cannot be modified. The status of the delete action is tracked by the **Delete Status** attribute. If the delete operation does not succeed within three minutes, the **Delete Status** will update to **Error** and  the user can retry the delete action.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
