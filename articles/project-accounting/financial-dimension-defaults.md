@@ -93,12 +93,12 @@ Among the scenarios that the feature includes are scenarios that use Dataverse t
 
 Dimension defaults differ for time entries and expenses. For both forecasts and actuals in time entries, the following behavior occurs:
 
-- **For projects:** Cost posting type dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
-- **For projects:** Payroll allocation posting type dimensions are merged from both workers and projects, but worker dimensions win if there's a conflict.
+- **For projects:** the **Project – Cost** posting type dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
+- **For projects:** the **Payroll – allocation** posting type dimensions are merged from both workers and projects, but worker dimensions win if there's a conflict.
 
 For both forecasts and actuals in expense entries, the following behavior occurs:
 
-- **For projects:** Cost posting type dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
-- **For ledgers:** Journal posting type dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
+- **For projects:** the **Project – Cost** posting type dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
+- **For ledgers:** The **ledger journal** posting type dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
