@@ -23,14 +23,14 @@ An icon in the top right corner of the Project for the Web UI indicates the save
 
 A green check mark indicates there isn't a pending save, and Dataverse and Project for the Web are in sync:
 
-![No pending save.](media/save complete.png)
+![No pending save.](media/savecomplete.png)
 
 A blue spinner indicating that a save is currently in progress:
 
-![Save in progress.](media/save in progress.png)
+![Save in progress.](media/saveinprogress.png)
 
 A red x indicates the save to Dataverse failed, and the project reverts to the previous state upon reload (this reload shows a warning banner and requires a page refresh to revert the failed save and continue editing):
 
-![Save failure.](media/save failure.png)
+![Save failure.](media/savefailure.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
