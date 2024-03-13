@@ -61,7 +61,7 @@ Project default financial dimensions are used to set journal line defaults for t
 
 ## Enable default financial dimensions for bookable resources
 
-Previously, an employee's financial dimensions weren't considered in the financial entries that were generated from the employee's work. However, new functionality is available to map an individual worker to a bookable resource and use that worker's financial dimensions in the related integration journal and forecast lines and postings. This feature has a dependency on an optional Dataverse solution and integration. The Dynamics 365 HR Integration to URS app must be installed as a prerequisite. For more information and installation instructions, see [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm).
+Previously, an employee's financial dimensions weren't considered in the financial entries that were generated from the employee's work. However, new functionality is available to map an individual worker to a bookable resource and use that worker's employment financial dimensions in the related integration journal and forecast lines and postings. This feature has a dependency on an optional Dataverse solution and integration. The Dynamics 365 HR Integration to URS app must be installed as a prerequisite. For more information and installation instructions, see [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
 After installation and configuration, the Worker (cdm\_workers) dual-write map should be installed and have a status of **Running**. A new field on the bookable resource is available to map workers to bookable resources. Bookable resources must also be newly created or updated manually to have workers linked to them.
 
@@ -79,8 +79,8 @@ The following prerequisites must be completed for the new feature to take effect
     1. Select the integration key, and then, in the first column next to **Bookable Resource**, add **bookableresourceid [Bookable Resource]**.
     1. Select **Save**, and close the integration key page.
 
-1. Stop the **Project Operations Integration Actuals** map, and then select **Table map version** to update from version 1.0.14 to 10.0.17 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema. This refresh also starts the new map for project worker resource import (bookable resources).
-1. Stop the **Project Operations integration** entity for the **Hour estimates** map, and then select **Table map version** to update from version 1.0.4 to 1.0.6 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema.
+1. Stop the **Project Operations Integration Actuals** map, and then select **Table map version** to update to version 10.0.17 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema. This refresh also starts the new map for project worker resource import (bookable resources).
+1. Stop the **Project Operations integration** entity for the **Hour estimates** map, and then select **Table map version** to update to version 1.0.6 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema.
 
 ### Changes enabled by this feature
 
@@ -93,12 +93,12 @@ Among the scenarios that the feature includes are scenarios that use Dataverse t
 
 Dimension defaults differ for time entries and expenses. For both forecasts and actuals in time entries, the following behavior occurs:
 
-- **For projects:** the **Project – Cost** posting type dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
-- **For projects:** the **Payroll – allocation** posting type dimensions are merged from both workers and projects, but worker dimensions win if there's a conflict.
+- For the **Posting type** of **Project - cost** dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
+- For the **Posting type** of **Project - payroll allocation** dimensions are merged from both workers and projects, but worker dimensions win if there's a conflict.
 
 For both forecasts and actuals in expense entries, the following behavior occurs:
 
-- **For projects:** the **Project – Cost** posting type dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
-- **For ledgers:** The **ledger journal** posting type dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
+- For the **Posting type** of **Project - cost** dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
+- For the **Posting type** of **Ledger journal**  dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
