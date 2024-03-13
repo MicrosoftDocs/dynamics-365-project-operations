@@ -2,10 +2,9 @@
 title: What's new February 2024 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the February 2024 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: tulsijhaveri
-ms.date: 2/15/2024
+ms.date: 03/13/2024
 ms.topic: article
-ms.prod:
-ms.reviewer: 
+ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---
 
@@ -20,7 +19,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Project Operations dual-write maps updates
 
-The following table shows the Dual-write maps that have been modified or added in the Project Operations February 2024 release.
+The following table shows the modified or added Dual-write maps in the Project Operations February 2024 release.
 
 | **Entity map** | **Updated version** | **Comments** |
 | --- | --- | --- |
@@ -28,14 +27,14 @@ The following table shows the Dual-write maps that have been modified or added i
 | Project Operations integration entity for hour estimates (msdyn_resourceassignments) | 1.0.0.6 | Latest version updated |
 | Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.6 | Latest version updated |
 
-### Vendor invoice lines dual write map update
-As part of the 10.0.38 upgrade, a new iteration of the dual write map, version 1.0.0.6, has been introduced specifically for vendor invoice lines. This updated version enables the execution of intercompany vendor invoices. To enable this feature, certain integration keys have been modified. Should the dual write map for vendor invoice lines cease to function, please adhere to the following steps:
+### Vendor invoice lines Dual-write map update
+As part of the 10.0.38 upgrade, a new iteration of the Dual-write map, version 1.0.0.6, has been introduced specifically for vendor invoice lines. This updated version enables the execution of intercompany vendor invoices. To enable this feature, certain integration keys were modified. If the Dual-write map for vendor invoice lines cease to function, please adhere to the following steps:
 
-1.  Navigate to the Dual Write Maps section within the **Data Management workspace**.
-2.  On the Action pane, select the **integration key**.
-3.  Choose the **project vendor invoice line** integration key.
+1.  Navigate to **Data Management workspace**, and locate the Dual-write maps section.
+2.  On the Action pane, select the **Integration key**.
+3.  Select the **Project vendor invoice line** integration key.
 4.  Remove **msdyn_owningcompany** from the integration key.
-5.  Ensure that **msdyn_externalinvoiceline** remains the sole field for the vendor invoice line integration key.
+5.  Ensure that **msdyn_externalinvoiceline** remains the only field for the **Vendor invoice line integration** key.
    
 For a current list and versions of Project Operations Dual-write maps, see [Project Operations dual-write map versions](/dynamics365/project-operations/environment/resource-dual-write-maps).
 
@@ -47,7 +46,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Resource Management | **Get recommendations for resources to staff as team members based on their past relevant experience**<br><br>Allows Project Managers and Resource Managers to receive suggestions for who to staff as a project team member based on relevant experience. This feature will eventually also consider factors such as Cost, Availability, Utilization, and Skill-match. | [Prerequisites to use resource recommendations (preview)](../resource-management/getting-started-with-resource-recommendations.md) |
+| Resource Management | **Get recommendations for resources to staff as team members based on their past relevant experience**<br><br>Allows Project Managers and Resource Managers to receive suggestions for who to staff as a project team member based on relevant experience. In future releases, this feature will consider factors such as Cost, Availability, Utilization, and Skill-match. | [Prerequisites to use resource recommendations (preview)](../resource-management/getting-started-with-resource-recommendations.md) |
 | Pricing | **Cost plus pricing – Sales/Billing**<br><br>This feature allows customers of Dynamics 365 Project Operations to select more pricing methods or calculations when setting up role prices. The sales pricing methods supported for roles are price per unit (default), at transaction cost, or markup/markdown of the transaction cost. This feature only applies to Sales/Billing price lists. | [Set up labor bill rates](../pricing-costing/set-up-labor-bill-rate.md) |
 | Procurement | **Enable Intercompany Project Vendor invoices for resource based/non-stocked scenarios.**<br><br>Allow the user to generate intercompany vendor invoices for Project operations resource/non-stocked based scenario.<br><br>To use this feature, Need to update the Dual-write maps for vendor invoice header and vendor invoice lines as per the documentation. | [Intercompany vendor invoice](../pro/subcontracting/intercompanyvendorinvoicefornonstockscenario.md) |
 | Sales | **Cost plus pricing - Quotes**<br><br>Introducing a Price Override button on the Quote Line Detail form to enable quick and easy editing of role prices, while remaining within the context of quote line detail. This button provides new functionality that reduces unnecessary clicks and streamline your Role price editing process. | [New Quote form experience](/dynamics365/project-operations/sales/quotes-new-form) |
@@ -63,7 +62,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Billing and Pricing | 3581717 | User is able to Import from estimates associated to the Project even if the Contract is confirmed. |
 | Subcontracting | 3613708 | Journal line cost type and actual created from it aren't external when created manually. |
 | Billing and Pricing | 3682737 | Invoice Line Details calculations not triggered when values are updated via workflow. |
-| Project Contract | 3690545 | Contract performance Billed amount, cost incurred, and Gross margin numbers are zero. |
+| Project Contract | 3690545 | Contract performance **Billed amount**, **Cost incurred**, and **Gross margin** numbers are zero. |
 | Billing and Pricing | 3703686 | Begin and End Dates don't reflect when msdyn_begin/msdyn_enddate is updated. |
 | Billing and Pricing | 3704338 | Quote recalculate doesn't find price overrides scoped to customers. |
 | Project Budgeting | 3752286 | Fix Time Zone Issue with Budget Line Distribution across Budget Period Lines. |
