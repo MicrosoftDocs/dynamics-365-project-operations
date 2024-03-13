@@ -157,5 +157,6 @@ by clicking **New**.
 >   - Period
 >   - Space
 >   - Slash
+>   - Comma
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
