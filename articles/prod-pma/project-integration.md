@@ -4,15 +4,12 @@
 title: Microsoft Project client integration
 description: Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task. Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure. 
 author: Abriccetti
-ms.date: 02/02/2024
+ms.date: 03/13/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
   - evergreen
   - 87983
-ms.prod: 
-ms.technology: 
-
 # optional metadata
 
 ms.search.form: ProjWbsTemplate
@@ -40,7 +37,7 @@ ms.dyn365.ops.version: 7.3
 
 Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task. 
 Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure. The project manager 
-can publish any changes back to the Dynamics 365 Finance project work breakdown structure.
+can publish any changes back to the Microsoft Dynamics 365 Finance project work breakdown structure.
 
 > [!NOTE]
 > If you are using the July update (version 10.0.4), you must install KB 4054797 and 4055884.
@@ -143,7 +140,7 @@ project, follow these steps:
 
 6.	Enter the **Project name**.
 
-7.	Select the **Project type**, **Project group** and the **Project contract ID**. Alternatively, you can create a new project contract
+7.	Select the **Project type**, **Project group**, and the **Project contract ID**. Alternatively, you can create a new project contract
 by clicking **New**.
 
 8.	Select the **Calendar** to be used for resourcing.
@@ -157,5 +154,6 @@ by clicking **New**.
 >   - Period
 >   - Space
 >   - Slash
+>   - Comma
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
