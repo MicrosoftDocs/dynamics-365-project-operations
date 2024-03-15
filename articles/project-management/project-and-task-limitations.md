@@ -1,12 +1,12 @@
 ---
 title: Project and task limitations
 description: Learn about limits for Project Operations projects and tasks.
-author: aarondodell-msft
-ms.date: 11/22/2023
+author: abriccetti
+ms.date: 03/15/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: johnmichalak
-ms.author: aarondodell
+ms.author: abriccetti
 ---
 
 # Project and task limitations
