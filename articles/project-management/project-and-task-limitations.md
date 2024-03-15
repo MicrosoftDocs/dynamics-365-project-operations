@@ -17,14 +17,13 @@ You should be aware of the following limitations if you're using the work breakd
 
 | Field                                              | Limit                |
 | -------------------------------------------------- | -------------------- |
-| Maximum total tasks for a project                  | 500\*                |
+| Maximum total tasks for a project                  | 1000                 |
 | Maximum total duration for a project               | 3650 days (10 years) |
 | Maximum total resources for a project              | 300                  |
 | Maximum total links (successor only) for a project | 600                  |
 | Maximum total custom fields for a project          | 10                   |
 | Maximum checklist items per task                   | 20                   |
 
-\* We're currently running a private preview of increased task limits to 1,000 tasks per project. To request access, sign up at [Microsoft Dynamics 365 Project Operations Increased Task Limit Private Preview](https://aka.ms/PO1000tasklimit).
 
 ## Task limitations
 
