@@ -42,13 +42,26 @@ Material estimates are not allowed on contract line details.
 
 ## Use a project to create an estimate 
 
-You can estimate time and expenses on projects. Project Operations doesn't support estimates of materials or fees on projects.
+You can estimate time, expenses, and materials on projects.
 
 Time estimates are generated when you create a task and identify the attributes of a generic resource that is required to perform the task. Time estimates are generated from schedule tasks. Time estimates aren't created if you create generic team members outside the context of the schedule.
 
-Expense estimates are entered in the grid on the **Expense Estimates** page.
+Expense estimates are entered in the **Expense estimates** tab, and material estimates are entered in the **Material Estimates** tab.
 
 Creating an estimate for a project is considered a best practice because you can build bottom-up detailed estimates for labor or time and expenses on each task in the project plan. You can then use this detailed estimate to create estimates for each quote line and build a more credible quote for the customer. When you import or create a detailed estimate on the quote line using the project plan, Project Operations imports the sales values and the cost values of these estimates. After import, you can view the profitability, margins, and feasibility metrics on the project quote.
+
+> [!NOTE]
+> **Now in Preview: Project estimate updates feature**
+
+> A new feature labeled Project estimate updates is currently in Preview. Once the **Enable Project estimate updates** feature is enabled, it can't be disabled. These updates include label changes at the Project level where now the original Estimates tab is showing Time phased estimates, and the newly labeled Estimates tab is a consolidated view of Expense and Material Estimates. The new grid for Expense and Material estimates allows easy creation and editing of those estimates.
+
+>To enable the **Project estimate updates** feature, follow these steps.
+
+>1. Go to **Settings** \> **Parameters**.
+>1. Open the **Parameters** record.
+>1. On the Action Pane, on the **Feature Control** tab, select **Project estimate updates**.
+>1. In the confirmation dialog box, select **OK**.
+>1. After a few moments, refresh your browser. The feature capabilities will now be available and the feature will be removed from the list of features to be enabled. 
 
 ## Understanding estimates
 
