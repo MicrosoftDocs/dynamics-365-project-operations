@@ -18,26 +18,6 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 *Date-effective price overrides* provide a way to override or change specific prices in the price list. For example, you have a standard price list that is effective from January 1, 2022, through December 31, 2022. This price list has prices for many roles. The price that is set up for the **Network Technician** role is 100 US dollars (USD) per hour. When a network technician logs time between January 1, 2022, and December 31, 2022, the time is priced at 100 USD. On October 1, 2022, you must adjust the price *only* for the **Network Technician** role, from 100 USD per hour to 110 USD per hour. The **Date effective price overrides** feature lets you set up this change as an override of the row for that specific role price. Therefore, you don't have to copy the whole price list and change the price of just that one row.
 
-## Date-effective price overrides for labor pricing
-
-The process of setting up date-effective price overrides for labor time on a project consists of two basic steps.
-
-1. Enable **Date effective price overrides** feature.
-1. Set up a date-effective price override.
-
-### Enable the Date effective price overrides feature
-
-> [!NOTE]
-> After the **Date effective price overrides** feature is enabled, it can't be disabled.
-
-To enable the **Date-effective price overrides** feature, follow these steps.
-
-1. Go to **Settings** \> **Parameters**.
-1. Open the **Parameters** record.
-1. On the Action Pane, on the **Feature Control** tab, select **Enable date effective price overrides**.
-1. In the confirmation dialog box, select **OK**.
-1. After a few moments, refresh your browser. Date-effective price override capabilities should now be available. You know that these capabilities have been enabled if **Enable date effective price overrides** no longer appears on the Action Pane.
-
 ### Set up a date-effective price override
 
 Date-effective price overrides can be set up on **Cost**, **Sales**, or **Purchase** price lists.
