@@ -33,15 +33,33 @@ To get suggested resources, follow these steps.
     > Don't select more than one row at a time.
 1. Select the **Suggest resources** button that appears next to **Subcontracting options**. A loading message appears. After a few seconds, the side pane shows a list of suggested resources.
 
-## View more details to evaluate suggested resources
 
-Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. This score is based only on a combination of relevance of a resource's relevant past experience on projects, availability to book for those dates, cost incurred and matching skills (if required for this team member). The suggested resources are listed in decreasing order of their recommendation scores.
+Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement.
+- This score is based only on a combination of  **Experience Fit** (relevance of a resource's past experience on projects), **Availability** to book for those dates, **Cost** incurred and **Skill-match** (if required for this team member).
+- The suggested resources are listed in decreasing order of their recommendation scores.
+
+
+## Provide inputs to configure suggested resources
+
+Users are provided with the ability to configure 1) Which resourcing units to consider and 2) Which factors to consider, along with their relative importance while suggesting resources (settings).
+
+- **Resourcing units to consider:** By default, only the resourcing unit mentioned on the team member requirement is considered to provide suggestions. This can be modified by selecting one or more resourcing units from the _Show resources from_ drop-down list.
+  - Modifying the selected resourcing units and clicking anywhere outside the drop-down will initiate a refresh of the suggestions to then include resources across the units selected.
+- **Factors to consider:** The settings icon on the top-right of the side-pane gives users the ability to modify default settings and include or exclude factors to arrive at the list of suggested resources. Each included factor can also be given a relative importance (High, Medium or Low) that will be used to score all suggested resources.
+  - By default all factors are included and set to "Medium" importance unless a project is over budget or running behind schedule. When a project is over budget, **Cost Impact** is set to "High" and when a project is running behind schedule, both **Experience Fit** and **Availability** are set to "High".
+  - To exclude a factor, disable the toggle next to the factor's name. Use the "importance" slider to set relative importance as Low, Medium or High for an included factor. Finally select **Apply** to update the list of suggested resources based on the configured settings.
+  - **Note:** These modified settings will only persist for one team member requirement and will be defaulted back each time you close the side-pane or generate suggested resources for another team member.
 
 > [!NOTE]
 > By default, both contract workers and full-time employees are shown in the list of suggested resources. To show only full-time employees, disable the **Show contractors** option.
 >
 > By default, the initial list of suggested resources is limited to 20 resources. You can use the **View more suggestions** button to extend the list by five resources at a time.
 To get more information about any suggested resource and interpret that resource's recommendation score, follow one of these steps.
+
+
+## View more details to evaluate suggested resources
+
+Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. This score is based only on a combination of relevance of a resource's relevant past experience on projects, availability to book for those dates, cost incurred and matching skills (if required for this team member). The suggested resources are listed in decreasing order of their recommendation scores.
 
 - Select the information symbol next to the resource's name.
 - Select the row for the resource in the grid, and then select the **View details** button.
