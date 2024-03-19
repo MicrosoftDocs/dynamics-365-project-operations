@@ -38,7 +38,8 @@ To get suggested resources, follow these steps.
 
 To get more information about any suggested resource and interpret that resource's recommendation score, follow any one of these steps.
   - Select the information symbol next to the resource's name **OR**
-  - Select the row for the resource in the grid, and then select the **View details** button.
+  - Double click the whitespace on any of the suggested resource's grid rows **OR**
+  - Select the row for the resource in the grid, and then select the **View details** button
 
 Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. This score is based on a combination of **Experience Fit**, **Availability**, **Cost Impact** incurred and **Skill-match**. Each of these factors and sections is explained below:
 - **Experience fit (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed. This also considers the number of hours worked on past similar project tasks.
