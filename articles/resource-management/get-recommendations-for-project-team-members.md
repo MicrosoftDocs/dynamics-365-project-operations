@@ -69,19 +69,3 @@ Users are provided with the ability to configure 1) Which resourcing units to co
 
 Continue to the [next section](./compare-and-book-from-suggested-resources.md) to learn how to narrow down the list of suggestions by comparing resources, short-listing them and finally booking a team member.
 
-## Shortlist resources to narrow down suggestions
-
-The suggested resources are shown on two tabs: **Suggested** and **Shortlisted**. By default, the **Shortlisted** tab is empty, and all suggestions appear on the **Suggested** tab. To shortlist resources that meet the staffing criteria, follow one of these steps on the **Suggested** tab.
-
-- Select **View details** for a resource. In the details view, use the **Shortlist** button to add a resource to the **Shortlisted** tab. You can go to other resources by using the **Next** and **Previous** buttons.
-- Select one or more resource rows, and then select **Shortlist**. The selected resources appear on the **Shortlisted** tab. You can add more resources in a similar way.
-
-To remove a resource from the **Shortlisted** tab and return it to the **Suggested** tab, use the **Remove** button.
-
-## Continue to book shortlisted resources
-
-After you narrow down the list of suggested resources, the last step to finish staffing a team member from the list of recommendations is to *book* a resource.
-
-To book a resource, on the **Shortlisted** tab, select **Continue booking**. A new resource requirement is created, or an existing requirement is updated. You're redirected to the **schedule board**, where you can review information about the resources' availability and use it to make the final booking decision.
-
-For more information about how to use the schedule board to book a resource, see [Book from the schedule board](/dynamics365/project-operations/resource-management/book-project#book-from-the-schedule-board).
