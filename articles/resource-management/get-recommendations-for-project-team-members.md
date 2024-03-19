@@ -51,24 +51,26 @@ Users are provided with the ability to configure 1) Which resourcing units to co
   - **Note:** These modified settings will only persist for one team member requirement and will be defaulted back each time you close the side-pane or generate suggested resources for another team member.
 
 > [!NOTE]
-> By default, both contract workers and full-time employees are shown in the list of suggested resources. To show only full-time employees, disable the **Show contractors** option.
+> By default, both contract workers and full-time employees are shown in the list of suggested resources. To show only full-time employees, disable the **Include contractors** option.
 >
 > By default, the initial list of suggested resources is limited to 20 resources. You can use the **View more suggestions** button to extend the list by five resources at a time.
-To get more information about any suggested resource and interpret that resource's recommendation score, follow one of these steps.
 
 
 ## View more details to evaluate suggested resources
 
-Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. This score is based only on a combination of relevance of a resource's relevant past experience on projects, availability to book for those dates, cost incurred and matching skills (if required for this team member). The suggested resources are listed in decreasing order of their recommendation scores.
+To get more information about any suggested resource and interpret that resource's recommendation score, follow any one of these steps.
 
-- Select the information symbol next to the resource's name.
+- Select the information symbol next to the resource's name **OR**
 - Select the row for the resource in the grid, and then select the **View details** button.
 
-Both steps open additional information that's related to the past experience of the resource. The following metrics are shown:
+Both steps will display additional information that's related to the past experience of the resource. The following metrics are shown:
 
-- **Experience match (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed.
-- **Relevant past experience** – This metric consists of three parameters: the number of similar project tasks, projects that were worked on, and the number of hours that were worked on those similar project tasks (adjusted for the **Experience match %** metric).
-- **Task-wise score** – This metric provides the recommendation score for each task that's part of the team member requirement.
+- **Experience fit (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed. This also considers the number of hours worked on past similar project tasks.
+- **Skill-match (%)** - This is only relevant to a team member requirement that also has one or more required skills. This metric represents the % of required skills that a resource has or exceeds the minimum proficiency on.
+- **Cost Impact** - This represents an estimated total cost (not the exact value) that could be incurred by staffing a resource on this team member requirement, in the project's currency. Cost impact for suggested resources from units that use a different currency will be displayed after converting to the project's currency.
+- **Availability (%)** - This represents the percentage of the team member duration (in hours) that a suggested resources is available to book (as per schedule board).
+- **Relevant past experience** – This section consists of three parameters: the number of similar project tasks, projects that were worked on, and the number of hours that were worked on those similar project tasks (adjusted for similarity % of the experience).
+- **Task-wise score** – This metric provides an overall recommendation score, for each individual task that's part of the team member requirement.
 
 ## Shortlist resources to narrow down suggestions
 
