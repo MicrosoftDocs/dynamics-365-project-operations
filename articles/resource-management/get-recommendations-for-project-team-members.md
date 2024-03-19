@@ -38,12 +38,12 @@ To get suggested resources, follow these steps.
 
 To get more information about any suggested resource and interpret that resource's recommendation score, follow any one of these steps.
   - Select the information symbol next to the resource's name **OR**
-  - Double click the whitespace on any of the suggested resource's grid rows **OR**
-  - Select the row for the resource in the grid, and then select the **View details** button
+  - Double click the whitespace on a suggested resource's grid row **OR**
+  - Select the row for the resource in the grid, and then select the **View details** button.
 
 Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. This score is based on a combination of **Experience Fit**, **Availability**, **Cost Impact** incurred and **Skill-match**. Each of these factors and sections is explained below:
 - **Experience fit (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed. This also considers the number of hours worked on past similar project tasks.
-- **Skill-match (%)** - This is only relevant to a team member requirement that also has one or more required skills. This metric represents the % of required skills that a resource has or exceeds the minimum proficiency on.
+- **Skill-match (%)** - This is only relevant to a team member requirement that also has one or more required skills. This metric represents the % of required skills for which a resource meets or exceeds the minimum proficiency on.
 - **Cost Impact** - This represents an estimated total cost (not the exact value) that could be incurred by staffing a resource on this team member requirement, in the project's currency. Cost impact for suggested resources from units that use a different currency will be displayed after converting to the project's currency.
 - **Availability (%)** - This represents the percentage of the team member duration (in hours) that a suggested resources is available to book (as per schedule board).
 - **Relevant past experience** – This section consists of three parameters: the number of similar project tasks, projects that were worked on, and the number of hours that were worked on those similar project tasks (adjusted for similarity % of the experience). This section is used to arrive at the **Experience Fit (%)** factor.
