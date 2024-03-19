@@ -4,7 +4,7 @@
 title: Get recommendations for a project team member (preview)
 description: This article explains how to get optimal recommendations for team members before you book them on a project.
 author: mohitmenon
-ms.date: 02/14/2024
+ms.date: 03/19/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,7 +16,7 @@ ms.author: mohitmenon
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
@@ -38,14 +38,14 @@ To get suggested resources, follow these steps.
 
 To get more information about any suggested resource and interpret that resource's recommendation score, follow any one of these steps.
   - Select the information symbol next to the resource's name **OR**
-  - Double click the whitespace on a suggested resource's grid row **OR**
+  - Double-click the whitespace on a suggested resource's grid row **OR**
   - Select the row for the resource in the grid, and then select the **View details** button.
 
-Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. This score is based on a combination of **Experience Fit**, **Availability**, **Cost Impact** incurred and **Skill-match**. Each of these factors and sections is explained below:
+Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. This score is based on a combination of **Experience Fit**, **Availability**, **Cost Impact** incurred, and **Skill-match**. The following list explainse each of these factors and sections:
 - **Experience fit (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed. This also considers the number of hours worked on past similar project tasks.
 - **Skill-match (%)** - This is only relevant to a team member requirement that also has one or more required skills. This metric represents the % of required skills for which a resource meets or exceeds the minimum proficiency on.
-- **Cost Impact** - This represents an estimated total cost (not the exact value) that could be incurred by staffing a resource on this team member requirement, in the project's currency. Cost impact for suggested resources from units that use a different currency will be displayed after converting to the project's currency.
-- **Availability (%)** - This represents the percentage of the team member duration (in hours) that a suggested resources is available to book (as per schedule board).
+- **Cost Impact** - This represents an estimated total cost (not the exact value) that could be incurred by staffing a resource on this team member requirement, in the project's currency. Cost impact for suggested resources from units that use a different currency is displayed after converting to the project's currency.
+- **Availability (%)** - This represents the percentage of the team member duration (in hours) that a suggested resource is available to book (as per schedule board).
 - **Relevant past experience** – This section consists of three parameters: the number of similar project tasks, projects that were worked on, and the number of hours that were worked on those similar project tasks (adjusted for similarity % of the experience). This section is used to arrive at the **Experience Fit (%)** factor.
 - **Task-wise score** – This metric provides an overall recommendation score, for each individual task that's part of the team member requirement. The task-wise recommendation scores are eventually used to arrive at the overall recommendation score.
 
@@ -60,13 +60,13 @@ Each suggested resource is assigned a **recommendation score** (out of 10) to in
 Users have the ability to configure 1) Which resourcing units to consider and 2) Which factors to consider, along with their relative importance while suggesting resources (settings).
 
 - **Resourcing units to consider:** By default, only the resourcing unit mentioned on the team member requirement is considered to provide suggestions. This can be modified by selecting one or more resourcing units from the _Show resources from_ drop-down list.
-  - Modifying the selected resourcing units and clicking anywhere outside the drop-down will initiate a refresh of the suggestions to then include resources across the units selected.
+  - Modifying the selected resourcing units and selecting anywhere outside the drop-down initiates a refresh of the suggestions to then include resources across the units selected.
     
-- **Factors to consider:** The settings icon on the top-right of the side-pane gives users the ability to modify default settings and include or exclude factors to arrive at the list of suggested resources. Each included factor can also be given a relative importance (High, Medium or Low) that will be used to score all suggested resources.
+- **Factors to consider:** The settings icon on the top-right of the side-pane gives users the ability to modify default settings and include or exclude factors to arrive at the list of suggested resources. Each included factor can also be given a relative importance (High, Medium, or Low) that is used to score all suggested resources.
   - By default all factors are included and set to "Medium" importance unless a project is over budget or running behind schedule. When a project is over budget, **Cost Impact** is set to "High" and when a project is running behind schedule, both **Experience Fit** and **Availability** are set to "High".
-  - To exclude a factor, disable the toggle next to the factor's name. Use the "importance" slider to set relative importance as Low, Medium or High for an included factor. Finally select **Apply** to update the list of suggested resources based on the configured settings.
+  - To exclude a factor, disable the toggle next to the factor's name. Use the "importance" slider to set relative importance as Low, Medium, or High for an included factor. Finally select **Apply** to update the list of suggested resources based on the configured settings.
 > [!NOTE]
-> Any modified settings will only persist for one team member requirement and will be defaulted back each time you close the side-pane or generate suggested resources for another team member.
+> Any modified settings only persist for one team member requirement and are defaulted back each time you close the side-pane or generate suggested resources for another team member.
 
 Continue to the [next section](./compare-and-book-from-suggested-resources.md) to learn how to narrow down the list of suggestions by comparing resources, short-listing them and finally booking a team member.
 
