@@ -32,7 +32,7 @@ To remove a resource from the **Shortlisted** tab and return it to the **Suggest
 
 ## Compare multiple suggested resources together
 
-Individually navigating through each suggested resource using **View Details** could be time consuming and doesnt' scale well. To make it easier to evaluate scores and metrics for multiple resources simultaneously, the ability to **Compare** resources is provided. This can be done by following these steps:
+Individually navigating through each suggested resource using **View Details** could be time consuming and doesn't scale well. To make it easier to evaluate scores and metrics for multiple resources simultaneously, the ability to **Compare** resources is provided. This can be done by following these steps:
 
 1. Select more than one resource from the **Suggested** tab to enable the **Compare** button on the top-right. Click this button.
 2. A pop-up window appears that contains a grid of only the selected resources, sorted in decreasing order of their overall recommendation score.
