@@ -57,7 +57,7 @@ Each suggested resource is assigned a **recommendation score** (out of 10) to in
 
 ## Provide inputs to configure suggested resources
 
-Users are provided with the ability to configure 1) Which resourcing units to consider and 2) Which factors to consider, along with their relative importance while suggesting resources (settings).
+Users have the ability to configure 1) Which resourcing units to consider and 2) Which factors to consider, along with their relative importance while suggesting resources (settings).
 
 - **Resourcing units to consider:** By default, only the resourcing unit mentioned on the team member requirement is considered to provide suggestions. This can be modified by selecting one or more resourcing units from the _Show resources from_ drop-down list.
   - Modifying the selected resourcing units and clicking anywhere outside the drop-down will initiate a refresh of the suggestions to then include resources across the units selected.
