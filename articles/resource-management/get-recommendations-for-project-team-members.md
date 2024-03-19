@@ -60,12 +60,14 @@ Users are provided with the ability to configure 1) Which resourcing units to co
 
 - **Resourcing units to consider:** By default, only the resourcing unit mentioned on the team member requirement is considered to provide suggestions. This can be modified by selecting one or more resourcing units from the _Show resources from_ drop-down list.
   - Modifying the selected resourcing units and clicking anywhere outside the drop-down will initiate a refresh of the suggestions to then include resources across the units selected.
+    
 - **Factors to consider:** The settings icon on the top-right of the side-pane gives users the ability to modify default settings and include or exclude factors to arrive at the list of suggested resources. Each included factor can also be given a relative importance (High, Medium or Low) that will be used to score all suggested resources.
   - By default all factors are included and set to "Medium" importance unless a project is over budget or running behind schedule. When a project is over budget, **Cost Impact** is set to "High" and when a project is running behind schedule, both **Experience Fit** and **Availability** are set to "High".
   - To exclude a factor, disable the toggle next to the factor's name. Use the "importance" slider to set relative importance as Low, Medium or High for an included factor. Finally select **Apply** to update the list of suggested resources based on the configured settings.
 > [!NOTE]
 > Any modified settings will only persist for one team member requirement and will be defaulted back each time you close the side-pane or generate suggested resources for another team member.
 
+Continue to the [next section](./compare-and-book-from-suggested-resources.md) to learn how to narrow down the list of suggestions by comparing resources, short-listing them and finally booking a team member.
 
 ## Shortlist resources to narrow down suggestions
 
