@@ -34,9 +34,24 @@ To get suggested resources, follow these steps.
 1. Select the **Suggest resources** button that appears next to **Subcontracting options**. A loading message appears. After a few seconds, the side pane shows a list of suggested resources.
 
 
-Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement.
-- This score is based only on a combination of  **Experience Fit** (relevance of a resource's past experience on projects), **Availability** to book for those dates, **Cost** incurred and **Skill-match** (if required for this team member).
-- The suggested resources are listed in decreasing order of their recommendation scores.
+## Understanding how resources are suggested
+
+To get more information about any suggested resource and interpret that resource's recommendation score, follow any one of these steps.
+  - Select the information symbol next to the resource's name **OR**
+  - Select the row for the resource in the grid, and then select the **View details** button.
+
+Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. This score is based on a combination of **Experience Fit**, **Availability**, **Cost Impact** incurred and **Skill-match**. Each of these factors and sections is explained below:
+- **Experience fit (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed. This also considers the number of hours worked on past similar project tasks.
+- **Skill-match (%)** - This is only relevant to a team member requirement that also has one or more required skills. This metric represents the % of required skills that a resource has or exceeds the minimum proficiency on.
+- **Cost Impact** - This represents an estimated total cost (not the exact value) that could be incurred by staffing a resource on this team member requirement, in the project's currency. Cost impact for suggested resources from units that use a different currency will be displayed after converting to the project's currency.
+- **Availability (%)** - This represents the percentage of the team member duration (in hours) that a suggested resources is available to book (as per schedule board).
+- **Relevant past experience** – This section consists of three parameters: the number of similar project tasks, projects that were worked on, and the number of hours that were worked on those similar project tasks (adjusted for similarity % of the experience). This section is used to arrive at the **Experience Fit (%)** factor.
+- **Task-wise score** – This metric provides an overall recommendation score, for each individual task that's part of the team member requirement. The task-wise recommendation scores are eventually used to arrive at the overall recommendation score.
+
+> [!NOTE]
+> By default, both contract workers and full-time employees are shown in the list of suggested resources. To show only full-time employees, disable the **Include contractors** option.
+>
+> By default, the initial list of suggested resources is limited to 20 resources. You can use the **View more suggestions** button to extend the list by five resources at a time.
 
 
 ## Provide inputs to configure suggested resources
@@ -50,27 +65,6 @@ Users are provided with the ability to configure 1) Which resourcing units to co
   - To exclude a factor, disable the toggle next to the factor's name. Use the "importance" slider to set relative importance as Low, Medium or High for an included factor. Finally select **Apply** to update the list of suggested resources based on the configured settings.
   - **Note:** These modified settings will only persist for one team member requirement and will be defaulted back each time you close the side-pane or generate suggested resources for another team member.
 
-> [!NOTE]
-> By default, both contract workers and full-time employees are shown in the list of suggested resources. To show only full-time employees, disable the **Include contractors** option.
->
-> By default, the initial list of suggested resources is limited to 20 resources. You can use the **View more suggestions** button to extend the list by five resources at a time.
-
-
-## View more details to evaluate suggested resources
-
-To get more information about any suggested resource and interpret that resource's recommendation score, follow any one of these steps.
-
-- Select the information symbol next to the resource's name **OR**
-- Select the row for the resource in the grid, and then select the **View details** button.
-
-Both steps will display additional information that's related to the past experience of the resource. The following metrics are shown:
-
-- **Experience fit (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed. This also considers the number of hours worked on past similar project tasks.
-- **Skill-match (%)** - This is only relevant to a team member requirement that also has one or more required skills. This metric represents the % of required skills that a resource has or exceeds the minimum proficiency on.
-- **Cost Impact** - This represents an estimated total cost (not the exact value) that could be incurred by staffing a resource on this team member requirement, in the project's currency. Cost impact for suggested resources from units that use a different currency will be displayed after converting to the project's currency.
-- **Availability (%)** - This represents the percentage of the team member duration (in hours) that a suggested resources is available to book (as per schedule board).
-- **Relevant past experience** – This section consists of three parameters: the number of similar project tasks, projects that were worked on, and the number of hours that were worked on those similar project tasks (adjusted for similarity % of the experience).
-- **Task-wise score** – This metric provides an overall recommendation score, for each individual task that's part of the team member requirement.
 
 ## Shortlist resources to narrow down suggestions
 
