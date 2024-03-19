@@ -20,7 +20,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
-## Shortlist resources to narrow down suggestions
+## Narrow down suggestions by short-listing resources
 
 The suggested resources are shown on two tabs: **Suggested** and **Shortlisted**. By default, the **Shortlisted** tab is empty, and all suggestions appear on the **Suggested** tab. To shortlist resources that meet the staffing criteria, follow one of these steps on the **Suggested** tab.
 
@@ -32,12 +32,12 @@ To remove a resource from the **Shortlisted** tab and return it to the **Suggest
 
 ## Compare multiple suggested resources together
 
-Individually navigating through each suggested resource using **View Details** could be time consuming and does not scale well. To make it easier to evaluate scores and metrics for multiple resources simultaneously, the ability to **Compare** resources has been provided. This can be used by:
+Individually navigating through each suggested resource using **View Details** could be time consuming and doesnt' scale well. To make it easier to evaluate scores and metrics for multiple resources simultaneously, the ability to **Compare** resources is provided. This can be done by following these steps:
 
-1. Select more than one resources from the **Suggested** tab. This enables the **Compare** button on the top-right. Click this button.
-2. This leads to a pop-up window that contains a grid of only the selected resources, sorted in decreasing order of their overall recommendation score.
-3. This grid also contains columns for _Worker Type_, _Vendor/Resourcing Unit Name_, _Experience Fit (%),_, _Cost Impact_, _Availability_ and _Skill-Match_ for each resource. Filtering and sorting is available only for _Recommendation Score_, _Worker Type_, _Resourcing Unit_ and _Vendor Name_.
-4. This grid can be used to compare resources together based on their scores and metrics. Resources can then be directly short-listed using the **Shortlist** button, this will make them available under the _Shortlisted_ tab of the main side-pane.
+1. Select more than one resource from the **Suggested** tab to enable the **Compare** button on the top-right. Click this button.
+2. A pop-up window appears that contains a grid of only the selected resources, sorted in decreasing order of their overall recommendation score.
+3. This grid also contains columns for _Worker Type_, _Vendor/Resourcing Unit Name_, _Experience Fit (%)_, _Cost Impact_, _Availability_ and _Skill-Match_ for each resource. Filtering and sorting is available only for _Recommendation Score_, _Worker Type_, _Resourcing Unit_ and _Vendor Name_.
+4. This grid can be used to compare resources together based on their scores and metrics. Resources can then be directly short-listed using the **Shortlist** button, making them available under the _Shortlisted_ tab of the main side-pane.
 
 ## Continue to book from shortlisted resources
 
