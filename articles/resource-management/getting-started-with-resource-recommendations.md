@@ -25,7 +25,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 To enable resource recommendations, follow these steps.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
-1. Ensure you're using Project Operations version _4.91.0.X_ or above, since this feature is only available from this version onwards. 
+1. Ensure you're using Project Operations version _4.91.0.X_ or above, since this feature is only available from this version onwards. Project Operations version _4.103.0.X_ or above provides multi-factor recommendations, while older versions up to _4.91.0.X_ only provide single factor (Relevant Past Experience) recommendations.
 2. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
 1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
