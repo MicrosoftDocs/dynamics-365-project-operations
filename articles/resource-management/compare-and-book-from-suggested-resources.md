@@ -45,7 +45,13 @@ After you narrow down the list of suggested resources, the last step to finish s
 
 - To book a resource from the **Shortlisted** tab, select one or more resources and click **Continue booking**.
 - Alternatively, select one or more resources from the **Compare** grid and then click **Continue booking**.
-- A new resource requirement is created, or an existing requirement is updated. You're redirected to the **schedule board**, where you can review information about the resources' availability and use it to make the final booking decision.
+- A new resource requirement is created, or an existing requirement is updated for this team member to include the condition to book from the selected resources only.
+- You're redirected to the **schedule board**, where you can review information about the resources' availability and use it to make the final booking decision.
+
+> [!NOTE]
+> If none or fewer than selected resources are visible on loading of the schedule board, this is most likely due to them not being available for the entire duration of the team member requirement or a difference in resourcing units.
+> Please navigate to the "Schedule Assistant Filter" section by clicking on **Filters** and clear the field for **Organizational Units** or by checking the box for **Ignore Duration** under _Advanced_. Hit **Search** once again after doing this.
 
 For more information about how to use the schedule board to book a resource, see [Book from the schedule board](/dynamics365/project-operations/resource-management/book-project#book-from-the-schedule-board).
+
 
