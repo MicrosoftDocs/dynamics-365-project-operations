@@ -20,7 +20,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
-## Narrow down suggestions by short-listing resources
+## Narrow down suggestions by shortlisting resources
 
 The suggested resources are shown on two tabs: **Suggested** and **Shortlisted**. By default, the **Shortlisted** tab is empty, and all suggestions appear on the **Suggested** tab. To shortlist resources that meet the staffing criteria, follow one of these steps on the **Suggested** tab.
 
