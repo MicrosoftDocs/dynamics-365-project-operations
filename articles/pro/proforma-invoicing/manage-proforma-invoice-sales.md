@@ -127,6 +127,7 @@ The following fields are available on an invoice line detail that is backed by a
 | **Transaction Type** | Set by default from the source milestone. A read-only field that is locked from editing. |
 | **Transaction Class** | Set by default from the source milestone. A read-only field that is locked from editing. | 
 
+On an invoice line detail that is backed by a progress-based invoice milestone, the user can also see the billing status of progress-based milestone with **Amount on this invoice**, **Amount Invoiced to date**, and **Remaining Amount**
 ### Create new invoice line details
 
 On time and material invoice lines, you can create new invoice line details. These invoice line details are not backed by an actual. On the invoice line of a time and material invoice line, you can select **New** to create a new invoice line detail for the transactions classes that are included on the contract line.
