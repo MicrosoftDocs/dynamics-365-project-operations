@@ -36,7 +36,7 @@ When a project-based contract line has a time and material billing method, you c
 
 ## Create a fixed price invoice schedule for a project-based contract line
 
-When a project-based contract line has a fixed price billing method, you can create a milestone-based invoice schedule. Complete the following steps to automatically generate a milestone-based invoice schedule for a fixed set of milestones that distribute equally for the calendar period.
+When a project-based contract line has a fixed price billing method, you can create a milestone-based invoice schedule. Complete the following steps to automatically generate a milestone-based invoice schedule for a fixed set of milestones that distribute equally for the calendar period. The steps below are applicable for **Invoice Schedule Type** values of **Progress - based** and **Completed Milestones** 
 
 1. Go to **Settings** > **Invoice Frequencies** to set up invoice frequency.
 2. Open the project contract and on the **Summary** tab, set the requested delivery date.
