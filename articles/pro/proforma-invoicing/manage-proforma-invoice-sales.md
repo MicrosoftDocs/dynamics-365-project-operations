@@ -104,28 +104,28 @@ The following fields are available on an invoice line detail that is backed by a
 
 The following fields are available on an invoice line detail that is backed by a milestone:
 
-| Field | Description | Downstream impact |
-| --- | --- | --- |
-| **Invoice line** | Reference to the **Invoice Line ID**. A read-only field that is locked from editing. | The link can be used to navigate back to the invoice header. |
-| **Description** | Description of the invoice line detail. Set by default from the description of the source milestone. | &nbsp; |
-|**External Description** | Description of the invoice line detail that is set by default from the description of the source milestone. | This field can be used to determine what should be on the printed invoice that will be sent to the customer. A proforma invoice in Project Operations doesn't have all the required functionality to configure print settings for an invoice. |
-| **Start Date** | Set by default from the **Milestone** date on source milestone. A read-only field that is locked from editing. | &nbsp; |
-| **Project** | Set by default from the source milestone. A read-only field that is locked from editing. | &nbsp; |
-| **Task** | Set by default from the source milestone. A read-only field that is locked from editing. | &nbsp; |
-| **Transaction category** | A read-only field that is locked from editing. | &nbsp; |
-| **Role** | A read-only field that is locked from editing. | &nbsp; |
-| **Bookable Resource** | A read-only field that is locked from editing. | &nbsp; |
-| **Resourcing Unit** | A read-only field that is locked from editing. | &nbsp; |
-| **Unit Schedule** | A read-only field that is locked from editing. | &nbsp; |
-| **Unit** | A read-only field that is locked from editing. | &nbsp; |
-| **Price** | Set by default from the amount on the source milestone. A read-only field that is locked from editing. | &nbsp; |
-| **Currency** | Set by default from the source milestone. A read-only field that is locked from editing. |&nbsp; |
-| **Amount** | Set by default from the amount on the source milestone. A read-only field that is locked from editing. | &nbsp; |
-| **Tax** | Set by default from the tax amount on the source milestone. A read-only field that is locked from editing. | &nbsp; |
-| **Extended Amount** | Set by default from the extended amount on the source milestone. The field can be edited by the user | &nbsp; |
-| **Billing Type** | Always set by default to **Chargeable**. A read-only field that is locked from editing. | &nbsp; |
-| **Transaction Type** | Set by default from the source milestone. A read-only field that is locked from editing. | &nbsp; |
-| **Transaction Class** | Set by default from the source milestone. A read-only field that is locked from editing. | &nbsp; |
+| Field | Description | 
+| --- | --- | 
+| **Invoice line** | Reference to the **Invoice Line ID**. A read-only field that is locked from editing. The link can be used to navigate back to the invoice header. | 
+| **Description** | Description of the invoice line detail. Set by default from the description of the source milestone. | 
+|**External Description** | Description of the invoice line detail that is set by default from the description of the source milestone. This field can be used to determine what should be on the printed invoice that will be sent to the customer. A proforma invoice in Project Operations doesn't have all the required functionality to configure print settings for an invoice. | 
+| **Start Date** | Set by default from the **Milestone** date on source milestone. A read-only field that is locked from editing. | 
+| **Project** | Set by default from the source milestone. A read-only field that is locked from editing. | 
+| **Task** | Set by default from the source milestone. A read-only field that is locked from editing. | 
+| **Transaction category** | A read-only field that is locked from editing. | 
+| **Role** | A read-only field that is locked from editing. | 
+| **Bookable Resource** | A read-only field that is locked from editing. |
+| **Resourcing Unit** | A read-only field that is locked from editing. |
+| **Unit Schedule** | A read-only field that is locked from editing. | 
+| **Unit** | A read-only field that is locked from editing. | 
+| **Price** | Set by default from the amount on the source milestone. A read-only field that is locked from editing. | 
+| **Currency** | Set by default from the source milestone. A read-only field that is locked from editing. |
+| **Amount** | Set by default from the amount on the source milestone. A read-only field that is locked from editing. |
+| **Tax** | Set by default from the tax amount on the source milestone. A read-only field that is locked from editing. |
+| **Extended Amount** | Set by default from the extended amount on the source milestone. The field can be edited by the user | 
+| **Billing Type** | Always set by default to **Chargeable**. A read-only field that is locked from editing. |
+| **Transaction Type** | Set by default from the source milestone. A read-only field that is locked from editing. |
+| **Transaction Class** | Set by default from the source milestone. A read-only field that is locked from editing. | 
 
 ### Create new invoice line details
 
