@@ -47,13 +47,14 @@ A milestone on a draft invoice is shown in this view with a billing status of **
 ### Scenario 1: Single Customer, Completed Milestones
 
 | Event | Billing Status |
-| --- | --- | --- |--- |
+| --- | --- |
 | **Contract creation** | Not Ready to invoice |
 | **Update milestone status to Ready to Invoice** | Ready to invoice |
 | **Draft Invoice creation** | Customer invoice created |
 | **Invoice confirmation** | Customer invoice posted |
 
 ### Scenario 2: Mulitple Customers, Completed Milestones
+
 | Event | Header Billing Status | Milestone Billing Status
 | --- | --- | --- |
 | **Contract creation** | Not Started | Not ready to invoice |
@@ -64,6 +65,7 @@ A milestone on a draft invoice is shown in this view with a billing status of **
 
 
 ### Scenario 3: Single Customer, Progress - based Milestones
+
 | Event | Next invoice status| Header Billing Status | Milestone Billing Status
 | --- | --- | --- |--- |
 | **Contract creation** | Not ready to invoice | Not Started | Not ready to invoice |
@@ -73,7 +75,7 @@ A milestone on a draft invoice is shown in this view with a billing status of **
 | **All milestones invoiced for this progress - based milestone header** | Not ready to invoice | Completed | Customer invoice posted |
 
 ### Scenario 4: Mulitple Customers, Progress - based Milestones
-### Scenario 3: Single Customer, Progress - based Milestones
+
 | Event | Next invoice status| Header Billing Status | Milestone Billing Status
 | --- | --- | --- |--- |
 | **Contract creation** | Not ready to invoice | Not Started | Not ready to invoice |
