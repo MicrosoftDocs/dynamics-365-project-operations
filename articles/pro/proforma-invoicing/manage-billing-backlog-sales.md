@@ -44,10 +44,44 @@ When contract lines have a fixed price billing method with a Progress-based invo
 
 A milestone on a draft invoice is shown in this view with a billing status of **Customer Invoice Created**. On a progress-based milestone, it is the **Next invoice status** that shows this value. When the draft invoice is confirmed, the billing status on the milestone is updated to **Customer Invoice Posted** and the **Next invoice status** of the progress-based milestone is updated to "Not ready to invoice**. Don't update this status value by using custom code. Project Operations doesn't function correctly when these status values are updated with custom code. The following table show how the Billing status updates on the various types of milestones in Project Operations.
 
-| Event | Scenario | Milestone Level | Next invoice Status | Billing Status |
-| --- | --- | --- | --- |--- |
-| **Contract creation** | **Single customer, Completed Milestones** | Milestone |Not Applicable | Not ready to invoice |
-| **Contract creation** | **Single customer, Completed Milestones** | Milestone |Not Applicable | Not ready to invoice |
+### Scenario 1: Single Customer, Completed Milestones
+
+| Event | Billing Status |
+| --- | --- | --- |--- |
+| **Contract creation** | Not Ready to invoice |
+| **Update milestone status to Ready to Invoice** | Ready to invoice |
+| **Draft Invoice creation** | Customer invoice created |
+| **Invoice confirmation** | Customer invoice posted |
+
+### Scenario 2: Mulitple Customers, Completed Milestones
+| Event | Header Billing Status | Milestone Billing Status
+| --- | --- | --- |
+| **Contract creation** | Not Started | Not ready to invoice |
+| **Update milestone status to Ready to Invoice** | In Progress | Ready to invoice |
+| **Draft Invoice creation** | In Progress |Customer invoice created |
+| **Invoice confirmation for one customer** | In Progress | Combination of Customer invoice posted and Customer invoice created |
+| **Invoice confirmation for all customers** | Completed | Customer invoice posted |
+
+
+### Scenario 3: Single Customer, Progress - based Milestones
+| Event | Next invoice status| Header Billing Status | Milestone Billing Status
+| --- | --- | --- |--- |
+| **Contract creation** | Not ready to invoice | Not Started | Not ready to invoice |
+| **Update Next invoice status to Ready to Invoice** | Ready to invoice | In Progress | Ready to invoice |
+| **Draft Invoice creation** | Customer invoice created | In Progress | Customer invoice created |
+| **Invoice confirmation** | Not ready to invoice | In Progress | Combination of Customer invoice posted and Not ready to invoice |
+| **All milestones invoiced for this progress - based milestone header** | Not ready to invoice | Completed | Customer invoice posted |
+
+### Scenario 4: Mulitple Customers, Progress - based Milestones
+### Scenario 3: Single Customer, Progress - based Milestones
+| Event | Next invoice status| Header Billing Status | Milestone Billing Status
+| --- | --- | --- |--- |
+| **Contract creation** | Not ready to invoice | Not Started | Not ready to invoice |
+| **Update Next invoice status to Ready to Invoice** | Ready to invoice | In Progress | Ready to invoice |
+| **Draft Invoice creation** | Customer invoice created | In Progress | Combination of Customer invoice created and Not ready to invoice  |
+| **Invoice confirmation for one customer** | In Progress | Combination of Customer invoice posted,  Customer invoice created and Not ready to invoice |
+| **Invoice confirmation for all customers** | In Progress | Combination of Customer invoice posted and Not ready to invoice  |
+| **All milestones invoiced for this progress - based milestone header across all customers** | Not ready to invoice | Completed | Customer invoice posted |
 
 ## Product Billing Backlog
 
