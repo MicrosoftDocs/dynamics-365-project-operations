@@ -2,7 +2,7 @@
 title: Create invoice schedules on a project contract line
 description: This article provides information about creating invoice schedules and milestones.
 author: rumant
-ms.date: 12/15/2023
+ms.date: 03/22/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -36,7 +36,7 @@ When a project-based contract line has a time and material billing method, you c
 
 ## Create a fixed price invoice schedule for a project-based contract line
 
-When a project-based contract line has a fixed price billing method, you can create a milestone-based invoice schedule. Complete the following steps to automatically generate a milestone-based invoice schedule for a fixed set of milestones that distribute equally for the calendar period. The steps below are applicable for **Invoice Schedule Type** values of **Progress - based** and **Completed Milestones** 
+When a project-based contract line has a fixed price billing method, you can create a milestone-based invoice schedule. Complete the following steps to automatically generate a milestone-based invoice schedule for a fixed set of milestones that distribute equally for the calendar period. The following steps are applicable for **Invoice Schedule Type** values of **Progress - based** and **Completed Milestones**. 
 
 1. Go to **Settings** > **Invoice Frequencies** to set up invoice frequency.
 2. Open the project contract and on the **Summary** tab, set the requested delivery date.
@@ -64,10 +64,10 @@ Fixed price milestones can be generated manually when they aren't periodically s
 | Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
 | Milestone Name | Quick Create | Text field for the name of the milestone. | This field is included on the project contract line milestone and the invoice. |
-| Project Task | Quick Create | If the milestone is tied to a project task, use this reference to add custom logic and set the milestone status based on the task status. | There is no downstream impact of this reference to a task. |
+| Project Task | Quick Create | If the milestone is tied to a project task, use this reference to add custom logic and set the milestone status based on the task status. | There isn't a downstream impact of this reference to a task. |
 | Milestone Date | Quick Create | The date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This is included on the project contract line milestone and the invoice. |
 | Invoice Status | Quick Create | When the milestone is created, this status is always set to **Not ready for invoicing** or **Not started**. | This is included on the project contract line milestone and the invoice. |
-| Line Amount | Quick Create | The amount or value of the milestone that will be invoiced to the customer. | This field is included on the project contract line milestone and the invoice, |
+| Line Amount | Quick Create | The amount or value of the milestone that's invoiced to the customer. | This field is included on the project contract line milestone and the invoice, |
 | Tax | Quick Create | The tax amount applied on the milestone. | This is included on the project contract line milestone and the invoice. |
 
 4. Select **Save and Close**.
