@@ -65,10 +65,10 @@ Fixed price milestones can be generated manually when they aren't periodically s
 | --- | --- | --- | --- |
 | Milestone Name | Quick Create | Text field for the name of the milestone. | This field is included on the project contract line milestone and the invoice. |
 | Project Task | Quick Create | If the milestone is tied to a project task, use this reference to add custom logic and set the milestone status based on the task status. | There isn't a downstream impact of this reference to a task. |
-| Milestone Date | Quick Create | The date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This is included on the project contract line milestone and the invoice. |
-| Invoice Status | Quick Create | When the milestone is created, this status is always set to **Not ready for invoicing** or **Not started**. | This is included on the project contract line milestone and the invoice. |
+| Milestone Date | Quick Create | The date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This field is included on the project contract line milestone and the invoice. |
+| Invoice Status | Quick Create | When the milestone is created, this status is always set to **Not ready for invoicing** or **Not started**. | This field is included on the project contract line milestone and the invoice. |
 | Line Amount | Quick Create | The amount or value of the milestone that's invoiced to the customer. | This field is included on the project contract line milestone and the invoice, |
-| Tax | Quick Create | The tax amount applied on the milestone. | This is included on the project contract line milestone and the invoice. |
+| Tax | Quick Create | The tax amount applied on the milestone. | This field is included on the project contract line milestone and the invoice. |
 
 4. Select **Save and Close**.
 
