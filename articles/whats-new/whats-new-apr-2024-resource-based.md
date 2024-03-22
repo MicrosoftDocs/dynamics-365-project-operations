@@ -22,7 +22,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Project Operations dual-write maps updates
 
-There are no Dual-write maps that are modified or added in the Project Operations April 2024 release.
+_There are no Dual-write maps that are modified or added in the Project Operations April 2024 release._
 
 For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
