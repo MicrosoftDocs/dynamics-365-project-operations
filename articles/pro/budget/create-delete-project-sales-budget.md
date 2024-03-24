@@ -49,10 +49,18 @@ To create a project sales budget, follow these steps.
     - In the quick create form, select the context as **Sales** to create a sales budget line.
     
 
-For information about how to create sales budget lines, see [Project time budget lines](project-cost-time-budget-line.md), [Project material budget lines](project-cost-material-budget-line.md), and [Project expense budget lines](project-cost-expense-budget-line.md).
-
 > [!NOTE]
 > Only one sales budget can be created for each project.
+
+## Create Sales budget lines
+
+To create a project sales budget from estimates, follow the steps outlined in the article, [Create a project budget from estimates](create-project-budget-from-estimates.md)
+
+To create sales budget lines manually, follow the steps outlines in the articles,
+
+1. [Project time budget lines](project-cost-time-budget-line.md)
+1. [Project material budget lines](project-cost-material-budget-line.md).
+1. [Project expense budget lines](project-cost-expense-budget-line.md).
 
 ## Delete a project sales budget
 
