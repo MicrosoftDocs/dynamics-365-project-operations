@@ -1,6 +1,6 @@
 ---
 title: Project time budget lines
-description: This article explains how to create project cost and time time budget lines.
+description: This article explains how to create project cost and sales time budget lines.
 author: niranjanmaski
 ms.date: 03/19/2024
 ms.topic: how-to
@@ -19,7 +19,7 @@ ms.author: nimaski
 This article explains how to create budget lines for the **Time** transaction class. 
 
 > [!NOTE]
-> Steps explained in this article are applicable to both cost and sales budget lines, the context of cost or sales would determine which budget line you are dealing with.
+> The steps outlined in this article apply to both cost and sales budget lines. The context field of the budget line determines whether you are dealing with a cost or sales budget line.
 
 A project budget has budget lines that are a snapshot of the budgeted quantity and amount. Project budget lines can be created under three transaction classes:
 
@@ -34,7 +34,7 @@ A project budget has budget lines that are a snapshot of the budgeted quantity a
 
 ## Create a Time budget line
 
-**Prerequisite:** A project budget must be created for the project. For more information, see [Create and delete project cost budgets](create-delete-project-budget.md).
+**Prerequisite:** A project budget must be created for the project. For more information, see [Create and delete project cost budgets](create-delete-project-budget.md) or [Create and delete project sales budgets](create-delete-project-sales-budget.md)
 
 To create a project budget line for the **Time** transaction class, follow these steps.
 
@@ -50,6 +50,7 @@ The following table explains how to set the fields in the quick create dialog bo
 
 | Field | Requirement | Description |
 |---|---|---|
+| Context | Mandatory | Select the type of budget line you wish to create: cost or sales. |
 | Transaction Class | Mandatory | Leave the default value, **Time**. |
 | Description | Optional | Enter a description of the budget line. For example, enter **Time for design task** or **Time for foundation activity**. |
 | Start Date | Mandatory |<p>Specify the start date for the budget line. The specified date must be between the start date and end date of the project. By default, this field is set to the start date of the project.</p><p>Together, this field and the **End Date** field define the period when the actuals of the projects are tracked against the budget line.</p> |
