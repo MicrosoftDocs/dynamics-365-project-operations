@@ -30,42 +30,35 @@ After the feature flag is enabled, the **Budget match priorities** tab should ap
 | Field name | Applicable transaction class | Context | Budget match priority |
 |---|---|---|---|
 | msdyn\_unitschedule | Expense | Cost | 0 |
-| msdyn\_transactioncategory | Expense | Cost | 1 |
-| msdyn\_task | Expense | Cost | 2 |
-| msdyn\_costtype | Expense | Cost | 3 |
-| msdyn\_accountvendor | Expense | Cost | 4 |
+| msdyn\_task | Expense | Cost | 10 |
+| msdyn\_transactioncategory | Expense | Cost | 20 |
+| msdyn\_costtype | Expense | Cost | 30 |
+| msdyn\_accountvendor | Expense | Cost | 40 |
 | msdyn\_unitschedule | Material | Cost | 0 |
-| msdyn\_product | Material | Cost | 1 |
-| msdyn\_writeinproductdescription | Material | Cost | 2 |
-| msdyn\_task | Material | Cost | 3 |
-| msdyn\_costtype | Material | Cost | 4 |
-| msdyn\_accountvendor | Material | Cost | 5 |
-| msdyn\_unitschedule | Time | Sales | 0 |
-| msdyn\_resourcecategory | Time | Sales | 1 |
-| msdyn\_resourceorganizationalunitid | Time | Sales | 2 |
-| msdyn\_bookableresource | Time | Sales | 3 |
-| msdyn\_task | Time | Sales | 4 |
-| msdyn\_costtype | Time | Sales | 5 |
-| msdyn\_accountvendor | Time | Sales | 6 |
+| msdyn\_task | Material | Cost | 10 |
+| msdyn\_product | Material | Cost | 20 |
+| msdyn\_writeinproductdescription | Material | Cost | 30 |
+| msdyn\_costtype | Material | Cost |40 |
+| msdyn\_accountvendor | Material | Cost | 50 |
+| msdyn\_unitschedule | Time | Cost | 0 |
+| msdyn\_task | Time | Cost | 10 |
+| msdyn\_resourcecategory | Time | Cost | 20 |
+| msdyn\_resourceorganizationalunitid | Time | Cost | 30 |
+| msdyn\_bookableresource | Time | Cost | 40 |
+| msdyn\_costtype | Time | Cost | 50 |
+| msdyn\_accountvendor | Time | Cost | 60 |
 | msdyn\_unitschedule | Expense | Sales | 0 |
-| msdyn\_transactioncategory | Expense | Sales | 1 |
-| msdyn\_task | Expense | Sales | 2 |
-| msdyn\_costtype | Expense | Sales | 3 |
-| msdyn\_accountvendor | Expense | Sales | 4 |
+| msdyn\_task | Expense | Sales | 10 |
+| msdyn\_transactioncategory | Expense | Sales | 20 |
 | msdyn\_unitschedule | Material | Sales | 0 |
-| msdyn\_product | Material | Sales | 1 |
-| msdyn\_writeinproductdescription | Material | Sales | 2 |
-| msdyn\_task | Material | Sales | 3 |
-| msdyn\_costtype | Material | Sales | 4 |
-| msdyn\_accountvendor | Material | Sales | 5 |
+| msdyn\_task | Material | Sales | 10 |
+| msdyn\_product | Material | Sales | 20 |
+| msdyn\_writeinproductdescription | Material | Sales | 30 |
 | msdyn\_unitschedule | Time | Sales | 0 |
-| msdyn\_resourcecategory | Time | Sales | 1 |
-| msdyn\_resourceorganizationalunitid | Time | Sales | 2 |
-| msdyn\_bookableresource | Time | Sales | 3 |
-| msdyn\_task | Time | Sales | 4 |
-| msdyn\_costtype | Time | Sales | 5 |
-| msdyn\_accountvendor | Time | Sales | 6 |
-
+| msdyn\_task | Time | Sales | 10 |
+| msdyn\_resourcecategory | Time | Sales | 20 |
+| msdyn\_resourceorganizationalunitid | Time | Sales | 30 |
+| msdyn\_bookableresource | Time | Sales | 40 |
 
 > [!NOTE]
 > msydn_unitschedule with the display name Unit Group, is a match priority which cannot be updated or deleted. This match priority ensures that the unit match and conversion happens in a right way.
@@ -73,7 +66,7 @@ After the feature flag is enabled, the **Budget match priorities** tab should ap
 
 ## How does budget match priority work?
 
-Time entry, expense entry, or material use is submitted against a project for approval. After it's approved, it's considered an approved actual that's used in project cost budgeting calculations.
+Time entry, expense entry, or material use is submitted against a project for approval. After it's approved, it's considered an approved actual that's used in project cost & sales budgeting calculations.
 
 Actuals have dimensions that define an actual. Here are some examples:
 
