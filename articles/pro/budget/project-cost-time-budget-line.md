@@ -1,8 +1,8 @@
 ---
 title: Project time budget lines
-description: This article explains how to create project cost time budget lines.
+description: This article explains how to create project cost and time time budget lines.
 author: niranjanmaski
-ms.date: 03/13/2023
+ms.date: 03/19/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,7 +16,10 @@ ms.author: nimaski
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
-This article explains how to create budget lines for the **Time** transaction class.
+This article explains how to create budget lines for the **Time** transaction class. 
+
+> [!NOTE]
+> Steps explained in this article are applicable to both cost and sales budget lines, the context of cost or sales would determine which budget line you are dealing with.
 
 A project budget has budget lines that are a snapshot of the budgeted quantity and amount. Project budget lines can be created under three transaction classes:
 
