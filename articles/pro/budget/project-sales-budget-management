@@ -34,7 +34,7 @@ Project budget lines can be created under three transaction classes:
 
 ## Create a Time sales budget line
 
-**Prerequisite:** A project budget must be created for the project. For more information, see [Create and delete project sales budgets](create-delete-project-budget.md).
+**Prerequisite:** A project budget must be created for the project. For more information, see [Create and delete project sales budgets](create-delete-project-sales-budget.md).
 
 To create a project budget line for the **Time** transaction class, follow these steps.
 
