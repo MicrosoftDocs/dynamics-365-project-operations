@@ -9,22 +9,14 @@ ms.custom:
 ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
-
 # Project sales budget management
-
 [!INCLUDE[banner](../../includes/banner.md)]
-
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
-
 This article explains how to create and manage **sales budget lines**.
-
 The process for creating, reviewing, and approving sales budgets follows similar steps to cost budget management.
-
 A project sales budget has budget lines that are a snapshot of the budgeted billed & unbilled sals actual's quantity and amount. 
 Project budget lines can be created under three transaction classes:
-
 - A **Time** budget line tracks the billed & unbilled sales actuals of bookable resources against the project. See [Project time budget lines](project-cost-time-budget-line.md) for more details.
 - A **Material** budget line tracks the billed & unbilled sales actuals that are approved against the project. See [Project material budget lines](project-cost-material-budget-line.md) for more details.
 - An **Expense** budget line tracks the billed & unbilled sales actuals that are approved against the project. See [Project expense budget lines](project-cost-expense-budget-line.md) for more details.
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
