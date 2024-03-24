@@ -20,7 +20,7 @@ Budget line match priority defines the order in which an actual is matched again
 
 As part of the solution update that includes project budgeting, the Budget line match priority table is created in the solution.
 
-You enable the project cost budget feature by using a feature flag. For more information, see [Enable the project cost budget feature](create-delete-project-budget.md#enable-the-project-cost-budget-feature).
+You enable the project budget feature by using a feature flag. For more information, see [Enable the project cost budget feature](create-delete-project-budget.md#enable-the-project-cost-budget-feature).
 
 > [!NOTE]
 > After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
@@ -40,13 +40,32 @@ After the feature flag is enabled, the **Budget match priorities** tab should ap
 | msdyn\_task | Material | Cost | 3 |
 | msdyn\_costtype | Material | Cost | 4 |
 | msdyn\_accountvendor | Material | Cost | 5 |
-| msdyn\_unitschedule | Time | Cost | 0 |
-| msdyn\_resourcecategory | Time | Cost | 1 |
-| msdyn\_resourceorganizationalunitid | Time | Cost | 2 |
-| msdyn\_bookableresource | Time | Cost | 3 |
-| msdyn\_task | Time | Cost | 4 |
-| msdyn\_costtype | Time | Cost | 5 |
-| msdyn\_accountvendor | Time | Cost | 6 |
+| msdyn\_unitschedule | Time | Sales | 0 |
+| msdyn\_resourcecategory | Time | Sales | 1 |
+| msdyn\_resourceorganizationalunitid | Time | Sales | 2 |
+| msdyn\_bookableresource | Time | Sales | 3 |
+| msdyn\_task | Time | Sales | 4 |
+| msdyn\_costtype | Time | Sales | 5 |
+| msdyn\_accountvendor | Time | Sales | 6 |
+| msdyn\_unitschedule | Expense | Sales | 0 |
+| msdyn\_transactioncategory | Expense | Sales | 1 |
+| msdyn\_task | Expense | Sales | 2 |
+| msdyn\_costtype | Expense | Sales | 3 |
+| msdyn\_accountvendor | Expense | Sales | 4 |
+| msdyn\_unitschedule | Material | Sales | 0 |
+| msdyn\_product | Material | Sales | 1 |
+| msdyn\_writeinproductdescription | Material | Sales | 2 |
+| msdyn\_task | Material | Sales | 3 |
+| msdyn\_costtype | Material | Sales | 4 |
+| msdyn\_accountvendor | Material | Sales | 5 |
+| msdyn\_unitschedule | Time | Sales | 0 |
+| msdyn\_resourcecategory | Time | Sales | 1 |
+| msdyn\_resourceorganizationalunitid | Time | Sales | 2 |
+| msdyn\_bookableresource | Time | Sales | 3 |
+| msdyn\_task | Time | Sales | 4 |
+| msdyn\_costtype | Time | Sales | 5 |
+| msdyn\_accountvendor | Time | Sales | 6 |
+
 
 > [!NOTE]
 > msydn_unitschedule with the display name Unit Group, is a match priority which cannot be updated or deleted. This match priority ensures that the unit match and conversion happens in a right way.
