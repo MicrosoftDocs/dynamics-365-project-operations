@@ -82,7 +82,7 @@ During matching, the order that the matching algorithm works in is defined by th
 
 Priority 1 is the highest priority for dimensions of a transaction class. The algorithm tries to match all dimensions of an actual against all budget lines.
 
-If no match is found, and no error is encountered, the matching algorithm avoids the *lowest-priority dimension*, according to the Budget line match priority table, and tries to match again. This process continues until either a match is found or an error is encountered. If more than one budget line matches an actual, this situation is also considered an error.
+If no match is found and no error is encountered, the matching algorithm skips the *lowest-priority dimension*, as per the budget line match priority table, and attempts another match. This process repeats until a match is found or an error occurs. If multiple budget lines match an actual, it's considered an error.
 
 ### Example
 
