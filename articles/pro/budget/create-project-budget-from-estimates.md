@@ -43,7 +43,7 @@ You plan projects by defining tasks, assigning resources, and estimating materia
 When these steps are followed, well-planned estimates can be used as the foundation for creating a project cost and sales budget.
 
 > [!NOTE]
-> The steps outlined in this article apply to both cost and sales budget lines. 
+> The steps outlined in this article apply to both cost and sales budget. 
 
 > [!NOTE]
 > The action of creating a budget from estimates will be run on a best-effort basis. In other words, all estimates that pass budget-related validations will be created as budget lines.
