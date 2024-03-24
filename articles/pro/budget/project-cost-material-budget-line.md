@@ -1,8 +1,8 @@
 ---
 title: Project material budget lines
-description: This article explains how to create project cost material budget lines.
+description: This article explains how to create project cost and sales material budget lines.
 author: niranjanmaski
-ms.date: 03/13/2023
+ms.date: 03/19/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -18,6 +18,9 @@ ms.author: nimaski
 
 This article explains how to create budget lines for the **Material** transaction class.
 
+> [!NOTE]
+> The steps outlined in this article apply to both cost and sales budget lines. The context field of the budget line determines whether you are dealing with a cost or sales budget line.
+
 A project budget has budget lines that are a snapshot of the budgeted quantity and amount. Project budget lines can be created under three transaction classes:
 
 - A **Time** budget line tracks the recorded and approved time of bookable resources against the project.
@@ -29,7 +32,7 @@ A project budget has budget lines that are a snapshot of the budgeted quantity a
 
 ## Create a Material budget line
 
-**Prerequisite:** A project budget must be created for the project. For more information, see [Create and delete project cost budgets](create-delete-project-budget.md).
+**Prerequisite:** A project budget must be created for the project. For more information, see [Create and delete project cost budgets](create-delete-project-budget.md) or [Create and delete project sales budgets](create-delete-project-sales-budget.md)
 
 To create a project budget line for the **Material** transaction class, follow these steps.
 
@@ -45,6 +48,7 @@ The following table explains how to set the fields in the quick create dialog bo
 
 | Field | Requirement | Description |
 |---|---|---|
+| Context | Mandatory | Select the type of budget line you wish to create: cost or sales. |
 | Transaction Class | Mandatory | Select **Material**. |
 | Description | Optional | Enter a description of the budget line. For example, enter **Budget for laptops** or **Budget for bricks**. |
 | Start Date | Mandatory | <p>Specify the start date for the budget line. The specified date must be between the start date and end date of the project. By default, this field is set to the start date of the project.</p><p>Together, this field and the **End Date** field define the period when the actuals of the projects are tracked against the budget line.</p> |
@@ -61,7 +65,7 @@ The following table explains how to set the fields in the quick create dialog bo
 | Unit Price | Optional | The unit price is the price of single-unit quantities of time, materials, or expenses. To have the unit price from the price list calculated based on the selected dimensions, if it's available in the system, select **Save & Close**. You can override and update the default unit price if you want to track against a specific unit price. |
 | Currency | Mandatory | To get the currency from the price list, based on the selected dimensions, select **Save & Close**. You can update the value to any other currency that you want to budget for. In this case, the currency conversion will apply when the system tracks whether the actual currency differs from the budgeted currency for the selected dimensions. By default, this field is set to the organization currency. |
 | Amount | Mandatory | If you set the **Quantity** field, the amount is calculated as *Quantity* &times; *Unit price*. If you didn't set the **Quantity** field, enter the amount to budget against the selected dimensions of the budget line. The value must be a positive non-zero number. |
-| Contingency | Optional | Enter the contingency amount to add to the budgeted amount. The budget for the selected dimensions will be calculated as *Amount* + *Contingency*. |
+| Contingency | Optional | Enter the contingency amount to add to the budgeted amount. The budget for the selected dimensions will be calculated as *Amount* + *Contingency*. This field is not applicable if Context is sales.|
 | Budget | Mandatory | The budget for the budget line for the selected dimensions. This field is automatically set based on the dimensions. The value is calculated as *Amount* + *Contingency*. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
