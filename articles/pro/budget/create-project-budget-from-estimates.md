@@ -18,14 +18,14 @@ ms.author: nimaski
 
 This article explains how to create a project budget from estimates.
 
-## Enable the project cost budget feature
+## Enable the project budget feature
 
-Project cost budgeting capabilities are enabled only if the feature flag is enabled.
+Project budgeting capabilities are enabled only if the feature flag is enabled.
 
 > [!NOTE]
 > After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
 
-To enable project cost budgeting, follow these steps.
+To enable project budgeting, follow these steps.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Settings**.
@@ -40,7 +40,10 @@ After you enable the project cost budget feature, the page is refreshed, and a *
 
 You plan projects by defining tasks, assigning resources, and estimating material and expense costs. This setup is reflected in the estimates for the project, which can be viewed on the **Estimates** tab of the project page.
 
-When these steps are followed, well-planned estimates can be used as the foundation for creating a project cost budget.
+When these steps are followed, well-planned estimates can be used as the foundation for creating a project cost and sales budget.
+
+> [!NOTE]
+> The steps outlined in this article apply to both cost and sales budget lines. 
 
 > [!NOTE]
 > The action of creating a budget from estimates will be run on a best-effort basis. In other words, all estimates that pass budget-related validations will be created as budget lines.
@@ -91,10 +94,10 @@ To re-import estimates to create a budget, follow these steps.
 1. A message box notifies you that a re-import of estimates will delete all budget lines and re-create the budget from estimates. Select **OK** to confirm that you want to re-import estimates.
 1. In the **Import from estimates** dialog box, follow the steps in the [Create a budget from estimates](#create-a-budget-from-estimates) section.
 
-## Delete a project cost budget
+## Delete a project budget
 
 > [!NOTE]
-> A project cost budget can be deleted only if the budget is in either **Draft** or **Rejected** status. It can't be deleted if it's in **Review**, **Approved**, or **Revised** status.
+> A project budget can be deleted only if the budget is in either **Draft** or **Rejected** status. It can't be deleted if it's in **Review**, **Approved**, or **Revised** status.
 
 To delete a project cost budget, follow these steps.
 
