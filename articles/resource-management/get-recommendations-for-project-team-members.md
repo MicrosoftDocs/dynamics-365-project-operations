@@ -4,7 +4,7 @@
 title: Get recommendations for a project team member (preview)
 description: This article explains how to get optimal recommendations for team members before you book them on a project.
 author: mohitmenon
-ms.date: 02/14/2024
+ms.date: 03/19/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,7 +16,7 @@ ms.author: mohitmenon
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
@@ -31,40 +31,47 @@ To get suggested resources, follow these steps.
 
     > [!IMPORTANT]
     > Don't select more than one row at a time.
+
 1. Select the **Suggest resources** button that appears next to **Subcontracting options**. A loading message appears. After a few seconds, the side pane shows a list of suggested resources.
 
-## View more details to evaluate suggested resources
+## How resources are suggested
 
-Each suggested resource is assigned a **recommendation score** (out of 10) to indicate the resource's appropriateness for the specific team member requirement. Currently, this score is based only on the relevance of the resource's past experience on projects to a team member requirement. In upcoming releases, it is augmented so that it includes more factors, such as cost, availability, utilization, and skill match. The suggested resources are listed in decreasing order of their recommendation scores.
-
-> [!NOTE]
-> By default, both contract workers and full-time employees are shown in the list of suggested resources. To show only full-time employees, disable the **Show contractors** option.
->
-> By default, the initial list of suggested resources is limited to 20 resources. You can use the **View more suggestions** button to extend the list by five resources at a time.
 To get more information about any suggested resource and interpret that resource's recommendation score, follow one of these steps.
 
 - Select the information symbol next to the resource's name.
-- Select the row for the resource in the grid, and then select the **View details** button.
+- Double-tap (or double-click) the whitespace in the row for the resource.
+- Select the row for the resource, and then select **View details**.
 
-Both steps open additional information that's related to the past experience of the resource. The following metrics are shown:
+Each suggested resource is assigned a **recommendation score**, which is a number out of 10. This score indicates the resource's appropriateness for the specific team member requirement. It's based on a combination of the following metrics (factors): **Experience Fit**, **Skill-match**, **Cost Impact**, and **Availability**. The following list explains the relevant factors and sections:
 
-- **Experience match (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed.
-- **Relevant past experience** – This metric consists of three parameters: the number of similar project tasks, projects that were worked on, and the number of hours that were worked on those similar project tasks (adjusted for the **Experience match %** metric).
-- **Task-wise score** – This metric provides the recommendation score for each task that's part of the team member requirement.
+- **Experience Fit (%)** – This metric represents, as a percentage, the similarity between work that the resource did on previous project tasks and the team member requirements that are being staffed. It also considers the number of hours the resource previously worked on similar project tasks.
+- **Skill-match (%)** – This metric is relevant only to team member requirements that also have one or more required skills. It represents the percentage of required skills that a resource meets or exceeds the minimum proficiency for.
+- **Cost Impact** – This metric represents, in the project's currency, the estimated total cost (not the exact value) that might be incurred by staffing a resource on the team member requirement. For suggested resources from units that use a different currency, the cost impact is converted to the project's currency before it's shown.
+- **Availability (%)** – This metric represents the percentage of the team member duration (in hours) that a suggested resource is available to book (per the schedule board).
+- **Relevant past experience** – This section consists of three parameters: the number of similar project tasks, the projects that were worked on, and the number of hours that were worked on the similar project tasks (adjusted for the similarity percentage of the experience). This section is used to arrive at the **Experience Fit (%)** metric.
+- **Task-wise score** – This metric provides an overall recommendation score for each individual task that's part of the team member requirement. The task-wise recommendation scores are eventually used to arrive at the overall recommendation score.
 
-## Shortlist resources to narrow down suggestions
+> [!NOTE]
+> By default, the list of suggested resources shows both contract workers and full-time employees. To view only full-time employees, disable the **Include contractors** option.
+>
+> By default, the initial list of suggested resources is limited to 20 resources. You can use the **View more suggestions** button to extend the list by five resources at a time.
 
-The suggested resources are shown on two tabs: **Suggested** and **Shortlisted**. By default, the **Shortlisted** tab is empty, and all suggestions appear on the **Suggested** tab. To shortlist resources that meet the staffing criteria, follow one of these steps on the **Suggested** tab.
+## Provide inputs to configure suggested resources
 
-- Select **View details** for a resource. In the details view, use the **Shortlist** button to add a resource to the **Shortlisted** tab. You can go to other resources by using the **Next** and **Previous** buttons.
-- Select one or more resource rows, and then select **Shortlist**. The selected resources appear on the **Shortlisted** tab. You can add more resources in a similar way.
+Users can configure which resourcing units and factors are considered, together with their relative importance when resources are suggested.
 
-To remove a resource from the **Shortlisted** tab and return it to the **Suggested** tab, use the **Remove** button.
+- **Resourcing units to consider:** By default, only the resourcing unit that's mentioned on the team member requirement is considered and used to provide suggestions. However, you can modify the resourcing units that are considered by selecting one or more units in the **Show resources from** dropdown list.
 
-## Continue to book shortlisted resources
+    After you modify the resourcing units, tap (or click) anywhere outside the dropdown list to update the suggestions so that they include resources across the selected units.
 
-After you narrow down the list of suggested resources, the last step to finish staffing a team member from the list of recommendations is to *book* a resource.
+- **Factors to consider:** The settings symbol in the upper right of the side pane lets you modify default settings and include/exclude factors to arrive at the list of suggested resources. Each factor that's included can also be assigned a relative importance (**High**, **Medium**, or **Low**) that's used to score all suggested resources.
 
-To book a resource, on the **Shortlisted** tab, select **Continue booking**. A new resource requirement is created, or an existing requirement is updated. You're redirected to the **schedule board**, where you can review information about the resources' availability and use it to make the final booking decision.
+    - By default, all factors are included and are set to **Medium** importance, unless a project is over budget or running behind schedule. If a project is over budget, the **Cost Impact** factor is set to **High** importance. If a project is running behind schedule, both the **Experience Fit** factor and the **Availability** factor are set to **High** importance.
+    - To exclude a factor, disable the option next to the factor's name. Use the slider to set the relative importance of an included factor to **Low**, **Medium**, or **High**. When you finish making changes, select **Apply** to update the list of suggested resources based on the configured settings.
 
-For more information about how to use the schedule board to book a resource, see [Book from the schedule board](/dynamics365/project-operations/resource-management/book-project#book-from-the-schedule-board).
+> [!NOTE]
+> Modified settings persist for only one team member requirement. Default settings are restored each time that you close the side pane or generate suggested resources for another team member.
+
+## Next steps
+
+To learn how to narrow down the list of suggestions by comparing resources, shortlisting them, and finally booking a team member, see [Compare and book from suggested resources](./compare-and-book-from-suggested-resources.md).

@@ -110,10 +110,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
-    - name: February 2024 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-feb-2024-resource-based.md
+    - name: 2024 wave 1 early access - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-2024w1-resource-based.md
+    - name: March 2024 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-mar-2024-resource-based.md
     - name: Archive
       items:
+       - name: February 2024 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-feb-2024-resource-based.md
        - name: December 2023 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-dec-2023-resource-based.md
        - name: November 2023 - Project Operations for resource/non-stocked based scenarios
@@ -248,8 +252,8 @@
           href: pro/sales/import-estimate-project-quote-sales.md
         - name: Invoice schedules on project quote lines
           href: sales/invoice-schedule-quote-line.md 
-      - name: Copy project quotes
-        href: sales/lose-quote.md
+      - name: Copy project-based quotes
+        href: sales/copy-project-based-quotes.md
       - name: Activate and revise a project quote
         href: sales/activation-and-revision.md
       - name: Close project-based quotes
@@ -356,6 +360,8 @@
     items: 
     - name: Project management overview
       href: project-management/project-management-overview.md
+    - name: Saving changes to a project's work breakdown structure
+      href: project-management/saving-changes-to-projects.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Navigate the user interface
@@ -466,6 +472,8 @@
         href: resource-management/getting-started-with-resource-recommendations.md
       - name: Get recommendations for project team members (preview)
         href: resource-management/get-recommendations-for-project-team-members.md
+      - name: Compare and book from suggested resources (preview)
+        href: resource-management/compare-and-book-from-suggested-resources.md
     - name: Administration of resources
       items: 
       - name: Create resources
@@ -700,6 +708,8 @@
       href: invoicing/post-project-invoices.md
     - name: Proforma invoicing
       items:
+      - name: Create proforma project invoices with Billing hub
+        href: proforma-invoicing/billing-hub.md
       - name: Manage project-based billing backlog
         href: proforma-invoicing/manage-billing-backlog.md
       - name: Manage not-to-exceed status and validations
@@ -812,10 +822,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
-    - name: What's new February 2024 - lite deployment
-      href: pro/whats-new/whats-new-feb-2024-lite.md
+    - name: What's new 2024 wave 1 early access - lite deployment
+      href: pro/whats-new/whats-new-2024w1-early-access-lite.md
+    - name: What's new March 2024 - lite deployment
+      href: pro/whats-new/whats-new-mar-2024-lite.md
     - name: Archive
       items:
+      - name: What's new February 2024 - lite deployment
+        href: pro/whats-new/whats-new-feb-2024-lite.md
       - name: What's new December 2023 - lite deployment
         href: pro/whats-new/whats-new-dec-2023-lite.md
       - name: What's new November 2023 - lite deployment
@@ -1080,6 +1094,8 @@
     items: 
     - name: Project management overview
       href: project-management/project-management-overview.md
+    - name: Saving changes to a project's work breakdown structure
+      href: project-management/saving-changes-to-projects.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Navigating the user interface
@@ -1222,6 +1238,8 @@
         href: resource-management/getting-started-with-resource-recommendations.md
       - name: Get recommendations for project team members (preview)
         href: resource-management/get-recommendations-for-project-team-members.md
+      - name: Compare and book from suggested resources (preview)
+        href: resource-management/compare-and-book-from-suggested-resources.md  
     - name: Administration of resources
       items: 
       - name: Create resources
@@ -1362,6 +1380,8 @@
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
     items:
+    - name: Create proforma project invoices with Billing hub
+      href: proforma-invoicing/billing-hub.md
     - name: Manage project billing backlog
       href: pro/proforma-invoicing/manage-billing-backlog-sales.md
     - name: Manage not-to-exceed status and validations
@@ -1414,6 +1434,8 @@
         href: whats-new/ur5-nonstocked-installation.md
   - name: What's new
     items:
+    - name: What's new 2024 wave 1 early access - Project Operations for stocked/production-based scenarios
+      href: prod-pma/whats-new/whats-new-2024w1ea-stocked.md
     - name: What's new February 2024 - Project Operations for stocked/production-based scenarios
       href: prod-pma/whats-new/whats-new-feb-2024-stocked.md
     - name: Archive
@@ -1738,6 +1760,8 @@
       items:
       - name: Manage expenses, expense reports, and receipts overview
         href: expense/mobile-app-manage expenses-overview.md
+      - name: Manage itemization using Expense management mobile app
+        href: expense/mobile-app-manage-itemization.md
       - name: Manage expenses by using the Expense mobile app
         href: expense/mobile-app-manage-expenses.md
       - name: Manage expense reports by using the Expense mobile app
@@ -1863,7 +1887,9 @@
   - name: Project Service Automation upgrade (app version Project Operations Lite 4.x)
     items: 
     - name: Upgrade from Project Service Automation to Project Operations
-      href: psa/upgrade-project-operations-non-stocked.md    
+      href: psa/upgrade-project-operations-non-stocked.md  
+    - name: Project Service Automation end of life FAQ
+      href: psa/psa-eol-faq.md
     - name: Feature changes from Project Service Automation to Project Operations
       href: psa/psa-project-operations-changes.md 
     - name: Project Service Automation to Project Operations project scheduling conversion process  
@@ -2234,5 +2260,5 @@
   items:
   - name: Responsible AI FAQs for Project Operations
     href: responsible-ai/responsible-ai-overview.md
-  - name: Project management Copilot overview
+  - name: Copilot for project overview
     href: project-management/copilot-features.md

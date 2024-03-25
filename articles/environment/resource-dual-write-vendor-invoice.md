@@ -1,14 +1,13 @@
 ---
 title: Vendor invoice integration
 description: This article provides information about vendor invoice integration in Project Operations.
-author: sigitac
-ms.date: 04/27/2021
+author: mukumarm
+ms.date: 03/05/2024
+ms.reviewer: johnmichalak 
+ms.author: mukumarm
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-ms.prod:
-ms.reviewer: johnmichalak
-ms.author: sigitac
 ---
 
 # Vendor invoice integration
@@ -30,10 +29,20 @@ In Project Operations, project-related vendor invoices are posted using special 
      - **Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices)**: This table map synchronizes vendor invoice header information. Only vendor invoices with at least one line that contains a project ID are synchronized to Dataverse.
      - **Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines)**: This table map synchronizes vendor invoice line information. Only lines that contain a project ID are synchronized to Dataverse.
 
-     > [!NOTE]
-     > Vendor invoice details in Dataverse are not editable.
+## Vendor invoice lines
 
-Tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance when the vendor invoice is posted.
+As part of the 10.0.38 upgrade, a new iteration of the dual-write map, version 1.0.0.6, is introduced specifically for vendor invoice lines. This updated version enables the execution of intercompany vendor invoices. To enable this feature, some integration keys have been modified. If the dual-write map for vendor invoice lines stops working, follow these steps.
+
+1. In the **Data Management** workspace, go to the **Dual Write Maps** section.
+2. On the Action Pane, select **Integration key**.
+3. Select the **project vendor invoice line** integration key.
+4. Remove the **msdyn\_owningcompany** field from the integration key.
+5. Ensure that **msdyn\_externalinvoiceline** remains the only field for the integration key.
+
+> [!NOTE]
+> Vendor invoices aren't editable in Dataverse.
+
+When a vendor invoice is posted, tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance. 
 
 ![Vendor invoice integration.](media/DW7VendorInvoice.png)
 

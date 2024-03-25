@@ -1,7 +1,7 @@
 ---
-title: Project management Copilot overview
-description: This article provides information about Microsoft Dynamics 365 Project management Copilot features.
-ms.date: 06/15/2023
+title: Copilot for project overview
+description: This article provides information about Microsoft Dynamics 365 Copilot for project features.
+ms.date: 03/01/2024
 ms.topic: how-to
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -11,12 +11,11 @@ ms.collection:
   - bap-ai-copilot 
 ---
 
-# Project management Copilot overview
+# Copilot for project overview
 
 
-Currently, the functionality in this article is available to the United States customers. 
 
-Project management Copilot is an assistive capability that's powered by Microsoft Azure Open AI's large language model. The Copilot feature is designed to help improve the efficiency of different roles in Dynamics 365 Project Operations, including the project manager and practice manager. It provides a user-friendly and intuitive experience that helps maximize productivity while it also helps improve visibility into project performance.
+Copilot for project is an assistive capability that's powered by Microsoft Azure Open AI's large language model. The Copilot feature is designed to help improve the efficiency of different roles in Dynamics 365 Project Operations, including the project manager and practice manager. It provides a user-friendly and intuitive experience that helps maximize productivity while it also helps improve visibility into project performance.
 
 The Copilot feature has four capabilities:
 
@@ -25,19 +24,6 @@ The Copilot feature has four capabilities:
 - Project status reports
 - Interactive, chat-like experience
 
-## Enable the Copilot feature
-
-The Copilot feature uses Azure Open AI to generate results based on both the Dataverse table and the provided prompts. Before you can enable the Copilot feature, you must upgrade to the latest version.
-
-To enable the Copilot feature, follow these steps.
-
-1. In Project Operations, go to **Settings** \> **Parameters** \> **Feature Control** \> **Enable Copilot**.
-1. Select **Accept** to enable the feature.
-1. Select **See terms** to learn more about the AI terms.
-1. Select **OK** to enable the feature.
-1. Select **Save**.
-
-You can disable the Copilot feature by following the same steps.
 
 > [!IMPORTANT]
 > To ensure adherence to ethical guidelines and responsible AI usage, the Copilot feature isn't used to create projects that are aimed at suggesting offensive, destructive, or abusive content. Azure Open AI incorporates robust filters and safeguards to help prevent the generation of such content. Review content/output for appropriateness, accuracy, and completeness. 
@@ -107,5 +93,27 @@ The project status report is created by using AI and the project metadata that's
 A chat-format Copilot assistant is available, where you can ask questions and get help creating task plans, risk assessments, and status reports. The Copilot assistant generates contextual answers based on user questions in the project's scope, for a seamless and personalized experience.
 
 To hide the Copilot assistant window, select the **AI** icon.
+
+## Enable or disable the Copilot for project feature
+
+For existing tenants, this feature is turned on by default. For new tenants, use the following steps to turn the feature on. Before you can enable the Copilot for project feature, you must upgrade to the latest version.
+
+To enable Copilot for project, follow these steps.
+
+1. In Project Operations, go to **Settings** \> **Parameters** \> **Feature Control** \> **Enable Copilot**.
+1. Select **Accept** to enable the feature.
+1. Select **See terms** to learn more about the AI terms.
+1. Select **OK** to enable the feature.
+1. Select **Save**.
+
+   > [!NOTE]
+   > To disable the Copilot for project, follow the enable steps and select **Disable Copilot** in step 1.
+
+> [!IMPORTANT]
+Depending on where your environment is hosted, you might need to allow data movement across regions to use them. If your environment is hosted in a region that requires data movement across regions to use copilots and generative AI features, tenant administrator need to consent to the terms of use on the Move data across regions checkbox in the Power Platform admin center. [Learn more](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) how data movement works across regions. 
+
+
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

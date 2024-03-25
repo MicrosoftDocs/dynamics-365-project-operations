@@ -10,7 +10,7 @@ ms.author: rumant
 
 # Copy project quotes
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing_
 
 You can easily create a new Project quote by copying an existing one. 
 
