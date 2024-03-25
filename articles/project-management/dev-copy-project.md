@@ -186,9 +186,29 @@ request["Target"] = targetProjectRef;
 request["SourceProject"] = sourceProjectRef;
 request["TeamMemberOption"] = new OptionSetValue(2); // 0: None, 1: CopyAsGeneric, 2: Specify
 request["TeamMembers"] = toBeCreatedTargetTeamMembers;
-request["TeamMembersMapping"] = JsonConverter.SerializeJson(teamMembersMapping);
+request["TeamMembersMapping"] = SerializeJson(teamMembersMapping); // See implementation of SerializeJson() method below
 
 OrganizationService.Execute(request);
+
+/* Sample serialized json for team member mapping:
+'[
+{"Key":"a2cee002-cca1-41a4-8821-09d8327741e9","Value":"32c55ac0-06d6-4809-bcdb-566635576e1e"},
+{"Key":"b2cee002-cca1-41a4-8821-09d8327741e0","Value":"42c55ac0-06d6-4809-bcdb-566635576e10"},
+]'
+*/
+string SerializeJson<T>(T obj)
+{
+    var serializer = new System.Runtime.Serialization.Json.DataContractJsonSerializer(typeof(T));
+
+    using (Stream stream = new MemoryStream())
+    {
+        serializer.WriteObject(stream, obj);
+        stream.Position = 0;
+
+        StreamReader streamReader = new StreamReader(stream);
+        return streamReader.ReadToEnd();
+    }
+}
 
 /* Optional code to wait for the copy to complete as the main work is done in Async service.
  * To see details on error, go to PSS Error Logs and/or Settings > System Jobs.
