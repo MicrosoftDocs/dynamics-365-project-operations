@@ -472,6 +472,8 @@
         href: resource-management/getting-started-with-resource-recommendations.md
       - name: Get recommendations for project team members (preview)
         href: resource-management/get-recommendations-for-project-team-members.md
+      - name: Compare and book from suggested resources (preview)
+        href: resource-management/compare-and-book-from-suggested-resources.md
     - name: Administration of resources
       items: 
       - name: Create resources
@@ -1236,6 +1238,8 @@
         href: resource-management/getting-started-with-resource-recommendations.md
       - name: Get recommendations for project team members (preview)
         href: resource-management/get-recommendations-for-project-team-members.md
+      - name: Compare and book from suggested resources (preview)
+        href: resource-management/compare-and-book-from-suggested-resources.md  
     - name: Administration of resources
       items: 
       - name: Create resources
