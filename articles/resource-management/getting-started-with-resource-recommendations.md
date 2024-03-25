@@ -4,7 +4,7 @@
 title: Prerequisites to use resource recommendations (preview)
 description: This article explains how to use the resource recommendations feature for the first time.
 author: mohitmenon
-ms.date: 02/14/2024
+ms.date: 03/19/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,7 +16,7 @@ ms.author: mohitmenon
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
@@ -25,8 +25,8 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 To enable resource recommendations, follow these steps.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
-1. Ensure you're using Project Operations version _4.91.0.X_ or above, since this feature is only available from this version onwards. 
-2. On the left navigation, change the area to **Settings**.
+1. Ensure that you're using Project Operations version _4.91.0.X_ or later. The resource recommendations feature is available only in these versions. Project Operations version _4.103.0.X_ or later provides multi-factor recommendations. Versions before _4.91.0.X_ provide recommendations that are based on only one factor (**Relevant past experience**).
+1. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
 1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
 1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
@@ -56,6 +56,7 @@ To activate the dataflows, have your system administrator follow these steps.
 
 > [!IMPORTANT]
 > Every dataflow has a number as a prefix. The numbers indicate the order that the dataflows must be activated in. Make sure that they're activated **only in the specified order**.
+
 ## Activate a dataflow
 
 1. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Select the overflow symbol (three dots), and then select **Edit**. You're taken to a Power Query page that shows details of the selected dataflow.
@@ -77,9 +78,9 @@ To activate the dataflows, have your system administrator follow these steps.
 
 ## Complete the prerequisites
 
-When every dataflow has a green check mark in its **Last refresh** column, you've completed all the prerequisites to use this feature. (The following image shows an example.)
+When every dataflow has a green check mark in its **Last refresh** column, all prerequisites are ready to use this feature. (The following image shows an example.)
 
-:::image type="content" source="media/RRLastRefreshCompleteV2.png" alt-text="Screenshot of the Dataflows page where the last refresh has been completed for every dataflow.":::
+:::image type="content" source="media/RRLastRefreshCompleteV2.png" alt-text="Screenshot of the Dataflows page where the last refresh is completed for every dataflow.":::
 
 Depending on the number of projects and tasks in your environment, it might take **up to 24 hours** for all dataflows to complete their refresh.
 
@@ -87,4 +88,5 @@ If any dataflows fail to refresh, submit a support ticket to get help.
 
 > [!NOTE]
 > If the System Administrator user account that was used to activate the dataflows for the first time is deleted or deactivated, the preceding steps must be repeated by using new, active System Administrator credentials.
+
 For more information about how to use the feature, see [Get recommendations for a project team member](./get-recommendations-for-project-team-members.md).
