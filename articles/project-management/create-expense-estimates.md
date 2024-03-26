@@ -2,24 +2,42 @@
 title: Financial estimates for expenses on projects
 description: This article provides information about defining or estimating project-based expenses.
 author: avisness
-ms.date: 03/01/2024
-ms.topic: article
+ms.date: 03/26/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: avisness
 ---
 
 # Financial estimates for expenses on projects
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 Dynamics 365 Project Operations allows Project managers to define project-based expenses for each project or a task. Each expense item can be associated with a specific project task. Expenses are categorized into different expense categories, which are defined at the organizational level. Pricing and costing for each expense category is defined in the price list. 
 
 Complete the following steps to view, add, or delete a project expense.
 
 1. Go to **Projects**, and select the project you want to work on.
-2. Select the **Project Estimates** tab and view the list of project expenses.
-3. Select **New Expense estimate** to add an expense. Or, select an expense to delete, and then select **Delete Estimate Line**.
+1. Select the **Project Estimates** tab and view the list of project expenses.
+1. Select **New Expense estimate** to add an expense. Or, select an expense to delete, and then select **Delete Estimate Line**.
 
-The following table provides information about the fields on the **Expense Estimate Line** on a Project. 
+> [!NOTE]
+> **Now in Preview: Project estimate updates feature**
+> **Project estimate updates** is a new preview feature. Once the **Enable Project estimate updates** feature is enabled, it can't be disabled. These updates include label changes at the Project level where now the original **Estimates** tab shows **Time phased estimates**, and the newly labeled **Estimates** tab is a consolidated view of Expense and Material Estimates. The new grid for Expense and Material estimates allows easy creation and editing of those estimates.
+>
+>To enable the **Project estimate updates** feature, follow these steps.
+>
+>1. Go to **Settings** \> **Parameters**.
+>1. Open the **Parameters** record.
+>1. On the Action Pane, on the **Feature Control** tab, select **Project estimate updates**.
+>1. In the confirmation dialog box, select **OK**.
+>1. After a few moments, refresh your browser. The feature capabilities is available, and the feature is removed from the list of features to be enabled. 
+
+The following table provides information about the fields on the **Expense Estimate line** on a Project. 
+
 
 | **Field** | **Description** | **Downstream impact** |
 | --- | --- | --- |
