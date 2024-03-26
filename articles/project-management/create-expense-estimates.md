@@ -3,7 +3,7 @@ title: Financial estimates for expenses on projects
 description: This article provides information about defining or estimating project-based expenses.
 author: avisness
 ms.date: 03/26/2024
-ms.topic: article
+ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -14,7 +14,7 @@ ms.author: avisness
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 Dynamics 365 Project Operations allows Project managers to define project-based expenses for each project or a task. Each expense item can be associated with a specific project task. Expenses are categorized into different expense categories, which are defined at the organizational level. Pricing and costing for each expense category is defined in the price list. 
 
