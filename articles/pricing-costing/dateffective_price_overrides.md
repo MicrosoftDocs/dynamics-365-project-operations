@@ -2,7 +2,7 @@
 title: Date-effective price overrides
 description: This article explains how to set up price overrides for specific prices in the price list.
 author: rumant
-ms.date: 10/24/2023
+ms.date: 03/26/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 *Date-effective price overrides* provide a way to override or change specific prices in the price list. For example, you have a standard price list that is effective from January 1, 2022, through December 31, 2022. This price list has prices for many roles. The price that is set up for the **Network Technician** role is 100 US dollars (USD) per hour. When a network technician logs time between January 1, 2022, and December 31, 2022, the time is priced at 100 USD. On October 1, 2022, you must adjust the price *only* for the **Network Technician** role, from 100 USD per hour to 110 USD per hour. The **Date effective price overrides** feature lets you set up this change as an override of the row for that specific role price. Therefore, you don't have to copy the whole price list and change the price of just that one row.
 
@@ -41,7 +41,7 @@ For single role price override:
 For multiple role price overrides or single role price override:
 1. Open the page for the price list that you want to set up the date-effective price override for.
 1. Select the **Role prices** tab. This tab lists all the **Role price** records in the price list.
-1. Select the **Role price** record(s) that you want to set up a new date-effective override price for.
+1. Select the **Role price** records that you want to set up a new date-effective override price for.
 1. Select **Add Role price override** button.
 1. Specify the effective from date, price change amount or price change percent, and scope. Select **Apply**.
 
