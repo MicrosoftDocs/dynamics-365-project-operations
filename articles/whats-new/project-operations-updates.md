@@ -25,15 +25,15 @@ Dynamics 365 Project Operations consists of two components:
 - Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The finance and operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
 
 ## Project Operations release notes
-- Project Operations latest release notes for [Resource/non-stocked](whats-new-nov-2023-resource-based.md) scenario.
-- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-nov-2023-lite.md) scenario.
-- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-nov-2023-stocked.md) scenario.
+- Project Operations latest release notes for [Resource/non-stocked](whats-new-feb-2024-resource-based.md) scenario.
+- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-feb-2024-lite.md) scenario.
+- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-feb-2024-stocked.md) scenario.
 
 ## Project Operations latest version
 
 | Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | Project App on Dataverse Environments |
 | --- | --- | --- |
-| 4.89.0.82 | 10.0.37 | 1.0.89.81 |
+| 4.91.0.118 | 10.0.38 | 1.0.91.95 |
 
 > [!NOTE]
 > The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively. If you are using an older version of either product, contact Microsoft support for assistance in upgrading
@@ -47,24 +47,24 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates for Lite deployment * | Auto updates for Resource/non-stocked deployment * | Next version number | Next version generally available |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.89.0.82     | November 10, 2023   | December 22, 2023    | 4.91.0.95          | February 23, 2024   |
+|   &nbsp;  | First Release         |  4.91.0.118     | February 23, 2024   | February 23, 2024    | 4.92.0.91          | March 08, 2024   |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.89.0.82     | November 17, 2023   | December 22, 2023   | 4.91.0.95          | February 23, 2024   |
-|   &nbsp;  | Canada                |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | February 23, 2024   |
-|   &nbsp;  | India                 |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | February 23, 2024   |
-|   &nbsp;  | France                |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | February 23, 2024   |
-|   &nbsp;  | South Africa          |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | February 23, 2024   |
-|   &nbsp;  | Switzerland           |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | February 23, 2024   |
+|   &nbsp;  | South America         |  4.91.0.118     | February 23, 2024   | February 23, 2024   | 4.92.0.91          | March 15, 2024   |
+|   &nbsp;  | Canada                |  4.91.0.118     | February 23, 2024   | February 23, 2024    | 4.92.0.91          | March 15, 2024   |
+|   &nbsp;  | India                 |  4.91.0.118     | February 23, 2024   | February 23, 2024    | 4.92.0.91          | March 15, 2024   |
+|   &nbsp;  | France                |  4.91.0.118     | February 23, 2024   | February 23, 2024    | 4.92.0.91          | March 15, 2024   |
+|   &nbsp;  | South Africa          |  4.91.0.118     | February 23, 2024   | February 23, 2024    | 4.92.0.91          | March 15, 2024   |
+|   &nbsp;  | Switzerland           |  4.91.0.118     | February 23, 2024   | February 23, 2024    | 4.92.0.91          | March 15, 2024   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | March 01, 2024   |
-|   &nbsp;  | Asia Pacific          |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | March 01, 2024   |
-|   &nbsp;  | Great Britain         |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | March 01, 2024   |
-|   &nbsp;  | Oceania               |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | March 01, 2024    |
-|   &nbsp;  | United Arab Emirates  |  4.89.0.82     | November 17, 2023   | December 22, 2023    | 4.91.0.95          | March 01, 2024   |
+|   &nbsp;  | Japan                 |  4.91.0.118     | March 01, 2024   | March 01, 2024    | 4.92.0.91         | March 22, 2024   |
+|   &nbsp;  | Asia Pacific          |  4.91.0.118     | March 01, 2024   | March 01, 2024    | 4.92.0.91          | March 22, 2024   |
+|   &nbsp;  | Great Britain         |  4.91.0.118     | March 01, 2024   | March 01, 2024    | 4.92.0.91          | March 22, 2024   |
+|   &nbsp;  | Oceania               |  4.91.0.118     | March 01, 2024   | March 01, 2024    | 4.92.0.91          | March 22, 2024    |
+|   &nbsp;  | United Arab Emirates  |  4.91.0.118     | March 01, 2024   | March 01, 2024    | 4.92.0.91          | March 22, 2024   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.89.0.82     | December 1, 2023   | January 05, 2024    | 4.91.0.95          | March 01, 2024    |
+|   &nbsp;  | Europe                |  4.91.0.118     | March 01, 2024   | March 01, 2024    | 4.92.0.91          | March 29, 2024    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.89.0.82     | December 8, 2023  | January 12, 2024   | 4.91.0.95          | March 08, 2024    |
+|   &nbsp;  | North America         |  4.91.0.118     | March 21, 2024  | March 21, 2024   | 4.92.0.91          | April 05, 2024    |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the table above. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
