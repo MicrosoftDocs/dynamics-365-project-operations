@@ -25,8 +25,9 @@ Complete the following steps to view, add, or delete a project expense.
 1. Select **New Expense estimate** to add an expense. Or, select an expense to delete, and then select **Delete Estimate Line**.
 
 > [!NOTE]
-> **Now in Preview: Project estimate updates feature**
-> **Project estimate updates** is a new preview feature. Once the **Enable Project estimate updates** feature is enabled, it can't be disabled. These updates include label changes at the Project level where now the original **Estimates** tab shows **Time phased estimates**, and the newly labeled **Estimates** tab is a consolidated view of Expense and Material Estimates. The new grid for Expense and Material estimates allows easy creation and editing of those estimates.
+> **The Project estimate updates feature is now in Preview.**
+>
+> Once the **Project estimate updates** feature is enabled, it can't be disabled. These updates include label changes at the project level where the original **Estimates** tab shows **Time phased estimates**, and the newly labeled **Estimates** tab is a consolidated view of expense and material estimates. The new grid for expense and material estimates allows easy creation and editing of those estimates.
 >
 >To enable the **Project estimate updates** feature, follow these steps.
 >
