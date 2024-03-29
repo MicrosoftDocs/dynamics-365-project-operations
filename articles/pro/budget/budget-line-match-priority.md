@@ -63,10 +63,9 @@ After the feature flag is enabled, the **Budget match priorities** tab should ap
 > [!NOTE]
 > msydn_unitschedule with the display name Unit Group, is a match priority which cannot be updated or deleted. This match priority ensures that the unit match and conversion happens in a right way.
 
-
 ## How does budget match priority work?
 
-Time entry, expense entry, or material use is submitted against a project for approval. After it's approved, it's considered an approved actual that's used in project cost & sales budgeting calculations.
+Time entry, expense entry, or material use is submitted against a project for approval. After it's approved, it's considered an approved actual that's used in project cost and sales budgeting calculations.
 
 Actuals have dimensions that define an actual. Here are some examples:
 
@@ -82,7 +81,7 @@ During matching, the order that the matching algorithm works in is defined by th
 
 Priority 1 is the highest priority for dimensions of a transaction class. The algorithm tries to match all dimensions of an actual against all budget lines.
 
-If no match is found and no error is encountered, the matching algorithm skips the *lowest-priority dimension*, as per the budget line match priority table, and attempts another match. This process repeats until a match is found or an error occurs. If multiple budget lines match an actual, it's considered an error.
+If no match is found and no error is encountered, the matching algorithm skips the *lowest-priority dimension*, according to the budget line match priority table, and attempts another match. This process is repeated until a match is found or an error occurs. If multiple budget lines match an actual, this situation is considered an error.
 
 ### Example
 
@@ -103,5 +102,3 @@ The actual expense is matched to the budget line where the largest number of dim
 1. The process continues until a unique budget line is matched or an error is encountered.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-
-[Microsoft](https://www.microsoft.com)
