@@ -43,9 +43,8 @@ You plan projects by defining tasks, assigning resources, and estimating materia
 When these steps are followed, well-planned estimates can be used as the foundation for creating a project cost and sales budget.
 
 > [!NOTE]
-> The steps outlined in this article apply to both cost and sales budget. 
-
-> [!NOTE]
+> The steps that are outlined in this article apply to both cost budget and sales budget.
+>
 > The action of creating a budget from estimates runs on a best-effort basis. In other words, all estimates that pass budget-related validations are created as budget lines.
 > 
 > The **Timeline** section of the **Project summary** tab provides a summary of the action of creating a budget from estimates.
@@ -64,7 +63,7 @@ To create a budget from estimates, follow these steps.
         - To create **Time** budget lines based on the resources that are made part of project team members, select **Project team members**. You can view these estimates on the **Team** tab of the project page.
 
     1. In the **Contingency** section, specify the percentage by which to increase the **Time**, **Material**, and **Expense** budget lines as contingency. The contingency amount for each budget line is calculated as a percentage of the budgeted amount and added to the budgeted amount for that line.
-    1. Select **Import**. A message bar on the project page indicates that the process of creating a budget from estimates is in progress. The time required depends on the number of estimates that are involved. Wait until you're notified that the process is completed.
+    1. Select **Import**. A message bar on the project page indicates that the process of creating a budget from estimates is in progress. The time that's required depends on the number of estimates that are involved. Wait until you're notified that the process is completed.
 
 After the process of creating a budget from estimates is completed, a new **Budget** tab is added to the project page. A budget version is created in **Draft** status, and the grid shows the budget lines that were successfully created from estimates. For a summary of the process of creating a budget from estimates, review the **Timeline** section of the **Project summary** tab.
 
@@ -77,10 +76,10 @@ For information about how to create more cost budget lines, see [Project time bu
 
 ## Reimport estimates to create a budget
 
-If errors occur during the process of creating a budget from estimates, you can make the required changes to the estimates to address the errors. You can then try to recreate the budget from estimates.
+If errors occur during the process of creating a budget from estimates, you can make the required changes to the estimates to address the errors. You can then try to re-create the budget from estimates.
 
 > [!IMPORTANT]
-> If you reimport estimates to create a budget, the budget is deleted and recreated. Any changes that were made to the budget is overwritten.
+> If you reimport estimates to create a budget, the budget is deleted and re-created. Any changes that were made to the budget are overwritten.
 
 > [!NOTE]
 > You can reimport estimates only if the budget is in **Draft** status.
@@ -91,7 +90,7 @@ To reimport estimates to create a budget, follow these steps.
 1. In the left navigation, change the area to **Projects**.
 1. Select the project to reimport estimates to create a budget.
 1. On the project page, select **Budget**, and then select **Reimport estimates**.
-1. A message box notifies you that a reimport of estimates deletes all budget lines and recreate the budget from estimates. Select **OK** to confirm that you want to reimport estimates.
+1. A message box notifies you that a reimport of estimates deletes all budget lines and re-creates the budget from estimates. Select **OK** to confirm that you want to reimport estimates.
 1. In the **Import from estimates** dialog box, follow the steps in the [Create a budget from estimates](#create-a-budget-from-estimates) section.
 
 ## Delete a project budget
