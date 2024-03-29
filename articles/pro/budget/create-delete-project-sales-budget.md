@@ -2,7 +2,7 @@
 title: Create and delete project sales budgets
 description: This article explains how to create and delete a project sales budget.
 author: niranjanmaski
-ms.date: 03/19/2024
+ms.date: 03/29/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -18,12 +18,12 @@ ms.author: nimaski
 
 ## Enable the project sales budget feature
 
-Project cost & sales budgeting capabilities are enabled only if the feature flag is enabled.
+Project cost and sales budgeting capabilities are enabled only if the feature flag is enabled.
 
 > [!NOTE]
 > After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
 
-To enable project cost & sales budgeting, follow these steps.
+To enable project cost and sales budgeting, follow these steps.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Settings**.
@@ -54,7 +54,7 @@ To create a project sales budget, follow these steps.
 
 ## Create Sales budget lines
 
-To create a project sales budget from estimates, follow the steps outlined in the article, [Create a project budget from estimates](create-project-budget-from-estimates.md)
+To create a project sales budget from estimates, follow the steps outlined in the article, [Create a project budget from estimates](create-project-budget-from-estimates.md).
 
 To create sales budget lines manually, follow the steps outlines in the articles,
 
