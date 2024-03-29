@@ -16,31 +16,30 @@ ms.author: nimaski
 
 **_Applies to:_** _Lite deployment - deal to proforma invoicing._
 
-You can import budget lines from different sources, such as estimates, quote line details, or contract line details. These sources may have many lines each.
+You can import budget lines from different sources, such as estimates, quote line details, or contract line details. Each of these sources can have many lines.
 
-For example, if you assign all resources to tasks, you get an estimate for every resource. But you may want to track budgets at a higher level, such as the task level. In this case, you can use the summarizing feature when importing budget lines, and group them by task. This way, the estimates of all resources for a task form one budget line. The number of budget lines are the same as the number of tasks, which makes it easier to manage.
+For example, if you assign all resources to tasks, you get an estimate for every resource. However, you might want to track budgets at a higher level, such as the task level. In this case, you can use the summarization feature when you import budget lines, and group them by task. In this way, the estimates of all resources for a task form one budget line. Because the number of budget lines equals the number of tasks, management is easier.
 
-## How to summarize budget lines during import
+## Summarize budget lines during the import process
 
-Summarize option is made part of import. 
+Summarization options are available as part of the import process. Follow these steps to summarize budget lines during import.
 
-1. Sign in to Project Operations.
+1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Projects**.
 1. Select the project to create a budget for.
-1. On the project page, on the Action Pane, select **Create Budget**, and then follow these steps:
+1. On the project page, on the Action Pane, select **Create Budget**.
+1. Select **Import**.
 
-    1. Select **Import**.
-    1. In the import dialog there are two sections for Summarization, one for cost budget lines and one for sales budget lines. 
-    1. In **Cost budget line import options** section, choose the summarization options for Time, Expense, Material cost budget lines.
-    1. In **Sales budget line import options** section, choose the summarization options for Time, Expense, Material sales budget lines.
-    1. For each of the transaction class, the dimensions displayed as summarization options are as per the **Budget match priority**.
-    1. If you select a lower priority match priority dimension, all other higher priority dimensions are also considered as summarized options.
-    1. This mechanism would that budget lines are summarized in a way where the actual matching would be successful that runs based on **Budget match priority**
+    The import dialog box that appears has two sections for **Summarization**: one for cost budget lines and one for sales budget lines.
+
+1. In the **Cost budget line import options** section, select the summarization options for **Time**, **Expense**, and **Material** cost budget lines.
+1. In the **Sales budget line import options** section, select the summarization options for **Time**, **Expense**, and **Material** sales budget lines.
+
+For each transaction class, the dimensions that appear as summarization options are based on the budget match priority. If you select a lower-priority match priority dimension, all higher-priority dimensions are also considered summarized options.
+
+Budget lines are summarized in such a way that the actual matching that runs based on the budget match priority is successful.
 
 > [!NOTE]
-> Budget match priorities for both cost & sales budget lines are by default defined at project parameters level. In case budget match priorities are defined at a project level, the match priority at project would take the precedence. For more information, see the [budget match priority](budget-line-match-priority.md),  section.
-
+> By default, budget match priorities for both cost budget lines and sales budget lines are defined at the project parameter level. Any budget match priorities that are defined at the project level take the precedence. For more information, see [Budget line match priority](budget-line-match-priority.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-
-[Microsoft](https://www.microsoft.com)
