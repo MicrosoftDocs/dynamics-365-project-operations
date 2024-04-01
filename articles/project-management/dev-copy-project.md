@@ -17,6 +17,10 @@ Dynamics 365 Project Operations supports the ability to copy a project and rever
 
 When you select **Copy Project**, the status of the target project is updated. Use **Status Reason** to determine when the copy action is complete. Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.
 
+To add additional columns to be copied over from the Project entity, add those columns to the Copy Project Columns view on the Project entity and then run the CopyProjectEntityAttributesRequest API via plugin or flow. This API will copy the data in the columns in the Copy Project Columns view from the specified source project to the target project. This API must be called spearately from the CopyProjectV3 or V4 API call. 
+
+To add additional columns to be copied over from the Project Task entities, add those columns to the Copy Project Task Columns view on the Project Task table. This will ensure that the additional columns will be copied over to the new Project Tasks when CopyProjectV3 or V4 are called.
+
 ## Copy Project v3 custom action
 
 ### Name 
