@@ -86,7 +86,7 @@ Posted | The line has been successfully posted and no further action is required
 Unrecoverable | The line has an error that can't be posted by the system. A support ticket may be necessary in this case. This error should only occur for transactions that existed prior to the feature being enabled. 
 Invalid actuals | The line has an error that can't be posted due to missing **Actuals** within Dataverse. A support ticket may be necessary in this case.
 
-Header Status | | Error can be resolved by end user
+Header Status | Description | Error can be resolved by end user
 --- | --- | ---
 Draft | The header is in draft status as it has not been posted yet.
 Processing | The header is in processing status and will be moved to posted status soon. | **Reset to draft** can be performed
