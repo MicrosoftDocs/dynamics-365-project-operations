@@ -101,7 +101,7 @@
       - name: Vendor invoice integration
         href: environment/resource-dual-write-vendor-invoice.md  
       - name: Project operations dual-write errors and mitigation
-        href: environment/resource-dual-write-frequentissues.md
+        href: environment/resource-dual-write-frequent-issues.md
     - name: Change language localization settings
       href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
