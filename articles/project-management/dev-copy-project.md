@@ -2,20 +2,25 @@
 title: Develop project templates with Copy Project
 description: This article provides information about how to create project templates using the Copy Project custom action.
 author: abriccetti
-ms.date: 09/14/2023
+ms.date: 04/01/2024
 ms.topic: how-to
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
 
 # Develop project templates with Copy Project
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role. Customers can use this functionality to build basic project templates.
 
 When you select **Copy Project**, the status of the target project is updated. Use **Status Reason** to determine when the copy action is complete. Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.
+
+To add more columns to copy from the Project entity, add those columns to the **Copy Project Columns** view on the Project entity, and then run the **CopyProjectEntityAttributesRequest** API via a plugin or flow. This API copies the data in the columns in the **Copy Project Columns** view from the specified source project to the target project. This API must be called separately from the CopyProjectV3 or V4 API call. 
+
+To add more columns to copy from the Project Task entities, add those columns to the **Copy Project Task Columns** view on the **Project Task** table to ensure columns are copied to the new Project Tasks when CopyProjectV3 or V4 are called.
 
 ## Copy Project v3 custom action
 
