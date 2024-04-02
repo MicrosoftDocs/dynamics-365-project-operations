@@ -2,7 +2,7 @@
 title: Use Project schedule APIs to perform operations with Scheduling entities
 description: This article provides information and samples for using Project schedule APIs.
 author: abriccetti
-ms.date: 09/14/2023
+ms.date: 04/02/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -11,7 +11,7 @@ ms.author: abriccetti
 
 # Use Project schedule APIs to perform operations with Scheduling entities
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 
 **Scheduling entities**
@@ -43,7 +43,7 @@ The following is a list of current Project schedule APIs.
 
 | API                                     | Description |
 |-----------------------------------------|-------------|
-| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately. Project creation can also be done by adding a row to the project table using standard Dataverse APIs. This process will not create a default bucket for the project but may have better performance.|
+| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately. Project creation can also be done by adding a row to the project table using standard Dataverse APIs. This process won't create a default bucket for the project but may have better performance.|
 | **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately. Team Member creation can also be done by adding a row to the Project Team Member table using standard Dataverse APIs. |
 | **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction. |
 | **msdyn_PssCreateV1**                   | This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation. |
