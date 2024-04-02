@@ -46,6 +46,5 @@ When attempting to confirm the timesheets in Dataverse , Dual write generates th
 
 | Dual write error | Reason | Mitigation |
 | ------------- | ------------- |  ------------- |
-|  {"Write failed for entity Project Operations integration actuals with unknown exception - Line property Not available does not exist.\nvalidateWrite failed on data source 'ProjCDSActualsImport (ProjCDSActualsImport)'"}
- Please rectify your data and try again. If issue persists after multiple retries, please contact your system administrator.| Dual write triggers the error when line property does not exists in D365 Finance |  Configure the line properties in D365 Finance.|
+|  "Write failed for entity Project Operations integration actuals with unknown exception - Line property Not available does not exist.\nvalidateWrite failed on data source 'ProjCDSActualsImport (ProjCDSActualsImport)'" Please rectify your data and try again. If issue persists after multiple retries, please contact your system administrator.| Dual write triggers the error when line property does not exists in D365 Finance |  Configure the line properties in D365 Finance.|
 
