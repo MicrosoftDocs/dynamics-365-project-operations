@@ -30,17 +30,17 @@ Copilot for project is a suite of features to streamline project management task
 
 Copilot for project helps the customers to improve project planning and execution processes, and ultimately deliver projects more efficiently. By leveraging the power of advanced machine learning techniques, including natural language processing powered by Azure Open AI, they can save time, reduce the risk of underestimating or overestimating task durations, and continuously improve project planning and execution processes. This can help the customers' business to improve project delivery times, reduce costs, increase customer satisfaction, and ultimately drive growth and profitability.
 
-Project Managers in professional services organizations will commonly agree that one of most repetitive and time intensive tasks in their job is production of project status reports. Project Managers first gather and summarize data from multiple sources. They provide commentary on each dimension of project health: scope, schedule, or budget. And to provide transparency regarding threats to the project, the project manager also summarizes risks.
+Project Managers in professional services organizations commonly agree that one of most repetitive and time intensive tasks in their job is production of project status reports. Project Managers first gather and summarize data from multiple sources. They provide commentary on each dimension of project health: scope, schedule, or budget. And to provide transparency regarding threats to the project, the project manager also summarizes risks.
 
-With Copilot for Project's project status report, project managers will be able to get a jump start on automatically generating the key components of the report, allowing them to focus on the narrative text, refining what is relevant for the specific project without expanding energy on the mundane repetitive tasks such as data aggregation and summarization. When the project status report is accurate, it will result in significant time savings on a project basis, especially in instances when project managers are stretched between multiple projects in an organization.
+With Copilot for Project's project status report, project managers are able to get a jump start on automatically generating the key components of the report, allowing them to focus on the narrative text, refining what is relevant for the specific project without expanding energy on the mundane repetitive tasks such as data aggregation and summarization. When the project status report is accurate, it results in significant time savings on a project basis, especially in instances when project managers are stretched between multiple projects in an organization.
 
 ### What are Copilot for project's intended use(s)?
 
 As an AI assistant to Project managers, Copilot for project provides a set of intended uses: 
 
-- **Task Plan / Work Breakdown Structure:** The auto-generation of a work breakdown structure (WBS) is intended to provide a project manager with a head start in building a delivery plan for a project. It fulfills a similar purpose as a project template where related activities in the structure are contextually based on the scope and timeline of the project. Like a project template, there is an expectation the activities will be modified to meet the detailed needs of the project, these changes could include deletion, addition, changes in duration, effort, dependencies, and assignees.
+- **Task Plan / Work Breakdown Structure:** The autogeneration of a work breakdown structure (WBS) is intended to provide a project manager with a head start in building a delivery plan for a project. It fulfills a similar purpose as a project template where related activities in the structure are contextually based on the scope and timeline of the project. Like a project template, there's an expectation the activities are modified to meet the detailed needs of the project, these changes could include deletion, addition, changes in duration, effort, dependencies, and assignees.
 
-- **Risks and Mitigation Plan:** The auto-generation of risks is intended to aid a project manager in identifying and documenting potential threats to the health of a project. Given the disposition of the project's scope, schedule and budget, risk registers give a project manager a way to warn all relevant stakeholders about what can prevent the project from staying green. Each risk includes corresponding mitigation.
+- **Risks and Mitigation Plan:** The autogeneration of risks is intended to aid a project manager in identifying and documenting potential threats to the health of a project. Given the disposition of the project's scope, schedule, and budget, risk registers give a project manager a way to warn all relevant stakeholders about what can prevent the project from staying green. Each risk includes corresponding mitigation.
 
 - **Project Status Report:** The goal of the system is to provide an editable Project Status Report as a head start to the Project Manager as they fulfill a core part of their job function. All narrative sections can and should be reviewed by the Project Manager prior to finalization and distribution. In most organizations the project status reports are shared both to customers and internal service organization leadership.
 
@@ -48,9 +48,9 @@ As an AI assistant to Project managers, Copilot for project provides a set of in
 
 We evaluate the features both qualitatively and quantitatively. To assess the quality of the feature, we conducted user studies with Project managers to gather their feedback on their experiences, thoughts about the feature's quality, and suggestions for improvement.
 
-Additionally, we are monitoring telemetry data to track the number of customers who tried the feature, the success rate of the feature, and the ratio of positive to negative feedback. Before releasing the Copilot feature in multiple geographies, we conducted extensive testing to ensure its functionality. If you encounter any issues with the content generated or any of listed use cases, provide feedback. Your feedback is used to enhance Microsoft's products and services. Your organization's IT admins may have access to your feedback data for management purposes. For more information, read the [<u>Privacy Statement</u>](https://go.microsoft.com/fwlink/?LinkId=521839). 
+Additionally, we're monitoring telemetry data to track the number of customers who tried the feature, the success rate of the feature, and the ratio of positive to negative feedback. Before releasing the Copilot feature in multiple geographies, we conducted extensive testing to ensure its functionality. If you encounter any issues with the content generated or any of listed use cases, provide feedback. Your feedback is used to enhance Microsoft's products and services. Your organization's IT admins may have access to your feedback data for management purposes. For more information, read the [<u>Privacy Statement</u>](https://go.microsoft.com/fwlink/?LinkId=521839). 
 
-Copilot for project was assessed for various languages. [Learn](https://aka.ms/bapcopilot-intl-report-external) more. The system may not work as well in languages that were not assessed and this may impact the accuracy and the user experience.
+Copilot for project was assessed for various languages. [Learn](https://aka.ms/bapcopilot-intl-report-external) more. The system may not work as well in languages that weren't assessed and this may impact the accuracy and the user experience.
 
 ### What are the limitations of Copilot for project? How can users minimize the impact of Copilot for project's limitations when using the system?
 
@@ -58,13 +58,13 @@ Copilot for project was assessed for various languages. [Learn](https://aka.ms/b
 
 -   Actuals, such as time, expense, or materials, need to be logged to generate Risk assessment and Status report through Copilot.
 
--   Although the AI-generated summary narrative provides an initial overview, it might not always accurately represent the project's true context or health. Therefore, all parts of the summary narrative are editable and should be thoroughly reviewed by the project manager before the report is finalized and distributed. Edits should be made, as necessary, to ensure an accurate representation of the project's status.
+-   Although the AI-generated summary narrative provides an initial overview, it might not always accurately represent the project's true context or health. All parts of the summary narrative are editable and should be reviewed thoroughly by the project manager before the report is finalized and distributed. Edits should be made, as necessary, to ensure an accurate representation of the project's status.
 
 ### What operational factors and settings allow for effective and responsible use of Copilot for project?
 
 -   As an administrator, you can enable and disable the feature 'Copilot for project' through feature control settings.
 
--   As a feature user, provide short and accurate commands in the sidecar to trigger the desired action. The triggers pertaining to above mentioned scenarios will produce the desired output, such as "generate tasks, create risk plan, create project status report". Triggers that do not mean to invoke these three capabilities will display an error.
+-   As a feature user, provide short and accurate commands in the sidecar to trigger the desired action. The triggers pertaining to above mentioned scenarios produce the desired output, such as "generate tasks, create risk plan, create project status report." Triggers that don't mean to invoke these three capabilities display an error.
 
 -   The output is based on the project name and description for the tasks and project financial data for the risks assessment and project status report.
 
