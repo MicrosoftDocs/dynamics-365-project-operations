@@ -2,7 +2,7 @@
 title: Integration journal in Project Operations
 description: This article provides information about working with the Integration journal in Project Operations.
 author: sigitac
-ms.date: 03/4/2024
+ms.date: 04/2/2024
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
@@ -73,28 +73,29 @@ If there are configuration issues or other problems that are found during postin
 
 A new feature is available in 10.0.37 that is recommended for all customers. The **Enable integration journal processing improvements** feature prevents a race condition error and prevents the system from trying to continually post integration journals that will fail until the configuration issue is resolved.
 
-With this feature enabled, new statuses are visible within the integration journal line to control posting. This feature also optimizes posting to ensure work can be split up into multiple threads. This feature depends on the **Transfer all lines with posting errors to a new journal** feature, and we recommend the **Post Project Operations Integration journal using multiple batch tasks** feature. 
+With this feature enabled, new statuses are visible within the integration journal line to control posting. This feature also optimizes posting to ensure work can be split up into multiple threads. This feature depends on the **Transfer all lines with posting errors to a new journal** feature, and we recommend the **Post Project Operations Integration journal using multiple batch tasks** feature to be enabled. 
 
-This feature introduces an enhanced process where transactions will be attempted to be posted and any lines without errors will post successfully. If any errors are encountered, that subset of transactions are moved to a new integration and updated to a new integration journal header with the header and lines with status of **error**. The transactions with the error will not be attepmted to be posted again until a user fixes the underlying issue. Common examples of underlying issues would be a closed financial period or an incorrect financial dimension not valid for the account structure. Once the underlying issue is fixed, the user can mark it as ready to process again through the **Update to draft** button on the integration journal line or integration journal header. 
+This feature introduces an enhanced process where transactions will be attempted to be posted and any lines without errors will post successfully. If any errors are encountered, that subset of transactions are moved to a new integration journal with the header and lines with status of **error**. The transactions with the error will not be attepmted to be posted again until a user fixes the underlying issue and updates the header and line back to draft status. Common examples of underlying issues would be a closed financial period or an incorrect financial dimension not valid for the account structure. Once the underlying issue is fixed, the user can mark it as ready to process again through the **Update to draft** button on the integration journal line and/or integration journal header. 
 
-Line Status | Description
---- | ---
-Draft | The line is in draft status as it existed prior to the new integration journal processing improvement feature being enabled. The line can be posted.
-Processing | The line is in processing status and will be moved to posted status soon. Note: If a line is listed in processing status for a long time, it's likely that an error has occurred and a user can manually reset the line to draft status.
+Line Status | Description | Error can be resolved by end user
+--- | --- | ---
+Draft | The line is in draft status as it existed prior to the new integration journal processing improvement feature being enabled. The line can be posted. 
+Error | One or more integration journal lines have an error and the header can't be posted. | **Reset to draft** can be performed
+Processing | The line is in processing status and will be moved to posted status soon. Note: If a line is listed in processing status for a long time, it's likely that an error has occurred and a user can manually reset the line to draft status. | **Reset to draft** can be performed
 Posted | The line has been successfully posted and no further action is required.
 Unrecoverable | The line has an error that can't be posted by the system. A support ticket may be necessary in this case. This error should only occur for transactions that existed prior to the feature being enabled. 
 Invalid actuals | The line has an error that can't be posted due to missing **Actuals** within Dataverse. A support ticket may be necessary in this case.
 
-Header Status | Description
---- | ---
+Header Status | | Error can be resolved by end user
+--- | --- | ---
 Draft | The header is in draft status as it has not been posted yet.
-Processing | The header is in processing status and will be moved to posted status soon.
+Processing | The header is in processing status and will be moved to posted status soon. | **Reset to draft** can be performed
 Posted | The header has been successfully posted and no further action is required.
-Error | One or more integration journal lines have an error and the header can't be posted. A user can manually reset the header to draft status to try posting again.
+Error | One or more integration journal lines have an error and the header can't be posted. A user can manually reset the header to draft status to try posting again. | **Reset to draft** can be performed
 
 ##### Transactions in processing state
 
-It is possible integration journal lines can be left in processing state for an extended period of time and need to be reset. If transactions are listed as pending status and 24 hours have passed or multiple rounds of other integration journal postings, the status likely was not updated correctly. Users can manually reset the status back to draft by clicking **Update to draft* in the integration journal line. 
+It is possible that integration journal lines can be left in processing state for an extended period of time and need to be reset. If transactions are listed as pending status and 24 hours have passed or an administrator has verified there are no running interactive or batch posting processes for the integration journal, the status likely was not updated correctly. Users can manually reset the status back to draft by clicking **Update to draft** in the integration journal line. 
 
 ##### Further improvements have been made in this area in the 10.0.38 release. Improvements include:
 
