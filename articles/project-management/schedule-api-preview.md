@@ -43,8 +43,8 @@ The following is a list of current Project schedule APIs.
 
 | API                                     | Description |
 |-----------------------------------------|-------------|
-| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately. |
-| **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately. |
+| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately. Project creation can also be done by adding a row to the project table using standard Dataverse APIs. This process will not create a default bucket for the project but may have better performance.|
+| **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately. Team Member creation can also be done by adding a row to the Project Team Member table using standard Dataverse APIs. |
 | **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction. |
 | **msdyn_PssCreateV1**                   | This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation. |
 | **msdyn_PssCreateV2**                   | This API is used to create an entity. It works like **msdyn_PssCreateV1**, but multiple entities can be created in one action. |
