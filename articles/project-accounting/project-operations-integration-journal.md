@@ -54,36 +54,6 @@ When you post the Integration journal, a project subledger and general ledger tr
 The selected Project Operations integration journal can be posted by using **Post** on the Project Operations integration journal page. All journals can be automatically posted by running a process at **Periodics** > **Project Operations integration** > **Post Project Operations integration journal**.
 
 Posting can be performed interactively or in a batch. Note that all journals that have more than 100 lines will automatically be posted in a batch. For better performance when journals that have many lines are posted in a batch, enable the **Post Project Operations integration journal using multiple batch tasks** feature in the **Feature management** workspace. 
-
-#### Working with integration journal lines with warnings and errors
-
-If there are configuration issues or other problems that are found during posting, the system will log a warning or error to describe the issue and leave the transaction in the integration journal to be posted later.
-
-A new feature is available in 10.0.37 that is recommended for all customers. The **Enable integration journal processing improvements** feature prevents a race condition error and prevents the system from trying to continually post integration journals that will fail until the configuration issue is resolved.
-
-With this feature enabled, new statuses are visible within the integration journal line to control posting. This feature also optimizes posting to ensure work can be split up into multiple threads. This feature depends on the **Transfer all lines with posting errors to a new journal** feature.
-
-Line Status | Description
---- | ---
-Draft | The line is in draft status as it existed prior to the new integration journal processing improvement feature being enabled. The line can be posted.
-Processing | The line is in processing status and will be moved to posted status soon. Note: If a line is listed in processing status for a long time, it's likely that an error has occurred and a user can manually reset the line to draft status.
-Posted | The line has been successfully posted and no further action is required.
-Unrecoverable | The line has an error that can't be posted by the system. A support ticket may be necessary in this case. This error should only occur for transactions that existed prior to the feature being enabled. 
-ActualsMissing | The line has an error that can't be posted due to missing **Actuals** within Dataverse. A support ticket may be necessary in this case..
-
-Header Status | Description
---- | ---
-Draft | The header is in draft status as it has not been posted yet.
-Processing | The header is in processing status and will be moved to posted status soon.
-Posted | The header has been successfully posted and no further action is required.
-Error | One or more integration journal lines have an error and the header can't be posted. A user can manually reset the header to draft status to try posting again.
-
-Further improvements have been made in this area in the 10.0.38 release. Improvements include:
-
-- Additional functionality is available to multi-select rows when working with integration headers.
-- Additional flexibility in controlling posting with a new optional parameter to **Limit the integration journal lines per header**. With the parameter disabled, a default of 200 lines is used. The parameter can be increased or decreased as needed. Decreasing the parameter will reduce the time taken to post the journal.
-- The **Add filters to the Project Integration journal posting batch job** feature adds default filters to allow users to specify a period start date, a journal number, or an original journal number in the batch job filter. These filters are useful when you have transactions that require some setup or configuration changes before they can be posted and you can avoid trying to post until the issue is resolved.
-
 #### Transfer all lines that have posting errors to a new journal
 
 > [!NOTE]
@@ -96,5 +66,41 @@ To review the journals that have posting error lines, go to **Project management
 ![Original journal shown on the Project Operations integration journal page.](./media/transferLines-originalJournal.png)
 
 If a periodic batch job is configured to post the integration journal, posting will be reattempted, and the journals will be posted if the timing issue has been fixed. Any remaining journals should be manually investigated by reviewing the logs and taking any required action.
+
+#### Working with integration journal lines with warnings and errors
+
+If there are configuration issues or other problems that are found during posting, the system will log a warning or error to describe the issue and leave the transaction in the integration journal to be posted later.
+
+A new feature is available in 10.0.37 that is recommended for all customers. The **Enable integration journal processing improvements** feature prevents a race condition error and prevents the system from trying to continually post integration journals that will fail until the configuration issue is resolved.
+
+With this feature enabled, new statuses are visible within the integration journal line to control posting. This feature also optimizes posting to ensure work can be split up into multiple threads. This feature depends on the **Transfer all lines with posting errors to a new journal** feature, and we recommend the **Post Project Operations Integration journal using multiple batch tasks** feature. 
+
+This feature introduces an enhanced process where transactions will be attempted to be posted and any lines without errors will post successfully. If any errors are encountered, that subset of transactions are moved to a new integration and updated to a new integration journal header with the header and lines with status of **error**. The transactions with the error will not be attepmted to be posted again until a user fixes the underlying issue. Common examples of underlying issues would be a closed financial period or an incorrect financial dimension not valid for the account structure. Once the underlying issue is fixed, the user can mark it as ready to process again through the **Update to draft** button on the integration journal line or integration journal header. 
+
+Line Status | Description
+--- | ---
+Draft | The line is in draft status as it existed prior to the new integration journal processing improvement feature being enabled. The line can be posted.
+Processing | The line is in processing status and will be moved to posted status soon. Note: If a line is listed in processing status for a long time, it's likely that an error has occurred and a user can manually reset the line to draft status.
+Posted | The line has been successfully posted and no further action is required.
+Unrecoverable | The line has an error that can't be posted by the system. A support ticket may be necessary in this case. This error should only occur for transactions that existed prior to the feature being enabled. 
+Invalid actuals | The line has an error that can't be posted due to missing **Actuals** within Dataverse. A support ticket may be necessary in this case.
+
+Header Status | Description
+--- | ---
+Draft | The header is in draft status as it has not been posted yet.
+Processing | The header is in processing status and will be moved to posted status soon.
+Posted | The header has been successfully posted and no further action is required.
+Error | One or more integration journal lines have an error and the header can't be posted. A user can manually reset the header to draft status to try posting again.
+
+##### Transactions in processing state
+
+It is possible integration journal lines can be left in processing state for an extended period of time and need to be reset. If transactions are listed as pending status and 24 hours have passed or multiple rounds of other integration journal postings, the status likely was not updated correctly. Users can manually reset the status back to draft by clicking **Update to draft* in the integration journal line. 
+
+##### Further improvements have been made in this area in the 10.0.38 release. Improvements include:
+
+- Additional functionality is available to multi-select rows when working with integration headers.
+- Additional flexibility in controlling posting with a new optional parameter to **Limit the integration journal lines per header**. With the parameter disabled, a default of 200 lines is used. The parameter can be increased or decreased as needed. Decreasing the parameter will reduce the time taken to post the journal.
+- The **Add filters to the Project Integration journal posting batch job** feature adds default filters to allow users to specify a period start date, a journal number, or an original journal number in the batch job filter. These filters are useful when you have transactions that require some setup or configuration changes before they can be posted and you can avoid trying to post until the issue is resolved.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
