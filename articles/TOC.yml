@@ -2268,5 +2268,6 @@
   items:
   - name: Responsible AI FAQs for Project Operations
     href: responsible-ai/responsible-ai-overview.md
-  - name: Copilot for project overview
-    href: project-management/copilot-features.md
+  - name: Copilot for project responsible AI FAQ
+    href: responsible-ai/copilot-for-project-faq.md
+
