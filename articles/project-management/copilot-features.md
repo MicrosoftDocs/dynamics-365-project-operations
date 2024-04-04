@@ -1,7 +1,7 @@
 ---
 title: Copilot for project overview
 description: This article provides information about Microsoft Dynamics 365 Copilot for project features.
-ms.date: 03/01/2024
+ms.date: 04/01/2024
 ms.topic: how-to
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -12,7 +12,6 @@ ms.collection:
 ---
 
 # Copilot for project overview
-
 
 
 Copilot for project is an assistive capability that's powered by Microsoft Azure Open AI's large language model. The Copilot feature is designed to help improve the efficiency of different roles in Dynamics 365 Project Operations, including the project manager and practice manager. It provides a user-friendly and intuitive experience that helps maximize productivity while it also helps improve visibility into project performance.
@@ -112,7 +111,9 @@ To enable Copilot for project, follow these steps.
 > [!IMPORTANT]
 Depending on where your environment is hosted, you might need to allow data movement across regions to use them. If your environment is hosted in a region that requires data movement across regions to use copilots and generative AI features, tenant administrator need to consent to the terms of use on the Move data across regions checkbox in the Power Platform admin center. [Learn more](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) how data movement works across regions. 
 
+## Additional resources
 
+- [Copilot for project responsible AI FAQ](../responsible-ai/copilot-for-project-faq.md)
 
 
 
