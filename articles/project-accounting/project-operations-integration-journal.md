@@ -12,7 +12,7 @@ ms.author: sigitac
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios._
 
-Time, expense, fee, and material entries create **Actual** transactions which represent the operational view of work completed against a project. Dynamics 365 Project Operations provides accountants with a tool to review transactions and adjust the accounting attributes as needed. After the review and adjustments are complete, the transactions are posted to the Project subledger and General ledger. An accountant can perform these activities using the **Project Operations Integration** journal (**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration** journal.
+Time, expense, fee, and material entries create **Actual** transactions, which represent the operational view of work completed against a project. Dynamics 365 Project Operations provides accountants with a tool to review transactions and adjust the accounting attributes as needed. After the review and adjustments are complete, the transactions are posted to the Project subledger and General ledger. An accountant can perform these activities using the **Project Operations Integration** journal (**Dynamics 365 Finance** > **Project management and accounting** > **Journals** > **Project Operations Integration** journal.
 
 ![Integration journal flow.](./media/IntegrationJournal.png)
 
@@ -31,13 +31,13 @@ The system groups journal lines into separate journals based on the value select
 Journal lines are created based on project actuals. The following list includes some of the more notable default and transformation rules:
 
   - Each project actual transaction has a line in the Project Operations Integration journal. Cost and unbilled sales transactions for time and material billing type are shown on separate lines.
-  - The **Date** field represents the date of the transaction. The **Accounting date** field represents the date that the transaction is recorded to the ledger. If the accounting date is in a [closed financial period](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), and the parameter **Automatically set accounting date to open ledger period** is set on the **Financial** tab of the **Project management and accounting parameters** page, the system will adjust the accounting date of the transaction to the first date in next open ledger period.
+  - The **Date** field represents the date of the transaction. The **Accounting date** field represents the date that the transaction is recorded to the ledger. If the accounting date is in a [closed financial period](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), and the parameter **Automatically set accounting date to open ledger period** is set on the **Financial** tab of the **Project management and accounting parameters** page, the system adjusts the accounting date of the transaction to the first date in next open ledger period.
   - The **Voucher** field shows the voucher number for every actual transaction. The voucher number sequence is defined on the **Number sequences** tab, on the **Project management and accounting parameters** page. Each line is assigned a new number. After the voucher is posted, you can view how cost and unbilled sales transaction are related by selecting **Related vouchers** on the **Voucher transaction** page.
   - The **Category** field represents a project transaction and defaults based on the transaction category for the related project actual.
     - If **Transaction category** is set in the Project actual and a related **Project category** exists in a given legal entity, the category defaults to this project category.
     - If **Transaction category** isn't set in the Project actual, the system uses the value in the **Project category defaults** field on the **Project Operations on Dynamics 365 Customer Engagement** tab on the **Project management and accounting parameters** page.
   - The **Resource** field represents the project resource related to this transaction. The resource is used as a reference in Project invoice proposals to customers.
-  - The **Exchange rate** field defaults from **Currency exchange rate** set in Dynamics 365 Finance. If the exchange rate setup is missing, the **Import from staging** periodic process won't add the record to a journal and an error message will be added to the job execution log.
+  - The **Exchange rate** field defaults from **Currency exchange rate** set in Dynamics 365 Finance. If the exchange rate setup is missing, the **Import from staging** periodic process won't add the record to a journal, and an error message is added to the job execution log.
   - The **Line property** field represents the billing type in Project actuals. Line property and billing type mapping are defined on the **Project Operations on Dynamics 365 Customer Engagement** tab on the **Project management and accounting parameters** page.
 
 Only the following accounting attributes can be updated in the Project Operations integration journal lines:
@@ -53,7 +53,7 @@ When you post the Integration journal, a project subledger and general ledger tr
 
 The selected Project Operations integration journal can be posted by using **Post** on the Project Operations integration journal page. All journals can be automatically posted by running a process at **Periodics** > **Project Operations integration** > **Post Project Operations integration journal**.
 
-Posting can be performed interactively or in a batch. Note that all journals that have more than 100 lines will automatically be posted in a batch. For better performance when journals that have many lines are posted in a batch, enable the **Post Project Operations integration journal using multiple batch tasks** feature in the **Feature management** workspace. 
+Posting can be performed interactively or in a batch. All journals that have more than 100 lines will automatically be posted in a batch. For better performance when journals that have many lines are posted in a batch, enable the **Post Project Operations integration journal using multiple batch tasks** feature in the **Feature management** workspace. 
 #### Transfer all lines that have posting errors to a new journal
 
 > [!NOTE]
@@ -65,7 +65,7 @@ To review the journals that have posting error lines, go to **Project management
 
 ![Original journal shown on the Project Operations integration journal page.](./media/transferLines-originalJournal.png)
 
-If a periodic batch job is configured to post the integration journal, posting will be reattempted, and the journals will be posted if the timing issue has been fixed. Any remaining journals should be manually investigated by reviewing the logs and taking any required action.
+If a periodic batch job is configured to post the integration journal, posting is reattempted, and the journals are posted if the timing issue has been fixed. Any remaining journals should be manually investigated by reviewing the logs and taking any required action.
 
 #### Working with integration journal lines with warnings and errors
 
@@ -99,8 +99,8 @@ It's possible that integration journal lines can be left in processing state for
 
 ##### Further improvements have been made in this area in the 10.0.38 release. Improvements include:
 
-- Additional functionality is available to multiselect rows when working with integration headers.
-- Additional flexibility in controlling posting with a new optional parameter to **Limit the integration journal lines per header**. With the parameter disabled, a default of 200 lines is used. The parameter can be increased or decreased as needed. Decreasing the parameter reduces the time taken to post the journal.
+- Other functionality is available to multiselect rows when working with integration headers.
+- More flexibility in controlling posting with a new optional parameter to **Limit the integration journal lines per header**. With the parameter disabled, a default of 200 lines is used. The parameter can be increased or decreased as needed. Decreasing the parameter reduces the time taken to post the journal.
 - The **Add filters to the Project Integration journal posting batch job** feature adds default filters to allow users to specify a period start date, a journal number, or an original journal number in the batch job filter. These filters are useful when you have transactions that require some setup or configuration changes before they can be posted and you can avoid trying to post until the issue is resolved.
 
 
