@@ -29,9 +29,6 @@ ms.dyn365.ops.version:
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-> [!IMPORTANT] 
-> Functionality that is described in this article is available to targeted users as part of a preview release.
-
 A per diem payment is a fixed, predetermined daily allowance that a company pays to its employees for lodging (hotels), meals, and incidental expenses that those employees incur while they travel for work. The company pays this allowance to the employees instead of paying the actual travel expenses. Employees can use their **Incidentals/Other** per diem allowance to cover tips, room service, laundry, or dry-cleaning services for important business meetings. The per diem rate can vary, depending upon whether the employer chooses to reimburse for the combined cost of lodging and meals, or only for the cost of meals and incidentals.
 
 Per diem rates can be based on the time of year, the travel location, or both. When you create a per diem rule, you can specify that a percentage of the per diem rate will be withheld if an employee receives complimentary meals or services. You can also set a minimum number of hours and a maximum number of hours that the per diem rate can be applied to an employee's travel.
