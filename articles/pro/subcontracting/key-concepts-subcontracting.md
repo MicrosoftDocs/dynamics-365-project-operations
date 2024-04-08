@@ -35,7 +35,7 @@ For projects, there are typically fixed-fee and consumption-based contracting mo
 
 
     > [!IMPORTANT]
-    > *Fixed Price* subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
+    > **Fixed Price** subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
 
 ## Project price lists on subcontracts
 
