@@ -32,7 +32,7 @@ No, the Expense management mobile app doesn't currently support offline mode.
 
 ## Does the Dynamics 365 expense management mobile app support itemization, per diem and guest funtionality?
 
-The Expense managmeent mobile app does support itemization amd Per diem but doesn't currently support guest funtionality, however these features will be added in the future releases. 
+The Expense management mobile app supports itemization and Per diem, but doesn't currently support guest functionality. These features will be added in a future release. 
 
 ## Does the Dynamics 365 expense management mobile app require another license?
 
