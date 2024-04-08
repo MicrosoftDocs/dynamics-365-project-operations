@@ -2,7 +2,8 @@
 title: Per diem expenses
 description: This article provides information about how to work with per diem expenses.
 author: suvaidya
-ms.date: 08/08/2024
+ms.author: suvaidya
+ms.date: 04/08/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
