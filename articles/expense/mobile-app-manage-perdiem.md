@@ -28,7 +28,7 @@ Activate the following features:
 * Per-diem for expense report re-imagined interface
 
 > [!NOTE]
-> **Per diem** expense entries will adhere to the **Per-diem for expense report re-imagined interface** feature. Users will be restricted from editing or modifying per diem expenses generated using alternative user interface **Expense management** > **My expenses** > **Expense report**.
+> **Per diem** expense entries will adhere to the **Per-diem for expense report re-imagined interface** feature. Users will be restricted from editing or modifying per diem expenses generated using alternative user interface **Expense management** > **My expenses** > **Expense report**. For more information, see [Manage per diem using reimagined interface](per-diem-expenses.md).
 
 ## Create Per diem expenses - Meal type per day
 
