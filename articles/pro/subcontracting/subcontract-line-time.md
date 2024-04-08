@@ -46,7 +46,8 @@ To create a subcontract line for time in Project Operations, complete the follow
 | Total Amount | The total amount of the subcontract line including taxes. This field is calculated as Subtotal + Sales tax.|None |
 
 
+
     > [!IMPORTANT]
-    > *Fixed Price* subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
+    > **Fixed Price** subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
