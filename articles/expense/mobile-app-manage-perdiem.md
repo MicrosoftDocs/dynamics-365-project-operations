@@ -20,15 +20,15 @@ Using per diem allowances simplifies the reimbursement process for both employee
 
 ## Prerequisites
 To use the Per diem feature on Dynamics 365 expense management mobile app, you must use the following versions of Microsoft Dynamics 365 Finance with the latest quality update (QU) or later.
-* 10.0.37 - 10.0.1725.171 or later
-* 10.0.38 - 10.0.1777.127 or later
+* 10.0.38 - 10.0.1777.165 or later
+* 10.0.39 - 10.0.1860.84 or later
   
 Activate the following features:
 * Expense reports re-imagined
 * Per-diem for expense report re-imagined interface
 
 > [!NOTE]
-> **Per diem** expense entries will adhere to the **Per-diem for expense report re-imagined interface** feature. Users will be restricted from editing or modifying per diem expenses generated using alternative user interface.
+> **Per diem** expense entries will adhere to the **Per-diem for expense report re-imagined interface** feature. Users will be restricted from editing or modifying per diem expenses generated using alternative user interface **Expense management** > **My expenses** > **Expense report**.
 
 ## Create Per diem expenses - Meal type per day
 
