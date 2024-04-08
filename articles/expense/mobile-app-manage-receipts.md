@@ -16,20 +16,21 @@ ms.author: ramagadu
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
 
-This article explains how to manage receipts by using the Dynamics 365 expense management mobile app.
+This article explains how to manage receipts by using the Microsoft Dynamics 365 expense management mobile app.
 
 Many organizations require that employees attach a copy of a receipt to a travel-related or business-related expense report that they submit for reimbursement. The Dynamics 365 expense management mobile app lets users seamlessly create and manage receipts.
 
 ## Expense Management Service add-in
-To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services (LCS). This is required to use to OCR service for receipt scanning and default the Merchant, transaction date and amount from the receipt to the expense line.
 
-1. Sign in to LCS, and open the desired environment.
-2. Go to **Full details**.
-3. Select **Maintain**, or scroll down to the **Environment add-ins** FastTab.
-4. Select **Install a new add-in**.
-5. Select **Expense Management Service**.
-6. Follow the installation guide, and agree to the terms and conditions.
-7. Select **Install**.
+To use these advanced expense capabilities, install the Expense Management Service add-in for Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services. This add-in is required to use the optical character recognition (OCR) service for receipt scanning, and to enter the default merchant, transaction date, and amount from the receipt to the expense line.
+
+1. Sign in to Lifecycle Services, and open the desired environment.
+1. Go to **Full details**.
+1. Select **Maintain**, or scroll down to the **Environment add-ins** FastTab.
+1. Select **Install a new add-in**.
+1. Select **Expense Management Service**.
+1. Follow the installation guide, and agree to the terms and conditions.
+1. Select **Install**.
 
 ## View receipts
 
