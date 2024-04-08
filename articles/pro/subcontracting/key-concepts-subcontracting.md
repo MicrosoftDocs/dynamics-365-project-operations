@@ -2,7 +2,7 @@
 title: Key concepts in subcontracting 
 description: This article explains some key concepts that apply to subcontracting in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/15/2023
+ms.date: 04/08/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
