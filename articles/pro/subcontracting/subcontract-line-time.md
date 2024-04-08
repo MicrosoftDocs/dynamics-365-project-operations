@@ -47,7 +47,7 @@ To create a subcontract line for time in Project Operations, complete the follow
 
 
 
-    > [!IMPORTANT]
-    > **Fixed Price** subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
+> [!IMPORTANT]
+> **Fixed Price** subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
