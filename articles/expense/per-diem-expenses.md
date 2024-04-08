@@ -105,9 +105,9 @@ Here are the calculations for the **meals and incidentals allowance**, which inc
 - Day 4 - Zero meals provided = (75-0) + 5 = 75 + 5 = USD 80
 - Day 5 - Three meals provided = (75 – 75) + 5 = 0 + 5 = USD 5
 
-- Total meals and incidentals = Meals and Incidentals for Day 1+ Day 2 +Day 3+Day 4+ Day 5 = USD 235
-- Total meal reduction = Meal reduction for Day 1+ Day 2 +Day 3+Day 4+ Day 5= 37.5+ 37.5+ 15 + 0+ 75 = USD 165
-- Total amount payable = Total allowance – Total meal reduction = USD 1,150 - USD 165 = USD 985
+- Total meals and incidentals = Meals and Incidentals for Day 1 + Day 2 + Day 3 + Day 4 + Day 5 = USD 235
+- Total meal reduction = Meal reduction for Day 1 + Day 2 + Day 3 + Day 4 + Day 5 = 37.5 + 37.5 + 15 + 0 + 75 = USD 165
+- Total amount payable = Total allowance – Total meal reduction = USD 1,150 – USD 165 = USD 985
 
 ![Per diem expense where the meal reduction is based on number of meals per day.](media/3-number-of-meals-per-day.png)
 
