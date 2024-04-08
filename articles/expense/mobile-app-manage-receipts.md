@@ -20,6 +20,17 @@ This article explains how to manage receipts by using the Dynamics 365 expense m
 
 Many organizations require that employees attach a copy of a receipt to a travel-related or business-related expense report that they submit for reimbursement. The Dynamics 365 expense management mobile app lets users seamlessly create and manage receipts.
 
+## Expense Management Service add-in
+To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services (LCS). This is required to use to OCR service for receipt scanning and default the Merchant, transaction date and amount from the receipt to the expense line.
+
+1. Sign in to LCS, and open the desired environment.
+2. Go to **Full details**.
+3. Select **Maintain**, or scroll down to the **Environment add-ins** FastTab.
+4. Select **Install a new add-in**.
+5. Select **Expense Management Service**.
+6. Follow the installation guide, and agree to the terms and conditions.
+7. Select **Install**.
+
 ## View receipts
 
 The **Receipts** tab of the Dynamics 365 expense management mobile app shows a list of all unattached receipts. By default, the list is shown in **Tiles** view. You can switch to **List** view by selecting the **List** button in the upper-right corner of the app.
