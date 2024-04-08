@@ -37,6 +37,9 @@ The following list provides a step-by-step description of the subcontracting pro
 13.	The project manager can then review the automatically matched project actuals, remove or add other project cost actuals, and complete the verification process.
 14.	Completing the verification process on all lines marks the vendor invoice as **Ready for Payment**. At this stage, the vendor invoice and lines can be transferred to an Accounting or Payables system to process the payment to the vendor. Previously recorded project costs are reversed and actual costs from the vendor invoice line are recorded on the project.
 
+    > [!IMPORTANT]
+    > *Fixed Price* subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
+
 ## Quantity-based subcontract lines and work-based subcontract lines
 
 A subcontract line can be quantity-based or work-based. 
