@@ -2,8 +2,10 @@
 title: Project Service Automation to Project Operations project scheduling conversion process
 description: This article provides an overview of the feature changes for Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
-ms.custom: dyn365-projectservice
-ms.date: 08/01/2023
+ms.custom: 
+  - dyn365-projectservice
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
