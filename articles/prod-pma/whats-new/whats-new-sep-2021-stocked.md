@@ -2,9 +2,10 @@
 title: What's new or changed in Project Operations, September 2021 for stocked/production-based scenarios
 description: This article provides information about the quality updates that are available in the September 2021 release of Project Operations for stocked/production-based scenarios.
 author: andchoi
-ms.date: 11/11/2021
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
