@@ -2,9 +2,10 @@
 title: What's new or changed in Project Operations, March 2021 for stocked/production-based scenarios
 description: This article provides information about the quality updates available in the March 2021 release of Project Operations for stocked/production-based scenarios.
 author: andchoi
-ms.date: 03/22/2021
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
