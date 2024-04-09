@@ -4,7 +4,8 @@ description: This article provides information about project stages.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 06/19/2020
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
