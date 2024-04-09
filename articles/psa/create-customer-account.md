@@ -4,8 +4,8 @@ description: How to create a customer account in Project Service
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
-ms.topic: article
+  - evergreen
+ms.date: 04/09/2024ms.topic: article
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
