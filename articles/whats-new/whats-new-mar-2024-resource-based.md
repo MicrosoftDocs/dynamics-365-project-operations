@@ -2,9 +2,10 @@
 title: What's new March 2024 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the March 2024 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: tulsijhaveri
-ms.date: 3/4/2024
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: 
 ms.author: tulsijhaveri
 ---
