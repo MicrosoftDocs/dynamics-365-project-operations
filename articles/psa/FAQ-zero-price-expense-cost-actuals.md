@@ -4,7 +4,8 @@ description: Troubleshooting why a price is defaulting to 0 on expense cost actu
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/22/2018
+  - evergreen
+ms.date:  04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin
