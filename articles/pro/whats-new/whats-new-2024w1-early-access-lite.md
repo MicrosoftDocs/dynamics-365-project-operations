@@ -2,9 +2,10 @@
 title: What's new 2024 wave 1 early access - Project Operations lite deployment
 description: This article provides information about the features available in the 2024 wave 1 early access release of Project Operations lite deployment.
 author: tulsijhaveri
-ms.date: 02/22/2024
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: 
 ms.author: tulsijhaveri
 ---
