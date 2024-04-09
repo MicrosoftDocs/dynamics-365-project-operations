@@ -3,7 +3,8 @@ title: What's new or changed in Project Service Automation version 3.x wave 1 20
 description: This article provides information about what is new and changed in Project Service Automation version 3 wave 1 2020.
 ms.custom: 
   - dyn365-projectservice
-ms.date: 05/15/2020
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 author: stsporen
 ms.author: stsporen
