@@ -2,9 +2,10 @@
 title: What's new December 2021 - Project Operations lite deployment
 description: This article provides information about the quality updates that are available in the December 2021 release of Project Operations lite deployment.
 author: sigitac
-ms.date: 12/09/2021
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
