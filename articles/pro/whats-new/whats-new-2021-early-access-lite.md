@@ -2,9 +2,10 @@
 title: What's new 2021 wave 2 early access - Project Operations lite deployment
 description: This article provides information about the features available in the 2021 wave 2 early access release of Project Operations lite deployment.
 author: sigitac
-ms.date: 08/10/2021
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
