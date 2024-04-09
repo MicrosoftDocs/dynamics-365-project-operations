@@ -6,7 +6,7 @@ description: This article provides information about performance improvements to
 author: ryansandness
 ms.date: 01/4/2022
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

@@ -6,7 +6,7 @@ description: This article provides information about proforma invoices in Projec
 author: rumant
 ms.date: 03/03/2022
 ms.topic: article
-ms.prod: 
+ 
 ms.reviewer: johnmichalak
 ms.author: rumant
 

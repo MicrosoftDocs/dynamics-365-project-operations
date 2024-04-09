@@ -4,7 +4,7 @@ description: This article provides information about the available and upcoming 
 ms.custom: dyn365-projectservice
 ms.date: 03/28/2022
 ms.reviewer: johnmichalak
-ms.prod:
+
 ms.suite: ""
 #
 ms.tgt_pltfrm: ""

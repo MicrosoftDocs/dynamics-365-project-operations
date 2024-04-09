@@ -6,7 +6,7 @@ description: This article provides information about how booking allocation meth
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: 
+ 
 #
 
 # optional metadata

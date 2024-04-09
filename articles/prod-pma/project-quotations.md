@@ -6,7 +6,7 @@ description: This article introduces the concept of project quotations, which yo
 author: Yowelle
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

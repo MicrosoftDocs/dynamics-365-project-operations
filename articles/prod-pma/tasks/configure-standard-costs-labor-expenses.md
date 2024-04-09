@@ -6,7 +6,7 @@ description: This article explains how to set up standard costs for labor and ex
 author: Yowelle
 ms.date: 08/02/2019
 ms.topic: how-to 
-ms.prod:  
+  
 ms.technology:  
  
 # optional metadata 

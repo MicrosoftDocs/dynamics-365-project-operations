@@ -4,7 +4,7 @@ description: This article provides information about the quality updates that ar
 author: tulsijhaveri
 ms.date: 11/06/2023
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---

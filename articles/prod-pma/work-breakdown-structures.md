@@ -6,7 +6,7 @@ description: A work breakdown structure (WBS) is a description of the work that 
 author: Yowelle
 ms.date: 07/25/2019
 ms.topic: overview
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

@@ -4,7 +4,7 @@ description: This article provides an overview of vendor retention capabilities.
 author: sigitac
 ms.date: 10/01/2021
 ms.topic: overview
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

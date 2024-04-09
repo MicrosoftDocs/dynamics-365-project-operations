@@ -6,7 +6,7 @@ description: This article explains how to configure how default data is entered 
 author: ruhercul
 ms.date: 03/03/2020
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

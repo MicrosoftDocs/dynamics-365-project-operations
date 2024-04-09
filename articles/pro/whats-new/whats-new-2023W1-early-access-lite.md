@@ -4,7 +4,7 @@ description: This article provides information about the features available in t
 author: ramagadu
 ms.date: 09/08/2023
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---

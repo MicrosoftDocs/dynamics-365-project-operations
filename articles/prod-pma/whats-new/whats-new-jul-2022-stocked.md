@@ -4,7 +4,7 @@ description: This article provides information about the quality updates that ar
 author: ramagadu
 ms.date: 8/17/2022
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---

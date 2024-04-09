@@ -4,7 +4,7 @@ description: This article provides information about the quality updates that ar
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

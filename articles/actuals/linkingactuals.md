@@ -6,7 +6,7 @@ ms.date: 05/31/2022
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---

@@ -6,7 +6,7 @@ description: This article provides information about how to use intercompany exp
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

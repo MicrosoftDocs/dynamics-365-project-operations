@@ -4,7 +4,7 @@ description: This article describes features that have been removed, or that are
 author: sigitac
 ms.date: 09/15/2023
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
