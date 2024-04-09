@@ -2,9 +2,10 @@
 title: What's new March 2023 - Project Operations lite deployment
 description: This article provides information about the quality updates that are available in the March 2023 release of Microsoft Dynamics 365 Project Operations lite deployment.
 author: ramagadu
-ms.date: 03/10/2023
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: johnmichalak 
 ms.author: ramagadu
 ---
