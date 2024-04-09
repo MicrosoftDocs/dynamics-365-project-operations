@@ -2,8 +2,10 @@
 title: What's new or changed in Project Service Automation October 2023 Early Access
 description: This article lists the features and fixes that are available in Microsoft Dynamics 365 Project Service Automation October 2023 Early Access.
 author: aarondodell-msft
-ms.custom: dyn365-projectservice
-ms.date: 09/13/2023
+ms.custom: 
+  - dyn365-projectservice
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
