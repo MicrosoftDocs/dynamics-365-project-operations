@@ -4,7 +4,8 @@ description: How to assign a role to Project Service resources
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 7/31/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin
