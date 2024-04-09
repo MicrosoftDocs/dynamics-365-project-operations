@@ -4,7 +4,8 @@ description: How to download and experiment with demo data for Project Service A
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
