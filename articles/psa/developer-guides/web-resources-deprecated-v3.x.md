@@ -4,7 +4,8 @@ description: This article describes the web resources that are no longer used in
 author: makk
 ms.custom: 
   - dyn365-projectservice
-ms.date: 12/14/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: makk
 audience: admin
