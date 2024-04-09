@@ -2,7 +2,7 @@
 title: Subcontract line milestones
 description: This article explains how to create and maintain a milestone-based invoice schedule for a subcontract with a vendor.
 author: rumant
-ms.date: 12/15/2023
+ms.date: 04/08/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Lite deployment - deal to proforma invoicing_
 
 In Dynamics 365 Project Operations, a subcontract line with a fixed-price billing method can specify a milestone-based invoice schedule with the vendor.
 

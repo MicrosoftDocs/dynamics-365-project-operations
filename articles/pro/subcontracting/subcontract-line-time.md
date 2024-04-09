@@ -2,7 +2,7 @@
 title: Subcontract lines for time
 description: This article explains how to record subcontract lines for time and record the purchase of time from vendors.
 author: rumant
-ms.date: 12/15/2023
+ms.date: 04/08/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -44,5 +44,10 @@ To create a subcontract line for time in Project Operations, complete the follow
 | Subtotal | 	This is a read-only field that is calculated as Quantity x Unit price, if both the quantity and unit price values are entered. If either quantity, unit price, or both are blank, you can enter a value in the field. | None|
 | Sales Tax | 	Enter the sales tax amount. |None |
 | Total Amount | The total amount of the subcontract line including taxes. This field is calculated as Subtotal + Sales tax.|None |
+
+
+
+> [!IMPORTANT]
+> **Fixed Price** subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
