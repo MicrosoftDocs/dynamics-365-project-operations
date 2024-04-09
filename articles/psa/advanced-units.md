@@ -4,7 +4,8 @@ description: This article provides information about unit groups and units.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/05/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin
