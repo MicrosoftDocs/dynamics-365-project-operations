@@ -6,7 +6,7 @@ description: This article provides information about how to propose project reso
 author: ruhercul
 ms.date: 07/19/2022
 ms.topic: article
-ms.prod: 
+ 
 #
 
 # optional metadata

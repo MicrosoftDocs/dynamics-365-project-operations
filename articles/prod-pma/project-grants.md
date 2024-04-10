@@ -6,7 +6,7 @@ description: This article explains how to create or modify a grant.
 author: RadhikaRS
 ms.date: 04/22/2020
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

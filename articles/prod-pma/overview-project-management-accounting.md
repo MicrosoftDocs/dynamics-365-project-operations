@@ -6,7 +6,7 @@ description: The project management and accounting functionality can be used in 
 author: Yowelle
 ms.date: 07/25/2019
 ms.topic: overview
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

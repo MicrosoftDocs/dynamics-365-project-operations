@@ -6,7 +6,7 @@ ms.date: 12/15/2023
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-ms.prod:
+
 ms.reviewer: johnmichalak 
 ms.author: tulsijhaveri
 ---

@@ -6,7 +6,7 @@ description: This article provides information about eliminating project revenue
 author: Yowelle
 ms.date: 10/27/2023
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

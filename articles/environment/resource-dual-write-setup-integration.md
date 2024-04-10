@@ -6,7 +6,7 @@ ms.date: 4/23/2021
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

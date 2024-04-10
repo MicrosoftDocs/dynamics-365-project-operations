@@ -6,7 +6,7 @@ description: This article provides information about project quotes in Microsoft
 author: rumant
 ms.date: 12/02/2022
 ms.topic: article
-ms.prod: 
+ 
 #
 
 # optional metadata

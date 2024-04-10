@@ -6,7 +6,7 @@ description: This task shows how to rename or modify a project stage.
 author: Yowelle
 ms.date: 11/07/2017
 ms.topic: how-to 
-ms.prod:  
+  
 ms.technology:  
  
 # optional metadata 

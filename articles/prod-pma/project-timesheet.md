@@ -6,7 +6,7 @@ description: This article provides information about the Microsoft Dynamics 365 
 author: abruer
 ms.date: 06/29/2022
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

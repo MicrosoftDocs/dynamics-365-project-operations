@@ -6,7 +6,7 @@ ms.date: 04/28/2021
 ms.topic: how-to
 ms.custom: 
   - bap-template
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

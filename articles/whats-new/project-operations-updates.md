@@ -6,7 +6,7 @@ ms.date: 02/12/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---

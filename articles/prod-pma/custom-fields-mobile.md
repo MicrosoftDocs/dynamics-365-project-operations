@@ -6,7 +6,7 @@ description: This article provides common patterns for using extensions to imple
 author: Yowelle
 ms.date: 05/29/2019
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

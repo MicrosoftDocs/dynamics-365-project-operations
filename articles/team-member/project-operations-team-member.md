@@ -6,7 +6,7 @@ description: This article provides information about the Project Operations Team
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
-ms.prod: 
+ 
 #
 
 # optional metadata

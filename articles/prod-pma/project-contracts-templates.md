@@ -6,7 +6,7 @@ description: This article describes the template and underlying tasks that are u
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

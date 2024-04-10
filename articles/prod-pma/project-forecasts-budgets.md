@@ -6,7 +6,7 @@ description: Microsoft Dynamics 365 Finance provides project forecasts and proje
 author: Yowelle
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

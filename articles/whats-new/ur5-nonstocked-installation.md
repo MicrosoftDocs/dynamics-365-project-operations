@@ -4,7 +4,7 @@ description: This article provides information about how to update Project Opera
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---

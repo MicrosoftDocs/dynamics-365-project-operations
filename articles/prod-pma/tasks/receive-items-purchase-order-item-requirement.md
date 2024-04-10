@@ -6,7 +6,7 @@ description: This article explains how to receive items on a purchase order from
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: how-to 
-ms.prod:  
+  
 ms.technology:  
  
 # optional metadata 

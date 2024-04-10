@@ -6,7 +6,7 @@ description: This article provides information about the project stages that are
 author: ruhercul
 ms.date: 09/18/2020
 ms.topic: article
-ms.prod: 
+ 
 #
 
 # optional metadata

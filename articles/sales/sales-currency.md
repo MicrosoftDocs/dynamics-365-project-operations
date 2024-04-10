@@ -6,7 +6,7 @@ description: This article provides information about how to add and remove curre
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
-ms.prod: 
+ 
 #
 
 # optional metadata

@@ -4,7 +4,7 @@ description: This article describes how to configure procurement categories that
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak 
 ms.author: sigitac
 ---

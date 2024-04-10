@@ -4,7 +4,7 @@ description: This topic explains how to use the pay when paid (PWP) scenario.
 author: mukumarm
 ms.date: 08/18/2022
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak 
 ms.author: mukumarm
 ---

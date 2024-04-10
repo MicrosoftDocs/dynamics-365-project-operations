@@ -6,7 +6,7 @@ description: This article explains how to create pay-when-paid (PWP) terms so th
 author: RadhikaRS
 ms.date: 03/30/2020
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

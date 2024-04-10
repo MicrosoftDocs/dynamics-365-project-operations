@@ -6,7 +6,7 @@ description: This article provides information about the impact on the Actuals t
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
-ms.prod: 
+ 
 ms.custom: 
   - bap-template
 
