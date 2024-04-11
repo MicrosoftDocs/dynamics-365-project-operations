@@ -6,7 +6,7 @@ description: This article describes the considerations and the decisions that yo
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

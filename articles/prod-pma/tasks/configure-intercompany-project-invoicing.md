@@ -6,7 +6,7 @@ description: This article shows how to set up project invoicing between two comp
 author: Yowelle
 ms.date: 07/29/2019
 ms.topic: how-to 
-ms.prod:  
+  
 ms.technology:  
  
 # optional metadata 

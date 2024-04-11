@@ -4,7 +4,7 @@ description: This article provides troubleshooting information about a currency 
 author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

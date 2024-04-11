@@ -4,7 +4,7 @@ description: This article explains how to enable non-stocked materials and pendi
 author: sigitac
 ms.date: 06/22/2021
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

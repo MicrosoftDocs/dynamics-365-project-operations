@@ -6,7 +6,7 @@ description: This article provides information and examples about intercompany i
 author: Yowelle
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

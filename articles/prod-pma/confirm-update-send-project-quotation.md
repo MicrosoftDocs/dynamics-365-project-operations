@@ -6,7 +6,7 @@ description: This article provides information about sending a quote to the cust
 author: ruhercul
 ms.date: 05/09/2020
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

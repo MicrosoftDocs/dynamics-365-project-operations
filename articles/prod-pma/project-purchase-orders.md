@@ -6,7 +6,7 @@ description: This article describes the various methods that you can use to crea
 author: Yowelle
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

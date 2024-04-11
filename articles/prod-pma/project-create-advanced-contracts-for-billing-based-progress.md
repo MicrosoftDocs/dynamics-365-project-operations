@@ -6,7 +6,7 @@ description: This article explains how to create project contracts so that you c
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

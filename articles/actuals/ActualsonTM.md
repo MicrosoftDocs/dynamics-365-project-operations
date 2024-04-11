@@ -8,7 +8,7 @@ ms.date: 02/22/2022
 ms.topic: overview
 ms.custom: 
   - bap-template
-ms.prod: 
+ 
 #
 # optional metadata
 

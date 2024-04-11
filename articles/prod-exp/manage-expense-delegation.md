@@ -6,7 +6,7 @@ description: An expense delegate user can create and manage expense reports for 
 author: KimANelson
 ms.date: 01/10/2020
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

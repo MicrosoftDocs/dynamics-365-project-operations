@@ -6,7 +6,7 @@ description: This article provides examples of the project contracts that you ca
 author: ryansandness
 ms.date: 11/01/2023
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

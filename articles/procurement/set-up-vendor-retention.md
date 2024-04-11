@@ -4,7 +4,7 @@ description: This article explains how to set up vendor retention.
 author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

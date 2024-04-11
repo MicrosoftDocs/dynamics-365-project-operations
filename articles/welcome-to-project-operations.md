@@ -6,7 +6,7 @@ description: This article provides information about Dynamics 365 Project operat
 author: johnmichalak
 ms.date: 11/02/2022
 ms.topic: conceptual
-ms.prod: 
+ 
 ms.custom: 
   - bap-template
 

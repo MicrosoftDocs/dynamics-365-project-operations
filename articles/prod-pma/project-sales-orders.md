@@ -6,7 +6,7 @@ description: This article explains how to create project-based sales orders for 
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata
