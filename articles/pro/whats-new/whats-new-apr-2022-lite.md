@@ -2,9 +2,10 @@
 title: What's new April 2022 - Project Operations lite deployment
 description: This article provides information about the quality updates that are available in the April 2022 release of Microsoft Dynamics 365 Project Operations lite deployment.
 author: sigitac
-ms.date: 04/08/2022
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-
 ms.reviewer: johnmichalak 
 ms.author: sigitac
 ---

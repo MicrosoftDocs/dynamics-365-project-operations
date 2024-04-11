@@ -4,7 +4,8 @@ description: This article provides information about using a transaction categor
 author: Rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 10/01/2020
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin

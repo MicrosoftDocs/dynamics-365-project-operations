@@ -4,7 +4,8 @@ description: Step-by-step instructions for Project Service administration
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.date: 7/31/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin

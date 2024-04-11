@@ -2,9 +2,10 @@
 title: What's new or changed in Project Operations, February 2023 for stocked/production-based scenarios
 description: This article provides information about the quality updates that are available in the February 2023 release of Microsoft Dynamics 365 Project Operations for stocked/production-based scenarios.
 author: ramagadu
-ms.date: 02/27/2023
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-
 ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---

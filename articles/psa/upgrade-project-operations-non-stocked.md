@@ -2,11 +2,12 @@
 title: Upgrade from Project Service Automation to Project Operations
 description: This article provides an overview of the process to upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
 author: abriccetti
-ms.date: 02/02/2024
+ms.date: 04/09/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
   - dyn365-projectservice
+  - evergreen
 ms.author: abriccetti
 audience: Admin
 search.audienceType: 

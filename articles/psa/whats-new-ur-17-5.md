@@ -2,8 +2,10 @@
 title: What's new or changed in Project Service Automation Update Release 17.5, Hotfix, V3
 description: This article lists the features and fixes that are available in Project Service Automation Update Release 17.5, V3.
 author: ruhercul
-ms.custom: dyn365-projectservice
-ms.date: 03/13/2020
+ms.custom: 
+  - dyn365-projectservice
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin

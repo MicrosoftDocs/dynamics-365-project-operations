@@ -2,9 +2,10 @@
 title: What's new November 2021 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the November 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-ms.date: 11/09/2021
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

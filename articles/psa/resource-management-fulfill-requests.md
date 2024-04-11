@@ -4,7 +4,8 @@ description: This article provides information about how to fulfill resource req
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/28/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin

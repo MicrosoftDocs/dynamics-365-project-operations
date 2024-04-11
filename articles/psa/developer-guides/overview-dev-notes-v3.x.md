@@ -4,8 +4,8 @@ description: This article provides links to articles that provide development in
 author: makk
 ms.custom: 
   - dyn365-projectservice
-ms.collection: get-started
-ms.date: 03/26/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: overview
 ms.author: makk
 audience: admin

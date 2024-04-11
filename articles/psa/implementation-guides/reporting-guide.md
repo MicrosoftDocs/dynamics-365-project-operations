@@ -2,10 +2,11 @@
 title: Reporting guide
 description: This article provides links to information about reporting.
 author: kfend
+ms.topic: conceptual
 ms.custom: 
   - dyn365-projectservice
-ms.date: 02/11/2019
-ms.topic: article
+  - evergreen
+ms.date: 04/09/2024
 ms.author: kfend
 audience: Admin
 search.audienceType: 
