@@ -2,6 +2,7 @@
 title: Reporting guide
 description: This article provides links to information about reporting.
 author: kfend
+ms.topic: conceptual
 ms.custom: 
   - dyn365-projectservice
   - evergreen
