@@ -4,7 +4,8 @@ description: This article provides information about the changes to the Resource
 author: makk
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/18/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: makk
 audience: admin

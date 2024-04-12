@@ -4,7 +4,8 @@ description: Steps to add a document to a project in Project Service
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 7/30/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin

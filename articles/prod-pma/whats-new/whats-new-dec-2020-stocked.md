@@ -2,9 +2,10 @@
 title: What's new December 2020 - Project Operations for stocked/production based scenarios
 description: This article provides information about the quality updates available in the December 2020 release of Project Operations for stocked/production based scenarios.
 author: Yowelle
-ms.date: 12/11/2020
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-
 ms.reviewer: johnmichalak
 ms.author: andchoi
 ---

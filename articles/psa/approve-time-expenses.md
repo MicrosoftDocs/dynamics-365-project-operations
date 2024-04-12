@@ -4,7 +4,8 @@ description: How to approve time and expenses in Project Service
 author: revathiMuthiah
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: revathim
 audience: Admin

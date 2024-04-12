@@ -4,7 +4,8 @@ description: An overview of the ways you can assign bookable resources.
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/21/2018
+  - evergreen
+ms.date:  04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin

@@ -5,8 +5,8 @@ author: rumant
 ms.author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.collection: get-started
-ms.date: 03/01/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 audience: Admin
 search.audienceType: 

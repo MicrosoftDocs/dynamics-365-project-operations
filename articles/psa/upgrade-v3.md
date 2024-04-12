@@ -4,7 +4,8 @@ description: This article provides information about the considerations you must
  
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/13/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 author: JohnPBurrows
 ms.author: rumant

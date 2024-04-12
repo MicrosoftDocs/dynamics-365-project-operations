@@ -4,7 +4,8 @@ description: This article provides information about multiple-currency scenarios
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 12/26/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin

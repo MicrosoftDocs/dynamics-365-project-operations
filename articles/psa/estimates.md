@@ -4,7 +4,8 @@ description: This article provides information about estimates in Dynamics 365 P
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 1/31/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin

@@ -2,9 +2,10 @@
 title: What's new November 2022 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the November 2022 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: ryansandness
-ms.date: 01/13/2023
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-
 ms.reviewer: johnmichalak 
 ms.author: ryansandness
 ---
@@ -30,7 +31,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-| Project Planning and Tracking | **Resource Assignment Contour Editing**<br> We are introducing the ability to edit the time phased effort of each resource assigned to a given task in the work breakdown structure, leveraging the modern Project for the Web project scheduling user interface. This new grid supports all of the existing experience in the Project for the Web including co-authoring and undo/redo.| [Editing Resource Assignment Contours](/articles/project-management/create-assignments) |
+| Project Planning and Tracking | **Resource Assignment Contour Editing**<br> We are introducing the ability to edit the time phased effort of each resource assigned to a given task in the work breakdown structure, leveraging the modern Project for the Web project scheduling user interface. This new grid supports all of the existing experience in the Project for the Web including co-authoring and undo/redo.| [Editing Resource Assignment Contours](../project-management/create-assignments.md) |
 
 ## Quality updates
 

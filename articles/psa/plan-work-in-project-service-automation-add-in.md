@@ -5,7 +5,8 @@ author: ruhercul
 ms.custom: 
   - dyn365-projectservice
   - bap-template
-ms.date: 12/19/2023
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: how-to
 ms.author: ruhercul
 audience: Admin

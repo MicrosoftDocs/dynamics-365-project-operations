@@ -2,9 +2,10 @@
 title: What's new September 2023 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the September 2023 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: ramagadu
-ms.date: 09/25/2023
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-
 ms.reviewer: johnmichalak 
 ms.author: ramagadu
 ---

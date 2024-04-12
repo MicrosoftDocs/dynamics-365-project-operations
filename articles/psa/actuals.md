@@ -4,8 +4,9 @@ description: This article provides information about project actuals.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
+  - evergreen
 ms.collection: get-started
-ms.date: 08/03/2020
+ms.date: 04/09/2024
 ms.topic: overview
 ms.author: rumant
 audience: Admin

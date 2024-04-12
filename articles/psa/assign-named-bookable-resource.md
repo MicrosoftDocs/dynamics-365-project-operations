@@ -4,7 +4,8 @@ description: This article provides information about how to book named resources
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/28/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin

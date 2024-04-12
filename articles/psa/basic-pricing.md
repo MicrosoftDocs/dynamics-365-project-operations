@@ -4,7 +4,8 @@ description: This article provides information about how pricing works in Dynami
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/11/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin

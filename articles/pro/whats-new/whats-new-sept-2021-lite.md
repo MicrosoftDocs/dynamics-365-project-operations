@@ -2,9 +2,10 @@
 title: What's new September 2021 - Project Operations lite deployment
 description: This article provides information about the quality updates available in the September 2021 release of Project Operations lite deployment.
 author: sigitac
-ms.date: 09/13/2021
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

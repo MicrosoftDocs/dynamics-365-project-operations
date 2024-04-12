@@ -4,7 +4,8 @@ description: This article provides information about tracking project progress a
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 08/21/2020
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin

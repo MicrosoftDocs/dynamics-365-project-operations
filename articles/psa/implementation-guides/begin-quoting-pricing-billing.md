@@ -4,7 +4,8 @@ description: This article provides links to information about basic quoting, pri
 author: kfend
 ms.custom: 
   - dyn365-projectservice
-ms.date: 2/14/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: kfend
 audience: Admin
