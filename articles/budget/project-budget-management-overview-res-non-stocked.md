@@ -28,7 +28,7 @@ Check out the Lite deployment's documentation regarding [project budget manageme
 
 Project budget management typically follows the business process flow that's shown in the following illustration.
 
-![Business process flow for project budget management in Project Operations.](media/1-project-budget-management-overview-pic.png)
+![Business process flow for project budget management in Project Operations.](media/1-Budgetmanagementoverviewresourcenonstocked.png)
 
 Here's a step-by-step description of the project budget management process.
 
