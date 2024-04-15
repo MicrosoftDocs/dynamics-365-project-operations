@@ -46,6 +46,6 @@ Here's a step-by-step description of the project budget management process.
 
 A project budget can be created for all types of projects, fixed-price, time and material, and investment projects.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
 
 [Microsoft](https://www.microsoft.com)
