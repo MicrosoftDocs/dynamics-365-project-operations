@@ -1,5 +1,5 @@
 ---
-title: Project budget management overview
+title: Project budget management overview for resource non-stocked
 description: This article provides an overview of project budget management in resource non-stocked deployment.
 author: niranjanmaski
 ms.date: 04/14/2024
@@ -10,13 +10,13 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Project budget management overview
+# Project budget management overview for resource non-stocked
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-This article provides an overview of the end-to-end project budget management process in project-based organizations, in the context of resource non-stocked deployment.
+This article provides an overview of the end-to-end project budget management process in project-based organizations, this article covers in the context of resource non-stocked deployment.
 
 In a project, each phase, task, or work package incurs costs as labor, materials, and expenses. A project budget represents a point-in-time snapshot of the estimated spend across the project phases and its associated tasks. 
 
@@ -32,6 +32,7 @@ Project budget management typically follows the business process flow that's sho
 
 Here's a step-by-step description of the project budget management process.
 
+1. Below steps to be performed on the dataverse.
 1. The project manager creates a budget for a project. The project budget can be created either from scratch or by using the project estimates of the project as input.
 1. The project manager can budget for the **Time**, **Material**, or **Expense** transaction class for the different phases of the project.
 1. The project manager submits the project budget for approval. An optional workflow for project budget approval can be enabled according to business requirements.
@@ -40,6 +41,8 @@ Here's a step-by-step description of the project budget management process.
 1. As required, the project manager updates the forecasts, based on the actual consumption during project execution.
 1. If additional budget is allocated to the project, or if the contract is updated based on spend, the project manager might decide to revise the budget so that it reflects the new forecasts.
 1. The revised project budget follows the project budget approval workflow. After the project is approved, a new version of the project budget is used for the comparison of the budget versus actuals.
+1. Below steps to be performed on the Finance & Operations.
+   
 
 A project budget can be created for all types of projects, fixed-price, time and material, and investment projects.
 
