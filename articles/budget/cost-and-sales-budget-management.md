@@ -20,7 +20,15 @@ This article provides the typical actions to be performed for cost and sales bud
 
 As explained in the [project budget management overview](project-budget-management-overview-res-non-stocked.md) the project creation, actuals tracking against budget, budget approval, forecast update, budget revision happens on dataverse side. Approved budgets would be transfered to forecast tables on the Finance & Operations. 
 
-A project budget can be created for all types of projects, fixed-price, time and material, and investment projects, for both costs and sales budgets.
+A project budget can be created for all types of projects, fixed-price, time and material, and investment projects, for tracking both costs and sales budgets.
+
+Here is the step by step process of creation and approval of project budgets in dataverse.
+
+1. Open the project main form on the dataverse platform for which you want to create a budget.
+1. If you want to time phase the budget line into budget line details, create the project budget periods as explained in [budget period setup](../pro/budget/budget-period-setup.md)
+   
+1. In the left navigation, change the area to **Projects**.
+1. Select the project to create a budget for.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
