@@ -26,6 +26,8 @@ Here is the step by step process of creation and approval of project budgets in 
 
 1. Open the project main form on the dataverse platform for which you want to create a budget.
 1. If you want to time phase the budget line into budget line details, create the project budget periods as explained in [budget period setup](../pro/budget/budget-period-setup.md)
+1. You can create budget from estimates or quote or contract by following the steps explained in [create budget from estimates](../pro/budget/create-project-budget-from-estimates.md).
+1. As an alternative you can choose to create budget without importing from estimates by following the steps explained in Open the project main form on the dataverse platform for which you want to create a budget.
    
 1. In the left navigation, change the area to **Projects**.
 1. Select the project to create a budget for.
