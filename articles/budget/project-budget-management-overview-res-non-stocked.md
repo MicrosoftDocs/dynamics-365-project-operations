@@ -20,7 +20,7 @@ This article provides an overview of the end-to-end project budget management pr
 
 In a project, each phase, task, or work package incurs costs as labor, materials, and expenses. A project budget represents a point-in-time snapshot of the estimated spend across the project phases and its associated tasks. 
 
-Similar to project editing capabilities, in resource nonstocked deployment, budget creation, approval, revision happens on the project form of Dataverse environment. 
+Similar to project editing capabilities, in a resource nonstocked deployment, budget creation, approval, and revision happens on the project form of Dataverse environment. 
 
 Check out the Lite deployment's documentation regarding [project budget management](../pro/budget/projectbudgetmanagement.md) to get an overview of all actions that can be performed on project budget in Dataverse. 
 
