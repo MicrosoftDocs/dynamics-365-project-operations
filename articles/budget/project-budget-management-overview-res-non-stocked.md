@@ -43,7 +43,7 @@ Here's a step-by-step description of the project budget management process.
 1. The revised project budget follows the project budget approval workflow. After the project is approved, a new version of the project budget is used for the comparison of the budget versus actuals.
 1. Below steps to be performed on the Finance & Operations.
 1. The capability to import approved budgets into forecasts on Finance and Operations is behind a feature, **Enable Project Budget management feature in Project Operations for nonstocked/resource based scenarios.**, which needs to be enabled.
-1. Follow the steps explained [here](transfer-budgets-to-forecasts.md#enable-project-budget-transfer-to-forecasts-feature) to enable the feature. 
+1. Follow the steps explained [here](transfer-budgets-to-forecasts.md#enable-the-project-budget-transfer-to-forecasts-feature) to enable the feature. 
 1. Once this feature is successfully enabled, you would be able to Import budget lines into forecasts from **All forecasts** and also as a periodic scheduled job once the batch job is scheduled.  
    
 
