@@ -14,15 +14,15 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/nonstocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/nonstocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 This article provides the typical actions to be performed for cost and sales budget management in resource nonstocked deployment. 
 
-As explained in the [project budget management overview](project-budget-management-overview-res-nonstocked.md) the project creation, actuals tracking against budget, budget approval, forecast update, budget revision happens on dataverse side. Approved budgets would be transferred to forecast tables on the Finance & Operations. 
+As explained in the [project budget management overview](project-budget-management-overview-res-nonstocked.md) the project creation, actuals tracking against budget, budget approval, forecast update, budget revision happens on Dataverse side. Approved budgets would be transferred to forecast tables on the Finance & Operations. 
 
 A project budget can be created for all types of projects, fixed-price, time and material, and investment projects, for tracking both costs and sales budgets.
 
-Here is the step by step process of creation and approval of project budgets in dataverse.
+Here's the step by step process of creation and approval of project budgets in Dataverse.
 
 | Step | Action in Dataverse | Relevant Documentation | Comments |
 |---|---|---|---|
