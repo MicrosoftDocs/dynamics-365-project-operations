@@ -40,23 +40,23 @@ Here are the steps to manually transfer approved project budgets to forecasts:
 
 1. Navigate to Finance & Operations -> Project management and accounting -> All Projects.
 1. In the projects list page, under Plan, select All forecasts.
-1. The **All forecasts** page for the selected project opens, where you will find a new action called **Import budget lines**.
-1. Click on the action, and a form will appear where you can select the project for which you want to import the approved budgets to forecasts. Click **Import**.
-1. You will receive a notification after the successful transfer of approved budget lines to forecasts.
+1. The **All forecasts** page for the selected project opens, where you find a new action called **Import budget lines**.
+1. Click on the action, and a form opens where you can select the project for which you want to import the approved budgets to forecasts. Click **Import**.
+1. You'll receive a notification after the successful transfer of approved budget lines to forecasts.
 1. Refresh the All forecasts page of the project to view the imported approved budget lines under the new forecast model **BUDGET**.
 
 
 ## Transfer project budget to forecasts periodically
 
-The capability to periodically transfer approved budgets to forecasts is also behind a feature. FFollow the steps mentioned to enable the feature **Enable batch-schedule project budget integration from CE into F&O forecast tables for nonstocked/resource based scenarios**.
+The capability to periodically transfer approved budgets to forecasts is also behind a feature. Follow the steps mentioned to enable the feature **Enable batch-schedule project budget integration from CE into F&O forecast tables for nonstocked/resource based scenarios**.
 
 Here are the steps to periodically transfer approved project budgets to forecasts:
 1. Go to Finance & Operations -> Project management and accounting -> Periodic -> Forecasts.
 1. Select the option **Import approved budget lines from Dataverse into forecasts**.
-1. This opens the batch scheduling form for the task **Import budget lines from Dataverse**.
-1. Configure the batch schedule according to your requirements. This follows the standard batch scheduling framework of Finance and Operations.
-1. As per your batch schedule, budgets of all projects with approved budget lines will be transferred to forecasts in Finance and Operations.
-1. If you need to filter a set of projects, you can configure this in the **Records to include** section of the batch scheduling form.
+1. A batch scheduling form opens with the task **Import budget lines from Dataverse**.
+1. Configure the batch schedule according to your requirements. This is a standard batch scheduling framework of Finance and Operations.
+1. As per your batch schedule, budgets of all projects with approved budget lines are transferred to forecasts in Finance and Operations.
+1. If you need to filter a set of projects, you can configure in the **Records to include** section of the batch scheduling form.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
