@@ -16,7 +16,7 @@ ms.author: nimaski
 
 _**Applies To:** Project Operations for resource/nonstocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-This article provides the typical actions to performe for cost and sales budget management in a resource nonstocked deployment. 
+This article provides the typical actions to perform for cost and sales budget management in a resource nonstocked deployment. 
 
 As explained in the [project budget management overview](project-budget-management-overview-res-non-stocked.md) the project creation, actuals tracking against budget, budget approval, forecast update, and budget revision happens on the Dataverse side. Approved budgets are transferred to forecast tables in finance and operations apps. 
 
