@@ -470,7 +470,7 @@
         href: resource-management/add-team-members-grid.md
       - name: Generic resource requirement fulfillment
         href: resource-management/generic-resource-requirement-fulfillment.md
-    - name: Resource Recommendations
+    - name: Resource recommendations
       items:
       - name: Prerequisites to use resource recommendations (preview)
         href: resource-management/getting-started-with-resource-recommendations.md
@@ -506,7 +506,15 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
-  - name: Subcontract Management
+  - name: Project budget management
+    items:
+    - name: Project budget management overview for resource nonstocked
+      href: budget/project-budget-management-overview-res-non-stocked.md
+    - name: Cost and sales budget management in resource nonstocked deploymen
+      href: budget/cost-and-sales-budget-management.md
+    - name: Transfer budgets to forecasts
+      href: budget/transfer-budgets-to-forecasts.md
+  - name: Subcontract management
     items: 
     - name: Subcontract management in Project Operations
       href: pro/subcontracting/managing-subcontracts-overview.md
