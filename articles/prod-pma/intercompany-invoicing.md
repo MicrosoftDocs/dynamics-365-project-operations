@@ -1,27 +1,14 @@
 ---
-# required metadata
-
 title: Intercompany invoicing
-description: This article provides information and examples about intercompany invoicing for projects.
+description: This article provides information and examples about intercompany invoicing for your projects.
 author: Yowelle
 ms.date: 09/14/2017
-ms.topic: article
- 
-ms.technology: 
-
-# optional metadata
-
+ms.topic: conceptual
 ms.search.form: LedgerInterCompany
-# ROBOTS: 
 audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm: 
-ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-# ms.search.industry: 
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0

@@ -6,6 +6,7 @@ ms.author: johnmichalak
 ms.topic: conceptual
 ms.date: 09/01/2023
 ms.custom: bap-template
+ms.reviewer: johnmichalak
 ---
 
 # Troubleshoot Microsoft Dynamics 365 Project Operations
