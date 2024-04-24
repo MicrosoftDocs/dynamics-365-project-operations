@@ -16,7 +16,7 @@ ms.author: nimaski
 
 _**Applies To:** Project Operations for resource/nonstocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-This article outlines the typical steps that are involved in the process of transferring budgets from Microsoft Dataverse to forecasts in finance and operations apps for resource nonstocked deployments.
+This article outlines the typical steps that are required to transfer budgets from Microsoft Dataverse to forecasts in finance and operations apps for resource nonstocked deployments.
 
 As is outlined in [Project budget management overview for resource nonstocked](project-budget-management-overview-res-non-stocked.md), the project budget is created in Dataverse. Therefore, tasks such as project creation, tracking of actuals against the budget, budget approval, forecast updates, and budget revision occur in Dataverse. After budgets are approved, they're transferred to forecast tables in finance and operations apps.
 
@@ -29,7 +29,7 @@ Follow these steps to enable the feature.
 1. In finance and operations apps, go to **System Administration** \> **Feature Management**, and select **Check for updates**.
 1. Search for the feature that's named **Enable Project Budget management feature in Project Operations for nonstocked/resource based scenarios**, and enable it.
 1. After the feature is enabled, you can manually import budget lines into forecasts from the **All forecasts** page. Alternatively, you can schedule a periodic batch job to import budget lines.
-1. If you choose to use a batch job to periodically transfer approved budgets to forecasts, also search for and enable the feature that's named **Enable batch-schedule project budget integration from CE into F&O forecast tables for nonstocked/resource based scenarios**.
+1. If you want to use a batch job to periodically transfer approved budgets to forecasts, also search for and enable the feature that's named **Enable batch-schedule project budget integration from CE into F&O forecast tables for nonstocked/resource based scenarios**.
 
 Project budgets can be created for different types of projects, including fixed-price, time and material, and investment projects, for both cost budgets and sales budgets.
 
