@@ -6,9 +6,8 @@ ms.custom:
   - evergreen
 ms.date: 04/09/2024
 ms.topic: article
-ms.reviewer: 
-ms.author: tulsijhaveri
 ms.reviewer: johnmichalak
+ms.author: tulsijhaveri
 ---
 
 # What's new 2024 wave 1 early access - Project Operations lite deployment
