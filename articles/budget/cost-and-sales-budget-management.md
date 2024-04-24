@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/nonstocked based scenarios, Lit
 
 This article describes the typical actions that are performed for cost and sales budget management in resource nonstocked deployments.
 
-As is explained in [Project budget management overview for resource nonstocked](project-budget-management-overview-res-non-stocked.md), project creation, tracking of actuals against the budget, budget approval, forecast updates, and budget revision occur on the Microsoft Dataverse side. After budgets are approved, they're transferred to forecast tables in finance and operations apps.
+As is outlined in [Project budget management overview for resource nonstocked](project-budget-management-overview-res-non-stocked.md), the project budget is created in Microsoft Dataverse. Therefore, tasks such as project creation, tracking of actuals against the budget, budget approval, forecast updates, and budget revision occur in Dataverse. After budgets are approved, they're transferred to forecast tables in finance and operations apps.
 
 A project budget for tracking both costs budgets and sales budgets can be created for all types of projects (fixed-price, time and material, and investment).
 
