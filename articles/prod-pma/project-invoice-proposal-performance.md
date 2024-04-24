@@ -1,27 +1,15 @@
 ---
-# required metadata
-
 title: Project invoice proposal performance features
 description: This article provides information about performance improvements to project invoice proposals.
 author: ryansandness
 ms.date: 01/4/2022
-ms.topic: article
- 
-ms.technology: 
-
-# optional metadata
-
-ms.search.form: 
-# ROBOTS: 
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 audience: Application User, IT Pro
-# ms.devlang: 
 ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm: 
-ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-# ms.search.industry: 
 ms.author: ryansandness
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18

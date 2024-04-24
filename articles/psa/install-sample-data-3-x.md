@@ -7,7 +7,6 @@ ms.custom:
   - evergreen
 ms.date: 04/09/2024
 ms.reviewer: johnmichalak
-ms.suite: 
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul
 ms.author: ruhercul
