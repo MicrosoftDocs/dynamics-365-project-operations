@@ -1,27 +1,14 @@
 ---
-# required metadata
-
 title: Resource fulfillment for planned resources
 description: This article provides information about planned resources for a project.
 author: Yowelle
 ms.date: 09/01/2020
-ms.topic: article
- 
-ms.technology: 
-
-# optional metadata
-
+ms.topic: how-to
 ms.search.form: ProjProjectsListPage
-# ROBOTS: 
 audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm: 
-ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
-# ms.search.industry: 
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
