@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/nonstocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations for resource/nonstocked based scenarios._
 
 This article provides an overview of the end-to-end process for project budget management in project-based organizations. It covers the context of a resource nonstocked deployment.
 
