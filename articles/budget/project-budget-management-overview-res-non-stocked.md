@@ -35,7 +35,7 @@ Here's a step-by-step description of the project budget management process. Step
 1. In Dataverse, the project manager creates a budget for a project. The project budget can be created either from scratch or by using the project estimates of the project as input.
 1. The project manager can budget for the **Time**, **Material**, or **Expense** transaction class for the different phases of the project.
 1. The project manager submits the project budget for approval. An optional workflow for project budget approval can be enabled according to business requirements.
-1. If the project budget is approved, all actuals that are created and approved for time, materials, and expenses are matched against the project budget lines. Actual budget consumption and forecasts are automatically updated, and any variance between the budget and actuals is shown.
+1. If the project budget is approved, all actuals that were created and approved for time, materials, and expenses are matched against the project budget lines. Actual budget consumption and forecasts are automatically updated, and any variance between the budget and actuals is shown.
 1. The project manager periodically reviews the project budget and checks for variance between the budget and actuals.
 1. The project manager updates the forecasts as required, based on the actual consumption during project execution.
 1. If extra budget is allocated to the project, or if the contract is updated because of spending, the project manager might choose to revise the budget to align it with the updated forecasts.
