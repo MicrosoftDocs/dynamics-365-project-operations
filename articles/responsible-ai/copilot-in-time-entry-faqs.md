@@ -24,7 +24,7 @@ Time Entry Copilot acts as a new way for project team members to complete all ac
 
 ### What can Copilot in time entry do?
 
-To begin with, Copilot will be enabled with a limited set of capabilities and will receive updates over the coming months. Currently supported scenarios are: 
+To begin with, Copilot will be enabled with a limited set of capabilities and will receive updates over the coming months. Currently supported scenarios aresummarized below: 
 
 Time Entry Copilot can use team members’ project assignments to suggest time entries for that week that can be used to create draft time entries without duplication. Final control over what gets submitted for approval is left with the team members, who can modify these entries before submission.  
 
