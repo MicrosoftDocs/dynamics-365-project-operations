@@ -84,15 +84,15 @@ Copilot aims to simplify this process in two ways:
 
 Follow these steps to generate external comments using Copilot:
 
-1. Ensure you have navigated to the **Time Entries** page.
-2. Activate the Copilot sidecar to begin a chat conversation.
+1. Navigate to the **Time Entries** page.
+2. Activate the Copilot sidecar (click Copilot icon) to begin a chat conversation.
 3. Type _Generate comments_ or _Add external comments_ in chat window and hit Enter.
-4. Copilot will respond with _"Working on it"_ while it uses Project, Project Task, Role and Durations details for each time entry to generate a generic, first draft of external comments that can be linked to each time entry.
-5. Copilot responds with generated external comments for each time entry. These comments are displayed in an editable text box and can be immediately modified by the user.
-6. Once you have reviewed the generated comments and made any necessary modifications to them, click **Save all**.
-7. Copilot sends a confirmation of saving comments for all time entries.  **Refresh** the time entry grid to view latest changes.
+4. Copilot will respond with _"Working on it"_ while it uses details like Project, Project Task, Role and Durations for each time entry to generate a generic, first draft of external comments that can be linked to each time entry.
+5. Copilot responds with the generated external comments for each time entry. Each generated comment is displayed as an editable text box and can be immediately modified.
+6. Once you have reviewed the generated comments and made necessary modifications to them, click **Save all**.
+7. Copilot will send a confirmation of saving comments for all time entries.  **Refresh** the time entry grid to view latest changes.
 
-To view previously saved external comments, type _View comments_ in the chat window and Copilot will display all previously saved comments without a Copilot icon. These can then be reviewed and modified before saving.
+To view previously saved external comments, type _View comments_ in the chat window and Copilot will display all previously saved comments without a Copilot icon. These can similarly be reviewed and modified before saving.
    
 
    > [!NOTE]
