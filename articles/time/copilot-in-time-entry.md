@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Use Copilot for time entry (preview)
+title: Use Copilot in time entry (preview)
 description: This article explains how team members can use Copilot to complete their time entry each week.
 author: mohitmenon
 ms.date: 04/24/2024
@@ -28,3 +28,20 @@ This Copilot feature currently has two primary capabilities:
 - Generate external comments
 
 ## Enable or disable the Copilot in time entry feature
+
+This feature is currently in preview state and can only be accessed on environments hosted in the "NAM" Azure region. Please confirm with your tenant admin before trying to access this feature.
+
+To enable Copilot in time entry, follow these steps.
+
+1. Sign in to Microsoft Dynamics 365 Project Operations.
+2. Ensure that you're using Project Operations version _4.103.0.X_ or later. This feature is not available before this version.
+3. On the left navigation, change the area to **Settings**.
+4. In the **General** section, select **Parameters**.
+5. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
+6. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
+7. Select **Enable Copilot in time entry** and then click **OK**.
+
+
+   > [!NOTE]
+   > To disable the Copilot in time entry, follow the enable steps and select **Disable Copilot in time entry** in step 7.
+
