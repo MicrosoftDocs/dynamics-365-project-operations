@@ -32,3 +32,13 @@ Copilot can also generate a first draft of customer-facing comments or descripti
 
    > [!NOTE]
    > The fields being considered (Project, Project Task, Role and Duration) cannot currently be customised for generating external comments.
+
+### What are Copilot in time entry's intended uses?
+
+As an AI assistant for project team members, the intended uses of Time Entry Copilot are: 
+
+- **Creation of time entries** - Project team members use Copilot to create their time entries for the current week, based on the user's existing project assignments.
+- **Add commentss** - Users can also generate and link generated descriptions to these entries after required modifications and submit them for approval in a more efficient manner when compared to the existing process that is followed.
+
+This section will be updated with other intended uses over time, as Time Entry Copilot receives updates with each release. 
+
