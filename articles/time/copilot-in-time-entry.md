@@ -42,7 +42,7 @@ To enable Copilot in time entry, follow these steps.
 7. Select **Enable Copilot in time entry** and then click **OK**.
 
    > [!NOTE]
-   > To disable the Copilot in time entry, follow the enable steps and select **Disable Copilot in time entry** in step 7.
+   > To disable Copilot in time entry, follow the enable steps and select **Disable Copilot in time entry** in step 7.
 
 ## Interactive Copilot chat experience
 
