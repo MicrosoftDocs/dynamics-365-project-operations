@@ -97,7 +97,7 @@ To view previously saved external comments, type _View comments_ in the chat win
 
 ## Additional Resources
 
-Responsible AI FAQs for Copilot in time entry:
+- [Responsible AI FAQs for Copilot in time entry](../responsible-ai/copilot-in-time-entry-faqs.md)
 
 > [!IMPORTANT]
 Depending on where your environment is hosted, you might need to allow data movement across regions to use them. If your environment is hosted in a region that requires data movement across regions to use copilots and generative AI features, tenant administrator need to consent to the terms of use on the Move data across regions checkbox in the Power Platform admin center. [Learn more](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) how data movement works across regions. 
