@@ -49,7 +49,7 @@ This section will be updated with other intended uses over time, as Copilot in t
 
 ### What are the limitations of Copilot in time entry? How can users minimize the impact of Time Entry Copilot’s limitations when using the system? 
 
-- As of now, Copilot in time entry can only log time for the current week (week in which date of time entry creation resides) and can't be used for a past or future weeks. This scenario can be addressed by ensuring timely creation of time entries before the end of the current week so you don't have to create entries for an older week.
+- As of now, Copilot in time entry can only log time for the current week (week in which date of time entry creation resides) and can't be used for a past or future week. This scenario can be addressed by ensuring timely creation of time entries before the end of the current week so you don't have to create entries for an older week.
   > [!NOTE]
   > Copilot in time entry doesn't use the user’s local time zone settings. It instead considers the UTC date (as per GMT+0 time zone) while selecting the week for which time is being logged.
 - Copilot in time entry doesn't refresh the time entry grid in real-time on completion of an action that is triggered from the sidecar. The user must refresh the time entry grid to view these changes.
