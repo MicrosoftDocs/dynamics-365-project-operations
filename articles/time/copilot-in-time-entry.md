@@ -53,7 +53,7 @@ Both of the Copilot capabilities in this feature can only be accessed by using t
 - To collapse this sidecar, similarly click on the Copilot icon once again.
 
    > [!NOTE]
-   > Please work with your system administrator and complete steps to [enable Copilot chat for your environment](https://learn.microsoft.com/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment) if the Copilot icon is not visible. [test link V2](/powerapps-docs/maker/model-driven-apps/add-ai-copilot)
+   > Please work with your system administrator and complete steps to [enable Copilot chat for your environment](https://learn.microsoft.com/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment) if the Copilot icon is not visible. [test link V3](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment)
 
 ## Log time using Copilot
 
