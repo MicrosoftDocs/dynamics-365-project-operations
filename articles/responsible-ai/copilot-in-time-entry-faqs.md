@@ -43,21 +43,21 @@ This section will be updated with other intended uses over time, as Copilot in t
 
 ### How was Copilot in time entry evaluated? What metrics are used to measure performance? 
 
-- Time Entry Copilot has gone through a series of functional evaluations to ensure that it is able to effectively respond to the user scenarios that it is intended for.
-- Copilot in time entry is aimed at improving the life of project team members. Our priority is to ensure it is developed according to [Microsoft’s Responsible AI standards](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ZPmV) before being deployed to users.
+- Time Entry Copilot went through a series of functional evaluations to ensure that it's able to effectively respond to the user scenarios that it's intended for.
+- Copilot in time entry is aimed at improving the life of project team members. Our priority is to ensure it's developed according to [Microsoft’s Responsible AI standards](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4ZPmV) before being deployed to users.
   -  To ensure this goal, a process involving rigorous assessments around privacy, security (red teaming for varied threats), accessibility, etc are completed before being deployed to customers.  
 
 ### What are the limitations of Time Entry Copilot? How can users minimize the impact of Time Entry Copilot’s limitations when using the system? 
 
-- As of now, Copilot can only log time for the current week (week in which date of time entry creation resides) and cannot be used for a past or future week. This can be minimized by ensuring timely creation of time entries before the end of the current week so that you do not have to create entries for an older week.
-  - **Note**: Copilot does not use the user’s local time zone settings. It instead considers the UTC date (as per GMT+0 time zone) while selecting the week for which time is being logged.
-- Copilot does not refresh the time entry grid in real-time on completion of an action that is triggered from the sidecar. The user will must refresh the time entry grid to view these changes.
+- As of now, Copilot can only log time for the current week (week in which date of time entry creation resides) and can't be used for a past or future week. This scenario can be addressed by ensuring timely creation of time entries before the end of the current week so that you don't have to create entries for an older week.
+  - **Note**: Copilot doesn't use the user’s local time zone settings. It instead considers the UTC date (as per GMT+0 time zone) while selecting the week for which time is being logged.
+- Copilot doesn't refresh the time entry grid in real-time on completion of an action that is triggered from the sidecar. The user must refresh the time entry grid to view these changes.
 
 
 ### What operational factors and settings allow for effective and responsible use of Time Entry Copilot? 
 
-- Consistently ensuring that team members are “assigned” to project tasks before they begin working on them will make Copilot an effective mode of creating time entries.
+- Consistently ensuring that team members are “assigned” to project tasks before they begin working on them makes Copilot an effective mode of creating time entries.
 - Team members that use Copilot to create their time entries must ensure they review the suggested entries before creating them. In addition to this step, any external comments generated via Copilot must be vetted by the user to ensure they meet customer standards before being submitted for approval.
-- Existing customizations that are in place for Time Entry will not work out-of-the-box with Copilot scenarios. Additional effort is required to integrate them into Copilot scenarios, please raise a support ticket with Microsoft for assistance with integrating critical customizations.
+- Existing customizations that are in place for Time Entry won't work out-of-the-box with Copilot scenarios. Additional effort is required to integrate them into Copilot scenarios, please raise a support ticket with Microsoft for assistance with integrating critical customizations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
