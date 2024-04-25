@@ -20,7 +20,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
-Copilot in time entry is designed to simplify the time entry experience and take away the drudgery of navigating endless forms, drop-down lists that currently make this process time consuming. This gives back time to project team members that they can instead use for high leverage tasks.
+Copilot in time entry is designed to simplify the time entry experience by taking away the drudgery of navigating endless forms, that currently make this process so time consuming. This feature gives back time to project team members that they can instead use for high leverage tasks.
 
 This Copilot feature currently has two primary capabilities:
 
@@ -29,7 +29,7 @@ This Copilot feature currently has two primary capabilities:
 
 ## Enable or disable the Copilot in time entry feature
 
-This feature is currently in preview state and **can only be accessed on environments hosted in the "NAM" Azure region**. Please confirm with your tenant admin before trying to access this feature.
+This feature is currently in preview state and **can only be accessed on environments hosted in the "NAM" Azure region**.  Confirm with your tenant admin before trying to access this feature.
 
 To enable Copilot in time entry, follow these steps.
 
@@ -48,8 +48,8 @@ To enable Copilot in time entry, follow these steps.
 
 Both of the Copilot capabilities in this feature can only be accessed by using the interactive Copilot chat experience. Since this Copilot chat experience is currently in preview state, it may not be enabled on your environment.
 
-- Select the Copilot icon from the top menu bar, just next to the user icon.
-- This makes the Copilot sidecar visible along with a message stating "Get started with Copilot by typing your request in chat."
+- Select the Copilot icon from the top menu bar, next to the user icon.
+- This step makes the Copilot sidecar visible along with a message stating _"Get started with Copilot by typing your request in chat"_.
 - To collapse this sidecar, similarly click on the Copilot icon once again.
 
    > [!NOTE]
@@ -57,12 +57,12 @@ Both of the Copilot capabilities in this feature can only be accessed by using t
 
 ## Log time using Copilot
 
-This capability takes a user's existing project task assignments for the current week and suggests draft time entries that can be created based on those assignments. Copilot will ensure there is no duplication of entries when the user has pre-existing time entries in that week.
+This capability takes a user's existing project task assignments for the current week and suggests draft time entries that can be created based on those assignments. Copilot ensures there is no duplication of entries when the user has pre-existing time entries in that week.
 
 Follow these steps to log time using Copilot:
 
 1. Navigate to the **Time Entries** page.
-2. Activate the Copilot sidecar (click Copilot icon) to begin a chat conversation.
+2. Begin a chat conversation by activating the Copilot sidecar (click Copilot icon).
 3. Type _Log my time_ or _Create time entries_ in the chat window and hit enter.
 4. Copilot will respond with _"Working on it"_, while it scans through your project assignments and then respond with suggested time entries for the current week, after removing any duplicates. Learn more about how to create resource assignments [here](../project-management/create-assignments.md).
 5. Expand the section for each project tp review suggested time entries. To create them, select **Create entries**.
@@ -85,20 +85,20 @@ Copilot aims to simplify this process in two ways:
 Follow these steps to generate external comments using Copilot:
 
 1. Navigate to the **Time Entries** page.
-2. Activate the Copilot sidecar (click Copilot icon) to begin a chat conversation.
+2. Begin a chat conversation by activating the Copilot sidecar (click Copilot icon).
 3. Type _Generate comments_ or _Add external comments_ in chat window and hit Enter.
-4. Copilot will respond with _"Working on it"_ while it uses details like Project, Project Task, Role and Durations for each time entry to generate a generic, first draft of external comments that can be linked to each time entry.
+4. Copilot responds with _"Working on it"_ while it uses details like Project, Project Task, Role and Durations for each time entry to generate a generic, first draft of external comments.
 5. Copilot responds with the generated external comments for each time entry. Each generated comment is displayed as an editable text box and can be immediately modified.
 6. Once you have reviewed the generated comments and made necessary modifications to them, click **Save all**.
-7. Copilot will send a confirmation of saving comments for all time entries.  **Refresh** the time entry grid to view latest changes.
+7. Copilot sends a confirmation of saving comments for all time entries.  **Refresh** the time entry grid to view latest changes.
 
-To view previously saved external comments, type _View comments_ in the chat window and Copilot will display all previously saved comments without a Copilot icon. These can similarly be reviewed and modified before saving.
+To view previously saved external comments, type _View comments_ in the chat window and Copilot displays all previously saved comments without a Copilot icon. These comments can similarly be reviewed and modified before saving.
    
 
    > [!NOTE]
    > Copilot does not generate or over-write any pre-existing external comments that are linked to a time entry. Such comments are still displayed, but without a Copilot icon to indicate that they were not currently generated by Copilot.
 
-## Additional Resources
+  ## More Resources
 
 - [Responsible AI FAQs for Copilot in time entry](../responsible-ai/copilot-in-time-entry-faqs.md)
 
