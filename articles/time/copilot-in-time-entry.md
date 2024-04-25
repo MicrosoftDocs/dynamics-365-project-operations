@@ -20,7 +20,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
-Copilot in time entry is designed to simplify the time entry experience and take away the drudgery of navigating endless forms, drop-down lists that currently make this process time consuming. This gives back time to project team members that they can instead use for more high leverage tasks.
+Copilot in time entry is designed to simplify the time entry experience and take away the drudgery of navigating endless forms, drop-down lists that currently make this process time consuming. This gives back time to project team members that they can instead use for high leverage tasks.
 
 This Copilot feature currently has two primary capabilities:
 
