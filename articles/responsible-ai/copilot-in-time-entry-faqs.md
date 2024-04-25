@@ -42,3 +42,12 @@ As an AI assistant for project team members, the intended uses of Time Entry Cop
 
 This section will be updated with other intended uses over time, as Time Entry Copilot receives updates with each release. 
 
+### How was Copilot in time entry evaluated? What metrics are used to measure performance? 
+
+- Time Entry Copilot has gone through a series of functional evaluations to ensure that it is able to effectively respond to the user scenarios that it is intended for.
+- While Time Entry Copilot is aimed at improving the life of project team members, our priority is to ensure it is developed according to Microsoft’s Responsible AI standards before getting deployed to users.
+  -  To ensure this, a process involving rigorous assessments around privacy, security (red teaming for varied threats), accessibility, etc are completed before being deployed to customers.  
+
+### What are the limitations of Time Entry Copilot? How can users minimize the impact of Time Entry Copilot’s limitations when using the system? 
+
+### What operational factors and settings allow for effective and responsible use of Time Entry Copilot? 
