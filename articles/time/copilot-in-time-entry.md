@@ -61,11 +61,11 @@ This capability takes a user's existing project task assignments for the current
 
 Follow these steps to log time using Copilot:
 
-1. Ensure you have navigated to the **Time Entries** page.
-2. Activate the Copilot sidecar to begin a chat conversation.
-3. Type _Log my time_ or _Create time entries_ in chat window and hit Enter.
-4. Copilot will respond with _"Working on it"_ while it scans through the user's project assignments and responds with suggested time entries for the current week, after removing any duplicates. Learn more about how to create resource assignments [here](../project-management/create-assignments.md).
-5. Expand the response for each project and review the suggested time entries. To create them, select **Create entries**.
+1. Navigate to the **Time Entries** page.
+2. Activate the Copilot sidecar (click Copilot icon) to begin a chat conversation.
+3. Type _Log my time_ or _Create time entries_ in the chat window and hit enter.
+4. Copilot will respond with _"Working on it"_, while it scans through your project assignments and then respond with suggested time entries for the current week, after removing any duplicates. Learn more about how to create resource assignments [here](../project-management/create-assignments.md).
+5. Expand the section for each project tp review suggested time entries. To create them, select **Create entries**.
 6. Copilot responds with a confirmation of creating time entries and requests the user to **refresh** the time entry grid to view latest changes.
 7. The user can now make any necessary modifications to these draft time entries before submitting them for approval.
 
