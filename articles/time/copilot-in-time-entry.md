@@ -56,10 +56,35 @@ Both of the Copilot capabilities in this feature can only be accessed by using t
 
 This capability takes a user's existing project task assignments for the current week and suggests draft time entries to be created based on those assignments. Copilot also ensures that there is no duplication of these entries when the user has pre-existing time entries created for that week.
 
-To log time using Copilot, activate the Copilot sidecar to begin a chat. Follow these steps:
+Follow these steps to log time using Copilot:
 
-1. Type _Log my time or _Create time entries_ in chat and hit Enter.
-2. Copilot then scans through the user's project assignments and responds with suggested time entries for the current week after removing any duplicates. 
+1. Ensure you have navigated to the **Time Entries** page.
+2. Activate the Copilot sidecar to begin a chat conversation.
+3. Type _Log my time_ or _Create time entries_ in chat window and hit Enter.
+4. Copilot will respond with _"Working on it"_ while it scans through the user's project assignments and responds with suggested time entries for the current week, after removing any duplicates. Learn more about how to create resource assignments [here](../project-management/create-assignments.md).
+5. Expand the response for each project and review the suggested time entries. To create them, select **Create entries**.
+6. Copilot responds with a confirmation of creating time entries and requests the user to **refresh** the time entry grid to view latest changes.
+7. The user can now make any necessary modifications to these draft time entries before submitting them for approval.
 
    > [!NOTE]
-   > To disable the Copilot in time entry, follow the enable steps and select **Disable Copilot in time entry** in step 7.
+   > Copilot will only suggest time entries for the **current week**, not for older weeks. It is advised to use Copilot to complete logging time entries before the end of the week.
+   > The time entry grid will not refresh automatically after Copilot creates new time entries. The user must refresh the grid to view any updates.
+
+
+## Generate external comments using Copilot
+
+External (customer facing) comments are often a crucial detail added to individual time entries and are even mandatory for some users to be able to submit time entries for approval. The current process of creating and modifying these comments requires opening a new form for each time entry. This makes the process highly time consuming and can lead to inaccuracies in submitted comments. 
+
+Copilot aims to simplify this process in two ways:
+- Generating external comments by using details like Project, Project Task, Role and Duration of a time entry (kept under 100 characters).
+- Providing an effective interface to view and modify all comments together, without needing individual forms for each entry.
+
+Follow these steps to log time using Copilot:
+
+1. Ensure you have navigated to the **Time Entries** page.
+2. Activate the Copilot sidecar to begin a chat conversation.
+3. Type _Generate comments_ or _Add external comments_ in chat window and hit Enter.
+4. Copilot will respond with _"Working on it"_ while it uses Project, Project Task, Role and Durations details for each time entry to generate a generic, first draft of external comments that can be linked to each time entry.
+5. 
+
+
