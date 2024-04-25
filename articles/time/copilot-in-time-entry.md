@@ -18,89 +18,97 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
-Copilot in time entry is designed to simplify the time entry experience by taking away the drudgery of navigating endless forms, that currently make this process so time consuming. This feature gives back time to project team members that they can instead use for high leverage tasks.
+Copilot in time entry is designed to simplify the time entry experience and make it less time consuming by significantly reducing the number of pages that project team members must open. The time that the feature helps save can instead be used for high-leverage tasks.
 
-This Copilot in time entry feature currently has two primary capabilities:
+The Copilot in time entry feature currently has two primary capabilities:
 
-- Log my time.
+- Log time.
 - Generate external comments.
 
 ## Enable or disable the Copilot in time entry feature
 
-This feature is currently in preview and **can only be accessed on environments hosted in the "NAM" Azure region**. Confirm with your tenant admin before trying to access this feature.
+The Copilot in time entry feature is currently in preview and **can be accessed only in environments that are hosted in the NAM Microsoft Azure region**. Before you try to access this feature, contact your tenant administrator to confirm that your environment meets this requirement.
 
 To enable Copilot in time entry, follow these steps.
 
-1. Sign in to Microsoft Dynamics 365 Project Operations.
-1. Ensure that you're using Project Operations version _4.103.0.X_ or later. This feature isn't available before this version.
+1. Sign in to Dynamics 365 Project Operations.
+1. Ensure that you're using Project Operations version _4.103.0.X_ or later. This feature isn't available for earlier versions.
 1. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
 1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
 1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
-1. Select **Enable Copilot in time entry** and then select **OK**.
+1. Select **Enable Copilot in time entry**, and then select **OK**.
 
-   > [!NOTE]
-   > To disable Copilot in time entry, follow the enable steps and select **Disable Copilot in time entry** in step 7.
+> [!NOTE]
+> To disable Copilot in time entry, follow the same steps, but select **Disable Copilot in time entry** in step 7.
 
 ## Interactive Copilot chat experience
 
-Both of the Copilot capabilities in this feature can only be accessed by using the interactive Copilot chat experience. Since this Copilot chat experience is currently in preview, it may not be enabled on your environment.
+You can access both Copilot capabilities of this feature only by using the interactive Copilot chat experience. Because the Copilot chat experience is currently in preview, it might not be enabled on your environment.
 
-- Select the Copilot icon from the top menu bar, next to the user icon.
-- This step makes the Copilot sidecar visible along with a message stating _"Get started with Copilot by typing your request in chat"_.
-- To collapse this sidecar, similarly select the Copilot icon once again.
+- On the top menu bar, select the Copilot icon next to the user icon to expand the Copilot sidecar. The following message is shown: "Get started with Copilot by typing your request in chat."
+- To collapse the sidecar, select the Copilot icon again.
 
-   > [!NOTE]
-   > Please work with your system administrator and complete steps to [enable Copilot chat for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment) if the Copilot icon isn't visible.
+> [!NOTE]
+> If the Copilot icon isn't visible, work with your system administrator to [enable Copilot chat for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment).
 
-## Log time using Copilot
+## Log time by using Copilot
 
-This capability takes a user's existing project task assignments for the current week and suggests draft time entries that can be created based on those assignments. Copilot ensures there isn't duplication of entries when the user has pre-existing time entries in that week.
+Based on a user's existing project task assignments for the current week, this capability suggests draft time entries that can be created. If the user has preexisting time entries in that week, Copilot ensures that they aren't duplicated.
 
-Follow these steps to log time using Copilot:
+Follow these steps to log time by using Copilot.
 
-1. Navigate to the **Time Entries** page.
-1. Begin a chat conversation by activating the Copilot sidecar (select the Copilot icon).
-1. Type _Log my time_ or _Create time entries_ in the chat window and select the Enter key.
-1. Copilot responds with _"Working on it"_ while it scans through your project assignments and then respond with suggested time entries for the current week, after removing any duplicates. To learn more about how to create resource assignments, see [Create resource assignments](../project-management/create-assignments.md).
-1. Expand the section for each project to review suggested time entries. To create them, select **Create entries**.
-1. Copilot responds with a confirmation of creating time entries and requests the user to **refresh** the time entry grid to view latest changes.
-1. The user can now make any necessary modifications to these draft time entries before submitting them for approval.
+1. Open the **Time Entries** page.
+1. Begin a chat conversation by selecting the Copilot icon to expand the Copilot sidecar.
+1. In the chat window, enter _Log my time_ or _Create time entries_. Then select the **Enter** key.
 
-   > [!NOTE]
-   > Copilot will only suggest time entries for the **current week**, not for older weeks. It is advised to use Copilot to complete logging time entries before the end of the week.
-   > The time entry grid will not refresh automatically after Copilot creates new time entries. The user must refresh the grid to view any updates.
+    Copilot responds, "Working on it," and begins to scan your project assignments. It then responds with the suggested time entries for the current week. (It first removes any duplicate entries.) [Learn more about how to create resource assignments.](../project-management/create-assignments.md)
 
+1. Expand the section for each project to review the suggested time entries. To create time entries, select **Create entries**.
 
-## Generate external comments using Copilot
+    Copilot responds with a confirmation that time entries are being created. It also prompts you to refresh the time entry grid to view the latest changes.
 
-External (customer facing) comments are often a crucial detail added to individual time entries and are even mandatory for some users to be able to submit time entries for approval. The current process of creating and modifying these comments requires opening a new form for each time entry. This makes the process highly time consuming and can lead to inaccuracies in submitted comments. 
+1. Refresh the time entry grid.
+1. You can now make any necessary modifications to the draft time entries before you submit them for approval.
 
-Copilot aims to simplify this process in two ways:
-- Generating **external comment** by using details like Project, Project Task, Role, and Duration of a time entry (kept under 100 characters).
-- Providing an effective interface to view and modify all comments together, without needing individual forms for each entry.
+> [!NOTE]
+> Copilot suggests time entries only for the current week, not for earlier weeks. We recommend that you use Copilot to finish logging time entries before the end of the week.
+>
+> The time entry grid isn't automatically refreshed after Copilot creates new time entries. To view any updates, you must manually refresh the grid.
 
-Follow these steps to generate external comments using Copilot:
+## Generate external comments by using Copilot
 
-1. Navigate to the **Time Entries** page.
-1. Begin a chat conversation by activating the Copilot sidecar (select the Copilot icon).
-1. Type _Generate comments_ or _Add external comments_ in chat window and select the Enter key.
-1. Copilot responds with _"Working on it"_ while it uses details like Project, Project Task, Role, and Durations for each time entry to generate a generic, first draft of external comments.
-1. Copilot responds with the generated external comments for each time entry. Each generated comment is displayed as an editable text box and can be immediately modified.
-1. Once you have reviewed the generated comments and made necessary modifications to them, select **Save all**.
-1. Copilot sends a confirmation of saving comments for all time entries.  **Refresh** the time entry grid to view latest changes.
+External (customer-facing) comments are often crucial details that are added to individual time entries. Some users might even be unable to submit time entries for approval until they add these comments.
 
-To view previously saved external comments, type _View comments_ in the chat window and Copilot displays all previously saved comments without a Copilot icon. These comments can similarly be reviewed and modified before saving.
-   
+In the current process for creating and modifying external comments, users must open a new page for each time entry. Therefore, the process is very time consuming and can lead to inaccuracies in the submitted comments.
 
-   > [!NOTE]
-   > Copilot does not generate or over-write any pre-existing external comments that are linked to a time entry. Such comments are still displayed, but without a Copilot icon to indicate that they were not currently generated by Copilot.
+Copilot helps simplify this process in two ways:
 
-  ## More Resources
+- It generates external comments by using details such as the **Project**, **Project Task**, **Role**, and **Duration** values of a time entry. (The generated comments are kept under 100 characters.)
+- It provides an effective interface where users can view and modify all comments together, without having to open a separate page for each entry.
 
-- [Responsible AI FAQs for Copilot in time entry](../responsible-ai/copilot-in-time-entry-faqs.md)
+Follow these steps to generate external comments by using Copilot.
+
+1. Open the **Time Entries** page.
+1. Begin a chat conversation by selecting the Copilot icon to expand the Copilot sidecar.
+1. In the chat window, enter _Generate comments_ or _Add external comments_. Then select the **Enter** key.
+
+    Copilot first responds, "Working on it," and begins to use details such as the **Project**, **Project Task**, **Role**, and **Duration** values of each time entry to generate a generic first draft of the external comments. It then responds with the generated external comments for each time entry. Each generated comment is shown as an editable text box and can immediately be modified.
+
+1. Review the generated comments, and make any necessary modifications to them. When you finish, select **Save all**.
+
+    Copilot responds with a confirmation that comments are being saved for all time entries.
+    
+1. Refresh the time entry grid to view the latest changes.
+
+To view previously saved external comments, enter _View comments_ in the chat window. Copilot shows all previously saved comments. Notice that there's no Copilot icon for them. You can review, modify, and then save these comments in a similar way.
+
+> [!NOTE]
+> Copilot doesn't generate or overwrite any preexisting external comments that are linked to a time entry. Those comments are still shown, but the absence of a Copilot icon indicates that Copilot didn't generate them.
+
+## More resources
+
+- [Copilot in time entry responsible AI FAQ](../responsible-ai/copilot-in-time-entry-faqs.md)
 
 > [!IMPORTANT]
-Depending on where your environment is hosted, you might need to allow data movement across regions to use them. If your environment is hosted in a region that requires data movement across regions to use copilots and generative AI features, tenant administrator need to consent to the terms of use on the Move data across regions checkbox in the Power Platform admin center. [Learn more](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions) how data movement works across regions. 
-
-
+Depending on where your environment is hosted, you might have to allow data movement across regions to use copilots and generative AI features. If your environment is hosted in a region that requires data movement across regions to use copilots and generative AI features, your tenant administrator must consent to the terms of use and select the **Move data across regions** checkbox in the Power Platform admin center. [Learn more about how data movement across regions works.](/power-platform/admin/geographical-availability-copilot#enable-data-movement-across-regions)
