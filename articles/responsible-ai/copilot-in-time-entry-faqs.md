@@ -1,5 +1,5 @@
 ---
-title: Copilot in time entry responsible AI FAQ
+title: Copilot in time entry (preview) Responsible AI FAQs
 description: This article provides answers to frequently asked questions about Copilot in time entry.
 author: mohitmenon
 ms.author: mohitmenon
