@@ -29,7 +29,7 @@ This Copilot feature currently has two primary capabilities:
 
 ## Enable or disable the Copilot in time entry feature
 
-This feature is currently in preview state and can only be accessed on environments hosted in the "NAM" Azure region. Please confirm with your tenant admin before trying to access this feature.
+This feature is currently in preview state and **can only be accessed on environments hosted in the "NAM" Azure region**. Please confirm with your tenant admin before trying to access this feature.
 
 To enable Copilot in time entry, follow these steps.
 
@@ -41,7 +41,13 @@ To enable Copilot in time entry, follow these steps.
 6. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
 7. Select **Enable Copilot in time entry** and then click **OK**.
 
-
    > [!NOTE]
    > To disable the Copilot in time entry, follow the enable steps and select **Disable Copilot in time entry** in step 7.
 
+
+## Log time using Copilot
+
+
+
+
+ 
