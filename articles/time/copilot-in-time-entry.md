@@ -54,7 +54,7 @@ Both of the Copilot capabilities in this feature can only be accessed by using t
 
 ## Log time using Copilot
 
-This capability takes a user's existing project task assignments for the current week and suggests draft time entries to be created based on those assignments. Copilot also ensures that there is no duplication of these entries when the user has pre-existing time entries created for that week.
+This capability takes a user's existing project task assignments for the current week and suggests draft time entries that can be created based on those assignments. Copilot will ensure there is no duplication of entries when the user has pre-existing time entries in that week.
 
 Follow these steps to log time using Copilot:
 
