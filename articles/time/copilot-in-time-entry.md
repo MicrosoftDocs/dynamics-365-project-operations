@@ -44,9 +44,17 @@ To enable Copilot in time entry, follow these steps.
    > [!NOTE]
    > To disable the Copilot in time entry, follow the enable steps and select **Disable Copilot in time entry** in step 7.
 
+## Interactive Copilot chat experience
+
+Both of the Copilot capabilities in this feature can only be accessed by using the interactive Copilot chat experience. 
+
+- Select the Copilot icon from the top menu bar, just next to the user icon.
+- This makes the Copilot sidecar visible along with a message stating "Get started with Copilot by typing your request in chat."
+- To collapse this sidecar, similarly click on the Copilot icon once again.
 
 ## Log time using Copilot
 
+To begin using these capabilities, ensure
 
 
 
