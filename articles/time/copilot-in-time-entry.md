@@ -54,8 +54,12 @@ Both of the Copilot capabilities in this feature can only be accessed by using t
 
 ## Log time using Copilot
 
-To begin using these capabilities, ensure
+This capability takes a user's existing project task assignments for the current week and suggests draft time entries to be created based on those assignments. Copilot also ensures that there is no duplication of these entries when the user has pre-existing time entries created for that week.
 
+To log time using Copilot, activate the Copilot sidecar to begin a chat. Follow these steps:
 
+1. Type _Log my time or _Create time entries_ in chat and hit Enter.
+2. Copilot then scans through the user's project assignments and responds with suggested time entries for the current week after removing any duplicates. 
 
- 
+   > [!NOTE]
+   > To disable the Copilot in time entry, follow the enable steps and select **Disable Copilot in time entry** in step 7.
