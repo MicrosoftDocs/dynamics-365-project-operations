@@ -20,4 +20,4 @@ ms.reviewer: johnmichalak
 
 
 - [Copilot for project responsible AI FAQ](copilot-for-project-faq.md)
-
+- [Copilot in time entry responsible AI FAQ](copilot-in-time-entry-faqs.md)
