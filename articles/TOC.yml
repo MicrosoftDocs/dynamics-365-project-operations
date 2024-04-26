@@ -560,6 +560,8 @@
       items: 
       - name: Time entry user interface
         href: time/ui-behavior-time.md
+    - name: Use Copilot in time entry (preview)
+      href: time/copilot-in-time-entry.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
@@ -2282,4 +2284,6 @@
     href: responsible-ai/responsible-ai-overview.md
   - name: Copilot for project responsible AI FAQ
     href: responsible-ai/copilot-for-project-faq.md
+  - name: Responsible AI FAQs for Copilot in time entry
+    href: responsible-ai/copilot-in-time-entry-faqs.md
 
