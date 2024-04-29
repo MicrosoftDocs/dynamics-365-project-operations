@@ -66,7 +66,8 @@ Before purchase orders and purchase order lines in Finance can be automatically 
 | Required dual-write map | Required version |
 |---|---|
 | Project Operations integration actuals (msdyn\_actuals) | 1.0.0.18 |
-| Project Operations integration project vendor invoice export entity V2 (msdyn\_projectvendorinvoices) | 1.0.0.7 |
+| Project Operations integration project vendor invoice export entity V2 (msdyn\_projectvendorinvoices) | 1.0.0.0 |
+| Project Operations integration project vendor invoice line export entity (msdyn\_projectvendorinvoicelines) | 1.0.0.7 |
 | Project subcontract purchase order header (msdyn\_subcontracts) | 1.0.0.0 |
 | Project subcontract purchase order line (msdyn\_subcontractlines) | 1.0.0.0 |
 
