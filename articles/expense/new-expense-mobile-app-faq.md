@@ -20,7 +20,7 @@ This article provides answers to frequently asked questions about the Dynamics 3
 
 ## Which versions of Microsoft Dynamics 365 Finance support the Expense management mobile app?
 
-The Expense management mobile app requires Dynamics 365 Finance version 10.0.37 - 10.0.1725.80 or later.
+The Expense management mobile app requires Dynamics 365 Finance version 10.0.38 - 10.0.1777.180 or later.
 
 ## Which platforms and mobile devices are supported?
 
@@ -32,7 +32,7 @@ No, the Expense management mobile app doesn't currently support offline mode.
 
 ## Does the Dynamics 365 expense management mobile app support itemization, per diem, and guest functionality?
 
-The Expense management mobile app supports itemization and per diem functionality, but it doesn't currently support guest functionality. These features will be added in a future release.
+The Expense management mobile app supports itemization, per diem functionality and guest functionality.
 
 ## Does the Dynamics 365 expense management mobile app require another license?
 
