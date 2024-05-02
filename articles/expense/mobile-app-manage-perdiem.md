@@ -22,8 +22,8 @@ Per diem allowances simplify the reimbursement process for both employees and em
 
 To use the per diem feature in the Microsoft Dynamics 365 Expense management mobile app, you must use the following versions or later of Dynamics 365 Finance together with the latest quality update (QU):
 
-- 10.0.38 – 10.0.1777.165 or later
-- 10.0.39 – 10.0.1860.84 or later
+- 10.0.38 – 10.0.1777.180 or later
+- 10.0.39 – 10.0.1860.99 or later
 
 In addition, you must activate the following features:
 
