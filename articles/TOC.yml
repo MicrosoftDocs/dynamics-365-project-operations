@@ -634,6 +634,8 @@
           href: expense/mobile-app-manage-receipts.md
         - name: Manage per diem using the Expense management mobile app
           href: expense/mobile-app-manage-perdiem.md
+        - name: Manage guests using the Expense management mobile app
+          href: expense/mobile-app-manage-guests.md
         - name: Manage expense report approvals using the Expense mobile app
           href: expense/mobile-app-manage-approvals.md
       - name: Expense mobile app FAQ
