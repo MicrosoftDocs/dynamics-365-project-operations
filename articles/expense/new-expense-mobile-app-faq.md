@@ -2,7 +2,7 @@
 title: Dynamics 365 expense management mobile app FAQ
 description: This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 03/13/2024
+ms.date: 05/01/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -14,7 +14,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios._
 
 This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app. It also describes known issues that affect the app and explains how to work around them.
 
