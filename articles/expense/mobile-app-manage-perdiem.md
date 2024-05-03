@@ -14,9 +14,9 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations for stocked and resource/non-stocked based scenarios._
 
-Per diem expenses, refer to daily allowances that are provided to cover the expenses that employees incur while they travel for business purposes. These expenses typically include meals, lodging, and incidental expenses such as transportation and tips. Per diem rates can vary, depending on factors such as the destination, the length of the stay, and the employer's policies.
+Per diem expenses refer to daily allowances that are provided to cover the expenses that employees incur while they travel for business purposes. These expenses typically include meals, lodging, and incidental expenses such as transportation and tips. Per diem rates can vary, depending on factors such as the destination, the length of the stay, and the employer's policies.
 
-Per diem allowances, simplify the reimbursement process for both employees and employers. Employees don't have to track and submit a receipt for each expense that they incur during travel. Instead, they receive a fixed daily allowance that's based on the location and duration of their trip.
+Per diem allowances simplify the reimbursement process for both employees and employers. Employees don't have to track and submit a receipt for each expense that they incur during travel. Instead, they receive a fixed daily allowance that's based on the location and duration of their trip.
 
 ## Prerequisites
 
