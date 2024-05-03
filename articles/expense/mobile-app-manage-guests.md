@@ -17,7 +17,7 @@ In some cases, employees must cover expenses that involve guests. When these emp
 
 The Expense Management system enables guest users to be incorporated into expense records.
 
-## Include guest details on the expenses
+## Include guest details on expenses
 
 To enter expenses by using the Microsoft Dynamics 365 expense management mobile app, follow these steps.
 
