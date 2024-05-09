@@ -36,7 +36,7 @@ After you complete this procedure, the next step is to activate four dataflows a
 
 ## Have your system administrator activate dataflows 
 
-After you enable the resource recommendations feature, your system administrator must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows). This mandatory, one-time step must be completed for every new environment where the feature is enabled. The four dataflows prepare the data infrastructure that's required to generate optimal recommendations for any new project team member.
+After you enable the resource recommendations feature, your system administrator must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows). Ensure that this system administrator has "Global Admin" rights. This mandatory, one-time step must be completed for every new environment where the feature is enabled. The four dataflows prepare the data infrastructure that's required to generate optimal recommendations for any new project team member.
 
 To activate the dataflows, have your system administrator follow these steps.
 
@@ -53,9 +53,25 @@ To activate the dataflows, have your system administrator follow these steps.
     - **2. Resource Recommendation - Weekly Scoring Indexing**
     - **3. Resource Recommendation - Weekly Add Time Summary**
     - **4. Resource Recommendation - Weekly Update Time Summary**
+1. If no Dataflows are visible under "My Dataflows" or "All Dataflows", refer to the next section.
 
 > [!IMPORTANT]
 > Every dataflow has a number as a prefix. The numbers indicate the order that the dataflows must be activated in. Make sure that they're activated **only in the specified order**.
+
+## Handling missing Dataflows
+
+If no Dataflows are visible under "My Dataflows" or "All Dataflows", this could be due to the ownership of the Dataflow being with a different global system administrator account. To confirm this, follow these steps:
+1. On the left navigation pane, select **Solutions**.
+2. Set the filter to **All** and look for the Display Name **Project Operations** (Name must be _ProjectService_). Select this solution.
+3. The list of **Objects** will include **Dataflows**. Select this and you will see a list of all Dataflows (including the ones required for this feature).
+4. Identify the _Owner_ for each Dataflow.
+5. If this owner is not a _System User_, navigate back to **Home** and select **Dataflows** from the left navigation pane.
+6. Go to **All Dataflows** and search for the name of the Owner identified in the previous step.
+7. Select the owner from the list that appears, this should make all 4 dataflows visible.
+8. Select the overflow symbol (three dots) for each Dataflow and select **Change Owner**. Select your own account as the new owner and confirm this.
+9. Once you have completed these steps for all 4 dataflows, they will now be visible under **My Dataflows** and you can continue to activate each one of them.
+
+
 
 ## Activate a dataflow
 
