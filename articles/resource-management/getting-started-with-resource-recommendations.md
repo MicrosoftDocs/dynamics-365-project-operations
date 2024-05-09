@@ -36,7 +36,7 @@ After you complete this procedure, the next step is to activate four dataflows a
 
 ## Have your system administrator activate dataflows 
 
-After you enable the resource recommendations feature, your system administrator must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows). Ensure that this system administrator has "Global Admin" rights. This mandatory, one-time step must be completed for every new environment where the feature is enabled. The four dataflows prepare the data infrastructure that's required to generate optimal recommendations for any new project team member.
+After you enable the resource recommendations feature, your system administrator must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows). Ensure that this system administrator has "Global Admin" rights. This mandatory, one-time step must be completed for every new environment where the feature is enabled. The four dataflows prepare the data infrastructure required to generate optimal recommendations for any new project team member.
 
 To activate the dataflows, have your system administrator follow these steps.
 
@@ -60,7 +60,7 @@ To activate the dataflows, have your system administrator follow these steps.
 
 ## Handling missing Dataflows
 
-If no Dataflows are visible in **My Dataflows** or **All Dataflows**, this could be due to the ownership of the Dataflow being with a different global system administrator account. To confirm ownership, follow these steps.
+If no Dataflows are visible in **My Dataflows** or **All Dataflows**, this issue could be due to the ownership of the Dataflow being with a different global system administrator account. To confirm ownership, follow these steps.
 
 1. On the left navigation pane, select **Solutions**.
 1. Set the filter to **All** and select the solution with _Display Name_ as **Project Operations** (_Name_ must be **ProjectService**).
@@ -72,15 +72,15 @@ If no Dataflows are visible in **My Dataflows** or **All Dataflows**, this could
    > Changing ownership of these Dataflows isn't possible when the current owner is a system user that provisioned the automated update of Project Operations. In this scenario, submit a support ticket to get immediate assistance.
   
 1. Go to **All Dataflows** and search for the name of the Owner identified in the previous step.
-1. Select the owner from the list that appears, this should make all four dataflows visible.
-1. Select the overflow symbol (three dots) for each Dataflow and select **Change Owner**. Select your own account as the new owner and confirm this.
-1. Once you have completed these steps for all four dataflows, they are visible under **My Dataflows** and you can continue to activate each one of them.
+1. Select the owner from the list that appears to make all four dataflows visible.
+1. Select the overflow symbol (three dots) for each Dataflow and select **Change Owner**. Select your own account as the new owner and confirm.
+1. Once you complete these steps for all four dataflows, they are visible under **My Dataflows** and you can continue to activate each one of them.
 
 
 ## Activate a dataflow
 
 1. Start with the first dataflow, **1. Resource Recommendation - Daily KPE**. Select the overflow symbol (three dots), and then select **Edit**. You're taken to a Power Query page that shows details of the selected dataflow.
-1. Select the **EnvironmentName** parameter. Then, in the space that's provided for **Current Value**, replace the placeholder text (_\{\{envName\}\}_) with the URL of the environment that's being used, **without the "https://"** (for example, enter _recommend.crm.dynamics.com_).
+1. Select the **EnvironmentName** parameter. Then, in the space provided for **Current Value**, replace the placeholder text (_\{\{envName\}\}_) with the URL of the environment that's being used, **without the "https://"** (for example, enter _recommend.crm.dynamics.com_).
 1. In the **Queries** pane, select the first item after **EnvironmentName** and **Name**. This item must have a warning symbol (exclamation point) next to it. For the first dataflow, this item is **msdyn\_projecttask**.
 1. You receive the following error message: "Credentials are required to connect to the CommonDataService source." Select **Configure Connection**.
 1. If you're following these steps for the first time, a **Connect to data source** dialog box appears. In this dialog box, the **Connection** field is set to _Create a new connection_, the **Connection Source** field is set to the name of your environment, and the **Authentication Kind** field is set to _Organizational account_. (The following image shows an example.) Select **Sign in**, and enter your System Administrator user credentials again. Then, after sign-in is completed, select **Connect**. If you receive any error messages, select **Refresh** on the toolbar.
