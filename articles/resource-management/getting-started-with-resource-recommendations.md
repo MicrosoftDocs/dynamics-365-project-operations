@@ -74,7 +74,7 @@ If no Dataflows are visible in **My Dataflows** or **All Dataflows**, this issue
 1. Go to **All Dataflows** and search for the name of the Owner identified in the previous step.
 1. Select the owner from the list that appears to make all four dataflows visible.
 1. Select the overflow symbol (three dots) for each Dataflow and select **Change Owner**. Select your own account as the new owner and confirm.
-1. Once you complete these steps for all four dataflows, they are visible under **My Dataflows** and you can continue to activate each one of them.
+1. Once you complete these steps for all four dataflows, they're visible in **My Dataflows** and you can continue to activate each one of them.
 
 
 ## Activate a dataflow
