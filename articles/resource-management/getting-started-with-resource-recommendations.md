@@ -4,7 +4,7 @@
 title: Prerequisites to use resource recommendations (preview)
 description: This article explains how to use the resource recommendations feature for the first time.
 author: mohitmenon
-ms.date: 03/19/2024
+ms.date: 05/09/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -53,26 +53,28 @@ To activate the dataflows, have your system administrator follow these steps.
     - **2. Resource Recommendation - Weekly Scoring Indexing**
     - **3. Resource Recommendation - Weekly Add Time Summary**
     - **4. Resource Recommendation - Weekly Update Time Summary**
-1. If no Dataflows are visible under "My Dataflows" or "All Dataflows", refer to the next section.
+1. If no Dataflows are visible in **My Dataflows** or **All Dataflows**, refer to the **Handling miss Dataflows** section of this article.
 
 > [!IMPORTANT]
 > Every dataflow has a number as a prefix. The numbers indicate the order that the dataflows must be activated in. Make sure that they're activated **only in the specified order**.
 
 ## Handling missing Dataflows
 
-If no Dataflows are visible under "My Dataflows" or "All Dataflows", this could be due to the ownership of the Dataflow being with a different global system administrator account. To confirm this, follow these steps:
-1. On the left navigation pane, select **Solutions**.
-2. Set the filter to **All** and select the solution with _Display Name_ as **Project Operations** (_Name_ must be **ProjectService**).
-3. Select **Dataflows**, from the list of **Objects** on the left. A list of all Dataflows will be visible.
-4. Identify the _Owner_ for the Dataflows required in this feature.
-5. If this owner is not a _System User_, navigate back to **Home** and select **Dataflows** from the left navigation pane. _(read the note below in case this is a system user)_
-6. Go to **All Dataflows** and search for the name of the Owner identified in the previous step.
-7. Select the owner from the list that appears, this should make all 4 dataflows visible.
-8. Select the overflow symbol (three dots) for each Dataflow and select **Change Owner**. Select your own account as the new owner and confirm this.
-9. Once you have completed these steps for all 4 dataflows, they will now be visible under **My Dataflows** and you can continue to activate each one of them.
+If no Dataflows are visible in **My Dataflows** or **All Dataflows**, this could be due to the ownership of the Dataflow being with a different global system administrator account. To confirm ownership, follow these steps.
 
-> [!IMPORTANT]
-> Changing ownership of these Dataflows is not possible when the current owner is a system user that provisioned the automated update of Project Operations. In this scenario, submit a support ticket to get immediate assistance.
+1. On the left navigation pane, select **Solutions**.
+1. Set the filter to **All** and select the solution with _Display Name_ as **Project Operations** (_Name_ must be **ProjectService**).
+1. Select **Dataflows**, from the list of **Objects** on the left. A list of all Dataflows is visible.
+1. Identify the _Owner_ for the Dataflows required in this feature.
+1. If this owner isn't a _System User_, navigate back to **Home** and select **Dataflows** from the left navigation pane.
+
+   > [!IMPORTANT]
+   > Changing ownership of these Dataflows isn't possible when the current owner is a system user that provisioned the automated update of Project Operations. In this scenario, submit a support ticket to get immediate assistance.
+  
+1. Go to **All Dataflows** and search for the name of the Owner identified in the previous step.
+1. Select the owner from the list that appears, this should make all four dataflows visible.
+1. Select the overflow symbol (three dots) for each Dataflow and select **Change Owner**. Select your own account as the new owner and confirm this.
+1. Once you have completed these steps for all four dataflows, they are visible under **My Dataflows** and you can continue to activate each one of them.
 
 
 ## Activate a dataflow
