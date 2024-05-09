@@ -65,14 +65,14 @@ If no Dataflows are visible under "My Dataflows" or "All Dataflows", this could 
 2. Set the filter to **All** and select the solution with _Display Name_ as **Project Operations** (_Name_ must be **ProjectService**).
 3. Select **Dataflows**, from the list of **Objects** on the left. A list of all Dataflows will be visible.
 4. Identify the _Owner_ for the Dataflows required in this feature.
-5. If this owner is not a _System User_, navigate back to **Home** and select **Dataflows** from the left navigation pane. (read the note below in case this is a system user)
+5. If this owner is not a _System User_, navigate back to **Home** and select **Dataflows** from the left navigation pane. _(read the note below in case this is a system user)_
 6. Go to **All Dataflows** and search for the name of the Owner identified in the previous step.
 7. Select the owner from the list that appears, this should make all 4 dataflows visible.
 8. Select the overflow symbol (three dots) for each Dataflow and select **Change Owner**. Select your own account as the new owner and confirm this.
 9. Once you have completed these steps for all 4 dataflows, they will now be visible under **My Dataflows** and you can continue to activate each one of them.
 
 > [!IMPORTANT]
-> Changing the Owner of these Dataflows is not possible when the current owner is a system user that provisioned the automated update of Project Operations. In this scenario, submit a support ticket to get immediate assistance.
+> Changing ownership of these Dataflows is not possible when the current owner is a system user that provisioned the automated update of Project Operations. In this scenario, submit a support ticket to get immediate assistance.
 
 
 ## Activate a dataflow
