@@ -62,15 +62,17 @@ To activate the dataflows, have your system administrator follow these steps.
 
 If no Dataflows are visible under "My Dataflows" or "All Dataflows", this could be due to the ownership of the Dataflow being with a different global system administrator account. To confirm this, follow these steps:
 1. On the left navigation pane, select **Solutions**.
-2. Set the filter to **All** and look for the Display Name **Project Operations** (Name must be _ProjectService_). Select this solution.
-3. The list of **Objects** will include **Dataflows**. Select this and you will see a list of all Dataflows (including the ones required for this feature).
-4. Identify the _Owner_ for each Dataflow.
-5. If this owner is not a _System User_, navigate back to **Home** and select **Dataflows** from the left navigation pane.
+2. Set the filter to **All** and select the solution with _Display Name_ as **Project Operations** (_Name_ must be **ProjectService**).
+3. Select **Dataflows**, from the list of **Objects** on the left. A list of all Dataflows will be visible.
+4. Identify the _Owner_ for the Dataflows required in this feature.
+5. If this owner is not a _System User_, navigate back to **Home** and select **Dataflows** from the left navigation pane. (read the note below in case this is a system user)
 6. Go to **All Dataflows** and search for the name of the Owner identified in the previous step.
 7. Select the owner from the list that appears, this should make all 4 dataflows visible.
 8. Select the overflow symbol (three dots) for each Dataflow and select **Change Owner**. Select your own account as the new owner and confirm this.
 9. Once you have completed these steps for all 4 dataflows, they will now be visible under **My Dataflows** and you can continue to activate each one of them.
 
+> [!IMPORTANT]
+> Changing the Owner of these Dataflows is not possible when the current owner is a system user that provisioned the automated update of Project Operations. In this scenario, submit a support ticket to get immediate assistance.
 
 
 ## Activate a dataflow
