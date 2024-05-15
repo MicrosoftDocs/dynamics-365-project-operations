@@ -27,6 +27,7 @@ The following apps are required in the Dataverse environment. They must be insta
 3. Dual Write Finance and Extended Solutions
 4. Dual-write Human Resources solution
 5. Dual Write Supply Chain Extended Solution
+6. Dynamics 365 Human Resource Integration to URS
 
 The following maps are required for the Project Operations solution. Make sure to run the maps listed in the following table and any related table maps in your environment.
 
