@@ -68,7 +68,7 @@ Because records are created immediately for both **CreateProjectV1** and **Creat
 | Resource assignment     | Yes        | Yes\*      | Yes        | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, and **PlannedWork**.  |
 | Project bucket          | Yes        | Yes        | Yes        | The default bucket is created by using the **CreateProjectV1** API. Support for creating and deleting project buckets was added in Update Release 16. |
 | Project team member     | Yes        | Yes        | Yes        | For the create operation, use the **CreateTeamMemberV1** API. |
-| Project                 | Yes        | Yes        |            | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
+| Project                 | Yes        | Yes        | No         | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
 | Project Checklists      | Yes        | Yes        | Yes        | |
 | Project Label           | No         | Yes        | No         | Label names can be changed. This feature is only available for Project for the Web. Labels are created the first you open a project. |
 | Project Task to Label   | Yes        | No         | Yes        | This feature is only available for Project for the Web. |
