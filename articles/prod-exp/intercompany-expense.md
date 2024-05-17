@@ -3,8 +3,8 @@
 
 title: Intercompany expenses
 description: This article provides information about how to use intercompany expenses to assign a worker’s expenses to the legal entity for which the work was performed.
-author: suvaidya
-ms.date: 07/08/2021
+author: mukumarm
+ms.date: 05/17/2024
 ms.topic: article
  
 ms.technology: 
@@ -30,7 +30,17 @@ ms.dyn365.ops.version: AX 7.0.0
 
 A worker who is employed by one legal entity in an organization might perform work for another legal entity in the same organization. You can use intercompany expenses to assign the worker’s expenses to the legal entity for which the  work was performed. The legal entity that employs the worker is called the loaning legal entity. The legal entity for which the worker incurs expenses is called the borrowing legal entity. 
 
-Before a worker can create and submit intercompany expenses, you must enable intercompany expense lines. In the loaning legal entity, on the **Expense management parameters** page, select **Allow intercompany expense lines**. 
+Before a worker can create and submit intercompany expenses, you must enable intercompany expense lines. 
+
+1. Go to **Expense management** > **Setup** > **General** > **Expense management parameters** form.
+2. On the **General** tab, select **Allow intercompany expense lines**. 
+
+To manage **project intercompany expenses**, configure the setup for **default intercompany expense category** using **project management parameters** form. 
+
+1. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters** > **Intercompany**.
+2. Go to **When landing resources** grid.
+3. Click **+New** to define the default categories for timesheet and expense categories.
+4. Select **Borrowing legal entity**, **Default timesheet cateogory**, **Default expense category**.
 
 ## Tax posting for intercompany expenses
 
