@@ -15,7 +15,7 @@ ms.author: ruhercul
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The need to track progress against a schedule varies by industry. Some industries track at a granular level, where other industries track at a higher level. This article shows how to schedule in order to meet your organization's requirements.
+The need to track progress against a schedule varies by industry. Some industries track at a granular level, where other industries track at a higher level. The tracking tab on the project entity allows customers to view the status of their project based on effort or cost.
 
 ## Effort tracking view
 
