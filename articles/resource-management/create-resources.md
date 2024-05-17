@@ -61,7 +61,7 @@ For more information about editing work hour calendars with code, see [Edit work
 ### Add Resource roles 
 Resource categories are roles or groups of categories that help distinguish them. For example, a resource's role or job title.
 
-A resource can have multiple categories. [Create a resource category](set-up-bookable-resource-categories.md) and map it to a resource. If a resource has multiple roles assigned, one of them can be defined as a 'default' role. 
+A resource can have multiple categories. [Create resource roles](/project-operations/resource-management/define-roles.md) and map it to a resource. If a resource has multiple roles assigned, one of them can be defined as a 'default' role. 
 
 - Change to the **Resources** area and go to **Resource** > **Resources**. Open a resource record and select **Related** > **Resource Category Assns**.
   
@@ -73,7 +73,7 @@ A resource can have multiple categories. [Create a resource category](set-up-boo
 
 Characteristics represent a resource's skills and certifications. For example, a specific skill like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building. A certificate can be anything that the organization tracks for resources such as a PMP certificate for a Project Manager or a 6-sigma course completion certificate. Read more about [Skills and proficiencies](/project-operations/resource-management/define-skills-proficiencies.md) to learn more.
 
-A resource can have multiple characteristics. [Create the characteristic](set-up-characteristics.md), map it to a resource, and provide a proficiency rating.
+A resource can have multiple characteristics. [Create characteristics](/field-service/set-up-characteristics.md), map it to a resource, and provide a proficiency rating.
   
 - Change to the **Resources** area and go to **Resource** > **Resources**. Open a resource record and select **Related** > **Resource Characteristics**.  
   
