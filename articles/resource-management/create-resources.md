@@ -2,7 +2,7 @@
 title: Create Bookable Resources
 description: This article provides a link to information about how to create bookable resources.
 author: tulsij
-ms.author: tulsij
+ms.author: tulsijhaveri
 ms.date: 05/20/2024
 ms.topic: how-to
 ms.custom: 
