@@ -2,10 +2,12 @@
 title: Create Bookable Resources
 description: This article provides a link to information about how to create bookable resources.
 author: tulsij
-ms.date: 05/17/2024
-ms.topic: article
-ms.reviewer: 
 ms.author: tulsij
+ms.date: 05/20/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ---
 
 # Create Bookable Resources
@@ -32,8 +34,8 @@ Resources are the most important asset of a project-based or service-based organ
   
 - On the **Scheduling** tab:
    - Select appropriate **Organizational Unit** that the resource belongs to and input other details (if applicable).
-   - To allow resource to be available for scheduling on the schedule board, select 'Yes' for **Display On Schedule Board**. For more information about displaying resources on the schedule board, see [Experience the schedule board in Universal Resource Scheduling](../common-scheduler/use-schedule-board.md).
-   - Set **Enable for Availability Search** to define if the [schedule assistant can return the resource](../common-scheduler/schedule-assistant.md) if it matches the criteria.
+   - To allow resource to be available for scheduling on the schedule board, select 'Yes' for **Display On Schedule Board**. For more information about displaying resources on the schedule board, see [Experience the schedule board in Universal Resource Scheduling](../common-scheduler/use-schedule-board).
+   - Set **Enable for Availability Search** to define if the [schedule assistant can return the resource](../common-scheduler/schedule-assistant) if it matches the criteria.
    
  - **Save** the record to view other details.
 
@@ -56,12 +58,12 @@ You can define work hours for each resource. Initially, it uses the default work
 
 - **Save** the work hours to update the work hours calendar.
 
-For more information about editing work hour calendars with code, see [Edit work hour calendars by using APIs](field-service-work-hours-calendar-api.md).
+For more information about editing work hour calendars with code, see [Edit work hour calendars by using APIs](field-service-work-hours-calendar-api).
 
 ### Add Resource roles 
 Resource categories are roles or groups of categories that help distinguish them. For example, a resource's role or job title.
 
-A resource can have multiple categories. [Create resource roles](/project-operations/resource-management/define-roles.md) and map it to a resource. If a resource has multiple roles assigned, one of them can be defined as a 'default' role. 
+A resource can have multiple categories. [Create resource roles](/project-operations/resource-management/define-roles) and map it to a resource. If a resource has multiple roles assigned, one of them can be defined as a 'default' role. 
 
 - Change to the **Resources** area and go to **Resource** > **Resources**. Open a resource record and select **Related** > **Resource Category Assns**.
   
@@ -71,9 +73,9 @@ A resource can have multiple categories. [Create resource roles](/project-operat
 
 ### Add Skills and other characteristics
 
-Characteristics represent a resource's skills and certifications. For example, a specific skill like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building. A certificate can be anything that the organization tracks for resources such as a PMP certificate for a Project Manager or a 6-sigma course completion certificate. Read more about [Skills and proficiencies](/project-operations/resource-management/define-skills-proficiencies.md) to learn more.
+Characteristics represent a resource's skills and certifications. For example, a specific skill like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building. A certificate can be anything that the organization tracks for resources such as a PMP certificate for a Project Manager or a 6-sigma course completion certificate. Read more about [Skills and proficiencies](/project-operations/resource-management/define-skills-proficiencies) to learn more.
 
-A resource can have multiple characteristics. [Create characteristics](/field-service/set-up-characteristics.md), map it to a resource, and provide a proficiency rating.
+A resource can have multiple characteristics. [Create characteristics](/field-service/set-up-characteristics), map it to a resource, and provide a proficiency rating.
   
 - Change to the **Resources** area and go to **Resource** > **Resources**. Open a resource record and select **Related** > **Resource Characteristics**.  
   
