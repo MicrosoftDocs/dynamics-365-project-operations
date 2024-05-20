@@ -2,7 +2,7 @@
 title: Define roles
 description: This article provides a link to information about setting up bookable resource categories.
 author: tulsij
-ms.author: tulsij
+ms.author: tulsijhaveri
 ms.date: 05/20/2024
 ms.topic: how-to
 ms.custom: 
