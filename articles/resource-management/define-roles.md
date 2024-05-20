@@ -12,9 +12,9 @@ ms.reviewer: johnmichalak
 
 # Define roles
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-In Dynamics 365 Project Operations, you can define the roles or categories used to group your resources in your organization. For example, you can create categories like Consultant, Developer, Project manager or Consulting Lead 1, Consulting Lead 2 or Senior Project manager, etc. to identify groups of resources and define their pricing on the roles. 
+In Dynamics 365 Project Operations, you can define the roles or categories used to group your resources in your organization. For example, to identify groups of resources and define their pricing on the roles, create categories like Consultant, Developer, Project manager or Consulting Lead 1, Consulting Lead 2 or Senior Project manager. 
 
 ## Create new roles
 
