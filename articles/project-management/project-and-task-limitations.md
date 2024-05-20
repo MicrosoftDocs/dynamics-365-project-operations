@@ -17,14 +17,15 @@ You should be aware of the following limitations if you're using the work breakd
 
 | Field                                              | Limit                |
 | -------------------------------------------------- | -------------------- |
-| Maximum total tasks for a project                  | 1000                 |
+| Maximum total tasks for a project                  | 1000*                 |
 | Maximum total duration for a project               | 3650 days (10 years) |
 | Maximum total resources for a project              | 300                  |
 | Maximum total links (successor only) for a project | 600                  |
 | Maximum total custom fields for a project          | 10                   |
 | Maximum checklist items per task                   | 20                   |
 
-
+\* We are in the process of increasing this limit to 1500
+  
 ## Task limitations
 
 | Field                                   | Limit                 |
