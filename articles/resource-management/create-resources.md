@@ -73,9 +73,9 @@ A resource can have multiple categories. [Create resource roles](define-roles.md
 
 ### Add Skills and other characteristics
 
-Characteristics represent a resource's skills and certifications. For example, a specific skill like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building. A certificate can be anything that the organization tracks for resources such as a Project Management Professional (PMP) certificate for a Project Manager or a six sigma course completion certificate. Read more about [Skills and proficiencies](/dynamics365/project-operations/resource-management/define-skills-proficiencies) to learn more.
+Characteristics represent a resource's skills and certifications. For example, a specific skill like a CPR certification; more general, like accounting or web development experience; or as simple as security clearance for a specific building. A certificate can be anything that the organization tracks for resources such as a Project Management Professional (PMP) certificate for a Project Manager or a six sigma course completion certificate. Read more about [Skills and proficiencies](define-skills-proficiencies.md) to learn more.
 
-A resource can have multiple characteristics. [Create characteristics](/field-service/set-up-characteristics), map it to a resource, and provide a proficiency rating.
+A resource can have multiple characteristics. [Create characteristics](/dynamics365/field-service/set-up-characteristics), map it to a resource, and provide a proficiency rating.
   
 - Change to the **Resources** area and go to **Resource** > **Resources**. Open a resource record and select **Related** > **Resource Characteristics**.  
   
