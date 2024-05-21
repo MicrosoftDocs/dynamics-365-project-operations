@@ -1550,6 +1550,8 @@
       href: prod-pma/tasks/rename-project.md
     - name: Implement custom fields for the Project timesheet mobile app
       href: prod-pma/custom-fields-mobile.md
+    - name: Set up roles on Work breakdown structure templates
+      href: prod-pma/set-up-roles-wbs-template.md
   - name: Resource management
     items:
     - name: Project resourcing overview
@@ -1568,8 +1570,6 @@
       href: prod-pma/synchronize-resource-capacity.md
     - name: Project resource scheduling performance (preview)
       href: prod-pma/project-scheduling-performance.md
-    - name: Set up roles on Work breakdown structure templates
-      href: prod-pma/set-up-roles-wbs-template.md
     - name: Resource fulfillment for planned resources
       href: prod-pma/resource-fulfillment-planned-resources.md
   - name: Project budgets and forecasts
