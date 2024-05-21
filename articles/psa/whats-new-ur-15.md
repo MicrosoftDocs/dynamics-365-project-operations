@@ -2,11 +2,11 @@
 title: What's new or changed in Project Service Automation Update Release 15, V3
 description: This article provides information about what's new in Project Service Automation Update Release 15, V3.
 author: abriccetti
-ms.custom: dyn365-projectservice
 ms.date: 05/21/2024
 ms.topic: conceptual
 ms.author: abriccetti
 ms.custom: 
+  - dyn365-projectservice
   - bap-template
   - evergreen
 audience: Admin
