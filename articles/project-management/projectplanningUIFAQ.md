@@ -1,12 +1,12 @@
 ---
 title: Troubleshoot working in the Task grid 
 description: This article provides troubleshooting information needed when working in the Task grid.
-author:  ruhercul
-ms.date: 11/14/2023
+author:  abriccetti
+ms.date: 5/21/2024
 ms.topic: troubleshooting
 ms.product:
 ms.reviewer: johnmichalak
-ms.author: ruhercul
+ms.author: abriccetti
 ms.custom: 
   - bap-template
 ---
