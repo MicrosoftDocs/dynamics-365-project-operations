@@ -7,7 +7,6 @@ ms.date: 11/07/2017
 ms.topic: how-to 
 ms.custom: 
   - bap-template
-  - evergreen
 audience: Application User 
 ms.reviewer: johnmichalak
 ms.search.region: Global
