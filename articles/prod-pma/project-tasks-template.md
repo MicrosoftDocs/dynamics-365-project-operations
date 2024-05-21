@@ -1,8 +1,9 @@
 ---
 title: Synchronize project tasks directly from Project Service Automation to finance and operations
 description: This article describes the template and underlying task that are used to synchronize project tasks directly from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
-author: Yowelle
-ms.date: 07/20/2018
+author: abriccetti
+ms.author: abriccetti
+ms.date: 05/21/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -10,7 +11,6 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
 
