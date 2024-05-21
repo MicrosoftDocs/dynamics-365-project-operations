@@ -11,7 +11,6 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
 ---
