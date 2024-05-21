@@ -1,8 +1,9 @@
 ---
 title: Create a new project
 description: This article provides information about how to create a new project.
-author: Yowelle
-ms.date: 09/01/2020
+author: abriccetti
+ms.author: abriccetti
+ms.date: 05/21/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -11,7 +12,6 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
-ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 
