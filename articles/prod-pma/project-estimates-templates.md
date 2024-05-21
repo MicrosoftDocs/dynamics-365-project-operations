@@ -1,7 +1,8 @@
 ---
 title: Synchronize project estimates directly from Project Service Automation to finance and operations
 description: This article describes the templates and underlying tasks that are used to synchronize project hour estimates and project expense estimates directly from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
-author: Yowelle
+author: abriccetti
+ms.author: abriccetti
 ms.date: 05/21/2024
 ms.topic: conceptual
 ms.custom: 
