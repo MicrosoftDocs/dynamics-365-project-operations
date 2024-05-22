@@ -1,13 +1,14 @@
 ---
 title: Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
 description: This article provides information about how to subscribe to and deploy Project Operations for resource/non-stocked based scenarios.
-author: sigitac
-ms.date: 07/02/2021
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios

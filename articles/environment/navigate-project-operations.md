@@ -1,13 +1,14 @@
 ---
 title: Navigate Project Operations
 description: This article provides information about how to access Project Operations from Lifecycle Services.
-author: sigitac
-ms.date: 10/28/2020
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Navigate Project Operations
