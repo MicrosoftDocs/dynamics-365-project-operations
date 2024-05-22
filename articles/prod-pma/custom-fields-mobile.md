@@ -3,7 +3,7 @@ title: Implement custom fields for the Microsoft Dynamics 365 Project Timesheet 
 description: This article provides common patterns for using extensions to implement custom fields.
 author: mohitmenon
 ms.author: mohitmenon
-ms.date: 05/29/2019
+ms.date: 05/22/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
