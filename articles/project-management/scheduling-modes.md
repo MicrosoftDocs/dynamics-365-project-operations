@@ -1,12 +1,14 @@
 ---
-# required metadata
 title: Scheduling modes
 description: This article provides information about scheduling modes. 
-author: ruhercul
-ms.date: 05/28/2021
+author: abriccetti
+ms.author: abriccetti
+ms.date: 05/21/2024
 ms.topic: article
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: ruhercul
+
 ---
 
 # Scheduling modes

@@ -1,27 +1,14 @@
 ---
-# required metadata
-
 title: Product price lists
 description: This article provides information about the price lists in catalog pricing used for project quotes and contracts. 
-author: rumant
-ms.date: 04/05/2021
+author: avisness
+ms.author: avisness
+ms.date: 05/21/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
 audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: rumant
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
