@@ -3,11 +3,14 @@
 
 title: Configure intercompany invoicing
 description: This article provides information and examples about configuring intercompany invoicing for projects.
-author:  sigitac
-ms.date: 04/12/2021 
-ms.topic: article
+author:  mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Configure intercompany invoicing
