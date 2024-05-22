@@ -1,20 +1,12 @@
 ---
-# required metadata
-
 title: Expense management overview
 description: Dynamics 365 Expense Management streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations.
 author: mukumarm
 ms.date: 05/10/2024
 ms.topic: overview
- 
-ms.technology: 
-
-# optional metadata
-
+ms.custom: 
+  - bap-template 
 ms.search.form: TrvExpenseWorkspace 
-# ROBOTS: 
-audience: Application User, IT Pro
-# ms.devlang: 
 ms.reviewer: johnmichalak
 ---
 
@@ -22,7 +14,7 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../includes/banner.md)]
 
-**Dynamics 365 Expense Management** is designed to streamline and automate expense management processes for businesses. **Expense Management** streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations.Here's an overview of its key features and functionalities:
+**Dynamics 365 Expense Management** is designed to streamline and automate expense management processes for businesses. **Expense Management** streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations. Here's an overview of its key features and functionalities:
 
 **Expense Submission**: Employees can easily submit expense reports directly within the Dynamics 365 platform. They can capture receipts, categorize expenses, and add relevant details such as project codes or client names.
 
