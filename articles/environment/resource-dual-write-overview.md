@@ -2,13 +2,12 @@
 title: Project Operations dual-write integration 
 description: This article provides an overview of Project Operations dual-write integration.
 author: mukumarm
+ms.author: mukumarm
 ms.date: 05/10/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
-
 ms.reviewer: johnmichalak
-ms.author: mukumarm
 
 ---
 
@@ -35,5 +34,5 @@ Project Operations integration consists of the following component integration:
 - [Project estimates and actuals](resource-dual-write-estimates-actuals.md)
 - [Project invoices](resource-dual-write-project-invoice.md)
 - [Expense management](resource-dual-write-expense.md)
-- [Subcontract purchase orders](articles/pro/subcontracting/SubconPurchaseorders.md)
+- [Subcontract purchase orders](../pro/subcontracting/SubconPurchaseorders.md)
 - [Vendor invoice](resource-dual-write-vendor-invoice.md)
