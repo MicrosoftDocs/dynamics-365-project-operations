@@ -1,10 +1,8 @@
 ---
-# required metadata
-
 title: Project time entry mobile workspace 
 description: This article provides information about the Project time entry mobile workspace. This workspace lets users enter and save time against a project by using their mobile device.
-author: Yowelle
-ms.date: 12/01/2017
+author: mohitmenon
+ms.date: 05/22/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -12,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: andchoi
+ms.author: mohitmenon
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 
