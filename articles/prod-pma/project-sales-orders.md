@@ -1,16 +1,14 @@
 ---
 title: Project sales orders for time and material projects
 description: This article explains how to create project-based sales orders for time and material projects.
-author: Yowelle
-ms.date: 04/05/2019
+author: mukumarm
+ms.author: mukumarm
+ms.date: 045/22/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
-audience: Application User
 ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
-ms.search.region: Global
-ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
 
