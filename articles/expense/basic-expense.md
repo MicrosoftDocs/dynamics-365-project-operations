@@ -1,13 +1,13 @@
 ---
 title: Expense entry (Lite) 
 description: This article provides information about how to work with expense entry in a Lite deployment.
-author: stsporen
-ms.date: 11/19/2020
+author: mohitmenon
+ms.date: 05/22/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: stsporen
+ms.author: mohitmenon
 ---
 
 # Expense entry (Lite)

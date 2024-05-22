@@ -1,11 +1,14 @@
 ---
 title: Item requirements for project contracts with multiple funding sources
 description: This article provides information about how to configure and use item requirements with multiple funding sources.
-author: sigitac
-ms.date: 05/04/2022
-ms.topic: article
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Item requirements for project contracts with multiple funding sources

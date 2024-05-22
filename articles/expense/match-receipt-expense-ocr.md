@@ -1,16 +1,13 @@
 ---
 title: Capture a receipt using OCR
 description: This article provides information about optical character recognition (OCR) processing for receipts.
-author: suvaidya
-ms.date: 11/10/2021
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
-audience: Application User
-ms.reviewer: johnmichalak
-ms.author: shylaw
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+
 ---
 
 # Capture a receipt using OCR

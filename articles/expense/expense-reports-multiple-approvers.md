@@ -1,28 +1,14 @@
 ---
-# required metadata
-
 title: Expense reports and multiple approvers
 description: This article provides information about expense reports that require approval by more than one person.
-author: suvaidya
-ms.date: 09/23/2020
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-
-# optional metadata
-
-ms.search.form: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: 
-# ms.search.industry: 
-ms.author: shylaw
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+
 ---
 
 # Expense reports and multiple approvers
