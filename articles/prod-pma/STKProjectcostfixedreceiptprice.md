@@ -4,9 +4,10 @@ description: This article provides information about project purchase orders for
 author: mukumarm
 ms.author: mukumarm
 ms.reviewer: johnmichalak
-ms.topic: article
-ms.date: 2/21/2023
-ms.custom:
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
+ms.date: 05/22/2024
 ---
 
 # Purchase orders for stocked items with fixed price
