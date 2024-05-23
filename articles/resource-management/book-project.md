@@ -49,8 +49,6 @@ When a Resource manager needs to book a resource directly to a project, they can
     - Booking method
     - Duration
    
-   > [!NOTE]
-   > Currently, Dynamics 365 Project Operations doesn't support the schedule board.   
 
 ## Book from the Project form
 
