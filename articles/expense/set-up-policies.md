@@ -1,28 +1,14 @@
 ---
-# required metadata
-
 title: Define expense policies
 description: You can define expense policies that your workers must follow when entering and submitting expense reports and travel requisitions. 
-author: suvaidya
-ms.date: 09/23/2020
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-
-# optional metadata
-
-ms.search.form:  
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: Global
-# ms.search.industry: 
-ms.author: suvaidya
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+
 ---
 
 # Define expense policies
