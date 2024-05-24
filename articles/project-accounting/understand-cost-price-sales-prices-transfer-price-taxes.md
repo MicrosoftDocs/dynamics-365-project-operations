@@ -2,10 +2,13 @@
 title: Understand how cost prices, sales prices, transfer prices, and taxes work together
 description: This article helps you understand how cost prices, sales prices, transfer prices, and taxes work together.
 author: ryansandness
-ms.date: 03/17/2023
-ms.topic: article
-ms.reviewer: johnmichalak
 ms.author: ryansandness
+ms.date: 05/24/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Understand how cost prices, sales prices, transfer prices, and taxes work together
