@@ -62,4 +62,4 @@ You can complete this procedure only if you completed the previous procedures be
 
 ## <a name="link"></a>Link your environments
 
-After the Dataverse environment is deployed, you can set up the link in your finance and operations apps. Follow the steps in [Use the dual-write wizard to link your environments](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment).
+After the Dataverse environment is deployed, you can set up the link in your finance and operations apps. Follow the steps in [Enable Power Platform Integration](/dynamics365/fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration).
