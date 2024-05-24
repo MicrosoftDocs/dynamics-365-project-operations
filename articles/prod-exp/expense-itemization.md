@@ -1,11 +1,14 @@
 ---
 title: Expense itemization
 description: This article explains how to itemize expenses using the reimagined Expense workspace.
-author: suvaidya
-ms.date: 12/16/2021
-ms.topic: article
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+
 ---
 
 # Expense itemization
