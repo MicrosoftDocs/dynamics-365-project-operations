@@ -1,15 +1,14 @@
 ---
 title: Cash advance
 description: This article provides information about cash advances.
-author: suvaidya
-ms.date: 04/07/2022
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+
 ---
 
 # Cash advance
