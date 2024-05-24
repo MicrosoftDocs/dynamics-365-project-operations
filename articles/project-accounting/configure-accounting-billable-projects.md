@@ -1,11 +1,14 @@
 ---
 title: Configure accounting for billable projects
 description: This article provides information about the accounting options for billable projects.
-author: sigitac
-ms.date: 04/05/2021
-ms.topic: article
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Configure accounting for billable projects
