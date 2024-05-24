@@ -1,30 +1,14 @@
 ---
-# required metadata
-
 title: Project stages
 description: This article provides information about the project stages that are available in Microsoft Dynamics Project Operations.
-author: ruhercul
-ms.date: 09/18/2020
-ms.topic: article
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
+ms.topic: conceptual
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Project stages
