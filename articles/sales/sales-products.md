@@ -1,30 +1,14 @@
 ---
-# required metadata
-
 title: Products
 description: This article provides information about the product catalog that you can use to provide information to customers about the products and pricing your organization offers.
-author: rumant
-ms.date: 09/18/2020
-ms.topic: article
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
+author: mukumarm
 ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+ms.date: 05/24/2024
+ms.topic: how-to
+ ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Products
