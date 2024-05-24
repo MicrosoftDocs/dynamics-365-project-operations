@@ -2,12 +2,12 @@
 title: Project Operations for resource/non-stocked based scenarios deployment overview
 description: This article provides information about the deployment type, Project Operations for resource/non-stocked based scenarios.
 author: rumant
-ms.date: 11/02/2020
+ms.author: rumant
+ms.date: 05/24/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
 
 ---
 

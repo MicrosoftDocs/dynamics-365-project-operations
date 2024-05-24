@@ -2,12 +2,13 @@
 title: Sync Project Status to prevent entry against closed projects
 description: This article explains how to sync Project Status to prevent entry against inactive or closed projects.
 author: ryansandness
-ms.date: 08/09/2022
+ms.author: ryansandness
+ms.date: 05/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: ryansandness
+
 ---
 
 # Sync Project Status to prevent entry against closed projects

@@ -1,13 +1,14 @@
 ---
 title: Travel requisitions
 description: This article provides information about travel requisitions.
-author: suvaidya
-ms.date: 10/01/2020
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+
 ---
 
 # Travel requisitions

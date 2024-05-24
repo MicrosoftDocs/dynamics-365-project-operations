@@ -1,25 +1,13 @@
 ---
-# required metadata
-
 title: Project item requirements
 description: This article explains how to create project-based item requirements.
 author: ryansandness
-ms.date: 06/23/2023
-ms.topic: conceptual
-ms.custom: bap-template
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-
-# ms.search.industry: 
 ms.author: ryansandness
-ms.search.validFrom: 2023-06-23
-ms.dyn365.ops.version: AX 10.0.33
+ms.date: 05/24/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
 ---
 
