@@ -1,14 +1,14 @@
 ---
 title: Expense management integration
 description: This article provides information about expense report integration in Project Operations using dual-write. 
-author: sigitac
-ms.date: 04/28/2021
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
-
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Expense management integration

@@ -1,28 +1,14 @@
 ---
-# required metadata
-
 title: Expense reports reimagined (contains video)
 description: This article explains the redesigned and reimagined experience for expense report entry.
-author: suvaidya
-ms.date: 12/16/2021
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-
-# optional metadata
-
-ms.search.form: 
-audience: Application User
-# ms.devlan: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: 
-# ms.search.industry: 
-ms.author: suvaidya
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+
 ---
 
 # Expense reports reimagined

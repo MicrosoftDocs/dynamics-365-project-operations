@@ -1,13 +1,13 @@
 ---
-# required metadata
-
 title: Create intercompany customer and vendor invoices
 description: This article provides information about how to create intercompany customer and vendor invoices.
-author:  sigitac
-ms.date: 04/12/2021
-ms.topic: article
+author:  ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
 
 ---
 

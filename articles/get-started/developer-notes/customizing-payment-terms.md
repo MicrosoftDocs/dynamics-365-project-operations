@@ -1,13 +1,14 @@
 ---
 title: Developer notes for payment terms
 description: This article provides more developer information about working with payment terms.
-author: suvaidya
-ms.date: 06/23/2023
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+
 ---
 
 # Developer notes for payment terms
