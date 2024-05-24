@@ -3,7 +3,7 @@ title: Start a new Lifecycle Services project
 description: This article provides information about creating a new project in Lifecycle Services for your Project Operations environment.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 10/01/2020
+ms.date: 05/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
