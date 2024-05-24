@@ -2,10 +2,13 @@
 title: Project adjustments
 description: This article provides information about project adjustments.
 author: ryansandness
-ms.date: 11/09/2022
-ms.topic: article
-ms.reviewer: johnmichalak
 ms.author: ryansandness
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Project adjustments
