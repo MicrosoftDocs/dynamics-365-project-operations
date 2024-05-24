@@ -1,11 +1,14 @@
 ---
 title: Configure project categories
 description: This article provides information about setting up project categories.
-author: sigitac
-ms.date: 10/01/2020
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
 ms.topic: article
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Configure project categories
