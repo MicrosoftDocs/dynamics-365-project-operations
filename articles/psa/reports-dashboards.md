@@ -9,8 +9,6 @@ ms.custom:
   - bap-template
   - evergreen
 ms.date: 05/28/2024
-ms.topic: article
-
 ms.reviewer: johnmichalak
 ---
 
