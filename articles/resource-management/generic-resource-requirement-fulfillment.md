@@ -1,11 +1,14 @@
 ---
 title: Generic resource requirement fulfillment
 description: This article provides information about how to book named resources for a generic resource requirement.
-author: ruhercul
-ms.date: 09/23/2020
-ms.topic: article
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: ruhercul
+
 ---
 
 # Generic resource requirement fulfillment

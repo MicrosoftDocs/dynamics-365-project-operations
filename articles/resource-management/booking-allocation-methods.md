@@ -1,30 +1,14 @@
 ---
-# required metadata
-
 title: Booking allocation methods
 description: This article provides information about how booking allocation methods work in Project Operations.
-author: ruhercul
-ms.date: 09/23/2020
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
 ms.topic: article
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: ruhercul
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+  - bap-template 
+ms.reviewer: johnmichalak
+
 ---
 
 # Booking allocation methods
