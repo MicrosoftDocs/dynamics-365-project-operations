@@ -5,6 +5,8 @@ author: tulsij
 ms.author: tulsijhaveri
 ms.date: 05/28/2024
 ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.search.form: ProjProjectsListPage
 ms.reviewer: johnmichalak
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
