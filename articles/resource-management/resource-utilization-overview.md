@@ -1,11 +1,13 @@
 ---
 title: Resource utilization overview
 description: This article provides information about resource utilization in Project Operations.
-author: ruhercul
-ms.date: 11/05/2020
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: ruhercul
 
 ---
 
