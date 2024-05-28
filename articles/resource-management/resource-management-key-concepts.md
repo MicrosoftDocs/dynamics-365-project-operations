@@ -1,12 +1,13 @@
 ---
 title: Resource management key concepts
 description: This article provides information about resource management capabilities in Microsoft Dynamics Project Operations.
-tulsij
-tulsijhaveri
+author: tulsij
+ms.author: tulsijhaveri
 ms.date: 05/28/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
+  - evergreen
 ms.reviewer: johnmichalak
 
 ---
