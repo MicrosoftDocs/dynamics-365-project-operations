@@ -98,9 +98,9 @@ The **(Preview) Enable flexibility in determining financial dimension defaulting
 
 Functionality included in the feature include:
 
-- A new form for Project default dimension rules to define the criteria for determining if dimensions should default from the project or contract line.
-- The addition of Time and Material contract lines appearing in the defaulting accounting for project contracts. This allows users to enter financial dimension default values for both types of contract lines.
-- Logic added to import from staging, on-account transactions, forecasts, journals, and revenue recognition to determine if dimensions should default from the project or contract line.
+- A new form for **Project default dimension rules** to define the criteria for determining if dimensions should default from the project or contract line.
+- The addition of Time and Material contract lines appearing in the defaulting accounting for project contracts. This allows users to enter financial dimension default values for both types of contract lines now.
+- Logic added to import from staging, on-account transactions, forecasts, and revenue recognition to determine if dimensions should default from the project or contract line.
 - Fixes to improve the reliability of saving default dimensions values within the project and contract line forms.
 
 ### Dimension Rules
@@ -130,7 +130,8 @@ As of the 10.0.40 preview release, the following documents are not considered in
 
 - Expense reports submitted from Dynamics 365 Finance and Operations.
 - Purchase requests, purchase orders, and vendor invoices submitted from Finance and Operations.
-- Revenue Recognition will follow the dimensions where fee journals are enabled. In a simple fixed price project with a single contract line dimensions can correctly default from the contract. However if a more complicated scenario is used with a time and material contract line for fees, the dimensions will default from the time and material line used for fees currently.
+
+As of the 10.0.40 preview release, Revenue recognition has a known limitation. Revenue recognition will follow the dimensions where fee journals are enabled. In a simple fixed price project with a single contract line dimensions can correctly default from the contract. However if a more complicated scenario is used with a time and material contract line for fees, the dimensions will default from the time and material line used for fees currently.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
