@@ -90,7 +90,7 @@ For both forecasts and actuals in expense entries, the behavior is as follows:
 - For Project – cost posting type dimensions merge from both worker and project, but project dimensions win in case of conflict.
 - For ledger journal posting type dimensions merge from both worker and project, but project dimensions win in case of conflict.
 
-## Enable flexibility in determining project or contract line for dimension defaulting
+## Enable flexibility in determining financial dimension defaulting for resource based/non-stocked scenarios
 
 New functionality is available to provide additional options in how financial dimensions are defaulted onto transactions. This feature allows for the selection of the project or contract line to determine the financial dimensions that are defaulted onto transactions.
 
@@ -99,8 +99,8 @@ The **(Preview) Enable flexibility in determining financial dimension defaulting
 Functionality included in the feature include:
 
 - A new form for Project default dimension rules to define the criteria for determining if dimensions should default from the project or contract line.
-- The addition of Time and Material contract lines appearing in the defaulting accounting for project contracts.
-- Logic added to import from staging, on-account transactions, forecasts, and revenue recognition to determine if dimensions should default from the project or contract line.
+- The addition of Time and Material contract lines appearing in the defaulting accounting for project contracts. This allows users to enter financial dimension default values for both types of contract lines.
+- Logic added to import from staging, on-account transactions, forecasts, journals, and revenue recognition to determine if dimensions should default from the project or contract line.
 - Fixes to improve the reliability of saving default dimensions values within the project and contract line forms.
 
 ### Dimension Rules
@@ -113,20 +113,20 @@ On initial enabling of feature, or in the case of upgrades there will be no rule
 
 Previous legacy rules without the feature enabled are as follows:
 
-- The project dimensions are used as the primary source for time entries, expense entries, fees, and material usage entries originating from Dataverse.
+- The project dimensions are used as the primary source for time entries, expense entries, fees, material usage entries, and journals originating from Dataverse.
 - The project dimensions are used as the primary source for forecast entries originating from Dataverse.
 - The project contract line dimensions are used as the primary source for on-account transactions originating from Dataverse.
 - Transactions originating from Finance and Operations will use the dimensions defined on the originating document. These dimensions used the project dimensions as their primary source.
 
 If there is a situation where a dimension rule cannot be found, the legacy behavior as if the feature was off will apply.
 
-The rules evaluate from left to right and a rule that is more specific to a field on the right will take precedence. For example if a rule is defined for a specific project cost and revenue profile and another rule is added for a specific project contract, that contract rule will take precedence over the project cost and revenue profile rule.
+The rules evaluate from right to left and a rule that is more specific to a field on the right will take precedence. For example if a rule is defined for a specific project cost and revenue profile and another rule is added for a specific project contract, that contract rule will take precedence over the project cost and revenue profile rule.
 
 In the case of projects not connected to a contract, the legacy rules to use project for dimensions will apply.
 
 ### Feature considerations and limitations
 
-As of the 10.0.30 preview release, the following documents are not considered in the feature and will continue the legacy behavior:
+As of the 10.0.40 preview release, the following documents are not considered in the feature and will continue the legacy behavior:
 
 - Expense reports submitted from Dynamics 365 Finance and Operations.
 - Purchase requests, purchase orders, and vendor invoices submitted from Finance and Operations.
