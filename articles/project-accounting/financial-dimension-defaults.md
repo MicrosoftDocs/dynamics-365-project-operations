@@ -12,8 +12,6 @@ ms.author: ryansandness
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-
-
 Dynamics 365 Project Operations uses the [Financial dimensions](/dynamics365/finance/general-ledger/financial-dimensions) framework in Dynamics 365 Finance to provide additional insights on project subledger and general ledger transactions.
 
 Default financial dimensions can be set on a customer, project funding source, project contract line, or project.
@@ -74,7 +72,7 @@ Prerequisites must be completed for the new feature to take effect for any mappe
 3. With the prerequisites features installed we need to modify the integration key to make **Bookable Resource** have context for the relevant legal entity. Click into integration key and add "bookable resourceid [Bookable Resource] in the first column next to **Bookable Resource**. Click Save and exit the integration key screen.
 4. Next, stop the Project Operations Integration Actuals map and click Table map version to update from 1.0.14 to 10.0.17 or later. You may need to also click refresh tables from within the dual write map to see the new table schema, and then run.
 5. Next, stop the Project Operations integration entity for hour estimates map and click Table map version to update from 1.0.4 to 1.0.6 or later. You may need to also click refresh tables form within the dual write map to see the new table schema, and then run.
-6. Finally, start the new map for Project worker resource import (bookableresources) if it has not yet been started from the related maps.
+6. Finally, start the new map for Project worker resource import (bookableresources) if it has not yet been started from the related maps starting.
 
 ### Changes enabled by this feature
 
@@ -107,7 +105,7 @@ Functionality included in the feature include:
 
 ### Dimension Rules
 
-After the feature is enabled there is a new form available for Project default dimension rules.
+After the feature is enabled there is a new form available for Project default dimension rules. The form is accessed from **Project management and accounting** > **Setup** > > **Posting** > **Project default dimension rules**.
 
 The **Project default dimension rules** form provides several criteria to determine at what scope the rule should apply. It also provides the last column of default dimension priority to determine if dimensions should default from the project or the contract line.
 
@@ -127,12 +125,12 @@ The rules evaluate from left to right and a rule that is more specific to a fiel
 In the case of projects not connected to a contract, the legacy rules to use project for dimensions will apply.
 
 ### Feature considerations and limitations
+
 As of the 10.0.30 preview release, the following documents are not considered in the feature and will continue the legacy behavior:
 
 - Expense reports submitted from Dynamics 365 Finance and Operations.
 - Purchase requests, purchase orders, and vendor invoices submitted from Finance and Operations.
-
-Revenue Recognition will follow the dimensions where fee journals are enabled. In a simple fixed price project with a single contract line dimensions can correctly default form the contract. However if a more complicated scenario is used with a time and material contract line for fees, the dimensions will default from the time and material line used for fees currently.
+- Revenue Recognition will follow the dimensions where fee journals are enabled. In a simple fixed price project with a single contract line dimensions can correctly default from the contract. However if a more complicated scenario is used with a time and material contract line for fees, the dimensions will default from the time and material line used for fees currently.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
