@@ -1,30 +1,15 @@
 ---
-# required metadata
-
 title: Review proposed resources
 description: This article provides information about how to propose project resources.
-author: ruhercul
-ms.date: 07/19/2022
-ms.topic: article
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template 
 ms.reviewer: johnmichalak
 ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: ruhercul
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+
 ---
 
 # Review proposed resources
