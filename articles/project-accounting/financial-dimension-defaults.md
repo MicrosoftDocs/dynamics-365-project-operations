@@ -58,7 +58,7 @@ Project default financial dimensions are used to set journal line defaults for t
 
 An employee’s financial dimensions were previously not considered in the financial entries generated from their work for time or expense transactions. New functionality is now available to map an individual worker to a bookable resource and use that worker’s financial dimensions in the related integration journal and forecast lines and postings.
 
-This feature has a dependency on an optional Dataverse solution and integration. The Dynamics 365 HR Integration to URS app must be installed as a prerequisite. Setup installations are available here - <https://learn.microsoft.com/dynamics365/human-resources/hr-admin-integration-hr-rm>.
+This feature has a dependency on an optional Dataverse solution and integration. The Dynamics 365 HR Integration to URS app must be installed as a prerequisite. Setup installations are available here - <https://learn.microsoft.com/dynamics365/human-resources/hr-admin-integration-hr-rm>. 
 
 After installation and configuration, the Worker (cdm_workers) dual write map should be installed and have status running. A new field on the bookable resource will now be available to map workers to bookable resources.
 Bookable resources will also need to be newly created or updated manually to link the worker to the bookable resource. Note: The Dynamics 365 HR Integration to URS app makes the Worker field editable on creation of a new bookable resource and the field isn’t editable later.
