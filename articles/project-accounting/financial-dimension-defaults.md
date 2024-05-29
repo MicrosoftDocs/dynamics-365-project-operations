@@ -134,5 +134,4 @@ As of the 10.0.40 preview release, the following documents are not considered in
 
 As of the 10.0.40 preview release, Revenue recognition has a known limitation. Revenue recognition will follow the dimensions where fee journals are enabled. In a simple fixed price project with a single contract line dimensions can correctly default from the contract. However if a more complicated scenario is used with a time and material contract line for fees, the dimensions will default from the time and material line used for fees currently.
 
-
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
