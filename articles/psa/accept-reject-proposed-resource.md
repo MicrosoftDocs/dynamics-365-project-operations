@@ -3,7 +3,8 @@ title: Accept or reject a proposed project resource
 description: This article provides information about how to approve or reject a proposed project resource.
 ms.custom: 
   - dyn365-projectservice
-ms.date: 12/07/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 author: JohnPBurrows
 ms.author: ruhercul

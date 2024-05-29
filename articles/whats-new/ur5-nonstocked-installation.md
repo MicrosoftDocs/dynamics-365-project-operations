@@ -2,9 +2,11 @@
 title: Update Project Operations in your Finance environment
 description: This article provides information about how to update Project Operations in your Dynamics 365 Finance environment.
 author: ruhercul
-ms.date: 12/11/2020
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---

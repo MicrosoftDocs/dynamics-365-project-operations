@@ -1,14 +1,14 @@
 ---
 title: Provision a new environment
 description: This article provides information about how to provision a new Project Operations environment.
-author: sigitac
-ms.date: 09/13/2021
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
-ms.prod:
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Provision a new environment

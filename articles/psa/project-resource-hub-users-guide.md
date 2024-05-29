@@ -4,7 +4,8 @@ description: An end-user's guide for the Project Resource Hub for Project Servic
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin

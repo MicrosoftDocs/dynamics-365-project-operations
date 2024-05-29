@@ -2,11 +2,13 @@
 title: Order non-stocked materials for a project using project purchase orders
 description: This article explains how you can order non-stocked materials for a project using project purchase orders.
 author: sigitac
-ms.date: 04/18/2022
+ms.author: mukumarm
+ms.date: 05/22/2024
 ms.topic: article
-ms.prod:
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Order procurement categories or non-stocked materials for a project using project purchase orders

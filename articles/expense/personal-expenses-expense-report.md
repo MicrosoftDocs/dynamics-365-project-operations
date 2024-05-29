@@ -1,13 +1,13 @@
 ---
 title: Work with personal expenses on an expense report
 description: This article provides information about how to work with personal expenses incurred by employees while traveling for business purposes.
-author:  suvaidya
-ms.date: 05/11/2021
+author:  mukumarm
+ms.date: 05/24/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: mukumarm
 ---
 
 

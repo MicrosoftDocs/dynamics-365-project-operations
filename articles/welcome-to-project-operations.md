@@ -1,31 +1,14 @@
 ---
-# required metadata
-
 title: Dynamics 365 Project Operations 
 description: This article provides information about Dynamics 365 Project operations.
 author: johnmichalak
-ms.date: 11/02/2022
-ms.topic: conceptual
-ms.prod: 
+ms.date: 05/29/2024
+ms.topic: overview
 ms.custom: 
   - bap-template
-
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-# ms.tgt_pltfrm: 
-ms.collection: get-started
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: kfend
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+ms.author: johnmichalak
+
 ---
 
 # Dynamics 365 Project Operations

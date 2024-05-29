@@ -10,7 +10,7 @@ ms.author: ryansandness
 
 # Financial dimension defaults
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
 
 Dynamics 365 Project Operations uses the [Financial dimensions](/dynamics365/finance/general-ledger/financial-dimensions) framework in Dynamics 365 Finance to provide additional insights on project subledger and general ledger transactions.
 
@@ -18,10 +18,10 @@ Default financial dimensions can be set on a customer, project funding source, p
 
 ## Define default financial dimensions for a customer
 
-Customer dimension defaults are specified in Finance. Complete the following steps to set dimension defaults.
+Customer dimension defaults are specified in Finance. To set up default financial dimensions, follow these steps.
 
-1. Go to **Accounts receivable** > **Customers** > **All customers**.
-2. On the **Customers** page, on the **Financial dimensions** tab, set the financial dimension values for specific customer.
+1. Go to **Accounts receivable** \> **Customers** \> **All customers**.
+1. On the **Customers** page, on the **Financial dimensions** tab, set the financial dimension values for a specific customer.
 
 ## Define default financial dimensions for project contracts
 
@@ -29,17 +29,17 @@ Project contracts are created and maintained in Dataverse. Accounting attributes
 
 ### Set financial dimensions for a project funding source
 
-1. Go to **Project management and accounting** > **Projects** > **Project contracts**.
-2. Select the record you want to update, and on the **Project contract** tab, select **Show default accounting**.
-3. Expand **Related information** and select the **Funding sources** tab.
-4. Set the financial dimension defaults. Notice that the financial dimensions default from the customer account.
+To set financial dimensions for a project funding source, follow these steps.
+
+1. Go to **Project management and accounting** \> **Projects** \> **Project contracts**.
+1. Select the record that you want to update, and then, on the **Project contract** tab, select **Show default accounting**.
+1. Expand **Related information**, and then, on the **Funding sources** tab, set the financial dimension defaults. Notice that the financial dimension defaults are taken from the customer account.
 
 ### Set financial dimensions for a project contract line
 
-1. Go to **Project management and accounting** > **Projects** > **Project contracts**.
-2. Select the record you want to update and on the **Project contract** tab, select **Show default accounting**.
-3. Expand **Related information** and select the **Contract lines** tab.
-4. Set the financial dimension defaults. The financial dimension defaults are applicable and can be used only with Fixed price (milestone) contract lines.
+1. Go to **Project management and accounting** \> **Projects** \> **Project contracts**.
+1. Select the record that you want to update, and then, on the **Project contract** tab, select **Show default accounting**.
+1. Expand **Related information**, and then, on the **Contract lines** tab, set the financial dimension defaults. The financial dimension defaults are applicable and can be used only with Fixed price (milestone) contract lines.
 
 These defaults are used on related project on-account transactions and invoice lines.
 
@@ -47,12 +47,11 @@ These defaults are used on related project on-account transactions and invoice l
 
 Projects are created and maintained in Dataverse. Accounting attributes for projects are set in the **Project management and accounting** module in Finance.
 
-1. Go to **Project management and accounting** > **Projects** > **All projects**.
-2. Select the record that you want to update and on the **Project** tab, select **Show default accounting**.
-3. Expand **Related information** and select the **Setup** tab.
-4. Set the financial dimension defaults. Notice that financial dimensions default from the customer account. If the project is associated with a contract line with multiple project contract customers, the primary customer is used to default financial dimensions.
+1. Go to **Project management and accounting** \> **Projects** \> **All projects**.
+1. Select the record that you want to update, and then, on the **Project** tab, select **Show default accounting**.
+1. Expand **Related information**, and then, on the **Setup** tab, set the financial dimension defaults. Notice that financial dimensions defaults are taken from the customer account. If the project is associated with a contract line that has multiple project contract customers, the primary customer is used to enter financial dimension defaults.
 
-Project default financial dimensions are used to set journal line defaults for time, expense, and fee transactions in the **Project Operations Integration Journal** and on related project invoice lines.
+Project default financial dimensions are used to set journal line defaults for time, expense, and fee transactions in the Project Operations integration journal and on related project invoice lines.
 
 ## Enable default financial dimensions for bookable resources
 
@@ -60,12 +59,12 @@ An employee’s financial dimensions were previously not considered in the finan
 
 This feature has a dependency on an optional Dataverse solution and integration. The Dynamics 365 HR Integration to URS app must be installed as a prerequisite. Setup installations are available here - <https://learn.microsoft.com/dynamics365/human-resources/hr-admin-integration-hr-rm>. 
 
-After installation and configuration, the Worker (cdm_workers) dual write map should be installed and have status running. A new field on the bookable resource will now be available to map workers to bookable resources.
-Bookable resources will also need to be newly created or updated manually to link the worker to the bookable resource. Note: The Dynamics 365 HR Integration to URS app makes the Worker field editable on creation of a new bookable resource and the field isn’t editable later.
+> [!IMPORTANT]
+> The Dynamics 365 HR Integration to URS app makes the **Worker** field editable when a new bookable resource is created. The **Worker** field isn't editable later.
 
-### Setup of the Use employment default dimensions on integration journals feature
+### Set up the Use employment default dimensions on integration journals feature
 
-Prerequisites must be completed for the new feature to take effect for any mapped workers.
+The following prerequisites must be completed for the new feature to take effect for mapped workers.
 
 1. The first required step is to enable the **Use employment default dimensions on integration journals** feature in feature management.
 2. The second required step is to apply solution in Dual Write for the Dynamics 365 Project Operations Dual Write Entity Maps. This will import one new map and two updated maps for this feature.
@@ -80,15 +79,17 @@ With these prerequisites enabled the first thing noticed by end users will be ch
 
 The scenarios included in the feature include scenarios using Dataverse time entries and expenses for actuals and estimates. Expense reports submitted from Dynamics 365 Finance and Operations behavior is not changed in this feature.
 
-Dimension defaults are different for time entries and expenses. For both forecasts and actuals in time entires, the behavior is as follows:
+Among the scenarios that the feature includes are scenarios that use Dataverse time entries and expenses for actuals and estimates. The behavior for expense reports that are submitted from Dynamics 365 finance and operations apps hasn't changed in this feature.
 
-- For Project – cost posting type dimensions merge from both worker and project, but project dimensions win in case of conflict.
-- For Project – payroll allocation posting type dimensions merge from both worker and project, but worker dimensions win in case of conflict.
+Dimension defaults differ for time entries and expenses. For both forecasts and actuals in time entries, the following behavior occurs:
 
-For both forecasts and actuals in expense entries, the behavior is as follows:
+- For the **Posting type** of **Project - cost**, dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
+- For the **Posting type** of **Project - payroll allocation**, dimensions are merged from both workers and projects, but worker dimensions win if there's a conflict.
 
-- For Project – cost posting type dimensions merge from both worker and project, but project dimensions win in case of conflict.
-- For ledger journal posting type dimensions merge from both worker and project, but project dimensions win in case of conflict.
+For both forecasts and actuals in expense entries, the following behavior occurs:
+
+- For the **Posting type** of **Project - cost**, dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
+- For the **Posting type** of **Ledger journal**,  dimensions are merged from both workers and projects, but project dimensions win if there's a conflict.
 
 ## Enable flexibility in determining financial dimension defaulting for resource based/non-stocked scenarios
 

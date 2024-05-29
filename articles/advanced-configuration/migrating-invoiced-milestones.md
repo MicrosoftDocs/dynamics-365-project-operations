@@ -1,13 +1,14 @@
 ---
 title: Migrate fully invoiced billing milestones at cutover
 description: This article explains how to migrate fixed-priced billing milestones that have been invoiced to the customer for open project contracts before the go-live date.
-author: sigitac
-ms.date: 06/18/2022
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Migrate fully invoiced billing milestones at cutover

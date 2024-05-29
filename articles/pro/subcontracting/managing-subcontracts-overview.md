@@ -2,7 +2,7 @@
 title: Subcontract management in Project Operations
 description: This article provides an overview of the end-to-end subcontract management process typically in project-based organizations.
 author: rumant
-ms.date: 12/15/2023
+ms.date: 04/08/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -36,6 +36,9 @@ The following list provides a step-by-step description of the subcontracting pro
 12.	The system automatically associates all cost actuals that match the subcontract line and project to the vendor invoice. This facilitates a three way match and verification process.
 13.	The project manager can then review the automatically matched project actuals, remove or add other project cost actuals, and complete the verification process.
 14.	Completing the verification process on all lines marks the vendor invoice as **Ready for Payment**. At this stage, the vendor invoice and lines can be transferred to an Accounting or Payables system to process the payment to the vendor. Previously recorded project costs are reversed and actual costs from the vendor invoice line are recorded on the project.
+
+    > [!IMPORTANT]
+    > **Fixed Price** subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
 
 ## Quantity-based subcontract lines and work-based subcontract lines
 

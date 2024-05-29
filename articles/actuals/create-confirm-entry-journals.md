@@ -8,7 +8,7 @@ ms.date: 09/18/2020
 ms.topic: how-to
 mscustom: 
   - bap-template
-ms.prod: 
+ 
 #
 
 # optional metadata

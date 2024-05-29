@@ -6,7 +6,7 @@ description: My timesheets (Optimized for mobile) allows employees to create and
 author: abruer 
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

@@ -1,31 +1,19 @@
 ---
-# required metadata
-
 title: Project contracts
 description: This article provides examples of the project contracts that you can create for various types of projects and funding sources, and how you can manage contracts and invoice project customers.
 author: ryansandness
 ms.date: 11/01/2023
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
-# ROBOTS: 
 audience: Application User, IT Pro
-# ms.devlang: 
 ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm: 
-ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-# ms.search.industry: 
 ms.author: ryansandness
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-
 ---
 
 # Project contracts

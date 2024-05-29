@@ -2,25 +2,25 @@
 title: Dynamics 365 expense management mobile app FAQ
 description: This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 12/15/2023
+ms.date: 05/10/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: ramagadu
+ms.author: mukumarm
 ---
 
 # Expense management mobile app FAQ
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios._
 
 This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app. It also describes known issues that affect the app and explains how to work around them.
 
 ## Which versions of Microsoft Dynamics 365 Finance support the Expense management mobile app?
 
-The Expense management mobile app requires Dynamics 365 Finance version 10.0.37 - 10.0.1725.80 or later.
+The Expense management mobile app requires Dynamics 365 Finance version - 10.0.38 - 10.0.1777.180 or later, 10.0.39 - 10.0.1860.99 or later.
 
 ## Which platforms and mobile devices are supported?
 
@@ -30,9 +30,9 @@ The Expense management mobile app runs within the Power Apps mobile app. All pla
 
 No, the Expense management mobile app doesn't currently support offline mode.
 
-## Does the Dynamics 365 expense management mobile app support itemization, per diem and guest funtionality?
+## Does the Dynamics 365 expense management mobile app support itemization, per diem functionality, and guest functionality?
 
-No, the Expense management mobile app doesn't currently support itemization, per diem and guest funtionality, however these features will be added in the future releases. 
+Yes, the Expense management mobile app supports itemization, per diem functionality, and guest functionality.
 
 ## Does the Dynamics 365 expense management mobile app require another license?
 

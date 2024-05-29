@@ -1,28 +1,14 @@
 --- 
-# required metadata 
- 
 title: Configure intercompany project invoicing
 description: This article shows how to set up project invoicing between two companies in your organization. 
-author: Yowelle
-ms.date: 07/29/2019
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
 ms.topic: how-to 
-ms.prod:  
-ms.technology:  
- 
-# optional metadata 
- 
-ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice   
-audience: Application User 
-# ms.devlang:  
+ms.custom: 
+  - bap-template  
 ms.reviewer: johnmichalak
 
-# ms.tgt_pltfrm:  
-# ms.custom:  
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: andchoi
-ms.search.validFrom: 2016-06-30 
-ms.dyn365.ops.version: Version 7.0.0 
 ---
 # Configure intercompany project invoicing
 

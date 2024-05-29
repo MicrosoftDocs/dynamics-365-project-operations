@@ -1,12 +1,14 @@
 ---
 title: Configure non-stocked materials and pending vendor invoices
 description: This article explains how to enable non-stocked materials and pending vendor invoices.
-author: sigitac
-ms.date: 06/22/2021
-ms.topic: article
-ms.prod:
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Configure non-stocked materials and pending vendor invoices

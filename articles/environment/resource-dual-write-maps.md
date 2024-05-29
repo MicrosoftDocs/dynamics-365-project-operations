@@ -1,13 +1,14 @@
 ---
 title: Project Operations dual-write map versions
 description: This article provides the list of dual-write maps required for Dynamics 365 Project Operations.
-author: sigitac
-ms.date: 07/01/2022
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Project Operations dual-write map versions
@@ -27,6 +28,7 @@ The following apps are required in the Dataverse environment. They must be insta
 3. Dual Write Finance and Extended Solutions
 4. Dual-write Human Resources solution
 5. Dual Write Supply Chain Extended Solution
+6. Dynamics 365 Human Resource Integration to URS
 
 The following maps are required for the Project Operations solution. Make sure to run the maps listed in the following table and any related table maps in your environment.
 
@@ -59,14 +61,14 @@ The following maps are required for a Project Operations solution. Dual-write ma
 | Project transaction categories (msdyn\_transactioncategories) | 1.0.0.0 | Not required for provisioning. ||
 | Project integration table for material estimates (msdyn\_estimatelines) | 1.0.0.0 | Not required for provisioning. ||
 | Project invoice proposals V2 (invoices) | 1.0.0.3 | Not required for provisioning. ||
-| Project Operations integration actuals (msdyn_actuals) | 1.0.0.17 | Not required for provisioning. |10.0.38 or later|
+| Project Operations integration actuals (msdyn_actuals) | 1.0.0.18 | Not required for provisioning. |10.0.39 or later|
 | Project Operations integration contract line milestones (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Not required for provisioning. ||
 | Project Operations integration entity for expense estimates (msdyn_estimatelines) | 1.0.0.2 | Not required for provisioning. ||
 | Project Operations integration entity for hour estimates (msdyn_resourceassignments) | 1.0.0.6 | Not required for provisioning. |10.0.38 or later|
 | Project Operations integration project expense categories export entity (msdyn_expensecategories) | 1.0.0.1 | Not required for provisioning. ||
 | Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.3 | Not required for provisioning. ||
 | Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices) | 1.0.0.2 | Not required for provisioning. |10.0.29 or later|
-| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.6 | Not required for provisioning. | 10.0.38 or later |
+| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.7 | Not required for provisioning. | 10.0.39 or later |
 | Project Operations integration project vendor invoice export entity V2 (msdyn\_projectvendorinvoices) | 1.0.0.0 | Not required for provisioning.  ||
 
 

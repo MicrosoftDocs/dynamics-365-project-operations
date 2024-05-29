@@ -3,26 +3,15 @@
 
 title: Set up and use pay-when-paid vendor payments
 description: This article explains how to create pay-when-paid (PWP) terms so that you can release partial vendor payments, based on customer payments. 
-author: RadhikaRS
-ms.date: 03/30/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm: 
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
+  - bap-template 
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: andchoi
 ms.dyn365.ops.version: 7.0
 ms.search.validFrom: 2019-01-15
 

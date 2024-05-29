@@ -19,5 +19,5 @@ ms.reviewer: johnmichalak
 [!INCLUDE[responsible-ai-features](../includes/responsible-ai-features.md)]
 
 
-- [Project management Copilot overview](../project-management/copilot-features.md)
-
+- [Copilot for project responsible AI FAQ](copilot-for-project-faq.md)
+- [Copilot in time entry responsible AI FAQ](copilot-in-time-entry-faqs.md)

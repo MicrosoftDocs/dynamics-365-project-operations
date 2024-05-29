@@ -1,30 +1,14 @@
 ---
-# required metadata
-
 title: Resource reconciliation overview
 description: This article provides information that will help you ensure that resource bookings and assignments for projects are aligned.
-author: ruhercul
-ms.date: 01/08/2021
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
 ms.topic: overview
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: ruhercul
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
 ---
 
 # Resource reconciliation overview

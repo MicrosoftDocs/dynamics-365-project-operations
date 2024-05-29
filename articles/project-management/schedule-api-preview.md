@@ -2,7 +2,7 @@
 title: Use Project schedule APIs to perform operations with Scheduling entities
 description: This article provides information and samples for using Project schedule APIs.
 author: abriccetti
-ms.date: 09/14/2023
+ms.date: 04/02/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -11,7 +11,7 @@ ms.author: abriccetti
 
 # Use Project schedule APIs to perform operations with Scheduling entities
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 
 **Scheduling entities**
@@ -43,8 +43,8 @@ The following is a list of current Project schedule APIs.
 
 | API                                     | Description |
 |-----------------------------------------|-------------|
-| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately. |
-| **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately. |
+| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately. Project creation can also be done by adding a row to the project table using standard Dataverse APIs. This process won't create a default bucket for the project but may have better performance.|
+| **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately. Team Member creation can also be done by adding a row to the Project Team Member table using standard Dataverse APIs. |
 | **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction. |
 | **msdyn_PssCreateV1**                   | This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation. |
 | **msdyn_PssCreateV2**                   | This API is used to create an entity. It works like **msdyn_PssCreateV1**, but multiple entities can be created in one action. |
@@ -68,7 +68,7 @@ Because records are created immediately for both **CreateProjectV1** and **Creat
 | Resource assignment     | Yes        | Yes\*      | Yes        | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, and **PlannedWork**.  |
 | Project bucket          | Yes        | Yes        | Yes        | The default bucket is created by using the **CreateProjectV1** API. Support for creating and deleting project buckets was added in Update Release 16. |
 | Project team member     | Yes        | Yes        | Yes        | For the create operation, use the **CreateTeamMemberV1** API. |
-| Project                 | Yes        | Yes        |            | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
+| Project                 | Yes        | Yes        | No         | Operations with the following fields aren't supported: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart**, and **Duration**. |
 | Project Checklists      | Yes        | Yes        | Yes        | |
 | Project Label           | No         | Yes        | No         | Label names can be changed. This feature is only available for Project for the Web. Labels are created the first you open a project. |
 | Project Task to Label   | Yes        | No         | Yes        | This feature is only available for Project for the Web. |
@@ -93,7 +93,7 @@ The following is a list of limitations and known issues:
 
 - Each **OperationSet** can only have a maximum of 200 operations.
 - Each user can only have a maximum of 10 open **OperationSets**.
-- Project Operations currently supports a maximum of 500 total tasks on a project.
+- Project Operations currently supports a maximum of 1000 total tasks on a project.
 - Each Update Resource Assignment Contour operation counts as a single operation.
 - Each list of updated contours can contain a maximum of 100 time slices.
 - **OperationSet** failure status and failure logs aren't currently available.

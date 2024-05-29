@@ -1,28 +1,14 @@
 ---
-# required metadata
-
 title: Set up credit card integration
 description: This article explains how to work with expense-related credit card transactions.
-author: suvaidya
-ms.date: 11/17/2021
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
-
-# optional metadata
-
-ms.search.form: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: 
-# ms.search.industry: 
-ms.author: shylaw
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+
 ---
 
 # Set up credit card integration

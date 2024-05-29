@@ -4,7 +4,8 @@ description: This article provides information about how to implement custom bus
 author: stsporen
 ms.custom: 
   - dyn365-projectservice
-ms.date: 07/09/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin

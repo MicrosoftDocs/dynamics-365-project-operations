@@ -2,9 +2,11 @@
 title: Removed or deprecated features in Dynamics 365 Project Operations
 description: This article describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 09/15/2023
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
+
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

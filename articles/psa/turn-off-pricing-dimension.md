@@ -4,7 +4,8 @@ description: This article shows how to set up pricing dimensions in the Project 
 author: Rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/06/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: rumant
 audience: Admin

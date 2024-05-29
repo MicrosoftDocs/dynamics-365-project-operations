@@ -2,20 +2,21 @@
 title: What's new April 2021 - Project Operations lite deployment
 description: This article provides information about the quality updates available in the April 2021 release of Project Operations lite deployment.
 author: sigitac
-ms.date: 04/07/2021
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # What's new April 2021 - Project Operations lite deployment
 
-_Applies To: Lite deployment - deal to proforma invoicing_
+_Applies To: Lite deployment - deal to proforma invoicing._
 
 This article applies to the following Dynamics 365 Project Operations components and versions:
 
-  - Project Operations on Dataverse environment version 4.9.0.221 
+- Project Operations on Dataverse environment version 4.9.0.221
 
 ## Features included in this release
 

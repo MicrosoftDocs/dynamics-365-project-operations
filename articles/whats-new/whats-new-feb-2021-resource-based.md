@@ -2,9 +2,10 @@
 title: What's new February 2021 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates available in the February 2021 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-ms.date: 02/08/2021
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

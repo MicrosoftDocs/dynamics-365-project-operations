@@ -2,7 +2,7 @@
 title: Budget line match priority
 description: This article explains how budget line match priority works for project budgets.
 author: niranjanmaski
-ms.date: 01/13/2023
+ms.date: 03/29/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -20,7 +20,7 @@ Budget line match priority defines the order in which an actual is matched again
 
 As part of the solution update that includes project budgeting, the Budget line match priority table is created in the solution.
 
-You enable the project cost budget feature by using a feature flag. For more information, see [Enable the project cost budget feature](create-delete-project-budget.md#enable-the-project-cost-budget-feature).
+You enable the project budget feature by using a feature flag. For more information, see [Enable the project cost budget feature](create-delete-project-budget.md#enable-the-project-cost-budget-feature).
 
 > [!NOTE]
 > After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
@@ -30,31 +30,42 @@ After the feature flag is enabled, the **Budget match priorities** tab should ap
 | Field name | Applicable transaction class | Context | Budget match priority |
 |---|---|---|---|
 | msdyn\_unitschedule | Expense | Cost | 0 |
-| msdyn\_transactioncategory | Expense | Cost | 1 |
-| msdyn\_task | Expense | Cost | 2 |
-| msdyn\_costtype | Expense | Cost | 3 |
-| msdyn\_accountvendor | Expense | Cost | 4 |
+| msdyn\_task | Expense | Cost | 10 |
+| msdyn\_transactioncategory | Expense | Cost | 20 |
+| msdyn\_costtype | Expense | Cost | 30 |
+| msdyn\_accountvendor | Expense | Cost | 40 |
 | msdyn\_unitschedule | Material | Cost | 0 |
-| msdyn\_product | Material | Cost | 1 |
-| msdyn\_writeinproductdescription | Material | Cost | 2 |
-| msdyn\_task | Material | Cost | 3 |
-| msdyn\_costtype | Material | Cost | 4 |
-| msdyn\_accountvendor | Material | Cost | 5 |
+| msdyn\_task | Material | Cost | 10 |
+| msdyn\_product | Material | Cost | 20 |
+| msdyn\_writeinproductdescription | Material | Cost | 30 |
+| msdyn\_costtype | Material | Cost |40 |
+| msdyn\_accountvendor | Material | Cost | 50 |
 | msdyn\_unitschedule | Time | Cost | 0 |
-| msdyn\_resourcecategory | Time | Cost | 1 |
-| msdyn\_resourceorganizationalunitid | Time | Cost | 2 |
-| msdyn\_bookableresource | Time | Cost | 3 |
-| msdyn\_task | Time | Cost | 4 |
-| msdyn\_costtype | Time | Cost | 5 |
-| msdyn\_accountvendor | Time | Cost | 6 |
+| msdyn\_task | Time | Cost | 10 |
+| msdyn\_resourcecategory | Time | Cost | 20 |
+| msdyn\_resourceorganizationalunitid | Time | Cost | 30 |
+| msdyn\_bookableresource | Time | Cost | 40 |
+| msdyn\_costtype | Time | Cost | 50 |
+| msdyn\_accountvendor | Time | Cost | 60 |
+| msdyn\_unitschedule | Expense | Sales | 0 |
+| msdyn\_task | Expense | Sales | 10 |
+| msdyn\_transactioncategory | Expense | Sales | 20 |
+| msdyn\_unitschedule | Material | Sales | 0 |
+| msdyn\_task | Material | Sales | 10 |
+| msdyn\_product | Material | Sales | 20 |
+| msdyn\_writeinproductdescription | Material | Sales | 30 |
+| msdyn\_unitschedule | Time | Sales | 0 |
+| msdyn\_task | Time | Sales | 10 |
+| msdyn\_resourcecategory | Time | Sales | 20 |
+| msdyn\_resourceorganizationalunitid | Time | Sales | 30 |
+| msdyn\_bookableresource | Time | Sales | 40 |
 
 > [!NOTE]
 > msydn_unitschedule with the display name Unit Group, is a match priority which cannot be updated or deleted. This match priority ensures that the unit match and conversion happens in a right way.
 
-
 ## How does budget match priority work?
 
-Time entry, expense entry, or material use is submitted against a project for approval. After it's approved, it's considered an approved actual that's used in project cost budgeting calculations.
+Time entry, expense entry, or material use is submitted against a project for approval. After it's approved, it's considered an approved actual that's used in project cost and sales budgeting calculations.
 
 Actuals have dimensions that define an actual. Here are some examples:
 
@@ -70,7 +81,7 @@ During matching, the order that the matching algorithm works in is defined by th
 
 Priority 1 is the highest priority for dimensions of a transaction class. The algorithm tries to match all dimensions of an actual against all budget lines.
 
-If no match is found, and no error is encountered, the matching algorithm avoids the *lowest-priority dimension*, according to the Budget line match priority table, and tries to match again. This process continues until either a match is found or an error is encountered. If more than one budget line matches an actual, this situation is also considered an error.
+If no match is found and no error is encountered, the matching algorithm skips the *lowest-priority dimension*, according to the budget line match priority table, and attempts another match. This process is repeated until a match is found or an error occurs. If multiple budget lines match an actual, this situation is considered an error.
 
 ### Example
 
@@ -91,5 +102,3 @@ The actual expense is matched to the budget line where the largest number of dim
 1. The process continues until a unique budget line is matched or an error is encountered.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-
-[Microsoft](https://www.microsoft.com)

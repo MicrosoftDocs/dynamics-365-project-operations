@@ -6,7 +6,7 @@ description: This article provides general information about the project time-re
 author: Yowelle
 ms.date: 05/28/2019
 ms.topic: overview
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

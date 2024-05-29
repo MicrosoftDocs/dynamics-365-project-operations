@@ -1,13 +1,13 @@
 ---
 title: Expense overview
 description: This article provides information about the Expense functionality in Project Operations. 
-author: stsporen
-ms.date: 10/06/2020
+author: mohitmenon
+ms.author: mohitmenon
+ms.date: 05/22/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: stsporen
 
 ---
 

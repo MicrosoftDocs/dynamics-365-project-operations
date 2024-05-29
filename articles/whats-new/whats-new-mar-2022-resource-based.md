@@ -2,9 +2,10 @@
 title: What's new March 2022 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the March 2022 release of Project Operations for resource/non-stocked based scenarios.
 author: sigitac
-ms.date: 03/31/2022
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
-ms.prod:
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

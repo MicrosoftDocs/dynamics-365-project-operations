@@ -1,11 +1,14 @@
 ---
 title: Edit bookings
 description: This article provides information about how to update and make changes to bookings. 
-author: ruhercul
-ms.date: 11/12/2020
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
 ms.topic: article
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: ruhercul
+
 ---
 
 # Edit Bookings

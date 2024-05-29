@@ -1,29 +1,14 @@
 ---
-# required metadata
-
 title: Create custom fields and entities as pricing dimensions
 description: This article provides information about how to create custom option sets or entities.
-author: rumant
-ms.date: 11/18/2020
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+
 ---
 
 # Create custom fields and entities as pricing dimensions

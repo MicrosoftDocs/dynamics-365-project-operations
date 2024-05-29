@@ -4,8 +4,8 @@ description: This article provides information about resource management capabil
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.collection: get-started
-ms.date: 11/28/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: ruhercul
 audience: Admin

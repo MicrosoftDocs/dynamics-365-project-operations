@@ -100,6 +100,8 @@
         href: environment/resource-dual-write-expense.md
       - name: Vendor invoice integration
         href: environment/resource-dual-write-vendor-invoice.md  
+      - name: Project operations dual-write errors and mitigation
+        href: environment/resource-dual-write-frequent-issues.md
     - name: Change language localization settings
       href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
@@ -112,10 +114,14 @@
     items:
     - name: 2024 wave 1 early access - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-2024w1-resource-based.md
-    - name: February 2024 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-feb-2024-resource-based.md
+    - name: April 2024 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-apr-2024-resource-based.md
     - name: Archive
       items:
+       - name: March 2024 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-mar-2024-resource-based.md
+       - name: February 2024 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-feb-2024-resource-based.md
        - name: December 2023 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-dec-2023-resource-based.md
        - name: November 2023 - Project Operations for resource/non-stocked based scenarios
@@ -358,6 +364,8 @@
     items: 
     - name: Project management overview
       href: project-management/project-management-overview.md
+    - name: Saving changes to a project's work breakdown structure
+      href: project-management/saving-changes-to-projects.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Navigate the user interface
@@ -462,12 +470,14 @@
         href: resource-management/add-team-members-grid.md
       - name: Generic resource requirement fulfillment
         href: resource-management/generic-resource-requirement-fulfillment.md
-    - name: Resource Recommendations
+    - name: Resource recommendations
       items:
       - name: Prerequisites to use resource recommendations (preview)
         href: resource-management/getting-started-with-resource-recommendations.md
       - name: Get recommendations for project team members (preview)
         href: resource-management/get-recommendations-for-project-team-members.md
+      - name: Compare and book from suggested resources (preview)
+        href: resource-management/compare-and-book-from-suggested-resources.md
     - name: Administration of resources
       items: 
       - name: Create resources
@@ -496,7 +506,15 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
-  - name: Subcontract Management
+  - name: Project budget management
+    items:
+    - name: Project budget management overview for resource nonstocked
+      href: budget/project-budget-management-overview-res-non-stocked.md
+    - name: Cost and sales budget management in resource nonstocked deploymen
+      href: budget/cost-and-sales-budget-management.md
+    - name: Transfer budgets to forecasts
+      href: budget/transfer-budgets-to-forecasts.md
+  - name: Subcontract management
     items: 
     - name: Subcontract management in Project Operations
       href: pro/subcontracting/managing-subcontracts-overview.md
@@ -542,6 +560,8 @@
       items: 
       - name: Time entry user interface
         href: time/ui-behavior-time.md
+    - name: Use Copilot in time entry (preview)
+      href: time/copilot-in-time-entry.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
@@ -612,6 +632,10 @@
           href: expense/mobile-app-manage-expense-reports.md
         - name: Manage receipts by using the Expense mobile app
           href: expense/mobile-app-manage-receipts.md
+        - name: Manage per diem using the Expense management mobile app
+          href: expense/mobile-app-manage-perdiem.md
+        - name: Manage guests using the Expense management mobile app
+          href: expense/mobile-app-manage-guests.md
         - name: Manage expense report approvals using the Expense mobile app
           href: expense/mobile-app-manage-approvals.md
       - name: Expense mobile app FAQ
@@ -702,6 +726,8 @@
       href: invoicing/post-project-invoices.md
     - name: Proforma invoicing
       items:
+      - name: Create proforma project invoices with Billing hub
+        href: proforma-invoicing/billing-hub.md
       - name: Manage project-based billing backlog
         href: proforma-invoicing/manage-billing-backlog.md
       - name: Manage not-to-exceed status and validations
@@ -816,10 +842,14 @@
     items:
     - name: What's new 2024 wave 1 early access - lite deployment
       href: pro/whats-new/whats-new-2024w1-early-access-lite.md
-    - name: What's new February 2024 - lite deployment
-      href: pro/whats-new/whats-new-feb-2024-lite.md
+    - name: What's new April 2024 - lite deployment
+      href: pro/whats-new/whats-new-apr-2024-lite.md
     - name: Archive
       items:
+      - name: What's new March 2024 - lite deployment
+        href: pro/whats-new/whats-new-mar-2024-lite.md
+      - name: What's new February 2024 - lite deployment
+        href: pro/whats-new/whats-new-feb-2024-lite.md
       - name: What's new December 2023 - lite deployment
         href: pro/whats-new/whats-new-dec-2023-lite.md
       - name: What's new November 2023 - lite deployment
@@ -1084,6 +1114,8 @@
     items: 
     - name: Project management overview
       href: project-management/project-management-overview.md
+    - name: Saving changes to a project's work breakdown structure
+      href: project-management/saving-changes-to-projects.md
     - name: Project stages
       href: project-management/project-stages.md
     - name: Navigating the user interface
@@ -1166,8 +1198,12 @@
       href: pro/budget/keyconcepts-projectbudget.md 
     - name: Create and delete project cost budgets
       href: pro/budget/create-delete-project-budget.md
+    - name: Create and delete project sales budgets
+      href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Summarize budget lines during import
+      href: pro/budget/summarize-budgetline-during-import.md
     - name: Set up a budget period
       href: pro/budget/budget-period-setup.md
     - name: Project budget line
@@ -1226,6 +1262,8 @@
         href: resource-management/getting-started-with-resource-recommendations.md
       - name: Get recommendations for project team members (preview)
         href: resource-management/get-recommendations-for-project-team-members.md
+      - name: Compare and book from suggested resources (preview)
+        href: resource-management/compare-and-book-from-suggested-resources.md  
     - name: Administration of resources
       items: 
       - name: Create resources
@@ -1318,6 +1356,8 @@
       items: 
       - name: Time entry user interface 
         href: time/ui-behavior-time.md
+    - name: Use Copilot in time entry (preview)
+      href: time/copilot-in-time-entry.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
@@ -1366,6 +1406,8 @@
         href: actuals/create-confirm-correction-journals.md
   - name: Proforma invoicing
     items:
+    - name: Create proforma project invoices with Billing hub
+      href: proforma-invoicing/billing-hub.md
     - name: Manage project billing backlog
       href: pro/proforma-invoicing/manage-billing-backlog-sales.md
     - name: Manage not-to-exceed status and validations
@@ -1508,6 +1550,8 @@
       href: prod-pma/tasks/rename-project.md
     - name: Implement custom fields for the Project timesheet mobile app
       href: prod-pma/custom-fields-mobile.md
+    - name: Set up roles on Work breakdown structure templates
+      href: prod-pma/set-up-roles-wbs-template.md
   - name: Resource management
     items:
     - name: Project resourcing overview
@@ -1526,8 +1570,6 @@
       href: prod-pma/synchronize-resource-capacity.md
     - name: Project resource scheduling performance (preview)
       href: prod-pma/project-scheduling-performance.md
-    - name: Set up roles on Work breakdown structure templates
-      href: prod-pma/set-up-roles-wbs-template.md
     - name: Resource fulfillment for planned resources
       href: prod-pma/resource-fulfillment-planned-resources.md
   - name: Project budgets and forecasts
@@ -1744,6 +1786,8 @@
       items:
       - name: Manage expenses, expense reports, and receipts overview
         href: expense/mobile-app-manage expenses-overview.md
+      - name: Manage itemization using Expense management mobile app
+        href: expense/mobile-app-manage-itemization.md
       - name: Manage expenses by using the Expense mobile app
         href: expense/mobile-app-manage-expenses.md
       - name: Manage expense reports by using the Expense mobile app
@@ -1869,7 +1913,9 @@
   - name: Project Service Automation upgrade (app version Project Operations Lite 4.x)
     items: 
     - name: Upgrade from Project Service Automation to Project Operations
-      href: psa/upgrade-project-operations-non-stocked.md    
+      href: psa/upgrade-project-operations-non-stocked.md  
+    - name: Project Service Automation end of life FAQ
+      href: psa/psa-eol-faq.md
     - name: Feature changes from Project Service Automation to Project Operations
       href: psa/psa-project-operations-changes.md 
     - name: Project Service Automation to Project Operations project scheduling conversion process  
@@ -2240,5 +2286,8 @@
   items:
   - name: Responsible AI FAQs for Project Operations
     href: responsible-ai/responsible-ai-overview.md
-  - name: Copilot for project overview
-    href: project-management/copilot-features.md
+  - name: Copilot for project responsible AI FAQ
+    href: responsible-ai/copilot-for-project-faq.md
+  - name: Responsible AI FAQs for Copilot in time entry
+    href: responsible-ai/copilot-in-time-entry-faqs.md
+

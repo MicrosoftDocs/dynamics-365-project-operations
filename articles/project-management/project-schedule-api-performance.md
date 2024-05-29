@@ -1,11 +1,14 @@
 ---
 title: Project schedule API performance
 description: This article provides information about the performance benchmarks of the Project schedule APIs and identifies best practices for optimum use.
-author: ruhercul
-ms.date: 11/03/2021
-ms.topic: article
+author: abriccetti
+ms.author: abriccetti
+ms.date: 05/21/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Project schedule API performance

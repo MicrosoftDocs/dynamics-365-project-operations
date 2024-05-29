@@ -4,7 +4,8 @@ description: This article provides information about the solution changes for Ti
 author: makk
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/15/2019
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: makk
 audience: admin

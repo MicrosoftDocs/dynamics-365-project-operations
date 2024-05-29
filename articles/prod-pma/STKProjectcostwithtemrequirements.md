@@ -5,8 +5,10 @@ author: mukumarm
 ms.author: mukumarm
 ms.reviewer: johnmichalak
 ms.topic: article
-ms.date: 2/21/2023
-ms.custom:
+ms.custom: 
+  - bap-template
+ms.date: 05/22/2024
+
 ---
 
 # Purchase orders for stocked items with item requirements

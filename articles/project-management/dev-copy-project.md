@@ -2,20 +2,25 @@
 title: Develop project templates with Copy Project
 description: This article provides information about how to create project templates using the Copy Project custom action.
 author: abriccetti
-ms.date: 09/14/2023
+ms.date: 04/01/2024
 ms.topic: how-to
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
 
 # Develop project templates with Copy Project
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role. Customers can use this functionality to build basic project templates.
 
 When you select **Copy Project**, the status of the target project is updated. Use **Status Reason** to determine when the copy action is complete. Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.
+
+To add more columns to copy from the Project entity, add those columns to the **Copy Project Columns** view on the Project entity, and then run the **CopyProjectEntityAttributesRequest** API via a plugin or flow. This API copies the data in the columns in the **Copy Project Columns** view from the specified source project to the target project. This API must be called separately from the CopyProjectV3 or V4 API call. 
+
+To add more columns to copy from the Project Task entities, add those columns to the **Copy Project Task Columns** view on the **Project Task** table to ensure columns are copied to the new Project Tasks when CopyProjectV3 or V4 are called.
 
 ## Copy Project v3 custom action
 
@@ -29,7 +34,7 @@ There are three input parameters:
 
 - **ReplaceNamedResources** or **ClearTeamsAndAssignments** – Set only one of the options. Don't set both.
 
-    - **\{"ReplaceNamedResources":true\}** – The default behavior for Project Operations. Any named resources are replaced with generic resources.
+    - **\{"ReplaceNamedResources":true\}** – The default behavior for Project Operations. Any named resources are replaced with generic resources. The only exception is assignments to the Project Manager on the source project are assigned to the Project Manager of the target project (a named resource is required, and not a generic resource).
     - **\{"ClearTeamsAndAssignments":true\}** – The default behavior for Project for the Web. All assignments and team members are removed.
 
 - **SourceProject** – The entity reference of the source project to copy from. This parameter can't be null.
@@ -73,7 +78,7 @@ There are five input parameters:
 - **TeamMemberOption** – The option for copying team members to the target project. This parameter can't be null.
 
     - **0** – Don't copy team members.
-    - **1** – Copy team members as generic resources.
+    - **1** – Copy team members as generic resources (behaves the same as in V3).
     - **2** – Copy team members to specified named or generic resources.
 
 - **TeamMembers** – The entity collection of named or generic team members to replace the existing team members. This parameter must be null if **0** or **1** is selected for the **TeamMemberOption** parameter. It can't be null if **2** is selected.
@@ -186,9 +191,29 @@ request["Target"] = targetProjectRef;
 request["SourceProject"] = sourceProjectRef;
 request["TeamMemberOption"] = new OptionSetValue(2); // 0: None, 1: CopyAsGeneric, 2: Specify
 request["TeamMembers"] = toBeCreatedTargetTeamMembers;
-request["TeamMembersMapping"] = JsonConverter.SerializeJson(teamMembersMapping);
+request["TeamMembersMapping"] = SerializeJson(teamMembersMapping); // See implementation of SerializeJson() method below
 
 OrganizationService.Execute(request);
+
+/* Sample serialized json for team member mapping:
+'[
+{"Key":"a2cee002-cca1-41a4-8821-09d8327741e9","Value":"32c55ac0-06d6-4809-bcdb-566635576e1e"},
+{"Key":"b2cee002-cca1-41a4-8821-09d8327741e0","Value":"42c55ac0-06d6-4809-bcdb-566635576e10"},
+]'
+*/
+string SerializeJson<T>(T obj)
+{
+    var serializer = new System.Runtime.Serialization.Json.DataContractJsonSerializer(typeof(T));
+
+    using (Stream stream = new MemoryStream())
+    {
+        serializer.WriteObject(stream, obj);
+        stream.Position = 0;
+
+        StreamReader streamReader = new StreamReader(stream);
+        return streamReader.ReadToEnd();
+    }
+}
 
 /* Optional code to wait for the copy to complete as the main work is done in Async service.
  * To see details on error, go to PSS Error Logs and/or Settings > System Jobs.

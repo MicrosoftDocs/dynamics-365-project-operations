@@ -1,6 +1,4 @@
 ---
-# required metadata
-
 title: GST/TDS-TCS tax support for Project integration journals
 description: This article explains the calculation of Indian taxes and how to adjust accounting attributes for GST and TDS-TCS transactions in Project integration journals.
 author: prabhatb
@@ -8,19 +6,10 @@ ms.date: 06/02/2023
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
 audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-# ms.custom: 
 ms.search.region: India
-# ms.search.industry: 
 ms.author: kfend
 ms.search.validFrom: 2023-05-25
 ms.dyn365.ops.version: 10.0.35

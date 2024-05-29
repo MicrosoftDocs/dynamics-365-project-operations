@@ -1,13 +1,14 @@
 ---
 title: Sign up for a preview subscription - lite
 description: This article provides information about how to subscribe to and deploy Project Operations lite deployment - deal to proforma invoicing.
-author: sigitac
-ms.date: 07/02/2021
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: sigitac
+
 ---
 
 # Sign up for a preview subscription - lite 

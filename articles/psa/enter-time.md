@@ -4,7 +4,8 @@ description: How to enter time in Project Service
 author: revathimuthiah
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: article
 ms.author: revathim
 audience: Admin

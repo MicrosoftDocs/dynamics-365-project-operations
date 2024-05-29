@@ -6,7 +6,7 @@ description: This article provides information about how to transfer remaining b
 author: Yowelle
 ms.date: 03/23/2020
 ms.topic: article
-ms.prod: 
+ 
 ms.technology: 
 
 # optional metadata

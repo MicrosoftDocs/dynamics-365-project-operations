@@ -3,7 +3,7 @@ title: Set up automatic invoice creation
 description: This article provides information about how to set up and configure automatic creation of proforma invoices.
 author: rumant
 ms.date: 04/05/2021
-ms.topic: how to
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

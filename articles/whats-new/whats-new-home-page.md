@@ -5,8 +5,10 @@ description: This article points to articles that describe the new and changed f
 author: johnmichalak
 ms.author: johnmichalak
 ms.reviewer: johnmichalak
-ms.date: 02/27/2024
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - evergreen
+ms.date: 04/09/2024
 ms.topic: whats-new
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
 ---
@@ -25,6 +27,8 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Version | Build number | Autoupdate availability | Learn more |
 |---------|--------------|---------------|-------------|
+| Dataverse 4.103.0.8 </br> Finance 10.0.39 |    | April 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-apr-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-apr-2024-lite.md) |
+| Dataverse 4.92.0.2 </br> Finance 10.0.39 |    | March 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-mar-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-mar-2024-lite.md) |
 | Dataverse 4.91.0.95 </br> Finance 10.0.38 |    | February 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-feb-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-feb-2024-lite.md) </br> [Project Operations for stocked/production-based scenarios](../prod-pma/whats-new/whats-new-feb-2024-stocked.md)|
 | Dataverse 4.89.0.15 </br> Finance 10.0.37 |    | December 2023    | [Project Operations for resource/non-stocked based scenarios](whats-new-dec-2023-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-dec-2023-lite.md) |
 | Dataverse 4.88.0.127 </br> Finance 10.0.37 |    | November 2023    | [Project Operations for resource/non-stocked based scenarios](whats-new-nov-2023-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-nov-2023-lite.md) </br> [Project Operations for stocked/production-based scenarios](../prod-pma/whats-new/whats-new-nov-2023-stocked.md)|
