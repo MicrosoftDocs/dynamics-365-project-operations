@@ -2,7 +2,7 @@
 title: Financial dimension defaults
 description: This article provides information about how to set up financial dimension defaults.
 author: ryansandnessMSFT
-ms.date: 03/05/2024
+ms.date: 05/30/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
