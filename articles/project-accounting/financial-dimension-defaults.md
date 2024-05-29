@@ -1,9 +1,11 @@
 ---
 title: Financial dimension defaults
 description: This article provides information about how to set up financial dimension defaults.
-author: ryansandness
-ms.date: 05/30/2024
-ms.topic: article
+author: ryansandnessMSFT
+ms.date: 03/05/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: ryansandness
 ---
@@ -12,9 +14,13 @@ ms.author: ryansandness
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-Dynamics 365 Project Operations uses the [Financial dimensions](/dynamics365/finance/general-ledger/financial-dimensions) framework in Dynamics 365 Finance to provide additional insights on project subledger and general ledger transactions.
+_**Applies To:** Project Operations for resource/non-stocked based scenarios._
 
-Default financial dimensions can be set on a customer, project funding source, project contract line, or project.
+This article provides information about how to set up financial dimension defaults.
+
+Microsoft Dynamics 365 Project Operations uses the [Financial dimensions](/dynamics365/finance/general-ledger/financial-dimensions) framework in Dynamics 365 Finance to provide more insights into project subledger and general ledger transactions.
+
+Default financial dimensions can be set up on a customer, project funding source, project contract line, or project.
 
 ## Define default financial dimensions for a customer
 
@@ -55,9 +61,9 @@ Project default financial dimensions are used to set journal line defaults for t
 
 ## Enable default financial dimensions for bookable resources
 
-An employee’s financial dimensions were previously not considered in the financial entries generated from their work for time or expense transactions. New functionality is now available to map an individual worker to a bookable resource and use that worker’s financial dimensions in the related integration journal and forecast lines and postings.
+Previously, an employee's financial dimensions weren't considered in the financial entries that were generated from the employee's work. However, new functionality is available to map an individual worker to a bookable resource and use that worker's employment financial dimensions in the related integration journal and forecast lines and postings. This feature has a dependency on an optional Dataverse solution and integration. The Dynamics 365 HR Integration to URS app must be installed as a prerequisite. For more information and installation instructions, see [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
-This feature has a dependency on an optional Dataverse solution and integration. The Dynamics 365 HR Integration to URS app must be installed as a prerequisite. Setup installations are available here - <https://learn.microsoft.com/dynamics365/human-resources/hr-admin-integration-hr-rm>. 
+After installation and configuration, the Worker (cdm\_workers) dual-write map should be installed and have a status of **Running**. A new field on the bookable resource is available to map workers to bookable resources. Bookable resources must also be newly created or updated manually to have workers linked to them.
 
 > [!IMPORTANT]
 > The Dynamics 365 HR Integration to URS app makes the **Worker** field editable when a new bookable resource is created. The **Worker** field isn't editable later.
@@ -66,18 +72,23 @@ This feature has a dependency on an optional Dataverse solution and integration.
 
 The following prerequisites must be completed for the new feature to take effect for mapped workers.
 
-1. The first required step is to enable the **Use employment default dimensions on integration journals** feature in feature management.
-2. The second required step is to apply solution in Dual Write for the Dynamics 365 Project Operations Dual Write Entity Maps. This will import one new map and two updated maps for this feature.
-3. With the prerequisites features installed we need to modify the integration key to make **Bookable Resource** have context for the relevant legal entity. Click into integration key and add "bookable resourceid [Bookable Resource] in the first column next to **Bookable Resource**. Click Save and exit the integration key screen.
-4. Next, stop the Project Operations Integration Actuals map and click Table map version to update from 1.0.14 to 10.0.17 or later. You may need to also click refresh tables from within the dual write map to see the new table schema, and then run.
-5. Next, stop the Project Operations integration entity for hour estimates map and click Table map version to update from 1.0.4 to 1.0.6 or later. You may need to also click refresh tables form within the dual write map to see the new table schema, and then run.
-6. Finally, start the new map for Project worker resource import (bookableresources) if it has not yet been started from the related maps starting.
+1. Enable the **Use employment default dimensions on integration journals** feature in Feature management.
+2. Apply the solution in dual-write for the Project Operations dual-write entity maps to import one new map and two updated maps for this feature.
+3. Modify the integration key to make bookable resources have context for the relevant legal entity.
+
+    a. Select integration key, and then, in the first column next to **Bookable Resource**, add **bookableresourceid [Bookable Resource]**.
+    b. Select **Save**, and close the integration key page.
+
+4. Stop the **Project Operations Integration Actuals** map, and then select **Table map version** to update to version 10.0.17 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema. T
+5. Stop the **Project Operations integration** entity for the **Hour estimates** map, and then select **Table map version** to update to version 1.0.6 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema.
+6. Start the new map for **Project worker resource import (bookable resources)**.
 
 ### Changes enabled by this feature
 
-With these prerequisites enabled the first thing noticed by end users will be changes to the integration journal. A new field for Resource will now be visible in the integration journal. The Resource field will display the unique identifier and name of the resource based on the worker. Note the previous field Resource name is still available but will display the same value in the case of two bookable resources with the same name. If any integration journal line does not have a Resource value populated, that will indicate there is no mapping between the worker and the bookable resource.
+After the prerequisites are completed, users should notice changes to the integration journal. A new **Resource** field in the integration journal now shows the unique identifier and name of the resource, based on the worker.
 
-The scenarios included in the feature include scenarios using Dataverse time entries and expenses for actuals and estimates. Expense reports submitted from Dynamics 365 Finance and Operations behavior is not changed in this feature.
+> [!NOTE]
+> The previous field, **Resource name**, is still available. However, it shows the same value when there are two bookable resources that have the same name. If no **Resource** value is set for an integration journal line, there's no mapping between the worker and the bookable resource.
 
 Among the scenarios that the feature includes are scenarios that use Dataverse time entries and expenses for actuals and estimates. The behavior for expense reports that are submitted from Dynamics 365 finance and operations apps hasn't changed in this feature.
 
@@ -131,7 +142,7 @@ As of the 10.0.40 preview release, the following documents are not considered in
 
 - Expense reports submitted from Dynamics 365 Finance and Operations.
 - Purchase requests, purchase orders, and vendor invoices submitted from Finance and Operations.
-
-As of the 10.0.40 preview release, Revenue recognition has a known limitation. Revenue recognition will follow the dimensions where fee journals are enabled. In a simple fixed price project with a single contract line dimensions can correctly default from the contract. However if a more complicated scenario is used with a time and material contract line for fees, the dimensions will default from the time and material line used for fees currently.
+As of the 10.0.40 preview release, Revenue recognition has a known limitation. Revenue recognition will follow the dimensions where fee journals are enabled. In a simple fixed price project with a single contract line the dimensions can correctly default from the contract. However if a time and material contract line for fees and a separate fixed price contract line for revenue recognition exist, then the dimensions will default from the time and material contract line used for fees.
+-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
