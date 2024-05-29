@@ -79,7 +79,7 @@ The following prerequisites must be completed for the new feature to take effect
     a. Select integration key, and then, in the first column next to **Bookable Resource**, add **bookableresourceid [Bookable Resource]**.
     b. Select **Save**, and close the integration key page.
 
-4. Stop the **Project Operations Integration Actuals** map, and then select **Table map version** to update to version 10.0.17 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema. T
+4. Stop the **Project Operations Integration Actuals** map, and then select **Table map version** to update to version 10.0.17 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema. 
 5. Stop the **Project Operations integration** entity for the **Hour estimates** map, and then select **Table map version** to update to version 1.0.6 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema.
 6. Start the new map for **Project worker resource import (bookable resources)**.
 
