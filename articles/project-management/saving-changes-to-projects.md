@@ -2,7 +2,7 @@
 title: Saving changes to a project's work breakdown structure 
 description: This article explains how changes made the work breakdown structure are saved to Dataverse.
 author:  abriccetti
-ms.date: 03/11/2024  
+ms.date: 05/29/2024  
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: johnmichalak
