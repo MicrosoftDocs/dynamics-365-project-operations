@@ -2,7 +2,7 @@
 title: Project invoice proposal performance features
 description: This article provides information about performance improvements to project invoice proposals.
 author: ryansandness
-ms.date: 01/4/2022
+ms.date: 06/04/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -20,9 +20,11 @@ ms.dyn365.ops.version: 10.0.18
 
 [!include [banner](../includes/banner.md)]
 
-When you create a new invoice proposal, you might encounter slower processing when the number of projects and transactions increases. This article describes features that you can enable to help yourself work more efficiently.
+When you create, edit, or post an invoice proposal, you might encounter slower processing when the number of projects and transactions increases. This article describes features that you can enable to help yourself work more efficiently.
 
-## Project invoice proposal performance enhancement
+## Features to enhance project invoice proposal creation performance
+
+### Project invoice proposal performance enhancement
 
 This feature helps improve performance and reduce the time that's required to create an invoice proposal. It enables multithreaded tasks for invoice proposal creation and improves the logic that's used to scan projects for transactions that need invoices.
 
@@ -42,7 +44,7 @@ Project invoice proposals that are created in batch mode will be created more qu
 >
 > The transactions for an individual contract won't be split into multiple subtasks. If only one or two contracts have transactions to invoice, the number of subtasks that's configured won't be used. Instead, a subtask will be created for each contract. For example, if you enter **3** as the number of subtasks for invoice proposal creation in batch mode, and only two contracts have invoiceable transactions, only two subtasks are created.
 
-## Performance improvement to filter by project for project invoice proposals with billing rules
+### Performance improvement to filter by project for project invoice proposals with billing rules
 
 This feature helps improve performance during invoice proposal creation when you use time-and-material or milestone billing rules that have many billing rules and a high volume of transactions and milestones.
 
@@ -63,3 +65,28 @@ To enable the **Performance improvement to filter by project for project invoice
 1. Refresh your browser, and then create a new invoice proposal.
 
 This feature can be used together with the **Project invoice proposal performance enhancement** feature to prevent the automatic display of transactions before filters are applied.
+
+### Enable project invoice proposal creation specific to selected project.
+
+This feature helps improve performance during invoice proposal creation when you don't use billing rules and have a high volume of transactions split across subprojects.
+
+To help improve performance, this feature enforces the **Project** filter to filter from the starting project, so that only transactions that match the filter are returned. Previously, if the **Project** filter was set to a subproject the filter in transaction selection screen would default up a level to the parent project level. Users can now filter to specific subprojects or the parent project.
+
+If you create an invoice proposal from within the context of a subproject, the **Project** filter will be editable and set to the current parent project or subproject.
+
+## Features to enhance editing project invoice proposals
+
+### Disable automatic refresh of summaries
+
+If you often work with large invoices where edits are required to add and remove transactions, you may benefit from delaying summary calculations until you're ready. Instead of recalculating tax and proposal totals after each change, you can make several changes and then update the summary data once at the end.
+
+Th **Disable automatic refresh of summaries**  feature is an optional parameter to be enabled in **Project management and accounting parameters** on the **Invoice** tab. It requires the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature as a prerequisite to see the parameter.
+
+With the feature enabled, the following changes can be observed:
+
+- On the **Project invoice proposals** form, a new column is added for **Recalculates totals status** with values of **required** and **not required**.
+- If the parameter isn't enabled the value for **Invoice amount** on the same page won't be updated until recalculation occurs.
+- Within the **invoice proposals** form, a refresh button will be disabled by default but available. 
+- When a transaction is edited, a new transaction is added, or a transaction is removed, the values in the **invoice proposals transaction summaries** fasttab will not reflect the new values.
+- Users can click the refresh button to refresh interactively or in batch.
+- Users can also post instead of refreshing, and refreshing will happen automatically.
