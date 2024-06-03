@@ -38,14 +38,14 @@ Project contracts are created and maintained in Dataverse. Accounting attributes
 To set financial dimensions for a project funding source, follow these steps.
 
 1. Go to **Project management and accounting** \> **Projects** \> **Project contracts**.
-1. Select the record that you want to update, select the **Project contract** tab, then select **Show default accounting**.
-1. Expand **Related information**, select the **Funding sources** tab, then set the financial dimension defaults. Notice that the financial dimension defaults are taken from the customer account.
+1. Select the record that you want to update, select the **Project contract** tab, and then select **Show default accounting**.
+1. Expand **Related information**, select the **Funding sources** tab, and then set the financial dimension defaults. Notice that the financial dimension defaults are taken from the customer account.
 
 ### Set financial dimensions for a project contract line
 
 1. Go to **Project management and accounting** \> **Projects** \> **Project contracts**.
-1. Select the record that you want to update, select the **Project contract** tab, then select **Show default accounting**.
-1. Expand **Related information**, select the **Contract lines** tab, then set the financial dimension defaults. The financial dimension defaults are applicable and can be used only with Fixed price (milestone) contract lines.
+1. Select the record that you want to update, select the **Project contract** tab, and then select **Show default accounting**.
+1. Expand **Related information**, select the **Contract lines** tab, and then set the financial dimension defaults. The financial dimension defaults are applicable and can be used only with Fixed price (milestone) contract lines.
 
 These defaults are used on related project on-account transactions and invoice lines.
 
@@ -54,8 +54,8 @@ These defaults are used on related project on-account transactions and invoice l
 Projects are created and maintained in Dataverse. Accounting attributes for projects are set in the **Project management and accounting** module in Finance.
 
 1. Go to **Project management and accounting** \> **Projects** \> **All projects**.
-1. Select the record that you want to update, select the **Project** tab, then select **Show default accounting**.
-1. Expand **Related information**, select the **Setup** tab, then set the financial dimension defaults. Notice that financial dimensions defaults are taken from the customer account. If the project is associated with a contract line that has multiple project contract customers, the primary customer is used to enter financial dimension defaults.
+1. Select the record that you want to update, select the **Project** tab, and then select **Show default accounting**.
+1. Expand **Related information**, select the **Setup** tab, and then set the financial dimension defaults. Notice that financial dimensions defaults are taken from the customer account. If the project is associated with a contract line that has multiple project contract customers, the primary customer is used to enter financial dimension defaults.
 
 Project default financial dimensions are used to set journal line defaults for time, expense, and fee transactions in the Project Operations integration journal and on related project invoice lines.
 
@@ -63,7 +63,7 @@ Project default financial dimensions are used to set journal line defaults for t
 
 Previously, an employee's financial dimensions weren't considered in the financial entries that were generated from the employee's work. However, new functionality is available to map an individual worker to a bookable resource and use that worker's employment financial dimensions in the related integration journal, forecast lines, and postings. This feature has a dependency on an optional Dataverse solution and integration. The **Dynamics 365 HR Integration to URS** app must be installed as a prerequisite. For more information and installation instructions, see [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm).
 
-After installation and configuration, the Worker (cdm\_workers) Dual-write map should be installed and have a status of **Running**. A new field on the bookable resource is available to map workers to bookable resources. Bookable resources must also be newly created or updated manually to have workers linked to them.
+After installation and configuration, the Worker (cdm\_workers) dual-write map should be installed and have a status of **Running**. A new field on the bookable resource is available to map workers to bookable resources. Bookable resources must also be newly created or updated manually to have workers linked to them.
 
 > [!IMPORTANT]
 > The **Dynamics 365 HR Integration to URS** app makes the **Worker** field editable when a new bookable resource is created. The **Worker** field isn't editable later.
@@ -74,14 +74,14 @@ The following prerequisites must be completed for the new feature to take effect
 
 1. Go to **Feature management**.
 1. Enable **Use employment default dimensions on integration journals**.
-1. Apply the solution in Dual-write for the Project Operations Dual-write entity maps to import one new map and two updated maps for this feature.
+1. Apply the solution in dual-write for the Project Operations dual-write entity maps to import one new map and two updated maps for this feature.
 1. Modify the integration key to make bookable resources have context for the relevant legal entity.
-   
-   1. Select integration key, in the first column next to **Bookable Resource**, add **bookableresourceid [Bookable Resource]**.
-   1. Select **Save**, and close the integration key page.
 
-1. Stop the **Project Operations Integration Actuals** map, then select **Table map version** to update to version 10.0.17 or later. You might have to select **Refresh tables** from within the Dual-write map to see and run the new table schema. 
-1. Stop the **Project Operations integration** entity for the **Hour estimates** map, and then select **Table map version** to update to version 1.0.6 or later. You might have to select **Refresh tables** from within the Dual-write map to see and run the new table schema.
+    1. Select the integration key, and then, in the first column next to **Bookable Resource**, add **bookableresourceid \[Bookable Resource\]**.
+    1. Select **Save**, and close the integration key page.
+
+1. Stop the **Project Operations Integration Actuals** map, and then select **Table map version** to update to version 10.0.17 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema. 
+1. Stop the **Project Operations integration** entity for the **Hour estimates** map, and then select **Table map version** to update to version 1.0.6 or later. You might have to select **Refresh tables** from within the dual-write map to see and run the new table schema.
 1. Start the new map for **Project worker resource import (bookable resources)**.
 
 ### Changes enabled by this feature
@@ -105,45 +105,45 @@ For both forecasts and actuals in expense entries, the following behavior occurs
 
 ## Enable flexibility in determining financial dimension defaulting for resource based/non-stocked scenarios
 
-New functionality is available to provide more options in how financial dimensions are defaulted onto transactions. This feature allows for the selection of the project or contract line to determine the financial dimensions that are defaulted onto transactions.
+New functionality provides more options for the entry of default financial dimensions on transactions. This feature lets you select the project or contract line to determine the default financial dimensions that are entered on transactions.
 
-The **(Preview) Enable flexibility in determining financial dimension defaulting for resource based/non-stocked scenarios** feature must be enabled in feature management to use this functionality.
+To use this functionality, you must enable the **(Preview) Enable flexibility in determining financial dimension defaulting for resource based/non-stocked scenarios** feature in Feature management.
 
-Functionality included in the feature include:
+The feature includes the following functionality:
 
-- A new form for **Project default dimension rules** to define the criteria for determining if dimensions should default from the project or contract line.
-- The addition of **Time** and **Material** contract lines appearing in the defaulting accounting for project contracts. This allows users to enter financial dimension default values for both types of contract lines now.
-- Logic added to import from staging, on-account transactions, forecasts, and revenue recognition to determine if dimensions should default from the project or contract line.
-- Fixes to improve the reliability of saving default dimensions values within the project and contract line forms.
+- You can use the new **Project default dimension rules** page to define the criteria that determine whether default dimensions should be taken from the project or contract line.
+- **Time** and **Material** contract lines appear in the defaulting accounting for project contracts. Therefore, users can now enter financial dimension default values for both types of contract lines.
+- Logic that is added to import from staging, on-account transactions, forecasts, and revenue recognition determines whether default dimensions should be taken from the project or contract line.
+- Fixes have been made to improve the reliability of saving default dimension values on the project and contract line pages.
 
-### Dimension Rules
+### Dimension rules
 
-After the feature is enabled, there's a new form available for Project default dimension rules. The form is accessed from **Project management and accounting** > **Setup** > > **Posting** > **Project default dimension rules**.
+After the feature is enabled, a new page for project default dimension rules is available at **Project management and accounting** \> **Setup** \> **Posting** \> **Project default dimension rules**.
 
-The **Project default dimension rules** form provides several criteria to determine at what scope the rule should apply. It also provides the last column of default dimension priority to determine if dimensions should default from the project or the contract line.
+The **Project default dimension rules** page provides several criteria for determining the scope at which the rule should apply. The last column is for the default dimension priority. It's used to determine whether default dimensions should be taken from the project or contract line.
 
-On initial enabling of feature, or in the case of upgrades, there won't be any rules defined. In most cases, not having rules defined is equivalent to the previous behavior of defaulting dimensions from the project.
+After the feature is first enabled, or in the event of upgrades, no rules are defined. In most cases, the absence of defined rules is equivalent to the previous behavior, where default dimensions are taken from the project.
 
-Previous legacy rules without the feature enabled are as follows:
+The following previous legacy rules are used if the feature isn't enabled:
 
-- The project dimensions are used as the primary source for time entries, expense entries, fees, material usage entries, and journals originating from Dataverse.
-- The project dimensions are used as the primary source for forecast entries originating from Dataverse.
-- The project contract line dimensions are used as the primary source for on-account transactions originating from Dataverse.
-- Transactions originating from finance and operations apps use the dimensions defined on the originating document. These dimensions used the project dimensions as their primary source.
+- The project dimensions are used as the primary source for time entries, expense entries, fees, material usage entries, and journals that originate from Dataverse.
+- The project dimensions are used as the primary source for forecast entries that originate from Dataverse.
+- The project contract line dimensions are used as the primary source for on-account transactions that originate from Dataverse.
+- Transactions that originate from finance and operations apps use the dimensions that are defined on the originating document. These dimensions used the project dimensions as their primary source.
 
-If there's a situation where a dimension rule can't be found, the legacy behavior acts as if the feature was off.
+If a dimension rule can't be found, the legacy behavior acts as if the feature is off.
 
-The rules evaluate from right to left and a rule that is more specific to a field on the right takes precedence. For example if a rule is defined for a specific project cost and revenue profile and another rule is added for a specific project contract, that contract rule takes precedence over the project cost and revenue profile rule.
+The rules are evaluated from right to left, and a rule that is more specific to a field on the right takes precedence. For example, one rule is defined for a specific project cost and revenue profile, and another rule is added for a specific project contract. In this case, the second contract rule takes precedence over the first one.
 
-In the case of projects not connected to a contract, the legacy rules to use project for dimensions applies.
+If projects aren't connected to a contract, the legacy rules apply, and the project is used for dimensions.
 
 ### Feature considerations and limitations
 
-As of the 10.0.40 preview release, the following documents aren't considered in the feature and will continue the legacy behavior:
+As of the 10.0.40 preview release, the feature doesn't consider the following documents. Therefore, these documents will continue to use the legacy behavior.
 
-- Expense reports submitted from Dynamics 365 Finance and Operations.
-- Purchase requests, purchase orders, and vendor invoices submitted from Finance and Operations.
-As of the 10.0.40 preview release, Revenue recognition has a known limitation. Revenue recognition follows the dimensions where fee journals are enabled. In a simple fixed price project with a single contract line the dimensions can correctly default from the contract. However if a time and material contract line for fees and a separate fixed price contract line for revenue recognition exist, then the dimensions default from the time and material contract line used for fees.
--
+- Expense reports that are submitted from finance and operations apps
+- Purchase requests, purchase orders, and vendor invoices that are submitted from finance and operations apps
+
+As of the 10.0.40 preview release, revenue recognition has a known limitation. Revenue recognition follows the dimensions where fee journals are enabled. In a simple fixed-price project that has a single contract line, the default dimensions can be correctly taken from the contract. However, if a time-and-material contract line for fees and a separate fixed-price contract line for revenue recognition exist, the default dimensions are taken from the time-and-material contract line that is used for fees.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
