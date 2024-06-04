@@ -70,15 +70,15 @@ This feature can be used together with the **Project invoice proposal performanc
 
 This feature helps improve performance during invoice proposal creation when you don't use billing rules and have a high volume of transactions split across subprojects.
 
-To help improve performance, this feature enforces the **Project** filter to filter from the starting project, so that only transactions that match the filter are returned. Previously, if the **Project** filter was set to a subproject the filter in transaction selection screen would default up a level to the parent project level. Users can now filter to specific subprojects or the parent project.
+To help improve performance, this feature enforces the **Project** filter to filter from the starting project, so only transactions that match the filter are returned. Previously, if the **Project** filter was set to a subproject, the filter in the transaction selection screen would default up one level to the parent project level. Users can now filter to specific subprojects, or the parent project.
 
-If you create an invoice proposal from within the context of a subproject, the **Project** filter is editable and set to the current parent project or subproject.
+If you create an invoice proposal from within the context of a subproject, the **Project** filter is editable, and is set to the current parent project or subproject.
 
 ## Features to enhance editing project invoice proposals
 
 ### Disable automatic refresh of summaries
 
-If you often work with large invoices where edits are required to add and remove transactions, you may benefit from delaying summary calculations until you're ready. Instead of recalculating tax and proposal totals after each change, you can make several changes and then update the summary data once at the end.
+If you often work with large invoices where edits are required to add and remove transactions, you may benefit from delaying summary calculations until you're ready. Instead of recalculating the tax and proposal totals after each change, you can make several changes and then update the summary data once at the end.
 
 The **Disable automatic refresh of summaries**  feature is an optional parameter to be enabled in **Project management and accounting parameters** on the **Invoice** tab. It requires the **Use Project invoice proposal and invoice journal forms with the Header and Lines view** feature as a prerequisite to see the parameter.
 
@@ -86,7 +86,7 @@ With the feature enabled, the following changes can be observed:
 
 - On the **Project invoice proposals** form, a new column is added for **Recalculates totals status** with values of **required** and **not required**.
 - If the parameter isn't enabled, the value for **Invoice amount** on the same page isn't updated until recalculation occurs.
-- Within the **invoice proposals** form, a refresh button is disabled by default but available. 
+- Within the **invoice proposals** form, a **Refresh** button is disabled by default, but is available. 
 - When a transaction is edited, a new transaction is added, or a transaction is removed, the values in the **invoice proposals transaction summaries** FastTab won't reflect the new values.
-- Users can click the refresh button to refresh interactively or in batch.
+- Users can select the **Refresh** button to refresh interactively or in batch.
 - Users can also post instead of refreshing, and refreshing happens automatically.
