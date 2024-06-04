@@ -1,8 +1,8 @@
 ---
 title: Use time-phased project cost budget lines
 description: This article explains how to time-phase project budget lines and create budget line details.
-author: niranjanmaski
-ms.date: 07/28/2023
+author: nimaski
+ms.date: 06/04/2024
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: nimaski
