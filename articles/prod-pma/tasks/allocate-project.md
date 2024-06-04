@@ -1,28 +1,14 @@
 --- 
-# required metadata 
-
 title: Allocate a project budget or budget revision across periods
 description: This procedure shows how to allocate project budget amounts across periods.
-author: Yowelle
-ms.date: 11/03/2017
+author: nimaski
+ms.author: nimaski
+ms.date: 06/04/2024
 ms.topic: how-to 
-  
-ms.technology:  
-
-# optional metadata 
-
-# ms.search.form:   
-audience: Application User 
-# ms.devlang:  
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 
-# ms.tgt_pltfrm:  
-# ms.custom:  
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: andchoi
-ms.search.validFrom: 2016-06-30 
-ms.dyn365.ops.version: AX 7.0.0 
 ---
 # Allocate a project budget or budget revision across periods
 
