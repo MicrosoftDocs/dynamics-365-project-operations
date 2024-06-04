@@ -1,30 +1,14 @@
 ---
-# required metadata 
-
 title: Cancel a purchase order product receipt with a linked item requirement
 description: This article explains how to cancel a project purchase order that has a linked item requirement.
-author: ryansandness
-ms.date: 01/04/2024
+author: nimaski
+ms.author: nimaski
+ms.date: 06/04/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
-  
-ms.technology:  
-
-# optional metadata
-
-ms.search.form:
-audience: Application User 
-# ms.devlang:  
 ms.reviewer: johnmichalak
 
-# ms.tgt_pltfrm:  
-# ms.custom:  
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: ryansandness
-ms.search.validFrom: 2016-06-30 
-ms.dyn365.ops.version: Version 7.0.0
 ---
 
 # Cancel a purchase order product receipt with a linked item requirement
