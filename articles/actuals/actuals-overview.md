@@ -1,31 +1,14 @@
 ---
-# required metadata
-
 title: Actuals
 description: This article provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 05/31/2022
+author: suvaidya
+ms.date: 06/05/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+ms.author: suvaidya
 
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: rumant
-ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals
@@ -34,20 +17,20 @@ ms.search.validFrom: 2020-10-01
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Actuals represent the reviewed and approved financial and schedule progress on a project. They are created when time, expense, and material usage entries, journal entries, and invoices are approved.
+Actuals represent the reviewed and approved financial and schedule progress on a project. Actuals are created when time, expense, and material usage entries, journal entries, and invoices are approved.
 
 > [!IMPORTANT]
-> **Actuals should not be created or edited directly in the system**. New actuals can be created using entry journals [Creating actuals using entry journals](create-confirm-entry-journals.md) and existing actuals can be edited using correction journals [Correct actuals using correct entries](create-confirm-correction-journals.md). Microsoft Dynamics 365 Project Operations prevents deleting actuals from the system.This is to preserve the financial integrity and any integration with other financial and accounting systems. Reversing and replacing actuals to editing actuals at various points in the business process lifecycle of your projects is supported. 
+> **Actuals shouldn't be created or edited directly in the system**. New actuals can be created using entry journals [Creating actuals using entry journals](create-confirm-entry-journals.md) and existing actuals can be edited using correction journals [Correct actuals using correct entries](create-confirm-correction-journals.md). Microsoft Dynamics 365 Project Operations prevents deleting actuals from the system. This restriction preserves the financial integrity and any integration with other financial and accounting systems. Reversing and replacing actuals to editing actuals at various points in the business process lifecycle of your projects is supported. 
 
 ## Recording actuals based on project events
 
-Project Operations records the financial transactions that occur during a project engagement lifecycle as actuals. The creation of actuals at various events in the lifecycle varies, depending on whether the project engagement uses the time and materials billing model or the fixed price billing model, and whether it's in the pre-sales stage or it's an internal project.
+Project Operations records the financial transactions that occur during a project engagement lifecycle as actuals. The creation of actuals at various events in the lifecycle varies, depending on whether the project engagement uses the time and materials billing model or the fixed price billing model, and whether it's in the presales stage or it's an internal project.
 
 The following articles explain the impact on the Actuals table at various events for different variations:
 
 - [Actuals impact in a time and materials engagement](ActualsonTM.md)
 - [Actuals impact in a fixed price engagement](ActualonFP.md)
-- [Actuals impact during the pre-sales stage of an engagement](ActualonPreSales.md)
+- [Actuals impact during the presales stage of an engagement](ActualonPreSales.md)
 - [Actuals impact for an internal project](ActualonInternal.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
