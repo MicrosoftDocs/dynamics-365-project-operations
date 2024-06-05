@@ -86,7 +86,7 @@ When the feature is enabled, the following changes can be observed:
 
 - On the **Project invoice proposals** page, a new **Recalculates totals status** column is added. The possible values are **required** and **not required**.
 - If the parameter isn't enabled, the value of the **Invoice amount** field on the same page isn't updated until recalculation occurs.
-- On **Invoice proposals** page, a **Refresh** button is available, but it's disabled by default.
+- On **Invoice proposals** page, a **Refresh** button is available but is disabled by default.
 - When a transaction is edited, added, or removed, the values on the **Invoice proposals transaction summaries** FastTab don't reflect the new values.
 - Users can select the **Refresh** button to refresh interactively or in batch mode.
 - Users can also post instead of refreshing. The refresh then occurs automatically.
