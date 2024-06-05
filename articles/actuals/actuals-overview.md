@@ -37,7 +37,7 @@ _**Applies to:** Project Operations for resource/non-stocked based scenarios, Li
 Actuals represent the reviewed and approved financial and schedule progress on a project. They are created when time, expense, and material usage entries, journal entries, and invoices are approved.
 
 > [!IMPORTANT]
-> Actuals should not be edited or deleted from the system. Otherwise, financial integrity and any integration with other financial and accounting systems might be adversely affected. Microsoft Dynamics 365 Project Operations lets you use reversing and replacing actuals to edit actuals at various points in the business process lifecycle of your projects.
+> **Actuals should not be created or edited directly in the system**. New actuals can be created using entry journals [Creating actuals using entry journals](create-confirm-entry-journals.md) and existing actuals can be edited using correction journals [Correct actuals using correct entries](create-confirm-correction-journals.md). Microsoft Dynamics 365 Project Operations prevents deleting actuals from the system.This is to preserve the financial integrity and any integration with other financial and accounting systems. Reversing and replacing actuals to editing actuals at various points in the business process lifecycle of your projects is supported. 
 
 ## Recording actuals based on project events
 
