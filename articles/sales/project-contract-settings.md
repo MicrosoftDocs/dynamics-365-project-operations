@@ -1,11 +1,14 @@
 ---
 title: Header details for project-based contracts
 description: This article provides information about the fields and the information about project-based contracts in Project Operations.
-author: rumant
-ms.date: 10/20/2020
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+
 ---
 
 # Header details for project-based contracts

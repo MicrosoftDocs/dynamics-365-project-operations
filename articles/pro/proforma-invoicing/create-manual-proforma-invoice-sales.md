@@ -1,13 +1,13 @@
 ---
 title: Proforma project invoices
 description: This article provides information about proforma project invoices in Project Operations.
-author: rumant
-ms.date: 04/06/2021
+author: suvaidya
+ms.date: 06/07/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: suvaidya
 ---
 
 # Proforma project invoices

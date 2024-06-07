@@ -3,28 +3,14 @@
 
 title: Transfer a quotation to a project
 description: This article provides information about how to transfer a quotation to a new or existing project.
-author: kfend
-ms.date: 05/28/2020
-ms.topic: article
- 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: andchoi
-ms.dyn365.ops.version: 7.0
-ms.search.validFrom: 2019-01-15
 ---
 # Transfer a quotation to a project
 

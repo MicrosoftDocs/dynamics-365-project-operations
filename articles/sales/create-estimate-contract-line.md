@@ -1,11 +1,14 @@
 ---
 title: Estimate a project-based contract line
 description: This article provides information about estimates on a project contract line.
-author: avisness
-ms.date: 11/17/2023
-ms.topic: article
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: avisness
+
 ---
 
 # Estimate a project-based contract line
