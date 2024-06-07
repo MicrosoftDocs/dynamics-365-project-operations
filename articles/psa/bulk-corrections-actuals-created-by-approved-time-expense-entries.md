@@ -1,21 +1,13 @@
 ---
 title: Bulk corrections of actuals created by approved time and expense entries
 description: This article explains how an administrator can make single or bulk corrections to previously approved time or expense entries if the billing is not complete.
-author: rumant
-ms.date: 04/09/2022
+author: suvaidya
+ms.date: 06/07/2024
 ms.topic: article
-#
-#
-audience: Application User
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 
-ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: rumant
-ms.dyn365.ops.version: 7.0
-ms.search.validFrom: 2019-01-15
 ---
 
 # Bulk corrections of actuals created by approved time and expense entries
