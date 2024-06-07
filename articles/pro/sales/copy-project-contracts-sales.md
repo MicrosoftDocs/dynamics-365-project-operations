@@ -1,13 +1,13 @@
 ---
 title: Copy project contracts
 description: This article provides information about copying project contracts in Project Operations.
-author: rumant
-ms.date: 09/06/2022
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 ---
 
 # Copy project contracts
