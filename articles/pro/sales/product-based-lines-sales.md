@@ -1,13 +1,13 @@
 ---
 title: Product opportunity lines
 description: This article provides information about product opportunity line items in Project Operations.
-author: rumant
-ms.date: 12/03/2022
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 ---
 
 # Product opportunity lines
