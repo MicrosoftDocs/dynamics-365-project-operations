@@ -2,6 +2,7 @@
 title: Bulk corrections of actuals created by approved time and expense entries
 description: This article explains how an administrator can make single or bulk corrections to previously approved time or expense entries if the billing is not complete.
 author: suvaidya
+ms.author: suvidya
 ms.date: 06/07/2024
 ms.topic: article
 ms.custom: 
