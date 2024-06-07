@@ -1,13 +1,13 @@
 ---
 title: Manage leads - Lite
 description: This article provides information about managing project-based leads (pro).
-author: rumant
-ms.date: 10/01/2020
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 ---
 
 # Manage leads - Lite
