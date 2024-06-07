@@ -2,11 +2,14 @@
 
 title: Use a bookable resource as a pricing dimension
 description:  This article provides information about how to use a bookable resource as a pricing dimension.
-author: Rumant
-ms.date: 11/18/2020  
-ms.topic: article 
+author: poojafandan
+ms.author: poojafandan 
+ms.date: 06/07/2024  
+ms.topic: how-to 
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant 
+
 --- 
 
 # Use a bookable resource as a pricing dimension

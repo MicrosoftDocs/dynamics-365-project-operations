@@ -1,13 +1,13 @@
 ---
 title: Estimate a project quote line
 description: This article provides information about how to create an estimate on a project quote line.
-author: rumant
-ms.date: 12/03/2022
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 ---
 
 # Estimate a project quote line

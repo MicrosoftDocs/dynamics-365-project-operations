@@ -1,11 +1,14 @@
 ---
 title: Import estimates for a project to a project quote line
 description: This article provides information about importing estimates from a project to a project quote line.
-author: rumant
-ms.date: 10/09/2020
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+
 ---
 
 # Import estimates for a project to a project quote line

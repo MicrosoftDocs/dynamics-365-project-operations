@@ -1,13 +1,13 @@
 ---
 title: Product-based contract lines overview - lite
 description: This article provides information about product-based contract lines.
-author: rumant
-ms.date: 10/07/2020
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 
 ---
 

@@ -1,11 +1,14 @@
 ---
 title: Copy project quotes
 description: This article provides information about how to copy project quotes in Project Operations.
-author: rumant
-ms.date: 10/01/2020
-ms.topic: article
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+
 ---
 
 # Copy project quotes
