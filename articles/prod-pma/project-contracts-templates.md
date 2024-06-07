@@ -1,8 +1,9 @@
 ---
 title: Synchronize project contracts and projects directly from Project Service Automation to Finance
 description: This article describes the template and underlying tasks that are used to synchronize project contracts and projects directly from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
-author: Yowelle
-ms.date: 12/17/2020
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -10,7 +11,6 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 
