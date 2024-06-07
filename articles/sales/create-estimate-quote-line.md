@@ -1,30 +1,14 @@
 ---
-# required metadata
-
 title: Create estimates on a quote line
 description: This article provides information about how to create an estimate on a quote line for a project.
-author: rumant
-ms.date: 09/18/2020
-ms.topic: article
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: rumant
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Create estimates on a quote line
