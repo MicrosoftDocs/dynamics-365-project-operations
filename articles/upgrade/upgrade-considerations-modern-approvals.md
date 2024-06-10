@@ -1,11 +1,13 @@
 ---
 title: Upgrade considerations for Modern Approvals
 description: The article covers the points that administrators should consider when they enable Modern Approvals functionality.
-author: stsporen
-ms.date: 05/12/2023
-ms.topic: article
+author: suvaidya
+ms.date: 06/10/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: stsporen
+ms.author: suvaidya
 ---
 
 # Upgrade considerations for Modern Approvals 
