@@ -1,11 +1,13 @@
 ---
 title: Sales process overview
 description: This article provides information about basic sales processes.  
-author: rumant
-ms.date: 10/29/2020
+author: poojafandan
+ms.date: 06/10/2024
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 
 ---
 
