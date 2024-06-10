@@ -4,6 +4,7 @@ description: This article explains how to set up standard costs for labor and ex
 author: suvaidya
 ms.author: suvaidya
 ms.date: 06/10/2024
+ms.topic: how-to
 ms.custom: 
   - bap-template  
 ms.reviewer: johnmichalak
