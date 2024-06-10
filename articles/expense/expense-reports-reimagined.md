@@ -1,5 +1,5 @@
 ---
-title: Expense reports reimagined (contains video)
+title: Expense reports reimagined
 description: This article explains the redesigned and reimagined experience for expense report entry.
 author: mukumarm
 ms.author: mukumarm
