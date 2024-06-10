@@ -1,11 +1,13 @@
 ---
 title: Project Operations for stocked/production-based scenarios deployment overview
 description: This article provides information about the deployment type, Project Operations for stocked/production-based scenarios.
-author: rumant
-ms.date: 11/02/2020
+author: poojafandan
+ms.date: 06/10/2024
 ms.topic: overview
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 
 ---
 

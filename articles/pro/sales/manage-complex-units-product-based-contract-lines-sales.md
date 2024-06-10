@@ -1,13 +1,13 @@
 ---
 title: Manage complex units for product-based contract lines - lite
 description:  This article provides information about supporting the sale of subscription-based products.
-author: rumant
-ms.date: 10/28/2020
+author: poojafandan
+ms.date: 06/10/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 ---
 
 

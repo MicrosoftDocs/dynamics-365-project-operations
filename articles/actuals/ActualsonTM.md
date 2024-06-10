@@ -1,30 +1,15 @@
 ---
-# required metadata
-
 title: Actuals impact in a time and materials engagement
 description: This article provides information about the impact on the Actuals table at various events during the lifecycle of a time and materials engagement in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 02/22/2022
+author: suvaidya
+ms.date: 06/10/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
- 
-#
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
 audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+ms.author: suvaidya
 
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: rumant
-ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals impact in a time and materials engagement

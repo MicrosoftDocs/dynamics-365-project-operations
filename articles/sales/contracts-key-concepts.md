@@ -1,11 +1,13 @@
 ---
 title: Concepts unique to Project-based Contracts
 description: This article provides information about the key concepts of project contracts in Project Operations.
-author: rumant
-ms.date: 10/07/2020
-ms.topic: article
+author: suvaidya
+ms.date: 06/10/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: suvaidya
 ---
 
 # Concepts unique to Project-based Contracts

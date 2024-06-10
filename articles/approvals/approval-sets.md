@@ -1,13 +1,13 @@
 ---
 title: Approval sets
 description: This article explains how to work with approval sets, requests, and the subsets of those operations.
-author: stsporen
-ms.date: 09/16/2022
+author: suvaidya
+ms.date: 06/10/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: stsporen
+ms.author: suvaidya
 ---
 
 # Approval sets
