@@ -1,11 +1,14 @@
 ---
 title: Activate and revise a project quote
 description: This article provides information about activating and revising quotes in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 06/06/2023
-ms.topic: article
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/10/2024
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+
 ---
 
 # Activate and revise a project quote
