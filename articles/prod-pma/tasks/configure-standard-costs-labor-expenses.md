@@ -1,28 +1,13 @@
 --- 
-# required metadata 
- 
 title: Configure standard costs for labor and expenses
 description: This article explains how to set up standard costs for labor and expenses for a project. 
-author: Yowelle
-ms.date: 08/02/2019
-ms.topic: how-to 
-  
-ms.technology:  
- 
-# optional metadata 
- 
-ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost   
-audience: Application User 
-# ms.devlang:  
+author: suvaidya
+ms.author: suvaidya
+ms.date: 06/10/2024
+ms.custom: 
+  - bap-template  
 ms.reviewer: johnmichalak
 
-# ms.tgt_pltfrm:  
-# ms.custom:  
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: andchoi
-ms.search.validFrom: 2016-06-30 
-ms.dyn365.ops.version: Version 7.0.0 
 ---
 # Configure standard costs for labor and expenses
 
