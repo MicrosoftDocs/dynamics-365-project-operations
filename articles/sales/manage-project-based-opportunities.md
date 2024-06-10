@@ -1,11 +1,14 @@
 ---
 title: Manage project opportunities
 description: This article provides information about how to work with opportunities that are related to projects.
-author: rumant
-ms.date: 10/21/2020
-ms.topic: article
+author: suvaidya
+ms.author: suvaidya
+ms.date: 06/10/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+
 ---
 
 # Manage project opportunities
