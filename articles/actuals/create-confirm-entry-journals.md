@@ -1,30 +1,14 @@
 ---
-# required metadata
-
 title: Create and confirm Entry journals
 description: This article provides information about how to create and confirm Entry journals in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 09/18/2020
+author: suvaidya
+ms.author: suvaidya
+ms.date: 06/10/2024
 ms.topic: how-to
 mscustom: 
   - bap-template
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
-ms.author: rumant
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+
 ---
 
 # Create and confirm Entry journals
