@@ -1,16 +1,15 @@
 ---
 title: Synchronize project actuals directly from Project Service Automation to the project integration journal for posting in finance and operations
 description: This article describes the templates and underlying tasks that are used to synchronize project actuals directly from Microsoft Dynamics 365 Project Service Automation to finance and operations.
-author: Yowelle
-ms.date: 07/20/2018
+author: suvaidya
+ms.author: suvaidya
+ms.date: 06/10/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-audience: Application User
 ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
 

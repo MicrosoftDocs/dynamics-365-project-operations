@@ -1,12 +1,14 @@
 --- 
-
 title: Create a solution for custom pricing dimensions 
 description:  This article provides information about how to create solutions for custom pricing dimensions.
-author: Rumant
-ms.date: 11/09/2020  
-ms.topic: article 
+author: suvaidya
+ms.author: suvaidya 
+ms.date: 06/10/2024  
+ms.topic: how-to 
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant 
+
 --- 
 
 # Create a solution for custom pricing dimensions
