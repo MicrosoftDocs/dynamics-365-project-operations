@@ -1,13 +1,13 @@
 ---
 title: Project quote lines overview 
 description: This article provides information about using project-based quote lines for project work.
-author: rumant
-ms.date: 12/03/2022
+author: poojafandan
+ms.date: 06/10/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 
 ---
 
