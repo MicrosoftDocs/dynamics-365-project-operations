@@ -25,7 +25,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Project Operations dual-write maps updates
 
-_There are no Dual-write maps that are modified or added in the Project Operations April 2024 release._
+_There are no Dual-write maps that are modified or added in the Project Operations June 2024 release._
 
 For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
@@ -37,12 +37,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Management |**Increased task limit to 1,000 per project** <br><br> The new limit from Project for the web scheduled projects in Project Operations is 1,000 tasks per project.| [Project and task limitations](../project-management/project-and-task-limitations.md) |
-| Project Management |**Editing Assignment Contours Phase 3** <br><br> Users can now view assignments in a monthly and yearly view, under the tasks tab of a project. Additionally, for tasks without resources assigned, the unassigned contours are visible but in read-only state until a resource is assigned. These changes are available post March via Project for the web.| [Editing resource assignment contours](../project-management/create-assignments.md) |
-| Project Management |**Work Breakdown Structure (WBS) Save Notification** <br><br> When changes are made in the work breakdown structure within Project for the web, there's an asynchronous process to save those changes to Dataverse. Until the save to Dataverse is complete, some information in other tabs on the project (for example the estimates tab), may not reflect the changes. This feature shows an icon on the Project for the web UI that indicates when a save is complete (green check mark) or on-going (blue spinner).| [Saving changes to a project's WBS](../project-management/saving-changes-to-projects.md) |
-| Project Management |**Enable audit of Project Manager field** <br><br> Fields like **Project manager**, **Comments**, **Status updated on**, and **Scheduled start**, on the Project entity were set to noncustomizable to prevent customers from making changes that could negatively impact the product. However, this also disabled customers' ability to audit these fields. This feature allows those specific fields to be audited while keeping all other customizations disabled.| |
-| Resource Management |**Intelligent multi-factor resource recommendations** <br><br> This is an extension to the Intelligent Resource Recommendations feature, which was initially released using only one factor (Experience Fit). Resources are now recommended using a combination of Experience Fit, Cost, Availability, and Skill-match. Resources can also be compared, shortlisted, and booked as a project team member.| [Prerequisites to use resource recommendations](../resource-management/getting-started-with-resource-recommendations.md) <br><br> [Get intelligent resource recommendations](../resource-management/get-recommendations-for-project-team-members.md) |
-| Time Entry |**Copilot in Time Entry (preview)** <br><br> Copilot acts as your intelligent assistant and takes away some of the heavy lifting associated with logging work completed by you. Users are able to create draft time entries from project assignments and generate editable external comments for all time entries using the Copilot sidecar experience. _(Only previewing for NAM Azure region)_.|  |
+| Project Management |**Increased task limit to 1,000 per project** <br><br> The new limit from Project for the web scheduled projects in Project Operations is 1,000 tasks per project.| [Project and task limitations](../project-management/project-and-task-limitations.md)  |
 
 ## Quality updates
 
