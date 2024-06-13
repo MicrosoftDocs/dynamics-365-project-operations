@@ -37,7 +37,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Management |**Increased task limit to 1,000 per project** <br><br> The new limit from Project for the web scheduled projects in Project Operations is 1,000 tasks per project.| [Project and task limitations](../project-management/project-and-task-limitations.md)  |
+| Project Financials |** (Preview) Enable flexibility in determining financial dimension defaulting** <br><br> This feature adds additional flexibility in determining which financial dimensions should be posted using a new setup screen. Additionally, this feature adds the ability to specify financial dimensions on the project contract for T&M contract lines.| [Project and task limitations](../project-management/project-and-task-limitations.md)  |
 
 ## Quality updates
 
