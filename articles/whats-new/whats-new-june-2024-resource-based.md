@@ -45,19 +45,19 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing and Pricing|	3586943|	Estimate grid to show update to prices and Billing type (chargeability) when "Update prices" is selected.|
+|Project Planning and Tracking|	3544700|	Project Save fails with "The action on an assignment failed because it tried to update a nonexisting assignment." error when more than 5,000 assignments are updated or deleted|
+|Billing and Pricing|	3698404|	Price List Validations failing when creating Quote from opportunity|
+|Billing and Pricing|	3714531|	Actuals grid not calculating currency exchange rate properly|
 |Billing and Pricing|	3734257|	Use Transaction Date (Time zone independent) field instead of Document date during invoice creation. |
-|Sales|	3749382|	Close As Won fails if QuoteLineResourceCategory is pointing to Inactive ResourceCategory record.|
-|Billing and Pricing|	3761980|	Recalculate API on invoice doesn't recalculate the Chargeable amount, Nonchargeable amount, etc.|
-|Project Planning and Tracking|	3764826|	Copy Project has team members copied to the root business unit.|
-|Approvals|	3801469|	Project approval billing type is only set with linked contract line.|
-|Sales|	3815475|	Able to create and update estimate lines with invalid subcontract lines.|
-|Billing and Pricing|	3817244|	Invoice with missing invoice lines is created when Project Contract has more than 5,000 contract lines (Project based lines + Product based lines).|
-|Project Management|	3838992|	 Status reports displayed on the screen and as part of printed content are fully accessible.|
-|Billing and Pricing|	3852034|	Billing hub doesn't reflect correct amount for the **Fee** field, nor does it show the unbilled sales transactions of type **Fee** when selected. |
-|Project Contracts|	3859490|	Error with contract performance tab when contract is created without project.|
-|Billing and Pricing|	3876272|	Invoice confirmation fails with error **An item with the same key is already added**.|
-|Project Budgeting|	3884108|	During Revision Recreate Details for Expanded Budget Lines.|
+|Project Planning and Tracking|	3739067|	[PM defined project duration] Schedule API hardcodes 8 h/d for duration field|
+|Sales|	3740721|	Estimated Cost Fields on the project can be manually updated via flow or API|
+|Project Planning and Tracking|	3795066|	Online: In GCC, users with a G3 or G5 license can't go to the Project App (they see a license error) and on the Project view, the left-hand nav is missing|
+|Approvals|	3807887|	Create new approval sets when re-approving entries with failed approval sets|
+|Time Management|	3843424|	Time entry of type Absence was created on the day before|
+|Billing and Pricing|	3877772|	Recalculate Totals Silently Fails When > 50,000 Records|
+|Project Planning and Tracking|	3880154|	Time out due to long running RefreshTeam request, while assigning a resource to multiple tasks|
+|Project Management|	3887432|	Online: PfW Risks form contains several duplicated fields (Project, Description, Mitigation Plan & Contingency Plan).|
+|Sales|	3905161|	Error on project form if new estimates tab has been customized.|
 
 ### Project management and accounting in Finance
 
