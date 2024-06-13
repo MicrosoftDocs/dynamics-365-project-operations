@@ -37,7 +37,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Financials | **(Preview) Enable flexibility in determining financial dimension defaulting** <br><br> This feature adds additional flexibility in determining which financial dimensions should be posted using a new setup screen. Additionally, this feature adds the ability to specify financial dimensions on the project contract for T&M contract lines.| [Project and task limitations](../project-management/project-and-task-limitations.md)  |
+| Project Financials | **(Preview) Enable flexibility in determining financial dimension defaulting** <br><br> This feature adds additional flexibility in determining which financial dimensions should be posted using a new setup screen. Additionally, this feature adds the ability to specify financial dimensions on the project contract for T&M contract lines.| [Financial dimension defaults](../project-accounting/financial-dimension-defaults.md)  |
 
 ## Quality updates
 
