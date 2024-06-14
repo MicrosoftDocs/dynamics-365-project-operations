@@ -49,7 +49,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 |Billing and Pricing|	3698404|	Price List Validations failing when creating Quote from opportunity|
 |Billing and Pricing|	3714531|	Actuals grid not calculating currency exchange rate properly|
 |Billing and Pricing|	3734257|	Use Transaction Date (Time zone independent) field instead of Document date during invoice creation. |
-|Project Planning and Tracking|	3739067|	[PM defined project duration] Schedule API hardcodes 8 h/d for duration field|
+|Project Planning and Tracking|	3739067|	[PM defined project duration] Schedule API hardcodes 8 hours/day for duration field|
 |Sales|	3740721|	Estimated Cost Fields on the project can be manually updated via flow or API|
 |Project Planning and Tracking|	3795066|	Online: In GCC, users with a G3 or G5 license can't go to the Project App (they see a license error) and on the Project view, the left-hand nav is missing|
 |Approvals|	3807887|	Create new approval sets when re-approving entries with failed approval sets|
