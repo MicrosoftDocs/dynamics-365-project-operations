@@ -37,7 +37,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Financials | **(Preview) Enable flexibility in determining financial dimension defaulting** <br><br> This feature adds additional flexibility in determining which financial dimensions should be posted using a new setup screen. Additionally, this feature adds the ability to specify financial dimensions on the project contract for T&M contract lines.| [Financial dimension defaults](../project-accounting/financial-dimension-defaults.md)  |
+| Project Financials | **(Preview) Enable flexibility in determining financial dimension defaulting** <br><br> This feature adds more flexibility in determining which financial dimensions should be posted using a new setup screen. This feature adds the ability to specify financial dimensions on the project contract for T&M contract lines.| [Financial dimension defaults](../project-accounting/financial-dimension-defaults.md)  |
 
 ## Quality updates
 
@@ -52,12 +52,12 @@ If you encounter an issue when you start the map, follow the instructions in the
 |Project Planning and Tracking|	3739067|	[PM defined project duration] Schedule API hardcodes 8 hours/day for duration field.|
 |Sales|	3740721|	Estimated Cost Fields on the project can be updated manually via flow or API.|
 |Project Planning and Tracking|	3795066|	Online: In GCC, users with a G3 or G5 license can't go to the Project App (they see a license error) and on the Project view, the left-hand nav is missing.|
-|Approvals|	3807887|	Create new approval sets when re-approving entries with failed approval sets.|
+|Approvals|	3807887|	Create new approval sets when reapproving entries with failed approval sets.|
 |Time Management|	3843424|	Time entry of type Absence was created on the day before.|
 |Billing and Pricing|	3877772|	Recalculate Totals silently fail when there are more than 50,000 records.|
 |Project Planning and Tracking|	3880154|	Time out due to long running RefreshTeam request, while assigning a resource to multiple tasks.|
 |Project Management|	3887432|	Online: PfW Risks form contains several duplicated fields (Project, Description, Mitigation Plan & Contingency Plan).|
-|Sales|	3905161|	Error on project form if the new estimates tab has been customized.|
+|Sales|	3905161|	Error on project form if the new estimates tab was customized.|
 |Resource Management|	3933397|	Task Wise score null for Availability Factor.|
 |Billing and Pricing|	3944356|	Price records are being copied twice when closing a quote as won.|
 |Approvals|	4097112|	Failed Approvals View shows processing approvals.|
