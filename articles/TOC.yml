@@ -112,12 +112,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
-    - name: 2024 wave 1 early access - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-2024w1-resource-based.md
+    - name: June 2024 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-june-2024-resource-based.md
     - name: April 2024 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-apr-2024-resource-based.md
     - name: Archive
       items:
+       - name: 2024 wave 1 early access - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-2024w1-resource-based.md
        - name: March 2024 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-mar-2024-resource-based.md
        - name: February 2024 - Project Operations for resource/non-stocked based scenarios
