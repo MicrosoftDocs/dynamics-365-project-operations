@@ -22,7 +22,7 @@ This article applies to the following components and versions of Microsoft Dynam
 - Project Operations in a Microsoft Dataverse environment version 4.105.0.5.
 
 ## Features included in this release
-No new features have been included in this release for the lite deployment.
+No new features are included in this release for the lite deployment.
 
 ## Quality updates
 
@@ -37,12 +37,12 @@ No new features have been included in this release for the lite deployment.
 |Project Planning and Tracking|	3739067|	[PM defined project duration] Schedule API hardcodes 8 hours/day for duration field.|
 |Sales|	3740721|	Estimated Cost Fields on the project can be updated manually via flow or API.|
 |Project Planning and Tracking|	3795066|	Online: In GCC, users with a G3 or G5 license can't go to the Project App (they see a license error) and on the Project view, the left-hand nav is missing.|
-|Approvals|	3807887|	Create new approval sets when re-approving entries with failed approval sets.|
+|Approvals|	3807887|	Create new approval sets when reapproving entries with failed approval sets.|
 |Time Management|	3843424|	Time entry of type Absence was created on the day before.|
 |Billing and Pricing|	3877772|	Recalculate Totals silently fail when there are more than 50,000 records.|
 |Project Planning and Tracking|	3880154|	Time out due to long running RefreshTeam request, while assigning a resource to multiple tasks.|
 |Project Management|	3887432|	Online: PfW Risks form contains several duplicated fields (Project, Description, Mitigation Plan & Contingency Plan).|
-|Sales|	3905161|	Error on project form if the new estimates tab has been customized.|
+|Sales|	3905161|	Error on project form if the new estimates tab was customized.|
 |Resource Management|	3933397|	Task Wise score null for Availability Factor.|
 |Billing and Pricing|	3944356|	Price records are being copied twice when closing a quote as won.|
 |Approvals|	4097112|	Failed Approvals View shows processing approvals.|
