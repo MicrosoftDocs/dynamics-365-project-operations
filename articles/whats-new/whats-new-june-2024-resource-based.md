@@ -57,10 +57,13 @@ If you encounter an issue when you start the map, follow the instructions in the
 |Billing and Pricing|	3877772|	Recalculate Totals Silently Fails When > 50,000 Records|
 |Project Planning and Tracking|	3880154|	Time out due to long running RefreshTeam request, while assigning a resource to multiple tasks|
 |Project Management|	3887432|	Online: PfW Risks form contains several duplicated fields (Project, Description, Mitigation Plan & Contingency Plan).|
-|Sales|	3905161|	Error on project form if new estimates tab has been customized.|
+|Sales|	3905161|	Error on project form if new estimates tab has been customized|
+|Resource Management|	3933397|	Task Wise score null for Availability Factor|
+|Billing and Pricing|	3944356|	Price records are being copied twice when closing a quote as won|
+|Approvals|	4097112|	Failed Approvals View shows processing approvals|
 
 ### Project management and accounting in Finance
 
-For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?bugId=886261).
+For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=936136&dbType=3&qc=4bfbc812bab8c497f0747156b4e6faa90d7d73b55226bc7406f2a9b71839162e).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
