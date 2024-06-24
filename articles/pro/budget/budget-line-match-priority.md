@@ -2,7 +2,7 @@
 title: Budget line match priority
 description: This article explains how budget line match priority works for project budgets.
 author: niranjanmaski
-ms.date: 03/29/2024
+ms.date: 06/24/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 Budget line match priority defines the order in which an actual is matched against the different dimensions of budget lines.
 
