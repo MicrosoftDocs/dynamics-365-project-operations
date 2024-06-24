@@ -519,11 +519,11 @@
     - name: Transfer budgets to forecasts
       href: budget/transfer-budgets-to-forecasts.md
     - name: Create and delete project cost budgets
-      href: articles/pro/budget/create-delete-project-budget.md
+      href: pro/budget/create-delete-project-budget.md
     - name: Create and delete project sales  budgets
       href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
-      href: articles/pro/budget/create-project-budget-from-estimates.md
+      href: pro/budget/create-project-budget-from-estimates.md
     - name: Summarize budget lines during import
       href: pro/budget/summarize-budgetline-during-import.md
     - name: Set up a budget period
