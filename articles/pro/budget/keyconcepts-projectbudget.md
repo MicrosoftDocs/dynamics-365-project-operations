@@ -2,7 +2,7 @@
 title: Key concepts in project budget management
 description: This article explains key concepts of project budget management in Microsoft Dynamics 365 Project Operations.
 author: nimaski
-ms.date: 06/04/2024
+ms.date: 06/24/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 This article explains key concepts that you should be aware of before you start to use project budget management in Microsoft Dynamics 365 Project Operations.
 
