@@ -528,7 +528,8 @@
       href: pro/budget/summarize-budgetline-during-import.md
     - name: Set up a budget period
       href: pro/budget/budget-period-setup.md
-      items: Project budget line
+    - name: Project budget line
+      items:
       - name: Project time budget lines
         href: pro/budget/project-cost-time-budget-line.md
       - name: Project material budget lines
