@@ -2,7 +2,7 @@
 title: Project budget status management
 description: This article provides information that will help you manage the status of a project budget.
 author: nimaski
-ms.date: 06/04/2024
+ms.date: 06/24/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 This article provides information that will help you manage the status of a project budget. It explains the different statuses that a project budget can have, the triggers for transitions from one status to another, and the statuses that a project budget can be edited in.
 
