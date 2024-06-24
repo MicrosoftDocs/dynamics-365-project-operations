@@ -2,7 +2,7 @@
 title: Create a project budget from estimates
 description: This article explains how to create a project budget from estimates.
 author: niranjanmaski
-ms.date: 03/29/2024
+ms.date: 06/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Create a project budget from estimates
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
