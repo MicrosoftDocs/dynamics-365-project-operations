@@ -2,7 +2,7 @@
 title: Project expense budget lines
 description: This article explains how to create project cost and sales expense budget lines.
 author: niranjanmaski
-ms.date: 03/29/2024
+ms.date: 06/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-**_Applies to:_** _Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 This article explains how to create budget lines for the **Expense** transaction class.
 

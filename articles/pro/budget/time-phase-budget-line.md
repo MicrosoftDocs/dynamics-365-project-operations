@@ -2,7 +2,7 @@
 title: Use time-phased project cost budget lines
 description: This article explains how to time-phase project budget lines and create budget line details.
 author: nimaski
-ms.date: 06/04/2024
+ms.date: 06/24/2024
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: nimaski
@@ -14,7 +14,7 @@ ms.custom:
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-**_Applies to:_** _Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 This article explains how to time-phase project budget lines and create budget line details.
 

@@ -1,8 +1,8 @@
 ---
-title: Re-evaluate the cost actual-to-budget association
-description: This article explains how to re-evaluate the cost actual-to-budget association.
+title: Reevaluate the cost actual-to-budget association
+description: This article explains how to reevaluate the cost actual-to-budget association.
 author: nimaski
-ms.date: 06/04/2024
+ms.date: 06/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -10,13 +10,13 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Re-evaluate the cost actual-to-budget association
+# Reevaluate the cost actual-to-budget association
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-**_Applies to:_** _Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-This article explains how to re-evaluate the cost actual-to-budget association.
+This article explains how to reevaluate the cost actual-to-budget association.
 
 Project cost actuals are created against the project and go through the approval process. They're available on the **Actuals** tab. You can add the **Actuals** tab to the project page by using related entities.
 
@@ -26,12 +26,12 @@ After a project budget is [created](create-delete-project-budget.md) and [approv
 
 The budget line that a project cost actual is matched to is available on the **Budget Associations** tab of the **Actuals** page.
 
-## Re-evaluate the association
+## Reevaluate the association
 
-To re-evaluate the cost actual-to-budget association, follow these steps.
+To reevaluate the cost actual-to-budget association, follow these steps.
 
-1. On the **Actuals** list page, in the **Active Actuals** view, select the cost actuals to re-evaluate. The **Re-evaluate Budget association** button appears on the Action Pane.
-1. Select **Re-evaluate Budget association**. The actuals are scheduled for re-evaluation. The cost actual-to-budget matching periodic job then picks up the actuals for evaluation. By default, this job runs for every five minutes. 
+1. On the **Actuals** list page, in the **Active Actuals** view, select the cost actuals to reevaluate. The **Reevaluate Budget association** button appears on the Action Pane.
+1. Select **Reevaluate Budget association**. The actuals are scheduled for reevaluation. The cost actual-to-budget matching periodic job then picks up the actuals for evaluation. By default, this job runs for every five minutes. 
 
 To check the status, select the cost actual, and then select the **General** tab. The **Budget Evaluation Status** and **Budget Evaluation Result** fields show the status. The following table explains how to interpret the status information.
 

@@ -2,7 +2,7 @@
 title: Set up a budget period
 description: This article explains how to set up a budget period at the organization level and at the project level. A budget period is a prerequisite for time phasing.
 author: niranjanmaski
-ms.date: 08/25/2023
+ms.date: 06/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-**_Applies to:_** _Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 This article explains how to set up a budget period at the organizational level and at the project level.
 
