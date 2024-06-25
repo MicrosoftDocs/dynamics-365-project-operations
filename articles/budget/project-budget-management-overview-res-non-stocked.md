@@ -1,8 +1,8 @@
 ---
-title: Project budget management overview for resource nonstocked
+title: Overview of project budget management
 description: This article provides an overview of project budget management in resource nonstocked deployments.
 author: niranjanmaski
-ms.date: 04/14/2024
+ms.date: 06/24/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Project budget management overview for resource nonstocked
+# Overview of project budget management
 
 [!INCLUDE[banner](../includes/banner.md)]
 

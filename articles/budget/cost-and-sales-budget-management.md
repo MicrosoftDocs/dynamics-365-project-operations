@@ -1,8 +1,8 @@
 ---
-title: Cost and sales budget management in resource nonstocked deployments
+title: Cost and sales budget management
 description: This article provides details about how cost and sales budgets can be managed in resource nonstocked deployments.
 author: niranjanmaski
-ms.date: 04/14/2024
+ms.date: 06/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Cost and sales budget management in resource nonstocked deployments
+# Cost and sales budget management
 
 [!INCLUDE[banner](../includes/banner.md)]
 
