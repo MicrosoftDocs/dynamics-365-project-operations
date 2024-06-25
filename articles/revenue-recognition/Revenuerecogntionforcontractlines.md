@@ -16,10 +16,12 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 The **Contract line-based revenue recognition with Project operations** feature lets you recognize the revenue for each contract line that's associated with a contract. Contract line–based revenue recognition gives you the flexibility to define a different revenue recognition method for each contract line. Microsoft Dynamics 365 Finance then generates and posts the revenue recognition amounts accordingly.
 
-To use this feature, activate **Enable contract line-based revenue recognition with Project Operations for non-stocked/resource-based scenarios**.
+To use this feature, activate **Contract line based revenue recognition** in Project management and accounting parameters on the Revenue recognition tab.
 
 > [!NOTE]
-> After this feature is enabled, it can't be disabled.
+> After this parameter is enabled, it can't be disabled.
+>
+> The **Enable contract line based reveneu recognition with Project operations for non-stocked/resource based scenarios** feature has been relocated to a parameter which allows the option to be controlled at a legal entity level. The **Contract line based revenue recognition** parameter is available for non-stocked/resource based scenarios in Project management and accounting parameters on the Revenue recognition tab.
 
 When this feature is enabled, Dynamics 365 Finance generates the revenue recognition only for each contract line that's used as a fixed price billing method. All older projects or revenue recognition projects can be managed.
 
