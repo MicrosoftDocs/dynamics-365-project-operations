@@ -3,7 +3,7 @@ title: Project Operations dual-write map versions
 description: This article provides the list of dual-write maps required for Dynamics 365 Project Operations.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/24/2024
+ms.date: 06/27/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -86,6 +86,12 @@ Complete the following steps to run the listed maps.
     > If you receive a "Project validation failed" message while you're running all the maps simultaneously, select the relevant map, and then select **Refresh tables**.
     >
     > ![Refresh tables button.](media/6RefreshTables.jpg)
+
+The following maps are optional for a Project Operations solution.
+
+| Entity map | Latest version | Initial sync | Required Dynamics 365 Finance version |
+| --- | --- | --- | --- |
+| Project worker resource import (bookableresources) | 1.0.0.1 | Not required for provisioning |10.0.39|
 
 ### Project Operations dual-write map versions
 

@@ -3,7 +3,7 @@ title: Configure Project Operations integration per legal entity
 description: This article provides information about setting up integration by legal entity in Project Operations.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/22/2024
+ms.date: 06/27/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -21,16 +21,7 @@ This article walks you through the steps required to configure Dynamics 365 Proj
 
 ## Enable feature keys in Dynamics 365 Finance
 
-Complete the following steps to enable required features.
-
-1. In Dynamics 365 Finance, go to the **Feature Management** workspace.
-2. In **Feature list**, find and enable the following features:
-  
-    - **Enable multiple contract lines for a project**
-    - **Enable Project Operations on Dynamics 365 Customer Engagement**
-
-> [!NOTE]
-> If you don't see **Feature keys** listed, verify that your Finance version meets the minimum version requirement (application version 10.0.13 with all quality updates applied or higher). Select **Check for updates** to refresh the feature list.
+As of the 10.0.39 application version, there are no prerequisite features in the **Feature Management** required to enable Project Operations. However, there may be features available to enable newly available functionality that extends the baseline functionality of Project Operations.
 
 ## Define the Project Operations deployment scenario for a legal entity
 

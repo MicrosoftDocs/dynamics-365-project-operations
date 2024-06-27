@@ -4,7 +4,7 @@ description: This article describes features that have been removed, or that are
 author: sigitac
 ms.custom:
   - evergreen
-ms.date: 04/09/2024
+ms.date: 06/27/2024
 ms.topic: article
 
 ms.reviewer: johnmichalak
@@ -27,25 +27,9 @@ This list is intended to help you consider these removals and deprecations for y
 
 ## Features removed or deprecated in the Project Operations October 2023 release
 
-### Project management and accounting adjustment parameter for "Invoiced"
+Previously we had announced the depreciation of the Project management and accounting adjustment parameter for "Invoiced". After additional discussion and feedback, we have decided to keep this parameter and the functionality as is and not remove it.
 
-| &nbsp; | &nbsp; |
-|--------|--------|
-| **Reason for deprecation/removal** | Transactions are much more difficult to audit if they're adjusted after they have been invoiced. This behavior causes confusion for the small number of users who use this functionality.  |
-| **Replaced by another feature?** | No |
-| **Product areas affected** | Application |
-| **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By October 1, 2024, the parameter is hidden and the system behavior is changed so that adjustment transactions can't be created for invoiced transactions. |
-
-### Project management and accounting "Allow for projects with multiple funding sources" parameter
-
-| &nbsp; | &nbsp; |
-|--------|--------|
-| **Reason for deprecation/removal** | This parameter was originally added before feature management was available. However, it's no longer required, because the functionality can now be safely enabled for sales orders and multiple funding sources. Multiple funding sources should now always be optionally configurable in the project contract. |
-| **Replaced by another feature?** | No |
-| **Product areas affected** | Application |
-| **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By October 1, 2024, the parameter is hidden and the system behavior is changed so that the system behaves as if the parameter is always enabled, but multiple funding sources aren't required. |
+Similarly, we have decided to keep the Project management and accounting parameter for "Allow for projects with multiple funding sources" and the functionality as is and not remove it. The related feature to "Allow item requirements with multiple funding sources for Project Operations stocked/production-based scenarios" will move to mandatory in a future release, but will continue to be dependent on this parameter being on or off.
 
 ## Features removed or deprecated in the Project Operations March 2022 release
 
