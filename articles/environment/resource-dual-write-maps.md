@@ -91,7 +91,7 @@ The following maps are optional for a Project Operations solution.
 
 | Entity map | Latest version | Initial sync | Required Dynamics 365 Finance version |
 | --- | --- | --- | --- |
-| Project worker resource import (bookableresources) | 1.0.0.1 | Not required for provisioning |10.0.39|
+| Project worker resource import (bookableresources) | 1.0.0.1 | Not required for provisioning |10.0.39 or later|
 
 ### Project Operations dual-write map versions
 
