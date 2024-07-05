@@ -21,6 +21,9 @@ This article applies to the following components and versions of Microsoft Dynam
 
 - Project Operations in a Microsoft Dataverse environment version 4.106.0.3.
 
+## Features included in this release
+No new features are included in this release for the lite deployment.
+
 ## Quality updates
 
 ### Project Operations on Dataverse
