@@ -34,6 +34,10 @@ Always run the latest version of the map in your environment and enable all rela
 If you encounter an issue when you start the map, follow the instructions in the [Missing table columns issue on maps](https://github.com/MicrosoftDocs/dynamics-365-project-operations-pr/blob/PO_RN_UR39_Nov23/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual-write troubleshooting guide.
 
 
+## Features included in this release
+No new features are included in this release for the lite deployment.
+
+
 ## Quality updates
 
 ### Project Operations on Dataverse
