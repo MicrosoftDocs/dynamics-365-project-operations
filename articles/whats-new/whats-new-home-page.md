@@ -27,6 +27,10 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Version | Build number | Autoupdate availability | Learn more |
 |---------|--------------|---------------|-------------|
+| Dataverse 4.106.0.3 </br> Finance 10.0.40 |    | Julyl 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-july-2024-resource-based.md
+) </br> [Project Operations lite deployment](whats-new-july-2024-lite.md) |
+| Dataverse 4.105.0.5 </br> Finance 10.0.40 |    | June 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-june-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-june-2024-lite.md) |
+| Dataverse 4.103.0.8 </br> Finance 10.0.39 |    | May 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-may-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-may-2024-lite.md) |
 | Dataverse 4.103.0.8 </br> Finance 10.0.39 |    | April 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-apr-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-apr-2024-lite.md) |
 | Dataverse 4.92.0.2 </br> Finance 10.0.39 |    | March 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-mar-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-mar-2024-lite.md) |
 | Dataverse 4.91.0.95 </br> Finance 10.0.38 |    | February 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-feb-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-feb-2024-lite.md) </br> [Project Operations for stocked/production-based scenarios](../prod-pma/whats-new/whats-new-feb-2024-stocked.md)|
