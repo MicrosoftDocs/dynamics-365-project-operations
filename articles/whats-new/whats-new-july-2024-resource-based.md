@@ -44,11 +44,11 @@ No new features are included in this release for the lite deployment.
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing and Pricing|	3788836|	Invoice revision fails for manually created ILDs on TM Invoice Lines without a project reference|
-|Billing and Pricing|	3844999|	Currency Validation for Role Prices on Cost Price Lists|
-|Sales|	3853801|	Quote line detail and contract line detail DW pre create validation should default owning company instead of throwing an exception|
-|Time Entry|	4103100|	Modern Time Entry Grid - Now adheres to the "Start day of week" set as per system settings|
-|Billing and Pricing|	4124103|	Prevent recall of approved time entries that are already billed to a (confirmed) invoice|
+|Billing and Pricing | 3788836 | Invoice revision fails for manually created ILDs on TM Invoice Lines without a project reference.|
+|Billing and Pricing | 3844999 | Currency Validation for Role Prices on Cost Price Lists.|
+|Sales|	3853801| Quote line detail and contract line detail DW pre create validation should default owning company instead of throwing an exception.|
+|Time Entry| 4103100 | Modern Time Entry Grid - Now adheres to the "Start day of week" set as per system settings.|
+|Billing and Pricing| 4124103 | Prevent recall of approved time entries that are already billed to a (confirmed) invoice.|
 
 ### Project management and accounting in Finance
 
