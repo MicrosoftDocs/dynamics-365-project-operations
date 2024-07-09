@@ -4,7 +4,7 @@ description: This article describes features that have been removed, or that are
 author: sigitac
 ms.custom:
   - evergreen
-ms.date: 06/27/2024
+ms.date: 07/09/2024
 ms.topic: article
 
 ms.reviewer: johnmichalak
@@ -27,9 +27,9 @@ This list is intended to help you consider these removals and deprecations for y
 
 ## Features removed or deprecated in the Project Operations October 2023 release
 
-Previously we had announced the depreciation of the Project management and accounting adjustment parameter for "Invoiced". After additional discussion and feedback, we have decided to keep this parameter and the functionality as is and not remove it.
+Previously we had announced the depreciation of the Project management and accounting adjustment parameter for "Invoiced". After additional discussion and feedback, we have decided to keep this parameter and the functionality as is and won't remove it.
 
-Similarly, we have decided to keep the Project management and accounting parameter for "Allow for projects with multiple funding sources" and the functionality as is and not remove it. The related feature to "Allow item requirements with multiple funding sources for Project Operations stocked/production-based scenarios" will move to mandatory in a future release, but will continue to be dependent on this parameter being on or off.
+Similarly, we have decided to keep the Project management and accounting parameter for "Allow for projects with multiple funding sources" and the functionality as is and not remove it. The related feature to "Allow item requirements with multiple funding sources for Project Operations stocked/production-based scenarios" will move to mandatory in a future release but will continue to be dependent on this parameter being on or off.
 
 ## Features removed or deprecated in the Project Operations March 2022 release
 
