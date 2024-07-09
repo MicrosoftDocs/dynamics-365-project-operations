@@ -29,7 +29,7 @@ The Dual-write maps associated with the 10.0.39 **Enable default financial dimen
 
 - A change was made to add a new required key for references to Bookable Resource that is required for the maps listed below when updating map versions. From the **Dual-write** page, select **Integration key**. In the first column next to **Bookable Resource**, add the bookableresourceid [Bookable Resource] and select **Save**.
 - The existing Project Operations integration actuals (msdyn_actuals) map has been updated to 1.0.0.18.
-  - You may receive the error that "Project validation failed [DIPV1025] Missing destination field msdyn_bookableresource.bookableresourceid in the schema" upon activating the map version until you modify the key mapping describe erlier and then refresh tables.
+  - You may receive the error that "Project validation failed [DIPV1025] Missing destination field msdyn_bookableresource.bookableresourceid in the schema" upon activating the map version until you modify the key mapping describe earlier and then refresh tables.
 - The existing Project Operations integration entity for hour estimates (msdyn_resourceassignments) map has been updated to 1.0.0.6.
   - You may receive an error until you modify the key mapping described earlier and then refresh tables.
 - The Project worker resource import (bookable resources) is a new optional map specific to this feature. Note that it has a required dependency on the "Human Resources entity maps" Dual-write solution being installed.
