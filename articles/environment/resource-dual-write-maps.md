@@ -87,7 +87,7 @@ Complete the following steps to run the listed maps.
     >
     > ![Refresh tables button.](media/6RefreshTables.jpg)
 
-3. With the 10.0.40 and later dual write mpas release, a change was made to add a new required key for references to Bookable Resource that is required for several maps. From the Dual Write page, click into **Integration key**. In the first column next to **Bookable Resource**, add bookableresourceid [Bookable Resource] and click save.
+3. With the 10.0.40 and later dual write maps release, a change was made to add a new required key for references to Bookable Resource that is required for several maps. From the Dual Write page, click into **Integration key**. In the first column next to **Bookable Resource**, add bookableresourceid [Bookable Resource] and click save.
 
 The following maps are optional for a Project Operations solution.
 
