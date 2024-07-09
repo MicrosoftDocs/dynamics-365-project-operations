@@ -21,7 +21,7 @@ This article walks you through the steps required to configure Dynamics 365 Proj
 
 ## Enable feature keys in Dynamics 365 Finance
 
-As of the 10.0.39 application version, there are no prerequisite features in the **Feature Management** workspace required to enable Project Operations. However, there may be features available to enable newly available functionality that extends the base capabilities of Project Operations.
+As of the application version 10.0.39, there are no prerequisite features in the **Feature Management** workspace required to enable Project Operations. However, there may be features available to enable newly available functionality that extends the base capabilities of Project Operations.
 
 ## Define the Project Operations deployment scenario for a legal entity
 
