@@ -3,7 +3,7 @@ title: Project Operations dual-write map versions
 description: This article provides the list of dual-write maps required for Dynamics 365 Project Operations.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 06/27/2024
+ms.date: 07/09/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
