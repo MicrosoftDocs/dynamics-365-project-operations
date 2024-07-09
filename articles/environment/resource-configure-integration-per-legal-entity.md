@@ -3,7 +3,7 @@ title: Configure Project Operations integration per legal entity
 description: This article provides information about setting up integration by legal entity in Project Operations.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 06/27/2024
+ms.date: 07/09/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
