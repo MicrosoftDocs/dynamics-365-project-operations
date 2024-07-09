@@ -7,7 +7,7 @@ ms.custom:
   - bap-template
   - ms.custom:
   - evergreen
-ms.date: 06/27/2024
+ms.date: 07/09/2024
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
@@ -23,16 +23,16 @@ This article applies to the following components and versions of Microsoft Dynam
 - Project Operations in a Microsoft Dataverse environment version 4.105.0.5.
 - Project management and accounting in a Microsoft Dynamics 365 Finance environment version 10.0.40.
 
-## Project Operations dual-write maps updates
+## Project Operations Dual-write maps updates
 
-The dual write maps associated with the 10.0.39 **Enable default financial dimensions for bookable** feature are included in this release.
+The Dual-write maps associated with the 10.0.39 **Enable default financial dimensions for bookable** feature are included in this release.
 
-- A change was made to add a new required key for references to Bookable Resource that is required for the maps listed below on updating map versions. From the Dual Write page, click into **Integration key**. In the first column next to **Bookable Resource**, add bookableresourceid [Bookable Resource] and click save.
+- A change was made to add a new required key for references to Bookable Resource that is required for the maps listed below when updating map versions. From the **Dual-write** page, select **Integration key**. In the first column next to **Bookable Resource**, add the bookableresourceid [Bookable Resource] and select **Save**.
 - The existing Project Operations integration actuals (msdyn_actuals) map has been updated to 1.0.0.18.
-  - You may receive the error that "Project validation failed [DIPV1025] Missing destination field msdyn_bookableresource.bookableresourceid in the schema" upon activating the map version until you modify the key mapping above and then refresh tables.
+  - You may receive the error that "Project validation failed [DIPV1025] Missing destination field msdyn_bookableresource.bookableresourceid in the schema" upon activating the map version until you modify the key mapping describe erlier and then refresh tables.
 - The existing Project Operations integration entity for hour estimates (msdyn_resourceassignments) map has been updated to 1.0.0.6.
-  - You may receive an error until you modify the key mapping above and then refresh tables.
-- The Project worker resource import (bookable resources) is a new optional map specific to this feature. Note that it has a required dependency on the "Human Resources entity maps"  dual write solution being installed.
+  - You may receive an error until you modify the key mapping described earlier and then refresh tables.
+- The Project worker resource import (bookable resources) is a new optional map specific to this feature. Note that it has a required dependency on the "Human Resources entity maps" Dual-write solution being installed.
 
 For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
