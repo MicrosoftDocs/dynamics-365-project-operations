@@ -1,6 +1,6 @@
 ---
-title: Project Operations dual-write map versions
-description: This article provides the list of dual-write maps required for Dynamics 365 Project Operations.
+title: Project Operations Dual-write map versions
+description: This article provides the list of Dual-write maps required for Dynamics 365 Project Operations.
 author: mukumarm
 ms.author: mukumarm
 ms.date: 07/09/2024
@@ -11,13 +11,13 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Project Operations dual-write map versions
+# Project Operations Dual-write map versions
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Using Dynamics 365 Project Operations for resource/non-stocked scenarios requires a set of dual-write maps to be running in the environment. 
+Using Dynamics 365 Project Operations for resource/non-stocked scenarios requires a set of Dual-write maps to be running in the environment. 
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ The following maps are required for the Project Operations solution. Make sure t
 | Table map | Initial sync |
 | --- | --- |
 | Ledger (msdyn_ledgers) | Requires initial sync for the table map and all prerequisites. Master for initial sync is finance and operations apps. |
-| Legal entities (cdm_companies) | Not required. The system populates this entity automatically when environments are linked using dual-write. |
+| Legal entities (cdm_companies) | Not required. The system populates this entity automatically when environments are linked using Dual-write. |
 | Customers V3 (accounts) | Not required for provisioning. |
 | Vendors V2 (msdyn_vendors) | Not required for provisioning. |
 
@@ -45,7 +45,7 @@ The following maps are required for the Project Operations solution. Make sure t
 
 2. Follow the same steps for all remaining table maps listed in the above table. Do not select the **Initial sync** check box when running those maps.
 
-## Project Operations dual-write maps
+## Project Operations Dual-write maps
 
 The following maps are required for a Project Operations solution. Dual-write map versions are listed starting with the Project Operations May 2021 update, version 4.10.0.186.
 
@@ -80,14 +80,14 @@ Complete the following steps to run the listed maps.
 
     Wait until the status of the map is **Running** before you move on to the next step.
 
-2. Select all the remaining required maps. You can filter the maps in the dual-write map list by entering the keyword **Project** in the search field in the upper-right corner. You can multi-select all maps and then run them. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure that you also enable and run related entity maps.
+2. Select all the remaining required maps. You can filter the maps in the Dual-write map list by entering the keyword **Project** in the search field in the upper-right corner. You can multi-select all maps and then run them. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure that you also enable and run related entity maps.
 
     > [!NOTE]
     > If you receive a "Project validation failed" message while you're running all the maps simultaneously, select the relevant map, and then select **Refresh tables**.
     >
     > ![Refresh tables button.](media/6RefreshTables.jpg)
 
-3. With the 10.0.40 and later dual write maps release, a change was made to add a new required key for references to Bookable Resource that is required for several maps. From the Dual Write page, click into **Integration key**. In the first column next to **Bookable Resource**, add bookableresourceid [Bookable Resource] and click save.
+3. With the 10.0.40 and later Dual-write maps release, a change was made to add a new required key for references to Bookable Resource that is required for several maps. From the **Dual-write** page, select into **Integration key**. In the first column next to **Bookable Resource**, add bookableresourceid [Bookable Resource] and Select **Save**.
 
 The following maps are optional for a Project Operations solution.
 
@@ -95,7 +95,7 @@ The following maps are optional for a Project Operations solution.
 | --- | --- | --- | --- |
 | Project worker resource import (bookableresources) | 1.0.0.1 | Not required for provisioning |10.0.39 or later|
 
-### Project Operations dual-write map versions
+### Project Operations Dual-write map versions
 
 Always run the latest version of the map in your environment. Certain features and capabilities might not work correctly if any of the following conditions exist:
 
