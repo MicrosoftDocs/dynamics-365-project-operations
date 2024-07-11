@@ -30,15 +30,15 @@ You can book a named resource to replace generic resource that has a resource re
 
 3. On the **Schedule Assistant** page, select a named resource to book onto your project team and then click **Book**.
 
-![Booking a generic team member using schedule assistant.](media/RM-how-to-15.png)
+![Booking a generic team member using schedule assistant.](media/book-from-schedule-assistant.png)
 
 When the booking is complete and fulfilled by a named resource, the generic resource is replaced with the named resource.
 
-![Named team member replacing a generic team member.](media/RM-how-to-16.png)
+![Named team member replacing a generic team member.](media/generic-tm-replaced.png)
 
 The assignments on the schedule are updated with the named resource as well.
 
-![Named team member assigned to project tasks.](media/RM-how-to-17.png)
+![Named team member assigned to project tasks.](media/tm-assignment-changed.png)
 
 ## Fulfill a generic resource with multiple named resources
 Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource. For example, there is a task with a duration of five days and 120 hours of effort. This task can't be completed by one resource that works a typical eight-hour day over a five day week. 
