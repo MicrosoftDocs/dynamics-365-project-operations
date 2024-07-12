@@ -64,7 +64,7 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Europe                |  4.105.0.13     | July 12, 2024   | July 12, 2024    | 4.106.0.25          | August 13, 2024    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.103.0.261     | July 12, 2024  | July 12, 2024   | 4.106.0.25          | August 13, 2024    |
+|   &nbsp;  | North America         |  4.105.0.13     | July 12, 2024  | July 12, 2024   | 4.106.0.25          | August 13, 2024    |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the table above. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
