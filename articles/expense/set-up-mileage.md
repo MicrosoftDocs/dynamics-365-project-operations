@@ -3,7 +3,7 @@ title: Set up mileage using mileage rate tiers
 description: This article provides information about mileage rates and mileage rate tiers.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/24/2024
+ms.date: 07/17/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -21,11 +21,11 @@ When an expense is reported and the selected expense category is **Mileage**, th
 
 Mileage rate tiers can be set up by going to **Expense Management** > **Setup** > **General** > **Expense categories** > **Mileage** > **Category setup**.
 
-After you upgrade to 10.0.18, if your organization uses the mileage expense category, consider enabling the mileage feature after reviewing the design changes below. 
+After you upgrade to version 10.0.18, if your organization uses the mileage expense category, consider enabling the mileage feature after reviewing the design changes. 
 
-The new design of mileage rate tiers impacts how the value in the **Quantity** field is processed. Prior to the release of 10.0.18, the value in the **Quantity** field was considered to be the lower limit. When accumulation crossed that value, the corresponding rate was used.  As of 10.0.18, the value in the **Quantity** field is considered the upper limit. The corresponding rate is used when mileage accumulation is less than the value in the **Quantity** field.  The new model for mileage tiers helps with consistency across mileage tiers and better usability.   
+The new design of mileage rate tiers impacts how the value in the **Quantity** field is processed. Prior to the release of 10.0.18, the value in the **Quantity** field was considered to be the lower limit. When accumulation crossed that value, the corresponding rate was used. As of 10.0.18, the value in the **Quantity** field is considered the upper limit. The corresponding rate is used when mileage accumulation is less than the value in the **Quantity** field. The new model for mileage tiers helps with consistency across mileage tiers and better usability.   
 
-All approved expense reports will be recalculated during posting according to the new design.
+All approved expense reports are recalculated during posting according to the new design.
 
 ## Example
  
@@ -41,12 +41,12 @@ To correctly calculate the same scenario, the tier set up must be changed. The *
   
 If an employee submits an expense report with 1,500 miles, the two mileage lines on the posted expense report would be: 1000 (rate 0.45) +  500 (rate 0.25) = 575
 
-## Enable the Mileage amount calculation for multiple mileage tiers with same rate feature
+## Enable the Mileage calculation improvements when using mileage rate tiers feature
 
-The **Mileage amount calculation for multiple mileage tiers with same rate** feature improves mileage rate calculation. Complete the following steps to enable this feature.
+The **Mileage calculation improvements when using mileage rate tiers** feature improves mileage rate calculation. To enable this feature, follow these steps.
 
 1. Go to **Workspaces** > **Feature Management**. 
-2. In the list, locate and select **Mileage amount calculation for multiple mileage tiers with same rate**, and then select **Enable now**.
+2. In the list, locate and select **Mileage calculation improvements when using mileage rate tiers**, and then select **Enable now**.
 
 After you enable the feature, reset the mileage tiers to correctly reflect the value of the **Quantity** field. 
 
