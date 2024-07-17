@@ -23,7 +23,7 @@ Mileage rate tiers can be set up by going to **Expense Management** > **Setup** 
 
 After you upgrade to version 10.0.18, if your organization uses the mileage expense category, consider enabling the mileage feature after reviewing the design changes. 
 
-The new design of mileage rate tiers impacts how the value in the **Quantity** field is processed. Prior to the release of 10.0.18, the value in the **Quantity** field was considered to be the lower limit. When accumulation crossed that value, the corresponding rate was used.  As of 10.0.18, the value in the **Quantity** field is considered the upper limit. The corresponding rate is used when mileage accumulation is less than the value in the **Quantity** field.  The new model for mileage tiers helps with consistency across mileage tiers and better usability.   
+The new design of mileage rate tiers impacts how the value in the **Quantity** field is processed. Prior to the release of 10.0.18, the value in the **Quantity** field was considered to be the lower limit. When accumulation crossed that value, the corresponding rate was used. As of 10.0.18, the value in the **Quantity** field is considered the upper limit. The corresponding rate is used when mileage accumulation is less than the value in the **Quantity** field. The new model for mileage tiers helps with consistency across mileage tiers and better usability.   
 
 All approved expense reports are recalculated during posting according to the new design.
 
