@@ -2,7 +2,7 @@
 title: Install and configure the Dynamics 365 expense management mobile app 
 description: This article explains how to install and configure the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 05/22/2024
+ms.date: 07/17/2024
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mukumarm
@@ -20,6 +20,7 @@ This article explains how administrators can prepare your Microsoft Dynamics 365
 
 > [!Note]
 >  It is advisable to delete all components of the **Dynamics 365 expense management** mobile app from Dataverse if the Dynamics 365 Expense Management mobile app has already been installed during the public preview phase.
+> There is no additional license required to use the Mobile app. Each user must be configured in **Dynamics 365 Finance** and minimum license requirement is **Teams user**.
 
 ## System requirements
 
@@ -101,7 +102,8 @@ The following list shows the entities that need to be refreshed.
 
 After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Dynamics 365 expense management mobile app is a canvas app. To share it, follow the instructions in [Share a canvas app with your organization](/power-apps/maker/canvas-apps/share-app).
 
-Each relevant user must be assigned a **Basic user** and **Expense mobile user** security role in Dataverse that lets them create a connection for the custom connector. You can assign this role to a Dataverse group team. Then, any user who's a member of that team also has the role. Alternatively, you can assign the role directly to a user.
+Each user must be assigned the Dynamics 365 **Teams member** license or higher license using the Microsoft Entra portal (Azure portal).
+Each relevant user must be assigned a **Basic user** and **Expense mobile user** security role in Dataverse that lets them create a connection for the custom connector. You can assign this role to a Dataverse group team. Then, any user who's a member of that team also has the role. Alternatively, you can assign the role directly to a user. 
 
 - To assign a role to a group team, follow the instructions in [Manage the security roles of a team](/power-platform/admin/manage-group-teams#manage-the-security-roles-of-a-team). We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](/power-platform/admin/manage-teams#manage-team-members).
 - To assign a role directly to a user, follow the instructions in [Assign a security role to a user](/power-platform/admin/assign-security-roles).
