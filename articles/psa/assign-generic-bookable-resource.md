@@ -1,6 +1,6 @@
 ---
-title: Assign generic bookable resources to a task and project team
-description: This article provides information about booking generic resources to tasks and project teams.
+title: Assign generic bookable resources to a task and project team in PSA
+description: This article provides information about booking generic resources to tasks and project teams in PSA.
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
@@ -15,7 +15,7 @@ search.audienceType:
   - enduser
 ms.reviewer: johnmichalak
 ---
-# Assign generic bookable resources to a task and generate resource requirements 
+# Assign generic bookable resources to a task and generate resource requirements in PSA
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
