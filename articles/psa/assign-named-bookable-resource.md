@@ -1,6 +1,6 @@
 ---
-title: Book named bookable resources to a project team and assign tasks
-description: This article provides information about how to book named resources to project teams and assign them to tasks.
+title: Book named bookable resources to a project team and assign tasks in PSA
+description: This article provides information about how to book named resources to project teams and assign them to tasks in PSA.
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
@@ -15,7 +15,7 @@ search.audienceType:
   - enduser
 ms.reviewer: johnmichalak
 ---
-# Book named bookable resources to a project team and assign tasks 
+# Book named bookable resources to a project team and assign tasks in PSA
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
