@@ -1,6 +1,6 @@
 ---
-title: Book named resources from resource requirements
-description: This article provides information about booking named resources for a generic resource requirement.
+title: Book named resources from resource requirements in PSA
+description: This article provides information about booking named resources for a generic resource requirement in PSA.
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
@@ -15,7 +15,7 @@ search.audienceType:
   - enduser
 ms.reviewer: johnmichalak
 ---
-# Book named resources from resource requirements
+# Book named resources from resource requirements in PSA
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
