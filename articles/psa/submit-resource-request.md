@@ -1,6 +1,6 @@
 ---
-title: Submitting a resource request
-description: This article provides information about submitting a request for a project resource.
+title: Submitting a resource request in PSA
+description: This article provides information about submitting a request for a project resource in PSA.
 ms.custom: 
   - dyn365-projectservice
   - evergreen
@@ -15,7 +15,7 @@ search.audienceType:
   - enduser
 ms.reviewer: johnmichalak
 ---
-# Submitting a resource request
+# Submitting a resource request in PSA
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
