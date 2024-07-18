@@ -25,11 +25,11 @@ You can also post all the expense reports in the list at the same time. Select a
 
 ## Enable auto posting of expense reports
 
-To automate the posting of expense reports, the **Expense report auto-posting** workflow must be configured. Once this workflow is enabled, the system will automatically execute the auto-posting process to post the expense reports.
+To automate the posting of expense reports, the **Expense report auto-posting** workflow must be configured. Once this workflow is enabled, the system automatically executes the auto-posting process to post the expense reports.
 
 ## Enable auto posting of expenses
 
-If expense approval is configured for expense lines and auto-posting is required, then the **Expense line item auto-posting** workflow must be configured. Once this workflow is enabled, the system will automatically execute the auto-posting process to post the expenses.
+If expense approval is configured for expense lines and auto-posting is required, then the **Expense line item auto-posting** workflow must be configured. Once this workflow is enabled, the system automatically executes the auto-posting process to post the expenses.
 
 ## Enable the Ability to post expense liability in vendor currency for cash payment method feature
 
