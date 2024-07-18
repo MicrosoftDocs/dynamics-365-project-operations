@@ -1,6 +1,6 @@
 ---
-title: Fulfilling resource requirements
-description: This article provides information about how to fulfill resource requirements.
+title: Fulfilling resource requests in PSA
+description: This article provides information about how to fulfill resource requirements in PSA.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
@@ -16,7 +16,7 @@ search.audienceType:
 ms.reviewer: johnmichalak
 ---
 
-# Fulfilling resource requests
+# Fulfilling resource requests in PSA
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
