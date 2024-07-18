@@ -1,6 +1,6 @@
 ---
-title: Accept or reject a proposed project resource
-description: This article provides information about how to approve or reject a proposed project resource.
+title: Accept or reject a proposed project resource in PSA
+description: This article provides information about how to approve or reject a proposed project resource in PSA.
 ms.custom: 
   - dyn365-projectservice
   - evergreen
@@ -15,7 +15,7 @@ search.audienceType:
   - enduser
 ms.reviewer: johnmichalak
 ---
-# Accept or reject a proposed project resource
+# Accept or reject a proposed project resource in PSA
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
