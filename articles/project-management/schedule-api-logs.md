@@ -1,6 +1,6 @@
 ---
 title: Project scheduling logs
-description: This article provides information and samples that will help you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
+description: This article provides information and samples that helps you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
 author: abriccetti
 ms.author: abriccetti
 ms.date: 07/19/2024
@@ -32,18 +32,18 @@ The following table shows the fields that are related to the **Operation Set** e
 | SchemaName            | Description                                                                                                  | DisplayName            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
 | msdyn_completedon     | The date/time when the operation set was completed or failed.                                                | CompletedOn            |
-| msdyn_correlationid   | The **correlationId** value of the request.                                                                  | CorrelationId          |
+| msdyn_correlationId   | The **correlationId** value of the request.                                                                  | CorrelationId          |
 | msdyn_description     | The description of the operation set.                                                                        | Description            |
 | msdyn_executedon      | The date/time when the record was run.                                                                       | Executed On            |
 | msdyn_operationsetId  | The unique identifier of entity instances.                                                                   | OperationSet           |
 | msdyn_Project         | The project that is related to the operation set.                                                            | Project                |
-| msdyn_projectid       | The **projectId** value of the request.                                                                      | ProjectId (Deprecated) |
+| msdyn_projectId       | The **projectId** value of the request.                                                                      | ProjectId (Deprecated) |
 | msdyn_projectName     | Not applicable.                                                                                              | Not applicable         |
 | msdyn_PSSErrorLog     | The unique identifier of the Project Scheduling Service error log that is associated with the operation set. | PSS Error Log          |
 | msdyn_PSSErrorLogName | Not applicable.                                                                                              | Not applicable         |
 | msdyn_status          | The status of the operation set.                                                                             | Status                 |
 | msdyn_statusName      | Not applicable.                                                                                              | Not applicable         |
-| msdyn_useraadid       | The Microsoft Entra object ID of the user that the request belongs to.                     | UserAADID              |
+| msdyn_useraadId       | The Microsoft Entra object ID of the user that the request belongs to.                     | UserAADID              |
 
 ### Operation Set Detail
 
@@ -83,18 +83,18 @@ The following table shows the fields that are included in the Project Scheduling
 | SchemaName          | Description                                                                    | DisplayName    |
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | The call stack of the exception.                                               | Call Stack     |
-| msdyn_correlationid | The correlation ID of the error.                                               | CorrelationId  |
+| msdyn_correlationId | The correlation ID of the error.                                               | CorrelationId  |
 | msdyn_errorcode     | A field that is used to store the Dataverse error code or the HTTP error code. | Error Code     |
 | msdyn_HelpLink      | A link to the public Help documentation.                                       | Help Link      |
 | msdyn_log           | The log from the Project Scheduling Service.                                   | Log            |
 | msdyn_project       | The project that is associated with the error log.                             | Project        |
-| msdyn_projectName   | The name of the project if the payload of the operation set will be persisted. | Not applicable |
+| msdyn_projectName   | The name of the project if the payload of the operation set persists.          | Not applicable |
 | msdyn_psserrorlogId | The unique identifier of entity instances.                                     | PSS Error Log  |
-| msdyn_SessionId     | The project session ID.                                                        | Session Id     |
+| msdyn_SessionId     | The project session ID.                                                        | Session ID     |
 
 ## Error log cleanup
 
-By default, both Project Scheduling Service error logs and the Operation Set log can be cleaned up every 90 days. Any records that are older than 90 days will be deleted. However, by changing the value of the **msdyn_StateOperationSetAge** field on the **Project Parameters** page, administrators can adjust the cleanup range so that it's between 1 and 120 days. Several methods for changing this value are available:
+By default, both Project Scheduling Service error logs and the Operation Set log can be cleaned up every 90 days. Any records that are older than 90 days are deleted. However, by changing the value of the **msdyn_StateOperationSetAge** field on the **Project Parameters** page, administrators can adjust the cleanup range so that it's between 1 and 120 days. Several methods for changing this value are available:
 
 - Customize the **Project Parameter** entity by creating a custom page and adding the **Stale Operations Set Age** field.
 - Use client code that uses the [WebApi software development kit (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
@@ -103,7 +103,7 @@ By default, both Project Scheduling Service error logs and the Operation Set log
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {
         parameter = response.entities[0];
-        var staleOperationValue = prompt("All records older than (x) days will be deleted, please enter X between 1 to 90 days", 1)
+        var staleOperationValue = prompt("All records older than (x) days are deleted, please enter X between 1 to 90 days", 1)
         var newData = {};
         newData.msdyn_projectparameterid = parameter.msdyn_projectparameterid;
         newData.msdyn_staleoperationsetage = parseInt(staleOperationValue);
