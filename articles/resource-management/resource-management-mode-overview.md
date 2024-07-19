@@ -19,7 +19,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 Dynamics 365 Project Operations supports two modes in order for you to execute the overall booking flow. The mode of management is defined as a project parameter and can be modified if your business needs change.    
 
 ## Central mode
-For organizations who centralize the allocation for resources to projects, the Central mode provides a way to ensure Project managers can define resource requirements at the project level. Fulfillment of the resource requirements is delegated to a Resource manager. Project managers can accept or reject resources that are proposed by the Resource manager.
+For organizations who centralize the allocation for resources to projects, the Central mode provides a way to ensure Project managers can define resource requirements at the project level. Fulfillment of the resource requirements is delegated to a Resource Manager. Project managers can accept or reject resources that are proposed by the Resource Manager.
 
 ![Central Mode.](./media/resource-management-central.png)
 
@@ -32,7 +32,7 @@ To manage resources with the Central mode, see:
 - [Accept or reject a proposed project resource from a resource request](./accept-reject-proposed-resource-PO.md)
 
 ## Hybrid mode
-For organizations who require flexibility in the allocation of resources, the hybrid mode enables both Project managers and Resource managers the ability to book resources.
+For organizations who require flexibility in the allocation of resources, the hybrid mode enables both Project managers and Resource Managers the ability to book resources.
 
 ![Hybrid Mode.](./media/resource-management-hybrid.png)
 
