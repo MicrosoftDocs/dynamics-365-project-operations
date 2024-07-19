@@ -21,7 +21,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 This article provides information about how to approve or reject a proposed project resource.
 
-When a resource manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member will be updated to **Needs Review**. The request will be sent to the project manager for approval or rejection.
+When a Resource Manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member is be updated to **Needs Review**. The request is sent to the project manager for approval or rejection.
 
 ![Generic team member with a proposal.](media/needs-review.png)
 
@@ -32,7 +32,7 @@ To reject the proposal, click **Reject Resource**.
 
 ![Accepting a resource proposal.](media/accept-resource-proposal.png) 
 
-Similar to directly fulfilling a generic resource request with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.
+Similar to directly fulfilling a generic resource request with a named resource, the generic resource is replaced and the assigned tasks is updated with the named team member.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
