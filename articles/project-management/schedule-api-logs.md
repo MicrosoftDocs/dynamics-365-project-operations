@@ -72,6 +72,10 @@ The Project Scheduling Service error logs capture failures that occur when the P
 - The Project Scheduling Service can't programmatically create, update, delete, or perform any other cascading operation on an entity.
 - The user experiences errors when a record fails to open (for example, when a project is opened or a team member's information is updated).
 
+> [!NOTE]
+> When a log entry is created, the owner of that record will be set to the owner of the project record. If that user does not have at least user level read access to the **PSS Error Log** table, then no record will be created.
+> 
+
 ### Project Scheduling Service log
 
 The following table shows the fields that are included in the Project Scheduling Service log.
