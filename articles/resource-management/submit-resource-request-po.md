@@ -1,13 +1,13 @@
 ---
-title: Submitting a resource request in PSA
-description: This article provides information about submitting a request for a project resource in PSA.
+title: Submitting a resource request
+description: This article provides information about submitting a request for a project resource.
 ms.custom: 
   - dyn365-projectservice
   - evergreen
 ms.date: 04/09/2024
 ms.topic: article
 author: JohnPBurrows
-ms.author: ruhercul
+ms.author: abriccetti
 audience: Admin
 search.audienceType: 
   - admin
@@ -15,18 +15,16 @@ search.audienceType:
   - enduser
 ms.reviewer: johnmichalak
 ---
-# Submitting a resource request in PSA
+# Submitting a resource request
 
-[!include [banner](../includes/psa-now-project-operations.md)]
-
-[!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 You can submit a generated resource requirement as a resource request. The request is then sent to a Resource Manager for fulfillment.
 
-1. In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab to view a list bookable resources. 
+1. In Project Operations, on the **Projects** page, click the **Team** tab to view a list bookable resources. 
 2. Select the generic resource that has a resource requirement from the list and then click **Submit Request**.
 
-![Submitting a resource request.](media/RM-how-to-18.png)
+![Submitting a resource request.](media/submit-request.png)
 
 The request status of the generic team member changes to **Submitted**.
 

@@ -468,6 +468,20 @@
         href: resource-management/review-proposed-resources.md
       - name: Edit bookings
         href: resource-management/edit-existing-bookings.md
+      - name: Accept or reject a proposed project resource
+        href: resource-management/accept-reject-proposed-resource-po.md
+      - name: Assign generic bookable resources to a task and project team
+        href: resource-management/assign-generic-resource-po.md
+      - name: Book named bookable resources to a project team and assign tasks
+        href: resource-management/assign-named-bookable-resource-po.md
+      - name: Book named resources from resource requirements
+        href: resource-management/book-named-resource-po.md
+      - name: Fulfilling resource requirements
+        href: resource-management/resource-fulfill-requests-po.md
+      - name: Resource management modes overview
+        href: resource-management/resource-management-mode-overview.md
+      - name: Submitting a resource request
+        href: resource-management/submit-resource-request-po.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team Member grid
@@ -1290,6 +1304,20 @@
         href: resource-management/review-proposed-resources.md
       - name: Edit bookings
         href: resource-management/edit-existing-bookings.md
+      - name: Accept or reject a proposed project resource
+        href: resource-management/accept-reject-proposed-resource-po.md
+      - name: Assign generic bookable resources to a task and project team
+        href: resource-management/assign-generic-resource-po.md
+      - name: Book named bookable resources to a project team and assign tasks
+        href: resource-management/assign-named-bookable-resource-po.md
+      - name: Book named resources from resource requirements
+        href: resource-management/book-named-resource-po.md
+      - name: Fulfilling resource requirements
+        href: resource-management/resource-fulfill-requests-po.md
+      - name: Resource management modes overview
+        href: resource-management/resource-management-mode-overview.md
+      - name: Submitting a resource request
+        href: resource-management/submit-resource-request-po.md
     - name: Decentralized resource booking (hybrid)
       items:
       - name: Add team members from the Team Member grid

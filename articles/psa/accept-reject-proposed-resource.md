@@ -1,6 +1,6 @@
 ---
-title: Accept or reject a proposed project resource
-description: This article provides information about how to approve or reject a proposed project resource.
+title: Accept or reject a proposed project resource in PSA
+description: This article provides information about how to approve or reject a proposed project resource in PSA.
 ms.custom: 
   - dyn365-projectservice
   - evergreen
@@ -15,7 +15,7 @@ search.audienceType:
   - enduser
 ms.reviewer: johnmichalak
 ---
-# Accept or reject a proposed project resource
+# Accept or reject a proposed project resource in PSA
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -23,7 +23,7 @@ ms.reviewer: johnmichalak
 
 This article provides information about how to approve or reject a proposed project resource.
 
-When a resource manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member will be updated to **Needs Review**. The request will be sent to the project manager for approval or rejection.
+When a Resource Manager proposes a named resource to fill the generic resource request for a project, the **Request Status** field for the generic team member is updated to **Needs Review**. The request is sent to the Project Manager for approval or rejection.
 
 ![Generic team member with a proposal.](media/RM-how-to-19.png)
 
@@ -34,7 +34,7 @@ To reject the proposal, click **Reject Resource**.
 
 ![Accepting a resource proposal.](media/RM-how-to-20.png) 
 
-Similar to directly fulfilling a generic resource request with a named resource, the generic resource will be replaced and the assigned tasks will be updated with the named team member.
+Similar to directly fulfilling a generic resource request with a named resource, the generic resource is replaced and the assigned tasks are updated with the named team member.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
