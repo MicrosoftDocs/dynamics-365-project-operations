@@ -3,7 +3,7 @@ title: Project scheduling logs
 description: This article provides information and samples that will help you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/21/2024
+ms.date: 07/19/2024
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -73,7 +73,7 @@ The Project Scheduling Service error logs capture failures that occur when the P
 - The user experiences errors when a record fails to open (for example, when a project is opened or a team member's information is updated).
 
 > [!NOTE]
-> When a log entry is created, the owner of that record will be set to the owner of the project record. If that user does not have at least user level read access to the **PSS Error Log** table, then no record will be created.
+> When a log entry is created, the owner of that record is set as the owner of the project record. If that user doesn't have at least user level read access to the **PSS Error Log** table, then no record is created.
 > 
 
 ### Project Scheduling Service log
