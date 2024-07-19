@@ -19,23 +19,23 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-In addition to booking and assigning named or real resources to your project, you can assign generic resources to project tasks. These resources can serve as placeholders for named resources until you are ready to staff your project with named resources. 
+In addition to booking and assigning named or real resources to your project, you can assign generic resources to project tasks. These resources can serve as placeholders for named resources until you're ready to staff your project with named resources. 
 
 1. In Project Operations, open the **Project** record and on the **Tasks** tab, then select the resource selector under the **Assigned to** column. Here select the three dots and then **Add generic resource**.
 
 ![Creating and assigning a generic team member.](media/add-generic-resource.png)
 
-This will open the **Quick Create: Project Team Member** panel. 
+This opens the **Quick Create: Project Team Member** panel. 
 
 2. Enter the role and any other desired fields of the generic resource team member and then click **Save**.
 
 ![Generic team member quick create.](media/generic-resource-quick-create.png)
 
-3. After you have created the new generic resource team member, it is assigned to the task. You can continue to assign that generic resource to other tasks in the task schedule.
+3. After you create the new generic resource team member, it's assigned to the task. You can continue to assign that generic resource to other tasks in the task schedule.
 
 ![Assigning existing generic team member to tasks.](media/assign-generic-resource.png)
 
-4. After you have assigned the generic resource, you can generate a resource requirement and fulfill it by directly booking or submitting a resource request to a resource manager.
+4. After you assign the generic resource, you can generate a resource requirement and fulfill it by directly booking or submitting a resource request to a Resource Manager.
 
 ![Generating a requirement for a generic team member.](media/generate-requirement.png)
 
