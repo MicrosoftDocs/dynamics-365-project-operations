@@ -22,7 +22,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.
+Resource requirements can be sent as resource requests to the Resource Manager who is responsible for fulfilling those requests.
 
 Resource requests are shown as a list in the **Active Resource Requests** view.
 
