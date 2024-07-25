@@ -4,7 +4,7 @@ description: This article explains how to record pending vendor invoices.
 author: mukumarm
 ms.author: mukumarm
 ms.date: 05/22/2024
-ms.topic: how-
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
