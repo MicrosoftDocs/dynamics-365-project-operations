@@ -2,7 +2,7 @@
 title: Project Service Automation end of life FAQ
 description: This article provides answers to frequently asked questions about the end of life for Microsoft Dynamics 365 Project Service Automation.
 author: abriccetti
-ms.date: 04/09/2024
+ms.date: 07/26/2024
 ms.topic: faq
 ms.custom: 
   - bap-template
@@ -21,7 +21,7 @@ This article provides answers to frequently asked questions about the end of lif
 
 ### When is Project Service Automation 3.x reaching its end of life? Is there an exception process?
 
-The end of life date for Project Service Automation in March 31st, 2025. *End of life* means the end of product support. After the end-of-support date, support tickets are resolved through a request to upgrade to Dynamics 365 Project Operations. The Product engineering team won't release regular maintenance updates for functional improvements, performance issues, security and compliance issues, or any other issues. Although customers can continue to access and use Project Service Automation after this date, we highly discourage this use.
+The end-of-life date for Project Service Automation is March 31st, 2025. *End of life* means the end of product support. After the end-of-support date, support tickets are resolved through a request to upgrade to Dynamics 365 Project Operations. The Product engineering team won't release regular maintenance updates for functional improvements, performance issues, security and compliance issues, or any other issues. Although customers can continue to access and use Project Service Automation after this date, you’re highly discouraged from using it.
 
 After the end-of-support date, license grandfathering from a Project Service Automation license to a Project Operations license isn't supported.
 
