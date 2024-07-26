@@ -3,7 +3,7 @@ title: Purchase non-stocked materials or procurement categories using a pending 
 description: This article explains how to record pending vendor invoices. 
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/22/2024
+ms.date: 07/26/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -17,7 +17,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 As a company procures non-stocked materials or procurement categories for a project, the costs can be immediately recorded against the project. 
 
-For example, Contoso Robotics US is performing an equipment renewal project and needs software licenses. These licenses are procured from a third-party vendor.  Using Dynamics 365 Finance, the Accounts payable clerk records a pending vendor invoice document and attributes the license costs directly against the equipment renewal project. 
+For example, Contoso Robotics US is performing an equipment renewal project and needs software licenses. These licenses are procured from a third-party vendor.  When you use Dynamics 365 Finance, the Accounts payable clerk records a pending vendor invoice document and attributes the license costs directly against the equipment renewal project. 
 
 > [!IMPORTANT]
 > Before you use the functionality described in this article, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md) and [Use procurement categories with project purchase orders and pending vendor invoices](configure-procurement-categories.md)
@@ -31,7 +31,7 @@ Pending vendor invoices can be recorded on the **Pending vendor invoices** page 
 1. Add a line to the vendor invoice, and then, in the **Item number** field, select the non-stocked item that was purchased from the vendor. Alternatively, in the **Procurement category** field, select the procurement category that was purchased from the vendor.   
 1. Add the quantity that was purchased. The system fills in the unit price, based on the non-stocked item price configuration. 
 1. Verify the total amount and other required details on the line.
-1. In the line details, on the **Project** tab, select the ID of the project that this item will be recorded to.
+1. In the line details, on the **Project** tab, select the ID of the project that this item is recorded to.
 1. Optional: Select the activity number, and update the project category and line property.
 1. Post the pending vendor invoice. When the invoice is posted, the system records the following information:
     
