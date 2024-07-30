@@ -32,7 +32,7 @@ A blue spinner indicating that a save is currently in progress.
 
 ![Save in progress.](media/saveinprogress.png)
 
-A red x indicates the save to Dataverse failed, and the project reverts to the previous state upon reload (this reload shows a warning banner and requires a page refresh to revert the failed save and continue editing).
+A red x indicates the save to Dataverse failed, and the project reverts to the previous state upon reload (this reload shows a warning banner and requires a page refresh to revert the failed save and continue editing). When a save fails, users can navigate to the PSS Error Log (under the Settings area) to see more details on what caused the error.
 
 ![Save failure.](media/savefailure.png)
 
