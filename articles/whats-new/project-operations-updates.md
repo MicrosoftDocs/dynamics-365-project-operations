@@ -70,6 +70,8 @@ __\*__ Auto updates are managed by the Dataverse platform and run on the date de
 
 If auto update is unable to complete, update of your environment on the date defined in the above table. It will try again the next day for up to a week during the defined maintenance window for your environment
 
+Note that version **4.106.0.58** has been released as a hotfix for version **4.106.0.25**. Customers are encourged to initiate a self-upgrade to address any issues encountered with the earlier version.
+
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
 Refer to the [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) for the release schedule for Project management and accounting in the finance and operations apps environment. 
