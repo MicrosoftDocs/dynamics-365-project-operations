@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 07/12/2024
+ms.date: 08/01/2024
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
@@ -66,11 +66,12 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | North America         |  4.105.0.13     | July 12, 2024  | July 12, 2024   | 4.106.0.25          | August 13, 2024    |
 
-__\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the table above. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
+__\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the previous table. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
-If auto update is unable to complete, update of your environment on the date defined in the above table. It will try again the next day for up to a week during the defined maintenance window for your environment
+If auto update is unable to complete, update of your environment on the date defined in the previous table. It will try again the next day for up to a week during the defined maintenance window for your environment
 
-Note that version **4.106.0.58** has been released as a hotfix for version **4.106.0.25**. Customers are encourged to initiate a self-upgrade to address any issues encountered with the earlier version.
+> [!NOTE]
+> Version **4.106.0.58** was released as a hotfix for version **4.106.0.25**. Customers are encouraged to initiate a self-upgrade to address any issues encountered with the earlier version.
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
