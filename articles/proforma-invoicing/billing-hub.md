@@ -61,8 +61,10 @@ The following information is available in the **Billing hub** view.
 | Name | The name of the project contract. |
 | Customer | The name of the primary customer on the contract. |
 | Total Amount | The amount on the contract. This amount is also referred to as the *contract value*. |
+| Spent Amount | Total amount consumed by confirmed invoices for the contract till date. |
 | Ready to be invoiced | The total amount of transactions that have a **Ready to invoice** billing status. |
 | Available advances | The total amount of advances that are available for use against an invoice for the related project contract. |
+| Advances| The total amount of advances or retainers created for the contract. |
 | Products | The number of product-based lines on the contract. |
 
 ### Contract line fields
@@ -71,6 +73,7 @@ The following information is available in the **Billing hub** view.
 |---|---| 
 | Name | The name of the project contract line. |
 | Project | The name of the project that's associated with the contract line. |
+| Customers| Number of customers on the contract. |
 | Billing Method | The billing method on the related project contract line. |
 | Milestones | All the invoiceable fixed price milestones that are available for the selected project contract line. |
 | Time | The billing backlog for all unbilled sales actuals of the **time** transaction type for the selected project contract line. |
