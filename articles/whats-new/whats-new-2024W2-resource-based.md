@@ -7,7 +7,7 @@ ms.custom:
 ms.date: 08/13/2024
 ms.reviewer: johnmichalak
 ms.topic: article
-ms.author: tulsijhaveri
+ms.author: mohitmenon
 ---
 
 # What's new 2024 Wave 2 early access - Project Operations for resource/non-stocked based scenarios
