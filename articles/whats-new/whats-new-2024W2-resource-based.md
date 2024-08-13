@@ -27,8 +27,8 @@ The following table lists the feature flags removed from Feature control. These 
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Management |**Project Calendar Control** <br><br> Allows users to directly edit a project's calendar on the project form| |
-| Sales |**Sales copy with company** <br><br> This feature introduces the capability to select an alternate company when copying Opportunity, Quote, and Project Contract records. With this feature, users gain the flexibility to seamlessly duplicate relevant records across different companies, streamlining the efficient templatizing and re-pathing of opportunities, quotes, and contracts.| |
+| Project Management |**Project Calendar Control** <br><br> Allows users to directly edit a project's calendar on the project form| [Define and edit project calendars](../project-management/define-project-calendars.md)|
+| Sales |**Sales copy with company** <br><br> This feature introduces the capability to select an alternate company when copying Opportunity, Quote, and Project Contract records. With this feature, users gain the flexibility to seamlessly duplicate relevant records across different companies, streamlining the efficient templatizing and re-pathing of opportunities, quotes, and contracts.| [Copy project based contracts](../sales/copy-project-based-contracts-sales.md) <br><br> [Copy project based quotes](../sales/copy-project-based-quotes.md) <br><br> [Copy project based opportunities](../sales/copy-project-based-opportunity.md)  |
 
 ## Features included in this release
 
@@ -36,4 +36,3 @@ The following table lists the feature flags removed from Feature control. These 
 | --- | --- | --- |
 | Pricing |**Date effective role price override can be easily tracked in price list** <br><br> Previously, users had to expand each role in the price lists view to check for date-effective price overrides. With this new feature, if a role has one or more date-effective price overrides, the total number of overrides will be displayed in an additional column named 'Overrides'. A positive number in the 'Overrides' column indicates that there|  |
 | Sales |**Price-override from Quote line details** <br><br> This feature which was previously behind a separate feature flag, will now be available by default. Users can create a role price override directly from quote line details. | |
-| Time Entry |**Copilot in time entry** <br><br> Copilot in time entry will be available in regions other than North America, for early access testing. | |
