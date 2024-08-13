@@ -26,8 +26,9 @@ The following table lists the feature flags removed from Feature control. These 
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Management |**Project Calendar Control** <br><br> Allows users to directly edit a project's calendar on the project form| [Define and edit project calendars](../project-management/define-project-calendars.md)|
-
+| Project Management |**Project Calendar Control** <br><br> Allows users to directly edit a project's calendar on the project form| [Define and edit project calendars](../../project-management/define-project-calendars.md)|
+| Proforma Invoicing |**Improved project invoicing usability and performance** <br><br> The Billing hub experience aims to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights prior to invoice creation to help accountants and billing users create proforma invoices quickly and efficiently. By using the platform's out-of-the-box nested grid functionality, users can complete invoice creation from a single unified view, eliminating the need to navigate between forms or views to validate data, thus leading to faster processing of invoices.| [Billing hub](../../proforma-invoicing/billing-hub.md) |
+| Project Invoicing |**Ability to select and revise specific transactions in an invoice.** <br><br> This feature improves usability and performance of the invoice correction process by enabling users to select a subset of the transactions for correction without needing to revise the entire invoice, thereby leading to efficient and shorter invoicing cycles.| [Revise project invoices](../../proforma-invoicing/revise-proforma-invoice.md) |
 
 ## Features included in this release
 
