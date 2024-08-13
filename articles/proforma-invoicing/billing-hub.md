@@ -60,11 +60,9 @@ The following information is available in the **Billing hub** view.
 
 ### Update totals on contract and contract line fields
 
-Initially, the values of amount fields might be shown as **0** (zero) for newly created project contracts. You can use the **Update Totals** button to view the latest values of amount fields in Billing hub.
-1. Select the project contract.
-2. On the Action Pane, select **Update Totals**.
->[!IMPORTANT]
-> At any point during the invoicing process, use **Update Totals** to update all the calculated fields on the contract and contract lines.
+At any point during the invoicing process, use **Update Totals** to update all the calculated fields on the contract and contract lines. For newly added project contracts, amount values are initally **0** (zero).
+1. Select 1 or more project contract(s).
+2. On the form ribbon, select **Update Totals**.
 
 ## Review or update the invoiceable backlog per Contract line
 
