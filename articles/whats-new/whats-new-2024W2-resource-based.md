@@ -1,5 +1,5 @@
 ---
-title: What's new 2024 Wave 2 early access - Project Operations for resource/non-stocked based scenarios
+title: What's new 2024 wave 2 early access - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the features available in the 2024 wave 2 early access release of Project Operations resource/non-stocked based scenarios deployment.
 author: mohitmenon
 ms.custom:
