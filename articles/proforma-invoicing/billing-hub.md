@@ -18,7 +18,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operation
 
 The end-to-end process of invoice creation in Microsoft Dynamics 365 Project Operations is cumbersome, because it involves multiple clicks and navigation between different forms and views.
 
-The **Billing hub experience** aims to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **before invoice creation**, to help accountants and billing users **quickly** and **efficiently** create proforma invoices. By using the platform's out-of-box nested grid functionality, users can complete invoice creation from a single unified view and through a single click. Because users don't have to move between forms or views to validate data, the processing of invoices is faster.
+The **Billing hub experience** aims to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **before invoice creation**, to help accountants and billing users **quickly** and **efficiently** create proforma invoices. Using the platform's out-of-box nested grid functionality, users can complete invoice creation from a single unified view and through a single click. Because users don't have to move between forms or views to validate data, the processing of invoices is faster.
 
 ## Create new invoices
 
@@ -36,7 +36,7 @@ The following information is available in the **Billing hub** view.
 | Name | The name of the project contract. |     
 | Customer | The name of the primary customer on the contract. |
 | Total Amount | The amount on the contract. This amount is also referred to as the *contract value*. |
-| Spent Amount | Total amount consumed by confirmed invoices for the contract untill date. |
+| Spent Amount | Total amount consumed by confirmed invoices for the contract until date. |
 | Ready to be invoiced | The total number of transactions that have a **Ready to invoice** billing status. |
 | Available advances | The total number of advances that are available for use against an invoice for the related project contract. |
 | Advances| The total number of advances or retainers created for the contract. |
@@ -62,7 +62,9 @@ The following information is available in the **Billing hub** view.
 
 At any point during the invoicing process, use **Update Totals** to update all the calculated fields on the contract and contract lines. For newly added project contracts, amount values are initially **0** (zero).
 
-1. Select 1 or more project contract(s).
+To update totals on contract and contract line fields, follow these steps.
+
+1. Select one or more project contracts.
 1. On the form ribbon, select **Update Totals**.
 
 ## Review or update the invoiceable backlog per Contract line
@@ -71,11 +73,13 @@ The contract lines for each project contract provide a view of all associated ac
 
 To review or update the invoiceable backlog, follow these steps.
 
-1. For a Time and material project contract line that has approved time entries, for example, select the **Time** amount field. Alternatively, you can select the **Invoiceable backlog** amount field. A list of invoiceable time transactions that are specific to the project contract and contract line appears.
+1. For a time and material project contract line with approved time entries, for example, select the **Time** amount field. Alternatively, you can select the **Invoiceable backlog** amount field. A list of invoiceable time transactions that are specific to the project contract and contract line appears.
 1. Select the transactions and update the billing status by selecting **Ready to invoice** or **Not ready to invoice** in the list of options for the subgrid.
 1. On the **Billing hub** page, select **Update Totals**. All calculated fields on the contract and contract lines are updated to reflect the latest status.
 
 ### Take actions on transactions within the billing backlog
+
+To take actions on transactions withing the billing backlog, follow these steps.
 
 1. Mark transactions as invoiceable. 
 1. Revaluate Not-to-exceed status of transactions. 
@@ -84,8 +88,9 @@ To review or update the invoiceable backlog, follow these steps.
 1. Add transactions to an existing invoice using **Add to invoice** functionality.
 
 When using **add to invoice**, the following behavior can be expected.
+
 - If a single draft invoice exists for the project contract and project contract customer, the transaction is added to the invoice. 
-- If more than one one draft invoice exists for the project contract and project contract customer, then the transaction is added to the most recently created draft invoice. 
+- If more than one draft invoice exists for the project contract and project contract customer, then the transaction is added to the most recently created draft invoice. 
 - If no draft invoices exist, then a new invoice is created with the selected transactions, similar to the  **create invoice** functionality. 
 
 
