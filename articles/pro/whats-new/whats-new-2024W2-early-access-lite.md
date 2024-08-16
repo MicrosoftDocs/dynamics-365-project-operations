@@ -34,5 +34,5 @@ The following table lists the feature flags removed from Feature control. These 
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Pricing |**Date effective role price overrides can be easily tracked in price list** <br><br> Previously, users had to expand each role in the price lists view to check for date-effective price overrides. With this new feature, if a role has one or more date-effective price overrides, the total number of overrides is displayed in an another column. A positive number in the 'Overrides' column indicates there's a price override for that role.|  |
+| Pricing |**Date effective role price overrides can be easily tracked in price list** <br><br> Previously, users had to expand each role in the price lists view to check for date-effective price overrides. With this new feature, if a role has one or more date-effective price overrides, the total number of overrides is displayed in another column. A positive number in the 'Overrides' column indicates there's a price override for that role.|  |
 | Sales |**Price-override from Quote line details** <br><br> This feature, which was previously behind a separate feature flag, is now available by default. Users can create a role price override directly from quote line details. | |
