@@ -17,7 +17,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 For team members, bookings and assignments are loosely coupled. In other words, resources can have assignments and no bookings, or they can have bookings and no assignments. Ideally, bookings and assignments should be aligned, so that resources have committed capacity to perform the task assignments. However, the bookings might be based on availability, and task timings might change as the project continues. Therefore, the loose coupling of bookings and assignments provides flexibility.
 
-There are two ways to reconcile the differences between bookings and assignments. This article discusses using the **Resource Reconciliation** tab on project records. For details on how to use our bulk reconciliation API see [Reconcile Projects with Bulk Reconciliation](./bulk-reconciliation-dev)
+There are two ways to reconcile the differences between bookings and assignments. This article discusses using the **Resource Reconciliation** tab on project records. For information on how to use our bulk reconciliation API, see [Reconcile Projects with Bulk Reconciliation](bulk-reconciliation-dev.md)
 
 The **Reconciliation** tab on the **Projects** page lets project managers reconcile team members' bookings and their assignments for project teams.
 
