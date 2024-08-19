@@ -520,6 +520,8 @@
       items: 
       - name: Resource reconciliation overview
         href: resource-management/resource-reconciliation-overview.md
+      - name: Reconcile Projects with Bulk Reconciliation
+        href: resource-management/bulk-reconciliation-dev.md
       - name: Manage time zones
         href: resource-management/manage-multiple-time-zones.md
     - name: Resource utilization
@@ -1356,6 +1358,8 @@
       items: 
       - name: Resource reconciliation overview
         href: resource-management/resource-reconciliation-overview.md
+      - name: Reconcile Projects with Bulk Reconciliation
+        href: resource-management/bulk-reconciliation-dev.md
       - name: Manage time zones
         href: resource-management/manage-multiple-time-zones.md
     - name: Resource utilization
