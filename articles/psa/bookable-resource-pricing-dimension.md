@@ -67,7 +67,6 @@ This opens the **New Pricing dimension field name** page for **msdyn_bookableres
 
 5. Add **msdyn_projectteam** to the **Entity Locigal Name** field and **msdyn_bookableresourceid** to the **Field Name** field. Save the record.
 
- ![New Pricing dimension field name form.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
