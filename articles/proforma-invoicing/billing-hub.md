@@ -2,7 +2,7 @@
 title: Create proforma project invoices with Billing hub
 description: This article provides information about how to use Billing hub to create proforma project-based invoices.
 author: suvaidya
-ms.date: 08/16/2024
+ms.date: 08/20/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -82,7 +82,7 @@ To review or update the invoiceable backlog, follow these steps.
 To take actions on transactions in the billing backlog, follow these steps.
 
 1. Mark transactions as invoiceable.
-1. Revaluate the not-to-exceed status of transactions.
+1. Reevaluate the not-to-exceed status of transactions.
 1. Correct entries by using journals.
 1. For each contract line, create new invoices directly from the billing backlog by using the **Create invoice** functionality.
 1. Add transactions to an existing invoice by using the **Add to invoice** functionality.
