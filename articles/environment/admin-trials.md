@@ -99,11 +99,7 @@ You will need administrative access to your organization's Microsoft 365 Portal 
 
 1. Go to the [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
-   ![Admin center home page](./media/14AdminPortal.png)
-
 2. On the **Active users** page, select the users that you want to assign a license to.
-
-   ![Assign Licenses](./media/15AssignLicenses.png)
 
 3. Verify that the **Dynamics 365 Project Operations Preview**  license has been selected, and then select **Save changes**.
 
