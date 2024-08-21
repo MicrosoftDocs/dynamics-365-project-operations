@@ -3,7 +3,7 @@ title: Project Operations Dual-write map versions
 description: This article provides the list of Dual-write maps required for Dynamics 365 Project Operations.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 07/09/2024
+ms.date: 08/21/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -26,9 +26,9 @@ The following apps are required in the Dataverse environment. They must be insta
 1. Dual-write Application Core Solutions
 2. Dual-write Asset Management Solutions
 3. Dual Write Finance and Extended Solutions
-4. Dual-write Human Resources solution
+4. Dual-write Dynamics 365 Human Resources
 5. Dual Write Supply Chain Extended Solution
-6. Dynamics 365 Human Resource Integration to URS
+6. Dynamics 365 HR Integration to URS
 
 The following maps are required for the Project Operations solution. Make sure to run the maps listed in the following table and any related table maps in your environment.
 
