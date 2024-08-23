@@ -12,7 +12,7 @@ ms.author: mohitmenon
 
 # What's new August 2024 - Project Operations Lite deployment
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
@@ -51,4 +51,4 @@ No new features in this release of Project Operations lite deployment.
 |Time Entry|	4231555|	Fix entity name regression that caused issues with time entry deletion and workflow modification.|
 |Sales|	4300829|	Move PBB Confirm Logic Causes Invoice Confirmation Failure > 5000 ILDs.|
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
