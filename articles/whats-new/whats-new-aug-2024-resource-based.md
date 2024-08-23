@@ -36,11 +36,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 ## Features included in this release
 
-| **Feature area** | **Feature name** | **More information** |
-| --- | --- | --- |
-| Project Financials |**Enable the use of Project fixed exchange rate agreements for resource/non-stocked deployments** <br><br> This feature provides the ability to optionally enter a fixed exchange rate on the project contract in Finance. This exchange rate will be used for converting the sales currency amounts into the legal entity's accounting currency.| |		
-| Project Financials |**Enable project categories for on-account transactions** <br><br> This feature adds the ability to specify a project category for on-account transactions for resource/non-stocked deployment type. The use of project category allows for additional flexibility in recording revenue for different activities all recorded as milestones or other on-account transactions.| |		
-
+No new features for this release of Project Operations for resource/non-stocked based scenarios.
 
 
 ## Quality updates
