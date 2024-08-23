@@ -36,3 +36,44 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 ## Features included in this release
 
+| **Feature area** | **Feature name** | **More information** |
+| --- | --- | --- |
+| Project Financials |**Enable the use of Project fixed exchange rate agreements for resource/non-stocked deployments** <br><br> This feature provides the ability to optionally enter a fixed exchange rate on the project contract in Finance. This exchange rate will be used for converting the sales currency amounts into the legal entity's accounting currency.| |		
+| Project Financials |**Enable project categories for on-account transactions** <br><br> This feature adds the ability to specify a project category for on-account transactions for resource/non-stocked deployment type. The use of project category allows for additional flexibility in recording revenue for different activities all recorded as milestones or other on-account transactions.| |		
+
+
+
+## Quality updates
+
+### Project Operations on Dataverse
+
+| **Feature Area** | **Reference No.** | **Quality Update** |
+| --- | --- | --- |
+|Billing and Pricing|	3546798|	A scope with non-matching currency can be added to price overrides|
+|Project Planning and Tracking|	3742761|	[Copy Project] Add work hour template to the list of restricted attributes when copying data from source project|
+|Billing and Pricing|	3802977|	Hide 'Price Override' button for cost record|
+|Billing and Pricing|	3883056|	Rounding precision is not being honored with primary unit creating incorrect actuals|
+|Project Budget Management|	3929679|	In Draft mode of budget grid, Task field is showing tasks of ALL project not just the current project|
+|Billing and Pricing|	3941977|	Cannot deactivate a price list with overrides|
+|Sales|	3981724|	Duplicate contract split billing rules can be created|
+|Subcontracting|	4118084|	[Lite] Actuals created from VI lines do not populate "Bookable resource" field|
+|Sales|	4161956|	Syncing from sales to cost when updating QLD prevents the update of totals on the QL|
+|Billing and Pricing|	4173215|	Don't allow deleting contract lines that have unbilled invoice lines|
+|Subcontracting|	4181897|	Default expense category on expense quick create form when subcon and subcon line fields are selected|
+|Time Entry|	4186684|	Time Off does not disappear from calendar when time entry type is changed from Absence/Vacation to Work/ Overtime|
+|Billing and Pricing|	4192197|	Negative actuals do not have replacing UBS actuals created on correction invoice confirmation|
+|Billing and Pricing|	4199581|	Script error when clicking on Invoiceable backlog in Billing hub|
+|Billing and Pricing|	4211979|	ILD correction field can be true even when original ILD is blank|
+|Billing and Pricing|	4212681|	Can have applied retainer on invoice after retainer is refunded|
+|Project Budget Management|	4229374|	Groupby not working in project budget line subgrid|
+|Time Entry|	4231555|	Fix entity name regression in UR47|
+|Sales|	4300829|	Move PBB Confirm Logic Causes Invoice Confirmation Failure > 5000 ILDs|
+
+
+### Project management and accounting in Finance
+
+For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=936136&dbType=3&qc=4bfbc812bab8c497f0747156b4e6faa90d7d73b55226bc7406f2a9b71839162e).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
