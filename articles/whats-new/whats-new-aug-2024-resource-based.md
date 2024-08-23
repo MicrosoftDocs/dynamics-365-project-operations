@@ -25,7 +25,11 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Project Operations dual-write maps updates
 
-_There are no Dual-write maps that are modified or added in the Project Operations August 2024 release._
+The following table shows the modified or added Dual-write maps in the Project Operations February 2024 release.
+
+| **Entity map** | **Updated version** | **Comments** |
+| --- | --- | --- |
+| Project Operations integration entity for expense estimates (msdyn_estimatelines) | 1.0.0.3 | Latest version updated |
 
 For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
