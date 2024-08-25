@@ -33,19 +33,19 @@ When the billing method for a project-based quote line is Time and material, the
 
 ## Create a Fixed price invoice schedule for a project quote line
 
-When the project-based quote line has a **Fixed** billing method, the system creates a milestone-based invoice schedule. Complete the following steps to automatically generate this schedule for a fixed set of milestones that are equally distributed for the calendar period.
+When the project-based quote line has a **Fixed** billing method, you have the option to create a milestone based or progress based invoice schedule. Complete the following steps to automatically generate this schedule for a fixed set of milestones that are equally distributed for the calendar period.
+1.	Go to **Settings** > **invoice frequencies** and set up an invoice frequency.
+2.	Add a new **Quote line**, give name to the quote line, select **Fixed price** as the billing method. The field **Invoice schedule type** appears, in which you have option to select **Milestone based** or **Progress based** invoice schedule. 
+3.	Once the quote line is created, you can go to **Invoice schedule** tab, select values in the **Billing start** and **Invoice Frequency** fields. 
+4.	On the subgrid, select **Generate Periodic Milestones**.
 
-1. Go to **Settings** > **invoice frequencies** and set up an invoice frequency.
-2. On the **Quotes** page, open the Project quote and on the **Summary** tab, set a requested delivery date.
-3. Open the fixed price quote line that you need to create a milestone schedule for. 
-4. On the **Invoice Schedule** tab, select values in the **Billing start** and **Invoice Frequency** fields. 
-5. On the subgrid, select **Generate Periodic Milestones**.
-6. The application generates the invoice schedule with a milestone name, date, and amount.
+The system generates the invoice schedule with the following milestone information.
+•	Milestone Name is set to the date that is dictated based on the invoice frequency.
+•	Milestone Date is set to the date that is dictated based on the invoice frequency.
+•	Milestone Amount is calculated by dividing the quote amount on the project-based quote line by the number of milestones as dictated by the frequency, billing start, and requested delivery dates.
+•	If the quote line has a value in the Estimated Tax Amount field, this field is also apportioned to each milestone equally when generating periodic milestones.
 
-    - The milestone name is set to the date that is dictated based on the invoice frequency.
-    - The milestone date is set to the date that is dictated based on the invoice frequency.
-    - The milestone amount is computed by dividing the quote amount on the project-based quote line by the number of milestones as dictated by the frequency and billing start and requested delivery dates.
-    - If the Quote line also has as estimated tax amount, this value is split between each milestone equally when generating periodic milestones.
+Billing milestones should equal the total quoted value of the project-based quote line. If they aren't equal, an error occurs. You can fix that error by verifying that the billing milestones total the quoted value of the line by either creating, editing, or deleting milestones. After the changes are made, refresh the page.
 
 ### Manually create milestones
 
