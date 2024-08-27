@@ -47,24 +47,24 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates start for Lite or Resource/non-stocked deployments * | Next version number | Next version number available for self-update | Auto updates start for Next version |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.106.0.25     | July 15, 2024   | 4.108.0.x    | August 23, 2024          | August 30, 2024   |
+|   &nbsp;  | First Release         |  4.106.0.88     | July 15, 2024   | 4.108.0.x    | August 26, 2024          | September 2, 2024   |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.106.0.58     | August 06, 2024   | 4.108.0.x   | August 23, 2024          | August 30, 2024   |
-|   &nbsp;  | Canada                |  4.106.0.58     | August 06, 2024   | 4.108.0.x    | August 23, 2024          | August 30, 2024   |
-|   &nbsp;  | India                 |  4.106.0.58     | August 06, 2024   | 4.108.0.x    | August 23, 2024          | August 30, 2024   |
-|   &nbsp;  | France                |  4.106.0.58     | August 06, 2024   | 4.108.0.x    | August 23, 2024         | August 30, 2024   |
-|   &nbsp;  | South Africa          |  4.106.0.58     | August 06, 2024   | 4.108.0.x   | August 23, 2024          | August 30, 2024   |
-|   &nbsp;  | Switzerland           |  4.106.0.58     | August 06, 2024   | 4.108.0.x    | August 23, 2024          | August 30, 2024   |
+|   &nbsp;  | South America         |  4.106.0.88     | August 06, 2024   | 4.108.0.x   | August 26, 2024          | September 2, 2024   |
+|   &nbsp;  | Canada                |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 26, 2024          | September 2, 2024   |
+|   &nbsp;  | India                 |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 26, 2024          | September 2, 2024   |
+|   &nbsp;  | France                |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 26, 2024         | September 2, 2024   |
+|   &nbsp;  | South Africa          |  4.106.0.88     | August 06, 2024   | 4.108.0.x   | August 26, 2024          | September 2, 2024   |
+|   &nbsp;  | Switzerland           |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 26, 2024          | September 2, 2024   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.106.0.58     | August 06, 2024   | 4.108.0.x    | August 30, 2024         | September 9, 2024   |
-|   &nbsp;  | Asia Pacific          |  4.106.0.58     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 9, 2024   |
-|   &nbsp;  | Great Britain         |  4.106.0.58     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 9, 2024   |
-|   &nbsp;  | Oceania               |  4.106.0.58     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 9, 2024    |
-|   &nbsp;  | United Arab Emirates  |  4.106.0.58     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 9, 2024   |
+|   &nbsp;  | Japan                 |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024         | September 6, 2024   |
+|   &nbsp;  | Asia Pacific          |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 6, 2024   |
+|   &nbsp;  | Great Britain         |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 6, 2024   |
+|   &nbsp;  | Oceania               |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 6, 2024    |
+|   &nbsp;  | United Arab Emirates  |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 6, 2024   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.105.0.13     | July 12, 2024   | 4.108.0.x    | September 9, 2024          | September 13, 2024    |
+|   &nbsp;  | Europe                |  4.105.0.13     | July 12, 2024   | 4.108.0.x    | August 30, 2024          | September 09, 2024    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.105.0.13     | July 12, 2024  | 4.108.0.x   | September 13, 2024          | September 20, 2024    |
+|   &nbsp;  | North America         |  4.105.0.13     | July 12, 2024  | 4.108.0.x   | August 30, 2024          | September 12, 2024    |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the previous table. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
