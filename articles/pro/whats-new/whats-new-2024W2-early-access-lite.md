@@ -4,7 +4,7 @@ description: This article provides information about the features available in t
 author: mohitmenon
 ms.custom:
   - evergreen
-ms.date: 08/16/2024
+ms.date: 08/30/2024
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
