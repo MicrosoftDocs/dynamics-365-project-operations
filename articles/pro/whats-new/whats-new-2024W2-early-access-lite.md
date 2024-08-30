@@ -4,7 +4,7 @@ description: This article provides information about the features available in t
 author: mohitmenon
 ms.custom:
   - evergreen
-ms.date: 08/16/2024
+ms.date: 08/30/2024
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
@@ -16,7 +16,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 This article applies to the following Microsoft Dynamics 365 Project Operations components and versions:
 
-- Project Operations on Microsoft Dataverse environment version 4.110.0.10
+- Project Operations on Microsoft Dataverse environment version 4.111.0.5
 
 The release is only applied when an environment is [opted into Early Access](/power-platform/admin/opt-in-early-access-updates#how-to-enable-early-access-updates).
 
@@ -36,3 +36,4 @@ The following table lists the feature flags removed from Feature control. These 
 | --- | --- | --- |
 | Pricing |**Date effective role price overrides can be easily tracked in price list** <br><br> Previously, users had to expand each role in the price lists view to check for date-effective price overrides. With this new feature, if a role has one or more date-effective price overrides, the total number of overrides is displayed in another column. A positive number in the 'Overrides' column indicates there's a price override for that role.|  |
 | Sales |**Price-override from Quote line details** <br><br> This feature, which was previously behind a separate feature flag, is now available by default. Users can create a role price override directly from quote line details. | |
+| Time Entry | **Copilot in time entry** <br><br> This Copilot feature, which was earlier available only in USA is available within Early Access, for testing in other regions as ON by default. Users can now create time entries using assignments and generate external comments as well with the help of Copilot. | [Use Copilot in time entry](../../time/copilot-in-time-entry.md)<br><br> **Note:** If there was no response from Copilot after typing a request in the sidecar, raise a support ticket with Microsoft for immediate assistance. |
