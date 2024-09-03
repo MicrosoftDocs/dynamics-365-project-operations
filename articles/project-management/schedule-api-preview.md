@@ -93,16 +93,11 @@ The following is a list of limitations and known issues:
 
 - Each **OperationSet** can only have a maximum of 200 operations.
 - Each user can only have a maximum of 10 open **OperationSets**.
-- Project Operations currently supports a maximum of 1000 total tasks on a project.
 - Each Update Resource Assignment Contour operation counts as a single operation.
 - Each list of updated contours can contain a maximum of 100 time slices.
 - **OperationSet** failure status and failure logs aren't currently available.
 - There's a maximum of 400 sprints per project.
 - [Limits and boundaries on projects and tasks](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-- Labels are currently only available for Project for the Web.
-- Labels are created the first time you open a project.
-- There's a maximum of 10 goals per project.
-- Each task can appear in Project Task to Goal once.
 
 **Error handling**
 
