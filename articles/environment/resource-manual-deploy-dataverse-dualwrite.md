@@ -3,7 +3,7 @@ title: Manually deploy the Project Operations Dataverse app with dual-write supp
 description: This article explains how to manually deploy the Project Operations Dataverse app so that it supports dual-write.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/24/2024
+ms.date: 09/04/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -51,7 +51,14 @@ Complete this procedure to add the dual-write prerequisites to your environment.
 
 1. Open the environment that you just created, and then go to **Resource** \> **Dynamics 365 apps**.
 2. Select **Dual-write core solution** in the app list, and install it.
-3. Wait until the installation is completed. Then select **Dual-write application orchestration solution** in the app list, and install it.
+3. Wait until the installation is completed. Then select each of the following in the app list and install them.
+   - Dual-write Application Core package
+   - Dual-write Finance package
+   - Dual-write Supply Chain package
+   - Dual-write Asset Management package
+   - Dual-write Human Resources package
+
+    For more information about the Separated Dual-write Application Orchestration package and the Packages required for Project Operations, see [Separated Dual-write Application Orchestration package](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/separated-solutions#Packages-required-for-project-operations).
 
 ## <a name="dataverse"></a>Add the Project Operations Dataverse app
 
