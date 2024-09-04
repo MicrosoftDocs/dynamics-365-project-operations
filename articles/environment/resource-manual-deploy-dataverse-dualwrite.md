@@ -51,7 +51,7 @@ Complete this procedure to add the dual-write prerequisites to your environment.
 
 1. Open the environment that you just created, and then go to **Resource** \> **Dynamics 365 apps**.
 2. Select **Dual-write core solution** in the app list, and install it.
-3. Wait until the installation is completed. Then select each of the following in the app list, and install them.
+3. Wait until the installation is completed. Then select each of the following in the app list and install them.
    - Dual-write Application Core package
    - Dual-write Finance package
    - Dual-write Supply Chain package
