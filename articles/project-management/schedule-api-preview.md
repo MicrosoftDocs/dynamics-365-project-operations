@@ -2,7 +2,7 @@
 title: Use Project schedule APIs to perform operations with Scheduling entities
 description: This article provides information and samples for using Project schedule APIs.
 author: abriccetti
-ms.date: 04/02/2024
+ms.date: 09/04/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -43,7 +43,7 @@ The following is a list of current Project schedule APIs.
 
 | API                                     | Description |
 |-----------------------------------------|-------------|
-| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately. Project creation can also be done by adding a row to the project table using standard Dataverse APIs. This process won't create a default bucket for the project but may have better performance.|
+| **msdyn_CreateProjectV1**               | This API is used to create a project. The project and default project bucket are created immediately. Project creation can also be done by adding a row to the project table using standard Dataverse APIs. This process doesn't create a default bucket for the project but may have better performance.|
 | **msdyn_CreateTeamMemberV1**            | This API is used to create a project team member. The team member record is created immediately. Team Member creation can also be done by adding a row to the Project Team Member table using standard Dataverse APIs. |
 | **msdyn_CreateOperationSetV1**          | This API is used to schedule several requests that must be performed within a transaction. |
 | **msdyn_PssCreateV1**                   | This API is used to create an entity. The entity can be any of the Project scheduling entities that support the create operation. |
@@ -57,7 +57,7 @@ The following is a list of current Project schedule APIs.
 
 **Using Project schedule APIs with OperationSet**
 
-Because records are created immediately for both **CreateProjectV1** and **CreateTeamMemberV1**, these APIs can't be used directly in the **OperationSet**. However, you can use them to create the required records, create an **OperationSet**, and then use the pre-created records in the **OperationSet**.
+Because records are created immediately for both **CreateProjectV1** and **CreateTeamMemberV1**, these APIs can't be used directly in the **OperationSet**. However, you can use them to create the required records, create an **OperationSet**, and then use the precreated records in the **OperationSet**.
 
 **Supported operations**
 
@@ -76,13 +76,13 @@ Because records are created immediately for both **CreateProjectV1** and **Creat
 | Project Goal            | Yes        | Yes        | Yes        | Operations with the following fields aren't supported: DescriptionPlainText, TaskDisplayOrder |
 | Project Task to Goal    | Yes        | No         | Yes        | Operations with the following fields aren't supported: TaskDisplayOrder |
 
-\* Resource assignment records aren't updated. Instead, the old record can be deleted, and a new record can be created. A separate API has been provided to update Resource Assignment contours.
+\* Resource assignment records aren't updated. Instead, the old record can be deleted, and a new record can be created. A separate API is provided to update Resource Assignment contours.
 
-The ID property is optional. If it's provided, the system tries to use it and throws an exception if it can't be used. If it isn't provided, the system generates it.
+The ID property is optional. If the ID property is provided, the system tries to use it and throws an exception if it can't be used. If it isn't provided, the system generates it.
 
 **Limitations and known issues**
 
-The following is a list of limitations and known issues:
+The following list shows limitations and known issues:
 
 - Project Schedule APIs can only be used by **Users with Microsoft Project License**. They can't be used by:
 
@@ -114,7 +114,7 @@ Given schedule mode is:
 - The project calendar is from 9:00 to 5:00 PM (Pacific Time) Monday, Tuesday, Thursday, and Friday. (*There's no work on Wednesdays.*)
 - The resource calendar is from 9:00 AM to 1:00 PM (Pacific Time) Monday through Friday.
 
-This assignment is for one week, four hours a day. This is because the resource calendar is from 9:00 AM to 1:00 PM (Pacific Time), or four hours a day.
+This assignment is for one week, four hours a day because the resource calendar is from 9:00 AM to 1:00 PM (Pacific Time), or four hours a day.
 
 | &nbsp;     | Task | Start Date | End Date  | Quantity | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
 |------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
