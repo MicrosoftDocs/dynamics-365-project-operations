@@ -3,7 +3,7 @@ title: Manage project invoice proposals
 description: This article provides details about processing customer-facing invoices with Project Operations for resource/ non-stocked based scenarios.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 05/24/2024
+ms.date: 09/11/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -62,6 +62,77 @@ The financial dimensions for unbilled sales records in the **Project Operations 
 
 Unbilled transaction currency in Dataverse is used as transaction currency in Finance and converted to company's accounting currency using exchange rates defined in Finance.
 
+A project contract may include the requirement to use a constant exchange rate for the life of the agreement. This agreement can be required in some cases for contractual or regulatory requirements. This fixed exchange rate is then applied for the conversion of any sales amounts in that configured currency into the revenue entries for the company's accounting currency.
+
+#### Fixed exchange rate Feature Overview
+
+With the 10.0.41 release, the **Enable the use of Project fixed exchange rate agreements for resource/non-stocked deployments** feature is available to support this need. Once this feature is enabled, users can navigate to the **Project contracts** page within the finance and operations architecture and there will be an option in the ribbon to set up a Fixed rate agreement. Finally, a sales currency, exchange rate, and an optional reference agreement number can be entered to enable a fixed rate agreement.
+
+If no fixed agreement is configured for a given project contract, the system will default to the exchange rate configured for the legal entity.
+
+The following documents are supported for use with fixed rate agreements:
+
+- Journals
+- Time entries
+- Material usage logs
+- Milestones and retainers
+- Expenses
+- Expense reports
+- Vendor invoices
+- Estimates such as hours, time, and materials
+
+**Note:** If a fixed exchange rate is enabled in a project with existing transactions, existing draft integration journal lines or pending project invoices will begin using the new rate.
+
+##### Example Scenario
+
+Contoso, based in the United States with an accounting currency of USD, is delivering a project for Coho Winery in the UK with a contract sales currency of GBP. GBP to USD exchange rates fluctuate between 1.2 and 1.4 regularly, so the companies have agreed on a fixed rate of 1.25 for their business dealings for the life of the contract and project.
+
+In Dynamics 365 Project Operations, a project contract is established with a fixed rate agreement configured with the GBP currency using a rate of 1.25. Contoso has set up a Time and Material Project with time and expenses, accruing revenue to generate work in progress (WIP) financial entries.
+
+On the project, tasks are created to plan for the various stages of the project. The first task is for requirements gathering and will be completed by Julia Funderburk with an estimated duration of 7 hours. We can navigate to the **All projects** page within the finance and operations infrastructure, select the project and click into **Hour forecasts** from the **Plan** tab of the ribbon. Here we will see the entry for the 7 hour forecast. Clicking further into **General ledger preview** will give us the estimated costs and a line for 2187.50 GBP revenue for the **Project - invoiced revenue** posting type on the **Overview** tab. Opening the **General** tab gives us the breakdown of sales, with 7 hours effort and the sales price of 250. The calculated total sales amount of 1750 is generated with an exchange rate of 125.
+
+7 hours x 250 GBP price x 1.25 exchange rate = 2187.50 USD for Contoso's calculated revenue in their accounting currency.
+
+Once the project begins work, Julia will log her time for the first four hours of work on the first project invoice. She creates a time entry on August 27th for four hours against the requirements gathering task. Once that entry is approved, it will get created as an integration journal on the next processing of **import from staging table**. On the integration journal we will see two lines, with one line for cost and one for sales. The lines will appear like the table below:
+
+| Document Type | Resource Name    | Hours | Cost Amount |  Sales Amount | Sales Currency | Price Exchange Rate |
+|---------------|------------------|-------|-------------|--------------|----------------|----------------------|
+| Usage         | Julia Funderburk | 4     | 480         | 0            | USD            | 100                  |
+| Usage         | Julia Funderburk | 4     | 0           | 1,000        | GBP            | 125                  |
+
+For the cost line, the cost remains in the company currency (USD), so no exchange rate is applied. For the sales line, the price exchange rate reflects the fixed exchange rate.
+
+Posting the integration journal results in the following:
+
+- Posting of the project cost
+- Entry to Project – WIP – Sales Value
+- Entry to Project Accrued Revenue for the WIP using the fixed exchange rate
+
+| Account       | Name                | Amount in Transaction Currency | Amount in Accounting Currency | Exchange Rate | Posting Type |
+|---------------|---------------------|-------------------------------|----------------------|---------------|--------------|
+|600300                |Payroll allocation                     |-480                               |-480                      |1               |Project - payroll allocation              |
+|540100                |Cost of Project - Labor                     |480                               |480                      |1               |Project - cost              |
+|161300                |WIP - Sales Value                     |1000                               |1250                      |1.25               |Project - WIP - sales value             |
+|420200                |Accrued revenue                     |-1000                               |-1250                      |1.25               |Project - accrued revenue             |
+
+When the **invoice proposal** is generated, it will have a single line for the 4 hours with a sales price of 250 for a total 1000 GBP sales amount. The customer invoice will be in GBP.
+
+Posting the **invoice proposal** results in a customer invoice with the following:
+
+- Reversal to Project – WIP – Sales Value
+- Reversal to Project Accrued Revenue for the WIP using the fixed exchange rate
+- Entry for Invoiced Revenue using the fixed exchange rate
+- Entry for Customer Balance using the fixed exchange rate
+
+4 hours x 250 GBP price x 1.25 exchange rate = 1250 GBP.
+
+
+| Account       | Name                | Amount in Transaction Currency | Amount in Accounting Currency | Exchange Rate | Posting Type |
+|---------------|---------------------|-------------------------------|----------------------|---------------|--------------|
+|161300                |WIP - Sales Value                     |-1000                               |-1250                      |1.25               |Project - WIP - sales value             |
+|420200                |Accrued revenue                     |1000                               |1250                      |1.25               |Project - accrued revenue             |
+|411100                |Revenue - Labor                     |-1000                               |-1250                      |1.25               |Project - invoiced Revenue             |
+|130100                |Accounts Receivable                     |1000                               |1250                      |1.25               |Customer balance             |
 
 ## Manage the financial attributes of billing milestones 
 
