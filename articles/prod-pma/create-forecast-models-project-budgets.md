@@ -1,25 +1,12 @@
 ---
-# required metadata
-
 title: Create forecast models for project budgets 
 description: This article describes how to create a forecast model for remaining budgets.
 author: Yowelle
 ms.date: 04/24/2020
-ms.topic: article
- 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm: 
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
