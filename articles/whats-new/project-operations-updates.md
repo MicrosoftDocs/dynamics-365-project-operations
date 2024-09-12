@@ -33,7 +33,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | Project App on Dataverse Environments |
 | --- | --- | --- |
-| 4.105.0.13 | 10.0.40 | 1.0.105.10 |
+| 4.108.0.53 | 10.0.40 | 1.0.108.52 |
 
 > [!NOTE]
 > The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively. If you are using an older version of either product, contact Microsoft support for assistance in upgrading
@@ -47,24 +47,24 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates start for Lite or Resource/non-stocked deployments * | Next version number | Next version number available for self-update | Auto updates start for Next version |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.106.0.88     | July 15, 2024   | 4.108.0.x    | August 26, 2024          | September 2, 2024   |
+|   &nbsp;  | First Release         |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | September 27, 2024          | October 4, 2024   |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.106.0.88     | August 06, 2024   | 4.108.0.x   | August 26, 2024          | September 2, 2024   |
-|   &nbsp;  | Canada                |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 26, 2024          | September 2, 2024   |
-|   &nbsp;  | India                 |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 26, 2024          | September 2, 2024   |
-|   &nbsp;  | France                |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 26, 2024         | September 2, 2024   |
-|   &nbsp;  | South Africa          |  4.106.0.88     | August 06, 2024   | 4.108.0.x   | August 26, 2024          | September 2, 2024   |
-|   &nbsp;  | Switzerland           |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 26, 2024          | September 2, 2024   |
+|   &nbsp;  | South America         |  4.108.0.53     | September 2, 2024   | 4.120.0.x   | October 4, 2024          | October 11, 2024   |
+|   &nbsp;  | Canada                |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | October 4, 2024          | October 11, 2024   |
+|   &nbsp;  | India                 |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | October 4, 2024          | October 11, 2024   |
+|   &nbsp;  | France                |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | October 4, 2024         | October 11, 2024   |
+|   &nbsp;  | South Africa          |  4.108.0.53     | September 2, 2024   | 4.120.0.x   | October 4, 2024          | October 11, 2024   |
+|   &nbsp;  | Switzerland           |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | October 4, 2024          | October 11, 2024   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024         | September 6, 2024   |
-|   &nbsp;  | Asia Pacific          |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 6, 2024   |
-|   &nbsp;  | Great Britain         |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 6, 2024   |
-|   &nbsp;  | Oceania               |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 6, 2024    |
-|   &nbsp;  | United Arab Emirates  |  4.106.0.88     | August 06, 2024   | 4.108.0.x    | August 30, 2024          | September 6, 2024   |
+|   &nbsp;  | Japan                 |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024         | October 18, 2024   |
+|   &nbsp;  | Asia Pacific          |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024          | October 18, 2024   |
+|   &nbsp;  | Great Britain         |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024          | October 18, 2024   |
+|   &nbsp;  | Oceania               |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024          | October 18, 2024    |
+|   &nbsp;  | United Arab Emirates  |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024          | October 18, 2024   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.105.0.13     | July 12, 2024   | 4.108.0.x    | August 30, 2024          | September 09, 2024    |
+|   &nbsp;  | Europe                |  4.108.0.53     | September 09, 2024   | 4.120.0.x    | October 18, 2024          | October 25, 2024    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.105.0.13     | July 12, 2024  | 4.108.0.x   | August 30, 2024          | September 12, 2024    |
+|   &nbsp;  | North America         |  4.108.0.53     | September 12, 2024  | 4.120.0.x   | October 25, 2024          | November 1, 2024    |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the previous table. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
