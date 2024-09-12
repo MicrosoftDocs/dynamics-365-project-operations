@@ -1,8 +1,8 @@
 ---
 title: Set up cost and sales rates for expenses
 description: This article provides information about how to set up the cost and sales rates for transaction and expense categories. 
-author: avisness
-ms.author: avisness
+author: rumant
+ms.author: rumant
 ms.date: 05/21/2024
 ms.topic: how-to
 ms.custom: 
