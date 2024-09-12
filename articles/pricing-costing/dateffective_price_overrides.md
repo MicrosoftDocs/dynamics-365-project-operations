@@ -38,6 +38,9 @@ For single role price override:
 1. On the toolbar above the grid, select **New role price override**. The **New role price override** dialog box opens.
 1. Specify the effective-from date, the scope, the unit, and the new price for the price override. Then select **Apply**.
 
+ > [!NOTE]
+>  The price list view will display the number of active date-effective price overrides for a specific role under the column **Overrides**. This capability helps you easily identify any active date-effective price overrides for a role without needing to expand the role price in the price list.
+
 For multiple role price overrides or single role price override:
 1. Open the page for the price list that you want to set up the date-effective price override for.
 1. Select the **Role prices** tab. This tab lists all the **Role price** records in the price list.
