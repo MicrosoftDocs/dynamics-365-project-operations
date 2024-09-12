@@ -3,7 +3,7 @@ title: Configure project categories
 description: This article provides information about setting up project categories.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 09/11/2024
+ms.date: 09/13/2024
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -48,18 +48,18 @@ A user in Dataverse may enter a sales journal of type of expense against the Tra
 
 ## Shared categories
 
-Dynamics 365 uses the Shared categories concept to categorize expenses in different applications, such as Dynamics 365 Finance, Dynamics 365 Supply Chain, and Dynamics 365 Project Operations. For each Transaction category created, Project Operations automatically creates five related Shared categories: Hours, Expense, Fees, and Item. You can review and adjust the shared categories by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Shared Categories**.
+Dynamics 365 uses the Shared categories concept to categorize expenses in different applications, such as Dynamics 365 Finance, Dynamics 365 Supply Chain, and Dynamics 365 Project Operations. For each Transaction category created, Project Operations automatically creates five related Shared categories: Hours, Expense, Fees, Item, and On-account. You can review and adjust the shared categories by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Shared Categories**.
 
 ### New functionality to allow categories on on-account type transactions
 
-With the 10.0.41 release, there is a new feature that allows you to create a shared category for on-account type transactions. Within **Feature management**, the **Enable project categories for on-account transactions** feature is now available. New functionality enabled by this feature include:
+With the 10.0.41 release, there is a new feature that allows you to create a shared category for on-account type transactions. Within **Feature management**, the **Enable project categories for on-account transactions** feature is now available. New functionality enabled by this feature includes:
 
 - New transaction categories created in Dataverse will now have a fifth shared category available to be configured.
 - **Project management and accounting parameters** has a new default setting to default the category for on-account transactions. This default will apply to both retainiers and milestone transactions.
 - The **Category groups** form now allows you to configure groups of type on-account. 
 - The **Project categories** form now allows you to configure a category of type on-account.
 - Category is added as an optional field. Existing on-account transactions will continue to work without a category configured. New on-account transactions will work with or without a category defined. Posting will continue to be based on the setup of **Ledger posting setup** for the **Invoiced revenue - on-account** posting type.
-- The **Ledger posting setup** form was enhanced to allow for configuration use of a specific main account for a specific category relation. This enhancement allows users to setup a different revenue account for different categories.
+- The **Ledger posting setup** form was enhanced to allow for configuration of a specific main account for a specific category relation. This enhancement allows users to setup a different revenue account for different categories.
 - The **On-account** form allows for editing of the category, as well as the **Project invoice proposal** form prior to posting.
 - 
 ## Project categories
