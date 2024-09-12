@@ -56,7 +56,7 @@ When this pricing method is selected on the category price line that is linked t
 When this pricing method is selected on the category price line that is linked to a sales price list, the price defaults for the category and unit combination only for an expense actual. For example, unbilled sales actuals for the expense transaction class. This unit price is set on the unbilled sales actual to a calculated value from the unit price on the cost actual for that expense after the defined markup percent is applied. 
 
 > [!NOTE]
-> Price defaulting for expenses, based on cost is valid on project estimates, actuals, quote lines, contract line details, budget lines and budget line details.
+> Price defaulting for expenses, based on cost [Markup over cost] is valid on project estimates, actuals, quote lines, contract line details, budget lines and budget line details.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
