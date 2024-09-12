@@ -1,27 +1,12 @@
 ---
-# required metadata
-
 title: Project resource scheduling performance (preview)
 description: This article provides information about how to improve the performance of resource scheduling for a large number of projects.
 author: Yowelle
 ms.date: 09/07/2023
-ms.topic: article
- 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm: 
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
