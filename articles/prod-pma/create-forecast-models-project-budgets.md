@@ -3,7 +3,7 @@ title: Create forecast models for project budgets
 description: This article describes how to create a forecast model for remaining budgets.
 author: Yowelle
 ms.date: 04/24/2020
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
