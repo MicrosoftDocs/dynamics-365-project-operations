@@ -78,7 +78,7 @@ When the **Markup over transaction cost** pricing method is selected on the role
 A negative percentage is used to apply a markdown of the transaction cost.
 
 > [!NOTE]
-> Price defaulting for labor, based on cost is valid on project estimates and actuals. It is not effective for quote lines or contract line details.
+> Price defaulting for labor, based on cost is valid on project estimates, actuals, quote lines, contract line details, budget lines and budget line details.
 
 ## Transfer pricing or set up bill rates for resources from other organizational units or divisions 
 
