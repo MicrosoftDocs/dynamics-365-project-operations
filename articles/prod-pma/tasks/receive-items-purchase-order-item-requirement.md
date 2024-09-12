@@ -1,25 +1,15 @@
 --- 
-# required metadata 
- 
 title: Receive items on purchase order from item requirement
 description: This article explains how to receive items on a purchase order from an item requirement. 
 author: Yowelle
 ms.date: 08/06/2019
 ms.topic: how-to 
-  
-ms.technology:  
- 
-# optional metadata 
- 
+ms.custom: 
+  - bap-template
 ms.search.form: ProjProjectsListPage, ProjTable, ProjSalesItemReq, InventItemIdLookupSimple, PurchCreateFromSalesOrder, VendAccountItemLookup, PurchTable, PurchEditLines   
 audience: Application User 
-# ms.devlang:  
 ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm:  
-# ms.custom:  
 ms.search.region: Global
-# ms.search.industry: 
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30 
 ms.dyn365.ops.version: Version 7.0.0 
