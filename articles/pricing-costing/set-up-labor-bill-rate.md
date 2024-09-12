@@ -69,7 +69,7 @@ When the **Price per unit** pricing method is selected on a role price line that
 When the **At transaction cost** pricing method is selected on the role price line that's linked to a sales price list, the default price is entered for the combination of a role and a resourcing unit for an actual. The unit price is set on the unbilled sales actual from the unit price on the cost actual for the specified role.
 
 > [!NOTE]
-> Price defaulting for labor, based on cost is valid on project estimates and actuals. It is not effective for quote lines or contract line details.
+> Price defaulting for labor, based on cost [At transaction cost] is valid on project estimates, actuals, quote lines, contract line details, budget lines and budget line details.
 
 ## Markup over transaction cost
 
@@ -78,7 +78,7 @@ When the **Markup over transaction cost** pricing method is selected on the role
 A negative percentage is used to apply a markdown of the transaction cost.
 
 > [!NOTE]
-> Price defaulting for labor, based on cost is valid on project estimates, actuals, quote lines, contract line details, budget lines and budget line details.
+> Price defaulting for labor, based on cost [Markup over transaction cost] is valid on project estimates, actuals, quote lines, contract line details, budget lines and budget line details.
 
 ## Transfer pricing or set up bill rates for resources from other organizational units or divisions 
 
