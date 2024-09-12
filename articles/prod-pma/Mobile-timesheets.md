@@ -1,25 +1,13 @@
 ---
-# required metadata
-
 title: Project timesheets on a mobile device
 description: My timesheets (Optimized for mobile) allows employees to create and submit project timesheets to record their hours for a specific project on a mobile device.
 author: abruer 
 ms.date: 03/16/2018
 ms.topic: article
- 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form:  [Operations AOT form name to tie this article to]
-audience: Application User
-# ms.devlang: 
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm: 
-# ms.custom: [used by loc for articles migrated from the wiki]
 ms.search.region: Global
-# ms.search.industry: [leave blank for most, retail, public sector]
 ms.author: abruer
 ms.search.validFrom: 2018-03-16 
 ms.dyn365.ops.version: April 2018 update 
