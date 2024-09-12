@@ -1,13 +1,13 @@
 ---
 title: Set up labor cost rates
 description: This article provides information about how to set up rates for the cost of labor Project Operations
-author: avisness
+author: rumant
 ms.date: 11/18/2023
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: avisness
+ms.author: rumant
 ---
 
 # Set up labor cost rates
