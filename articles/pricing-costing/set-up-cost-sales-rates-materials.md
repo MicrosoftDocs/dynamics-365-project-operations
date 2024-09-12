@@ -2,7 +2,7 @@
 title: Set up cost and sales rates for materials
 description: This article provides information about how to set up the cost and sales rates for materials used on projects. 
 author: suvaidya
-ms.date: 09/26/2023
+ms.date: 09/12/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -54,5 +54,8 @@ For more information about how to define prices for catalog items, see [Define p
 
 > [!NOTE]
 > Project Operations doesn't support all the pricing methods for products that Dynamics 365 Sales supports. Originally, only the **Currency amount** pricing method could be used for projects. However, as of Project Operations release UR 30, two additional pricing methods are supported. 
+
+> [!NOTE]
+> Price defaulting for expenses, based on cost [Mark up over transaction cost] is valid on project estimates, actuals, quote lines, contract line details, budget lines and budget line details.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

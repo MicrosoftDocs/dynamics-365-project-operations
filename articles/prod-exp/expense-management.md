@@ -2,6 +2,7 @@
 title: Expense management overview
 description: Dynamics 365 Expense Management streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations.
 author: mukumarm
+ms.author: mukumarm
 ms.date: 05/10/2024
 ms.topic: overview
 ms.custom: 

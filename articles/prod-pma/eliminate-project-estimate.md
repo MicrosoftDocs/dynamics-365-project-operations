@@ -1,27 +1,12 @@
 ---
-# required metadata
-
 title: Eliminate project revenue recognition
 description: This article provides information about eliminating project revenue recognition after the project is complete. 
 author: Yowelle
 ms.date: 10/27/2023
-ms.topic: article
- 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-
-# ms.tgt_pltfrm: 
+ms.topic: conceptual
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: andchoi
 ms.dyn365.ops.version: 7.0
 ms.search.validFrom: 2019-01-15

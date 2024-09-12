@@ -2,7 +2,7 @@
 title: Date-effective price overrides
 description: This article explains how to set up price overrides for specific prices in the price list.
 author: rumant
-ms.date: 03/26/2024
+ms.date: 09/12/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -37,6 +37,9 @@ For single role price override:
 1. Select the **Date effective overrides** tab. The grid on this tab lists all the date-effective price overrides for the selected **Role price** record.
 1. On the toolbar above the grid, select **New role price override**. The **New role price override** dialog box opens.
 1. Specify the effective-from date, the scope, the unit, and the new price for the price override. Then select **Apply**.
+
+   > [!NOTE]
+   >  The price list view displays the number of active date-effective price overrides for a specific role in the **Overrides** column. This capability helps you easily identify any active date-effective price overrides for a role without needing to expand the role price in the price list.
 
 For multiple role price overrides or single role price override:
 1. Open the page for the price list that you want to set up the date-effective price override for.
