@@ -1,5 +1,5 @@
 ---
-title: Responding to Data Subject Rights (DSR) requests for Dynamics 365 Project Operations
+title: Respond to Data Subject Rights (DSR) requests for Microsoft Dynamics 365 Project Operations
 description: This article provides instructions for exporting and deleting personal data for exporting and deleting personal data from the service and can help meet your needs for GDPR. 
 author: ryansandness
 ms.author: ryansandness
@@ -11,13 +11,13 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Responding to Data Subject Rights (DSR) requests for Dynamics 365 Project Operations
+# Respond to Data Subject Rights (DSR) requests for Microsoft Dynamics 365 Project Operations
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-This guide provides resources on how to use Microsoft's products, services, and administrative tools to help our controller customers find and act on personal data to respond to DSR requests for Dynamics 365 Project Operations. Specifically, this includes how to find, access, and act on personal data or personal information that reside in Microsoft's cloud. Here's a quick overview of the processes this guide will help you locate:
+This guide provides resources on how to use Microsoft's products, services, and administrative tools to help our controller customers find and act on personal data to respond to DSR requests for Microsoft Dynamics 365 Project Operations. Specifically, this includes how to find, access, and act on personal data or personal information that resides in Microsoft's cloud. This guide will help you with the following process:
 
-- **Discover**: Use search and discovery tools to more easily find customer- data that may be the subject of a DSR request. Once potentially responsive documents are collected, you can perform one or more of the DSR actions described in the following steps to respond to the request. Alternatively, you may determine that the request doesn't meet your organizations guidelines for responding to DSR requests.
+- **Discover**: Use search and discovery tools to more easily find customer- data that may be the subject of a DSR request. Once potentially responsive documents are collected, you can perform one or more of the DSR actions described in the following steps to respond to the request. Alternatively, you may determine that the request doesn't meet your organization's guidelines for responding to DSR requests.
 - **Access**: Retrieve personal data that resides in the Microsoft cloud and, if requested, make a copy of it that is available to the data subject.
 - **Rectify**: Make changes or implement other requested actions on the personal data, where applicable.
 - **Restrict**: Restrict the processing of personal data, either by removing licenses for various online services or turning off the desired services where possible.
@@ -25,7 +25,8 @@ This guide provides resources on how to use Microsoft's products, services, and 
 - **Export/Receive** (Portability): Provide an electronic copy (in a machine-readable format) of personal data or personal information to the data subject.
 
 This guide outlines the technical procedures that a data controller organization can take to respond to a DSR request for personal data in Microsoft's cloud.
-For more details on data subject rights like the European Union General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA) please visit the [California Consumer Privacy Act](https://learn.microsoft.com/compliance/regulatory/offering-ccpa).
+
+For more details on data subject rights like the European Union General Data Protection Regulation (GDPR), and the California Consumer Privacy Act (CCPA), see [California Consumer Privacy Act](https://learn.microsoft.com/compliance/regulatory/offering-ccpa).
 
 ## How this guide can help you meet your controller responsibilities
 
@@ -38,8 +39,8 @@ The guide, divided into two parts, describes how to use Microsoft products, serv
 
 When data subjects exercise their rights and make requests, consider the following points:
 
-- Properly identify the person and role—such as employee, customer, vendor—by using information that the data subject gave you as part of his or her request. This information might be a name, an employee ID or customer number, or other identifier.
-- Record the data and time of the request. (You have 30 days to complete the request.)
+- Properly identify the person and role—such as employee, customer, vendor—by using information that the data subject gave you as part of his or her request. This information might be a name, an employee ID or customer number, or another identifier.
+- Record the date and time of the request. (You have 30 days to complete the request.)
 - firm that the request meets your organization's requirements for honoring or declining a data subject's request. For example, you must make sure that executing the request doesn't conflict with any other legal, financial, or regulatory obligations that you have, or infringe on the rights and freedoms of others.
 - Verify that you have the information that is related to the request.
 
@@ -62,7 +63,7 @@ Dataverse provides multiple methods for you to search for personal data within r
 - [Advanced Find Search](https://learn.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
 - [Search for Records across multiple record types](https://learn.microsoft.com/dynamics365/customer-engagement/basics/search-records)
 
-The finance and operations architecture provides several ways for you to search for customer data. You as a Tenant Admin can perform the following actions to search for customer data:
+The finance and operations architecture provides several ways for you to search for customer data. You, as a Tenant Admin, can perform the following actions to search for customer data:
 
 - Organize your customer data in a way that serves the purpose of rapidly discovering personal data, see [how to classify data inventory](https://learn.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#detailed-inventory) for this purpose.
 - Use the [Person search report](https://learn.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#the-person-search-report) to find and collect personal data.
@@ -76,7 +77,7 @@ The finance and operations architecture provides several ways for you to search 
 After you've found Customer Data containing personal data that is potentially responsive to a DSR, it is up to you and your organization to decide which data to provide to the data subject. You can provide them with a copy of the actual document, an appropriately redacted version, or a screenshot of the portions you have deemed appropriate to share. For each of these responses to an access request, you will have to retrieve a copy of the document or other item that contains the responsive data.
 When providing a copy to the data subject, you may have to remove or redact personal information about other data subjects and any confidential information.
 
-Customer data within Dataverse can be exported using the comprehensive entity export capabilities. Customer data can be exported to a static Excel file to facilitate a data portability request. Using Excel, you can then edit the personal data to be included in the portability request and then save as a commonly used, machine-readable format such as .csv or .xml. Records also can be exported via the [Microsoft Dataverse Web API](https://learn.microsoft.com/powerapps/developer/data-platform/webapi/overview).
+Customer data within Dataverse can be exported using the comprehensive entity export capabilities. Customer data can be exported to a static Excel file to facilitate a data portability request. Using Excel, you can then edit the personal data to be included in the portability request and then save it as a commonly used, machine-readable format such as .csv or .xml. Records also can be exported via the [Microsoft Dataverse Web API](https://learn.microsoft.com/powerapps/developer/data-platform/webapi/overview).
 
 Customer data in the finance and operations architecture can be exported using the comprehensive entity export capabilities. Using [Data management and integration entities](https://learn.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-management-integration-data-entity), the Tenant Admin may utilize provided entities, create new, or extend existing, entities for a repeatable personal data export to Excel or a number of other common formats using [Data import and export jobs](https://learn.microsoft.com/dynamics365/fin-ops-core/dev-itpro/gdpr/gdpr-guide#the-person-search-report). Alternatively, many lists can be exported to a static Excel file to facilitate a data portability request. When customer data is exported to Excel, you can then edit the personal data to be included in the portability request and then save the file as a commonly used, machine-readable format such as .csv or .xml. You may also consider using the [Person search report](https://learn.microsoft.com/dynamics365/fin-ops-core/dev-itpro/privacy/privacy-extend-person-search-report) to provide the data subject with data that you've classified as personal data.
 
@@ -118,7 +119,7 @@ You must be a tenant administrator to delete a user from the tenant.
 
 The "right of data portability" allows a data subject to request a copy of their personal data in an electronic format (that's a "structured, commonly used, machine read-able and interoperable format") that may be transmitted to another data controller.
 
-To respond to a data portability request, customer data in Dataverse can be exported using the comprehensive entity export capabilities. Customer data can be exported to a static Excel file to facilitate a data portability request. Using Excel, you can then edit the personal data to be included in the portability request and then save as a commonly used, machine-readable format such as .csv or .xml.
+To respond to a data portability request, customer data in Dataverse can be exported using the comprehensive entity export capabilities. Customer data can be exported to a static Excel file to facilitate a data portability request. Using Excel, you can then edit the personal data to be included in the portability request and then save it as a commonly used, machine-readable format such as .csv or .xml.
 
 The finance and operations architecture offers [Data management and integration entities](https://learn.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-management-integration-data-entity) that enables provided entities, newly created entities, or extended entities for a repeatable personal data export to Excel or a number of other common formats using [Data import and export jobs](https://learn.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job). Alternatively, many lists can be exported to a static Excel file to facilitate a data portability request. When customer data is exported to Excel in this fashion, you can then edit the personal data to be included in the portability request and then save the file as a commonly used, machine-readable format such as .csv or .xml.
 
@@ -132,7 +133,7 @@ Microsoft also provides you with the ability to access, export, and delete syste
 
 - Product and service usage data such as user activity logs
 - User search requests and query data
-- Data generated by product and services as a product of system functionality and interaction by users or other systems
+- Data generated by products and services as a product of system functionality and interaction by users or other systems
 Important
 
 The ability to restrict or rectify data in system-generated logs is not supported. Data in system-generated logs constitutes factual actions conducted within the Microsoft cloud and diagnostic data, and modifications to such data would compromise the historical record of actions and increase fraud and security risks.
