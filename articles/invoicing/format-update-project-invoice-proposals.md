@@ -3,7 +3,7 @@ title: Manage project invoice proposals
 description: This article provides details about processing customer-facing invoices with Project Operations for resource/ non-stocked based scenarios.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 09/11/2024
+ms.date: 09/13/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -64,11 +64,11 @@ Unbilled transaction currency in Dataverse is used as transaction currency in Fi
 
 A project contract may include the requirement to use a constant exchange rate for the life of the agreement. This agreement can be required in some cases for contractual or regulatory requirements. This fixed exchange rate is then applied for the conversion of any sales amounts in that configured currency into the revenue entries for the company's accounting currency.
 
-#### Fixed exchange rate Feature Overview
+#### Fixed exchange rate feature overview
 
 With the 10.0.41 release, the **Enable the use of Project fixed exchange rate agreements for resource/non-stocked deployments** feature is available to support this need. Once this feature is enabled, users can navigate to the **Project contracts** page within the finance and operations architecture and there will be an option in the ribbon to set up a Fixed rate agreement. Finally, a sales currency, exchange rate, and an optional reference agreement number can be entered to enable a fixed rate agreement.
 
-If no fixed agreement is configured for a given project contract, the system will default to the exchange rate configured for the legal entity.
+If a fixed agreement isn't configured for a given project contract, the system defaults to the exchange rate configured for the legal entity.
 
 The following documents are supported for use with fixed rate agreements:
 
@@ -81,21 +81,22 @@ The following documents are supported for use with fixed rate agreements:
 - Vendor invoices
 - Estimates such as hours, time, and materials
 
-**Note:** If a fixed exchange rate is enabled in a project with existing transactions, existing draft integration journal lines or pending project invoices will begin using the new rate.
+> [!NOTE]
+> If a fixed exchange rate is enabled in a project with existing transactions, existing draft integration journal lines or pending project invoices will begin using the new rate.
 
-##### Example Scenario
+##### Example scenario
 
 Contoso, based in the United States with an accounting currency of USD, is delivering a project for Coho Winery in the UK with a contract sales currency of GBP. GBP to USD exchange rates fluctuate between 1.2 and 1.4 regularly, so the companies have agreed on a fixed rate of 1.25 for their business dealings for the life of the contract and project.
 
-In Dynamics 365 Project Operations, a project contract is established with a fixed rate agreement configured with the GBP currency using a rate of 1.25. Contoso has set up a Time and Material Project with time and expenses, accruing revenue to generate work in progress (WIP) financial entries.
+In Project Operations, a project contract is established with a fixed rate agreement configured with the GBP currency using a rate of 1.25. Contoso has set up a Time and Material project with time and expenses, accruing revenue to generate work in progress (WIP) financial entries.
 
-On the project, tasks are created to plan for the various stages of the project. The first task is for requirements gathering and will be completed by Julia Funderburk with an estimated duration of 7 hours. We can navigate to the **All projects** page within the finance and operations infrastructure, select the project and click into **Hour forecasts** from the **Plan** tab of the ribbon. Here we will see the entry for the 7 hour forecast. Clicking further into **General ledger preview** will give us the estimated costs and a line for 2187.50 GBP revenue for the **Project - invoiced revenue** posting type on the **Overview** tab. Opening the **General** tab gives us the breakdown of sales, with 7 hours effort and the sales price of 250. The calculated total sales amount of 1750 is generated with an exchange rate of 125.
+On the project, tasks are created to plan for the various stages of the project. The first task is for requirements gathering and will be completed by Julia Funderburk with an estimated duration of seven hours. We can navigate to the **All projects** page within the finance and operations infrastructure, select the project and click into **Hour forecasts** from the **Plan** tab of the ribbon. Here we see the entry for the seven hour forecast. Clicking further into **General ledger preview** gives us the estimated costs and a line for 2187.50 GBP revenue for the **Project - invoiced revenue** posting type on the **Overview** tab. Opening the **General** tab gives us the breakdown of sales, with seven hours of effort and the sales price of 250. The calculated total sales amount of 1750 is generated with an exchange rate of 125.
 
 7 hours x 250 GBP price x 1.25 exchange rate = 2187.50 USD for Contoso's calculated revenue in their accounting currency.
 
-Once the project begins work, Julia will log her time for the first four hours of work on the first project invoice. She creates a time entry on August 27th for four hours against the requirements gathering task. Once that entry is approved, it will get created as an integration journal on the next processing of **import from staging table**. On the integration journal we will see two lines, with one line for cost and one for sales. The lines will appear like the table below:
+Once the project begins work, Julia logs her time for the first four hours of work on the first project invoice. She creates a time entry on August 27th for four hours against the requirements gathering task. Once that entry is approved, it gets created as an integration journal on the next processing of **import from staging table**. On the integration journal we will see two lines, with one line for cost and one for sales. The lines will appear like the table below:
 
-| Document Type | Resource Name    | Hours | Cost Amount |  Sales Amount | Sales Currency | Price Exchange Rate |
+| Document type | Resource name    | Hours | Cost amount | Sales amount | Sales currency | Price exchange rate |
 |---------------|------------------|-------|-------------|--------------|----------------|----------------------|
 | Usage         | Julia Funderburk | 4     | 480         | 0            | USD            | 100                  |
 | Usage         | Julia Funderburk | 4     | 0           | 1,000        | GBP            | 125                  |
@@ -108,21 +109,21 @@ Posting the integration journal results in the following:
 - Entry to Project – WIP – Sales Value
 - Entry to Project Accrued Revenue for the WIP using the fixed exchange rate
 
-| Account       | Name                | Amount in Transaction Currency | Amount in Accounting Currency | Exchange Rate | Posting Type |
+| Account       | Name                | Amount in transaction currency | Amount in accounting currency | Exchange rate | Posting type |
 |---------------|---------------------|-------------------------------|----------------------|---------------|--------------|
 |600300                |Payroll allocation                     |-480                               |-480                      |1               |Project - payroll allocation              |
 |540100                |Cost of Project - Labor                     |480                               |480                      |1               |Project - cost              |
 |161300                |WIP - Sales Value                     |1000                               |1250                      |1.25               |Project - WIP - sales value             |
 |420200                |Accrued revenue                     |-1000                               |-1250                      |1.25               |Project - accrued revenue             |
 
-When the **invoice proposal** is generated, it will have a single line for the 4 hours with a sales price of 250 for a total 1000 GBP sales amount. The customer invoice will be in GBP.
+When the **invoice proposal** is generated, it has a single line for the 4 hours with a sales price of 250 for a total 1000 GBP sales amount. The customer invoice is in GBP.
 
 Posting the **invoice proposal** results in a customer invoice with the following:
 
-- Reversal to Project – WIP – Sales Value
-- Reversal to Project Accrued Revenue for the WIP using the fixed exchange rate
-- Entry for Invoiced Revenue using the fixed exchange rate
-- Entry for Customer Balance using the fixed exchange rate
+- Reversal to Project – WIP – Sales Value.
+- Reversal to Project Accrued Revenue for the WIP using the fixed exchange rate.
+- Entry for Invoiced Revenue using the fixed exchange rate.
+- Entry for Customer Balance using the fixed exchange rate.
 
 4 hours x 250 GBP price x 1.25 exchange rate = 1250 GBP.
 
@@ -166,10 +167,10 @@ Project invoice proposals can be reviewed in the **Project management and accoun
 The Project invoice proposal header is created in Finance when the Proforma invoice is confirmed in Dataverse. For easier reconciliation, the system sets the Project invoice proposal number in Finance to the same number as the Proforma invoice ID in Dataverse. Because Proforma invoices are not necessarily confirmed in the same order they are created, the Project invoice proposal number sequence in Finance must allow for changes to lower and higher numbers. Configure number sequences using the following steps:
 
 1. In Finance, go to **Organization Administration** > **Number sequences** > **Number sequences**.
-2. In the **Area** filter, select **Projects**.
-3. In the **Reference** filter, select **Invoice proposal**.
-4. Use the **Company** field to filter each legal entity with Project Operations Dataverse integration enabled.
-5. Open **Number Sequence details** and on the **General** tab set:
+1. In the **Area** filter, select **Projects**.
+1. In the **Reference** filter, select **Invoice proposal**.
+1. Use the **Company** field to filter each legal entity with Project Operations Dataverse integration enabled.
+1. Open **Number Sequence details** and on the **General** tab set:
 
     - **Allow user changes: To a lower number** = **Yes**
     - **Allow user changes: To a higher number** = **Yes**
@@ -185,8 +186,8 @@ The Project accountant can customize a project invoice printout by using the **F
 The **Format invoice proposals** page allows custom grouping transactions to display in the customer project invoice.
 
 1. On the **Project invoice proposal** page, select **Print** > **Format invoice proposal**.
-2. Select **New** to create a new grouping for the Project invoice printout.
-3. In the **Detail/Summary** field, select options for this grouping:
+1. Select **New** to create a new grouping for the Project invoice printout.
+1. In the **Detail/Summary** field, select options for this grouping:
 
     - Select **Detail** to print the transaction details of the customer invoice.
     - Select **Summary** to print the transaction summary of the customer invoice.
