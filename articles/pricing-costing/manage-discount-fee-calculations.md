@@ -21,9 +21,6 @@ This article provides an overview of **discount and fee** setup in **Dynamics 36
 ## Prerequisites
 To use the discount and fee feature in Dynamics 365 Project Operations, enable the feature **Discount and Fee** feature within the system.
 
-    > [!IMPORTANT]
-    > **Project invoice discount/Header discount** is currently not supported in Project Operations. 
-
 ## Project quotations
 
 Project quotations can be created and shared with customers, and can include one or more quotation lines tailored to business needs. For project quotation lines of the **Time and Material** type, discount and fee percentage fields are available for editing. These discounts and fees are applied to all the quotation line details details of the selected quotation line. The extended amount on the project quotation line will reflect the discount and fee, based on the entered percentages. The discount amount is deducted, while the fee amount is added to the total on the quotation line. To apply discounts and fees to project quotations, follow the steps below.
