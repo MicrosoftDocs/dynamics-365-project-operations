@@ -2370,4 +2370,6 @@
     href: responsible-ai/copilot-for-project-faq.md
   - name: Responsible AI FAQs for Copilot in time entry
     href: responsible-ai/copilot-in-time-entry-faqs.md
+- name: Respond to Data Subject Rights (DSR) requests
+  href: environment/dsr-rights-requests.md
 
