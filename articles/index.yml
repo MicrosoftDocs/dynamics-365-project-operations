@@ -76,6 +76,8 @@ additionalContent:
         text: Work breakdown structures
       - url: project-management/project-management-overview.md
         text: Project management
+      - url: environment/dsr-rights-requests.md
+        text: Respond to Data Subject Rights (DSR) requests
   - title: Deal to proforma invoicing scenarios (Lite deployment)
     items:
     - title: Guidance 
@@ -108,6 +110,8 @@ additionalContent:
         text: Project management
       - url: resource-management/resource-management-key-concepts.md
         text: Resource management
+      - url: environment/dsr-rights-requests.md
+        text: Respond to Data Subject Rights (DSR) requests
   - title: Stocked and production-based scenarios
     items:
     - title: Guidance 
@@ -133,7 +137,9 @@ additionalContent:
       - url: prod-pma/project-resourcing.md
         text: Project resourcing
       - url: prod-pma/project-forecasts-budgets.md
-        text: Project forecasts and budgets     
+        text: Project forecasts and budgets  
+      - url: environment/dsr-rights-requests.md
+        text: Respond to Data Subject Rights (DSR) requests
   - title: Related products
     items:
         # Card
