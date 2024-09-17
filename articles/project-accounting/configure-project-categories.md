@@ -19,19 +19,19 @@ Project Operations offers robust capabilities for categorizing revenue and expen
 
 The following diagram illustrates the correlation between transaction categories, shared categories, and project categories.
 
-Transaction categories are the basic grouping for project transactions. Within that grouping, there is a set of shared categories that can be shared across applications and modules. Getting even further into specifics, project categories are the most granular level of categories. Project categories are specific to legal entity, module, and application.
+Transaction categories are the basic grouping for project transactions. Within that grouping is a set of shared categories that can be shared across applications and modules. Project categories are the most granular level of categories. Project categories are specific to legal entity, module, and application.
 
 ![Correlation between transaction categories, shared categories, and project categories.](media/project-categories.png)
 
 ## Transaction categories
 
-Transaction categories represent the basic grouping for project transactions and are not company or transaction type-specific. For example, Contoso Robotics uses Design, Travel, Installation, and Service Transaction categories to group Project transactions.
+Transaction categories represent the basic grouping for project transactions and aren't company or transaction type-specific. For example, Contoso Robotics uses Design, Travel, Installation, and Service Transaction categories to group Project transactions.
 
 Transaction categories are defined within Dataverse.
 1. Go to **Settings** \> **Transaction Categories** to open the form. 
 2. Create a new transaction category either by selecting **New** or by selecting **Import from Excel**.
 
-In the finance and operations architecture, the **Transaction categories** form provides a list of the transaction categories defined in Dataverse, and the enumeration mapping to each of the shared categories. The transaction category from Dataverse will be assigned a unique identifier similar to TCN-0000001000-D3B43. Then five transaction categories will be created to allow for setup for each shared category type. Using the example of a category named Training, the mapping to the enumeration values for setup are:
+In the finance and operations architecture, the **Transaction categories** form provides a list of the transaction categories defined in Dataverse, and the enumeration mapping to each of the shared categories. The transaction category from Dataverse are assigned a unique identifier similar to TCN-0000001000-D3B43. Then five transaction categories are created to allow for setup for each shared category type. Using the example of a category named Training, the mapping to the enumeration values for setup is:
 
 | Shared category        | Name | Type |
 |------------------------|------|------|
@@ -41,7 +41,7 @@ In the finance and operations architecture, the **Transaction categories** form 
 | TCN-0000001000-D3B43-4 | Training | Expense |
 | TCN-0000001000-D3B43-5 | Training | On-account |
 
-Within Dataverse, users will generally work with the name of the category. Within the finance and operations architecture, use of the category will often require a combination of shared category ID and type.
+Within Dataverse, users generally work with the name of the category. Within the finance and operations architecture, use of the category often requires a combination of shared category ID and type.
 
 A user in Dataverse may enter a sales journal of type of expense against the Training category. In the finance and operations architecture, the user would set a default category for expense transactions to use by setting the default to TCN-0000001000-D3B43-Expense.
 
@@ -52,15 +52,15 @@ Dynamics 365 uses the Shared categories concept to categorize expenses in differ
 
 ### New functionality to allow categories on on-account type transactions
 
-With the 10.0.41 release, there is a new feature that allows you to create a shared category for on-account type transactions. Within **Feature management**, the **Enable project categories for on-account transactions** feature is now available. New functionality enabled by this feature includes:
+With the 10.0.41 release, there's a new feature that allows you to create a shared category for on-account type transactions. Within **Feature management**, the **Enable project categories for on-account transactions** feature is now available. New functionality enabled by this feature includes:
 
-- New transaction categories created in Dataverse will now have a fifth shared category available to be configured.
-- **Project management and accounting parameters** has a new default setting to default the category for on-account transactions. This default will apply to both retainiers and milestone transactions.
+- New transaction categories created in Dataverse now have a fifth shared category available to be configured.
+- **Project management and accounting parameters** has a new default setting to default the category for on-account transactions. This default applies to both retainiers and milestone transactions.
 - The **Category groups** form now allows you to configure groups of type on-account. 
 - The **Project categories** form now allows you to configure a category of type on-account.
-- Category is added as an optional field. Existing on-account transactions will continue to work without a category configured. New on-account transactions will work with or without a category defined. Posting will continue to be based on the setup of **Ledger posting setup** for the **Invoiced revenue - on-account** posting type.
-- The **Ledger posting setup** form was enhanced to allow for configuration of a specific main account for a specific category relation. This enhancement allows users to setup a different revenue account for different categories.
-- The **On-account** form allows for editing of the category, as well as the **Project invoice proposal** form prior to posting.
+- Category is added as an optional field. Existing on-account transactions continue to work without a category configured. New on-account transactions work with or without a category defined. Posting continues to be based on the setup of **Ledger posting setup** for the **Invoiced revenue - on-account** posting type.
+- The **Ledger posting setup** form was enhanced to allow for configuration of a specific main account for a specific category relation. This enhancement allows users to set up a different revenue account for different categories.
+- The **On-account** form allows for editing of the category, and the **Project invoice proposal** form prior to posting.
 - 
 ## Project categories
 
