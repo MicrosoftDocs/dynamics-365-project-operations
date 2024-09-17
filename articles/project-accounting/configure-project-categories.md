@@ -48,11 +48,11 @@ A user in Dataverse may enter a sales journal of type of expense against the Tra
 
 ## Shared categories
 
-Dynamics 365 uses the Shared categories concept to categorize expenses in different applications, such as Dynamics 365 Finance, Dynamics 365 Supply Chain, and Dynamics 365 Project Operations. For each Transaction category created, Project Operations automatically creates five related Shared categories: Hours, Expense, Fees, Item, and On-account. You can review and adjust the shared categories by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Shared Categories**.
+Microsoft Dynamics 365 uses the Shared categories concept to categorize expenses in different applications, such as Microsoft Dynamics 365 Finance, Microsoft Dynamics 365 Supply Chain, and Project Operations. For each transaction category that's created, Project Operations automatically creates these five related Shared categories: Hours, Expense, Fees, Item, and On-account. You can review and adjust the shared categories by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Shared Categories**.
 
 ### New functionality to allow categories on on-account type transactions
 
-With the 10.0.41 release, there's a new feature that allows you to create a shared category for on-account type transactions. Within **Feature management**, the **Enable project categories for on-account transactions** feature is now available. New functionality enabled by this feature includes:
+With the 10.0.41 release, there's a new feature that lets you create a shared category for on-account type transactions. Within **Feature management**, the **Enable project categories for on-account transactions** feature is now available. New functionality enabled by this feature includes:
 
 - New transaction categories created in Dataverse now have a fifth shared category available to be configured.
 - **Project management and accounting parameters** has a new default setting to default the category for on-account transactions. This default applies to both retainers and milestone transactions.
