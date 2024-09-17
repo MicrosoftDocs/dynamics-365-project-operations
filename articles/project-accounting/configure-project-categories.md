@@ -19,7 +19,7 @@ Project Operations offers robust capabilities for categorizing revenue and expen
 
 The following diagram illustrates the correlation between transaction categories, shared categories, and project categories.
 
-Transaction categories are the basic grouping for project transactions. Within that grouping is a set of shared categories that can be shared across applications and modules. Project categories are the most granular level of categories. Project categories are specific to legal entity, module, and application.
+Transaction categories are the basic grouping for project transactions. That grouping has a set of shared categories that can be shared across applications and modules. Project categories are the most granular level of categories. Project categories are specific to legal entity, module, and application.
 
 ![Correlation between transaction categories, shared categories, and project categories.](media/project-categories.png)
 
@@ -31,7 +31,7 @@ Transaction categories are defined within Dataverse.
 1. Go to **Settings** \> **Transaction Categories** to open the form. 
 2. Create a new transaction category either by selecting **New** or by selecting **Import from Excel**.
 
-In the finance and operations architecture, the **Transaction categories** form provides a list of the transaction categories defined in Dataverse, and the enumeration mapping to each of the shared categories. The transaction category from Dataverse are assigned a unique identifier similar to TCN-0000001000-D3B43. Then five transaction categories are created to allow for setup for each shared category type. Using the example of a category named Training, the mapping to the enumeration values for setup is:
+In the finance and operations architecture, the **Transaction categories** form provides a list of the transaction categories defined in Dataverse, and the enumeration mapping to each of the shared categories. The transaction category from Dataverse is assigned a unique identifier similar to TCN-0000001000-D3B43. Then five transaction categories are created to allow for setup for each shared category type. For example, using a category named Training, the mapping to the enumeration values for setup is:
 
 | Shared category        | Name | Type |
 |------------------------|------|------|
@@ -55,7 +55,7 @@ Dynamics 365 uses the Shared categories concept to categorize expenses in differ
 With the 10.0.41 release, there's a new feature that allows you to create a shared category for on-account type transactions. Within **Feature management**, the **Enable project categories for on-account transactions** feature is now available. New functionality enabled by this feature includes:
 
 - New transaction categories created in Dataverse now have a fifth shared category available to be configured.
-- **Project management and accounting parameters** has a new default setting to default the category for on-account transactions. This default applies to both retainiers and milestone transactions.
+- **Project management and accounting parameters** has a new default setting to default the category for on-account transactions. This default applies to both retainers and milestone transactions.
 - The **Category groups** form now allows you to configure groups of type on-account. 
 - The **Project categories** form now allows you to configure a category of type on-account.
 - Category is added as an optional field. Existing on-account transactions continue to work without a category configured. New on-account transactions work with or without a category defined. Posting continues to be based on the setup of **Ledger posting setup** for the **Invoiced revenue - on-account** posting type.
@@ -77,7 +77,7 @@ Project categories represent most granular level of category configuration and m
 
 Category groups are used to share properties, primarily posting profiles, between related Project categories. There must be at least one category group for each transaction type and each project category is assigned a group.
 
-The posting specifications in Project Operations are defined by the project cost and revenue profile rules, project categories, and category groups. You can set up category groups by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Category groups**.
+The posting specifications in Project Operations are defined using the project cost and revenue profile rules, project categories, and category groups. You can set up category groups by going to **Project management and accounting** \> **Setup** \> **Categories** \> **Category groups**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
