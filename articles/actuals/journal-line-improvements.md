@@ -15,6 +15,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 This feature helps prevent you from entering incorrect **journal line** entries by enforcing **business rules**. It introduces new **validations** and automatically fills in dependent values based on the **transaction class** and **type**. This feature aims to enhance the **Quick create form** on the journal lines by adding validations and default logic for fields, as well as improving the display of fields, ensuring users enter data correctly.
 
+For more information about journals, refer [create-confirm-entry-journals](../articles/actuals/create-confirm-entry-journals.md).
 ## Prerequisites
 To use the journal line improvements feature in Dynamics 365 Project Operations, enable the feature **Enable journal line improvements** feature within the system.
 
