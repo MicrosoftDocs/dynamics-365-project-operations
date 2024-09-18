@@ -37,7 +37,7 @@ Project quotations can be created and shared with customers, and can include one
 7. Enter the **Discount percentage** or/and **Fee percentage**. **Discount amount**, **Fee amount** and **Extended amount** will be calculated based upon the discount percentage and fee percentage. Click **Save and Close** to close the quotation line form.
 8. The **Profitability Analysis** and **Total Revenue** fields are updated to reflect the discount and fee amounts.
 
-For more information about **Project quotation**, refer (../articles/pro/sales/manage-quotes-sales.md)
+For more information about **Project quotations**, refer [Manage project quotes](../articles/pro/sales/manage-quotes-sales.md)
 
 ## Project contract
 
@@ -56,16 +56,16 @@ To apply discounts and fees to project contracts, follow the steps below.
 7. Enter the **Discount percentage** or/and **Fee percentage**. **Discount amount**, **Fee amount** and **Extended amount** will be calculated based upon the discount percentage and fee percentage. Click **Save and Close** to close the contract line form.
 8. The **Contract performance** and **Total Amount** fields are updated to reflect the discount and fee amounts.
 
-For more information about **Project contract**, refer (../articles/pro/sales/manage-contracts-sales.md) for more details.
+For more information about **Project contract**, refer [Manage project contracts](../articles/pro/sales/manage-contracts-sales.md) for more details.
 
 ## Actuals
 
 **Actuals** capture the results of all transactions performed or generated in **Dynamics 365 Project Operations**. They can be created or updated through **Timesheets**, **Expenses**, **Material usage**, **Journals**, or **Project invoice** processes. When **Timesheets**, **Expenses**, or **Material usage** are approved, or **Journals** are confirmed for a contract with applicable discounts and/or fees associated, the system generates **Actuals** of the type **Unbilled Sales** and updates the **Discount** and **Fee** amounts accordingly. The **Extended amount** is also adjusted to account for the **Discount** and **Fee**.  The discount amount is deducted, while the fee amount is added to the extended amount.
 
-For more information about **Actuals**, refer (../articles/actuals/ActualsonTM.md) for more details.
+For more information about **Actuals**, refer [Actuals impact in a time and materials engagement](../articles/actuals/ActualsonTM.md) for more details.
 
 ## Project invoice
 
 A **Project invoice** is used to bill the customer and may include one or more invoice lines. When creating an invoice for **Time & Material** transactions, and **Unbilled sales transactions** with discounts and fees are selected, the system generates an invoice with lines that reflect the discount and fee amounts. The invoice lines include **separate fields** for the discount and fee amounts. If there are changes to the quantity using the **Invoice line details** option, the discount and fee amounts are adjusted accordingly. Once the invoice is **confirmed** by the project manager, the **Unbilled sales** actuals are **reversed** with **negative discount and fee amounts**, and new **Billed sales** actuals are generated, reflecting the updated discount and fee.
 
-For more information about **Project invoice**, refer (../articles/pro/proforma-invoicing/create-manual-proforma-invoice-sales.md) for more details.
+For more information about **Project invoice**, refer [Proforma project invoices](../articles/pro/proforma-invoicing/create-manual-proforma-invoice-sales.md) for more details.
