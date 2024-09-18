@@ -1162,7 +1162,7 @@
           href: pricing-costing/use-transaction-category-as-pd.md
         - name: Bookable resource with multiple roles on a project
           href: sales/br-playing-multiple-roles.md
-      - name: Manage Discount and Fee
+      - name: Manage discounts and fees overview
         href: pricing-costing/manage-discount-fee-calculations.md
       - name: Custom fields as pricing dimensions
         items:
