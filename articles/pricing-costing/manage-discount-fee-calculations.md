@@ -23,7 +23,7 @@ To use the discount and fee feature in Dynamics 365 Project Operations, enable t
 
 ## Project quotations
 
-Project quotations can be created and shared with customers, and can include one or more quotation lines tailored to business needs. For project quotation lines of the **Time and Material** type, discount and fee percentage fields are available for editing. These discounts and fees are applied to all the quotation line details details of the selected quotation line. The extended amount on the project quotation line will reflect the discount and fee, based on the entered percentages. The discount amount is deducted, while the fee amount is added to the total on the quotation line. To apply discounts and fees to project quotations, follow the steps below.
+Project quotations can be created and shared with customers, and can include one or more quotation lines tailored to business needs. For project quotation lines of the **Time and Material** type, **discount** and **fee** percentage fields are available for editing. These discounts and fees are applied to all the quotation line details details of the selected quotation line. The extended amount on the project quotation line will reflect the discount and fee, based on the entered percentages. The discount amount is deducted, while the fee amount is added to the total on the quotation line. To apply discounts and fees to project quotations, follow the steps below.
 
 1. Go to **Sales** > **Sales** > **Quotes**.
 2. Click **+ New** to create a project quotation.
@@ -36,7 +36,11 @@ Project quotations can be created and shared with customers, and can include one
    
 ## Project contract
 
-Project contracts can be created manually or using project quotations based upon agreement with customers, and can include one or more contract lines tailored to business needs. For project contract lines of the **Time and Material** type, discount and fee percentage fields are available for editing. These discounts and fees are applied to all contract line details of the selected contract line. The extended amount on the project contract line will reflect the discount and fee, based on the entered percentages. The discount amount is deducted, while the fee amount is added to the total on the contract line. To apply discounts and fees to project contracts, follow the steps below.
+Project contracts can be created manually or using project quotations based upon agreement with customers, and can include one or more contract lines tailored to business needs. For project contract lines of the **Time and Material** type, **discount** and **fee** percentage fields are available for editing. These discounts and fees are applied to all contract line details of the selected contract line. The extended amount on the project contract line will reflect the discount and fee, based on the entered percentages. The discount amount is deducted, while the fee amount is added to the total on the contract line. 
+
+When a project contract is created through the project quotation process, the discount and fee percentage values from the project quotation lines will automatically be applied to the project contract lines, if available.
+
+To apply discounts and fees to project contracts, follow the steps below.
 
 1. Go to **Sales** > **Sales** > **Project Contracts**.
 2. Click **+ New** to create a **Project Contract**.
@@ -49,10 +53,12 @@ Project contracts can be created manually or using project quotations based upon
 
 ## Actuals
 
-**Actuals** capture the results of all transactions performed or generated in **Dynamics 365 Project Operations**. They can be created or updated through **Timesheets**, **Expenses**, **Material usage**, **Journals**, or **Project invoice** processes. When **Timesheets**, **Expenses**, or **Material usage** are approved, or **Journals** are confirmed for a contract with applicable discounts and/or fees associated, the system generates **Actuals** of the type **Unbilled Sales** and updates the **Discount** and **Fee** amounts accordingly. The **Extended amount** is also adjusted to account for the **Discount** and **Fee**. 
+**Actuals** capture the results of all transactions performed or generated in **Dynamics 365 Project Operations**. They can be created or updated through **Timesheets**, **Expenses**, **Material usage**, **Journals**, or **Project invoice** processes. When **Timesheets**, **Expenses**, or **Material usage** are approved, or **Journals** are confirmed for a contract with applicable discounts and/or fees associated, the system generates **Actuals** of the type **Unbilled Sales** and updates the **Discount** and **Fee** amounts accordingly. The **Extended amount** is also adjusted to account for the **Discount** and **Fee**.  The discount amount is deducted, while the fee amount is added to the extended amount.
 
-For more information, refer (../articles/actuals/ActualsonTM.md) for more details.
+For more information about **Actuals**, refer (../articles/actuals/ActualsonTM.md) for more details.
 
 ## Project invoice
 
 A **Project invoice** is used to bill the customer and may include one or more invoice lines. When creating an invoice for **Time & Material** transactions, and **Unbilled sales transactions** with discounts and fees are selected, the system generates an invoice with lines that reflect the discount and fee amounts. The invoice lines include **separate fields** for the discount and fee amounts. If there are changes to the quantity using the **Invoice line details** option, the discount and fee amounts are adjusted accordingly. Once the invoice is **confirmed** by the project manager, the **Unbilled sales** actuals are **reversed** with **negative discount and fee amounts**, and new **Billed sales** actuals are generated, reflecting the updated discount and fee.
+
+For more information about **Project invoice**, refer (../articles/actuals/ActualsonTM.md) for more details.
