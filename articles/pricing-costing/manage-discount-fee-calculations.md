@@ -1,5 +1,5 @@
 ---
-title: Manage Discount and Fee
+title: Manage discounts and fees overview
 description: This article provides information about discount and fee overview in Project Operations.
 author: mukumarm
 ms.author: mukumarm
@@ -10,7 +10,7 @@ ms.custom:
 ms.reviewer: johnmichalak
 
 ---
-# Discount and Fee overview
+# Manage discounts and fees overview
 
 _**Applies To:**  Lite deployment - deal to proforma invoicing.
 
