@@ -78,5 +78,6 @@ There are a few key differences between actuals that are created by Entry journa
 
 > [!NOTE]
 > Entry journals don't enforce strict defaulting rules. Therefore, use these Entry Journals as little as possible, and exercise caution and care to ensure that you don't create corrupt financial data in your system. Whenever you can, use Time, Expense, and Material usage logs, the milestone and retainer setup on project contracts, and the project invoice confirmation process instead of Entry journals to create actuals.
+> To enforce rules for the journal lines, feature **Journal line improvements** should be enabled. For more details, refer [Journal line improvements](../articles/actuals/journal-line-improvements.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
