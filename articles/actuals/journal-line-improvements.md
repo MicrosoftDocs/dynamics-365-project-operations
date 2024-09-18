@@ -50,4 +50,3 @@ The **Quick Create journal line** entry form is optimized to display fields that
 | Role | Role will be visible only for  **Transaction class** is **Time**.  |  |
 | Unit schedule | No | This field will be defualted based upon **Unit** field. |
 | Bookable resource | This field will be displayed only for **Transaction class** **Time** and **Expense**.  |  |
-| Amount method | No  |  |
