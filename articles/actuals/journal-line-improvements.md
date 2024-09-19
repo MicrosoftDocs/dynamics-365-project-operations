@@ -20,33 +20,33 @@ For more information about journals, refer [create-confirm-entry-journals](../ar
 To use the **Journal line improvements** feature in Dynamics 365 Project Operations, enable the feature **Enable journal line improvements** feature within the system.
 
 ## Business rules validation
-**Business rules** have been implemented on the journal lines as part of this feature to ensure data accuracy and integrity. These **business rules** will be applied when creating or updating journal lines, whether through the **quick create journal line** form, **Excel import**, or any other method of journal line insertion or update.The following are the business rules:
+**Business rules** have been implemented on the journal lines as part of this feature to ensure data accuracy and integrity. These **business rules** will be applied when creating or updating journal lines, whether through the **quick create journal line** form, **Excel import**, or any other method of journal line insertion or update. The following are the business rules:
 
 | Billing method on contract line | Transaction type | Transaction classes allowed |Transaction classes not allowed |
  | --- | --- | --- | --- |
- | Fixed Price | Cost | Time, Expense, Material | Fee, Retainer and Milestone |
+ | Fixed Price | Cost | Time, Expense, Material | Fee, Retainer, and Milestone |
  |  | Unbilled sales | Retainer | Time, Expense, Material, Fee and Milestone |
- |  | Billed sales | Retainer and Milestone | Time, Expense, Material, Fee |
- |  | Inter Org Sales | Time, Expense | Material, Fee, Retainer and Milestone |
- |  | Resource unit cost | Time, Expense | Material, Fee, Retainer and Milestone |
- | Time & Material | Cost | Time, Expense, Material | Fee, Retainer and Milestone |
+ |  | Billed sales | Retainer and Milestone | Time, Expense, Material, and Fee |
+ |  | Inter Org Sales | Time, Expense | Material, Fee, Retainer, and Milestone |
+ |  | Resource unit cost | Time, Expense | Material, Fee, Retainer, and Milestone |
+ | Time & Material | Cost | Time, Expense, Material | Fee, Retainer, and Milestone |
  |  | Unbilled sales | Time, Expense, Material, Fee, Retainer | Milestone |
  |  | Billed sales | Time, Expense, Material, Fee, Retainer | Milestone |
- |  | Inter Org Sales | Time, Expense | Material, Fee, Retainer and Milestone |
- |  | Resource unit cost | Time, Expense | Material, Fee, Retainer and Milestone |
+ |  | Inter Org Sales | Time, Expense | Material, Fee, Retainer, and Milestone |
+ |  | Resource unit cost | Time, Expense | Material, Fee, Retainer, and Milestone |
 
 ## Defaulting and field visibility settings for quick create journal line
 The **Quick Create journal line** entry form is optimized to display fields that are relevant to the user, based on the **Transaction class** and **Transaction type**. Additionally, defaulting logic has been applied to fields to ensure that journal lines can be created efficiently. All fields are available for modification on the detail page if necessary.
 
 | Journal line field | Display on quick create |Default value|
 | --- | --- | --- |
-| Product |This field will be visible only for **Transaction class** is **Material**. | |
-| External description | No |This field will be defaulted from the **Description** field. |
-| Document date | No | This field will be defaulted from the **Transaction date** field. |
-| Start date | No | This field will be defaulted from the **Transaction date** field. |
-| End date | No | This field will be defaulted from the **Transaction date** field. |
-| Accounting date | No | This field will be defaulted from the **Transaction date** field. |
-| Contract line customer | Yes  | This field will be defaulted based upon **Contract line** associated with project and **Task**.  |
-| Role | Role will be visible only for  **Transaction class** is **Time**.  |  |
-| Unit schedule | No | This field will be defaulted based upon **Unit** field. |
-| Bookable resource | This field will be displayed only for **Transaction class** **Time** and **Expense**.  |  |
+| Product |This field is visible only for **Transaction class** is **Material**. | |
+| External description | No |This field is defaulted from the **Description** field. |
+| Document date | No | This field is defaulted from the **Transaction date** field. |
+| Start date | No | This field is defaulted from the **Transaction date** field. |
+| End date | No | This field is defaulted from the **Transaction date** field. |
+| Accounting date | No | This field is defaulted from the **Transaction date** field. |
+| Contract line customer | Yes  | This field is defaulted based upon **Contract line** associated with project and **Task**.  |
+| Role | Role is visible only for  **Transaction class** is **Time**.  |  |
+| Unit schedule | No | This field is defaulted based upon **Unit** field. |
+| Bookable resource | This field is displayed only for **Transaction class** **Time** and **Expense**.  |  |
