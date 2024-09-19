@@ -1,6 +1,6 @@
 ---
 title: Journal line improvements
-description: This article provides information about journal lines improvement feature in Project Operations.
+description: This article provides information about journal lines improvement feature in Dynamics 365 Project Operations. It implements new business rules and validations to ensure accurate journal entries, while adjusting field visibility on the quick journal line creation form based on the transaction class and type.
 author: mukumarm
 ms.author: mukumarm
 ms.date: 09/19/2024
@@ -17,7 +17,7 @@ This feature helps prevent you from entering incorrect **journal line** entries 
 
 For more information about journals, refer [create-confirm-entry-journals](../articles/actuals/create-confirm-entry-journals.md).
 ## Prerequisites
-To use the journal line improvements feature in Dynamics 365 Project Operations, enable the feature **Enable journal line improvements** feature within the system.
+To use the **Journal line improvements** feature in Dynamics 365 Project Operations, enable the feature **Enable journal line improvements** feature within the system.
 
 ## Business rules validation
 **Business rules** have been implemented on the journal lines as part of this feature to ensure data accuracy and integrity. These **business rules** will be applied when creating or updating journal lines, whether through the **quick create journal line** form, **Excel import**, or any other method of journal line insertion or update.The following are the business rules:
@@ -41,12 +41,12 @@ The **Quick Create journal line** entry form is optimized to display fields that
 | Journal line field | Display on quick create |Default value|
 | --- | --- | --- |
 | Product |This field will be visible only for **Transaction class** is **Material**. | |
-| External description | No |This field will defaulted from the **Description** field. |
+| External description | No |This field will be defaulted from the **Description** field. |
 | Document date | No | This field will be defaulted from the **Transaction date** field. |
 | Start date | No | This field will be defaulted from the **Transaction date** field. |
 | End date | No | This field will be defaulted from the **Transaction date** field. |
-| Accoutning date | No | This field will be defaulted from the **Transaction date** field. |
-| Contract line customer | Yes  | This field will be defualted based upon **Contract line** associated with project and **Task**.  |
+| Accounting date | No | This field will be defaulted from the **Transaction date** field. |
+| Contract line customer | Yes  | This field will be defaulted based upon **Contract line** associated with project and **Task**.  |
 | Role | Role will be visible only for  **Transaction class** is **Time**.  |  |
-| Unit schedule | No | This field will be defualted based upon **Unit** field. |
+| Unit schedule | No | This field will be defaulted based upon **Unit** field. |
 | Bookable resource | This field will be displayed only for **Transaction class** **Time** and **Expense**.  |  |
