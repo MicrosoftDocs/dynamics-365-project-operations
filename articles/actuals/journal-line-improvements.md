@@ -36,7 +36,7 @@ To use the journal line improvements feature in Dynamics 365 Project Operations,
  |  | Resource unit cost | Time, Expense | Material, Fee, Retainer and Milestone |
 
 ## Defaulting and field visibility settings for quick create journal line
-The **Quick Create journal line** entry form is optimized to display fields that are relevant to the user, based on the transaction class and type. Additionally, defaulting logic has been applied to fields to ensure that journal lines can be created efficiently. All fields are available for modification on the detail page if necessary.
+The **Quick Create journal line** entry form is optimized to display fields that are relevant to the user, based on the **Transaction class** and **Transaction type**. Additionally, defaulting logic has been applied to fields to ensure that journal lines can be created efficiently. All fields are available for modification on the detail page if necessary.
 
 | Journal line field | Display on quick create |Default value|
 | --- | --- | --- |
