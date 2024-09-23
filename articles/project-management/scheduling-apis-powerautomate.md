@@ -159,7 +159,7 @@ Follow these steps to create a sample project.
         "@@odata.type": "Microsoft.Dynamics.CRM.msdyn_projectbucket",
         "msdyn_projectbucketid": "@{variables('project bucket id')}",
         "msdyn_name": "ScheduleAPIDemoBucket1",
-        "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})",
+        "msdyn_project@odata.bind": "/msdyn_projects(@{outputs('Create_Project')?['body/ProjectId']})"
     }
     ```
 
@@ -167,8 +167,8 @@ Follow these steps to create a sample project.
 
     - **\@\@odata.type** – The entity name. For example, enter **"Microsoft.Dynamics.CRM.msdyn\_projectbucket"**.
     - **msdyn\_projectbucketid** – The unique ID of the project bucket. The value should be set from the dynamic variable from [step 6](#6).
-    - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value is dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
     - **msdyn\_name** – the project bucket name.
+    - **msdyn\_project\@odata.bind** – The project ID of the owning project. The value is dynamic content that comes from the response of the "Create Project" step. Make sure that you enter the full path and add dynamic content between the parentheses. Quotation marks are required. For example, enter **"/msdyn\_projects(ADD DYNAMIC CONTENT)"**.
 
 7. For the **OperationSetId** field, select **msdyn\_CreateOperationSetV1Response OperationSetId** in the **Dynamic content** dialog box.
 
