@@ -17,7 +17,8 @@ _**Applies To:** Lite deployment - deal to proforma invoicing._
 This article provides an overview of the setup of the **Discount and Fee** feature in Microsoft Dynamics 365 Project Operations. In some cases, discounts might apply to the contracts that organizations enter into with customers. Alternatively, organizations might choose to charge extra fees, such as administrative fees. Project Operations lets you define discount percentages and fee percentages at the level of the project quotation or the contract line. When a transaction is generated and approved, the system applies the appropriate discount or fee, based on the contract line setup. It then updates the actuals accordingly. This feature is applicable to **Time and Material** business processes.
 
 > [!NOTE]
-> Discounts and fees are applicable only to **Time and Material** billing types.
+> **Discount and fee** are applicable only to **Time & Material** billing types.
+> Once the **Discount and fee** feature is enabled, it cannot be disabled because transactions may have been processed based on the applied discount or fee percentage.
 
 ## Prerequisites
 
