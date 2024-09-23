@@ -1484,6 +1484,8 @@
         href: actuals/create-confirm-entry-journals.md
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
+      - name: Use journal line improvements
+        href: actuals/journal-line-improvements.md
   - name: Proforma invoicing
     items:
     - name: Create proforma project invoices with Billing hub
