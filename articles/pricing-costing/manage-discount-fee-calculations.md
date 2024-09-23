@@ -34,10 +34,10 @@ To apply discounts and fees for project quotations, follow these steps.
 1. Go to **quote lines** tab and select **+ Add New Quote line** to create a new project quotation line.
 1. Provide **Name** and select **Billing method** as **Time and Material**. **Discount percentage** and **fee percentage** fields display on the form.
 1. Enter the **Quoted amount** manually or create quotation line details using **Quote Line Details** tab.
-1. Enter the **Discount percentage** or/and **Fee percentage**. **Discount amount**, **Fee amount** and **Extended amount** are calculated based upon the discount percentage and fee percentage. Select **Save and Close** to close the quotation line form.
+1. Enter the **Discount percentage** or/and **Fee percentage**. **Discount amount**, **Fee amount**, and **Extended amount** are calculated based upon the discount percentage and fee percentage. Select **Save and Close** to close the quotation line form.
 1. The **Profitability Analysis** and **Total Revenue** fields are updated to reflect the discount and fee amounts.
 
-For more information about **Project quotations**, see [Manage project quotes](../articles/pro/sales/manage-quotes-sales.md)
+For more information about **Project quotations**, see [Manage project quotes](../pro/sales/manage-quotes-sales.md)
 
 ## Project contract
 
@@ -56,16 +56,16 @@ To apply discounts and fees to project contracts, follow these steps.
 1. Enter the **Discount percentage** or/and **Fee percentage**. **Discount amount**, **Fee amount**, and **Extended amount** are calculated based upon the discount percentage and fee percentage. Select **Save and Close** to close the contract line form.
 1. The **Contract performance** and **Total Amount** fields are updated to reflect the discount and fee amounts.
 
-For more information about **Project contract**, see [Manage project contracts](../articles/pro/sales/manage-contracts-sales.md).
+For more information about **Project contract**, see [Manage project contracts](../pro/sales/manage-contracts-sales.md).
 
 ## Actuals
 
 **Actuals** capture the results of all transactions performed or generated in **Dynamics 365 Project Operations**. They can be created or updated through **Timesheets**, **Expenses**, **Material usage**, **Journals**, or **Project invoice** processes. When **Timesheets**, **Expenses**, or **Material usage** are approved, or **Journals** are confirmed for a contract with applicable discounts and/or fees associated, the system generates **Actuals** of the type **Unbilled Sales** and updates the **Discount** and **Fee** amounts accordingly. The **Extended amount** is also adjusted to account for the **Discount** and **Fee**. The discount amount is deducted, while the fee amount is added to the extended amount.
 
-For more information about **Actuals**, see [Actuals impact in a time and materials engagement](../articles/actuals/ActualsonTM.md).
+For more information about **Actuals**, see [Actuals impact in a time and materials engagement](../actuals/ActualsonTM.md).
 
 ## Project invoice
 
 A **Project invoice** is used to bill the customer and may include one or more invoice lines. When you create an invoice for **Time & Material** transactions, and **Unbilled sales transactions** with discounts and fees are selected, the system generates an invoice with lines that reflect the discount and fee amounts. The invoice lines include **separate fields** for the discount and fee amounts. If there are changes to the quantity using the **Invoice line details** option, the discount and fee amounts are adjusted accordingly. Once the invoice is **confirmed** by the project manager, the **Unbilled sales** actuals are **reversed** with **negative discount and fee amounts**, and new **Billed sales** actuals are generated, reflecting the updated discount and fee.
 
-For more information about **Project invoice**, see [Proforma project invoices](../articles/pro/proforma-invoicing/create-manual-proforma-invoice-sales.md).
+For more information about **Project invoice**, see [Proforma project invoices](../pro/proforma-invoicing/create-manual-proforma-invoice-sales.md).
