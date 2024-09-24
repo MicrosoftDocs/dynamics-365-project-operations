@@ -3,7 +3,7 @@ title: Journal line improvements
 description: This article provides information about journal lines improvement feature in Dynamics 365 Project Operations. It implements new business rules and validations to ensure accurate journal entries, while adjusting field visibility on the quick journal line creation form based on the transaction class and type.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 09/19/2024
+ms.date: 09/24/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -13,19 +13,19 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Lite deployment - deal to proforma invoicing_
 
-This feature helps prevent you from entering incorrect **journal line** entries by enforcing **business rules**. It introduces new **validations** and automatically fills in dependent values based on the **transaction class** and **type**. This feature aims to enhance the **Quick create form** on the journal lines by adding validations and default logic for fields, as well as improving the display of fields, ensuring users enter data correctly.
+This feature helps prevent you from entering incorrect **journal line** entries by enforcing **business rules**. It introduces new **validations** and automatically fills in dependent values based on the **transaction class** and **type**. This feature aims to enhance the **Quick create form** on the journal lines by adding validations and default logic for fields, and improving the display of fields, ensuring users enter data correctly.
 
 For more information about journals, refer [create-confirm-entry-journals](../articles/actuals/create-confirm-entry-journals.md).
 ## Prerequisites
 To use the **Journal line improvements** feature in Dynamics 365 Project Operations, enable the feature **Enable journal line improvements** feature within the system.
 
 ## Business rules validation
-**Business rules** have been implemented on the journal lines as part of this feature to ensure data accuracy and integrity. These **business rules** will be applied when creating or updating journal lines, whether through the **quick create journal line** form, **Excel import**, or any other method of journal line insertion or update. The following are the business rules:
+**Business rules** are implemented on the journal lines as part of this feature to ensure data accuracy and integrity. These **business rules** are applied when creating or updating journal lines, whether through the **quick create journal line** form, **Excel import**, or any other method of journal line insertion or update. The following are the business rules:
 
 | Billing method on contract line | Transaction type | Transaction classes allowed |Transaction classes not allowed |
  | --- | --- | --- | --- |
  | Fixed Price | Cost | Time, Expense, Material | Fee, Retainer, and Milestone |
- |  | Unbilled sales | Retainer | Time, Expense, Material, Fee and Milestone |
+ |  | Unbilled sales | Retainer | Time, Expense, Material, Fee, and Milestone |
  |  | Billed sales | Retainer and Milestone | Time, Expense, Material, and Fee |
  |  | Inter Org Sales | Time, Expense | Material, Fee, Retainer, and Milestone |
  |  | Resource unit cost | Time, Expense | Material, Fee, Retainer, and Milestone |
@@ -36,7 +36,7 @@ To use the **Journal line improvements** feature in Dynamics 365 Project Operati
  |  | Resource unit cost | Time, Expense | Material, Fee, Retainer, and Milestone |
 
 ## Defaulting and field visibility settings for quick create journal line
-The **Quick Create journal line** entry form is optimized to display fields that are relevant to the user, based on the **Transaction class** and **Transaction type**. Additionally, defaulting logic has been applied to fields to ensure that journal lines can be created efficiently. All fields are available for modification on the detail page if necessary.
+The **Quick Create journal line** entry form is optimized to display fields that are relevant to the user, based on the **Transaction class** and **Transaction type**. Additionally, defaulting logic is applied to fields to ensure that journal lines can be created efficiently. All fields are available for modification on the detail page if necessary.
 
 | Journal line field | Display on quick create |Default value|
 | --- | --- | --- |
