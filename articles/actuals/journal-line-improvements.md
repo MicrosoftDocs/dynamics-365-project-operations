@@ -15,7 +15,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing_
 
 The **Journal line improvements** feature enforces *business rules* to help prevent you from entering incorrect journal line entries. It also introduces new *validations* and automatically fills in dependent values, based on the transaction class and transaction type. The purpose of this feature is to enhance the **Quick create** dialog box for journal lines by adding validations and default logic for fields, and by improving the display of fields. In this way, it helps ensure that users enter data correctly.
 
-Learn more about journals in [Create and confirm Entry journals](../articles/actuals/create-confirm-entry-journals.md).
+Learn more about journals in [Create and confirm Entry journals](create-confirm-entry-journals.md).
 
 ## Prerequisites
 
