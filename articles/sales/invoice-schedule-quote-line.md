@@ -59,7 +59,7 @@ Open the Fixed price quote line where you need to create a milestone. On the **I
 | --- | --- | --- | --- |
 | Milestone name | Quick create | The name of the milestone. | This milestone is propagated to the project contract line milestone and to the invoice |
 | Project Task | Quick create | If the milestone is tied to project task, you can use this reference to add custom logic set the milestone status based on the task status. | The application doesn't have any downstream impact of this reference to a task. |
-| Milestone date | Quick create | Set the date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This is propagated to the project contract line milestone and to the invoice. |
+| Milestone date | Quick create | Set the date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This date is propagated to the project contract line milestone and to the invoice. |
 | Invoice status | Quick create | When a milestone is created, this status is always set to **Not ready for invoicing**. | This status is propagated to the project contract line milestone and to the invoice. |
 | Line Amount | Quick create | Amount or value of the milestone that is invoiced to the customer. | This amount is propagated to the project contract line milestone and to the invoice. |
 | Tax | Quick create | Tax amount that is applied to the milestone. | This tax is propagated to the project contract line milestone and to the invoice. |
