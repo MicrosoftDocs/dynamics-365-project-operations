@@ -21,7 +21,7 @@ This article explains how to subscribe to the trial offer and deploy Dynamics 36
 > This process will change in upcoming releases of Project Operations.
 
 ## Prerequisites
-- The user who deploys the preview must have Azure tenant global administrator rights. You can create a tenant during the first offer redemption.
+- The user who deploys the preview must have tenant administrator rights. You can create a tenant during the first offer redemption.
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
