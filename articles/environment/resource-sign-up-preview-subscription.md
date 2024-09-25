@@ -22,7 +22,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 This article explains how to subscribe to the trial offer and deploy Project Operations environment for resource/non-stocked based scenarios.
 
 ## Prerequisites
-- The user who deploys the preview must have Azure tenant global administrator rights. You can create a tenant during the first offer redemption. 
+- The user who deploys the preview must have tenant administrator rights. You can create a tenant during the first offer redemption. 
 - Deploying a Finance environment requires a valid Azure subscription that will be billed per environment. You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/free/) to get started. The CDS environment will be provided free for a limited 30 day period.
 
 > [!IMPORTANT]
