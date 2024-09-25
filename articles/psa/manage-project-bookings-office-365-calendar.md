@@ -45,7 +45,7 @@ View personal appointments, project-work bookings, and field service work order 
 ## Setup  
  Before you can see and manage your bookings on your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, you need to set a few things up.  
   
-- You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Global Administrator or System Administrator credentials.  
+- You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] System Administrator credentials.  
   
 - Your Admin will need to configure the email server profile and each user will need to configure their mailbox. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up email processing through server-side synchronization](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
