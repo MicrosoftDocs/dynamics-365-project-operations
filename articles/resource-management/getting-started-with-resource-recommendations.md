@@ -36,7 +36,10 @@ After you complete this procedure, the next step is to activate four dataflows a
 
 ## Have your system administrator activate dataflows 
 
-After you enable the resource recommendations feature, your system administrator must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows). Ensure that this system administrator has "Global Admin" rights. This mandatory, one-time step must be completed for every new environment where the feature is enabled. The four dataflows prepare the data infrastructure required to generate optimal recommendations for any new project team member.
+After you enable the resource recommendations feature, your system administrator must activate four [dataflows](/power-apps/maker/data-platform/create-and-use-dataflows). Ensure that this system administrator has Global Administrator rights. This mandatory, one-time step must be completed for every new environment where the feature is enabled. The four dataflows prepare the data infrastructure required to generate optimal recommendations for any new project team member.
+
+> [!IMPORTANT]
+> Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
 To activate the dataflows, have your system administrator follow these steps.
 
