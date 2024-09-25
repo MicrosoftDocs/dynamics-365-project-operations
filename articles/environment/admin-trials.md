@@ -53,7 +53,7 @@ The following table lists the trial details and how they apply to each deploymen
 The following prerequisites are required to deploy a trial of Dynamics 365 Project Operations.
 
 - Sign-up for the [Dynamics 365 Project Operations - Preview Trial](https://www.aka.ms/try-po).
-- The user who deploys the preview must have Azure tenant global administrator rights.
+- The user who deploys the preview must have tenant administrator rights.
 
 > [!IMPORTANT]
 > Only one person in an organization, the tenant administrator, needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
