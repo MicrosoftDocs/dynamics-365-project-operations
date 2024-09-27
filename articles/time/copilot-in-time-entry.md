@@ -73,7 +73,8 @@ Follow these steps to log time by using Copilot.
     Copilot responds with a confirmation that time entries are being created. It also prompts you to refresh the time entry grid to view the latest changes.
 
 1. Refresh the time entry grid.
-1. You can now make any necessary modifications to the draft time entries before you submit them for approval.
+1. Each of the newly created time entries will render along with a Copilot Sparkle icon to indicate that they have been created with the help of Copilot.
+1. You can then make any necessary modifications to the draft time entries before you submit them for approval. Any modifications made to time entry fields (including duration, external comments, task, etc) will make the Copilot Sparkle icon disappear to indicate that the entry has been modified by a person.
 
 > [!NOTE]
 > Copilot suggests time entries only for the current week, not for earlier weeks. We recommend that you use Copilot to finish logging time entries before the end of the week.
