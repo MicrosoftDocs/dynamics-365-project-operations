@@ -79,3 +79,11 @@ If you encounter an issue when you start the map, follow the instructions in the
 |Project Planning & Tracking|	3506993|	Schedule Variance not being recalculated after task Effort is adjusted using Task Grid|
 |Subcontracting|	3491867|	Subcontract Line Resource creation leads to script error|
 |Subcontracting|	3338245|	Posting vendor invoice fails when lines include Procurement category with category type Item |
+
+### Project management and accounting in Finance
+
+For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=952752&dbType=3&qc=3b907b83fa0fe10ada99211e89737ca71d07b749a67c0a42302cca6fa39b1a5a).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
