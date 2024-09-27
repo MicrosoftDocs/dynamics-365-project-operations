@@ -74,8 +74,9 @@ Follow these steps to log time by using Copilot.
     Copilot responds with a confirmation that time entries are being created. It also prompts you to refresh the time entry grid to view the latest changes.
 
 1. Refresh the time entry grid.
-1. Each of the newly created time entries will render along with a Copilot Sparkle icon to indicate that they have been created with the help of Copilot.
-1. You can then make any necessary modifications to the draft time entries before you submit them for approval. Any modifications made to time entry fields (including duration, external comments, task, etc) will make the Copilot Sparkle icon disappear to indicate that the entry has been modified by a person.
+1. Each of the newly created time entries will render along with a **Copilot Sparkle icon** to indicate that they have been created with the help of Copilot.
+1. You can then make any necessary modifications to the draft time entries before you submit them for approval. 
+1. Any modifications made to time entry fields (including duration, external comment, task, etc) will make the Copilot Sparkle icon disappear to indicate that the entry has been modified by a user.
 
 > [!NOTE]
 > Copilot suggests time entries only for the current week, not for earlier weeks. We recommend that you use Copilot to finish logging time entries before the end of the week.
@@ -98,6 +99,7 @@ Follow these steps to generate external comments by using Copilot.
 1. Open the **Time Entries** page.
 1. Begin a chat conversation by selecting the Copilot icon to expand the Copilot sidecar.
 1. In the chat window, enter _Generate comments_ or _Add external comments_. Then select the **Enter** key.
+1. A follow-up response then asks you to pick between "Current Week", "Previous Week" and "Next Week". Select "Current Week" to generate comments for the work week that you are currently in. 
 
     Copilot first responds, "Working on it," and begins to use details such as the **Project**, **Project Task**, **Role**, and **Duration** values of each time entry to generate a generic first draft of the external comments. It then responds with the generated external comments for each time entry. Each generated comment is shown as an editable text box and can immediately be modified.
 
@@ -106,11 +108,14 @@ Follow these steps to generate external comments by using Copilot.
     Copilot responds with a confirmation that comments are being saved for all time entries.
     
 1. Refresh the time entry grid to view the latest changes.
+1. All external comments that were generated without any modification by the user, will render along with a **Copilot Sparkle icon** to indicate that they have been generated entirely by Copilot.
+1. Time entries that have external comments generated entirely by Copilot, will be called out to Project Approvers on submission of the entry by using a new field called _"AI Generated Content"_.
 
 To view previously saved external comments, enter _View comments_ in the chat window. Copilot shows all previously saved comments. Notice that there's no Copilot icon for them. You can review, modify, and then save these comments in a similar way.
 
 > [!NOTE]
 > Copilot doesn't generate or overwrite any preexisting external comments that are linked to a time entry. Those comments are still shown, but the absence of a Copilot icon indicates that Copilot didn't generate them.
+> Time entries that have external comments generated entirely by Copilot will **continue to maintain the Sparkle icon** unless the user modifies the external comment manually.
 
 ## More resources
 
