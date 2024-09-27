@@ -25,8 +25,8 @@ The Copilot in time entry feature currently has two primary capabilities:
 
 ## Availability of Copilot in time entry feature
 
--**Preview:** Copilot in time entry is available as a preview feature for **environments hosted in the United States**, having a Project Operations version starting between _4.103.0.x_ (feature is not available before this version) and  _4.108.X.X_ (both included).
--**Generally Available:** The feature will be **ON by default in all regions** from Project Operations version _4.120.X.X_ onwards.
+- **Preview:** Copilot in time entry is available as a preview feature for **environments hosted in the United States**, having a Project Operations version starting between _4.103.0.x_ (feature is not available before this version) and  _4.108.X.X_ (both included).
+- **Generally Available:** The feature will be **ON by default in all regions** from Project Operations version _4.120.X.X_ onwards.
 
 Contact your tenant administrator to confirm that your environment meets these requirements. 
 
