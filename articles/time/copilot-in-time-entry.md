@@ -25,7 +25,7 @@ The Copilot in time entry feature currently has two primary capabilities:
 
 ## Availability of Copilot in time entry feature
 
-- Copilot in time entry is available as a preview feature for **environments hosted in the NAM Microsoft Azure region**, having a Project Operations version starting from _4.103.0.x_ (feature is not available before this version) and up to _4.108.X.X_.
+- Copilot in time entry is available as a preview feature for **environments hosted in United States**, having a Project Operations version starting from _4.103.0.x_ (feature is not available before this version) and up to _4.108.X.X_.
 - The feature will be **ON by default in all regions** from Project Operations version _4.120.X.X_ onwards.
 
 Contact your tenant administrator to confirm that your environment meets these requirements. 
