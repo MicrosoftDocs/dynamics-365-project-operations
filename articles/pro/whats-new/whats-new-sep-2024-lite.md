@@ -25,9 +25,9 @@ This article applies to the following components and versions of Microsoft Dynam
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
 | Billing & Pricing |**Discounts and Fee** <br><br> Define discount and fee percentages at the project quote or contract line level. When a transaction is generated and approved, the system applies the appropriate discount or fee based on the contract line setup and updates the actuals accordingly. This feature is applicable to Time and Material business processes.| [Manage Discounts and Fee](../../pricing-costing/manage-discount-fee-calculations.md)|
-| Billing & Pricing |**Role price override within Quote Line Detail form** <br><br> The Price Override button, integrated into the Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.| [New Quote Form Experience](../../sales/quotes-new-form.md)|
-| Billing & Pricing |**Journal line improvements** <br><br> This feature prevents creation of incorrect journal line entries by enforcing business rules. It introduces new validations and fills in dependent values automatically, based on the transaction class and transaction type. This feature aims to enhance the Quick Create form for journal lines by adding validations and defaulting logic for fields, as well as improving the display of fields.| [Journal line improvements](../../actuals/journal-line-improvements.md)|
-| Time Entry |**Copilot in time entry (Generally Available)** <br><br> Copilot in time entry, which was originally released in USA only - will now be enabled by default in all regions, from this release onwards. Use Copilot to create time entries from assignments and generate external comments.|[Copilot in time entry](../../time/copilot-in-time-entry.md) |
+| Billing & Pricing |**Role price override within Quote Line Detail form** <br><br> The Price Override button is integrated into the Quote Line form and facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.| [New Quote Form Experience](../../sales/quotes-new-form.md)|
+| Billing & Pricing |**Journal line improvements** <br><br> This feature prevents creation of incorrect journal line entries by enforcing business rules. It introduces new validations and fills in dependent values automatically, based on the transaction class and transaction type. This feature aims to enhance the **Quick create** form for journal lines by adding validations and defaulting logic for fields, and improves the display of fields.| [Journal line improvements](../../actuals/journal-line-improvements.md)|
+| Time Entry |**Copilot in time entry (Generally Available)** <br><br> Copilot in time entry, which was originally released in USA only, is now enabled by default in all regions from this release onwards. Use Copilot to create time entries from assignments and generate external comments.|[Copilot in time entry](../../time/copilot-in-time-entry.md) |
 
 
 ## Quality updates
@@ -38,7 +38,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | --- | --- | --- |
 |Billing and Pricing|	3546798|	A scope with nonmatching currency can be added to price overrides.|
 |Project Planning and Tracking|	3742761| Add work hour template to the list of restricted attributes when copying data from source project.|
-|Billing and Pricing|	3802977|	Hide the **Price Override** button for cost record.|
+|Billing and Pricing|	3802977|	Hide the **Price Override** button for a cost record.|
 |Billing and Pricing|	3883056|	Rounding precision isn't being honored with primary unit creating incorrect actuals.|
 |Project Budget Management|	3929679|	In Draft mode of budget grid, the Task field is showing tasks of ALL project not just the current project.|
 |Billing and Pricing|	3941977|	Can't deactivate a price list with overrides.|
