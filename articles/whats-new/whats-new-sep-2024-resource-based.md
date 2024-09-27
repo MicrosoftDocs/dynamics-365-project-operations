@@ -35,3 +35,10 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 
 ## Features included in this release
+
+| **Feature area** | **Feature name** | **More information** |
+| --- | --- | --- |
+| Billing & Pricing |**Discounts and Fee** <br><br> Define discount and fee percentages at the project quote or contract line level. When a transaction is generated and approved, the system applies the appropriate discount or fee based on the contract line setup and updates the actuals accordingly. This feature is applicable to Time and Material business processes.| |
+| Billing & Pricing |**Role price override within Quote Line Detail form** <br><br> The Price Override button, integrated into the Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.| |
+| Billing & Pricing |**Journal line improvements** <br><br> This feature prevents creation of incorrect journal line entries by enforcing business rules. It introduces new validations and fills in dependent values automatically, based on the transaction class and transaction type. This feature aims to enhance the Quick Create form for journal lines by adding validations and defaulting logic for fields, as well as improving the display of fields.| |
+| Time Entry |**Copilot in time entry (Generally Available)** <br><br> Copilot in time entry, which was originally released in USA only - will now be enabled by default in all regions, from this release onwards. Use Copilot to create time entries from assignments and generate external comments.| |
