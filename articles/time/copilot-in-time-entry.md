@@ -65,6 +65,7 @@ Follow these steps to log time by using Copilot.
 1. Open the **Time Entries** page.
 1. Begin a chat conversation by selecting the Copilot icon to expand the Copilot sidecar.
 1. In the chat window, enter _Log my time_ or _Create time entries_. Then select the **Enter** key.
+1. A follow-up response then asks you to pick between "Current Week", "Previous Week" and "Next Week". Select "Current Week" to log time for the work week that you are currently in. 
 
     Copilot responds, "Working on it," and begins to scan your project assignments. It then responds with the suggested time entries for the current week. (It first removes any duplicate entries.) [Learn more about how to create resource assignments.](../project-management/create-assignments.md)
 
