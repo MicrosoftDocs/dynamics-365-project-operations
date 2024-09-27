@@ -1,5 +1,5 @@
 ---
-title: Use Copilot in time entry (preview)
+title: Use Copilot in time entry
 description: This article explains how team members can use Copilot in time entry to complete their time entry each week.
 author: mohitmenon
 ms.date: 04/24/2024
@@ -10,34 +10,38 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Use Copilot in time entry (preview)
+# Use Copilot in time entry
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-
-Copilot in time entry is designed to simplify the time entry experience and make it less time consuming by significantly reducing the number of pages that project team members must open. The time that the feature helps save can instead be used for high-leverage tasks.
+Copilot in time entry is designed to simplify the time entry experience and make it less time consuming. This is done by significantly reducing the number of pages that project team members must open. The time that this feature saves can instead be used for high-leverage tasks.
 
 The Copilot in time entry feature currently has two primary capabilities:
 
 - Log time.
 - Generate external comments.
 
-## Enable or disable the Copilot in time entry feature
+## Availability of Copilot in time entry feature
 
-The Copilot in time entry feature is currently in preview and **can be accessed only in environments that are hosted in the NAM Microsoft Azure region**. Before you try to access this feature, contact your tenant administrator to confirm that your environment meets this requirement.
+- **Preview:** Copilot in time entry is available as a preview feature for **environments hosted in the United States**, having a Project Operations version between _4.103.0.x_ (feature isn't available before this version) and  _4.108.X.X_ (both included).
+- **Generally Available:** The feature is **ON by default in all regions** from Project Operations version _4.120.X.X_ onwards.
+
+Contact your tenant administrator to confirm that your environment meets these requirements. 
+
+## Enable or disable the Copilot in time entry feature
 
 To enable Copilot in time entry, follow these steps.
 
+1. Ensure that you meet the availability criteria to use this feature (see previous section).
 1. Sign in to Dynamics 365 Project Operations.
-1. Ensure that you're using Project Operations version _4.103.0.X_ or later. This feature isn't available for earlier versions.
 1. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
 1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
 1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
 1. Select **Enable Copilot in time entry**, and then select **OK**.
+1. If instead you see the text **Disable Copilot in time entry**, it implies that the feature is already enabled.
 
 > [!NOTE]
 > To disable Copilot in time entry, follow the same steps, but select **Disable Copilot in time entry** in step 7.
@@ -59,8 +63,9 @@ Based on a user's existing project task assignments for the current week, this c
 Follow these steps to log time by using Copilot.
 
 1. Open the **Time Entries** page.
-1. Begin a chat conversation by selecting the Copilot icon to expand the Copilot sidecar.
+1. To begin a chat conversation, select the Copilot icon and expand the Copilot sidecar.
 1. In the chat window, enter _Log my time_ or _Create time entries_. Then select the **Enter** key.
+1. A follow-up response then asks you to pick between **Current week**, **Previous week**, and **Next week**. Select **Current week** to log time for the work week that you're currently in. 
 
     Copilot responds, "Working on it," and begins to scan your project assignments. It then responds with the suggested time entries for the current week. (It first removes any duplicate entries.) [Learn more about how to create resource assignments.](../project-management/create-assignments.md)
 
@@ -69,7 +74,9 @@ Follow these steps to log time by using Copilot.
     Copilot responds with a confirmation that time entries are being created. It also prompts you to refresh the time entry grid to view the latest changes.
 
 1. Refresh the time entry grid.
-1. You can now make any necessary modifications to the draft time entries before you submit them for approval.
+1. Each of the newly created time entries render along with a **Copilot Sparkle icon** to indicate that they were created with the help of Copilot.
+1. You can then make any necessary modifications to the draft time entries before you submit them for approval. 
+1. Any modifications made to time entry fields (including duration, external comment, task, etc.) make the Copilot Sparkle icon disappear to indicate that the entry has been modified by a user.
 
 > [!NOTE]
 > Copilot suggests time entries only for the current week, not for earlier weeks. We recommend that you use Copilot to finish logging time entries before the end of the week.
@@ -90,8 +97,9 @@ Copilot helps simplify this process in two ways:
 Follow these steps to generate external comments by using Copilot.
 
 1. Open the **Time Entries** page.
-1. Begin a chat conversation by selecting the Copilot icon to expand the Copilot sidecar.
+1. To begin a chat conversation, select the Copilot icon and expand the Copilot sidecar.
 1. In the chat window, enter _Generate comments_ or _Add external comments_. Then select the **Enter** key.
+1. A follow-up response then asks you to pick between **Current week**, **Previous week**, and **Next week**. Select **Current week** to generate comments for the work week that you're currently in. 
 
     Copilot first responds, "Working on it," and begins to use details such as the **Project**, **Project Task**, **Role**, and **Duration** values of each time entry to generate a generic first draft of the external comments. It then responds with the generated external comments for each time entry. Each generated comment is shown as an editable text box and can immediately be modified.
 
@@ -100,11 +108,14 @@ Follow these steps to generate external comments by using Copilot.
     Copilot responds with a confirmation that comments are being saved for all time entries.
     
 1. Refresh the time entry grid to view the latest changes.
+1. All external comments that were generated without any modification by the user, render along with a **Copilot Sparkle icon** to indicate that were generated entirely by Copilot.
+1. Time entries that have external comments generated entirely by Copilot, will be called out to Project Approvers on submission of the entry by using a new field called _"AI Generated Content"_.
 
 To view previously saved external comments, enter _View comments_ in the chat window. Copilot shows all previously saved comments. Notice that there's no Copilot icon for them. You can review, modify, and then save these comments in a similar way.
 
 > [!NOTE]
 > Copilot doesn't generate or overwrite any preexisting external comments that are linked to a time entry. Those comments are still shown, but the absence of a Copilot icon indicates that Copilot didn't generate them.
+> Time entries that have external comments generated entirely by Copilot will **continue to maintain the Sparkle icon** unless the user modifies the external comment manually. The icon will disappear after manually modifying the external comment.
 
 ## More resources
 
