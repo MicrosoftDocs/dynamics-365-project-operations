@@ -39,7 +39,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
 | Billing & Pricing |**Role price override within Quote Line Detail form** <br><br> The Price Override button, integrated into the Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.| [New Quote Form Experience](../sales/quotes-new-form.md)|
-| Time Entry |**Copilot in time entry (Generally Available)** <br><br> Copilot in time entry, which was originally released in USA only - will now be enabled by default in all regions, from this release onwards. Use Copilot to create time entries from assignments and generate external comments.|[Copilot in time entry](../actuals/time/copilot-in-time-entry.md) |
+| Time Entry |**Copilot in time entry (Generally Available)** <br><br> Copilot in time entry, which was originally released in USA only - will now be enabled by default in all regions, from this release onwards. Use Copilot to create time entries from assignments and generate external comments.|[Copilot in time entry](../time/copilot-in-time-entry.md) |
 
 ## Quality updates
 
