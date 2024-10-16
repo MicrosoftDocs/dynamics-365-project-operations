@@ -4,7 +4,7 @@ description: This article provides information about quality updates that are av
 author: mohitmenon
 ms.custom:
   - evergreen
-ms.date: 09/27/2024
+ms.date: 10/16/2024
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
@@ -36,35 +36,35 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing & Pricing|	4377398|	During Project copy, estimates aren't getting copied completely in Lite org.|
-|Resource Management|	4343128|	Fix Invalid XML and Null Reference errors when booking from the Schedule Board.|
+|Billing & Pricing|	4377398|	During project copy, estimates aren't getting copied completely in Lite org.|
+|Resource Management|	4343128|	Fix invalid XML and null reference errors when booking from the Schedule Board.|
 |Project Planning & Tracking|	4337938|	PSA Upgrade: Dynamics365ProjectOperationsDualWrite and Dynamics365ProjectOperationsDualWriteEntityMaps shouldn't be imported during upgrade from PSA to PO.|
-|Project Estimates|	4326097|	Not able to create estimates with the future dates when Modern Estimates Feature is enabled.|
-|Resource Management|	4323126|	Update to use right version of UnifiedResourceScheduling in PSCore.|
-|Billing & Pricing|	4320628|	Can't open Add to Invoice dialog.|
+|Project Estimates|	4326097|	Unable to create estimates with the future dates when the **Modern Estimates** feature is enabled.|
+|Resource Management|	4323126|	Update to use correct version of UnifiedResourceScheduling in PSCore.|
+|Billing & Pricing|	4320628|	Can't open the **Add to Invoice** dialog.|
 |Project Estimates|	4318730|	Legacy estimates grid doesn't load.|
 |Sales|	4316856|	Should allow relinking project/task to contract line and block other changes to contract line during reevaluation.|
 |Approvals|	4314519|	Unable to delete an ILD on a draft invoice.|
 |Subcontracting|	4305864|	On creation of subcontracting line resource, restriction on msdyn_name char count>100 throwing error.|
 |Sales|	4294310|	Price override through QLD shows incorrect currency in quick create form.|
-|Approvals|	4260445|	Editing Project approval billing type alters journal line transaction date.|
-|Billing & Pricing|	4259028|	Fallback when User Settings are unavailable in ProjectOperationsDualWrite.|
-|Billing & Pricing|	4232463|	Product-based lines are included on invoices for ALL customers in multiple customer scenario and resulting in multiple billings of the same product, etc.|
-|Sales|	4221302|	Allow Multiple Executions for Contract Confirmation.|
-|Time Entry|	4220455|	Time Entries split incorrectly when the days overlap while importing Resource bookings.|
-|Approvals|	4132742|	Project Approver Admin Role doesn't work when assigned through a team role.|
-|Project Estimates|	4097344|	SQL timeout displaying in Estimates Tab.|
-|Project Planning & Tracking|	4086054|	Prevent Update to Project Locked Fields if Project has Tasks from backend.|
-|Project Planning & Tracking|	3859423|	Copy Project: Telemetry and error improvements to make troubleshooting easier customers.|
-|Deployment & Configuration|	3842801|	Improve error messaging for post import during Upgrades or Installations.|
+|Approvals|	4260445|	Editing project approval billing type alters journal line transaction date.|
+|Billing & Pricing|	4259028|	Fallback when user settings are unavailable in ProjectOperationsDualWrite.|
+|Billing & Pricing|	4232463|	Product-based lines are included on invoices for all customers in multiple customer scenarios, resulting in multiple billings of the same product.|
+|Sales|	4221302|	Allow multiple executions for contract confirmation.|
+|Time Entry|	4220455|	Time entries split incorrectly when the days overlap while importing resource bookings.|
+|Approvals|	4132742|	Project approver administrator role doesn't work when assigned through a team role.|
+|Project Estimates|	4097344|	SQL timeout displaying on **Estimates** tab.|
+|Project Planning & Tracking|	4086054|	Prevent update to a project's locked fields if the project has tasks from the backend.|
+|Project Planning & Tracking|	3859423|	Copy project: Telemetry and error improvements to make troubleshooting easier customers.|
+|Deployment & Configuration|	3842801|	Improve error messaging for post import during upgrades or installations.|
 |Project Planning & Tracking|	3831591|	Recalled time entry doesn't update in WBS with on-demand update.|
 |Approvals|	3801469|	Project approval billing type is only set with linked contract line.|
-|Project Estimates|	3770326|	Estimated Expense Cost (msdyn_plannedexpensecost) goes negative when changing task duration.|
+|Project Estimates|	3770326|	Estimated expense cost (msdyn_plannedexpensecost) goes negative when changing task duration.|
 |Project Planning & Tracking|	3736776|	Updating project start shouldn't open project session if there isn't an open session.|
 |Sales|	3679212|	Contract line details can be added or updated on a confirmed contract.|
-|Approvals|	3521008|	Correction Journals ignore new expense category on integrated orgs.|
-|Project Planning & Tracking|	3506993|	Schedule Variance not being recalculated after task Effort is adjusted using Task Grid.|
-|Subcontracting|	3491867|	Subcontract Line Resource creation leads to script error.|
-|Subcontracting|	3338245|	Posting vendor invoice fails when lines include Procurement category with category type Item. |
+|Approvals|	3521008|	Correction journals ignore new expense category on integrated orgs.|
+|Project Planning & Tracking|	3506993|	Schedule variance not being recalculated after task effort is adjusted using the task grid.|
+|Subcontracting|	3491867|	Subcontract line resource creation leads to script error.|
+|Subcontracting|	3338245|	Posting vendor invoice fails when lines include the **Procurement** category with category type **Item**. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
