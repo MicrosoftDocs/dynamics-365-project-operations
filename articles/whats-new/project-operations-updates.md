@@ -47,31 +47,31 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current version number | Auto updates start for Lite or Resource/non-stocked deployments * | Next version number | Next version number available for self-update | Auto updates start for Next version |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | September 27, 2024          | October 4, 2024   |
+|   &nbsp;  | First Release         |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024          | October 29, 2024   |
 | Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.108.0.53     | September 2, 2024   | 4.120.0.x   | October 4, 2024          | October 11, 2024   |
-|   &nbsp;  | Canada                |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | October 4, 2024          | October 11, 2024   |
-|   &nbsp;  | India                 |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | October 4, 2024          | October 11, 2024   |
-|   &nbsp;  | France                |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | October 4, 2024         | October 11, 2024   |
-|   &nbsp;  | South Africa          |  4.108.0.53     | September 2, 2024   | 4.120.0.x   | October 4, 2024          | October 11, 2024   |
-|   &nbsp;  | Switzerland           |  4.108.0.53     | September 2, 2024   | 4.120.0.x    | October 4, 2024          | October 11, 2024   |
+|   &nbsp;  | South America         |  4.120.0.106     | October 11, 2024   | 4.121.0.x   | October 25, 2024          | October 29, 2024   |
+|   &nbsp;  | Canada                |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024          | October 29, 2024   |
+|   &nbsp;  | India                 |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024          | October 29, 2024   |
+|   &nbsp;  | France                |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024         | October 29, 2024   |
+|   &nbsp;  | South Africa          |  4.120.0.106     | October 11, 2024   | 4.121.0.x   | October 25, 2024          | October 29, 2024   |
+|   &nbsp;  | Switzerland           |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024          | October 29, 2024   |
 | Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024         | October 18, 2024   |
-|   &nbsp;  | Asia Pacific          |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024          | October 18, 2024   |
-|   &nbsp;  | Great Britain         |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024          | October 18, 2024   |
-|   &nbsp;  | Oceania               |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024          | October 18, 2024    |
-|   &nbsp;  | United Arab Emirates  |  4.108.0.53     | September 6, 2024   | 4.120.0.x    | October 11, 2024          | October 18, 2024   |
+|   &nbsp;  | Japan                 |  4.120.0.53     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024   |
+|   &nbsp;  | Asia Pacific          |  4.120.0.53     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024   |
+|   &nbsp;  | Great Britain         |  4.120.0.53     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024   |
+|   &nbsp;  | Oceania               |  4.120.0.53     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024    |
+|   &nbsp;  | United Arab Emirates  |  4.120.0.53     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024   |
 | Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.108.0.53     | September 09, 2024   | 4.120.0.x    | October 18, 2024          | October 25, 2024    |
+|   &nbsp;  | Europe                |  4.108.0.53     | September 09, 2024   | 4.120.0.x    | October 04, 2024          | October 29, 2024    |
 | Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.108.0.53     | September 12, 2024  | 4.120.0.x   | October 25, 2024          | November 1, 2024    |
+|   &nbsp;  | North America         |  4.108.0.53     | September 12, 2024  | 4.120.0.x   | October 04, 2024          | October 29, 2024    |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the previous table. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
 If auto update is unable to complete, update of your environment on the date defined in the previous table. It will try again the next day for up to a week during the defined maintenance window for your environment
 
 > [!NOTE]
-> Hotfix version **4.106.0.88** is available for versions **4.106.0.25** and **4.106.0.58**. Customers are encouraged to initiate a self-upgrade to address any issues encountered with the earlier version.
+> Hotfix Version **4.120.0.164** is available for versions **4.120.0.106**. Customers are encouraged to initiate a self-upgrade to address any issues encountered with the earlier versions.
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
