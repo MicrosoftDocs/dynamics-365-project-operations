@@ -65,6 +65,18 @@ This feature also removes step 2 from the process flow that was described earlie
 > [!NOTE] 
 > Even if this feature is disabled, you can still select multiple records for adjustment. However, only one record will *remain selected*, and the **Select transactions** dialog box will appear immediately after you select to open adjustments.
 
+## Adjusting dates
+
+When performing an adjustment, you will be prompted for **adjustment date**. This date will represent the ledger date or voucher date which can impact the financial date of the transaction. The **adjustment date** will default to the current date. In some cases you will need to adjust the date when the transaction took place, which is often represented as the **project date**. When adjusting a transaction, it will assume that you are only adjusting the ledger date, and that no edits to the **project date** are necessary. 
+
+A new feature that was introduced in the 10.0.42 release enables the ability to edit the **project date** or default from the **adjustment date**. This is especially useful in the case of timesheets where time was logged for the wrong day, and it wasn't caught before approval and posting. 
+
+In the **Feature management** workspace, the **Enable editing of project date for project adjustments** feature can be enabled to allow for edits to **project date**. 
+
+When the **Adjust transactions** form opens, a new default values toggle is available to **Set project date from adjustment date**. When this option is selected, the **project date** will default from the **adjustment date** provided. 
+
+In the **Adjustments** form, the bottom grid where edits can be made will also now let you make manual changes to the **Project date** where previously it was ready only. 
+
 ## Adjustment transaction statuses that can be enabled or disabled for adjustments
 
 The following statuses can be enabled or disabled on the **General** tab of the **Project management and accounting parameters** page:
