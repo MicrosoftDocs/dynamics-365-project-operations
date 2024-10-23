@@ -3,7 +3,7 @@ title: Project adjustments
 description: This article provides information about project adjustments.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 05/24/2024
+ms.date: 10/24/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
