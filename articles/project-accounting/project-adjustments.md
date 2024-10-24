@@ -69,7 +69,7 @@ This feature also removes step 2 from the process flow that was described earlie
 
 When performing an adjustment, you're prompted for an **adjustment date**. This date represents the ledger date or voucher date that can impact the financial date of the transaction. The **adjustment date** defaults to the current date. In some cases, you need to adjust the date when the transaction took place, which is often represented as the **project date**. When you adjust a transaction, the system assumes that you're only adjusting the ledger date and that no edits to the **project date** are necessary. 
 
-A new feature introduced in the 10.0.42 release enables the ability to edit the **project date** or default from the **adjustment date**. This feature is especially useful with timesheets when the time is logged for the wrong day and the error isn't caught before approval and posting. 
+A new feature introduced in the 10.0.42 release enables the ability to edit the **project date** or default from the **adjustment date**. This feature is especially useful with timesheets when you log time for the wrong day and don’t catch the error before approval and posting. 
 
 In the **Feature management** workspace, the **Enable editing of project date for project adjustments** feature can be enabled to allow for edits to **project date**. 
 
