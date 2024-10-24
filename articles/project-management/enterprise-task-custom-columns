@@ -1,1 +1,28 @@
+---
+# required metadata
 
+title: Adding custom columns to the grid view 
+description: This article provides information about how to add a custom column to the grid view in the tasks tab of a project.
+author: abriccetti
+ms.author: abriccetti
+ms.date: 10/24/2024
+ms.topic: overview
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
+---
+
+# Adding custom columns to the grid view
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+There is a default set of cloumns available in Microsoft Project for the web which provide all the relevant data for task scheduling. In addition to these default columns, users are able to add additional columnds from the Project tasks table in Dataverse to the grid view.
+
+## Adding a new column
+
+
+
+## Supported column types
+
+The following types of columns are supported
