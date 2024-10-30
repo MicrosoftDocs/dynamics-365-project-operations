@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 10/22/2024
+ms.date: 10/30/2024
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
@@ -74,6 +74,6 @@ If auto update is unable to complete, update of your environment on the date def
 
 ## Release schedule for Project management and accounting in the finance and operations apps environment
 
-Refer to the [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) for the release schedule for Project management and accounting in the finance and operations apps environment. 
+See the [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json) for the Project management and accounting in the finance and operations apps environment release schedule. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
