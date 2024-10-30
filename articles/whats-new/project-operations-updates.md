@@ -44,27 +44,26 @@ For Project Operations Resource/non-stocked scenario, we recommend that you use 
 
 Updates for Project Operations on Dataverse environment are available monthly. 
 
-| Station | Region | Current version number | Auto updates start for Lite or Resource/non-stocked deployments * | Next version number | Next version number available for self-update | Auto updates start for Next version |
-|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
-| Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024          | October 29, 2024   |
-| Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.120.0.106     | October 11, 2024   | 4.121.0.x   | October 25, 2024          | October 29, 2024   |
-|   &nbsp;  | Canada                |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024          | October 29, 2024   |
-|   &nbsp;  | India                 |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024          | October 29, 2024   |
-|   &nbsp;  | France                |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024         | October 29, 2024   |
-|   &nbsp;  | South Africa          |  4.120.0.106     | October 11, 2024   | 4.121.0.x   | October 25, 2024          | October 29, 2024   |
-|   &nbsp;  | Switzerland           |  4.120.0.106     | October 11, 2024   | 4.121.0.x    | October 25, 2024          | October 29, 2024   |
-| Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.120.0.106     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024   |
-|   &nbsp;  | Asia Pacific          |  4.120.0.106     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024   |
-|   &nbsp;  | Great Britain         |  4.120.0.106     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024   |
-|   &nbsp;  | Oceania               |  4.120.0.106     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024    |
-|   &nbsp;  | United Arab Emirates  |  4.120.0.106     | November 06, 2024   | 4.121.0.x    | October 29, 2024          | November 06, 2024   |
-| Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.108.0.53     | September 09, 2024   | 4.120.0.x    | October 04, 2024          | October 29, 2024    |
-| Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.108.0.53     | September 12, 2024  | 4.120.0.x   | October 04, 2024          | October 29, 2024    |
+| Station | Region | Current Version Number | Auto Updates Start Date for Lite or Resource/Non-Stocked Deployments * | Next Version Number | Next Version Number Available For Self Update | Auto Updates Start For Next Version |
+|-----------|-----------------------|------------------|---------------------|---------------------|---------------------|---------------------|
+| Station 1 |   &nbsp;              |    &nbsp;        | &nbsp;              |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | First Release         |  4.120.0.106     | October 11, 2024    | 4.121.0.50          | October 31, 2024    | November 07, 2024   |
+| Station 2 |   &nbsp;              |    &nbsp;        | &nbsp;              |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Canada                |  4.120.0.106     | October 11, 2024    | 4.121.0.50          | October 31, 2024    | November 07, 2024   |
+|   &nbsp;  | India                 |  4.120.0.106     | October 11, 2024    | 4.121.0.50          | October 31, 2024    | November 07, 2024   |
+|   &nbsp;  | France                |  4.120.0.106     | October 11, 2024    | 4.121.0.50          | October 31, 2024    | November 07, 2024   |
+|   &nbsp;  | South Africa          |  4.120.0.106     | October 11, 2024    | 4.121.0.50          | October 31, 2024    | November 07, 2024   |
+|   &nbsp;  | Switzerland           |  4.120.0.106     | October 11, 2024    | 4.121.0.50          | October 31, 2024    | November 07, 2024   |
+| Station 3 |      &nbsp;           |     &nbsp;       |     &nbsp;          |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Japan                 |  4.120.0.106     | November 06, 2024   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
+|   &nbsp;  | Asia Pacific          |  4.120.0.106     | November 06, 2024   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
+|   &nbsp;  | Great Britain         |  4.120.0.106     | November 06, 2024   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
+|   &nbsp;  | Oceania               |  4.120.0.106     | November 06, 2024   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
+|   &nbsp;  | United Arab Emirates  |  4.120.0.106     | November 06, 2024   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
+| Station 4 |     &nbsp;            |     &nbsp;       |     &nbsp;          |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | Europe                |  4.108.0.53      | September 09, 2024  | 4.120.0.50          | November 07, 2024   | November 14, 2024   |
+| Station 5 |     &nbsp;            |     &nbsp;       |     &nbsp;          |      &nbsp;         |      &nbsp;         |      &nbsp;         |
+|   &nbsp;  | North America         |  4.108.0.53      | September 12, 2024  | 4.120.0.50          | November 08, 2024   | November 15, 2024   |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the previous table. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
