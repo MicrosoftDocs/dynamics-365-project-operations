@@ -55,15 +55,15 @@ Updates for Project Operations on Dataverse environment are available monthly.
 |   &nbsp;  | South Africa          |  4.120.0.106     | October 11, 2024    | 4.121.0.50          | October 31, 2024    | November 07, 2024   |
 |   &nbsp;  | Switzerland           |  4.120.0.106     | October 11, 2024    | 4.121.0.50          | October 31, 2024    | November 07, 2024   |
 | Station 3 |      &nbsp;           |     &nbsp;       |     &nbsp;          |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
-|   &nbsp;  | Asia Pacific          |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
-|   &nbsp;  | Great Britain         |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
-|   &nbsp;  | Oceania               |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
-|   &nbsp;  | United Arab Emirates  |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
+|   &nbsp;  | Japan                 |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 15, 2024   |
+|   &nbsp;  | Asia Pacific          |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 15, 2024   |
+|   &nbsp;  | Great Britain         |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 15, 2024   |
+|   &nbsp;  | Oceania               |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 15, 2024   |
+|   &nbsp;  | United Arab Emirates  |  4.120.0.106     | -                   | 4.121.0.50          | November 07, 2024   | November 15, 2024   |
 | Station 4 |     &nbsp;            |     &nbsp;       |     &nbsp;          |      &nbsp;         |      &nbsp;         |      &nbsp;         |
 |   &nbsp;  | Europe                |  4.120.0.164     | October 30, 2024    | 4.121.0.50          | November 07, 2024   | November 14, 2024   |
 | Station 5 |     &nbsp;            |     &nbsp;       |     &nbsp;          |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.120.0.164     | October 30, 2024    | 4.121.0.50          | November 08, 2024   | November 15, 2024   |
+|   &nbsp;  | North America         |  4.120.0.164     | October 30, 2024    | 4.121.0.50          | November 11, 2024   | November 15, 2024   |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the previous table. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
