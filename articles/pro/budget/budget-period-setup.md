@@ -27,7 +27,7 @@ A budget period defines a week, month, quarter, and fiscal periods in your organ
 
 For example, in some countries/regions, the fiscal year and quarter 1 begin on April 1. In other countries/regions, they begin on January 1. The work week might begin on Monday or Sunday.
 
-A budget period that's set up at the organization level is available for consumption at the project level. However, a project manager can override the organization-level budget period configuration at the project level to meet the requirements of a specific project.
+A budget period set up at the organization level is available for consumption at the project level. However, a project manager can override the organization-level budget period configuration at the project level to meet the requirements of a specific project.
 
 ## Set up a budget period at the organization level
 
