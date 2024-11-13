@@ -2,7 +2,7 @@
 title: Set up a budget period
 description: This article explains how to set up a budget period at the organization level and at the project level. A budget period is a prerequisite for time phasing.
 author: niranjanmaski
-ms.date: 06/24/2024
+ms.date: 11/12/2024
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -48,6 +48,8 @@ The following table describes the fields that are available.
 |---|---|---|---|
 | Name | Optional | Enter a name of your choice to identify the budget period. | |
 | Fiscal start | Mandatory | <p>Specify the month when the fiscal year begins. This month is also considered the start of quarter 1 for the budget period.</p><p>For example, if the fiscal start is January, quarter 1 is January through March.</p> | Updates to this field cause the budget period details to be deleted and re-created. |
+| Interval | Mandatory | <p>Specify the interval of default budget period config for the organization unit. You can choose from options - Weekly, Monthly, Quarterly, Yearly.</p> | Updates to this field cause the budget period details to be deleted and re-created. |
+| Interval Start | Mandatory | <p>If the chosen Interval is Monthly specify when do you want to consider the Month start date, is it the first day of work week or first calender day of the month.</p> | Updates to this field cause the budget period details to be deleted and re-created. |
 | Week starts on | Mandatory | <p>Specify the day of the week when the work week begins. The first occurrence of the specified weekday during a month is considered the start of that month.</p><p>For example, if the **Week starts on** field is set to **Monday**, the first Monday of a month is considered the start of that month for period calculation.</p> | Updates to this field cause the budget period details to be deleted and re-created. |
 | Start year | Mandatory | <p>Specify the calendar year that budget period creation begins from.</p><p>For example, if the **Start year** field is set to **2023**, the budget period begins in 2023, in the month that's specified in the **Start month** field.</p> | Updates to this field extend the budget period details. |
 | Start month | Mandatory | <p>Specify the month of the calendar year that budget period creation begins from.</p><p>For example, if the **Start year** field is set to **2023**, and the **Start month** field is set to **July**, the budget period begins July 2023.</p> | Updates to this field extend the budget period details. |
@@ -78,6 +80,8 @@ You can edit the budget period configuration at the project level to meet your s
 |---|---|---|---|
 | Name | Optional | Enter a name of your choice to identify the budget period. | |
 | Fiscal start | Mandatory | <p>Specify the month when the fiscal year begins. This month is also considered the start of quarter 1 for the budget period.</p><p>For example, if the fiscal start is January, quarter 1 is January through March.</p> | Updates to this field cause the budget period details to be deleted and re-created. |
+| Interval | Mandatory | <p>Specify the interval of default budget period config for the organization unit. You can choose from options - Weekly, Monthly, Quarterly, Yearly.</p> | Updates to this field cause the budget period details to be deleted and re-created. |
+| Interval Start | Mandatory | <p>If the chosen Interval is Monthly specify when do you want to consider the Month start date, is it the first day of work week or first calender day of the month.</p> | Updates to this field cause the budget period details to be deleted and re-created. |
 | Week starts on | Mandatory | <p>Specify the day of the week when the work week begins. The first occurrence of the specified weekday during a month is considered the start of that month.</p><p>For example, if the **Week starts on** field is set to **Monday**, the first Monday of a month is considered the start of that month for period calculation.</p> | Updates to this field cause the budget period details to be deleted and re-created. |
 | Start year | Mandatory | <p>Specify the calendar year that budget period creation begins from.</p><p>For example, if the **Start year** field is set to **2023**, the budget period begins in 2023, in the month that's specified in the **Start month** field.</p> | Updates to this field extend the budget period details. |
 | Start month | Mandatory | <p>Specify the month of the calendar year that budget period creation begins from.</p><p>For example, if the **Start year** field is set to **2023**, and the **Start month** field is set to **July**, the budget period begins July 2023.</p> | Updates to this field extend the budget period details. |
@@ -100,6 +104,9 @@ Depending on your updates, the budget period detail line is extended, or it's de
 
 > [!NOTE]
 > If a project has an approved budget, and a budget line is already time-phased, you can only extend the budget period's end date. You can't change any other fields for the project. This limitation helps protect the budget period detail lines that have been created. The only way to update the budget period configuration is to create a copy of the project, and then create a new budget and budget period.
+
+> [!NOTE]
+> Budget period Interval can be changed only when the budget is in Draft or editable state. Revise the budget, if you wish to update the budget period interval between Weekly, Monthly, Quarterly and Yearly. You can make the necessary changes in interval in draft budget version.
 
 ## Delete a budget period at the project level
 
