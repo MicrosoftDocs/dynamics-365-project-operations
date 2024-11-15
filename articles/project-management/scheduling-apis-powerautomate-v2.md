@@ -194,7 +194,7 @@ Follow these steps to create a sample project.
 
 ## <a id="12"></a>Step 12: Add a task to the array
 
-1. In the flow, select **New step**.
+1. In the flow, select **Add an action**.
 2. In the **Choose an operation** dialog box, in the search field, enter **Append to array**.
 3. In the step, select the ellipsis (**&hellip;**), and then select **Rename**.
 4. Rename the step **Add Task to Array**.
@@ -249,7 +249,7 @@ Follow these steps to create a sample project.
 
 ## <a id="14"></a>Step 14: Decrement a variable
 
-1. In the flow, select **New step**.
+1. In the flow, select **Add an action**.
 2. In the **Choose an operation** dialog box, in the search field, enter **decrement variable**. Then, on the **Actions** tab, select the operation in the list of results.
 3. In the **Name** field, select **number of tasks**.
 4. In the **Value** field, enter **1**.
