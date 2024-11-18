@@ -31,8 +31,9 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations latest version
 
-- Project Operations on Dataverse environment: 4.121.0.50
-- Project management and accounting in finance and operations apps environments: 10.0.41
+| Project Operations on Dataverse environment | Project management and accounting in finance and operations apps environments | Project App on Dataverse Environments |
+| --- | --- | --- |
+| 4.121.0.50 | 10.0.41 | 1.0.120.77 |
 
 > [!NOTE]
 > The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively. If you are using an older version of either product, contact Microsoft support for assistance in upgrading
@@ -43,22 +44,22 @@ For Project Operations Resource/non-stocked scenario, we recommend that you use 
 
 Updates for Project Operations on Dataverse environment are available monthly. 
 
-| Station   | Region        | Current Version | Auto Updates Start Date | Next Version | Next Version Available | Auto Updates Start |
+| Station | Region | Current Version Number | Auto Updates Start Date for Lite or Resource/Non-Stocked Deployments * | Next Version Number | Next Version Number Available For Self Update | Auto Updates Start For Next Version |
 |-----------|---------------|-----------------|-------------------------|--------------|------------------------|--------------------|
 | Station 1 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | First Release | 4.121.0.50      | October 11, 2024        | 4.122.0.x    | December 04, 2024      | December 06, 2024  |
+| &nbsp;    | First Release | 4.121.0.50      | November 11, 2024        | 4.122.0.x    | December 04, 2024      | December 06, 2024  |
 | Station 2 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | Canada        | 4.121.0.50      | October 11, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
-| &nbsp;    | India         | 4.121.0.50      | October 11, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
-| &nbsp;    | France        | 4.121.0.50      | October 11, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
-| &nbsp;    | South Africa  | 4.121.0.50      | October 11, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
-| &nbsp;    | Switzerland   | 4.121.0.50      | October 11, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
+| &nbsp;    | Canada        | 4.121.0.50      | November 07, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
+| &nbsp;    | India         | 4.121.0.50      | November 07, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
+| &nbsp;    | France        | 4.121.0.50      | November 07, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
+| &nbsp;    | South Africa  | 4.121.0.50      | November 07, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
+| &nbsp;    | Switzerland   | 4.121.0.50      | November 07, 2024        | 4.122.0.x    | December 06, 2024      | December 09, 2024  |
 | Station 3 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | Germany       | 4.121.0.50      | October 11, 2024        | 4.122.0.x    | December 09, 2024      | December 11, 2024  |
+| &nbsp;    | Germany       | 4.121.0.50      | November 15, 2024        | 4.122.0.x    | December 09, 2024      | December 11, 2024  |
 | Station 4 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | UK            | 4.121.0.50      | October 11, 2024        | 4.122.0.x    | December 11, 2024      | December 16, 2024  |
+| &nbsp;    | UK            | 4.121.0.50      | November 14, 2024        | 4.122.0.x    | December 11, 2024      | December 16, 2024  |
 | Station 5 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | USA           | 4.121.0.50      | October 11, 2024        | 4.122.0.x    | December 16, 2024      | December 20, 2024  |
+| &nbsp;    | USA           | 4.121.0.50      | November 15, 2024        | 4.122.0.x    | December 16, 2024      | December 20, 2024  |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the previous table. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
