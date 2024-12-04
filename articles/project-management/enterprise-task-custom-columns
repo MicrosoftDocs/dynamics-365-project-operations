@@ -39,12 +39,14 @@ Then the custom columns will be added to the grid view and any data in the colum
 
 Currently edits to data in custom columns from the grid view is not supported. This data must be updated either directly in Dataverse (via API or the Power Apps UI) or by adding the custom columns to the Project Task form in Dynamics and editing it there. The ability to edit data directly in the grid view is planned for future release.
 
-## Supported column types
+## Custom column limitations
 
 The following types of columns are supported to be added as custom columns in the grid view:
 - Text
 - Number
 - Date (must be date only, not date and time)
 - Choice (must be choice, not yes/no)
+
+Additionally, a maximum of 10 custom columns can be added to a single project.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
