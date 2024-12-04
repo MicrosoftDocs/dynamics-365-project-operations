@@ -25,9 +25,19 @@ First a user must add a custom column to the Project Tasks table in Dataverse. D
 
 Once the custom column has been created, uses can go to the tasks tab of a project, open the grid view, select add column, and select more from the menu which appears:
 
-PHOTO
+  ![Adding a custom column](media/etcc-add-column.png)
 
+In the dialog box which appears, the user can select the column(s) they wish to add to the grid view and select save:
 
+  ![Choosing custom columns](media/etcc-column-choice)
+
+Then the custom columns will be added to the grid view and any data in the columns will be displayed:
+
+  ![Custom columns added](media/etcc-complete)
+
+## Editing data in a custom column
+
+Currently edits to data in custom columns from the grid view is not supported. This data must be updated either directly in Dataverse (via API or the Power Apps UI) or by adding the custom columns to the Project Task form in Dynamics and editing it there. The ability to edit data directly in the grid view is planned for future release.
 
 ## Supported column types
 
