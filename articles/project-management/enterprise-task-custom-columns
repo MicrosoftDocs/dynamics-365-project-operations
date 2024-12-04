@@ -21,8 +21,18 @@ There is a default set of cloumns available in Microsoft Project for the web whi
 
 ## Adding a new column
 
+First a user must add a custom column to the Project Tasks table in Dataverse. Default columns from the table (even those which are not available to display on the tasks grid) cannot be selected to be displayed. Instrsuctions for adding a column to a table can be found [here](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-fields).
+
+Once the custom column has been created, uses can go to the tasks tab of a project, open the grid view, select add column, and select more from the menu which appears:
+
+PHOTO
+
 
 
 ## Supported column types
 
-The following types of columns are supported
+The following types of columns are supported to be added as custom columns in the grid view:
+- Text
+- Number
+- Date (must be date only, not date and time)
+- Choice (must be choice, not yes/no)
