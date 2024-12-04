@@ -46,3 +46,5 @@ The following types of columns are supported to be added as custom columns in th
 - Number
 - Date (must be date only, not date and time)
 - Choice (must be choice, not yes/no)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
