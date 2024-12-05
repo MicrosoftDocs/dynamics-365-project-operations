@@ -37,7 +37,7 @@ The custom columns are added to the grid view and any data in the columns displa
 
 ## Edit data in a custom column
 
-Currently editing data in custom columns from the grid view isn't supported. This data must be updated either directly in Dataverse (via API or the Power Apps UI) or by adding the custom columns to the Project Task form in Dynamics 365 apps and editing it there. The ability to edit data directly in the grid view is planned for future release.
+Currently editing data in custom columns from the grid view isn't supported. This data must be updated either directly in Dataverse, via API or the Power Apps UI, or by adding the custom columns to the Project Task form in Dynamics 365 apps and editing it there. The ability to edit data directly in the grid view is planned for future release.
 
 ## Custom column limitations
 
