@@ -15,36 +15,39 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-There is a default set of columns available in Microsoft Project for the web that provides all the relevant data for task scheduling. In addition to these default columns, users can add additional columns from the Project tasks table in Dataverse to the grid view.
+A default set of columns available in Microsoft Project for the web that provides the relevant data for task scheduling. In addition to these default columns, users can add more columns from the Project tasks table in Microsoft Dataverse to the grid view.
 
-## Adding a new column
+## Add a new column
 
-First a user must add a custom column to the Project Tasks table in Dataverse. Default columns from the table (even those which are not available to display on the tasks grid) cannot be selected to be displayed. For instructions on adding a column to a table, see [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
+To add a new column, a user must first add a custom column to the Project Tasks table in Dataverse. Default columns from the table, even the columns that aren't available to display on the tasks grid, can't be selected for display. For instructions on adding a column to a table, see [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
 
-Once the custom column has been created, users can go to the tasks tab of a project, open the grid view, select add column, and select more from the menu which appears:
+To add a new column, follow these steps.
 
-  ![Adding a custom column](media/etcc-add-column.png)
+1. After the custom column is created, go to the **Tasks** tab of a project, open the grid view, select **Add column**, and select **More**.
 
-In the dialog box which appears, the user can select the column(s) they wish to add to the grid view and select save:
+   ![Adding a custom column](media/etcc-add-column.png)
 
-  ![Choosing custom columns](media/etcc-column-choice.png)
+1. In the dialog box that appears, select one or more columns to add to the grid view, and select **Save**.
 
-Then the custom columns will be added to the grid view and any data in the columns will be displayed:
+   ![Choosing custom columns](media/etcc-column-choice.png)
 
-  ![Custom columns added](media/etcc-complete.png)
+The custom columns are added to the grid view and any data in the columns displays.
 
-## Editing data in a custom column
+   ![Custom columns added](media/etcc-complete.png)
 
-Currently editing data in custom columns from the grid view is not supported. This data must be updated either directly in Dataverse (via API or the Power Apps UI) or by adding the custom columns to the Project Task form in Dynamics and editing it there. The ability to edit data directly in the grid view is planned for future release.
+## Edit data in a custom column
+
+Currently editing data in custom columns from the grid view isn't supported. This data must be updated either directly in Dataverse (via API or the Power Apps UI) or by adding the custom columns to the Project Task form in Dynamics 365 apps and editing it there. The ability to edit data directly in the grid view is planned for future release.
 
 ## Custom column limitations
 
-The following types of columns are supported to be added as custom columns in the grid view:
+The following types of columns can be added as custom columns in the grid view:
 - Text
 - Number
 - Date (must be date only, not date and time)
 - Choice (must be choice, not yes/no)
 
-Additionally, a maximum of 10 custom columns can be added to a single project.
+> [!IMPORTANT]
+> A maximum of 10 custom columns can be added to a single project.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
