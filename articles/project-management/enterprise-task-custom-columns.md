@@ -19,7 +19,7 @@ There is a default set of columns available in Microsoft Project for the web tha
 
 ## Adding a new column
 
-First a user must add a custom column to the Project Tasks table in Dataverse. Default columns from the table (even those which are not available to display on the tasks grid) cannot be selected to be displayed. Instructions for adding a column to a table can be found [here](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-fields).
+First a user must add a custom column to the Project Tasks table in Dataverse. Default columns from the table (even those which are not available to display on the tasks grid) cannot be selected to be displayed. For instructions on adding a column to a table, see [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
 
 Once the custom column has been created, users can go to the tasks tab of a project, open the grid view, select add column, and select more from the menu which appears:
 
