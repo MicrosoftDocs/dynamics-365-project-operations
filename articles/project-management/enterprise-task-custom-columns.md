@@ -1,0 +1,50 @@
+---
+title: Add custom columns to the grid view 
+description: This article provides information about how to add a custom column to the grid view in the tasks tab of a project.
+author: abriccetti
+ms.author: abriccetti
+ms.date: 12/05/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
+---
+
+# Add custom columns to the grid view
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+There is a default set of columns available in Microsoft Project for the web that provides all the relevant data for task scheduling. In addition to these default columns, users can add additional columns from the Project tasks table in Dataverse to the grid view.
+
+## Adding a new column
+
+First a user must add a custom column to the Project Tasks table in Dataverse. Default columns from the table (even those which are not available to display on the tasks grid) cannot be selected to be displayed. Instructions for adding a column to a table can be found [here](https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-edit-fields).
+
+Once the custom column has been created, users can go to the tasks tab of a project, open the grid view, select add column, and select more from the menu which appears:
+
+  ![Adding a custom column](media/etcc-add-column.png)
+
+In the dialog box which appears, the user can select the column(s) they wish to add to the grid view and select save:
+
+  ![Choosing custom columns](media/etcc-column-choice.png)
+
+Then the custom columns will be added to the grid view and any data in the columns will be displayed:
+
+  ![Custom columns added](media/etcc-complete.png)
+
+## Editing data in a custom column
+
+Currently editing data in custom columns from the grid view is not supported. This data must be updated either directly in Dataverse (via API or the Power Apps UI) or by adding the custom columns to the Project Task form in Dynamics and editing it there. The ability to edit data directly in the grid view is planned for future release.
+
+## Custom column limitations
+
+The following types of columns are supported to be added as custom columns in the grid view:
+- Text
+- Number
+- Date (must be date only, not date and time)
+- Choice (must be choice, not yes/no)
+
+Additionally, a maximum of 10 custom columns can be added to a single project.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
