@@ -52,8 +52,8 @@ If you encounter an issue when you start the map, follow the instructions in the
 |Subcontracting|	3921055|	Actuals are generated with amount as zero on vendor invoices without unit price (despite a positive amount populated)|
 |Project Estimates|	4152179|	Estimates OneGrid quick create form throws exception if no default unit/unit group exist|
 |Project Estimates|	4198360|	Estimate lines allow linking transaction categories that do not have an associated expense category|
-|Subcontracting|	4205520|	[PODW] Actuals are not generated when Manually Confirming a Vendor Invoice with AutoConfirm = True|
-|Expense Management|	4220957|	PODW: Correct validation that restricts Transaction Category ID to 28 characters (integrated deployment)|
+|Subcontracting|	4205520|	Actuals are not generated when Manually Confirming a Vendor Invoice with AutoConfirm = True (integrated deployment)|
+|Expense Management|	4220957| Correct validation that restricts Transaction Category ID to 28 characters (integrated deployment)|
 |Time Entry|	4249478|	Project Operations license does not grant access to Team Member App|
 |Project Estimates|	4321523|	Project estimates not respecting effective date on price overrides|
 |Project Estimates|	4360880|	Project estimate updates feature breaks legacy estimates workflow customizations|
