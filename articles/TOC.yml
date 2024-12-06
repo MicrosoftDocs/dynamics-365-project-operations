@@ -112,12 +112,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: December 2024 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-dec-2024-resource-based.md
     - name: October 2024 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-oct-2024-resource-based.md
-    - name: September 2024 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-sep-2024-resource-based.md
     - name: Archive
       items:
+       - name: September 2024 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-sep-2024-resource-based.md
        - name: August 2024 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-aug-2024-resource-based.md
        - name: 2024 wave 2 early access - Project Operations for resource/non-stocked based scenarios
@@ -900,12 +902,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new December 2024 - lite deployment
+      href: pro/whats-new/whats-new-dec-2024-lite.md
     - name: What's new October 2024 - lite deployment
       href: pro/whats-new/whats-new-oct-2024-lite.md
-    - name: What's new September 2024 - lite deployment
-      href: pro/whats-new/whats-new-sep-2024-lite.md
     - name: Archive
       items:
+      - name: What's new September 2024 - lite deployment
+        href: pro/whats-new/whats-new-sep-2024-lite.md
       - name: What's new August 2024 - lite deployment
         href: pro/whats-new/whats-new-aug-2024-lite.md
       - name: What's new 2024 wave 2 early access - lite deployment
