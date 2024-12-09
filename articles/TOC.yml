@@ -396,6 +396,8 @@
       href: project-management/update-project.md
     - name: Copy a project
       href: project-management/copy-project.md
+    - name: Add custom columns to the grid view
+      href: project-management/enterprise-task-custom-columns.md
     - name: Project and task limitations
       href: project-management/project-and-task-limitations.md
     - name: Work breakdown structure planning
