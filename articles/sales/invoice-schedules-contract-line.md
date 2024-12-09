@@ -67,6 +67,43 @@ You can generate fixed price milestones manually when they are not periodically 
 | Tax | Quick Create | The tax amount applied on the milestone. | This is carried over to the project contract line milestone and the invoice. |
 
 3. Select **Save and Close**.
+## Create a progress billing invoice schedule for a contract line
+
+**Progress billing** allows to invoice customers based on the percentage of work completed rather than fixed milestones or time and material. Progress billing is particularly useful in long-term projects or contracts where work spans over months or years.
+
+To use this feature for Microsoft **Dynamics 365 Project Operations non-stocked/resource-based scenarios**, below are the requirements:
+1. Activate the feature **Enable Progress billing on Project Operations for resource based/non-stocked scenarios.** in the **Dynamics 365 finance** Feature Management workspace and **progress based billing** in **Dataverse**.
+2. **Project Operations Dataverse** version 4.88.0.0 or later.
+3. **Dynamics 365 Finance** version 10.0.43 or later.
+4. Run the **Dual write** map for **Progress billing milestone header**, version 1.0.0.0 or later. 
+
+When the contract line uses a **Fixed billing** method, you can select **Progress-based** in the **Invoice schedule type** field. This enables the creation of **milestone headers** in the **Invoice schedule tab**, with a default milestone automatically generated for each header. During the invoicing process, you can specify the **Next invoice percentage** or **Next invoice amount** and update the milestone header's invoice status to Ready for Invoice.
+
+Complete the following steps to generate a progress based invoice schedule.
+
+1. In Dataverse, Go to **Sales** > **Project contracts**. Click **New** to create a new project contract.
+2. On the **Project contract lines** tab, click **New project contract line** to create a new project contract line.
+3. Enter the name of the contract line in the **Name** field.
+4. Select **Fixed price** in the billing method field.
+5. Select **Progress based** in the invoice schedule type field.
+6. On the **Invoice schedule** tab, on the subgrid, select **+ New milestone header**. 
+7. On the **Milestone header** page, enter the required information based on the following table. Enter 
+
+| Field | Location | Description | Downstream impact |
+| --- | --- | --- | --- |
+| Name | Quick Create | Text field for the name of the milestone. | This is carried over to the project contract line milestone and the invoice. |
+| Task | Quick Create | If the milestone is tied to project task, use this reference to add custom logic to set the milestone status based on the task status. | The application, doesn't have any downstream impact of this reference to a task. |
+| Date | Quick Create | Set the date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This is carried over to the project contract line milestone and the invoice. |
+| Billing Status | Quick Create | When a milestone is created, this status is always set to **Not Ready for Invoicing** or **Not Started**. | This is carried over to the project contract line milestone and the invoice. |
+| Line Amount | Quick Create | Amount or value of the milestone that will be invoiced to the customer. | This is carried over to the project contract line milestone and the invoice. |
+| Tax | Quick Create | The tax amount applied on the milestone. | This is carried over to the project contract line milestone and the invoice. |
+
+8. Select **Save and Close**.
+
+To monitor the **Milestone header** and related milestones in **Dynamics 365 Finance**, follow these steps.
+1. In D365 Finance, Go to **Project management and accounting**.
+2. Go to **Projects** > **Project contracts**.
+3. In the **Maintain** action pane, Click **Progress billing detalis**. This form shows the milestone headers along with their associated milestone statuses.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
