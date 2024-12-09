@@ -1,13 +1,13 @@
 ---
 title: Project contract lines overview
 description:  This article provides information about working with project contract lines in Project Operations.
-author: rumant
-ms.date: 03/22/2024
+author: mukumarm
+ms.date: 12/27/2024
 ms.topic: overview
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: mukumarm
 ---
 
 # Project contract lines overview
@@ -32,7 +32,7 @@ The following table includes the fields on the **General** tab of project–base
 | --- | --- | --- |
 | **Name** | Name of the contract line. This field identifies the discrete component of the contract that is being estimated. For a project contract created from a quote, this value is copied from a corresponding value of the project-based quote line. | The name copied over to the project invoice line that is created from this contract line when the invoice is created. |
 | **Billing Method** | On a project contract created from a quote, this value is copied from the corresponding field on the quote line. This option set represents the two main contracting models supported by Project Operations:</br>- **Fixed Price**</br>- **Time and Material** | Based on the billing method of the referenced contract line, the actual transaction is processed. If the contract line referenced by the actual has a time and material billing method, cost and unbilled sales actual records are created. If the contract line referenced by the actual has a fixed price billing method, only a cost actual is created. |
-| **Invoice Schedule Type** | On a project contract created from a quote, this value is copied from the corresponding field on the quote line. This option set represents the two Invoice Schedule Types for Fixed Price contracting model supported by Project Operations:</br>- **Completed Milestones**</br>- **Progress-based** | This Invoice Schedule Type is only relevant for the  fixed price billing method in **Lite deployment**. **Project Operations for resource/non-stocked based scenarios** doesn't support this concept. Based on the Invoice Schedule Type, Milestones are allowed to be billed based on the progress percentage (%) (Progress-based) or only when fully completed (Completed Milestones). **Completed Milestones** is the default value. |
+| **Invoice Schedule Type** | On a project contract created from a quote, this value is copied from the corresponding field on the quote line. This option set represents the two Invoice Schedule Types for Fixed Price contracting model supported by Project Operations:</br>- **Completed Milestones**</br>- **Progress-based** | This Invoice Schedule Type is relevant for the  fixed price billing method in **Lite deployment** and **Project Operations for resource/non-stocked based scenarios**. Based on the Invoice Schedule Type, Milestones are allowed to be billed based on the progress percentage (%) (Progress-based) or only when fully completed (Completed Milestones). **Completed Milestones** is the default value. To use the **Progress based billing** feature, ensure that **progress based billing** is enabled through the parameter form.|
 | **Project** | Use this field to identify the project that is used to deliver the work on this engagement. | This value is used with **Included Tasks** and **Included Transaction Classes** to resolve the contract line reference on an actual or estimate line record. |
 | **Included Tasks** | Indicates if this contract line includes all project tasks for the selected project or only a subset of the tasks. This option set has the following possible values:</br>- **All Project Tasks**</br>- **Selected Project Tasks Only**. A blank value in this field is equal to selecting **All Project Tasks**. | If **Selected Tasks Only** is selected, you can select specific tasks and associate them to this contract line on the **Task Billing Setup** tab on the **Project** page. The value is used with **Project** and **Included Transaction** classes to resolve the contract line reference on an actual or an estimate line record. |
 | **Include Time** | A **Yes**/**No** value indicates if time transactions or labor costs on the selected project is included on this contract line. A **No** value indicates that the time transactions or labor cost isn't included on this contract line. A **Yes** value indicates that they're included. | This value is used with the project to resolve the contract line reference on an actual or an estimate line record. |
