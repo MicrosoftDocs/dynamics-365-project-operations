@@ -81,8 +81,8 @@ When the contract line uses a **Fixed billing** method, you can select **Progres
 
 Complete the following steps to generate a progress based invoice schedule.
 
-1. In Dataverse, Go to **Sales** > **Project contracts**. Click **New** to create a new project contract.
-2. On the **Project contract lines** tab, click **New project contract line** to create a new project contract line.
+1. In Dataverse, Go to **Sales** > **Project contracts**. Click **+ New** to create a new project contract.
+2. On the **Project contract lines** tab, click **+ New project contract line** to create a new project contract line.
 3. Enter the name of the contract line in the **Name** field.
 4. Select **Fixed price** in the billing method field.
 5. Select **Progress based** in the invoice schedule type field.
