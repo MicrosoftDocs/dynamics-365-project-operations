@@ -72,9 +72,9 @@ You can generate fixed price milestones manually when they are not periodically 
 **Progress billing** allows to invoice customers based on the percentage of work completed rather than fixed milestones or time and material. Progress billing is particularly useful in long-term projects or contracts where work spans over months or years.
 
 To use this feature for Microsoft **Dynamics 365 Project Operations non-stocked/resource-based scenarios**, below are the requirements:
-1. Activate the feature **Enable Progress billing on Project Operations for resource based/non-stocked scenarios.** in the **Dynamics 365 finance** Feature Management workspace and **progress based billing** in **Dataverse**.
-2. **Project Operations Dataverse** version 4.88.0.0 or later.
-3. **Dynamics 365 Finance** version 10.0.43 or later.
+1. **Project Operations Dataverse** version 4.88.0.0 or later.
+2. **Dynamics 365 Finance** version 10.0.43 or later.
+3. Activate the feature **Enable Progress billing on Project Operations for resource based/non-stocked scenarios.** in the **Dynamics 365 finance** Feature Management workspace and **progress based billing** in **Dataverse**.
 4. Run the **Dual write** map for **Progress billing milestone header**, version 1.0.0.0 or later. 
 
 When the contract line uses a **Fixed billing** method, you can select **Progress-based** in the **Invoice schedule type** field. This enables the creation of **milestone headers** in the **Invoice schedule tab**, with a default milestone automatically generated for each header. During the invoicing process, you can specify the **Next invoice percentage** or **Next invoice amount** and update the milestone header's invoice status to Ready for Invoice.
