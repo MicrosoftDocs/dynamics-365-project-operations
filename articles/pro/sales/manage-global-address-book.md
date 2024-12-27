@@ -10,6 +10,8 @@ ms.author: mukumarm
 # Enable global address book for project operations
 The Dynamics 365 Global Address Book is a centralized repository that stores and manages address and contact information for various entities such as customers, vendors, employees, and other stakeholders. By consolidating this information, the global address book ensures data consistency, simplifies data management, and enables seamless communication across different modules and processes within Dynamics 365.
 
+This feature enables the management of multiple physical and electronic addresses for customers, vendors, and contacts. It also supports the use of delivery addresses in project quotations, contracts, and invoices.
+
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 To use this feature for Microsoft **Dynamics 365 Project Operations non-stocked/resource-based scenarios**, below are the requirements:
@@ -17,15 +19,7 @@ To use this feature for Microsoft **Dynamics 365 Project Operations non-stocked/
 2. **Dynamics 365 Finance** version 10.0.43 or later.
 3. Activate the feature **Enable global address book** in **Dataverse**.
   
-Refer [Party and global address book](../../../fin-ops-core/dev-itpro/data-entities/dual-write/party-gab.md) documentation for change of **Integration keys** and **Dual write maps** required for activation of **Enable global address book** feature. I   
-
-
-Run the below **Dual write** maps with **initial sync**.
-1. CDS location roles (msdyn_addressroles)
-2. CDS parties (mydyn_parties)
-3. CDS party postal address locations (msdyn_partypostaladdresses)
-4. CDS postal address history V2 (msdyn_postaladdresses)
-5. CDS postal address locations (msdyn_postal address collections)
+Refer [Party and global address book](../../../fin-ops-core/dev-itpro/data-entities/dual-write/party-gab.md) documentation for change of **Integration keys** and **Dual write maps** required for activation of **Enable global address book** feature. There is no need to install the **Dual-write Party and Global Address Book Solutions** as this solution is part of **Dynamics 365 project operations**.
 
 > [!NOTE]
 > Enabling the global address book feature will not impact existing address data. However, address-related fields will be disabled on the **project quotation**, **project contract** and **project invoice** form. Users can select a new address using the Address Name field, and fields such as Street, City, and Country will automatically populate with data from the address book.
@@ -69,3 +63,5 @@ The **delivery address** will default from the **project contract** if specified
 Once the **project invoice** is **confirmed** in **Dataverse**, the **delivery address** and **invoice address** will be synchronized with the invoice proposal in **Dynamics 365 Finance**.
 
 The **delivery address** and **invoice address** fields have been added to the Dynamics 365 Finance **project invoice proposal**. These fields are non-editable as the addresses will be synchronized from Dataverse. To enable the **synchronization** of the **delivery** and **invoice** addresses, activate the **Dual Write map** version specified below for the **project invoice proposal**.
+
+**Project invoice proposal V2 (Invoices) : Version 1.0.0.4**
