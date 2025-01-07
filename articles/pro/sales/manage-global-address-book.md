@@ -14,11 +14,16 @@ This feature enables the management of multiple physical and electronic addresse
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-To use this feature for Microsoft **Dynamics 365 Project Operations non-stocked/resource-based scenarios**, below are the requirements:
+## Prerequisites
+To use the functionality, activate the following features:
+- **Enable global address book** in **Dataverse**.
+
+### Minimum versions required
+To use the feature for Project Operations for resource/non-stocked based scenarios, you must have the following versions:
 1. **Project Operations Dataverse** version 4.124.0.x or later.
 2. **Dynamics 365 Finance** version 10.0.43 or later.
-3. Activate the feature **Enable global address book** in **Dataverse**.
-  
+
+### Dual write for Global address book 
 Refer [Party and global address book](/Dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/party-gab.md) documentation for change of **Integration keys** and **Dual write maps** required for activation of **Enable global address book** feature. There is no need to install the **Dual-write Party and Global Address Book Solutions** as this solution is part of **Dynamics 365 project operations**.
 
 > [!NOTE]
@@ -64,4 +69,6 @@ Once the **project invoice** is **confirmed** in **Dataverse**, the **delivery a
 
 The **delivery address** and **invoice address** fields have been added to the Dynamics 365 Finance **project invoice proposal**. These fields are non-editable as the addresses will be synchronized from Dataverse. To enable the **synchronization** of the **delivery** and **invoice** addresses, activate the **Dual Write map** version specified below for the **project invoice proposal**.
 
-**Project invoice proposal V2 (Invoices) : Version 1.0.0.4**
+| Required dual-write map | Required version |
+|---|---|
+| Project invoice proposal V2 (Invoices) | 1.0.0.4 |
