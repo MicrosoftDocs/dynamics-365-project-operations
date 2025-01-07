@@ -103,7 +103,7 @@
       - name: Project operations dual-write errors and mitigation
         href: environment/resource-dual-write-frequent-issues.md
     - name: Manage the global address book
-      href: manage-global-address-book.md
+      href: pro/sales/manage-global-address-book.md
     - name: Change language localization settings
       href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
