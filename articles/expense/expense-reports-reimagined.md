@@ -32,7 +32,7 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 - No existing menu items for expense reports (the existing page) or expense report fields are removed.
 - Workflows and any approvals still take you to the existing expense reports page.
 
-> [!VIDEO ad14b5ae-36c0-4cef-bfcd-776261f8cb29
+> [!VIDEO ad14b5ae-36c0-4cef-bfcd-776261f8cb29]
 
 ## New features
 
