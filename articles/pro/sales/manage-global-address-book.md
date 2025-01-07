@@ -16,7 +16,7 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-The Microsoft Dynamics 365 global address book is a centralized repository that stores and manages address and contact information for various entities such as customers, vendors, employees, and other stakeholders. By consolidating this information, the global address book ensures data consistency, simplifies data management, and enables seamless communication across different modules and processes within Microsoft Dynamics 365 Finance.
+The Microsoft Dynamics 365 global address book is a centralized repository that stores and manages address and contact information for various entities such as customers, vendors, employees, and other stakeholders. Consolidating this information in the global address book ensures data consistency, simplifies data management, and enables seamless communication across different modules and processes within Microsoft Dynamics 365 Finance.
 
 This feature enables the management of multiple physical and electronic addresses for customers, vendors, and contacts. It also supports the use of delivery addresses in project quotations, contracts, and invoices.
 
@@ -33,12 +33,12 @@ To use the feature for Microsoft Dynamics 365 Project Operations for resource/no
 
 ### Dual-write for Global address book 
 
-Refer [Party and global address book](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/party-gab) documentation for change of **Integration keys** and **Dual-write maps** required for activation of **Enable global address book** feature. There is no need to install the **Dual-write Party and global sddress book solutions** as this solution is part of Project Operations.
+Refer [Party and global address book](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/party-gab) documentation for change of **Integration keys** and **Dual-write maps** required for activation of **Enable global address book** feature. There isn't a need to install the **Dual-write Party and global address book solutions** as this solution is part of Project Operations.
 
 > [!NOTE]
-> Enabling the global address book feature doesn't impact existing address data. However, address-related fields are disabled on the **Project quotation**, **Project contract** and **Project invoice** form. You can select a new address using the **Address Name** field, and fields such as **Street 1**, **Street 2**, **City**, and **Country** are automatically populate with data from the address book.
+> Enabling the global address book feature doesn't impact existing address data. However, address-related fields are disabled on the **Project quotation**, **Project contract**, and **Project invoice** form. You can select a new address using the **Address Name** field, and fields such as **Street 1**, **Street 2**, **City**, and **Country** automatically populate with data from the address book.
 > 
-> If you are using **Microsoft Dynamics 365 Sales** or **Microsoft Dynamics 365 Customer Service** and have already installed the global address book solution, no additional setup is required.
+> If you use **Microsoft Dynamics 365 Sales** or **Microsoft Dynamics 365 Customer Service** and already installed the global address book solution, no other setup is required.
 
 ## Customers, Vendors, and Contacts
 
@@ -63,13 +63,13 @@ You can add a **Delivery address** to the **Project contract** and **Project con
 
 Similarly, **Delivery address** and **Invoice address** fields are disabled on the project contract customer form, enabling you to select one of the existing customer addresses.
 
-However, yous can create a new address for the customer directly through the **Address name** lookup field by selecting the **+New Postal Address** button on the delivery address and invoice address. 
+However, you can create a new address for the customer directly through the **Address name** lookup field by selecting the **+New Postal Address** button on the delivery address and invoice address. 
 
 When a new project contract is created manually and a customer is selected on the **Project contract** form, the customer's primary address automatically default in the **Project contract customer** form. However, you can modify the invoice address if needed. 
 
 ## Project invoices
 
-In **Dataverse**, the **Delivery Address** section has been added to the project invoice. 
+In **Dataverse**, the **Delivery Address** section is added to the project invoice. 
 
 The **Invoice address** and **Delivery address** fields, such as **Street 1**, **Street 2**, **City**, and **Country** are disabled and automatically default based on the selected **Invoice Address Name** and **Delivery Address Name** field.
 
@@ -79,9 +79,9 @@ The **Delivery address** defaults from the **Project contract** if specified; ot
 
 Once the **project invoice** is **confirmed** in **Dataverse**, the **delivery address** and **invoice address** are synchronized with the invoice proposal in **Dynamics 365 Finance**.
 
-The **Delivery address** and **Invoice address** fields have been added to the Dynamics 365 Finance **Project invoice proposal**. These fields are non editable as the addresses are synchronized from Dataverse. To enable the synchronization of the delivery and invoice addresses, activate the Dual-write map version specified below for the **Project invoice proposal**.
+The **Delivery address** and **Invoice address** fields are added to the Dynamics 365 Finance **Project invoice proposal**. These fields are non editable as the addresses are synchronized from Dataverse. To enable the synchronization of the delivery and invoice addresses, activate the following Dual-write map version for the **Project invoice proposal**.
 
-| Required dual-write map | Required version |
+| Required Dual-write map | Required version |
 |---|---|
 | Project invoice proposal V2 (Invoices) | 1.0.0.4 |
 
