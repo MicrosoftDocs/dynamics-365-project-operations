@@ -19,7 +19,7 @@ To use this feature for Microsoft **Dynamics 365 Project Operations non-stocked/
 2. **Dynamics 365 Finance** version 10.0.43 or later.
 3. Activate the feature **Enable global address book** in **Dataverse**.
   
-Refer [Party and global address book](/Dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/party-gab.md) documentation for change of **Integration keys** and **Dual write maps** required for activation of **Enable global address book** feature. There is no need to install the **Dual-write Party and Global Address Book Solutions** as this solution is part of **Dynamics 365 project operations**.
+Refer [Party and global address book](/Dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/party-gab) documentation for change of **Integration keys** and **Dual write maps** required for activation of **Enable global address book** feature. There is no need to install the **Dual-write Party and Global Address Book Solutions** as this solution is part of **Dynamics 365 project operations**.
 
 > [!NOTE]
 > Enabling the global address book feature will not impact existing address data. However, address-related fields will be disabled on the **project quotation**, **project contract** and **project invoice** form. Users can select a new address using the Address Name field, and fields such as Street, City, and Country will automatically populate with data from the address book.
