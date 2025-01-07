@@ -44,11 +44,11 @@ In Fixed price billing arrangements, the contract negotiation involves either bi
 When the project-based contract line has a Fixed billing method, you can create a milestone based or progress based invoice schedule. Complete the following steps to automatically generate this schedule for a fixed set of milestones that are equally distributed for the calendar period.
 
 1. Go to Settings > invoice frequencies and set up an invoice frequency.
-2. Add a new Contract line and give the contract line a name, then select Fixed price as the billing method. The field Invoice schedule type appears, in which you have option to select Milestone based or Progress based invoice schedule.
-3. Once the contract line is created, you can go to Invoice schedule tab, select values in the Billing start and Invoice Frequency fields.
-4. On the subgrid, select Generate Periodic Milestones.
+1. Add a new Contract line and give the contract line a name, then select Fixed price as the billing method. The field Invoice schedule type appears, in which you have option to select Milestone based or Progress based invoice schedule.
+1. Once the contract line is created, you can go to Invoice schedule tab, select values in the Billing start and Invoice Frequency fields.
+1. On the sub grid, select Generate Periodic Milestones.
 
-Fixed price milestones can also be generated manually when they aren't periodically split. To create a milestone manually, open the Fixed price quote line where you need to create a milestone. On the Invoice Schedule tab, on the subgrid, select + Create new milestone and enter the required information.
+Fixed price milestones can also be generated manually when they aren't periodically split. To create a milestone manually, open the Fixed price quote line where you need to create a milestone. On the Invoice Schedule tab, on the sub grid, select + Create new milestone and enter the required information.
 
 ## Fixed Price Milestones 
 
