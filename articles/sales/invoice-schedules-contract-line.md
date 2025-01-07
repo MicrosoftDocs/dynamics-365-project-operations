@@ -61,19 +61,19 @@ You can generate fixed price milestones manually when they aren't periodically s
 
    | Field | Location | Description | Downstream impact |
    | --- | --- | --- | --- |
-   | Milestone Name | Quick Create | Text field for the name of the milestone. | This is carried over to the project contract line milestone and the invoice. |
+   | Milestone Name | Quick Create | Text field for the name of the milestone. | This field is carried over to the project contract line milestone and the invoice. |
    | Project Task | Quick Create | If the milestone is tied to project task, use this reference to add custom logic to set the milestone status based on the task status. | The application doesn't have any downstream impact of this reference to a task. |
-   | Milestone Date | Quick Create | Set the date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This is carried over to the project contract line milestone and the invoice. |
-   | Invoice Status | Quick Create | When a milestone is created, this status is always set to **Not Ready for Invoicing** or **Not Started**. | This is carried over to the project contract line milestone and the invoice. |
-   | Line Amount | Quick Create | Amount or value of the milestone that will be invoiced to the customer. | This is carried over to the project contract line milestone and the invoice. |
-   | Tax | Quick Create | The tax amount applied on the milestone. | This is carried over to the project contract line milestone and the invoice. |
+   | Milestone Date | Quick Create | Set the date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This field is carried over to the project contract line milestone and the invoice. |
+   | Invoice Status | Quick Create | When a milestone is created, this status is always set to **Not Ready for Invoicing** or **Not Started**. | This field is carried over to the project contract line milestone and the invoice. |
+   | Line Amount | Quick Create | Amount or value of the milestone that's invoiced to the customer. | This field is carried over to the project contract line milestone and the invoice. |
+   | Tax | Quick Create | The tax amount applied on the milestone. | This field is carried over to the project contract line milestone and the invoice. |
 
 1. Select **Save and Close**.
 
 
 ## Create a progress billing invoice schedule for a contract line
 
-**Progress billing** allows you to invoice customers based on the percentage of work completed rather than fixed milestones or time and material. Progress billing is particularly useful in long-term projects or contracts where work spans over months or years.
+**Progress billing** allows you to invoice customers based on the percentage of work completed rather than fixed milestones or time and material. Progress billing is useful in long-term projects or contracts where work spans over months or years.
 
 To use this feature for Project Operations non-stocked/resource-based scenarios, ensure the following requirements are met:
 
@@ -82,7 +82,7 @@ To use this feature for Project Operations non-stocked/resource-based scenarios,
 1. Activate the feature **Enable Progress billing on Project Operations for resource based/non-stocked scenarios.** in the Microsoft Dynamics 365 Finance Feature Management workspace, and enable **Progress based billing** in **Microsoft Dataverse**.
 1. Run the **Dual-write** map for **Progress billing milestone header**, version 1.0.0.0 or later. 
 
-When the contract line uses a fixed billing method, you can select **Progress-based** in the **Invoice schedule type** field. This enables the creation of milestone headers in the **Invoice schedule** tab, with a default milestone automatically generated for each header. During the invoicing process, you can specify the **Next invoice percentage** or **Next invoice amount** and update the milestone header's invoice status to **Ready for Invoice**.
+When the contract line uses a fixed billing method, you can select **Progress-based** in the **Invoice schedule type** field. This field enables the creation of milestone headers in the **Invoice schedule** tab, with a default milestone automatically generated for each header. During the invoicing process, you can specify the **Next invoice percentage** or **Next invoice amount** and update the milestone header's invoice status to **Ready for Invoice**.
 
 To generate a progress based invoice schedule, follow these steps.
 
@@ -90,7 +90,7 @@ To generate a progress based invoice schedule, follow these steps.
 1. On the **Project contract lines** tab, select **+ New project contract line**.
 1. In the **Name** field, enter the name of the contract line.
 1. In the **Billing method** field, select **Fixed price**.
-1. In the **nvoice schedule type** field, select **Progress based**.
+1. In the **Invoice schedule type** field, select **Progress based**.
 1. On the **Invoice schedule** tab, on the sub grid, select **+ New milestone header**. 
 1. On the **Milestone header** page, enter the required information based on the following table.
 
@@ -100,7 +100,7 @@ To generate a progress based invoice schedule, follow these steps.
    | Task | Quick Create | If the milestone is tied to project task, use this reference to add custom logic to set the milestone status based on the task status. | The application doesn't have any downstream impact of this reference to a task. |
    | Date | Quick Create | Set the date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This field is carried over to the project contract line milestone and the invoice. |
    | Billing Status | Quick Create | When a milestone is created, this status is always set to **Not Ready for Invoicing** or **Not Started**. | This field is carried over to the project contract line milestone and the invoice. |
-   | Line Amount | Quick Create | Amount or value of the milestone that will be invoiced to the customer. | This field is carried over to the project contract line milestone and the invoice. |
+   | Line Amount | Quick Create | Amount or value of the milestone that's invoiced to the customer. | This field is carried over to the project contract line milestone and the invoice. |
    | Tax | Quick Create | The tax amount applied on the milestone. | This field is carried over to the project contract line milestone and the invoice. |
 
 1. Select **Save and Close**.
