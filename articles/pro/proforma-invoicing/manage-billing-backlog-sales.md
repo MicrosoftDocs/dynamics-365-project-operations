@@ -1,13 +1,13 @@
 ---
 title: Manage project billing backlog 
 description: This article provides information about the various views available to use when managing the billing backlog on projects.
-author: rumant
-ms.date: 03/22/2024
+author: poojafandan
+ms.date: 11/26/2024
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 ---
 
 # Manage project billing backlog 
@@ -34,7 +34,23 @@ The **Retainers and Advances** view lists all the retainers and advances across 
 
 The **Available Retainers and Advances** view lists all available retainers and advances across all project contracts in the system. After a retainer or advance is invoiced, the amount of the advance becomes available to use and is added to the list. After the amount of the retainer or advance is used completely, it's removed from the list.
 
-## Fixed Price Milestones
+## Fixed Price Billing
+
+In Fixed price billing arrangements, the contract negotiation involves either billing based on completed milestones or billing based on % complete of a milestone. 
+
+- Milestone based billing is to enable billing based on completion of a milestone. 
+- Progress based billing is to enable billing based on progress or % complete of a milestone.
+
+When the project-based contract line has a Fixed billing method, you can create a milestone based or progress based invoice schedule. Complete the following steps to automatically generate this schedule for a fixed set of milestones that are equally distributed for the calendar period.
+
+1. Go to Settings > invoice frequencies and set up an invoice frequency.
+1. Add a new Contract line and give the contract line a name, then select Fixed price as the billing method. The field Invoice schedule type appears, in which you have option to select Milestone based or Progress based invoice schedule.
+1. Once the contract line is created, you can go to Invoice schedule tab, select values in the Billing start and Invoice Frequency fields.
+1. On the sub grid, select Generate Periodic Milestones.
+
+Fixed price milestones can also be generated manually when they aren't periodically split. To create a milestone manually, open the Fixed price quote line where you need to create a milestone. On the Invoice Schedule tab, on the sub grid, select + Create new milestone and enter the required information.
+
+## Fixed Price Milestones 
 
 The **Fixed Price Milestones** view lists all fixed price milestones across all project contract lines in the system. Single or multiple milestones can be marked as **Ready to invoice** or **Not ready to invoice** from this view. Marking a milestone as **Ready to invoice** makes it available to be put on a draft invoice. Updating the progress percentage (%) of a progress-based milestone and marking the next invoice status of a progress-based milestone as **Ready to invoice** creates a new milestone with the value of the milestone calculated as a % of progress that is marked as being ready to invoice. 
 
@@ -42,7 +58,10 @@ When multi-customer contract lines have a fixed price billing method, a mileston
 
 When contract lines have a fixed price billing method with a progress-based invoice schedule type, a progress-based set of milestones are created for the contract line. In the **Fixed Price Milestones** view, you see the individual milestone records that represent the value of the progress-based milestone that can be invoiced. Each of these milestone records can be marked as **Ready to Invoice** separately from this view. When one or more of the related milestone splits are marked as **Ready to Invoice**, the progress-based milestone's billing status is updated to **In Progress** from **Not Started**. When all the progress-based milestone's value are invoiced, the header milestone status is updated to **Completed**.
 
-A milestone on a draft invoice is shown in this view with a billing status of **Customer Invoice Created**. On a progress-based milestone, it's the **Next invoice status** that shows this value. When the draft invoice is confirmed, the billing status on the milestone is updated to **Customer Invoice Posted** and the **Next invoice status** of the progress-based milestone is updated to **Not ready to invoice**. Don't update this status value using custom code. Project Operations doesn't function correctly when these status values are updated with custom code. The following table shows how the Billing status updates on the various types of milestones in Project Operations.
+A milestone on a draft invoice is shown in this view with a billing status of **Customer Invoice Created**. On a progress-based milestone, it's the **Next invoice status** that shows this value. When the draft invoice is confirmed, the billing status on the milestone is updated to **Customer Invoice Posted** and the **Next invoice status** of the progress-based milestone is updated to **Not ready to invoice**. Don't update this status value using custom code. Project Operations doesn't function correctly when these status values are updated with custom code. 
+
+## Billing status updates on the various types of milestones
+
 
 ### Scenario 1: Single Customer, Completed Milestones
 
