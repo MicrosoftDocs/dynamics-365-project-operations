@@ -33,7 +33,7 @@ To use the feature for Microsoft Dynamics 365 Project Operations for resource/no
 
 ### Dual-write for Global address book 
 
-Refer [Party and global address book](/Dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/party-gab.md) documentation for change of **Integration keys** and **Dual-write maps** required for activation of **Enable global address book** feature. There is no need to install the **Dual-write Party and global sddress book solutions** as this solution is part of Project Operations.
+Refer [Party and global address book](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/party-gab) documentation for change of **Integration keys** and **Dual-write maps** required for activation of **Enable global address book** feature. There is no need to install the **Dual-write Party and global sddress book solutions** as this solution is part of Project Operations.
 
 > [!NOTE]
 > Enabling the global address book feature doesn't impact existing address data. However, address-related fields are disabled on the **Project quotation**, **Project contract** and **Project invoice** form. You can select a new address using the **Address Name** field, and fields such as **Street 1**, **Street 2**, **City**, and **Country** are automatically populate with data from the address book.
