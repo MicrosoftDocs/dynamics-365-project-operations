@@ -42,7 +42,7 @@ Users can add a **delivery address** to the **project quotation header** and **p
 
 Similarly, **invoice address** and **delivery address** fields will be disabled on the project quotation customer form, enabling users to select one of the existing customer addresses.
 
-Users can create a new address for the customer directly through the **address name** lookup field by clicking the **+New Postal Address** button on the **delivery address** or **invoice address** lookup and same address can be used for the project quoatation and project quotation customer form.
+Users can create a new address for the customer directly through the **address name** lookup field by clicking the **+New Postal Address** button on the **delivery address** or **invoice address** lookup and same address can be used for the project quotation and project quotation customer form.
 
 Once the quotation is **won**, the **delivery address** from the **project quotation** will be automatically carried over to the **project contract**. 
 Additionally, the **delivery address** and **invoice addresses** of the project quotation customer will be defaulted to the **project contract customer**. 
