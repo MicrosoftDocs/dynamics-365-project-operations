@@ -79,7 +79,7 @@ The **Delivery address** defaults from the **Project contract** if specified; ot
 
 Once the **project invoice** is **confirmed** in **Dataverse**, the **delivery address** and **invoice address** are synchronized with the invoice proposal in **Dynamics 365 Finance**.
 
-The **Delivery address** and **Invoice address** fields are added to the Dynamics 365 Finance **Project invoice proposal**. These fields are non editable as the addresses are synchronized from Dataverse. To enable the synchronization of the delivery and invoice addresses, activate the following Dual-write map version for the **Project invoice proposal**.
+The **Delivery address** and **Invoice address** fields are added to the Dynamics 365 Finance **Project invoice proposal**. These fields are noneditable as the addresses are synchronized from Dataverse. To enable the synchronization of the delivery and invoice addresses, activate the following Dual-write map version for the **Project invoice proposal**.
 
 | Required Dual-write map | Required version |
 |---|---|
