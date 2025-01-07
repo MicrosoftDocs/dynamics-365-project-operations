@@ -42,6 +42,9 @@ To set up or edit a budget period at the organization level, follow these steps.
 1. To view or modify the budget period details, double-tap (or double-click) the budget period line.
 1. Make any required updates, and then, on the Action Pane, select **Save**, or **Save & Close**. Depending on your updates, the budget period detail line is extended, or deleted and then re-created.
 
+> [!NOTE]
+> A budget period can be created with a Week, Month, Quarter or Year granularity. 
+
 The following table describes the fields that are available.
 
 | Field | Requirement | Description | Comments |
