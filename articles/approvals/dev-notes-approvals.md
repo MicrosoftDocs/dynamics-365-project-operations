@@ -1,13 +1,13 @@
 ---
 title: Developer notes for Approvals
 description: This article provides additional developer information about working with approvals.
-author: stsporen
+author: suvaidya
 ms.date: 11/09/2020
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: stsporen
+ms.author: suvaidya
 ---
 
 # Developer notes for Approvals
