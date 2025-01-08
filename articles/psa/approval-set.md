@@ -7,7 +7,7 @@ ms.custom:
   - evergreen
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: stsporen
+ms.author: abriccetti
 ---
 
 # Approval sets in Project Service Automation
