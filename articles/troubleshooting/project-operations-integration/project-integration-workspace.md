@@ -47,7 +47,7 @@ The **unreconciled amounts** section shows the **outstanding balances** for **ve
 
 ### Use the Summary tab
 
-The **Summary** tab provides an overview of unreconciled amounts for expenses and vendor invoices. It includes detailed information such as amounts for which project integration journal lines haven't yet been created or posted, and records that aren't synchronized from Dataverse to Dynamics 365 Finance.
+The **Summary** tab provides an overview of unreconciled amounts for expenses and vendor invoices. It includes detailed information such as amounts for which project integration journal lines aren't yet created or posted, and records that aren't synchronized from Dataverse to Dynamics 365 Finance.
 
 ![Project integration workspace summary.](../../../articles/media/ProjOpsIntegrationWorkspaceSummary.png)
 
@@ -90,9 +90,9 @@ The following views can be validated:
   
    To resolve this issue, you can run the *Import from Staging* process from the periodic section or post the existing journals that are in draft status. 
 
-1. **All Vendor invoices**: Displays all Vendor invoice records that were successfully approved in Dynamics 365 Finance, regardless of whether the project cost has been updated through the project integration journal.
+1. **All Vendor invoices**: Displays all Vendor invoice records that were successfully approved in Dynamics 365 Finance, regardless of whether the project cost was updated through the project integration journal.
 
-1. **All Reconciled Vendor invoices**: Displays all Vendor invoice records that were successfully processed and project cost was been updated through the project integration journal.
+1. **All Reconciled Vendor invoices**: Displays all Vendor invoice records that were successfully processed and project cost were updated through the project integration journal.
 
 The **Sync button** at the top of the grid enables you to run the **synchronization batch job** to reprocess **expenses** that weren't **synchronized** earlier due to **Dual-write failures**. It **synchronizes** all expenses based on the **first open period** of the fiscal calendar and the **current date**. For more information, see [Sync batch job](project-integration-workspace.md#sync-batch-job).
 
@@ -100,7 +100,7 @@ The **Sync button** at the top of the grid enables you to run the **synchronizat
 
 ### Sync batch job
 
-There are instances where expenses and vendor invoices are successfully processed in Dynamics 365 Finance but fail to synchronize with Dataverse due to Dual-write issues. This is one of the reasons that procurement or integration accounts aren't being nullified, causing a balance to remain in these accounts.
+There are instances where expenses and vendor invoices are successfully processed in Dynamics 365 Finance but fail to synchronize with Dataverse due to Dual-write issues. This mismatch is one of the reasons that procurement or integration accounts aren't being nullified, causing a balance to remain in these accounts.
 
 To address this issue and ensure that expenses or vendor invoices are synchronized if they weren't previously, a new batch job has been added. This batch job can be run on a recurring basis at the end of each day to ensure it processes a minimal set of records. The **Start date** is the first open ledger period based on the current and previous year associated with the company, while the **End date** is the current date.
 
@@ -118,6 +118,6 @@ To use the project operations reconciliation batch job, use the below Dual-write
 
 ## Troubleshooting
 
-The **Troubleshoot** tab displays a list of error messages encountered by users during the **Import from staging** or **Project integration journal** posting processes. This helps you identify the root cause of issues so you can make the necessary corrections. Records can be filtered by specifying a **From Date** and **To Date**. Once corrections are complete and the messages are no longer needed and can be deleted using the **Delete** or the **Delete All** button.
+The **Troubleshoot** tab displays a list of error messages encountered by users during the **Import from staging** or **Project integration journal** posting processes. This tab helps you identify the root cause of issues so you can make the necessary corrections. Records can be filtered by specifying a **From Date** and **To Date**. Once corrections are complete and the messages are no longer needed and can be deleted using the **Delete** or the **Delete All** button.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
