@@ -14,8 +14,8 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This workspace streamlines troubleshooting and configuration reviews by surfacing errors, system issues, and other potential problems that might otherwise remain hidden in logs. It is designed to save time and enhance visibility into critical processes. 
-For instance, the workspace allows customers to identify and resolve Dual Write synchronization issues specifically related to vendor invoices and expenses. It provides detailed insights into error root causes, including the number of affected records and associated amounts, ensuring users have a comprehensive understanding of the issue's scope.
+This **workspace** streamlines troubleshooting and configuration reviews by surfacing errors, system issues, and other potential problems that might otherwise remain hidden in logs. It is designed to save time and enhance visibility into critical processes. 
+For instance, the workspace allows customers to identify and resolve **Dual Write** synchronization issues specifically related to **vendor invoices** and **expenses**. It provides detailed insights into error root causes, including the number of affected records and associated amounts, ensuring users have a comprehensive understanding of the issue's scope.
 
 Key new capabilities include:  
 - **Enhanced Dashboard for Accountants**: Highlights pending journal postings, missing integration journal lines, and records, simplifying ledger reconciliation.  
@@ -28,25 +28,27 @@ To use the functionality, in **Dynamics 365 Finance**, activate the **Project Op
 
 ### Minimum versions required
 
-To use the feature for Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios, you must have the following versions:
+To use the feature for **Dynamics 365 Project Operations for resource/non-stocked based scenarios**, you must have the following versions:
 
 - **Project Operations Dataverse** version 4.122.0.690 or later.
 - **Dynamics 365 Finance** version 10.0.43 or later.
 
 ## Dual Write
-In Dynamics 365 Project Operations, when an expense or vendor invoice is posted, the financials are recorded in the procurement or expense integration account, while the project cost is posted using the project integration journal. However, accountants may encounter challenges when generating a trial balance for a period and finding balances in the expense or procurement integration accounts without a clear explanation. 
+In **Dynamics 365 Project Operations**, when an **expense** or **vendor invoice** is posted, the financials are recorded in the **procurement** or **expense integration** account, while the **project cost** is posted using the **project integration journal**. However, accountants may encounter challenges when generating a trial balance for a period and finding balances in the **expense** or **procurement integration** accounts without a clear explanation. 
 
-The Dual Write tab helps address this issue by providing insights into the causes of integration balance discrepancies. It highlights any issues affecting these balances and offers guidance on resolving them, making it easier to identify and correct discrepancies efficiently.
+The **Dual Write** tab helps address this issue by providing insights into the causes of integration balance discrepancies. It highlights any issues affecting these balances and offers guidance on resolving them, making it easier to identify and correct discrepancies efficiently.
 
-The unreconciled amounts section shows the outstanding balances for vendor invoices and expenses that have not yet been reconciled.
+The **unreconciled amounts** section shows the **outstanding balances** for **vendor invoices** and **expenses** that have not yet been reconciled.
 ### Summary
-The summary tab provides an overview of unreconciled amounts for expenses and vendor invoices. It includes detailed information such as amounts for which integration journal lines have not yet been created or posted, as well as records that are not synchronized from Dataverse to Dynamics 365 Finance.
+The summary tab provides an overview of **unreconciled amounts** for **expenses** and **vendor invoices**. It includes detailed information such as amounts for which **project integration journal** lines have not yet been **created** or **posted**, as well as records that are not **synchronized** from **Dataverse** to **Dynamics 365 Finance**.
 
 ### Expenses
-The expense tab provides a detailed view of each expense record within the specified start and end dates. The following views can be validated:  
+The **expense** tab provides a detailed view of each **expense** record within the specified **start and end dates**. The **start date** is the first open ledger period based on the current and previous year associated with the company, while the **end date** is the current date.
+
+The following views can be validated:  
 
 1. **Missing Actuals**: Displays expenses successfully processed in Dynamics 365 Finance but lacking reference records from Dataverse. Possible reasons include:  
-   - Expenses not synchronized from Dynamics 365 Finance to Dataverse.  
+   - Expenses not synchronized from Dynamics 365 Finance to Dataverse. 
    - Expenses not auto-approved in Dataverse.  
    - Actual records not synced from Dataverse to Dynamics 365 Finance.
 2. **Missing Journal Lines**: Displays expenses that have been successfully processed and synchronized from Dataverse to Dynamics 365 Finance but for which integration journal lines have not yet been created or posted.
@@ -56,8 +58,12 @@ The expense tab provides a detailed view of each expense record within the speci
 3. **All Expenses**: Displays all expense records that have been successfully approved in Dynamics 365 Finance, regardless of whether the project cost has been updated through the project integration journal.
 4. **All Reconciled Expenses**: Displays all expense records that have been successfully processed and project cost has been updated through the project integration journal.
 
+A **Sync button** has been added at the top of the grid. This button enables users to execute the **synchronization batch job** to reprocess **expenses** that were not **synchronized** earlier due to **Dual Write failures**. It **synchronizes** all expenses based on the **first open period** of the fiscal calendar and the **current date**. Refer Sync batch job section below.
+
 ### Vendor invoices
-The vendor invoice tab provides a detailed view of each expense record within the specified start and end dates. The following views can be validated:  
+The **vendor invoice** tab provides a detailed view of each **vendor invoice line** record within the specified **start and end dates**. The **start date** is the first open ledger period based on the current and previous year associated with the company, while the **end date** is the current date.
+
+The following views can be validated:  
 
 1. **Missing Actuals**: Displays vendor invoice lines successfully processed in Dynamics 365 Finance but lacking reference records from Dataverse. Possible reasons include:  
    - Vendor invoices not synchronized from Dynamics 365 Finance to Dataverse.  
@@ -70,6 +76,22 @@ The vendor invoice tab provides a detailed view of each expense record within th
 3. **All Vendor invoices**: Displays all Vendor invoice records that have been successfully approved in Dynamics 365 Finance, regardless of whether the project cost has been updated through the project integration journal.
 4. **All Reconciled Vendor invoices**: Displays all Vendor invoice records that have been successfully processed and project cost has been updated through the project integration journal.
 
+A **Sync button** has been added at the top of the grid. This button enables users to execute the **synchronization batch job** to reprocess **vendor invoices** that were not **synchronized** earlier due to **Dual Write failures**. It **synchronizes** all vendor invoices based on the **first open period** of the fiscal calendar and the **current date**. Refer Sync batch job section below.
+
 ### Sync batch job
-Dual write maps
+There are instances where **expenses** and **vendor invoices** are successfully processed in **Dynamics 365 Finance** but **fail** to **synchronize** with **Dataverse** due to Dual Write issues. This is one of the reasons that **procurement or integration accounts** are not being nullified, causing a balance to remain in these accounts.
+
+To address this issue and ensure that **expenses or vendor invoices** are synchronized if they were not previously, a new **batch job** has been added. This batch job can be executed on a **recurring basis** at the end of each day to ensure it processes a minimal set of records. The **start date** is the first open ledger period based on the current and previous year associated with the company, while the **end date** is the current date.
+
+**Project management and accounting** > **Periodic** > **Project operations reconciliation**
+
+To use the project operations reconciliation batch job, use the below **Dual write map** versions.
+
+| Required Dual-write map | Required version |
+|---|---|
+| Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.4 |
+| Project Operations integration project venodr invoice export entity V2 (msdyn_projectvendorinvoices) | 1.0.0.4 |
+| Project Operations integration project venodr invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.4 |
+
 ## Troubleshooting
+The **Troubleshoot** tab displays a list of **error messages** encountered by users during the **import from staging** or **project integration journal** posting processes. This helps users identify the root cause of issues and make the necessary corrections. Records can be filtered by specifying a **From Date** and **To Date**. Once corrections are complete and the messages are no longer needed, they can be **deleted** using the **Delete** or **Delete All** button.
