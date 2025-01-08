@@ -1,6 +1,6 @@
 ---
 title: Manage the global address book
-description: This article explains how to enable and use the global address book in project operations for resource based or nonstocked scenarios. 
+description: Learn how to activate and use the global address book in project operations for resource based or nonstocked scenarios. 
 author: mukumarm
 ms.date: 01/27/2025
 ms.topic: how-to
