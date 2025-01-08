@@ -60,7 +60,7 @@ The following views can be validated:
 3. **All Expenses**: Displays all expense records that have been successfully approved in Dynamics 365 Finance, regardless of whether the project cost has been updated through the project integration journal.
 4. **All Reconciled Expenses**: Displays all expense records that have been successfully processed and project cost has been updated through the project integration journal.
 
-A **Sync button** has been added at the top of the grid. This button enables users to execute the **synchronization batch job** to reprocess **expenses** that weren't **synchronized** earlier due to **Dual Write failures**. It **synchronizes** all expenses based on the **first open period** of the fiscal calendar and the **current date**. Refer Sync batch job section below.
+A **Sync button** has been added at the top of the grid. This button enables users to execute the **synchronization batch job** to reprocess **expenses** that weren't **synchronized** earlier due to **Dual Write failures**. It **synchronizes** all expenses based on the **first open period** of the fiscal calendar and the **current date**. For more information, see [Sync batch job](project-integration-workspace.md#sync-batch-job).
 
 ![Project integration workspace expenses.](../../../articles/media/ProjOpsIntegrationWorkspaceexpense.png)
 
@@ -80,9 +80,10 @@ The following views can be validated:
 3. **All Vendor invoices**: Displays all Vendor invoice records that have been successfully approved in Dynamics 365 Finance, regardless of whether the project cost has been updated through the project integration journal.
 4. **All Reconciled Vendor invoices**: Displays all Vendor invoice records that have been successfully processed and project cost has been updated through the project integration journal.
 
-A **Sync button** has been added at the top of the grid. This button enables users to execute the **synchronization batch job** to reprocess **vendor invoices** that weren't **synchronized** earlier due to **Dual Write failures**. It **synchronizes** all vendor invoices based on the **first open period** of the fiscal calendar and the **current date**. Refer Sync batch job section below.
+A **Sync button** has been added at the top of the grid. This button enables users to execute the **synchronization batch job** to reprocess **vendor invoices** that weren't **synchronized** earlier due to **Dual Write failures**. It **synchronizes** all vendor invoices based on the **first open period** of the fiscal calendar and the **current date**. For more information, see [Sync batch job](project-integration-workspace.md#sync-batch-job).
 
 ![Project integration workspace vendor invoices.](../../../articles/media/ProjOpsIntegrationWorkspaceVendorInvoice.png)
+
 ### Sync batch job
 There are instances where **expenses** and **vendor invoices** are successfully processed in **Dynamics 365 Finance** but **fail** to **synchronize** with **Dataverse** due to Dual Write issues. This is one of the reasons that **procurement or integration accounts** aren't being nullified, causing a balance to remain in these accounts.
 
