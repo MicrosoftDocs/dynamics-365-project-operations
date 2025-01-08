@@ -30,7 +30,7 @@ To use the functionality, in **Dynamics 365 Finance**, activate the **Project Op
 
 To use the feature for **Dynamics 365 Project Operations for resource/non-stocked based scenarios**, you must have the following versions:
 
-- **Project Operations Dataverse** version 4.122.0.690 or later.
+- **Project Operations Dataverse** version 4.124.0.690 or later.
 - **Dynamics 365 Finance** version 10.0.43 or later.
 
 ## Dual Write
@@ -94,9 +94,9 @@ To use the project operations reconciliation batch job, use the below **Dual wri
 
 | Required Dual-write map | Required version |
 |---|---|
-| Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.4 |
-| Project Operations integration project venodr invoice export entity V2 (msdyn_projectvendorinvoices) | 1.0.0.4 |
-| Project Operations integration project venodr invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.4 |
+| Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.5 |
+| Project Operations integration project venodr invoice export entity V2 (msdyn_projectvendorinvoices) | 1.0.0.1 |
+| Project Operations integration project venodr invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.8 |
 
 ## Troubleshooting
 The **Troubleshoot** tab displays a list of **error messages** encountered by users during the **import from staging** or **project integration journal** posting processes. This helps users identify the root cause of issues and make the necessary corrections. Records can be filtered by specifying a **From Date** and **To Date**. Once corrections are complete and the messages are no longer needed, they can be **deleted** using the **Delete** or **Delete All** button.
