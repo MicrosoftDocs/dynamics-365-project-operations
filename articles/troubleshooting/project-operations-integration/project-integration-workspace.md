@@ -15,7 +15,7 @@ ms.author: mukumarm
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
 This **workspace** streamlines troubleshooting and configuration reviews by surfacing errors, system issues, and other potential problems that might otherwise remain hidden in logs. It's designed to save time and enhance visibility into critical processes. 
-For instance, the workspace allows customers to identify and resolve **Dual Write** synchronization issues specifically related to **vendor invoices** and **expenses**. It provides detailed insights into error root causes, including the number of affected records and associated amounts, ensuring users have a comprehensive understanding of the issue's scope.
+For instance, the workspace allows customers to identify and resolve **Dual Write** synchronization issues related to **vendor invoices** and **expenses**. It provides detailed insights into error root causes, including the number of affected records and associated amounts, ensuring users have a comprehensive understanding of the issue's scope.
 
 Key new capabilities include:  
 - **Enhanced Dashboard for Accountants**: Highlights pending journal postings, missing integration journal lines, and records, simplifying ledger reconciliation.  
