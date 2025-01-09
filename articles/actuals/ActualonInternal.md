@@ -1,29 +1,13 @@
 ---
-# required metadata
-
 title: Actuals impact for an internal project
 description: This article provides information about the impact on the Actuals table at various events for an internal project in Microsoft Dynamics 365 Project Operations.
-author: avisness
-ms.date: 11/18/2023
+author: abriccetti
+ms.date: 01/09/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
- 
-#
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: avisness
+ms.author: abriccetti
 ms.search.validFrom: 2020-10-01
 ---
 
