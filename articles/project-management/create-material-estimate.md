@@ -1,13 +1,13 @@
 ---
 title: Financial estimates for materials on projects
 description: This article provides information about defining or estimating project-based materials.
-author: avisness
-ms.date: 03/26/2024
+author: aabriccetti
+ms.date: 01/09/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: avisness
+ms.author: abriccetti
 ---
 
 # Financial estimates for materials on projects
