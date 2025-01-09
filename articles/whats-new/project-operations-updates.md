@@ -47,13 +47,14 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current Version Number | Auto Updates Start Date for Lite or Resource/Non-Stocked Deployments * | Next Version Number | Next Version Number Available For Self Update | Auto Updates Start For Next Version |
 |-----------|---------------|-----------------|-------------------------|--------------|------------------------|--------------------|
 | Station 1 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | First Release | 4.122.0.690      | December 06, 2024        | 4.123.0.x    | January 10, 2025      | January 17, 2025  |
+| &nbsp;    | First Release | 4.122.0.690      | December 06, 2024        | 4.123.0.x    | January 15, 2025      | January 17, 2025  |
 | Station 2 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
 | &nbsp;    | Canada        | 4.122.0.690      | December 09, 2024        | 4.123.0.x    | January 17, 2025      | January 28, 2025  |
 | &nbsp;    | India         | 4.122.0.690      | December 09, 2024        | 4.123.0.x    | January 17, 2025      | January 28, 2025  |
 | &nbsp;    | France        | 4.122.0.690      | December 09, 2024        | 4.123.0.x    | January 17, 2025      | January 28, 2025  |
 | &nbsp;    | South Africa  | 4.122.0.690      | December 09, 2024        | 4.123.0.x    | January 17, 2025      | January 28, 2025  |
 | &nbsp;    | Switzerland   | 4.122.0.690      | December 09, 2024        | 4.123.0.x    | January 17, 2025      | January 28, 2025  |
+| &nbsp;    | Korea         | NA              | NA                        | 4.123.0.x    | January 17, 2025      | NA                |
 | Station 3 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
 | &nbsp;    | Germany       | 4.122.0.690      | December 11, 2024        | 4.123.0.x    | January 24, 2025      | January 31, 2025  |
 | Station 4 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
