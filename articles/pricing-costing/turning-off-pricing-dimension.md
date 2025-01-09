@@ -1,28 +1,15 @@
 ---
-# required metadata
-
 title: Turning off a pricing dimension
 description: This article provides information about how to turn off pricing dimensions.
-author: avisness
-ms.date: 11/18/2023
+author: abriccetti
+ms.date: 01/09/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: avisness
-ms.dyn365.ops.version: 
+ms.author: abriccetti
 ms.search.validFrom: 2020-10-01
 ---
 
