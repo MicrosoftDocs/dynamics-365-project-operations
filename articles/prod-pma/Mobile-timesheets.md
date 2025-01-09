@@ -1,14 +1,14 @@
 ---
 title: Project timesheets on a mobile device
 description: My timesheets (Optimized for mobile) allows employees to create and submit project timesheets to record their hours for a specific project on a mobile device.
-author: abruer 
-ms.date: 03/16/2018
+author: mohitmenon 
+ms.date: 01/09/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
 ms.search.region: Global
-ms.author: abruer
+ms.author: mohitmenon
 ms.search.validFrom: 2018-03-16 
 ms.dyn365.ops.version: April 2018 update 
 ---
