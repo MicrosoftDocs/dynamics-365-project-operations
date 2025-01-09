@@ -1,29 +1,13 @@
 ---
-# required metadata
-
 title: Actuals impact during the presales stage of an engagement
 description: This article provides information about the impact on the Actuals table at various events while an engagement is in the presales stage in Microsoft Dynamics 365 Project Operations.
-author: avisness
-ms.date: 11/18/2023
+author: abriccetti
+ms.date: 01/09/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
- 
-#
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: avisness
+ms.author: abriccetti
 ms.search.validFrom: 2020-10-01
 ---
 
