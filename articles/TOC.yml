@@ -880,7 +880,7 @@
       items:
       - name: Currency mismatch error when creating project, contract, quote, or bookable resource
         href: troubleshooting/project-sales-process/currency-mismatch-error.md   
-    - name: Project operations integration workspace
+    - name: Project Operations integration workspace
       href: troubleshooting/project-operations-integration/project-integration-workspace.md
 - name: Lite deployment - deal to proforma invoicing
   items:
