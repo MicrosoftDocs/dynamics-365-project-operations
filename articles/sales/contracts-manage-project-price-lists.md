@@ -1,10 +1,12 @@
 ---
 title: Manage project price lists on project contracts
 description:  This article provides information about managing project price lists on project contracts.
-author: avisness
-ms.author: avisness
+author: abriccetti
+ms.author: abriccetti
 ms.date: 05/21/2024
-ms.topic: article
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 
 ---
