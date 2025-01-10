@@ -1,9 +1,9 @@
 ---
 title: Determine sales prices for project estimates and actuals
 description: This article provides information about how sales prices for project estimates and actuals are determined.
-author: avisness
-ms.author: avisness
-ms.date: 05/21/2024
+author: abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template

@@ -1,13 +1,13 @@
 ---
 title: Determine cost rates for project-based estimates and actuals
 description: This article provides information about how cost rates for project-based estimates and actuals are determined.
-author: avisness
-ms.date: 11/18/2023
+author: abriccetti
+ms.date: 01/09/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: avisness
+ms.author: abriccetti
 ---
 
 # Determine cost rates for project-based estimates and actuals

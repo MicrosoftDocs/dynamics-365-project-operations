@@ -1,9 +1,9 @@
 --- 
 title: Use Transaction Category as a pricing dimension
 description:  This article provides information about how to use the Transaction Category field as a pricing dimension.
-author:  avisness
-ms.author: avisness
-ms.date: 05/21/2024  
+author:  abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025 
 ms.topic: how-to
 ms.custom: 
   - bap-template

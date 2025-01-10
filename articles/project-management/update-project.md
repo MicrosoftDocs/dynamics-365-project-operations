@@ -1,11 +1,13 @@
 ---
 title: Create and update a project
 description: This article provides information about updating projects Project Operations.
-author: avisness
-ms.date: 03/01/2024
-ms.topic: article
+author: dishantpopli
+ms.date: 01/09/2025
+ms.topic: conceptual
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
-ms.author: avisness
+ms.author: dishantpopli
 ---
 
 # Create and update a project

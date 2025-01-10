@@ -1,29 +1,15 @@
 ---
-# required metadata
-
 title: Project Operations Team Member app
 description: This article provides information about the Project Operations Team Member app in Microsoft Dynamics 365 Project Operations.
-author: stsporen
-ms.date: 04/20/2022
-ms.topic: article
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+author: mohitmenon
+ms.date: 01/09/2025
+ms.topic: conceptual
 ms.custom: 
-ms.assetid: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: stsporen
-ms.dyn365.ops.version: 
+ms.author: mohitmenon
 ms.search.validFrom: 2020-10-01
 ---
 

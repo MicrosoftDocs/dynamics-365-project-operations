@@ -1,17 +1,15 @@
 ---
 title: Deactivate price lists 
 description: This article explains how to deactivate or remove unused or old price lists.
-author: avisness
-ms.author: avisness
-ms.date: 05/21/2024
+author: abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
-audience: Application User
 ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Professional Service industries
-ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
