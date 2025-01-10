@@ -1,13 +1,12 @@
 ---
 title: Product price lists
 description: This article provides information about the price lists in catalog pricing used for project quotes and contracts. 
-author: avisness
-ms.author: avisness
-ms.date: 05/21/2024
+author: abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-audience: Application User
 ms.reviewer: johnmichalak
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01

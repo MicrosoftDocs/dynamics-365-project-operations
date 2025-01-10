@@ -1,14 +1,13 @@
 ---
 title: Set up role-based pricing
 description: This article provides information about how to set up pricing for specific roles.
-author: avisness
-ms.author: avisness
-ms.date: 05/21/2024
+author: abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.search.form: ProjProjectsListPage
-audience: Application User
 ms.reviewer: johnmichalak
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global

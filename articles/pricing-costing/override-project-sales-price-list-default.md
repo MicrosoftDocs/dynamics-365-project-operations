@@ -1,9 +1,9 @@
 ---
 title: Override project sales price lists
 description: This article provides information about creating custom sales price lists. 
-author: avisness
-ms.author: avisness
-ms.date: 05/21/2024
+author: abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
