@@ -35,15 +35,15 @@ This article applies to the following components and versions of Microsoft Dynam
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
 |Subcontracting|	4339657| Unbilled sales actuals not found when chargeable task is added to contract line after vendor invoice is confirmed.|
-|Subcontracting|	4382804| When closing quote as won, an **Object reference not set to an instance of an object** error occurrs.|
+|Subcontracting|	4382804| When closing quote as won, an **Object reference not set to an instance of an object** error occurs.|
 |Billing and Pricing|	4473237| The Extended amount on retainer invoice lines get set to 0 after invoice recalculation.|
 |Time Entry|	4475300| A previously **Deactivated** bookable resource role can still be used within copy week functionality.|
 |Subcontracting|	4481246| Actual reevaluation: Vendor Invoice Cost Actuals are missing fields.|
 |Sales|	4481592| Product lines not showing correct tab when an invoice is created.|
 |Subcontracting|	4481635| Actual Reevaluation: All Vendor Invoice Actuals are reversed when a task deleted.|
 |Sales|	4486054| Pressing recalculate on quote sets quote lines to 0 if there are no Quote Line details.|
-|Project Estimates|	4486190| **An item with the same key has already been added** appears when opening Time-phased Estimates tab.|
-|Resource Management|	4488867| Adding team member directly in CDS for PSCore does not call PSS Create Team Member API.|
+|Project Estimates|	4486190| The **An item with the same key has already been added** message appears when opening Time-phased Estimates tab.|
+|Resource Management|	4488867| Adding team member directly in CDS for PSCore doesn't call PSS Create Team Member API.|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
