@@ -36,7 +36,9 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 ## Features included in this release
 
-There are no new features released in this version of Project Operations.
+| **Feature area** | **Feature name** | **More information** |
+| --- | --- | --- |
+| Project Budgeting |**Enable re-import of estimates/quote/contract on a revised budget version.** <br><br> As part of this enhancement, customers can re-import estimates onto a revised budget version which is in draft stage. To re-import the estimates, quote or contract, revise the budget version and then re-import| [Create a project budget from estimates](../pro/budget/create-project-budget-from-estimates.md) |		
 
 ## Quality updates
 
