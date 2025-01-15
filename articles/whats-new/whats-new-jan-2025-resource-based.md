@@ -44,7 +44,19 @@ There are no new features released in this version of Project Operations.
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-
+|Subcontracting|	3932178|	Auto matching failing for material vendor invoice lines|
+|Subcontracting|	4205520|	Actuals are not generated when Manually Confirming a Vendor Invoice with AutoConfirm = True|
+|Subcontracting|	4339657|	Unbilled sales actuals not found when chargeable task is added to contract line after vendor invoice is confirmed|
+|Subcontracting|	4382804|	When closing quote as won, "Object reference not set to an instance of an object" error thrown|
+|Billing and Pricing|	4403108|	Company with actuals linked to it can still be deleted |
+|Billing and Pricing|	4473237|	Extended amount on retainer invoice lines get set to 0 after invoice recalculation|
+|Time Entry|	4475300|	Users previous bookable resource role has been "deactivated" but is still able to use the copy week functionality|
+|Subcontracting|	4481246|	Actual Re-evaluation: Vendor Invoice Cost Actuals Are Missing Fields|
+|Sales|	4481592|	Product lines not showing correct tab when an invoice is created|
+|Subcontracting|	4481635|	Actual Re-evaluation: All Vendor Invoice Actuals Are Reversed When Task Deleted|
+|Sales|	4486054|	Pressing recalculate on quote sets quote lines to 0 if there are no QLDs|
+|Project Estimates|	4486190|	'An item with the same key has already been added' appears when opening Time-phased Estimates tab|
+|Resource Management|	4488867|	Adding team member directly in CDS for PSCore does not call PSS Create Team Member API|
 
 ### Project management and accounting in Finance
 
