@@ -48,6 +48,6 @@ There are no new features released in this version of Project Operations.
 
 ### Project management and accounting in Finance
 
-For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=952752&dbType=3&qc=3b907b83fa0fe10ada99211e89737ca71d07b749a67c0a42302cca6fa39b1a5a).
+For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=971730&dbType=3&qc=10e8ad5ad029bad3a0c2faa0e2dfc5d699a64ad8bfd2d1af37a5a02bb5800efa).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
