@@ -38,7 +38,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Budgeting |**Enable re-import of estimates/quote/contract on a revised budget version.** <br><br> As part of this enhancement, customers can reimport estimates onto a revised budget version which is in draft stage. To reimport the estimates, quote, or contract, revise the budget version and then reimport| [Create a project budget from estimates](../pro/budget/create-project-budget-from-estimates.md) |		
+| Project Budgeting |**Enable reimport of estimates/quote/contract on a revised budget version.** <br><br> As part of this enhancement, you can reimport estimates into a revised budget version which is in the draft stage. To reimport the estimates, quote, or contract, revise the budget version and then reimport.| [Create a project budget from estimates](../pro/budget/create-project-budget-from-estimates.md) |		
 
 ## Quality updates
 
@@ -48,17 +48,16 @@ If you encounter an issue when you start the map, follow the instructions in the
 | --- | --- | --- |
 |Subcontracting|	3932178|	Auto matching failing for material vendor invoice lines|
 |Subcontracting|	4205520|	Actuals are not generated when Manually Confirming a Vendor Invoice with AutoConfirm = True|
-|Subcontracting|	4339657|	Unbilled sales actuals not found when chargeable task is added to contract line after vendor invoice is confirmed|
-|Subcontracting|	4382804|	When closing quote as won, "Object reference not set to an instance of an object" error thrown|
-|Billing and Pricing|	4403108|	Company with actuals linked to it can still be deleted |
-|Billing and Pricing|	4473237|	Extended amount on retainer invoice lines get set to 0 after invoice recalculation|
-|Time Entry|	4475300|	A previously "deactivated" bookable resource role can still be used within copy week functionality|
-|Subcontracting|	4481246|	Actual Reevaluation: Vendor Invoice Cost Actuals Are Missing Fields|
-|Sales|	4481592|	Product lines not showing correct tab when an invoice is created|
-|Subcontracting|	4481635|	Actual Reevaluation: All Vendor Invoice Actuals Are Reversed When Task Deleted|
-|Sales|	4486054|	Pressing recalculate on quote sets quote lines to 0 if there are no Quote Line Details|
-|Project Estimates|	4486190|	"An item with the same key has already been added" appears when opening Time-phased Estimates tab|
-|Resource Management|	4488867|	Adding team member directly in CDS for PSCore does not call PSS Create Team Member API|
+|Subcontracting|	4339657| Unbilled sales actuals not found when chargeable task is added to contract line after vendor invoice is confirmed.|
+|Subcontracting|	4382804| When closing quote as won, an **Object reference not set to an instance of an object** error occurrs.|
+|Billing and Pricing|	4473237| The Extended amount on retainer invoice lines get set to 0 after invoice recalculation.|
+|Time Entry|	4475300| A previously **Deactivated** bookable resource role can still be used within copy week functionality.|
+|Subcontracting|	4481246| Actual reevaluation: Vendor Invoice Cost Actuals are missing fields.|
+|Sales|	4481592| Product lines not showing correct tab when an invoice is created.|
+|Subcontracting|	4481635| Actual Reevaluation: All Vendor Invoice Actuals are reversed when a task deleted.|
+|Sales|	4486054| Pressing recalculate on quote sets quote lines to 0 if there are no Quote Line details.|
+|Project Estimates|	4486190| **An item with the same key has already been added** appears when opening Time-phased Estimates tab.|
+|Resource Management|	4488867| Adding team member directly in CDS for PSCore does not call PSS Create Team Member API.|
 
 ### Project management and accounting in Finance
 
