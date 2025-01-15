@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "articles/expense/expense-using-mobile.md",
+      "redirect_url": "/articles/expense/new-expense-mobile-app-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-pma/project-time-entry-mobile-workspace.md",
+      "redirect_url": "/articles/expense/new-expense-mobile-app-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "articles/psa/add-in-plan-work-projects.md",
       "redirect_url": "/articles/psa/plan-work-in-project-service-automation-add-in",
       "redirect_document_id": "false"
