@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 12/06/2024
+ms.date: 01/15/2025
 ms.topic: whats-new
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
 ---
@@ -27,6 +27,7 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Version | Build number | Autoupdate availability | Learn more |
 |---------|--------------|---------------|-------------|
+| Dataverse 4.123.0.X </br> Finance 10.0.42 |    | January 2025    | [Project Operations for resource/non-stocked based scenarios](whats-new-jan-2025-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-jan-2025-lite.md) |
 | Dataverse 4.122.0.327 </br> Finance 10.0.41 |    | December 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-dec-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-dec-2024-lite.md) |
 | Dataverse 4.121.0.50 </br> Finance 10.0.41 |    | October 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-sep-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-sep-2024-lite.md) |
 | Dataverse 4.121.0.50 </br> Finance 10.0.41 |    | September 2024    | [Project Operations for resource/non-stocked based scenarios](whats-new-oct-2024-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-oct-2024-lite.md) |
