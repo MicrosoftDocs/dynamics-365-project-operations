@@ -1,13 +1,13 @@
 ---
 title: Financial estimates for expenses on projects
 description: This article provides information about defining or estimating project-based expenses.
-author: abriccetti
-ms.date: 01/09/2025
+author: poojafandan
+ms.date: 01/16/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: abriccetti
+ms.author: poojafandan
 ---
 
 # Financial estimates for expenses on projects
@@ -48,9 +48,11 @@ The following table provides information about the fields on the **Expense Estim
 | Quantity | The quantity of the estimated expense you incur. | There isn't a downstream impact for this field. |
 | Unit group | The default value in this field comes from the unit group set up as default on the selected category. You can update this field to select another unit group. | There isn't a downstream impact for this field. |
 | Unit | The value in this field defaults to the default unit of the selected category. You can update this field to select another unit. | Changing the unit results in a different default unit price and cost. |
-| Cost price | The cost of the selected category and unit combination is set up in the applicable cost price list | The unit cost is always shown in the project's cost currency. |
+| Price | The cost price of the selected category and unit combination as set up in the applicable cost price list | The unit cost is always shown in the project's cost currency. |
+| Amount| Amount represents the total cost of an estimated expense. It is calculated as Price × Quantity | The unit cost amount is always shown in the project's cost currency. |
+| Price(Sales) | The sales price of the selected category and unit combination as set up in the applicable sales price list | The unit sales is always shown in the project's sales currency. |
+| Amount(Sales) | Amount(Sales) represents the total sales amount of the estimated expense. It is calculated as Price(Sales) × Quantity | The unit sales amount is always shown in the project's sales currency. |
 
 > [!NOTE]
-> The grid allows in-line editing with the first line of the estimate being in cost context, which is always shown in the project's cost currency. When selecting the chevron, the grid expands to a child row which provides the sales context of the estimate line, this is always shown in the project's sales currency.    
-
+The grid allows in-line editing with the first line of the estimate being in cost context, which is always shown in the project's cost currency. The grid does not allow in-line update of the sales price in the first line of the estimate line. When selecting the chevron, the grid expands to a child row which provides where the sales price can be edited. 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
