@@ -35,4 +35,4 @@ ms.reviewer: johnmichalak
 - [Responsible AI FAQs for Dynamics 365 Human Resources](/dynamics365/human-resources/transpar-note-hr)
 - [Responsible AI FAQs for Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/responsible-ai-overview)
 
-  [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+  [!INCLUDE[footer-include](../../includes/footer-banner.md)]
