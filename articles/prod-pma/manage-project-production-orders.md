@@ -72,4 +72,7 @@ If you select the **finished item** as **posting method** and **production order
 then you cannot **post project costs** until the production cycle for an item has a status of **Ended**. The cost for the **finished item** is posted as a **single transaction**.
 
 ### Consumed item
-
+You can use the **consumed item** posting method without any linkage to the item requirement. By using this method, you can view actual **project costs** when the production has a status of **Started** or is **reported as Finished**. 
+The costs are posted as multiple project item transactions for **raw materials** and **hours** consumed for the production. 
+You can also define the level in the BOM hierarchy at which projects in the production are tracked. 
+You can create the hierarchy in the BOM line form by choosing **Pegged supply** in the **Line type** field and selecting the **Set subproduction to Consumed** check box. This procedure creates the subproductions for your hierarchy.
