@@ -1790,6 +1790,10 @@
         href: prod-pma/NSTKProjectcostwithoutitemrequirement.md
       - name: Cancel a purchase order product receipt with a linked item requirement
         href: prod-pma/tasks/cancel-product-receipt-with-linked-item.md
+  - name: Production orders
+    items:
+    - name: Manage project production orders
+      href: prod-pma/manage-project-production-orders.md
   - name: Project invoicing
     items:
     - name: Project invoicing
