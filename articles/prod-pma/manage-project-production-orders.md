@@ -41,17 +41,17 @@ To configure the default **production method**, follow below steps:
 There are two methods for utilizing production orders in projects:
 1. **Finished item**:  
    In this method, a production order is created and executed.
-   Once the production order is completed, the cost of the finished item is posted to the project and finished item can be invoced to the customer.
+   Once the production order is completed, the cost of the finished item is posted to the project and finished item can be invoiced to the customer.
 2. **Consumed**:  
    This method involves production orders where the time spent and costs incurred during production are directly associated with the project.
    The individual time and item costs recorded during production can be invoiced to the customer.
        
 ## Project production orders linked with sales orders or item requirements
-A **project-related production order** can be connected to a **sales order** or **item requirement**. if the **production order** is generated automatically to meet a sales order or item requirement, 
-it is directly linked to that sales order or item requirement.
+A **project-related production order** can be connected to a **sales order** or **item requirement**. If the **production order** is generated automatically to meet a sales order or item requirement, 
+it's directly linked to that sales order or item requirement.
 
 ### Finished item
-If you select the **finished item** posting method , you can link the project to a sales order or an item requirement. By using this method, actual project costs are posted when the sales order is invoiced or when the packing slip is updated for the item requirement. The cost is posted as a finished item.
+If you select the **finished item** posting method, you can link the project to a sales order or an item requirement. With this method, actual project costs are recorded either when the sales order is invoiced or when the packing slip is updated for the item requirement. The cost is posted as a finished item.
 
 ### Consumed item
 If you select the **consumed item** posting method, you can link the project to an item requirement. 
@@ -59,20 +59,20 @@ By using this method, you can view actual **project costs** when the production 
 The costs are posted as multiple project item transactions for **raw materials** and **hours** consumed for production. 
 When the **packing slip** is updated for the **item requirement**, no project costs are posted. 
 You can also define the level in the BOM hierarchy at which projects in the production are tracked. 
-You can create the hierarchy in the BOM line form by choosing **Pegged supply** in the **Line type** field and selecting the **Set subproduction to Consumed** check box. This procedure creates the subproductions for your hierarchy.
+To create the hierarchy in the BOM line form, select **Pegged supply** in the **Line type** field and check the **Set subproduction to Consumed** option. This procedure creates the subproductions for your hierarchy.
 
 > [!NOTE]
- The consumed item/link to order method does not support indirect costs and standard costs.
+ The consumed item/link to order method doesn't support indirect costs and standard costs.
 
 ## Direct project production orders
 A **project production order** can be created **independently** of project **sales orders** or **item requirements**. 
 
 ### Finished item
 If you select the **finished item** as **posting method** and **production order** is created without **sales orders** or **item requirements**,
-then you cannot **post project costs** until the production cycle for an item has a status of **Ended**. The cost for the **finished item** is posted as a **single transaction**.
+then you can't **post project costs** until the production cycle for an item has a status of **Ended**. The cost for the **finished item** is posted as a **single transaction**.
 
 ### Consumed item
 You can use the **consumed item** posting method without any linkage to the item requirement. By using this method, you can view actual **project costs** when the production has a status of **Started** or is **reported as Finished**. 
 The costs are posted as multiple project item transactions for **raw materials** and **hours** consumed for the production. 
 You can also define the level in the BOM hierarchy at which projects in the production are tracked. 
-You can create the hierarchy in the BOM line form by choosing **Pegged supply** in the **Line type** field and selecting the **Set subproduction to Consumed** check box. This procedure creates the subproductions for your hierarchy.
+To create the hierarchy in the BOM line form, select **Pegged supply** in the **Line type** field and check the **Set subproduction to Consumed** option. This procedure creates the subproductions for your hierarchy.
