@@ -2,11 +2,10 @@
 title: GST/TDS-TCS tax support for Project integration journals
 description: This article explains the calculation of Indian taxes and how to adjust accounting attributes for GST and TDS-TCS transactions in Project integration journals.
 author: prabhatb
-ms.date: 06/10/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
-audience: Application User
 ms.reviewer: johnmichalak
 ms.search.scope: Core, Operations
 ms.search.region: India
@@ -29,7 +28,7 @@ To activate this feature, follow these steps.
 
     ![Screenshot that shows the feature in the list of available features in the Feature management workspace.](media/project-integration-journal-001.png)
 
-For tax setup, the required configuration version is **85.157.303**.
+For tax setup, the required configuration version is **83.157.303**.
 
 ## Enable GST/TDS-TCS taxes in Integration journals
 
