@@ -29,7 +29,7 @@ To activate this feature, follow these steps.
 
     ![Screenshot that shows the feature in the list of available features in the Feature management workspace.](media/project-integration-journal-001.png)
 
-For tax setup, the required configuration version is **85.157.303**.
+For tax setup, the required configuration version is **83.157.303**.
 
 ## Enable GST/TDS-TCS taxes in Integration journals
 
