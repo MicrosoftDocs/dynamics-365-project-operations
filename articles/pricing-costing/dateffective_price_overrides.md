@@ -2,7 +2,7 @@
 title: Date-effective price overrides
 description: This article explains how to set up price overrides for specific prices in the price list.
 author: rumant
-ms.date: 09/12/2024
+ms.date: 01/29/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -59,7 +59,7 @@ Each price override has date effectivity and a scope.
     > [!NOTE]
     > The date that is selected in the **Effective from** field should be within the effective dates of the parent price list. The price override take effects on the date that is selected in the **Effective from** field, and it applies until the end of the parent price list's end date. If you set up another date-effective price override for the same role price, the first price override takes effect on the date that is selected in the **Effective from** field, and it applies until the start of the second override.
 
-- The **Scope** field is dependent on the context of the price list. If the price list context is **Sales**, you can select among customers, quotes, and project contracts. The order of priority for the override is Contract, Quote and then the Customer. If the context is **Purchase**, you can select among vendors, subcontracts, and project vendor invoices. If the context is **Cost**, you can select among organizational units.
+- The **Scope** field is dependent on the context of the price list. If the price list context is **Sales**, you can select among customers, quotes, and project contracts. The order of priority for the override is Contract, Quote, and then Customer. If the context is **Purchase**, you can select among vendors, subcontracts, and project vendor invoices. If the context is **Cost**, you can select among organizational units.
 
     The following tables show how the scope that you select for a price override limits the applicability of the override in different price list contexts.
 
