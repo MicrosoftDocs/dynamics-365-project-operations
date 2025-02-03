@@ -25,18 +25,17 @@ Expense report entry has been redesigned to simplify the process and reduce the 
 - A new page to specify required fields, optional fields, and the fields that should not be included. This page helps to reduce the number of fields that must be set.
 - A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.
 
-To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined workspace** feature. When you turn on this feature, the following actions occur:
+To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports reimagined** and **Expense reports reimagined enhancements** features. When you turn on these features, the following actions occur:
 
 - The existing expense workspace is replaced with the new workspace.
 - A new menu item for expense field visibility is added.
 - No existing menu items for expense reports (the existing page) or expense report fields are removed.
-- Workflows and any approvals still take you to the existing expense reports page.
 
 > [!VIDEO ad14b5ae-36c0-4cef-bfcd-776261f8cb29]
 
-## New features
+## Features available when enabling the 'Expense reports reimagined' feature
 
-| New feature | Description |
+| Feature | Description |
 |---|----|
 | Expense field visibility | A new setup page lets you specify which fields should be disabled for an organization. You can also specify which fields should be required, and which fields are recommended. |
 | Required fields | New simple configuration lets you make some fields required without having to use the policy framework. |
@@ -56,15 +55,21 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 | Cash advance selection | Select one or more cash advances for fulfilling a single expense transaction. |
 | Cash advance balance | Review the cash advance balance in real time when you create an expense entry against approved and paid cash advances. |
 
-The initial release is focused on expense entry scenarios. Any expense report review or approval scenario will continue to use the existing expense entry page.
+## New features available when enabling the 'Expense reports reimagined enhancements' feature
 
+| Feature | Description |
+|---|----|
+| Workflow history | View the workflow history for an expense report. |
+| Line-level workflows | Ability to submit and recall line-level workflows. |
+| Map expenses to a travel requisition | Users can now map an expense to an approved travel requisition. |
+| Quick matching of receipts to expenses | Users can now match a receipt to multiple expenses at once. |
+| Interim and final approvers | Interim and final approvers can now be configured for expense reports. |
+| Merge with a draft expense | If an expense is a duplicate of another draft expense, users can select the concerned expenses and merge them into a single expense. |
+| Reconcile against submitted expenses | Match unattached expenses to expenses that have already been submitted. |
+| Attestation of anti-corruption messages | Users can now attest to the anti-corruption message configured for a particular expense category. |
 
-The following features aren't supported on the Expense reports reimagined workspace, but are planned for future releases: 
+To enable the **Per Diem** capablity within Expense reports reimagined, please enable the **Per-diem for expense report re-imagined interface** feature in **Feature management**.
 
-- Travel requisition integration
-- Per diem expense entry
-- Interim approver support
-- Ability to view workflow history
-
+Expense reports reimagined is currently focused on expense entry scenarios. Any expense report review or approval scenario will continue to use the existing expense entry page.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
