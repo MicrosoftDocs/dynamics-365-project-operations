@@ -38,7 +38,7 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 | Feature | Description |
 |---|----|
 | Expense field visibility | A new setup page lets you specify which fields should be disabled for an organization. You can also specify which fields should be required, and which fields are recommended. |
-| Required fields | New simple configuration lets you make some requirted fields without using the policy framework. |
+| Required fields | New simple configuration lets you make some required fields without using the policy framework. |
 | Optional fields | A second page for optional fields is added. In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible. |
 | Add unattached receipts | The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report. |
 | Improved messaging | Better visibility into expense lines that have warnings or errors. |
