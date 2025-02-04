@@ -3,7 +3,7 @@ title: Expense reports reimagined
 description: This article explains the redesigned and reimagined experience for expense report entry.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/24/2024
+ms.date: 02/04/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -60,15 +60,15 @@ To turn on the new experience, use the **Feature management** workspace to turn 
 | Feature | Description |
 |---|----|
 | Workflow history | View the workflow history for an expense report. |
-| Line-level workflows | Ability to submit and recall line-level workflows. |
-| Map expenses to a travel requisition | Users can now map an expense to an approved travel requisition. |
-| Quick matching of receipts to expenses | Users can now match a receipt to multiple expenses at once. |
-| Interim and final approvers | Interim and final approvers can now be configured for expense reports. |
-| Merge with a draft expense | If an expense is a duplicate of another draft expense, users can select the concerned expenses and merge them into a single expense. |
+| Line-level workflows | Submit and recall line-level workflows. |
+| Map expenses to a travel requisition | Map an expense to an approved travel requisition. |
+| Quick matching of receipts to expenses | Match a receipt to multiple expenses at once. |
+| Interim and final approvers | Configure interim and final approvers for expense reports. |
+| Merge with a draft expense | If an expense is a duplicate of another draft expense, you can select the concerned expenses and merge them into a single expense. |
 | Reconcile against submitted expenses | Match unattached expenses to expenses that have already been submitted. |
-| Attestation of anti-corruption messages | Users can now attest to the anti-corruption message configured for a particular expense category. |
+| Attestation of anti-corruption messages | Attest to the anti-corruption message configured for a particular expense category. |
 
-To enable the **Per Diem** capablity within Expense reports reimagined, please enable the **Per-diem for expense report re-imagined interface** feature in **Feature management**.
+To enable the **Per Diem** capability within Expense reports reimagined, enable the **Per-diem for expense report re-imagined interface** feature in **Feature management**.
 
 Expense reports reimagined is currently focused on expense entry scenarios. Any expense report review or approval scenario will continue to use the existing expense entry page.
 
