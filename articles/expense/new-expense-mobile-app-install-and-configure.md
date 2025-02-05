@@ -2,7 +2,7 @@
 title: Install and configure the Dynamics 365 expense management mobile app 
 description: This article explains how to install and configure the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 07/17/2024
+ms.date: 02/04/2025
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mukumarm
@@ -24,9 +24,9 @@ This article explains how administrators can prepare your Microsoft Dynamics 365
 
 ## System requirements
 
-To run the Dynamics 365 expense management mobile app, you must use the following versions of Microsoft Dynamics 365 Finance with the latest quality update (QU) or later.
-- 10.0.38 - 10.0.1777.180 or later
-- 10.0.39 - 10.0.1860.99 or later
+To run the Dynamics 365 expense management mobile app with the latest improvements, you must use the following versions of Microsoft Dynamics 365 Finance with the latest quality update (QU) or later.
+- 10.0.41 - 10.0.2015.129 or later
+- 10.0.42 - 10.0.2095.48 or later
   
 ## Set up Dataverse for your Dynamics 365 Finance environment
 
@@ -53,10 +53,10 @@ You must install the Dynamics 365 expense management mobile app in your Datavers
 
 To install the Dynamics 365 expense management mobile app in your Dataverse environment, follow these steps.
 
-1. In AppSource, go to [Dynamics 365 Dynamics 365 expense management Mobile Application](https://appsource.microsoft.com/product/dynamics-365/mscrm.msdyn_expense_mobile-preview?flightCodes=d365expensemobile&exp=ubp8).
-1. Select **Get it now**.
-1. Select the previously created or updated environment where you want to install the Dynamics 365 expense management mobile app, and then select **Install**.
-1. After successful installation, **Dynamics 365 Dynamics 365 expense management Mobile** is listed as a solution on the **Solutions** tab in Power Apps.
+1. Go to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/home).
+2. Select the desired environment in which you want to install the **Dynamics 365 Expense Management** mobile app.
+3. Go to **Dynamics 365 Apps** within the **Resources** section.
+4. Select **Install app** and install the **Dynamics 365 Expense Management** application.
 
 ## Refresh virtual entities in Dataverse
 > [!Note]
@@ -102,7 +102,7 @@ The following list shows the entities that need to be refreshed.
 
 After the mobile app solution is installed in your Dataverse environment, you must share it with your users. The Dynamics 365 expense management mobile app is a canvas app. To share it, follow the instructions in [Share a canvas app with your organization](/power-apps/maker/canvas-apps/share-app).
 
-Each user must be assigned the Dynamics 365 **Teams member** license or higher license using the Microsoft Entra portal (Azure portal).
+Each user must be assigned the Dynamics 365 **Teams member** license or higher license using the Microsoft Entra admin center.
 Each relevant user must be assigned a **Basic user** and **Expense mobile user** security role in Dataverse that lets them create a connection for the custom connector. You can assign this role to a Dataverse group team. Then, any user who's a member of that team also has the role. Alternatively, you can assign the role directly to a user. 
 
 - To assign a role to a group team, follow the instructions in [Manage the security roles of a team](/power-platform/admin/manage-group-teams#manage-the-security-roles-of-a-team). We recommend that you use group teams if you must assign the role to multiple users. For information about how to manage team members, see [Manage team members](/power-platform/admin/manage-teams#manage-team-members).
