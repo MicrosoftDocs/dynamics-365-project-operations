@@ -1,0 +1,31 @@
+---
+title: Process approvals programmatically
+description: This article provides information about how to use the msdyn_ProcessProjectApprovalSets API to approve records in Project Operations
+author: abriccetti
+ms.date: 02/05/2025
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
+---
+
+# Process approvals programmatically
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+
+Microsoft Dynamics 365 Project Operations provides the Process Project Approval Sets API to programmatically process approvals via Power Automate or custom plugin.
+
+## Process Project Approval Sets API
+
+  ### Name
+
+  msdyn\_ProcessProjectApprovalSets
+
+  ### Input Parameters
+
+  | Parameter              | Type              | Description                                                                                                    |
+|--------------------------|-------------------|----------------------------------------------------------------------------------------------------------------|
+| ProjectApprovals         | Entity Collection | A list of project approval records to process                                                                  |
+| ActionType               | Int               | The action to perform on the given records (Options: Reject: 192350001, Approve: 192350003, Cancel: 192350004) |
+| NoteLogName              | String            | The note that you want attached to the approval set, which will be visible in the “Logs” section               |
