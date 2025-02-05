@@ -77,7 +77,7 @@ You can manually generate fixed price milestones when they aren't periodically s
 To use this feature for Microsoft Dynamics 365 Project Operations non-stocked/resource-based scenarios, ensure that the following requirements are met:
 
 1. You're using Project Operations Dataverse version **4.124.0.x** or later.
-1. You're using Dynamics 365 Finance version **10.0.43** or later.
+1. You're using Dynamics 365 Finance version **10.0.42** or later.
 1. Activate the **Enable Progress billing on Project Operations for resource based/non-stocked scenarios** feature in the **Feature Management** workspace in Finance. **Progress billing** is enabled in Dataverse by default.
 1. Run the dual-write map for **Progress billing milestone header**, version **1.0.0.0** or later and **Project operations integration contract line milestone**, version **1.0.0.6** or later. 
 
