@@ -731,7 +731,9 @@
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
-        href: approvals/dev-notes-approvals.md        
+        href: approvals/dev-notes-approvals.md
+      - name: Process approvals programmatically
+        href: approvals/dev-programmatic-approvals.md
   - name: Actuals
     items: 
     - name: Business transactions in Project Operations
