@@ -41,14 +41,7 @@ Make sure that flow is activated by completing the following steps.
 The **Failed Approvals** view lists all of the approvals that require user intervention. Open the associated approval set logs to identify the cause of the failure.
 Selecting **Retry** adds to the approval set lifetime count, moves the approval set back to a status of **Processing**, and attempts to process the remaining records.
 
-## Configure approval sets
-
-### Enable the Approval sets feature
-Before you enable the Approval sets feature, verify that there are no approvals currently being processed. After this feature is enabled, it can't be disabled.
-
-- Go to the **Project parameters** page and select **Feature Control** > **Enable Modern Approvals**.
-
-### Configuring the asynchronous threshold 
+## Configuring the asynchronous threshold for approval sets
 When approval sets are created, processing moves to the background when the selected number of records for approval exceeds the indicated threshold. Use the **Asynchronous Threshold** field to configure when approval processing should be run synchronously or asynchronously. Select one of the following values:
 
   - Zero: All requests should be processed asynchronously. 
