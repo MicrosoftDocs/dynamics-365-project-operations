@@ -35,6 +35,6 @@ msdyn\_ProcessProjectApprovalSets
 - Different types of approvals (time, expense, or material) can be included in the `ProjectApprovals` entity collection.
 - The specified action type is performed on all records in the entity collection. You can't perform a different action on a subset of the records. To approve some records and reject others, you must make two API calls and pass the appropriate `ActionType` value in each call.
 - The approval process occurs in the context of the user who makes the request. Approval validations are run against that user (the `msdyn_Approver` field on the approval set).
-- Approval sets are processed either synchronously or asynchronously, depending on the **Background Approval Threshold** value, just as in approvals that are done via the user interface (UI).
+- As in the case f approvals that are done via the user interface (UI), approval sets are processed either synchronously or asynchronously, depending on the **Background Approval Threshold** value.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
