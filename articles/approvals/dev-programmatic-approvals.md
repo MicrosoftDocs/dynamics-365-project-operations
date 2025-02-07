@@ -1,6 +1,6 @@
 ---
 title: Process approvals programmatically
-description: Learn about how to use the msdyn_ProcessProjectApprovalSets API to approve records in Microsoft Dynamics 365 Project Operations
+description: Learn how to use the msdyn_ProcessProjectApprovalSets API to approve records in Microsoft Dynamics 365 Project Operations.
 author: abriccetti
 ms.date: 02/05/2025
 ms.topic: how-to
@@ -14,7 +14,7 @@ ms.author: abriccetti
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-Microsoft Dynamics 365 Project Operations provides the Process Project Approval Sets API to programmatically process approvals via Microsoft Power Automate or a custom plugin.
+Microsoft Dynamics 365 Project Operations provides the Process Project Approval Sets API. You can use this API to programmatically process approvals via Power Automate or a custom plug-in.
 
 ## Process Project Approval Sets API
 
@@ -22,20 +22,19 @@ Microsoft Dynamics 365 Project Operations provides the Process Project Approval 
 
 msdyn\_ProcessProjectApprovalSets
 
-### Input Parameters
+### Input parameters
 
-| Parameter                | Type              | Description                                                    |
-|--------------------------|-------------------|----------------------------------------------------------------|
-| ProjectApprovals         | Entity Collection | A list of project approval records to process.                 |
-| ActionType               | Int               | The action to perform on the given records (Options: Reject: 192350001, Approve: 192350003, Cancel: 192350004). |
-| NoteLogName              | String            | The note that you want attached to the approval set that is visible in the **Logs** section. |
+| Parameter        | Type              | Description |
+|------------------|-------------------|-------------|
+| ProjectApprovals | Entity Collection | A list of the project approval records to process. |
+| ActionType       | Int               | <p>The action to perform on the records. The following options are available:</p><ul><li>Reject: 192350001</li><li>Approve: 192350003</li><li>Cancel: 192350004</li></ul> |
+| NoteLogName      | String            | The note that you want to attach to the approval set. This note is shown in the **Logs** section. |
 
 ### Notes
 
-- Different types of approvals (time, expense, or material) may be included in the ProjectApprovals Entity Collection.
-- The specified ActionType is performed on all records in the entity collection. There isn't an option to perform different actions on a subset of the included records. To approve some records and reject others, two calls of the API are required with the appropriate ActionType passed for each call.
-- The approval process happens in the context of the user who makes the request, and approval validations are run against that user (field msdyn_Approver on the approval set).
-- Approval sets are then processed synchronously or asynchronously according to the Background Approval Threshold in the same manner as approvals done via the UI.
-
+- Different types of approvals (time, expense, or material) can be included in the `ProjectApprovals` entity collection.
+- The specified action type is performed on all records in the entity collection. You can't perform a different action on a subset of the records. To approve some records and reject others, you must make two API calls and pass the appropriate `ActionType` value in each call.
+- The approval process occurs in the context of the user who makes the request. Approval validations are run against that user (the `msdyn_Approver` field on the approval set).
+- Approval sets are processed either synchronously or asynchronously, depending on the **Background Approval Threshold** value, just as in approvals that are done via the user interface (UI).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
