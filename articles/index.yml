@@ -46,12 +46,14 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: whats-new/whats-new-may-2023-resource-based.md
-        text: What's new
-      - url: environment/security-model.md
-        text: Security Model
-      - url: approvals/approvals-security.md
-        text: Security and approvals
+      - text: Security, compliance, and privacy
+        url: /dynamics365/get-started/security
+      - text: Implementation guide
+        url: /dynamics365/guidance/implementation-guide/overview
+      - text: Implementation tools and samples
+        url: /dynamics365/guidance/resources/
+      - text: End-to-end business processes
+        url: /dynamics365/guidance/business-processes/overview
     - title: Try/Buy/Deploy
       links: 
       - url: environment/project-operations-integrated-deployment-overview.md
@@ -81,13 +83,15 @@ additionalContent:
   - title: Deal to proforma invoicing scenarios (Lite deployment)
     items:
     - title: Guidance 
-      links:
-      - url: environment/security-model.md
-        text: Security Model
-      - url: approvals/approvals-security.md
-        text: Security and approvals
-      - url: pro/whats-new/whats-new-may-2023-lite.md
-        text: What’s new
+      links: 
+      - text: Security, compliance, and privacy
+        url: /dynamics365/get-started/security
+      - text: Implementation guide
+        url: /dynamics365/guidance/implementation-guide/overview
+      - text: Implementation tools and samples
+        url: /dynamics365/guidance/resources/
+      - text: End-to-end business processes
+        url: /dynamics365/guidance/business-processes/overview
     - title: Try/Buy/Deploy
       links: 
       - url: environment/admin-trials.md
@@ -115,11 +119,15 @@ additionalContent:
   - title: Stocked and production-based scenarios
     items:
     - title: Guidance 
-      links:
-      - url: prod-pma/whats-new/whats-new-may-2023-stocked.md
-        text: What’s new
-      - url: whats-new/ur5-nonstocked-installation.md
-        text: Update Project Operations in your Finance environment
+      links: 
+      - text: Security, compliance, and privacy
+        url: /dynamics365/get-started/security
+      - text: Implementation guide
+        url: /dynamics365/guidance/implementation-guide/overview
+      - text: Implementation tools and samples
+        url: /dynamics365/guidance/resources/
+      - text: End-to-end business processes
+        url: /dynamics365/guidance/business-processes/overview
     - title: Try/Buy/Deploy
       links:
       - url: prod-pma/project-operations-prod-order-deployment-overview.md
