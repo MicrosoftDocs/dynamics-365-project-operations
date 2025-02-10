@@ -54,11 +54,17 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | &nbsp;    | France        | 4.123.0.510      | February 05, 2025        | 4.124.0.x    | February 21, 2025      | February 28, 2025  |
 | &nbsp;    | South Africa  | 4.123.0.510      | February 05, 2025        | 4.124.0.x    | February 21, 2025      | February 28, 2025  |
 | &nbsp;    | Switzerland   | 4.123.0.510      | February 05, 2025        | 4.124.0.x    | February 21, 2025      | February 28, 2025  |
-| &nbsp;    | Korea         | 4.123.0.510      | NA                        | 4.124.0.x    | February 21, 2025      | February 28, 2025   |
-| Station 3 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | Germany       | 4.123.0.510      | February 07, 2025        | 4.124.0.x    | February 28, 2025      | March 07, 2025  |
+| &nbsp;    | Korea         | 4.123.0.510      | NA                       | 4.124.0.x    | February 21, 2025      | February 28, 2025   |
+| &nbsp;    | Germany       | NA               | NA                       | 4.124.0.x    | February 21, 2025      | NA  |
+| &nbsp;    | Norway        | NA               | NA                       | 4.124.0.x    | February 21, 2025      | NA  |
+| Station 3 | &nbsp;        | &nbsp;           | &nbsp;                   | &nbsp;       | &nbsp;                 | &nbsp;             |
+| &nbsp;    | Japan         | 4.123.0.510      | February 07, 2025        | 4.124.0.x    | February 28, 2025      | March 07, 2025  |
+| &nbsp;    | Asia Pacific  | 4.123.0.510      | February 07, 2025        | 4.124.0.x    | February 28, 2025      | March 07, 2025  |
+| &nbsp;    | Great Britain | 4.123.0.510      | February 07, 2025        | 4.124.0.x    | February 28, 2025      | March 07, 2025  |
+| &nbsp;    | Oceania       | 4.123.0.510      | February 07, 2025        | 4.124.0.x    | February 28, 2025      | March 07, 2025  |
+| &nbsp;    | United Arab Emirates       | 4.123.0.510      | February 07, 2025        | 4.124.0.x    | February 28, 2025      | March 07, 2025  |
 | Station 4 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | UK            | 4.122.0.690      | December 16, 2024        | 4.123.0.510    | February 07, 2025      | February 13, 2025  |
+| &nbsp;    | UK            | 4.123.0.510      | February 13, 2025        | 4.124.0.x    | March 07, 2025      | March 14, 2025  |
 | Station 5 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
 | &nbsp;    | USA           | 4.122.0.690      | December 20, 2024        | 4.123.0.510    | February 13, 2025      | February 20, 2025  |
 
