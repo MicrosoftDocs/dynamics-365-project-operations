@@ -1,13 +1,13 @@
 ---
 title: Security and approvals
 description: This article provides information about the security setup for working with approvals in Microsoft Dynamics 365 Project Operations.
-author: suvaidya
-ms.date: 08/29/2022
+author: abriccetti
+ms.date: 02/10/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: abriccetti
 
 ---
 # Security and approvals
@@ -16,22 +16,18 @@ ms.author: suvaidya
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Microsoft Dynamics 365 Project Operations uses two security roles to allow for the approval of time, expense, and material entries:
+Microsoft Dynamics 365 Project Operations has different requirements for approving time, material, and expense entries based on if the entry is linked to a project or not.
 
-- Project Approver
-- Project Approver Admin
+## Requirements for approving time, material, and expense entries linked to projects
 
-## Project Approver
+In order to approve project time, expense, and material entries linked to a project, a user must be a team member on the project and have the **Project Approver** field on their team member record set to yes. They must also have access to the relevant related entities, such as **Project**. The **Project Approver** role grants a user the required entity permissions in Dataverse to approve records of any type.
 
-You must have the **Project Approver** security role to approve project time, expense, and material entries. You must also have access to the relevant related entities, such as **Project**. That access can be assigned by someone who has the **Project Manager** role. Additionally, you must be a team member of the project and marked as an approver.
+## Approving time, material, and expense entries linked to projects
 
-To approve non-project entries, you must be the manager of the submitter.
+To approve nonproject entries, the approving user must be the [manager](/dynamics365/customerengagement/on-premises/developer/entities/systemuser?view=op-9-1#BKMK_ParentSystemUserId) of the submitter.
 
 ## Project Approver Admin
 
-> [!NOTE]
-> The [Approval sets](approval-sets.md) feature must be enabled before you can use the Project Approver Admin functionality.
-
-The **Project Approver Admin** security role allows users to bypass policies and allows for the approval of entries across all projects. Assignment of this role will bypass the validation logic that requires team membership and being marked as an approver. You must have access to the relevant related tables, such as **Project**, via security roles assigned to you.
+The **Project Approver Admin** security role allows users to bypass policies and allows for the approval of all entries regardless of type or if it's linked to a project. Assignment of this role bypasses the validation logic that requires team membership and being marked as an approver or status as the submitting user's manager. You must have access to the relevant related tables, such as **Project**, via security roles assigned to you.
 
 The SYSTEM user context bypasses validations in the same way as the Project Approver Admin security role.
