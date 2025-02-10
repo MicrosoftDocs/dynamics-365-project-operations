@@ -22,9 +22,9 @@ Microsoft Dynamics 365 Project Operations has different requirements for approvi
 
 In order to approve project time, expense, and material entries linked to a project, a user must be a team member on the project and have the **Project Approver** field on their team member record set to yes. They must also have access to the relevant related entities, such as **Project**. The **Project Approver** role grants a user the required entity permissions in Dataverse to approve records of any type.
 
-## Requirements for approving time, material, and expense entries linked to projects
+## Approving time, material, and expense entries linked to projects
 
-To approve nonproject entries, the approving user must be the [manager](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/entities/systemuser?view=op-9-1#BKMK_ParentSystemUserId) of the submitter.
+To approve nonproject entries, the approving user must be the [manager](/dynamics365/customerengagement/on-premises/developer/entities/systemuser?view=op-9-1#BKMK_ParentSystemUserId) of the submitter.
 
 ## Project Approver Admin
 
