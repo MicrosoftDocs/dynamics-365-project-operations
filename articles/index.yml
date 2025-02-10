@@ -46,14 +46,14 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-		  - text: Security, compliance, and privacy
-		    url: /dynamics365/get-started/security
-		  - text: Implementation guide
-		    url: /dynamics365/guidance/implementation-guide/overview
-		  - text: Implementation tools and samples
-		    url: /dynamics365/guidance/resources/
-		  - text: End-to-end business processes
-		    url: /dynamics365/guidance/business-processes/overview
+      - text: Security, compliance, and privacy
+        url: /dynamics365/get-started/security
+      - text: Implementation guide
+        url: /dynamics365/guidance/implementation-guide/overview
+      - text: Implementation tools and samples
+        url: /dynamics365/guidance/resources/
+      - text: End-to-end business processes
+        url: /dynamics365/guidance/business-processes/overview
     - title: Try/Buy/Deploy
       links: 
       - url: environment/project-operations-integrated-deployment-overview.md
@@ -84,14 +84,14 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-		  - text: Security, compliance, and privacy
-		    url: /dynamics365/get-started/security
-		  - text: Implementation guide
-		    url: /dynamics365/guidance/implementation-guide/overview
-		  - text: Implementation tools and samples
-		    url: /dynamics365/guidance/resources/
-		  - text: End-to-end business processes
-		    url: /dynamics365/guidance/business-processes/overview
+      - text: Security, compliance, and privacy
+        url: /dynamics365/get-started/security
+      - text: Implementation guide
+        url: /dynamics365/guidance/implementation-guide/overview
+      - text: Implementation tools and samples
+        url: /dynamics365/guidance/resources/
+      - text: End-to-end business processes
+        url: /dynamics365/guidance/business-processes/overview
     - title: Try/Buy/Deploy
       links: 
       - url: environment/admin-trials.md
@@ -120,14 +120,14 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-		  - text: Security, compliance, and privacy
-		    url: /dynamics365/get-started/security
-		  - text: Implementation guide
-		    url: /dynamics365/guidance/implementation-guide/overview
-		  - text: Implementation tools and samples
-		    url: /dynamics365/guidance/resources/
-		  - text: End-to-end business processes
-		    url: /dynamics365/guidance/business-processes/overview
+      - text: Security, compliance, and privacy
+        url: /dynamics365/get-started/security
+      - text: Implementation guide
+        url: /dynamics365/guidance/implementation-guide/overview
+      - text: Implementation tools and samples
+        url: /dynamics365/guidance/resources/
+      - text: End-to-end business processes
+        url: /dynamics365/guidance/business-processes/overview
     - title: Try/Buy/Deploy
       links:
       - url: prod-pma/project-operations-prod-order-deployment-overview.md
