@@ -13,7 +13,7 @@ ms.author: suvaidya
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
-The ability to create transactions for time, expense, and material usage directly on a draft invoice streamlines the process of invoicing to help ensure timely and accurate billing. This enhances operational efficiency and accelerates cash flow, providing significant financial and administrative benefits to project-oriented companies. This capability is available on lite deployment of Project Operations. With UR 54, this functionality is being extended to integrated deployments as well. 
+The ability to create transactions for time, expense, and material usage directly on a draft invoice streamlines the process of invoicing to help ensure timely and accurate billing. This enhances operational efficiency and accelerates cash flow, providing significant financial and administrative benefits to project-oriented companies. This capability is available on lite deployment of Project Operations and with UR 54, is being extended to integrated deployments as well. 
 
 > [!NOTE]
 >The feature can be enabled in Parameters--> settings--> feature control--> **Enable improvements in invoice creation**. Once enabled the feature cannot be disabled.
