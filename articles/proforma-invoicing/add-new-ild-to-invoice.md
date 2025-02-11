@@ -30,4 +30,4 @@ Invoice line details that are manually added to the invoice do not have backing 
 1. **On a Time and material contract line** : Confirming the invoice, will create an unbilled sales actual , unbilled sales reversal actual and billed sales actual for the amount that was specified in the manually added invoice line detail.
 2. **On a FP Contract line** : Confirming the invoice will create a billed sales actual for the amount that was specified in the manually added invoice line detail.
 
-To learn more about the impact of different billing events on actuals refer [Actuals impact in a time and materials engagement](articles/actuals/ActualsonTM.md) and [Actuals impact in a fixed price engagement](ActualonFP.md)
+To learn more about the impact of different billing events on actuals refer [Actuals impact in a time and materials engagement](ActualsonTM.md) and [Actuals impact in a fixed price engagement](ActualonFP.md)
