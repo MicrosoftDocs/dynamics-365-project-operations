@@ -9,14 +9,15 @@ ms.custom:
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
-# Add new invoice line details to a draft invoice
+# Add new invoice line details to a draft project -based proforma invoice
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 The ability to create transactions for time, expense, and material usage directly on a draft invoice streamlines the process of invoicing to help ensure timely and accurate billing. This enhances operational efficiency and accelerates cash flow, providing significant financial and administrative benefits to project-oriented companies. This capability is available on lite deployment of Project Operations and with UR 54, is being extended to integrated deployments as well. 
 
 > [!NOTE]
->The feature can be enabled in Parameters--> settings--> feature control--> **Enable improvements in invoice creation**. Once enabled the feature cannot be disabled.
+> The feature can be enabled in Settings -> Parameters -> feature control -> Select **Enable improvements in invoice creation**.
+> Once enabled the feature cannot be disabled.
 
 ## Create new invoice line details on a draft proforma invoice
 1. Select the **New** button on the invoice form to create an invoice line detail of transaction class time, expense, material or fee.
@@ -30,4 +31,4 @@ Invoice line details that are manually added to the invoice do not have backing 
 1. **On a Time and material contract line** : Confirming the invoice, will create an unbilled sales actual , unbilled sales reversal actual and billed sales actual for the amount that was specified in the manually added invoice line detail.
 2. **On a FP Contract line** : Confirming the invoice will create a billed sales actual for the amount that was specified in the manually added invoice line detail.
 
-To learn more about the impact of different billing events on actuals refer [Actuals impact in a time and materials engagement](ActualsonTM.md) and [Actuals impact in a fixed price engagement](ActualonFP.md)
+To learn more about the impact of different billing events on actuals refer [Actuals impact in a time and materials engagement](../../folder/filename.md)[Actuals impact in a time and materials engagement](ActualsonTM.md) and [Actuals impact in a fixed price engagement](ActualonFP.md)
