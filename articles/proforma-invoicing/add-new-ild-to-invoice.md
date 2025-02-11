@@ -18,13 +18,13 @@ The ability to create transactions for time, expense, and material usage directl
 > [!NOTE]
 >The feature can be enabled in Parameters--> settings--> feature control--> **Enable improvements in invoice creation**. Once enabled the feature cannot be disabled.
 
-## How to manually add new invoice line details to a draft proforma invoice
+## Create new invoice line details on a draft proforma invoice
 1. Select the **New** button on the invoice form to create an invoice line detail of transaction class time, expense, material or fee.
 2. Update the invoice line detail with price, quantity, billing type, external description or description
 3. Save the invoice line detail.
 
 
-## Impact of manually added invoice line details on actuals 
+## Impact of newly created invoice line details on actuals 
 Invoice line details that are manually added to the invoice do not have backing actuals. The backing actuals for these invoice line details are added only on invoice confirmation. 
 
 1. **On a Time and material contract line** : Confirming the invoice, will create an unbilled sales actual , unbilled sales reversal actual and billed sales actual for the amount that was specified in the manually added invoice line detail.
