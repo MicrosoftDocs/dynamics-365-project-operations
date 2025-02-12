@@ -50,6 +50,7 @@ The following information is available in the **Billing hub** view.
 | Project | The name of the project that is associated with the contract line. |
 | Customers| The number of customers on the contract. |
 | Billing Method | The billing method on the related project contract line. |
+| Invoice Schedule Type | Indicates whether the fixed price contract line will be billed as a regular milestone or a progress based milestone. |
 | Milestones | All the invoiceable fixed price milestones that are available for the selected project contract line. |
 | Time | The billing backlog for all unbilled sales actuals of the **time** transaction type for the selected project contract line. |
 | Material | The billing backlog for all unbilled sales actuals of the **material** transaction type for the selected project contract line. |
@@ -79,12 +80,12 @@ To review or update the invoiceable backlog, follow these steps.
 
 ### Take actions on transactions in the billing backlog
 
-To take actions on transactions in the billing backlog, follow these steps.
+Take any of the following actions on transactions in the billing backlog.
 
-1. Mark transactions as invoiceable.
-1. Reevaluate the not-to-exceed status of transactions.
-1. Correct entries by using journals.
-1. For each contract line, create new invoices directly from the billing backlog by using the **Create invoice** functionality.
+1. Mark transactions as invoiceable or not invoiceable using **"Ready to Invoice"** or **"Not ready to invoice"** options.
+1. **Reevaluate not-to-exceed** status of transactions.
+1. **Correct entries** by using journals.
+1. Directly **create new invoices** from the billing backlog by using the **Create invoice** functionality.
 1. Add transactions to an existing invoice by using the **Add to invoice** functionality.
 
 When you use the **Add to invoice** functionality, you can expect the following behavior:
