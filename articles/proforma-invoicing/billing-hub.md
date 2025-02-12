@@ -108,13 +108,13 @@ Progress based milestones are indicated on the contract lines with **invoice sch
 
 The following fields are available on the milestone billing backlog for progress based milestones.
 
-On the Milestone Header-
+On the progress based Milestone Header-
 
 | Field | Description |
 |---|---| 
 | Name | The name of the milestone |
 | Task | Project task that the milestone is for |
-| Amount | Total amount on the milestone for this project contract customer |
+| Amount | Total milestone amount to be billed  |
 | Next invoice % | % of the total amount including tax that should be invoiced on the next invoice for this progress-based invoice schedule component. |
 | Next invoice amount | Amount that should be on the next invoice for this progress-based invoice schedule component. |
 | Next invoice status | Status of the next invoice for this progress-based invoice schedule component. |
@@ -122,33 +122,39 @@ On the Milestone Header-
 | % Invoiced to date | Percent of the total amount including tax that has already been invoiced for this progress-based invoice schedule component. |
 | Remaining amount | Amount available to be spent against the not-to-exceed limit |
 | Tax |Tax for this transaction |
-| Not-to-exceed status | 
+| Not-to-exceed status | Status of the transaction evaluated against NTE limits set on the project contract, or project contract customer |
 
-On the milestone line-
+On the progress based milestone line-
 
 | Field | Description |
 |---|---| 
 | Project Contract line customer | Name of the customer who will be invoiced for this milestone transaction |
-| Amount | A component of the total amount on the corresponding milestone header, that has been billed or will be billed to the project contract customer, depdending on the invoice status |
+| Amount | A portion of the total amount on the corresponding milestone header, that has been billed or will be billed to the project contract customer, depdending on the invoice status |
 | Date | Invoicing date for the milestone |
 | Invoice Status | Current invoicing status of the progress based billing milestone |
 
-To create an invoice for a progress based milestone, follow the steps below.
+To create an invoice for a progress based milestone(s), follow the steps below.
+On all milestones that need to be invoiced,
 1. Update the Next invoice %
-1. Update the Next invoice status to "Ready for invoicing"
-1. Deselect the milestone header
-1. Select grid refresh
-1. Select the milestone header
-1. Choose an action to "Create invoice" or "Add to invoice"
+1. Update the Next invoice status to "Ready for invoicing" using **Next invoice status** field or using **Ready to invoice** grid action on the milestone header.
+1. Deselect the milestone header row(s)
+1. **Refresh** grid
 
-   For example, consider total amount on the milestone header is $1000 and next invoice % -20% , then Next invoice amount is $200. 
+ **Updating the status of this milestone header to "ready for invoicing"  and refreshing the grid, will create a split of 2 milestone lines under this milestone header.**
+
+To create an invoice with the selected progress based milestones, follow the steps below.
+1. Select the milestone header 
+1. Choose between the grid actions to either "Create invoice" or "Add to invoice"
+
+For example, consider Amount on the milestone header is $1000 , Next invoice % is 20% , then Next invoice amount is $200. 
    
-   Updating the status of this milestone header to "ready for invoicing"  and refreshing the grid, will create a split of 2 milestone lines under this milestone header.
+Updating the status of this milestone header to "ready for invoicing"  and refreshing the grid, will create a split of 2 milestone lines under this milestone header.
    
-   1. $200 amount with Ready for invoicing status
-   2. $800 amount with Not ready for invoicing status
+1. $200 amount with "Ready for invoicing" status
+2. $800 amount with "Not ready for invoicing" status
    
-   At this point, selecting the milestone header which has $200 in "ready for invocing" state and selecting "Create invoice" will create a new invoice with the progress based milestone. 
+At this point, selecting the milestone header which has $200 in "ready for invocing" state and selecting "Create invoice" will create a new invoice with the progress based milestone for $200 amount.
+On confirming the invoice with this milestone, the invoice status of the milestone line in $200 will change to "Customer invoice posted" . You will now be able to create a new progress based milestone for , either the remaining amount of $800 or another 20% , i.e. $200. 
    
 
 
