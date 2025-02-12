@@ -134,11 +134,22 @@ On the milestone line-
 | Invoice Status | Current invoicing status of the progress based billing milestone |
 
 To create an invoice for a progress based milestone, follow the steps below.
-1.  Update the Next invoice %
-2.  Update the Next invoice status to "Ready for invoicing"
-3.  Deselect the milestone header
-4.  Select grid refresh
-5.  Select the milestone header
-6.  Choose an action to "Create invoice" or "Add to invoice"
+1. Update the Next invoice %
+1. Update the Next invoice status to "Ready for invoicing"
+1. Deselect the milestone header
+1. Select grid refresh
+1. Select the milestone header
+1. Choose an action to "Create invoice" or "Add to invoice"
+
+   For example, consider total amount on the milestone header is $1000 and next invoice % -20% , then Next invoice amount is $200. 
+   
+   Updating the status of this milestone header to "ready for invoicing"  and refreshing the grid, will create a split of 2 milestone lines under this milestone header.
+   
+   1. $200 amount with Ready for invoicing status
+   2. $800 amount with Not ready for invoicing status
+   
+   At this point, selecting the milestone header which has $200 in "ready for invocing" state and selecting "Create invoice" will create a new invoice with the progress based milestone. 
+   
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
