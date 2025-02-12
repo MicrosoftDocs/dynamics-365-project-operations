@@ -26,7 +26,7 @@ Updating the OOB billing hub view on the contract (parent) grid , removes the gr
 
 To customize the contract line fields, follow the steps below.
 1. Create a copy of the OOB billing hub view using "Save as" from the admin portal 
-2. Update the new view with the required fields on the contract line. 
+2. Update the custom view with the required fields on the contract line. 
 3. Save and Publish
 4. Set the custom view as the default view.
 5. At any point in time , to revert to the OOB view, remove active customizations on the custom view. 
