@@ -107,7 +107,9 @@ Billing hub supports the ability to generate invoices for progress billed milest
 Progress based milestones are indicated on the contract lines with **invoice schedule type** field set to **Progress based**. 
 
 The following fields are available on the milestone billing backlog for progress based milestones.
+
 On the Milestone Header-
+
 | Field | Description |
 |---|---| 
 | Name | The name of the milestone |
@@ -131,5 +133,12 @@ On the milestone line-
 | Date | Invoicing date for the milestone |
 | Invoice Status | Current invoicing status of the progress based billing milestone |
 
+To create an invoice for a progress based milestone, follow the steps below.
+1.  Update the Next invoice %
+2.  Update the Next invoice status to "Ready for invoicing"
+3.  Deselect the milestone header
+4.  Select grid refresh
+5.  Select the milestone header
+6.  Choose an action to "Create invoice" or "Add to invoice"
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
