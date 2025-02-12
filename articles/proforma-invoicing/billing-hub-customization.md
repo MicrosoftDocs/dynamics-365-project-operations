@@ -20,11 +20,11 @@ Billing Hub View includes a nested grid with contract and contract line details.
 
 ## Customizing contract fields on Billing hub view
 
-Updating the OOB billing hub view on the contract (parent) grid , removes the grid customizer from the view, breaking the ability for users to view the clickable backlog on the contract(s) or contract line(s). Until this issue is resolved, we recommend not making any changes to the contract columns.
+Updating the OOB billing hub view on the contract (parent) grid , removes the grid customizer from the view. This breaks the existing functionality for users to view the clickable backlog on the contract(s) or contract line(s). Until this issue is resolved, we recommend not making any changes to the contract columns.
 
 ## Customizing contract line fields on Billing hub view
 
-To customize the view, follow the steps below.
+To customize the contract line fields, follow the steps below.
 1. Create a copy of the OOB billing hub view using "Save as" from the admin portal 
 2. Update the new view with the required fields on the contract line. 
 3. Save and Publish
