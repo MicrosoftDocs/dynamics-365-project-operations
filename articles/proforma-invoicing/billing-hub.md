@@ -140,7 +140,8 @@ On all milestones that need to be invoiced,
 1. Deselect the milestone header row(s)
 1. **Refresh** grid
 
- **Updating the status of this milestone header to "ready for invoicing"  and refreshing the grid, will create a split of 2 milestone lines under this milestone header.**
+> [!IMPORTANT]
+> **Updating the status of this milestone header to "ready for invoicing"  and refreshing the grid, will create a split of 2 milestone lines under this milestone header.**
 
 To create an invoice with the selected progress based milestones, follow the steps below.
 1. Select the milestone header 
@@ -148,7 +149,7 @@ To create an invoice with the selected progress based milestones, follow the ste
 
 For example, consider Amount on the milestone header is $1000 , Next invoice % is 20% , then Next invoice amount is $200. 
    
-Updating the status of this milestone header to "ready for invoicing"  and refreshing the grid, will create a split of 2 milestone lines under this milestone header.
+Update the status of this milestone header to "ready for invoicing"  and refresh the grid. This will create a split of 2 milestone lines under this milestone header.
    
   1. $200 amount with "Ready for invoicing" status
   2. $800 amount with "Not ready for invoicing" status
