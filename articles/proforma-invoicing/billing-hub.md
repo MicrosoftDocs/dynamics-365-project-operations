@@ -50,6 +50,7 @@ The following information is available in the **Billing hub** view.
 | Project | The name of the project that is associated with the contract line. |
 | Customers| The number of customers on the contract. |
 | Billing Method | The billing method on the related project contract line. |
+| Invoice Schedule Type | Indicates whether the fixed price contract line will be billed as a regular milestone or a progress based milestone. |
 | Milestones | All the invoiceable fixed price milestones that are available for the selected project contract line. |
 | Time | The billing backlog for all unbilled sales actuals of the **time** transaction type for the selected project contract line. |
 | Material | The billing backlog for all unbilled sales actuals of the **material** transaction type for the selected project contract line. |
@@ -58,16 +59,10 @@ The following information is available in the **Billing hub** view.
 | Invoiceable backlog | The billing backlog that includes all invoiceable transactions for the project contract line. |
 | Spent Amount | The previously billed backlog that includes all transactions that are already invoiced for the project contract line. |
 
-### Update totals on contract and contract line fields
+> [!IMPORTANT]
+> At any point during the invoicing process, use the **Update Totals** action on the Billing hub form, to update all the calculated fields on the contract and contract lines. For newly added project contracts, amount values are initially **0** (zero).
 
-At any point during the invoicing process, use the **Update Totals** action to update all the calculated fields on the contract and contract lines. For newly added project contracts, amount values are initially **0** (zero).
-
-To update totals on contract and contract line fields, follow these steps.
-
-1. Select one or more project contracts.
-1. On the Action Pane, select **Update Totals**.
-
-## Review or update the invoiceable backlog per contract line
+## Update the invoiceable backlog per contract line
 
 The contract lines for each project contract provide a view of all associated actuals for time, expenses, materials, and fees. The invoiceable backlog provides a comprehensive list of actuals across all transaction types. Use the hyperlinks to drill down into each category of invoiceable transactions and mark them as either ready or not ready to be invoiced.
 
@@ -77,20 +72,64 @@ To review or update the invoiceable backlog, follow these steps.
 1. Select the transactions, and then update the billing status by selecting **Ready to invoice** or **Not ready to invoice** in the list of options for the subgrid.
 1. On the **Billing hub** page, select **Update Totals**. All calculated fields on the contract and contract lines are updated so that they reflect the latest status.
 
-### Take actions on transactions in the billing backlog
+   
+## Possible billing actions on transactions in the Invoiceable backlog
 
-To take actions on transactions in the billing backlog, follow these steps.
+For each available contract line, when the billing backlog amount is not zero, the following actions are possible.
 
-1. Mark transactions as invoiceable.
-1. Reevaluate the not-to-exceed status of transactions.
-1. Correct entries by using journals.
-1. For each contract line, create new invoices directly from the billing backlog by using the **Create invoice** functionality.
+1. Mark transactions as invoiceable or not invoiceable using **"Ready to Invoice"** or **"Not ready to invoice"** options.
+1. **Reevaluate not-to-exceed** status of transactions.
+1. **Correct entries** by using journals.
+1. Directly **create new invoices** from the billing backlog by using the **Create invoice** functionality.
 1. Add transactions to an existing invoice by using the **Add to invoice** functionality.
 
+### **Create invoice** feature
+- When the **Create invoice** on the Billing hub form is used, a new invoice is created with all transactions that are in **ready to invoice** state across all project contract lines for the selected contract(s).
+- When the **Create invoice** on the billing backlog for Time, material, expense, fee, or milestones is used, an invoice is created with only the selected transactions in the backlog. 
+
+### **Add to invoice** feature
 When you use the **Add to invoice** functionality, you can expect the following behavior:
 
 - If a single draft invoice exists for the project contract and project contract customer, the transaction is added to the invoice.
 - If more than one draft invoice exists for the project contract and project contract customer, the transaction is added to the most recently created draft invoice.
-- If no draft invoices exist, a new invoice is created that has the selected transactions. This behavior is similar to the behavior for the **Create invoice** functionality.
+- If no draft invoices exist, a new invoice is created with the selected transactions. This behavior is similar to the behavior for the **Create invoice** functionality.
+
+### Update totals on contract and contract line fields
+
+To update totals on contract and contract line fields, follow these steps.
+
+1. Select one or more project contracts.
+1. On the Action Pane, select **Update Totals**.
+
+### Create invoices with Progress based milestones
+
+Billing hub supports the ability to generate invoices for progress billed milestones. Progress based billing provides flexibility in billing and allows customers to realize revenue in regular increments as work towards the milestone is completed. 
+Progress based milestones are indicated on the contract lines with **invoice schedule type** field set to **Progress based**. 
+
+The following fields are available on the milestone billing backlog for progress based milestones.
+On the Milestone Header-
+| Field | Description |
+|---|---| 
+| Name | The name of the milestone |
+| Task | Project task that the milestone is for |
+| Amount | Total amount on the milestone for this project contract customer |
+| Next invoice % | % of the total amount including tax that should be invoiced on the next invoice for this progress-based invoice schedule component. |
+| Next invoice amount | Amount that should be on the next invoice for this progress-based invoice schedule component. |
+| Next invoice status | Status of the next invoice for this progress-based invoice schedule component. |
+| Invoiced to date | Amount that has already been invoiced for this progress-based invoice schedule component. |
+| % Invoiced to date | Percent of the total amount including tax that has already been invoiced for this progress-based invoice schedule component. |
+| Remaining amount | Amount available to be spent against the not-to-exceed limit |
+| Tax |Tax for this transaction |
+| Not-to-exceed status | 
+
+On the milestone line-
+
+| Field | Description |
+|---|---| 
+| Project Contract line customer | Name of the customer who will be invoiced for this milestone transaction |
+| Amount | A component of the total amount on the corresponding milestone header, that has been billed or will be billed to the project contract customer, depdending on the invoice status |
+| Date | Invoicing date for the milestone |
+| Invoice Status | Current invoicing status of the progress based billing milestone |
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
