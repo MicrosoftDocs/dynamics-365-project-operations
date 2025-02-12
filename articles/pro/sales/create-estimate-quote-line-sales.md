@@ -1,11 +1,11 @@
 ---
 title: Estimate a project quote line
 description: This article provides information about how to create an estimate on a project quote line.
-author: rumant
-ms.date: 12/03/2022
+author: poojafandan
+ms.date: 2/12/2025
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: rumant
+ms.author: poojafandan
 ---
 
 # Estimate a project quote line
@@ -49,9 +49,50 @@ To create quote line details, select **New quote line detail** on the **Quote Li
 
 If you have changed prices on the project price list that is attached to the quote, or on the cost price list of the contracting unit, you can select **Recalculate** on the **Quote** page to refresh the prices on the individual quote line details to reflect this change. When you select **Recalculate**, a warning appears that informs you that prices on quote line details for all quote lines on this quote will be reset. Select **Yes** to refresh prices for both sales and cost quote line details.
 
-## Access quote line details for cost
+## Time Phasing of Prices
+The Time Phasing of Prices feature provides visibility into price fluctuations over time within Project Quote Lines. Nested quote line details display price changes phased out on a weekly basis, allowing you to track adjustments due to price overrides or multiple price lists. Throughout the duration of a quote line detail, the system distributes the quantities and prices for each week, making it easier to identify pricing adjustments. The parent quote line detail reflects the weighted average price of all child time-phased lines.
+You can create role price overrides on a quote line detail, which are then reflected in the nested time-phased lines. Each week in the nested Quote Line detail line retains the price applicable on the first day of that week.
 
-On the **Quote Line Details** tab, select a row in the grid to enable some actions on the toolbar of the subgrid. The first action on the subgrid tool bar when a quote line detail is selected is **Open Cost Detail**. Select **Open Cost Detail** to see the related cost rate and amount for this quote line.
+**Example Scenario:**
+
+A quote line detail spans from January 1, 2025, to February 15, 2025, covering a total of seven weeks. The role price is set at $200, but a price override of $250 is applied on February 5, 2025.
+| **Attribute** | **Value** |
+| --- | --- |
+| Start Date |Jan 1st,2025 |
+| End Date | Feb 15th,2025 |
+| Quantity | 350 hours |
+| Role Price | $200 |
+| Price Override Date | Feb 5th,2025 |
+| Price Override | $250 |
+
+•	Until the sixth week (starting February 3, 2025), the price remains $200.
+
+•	In the seventh week (starting February 10, 2025), the price updates to $250, reflecting the override.
+
+•	The parent Quote Line Detail displays the weighted average price, calculated as $206.52.
+
+you can adjust the quantity at either the parent quote line detail or the nested lines, and the system updates the price accordingly. Clicking the "Refresh" button ensures the correct price is displayed.
+This feature enables you to accurately track and manage pricing changes, improving transparency and control over quote calculations.
+
+
+
+## Access quote line details for sales and cost prices
+
+The **Quote Line Detail** tab provides two form views to help you analyze sales and cost details:
+
+•	Line Details
+
+•	Line Details: Cost
+
+**Line Details**
+The Line Details view displays each quote line detail along with its associated sales price. Within the subgrid of each quote line detail, you can see time-phased sales prices broken down by specific periods.
+
+Selecting a quote line detail enables additional actions on the toolbar. The first action available is Open Cost Detail. If you want to view the cost details of the Quote line detail in an expanded view, click Open Cost Detail and view the related cost rate and amount for the selected quote line detail.
+
+**Line Details: Cost**
+The Line Details: Cost view provides insight into the cost price associated with each quote line detail. Similar to the Line Details view, the subgrid displays time-phased cost prices.
+
+These views enhance visibility into both sales and cost prices, making it easier to assess pricing details for each quote line.
 
 > [!NOTE]
 > Changing the resourcing unit, quantity, dates, role, or category values on the quote line detail for cost will change the corresponding values on the quote line details for sales.
