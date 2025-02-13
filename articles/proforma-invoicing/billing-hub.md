@@ -27,7 +27,8 @@ To use Billing hub to create project proforma invoices, follow this step.
 - In the left pane, go to **Sales** \> **Billing Hub**.
 
 The default **Billing hub** view shows the list of active project contracts and contract lines in a nested grid.
-The following information is available in the **Billing hub** view.
+The following information is available in the **Billing hub** view. You can learn more about customizing **Billing hub** views here- [Customizing Billing hub views][billing-hub-customization.md]
+
 
 ### Contract fields
 
@@ -160,6 +161,5 @@ Selecting the milestone header which has $200 in "ready for invoicing" state and
 On confirming the invoice with this milestone, the invoice status of the milestone line in $200 changes to "Customer invoice posted" . 
 You will now be able to create a new progress based milestone for , either the remaining amount of $800 or another 20% , i.e. $200. 
    
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
