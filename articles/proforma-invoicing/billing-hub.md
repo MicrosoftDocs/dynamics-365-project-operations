@@ -60,7 +60,7 @@ The following information is available in the **Billing hub** view.
 | Spent Amount | The previously billed backlog that includes all transactions that are already invoiced for the project contract line. |
 
 > [!IMPORTANT]
-> At any point during the invoicing process, use the **Update Totals** action on the Billing hub form, to update all the calculated fields on the contract and contract lines. For newly added project contracts, amount values are initially **0** (zero).
+> At any point during the invoicing process, use the **Update Totals** action on the Billing hub form, to update all the calculated fields on the contract and contract lines. For newly added project contracts, amount values are initially NULL. This is due to how platform handles roll up fields. On selecting **Update totals** the amounts are updated to the calculated values. 
 
 ## Update the invoiceable backlog per contract line
 
@@ -100,6 +100,8 @@ To update totals on contract and contract line fields, follow these steps.
 
 1. Select one or more project contracts.
 1. On the Action Pane, select **Update Totals**.
+> [!NOTE]
+> Once the totals are updated, the grid is automatically refreshed to render the calculated amounts on the view. 
 
 ### Create invoices with Progress based milestones
 
