@@ -20,7 +20,7 @@ The ability to create transactions for time, expense, and material usage directl
 > Once enabled, the feature can't be disabled.
 
 ## Create new invoice line details on a draft proforma invoice
-1. Select the **New** button on the invoice form to create an invoice line detail of transaction class time, expense, material, or fee.
+1. Select the **New** button on the invoice line form to create an invoice line detail of transaction class time, expense, material, or fee.
 2. Update the invoice line detail with price, quantity, billing type, external description, or description.
 3. Save the invoice line detail.
 
