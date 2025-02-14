@@ -18,7 +18,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operation
 The ability to create transactions for time, expense, and material usage directly on a draft invoice streamlines the process of invoicing to help ensure timely and accurate billing. This feature enhances operational efficiency and accelerates cash flow, providing significant financial and administrative benefits to project-oriented companies. This capability is available on lite deployment of Project Operations and with UR 54, is being extended to resource/non-stocked based scenarios deployments as well. 
 
 > [!NOTE]
-> The feature is enabled in **Settings** \> **Parameters** \> **Feature control** \> **Enable improvements in invoice creation**.
+> The feature can be enabled in **Settings** \> **Parameters** \> **Feature control** \> **Enable improvements in invoice creation**.
 > Once enabled, the feature can't be disabled.
 
 ## Create new invoice line details on a draft proforma invoice
