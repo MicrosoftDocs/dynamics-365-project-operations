@@ -18,7 +18,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operation
 
 The end-to-end process of invoice creation in Microsoft Dynamics 365 Project Operations is cumbersome, because it involves multiple clicks and navigation between different forms and views.
 
-The purpose of the **Billing hub experience** is to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **before invoice creation**, to help accountants and billing users **quickly** and **efficiently** create proforma invoices. Using the platform's out-of-box nested grid functionality, users can complete invoice creation from a single unified view and through a single click. Because users don't have to move between forms or views to validate data, the processing of invoices is faster.
+The purpose of the **Billing hub experience** is to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **before invoice creation**, to help accountants and billing users **quickly** and **efficiently** create proforma invoices. When you use the platform's out-of-the-box nested grid functionality, users can complete invoice creation from a single unified view and through a single click. Because users don't have to move between forms or views to validate data, the processing of invoices is faster.
 
 ## Create new invoices
 
@@ -136,9 +136,10 @@ The following fields are available on the milestone billing backlog for progress
 | Not-to-exceed status | Status of the transaction evaluated against NTE limits set on the project contract, or project contract customer. |
 
 #### On the progress based milestone line
-| Project Contract line customer | Name of the customer who is invoiced for this milestone transaction |
+
 | Field | Description |
 |---|---| 
+| Project Contract line customer | Name of the customer who is invoiced for this milestone transaction |
 | Project Contract line customer | Name of the customer who will be invoiced for this milestone transaction |
 | Amount | A portion of the total amount on the corresponding milestone header, that has been billed or will be billed to the project contract customer, depending on the invoice status |
 | Date | Invoicing date for the milestone |
@@ -152,16 +153,16 @@ On all milestones that need to be invoiced,
 > Updating the status of this milestone header to **"Ready for invoicing"** and refreshing the grid creates a split of two milestone lines under this milestone header.
 
 To create an invoice with the selected progress based milestones, follow these steps.
-> **Updating the status of this milestone header to **"Ready for invoicing"** and refreshing the grid, will create a split of 2 milestone lines under this milestone header.**
+> **Updating the status of this milestone header to **"Ready for invoicing"** and refreshing the grid creates a split of 2 milestone lines under this milestone header.**
 
-To create an invoice with the selected progress based milestones, follow these steos.
+To create an invoice with the selected progress based milestones, follow these steps.
 
-1. Select the milestone header .
+1. Select the milestone header.
 1. Choose between the grid actions to either **Create invoice** or **Add to invoice**.
 Update the status of this milestone header to **Ready for invoicing"** and refresh the grid. This update creates a split of two milestone lines under this milestone header.
 For example, consider Amount on the milestone header is $1000, Next invoice % is 20% , then Next invoice amount is $200. 
    
-Update the status of this milestone header to **Ready for invoicing"** and refresh the grid. This will create a split of 2 milestone lines under this milestone header.
+Update the status of this milestone header to **Ready for invoicing"** and refresh the grid. This update creates a split of 2 milestone lines under this milestone header.
    
   1. $200 amount with **"Ready for invoicing"** status
   1. $800 amount with **"Not ready for invoicing"** status
