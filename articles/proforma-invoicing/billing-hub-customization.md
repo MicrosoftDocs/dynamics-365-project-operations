@@ -11,13 +11,12 @@ ms.author: suvaidya
 ---
 # Customizing Billing Hub for creating project based proforma invoices
 
+Billing Hub View includes a nested grid with contract and contract lines.
+We recommend not customizing the fields on the contract view . To customize the fields on the contract line view, create a copy of the OOB billing hub (Contracts) view following the steps listed in the below section.
 > [!NOTE]
 > Once the view is customized, customers will not get notified of any updates made to the OOB view.
 > Hence we recommend using the OOB view as a reference to understand the updates made by Microsoft.
 > Fields added/removed by Microsoft need to be manually updated by the customer on their custom view.
-
-Billing Hub View includes a nested grid with contract and contract lines.
-We recommend not customizing the fields on the contract view . To customize the contract line fields, follow the steps below.
 
 ## Customizing contract fields on Billing hub view
 
