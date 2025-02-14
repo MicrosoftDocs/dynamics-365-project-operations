@@ -46,7 +46,7 @@ To create quote line details, select **New quote line detail** on the **Quote Li
 | Quantity | Quick create | The quantity of work, product, or expense. | This value defaults to the related quote line detail for cost that is automatically created. |
 | Unit price | Quick Create |The bill rate of the role that is performing the work, the unit price of the product, or the sales price of the product or expense category. The  default for this field is **Time** based on the combination of the pricing dimension values on the role price line of the project price list that is effective for the start date. For **Expenses**, the default is from the price setup for the transaction category in the project price list that is effective for the start date. If the pricing method for the transaction category isn't price-per-unit, there's no default, and this field is left blank. For products, the default is based on the **Price list item**  line in the project price list that is effective for the start date.| The cost rate of the role that is performing the work, the cost per unit of the expense category, or the unit cost of the product. The default for this field is **Time** based on the combination of the pricing dimension values on the role price line of the project price list that is effective for the start date. For **Expenses**, the default is from the price setup for the transaction category in the project price list that is effective for the start date. If the pricing method for the transaction category isn't price-per-unit, there's no default, and this field is left blank. For products, the default is based on the **Price list item**  line in the project price list that is effective for the start date.|
 | Estimated Tax | Quick create | You can manually enter the estimated tax for this work or expense. | There's no downstream impact for this field. |
-| Amount | Quick create | You can manually input information into this field if the **Quantity** and **Price** fields are left blank. If these fields are not blank, this field becomes read only and is calculated as (Quantity \* Unit price) + Tax. | There's no downstream impact for this field. |
+| Amount | Quick create | You can manually input information into this field if the **Quantity** and **Price** fields are left blank. If these fields aren't blank, this field becomes read only and is calculated as (Quantity \* Unit price) + Tax. | There's no downstream impact for this field. |
 
 
 ## Update prices on quote line details
@@ -55,7 +55,7 @@ If you change prices on the project price list that is attached to the quote, or
 
 ## Time phasing of prices
 The Time phasing of prices feature provides visibility into price fluctuations over time within Project quote lines. Nested quote line details display price changes phased out on a weekly basis, allowing you to track adjustments due to price overrides or multiple price lists. Throughout the duration of a quote line detail, the system distributes the quantities and prices for each week, making it easier to identify pricing adjustments. The parent quote line detail reflects the weighted average price of all child time-phased lines.
-You can create role price overrides on a quote line detail that are then reflected in the nested time-phased lines. Each week in the nested Quote Line detail line retains the price applicable on the first day of that week.
+You can create role price overrides on a quote line detail that is then reflected in the nested time-phased lines. Each week in the nested Quote Line detail line retains the price applicable on the first day of that week.
 
 On the **Quote line details** tab, select a row in the grid to enable some actions on the toolbar of the subgrid. The first action on the subgrid tool bar when a quote line detail is selected is **Open cost detail**. Select **Open cost detail** to see the related cost rate and amount for this quote line.
 
@@ -111,7 +111,7 @@ Currency on the quote line detail for cost defaults from the price list of the c
 Profitability calculations convert the amount on quote line details for cost and sales into the base currency of the environment to report the overall estimated margin on the quote.
 
 > [!NOTE]
-> Currency rounding errors and changed margins could occur because of the lack of date effective exchange rates. Use these calculations only on project contracts because these are approximations and are not intended for actual statutory or other reporting that requires higher precision of rounding and awareness of date effectivity for exchange rates.
+> Currency rounding errors and changed margins could occur because of the lack of date effective exchange rates. Use these calculations only on project contracts because these are approximations and aren't intended for actual statutory or other reporting that requires higher precision of rounding and awareness of date effectivity for exchange rates.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
