@@ -1522,6 +1522,8 @@
       href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
     - name: Manage a proforma project invoice 
       href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+    - name: Adding new invoice line details to a draft invoice
+      href: proforma-invoicing/add-new-ild-to-invoice.md
     - name: Invoice a retainer or an advance
       href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
     - name: Confirm a proforma project invoice
@@ -1532,6 +1534,10 @@
       href: proforma-invoicing/revise-project-invoices.md
     - name: Configure project invoice automation
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
+    - name: Developer notes
+      items:
+      - name: Billing hub view customization
+        href: proforma-invoicing/billing-hub-customization.md
   - name: Upgrade
     items:
     - name: Upgrade considerations for Modern approvals
