@@ -127,7 +127,7 @@ Note:  Only a subset of errors are logged to the worksapce at this time. Read fu
 The **most recent errors** tab is the landing page and is filtered to the most recent 100 errors in the system. If you want to review different errors, you can filter the records by specifying From Date and To Date values. 
 After corrections are completed, you can use the **Delete** or **Delete All** button to delete messages that are no longer needed. The workspace automatically keeps only the most recent record and deletes history older than 90 days. Error messages are deleted before each process begins. Whether you are posting integration journals or importing from the staging table, old error messages will be deleted at the start of the process to ensure only the most recent error is captured or no error is logged if the process is succssful. For example, if an error was received related to a closed fiscal period the error will automatically be removed on the next integration journal posting when the posting is successful.
 
-A subset of error messages have been opted into the workspace and additional errors messages will be added over time. As of 10.0.43, there are five errors that are supported in the workspace.  
+A subset of error messages have been opted into the workspace and additional errors messages will be added over time. As of 10.0.43, there are six errors that are supported in the workspace.  
 
 | Error message | Error details | Resolution |
 |--------------|--------------|------------|
