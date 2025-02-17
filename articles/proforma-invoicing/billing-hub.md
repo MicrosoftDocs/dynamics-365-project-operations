@@ -18,7 +18,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operation
 
 The end-to-end process of invoice creation in Microsoft Dynamics 365 Project Operations is cumbersome, because it involves multiple clicks and navigation between different forms and views.
 
-The purpose of the **Billing hub experience** is to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **before invoice creation**, to help accountants and billing users **quickly** and **efficiently** create proforma invoices. When you use the platform's out-of-the-box nested grid functionality, users can complete invoice creation from a single unified view and through a single click. Because users don't have to move between forms or views to validate data, the processing of invoices is faster.
+The purpose of the **Billing hub experience** is to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **before invoice creation**, to help accountants and billing users **quickly** and **efficiently** create proforma invoices. When you use the platform's out-of-box nested grid functionality, users can complete invoice creation from a single unified view and through a single click. Because users don't have to move between forms or views to validate data, the processing of invoices is faster.
 
 ## Create new invoices
 
@@ -27,8 +27,8 @@ To use Billing hub to create project proforma invoices, follow this step.
 - In the left pane, go to **Sales** \> **Billing Hub**.
 
 The default **Billing hub** view shows the list of active project contracts and contract lines in a nested grid.
-The following information is available in the **Billing hub** view. Learn about customizing **Billing hub** views in [Customizing Billing hub views}(billing-hub-customization.md).
 
+The following information is available in the **Billing hub** view. Learn how to customize **Billing hub** views in [Customizing Billing hub views](billing-hub-customization.md).
 
 ### Contract fields
 
@@ -51,7 +51,7 @@ The following information is available in the **Billing hub** view. Learn about 
 | Project | The name of the project that is associated with the contract line. |
 | Customers| The number of customers on the contract. |
 | Billing Method | The billing method on the related project contract line. |
-| Invoice Schedule Type | Indicates whether the fixed price contract line is billed as a regular milestone or a progress based milestone. |
+| Invoice Schedule Type | A value that indicates whether the fixed price contract line is billed as a regular milestone or a progress-based milestone. |
 | Milestones | All the invoiceable fixed price milestones that are available for the selected project contract line. |
 | Time | The billing backlog for all unbilled sales actuals of the **time** transaction type for the selected project contract line. |
 | Material | The billing backlog for all unbilled sales actuals of the **material** transaction type for the selected project contract line. |
@@ -61,7 +61,7 @@ The following information is available in the **Billing hub** view. Learn about 
 | Spent Amount | The previously billed backlog that includes all transactions that are already invoiced for the project contract line. |
 
 > [!IMPORTANT]
-> At any point during the invoicing process, use the **Update Totals** action on the Billing hub form, to update all the calculated fields on the contract and contract lines. For newly added project contracts, amount values are initially NULL due to how the platform handles roll up fields. When you select **Update totals**, the amounts are updated to the calculated values. 
+> At any point during the invoicing process, use the **Update Totals** action on the **Billing hub** page to update all the calculated fields on the contract and contract lines. Because of the way that the platform handles roll-up fields, amount values for newly added project contracts are initially NULL. However, when you select **Update Totals**, the amounts are updated to the calculated values. 
 
 ## Update the invoiceable backlog per contract line
 
@@ -73,22 +73,21 @@ To review or update the invoiceable backlog, follow these steps.
 1. Select the transactions, and then update the billing status by selecting **Ready to invoice** or **Not ready to invoice** in the list of options for the subgrid.
 1. On the **Billing hub** page, select **Update Totals**. All calculated fields on the contract and contract lines are updated so that they reflect the latest status.
 
-   
-## Possible billing actions on transactions in the Invoiceable backlog
+## Possible billing actions on transactions in the invoiceable backlog
 
-For each available contract line, when the billing backlog amount isn't zero, the following actions are possible.
+For each available contract line that has a nonzero billing backlog amount, the following actions can be performed:
 
-1. Mark transactions as invoiceable or not invoiceable using **"Ready to Invoice"** or **"Not ready to invoice"** options.
-1. **Reevaluate not-to-exceed** status of transactions.
-1. **Correct entries** by using journals.
-1. Directly **create new invoices** from the billing backlog by using the **Create invoice** functionality.
-1. Add transactions to an existing invoice by using the **Add to invoice** functionality.
+- **Mark transactions** as invoiceable by selecting **Ready to Invoice** or as not invoiceable by selecting **Not ready to invoice**.
+- **Reevaluate the not-to-exceed status** of transactions.
+- **Correct entries** by using journals.
+- Directly **create new invoices** from the billing backlog by using the **Create invoice** functionality.
+- **Add transactions** to an existing invoice by using the **Add to invoice** functionality.
 
 ### Create invoice feature
 
-When the **Create invoice** on the Billing hub form is used, a new invoice is created with all transactions that are in **ready to invoice** state across all project contract lines for the selected contracts.
+When the **Create invoice** functionality on the **Billing hub** page is used, the invoice that is created includes all transactions that are in a **Ready to invoice** state across all project contract lines for the selected contracts.
 
-When the **Create invoice** on the billing backlog for Time, material, expense, fee, or milestones is used, an invoice is created with only the selected transactions in the backlog. 
+When the **Create invoice** functionality on the billing backlog for time, materials, expenses, fees, or milestones is used, the invoice that is created includes only the selected transactions in the backlog. 
 
 ### Add to invoice feature
 
@@ -96,81 +95,79 @@ When you use the **Add to invoice** functionality, you can expect the following 
 
 - If a single draft invoice exists for the project contract and project contract customer, the transaction is added to the invoice.
 - If more than one draft invoice exists for the project contract and project contract customer, the transaction is added to the most recently created draft invoice.
-- If no draft invoices exist, a new invoice is created with the selected transactions. This behavior is similar to the behavior for the **Create invoice** functionality.
+- If no draft invoices exist, a new invoice is created that includes the selected transactions. This behavior is similar to the behavior for the **Create invoice** functionality.
 
 ### Update totals on contract and contract line fields
 
 To update totals on contract and contract line fields, follow these steps.
 
 1. Select one or more project contracts.
-1. On the Action pane, select **Update Totals**.
+1. On the Action Pane, select **Update Totals**.
 
 > [!NOTE]
-> Once the totals are updated, the grid is automatically refreshed to render the calculated amounts on the view. 
+> After the totals are updated, the grid is automatically updated to show the calculated amounts in the view.
 
-### Create invoices with Progress based milestones
+### Create invoices with progress-based milestones
 
-Billing hub supports the ability to generate invoices for progress billed milestones. Progress based billing provides flexibility in billing and allows customers to realize revenue in regular increments as work towards the milestone is completed.
+Billing hub supports the ability to generate invoices for milestones that are billed based on progress. Progress-based billing provides flexibility in billing and lets customers realize revenue in regular increments as work toward the milestone is completed.
 
-Progress based milestones are indicated on the contract lines with **invoice schedule type** field set to **Progress based**. 
+You can easily identify progress-based milestones on contract lines because the **Invoice schedule type** field is set to **Progress based**.
 
 > [!NOTE]
-> The feature can be enabled in **Settings** \> **Parameters** \> **Feature control** \> **Progress billing updates**.
+> The feature can be enabled at **Settings** \> **Parameters** \> **Feature control** \> **Progress billing updates**.
 
-The following fields are available on the milestone billing backlog for progress based milestones.
+In the milestone billing backlog, the following fields are available for progress-based milestones.
 
-#### On the progress based Milestone Header
+#### Fields on the progress-based milestone header
 
 | Field | Description |
 |---|---| 
 | Name | The name of the milestone. |
-| Task | Project task that the milestone is associated with. |
-| Amount | Total milestone amount to be billed. |
-| Next invoice % | Percent of the total amount including tax that should be invoiced on the next invoice for this progress-based invoice schedule component. |
-| Next invoice amount | Amount that should be on the next invoice for this progress-based invoice schedule component. |
-| Next invoice status | Status of the next invoice for this progress-based invoice schedule component. |
-| Invoiced to date | Amount that has already been invoiced for this progress-based invoice schedule component. |
-| % Invoiced to date | Percent of the total amount including tax that has already been invoiced for this progress-based invoice schedule component. |
-| Remaining amount | Amount available to be spent against the not-to-exceed limit. |
-| Tax |Tax amount for this transaction. |
-| Not-to-exceed status | Status of the transaction evaluated against NTE limits set on the project contract, or project contract customer. |
+| Task | The project task that the milestone is associated with. |
+| Amount | The total milestone amount to bill. |
+| Next invoice % | The percentage of the total amount, including tax, that should be invoiced on the next invoice for this progress-based invoice schedule component. |
+| Next invoice amount | The amount that should be invoiced on the next invoice for this progress-based invoice schedule component. |
+| Next invoice status | The status of the next invoice for this progress-based invoice schedule component. |
+| Invoiced to date | The amount that has already been invoiced for this progress-based invoice schedule component. |
+| % Invoiced to date | The percentage of the total amount, including tax, that has already been invoiced for this progress-based invoice schedule component. |
+| Remaining amount | The amount that is available to be spent against the not-to-exceed limit. |
+| Tax | The tax amount for this transaction. |
+| Not-to-exceed status | The status of this transaction, as evaluated against not-to-exceed limits that are set on the project contract or the project contract customer. |
 
-#### On the progress based milestone line
+#### Fields on the progress-based milestone line
 
 | Field | Description |
 |---|---| 
-| Project Contract line customer | Name of the customer who is invoiced for this milestone transaction |
-| Project Contract line customer | Name of the customer who will be invoiced for this milestone transaction |
-| Amount | A portion of the total amount on the corresponding milestone header, that has been billed or will be billed to the project contract customer, depending on the invoice status |
-| Date | Invoicing date for the milestone |
-| Invoice Status | Current invoicing status of the progress based billing milestone |
+| Project Contract line customer | The name of the customer who is invoiced for this milestone transaction. |
+| Project Contract line customer | The name of the customer who will be invoiced for this milestone transaction. |
+| Amount | Of the total amount on the corresponding milestone header, the amount that has been billed or will be billed to the project contract customer, depending on the invoice status. |
+| Date | The invoicing date for the milestone. |
+| Invoice Status | The current invoicing status of the progress-based billing milestone. |
 
-To create an invoice for a progress based milestones, follow these steps.
-On all milestones that need to be invoiced,
-1. Update the **Next invoice %**.
-1. Update the **Next invoice status** to **"Ready for invoicing"** using **Next invoice status** field or using **Ready to invoice** grid action on the milestone header.
-1. Deselect the milestone header rows.
-> Updating the status of this milestone header to **"Ready for invoicing"** and refreshing the grid creates a split of two milestone lines under this milestone header.
+To create an invoice for progress-based milestones, follow these steps on all milestones that must be invoiced.
 
-To create an invoice with the selected progress based milestones, follow these steps.
-> **Updating the status of this milestone header to **"Ready for invoicing"** and refreshing the grid creates a split of 2 milestone lines under this milestone header.**
+1. Update the **Next invoice %** value.
+1. Update the **Next invoice status** value to **Ready for invoicing** either by using the **Next invoice status** field or by using the **Ready to invoice** grid action on the milestone header.
+1. Clear the selection of the milestone header rows.
 
-To create an invoice with the selected progress based milestones, follow these steps.
+> [!NOTE]
+> If you update the status of the milestone header to **Ready for invoicing** and then update the grid, you create a split of two milestone lines under the milestone header.
+
+To create an invoice that includes the selected progress-based milestones, follow these steps.
 
 1. Select the milestone header.
-1. Choose between the grid actions to either **Create invoice** or **Add to invoice**.
-Update the status of this milestone header to **Ready for invoicing"** and refresh the grid. This update creates a split of two milestone lines under this milestone header.
-For example, consider Amount on the milestone header is $1000, Next invoice % is 20% , then Next invoice amount is $200. 
-   
-Update the status of this milestone header to **Ready for invoicing"** and refresh the grid. This update creates a split of 2 milestone lines under this milestone header.
-   
-  1. $200 amount with **"Ready for invoicing"** status
-  1. $800 amount with **"Not ready for invoicing"** status
-   
-Selecting the milestone header which has $200 in **"Ready for invoicing" ** state and selecting **"Create invoice"** creates a new invoice with the progress based milestone for $200 amount.
+1. Select either the **Create invoice** grid action or the **Add to invoice** grid action.
+1. Update the status of the milestone header to **Ready for invoicing**, and then update the grid. This update creates a split of two milestone lines under the milestone header.
 
-On confirming the invoice with this milestone, the invoice status of the milestone line in $200 changes to **Customer invoice posted**. 
-You are now able to create a new progress based milestone for, either the remaining amount of $800 or another 20%, that is $200. 
-   
+For example, the **Amount** value on the milestone header is $1,000, the **Next invoice %** value is 20%, and the **Next invoice amount** value is $200. When you update the status of the milestone header to **Ready for invoicing** and then update the grid, the following split of two milestone lines is created under the milestone header:
+
+- A $200 amount that has the **Ready for invoicing** status
+- An $800 amount that has the **Not ready for invoicing** status
+
+If you select the milestone header that has the $200 amount in the **Ready for invoicing** status, an you then select **Create invoice**, you create a new invoice that includes the progress-based milestone for the $200 amount.
+
+After you confirm the invoice that includes this milestone, the invoice status of the milestone line that has the $200 amount is changed to **Customer invoice posted**.
+
+You can now create a new progress-based milestone for either the remaining amount of $800 or another 20% (that is, another $200).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
