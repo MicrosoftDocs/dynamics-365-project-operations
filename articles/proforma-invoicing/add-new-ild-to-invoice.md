@@ -15,7 +15,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operation
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-Transactions for time, expense, and material usage can be created directly on a draft invoice. This feature streamlines the invoicing process and helps ensure timely and accurate billing. By enhancing operational efficiency and accelerating cash flow, the feature provides significant financial and administrative benefits to project-oriented companies.
+Transactions for time, expense, and material usage can be created directly on a draft invoice. This feature streamlines the invoicing process and helps ensure timely and accurate billing. It provides significant financial and administrative benefits to project-oriented companies by enhancing operational efficiency and accelerating cash flow.
 
 The feature is available in lite deployments of Microsoft Dynamics 365 Project Operations. In Update Release (UR) 54, it's also being extended to resource/non-stocked based scenarios deployments.
 
