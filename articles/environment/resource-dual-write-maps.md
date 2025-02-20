@@ -62,7 +62,7 @@ The following maps are required for a Project Operations solution. Dual-write ma
 | Project integration table for material estimates (msdyn\_estimatelines) | 1.0.0.0 | Not required for provisioning. ||
 | Project invoice proposals V2 (invoices) | 1.0.0.3 | Not required for provisioning. ||
 | Project Operations integration actuals (msdyn_actuals) | 1.0.0.18 | Not required for provisioning. |10.0.39 or later|
-| Project Operations integration contract line milestones (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Not required for provisioning. ||
+| Project Operations integration contract line milestones (msdyn_contractlinescheduleofvalues) | 1.0.0.6 | 10.0.42 or later ||
 | Project Operations integration entity for expense estimates (msdyn_estimatelines) | 1.0.0.2 | Not required for provisioning. ||
 | Project Operations integration entity for hour estimates (msdyn_resourceassignments) | 1.0.0.6 | Not required for provisioning. |10.0.38 or later|
 | Project Operations integration project expense categories export entity (msdyn_expensecategories) | 1.0.0.1 | Not required for provisioning. ||
