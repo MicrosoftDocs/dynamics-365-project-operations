@@ -56,6 +56,12 @@ If you change prices on the project price list that is attached to the contract 
 
 
 ## Time Phasing of Estimates
+
+> [!IMPORTANT] 
+> Time phasing of estimates is available to targeted users as part of a preview release. The content and the functionality are subject to change. For more information about preview releases, see One version service updates FAQ.
+>
+> After the Time phasing of sales estimates feature is enabled in an organization, it can't be disabled.
+
 The Time Phasing of Estimates feature provides visibility into price fluctuations over time within Project Contract Lines. Nested contract line details display price changes phased out on a weekly basis, allowing you to track adjustments due to price overrides or multiple price lists. Throughout the duration of a contract line detail, the system distributes the quantities and prices for each week, making it easier to identify pricing adjustments. The parent contract line detail reflects the weighted average price of all child time-phased lines.
 You can create role price overrides scoped to a contract, which are then reflected in the nested time-phased lines. Each week in the nested contract line detail line retains the price applicable on the first day of that week.
 
