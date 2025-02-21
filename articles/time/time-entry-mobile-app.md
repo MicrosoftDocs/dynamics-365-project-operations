@@ -37,7 +37,7 @@ This mobile app primarily has 4 sections or pages that team members can interact
 
 - This is the **default landing page** on initial load of the app
 - It consists of a day-wise list of time entries, with a summary of hours submitted (or approved) for that day. This allows users to track completion of hours logged daily.
-- Users can navigate across days of each work week __(the start and end of a work week are aligned with the Time Entry Grid in Project Operations)__
+- Users can navigate across days of each work week _(the start and end of a work week are aligned with the Time Entry Grid in Project Operations)_
 - Users can also switch between weeks using the arrow keys or calendar control on the top-right
 - A “+” (new time entry) button at the bottom allows users to create a new entry from scratch using the quick create form. This button is present across all sections of the app.
 
@@ -48,7 +48,7 @@ This mobile app primarily has 4 sections or pages that team members can interact
 
 ### My Week
 
-- This section consists of **two charts**:
+This section consists of **two charts**:
  - An overview or summary of time entries logged across each day of the week (color coded by time entry status) and
  - The percentage (%) composition of total hours logged during that week, grouped by time entry status
 - In addition to this, the user’s local time zone (based on the where their mobile device is being used) is highlighted. 
