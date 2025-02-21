@@ -35,16 +35,16 @@ This mobile app primarily has 4 sections or pages that team members can interact
 
 ### My Time
 
-- This is the default landing page on initial load of the app
+- This is the **default landing page** on initial load of the app
 - It consists of a day-wise list of time entries, with a summary of hours submitted (or approved) for that day. This allows users to track completion of hours logged daily.
-- Users can navigate across days of each work week (the start and end of a work week is based on user's personalisation settings)
+- Users can navigate across days of each work week __(the start and end of a work week are aligned with the Time Entry Grid in Project Operations)__
 - Users can also switch between weeks using the arrow keys or calendar control on the top-right
 - A “+” (new time entry) button at the bottom allows users to create a new entry from scratch using the quick create form. This button is present across all sections of the app.
 
 ### My Work
 
 - This view provides users with a list of Projects and Project Tasks to which they are currently assigned.
-- Details like _Role_, _End Date of Assignment_ and _Hours Logged_ are provided for every assigned task to help users keep track of their work streams.
+- Details like _Role_, _End Date_ and _Hours Logged_ are provided for every assigned task, to help users keep track of their work streams.
 
 ### My Week
 
