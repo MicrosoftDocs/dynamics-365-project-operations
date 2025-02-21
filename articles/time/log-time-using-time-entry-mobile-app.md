@@ -89,3 +89,8 @@ Time entries can be created in multiple ways using the mobile app.
 2. The app loads with **My Time** as the default landing page.
 3. Tap **My Week** to navigate to this page.
 4. You may track day-wise hours logged and the weekly total hours through the two visualizations available in this section of the app.
+
+
+> [!NOTE] Known Accessibility issues being worked on
+> TalkBack or VoiceOver do not read out accurate labels for expand, collapse and pin capabilities within **My Work** page.
+> 
