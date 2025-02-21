@@ -13,11 +13,13 @@ ms.dyn365.ops.version:
 ---
 # Moving from stocked/production-based deployment to resource/non-stocked
 
-With the 10.0.43 release and later, it is now possible to use the modern architecture and take advantage of all of the great functionality there if you previously had used the Project Management and Accounting module.
+## Introduction
+
+With the 10.0.43 release and later, it is now possible to use the modern architecture and take advantage of all of the new capabilities and experiences in this deployment if you previously had used the Project Management and Accounting module.
 
 Many customers had previously used some capabilities within the finance and operations architecture which prevented them from enabling the resource/non-stocked deployment in that legal entity. Customers now the ability to adopt the modern architecture where previously this wasn't possible.
 
-For the 10.0.43 release, the **Use the modern architecture for existing legal entities with project data** feature allows for scenarios where you can complete all existing transactions and close existing projects, and then create new projects and contracts in Dataverse within that same legal entity. By adopting the modern architecture, users benefit from great user experiences, deep functionality in project planning using Microsoft Project for the Web, and resource management using Unified Resource Management.
+The **Use the modern architecture for existing legal entities with project data** feature allows for scenarios where you can complete all existing transactions and close existing projects, and then create new projects and contracts in Dataverse within that same legal entity. By adopting the modern architecture, users benefit from great user experiences, deep functionality in project planning using Microsoft Project for the Web, and resource management using Unified Resource Management.
 
 ## Changing deployment types
 
