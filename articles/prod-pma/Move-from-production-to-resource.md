@@ -1,6 +1,7 @@
 ---
 title: Moving from stocked/production-based to resource/non-stocked
 description: Learn how you can use the modern architecture and move to the resource/non-stocked deployment if you have a legal entity that is currently using the stocked/production-based deployment. 
+author: ryansandness 
 ms.date: 02/24/2025
 ms.topic: how-to
 ms.custom: 
