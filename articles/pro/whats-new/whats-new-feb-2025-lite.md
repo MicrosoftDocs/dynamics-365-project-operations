@@ -29,7 +29,6 @@ This article applies to the following components and versions of Microsoft Dynam
 | Sales |**Time phasing of Sales Estimates** <br><br> The Time phasing of prices feature provides visibility into price fluctuations over time within project quote lines and project contract lines. Nested quote line details display price changes phased out on a weekly basis, allowing you to track adjustments due to price overrides or multiple price lists.| [Estimate a project quote line](../../sales/create-estimate-quote-line.md) <br> [Estimate a project contract line](../../sales/create-estimate-contract-line.md) |
 | Invoicing |**Progress Billing in Billing hub** <br><br> | [Progress billing within Billing Hub](../../proforma-invoicing/billing-hub.md)  |
 
-
 ## Quality updates
 
 ### Project Operations on Dataverse
