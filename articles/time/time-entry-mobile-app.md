@@ -27,6 +27,19 @@ This mobile app can be used to:
 - View a weekly summary of time entries logged in the form of charts and
 - Use an **all-new timer** functionality to record dedicated periods of work and turn them into time entries
 
-Since this app is currently released as a **Production Ready Preview**, it must be “shared” with users in an organisation by system administrators, before it can be used to log time entries. Please review the next section to understand how to enable this app for team member users in your organisation.
+Since this app is currently released as a **Production Ready Preview**, it must be “shared” with users in an organisation by system administrators, before it can be used to log time entries. 
+
+## Views available in this app
+
+### My Time
+
+Blah
+
+
+
+
+
+
+Please review the next section to understand how to enable this app for team member users in your organisation.
 
 
