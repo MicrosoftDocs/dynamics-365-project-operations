@@ -29,11 +29,22 @@ This mobile app can be used to:
 
 Since this app is currently released as a **Production Ready Preview**, it must be “shared” with users in an organisation by system administrators, before it can be used to log time entries. 
 
-## Views available in this app
+## Views introduced in this app
+
+This mobile app primarily has 4 views or pages that team members can interact with to log their time entries. These views and their contents are summarised below.
 
 ### My Time
 
-Blah
+- This is the default landing page on initial load of the app
+- It consists of a day-wise list of time entries, with a summary of hours submitted or approved for that day
+- Users can navigate across days of each work week (the start and end of a work week is based on user's personalisation settings)
+- Users can also switch between weeks using the arrow keys or calendar control on the top-right
+- A “+” (new time entry) icon at the bottom allows users to create a new entry from scratch using the quick create form
+
+### My Work
+
+- This view provides users with a list of Projects and Project Tasks to which they are currently assigned.
+- Details like _Role_, _End Date of Assignment_ and _Hours Logged_ are provided for every assigned task to help users keep track of their work streams.
 
 
 
