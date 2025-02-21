@@ -26,7 +26,7 @@ To share this app with end users, ensure the Project Operations version on the e
 4. Clicking this solution should navigate you to the **Objects** section of **TimeEntryMobile**.
 5. **Dynamics 365 Time Entry (Production Ready Preview)** should be part of the list.
 6. Select the **overflow** icon _(three dots)_ for this record and hit **Share**.
-7. The app can either be shared with **individual users** by adding their email IDs OR with **all users** of that environment by typing in **“Everyone”** and selecting _“Everyone in <organisation name>”_ from the drop-down list. Hit **Share** after selecting the set of users to enable this app for.
+7. The app can either be shared with **individual users** by adding their email IDs OR with **all users** of that environment by typing in **“Everyone”** and selecting _“Everyone in \<organisation name\>”_ from the drop-down list. Hit **Share** after selecting the set of users to enable this app for.
 8. Completing this step makes the Dynamics 365 Time Entry app available to these users under their **“Apps” section** within Power Apps.
 
 > [!NOTE]
