@@ -2,7 +2,7 @@
 title: Determine your deployment type
 description: This article provides information to help you determine the correct deployment type of Project operations for your company.
 author: stsporen
-ms.date: 11/06/2023
+ms.date: 02/24/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -20,7 +20,6 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 > After you purchase the license, start here to determine the best deployment model of Dynamics 365 Project Operations using the [Guided installation flow](https://aka.ms/provisionprojectoperations).
 > After you have finished the Guided installation flow, you will be directed to the correct management portal to complete your installation. See the deployment details to complete the installation.
 
-
 ## Existing customers of Dynamics using Dynamics 365 Project Service Automation
 Project Operations includes the capabilities that shipped with Project Service Automation. An upgrade path will be released for these customers in the 2021 release wave 1.
 
@@ -28,6 +27,8 @@ Project Operations includes the capabilities that shipped with Project Service A
 
 Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is. See [Project Operations for stocked/production order scenarios](#pma).
 
+> [!NOTE]
+> It is now possible to move to the modern architecture with Project Operations for a resource/non-stocked scenarios legal entity if you are currently using a a stocked/production order scenario-based legal entity. See [Moving from stocked/production-based deployment to resource/non-stocked](../prod-pma/Move-from-production-to-resource.md) for more details.
 
 ## Deployment regions
 To determine which regions support Project Operations deployment, see [Geographical availability for Dynamics 365 and Power Platform report](https://dynamics.microsoft.com/en-us/geographic-availability/). Select **View Report**, and expand **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** to view the supported regions.
