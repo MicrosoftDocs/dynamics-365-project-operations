@@ -630,6 +630,12 @@
         href: time/ui-behavior-time.md
     - name: Use Copilot in time entry (preview)
       href: time/copilot-in-time-entry.md
+    - name: Time Entry Mobile App (preview)
+      href: time/time-entry-mobile-app.md  
+      - name: Enable Dynamics 365 Time Entry (Preview) mobile app
+        href: time/enable-time-entry-mobile-app.md
+      - name: Log time entries using mobile app
+        href: time/log-time-using-time-entry-mobile-app.md 
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
