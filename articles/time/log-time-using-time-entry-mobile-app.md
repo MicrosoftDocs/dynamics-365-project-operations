@@ -4,7 +4,7 @@ description: This article provides information about logging time using the new 
 author: mohitmenon
 ms.author: mohitmenon
 ms.date: 02/21/2025
-ms.topic: overview
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -15,6 +15,8 @@ ms.reviewer: johnmichalak
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+
+This article provides information about logging time using the new Time Entry Mobile App (Preview).
 
 ## Create a time entry
 
@@ -98,3 +100,5 @@ These accessibility issues are being worked on currently and are being resolved.
 - Screen Reader isn't able to read out the duration values within **My Week** charts and occassionally reads labels that are not actually visible.
 - Screen Reader doesn't announce certain headings and states for pages
 - Scree Reader's focus doesn't return to the Calendar control on activating the calendar from new time entry form.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

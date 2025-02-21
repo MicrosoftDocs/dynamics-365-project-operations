@@ -16,6 +16,8 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
+This article provides information about the new Time Entry Mobile App (Preview).
+
 ## Introduction
 
 The Dynamics 365 Time Entry mobile app now allows Project Operations users with a valid Team Member or Full Project Operations license, to now track time on-the-go. This app is developed using a Microsoft Power Apps canvas app and users can access it from the Power Apps mobile app.
@@ -50,7 +52,7 @@ This mobile app primarily has four sections or pages that team members can inter
 
 This section consists of **two charts**:
 1. An overview of time entries logged across each day of the week _(color coded by time entry status)_ and
-2. The percentage (%) composition of total hours logged during that week, grouped by time entry status
+1. The percentage (%) composition of total hours logged during that week, grouped by time entry status
 
 In addition, the user’s local time zone _(based on where their mobile device is being used)_ is highlighted. 
 
@@ -69,4 +71,4 @@ Since this app is currently released as a **Production Ready Preview**, it must 
 
 Review the next section to understand [how to enable this app](enable-time-entry-mobile-app.md) for team members in your organization.
 
-
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
