@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 ## Introduction
 
-The Dynamics 365 Time Entry mobile app now allows Project Operations users with a valid Team Member or Full Project Operations license, to now track time on-the-go. This app is developed using a Microsoft Power Apps canvas app and can be accessed by users from the Power Apps mobile app.
+The Dynamics 365 Time Entry mobile app now allows Project Operations users with a valid Team Member or Full Project Operations license, to now track time on-the-go. This app is developed using a Microsoft Power Apps canvas app and users can access it from the Power Apps mobile app.
 
 This mobile app can be used to:
 - Create and submit new time entries from scratch,
@@ -31,20 +31,20 @@ The next section provides an overview of the views visible within the mobile app
 
 ## Overview of sections within the app
 
-This mobile app primarily has 4 sections or pages that team members can interact with to log their time entries. These views and their contents are summarised below.
+This mobile app primarily has four sections or pages that team members can interact with to log their time entries.
 
 ### My Time
 
-- This is the **default landing page** on initial load of the app
-- It consists of a day-wise list of time entries, with a summary of hours submitted (or approved) for that day. This allows users to track completion of hours logged daily.
+- This view is the **default landing page** on initial load of the app
+- It consists of a day-wise list of time entries, with a summary of hours submitted (or approved) for that day. The header total allows users to track completion of hours logged daily.
 - Users can navigate across days of each work week _(the start and end of a work week are aligned with the Time Entry Grid in Project Operations)_
 - Users can also switch between weeks using the arrow keys or calendar control on the top-right
 - A “+” (new time entry) button at the bottom allows users to create a new entry from scratch using the quick create form. This button is present across all sections of the app.
 
 ### My Work
 
-- This view provides users with a list of Projects and Project Tasks to which they are currently assigned.
-- Details like _Role_, _End Date_ and _Hours Logged_ are provided for every assigned task, to help users keep track of their work streams.
+- This view provides users with a list of Projects and Project Tasks to which they're currently assigned.
+- Details like _Role_, _End Date_, and _Hours Logged_ are provided for every assigned task, to help users keep track of their work streams.
 
 ### My Week
 
@@ -52,7 +52,7 @@ This section consists of **two charts**:
 1. An overview of time entries logged across each day of the week _(color coded by time entry status)_ and
 2. The percentage (%) composition of total hours logged during that week, grouped by time entry status
 
-In addition to this, the user’s local time zone _(based on the where their mobile device is being used)_ is highlighted. 
+In addition, the user’s local time zone _(based on where their mobile device is being used)_ is highlighted. 
 
 > [!NOTE]
 > The device time zone displayed above is considered as the **time zone for entries created** by using the mobile app __(even if the user’s personalisation settings within Project Operations have a different time zone selected)__.
@@ -65,8 +65,8 @@ In addition to this, the user’s local time zone _(based on the where their mob
 
 ## Getting access to the Time Entry Mobile App
 
-Since this app is currently released as a **Production Ready Preview**, it must be “shared” with users in an organisation by system administrators, before it can be used to log time entries. 
+Since this app is currently released as a **Production Ready Preview**, it must be _shared_ with users in an organization by system administrators, before it can be used to log time entries. 
 
-Please review the next section to understand [how to enable this app](enable-time-entry-mobile-app.md) for team members in your organisation.
+Review the next section to understand [how to enable this app](enable-time-entry-mobile-app.md) for team members in your organization.
 
 
