@@ -85,4 +85,7 @@ Time entries can be created in multiple ways using the mobile app. These are sum
 
 ## Track completion of logging time
 
-
+1. Login to the **Power Apps** mobile app using your Project Operations user and launch **Dynamics 365 Time Entry (Production Ready Preview)**.
+2. The app loads with **My Time** as the default landing page.
+3. Tap **My Week** to navigate to this page.
+4. You may track day-wise hours logged and the weekly total hours through the two visualisations available in this section of the app.
