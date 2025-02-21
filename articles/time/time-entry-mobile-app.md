@@ -62,7 +62,10 @@ This mobile app primarily has 4 sections or pages that team members can interact
 - These timer recordings can then be converted into time entries using **Create** option and providing details of Project Name, Task, etc
 
 
+## Getting access to the Time Entry Mobile App
 
-Since this app is currently released as a **Production Ready Preview**, it must be “shared” with users in an organisation by system administrators, before it can be used to log time entries. Please review the next section to understand how to enable this app for team member users in your organisation.
+Since this app is currently released as a **Production Ready Preview**, it must be “shared” with users in an organisation by system administrators, before it can be used to log time entries. 
+
+Please review the next section to understand how to enable this app for team member users in your organisation.
 
 
