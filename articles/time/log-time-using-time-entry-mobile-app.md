@@ -56,8 +56,10 @@ Time entries can be created in multiple ways using the mobile app. These are sum
 
 ## Modify or Delete existing time entries
 
-
-
+- Navigate to **My Time** section of the mobile app.
+- Select any day of the week where time entries are present.
+- To **Edit** a draft entry tap the **Edit** button. This opens the **Edit time entry** form
+ 
 ## Submit or Recall time entries
 
 Multi Select
