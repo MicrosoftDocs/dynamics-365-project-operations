@@ -44,7 +44,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Time Entry |**Time Entry Mobile App** <br><br> Project team members on Lite and resource/Non stocked-based deployments of Project Operations now have a new mobile application based on Microsoft Power Apps. The new mobile app helps them log time, keep track of submitted entries, and view work assigned to them. | |
 | Sales |**Time phasing of Sales Estimates** <br><br> The Time phasing of prices feature provides visibility into price fluctuations over time within project quote lines and project contract lines. Nested quote line details display price changes phased out on a weekly basis, allowing you to track adjustments due to price overrides or multiple price lists.| |
 | Invoicing |**Progress Billing in Billing hub** <br><br> | |
-| Billing |**Progress billing** <br><br> | |
+| Billing |**Progress billing in integrated deployments** <br><br> | |
 | Invoicing |**Processing billed sales in integrated deployments** <br><br> | |
 
 ## Quality updates
