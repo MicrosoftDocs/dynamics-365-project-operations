@@ -91,6 +91,10 @@ Time entries can be created in multiple ways using the mobile app.
 4. You may track day-wise hours logged and the weekly total hours through the two visualizations available in this section of the app.
 
 
-> [!NOTE] Known Accessibility issues being worked on
-> TalkBack or VoiceOver do not read out accurate labels for expand, collapse and pin capabilities within **My Work** page.
-> 
+### Known Accessibility issues
+
+These accessibility issues are being worked on currently and will be resolved in upcoming releases.
+- Screen Reader does not read out accurate labels for expand, collapse and pin capabilities within **My Work** page.
+- Screen Reader isn't able to read out the duration values within **My Week** charts and occassionally reads labels that are not actually visible.
+- Screen Reader doesn't announce certain headings and states for pages
+- Scree Reader's focus doesn't return to the Calendar control on activating the calendar from new time entry form.
