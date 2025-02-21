@@ -25,7 +25,7 @@ Time entries can be created in multiple ways using the mobile app.
 1. Log in to the **Power Apps** mobile app using your Project Operations user and launch **Dynamics 365 Time Entry (Production Ready Preview)**.
 2. The app loads with **My Time** as the default landing page.
 3. Open the quick create form by clicking the "+" (new time entry) icon at the bottom of the page.
-4. Enter values for fields like Duration, Project, Task, Role etc and click **Save time**. 
+4. Enter values for fields like Duration, Project, Task, Role, and click **Save time**. 
 
 > [!NOTE]
 > **Project** and **Task** are required in order to create **Work** type time entries using the mobile app.
@@ -34,7 +34,7 @@ Time entries can be created in multiple ways using the mobile app.
 
 1. Log in to the **Power Apps** mobile app using your Project Operations user and launch **Dynamics 365 Time Entry (Production Ready Preview)**.
 2. The app loads with **My Time** as the default landing page.
-3. Tap **My Work** to navigate to this page. A list of Projects and Project Tasks is visible if your organisation uses assignments within project planning.
+3. Tap **My Work** to navigate to this page. A list of Projects and Project Tasks is visible if your organization uses assignments within project planning.
 4. Select **Create** for the Project Task you'd like to log time entries on.
 5. This step opens the quick create form with prefilled fields for **Project**, **Task**, **Role**.
 6. Modify duration and any other necessary fields. Hit **Save time** to create the entry.
@@ -44,8 +44,8 @@ Time entries can be created in multiple ways using the mobile app.
 1. Log in to the **Power Apps** mobile app using your Project Operations user and launch **Dynamics 365 Time Entry (Production Ready Preview)**.
 2. The app loads with **My Time** as the default landing page.
 3. Tap **Timer** to navigate to this page.
-4. Hit **Start** or the **Play** button on top to begin a new timer recording. Let this go on as long as your dedicated work is in progress. 
-5. Hit **Stop** to end the timer. This creates a new timer recording with a timestamp in the name for reference.
+4. Hit **Start** or the **Play** button on top to begin a new timer recording. Let the timer go on as long as your dedicated work is in progress. 
+5. Hit **Stop** to end the timer. A new timer recording is created with timestamp in the name for reference.
 6. Click **Create** to convert this timer recording into a time entry. The quick create form is opened once again with Duration populated from the recording.
 7. Modify any other necessary fields and hit **Save time** to create the entry.
 8. You may also **Delete** any unused recordings using the delete icon, if they are no longer required.
@@ -60,7 +60,7 @@ Time entries can be created in multiple ways using the mobile app.
 - Select any day of the week where time entries are present.
 - To **Edit** a draft entry tap the **Edit** button. This step opens the **Edit time entry** form where users can modify the necessary fields and **Save time**.
  
-## Submit, Recall or Delete time entries
+## Submit, Recall, or Delete time entries
 
 ### Multi-select time entries
 
@@ -85,7 +85,7 @@ Time entries can be created in multiple ways using the mobile app.
 
 ## Track completion of logging time
 
-1. Login to the **Power Apps** mobile app using your Project Operations user and launch **Dynamics 365 Time Entry (Production Ready Preview)**.
+1. Log in to the **Power Apps** mobile app using your Project Operations user and launch **Dynamics 365 Time Entry (Production Ready Preview)**.
 2. The app loads with **My Time** as the default landing page.
 3. Tap **My Week** to navigate to this page.
 4. You may track day-wise hours logged and the weekly total hours through the two visualizations available in this section of the app.
@@ -93,7 +93,7 @@ Time entries can be created in multiple ways using the mobile app.
 
 ### Known Accessibility issues
 
-These accessibility issues are being worked on currently and will be resolved in upcoming releases.
+These accessibility issues are being worked on currently and are being resolved.
 - Screen Reader does not read out accurate labels for expand, collapse and pin capabilities within **My Work** page.
 - Screen Reader isn't able to read out the duration values within **My Week** charts and occassionally reads labels that are not actually visible.
 - Screen Reader doesn't announce certain headings and states for pages
