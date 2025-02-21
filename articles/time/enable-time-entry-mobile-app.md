@@ -45,12 +45,19 @@ In order to upgrade or disable access to the Dynamics 365 Time Entry (Preview) m
 
 The section below explains how end users (team members) can access the mobile app, once it has been shared with them by their system administrators.
 
-# Launching the Dynamics 365 Time Entry (Preview) mobile app
+## Launching the Dynamics 365 Time Entry (Preview) mobile app (for Team Members)
 
 Once the system administrator has shared the app with end users, the app can be launched by following these steps:
 
-1. Install the Power Apps mobile app on your iOS or Android device
- - ddd
- - 
-3. 
+1. Install the **Power Apps mobile app** on your mobile device from the [iOS apps store](https://apps.apple.com/us/app/power-apps/id1047318566) or the [Android Play Store](https://play.google.com/store/apps/details?id=com.microsoft.msapps&hl=en).
+2. Login to the app using the same credentials as your Project Operations user.
+3. Navigate to **All apps** (if this isn't already your default view).
+4. The **Dynamics 365 Time Entry (Production Ready Preview)** app should be visible if the app has been shared by your administrator.
+5. Click the app name or icon to launch this on your mobile device.
+
+> [!NOTE]
+> If you are using multiple environments of Project Operations, **please ensure** that the mobile app is **shared with you for every environment**. Reach out to your System Administrator if the Dynamics 365 Time Entry (Production Ready Preview) app is not visible under **All apps**.
+
+
+
 
