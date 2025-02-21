@@ -53,28 +53,28 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing and Pricing|	3272365|	Updated Time & Material Backlog Filters to only reflect actuals that can be invoiced|
-|Project Planning|	3740986|	PEntityGuard blocks Project.AttributeMsdyn_MSProjectDocument at Create|
-|Billing and Pricing|	4152179|	Estimates OneGrid quick create form throws exception if no default unit/unit group exists|
-|Billing and Pricing|	4187521|	Invoice revision copies fields that cause privilege exception|
-|Billing and Pricing|	4211979|	Invoice Line Detail correction field can be true even when original Invoice Line Detail is blank|
-|Approvals|	4438571|	Project Approver role lacking sufficient privileges to view approvals|
-|Subcontracting|	4480942| The Product in CE is mapped to wrong Company when data is synchronized with DualWrite|
-|Subcontracting|	4481246|	Actual reevaluation: Vendor Invoice Cost Actuals Are Missing Fields|
-|Subcontracting|	4481635|	Actual reevaluation: All Vendor Invoice Actuals Are Reversed When Task Deleted|
-|Subcontracting|	4484351|	Can't correct actuals from canceled vendor invoice|
-|Billing and Pricing|	4498838|	"Effective date" is impacted by local time zone, on the price override bulk create dialog|
-|Sales|	4504727|	Deleting Revised Milestone Prevents Invoices From Importing To Finance & Operations|
-|Billing and Pricing|	4508856|	Changing Project on Contract Line fails due to lack of permissions for msdyn_longrunningjobstatus|
-|Billing and Pricing|	4511507|	Disallow changes to Project invoice status from confirmed (or paid) to "In review" or any out of the box status|
-|Billing and Pricing|	4511677|	Handle error when transaction classification is missing on the Invoice Line Detail when confirming invoice|
-|Time Entry|	4521147|	Modern Time Entry Grid text still shows up in English in non English base language environments|
-|Billing and Pricing|	4524095|	Quantity is cleared on journal line main form open|
-|Sales|	4529109|	Invoice schedule type isn't redefaulted when billing method is updated on quote line|
-|Project Budgeting|	4546764|	Fix unit conversion on merging of budget lines during budget import & summarization|
+|Billing and Pricing|	3272365|	Updated Time and Material Backlog Filters to only reflect actuals that can be invoiced.|
+|Project Planning|	3740986|	PEntityGuard blocks Project.AttributeMsdyn_MSProjectDocument at Create.|
+|Billing and Pricing|	4152179|	Estimates OneGrid quick create form throws exception if no default unit or unit group exists.|
+|Billing and Pricing|	4187521|	Invoice revision copies fields that cause privilege exception.|
+|Billing and Pricing|	4211979|	Invoice Line Detail correction field can be true even when original Invoice Line Detail is blank.|
+|Approvals|	4438571|	Project Approver role lacks sufficient privileges to view approvals.|
+|Subcontracting|	4480942| The Product in CE is mapped to the wrong Company when data is synchronized with Dual-write.|
+|Subcontracting|	4481246|	Actual reevaluation: Vendor invoice cost actuals are missing fields.|
+|Subcontracting|	4481635|	Actual reevaluation: All vendor invoice actuals are reversed when a task is deleted.|
+|Subcontracting|	4484351|	Can't correct actuals from canceled vendor invoice.|
+|Billing and Pricing|	4498838|	"Effective date" is impacted by local time zone, on the price override bulk create dialog.|
+|Sales|	4504727|	Deleting a revised milestone prevents invoices from importing into finance and operations apps.|
+|Billing and Pricing|	4508856|	Changing Project on Contract Line fails due to lack of permissions for msdyn_longrunningjobstatus.|
+|Billing and Pricing|	4511507|	Disallow changes to Project invoice status from confirmed (or paid) to "In review" or any out of the box status.|
+|Billing and Pricing|	4511677|	Handle error when transaction classification is missing on the Invoice Line Detail when confirming invoice.|
+|Time Entry|	4521147|	Modern Time Entry Grid text shows English in non English base language environments.|
+|Billing and Pricing|	4524095|	Quantity is cleared on journal line main form open.|
+|Sales|	4529109|	Invoice schedule type isn't defaulted again when billing method is updated on quote line.|
+|Project Budgeting|	4546764|	Fix unit conversion when merging budget lines during budget import & summarization.|
 |Project and Resource Management|	4594360|	When Allow percent complete is No, and when a task is marked as completed, schedule variance is not getting updated.|
-|Billing and Pricing|	4606728|	Unable to view milestones backlog in Billing hub|
-|Sales|	4625154|	Recalculate button not is working on Quotes and Contracts|
+|Billing and Pricing|	4606728|	Unable to view milestones backlog in Billing hub.|
+|Sales|	4625154|	Recalculate button isn't working on Quotes and Contracts.|
 
 ### Project management and accounting in Finance
 
