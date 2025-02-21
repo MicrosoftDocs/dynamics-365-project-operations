@@ -28,7 +28,7 @@ Time entries can be created in multiple ways using the mobile app. These are sum
 4. Enter values for fields like Duration, Project, Task, Role etc and click **Save time**. 
 
 > [!NOTE]
-> **Project** and **Task** are required in order to create a time entry for **Work** type time entries.
+> **Project** and **Task** are required in order to create **Work** type time entries using the mobile app.
 
 ### Create a time entry from Project Assignments (My Work)
 
@@ -54,15 +54,34 @@ Time entries can be created in multiple ways using the mobile app. These are sum
 > Timer recordings round off to the nearest minute when stopped. This implies any recordings less than one minute will have duration set to one minute by default.
 
 
-## Modify or Delete existing time entries
+## Modify existing time entries
 
 - Navigate to **My Time** section of the mobile app.
 - Select any day of the week where time entries are present.
-- To **Edit** a draft entry tap the **Edit** button. This opens the **Edit time entry** form
+- To **Edit** a draft entry tap the **Edit** button. This opens the **Edit time entry** form where users can modify the necessary fields and **Save time**.
  
-## Submit or Recall time entries
+## Submit, Recall or Delete time entries
 
-Multi Select
+### Multi-select time entries
+
+- Navigate to **My Time** section of the mobile app.
+- Tapping the white space on a time entry selects it. Similarly, tapping it once again unselectes the entry.
+- Doing so for multiple time entries together leads to multi-selection of entries and the actions available to the user depend on the time entry statuses of each entry.  
+
+### Deleting time entries
+
+- Navigate to **My Time** section of the mobile app.
+- Select one or more draft time entries.
+- If all entries selected are in editable state (_Draft, Returned_), users will get the option to **Delete** the entries by tapping the Delete icon.
+- If any one of the selected entries are read-only (Eg: Submitted or Approved), the Delete icon will not appear
+
+### Submit or Recall time entries
+
+- Navigate to **My Time** section of the mobile app.
+- Select one or more time entries.
+- If all entries selected are in editable state (_Draft, Returned_), users will get the option to **Submit** the entries using the Submit (arrow) icon.
+- If all entries selected are in **Submitted** state, users will get the option to **Recall** using the respective icon.
+- On trying to **Recall** an **Approved** time entry, users will be asked to enter a justification for Recall Request.
 
 ## Track completion of logging time
 
