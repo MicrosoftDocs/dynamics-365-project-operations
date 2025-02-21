@@ -1,6 +1,6 @@
 ---
-title: Moving from stocked/production-based to resource/non-stocked
-description: Learn how you can use the modern architecture and move to the resource/non-stocked deployment if you have a legal entity that is currently using the stocked/production-based deployment. 
+title: Moving from stocked/production order deployment to resource/non-stocked
+description: Learn how you can use the modern architecture and move to the resource/non-stocked deployment if you have a legal entity that is currently using the stocked/production order deployment. 
 author: ryansandness 
 ms.date: 02/24/2025
 ms.topic: how-to
@@ -12,13 +12,13 @@ ms.author: ryansandness
 ms.search.validFrom: 2025-02-24 
 ms.dyn365.ops.version: 
 ---
-# Moving from stocked/production-based deployment to resource/non-stocked
+# Moving from a stocked/production order deployment to resource/non-stocked deployment
 
 ## Introduction
 
 With the 10.0.43 release and later, it is now possible to use the modern architecture and take advantage of all of the new capabilities and experiences in this deployment if you previously had used the Project Management and Accounting module.
 
-Many customers had previously used some capabilities within the finance and operations architecture which prevented them from enabling the resource/non-stocked deployment in that legal entity. Customers now the ability to adopt the modern architecture where previously this wasn't possible.
+Many customers had previously used some capabilities within the finance and operations architecture which prevented them from enabling the resource/non-stocked deployment in that legal entity. Customers now have the ability to adopt the modern architecture where previously this wasn't possible.
 
 The **Use the modern architecture for existing legal entities with project data** feature allows for scenarios where you can complete all existing transactions and close existing projects, and then create new projects and contracts in Dataverse within that same legal entity. By adopting the modern architecture, users benefit from great user experiences, deep functionality in project planning using Microsoft Project for the Web, and resource management using Unified Resource Management.
 
