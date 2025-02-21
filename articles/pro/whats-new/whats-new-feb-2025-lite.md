@@ -53,7 +53,7 @@ This article applies to the following components and versions of Microsoft Dynam
 |Billing and Pricing|	4524095|	Quantity is cleared on journal line main form open.|
 |Sales|	4529109|	Invoice schedule type isn't defaulted again when billing method is updated on quote line.|
 |Project Budgeting|	4546764|	Fix unit conversion when merging budget lines during budget import & summarization.|
-|Project and Resource Management|	4594360|	When Allow percent complete is No, and when a task is marked as completed, schedule variance is not getting updated.|
+|Project and Resource Management|	4594360|	When Allow percent complete is No, and when a task is marked as completed, schedule variance isn't getting updated.|
 |Billing and Pricing|	4606728|	Unable to view milestones backlog in Billing hub.|
 |Sales|	4625154|	Recalculate button isn't working on Quotes and Contracts.|
 
