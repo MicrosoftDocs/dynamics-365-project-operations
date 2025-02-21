@@ -58,6 +58,6 @@ Once the system administrator has shared the app with end users, the app can be 
 > [!NOTE]
 > If you are using multiple environments of Project Operations, **please ensure** that the mobile app is **shared with you for every environment**. Reach out to your System Administrator if the Dynamics 365 Time Entry (Production Ready Preview) app is not visible under **All apps**.
 
-
+Please read the next section to learn more on how to use the mobile app to create and review time entries on the go.
 
 
