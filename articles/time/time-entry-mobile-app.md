@@ -67,6 +67,6 @@ In addition to this, the user’s local time zone _(based on the where their mob
 
 Since this app is currently released as a **Production Ready Preview**, it must be “shared” with users in an organisation by system administrators, before it can be used to log time entries. 
 
-Please review the next section to understand how to enable this app for team member users in your organisation.
+Please review the next section to understand [how to enable this app](enable-time-entry-mobile-app.md) for team members in your organisation.
 
 
