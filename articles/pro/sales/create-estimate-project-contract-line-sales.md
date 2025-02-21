@@ -58,7 +58,7 @@ If you change prices on the project price list that is attached to the contract 
 ## Time Phasing of Estimates
 
 > [!IMPORTANT] 
-> Time phasing of estimates is available to targeted users as part of a preview release. The content and the functionality are subject to change. Learn more in [One version service updates FAQ](dynamics365/fin-ops-core/dev-itpro/get-started/one-version.md).
+> Time phasing of estimates is available to targeted users as part of a preview release. The content and the functionality are subject to change. Learn more in [One version service updates FAQ](dynamics365/fin-ops-core/dev-itpro/get-started/one-version).
 >
 > After the Time phasing of sales estimates feature is enabled in an organization, it can't be disabled.
 
