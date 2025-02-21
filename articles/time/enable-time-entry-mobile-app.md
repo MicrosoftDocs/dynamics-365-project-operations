@@ -3,7 +3,7 @@ title: How to enable Dynamics 365 Time Entry Mobile App (Preview)
 description: This article provides information for system administrators to enable the new Time Entry Mobile App (Preview) for users in their organization.
 author: mohitmenon
 ms.author: mohitmenon
-ms.date: 02/21/2025
+ms.date: 02/25/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
