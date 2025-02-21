@@ -42,7 +42,7 @@ In order to upgrade or disable access to the Dynamics 365 Time Entry (Preview) m
 1. Select the **overflow** icon _(three dots)_ for this record, and select **Share**.
 1. Select **Manage Access**. This step should display a list of users who already have access to the app.
 1. Select the users that require modifications, and select the **Assign** **app access** option.
-1. The drop-down allows you to either switch access from _User_ to _Coowner_ (and vice versa), or **Remove Access** to take away their ability to view or use the app.
+1. The drop-down allows you to either switch access from _User_ to _Co-owner_ (and vice versa), or **Remove Access** to take away their ability to view or use the app.
 
 The next section explains how end users (team members) can access the mobile app after it's shared with them by their system administrators.
 
