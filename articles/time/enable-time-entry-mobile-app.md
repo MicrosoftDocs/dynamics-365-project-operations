@@ -10,7 +10,7 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
-# Enable Dynamics 365 Time Entry Mobile App (Preview) for end users
+# Enable Dynamics 365 Time Entry Mobile App (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
@@ -47,4 +47,10 @@ The section below explains how end users (team members) can access the mobile ap
 
 # Launching the Dynamics 365 Time Entry (Preview) mobile app
 
+Once the system administrator has shared the app with end users, the app can be launched by following these steps:
+
+1. Install the Power Apps mobile app on your iOS or Android device
+ - ddd
+ - 
+3. 
 
