@@ -3,7 +3,7 @@ title: Log time using Dynamics 365 Time Entry Mobile App (Preview)
 description: This article provides information about logging time using the new Time Entry Mobile App (Preview).
 author: mohitmenon
 ms.author: mohitmenon
-ms.date: 02/21/2025
+ms.date: 02/25/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
