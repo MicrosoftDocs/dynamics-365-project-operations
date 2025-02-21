@@ -2,7 +2,7 @@
 title: Manage billing backlog
 description: This article provides information about how to view and work with the billing backlog in Project Operations.
 author: rumant
-ms.date: 04/05/2021
+ms.date: 02/21/2025
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
@@ -45,7 +45,7 @@ A milestone on a draft invoice is shown in this view with a billing status of **
 The **Time and Material Billing Backlog** view lists all unbilled sales actuals across all project contracts in the system that haven't been invoiced. 
 
 > [!NOTE]
-> Unbilled sales actuals may have the adjustment status set to "Unadjustable" or "Adjusted" during contract confirmation, invoice confirmation or when invoice line details are updated. Transactions with an adjustment status of " Adjusted" or "unadjustable" are not invoiceable. Such transactions are excluded from the Time and material billing backlog view for ease of invoicing.
+> Unbilled sales actuals may have the adjustment status set to **Unadjustable** or **Adjusted** during contract confirmation, invoice confirmation or when invoice line details are updated. Transactions with an adjustment status of **Adjusted** or **Unadjustable** are not invoiceable. Such transactions are excluded from the Time and material billing backlog view for ease of invoicing.
  
 Single or multiple unbilled sales actuals can be marked as **Ready to Invoice** or **Not Ready to Invoice** from this view. Marking an unbilled sales actual as **Ready to Invoice** makes it available to be put on a draft invoice.
 
