@@ -53,7 +53,7 @@ Once the system administrator has shared the app with end users, the app can be 
 2. Login to the app using the same credentials as your Project Operations user.
 3. Navigate to **All apps** (if this isn't already your default view).
 4. The **Dynamics 365 Time Entry (Production Ready Preview)** app should be visible if the app has been shared by your administrator.
-5. Click the app name or icon to launch this on your mobile device.
+5. Tap the app name or icon to launch this on your mobile device.
 
 > [!NOTE]
 > If you are using multiple environments of Project Operations, **please ensure** that the mobile app is **shared with you for every environment**. Reach out to your System Administrator if the Dynamics 365 Time Entry (Production Ready Preview) app is not visible under **All apps**.
