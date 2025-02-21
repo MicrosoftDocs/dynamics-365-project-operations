@@ -1,5 +1,5 @@
 ---
-title: Time Entry Mobile App (Preview)
+title: Dynamics 365 Time Entry Mobile App (Preview)
 description: This article provides information about the new Time Entry Mobile App (Preview).
 author: mohitmenon
 ms.author: mohitmenon
@@ -10,7 +10,7 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
-# Time Entry Mobile App (Preview)
+# Dynamics 365 Time Entry Mobile App (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
