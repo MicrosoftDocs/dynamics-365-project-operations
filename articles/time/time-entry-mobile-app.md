@@ -49,9 +49,10 @@ This mobile app primarily has 4 sections or pages that team members can interact
 ### My Week
 
 This section consists of **two charts**:
- - An overview or summary of time entries logged across each day of the week (color coded by time entry status) and
- - The percentage (%) composition of total hours logged during that week, grouped by time entry status
-- In addition to this, the user’s local time zone (based on the where their mobile device is being used) is highlighted. 
+1. An overview of time entries logged across each day of the week _(color coded by time entry status)_ and
+2. The percentage (%) composition of total hours logged during that week, grouped by time entry status
+
+In addition to this, the user’s local time zone _(based on the where their mobile device is being used)_ is highlighted. 
 
 > [!NOTE]
 > The device time zone displayed above is considered as the **time zone for entries created** by using the mobile app __(even if the user’s personalisation settings within Project Operations have a different time zone selected)__.
