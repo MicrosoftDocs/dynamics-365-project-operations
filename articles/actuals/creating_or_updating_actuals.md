@@ -41,7 +41,7 @@ Scenarios not affected by this validation
 **Actuals shouldn't be created directly in the system**. New actuals can be created using entry journals [Creating actuals using entry journals](create-confirm-entry-journals.md) 
 
 ## Correcting existing Actuals
-Existing actuals can be updated using **Correct entries** option on the billing backlog which uses correction journals to update certain fields.[Correct actuals using correct entries](create-confirm-correction-journals.md)
+Existing actuals can be updated using **Correct entries** option on the billing backlog which uses correction journals to allow updates on some fields.[Correct actuals using correct entries](create-confirm-correction-journals.md)
 
 
 The List of OOB fields supported for update on actuals and their allowed correction method are listed in the following table.
@@ -61,5 +61,5 @@ The List of OOB fields supported for update on actuals and their allowed correct
 | Transaction Category | Correction Journal |
 | Billing Status | msdyn_MarkActualReadyToInvoiceOrNot API |
 | Not-to-exceed Status | msdyn_ReevaluateActualNotToExceedStatus API |
-| Revise | msdyn_revise |
+| Revise | msdyn_revise API |
 
