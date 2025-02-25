@@ -22,14 +22,15 @@ When attempting to create an Actual using an unsupported method, you may encount
 " The product does not support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at https://aka.ms/EntryJournals."
 
 
-## Scenarios blocked with this validation
+## Scenarios blocked by this validation
 1. Acutals created using Data import jobs
 2. Actuals created manually
 3. 
 
-## Validation does not apply to the following scenarios
+## Scenarios not affected by this validation
 1. Updates made to custom fields on actuals
 2. Actuals created or updated using Power automate flows that invoke native Project Operations API's listed in the table below.
+3. Actuals created via F&O in Dataverse using actuals mapping
    
 
 ## Creating new actuals
