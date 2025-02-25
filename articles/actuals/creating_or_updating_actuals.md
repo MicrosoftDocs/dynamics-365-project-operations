@@ -23,20 +23,24 @@ When attempting to create an Actual using an unsupported method, you may encount
 
 
 ## Scenarios blocked by this validation
-1. Acutals created using Data import jobs
-2. Actuals created manually
-3. 
-
-## Scenarios not affected by this validation
-1. Updates made to custom fields on actuals
-2. Actuals created or updated using Power automate flows that invoke native Project Operations API's listed in the table below.
-3. Actuals created via F&O in Dataverse using actuals mapping
+1. Actuals created from user interface
+3. Actuals created manually using maker portal
+4. Actuals created using json scripts
    
 
-## Creating new actuals
+## Scenarios not affected by this validation
+1. Actuals created from synchronous OOB actions
+2. Actuals created via supported scenarios through business rules
+3. Actuals created or updated using Power automate flows that invoke native Project Operations API's listed in the table below.
+4. Actuals created via Dual write sync from F&O to Dataverse
+5. Updates made to custom fields on actuals
+6. Acutals created using Data import jobs
+
+      
+# Creating new actuals
 **Actuals shouldn't be created directly in the system**. New actuals can be created using entry journals [Creating actuals using entry journals](create-confirm-entry-journals.md) 
 
-## Correcting existing Actuals
+# Correcting existing Actuals
 Existing actuals can be updated using **Correct entries** option on the billing backlog which uses correction journals to update certain fields.[Correct actuals using correct entries](create-confirm-correction-journals.md)
 
 
