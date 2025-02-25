@@ -1,5 +1,5 @@
 ---
-title: Actuals
+title: Creating or updating actuals
 description: This article provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
 ms.date: 02/25/2025
