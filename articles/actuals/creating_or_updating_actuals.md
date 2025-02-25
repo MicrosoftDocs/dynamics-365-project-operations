@@ -16,17 +16,16 @@ ms.author: suvaidya
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Commencing UR 55 release, a backend validation will prevent creates or updates to actuals that do not follow the methods prescribed in ths page for creation or correction of actuals. 
+Commencing UR 55 release, a backend validation will prevent creates or updates to actuals that do not follow the allowed methods prescribed in ths page for this purpose. 
 
-When attempting to manually create an Actual, you may encounter the below error . 
+When attempting to create an Actual using an unsupported method, you may encounter the below error . 
 " The product does not support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at https://aka.ms/EntryJournals."
 
-## The following scenarios are blocked with this validation
+
+## Scenarios blocked with this validation
 1. Acutals created using Data import jobs
 2. Actuals created manually
 3. 
-
-
 
 ## Validation does not apply to the following scenarios
 1. Updates made to custom fields on actuals
