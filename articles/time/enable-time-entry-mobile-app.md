@@ -1,6 +1,6 @@
 ---
-title: How to enable Dynamics 365 Time Entry Mobile App (Preview)
-description: This article provides information for system administrators to enable the new Time Entry Mobile App (Preview) for users in their organization.
+title: Enable the Dynamics 365 Time Entry Mobile App (Preview)
+description: Learn how system administrators can enable the new Microsoft Dynamics 365 Time Entry Mobile App (Preview) for users in their organization.
 author: mohitmenon
 ms.author: mohitmenon
 ms.date: 02/25/2025
@@ -10,57 +10,61 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
-# Enable Dynamics 365 Time Entry Mobile App (Preview)
+# Enable the Dynamics 365 Time Entry Mobile App (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-This article provides information for system administrators to enable the new Time Entry Mobile App (Preview) for users in their organization.
+This article explains how system administrators can enable the new Microsoft Dynamics 365 Time Entry Mobile App (Preview) for users in their organization. It also explains how users can open the app after it's enabled.
 
-## Make the app available to end users (System Administrator Instructions)
+## For system administrators: Make the mobile app available to users
 
-To make the app available to end users, ensure the Project Operations version on the environment is 4.124.0.0 or higher. Next, complete the following steps (for system administrators):
+To make the Time Entry Mobile App available to users, ensure that the version of Dynamics 365 Project Operations in the environment is 4.124.0.0 or later. Then follow these steps.
 
-1. Log in to [Power Apps](https://make.powerapps.com/) and select the Project Operations environment where users require access to the mobile app (from the environment drop-down).
-1. Navigate to **Solutions** from the menu on the left, and select **“All”** solutions.
-1. Look for **TimeEntryMobile** in the list, and select the solution hyperlink. Selecting this solution should navigate you to the **Objects** section of **TimeEntryMobile**.
-1. Locate **Dynamics 365 Time Entry (Production Ready Preview)** on the list.
-1. Select the **overflow** icon _(three dots)_ for this record, and select **Share**.
-1. The app can either be shared with **individual users** by adding their email IDs, or with **all users** of that environment by typing in **“Everyone”** and selecting _“Everyone in \<organization name\>”_ from the drop-down list. 
-1. Select **Share** after selecting the users to enable this app for. Completing this step makes the Dynamics 365 Time Entry app available to the selected users in their **“Apps” section** within Power Apps.
-
-> [!NOTE]
-> This step must be **completed for each environment** on which the Time Entry Mobile app is being enabled and is **only required the first time** the app is shared with end users.
-
-## Modify or Disable access to the mobile app
-
-In order to upgrade or disable access to the Dynamics 365 Time Entry (Preview) mobile app from individual users, follow these steps:
-
-1. Log in to [Power Apps](https://make.powerapps.com/) and select the desired Project Operations environment.
-1. Navigate to **Solutions** > **All Solutions** and select **TimeEntryMobile**.
-1. Select the **overflow** icon _(three dots)_ for this record, and select **Share**.
-1. Select **Manage Access**. This step should display a list of users who already have access to the app.
-1. Select the users that require modifications, and select the **Assign** **app access** option.
-1. The drop-down allows you to either switch access from _User_ to _Co-owner_ (and vice versa), or **Remove Access** to take away their ability to view or use the app.
-
-The next section explains how end users (team members) can access the mobile app after it's shared with them by their system administrators.
-
-## Launch the Dynamics 365 Time Entry (Preview) mobile app (for Team Members)
-
-Once the system administrator shares the app with end users, the app can be launched by following these steps:
-
-To launch the Dynamics 365 Time Entry (Preview) mobile app (for Team Members), follow these steps.
-
-1. Install the **Power Apps mobile app** on your mobile device from the [iOS apps store](https://apps.apple.com/us/app/power-apps/id1047318566) or the [Android Play Store](https://play.google.com/store/apps/details?id=com.microsoft.msapps&hl=en).
-1. Log in to the app using the same credentials as your Project Operations user.
-1. Navigate to **All apps** (if All Apps isn't your default view already).
-1. The **Dynamics 365 Time Entry (Production Ready Preview)** app should be visible if the app was shared by your administrator.
-1. Tap the app name or icon to launch the app on your mobile device.
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Use the environment picker to select the Project Operations environment where users require access to the app.
+1. In the left pane, select **Solutions**.
+1. On the **Solutions** page, select **All** above the grid to view all solutions.
+1. In the grid, find **TimeEntryMobile**, and select the link in the **Display name** column. The **Objects** section of the **TimeEntryMobile** solution should be opened.
+1. In the grid, find **Dynamics 365 Time Entry (Production Ready Preview)**, select the **Commands** button (three dots) for the record, and then select **Share**.
+1. You enable the app for users by sharing it with them. To share the app with specific users, add the email ID of each user. To share the app with all users of the selected environment, enter *Everyone*, and then, in the dropdown list, select *Everyone in \<organization name\>*.
+1. Select **Share** to enable the app for the selected users. The app is now available in each user's **Apps** section in Power Apps.
 
 > [!NOTE]
-> If you're using multiple environments of Project Operations, ensure that the mobile app is **shared with you for every environment**. Reach out to your System Administrator if the Dynamics 365 Time Entry (Production Ready Preview) app isn't visible under **All apps**.
+> This procedure must be completed for each environment where the Time Entry Mobile App is being enabled. However, it's required only the first time that the app is shared with users.
 
-Learn about how to [use the mobile app to create and review time entries](log-time-using-time-entry-mobile-app.md) on the go.
+## For system administrators: Modify or disable access to the mobile app
+
+To modify or disable access to the Time Entry Mobile App for individual users, follow these steps.
+
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Use the environment picker to select the desired Project Operations environment.
+1. In the left pane, select **Solutions**.
+1. On the **Solutions** page, select **All** above the grid.
+1. In the grid, find and select **TimeEntryMobile**.
+1. Select the **Commands** button (three dots) for the record, and then select **Share**.
+1. Select **Manage Access** to view a list of users that already have access to the app.
+1. Select the users that require modifications, and then select **Assign app access**.
+1. Use the dropdown menu to perform one of the following actions:
+
+    - Switch the selected users' access from *User* to *Co-owner*, or from *Co-owner* to *User*.
+    - Select **Remove Access** to take away the selected users' ability to view or use the app.
+
+The next section explains how users (team members) can access the app after a system administrator shares it with them.
+
+## For team members: Open the mobile app
+
+After a system administrator shares the Time Entry Mobile App with you, follow these steps to open it.
+
+1. On your mobile device, install the **Power Apps** mobile app from the [iOS apps store](https://apps.apple.com/app/power-apps/id1047318566) or the [Android Play Store](https://play.google.com/store/apps/details?id=com.microsoft.msapps).
+1. Sign in to the app by using the same credentials as your Project Operations user.
+1. Go to the **All apps** page, if it isn't already your default view.
+1. If your system administrator shared the app with you, **Dynamics 365 Time Entry (Production Ready Preview)** should be listed. Select the app name or icon to open the app on your mobile device.
+
+> [!NOTE]
+> If you use multiple Project Operations environments, the Time Entry Mobile App must be shared with you in each environment. If **Dynamics 365 Time Entry (Production Ready Preview)** isn't listed on the **All apps** page, contact your system administrator.
+
+Learn how to [use the app to create and review time entries](log-time-using-time-entry-mobile-app.md) while you're on the go.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
