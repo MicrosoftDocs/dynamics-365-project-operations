@@ -41,6 +41,7 @@ Existing actuals can be updated using **Correct entries** option on the billing 
 
 
 The List of OOB fields supported for update on actuals and their allowed correction method are listed in the following table.
+
 | Field | Correction Method |
 |---|---| 
 | Project | Correction Journal |
