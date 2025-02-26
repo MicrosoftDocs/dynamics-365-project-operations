@@ -19,22 +19,24 @@ _**Applies to:** Project Operations for resource/non-stocked based scenarios, Li
 Commencing UR 55 release, a backend validation will prevent creates or updates to actuals that do not follow the allowed methods prescribed in ths page for this purpose. 
 
 When attempting to create an Actual using an unsupported method, you may encounter the below error . 
-" The product does not support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at https://aka.ms/EntryJournals."
+"The product does not support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at https://aka.ms/EntryJournals."
 
 
 Scenarios blocked by this validation
 1. Actuals created from user interface
 3. Actuals created manually using maker portal
-4. Actuals created using json scripts
+4. Actuals created using JavaScript scripts
+5. Actuals created usign plugins
    
 
-Scenarios not affected by this validation
-1. Actuals created from synchronous OOB actions
+Scenarios not blocked by this validation
+1. Actuals created from OOB actions
 2. Actuals created via supported scenarios through business rules
 3. Actuals created or updated using Power automate flows that invoke native Project Operations API's listed in the table below.
 4. Actuals created via Dual write sync from F&O to Dataverse
-5. Updates made to custom fields on actuals
-6. Acutals created using Data import jobs
+5. Acutals created using Data import jobs
+6. Updates made to custom fields on actuals
+   
 
       
 ## Creating new actuals
