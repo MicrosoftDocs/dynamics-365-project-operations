@@ -31,7 +31,7 @@ Scenarios blocked by this validation
 
 Scenarios not blocked by this validation
 1. Actuals created from OOB actions
-2. Actuals created via supported scenarios through business rules
+2. Actuals created via native project operations API's for supported business scenarios
 3. Actuals created or updated using Power automate flows that invoke native Project Operations API's listed in the table below.
 4. Actuals created via Dual write sync from F&O to Dataverse
 5. Acutals created using Data import jobs
