@@ -1,6 +1,6 @@
 ---
 title: What's new 2025 wave 1 early access - Project Operations lite deployment
-description: This article provides information about the features available in the 2025 Wave 1 early access release of Project Operations lite deployment.
+description: Learn about the features available in the 2025 Wave 1 early access release of Project Operations lite deployment.
 author: mohitmenon
 ms.custom:
   - evergreen
@@ -26,13 +26,13 @@ The following table lists the feature flags removed from Feature control. These 
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Estimates | **Project estimate updates** <br><br> This feature includes label changes at the project level where the original Estimates tab shows Time-phased estimates, and the newly labeled Estimates tab is a consolidated view of expense and material estimates. The new grid for expense and material estimates allows easy creation and editing of those estimates. You will be able to view cost and sales amounts in one line. | [Financial Estimates on projects](../../project-management/create-expense-estimates.md) |
+| Project Estimates | **Project estimate updates** <br><br> This feature includes label changes at the project level where the original Estimates tab shows Time-phased estimates, and the newly labeled Estimates tab is a consolidated view of expense and material estimates. The new grid for expense and material estimates allows easy creation and editing of those estimates. You can view cost and sales amounts in one line. | [Financial Estimates on projects](../../project-management/create-expense-estimates.md) |
 
 ## Features included in this release
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Sales |**Modern Quote Update** <br><br> This feature enhances the quote management experience with a unified grid interface, allowing users to seamlessly add or edit quote line details with fewer clicks. Key information such as cost details, customer schedules, margins, role price override and budgets are now accessible within each quote line.| [New Quote Form Experience](../../sales/quotes-new-form.md) |
+| Sales |**Modern Quote Update** <br><br> This feature enhances the quote management experience with a unified grid interface, allowing users to seamlessly add or edit quote line details with fewer clicks. Key information such as cost details, customer schedules, margins, role price override, and budgets are now accessible within each quote line.| [New Quote Form Experience](../../sales/quotes-new-form.md) |
 | Actuals |**Prevent user creation of actuals** <br><br> This feature prevents creating or updating actuals using unsupported methods to avoid|  |
 | Invoicing |**Customizing Billing hub** <br><br> This feature provides the ability to customize billing hub for invoicing.| [Customize billing hub](../../proforma-invoicing/billing-hub-customization.md) |
 
