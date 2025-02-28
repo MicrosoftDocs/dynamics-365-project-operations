@@ -34,6 +34,6 @@ The following table lists the feature flags removed from Feature control. These 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
 | Sales |**Modern Quote Update** <br><br> This feature enhances the quote management experience with a unified grid interface, allowing users to seamlessly add or edit quote line details with fewer clicks. Key information such as cost details, customer schedules, margins, role price override and budgets are now accessible within each quote line.| [New Quote Form Experience](../sales/quotes-new-form.md) |
-| Actuals |**Prevent user creation of actuals** <br><br> This feature prevents creating or updating actuals using unsupported methods to avoid| [ |
+| Actuals |**Prevent user creation of actuals** <br><br> This feature prevents creating or updating actuals using unsupported methods to avoid|  |
 | Invoicing |**Customizing Billing hub** <br><br> This feature provides the ability to customize billing hub for invoicing.| [Customize billing hub](../proforma-invoicing/billing-hub-customization.md) |
  
