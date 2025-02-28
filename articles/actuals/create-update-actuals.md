@@ -17,9 +17,9 @@ ms.author: suvaidya
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Starting with the UR 55 release, a backend validation prevents creates or updates to actuals that don't follow the allowed methods prescribed on this page and for this purpose. 
+Beginning in the UR 55 release, a backend validation that prevents creating or updating actuals that don't follow the allowed methods prescribed on this page. 
 
-When attempting to create an Actual using an unsupported method, you may encounter the following error. 
+When attempting to create an actual using an unsupported method, you may encounter the following error. 
 
 ``` txt
 The product doesn't support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at https://aka.ms/EntryJournals.
@@ -34,7 +34,7 @@ The following scenarios are blocked by this validation:
    
 The following scenarios aren't blocked by this validation:
 
-- Actuals created from OOB actions.
+- Actuals created from out-of-the-box (OOB) actions.
 - Actuals created via native project operations APIs for supported business scenarios.
 - Actuals created or updated using Power Automate flows that invoke native Project Operations APIs listed in the following table below.
 - Actuals created via Dual-write sync from finance and operations apps to Dataverse.
@@ -47,7 +47,7 @@ The following scenarios aren't blocked by this validation:
 
 ## Correct existing Actuals
 
-Existing actuals can be updated using the **Correct entries** option on the billing backlog.  **Correct entries** uses correction journals to allow updates on some fields. Learn more in [Correct actuals using correct entries](create-confirm-correction-journals.md).
+Existing actuals can be updated using the **Correct entries** option on the billing backlog. **Correct entries** uses correction journals to allow updates on some fields. Learn more in [Correct actuals using correct entries](create-confirm-correction-journals.md).
 
 ### Supported fields
 
