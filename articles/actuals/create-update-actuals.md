@@ -1,6 +1,6 @@
 ---
 title: Create or update actuals
-description: Learn about how to create or update actuals in Microsoft Dynamics 365 Project Operations.
+description: Learn how to create or update actuals in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
 ms.date: 02/28/2025
 ms.topic: how-to
@@ -10,61 +10,59 @@ ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
 
-
 # Create or update actuals
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Beginning in the UR 55 release, a backend validation that prevents creating or updating actuals that don't follow the allowed methods prescribed on this page. 
+As of Update Release (UR) 55, a back-end validation allows actuals to be created or updated only if a supported method is used, as described in this article.
 
-When attempting to create an actual using an unsupported method, you may receive the following error: 
+If you try to use an unsupported method to create actuals, you might receive the following error message:
 
-   **The product doesn't support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at https://aka.ms/EntryJournals.**
+> The product doesn't support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at `https://aka.ms/EntryJournals`.
 
+The validation **allows** the following scenarios:
 
-The validation _allows_ the following scenarios:
+- Create actuals from out-of-box actions.
+- Create actuals via native Microsoft Dynamics 365 Project Operations APIs for supported business scenarios.
+- Create or update actuals by using Power Automate flows that invoke the native Project Operations APIs in the following table.
+- Create actuals via dual-write synchronization from finance and operations apps to Dataverse.
+- Create actuals by using Data import jobs.
+- Update custom fields on actuals.
 
-- Actuals created from out-of-the-box (OOB) actions.
-- Actuals created via native project operations APIs for supported business scenarios.
-- Actuals created or updated using Power Automate flows that invoke native Project Operations APIs listed in the following table below.
-- Actuals created via Dual-write sync from finance and operations apps to Dataverse.
-- Actuals created using Data import jobs.
-- Updates made to custom fields on actuals.
+The validation **blocks** the following scenarios:
 
-The validation _blocks_ the following scenarios:
+- Create actuals from the user interface (UI).
+- Manually create actuals in the maker portal.
+- Create actuals by using JavaScript scripts.
+- Create actuals by using plugins.
 
-- Actuals created from user interface.
-- Actuals created manually using maker portal.
-- Actuals created using JavaScript scripts.
-- Actuals created using plugins.
-        
 ## Create new actuals
 
-**Actuals shouldn't be created directly in the system**. New actuals can be created using entry journals. Learn more in [Creating actuals using entry journals](create-confirm-entry-journals.md). 
+**You should not create new actuals directly in the system**. Instead, you can create actuals by using entry journals. Learn more in [Create and confirm Entry journals](create-confirm-entry-journals.md).
 
-## Correct existing Actuals
+## Correct existing actuals
 
-Existing actuals can be updated using the **Correct entries** option on the billing backlog. **Correct entries** uses correction journals to allow updates on some fields. Learn more in [Correct actuals using correct entries](create-confirm-correction-journals.md).
+You can update existing actuals by selecting the **Correct entries** option in the billing backlog. The **Correct entries** option uses correction journals to allow for updates of some fields. Learn more in [Create and confirm Correction journals](create-confirm-correction-journals.md).
 
 ### Supported fields
 
-The OOB fields that are supported for updates on actuals and their allowed correction method are listed in the following table.
+The following table lists the out-of-box fields that can be updated on actuals. It also shows the allowed correction method for each field.
 
-| Field | Correction Method |
+| Field | Allowed correction method |
 |---|---| 
-| Project | Correction Journal |
-| Task | Correction Journal |
-| Resource Role | Correction Journal |
-| Subcontract | Correction Journal |
-| Subcontract Line | Correction Journal |
-| Bookable Resource | Correction Journal |
-| Product | Correction Journal |
-| Write in Product | Correction Journal |
-| Start Date/Time | Correction Journal |
-| Document Date | Correction Journal |
-| Transaction Category | Correction Journal |
+| Project | Correction journal |
+| Task | Correction journal |
+| Resource Role | Correction journal |
+| Subcontract | Correction journal |
+| Subcontract Line | Correction journal |
+| Bookable Resource | Correction journal |
+| Product | Correction journal |
+| Write in Product | Correction journal |
+| Start Date/Time | Correction journal |
+| Document Date | Correction journal |
+| Transaction Category | Correction journal |
 | Billing Status | msdyn_MarkActualReadyToInvoiceOrNot API |
 | Not-to-exceed Status | msdyn_ReevaluateActualNotToExceedStatus API |
 | Revise | msdyn_revise API |
