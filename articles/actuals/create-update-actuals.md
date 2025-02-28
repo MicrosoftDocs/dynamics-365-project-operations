@@ -65,4 +65,3 @@ The List of OOB fields supported for update on actuals and their allowed correct
 | Billing Status | msdyn_MarkActualReadyToInvoiceOrNot API |
 | Not-to-exceed Status | msdyn_ReevaluateActualNotToExceedStatus API |
 | Revise | msdyn_revise API |
-
