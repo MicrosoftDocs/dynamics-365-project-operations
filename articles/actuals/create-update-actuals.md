@@ -25,14 +25,7 @@ When attempting to create an actual using an unsupported method, you may encount
 The product doesn't support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at https://aka.ms/EntryJournals.
 ```
 
-The following scenarios are blocked by this validation:
-
-- Actuals created from user interface.
-- Actuals created manually using maker portal.
-- Actuals created using JavaScript scripts.
-- Actuals created using plugins.
-   
-The following scenarios aren't blocked by this validation:
+The validation _allows_ the following scenarios:
 
 - Actuals created from out-of-the-box (OOB) actions.
 - Actuals created via native project operations APIs for supported business scenarios.
@@ -40,6 +33,13 @@ The following scenarios aren't blocked by this validation:
 - Actuals created via Dual-write sync from finance and operations apps to Dataverse.
 - Actuals created using Data import jobs.
 - Updates made to custom fields on actuals.
+
+The validation _blocks_ the following scenarios:
+
+- Actuals created from user interface.
+- Actuals created manually using maker portal.
+- Actuals created using JavaScript scripts.
+- Actuals created using plugins.
         
 ## Create new actuals
 
