@@ -1,18 +1,18 @@
 ---
-title: Moving from stocked/production order deployment to resource/non-stocked
+title: Moving to the modern architecture
 description: Learn how you can use the modern architecture and move to the resource/non-stocked deployment if you have a legal entity that is currently using the stocked/production order deployment. 
 author: ryansandness 
-ms.date: 02/24/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: ryansandness
-ms.search.validFrom: 2025-02-24 
+ms.search.validFrom: 2025-03-03 
 ms.dyn365.ops.version: 
 ---
-# Moving from a stocked/production order deployment to resource/non-stocked deployment
+# Moving to the modern architecture
 
 ## Introduction
 

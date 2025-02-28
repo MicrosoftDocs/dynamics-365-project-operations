@@ -2,7 +2,7 @@
 title: Determine your deployment type
 description: This article provides information to help you determine the correct deployment type of Project operations for your company.
 author: stsporen
-ms.date: 02/24/2025
+ms.date: 03/03/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -28,7 +28,7 @@ Project Operations includes the capabilities that shipped with Project Service A
 Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is. See [Project Operations for stocked/production order scenarios](#pma).
 
 > [!NOTE]
-> It is now possible to move to the modern architecture with Project Operations for a resource/non-stocked legal entity if you are currently using a stocked/production order deployment type. See [Moving from a stocked/production order deployment to resource/non-stocked deployment](../prod-pma/Move-from-production-to-resource.md) for more details.
+> It is now possible to move to the modern architecture with Project Operations if you are currently using a stocked/production order deployment type. See [Moving to the modern architecture](../prod-pma/move-to-modern-deployment.md) for more details.
 
 ## Deployment regions
 To determine which regions support Project Operations deployment, see [Geographical availability for Dynamics 365 and Power Platform report](https://dynamics.microsoft.com/en-us/geographic-availability/). Select **View Report**, and expand **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** to view the supported regions.
