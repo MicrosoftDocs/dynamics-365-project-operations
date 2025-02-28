@@ -27,7 +27,7 @@ The following table lists the feature flags removed from Feature control. These 
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Estimates | **Project estimate updates** <br><br> This feature includes label changes at the project level where the original Estimates tab shows Time-phased estimates, and the newly labeled Estimates tab is a consolidated view of expense and material estimates. The new grid for expense and material estimates allows easy creation and editing of those estimates. You will be able to view cost and sales amounts in one line. | [Financeial Estimates on projects](../project-management/create-expense-estimates.md) |
+| Project Estimates | **Project estimate updates** <br><br> This feature includes label changes at the project level where the original Estimates tab shows Time-phased estimates, and the newly labeled Estimates tab is a consolidated view of expense and material estimates. The new grid for expense and material estimates allows easy creation and editing of those estimates. You will be able to view cost and sales amounts in one line. | [Financial Estimates on projects](../project-management/create-expense-estimates.md) |
 
 ## Features included in this release
 
