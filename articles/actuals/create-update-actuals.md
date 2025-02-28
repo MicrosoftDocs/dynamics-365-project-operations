@@ -19,11 +19,10 @@ _**Applies to:** Project Operations for resource/non-stocked based scenarios, Li
 
 Beginning in the UR 55 release, a backend validation that prevents creating or updating actuals that don't follow the allowed methods prescribed on this page. 
 
-When attempting to create an actual using an unsupported method, you may encounter the following error. 
+When attempting to create an actual using an unsupported method, you may receive the following error: 
 
-``` txt
-The product doesn't support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at https://aka.ms/EntryJournals.
-```
+   **The product doesn't support creating actuals either manually or through customizations. Use entry journals to create new actuals and Correct entries update existing actuals. More information is available at https://aka.ms/EntryJournals.**
+
 
 The validation _allows_ the following scenarios:
 
