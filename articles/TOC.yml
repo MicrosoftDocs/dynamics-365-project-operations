@@ -561,7 +561,7 @@
     - name: Actuals overview
       href: actuals/actuals-overview.md
     - name: Create or update actuals
-      href: actuals/creating_or_updating_actuals.md
+      href: actuals/create-update-actuals.md
     - name: Business transactions in Project Operations
       href: actuals/businesstransactions.md
     - name: Actuals impact in a time and materials engagement
@@ -1219,7 +1219,7 @@
     - name: Actuals overview
       href: actuals/actuals-overview.md
     - name: Create or update actuals
-      href: actuals/creating_or_updating_actuals.md
+      href: actuals/create-update-actuals.md
     - name: Business transactions in Project Operations
       href: actuals/businesstransactions.md
     - name: Transaction origins - Link actuals to source
