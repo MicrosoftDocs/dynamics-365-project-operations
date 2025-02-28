@@ -114,7 +114,7 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
-     - name: 2025 Wave 1 Early Access - Project Operations for resource/non-stocked based scenarios
+    - name: 2025 Wave 1 Early Access - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-2025W1-resource-based.md
     - name: February 2025 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-feb-2025-resource-based.md
