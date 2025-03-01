@@ -34,7 +34,7 @@ Enabling the modern architecture in a legal entity with project data will requir
 3. All projects should be moved to a closed status.
 4. In **Global project management and accounting parameters**, select the legal entity to opt in. As part of the process, a simple check will be performed against the projects to ensure they have all been closed but do ensure that all project transactions have been completed prior to this step as projects will not be able to be re-opened once you have selected to opt into the Legal entity.
 5. Enable the legal entity for **Dual write** and run the [appropriate maps](../environment/resource-dual-write-maps.md) in initial sync or ensure new data is created where necessary to sync master data from either system.
-6. Perform the necessary setup in both systems. [Product documentation on Microsoft Learn](../environment/project-operations-integrated-deployment-overview.md) can be used additional details on setup and configuration. For the finance and operations architecture, there will be several areas of new setup required such as project category creation, configuring parameters, creating project cost and revenue profiles, and more.
+6. Perform the necessary setup in both systems. [Product documentation on Microsoft Learn](../environment/project-operations-integrated-deployment-overview.md) can be used for additional details on setup and configuration. For the finance and operations architecture, there will be several areas of new setup required such as project category creation, configuring parameters, creating project cost and revenue profiles, and more.
 
 [!include [banner](../includes/banner.md)]
 
