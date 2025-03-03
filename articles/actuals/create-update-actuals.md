@@ -26,7 +26,7 @@ The validation **allows** the following scenarios:
 
 - Create actuals from out-of-box actions.
 - Create actuals via native Microsoft Dynamics 365 Project Operations APIs for supported business scenarios.
-- Create or update actuals by using Power Automate flows that invoke the native Project Operations APIs in the following table.
+- Create or update actuals by using Power Automate flows that invoke the native Project Operations APIs in the Supported fields table later in this article.
 - Create actuals via dual-write synchronization from finance and operations apps to Dataverse.
 - Create actuals by using Data import jobs.
 - Update custom fields on actuals.
