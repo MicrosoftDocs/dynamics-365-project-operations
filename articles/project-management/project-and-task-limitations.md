@@ -16,7 +16,7 @@ You should be aware of the following limitations if you're using the work breakd
 ## Project limitations
 
 > [!NOTE]
-> The limits on Projects and Tasks have been enhanced for better experience. Currently, new limits are under private preview. Please fill the form at [Signup for new limits](https://aka.ms/signup4limits) to register for the private preview.
+> The limits on Projects and Tasks are enhanced for better experience. Currently, new limits are under private preview. Register for private preview at [Signup for new limits](https://aka.ms/signup4limits).
 >
 
 | Field                                              | Limit                | New Limits            |
