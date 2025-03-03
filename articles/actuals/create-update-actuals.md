@@ -26,7 +26,7 @@ The validation **allows** the following scenarios:
 
 - Create actuals from out-of-box actions.
 - Create actuals via native Microsoft Dynamics 365 Project Operations APIs for supported business scenarios.
-- Create or update actuals by using Power Automate flows that invoke the native Project Operations APIs in the Supported fields table later in this article.
+- Create or update actuals by using Power Automate flows that invoke the native Project Operations APIs that are mentioned in the "Supported fields" table later in this article.
 - Create actuals via dual-write synchronization from finance and operations apps to Dataverse.
 - Create actuals by using Data import jobs.
 - Update custom fields on actuals.
@@ -46,7 +46,7 @@ The validation **blocks** the following scenarios:
 
 You can update existing actuals by selecting the **Correct entries** option in the billing backlog. The **Correct entries** option uses correction journals to allow for updates of some fields. Learn more in [Create and confirm Correction journals](create-confirm-correction-journals.md).
 
-### Supported fields
+## Supported fields
 
 The following table lists the out-of-box fields that can be updated on actuals. It also shows the allowed correction method for each field.
 
