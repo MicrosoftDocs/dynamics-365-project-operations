@@ -28,8 +28,6 @@ After you provision Project Operations as described in this article, the Lifecyc
 
 Use the environment name in the section, **Common Data Service Environment Name** to navigate to Project Operations on a CDS environment. 
 
-  ![Common Data Service environment name.](./media/environment-name.PNG)
-
 Select **Login** > **Log on to environment** to navigate to the **Project management and accounting** module in Finance.  
 
    ![Log into Finance.](./media/environment-login.PNG)

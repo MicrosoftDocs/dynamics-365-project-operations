@@ -77,8 +77,6 @@ The **Project** page in Project Operations includes the following new tabs.
 
 The **Status** tab has been removed and the **Status** field is now on the **Summary** tab with the project’s scheduling mode.
 
-   ![Updates to the Project page.](media/projectform.png)
-
 The **Schedule** tab has been renamed to the **Task** tab and features the new project planning experience with Project for the Web.
 
    ![New Project tasks tab.](media/tasktab.png)
