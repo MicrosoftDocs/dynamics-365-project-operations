@@ -51,9 +51,6 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 ## Create a new Dataverse environment
 
 1. Provision a new Project Operations Dataverse deployment environment by following instructions in the article, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
-
-  ![New environment.](./media/19CreateEnvironment.png)
-
 2. Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.  
 3. Select **Save** to create the environment.
 
