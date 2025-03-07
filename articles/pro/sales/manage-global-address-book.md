@@ -28,7 +28,7 @@ To use the functionality, in **Microsoft Dataverse**, activate the **Enable glob
 
 To use the feature for Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios, you must have the following versions:
 
-- **Project Operations Dataverse** version 4.124.0.x or later.
+- **Project Operations Dataverse** version 4.140.0.x or later.
 - **Dynamics 365 Finance** version 10.0.43 or later.
 
 ### Dual-write for Global address book 
