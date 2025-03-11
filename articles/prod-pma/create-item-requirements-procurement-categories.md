@@ -39,7 +39,7 @@ Follow these steps to enable the item requirements feature for project purchase 
 4. Mark **Create item requirement for procurement category** to **yes**.
 
 > [!NOTE] 
-> **Create Item requirement for procurement category** will be enabled for selection only after selecting the **Create Item Requirements** option. If this option is not selected, then item requirement lines will not be created for the project purchase order lines.
+> **Create Item requirement for procurement category** will be enabled for selection only after selecting the **Create Item Requirements** option. If this option is not selected, the system does not create **item requirement** lines for the **project purchase order** lines.
 
 ## Set up default sales categories for the procurement categories
 
@@ -50,11 +50,10 @@ To use the **item requirements** feature for **procurement categories**, you nee
 3. On the **Assign procurement categories** tab, select **sales category** related to **procurement category**.
 
 > [!NOTE] 
-> If **Create Item Requirement for Procurement Category** is enabled but sales categories are not linked to procurement categories, the system will prevent saving the purchase order line and display an error message.
+> If **Create Item Requirement for Procurement Category** is enabled but **sales categories** are not linked to **procurement categories**, the system prevents saving the **purchase order line** and displays an error message.
 
-Once the above setup is completed, the system will automatically create **item requirements** with **sales category** for each **purchase order line** created for a **procurement category**. When the purchase order **product receipt** is posted, 
-the system will automatically post the **item requirements packing slip**, similar to **service items** or **stocked items**, for the purchase packing slip **quantity**. The system will generate the **project cost** financials using the purchase **unit price**, 
-deducting any applicable **purchase discounts**, and will also generate the **project posted transactions**.
+Once the setup's are completed, The system automatically creates item requirements with sales category for each purchase order line created for a procurement category. When the purchase order **product receipt** is posted, the system automatically posts the **item requirements packing slip**, similar to **service items** or **stocked items**, for the purchase packing slip **quantity**.
+The system generates the **project cost** financials using the purchase **unit price**, deducting any applicable **purchase discounts**, and also generates the **project posted transactions**.
 
 The system will also generate **WIP sales** and **accrue revenue** financial transactions if a **sales price** is available on the item requirements generated from the purchase order line.
 
