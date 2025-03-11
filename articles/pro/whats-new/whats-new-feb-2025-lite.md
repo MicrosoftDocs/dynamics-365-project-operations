@@ -25,9 +25,16 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Time Entry |**Time Entry Mobile App** <br><br> Project team members on Lite and resource/Non stocked-based deployments of Project Operations now have a new mobile application based on Microsoft Power Apps. The new mobile app helps them log time, keep track of submitted entries, and view work assigned to them. | [Time Entry Mobile App](../../time/time-entry-mobile-app.md)  |
+| Time Entry |**Time Entry Mobile App (Preview)** <br><br> Project team members on Lite and resource/Non stocked-based deployments of Project Operations now have a new mobile application based on Microsoft Power Apps. The new mobile app helps them log time, keep track of submitted entries, and view work assigned to them. | [Time Entry Mobile App (Preview)](../../time/time-entry-mobile-app.md)  |
 | Sales |**Time phasing of Sales Estimates** <br><br> The Time phasing of prices feature provides visibility into price fluctuations over time within project quote lines and project contract lines. Nested quote line details display price changes phased out on a weekly basis, allowing you to track adjustments due to price overrides or multiple price lists.| [Estimate a project quote line](../../sales/create-estimate-quote-line.md) <br> [Estimate a project contract line](../../sales/create-estimate-contract-line.md) |
-| Invoicing |**Progress Billing in Billing hub** <br><br> | [Progress billing within Billing Hub](../../proforma-invoicing/billing-hub.md)  |
+| Invoicing |**Progress Billing in Billing hub** <br><br> Progress-based billing lets customers realise revenue in regular increments as work toward the milestone is completed. Billing hub supports the ability to generate invoices for progress-based milestones. | [Progress billing within Billing Hub](../../proforma-invoicing/billing-hub.md)  |
+
+## Critical updates in this release
+
+| **Feature area** | **Issue Name** | **Issue Description** | **Fix implemented** |
+| --- | --- | --- | --- | 
+| Invoicing | Invoice revision by a user other than the invoice creator fails with privilege exception. As a result, the invoice cannot be revised by a user other than the invoice creator. | When the user that created the original invoice loses privileges or leaves the organization, no other user can handle corrections for that invoice. | The fix defaults the invoice owner to the logged in user that is performing an action. |
+
 
 ## Quality updates
 
