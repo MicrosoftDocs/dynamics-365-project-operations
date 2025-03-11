@@ -4,7 +4,7 @@ description: Learn about the features available in the 2025 Wave 1 early access 
 author: mohitmenon
 ms.custom:
   - evergreen
-ms.date: 02/28/2025
+ms.date: 03/11/2025
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
@@ -33,6 +33,10 @@ The following table lists the feature flags removed from Feature control. These 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
 | Sales |**Modern Quote Update** <br><br> This feature enhances the quote management experience with a unified grid interface, allowing users to seamlessly add or edit quote line details with fewer clicks. Key information such as cost details, customer schedules, margins, role price override, and budgets are now accessible within each quote line.| [New Quote Form Experience](../../sales/quotes-new-form.md) |
-| Actuals |**Prevent user creation of actuals** <br><br> This feature prevents creating or updating actuals using unsupported methods to avoid|  |
-| Invoicing |**Customizing Billing hub** <br><br> This feature provides the ability to customize billing hub for invoicing.| [Customize billing hub](../../proforma-invoicing/billing-hub-customization.md) |
+| Invoicing |**Customizing Billing hub** <br><br> This feature lets you customize billing hub for invoicing.| [Customize billing hub](../../proforma-invoicing/billing-hub-customization.md) |
 
+## Critical updates in this release
+
+| **Feature area** | **Issue Name** | **Issue Description** | **Fix implemented** |
+| --- | --- | --- | --- | 
+| Actuals | Updates to creation of actuals | Creating or updating actuals manually or by unsupported methods can affect the financial integrity of the system. | The newly added validation prevents creating or updating actuals using unsupported methods. Learn more in [Create or update actuals](../../actuals/create-update-actuals.md). |
