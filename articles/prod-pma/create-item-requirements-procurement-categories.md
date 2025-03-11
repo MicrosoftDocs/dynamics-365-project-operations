@@ -1,5 +1,5 @@
 ---
-title: Manage project production orders
+title: Manage item requirements for procurement categories using purchase orders
 description: Discover how to define project item requirements for procurement categories using purchase orders and generate project costs through product receipts for procurement categories.
 author: mukumarm
 ms.author: mukumarm
@@ -23,38 +23,38 @@ This article outlines how to use the item requirements feature for purchase orde
 
 ## Prerequisites
 
-### Minimum versions required
-
 To use the feature for Dynamics 365 Project Operations for stocked based scenario, you must have the following versions:
 
 - Finance version 10.0.44 or later
 
-## Setup project management and accounting parameters
+## Set up project management and accounting parameters
 
-Follow these steps to enable the item requirements feature for project purchase order lines created for procurement categories.
+To enable the item requirements feature for project purchase order lines created for procurement categories, follow these steps.
 
 1. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters**.
-2. Go to **General** tab.
-3. Mark **Create item requirement** to **yes**.
-4. Mark **Create item requirement for procurement category** to **yes**.
+1. Select the **General** tab.
+1. Mark **Create item requirement** to **Yes**.
+1. Mark **Create item requirement for procurement category** to **Yes**.
 
 > [!NOTE] 
-> **Create Item requirement for procurement category** will be enabled for selection only after selecting the **Create Item Requirements** option. If this option is not selected, the system does not create **item requirement** lines for the **project purchase order** lines.
+> **Create Item requirement for procurement category** is enabled for selection only after selecting the **Create Item Requirements** option. If this option isn't selected, the system doesn't create the **item requirement** lines for the **project purchase order** lines.
 
 ## Set up default sales categories for the procurement categories
 
 To use the **item requirements** feature for **procurement categories**, you need to establish a relationship between the **procurement category** and the **sales category**, as item requirements only support sales categories.
 
+To set up default sales categories for the procurement categories, follow these steps.
+
 1. Go to **Procurement and sourcing** > **Procurement categories**.
-2. On the action pane, click **Edit procurement hierarchy**.
-3. On the **Assign procurement categories** tab, select **sales category** related to **procurement category**.
+1. On the action pane, select **Edit procurement hierarchy**.
+1. On the **Assign procurement categories** tab, select **sales category** related to **Procurement category**.
 
 > [!NOTE] 
-> If **Create Item Requirement for Procurement Category** is enabled but **sales categories** are not linked to **procurement categories**, the system prevents saving the **purchase order line** and displays an error message.
+> If **Create Item Requirement for Procurement Category** is enabled but the **sales categories** aren't linked to the **procurement categories**, the system prevents saving the **purchase order line** and displays an error message.
 
-Once the setup's are completed, The system automatically creates item requirements with sales category for each purchase order line created for a procurement category. When the purchase order **product receipt** is posted, the system automatically posts the **item requirements packing slip**, similar to **service items** or **stocked items**, for the purchase packing slip **quantity**.
+Once the set up is complete, The system creates item requirements with sales category for each purchase order line created for a procurement category. When the purchase order **product receipt** is posted, the system posts the **item requirements packing slip**, similar to **service items** or **stocked items**, for the purchase packing slip **quantity**.
 The system generates the **project cost** financials using the purchase **unit price**, deducting any applicable **purchase discounts**, and also generates the **project posted transactions**.
 
-The system will also generate **WIP sales** and **accrue revenue** financial transactions if a **sales price** is available on the item requirements generated from the purchase order line.
+The system generates **WIP sales** and **accrue revenue** financial transactions if a **sales price** is available on the item requirements generated from the purchase order line.
 
-For more information about **project purchase order**, refer [Project purchase orders](articles/prod-pma/project-purchase-orders.md) and for **project purchase product receipt**, refer [Project cost accrual on purchase receipts](/articles/finance/accounts-payable/project-cost-accrual-purchase-receipts.md).
+Learn more about **project purchase orders** in [Project purchase orders](project-purchase-orders.md), and **project purchase product receipts** in [Project cost accrual on purchase receipts](/finance/accounts-payable/project-cost-accrual-purchase-receipts.md).
