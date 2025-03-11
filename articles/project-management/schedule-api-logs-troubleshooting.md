@@ -70,7 +70,7 @@ This can happen because:
   
 2. The ReadMpp request returns empty for the revision token. This means the MPP file is either deleted or not created on CDS, resulting in the loss of all project data.
 
-### Mitigation 1:
+### Mitigation 1
 Contact your administrator for help with resetting the revision token for the current project using these steps.
   1.	Open the Developer Console using Ctrl + Shift + I
   2.	Copy and paste the below script. In the below script, enter the project id and the org URL. This script file resets both the Project and Document Header revision tokens.
