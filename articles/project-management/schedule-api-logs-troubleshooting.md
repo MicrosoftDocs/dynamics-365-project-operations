@@ -25,7 +25,7 @@ To fix this issue, you'll need to run a script. Please contact your administrato
 2.	Copy and paste the script below. In the script, add the task IDs causing the error from the PSS Error Log. Running this script will show the resource assignments for the tasks with errors.
 3.	Delete these resource assignments using the delete [schedule API](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/schedule-api-preview). This should allow the project to be opened correctly, and then the customer should be able to go back in and re-create those assignments.
 Here’s the script to get the list of assignments.
- ```C#
+ ```JS
     const listOfTasks = ["TASK IDS HERE"];
     /*
     * @params: listOfTasks: List of Tasks to retrieve associated Resource Assignments
@@ -74,7 +74,7 @@ This can happen because:
 Please contact your administrator for help with resetting the revision token for the current project using these steps.
   1.	Open the Developer Console using Ctrl + Shift + I
   2.	Copy and paste the below script. In the below script, enter the project id and the org URL. This script file will reset both the Project and Document Header revision tokens.
-```C#
+```JS
     // Things to update here:
     let projectId = "YOUR PROJECT ID HERE";
     let orgUrl = "YOUR ORG URL HERE"; // Update the orgUrl and verify this value (Example: abc.crm.dynamics.com)
