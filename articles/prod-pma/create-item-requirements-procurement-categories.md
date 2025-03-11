@@ -16,7 +16,7 @@ ms.date: 04/15/2025
 
 _**Applies To:** Project Operations for stocked based scenarios._
 
-In Microsoft Dynamics 365 Finance, project item requirements are a crucial aspect of project management, because they allow for planning and tracking of item consumption throughout the lifecycle of a project.
+In Microsoft Dynamics 365 Finance, project item requirements are a crucial aspect of project management. They allow for planning and tracking of item consumption throughout the lifecycle of a project.
 
 When a purchase order is created by using the **Item requirements** feature, Dynamics 365 Finance generates the project item requirements. Each purchase order line has a direct relationship with the project item requirement that is created for it.
 
