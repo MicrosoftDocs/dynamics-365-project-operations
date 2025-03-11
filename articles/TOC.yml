@@ -1806,6 +1806,8 @@
       href: prod-pma/project-purchase-orders.md
     - name: Project cost accrual on purchase receipts
       href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+    - name: Manage project production orders
+      href: prod-pma/create-item-requirements-procurement-categories.md
     - name: Receive items on purchase order from item requirement
       href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
     - name: Set up and use pay-when-paid vendor payments
