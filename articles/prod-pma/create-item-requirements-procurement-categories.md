@@ -57,4 +57,4 @@ The system generates the **project cost** financials using the purchase **unit p
 
 The system generates **WIP sales** and **accrue revenue** financial transactions if a **sales price** is available on the item requirements generated from the purchase order line.
 
-Learn more about **project purchase orders** in [Project purchase orders](project-purchase-orders.md), and **project purchase product receipts** in [Project cost accrual on purchase receipts](/finance/accounts-payable/project-cost-accrual-purchase-receipts).
+Learn more about **project purchase orders** in [Project purchase orders](project-purchase-orders.md), and **project purchase product receipts** in [Project cost accrual on purchase receipts](/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts).
