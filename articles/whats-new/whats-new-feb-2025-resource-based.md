@@ -7,7 +7,7 @@ ms.topic: whats-new
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 02/20/2025
+ms.date: 03/11/2025
 ms.reviewer: johnmichalak
 
 ---
@@ -41,17 +41,17 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Time Entry |**Time Entry Mobile App (Preview)** <br><br> Project team members on Lite and resource/Non stocked-based deployments of Project Operations now have a new mobile application based on Microsoft Power Apps. The new mobile app helps them log time, keep track of submitted entries, and view work assigned to them. |[Time Entry Mobile App (Preview)](../time/time-entry-mobile-app.md) |
+| Time Entry |**Time Entry Mobile App (Preview)** <br><br> Project team members on Lite and resource/nonstocked-based deployments of Project Operations now have a new mobile application that's based on Microsoft Power Apps. The new mobile app helps them log time, keep track of submitted entries, and view work assigned to them. |[Time Entry Mobile App (Preview)](../time/time-entry-mobile-app.md) |
 | Sales |**Time phasing of Sales Estimates** <br><br> The Time phasing of prices feature provides visibility into price fluctuations over time within project quote lines and project contract lines. Nested quote line details display price changes phased out on a weekly basis, allowing you to track adjustments due to price overrides or multiple price lists.| [Estimate a project quote line](../sales/create-estimate-quote-line.md) <br> [Estimate a project contract line](../sales/create-estimate-contract-line.md) |
-| Invoicing |**Progress Billing in Billing hub** <br><br> Progress-based billing lets customers realise revenue in regular increments as work toward the milestone is completed. Billing hub supports the ability to generate invoices for progress-based milestones. | [Progress billing within Billing Hub](../proforma-invoicing/billing-hub.md) |
-| Invoicing |**Processing billed sales in integrated deployments** <br><br> Transactions for time, expense, material usage or fee can now be created directly on a draft invoice for resource deployments. |[Add new invoice line details](../proforma-invoicing/add-new-ild-to-invoice.md)  |
-| Billing |**Progress billing in integrated deployments** <br><br> Progress billing lets customers raise invoices based on the percentage of work completed instead of fixed milestones or time and materials. This mode of billing is useful for long-term contracts, where the work spans over multiple years. |[Create invoice schedules for a project-based contract line](../sales/invoice-schedules-contract-line.md) <br> [Project Contract Lines Overview](../pro/sales/manage-contract-values-project-based-sales.md)|
+| Invoicing |**Progress Billing in Billing hub** <br><br> Progress-based billing lets you realize revenue in regular increments as you work toward completing a milestone. Billing hub supports the ability to generate invoices for progress-based milestones. | [Progress billing within Billing Hub](../proforma-invoicing/billing-hub.md) |
+| Invoicing |**Processing billed sales in integrated deployments** <br><br> Transactions for time, expense, material usage, or fee can now be created directly on a draft invoice for resource deployments. |[Add new invoice line details](../proforma-invoicing/add-new-ild-to-invoice.md)  |
+| Billing |**Progress billing in integrated deployments** <br><br> Progress billing lets you raise invoices based on the percentage of work completed instead of fixed milestones or time and materials. This mode of billing is useful for long-term contracts, where the work spans over multiple years. |[Create invoice schedules for a project-based contract line](../sales/invoice-schedules-contract-line.md) <br> [Project Contract Lines Overview](../pro/sales/manage-contract-values-project-based-sales.md)|
 
 ## Critical updates in this release
 
 | **Feature area** | **Issue Name** | **Issue Description** | **Fix implemented** |
 | --- | --- | --- | --- | 
-| Invoicing | Deleting Revised Milestone Prevents Invoices from Importing to Finance & Operations | If a customer invoices a milestone and then revises it, the system still allows them to mark the milestone as "Not Ready to Invoice" and then delete it from the system. Once the milestone is deleted from the system, trying to import invoices over to Finance & Operations results in an exception. | Deletion of revised milestones (milestones that have billing activity) is now blocked. This fix is enabled by default. |
+| Invoicing | Deleting devised milestone prevents invoices from importing into finance and operations apps. | If you invoice a milestone and then revises it, the system lets you mark the milestone as "Not Ready to Invoice" and then deletes it from the system. Once the milestone is deleted from the system, trying to import invoices over to finance and operations apps results in an exception. | Deletion of revised milestones (milestones that have billing activity) is now blocked. This fix is enabled by default. |
 | Invoicing | Invoice revision by a user other than the invoice creator fails with privilege exception. As a result, the invoice cannot be revised by a user other than the invoice creator. | When the user that created the original invoice loses privileges or leaves the organization, no other user can handle corrections for that invoice. | The fix defaults the invoice owner to the logged in user that is performing an action. |
 
 ## Quality updates
