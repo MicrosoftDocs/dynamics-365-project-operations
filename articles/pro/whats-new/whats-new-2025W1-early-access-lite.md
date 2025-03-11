@@ -36,3 +36,8 @@ The following table lists the feature flags removed from Feature control. These 
 | Actuals |**Prevent user creation of actuals** <br><br> This feature prevents creating or updating actuals using unsupported methods to avoid|  |
 | Invoicing |**Customizing Billing hub** <br><br> This feature provides the ability to customize billing hub for invoicing.| [Customize billing hub](../../proforma-invoicing/billing-hub-customization.md) |
 
+## Critical updates in this release
+
+| **Feature area** | **Issue Name** | **Issue Description** | **Fix implemented** |
+| --- | --- | --- | --- | 
+| Actuals | Updates to creation of actuals | Creating or updating actuals manually or by unsupported methods can affect the financial integrity of the system. | The newly added validation prevents creating or updating actuals using unsupported methods. [Create or update actuals](../../actuals/create-update-actuals.md) |
