@@ -39,4 +39,4 @@ The following table lists the feature flags removed from Feature control. These 
 
 | **Feature area** | **Issue Name** | **Issue Description** | **Fix implemented** |
 | --- | --- | --- | --- | 
-| Actuals | Updates to creation of actuals | Creating or updating actuals manually or by unsupported methods can affect the financial integrity of the system. | The newly added validation prevents creating or updating actuals using unsupported methods. Learn more in [Create or update actuals](../actuals/create-update-actuals.md). |
+| Actuals | Updates to creation of actuals | Creating or updating actuals manually or by unsupported methods can affect the financial integrity of the system. | The newly added validation prevents creating or updating actuals using unsupported methods. Learn more in [Create or update actuals](../../actuals/create-update-actuals.md). |
