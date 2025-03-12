@@ -11,7 +11,7 @@ ms.author: dishantpopli
 ---
 
 # Troubleshooting save errors in the task grid
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_, _Project for the Web_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 When working in the task grid, sometimes changes to the Work Breakdown Structure (WBS) don't get saved. An error message appears saying, "Recent change you’ve made couldn’t be saved." This article explains the common reasons for these save errors.
 
