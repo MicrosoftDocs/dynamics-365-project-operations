@@ -1,6 +1,6 @@
 ---
-title: Troubleshooting Project Scheduling Logs
-description: This article provides information and samples that help you understand and troubleshoot the Project Scheduling Errors that are related to the Project Scheduling Service and Project Scheduling APIs. 
+title: Troubleshoot project scheduling errors
+description: Learn about troubleshooting project scheduling errors that are related to the project scheduling service and project scheduling APIs. 
 author: dishantpopli  
 ms.date: 03/11/2025
 ms.topic: troubleshooting
@@ -11,28 +11,28 @@ ms.author: dishantpopli
 
 ---
 
-# Troubleshooting save errors in the task grid
+# Troubleshoot project scheduling errors in the task grid
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-When working in the task grid, sometimes changes to the Work Breakdown Structure (WBS) don't get saved. An error message appears saying, "Recent change you’ve made couldn’t be saved." This article explains the common reasons for these save errors.
+When you work in the task grid, sometimes changes to the Work Breakdown Structure (WBS) don't get saved. An error message appears saying, "Recent change you’ve made couldn’t be saved." This article explains the common reasons for these errors.
 
-## Issue 1: Project task due date can't be earlier than task start date
+## Project task due date can't be earlier than task start date
 
-After updating the project calendar, the user sees a save error when opening the tasks tab. The PSS Error Log shows this message: 
+After you update the project calendar, you see a save error when opening the **Tasks** tab. The PSS Error Log shows this message: 
 "Project Task end/due date can't be earlier than task start date."
 
 ### Mitigation
 
-To fix this issue, you need to run a script. Contact your administrator for assistance. Here are the steps to run the script:
+To fix this issue, your administrator needs to run a script. Contact your administrator for assistance. To run the script, follow these steps.
 
-1. Open the Developer Console using Ctrl + Shift + I.
-1. Copy and paste the following script. In the script, add the task IDs causing the error from the PSS Error Log. Running this script shows the resource assignments for the tasks with errors.
-1. Delete these resource assignments using the delete [schedule API](schedule-api-preview.md). This should allow the project to be opened correctly, and then the customer should be able to go back in and re-create those assignments.
+1. Open the Developer console using Ctrl + Shift + I.
+1. Copy and paste the following script into the Developer console. Modify the script to add the task IDs for the tasks listed in the the PSS Error Log that are causing the errors. After the script runs, the resource assignments for the tasks with errors are shown.
+1. Delete these resource assignments using the [Delete schedule API](schedule-api-preview.md). Deleting these assignments allows the project to be opened correctly, and then you can re-create the assignments.
 
-Here’s the script to get the list of assignments.
+Use the following script to get the list of assignments.
 
  ```JS
     const listOfTasks = ["TASK IDS HERE"];
@@ -70,7 +70,7 @@ Here’s the script to get the list of assignments.
     });
 ```
 
-## Issue 2: Revision token doesn’t match between xRM and PSS
+## Revision token doesn’t match between xRM and PSS
 
 When trying to make changes in the task grid, sometimes the edits revert after a while or a save error appears. The PSS error log shows "Revision Token doesn't match between xRM and PSS."
 
@@ -82,9 +82,10 @@ This can happen because:
 
 ### Mitigation 1
 
-Contact your administrator for help with resetting the revision token for the current project using these steps.
-1. Open the Developer Console using Ctrl + Shift + I
-1. Copy and paste the following script. In the script, enter the project id and the org URL. This script file resets both the Project and Document Header revision tokens.
+Contact your administrator for help with resetting the revision token for the current project using these steps. To run the script, follow these steps.
+
+1. Open the Developer console using Ctrl + Shift + I
+1. Copy and paste the following script into the Developer console. Modify the script and enter the project ID and the org URL. This script resets both the Project and Document Header revision tokens.
 
 ```JS
     // Things to update here:
@@ -143,16 +144,16 @@ Contact your administrator for help with resetting the revision token for the cu
 
 If the first mitigation doesn’t work, then delete the current project and create a new one. In case that isn’t a preferred option contact support.
 
-## Issue 3: Entity doesn't contain attribute
+## Entity doesn't contain attribute
 
-After updating the project calendar, the user sees a save error when opening the tasks tab. The PSS Error Log shows a message saying the entity doesn't contain an attribute. This is the error message received:
+After you update the project calendar, the user sees a save error when opening the tasks tab. The PSS Error Log shows a message saying the entity doesn't contain an attribute. This is the error message received:
 \<EntityName\> entity doesn't contain attribute with Name = \<AttributeName\> and NameMapping = `Logical`
 
 ### Mitigation
 
 The user uses custom pricing dimensions, and the likely cause of the issue is that the custom dimension isn't linked to the affected Project Service Pricing entity. To fix this, follow the public documentation to correctly add the custom dimension to all required Pricing entities or remove the custom dimension. Here's the associated public doc: [Entity-based custom pricing dimensions](../pricing-costing/add-custom-fields-price-setup-transactional-entities.md#entity-based-custom-pricing-dimensions)
 
-## Issue 4: Unable to delete a task
+## Unable to delete a task
 
 When the user tries to delete a task from the Tasks tab, it reappears after a few minutes. They might also see a save error and be unable to make any edits on the tasks grid.
 
@@ -168,14 +169,14 @@ Contact your administrator to assign the correct permissions to the "Microsoft P
 1. Select Microsoft Project/Microsoft Portfolios and select **Edit security roles**.
 1. Ensure that the Project System and Project Operations System security roles are checked.
 
-## Issue 5: System job has an error
+## System job has an error
 
 When the user creates new tasks, a save error message appears on the task grid after some time. In the System Jobs, there will be a successful instance of Project Service Core - SaveProjectDataFromPCSAsynchronousV1, followed by one or more failed instances for the same project, as shown in the following screenshot.
 
 ![System job has an error.](media/systemjobhaserror.png)
 
 On inspecting the system job, the following error appears:
-“Revision Token does not match between xRM and PSS.”
+“Revision Token doesn't match between xRM and PSS.”
 
 ### Mitigation 1
 
