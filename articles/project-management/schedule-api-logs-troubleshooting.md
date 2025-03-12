@@ -3,7 +3,7 @@ title: Troubleshooting Project Scheduling Logs
 description: This article provides information and samples that help you understand and troubleshoot the Project Scheduling Errors that are related to the Project Scheduling Service and Project Scheduling APIs. 
 author: dishantpopli  
 ms.date: 03/11/2025
-ms.topic: Troubleshooting
+ms.topic: troubleshooting
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -146,7 +146,7 @@ If the first mitigation doesn’t work, then delete the current project and crea
 ## Issue 3: Entity doesn't contain attribute
 
 After updating the project calendar, the user sees a save error when opening the tasks tab. The PSS Error Log shows a message saying the entity doesn't contain an attribute. This is the error message received:
-‘<EntityName>' entity doesn't contain attribute with Name = '<AttributeName>'and NameMapping = 'Logical'
+`<EntityName>' entity doesn't contain attribute with Name = `<AttributeName>` and NameMapping = `Logical`
 
 ### Mitigation
 
