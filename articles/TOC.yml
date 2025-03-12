@@ -1596,6 +1596,8 @@
       items: 
       - name: Update Project Operations in your Finance environment
         href: whats-new/ur5-nonstocked-installation.md
+      - name: Move to the modern architecture
+        href: prod-pma/move-to-modern-architecture.md
   - name: What's new
     items:
     - name: What's new 2024 wave 1 early access - Project Operations for stocked/production-based scenarios
