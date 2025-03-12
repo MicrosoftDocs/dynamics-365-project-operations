@@ -28,7 +28,7 @@ After updating the project calendar, the user sees a save error when opening the
 
 To fix this issue, you need to run a script. Contact your administrator for assistance. Here are the steps to run the script:
 
-1. Open the Developer Console using Ctrl + Shift + I
+1. Open the Developer Console using Ctrl + Shift + I.
 1. Copy and paste the following script. In the script, add the task IDs causing the error from the PSS Error Log. Running this script shows the resource assignments for the tasks with errors.
 1. Delete these resource assignments using the delete [schedule API](schedule-api-preview.md). This should allow the project to be opened correctly, and then the customer should be able to go back in and re-create those assignments.
 
@@ -146,7 +146,7 @@ If the first mitigation doesn’t work, then delete the current project and crea
 ## Issue 3: Entity doesn't contain attribute
 
 After updating the project calendar, the user sees a save error when opening the tasks tab. The PSS Error Log shows a message saying the entity doesn't contain an attribute. This is the error message received:
-`<EntityName>' entity doesn't contain attribute with Name = `<AttributeName>` and NameMapping = `Logical`
+\<EntityName\> entity doesn't contain attribute with Name = \<AttributeName\> and NameMapping = `Logical`
 
 ### Mitigation
 
@@ -161,11 +161,11 @@ When the user tries to delete a task from the Tasks tab, it reappears after a fe
 This can happen if the "Microsoft Project or Microsoft Portfolios" app user doesn't have the right permissions or if there's data corruption.
 Contact your administrator to assign the correct permissions to the "Microsoft Project or Microsoft Portfolios" app user. If this doesn’t mitigate the issue, then the likely cause is data corruption, in this case contact support.
 
-1. Go to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/)
-1. Select the environment
-1. Click on all users on the right-side panel.
-1. Select app users list
-1. Select Microsoft Project/Microsoft Portfolios and click on edit security roles.
+1. Go to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/).
+1. Select the environment.
+1. Select all users on the right-side panel.
+1. Select app users list.
+1. Select Microsoft Project/Microsoft Portfolios and select **Edit security roles**.
 1. Ensure that the Project System and Project Operations System security roles are checked.
 
 ## Issue 5: System job has an error
