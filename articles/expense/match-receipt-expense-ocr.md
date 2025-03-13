@@ -44,7 +44,7 @@ To create an expense, or match an expense from a receipt, complete the following
 
 ## Installation
 
-To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services (LCS).
+**Option 1:** To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Sign in to LCS, and open the desired environment.
 2. Go to **Full details**.
@@ -54,7 +54,14 @@ To use these advanced expense capabilities, install the Expense Management Servi
 6. Follow the installation guide, and agree to the terms and conditions.
 7. Select **Install**.
 
-In the **Feature management** workspace, turn on the following features:
+**Option 2:** You can also enable the service by installing the **Dynamics 365 Project Operations expense receipt capture** application from the Power Platform Admin Center. 
+
+1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/resources/applications) and select the required environment.  
+3. Click on **Dynamics 365 Apps**.  
+4. Click on **Install App**.  
+5. Search for the **Dynamics 365 Project Operations expense receipt capture** application, agree to the terms of service, and install it.
+   
+After completing either of the two installation steps mentioned above, go to the **Feature management** workspace and turn on the following features: 
 
 - Expense reports re-imagined
 - Auto-match and create expense from receipt
