@@ -77,7 +77,7 @@ In the **Adjustments** form, the bottom grid where edits can be made also now le
 
 ## Troubleshooting when transactions are missing from **Adjust transactions**
 
-Ocassionally you may encounter an issue where you want to adjust a transaction, but it doesn't appear within **Adjust transactions**. If an adjustment is started but interrupted by closing the browser window or from your session timing out, then the transaction may be locked in the adjustment cache. You can clear the cache and make the transaction available again by running the periodic process. Use the **Clear adjustments posting cache** page that can be accessed from **Project Management and accounting** \> **Periodic** \> **Transactions** to resolve this issue.
+Occasionally you may encounter an issue where you want to adjust a transaction, but it doesn't appear within **Adjust transactions**. If an adjustment is started but interrupted by closing the browser window or from your session timing out, then the transaction may be locked in the adjustment cache. You can clear the cache and make the transaction available again by running the periodic process. Use the **Clear adjustments posting cache** page that can be accessed from **Project Management and accounting** \> **Periodic** \> **Transactions** to resolve this issue.
 
 ## Scenarios where transactions are unavailable for adjustment
 
