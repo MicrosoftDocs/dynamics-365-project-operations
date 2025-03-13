@@ -1,6 +1,6 @@
 ---
-title: Troubleshoot project scheduling errors
-description: Learn about troubleshooting project scheduling errors that are related to the project scheduling service and project scheduling APIs. 
+title: Troubleshoot project scheduling errors in the task grid
+description: Learn how to troubleshoot project scheduling errors that are related to the Project Scheduling Service and Project schedule APIs.
 author: dishantpopli  
 ms.date: 03/11/2025
 ms.topic: troubleshooting
@@ -17,24 +17,28 @@ ms.author: dishantpopli
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-When you work in the task grid, sometimes changes to the Work Breakdown Structure (WBS) don't get saved. An error message appears saying, "Recent change you’ve made couldn’t be saved." This article explains the common reasons for these errors.
+When you work in the task grid, changes to the work breakdown structure (WBS) sometimes aren't saved, and you receive the following error message:
 
-## Project task due date can't be earlier than task start date
+> Recent change you've made couldn't be saved.
 
-After you update the project calendar, you see a save error when opening the **Tasks** tab. The PSS Error Log shows this message: 
-"Project Task end/due date can't be earlier than task start date."
+This article explains common causes of this error.
+
+## Project task end/due date can't be earlier than task start date
+
+After you update the project calendar, you receive a save error when you select the **Tasks** tab. The Project Scheduling Service (PSS) error log shows the following message:
+
+> Project Task end/due date can't be earlier than task start date.
 
 ### Mitigation
 
-To fix this issue, your administrator needs to run a script. Contact your administrator for assistance. To run the script, follow these steps.
+Contact your administrator for help. To fix this issue, your administrator must run a script.
 
-1. Open the Developer console using Ctrl + Shift + I.
-1. Copy and paste the following script into the Developer console. Modify the script to add the task IDs for the tasks listed in the the PSS Error Log that are causing the errors. After the script runs, the resource assignments for the tasks with errors are shown.
-1. Delete these resource assignments using the [Delete schedule API](schedule-api-preview.md). Deleting these assignments allows the project to be opened correctly, and then you can re-create the assignments.
+To run the script, your administrator follows these steps.
 
-Use the following script to get the list of assignments.
+1. Select <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open the Developer console.
+1. Copy the following script, and paste it into the Developer console. Modify the script by adding the task IDs of the tasks that are causing the errors. You can find the task IDs in the PSS error log.
 
- ```JS
+    ```JS
     const listOfTasks = ["TASK IDS HERE"];
     /*
     * @params: listOfTasks: List of Tasks to retrieve associated Resource Assignments
@@ -42,7 +46,7 @@ Use the following script to get the list of assignments.
     */
     async function getResourceAssignmentsAssociatedWithListOfTasks(listOfTasks) {
         let distinctAssignments = new Set();
-     
+    
         for (let i = 0; i < listOfTasks.length; i++) {
             let fetchXml = `?fetchXml=<fetch mapping="logical">
                                 <entity name="msdyn_resourceassignment">
@@ -52,50 +56,58 @@ Use the following script to get the list of assignments.
                                     </filter>
                                 </entity>
                             </fetch>`;
-     
+    
             let results = await Xrm.WebApi.retrieveMultipleRecords('msdyn_resourceassignment', fetchXml);
-     
+    
             for (let j = 0; j < results.entities.length; j++){
                 distinctAssignments.add(results.entities[j].msdyn_resourceassignmentid);
             }
-        }   
+        }
         return Array.from(distinctAssignments);
     }
-        
+    
     // Call the async function and log the results
     getResourceAssignmentsAssociatedWithListOfTasks(listOfTasks).then(assignments => {
         console.log(assignments);
     }).catch(error => {
         console.error(error);
     });
-```
+    ```
 
-## Revision token doesn’t match between xRM and PSS
+1. Run the script to get the list of resource assignments for the tasks that have errors.
+1. Delete the resource assignments by using the [Delete schedule API](schedule-api-preview.md).
 
-When trying to make changes in the task grid, sometimes the edits revert after a while or a save error appears. The PSS error log shows "Revision Token doesn't match between xRM and PSS."
+Deletion of the resource assignments enables the project to be opened correctly. You can then re-create the assignments.
 
-This can happen because:
+## Revision token doesn't match between xRM and PSS
 
-1. A long save process timed out after 2 hours. PSS times out and reverts the edits, but CDS continues and finishes the save, causing a revision mismatch.
-  
-1. The ReadMpp request returns empty for the revision token. This means the MPP file is either deleted or not created on CDS, resulting in the loss of all project data.
+When you try to make changes in the task grid, the edits sometimes revert after a while, or you receive a save error. The PSS error log shows the following message:
+
+> Revision Token doesn't match between xRM and PSS.
+
+This issue can occur for the following reasons:
+
+- A long save process timed out. After two hours, PSS times out and reverts the edits. However, because Microsoft Dataverse continues and completes the save, a revision mismatch occurs.
+- The ReadMpp request returns empty for the revision token. This situation indicates either that the MPP file was deleted, or it wasn't created in Dataverse. As a result, all project data was lost.
 
 ### Mitigation 1
 
-Contact your administrator for help with resetting the revision token for the current project using these steps. To run the script, follow these steps.
+Contact your administrator for help. To fix this issue, your administrator should first try to reset the revision token for the current project.
 
-1. Open the Developer console using Ctrl + Shift + I
-1. Copy and paste the following script into the Developer console. Modify the script and enter the project ID and the org URL. This script resets both the Project and Document Header revision tokens.
+To reset the revision token, your administrator follows these steps.
 
-```JS
+1. Select <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open the Developer console.
+1. Copy the following script, and paste it into the Developer console. Modify the script by entering the project ID and the organization URL.
+
+    ```JS
     // Things to update here:
     let projectId = "YOUR PROJECT ID HERE";
     let orgUrl = "YOUR ORG URL HERE"; // Update the orgUrl and verify this value (Example: abc.crm.dynamics.com)
-     
+    
     // Do not update these:
     let projectParameterId = "";
     let newRevisionToken = "msxrm_" + orgUrl + "_" + projectId + "_0000000001";
-     
+    
     Xrm.WebApi.online.retrieveMultipleRecords("msdyn_projectparameter")
     .then(response => setProjectParameterTestMode(response.entities[0].msdyn_projectparameterid, true))
     .then(() => Xrm.WebApi.retrieveRecord("msdyn_project", projectId, "?$select=msdyn_globalrevisiontoken,_msdyn_msprojectdocument_value"))
@@ -103,7 +115,7 @@ Contact your administrator for help with resetting the revision token for the cu
     .then(() => setProjectParameterTestMode(projectParameterId, false))
     .then(() => console.log("Revision Tokens Successfully Reset."))
     .catch(error => console.log(error));
-     
+    
     // Private functions
     function setProjectParameterTestMode(passedProjectParameterId, newTestMode){
         console.log("Updating Project Parameter...");
@@ -111,10 +123,10 @@ Contact your administrator for help with resetting the revision token for the cu
         let updatedParameter = {
             "msdyn_testmode": newTestMode
         };
-     
+    
         return Xrm.WebApi.updateRecord("msdyn_projectparameter", projectParameterId, updatedParameter);
     }
-     
+    
     function setProjectRevisionToken(projectId, newRevisionToken){
         console.log("Updating Project...");
         let updatedProject = {
@@ -122,73 +134,89 @@ Contact your administrator for help with resetting the revision token for the cu
         };
         return Xrm.WebApi.updateRecord("msdyn_project", projectId, updatedProject);
     }
-     
+    
     function setDocumentRevisionToken(documentHeaderId, newRevisionToken){
         console.log("Updating Document Header...");
         let updatedDocumentHeader = {
             "msdyn_revisiontoken": newRevisionToken
         };
-        
+    
         return Xrm.WebApi.updateRecord("msdyn_documentheader", documentHeaderId, updatedDocumentHeader);
     }
-     
+    
     function resetRevisionTokensOnDocumentHeaderAndProject(retrievedProject){
         let documentHeaderId = retrievedProject["_msdyn_msprojectdocument_value"];
         let resetDocumentHeaderRevisionPromise = setDocumentRevisionToken(documentHeaderId, newRevisionToken);
         let resetProjectRevisionPromise = resetDocumentHeaderRevisionPromise.then((res) => setProjectRevisionToken(projectId, newRevisionToken));
         return Promise.all([resetProjectRevisionPromise, resetDocumentHeaderRevisionPromise]);
     }
-```
+    ```
+
+1. Run the script. Both the Project revision token and the Document Header revision token are reset.
 
 ### Mitigation 2
 
-If the first mitigation doesn’t work, then delete the current project and create a new one. In case that isn’t a preferred option contact support.
+If the first mitigation approach doesn't work, delete the current project, and then create a new one. If this approach isn't a preferred option, contact Support.
 
 ## Entity doesn't contain attribute
 
-After you update the project calendar, the user sees a save error when opening the tasks tab. The PSS Error Log shows a message saying the entity doesn't contain an attribute. This is the error message received:
-\<EntityName\> entity doesn't contain attribute with Name = \<AttributeName\> and NameMapping = `Logical`
+After you update the project calendar, you receive a save error when you select the **Tasks** tab. The PSS error log shows the following message:
+
+> \<*EntityName*\> entity doesn't contain attribute with Name = \<*AttributeName*\> and NameMapping = `Logical`
 
 ### Mitigation
 
-The user uses custom pricing dimensions, and the likely cause of the issue is that the custom dimension isn't linked to the affected Project Service Pricing entity. To fix this, follow the public documentation to correctly add the custom dimension to all required Pricing entities or remove the custom dimension. Here's the associated public doc: [Entity-based custom pricing dimensions](../pricing-costing/add-custom-fields-price-setup-transactional-entities.md#entity-based-custom-pricing-dimensions)
+This issue probably occurs because you use custom pricing dimensions, and a custom dimension isn't linked to the affected Project Service Pricing entity.
+
+To fix this issue, follow the instructions in [Entity-based custom pricing dimensions](../pricing-costing/add-custom-fields-price-setup-transactional-entities.md#entity-based-custom-pricing-dimensions) to correctly add the custom dimension to all required pricing entities. Alternatively, remove the custom dimension.
 
 ## Unable to delete a task
 
-When the user tries to delete a task from the Tasks tab, it reappears after a few minutes. They might also see a save error and be unable to make any edits on the tasks grid.
-
-### Mitigation
-
-This can happen if the "Microsoft Project or Microsoft Portfolios" app user doesn't have the right permissions or if there's data corruption.
-Contact your administrator to assign the correct permissions to the "Microsoft Project or Microsoft Portfolios" app user. If this doesn’t mitigate the issue, then the likely cause is data corruption, in this case contact support.
-
-1. Go to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/).
-1. Select the environment.
-1. Select all users on the right-side panel.
-1. Select app users list.
-1. Select Microsoft Project/Microsoft Portfolios and select **Edit security roles**.
-1. Ensure that the Project System and Project Operations System security roles are checked.
-
-## System job has an error
-
-When the user creates new tasks, a save error message appears on the task grid after some time. In the System Jobs, there will be a successful instance of Project Service Core - SaveProjectDataFromPCSAsynchronousV1, followed by one or more failed instances for the same project, as shown in the following screenshot.
-
-![System job has an error.](media/systemjobhaserror.png)
-
-On inspecting the system job, the following error appears:
-“Revision Token doesn't match between xRM and PSS.”
+When you try to delete a task from the **Tasks** tab, it reappears after a few minutes. You might also receive a save error and be unable to make any edits in the task grid.
 
 ### Mitigation 1
 
-If the root cause is that "Project Application" user doesn't have the "Project System Role" then ask you administrator to assign the "Basic User" and "Project System" role to project app user. If it's Project Operations, assign "Project Operations System" role too.
+This issue can occur if the **Microsoft Project or Microsoft Portfolios** app user doesn't have the correct permissions, or if data is corrupted.
+
+Contact your administrator for help. To fix this issue, your administrator should first try to assign the correct permissions to the **Microsoft Project or Microsoft Portfolios** app user.
+
+To assign the permissions, your administrator follows these steps.
+
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Select the environment.
+1. In the right pane, select all users.
+1. Select the app users list.
+1. Select **Microsoft Project/Microsoft Portfolios**, and then select **Edit security roles**.
+1. Ensure that the **Project System** and **Project Operations System** security roles are selected.
 
 ### Mitigation 2
 
-If the root cause is that "Project Application" user is moved to a child business unit other than the default business unit, then ask you administrator to move the "Project Application" user back to the default business unit. It must be in the default business unit.
+If the first mitigation approach doesn't work, the issue is probably caused by data corruption. In this case, contact Support.
+
+## System job has an error
+
+When you create new tasks, a save error message appears on the task grid after a while. In the list of system jobs, a successful instance of **Project Service Core - SaveProjectDataFromPCSAsynchronousV1** is followed by one or more failed instances for the same project, as shown in the following screenshot.
+
+![Screenshot that shows a system job that has an error.](media/systemjobhaserror.png)
+
+When you inspect the system job, the following error appears:
+
+> Revision Token doesn't match between xRM and PSS.
+
+The mitigation approach depends on the root cause of the issue.
+
+### Mitigation 1
+
+The issue can occur because the **Project Application** user doesn't have the **Project System** role. In this case, ask your administrator to assign the **Basic User** and **Project System** roles to the **Project Application** user. For Dynamics 365 Project Operations, your administrator should also assign the **Project Operations System** role.
+
+### Mitigation 2
+
+The issue can occur because the **Project Application** user isn't in the default business unit but was moved to a child business unit. In this case, ask your administrator to move the **Project Application** user back to the default business unit. It must be in the default business unit.
 
 ### Mitigation 3
 
-If the root cause is that some optimization is broken because of an org moving from having a single business unit to multiple business units, then ask administrator to apply the mitigation for Revision token doesn’t match between xRM and PSS. If the issue persists, contact support. 
+The issue can occur because an organization that previously had a single business unit switched to having multiple business units. As a result, some optimization was broken. In this case, ask your administrator to apply the mitigation that is described in the [Revision token doesn't match between xRM and PSS](#revision-token-doesnt-match-between-xrm-and-pss) section of this article.
 
+If the issue persists, contact Support.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
