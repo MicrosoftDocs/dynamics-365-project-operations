@@ -3,7 +3,7 @@ title: Capture a receipt using OCR
 description: This article provides information about optical character recognition (OCR) processing for receipts.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/22/2024
+ms.date: 03/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,12 +16,12 @@ ms.custom:
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Expense entry has been enhanced through the introduction of optical character recognition (OCR) processing for receipts. This functionality is designed to improve the user experience when creating expense reports.
+Expense entry was enhanced through the introduction of optical character recognition (OCR) processing for receipts. This functionality is designed to improve the user experience when creating expense reports.
 
 ## Key features
 
 - The system extracts the merchant name, date, and total amount from receipts.
-- The system will try to match unattached receipts to unattached expense transactions.
+- The system tries to match unattached receipts to unattached expense transactions.
 - You can create manually entered expense transactions from receipts.
 
 ## Attach receipts to an expense report
@@ -44,7 +44,7 @@ To create an expense, or match an expense from a receipt, complete the following
 
 ## Installation
 
-To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services (LCS).
+**Option 1:** To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Sign in to LCS, and open the desired environment.
 2. Go to **Full details**.
@@ -54,18 +54,27 @@ To use these advanced expense capabilities, install the Expense Management Servi
 6. Follow the installation guide, and agree to the terms and conditions.
 7. Select **Install**.
 
-In the **Feature management** workspace, turn on the following features:
+**Option 2:** You can also enable the service by installing the **Dynamics 365 Project Operations expense receipt capture** application from the Power Platform Admin Center. 
 
-- Expense reports re-imagined
-- Auto-match and create expense from receipt
+To install the **Dynamics 365 Project Operations expense receipt capture** application, follow these steps.
 
-When you turn on these features the following actions occur:
+1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/resources/applications) and select the required environment.  
+3. Select **Dynamics 365 Apps**.  
+4. Select **Install App**.  
+5. Search for the **Dynamics 365 Project Operations expense receipt capture** application, agree to the terms of service, and install it.
+   
+After completing either of the two installation options previously mentioned, go to the **Feature management** workspace and turn on the following features: 
+
+- Expense reports reimagined
+- Automatch and create expense from receipt
+
+When you turn on these features, the following actions occur:
 
 - The existing **Expense management** workspace is replaced with the new workspace.
 - A new menu item for expense field visibility is added.
 - You can still open the former **Expense reports** page by going to **Expense management > My expenses > Expense reports**.
 - Workflows and any approvals still take you to the existing expense reports page.
-- Receipts will be processed through Microsoft Azure Cognitive Services, and metadata will be extracted and added.
+- Receipts are processed through Microsoft Azure Cognitive Services, and metadata is extracted and added.
 - An option is added that lets you create an expense report that includes matched unattached receipts.
 - An option that is added to expense reports lets you create an expense line from a receipt, or attempts to match an existing receipt to an existing expense line.
 
@@ -73,7 +82,7 @@ When you turn on these features the following actions occur:
 
 **Does Microsoft use my data for its models?**
 
-No, Microsoft has built a general machine learning model for its receipt processing service. This model isn't based on the receipts that you upload.
+No, Microsoft built a general machine learning model for its receipt processing service. This model isn't based on the receipts that you upload.
 
 **Where is this feature available and processed?**
 
@@ -92,7 +101,7 @@ The availability of this feature in different regions is listed in the following
 
 **Where do my receipts go?**
 
-Finance will contact Cognitive Services to extract the field data. Cognitive Services will retain a copy of your receipt for up to 24 hours while processing occurs. After processing is completed, Cognitive Services will remove the receipt. Receipts are still stored in Finance.
+Finance contacts Cognitive Services to extract the field data. Cognitive Services retains a copy of your receipt for up to 24 hours while processing occurs. After processing is completed, Cognitive Services removes the receipt. Receipts are still stored in Finance.
 
 For more information, see [Enable receipt understanding with Form Recognizer's new capability](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
 
