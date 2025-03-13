@@ -3,7 +3,7 @@ title: Project adjustments
 description: This article provides information about project adjustments.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 10/24/2024
+ms.date: 03/20/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -26,8 +26,6 @@ Users can access the project adjustment functionality in several ways:
 - Using the **Adjustment** button on the **Posted project transactions** page in the context of a project. This page can be accessed from **Project Management and accounting** \> **All projects**.
 
 To allow for adjustments, you must enable one or more transaction statuses from **Project Management and accounting** \> **Project Management and accounting parameters** on the **General** tab under the section **Allow adjustment of transaction status**. Examples of transaction statuses include posted transactions, invoiced transactions, or eliminated transactions. Any transaction status that is set to **No** has transactions in that status that doesn't appear within the adjustment process as selectable for adjustment.
-
-A configuration option that is named **Always create adjustment transaction** is currently available in Project management and accounting parameters. You can disable this option to update the original transaction instead of creating new transactions during adjustment in a subset of scenarios. It was announced that this parameter will be deprecated by March 1, 2023. After March 1, 2023, the system always behaves as if the option is enabled.
 
 ## Adjustments process flow
 
@@ -77,6 +75,17 @@ When the **Adjust transactions** form opens, a new default values toggle is avai
 
 In the **Adjustments** form, the bottom grid where edits can be made also now lets you make manual changes to the **Project date** where previously it was ready only. 
 
+## Transactions missing from **Adjust transactions**
+
+Ocassionally you may encounter an issue where you want to adjust a transaction, but it doesn't appear within **Adjust transactions**. If an adjustment is started but interrupted by closing the browser window or from your session timing out, then the transaction may be locked in the adjustment cache. You can clear the cache and make it available again by running the periodic process. Use the **Clear adjustments posting cache** page that can be accessed from **Project Management and accounting** \> **Periodic** \> **Transactions**.
+
+## Scenarios where transactions are unavailable for adjustment
+
+| Scenario Overview               | Configuration Details | Description |
+|---------------------------------|-----------------------|-------------|
+| Stocked product with multiple funding sources | When an sales order includes a stocked product, has multiple funding sources on the project contract, and the Enable packing slip cancellation for item requirements cancellation feature is enabled.| Item requirements cannot be split into multiple sales records.|
+
+
 ## Adjustment transaction statuses that can be enabled or disabled for adjustments
 
 The following statuses can be enabled or disabled on the **General** tab of the **Project management and accounting parameters** page:
@@ -94,7 +103,5 @@ These parameters are listed on the **Project management and accounting parameter
 
 | Parameter name | Description |
 |----------------|-------------
-| Always create adjustment transaction | If this parameter is enabled, the adjustment process always creates a new reversing transaction and new adjusted transaction when there's a financial or reporting impact. If the parameter is disabled, the adjustment process updates the original transaction instead of creating a reversal and new transaction for a scenario such as an update of the transaction text. |
 | Autoupdate field | If this parameter is enabled, the system recalculates cost price and sales price. |
-| Use adjustment date as new project | This parameter is used to move transactions into a future fiscal period before the system supported this function. We don't recommend that you use it, because it changes the business date of the transaction and will be deprecated in a future release. |
 | Allow closed activities | Usually, transactions can't be created for closed activities. If this parameter is enabled, that behavior is overridden. Therefore, adjustments can be created for closed activities. |
