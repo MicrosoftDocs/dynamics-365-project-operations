@@ -16,7 +16,7 @@ ms.custom:
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-Expense entry has been enhanced through the introduction of optical character recognition (OCR) processing for receipts. This functionality is designed to improve the user experience when creating expense reports.
+Expense entry was enhanced through the introduction of optical character recognition (OCR) processing for receipts. This functionality is designed to improve the user experience when creating expense reports.
 
 ## Key features
 
@@ -68,7 +68,7 @@ After completing either of the two installation options previously mentioned, go
 - Expense reports reimagined
 - Automatch and create expense from receipt
 
-When you turn on these features the following actions occur:
+When you turn on these features, the following actions occur:
 
 - The existing **Expense management** workspace is replaced with the new workspace.
 - A new menu item for expense field visibility is added.
@@ -82,7 +82,7 @@ When you turn on these features the following actions occur:
 
 **Does Microsoft use my data for its models?**
 
-No, Microsoft has built a general machine learning model for its receipt processing service. This model isn't based on the receipts that you upload.
+No, Microsoft built a general machine learning model for its receipt processing service. This model isn't based on the receipts that you upload.
 
 **Where is this feature available and processed?**
 
