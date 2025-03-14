@@ -1300,6 +1300,8 @@
         href: project-management/scheduling-apis-powerautomate-v2.md
       - name: Project schedule API performance
         href: project-management/project-schedule-api-performance.md
+      - name: Troubleshoot project scheduling errors in the task grid
+        href: project-management/schedule-api-logs-troubleshooting.md
     - name: Project management Copilot overview
       href: project-management/copilot-features.md
   - name: Project budget management
