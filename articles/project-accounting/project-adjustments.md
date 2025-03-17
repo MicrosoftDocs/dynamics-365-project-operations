@@ -77,13 +77,13 @@ In the **Adjustments** form, the bottom grid where edits can be made also now le
 
 ## Troubleshooting when transactions are missing from **Adjust transactions**
 
-Occasionally you may encounter an issue where you want to adjust a transaction, but it doesn't appear within **Adjust transactions**. If an adjustment is started but interrupted by closing the browser window or from your session timing out, then the transaction may be locked in the adjustment cache. You can clear the cache and make the transaction available again by running the periodic process. Use the **Clear adjustments posting cache** page that can be accessed from **Project Management and accounting** \> **Periodic** \> **Transactions** to resolve this issue.
+You may encounter an issue where you want to adjust a transaction but it doesn't appear within **Adjust transactions**. If an adjustment is started but interrupted by closing the browser window or from your session timing out, then the transaction may be locked in the adjustment cache. You can clear the cache and make the transaction available again by running the periodic process. Use the **Clear adjustments posting cache** page that can be accessed from **Project Management and accounting** \> **Periodic** \> **Transactions** to resolve this issue.
 
 ## Scenarios where transactions are unavailable for adjustment
 
 | Scenario Overview               | Configuration Details | Description |
 |---------------------------------|-----------------------|-------------|
-| Stocked product with multiple funding sources | When an sales order includes a stocked product, has multiple funding sources on the project contract, and the Enable packing slip cancellation for item requirements cancellation feature is enabled.| Item requirements cannot be split into multiple sales records.|
+| Stocked product with multiple funding sources | When a sales order includes a stocked product, has multiple funding sources on the project contract, and the Enable packing slip cancellation for item requirements cancellation feature is enabled.| Item requirements can't be split into multiple sales records.|
 
 
 ## Adjustment transaction statuses that can be enabled or disabled for adjustments
@@ -99,7 +99,7 @@ The following statuses can be enabled or disabled on the **General** tab of the 
 
 ## Adjustment parameters
 
-These parameters are listed on the **Project management and accounting parameters** page on the **General** tab under the **Adjustment** group and modifies behavior for how adjustments are processed. 
+These parameters are listed on the **Project management and accounting parameters** page on the **General** tab under the **Adjustment** group and modify behavior for how adjustments are processed. 
 
 | Parameter name | Description |
 |----------------|-------------
