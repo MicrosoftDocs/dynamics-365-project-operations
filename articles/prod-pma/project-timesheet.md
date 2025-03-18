@@ -21,12 +21,12 @@ ms.search.validFrom: 2019-01-15
 
 The Microsoft Dynamics 365 Project Timesheet mobile app lets users submit and approve timesheets for projects on their mobile device (iPhone or Android). This mobile app surfaces the timesheet functionality that resides in the Project management and accounting area of Dynamics 365 Finance. It helps improve user productivity and efficiency, and also enables timely entry and approval of project timesheets.
 
-## Deprecation of mobile app (Feb 2026)
+## Deprecation of mobile app (February 2026)
 
-Microsoft support for Xamarin has ended since May 1, 2024. On account of this, the Dynamics 365 Project Timesheet mobile app (which is based on Xamarin) will be **deprecated by Feb 28, 2026**. In the meanwhile and beyond the deprecation date, [Timesheets optimized for mobile](Mobile-timesheets.md) is the suggested alternative for a mobile experience to create, submit and review Timesheets. 
+Microsoft support for Xamarin has ended since **May 1, 2024**. As a subsequent result of this, the Dynamics 365 Project Timesheet mobile app (which is based on Xamarin) will be **deprecated by Feb 28, 2026**. In the meanwhile and beyond the deprecation date, [Timesheets optimized for mobile](Mobile-timesheets.md) is the suggested alternative for a mobile experience that supports creation, submission and reviewing of Timesheets. 
 
 > [!IMPORTANT]
-> Microsoft recommends that customers switch to [Timesheets optimized for mobile]((Mobile-timesheets.md)) to avoid potential disruptions caused by security issues due arising from end of Xamarin support.
+>  Read more about the end of Microsoft Xamarin support [here](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin). Microsoft recommends that customers switch to [Timesheets optimized for mobile](Mobile-timesheets.md) to avoid potential disruptions caused by security issues due arising from end of Xamarin support.
 
 ## Download and install the mobile app
 
