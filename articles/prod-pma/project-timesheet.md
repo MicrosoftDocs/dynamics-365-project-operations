@@ -3,7 +3,7 @@ title: Project timesheet mobile application
 description: This article provides information about the Microsoft Dynamics 365 Project Timesheet mobile application. The Project Timesheet mobile app enables users to submit and approve timesheets for projects on their mobile device.
 author: mohitmenon
 ms.author: mohitmenon
-ms.date: 05/22/2024
+ms.date: 03/19/2025
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -23,12 +23,12 @@ The Microsoft Dynamics 365 Project Timesheet mobile app lets users submit and ap
 
 ## Deprecation of mobile app (Dec 2025)
 
-Microsoft support for Xamarin has ended since **May 1, 2024**. As a subsequent result of this, the Dynamics 365 Project Timesheet mobile app (which is based on Xamarin) will be **deprecated by Dec 31, 2025**. 
+Microsoft support for Xamarin ended on **May 1, 2024**. As a result, the Dynamics 365 Project Timesheet mobile app (which is based on Xamarin) will be **deprecated by Dec 31, 2025**. 
 
-In the meanwhile and beyond the deprecation date, [Timesheets optimized for mobile](Mobile-timesheets.md) is the suggested alternative for a mobile experience that supports creation, submission and reviewing of Timesheets. More details on the deprecation will be provided on this page soon.
+You can use [Timesheets optimized for mobile](Mobile-timesheets.md) as an alternative mobile experience that supports creation, submission and reviewing of timesheets. 
 
 > [!IMPORTANT]
->  Read more about the end of Microsoft Xamarin support [here](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin). Microsoft recommends that customers switch to [Timesheets optimized for mobile](Mobile-timesheets.md) to avoid potential disruptions caused by security issues due arising from end of Xamarin support.
+>  Learn about the end of Microsoft Xamarin support in the [Xamarin Support Policy](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin). Microsoft recommends that customers switch to [Timesheets optimized for mobile](Mobile-timesheets.md) to avoid potential disruptions caused by security issues that result from ending Xamarin support.
 
 ## Download and install the mobile app
 
