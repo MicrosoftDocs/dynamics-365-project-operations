@@ -23,9 +23,9 @@ The Microsoft Dynamics 365 Project Timesheet mobile app lets users submit and ap
 
 ## Deprecation of mobile app (Dec 2025)
 
-Microsoft support for Xamarin ended on **May 1, 2024**. As a result, the Dynamics 365 Project Timesheet mobile app (which is based on Xamarin) will be **deprecated by Dec 31, 2025**. 
+Microsoft ended support for Xamarin on **May 1, 2024**. As a result, the Dynamics 365 Project Timesheet mobile app (which is based on Xamarin) will be **deprecated by Dec 31, 2025**. 
 
-You can use [Timesheets optimized for mobile](Mobile-timesheets.md) as an alternative mobile experience that supports creation, submission and reviewing of timesheets. 
+You can use [Timesheets optimized for mobile](Mobile-timesheets.md) as an alternative mobile experience that supports creation, submission, and reviewing of timesheets. 
 
 > [!IMPORTANT]
 >  Learn about the end of Microsoft Xamarin support in the [Xamarin Support Policy](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin). Microsoft recommends that customers switch to [Timesheets optimized for mobile](Mobile-timesheets.md) to avoid potential disruptions caused by security issues that result from ending Xamarin support.
