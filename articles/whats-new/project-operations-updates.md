@@ -47,26 +47,26 @@ Updates for Project Operations on Dataverse environment are available monthly.
 | Station | Region | Current Version Number | Auto Updates Start Date for Lite or Resource/Non-Stocked Deployments * | Next Version Number | Next Version Number Available For Self Update | Auto Updates Start For Next Version |
 |-----------|---------------|-----------------|-------------------------|--------------|------------------------|--------------------|
 | Station 1 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | First Release | 4.123.0.510      | February 05, 2025        | 4.124.0.1450    | February 21, 2025      | February 28, 2025  |
+| &nbsp;    | First Release | 4.124.0.1450      | February 28, 2025        | 4.140.0.x    | April 11, 2025      | April 18, 2025  |
 | Station 2 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | Canada        | 4.123.0.510      | February 05, 2025        | 4.124.0.1450    | February 21, 2025      | February 28, 2025  |
-| &nbsp;    | India         | 4.123.0.510      | February 05, 2025        | 4.124.0.1450    | February 21, 2025      | February 28, 2025  |
-| &nbsp;    | France        | 4.123.0.510      | February 05, 2025        | 4.124.0.1450    | February 21, 2025      | February 28, 2025  |
-| &nbsp;    | South Africa  | 4.123.0.510      | February 05, 2025        | 4.124.0.1450    | February 21, 2025      | February 28, 2025  |
-| &nbsp;    | Switzerland   | 4.123.0.510      | February 05, 2025        | 4.124.0.1450    | February 21, 2025      | February 28, 2025  |
-| &nbsp;    | Korea         | 4.123.0.510      | NA                       | 4.124.0.1450    | February 21, 2025      | February 28, 2025   |
-| &nbsp;    | Germany       | NA               | NA                       | 4.124.0.1450    | February 21, 2025      | NA  |
-| &nbsp;    | Norway        | NA               | NA                       | 4.124.0.1450    | February 21, 2025      | NA  |
+| &nbsp;    | Canada        | 4.124.0.1450      | February 28, 2025        | 4.140.0.x    | April 18, 2025      | April 25, 2025  |
+| &nbsp;    | India         | 4.124.0.1450      | February 28, 2025        | 4.140.0.x    | April 18, 2025      | April 25, 2025  |
+| &nbsp;    | France        | 4.124.0.1450      | February 28, 2025        | 4.140.0.x    | April 18, 2025      | April 25, 2025  |
+| &nbsp;    | South Africa  | 4.124.0.1450      | February 28, 2025        | 4.140.0.x    | April 18, 2025      | April 25, 2025  |
+| &nbsp;    | Switzerland   | 4.124.0.1450      | February 28, 2025        | 4.140.0.x    | April 18, 2025      | April 25, 2025  |
+| &nbsp;    | Korea         | 4.124.0.1450      | February 28, 2025        | 4.140.0.x    | April 18, 2025      | April 25, 2025   |
+| &nbsp;    | Germany       | NA               | NA                       | 4.140.0.x    | April 18, 2025      | April 25, 2025  |
+| &nbsp;    | Norway        | NA               | NA                       | 4.140.0.x    | April 18, 2025      | April 25, 2025  |
 | Station 3 | &nbsp;        | &nbsp;           | &nbsp;                   | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | Japan         | 4.123.0.510      | February 07, 2025        | 4.124.0.1450    | February 28, 2025      | March 07, 2025  |
-| &nbsp;    | Asia Pacific  | 4.123.0.510      | February 07, 2025        | 4.124.0.1450    | February 28, 2025      | March 07, 2025  |
-| &nbsp;    | Great Britain | 4.123.0.510      | February 07, 2025        | 4.124.0.1450    | February 28, 2025      | March 07, 2025  |
-| &nbsp;    | Oceania       | 4.123.0.510      | February 07, 2025        | 4.124.0.1450    | February 28, 2025      | March 07, 2025  |
-| &nbsp;    | United Arab Emirates | 4.123.0.510| February 07, 2025       | 4.124.0.x    | February 28, 2025      | March 07, 2025  |
+| &nbsp;    | Japan         | 4.124.0.1450      | March 07, 2025        | 4.140.0.x    | April 25, 2025      | May 02, 2025  |
+| &nbsp;    | Asia Pacific  | 4.124.0.1450      | March 07, 2025        | 4.140.0.x    | April 25, 2025      | May 02, 2025  |
+| &nbsp;    | Great Britain | 4.124.0.1450      | March 07, 2025        | 4.140.0.x    | April 25, 2025      | May 02, 2025  |
+| &nbsp;    | Oceania       | 4.124.0.1450      | March 07, 2025        | 4.140.0.x    | April 25, 2025      | May 02, 2025  |
+| &nbsp;    | United Arab Emirates | 4.124.0.1450 | March 07, 2025       | 4.140.0.x    | April 25, 2025      | May 02, 2025  |
 | Station 4 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | UK            | 4.123.0.510      | February 13, 2025        | 4.124.0.1450    | March 07, 2025      | March 14, 2025  |
+| &nbsp;    | UK            | 4.124.0.1450      | March 14, 2025        | 4.140.0.x    | May 02, 2025      | May 09, 2025  |
 | Station 5 | &nbsp;        | &nbsp;          | &nbsp;                  | &nbsp;       | &nbsp;                 | &nbsp;             |
-| &nbsp;    | USA           | 4.123.0.510      | February 20, 2025        | 4.124.0.1450    | March 14, 2025      | March 21, 2025  |
+| &nbsp;    | USA           | 4.124.0.1450      | March 21, 2025        | 4.140.0.x    | May 09, 2025      | May 16, 2025  |
 
 __\*__ Auto updates are managed by the Dataverse platform and run on the date defined in the previous table. Time of run respects the maintenance window defined for your environment. To define a maintenance window for your environment, see [Manage maintenance window](/power-platform/admin/manage-maintenance-window).
 
