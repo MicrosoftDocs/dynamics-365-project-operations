@@ -862,8 +862,6 @@
       href: project-accounting/configure-accounting-billable-projects.md
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
-    - name: Enable actuals validation
-      href: advanced-configuration/enable-actuals-validation.md
     - name: GST/TDS-TCS tax support for Project integration journals
       href: local-functionality/apac-ind-gst-tds-tcs-tax-support-project-integration-journal.md
   - name: Revenue recognition
@@ -892,6 +890,8 @@
       href: advanced-configuration/sync-project-status.md   
     - name: Currency conversion setup for calculating sales prices from cost rates
       href: advanced-configuration/currencyconversion.md 
+    - name: Enable actuals validation
+      href: advanced-configuration/enable-actuals-validation.md
   - name: Upgrade
     items:
     - name: Upgrade considerations for Modern approvals
