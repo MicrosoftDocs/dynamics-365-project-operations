@@ -16,7 +16,7 @@ This feature introduces an asynchronous delay to the import from staging table p
 
 ## Error messages that may be avoided by enabling this feature
 
-For [Integration journals](project-operations-integration-journal.md), these corresponding records created aren’t valid and when posted will be labeled as “invalid actuals“. Users may see errors such as "Unable to lookup msdyn_actuals with values X” or "Attribute msdyn_transactiontypecode not found in the record of type msdyn_actual.", or “Unable to write data to entity msdyn_actuals.”  when posting Integration journal as indications of this situation occurring.  These records will remain in the integration journal errors list as they can’t be corrected.  
+For [Integration journals](../project-accounting/project-operations-integration-journal.md), these corresponding records created aren’t valid and when posted will be labeled as “invalid actuals“. Users may see errors such as "Unable to lookup msdyn_actuals with values X” or "Attribute msdyn_transactiontypecode not found in the record of type msdyn_actual.", or “Unable to write data to entity msdyn_actuals.”  when posting Integration journal as indications of this situation occurring.  These records will remain in the integration journal errors list as they can’t be corrected.  
 
 For [Invoice proposals](../invoicing/format-update-project-invoice-proposals.md), you can also receive errors from invalid actuals. When attempting to post the Invoice Proposal, users may see errors such as “Unable to write data to entity msdyn_actuals.”  when posting. This will block the Invoice from ever being able to be posted and will be stuck in an Open state.
 
