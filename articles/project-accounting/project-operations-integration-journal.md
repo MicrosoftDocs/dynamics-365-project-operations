@@ -2,7 +2,7 @@
 title: Integration journal in Project Operations
 description: This article provides information about working with the Integration journal in Project Operations.
 author: sigitac
-ms.date: 04/2/2024
+ms.date: 03/24/2025
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
@@ -86,7 +86,7 @@ This feature introduces an enhanced process where posting transactions are attem
 | Processing | The line is in processing status and will soon be moved to posted status. If a line is in processing status for a long time, an error likely occurred. A user can manually reset the line to draft status. | **Reset to draft** can be performed. | 
 | Posted | The line was successfully posted, and no further action is required. | |
 | Unrecoverable | The line has an error that can't be posted by the system. A support ticket might be required. This error should occur only for transactions that existed before the feature was enabled. | |
-| Invalid actuals | The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required. | |
+| Invalid actuals | The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required. <p>You can learn more about this situation from [enable actuals validation](./enable-actuals-validation.md). | |
 
 | Header status | Description | How the user can fix the error |
 |---|---|---|
@@ -97,7 +97,7 @@ This feature introduces an enhanced process where posting transactions are attem
 
 #### Transactions in the processing state
 
-Integration journal lines might remain in a processing state for an extended period and might have to be reset. If transactions are listed in pending status, and either 24 hours have passed or an administrator has verified that no interactive or batch posting processes are running for the integration journal, the status probably wasn't correctly updated. Users can manually reset the status to draft by selecting **Update to draft** on the integration journal line. 
+Integration journal lines might remain in a processing state for an extended period and might have to be reset. If transactions are listed in pending status, and either 24 hours have passed or an administrator has verified that no interactive or batch posting processes are running for the integration journal, the status probably wasn't correctly updated. Users can manually reset the status to draft by selecting **Update to draft** on the integration journal line.
 
 #### Other improvements in the 10.0.38 release
 
