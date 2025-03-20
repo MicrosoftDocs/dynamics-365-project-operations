@@ -863,7 +863,7 @@
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
     - name: Enable actuals validation
-      href: project-accounting/enable-actuals-validation.md
+      href: advanced-configuration/enable-actuals-validation.md
     - name: GST/TDS-TCS tax support for Project integration journals
       href: local-functionality/apac-ind-gst-tds-tcs-tax-support-project-integration-journal.md
   - name: Revenue recognition
