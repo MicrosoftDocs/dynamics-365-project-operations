@@ -36,7 +36,7 @@ Dynamics 365 Project Operations consists of two components:
 | 4.123.0.510 | 10.0.41 | 1.0.123.150 |
 
 > [!NOTE]
-> The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively. If you are using an older version of either product, contact Microsoft support for assistance in upgrading
+> The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively. If you're using an older version of either product, contact Microsoft support for assistance in upgrading
 
 For Project Operations Resource/non-stocked scenario, we recommend that you use dual-write Orchestration version 2.3.1.15 or higher.
 
