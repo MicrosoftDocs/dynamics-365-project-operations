@@ -1,0 +1,26 @@
+---
+title: Update invoice line details on a draft project-based proforma invoice
+description: Learn how to update invoice line details to an existing proforma project-based invoice that is in Draft status.
+author: suvaidya
+ms.date: 02/14/2025
+ms.topic: how-to
+ms.custom: 
+- bap-template
+ms.reviewer: johnmichalak
+ms.author: suvaidya
+---
+
+# Update invoice line details on a draft project-based proforma invoice
+
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
+
+[!INCLUDE[banner](../includes/banner.md)]
+
+To update an invoice line detail on an existing draft invoice -
+1. Select the invoice line 
+2. Select Edit
+3. Select invoice line detail
+4. Make edits
+
+The following fields can be updated on an Invoice line detail in draft status:
+1. 
