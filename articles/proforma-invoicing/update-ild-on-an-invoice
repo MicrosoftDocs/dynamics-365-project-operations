@@ -2,7 +2,7 @@
 title: Update invoice line details on a draft project-based proforma invoice
 description: Learn how to update invoice line details on an existing proforma project-based invoice that is in Draft status.
 author: suvaidya
-ms.date: 02/14/2025
+ms.date: 03/21/2025
 ms.topic: how-to
 ms.custom: 
 - bap-template
@@ -39,7 +39,8 @@ The following OOB fields are allowed to be updated on an Invoice line detail in 
 
 
 > [!NOTE]
-> The feature can be enabled at **Settings** \> **Parameters** \> **Feature control** \> **Enable improvements in invoice creation**.
->
-> After the feature is enabled, it can't be disabled.
+> Transaction Classification should not be updated on an Invoice line detail. This is because doing so, results in a mimatch between the transaction classification on the unbilled sales actual and the billed sales actual. 
+In UR 55, a backend validation has beeen added to prevent this scenario. The validation will be automatically enabled on all tenants on this release.
+The validation applies to all invoice line details, whether created via backing actuals or manually created invoice line details.
+If there is a need to update the Transaction classification on a manually created invoice line detail, user must delete the Invoice line detail and create a new one. 
 
