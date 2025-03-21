@@ -1,6 +1,6 @@
 ---
 title: Update invoice line details on a draft project-based proforma invoice
-description: Learn how to update invoice line details to an existing proforma project-based invoice that is in Draft status.
+description: Learn how to update invoice line details on an existing proforma project-based invoice that is in Draft status.
 author: suvaidya
 ms.date: 02/14/2025
 ms.topic: how-to
@@ -22,7 +22,7 @@ To update an invoice line detail on an existing draft invoice -
 3. Select invoice line detail
 4. Make edits
 
-## Editable fields on an invocie line detail
+## Editable fields on an invoice line detail for an Invoice line with Time and Material Billing method
 The following OOB fields are allowed to be updated on an Invoice line detail in draft status:
 1. Billing type
 2. Quantity
@@ -30,6 +30,12 @@ The following OOB fields are allowed to be updated on an Invoice line detail in 
 4. Tax
 5. Description
 6. External Description
+
+## Editable fields on an invoice line detail for an Invoice line with Fixed Price Billing method
+1. Billing Type
+2. Tax
+3. Description
+4. External Description
 
 
 > [!NOTE]
