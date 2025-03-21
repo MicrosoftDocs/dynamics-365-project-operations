@@ -22,5 +22,18 @@ To update an invoice line detail on an existing draft invoice -
 3. Select invoice line detail
 4. Make edits
 
-The following fields can be updated on an Invoice line detail in draft status:
-1. 
+## Editable fields on an invocie line detail
+The following OOB fields are allowed to be updated on an Invoice line detail in draft status:
+1. Billing type
+2. Quantity
+3. Price
+4. Tax
+5. Description
+6. External Description
+
+
+> [!NOTE]
+> The feature can be enabled at **Settings** \> **Parameters** \> **Feature control** \> **Enable improvements in invoice creation**.
+>
+> After the feature is enabled, it can't be disabled.
+
