@@ -12,6 +12,9 @@ ms.author: suvaidya
 
 # Update invoice line details on a draft project-based proforma invoice
 
+The invoice line details on a new invoice can be updated when the **Project Invoice Status** on the Invoice header has a **Draft** status.
+On a revised (corrected) invoice , the invoice line detail(s) can be updated if it is associated to an invoice line having **Time and Material** billing method. 
+
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 [!INCLUDE[banner](../includes/banner.md)]
@@ -41,6 +44,6 @@ The following OOB fields are allowed to be updated on an Invoice line detail in 
 > [!NOTE]
 > Transaction Classification should not be updated on an Invoice line detail. This is because doing so, results in a mimatch between the transaction classification on the unbilled sales actual and the billed sales actual. 
 In UR 55, a backend validation has beeen added to prevent this scenario. The validation will be automatically enabled on all tenants on this release.
-The validation applies to all invoice line details, whether created via backing actuals or manually created invoice line details.
+The validation applies to all invoice line details, whether created via backing actuals or whether manually created invoice line details.
 If there is a need to update the Transaction classification on a manually created invoice line detail, user must delete the Invoice line detail and create a new one. 
 
