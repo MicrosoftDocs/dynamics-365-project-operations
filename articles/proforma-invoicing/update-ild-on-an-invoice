@@ -20,7 +20,7 @@ To update an invoice line detail on an existing draft invoice -
 1. Select the invoice line 
 2. Select Edit
 3. Select invoice line detail
-4. Make edits
+4. Select edit
 
 ## Editable fields on an invoice line detail for an Invoice line with Time and Material Billing method
 The following OOB fields are allowed to be updated on an Invoice line detail in draft status:
