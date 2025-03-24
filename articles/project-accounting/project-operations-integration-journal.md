@@ -5,10 +5,12 @@ author: sigitac
 ms.date: 03/24/2025
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: sigitac
+ms.author: ryansandness
 ---
 
 # Integration journal in Project Operations
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios._
 
