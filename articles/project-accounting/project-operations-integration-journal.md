@@ -85,15 +85,15 @@ This feature introduces an enhanced process where posting transactions are attem
 |---|---|---|
 | Draft | The line is in draft status as it existed before the new **Enable integration journal processing improvements** feature was enabled. The line can be posted. | |
 | Error | One or more integration journal lines have an error, and the header can't be posted. | **Reset to draft** can be performed. |
-| Processing | The line is in processing status and will soon be moved to posted status. If a line is in processing status for a long time, an error likely occurred. A user can manually reset the line to draft status. | **Reset to draft** can be performed. | 
+| Processing | The line is in processing status and will soon move to the posted status. If a line is in processing status for a long time, an error likely occurred. A user can manually reset the line to draft status. | **Reset to draft** can be performed. | 
 | Posted | The line was successfully posted, and no further action is required. | |
 | Unrecoverable | The line has an error that can't be posted by the system. A support ticket might be required. This error should occur only for transactions that existed before the feature was enabled. | |
-| Invalid actuals | The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required. <p>You can learn more about this situation from [enable actuals validation](enable-actuals-validation.md). | |
+| Invalid actuals | The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required. <p>You can learn more about this situation from [enable actuals validation](../advanced-configuration/enable-actuals-validation.md). | |
 
 | Header status | Description | How the user can fix the error |
 |---|---|---|
 | Draft | The header is in draft status, because as it hasn't yet been posted. | |
-| Processing | The header is in processing status and will some be moved to posted status. | **Reset to draft** can be performed. |
+| Processing | The header is in processing status and will soon move to the posted status. | **Reset to draft** can be performed. |
 | Posted | The header was successfully posted, and no further action is required. | |
 | Error | One or more integration journal lines have an error, and the header can't be posted. A user can manually reset the header to draft status and then try to post again. | **Reset to draft** can be performed. |
 
