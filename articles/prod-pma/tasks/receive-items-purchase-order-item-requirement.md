@@ -80,8 +80,7 @@ To update the project cost for stocked items or any item marked as stocked in th
 2. Click **Recalculation** to run the inventory recalculation process.
 3. Select the date and click OK to run the process. 
 
-### Service items or procurement cateogries
-
+### Service items or procurement categories
 No additional setup or process is needed to update the project cost for service items. The system automatically validates the project cost during the purchase order receipt, and if there is any deviation, it updates the project cost accordingly.
 
 In version **10.0.44**, a new feature called **Streamline project cost for service items and procurement categories with item requirements activated** has been introduced. This feature accounts for the impact of discounts applied on the vendor invoice, any miscellaneous charges added to the invoice, or any price deviations, and automatically updates the project cost for service items. This feature helps to genreate the project cost based upon vendor invoice considering below points:
