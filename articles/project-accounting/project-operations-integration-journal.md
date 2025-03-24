@@ -86,7 +86,7 @@ This feature introduces an enhanced process where posting transactions are attem
 | Processing | The line is in processing status and will soon be moved to posted status. If a line is in processing status for a long time, an error likely occurred. A user can manually reset the line to draft status. | **Reset to draft** can be performed. | 
 | Posted | The line was successfully posted, and no further action is required. | |
 | Unrecoverable | The line has an error that can't be posted by the system. A support ticket might be required. This error should occur only for transactions that existed before the feature was enabled. | |
-| Invalid actuals | The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required. <p>You can learn more about this situation from [enable actuals validation](./enable-actuals-validation.md). | |
+| Invalid actuals | The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required. <p>You can learn more about this situation from [enable actuals validation](enable-actuals-validation.md). | |
 
 | Header status | Description | How the user can fix the error |
 |---|---|---|
