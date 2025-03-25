@@ -16,7 +16,7 @@ ms.dyn365.ops.version: Version 7.0.0
 
 # Use project item requirements with purchase orders
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
 This article provides guidance on using project item requirements with purchase orders.
 
