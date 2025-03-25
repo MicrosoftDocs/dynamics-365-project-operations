@@ -17,7 +17,7 @@ ms.author: suvaidya
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
 The invoice line details on a new invoice can be updated when the **Project Invoice Status** on the Invoice header has a **Draft** status.
-On a revised (corrected) invoice, the invoice line details can be updated if it is associated to an invoice line that has the **Time and Material** billing method.
+On a revised (corrected) invoice, the invoice line details can be updated if it's associated to an invoice line that has the **Time and Material** billing method.
 
 To update an invoice line detail on an existing draft invoice, follow these steps.
 
@@ -47,9 +47,9 @@ The following fields can be edited on an invoice line detail for and invoice lin
 - External Description
 
 > [!NOTE]
-> **Transaction Classification** should not be updated on an invoice line detail. Doing so results in a mimatch between the transaction classification on the unbilled sales actual and the billed sales actual. 
+> **Transaction Classification** shouldn't be updated on an invoice line detail. Doing so results in a mismatch between the transaction classification on the unbilled sales actual and the billed sales actual. 
 >
 >In UR 55, a backend validation was added to prevent this scenario and is automatically enabled.
-The validation applies to all invoice line details, irrespective of whether these were created from backing actuals or manually created directly on the invoice. If there is a need to update the Transaction classification on a manually created invoice line detail, you must delete the invoice line detail and create a new one. 
+The validation applies to all invoice line details, irrespective of whether they were created from backing actuals or manually created directly on the invoice. If there's a need to update the Transaction classification on a manually created invoice line detail, you must delete the invoice line detail and create a new one. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
