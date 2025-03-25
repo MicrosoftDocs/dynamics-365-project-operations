@@ -17,7 +17,7 @@ ms.dyn365.ops.version: Version 7.0.0
 
 This article provides guidance on using project item requirements in conjunction with purchase orders.
 
-In Microsoft **Dynamics 365 Project Management and Accounting**, **item requirements** refer to materials or products needed for a specific project. These items can be procured, reserved, or issued from stock to fulfill project needs. By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning. 
+In Microsoft **Dynamics 365 Project Management and Accounting**, **item requirements** refer to materials or products needed for a specific project. These items can be procured, reserved, or issued from stock to fulfill project needs. By using an item requirement instead of an item transaction, you can plan for delivery just before the item is used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning. 
 
 # How Item Requirements Work in Projects
 1. Item requirements are linked to a project and define the materials needed for execution.
@@ -83,11 +83,11 @@ To update the project cost for stocked items or any item marked as stocked in th
 ### Service items or procurement categories
 No additional setup or process is needed to update the project cost for service items. The system automatically validates the project cost during the purchase order receipt, and if there is any deviation, it updates the project cost accordingly.
 
-In version **10.0.44**, a new feature called **Streamline project cost for service items and procurement categories with item requirements activated** has been introduced. This feature accounts for the impact of discounts applied on the vendor invoice, any miscellaneous charges added to the invoice, or any price deviations, and automatically updates the project cost for service items. This feature helps to genreate the project cost based upon vendor invoice considering below points:
+In version **10.0.44**, a new feature called **Streamline project cost for service items and procurement categories with item requirements activated** has been introduced. This feature accounts for the impact of discounts applied on the vendor invoice, any miscellaneous charges added to the invoice, or any price deviations, and automatically updates the project cost for service items. This feature helps to generate the project cost based upon vendor invoice considering below points:
 1. **Miscellaneous charges** could be added to vendor invoices to account for these additional costs, which then impact the overall project cost. Any charge which is configured as posting type as item, updates the project cost during the vendor invoice posting process. 
 2. **Discount amount, Discount percentage** any new discount added on the vendor invoice updates the project cost during the vendor invoice posting process.
 3. **Price change** on the vendor invoice updates the project cost during the vendor invoice posting process.
-4. **Tax amount** impacts the project cost based upon tax configuration settings like non-deductable tax during the vendor invoice posting process, 
+4. **Tax amount** impacts the project cost based upon tax configuration settings like non-deductible tax during the vendor invoice posting process, 
 
 This feature also ensures that during the project invoicing process, only sales order lines are displayed from an invoicing perspective when purchase orders are generated from sales orders (excluding item requirements).
 
