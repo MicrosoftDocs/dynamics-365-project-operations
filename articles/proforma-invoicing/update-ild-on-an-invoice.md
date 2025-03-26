@@ -16,19 +16,18 @@ ms.author: suvaidya
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
-The invoice line details on a new invoice can be updated when the **Project Invoice Status** on the Invoice header has a **Draft** status.
-On a revised (corrected) invoice, the invoice line details can be updated if it's associated to an invoice line that has the **Time and Material** billing method.
+On a new invoice, the invoice line details can be updated when the **Project Invoice Status** field on the invoice header is set to **Draft**. On a revised (corrected) invoice, the invoice line details can be updated if they are associated with an invoice line that has the **Time and Material** billing method.
 
 To update an invoice line detail on an existing draft invoice, follow these steps.
 
-1. Select the invoice line. 
-2. Select **Edit**.
-3. Select invoice line detail to edit.
-4. Select **Edit**.
+1. Select the invoice line.
+1. Select **Edit**.
+1. Select the invoice line detail to edit.
+1. Select **Edit**.
 
-## Editable fields on an invoice line detail for an invoice line with the time and material billing method
+## Editable fields on invoice line details for an invoice line that has the Time and Material billing method
 
-The following out-of-the-box fields can be updated on an invoice line detail in draft status:
+The following out-of-box fields can be updated on an invoice line detail in **Draft** status:
 
 - Billing type
 - Quantity
@@ -37,9 +36,9 @@ The following out-of-the-box fields can be updated on an invoice line detail in 
 - Description
 - External Description
 
-## Editable fields on an invoice line detail for an invoice line with the fixed price billing method
+## Editable fields on an invoice line detail for an invoice line that has the Fixed Price billing method
 
-The following fields can be edited on an invoice line detail for and invoice line with the fixed price billing method:
+The following fields can be edited on an invoice line detail for an invoice line that has the **Fixed Price** billing method:
 
 - Billing Type
 - Tax
@@ -47,9 +46,8 @@ The following fields can be edited on an invoice line detail for and invoice lin
 - External Description
 
 > [!NOTE]
-> **Transaction Classification** shouldn't be updated on an invoice line detail. Doing so results in a mismatch between the transaction classification on the unbilled sales actual and the billed sales actual. 
+> The **Transaction Classification** field should not be updated on an invoice line detail. Otherwise, a mismatch occurs between the transaction classification on the unbilled sales actual and transaction classification on the billed sales actual.
 >
->In UR 55, a backend validation was added to prevent this scenario and is automatically enabled.
-The validation applies to all invoice line details, irrespective of whether they were created from backing actuals or manually created directly on the invoice. If there's a need to update the Transaction classification on a manually created invoice line detail, you must delete the invoice line detail and create a new one. 
+> In Update Release (UR) 55, a back-end validation was added to prevent this scenario. This validation is automatically enabled. It applies to all invoice line details, regardless of whether they were created from backing actuals or manually created directly on the invoice. If the **Transaction Classification** field has to be updated on a manually created invoice line detail, you must delete the invoice line detail and create a new one.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
