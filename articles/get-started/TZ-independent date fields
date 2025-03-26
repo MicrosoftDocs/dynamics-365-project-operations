@@ -1,0 +1,35 @@
+---
+title: Time Zone Independent Date Fields
+description: Learn about time zone independent date fields and their behavior in the context of Project Operations
+author: suvaidya
+ms.date: 03/26/2025
+ms.topic: how-to
+ms.custom: 
+- bap-template
+ms.reviewer: johnmichalak
+ms.author: suvaidya
+---
+# Overview of time zone independent Milestone Date
+
+_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
+
+[!INCLUDE[banner](../includes/banner.md)]
+
+The Time Zone Independent Milestone Date feature ensures that milestone dates in the Project contract line milestone entity are consistent and not affected by the logged in user's local time zone, thereby improving billing accuracy of project based milestones.  
+
+In resource deployments, the msdyn_invoicedate field in the Project contract line milestone entity uses the user's local time, while the msdyn_invoicedate field in the invoice entity is time zone independent. This discrepancy can cause confusion in cases when the milestone date and the invoice created date are the same, due to the logical name being same across the two entities . The Time Zone Independent Milestone Date feature resolves this issue by ensuring that milestone dates are consistent across all entities.
+
+
+> [!NOTE]
+> The feature can be enabled at **Settings** \> **Parameters** \> **Feature control** \> **Enable TZ Independent Milestone Date**.
+
+
+## Expected behavior on Enabling Feature Flag
+
+1. User Interface for all OOB forms and views currently using the Milestone date will be updated with the TZ Indepdent Milestone date . This includes quote line and contract line entities.
+2. Milestone date value will always be set, irrespective of the feature flag getting disabled.
+3. 
+
+
+Feature Flag behavior
+
