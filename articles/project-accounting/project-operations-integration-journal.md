@@ -2,13 +2,15 @@
 title: Integration journal in Project Operations
 description: This article provides information about working with the Integration journal in Project Operations.
 author: sigitac
-ms.date: 04/2/2024
+ms.date: 03/24/2025
 ms.topic: article
 ms.reviewer: johnmichalak
-ms.author: sigitac
+ms.author: ryansandness
 ---
 
 # Integration journal in Project Operations
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios._
 
@@ -18,7 +20,7 @@ Time, expense, fee, and material entries create **Actual** transactions, which r
 
 ## Create records in the Project Operations Integration journal
 
-Records in the Project Operations Integration journal are created using periodic process, **Import from staging table**. You can run this process by going to **Project management and accounting** \> **Periodic** \> **Project Operations Integration** \> **Import from staging table** in Finance. You can run the process interactively or configure the process to run in the background as needed.
+Records in the Project Operations Integration journal are created using the periodic process, **Import from staging table**. You can run this process by going to **Project management and accounting** \> **Periodic** \> **Project Operations Integration** \> **Import from staging table** in Finance. You can run the process interactively or configure the process to run in the background as needed.
 
 When the periodic process runs, any actuals that aren't yet added to the Project Operations Integration journal are found. A journal line for each actual transaction is created. The system groups journal lines into separate journals based on the value selected in the **Period unit on Project Operations Integration journal** field on the **Project Operations on Dynamics 365 Customer Engagement** tab of the **Project management and accounting parameters** page in Finance (**Project management and accounting** > **Setup** > **Project management and accounting parameters**). Possible values for this field include:
 
@@ -83,21 +85,21 @@ This feature introduces an enhanced process where posting transactions are attem
 |---|---|---|
 | Draft | The line is in draft status as it existed before the new **Enable integration journal processing improvements** feature was enabled. The line can be posted. | |
 | Error | One or more integration journal lines have an error, and the header can't be posted. | **Reset to draft** can be performed. |
-| Processing | The line is in processing status and will soon be moved to posted status. If a line is in processing status for a long time, an error likely occurred. A user can manually reset the line to draft status. | **Reset to draft** can be performed. | 
+| Processing | The line is in processing status and will soon move to the posted status. If a line is in processing status for a long time, an error likely occurred. A user can manually reset the line to draft status. | **Reset to draft** can be performed. | 
 | Posted | The line was successfully posted, and no further action is required. | |
 | Unrecoverable | The line has an error that can't be posted by the system. A support ticket might be required. This error should occur only for transactions that existed before the feature was enabled. | |
-| Invalid actuals | The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required. | |
+| Invalid actuals | <p>The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required.</p><p>You can learn more about this situation in [Enable actuals validation to prevent invalid actuals](../advanced-configuration/enable-actuals-validation.md).</p> | |
 
 | Header status | Description | How the user can fix the error |
 |---|---|---|
 | Draft | The header is in draft status, because as it hasn't yet been posted. | |
-| Processing | The header is in processing status and will some be moved to posted status. | **Reset to draft** can be performed. |
+| Processing | The header is in processing status and will soon move to the posted status. | **Reset to draft** can be performed. |
 | Posted | The header was successfully posted, and no further action is required. | |
 | Error | One or more integration journal lines have an error, and the header can't be posted. A user can manually reset the header to draft status and then try to post again. | **Reset to draft** can be performed. |
 
 #### Transactions in the processing state
 
-Integration journal lines might remain in a processing state for an extended period and might have to be reset. If transactions are listed in pending status, and either 24 hours have passed or an administrator has verified that no interactive or batch posting processes are running for the integration journal, the status probably wasn't correctly updated. Users can manually reset the status to draft by selecting **Update to draft** on the integration journal line. 
+Integration journal lines might remain in a processing state for an extended period and might have to be reset. If transactions are listed in pending status, and either 24 hours have passed or an administrator has verified that no interactive or batch posting processes are running for the integration journal, the status probably wasn't correctly updated. Users can manually reset the status to draft by selecting **Update to draft** on the integration journal line.
 
 #### Other improvements in the 10.0.38 release
 
