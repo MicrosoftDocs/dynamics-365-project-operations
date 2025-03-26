@@ -20,7 +20,7 @@ Time, expense, fee, and material entries create **Actual** transactions, which r
 
 ## Create records in the Project Operations Integration journal
 
-Records in the Project Operations Integration journal are created using periodic process, **Import from staging table**. You can run this process by going to **Project management and accounting** \> **Periodic** \> **Project Operations Integration** \> **Import from staging table** in Finance. You can run the process interactively or configure the process to run in the background as needed.
+Records in the Project Operations Integration journal are created using the periodic process, **Import from staging table**. You can run this process by going to **Project management and accounting** \> **Periodic** \> **Project Operations Integration** \> **Import from staging table** in Finance. You can run the process interactively or configure the process to run in the background as needed.
 
 When the periodic process runs, any actuals that aren't yet added to the Project Operations Integration journal are found. A journal line for each actual transaction is created. The system groups journal lines into separate journals based on the value selected in the **Period unit on Project Operations Integration journal** field on the **Project Operations on Dynamics 365 Customer Engagement** tab of the **Project management and accounting parameters** page in Finance (**Project management and accounting** > **Setup** > **Project management and accounting parameters**). Possible values for this field include:
 
@@ -88,7 +88,7 @@ This feature introduces an enhanced process where posting transactions are attem
 | Processing | The line is in processing status and will soon move to the posted status. If a line is in processing status for a long time, an error likely occurred. A user can manually reset the line to draft status. | **Reset to draft** can be performed. | 
 | Posted | The line was successfully posted, and no further action is required. | |
 | Unrecoverable | The line has an error that can't be posted by the system. A support ticket might be required. This error should occur only for transactions that existed before the feature was enabled. | |
-| Invalid actuals | The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required. <p>You can learn more about this situation from [enable actuals validation](../advanced-configuration/enable-actuals-validation.md). | |
+| Invalid actuals | <p>The line has an error that can't be posted because of missing actuals in Dataverse. A support ticket might be required.</p><p>You can learn more about this situation in [Enable actuals validation to prevent invalid actuals](../advanced-configuration/enable-actuals-validation.md).</p> | |
 
 | Header status | Description | How the user can fix the error |
 |---|---|---|
