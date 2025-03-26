@@ -890,6 +890,8 @@
       href: advanced-configuration/sync-project-status.md   
     - name: Currency conversion setup for calculating sales prices from cost rates
       href: advanced-configuration/currencyconversion.md 
+    - name: Enable actuals validation
+      href: advanced-configuration/enable-actuals-validation.md
   - name: Upgrade
     items:
     - name: Upgrade considerations for Modern approvals
