@@ -1554,6 +1554,8 @@
       href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
     - name: Manage a proforma project invoice 
       href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+    - name: Update invoice line details on a draft project-based proforma invoice
+      href: proforma-invoicing/update-ild-on-an-invoice.md
     - name: Add new invoice line details to a draft invoice
       href: proforma-invoicing/add-new-ild-to-invoice.md
     - name: Invoice a retainer or an advance
