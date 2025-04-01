@@ -11,33 +11,67 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Project Operations Dual-write map versions
+# Project Operations Dual-Write Map Versions
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-Using Dynamics 365 Project Operations for resource/non-stocked scenarios requires a set of Dual-write maps to be running in the environment. 
+Using Dynamics 365 Project Operations for resource/non-stocked scenarios requires a set of **Dual-Write Maps** to be running in the environment. 
 
 ## Prerequisites
 
-The following apps are required in the Dataverse environment. They must be installed in the following order:
+### 1. Required Apps for Dataverse Environment
 
-1. Dual-write Application Core Solutions
-2. Dual-write Asset Management Solutions
-3. Dual Write Finance and Extended Solutions
-4. Dual-write Dynamics 365 Human Resources
-5. Dual Write Supply Chain Extended Solution
-6. Dynamics 365 HR Integration to URS
+To ensure a smooth setup, the following apps must be installed in the **exact order** listed below:
 
-The following maps are required for the Project Operations solution. Make sure to run the maps listed in the following table and any related table maps in your environment.
+1. **Dual-write Application Core Solutions**
+2. **Dual-write Asset Management Solutions**
+3. **Dual Write Finance and Extended Solutions**
+4. **Dual-write Dynamics 365 Human Resources**
+5. **Dual Write Supply Chain Extended Solution**
+6. **Dynamics 365 HR Integration to URS**
 
-| Table map | Initial sync |
-| --- | --- |
-| Ledger (msdyn_ledgers) | Requires initial sync for the table map and all prerequisites. Master for initial sync is finance and operations apps. |
-| Legal entities (cdm_companies) | Not required. The system populates this entity automatically when environments are linked using Dual-write. |
-| Customers V3 (accounts) | Not required for provisioning. |
-| Vendors V2 (msdyn_vendors) | Not required for provisioning. |
+> [!TIP]
+> #### Steps to Install/Manage Apps via PowerApps Portal
+> To install and manage the apps mentioned above, follow these steps:
+> 1. Sign in to the **Power Platform Admin Center**.
+> 2. Select **Environments** and then select an environment.
+> 3. Under **Resources**, select **Dynamics 365 apps**.
+> 4. Select **Install** app.
+> 5. Select an **Enabled** app, and then select Next.
+> 6. Agree to the terms of service, and then select **Install**.
+>    
+> For detailed instructions, refer to [Manage Apps](https://learn.microsoft.com/en-us/power-platform/admin/manage-apps#install-an-app-in-the-environment-view)
+
+### 2. Refresh Entities from F&O
+
+Before proceeding, ensure that you refresh the entities from Finance and Operations (F&O). **This is a crucial prerequisite.**
+
+_Refreshing the entity list ensures all entities are available in the environment and that the entities have the latest metadata._
+
+> [!TIP]
+> #### Steps to Refresh Entities from F&O
+> To install and manage the apps mentioned above, follow these steps:
+> 1. Sign in to the **Finance and Operations**.
+> 2. Select **Data management**.
+> 3. Select **Framework parameters**.
+> 4. Select **Entity settings**.
+> 5. Select **Refresh entity list**.
+>    
+> For detailed instructions, refer to [Refresh Entity List](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities#entity-list-refresh)
+
+### 3. Required Maps for Project Operations Solution
+
+The table below shows the maps required for the Project Operations solution. Ensure to run the maps in the exact order listed and include any related table maps in your environment:
+
+| Table Map Name                                       | Initial Sync Details                                                                                                                                        |
+|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Legal entities (**cdm_companies**)                   | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Finance and Operations apps.** |
+| CDS Exchange Rates (**msdyn_currencyexchangerates**) | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Finance and Operations apps.** |
+| Ledger (**msdyn_ledgers**)                           | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Finance and Operations apps.** |
+| Customers V3 (**accounts**)                          | Initial Sync **NOT REQUIRED**                                                                                                                               |
+| Vendors V2 (**msdyn_vendors**)                       | Initial Sync **NOT REQUIRED**                                                                                                                               |
 
 1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **Finance and operations apps** for both ledger map and all prerequisite maps. Select **Run**.
 
@@ -45,9 +79,19 @@ The following maps are required for the Project Operations solution. Make sure t
 
 2. Follow the same steps for all remaining table maps listed in the above table. Do not select the **Initial sync** check box when running those maps.
 
-## Project Operations Dual-write maps
+## Project Operations Dual-Write Maps
 
-The following maps are required for a Project Operations solution. Dual-write map versions are listed starting with the Project Operations May 2021 update, version 4.10.0.186.
+Dual-Write map versions are listed starting with the Project Operations May 2021 update, version 4.10.0.186.
+
+The table below shows the maps required for the Project Operations solution. Ensure to run the maps in the exact order listed and include any related table maps in your environment:
+
+| Table Map Name                                                                                   | Latest Version | Initial Sync Details                                                                                                                      | Required Dynamics 365 Finance Version |
+|--------------------------------------------------------------------------------------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| Project resource roles for all companies <br> (**bookableresourcecategories**)                   | 1.0.0.1        | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Dataverse.** |                                       |
+| Integration entity for project transaction relationships <br> (**msdyn_transactionconnections**) | 1.0.0.0        | Initial Sync **NOT REQUIRED**                                                                                                             |                                       |
+| Project contract headers <br> (**salesorders**)                                                  | 1.0.0.1        | Initial Sync **NOT REQUIRED**                                                                                                             |                                       |
+| Project contract lines <br> (**salesorderdetails**)                                              | 1.0.0.0        | Initial Sync **NOT REQUIRED**                                                                                                             |                                       |
+| Project funding source <br> (**msdyn_projectcontractsplitbillingrules**)                         | 1.0.0.2        | Initial Sync **NOT REQUIRED**                                                                                                             |                                       |
 
 | Entity map | Latest version | Initial sync | Required Dynamics 365 Finance version |
 | --- | --- | --- | --- |
