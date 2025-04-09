@@ -82,7 +82,7 @@ These estimates are synchronized as **project item forecasts** in **Dynamics 365
 When **stocked products** are selected, the **site and warehouse** can be specified on the quick create or detail form. 
 This information is then reflected in the corresponding **project item forecast** in **Dynamics 365 Finance**. Additionally, project item forecasts can be used to run master planning, enabling the generation of planned purchase orders or production orders.
 
-For more information about project material estimates, refer [Record material usage on projects and project tasks](material-usage-log.md)
+For more information about project material estimates, refer [Financial estimates for materials on projects](create-material-estimate.md)
 
 ## Project quotations
 **Dynamics 365 Project Operations** supports the use of **stocked products** in project quotations. 
@@ -119,10 +119,34 @@ A warehouse worker can then receive the product using the **product receipt** fu
 For more information about project purchase orders, refer [Project purchase purchase orders](non-stocked-materials-project-purchase-orders)
 
 ## Material usage
+In **Dynamics 365 Project Operations**, a material usage log provides a way to record material consumption so it can be approved by the project manager and eventually invoiced to the customer. By enabling the stocked product feature, users can create material usage entries for stocked products. These entries can be created for either a **specific product** or a **project variant**. Based on the item and required inventory dimensions, users must specify details such as **site, warehouse**, and, if applicable, **batch or serial number**. It is essential to ensure that inventory is only consumed when sufficient stock is available with the relevant inventory dimensions.
+
+For more information about project material usage, refer [Record material usage on projects and project tasks](material-usage-log.md)
 ### Validations for on hand inventory
+When a user **submits material usage** for a stocked product, the system **validates** whether the product is available in stock. If the stock is **unavailable**, the system displays an error and prevents the submission of the material usage.
+Similarly, when an **approver** attempts to **approve** material usage, the system checks whether the product is available in stock. If the stock is unavailable, the system displays an error and blocks the approval.
+
+### Inventory cost for material usage
+When material usage is approved by the approver, cost and unbilled sales actuals are generated based on the associated cost and sales price lists. Cost actuals are derived from the cost price list; however, the **weighted average** cost of the material may differ. During the posting of the **integration journal** for the cost transaction in the **Dynamics 365 finance**, if the actual cost amount differs from the material’s weighted average cost, the **difference** is treated as an **adjustment**. This adjustment is synchronized back to **Dynamics 365 Project Operations** and reflected in a new field called **Adjustment Value**. The **extended amount** is updated accordingly.
+
+> [!NOTE]
+> In Dynamics 365 Finance, inventory consumption using inventory journals are always posted using the weighted average cost, regardless of the costing method assigned to the material.
 
 ## Journals
 ### Validations for on hand inventory
 
 ## Inventory recalculation and closing
+To align the **inventory cost** of a transaction with the assigned inventory model group, the Inventory **Closing and adjustment** job must be executed. If there is any deviation between the **project cost** recorded through the **project integration journal** and the cost calculated based on the **inventory model group**, an adjustment transaction is generated to update the project cost accordingly.
+
+To update project costs in **Dynamics 365 Project Operations**, the recurring batch job **Project cost update for inventory adjustments** must be executed after the Inventory Closing and Adjustment job is completed. This batch job can be scheduled to run on a recurring basis; however, it is recommended to run it only after the inventory closing and adjustment process has been completed.
+
+To run the **Project cost update for inventory adjustments**, do the following:
+
+1. In **Dynamics 365 for finance**, Go to **Project management and accounting**.
+2. Go to **Periodic** > **Project operations integration** > ****Project cost update for inventory adjustments**.
+3. Apply the filters for the project or project contract.
+4. Click **Ok** to update the project cost in **Dynamics 365 project operations**.
+
+
+
 
