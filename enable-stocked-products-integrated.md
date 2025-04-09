@@ -116,7 +116,7 @@ A warehouse worker can then receive the product using the **product receipt** fu
 > [!NOTE]
 > Product receipts aren't recorded to the project actuals in Microsoft Dataverse and don't impact the project subledger.
 
-For more information about project purchase orders, refer [Project purchase purchase orders](non-stocked-materials-project-purchase-orders)
+For more information about project purchase orders, refer [Project purchase purchase orders](non-stocked-materials-project-purchase-orders.md)
 
 ## Material usage
 In **Dynamics 365 Project Operations**, a material usage log provides a way to record material consumption so it can be approved by the project manager and eventually invoiced to the customer. By enabling the stocked product feature, users can create material usage entries for stocked products. These entries can be created for either a **specific product** or a **project variant**. Based on the item and required inventory dimensions, users must specify details such as **site, warehouse**, and, if applicable, **batch or serial number**. It is essential to ensure that inventory is only consumed when sufficient stock is available with the relevant inventory dimensions.
@@ -133,7 +133,13 @@ When material usage is approved by the approver, cost and unbilled sales actuals
 > In Dynamics 365 Finance, inventory consumption using inventory journals are always posted using the weighted average cost, regardless of the costing method assigned to the material.
 
 ## Journals
+Entry journals are used to record actuals directly in **Dynamics 365 Project Operations**. When you use Entry journals, you don't have to enter Time, Expense, and Material usage logs in Project Operations.
+By enabling the stocked product feature, users can create material consumption entries for stocked products. These entries can be created for either a **specific product** or a **project variant**. Based on the item and required inventory dimensions, users must specify details such as **site, warehouse**, and, if applicable, **batch or serial number**. It is essential to ensure that inventory is only consumed when sufficient stock is available with the relevant inventory dimensions.
+
+For more information about project journals, refer [Create and confirm Entry journals](create-confirm-entry-journals.md)
+
 ### Validations for on hand inventory
+When a user confirms the **journal** for a stocked product line, the system **validates** whether the product is available in stock. If the stock is **unavailable**, the system displays an error and prevents the confirmation of the journal entry.
 
 ## Inventory recalculation and closing
 To align the **inventory cost** of a transaction with the assigned inventory model group, the Inventory **Closing and adjustment** job must be executed. If there is any deviation between the **project cost** recorded through the **project integration journal** and the cost calculated based on the **inventory model group**, an adjustment transaction is generated to update the project cost accordingly.
