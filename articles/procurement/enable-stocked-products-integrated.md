@@ -91,7 +91,7 @@ This information is then reflected in the corresponding **project item forecast*
 
 ![Itemforecast](/articles/media/Itemforecast.png)
 
-For more information about project material estimates, refer [Financial estimates for materials on projects](create-material-estimate.md)
+For more information about project material estimates, refer [Financial estimates for materials on projects](../project-management/create-material-estimate.md)
 
 ## Project quotations
 **Dynamics 365 Project Operations** supports the use of **stocked products** in project quotations. 
@@ -100,7 +100,7 @@ but users also have the flexibility to manually adjust the sales price on the qu
 
 ![Project quotation line](/articles/media/ProjectQuote.png)
 
-For more information about project quotations, refer [Manage project quotes](manage-quotes-sales.md)
+For more information about project quotations, refer [Manage project quotes](../pro/sales/manage-quotes-sales.md)
 
 ## Project contracts
 **Dynamics 365 Project Operations** supports the use of **stocked products** in project contracts. 
@@ -109,7 +109,7 @@ but users also have the flexibility to manually adjust the sales price on the co
 
 ![Project contract line](/articles/media/Projectcontractline.png)
 
-For more information about project contracts, refer [Manage project contracts](manage-contracts-sales.md)
+For more information about project contracts, refer [Manage project contracts](../pro/sales/manage-contracts-sales.md)
 
 ## Purchase orders
 **Dynamics 365 Project Operations** enables the execution of the full procurement lifecycle, including **purchase requisitions, purchase agreements, and purchase orders**. 
@@ -136,7 +136,7 @@ In **Dynamics 365 Project Operations**, a material usage log provides a way to r
 
 ![Material usage](/articles/media/MaterialUsage.png)
 
-For more information about project material usage, refer [Record material usage on projects and project tasks](material-usage-log.md)
+For more information about project material usage, refer [Record material usage on projects and project tasks](../material/material-usage-log.md)
 ### Validations for on hand inventory
 When a user **submits material usage** for a stocked product, the system **validates** whether the product is available in stock. If the stock is **unavailable**, the system displays an error and prevents the submission of the material usage.
 Similarly, when an **approver** attempts to **approve** material usage, the system checks whether the product is available in stock. If the stock is unavailable, the system displays an error and blocks the approval.
@@ -155,7 +155,7 @@ By enabling the stocked product feature, users can create material consumption e
 
 ![Project journals](/articles/media/Projectjournal.png)
 
-For more information about project journals, refer [Create and confirm Entry journals](create-confirm-entry-journals.md)
+For more information about project journals, refer [Create and confirm Entry journals](../actuals/create-confirm-entry-journals.md)
 
 ### Validations for on hand inventory
 When a user confirms the **journal** for a stocked product line, the system **validates** whether the product is available in stock. If the stock is **unavailable**, the system displays an error and prevents the confirmation of the journal entry.
