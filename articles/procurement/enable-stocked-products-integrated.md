@@ -66,6 +66,8 @@ This section provides information about specific the maps required for stocked p
 The product type—whether it is a service item or a stocked item—is also reflected accordingly in Project Operations. If the product includes **multiple variants** based on dimensions such as **size, color, configuration, or style**, each variant is represented as a **separate product** in Project Operations. 
 In **Project operations**, products can be activated or deactivated using the **Activate** button on the action pane. 
 
+![Products](media/Products.png)
+
 ### On hand inventory
 **Dynamics 365 Project operations**  allows users to view on-hand inventory for specific products within a company. 
 On-hand stock can be accessed from various areas, including the **product master**, **project estimates**, **project quotation lines**, **project contract lines**, and **project journals**. 
