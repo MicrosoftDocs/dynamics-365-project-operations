@@ -58,6 +58,8 @@ This section provides information about specific the maps required for stocked p
 |Tracking dimension groups (msdyn_productdimensiongroups)|1.0.0.0|
 |Units (uoms)|1.0.0.0|
 |Warehouse locations (msdyn_inventorylocations)|1.0.0.1|
+|Project Operations integration entity for expense estimates (msdyn_estimatelines)|1.0.0.4|
+|Project subcontract purchase order line (msdyn_subcontractlines)|1.0.0.1|
 
 ## Products 
 **Dynamics 365 Finance** serves as the master system for creating and **releasing products**. When a new product is created or released in Finance, it is automatically synchronized with **Dynamics 365 Project Operations**. 
