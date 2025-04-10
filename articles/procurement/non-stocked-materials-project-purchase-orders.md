@@ -3,7 +3,7 @@ title: Order non-stocked materials for a project using project purchase orders
 description: This article explains how you can order non-stocked materials for a project using project purchase orders.
 author: sigitac
 ms.author: mukumarm
-ms.date: 05/22/2024
+ms.date: 04/10/2024
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -35,7 +35,7 @@ Complete the following steps to enable the project purchase orders functionality
 5. Enter an item number or procurement category, quantity, unit, unit price, and other information as appropriate.
 
     > [!NOTE]
-    > Only procurement categories, non-stocked items, and services can be used with project purchase orders. Stocked items aren't supported.
+    > Only procurement categories, non-stocked items, and services can be used with project purchase orders. To use the stocked products in the integrated deployments, refer [Managed stocked products for project operations integrated deployments](enable-stocked-products-integrated.md).
 
 6. Continue to add items or procurement categories as required, and confirm the purchase order.
 
