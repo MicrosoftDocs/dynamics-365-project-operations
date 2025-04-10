@@ -16,7 +16,7 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations integrated deployments._
 
-This article provides an overview of the Stocked Product feature in Microsoft Dynamics 365 Project Operations, which is seamlessly integrated with Dynamics 365 Finance. This feature enables users to manage stocked products, create purchase orders and subcontracts, consume stock for projects, and utilize stocked products in project estimates, quotations, and contracts within Dataverse. 
+This article provides an overview of the **Stocked Product** feature in Microsoft **Dynamics 365 Project Operations**, which is seamlessly integrated with **Dynamics 365 Finance**. This feature enables users to manage stocked products, create purchase orders and subcontracts, consume stock for projects, and utilize stocked products in project estimates, quotations, and contracts within Dataverse. 
 It supports the creation of project invoices for materials consumed under time and materials-based contract lines, and it uses product costs for revenue recognition in fixed-price contract lines. Additionally, this feature ensures that project costs are accurately reflected in both Dynamics 365 Project Operations and Dynamics 365 Finance.
 
 ## Prerequisites
