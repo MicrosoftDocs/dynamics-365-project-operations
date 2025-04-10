@@ -12,8 +12,6 @@ ms.author: mukumarm
 
 # Configure and use stocked products
 
-[!INCLUDE[banner](../../includes/banner.md)]
-
 _**Applies To:** Project Operations integrated deployments._
 
 This article provides an overview of the **Stocked Product** feature in Microsoft **Dynamics 365 Project Operations**, which is seamlessly integrated with **Dynamics 365 Finance**. This feature enables users to manage stocked products, create purchase orders and subcontracts, consume stock for projects, and utilize stocked products in project estimates, quotations, and contracts within Dataverse. 
@@ -66,9 +64,9 @@ This section provides information about specific the maps required for stocked p
 The product type—whether it is a service item or a stocked item—is also reflected accordingly in Project Operations. If the product includes **multiple variants** based on dimensions such as **size, color, configuration, or style**, each variant is represented as a **separate product** in Project Operations. 
 In **Project operations**, products can be activated or deactivated using the **Activate** button on the action pane. 
 
-![Products](/articles/media/Products.png)
+![Products view](/articles/media/Products.png)
 
-![ProductPrice](/articles/media/ProductPrice.png)
+![Product details view](/articles/media/ProductPrice.png)
 
 ### On hand inventory
 **Dynamics 365 Project operations**  allows users to view on-hand inventory for specific products within a company. 
