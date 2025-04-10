@@ -36,7 +36,7 @@ To use the feature for Project Operations integrated deployments, you must have 
 
 ### Run Dual-write maps
 
-This section provides information about specific the maps required for stocked products. These dual-write maps for related to **Dynamics 365 supply chain** solution. For more information about **Dynamics 365 supply chain** dual write entities, refer [Unified product experience](articles/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md)
+This section provides information about specific the maps required for stocked products. These dual-write maps for related to **Dynamics 365 supply chain** solution. For more information about **Dynamics 365 supply chain** dual write entities, refer [Unified product experience](../articles/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md)
 
 |Dual write map|Version|
 |--|--|
