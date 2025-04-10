@@ -36,7 +36,7 @@ To use the feature for Project Operations integrated deployments, you must have 
 
 ### Run Dual-write maps
 
-This section provides information about specific the maps required for stocked products. These dual-write maps for related to **Dynamics 365 supply chain** solution. For more information about **Dynamics 365 supply chain** solution, refer **CHANGES NEEDED**
+This section provides information about specific the maps required for stocked products. These dual-write maps for related to **Dynamics 365 supply chain** solution. For more information about **Dynamics 365 supply chain** dual write entities, refer [Unified product experience](articles/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md)
 
 |Dual write map|Version|
 |--|--|
@@ -145,7 +145,7 @@ Similarly, when an **approver** attempts to **approve** material usage, the syst
 When material usage is approved by the approver, cost and unbilled sales actuals are generated based on the associated cost and sales price lists. Cost actuals are derived from the cost price list; however, the **weighted average** cost of the material may differ. During the posting of the **integration journal** for the cost transaction in the **Dynamics 365 finance**, if the actual cost amount differs from the material’s weighted average cost, the **difference** is treated as an **adjustment**. This adjustment is synchronized back to **Dynamics 365 Project Operations** and reflected in a new field called **Adjustment Value**. The **extended amount** is updated accordingly.
 
 > [!NOTE]
-> In Dynamics 365 Finance, inventory consumption using inventory journals are always posted using the weighted average cost, regardless of the costing method assigned to the material.
+> In **Dynamics 365 Finance**, inventory consumption using inventory journals are always posted using the **weighted average** cost, regardless of the costing method assigned to the material. To align the **inventory cost** of a transaction with the assigned inventory model group, the Inventory **Closing and adjustment** job must be executed.
 
 ![Project actuals](/articles/media/Actuals.png)
 
