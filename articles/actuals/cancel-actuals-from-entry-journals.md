@@ -25,8 +25,8 @@ Microsoft Dynamics 365 Project Operations provides the ability to create actuals
 2. In the **Actuals** list, select the actuals which need to be cancelled
 3. On the ribbon select **Cancel**
    ![Select actuals](media/cancel-actuals.png)
-   > [!NOTE]
-   > Only actuals created via entry journals can be cancelled by this process. If other actuals are selected, they will be ignored when the correction journal is created.
+> [!NOTE]
+> Only actuals created via entry journals can be cancelled by this process. If other actuals are selected, they will be ignored when the correction journal is created.
 4. This action will create and navigate to the correction journal if one or more of the selected actuals are valid to be canceled. Additionally the actuals selected for cancellation will have their adjustment status set to **In process**.
 5. The newly created journal will have a tab named **Actuals to Cancel**. This is a list of all actuals which will be cancelled once the entry journal is confirmed.
    ![Actuals to cancel](media/cancellation-journal.png)
