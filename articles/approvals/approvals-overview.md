@@ -2,7 +2,7 @@
 title: Approvals overview
 description: This article provides information about working with approvals in Project Operations.
 author: suvaidya
-ms.date: 03/31/2021
+ms.date: 04/17/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -45,7 +45,7 @@ In some cases, you might need to cancel a previously approved entry. Canceling a
 In some cases, a consultant may need to recall a previously approved entry. Canceling a previously approved entry will have a financial impact. The project approver is required to approve the recall to reverse the transaction in Actuals.
 
 > [!NOTE]
-> Depending on the view, some actions (approve, reject, or cancel) may not appear on the ribbon
+> Depending on the view, some actions (approve, reject, or cancel) may not appear on the ribbon.
 
 ## Specify Project approvers
 Each project has a number of project team members. You can specify which team members are also Project approvers.
