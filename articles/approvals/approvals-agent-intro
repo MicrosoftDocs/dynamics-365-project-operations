@@ -1,0 +1,21 @@
+---
+title: Approvals Agent Into (Prodcution Ready Preview)
+description: This article gives a brief introduction to the Project Operations Approvals agent.
+author: abriccett
+ms.date: 04/17/2025
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
+---
+
+# Approvals Agent Overview
+
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+
+The Microsoft Dynamics 365 Project Operations Approvals Agent aims to streamline the approval process for time, expense, and material transactions, leveraging a [Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) Agent to provide an initial review of incoming time, expense, and material entries against customer uploaded policy documents for each type of entry. If the record is found to meet the criteria outlined in the policy document, it will be marked as *ready for approval* and if not it will be marked as *needs review*. This will streamline the approvals process for project managers while also reducing mistaken approvals which can lead to time consuming corrections.
+
+The production ready preview is available 
