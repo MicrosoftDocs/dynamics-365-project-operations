@@ -50,6 +50,9 @@ If each product has a transaction cost of $100, the unbilled sales actuals per u
 | Material at Mark up over transaction cost | Mark up percentage | 10 | 110 | USD |
 | Material at price per unit | Price per unit | | 200 | USD |
 
+> [!NOTE]
+> For material transactions, unit conversions are not supported. For example if a price list has a price with a unit of ea, then expenses must be expressed in ea and not bundle even if the unit group has a conversion between them. Alernatively, a price with a unit of bundle for the same item can be added to the price list.
+
 For more information about how to define prices for catalog items, see [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
 
 > [!NOTE]
