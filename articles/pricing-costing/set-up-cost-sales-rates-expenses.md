@@ -50,7 +50,7 @@ When you set up category prices that are only relevant in the context of expense
 When this pricing method is selected on a category price line that is linked to a sales price list, the price defaults for the category and unit combination in both the estimate and the actual. Estimate refers to the project estimate lines for expenses, the quote line detail, and the contract line detail for expenses.
 
 > [!NOTE]
-> For expense transactions, unit conversions are not supported. For example if a price list has a travel price with a unit of mile but not kilometers, then expenses must be expressed in miles and not kilometers even if the unit group has a conversion between them.
+> For expense transactions, unit conversions are not supported. For example if a price list has a travel price with a unit of miles, then expenses must be expressed in miles and not kilometers even if the unit group has a conversion between them. Alternatively, a second travel price with a unit of Km could be added to the price list.
 
 ### At cost
 When this pricing method is selected on the category price line that is linked to a sales price list, the price defaults for the category and unit combination only for the expense actual. For example, unbilled sales actuals for the expense transaction class. The unit price is set on the unbilled sales actual from the unit price on the cost actual for that expense. Price defaulting based on cost isn't done on project estimates for expenses or the quote line and contract line details for expenses.
