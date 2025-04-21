@@ -2,8 +2,8 @@
 title: Set up cost and sales rates for expenses
 description: This article provides information about how to set up the cost and sales rates for transaction and expense categories. 
 author: rumant
-ms.author: rumant
-ms.date: 09/12/2024
+ms.author: abriccetti
+ms.date: 04/21/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -48,6 +48,9 @@ When you set up category prices that are only relevant in the context of expense
 
 ### Price per unit
 When this pricing method is selected on a category price line that is linked to a sales price list, the price defaults for the category and unit combination in both the estimate and the actual. Estimate refers to the project estimate lines for expenses, the quote line detail, and the contract line detail for expenses.
+
+> [!NOTE]
+> For expense transactions, unit conversions aren't supported. For example, if a price list has a travel price with a unit of miles, then expenses must be expressed in miles and not kilometers even if the unit group has a conversion between them. Alternatively, a second travel price with a unit of kilometers could be added to the price list.
 
 ### At cost
 When this pricing method is selected on the category price line that is linked to a sales price list, the price defaults for the category and unit combination only for the expense actual. For example, unbilled sales actuals for the expense transaction class. The unit price is set on the unbilled sales actual from the unit price on the cost actual for that expense. Price defaulting based on cost isn't done on project estimates for expenses or the quote line and contract line details for expenses.
