@@ -2,7 +2,7 @@
 title: Install and configure the Dynamics 365 expense management mobile app 
 description: This article explains how to install and configure the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 02/04/2025
+ms.date: 04/23/2025
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mukumarm
@@ -25,8 +25,8 @@ This article explains how administrators can prepare your Microsoft Dynamics 365
 ## System requirements
 
 To run the Dynamics 365 expense management mobile app with the latest improvements, you must use the following versions of Microsoft Dynamics 365 Finance with the latest quality update (QU) or later.
-- 10.0.41 - 10.0.2015.129 or later
-- 10.0.42 - 10.0.2095.48 or later
+- 10.0.42 - 10.0.2095.147 or later
+- 10.0.43 - 10.0.2177.72 or later
   
 ## Set up Dataverse for your Dynamics 365 Finance environment
 
