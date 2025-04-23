@@ -2,7 +2,7 @@
 title: Install and configure the Dynamics 365 expense management mobile app 
 description: This article explains how to install and configure the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 02/04/2025
+ms.date: 04/23/2025
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mukumarm
