@@ -17,7 +17,6 @@ _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operation
 
 The Time Zone Independent Milestone Date feature ensures that milestone dates in the Project contract line milestone entity are consistent and not affected by the logged in user's local time zone, thereby improving billing accuracy of project based milestones.  
 
-
 ## Getting Started
 To enable the Time Zone Independent Milestone Date feature, follow these steps:
 
@@ -32,4 +31,4 @@ To enable the Time Zone Independent Milestone Date feature, follow these steps:
 3. New DW map version with TZ independent milestone date value can be used on F&O to sync over TZ independent milestone date. 
 
 ## Upgrade Impact
-Milestone date (TZ independent ) date value will be updated on existing milestones in the quote line and contract line entities when the user triggers an action on a related form or view. 
+Milestone date (TZ independent ) value will be updated on existing milestones in the quote line and contract line entities when the user triggers an action on a related form or view. 
