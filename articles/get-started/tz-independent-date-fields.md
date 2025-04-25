@@ -9,7 +9,7 @@ ms.custom:
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
-# Overview of time zone independent Milestone Date
+# Overview of Time zone independent Milestone Date
 
 _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
 
@@ -25,7 +25,7 @@ To enable the Time Zone Independent Milestone Date feature, follow these steps:
 2. Update Mapping: Use DW map version to 1.0.0.7 to use the milestone date (TZ independent ) date field in your F&O environment.
 
 
-## Feature Flag Behavior
+## Expected Behavior on enabling Feature Flag 
 
 1. All OOB forms and views currently using the Milestone date are updated with the TZ Independent Milestone date . This includes quote line and contract line entities.
 2. Both date values **msdyn_invoicedate** and **msdyn_milestonedate** are set, irrespective of the feature flag state.
