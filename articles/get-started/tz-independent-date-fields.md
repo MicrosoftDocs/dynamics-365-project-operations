@@ -21,12 +21,12 @@ The Time Zone Independent Milestone Date feature ensures that milestone dates in
 To enable the Time Zone Independent Milestone Date feature, follow these steps:
 
 1. Enable feature flag : Navigate to  **Settings** \> **Parameters** \> **Feature control** \> **Enable TZ Independent Milestone Date** 
-2. Update Mapping: Use DW map version to 1.0.0.7 to use the milestone date (TZ independent ) date field in your F&O environment.
+2. Update Mapping: Use Dual Write map version to 1.0.0.7 to use the milestone date (TZ independent ) date field in your F&O environment.
 
 
 ## Expected Behavior on enabling Feature Flag 
 
-1. All OOB forms and views currently using the Milestone date are updated with the TZ Independent Milestone date . This includes quote line and contract line entities.
+1. All Out of box (OOB) forms and views currently using the Milestone date are updated with the TZ Independent Milestone date . This includes quote line and contract line entities.
 2. Both date values **msdyn_invoicedate** and **msdyn_milestonedate** are set, irrespective of the feature flag state.
 3. New DW map version with TZ independent milestone date value can be used on F&O to sync over TZ independent milestone date. 
 
