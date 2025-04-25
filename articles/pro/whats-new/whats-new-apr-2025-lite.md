@@ -25,8 +25,8 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Time Entry |**Time Entry Agent** <br><br> This agent creates draft time entries for team members based on their project assignments, bookings or previous week's entries and allows them to review the entries through MS Teams. The agent can also generate external comments for all entries, enhanced by Outlook meeting details. Finally, team members will also receive alerts for missing submissions| (Docs page will be updated by 30th April) |
-| Approvals |**Approvals Agents** <br><br> This agent reviews submitted time, expense, and material usage entries and classifies them as "Ready for Approval" or "Needs review". The classification can assist project managers in making approvals decisions. The agent also includes an auto-approve mode where records marked as "Ready for approval" are automatically approved.| (Docs page will be updated by 30th April) |
+| Time Entry |**Time Entry Agent** <br><br> This agent creates draft time entries for team members based on their project assignments, bookings, or previous week's entries and allows them to review the entries through MS Teams. The agent can also generate external comments for all entries, enhanced by Outlook meeting details. Finally, team members will also receive alerts for missing submissions| (Docs page will be updated by April 30) |
+| Approvals |**Approvals Agents** <br><br> This agent reviews submitted time, expense, and material usage entries and classifies them as "Ready for Approval" or "Needs review". The classification can assist project managers in making approvals decisions. The agent also includes an auto approve mode where records marked as "Ready for approval" are automatically approved.| (Docs page will be updated by April 30) |
 | Actuals |**Corrections for entry journal actuals** <br><br> Actuals which were created via entry journals can now be corrected via our correction journal process.| |
 
 
@@ -37,20 +37,20 @@ This article applies to the following components and versions of Microsoft Dynam
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
 |Billing and Pricing|	3705088|	PostJournalLineCreate plugin prevents calculations if triggered by a custom code or workflow|
-|Billing and Pricing|	4213493|	Actuals created from journal lines are not invoiceable in multi customer scenarios|
-|Billing and Pricing|	4474308|	"Net 60" payment terms cannot be used on contract customers|
+|Billing and Pricing|	4213493|	Actuals created from journal lines aren't invoiceable in multi customer scenarios|
+|Billing and Pricing|	4474308|	"Net 60" payment terms can't be used on contract customers|
 |Billing and Pricing|	4560418|	Unable to confirm any invoice for a project contract and customer when NTE Validation is "Not Evaluated" on an actual included in another draft invoice|
 |Billing and Pricing|	4606728|	Unable to view milestones backlog in Billing Hub|
 |Billing and Pricing|	4655376|	Copy of price list copies the number of overrides (incorrectly)|
 |Billing and Pricing|	4693909|	Duplicate actuals exist when deleting confirmed invoices|
 |Billing and Pricing|	4826053|	Fields msdyn_basisprice and msdyn_basisprice_Base values are inconsistent with source values when Copying Entity if Cost Plus Pricing feature is enabled|
-|Budget Management|	4712410|	Missing budget sub-grid under the budget tab of the project record|
+|Budget Management|	4712410|	Missing budget subgrid under the budget tab of the project record|
 |Budget Management|	4829338|	Unable to see dropdown values in Transaction Category field|
-|Project Management and Resource Management|	4521947|	Soft booked hours are not displayed in Team Member grid when viewing "All team members"|
-|Project Management and Resource Management|	4536039|	Multiple Team member creation in parallel is failing when start and finish dates are provided|
-|Project Management and Resource Management|	4594360|	Schedule variance does not get updated when Allow Percent Complete is set to "No", and when a task is marked as completed|
+|Project Management and Resource Management|	4521947|	Soft booked hours aren't displayed in Team Member grid when viewing "All team members"|
+|Project Management and Resource Management|	4536039|	Multiple Team member creations in parallel fails when start and finish dates are provided|
+|Project Management and Resource Management|	4594360|	Schedule variance doesn't get updated when Allow Percent Complete is set to "No" and when a task is marked as completed|
 |Project Management and Resource Management|	4615336|	Project Copilot's Risk assessment capability fails with "exceeding maximum limit" error|
-|Project Management and Resource Management|	4616623|	Effort remaining for NTE projects does not update after journal creation|
+|Project Management and Resource Management|	4616623|	Effort remaining for NTE projects doesn't update after journal creation|
 |Project Management and Resource Management|	4795813|	Corrupted data may cause server to crash during data upgrade from PSA to Project Operations|
 |Sales|	3706647|	Error thrown "Parent field is hidden because related fields are missing in the form" in Project Information form for Products|
 |Sales|	4484560|	Null reference exception in CopyAddressFieldsFromCustomer when creating Project contract without customer|
@@ -59,7 +59,7 @@ This article applies to the following components and versions of Microsoft Dynam
 |Sales|	4547718|	Billing method on contract lines can be changed using the API|
 |Sales|	4556898|	Missing validations around Milestone Billing Status|
 |Sales|	4562863|	Remove validation to prevent adding customers with different currency than Contract currency|
-|Sales|	4622690|	Quote Recalculate button does not recalculate CostTotal for QuoteLine|
+|Sales|	4622690|	Quote Recalculate button doesn't recalculate CostTotal for QuoteLine|
 |Sales|	4625154|	Recalculate button does not work within Quotes and Contracts|
 |Sales|	4635324|	"Edit " action is missing on PBB milestone header.|
 |Sales|	4658525|	Error occurs during price override from Quote Line Detail (QLD)|
@@ -74,6 +74,6 @@ This article applies to the following components and versions of Microsoft Dynam
 |Subcontracting|	4593265|	Cost actual created from entry journal has billing status set to unbilled sales created when Vendor Invoice is canceled|
 |Subcontracting|	4593277|	Matching cost actuals created from an entry journal causes all resourcing unit  actuals (cost and inter org sales) from the same journal to be canceled|
 |Subcontracting|	4734590|	Incorrect Label on Revise Budget Dialog Box|
-|Subcontracting|	4789243|	Vendor is non-customizable and non-searchable in Subcontract entity|
+|Subcontracting|	4789243|	Vendor is noncustomizable and nonsearchable in Subcontract entity|
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
