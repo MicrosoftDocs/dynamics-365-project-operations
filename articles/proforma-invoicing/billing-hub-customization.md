@@ -24,7 +24,7 @@ The **Billing hub** view includes a nested grid that has contract and contract l
 To customize contract or contract line fields, follow these steps.
 
 1. From the admin portal, create a copy of the out-of-box **Billing hub (Contracts)** view by selecting **Save as**.
-1. Update the custom view with the required fields on the contract line.
+1. Update the custom view with the required fields on the contract or contract line.
 1. Save and publish the changes.
 1. Set the custom view as the default view.
 1. To revert to the out-of-box view at any point, remove active customizations from the custom view.
