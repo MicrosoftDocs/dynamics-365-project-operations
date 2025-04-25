@@ -46,6 +46,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Approvals |**Approvals Agents** <br><br> This agent reviews submitted time, expense, and material usage entries and classifies them as "Ready for Approval" or "Needs review". The classification can assist project managers in making approvals decisions. The agent also includes an auto-approve mode where records marked as "Ready for approval" are automatically approved.| |
 | Project Financials |**Use the modern architecture for existing legal entities with project data** <br><br> In the 10.0.43 release version of Finance & Operations, the "Use the modern architecture for existing legal entities with project data" feature lets you complete all existing transactions and close existing projects in the Project management and accounting module.| |
 | Project Financials |**Enable actuals validation to prevent invalid actuals** <br><br> This optional feature enables more validations for actuals records that are integrated from Microsoft Dataverse into the finance and operations infrastructure. This feature pre-validates the actuals before allowing records to be created during the import from staging process.| |
+| Project Financials |**Project Operations integration workspace** <br><br> This workspace helps you identify and address integration challenges that are related to vendor invoices and expenses, as well as logs for the integration journal and invoice proposals.| |
 
 ## Quality updates
 
