@@ -29,7 +29,12 @@ The following table shows the Dual-write maps that are modified or added in the 
 
 | **Entity map** | **Updated version** | **Comments** |
 | --- | --- | --- |
-| Project Operations integration contract line milestones (msdyn_contractlinescheduleofvalues) | 1.0.0.6 | Latest version updated |
+| Project contract lines (salesorderdetails) | 1.0.0.1 | Latest version updated  |
+| Project Operations integration entity for expense estimates (msdyn_estimatelines) | 1.0.0.3 | Latest version updated |
+| Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.5 | Latest version updated |
+| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.8 | Latest version updated |
+| Project Operations integration project vendor invoice export entity V2 (msdyn_projectvendorinvoices)| 1.0.0.1 | Latest version updated |
+
 
 For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
