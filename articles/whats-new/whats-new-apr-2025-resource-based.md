@@ -54,6 +54,47 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
+|Billing and Pricing|	3705088|	PostJournalLineCreate plugin prevents calculations if triggered by a custom code or workflow|
+|Sales|	3706647|	Error thrown "Parent field is hidden because related fields are missing in the form" in Project Information form for Products|
+|Billing and Pricing|	4183571|	Enforce standard dual-write limits on invoice confirmation on Dataverse|
+|Billing and Pricing|	4213493|	Actuals created from journal lines are not invoiceable in multi customer scenarios|
+|Subcontracting|	4382804|	 "Object reference not set to an instance of an object" error is thrown when closing quote as won|
+|Billing and Pricing|	4474308|	"Net 60" payment terms cannot be used on contract customers|
+|Sales|	4484560|	Null reference exception in CopyAddressFieldsFromCustomer when creating Project contract without customer|
+|Billing and Pricing|	4511680|	Block update to the transaction classification on invoice line detail|
+|Project Management and Resource Management|	4521947|	Soft booked hours are not displayed in Team Member grid when viewing "All team members"|
+|Sales|	4524407|	Delete button missing for multi-select quote line milestones|
+|Sales|	4529109|	Invoice schedule type is not redefaulted when billing method is updated on quote line|
+|Project Management and Resource Management|	4536039|	Multiple Team member creation in parallel is failing when start and finish dates are provided|
+|Sales|	4547718|	Billing method on contract lines can be changed using the API|
+|Sales|	4556898|	Missing validations around Milestone Billing Status|
+|Billing and Pricing|	4560418|	Unable to confirm any invoice for a project contract and customer when NTE Validation is "Not Evaluated" on an actual included in another draft invoice|
+|Sales|	4562863|	Remove validation to prevent adding customers with different currency than Contract currency|
+|Subcontracting|	4572320|	The label for the "New project Budget line" gets truncated, and the tooltip for this label is not accessible via keyboard|
+|Subcontracting|	4576878|	Disable Price Override button in the Cost grid|
+|Subcontracting|	4593265|	Cost actual created from entry journal has billing status set to unbilled sales created when Vendor Invoice is canceled|
+|Subcontracting|	4593277|	Matching cost actuals created from an entry journal causes all resourcing unit  actuals (cost and inter org sales) from the same journal to be canceled|
+|Project Management and Resource Management|	4594360|	Schedule variance does not get updated when Allow Percent Complete is set to "No", and when a task is marked as completed|
+|Billing and Pricing|	4606728|	Unable to view milestones backlog in Billing Hub|
+|Project Management and Resource Management|	4615336|	Project Copilot's Risk assessment capability fails with "exceeding maximum limit" error|
+|Project Management and Resource Management|	4616623|	Effort remaining for NTE projects does not update after journal creation|
+|Sales|	4622690|	Quote Recalculate button does not recalculate CostTotal for QuoteLine|
+|Sales|	4625154|	Recalculate button does not work within Quotes and Contracts|
+|Sales|	4635324|	"Edit " action is missing on PBB milestone header.|
+|Billing and Pricing|	4655376|	Copy of price list copies the number of overrides (incorrectly)|
+|Sales|	4658525|	Error occurs during price override from Quote Line Detail (QLD)|
+|Billing and Pricing|	4693909|	Duplicate actuals exist when deleting confirmed invoices|
+|Sales|	4700320|	Missing Dark Mode Support for Quote Form|
+|Sales|	4702463|	Sales quote line details' currency can be changed to one that's not the quote's currency|
+|Budget Management|	4712410|	Missing budget sub-grid under the budget tab of the project record|
+|Subcontracting|	4734590|	Incorrect Label on Revise Budget Dialog Box|
+|Sales|	4769859|	The currency of cost price doesn't get updated from price list while updating role of quote or contract line details|
+|Sales|	4788954|	Unable to Seach Contract Line using the Name when Associating to a Task on a Project|
+|Subcontracting|	4789243|	Vendor is non-customizable and non-searchable in Subcontract entity|
+|Sales|	4789878|	Invoice Schedules Grid shows For Fixed Price Quote Lines|
+|Project Management and Resource Management|	4795813|	Corrupted data may cause server to crash during data upgrade from PSA to Project Operations|
+|Billing and Pricing|	4826053|	Fields msdyn_basisprice and msdyn_basisprice_Base values are inconsistent with source values when Copying Entity if Cost Plus Pricing feature is enabled|
+|Budget Management|	4829338|	Unable to see dropdown values in Transaction Category field|
 
 ### Project management and accounting in Finance
 
