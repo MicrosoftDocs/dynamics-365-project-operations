@@ -71,7 +71,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 |Budget Management|	4712410|	Missing budget sub-grid under the budget tab of the project record.|
 |Budget Management|	4829338|	Unable to see dropdown values in Transaction Category field.|
 |Project Management and Resource Management|	4521947|	Soft booked hours aren't displayed in Team Member grid when viewing "All team members."|
-|Project Management and Resource Management|	4536039|	Multiple Team member creation in parallel fails when start and finish dates are provided.|
+|Project Management and Resource Management|	4536039|	Multiple Team member creation in parallel fail when start and finish dates are provided.|
 |Project Management and Resource Management|	4594360|	Schedule variance doesn't get updated when Allow Percent Complete is set to "No", and when a task is marked as completed.|
 |Project Management and Resource Management|	4615336|	Project Copilot's Risk assessment capability fails with "exceeding maximum limit" error.|
 |Project Management and Resource Management|	4616623|	Effort remaining for NTE projects doesn't update after journal creation.|
