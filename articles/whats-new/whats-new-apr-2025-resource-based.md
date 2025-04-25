@@ -56,4 +56,4 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 ### Project management and accounting in Finance
 
-For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=971730&dbType=3&qc=10e8ad5ad029bad3a0c2faa0e2dfc5d699a64ad8bfd2d1af37a5a02bb5800efa).
+For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=988112&dbType=3&qc=43dd064fcfe4d60f5434aafc5c6c738ffe2c57da200521808114fae9ff567a68).
