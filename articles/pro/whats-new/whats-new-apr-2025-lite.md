@@ -27,7 +27,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | --- | --- | --- |
 | Time Entry |**Time Entry Agent** <br><br> This agent creates draft time entries for team members based on their project assignments, bookings, or previous week's entries and allows them to review the entries through Microsoft Teams. The agent can also generate external comments for all entries, enhanced by Outlook meeting details. Finally, team members receive alerts for missing submissions. |  |
 | Approvals |**Approvals Agents** <br><br> This agent reviews submitted time, expense, and material usage entries and classifies them as "Ready for Approval" or "Needs review." The classification can assist project managers in making approvals decisions. The agent also includes an automatic approve mode where records marked as "Ready for approval" are automatically approved.|  |
-| Actuals |**Corrections for entry journal actuals** <br><br> Actuals that were created via entry journals can now be corrected via the correction journal process.|  |
+| Actuals |**Corrections for entry journal actuals** <br><br> Actuals that were created via entry journals can be corrected via the correction journal process.|  |
 
 
 ## Quality updates
