@@ -44,10 +44,10 @@ A new "Time and Approvals Agent" role has been created to provide the agent user
 3. Select the agent user to which you want to assign this role.
 4. Select **Manage roles** and select the *Time and Approval Agent* check box from the list. Click **Save**.
 
-The agent user now has the necessary privileges to log in to view the Power Automate Flows that must be enabled in the next step of this process.
-
 > [!IMPORTANT]
 > The role assignment step is only necessary if a new agent user is being created to enable the Time Entry Agent. This step must be repeated for every new environment on which the Time Entry Agent is being enabled, even if the same user is being used across them. The role assignment step is not required if an existing system administrator user is being used instead of a new agent user.
+
+The agent user now has the necessary privileges to log in to view the Power Automate Flows that must be enabled in the next step of this process.
 
 ## Initiate Power Automate Flows
 
@@ -57,6 +57,8 @@ The Time Entry Agent has been given the ability to perform a series of actions (
 2. Select **Solutions** from the menu on the left.
 3. Click **Project Service Agent** to view more details about this solution.
 4. You may either navigate to the **Cloud Flows** section of the menu or filter under **All** using the **Type** column where Type must contain the value _"Cloud Flow"_.
+
+:::image type="content" source="../media/filterflows.png" alt-text="Screenshot that shows how to filter Cloud Flows from Solution page.":::
 
 There are **12** Power Automate flows (cloud flows) that must be initiated in this order (starting from number 1 to 12).
 1. Create or Update User Configuration for Time Entry Copilot
