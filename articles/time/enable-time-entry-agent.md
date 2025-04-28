@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d44f19d1-7823-450a-a10a-c090411d4088)---
+---
 title: Enable the Time Entry Agent 
 description: This article explains how system administrators can enable the Time Entry Agent on one or more environments in their organisation.
 author: mohitmenon
@@ -83,11 +83,15 @@ Each flow has a similar sequence of steps that need to be completed, before movi
 - A flow may have one or more **Connection references** marked in red that may require authentication. To do so, select **Fix connection** and proceed to sign in with the agent user/assigned admin user credentials.
 - Once all connection references (if multiple) are authenticated (with a green tick), you may proceed to **Save** the flow.
 :::image type="content" source="../media/3authenticatedconnectionreferenceexample.png" alt-text="Screenshot that shows all connection references in green or authenticated.":::
+
 :::image type="content" source="../media/4savedflowreadytogo.png" alt-text="Screenshot that shows all connection references in green or authenticated.":::
+
 - After saving, use the arrow button to navigate back to the flow details. Finally, select **Turn ON** to activate the flow.
 :::image type="content" source="../media/5turnonflow.png" alt-text="Screenshot that showing the turn on button for a flow.":::
+
 - Wait a few seconds after selecting this, until the "Turn off" option is visible. This implies that the flow has now been activated or turned on.
 :::image type="content" source="../media/6turnoffvisible.png" alt-text="Screenshot showing the turn off button visible, implies that flow is ON.":::
+
 - Now close the current tab and switch back to the tab where the Cloud Flows within Project Service Agent solution were visible.
 - Continue the same process with the next flow, based on the order listed above.
 
