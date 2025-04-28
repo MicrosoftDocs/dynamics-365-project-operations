@@ -27,7 +27,7 @@ Each step has been described in detail below.
 
 ## Create your organisation's Agent user 
 
-While this step is **not mandatory**, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. Alternatively, if your organisation already has a dedicated user for similar purposes, with the **System Administrator** role assigned then you may skip this step and go directly to the next section: **Activate Power Automate Flows for your agent**.
+While this step is **not mandatory**, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. Alternatively, if your organisation already has a dedicated user for similar purposes, with the **System Administrator** role assigned then you may skip this step and go directly to the next section: [**Activate Power Automate Flows for your agent**](enable-time-entry-agent.md#initiate-power-automate-flows).
 
 To continue with creating a dedicated agent user, complete this process by navigating to [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) and following steps documented in the [Dataverse User Creation Guide](https://learn.microsoft.com/en-us/power-platform/admin/create-users). 
 
