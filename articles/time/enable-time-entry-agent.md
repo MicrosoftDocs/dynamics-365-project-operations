@@ -122,14 +122,27 @@ To publish the agent, follow these steps.
 1. Select **Agents** from the menu on the left (If this option isn't visible, try **More**->**Agents**).
 1. Under **All**, click **Time Entry Agent (Preview)**. This will open a new tab for this agent on Microsoft Copilot Studio.
 1. You may see a **Consent confirmation** message on the right, under _Test your agent_ section. Hit **Confirm** here.
-1. Click **Publish** to publish this agent bot first. A pop-up window may appear to inform you of some "potential risks", view them and select **Publish**.
-
+1. Click **Publish** to publish this agent bot first. A pop-up window may appear to inform you of some "potential risks", view them and select **Publish**. 
 :::image type="content" source="../media/publishingagent.png" alt-text="Screenshot showing agent publish is in progress.":::
+
+### Make Teams app available to users
 1. Once publishing is complete, navigate to the **Channels** tab of the agent. Select **Teams + Microsoft 365**.
 1. A pop-up window appears, where you may **uncheck** "Make agent available in Microsoft 365 Copilot Chat" and then select **Add channel**.
 1. A confirmation message that says _"The channel was added"_ should show on top of the screen.
 1. Now, to make this agent available to end users (team members) as a Teams app - select **Availability Options**. Under "Show in the store", you can select **Show to everyone in my org** to make this available across a broader audience.
 1. If the system administrator user being used so far is not a **Global Administrator** then they must select **Submit for admin approval**. A Global Administrator's approval will be required to share the agent as a Teams app to users in this organisation.
+
+### Get approval from Global Administrator
+- Log in with global administrator credentials to [Teams Admin Center](https://admin.teams.microsoft.com).
+- Navigate to **Teams apps** -> **Manage apps**
+- Search for "Time Entry Agent" under **All apps** section. This will show up as having **Blocked** status.
+- Select **Publish**. 
+- Next, navigate to **Teams apps** -> **Setup policies**.
+- Select **Global (org-wide default)** and click **Add apps**.
+- Search for "Time Entry Agent (Preview) and add this app, then click **Save**.
+
+Team members in your organisation will now be able to view and use the Time Entry Agent, in the form of a Teams app. Refer to the next section for how team members can start using the agent.
+
  
 
 
