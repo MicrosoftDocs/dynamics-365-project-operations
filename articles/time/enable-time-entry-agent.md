@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 The Time Entry Agent is available as a **Production Ready Preview** on Dynamics 365 Project Operations environments with **version 4.140.0.239 or higher**. This feature must first be enabled on Project Operations environments by system administrators, before being available for use by team members to log their time entries. The following steps must be completed to enable the feature:
 - Create your organisation's Agent user (**optional**, but recommended step)
-- Initiate Power Automate Flows in sequence (this gives the agent the ability to complete certain actions on behalf of team members)
+- Initiate Power Automate Flows required by the agent (this gives the agent the ability to complete certain actions on behalf of team members)
 - Enable the "Time and Expense Agent" feature flag 
 - Publish the Agent from Microsoft Copilot Studio to users in your organisation
 
@@ -49,7 +49,7 @@ A new "Time and Approvals Agent" role has been created to provide the agent user
 
 The agent user now has the necessary privileges to log in to view the Power Automate Flows that must be enabled in the next step of this process.
 
-## Initiate Power Automate Flows
+## Initiate Power Automate Flows required by the agent
 
 The Time Entry Agent has been given the ability to perform a series of actions (like creating time entries, sending team members alerts, etc). Each of these actions requires one or more Power Automate Flows to be initiated and turned on to work smoothly. To view and initiate these flows, follow these steps.
 
