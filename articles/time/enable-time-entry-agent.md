@@ -20,7 +20,7 @@ The Time Entry Agent is available as a **Production Ready Preview** on Dynamics 
 - Create your organisation's Agent user (**optional**, but recommended step)
 - Initiate Power Automate Flows in sequence (this gives the agent the ability to complete certain actions on behalf of team members)
 - Enable the "Time and Expense Agent" feature flag 
-- Publish the Agent to users in your organisation
+- Publish the Agent from Microsoft Copilot Studio to users in your organisation
 
 Each step has been described in detail below.
 
