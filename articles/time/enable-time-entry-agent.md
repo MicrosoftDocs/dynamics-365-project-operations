@@ -64,7 +64,7 @@ The Time Entry Agent has been given the ability to perform a series of actions (
 ### Steps to be followed for each flow
 
 There are **12** Power Automate flows (cloud flows) that must be **activated in this order** _(starting from number 1 to 12)_.
-1. Create or Update User Configuration for Time Entry Copilot
+_1. Create or Update User Configuration for Time Entry Copilot
 2. Get Time Entries
 3. Filter Duplicates
 4. Import from Sources and Filter _(Parent of Flow 3)_
@@ -75,7 +75,7 @@ There are **12** Power Automate flows (cloud flows) that must be **activated in 
 9. Time Agent Periodic Import _(Parent of Flow 8)_
 10. Generate External Comments
 11. Send Missing Time Entries Alert
-12. Generate External Comments and Send Missing Time Entries Alert _(Parent of Flow 11)_
+12. Generate External Comments and Send Missing Time Entries Alert _(Parent of Flow 11)__
 
 Each flow has a similar sequence of steps that need to be completed, before moving to the next flow. These steps are:
 1. Open the Power Automate Flow by selecting it and click **Edit**.
