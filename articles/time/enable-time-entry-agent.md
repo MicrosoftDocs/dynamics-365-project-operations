@@ -1,5 +1,5 @@
 ---
-title: Enable the Time Entry Agent 
+title: Enable the Time Entry Agent (Production Ready Preview)
 description: This article explains how system administrators can enable the Time Entry Agent on one or more environments in their organisation.
 author: mohitmenon
 ms.date: 04/28/2025
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Enable Time Entry Agent on an environment
+# Enable Time Entry Agent (Production Ready Preview) on an environment
 
 [!INCLUDE[banner](../includes/banner.md)]
 
@@ -82,8 +82,7 @@ Each flow has a similar sequence of steps that need to be completed, before movi
 - Switch to **Old Designer** using the toggle on the top-right, if the New Designer is selected by default. _(You may be shown a pop-up asking to save your flow before switching. You can select "Switch without saving" and continue)_
 - A flow may have one or more **Connection references** marked in red that may require authentication. To do so, select **Fix connection** and proceed to sign in with the agent user/assigned admin user credentials.
 - Once all connection references (if multiple) are authenticated (with a green tick), you may proceed to **Save** the flow.
-:::image type="content" source="../media/3authenticatedconnectionreferenceexample.png" alt-text="Screenshot that shows all connection references in green or authenticated.":::
-
+:::image type="content" source="../media/3authenticatedconnectionreferenceexample.png" alt-text="Screenshot that shows all connection references in green or authenticated."::: 
 :::image type="content" source="../media/4savedflowreadytogo.png" alt-text="Screenshot that shows all connection references in green or authenticated.":::
 
 - After saving, use the arrow button to navigate back to the flow details. Finally, select **Turn ON** to activate the flow.
@@ -97,6 +96,23 @@ Each flow has a similar sequence of steps that need to be completed, before movi
 
 Once these steps have been completed for all 12 flows, the agent user or admin user may proceed to the next step of enabling the feature flag.
 
-## Enable Time and Expense Agent feature flag
+> [!IMPORTANT]
+> Ensure that all flows are in the "ON" state at the end of these steps. If any one of the flows is still not "ON", this may lead to the Time Entry Agent not functioning as expected.
 
+
+## Enable Time and Expense Agent feature 
+
+To enable the feature, follow these steps.
+
+1. Sign in to Microsoft Dynamics 365 Project Operations.
+1. Ensure that you're using Project Operations version **__4.140.0.X__ or later**. 
+1. On the left navigation, change the area to **Settings**.
+1. In the **General** section, select **Parameters**.
+1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
+1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
+1. Select **Enable Time and Expense Agent (Production Ready Preview)**, and then select **OK**.
+
+## Publish the agent from Microsoft Copilot Studio
+
+Now that you've initiated all the Power Automate Flows and enabled the feature parameter, the last step for an administrator is to publish the agent to users in your organisation from Microsoft Copilot Studio.
 
