@@ -2,7 +2,7 @@
 title: Customize the Billing hub view for creating project-based proforma invoices
 description: Learn how to customize Billing hub so that you can create project-based proforma invoices.
 author: suvaidya
-ms.date: 02/14/2025
+ms.date: 02/28/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
