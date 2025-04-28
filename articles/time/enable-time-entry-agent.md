@@ -80,8 +80,9 @@ There are **12** Power Automate flows (cloud flows) that must be initiated in th
 Each flow has a similar sequence of steps that need to be completed, before moving to the next flow. These steps are:
 1 Open the Power Automate Flow by selecting it and click **Edit**.
 1 This will open a new tab with details of the Power Automate flow.
-1 Switch to **Old Designer** using the toggle on the top-right, if the New Designer is selected by default. _(You may be shown a pop-up asking to save your flow before switching. You can select "Switch without saving" and continue)_
-1 A flow may have one or more **Connection references** marked in red that may require authentication. To do so, select **Fix connection** and proceed to sign in with the agent user/assigned admin user credentials.
+1 A flow may have one or more **Connection references** marked in red that may require authentication. To do so, switch to **Old Designer** using the toggle on the top-right, if the New Designer is selected by default. _(You may be shown a pop-up asking to save your flow before switching. You can select "Switch without saving" and continue)_ 
+1 Select **Fix connection** and proceed to sign in with the agent user/assigned admin user credentials.
+
 1 Once all connection references (if multiple) are authenticated (with a green tick), you may proceed to **Save** the flow.
 :::image type="content" source="../media/3authenticatedconnectionreferenceexample.png" alt-text="Screenshot that shows all connection references in green or authenticated."::: 
 :::image type="content" source="../media/4savedflowreadytogo.png" alt-text="Screenshot that shows that the flow has been saved.":::
@@ -121,8 +122,15 @@ To publish the agent, follow these steps.
 1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com) and select the desired environment from the environment picker on the top-right.
 1. Select **Agents** from the menu on the left (If this option isn't visible, try **More**->**Agents**).
 1. Under **All**, click **Time Entry Agent (Preview)**. This will open a new tab for this agent on Microsoft Copilot Studio.
-:::image type="content" source="../media/timentryagentpowerapps.png" alt-text="Screenshot showing the Time Entry Agent bot in Power Apps.":::
-1. Click **Publish** to publish this agent bot first.
-:::image type="content" source="../media/agentteamschannel.png" alt-text="Screenshot showing the Time Entry Agent bot in Power Apps.":::
+1. You may see a **Consent confirmation** message on the right, under _Test your agent_ section. Hit **Confirm** here.
+1. Click **Publish** to publish this agent bot first. A pop-up window may appear to inform you of some "potential risks", view them and select **Publish**.
+
+:::image type="content" source="../media/publishingagent.png" alt-text="Screenshot showing agent publish is in progress.":::
+1. Once publishing is complete, navigate to the **Channels** tab of the agent. Select **Teams + Microsoft 365**.
+1. A pop-up window appears, where you may **uncheck** "Make agent available in Microsoft 365 Copilot Chat" and then select **Add channel**.
+1. A confirmation message that says _"The channel was added"_ should show on top of the screen.
+1. Now, to make this agent available to end users (team members) as a Teams app - select **Availability Options**. Under "Show in the store", you can select **Show to everyone in my org** to make this available across a broader audience.
+ 
+
 
 
