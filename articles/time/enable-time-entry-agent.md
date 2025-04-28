@@ -25,7 +25,7 @@ The Time Entry Agent is now available as a **Production Ready Preview** for Dyna
 
 ## Create your organisation's Agent user
 
-While this step is not mandatory, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. Alternatively, you may skip this step if your organisation already has a dedicated user with the System Administrator role assigned. If this is your preferred approach, then skip to the next section to **Activate Power Automate Flows for your agent**.
+While this step is not mandatory, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. Alternatively, if your organisation already has a dedicated user with the System Administrator role assigned then you may skip this step and go directly to the next section: **Activate Power Automate Flows for your agent**.
 
 To continue with creating a dedicated agent user, complete this process from the [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) by following the [Dataverse User Creation Guide](https://learn.microsoft.com/en-us/power-platform/admin/create-users). 
 
