@@ -60,6 +60,8 @@ The Time Entry Agent has been given the ability to perform a series of actions (
 
 :::image type="content" source="../media/filterflows.png" alt-text="Screenshot that shows how to filter Cloud Flows from Solution page.":::
 
+### Steps to be followed for each flow
+
 There are **12** Power Automate flows (cloud flows) that must be initiated in this order (starting from number 1 to 12).
 1. Create or Update User Configuration for Time Entry Copilot
 2. Get Time Entries
@@ -74,17 +76,15 @@ There are **12** Power Automate flows (cloud flows) that must be initiated in th
 11. Send Missing Time Entries Alert
 12. Generate External Comments and Send Missing Time Entries Alert _(Parent of Flow 11)_
 
-### Steps to be followed for each flow
-
 Each flow has a similar sequence of steps that need to be completed, before moving to the next flow. These steps are:
 - Open the Power Automate Flow by selecting it and click **Edit**.
 - This will open a new tab with details of the Power Automate flow.
 - Switch to **Old Designer** if the New Designer is selected by default. _(You may be shown a pop-up asking to save your flow before switching. You can select "Switch without saving" and continue)_
 - A flow may have one or more **Connection references** that may require authentication using credentials. To do so, select **Fix connection** and proceed to sign in with the agent user/assigned admin user credentials.
 - Once all connection references (if multiple) are authenticated (with a green tick), you may proceed to **Save** the flow.
-- Finally, select **Turn ON** to activate the flow.
+- After saving, use the arrow button to navigate back to the flow details. Finally, select **Turn ON** to activate the flow.
 - Wait a few seconds after selecting this, until the "Turn off" option is visible. This implies that the flow has now been activated or turned on.
-- Now switch back to the tab where the Cloud Flows within Project Service Agent solution were visible.
-- Continue the same process with the next flow, in the order listed above.
+- Now close the current tab and switch back to the tab where the Cloud Flows within Project Service Agent solution were visible.
+- Continue the same process with the next flow, based on the order listed above.
 
 
