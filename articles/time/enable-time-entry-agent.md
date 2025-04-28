@@ -68,3 +68,15 @@ There are **12** Power Automate flows (cloud flows) that must be initiated in th
 10. Generate External Comments
 11. Send Missing Time Entries Alert
 12. Generate External Comments and Send Missing Time Entries Alert _(Parent of Flow 11)_
+
+### Steps to be followed for each flow
+
+Each flow has a similar sequence of steps that need to be completed, before moving to the next flow. These steps are:
+- Open the Power Automate Flow by selecting it and click **Edit**.
+- This will open a new tab with details of the Power Automate flow.
+- Switch to **Old Designer** if the New Designer is selected by default. _(You may be shown a pop-up asking to save your flow before switching. You can select "Switch without saving" and continue)_
+- A flow may have one or more **Connection references** that may require authentication using credentials. To do so, select **Fix connection** and proceed to sign in with the agent user/assigned admin user credentials.
+- Once all connection references (if multiple) are authenticated (with a green tick), you may proceed to **Save** the flow.
+- Finally, select **Turn ON** to activate the flow.
+- Wait a few seconds after selecting this, until the "Turn off" option is visible. This implies that the flow has now been activated or turned on.
+- Now switch back to the tab where the Cloud Flows within Project Service Agent solution were visible.
