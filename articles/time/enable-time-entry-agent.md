@@ -18,7 +18,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 The Time Entry Agent is available as a **Production Ready Preview** on Dynamics 365 Project Operations environments with **version 4.140.0.239 or higher**. This feature must first be enabled on Project Operations environments by system administrators, before being available for use by team members to log their time entries. The following steps must be completed to enable the feature:
 - Create your organisation's Agent user (**optional**, but recommended step)
-- Initiate Power Automate Flows required by the agent (this gives the agent the ability to complete certain actions on behalf of team members)
+- Activate Power Automate Flows required by the agent (this gives the agent the ability to complete certain actions on behalf of team members)
 - Enable the "Time and Expense Agent" feature flag 
 - Publish the Agent from Microsoft Copilot Studio to users in your organisation
 
@@ -27,7 +27,7 @@ Each step has been described in detail below.
 
 ## Create your organisation's Agent user 
 
-While this step is **not mandatory**, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. Alternatively, if your organisation already has a dedicated user for similar purposes, with the **System Administrator** role assigned then you may skip this step and go directly to the next section: [**Initiate Power Automate Flows for your agent**](enable-time-entry-agent.md#initiate-power-automate-flows).
+While this step is **not mandatory**, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. Alternatively, if your organisation already has a dedicated user for similar purposes, with the **System Administrator** role assigned then you may skip this step and go to the next section: **Initiate Power Automate Flows for your agent**.
 
 To continue with creating a dedicated agent user, complete this process by navigating to [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) and following steps documented in the [Dataverse User Creation Guide](https://learn.microsoft.com/en-us/power-platform/admin/create-users). 
 
@@ -49,14 +49,15 @@ A new "Time and Approvals Agent" role has been created to provide the agent user
 
 The agent user now has the necessary privileges to log in to view the Power Automate Flows that must be enabled in the next step of this process.
 
-## Initiate Power Automate Flows required by the agent
+## Activate Power Automate Flows required by the agent
 
 The Time Entry Agent has been given the ability to perform a series of actions (like creating time entries, sending team members alerts, etc). Each of these actions requires one or more Power Automate Flows to be initiated and turned on to work smoothly. To view and initiate these flows, follow these steps.
 
-1. Navigate to [Power Automate](https://make.powerautomate.com) and select the desired environment from the picker.
-2. Select **Solutions** from the menu on the left.
-3. Click **Project Service Agent** to view more details about this solution.
-4. You may either navigate to the **Cloud Flows** section of the menu or filter under **All** using the **Type** column where Type must contain the value _"Cloud Flow"_.
+1. Sign in to [Power Automate](https://make.powerautomate.com) using the agent user or dedicated system administrator's credentials.
+2. Select the desired environment from the picker.
+3. Select **Solutions** from the menu on the left.
+4. Click **Project Service Agent** to view more details about this solution.
+5. You may either navigate to the **Cloud Flows** section of the menu or filter under **All** using the **Type** column where Type must contain the value _"Cloud Flow"_.
 
 :::image type="content" source="../media/filterflows.png" alt-text="Screenshot that shows how to filter Cloud Flows from Solution page.":::
 
@@ -77,34 +78,30 @@ There are **12** Power Automate flows (cloud flows) that must be initiated in th
 12. Generate External Comments and Send Missing Time Entries Alert _(Parent of Flow 11)_
 
 Each flow has a similar sequence of steps that need to be completed, before moving to the next flow. These steps are:
-- Open the Power Automate Flow by selecting it and click **Edit**.
-- This will open a new tab with details of the Power Automate flow.
-- Switch to **Old Designer** using the toggle on the top-right, if the New Designer is selected by default. _(You may be shown a pop-up asking to save your flow before switching. You can select "Switch without saving" and continue)_
-- A flow may have one or more **Connection references** marked in red that may require authentication. To do so, select **Fix connection** and proceed to sign in with the agent user/assigned admin user credentials.
-- Once all connection references (if multiple) are authenticated (with a green tick), you may proceed to **Save** the flow.
+1 Open the Power Automate Flow by selecting it and click **Edit**.
+1 This will open a new tab with details of the Power Automate flow.
+1 Switch to **Old Designer** using the toggle on the top-right, if the New Designer is selected by default. _(You may be shown a pop-up asking to save your flow before switching. You can select "Switch without saving" and continue)_
+1 A flow may have one or more **Connection references** marked in red that may require authentication. To do so, select **Fix connection** and proceed to sign in with the agent user/assigned admin user credentials.
+1 Once all connection references (if multiple) are authenticated (with a green tick), you may proceed to **Save** the flow.
 :::image type="content" source="../media/3authenticatedconnectionreferenceexample.png" alt-text="Screenshot that shows all connection references in green or authenticated."::: 
-:::image type="content" source="../media/4savedflowreadytogo.png" alt-text="Screenshot that shows all connection references in green or authenticated.":::
+:::image type="content" source="../media/4savedflowreadytogo.png" alt-text="Screenshot that shows that the flow has been saved.":::
 
-- After saving, use the arrow button to navigate back to the flow details. Finally, select **Turn ON** to activate the flow.
+1 After saving, use the arrow button to navigate back to the flow details. Finally, select **Turn ON** to activate the flow.
 :::image type="content" source="../media/5turnonflow.png" alt-text="Screenshot that showing the turn on button for a flow.":::
 
-- Wait a few seconds after selecting this, until the "Turn off" option is visible. This implies that the flow has now been activated or turned on.
+1 Wait a few seconds after selecting this, until the "Turn off" option is visible. This implies that the flow has now been activated or turned on.
 :::image type="content" source="../media/6turnoffvisible.png" alt-text="Screenshot showing the turn off button visible, implies that flow is ON.":::
 
-- Now close the current tab and switch back to the tab where the Cloud Flows within Project Service Agent solution were visible.
-- Continue the same process with the next flow, based on the order listed above.
+1 Now close the current tab and switch back to the tab where the Cloud Flows within Project Service Agent solution were visible.
+1 Continue the same process with the next flow, based on the order listed above.
 
 Once these steps have been completed for all 12 flows, the agent user or admin user may proceed to the next step of enabling the feature flag.
-
-> [!IMPORTANT]
-> Ensure that all flows are in the "ON" state at the end of these steps. If any one of the flows is still not "ON", this may lead to the Time Entry Agent not functioning as expected.
-
 
 ## Enable Time and Expense Agent feature 
 
 To enable the feature, follow these steps.
 
-1. Sign in to Microsoft Dynamics 365 Project Operations.
+1. Sign in to Microsoft Dynamics 365 Project Operations using a system administrator.
 1. Ensure that you're using Project Operations version **__4.140.0.X__ or later**. 
 1. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
@@ -115,4 +112,17 @@ To enable the feature, follow these steps.
 ## Publish the agent from Microsoft Copilot Studio
 
 Now that you've initiated all the Power Automate Flows and enabled the feature parameter, the last step for an administrator is to publish the agent to users in your organisation from Microsoft Copilot Studio.
+
+> [!IMPORTANT]
+> Before beginning this step, ensure that all flows are in the "ON" state at the end of these steps. If any one of the flows is still not "ON", this may lead to the Time Entry Agent not functioning as expected. If the "Create or Update User Configuration for Time Entry Copilot" flow is OFF, the agent cannot even be published.
+
+To publish the agent, follow these steps.
+
+1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com) and select the desired environment from the environment picker on the top-right.
+1. Select **Agents** from the menu on the left (If this option isn't visible, try **More**->**Agents**).
+1. Under **All**, click **Time Entry Agent (Preview)**. This will open a new tab for this agent on Microsoft Copilot Studio.
+:::image type="content" source="../media/timentryagentpowerapps.png" alt-text="Screenshot showing the Time Entry Agent bot in Power Apps.":::
+1. Click **Publish** to publish this agent bot first.
+:::image type="content" source="../media/agentteamschannel.png" alt-text="Screenshot showing the Time Entry Agent bot in Power Apps.":::
+
 
