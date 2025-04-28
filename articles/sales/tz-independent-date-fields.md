@@ -17,7 +17,7 @@ _**Applies To:** Lite deployment - deal to proforma invoicing, Project Operation
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-The Time Zone Independent Milestone Date feature ensures that milestone dates in the Project contract line milestone entity are consistent and not affected by the logged in user's local time zone. Enabling this feature helps improve billing accuracy of project based milestones.  
+The Time Zone Independent Milestone Date feature ensures that milestone dates in the Project contract line milestone entity are consistent and not affected by the logged in user's local time zone (TZ). Enabling this feature helps improve billing accuracy of project based milestones.  
 
 ## Get started
 
@@ -31,12 +31,12 @@ To enable the Time Zone Independent Milestone Date feature, follow these steps.
 
 The following list shows the expected behaviors after you enable the Time Zone Independent Milestone Date feature.
 
-- All Out of box (OOB) forms and views currently using the Milestone date are updated with the TZ Independent Milestone date . This includes quote line and contract line entities.
+- All out-of-the-box (OOB) forms and views currently using the Milestone date are updated with the TZ Independent Milestone date. Quote line and contract line entities are also updated.
 - Both date values **msdyn_invoicedate** and **msdyn_milestonedate** are set, irrespective of the feature flag state.
-- New DW map version with TZ independent milestone date value can be used on F&O to sync over TZ independent milestone date. 
+- New Dual-write map version with TZ independent milestone date value can be used on finance and operations apps to sync over TZ independent milestone date. 
 
 ## Upgrade impact
 
 The Milestone date (TZ independent) value is updated on existing milestones in the quote line and contract line entities when the user triggers an action on a related form or view. 
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
