@@ -2,7 +2,7 @@
 title: Use time zone independent date fields
 description: Learn about time zone independent date fields and their behavior in the context of Project Operations
 author: suvaidya
-ms.date: 03/26/2025
+ms.date: 04/28/2025
 ms.topic: how-to
 ms.custom: 
 - bap-template
