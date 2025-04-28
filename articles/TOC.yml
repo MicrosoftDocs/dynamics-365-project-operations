@@ -234,8 +234,6 @@
         href: sales/sales-currency.md
       - name: Organizational units
         href: sales/OrgUnits.md
-      - name: Use time zone independent date fields
-        href: sales/tz-independent-date-fields.md
     - name: Manage project-based leads
       href: sales/manage-leads.md
     - name: Manage project-based opportunities
@@ -1060,8 +1058,6 @@
         href: sales/sales-currency.md
       - name: Organizational units
         href: sales/OrgUnits.md
-      - name: Use time zone independent date fields
-        href: sales/tz-independent-date-fields.md
     - name: Manage project leads 
       href: pro/sales/managing-leads-sales.md
     - name: Manage project opportunities
