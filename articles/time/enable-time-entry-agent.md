@@ -63,7 +63,7 @@ The Time Entry Agent has been given the ability to perform a series of actions (
 
 ### Steps to be followed for each flow
 
-There are **12** Power Automate flows (cloud flows) that must be **activated in this order ** _(starting from number 1 to 12)_.
+There are **12** Power Automate flows (cloud flows) that must be **activated in this order** _(starting from number 1 to 12)_.
 1. Create or Update User Configuration for Time Entry Copilot
 2. Get Time Entries
 3. Filter Duplicates
