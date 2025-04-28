@@ -46,6 +46,9 @@ A new "Time and Approvals Agent" role has been created to provide the agent user
 
 The agent user now has the necessary privileges to log in to view the Power Automate Flows that must be enabled in the next step of this process.
 
+> [!IMPORTANT]
+> The role assignment step is only necessary if a new agent user is being created to enable the Time Entry Agent. This step must be repeated for every new environment on which the Time Entry Agent is being enabled, even if the same user is being used across them. The role assignment step is not required if an existing system administrator user is being used instead of a new agent user.
+
 ## Initiate Power Automate Flows
 
 The Time Entry Agent has been given the ability to perform a series of actions (like creating time entries, sending team members alerts, etc). Each of these actions requires one or more Power Automate Flows to be initiated and turned on to work smoothly. To view and initiate these flows, follow these steps.
