@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Enable Time Entry Agent for a Project Operations environment
+# Enable Time Entry Agent on an environment
 
 [!INCLUDE[banner](../includes/banner.md)]
 
@@ -19,13 +19,16 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 The Time Entry Agent is now available as a **Production Ready Preview** for Dynamics 365 Project Operations customers. This feature can be enabled on Project Operations environments by system administrators by completing the following setup instructions:
 - Create your organisation's Agent user (optional, but recommended step)
 - Initiate Power Automate Flows in sequence (this gives the agent the ability to complete certain actions on behalf of team members)
+- Enable the "Time and Expense Agent" feature flag 
 - Publish the Agent to users in your organisation
-- Enable the feature flag 
 
 
 ## Create your organisation's Agent user
 
-While this step is not mandatory, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. This can be done from the [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) by following the [Dataverse User Creation Guide](https://learn.microsoft.com/en-us/power-platform/admin/create-users).
+While this step is not mandatory, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. Alternatively, you may skip this step if your organisation already has a dedicated user with the System Administrator role assigned. If this is your preferred approach, then skip to the next section to **Activate Power Automate Flows for your agent**.
+
+To continue with creating a dedicated agent user, complete this process from the [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) by following the [Dataverse User Creation Guide](https://learn.microsoft.com/en-us/power-platform/admin/create-users). 
+
 After creating this new user, ensure that the user is provided with the following licenses:
 - **Power Automate Free:** This is required to view and enable the set of Power Automate flows that the agent requires.
 - **Microsoft Teams Enterprise**: The flows send alerts to team members using MS Teams.
