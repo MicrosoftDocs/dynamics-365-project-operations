@@ -36,7 +36,7 @@ After creating this new user, ensure that the user is provided with the followin
 - **Microsoft Teams Enterprise**: The flows send alerts to team members using MS Teams.
 - **Office 365 E5 license**: Primarily for Outlook calendar access.
 
-### Assign agent user with the required role
+### Assign the agent user with a required role
 
 A new "Time and Approvals Agent" role has been created to provide the agent user with the necessary rights to enable and publish the Time Entry Agent. To assign this role to your agent user, follow these steps:
 1. Navigate to [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) and select the desired environment from the environment picker on the top-right.
@@ -48,4 +48,23 @@ The agent user now has the necessary privileges to log in to view the Power Auto
 
 ## Initiate Power Automate Flows
 
-The Time Entry Agent has been given the ability to perform a series of actions (like creating time entries, sending team members alerts, etc). Each of these actions requires certain Power Automate Flows to be initiated and turned on to work smoothly. 
+The Time Entry Agent has been given the ability to perform a series of actions (like creating time entries, sending team members alerts, etc). Each of these actions requires one or more Power Automate Flows to be initiated and turned on to work smoothly. To view and initiate these flows, follow these steps.
+
+1. Navigate to [Power Automate](https://make.powerautomate.com) and select the desired environment from the picker.
+2. Select **Solutions** from the menu on the left.
+3. Click **Project Service Agent** to view more details about this solution.
+4. You may either navigate to the **Cloud Flows** section of the menu or filter under **All** using the **Type** column where Type must contain the value _"Cloud Flow"_.
+
+There are **12** Power Automate flows (cloud flows) that must be initiated in this order (starting from number 1 to 12).
+1. Create or Update User Configuration for Time Entry Copilot
+2. Get Time Entries
+3. Filter Duplicates
+4. Import from Sources and Filter _(Parent of Flow 3)_
+5. Import from Grid and Filter _(Parent of Flow 3)_
+6. Send Summary and Daywise Adaptive Card
+7. Create Time Entries and Notify _(Parent of Flow 6)_
+8. Time Agent Periodic Import Child
+9. Time Agent Periodic Import _(Parent of Flow 8)_
+10. Generate External Comments
+11. Send Missing Time Entries Alert
+12. Generate External Comments and Send Missing Time Entries Alert _(Parent of Flow 11)_
