@@ -80,3 +80,6 @@ Each flow has a similar sequence of steps that need to be completed, before movi
 - Finally, select **Turn ON** to activate the flow.
 - Wait a few seconds after selecting this, until the "Turn off" option is visible. This implies that the flow has now been activated or turned on.
 - Now switch back to the tab where the Cloud Flows within Project Service Agent solution were visible.
+- Continue the same process with the next flow, in the order listed above.
+
+
