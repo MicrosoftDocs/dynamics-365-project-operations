@@ -18,9 +18,10 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 After a team member has set up their agent preferences as detailed in the previous section, from then on the experience of logging time entries will look like this:
 - **Agent creates Draft time entries** for the user at the start of a week
--** User receives an alert on Teams** from the agent summarising entries created
+- **User receives an alert on Teams** from the agent summarising entries created
 - **User reviews created time entries** either in Teams or on the Project Operations web app
 - **Modifies** entries if required and **submits** for approval
+- Agent sends **reminder to submit any "missing" hours** on the last working day of a week
 
 These steps and the behaviour of the Time Entry Agent are explained below.
 
@@ -48,6 +49,19 @@ If a user has asked the agent to create external comments for all time entries, 
  
 > [!IMPORTANT]
 > Since the agent creates time entries for a week at the "start" of that week, the agent must have its preferences set up and been given consent by the user **before this day**, for the entries to be created. If the agent was enabled after the start of a week, the user will only get entries from the agent starting from the next week.
+
+## Getting alerts for created time entries 
+
+The agent sends an alert for the following activities:
+- As soon as it creates time entries for the week _(at the Start of a week)_,
+- When it generates external comments for the week _(last working day of the week)_ and
+- To remind the user to submit any "missing" hours _(last working day of the week)_
+
+### Reviewing time entries created by the agent
+
+
+
+
 
 
  [!INCLUDE[footer-include](../includes/footer-banner.md)]
