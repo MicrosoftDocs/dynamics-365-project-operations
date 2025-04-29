@@ -145,7 +145,10 @@ To publish the agent, follow these steps.
 - Select **Global (org-wide default)** and click **Add apps**.
 - Search for "Time Entry Agent (Preview)" and add this app, then click **Save**.
 
-Team members in your organisation will now be able to view and use the Time Entry Agent, in the form of a Teams app. Refer to the [next section](use-time-entry-agent-in-teams.md) for how team members can start using the agent.
+> [!IMPORTANT]
+> The admin approval step for your Teams app may take **up to 12 hours** in some cases. So it is recommended to wait at least that long before notifying team members that they can access the agent through Teams.
+
+Once all the steps covered in this page have been completed successfully, team members in your organisation will able to view and use the Time Entry Agent in the form of a Teams app. Refer to the [next section](use-time-entry-agent-in-teams.md) for how team members can start using the agent.
 
  
 
