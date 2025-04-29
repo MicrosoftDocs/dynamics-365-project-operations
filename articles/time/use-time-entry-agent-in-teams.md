@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d2ca4e65-6b40-403a-8d3a-2444188f798b)---
+---
 title: Using the Time Entry Agent (for Team Members)
 description: This article explains how team members can start using the Time Entry Agent through MS Teams.
 author: mohitmenon
@@ -40,15 +40,30 @@ On opening the Teams app, you must ideally receive a message titled as "Logging 
 
 :::image type="content" source="../media/userstartedcard1.png" alt-text="Screenshot showing the starter message in Teams.":::
 
+### Give consent for agent to create time entries
 If this message does not come up automatically the first time you're using the app, you may send **Agent user preferences** or **Agent settings** as a message in chat. This will load the expected message.
 
 Follow these steps to provide the agent with consent.
 - Select **Get Started** on the initial message.
 - You'll be asked if you'd like to allow the agent to create time entries on your behalf. Select **Yes**.
 
-You have now provided the agent with consent to generate time entries for you, and will be shown 4 more configurable settings that are required to decide how the agent goes about creating these entries and sending you alerts.
+### Set agent preferences 
+You have now provided the agent with consent to generate time entries for you, and will be shown 4 more configurable preferences that are required to decide how the agent goes about creating these entries and sending you alerts. These preferences include:
+1. **Source of time entries:** This allows a user to pick what sources the agent should use while creating time entries for them. A user can include one or more sources by checking each box. If multiple sources are selected.
+  - **Note:** _The order of priority considered by the agent is Task Assignments > Project Bookings > Last week's entries. Last week's entries are only used in cases where there is no information for Assignments or Bookings for that user._
+2. **Generate External Comments**: This allows the user to decide if each time entry being created must also have the **External Comment** field generated or not. Selecting **Yes** will imply that the agent generates an external comment for each time entry that does not have one populated (even if the entry was manually created by the user).
+3. **Using Outlook calendar for external comments**: Selecting **Yes** here implies that the agent will enhance external comments by using **relevant Outlook meeting** details.
+  - Selecting **No** implies the agent just uses details of the time entry like Project, Task, Role, etc to generate a relatively generic external comment.
+4. **Time Zone**: This time zone will be used by the agent to know which time zone the user operates in, and all alerts will be sent by considering this time zone.
 
+After selecting your preferences for each question, select **Save preferences**. You should receive a confirmation message that summarises your selections.
 
+### Modify agent preferences at a later time
+
+Users can modify their existing preferences by: 
+- Sending **Update Agent preferences** or just **Agent preferences** in chat.
+- This will bring up a summary of your existing preferences and allow you to modify the selections in the form.
+- Once you've updated your preferences, select **Save preferences**. 
 
 ## Review agent alerts 
 
