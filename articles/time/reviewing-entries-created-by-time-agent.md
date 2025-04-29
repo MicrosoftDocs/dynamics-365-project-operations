@@ -38,7 +38,7 @@ Choices provided for source of time entries include **Project task assignments**
 ### Frequency of creating time entries
 - **When the entries are created:** The current behaviour of the agent is to **create all time entries for a week together**, at the beginning of the week as defined by a user's organisation.
 - **Beginning of the week**: This is defined at an organisation level. For example, if an organisation has defined the **start of the week** as "Sunday" (Sunday to Saturday week) then the time entries will be created on Sunday for the entire upcoming week.
-  - **Note**: _The "start of the week" is not the same as the "first working day of a week". The working days are decided based on a resource's working hours calendar.  _ 
+  - **Note**: _The "start of the week" is not the same as the "first working day of a week". The working days are decided based on a resource's working hours calendar._ 
 
 ### External comments for time entries
 
@@ -61,7 +61,7 @@ The agent sends an alert for the following activities:
 
 For alerts related to created time entries or external comments, the user will receive an adaptive card showing a summary of their current work week's time entries (see image).
 
-:::image type="content" source="../media/reviewentries.png" alt-text="Screenshot showing the starter message in Teams.":::  
+:::image type="content" source="../media/reviewentries.png" alt-text="Screenshot showing the summary of entries created by the agent in Teams.":::  
 
 Elements of this card that the user must be aware of:
 - **Day-wise summary**: Total hours for that day and number of hours that need review (since they are created by the agent) are highlighted.
@@ -73,7 +73,7 @@ Elements of this card that the user must be aware of:
   - Users also get to see information for the **Source** and **Creator** (Copilot/Agent or User).
   - Date pickers visible at the bottom of this card can be used to **navigate to other days** in the week and review those entries as well.
 
-:::image type="content" source="../media/daywiseentries.png" alt-text="Screenshot showing the starter message in Teams.":::
+:::image type="content" source="../media/daywiseentries.png" alt-text="Screenshot showing the day-wise time entries card in Teams.":::
 
 ### Modifying time entries created by the agent
 
