@@ -1504,6 +1504,14 @@
         href: time/ui-behavior-time.md
     - name: Use Copilot in time entry (preview)
       href: time/copilot-in-time-entry.md
+    - name: Time Entry Agent (Production Ready Preview)
+      items:
+      - name: Enable Time Entry Agent (Production Ready Preview)
+        href: time/enable-time-entry-agent.md
+      - name: Start using the agent in Teams 
+        href: time/use-time-entry-agent-in-teams.md
+      - name: Review time entries created by the agent 
+        href: time/reviewing-entries-created-by-time-agent.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
@@ -2452,6 +2460,8 @@
     href: responsible-ai/copilot-for-project-faq.md
   - name: Responsible AI FAQs for Copilot in time entry
     href: responsible-ai/copilot-in-time-entry-faqs.md
+  - name: Time Entry Agent (Production Ready Preview) Responsible AI FAQs
+    href: responsible-ai/time-entry-agent-faqs.md
 - name: Respond to Data Subject Rights (DSR) requests
   href: environment/dsr-rights-requests.md
 
