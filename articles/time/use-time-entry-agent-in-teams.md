@@ -80,7 +80,7 @@ After completing all of these one-time setup instructions, you have now successf
 - Review created time entries either in Teams or on the Project Operations web app
 - Modify entries if required and Submit for approval
 
-Proceed to the next section to know more about the Time Entry Agent's behaviour and the experience of reviewing alerts.
+Proceed to the [next section](reviewing-entries-created-by-time-agent.md) to know more about the Time Entry Agent's behaviour and the experience of reviewing alerts.
 
 
  [!INCLUDE[footer-include](../includes/footer-banner.md)]
