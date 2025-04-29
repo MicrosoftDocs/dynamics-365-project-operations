@@ -150,7 +150,7 @@ To publish the agent, follow these steps.
 
 Once all the steps covered in this page have been completed successfully, team members in your organisation will able to view and use the Time Entry Agent in the form of a Teams app. Refer to the [next section](use-time-entry-agent-in-teams.md) for how team members can start using the agent.
 
- 
+ [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
 
 
