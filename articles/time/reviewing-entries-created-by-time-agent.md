@@ -36,15 +36,15 @@ Choices provided for source of time entries include **Project task assignments**
 
 ### Frequency of creating time entries
 - **When the entries are created:** The current behaviour of the agent is to **create all time entries for a week together**, at the beginning of the week as defined by a user's organisation.
-- **Beginning of the week**: This is defined at an organisation level. For example, if an organisation has defined the **start of the week **as "Sunday" (Sunday to Saturday week) then the time entries will be created on Sunday for the entire upcoming week.
-  - **Note: ** This beginning of the week is not the same as the "first working day of a week". The working days are decided based on a resource's working hours calendar.   
+- **Beginning of the week**: This is defined at an organisation level. For example, if an organisation has defined the **start of the week** as "Sunday" (Sunday to Saturday week) then the time entries will be created on Sunday for the entire upcoming week.
+  - **Note**: This beginning of the week is not the same as the "first working day of a week". The working days are decided based on a resource's working hours calendar.   
 
 ### External comments for time entries
 
 If a user has asked the agent to create external comments for all time entries, this behaviour differs based on:
 - **If Outlook calendar is not used to enhance comments:** In this case, external comments are generated at the same time as the creation of time entries (at the beginning of the week) by using time entry details like Project, Task, Role, etc.
 - **If Outlook calendar must be used to enhance comments**: In this case, the time entries created at the beginning of the week are created without external comments. This is done because there may be Outlook meetings that get created later in the week. The external comments are then later created on the **last working day of the week**.
-  - **Note:** Last working day is based on the resource's working hours calendar. For example, if the organisation's week is from Sunday to Saturday and the user has Monday to Friday as working days, then external comments will be generated on Friday morning.
+  - **Note**: Last working day is based on the resource's working hours calendar. For example, if the organisation's week is from Sunday to Saturday and the user has Monday to Friday as working days, then external comments will be generated on Friday morning.
  
 > [!IMPORTANT]
 > Since the agent creates time entries for a week on the first day (beginning) of that week, the agent must have been enabled by the user before this day to able to see such entries. If the agent was enabled in the middle of a week, the user will only receive entries from the agent starting from the next week.
