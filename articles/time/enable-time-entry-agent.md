@@ -27,7 +27,9 @@ Each step has been described in detail below.
 
 ## Create your organisation's Agent user 
 
-While this step is **not mandatory**, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. Alternatively, if your organisation already has a dedicated user for similar purposes, with the **System Administrator** role assigned then you may skip this step and go to the next section: **Initiate Power Automate Flows for your agent**.
+While this step is **not mandatory**, it is recommended that a dedicated Agent user is created for the purpose of configuring and enabling Agents in an organisation. This step is **only required once** for your organisation, and can be used to enabled Time Entry Agent across multiple environments.
+
+Alternatively, if your organisation already has a dedicated user for similar purposes, with the **System Administrator** role assigned then you may skip this step and go to the next section: **Initiate Power Automate Flows for your agent**.
 
 To continue with creating a dedicated agent user, complete this process by navigating to [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) and following steps documented in the [Dataverse User Creation Guide](https://learn.microsoft.com/en-us/power-platform/admin/create-users). 
 
@@ -52,7 +54,7 @@ The agent user now has the necessary privileges to log in to view the Power Auto
 
 ## Activate Power Automate Flows required by the agent
 
-The Time Entry Agent has been given the ability to perform a series of actions (like creating time entries, sending team members alerts, etc). Each of these actions requires one or more Power Automate Flows to be initiated and turned on to work smoothly. To view and initiate these flows, follow these steps.
+The Time Entry Agent has been given the ability to perform a series of actions (like creating time entries, sending team members alerts, etc). Each of these actions requires one or more Power Automate Flows to be initiated and turned on to work smoothly. This section of the process **must be repeated for each environment** on which the agent is being enabled. To view and initiate these flows, follow these steps.
 
 1. Sign in to [Power Automate](https://make.powerautomate.com) using the agent user or dedicated system administrator's credentials.
 2. Select the desired environment from the picker.
@@ -103,7 +105,7 @@ Once these steps have been completed for all 12 flows, the agent user or admin u
 
 ## Enable Time and Expense Agent feature 
 
-To enable the feature, follow these steps.
+To enable the feature on a Project Operations environment, follow these steps.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations using a system administrator.
 1. Ensure that you're using Project Operations version **__4.140.0.X__ or later**. 
@@ -133,7 +135,10 @@ To publish the agent, follow these steps.
 1. Once publishing is complete, navigate to the **Channels** tab of the agent. Select **Teams + Microsoft 365**.
 1. A pop-up window appears, where you may **uncheck** "Make agent available in Microsoft 365 Copilot Chat" and then select **Add channel**.
 1. A confirmation message that says _"The channel was added"_ should show on top of the screen.
-1. Now, to make this agent available to end users (team members) as a Teams app - select **Availability Options**. Under "Show in the store", you can select **Show to everyone in my org** to make this available across a broader audience.
+1. Now, to make this agent available to end users (team members) as a Teams app - select **Availability Options**. Here, you have multiple options depending on the audience that should get access to this agent: 
+  1. You can select **Copy link** under the _Get a link_ section if you want to share it with a select group of users. This link can be shared with a dedicated set of test users before being broadcasted to the rest of the organisation.
+  1. Alternatively, select **Show to everyone in my org** under "Show in the store" to make this available across a broader audience.
+
 1. If the system administrator user being used so far is not a **Global Administrator** then they must select **Submit for admin approval**. A Global Administrator's approval will be required to share the agent as a Teams app to users in this organisation.
 
 ### Get approval from Global Administrator
