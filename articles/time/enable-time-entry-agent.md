@@ -138,12 +138,12 @@ To publish the agent, follow these steps.
 4. Now, to make this agent available to end users (team members) as a Teams app - select **Availability Options**. Here, you have multiple options depending on the audience that should get access to the agent: 
     - You can select **Copy link** under the _Get a link_ section if you want to share it with a select group of users. This link can be shared with a dedicated set of test users before being broadcasted to the rest of the organisation.
     -  Alternatively, select **Show to everyone in my org** under _Show in the store_ to make this available across a broader audience.
-5. If the system administrator user being used so far is not a **Global Administrator** then they must select **Submit for admin approval**. A Global Administrator's approval will be required to share the agent as a Teams app to users in this organisation.
+5. Next, select **Submit for admin approval**. A Global Administrator's approval will be required to share the agent as a Teams app to users in this organisation.
 
 ### Get approval from Global Administrator
 - Log in with global administrator credentials to [Teams Admin Center](https://admin.teams.microsoft.com).
 - Navigate to **Teams apps** -> **Manage apps**
-- Search for "Time Entry Agent" under **All apps** section. This will show up as having **Blocked** status.
+- Search for "Time Entry Agent" under **All apps** section. This will show up as having **Blocked** or **Submitted** status.
 - Select **Publish**. 
 - Next, navigate to **Teams apps** -> **Setup policies**.
 - Select **Global (org-wide default)** and click **Add apps**.
