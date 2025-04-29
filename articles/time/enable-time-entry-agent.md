@@ -106,8 +106,8 @@ To enable the feature, follow these steps.
 1. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
 1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
-1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
-1. Select **Enable Time and Expense Agent (Production Ready Preview)**, and then select **OK**.
+1. On the **Project Parameters** page, select the **Feature Control** drop-down.
+1. Select **Enable Time and Expense Agent (Production Ready Preview)**, and then select **OK**. This feature can also be disabled at any time post enabling.
 
 ## Publish the agent from Microsoft Copilot Studio
 
