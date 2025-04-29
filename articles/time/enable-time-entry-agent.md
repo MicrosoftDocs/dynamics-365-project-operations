@@ -126,7 +126,7 @@ To publish the agent, follow these steps.
 
 1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com) and select the desired environment from the environment picker on the top-right.
 1. Select **Agents** from the menu on the left (If this option isn't visible, try **More**->**Agents**).
-1. Under **All**, click **Time Entry Agent (Preview)**. This will open a new tab for this agent on Microsoft Copilot Studio.
+1. Under **All**, click **Time Entry Agent (Preview)**. This will open a new tab for this agent on Microsoft Copilot Studio. Ensure the **correct environment is selected** from the picker on the top-right.
 1. You may see a **Consent confirmation** message on the right, under _Test your agent_ section. Hit **Confirm** here.
 1. Click **Publish** to publish this agent bot first. A pop-up window may appear to inform you of some "potential risks", view them and select **Publish**. 
 :::image type="content" source="../media/publishingagent.png" alt-text="Screenshot showing agent publish is in progress.":::
