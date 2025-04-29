@@ -45,7 +45,8 @@ A new "Time and Approvals Agent" role has been created to provide the agent user
 4. Select **Manage roles** and select the *Time and Approval Agent* check box from the list. Click **Save**.
 
 > [!IMPORTANT]
-> The role assignment step is only necessary if a new agent user is being created to enable the Time Entry Agent. This step must be repeated for every new environment on which the Time Entry Agent is being enabled, even if the same user is being used across them. The role assignment step is not required if an existing system administrator user is being used instead of a new agent user.
+> The role assignment step is only necessary if a new agent user is being created to enable the Time Entry Agent. This step must be repeated for every new environment on which the Time Entry Agent is being enabled, even if the same user is being used across them. 
+> The role assignment step is not required if an existing system administrator user is being used instead of a new agent user.
 
 The agent user now has the necessary privileges to log in to view the Power Automate Flows that must be enabled in the next step of this process.
 
@@ -94,6 +95,9 @@ Each flow has a similar sequence of steps that need to be completed, before movi
 
 1. Now close the current tab and switch back to the tab where the Cloud Flows within Project Service Agent solution were visible.
 1. Continue the same process with the next flow, based on the order listed above.
+
+> [!IMPORTANT]
+> Please note that it is essential to activate all flows in the order shown above. Do not try to activate a later flow before the previous one(s) is or are turned ON.  
 
 Once these steps have been completed for all 12 flows, the agent user or admin user may proceed to the next step of enabling the feature flag.
 
