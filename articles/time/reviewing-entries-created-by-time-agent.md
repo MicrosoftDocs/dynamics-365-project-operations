@@ -32,8 +32,11 @@ The Time Entry Agent (Production Ready Preview) creates time entries based on a 
 ### Selecting sources for time entries
 
 Choices provided for source of time entries include **Project task assignments**, **Booked Capacity** and **Previous week's entries**. 
-- For users who have selected only one of these 3 choices, the agent will only refer to number of hours that come as a result of that source on each day of a working week.
-- For users who have selected more than one of these sources, the agent will prioritise information from **Project task assignments** first (since this has task level details), then **Booked capacity** and finally only if there is no information for assignments or bookings - it will use **Previous week's entries** as the fall-back source
+- For users who have **selected only one** of these 3 choices, the agent will only refer to number of hours that come as a result of that source on each day of a working week.
+- For users who have **selected more than one** of these sources, the agent will prioritise information from: 
+  - **Project task assignments** first (since this has task level details),
+  - Then **Booked capacity** and
+  - Finally will use **Previous week's entries** as the fall-back source only if there is no available information for assignments or bookings in that week.
 
 ### Frequency of creating time entries
 - **When the entries are created:** The current behaviour of the agent is to **create all time entries for a week together**, at the beginning of the week as defined by a user's organisation.
