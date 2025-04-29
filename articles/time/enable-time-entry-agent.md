@@ -31,7 +31,7 @@ While this step is **not mandatory**, it is recommended that a dedicated Agent u
 
 Alternatively, if your organization already has a dedicated user for similar purposes, with the **System Administrator** role assigned then you may skip this step and go to the next section: **Initiate Power Automate Flows for your agent**.
 
-To continue with creating a dedicated agent user, complete this process by navigating to [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) and following steps documented in the [Dataverse User Creation Guide](https://learn.microsoft.com/en-us/power-platform/admin/create-users). 
+To continue with creating a dedicated agent user, complete this process by navigating to [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) and following steps documented in the [Dataverse User Creation Guide](/power-platform/admin/create-users). 
 
 After creating this new user, ensure that the user is provided with the following licenses (all are required):
 - **Power Automate Free:** This license is required to view and enable the set of Power Automate flows that the agent requires.
