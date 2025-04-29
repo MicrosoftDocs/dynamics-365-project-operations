@@ -59,8 +59,25 @@ The agent sends an alert for the following activities:
 
 ### Reviewing time entries created by the agent
 
+For alerts related to created time entries or external comments, the user will receive an adaptive card showing a summary of their current work week's time entries (see image).
 
+:::image type="content" source="../media/reviewentries.png" alt-text="Screenshot showing the starter message in Teams.":::  
 
+Elements of this card that the user must be aware of:
+- **Day-wise summary**: Total hours for that day and number of hours that need review (since they are created by the agent) are highlighted.
+  - Days that have entries created by the agent will be **highlighted with an asterix** on the left.
+- **Submit all**: Selecting this button will submit **all Draft hours** for this week.
+- **Open in Web**: Clicking this link will navigate the user to a new browser window or tab with the Project Operations time entry module filtered on the current week.
+- **View Day**: Users can view details of the individual time entries created for a day by selecting the _View Day_ button, next to each day of the week.
+  - Doing so will load a new adaptive card, that contains the individual time entries for that date (see image).
+
+:::image type="content" source="../media/daywiseentries.png" alt-text="Screenshot showing the starter message in Teams.":::
+
+### Modifying time entries created by the agent
+
+Time entries created by the agent can be modified in two ways:
+1. Directly within Teams through the day-wise adaptive cards (View Day) for minor changes and
+2. From the Project Operations web app (Open in Web) for more significant changes
 
 
 
