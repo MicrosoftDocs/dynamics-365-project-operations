@@ -1,5 +1,5 @@
 ---
-title: Using the Time Entry Agent (for Team Members)
+title: Start using the Time Entry Agent (for Team Members)
 description: This article explains how team members can start using the Time Entry Agent through MS Teams.
 author: mohitmenon
 ms.date: 04/29/2025
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Using the Time Entry Agent as a Team Member
+# Start using the Time Entry Agent as a Team Member
 
 [!INCLUDE[banner](../includes/banner.md)]
 
@@ -38,7 +38,7 @@ After adding this app, the next step involves giving consent to allow the agent 
  
 On opening the Teams app, you must ideally receive a message titled as "Logging Time made easy" (see image). 
 
-:::image type="content" source="../media/userstartedcard1.png" alt-text="Screenshot showing the starter message in Teams.":::
+:::image type="content" source="../media/userstartercard1.png" alt-text="Screenshot showing the starter message in Teams.":::
 
 ### Give consent for agent to create time entries
 If this message does not come up automatically the first time you're using the app, you may send **Agent user preferences** or **Agent settings** as a message in chat. This will load the expected message.
@@ -65,21 +65,22 @@ Users can modify their existing preferences by:
 - This will bring up a summary of your existing preferences and allow you to modify the selections in the form.
 - Once you've updated your preferences, select **Save preferences**. 
 
-## Review agent alerts 
 
-### Frequency of alerts
+### Share Outlook calendar access with the agent user
 
-### Modify time entries created by the agent
+This step is required if you have selected **Yes** for _Using Outlook calendar to generate better external comments_. The agent user requires access to the team member's Outlook calendar, to be able to view meeting titles and descriptions for generating better comments. This access can be shared by:
+- Navigating to Outlook -> Calendar
+- Under **My Calendars**, select the **overflow icon** (three dots) for the calendar used by you.
+- Select **Sharing and permissions**, then type in the **email ID of the agent user **(you may need to get this email ID from your IT system administrator).
+- Hit **Share**.
 
-### Submit time entries 
+After completing all of these one-time setup instructions, you have now successfully set up the Time Entry Agent for use as a team member. From here on, the experience of logging time entries will look like this:
+- Agent creates Draft time entries for you at the start of a week
+- You receive an alert on Teams from the agent summarising entries created
+- Review created time entries either in Teams or on the Project Operations web app
+- Modify entries if required and Submit for approval
 
-
-
-
-
-
-
-
+Proceed to the next section to know more about the Time Entry Agent's behaviour and the experience of reviewing alerts.
 
 
  [!INCLUDE[footer-include](../includes/footer-banner.md)]
