@@ -136,9 +136,8 @@ To publish the agent, follow these steps.
 1. A pop-up window appears, where you may **uncheck** "Make agent available in Microsoft 365 Copilot Chat" and then select **Add channel**.
 1. A confirmation message that says _"The channel was added"_ should show on top of the screen.
 1. Now, to make this agent available to end users (team members) as a Teams app - select **Availability Options**. Here, you have multiple options depending on the audience that should get access to this agent: 
-  1. You can select **Copy link** under the _Get a link_ section if you want to share it with a select group of users. This link can be shared with a dedicated set of test users before being broadcasted to the rest of the organisation.
-  1. Alternatively, select **Show to everyone in my org** under "Show in the store" to make this available across a broader audience.
-
+  - You can select **Copy link** under the _Get a link_ section if you want to share it with a select group of users. This link can be shared with a dedicated set of test users before being broadcasted to the rest of the organisation.
+  -  Alternatively, select **Show to everyone in my org** under "Show in the store" to make this available across a broader audience.
 1. If the system administrator user being used so far is not a **Global Administrator** then they must select **Submit for admin approval**. A Global Administrator's approval will be required to share the agent as a Teams app to users in this organisation.
 
 ### Get approval from Global Administrator
