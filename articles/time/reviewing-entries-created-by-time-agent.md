@@ -20,7 +20,7 @@ After a team member sets up their agent preferences as detailed in the previous 
 - **Agent creates Draft time entries** for the user at the start of a week
 - **User receives an alert on Teams** from the agent summarizing entries created
 - **User reviews created time entries** either in Teams or on the Project Operations web app
-- **Modifies** entries if required and **submits** for approval
+- **Modify** entries if required and **submit** for approval
 - Agent sends **reminder to submit any "missing" hours** on the last working day of a week
 
 These steps and the behavior of the Time Entry Agent are explained next.
