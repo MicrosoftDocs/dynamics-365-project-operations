@@ -133,12 +133,12 @@ To publish the agent, follow these steps.
 
 ### Make Teams app available to users
 1. Once publishing is complete, navigate to the **Channels** tab of the agent. Select **Teams + Microsoft 365**.
-1. A pop-up window appears, where you may **uncheck** "Make agent available in Microsoft 365 Copilot Chat" and then select **Add channel**.
-1. A confirmation message that says _"The channel was added"_ should show on top of the screen.
-1. Now, to make this agent available to end users (team members) as a Teams app - select **Availability Options**. Here, you have multiple options depending on the audience that should get access to this agent: 
-  - You can select **Copy link** under the _Get a link_ section if you want to share it with a select group of users. This link can be shared with a dedicated set of test users before being broadcasted to the rest of the organisation.
-  -  Alternatively, select **Show to everyone in my org** under "Show in the store" to make this available across a broader audience.
-1. If the system administrator user being used so far is not a **Global Administrator** then they must select **Submit for admin approval**. A Global Administrator's approval will be required to share the agent as a Teams app to users in this organisation.
+2. A pop-up window appears, where you may **uncheck** "Make agent available in Microsoft 365 Copilot Chat" and then select **Add channel**.
+3. A confirmation message that says _"The channel was added"_ should show on top of the screen.
+4. Now, to make this agent available to end users (team members) as a Teams app - select **Availability Options**. Here, you have multiple options depending on the audience that should get access to this agent: 
+    - You can select **Copy link** under the _Get a link_ section if you want to share it with a select group of users. This link can be shared with a dedicated set of test users before being broadcasted to the rest of the organisation.
+    -  Alternatively, select **Show to everyone in my org** under "Show in the store" to make this available across a broader audience.
+5. If the system administrator user being used so far is not a **Global Administrator** then they must select **Submit for admin approval**. A Global Administrator's approval will be required to share the agent as a Teams app to users in this organisation.
 
 ### Get approval from Global Administrator
 - Log in with global administrator credentials to [Teams Admin Center](https://admin.teams.microsoft.com).
