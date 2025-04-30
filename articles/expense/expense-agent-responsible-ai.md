@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 # Responsible AI FAQ for Expense Agent
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/banner.md)]
 
 This FAQ provides answers to frequently asked questions about the AI technology that's used in the *Expense Agent* feature. It includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 
@@ -111,4 +111,4 @@ The Expense Entry Agent is designed to:
 
 - General feedback can also be shared through the Dynamics 365 Project Operations Teams channel or by submitting a support request.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
