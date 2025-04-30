@@ -5,6 +5,8 @@ author: mohitmenon
 ms.date: 04/28/2025
 ms.topic: how-to
 ms.custom: 
+  - bap-template
+ms.collection:
   - bap-ai-copilot 
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
