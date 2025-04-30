@@ -1504,9 +1504,9 @@
         href: time/ui-behavior-time.md
     - name: Use Copilot in time entry (preview)
       href: time/copilot-in-time-entry.md
-    - name: Time Entry Agent (Production Ready Preview)
+    - name: Time Entry agent (production ready preview)
       items:
-      - name: Enable Time Entry Agent (Production Ready Preview)
+      - name: Enable Time Entry agent (production ready preview)
         href: time/enable-time-entry-agent.md
       - name: Start using the agent in Teams 
         href: time/use-time-entry-agent-in-teams.md
