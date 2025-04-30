@@ -1,6 +1,6 @@
 ---
 title: Enable the Time Entry agent (production ready preview)
-description: This article explains how system administrators can enable the Time Entry agent on one or more environments in their organization.
+description: This article explains how administrators can enable the Time Entry agent on one or more environments in their organization.
 author: mohitmenon
 ms.date: 04/28/2025
 ms.topic: how-to
@@ -18,7 +18,7 @@ ms.author: mohitmenon
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-The Time Entry agent is available as a **Production Ready Preview** on Dynamics 365 Project Operations environments with **version 4.140.0.239 or higher**. This feature must first be enabled on Project Operations environments by system administrators, before being available for use by team members to log their time entries. The following steps must be completed to enable the feature:
+The Time Entry agent is available as a **Production Ready Preview** on Dynamics 365 Project Operations environments with **version 4.140.0.239 or higher**. This feature must first be enabled on Project Operations environments by administrators, before being available for use by team members to log their time entries. The following steps must be completed to enable the feature:
 - Create your organization's agent user (**optional**, but recommended step).
 - Activate Power Automate Flows required by the agent (these flows give the agent the ability to complete certain actions on behalf of team members).
 - Enable the **Time and Expense agent** feature flag. 
@@ -31,7 +31,7 @@ Each step has been described in detail in the following sections.
 
 While this step is **not mandatory**, it's recommended that a dedicated agent user is created for configuring and enabling agents in an organization. This step is **only required once** for your organization, and can be used to enabled Time Entry agent across multiple environments.
 
-Alternatively, if your organization already has a dedicated user for similar purposes, with the **System Administrator** role assigned, then you may skip this step and go to the next section: **Initiate Power Automate Flows for your agent**.
+Alternatively, if your organization already has a dedicated user for similar purposes, with an dministrator role assigned, then you may skip this step and go to the next section: **Initiate Power Automate Flows for your agent**.
 
 To continue with creating a dedicated agent user, complete this process by navigating to [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) and following steps documented in the [Dataverse User Creation Guide](/power-platform/admin/create-users). 
 
@@ -53,7 +53,7 @@ To assign **Time and Approvals agent** role to your agent user, follow these ste
 
 > [!IMPORTANT]
 > The role assignment step is only necessary if a new agent user is being created to enable the Time Entry agent. This step must be repeated for every new environment on which the Time Entry agent is to be enabled.
-> The role assignment step isn't required if an existing system administrator user is being used instead of a new agent user.
+> The role assignment step isn't required if an existing administrator user is being used instead of a new agent user.
 
 The agent user now has the necessary privileges to log in to view the Power Automate Flows that must be enabled in the next step of this process.
 
@@ -63,7 +63,7 @@ The Time Entry agent is given the ability to perform a series of actions (like c
 
 To view and initiate these flows, follow these steps.
 
-1. Sign in to [Power Automate](https://make.powerautomate.com) using the agent user or dedicated system administrator's credentials.
+1. Sign in to [Power Automate](https://make.powerautomate.com) using the agent user or dedicated administrator's credentials.
 1. Select the desired environment from the picker.
 1. Select **Solutions** from the menu on the left.
 1. Select **Project Service agent** to view more details about this solution.
@@ -115,7 +115,7 @@ Once these steps have been completed for all 12 flows, the agent user or admin u
 
 To enable the feature on a Project Operations environment, follow these steps.
 
-1. Sign in to Microsoft Dynamics 365 Project Operations using a system administrator.
+1. Sign in to Microsoft Dynamics 365 Project Operations as an administrator.
 1. Ensure that you're using Project Operations version **__4.140.0.X__ or later**. 
 1. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
