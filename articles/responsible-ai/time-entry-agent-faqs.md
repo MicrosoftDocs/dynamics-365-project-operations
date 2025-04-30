@@ -57,7 +57,7 @@ The intended uses of this agent include:
 
 - Admins can enable the feature by sharing the Teams app with end users. Doing so gives team members the ability to automate the creation of their time entries and receive alerts or reminders for rejections & missed time entries. 
   - **Note**: _Users **can disable time entry creation** by the agent at any time using the "Agent preferences" command and select "No" for the question that asks if they want to allow the Agent to create time entries on their behalf._
-- Project managers must ensure that team members are either assigned to project tasks or have capacity booked before they begin work. This provides the agent with sufficient inputs to create time entries with accuracy.
+- Project managers must ensure that team members are either assigned to project tasks or have capacity booked before they begin work. This assignment provides the agent with sufficient inputs to create time entries with accuracy.
 - Team members are given the option to:
   - Opt in or out of automated creation of time entries,
   - Decide whether they also want to generate external comments for each entry and
