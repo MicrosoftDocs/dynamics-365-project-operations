@@ -5,7 +5,9 @@ author: mohitmenon
 ms.date: 04/29/2025
 ms.topic: how-to
 ms.custom: 
-  - bap-ai-copilot 
+  - bap-template
+ms.collection:
+  - bap-ai-copilot
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
@@ -27,7 +29,7 @@ When your organization enables the agent and shares it with you, the agent can b
 2. Navigate to the **Apps** section within Teams.
 3. The **Time Entry Agent (Preview)** app can be found under _Built for your organization_ or _Added by your org_ sections. Select the **Add** button for this app.
 4. A pop-up may appear with more details about the app, proceed to **Add** it.
-5. Once added, the option to **Open** the app becomes available. Click **Open**. This step takes you to a Teams chat where all interactions with the Time Entry Agent occur.
+5. Once added, the option to **Open** the app becomes available. Select **Open**. This step takes you to a Teams chat where all interactions with the Time Entry Agent occur.
 
 The next step involves giving consent to allow the agent to create time entries on your behalf.
 
@@ -53,7 +55,7 @@ You have now provided the agent with consent to generate time entries for you, a
   - **Note:** _ If multiple sources are selected, the order of priority considered by the agent is Task Assignments > Project Bookings > Last week's entries. Last week's entries are only used in cases where there's no information for Assignments or Bookings for that user._
 2. **Generate External Comments**: This preference allows the user to decide if each time entry being created must also have the **External Comment** field generated or not. Selecting **Yes** implies that the agent generates an external comment for each time entry that doesn't have one populated (even if the entry was manually created by the user).
 3. **Use Outlook calendar for external comments**: Selecting **Yes** here implies that the agent enhances external comments by using **relevant Outlook meeting** details.
-  - Selecting **No** implies the agent just uses details of the time entry like Project, Task, Role, etc to generate a relatively generic external comment.
+  - Selecting **No** implies the agent just uses details of the time entry like Project, Task, Role, etc. to generate a relatively generic external comment.
 4. **Time Zone**: This time zone is used by the agent to know which time zone the user operates in, and all alerts are sent by considering this time zone.
 
 After selecting your preferences for each question, select **Save preferences**. You should receive a confirmation message that summarizes your selections.
