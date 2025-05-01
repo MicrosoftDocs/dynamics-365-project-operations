@@ -37,4 +37,14 @@ Additionally, in this menu you can set the mode of the agent to either *Classify
 
 When a time, material, or expense record is submitted for approval in an environment with the agent enabled and policy documents uploaded, it will go into a queue for classificaiton by the agent. Once the agent classifies the submission, it will create a new record containing its classification decision which can be viewed by slecting the **Approvals Agent (Production Ready Preview)** view on the left area selector.
 
-![View of records the agent has classified](media/
+![View of records the agent has classified](media/agentviewscreenshot.png)
+
+When a record is selected in this view the user will be shown three options on the ribbon: 
+
+  1. Approve - The record will be processed for approval
+  2. Reject - The user will be prompted for a rejection comment, then the record will be rejected and sent back to the submitter
+  3. Reassign to Agent - The record will be returned to the agent's queue and re-evaluated (this is designed to be used when the policy document is updated and the record needs to be reviewed using the new document)
+
+![Options when a record is selected](media/agentoptions.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
