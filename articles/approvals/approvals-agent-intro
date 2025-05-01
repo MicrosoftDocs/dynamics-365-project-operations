@@ -24,7 +24,7 @@ This production ready preview is available to be installed in both sandbox and p
 
 ### Setup
 
-The approvals agent requires a few steps to be enabled and correctly setup. Please review [Approvals Agent Admin Setup](./FILL IN ARTICLE) for the appropriate steps for admin setup. Once these have been completed the agent can be enabled by selecting *Enable Time and Expense Agent (Production Ready Preview)* in the feature control menu on the project parameters form.
+The approvals agent requires a few steps to be enabled and correctly setup. Please review [Approvals Agent Admin Setup](./approvals-agent-admin-setup) for the appropriate steps for admin setup. Once these have been completed the agent can be enabled by selecting *Enable Time and Expense Agent (Production Ready Preview)* in the feature control menu on the project parameters form.
 
 Once the feature is enabled, a new tab will appear in the Project Parameters form named *Time and Expense Agent (Production Ready Preview)*. Here the user can upload their policy documents for time, expense, and material submissions. For guidance on writing a policy document and examples refer to [Approvals Agent Policy Documents](./FILL IN ARTICLE). If a policy docuemnt is not available for a cewrtain type of record, then approval records of that type will not be classified by the agent.
 
