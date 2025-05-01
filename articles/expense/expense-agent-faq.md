@@ -58,7 +58,7 @@ Ensure the connectors are in the **Business** group and allowlisted.
 
 ## Agent Execution
 
-### The Expense agent is not processing my email receipts.  
+### The Expense agent isn't processing my email receipts.  
 Ensure you're part of the correct legal entity and have active employment. Also verify that the agent is enabled for that legal entity.
 
 ### I have followed the setup steps and have the required permissions, but the emails are still not processed.
