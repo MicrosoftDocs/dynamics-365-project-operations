@@ -22,7 +22,7 @@ This production ready preview is available to be installed in both sandbox and p
 
 ## Approvals Agent Overview
 
-# Setup
+### Setup
 
 The approvals agent requires a few steps to be enabled and correctly setup. Please review [Approvals Agent Admin Setup](./FILL IN ARTICLE) for the appropriate steps for admin setup. Once these have been completed the agent can be enabled by selecting *Enable Time and Expense Agent (Production Ready Preview)* in the feature control menu on the project parameters form.
 
@@ -33,4 +33,6 @@ Additionally, in this menu you can set the mode of the agent to either *Classify
 > [!NOTE]
 > Rigorous testing is recommended before enabling the *Classify and auto approve* mode
 
+### Using the Approvals Agent
 
+When a time, material, or expense record is submitted for approval in an environment with the agent enabled and policy documents uploaded, it will go into a queue for classificaiton by the agent. Once the agent classifies the submission, it will create a new record containing its classification decision which can be viewed by slecting the **Approvals Agent (Production Ready Preview)** view on the left area selector.
