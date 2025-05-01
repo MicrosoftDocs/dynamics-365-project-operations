@@ -18,10 +18,19 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 The Microsoft Dynamics 365 Project Operations Approvals Agent aims to streamline the approval process for time, expense, and material transactions, leveraging a [Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) Agent to provide an initial review of incoming time, expense, and material entries against customer uploaded policy documents for each type of entry. If the record is found to meet the criteria outlined in the policy document, it will be marked as *ready for approval* and if not it will be marked as *needs review*. This will streamline the approvals process for project managers while also reducing mistaken approvals which can lead to time consuming corrections.
 
-This production ready preview is available to be installed in both sandbox and prodcution environments, however, we recommend only using the agent in prodcution engironments after thorough testing.
+This production ready preview is available to be installed in both sandbox and prodcution environments, however, we recommend only using the agent in prodcution environments after thorough testing.
 
 ## Approvals Agent Overview
 
 # Setup
 
-The approvals agent requires a few steps to be enabled and correctly setup. Please review [Approvals Agent Admin Setup](./FILL IN ARTICLE) for the appropriate steps for admin setup. Once these have been completed the agent can 
+The approvals agent requires a few steps to be enabled and correctly setup. Please review [Approvals Agent Admin Setup](./FILL IN ARTICLE) for the appropriate steps for admin setup. Once these have been completed the agent can be enabled by selecting *Enable Time and Expense Agent (Production Ready Preview)* in the feature control menu on the project parameters form.
+
+Once the feature is enabled, a new tab will appear in the Project Parameters form named *Time and Expense Agent (Production Ready Preview)*. Here the user can upload their policy documents for time, expense, and material submissions. For guidance on writing a policy document and examples refer to [Approvals Agent Policy Documents](./FILL IN ARTICLE). If a policy docuemnt is not available for a cewrtain type of record, then approval records of that type will not be classified by the agent.
+
+Additionally, in this menu you can set the mode of the agent to either *Classify* or *Classify and auto approve*. In the *Classify* mode, records marked as *ready for approval* will still need to be manually approved by the PM, however, in the *Classify and auto approve* mode entries which are classified as *ready for approval* will automatically be processed for approval. 
+
+> [!NOTE]
+> Rigorous testing is recommended before enabling the *Classify and auto approve* mode
+
+
