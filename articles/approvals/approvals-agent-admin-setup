@@ -48,3 +48,13 @@ Returning to the previous tab, repeat these steps for the Microsoft Dataverse Co
 Lastly return to the common Data Services Default Solution > Connection references page and select the correct uesr under *Connection*.
 
 ![Select user for connection](media/agentsetup7.png)
+
+## Turning on the Agent Trigger
+
+The final step is to turn on the cloud flow which acts as the agent trigger. Return to the *Project Service Agent* solution, and select *Cloud flows* from the Objects menu. Here select the three dots next to *Approvals Agent trigger (Production Ready Preview)* and then select turn on from the menu.
+
+![Turn on Cloud flow](media/agentsetup8.png)
+
+This completes the admin setup for the Approvals Agent.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
