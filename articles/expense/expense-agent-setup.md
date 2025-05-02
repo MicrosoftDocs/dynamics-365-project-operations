@@ -1,10 +1,10 @@
 ---
 title: Expense Agent Installation and Setup
-description: Steps to install and setup the Expense Agent.
+description: Learn about the steps to install and set up the Expense Agent.
 author: alexeiantao
 ms.author: alexeiantao
 ms.date: 05/02/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-The Expense Agent brings together capabilities from Microsoft Dynamics 365 Finance and Operations, Microsoft Copilot Studio, Power Automate, and Dataverse to automate expense processing workflows using AI. It enables your system to process receipts and generate expense lines and reports for users—saving time and reducing manual effort. It uses standard Microsoft connectors to integrate with Outlook, Teams, user calendars, and the Finance and Operations environment via Dataverse virtual entities.
+The Expense Agent brings together capabilities from Microsoft Dynamics 365 Project Operations, Microsoft Copilot Studio, Microsoft Power Automate, and Microsoft Dataverse to automate expense processing workflows using AI. It enables your system to process receipts and generate expense lines and reports for users—saving time and reducing manual effort. It uses standard Microsoft connectors to integrate with Outlook, Teams, user calendars, and the Finance and Operations environment via Dataverse virtual entities.
 
 The Expense Agent includes multiple flows, three of which serve as core orchestrators:
 
@@ -25,7 +25,7 @@ The Expense Agent includes multiple flows, three of which serve as core orchestr
 
 The agent also supports Microsoft Teams integration, allowing adaptive cards to be sent for review and submission of expenses.
 
-The agent relies on several Power Platform connectors. These are automatically referenced within the provided Power Automate flows:
+The agent relies on several Power Platform connectors. These connectors are automatically referenced within the provided Power Automate flows:
 
 - **Outlook (Office 365)** – Accesses the shared mailbox to fetch receipts.
 - **Dataverse (Virtual Entities)** – Integrates with Dynamics 365 Finance and Operations entities.
@@ -53,7 +53,7 @@ For detailed guidance on enabling Copilot in your environment, refer to the offi
 🔗 [Enable Copilot features in Finance and Operations](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot)
 
 Each of these steps is described in detail in the sections that follow.
-To complete the steps described in this article, you must have **System administrator** or **System customizer** access in the Power Platform admin center, **System administrator** access in Dynamics 365 Finance and Operations, and **Exchange administrator** access in Microsoft 365 to configure the shared mailbox. If you plan to enable Teams integration, you will also need the required permissions in the **Teams admin center**.
+To complete the steps described in this article, you must have **System administrator** or **System customizer** access in the Power Platform admin center, **System administrator** access in Dynamics 365 Finance and Operations, and **Exchange administrator** access in Microsoft 365 to configure the shared mailbox. If you plan to enable Teams integration, you also need the required permissions in the **Teams admin center**.
 
 ---
 
@@ -75,21 +75,21 @@ Enable the agent for the current legal entity and configure the run frequency as
 
 ### Step 3: Set Up the Agent User
 
-It is recommended to create a dedicated expense agent user to ensure that the agent runs independently of any employee’s identity. This helps with security, manageability, and long-term maintainability. While it is possible to use an existing user account with sufficient privileges, using a system-owned identity is the preferred approach.
+It's recommended to create a dedicated expense agent user to ensure that the agent runs independently of any employee’s identity. This helps with security, manageability, and long-term maintainability. While it's possible to use an existing user account with sufficient privileges, using a system-owned identity is the preferred approach.
 
 #### A. Create the User in Azure AD
 
-1. Go to the [Azure Portal](https://portal.azure.com/) and create a new user under **Microsoft Entra ID** (formerly Azure Active Directory).
+1. Go to the [Azure portal](https://portal.azure.com/) and create a new user under **Microsoft Entra ID** (formerly Azure Active Directory).
 
 #### B. Add the User to the Power Platform Environment
 
 1. Go to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/) and select the appropriate environment.
-2. Click **See all users**, then **Add user**, and select the newly created agent user.
+2. Select **See all users**, then **Add user**, and select the newly created agent user.
 
 #### C. Assign Required Roles in the Power Platform Admin Center
 
 1. In the same **Power Platform Admin Center**, select the environment.
-2. Locate the agent user and click **Manage Roles**.
+2. Locate the agent user and select **Manage Roles**.
 3. Assign the following roles:
    - **System Customizer**
    - **Expense AI Agent Role**
@@ -102,7 +102,7 @@ These roles provide access to Dataverse and Power Automate components required f
 1. In the **Finance and Operations** portal, go to **System Administration > Users**.
 2. Create a new user record for the agent user.
 3. Assign the **System Administrator** role.
-4. Click **Save** to persist the configuration.
+4. Select **Save** to persist the configuration.
 
 ---
 
@@ -140,12 +140,12 @@ The Expense Agent uses a shared mailbox to receive receipt emails. This mailbox 
 1. Go to the [Microsoft 365 Admin Center](https://admin.microsoft.com/) and sign in with an Exchange Admin account.
 2. In the left-hand navigation pane, select **Teams & Groups > Shared mailboxes**.  
    If you don’t see it immediately, select **Show all** to expand the list.
-3. Click **Add a shared mailbox**.
+3. Select **Add a shared mailbox**.
 4. Enter a name and email address for the shared mailbox.  
    *Recommended format:* `expenseagent@contoso.com`
-5. Click **Save changes**. It may take a few minutes before member management becomes available.
+5. Select **Save changes**. It may take a few minutes before member management becomes available.
 6. Under **Next steps**, choose **Add members to this mailbox**.
-7. Select the agent user (and any others who should monitor the mailbox), then click **Add** and **Close**.
+7. Select the agent user (and any others who should monitor the mailbox), then select **Add** and **Close**.
 
 Once the mailbox is set up, provide its email address and the folder path (default: `Inbox`) as environment variables when configuring the Expense Agent.
 
@@ -155,7 +155,7 @@ Once the mailbox is set up, provide its email address and the folder path (defau
 
 #### Option 1: Using PowerShell Script (Recommended)
 
-Setting up the agent manually involves creating and linking connections, enabling Power Automate flows, and publishing the solution — a process that can be time-consuming and error-prone. To simplify this, you can use a PowerShell script and configuration file (`AgentConfig.json`) to automate the setup.
+Setting up the agent manually involves creating and linking connections, enabling Power Automate flows, and publishing the solution — a process that can be time-consuming and error-prone. You can use a PowerShell script and configuration file (`AgentConfig.json`) to automate the setup.
 
 #### What the Script Does
 
@@ -239,7 +239,7 @@ Before running the script, configure the file with values relevant to your envir
 
 1. Go to the [Power Apps Maker Portal](https://make.powerapps.com/) and select your environment.
 2. Navigate to **Connections**.
-3. Click **New connection** and select the appropriate connector (e.g., Outlook, Teams, etc.).
+3. Select **New connection** and select the appropriate connector (for example, Outlook, Teams, etc.).
 4. Once created, copy the **connection ID** and paste it into the `AgentConfig.json` file under the appropriate connector entry.
 
 #### Running the Script
@@ -270,14 +270,14 @@ If you prefer not to use the PowerShell script, you can manually configure the E
 Update the following environment variables to configure the agent:
 
 1. Go to the [Power Apps Maker Portal](https://make.powerapps.com/) and select your environment.
-2. Click **Solutions**, then open the **Default Solution** (or the solution where the agent is installed).
+2. Select **Solutions**, then open the **Default Solution** (or the solution where the agent is installed).
 3. Navigate to **Environment Variables**, and set the following values:
 
 | Variable Name                             | Description                                                                                     |
 |------------------------------------------|-------------------------------------------------------------------------------------------------|
 | `Expense Agent Outlook Folder Path`      | Folder path within the shared mailbox to monitor (default is `Inbox`).                         |
 | `Expense Agent Shared Mailbox Address Id`| Email address of the shared mailbox. Use `NA` if using the signed-in user's mailbox.            |
-| `Finance and Operations Instance Url`    | Finance and Operations environment URL (e.g., `https://xxxxx.operations.dynamics.com`).         |
+| `Finance and Operations Instance Url`    | Finance and Operations environment URL (for example, `https://xxxxx.operations.dynamics.com`).         |
 
 #### 2. Enable Power Automate Flows
 
@@ -290,7 +290,7 @@ The Expense Entry Agent relies on the following Power Automate flows:
 - `send expense report adaptive card`  
 - `process emails`  
 - `extract unattached receipt ids for copilot invocation`  
-- `extract unattached receipt output using dataverse plugin`  
+- `extract unattached receipt output using Dataverse plugin`  
 - `generate expense line`  
 - `generate expense line without project id and status id`  
 - `identify project ids`  
@@ -300,13 +300,13 @@ The Expense Entry Agent relies on the following Power Automate flows:
 **To enable these flows:**
 
 1. Go to [Power Automate](https://make.powerautomate.com/) and select your environment.
-2. Click **My Flows** and locate each of the Expense Agent flows listed above.
+2. Select **My Flows** and locate each of the Expense Agent flows in the previous list.
 3. For each flow:
-   - Click **Edit**
+   - Select **Edit**
    - Switch to the **Old Designer** by toggling off the "New Designer"
    - Authenticate any required connections (until green checkmarks appear)
-   - Click **Continue** → **Save**
-   - Click **Turn On** to enable the flow
+   - Select **Continue** → **Save**
+   - Select **Turn On** to enable the flow
 
 Repeat this process for each of the 13 flows listed.
 
@@ -317,15 +317,15 @@ After all variables and flows are configured:
 
 1. In the **Power Apps Maker Portal**, go to **Solutions**.
 2. Select your environment and solution.
-3. Click **Publish all customizations**.
+3. Select **Publish all customizations**.
 
-Upon completing these steps, the Expense Entry Agent will be fully configured and ready to use without requiring any scripts.
+After you complete these steps, the Expense Entry Agent is fully configured and ready to use without requiring any scripts.
 
 ---
 
 ### Step 7: Expense Agent – Teams Enablement
 
-To enable Teams-based communication using the Expense Entry Agent, you must add the Microsoft Teams channel to the agent through the Power Apps Maker Portal. This allows the agent to send adaptive cards and receive input via Teams.
+To enable Teams-based communication using the Expense Entry Agent, you must add the Microsoft Teams channel to the agent through the Power Apps Maker Portal. Adding the channel allows the agent to send adaptive cards and receive input via Teams.
 
 
 #### Steps to Enable the Microsoft Teams Channel:
@@ -333,12 +333,11 @@ To enable Teams-based communication using the Expense Entry Agent, you must add 
 1. Go to the [Power Apps Maker Portal](https://make.powerapps.com/) and open the **Agents** tab.
 2. Select **Expense Entry Agent**.
 3. In the agent view, go to the **Channels** tab and select **Microsoft Teams**.
-4. Click **Add channel** to enable Teams integration.  
-   👉 [View Microsoft documentation for this step](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#open-the-configuration-panel-for-the-microsoft-teams-channel)
+4. Select **Add channel** to enable Teams integration. Learn more in [View Microsoft documentation for this step](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#open-the-configuration-panel-for-the-microsoft-teams-channel).
 
 #### Configure Teams App Availability:
 
-1. After the Teams app is created, click **Availability Options**.
+1. After the Teams app is created, select **Availability Options**.
 2. Choose to share the app with:
    - Specific users within the organization, or  
    - The entire organization
@@ -351,7 +350,6 @@ To enable Teams-based communication using the Expense Entry Agent, you must add 
 3. Assign **App Setup Policies** to users.
 4. If needed, update **Permission Policies** to allow agent access based on your organization’s Teams settings.
 
-📘 For more information, refer to the official documentation:  
-[Add a bot to Microsoft Teams](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams)
+Learn more in [Add a bot to Microsoft Teams](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
