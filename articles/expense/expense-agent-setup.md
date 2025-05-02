@@ -49,8 +49,7 @@ Installing and setting up the Expense Agent involves the following steps:
 
 The Expense Agent is delivered as part of the **Copilot for Finance and Operations** package. Once this package is installed in your environment, all required assets—including the agent, environment variables, and Power Automate flows—become available automatically.
 
-For detailed guidance on enabling Copilot in your environment, refer to the official documentation:  
-🔗 [Enable Copilot features in Finance and Operations](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot)
+Learn more about enabling Copilot in your environment in [Enable Copilot features in Finance and Operations](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
 
 Each of these steps is described in detail in the sections that follow.
 To complete the steps described in this article, you must have **System administrator** or **System customizer** access in the Power Platform admin center, **System administrator** access in Dynamics 365 Finance and Operations, and **Exchange administrator** access in Microsoft 365 to configure the shared mailbox. If you plan to enable Teams integration, you also need the required permissions in the **Teams admin center**.
@@ -333,7 +332,7 @@ To enable Teams-based communication using the Expense Entry Agent, you must add 
 1. Go to the [Power Apps Maker Portal](https://make.powerapps.com/) and open the **Agents** tab.
 2. Select **Expense Entry Agent**.
 3. In the agent view, go to the **Channels** tab and select **Microsoft Teams**.
-4. Select **Add channel** to enable Teams integration. Learn more in [View Microsoft documentation for this step](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#open-the-configuration-panel-for-the-microsoft-teams-channel).
+4. Select **Add channel** to enable Teams integration. Learn more in [View Microsoft documentation for this step](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#open-the-configuration-panel-for-the-microsoft-teams-channel).
 
 #### Configure Teams App Availability:
 
@@ -350,6 +349,6 @@ To enable Teams-based communication using the Expense Entry Agent, you must add 
 3. Assign **App Setup Policies** to users.
 4. If needed, update **Permission Policies** to allow agent access based on your organization’s Teams settings.
 
-Learn more in [Add a bot to Microsoft Teams](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
+Learn more in [Add a bot to Microsoft Teams](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
