@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-The Expense Agent brings together capabilities from Microsoft Dynamics 365 Project Operations, finance and operations apps, Microsoft Copilot Studio, Microsoft Power Automate, and Microsoft Dataverse to automate expense processing workflows using AI. It enables your system to process receipts and generate expense lines and reports for users—saving time and reducing manual effort. It uses Microsoft Power Platform Connectors to integrate with Outlook, Microsoft Teams, user calendars, and the finance and operations apps environment via Dataverse virtual entities.
+The Expense Agent brings together capabilities from Microsoft Dynamics 365 Project Operations, finance and operations apps, Microsoft Copilot Studio, Microsoft Power Automate, and Microsoft Dataverse to automate expense processing workflows using AI. The Expense Agen enables your system to process receipts and generate expense lines and reports for users to save time and reduce manual effort. It uses Microsoft Power Platform Connectors to integrate with Outlook, Microsoft Teams, user calendars, and the finance and operations apps environment via Dataverse virtual entities.
 
 The Expense Agent includes multiple flows, three of which serve as core orchestrators:
 
@@ -51,7 +51,7 @@ To complete the steps described in this article, you must have **System administ
 
 ### Step 1: Install Copilot for finance and operations apps
 
-The Expense Agent is delivered as part of the **Copilot for Finance and Operations** package. Once this package is installed in your environment, all required assets—including the agent, environment variables, and Power Automate flows—become available automatically.
+The Expense Agent is delivered as part of the **Copilot for Finance and Operations** package. Once this package is installed in your environment, all required assetsincluding the agent, environment variables, and Power Automate flowsbecome available automatically.
 
 Learn more about enabling Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
 
@@ -114,9 +114,7 @@ These roles enable the agent to interact with Power Automate flows, environment 
 
 #### Shared mailbox access
 
-The agent user must also have the following Microsoft Graph permission:
-
-- `Mail.Shared.Read` — Allows the agent to read receipts from the configured shared mailbox during flow execution.
+The agent user must also have the Microsoft Graph permission `Mail.Shared.Read` that allows the agent to read receipts from the configured shared mailbox during flow execution.
 
 ### Step 5: Set Up the shared mailbox
 
@@ -257,7 +255,7 @@ If you prefer not to use the PowerShell script, you can manually configure the E
 
 ##### 1. Update Environment Variables
 
-Update the following environment variables to configure the agent:
+To configure the agent, update the following environment variables.
 
 1. Go to the [Power Apps Maker Portal](https://make.powerapps.com/) and select your environment.
 1. Select **Solutions**, then open the **Default Solution** (or the solution where the agent is installed).
