@@ -15,6 +15,7 @@ ms.author: dishantpopli
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 In Microsoft Dynamics 365 Project Operations, users can update the progress of a task directly from the task grid. Whether a user is allowed to update the **% Complete** depends on a field called **Allow percent complete update**. This field controls if users can make changes to the **% Complete** from the task grid. This field can have following values:
+
 | Value            | Behavior |
 |------------------|----------|
 | **No**   | The **% Complete** field can't be updated directly from the task grid. Instead, users must submit their time entry, which updates the **Effort** and, in turn, adjusts the **% Complete** for the task.|
