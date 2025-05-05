@@ -22,13 +22,9 @@ The Microsoft Dynamics 365 Project Operations Approvals Agent requires a few ste
 
 To start the setup, navigate to https://make.powerapps.com. From here using the environment selector at the top of the page, select the environment where the agents were installed. Once you are in the context of the correct environment, select *Solutions* from the left pane, filter by *managed solutions*, and select *Project Service Agent*.
 
-![Go to correct solution](media/agentsetup1.png)
-
 Select *Connection references* from the second frame from the left titled *Objects*. This will bring up a list of connection references. Select the radio button next to the Connection references named *Microsoft Copilot Studio* and *Microsoft Dataverse*, then choose *Advanced* on the ribbon. On the drop-down menu select *Add to solution* and then select *Common Data Services Default Solution*, then select *Save*.
 
 ![Add connections to solution](media/agentsetup2.png)
-
-![Choose default solution](media/agentsetup3.png)
 
 Now that those connections are added to the default solution, select Back to solutions from the far-left frame, filter by Unmanaged solutions, and select the *Common Data Services Default Solution*. Again, navigate to the *Connection references* under objects. Here you should see the *Microsoft Copilot Studio* and *Microsoft Dataverse* connection references. Select the radio button next to *Microsoft Copilot Studio* and then select edit from the ribbon. A new form will appear and under connection open the drop down and select New connection.
 
@@ -42,8 +38,6 @@ This will open a new tab with a list of connections. In the top right enter Copi
 Returning to the previous tab, repeat these steps for the Microsoft Dataverse Connection reference except this time connect to *Microsoft Dataverse*.
 
 ![Copilot Studio Connection](media/agentsetup5.png)
-
-![Dataverse Connection](media/agentsetup6.png)
 
 Lastly return to the common Data Services Default Solution > Connection references page and select the correct user under *Connection*.
 
