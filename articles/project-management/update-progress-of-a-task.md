@@ -29,16 +29,20 @@ In Microsoft Dynamics 365 Project Operations, users can update the progress of a
 
 
 This field is available from two places:
-- **Project Parameter** - The value set here is the default for all projects for the selected organization. To change the **Project Parameter**, go to **Settings > Parameters**.
+- **Project Parameter** - The value set is the default for all projects for the selected organization. To change the **Project Parameter**, go to **Settings > Parameters**.
 - **Project Summary Page** - A user can change the default value for a specific project by updating it directly at the project level.
 
-![Screenshot that shows project parameters.](media/allow-percent-complete-update-project-parameter.png)
+The following screenshot shows where to enable the **% Complete** on the project summary page.
 
+:::image type="content" source="media/allow-percent-complete-update-project-parameter.png" alt-text="Screenshot that shows project parameters.":::
 
-![Screenshot that shows project summary page.](media/allow-percent-complete-update-project-summary.png)
+The following screenshot shows where to enable the **% Complete** on the project summary page.
 
+:::image type="content" source="media/allow-percent-complete-update-project-summary.png" alt-text="Screenshot that shows project summary page.":::
 
-![Screenshot that shows task grid.](media/allow-percent-complete-update-task-grid.png)
+The following screenshot shows changing the **% Complete** on the task grid.
+
+:::image type="content" source="media/allow-percent-complete-update-task-grid.pn" alt-text="Screenshot that shows task grid.":::
 
 ## Scenario 1: Allow percent complete update is set to Yes
 - **Update the % Complete on task grid** - The **% Complete** field on the task grid is editable. Users can enter any value between 0 and 100 to update the task's completion status. In the background, the value entered in the **% Complete field** is used to calculate and update the **Effort** field on the task grid. Alternatively, users can submit time entry, which updates the **Effort** field and, in turn, adjust the **% Complete** value.
