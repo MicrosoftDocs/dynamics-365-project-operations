@@ -157,67 +157,66 @@ The PowerShell script automates:
 Before running the script, configure the file with values relevant to your environment:
 
 ```json
-{
-  "modules": {
-    "Expense": {
-      "environmentVariables": {
-        "msdyn_ExpenseFnoInstanceUrl": "<your-finance-url>",
-        "msdyn_ExpenseAgentOutlookFolderPath": "Inbox",
-        "msdyn_ExpenseAgentMailboxAddressId": "NA"
-      },
-      "connectors": [
-        {
-          "Name": "shared_commondataserviceforapps",
-          "id": "<your-dataverse-connection-id>",
-          "connectionRefName": "msdyn_sharedcommondataserviceforapps_xxxx",
-          "DisplayName": "Dataverse"
-        },
-        {
-          "Name": "shared_office365",
-          "id": "<your-outlook-connection-id>",
-          "connectionRefName": "msdyn_sharedoffice365_xxxx",
-          "DisplayName": "Office 365 Outlook"
-        },
-        {
-          "Name": "shared_office365users",
-          "id": "<your-user-connection-id>",
-          "connectionRefName": "msdyn_sharedoffice365users_xxxx",
-          "DisplayName": "Office 365 Users"
-        },
-        {
-          "Name": "shared_teams",
-          "id": "<your-teams-connection-id>",
-          "connectionRefName": "msdyn_sharedteams_xxxx",
-          "DisplayName": "Microsoft Teams"
-        },
-        {
-          "Name": "shared_microsoftcopilotstudio",
-          "id": "<your-copilot-connection-id>",
-          "connectionRefName": "msdyn_sharedmicrosoftcopilotstudio_xxxx",
-          "DisplayName": "Microsoft Copilot Studio"
+"modules": {
+        "Expense": {
+            "environmentVariables": {
+                "msdyn_ExpenseFnoInstanceUrl": "https://xxxxx.operations.dynamics.com",
+                "msdyn_ExpenseAgentOutlookFolderPath": "Inbox",
+                "msdyn_ExpenseAgentMailboxAddressId": "NA"
+            },
+            "connectors": [
+                {
+                    "Name": "shared_commondataserviceforapps",
+                    "id": "",
+                    "connectionRefName": "msdyn_sharedcommondataserviceforapps_2c2d4",
+                    "DisplayName": "Dataverse"
+                },
+                {
+                    "Name": "shared_teams",
+                    "id": "",
+                    "connectionRefName": "msdyn_sharedteams_8ea9c",
+                    "DisplayName": "Microsoft Teams"
+                },
+                {
+                    "Name": "shared_office365",
+                    "id": "",
+                    "connectionRefName": "msdyn_sharedoffice365_9b471",
+                    "DisplayName": "Office 365 Outlook"
+                },
+                {
+                    "Name": "shared_office365users",
+                    "id": "",
+                    "connectionRefName": "msdyn_sharedoffice365users_909b9",
+                    "DisplayName": "Office 365 Users"
+                },
+                {
+                    "Name": "shared_microsoftcopilotstudio",
+                    "id": "",
+                    "connectionRefName": "msdyn_sharedmicrosoftcopilotstudio_26d9d",
+                    "DisplayName": "Microsoft Copilot Studio"
+                }
+            ],
+            "flows": [
+                "expense entry retry check",
+                "expense configuration",
+                "get expense outlook folder",
+                "generate expense report",
+                "send expense report adaptive card",
+                "process emails",
+                "extract unattached receipt ids for copilot invocation",
+                "extract unattached receipt output using dataverse plugin",
+                "generate expense line",
+                "generate expense line without project id and status id",
+                "identify project ids",
+                "user calender events",
+                "process expense report using copilot"
+            ],
+            "agents":[
+                "msdyn_ExpenseEntryAgent",
+                "msdyn_ExpenseReportAgent"
+            ]
         }
-      ],
-      "flows": [
-        "expense entry retry check",
-        "expense configuration",
-        "get expense outlook folder",
-        "generate expense report",
-        "send expense report adaptive card",
-        "process emails",
-        "extract unattached receipt ids for copilot invocation",
-        "extract unattached receipt output using dataverse plugin",
-        "generate expense line",
-        "generate expense line without project id and status id",
-        "identify project ids",
-        "user calendar events",
-        "process expense report using copilot"
-      ],
-      "agents": [
-        "msdyn_ExpenseEntryAgent",
-        "msdyn_ExpenseReportAgent"
-      ]
     }
-  }
 }
 ```
 
@@ -232,12 +231,544 @@ To create the connections, follow these steps.
 
 ##### Run the script
 
-Once your configuration is ready, run the script using the following command:
+Once your configuration is ready, run the following script after inserting the required environment variables:
 
 ```powershell
-.\setup.ps1 -environmentId "<your-environment-id>" -dataverseUrl "<your-dataverse-url>" -ConfigModuleName "Expense"
-```
+Param(
 
+   [Parameter(Mandatory=$true, HelpMessage="Dataverse environment id")]
+   [string]$environmentId = "", 
+
+   [Parameter(Mandatory=$true, HelpMessage="Dataverse environment URL")]
+   [string]$dataverseUrl = "",
+
+   [Parameter(Mandatory=$true, HelpMessage="Config Module Name")]
+   [string]$ConfigModuleName = ""
+)
+
+# Install the required modules if not already installed
+if (-not (Get-Module -ListAvailable -Name Microsoft.PowerApps.PowerShell)) {
+    Install-Module -Name Microsoft.PowerApps.PowerShell -AllowClobber -Scope CurrentUser
+}
+
+if (-not (Get-Module -ListAvailable -Name Microsoft.PowerApps.Administration.PowerShell)) {
+    Install-Module -Name Microsoft.PowerApps.Administration.PowerShell -AllowClobber -Scope CurrentUser
+}
+
+# Install the required modules if not already installed
+if (-not (Get-Module -ListAvailable -Name Az.Accounts)) {
+    Install-Module -Name Az.Accounts -AllowClobber -Scope CurrentUser
+}
+
+# Import required modules
+Import-Module Az.Accounts
+Import-Module Microsoft.PowerApps.PowerShell
+Import-Module Microsoft.PowerApps.Administration.PowerShell
+
+# global variable declaration
+$filter = '$filter'
+
+# Function to authenticate interactively and retrieve an access token
+function Get-AccessToken {
+    Write-Host "Authenticating interactively..." -ForegroundColor Green
+
+    # Retrieve the access token for the Dataverse environment
+    $accessToken = (Get-AzAccessToken -ResourceUrl "$dataverseUrl").Token
+    Write-Host "Access token retrieved successfully." -ForegroundColor Green
+    return $accessToken
+}
+
+# update the enviornment from user input
+function Update-EnvironmentVariables {
+    param (
+        [string]$accessToken   # Access token for authentication
+    )
+    write-host "Updating environment variables..." -ForegroundColor Yellow
+
+    foreach ($key in $environmentVariables.PSObject.Properties.Name) {
+        $value = $environmentVariables.$key
+        Write-Host "Updating environment variable: $key with value: $value" -ForegroundColor Yellow
+
+        # Get the environment variable definition
+        $envVarDefinition = Invoke-RestMethod -Method Get -Uri "$dataverseUrl/api/data/v9.2/environmentvariabledefinitions?$filter=schemaname eq '$key'" -Headers @{
+            Authorization = "Bearer $accessToken"
+        }
+
+        if ($envVarDefinition.value -ne $null) {
+            $envVarDefId = $envVarDefinition.value[0].environmentvariabledefinitionid
+
+            # Get the environment variable value record
+            $filterValue = [System.Web.HttpUtility]::UrlEncode("_environmentvariabledefinitionid_value eq $envVarDefId")
+            $envVarValue = Invoke-RestMethod -Method Get -Uri "$dataverseUrl/api/data/v9.2/environmentvariablevalues?$filter=$filterValue" -Headers @{
+                Authorization = "Bearer $accessToken"
+            }
+
+            if ($envVarValue.value -ne $null) {
+                $envVarValueId = $envVarValue.value[0].environmentvariablevalueid
+
+                # Update the environment variable value
+                Invoke-RestMethod -Method Patch -Uri "$dataverseUrl/api/data/v9.2/environmentvariablevalues($envVarValueId)" -Headers @{
+                    Authorization = "Bearer $accessToken"
+                    "Content-Type" = "application/json"
+                } -Body (@{ value = $value } | ConvertTo-Json -Depth 1)
+            } else {
+                Write-Host "Environment variable value not found for $key. Skipping..." -ForegroundColor Red
+            }
+        } else {
+            Write-Host "Environment variable definition not found for $key. Skipping..." -ForegroundColor Yellow
+        }
+    }
+}
+
+# Function to publish the solution
+function Publish-Solution {
+    param (
+        [string]$accessToken
+    )
+
+    Write-Host "Publishing All" -ForegroundColor Yellow
+
+    # Construct the API endpoint for publishing the solution
+    $uri = "$dataverseUrl/api/data/v9.2/PublishAllXml"
+
+
+    # Make the API call
+    try {
+        Invoke-RestMethod -Method Post `
+            -Uri $uri `
+            -Headers @{
+                Authorization = "Bearer $accessToken"
+                "Content-Type" = "application/json"
+            }
+
+        Write-Host "Publish All - Success!" -ForegroundColor Green
+    } catch {
+        Write-Host "Failed to publish. Error: $($_.Exception)" -ForegroundColor Red
+    }
+}
+
+function Get-FlowGuidByName {
+    param (
+        [string]$accessToken,   # Access token for authentication
+        [string]$flowName       # Name of the flow to search for
+    )
+
+    Write-Host "Retrieving GUID for flow: $flowName" -ForegroundColor Yellow
+
+    # Construct the API endpoint with a filter for the flow name
+    $encodedFlowName = [System.Web.HttpUtility]::UrlEncode($flowName)
+    $uri = "$dataverseUrl/api/data/v9.2/workflows?$filter=name eq '$encodedFlowName'"
+
+    try {
+        # Make the API call
+        $response = Invoke-RestMethod -Method Get `
+            -Uri $uri `
+            -Headers @{
+                Authorization = "Bearer $accessToken"
+                "Content-Type" = "application/json"
+            }
+
+        # Check if the flow was found
+        if ($response.value.Count -gt 0) {
+            $flow = $response.value[0]
+            Write-Host "Flow found: $($flow.name) with GUID: $($flow.workflowid)" -ForegroundColor Green
+            return $flow.workflowid
+        } else {
+            Write-Host "No flow found with the name: $flowName" -ForegroundColor Red
+            return $null
+        }
+    } catch {
+        Write-Host "Failed to retrieve flow GUID. Error: $($_.Exception.Message)" -ForegroundColor Red
+        return $null
+    }
+}
+
+
+# Function to activate a Power Automate flow
+function Activate-Flow {
+    param (
+        [string]$dataverseUrl,  # Dataverse environment URL
+        [string]$accessToken,   # Access token for authentication
+        [string]$flowId         # GUID of the flow to activate
+    )
+
+    Write-Host "Activating flow: $flowId" -ForegroundColor Yellow
+
+    # Construct the request body
+    $body = @{
+        "statecode" = 1  # Activated
+        "statuscode" = 2 # Activated
+    } | ConvertTo-Json -Depth 1 -Compress
+
+    # Construct the API endpoint
+    $uri = "$dataverseUrl/api/data/v9.2/workflows($flowId)"
+
+    # Make the API call
+    try {
+        Invoke-RestMethod -Method Patch `
+            -Uri $uri `
+            -Headers @{
+                Authorization = "Bearer $accessToken"
+                "Content-Type" = "application/json"
+            } `
+            -Body $body
+
+        Write-Host "Flow activated successfully." -ForegroundColor Green
+    } catch {
+        Write-Host "Failed to activate flow. Error: $($_.Exception.Message)" -ForegroundColor Red
+    }
+}
+
+function Get-ConnectionRefIdFromLogicalName  {
+    param (
+        [string]$accessToken,
+        [string]$connectionRefLogicalName
+    )
+    $uri = "$dataverseUrl/api/data/v9.2/connectionreferences?$filter=connectionreferencelogicalname eq '$connectionRefLogicalName'"
+    $response = Invoke-RestMethod -Method Get `
+    -Uri $uri `
+    -Headers @{
+        Authorization = "Bearer $accessToken"
+        "Content-Type" = "application/json"
+    }
+
+    if ($response -ne $null) {
+        write-host "Connection reference id found: $($response.value[0].connectionreferenceid) " -ForegroundColor Green
+        return $response.value[0].connectionreferenceid
+    }
+    else {
+        Write-Host "No connection reference found for logical name: $connectionRefLogicalName" -ForegroundColor Red
+        return $null
+    }
+}
+
+
+# Function to update a connection reference with a connection ID
+function Update-ConnectionReference {
+    param (
+        [string]$accessToken,
+        [string]$connectionRefName,
+        [string]$connectionId
+    )
+
+    Write-Host "Connection Update for connection reference: $connectionRefName with connection ID: $connectionId" -ForegroundColor Yellow
+
+    $connectionRefId = Get-ConnectionRefIdFromLogicalName -accessToken $accessToken -connectionRefLogicalName $connectionRefName
+
+    if ($connectionRefId -eq $null) {
+        Write-Host "Connection reference not found for logical name: $connectionRefName" -ForegroundColor Red
+        return
+    }
+    else {
+        Write-Host "Connection reference ID: $connectionRefId" -ForegroundColor Green
+    }
+
+    $body = @{
+        "connectionid" = "$connectionId"
+    } | ConvertTo-Json -Depth 1
+
+    $uri = "$dataverseUrl/api/data/v9.2/connectionreferences($connectionRefId)"
+    write-host "Updating connection reference URI: $uri" -ForegroundColor Yellow
+
+    Invoke-RestMethod -Method Patch `
+            -Uri $uri `
+            -Headers @{
+            Authorization = "Bearer $accessToken"
+            "Content-Type" = "application/json"
+        } `
+        -Body $body
+
+    Write-Host "Connection reference updated successfully." -ForegroundColor Green
+}
+
+# Function iterate over connectionlist
+function VerifyConnectorsExist {
+    param (
+        [array]$connectionList,
+        [string]$accessToken
+    )
+    $connectionNames = New-Object System.Collections.ArrayList
+
+
+    foreach ($connector in $connectors) {
+        $connectorName = $connector.Name
+        $connectorId = $connector.id
+
+        $connectionRefName = $connector.connectionRefName
+        # Write-Host "Verifying connector: $connectorName with id: $connectorId" -ForegroundColor Yellow
+
+        foreach ($connection in $connectionList) {
+            # Write-Host "Verifying connection: $connection" -ForegroundColor Yellow
+            $connectorNameFromList = $connection.ConnectorName
+            $connectionIdFromList = $connection.ConnectionId
+            $connectionNameFromList = $connection.ConnectionName
+            $statusesFromList = $connection.Statuses | ForEach-Object { $_.status }
+            Write-Host "connections connectorNameFromList: $connectorNameFromList with status: $statusesFromList and Id: $connectionIdFromList " -ForegroundColor Yellow
+
+            # Check if the name exists in the connection list and status is "Connected"
+            if ($connectorName -eq $connectorNameFromList -and $statusesFromList -contains "Connected") {
+                Write-Host "Connector $connectorName exists in the connection list with status 'Connected'." -ForegroundColor Green
+
+                # Check if the connector ID is not empty
+                if ($connectorId -ne "") {
+                    Write-Host "Connector ID: $connectorId" -ForegroundColor Yellow
+                    if ($connectionNameFromList -contains $connectorId) {
+                        Write-Host "Matching connector ID found: $connectorId" -ForegroundColor Green
+                        $connectionNames.Add(@($connectionNameFromList, $connectionRefName)) | Out-Null
+                        $found = $true
+                        break
+                    }
+                } else {
+                    Write-Host "Connector ID is empty for $connectorName. Using existing connection." -ForegroundColor Green
+                    $connectionNames.Add(@($connectionNameFromList, $connectionRefName)) | Out-Null
+                    $found = $true
+                    break
+                }
+            }
+        }
+
+        if (-not $found) {
+            Write-Host "Connector $connectorName does not exist in the connection list or is not 'Connected'." -ForegroundColor Red
+        }
+    }
+    return $connectionNames
+}
+
+# Load configuration from JSON file
+function Load-Configuration {
+    param (
+        [string]$configFilePath,
+        [string]$moduleName
+    )
+
+    if (-not (Test-Path $configFilePath)) {
+        Write-Host "Configuration file not found: $configFilePath" -ForegroundColor Red
+        throw "Configuration file not found."
+    }
+
+    $config = Get-Content -Path $configFilePath | ConvertFrom-Json
+    if (-not $config.modules.$moduleName) {
+        Write-Host "Module '$moduleName' not found in configuration." -ForegroundColor Red
+        throw "Module not found."
+    }
+
+    Write-Host "Configuration for module '$moduleName' loaded successfully." -ForegroundColor Green
+    return $config.modules.$moduleName
+}
+
+#  check connections present
+function Check-Connections {
+    param (
+        [string]$accessToken,
+        [string]$userId
+    )
+
+    Write-Host "Checking connections for environment id $environmentId" -ForegroundColor Yellow
+
+    # Get the list of existing connections
+    $connectionList = Get-PowerAppConnection -EnvironmentName $environmentId
+
+    # Verify if the connectors exist and are connected
+    $connectionOutput = VerifyConnectorsExist -connectionList $connectionList -accessToken $accessToken
+
+    if ($connectionOutput.Count -eq 0) {
+        Write-Host "No valid connections found. Please goto maker portal to create all the required connections." -ForegroundColor Red
+        exit(0)
+    } else {
+        if ($connectionOutput.Count -eq  $connectors.Count) {
+            Write-Host "All the connectors are present" -ForegroundColor Green
+        } else {
+            Write-Host "$($connectionOutput.Count) out of $($connectors.Count) Present. Please goto maker portal to create all the required connections." -ForegroundColor Red
+            exit(0)
+        }
+        return $connectionOutput
+    }
+}
+
+function Link-ConnectionReferences {
+    param (
+        [string]$accessToken,
+        [array]$connectionOutput
+    )
+
+    foreach ($connection in $connectionOutput) {
+        $connectionName = $connection[0]
+        $connectionRefName = $connection[1]
+        Write-Host "connectionName $connectionName connectionRefName $connectionRefName." -ForegroundColor Yellow
+
+        # Update the connection reference with the connection ID
+        if ( $connectionRefName -ne "") {
+            Write-Host "Updating connection reference: $connectionRefName with connection ID: $connectionName" -ForegroundColor Yellow
+            Update-ConnectionReference -accessToken $accessToken -connectionRefName $connectionRefName -connectionId $connectionName
+        } else {
+            Write-Host "No connection reference found for logical name: $connectionRefName. Skipping the linkage" -ForegroundColor Yellow
+        }
+    }
+
+}
+
+function Activate-Flows {
+    param (
+        [string]$accessToken,
+        [array]$expenseAIFlows
+    )
+
+    foreach ($flowName in $expenseAIFlows) {
+        Write-Host "Retrieving GUID for flow: $flowName" -ForegroundColor Yellow
+
+        # Call the Get-FlowGuidByName function to get the flow GUID
+        $flowGuid = Get-FlowGuidByName -dataverseUrl $dataverseUrl -accessToken $accessToken -flowName $flowName
+
+        if ($flowGuid -ne $null) {
+            Write-Host "Flow Name: $flowName, Flow GUID: $flowGuid" -ForegroundColor Green
+            Activate-Flow -dataverseUrl $dataverseUrl -accessToken $accessToken -flowId $flowGuid
+            # Write-Host "Flow Name: $flowName, Flow GUID: $flowGuid Activated" -ForegroundColor Green
+        } else {
+            Write-Host "Flow Name: $flowName not found." -ForegroundColor Red
+        }
+    }
+}
+
+
+# Function to retrieve the Agent ID by name
+function Get-AgentIdBySchemaName {
+    param (
+        [string]$dataverseUrl,
+        [string]$accessToken,
+        [string]$agentSchemaName
+    )
+
+    Write-Host "Retrieving agent ID for agent schema: $agentSchemaName" -ForegroundColor Yellow
+
+    # Construct the API endpoint to retrieve the bot
+    $uri = "$dataverseUrl/api/data/v9.2/bots?$filter=schemaname eq '$agentSchemaName'"
+
+    try {
+        # Make the API call
+        $response = Invoke-RestMethod -Method Get -Uri $uri -Headers @{
+            Authorization = "Bearer $accessToken"
+            "Content-Type" = "application/json"
+        }
+
+        if ($response.value.Count -gt 0) {
+            $agentId = $response.value[0].botid
+            Write-Host "Agent found: $agentSchemaName with ID: $agentId" -ForegroundColor Green
+            return $agentId
+        } else {
+            Write-Host "No agent found with the name: $agentSchemaName" -ForegroundColor Red
+            return $null
+        }
+    } catch {
+        Write-Host "Failed to retrieve agent ID. Error: $($_.Exception.Message)" -ForegroundColor Red
+        return $null
+    }
+}
+
+# Function to publish a PVA bot
+function Publish-Agent {
+    param (
+        [string]$dataverseUrl,
+        [string]$accessToken,
+        [string]$agentId
+    )
+
+    Write-Host "Publishing agent with ID: $agentId" -ForegroundColor Yellow
+
+    # Construct the API endpoint for publishing the bot
+    $uri = "$dataverseUrl/api/data/v9.2/bots($agentId)/Microsoft.Dynamics.CRM.PvaPublish"
+
+    try {
+        # Make the API call
+        Invoke-RestMethod -Method Post -Uri $uri -Headers @{
+            Authorization = "Bearer $accessToken"
+            "Content-Type" = "application/json"
+        }
+
+        Write-Host "Agent published successfully!" -ForegroundColor Green
+        # Add 30 second delay to allow the publish process to complete
+        Start-Sleep -Seconds 30
+    } catch {
+        Write-Host "Failed to publish Agent. Error: $($_.Exception.Message)" -ForegroundColor Red
+    }
+}
+
+function Publish-Agents {
+    param (
+        [string]$accessToken,
+        [array]$agentSchemas
+    )
+
+    if (-not $agentSchemas -or $agentSchemas.Count -eq 0) {
+        Write-Host "No agent schemas provided. Skipping agent publishing." -ForegroundColor Yellow
+        return
+    }
+
+    foreach ($agentSchema in $agentSchemas) {
+        Write-Host "Publishing agent schema: $agentSchema" -ForegroundColor Yellow
+
+        try {
+                # Construct the API endpoint for publishing the agent schema
+                $agentId = Get-AgentIdBySchemaName -dataverseUrl $dataverseUrl -accessToken $accessToken -agentSchemaName $agentSchema
+
+                if ($agentId -ne $null) {
+                    # Step 4: Publish the bot
+                    Publish-Agent -dataverseUrl $dataverseUrl -accessToken $accessToken -agentId $agentId
+                } else {
+                    Write-Host "Agent not found. Cannot proceed with publishing.Skipping the step" -ForegroundColor Yellow
+                }
+        }
+        catch {
+            Write-Host "An error occurred while publishing agent schema: $agentSchema. Error: $_" -ForegroundColor Red
+        }
+    }
+
+}
+
+
+
+# Main script execution
+try {
+
+    # Step 0: Load Configuration
+    $configFilePath = ".\AgentConfig.json"
+    $moduleName   = $ConfigModuleName # Change this to "Time" or "Approvals" as needed
+    $moduleConfig = Load-Configuration -configFilePath $configFilePath -moduleName $moduleName
+    $environmentVariables = $moduleConfig.environmentVariables
+    $connectors = $moduleConfig.connectors
+    $expenseAIFlows = $moduleConfig.flows
+    $agentSchemas = $moduleConfig.agents
+
+    # Step 1: Interactive login to Azure
+    Connect-AzAccount -UseDeviceAuthentication
+    $accessToken = Get-AccessToken
+    $userId  = (Get-AzAccessToken).UserId
+    write-host "User ID: $userId" -ForegroundColor Yellow
+
+    # Step 2: Setup ennviornment variables
+    Update-EnvironmentVariables -accessToken $accessToken 
+    Write-Host "Environment variables updated successfully!" -ForegroundColor Green
+
+    # Step 3: Check active connections
+    $connectionOutput = Check-Connections -accessToken $accessToken -userId $userId
+
+    # Step 4: Link connection references
+    Link-ConnectionReferences -accessToken $accessToken -connectionOutput $connectionOutput
+
+    # Step 5: Activate flows
+    Activate-Flows -accessToken $accessToken -expenseAIFlows $expenseAIFlows
+
+    # step 6: publish the agents
+    Publish-Agents -accessToken $accessToken -agentSchemas $agentSchemas
+
+    # Step 7: Publish the solution 
+    Publish-Solution -accessToken $accessToken
+
+    Write-Host "Agent setup completed successfully!" -ForegroundColor Green
+
+} catch {
+    Write-Host "An error occurred: $_" -ForegroundColor Red
+}
+```
 The script will:
 
 - Set environment variables  
