@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: dishantpopli
 ---
 
-# Updating Percent Complete in Task Grid
+# Update progress of a task
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
@@ -23,14 +23,22 @@ In Microsoft Dynamics 365 Project Operations, users can update the progress of a
 
 
 >[!IMPORTANT]
-> A task with no effort can't be marked as completed. 
+> - A task that has no effort assigned cannot be marked as complete.
+> - If a project is associated with a contract line, the **Allow percent complete update** field is automatically set to **No**, and users cannot change it to **Yes**.
+> - Once **Allow percent complete update** is set to **Yes**, it cannot be changed back to **No**.
 
 
 This field is available at two places:
-- **Project Parameter** - This field is located under Settings > Parameters for the specific organization. The value set here's used as the default for all newly created projects.
+- **Project Parameter** - This field is located under Settings > Parameters for the specific organization. The value set here's used as the default for all projects.
 - **Project Summary Page** - A user can change the default value for a specific project by updating it directly at the project level.
 
-For any existing project, the default value is "No."
+![Screenshot that shows project parameters.](media/allow-percent-complete-update-project-parameter.png)
+
+
+![Screenshot that shows project summary page.](media/allow-percent-complete-update-project-summary.png)
+
+
+![Screenshot that shows task grid.](media/allow-percent-complete-update-task-grid.png)
 
 ## Scenario 1: Allow percent complete update is set to Yes
 - **Update the % Complete on task grid** - The **% Complete** field on the task grid is editable. Users can enter any value between 0 and 100 to update the task's completion status. In the background, the value entered in the **% Complete field** is used to calculate and update the **Effort** field on the task grid. Alternatively, users can submit time entry, which updates the **Effort** field and, in turn, adjust the **% Complete** value.
