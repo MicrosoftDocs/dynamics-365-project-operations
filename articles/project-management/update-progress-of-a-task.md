@@ -1,6 +1,6 @@
 ---
 title: Update progress of a task
-description: This article provides information about the updating the progress of a task directly on the task grid.
+description: Learn how to update the progress of a task directly on the task grid.
 author: dishantpopli
 ms.date: 05/05/2025
 ms.topic: how-to
@@ -12,24 +12,24 @@ ms.author: dishantpopli
 
 # Update progress of a task
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 In Microsoft Dynamics 365 Project Operations, users can update the progress of a task directly from the task grid. Whether a user is allowed to update the **% Complete** depends on a field called **Allow percent complete update**. This field controls if users can make changes to the **% Complete** from the task grid. This field can have following values:
 
 | Value            | Behavior |
 |------------------|----------|
-| **No**   | The **% Complete** field can't be updated directly from the task grid. Instead, users must submit their time entry, which updates the **Effort** and, in turn, adjusts the **% Complete** for the task.|
-| **Yes** | The **% Complete** field can be updated directly from the task grid by either entering a number in the **% Complete** column or by clicking the checkbox next to the task name to mark it as complete.|
+| **No**   | The **% Complete** field can't be updated directly from the task grid. Instead, users must submit their time entry, which updates the **Effort** and adjusts the **% Complete** for the task.|
+| **Yes** | The **% Complete** field can be updated directly from the task grid by either entering a number in the **% Complete** column or by selecting the checkbox next to the task name to mark it complete.|
 
 
 >[!IMPORTANT]
-> - A task that has no effort assigned can't be marked as complete.
+> - Tasks that don't have effort assigned can't be marked as complete.
 > - If a project is associated with a contract line, the **Allow percent complete update** field is automatically set to **No**, and users can't change it to **Yes**.
 > - Once **Allow percent complete update** is set to **Yes**, it can't be changed back to **No**.
 
 
-This field is available at two places:
-- **Project Parameter** - This field is located under Settings > Parameters for the specific organization. The value set here's used as the default for all projects.
+This field is available from two places:
+- **Project Parameter** - The value set here is the default for all projects for the selected organization. To change the **Project Parameter**, go to **Settings > Parameters**.
 - **Project Summary Page** - A user can change the default value for a specific project by updating it directly at the project level.
 
 ![Screenshot that shows project parameters.](media/allow-percent-complete-update-project-parameter.png)
