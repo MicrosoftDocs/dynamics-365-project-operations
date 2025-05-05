@@ -45,7 +45,7 @@ The following types of columns can be added as custom columns in the grid view:
 
 - **Text**
 - **Number**
-- **Date** – The columns must be date-only columns, not date and time columns.
+- **Date** – The columns must be date-only columns, not date, and time columns.
 - **Choice** – The columns must be choice columns, not yes/no columns.
 
 > [!IMPORTANT]
