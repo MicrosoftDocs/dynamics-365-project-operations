@@ -42,7 +42,7 @@ The following screenshot shows where to enable the **% Complete** on the project
 
 The following screenshot shows changing the **% Complete** on the task grid.
 
-:::image type="content" source="media/allow-percent-complete-update-task-grid.pn" alt-text="Screenshot that shows task grid.":::
+:::image type="content" source="media/allow-percent-complete-update-task-grid.png" alt-text="Screenshot that shows task grid.":::
 
 ## Scenario 1: Allow percent complete update is set to Yes
 - **Update the % Complete on task grid** - The **% Complete** field on the task grid is editable. Users can enter any value between 0 and 100 to update the task's completion status. In the background, the value entered in the **% Complete field** is used to calculate and update the **Effort** field on the task grid. Alternatively, users can submit time entry, which updates the **Effort** field and, in turn, adjust the **% Complete** value.
