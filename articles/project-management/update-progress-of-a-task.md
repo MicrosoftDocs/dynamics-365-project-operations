@@ -23,9 +23,9 @@ In Microsoft Dynamics 365 Project Operations, users can update the progress of a
 
 
 >[!IMPORTANT]
-> - A task that has no effort assigned cannot be marked as complete.
-> - If a project is associated with a contract line, the **Allow percent complete update** field is automatically set to **No**, and users cannot change it to **Yes**.
-> - Once **Allow percent complete update** is set to **Yes**, it cannot be changed back to **No**.
+> - A task that has no effort assigned can't be marked as complete.
+> - If a project is associated with a contract line, the **Allow percent complete update** field is automatically set to **No**, and users can't change it to **Yes**.
+> - Once **Allow percent complete update** is set to **Yes**, it can't be changed back to **No**.
 
 
 This field is available at two places:
