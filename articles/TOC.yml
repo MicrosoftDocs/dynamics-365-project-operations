@@ -438,6 +438,8 @@
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
         href: project-management/project-sales-tracking.md
+      - name: Update progress of a task
+        href: project-management/update-progress-of-a-task.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -1290,6 +1292,8 @@
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
         href: project-management/project-sales-tracking.md
+      - name: Update progress of a task
+        href: project-management/update-progress-of-a-task.md
     - name: Project team members
       items: 
       - name: Project team members overview
