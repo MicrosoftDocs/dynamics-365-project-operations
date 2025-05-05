@@ -22,7 +22,7 @@ In Microsoft Dynamics 365 Project Operations, users can update the progress of a
 | **Yes** | The **% Complete** field can be updated directly from the task grid by either entering a number in the **% Complete** column or by clicking the checkbox next to the task name to mark it as complete.|
 
 
->[!NOTE]
+>[!IMPORTANT]
 > A task with no effort can't be marked as completed. 
 
 
