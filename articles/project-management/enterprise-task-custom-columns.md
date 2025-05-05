@@ -3,7 +3,7 @@ title: Add custom columns to the grid view
 description: Learn how to add a custom column to the grid view on the Tasks tab of a project.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 12/05/2024
+ms.date: 05/05/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
