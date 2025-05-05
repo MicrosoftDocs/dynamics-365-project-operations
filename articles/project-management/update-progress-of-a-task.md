@@ -1,6 +1,6 @@
 ---
 title: Update progress of a task
-description: This article provides information about the updating the the progress of a task directly on the task grid.
+description: This article provides information about the updating the progress of a task directly on the task grid.
 author: dishantpopli
 ms.date: 05/05/2025
 ms.topic: how-to
@@ -26,13 +26,13 @@ In Microsoft Dynamics 365 Project Operations, users can update the progress of a
 
 
 This field is available at two places:
-- **Project Parameter** - This field is located under Settings > Parameters for the specific organization. The value set here is used as the default for all newly created projects.
+- **Project Parameter** - This field is located under Settings > Parameters for the specific organization. The value set here's used as the default for all newly created projects.
 - **Project Summary Page** - A user can change the default value for a specific project by updating it directly at the project level.
 
 For any existing project, the default value is "No."
 
 ## Scenario 1: Allow percent complete update is set to Yes
-- **Update the % Complete on task grid** - The **% Complete** field on the task grid is editable. Users can enter any value between 0 and 100 to update the task's completion status. In the background, the value entered in the **% Complete field** is used to calculate and update the **Effort** field on the task grid. Alternatively, users can submit time entry, which will update the **Effort** field and, in turn, adjust the **% Complete** value.
+- **Update the % Complete on task grid** - The **% Complete** field on the task grid is editable. Users can enter any value between 0 and 100 to update the task's completion status. In the background, the value entered in the **% Complete field** is used to calculate and update the **Effort** field on the task grid. Alternatively, users can submit time entry, which updates the **Effort** field and, in turn, adjust the **% Complete** value.
 - **Complete the task instantly** - A user can instantly mark a task as complete by checking the box next to the task name, which sets the **% Complete** field to 100%. If the box is unchecked, the task completion resets to 0%, and any previous **% Complete** value isn't saved.
 
 ## Scenario 2: Allow percent complete update is set to No
