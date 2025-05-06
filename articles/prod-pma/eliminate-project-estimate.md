@@ -3,7 +3,7 @@ title: Eliminate project revenue recognition
 description: This article provides information about eliminating project revenue recognition after the project is complete. 
 author: Yowelle
 ms.date: 10/27/2023
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
