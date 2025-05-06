@@ -3,7 +3,7 @@ title: Manage itemization using the Expense management mobile app
 description: This article explains how to itemize expenses using the Expense management mobile app.
 author: mukumarm
 ms.date: 02/27/2024
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mukumarm
 ---
