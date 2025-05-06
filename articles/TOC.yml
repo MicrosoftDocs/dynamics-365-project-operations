@@ -410,6 +410,8 @@
       href: project-management/copy-project.md
     - name: Add custom columns to the grid view
       href: project-management/enterprise-task-custom-columns.md
+    - name: Access control on task grid
+      href: project-management/access-control-on-task-grid.md
     - name: Project and task limitations
       href: project-management/project-and-task-limitations.md
     - name: Work breakdown structure planning
@@ -1258,6 +1260,8 @@
       href: project-management/update-project.md
     - name: Copy a project
       href: project-management/copy-project.md 
+    - name: Access control on task grid
+      href: project-management/access-control-on-task-grid.md
     - name: Import projects from the Microsoft Project desktop client
       href: project-management/import_from_mpp.md
     - name: Plan your work in Microsoft Project with the Project Operations add-in
