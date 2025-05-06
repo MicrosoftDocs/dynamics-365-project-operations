@@ -4,7 +4,7 @@ description: This article explains how an administrator can make single or bulk 
 author: suvaidya
 ms.author: suvaidya
 ms.date: 06/07/2024
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
