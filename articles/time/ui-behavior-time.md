@@ -93,6 +93,6 @@ After a few time entries have been created, users can create multiple time entri
 The same basic process is used to import from bookings, assignments, and exchanges. You can specify the date range that bookings are imported from and then explicitly select the bookings that should be copied into draft time entries. 
 
 > [!IMPORTANT]
-> As of **May 1st 2025**, there has been a change in security policy due to which the _Import from Exchange Appointments_ functionality will be disabled. More details will be provided about when the service will be available once again and timelines for the same.
+> As of **May 1st 2025**, there has been a change in security policy due to which the _Import from Exchange Appointments_ functionality will be disabled. More details around when the service will be available again are going to be provided soon.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
