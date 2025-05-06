@@ -4,7 +4,7 @@ description: This article provides information about the accounting options for 
 author: ryansandness
 ms.author: ryansandness
 ms.date: 05/24/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
