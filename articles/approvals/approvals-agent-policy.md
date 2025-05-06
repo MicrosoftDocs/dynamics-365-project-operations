@@ -117,11 +117,11 @@ When the Approvals Agent is triggered a predetermined set of data related to the
 
 Below are sample policy documents, which can be used as a starting point. It is recommended to write a policy document as a numbered list of rules, which if the record being checked violates one or more rules it is marked as needs review.
 
-[Time Sample Policy Document](./media/SamplePolicyDocTime.docx)
+[Time Sample Policy Document](https://download.microsoft.com/download/fe7df267-f397-46bd-ae8a-eaeb5ab6f8b0/SamplePolicyDocTime.docx)
 
-[Expense Sample Policy Document](./media/SamplePolicyDocExpense.docx)
+[Expense Sample Policy Document](https://download.microsoft.com/download/fe7df267-f397-46bd-ae8a-eaeb5ab6f8b0/SamplePolicyDocExpense.docx)
 
-[Material Sample Policy Document](./media/SamplePolicyDocMaterial.docx)
+[Material Sample Policy Document](https://download.microsoft.com/download/fe7df267-f397-46bd-ae8a-eaeb5ab6f8b0/SamplePolicyDocMaterial.docx)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
