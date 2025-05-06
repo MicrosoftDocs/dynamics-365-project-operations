@@ -6,7 +6,7 @@ ms.custom:
   - dyn365-projectservice
   - evergreen
 ms.date: 04/09/2024
-ms.topic: article
+ms.topic: upgrade-and-migration-article
 author: JohnPBurrows
 ms.author: rumant
 audience: Admin
