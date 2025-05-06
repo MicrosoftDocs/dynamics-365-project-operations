@@ -5,7 +5,7 @@ title: Configure expense management
 description: This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 Finance. 
 author: KimANelson
 ms.date: 08/29/2017
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
