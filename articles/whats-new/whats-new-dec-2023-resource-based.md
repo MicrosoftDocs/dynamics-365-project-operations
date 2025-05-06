@@ -2,7 +2,7 @@
 title: What's new December 2023 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the December 2023 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: tulsijhaveri
-ms.topic: conceptual
+ms.topic: whats-new
 ms.custom: 
   - bap-template
   - evergreen
