@@ -5,7 +5,7 @@ author: ruhercul
 ms.custom: 
   - evergreen
 ms.date: 04/09/2024
-ms.topic: article
+ms.topic: install-set-up-deploy
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
