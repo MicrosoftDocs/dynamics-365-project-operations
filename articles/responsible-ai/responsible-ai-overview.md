@@ -8,7 +8,7 @@ ms.custom:
   - evergreen
 ms.collection:
   - bap-ai-copilot 
-ms.topic: article
+ms.topic: faq
 author: johnmichalak
 ms.author: johnmichalak
 ms.reviewer: johnmichalak
