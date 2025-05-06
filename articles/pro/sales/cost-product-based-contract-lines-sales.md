@@ -3,7 +3,7 @@ title: Cost product-based contract lines - Lite
 description: This article provides information about creating cost product-based contract lines
 author: rumant
 ms.date: 10/19/2020
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
