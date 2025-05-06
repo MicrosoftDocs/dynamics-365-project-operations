@@ -3,7 +3,7 @@ title: Project budget status management
 description: This article provides information that will help you manage the status of a project budget.
 author: nimaski
 ms.date: 06/24/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
