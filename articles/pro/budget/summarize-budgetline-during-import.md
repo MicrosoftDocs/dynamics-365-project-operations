@@ -3,7 +3,7 @@ title: Summarize budget lines during import
 description: This article explains how budget lines can be summarized during import.
 author: niranjanmaski
 ms.date: 06/24/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

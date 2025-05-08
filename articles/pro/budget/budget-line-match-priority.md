@@ -3,7 +3,7 @@ title: Budget line match priority
 description: This article explains how budget line match priority works for project budgets.
 author: niranjanmaski
 ms.date: 06/24/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
