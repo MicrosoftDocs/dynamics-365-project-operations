@@ -3,7 +3,7 @@ title: Close project quotes
 description: This article provides information about closing a quote in Project Operations.
 author: poojafandan
 ms.date: 06/07/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
