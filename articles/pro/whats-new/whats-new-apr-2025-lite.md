@@ -28,7 +28,8 @@ This article applies to the following components and versions of Microsoft Dynam
 | Time Entry |**Time Entry Agent** <br><br> This agent creates draft time entries for team members based on their project assignments, bookings, or previous week's entries and allows them to review the entries through Microsoft Teams. The agent can also generate external comments for all entries, enhanced by Outlook meeting details. Finally, team members receive alerts for missing submissions. |  |
 | Approvals |**Approvals Agents** <br><br> This agent reviews submitted time, expense, and material usage entries and classifies them as "Ready for Approval" or "Needs review." The classification can assist project managers in making approvals decisions. The agent also includes an automatic approve mode where records marked as "Ready for approval" are automatically approved.|  |
 | Actuals |**Corrections for entry journal actuals** <br><br> Actuals that were created via entry journals can be corrected via the correction journal process.|  |
-
+|Quotes, Contracts, Billing| **Time Zone Independent Milestone Date** <br><br> This feature enables users to use time zone agnostic milestone dates in quotes, contracts and invoicing entities thereby enabling accurate billing of project based milestones| [Use time zone independent date fields](/articles/sales/tz-independent-date-fields.md) |
+|Billing|**Ability to customize Billing Hub** <br><br> This release includes platform and product fixes that enable complete customization of Billing hub contract view and backlog views|[Customize Billing hub views](/articles/proforma-invoicing/billing-hub-customization.md) |
 
 ## Quality updates
 
