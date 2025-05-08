@@ -41,7 +41,7 @@ When a user submits a time, material, or expense record for approval in an envir
 
 When a record is selected in this view the user are shown three options on the ribbon: 
 
-- Approve - The record ise processed for approval.
+- Approve - The record is processed for approval.
 - Reject - The user is prompted for a rejection comment, then the record is rejected and sent back to the submitter.
 - Reassign to Agent - The record is returned to the agent's queue and reevaluated. Use this option when the policy document is updated and the record needs to be reviewed using the new document.
 
