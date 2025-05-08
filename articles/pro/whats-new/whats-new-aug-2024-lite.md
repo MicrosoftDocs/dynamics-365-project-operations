@@ -5,7 +5,7 @@ author: mohitmenon
 ms.custom:
   - evergreen
 ms.date: 08/23/2024
-ms.topic: article
+ms.topic: whats-new
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---

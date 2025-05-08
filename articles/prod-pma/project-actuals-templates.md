@@ -4,7 +4,7 @@ description: This article describes the templates and underlying tasks that are 
 author: suvaidya
 ms.author: suvaidya
 ms.date: 06/10/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

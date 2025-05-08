@@ -4,7 +4,7 @@ description: This article introduces the concept of project quotations, which yo
 author: poojafandan
 ms.author: poojafandan
 ms.date: 06/07/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.search.form: SalesQuotationProjTable

@@ -4,7 +4,7 @@ description: Learn about the Journal line improvements feature in Microsoft Dyna
 author: mukumarm
 ms.author: mukumarm
 ms.date: 09/24/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

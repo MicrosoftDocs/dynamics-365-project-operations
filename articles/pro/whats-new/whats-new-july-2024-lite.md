@@ -3,7 +3,7 @@ title: What's new July 2024 - Project Operations Lite deployment
 description: This article provides information about the quality updates that are available in the July 2024 release of Microsoft Dynamics 365 Project Operations Lite deployment.
 author: mohitmenon
 ms.date: 07/05/2024
-ms.topic: conceptual
+ms.topic: whats-new
 ms.custom: 
   - bap-template
   - evergreen

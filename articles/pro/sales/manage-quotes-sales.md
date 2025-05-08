@@ -3,7 +3,7 @@ title: Manage project quotes
 description: This article provides information about project quotes.
 author: rumant
 ms.date: 11/30/2022
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

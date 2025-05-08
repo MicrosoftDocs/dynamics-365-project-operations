@@ -3,7 +3,7 @@ title: Advances and retainer-based contracts
 description: This article provides information about retainer-based contracting models and advances in Project Operations.
 author: poojafandan
 ms.date: 06/10/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

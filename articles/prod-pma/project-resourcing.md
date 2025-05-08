@@ -4,7 +4,7 @@ description: This article provides information about project resourcing.
 author: tulsij
 ms.author: tulsijhaveri
 ms.date: 05/28/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

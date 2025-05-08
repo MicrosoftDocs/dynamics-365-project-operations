@@ -2,11 +2,11 @@
 title: Project Operations updates
 description: This article provides information about the released versions of Dynamics 365 Project Operations.
 author: abriccetti
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 04/17/2025
+ms.date: 05/07/2025
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
@@ -62,7 +62,7 @@ Dynamics 365 Project Operations consists of two components:
 |---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 |                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
 | **4.140.0.X**       | April 25, 2025             | April 25, 2025             | April 25, 2025             | May 02, 2025               | May 02, 2025               | May 09, 2025               | May 02, 2025               | May 09, 2025               | May 09, 2025               | May 16, 2025               |
-| **4.141.0.X**       | May 16, 2025               | May 16, 2025               | May 16, 2025               | May 23, 2025               | May 23, 2025               | May 30, 2025               | May 30, 2025               | June 06, 2025              | June 06, 2025              | June 13, 2025              |
+| **4.141.0.X**       | May 23, 2025               | May 30, 2025               | May 23, 2025               | May 30, 2025               | May 30, 2025               | June 06, 2025               |June 06, 2025               | June 13, 2025              | June 13, 2025              | June 20, 2025              |
 | **4.142.0.X**       | June 13, 2025              | June 20, 2025              | June 20, 2025              | June 27, 2025              | June 27, 2025              | July 04, 2025              | July 04, 2025              | July 11, 2025              | July 11, 2025              | July 18, 2025              |
 | **4.143.0.X**       | July 11, 2025              | July 18, 2025              | July 18, 2025              | July 25, 2025              | July 25, 2025              | August 01, 2025            | August 01, 2025            | August 09, 2025            | August 09, 2025            | August 16, 2025            |
 

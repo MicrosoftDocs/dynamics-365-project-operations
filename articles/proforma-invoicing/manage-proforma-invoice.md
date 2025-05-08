@@ -6,7 +6,7 @@ ms.author: suvaidya
 ms.custom: 
   - bap-template
 ms.date: 06/10/2024
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: johnmichalak
 
 ---

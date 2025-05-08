@@ -4,7 +4,7 @@ description: This article describes the templates and underlying tasks that are 
 author: abriccetti
 ms.author: abriccetti
 ms.date: 05/21/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 audience: Application User

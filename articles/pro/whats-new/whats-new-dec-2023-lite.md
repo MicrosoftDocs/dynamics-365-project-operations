@@ -3,7 +3,7 @@ title: What's new December 2023 - Project Operations Lite deployment
 description: This article provides information about the quality updates that are available in the December 2023 release of Microsoft Dynamics 365 Project Operations Lite deployment.
 author: tulsijhaveri
 ms.date: 04/09/2024
-ms.topic: conceptual
+ms.topic: whats-new
 ms.custom: 
   - bap-template
   - evergreen

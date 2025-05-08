@@ -4,7 +4,7 @@ description: This article provides information about how sales prices for projec
 author: abriccetti
 ms.author: abriccetti
 ms.date: 01/09/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

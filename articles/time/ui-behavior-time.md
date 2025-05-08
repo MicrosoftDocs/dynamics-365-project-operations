@@ -3,7 +3,7 @@ title: Time entry UI behavior
 description: This article provides information about the behavior of the UI for Time Entry. 
 author: mohitmenon
 ms.date: 05/08/2025
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

@@ -5,7 +5,7 @@ author: mukumarm
 ms.date: 03/05/2024
 ms.reviewer: johnmichalak 
 ms.author: mukumarm
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ---

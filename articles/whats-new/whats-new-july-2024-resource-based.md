@@ -2,7 +2,7 @@
 title: What's new July 2024 - Project Operations for resource/non-stocked based scenarios
 description: This article provides information about the quality updates that are available in the July 2024 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
 author: mohitmenon
-ms.topic: conceptual
+ms.topic: whats-new
 ms.custom: 
   - bap-template
   - ms.custom:
