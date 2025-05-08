@@ -3,7 +3,7 @@ title: Intercompany invoicing
 description: This article provides information and examples about intercompany invoicing for your projects.  
 author: Yowelle  
 ms.date: 09/14/2017  
-ms.topic: conceptual  
+ms.topic: article
 ms.search.form: LedgerInterCompany  
 audience: Application User  
 ms.reviewer: johnmichalak  
