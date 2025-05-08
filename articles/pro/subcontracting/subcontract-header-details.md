@@ -3,7 +3,7 @@ title: Header details for subcontracts
 description: This article explains the functionality provided on the subcontract header in Project Operations.
 author: rumant
 ms.date: 12/15/2023
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

@@ -5,7 +5,7 @@ author: Rumant
 ms.custom: 
   - evergreen
 ms.date: 04/09/2024
-ms.topic: article
+ms.topic: how-to
 ms.author: rumant
 audience: Admin
 search.audienceType: 
