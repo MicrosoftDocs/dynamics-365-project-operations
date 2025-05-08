@@ -4,7 +4,7 @@ description: This article provides information about setting up and configuring 
 author: mukumarm
 ms.author: mukumarm
 ms.date: 05/24/2024
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

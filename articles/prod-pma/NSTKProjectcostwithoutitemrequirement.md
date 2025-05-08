@@ -4,7 +4,7 @@ description: This article provides information about project purchase orders for
 author: mukumarm
 ms.author: mukumarm
 ms.reviewer: johnmichalak
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 2/21/2023
 ms.custom: bap-template
 ---

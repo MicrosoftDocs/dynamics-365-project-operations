@@ -4,7 +4,7 @@ description: This article explains how to post expense reports.
 author: mukumarm
 ms.author: mukumarm
 ms.date: 07/18/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
