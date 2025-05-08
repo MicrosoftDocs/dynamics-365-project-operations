@@ -3,7 +3,7 @@ title: Revise (correct) project invoices
 description: This article provides information about how to revise project invoices in Project Operations.
 author: suvaidya    
 ms.date: 12/15/2023
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: suvaidya
 ---
