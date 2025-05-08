@@ -2,8 +2,10 @@
 title: Time entry UI behavior
 description: This article provides information about the behavior of the UI for Time Entry. 
 author: mohitmenon
-ms.date: 03/03/2021
+ms.date: 05/08/2025
 ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
@@ -54,7 +56,7 @@ When you save the entry, the entered values appear in the **Dimensions** section
 Lookup fields are backed by system views. For example, after a user enters a project, the **Project Task** field is set to the **Copy** view by default. To create time entries for tasks that aren't assigned to a user, select **Change View** in the lookup dialog box, and then select the **All Active Project Tasks** view.
 
 ## Edit a time entry 
-Details from some fields on the time entry page, such as **Description** and **External Comments**, aren't shown in the weekly time entry grid. Instead, a small triangular indicator appears in the **Duration** cells that have these additional details. 
+Details from some fields on the time entry page, such as **Description** and **External Comments**, aren't shown in the weekly time entry grid. Instead, a small triangular indicator appears in the **Duration** cells that have these other details. 
 
 1. To edit a time entry, select the cell you want to update in the time entry.
 2. Select **Edit Details** to update the data in the **Time Entry Mainform** pane. 
@@ -79,12 +81,12 @@ You can recall time entries that you've submitted. You can recall a single time 
 - **Returned**: If a time entry is rejected, the status is updated to **Returned**, and the entry becomes available for correction and resubmission. 
 
 ## View rejection comments
-When a time entry is rejected by an approver, the approver might add comments to help the resource understand the reason for the rejection. To view the rejection comments for a time entry, select **Open entry**. The rejection comments will be shown in the timeline. The user can respond to the rejection comments before they resubmit the entry.
+When a time entry is rejected by an approver, the approver might add comments to help the resource understand the reason for the rejection. To view the rejection comments for a time entry, select **Open entry**. The rejection comments are shown in the timeline. The user can respond to the rejection comments before they resubmit the entry.
 
 ## Copy week
 After a few time entries have been created, users can create multiple time entries at the same time.
 
-1. In the **Time Entries** form, select **Copy Week** to bulk-create additional time entries. 
+1. In the **Time Entries** form, select **Copy Week** to bulk-create more time entries. 
 2. In the **Copy** dialog box, in the **From period** section, use the **Start Date** and **End Date** fields to define the date range to copy time entries from. 
 3. In the **To Period** section, in the **Start Date** field, specify the date to create time entries for. 
 4. Select **Copy**. For the specified date in the **To period**, a copy of the time entries for the corresponding day of the week in the **From period** is created. For example, Monday's time entry from last week is copied into Monday of the week that is specified as the **To period**.
@@ -92,5 +94,7 @@ After a few time entries have been created, users can create multiple time entri
 ## Import
 The same basic process is used to import from bookings, assignments, and exchanges. You can specify the date range that bookings are imported from and then explicitly select the bookings that should be copied into draft time entries. 
 
+> [!IMPORTANT]
+> As of **May 1, 2025**, the security policy changed to disable the _Import from Exchange Appointments_ functionality.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
