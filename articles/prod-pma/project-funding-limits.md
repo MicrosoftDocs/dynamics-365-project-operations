@@ -5,7 +5,7 @@ title: Configure and use project funding limits
 description: This article explains how to configure and use project funding limits,
 author: ryansandness
 ms.date: 11/2/2023
-ms.topic: conceptual
+ms.topic: article
 ms.custom: bap-template
 
 # optional metadata

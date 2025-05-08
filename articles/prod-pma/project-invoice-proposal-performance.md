@@ -3,7 +3,7 @@ title: Project invoice proposal performance features
 description: This article provides information about performance improvements to project invoice proposals.
 author: ryansandness
 ms.date: 06/04/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 audience: Application User, IT Pro
