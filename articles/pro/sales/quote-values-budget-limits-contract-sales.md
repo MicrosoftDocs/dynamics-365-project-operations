@@ -3,7 +3,7 @@ title: Header details for project quotes
 description: This article provides information about the information and settings that apply to and impact project quotes. (Sales)
 author: rumant
 ms.date: 12/03/2022
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

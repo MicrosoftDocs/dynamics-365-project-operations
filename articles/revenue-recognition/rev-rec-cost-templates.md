@@ -3,7 +3,7 @@ title: Set up cost templates
 description: This article provides information about how to create and use cost templates in Project Operations.
 author:  sigitac
 ms.date: 10/27/2023
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

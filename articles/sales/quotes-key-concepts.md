@@ -5,7 +5,7 @@ title: Concepts unique to project-based quotes
 description: This article provides information about project quotes in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/02/2022
-ms.topic: article
+ms.topic: concept-article
  
 #
 

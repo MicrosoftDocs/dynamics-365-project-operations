@@ -3,7 +3,7 @@ title: State transitions on a vendor invoice
 description: This article explains the state transitions on a vendor invoice in Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 12/15/2023
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

@@ -7,7 +7,7 @@ ms.custom:
   - evergreen
 ms.collection: get-started
 ms.date: 04/09/2024
-ms.topic: article
+ms.topic: concept-article
 ms.author: rumant
 audience: Admin
 search.audienceType: 

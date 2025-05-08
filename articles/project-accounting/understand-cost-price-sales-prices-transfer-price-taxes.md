@@ -4,7 +4,7 @@ description: This article helps you understand how cost prices, sales prices, tr
 author: ryansandness
 ms.author: ryansandness
 ms.date: 05/24/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

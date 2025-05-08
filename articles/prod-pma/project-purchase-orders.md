@@ -4,7 +4,7 @@ description: This article describes the various methods that you can use to crea
 author: mukumarm
 ms.author: mukumarm
 ms.date: 05/22/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.search.form: ProjTable 

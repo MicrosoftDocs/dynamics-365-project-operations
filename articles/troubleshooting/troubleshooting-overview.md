@@ -3,7 +3,7 @@ title: Troubleshoot Microsoft Dynamics 365 Project Operations
 description: This article contains a list of resources you can use to troubleshoot Microsoft Dynamics 365 Project Operations.
 author: johnmichalak
 ms.author: johnmichalak
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 ms.date: 09/01/2023
 ms.custom: bap-template
 ms.reviewer: johnmichalak

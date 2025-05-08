@@ -3,7 +3,7 @@ title: Project contracts
 description: This article provides examples of the project contracts that you can create for various types of projects and funding sources, and how you can manage contracts and invoice project customers.
 author: ryansandness
 ms.date: 11/01/2023
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage

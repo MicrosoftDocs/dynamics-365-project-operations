@@ -4,7 +4,7 @@ description: This article provides the list of Dual-write maps required for Dyna
 author: mukumarm
 ms.author: mukumarm
 ms.date: 04/25/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

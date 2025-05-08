@@ -4,7 +4,7 @@ description: This article explains how you can order non-stocked materials for a
 author: sigitac
 ms.author: mukumarm
 ms.date: 05/22/2024
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

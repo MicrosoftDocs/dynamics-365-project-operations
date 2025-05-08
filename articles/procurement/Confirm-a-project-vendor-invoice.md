@@ -4,7 +4,7 @@ description: This article explains how to confirm a project vendor invoice in Mi
 author: mukumarm
 ms.author: mukumarm
 ms.date: 05/24/2024
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: johnmichalak
 
 ---

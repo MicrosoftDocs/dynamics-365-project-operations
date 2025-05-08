@@ -3,7 +3,7 @@ title: Copy project opportunities
 description: This article provides information about copying project-based opportunities in Project Operations.
 author: poojafandan
 ms.date: 03/01/2024
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: poojafandan
 ---

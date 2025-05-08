@@ -4,7 +4,7 @@ description: This article provides information about setting up project categori
 author: ryansandness
 ms.author: ryansandness
 ms.date: 09/13/2024
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

@@ -4,7 +4,7 @@ description: An expense delegate user can create and manage expense reports for 
 author: mukumarm
 ms.author: mukumarm 
 ms.date: 05/24/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
