@@ -27,7 +27,7 @@ A resource might be included in the project team or not. If the resource isn't p
 | **Read Only** | The resource has read-only access to the task grid and isn't allowed to make any changes.|
 | **Full Access** | The resource has full access to the task grid and can perform all Create, Update, and Delete operations.|
 
-The following screenshots shows how to configure the permissions on system user page.
+The following screenshots show how to configure the permissions on system user page.
 
 :::image type="content" source="media/set-permissions-on-system-user.png" alt-text="Screenshot that shows project permissions in system user page.":::
 
@@ -46,13 +46,13 @@ A resource who is part of the project team can have their ability to modify the 
 | **Full Access** | The resource has full access to the task grid and can perform all Create, Update, and Delete operations.|
 | **Custom** | The resource can be granted customized access permissions for create, update, and delete actions.|
 
-The following screenshots shows how to configure the permissions on project team member page.
+The following screenshots show how to configure the permissions on project team member page.
 
 :::image type="content" source="media/set-permissions-on-project-team-member.png" alt-text="Screenshot that shows project permissions in project team member page.":::
 
 :::image type="content" source="media/permission-in-project-team-member.png" alt-text="Screenshot that shows types of permissions for project team member.":::
 
-The following screenshots shows how to configure custom permissions for project team member.
+The following screenshots show how to configure custom permissions for project team member.
 
 :::image type="content" source="media/custom-permissions-in-project-team-member.png" alt-text="Screenshot that shows custom permissions for project team member.":::
 
