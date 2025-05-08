@@ -2,8 +2,10 @@
 title: Time entry UI behavior
 description: This article provides information about the behavior of the UI for Time Entry. 
 author: mohitmenon
-ms.date: 03/03/2021
+ms.date: 05/08/2025
 ms.topic: article
+ms.custom: 
+  - bap-template
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
@@ -93,6 +95,6 @@ After a few time entries have been created, users can create multiple time entri
 The same basic process is used to import from bookings, assignments, and exchanges. You can specify the date range that bookings are imported from and then explicitly select the bookings that should be copied into draft time entries. 
 
 > [!IMPORTANT]
-> As of **May 1st 2025**, there has been a change in security policy due to which the _Import from Exchange Appointments_ functionality will be disabled. More details around when the service may be available again will be provided soon.
+> As of **May 1, 2025**, the security policy has changed to disable the _Import from Exchange Appointments_ functionality.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
