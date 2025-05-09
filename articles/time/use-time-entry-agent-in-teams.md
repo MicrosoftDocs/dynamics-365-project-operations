@@ -2,7 +2,7 @@
 title: Start using the Time Entry feature of the Time and Expense Agent (for Team Members)
 description: This article explains how team members can start using the Time Entry feature of the Time and Expense Agent through MS Teams.
 author: mohitmenon
-ms.date: 05/09/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
