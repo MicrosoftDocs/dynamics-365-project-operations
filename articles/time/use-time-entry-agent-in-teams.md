@@ -88,7 +88,7 @@ After completing all of these one-time setup instructions, you've successfully s
 - Review created time entries either in Teams or on the Project Operations web app.
 - Modify entries if necessary and Submit for approval.
 
-Learn more about the Time Entry feature of the Time and Expense Agent's behavior and the experience of reviewing alerts in [next section](reviewing-entries-created-by-time-agent.md).
+Learn more about the Time Entry feature of the Time and Expense Agent's behavior and the experience of reviewing alerts in [Reviewing time entries created by the Time Entry feature of the Time and Expense Agent](reviewing-entries-created-by-time-agent.md).
 
 
  [!INCLUDE[footer-include](../includes/footer-banner.md)]
