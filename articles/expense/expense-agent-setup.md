@@ -51,7 +51,7 @@ To complete the steps described in this article, you must have **System administ
 
 ### Step 1: Install Copilot for finance and operations apps
 
-The Expense Entry feature of the Time and Expense Agent is delivered as part of the **Copilot for finance and operations** package. Once this package is installed in your environment, all required assetsincluding the agent, environment variables, and Power Automate flowsbecome available automatically.
+The Expense Entry feature of the Time and Expense Agent is delivered as part of the **Copilot for finance and operations** package. Once this package is installed in your environment, all required assets including the agent, environment variables, and Power Automate flows become available automatically.
 
 Learn more about enabling Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
 
@@ -142,7 +142,7 @@ You can set up the Expense Entry feature of the Time and Expense Agent using one
 
 #### Option 1: Using PowerShell Script (recommended)
 
-Setting up the agent manually involves creating and linking connections, enabling Power Automate flows, and publishing the solution — a process that can be time-consuming and error-prone. You can use a PowerShell script and configuration file (AgentConfig.json) to automate the setup.
+Setting up the agent manually involves creating and linking connections, enabling Power Automate flows, and publishing the solution—a process that can be time-consuming and error-prone. You can use a PowerShell script and configuration file (AgentConfig.json) to automate the setup.
 
 The PowerShell script automates:
 
@@ -796,7 +796,7 @@ To configure the agent, update the following environment variables.
 |------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Expense Agent Outlook Folder Path      | Folder path within the shared mailbox to monitor (default is **Inbox**).                         |
 | Expense Agent Shared Mailbox Address ID| Email address of the shared mailbox. Use **NA** if using the signed-in user's mailbox.            |
-| Finance and Operations Instance Url    | Finance and Operations environment URL (for example, https://xxxxx.operations.dynamics.com).         |
+| Finance and Operations Instance Url    | Finance and Operations environment URL (for example, `https://xxxxx.operations.dynamics.com`).         |
 
 ##### 2. Enable Power Automate Flows
 
@@ -808,11 +808,11 @@ The Expense Entry feature of the Time and Expense Agent relies on the following 
 - generate expense report  
 - send expense report adaptive card  
 - process emails  
-- extract unattached receipt ids for copilot invocation  
+- extract unattached receipt IDs for copilot invocation  
 - extract unattached receipt output using Dataverse plugin  
 - generate expense line  
-- generate expense line without project id and status id  
-- identify project ids  
+- generate expense line without project ID and status ID  
+- identify project IDs  
 - user calendar events  
 - process expense report using copilot
 
