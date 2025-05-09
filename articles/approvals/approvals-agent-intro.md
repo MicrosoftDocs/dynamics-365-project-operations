@@ -1,6 +1,6 @@
 ---
-title: Approvals Agent Into (Production Ready Preview)
-description: This article gives a brief introduction to the Project Operations Approvals Agent.
+title: The Approvals feature of the Time and Expense Agent Into
+description: This article gives a brief introduction to the Project Operations Time and Expense Agent Approvals Feature.
 author: abriccetti
 ms.date: 04/17/2025
 ms.topic: how-to
@@ -10,21 +10,21 @@ ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
 
-# Approvals Agent (Production Ready Preview) Overview
+# Time and Expense Agent Approvals Overview
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The Approvals Agent aims to streamline the approval process for time, expense, and material transactions. The Approvals Agent uses a [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) agent to provide an initial review of incoming time, expense, and material entries against customer uploaded policy documents for each type of entry. If the record is found to meet the criteria outlined in the policy document, it's marked as **ready for approval** and if not it's marked as **needs review**. This streamlines the approvals process for project managers while also reducing mistaken approvals which can lead to time consuming corrections.
+The Approvals feature of the Time and Expense Agent aims to streamline the approval process for time, expense, and material transactions. The Time and Expense Agent uses a [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) agent to provide an initial review of incoming time, expense, and material entries against customer uploaded policy documents for each type of entry. If the record is found to meet the criteria outlined in the policy document, it's marked as **ready for approval** and if not it's marked as **needs review**. This streamlines the approvals process for project managers while also reducing mistaken approvals which can lead to time consuming corrections.
 
-This production ready preview is available to be installed in both sandbox and production environments, however, we recommend only using the agent in production environments after thorough testing.
+This preview is available to be installed in both sandbox and production environments, however, we recommend only using the agent in production environments after thorough testing.
 
-## Approvals Agent Overview
+## Time and Expense Agent Approvals Overview
 
 ### Setup
 
-The Approvals Agent requires a few steps to be enabled and correctly setup. Learn more about the appropriate steps for admin setup in [Approvals Agent Admin Setup](./approvals-agent-admin-setup). Once these steps are complete, the agent can be enabled by selecting **Enable Time and Expense Agent** in the feature control menu on the project parameters form.
+The Approvals feature of the Time and Expense Agent requires a few steps to be enabled and correctly setup. Learn more about the appropriate steps for admin setup in [Approvals Agent Admin Setup](./approvals-agent-admin-setup). Once these steps are complete, the agent can be enabled by selecting **Enable Time and Expense Agent** in the feature control menu on the project parameters form.
 
 Once the feature is enabled, a new tab appears in the Project Parameters form named **Time and Expense Agent**. Use the **Time and Expense Agent** form to upload policy documents for time, expense, and material submissions. Learn more about writing a policy document and examples in [Approvals Agent Policy Documents](./approvals-agent-policy). If a policy document isn't available for a certain type of record, then approval records of that type aren't classified by the agent.
 
@@ -33,7 +33,7 @@ Additionally, in this menu you can set the mode of the agent to either **Classif
 > [!NOTE]
 > Rigorous testing is recommended before enabling the **Classify and auto approve** mode.
 
-### Using the Approvals Agent
+### Using the Approvals feature of the Time and Expense Agent
 
 When a user submits a time, material, or expense record for approval in an environment with the agent enabled and policy documents uploaded, the record goes into a queue for classification by the agent. Once the agent classifies the submission, it creates a new record containing its classification decision which can be viewed by selecting the **Approvals Agent (Production Ready Preview)** view on the left area selector.
 
