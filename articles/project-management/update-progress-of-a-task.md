@@ -1,6 +1,6 @@
 ---
-title: Update progress of a task
-description: Learn how to update the progress of a task directly on the task grid.
+title: Update the progress of a task
+description: Learn how to update the progress of a task directly from the task grid.
 author: dishantpopli
 ms.date: 05/05/2025
 ms.topic: how-to
@@ -10,47 +10,51 @@ ms.reviewer: johnmichalak
 ms.author: dishantpopli
 ---
 
-# Update progress of a task
+# Update the progress of a task
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-In Microsoft Dynamics 365 Project Operations, users can update the progress of a task directly from the task grid. Whether a user is allowed to update the **% Complete** depends on a field called **Allow percent complete update**. This field controls if users can make changes to the **% Complete** from the task grid. This field can have following values:
+In Microsoft Dynamics 365 Project Operations, users can update the progress of a task directly from the task grid.
 
-| Value            | Behavior |
-|------------------|----------|
-| **No**   | The **% Complete** field can't be updated directly from the task grid. Instead, users must submit their time entry, which updates the **Effort** and adjusts the **% Complete** for the task.|
-| **Yes** | The **% Complete** field can be updated directly from the task grid by either entering a number in the **% Complete** column or by selecting the checkbox next to the task name to mark it complete.|
+An option that is named **Allow percent complete update** determines whether users can update the **% complete** field directly in the task grid. This option is available in two places:
 
+- **Project Parameter page** – The value that is set here is used as the default value for all projects for the selected organization. To change the value on the **Project Parameter** page, go to **Settings** \> **Parameters**.
 
->[!IMPORTANT]
-> - Tasks that don't have effort assigned can't be marked as complete.
-> - If a project is associated with a contract line, the **Allow percent complete update** field is automatically set to **No**, and users can't change it to **Yes**.
-> - Once **Allow percent complete update** is set to **Yes**, it can't be changed back to **No**.
+    :::image type="content" source="media/allow-percent-complete-update-project-parameter.png" alt-text="Screenshot that higlights the location of the Allow percent complete update option on the Project Parameter page.":::
 
+- **Summary tab on the project page** – Users can change the default value for a specific project by setting the option directly at the project level.
 
-This field is available from two places:
-- **Project Parameter** - The value set is the default for all projects for the selected organization. To change the **Project Parameter**, go to **Settings > Parameters**.
-- **Project Summary Page** - A user can change the default value for a specific project by updating it directly at the project level.
+    :::image type="content" source="media/allow-percent-complete-update-project-summary.png" alt-text="Screenshot that shows highlights the location of the Allow percent complete update option on the Summary tab of the project page.":::
 
-The following screenshot shows where to enable the **% Complete** on the project summary page.
+The **Allow percent complete update** option can have the following values.
 
-:::image type="content" source="media/allow-percent-complete-update-project-parameter.png" alt-text="Screenshot that shows project parameters.":::
+| Value | Behavior |
+|-------|----------|
+| No | Users can't update the **% complete** field directly in the task grid. Instead, they must submit a time entry. The time entry updates the **Effort** field and adjusts the **% complete** value for the task.|
+| Yes | Users can update the **% complete** field directly in the task grid by entering a number in the **% complete** column. Alternatively, they can update the **% complete** field by selecting the checkbox next to the task name to mark the task as completed. |
 
-The following screenshot shows where to enable the **% Complete** on the project summary page.
+In the following screenshot, a user updated the **% complete** field by entering a number in the **% complete** column of the task grid. The screenshot also shows the location of the checkbox that is used to mark a task as completed.
 
-:::image type="content" source="media/allow-percent-complete-update-project-summary.png" alt-text="Screenshot that shows project summary page.":::
+:::image type="content" source="media/allow-percent-complete-update-task-grid.png" alt-text="Screenshot that highlights the location of the % complete column in the task grid, where a value is entered. It also highlights the location of the checkbox for marking a task as completed.":::
 
-The following screenshot shows changing the **% Complete** on the task grid.
-
-:::image type="content" source="media/allow-percent-complete-update-task-grid.png" alt-text="Screenshot that shows task grid.":::
+> [!IMPORTANT]
+> - Tasks can be marked as completed only if effort is assigned to them.
+> - If a project is associated with a contract line, the **Allow percent complete update** option is automatically set to **No**, and users can't change the value to **Yes**.
+> - After the **Allow percent complete update** option is set to **Yes**, the value can't be changed back to **No**.
 
 ## Scenario 1: Allow percent complete update is set to Yes
-- **Update the % Complete on task grid** - The **% Complete** field on the task grid is editable. Users can enter any value between 0 and 100 to update the task's completion status. In the background, the value entered in the **% Complete field** is used to calculate and update the **Effort** field on the task grid. Alternatively, users can submit time entry, which updates the **Effort** field and, in turn, adjust the **% Complete** value.
-- **Complete the task instantly** - A user can instantly mark a task as complete by checking the box next to the task name, which sets the **% Complete** field to 100%. If the box is unchecked, the task completion resets to 0%, and any previous **% Complete** value isn't saved.
+
+If the **Allow percent complete update** option is set to **Yes**, users have the following options for updating the **% complete** value in the task grid:
+
+- The **% complete** field can be edited directly in the task grid. Users can enter any value between 0 and 100 to update the task's completion status. In the background, the value that is entered is used to calculate and update the **Effort** field in the task grid.
+- Users can submit a time entry. The time entry updates the **Effort** field. This update, in turn, adjusts the **% complete** value.
+- Users can instantly mark a task as completed by selecting the checkbox next to the task name. The **% complete** field is automatically set to 100%. If the checkbox is cleared, task completion is reset to 0%, and any previous **% complete** value isn't saved.
 
 ## Scenario 2: Allow percent complete update is set to No
-- **Update the % Complete on task grid** - The **% Complete** field can't be edited directly on the task grid. To update it, users must submit time entry, which adjusts the **Effort** field and automatically update the **% Complete** value.
-- **Complete the task instantly** - A user can instantly complete a task by checking the box next to the task name. This sets the **Effort Remaining** field to 0, which marks the task as 100% complete. If the checkbox is unchecked, the **% Complete** value returns to its previous state.
 
+If the **Allow percent complete update** option is set to **No**, users have the following options for updating the **% complete** value in the task grid:
+
+- The **% complete** field can't be edited directly in the task grid. Instead, users must submit a time entry. The time entry updates the **Effort** field. This update, in turn, adjusts the **% complete** value.
+- Users can instantly mark a task as completed by selecting the checkbox next to the task name. This action sets the **Effort Remaining** field to **0** and, in turn, marks the task as 100% completed. If the checkbox is cleared, the **% complete** field reverts to its previous value.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
