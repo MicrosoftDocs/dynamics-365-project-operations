@@ -2,7 +2,7 @@
 title: Expense Entry feature of the Time and Expense Agent FAQ (preview)
 description: This article provides answers to frequently asked questions about the Expense Entry feature of the Time and Expense Agent.
 author: alexeiantao
-ms.date: 05/09/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
