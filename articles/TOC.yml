@@ -2479,7 +2479,7 @@
   - name: Responsible AI FAQs for Copilot in time entry
     href: responsible-ai/copilot-in-time-entry-faqs.md
   - name: Responsible AI FAQ for the Approvals feature of the Time and Expense Agent (preview)
-    href: articles/responsible-ai/approvals-agent-faq.md
+    href: responsible-ai/approvals-agent-faq.md
   - name: Responsible AI FAQ for the Expense Entry feature of the Time and Expense Agent (preview)
     href: expense/expense-agent-responsible-ai.md
   - name: Responsible AI FAQ for the Time Entry feature of the Time and Expense Agent (preview)
