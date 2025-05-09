@@ -1,5 +1,5 @@
 ---
-title: Responsible AI FAQ for the Expense Entry feature of the Time and Expense Agent
+title:  Responsible AI FAQ for the Expense Entry feature of the Time and Expense Agent (preview)
 description: This FAQ provides answers to frequently asked questions about the AI technology that's used in the Expense Entry feature of the Time and Expense Agent. It includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 04/30/2025
 ms.collection:
@@ -13,7 +13,7 @@ ms.author: alexeiantao
 ms.reviewer: johnmichalak
 ---
 
-# Responsible AI FAQ for the Expense Entry feature of the Time and Expense Agent
+# Responsible AI FAQ for the Expense Entry feature of the Time and Expense Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
