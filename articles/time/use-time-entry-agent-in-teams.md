@@ -1,6 +1,6 @@
 ---
-title: Start using the Time Entry Agent (for Team Members)
-description: This article explains how team members can start using the Time Entry Agent through MS Teams.
+title: Start using the Time Entry feature of the Time and Expense Agent (for Team Members)
+description: This article explains how team members can start using the Time Entry feature of the Time and Expense Agent through MS Teams.
 author: mohitmenon
 ms.date: 04/29/2025
 ms.topic: how-to
@@ -12,25 +12,25 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Start using the Time Entry Agent as a Team Member
+# Start using the Time Entry feature of the Time and Expense Agent as a Team Member
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-Once all steps to [enable the time entry agent for end users](enable-time-entry-agent.md) are completed by an administrator, team members can now start using the agent. The interface used by the agent to communicate with team members is via Microsoft Teams, as a Teams app. To begin using the agent through Teams, each user must first:
-- Add the "Time Entry agent" Teams app.
+Once all steps to [enable the Time Entry feature of the Time and Expense Agent for end users](enable-time-entry-agent.md) are completed by an administrator, team members can now start using the agent. The interface used by the agent to communicate with team members is via Microsoft Teams, as a Teams app. To begin using the agent through Teams, each user must first:
+- Add the "Time and Expense Agent" Teams app.
 - Give consent to the agent for time entry creation and set certain preferences.
 
-## Add the Time Entry agent Teams App
+## Add the Time and Expense Agent Teams App
 
 When your organization enables the agent and shares it with you, the agent can be accessed as a Teams app by following these steps.
 
 1. Go to your Teams app or Teams in the browser using the same credentials used to log into your Project Operations environment.
 1. Go to the **Apps** section within Teams.
-1. The **Time Entry Agent (Preview)** app can be found under _Built for your organization_ or _Added by your org_ sections. Select the **Add** button for this app.
+1. The **Time and Expense Agent** app can be found under _Built for your organization_ or _Added by your org_ sections. Select the **Add** button for this app.
 1. A pop-up may appear with more details about the app, proceed to **Add** it.
-1. Once added, the option to **Open** the app becomes available. Select **Open**. This step takes you to a Teams chat where all interactions with the Time Entry Agent occur.
+1. Once added, the option to **Open** the app becomes available. Select **Open**. This step takes you to a Teams chat where all interactions with the Time Entry feature of the Time and Expense Agent occur.
 
 The next step involves giving consent to allow the agent to create time entries on your behalf.
 
@@ -82,13 +82,13 @@ This step is required if you have selected **Yes** for _Using Outlook calendar t
 - Select **Sharing and permissions**, then type in the **email ID of the agent user **(you may need to get this email ID from your administrator).
 - Select **Share**.
 
-After completing all of these one-time setup instructions, you've successfully set up the Time Entry Agent for use as a team member. From here on, the experience of logging time entries is like this:
+After completing all of these one-time setup instructions, you've successfully set up the Time Entry feature of the Time and Expense Agent for use as a team member. From here on, the experience of logging time entries is like this:
 - Agent creates Draft time entries for you at the start of a week.
 - You receive an alert on Teams from the agent summarizing entries created.
 - Review created time entries either in Teams or on the Project Operations web app.
 - Modify entries if necessary and Submit for approval.
 
-Learn more about the Time Entry Agent's behavior and the experience of reviewing alerts in [next section](reviewing-entries-created-by-time-agent.md).
+Learn more about the Time Entry feature of the Time and Expense Agent's behavior and the experience of reviewing alerts in [next section](reviewing-entries-created-by-time-agent.md).
 
 
  [!INCLUDE[footer-include](../includes/footer-banner.md)]
