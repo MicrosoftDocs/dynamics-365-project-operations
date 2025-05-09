@@ -3,7 +3,7 @@ title: Expense Entry feature of the Time and Expense Agent overview (preview)
 description: This article provides an overview of the Expense Entry feature of the Time and Expense Agent.
 author: alexeiantao
 ms.author: alexeiantao
-ms.date: 05/09/2025
+ms.date: 05/13/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
