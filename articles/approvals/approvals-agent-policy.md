@@ -43,7 +43,7 @@ When the Approvals feature of the Time and Expense Agent is triggered a predeter
 |Project task                                                 |Name of the project task time was submitted against|
 |Date logged relative to team member start and end date       |Within/Falls outside dates; O if not a team member|
 |Submitted by                                                 |Resource which submitted the time|
-|Contractor/Employee                                          |Specifies if submitter is a employee or contractor|
+|Contractor/Employee                                          |Specifies if submitter is an employee or contractor|
 |Role of the resource                                         |Role assigned to the submitter, O if no role assigned|
 |Division of the resources                                    |Organizational unit of the submitter|
 |Relative to the resource assignment period                   |Does the time entry fall inside the dates the resources is assigned to the task|
@@ -77,7 +77,7 @@ When the Approvals feature of the Time and Expense Agent is triggered a predeter
 |Project task                                                 |Name of the project task time was submitted against|
 |Date logged relative to team member start and end date       |Within/Falls outside dates; O if not a team member|
 |Submitted by                                                 |Resource which submitted the time|
-|Contractor/Employee                                          |Specifies if submitter is a employee or contractor|
+|Contractor/Employee                                          |Specifies if submitter is an employee or contractor|
 |Division of the resources                                    |Organizational unit of the submitter|
 |Quantity submitted against subcontract line                  |Was the expense submitted against a subcontract line|
 |Does the expense have a receipt                              |True/False|
@@ -104,7 +104,7 @@ When the Approvals feature of the Time and Expense Agent is triggered a predeter
 |Project task                                                 |Name of the project task material was submitted against|
 |Date logged relative to team member start and end date       |Within/Falls outside dates; O if not a team member|
 |Submitted by                                                 |Resource which submitted the material usage|
-|Contractor/Employee                                          |Specifies if submitter is a employee or contractor|
+|Contractor/Employee                                          |Specifies if submitter is an employee or contractor|
 |Division of the resources                                    |Organizational unit of the submitter|
 |Relative to the resource assignment period                   |Does the expense entry fall inside the dates the resources is assigned to the task|
 |Quantity submitted against subcontract line                  |Was the material submitted against a subcontract line|
