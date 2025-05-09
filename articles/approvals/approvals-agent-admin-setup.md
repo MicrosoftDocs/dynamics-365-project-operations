@@ -3,7 +3,7 @@ title:  Set up the Approvals feature of the Time and Expense Agent as an admin (
 description: Learn about how to set up the Approvals feature of the Time and Expense Agent as an admin. 
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/05/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
