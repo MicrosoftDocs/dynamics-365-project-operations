@@ -3,7 +3,7 @@ title: Set up policy documents for the Approvals feature of the Time and Expense
 description: Learn about how to set up time, material, and expense policy documents for the Approvals feature of the Time and Expense Agent. 
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/09/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
