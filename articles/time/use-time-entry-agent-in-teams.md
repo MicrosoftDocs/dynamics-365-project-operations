@@ -15,6 +15,7 @@ ms.author: mohitmenon
 # Start using the Time Entry feature of the Time and Expense Agent as a Team Member
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
