@@ -18,9 +18,9 @@ In Microsoft Dynamics 365 Project Operations, users can update the progress of a
 
 An option that is named **Allow percent complete update** determines whether users can update the **% complete** field directly in the task grid. This option is available in two places:
 
-- **Project Parameter page** – The value that is set here is used as the default value for all projects for the selected organization. To change the value on the **Project Parameter** page, go to **Settings** \> **Parameters**.
+- **Project Parameter page** – The value that is set on this page is used as the default value for all projects for the selected organization. To change the value on the **Project Parameter** page, go to **Settings** \> **Parameters**.
 
-    :::image type="content" source="media/allow-percent-complete-update-project-parameter.png" alt-text="Screenshot that higlights the location of the Allow percent complete update option on the Project Parameter page.":::
+    :::image type="content" source="media/allow-percent-complete-update-project-parameter.png" alt-text="Screenshot that highlights the location of the Allow percent complete update option on the Project Parameter page.":::
 
 - **Summary tab on the project page** – Users can change the default value for a specific project by setting the option directly at the project level.
 
