@@ -14,6 +14,7 @@ ms.reviewer: johnmichalak
 # Expense Entry feature of the Time and Expense Agent overview (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/preview-note.md)]
 
 This article provides an overview of the Expense Entry feature of the Time and Expense Agent. The Expense Entry feature of the Time and Expense Agent simplifies and automates the process of managing employee or worker expenses within an organization. It reduces manual effort by processing receipts, generating expense lines, and creating expense reports with minimal user intervention.
 

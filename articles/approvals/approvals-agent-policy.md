@@ -13,6 +13,7 @@ ms.reviewer: johnmichalak
 # Set up policy documents for the Approvals feature of the Time and Expense Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 

@@ -14,6 +14,7 @@ ms.reviewer: johnmichalak
 # Expense Entry feature of the Time and Expense Agent Installation and Setup (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/preview-note.md)]
 
 The Expense Entry feature of the Time and Expense Agent brings together capabilities from Microsoft Dynamics 365 Project Operations, finance and operations apps, Microsoft Copilot Studio, Microsoft Power Automate, and Microsoft Dataverse to automate expense processing workflows using AI. The Expense Agen enables your system to process receipts and generate expense lines and reports for users to save time and reduce manual effort. It uses Microsoft Power Platform Connectors to integrate with Outlook, Microsoft Teams, user calendars, and the finance and operations apps environment via Dataverse virtual entities.
 
