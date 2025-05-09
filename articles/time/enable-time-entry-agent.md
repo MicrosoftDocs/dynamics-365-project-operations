@@ -2,7 +2,7 @@
 title: Enable the Time Entry feature of the Time and Expense Agent (preview)
 description: This article explains how administrators can enable the Time Entry feature of the Time and Expense Agent on one or more environments in their organization.
 author: mohitmenon
-ms.date: 04/28/2025
+ms.date: 05/09/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
