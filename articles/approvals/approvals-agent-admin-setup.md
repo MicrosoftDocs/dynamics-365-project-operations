@@ -3,7 +3,7 @@ title:  Set up the Approvals feature of the Time and Expense Agent as an admin (
 description: Learn about how to set up the Approvals feature of the Time and Expense Agent as an admin. 
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/01/2025
+ms.date: 05/05/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -13,6 +13,7 @@ ms.reviewer: johnmichalak
 # Set up the Approvals feature of the Time and Expense Agent as an admin (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
