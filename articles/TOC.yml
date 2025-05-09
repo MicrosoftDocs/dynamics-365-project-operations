@@ -2452,7 +2452,7 @@
       href: approvals/approvals-agent-intro.md
     - name: Set up policy documents for the Approvals feature of the Time and Expense Agent (preview)
       href: approvals/approvals-agent-policy.md
-    - name: Set up for the Approvals feature of the Time and Expense Agent as an admin
+    - name: Set up the Approvals feature of the Time and Expense Agent as an admin
       href: approvals/approvals-agent-admin-setup.md
   - name: Expense entry
     items:
