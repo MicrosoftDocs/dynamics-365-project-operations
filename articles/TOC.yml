@@ -644,14 +644,6 @@
         href: time/enable-time-entry-mobile-app.md
       - name: Log time entries using mobile app
         href: time/log-time-using-time-entry-mobile-app.md 
-    - name: Time and Expense Agent (preview)
-      items:
-      - name: Enable the time entry feature
-        href: time/enable-time-entry-agent.md
-      - name: Start using the agent in Teams 
-        href: time/use-time-entry-agent-in-teams.md
-      - name: Review time entries created by the agent 
-        href: time/reviewing-entries-created-by-time-agent.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
@@ -1504,14 +1496,6 @@
         href: time/ui-behavior-time.md
     - name: Use Copilot in time entry (preview)
       href: time/copilot-in-time-entry.md
-    - name: Time and Expense Agent (preview)
-      items:
-      - name: Enable the time entry feature
-        href: time/enable-time-entry-agent.md
-      - name: Start using the agent in Teams 
-        href: time/use-time-entry-agent-in-teams.md
-      - name: Review time entries created by the agent 
-        href: time/reviewing-entries-created-by-time-agent.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
