@@ -1,6 +1,6 @@
 ---
-title: Reviewing time entries created by the agent
-description: This article explains how team members can review and submit time entries created by the agent.
+title: Reviewing time entries created by the Time Entry feature of the Time and Expense Agent (preview)
+description: This article explains how team members can review and submit time entries created by the Time Entry feature of the Time and Expense Agent.
 author: mohitmenon
 ms.date: 04/29/2025
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Reviewing time entries created by the agent
+# Reviewing time entries created by the Time Entry feature of the Time and Expense Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
@@ -24,11 +24,11 @@ After a team member sets up their agent preferences as detailed in the previous 
 - **Modify** entries if required and **submit** for approval.
 - Agent sends **reminder to submit any "missing" hours** on the last working day of a week.
 
-These steps and the behavior of the Time Entry agent are explained in the following sections.
+These steps and the behavior of the Time Entry feature of the Time and Expense Agent are explained in the following sections.
 
 ## Agent's behavior for creation of time entries
 
-The Time Entry agent creates time entries based on a user's preferences. 
+The Time Entry feature of the Time and Expense Agent creates time entries based on a user's preferences. 
 
 ### Selecting sources for time entries
 
@@ -57,9 +57,9 @@ If a user asks the agent to create external comments for all time entries, this 
 ## Getting alerts from the agent 
 
 The agent sends an alert for the following activities:
-- As soon as it creates time entries for the week _(at the Start of a week)_,
-- When it generates external comments for the week _(last working day of the week)_ and
-- To remind the user to submit any "missing" hours _(last working day of the week)_
+- As soon as it creates time entries for the week _(at the Start of a week)_.
+- When it generates external comments for the week _(last working day of the week)_.
+- To remind the user to submit any "missing" hours _(last working day of the week)_.
 
 ### Reviewing time entries created by the agent
 
@@ -94,7 +94,7 @@ Users can either **Save changes** or **Submit all** (submits all entries for tha
 
 ## Missing time entries alert
 
-The Time Entry agent (Production Ready Preview) sends users an alert at the end of the work week, if they have any "missing hours" identified.
+The Time Entry feature of the Time and Expense Agent sends users an alert at the end of the work week, if they have any "missing hours" identified.
 - **Missing hours definition**: A day is said to have missing hours for a user if the total hours in _Submitted _or _Approved_ or _Recall Requested_ state (non-Draft hours) is **less than their working hours** for that day.
 - **The alert**: The alert consists of a summary of all days in the current week that have missing hours, along with: 
   - The number of hours missing and
