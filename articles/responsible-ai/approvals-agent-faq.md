@@ -16,6 +16,7 @@ ms.collection:
 # Responsible AI FAQ for the Approvals feature of the Time and Expense Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/preview-note.md)]
   
 ### What are  Approvals feature of the Time and Expense Agent?
 
