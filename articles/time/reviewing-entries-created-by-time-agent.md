@@ -2,7 +2,7 @@
 title: Reviewing time entries created by the Time Entry feature of the Time and Expense Agent (preview)
 description: This article explains how team members can review and submit time entries created by the Time Entry feature of the Time and Expense Agent.
 author: mohitmenon
-ms.date: 05/09/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-ai-copilot 
