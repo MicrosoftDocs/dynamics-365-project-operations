@@ -1,9 +1,9 @@
 ---
-title: Dynamics 365 Expense Agent (Production Ready Preview)
-description: This article provides an overview of the Dynamics 365 Expense Agent.
+title: Expense Entry feature of the Time and Expense Agent (preview)
+description: This article provides an overview of the Expense Entry feature of the Time and Expense Agent.
 author: alexeiantao
 ms.author: alexeiantao
-ms.date: 04/30/2025
+ms.date: 05/09/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -11,19 +11,19 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Dynamics 365 Expense Agent overview (Production Ready Preview)
+# Expense Entry feature of the Time and Expense Agent overview (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-This article provides an overview of the Dynamics 365 Expense Agent. The Expense Agent simplifies and automates the process of managing employee or worker expenses within an organization. It reduces manual effort by processing receipts, generating expense lines, and creating expense reports with minimal user intervention.
+This article provides an overview of the Expense Entry feature of the Time and Expense Agent. The Expense Entry feature of the Time and Expense Agent simplifies and automates the process of managing employee or worker expenses within an organization. It reduces manual effort by processing receipts, generating expense lines, and creating expense reports with minimal user intervention.
 
 The agent streamlines the workflow by allowing users to forward receipts to a designated mailbox. It extracts key details such as amount, merchant, and location, and groups related expenses into comprehensive reports. Users can review, edit, and submit these reports through Microsoft Teams, improving both efficiency and accuracy. The agent also processes receipts uploaded directly into the finance and operations apps.
 
-By minimizing time spent on administrative tasks, the Expense Agent enables users to focus on higher-value activities and improves the overall expense reporting experience.
+By minimizing time spent on administrative tasks, the Expense Entry feature of the Time and Expense Agent enables users to focus on higher-value activities and improves the overall expense reporting experience.
 
 ## Functionality
 
-The Expense Agent automates the end-to-end expense management process by using intelligent workflows to handle receipt processing, expense line creation, and report generation. It provides the following capabilities:
+The Expense Entry feature of the Time and Expense Agent automates the end-to-end expense management process by using intelligent workflows to handle receipt processing, expense line creation, and report generation. It provides the following capabilities:
 
 - **Receipt Processing:**  
   Users can forward receipts to a shared mailbox or upload them directly into finance and operations apps. The system automatically extracts key details such as amount, merchant, and location, eliminating the need for manual data entry.
@@ -46,11 +46,9 @@ The Expense Agent automates the end-to-end expense management process by using i
 - **Monitoring Agent Workflows:**  
   Administrators can track the status of individual workflows using Microsoft Power Apps. This helps monitor performance and gain insights into usage. To access the app, open **Expense Agent Workflow** in Power Apps.
 
----
-
 ## Known Limitations
 
-While the Expense Agent simplifies many aspects of expense management, the following limitations should be considered:
+While the Expense Entry feature of the Time and Expense Agent simplifies many aspects of expense management, the following limitations should be considered:
 
 - **Manual intervention may be required:**  
   Although the agent reduces effort, users may need to verify or correct extracted data to ensure accuracy and compliance.
