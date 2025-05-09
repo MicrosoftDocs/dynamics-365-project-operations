@@ -1,5 +1,5 @@
 ---
-title: Time Entry feature of the Time and Expense Agent responsible AI FAQ (preview)
+title: Responsible AI FAQ for the Time Entry feature of the Time and Expense Agent (preview)
 description: This article provides answers to frequently asked questions about the Time Entry feature of the Time and Expense Agent.
 author: mohitmenon
 ms.author: mohitmenon
@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Time Entry feature of the Time and Expense Agent responsible AI FAQ (preview)
+# Responsible AI FAQ for the Time Entry feature of the Time and Expense Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
