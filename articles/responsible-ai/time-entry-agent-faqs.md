@@ -15,6 +15,7 @@ ms.collection:
 # Responsible AI FAQ for the Time Entry feature of the Time and Expense Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/preview-note.md)]
 
 This article provides answers to frequently asked questions about how to use the Time Entry feature of the Time and Expense Agent in Microsoft Dynamics 365 Project Operations.
 
