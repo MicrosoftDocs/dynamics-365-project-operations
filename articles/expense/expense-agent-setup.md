@@ -3,7 +3,7 @@ title: Expense Entry feature of the Time and Expense Agent Installation and Setu
 description: Learn about the steps to install and set up the Expense Entry feature of the Time and Expense Agent.
 author: alexeiantao
 ms.author: alexeiantao
-ms.date: 05/02/2025
+ms.date: 05/09/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
