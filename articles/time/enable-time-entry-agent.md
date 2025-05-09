@@ -31,7 +31,7 @@ Each step has been described in detail in the following sections.
 
 While this step is **not mandatory**, it's recommended that a dedicated agent user is created for configuring and enabling agents in an organization. This step is **only required once** for your organization, and can be used to enabled Time Entry feature of the Time and Expense Agent across multiple environments.
 
-Alternatively, if your organization already has a dedicated user for similar purposes, with an dministrator role assigned, then you may skip this step and go to the next section: **Initiate Power Automate Flows for your agent**.
+Alternatively, if your organization already has a dedicated user for similar purposes, with an administrator role assigned, then you may skip this step and go to the next section: **Initiate Power Automate Flows for your agent**.
 
 To continue with creating a dedicated agent user, complete this process by navigating to [Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/) and following steps documented in the [Dataverse User Creation Guide](/power-platform/admin/create-users). 
 
@@ -97,8 +97,8 @@ Each flow has a similar sequence of steps that need to be completed, before movi
    :::image type="content" source="../media/3authenticatedconnectionreferenceexample.png" alt-text="Screenshot that shows all connection references in green or authenticated."::: 
    :::image type="content" source="../media/4savedflowreadytogo.png" alt-text="Screenshot that shows that the flow is saved.":::
 
-1. After saving, use the arrow button to navigate back to the flow details. Finally, select **Turn ON** to activate the flow.
-   :::image type="content" source="../media/5turnonflow.png" alt-text="Screenshot that showing the turn on button for a flow.":::
+1. After saving, use the arrow button to navigate back to the flow details. Finally, select **Turn on** to activate the flow.
+   :::image type="content" source="../media/5turnonflow.png" alt-text="Screenshot that showing the **Turn on** button for a flow.":::
 
 1. Wait a few seconds, until the "Turn off" option is visible. This change implies that the flow is now activated or turned on.
    :::image type="content" source="../media/6turnoffvisible.png" alt-text="Screenshot showing the turn-off button visible, implies that flow is ON.":::
