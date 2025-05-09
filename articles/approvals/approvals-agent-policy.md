@@ -1,6 +1,6 @@
 ---
-title: Set up policy documents for the Approvals Agent
-description: Learn about how to set up time, material, and expense policy documents for the Approvals Agent. 
+title: Set up policy documents for the Time and Expense Agent's Approvals feature
+description: Learn about how to set up time, material, and expense policy documents for the Time and Expense Agent's Approvals feature. 
 author: abriccetti
 ms.author: abriccetti
 ms.date: 05/01/2025
@@ -10,17 +10,17 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
-# Set up Approvals Agent policy documents
+# Set up Time and Expense Agent Approvals feature policy documents
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The Approvals Agent's decision on how to classify a submitted record are based upon the text of the policy document. To help with creating these documents, this article outlines the information available to the agent, recommend policy document structures, and provide examples of policy documents for time, expense, and material.
+The Time and Expense Agent's Approvals feature makes decisions on how to classify a submitted record based upon the text of the policy document. To help with creating these documents, this article outlines the information available to the agent, recommend policy document structures, and provide examples of policy documents for time, expense, and material.
 
-## Approvals Agent data
+## Time and Expense Agent Approval's feature data
 
-When the Approvals Agent is triggered a predetermined set of data related to the submitted record is sent to the agent to help with the classification. The agent can only make checks based on information it was passed. Sending more data about the time/material/expense submission requires customization of the Approvals Agent trigger flow. The following charts outline what information is available to the agent without customization. 
+When the Time and Expense Agent's Approvals feature is triggered a predetermined set of data related to the submitted record is sent to the agent to help with the classification. The agent can only make checks based on information it was passed. Sending more data about the time/material/expense submission requires customization of the agent's trigger flow. The following charts outline what information is available to the agent without customization. 
 
 ### Time entry data
 
