@@ -1,6 +1,6 @@
 ---
 title: Set up policy documents for the Approvals feature of the Time and Expense Agent (preview)
-description: Learn about how to set up time, material, and expense policy documents for the Time and Expense Agent's Approvals feature. 
+description: Learn about how to set up time, material, and expense policy documents for the Approvals feature of the Time and Expense Agent. 
 author: abriccetti
 ms.author: abriccetti
 ms.date: 05/01/2025
@@ -16,11 +16,11 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The Time and Expense Agent's Approvals feature makes decisions on how to classify a submitted record based upon the text of the policy document. To help with creating these documents, this article outlines the information available to the agent, recommend policy document structures, and provide examples of policy documents for time, expense, and material.
+The Approvals feature of the Time and Expense Agent makes decisions on how to classify a submitted record based upon the text of the policy document. To help with creating these documents, this article outlines the information available to the agent, recommend policy document structures, and provide examples of policy documents for time, expense, and material.
 
 ## Time and Expense Agent Approval's feature data
 
-When the Time and Expense Agent's Approvals feature is triggered a predetermined set of data related to the submitted record is sent to the agent to help with the classification. The agent can only make checks based on information it was passed. Sending more data about the time/material/expense submission requires customization of the agent's trigger flow. The following charts outline what information is available to the agent without customization. 
+When the Approvals feature of the Time and Expense Agent is triggered a predetermined set of data related to the submitted record is sent to the agent to help with the classification. The agent can only make checks based on information it was passed. Sending more data about the time/material/expense submission requires customization of the agent's trigger flow. The following charts outline what information is available to the agent without customization. 
 
 ### Time entry data
 
