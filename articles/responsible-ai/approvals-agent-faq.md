@@ -1,5 +1,5 @@
 ---
-title: Approvals Agent responsible AI FAQ
+title: Responsible AI FAQ for the Approvals feature of the Time and Expense Agent (preview)
 description: This article provides answers to frequently asked questions about Approvals Agent.
 author: abriccetti
 ms.author: abriccetti
@@ -13,7 +13,7 @@ ms.collection:
 ---
 
 
-# Approvals Agent (Production Ready Preview): Responsible AI FAQ
+# Responsible AI FAQ for the Approvals feature of the Time and Expense Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
   
