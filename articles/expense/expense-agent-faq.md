@@ -28,7 +28,7 @@ Yes, the agent can be turned off for select legal entities. Configurations are u
 Expense Entry feature of the Time and Expense Agent is available from version 10.0.44. Enable the feature **Agent Management** from **Workspaces > Feature Management**.
 
 ### I can't see the Expense Entry Solution.
-The solution is part of the Finance and Operations Copilot package (v1.0.3033.5+). Update it from PPAC. Refer to the Copilot documentation for more details.
+The solution is part of the Finance and Operations Copilot package (v1.0.3033.5+). Update it from Microsoft Power Platform admin center. Refer to the Copilot documentation for more details.
 
 
 ## Setup and Configuration
@@ -38,9 +38,9 @@ Update the variable in **DefaultSolution** and publish all customizations.
 
 ### How do I update environment variables? 
 Go to **DefaultSolution** in Maker portal and update:
-  - Expense agent Shared Mailbox Id  
+  - Expense agent Shared Mailbox ID  
   - Finance and operations Instance Url  
-  - Expense agent Shared Mailbox Address Id
+  - Expense agent Shared Mailbox Address ID
 
 ### I don’t know which connectors are used for Expense Entry feature of the Time and Expense Agent. How do I add them?  
 Expense Entry feature of the Time and Expense Agent uses the following connectors:
