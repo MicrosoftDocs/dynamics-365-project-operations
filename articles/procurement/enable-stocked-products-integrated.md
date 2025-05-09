@@ -38,26 +38,27 @@ This section provides information about specific the maps required for stocked p
 
 |Dual write map|Version|
 |--|--|
+|Configurations (msdyn_configurations)|1.0.0.0|
+|Sizes (msdyn_productsizes)|1.0.0.0|
+|Colors (msdyn_productcolors)|1.0.0.0|
+|Styles (msdyn_productstyles)|1.0.0.0|
+|Sites (msdyn_sites)|1.0.0.0|
+|Warehouse locations (msdyn_inventorylocations)|1.0.0.1|
+|Inventory aisle (msdyn_warehouseaisles)|1.0.0.0|
+|Storage dimension groups (msdyn_productstoragedimensiongroups)|1.0.0.0|
+|Tracking dimension groups (msdyn_productdimensiongroups)|1.0.0.0|
+|Product dimension groups (msdyn_productdimensiongroups)|1.0.0.0|
 |All products (msdyn_globulproducts)|1.0.0.0|
+|CDS released distinct product (products)|1.0.0.3|
+|DV Released products (msdyn_sharedproductdetails)|1.0.0.0|
 |CDS inventory on-hand entries (msdyn_inventoryonhandentries)|1.0.0.1|
 |CDS inventory on-hand requests (msdyn_inventoryonhandrequests)|1.0.01|
-|CDS released distinct product (products)|1.0.0.3|
-|Colors (msdyn_productcolors)|1.0.0.0|
-|Configurations (msdyn_configurations)|1.0.0.0|
-|DV Released products (msdyn_sharedproductdetails)|1.0.0.0|
-|Inventory aisle (msdyn_warehouseaisles)|1.0.0.0|
 |Item batches (msdyn_batchnumbers)|1.0.0.0|
 |Item serial numbers (mydyn_serialnumbers)|1.0.0.0|
-|Product dimension groups (msdyn_productdimensiongroups)|1.0.0.0|
-|Project integration table for material estimates (msdyn_estimatelines)|1.0.0.2|
+|Project integration table for material estimates (msdyn_estimatelines)|1.0.0.4|
+|Project operations integration actuals (msdyn_actuals)|1.0.0.19|
 |Project subcontract purchase order line (msdyn_subcontractlines)|1.0.1.0|
-|Sites (msdyn_sites)|1.0.0.0|
-|Sizes (msdyn_productsizes)|1.0.0.0|
-|Storage dimension groups (msdyn_productstoragedimensiongroups)|1.0.0.0|
-|Styles (msdyn_productstyles)|1.0.0.0|
-|Tracking dimension groups (msdyn_productdimensiongroups)|1.0.0.0|
 |Units (uoms)|1.0.0.0|
-|Warehouse locations (msdyn_inventorylocations)|1.0.0.1|
 |Project Operations integration entity for expense estimates (msdyn_estimatelines)|1.0.0.4|
 |Project subcontract purchase order line (msdyn_subcontractlines)|1.0.0.1|
 
@@ -67,8 +68,6 @@ The product type—whether it is a service item or a stocked item—is also refl
 In **Project operations**, products can be activated or deactivated using the **Activate** button on the action pane. 
 
 ![Products view](/articles/media/Products.png)
-
-![Product details view](/articles/media/ProductPrice.png)
 
 ### On hand inventory
 **Dynamics 365 Project operations**  allows users to view on-hand inventory for specific products within a company. 
@@ -88,8 +87,6 @@ When **stocked products** are selected, the **site and warehouse** can be specif
 This information is then reflected in the corresponding **project item forecast** in **Dynamics 365 Finance**. Additionally, project item forecasts can be used to run master planning, enabling the generation of planned purchase orders or production orders.
 
 ![Project material forecast](/articles/media/EstimateLine.png)
-
-![Itemforecast](/articles/media/Itemforecast.png)
 
 For more information about project material estimates, refer [Financial estimates for materials on projects](../project-management/create-material-estimate.md)
 
