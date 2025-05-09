@@ -1,5 +1,5 @@
 ---
-title: The Approvals feature of the Time and Expense Agent Into
+title: Approvals feature of the Time and Expense Agent overview (preview)
 description: This article gives a brief introduction to the Project Operations Time and Expense Agent Approvals Feature.
 author: abriccetti
 ms.date: 04/17/2025
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
 
-# Time and Expense Agent Approvals Overview
+# Approvals feature of the Time and Expense Agent overview (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
