@@ -1,6 +1,6 @@
 ---
-title: Responsible AI FAQ for Expense Agent
-description: This FAQ provides answers to frequently asked questions about the AI technology that's used in the Expense Agent. It includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+title: Responsible AI FAQ for the Expense Entry feature of the Time and Expense Agent
+description: This FAQ provides answers to frequently asked questions about the AI technology that's used in the Expense Entry feature of the Time and Expense Agent. It includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 04/30/2025
 ms.collection:
   - bap-ai-copilot
@@ -13,24 +13,24 @@ ms.author: alexeiantao
 ms.reviewer: johnmichalak
 ---
 
-# Responsible AI FAQ for Expense Agent
+# Responsible AI FAQ for the Expense Entry feature of the Time and Expense Agent
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-This FAQ provides answers to frequently asked questions about the AI technology that's used in the Expense Agent feature. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
+This FAQ provides answers to frequently asked questions about the AI technology that's used in the Expense Entry feature of the Time and Expense Agent. It includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 
-## What is the Expense Entry Agent?
+## What is the Expense Entry feature of the Time and Expense Agent?
 
-The Dynamics 365 Expense Entry Agent automates expense management by processing receipts, creating expense lines, and generating reports with minimal user input. It reduces manual effort and accelerates reporting by allowing users to forward receipts to a shared mailbox or upload them directly to Dynamics 365 Project Operations.
+The Expense Entry feature of the Time and Expense Agent automates expense management by processing receipts, creating expense lines, and generating reports with minimal user input. It reduces manual effort and accelerates reporting by allowing users to forward receipts to a shared mailbox or upload them directly to Dynamics 365 Project Operations.
 
 The agent extracts key details—such as amount, merchant, and location—and groups related expenses into reports. Users can review and submit these reports via Microsoft Teams, making the process faster and more accurate.
 
 By reducing time spent on administrative tasks, the agent helps employees focus on higher-value work.
 
 
-## What can the Expense Entry Agent do?
+## What can the Expense Entry feature of the Time and Expense Agent do?
 
-The Expense Entry Agent automates the full expense management lifecycle using intelligent workflows. Its core capabilities include:
+The Expense Entry feature of the Time and Expense Agent automates the full expense management lifecycle using intelligent workflows. Its core capabilities include:
 
 - **Receipt Processing:**  
   Users can forward receipts to a shared mailbox or upload them into Dynamics 365 Project Operations. The agent automatically extracts key details such as amount, merchant, and location—eliminating manual data entry.
@@ -46,9 +46,9 @@ The Expense Entry Agent automates the full expense management lifecycle using in
 
 This comprehensive functionality helps organizations improve expense efficiency, reduce manual input, and support compliance.
 
-## What are the intended uses of the Expense Entry Agent?
+## What are the intended uses of the Expense Entry feature of the Time and Expense Agent?
 
-The Expense Entry Agent is designed to:
+The Expense Entry feature of the Time and Expense Agent is designed to:
 
 - **Automate expense data entry:**  
   Automatically process receipts and invoices to reduce manual input and improve speed and accuracy.
@@ -59,7 +59,7 @@ The Expense Entry Agent is designed to:
 - **Enhance productivity:**  
   Free up employee time by streamlining repetitive tasks, enabling greater focus on strategic responsibilities.
 
-## How was the Expense Entry Agent evaluated? What metrics are used to measure performance?
+## How was the Expense Entry feature of the Time and Expense Agent evaluated? What metrics are used to measure performance?
 
 - The system was evaluated through repeated automated and manual testing to compare generated outputs with expected results for accuracy.
 
@@ -68,7 +68,7 @@ The Expense Entry Agent is designed to:
 - The system underwent rigorous internal assessments aligned with Microsoft’s Responsible AI standards. These assessments cover areas such as security, privacy, legal compliance, and responsible deployment.
 
 
-## What are the limitations of the Expense Entry Agent? How can users minimize their impact?
+## What are the limitations of the Expense Entry feature of the Time and Expense Agent? How can users minimize their impact?
 
 - **Language support:**  
   The agent currently supports receipts in English only.
@@ -86,7 +86,7 @@ The Expense Entry Agent is designed to:
   The system suggests categories based on best-fit logic. Users can adjust categories in Teams or directly within Project Operations before submitting.
 
 
-## What operational settings enable effective and responsible use of the Expense Entry Agent?
+## What operational settings enable effective and responsible use of the Expense Entry feature of the Time and Expense Agent?
 
 - Admins can enable or disable the feature via feature control settings. They can also configure whether expenses are grouped by project or trip and set the notification frequency for unsubmitted reports.
 
@@ -98,7 +98,7 @@ The Expense Entry Agent is designed to:
 
 ---
 
-## How do I provide feedback on the Expense Entry Agent?
+## How do I provide feedback on the Expense Entry feature of the Time and Expense Agent?
 
 - Users can provide quick feedback using the thumbs-up/thumbs-down option within Teams.
 
