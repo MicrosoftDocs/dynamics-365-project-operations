@@ -2,7 +2,7 @@
 title: Approvals feature of the Time and Expense Agent overview (preview)
 description: This article gives a brief introduction to the Approvals feature of the Time and Expense Agent.
 author: abriccetti
-ms.date: 05/09/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
