@@ -644,9 +644,9 @@
         href: time/enable-time-entry-mobile-app.md
       - name: Log time entries using mobile app
         href: time/log-time-using-time-entry-mobile-app.md 
-    - name: Time Entry agent (production ready preview)
+    - name: Time and Expense Agent (preview)
       items:
-      - name: Enable Time Entry agent (production ready preview)
+      - name: Enable the time entry feature
         href: time/enable-time-entry-agent.md
       - name: Start using the agent in Teams 
         href: time/use-time-entry-agent-in-teams.md
@@ -1504,9 +1504,9 @@
         href: time/ui-behavior-time.md
     - name: Use Copilot in time entry (preview)
       href: time/copilot-in-time-entry.md
-    - name: Time Entry agent (production ready preview)
+    - name: Time and Expense Agent (preview)
       items:
-      - name: Enable Time Entry agent (production ready preview)
+      - name: Enable the time entry feature
         href: time/enable-time-entry-agent.md
       - name: Start using the agent in Teams 
         href: time/use-time-entry-agent-in-teams.md
