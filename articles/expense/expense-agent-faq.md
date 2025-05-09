@@ -2,7 +2,7 @@
 title: Expense Entry feature of the Time and Expense Agent FAQ (preview)
 description: This article provides answers to frequently asked questions about the Expense Entry feature of the Time and Expense Agent.
 author: alexeiantao
-ms.date: 04/30/2025
+ms.date: 05/09/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -25,7 +25,7 @@ To enable/disable the agent, go to the configuration page within Expense Managem
 Yes, the agent can be turned off for select legal entities. Configurations are unique per legal entity.
 
 ### I can't see the Expense Entry feature of the Time and Expense Agent in Expense Management parameters within Finance and Operations. Why? 
-Expense Entry feature of the Time and Expense Agent is available from version 10.0.44. Enable the feature 'Agent Management' from **Workspaces > Feature Management**.
+Expense Entry feature of the Time and Expense Agent is available from version 10.0.44. Enable the feature **Agent Management** from **Workspaces > Feature Management**.
 
 ### I can't see the Expense Entry Solution.
 The solution is part of the Finance and Operations Copilot package (v1.0.3033.5+). Update it from PPAC. Refer to the Copilot documentation for more details.
@@ -39,7 +39,7 @@ Update the variable in **DefaultSolution** and publish all customizations.
 ### How do I update environment variables? 
 Go to **DefaultSolution** in Maker portal and update:
   - Expense agent Shared Mailbox Id  
-  - Finance and Operations Instance Url  
+  - Finance and operations Instance Url  
   - Expense agent Shared Mailbox Address Id
 
 ### I don’t know which connectors are used for Expense Entry feature of the Time and Expense Agent. How do I add them?  
@@ -106,7 +106,6 @@ Processed receipts are grouped into reports in the web application and displayed
 
 ### I can't detach an expense line from a one-line adaptive card report.  
 The agent doesn't allow detaching the only line. Use the **web application** to delete the report.
-
 
 
 ## Microsoft Teams Integration
