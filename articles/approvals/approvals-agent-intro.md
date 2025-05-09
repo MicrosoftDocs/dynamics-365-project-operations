@@ -18,8 +18,6 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 The Approvals feature of the Time and Expense Agent aims to streamline the approval process for time, expense, and material transactions. The Time and Expense Agent uses a [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) agent to provide an initial review of incoming time, expense, and material entries against customer uploaded policy documents for each type of entry. If the record is found to meet the criteria outlined in the policy document, it's marked as **ready for approval** and if not it's marked as **needs review**. This streamlines the approvals process for project managers while also reducing mistaken approvals which can lead to time consuming corrections.
 
-This preview is available to be installed in both sandbox and production environments, however, we recommend only using the agent in production environments after thorough testing.
-
 ## Time and Expense Agent Approvals Overview
 
 ### Setup
