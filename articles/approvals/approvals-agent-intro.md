@@ -20,7 +20,7 @@ The Approvals feature of the Time and Expense Agent aims to streamline the appro
 
 ## Set up the Approvals feature of the Time and Expense Agent
 
-The Approvals feature of the Time and Expense Agent requires a few steps to be enabled and correctly setup. Learn more about the appropriate steps for admin setup in [Set up for the Approvals feature of the Time and Expense Agent as an admin](./approvals-agent-admin-setup). Once these steps are complete, the agent can be enabled by selecting **Enable Time and Expense Agent** in the feature control menu on the project parameters form.
+The Approvals feature of the Time and Expense Agent requires a few steps to be enabled and correctly setup. Learn more about the appropriate steps for admin setup in [Set up the Approvals feature of the Time and Expense Agent as an admin](./approvals-agent-admin-setup). Once these steps are complete, the agent can be enabled by selecting **Enable Time and Expense Agent** in the feature control menu on the project parameters form.
 
 Once the feature is enabled, a new tab appears in the Project Parameters form named **Time and Expense Agent**. Use the **Time and Expense Agent** form to upload policy documents for time, expense, and material submissions. Learn more about writing a policy document and examples in [Set up policy documents for the Approvals feature of the Time and Expense Agent](./approvals-agent-policy). If a policy document isn't available for a certain type of record, then approval records of that type aren't classified by the agent.
 
@@ -35,7 +35,7 @@ When a user submits a time, material, or expense record for approval in an envir
 
 ![View of records the agent has classified](media/agentviewscreenshot.png)
 
-When a record is selected in this view the user are shown three options on the ribbon: 
+When a record is selected in this view, the user are shown three options on the ribbon: 
 
 - Approve - The record is processed for approval.
 - Reject - The user is prompted for a rejection comment, then the record is rejected and sent back to the submitter.
