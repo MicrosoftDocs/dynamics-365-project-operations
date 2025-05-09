@@ -1,6 +1,6 @@
 ---
 title: Expense Entry feature of the Time and Expense Agent Installation and Setup (preview)
-description: Learn about the steps to install and set up the Expense Agent.
+description: Learn about the steps to install and set up the Expense Entry feature of the Time and Expense Agent.
 author: alexeiantao
 ms.author: alexeiantao
 ms.date: 05/02/2025
@@ -19,7 +19,7 @@ The Expense Entry feature of the Time and Expense Agent brings together capabili
 
 The Expense Entry feature of the Time and Expense Agent includes multiple flows, three of which serve as core orchestrators:
 
-1. **Process Emails** – Scans a configured mailbox folder every hour and stores the attachments as unattached receipts in Dynamics 365.
+1. **Process Emails** – Scans a configured mailbox folder every hour and stores the attachments as unattached receipts in Dynamics 365 Finance.
 2. **Extract Receipt IDs** – Picks up newly added receipts and triggers the agent to extract details.
 3. **Process Expense Report** – Converts extracted receipt data into structured expense lines and generates reports, based on the configuration set in the application.
 
@@ -47,11 +47,11 @@ Each of these steps is described in detail in the sections that follow.
 
 ## Prerequisites
 
-To complete the steps described in this article, you must have **System administrator** or **System customizer** access in the Power Platform admin center, **System administrator** access in Dynamics 365 Finance and Operations, and **Exchange administrator** access in Microsoft 365 to configure the shared mailbox. If you plan to enable Teams integration, you also need the required permissions in the **Teams admin center**.
+To complete the steps described in this article, you must have **System administrator** or **System customizer** access in the Power Platform admin center, **System administrator** access in finance and operations apps, and **Exchange administrator** access in Microsoft 365 to configure the shared mailbox. If you plan to enable Teams integration, you also need the required permissions in the **Teams admin center**.
 
 ### Step 1: Install Copilot for finance and operations apps
 
-The Expense Entry feature of the Time and Expense Agent is delivered as part of the **Copilot for Finance and Operations** package. Once this package is installed in your environment, all required assetsincluding the agent, environment variables, and Power Automate flowsbecome available automatically.
+The Expense Entry feature of the Time and Expense Agent is delivered as part of the **Copilot for finance and operations** package. Once this package is installed in your environment, all required assetsincluding the agent, environment variables, and Power Automate flowsbecome available automatically.
 
 Learn more about enabling Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
 
@@ -70,7 +70,7 @@ Create a dedicated expense agent user to ensure that the agent runs independentl
 
 #### A. Create the user Microsoft Azure Active Directory (Azure AD DS)
 
-1. Go to the [Azure portal](https://portal.azure.com/) and create a new user under **Microsoft Entra ID** (formerly Azure Active Directory).
+1. Go to the [Azure portal](https://portal.azure.com/) and create a new user under **Microsoft Entra ID**.
 
 #### B. Add the user to the Power Platform environment
 
@@ -114,7 +114,7 @@ These roles enable the agent to interact with Power Automate flows, environment 
 
 #### Shared mailbox access
 
-The agent user must also have the Microsoft Graph permission `Mail.Shared.Read` that allows the agent to read receipts from the configured shared mailbox during flow execution.
+The agent user must also have the Microsoft Graph permission **Mail.Shared.Read** that allows the agent to read receipts from the configured shared mailbox during flow execution.
 
 ### Step 5: Set Up the shared mailbox
 
@@ -127,12 +127,12 @@ To create and configure the shared mailbox, follow these steps.
    If you don’t see it immediately, select **Show all** to expand the list.
 1. Select **Add a shared mailbox**.
 1. Enter a name and email address for the shared mailbox.  
-   *Recommended format:* `expenseagent@contoso.com`
+   *Recommended format:* expenseagent@contoso.com
 1. Select **Save changes**. It may take a few minutes before member management becomes available.
 1. Under **Next steps**, choose **Add members to this mailbox**.
 1. Select the agent user (and any others who should monitor the mailbox), then select **Add** and **Close**.
 
-Once the mailbox is set up, provide its email address and the folder path (default: `Inbox`) as environment variables when configuring the Expense Agent.
+Once the mailbox is set up, provide its email address and the folder path (default: Inbox) as environment variables when configuring the Expense Agent.
 
 ### Step 6: Set up the Expense Entry feature of the Time and Expense Agent
 
@@ -142,7 +142,7 @@ You can set up the Expense Entry feature of the Time and Expense Agent using one
 
 #### Option 1: Using PowerShell Script (recommended)
 
-Setting up the agent manually involves creating and linking connections, enabling Power Automate flows, and publishing the solution — a process that can be time-consuming and error-prone. You can use a PowerShell script and configuration file (`AgentConfig.json`) to automate the setup.
+Setting up the agent manually involves creating and linking connections, enabling Power Automate flows, and publishing the solution — a process that can be time-consuming and error-prone. You can use a PowerShell script and configuration file (AgentConfig.json) to automate the setup.
 
 The PowerShell script automates:
 
@@ -152,7 +152,7 @@ The PowerShell script automates:
 - Publishing the Copilot agents.
 - Publishing the Dataverse solution.
 
-##### Configuration File Example (`AgentConfig.json`)
+##### Configuration File Example (AgentConfig.json)
 
 Before running the script, configure the file with values relevant to your environment:
 
@@ -227,7 +227,7 @@ To create the connections, follow these steps.
 1. Go to the [Power Apps Maker Portal](https://make.powerapps.com/) and select your environment.
 1. Navigate to **Connections**.
 1. Select **New connection** and select the appropriate connector (for example, Outlook, Teams, etc.).
-1. Once created, copy the **connection ID** and paste it into the `AgentConfig.json` file under the appropriate connector entry.
+1. Once created, copy the **connection ID** and paste it into the **AgentConfig.json** file under the appropriate connector entry.
 
 ##### Run the script
 
@@ -794,38 +794,38 @@ To configure the agent, update the following environment variables.
 
 | Variable Name                             | Description                                                                                     |
 |------------------------------------------|-------------------------------------------------------------------------------------------------|
-| `Expense Agent Outlook Folder Path`      | Folder path within the shared mailbox to monitor (default is `Inbox`).                         |
-| `Expense Agent Shared Mailbox Address Id`| Email address of the shared mailbox. Use `NA` if using the signed-in user's mailbox.            |
-| `Finance and Operations Instance Url`    | Finance and Operations environment URL (for example, `https://xxxxx.operations.dynamics.com`).         |
+| Expense Agent Outlook Folder Path      | Folder path within the shared mailbox to monitor (default is **Inbox**).                         |
+| Expense Agent Shared Mailbox Address ID| Email address of the shared mailbox. Use **NA** if using the signed-in user's mailbox.            |
+| Finance and Operations Instance Url    | Finance and Operations environment URL (for example, https://xxxxx.operations.dynamics.com).         |
 
 ##### 2. Enable Power Automate Flows
 
 The Expense Entry feature of the Time and Expense Agent relies on the following Power Automate flows:
 
-- `expense entry retry check`  
-- `expense configuration`  
-- `get expense outlook folder`  
-- `generate expense report`  
-- `send expense report adaptive card`  
-- `process emails`  
-- `extract unattached receipt ids for copilot invocation`  
-- `extract unattached receipt output using Dataverse plugin`  
-- `generate expense line`  
-- `generate expense line without project id and status id`  
-- `identify project ids`  
-- `user calendar events`  
-- `process expense report using copilot`
+- expense entry retry check  
+- expense configuration  
+- get expense outlook folder 
+- generate expense report  
+- send expense report adaptive card  
+- process emails  
+- extract unattached receipt ids for copilot invocation  
+- extract unattached receipt output using Dataverse plugin  
+- generate expense line  
+- generate expense line without project id and status id  
+- identify project ids  
+- user calendar events  
+- process expense report using copilot
 
 To enable these flows, follow these steps.
 
 1. Go to [Power Automate](https://make.powerautomate.com/) and select your environment.
 1. Select **My Flows** and locate each of the Expense Entry feature of the Time and Expense Agent flows in the previous list.
 1. For each flow:
-   - Select **Edit**
-   - Switch to the **Old Designer** by toggling off the "New Designer"
-   - Authenticate any required connections (until green checkmarks appear)
-   - Select **Continue** → **Save**
-   - Select **Turn On** to enable the flow
+   - Select **Edit**.
+   - Switch to the **Old Designer** by toggling off the **New Designer**.
+   - Authenticate any required connections (until green checkmarks appear).
+   - Select **Continue** → **Save**.
+   - Select **Turn On** to enable the flow.
 
 Repeat this process for each of the 13 flows listed.
 
@@ -859,7 +859,7 @@ To configure Teams app availability, follow these steps.
 
 1. After the Teams app is created, select **Availability Options**.
 1. Choose to share the app with:
-   - Specific users within the organization, or  
+   - Specific users within the organization  
    - The entire organization
 1. Submit the app for approval.
 
