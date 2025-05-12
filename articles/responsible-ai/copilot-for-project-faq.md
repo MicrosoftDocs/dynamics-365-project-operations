@@ -3,7 +3,7 @@ title: Copilot for project responsible AI FAQ
 description: This article provides answers to frequently asked questions about Microsoft Copilot for project.
 author: poojafandan
 ms.author: poojafandan
-ms.topic: conceptual 
+ms.topic: faq
 ms.date: 11/15/2024
 ms.custom: 
   - bap-template

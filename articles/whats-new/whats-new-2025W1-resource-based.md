@@ -6,7 +6,7 @@ ms.custom:
   - evergreen
 ms.date: 03/11/2025
 ms.reviewer: johnmichalak
-ms.topic: article
+ms.topic: whats-new
 ms.author: mohitmenon
 ---
 

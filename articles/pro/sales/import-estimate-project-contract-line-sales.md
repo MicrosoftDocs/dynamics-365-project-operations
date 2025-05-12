@@ -3,7 +3,7 @@ title: Import estimates from a project to a project contract line
 description: This article provides information about importing financial estimates from a project to a contract line.
 author: poojafandan
 ms.date: 06/07/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

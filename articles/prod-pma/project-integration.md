@@ -3,7 +3,7 @@ title: Microsoft Project client integration
 description: Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task. Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure. 
 author: Abriccetti
 ms.date: 03/13/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
   - evergreen

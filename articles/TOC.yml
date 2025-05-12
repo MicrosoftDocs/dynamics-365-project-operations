@@ -114,12 +114,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: April 2025 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-apr-2025-resource-based.md
     - name: 2025 Wave 1 Early Access - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-2025W1-resource-based.md
-    - name: February 2025 - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-feb-2025-resource-based.md
     - name: Archive
       items:
+       - name: February 2025 - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-feb-2025-resource-based.md
        - name: January 2025 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-jan-2025-resource-based.md
        - name: December 2024 - Project Operations for resource/non-stocked based scenarios
@@ -232,6 +234,8 @@
         href: sales/sales-currency.md
       - name: Organizational units
         href: sales/OrgUnits.md
+      - name: Use time zone independent date fields
+        href: sales/tz-independent-date-fields.md
     - name: Manage project-based leads
       href: sales/manage-leads.md
     - name: Manage project-based opportunities
@@ -434,6 +438,8 @@
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
         href: project-management/project-sales-tracking.md
+      - name: Update progress of a task
+        href: project-management/update-progress-of-a-task.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -772,6 +778,8 @@
         href: actuals/create-confirm-entry-journals.md
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
+      - name: Cancel actuals created from entry journals
+        href: actuals/cancel-actuals-from-entry-journals.md
   - name: Procurement
     items:
     - name: Configure non-stocked materials and pending vendor invoices
@@ -934,12 +942,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new April 2025 - lite deployment
+      href: pro/whats-new/whats-new-apr-2025-lite.md
     - name: What's new 2025 Wave 1 early access - lite deployment
-      href: pro/whats-new/whats-new-2025W1-early-access-lite.md
-    - name: What's new February 2025 - lite deployment
-      href: pro/whats-new/whats-new-feb-2025-lite.md   
+      href: pro/whats-new/whats-new-2025W1-early-access-lite.md   
     - name: Archive
       items:
+      - name: What's new February 2025 - lite deployment
+        href: pro/whats-new/whats-new-feb-2025-lite.md
       - name: What's new January 2025 - lite deployment
         href: pro/whats-new/whats-new-jan-2025-lite.md 
       - name: What's new December 2024 - lite deployment
@@ -1054,6 +1064,8 @@
         href: sales/sales-currency.md
       - name: Organizational units
         href: sales/OrgUnits.md
+      - name: Use time zone independent date fields
+        href: sales/tz-independent-date-fields.md
     - name: Manage project leads 
       href: pro/sales/managing-leads-sales.md
     - name: Manage project opportunities
@@ -1280,6 +1292,8 @@
         href: project-management/project-cost-tracking.md
       - name: Labor revenue tracking on projects
         href: project-management/project-sales-tracking.md
+      - name: Update progress of a task
+        href: project-management/update-progress-of-a-task.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -1540,6 +1554,8 @@
         href: actuals/create-confirm-entry-journals.md
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
+      - name: Cancel actuals created from entry journals
+        href: actuals/cancel-actuals-from-entry-journals.md
       - name: Use journal line improvements
         href: actuals/journal-line-improvements.md
   - name: Proforma invoicing
@@ -1816,6 +1832,10 @@
       href: prod-pma/project-purchase-orders.md
     - name: Project cost accrual on purchase receipts
       href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+    - name: Manage item requirements for procurement categories
+      href: prod-pma/create-item-requirements-procurement-categories.md
+    - name: Manage project production orders
+      href: prod-pma/manage-project-production-orders.md
     - name: Receive items on purchase order from item requirement
       href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
     - name: Set up and use pay-when-paid vendor payments
@@ -2428,6 +2448,32 @@
       items:
       - name: Add custom forms for entities
         href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
+- name: Time and Expense Agent (preview)
+  items:
+  - name: Approvals
+    items: 
+    - name: Approvals feature of the Time and Expense Agent overview
+      href: approvals/approvals-agent-intro.md
+    - name: Set up policy documents for the Approvals feature of the Time and Expense Agent (preview)
+      href: approvals/approvals-agent-policy.md
+    - name: Set up the Approvals feature of the Time and Expense Agent as an admin
+      href: approvals/approvals-agent-admin-setup.md
+  - name: Expense entry
+    items:
+    - name: Expense Entry feature of the Time and Expense Agent overview
+      href: expense/expense-agent-overview.md
+    - name: Expense Entry feature of the Time and Expense Agent Installation and Setup
+      href: expense/expense-agent-setup.md
+    - name: Expense Entry feature of the Time and Expense Agent FAQ
+      href: expense/expense-agent-faq.md
+  - name: Time entry
+    items:
+    - name: Enable the time entry feature
+      href: time/enable-time-entry-agent.md
+    - name: Start using the agent in Teams 
+      href: time/use-time-entry-agent-in-teams.md
+    - name: Review time entries created by the agent 
+      href: time/reviewing-entries-created-by-time-agent.md
 - name: Responsible AI FAQs
   items:
   - name: Responsible AI FAQs for Project Operations
@@ -2436,6 +2482,12 @@
     href: responsible-ai/copilot-for-project-faq.md
   - name: Responsible AI FAQs for Copilot in time entry
     href: responsible-ai/copilot-in-time-entry-faqs.md
+  - name: Responsible AI FAQ for the Approvals feature of the Time and Expense Agent (preview)
+    href: responsible-ai/approvals-agent-faq.md
+  - name: Responsible AI FAQ for the Expense Entry feature of the Time and Expense Agent (preview)
+    href: expense/expense-agent-responsible-ai.md
+  - name: Responsible AI FAQ for the Time Entry feature of the Time and Expense Agent (preview)
+    href: responsible-ai/time-entry-agent-faqs.md
 - name: Respond to Data Subject Rights (DSR) requests
   href: environment/dsr-rights-requests.md
 

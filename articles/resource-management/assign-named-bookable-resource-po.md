@@ -6,7 +6,7 @@ ms.custom:
   - dyn365-projectservice
   - evergreen
 ms.date: 07/17/2024
-ms.topic: article
+ms.topic: how-to
 ms.author: abriccetti
 audience: Admin
 search.audienceType: 

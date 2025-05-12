@@ -3,7 +3,7 @@ title: Manage project billing backlog
 description: This article provides information about the various views available to use when managing the billing backlog on projects.
 author: poojafandan
 ms.date: 11/26/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

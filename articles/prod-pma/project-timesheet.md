@@ -4,7 +4,7 @@ description: This article provides information about the Microsoft Dynamics 365 
 author: mohitmenon
 ms.author: mohitmenon
 ms.date: 03/19/2025
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

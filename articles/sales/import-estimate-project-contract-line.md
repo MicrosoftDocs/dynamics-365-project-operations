@@ -3,7 +3,7 @@ title: Import an estimate to a project-based contract line
 description: This article provides information about how to import estimates from a project to a contract line.
 author: poojafandan
 ms.date: 06/07/2024
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: poojafandan
 ---

@@ -3,7 +3,7 @@ title: Manage per diems by using the Expense management mobile app
 description: This article explains how to manage per diem expenses by using the Microsoft Dynamics 365 Expense management mobile app.
 author: mukumarm
 ms.date: 05/01/2024
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mukumarm
 ---

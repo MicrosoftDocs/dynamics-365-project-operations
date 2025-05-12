@@ -2,7 +2,7 @@
 title: Set up cost and sales rates for materials
 description: This article provides information about how to set up the cost and sales rates for materials used on projects. 
 author: suvaidya
-ms.date: 09/12/2024
+ms.date: 04/21/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -32,17 +32,17 @@ To set up cost and sales rates for products, follow these steps.
 
 Project Operations supports the following pricing methods for sales price lists:
 
-- **Price per unit** – By default, the sales price of the material is set to the amount that's specified in the **Currency amount** field.
+- **Price per unit** – By default, the sales price of the material is set to the amount specified in the **Currency amount** field.
 - **At cost** – By default, the sales price of the material is set to the transaction cost of the material.
 - **Markup percentage** – The sales price of the material is calculated as a markup percentage over the transaction cost of the material.
 
 ### Example
 
-The following illustration shows a view of three products, each of which has been set up with a different project pricing method. The **Amount** field refers to the amount that's used to price product-based contract lines.
+The following illustration shows a view of three products, each of which is set up with a different project pricing method. The **Amount** field refers to the amount used to price product-based contract lines.
 
 ![List of products/materials and their prices when used in projects.](media/Transaction-cost-based-PM-Material.png)
 
-If each product has a transaction cost of $100, the unbilled sales actuals per unit of usage in projects will be calculated in the following way.
+If each product has a transaction cost of $100, the unbilled sales actuals per unit of usage in projects are calculated in the following way.
 
 | Product | Project pricing method | Markup percentage | Sales price | Currency |
 |---|---|---|---|---|
@@ -50,12 +50,15 @@ If each product has a transaction cost of $100, the unbilled sales actuals per u
 | Material at Mark up over transaction cost | Mark up percentage | 10 | 110 | USD |
 | Material at price per unit | Price per unit | | 200 | USD |
 
+> [!NOTE]
+> For material transactions, unit conversions aren't supported. For example, if a price list has a price with a unit of ea, then expenses must be expressed in ea and not bundle even if the unit group has a conversion between them. Alternatively, a price with a unit of bundle for the same item can be added to the price list.
+
 For more information about how to define prices for catalog items, see [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
 
 > [!NOTE]
-> Project Operations doesn't support all the pricing methods for products that Dynamics 365 Sales supports. Originally, only the **Currency amount** pricing method could be used for projects. However, as of Project Operations release UR 30, two additional pricing methods are supported. 
+> Project Operations doesn't support all the pricing methods for products that Dynamics 365 Sales supports. Originally, only the **Currency amount** pricing method could be used for projects. However, as of Project Operations release UR 30, two other pricing methods are supported. 
 
 > [!NOTE]
-> Price defaulting for expenses, based on cost [Mark up over transaction cost] is valid on project estimates, actuals, quote lines, contract line details, budget lines and budget line details.
+> Price defaulting for expenses, based on cost [Mark up over transaction cost] is valid on project estimates, actuals, quote lines, contract line details, budget lines, and budget line details.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

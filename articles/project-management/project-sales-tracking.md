@@ -4,7 +4,7 @@ description: This article provides information about how Project Operations trac
 author: poojafandan
 ms.author: poojafandan
 ms.date: 06/07/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

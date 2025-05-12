@@ -4,7 +4,7 @@ description: This article explains the redesigned and reimagined experience for 
 author: mukumarm
 ms.author: mukumarm
 ms.date: 02/04/2025
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
