@@ -65,7 +65,7 @@ Ensure you're part of the correct legal entity and have active employment. Also 
 ### I have followed the setup steps and have the required permissions, but the emails are still not processed.
 You may need to republish agents:
   - Go to **Power Apps**  
-  - Select **Environment > Agents > 'Expense Entry feature of the Time and Expense Agent'** and **'ExpenseAgent-Line'**  
+  - Select **Environment > Agents > 'Expense Entry Agent'** and **'ExpenseAgent-Line'**  
   - Publish both agents  
   - Publish the solution **Time and Expense Agent**
 
@@ -112,7 +112,7 @@ The agent doesn't allow detaching the only line. Use the **web application** to 
 ## Microsoft Teams Integration
 
 ### I can’t see the adaptive card for Expense in Teams. 
-Ensure the **Expense Entry feature of the Time and Expense Agent** Teams app is installed.
+Ensure the **Expense Entry Agent** Teams app is installed.
 
 ### I select the adaptive card button but get no response.  
 There’s a **1-day timeout**. You can act on the next card or use the web application.

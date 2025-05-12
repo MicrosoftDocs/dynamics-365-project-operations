@@ -20,7 +20,7 @@ ms.author: mohitmenon
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
 Once all steps to [enable the Time Entry feature of the Time and Expense Agent for end users](enable-time-entry-agent.md) are completed by an administrator, team members can now start using the agent. The interface used by the agent to communicate with team members is via Microsoft Teams, as a Teams app. To begin using the agent through Teams, each user must first:
-- Add the "Time and Expense Agent" Teams app.
+- Add the "Time Entry Agent (Preview)" Teams app.
 - Give consent to the agent for time entry creation and set certain preferences.
 
 ## Add the Time and Expense Agent Teams App
@@ -29,7 +29,7 @@ When your organization enables the agent and shares it with you, the agent can b
 
 1. Go to your Teams app or Teams in the browser using the same credentials used to log into your Project Operations environment.
 1. Go to the **Apps** section within Teams.
-1. The **Time and Expense Agent** app can be found under _Built for your organization_ or _Added by your org_ sections. Select the **Add** button for this app.
+1. The **Time Entry Agent (Preview)** app can be found under _Built for your organization_ or _Added by your org_ sections. Select the **Add** button for this app.
 1. A pop-up may appear with more details about the app, proceed to **Add** it.
 1. Once added, the option to **Open** the app becomes available. Select **Open**. This step takes you to a Teams chat where all interactions with the Time Entry feature of the Time and Expense Agent occur.
 
@@ -80,7 +80,7 @@ Users can modify their existing preferences by:
 This step is required if you have selected **Yes** for _Using Outlook calendar to generate better external comments_. The agent user requires access to the team member's Outlook calendar, to be able to view meeting titles and descriptions for generating better comments. This access can be shared by:
 - Navigating to Outlook -> Calendar
 - Under **My Calendars**, select the **overflow icon** (three dots) for the calendar used by you.
-- Select **Sharing and permissions**, then type in the **email ID of the agent user **(you may need to get this email ID from your administrator).
+- Select **Sharing and permissions**, then type in the **email ID of the agent user** (you may need to get this email ID from your administrator).
 - Select **Share**.
 
 After completing all of these one-time setup instructions, you've successfully set up the Time Entry feature of the Time and Expense Agent for use as a team member. From here on, the experience of logging time entries is like this:

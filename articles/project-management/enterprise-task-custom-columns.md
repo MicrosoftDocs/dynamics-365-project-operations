@@ -3,7 +3,7 @@ title: Add custom columns to the grid view
 description: Learn how to add a custom column to the grid view on the Tasks tab of a project.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 12/05/2024
+ms.date: 05/05/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -37,7 +37,7 @@ The custom columns are added to the grid view, and any data in them is shown.
 
 ## Edit data in a custom column
 
-Currently, the data in custom columns can't be edited from the grid view. Instead, you must update the data directly in Dataverse, via an API, or through the Power Apps UI. Alternatively, you can add the custom columns to the **Project Task** page in Dynamics 365 apps and edit the data there. The ability to edit data directly from the grid view is planned for a future release.
+You can modify custom columns directly in the task grid. Additionally, data can be updated through Dataverse, by using an API, or via the Power Apps interface. Custom columns can also be added to the **Project Task** page in Dynamics 365 apps. There, the data can also be edited.
 
 ## Custom column limitations
 
@@ -45,7 +45,7 @@ The following types of columns can be added as custom columns in the grid view:
 
 - **Text**
 - **Number**
-- **Date** – The columns must be date-only columns, not date and time columns.
+- **Date** – The columns must be date-only columns, not date, and time columns.
 - **Choice** – The columns must be choice columns, not yes/no columns.
 
 > [!IMPORTANT]

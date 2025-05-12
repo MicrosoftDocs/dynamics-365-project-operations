@@ -96,7 +96,7 @@ Users can either **Save changes** or **Submit all** (submits all entries for tha
 ## Missing time entries alert
 
 The Time Entry feature of the Time and Expense Agent sends users an alert at the end of the work week, if they have any "missing hours" identified.
-- **Missing hours definition**: A day is said to have missing hours for a user if the total hours in _Submitted _or _Approved_ or _Recall Requested_ state (non-Draft hours) is **less than their working hours** for that day.
+- **Missing hours definition**: A day is said to have missing hours for a user if the total hours in _Submitted_ or _Approved_ or _Recall Requested_ state (non-Draft hours) is **less than their working hours** for that day.
 - **The alert**: The alert consists of a summary of all days in the current week that have missing hours, along with: 
   - The number of hours missing and
   - Any Draft hours for those days that can be submitted
@@ -104,6 +104,6 @@ The Time Entry feature of the Time and Expense Agent sends users an alert at the
 
 > [!IMPORTANT]
 > The Duration field only takes numerical values greater than zero. 
-> Save or Submit All operations don't update any time entry records if edits to the Duration field cause the total project related hours for that day to exceed 24 hours.
+> **Save** or **Submit All** operations don't update any time entry records if edits to the Duration field cause the total project related hours for that day to exceed 24 hours.
 
  [!INCLUDE[footer-include](../includes/footer-banner.md)]
