@@ -62,7 +62,7 @@ To activate the agent in finance and operations apps, follow these steps.
 
 1. After installing the package, activate the Expense Entry feature of the Time and Expense Agent from the finance and operations web application.
 1. Go to **Feature Management** and ensure **Agent Management** is enabled.
-1. Go to **Expense Management > Setup > Expense Management Parameters > Expense Entry feature of the Time and Expense Agent**.
+1. Go to **Expense Management > Setup > Expense Management Parameters > Expense Agent**.
 1. Enable the agent for the current legal entity and configure the run frequency as either **daily** or **weekly**. You can also choose to group expenses by **Trip** or **Project** using the *Expense group by* setting.
 
 ### Step 3: Set up the agent user
