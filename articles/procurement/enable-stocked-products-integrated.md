@@ -34,7 +34,7 @@ To use the feature for Project Operations integrated deployments, you must have 
 
 ### Run Dual-write maps
 
-This section provides information about specific the maps required for stocked products. These dual-write maps for related to **Dynamics 365 supply chain** solution. Learn about **Dynamics 365 supply chain** dual write entities in [Unified product experience](/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping)
+This section provides information about specific the maps required for stocked products. These dual-write maps for related to **Dynamics 365 supply chain** solution. Learn about **Dynamics 365 supply chain** dual write entities in [Unified product experience](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping)
 
 |Dual write map|Version|
 |--|--|
@@ -131,7 +131,7 @@ Learn about project purchase orders in [Project purchase orders](non-stocked-mat
 ## Material usage
 In **Dynamics 365 Project Operations**, a material usage log provides a way to record material consumption so it can be approved by the project manager and eventually invoiced to the customer. When you enable the stocked product feature, users can create material usage entries for stocked products. These entries can be created for either a **specific product** or a **project variant**. Based on the item and required inventory dimensions, users must specify details such as **site, warehouse**, and, if applicable, **batch or serial number**. It's essential to ensure that inventory is only consumed when sufficient stock is available with the relevant inventory dimensions.
 
-![Material usage](media/MaterialUsage.png)
+![Material usage](../media/MaterialUsage.png)
 
 Learn about project material usage in [Record material usage on projects and project tasks](../material/material-usage-log.md).
 
@@ -145,13 +145,13 @@ When material usage is approved by the approver, cost and unbilled sales actuals
 > [!NOTE]
 > In **Dynamics 365 Finance**, inventory consumption using inventory journals are always posted using the **weighted average** cost, regardless of the costing method assigned to the material. To align the **inventory cost** of a transaction with the assigned inventory model group, the Inventory **Closing and adjustment** job must be executed.
 
-![Project actuals](media/Actuals.png)
+![Project actuals](../media/Actuals.png)
 
 ## Journals
 Entry journals are used to record actuals directly in **Dynamics 365 Project Operations**. When you use Entry journals, you don't have to enter Time, Expense, and Material usage logs in Project Operations.
 By enabling the stocked product feature, users can create material consumption entries for stocked products. These entries can be created for either a **specific product** or a **project variant**. Based on the item and required inventory dimensions, users must specify details such as **site, warehouse**, and, if applicable, **batch or serial number**. It's essential to ensure that inventory is only consumed when sufficient stock is available with the relevant inventory dimensions.
 
-![Project journals](media/Projectjournal.png)
+![Project journals](../media/Projectjournal.png)
 
 Learn about project journals in [Create and confirm Entry journals](../actuals/create-confirm-entry-journals.md).
 
