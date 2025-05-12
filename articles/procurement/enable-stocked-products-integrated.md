@@ -63,18 +63,18 @@ This section provides information about specific the maps required for stocked p
 |Project subcontract purchase order line (msdyn_subcontractlines)|1.0.0.1|
 
 ## Products 
-**Dynamics 365 Finance** serves as the master system for creating and **releasing products**. When a new product is created or released in Finance, it is automatically synchronized with **Dynamics 365 Project Operations**. 
-The product type, whether it is a service item or a stocked item, is also reflected accordingly in Project Operations. If the product includes **multiple variants** based on dimensions such as **size, color, configuration, or style**, each variant is represented as a **separate product** in Project Operations. 
+**Dynamics 365 Finance** serves as the master system for creating and **releasing products**. When a new product is created or released in Finance, it's automatically synchronized with **Dynamics 365 Project Operations**. 
+The product type, whether it's a service item or a stocked item, is also reflected accordingly in Project Operations. If the product includes **multiple variants** based on dimensions such as **size, color, configuration, or style**, each variant is represented as a **separate product** in Project Operations. 
 In **Project operations**, products can be activated or deactivated using the **Activate** button on the action pane. 
 
-![Products view](media/Products.png)
+![Products view](../media/Products.png)
 
 ### On hand inventory
 **Dynamics 365 Project operations** allows users to view on-hand inventory for specific products within a company. 
 On-hand stock can be accessed from various areas, including the **product master**, **project estimates**, **project quotation lines**, **project contract lines**, and **project journals**. 
-While Project Operations does not maintain its own inventory data, it retrieves and displays **on-hand stock** information from **Dynamics 365 Finance**. Currently, **Project Operations** supports viewing on-hand inventory up to the **site and warehouse** level.
+While Project Operations doesn't maintain its own inventory data, it retrieves and displays **on-hand stock** information from **Dynamics 365 Finance**. Currently, **Project Operations** supports viewing on-hand inventory up to the **site and warehouse** level.
 
-![On hand](media/Onhand.png)
+![On hand](../media/Onhand.png)
 ### Cost and sales price list
 When a new **product** is released in **Dynamics 365 Finance** and a default **purchase price, sales price, or inventory cost** is added or updated, 
 **Dynamics 365 Project Operations** identifies the appropriate cost and sales price lists during synchronization. It selects the **first cost price list** and **sales price list** in **alphabetical order** that matches the **company's currency**. 
@@ -86,7 +86,7 @@ These estimates are synchronized as **project item forecasts** in **Dynamics 365
 When **stocked products** are selected, the **site and warehouse** can be specified on the quick create or detail form. 
 This information is then reflected in the corresponding **project item forecast** in **Dynamics 365 Finance**. Additionally, project item forecasts can be used to run master planning, enabling the generation of planned purchase orders or production orders.
 
-![Project material forecast](media/EstimateLine.png)
+![Project material forecast](../media/EstimateLine.png)
 
 Learn about project material estimates in [Financial estimates for materials on projects](../project-management/create-material-estimate.md).
 
@@ -95,7 +95,7 @@ Learn about project material estimates in [Financial estimates for materials on 
 **Stocked products** can be added directly to the **project quotation line details**. **Sales prices** are retrieved based on the price list associated with the project quotation, 
 but users also have the flexibility to manually adjust the sales price on the quotation line. Additionally, **profitability analysis** for project can be reviewed and validated directly from the project quotation form.
 
-![Project quotation line](media/ProjectQuote.png)
+![Project quotation line](../media/ProjectQuote.png)
 
 Learn about project quotations in [Manage project quotes](../pro/sales/manage-quotes-sales.md).
 
@@ -104,7 +104,7 @@ Learn about project quotations in [Manage project quotes](../pro/sales/manage-qu
 **Stocked products** can be added directly to the **project contract line details**. **Sales prices** are retrieved based on the price list associated with the project contract, 
 but users also have the flexibility to manually adjust the sales price on the contract line. Additionally, **profitability analysis** for project can be reviewed and validated directly from the project contract form.
 
-![Project contract line](media/Projectcontractline.png)
+![Project contract line](../media/Projectcontractline.png)
 
 Learn about project contracts in [Manage project contracts](../pro/sales/manage-contracts-sales.md).
 
@@ -112,16 +112,16 @@ Learn about project contracts in [Manage project contracts](../pro/sales/manage-
 **Dynamics 365 Project Operations** enables the execution of the full procurement lifecycle, including **purchase requisitions, purchase agreements, and purchase orders**. 
 To utilize **purchase orders** in the **integrated deployments**, the feature **Enable project purchase orders on Project Operations for resource-based/non-stocked scenarios** must be activated.
 
-By enabling the **Enable stocked products usage for project operations integrated deployments**, purchase orders can also be created for **stocked items**. 
+When you enable the **Enable stocked products usage for project operations integrated deployments**, purchase orders can also be created for **stocked items**. 
 
 Once a purchase order line is created or saved, the **Project Contract Line ID** is automatically populated based on the **project category** and **activity**, provided a project contract exists for the project. 
-The **activity** is optional if contract lines are not tied to project tasks in Project Operations or if the project is an internal project. The **Project Contract Line ID** is particularly important for **revenue recognition** when linked to a **fixed-price** contract line.
+The **activity** is optional if contract lines aren't tied to project tasks in Project Operations or if the project is an internal project. The **Project Contract Line ID** is important for **revenue recognition** when linked to a **fixed-price** contract line.
 
-Upon confirming the **purchase order**, **accounting distributions** are generated to record the **project cost**. This applies only to **stocked products**. 
+After you confirm the **purchase order**, **accounting distributions** are generated to record the **project cost**. This applies only to **stocked products**. 
 A warehouse worker can then receive the product using the **product receipt** functionality. The **Accounts Payable clerk** creates the **vendor invoice** through the invoice feature, and these vendor invoices are synchronized with **Dynamics 365 Project Operations**, generating both **project cost actuals and unbilled sales actuals**.
 
 > [!NOTE]
-> Project cost generates and posts directly in Dynamics 365 Finance when the vendor invoice is posted. Integration journals are not created for project cost actuals, as the cost is posted during the vendor invoice posting process. This behavior applies only to stocked products. For service items or procurement categories, vendor invoices post the transactions to the procurement integration account.
+> Project cost generates and posts directly in Dynamics 365 Finance when the vendor invoice is posted. Integration journals aren't created for project cost actuals, as the cost is posted during the vendor invoice posting process. This behavior applies only to stocked products. For service items or procurement categories, vendor invoices post the transactions to the procurement integration account.
 
 > [!NOTE]
 > Product receipts aren't recorded to the project actuals in Microsoft Dataverse and don't impact the project subledger.
@@ -129,7 +129,7 @@ A warehouse worker can then receive the product using the **product receipt** fu
 Learn about project purchase orders in [Project purchase orders](non-stocked-materials-project-purchase-orders.md).
 
 ## Material usage
-In **Dynamics 365 Project Operations**, a material usage log provides a way to record material consumption so it can be approved by the project manager and eventually invoiced to the customer. By enabling the stocked product feature, users can create material usage entries for stocked products. These entries can be created for either a **specific product** or a **project variant**. Based on the item and required inventory dimensions, users must specify details such as **site, warehouse**, and, if applicable, **batch or serial number**. It is essential to ensure that inventory is only consumed when sufficient stock is available with the relevant inventory dimensions.
+In **Dynamics 365 Project Operations**, a material usage log provides a way to record material consumption so it can be approved by the project manager and eventually invoiced to the customer. When you enable the stocked product feature, users can create material usage entries for stocked products. These entries can be created for either a **specific product** or a **project variant**. Based on the item and required inventory dimensions, users must specify details such as **site, warehouse**, and, if applicable, **batch or serial number**. It's essential to ensure that inventory is only consumed when sufficient stock is available with the relevant inventory dimensions.
 
 ![Material usage](media/MaterialUsage.png)
 
@@ -149,7 +149,7 @@ When material usage is approved by the approver, cost and unbilled sales actuals
 
 ## Journals
 Entry journals are used to record actuals directly in **Dynamics 365 Project Operations**. When you use Entry journals, you don't have to enter Time, Expense, and Material usage logs in Project Operations.
-By enabling the stocked product feature, users can create material consumption entries for stocked products. These entries can be created for either a **specific product** or a **project variant**. Based on the item and required inventory dimensions, users must specify details such as **site, warehouse**, and, if applicable, **batch or serial number**. It is essential to ensure that inventory is only consumed when sufficient stock is available with the relevant inventory dimensions.
+By enabling the stocked product feature, users can create material consumption entries for stocked products. These entries can be created for either a **specific product** or a **project variant**. Based on the item and required inventory dimensions, users must specify details such as **site, warehouse**, and, if applicable, **batch or serial number**. It's essential to ensure that inventory is only consumed when sufficient stock is available with the relevant inventory dimensions.
 
 ![Project journals](media/Projectjournal.png)
 
@@ -159,9 +159,9 @@ Learn about project journals in [Create and confirm Entry journals](../actuals/c
 When a user confirms the **journal** for a stocked product line, the system **validates** whether the product is available in stock. If the stock is **unavailable**, the system displays an error and prevents the confirmation of the journal entry.
 
 ## Inventory recalculation and closing
-To align the **inventory cost** of a transaction with the assigned inventory model group, the Inventory **Closing and adjustment** job must be executed. If there is any deviation between the **project cost** recorded through the **project integration journal** and the cost calculated based on the **inventory model group**, an adjustment transaction is generated to update the project cost accordingly.
+To align the **inventory cost** of a transaction with the assigned inventory model group, the Inventory **Closing and adjustment** job must be executed. If there's any deviation between the **project cost** recorded through the **project integration journal** and the cost calculated based on the **inventory model group**, an adjustment transaction is generated to update the project cost accordingly.
 
-To update project costs in **Dynamics 365 Project Operations**, the recurring batch job **Project cost update for inventory adjustments** must be executed after the Inventory Closing and Adjustment job is completed. This batch job can be scheduled to run on a recurring basis; however, it is recommended to run it only after the inventory closing and adjustment process has been completed.
+To update project costs in **Dynamics 365 Project Operations**, the recurring batch job **Project cost update for inventory adjustments** must be executed after the Inventory Closing and Adjustment job is completed. This batch job can be scheduled to run on a recurring basis; however, it's recommended to run it only after the inventory closing and adjustment process has been completed.
 
 To run the **Project cost update for inventory adjustments**, do the following:
 
