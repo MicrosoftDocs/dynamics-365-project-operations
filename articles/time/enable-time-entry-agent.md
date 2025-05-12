@@ -76,7 +76,7 @@ To view and initiate these flows, follow these steps.
 
 There are **12** Power Automate flows (cloud flows) that must be **activated in this order** _(starting from number 1 to 12)_.
 
-1. Create or Update User Configuration for Time Entry feature of the Time and Expense Agent.
+1. Create or Update User Configuration for Time Entry Copilot.
 2. Get Time Entries.
 3. Filter Duplicates.
 4. Import from Sources and Filter _(Parent of Flow 3)_.
@@ -129,13 +129,13 @@ To enable the feature on a Project Operations environment, follow these steps.
 Now that you've initiated all the Power Automate Flows and enabled the feature parameter, the last step for an administrator is to publish the agent to users in your organization from Microsoft Copilot Studio.
 
 > [!IMPORTANT]
-> Before beginning this step, ensure that all flows are in the "ON" state at the end of these steps. Any one of the flows not being "ON," can lead to the Time Entry feature of the Time and Expense Agent not functioning as expected. If the "Create or Update User Configuration for Time Entry feature of the Time and Expense Agent" flow is OFF, the agent can't even be published.
+> Before beginning this step, ensure that all flows are in the "ON" state at the end of these steps. Any one of the flows not being "ON," can lead to the Time Entry feature of the Time and Expense Agent not functioning as expected. If the "Create or Update User Configuration for Time Entry Copilot" flow is OFF, the agent can't even be published.
 
 To publish the agent, follow these steps.
 
 1. Navigate to [Power Apps Maker Portal](https://make.powerapps.com) and select the desired environment from the environment picker on the top-right.
 1. Select **Agents** from the menu on the left (If this option isn't visible, try **More**->**Agents**).
-1. Under **All**, select **Time Entry**. This opens a new tab for this agent on Microsoft Copilot Studio. Ensure the **correct environment is selected** from the picker on the top-right.
+1. Under **All**, select **Time Entry Agent (Preview)**. This opens a new tab for this agent on Microsoft Copilot Studio. Ensure the **correct environment is selected** from the picker on the top-right.
 1. You may see a **Consent confirmation** message on the right, under _Test your agent_ section. Hit **Confirm** here.
 1. Select **Publish** to publish this agent bot first. A pop-up window may appear to inform you of some "potential risks", view them and select **Publish**. 
    :::image type="content" source="../media/publishingagent.png" alt-text="Screenshot showing agent publish is in progress.":::
