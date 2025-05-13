@@ -34,7 +34,6 @@ To configure permissions at the system user level, follow these steps.
 
 1. In the **Project user permissions** dialog, in the **Access Level** field, select a value.
 
-    :::image type="content" source="media/permissions-in-system-user.png" alt-text="Screenshot that shows Full access selected in the Access Level field in the Project user permissions dialog.":::
 
 > [!NOTE]
 > By default, all users have **read-only access**.
@@ -57,15 +56,12 @@ To configure permissions at the project team member level, follow these steps.
 
 1. In the **Set Permission** dialog, in the **Access Level** field, select a value.
 
-    :::image type="content" source="media/permission-in-project-team-member.png" alt-text="Screenshot that shows Full access selected in the Access Level field in the Set Permission dialog.":::
-
 1. If you selected **Custom** in the **Access Level** field, a **Permissions** grid appears in the dialog. Select **Edit**, and then adjust the permission settings as required.
 
     :::image type="content" source="media/custom-permissions-in-project-team-member.png" alt-text="Screenshot that shows the Permissions grid that appears in the Set Permission dialog if Custom is selected in the Access Level field. The location of the Edit button is highlighted.":::
 
     Custom permissions can also be adjusted by using the options on the **Project Team Member Permission** page.
 
-    :::image type="content" source="media/edit-custom-permissions-in-project-team-member.png" alt-text="Screenshot that highlights the options for customizing permission settings on the Project Team Member Permission page.":::
 
 > [!NOTE]
 > By default, all project team members have **full access**.
