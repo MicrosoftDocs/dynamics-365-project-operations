@@ -22,7 +22,7 @@ Financial tags let organizations track user-defined fields on accounting entries
 
 ## Feature details
 
-Financial tags for Project-based transactions are now available starting with the 10.0.44 release. To enable this new functionality, enable the **Enable financial tags for project fincancials transactions** in the **Feature management** workspace.
+Financial tags for Project-based transactions are now available starting with the 10.0.44 release. To enable this new functionality, enable the **Enable financial tags for project financial transactions** in the **Feature management** workspace.
 
 Additional prerequisite features may be required for tags on certain transactions, such as **Enable financial tags for sales order invoicing** for sales orders and item requirement transactions and **Enable financial tags for purchase order invoicing** for purchase orders and vendor invoices.
 
