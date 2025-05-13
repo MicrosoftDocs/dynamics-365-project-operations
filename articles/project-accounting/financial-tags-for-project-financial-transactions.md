@@ -33,20 +33,23 @@ For stocked/production-based scenarios, the following enhancements will be avail
 - Financial tags are available to be entered for on-account transactions.
 - The financial tags will be present in the financial voucher posting for the document where possible.
 - The financial tags will carry forward into the voucher for the project invoice.
-- Post costs will carry the tag forward.
 - Accrue Revenue will carry the tag forward.
 
 For resource/non-stocked based scenarios, the following enhancements will be available:
 
-- //TO Test - On-account
 - Financial tags will be available on the integration journal for hours, expenses, fees, and materials through a new Financial tags tab control on the header and a new field available within journal lines.
 - The financial tags will be present in the financial voucher posting for the document.
 - The financial tags will carry forward into the voucher for the project invoice.
 
 ### Example scenario
 
-Contoso is participating in an industry event and wants to track all  time and expenses related to this event. To accomplish this they create a new financial tag named IndustryEvent with a tag value of “2026 Event”. For any time or expenses related to this event the tag will be manually specified on the transaction line. After the event is over and all expenses are recorded, the financial tag will be removed and further use will not be allowed.
-Timesheets and expenses are created and the financial tag is added on the line. When the lines are posted, the financial tag is applied to the transaction lines. Then when the transactions are invoiced, the financial tags carry forward into the voucher for the invoice as well. All transactions that use this tag can be viewed at once through the general ledger **Voucher transactions** page or the **Accounting Source Explorer** page.
+Contoso is participating in an industry event and wants to track all time and expenses related to this event. To accomplish this they create a new financial tag named IndustryEvent with a tag value of “2026 Event”. For any time or expenses related to this event the tag will be manually specified on the transaction line. After the event is over and all expenses are recorded, the financial tag will be removed and further use will not be allowed.
+
+1. Hour journals and expenses are created and the financial tag is added on the relevant transactions prior to submission to workflow or posting.
+
+2. When the transaction lines are posted, the financial tag is applied to the general ledger voucher.
+
+3. Then when the transactions are invoiced, the financial tags carry forward into the voucher for the invoice as well. All transactions that use this tag can be viewed at once through the general ledger **Voucher transactions** page or the **Accounting Source Explorer** page.
 
 ## Other financial tag functionality available for project but not enabled by this feature
 
