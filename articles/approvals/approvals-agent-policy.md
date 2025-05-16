@@ -109,7 +109,7 @@ The following tables outline the data that is available to the agent without cus
 | Submitted by | The resource that submitted the material usage. |
 | Contractor/Employee | A value that specifies whether the submitter is an employee or a contractor. |
 | Division of the resources | The organizational unit of the submitter. |
-| Relative to the resource assignment period | A value that indicates whether the expense entry is inside the date range that the resources is assigned to the task for. |
+| Relative to the resource assignment period | A value that indicates whether the expense entry is inside the date range that the resource is assigned to the task for. |
 | Quantity submitted against subcontract line | A value that indicates whether the material was submitted against a subcontract line. |
 | Name of the existing product in the catalog | The name of the product that was submitted, from the material catalog. |
 | Description of the purpose of material usage | The material usage purpose comment from material entry. |
