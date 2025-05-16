@@ -1,6 +1,6 @@
 ---
 title: Approvals feature of the Time and Expense Agent overview (preview)
-description: This article gives a brief introduction to the Approvals feature of the Time and Expense Agent.
+description: Get a brief introduction to the Approvals feature of the Time and Expense Agent.
 author: abriccetti
 ms.date: 05/13/2025
 ms.topic: how-to
@@ -17,31 +17,31 @@ ms.author: abriccetti
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The Approvals feature of the Time and Expense Agent aims to streamline the approval process for time, expense, and material transactions. The Time and Expense Agent uses a [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) agent to provide an initial review of incoming time, expense, and material entries against customer uploaded policy documents for each type of entry. If the record is found to meet the criteria outlined in the policy document, it's marked as **ready for approval** and if not it's marked as **needs review**. This streamlines the approvals process for project managers while also reducing mistaken approvals which can lead to time consuming corrections.
+The purpose of the Approvals feature of the Time and Expense Agent is to streamline the approval process for time, expense, and material transactions. The Time and Expense Agent uses a [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) agent to do an initial review of incoming time, expense, and material entries against policy documents that the customer uploaded for each type of entry. If a record meets the criteria that are outlined in the policy document, it's marked as **Ready for approval**. Otherwise, it's marked as **Needs review**. This initial review makes the approval process more efficient for project managers. It also helps them avoid time-consuming corrections by reducing mistaken approvals.
 
 ## Set up the Approvals feature of the Time and Expense Agent
 
-The Approvals feature of the Time and Expense Agent requires a few steps to be enabled and correctly setup. Learn more about the appropriate steps for admin setup in [Set up the Approvals feature of the Time and Expense Agent as an admin](approvals-agent-admin-setup.md). Once these steps are complete, the agent can be enabled by selecting **Enable Time and Expense Agent** in the feature control menu on the project parameters form.
+An admin must enable and set up the Approvals feature of the Time and Expense Agent by following the steps in [Set up the Approvals feature of the Time and Expense Agent as an admin](approvals-agent-admin-setup.md). After the feature is correctly set up, enable the agent by selecting **Enable Time and Expense Agent** in the **Feature Control** field on the **Project Parameters** page.
 
-Once the feature is enabled, a new tab appears in the Project Parameters form named **Time and Expense Agent**. Use the **Time and Expense Agent** form to upload policy documents for time, expense, and material submissions. Learn more about writing a policy document and examples in [Set up policy documents for the Approvals feature of the Time and Expense Agent](approvals-agent-policy.md). If a policy document isn't available for a certain type of record, then approval records of that type aren't classified by the agent.
+After the agent is enabled, a new **Time and Expense Agent** tab appears on the **Project Parameters** page. Use this tab to upload policy documents for time, expense, and material submissions. Learn more about how to write a policy document, and get some examples of policy documents, in [Set up policy documents for the Approvals feature of the Time and Expense Agent](approvals-agent-policy.md). If a policy document isn't available for a specific type of record, the agent doesn't classify approval records of that type.
 
-Additionally, in this menu you can set the mode of the agent to either **Classify** or **Classify and auto approve**. In the **Classify** mode, records marked as **ready for approval** still needs to be manually approved by the project manager, however, in the **Classify and auto approve** mode entries which are classified as **ready for approval** are automatically processed for approval. 
+Additionally, you can use the menu to set the mode of the agent to either **Classify** or **Classify and auto approve**. In **Classify** mode, records that are marked as **Ready for approval** must be manually approved by the project manager. In **Classify and auto approve** mode, records that are marked as **Ready for approval** are automatically processed for approval.
 
 > [!NOTE]
-> Rigorous testing is recommended before enabling the **Classify and auto approve** mode.
+> We recommend that you do rigorous testing before you use the agent in **Classify and auto approve** mode.
 
-## Using the Approvals feature of the Time and Expense Agent
+## Use the Approvals feature of the Time and Expense Agent
 
-When a user submits a time, material, or expense record for approval in an environment with the agent enabled and policy documents uploaded, the record goes into a queue for classification by the agent. Once the agent classifies the submission, it creates a new record containing its classification decision which can be viewed by selecting the **Approvals agent** view on the left area selector.
+When a user submits a time, expense, or material record for approval in an environment where the agent is enabled and policy documents were uploaded, the record goes into a queue for classification by the agent. For each record that the agent classifies, it creates a new record that contains its classification decision. To view the list of records that the agent classified, select **Approvals Agent** in the left pane to open the **Time entries reviewed by Agent** page.
 
-![View of records the agent has classified](media/agentviewscreenshot.png)
+![Screenshot that shows the list of records that the agent classified on the Time entries reviewed by Agent page. It also highlights Approvals Agent in the left pane.](media/agentviewscreenshot.png)
 
-When a record is selected in this view, the user are shown three options on the ribbon: 
+After you select a record in the grid, three buttons become available on the Action Pane:
 
-- Approve - The record is processed for approval.
-- Reject - The user is prompted for a rejection comment, then the record is rejected and sent back to the submitter.
-- Reassign to Agent - The record is returned to the agent's queue and reevaluated. Use this option when the policy document is updated and the record needs to be reviewed using the new document.
+- **Approve** – Process the selected record for approval.
+- **Reject** – Reject the selected record, and send it back to the submitter. You're prompted to enter a rejection comment.
+- **Reassign to Agent** – Return the selected record to the agent's queue for reevaluation. Use this button if the policy document is updated, and the record must be reviewed against the new document.
 
-   ![Options when a record is selected](media/agentoptions.png)
+![Screenshot that highlights the Approve, Reject, and Reassign to Agent buttons on the Action Pane for a record that is selected on the Time entries reviewed by Agent page.](media/agentoptions.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

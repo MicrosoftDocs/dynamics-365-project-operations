@@ -1,6 +1,6 @@
 ---
-title: Reviewing time entries created by the Time Entry feature of the Time and Expense Agent (preview)
-description: This article explains how team members can review and submit time entries created by the Time Entry feature of the Time and Expense Agent.
+title: Review time entries created by the Time Entry feature of the Time and Expense Agent (preview)
+description: Learn how team members can review and submit time entries created by the Time Entry feature of the Time and Expense Agent.
 author: mohitmenon
 ms.date: 05/13/2025
 ms.topic: how-to
@@ -10,100 +10,114 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Reviewing time entries created by the Time Entry feature of the Time and Expense Agent (preview)
+# Review time entries created by the Time Entry feature of the Time and Expense Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-After a team member sets up their agent preferences as detailed in the previous section, from then on the experience of logging time entries looks like this:
+After a team member sets up their agent preferences as described in [Start using the Time Entry feature of the Time and Expense Agent as a team member](use-time-entry-agent-in-teams.md), the experience of logging time entries is as follows:
 
-- **Agent creates Draft time entries** for the user at the start of a week.
-- **User receives an alert on Teams** from the agent summarizing entries created.
-- **User reviews created time entries** either in Teams or on the Project Operations web app.
-- **Modify** entries if required and **submit** for approval.
-- Agent sends **reminder to submit any "missing" hours** on the last working day of a week.
+1. At the beginning of a week, the agent creates draft time entries for the user.
+1. The user receives an alert from the agent in Microsoft Teams. This alert summarizes the time entries that were created.
+1. The user reviews the time entries in either Teams or the Dynamics 365 Project Operations web app.
+1. The user modifies the time entries as required and submits them for approval.
+1. On the last working day of the week, the agent sends the user a reminder to submit any missing hours.
 
-These steps and the behavior of the Time Entry feature of the Time and Expense Agent are explained in the following sections.
+The following sections explain these steps and the behavior of the Time Entry feature of the Time and Expense Agent.
 
-## Agent's behavior for creation of time entries
+## Agent behavior during time entry creation
 
-The Time Entry feature of the Time and Expense Agent creates time entries based on a user's preferences. 
+The Time Entry feature of the Time and Expense Agent creates time entries based on the user's preferences.
 
-### Selecting sources for time entries
+### Sources of time entries
 
-Choices provided for source of time entries include **Project task assignments**, **Booked Capacity**, and **Previous week's entries**. 
-- For users who have **selected only one** of these 3 choices, the agent only refers to number of hours that come as a result of that source on each day of a working week.
-- For users who have **selected more than one** of these sources, the agent prioritizes information from **Project task assignments** first (since task level details are available), then **Booked capacity**, and finally, uses **Previous week's entries** as the fallback source only if there isn't available information for assignments or bookings in that week.
+Options for the sources of time entries include **Project task assignments**, **Booked Capacity**, and **Previous week's entries**.
 
-### Frequency of creating time entries
+- If a user selects **only one source**, the agent considers only the hours that come from that source on each day of a working week.
+- If a user selects **more than one source**, the agent prioritizes information from **project task assignments** first, because task-level details are available. It then considers information from **booked capacity**. It considers the **previous week's entries** only as a fallback source, in cases where no information is available for assignments or bookings during that week.
 
-- **When the entries are created:** The current behavior of the agent is to **create all time entries for a week together**, at the beginning of the week as defined by a user's organization.
-- **Beginning of the week**: This is defined at an organization level. For example, if an organization defines the **start of the week** as Sunday (Sunday to Saturday week) then the time entries are created on Sunday for the entire upcoming week.
-  > [!NOTE]
-  > The "start of the week" isn't the same as the "first working day of a week". The working days are decided based on a resource's working hours calendar._
+### Frequency of time entry creation
+
+Currently, the agent creates all time entries for a week together, at the beginning of the week. The beginning of the week is defined at the organization level. For example, if an organization defines it as Sunday (that is, the week is from Sunday through Saturday), the agent creates time entries for the entire upcoming week on Sunday.
+
+> [!NOTE]
+> The beginning of the week isn't the same as the first working day of the week. Working days are based on a resource's working hours calendar.
 
 ### External comments for time entries
 
-If a user asks the agent to create external comments for all time entries, this behavior differs based on:
-- **If Outlook calendar isn't used to enhance comments:** In this case, external comments are generated along with the creation of time entries (at the beginning of the week). The agent uses time entry details like Project, Task, Role, etc.
-- **If Outlook calendar must be used to enhance comments**: In this case, the time entries created at the beginning of the week are created without external comments. This step is done because there may be Outlook meetings that get created later in the week. The external comments are then later created on the **last working day of the week**.
-  > [!NOTE]
-  > Last working day is based on the resource's working hours calendar. For example, if the organization's week is from Sunday to Saturday and the user has Monday to Friday as working days, then external comments  generate on Friday morning.
- 
-  > [!IMPORTANT]
-  > Since the agent creates time entries for a week at the "start" of that week, the agent must have its preferences set up and been given consent by the user **before this day**, for the entries to be created. If the agent was enabled after the start of a week, the user only gets entries from the agent starting from the next week.
+If a user asks the agent to create external comments for all time entries, the behavior varies, depending on whether the Outlook calendar must be used to enhance comments:
 
-## Getting alerts from the agent 
+- **If the Outlook calendar doesn't have to be used:** The agent generates external comments when it creates time entries at the beginning of the week. It uses time entry details such as the project, task, and role.
+- **If the Outlook calendar must be used:** Because Outlook meetings might be created later in the week, the agent doesn't generate external comments when it creates time entries at the beginning of the week. Instead, it generates them on the last working day of the week.
 
-The agent sends an alert for the following activities:
-- As soon as it creates time entries for the week _(at the Start of a week)_.
-- When it generates external comments for the week _(last working day of the week)_.
-- To remind the user to submit any "missing" hours _(last working day of the week)_.
-
-### Reviewing time entries created by the agent
-
-For alerts related to created time entries or external comments, the user receives an adaptive card showing a summary of their current work week's time entries (see image).
-
-:::image type="content" source="../media/reviewentries.png" alt-text="Screenshot showing the summary of entries created by the agent in Teams.":::  
-
-Elements of this card that the user must be aware of:
-- **Day-wise summary**: Total hours for that day and number of hours that need review (since they're created by the agent) are highlighted.
-  - Days that have entries created by the agent is **highlighted with an asterisk** on the left.
-- **Submit all**: Selecting this button submits **all Draft hours** for this week.
-- **Open in Web**: Selecting this link navigates the user to a new browser window or tab with the Project Operations time entry module filtered on the current week.
-- **View Day**: Users can view details of the individual time entries created for a day by selecting the _View Day_ button, next to each day of the week.
-  - Doing so loads a new adaptive card that contains the individual time entries for that date (see image).
-  - Users also get to see information for the **Source** and **Creator** (Copilot/Agent or User).
-  - Date pickers visible at the bottom of this card can be used to **navigate to other days** in the week and review those entries as well.
-
-:::image type="content" source="../media/daywiseentries.png" alt-text="Screenshot showing the day-wise time entries card in Teams.":::
-
-### Modifying time entries created by the agent
-
-Time entries created by the agent can be modified in two ways:
-1. Directly within Teams through the day-wise adaptive cards (View Day)
-  - The only 2 fields that can be modified in this manner are **Duration** and **External Comments**. 
-Users can either **Save changes** or **Submit all** (submits all entries for that day only) after making the necessary changes.
-
-1. From the Project Operations web app (Open in Web) for more significant changes
-  - If the changes to time entry involve deletion or changing fields like Task, Project, etc. then users can select **Open in Web** link.
-  - This navigates them to the Time Entry module within Project Operations web app.
     > [!NOTE]
-    > Time entries created by the agent or having external comments generated by the agent appear with a "sparkle" icon.
-
-## Missing time entries alert
-
-The Time Entry feature of the Time and Expense Agent sends users an alert at the end of the work week, if they have any "missing hours" identified.
-- **Missing hours definition**: A day is said to have missing hours for a user if the total hours in _Submitted _or _Approved_ or _Recall Requested_ state (non-Draft hours) is **less than their working hours** for that day.
-- **The alert**: The alert consists of a summary of all days in the current week that have missing hours, along with: 
-  - The number of hours missing and
-  - Any Draft hours for those days that can be submitted
-- **Submitting missing hours**: Users can either choose to Submit all suggested hours the agent has shared in the previous alert OR use the Project Operations web app to create and submit new time entries.
+    > The last working day of the week is based on the resource's working hours calendar. For example, if the organization's week is from Sunday through Saturday, and the user's working days are Monday through Friday, external comments are generated Friday morning.
 
 > [!IMPORTANT]
-> The Duration field only takes numerical values greater than zero. 
-> Save or Submit All operations don't update any time entry records if edits to the Duration field cause the total project related hours for that day to exceed 24 hours.
+> Because the agent creates time entries for a week at the beginning of that week, the user must set the preferences for the agent and give consent to it before that day. Otherwise, the agent can't create time entries. If the agent is enabled after the beginning of a week, the agent starts to create time entries for the user at the beginning of the next week.
 
- [!INCLUDE[footer-include](../includes/footer-banner.md)]
+## Get alerts from the agent
+
+The agent sends an alert at the following times:
+
+- As soon as it creates time entries for the week (at the beginning of a week).
+- When it generates external comments for the week (on the last working day of the week).
+- If it must remind the user to submit missing hours (on the last working day of the week).
+
+### Review time entries created by the agent
+
+For alerts that are related to created time entries or external comments, the user receives an adaptive card in Teams. The adaptive card provides a summary of the user's time entries for the current working week. The following illustration shows an example
+
+:::image type="content" source="../media/reviewentries.png" alt-text="Screenshot of an adaptive card that shows the weekly summary of time entries created by the agent.":::
+
+Here is an explanation of key elements of the adaptive card:
+
+- **Daily summary** – The card highlights the total hours for each day of the current week and the number of those hours that need review because they were created by the agent.
+
+    An asterisk (\*) to the left of a day indicates that the agent created time entries for that day.
+
+- **Submit all** – Select this button to submit all draft hours for the current week.
+- **Open in Web** – Select this link to open a new browser window or tab where the **Time Entry** module in Project Operations is filtered to the current week.
+- **View Day** – Select this button next to each day of the current week to load a new adaptive card that shows details of the individual time entries that were created for that day.
+
+    - For each entry, the card shows the source and the creator. The creator can be either **Copilot** (=&nbsp;the agent) or **User**.
+    - Use the date selector at the bottom of the card to view the entries for other days in the week.
+
+    :::image type="content" source="../media/daywiseentries.png" alt-text="Screenshot of the adaptive card that shows details of a day's time entries. The creator and source information and the date selector are highlighted.":::
+
+### Modify time entries created by the agent
+
+Time entries that the agent created can be modified in two ways:
+
+- **Directly in Teams** – Use the **View Day** buttons on the weekly summary adaptive card to open the time entry details adaptive card for specific days.
+
+    In this case, the only two fields that can be modified are **Duration** and **External Comments**. After you make the required changes, you can select either **Save changes** or **Submit all**. The **Submit all** button submits all entries for that day only.
+
+- **In the Project Operations web app** – Use the **Open in Web** link on an adaptive card to go to the **Time Entry** module in the Project Operations web app.
+
+    Use this method to make more significant changes to time entries. For example, the changes might involve deleting or changing fields such as **Task** and **Project**.
+
+    > [!NOTE]
+    > A sparkle symbol indicates time entries that the agent created, or that the agent generated external comments for.
+
+## Missing time entry alert
+
+The Time Entry feature of the Time and Expense Agent sends users an alert at the end of each work week if it determines that they have any missing hours.
+
+A day is said to have missing hours for a user if the total number of hours in a **Submitted**, **Approved**, or **Recall Requested** state (that is, non-draft hours) is less than the user's working hours for that day.
+
+The alert shows a summary of all days in the current week that have missing hours. It also includes the following details:
+
+- The number of hours that are missing
+- Draft hours that can be submitted for those days
+
+Users can either submit all suggested draft hours that the agent shared in the alert or use the Project Operations web app to create and submit new time entries.
+
+> [!IMPORTANT]
+> The **Duration** field accepts only numerical values that are above 0 (zero).
+>
+> If modifications to the **Duration** field cause the total project-related hours for a day to exceed 24, no time entry records are updated when the user selects **Save changes** or **Submit all**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,12 +1,12 @@
 ---
 title: Set up policy documents for the Approvals feature of the Time and Expense Agent (preview)
-description: Learn about how to set up time, material, and expense policy documents for the Approvals feature of the Time and Expense Agent. 
+description: Learn how to set up time, expense, and material policy documents for the Approvals feature of the Time and Expense Agent. 
 author: abriccetti
 ms.author: abriccetti
 ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
-  - bap-template
+ - bap-template
 ms.reviewer: johnmichalak
 ---
 
@@ -17,114 +17,111 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
-The Approvals feature of the Time and Expense Agent makes decisions on how to classify a submitted record based upon the text of the policy document. To help with creating these documents, this article outlines the information available to the agent, recommend policy document structures, and provide examples of policy documents for time, expense, and material.
+The Approvals feature of the Time and Expense Agent uses the text of policy documents to determine how submitted time, expense, and material records should be classified. This article provides information to help you create policy documents. It outlines the information that is available to the agent, recommends a structure for policy documents, and provides links to examples of policy documents for time, expense, and materials.
 
-## Time and Expense Agent Approval's feature data
+## Data for the Approvals feature of the Time and Expense Agent
 
-When the Approvals feature of the Time and Expense Agent is triggered a predetermined set of data related to the submitted record is sent to the agent to help with the classification. The agent can only make checks based on information it was passed. Sending more data about the time/material/expense submission requires customization of the agent's trigger flow. The following charts outline what information is available to the agent without customization. 
+When the Approvals feature of the Time and Expense Agent is triggered, a predefined set of data that is related to the submitted record is passed to the agent. The agent uses this data to classify the record. The agent can perform checks based only on data that is passed to it. If you want to pass data that isn't part of the predefined set, you must customize the agent's trigger flow.
+
+The following tables outline the data that is available to the agent without customization.
 
 ### Time entry data
 
-|Name                                                         | Explanation|
-|-------------------------------------------------------------|------------|
-|ID                                                           |GUID of the Project Approval record|
-|Entry type                                                   |Time/Material/Expense|
-|Quantity of hours                                            |Quantity of submitted time in hours|
-|Billable hours                                               |Quantity of submitted time in hours which is billable|
-|Cost of time submitted                                       |Total cost of submitted time|
-|Hourly cost rate                                             |Hourly cost price of submitted time|
-|Revenue of time submitted                                    |Total sales amount of billable time|
-|Hourly bill rate                                             |Sales price of billable time|
-|Result of validation against contractual limits              |Status of not to exceed validation (Passed/Failed/Not Applicable)|
-|Not to exceed limit validation detail                        |Details of not to exceed test|
-|Internal description of the work                             |Description from time entry|
-|Customer-facing description of work                          |External comments from time entry|
-|Billing type                                                 |Chargeable/NonChargeable/Complimentary/NotAvailable|
-|Project                                                      |Name of the project time was submitted against|
-|Project task                                                 |Name of the project task time was submitted against|
-|Date logged relative to team member start and end date       |Within/Falls outside dates; O if not a team member|
-|Submitted by                                                 |Resource which submitted the time|
-|Contractor/Employee                                          |Specifies if submitter is an employee or contractor|
-|Role of the resource                                         |Role assigned to the submitter, O if no role assigned|
-|Division of the resources                                    |Organizational unit of the submitter|
-|Relative to the resource assignment period                   |Does the time entry fall inside the dates the resources is assigned to the task|
-|Time submitted against subcontract line                      |Was the time submitted against a subcontract line|
-|Time entry type                                              |Work/Overtime/Absence/Vacation|
-|Resource schedule code for slot                              |Available/Unavailable|
-|Resource schedule subcode for slot                           |Schedulable/Holiday|
-|Logged on working day                                        |Was the time logged on a working day on the submitter's calendar (true/false)|
-|Relative to resources capacity for the day                   |Whether the hours of time across all time entries recorded by this resource for this date exceeds their working hours capacity for the day|
-|Resource Assignment Effort                                   |Total effort on the resource's assignment for the submitted task|
-|Relative to weekly team member effort for this project       |Within allocation/Violation, O if no team member or effort not specified|
+| Name | Description |
+|---|---|
+| ID | The globally unique identifier (GUID) of the project approval record. |
+| Entry type | The type of entry. The possible values are **Time**, **Material**, and **Expense**. |
+| Quantity of hours | The amount of submitted time, in hours. |
+| Billable hours | The amount of submitted time that is billable, in hours. |
+| Cost of time submitted | The total cost of the submitted time. |
+| Hourly cost rate | The hourly cost price of the submitted time. |
+| Revenue of time submitted | The total sales amount of the billable time. |
+| Hourly bill rate | The sales price of the billable time. |
+| Result of validation against contractual limits | The status of not-to-exceed validation. The possible values are **Passed**, **Failed**, and **Not Applicable**. |
+| Not to exceed limit validation detail | Details of the not-to-exceed test. |
+| Internal description of the work | The description from the time entry. |
+| Customer-facing description of work | External comments from the time entry. |
+| Billing type | The billing type. The possible values are **Chargeable**, **NonChargeable**, **Complimentary**, and **NotAvailable**. |
+| Project | The name of the project that time was submitted against. |
+| Project task | The name of the project task that time was submitted against. |
+| Date logged relative to team member start and end date | The possible values are **Within**, **Falls outside dates**, and **O**. A value of **O** indicates that the person isn't a team member. |
+| Submitted by | The resource that submitted the time. |
+| Contractor/Employee | A value that specifies whether the submitter is an employee or a contractor. |
+| Role of the resource | The role that is assigned to the submitter. A value of **O** indicates that no role is assigned. |
+| Division of the resources | The organizational unit of the submitter. |
+| Relative to the resource assignment period | A value that indicates whether the time entry falls inside the date range that the resource is assigned to the task for. |
+| Time submitted against subcontract line | A value that indicates whether the time was submitted against a subcontract line. |
+| Time entry type | The type of time entry. The possible values are **Work**, **Overtime**, **Absence**, and **Vacation**. |
+| Resource schedule code for slot | The resource schedule code for the slot. The possible values are **Available** and **Unavailable**. |
+| Resource schedule subcode for slot | The resource schedule subcode for the slot. The possible values are **Schedulable** and **Holiday**. |
+| Logged on working day | A value that indicates whether the time was logged on a working day in the submitter's calendar. The possible values are **True** and **False**. |
+| Relative to resources capacity for the day | A value that indicates whether the number of hours that the resource recorded for the date across all time entries exceeds that resource's working hours capacity for that day. |
+| Resource Assignment Effort | The total effort on the resource's assignment for the submitted task. |
+| Relative to weekly team member effort for this project | The possible values are **Within allocation**, **Violation**, and **O**. A value of **O** indicates that no team member or effort is specified. |
 
 ### Expense entry data
 
-|Name                                                         | Explanation|
-|-------------------------------------------------------------|------------|
-|ID                                                           |GUID of the Project Approval record|
-|Entry type                                                   |Time/Material/Expense|
-|Quantity of expense submitted                                |Submitted quantity|
-|Billable quantity of expense                                 |Quantity of submitted expense which is billable|
-|Total cost of expense                                        |Total cost of submitted expense|
-|Per unit cost of expense                                     |Hourly cost price of submitted expense|
-|Total billable expense amount                                |Total sales amount of billable expense|
-|Per unit billing rate of expense                             |Sales price of billable expense|
-|Result of validation against contractual limits              |Status of not to exceed validation (Passed/Failed/Not Applicable)|
-|Not to exceed limit validation detail                        |Details of not to exceed test|
-|Internal description of the expense                          |Expense purpose field from expense entry|
-|Customer-facing description of expense                       |External comments from expense entry|
-|Billing type                                                 |Chargeable/NonChargeable/Complimentary/NotAvailable|
-|Project                                                      |Name of the project time was submitted against|
-|Project task                                                 |Name of the project task time was submitted against|
-|Date logged relative to team member start and end date       |Within/Falls outside dates; O if not a team member|
-|Submitted by                                                 |Resource which submitted the time|
-|Contractor/Employee                                          |Specifies if submitter is an employee or contractor|
-|Division of the resources                                    |Organizational unit of the submitter|
-|Quantity submitted against subcontract line                  |Was the expense submitted against a subcontract line|
-|Does the expense have a receipt                              |True/False|
-|Date the expense occurred                                    |Date of expense entry|
-|Category of expense                                          |Expense category|
-|Whether a receipt is required for this type of expense       |The expense category does/does not mandate a receipt|
+| Name | Description |
+|---|---|
+| ID | The GUID of the project approval record. |
+| Entry type | The type of entry. The possible values are **Time**, **Material**, and **Expense**. |
+| Quantity of expense submitted | The quantity of the submitted expense. |
+| Billable quantity of expense | The quantity of the submitted expense that is billable. |
+| Total cost of expense | The total cost of the submitted expense. |
+| Per unit cost of expense | The hourly cost price of the submitted expense. |
+| Total billable expense amount | The total sales amount of the billable expense. |
+| Per unit billing rate of expense | The sales price of the billable expense. |
+| Result of validation against contractual limits | The status of not-to-exceed validation. The possible values are **Passed**, **Failed** and **Not Applicable**. |
+| Not to exceed limit validation detail | Details of the not-to-exceed test. |
+| Internal description of the expense | The value of the **Expense purpose** field from the expense entry. |
+| Customer-facing description of expense | External comments from the expense entry. |
+| Billing type | The billing type. The possible values are **Chargeable**, **NonChargeable**, **Complimentary**, and **NotAvailable**. |
+| Project | The name of the project that time was submitted against. |
+| Project task | The name of the project task that time was submitted against. |
+| Date logged relative to team member start and end date | The possible values are **Within**, **Falls outside dates**, and **O**. A value of **O** indicates that the person isn't a team member. |
+| Submitted by | The resource that submitted the time. |
+| Contractor/Employee | A value that specifies whether the submitter is an employee or a contractor. |
+| Division of the resources | The organizational unit of the submitter. |
+| Quantity submitted against subcontract line | A value that indicates whether the expense was submitted against a subcontract line. |
+| Does the expense have a receipt | A value that indicates whether there is a receipt for the expense. The possible values are **True** and **False**. |
+| Date the expense occurred | The date of the expense entry. |
+| Category of expense | The expense category. |
+| Whether a receipt is required for this type of expense | A value that specifies whether the expense category requires a receipt. |
 
 ### Material entry data
 
-|Name                                                         | Explanation|
-|-------------------------------------------------------------|------------|
-|ID                                                           |GUID of the Project Approval record|
-|Entry type                                                   |Time/Material/Expense|
-|Quantity of material submitted                               |Submitted quantity|
-|Billable quantity of material                                |Quantity of submitted material which is billable|
-|Total cost of material                                       |Total cost of submitted material|
-|Per unit cost of material                                    |Hourly cost price of submitted material|
-|Total billable material amount                               |Total sales amount of billable material|
-|Per unit billing rate of material                            |Sales price of billable material|
-|Result of validation against contractual limits              |Status of not to exceed validation (Passed/Failed/Not Applicable)|
-|Not to exceed limit validation detail                        |Details of not to exceed test|
-|Billing type                                                 |Chargeable/NonChargeable/Complimentary/NotAvailable|
-|Project                                                      |Name of the project material was submitted against|
-|Project task                                                 |Name of the project task material was submitted against|
-|Date logged relative to team member start and end date       |Within/Falls outside dates; O if not a team member|
-|Submitted by                                                 |Resource which submitted the material usage|
-|Contractor/Employee                                          |Specifies if submitter is an employee or contractor|
-|Division of the resources                                    |Organizational unit of the submitter|
-|Relative to the resource assignment period                   |Does the expense entry fall inside the dates the resources is assigned to the task|
-|Quantity submitted against subcontract line                  |Was the material submitted against a subcontract line|
-|Name of the existing product in the catalog                  |Name of the product which was submitted from material catalog|
-|Description of the purpose of material usage                 |Material usage purpose comment from material entry|
-|Type of the product selected                                 |Existing or write-in|
-|Date the material was procured                               |Date of material entry|
+| Name | Description |
+|---|---|
+| ID | The GUID of the project approval record. |
+| Entry type |  The type of entry. The possible values are **Time**, **Material**, and **Expense**. |
+| Quantity of material submitted | The quantity of the submitted material. |
+| Billable quantity of material | The quantity of the submitted material that is billable. |
+| Total cost of material | The total cost of the submitted material. |
+| Per unit cost of material | The hourly cost price of the submitted material. |
+| Total billable material amount | The total sales amount of the billable material. |
+| Per unit billing rate of material | The sales price of the billable material. |
+| Result of validation against contractual limits | The status of not-to-exceed validation. The possible values are **Passed**, **Failed** and **Not Applicable**. |
+| Not to exceed limit validation detail | Details of the not-to-exceed test. |
+| Billing type | The billing type. The possible values are **Chargeable**, **NonChargeable**, **Complimentary**, and **NotAvailable**. |
+| Project | The name of the project that material was submitted against. |
+| Project task | The name of the project task that material was submitted against. |
+| Date logged relative to team member start and end date | The possible values are **Within**, **Falls outside dates**, and **O**. A value of **O** indicates that the person isn't a team member. |
+| Submitted by | The resource that submitted the material usage. |
+| Contractor/Employee | A value that specifies whether the submitter is an employee or a contractor. |
+| Division of the resources | The organizational unit of the submitter. |
+| Relative to the resource assignment period | A value that indicates whether the expense entry is inside the date range that the resources is assigned to the task for. |
+| Quantity submitted against subcontract line | A value that indicates whether the material was submitted against a subcontract line. |
+| Name of the existing product in the catalog | The name of the product that was submitted, from the material catalog. |
+| Description of the purpose of material usage | The material usage purpose comment from material entry. |
+| Type of the product selected | A value that specifies whether the selected product is an existing product or a write-in product. |
+| Date the material was procured | The date of material entry. |
 
-## Policy Document Examples
+## Policy document examples
 
-The following examples are sample policy documents that can be used as a starting point. It's recommended you write a policy document as a numbered list of rules, which if the record being checked violates one or more rules it's marked as needs review.
+You can use the following examples of policy documents as a starting point. We recommend that you write a policy document as a numbered list of rules. If a record that is checked violates one or more rules, it's marked as **Needs review**.
 
-[Time Sample Policy Document](https://download.microsoft.com/download/fe7df267-f397-46bd-ae8a-eaeb5ab6f8b0/SamplePolicyDocTime.docx)
-
-[Expense Sample Policy Document](https://download.microsoft.com/download/fe7df267-f397-46bd-ae8a-eaeb5ab6f8b0/SamplePolicyDocExpense.docx)
-
-[Material Sample Policy Document](https://download.microsoft.com/download/fe7df267-f397-46bd-ae8a-eaeb5ab6f8b0/SamplePolicyDocMaterial.docx)
+- [Time sample policy document](https://download.microsoft.com/download/fe7df267-f397-46bd-ae8a-eaeb5ab6f8b0/SamplePolicyDocTime.docx)
+- [Expense sample policy document](https://download.microsoft.com/download/fe7df267-f397-46bd-ae8a-eaeb5ab6f8b0/SamplePolicyDocExpense.docx)
+- [Material sample policy document](https://download.microsoft.com/download/fe7df267-f397-46bd-ae8a-eaeb5ab6f8b0/SamplePolicyDocMaterial.docx)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-
-
