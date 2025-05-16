@@ -7,7 +7,7 @@ ms.topic: whats-new
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 04/25/2025
+ms.date: 05/09/2025
 ms.reviewer: johnmichalak
 
 ---
@@ -48,6 +48,8 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Time Entry |**Time Entry Agent** <br><br> This agent creates draft time entries for team members based on their project assignments, bookings, or previous week's entries and allows them to review the entries through MS Teams. The agent can also generate external comments for all entries, enhanced by Outlook meeting details. Finally, team members receive alerts for missing submissions.|  |
 | Approvals |**Approvals Agents** <br><br> This agent reviews submitted time, expense, and material usage entries and classifies them as "Ready for Approval" or "Needs review." The classification can assist project managers in making approvals decisions. The agent also includes an automatic approve mode where records marked as "Ready for approval" are automatically approved.|  |
 | Actuals |**Corrections for entry journal actuals** <br><br> Actuals that were created via entry journals can be corrected via our correction journal process.| |
+| Quotes,Contracts,Invoicing| **Time Zone Independent Milestone Date** <br><br> This feature enables users to use time zone agnostic milestone dates helping improve accuracy of billing project based milestones |[Timezone independent milestone date](../sales/tz-independent-date-fields.md)|
+| Invoicing | **Ability to customize billing hub** <br><br> This release includes fixes that enable complete customization of Billing hub | [Customize billing hub](../proforma-invoicing/billing-hub-customization.md)|
 | Project Financials |**Use the modern architecture for existing legal entities with project data** <br><br> In the 10.0.43 release version of finance and operations apps, the "Use the modern architecture for existing legal entities with project data" feature lets you complete all existing transactions and close existing projects in the Project management and accounting module.| [Move to the modern architecture](../prod-pma/move-to-modern-architecture.md) |
 | Project Financials |**Enable actuals validation to prevent invalid actuals** <br><br> This optional feature enables more validations for actuals records that are integrated from Microsoft Dataverse into the finance and operations infrastructure. This feature prevalidates the actuals before allowing records to be created during the import from staging process.|[Enables actuals validation](../advanced-configuration/enable-actuals-validation.md) |
 | Project Financials |**Project Operations integration workspace** <br><br> This workspace helps you identify and address integration challenges that are related to vendor invoices and expenses, as well as logs for the integration journal and invoice proposals.|[Project Operations Integration Workspace](../troubleshooting/project-operations-integration/project-integration-workspace.md) |

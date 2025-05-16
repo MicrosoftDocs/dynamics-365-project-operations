@@ -6,7 +6,7 @@ ms.topic: article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 05/07/2025
+ms.date: 05/13/2025
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
@@ -58,13 +58,23 @@ Dynamics 365 Project Operations consists of two components:
 > - If an **"Auto Update"** can't complete, the update is attempted again the next day for up to one week, within the defined maintenance window for your environment.
 > - Depending on the station, region, and other factors, _**the release may reach customers within the stipulated one-week timeframe.**_
 
+## Standard Release Cycle
+
 | **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
 |---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 |                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
-| **4.140.0.X**       | April 25, 2025             | April 25, 2025             | April 25, 2025             | May 02, 2025               | May 02, 2025               | May 09, 2025               | May 02, 2025               | May 09, 2025               | May 09, 2025               | May 16, 2025               |
-| **4.141.0.X**       | May 23, 2025               | May 30, 2025               | May 23, 2025               | May 30, 2025               | May 30, 2025               | June 06, 2025               |June 06, 2025               | June 13, 2025              | June 13, 2025              | June 20, 2025              |
+| **4.140.0.X** <br> Refer HotFix (**4.140.0.1087**)      | April 25, 2025             | April 25, 2025             | April 25, 2025             | May 02, 2025               | May 02, 2025               | CANCELED              | CANCELED               | CANCELED               | CANCELED               | CANCELED              |
+| **4.141.0.X**       | May 23, 2025               | May 30, 2025               | May 23, 2025               | May 30, 2025               | May 30, 2025               | June 06, 2025               |June 06, 2025               | June 13, 2025              | June 13, 2025              | June 20, 2025             |
 | **4.142.0.X**       | June 13, 2025              | June 20, 2025              | June 20, 2025              | June 27, 2025              | June 27, 2025              | July 04, 2025              | July 04, 2025              | July 11, 2025              | July 11, 2025              | July 18, 2025              |
 | **4.143.0.X**       | July 11, 2025              | July 18, 2025              | July 18, 2025              | July 25, 2025              | July 25, 2025              | August 01, 2025            | August 01, 2025            | August 09, 2025            | August 09, 2025            | August 16, 2025            |
+
+## HotFix Release Cycle
+
+| **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
+|---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
+| **4.140.0.1087**    | May 13, 2025               | May 13, 2025               | May 13, 2025               | May 13, 2025               | May 14, 2025               | May 14, 2025               | May 14, 2025               | May 14, 2025               | May 16, 2025               | May 23, 2025               |
+
 
 ## Release Schedule for Project Management and Accounting in the Finance and Operations Apps Environment
 
