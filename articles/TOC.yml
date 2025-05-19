@@ -864,7 +864,7 @@
     items:
     - name: Financial dimension defaults
       href: project-accounting/financial-dimension-defaults.md
-    - name: Financial tags for project financial transactions
+    - name: Use financial tags for project financial transactions
       href: project-accounting/financial-tags-for-project-financial-transactions.md
     - name: Configure project categories
       href: project-accounting/configure-project-categories.md
@@ -1682,7 +1682,7 @@
        href: project-accounting/project-adjustments.md
      - name: Understand how cost prices, sales prices, transfer prices and taxes work together
        href: project-accounting/understand-cost-price-sales-prices-transfer-price-taxes.md
-     - name: Financial tags for project financial transactions
+     - name: Use financial tags for project financial transactions
        href: project-accounting/financial-tags-for-project-financial-transactions.md
   - name: Project sales process
     items:
