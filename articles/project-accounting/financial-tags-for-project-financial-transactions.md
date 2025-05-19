@@ -1,6 +1,6 @@
 ---
 title: Use financial tags for project financial transactions
-description: Learn about using financial tags for project transactions
+description: Learn how you can use financial tags for project transactions.
 author: ryansandness
 ms.author: ryansandness
 ms.date: 05/21/2025
@@ -12,46 +12,46 @@ ms.reviewer: johnmichalak
 
 # Use financial tags for project financial transactions
 
-## Overview
-
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios._
 
-Financial tags let organizations track user-defined fields on accounting entries posted to the general ledger to eliminate the need to create financial dimensions that contain values that aren't reusable. Financial tags on posted transactions can then be used for reporting or analysis purposes. For example, you can create a financial tag to track time and expenses related to a short-lived initiative without requiring a unique financial dimension to do so.
+Financial tags enable organizations to track user-defined fields on accounting entries that are posted to the general ledger. Therefore, they don't have to create financial dimensions that contain values that aren't reusable. Financial tags on posted transactions can be used for reporting or analysis.
+
+For example, you can create a financial tag to track time and expenses that are related to an initiative of short duration. You don't have to use a unique financial dimension for this purpose.
 
 ## Feature details
 
-Financial tags for project-based transactions are available starting with the 10.0.44 release. To enable this feature, enable the **Enable financial tags for project financial transactions** in the **Feature management** workspace.
+Financial tags for project-based transactions are available as of the 10.0.44 release. To use them, enable the **Enable financial tags for project financial transactions** feature in the **Feature management** workspace.
 
-Other prerequisite features may be required for tags on certain transactions, such as **Enable financial tags for sales order invoicing** for sales orders and item requirement transactions, or **Enable financial tags for purchase order invoicing** for purchase orders and vendor invoices.
+In addition, some transactions might require other features as prerequisites before financial tags can be used. For example, sales orders and item requirement transactions require the **Enable financial tags for sales order invoicing** feature, and purchase orders and vendor invoices require the **Enable financial tags for purchase order invoicing** feature.
 
 For stocked/production-based scenarios, the following enhancements are available:
 
-- Financial tags are available to be entered on project sales orders and item requirements on the **Financial tags** tab.
-- Financial tags are available for all four project journals on the **Financial tags** tab control on the header and a new field available within journal lines.
-- Financial tags are available to be entered for on-account transactions.
-- The financial tags are present in the financial voucher posting for the document where possible.
-- The financial tags carry forward into the voucher for the project invoice.
-- Accrue Revenue carries the tag forward.
+- Financial tags can be entered on the **Financial tags** tab of project sales orders and item requirements.
+- Financial tags are available on the **Financial tags** tab on the header of all four project journals. They are also available in a new field on journal lines.
+- Financial tags can be entered for on-account transactions.
+- Financial tags are present in the financial voucher posting for the document, whenever possible.
+- Financial tags are carried forward into the voucher for the project invoice.
+- Accrue Revenue carries financial tags forward.
 
 For resource/non-stocked based scenarios, the following enhancements are available:
 
-- Financial tags are available on the integration journal for hours, expenses, fees, and materials on the **Financial tags** tab control on the header and a new field available within journal lines.
-- The financial tags are present in the financial voucher posting for the document.
-- The financial tags carry forward into the voucher for the project invoice.
+- Financial tags are available on the **Financial tags** tab on the header of the integration journal for hours, expenses, fees, and materials. They are also available in a new field on journal lines.
+- Financial tags are present in the financial voucher posting for the document.
+- Financial tags are carried forward into the voucher for the project invoice.
 
 ### Example scenario
 
-Contoso is participating in an industry event and wants to track all time and expenses related to this event. To accomplish this they create a new financial tag named "IndustryEvent" with a tag value of "2026 Event". For any time or expenses related to this event, the tag is manually specified on the transaction line. After the event is over and all expenses are recorded, the financial tag is removed and further use isn't allowed.
+Contoso is participating in an industry event and wants to track all time and expenses that are related to the event. Therefore, a new **IndustryEvent** financial tag is created, and a tag value of **2026 Event** is assigned. For any time or expenses that are related to the event, the tag is manually specified on the transaction line. After the event is over, and all expenses are recorded, the financial tag is removed and can no longer be used.
 
-1. Hour journals and expenses are created and the financial tag is added on the relevant transactions prior to submission to workflow or posting.
-2. When the transaction lines are posted, the financial tag is applied to the general ledger voucher.
-3. Then when the transactions are invoiced, the financial tags carry forward into the voucher for the invoice as well. All transactions that use this tag can be viewed at once through the general ledger **Voucher transactions** page or the **Accounting Source Explorer** page.
+1. Hour journals and expenses are created, and the financial tag is added on the relevant transactions before submission to the workflow or posting.
+1. When the transaction lines are posted, the financial tag is applied to the general ledger voucher.
+1. When the transactions are invoiced, the financial tags carry forward into the voucher for the invoice. All transactions that use a tag can be viewed through the general ledger **Voucher transactions** page or the **Accounting Source Explorer** page.
 
-## Other financial tag functionality available for project but not enabled by this feature
+## Other financial tag functionality that is available for projects but not enabled by this feature
 
-- Financial tags can be entered on the **Free text invoice** for project-related transactions.
+- Financial tags can be entered on the free text invoice for project-related transactions.
 - Financial tags can be entered on project-related purchase orders and vendor invoices.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
