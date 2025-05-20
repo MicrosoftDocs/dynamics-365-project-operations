@@ -44,10 +44,10 @@ The following tables outline the data that is available to the agent without cus
 | Billing type | The billing type. The possible values are **Chargeable**, **NonChargeable**, **Complimentary**, and **NotAvailable**. |
 | Project | The name of the project that time was submitted against. |
 | Project task | The name of the project task that time was submitted against. |
-| Date logged relative to team member start and end date | The possible values are **Within**, **Falls outside dates**, and **O**. A value of **O** indicates that the person isn't a team member. |
+| Date logged relative to team member start and end date | The possible values are **Within**, **Falls outside dates**, and **0**. A value of **0** indicates that the person isn't a team member. |
 | Submitted by | The resource that submitted the time. |
 | Contractor/Employee | A value that specifies whether the submitter is an employee or a contractor. |
-| Role of the resource | The role that is assigned to the submitter. A value of **O** indicates that no role is assigned. |
+| Role of the resource | The role that is assigned to the submitter. A value of **0** indicates that no role is assigned. |
 | Division of the resources | The organizational unit of the submitter. |
 | Relative to the resource assignment period | A value that indicates whether the time entry falls inside the date range that the resource is assigned to the task for. |
 | Time submitted against subcontract line | A value that indicates whether the time was submitted against a subcontract line. |
@@ -57,7 +57,7 @@ The following tables outline the data that is available to the agent without cus
 | Logged on working day | A value that indicates whether the time was logged on a working day in the submitter's calendar. The possible values are **True** and **False**. |
 | Relative to resources capacity for the day | A value that indicates whether the number of hours that the resource recorded for the date across all time entries exceeds that resource's working hours capacity for that day. |
 | Resource Assignment Effort | The total effort on the resource's assignment for the submitted task. |
-| Relative to weekly team member effort for this project | The possible values are **Within allocation**, **Violation**, and **O**. A value of **O** indicates that no team member or effort is specified. |
+| Relative to weekly team member effort for this project | The possible values are **Within allocation**, **Violation**, and **0**. A value of **0** indicates that no team member or effort is specified. |
 
 ### Expense entry data
 
@@ -78,7 +78,7 @@ The following tables outline the data that is available to the agent without cus
 | Billing type | The billing type. The possible values are **Chargeable**, **NonChargeable**, **Complimentary**, and **NotAvailable**. |
 | Project | The name of the project that time was submitted against. |
 | Project task | The name of the project task that time was submitted against. |
-| Date logged relative to team member start and end date | The possible values are **Within**, **Falls outside dates**, and **O**. A value of **O** indicates that the person isn't a team member. |
+| Date logged relative to team member start and end date | The possible values are **Within**, **Falls outside dates**, and **0**. A value of **0** indicates that the person isn't a team member. |
 | Submitted by | The resource that submitted the time. |
 | Contractor/Employee | A value that specifies whether the submitter is an employee or a contractor. |
 | Division of the resources | The organizational unit of the submitter. |
@@ -105,7 +105,7 @@ The following tables outline the data that is available to the agent without cus
 | Billing type | The billing type. The possible values are **Chargeable**, **NonChargeable**, **Complimentary**, and **NotAvailable**. |
 | Project | The name of the project that material was submitted against. |
 | Project task | The name of the project task that material was submitted against. |
-| Date logged relative to team member start and end date | The possible values are **Within**, **Falls outside dates**, and **O**. A value of **O** indicates that the person isn't a team member. |
+| Date logged relative to team member start and end date | The possible values are **Within**, **Falls outside dates**, and **0**. A value of **O** indicates that the person isn't a team member. |
 | Submitted by | The resource that submitted the material usage. |
 | Contractor/Employee | A value that specifies whether the submitter is an employee or a contractor. |
 | Division of the resources | The organizational unit of the submitter. |
