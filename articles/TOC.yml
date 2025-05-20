@@ -410,6 +410,8 @@
       href: project-management/copy-project.md
     - name: Add custom columns to the grid view
       href: project-management/enterprise-task-custom-columns.md
+    - name: Access control on task grid
+      href: project-management/access-control-on-task-grid.md
     - name: Project and task limitations
       href: project-management/project-and-task-limitations.md
     - name: Work breakdown structure planning
@@ -864,6 +866,8 @@
     items:
     - name: Financial dimension defaults
       href: project-accounting/financial-dimension-defaults.md
+    - name: Use financial tags for project financial transactions
+      href: project-accounting/financial-tags-for-project-financial-transactions.md
     - name: Configure project categories
       href: project-accounting/configure-project-categories.md
     - name: Configure accounting for internal projects
@@ -1260,6 +1264,8 @@
       href: project-management/update-project.md
     - name: Copy a project
       href: project-management/copy-project.md 
+    - name: Access control on task grid
+      href: project-management/access-control-on-task-grid.md
     - name: Import projects from the Microsoft Project desktop client
       href: project-management/import_from_mpp.md
     - name: Plan your work in Microsoft Project with the Project Operations add-in
@@ -1680,6 +1686,8 @@
        href: project-accounting/project-adjustments.md
      - name: Understand how cost prices, sales prices, transfer prices and taxes work together
        href: project-accounting/understand-cost-price-sales-prices-transfer-price-taxes.md
+     - name: Use financial tags for project financial transactions
+       href: project-accounting/financial-tags-for-project-financial-transactions.md
   - name: Project sales process
     items:
      - name: Project quotations
