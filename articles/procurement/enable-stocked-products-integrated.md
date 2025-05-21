@@ -170,6 +170,6 @@ To run the **Project cost update for inventory adjustments**, do the following:
 1. Apply the filters for the project or project contract.
 1. Select **Ok** to update the project cost in **Dynamics 365 project operations**.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
 
 
