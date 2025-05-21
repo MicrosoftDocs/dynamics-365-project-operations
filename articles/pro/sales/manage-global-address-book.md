@@ -26,19 +26,19 @@ To use the functionality, in **Microsoft Dataverse**, activate the **Enable muli
 
 ### Minimum versions required
 
-To use the feature for Microsoft Dynamics 365 Project Operations integrated with ERP scenarios, you must have the following versions:
+To use the feature for **Microsoft Dynamics 365 Project Operations** integrated with ERP scenarios, you must have the following versions:
 
 - **Project Operations Dataverse** version 4.142.0.x or later.
 - **Dynamics 365 Finance** version 10.0.43 or later.
 
-### Dual-write for addresses
+### Dual-write maps
 
-| Required Dual-write map | Required version |
-|---|---|
-| Project invoice proposal V2 (Invoices) | 1.0.0.4 |
-|Customers V3 (accounts)|1.0.0.3|
-|CDS Party postal address locations (msdyn_locationparties)|1.0.0.0|
-|CDS Postal address history V2 (msdyn_registeredaddresses|1.0.0.0|
+| Required Dual-write map | Required version |Initial sync|
+|---|---|---|
+| Project invoice proposal V2 (Invoices) | 1.0.0.4 |Not applicable|
+|Customers V3 (accounts)|1.0.0.3|Not applicable|
+|CDS Party postal address locations (msdyn_locationparties)|1.0.0.0|Dynamics 365 Finance to Dataverse|
+|CDS Postal address history V2 (msdyn_registeredaddresses|1.0.0.0|Dynamics 365 Finance to Dataverse|
 
 > [!NOTE]
 > Enabling feature doesn't impact existing address data. However, address-related fields are disabled on the **Project quotation**, **Project contract**, and **Project invoice** form. You can select a new address using the **Address Name** field, and fields such as **Street 1**, **Street 2**, **City**, and **Country** automatically populate with data from the address book.
@@ -48,6 +48,9 @@ To use the feature for Microsoft Dynamics 365 Project Operations integrated with
 Once this feature is turned on, the system allows you to create and manage multiple physical addresses for customers, vendors, and contacts. 
 
 In the **Customers**, **Vendors**, and **Contacts** forms, new tabs for managing physical ddresses are available. You can create these addresses directly in **Dynamics 365 Finance** or **Dataverse**, with the information synchronized seamlessly using Dual-write.
+
+## City, State and Country
+This feature provides an option to select the city, state, and country during address creation. The lookups for these fields are fetched from the **Dynamics 365 Finance address setup**. Once the city, state, or country is selected, the name is defaulted to the respective field in **Dataverse**. City, state and country name fields are disabled and defaulted based upon the lookup values.
 
 ## Project quotes
 
@@ -82,6 +85,6 @@ The **Delivery address** defaults from the **Project contract** if specified; ot
 
 Once the **project invoice** is **confirmed** in **Dataverse**, the **delivery address** and **invoice address** are synchronized with the invoice proposal in **Dynamics 365 Finance**.
 
-The **Delivery address** and **Invoice address** fields are added to the Dynamics 365 Finance **Project invoice proposal**. These fields are noneditable as the addresses are synchronized from Dataverse. To enable the synchronization of the delivery and invoice addresses, activate the following Dual-write map version for the **Project invoice proposal**.
+The **Delivery address** and **Invoice address** fields are added to the Dynamics 365 Finance **Project invoice proposal**. These fields are noneditable as the addresses are synchronized from Dataverse.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
