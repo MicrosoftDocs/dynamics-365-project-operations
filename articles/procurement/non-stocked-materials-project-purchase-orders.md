@@ -3,7 +3,7 @@ title: Order materials and services for a project using project purchase orders
 description: This article explains how you can order materials and services for a project using project purchase orders.
 author: sigitac
 ms.author: mukumarm
-ms.date: 05/12/2025
+ms.date: 05/21/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -48,4 +48,4 @@ Complete the following steps to enable the project purchase orders functionality
 
     After a vendor sends the invoice for items and services on the purchase order, the procurement department can generate an invoice for the purchase order by going to **Invoice** > **Generate** > **Invoice** on the Action Pane. For more information about pending vendor invoices, see [Purchase non-stocked materials using a pending vendor invoice](pending-vendor-invoices.md).
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
