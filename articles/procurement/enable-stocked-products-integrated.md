@@ -2,7 +2,7 @@
 title: Managed stocked products for project operations integrated deployments
 description: This article explains how to manage and utilize stocked products within integrated Project Operations deployments.
 author: mukumarm
-ms.date: 04/11/2025
+ms.date: 05/21/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -12,9 +12,12 @@ ms.author: mukumarm
 
 # Configure and use stocked products
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations integrated deployments._
 
 This article provides an overview of the **Stocked Product** feature in Microsoft **Dynamics 365 Project Operations**, which is seamlessly integrated with **Dynamics 365 Finance**. This feature enables users to manage stocked products, create purchase orders and subcontracts, consume stock for projects, and utilize stocked products in project estimates, quotations, and contracts within Dataverse. 
+
 It supports the creation of project invoices for materials consumed under time and materials-based contract lines, and it uses product costs for revenue recognition in fixed-price contract lines. Additionally, this feature ensures that project costs are accurately reflected in both Dynamics 365 Project Operations and Dynamics 365 Finance.
 
 ## Prerequisites
@@ -165,8 +168,8 @@ To run the **Project cost update for inventory adjustments**, do the following:
 1. In **Dynamics 365 for finance**, Go to **Project management and accounting**.
 1. Go to **Periodic** > **Project operations integration** > ****Project cost update for inventory adjustments**.
 1. Apply the filters for the project or project contract.
-1. Click **Ok** to update the project cost in **Dynamics 365 project operations**.
+1. Select **Ok** to update the project cost in **Dynamics 365 project operations**.
 
-
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 
 
