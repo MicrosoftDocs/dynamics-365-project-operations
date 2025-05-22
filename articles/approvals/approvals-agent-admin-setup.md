@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-An admin must complete the following steps to enable the approvals functionality of the Time and Expense Agent:
+The Approvals feature of the Time and Expense Agent is available as a production-ready preview in Microsoft Dynamics 365 Project Operations environments that have **version 4.140.0.239 or later**. An admin must complete the following steps to enable the approvals functionality of the Time and Expense Agent:
 
 1. Set up connections on the Microsoft Power Apps home page.
 1. Activate the agent trigger.
