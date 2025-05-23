@@ -3,7 +3,7 @@ title: Create and confirm Entry journals
 description: This article provides information about how to create and confirm Entry journals in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
 ms.author: suvaidya
-ms.date: 06/10/2024
+ms.date: 02/23/25
 ms.topic: how-to
 mscustom: 
   - bap-template
@@ -37,7 +37,7 @@ Follow these steps to create an Entry journal in Project Operations.
     | Field | Description | Functional impact |
     | --- | --- | --- |
     | Transaction Class | The journal line can be classified into one of the six transaction classes: **Time**, **Expense**, **Material**, **Retainer**, **Milestone**, or **Tax**. | <p>The **Tax** transaction class has been deprecated in Project Operations.</p><p>If you create a **Tax** transaction class, it won't be processed by invoicing or in cost or revenue calculations. **Milestone** is a revenue-only transaction class.</p><p>The **Retainer** transaction class represents an advance that was received from a customer. It should always be created as a pair of billed sales and unbilled sales journal lines.</p> |
-    | Transaction Type | <p>The **Cost**, **Interorg Sales**, and **Resourcing unit cost** transaction types should be used to record cost.</p><p>The **Unbilled Sales** and **Billed Sales** transaction types should be used to record revenue.</p> | <p>The **Retainer** transaction class works only with the **Unbilled Sales** and **Billed Sales** transaction types.</p><p>The **Milestone** transaction class works only with the **Billed Sales** transaction type.</p><p>The **Interorg Sales** and **Resourcing unit cost** transaction types are applicable only to the **Time** transaction class. In addition, they are available on Entry journals only in the Lite deployment scenario. They aren't available when Project Operations is deployed in the Resource/Nonstocked scenarios.</p> |
+    | Transaction Type | <p>The **Cost**, **Interorg Sales**, and **Resourcing unit cost** transaction types should be used to record cost.</p><p>The **Unbilled Sales** and **Billed Sales** transaction types should be used to record revenue.</p> | <p>The **Retainer** transaction class works only with the **Unbilled Sales** and **Billed Sales** transaction types.</p><p>The **Milestone** transaction class works only with the **Billed Sales** transaction type.</p><p>The **Interorg Sales** and **Resourcing unit cost** transaction types are applicable only to the **Time** transaction class. In addition, they're available on Entry journals only in the Lite deployment scenario. They aren't available when Project Operations is deployed in the Resource/Nonstocked scenarios.</p> |
     | Select Product | When the **Material** transaction class is selected, this field lets you specify whether the material transaction that you're creating the journal line for is an existing product or a write-in product. | If you select **Write-in product**, you can enter a name for the product. |
     | Product | A reference to the product from the catalog. | |
     | Description | A description of the journal line to help make it easy to identify. | For unbilled sales journal lines, the value is used as the description when the invoice line details are created. |
