@@ -1,8 +1,8 @@
 ---
-title: Create and confirm Entry journals
-description: This article provides information about how to create and confirm Entry journals in Microsoft Dynamics 365 Project Operations.
-author: suvaidya
-ms.author: suvaidya
+title: Create and confirm Entry journals for resource/non-stocked based scenarios
+description: This article provides information about how to create and confirm Entry journals for resource/non-stocked based scenarios in Microsoft Dynamics 365 Project Operations.
+author: abriccetti
+ms.author: abriccetti
 ms.date: 05/23/2025
 ms.topic: how-to
 mscustom: 
@@ -11,11 +11,11 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Create and confirm Entry journals
+# Create and confirm Entry journals for resource/non-stocked based scenarios
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios
 
 You use Entry journals to record actuals directly in Microsoft Dynamics 365 Project Operations. When you use Entry journals, you don't have to enter Time, Expense, and Material usage logs in Project Operations.
 
@@ -59,6 +59,9 @@ Follow these steps to create an Entry journal in Project Operations.
     | Quantity | Enter the quantity. | |
     | Price | If the price is left blank when the journal line is created, the relevant values are used to enter the default prices, depending on the transaction class. If a price is entered when the journal line is created, that price is used. | |
     | Tax | Enter any tax amount. | Depending on the tax amount that is entered, the extended amount is calculated as *Amount* + *Tax*. |
+
+> [!NOTE]
+> **Resourcing Company** and  **Owning Company** are required fields that are automatically populated.                                                  
 
 ## Confirm an Entry journal
 
