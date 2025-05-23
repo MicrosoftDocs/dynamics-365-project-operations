@@ -777,7 +777,7 @@
     - name: Journals
       items:
       - name: Create and confirm Entry journals
-        href: actuals/create-confirm-entry-journals.md
+        href: actuals/create-confirm-entry-journals-integrated.md
       - name: Create and confirm Correction journals
         href: actuals/create-confirm-correction-journals.md
       - name: Cancel actuals created from entry journals
