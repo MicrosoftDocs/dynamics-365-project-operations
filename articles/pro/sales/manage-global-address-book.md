@@ -51,7 +51,7 @@ New tabs for managing physical addresses are available on the **Customers**, **V
 
 ## City, state/province, and country/region
 
-This feature provides an option that lets you select the city, state/province, and country/region during address creation. The lookups for these fields are fetched from the address setup in Dynamics 365 Finance. After you select the city, state/province, or country/region, the name is automatically set to the appropriate field in Dataverse. City, state/province, and country/region name fields are disabled and are automatically set based on the lookup values.
+This feature provides an option that lets you select the city, state/province, and country/region during address creation. The lookups for these fields are fetched from the address setup in Dynamics 365 Finance. After you select the city, state/province, or country/region, the name is automatically set to the appropriate field in Dataverse. City, state/province, and country/region name fields are disabled and automatically set based on the lookup values.
 
 ## Project quotes
 
@@ -77,7 +77,7 @@ When a new project contract is manually created, and a customer is selected on t
 
 In Dataverse, the **Delivery Address** section is added to the project invoice. 
 
-The **Invoice address** and **Delivery address** fields, such as **Street 1**, **Street 2**, **City**, and **Country/region**, are disabled and are automatically set based on the selected **Invoice Address Name** and **Delivery Address Name** values.
+The **Invoice address** and **Delivery address** fields, such as **Street 1**, **Street 2**, **City**, and **Country/region**, are disabled and automatically set based on the selected **Invoice Address Name** and **Delivery Address Name** values.
 
 When a project invoice is generated for a project contract, the invoice address is automatically taken from the project contract customer. 
 
