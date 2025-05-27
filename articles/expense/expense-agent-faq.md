@@ -1,8 +1,8 @@
 ---
 title: Expense Entry feature of the Time and Expense Agent FAQ (preview)
-description: This article provides answers to frequently asked questions about the Expense Entry feature of the Time and Expense Agent.
+description: Get answers to frequently asked questions about the Expense Entry feature of the Time and Expense Agent.
 author: alexeiantao
-ms.date: 05/09/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -17,104 +17,128 @@ ms.author: alexeiantao
 
 This article provides answers to frequently asked questions about the Expense Entry feature of the Time and Expense Agent. It also describes known issues that affect the agent and explains how to work around them.
 
-## Agent Enablement and Configuration
+## Agent enablement and configuration
 
-### How do I disable the agent if needed?  
-To enable/disable the agent, go to the configuration page within Expense Management parameters.
+### How do I enable/disable the agent?
 
-### Can I enable the agent for select legal entities and provide custom configurations? 
-Yes, the agent can be turned off for select legal entities. Configurations are unique per legal entity.
+To enable/disable the agent, go to the configuration page in Expense Management parameters.
 
-### I can't see the Expense Entry feature of the Time and Expense Agent in Expense Management parameters within Finance and Operations. Why? 
-Expense Entry feature of the Time and Expense Agent is available from version 10.0.44. Enable the feature **Agent Management** from **Workspaces > Feature Management**.
+### Can I enable/disable the agent for selected legal entities and provide custom configurations?
 
-### I can't see the Expense Entry Solution.
-The solution is part of the Finance and Operations Copilot package (v1.0.3033.5+). Update it from Microsoft Power Platform admin center. Refer to the Copilot documentation for more details.
+Yes, the agent can be enabled/disabled for selected legal entities. Configurations are unique to each legal entity.
 
+### Why doesn't the Expense Entry feature of the Time and Expense Agent appear in Expense Management parameters in finance and operations apps?
 
-## Setup and Configuration
+The Expense Entry feature of the Time and Expense Agent is available as of version 10.0.44 of finance and operations apps. Enable the **Agent Management** feature in the **Feature Management** workspace (**Workspaces** \> **Feature Management**).
 
-### How do I update the shared mailbox address ID for Expense usage?  
-Update the variable in **DefaultSolution** and publish all customizations.
+### Why isn't the Expense Entry solution shown?
 
-### How do I update environment variables? 
-Go to **DefaultSolution** in Maker portal and update:
-  - Expense agent Shared Mailbox ID  
-  - Finance and operations Instance Url  
-  - Expense agent Shared Mailbox Address ID
+The solution is part of the **Copilot for finance and operations** package (version 1.0.3033.5 or later). Update it from the Microsoft Power Platform admin center. Learn more in the Copilot documentation.
 
-### I don’t know which connectors are used for Expense Entry feature of the Time and Expense Agent. How do I add them?  
-Expense Entry feature of the Time and Expense Agent uses the following connectors:
-  - Microsoft Copilot Studio  
-  - Dataverse  
-  - Office 365 Users  
-  - Office 365 Outlook  
-  - Microsoft Teams  
+## Setup and configuration
 
-Go to the **Maker Portal**, select your environment, navigate to **Connections > New connection**, and select the connector.
+### How do I update the shared mailbox address ID for expense usage?
 
-### Data Loss Prevention policy blocks connector access. What should I do? 
-Ensure the connectors are in the **Business** group and allowlisted.
+Sign in to [Power Apps](https://make.powerapps.com/), update the variable in **DefaultSolution**, and then publish all customizations.
 
+### How do I update environment variables?
 
-## Agent Execution
+Sign in to [Power Apps](https://make.powerapps.com/), go to **DefaultSolution**, and update the following values:
 
-### The Expense Entry feature of the Time and Expense Agent isn't processing my email receipts.  
-Ensure you're part of the correct legal entity and have active employment. Also verify that the agent is enabled for that legal entity.
+- Expense agent Shared Mailbox ID
+- Finance and operations Instance Url
+- Expense agent Shared Mailbox Address ID
 
-### I have followed the setup steps and have the required permissions, but the emails are still not processed.
-You may need to republish agents:
-  - Go to **Power Apps**  
-  - Select **Environment > Agents > 'Expense Entry Agent'** and **'ExpenseAgent-Line'**  
-  - Publish both agents  
-  - Publish the solution **Time and Expense Agent**
+### I don't know which connectors are used for the Expense Entry feature of the Time and Expense Agent. How do I add them?
 
-### Power Automate flows stopped working.  
-  Flows may be in a disabled state due to repeated failures. Turn them on manually. Some connections may need reauthentication—reconnect them.
+The Expense Entry feature of the Time and Expense Agent uses the following connectors:
 
-### Flows are running, but expenses aren't processed. 
-Possible causes:
-  - Expense Entry feature of the Time and Expense Agent not activated for legal entity  
-  - Users not having employment in legal entity  
-  - Disconnected connectors  
-  - Missing Copilot Studio license
+- Microsoft Copilot Studio
+- Dataverse
+- Office 365 Users
+- Office 365 Outlook
+- Microsoft Teams
 
-### Updated Outlook folder, but agent still uses old folder.
-Reconnect **Office 365 Outlook** connector and republish the solution.
+To add a connector, sign in to [Power Apps](https://make.powerapps.com/), select your environment, go to **Connections** \> **New connection**, and then select the connector.
 
-## Email and Receipt Processing
+### What should I do if Microsoft Purview Data Loss Prevention policy blocks connector access?
 
-### What file formats and sizes are supported by the agent? 
-Agent supports **JPEG, PNG, and PDF**. Recommended size is under **2MB**. Larger sizes supported only for JPEG and PDF.
+Ensure that the connectors are in the **Business** group and the allow list.
 
-### Does the agent support multiple receipts in one email?  
+## Agent execution
+
+### What should I do if the Expense Entry feature of the Time and Expense Agent isn't processing my email receipts?
+
+Ensure that you're part of the correct legal entity and have active employment. In addition, verify that the agent is enabled for the legal entity.
+
+### I followed the setup steps and have the required permissions, but emails still aren't processed. What should I do?
+
+You might have to republish agents.
+
+1. Sign in to [Power Apps](https://make.powerapps.com/).
+1. Select **Environment** \> **Agents**, and then select **Expense Entry feature of the Time and Expense Agent** and **ExpenseAgent-Line**.
+1. Publish both agents.
+1. Publish the **Time and Expense Agent** solution.
+
+### What should I do if Power Automate flows stop working?
+
+Flows might be in a disabled state because of repeated failures. In this case, turn them on manually. If any connections require reauthentication, reconnect them.
+
+### Flows are running, but expenses aren't processed. What should I do?
+
+Here are some possible causes:
+
+- The Expense Entry feature of the Time and Expense Agent isn't enabled for the legal entity.
+- Users don't have employment in the legal entity.
+- Connectors are disconnected.
+- The Copilot Studio license is missing.
+
+### I updated the Outlook folder, but the agent still uses the old folder. What should I do?
+
+Reconnect the **Office 365 Outlook** connector, and republish the solution.
+
+## Email and receipt processing
+
+### What file formats and sizes does the agent support?
+
+The agent supports JPEG, PNG, and PDF files. The recommended file size is less than 2 megabytes (MB). Larger file sizes are supported only for JPEG and PDF files.
+
+### Does the agent support multiple receipts in one email?
+
 Yes.
 
-### Can the agent read receipts embedded in the email body?  
+### Can the agent read receipts that are embedded in the email body?
+
 No.
 
-### My receipt isn’t being processed, though I have active employment and connections. 
-Check if the receipt format and size are correct. Supported types: **JPEG, PNG, PDF**. Recommended size: **< 2MB**.
+### I have active employment and connections, but my receipt isn't being processed. What should I do?
 
-### How do I know if an expense was created by the agent?  
-Add the **Expense Generated by** column in the web app’s **Expense Reports** screen.
+Ensure that the receipt format and size are correct. The supported file types are JPEG, PNG, and PDF. The recommended file size is less than 2 MB.
 
-### I can’t view the expense line for a forwarded receipt in the web application. 
-Processing can take **1–24 hours**. Lines appear in reports, not in unattached expenses.
+### How do I determine whether an expense was created by the agent?
 
-### How do I know if my receipt was processed?  
-Processed receipts are grouped into reports in the web application and displayed in Microsoft Teams. Errors trigger a fallback card with information about the failure.
+Add the **Expense Generated by** column on the web app's **Expense Reports** page.
 
-### I can't detach an expense line from a one-line adaptive card report.  
-The agent doesn't allow detaching the only line. Use the **web application** to delete the report.
+### What should I do if I can't view the expense line for a forwarded receipt in the web app?
 
+Processing can take 1–24 hours. Lines appear on reports, not in unattached expenses.
 
-## Microsoft Teams Integration
+### How do I determine whether my receipt was processed?
 
-### I can’t see the adaptive card for Expense in Teams. 
-Ensure the **Expense Entry Agent** Teams app is installed.
+Processed receipts are grouped into reports in the web app and shown in Teams. Errors trigger a fallback card that provides information about the failure.
 
-### I select the adaptive card button but get no response.  
-There’s a **1-day timeout**. You can act on the next card or use the web application.
+### What should I do if I can't detach an expense line from a one-line adaptive card report?
+
+The agent doesn't allow detachment of the only line on a one-line report. Use the web app to delete the report.
+
+## Microsoft Teams integration
+
+### What should I do if the adaptive card for Expense isn't shown in Teams?
+
+Ensure that the **Expense Entry feature of the Time and Expense Agent** Teams app is installed.
+
+### I get no response when I select the adaptive card button. What should I do?
+
+There is a one-day timeout. You can act on the next card or use the web app.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

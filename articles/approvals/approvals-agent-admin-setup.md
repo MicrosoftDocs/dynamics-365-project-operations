@@ -1,9 +1,9 @@
 ---
-title:  Set up the Approvals feature of the Time and Expense Agent as an admin (preview)
-description: Learn about how to set up the Approvals feature of the Time and Expense Agent as an admin. 
+title: Set up the Approvals feature of the Time and Expense Agent as an admin (preview)
+description: Learn how to set up the Approvals feature of the Time and Expense Agent as an admin. 
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/05/2025
+ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -17,59 +17,62 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-The Time and Expense Agent requires a few steps of admin setup to enable it's approvals functionality which are outlined in this article.
+The Approvals feature of the Time and Expense Agent is available as a production-ready preview in Microsoft Dynamics 365 Project Operations environments that have **version 4.140.0.239 or later**. An admin must complete the following steps to enable the approvals functionality of the Time and Expense Agent:
 
-- Set up Connections in the Power Apps home page.
-- Activate the agent trigger.
+1. Set up connections on the Microsoft Power Apps home page.
+1. Activate the agent trigger.
 
-## Set up Connections in the Power Apps home page
+## Set up connections on the Power Apps home page
 
-To set up Connections in the Power Apps home page, follow these steps.
+To set up connections on the Power Apps home page, follow these steps.
 
-1. Go to [https://make.powerapps.com](https://make.powerapps.com).
-1. Using the environment selector at the top of the page, select the environment where the agents were installed.
-1. Once you are in the context of the correct environment, select **Solutions** from the left pane, filter by **managed solutions**, and select **Project Service Agent**.
+1. Sign in to [Power Apps](https://make.powerapps.com).
+1. Use the environment switcher at the top of the page to select the environment where the agents were installed.
+1. In the left pane, select **Solutions**.
+1. Filter the **Solutions** page for **Managed** solutions, and select **Project Service Agent**.
 
-To display a list of connection references, follow these steps.
+To view a list of connection references, follow these steps.
 
-1. select **Connection references** from the second frame from the left titled **Objects**.
-1. Select the radio buttons next to the connection references named **Microsoft Copilot Studio** and **Microsoft Dataverse**, and select **Advanced** on the ribbon.
-1. On the drop-down menu, select **Add to solution** and then select **Common Data Services Default Solution**, then select **Save**.
+1. In the **Objects** pane, select **Connection references**.
+1. Select the checkboxes for the **Microsoft Copilot Studio** and **Microsoft Dataverse** connection references.
+1. On the command bar, select **Advanced** \> **Add to solution**.
+1. Select **Common Data Services Default Solution**.
+1. Select **Save**.
 
-   ![Add connections to solution](media/agentsetup2.png)
+    ![Screenshot that highlights the user interface elements used to add connections to the Project Service Agent solution as described in the preceding steps.](media/agentsetup2.png)
 
-1. After the connections are added to the default solution, select **Back to solutions** from the far-left frame.
-1. Filter by **Unmanaged solutions**, and select the **Common Data Services Default Solution**.
-1. From **Objects**, select **Connection references** under objects. Here you should see the **Microsoft Copilot Studio** and **Microsoft Dataverse** connection references.
-1. Select the radio button next to **Microsoft Copilot Studio** and then select edit from the ribbon.
-1. From the **Connection** section, select the drop-down, and select **New connection**.
+1. After the connections are added to the default solution, select **Back to solutions** in the left pane.
+1. Filter the **Solutions** page for **Unmanaged** solutions, and select **Common Data Services Default Solution**.
+1. In the **Objects** pane, select **Connection references**.
+1. The **Microsoft Copilot Studio** and **Microsoft Dataverse** connection references should be listed. Select the checkbox for **Microsoft Copilot Studio**, and then select **Edit** on the command bar.
+1. In the dialog that appears, in the **Connection** section, select **New connection**.
 
-   ![New Connection](media/agentsetup4.png)
+    ![Screenshot that highlights the user interface elements used to add a new connection as described in the preceding steps.](media/agentsetup4.png)
 
-   A new tab opens with a list of connections. In the top right enter Copilot Studio in the search field, then select the + to the right of the listing named **Microsoft Copilot Studio**. In the dialog box which appears select create and then sign in with the user you want the agent to run as.
+1. A new tab appears and shows a list of connections. In the search field in the upper right, enter **Copilot Studio**.
+1. In the search results, select the **Create** button (**+**) to the right of **Microsoft Copilot Studio**.
 
-   > !NOTE
-   > The user who logs in to create these connections will be the user the agent acts as. This user must have the **Time and Approval Agent** security role (or a role which provides the same or greater privileges)
+    ![Screenshot that shows Copilot Studio entered in the search field on the new tab and Microsoft Copilot Studio in the search results.](media/agentsetup5.png)
 
-1. Return to the previous tab, and repeat these steps for the Microsoft Dataverse Connection reference and connect to **Microsoft Dataverse**.
+1. In the dialog that appears, select **Create** to create a connection to Copilot Studio, and sign in as the user that you want the agent to run as.
 
-   ![Copilot Studio Connection](media/agentsetup5.png)
+    > [!NOTE]
+    > The user that you sign in as must have the **Time and Approval Agent** security role, or another role that provides the same or greater privileges.
 
-Lastly return to the common Data Services Default Solution > Connection references page and select the correct user under **Connection**.
+1. Return to the previous tab, and repeat the preceding steps for the **Microsoft Dataverse** connection reference to create a connection to Microsoft Dataverse.
+1. Return to the **Connection references** page for the **Common Data Services Default Solution** solution.
+1. In the dialog, in the **Connection** section, select the correct user.
 
-![Select user for connection](media/agentsetup7.png)
+    ![Screenshot that shows a user selected under Connection in the dialog.](media/agentsetup7.png)
 
 ## Activate the agent trigger
 
-The final step is to activate the cloud flow that acts as the agent trigger. 
+To activate the cloud flow that acts as the agent trigger, follow these steps.
 
-To activate the agent trigger, follow these steps.
+1. Return to the **Project Service Agent** solution.
+1. In the **Objects** pane, select **Cloud flows**.
+1. In the row for **Approvals Agent trigger**, select the three vertical dots, and then, on the menu, select **Turn on**.
 
-1. Return to the **Project Service Agent** solution, and select **Cloud flows** from the Objects menu. 
-1. Select the three dots next to **Approvals Agent trigger** and then select **Turn on** from the menu.
-
-   ![Turn on Cloud flow](media/agentsetup8.png)
-
-
+    ![Screenshot that highlights the user interface elements used to turn on the Approvals Agent trigger cloud flow as described in the preceding steps.](media/agentsetup8.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

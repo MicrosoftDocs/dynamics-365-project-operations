@@ -1,10 +1,10 @@
 ---
 title: Responsible AI FAQ for the Approvals feature of the Time and Expense Agent (preview)
-description: This article provides answers to frequently asked questions about Approvals Agent.
+description: Get answers to frequently asked questions about the Approvals feature of the Time and Expense Agent.
 author: abriccetti
 ms.author: abriccetti
 ms.topic: conceptual 
-ms.date: 05/09/2025
+ms.date: 05/13/2025
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -17,60 +17,61 @@ ms.collection:
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
-  
-### What are  Approvals feature of the Time and Expense Agent?
 
-The Approvals feature of the Time and Expense Agent in Microsoft Dynamics 365 Project Operations assists project managers by completing an initial review of all time, expense, and material entries that were submitted. The agent reviews these using a combination of business logic and large language models (LLM) to evaluate each entry against the organization’s policy documents.
+### What is the Approvals feature of the Time and Expense Agent?
 
-Based on the agent’s interpretation of the relevant policy document and review outcomes, if there aren't any policy violations, the agent determines it to be low risk and classifies it as ready for approval. If there's one or more policy violations, the agent determines it to be high risk, and it for human review, and provides a rationale for why review is needed. 
+The Approvals feature of the Time and Expense Agent in Microsoft Dynamics 365 Project Operations helps project managers by doing an initial review of all time, expense, and material entries that are submitted. To do this review, the agent uses a combination of business logic and large language models (LLMs) to evaluate each entry against the organization's policy documents.
 
-The Approvals feature of the Time and Expense Agent reduces the cognitive overload for the project manager at the close of the invoice period. During the close of the period, the project manager may need to review hundreds of approvals and send them for invoicing while also helping to proactively identify issues that require invoice corrections later.
+If the agent finds no policy violations, based on its interpretation of the relevant policy document and review outcomes, it determines that the entry has low risk and classifies it as ready for approval. If the agent finds one or more policy violations, it determines that the entry has high risk, classifies it as needing human review, and provides a reason why review is needed.
 
-### What can Approvals feature of the Time and Expense Agent do? 
+The Approvals feature of the Time and Expense Agent helps reduce the project manager's workload at the close of the invoice period. Without this feature, the project manager might have to manually review hundreds of approvals and send them for invoicing. At the same time, they might have to help proactively identify issues that will require invoice corrections later.
 
-The Approvals feature of the Time and Expense Agent, using Microsoft Copilot Studio, offers the following capabilities: 
+### What can the Approvals feature of the Time and Expense Agent do?
 
-- Provides a first review of all submitted time and expense approvals and suggests which ones need more reviews.
-- Allows for auto approval of low-risk transactions
-- Provides insights to help approvers make accurate decisions and recommendations for addressing high-risk transactions.
+The Approvals feature of the Time and Expense Agent uses Microsoft Copilot Studio to offer the following capabilities:
 
-### What are Approvals feature of the Time and Expense Agent’s intended use?
+- Provide an initial review of all submitted time and expense approvals, and suggest which ones required further review.
+- Allow for automatic approval of low-risk transactions.
+- Provides insight to help approvers make accurate decisions, and offer recommendations for addressing high-risk transactions.
 
-The intended uses of the Approvals feature of the Time and Expense Agent are:
+### What are the intended uses of the Approvals feature of the Time and Expense Agent?
 
-- To help classify transactions as high-risk or low-risk transactions and to assign a status of **Ready for approval** to transactions that don't have policy violations. The agent assigns a status of **Needs review** to transactions that have one or more policy violations. 
-- To evaluate each transaction against the relevant (time, expense, or material) uploaded policy document, and to generate the justification when transactions are classified as requiring review.
-- To enable tracking of the agent’s impact on business metrics and user productivity. 
+The Approvals feature of the Time and Expense Agent has the following intended uses:
 
-### How were Approvals feature of the Time and Expense Agent evaluated? What metrics are used to measure performance?
+- Help classify transactions as high-risk or low-risk. Assign a status of **Ready for approval** to transactions that have no policy violations or a status of **Needs review** to transactions that have one or more policy violations.
+- Evaluate each transaction against the relevant time, expense, or material policy document that is uploaded, and generate a justification when transactions are classified as requiring review.
+- Enable tracking of the agent's impact on business metrics and user productivity.
 
-- This system was evaluated multiple times using automated tests and manual reviews to measure the accuracy of review status and justification generated for each approval record by comparing them against the policy document used for evaluation. 
-- In addition to this, the content generated by this system was evaluated through a red-teaming process to test for groundedness and various kinds of harm. 
-- Our priority is to ensure that the agent is developed according to [Microsoft's Responsible AI standards](https://aka.ms/RAIStandardPDF). To meet this goal, a rigorous assessment process spanning a range of areas like security, privacy, legal, etc. is completed before the system gets deployed to users. 
+### How was the Approvals feature of the Time and Expense Agent evaluated? What metrics are used to measure performance?
 
-### What are the limitations of Approvals feature of the Time and Expense Agent? How can users minimize the impact of Approvals feature of the Time and Expense Agent’s limitations when using the system?
+- The system was evaluated multiple times through both automated tests and manual reviews that measured the accuracy of the system-generated review status and justification for each approval record. Accuracy was measured through comparison against the policy document that was used for evaluation.
+- In addition, the content that the system generated was evaluated through a red-teaming process that tested for groundedness and various kinds of harm.
+- Our priority is to ensure that the agent is developed according to [Microsoft's Responsible AI standards](https://aka.ms/RAIStandardPDF). Therefore, the system is deployed to users only after we complete a rigorous assessment process. This process spans a range of areas, such as security, privacy, and legal.
 
-- The accuracy of the output varies greatly depending upon the quality of the input, that is, the policy documents. Therefore, the policy documents must be crafted with care. The system may not perform well if approval criteria in the policy documents are ambiguous or if there are conflicting policies in the policy documents.
-- The classification and reasoning generated by the agent may vary based on the quality of data in the submitted time, expense, or material usage entries and the specific use case.
+### What are the limitations of Approvals feature of the Time and Expense Agent? How can users minimize the impact of those limitations when they use the system?
 
-- **To mitigate the above issues**:
-    - Admins should run preliminary tests in Copilot Studio using the policy document they intend to use in their environment and gauge if the results meet their expectations. 
-    - In certain cases, users may need to tweak the language used in the policy documents to improve accuracy of output (the review status and reason generated by the agent). 
-    - Users should avoid creating conflicting policies in the documents to avoid confusing the agent. 
-    - Although two modes of classification are supported, we suggest using **Classify Only** mode during configuration to prevent automatic approval of **Ready for approval** transactions. 
+- The accuracy of the output varies widely, depending on the quality of the input (that is, the policy documents). Therefore, the policy documents must be carefully crafted. The system might not perform well if the policy documents include ambiguous approval criteria or conflicting policies.
+- The classification and justification that the agent generates can vary, depending on the quality of data in the submitted time, expense, or material entries, and the specific use case.
 
-### What operational factors and settings allow for effective and responsible use of Approvals feature of the Time and Expense Agent?
+The following steps can help mitigate the preceding issues:
 
-- Admins can enable the feature using feature control settings. Enabling the feature allows for the automatic submission of time entries on behalf of team members and provides insights on the submitted time, expense, and material entries, enabling project managers to make informed approval decisions. 
-- At any point in time, if any issues are observed with the system output, admins have the flexibility to disable the feature using feature control settings.
-- If the feature is enabled, only record types with an uploaded policy document are reviewed. For example, if only a time policy document is uploaded, then only time entries are reviewed by the approvals agent.
-- If no policy documents are uploaded, then no records are reviewed. 
-- The functioning of the agent has been reviewed in accordance with Responsible AI policies. If the inputs into the agent (submitted entries/ policy document) are evaluated to be outside the boundaries of Responsible AI, then the agent is likely to flag these for further human review. 
+- Admins should run preliminary tests in Copilot Studio. For those tests, they should use the policy document that they intend to use in their environment and gauge whether the results meet their expectations.
+- In some cases, users might have to adjust the language that is used in the policy documents to improve the accuracy of the output (that is, the review status and justification that the agent generates).
+- Users should avoid creating conflicting policies in the documents. Otherwise, the agent can become "confused."
+- Although two modes of classification are supported, we recommend that you use **Classify** mode only during configuration, to prevent automatic approval of **Ready for approval** transactions.
 
-### How do I provide feedback on Approvals feature of the Time and Expense Agent?
+### What operational factors and settings allow for effective and responsible use of the Approvals feature of the Time and Expense Agent?
 
-- During the production ready preview of the Approvals Agent, there's a mechanism for users to provide thumbs up/down feedback on any reviewed record. 
-- This feedback mechanism may be enhanced in the future with an option to provide more detailed feedback directly within the product. 
-- General feedback on the feature can be shared through existing Dynamics 365 Project Operations Teams channel, or via support requests.    
+- Admins can enable the feature by using feature control settings. The feature allows for automatic submission of time entries on behalf of team members. It also provides insights into submitted time, expense, and material entries, so that project managers can make informed approval decisions.
+- If any issues with the system output are ever noticed, admins can disable the feature by using feature control settings.
+- If the feature is enabled, only record types that a policy document is uploaded for are reviewed. For example, if only a time policy document is uploaded, the agent reviews only time entries.
+- If no policy documents are uploaded, no records are reviewed.
+- The functioning of the agent was reviewed in accordance with Responsible AI policies. If the inputs that the agent receives (submitted entries and policy documents) are evaluated as being outside the boundaries of Responsible AI, the agent is likely to flag them for further human review.
+
+### How do I provide feedback about the Approvals feature of the Time and Expense Agent?
+
+- During the production ready preview of the Approvals feature, users can provide thumbs-up or thumbs-down feedback about any reviewed record.
+- This feedback mechanism might be enhanced later through an option that lets users provide more detailed feedback directly in the product.
+- General feedback about the feature can be shared through the existing Teams channel for Dynamics 365 Project Operations channel or via support requests.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
