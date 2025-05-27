@@ -16,75 +16,75 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations integrated with ERP scenarios_
 
-The Microsoft Dynamics 365 global address book is a centralized repository that stores and manages contact information for customers, vendors, employees, and other stakeholders. Consolidating this information in the global address book ensures data consistency, simplifies data management, and allows seamless communication across different modules and processes within Microsoft Dynamics 365 Finance.
+The Microsoft Dynamics 365 global address book is a centralized repository that stores and manages contact information for customers, vendors, employees, and other stakeholders. Consolidation of this information into the global address book ensures data consistency, simplifies data management, and allows for seamless communication across modules and processes in Dynamics 365 Finance.
 
-This feature allows the management of multiple physical addresses for customers, vendors, and contacts. It also supports the use of delivery addresses in project quotations, contracts, and invoices.
+This feature enables the management of multiple physical addresses for customers, vendors, and contacts. It also supports the use of delivery addresses in project quotations, contracts, and invoices.
 
 ## Prerequisites
 
-To use the functionality, in **Microsoft Dataverse**, activate the **Enable mulitple addresses for accounts** feature.
+To use the functionality, in Dataverse, activate the **Enable multiple addresses for accounts** feature.
 
 ### Minimum versions required
 
-To use the feature for **Microsoft Dynamics 365 Project Operations** integrated with ERP scenarios, you must have the following versions:
+To use the feature for Dynamics 365 Project Operations integrated with enterprise resource planning (ERP) scenarios, you must have the following versions:
 
-- **Project Operations Dataverse** version 4.142.0.x or later.
-- **Dynamics 365 Finance** version 10.0.43 or later.
+- **Project Operations Dataverse** version 4.142.0.x or later
+- **Dynamics 365 Finance** version 10.0.43 or later
 
 ### Dual-write maps
 
-| Required Dual-write map | Required version |Initial sync|
+| Required dual-write map | Required version | Initial synchronization |
 |---|---|---|
-| Project invoice proposal V2 (Invoices) | 1.0.0.4 |Not applicable|
-|Customers V3 (accounts)|1.0.0.3|Not applicable|
-|CDS Party postal address locations (msdyn_locationparties)|1.0.0.0|Dynamics 365 Finance to Dataverse|
-|CDS Postal address history V2 (msdyn_registeredaddresses|1.0.0.0|Dynamics 365 Finance to Dataverse|
+| Project invoice proposal V2 (Invoices) | 1.0.0.4 | Not applicable |
+| Customers V3 (accounts) | 1.0.0.3 | Not applicable |
+| CDS Party postal address locations (msdyn_locationparties) | 1.0.0.0 | Dynamics 365 Finance to Dataverse |
+| CDS Postal address history V2 (msdyn_registeredaddresses) | 1.0.0.0 | Dynamics 365 Finance to Dataverse |
 
 > [!NOTE]
-> Enabling this feature doesn't impact existing address data. However, address-related fields are disabled on the **Project quotation**, **Project contract**, and **Project invoice** form. You can select a new address using the **Address Name** field, and fields such as **Street 1**, **Street 2**, **City**, and **Country/Region** automatically populate with data from the address book.
+> Enabling this feature doesn't affect existing address data. However, address-related fields are disabled on the **Project quotation**, **Project contract**, and **Project invoice** pages. You can select a new address by using the **Address Name** field. Fields such as **Street 1**, **Street 2**, **City**, and **Country/Region** are then automatically filled with data from the address book.
 
-## Customers, Vendors, and Contacts
+## Customers, vendors, and contacts
 
-Once this feature is turned on, the system allows you to create and manage multiple physical addresses for customers, vendors, and contacts. 
+After this feature is turned on, you can create and manage multiple physical addresses for each customer, vendor, and contact. 
 
-New tabs for managing physical addresses are available in the **Customers**, **Vendors**, and **Contacts** forms. You can create these addresses directly in **Dynamics 365 Finance** or **Dataverse**, with the information synchronized seamlessly using Dual-write.
+New tabs for managing physical addresses are available on the **Customers**, **Vendors**, and **Contacts** pages. You can create the addresses directly in either Dynamics 365 Finance or Dataverse. The information is then seamlessly synchronized through dual-write.
 
-## City, state and country/region
-This feature provides an option to select the city, state, and country/region during address creation. The lookups for these fields are fetched from the **Dynamics 365 Finance address setup**. Once the city, state, or country/region is selected, the name is defaulted to the respective field in **Dataverse**. City, state and country/region name fields are disabled and defaulted based upon the lookup values.
+## City, state/province, and country/region
+
+This feature provides an option that lets you select the city, state/province, and country/region during address creation. The lookups for these fields are fetched from the address setup in Dynamics 365 Finance. After you select the city, state/province, or country/region, the name is automatically set to the appropriate field in Dataverse. City, state/province, and country/region name fields are disabled and are automatically set based on the lookup values.
 
 ## Project quotes
 
-You can add a **Delivery address** to the **Project quotation header** and **Project quotation customer**. All address-related fields, such as **Street 1**, **Street 2**, **City**, and **Country/region** are disabled, allowing you to select from existing addresses for the customer. 
+You can add a delivery address to the **Project quotation header** and **Project quotation customer** pages. All address-related fields, such as **Street 1**, **Street 2**, **City**, and **Country/region**, are disabled. Instead, you can select among the existing addresses for the customer. 
 
-Similarly, the **Invoice address** and **Delivery address** fields are disabled on the **Project quotation** customer form to allow you to select one of the existing customer addresses.
+In a similar way, the **Invoice address** and **Delivery address** fields are disabled on the **Project quotation customer** page. Instead, you can select one of the existing customer addresses.
 
-You can create a new address for the customer directly using the **Address name** lookup field by selecting the **+New Address** button on the **Delivery address** or **Invoice address** lookup and the same address can be used for the **Project quotation** and **Project quotation customer** form.
+However, you can create a new address for the customer directly through the **Address name** lookup field by selecting **New Address** on the **Delivery address** or **Invoice address** lookup. The same address can be used on the **Project quotation** and **Project quotation customer** pages.
 
-Once the quotation is won, the **Delivery address** from the project quotation is automatically carried over to the project contract. 
-Additionally, the **delivery address** and **invoice addresses** of the project quotation customer are defaulted to the **project contract customer**. 
+After the quotation is won, the delivery address from the project quotation is automatically carried over to the project contract. Additionally, the delivery address and invoice addresses of the project quotation customer are automatically entered for the project contract customer. 
 
 ## Project contracts
 
-You can add a **Delivery address** to the **Project contract** and **Project contract customer** form. All address-related fields, such as  **Street 1**, **Street 2**, **City**, and **Country** are disabled, allowing you to select from existing addresses for the customer. 
+You can add a delivery address to the **Project contract** and **Project contract customer** pages. All address-related fields, such as **Street 1**, **Street 2**, **City**, and **Country**, are disabled. Instead, you can select among the existing addresses for the customer. 
 
-Similarly, **Delivery address** and **Invoice address** fields are disabled on the project contract customer form, allowing you to select one of the existing customer addresses.
+In a similar way, the **Delivery address** and **Invoice address** fields are disabled on the **Project contract customer** page. Instead, you can select one of the existing customer addresses.
 
-However, you can create a new address for the customer directly through the **Address name** lookup field by selecting the **+New Address** button on the delivery address and invoice address. 
+However, you can create a new address for the customer directly through the **Address name** lookup field by selecting **New Address** on the **Delivery address** or **Invoice address** lookup. 
 
-When a new project contract is created manually and a customer is selected on the **Project contract** form, the customer's primary address automatically default in the **Project contract customer** form. However, you can modify the invoice address if needed. 
+When a new project contract is manually created, and a customer is selected on the **Project contract** page, the customer's primary address is automatically entered on the **Project contract customer** page. However, you can modify the invoice address if needed. 
 
 ## Project invoices
 
-In **Dataverse**, the **Delivery Address** section is added to the project invoice. 
+In Dataverse, the **Delivery Address** section is added to the project invoice. 
 
-The **Invoice address** and **Delivery address** fields, such as **Street 1**, **Street 2**, **City**, and **Country/region** are disabled and automatically default based on the selected **Invoice Address Name** and **Delivery Address Name** field.
+The **Invoice address** and **Delivery address** fields, such as **Street 1**, **Street 2**, **City**, and **Country/region**, are disabled and are automatically set based on the selected **Invoice Address Name** and **Delivery Address Name** values.
 
-When a project invoice is generated for a project contract, the invoice address defaults from the **Project contract customer**. 
+When a project invoice is generated for a project contract, the invoice address is automatically taken from the project contract customer. 
 
-The **Delivery address** defaults from the **Project contract** if specified; otherwise, it defaults from the **Project contract customer**. If no delivery address is provided on the project contract or the project contract customer, the delivery address field remains blank. However, you can select a delivery address on the project invoice form from the customer's existing addresses.
+The delivery address is automatically taken from the project contract, if it's specified there. Otherwise, it's taken from the project contract customer. If no delivery address is specified for the project contract or the project contract customer, the **Delivery address** field remains blank. However, on the **Project invoice** page, you can select a delivery address among the customer's existing addresses.
 
-Once the **project invoice** is **confirmed** in **Dataverse**, the **delivery address** and **invoice address** are synchronized with the invoice proposal in **Dynamics 365 Finance**.
+After the project invoice is confirmed in Dataverse, the delivery address and invoice address are synchronized with the invoice proposal in Dynamics 365 Finance.
 
-The **Delivery address** and **Invoice address** fields are added to the Dynamics 365 Finance **Project invoice proposal**. These fields are noneditable as the addresses are synchronized from Dataverse.
+The **Delivery address** and **Invoice address** fields are added to the **Project invoice proposal** page in Dynamics 365 Finance. These fields can't be edited, because the addresses are synchronized from Dataverse.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
