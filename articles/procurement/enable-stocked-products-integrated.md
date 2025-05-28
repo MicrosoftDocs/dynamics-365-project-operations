@@ -41,7 +41,7 @@ To use the feature for Project Operations integrated deployments, you must have 
 This section provides information about the specific maps that are required for stocked products. These dual-write maps are related to the Dynamics 365 Supply Chain solution. Learn about dual-write entities for the Dynamics 365 Supply Chain solution in [Unified product experience](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping).
 
 | Dual-write map | Version |
-|---|--|
+|---|---|
 | Configurations (msdyn_configurations) | 1.0.0.0 |
 | Sizes (msdyn_productsizes) | 1.0.0.0 |
 | Colors (msdyn_productcolors) | 1.0.0.0 |
