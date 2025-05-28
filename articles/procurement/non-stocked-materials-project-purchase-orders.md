@@ -1,6 +1,6 @@
 ---
 title: Order materials and services for a project using project purchase orders
-description: This article explains how you can order materials and services for a project using project purchase orders.
+description: Learn how you can use project purchase orders to order materials and services for a project.
 author: sigitac
 ms.author: mukumarm
 ms.date: 05/21/2025
@@ -11,20 +11,21 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Order procurement categories or materials for a project using project purchase orders
+# Order materials and services for a project using project purchase orders
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations integrated deployments_
 
-The procurement department in your organization might use [purchase orders](/dynamics365/supply-chain/procurement/purchase-order-overview) to track goods and services orders. Purchase orders for procurement categories or materials can be attributed to a project. Invoicing these purchase orders records the cost against the project.
+The procurement department in your organization might use [purchase orders](/dynamics365/supply-chain/procurement/purchase-order-overview) to track goods and services orders. Purchase orders for procurement categories or materials can be attributed to a project. When these purchase orders are invoiced, the cost is recorded against the project.
 
 ## Prerequisites
+
 Complete the following steps to enable the project purchase orders functionality.
 
 1. In Dynamics 365 Finance, go to the **Feature Management** workspace.
-2. In the feature list, find and select the feature, **Enable project purchase orders on Project Operations for resource based/non-stocked scenarios**. Select **Enable**.
-3. In the feature list, find and select the feature, **Enable stocked products usage for project operations integrated deployments**. This feature is required for using the stocked products in the integrated Project Operations deployments. Select **Enable**.
+2. In the feature list, find and select the **Enable project purchase orders on Project Operations for resource based/non-stocked scenarios** feature. Select **Enable**.
+3. In the feature list, find and select the **Enable stocked products usage for project operations integrated deployments** feature. This feature is required to use stocked products in integrated Project Operations deployments. Select **Enable**.
 4. Configure non-stocked materials and pending vendor invoices as described in [Configure non-stocked materials and pending vendor invoices](configure-materials-nonstocked.md).
 5. Configure procurement categories as described in [Use procurement categories with project purchase orders and pending vendor invoices](configure-procurement-categories.md).
 
@@ -37,7 +38,7 @@ Complete the following steps to enable the project purchase orders functionality
 5. Enter an item number or procurement category, quantity, unit, unit price, and other information as appropriate.
 
     > [!NOTE]
-    > To use the stocked products in the integrated deployments, refer [Managed stocked products for project operations integrated deployments](enable-stocked-products-integrated.md).
+    > Learn how to use stocked products in integrated deployments in [Managed stocked products for Project Operations integrated deployments](enable-stocked-products-integrated.md).
 
 6. Continue to add items or procurement categories as required, and confirm the purchase order.
 
