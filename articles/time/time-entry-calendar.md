@@ -119,6 +119,26 @@ Time entries can be modified from the calendar in two ways:
 
 ## Submit, Recall or Delete time entries from the calendar
 
+### Delete one or more time entries
+- Select _(single click)_ a Draft or Returned time entry.
+- To select **multiple entries**, use **Ctrl + Click** to continue selecting other entries as well.
+- Click **Delete** buttons from the top ribbon.
+- A confirmation will be required before deleting records.
+- Select **Delete** from the pop-up.
+
+
+### Submit one or more time entries
+- Select _(single click)_ a Draft or Returned time entry.
+- To select **multiple entries**, use **Ctrl + Click** to continue selecting other entries as well.
+- Click **Submit** buttons from the top ribbon.
+- In a few moments, the selected entry or entries will be submitted and the colour will change to Blue.
+
+### Recall one or more time entries
+- Select _(single click)_ a Submitted or Approved time entry.
+- To select **multiple entries**, use **Ctrl + Click** to continue selecting other entries as well.
+- Click **Recall** buttons from the top ribbon.
+- If one of the selected entries was in **Approved** state, a pop-up asking for a reason for recall will be displayed. Enter the reason and click **Yes**.
+ 
 ## Switching time horizons on the calendar
 
 By default, time entries are displayed in a **Weekly** view, similar to the time entry grid experience. However, the Time Entry Calendar comes with the ability to switch between Daily, Weekly, Monthly and an "Agenda" view by using the **View picker** (drop-down). 
