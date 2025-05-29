@@ -102,8 +102,6 @@
         href: environment/resource-dual-write-vendor-invoice.md  
       - name: Project operations dual-write errors and mitigation
         href: environment/resource-dual-write-frequent-issues.md
-    - name: Manage the global address book
-      href: pro/sales/manage-global-address-book.md
     - name: Change language localization settings
       href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
@@ -786,6 +784,8 @@
         href: actuals/cancel-actuals-from-entry-journals.md
   - name: Procurement
     items:
+    - name: Managed stocked products for project operations integrated deployments
+      href: procurement/enable-stocked-products-integrated.md
     - name: Configure non-stocked materials and pending vendor invoices
       href: procurement/configure-materials-nonstocked.md
     - name: Configure procurement categories for projects
