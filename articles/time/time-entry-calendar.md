@@ -28,6 +28,7 @@ This overview consists of the following sections
 ## Enable the Time Entry Calendar 
 To enable Time Entry Calendar, follow these steps.
 
+1. Ensure your Project Operations environment is running version 4.141.0.X or higher, since the Time Entry Calendar is not available or earlier versions.
 1. Sign in to Dynamics 365 Project Operations as a System Administrator.
 1. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
@@ -40,6 +41,31 @@ Once this feature is enabled, a new menu item named **Calendar** will be visible
 
 ## View existing entries on the calendar
 
+To view time entries using the calendar interface, follow these steps:
+1. Ensure the **Time Entry Calendar feature** is enabled as per the previous section.
+2. Under the **My Work** section, select **Calendar**.
+3. The Time Entry Calendar will load for the current work week.
+4. Time entries will be visible as calendar entries, with the title of each entry as the **Project Task** name and **Project** name right below it along with **Duration**.
+5. The calendar entries are colour coded based on time entry status with the default colors as shown below:
+
+| Status     	| Colour               	|
+|------------	|------------------------	|
+| Draft, Returned 	| Yellow	|
+| Submitted, Recall Requested | Blue  |
+| Approved 	| Green	|
+
+
+
+
+### Viewing time entry details
+
+Viewing the populated fields for each time entry can be done in two ways:
+1. Double clicking a time entry will open a pop-up form, that can be used to view or modify entries.
+2. Hovering the cursor over a time entry brings a tool-tip section that covers the populated fields for that time entry. If an **External Comment** or **Description** is entered then they will show up as the title of this section. 
+ 
+
+> [!NOTE]
+> Default midnight
 
 
 ## Create new time entries from the calendar
