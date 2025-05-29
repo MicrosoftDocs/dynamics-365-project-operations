@@ -67,8 +67,8 @@ Viewing the populated fields for each time entry can be done in two ways:
  
 
 > [!NOTE]
-> Details like Duration, Entry Status or even Project Name may get hidden for shorter duration time entries but can be viewed by using the tool-tip mentioned above.
-> While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to scroll up to the top since Project Operations sets default start time as midnight (12 am) when no start time is explicitly mentioned. 
+ > Details like Duration, Entry Status or even Project Name may get hidden for shorter duration time entries but can be viewed by using the tool-tip mentioned above.
+ > While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to scroll up to the top since Project Operations sets default start time as midnight (12 am) when no start time is explicitly mentioned. 
 
 
 ## Create new time entries from the calendar
