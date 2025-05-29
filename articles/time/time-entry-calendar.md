@@ -39,6 +39,8 @@ To enable Time Entry Calendar, follow these steps.
 
 Once this feature is enabled, a new menu item named **Calendar** will be visible under the **My Work** section of the Project Operations and Team Member apps.
 
+:::image type="content" source="../media/1calendarmenuitem.png" alt-text="Screenshot that shows the new Calendar menu item.":::
+
 ## View existing entries on the calendar
 
 To view time entries using the calendar interface, follow these steps:
@@ -54,7 +56,7 @@ To view time entries using the calendar interface, follow these steps:
 | Submitted, Recall Requested | Blue  |
 | Approved 	| Green	|
 
-
+:::image type="content" source="../media/2viewentries.png" alt-text="Screenshot that shows some sample time entrie when viewed using the calendar interface.":::
 
 
 ### Viewing time entry details
@@ -65,7 +67,8 @@ Viewing the populated fields for each time entry can be done in two ways:
  
 
 > [!NOTE]
-> Default midnight
+> Details like Duration, Entry Status or even Project Name may get hidden for shorter duration time entries but can be viewed by using the tool-tip mentioned above.
+> While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to scroll up to the top since Project Operations sets default start time as midnight (12 am) when no start time is explicitly mentioned. 
 
 
 ## Create new time entries from the calendar
