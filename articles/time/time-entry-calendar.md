@@ -48,6 +48,9 @@ To view time entries using the calendar interface, follow these steps:
 2. Under the **My Work** section, select **Calendar**.
 3. The Time Entry Calendar will load for the current work week.
 4. Time entries will be visible as calendar entries, with the title of each entry as the **Project Task** name and **Project** name right below it along with **Duration**.
+> [!NOTE]
+> Details like Duration, Entry Status or even Project Name may get hidden for shorter duration time entries but can be viewed by using the tool-tip mentioned above.
+
 5. The calendar entries are colour coded based on time entry status with the default colors as shown below:
 
 | Status     	| Colour               	|
@@ -67,8 +70,7 @@ Viewing the populated fields for each time entry can be done in two ways:
  
 
 > [!NOTE]
- > Details like Duration, Entry Status or even Project Name may get hidden for shorter duration time entries but can be viewed by using the tool-tip mentioned above.
- > While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to scroll up to the top since Project Operations sets default start time as midnight (12 am) when no start time is explicitly mentioned. 
+> While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to scroll up to the top since Project Operations sets default start time as midnight (12 am) when no start time is explicitly mentioned. 
 
 
 ## Create new time entries from the calendar
