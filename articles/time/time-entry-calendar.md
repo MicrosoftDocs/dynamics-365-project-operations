@@ -49,15 +49,14 @@ To view time entries using the calendar interface, follow these steps:
 3. The Time Entry Calendar will load for the current work week.
 4. Time entries will be visible as calendar entries, with the title of each entry as the **Project Task** name and **Project** name right below it along with **Duration**.
 > [!NOTE]
-> Details like Duration, Entry Status or even Project Name may get hidden for shorter duration time entries but can be viewed by using the tool-tip mentioned above.
+> Details like Duration, Entry Status or even Project Name may get hidden for shorter duration time entries but can be viewed by using the tool-tip mentioned later in this article.
 
 5. The calendar entries are colour coded based on time entry status with the default colors as shown below:
-
-| Status     	| Colour               	|
-|------------	|------------------------	|
-| Draft, Returned 	| Yellow	|
-| Submitted, Recall Requested | Blue  |
-| Approved 	| Green	|
+- | Status     	| Colour               	|
+  |------------	|------------------------	|
+  | Draft, Returned 	| Yellow	|
+  | Submitted, Recall Requested | Blue  |
+  | Approved 	| Green	|
 
 :::image type="content" source="../media/2viewentries.png" alt-text="Screenshot that shows some sample time entrie when viewed using the calendar interface.":::
 
@@ -70,10 +69,18 @@ Viewing the populated fields for each time entry can be done in two ways:
  
 
 > [!NOTE]
-> While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to scroll up to the top since Project Operations sets default start time as midnight (12 am) when no start time is explicitly mentioned. 
+> While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to **scroll to the top **since Project Operations sets **default start time as midnight (12 am)** when no start time is explicitly mentioned. 
 
 
 ## Create new time entries from the calendar
+
+Time entries can be created from the calendar in two ways:
+1. Creating a time entry using the **New Time Entry form** (quick create form) OR
+2. By copying an existing time entry
+
+### Creating a time entry using quick create form
+
+
 
 ## Modify time entries from the calendar
 
