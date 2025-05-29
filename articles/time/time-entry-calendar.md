@@ -65,9 +65,21 @@ Viewing the populated fields for each time entry can be done in two ways:
 1. Double clicking a time entry will open a pop-up form, that can be used to view or modify entries.
 2. Hovering the cursor over a time entry brings a tool-tip section that covers the populated fields for that time entry. If an **External Comment** or **Description** is entered then they will show up as the title of this section. 
  
-
 > [!NOTE]
 > While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to **scroll to the top **since Project Operations sets **default start time as midnight (12 am)** when no start time is explicitly mentioned. 
+
+### Switching time horizons on the calendar
+
+By default, time entries are displayed in a **Weekly** view, similar to the time entry grid experience. However, the Time Entry Calendar comes with the ability to switch between Daily, Weekly, Monthly and an "Agenda" view by using the **View picker** (drop-down). 
+:::image type="content" source="../media/viewpicker.png" alt-text="Screenshot that shows some sample time entrie when viewed using the calendar interface.":::
+
+- **Weekly View**: Default view that displays all time entries for the current week and lets users navigate to other weeks using the calendar control or next, previous buttons.
+   - **Note:**The Weekly view also adheres to organisation settings for Start and End days of a week.
+- **Agenda View**: This view displays a condensed version of the weekly view, with a title given to each time entry based on the **Description** field. If no description is entered for an entry, then the title will be blank.
+- **Daily View**: This view displays time entries one day at a time and users can switch to next and previous days or pick a specific day via the calendar control.
+- **Monthly View**: This view displays all time entries across the calendar month, with a cell or grid element visible for each day of the month.
+
+:::image type="content" source="../media/monthlyview.png" alt-text="Screenshot that shows some sample time entrie when viewed using the calendar interface.":::
 
 
 ## Create new time entries from the calendar
@@ -78,7 +90,19 @@ Time entries can be created from the calendar in two ways:
 
 ### Creating a time entry using quick create form
 
+- Click any grid element on the calendar that is empty. This will open a pop-up form titled **Create New Entry**.
+- The **Date **and **Start Time** will be set depending on where the user has clicked (which grid element was clicked).
+   - _For example, if a user clicks the blank grid element that starts at 1 pm on 26th May then Date and Start Time will be defaulted with these values._
+- By default, **Duration** is set as **30 minutes** when the user just clicks any of the empty grid elements. 
+   - Alternatively, the user can **click + drag** an empty section of the calendar to a desired duration (For example, 3 hours) and the Duration field will be defaulted with that value instead of just 30 minutes.
+- On the left side of this form, you will find a list of fields similar to the usual Quick Create form.
 
+
+A **new section** will be visible on the right side of this form (see image), where users can see a list of Projects that they're actively assigned to on one or more Project Tasks.
+
+ :::image type="content" source="../media/calendarqcform.png" alt-text="Screenshot that shows some sample time entries when viewed using the calendar interface.":::
+- Expanding any of the Projects, displays a tree-like structure that highlight the assigned Project Tasks for this user.
+- Select the row below the Project Task name, that mentions the Resource's name to auto-populate fields like **Project**, **Project Task** and **Role** 
 
 ## Modify time entries from the calendar
 
