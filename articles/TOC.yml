@@ -112,12 +112,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: May 2025 - Project Operations for resource/non-stocked based scenarios
+      href: whats-new/whats-new-may-2025-resource-based.md
     - name: April 2025 - Project Operations for resource/non-stocked based scenarios
       href: whats-new/whats-new-apr-2025-resource-based.md
-    - name: 2025 Wave 1 Early Access - Project Operations for resource/non-stocked based scenarios
-      href: whats-new/whats-new-2025W1-resource-based.md
     - name: Archive
       items:
+       - name: 2025 Wave 1 Early Access - Project Operations for resource/non-stocked based scenarios
+         href: whats-new/whats-new-2025W1-resource-based.md
        - name: February 2025 - Project Operations for resource/non-stocked based scenarios
          href: whats-new/whats-new-feb-2025-resource-based.md
        - name: January 2025 - Project Operations for resource/non-stocked based scenarios
@@ -948,12 +950,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new May 2025 - lite deployment
+      href: pro/whats-new/whats-new-may-2025-lite.md
     - name: What's new April 2025 - lite deployment
-      href: pro/whats-new/whats-new-apr-2025-lite.md
-    - name: What's new 2025 Wave 1 early access - lite deployment
-      href: pro/whats-new/whats-new-2025W1-early-access-lite.md   
+      href: pro/whats-new/whats-new-apr-2025-lite.md  
     - name: Archive
       items:
+      - name: What's new 2025 Wave 1 early access - lite deployment
+        href: pro/whats-new/whats-new-2025W1-early-access-lite.md
       - name: What's new February 2025 - lite deployment
         href: pro/whats-new/whats-new-feb-2025-lite.md
       - name: What's new January 2025 - lite deployment
