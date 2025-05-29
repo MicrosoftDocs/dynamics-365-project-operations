@@ -22,6 +22,7 @@ This overview consists of the following sections
 - Create new time entries
 - Modify existing time entries
 - Submit, Recall or Delete time entries
+- Switch time horizons from the calendar
 - Get snapshots and filter time entries
 
 
@@ -58,29 +59,22 @@ To view time entries using the calendar interface, follow these steps:
 
 :::image type="content" source="../media/2viewentries.png" alt-text="Screenshot that shows some sample time entrie when viewed using the calendar interface.":::
 
-
+<!--
 ### Viewing time entry details
 
 Viewing the populated fields for each time entry can be done in two ways:
 1. Double clicking a time entry will open a pop-up form, that can be used to view or modify entries.
 2. Hovering the cursor over a time entry brings a tool-tip section that covers the populated fields for that time entry. If an **External Comment** or **Description** is entered then they will show up as the title of this section. 
- 
+ -->
+
 > [!NOTE]
 > While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to **scroll to the top** since Project Operations sets **default start time as midnight (12 am)** when no start time is explicitly mentioned. 
 
-### Switching time horizons on the calendar
+### View external comments from the calendar
 
-By default, time entries are displayed in a **Weekly** view, similar to the time entry grid experience. However, the Time Entry Calendar comes with the ability to switch between Daily, Weekly, Monthly and an "Agenda" view by using the **View picker** (drop-down). 
-:::image type="content" source="../media/viewpicker.png" alt-text="Screenshot that shows the view picker to switch time horizons.":::
-
-- **Weekly View**: Default view that displays all time entries for the current week and lets users navigate to other weeks using the calendar control or next, previous buttons.
-   - **Note:**The Weekly view also adheres to organisation settings for Start and End days of a week.
-- **Agenda View**: This view displays a condensed version of the weekly view, with a title given to each time entry based on the **Description** field. If no description is entered for an entry, then the title will be blank.
-- **Daily View**: This view displays time entries one day at a time and users can switch to next and previous days or pick a specific day via the calendar control.
-- **Monthly View**: This view displays all time entries across the calendar month, with a cell or grid element visible for each day of the month.
-
-:::image type="content" source="../media/monthlyview.png" alt-text="Screenshot that shows the monthly view of the calendar interface.":::
-
+- Time entries with either the **External Comment** or **Description** fields populated, have a blue icon (similar to the time entry grid) to indicate this on the top-right of the entry.
+- To view the comment or description, hover the cursor over an entry. Doing so, brings up a tool-tip section that covers all populated fields for that time entry. 
+   - If an **External Comment** or **Description** is entered then they will show up as the title of this section.
 
 ## Create new time entries from the calendar
 
@@ -116,15 +110,27 @@ Time entries can be modified from the calendar in two ways:
 1. **Moving or Resizing an entry**: 
    - Calendar entries can be **moved from one position to another** _(including a different date) _by clicking and moving the entry to the desired area on the calendar. This will update the **Start, End Times** or **Date** field (if moved to a different day), depending on how the entry has been repositioned.
    - Similarly, calendar entries can be **resized** by using the indicators at the top or bottom of an entry to **increase or decrease their Duration**.
-2. **Editing time entry fields using a form**:
+2. **Editing fields using a form**:
    - Double clicking an editable entry will open a similar pop-up form titles **Edit Time Entry**.
    - All fields corresponding to the time entry can be modified, before selecting **Save**.
   
 > [!NOTE]
-> All read-only entries (Submitted, Approved, Recall Requested) will have a visible **lock icon** to indicate this property. Only entries without this icon can be edited in the ways mentioned here.
+> All read-only entries _(Submitted, Approved, Recall Requested)_ will have a visible **lock icon** to indicate this property. Only entries without this icon can be edited in the ways mentioned here.
 
 ## Submit, Recall or Delete time entries from the calendar
 
+## Switching time horizons on the calendar
+
+By default, time entries are displayed in a **Weekly** view, similar to the time entry grid experience. However, the Time Entry Calendar comes with the ability to switch between Daily, Weekly, Monthly and an "Agenda" view by using the **View picker** (drop-down). 
+:::image type="content" source="../media/viewpicker.png" alt-text="Screenshot that shows the view picker to switch time horizons.":::
+
+- **Weekly View**: Default view that displays all time entries for the current week and lets users navigate to other weeks using the calendar control or next, previous buttons.
+   - **Note:**The Weekly view also adheres to organisation settings for Start and End days of a week.
+- **Agenda View**: This view displays a condensed version of the weekly view, with a title given to each time entry based on the **Description** field. If no description is entered for an entry, then the title will be blank.
+- **Daily View**: This view displays time entries one day at a time and users can switch to next and previous days or pick a specific day via the calendar control.
+- **Monthly View**: This view displays all time entries across the calendar month, with a cell or grid element visible for each day of the month.
+
+:::image type="content" source="../media/monthlyview.png" alt-text="Screenshot that shows the monthly view of the calendar interface.":::
 
 
 ## View a snapshot and filter time entries
