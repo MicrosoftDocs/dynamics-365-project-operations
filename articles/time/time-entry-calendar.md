@@ -156,5 +156,11 @@ By default, time entries are displayed in a **Weekly** view, similar to the time
 ## View a snapshot and filter time entries
 
 
+## De-clutter mode (Preview only)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
+
+
 
 
