@@ -51,12 +51,10 @@ To view time entries using the calendar interface, follow these steps:
 > [!NOTE]
 > Details like Duration, Entry Status or even Project Name may get hidden for shorter duration time entries but can be viewed by using the tool-tip mentioned later in this article.
 
-5. The calendar entries are colour coded based on time entry status with the default colors as shown below:
-- | Status     	| Colour               	|
-  |------------	|------------------------	|
-  | Draft, Returned 	| Yellow	|
-  | Submitted, Recall Requested | Blue  |
-  | Approved 	| Green	|
+5. The calendar entries are colour coded based on time entry status with the default colors as:
+   - **Yellow:** _Draft_ and _Returned_
+   - **Blue:** _Submitted_ and _Recall Requested_
+   - **Green:** _Approved_
 
 :::image type="content" source="../media/2viewentries.png" alt-text="Screenshot that shows some sample time entrie when viewed using the calendar interface.":::
 
