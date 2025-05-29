@@ -106,10 +106,26 @@ A **new section** will be visible on the right side of this form _(see image)_, 
 
   :::image type="content" source="../media/calendarqcformtasks.png" alt-text="Screenshot that shows how Project, Task and Role fields get populated by selecting a task assignment.":::
 
+> [!NOTE]
+> Only Projects and Tasks that have an **active assignment on the Date for which time is being logged**, will be visible and can be populated using the Create New Entry form. This implies that any assignments on a **task that has already completed or is yet to begin**, **can not be selected** using the Time Entry Calendar. For such scenarios, **switch to** the standard **Time Entry Grid**.
+- Click **Save** after populating all the necessary fields, to finally create the time entry.
 
 ## Modify time entries from the calendar
 
+Time entries can be modified from the calendar in two ways:
+1. **Moving or Resizing an entry**: 
+   - Calendar entries can be **moved from one position to another** _(including a different date) _by clicking and moving the entry to the desired area on the calendar. This will update the **Start, End Times** or **Date** field (if moved to a different day), depending on how the entry has been repositioned.
+   - Similarly, calendar entries can be **resized** by using the indicators at the top or bottom of an entry to **increase or decrease their Duration**.
+2. **Editing time entry fields using a form**:
+   - Double clicking an editable entry will open a similar pop-up form titles **Edit Time Entry**.
+   - All fields corresponding to the time entry can be modified, before selecting **Save**.
+  
+> [!NOTE]
+> All read-only entries (Submitted, Approved, Recall Requested) will have a visible **lock icon** to indicate this property. Only entries without this icon can be edited in the ways mentioned here.
+
 ## Submit, Recall or Delete time entries from the calendar
+
+
 
 ## View a snapshot and filter time entries
 
