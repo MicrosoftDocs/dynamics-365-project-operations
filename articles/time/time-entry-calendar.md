@@ -61,7 +61,7 @@ To view time entries using the calendar interface, follow these steps.
    - **Blue:** _Submitted_ and _Recall Requested_
    - **Green:** _Approved_
 
-   :::image type="content" source="../media/viewentries.png" alt-text="Screenshot that shows some sample time entries when viewed using the calendar interface.":::
+   :::image type="content" source="../media/2viewentries.png" alt-text="Screenshot that shows some sample time entries when viewed using the calendar interface.":::
 
    > [!NOTE]
    > While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to **scroll to the top** since Project Operations sets **default start time as midnight (12 am)** when no start time is explicitly mentioned. 
@@ -169,7 +169,10 @@ By default, time entries are displayed in a **Weekly** view, similar to the time
 :::image type="content" source="../media/viewpicker.png" alt-text="Screenshot that shows the view picker to switch time horizons.":::
 
 - **Weekly View**: Default view that displays all time entries for the current week and lets users navigate to other weeks using the calendar control or next, previous buttons.
-   - **Note:** The Weekly view also adheres to organization settings for Start and End days of a week.
+
+   > [!NOTE]
+   > The Weekly view also adheres to organization settings for Start and End days of a week.
+   
 - **Agenda View**: This view displays a condensed version of the weekly view, with a title given to each time entry based on the **Description** field. If no description is entered for an entry, then the title is blank.
 - **Daily View**: This view displays time entries one day at a time and users can switch to next and previous days or pick a specific day via the calendar control.
 - **Monthly View**: This view displays all time entries across the calendar month, with a cell or grid element visible for each day of the month.
