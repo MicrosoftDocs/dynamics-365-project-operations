@@ -38,7 +38,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Time Entry |**New Time Entry Calendar View** <br><br> Team members can now interact with their time entries in a new calendar view. This view allows changing timelines to summarize time entries between Daily, Weekly and Monthly horizons. In addition, the Time Entry Calendar comes with a Charts section that compares hours logged with target working hours and even allows users to filter time entries by status or type (Overtime, Vacation, etc).| |
+| Time Entry |**New Time Entry Calendar View** <br><br> Team members can now interact with their time entries in a new calendar view. This view allows changing timelines to summarize time entries between Daily, Weekly and Monthly horizons. In addition, the Time Entry Calendar comes with a Charts section that compares hours logged with target working hours and even allows users to filter time entries by status or type (Overtime, Vacation, etc).| [New Time Entry Calendar (Preview)](../time/time-entry-calendar.md) |
 
 ## Quality updates
 
