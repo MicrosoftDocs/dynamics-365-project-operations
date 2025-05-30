@@ -42,8 +42,6 @@ To enable Time Entry Calendar, follow these steps.
 
 Once this feature is enabled, a new menu item named **Calendar** is visible under the **My Work** section of the Project Operations and Team Member apps.
 
-:::image type="content" source="../media/1calendarmenuitem.png" alt-text="Screenshot that shows the new Calendar menu item.":::
-
 ## View existing entries on the calendar
 
 To view time entries using the calendar interface, follow these steps.
@@ -60,8 +58,6 @@ To view time entries using the calendar interface, follow these steps.
    - **Yellow:** _Draft_ and _Returned_
    - **Blue:** _Submitted_ and _Recall Requested_
    - **Green:** _Approved_
-
-   :::image type="content" source="../media/2viewentries.png" alt-text="Screenshot that shows some sample time entries when viewed using the calendar interface.":::
 
    > [!NOTE]
    > While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to **scroll to the top** since Project Operations sets **default start time as midnight (12 am)** when no start time is explicitly mentioned. 
@@ -90,9 +86,7 @@ Time entries can be created from the calendar in two ways:
    - To set a different Duration, the user can alternatively **click + drag** an empty section of the calendar to a desired duration _(For example, 3 hours)_ and the Duration field defaults with that value instead of just 30 minutes.
 - On the left side of this form, you find a list of fields similar to the usual Quick Create form.
 
-A **new section** is visible on the right side of this form _(see image)_, where users can see a list of Projects that they're actively assigned to on one or more Project Tasks.
-
- :::image type="content" source="../media/calendarqcform.png" alt-text="Screenshot that shows the Create Time Entry form.":::
+A **new section** is visible on the right side of this form, where users can see a list of Projects that they're actively assigned to on one or more Project Tasks.
 
 - When you expand any of the Projects, a tree-like structure appears that highlights the assigned Project Tasks for this user.
 - Select the row below the Project Task name that mentions the Resource's name. Doing this selection, populates **Project**, **Project Task**, and **Role** fields based on the task assignment that was selected _(see image for an example of this)._
@@ -212,9 +206,6 @@ To use **Declutter mode**, follow these steps.
 1. Navigate to the Time Entry Calendar for the desired week.
 1. Confirm that one or more time entries that start at 12 am are visible on the calendar (see image for an example).
 1. By default, the **Declutter** **toggle** is disabled or set to **OFF**.
-
-   :::image type="content" source="../media/3midnightentriesfinal.png" alt-text="Screenshot that shows multiple entries cluttered around 12 am.":::
-
 1. Enable **Declutter** mode by switching **ON** the toggle _(see image for an illustration of this mode)_.
 
    :::image type="content" source="../media/midnightentriesdecluttered.png" alt-text="Screenshot that shows decluttered display.":::
