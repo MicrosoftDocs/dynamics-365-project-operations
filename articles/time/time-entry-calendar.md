@@ -23,7 +23,7 @@ This overview consists of the following sections
 - Modify existing time entries
 - Submit, Recall or Delete time entries
 - Switch time horizons from the calendar
-- Get snapshots and filter time entries
+- Get visual snapshots and filter time entries
 
 
 ## Enable the Time Entry Calendar 
