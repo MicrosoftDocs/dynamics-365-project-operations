@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Overview of the Time Entry Calendar (Preview) interface
+# Overview of the Time Entry Calendar (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
@@ -29,7 +29,7 @@ This overview consists of the following sections
 ## Enable the Time Entry Calendar 
 To enable Time Entry Calendar, follow these steps.
 
-1. Ensure your Project Operations environment is running version 4.141.0.X or higher, since the Time Entry Calendar is not available or earlier versions.
+1. Ensure your Project Operations environment is updated to version **4.141.0.X or higher**, since the Time Entry Calendar is not available on earlier versions.
 1. Sign in to Dynamics 365 Project Operations as a System Administrator.
 1. On the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
