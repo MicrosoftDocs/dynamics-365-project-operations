@@ -59,13 +59,6 @@ To view time entries using the calendar interface, follow these steps:
 
 :::image type="content" source="../media/2viewentries.png" alt-text="Screenshot that shows some sample time entrie when viewed using the calendar interface.":::
 
-<!--
-### Viewing time entry details
-
-Viewing the populated fields for each time entry can be done in two ways:
-1. Double clicking a time entry will open a pop-up form, that can be used to view or modify entries.
-2. Hovering the cursor over a time entry brings a tool-tip section that covers the populated fields for that time entry. If an **External Comment** or **Description** is entered then they will show up as the title of this section. 
- -->
 
 > [!NOTE]
 > While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to **scroll to the top** since Project Operations sets **default start time as midnight (12 am)** when no start time is explicitly mentioned. 
@@ -99,10 +92,11 @@ A **new section** will be visible on the right side of this form _(see image)_, 
 - Select the row below the Project Task name, that mentions the Resource's name. Doing this selection, populates **Project**, **Project Task** and **Role** fields based on the task assignment that was selected _(see image for an example of this)._
 
   :::image type="content" source="../media/calendarqcformtasks.png" alt-text="Screenshot that shows how Project, Task and Role fields get populated by selecting a task assignment.":::
+- Click **Save** after populating all the necessary fields, to finally create the time entry.
 
 > [!NOTE]
 > Only Projects and Tasks that have an **active assignment on the Date for which time is being logged**, will be visible and can be populated using the Create New Entry form. This implies that any assignments on a **task that has already completed or is yet to begin**, **can not be selected** using the Time Entry Calendar. For such scenarios, **switch to** the standard **Time Entry Grid**.
-- Click **Save** after populating all the necessary fields, to finally create the time entry.
+
 
 ## Modify time entries from the calendar
 
@@ -156,8 +150,24 @@ By default, time entries are displayed in a **Weekly** view, similar to the time
 
 ## View a snapshot and filter time entries
 
+### View a visual snapshot
+
+The Time Entry Calendar interface also provides users with the ability to track how many hours they are supposed to log by comparing their total hours with "Target" hours, based on their working hours configured in Project Operations. To view this snapshot:
+- Navigate to the Time Entry Calendar for the desired week.
+- Expand the collapsed **Charts** section on the right.
+- First, a **Weekly Snapshot** provides the total hours logged for the week and compares it with the Target for that week.
+- Next, a visualization provides a daily comparison between hours logged and the target hours for each day.
+- This snapshot updates to show **Daily** and **Monthly** comparisons as well, when the user changes the timeline.
+
+### Filter time entries by type or status
+
+- With the Charts section open, a **Legend for calendar entries** is displayed at the bottom.
+- This section allows users **select or hide** the **Entry Status** for which they want to filter time entries.
+- Doing so immediately updates which time entries are visible on the calendar and updates the snapshot comparison immediately as well.
+- Similarly, users can **check or uncheck** the **Type** of time entries they want to filter by. The calendar and snapshot get updated immediately. 
 
 ## De-clutter mode (Preview only)
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
