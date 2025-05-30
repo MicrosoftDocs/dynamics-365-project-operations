@@ -41,7 +41,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.124.0.1450                  |                                      10.0.43                                     |                1.0.124.1450              |
+|                   4.140.0.1087                  |                                      10.0.43                                     |                1.0.140.653              |
 
 > [!IMPORTANT]
 > - The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively.
@@ -63,8 +63,8 @@ Dynamics 365 Project Operations consists of two components:
 | **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
 |---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 |                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
-| **4.140.0.X** <br> Refer HotFix (**4.140.0.1087**)      | April 25, 2025             | April 25, 2025             | April 25, 2025             | May 02, 2025               | May 02, 2025               | CANCELED              | CANCELED               | CANCELED               | CANCELED               | CANCELED              |
-| **4.141.0.X**       | May 23, 2025               | May 30, 2025               | May 23, 2025               | May 30, 2025               | May 30, 2025               | June 06, 2025               |June 06, 2025               | June 13, 2025              | June 13, 2025              | June 20, 2025             |
+| **4.140.0.651** <br> Refer HotFix (**4.140.0.1087**)      | April 25, 2025             | April 25, 2025             | April 25, 2025             | May 02, 2025               | May 02, 2025               | CANCELED              | CANCELED               | CANCELED               | CANCELED               | CANCELED              |
+| **4.141.0.975** <br> Refer HotFix (**4.140.0.1552**)      | May 23, 2025               | CANCELED               | May 23, 2025               | CANCELED               | CANCELED               | CANCELED               |CANCELED               | CANCELED              | CANCELED              | CANCELED             |
 | **4.142.0.X**       | June 13, 2025              | June 20, 2025              | June 20, 2025              | June 27, 2025              | June 27, 2025              | July 04, 2025              | July 04, 2025              | July 11, 2025              | July 11, 2025              | July 18, 2025              |
 | **4.143.0.X**       | July 11, 2025              | July 18, 2025              | July 18, 2025              | July 25, 2025              | July 25, 2025              | August 01, 2025            | August 01, 2025            | August 09, 2025            | August 09, 2025            | August 16, 2025            |
 
@@ -74,6 +74,7 @@ Dynamics 365 Project Operations consists of two components:
 |---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 |                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
 | **4.140.0.1087**    | May 13, 2025               | May 13, 2025               | May 13, 2025               | May 13, 2025               | May 14, 2025               | May 14, 2025               | May 14, 2025               | May 14, 2025               | May 16, 2025               | May 23, 2025               |
+| **4.141.0.1552**    | May 30, 2025               | June 06, 2025               | May 30, 2025               | June 06, 2025               | May 30, 2025               | June 06, 2025               | June 06, 2025               | June 13, 2025               | June 13, 2025               | June 20, 2025               |
 
 
 ## Release Schedule for Project Management and Accounting in the Finance and Operations Apps Environment
