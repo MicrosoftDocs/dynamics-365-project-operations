@@ -111,7 +111,7 @@ The Time Entry Calendar also introduces more **intuitive copying** of time entry
 - Use the standard **Ctrl + V** shortcut to paste the entry.
 - This can also be done by selecting more than one time entry using **Ctrl + click** as mentioned in early sections.
 
-### Fields populated for copied entries
+#### Fields populated for copied entries
 - **Time Entry Details:** Copying a time entry copies all the fields that are populated on the visible time entry form _(Project, Task, Role, Description, etc)_.
 - **Duration** for the pasted entries is decided based on the target position that was identified. This is set to either **30 minutes** if a single calendar element was selected, or a **larger duration** if an empty section of the calendar was selected using **click + drag** before pasting the entries.
 
