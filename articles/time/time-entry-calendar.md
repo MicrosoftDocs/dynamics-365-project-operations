@@ -50,7 +50,7 @@ To view time entries using the calendar interface, follow these steps:
 3. The Time Entry Calendar will load for the current work week.
 4. Time entries will be visible as calendar entries, with the title of each entry as the **Project Task** name and **Project** name right below it along with **Duration**.
 > [!NOTE]
-> Details like Duration, Entry Status or even Project Name may get hidden for shorter duration time entries but can be viewed by using the tool-tip mentioned later in this article.
+> Details like Duration, Entry Status or even Project Name **may be hidden** for time entries with shorter durations, but can be viewed by using the tool-tip mentioned later in this article.
 
 5. The calendar entries are colour coded based on time entry status with the default colors as:
    - **Yellow:** _Draft_ and _Returned_
@@ -97,7 +97,8 @@ A **new section** will be visible on the right side of this form _(see image)_, 
 - Click **Save** after populating all the necessary fields, to finally create the time entry.
 
 > [!NOTE]
-> Only Projects and Tasks that have an **active assignment on the Date for which time is being logged**, will be visible and can be populated using the Create New Entry form. This implies that any assignments on a **task that has already completed or is yet to begin**, **can not be selected** using the Time Entry Calendar. For such scenarios, **switch to** the standard **Time Entry Grid**.
+   > Only Projects and Tasks that have an **active assignment on the Date for which time is being logged**, will be visible and can be populated using the Create New Entry form. 
+   > This implies that any assignments on a **task that has already completed or is yet to begin**, **can not be selected** using the Time Entry Calendar. For such scenarios, **switch to** the standard **Time Entry Grid**.
 
 
 ### Copying one or more existing entries
