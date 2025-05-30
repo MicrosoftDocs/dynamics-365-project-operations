@@ -14,7 +14,7 @@ ms.author: mohitmenon
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-The Time Entry Calendar interface provides users with a new way to view and interact with their time entries. This interface introduces more intuitive ways of creating and editing time entries. In addition, users also get to display their time entries over various time horizons from Daily, Weekly and Monthly views.
+The Time Entry Calendar interface provides users with a new way to view and interact with their time entries. This interface introduces more intuitive ways of creating and editing time entries. In addition, users also get to display their time entries over various time horizons from Daily, Weekly, and Monthly views.
 
 This overview consists of the following sections
 - Enabling the Time Entry Calendar feature
@@ -50,7 +50,7 @@ To view time entries using the calendar interface, follow these steps:
 3. The Time Entry Calendar loads for the current work week.
 4. Time entries will be visible as calendar entries, with the title of each entry as the **Project Task** name and **Project** name right below it along with **Duration**.
 > [!NOTE]
-> Details like Duration, Entry Status or even Project Name **may be hidden** for time entries with shorter durations, but can be viewed by using the tool-tip mentioned later in this article.
+> Details like Duration, Entry Status, or even Project Name **may be hidden** for time entries with shorter durations, but can be viewed by using the tool-tip mentioned later in this article.
 
 5. The calendar entries are colour coded based on time entry status with the default colors as:
    - **Yellow:** _Draft_ and _Returned_
@@ -81,7 +81,7 @@ Time entries can be created from the calendar in two ways:
 
 - Click any grid element on the calendar that is empty. This step opens a pop-up form titled **Create New Entry**.
 - The **Date** and **Start Time** are set depending on which grid element was clicked.
-   - _For example, if a user clicks the blank grid element that starts at 1 pm on 26th May then Date and Start Time are defaulted with these values._
+   - _For example, if a user clicks the blank grid element that starts at 1 pm on May 26 then Date and Start Time are defaulted with these values._
 - By default, **Duration** is set to **30 minutes** when the user just clicks any of the empty grid elements. 
    - To set a different Duration, the user can alternatively **click + drag** an empty section of the calendar to a desired duration _(For example, 3 hours)_ and the Duration field will be defaulted with that value instead of just 30 minutes.
 - On the left side of this form, you find a list of fields similar to the usual Quick Create form.
@@ -91,7 +91,7 @@ A **new section** is visible on the right side of this form _(see image)_, where
  :::image type="content" source="../media/calendarqcform.png" alt-text="Screenshot that shows the Create Time Entry form.":::
 
 - Expanding any of the Projects, displays a tree-like structure that highlight the assigned Project Tasks for this user.
-- Select the row below the Project Task name, that mentions the Resource's name. Doing this selection, populates **Project**, **Project Task** and **Role** fields based on the task assignment that was selected _(see image for an example of this)._
+- Select the row below the Project Task name, that mentions the Resource's name. Doing this selection, populates **Project**, **Project Task**, and **Role** fields based on the task assignment that was selected _(see image for an example of this)._
 
   :::image type="content" source="../media/calendarqcformtasks.png" alt-text="Screenshot that shows how Project, Task and Role fields get populated by selecting a task assignment.":::
 - Click **Save** after populating all the necessary fields, to finally create the time entry.
@@ -131,7 +131,7 @@ Time entries can be modified from the calendar in two ways:
 > [!NOTE]
 > All read-only entries _(Submitted, Approved, Recall Requested)_ will have a visible **lock icon** to indicate this property. Only entries without this icon can be edited in the ways mentioned here.
 
-## Submit, Recall or Delete time entries from the calendar
+## Submit, Recall, or Delete time entries from the calendar
 
 ### Delete one or more time entries
 - Select _(single click)_ a Draft or Returned time entry.
@@ -151,7 +151,7 @@ Time entries can be modified from the calendar in two ways:
 - Select _(single click)_ a Submitted or Approved time entry.
 - To select **multiple entries**, use **Ctrl + Click** to continue selecting other entries as well.
 - Click **Recall** buttons from the top ribbon.
-- If one of the selected entries was in **Approved** state, a pop-up asking for a reason for recall will be displayed. Enter the reason and click **Yes**.
+- If one of the selected entries was in **Approved** state, a pop-up asking for a reason for recall is displayed. Enter the reason and click **Yes**.
  
 ## Switching time horizons on the calendar
 
@@ -188,7 +188,7 @@ The Time Entry Calendar interface also provides users with the ability to track 
 
 ## De-clutter mode (Preview only)
 
-Entries created using the standard Time Entry Grid experience without an explicit **Start time**, are defaulted to midnight (12 am) as their starting time. When such entries are viewed on the Time Entry Calendar, the visual experience can be impacted since **multiple time entries are cluttered together** at the start of the day (at 12 am). To make it easier to view existing time entries, a **De-clutter mode** has been introduced for this preview. To try it out, follow these steps:
+Entries created using the standard Time Entry Grid experience without an explicit **Start time**, are defaulted to midnight (12 am) as their starting time. When such entries are viewed on the Time Entry Calendar, the visual experience can be impacted since **multiple time entries are cluttered together** at the start of the day (at 12 am). To make it easier to view existing time entries, a **De-clutter mode** is introduced for this preview. To try it out, follow these steps:
 - Navigate to the Time Entry Calendar for the desired week.
 - Confirm that one or more time entries that start at 12 am are visible on the calendar (see image for an example).
 - By default, the **De-clutter** **toggle** is disabled or set to **OFF**.
@@ -197,20 +197,20 @@ Entries created using the standard Time Entry Grid experience without an explici
 
 - Enable **De-clutter** mode by switching **ON** the toggle _(see image for an illustration of this mode)_.
 
-:::image type="content" source="../media/midnightentriesdecluttered.png" alt-text="Screenshot that shows de-cluttered display.":::
+:::image type="content" source="../media/midnightentriesdecluttered.png" alt-text="Screenshot that shows decluttered display.":::
 
 ### **De-clutter mode behaviour**
 - **Which time entries get de-cluttered:** This mode only de-clutters or temporarily moves entries that **did not have an explicit Start Time** populated for them (all entries with Start Time as 12 am are de-cluttered here).
-- **How the new position of time entries is set:** The identified time entries are temporarily moved based on the user's working hours, and entries created first are stacked at the Start of the day, with the next entry following the previous one immediately and so on.
+- **How the new position of time entries is set:** The identified time entries are temporarily moved based on the user's working hours. Entries created first (based on **Created On** date) are stacked at the Start of the day, with the next entry immediately following the previous entry and so on.
    - **For example:** _A user has working hours from 8 am to 5 pm. There are 2 time entries of 2 hours each that need to be de-cluttered. The entry that was created first gets displayed from 8 am to 10 am, followed by the next entry from 10 am to 12 pm._
 - **Existing entries with Start Time populated:** All existing time entries that had an explicit Start time populated are kept as is, so there is no change in their display or position on the calendar. 
 
 ### Making changes to de-cluttered entries
-- The De-clutter mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries.
-- However, if a user makes **any modifications** to time entries while they are in de-cluttered mode then the **new Start and End times will also be saved** for those time entry records.
+- The "De-clutter" mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries.
+- However, if a user makes **any modifications** to time entries while they are in decluttered mode then the **new Start and End times will also be saved** for those time entry records.
 
 > [!IMPORTANT]
-> The De-clutter mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries. It is not recommended to make changes to time entries in this mode, since doing so will also modify their Start and End times as mentioned in the previous section.
+> The De-clutter mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries. It is not recommended to make changes to time entries in this mode, since doing so modifies their Start and End times as mentioned in the previous section.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
