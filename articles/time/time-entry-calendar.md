@@ -98,6 +98,20 @@ A **new section** will be visible on the right side of this form _(see image)_, 
 > Only Projects and Tasks that have an **active assignment on the Date for which time is being logged**, will be visible and can be populated using the Create New Entry form. This implies that any assignments on a **task that has already completed or is yet to begin**, **can not be selected** using the Time Entry Calendar. For such scenarios, **switch to** the standard **Time Entry Grid**.
 
 
+### Copying one or more existing entries
+
+The Time Entry Calendar also introduces more **intuitive copying** of time entry records. Follow these steps to copy one or more entries:
+- Select the time entry that needs to be copied.
+- Use the standard **Ctrl + C** shortcut to copy the entry _(this is currently the only way to trigger a copy)_.
+- Identify the target date and time where this entry is to be copied.
+- Select a grid element or **click + drag** an empty section of the calendar to set that that as the position where you'd like to paste the entry.
+- Use the standard **Ctrl + V** shortcut to paste the entry.
+- This can also be done by selecting more than one time entry using **Ctrl + click** as mentioned in early sections.
+
+### Fields populated for copied entries
+- **Time Entry Details:** Copying a time entry copies all the fields that are populated on the visible time entry form _(Project, Task, Role, Description, etc)_.
+- **Duration** for the pasted entries is decided based on the target position that was identified. This is set to either **30 minutes** if a single calendar element was selected, or a **larger duration** if an empty section of the calendar was selected using **click + drag** before pasting the entries.
+
 ## Modify time entries from the calendar
 
 Time entries can be modified from the calendar in two ways:
@@ -140,7 +154,7 @@ By default, time entries are displayed in a **Weekly** view, similar to the time
 :::image type="content" source="../media/viewpicker.png" alt-text="Screenshot that shows the view picker to switch time horizons.":::
 
 - **Weekly View**: Default view that displays all time entries for the current week and lets users navigate to other weeks using the calendar control or next, previous buttons.
-   - **Note:**The Weekly view also adheres to organisation settings for Start and End days of a week.
+   - **Note:** The Weekly view also adheres to organisation settings for Start and End days of a week.
 - **Agenda View**: This view displays a condensed version of the weekly view, with a title given to each time entry based on the **Description** field. If no description is entered for an entry, then the title will be blank.
 - **Daily View**: This view displays time entries one day at a time and users can switch to next and previous days or pick a specific day via the calendar control.
 - **Monthly View**: This view displays all time entries across the calendar month, with a cell or grid element visible for each day of the month.
@@ -187,7 +201,7 @@ Entries created using the standard Time Entry Grid experience without an explici
 
 ### Making changes to de-cluttered entries
 - The De-clutter mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries.
-- However, if a user makes **any modifications** to time entries while they are in de-cluttered mode then the n**ew Start and End times will also be saved **for that time entry record.
+- However, if a user makes **any modifications** to time entries while they are in de-cluttered mode then the **new Start and End times will also be saved** for those time entry records.
 
 > [!IMPORTANT]
 > The De-clutter mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries. It is not recommended to make changes to time entries in this mode, since doing so will also modify their Start and End times as mentioned in the previous section.
