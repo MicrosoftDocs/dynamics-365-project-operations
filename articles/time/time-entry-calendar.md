@@ -112,6 +112,9 @@ The Time Entry Calendar also introduces more **intuitive copying** of time entry
 - **Time Entry Details:** Copying a time entry copies all the fields that are populated on the visible time entry form _(Project, Task, Role, Description, etc)_.
 - **Duration** for the pasted entries is decided based on the target position that was identified. This is set to either **30 minutes** if a single calendar element was selected, or a **larger duration** if an empty section of the calendar was selected using **click + drag** before pasting the entries.
 
+> [!NOTE]
+> If multiple entries are copied and pasted at a target position, all of the new entries will share the same Start and End times (and Duration). 
+
 ## Modify time entries from the calendar
 
 Time entries can be modified from the calendar in two ways:
