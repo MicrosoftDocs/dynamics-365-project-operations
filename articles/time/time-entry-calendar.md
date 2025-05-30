@@ -148,9 +148,9 @@ By default, time entries are displayed in a **Weekly** view, similar to the time
 :::image type="content" source="../media/monthlyview.png" alt-text="Screenshot that shows the monthly view of the calendar interface.":::
 
 
-## View a snapshot and filter time entries
+## View target hours and filter time entries
 
-### View a visual snapshot
+### Get a visual snapshot of target hours
 
 The Time Entry Calendar interface also provides users with the ability to track how many hours they are supposed to log by comparing their total hours with "Target" hours, based on their working hours configured in Project Operations. To view this snapshot:
 - Navigate to the Time Entry Calendar for the desired week.
@@ -168,6 +168,29 @@ The Time Entry Calendar interface also provides users with the ability to track 
 
 ## De-clutter mode (Preview only)
 
+Entries created using the standard Time Entry Grid experience without an explicit **Start time**, are defaulted to midnight (12 am) as their starting time. When such entries are viewed on the Time Entry Calendar, the visual experience can be impacted since **multiple time entries are cluttered together** at the start of the day (at 12 am). To make it easier to view existing time entries, a **De-clutter mode** has been introduced for this preview. To try it out, follow these steps:
+- Navigate to the Time Entry Calendar for the desired week.
+- Confirm that one or more time entries that start at 12 am are visible on the calendar (see image for an example).
+- By default, the **De-clutter** **toggle** is disabled or set to **OFF**.
+
+:::image type="content" source="../media/3midnightentriesfinal.png" alt-text="Screenshot that shows multiple entries cluttered around 12 am.":::
+
+- Enable **De-clutter** mode by switching **ON** the toggle _(see image for an illustration of this mode)_.
+
+:::image type="content" source="../media/midnightentriesdecluttered.png" alt-text="Screenshot that shows de-cluttered display.":::
+
+### **De-clutter mode behaviour**
+- **Which time entries get de-cluttered:** This mode only de-clutters or temporarily moves entries that **did not have an explicit Start Time** populated for them (all entries with Start Time as 12 am are de-cluttered here).
+- **How the new position of time entries is set:** The identified time entries are temporarily moved based on the user's working hours, and entries created first are stacked at the Start of the day, with the next entry following the previous one immediately and so on.
+   - **For example:** _A user has working hours from 8 am to 5 pm. There are 2 time entries of 2 hours each that need to be de-cluttered. The entry that was created first gets displayed from 8 am to 10 am, followed by the next entry from 10 am to 12 pm._
+- **Existing entries with Start Time populated:** All existing time entries that had an explicit Start time populated are kept as is, so there is no change in their display or position on the calendar. 
+
+### Making changes to de-cluttered entries
+- The De-clutter mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries.
+- However, if a user makes **any modifications** to time entries while they are in de-cluttered mode then the n**ew Start and End times will also be saved **for that time entry record.
+
+> [!IMPORTANT]
+> The De-clutter mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries. It is not recommended to make changes to time entries in this mode, since doing so will also modify their Start and End times as mentioned in the previous section.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
