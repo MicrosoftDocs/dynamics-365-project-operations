@@ -640,7 +640,7 @@
       items: 
       - name: Time entry user interface
         href: time/ui-behavior-time.md
-    - name: New Time Entry Calendar (preview)
+    - name: Time Entry Calendar interface (preview)
       href: time/time-entry-calendar.md
     - name: Use Copilot in time entry (preview)
       href: time/copilot-in-time-entry.md
