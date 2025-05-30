@@ -38,7 +38,7 @@ To enable Time Entry Calendar, follow these steps.
 1. Select **Enable Time Entry Calendar (Preview) feature**, and then select **OK**.
 1. If instead you see the text **Disable Time Entry Calendar (Preview) feature**, it implies that the feature is already enabled.
 
-Once this feature is enabled, a new menu item named **Calendar** will be visible under the **My Work** section of the Project Operations and Team Member apps.
+Once this feature is enabled, a new menu item named **Calendar** is visible under the **My Work** section of the Project Operations and Team Member apps.
 
 :::image type="content" source="../media/1calendarmenuitem.png" alt-text="Screenshot that shows the new Calendar menu item.":::
 
@@ -47,7 +47,7 @@ Once this feature is enabled, a new menu item named **Calendar** will be visible
 To view time entries using the calendar interface, follow these steps:
 1. Ensure the **Time Entry Calendar feature** is enabled as per the previous section.
 2. Under the **My Work** section, select **Calendar**.
-3. The Time Entry Calendar will load for the current work week.
+3. The Time Entry Calendar loads for the current work week.
 4. Time entries will be visible as calendar entries, with the title of each entry as the **Project Task** name and **Project** name right below it along with **Duration**.
 > [!NOTE]
 > Details like Duration, Entry Status or even Project Name **may be hidden** for time entries with shorter durations, but can be viewed by using the tool-tip mentioned later in this article.
@@ -65,9 +65,9 @@ To view time entries using the calendar interface, follow these steps:
 
 ### View external comments from the calendar
 
-- Time entries with either the **External Comment** or **Description** fields populated, have a blue icon (similar to the time entry grid) to indicate this on the top-right of the entry.
+- Time entries with either the **External Comment** or **Description** populated have a blue icon (similar to the time entry grid) to indicate this on the top-right of the entry.
 - To view the comment or description, hover the cursor over an entry. Doing so, brings up a **tool-tip section** _(see image)_ that covers all populated fields for that time entry. 
-   - If an **External Comment** or **Description** is entered then they will show up as the title of this section.
+   - If an **External Comment** or **Description** is entered, then they show up as the title of this section.
 
 :::image type="content" source="../media/tooltipdetails.png" alt-text="Screenshot that shows a tooltip to view external comments and other time entry fields.":::
 
@@ -79,14 +79,14 @@ Time entries can be created from the calendar in two ways:
 
 ### Creating a time entry using quick create form
 
-- Click any grid element on the calendar that is empty. This will open a pop-up form titled **Create New Entry**.
-- The **Date** and **Start Time** will be set depending on which grid element was clicked.
-   - _For example, if a user clicks the blank grid element that starts at 1 pm on 26th May then Date and Start Time will be defaulted with these values._
+- Click any grid element on the calendar that is empty. This step opens a pop-up form titled **Create New Entry**.
+- The **Date** and **Start Time** are set depending on which grid element was clicked.
+   - _For example, if a user clicks the blank grid element that starts at 1 pm on 26th May then Date and Start Time are defaulted with these values._
 - By default, **Duration** is set to **30 minutes** when the user just clicks any of the empty grid elements. 
    - To set a different Duration, the user can alternatively **click + drag** an empty section of the calendar to a desired duration _(For example, 3 hours)_ and the Duration field will be defaulted with that value instead of just 30 minutes.
-- On the left side of this form, you will find a list of fields similar to the usual Quick Create form.
+- On the left side of this form, you find a list of fields similar to the usual Quick Create form.
 
-A **new section** will be visible on the right side of this form _(see image)_, where users can see a list of Projects that they're actively assigned to on one or more Project Tasks.
+A **new section** is visible on the right side of this form _(see image)_, where users can see a list of Projects that they're actively assigned to on one or more Project Tasks.
 
  :::image type="content" source="../media/calendarqcform.png" alt-text="Screenshot that shows the Create Time Entry form.":::
 
@@ -97,7 +97,7 @@ A **new section** will be visible on the right side of this form _(see image)_, 
 - Click **Save** after populating all the necessary fields, to finally create the time entry.
 
 > [!NOTE]
-   > Only Projects and Tasks that have an **active assignment on the Date for which time is being logged**, will be visible and can be populated using the Create New Entry form. 
+   > Only Projects and Tasks that have an **active assignment on the Date for which time is being logged**, are visible and can be populated using the Create New Entry form. 
    > This implies that any assignments on a **task that has already completed or is yet to begin**, **can not be selected** using the Time Entry Calendar. For such scenarios, **switch to** the standard **Time Entry Grid**.
 
 
@@ -105,27 +105,27 @@ A **new section** will be visible on the right side of this form _(see image)_, 
 
 The Time Entry Calendar also introduces more **intuitive copying** of time entry records. Follow these steps to copy one or more entries:
 - Select the time entry that needs to be copied.
-- Use the standard **Ctrl + C** shortcut to copy the entry _(this is currently the only way to trigger a copy)_.
+- Use the standard **Ctrl + C** shortcut to copy the entry _(this shortcut is currently the only way to trigger a copy)_.
 - Identify the target date and time where this entry is to be copied.
 - Select a grid element or **click + drag** an empty section of the calendar to set that that as the position where you'd like to paste the entry.
 - Use the standard **Ctrl + V** shortcut to paste the entry.
-- This can also be done by selecting more than one time entry using **Ctrl + click** as mentioned in early sections.
+- Copying can also be done by selecting more than one time entry using **Ctrl + click** as mentioned in early sections.
 
 #### Fields populated for copied entries
 - **Time Entry Details:** Copying a time entry copies all the fields that are populated on the visible time entry form _(Project, Task, Role, Description, etc)_.
 - **Duration** for the pasted entries is decided based on the target position that was identified. This is set to either **30 minutes** if a single calendar element was selected, or a **larger duration** if an empty section of the calendar was selected using **click + drag** before pasting the entries.
 
 > [!NOTE]
-> If multiple entries are copied and pasted at a target position, all of the new entries will share the same Start and End times (and Duration). 
+> If multiple entries are copied and pasted at a target position, all of the new entries share the same Start and End times (and Duration). 
 
 ## Modify time entries from the calendar
 
 Time entries can be modified from the calendar in two ways:
 1. **Moving or Resizing an entry**: 
-   - Calendar entries can be **moved from one position to another** _(including a different date) _by clicking and moving the entry to the desired area on the calendar. This will update the **Start, End Times** or **Date** field (if moved to a different day), depending on how the entry has been repositioned.
+   - Calendar entries can be **moved from one position to another** _(including a different date) _by clicking and moving the entry to the desired area on the calendar. This updates the **Start, End Times** or **Date** field (if moved to a different day), depending on how the entry is repositioned.
    - Similarly, calendar entries can be **resized** by using the indicators at the top or bottom of an entry to **increase or decrease their Duration**.
 2. **Editing fields using a form**:
-   - Double clicking an editable entry will open a similar pop-up form titles **Edit Time Entry**.
+   - Double clicking an editable entry opens a similar pop-up form titles **Edit Time Entry**.
    - All fields corresponding to the time entry can be modified, before selecting **Save**.
   
 > [!NOTE]
@@ -145,7 +145,7 @@ Time entries can be modified from the calendar in two ways:
 - Select _(single click)_ a Draft or Returned time entry.
 - To select **multiple entries**, use **Ctrl + Click** to continue selecting other entries as well.
 - Click **Submit** buttons from the top ribbon.
-- In a few moments, the selected entry or entries will be submitted and the colour will change to Blue.
+- In a few moments, the selected entry or entries will be submitted and the colour changes to Blue.
 
 ### Recall one or more time entries
 - Select _(single click)_ a Submitted or Approved time entry.
