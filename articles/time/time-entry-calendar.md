@@ -1,14 +1,14 @@
 ---
-title: New Time Entry Calendar interface (Preview)
+title: Time Entry Calendar interface (preview)
 description: This article explains how team members can use interact with their time entries using a new, calendar interface.
 author: mohitmenon
-ms.date: 05/29/2025
+ms.date: 06/03/2025
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Overview of the Time Entry Calendar (Preview)
+# Time Entry Calendar interface overview (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
