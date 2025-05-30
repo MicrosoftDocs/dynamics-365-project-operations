@@ -57,7 +57,7 @@ To view time entries using the calendar interface, follow these steps:
    - **Blue:** _Submitted_ and _Recall Requested_
    - **Green:** _Approved_
 
-:::image type="content" source="../media/2viewentries.png" alt-text="Screenshot that shows some sample time entrie when viewed using the calendar interface.":::
+:::image type="content" source="../media/2viewentries.png" alt-text="Screenshot that shows some sample time entries when viewed using the calendar interface.":::
 
 
 > [!NOTE]
@@ -66,8 +66,10 @@ To view time entries using the calendar interface, follow these steps:
 ### View external comments from the calendar
 
 - Time entries with either the **External Comment** or **Description** fields populated, have a blue icon (similar to the time entry grid) to indicate this on the top-right of the entry.
-- To view the comment or description, hover the cursor over an entry. Doing so, brings up a tool-tip section that covers all populated fields for that time entry. 
+- To view the comment or description, hover the cursor over an entry. Doing so, brings up a **tool-tip section** _(see image)_ that covers all populated fields for that time entry. 
    - If an **External Comment** or **Description** is entered then they will show up as the title of this section.
+
+:::image type="content" source="../media/tooltipdetails.png" alt-text="Screenshot that shows a tooltip to view external comments and other time entry fields.":::
 
 ## Create new time entries from the calendar
 
