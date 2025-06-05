@@ -1,1 +1,49 @@
+---
+title: Project Operations Actuals Synchronization & Reconciliation
+description: Learn about the Project Operations Actuals Synchronization & Reconciliation Framework, which helps identify and address integration challenges that are related to project actuals and transaction connection entities.
+author: mukumarm
+ms.date: 06/05/2025
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: mukumarm
+ms.search.form: ProjTroubleshootingWorkspace
 
+# Project Operations Actuals Synchronization & Reconciliation
+
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+
+This article provides information about the **Project Operations Actuals Synchronization & Reconciliation**. This workspace helps you identify and address integration challenges that are related to project actuals and tranaction connections. you can identify and fix dual-write synchronization issues that are related to Actuals or transaction connections.To support troubleshooting, it also allows you to initiate a resynchronization of actuals or transaction connections, which in turn facilitates the generation and posting of integration journal lines.  
+
+## Prerequisites
+### Minimum versions required
+
+To use the feature for Dynamics 365 Project Operations for resource/non-stocked based scenarios, you must have the following versions:
+
+- Project Operations Dataverse version 4.142.0.x or later
+- Finance version 10.0.43 or later
+
+### Dual write maps
+
+| Required dual-write map | Required version |
+|---|---|
+| Project Operations integration actuals (msdyn_actuals) | 1.0.0.8 |
+
+## Missing actuals
+
+To resolve synchronization issues with **Actuals** or **Transaction connections** that were previously unsynced, a new form called **DW Missing Actuals** has been added under the **settings section**. This form displays actuals for which the **Project integration journal** or **Project invoices** have not yet been posted in D365 Finance or **Actuals** are not synchornized to **D365 Finance** and **Project integration journal** or **project invoice lines** are not created for missing records.
+
+A filter has been applied to the **Actuals** entity to show only those records where a **voucher** is missing—since each actual record should have a generated and posted voucher.
+
+Because the **Project Operations Integration Journal** is posted in **D365 Finance** on a **recurring schedule**, there may be cases where actuals are synchronized correctly, but the journal has not yet been posted. Therefore, it is recommended to **wait** for the posting of either the Project Operations Integration Journal or the Project Invoice before **restarting** the sync process.
+
+To view the **Actuals** which are yet to be processed in **D365 Finance**:
+
+1. Navigate to the **Settings** section.
+2. Select **DW Missing Actuals** in the **troubleshooting** area.
+3. Review the displayed records—these represent actuals without a posted voucher.
+
+If issues are identified during the generation of the integration journal for actuals—such as missing actuals or missing transaction connections in D365 Finance—you can re-sync the actuals to D365 Finance. This ensures that the Project Integration Journal or Project Invoices can be successfully created and processed.
