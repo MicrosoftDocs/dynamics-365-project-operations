@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 01/15/2025
+ms.date: 06/03/2025
 ms.topic: whats-new
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
 ---
@@ -27,6 +27,7 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Version | Build number | Autoupdate availability | Learn more |
 |---------|--------------|---------------|-------------|
+| Dataverse 4.141.0.975 </br> Finance 10.0.43 |    | May 2025    | [Project Operations for resource/non-stocked based scenarios](whats-new-may-2025-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-may-2025-lite.md) |
 | Dataverse 4.140.0.239 </br> Finance 10.0.43 |    | April 2025    | [Project Operations for resource/non-stocked based scenarios](whats-new-apr-2025-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-apr-2025-lite.md) |
 | Dataverse 4.124.0.1450 </br> Finance 10.0.42 |    | February 2025    | [Project Operations for resource/non-stocked based scenarios](whats-new-feb-2025-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-feb-2025-lite.md) |
 | Dataverse 4.123.0.X </br> Finance 10.0.42 |    | January 2025    | [Project Operations for resource/non-stocked based scenarios](whats-new-jan-2025-resource-based.md) </br> [Project Operations lite deployment](../pro/whats-new/whats-new-jan-2025-lite.md) |
