@@ -1,6 +1,6 @@
 ---
 title: Time Entry Calendar interface (preview)
-description: This article explains how team members can interact with their time entries using a new calendar interface.
+description: This article explains how team members can interact with their time entries by using a new calendar interface.
 author: mohitmenon
 ms.date: 06/03/2025
 ms.topic: how-to
@@ -14,220 +14,215 @@ ms.author: mohitmenon
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
 
-The Time Entry Calendar interface provides users with a new way to view and interact with their time entries. This interface introduces more intuitive ways of creating and editing time entries. In addition, users also get to display their time entries over various time horizons from Daily, Weekly, and Monthly views.
+The Time Entry Calendar interface gives users a new way to view and interact with their time entries. It introduces more intuitive ways of creating and editing time entries. In addition, users can show their time entries over various time horizons from **Daily**, **Weekly**, and **Monthly** views.
 
-This overview consists of the following sections:
+This article provides an overview of the interface and explains how to complete the following tasks:
 
-- Enabling the Time Entry Calendar feature
-- View existing entries on the calendar
-- Create new time entries
-- Modify existing time entries
-- Submit, Recall, or Delete time entries
-- Switch time horizons from the calendar
-- Get visual snapshots and filter time entries
+- Enable the Time Entry Calendar feature.
+- View existing entries on the calendar.
+- Create new time entries.
+- Modify existing time entries.
+- Submit, recall, and delete time entries.
+- Switch time horizons from the calendar.
+- Get visual snapshots and filter time entries.
 
+## Enable the Time Entry Calendar
 
-## Enable the Time Entry Calendar 
+To enable the Time Entry Calendar, follow these steps.
 
-To enable Time Entry Calendar, follow these steps.
-
-1. Ensure your Project Operations environment is updated to version **4.141.0.X or higher**, since the Time Entry Calendar isn't available on earlier versions.
-1. Sign in to Dynamics 365 Project Operations as a System Administrator.
-1. On the left navigation, change the area to **Settings**.
+1. Ensure that your Microsoft Dynamics 365 Project Operations environment is updated to version **4.141.0.X or later**. The Time Entry Calendar isn't available in earlier versions.
+1. Sign in to Project Operations as a system administrator.
+1. In the left pane, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
 1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
 1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
-1. Select **Enable Time Entry Calendar (Preview) feature**, and then select **OK**.
-1. If instead you see the text **Disable Time Entry Calendar (Preview) feature**, it implies that the feature is already enabled.
+1. Select **Enable Time Entry Calendar (Preview) feature**, and then select **OK**. If the text **Disable Time Entry Calendar (Preview) feature** is shown instead, the feature is already enabled.
 
-Once this feature is enabled, a new menu item named **Calendar** is visible under the **My Work** section of the Project Operations and Team Member apps.
+After the feature is enabled, a new menu item that is named **Calendar** appears in the **My Work** section of the Project Operations and Team Member apps.
 
 ## View existing entries on the calendar
 
-To view time entries using the calendar interface, follow these steps.
+To view time entries in the Time Entry Calendar interface, follow these steps.
 
-1. Ensure the **Time Entry Calendar feature** is enabled as per the previous section.
-1. Under the **My Work** section, select **Calendar**.
-1. The Time Entry Calendar loads for the current work week.
-1. Time entries are visible as calendar entries, with the title of each entry as the **Project Task** name and **Project** name right below it along with **Duration**.
+1. Ensure that the Time Entry Calendar feature is enabled as described in the previous section.
+1. In the **My Work** section, select **Calendar**. The Time Entry Calendar interface is loaded for the current work week.
 
-   > [!NOTE]
-   > Details like Duration, Entry Status, or even Project Name **may be hidden** for time entries with shorter durations, but can be viewed by using the tool-tip mentioned later in this article.
+Time entries appear as calendar entries. For each time entry, the project task name is shown as the title. Below the project task name appear the project name, then the duration, and then the entry status.
 
-1. The calendar entries are color coded based on time entry status with the default colors as:
-   - **Yellow:** _Draft_ and _Returned_
-   - **Blue:** _Submitted_ and _Recall Requested_
-   - **Green:** _Approved_
+> [!TIP]
+> For time entries that have a shorter duration, details such as the entry status, duration, or even the project name might be hidden. However, you can view all the details of any time entry by hovering over it to open a tooltip. Learn more in the [View external comments and descriptions from the calendar](#view-external-comments-and-descriptions-from-the-calendar) section.
 
-   > [!NOTE]
-   > While viewing time entries on the calendar that were originally created using the Time Entry Grid, users may have to **scroll to the top** since Project Operations sets **default start time as midnight (12 am)** when no start time is explicitly mentioned. 
+The calendar entries are color-coded, based on the time entry status. By default, the following colors are used.
 
-### View external comments from the calendar
+| Color | Status |
+|---|---|
+| Yellow | **Draft** or **Returned** |
+| Blue | **Submitted** or **Recall Requested** |
+| Green | **Approved** |
 
-- Time entries with either the **External Comment** or **Description** populated have a blue icon (similar to the time entry grid) to indicate this on the top-right of the entry.
-- To view the comment or description, hover the cursor over an entry. Doing so, brings up a **tool-tip section** _(see image)_ that covers all populated fields for that time entry. 
-   - If an **External Comment** or **Description** is entered, then they show up as the title of this section.
+> [!NOTE]
+> If the time entries that you're viewing on the calendar were originally created by using the standard time entry grid, and no start time was explicitly set for them, Project Operations assigns a default start time of 12:00 AM (midnight). Therefore, you might have to scroll to the top of the calendar to view these entries.
 
-   :::image type="content" source="../media/tooltipdetails.png" alt-text="Screenshot that shows a tooltip to view external comments and other time entry fields.":::
+### View external comments and descriptions from the calendar
+
+If either the **External Comment** field or the **Description** field is set for a time entry, a dark blue triangle appears in the upper-right corner. To view the external comment or description, hover over the entry to open a tooltip. The tooltip shows all field values that are set for the time entry, including any external comment and description. The external comment or description is shown as the title of the tooltip.
+
+:::image type="content" source="../media/tooltipdetails.png" alt-text="Screenshot that shows the tooltip for a time entry that an external comment and description were entered for. The tooltip also includes the project, project task, duration, role, and entry status for the entry.":::
 
 ## Create new time entries from the calendar
 
 Time entries can be created from the calendar in two ways:
 
-- Creating a time entry using the **New Time Entry form** (quick create form) OR
-- By copying an existing time entry
+- Create a brand-new time entry by using the **Create Time Entry** dialog (quick create dialog).
+- Copy an existing time entry.
 
-### Creating a time entry using quick create form
+### Create a time entry by using the quick create dialog
 
-- Select any grid element on the calendar that is empty. This step opens a pop-up form titled **Create New Entry**.
-- The **Date** and **Start Time** are set depending on which grid element was selected.
-   - _For example, if a user selects the blank grid element that starts at 1 pm on May 26 then Date and Start Time are defaulted with these values._
-- By default, **Duration** is set to **30 minutes** when the user just selects any of the empty grid elements. 
-   - To set a different Duration, the user can alternatively **click + drag** an empty section of the calendar to a desired duration _(For example, 3 hours)_ and the Duration field defaults with that value instead of just 30 minutes.
-- On the left side of this form, you find a list of fields similar to the usual Quick Create form.
+Select any blank grid element on the calendar. Alternatively, you can select a blank section of the calendar and drag it until it has the required duration. In both cases, a quick create dialog that is named **Create Time Entry** appears.
 
-A **new section** is visible on the right side of this form, where users can see a list of Projects that they're actively assigned to on one or more Project Tasks.
+- In the **Start** field on the left side of the dialog, the start date and time are set based on the grid element that you selected. For example, if you selected a blank grid element that starts at 1:00 PM on May 26, 2025, the **Start** field reflects those values (**5/26/2025 1:00 PM**).
+- If you selected an empty grid element, the **Duration** field is set to 30 minutes (**0h:30m**) by default. If you dragged a section of the calendar to a specific duration (for example, three hours), the **Duration** field is set to that duration instead of 30 minutes.
+- The **End** field reflects the start date and time plus the duration.
 
-- When you expand any of the Projects, a tree-like structure appears that highlights the assigned Project Tasks for this user.
-- Select the row below the Project Task name that mentions the Resource's name. Doing this selection, populates **Project**, **Project Task**, and **Role** fields based on the task assignment that was selected _(see image for an example of this)._
+The other fields on the left side of the dialog are similar to the fields in the usual quick create dialog.
 
-  :::image type="content" source="../media/calendarqcformtasks.png" alt-text="Screenshot that shows how Project, Task and Role fields get populated by selecting a task assignment.":::
-- Select **Save** after populating all the necessary fields, to finally create the time entry.
+The new grid on the right side of the dialog shows projects where you're actively assigned to one or more project tasks. You can use this grid to quickly fill in some of the fields on the left side of the dialog.
 
-   > [!NOTE]
-   > Only Projects and Tasks that have an **active assignment on the Date for which time is being logged**, are visible and can be populated using the Create New Entry form. 
-   > This implies that any assignments on a **task that has already completed or is yet to begin**, **can not be selected** using the Time Entry Calendar. For such scenarios, **switch to** the standard **Time Entry Grid**.
+- When you expand the row for a project, a tree-like structure appears and shows the project tasks that are assigned to you.
+- Below the row for a project task name, select the row for the task assignment (that is, the row that mentions the project resource name). Notice that the **Project**, **Project Task**, and **Role** fields on the left side of the dialog are automatically populated based on the selected task assignment.
 
+:::image type="content" source="../media/calendarqcformtasks.png" alt-text="Screenshot that shows the Create Time Entry dialog, where the Project, Project Task, and Role fields on the left side are populated based on a task assignment that is selected on the right side.":::
 
-### Copying one or more existing entries
+> [!NOTE]
+> The **Create Time Entry** dialog shows only projects and tasks that have an active assignment on the date that time is being logged for. Therefore, it can be used to populate information only for those projects and tasks. If a task has already been completed or hasn't yet been started, you can't use the Time Entry Calendar to select any assignments for it. For these scenarios, switch to the standard time entry grid.
 
-The Time Entry Calendar also introduces more **intuitive copying** of time entry records. Follow these steps to copy one or more entries:
-- Select the time entry that needs to be copied.
-- Use the standard **Ctrl + C** shortcut to copy the entry _(this shortcut is currently the only way to trigger a copy)_.
-- Identify the target date and time where this entry is to be copied.
-- Select a grid element or **click + drag** an empty section of the calendar to set that that as the position where you'd like to paste the entry.
-- Use the standard **Ctrl + V** shortcut to paste the entry.
-- Copying can also be done by selecting more than one time entry using **Ctrl + click** as mentioned in early sections.
+When you finish setting the fields as required, select **Save** to create the time entry.
 
-#### Fields populated for copied entries
-- **Time Entry Details:** Copying a time entry copies all the fields that are populated on the visible time entry form _(Project, Task, Role, Description, etc.)_.
-- **Duration** for the pasted entries is decided based on the target position that was identified. This is set to either **30 minutes** if a single calendar element was selected, or a **larger duration** if an empty section of the calendar was selected using **click + drag** before pasting the entries.
+### Copy one or more existing entries
 
-   > [!NOTE]
-   > If multiple entries are copied and pasted at a target position, all of the new entries share the same Start and End times (and Duration). 
+The Time Entry Calendar introduces a more intuitive process for copying time entry records. Follow these steps to copy one or more entries.
+
+1. Select the time entry that must be copied. To copy multiple time entries at the same time, select <kbd>Ctrl</kbd> as you select each entry.
+1. Use the standard <kbd>Ctrl</kbd>+<kbd>C</kbd> keyboard shortcut to copy the selected entries.
+
+    > [!NOTE]
+    > This shortcut is currently the only way to trigger a copy operation.
+
+1. Identify the target date and time that the entries must be copied to.
+1. Select a grid element, or drag a blank section of the calendar to set the position where you want to paste the entries.
+1. Use the standard <kbd>Ctrl</kbd>+<kbd>V</kbd> keyboard shortcut to paste the entries.
+
+#### Information populated in copied entries
+
+- **Time entry details** – All the field values that are set in the visible time entry dialog are copied (for example, **Project**, **Task**, **Role**, and **Description**).
+- **Duration** – The duration of new entries depends on the target position that is selected. If you select a single grid element in the calendar before you paste the copied entry, the **Duration** field is set to 30 minutes. If you select a blank section of the calendar and then drag it to a specific duration, the **Duration** field is set to that duration.
+
+    > [!NOTE]
+    > If you copy multiple entries and paste them in a target position, all the new entries have the same start and end dates and times (and the same duration).
 
 ## Modify time entries from the calendar
 
-Time entries can be modified from the calendar in two ways:
+Time entries can be modified from the calendar in the following ways:
 
-- **Moving or Resizing an entry**: 
-   - Calendar entries can be **moved from one position to another** _(including a different date) _by selecting and moving the entry to the desired area on the calendar. This updates the **Start, End Times**, or **Date** field (if moved to a different day), depending on how the entry is repositioned.
-   - Similarly, calendar entries can be **resized** by using the indicators at the top or bottom of an entry to **increase or decrease their Duration**.
-- **Editing fields using a form**:
-   - Double clicking an editable entry opens a similar pop-up form titles **Edit Time Entry**.
-   - All fields corresponding to the time entry can be modified, before selecting **Save**.
-  
-   > [!NOTE]
-   > All read-only entries _(Submitted, Approved, Recall Requested)_ have a visible **lock icon** to indicate this property. Only entries without this icon can be edited in the ways mentioned here.
+- **Move an entry** – To move a calendar entry to a different position on the same date or a different date, select the entry, and then move it to the desired position on the calendar. The start and end dates and times are updated accordingly.
+- **Resize an entry** – To resize a calendar entry, use the indicator at the top or bottom of the entry to increase or decrease its duration. The start and end dates and times are updated accordingly.
+- **Edit fields by using a dialog** – Double-tap (or double-click) an editable entry to open a dialog that is named **Edit Time Entry**. This dialog resembles the **Create Time Entry** dialog. All fields for the time entry can be modified. When you finish, select **Save**.
 
-## Submit, Recall, or Delete time entries from the calendar
+    > [!NOTE]
+    > Entries that have a status of **Submitted**, **Approved**, or **Recall Requested** are read-only. A lock symbol on these entries indicates that they can't be edited.
+
+## Delete, submit, or recall time entries from the calendar
 
 ### Delete one or more time entries
 
 To delete one or more time entries, follow these steps.
 
-1. Select _(single click)_ a Draft or Returned time entry. To select **multiple entries**, use **Ctrl + Click** to continue selecting other entries as well.
-1. Select **Delete** buttons from the top ribbon.
-1. Confirmation is required before deleting records.
-1. Select **Delete** from the pop-up.
-
+1. Select a time entry that has a status of **Draft** or **Returned**. To delete multiple time entries at the same time, select <kbd>Ctrl</kbd> as you select each entry.
+1. Select **Delete**.
+1. In the message that appears, select **Delete** to confirm that you want to delete records.
 
 ### Submit one or more time entries
 
 To submit one or more time entries, follow these steps.
 
-1. Select _(single click)_ a Draft or Returned time entry. To select **multiple entries**, use **Ctrl + Click** to continue selecting other entries as well.
-1. Select **Submit** buttons from the top ribbon. In a few moments, the selected entry or entries are submitted and the color changes to Blue.
+1. Select a time entry that has a status of **Draft** or **Returned**. To submit multiple time entries at the same time, select <kbd>Ctrl</kbd> as you select each entry.
+1. Select **Submit**. After a short time, the selected entries are submitted, the status is updated to **Submitted**, and the color is changed to blue on the calendar.
 
 ### Recall one or more time entries
 
 To recall one or more time entries, follow these steps.
 
-1. Select _(single click)_ a Submitted or Approved time entry. To select **multiple entries**, use **Ctrl + Click** to continue selecting other entries as well.
-1. Select **Recall** buttons from the top ribbon. If one of the selected entries was in **Approved** state, a pop-up asking for a reason for recall is displayed. Enter the reason and Select **Yes**.
- 
+1. Select a time entry that has a status of **Submitted** or **Approved**. To recall multiple time entries at the same time, select <kbd>Ctrl</kbd> as you select each entry.
+1. Select **Recall**.
+1. If any selected entry has a status of **Approved**, a dialog asks you to provide a reason for the recall. Enter a reason, and then select **Yes**.
+
 ## Switch time horizons on the calendar
 
-By default, time entries are displayed in a **Weekly** view, similar to the time entry grid experience. However, the Time Entry Calendar comes with the ability to switch between Daily, Weekly, Monthly and an "Agenda" view by using the **View picker** (drop-down). 
+By default, time entries are shown in a **Weekly** view. This experience is similar to the experience in the standard time entry grid. However, the Time Entry Calendar provides a view picker (dropdown menu) that you can use to switch between **Daily**, **Weekly**, **Monthly**, and **Agenda** views.
 
-:::image type="content" source="../media/viewpicker.png" alt-text="Screenshot that shows the view picker to switch time horizons.":::
+:::image type="content" source="../media/viewpicker.png" alt-text="Screenshot that shows the view picker expanded to show the different view options that are available for selection.":::
 
-- **Weekly View**: Default view that displays all time entries for the current week and lets users navigate to other weeks using the calendar control or next, previous buttons.
+- **Weekly view** – This view is the default view. It shows all time entries for the current week. You can go to other weeks by using the calendar control or the **Next** (right arrow) and **Previous** (left arrow) buttons.
 
-   > [!NOTE]
-   > The Weekly view also adheres to organization settings for Start and End days of a week.
-   
-- **Agenda View**: This view displays a condensed version of the weekly view, with a title given to each time entry based on the **Description** field. If no description is entered for an entry, then the title is blank.
-- **Daily View**: This view displays time entries one day at a time and users can switch to next and previous days or pick a specific day via the calendar control.
-- **Monthly View**: This view displays all time entries across the calendar month, with a cell or grid element visible for each day of the month.
+    > [!NOTE]
+    > The **Weekly** view adheres to organization's settings for the start and end days of a week.
 
-:::image type="content" source="../media/monthlyview.png" alt-text="Screenshot that shows the monthly view of the calendar interface.":::
+- **Agenda view** – This view shows a condensed version of the **Weekly** view. In this view, the title of each time entry is based on the value of the **Description** field. If no description is entered for an entry, the title is blank.
+- **Daily view** – This view shows time entries for one day at a time. You can go to other days by using the calendar control or the **Next** (right arrow) and **Previous** (left arrow) buttons.
+- **Monthly view** – This view shows all time entries for the calendar month. It includes a cell or grid element for each day of the month. You can go to other months by using the calendar control or the **Next** (right arrow) and **Previous** (left arrow) buttons.
 
+    :::image type="content" source="../media/monthlyview.png" alt-text="Screenshot that shows an example of the Monthly view in the Time Entry Calendar interface.":::
 
 ## View target hours and filter time entries
 
 ### Get a visual snapshot of target hours
 
-The Time Entry Calendar interface also provides users with the ability to track how many hours they're supposed to log by comparing their total hours with "Target" hours, based on their working hours configured in Project Operations. 
+The Time Entry Calendar interface helps you track the number of hours that you should log by comparing your total hours with your target hours. Target hours are based on the working hours that are configured for you in Project Operations.
 
 To view the visual snapshot, follow these steps.
 
-1. Navigate to the **Time Entry Calendar** for the desired week.
-1. Expand the collapsed **Charts** section.
-1. First, a **Weekly Snapshot** provides the total hours logged for the week and compares it with the Target for that week.
-1. Next, a visualization provides a daily comparison between hours logged and the target hours for each day.
-1. This snapshot updates to show **Daily** and **Monthly** comparisons as well, when the user changes the timeline.
+1. Go to the Time Entry Calendar for the desired week.
+1. Expand the **Charts** section.
+
+    - First, the **Weekly Snapshot** section shows the total hours that were logged for the week and compares them with the target hours for that week.
+    - Next, a visualization provides a daily comparison between logged hours and target hours for each day of the week.
+    - When you change the timeline, the snapshot is updated to show a daily or monthly comparison.
 
 ### Filter time entries by type or status
 
-To filter time entries by type or status, follow these steps.
+When the **Charts** section is expanded, a **Legend for calendar entries** section appears at the bottom. In the legend, you can select or clear the selection of specific **Entry Status** or **Type** values to filter the time entries on the calendar.
 
-1. With the Charts section open, a **Legend for calendar entries** is displayed at the bottom.
-1. This section allows users **select or hide** the **Entry Status** for which they want to filter time entries.
-1. Doing so immediately updates which time entries are visible on the calendar and updates the snapshot comparison immediately as well.
-1. Similarly, users can **check or uncheck** the **Type** of time entries they want to filter by. The calendar and snapshot get updated immediately. 
+Application of a filter immediately updates which time entries are visible on the calendar. It also immediately updates the snapshot comparison.
 
-## Declutter mode (Preview only)
+## Declutter mode (preview only)
 
-Entries created using the standard Time Entry Grid experience without an explicit **Start time**, are defaulted to midnight (12 am) as their starting time. When such entries are viewed on the Time Entry Calendar, the visual experience can be impacted since **multiple time entries are cluttered together** at the start of the day (at 12 am). To make it easier to view existing time entries, use **Declutter mode**. 
+When time entries are created by using the standard time entry grid, if no start time is explicitly set for them, Project Operations assigns a default start time of 12:00 AM (midnight). This behavior can affect the visual experience when you view those time entries on the calendar, because multiple entries are clustered together at 12:00 AM for each day. To help you view these time entries, the Time Entry Calendar introduces a *declutter mode*.
 
-To use **Declutter mode**, follow these steps.
+In declutter mode, the time entries are no longer clustered at 12:00 AM. Instead, they are shown sequentially, starting at the beginning of your working hours. Note that declutter mode just *temporarily* changes where the time entries *appear* on the calendar, so that they are easier to view. It doesn't actually change the start time of the entries.
 
-1. Navigate to the Time Entry Calendar for the desired week.
-1. Confirm that one or more time entries that start at 12 am are visible on the calendar (see image for an example).
-1. By default, the **Declutter** **toggle** is disabled or set to **OFF**.
-1. Enable **Declutter** mode by switching **ON** the toggle _(see image for an illustration of this mode)_.
+To use declutter mode, follow these steps.
 
-   :::image type="content" source="../media/midnightentriesdecluttered.png" alt-text="Screenshot that shows decluttered display.":::
+1. Go to the Time Entry Calendar for the desired week.
+1. Confirm that one or more time entries that start at 12:00 AM are visible on the calendar.
+1. Turn on the **De-clutter** option. (By default, the option is turned off.)
 
-### **Declutter mode behavior**
+    The time entries for each day now appear sequentially, starting at the beginning of your working hours (8:00 AM in the following example).
 
-- **Which time entries get decluttered:** This mode only declutters or temporarily moves entries that **did not have an explicit Start Time** populated for them (all entries with Start Time as 12 am are decluttered here).
-- **How the new position of time entries is set:** The identified time entries are temporarily moved based on the user's working hours. Entries created first (based on **Created On** date) are stacked at the Start of the day, with the next entry immediately following the previous entry and so on.
-   - **For example:** _A user has working hours from 8 am to 5 pm. There are two time entries of two hours each that need to be decluttered. The entry that was created first gets displayed from 8 am to 10 am, followed by the next entry from 10 am to 12 pm._
-- **Existing entries with Start Time populated:** All existing time entries that had an explicit Start time populated are kept as is, so there isn't a change in their display or position on the calendar. 
+    :::image type="content" source="../media/midnightentriesdecluttered.png" alt-text="Screenshot that highlights location of the De-clutter option and shows the result of turning it on for a user whose working hours begin at 8:00 AM.":::
+
+### Declutter mode behavior
+
+- **Which time entries are decluttered** – Declutter mode affects the display only of time entries that have a start time of 12:00 AM because no start time was explicitly set for them. All existing time entries that a start time was explicitly set for remain as is. There is no change to their display or position on the calendar.
+- **How the new position of time entries is determined** – Affected time entries are shown in new positions, based on the user's working hours. The entries are arranged sequentially, based on their **Created On** value. The entry that was created first appears at the beginning of the user's working day. The next entry then immediately follows it.
+
+    For example, a user has working hours from 8:00 AM to 5:00 PM. Two time entries must be decluttered. Each entry has a duration of two hours. Therefore, the entry that was created first is shown from 8:00 AM to 10:00 AM, and the other entry is shown from 10:00 AM to 12:00 PM.
 
 ### Making changes to decluttered entries
 
-- The "Declutter" mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries.
-- However, if a user makes **any modifications** to time entries while they're in decluttered mode then the **new Start and End times are also saved** for those time entry records.
+Declutter mode just *temporarily* changes where time entries *appear* on the calendar, so that they are easier to view. It doesn't actually change the start time of the entries.
 
-> [!IMPORTANT]
-> The Declutter mode is only a **temporary** change in how the entries are displayed, to make it easier to view such entries. Don't make changes to time entries in this mode because doing so modifies their Start and End times as mentioned in the previous section.
+However, if you make and save any changes to a time entry while it's shown in its decluttered position, new start and end times that reflect that position are saved for the time entry record.
 
+**Therefore, we don't recommend that you make changes to time entries while declutter mode is turned on.**
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
-
-
-
-
