@@ -51,3 +51,4 @@ To perform the **re-sync**, use the **Sync actuals** button available on the **O
 
 Because the **Project Operations Integration Journal** is posted in **D365 Finance** on a **recurring schedule**, there may be cases where actuals are synchronized correctly, but the journal has not yet been posted. Therefore, it is recommended to **wait** for the posting of either the Project Operations Integration Journal or the Project Invoice before **restarting** the sync process.
 
+![Screenshot that shows the Summary tab in the Project Operations integration workspace.](../../../articles/media/ProjOpsIntegrationWorkspaceSummary.png)
