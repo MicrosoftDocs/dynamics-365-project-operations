@@ -3,8 +3,8 @@ title: Project Operations Dual-write map versions
 description: This article provides the list of Dual-write maps required for Dynamics 365 Project Operations.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 02/21/2025
-ms.topic: conceptual
+ms.date: 04/25/2025
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -98,7 +98,7 @@ The table below shows the maps required for the Project Operations solution. Ens
 | Project resource roles for all companies (bookableresourcecategories) | 1.0.0.1 | Requires an initial synchronization for the table map to sync the Project Manager and Team member resource roles that are populated in the Dynamics 365 Dataverse environment during provisioning. Dataverse is the main source for the initial synchronization. ||
 | Integration entity for project transaction relationships (msdyn\_transactionconnections) | 1.0.0.0 | Not required for provisioning. ||
 | Project contract headers (salesorders) | 1.0.0.1 | Not required for provisioning. ||
-| Project contract lines (salesorderdetails) | 1.0.0.0 | Not required for provisioning. ||
+| Project contract lines (salesorderdetails) | 1.0.0.1 | Not required for provisioning. | 10.0.42 or later |
 | Project funding source (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Not required for provisioning. ||
 | Projects V2 (msdyn\_projects) | 1.0.0.2 | Not required for provisioning. ||
 | Project tasks (msdyn\_projecttasks) | 1.0.0.4 | Not required for provisioning. ||
@@ -107,13 +107,13 @@ The table below shows the maps required for the Project Operations solution. Ens
 | Project invoice proposals V2 (invoices) | 1.0.0.3 | Not required for provisioning. ||
 | Project Operations integration actuals (msdyn_actuals) | 1.0.0.18 | Not required for provisioning. |10.0.39 or later|
 | Project Operations integration contract line milestones (msdyn_contractlinescheduleofvalues) | 1.0.0.6 | 10.0.42 or later ||
-| Project Operations integration entity for expense estimates (msdyn_estimatelines) | 1.0.0.2 | Not required for provisioning. ||
+| Project Operations integration entity for expense estimates (msdyn_estimatelines) | 1.0.0.3 | Not required for provisioning. | 10.0.42 or later |
 | Project Operations integration entity for hour estimates (msdyn_resourceassignments) | 1.0.0.6 | Not required for provisioning. |10.0.38 or later|
 | Project Operations integration project expense categories export entity (msdyn_expensecategories) | 1.0.0.1 | Not required for provisioning. ||
-| Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.3 | Not required for provisioning. ||
+| Project Operations integration project expenses export entity (msdyn_expenses) | 1.0.0.5 | Not required for provisioning. | 10.0.42 or later |
 | Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices) | 1.0.0.2 | Not required for provisioning. |10.0.29 or later|
-| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.7 | Not required for provisioning. | 10.0.39 or later |
-| Project Operations integration project vendor invoice export entity V2 (msdyn\_projectvendorinvoices) | 1.0.0.0 | Not required for provisioning.  ||
+| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.8 | Not required for provisioning. | 10.0.42 or later |
+| Project Operations integration project vendor invoice export entity V2 (msdyn_projectvendorinvoices) | 1.0.0.1 | Not required for provisioning.  | 10.0.42 or later |
 
 
 Complete the following steps to run the listed maps.

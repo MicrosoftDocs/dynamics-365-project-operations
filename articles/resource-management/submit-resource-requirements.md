@@ -4,7 +4,7 @@ description: You can submit a generated resource requirement as a resource reque
 author: tulsij
 ms.author: tulsijhaveri
 ms.date: 05/28/2024
-ms.topic: article
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

@@ -2,7 +2,7 @@
 title: Approvals overview
 description: This article provides information about working with approvals in Project Operations.
 author: suvaidya
-ms.date: 03/31/2021
+ms.date: 04/17/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -28,7 +28,7 @@ The **Approvals** page allows you to switch between different views so that you 
 1. Go to the **Approvals** page and select **Expenses**, **Time**, **Material Usage**, or **Recalls**.
 2. Review each approval, and select the ones you want to approve.
 3. Select **Approve** to approve the selected entries.
-The system processes these entries and create actuals.
+The system processes these entries and creates actuals.
 
 ## Reject an entry
 As the Project approver, you may have to send an entry back to a user for correction.
@@ -44,6 +44,9 @@ In some cases, you might need to cancel a previously approved entry. Canceling a
 ## Approving recall requests
 In some cases, a consultant may need to recall a previously approved entry. Canceling a previously approved entry will have a financial impact. The project approver is required to approve the recall to reverse the transaction in Actuals.
 
+> [!NOTE]
+> Depending on the view, some actions (approve, reject, or cancel) may not appear on the ribbon.
+
 ## Specify Project approvers
 Each project has a number of project team members. You can specify which team members are also Project approvers.
 
@@ -51,7 +54,7 @@ Each project has a number of project team members. You can specify which team me
 2. On the **Team** tab, select the team member who will be a Project approver and then select **Edit**.
 3. Set the **Project Approver** field to **Yes**.
 4. Select **Save**.
-5. Repeat steps 2-4 to add additional Project approvers.
+5. Repeat steps 2-4 to add more Project approvers.
 
 ## Configure the user's manager
 

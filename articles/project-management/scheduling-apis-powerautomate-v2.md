@@ -3,7 +3,7 @@ title: Use V2 Project schedule APIs with Power Automate
 description: This article provides a sample flow that uses the V2 Project schedule APIs.
 author: abriccetti
 ms.date: 09/20/2023
-ms.topic: article
+ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---

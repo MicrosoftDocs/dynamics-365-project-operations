@@ -4,7 +4,7 @@ description: This article provides information about the per diem rules that are
 author: mukumarm
 ms.author: mukumarm
 ms.date: 05/24/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

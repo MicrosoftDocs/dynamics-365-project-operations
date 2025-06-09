@@ -3,7 +3,7 @@ title: Project opportunity lines
 description: This article provides information about project-based opportunity lines. (Pro)
 author: rumant
 ms.date: 12/03/2022
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

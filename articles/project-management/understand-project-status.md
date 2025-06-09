@@ -3,7 +3,7 @@ title: Understand project status
 description: This article provides information about the status assigned to projects in Dynamics 365 Project Operations. 
 author: ruhercul
 ms.date: 10/16/2023
-ms.topic: article
+ms.topic: concept-article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---

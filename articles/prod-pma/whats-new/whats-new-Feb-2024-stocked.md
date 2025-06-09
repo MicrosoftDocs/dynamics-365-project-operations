@@ -3,7 +3,7 @@ title: What's new or changed in Project Operations, February 2024 for stocked/pr
 description: This article provides information about the quality updates that are available in the February 2024 release of Microsoft Dynamics 365 Project Operations for stocked/production-based scenarios.
 author: tulsijhaveri
 ms.date: 2/20/2024
-ms.topic: article
+ms.topic: whats-new
 ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---

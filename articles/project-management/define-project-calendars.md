@@ -5,7 +5,7 @@ title: Define and edit project calendars
 description: This article provides information about how to apply a calendar template to a project to track the project schedule.
 author: abriccetti
 ms.date: 11/13/2023
-ms.topic: article
+ms.topic: how-to
  
 #
 

@@ -4,7 +4,7 @@ description: Get an overview of discounts and fees in Microsoft Dynamics 365 Pro
 author: mukumarm
 ms.author: mukumarm
 ms.date: 09/23/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

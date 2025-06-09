@@ -4,14 +4,14 @@ description: Learn about the Journal line improvements feature in Microsoft Dyna
 author: mukumarm
 ms.author: mukumarm
 ms.date: 09/24/2024
-ms.topic: conceptual
+ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
 ---
 # Journal line improvements
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
 
 The **Journal line improvements** feature enforces *business rules* to help prevent you from entering incorrect journal line entries. It also introduces new *validations* and automatically fills in dependent values, based on the transaction class and transaction type. The purpose of this feature is to enhance the **Quick create** dialog box for journal lines by adding validations and default logic for fields, and by improving the display of fields. In this way, it helps ensure that users enter data correctly.
 

@@ -4,7 +4,7 @@ description: This article provides details about processing customer-facing invo
 author: ryansandness
 ms.author: ryansandness
 ms.date: 09/13/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
