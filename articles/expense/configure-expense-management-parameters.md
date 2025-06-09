@@ -50,6 +50,7 @@ This article describes the parameters the control the general behavior in Expens
 | Allow travel requisition submit on budget overrun for budget register and project budget | Select this option to allow employees to submit travel requisitions for approval, even though they exceed either the allowed budget that is set in the budget register or the allowed budget for a project. |
 | Allow expense report submit on budget overrun for budget register and project budget     | Select this option to allow employees to submit expense reports for approval, even though they exceed either the allowed budget that is set in the budget register or the allowed budget for a project. |
 | Allow expense report approval on budget overrun for budget register only                 | Select this option to allow approvers to approve expense reports that exceed the allowed budget that is set in the budget register. |
+| Enable posting of expenses on posting date                                               | Select this option to post expenses using the posting date of the expense report. If the period is **on hold** or **closed** and **Correct accounting date during posting is enabled**, the system posts the expenses on the **first date of the next open period**. This functionality is available starting from version 1**0.0.45**.|
 
 ## Per diem
 
