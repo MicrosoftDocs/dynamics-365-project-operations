@@ -74,6 +74,21 @@ This article describes the parameters the control the general behavior in Expens
 | User ID (Bar code information) | Select this option to store an employee's unique identifier in the bar code that is used on the cover page of the fax. |
 | Bar code                       | Select the bar code that is used on the cover page of the fax. Bar codes 39 and 128 are supported in Expense management. |
 
+## Number sequence
+
+Starting with version **10.0.45**, a new feature — **Enable number sequence configuration in the Expense parameters form** has been introduced. The Number sequence feature enables the configuration of unique identifiers for various Expense Management documents, such as cash advance requests, vouchers, invoices, and expense reports. This enhancement allows users to view and manage number sequences directly within the **Expense Management parameters**, streamlining the setup process.
+
+**Expense management** > **Setup** > **Expense management parameters** > **Number sequence**
+
+### Shared number sequence
+
+There are certain number sequences, such as the **Expense transaction number** and **Itemization group**, are **shared** across all legal entities. To support this, a new tab **Shared number sequence** has been introduced in the **Expense Management parameters** form, allowing users to view and configure these shared number sequences directly within the interface.
+
+**Expense management** > **Setup** > **Expense management parameters** > **Shared number sequence**
+
+> [!NOTE]
+> This feature does not affect the use of number sequences; it simply enables the display of number sequences specific to expense management within the expense management parameters.
+
 ## Anti-corruption
 
 | Field                                 | Description |
