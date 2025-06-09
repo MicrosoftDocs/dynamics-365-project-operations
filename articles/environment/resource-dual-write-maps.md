@@ -44,7 +44,31 @@ To ensure a smooth setup, the following apps must be installed in the **exact or
 >    
 > For detailed instructions, refer to [Manage Apps](https://learn.microsoft.com/en-us/power-platform/admin/manage-apps#install-an-app-in-the-environment-view)
 
-### 2. Refresh Entities from F&O
+### 2. Required Solutions for Finance & Operations
+
+To ensure a smooth setup, the following solutions must be applied as listed below. **This is a crucial prerequisite.**
+
+1. **Dynamics 365 Human Resources entity maps**
+2. **Dynamics 365 Project Operations Dual Write Entity Maps**
+3. **Dual-write applications core entity maps**
+4. **Dynamics 365 Finance extended entity maps**
+5. **Dynamics 365 Asset Management entity maps**
+6. **Dynamics 365 Supply Chain Management extended entity maps**
+7. **HCM Scheduling**
+
+> [!TIP]
+> #### Steps to Apply Solution from F&O
+> To install and manage the apps mentioned above, follow these steps:
+> 1. Sign in to the **Finance and Operations**.
+> 2. Select **Data management**.
+> 3. Select **Dual-write**.
+> 4. Select **Apply Solution**.
+> 5. Select all listed solutions from the list above, then select **Apply**.
+>
+> ![image](https://github.com/user-attachments/assets/f7fb9538-86b1-488b-8d71-7bdaacc5cc8f)
+
+
+### 3. Refresh Entities from F&O
 
 Before proceeding, ensure that you refresh the entities from Finance and Operations (F&O). **This is a crucial prerequisite.**
 
@@ -61,7 +85,7 @@ _Refreshing the entity list ensures all entities are available in the environmen
 >    
 > For detailed instructions, refer to [Refresh Entity List](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities#entity-list-refresh)
 
-### 3. Required Maps for Project Operations Solution
+### 4. Required Maps for Project Operations Solution
 
 The table below shows the maps required for the Project Operations solution. Ensure to run the maps in the exact order listed and include any related table maps in your environment:
 
