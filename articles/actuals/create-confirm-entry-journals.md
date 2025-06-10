@@ -3,7 +3,7 @@ title: Create and confirm Entry journals
 description: This article provides information about how to create and confirm Entry journals in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
 ms.author: suvaidya
-ms.date: 05/23/2025
+ms.date: 06/10/2025
 ms.topic: how-to
 mscustom: 
   - bap-template
@@ -25,7 +25,7 @@ A single Entry journal lets you create multiple journal lines. When the journal 
 - The selected class of transaction. The available classes are **Time**, **Expense**, **Material**, **Retainer**, **Milestone**, and **Tax**.
 - The project and/or a task that is selected on the journal line.
 
-Entry journals can be used to create actuals outside of the standard process of submitting and approving a time/material/expense entry. It is meant to be used for situations where creating individual entries is infeasible including data migration.
+Entry journals can be used to create actuals outside of the standard process of submitting and approving a time/material/expense entry. It is meant to be used for situations where creating individual entries is infeasible, including data migration.
 
 Follow these steps to create an Entry journal in Project Operations.
 
