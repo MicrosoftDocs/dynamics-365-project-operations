@@ -110,6 +110,18 @@ Dual-Write map versions are listed starting with the Project Operations May 2021
 
 The table below shows the maps required for the Project Operations solution. Ensure to run the maps in the exact order listed and include any related table maps in your environment:
 
+Complete the following steps to run the listed maps.
+
+1. Enable the Project resource roles for the **Project resource roles for all companies (bookableresourcecategories)** table map, because this map requires the initial synchronization. In the **Master for initial sync** field, select **Microsoft Dataverse**. 
+
+    ![Resource role table map sync.](media/6ResourceInitialSync.jpg)
+
+    Wait until the status of the map is **Running** before you move on to the next step.
+
+2. Select all the remaining required maps. You can filter the maps in the Dual-write map list by entering the keyword in the search field in the upper-right corner. You can multi-select all maps and then run them. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure that you also enable and run related entity maps.
+
+
+
 | Table Map Name                                                                                   | Latest Version | Initial Sync Details                                                                                                                      | Required Dynamics 365 Finance Version |
 |--------------------------------------------------------------------------------------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | Project resource roles for all companies <br> (**bookableresourcecategories**)                   | 1.0.0.1        | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Dataverse.** |                                       |
@@ -123,9 +135,33 @@ The table below shows the maps required for the Project Operations solution. Ens
 | Project integration table for material estimates <br> (**msdyn_estimatelines**)                  | 1.0.0.4        | Initial Sync **NOT REQUIRED**                                                                                                             |                                       |
 | Project invoice proposals V2 <br> (**invoices**)                                                 | 1.0.0.3        | Initial Sync **NOT REQUIRED**                                                                                                             |                                       |
 
+> [!IMPORTANT]
+> #### Troubleshooting Map Failures
+> If you receive a "Project validation failed" message or any other transient error while you're running all the maps simultaneously or one by one, select the relevant map, and then select **Refresh tables**. This performs a refresh of the table maps, integration keys etc.
+>
+> ![Refresh tables button.](media/6RefreshTables.jpg)
+
+> [!IMPORTANT]
+> #### Steps To Add Integration Key - bookableresourceid [Bookable Resource]
+> 
+> With the 10.0.40 and later Dual-write maps release, a change was made to add a new required key for references to Bookable Resource that is mandatory for several maps, specially for **msdyn_actuals**.
+> To add integration key, follow these steps:
+> 1. Sign in to the **Finance and Operations**.
+> 2. Select **Data management**.
+> 3. Select **Dual-write**.
+> 4. Select **Integration key**.
+> 5. In the first column next to **Bookable Resource**, add **bookableresourceid [Bookable Resource]**
+> 6. Select **Save**.
+>
+> ![image](https://github.com/user-attachments/assets/765bca3a-f7ca-42cd-989e-d6038470e414)
+
+> [!WARNING]
+> Only after following the above mentioned **Important** points, proceed with the rest of the maps as mentioned in the table below:
+
 | Table Map Name                                                                                                      | Latest Version | Initial Sync Details          | Required Dynamics 365 Finance Version |
 |---------------------------------------------------------------------------------------------------------------------|----------------|-------------------------------|---------------------------------------|
 | Project Operations integration actuals <br> (**msdyn_actuals**)                                                     | 1.0.0.19       | Initial Sync **NOT REQUIRED** | 10.0.39 or later                      |
+| Project worker resource import <br> (**bookableresources**)                                                         | 1.0.0.0        | Initial Sync **NOT REQUIRED** | 10.0.39 or later                      |
 | Project Operations integration contract line milestones <br> (**msdyn_contractlinescheduleofvalues**)               | 1.0.0.7        | Initial Sync **NOT REQUIRED** |                                       |
 | Project Operations integration entity for expense estimates <br> (**msdyn_estimatelines**)                          | 1.0.0.3        | Initial Sync **NOT REQUIRED** | 10.0.42 or later                      |
 | Project Operations integration entity for hour estimates <br> (**msdyn_resourceassignments**)                       | 1.0.0.6        | Initial Sync **NOT REQUIRED** | 10.0.38 or later                      |
@@ -135,32 +171,11 @@ The table below shows the maps required for the Project Operations solution. Ens
 | Project Operations integration project vendor invoice line export entity <br> (**msdyn_projectvendorinvoicelines**) | 1.0.0.9        | Initial Sync **NOT REQUIRED** | 10.0.42 or later                      |
 | Project Operations integration project vendor invoice export entity V2 <br> (**msdyn_projectvendorinvoices**)       | 1.0.0.1        | Initial Sync **NOT REQUIRED** | 10.0.42 or later                      |
 
-Complete the following steps to run the listed maps.
 
-1. Enable the Project resource roles for the **Project resource roles for all companies (bookableresourcecategories)** table map, because this map requires the initial synchronization. In the **Master for initial sync** field, select **Microsoft Dataverse**. 
 
-    ![Resource role table map sync.](media/6ResourceInitialSync.jpg)
+### Please Note
 
-    Wait until the status of the map is **Running** before you move on to the next step.
-
-2. Select all the remaining required maps. You can filter the maps in the Dual-write map list by entering the keyword **Project** in the search field in the upper-right corner. You can multi-select all maps and then run them. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure that you also enable and run related entity maps.
-
-    > [!NOTE]
-    > If you receive a "Project validation failed" message while you're running all the maps simultaneously, select the relevant map, and then select **Refresh tables**.
-    >
-    > ![Refresh tables button.](media/6RefreshTables.jpg)
-
-3. With the 10.0.40 and later Dual-write maps release, a change was made to add a new required key for references to Bookable Resource that is required for several maps. From the **Dual-write** page, select into **Integration key**. In the first column next to **Bookable Resource**, add bookableresourceid [Bookable Resource] and Select **Save**.
-
-The following maps are optional for a Project Operations solution.
-
-| Entity map | Latest version | Initial sync | Required Dynamics 365 Finance version |
-| --- | --- | --- | --- |
-| Project worker resource import (bookableresources) | 1.0.0.1 | Not required for provisioning |10.0.39 or later|
-
-### Project Operations Dual-write map versions
-
-Always run the latest version of the map in your environment. Certain features and capabilities might not work correctly if any of the following conditions exist:
+Always first try to run the latest version of the map in your environment (even if the documentation has a lower version mentioned). Certain features and capabilities might not work correctly if any of the following conditions exist:
 
 - A map isn't activated.
 - The latest version of the map isn't activated. 
