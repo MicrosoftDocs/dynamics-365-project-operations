@@ -34,6 +34,19 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Occasionally, a time or expense entry might be entered incorrectly. For example, a consultant might select the wrong date when they create a time entry, or they might select the wrong project when they enter an expense. If a consultant can't update the submitted entries, a back-end admin can directly correct the actuals for a project.
 
+By default the following fields can be corrected using correction journals:
+* Project
+* Subcontract
+* Project task
+* Subcontract line
+* Entry Date
+* Bookable resource
+* Resource role (time correction only)
+* Expense category (expense correction only)
+* Write in product (material entry only)
+
+Additionally any custom pricing dimensions which have been added to the appropriate section of the journal form can be corrected using correction journals.
+
 ## Correct approved time entries     
 
 Complete the following steps to correct single or multiple time entries for a project.
