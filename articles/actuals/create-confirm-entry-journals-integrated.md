@@ -25,6 +25,8 @@ A single Entry journal lets you create multiple journal lines. When the journal 
 - The selected class of transaction. The available classes are **Time**, **Expense**, **Material**, **Retainer**, **Milestone**, and **Tax**.
 - The project and/or a task that is selected on the journal line.
 
+Entry journals can be used to create actuals outside of the standard process of submitting and approving a time/material/expense entry. It is meant to be used for situations where creating individual entries is infeasible including data migration.
+
 Follow these steps to create an Entry journal in Project Operations.
 
 1. Go to **Sales** \> **Transactions** \> **Journals**.
