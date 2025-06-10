@@ -132,6 +132,7 @@ The following table provides a comprehensive list of out-of-the-box forms and vi
 |  Project Contract line detail|• Project Information<br>• Project Quick Create|• Combined Contract Line Details<br>• Active Contract Line Details<br>• Contract Line Details Associated View|
 |  Project Team Member|• Information<br>• New Form|• Active Project Team Members<br>• Project Team Members<br>• Project Team members associated View|
 |  Time Entry|• Information<br>• Create Time Entry|• My Time Entries By Date<br>• My time Entries for this week<br>• Time entries for approval|
+|  Journal|•Information (add to all correction tabs)|•Active Journals<br>• Journal Associated view|
 |  Journal Line|• Information<br>• Quick create|• Active journal lines<br>• Journal Line associated view|
 |  Invoice Line Detail|• Information<br>• Quick create|• Active Invoice Line Details<br>• Chargeable Invoice Transactions<br>• Complimentary Invoice Transactions<br>• Invoice Line Detail associated view<br>• Non-Chargeable Invoice Transactions|
 |  Actual|• Information<br>• Active Actuals|• Actual Associated view|
