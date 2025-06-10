@@ -1,27 +1,13 @@
 ---
-# required metadata
-
 title: Create and confirm Correction journals
 description: This article provides information about how to create and confirm a correction journal.
 author: rumant
-ms.date: 05/31/2022
+ms.date: 06/10/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.assetid: 
-ms.author: rumant
+ms.author: abriccetti
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
@@ -34,7 +20,7 @@ _**Applies To:** Project Operations for resource/non-stocked based scenarios, Li
 
 Occasionally, a time or expense entry might be entered incorrectly. For example, a consultant might select the wrong date when they create a time entry, or they might select the wrong project when they enter an expense. If a consultant can't update the submitted entries, a back-end admin can directly correct the actuals for a project.
 
-By default the following fields can be corrected using correction journals:
+By default, the following fields can be corrected using correction journals:
 * Project
 * Subcontract
 * Project task
@@ -45,7 +31,7 @@ By default the following fields can be corrected using correction journals:
 * Expense category (expense correction only)
 * Write in product (material entry only)
 
-Additionally any custom pricing dimensions which have been added to the appropriate section of the journal form can be corrected using correction journals.
+Any custom pricing dimensions that have been added to the appropriate section of the journal form can be corrected using correction journals.
 
 ## Correct approved time entries     
 
