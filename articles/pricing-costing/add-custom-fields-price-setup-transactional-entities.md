@@ -70,7 +70,7 @@ This completes the schema changes required for option set-based custom dimension
 
 ## Entity-based custom pricing dimensions
 
-When the custom pricing dimension is an entity, you will add 1:N relationships between the dimension entity and key entities. Using the Standard Title example from above, it is reasonable to expect that each employee is assigned a standard title. SAs a result, you will need a 1:N relationship from Standard Title to Bookable Resource, or a N:1 relationship if it were created from Bookable Resource to Standard Title.
+When the custom pricing dimension is an entity, you add 1:N relationships between the dimension entity and key entities. Using the Standard Title example from above, it's reasonable to expect that each employee is assigned a standard title. SAs a result, you need a 1:N relationship from Standard Title to Bookable Resource, or a N:1 relationship if it were created from Bookable Resource to Standard Title.
 
 1. In Project operations, select **Settings** > **Solutions**, and then double-click **\<your organization name> pricing dimensions**. 
 2. In Solution Explorer, on the left navigation pane, select **Entities > Standard Title**.
@@ -120,7 +120,7 @@ This completes the schema changes required for entity-based custom dimensions.
 After you have made all of the required schema changes, the next step is to make the fields visible in the UI by adding the fields to the forms and views.
 
 1. Open the form or the view. On the right navigation pane, select the field and drag it on to the form canvas. 
-2. If you are editing a view, use the right navigation pane, select **Add fields**, and in the **Field listing** dialog box, select the fields that you need and select **Ok**.
+2. If you're editing a view, use the right navigation pane, select **Add fields**, and in the **Field listing** dialog box, select the fields that you need and select **Ok**.
 
 The following table provides a comprehensive list of out-of-the-box forms and views, by entity, that will need to be updated with the new fields. If you have any additional views or forms in your customizations on these entities, add the new fields to those as well.
 
