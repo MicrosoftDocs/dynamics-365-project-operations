@@ -98,5 +98,10 @@ There are certain number sequences, such as the **Expense transaction number** a
 | Anti-corruption message for submitter | Enter the text that should be shown to an employee who is creating an expense report. To enter language-specific text that will be shown, based on the user language, select **Translations**. |
 | Anti-corruption message for approver  | Enter the text that should be shown to the approver when an expense report is created. To enter language-specific text that will be shown, based on the user language, select **Translations**. |
 
+## Expense mobile
+
+| Field                                 | Description |
+|---------------------------------------|-------------|
+|Enable project validations|This field determines which projects are displayed in the project selection field by applying **project-related validations**, such as **project-category and resource-project**. When **enabled**, the system displays up to **10,000 active projects** during expense creation, based on these validations. When **disabled**, there is **no limit** on the number of projects displayed, but validations are **applied** when the expense line is **saved**. This field setting is valid only for expense mobile application.|
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
