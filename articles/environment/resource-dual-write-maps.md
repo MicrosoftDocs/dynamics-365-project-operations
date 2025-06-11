@@ -66,24 +66,24 @@ To ensure a smooth setup, the following solutions must be applied in the **exact
 
 To apply a solution from Finance & Operations, follow these steps.
 
-1. Go to **Finance and Operations**.
+1. Go to **Finance and Operations app**.
 1. Select **Data management**.
 1. Select **dual-write**.
 1. Select **Apply Solution**.
 1. Select the solutions from, then select **Apply**.
 
-![image](https://github.com/user-attachments/assets/f7fb9538-86b1-488b-8d71-7bdaacc5cc8f)
+![Apply Solutions.](media/DW_Apply_Solutions.png)
 
 
 ### 3. Refresh Entities from Finance & Operations
 
-Before proceeding, ensure that you refresh the entities from Finance and Operations. **This is a crucial prerequisite.**
+Before proceeding, ensure that you refresh the entities from Finance and Operations app. **This is a crucial prerequisite.**
 
 _Refreshing the entity list ensures all entities are available in the environment and that the entities have the latest metadata._
 
 To refresh entities from Finance & Operations, follow these steps.
 
-1. Go to **Finance and Operations**.
+1. Go to **Finance and Operations app**.
 1. Select **Data management**.
 1. Select **Framework parameters**.
 1. Select **Entity settings**.
@@ -153,14 +153,14 @@ With the 10.0.40 and later dual-write maps release, a change was made to add a n
 
 To add an integration key, follow these steps.
 
-1. Go to **Finance and Operations**.
+1. Go to **Finance and Operations app**.
 1. Select **Data management**.
 1. Select **dual-write**.
 1. Select **Integration key**.
 1. In the first column next to **Bookable Resource**, add **bookableresourceid [Bookable Resource]**
 1. Select **Save**.
 
-![image](https://github.com/user-attachments/assets/765bca3a-f7ca-42cd-989e-d6038470e414)
+![Add Integration Key.](media/DW_Add_Integration_Key.png)
 
 > [!WARNING]
 > Only after following the above mentioned **Important** points, proceed with the rest of the maps as mentioned in the following table.
