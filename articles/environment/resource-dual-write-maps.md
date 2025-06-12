@@ -24,8 +24,8 @@ This article explains how to install dual-write maps required for Microsoft Dyna
 To install dual-write maps required by Project Operations for resource/non-stocked scenarios, the following prerequisites must be met: 
 
 1. Install required Apps for Dataverse environment.
-1. Install required solutions for Finance & Operations.
-1. Refresh Entities from Finance & Operations.
+1. Install required solutions for finance and operations apps.
+1. Refresh Entities from finance and operations apps.
 1. Install required dual-write maps for Project Operations.
 
 Instructions to complete the preqequisites are found in the following sections.
@@ -52,7 +52,7 @@ To install and manage the apps using PowerApps portal, follow these steps.
 
 Learn about installing and managing PowerApps in [Manage Apps](/power-platform/admin/manage-apps#install-an-app-in-the-environment-view).
 
-### 2. Install required solutions for Finance & Operations
+### 2. Install required solutions for finance and operations apps
 
 To ensure a smooth setup, the following solutions must be applied in the **exact order** listed below. **This is a crucial prerequisite.**
 
@@ -64,9 +64,9 @@ To ensure a smooth setup, the following solutions must be applied in the **exact
 1. Dynamics 365 Supply Chain Management extended entity maps
 1. HCM Scheduling
 
-To apply a solution from Finance & Operations, follow these steps.
+To apply a solution from finance and operations apps, follow these steps.
 
-1. Go to **Finance and Operations app**.
+1. Go to **finance and operations apps**.
 1. Select **Data management**.
 1. Select **dual-write**.
 1. Select **Apply Solution**.
@@ -75,15 +75,15 @@ To apply a solution from Finance & Operations, follow these steps.
 ![Apply Solutions.](media/DW_Apply_Solutions.png)
 
 
-### 3. Refresh Entities from Finance & Operations
+### 3. Refresh Entities from finance and operations apps
 
-Before proceeding, ensure that you refresh the entities from Finance and Operations app. **This is a crucial prerequisite.**
+Before proceeding, ensure that you refresh the entities from finance and operations apps. **This is a crucial prerequisite.**
 
 _Refreshing the entity list ensures all entities are available in the environment and that the entities have the latest metadata._
 
-To refresh entities from Finance & Operations, follow these steps.
+To refresh entities from finance and operations apps, follow these steps.
 
-1. Go to **Finance and Operations app**.
+1. Go to **finance and operations apps**.
 1. Select **Data management**.
 1. Select **Framework parameters**.
 1. Select **Entity settings**.
@@ -97,14 +97,14 @@ The table below shows the maps required for the Project Operations solution. Run
 
 | Table Map Name                                       | Initial Sync Details                                                                                                                                        |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Legal entities (**cdm_companies**)                   | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Finance and Operations apps.** |
-| CDS Exchange Rates (**msdyn_currencyexchangerates**) | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Finance and Operations apps.** |
-| Ledger (**msdyn_ledgers**)                           | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Finance and Operations apps.** |
+| Legal entities (**cdm_companies**)                   | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **finance and operations apps.** |
+| CDS Exchange Rates (**msdyn_currencyexchangerates**) | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **finance and operations apps.** |
+| Ledger (**msdyn_ledgers**)                           | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **finance and operations apps.** |
 | Customers V3 (**accounts**)                          | Initial Sync **NOT REQUIRED**                                                                                                                               |
 | Vendors V2 (**msdyn_vendors**)                       | Initial Sync **NOT REQUIRED**                                                                                                                               |
-| Worker (**cdm_workers**)                             | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Finance and Operations apps.** |
+| Worker (**cdm_workers**)                             | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **finance and operations apps.** |
 
-1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **Finance and operations apps** for both ledger map and all prerequisite maps. Select **Run**.
+1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **finance and operations apps** for both ledger map and all prerequisite maps. Select **Run**.
 
     ![Ledger map synchronization.](media/DW6.png)
 
@@ -153,7 +153,7 @@ With the 10.0.40 and later dual-write maps release, a change was made to add a n
 
 To add an integration key, follow these steps.
 
-1. Go to **Finance and Operations app**.
+1. Go to **finance and operations apps**.
 1. Select **Data management**.
 1. Select **dual-write**.
 1. Select **Integration key**.
