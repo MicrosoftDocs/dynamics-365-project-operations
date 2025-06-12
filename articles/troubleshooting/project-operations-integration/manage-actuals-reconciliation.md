@@ -51,9 +51,9 @@ To view the **Actuals** in **Project operations** that are yet to be processed i
  
 ### Sync missing actuals
 
-If issues arise during the generation of the **Project operations integration journal** for **Actuals**, such as missing actuals or transaction connections in Finance you can re-sync the actuals or transaction connections to Finance. This helps ensure that the **Project Integration Journal** or **Project Invoices** are successfully created and processed.
+If issues arise during the generation of the **Project operations integration journal** for **Actuals**, such as missing actuals or transaction connections in Finance you can resync the actuals or transaction connections to Finance. This helps ensure that the **Project Integration Journal** or **Project Invoices** are successfully created and processed.
 
-To re-sync the actuals or transaction connections to Finance, use the **Sync Actuals** button available on the **Out of sync actuals** form. This action attempts to reprocess all records displayed on the form.
+To resync the actuals or transaction connections to Finance, use the **Sync Actuals** button available on the **Out of sync actuals** form. This action attempts to reprocess all records displayed on the form.
 
 Because the **Project Operations Integration Journal** is posted in Finance on a recurring schedule, there may be cases where actuals are synchronized correctly, but the journal isn't yet posted. Therefore, it's recommended to **wait** for the posting of either the Project Operations Integration Journal or the Project Invoice before **restarting** the sync process.
 
