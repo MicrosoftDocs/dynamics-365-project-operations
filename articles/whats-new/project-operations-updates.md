@@ -6,7 +6,7 @@ ms.topic: article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 05/13/2025
+ms.date: 06/12/2025
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
@@ -65,8 +65,10 @@ Dynamics 365 Project Operations consists of two components:
 |                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
 | **4.140.0.651** <br> Refer HotFix (**4.140.0.1087**)      | April 25, 2025             | April 25, 2025             | April 25, 2025             | May 02, 2025               | May 02, 2025               | CANCELED              | CANCELED               | CANCELED               | CANCELED               | CANCELED              |
 | **4.141.0.975** <br> Refer HotFix (**4.140.0.1552**)      | May 23, 2025               | CANCELED               | May 23, 2025               | CANCELED               | CANCELED               | CANCELED               |CANCELED               | CANCELED              | CANCELED              | CANCELED             |
-| **4.142.0.X**       | June 13, 2025              | June 20, 2025              | June 20, 2025              | June 27, 2025              | June 27, 2025              | July 04, 2025              | July 04, 2025              | July 11, 2025              | July 11, 2025              | July 18, 2025              |
+| **4.142.0.X**       | June 18, 2025              | June 20, 2025              | June 20, 2025              | June 27, 2025              | June 27, 2025              | July 04, 2025              | July 04, 2025              | July 11, 2025              | July 11, 2025              | July 18, 2025              |
 | **4.143.0.X**       | July 11, 2025              | July 18, 2025              | July 18, 2025              | July 25, 2025              | July 25, 2025              | August 01, 2025            | August 01, 2025            | August 09, 2025            | August 09, 2025            | August 16, 2025            |
+| **4.144.0.X**       | August 08, 2025            | August 15, 2025            | August 15, 2025            | August 22, 2025            | August 22, 2025            | August 29, 2025            | August 29, 2025            | September 05, 2025         | September 05, 2025         | September 12, 2025         |
+| **4.145.0.X**       | September 12, 2025         | September 19, 2025         | September 19, 2025         | September 26, 2025         | September 26, 2025         | October 03, 2025           | October 03, 2025           | October 10, 2025           | October 10, 2025           | October 17, 2025           |
 
 ## HotFix Release Cycle
 
