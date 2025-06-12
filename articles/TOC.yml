@@ -924,6 +924,8 @@
         href: troubleshooting/project-sales-process/currency-mismatch-error.md   
     - name: Project Operations integration workspace
       href: troubleshooting/project-operations-integration/project-integration-workspace.md
+    - name: Project Operations Actuals Synchronization & Reconciliation
+      href: troubleshooting/project-operations-integration/manage-actuals-reconciliation.md
 - name: Lite deployment - deal to proforma invoicing
   items:
   - name: Get started
