@@ -55,4 +55,4 @@ To perform the **re-sync**, use the **Sync Actuals** button available on the **O
 
 Because the **Project Operations Integration Journal** is posted in **Dynamics 365 Finance** on a **recurring schedule**, there may be cases where actuals are synchronized correctly, but the journal is not yet posted. Therefore, it is recommended to **wait** for the posting of either the Project Operations Integration Journal or the Project Invoice before **restarting** the sync process.
 
-![Screenshot that shows the Out of sync actuals in the Project Operations.](../../../articles/media/Outofsyncactuals.png)
+![Screenshot that shows the Out of sync actuals in the Project Operations.](media/out-of-sync-actuals.png)
