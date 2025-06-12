@@ -45,7 +45,9 @@ To view the **Actuals** in **Project operations** which are yet to be processed 
 2. Select **Out of sync Actuals** in the **troubleshooting** area.
 3. Review the displayed records—these represent actuals without a posted voucher.
 
-> This form displays the missing or not synchronized actuals for last month.
+> [!NOTE]
+> This form displays and synchronizes actuals that are missing or not yet synchronized for the past month, with a one-hour delay. The delay accounts for the time required to complete processes such as integration journal creation or project invoice generation and posting.
+> 
 ### Sync missing actuals
 If issues arise during the generation of the **Project operations integration journal** for **Actuals**, such as **missing actuals** or **Transaction connections** in **Dynamics 365 Finance**, you can **re-sync** the **Actuals** or **Transaction connections** to **Dynamics 365 Finance**. This helps ensure that the **Project Integration Journal** or **Project Invoices** are successfully created and processed.
 
