@@ -1,6 +1,6 @@
 ---
 title: Use actuals synchronization and reconciliation
-description: Learn about the Project Operations actuals synchronization and reconciliation framework that helps identify and address integration challenges that are related to project actuals and transaction connection entities.
+description: Learn about the Project Operations Actuals Synchronization & Reconciliation framework, which helps identify and address integration challenges that are related to project actuals and transaction connections.
 author: mukumarm
 ms.date: 06/16/2025
 ms.topic: how-to
@@ -16,45 +16,48 @@ ms.search.form: ProjTroubleshootingWorkspace
 
 _**Applies To:** Project Operations for resource/non-stocked based scenarios_
 
-This article provides information about the **Project Operations Actuals Synchronization & Reconciliation** framework. This workspace helps you identify and address integration challenges that are related to project actuals and transaction connections. You can identify and fix dual-write synchronization issues that are related to Actuals or transaction connections. It also allows you to initiate a resynchronization of actuals or transaction connections, which in turn facilitates the generation and posting of integration journal lines.  
+This article provides information about the **Project Operations Actuals Synchronization & Reconciliation** framework. The workspace that this framework provides helps you identify and address integration challenges that are related to project actuals and transaction connections. Those challenges include dual-write synchronization issues. You can also initiate a resynchronization of actuals or transaction connections. This resynchronization facilitates the generation and posting of integration journal lines.  
 
 ## Prerequisites
 
 ### Minimum versions required
 
-To use the feature for Dynamics 365 Project Operations for resource/non-stocked based scenarios, you must have the following versions:
+To use the feature for Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios, you must have the following versions:
 
 - Project Operations Dataverse version 4.142.0.x or later
-- Microsoft Dynamics 365 Finance version 10.0.43 or later
+- Dynamics 365 Finance version 10.0.43 or later
 
-### Dual write maps
+### Dual-write maps
 
-|Required dual-write map | Required version |
+| Required dual-write map | Required version |
 |---|---|
-|Project Operations integration actuals (msdyn_actuals) |1.0.0.20|
-|Integrated entity for transaction relationships (msdyn_transactionconnections|1.0.0.1|
+| Project Operations integration actuals (msdyn\_actuals) | 1.0.0.20 |
+| Integrated entity for transaction relationships (msdyn\_transactionconnections) | 1.0.0.1 |
 
 ## Missing actuals
 
-To resolve synchronization issues with actuals or transaction connections that were previously unsynced, a new form called **Out of sync actuals** is available in the **Settings section**. This form displays actuals for which the Project integration journal or project invoices aren't posted in Finance or actuals aren't synchronized to Finance and Project integration journal or project invoice lines aren't created for missing records.
+To fix synchronization issues with actuals or transaction connections that weren't previously synced, a new **Out of sync Actuals** page is available in the **Settings** section. This page shows actuals that meet either of the following conditions:
 
-A filter is applied to the **Actuals** entity to show only those records where **Skip sync** is true and **Voucher** is missing because each actual record should have a generated and posted a voucher. Currently, the form displays only those actuals that were generated at least one hour ago and are limited to transactions from the previous month.
+- The project integration journal or project invoices weren't posted in Finance.
+- Actuals weren't synced to Finance, and project integration journal or project invoice lines weren't created for the missing records.
 
-To view the **Actuals** in **Project operations** that are yet to be processed in **Dynamics 365 Finance**, follow these steps.
+A filter that is applied to the **Actuals** entity shows only records where the **Skip sync** setting is true and a voucher is missing, because each actual record should have a generated and posted a voucher. Currently, the page shows only actuals that were generated at least one hour ago. In addition, it's limited to transactions from the previous month.
 
-1. Navigate to **Settings**.
-1. Select **Out of sync Actuals** in the **Troubleshooting** area.
-1. Review the displayed records. These actuals represent the records without a posted voucher.
+To view the actuals in Project Operations that aren't yet processed in Finance, follow these steps.
+
+1. Go to **Settings**.
+1. In the **Troubleshooting** area, select **Out of sync Actuals**.
+1. Review the actuals on the page. These actuals represent the records that don't have a posted voucher.
 
 > [!NOTE]
-> This form displays and synchronizes actuals that are missing or not yet synchronized for the past month, with a one-hour delay. The delay accounts for the time required to complete processes such as integration journal creation or project invoice generation and posting.
- 
+> The **Out of sync Actuals** page shows and syncs actuals that are missing or aren't yet synced for the past month. There is a one-hour delay. This delay accounts for the time that is required to complete processes such as integration journal creation, or project invoice generation and posting.
+
 ### Sync missing actuals
 
-If issues arise during the generation of the **Project operations integration journal** for **Actuals**, such as missing actuals or transaction connections in Finance you can resync the actuals or transaction connections to Finance. This helps ensure that the **Project Integration Journal** or **Project Invoices** are successfully created and processed.
+When the Project Operations integration journal for actuals is being generated, issues such as missing actuals or transaction connections in Finance might arise. In this case, you can resync the actuals or transaction connections to Finance. Resynchronization helps ensure that the project integration journal or project invoices are successfully created and processed.
 
-To resync the actuals or transaction connections to Finance, use the **Sync Actuals** button available on the **Out of sync actuals** form. This action attempts to reprocess all records displayed on the form.
+To resync the actuals or transaction connections to Finance, use the **Sync Actuals** button on the **Out of sync actuals** page. The action that is triggered tries to reprocess all records that are shown on the page.
 
-Because the **Project Operations Integration Journal** is posted in Finance on a recurring schedule, there may be cases where actuals are synchronized correctly, but the journal isn't yet posted. Therefore, it's recommended to **wait** for the posting of either the Project Operations Integration Journal or the Project Invoice before **restarting** the sync process.
+Because the Project Operations integration journal is posted in Finance on a recurring schedule, actuals are sometimes synced correctly, but the journal isn't yet posted. In these cases, we recommend that you wait until either the Project Operations integration journal or the project invoice is posted. Then restart the synchronization process.
 
-![Screenshot that shows the Out of sync actuals in the Project Operations.](../media/out-of-sync-actuals.png)
+![Screenshot of the Out of sync Actuals page in Project Operations.](../media/out-of-sync-actuals.png)
