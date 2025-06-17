@@ -2,7 +2,7 @@
 title: Managed stocked products for Project Operations integrated deployments
 description: Learn how to manage and use stocked products in integrated Microsoft Dynamics 365 Project Operations deployments.
 author: mukumarm
-ms.date: 05/21/2025
+ms.date: 06/17/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -47,6 +47,7 @@ This section provides information about the specific maps that are required for 
 | Colors (msdyn_productcolors) | 1.0.0.0 |
 | Styles (msdyn_productstyles) | 1.0.0.0 |
 | Sites (msdyn_sites) | 1.0.0.0 |
+| Warehouses (msdyn_warehouses)| 1.0.0.0 |
 | Warehouse locations (msdyn_inventorylocations) | 1.0.0.1 |
 | Inventory aisle (msdyn_warehouseaisles) | 1.0.0.0 |
 | Storage dimension groups (msdyn_productstoragedimensiongroups) | 1.0.0.0 |
@@ -60,10 +61,10 @@ This section provides information about the specific maps that are required for 
 | Item batches (msdyn_batchnumbers) | 1.0.0.0 |
 | Item serial numbers (mydyn_serialnumbers) | 1.0.0.0 |
 | Project integration table for material estimates (msdyn_estimatelines) | 1.0.0.4 |
+| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.9 |
 | Project operations integration actuals (msdyn_actuals) | 1.0.0.19 |
-| Project subcontract purchase order line (msdyn_subcontractlines) | 1.0.1.0 |
-| Units (uoms) | 1.0.0.0 |
 | Project subcontract purchase order line (msdyn_subcontractlines) | 1.0.0.1 |
+| Units (uoms) | 1.0.0.0 |
 
 ## Products
 
@@ -184,5 +185,24 @@ To run the **Project cost update for inventory adjustments** batch job, follow t
 1. In Dynamics 365 Finance, go to **Project management and accounting** \> **Periodic** \> **Project operations integration** \> **Project cost update for inventory adjustments**.
 1. Apply the filters for the project or project contract.
 1. Select **OK** to update the project cost in Dynamics 365 Project Operations.
+
+## Item requirements using project item forecasts
+**Item requirements** enable the consumption of materials directly from stock through the **sales order** cycle. This functionality allows users to **generate** item requirements based on project **item forecasts** and subsequently execute the material consumption process using packing slips. **Item forecasts** are generated using the project material estimates in **Project operations** in Dataverse.
+
+To generate item requirements from item forecasts, follow these steps:
+
+1. Go to the **project** form and select the project.
+   **Project management and accounting** > **Projects** > **All projects**
+2. On the **Plan** action pane, **Click Item forecasts**.
+3. Click **Create item requirements**.
+
+To consume the material from stock for the item requirements, follow these steps:
+1. Go to the **project** form and select the project.
+   **Project management and accounting** > **Projects** > **All projects**
+2. On the **Plan** action pane, **Item requirements**.
+3. On the **Manage** action pane, click **Posting** > **Packing slip**.
+
+> [!NOTE]
+> Item requirements are exclusively generated for stocked products. Manual creation of item requirements is not supported or applicable within the system.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
