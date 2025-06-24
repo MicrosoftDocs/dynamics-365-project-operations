@@ -66,6 +66,7 @@ This article describes the parameters the control the general behavior in Expens
 | Calculate meal reduction by           | Specify how the system should calculate the per diem meal reduction, by selecting whether the reduction is based on the meal type per trip or per day, or whether it's based on the number of meals that is allowed per day. |
 | Per diem rounding                     | Select the type of rounding that is used for per diem expenses. If you select normal rounding, any per diem expense that has an amount of 0.50 is rounded up to 1.00, and any per diem expense that has an amount that is less than 0.50 is rounded down to 0.00. |
 | Base per diem calculation on          | Select whether a per diem amount is based on a calendar day or a 24-hour period. |
+| Allow user to edit transaction date          | Select this option to modify the transaction date for a per diem expense. The exchange rate on the expense line will be updated automatically based on the new transaction date selected. This functionality is available starting from version **10.0.0.45**. |
 
 ## Fax cover pages
 
