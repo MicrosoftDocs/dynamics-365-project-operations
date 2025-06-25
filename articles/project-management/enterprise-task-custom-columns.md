@@ -51,6 +51,6 @@ The following types of columns can be added as custom columns in the grid view:
 > [!IMPORTANT]
 > - A maximum of 10 custom columns can be added to a single project.
 > 
-> - Only 2-25 options in a **Choice** type are supported. A custom column of type **Choice** with more than 25 options will not be added to the task grid. 
+> - Only 2-25 options in a **Choice** type are supported. A custom column of type **Choice** with more than 25 options won't be added to the task grid. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
