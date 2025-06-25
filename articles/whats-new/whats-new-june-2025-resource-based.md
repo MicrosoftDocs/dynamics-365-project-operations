@@ -51,15 +51,15 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing and Pricing| 4655493| Invoice cannot be confirmed when the total amount is negative, and a new retainer is raised on the same invoice. |
+|Billing and Pricing| 4655493| Invoice can't be confirmed when the total amount is negative, and a new retainer is raised on the same invoice. |
 |Billing and Pricing| 4872141| Journal line not posted when approval is canceled, leaving the created actuals unchanged without the adjustment status. |
 |Billing and Pricing| 4995210| Invoice Line without name ignores chargeability when calculating amount. |
-|Billing and Pricing| 5024102| Trying to mark the contract line as "Ready to invoice" in billing hub results in "Billing status cannot be updated on a contract line that is not product-based."|
+|Billing and Pricing| 5024102| Trying to mark the contract line as "Ready to invoice" in billing hub results in "Billing status can't be updated on a contract line that isn't product-based."|
 |Billing and Pricing| 5054756| Origin field on sales estimate line should be allowed to update from null. |
 |Billing and Pricing| 5079606| Script error when selecting Project Task on a time entry correction journal. |
-|Billing and Pricing| 5124144| Cannot Delete Recalled Time Entries Associated with Revised Invoices. |
+|Billing and Pricing| 5124144| Can't Delete Recalled Time Entries Associated with Revised Invoices. |
 |Project Budgeting| 4829338| Unable to see dropdown values in Transaction Category field. |
-|Sales|	5005220| Create Order throws "The contract line cannot be updated directly."|
+|Sales|	5005220| Create Order throws "The contract line can't be updated directly."|
 |Sales|	4926105| Invoice schedule type not validated on quote line update. |
 |Project And Resource Management| 5001281| Unable to mark task as completed on integrated org. |
 |Subcontracting| 4450523| Task doesn't get linked to contract line during billing setup. |
@@ -69,4 +69,4 @@ If you encounter an issue when you start the map, follow the instructions in the
 ### Project management and accounting in Finance
 
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=1028749&dbType=3&qc=ce23ba904cf7dc2e2233a5d951b6a5974c350ed77aded0cd55f33a94a7cd6d84).
-cycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=1028749&dbType=3&qc=ce23ba904cf7dc2e2233a5d951b6a5974c350ed77aded0cd55f33a94a7cd6d84).
+
