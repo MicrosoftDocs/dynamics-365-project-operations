@@ -23,7 +23,7 @@ After an administrator completes all the steps in [Enable the Time Entry feature
 
 To begin to use the agent through Teams, each user must complete the following steps.
 
-1. Add the **Time and Expense Agent** Teams app.
+1. Add the Teams app for time entry.
 1. Give the agent consent to create time entries, and set some preferences.
 
 ## Add the Teams app
