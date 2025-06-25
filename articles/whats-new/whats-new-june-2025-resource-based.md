@@ -41,9 +41,9 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Procurement and Inventory |**Enable stocked products usage for project operations integrated deployments** <br><br> This feature is seamlessly integrated with Dynamics 365 Finance. It lets users manage stocked products, create purchase orders and subcontracts, consume stock for projects, and use stocked products in project estimates, quotations, and contracts in Dataverse.| [Manage stocked products on integrated deployments](../procurement/enable-stocked-products-integrated.md) |
-| Actuals |**Use actuals synchronization and reconciliation** <br><br> This feature helps you identify and address integration challenges that are related to project actuals and transaction connections. Those challenges include dual-write synchronization issues. You can also initiate a resynchronization of actuals or transaction connections. This resynchronization facilitates the generation and posting of integration journal lines.| [Use actuals synchronization and reconciliation](../troubleshooting/project-operations-integration/manage-actuals-reconciliation.md) |
-| Financials |**Use financial tags for project financial transactions** <br><br> Financial tags enable organizations to track user-defined fields on accounting entries that are posted to the general ledger. Therefore, they don't have to create financial dimensions that contain values that aren't reusable. Financial tags on posted transactions can| [Use financial tags for project financial transactions](../project-accounting/financial-tags-for-project-financial-transactions.md) |
+| Procurement and Inventory |**Enable stocked products usage for project operations integrated deployments**. <br><br> This feature is seamlessly integrated with Microsoft Dynamics 365 Finance. It lets users manage stocked products, create purchase orders and subcontracts, consume stock for projects, and use stocked products in project estimates, quotations, and contracts in Dataverse.| [Manage stocked products on integrated deployments](../procurement/enable-stocked-products-integrated.md) |
+| Actuals |**Use actuals synchronization and reconciliation**. <br><br> This feature helps you identify and address integration challenges that are related to project actuals and transaction connections. Those challenges include dual-write synchronization issues. You can also initiate a resynchronization of actuals or transaction connections. This resynchronization facilitates the generation and posting of integration journal lines.| [Use actuals synchronization and reconciliation](../troubleshooting/project-operations-integration/manage-actuals-reconciliation.md) |
+| Financials |**Use financial tags for project financial transactions**. <br><br> Financial tags enable organizations to track user-defined fields on accounting entries that are posted to the general ledger. Therefore, they don't have to create financial dimensions that contain values that aren't reusable. Financial tags on posted transactions can| [Use financial tags for project financial transactions](../project-accounting/financial-tags-for-project-financial-transactions.md) |
 
 ## Quality updates
 
@@ -51,21 +51,22 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing and Pricing|	4655493|	Invoice cannot be confirmed when the total amount is negative and a new retainer is raised on the same invoice|
-|Billing and Pricing|	4872141|	Journal line not posted when approval is canceled, leaving the created actuals unchanged without the adjustment status.|
-|Billing and Pricing|	4995210|	Invoice Line without name ignores chargeability when calculating amount|
-|Billing and Pricing|	5024102|	Trying to mark the contract line as "Ready to invoice" in billing hub results in "Billing status cannot be updated on a contract line that is not product-based."|
-|Billing and Pricing|	5054756|	Origin field on sales estimate line should be allowed to update from null|
-|Billing and Pricing|	5079606|	Script error when selecting Project Task on a time entry correction journal|
-|Billing and Pricing|	5124144|	 Cannot Delete Recalled Time Entries Associated to Revised Invoices|
-|Project Budgeting|	4829338|	Unable to see dropdown values in Transaction Category field|
-|Sales|	5005220|	Create Order throws "The contract line cannot be updated directly."|
-|Sales|	4926105|	Invoice schedule type not validated on quote line update|
-|Project And Resource Management|	5001281|	Unable to mark task as completed on integrated org|
-|Subcontracting|	4450523|	Task doesn't get linked to contract line during billing setup|
-|Time Entry|	4871947|	Time entry issues for associated view are now handled by updating fields that appear on this view|
-|Time Entry|	5089432|	Modern Grid - Unable to create Time entries inline when working on the grid other than English|
+|Billing and Pricing| 4655493| Invoice cannot be confirmed when the total amount is negative, and a new retainer is raised on the same invoice. |
+|Billing and Pricing| 4872141| Journal line not posted when approval is canceled, leaving the created actuals unchanged without the adjustment status. |
+|Billing and Pricing| 4995210| Invoice Line without name ignores chargeability when calculating amount. |
+|Billing and Pricing| 5024102| Trying to mark the contract line as "Ready to invoice" in billing hub results in "Billing status cannot be updated on a contract line that is not product-based."|
+|Billing and Pricing| 5054756| Origin field on sales estimate line should be allowed to update from null. |
+|Billing and Pricing| 5079606| Script error when selecting Project Task on a time entry correction journal. |
+|Billing and Pricing| 5124144| Cannot Delete Recalled Time Entries Associated with Revised Invoices. |
+|Project Budgeting| 4829338| Unable to see dropdown values in Transaction Category field. |
+|Sales|	5005220| Create Order throws "The contract line cannot be updated directly."|
+|Sales|	4926105| Invoice schedule type not validated on quote line update. |
+|Project And Resource Management| 5001281| Unable to mark task as completed on integrated org. |
+|Subcontracting| 4450523| Task doesn't get linked to contract line during billing setup. |
+|Time Entry| 4871947| Time entry issues for associated view are now handled by updating fields that appear on this view. |
+|Time Entry| 5089432| Modern Grid - Unable to create Time entries inline when working on the grid other than English. |
 
 ### Project management and accounting in Finance
 
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=1028749&dbType=3&qc=ce23ba904cf7dc2e2233a5d951b6a5974c350ed77aded0cd55f33a94a7cd6d84).
+cycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=1028749&dbType=3&qc=ce23ba904cf7dc2e2233a5d951b6a5974c350ed77aded0cd55f33a94a7cd6d84).
