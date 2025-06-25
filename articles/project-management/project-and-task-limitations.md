@@ -11,7 +11,7 @@ ms.author: dishantpopli
 
 # Project and task limitations
 
-You should be aware of the following limitations if you're using the work breakdown structure in Project Operations. These limits apply to projects and tasks. For more information, see [Project for the web limits and boundaries](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+You should be aware of the following limitations if you're using the work breakdown structure in Project Operations. These limits apply to projects and tasks.
 
 ## Project limitations
 
