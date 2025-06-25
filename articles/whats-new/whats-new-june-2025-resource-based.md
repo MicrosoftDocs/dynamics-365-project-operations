@@ -59,9 +59,9 @@ If you encounter an issue when you start the map, follow the instructions in the
 |Billing and Pricing|	5079606|	Script error when selecting Project Task on a time entry correction journal|
 |Billing and Pricing|	5124144|	 Cannot Delete Recalled Time Entries Associated to Revised Invoices|
 |Project Budgeting|	4829338|	Unable to see dropdown values in Transaction Category field|
-|Billing|	5005220|	Create Order throws "The contract line cannot be updated directly."|
+|Sales|	5005220|	Create Order throws "The contract line cannot be updated directly."|
 |Sales|	4926105|	Invoice schedule type not validated on quote line update|
-|Billing|	5001281|	Unable to mark task as completed on integrated org|
+|Project And Resource Management|	5001281|	Unable to mark task as completed on integrated org|
 |Subcontracting|	4450523|	Task doesn't get linked to contract line during billing setup|
 |Time Entry|	4871947|	Time entry issues for associated view are now handled by updating fields that appear on this view|
 |Time Entry|	5089432|	Modern Grid - Unable to create Time entries inline when working on the grid other than English|
