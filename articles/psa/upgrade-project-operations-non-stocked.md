@@ -1,14 +1,14 @@
 ---
 title: Upgrade from Project Service Automation to Project Operations
 description: This article provides an overview of the process to upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
-author: abriccetti
-ms.date: 04/09/2024
+author: dishantpopli
+ms.date: 06/25/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
   - dyn365-projectservice
   - evergreen
-ms.author: abriccetti
+ms.author: dishantpopli
 audience: Admin
 search.audienceType: 
   - admin
@@ -55,7 +55,7 @@ With the release of phase 3 upgrade, individual projects need to upgrade separat
 
 ## Licensing
 
-If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. In this way, you can test the capabilities of Project Operations while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you must transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license. Customers who have scenarios where they deployed Project Service Automation and need to continue to use or increase their licenses for PSA while they plan to move to Project Operations, may request temporary PSA licenses based on Project Operations purchased licenses. One Project Service Automation license is issued for one Project Operations license. Temporary PSA licenses may be requested by using this link: [aka.ms/ineedpsa](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1ccNeVH0Y5Bias6PVDCNbZUOUg4TkZJUEswSVQ1ODhNNkpHVVlMMldPTi4u)
+If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. In this way, you can test the capabilities of Project Operations while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you must transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license.
 
 ## Testing and refactoring customizations
 
