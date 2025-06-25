@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Cloud-hosted environments must be deployed using an existing Azure subscription. This article explains how to connect your existing Azure subscription to an Lifecycle Services project. 
 

@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Develop project templates with Copy Project
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
 
 Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role. Customers can use this functionality to build basic project templates.
 

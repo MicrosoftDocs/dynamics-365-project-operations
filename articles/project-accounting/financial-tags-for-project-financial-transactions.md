@@ -14,7 +14,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations for stocked/production-based scenarios._
 
 Financial tags enable organizations to track user-defined fields on accounting entries that are posted to the general ledger. Therefore, they don't have to create financial dimensions that contain values that aren't reusable. Financial tags on posted transactions can be used for reporting or analysis.
 

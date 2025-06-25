@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
 
 This article explains the process of creating budget lines from unmatched cost actuals. You might have to use this process when actuals don't match existing budget lines, based on dimensions or defined budget match priorities. You might also have to use it because of unforeseen actuals during budget creation and approval.
 

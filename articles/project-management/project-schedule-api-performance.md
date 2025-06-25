@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Project schedule API performance
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project for the web_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing, Project for the web_
 
 This article provides information about the performance benchmarks of the Project schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
 

@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 ---
 # Book named resources from resource requirements
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 You can book a named resource to replace generic resource that has a resource requirement.
 

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Resource reconciliation overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 For team members, bookings and assignments are loosely coupled. In other words, resources can have assignments and no bookings, or they can have bookings and no assignments. Ideally, bookings and assignments should be aligned, so that resources have committed capacity to perform the task assignments. However, the bookings might be based on availability, and task timings might change as the project continues. Therefore, the loose coupling of bookings and assignments provides flexibility.
 

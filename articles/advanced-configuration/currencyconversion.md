@@ -14,7 +14,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 In Microsoft Dynamics 365 Project Operations, sales prices for expense categories can be set up as numeric values, or they can be set up so that they're calculated based on the cost that's incurred.
 

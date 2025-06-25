@@ -12,7 +12,7 @@ ms.author: poojafandan
 
 # Manage multiple customers on a project-based quote
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Project-based quotes support the scenario where the proposal involves multiple customers who will fund the deal. The **Summary** tab of the Quote has the **Potential customer** field, which identifies the primary customer of the deal. Other customers for the deal can be set up on the **Customers** tab of the project quote.
 

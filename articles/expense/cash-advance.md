@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 A cash advance allows employees to borrow money from their company prior to incurring any expenses. When a requested cash advance is approved and paid, the employee can use the money for the business expenses they may be about to incur. 
 

@@ -16,7 +16,7 @@ ms.search.validFrom: 2020-10-01
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
  In Project Operations, **Product price lists** and related price list item entities support functionality for pricing products on product-based quote and contract lines. For products used on projects, the price list item records for project price lists are used. 
 

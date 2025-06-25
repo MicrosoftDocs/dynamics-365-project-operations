@@ -14,7 +14,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios__
+_**Applies To:** Core deployment - deal to proforma invoicing, Project Operations Integrated with ERP__
 
 In Dynamics 365 Project Operations, you can import estimates from a project to a project-based contract line.
 

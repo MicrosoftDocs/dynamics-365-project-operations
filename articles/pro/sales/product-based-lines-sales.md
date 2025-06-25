@@ -14,7 +14,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 Product opportunity lines are line items on the Opportunity that do not reference a project. These distinct line items are on the eventual invoice that is provided to the customer. The invoice doesn't include any other additional services. The associated spend and consumption isn't tracked on tasks of any related projects.
 

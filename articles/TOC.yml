@@ -54,7 +54,7 @@
       href: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv?context=/dynamics365/project-operations/context/dev-itpro
     - name: Create and automate user acceptance tests
       href: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests?context=/dynamics365/project-operations/context/dev-itpro
-- name: Project Operations for resource/non-stocked based scenarios
+- name: Project Operations Integrated with ERP
   items:
   - name: Get started
     items:
@@ -112,115 +112,115 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
-    - name: June 2025 - Project Operations for resource/non-stocked based scenarios
+    - name: June 2025 - Project Operations Integrated with ERP
       href: whats-new/whats-new-june-2025-resource-based.md
-    - name: May 2025 - Project Operations for resource/non-stocked based scenarios
+    - name: May 2025 - Project Operations Integrated with ERP
       href: whats-new/whats-new-may-2025-resource-based.md
     - name: Archive
       items:
-       - name: April 2025 - Project Operations for resource/non-stocked based scenarios
+       - name: April 2025 - Project Operations Integrated with ERP
          href: whats-new/whats-new-apr-2025-resource-based.md
-       - name: 2025 Wave 1 Early Access - Project Operations for resource/non-stocked based scenarios
+       - name: 2025 Wave 1 Early Access - Project Operations Integrated with ERP
          href: whats-new/whats-new-2025W1-resource-based.md
-       - name: February 2025 - Project Operations for resource/non-stocked based scenarios
+       - name: February 2025 - Project Operations Integrated with ERP
          href: whats-new/whats-new-feb-2025-resource-based.md
-       - name: January 2025 - Project Operations for resource/non-stocked based scenarios
+       - name: January 2025 - Project Operations Integrated with ERP
          href: whats-new/whats-new-jan-2025-resource-based.md
-       - name: December 2024 - Project Operations for resource/non-stocked based scenarios
+       - name: December 2024 - Project Operations Integrated with ERP
          href: whats-new/whats-new-dec-2024-resource-based.md
-       - name: October 2024 - Project Operations for resource/non-stocked based scenarios
+       - name: October 2024 - Project Operations Integrated with ERP
          href: whats-new/whats-new-oct-2024-resource-based.md
-       - name: September 2024 - Project Operations for resource/non-stocked based scenarios
+       - name: September 2024 - Project Operations Integrated with ERP
          href: whats-new/whats-new-sep-2024-resource-based.md
-       - name: August 2024 - Project Operations for resource/non-stocked based scenarios
+       - name: August 2024 - Project Operations Integrated with ERP
          href: whats-new/whats-new-aug-2024-resource-based.md
-       - name: 2024 wave 2 early access - Project Operations for resource/non-stocked based scenarios
+       - name: 2024 wave 2 early access - Project Operations Integrated with ERP
          href: whats-new/whats-new-2024W2-resource-based.md 
-       - name: July 2024 - Project Operations for resource/non-stocked based scenarios
+       - name: July 2024 - Project Operations Integrated with ERP
          href: whats-new/whats-new-july-2024-resource-based.md
-       - name: June 2024 - Project Operations for resource/non-stocked based scenarios
+       - name: June 2024 - Project Operations Integrated with ERP
          href: whats-new/whats-new-june-2024-resource-based.md
-       - name: April 2024 - Project Operations for resource/non-stocked based scenarios
+       - name: April 2024 - Project Operations Integrated with ERP
          href: whats-new/whats-new-apr-2024-resource-based.md
-       - name: 2024 wave 1 early access - Project Operations for resource/non-stocked based scenarios
+       - name: 2024 wave 1 early access - Project Operations Integrated with ERP
          href: whats-new/whats-new-2024w1-resource-based.md
-       - name: March 2024 - Project Operations for resource/non-stocked based scenarios
+       - name: March 2024 - Project Operations Integrated with ERP
          href: whats-new/whats-new-mar-2024-resource-based.md
-       - name: February 2024 - Project Operations for resource/non-stocked based scenarios
+       - name: February 2024 - Project Operations Integrated with ERP
          href: whats-new/whats-new-feb-2024-resource-based.md
-       - name: December 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: December 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-dec-2023-resource-based.md
-       - name: November 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: November 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-nov-2023-resource-based.md
-       - name: October 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: October 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-oct-2023-resource-based.md
-       - name: September 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: September 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-sept-2023-resource-based.md
-       - name: What's new 2023 wave 1 early access - Project Operations for resource/non-stocked based scenarios
+       - name: What's new 2023 wave 1 early access - Project Operations Integrated with ERP
          href: whats-new/whats-new-2023W1-resource-based.md
-       - name: August 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: August 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-aug-2023-resource-based.md
-       - name: July 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: July 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-jul-2023-resource-based.md
-       - name: June 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: June 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-jun-2023-resource-based.md
-       - name: May 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: May 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-may-2023-resource-based.md
-       - name: April 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: April 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-apr-2023-resource-based.md
-       - name: March 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: March 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-mar-2023-resource-based.md
-       - name: February 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: February 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-feb-2023-resource-based.md
-       - name: January 2023 - Project Operations for resource/non-stocked based scenarios
+       - name: January 2023 - Project Operations Integrated with ERP
          href: whats-new/whats-new-jan-2023-resource-based.md
-       - name: November 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: November 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-nov-2022-resource-based.md
-       - name: October 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: October 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-oct-2022-resource-based.md
-       - name: September 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: September 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-sept-2022-resource-based.md
-       - name: August 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: August 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-aug-2022-resource-based.md
-       - name: July 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: July 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-july-2022-resource-based.md
-       - name: June 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: June 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-june-2022-resource-based.md
-       - name: May 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: May 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-may-2022-resource-based.md         
-       - name: April 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: April 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-apr-2022-resource-based.md      
-       - name: March 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: March 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-mar-2022-resource-based.md    
-       - name: February 2022 - Project Operations for resource/non-stocked based scenarios
+       - name: February 2022 - Project Operations Integrated with ERP
          href: whats-new/whats-new-feb-2022-resource-based.md
-       - name: December 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: December 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-dec-2021-resource-based.md
-       - name: November 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: November 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-nov-2021-resource-based.md
-       - name: October 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: October 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-oct-2021-resource-based.md
-       - name: September 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: September 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-sept-2021-resource-based.md
-       - name: August 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: August 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-august-2021-resource-based.md
-       - name: July 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: July 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-july-2021-resource-based.md
-       - name: June 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: June 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-june-2021-resource-based.md
-       - name: May 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: May 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-may-2021-resource-based.md
-       - name: April 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: April 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-apr-2021-resource-based.md
-       - name: March 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: March 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-mar-2021-resource-based.md
-       - name: February 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: February 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-feb-2021-resource-based.md
-       - name: January 2021 - Project Operations for resource/non-stocked based scenarios
+       - name: January 2021 - Project Operations Integrated with ERP
          href: whats-new/whats-new-jan-2021-resource-based.md
-       - name: December 2020 - Project Operations for resource/non-stocked based scenarios
+       - name: December 2020 - Project Operations Integrated with ERP
          href: whats-new/whats-new-dec-2020-resource-based.md
-       - name: November 2020 - Project Operations for resource/non-stocked based scenarios
+       - name: November 2020 - Project Operations Integrated with ERP
          href: whats-new/whats-new-nov-2020-resource-based.md
   - name: Project sales process
     items:
@@ -932,7 +932,7 @@
       href: troubleshooting/project-operations-integration/project-integration-workspace.md
     - name: Project Operations Actuals Synchronization & Reconciliation
       href: troubleshooting/project-operations-integration/manage-actuals-reconciliation.md
-- name: Lite deployment - deal to proforma invoicing
+- name: Core deployment - deal to proforma invoicing
   items:
   - name: Get started
     items:

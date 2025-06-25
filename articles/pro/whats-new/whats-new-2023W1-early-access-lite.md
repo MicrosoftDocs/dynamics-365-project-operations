@@ -12,7 +12,7 @@ ms.author: ramagadu
 
 # What's new 2023 wave 1 early access - Project Operations lite deployment
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 This article applies to the following Microsoft Dynamics 365 Project Operations components and versions:
 

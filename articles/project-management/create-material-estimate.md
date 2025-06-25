@@ -14,7 +14,7 @@ ms.author: abriccetti
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
 
 Dynamics 365 Project Operations allows Project managers to define project-based material costs for each project or task. Each material estimate can be associated with a specific project task. Materials that are used on projects can be write-in products or products from the product catalog. For each combination of a product and a unit, a price can be defined in the project price lists for sales and the project price lists for cost.  
 

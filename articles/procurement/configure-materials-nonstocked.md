@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Configure non-stocked materials and pending vendor invoices
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 ## Minimum version requirement
 

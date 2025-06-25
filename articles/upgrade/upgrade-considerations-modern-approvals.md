@@ -12,7 +12,7 @@ ms.author: suvaidya
 
 # Upgrade considerations for Modern Approvals 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 As part of the April 2022 Wave 1 Release, the Modern Approvals functionality is enabled by default. This functionality improves the reliability of the approval logic and ensures that you can determine the reason if the approval logic fails.
 

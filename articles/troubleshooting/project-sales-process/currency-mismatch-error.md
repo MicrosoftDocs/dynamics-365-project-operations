@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Currency mismatch error 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 When you save a project, contract, quote, or bookable resource, you might receive the error, **Owning company currency does not match the contracting unit currency. Pick different owning company or contracting unit to continue**. This is because there is a currency mismatch between the contracting unit currency for the record and the owning company currency.
 

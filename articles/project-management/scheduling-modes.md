@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Scheduling modes
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 
 Dynamics 365 Project Operations provides the ability for organizations to define how they manage changes to key variables in tasks within the work breakdown structure. Based on the specific needs of the organization, Project Managers can make changes to the scheduling mode when a project is created.

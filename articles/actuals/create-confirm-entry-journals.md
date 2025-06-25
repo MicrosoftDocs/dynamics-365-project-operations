@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 You use Entry journals to record actuals directly in Microsoft Dynamics 365 Project Operations. When you use Entry journals, you don't have to enter Time, Expense, and Material usage logs in Project Operations.
 

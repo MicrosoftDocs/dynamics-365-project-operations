@@ -10,7 +10,7 @@ ms.author: poojafandan
 
 # Copy project-based quotes
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 You can easily create new project quotes by copying existing quotes in one of two ways:
 

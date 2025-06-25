@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 You can create copies of price lists in Dynamics 365 Project Operations. For example, you can create price lists for the upcoming year using a price list from the current year.  Or, you might copy a price list for bill rates and sales prices from the price lists for cost. 
 

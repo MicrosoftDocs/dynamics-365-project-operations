@@ -1,6 +1,6 @@
 ---
-title: What's new June 2021 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates available in the June 2021 release of Project Operations for resource/non-stocked based scenarios.
+title: What's new June 2021 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates available in the June 2021 release of Project Operations Integrated with ERP.
 author: sigitac
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new June 2021 - Project Operations for resource/non-stocked based scenarios
+# What's new June 2021 - Project Operations Integrated with ERP
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This article applies to the following Dynamics 365 Project Operations components and versions:
 

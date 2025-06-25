@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 In Dynamics 365 Project Operations, a project contract line has details that help estimate the cost and potential revenue of the work involved to deliver the contract line.
 

@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Organizations often require employees to provide a detailed breakdown of expenses incurred during travel. For example, a hotel folio may contain several itemized lines for room rate, tax, parking, and other miscellaneous expenses incurred each day during the duration of stay. Or a meal expense may require that you provide a more granular breakdown for breakfast, lunch, or dinner. Whatever the needs of the organization, each expense category can be set up to reflect the subcategories or the line items that make up an expense. While itemization has always been supported in **Expense management**, the **Reimagined expense** workspace enables more efficient itemization when the feature, **Ability to itemize recurring expenses quickly** is enabled.  
 

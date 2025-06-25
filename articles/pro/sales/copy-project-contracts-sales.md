@@ -14,7 +14,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 You can easily create new project contracts by making copies of existing contracts in one of two ways: 
 

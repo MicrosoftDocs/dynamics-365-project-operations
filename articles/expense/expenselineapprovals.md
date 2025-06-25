@@ -14,7 +14,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations for stocked/production-based scenarios_
 
 This article explains how to use the Microsoft Dynamics 365 expense management mobile app to approve, reject, or delegate expense lines.
 

@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios,Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP,Core deployment - deal to proforma invoicing_
 
 Generic project team members can be staffed with employees or contract workers. When staffing a project with contract workers, you can limit your staffing options to specific contract workers that are assigned to a subcontract line. 
 

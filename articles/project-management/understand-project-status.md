@@ -12,7 +12,7 @@ ms.author: ruhercul
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 
 The **Status** section on the **Project Entity** page provides a summary of a project's health based upon cost and effort.

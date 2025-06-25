@@ -1,6 +1,6 @@
 ---
 title: Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
-description: This article provides information about how to subscribe to and deploy Project Operations for resource/non-stocked based scenarios.
+description: This article provides information about how to subscribe to and deploy Project Operations Integrated with ERP.
 author: mukumarm
 ms.author: mukumarm
 ms.date: 05/22/2024
@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 

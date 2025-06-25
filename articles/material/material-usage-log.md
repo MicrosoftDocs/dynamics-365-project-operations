@@ -14,7 +14,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies to:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 As a project team works through tasks on a project, they consume or use materials. A material usage log provides a way to record this usage so that it can be approved by the project manager and eventually invoiced to the customer. 
 

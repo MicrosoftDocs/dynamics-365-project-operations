@@ -1,5 +1,5 @@
 ---
-title: What's new 2024 wave 2 early access - Project Operations for resource/non-stocked based scenarios
+title: What's new 2024 wave 2 early access - Project Operations Integrated with ERP
 description: This article provides information about the features available in the 2024 wave 2 early access release of Project Operations resource/non-stocked based scenarios deployment.
 author: mohitmenon
 ms.custom:
@@ -10,9 +10,9 @@ ms.topic: whats-new
 ms.author: mohitmenon
 ---
 
-# What's new 2024 Wave 2 early access - Project Operations for resource/non-stocked based scenarios
+# What's new 2024 Wave 2 early access - Project Operations Integrated with ERP
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This article applies to the following Microsoft Dynamics 365 Project Operations components and versions:
 

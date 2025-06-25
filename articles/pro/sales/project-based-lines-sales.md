@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 Project opportunity lines are only available in project-based opportunities. Project-based opportunity records have the **Type** field value set to **Work-based**.
 

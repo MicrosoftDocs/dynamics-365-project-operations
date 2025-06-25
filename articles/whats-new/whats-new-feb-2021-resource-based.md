@@ -1,6 +1,6 @@
 ---
-title: What's new February 2021 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates available in the February 2021 release of Project Operations for resource/non-stocked based scenarios.
+title: What's new February 2021 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates available in the February 2021 release of Project Operations Integrated with ERP.
 author: sigitac
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new February 2021 - Project Operations for resource/non-stocked based scenarios
+# What's new February 2021 - Project Operations Integrated with ERP
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This article applies to the following Dynamics 365 Project Operations components and versions:
 
@@ -42,7 +42,7 @@ This article applies to the following Dynamics 365 Project Operations components
 
 ### Project management and accounting in Dynamics 365 Finance 
 
-For more information about Project management and accounting in Dynamics 365 Finance, see [What's new January 2021 - Project Operations for resource/non-stocked based scenarios](whats-new-jan-2021-resource-based.md).
+For more information about Project management and accounting in Dynamics 365 Finance, see [What's new January 2021 - Project Operations Integrated with ERP](whats-new-jan-2021-resource-based.md).
 
 
 ## Regulatory updates

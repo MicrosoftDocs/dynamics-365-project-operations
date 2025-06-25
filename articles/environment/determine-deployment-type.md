@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 > [!IMPORTANT]
 > After you purchase the license, start here to determine the best deployment model of Dynamics 365 Project Operations using the [Guided installation flow](https://aka.ms/provisionprojectoperations).
@@ -25,7 +25,7 @@ Project Operations includes the capabilities that shipped with Project Service A
 
 ## Existing customers of Dynamics 365 Finance using Project management and accounting 
 
-Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is. See [Project Operations for stocked/production order scenarios](#pma).
+Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is. See [Project Operations for manufacturing](#pma).
 
 > [!NOTE]
 > If you're currently using a stocked/production order deployment type, you can now to move to the modern architecture of Project Operations. For more details, see [Move to the modern architecture](../prod-pma/move-to-modern-architecture.md).
@@ -40,11 +40,11 @@ Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will h
 
 - [Lite deployment – deal to proforma invoicing](#lite)
 - [Project Operations for resource/non-stocked scenarios](#integrated)
-- [Project Operations for stocked/production order scenarios](#pma)
+- [Project Operations for manufacturing](#pma)
 
 Project Operations support stocked/production order scenarios and non-stocked/resource-based scenarios on the same environment through legal entity-level configurations. For example, Contoso can use the stocked/production order capabilities in their US manufacturing facility (Legal entity = Contoso Manufacturing United States). Contoso can use the non-stocked/resource-based capabilities in their Contoso Robotics Arms servicing facility in UK (Legal entity = Contoso Robotics United Kingdom).
 
-### <a  name="lite"></a>Lite deployment - deal to proforma invoicing
+### <a  name="lite"></a>Core deployment - deal to proforma invoicing
 
 The lite deployment includes the following capabilities:
 
@@ -87,7 +87,7 @@ Determine the best deployment model of Project Operations using the [Deployment 
 For this deployment, see [Sign-up for preview subscriptions](resource-sign-up-preview-subscription.md) and [Provision new environment](resource-provision-new-environment.md). 
 
 
-### <a name="pma"></a>Project Operations for stocked/production order scenarios
+### <a name="pma"></a>Project Operations for manufacturing
 
 - Project planning using WBS
 - Resource management

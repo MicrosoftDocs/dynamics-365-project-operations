@@ -15,7 +15,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 The Lite deployment type of Dynamics 365 Project Operations has the following capabilities for project-based companies:
 

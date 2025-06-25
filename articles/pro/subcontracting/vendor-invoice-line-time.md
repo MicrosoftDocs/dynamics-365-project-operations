@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 A vendor invoice in Microsoft Dynamics 365 Project Operations can have vendor invoice lines for time. Project managers can use vendor invoice lines for time to record the costs of subcontractor time on projects.
 

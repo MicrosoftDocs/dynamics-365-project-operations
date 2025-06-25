@@ -15,7 +15,7 @@ ms.author: abriccetti
 [!INCLUDE[banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 Each price list has a set of role prices or labor rates that are effective for the context and date effectivity that are included on the price list header. Bill rates for time in Microsoft Dynamics 365 Project Operations can be set up in only one currency, which is the currency on the price list header.
 

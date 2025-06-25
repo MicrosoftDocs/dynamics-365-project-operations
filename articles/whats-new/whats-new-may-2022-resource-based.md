@@ -1,6 +1,6 @@
 ---
-title: What's new May 2022 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates that are available in the May 2022 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
+title: What's new May 2022 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates that are available in the May 2022 release of Microsoft Dynamics 365 Project Operations Integrated with ERP.
 author: sigitac
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new May 2022 - Project Operations for resource/non-stocked based scenarios
+# What's new May 2022 - Project Operations Integrated with ERP
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

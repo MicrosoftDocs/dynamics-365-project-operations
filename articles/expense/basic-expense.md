@@ -14,7 +14,7 @@ ms.author: mohitmenon
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies to:** Lite deployment - deal to proforma invoicing_
+_**Applies to:** Core deployment - deal to proforma invoicing_
 
 Basic, or Lite, expense management is the capability to record simple expenses. You can record expenses against a project, and then the project approver reviews and approves them.
 

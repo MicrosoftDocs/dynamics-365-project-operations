@@ -13,14 +13,14 @@ ms.author: abriccetti
 
 # Project Operations Updates
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios_
 
 ## Project Operations Components
 
 Dynamics 365 Project Operations consists of two components:
 
 - Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the lite deployment and resource/non-stocked scenarios deployment of Project Operations.
-- Project Management and Accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The finance and operations apps environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
+- Project Management and Accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The finance and operations apps environment is used in Project Operations Integrated with ERP and Project Operations for stocked/production-based scenarios.
 
 ## Project Operations Station & Geographical Regions
 

@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_Applies To: Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_Applies To: Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 If a developer adds customized payment term options to the account entity, they must also add them to the option set in the **Quote customer** and **Project contract customer** entities. Otherwise, the following error message can be shown in all scenarios that involve the creation of a quote customer or a project contract customer:
 

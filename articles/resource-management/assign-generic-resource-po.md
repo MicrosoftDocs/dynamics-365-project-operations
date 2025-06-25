@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 ---
 # Assign generic bookable resources to a task and generate resource requirements 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 In addition to booking and assigning named or real resources to your project, you can assign generic resources to project tasks. These resources can serve as placeholders for named resources until you're ready to staff your project with named resources. 
 

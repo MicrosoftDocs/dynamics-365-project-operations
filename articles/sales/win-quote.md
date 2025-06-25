@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Close project-based quotes
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 A project quote can be closed as **Won** or **Lost**. 
 

@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
 
 
 

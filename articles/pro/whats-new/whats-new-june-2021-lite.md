@@ -12,7 +12,7 @@ ms.author: sigitac
 
 # What's new June 2021 - Project Operations lite deployment
 
-_Applies To: Lite deployment - deal to proforma invoicing_
+_Applies To: Core deployment - deal to proforma invoicing_
 
 This article applies to the following Dynamics 365 Project Operations components and versions:
 

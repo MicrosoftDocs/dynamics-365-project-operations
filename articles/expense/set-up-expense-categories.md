@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 When employees create expense reports, each expense that they record must be associated with an expense category. Expense categories are derived from shared categories that can be shared across the legal entities in your organization. Depending on how your organization is defined, these expense categories can also be shared in other areas. Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.
 

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Manage project-based leads
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Project-based leads can be managed and qualified in Project Operations. The process of lead management includes creating work-based leads and qualifying those leads. 
 
@@ -53,7 +53,7 @@ For more detailed information on qualifying leads, see [Qualify or convert leads
 
 ## Lead qualification and legal entity information 
 
-When you run Project Operations using the deployment mode, Project Operations for resource/non-stocked based scenarios, each customer and opportunity will require having the **Owning Company** field set. The Owning company is a legal entity in your organization that owns the delivery of the project. Each customer, or account with relationship type of customer, must have the **Owning Company** field value set to the legal entity that contracts and negotiates with this customer. A customer can only be in one legal entity.
+When you run Project Operations using the deployment mode, Project Operations Integrated with ERP, each customer and opportunity will require having the **Owning Company** field set. The Owning company is a legal entity in your organization that owns the delivery of the project. Each customer, or account with relationship type of customer, must have the **Owning Company** field value set to the legal entity that contracts and negotiates with this customer. A customer can only be in one legal entity.
 
 When a lead is qualified, the customer and opportunity records created will have the **Owning Company** field set to the company of the current user's bookable resource record.
 

@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Add team members from the Team member grid
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Dynamics 365 Project Operations includes a Resource manager dashboard that provides a visual overview of resource demand and utilization throughout the organization. You can use the charts on this dashboard to visualize the following information:
 
