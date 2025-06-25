@@ -82,30 +82,30 @@ To view and activate the flows, follow these steps.
 
 There are **12** Power Automate flows (cloud flows). They must be activated in the following order:
 
-1. Create or Update User Configuration for Time Entry feature of the Time and Expense Agent
-1. Get Time Entries
-1. Filter Duplicates
-1. Import from Sources and Filter
+1. "Create or Update User Configuration for Time Entry..."
+1. "Get Time Entries"
+1. "Filter Duplicates"
+1. "Import from Sources and Filter"
 
     (This flow is a parent of flow 3, "Filter Duplicates.")
 
-1. Import from Grid and Filter
+1. "Import from Grid and Filter"
 
     (This flow is a parent of flow 3, "Filter Duplicates.")
 
-1. Send Summary and Daywise Adaptive Card
-1. Create Time Entries and Notify
+1. "Send Summary and Daywise Adaptive Card"
+1. "Create Time Entries and Notify"
 
     (This flow is a parent of flow 6, "Send Summary and Daywise Adaptive Card.")
 
-1. Time agent Periodic Import Child
-1. Time agent Periodic Import
+1. "Time agent Periodic Import Child"
+1. "Time agent Periodic Import"
 
     (This flow is a parent of flow 8, "Time agent Periodic Import Child.")
 
-1. Generate External Comments
-1. Send Missing Time Entries Alert
-1. Generate External Comments and Send Missing Time Entries Alert
+1. "Generate External Comments"
+1. "Send Missing Time Entries Alert"
+1. "Generate External Comments and Send Missing Time Entries Alert"
 
     (This flow is a parent of flow 10, "Generate External Comments," and flow 11, "Send Missing Time Entries Alert.")
 
@@ -161,7 +161,7 @@ The feature can be disabled at any time after it's enabled.
 After you activate all the Power Automate flows and enable the feature flag, the last step for an administrator is to publish the agent to users in your organization from Copilot Studio.
 
 > [!IMPORTANT]
-> Before you begin this step, ensure that all the required flows are in the **ON** state (activated). If any flow isn't activated, the Time Entry feature of the Time and Expense Agent might not work as expected. If the **Create or Update User Configuration for Time Entry feature of the Time and Expense Agent** flow isn't activated, the agent can't even be published.
+> Before you begin this step, ensure that all the required flows are in the **ON** state (activated). If any flow isn't activated, the Time Entry feature of the Time and Expense Agent might not work as expected. If the **"Create or Update User Configuration for Time Entry..."** flow isn't activated, the agent can't even be published.
 
 To publish the agent, follow these steps.
 
