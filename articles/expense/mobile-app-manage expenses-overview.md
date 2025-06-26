@@ -14,7 +14,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 
 This article explains how to manage expenses, expense reports, and receipts by using the Dynamics 365 expense management mobile app.
 

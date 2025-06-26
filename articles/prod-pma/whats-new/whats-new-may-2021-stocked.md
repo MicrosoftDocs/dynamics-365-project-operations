@@ -1,6 +1,6 @@
 ---
-title: What's new or changed in Project Operations, May 2021 for stocked/production-based scenarios
-description: This article provides information about the quality updates available in the May 2021 release of Project Operations for stocked/production-based scenarios.
+title: What's new or changed in Project Operations, May 2021 for manufacturing-based scenarios
+description: This article provides information about the quality updates available in the May 2021 release of Project Operations for manufacturing-based scenarios.
 author: andchoi
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
 
-# What's new or changed in Project Operations, May 2021 for stocked/production-based scenarios
+# What's new or changed in Project Operations, May 2021 for manufacturing-based scenarios
 
-_**Applies To:** Project Operations for stocked/production-based scenarios
+_**Applies To:** Project Operations for manufacturing-based scenarios
 
 This article applies to the following Dynamics 365 Project Operations components and versions:
 

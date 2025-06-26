@@ -1,6 +1,6 @@
 ---
-title: Create and confirm Entry journals for resource/non-stocked based scenarios
-description: This article provides information about how to create and confirm Entry journals for resource/non-stocked based scenarios in Microsoft Dynamics 365 Project Operations.
+title: Create and confirm Entry journals for Project Operations Integrated with ERP based scenarios
+description: This article provides information about how to create and confirm Entry journals for Project Operations Integrated with ERP based scenarios in Microsoft Dynamics 365 Project Operations.
 author: abriccetti
 ms.author: abriccetti
 ms.date: 06/10/2025
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Create and confirm Entry journals for resource/non-stocked based scenarios
+# Create and confirm Entry journals for Project Operations Integrated with ERP based scenarios
 
 [!INCLUDE[banner](../includes/banner.md)]
 

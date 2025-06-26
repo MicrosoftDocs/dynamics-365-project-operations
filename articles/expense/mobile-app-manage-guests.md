@@ -11,7 +11,7 @@ ms.author: mukumarm
 
 [!include [banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for stocked and resource/non-stocked based scenarios._
+_**Applies To:** Project Operations for stocked and Project Operations Integrated with ERP based scenarios._
 
 In some cases, employees must cover expenses that involve guests. When these employees submit expenses, their organization requires that they include guest details together with the expense information. The guests might be colleagues (coworkers) within the organization or external individuals.
 

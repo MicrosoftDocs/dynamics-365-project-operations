@@ -1,6 +1,6 @@
 ---
-title: What's new or changed in Project Operations, October 2022 for stocked/production-based scenarios
-description: This article provides information about the quality updates that are available in the October 2022 release of Microsoft Dynamics 365 Project Operations for stocked/production-based scenarios.
+title: What's new or changed in Project Operations, October 2022 for manufacturing-based scenarios
+description: This article provides information about the quality updates that are available in the October 2022 release of Microsoft Dynamics 365 Project Operations for manufacturing-based scenarios.
 author: ramagadu
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# What's new or changed in Project Operations, October 2022 for stocked/production-based scenarios
+# What's new or changed in Project Operations, October 2022 for manufacturing-based scenarios
 
-_**Applies To:** Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for manufacturing-based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

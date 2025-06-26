@@ -1,6 +1,6 @@
 ---
-title: Project Operations for stocked/production-based scenarios deployment overview
-description: This article provides information about the deployment type, Project Operations for stocked/production-based scenarios.
+title: Project Operations for manufacturing-based scenarios deployment overview
+description: This article provides information about the deployment type, Project Operations for manufacturing-based scenarios.
 author: poojafandan
 ms.date: 06/10/2024
 ms.topic: overview
@@ -11,9 +11,9 @@ ms.author: poojafandan
 
 ---
 
-# Project Operations for stocked/production-based scenarios deployment overview
+# Project Operations for manufacturing-based scenarios deployment overview
 
-_**Applies To:** Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for manufacturing-based scenarios_
 
 
 This deployment type has the following capabilities for project-based companies:

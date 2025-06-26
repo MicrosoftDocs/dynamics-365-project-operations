@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing, Project Operations for manufacturing-based scenarios_ 
 
 Project-based companies often have the need for one resource to fill multiple roles on a project. Each role can be priced and costed differently. This means that the same resource's time on a project could get a different financial estimate depending on the bill and cost rates for each role. You can set up the values on the team member record for the named resource with different overrides on each of the tasks that the team member is assigned to.
 

@@ -19,7 +19,7 @@ _**Applies To:** Project Operations Integrated with ERP_
 
 
 
-This article explains how to subscribe to the trial offer and deploy Project Operations environment for resource/non-stocked based scenarios.
+This article explains how to subscribe to the trial offer and deploy Project Operations environment for Project Operations Integrated with ERP based scenarios.
 
 ## Prerequisites
 - The user who deploys the preview must have tenant administrator rights. You can create a tenant during the first offer redemption. 
@@ -66,7 +66,7 @@ Create a new LCS project as described in the article, [Start a new project in LC
 
 To complete this task, follow the steps in the article, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).
 
-## Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios
+## Deploy Finance demo environment with Project Operations for Project Operations Integrated with ERP scenarios
 
 Follow the guidance in the article, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
 

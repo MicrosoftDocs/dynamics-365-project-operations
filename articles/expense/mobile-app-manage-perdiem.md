@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 [!include [banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for stocked and resource/non-stocked based scenarios._
+_**Applies To:** Project Operations for stocked and Project Operations Integrated with ERP based scenarios._
 
 Per diem expenses refer to daily allowances that are provided to cover the expenses that employees incur while they travel for business purposes. These expenses typically include meals, lodging, and incidental expenses such as transportation and tips. Per diem rates can vary, depending on factors such as the destination, the length of the stay, and the employer's policies.
 

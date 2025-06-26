@@ -1,6 +1,6 @@
 ---
 title: What's new 2025 wave 1 early access - Project Operations Integrated with ERP
-description: Learn about the features available in the 2025 wave 1 early access release of Project Operations resource/non-stocked based scenarios deployment.
+description: Learn about the features available in the 2025 wave 1 early access release of Project Operations Project Operations Integrated with ERP based scenarios deployment.
 author: mohitmenon
 ms.custom:
   - evergreen

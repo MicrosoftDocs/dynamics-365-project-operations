@@ -28,7 +28,7 @@ Project Operations includes the capabilities that shipped with Project Service A
 Existing customers of Finance who use the Project management and accounting functionality can continue to use it as is. See [Project Operations for manufacturing](#pma).
 
 > [!NOTE]
-> If you're currently using a stocked/production order deployment type, you can now to move to the modern architecture of Project Operations. For more details, see [Move to the modern architecture](../prod-pma/move-to-modern-architecture.md).
+> If you're currently using a Project Operations for manufacturing order deployment type, you can now to move to the modern architecture of Project Operations. For more details, see [Move to the modern architecture](../prod-pma/move-to-modern-architecture.md).
 
 ## Deployment regions
 To determine which regions support Project Operations deployment, see [Geographical availability for Dynamics 365 and Power Platform report](https://dynamics.microsoft.com/en-us/geographic-availability/). Select **View Report**, and expand **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** to view the supported regions.
@@ -39,7 +39,7 @@ Project Operations supports multiple deployment options to match your requiremen
 Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will help you determine the right deployment. The results will guide you toward one of the following deployment types:
 
 - [Core deployment – deal to proforma invoicing](#lite)
-- [Project Operations for resource/non-stocked scenarios](#integrated)
+- [Project Operations for Project Operations Integrated with ERP scenarios](#integrated)
 - [Project Operations for manufacturing](#pma)
 
 Project Operations support stocked/production order scenarios and non-stocked/resource-based scenarios on the same environment through legal entity-level configurations. For example, Contoso can use the stocked/production order capabilities in their US manufacturing facility (Legal entity = Contoso Manufacturing United States). Contoso can use the non-stocked/resource-based capabilities in their Contoso Robotics Arms servicing facility in UK (Legal entity = Contoso Robotics United Kingdom).
@@ -65,8 +65,8 @@ Determine the best deployment model of Project Operations using the [Deployment 
 For this deployment, see [Sign-up for preview subscriptions](lite-preview-subscription-sign-up.md) and [Provision new environment](lite-deployment.md). 
 
 
-### <a name="integrated"></a>Project Operations for resource/non-stocked scenarios
-The Project Operations for resource/non-stocked scenarios includes the following capabilities:
+### <a name="integrated"></a>Project Operations for Project Operations Integrated with ERP scenarios
+The Project Operations for Project Operations Integrated with ERP scenarios includes the following capabilities:
  
 - Sales process for projects that extends the Dynamics 365 Sales application
 - Project planning using Microsoft Project for the Web

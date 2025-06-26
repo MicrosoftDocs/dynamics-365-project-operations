@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 
 This article provides information about the new Dynamics 365 expense management mobile app. The Dynamics 365 expense management mobile app is developed by using a Microsoft Power Apps canvas app and can be accessed from the Power Apps mobile app. The Dynamics 365 expense management mobile app is a powerful solution that's designed to simplify and enhance the expense reimbursement process and increase user productivity. Thanks to its focus on intuitiveness and ease of use, the expense management mobile app offers a range of features that make expense reporting seamless and efficient.
 

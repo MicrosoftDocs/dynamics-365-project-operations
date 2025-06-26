@@ -25,7 +25,7 @@ This article contains a list of resources by deployment type that you can use to
 - [Troubleshoot working in the Task grid](../project-management/projectplanninguifaq.md).
 
 
-## Project Operations for stocked/production based scenarios
+## Project Operations for manufacturing based scenarios
 
 - [Troubleshoot working in the Task grid](../project-management/projectplanninguifaq.md).
 

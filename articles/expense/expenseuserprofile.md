@@ -14,7 +14,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 
 This article explains how to use the Microsoft Dynamics 365 expense management mobile app to manage the user profiles and notifications that are required to create or manage expenses.
 

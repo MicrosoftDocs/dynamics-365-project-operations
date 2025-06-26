@@ -1,6 +1,6 @@
 ---
-title: What's new or changed in 2024 Wave 1 Early access release of Project Operations for stocked/production-based scenarios
-description: This article provides information about the quality updates that are available in the 2024 Wave 1 Early access release of Microsoft Dynamics 365 Project Operations for stocked/production-based scenarios.
+title: What's new or changed in 2024 Wave 1 Early access release of Project Operations for manufacturing-based scenarios
+description: This article provides information about the quality updates that are available in the 2024 Wave 1 Early access release of Microsoft Dynamics 365 Project Operations for manufacturing-based scenarios.
 author: tulsijhaveri
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---
 
-# What's new or changed in 2024 Wave 1 Early access release of Project Operations for stocked/production-based scenarios
+# What's new or changed in 2024 Wave 1 Early access release of Project Operations for manufacturing-based scenarios
 
-_**Applies To:** Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for manufacturing-based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

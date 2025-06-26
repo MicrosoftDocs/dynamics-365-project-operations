@@ -1,6 +1,6 @@
 ---
 title: Move to the modern architecture
-description: Learn how to use the modern architecture and move to the resource/non-stocked deployment if you have a legal entity that currently uses the stocked/production order deployment.
+description: Learn how to use the modern architecture and move to the Project Operations Integrated with ERP deployment if you have a legal entity that currently uses the Project Operations for manufacturing order deployment.
 #customer intent: As an IT admin, I want to enable the modern architecture for existing legal entities with project data so that I can improve project management capabilities.
 author: ryansandness
 ms.date: 03/11/2025

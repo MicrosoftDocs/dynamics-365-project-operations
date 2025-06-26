@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Item requirements for project contracts with multiple funding sources
 
-_**Applies To:** Project Operations for stocked/production based scenarios_
+_**Applies To:** Project Operations for manufacturing based scenarios_
 
 Some contractual agreements for project-based deliverables might require multiple funding sources. This article explains how to select and configure the desired funding sources when multiple sources are required for a project or project contract.
 
@@ -32,7 +32,7 @@ Contoso has won an equipment renewal contract with two of its customers: Adatum 
 ### Prerequisites
 
 - Microsoft Dynamics 365 Finance **version 10.0.27 or later** is required to use item requirements that have multiple invoice accounts.
-- Your system administrator must enable the **Allow Item requirements with multiple funding sources for Project Operations stocked/production-based scenarios** feature in the **Feature management** workspace.
+- Your system administrator must enable the **Allow Item requirements with multiple funding sources for Project Operations manufacturing-based scenarios** feature in the **Feature management** workspace.
 
 ### Set up the invoice account defaulting rules
 

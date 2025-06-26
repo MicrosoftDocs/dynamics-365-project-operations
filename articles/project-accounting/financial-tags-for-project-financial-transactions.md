@@ -14,7 +14,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Project Operations for stocked/production-based scenarios._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios._
 
 Financial tags enable organizations to track user-defined fields on accounting entries that are posted to the general ledger. Therefore, they don't have to create financial dimensions that contain values that aren't reusable. Financial tags on posted transactions can be used for reporting or analysis.
 
@@ -26,7 +26,7 @@ Financial tags for project-based transactions are available as of the 10.0.44 re
 
 In addition, some transactions might require other features as prerequisites before financial tags can be used. For example, sales orders and item requirement transactions require the **Enable financial tags for sales order invoicing** feature, and purchase orders and vendor invoices require the **Enable financial tags for purchase order invoicing** feature.
 
-For stocked/production-based scenarios, the following enhancements are available:
+For manufacturing-based scenarios, the following enhancements are available:
 
 - Financial tags can be entered on the **Financial tags** tab of project sales orders and item requirements.
 - Financial tags are available on the **Financial tags** tab on the header of all four project journals. They are also available in a new field on journal lines.
@@ -35,7 +35,7 @@ For stocked/production-based scenarios, the following enhancements are available
 - Financial tags are carried forward into the voucher for the project invoice.
 - Accrue Revenue carries financial tags forward.
 
-For resource/non-stocked based scenarios, the following enhancements are available:
+For Project Operations Integrated with ERP based scenarios, the following enhancements are available:
 
 - Financial tags are available on the **Financial tags** tab on the header of the integration journal for hours, expenses, fees, and materials. They are also available in a new field on journal lines.
 - Financial tags are present in the financial voucher posting for the document.

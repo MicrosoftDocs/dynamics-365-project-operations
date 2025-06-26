@@ -17,11 +17,11 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-This article explains how to install dual-write maps required for Microsoft Dynamics 365 Project Operations for resource/non-stocked scenarios.
+This article explains how to install dual-write maps required for Microsoft Dynamics 365 Project Operations for Project Operations Integrated with ERP scenarios.
 
 ## Prerequisites
 
-To install dual-write maps required by Project Operations for resource/non-stocked scenarios, the following prerequisites must be met: 
+To install dual-write maps required by Project Operations for Project Operations Integrated with ERP scenarios, the following prerequisites must be met: 
 
 1. Install required Apps for Dataverse environment.
 1. Install required solutions for finance and operations apps.

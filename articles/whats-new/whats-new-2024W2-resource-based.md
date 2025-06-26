@@ -1,6 +1,6 @@
 ---
 title: What's new 2024 wave 2 early access - Project Operations Integrated with ERP
-description: This article provides information about the features available in the 2024 wave 2 early access release of Project Operations resource/non-stocked based scenarios deployment.
+description: This article provides information about the features available in the 2024 wave 2 early access release of Project Operations Project Operations Integrated with ERP based scenarios deployment.
 author: mohitmenon
 ms.custom:
   - evergreen

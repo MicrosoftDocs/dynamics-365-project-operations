@@ -149,7 +149,7 @@ When you make one or more updates to the WBS, the changes fail and aren't saved.
   - Dataverse User or Base User
   - Project Operations System
   - Project System
-  - Project Operations Dual-write System. This role is required for the resource/non-stocked based deployment scenario of Project Operations.
+  - Project Operations Dual-write System. This role is required for the Project Operations Integrated with ERP based deployment scenario of Project Operations.
 
 ## Issue 5: Permission error while updating a project
 

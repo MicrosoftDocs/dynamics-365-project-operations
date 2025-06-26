@@ -19,7 +19,7 @@ _**Applies To:** Project Operations Integrated with ERP_
 
 
 
-Dynamics 365 Project Operations for resource/non-stocked scenarios consists of two components: 
+Dynamics 365 Project Operations for Project Operations Integrated with ERP scenarios consists of two components: 
 
  - **Project Operations on Common Data Service (CDS) environment**: This component covers capabilities and processes from opportunity to proforma invoicing. 
  - **Project management and accounting on Dynamics 365 Finance environment**: This component covers expense management capabilities, project accounting, and revenue recognition. 

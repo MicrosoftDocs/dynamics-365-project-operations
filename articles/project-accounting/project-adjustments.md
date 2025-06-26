@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Project adjustments
 
-_**Applies To:** Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for manufacturing-based scenarios_
 
 ## Adjustments overview
 
