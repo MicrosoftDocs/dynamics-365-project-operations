@@ -101,7 +101,7 @@ additionalContent:
     - title: Administer and develop
       links:
       - url: environment/lite-deployment.md
-        text: Deploy Project Operations Lite
+        text: Deploy Project Operations Core deployment - deal to proforma invoicing
       - url: environment/lite-apply-demo-setup-config-data.md
         text: Apply demo setup and configuration data
       - url: environment/dsr-rights-requests.md
