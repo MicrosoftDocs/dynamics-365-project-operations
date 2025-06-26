@@ -23,19 +23,19 @@ After an administrator completes all the steps in [Enable the Time Entry feature
 
 To begin to use the agent through Teams, each user must complete the following steps.
 
-1. Add the **Time and Expense Agent** Teams app.
+1. Add the Teams app for time entry.
 1. Give the agent consent to create time entries, and set some preferences.
 
-## Add the Time and Expense Agent Teams app
+## Add the Teams app
 
 After your organization enables the agent and shares it with you, follow these steps to access it as a Teams app.
 
-1. Open your Teams app or Teams in the browser, and sign in by using the same credentials that you use to sign in to your Microsoft Dynamics 365 Project Operations environment.
+1. Open Microsoft Teams app or Microsoft Teams in the browser, and sign in by using the same credentials that you use to sign in to your Microsoft Dynamics 365 Project Operations environment.
 1. Go to the **Apps** section.
-1. In the **Built for your organization** or **Added by your org** section, find the **Time and Expense Agent** app, and select the **Add** button for it.
+1. In the **Built for your organization** or **Added by your org** section, look for the Teams app for time entry, and select the **Add** button for it.
 
     > [!IMPORTANT]
-    > If the **Time and Expense Agent** Teams app doesn't appear among the Teams apps that are available to you, contact your administrator.
+    > If the Teams app for time entry doesn't appear among the apps that are available to you, contact your administrator.
 
 1. If a pop-up window appears and provides more details about the app, select **Add**.
 1. After the app is added, select **Open** to open it. You're taken to a Teams chat where all interactions with the Time Entry feature of the Time and Expense Agent occur.
