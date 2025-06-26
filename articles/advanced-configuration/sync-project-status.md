@@ -19,7 +19,7 @@ _**Applies To:** Project Operations Integrated with ERP_
 
 ## Scenario
 
-Contoso is live with Microsoft Dynamics 365 Project Operations for Project Operations Integrated with ERP scenarios. As part of normal business activities, projects may be completed or put on hold. You can inactivate the project to ensure no expenses or invoices are generated.
+Contoso is live with Microsoft Dynamics 365 Project Operations Integrated with ERP scenarios. As part of normal business activities, projects may be completed or put on hold. You can inactivate the project to ensure no expenses or invoices are generated.
 
 ## Solution
 

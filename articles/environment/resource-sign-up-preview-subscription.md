@@ -66,7 +66,7 @@ Create a new LCS project as described in the article, [Start a new project in LC
 
 To complete this task, follow the steps in the article, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).
 
-## Deploy Finance demo environment with Project Operations for Project Operations Integrated with ERP scenarios
+## Deploy Finance demo environment with Project Operations Integrated with ERP scenarios
 
 Follow the guidance in the article, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
 

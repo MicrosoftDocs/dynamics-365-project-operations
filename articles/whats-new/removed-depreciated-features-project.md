@@ -81,7 +81,7 @@ Similarly, we have decided to keep the Project management and accounting paramet
 
 | &nbsp; | &nbsp; |
 |--------|--------|
-| **Reason for deprecation/removal** | Deprecated due to low usage. Customers using Project Operations for Project Operations Integrated with ERP scenarios can use[Collaboration with Office Groups](../project-management/collaboration-groups.md). |
+| **Reason for deprecation/removal** | Deprecated due to low usage. Customers using Project Operations Integrated with ERP scenarios can use[Collaboration with Office Groups](../project-management/collaboration-groups.md). |
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application  |
 | **Deployment option** | Project Operations for production/stocked scenarios |

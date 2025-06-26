@@ -19,7 +19,7 @@ _**Applies To:** Project Operations Integrated with ERP_
 
 ## Scenario
 
-Contoso is going live with Microsoft Dynamics 365 Project Operations for Project Operations Integrated with ERP scenarios. As part of the cutover activities, the implementation team must migrate open project contracts from the old system. Some of the project contracts include contract lines that use the fixed-price billing method and have already been partially invoiced to the end customer. The implementation team must migrate these billing milestones as **Customer invoice posted**, because they must be included in the total contract value for revenue recognition purposes. However, customer balances in Accounts receivable and General ledger must not be affected.
+Contoso is going live with Microsoft Dynamics 365 Project Operations Integrated with ERP scenarios. As part of the cutover activities, the implementation team must migrate open project contracts from the old system. Some of the project contracts include contract lines that use the fixed-price billing method and have already been partially invoiced to the end customer. The implementation team must migrate these billing milestones as **Customer invoice posted**, because they must be included in the total contract value for revenue recognition purposes. However, customer balances in Accounts receivable and General ledger must not be affected.
 
 ## Solution
 

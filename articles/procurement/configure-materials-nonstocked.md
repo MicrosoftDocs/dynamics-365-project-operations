@@ -79,7 +79,7 @@ Review the project cost and revenue profiles, and configure ledger posting setup
 
 ### Set up a write-in product
 
-In Project Operations, you can record material estimates and usage for catalog products that are configured in the released product catalog and for write-in products. Using write-in products requires a single released product that's configured in Finance for this purpose. Complete the following steps to configure a write-in product. Repeat these steps in each legal entity that is using Project Operations for Project Operations Integrated with ERP scenarios.
+In Project Operations, you can record material estimates and usage for catalog products that are configured in the released product catalog and for write-in products. Using write-in products requires a single released product that's configured in Finance for this purpose. Complete the following steps to configure a write-in product. Repeat these steps in each legal entity that is using Project Operations Integrated with ERP scenarios.
 
 1. In Finance, go to **Product Information Management** > **Products** > **Released products**, and select **New**.
 2. In the **Product type** field, select **Item** and in the **Product subtype** field, select **Product**.
