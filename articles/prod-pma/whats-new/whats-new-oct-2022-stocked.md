@@ -1,5 +1,5 @@
 ---
-title: What's new or changed in Project Operations, October 2022 for manufacturing
+title: What's new or changed in Project Operations, October 2022 for Project Operations for manufacturing
 description: This article provides information about the quality updates that are available in the October 2022 release of Microsoft Dynamics 365 Project Operations for manufacturing.
 author: ramagadu
 ms.custom:
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# What's new or changed in Project Operations, October 2022 for manufacturing
+# What's new or changed in Project Operations, October 2022 for Project Operations for manufacturing
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 

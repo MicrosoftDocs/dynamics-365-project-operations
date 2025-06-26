@@ -1,5 +1,5 @@
 ---
-title: What's new or changed in Project Operations, January 2021 for manufacturing
+title: What's new or changed in Project Operations, January 2021 for Project Operations for manufacturing
 description: This article provides information about the quality updates available in the January 2021 release of Project Operations for manufacturing based scenarios.
 author: andchoi
 ms.custom:
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
 
-# What's new or changed in Project Operations, January 2021 for manufacturing
+# What's new or changed in Project Operations, January 2021 for Project Operations for manufacturing
 
 _**Applies To:** Project Operations for manufacturing based scenarios_
 

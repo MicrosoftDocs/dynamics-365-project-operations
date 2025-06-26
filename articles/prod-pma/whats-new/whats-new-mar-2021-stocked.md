@@ -1,6 +1,6 @@
 ---
-title: What's new or changed in Project Operations, March 2021 for manufacturing
-description: This article provides information about the quality updates available in the March 2021 release of Project Operations for manufacturing.
+title: What's new or changed in Project Operations, March 2021 for Project Operations for manufacturing
+description: This article provides information about the quality updates available in the March 2021 release of Project Operations for Project Operations for manufacturing.
 author: andchoi
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
 
-# What's new or changed in Project Operations, March 2021 for manufacturing
+# What's new or changed in Project Operations, March 2021 for Project Operations for manufacturing
 
-_**Applies To:** Project Operations for manufacturing based scenarios_
+_**Applies To:** Project Operations for Project Operations for manufacturing based scenarios_
 
 This article applies to the following Dynamics 365 Project Operations components and versions:
 

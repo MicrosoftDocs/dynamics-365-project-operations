@@ -1,6 +1,6 @@
 ---
-title: What's new or changed in Project Operations, February 2024 for manufacturing
-description: This article provides information about the quality updates that are available in the February 2024 release of Microsoft Dynamics 365 Project Operations for manufacturing.
+title: What's new or changed in Project Operations, February 2024 for Project Operations for manufacturing
+description: This article provides information about the quality updates that are available in the February 2024 release of Microsoft Dynamics 365 Project Operations for Project Operations for manufacturing.
 author: tulsijhaveri
 ms.date: 2/20/2024
 ms.topic: whats-new
@@ -8,9 +8,9 @@ ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---
 
-# What's new changed in Project Operations, February 2024 for manufacturing
+# What's new changed in Project Operations, February 2024 for Project Operations for manufacturing
 
-_**Applies To:** Project Operations for manufacturing-based scenarios_
+_**Applies To:** Project Operations for Project Operations for manufacturing-based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
