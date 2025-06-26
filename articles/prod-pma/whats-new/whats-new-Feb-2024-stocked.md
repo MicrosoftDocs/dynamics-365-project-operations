@@ -32,7 +32,7 @@ The following table lists the features that are turned on by default in version 
 
 | **Feature name** | **Enable date** | **Feature added** | **Feature state** | **Module** |
 | --- | --- | --- | --- | --- |
-| Allow item requirements with multiple funding sources for Project Operations manufacturing | January 28, 2024 | March 31, 2022 | Enabled by Default | Project Financials |
+| Allow item requirements with multiple funding sources for Project Operations for manufacturing | January 28, 2024 | March 31, 2022 | Enabled by Default | Project Financials |
 | Multi-select posted project transactions for adjustments and credit adjustment notes | January 28, 2024 | November 9, 2023 | Enabled by Default | Project Financials |
 | Performance improvement to filter by project for project invoice proposals with billing rules | January 28, 2024 | November 9, 2023 | Enabled by Default | Project Financials |
 
