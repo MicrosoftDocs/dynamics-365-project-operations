@@ -35,7 +35,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 
 ## Features included in this release
-No new features are included in this release for the lite deployment.
+No new features are included in this release for the Core deployment.
 
 
 ## Quality updates

@@ -1,6 +1,6 @@
 ---
-title: What's new September 2023 - Project Operations Lite deployment
-description: This article provides information about the quality updates that are available in the September 2023 release of Microsoft Dynamics 365 Project Operations Lite deployment.
+title: What's new September 2023 - Project Operations Core deployment
+description: This article provides information about the quality updates that are available in the September 2023 release of Microsoft Dynamics 365 Project Operations Core deployment.
 author: ramagadu
 ms.custom:
   - evergreen
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# What's new September 2023 - Project Operations Lite deployment
+# What's new September 2023 - Project Operations Core deployment
 
 _**Applies To:** Core deployment - deal to proforma invoicing_
 

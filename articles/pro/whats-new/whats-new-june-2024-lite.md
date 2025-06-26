@@ -1,6 +1,6 @@
 ---
-title: What's new June 2024 - Project Operations Lite deployment
-description: This article provides information about the quality updates that are available in the June 2024 release of Microsoft Dynamics 365 Project Operations Lite deployment.
+title: What's new June 2024 - Project Operations Core deployment
+description: This article provides information about the quality updates that are available in the June 2024 release of Microsoft Dynamics 365 Project Operations Core deployment.
 author: mohitmenon
 ms.date: 06/14/2024
 ms.topic: whats-new
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# What's new June 2024 - Project Operations Lite deployment
+# What's new June 2024 - Project Operations Core deployment
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -22,7 +22,7 @@ This article applies to the following components and versions of Microsoft Dynam
 - Project Operations in a Microsoft Dataverse environment version 4.105.0.5.
 
 ## Features included in this release
-No new features are included in this release for the lite deployment.
+No new features are included in this release for the Core deployment.
 
 ## Quality updates
 

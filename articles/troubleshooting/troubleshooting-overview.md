@@ -20,7 +20,7 @@ This article contains a list of resources by deployment type that you can use to
 - [Troubleshoot working in the Task grid](../project-management/projectplanninguifaq.md).
 - [Currency mismatch error](project-sales-process/currency-mismatch-error.md).
 
-## Lite deployment - deal to proforma
+## Core deployment - deal to proforma
 
 - [Troubleshoot working in the Task grid](../project-management/projectplanninguifaq.md).
 

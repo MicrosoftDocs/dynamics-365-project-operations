@@ -22,7 +22,7 @@ The Project Operations Team Member app (formerly known as the Project Resource H
 Here are some of the capabilities of the Project Operations Team Member app:
 
 - Time entry
-- Expense entry (Lite deployment)
+- Expense entry (Core deployment)
 - Material usage
 - Approvals
 - Extensibility (up to 15 entities)

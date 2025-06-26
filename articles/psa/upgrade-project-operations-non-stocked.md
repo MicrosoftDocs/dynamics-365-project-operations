@@ -128,11 +128,11 @@ Project Operations provides optional support for the Universal Resource Scheduli
 
 | Source                                                 | Target                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
-| Project Service Automation                             | Project Operations Lite Deployment                        | Supported               |
-| Dynamics 365 Finance Project Management and Accounting | Project Operations Lite Deployment                        | Not currently supported |
+| Project Service Automation                             | Project Operations Core deployment                        | Supported               |
+| Dynamics 365 Finance Project Management and Accounting | Project Operations Core deployment                        | Not currently supported |
 | Finance Project Management and Accounting              | Project Operations for resource/non-stocked scenarios     | Not currently supported |
 | Project Service Automation 3.x                         | Project Operations for resource/non-stocked scenarios     | Not currently supported |
-| Project for the Web (dedicated environment)            | Project Operations Lite Deployment                        | Not currently supported |
+| Project for the Web (dedicated environment)            | Project Operations Core deployment                        | Not currently supported |
 
 ### How can I install Project Operations before the upgrade tooling is available?
 

@@ -1,6 +1,6 @@
 ---
-title: What's new July 2021 - Project Operations lite deployment
-description: This article provides information about the quality updates available in the July 2021 release of Project Operations lite deployment.
+title: What's new July 2021 - Project Operations Core deployment
+description: This article provides information about the quality updates available in the July 2021 release of Project Operations Core deployment.
 author: sigitac
 ms.custom:
   - evergreen
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new July 2021 - Project Operations lite deployment
+# What's new July 2021 - Project Operations Core deployment
 
 _Applies To: Core deployment - deal to proforma invoicing_
 

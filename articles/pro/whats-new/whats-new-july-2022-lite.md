@@ -1,6 +1,6 @@
 ---
-title: What's new July 2022 - Project Operations lite deployment
-description: This article provides information about the quality updates that are available in the July 2022 release of Microsoft Dynamics 365 Project Operations lite deployment.
+title: What's new July 2022 - Project Operations Core deployment
+description: This article provides information about the quality updates that are available in the July 2022 release of Microsoft Dynamics 365 Project Operations Core deployment.
 author: ramagadu
 ms.custom:
   - evergreen
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# What's new July 2022 - Project Operations lite deployment
+# What's new July 2022 - Project Operations Core deployment
 
 _**Applies To:** Core deployment - deal to proforma invoicing_
 

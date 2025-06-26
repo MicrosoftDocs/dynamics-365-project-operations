@@ -1,6 +1,6 @@
 ---
-title: What's new 2025 wave 1 early access - Project Operations lite deployment
-description: Learn about the features available in the 2025 Wave 1 early access release of Project Operations lite deployment.
+title: What's new 2025 wave 1 early access - Project Operations Core deployment
+description: Learn about the features available in the 2025 Wave 1 early access release of Project Operations Core deployment.
 author: mohitmenon
 ms.custom:
   - evergreen
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# What's new 2025 wave 1 early access - Project Operations lite deployment
+# What's new 2025 wave 1 early access - Project Operations Core deployment
 
 _**Applies To:** Core deployment - deal to proforma invoicing_
 

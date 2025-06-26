@@ -38,7 +38,7 @@ Project Operations supports multiple deployment options to match your requiremen
 
 Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will help you determine the right deployment. The results will guide you toward one of the following deployment types:
 
-- [Lite deployment – deal to proforma invoicing](#lite)
+- [Core deployment – deal to proforma invoicing](#lite)
 - [Project Operations for resource/non-stocked scenarios](#integrated)
 - [Project Operations for manufacturing](#pma)
 
@@ -46,7 +46,7 @@ Project Operations support stocked/production order scenarios and non-stocked/re
 
 ### <a  name="lite"></a>Core deployment - deal to proforma invoicing
 
-The lite deployment includes the following capabilities:
+The Core deployment includes the following capabilities:
 
 - Sales process for projects that extends Dynamics 365 Sales application experiences
 - Project planning using Microsoft Project for the Web

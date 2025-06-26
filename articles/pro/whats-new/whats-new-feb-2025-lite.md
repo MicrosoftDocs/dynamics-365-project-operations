@@ -1,6 +1,6 @@
 ---
-title: What's new February 2025 - Project Operations Lite deployment
-description: This article provides information about quality updates that are available in the February 2025 release of Microsoft Dynamics 365 Project Operations Lite deployment.
+title: What's new February 2025 - Project Operations Core deployment
+description: This article provides information about quality updates that are available in the February 2025 release of Microsoft Dynamics 365 Project Operations Core deployment.
 author: mohitmenon
 ms.author: mohitmenon
 ms.topic: whats-new
@@ -11,7 +11,7 @@ ms.date: 03/11/2025
 ms.reviewer: johnmichalak
 ---
 
-# What's new February 2025 - Project Operations Lite deployment
+# What's new February 2025 - Project Operations Core deployment
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
