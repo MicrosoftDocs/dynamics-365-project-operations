@@ -14,7 +14,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing._
 
 This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app. It also describes known issues that affect the app and explains how to work around them.
 

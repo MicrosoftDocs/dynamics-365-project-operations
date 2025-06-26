@@ -1,6 +1,6 @@
 ---
-title: What's new or changed in Project Operations, June 2022 for manufacturing-based scenarios
-description: This article provides information about the quality updates that are available in the June 2022 release of Project Operations for manufacturing-based scenarios.
+title: What's new or changed in Project Operations, June 2022 for manufacturing
+description: This article provides information about the quality updates that are available in the June 2022 release of Project Operations for manufacturing.
 author: andchoi
 ms.custom:
   - evergreen
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new or changed in Project Operations, June 2022 for manufacturing-based scenarios
+# What's new or changed in Project Operations, June 2022 for manufacturing
 
 _**Applies To:** Project Operations for manufacturing based-scenarios_
 

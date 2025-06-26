@@ -1,6 +1,6 @@
 ---
-title: Project Operations for manufacturing-based scenarios deployment overview
-description: This article provides information about the deployment type, Project Operations for manufacturing-based scenarios.
+title: Project Operations for manufacturing deployment overview
+description: This article provides information about the deployment type, Project Operations for manufacturing.
 author: poojafandan
 ms.date: 06/10/2024
 ms.topic: overview
@@ -11,7 +11,7 @@ ms.author: poojafandan
 
 ---
 
-# Project Operations for manufacturing-based scenarios deployment overview
+# Project Operations for manufacturing deployment overview
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 

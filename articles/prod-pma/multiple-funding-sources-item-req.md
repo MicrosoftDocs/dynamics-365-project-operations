@@ -32,7 +32,7 @@ Contoso has won an equipment renewal contract with two of its customers: Adatum 
 ### Prerequisites
 
 - Microsoft Dynamics 365 Finance **version 10.0.27 or later** is required to use item requirements that have multiple invoice accounts.
-- Your system administrator must enable the **Allow Item requirements with multiple funding sources for Project Operations manufacturing-based scenarios** feature in the **Feature management** workspace.
+- Your system administrator must enable the **Allow Item requirements with multiple funding sources for Project Operations manufacturing** feature in the **Feature management** workspace.
 
 ### Set up the invoice account defaulting rules
 

@@ -1616,7 +1616,7 @@
     items:
     - name: Project Operations Team Member App
       href: team-member/project-operations-team-member.md  
-- name: Project Operations for manufacturing-based scenarios
+- name: Project Operations for manufacturing
   items: 
   - name: Get started
     items:
@@ -1644,53 +1644,53 @@
         href: prod-pma/move-to-modern-architecture.md
   - name: What's new
     items:
-    - name: What's new 2024 wave 1 early access - Project Operations for manufacturing-based scenarios
+    - name: What's new 2024 wave 1 early access - Project Operations for manufacturing
       href: prod-pma/whats-new/whats-new-2024w1ea-stocked.md
-    - name: What's new February 2024 - Project Operations for manufacturing-based scenarios
+    - name: What's new February 2024 - Project Operations for manufacturing
       href: prod-pma/whats-new/whats-new-feb-2024-stocked.md
     - name: Archive
       items:
-      - name: What's new November 2023 - Project Operations for manufacturing-based scenarios
+      - name: What's new November 2023 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-nov-2023-stocked.md
-      - name: What's new September 2023 - Project Operations for manufacturing-based scenarios
+      - name: What's new September 2023 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-sept-2023-stocked.md
-      - name: What's new August 2023 - Project Operations for manufacturing-based scenarios
+      - name: What's new August 2023 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-aug-2023-stocked.md
-      - name: What's new June 2023 - Project Operations for manufacturing-based scenarios
+      - name: What's new June 2023 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-jun-2023-stocked.md
-      - name: What's new May 2023 - Project Operations for manufacturing-based scenarios
+      - name: What's new May 2023 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-may-2023-stocked.md
-      - name: What's new April 2023 - Project Operations for manufacturing-based scenarios
+      - name: What's new April 2023 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-apr-2023-stocked.md
-      - name: What's new February 2023 - Project Operations for manufacturing-based scenarios
+      - name: What's new February 2023 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-feb-2023-stocked.md
-      - name: What's new October 2022 - Project Operations for manufacturing-based scenarios
+      - name: What's new October 2022 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
-      - name: What's new September 2022 - Project Operations for manufacturing-based scenarios
+      - name: What's new September 2022 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
-      - name: What's new July 2022 - Project Operations for manufacturing-based scenarios
+      - name: What's new July 2022 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
-      - name: What's new June 2022 - Project Operations for manufacturing-based scenarios
+      - name: What's new June 2022 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
-      - name: What's new October 2021 - Project Operations for manufacturing-based scenarios
+      - name: What's new October 2021 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
-      - name: What's new September 2021 - Project Operations for manufacturing-based scenarios
+      - name: What's new September 2021 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
-      - name: What's new July 2021 - Project Operations for manufacturing-based scenarios
+      - name: What's new July 2021 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
-      - name: What's new May 2021 - Project Operations for manufacturing-based scenarios
+      - name: What's new May 2021 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-may-2021-stocked.md
-      - name: What's new April 2021 - Project Operations for manufacturing-based scenarios
+      - name: What's new April 2021 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
-      - name: What's new March 2021 - Project Operations for manufacturing-based scenarios
+      - name: What's new March 2021 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
-      - name: What's new January 2021 - Project Operations for manufacturing-based scenarios
+      - name: What's new January 2021 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
-      - name: What's new December 2020 - Project Operations for manufacturing-based scenarios
+      - name: What's new December 2020 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
-      - name: What's new November 2020 - Project Operations for manufacturing-based scenarios
+      - name: What's new November 2020 - Project Operations for manufacturing
         href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
-  - name: Project Operations for manufacturing-based scenarios deployment overview
+  - name: Project Operations for manufacturing deployment overview
     href: prod-pma/project-operations-prod-order-deployment-overview.md
   - name: Project accounting
     items:

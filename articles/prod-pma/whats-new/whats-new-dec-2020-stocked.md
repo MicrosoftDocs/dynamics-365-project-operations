@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
 
-# What's new or changed in Project Operations, December 2020 for manufacturing-based scenarios
+# What's new or changed in Project Operations, December 2020 for manufacturing
 
 _Applies To: Project Operations for manufacturing-based scenarios_
 
