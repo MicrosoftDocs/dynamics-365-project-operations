@@ -1,6 +1,6 @@
 ---
-title: Expense entry (Lite) 
-description: This article provides information about how to work with expense entry in a Lite deployment.
+title: Expense entry (C) 
+description: This article provides information about how to work with expense entry in a Core deployment.
 author: mohitmenon
 ms.date: 05/22/2024
 ms.topic: how-to
@@ -10,13 +10,13 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Expense entry (Lite)
+# Expense entry (Core deployment - deal to proforma invoicing)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies to:** Core deployment - deal to proforma invoicing_
 
-Basic, or Lite, expense management is the capability to record simple expenses. You can record expenses against a project, and then the project approver reviews and approves them.
+Basic, or Core deployment, expense management is the capability to record simple expenses. You can record expenses against a project, and then the project approver reviews and approves them.
 
 For more information about expense capabilities in Dynamics 365 Project Operations, see [Expense overview](expense-overview.md).
 
@@ -29,14 +29,14 @@ You can capture your expenses so that you can submit them to the approver.
 
 ## Submit a basic expense
 
-After you've finished capturing all your expenses, and you're ready to have them approved, you must submit them.
+After you finish capturing all your expenses, and you're ready to approve them, you must submit them.
 
 1. Go to **Expenses**, and select an expense. Or, select all the expenses by using the check box on the header.
 2. Select **Submit**. The system processes the selected entries and then creates expense approval requests.
 
 ## Add an attachment
 
-You may have to provide the approver with additional documentation about your expense. You can attach a receipt in the timeline of the expense entry. Select **Edit** and in the **Timeline** section, and then select the paperclip icon to attach your receipt.
+You may have to provide the approver with more documentation about your expense. You can attach a receipt in the timeline of the expense entry. Select **Edit** and in the **Timeline** section, and then select the paperclip icon to attach your receipt.
 
 ## Recall a basic expense
 
