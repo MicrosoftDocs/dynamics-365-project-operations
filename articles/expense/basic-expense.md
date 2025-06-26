@@ -1,5 +1,5 @@
 ---
-title: Expense entry (CCore deployment - deal to proforma invoicing) 
+title: Expense entry (Core deployment - deal to proforma invoicing) 
 description: This article provides information about how to work with expense entry in a Core deployment.
 author: mohitmenon
 ms.date: 05/22/2024
