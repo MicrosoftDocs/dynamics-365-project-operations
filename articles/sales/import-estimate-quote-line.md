@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Import estimates for a project to a project quote line
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.

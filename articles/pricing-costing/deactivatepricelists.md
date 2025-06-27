@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-01
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 To remove old or unused price lists from Dynamics 365 Project Operations, there are two steps you must complete. 
 

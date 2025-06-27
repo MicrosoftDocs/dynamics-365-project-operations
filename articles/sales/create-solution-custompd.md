@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Create a solution for custom pricing dimensions
 
- _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_ 
+ _**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_ 
 
 >[!IMPORTANT]
 >All custom pricing dimension changes should be in a separate solution. This important best practice allows the flexibility to update or remove changes as needed, helps with re-use of your work, and makes it easier to port changes to other instances. After you make the required changes, export this solution as a **Managed** solution, and then import into other instances for reuse.

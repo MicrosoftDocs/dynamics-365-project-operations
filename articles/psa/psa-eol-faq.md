@@ -79,13 +79,13 @@ No. After the upgrade is completed, you can't roll back to Project Service Autom
 
 We're committed to ensuring the success of your upgrade to Project Operations. We provide robust documentation, and Project Service Automation includes more error logs that explain upgrade failures. If you encounter issues with the upgrade process, contact the Microsoft Support team for assistance.
 
-### Can I upgrade directly from Project Service Automation 3.x to Project Operations for Resource and non-stocked based scenarios, or is the upgrade available only for Project Operations Deal to proforma invoicing scenarios (Lite deployment)?
+### Can I upgrade directly from Project Service Automation 3.x to Project Operations for Resource and non-stocked based scenarios, or is the upgrade available only for Project Operations Deal to proforma invoicing scenarios (Core deployment)?
 
-No. Only upgrades to Project Operations Deal to proforma invoicing scenarios (Lite deployment) are supported.
+No. Only upgrades to Project Operations Deal to proforma invoicing scenarios (Core deployment) are supported.
 
-### After I upgrade to Project Operations Deal to proforma invoicing scenarios (Lite deployment), how do I upgrade to Project Operations for Resource and non-stocked based scenarios?
+### After I upgrade to Project Operations Deal to proforma invoicing scenarios (Core deployment), how do I upgrade to Project Operations for Resource and non-stocked based scenarios?
 
-Upgrade from Project Operations Deal to proforma invoicing scenarios (Lite deployment) to Project Operations for Resource and non-stocked based scenarios isn't currently supported.
+Upgrade from Project Operations Deal to proforma invoicing scenarios (Core deployment) to Project Operations for Resource and non-stocked based scenarios isn't currently supported.
 
 ## Functional experience
 

@@ -1,6 +1,6 @@
 ---
 title: Move to the modern architecture
-description: Learn how to use the modern architecture and move to the resource/non-stocked deployment if you have a legal entity that currently uses the stocked/production order deployment.
+description: Learn how to use the modern architecture and move to the Project Operations Integrated with ERP deployment if you have a legal entity that currently uses the Project Operations for manufacturing order deployment.
 #customer intent: As an IT admin, I want to enable the modern architecture for existing legal entities with project data so that I can improve project management capabilities.
 author: ryansandness
 ms.date: 03/11/2025
@@ -53,7 +53,7 @@ At a minimum, you must follow these steps to enable the modern architecture in a
     > Ensure that all project transactions are completed before you complete this step, because projects can't be reopened after you opt in to the legal entity.
 
 1. Enable the legal entity for dual-write. Then run the [appropriate maps](../environment/resource-dual-write-maps.md) in the initial synchronization, or ensure that new data is created as required to sync master data from either system.
-1. Complete the required setup in both systems. Learn more about setup and configuration in [Project Operations for resource/non-stocked based scenarios deployment overview](../environment/project-operations-integrated-deployment-overview.md). For the finance and operations architecture, several areas of new setup are required. For example, you must create project categories, configure parameters, and create project cost and revenue profiles.
+1. Complete the required setup in both systems. Learn more about setup and configuration in [Project Operations Integrated with ERP deployment overview](../environment/project-operations-integrated-deployment-overview.md). For the finance and operations architecture, several areas of new setup are required. For example, you must create project categories, configure parameters, and create project cost and revenue profiles.
 
 [!include [banner](../includes/banner.md)]
 

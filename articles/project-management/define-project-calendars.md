@@ -29,7 +29,7 @@ ms.search.validFrom: 2020-10-01
 
 # Define and edit project calendars
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 ## Setting a project's calendar
 

@@ -12,7 +12,7 @@ ms.author: mohitmenon
 
 # Time entry UI behavior
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 
 The **Weekly time entry** grid is a custom control that has two main sections, **Dimensions** and **Duration**.

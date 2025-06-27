@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 # Create invoice schedules on a project-based contract line
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 You can add an invoice schedule to a project-based contract line. Invoicing is allowed only after the contract is won and you're creating a project contract. An invoice schedule enables draft invoices for a project-based contract line to be automatically created. However, if you only manually create invoices, you can skip the creation of invoice schedules on contract lines.
 

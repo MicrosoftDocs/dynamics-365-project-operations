@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 A travel requisition lists the expenses incurred for the purpose of travel. A travel requisition is submitted for review and can be used to authorize expenses.
 

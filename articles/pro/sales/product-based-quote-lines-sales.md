@@ -15,7 +15,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 You can create product-based quote lines in Dynamics 365 Project Operations. Product-based quote lines can be manually added, or they can be items from the product catalog.
 

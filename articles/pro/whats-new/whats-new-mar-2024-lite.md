@@ -1,6 +1,6 @@
 ---
-title: What's new March 2024 - Project Operations Lite deployment
-description: This article provides information about the quality updates that are available in the March 2024 release of Microsoft Dynamics 365 Project Operations Lite deployment.
+title: What's new March 2024 - Project Operations Core deployment
+description: This article provides information about the quality updates that are available in the March 2024 release of Microsoft Dynamics 365 Project Operations Core deployment.
 author: tulsijhaveri
 ms.custom:
   - evergreen
@@ -10,11 +10,11 @@ ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---
 
-# What's new March 2024 - Project Operations Lite deployment
+# What's new March 2024 - Project Operations Core deployment
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

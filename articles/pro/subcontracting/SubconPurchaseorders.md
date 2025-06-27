@@ -14,7 +14,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios._
+_**Applies To:** Project Operations Integrated with ERP._
 
 This article presents an overview of the subcontracting feature in Microsoft Dynamics 365 Project Operations that's seamlessly integrated with Dynamics 365 Finance. This feature lets users generate subcontracts, document timesheets, and expenses, and other relevant information that subcontractors provide, in Dataverse. For every subcontract in Dataverse, the system automatically generates purchase orders in Finance. Likewise, for every recorded timesheet or expense in Dataverse, the system generates corresponding product receipts in Finance. When a subcontractor submits an invoice in Finance, the Accounts payable (AP) clerk gains access to all recorded timesheets and expenses that are associated with the subcontract. The AP clerk can then perform a three-way matching process and book the invoice in Finance.
 
@@ -28,7 +28,7 @@ To use the functionality, activate the following features:
 
 ### Minimum versions required
 
-To use the feature for Project Operations for resource/non-stocked based scenarios, you must have the following versions:
+To use the feature for Project Operations Integrated with ERP, you must have the following versions:
 
 - **Project Operations Dataverse** version 4.91.0.0 or later
 - **Dynamics 365 Finance** version 10.0.39 or later

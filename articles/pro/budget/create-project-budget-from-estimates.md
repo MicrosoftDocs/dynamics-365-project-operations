@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Create a project budget from estimates
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
 
 [!INCLUDE[banner](../../includes/banner.md)]
 

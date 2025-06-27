@@ -14,7 +14,7 @@ ms.author: abriccetti
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Microsoft Dynamics 365 Project Operations has different requirements for approving time, material, and expense entries based on if the entry is linked to a project or not.
 

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Edit a resource requirement
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 After a resource requirement is defined by the **Generate Requirement** action in the team member grid, the Project manager can edit the requirement and add additional details.
 

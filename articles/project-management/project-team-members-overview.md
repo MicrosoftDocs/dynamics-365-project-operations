@@ -11,7 +11,7 @@ ms.author: abriccetti
 
 # Project team members
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
 
 Project team members are the project participants who complete the work on a project. The objective of the team member grid is to provide a list of named resources who are committed to the engagement, and generic team members who are place holder resources and are staffed later.
 

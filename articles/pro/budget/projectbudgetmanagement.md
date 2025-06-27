@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-**_Applies to:_** _Lite deployment - deal to proforma invoicing._
+**_Applies to:_** _Core deployment - deal to proforma invoicing._
 
 This article provides an overview of the end-to-end project budget management process in project-based organizations.
 

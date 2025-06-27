@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Task assignments of subcontracted project team members are costed using the **Purchase** price list attached to the subcontract on the related team member record. This is different from how employee resource assignments are costed where task assignments of employee resources are costed using the **Cost** price list that is attached to the contracting unit of the project. 
 

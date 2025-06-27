@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Schedule assistant overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 The Schedule assistant is used to book resources based on requirements defined by the Project manager. The schedule assistant relies on the parameters provided in the resource requirement to find the resource. The Schedule assistant recommends resources that match relevant requirements, like time windows or skills needed.
 

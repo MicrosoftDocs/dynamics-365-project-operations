@@ -1,6 +1,6 @@
 ---
-title: What's new February 2025 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates that are available in the February 2025 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
+title: What's new February 2025 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates that are available in the February 2025 release of Microsoft Dynamics 365 Project Operations Integrated with ERP.
 author: mohitmenon
 ms.author: mohitmenon
 ms.topic: whats-new
@@ -12,11 +12,11 @@ ms.reviewer: johnmichalak
 
 ---
 
-# What's new February 2025 - Project Operations for resource/non-stocked based scenarios
+# What's new February 2025 - Project Operations Integrated with ERP
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-**Applies To:**  Project Operations for resource/non-stocked based scenarios.
+**Applies To:**  Project Operations Integrated with ERP.
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

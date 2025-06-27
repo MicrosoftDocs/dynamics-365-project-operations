@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Create vendor invoices
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 To use the functionality that's described in this article, you must enable the **Enable subcontract actuals processing with Project Operations for resource based scenarios** feature in the **Feature management** workspace.
 

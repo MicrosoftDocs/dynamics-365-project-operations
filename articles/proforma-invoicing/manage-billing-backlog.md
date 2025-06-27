@@ -10,7 +10,7 @@ ms.author: rumant
 
 # Manage billing backlog
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios
+_**Applies To:** Project Operations Integrated with ERP
 
 Dynamics 365 Project Operations has dedicated views to help manage the billing backlog. To manage the billing backlog, select the links in the **Sales** area, under **Billing**. 
 

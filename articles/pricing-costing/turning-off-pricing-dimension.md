@@ -17,7 +17,7 @@ ms.search.validFrom: 2020-10-01
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 You might need to review and update your pricing strategy every few years. Any updates you make might require that you turn off an existing pricing dimension and create a new one. For example, you might have previously priced by **Role**, but now you decided to price by **Work Experience**. This might require you to turn off **Role** as a pricing dimension and create **Work Experience** as a new pricing dimension. 
 

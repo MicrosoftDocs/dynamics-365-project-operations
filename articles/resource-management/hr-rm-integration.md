@@ -15,6 +15,6 @@ ms.reviewer: johnmichalak
 ---
 
 # Human resources to bookable resource integration
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Human resources to bookable resource integration enables organizations to integrate their worker information. For more information about the integration, see [Human resources to bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm).

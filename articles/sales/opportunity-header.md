@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Header details for project-based opportunities
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 The Opportunity header, or summary, captures the overall information about a project-based deal that applies to all the lines on a project-based opportunity.

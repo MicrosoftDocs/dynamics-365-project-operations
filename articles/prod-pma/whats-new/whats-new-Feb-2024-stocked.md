@@ -1,6 +1,6 @@
 ---
-title: What's new or changed in Project Operations, February 2024 for stocked/production-based scenarios
-description: This article provides information about the quality updates that are available in the February 2024 release of Microsoft Dynamics 365 Project Operations for stocked/production-based scenarios.
+title: What's new or changed in Project Operations, February 2024 for Project Operations for manufacturing
+description: This article provides information about the quality updates that are available in the February 2024 release of Microsoft Dynamics 365 Project Operations for Project Operations for manufacturing.
 author: tulsijhaveri
 ms.date: 2/20/2024
 ms.topic: whats-new
@@ -8,9 +8,9 @@ ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---
 
-# What's new changed in Project Operations, February 2024 for stocked/production-based scenarios
+# What's new changed in Project Operations, February 2024 for Project Operations for manufacturing
 
-_**Applies To:** Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for Project Operations for manufacturing-based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -32,7 +32,7 @@ The following table lists the features that are turned on by default in version 
 
 | **Feature name** | **Enable date** | **Feature added** | **Feature state** | **Module** |
 | --- | --- | --- | --- | --- |
-| Allow item requirements with multiple funding sources for Project Operations stocked/production-based scenarios | January 28, 2024 | March 31, 2022 | Enabled by Default | Project Financials |
+| Allow item requirements with multiple funding sources for Project Operations for manufacturing | January 28, 2024 | March 31, 2022 | Enabled by Default | Project Financials |
 | Multi-select posted project transactions for adjustments and credit adjustment notes | January 28, 2024 | November 9, 2023 | Enabled by Default | Project Financials |
 | Performance improvement to filter by project for project invoice proposals with billing rules | January 28, 2024 | November 9, 2023 | Enabled by Default | Project Financials |
 

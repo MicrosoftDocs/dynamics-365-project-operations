@@ -1,6 +1,6 @@
 ---
-title: What's new March 2024 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates that are available in the March 2024 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
+title: What's new March 2024 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates that are available in the March 2024 release of Microsoft Dynamics 365 Project Operations Integrated with ERP.
 author: tulsijhaveri
 ms.custom:
   - evergreen
@@ -10,11 +10,11 @@ ms.reviewer:
 ms.author: tulsijhaveri
 ---
 
-# What's new March 2024 - Project Operations for resource/non-stocked based scenarios
+# What's new March 2024 - Project Operations Integrated with ERP
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-**Applies To:**  Project Operations for resource/non-stocked based scenarios.
+**Applies To:**  Project Operations Integrated with ERP.
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

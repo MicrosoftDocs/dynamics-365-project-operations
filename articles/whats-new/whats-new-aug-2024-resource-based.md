@@ -1,6 +1,6 @@
 ---
-title: What's new August 2024 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates that are available in the Aug 2024 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
+title: What's new August 2024 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates that are available in the Aug 2024 release of Microsoft Dynamics 365 Project Operations Integrated with ERP.
 author: mohitmenon
 ms.topic: whats-new
 ms.custom: 
@@ -12,11 +12,11 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# What's new August 2024 - Project Operations for resource/non-stocked based scenarios
+# What's new August 2024 - Project Operations Integrated with ERP
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-**Applies To:**  Project Operations for resource/non-stocked based scenarios.
+**Applies To:**  Project Operations Integrated with ERP.
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -36,7 +36,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 ## Features included in this release
 
-No new features for this release of Project Operations for resource/non-stocked based scenarios.
+No new features for this release of Project Operations Integrated with ERP.
 
 
 ## Quality updates

@@ -1,6 +1,6 @@
 ---
 title: Invoicing process overview
-description: This article provides a process overview of invoicing in Project Operations for resource/non-stocked based scenarios.
+description: This article provides a process overview of invoicing in Project Operations Integrated with ERP.
 author: ryansandness
 ms.author: ryansandness
 ms.date: 05/24/2024
@@ -15,9 +15,9 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-Project Operations for resource/non-stocked based scenarios offers comprehensive capabilities tailored to fit the needs of both Project manager and Accounts receivable clerk/project accountant. For the invoicing process, the Project manager manages the project billing backlog and the Accounts receivable clerk/project accountant creates a compliant and accurate customer-facing invoice document.
+Project Operations Integrated with ERP offers comprehensive capabilities tailored to fit the needs of both Project manager and Accounts receivable clerk/project accountant. For the invoicing process, the Project manager manages the project billing backlog and the Accounts receivable clerk/project accountant creates a compliant and accurate customer-facing invoice document.
 
 ![Invoicing flow diagram.](./media/invoicing-flow.png)
 

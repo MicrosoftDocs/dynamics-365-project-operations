@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Maintain team members
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 You can add a named resource to your project team by booking them directly to the team.
 

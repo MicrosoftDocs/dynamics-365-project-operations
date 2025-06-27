@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Lite deployment - deal to proforma invoicing_
+_**Core deployment - deal to proforma invoicing_
 
 
 

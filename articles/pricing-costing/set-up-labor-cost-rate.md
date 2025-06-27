@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Set up labor cost rates
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 [!INCLUDE[banner](../includes/banner.md)]
 

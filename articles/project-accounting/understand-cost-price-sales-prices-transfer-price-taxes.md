@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Understand how cost prices, sales prices, transfer prices, and taxes work together
 
-_**Applies To:** Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for manufacturing-based scenarios_
 
 You must configure several prices to calculate and determine the internal organizational cost of goods and services, and the amount that your customers are billed for, based on the sales prices that they pay. Additionally, you can set the sales price for intercompany billing by configuring transfer prices. For these scenarios, you must also consider other conditions that are related to the way that taxes are included in calculated prices.
 

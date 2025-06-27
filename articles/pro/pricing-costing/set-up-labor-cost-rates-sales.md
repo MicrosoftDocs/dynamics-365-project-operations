@@ -1,5 +1,5 @@
 ---
-title: Set up labor cost rates - Lite deployment
+title: Set up labor cost rates - Core deployment
 description: This article provides information about how to set up the cost rates for labor in Project Operations.
 author: abriccetti
 ms.author: abriccetti
@@ -11,11 +11,11 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Set up labor cost rates - Lite deployment
+# Set up labor cost rates - Core deployment
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 Each price list has a set of labor rates (role prices) that align with the content and date effectivity of the price list.
 

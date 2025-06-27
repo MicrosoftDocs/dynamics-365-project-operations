@@ -1,6 +1,6 @@
 ---
-title: Project Operations for resource/non-stocked based scenarios deployment overview
-description: This article provides information about the deployment type, Project Operations for resource/non-stocked based scenarios.
+title: Project Operations Integrated with ERP deployment overview
+description: This article provides information about the deployment type, Project Operations Integrated with ERP.
 author: rumant
 ms.author: rumant
 ms.date: 05/24/2024
@@ -11,13 +11,13 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Project Operations for resource/non-stocked based scenarios deployment overview
+# Project Operations Integrated with ERP deployment overview
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-The deployment type, Dynamics 365 Project Operations for resource/non-stocked based scenarios has the following capabilities for project-based companies:
+The deployment type, Dynamics 365 Project Operations Integrated with ERP has the following capabilities for project-based companies:
 
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing and costing for labor resources

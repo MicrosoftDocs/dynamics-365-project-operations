@@ -12,7 +12,7 @@ ms.author: suvaidya
 
 # Concepts unique to Project-based Contracts
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 

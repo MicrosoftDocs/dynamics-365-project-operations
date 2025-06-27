@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Project invoice proposals can be processed by your billing department when the following two conditions are met:
 
@@ -66,7 +66,7 @@ A project contract might require that a constant (fixed) exchange rate is used f
 
 #### Overview of the fixed exchange rate feature
 
-As of the 10.0.41 release, the **Enable the use of Project fixed exchange rate agreements for resource/non-stocked deployments** feature is available to support the requirement. After this feature is enabled, the Action Pane on the **Project contracts** page in the finance and operations architecture includes a button that can be used to set up a fixed rate agreement. Additionally, a sales currency, an exchange rate, and an optional reference agreement number can be entered to enable a fixed rate agreement.
+As of the 10.0.41 release, the **Enable the use of Project fixed exchange rate agreements for Project Operations Integrated with ERP deployments** feature is available to support the requirement. After this feature is enabled, the Action Pane on the **Project contracts** page in the finance and operations architecture includes a button that can be used to set up a fixed rate agreement. Additionally, a sales currency, an exchange rate, and an optional reference agreement number can be entered to enable a fixed rate agreement.
 
 By default, if a fixed rate agreement isn't configured for a given project contract, the system uses the exchange rate that is configured for the legal entity.
 

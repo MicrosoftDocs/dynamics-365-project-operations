@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
 
 This article provides information that will help you manage the status of a project budget. It explains the different statuses that a project budget can have, the triggers for transitions from one status to another, and the statuses that a project budget can be edited in.
 

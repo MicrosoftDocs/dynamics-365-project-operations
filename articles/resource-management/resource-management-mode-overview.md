@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Resource management modes overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 
 Dynamics 365 Project Operations supports two modes in order for you to execute the overall booking flow. The mode of management is defined as a project parameter and can be modified if your business needs change.    

@@ -10,7 +10,7 @@ ms.author: poojafandan
 
 # Copy project-based contracts
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 You can easily create new project contracts by copying existing contracts in one of two ways:
 

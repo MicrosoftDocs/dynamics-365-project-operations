@@ -14,7 +14,7 @@ ms.author: mukumarm
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This article describes the features in Microsoft Dynamics 365 Project Operations that facilitate the withholding of vendor payments for vendor invoices until they receive approval from the project manager in Dataverse. In some cases, project manager authorization is required before vendor payment can be initiated. In these cases, Accounts payable (AP) clerks document the invoice and wait for the project manager's approval before they process the payment.
 

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Configure automatic invoice creation
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 Complete the following steps to configure an automated invoice run in Dynamics 365 Project operations.

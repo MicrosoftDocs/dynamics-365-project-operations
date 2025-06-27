@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Set up vendor retention
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This article provides information about how to set up vendor retention.
 

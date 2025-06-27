@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Header details for project-based contracts
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This article provides information about fields that apply to the entire project contract including settings that impact all contract lines. Information about the contract that is summarized across all the line items to drive KPIs of the project contract is also included.
 

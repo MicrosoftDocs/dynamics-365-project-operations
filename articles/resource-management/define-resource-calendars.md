@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Define resource calendars
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Each bookable resource working on a project must have a calendar of working hours to define their availability. Workings hours for a resource can be defined in two ways: 
 

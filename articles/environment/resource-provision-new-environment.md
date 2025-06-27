@@ -15,11 +15,11 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 
-This article provides information about how to provision a new Dynamics 365 Project Operations environment for resource/non-stocked based scenarios.
+This article provides information about how to provision a new Dynamics 365 Project Operations environment for Project Operations Integrated with ERP based scenarios.
 
 ## Enable Project Operations automated provisioning in an LCS project
 

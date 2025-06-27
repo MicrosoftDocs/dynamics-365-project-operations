@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Project-based opportunity lines
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 Project-based opportunity lines are only available in project-based opportunities. Project-based opportunity records have the **Type** field value set to **Work-based**.

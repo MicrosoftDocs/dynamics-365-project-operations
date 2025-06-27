@@ -10,7 +10,7 @@ ms.author: mukumarm
 ---
 # Contract line-based revenue recognition with Project operations
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
  > [!NOTE]
    > Estimates have been renamed to revenue recognition in a recent product update with the **Update labels for revenue recognition and related forms and processes in Project Operations** feature. Terminology may reference either estimate or revenue recognition depending on if the feature is enabled.
 
