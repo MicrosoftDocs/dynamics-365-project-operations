@@ -33,8 +33,8 @@ To use the functionality, activate the following features:
 
 To use the feature for Project Operations integrated deployments, you must have the following versions:
 
-- **Project Operations Dataverse** version 4.141.0.x or later
-- **Dynamics 365 Finance** version 10.0.44 or later
+- **Project Operations Dataverse** version 4.142.0.x or later
+- **Dynamics 365 Finance** version 10.0.44 (10.0.2263.44) or later
 
 ### Run dual-write maps
 
@@ -185,24 +185,5 @@ To run the **Project cost update for inventory adjustments** batch job, follow t
 1. In Dynamics 365 Finance, go to **Project management and accounting** \> **Periodic** \> **Project operations integration** \> **Project cost update for inventory adjustments**.
 1. Apply the filters for the project or project contract.
 1. Select **OK** to update the project cost in Dynamics 365 Project Operations.
-
-## Item requirements using project item forecasts
-**Item requirements** enable the consumption of materials directly from stock through the **sales order** cycle. This functionality allows users to **generate** item requirements based on project **item forecasts** and subsequently execute the material consumption process using packing slips. **Item forecasts** are generated using the project material estimates in **Project operations** in Dataverse.
-
-To generate item requirements from item forecasts, follow these steps:
-
-1. Go to the **project** form and select the project.
-   **Project management and accounting** > **Projects** > **All projects**
-2. On the **Plan** action pane, **Click Item forecasts**.
-3. Click **Create item requirements**.
-
-To consume the material from stock for the item requirements, follow these steps:
-1. Go to the **project** form and select the project.
-   **Project management and accounting** > **Projects** > **All projects**
-2. On the **Plan** action pane, **Item requirements**.
-3. On the **Manage** action pane, click **Posting** > **Packing slip**.
-
-> [!NOTE]
-> Item requirements are exclusively generated for stocked products. Manual creation of item requirements is not supported or applicable within the system.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
