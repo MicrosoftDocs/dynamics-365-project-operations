@@ -14,7 +14,7 @@ ms.custom:
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
 
 This article explains how to time-phase project budget lines and create budget line details.
 

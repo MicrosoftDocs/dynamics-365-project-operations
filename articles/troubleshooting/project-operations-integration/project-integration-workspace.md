@@ -16,7 +16,7 @@ ms.search.form: ProjTroubleshootingWorkspace
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This article provides information about the **Project Operations integration** workspace. This workspace helps you identify and address integration challenges that are related to vendor invoices and expenses. To help with troubleshooting, it also lets you access complete logs for the integration journal and invoice proposals.
 
@@ -35,7 +35,7 @@ To use the functionality, activate the **Project Operations integration workspac
 
 ### Minimum versions required
 
-To use the feature for Dynamics 365 Project Operations for resource/non-stocked based scenarios, you must have the following versions:
+To use the feature for Dynamics 365 Project Operations Integrated with ERP, you must have the following versions:
 
 - Project Operations Dataverse version 4.124.0.690 or later
 - Finance version 10.0.43 or later

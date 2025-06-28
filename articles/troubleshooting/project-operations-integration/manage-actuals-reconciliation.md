@@ -14,7 +14,7 @@ ms.search.form: ProjTroubleshootingWorkspace
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This article provides information about the **Project Operations Actuals Synchronization & Reconciliation** framework. The workspace that this framework provides helps you identify and address integration challenges that are related to project actuals and transaction connections. Those challenges include dual-write synchronization issues. You can also initiate a resynchronization of actuals or transaction connections. This resynchronization facilitates the generation and posting of integration journal lines.  
 
@@ -22,7 +22,7 @@ This article provides information about the **Project Operations Actuals Synchro
 
 ### Minimum versions required
 
-To use the feature for Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios, you must have the following versions:
+To use the feature for Microsoft Dynamics 365 Project Operations Integrated with ERP, you must have the following versions:
 
 - Project Operations Dataverse version 4.142.0.x or later
 - Dynamics 365 Finance version 10.0.43 or later

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Close a project opportunity 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Project opportunities can be closed as Won or Lost. The **Close opportunity** dialog box allows you put in the status reason, date, and other details about win or loss of the opportunity.
 

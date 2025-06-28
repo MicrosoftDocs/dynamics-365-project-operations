@@ -1,6 +1,6 @@
 ---
-title: What's new November 2023 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates that are available in the November 2023 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
+title: What's new November 2023 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates that are available in the November 2023 release of Microsoft Dynamics 365 Project Operations Integrated with ERP.
 author: TulsiJhaveri
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: TulsiJhaveri
 ---
 
-# **What's new November 2023 - Project Operations for resource/non-stocked based scenarios**
+# **What's new November 2023 - Project Operations Integrated with ERP**
 
-**Applies To:**  Project Operations for resource/non-stocked based scenarios
+**Applies To:**  Project Operations Integrated with ERP
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

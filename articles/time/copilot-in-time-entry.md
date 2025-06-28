@@ -14,7 +14,7 @@ ms.author: mohitmenon
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
 
 Copilot in time entry is designed to simplify the time entry experience and make it less time consuming. This is done by significantly reducing the number of pages that project team members must open. The time that this feature saves can instead be used for high-leverage tasks.
 

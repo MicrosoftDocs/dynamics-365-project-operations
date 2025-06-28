@@ -22,7 +22,7 @@ In a project, each phase, task, or work package incurs costs as labor, materials
 
 In a resource nonstocked deployment, budget creation, approval, and revision capabilities, like project editing capabilities, occur on the project page of the Microsoft Dataverse environment.
 
-For an overview of all actions that can be performed on project budgets in Dataverse by using a Lite deployment, see [Project budget management](../pro/budget/projectbudgetmanagement.md). Such actions can be performed in the Dataverse part of resource non-stocked deployments as well.
+For an overview of all actions that can be performed on project budgets in Dataverse by using a Core deployment, see [Project budget management](../pro/budget/projectbudgetmanagement.md). Such actions can be performed in the Dataverse part of resource non-stocked deployments as well.
 
 ## Project budget management in Dynamics 365 Project Operations
 

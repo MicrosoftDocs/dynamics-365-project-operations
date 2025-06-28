@@ -15,17 +15,17 @@ ms.reviewer: johnmichalak
 
 This article contains a list of resources by deployment type that you can use to troubleshoot Microsoft Dynamics 365 Project Operations. 
 
-## Project Operations for resource/non-stocked based scenarios
+## Project Operations Integrated with ERP
 
 - [Troubleshoot working in the Task grid](../project-management/projectplanninguifaq.md).
 - [Currency mismatch error](project-sales-process/currency-mismatch-error.md).
 
-## Lite deployment - deal to proforma
+## Core deployment - deal to proforma
 
 - [Troubleshoot working in the Task grid](../project-management/projectplanninguifaq.md).
 
 
-## Project Operations for stocked/production based scenarios
+## Project Operations for manufacturing based scenarios
 
 - [Troubleshoot working in the Task grid](../project-management/projectplanninguifaq.md).
 

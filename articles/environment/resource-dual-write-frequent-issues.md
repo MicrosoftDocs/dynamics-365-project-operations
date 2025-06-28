@@ -14,7 +14,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios._
+_**Applies To:** Project Operations Integrated with ERP._
 
 This article describes dual-write errors that you might encounter during transaction execution together with strategies for mitigating them.
 

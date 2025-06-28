@@ -29,7 +29,7 @@ ms.search.validFrom: 2020-10-01
 
 # Concepts unique to project-based quotes
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Before you start to use project quotes in Microsoft Dynamics 365 Project Operations, you should be aware of the following key concepts.
 

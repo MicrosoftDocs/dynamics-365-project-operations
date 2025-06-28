@@ -1,6 +1,6 @@
 ---
-title: What's new March 2022 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates that are available in the March 2022 release of Project Operations for resource/non-stocked based scenarios.
+title: What's new March 2022 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates that are available in the March 2022 release of Project Operations Integrated with ERP.
 author: sigitac
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new March 2022 - Project Operations for resource/non-stocked based scenarios
+# What's new March 2022 - Project Operations Integrated with ERP
 
-*Applies To: Project Operations for resource/non-stocked based scenarios*
+*Applies To: Project Operations Integrated with ERP*
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -76,7 +76,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 | Travel and Expense | [604128](https://fix.lcs.dynamics.com/Issue/Details/?bugId=604128) | The committed cost for a project isn't released after the travel requisition's committed cost is released. |
 | Travel and Expense | [620803](https://fix.lcs.dynamics.com/Issue/Details/?bugId=620803) | The following error occurs when you submit an expense report: "Stack Trace: The company does not exist." |
 | Travel and Expense | [622465](https://fix.lcs.dynamics.com/Issue/Details/?bugId=622465) | The default **Project ID** isn't entered on expense reports when the **Require activity for journal** parameter is selected on the project. |
-| Travel and Expense | [626781](https://fix.lcs.dynamics.com/Issue/Details/?bugId=626781) | The **Post Expenses** button doesn't work correctly in Project Operations for resource/non-stocked scenarios. |
+| Travel and Expense | [626781](https://fix.lcs.dynamics.com/Issue/Details/?bugId=626781) | The **Post Expenses** button doesn't work correctly in Project Operations Integrated with ERP scenarios. |
 | Travel and Expense | [635348](https://fix.lcs.dynamics.com/Issue/Details/?bugId=635348) | There is an issue with **Rate per mile** for a mileage expense report that includes passengers. |
 | Travel and Expense | [638019](https://fix.lcs.dynamics.com/Issue/Details/?bugId=638019) | Expense mileage rates for employees aren't correctly totaled when two different vehicle types are used in the **Mileage rate tiers** expense category. |
 | Travel and Expense | [641272](https://fix.lcs.dynamics.com/Issue/Details/?bugId=641272) | The lookup for the **Project** field on a travel requisition line doesn't return the correct list of projects. |

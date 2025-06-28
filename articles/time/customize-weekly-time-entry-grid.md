@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Extending time entries
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Dynamics 365 Project Operations includes an extendable time entry custom control. This control includes the following features:
 

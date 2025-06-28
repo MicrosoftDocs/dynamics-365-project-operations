@@ -15,7 +15,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 Dynamics 365 Project Operations uses quantity factors to support the sale of subscription-based products. For subscription-based products, the quantity on the contract or project contract line is expressed as the number of user-months.
 

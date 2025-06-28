@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Configure accounting for internal projects
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Internal projects allow companies track cost related to activities that aren't being billed to a customer. Examples of internal projects include:
 

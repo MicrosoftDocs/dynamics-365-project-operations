@@ -12,7 +12,7 @@ ms.author: dishantpopli
 
 # Create and update a project
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 The following is a summary of the fields that can be updated on a project after it has been created. This also includes any applicable implications based on these updates.
 

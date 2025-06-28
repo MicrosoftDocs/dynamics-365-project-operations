@@ -15,14 +15,14 @@ ms.search.validFrom: 2020-10-01
 
 # Project Operations Team Member app
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 The Project Operations Team Member app (formerly known as the Project Resource Hub) includes all the capabilities that Microsoft Dynamics 365 Project Operations offers to the Team Members user license.
 
 Here are some of the capabilities of the Project Operations Team Member app:
 
 - Time entry
-- Expense entry (Lite deployment)
+- Expense entry (Core deployment)
 - Material usage
 - Approvals
 - Extensibility (up to 15 entities)

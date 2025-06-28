@@ -14,7 +14,7 @@ ms.reviewer: johnmichalak
 
 # Use a bookable resource as a pricing dimension
 
- _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_ 
+ _**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_ 
 
 This article provides information about how to use a bookable resource as a pricing dimension. If your pricing strategy is set up so that each bookable resource must have a specific price or cost rate, use a bookable resource as a pricing dimension.
 

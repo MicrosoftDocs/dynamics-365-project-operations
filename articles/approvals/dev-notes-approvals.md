@@ -14,7 +14,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Dynamics 365 Project Operations includes validation logic that ensures correct record transition through the approval stages. Correct record transitions ensure: 
 

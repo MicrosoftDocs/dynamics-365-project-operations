@@ -11,7 +11,7 @@ ms.author: suvaidya
 
 # Bulk-confirm proforma project invoices
 
-_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Core deployment - deal to proforma invoicing, Project Operations Integrated with ERP_
 
 After you select **Confirm**, all selected invoices that meet the invoice validation criteria are scheduled by a batch job for asynchronous processing.
 

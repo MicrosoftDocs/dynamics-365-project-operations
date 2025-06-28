@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 To utilize the capabilities described in this article, it's necessary to activate the following features in the Feature Management workspace.
 

@@ -10,7 +10,7 @@ ms.author: rumant
 
 # Configure the chargeable components of a project-based quote line
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 A project-based quote line can have included components and chargeable components.
 

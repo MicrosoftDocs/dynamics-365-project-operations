@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Financial estimates for resource time on projects
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Financial estimates for time are calculated based on three factors: 
 

@@ -13,7 +13,7 @@ ms.custom:
 
 # External scheduling
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 The external scheduling mode lets you natively create, update, and delete data in tables that are related to work breakdown structures (WBSs), but without the current limits that are enforced by Microsoft Project for the Web. It also provides limited validation. This mode should be used only by the following customers:
 

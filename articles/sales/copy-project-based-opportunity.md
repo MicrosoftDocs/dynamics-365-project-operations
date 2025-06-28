@@ -10,7 +10,7 @@ ms.author: poojafandan
 
 # Copy project opportunities
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 
 Project opportunities can easily be copied to create new project opportunities. 

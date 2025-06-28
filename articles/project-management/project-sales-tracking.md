@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Project sales tracking
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Dynamics 365 Project Operations tracks labor estimates and revenue at the lowest required granularity on a project plan. The estimate of labor revenue is based on the planned effort and the generic or named resources that are assigned to each leaf node task in the project plan. When the project begins and people start to report time on various project tasks, the actual revenue on labor is summarized which starts a calculation of the projections.
 

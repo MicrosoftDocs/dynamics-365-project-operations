@@ -14,7 +14,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies to:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 As of Update Release (UR) 55, a back-end validation allows actuals to be created or updated only if a supported method is used, as described in this article.
 

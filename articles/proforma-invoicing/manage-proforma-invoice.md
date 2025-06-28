@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Manage a proforma project-based invoice
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 In Dynamics 365 Project Operations, proforma invoices are built as an extension to the invoices in Dynamics 365 Sales. However, there are many differences in the invoicing process between Sales and Project Operations when it comes to invoicing. For example, it's not possible to create a new invoice from the **Invoices List** page in Project Operations, but it is possible to do so in Sales. These differences and extensions are in place to support invoicing processes for projects that are different from a typical invoice for a sales order.
 

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Define resource requirements
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Resource requirements are defined by the Project manager to establish the resources needed to execute the work on the project. Complete the following steps to define a resource requirement.
 

@@ -14,7 +14,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Project contracts in Dynamics 365 Project Operations capture and manage the contractually agreed on commitments and billing details of a project. The structure of a project contract in Project Operations is tailored to project-based work with the following components:
 

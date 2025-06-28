@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Core deployment - deal to proforma invoicing_
 
 A vendor invoice in Microsoft Dynamics 365 Project Operations can have vendor invoice lines for milestones that are defined on a subcontract line. Project managers can use vendor invoice lines for milestones to record the costs of services that are procured as milestone-based costs that are incurred on services or products that are procured for the project.
 

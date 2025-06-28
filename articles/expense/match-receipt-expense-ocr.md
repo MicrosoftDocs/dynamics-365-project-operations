@@ -14,7 +14,7 @@ ms.custom:
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Expense entry was enhanced through the introduction of optical character recognition (OCR) processing for receipts. This functionality is designed to improve the user experience when creating expense reports.
 

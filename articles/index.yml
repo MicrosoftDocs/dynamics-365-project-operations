@@ -42,7 +42,7 @@ highlightedContent:
       
 additionalContent: 
   sections:
-  - title: Resource and non-stocked based scenarios
+  - title: Project Operations Integrated with ERP
     items:
     - title: Guidance 
       links: 
@@ -80,7 +80,7 @@ additionalContent:
         text: Work breakdown structures
       - url: project-management/project-management-overview.md
         text: Project management
-  - title: Deal to proforma invoicing scenarios (Lite deployment)
+  - title: Core deployment - deal to proforma invoicing
     items:
     - title: Guidance 
       links: 
@@ -101,7 +101,7 @@ additionalContent:
     - title: Administer and develop
       links:
       - url: environment/lite-deployment.md
-        text: Deploy Project Operations Lite
+        text: Deploy Project Operations Core deployment - deal to proforma invoicing
       - url: environment/lite-apply-demo-setup-config-data.md
         text: Apply demo setup and configuration data
       - url: environment/dsr-rights-requests.md
@@ -116,7 +116,7 @@ additionalContent:
         text: Project management
       - url: resource-management/resource-management-key-concepts.md
         text: Resource management
-  - title: Stocked and production-based scenarios
+  - title: Project Operations for manufacturing
     items:
     - title: Guidance 
       links: 
@@ -131,7 +131,7 @@ additionalContent:
     - title: Try/Buy/Deploy
       links:
       - url: prod-pma/project-operations-prod-order-deployment-overview.md
-        text: Project Operations for stocked/production-based scenarios deployment overview
+        text: Project Operations for manufacturing scenarios deployment overview
     - title: Administer and develop
       links:
       - url: prod-pma/psa-integration.md

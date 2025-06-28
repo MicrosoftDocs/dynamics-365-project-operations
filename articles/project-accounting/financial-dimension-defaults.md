@@ -14,7 +14,7 @@ ms.author: ryansandness
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios._
+_**Applies To:** Project Operations Integrated with ERP._
 
 This article provides information about how to set up financial dimension defaults.
 

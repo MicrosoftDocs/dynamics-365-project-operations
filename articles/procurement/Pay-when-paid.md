@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Pay when paid vendor payments
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 This topic explains how to use the pay when paid (PWP) scenario.
 

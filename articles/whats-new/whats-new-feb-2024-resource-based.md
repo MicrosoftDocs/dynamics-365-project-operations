@@ -1,6 +1,6 @@
 ---
-title: What's new February 2024 - Project Operations for resource/non-stocked based scenarios
-description: This article provides information about the quality updates that are available in the February 2024 release of Microsoft Dynamics 365 Project Operations for resource/non-stocked based scenarios.
+title: What's new February 2024 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates that are available in the February 2024 release of Microsoft Dynamics 365 Project Operations Integrated with ERP.
 author: tulsijhaveri
 ms.custom:
   - evergreen
@@ -10,9 +10,9 @@ ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---
 
-# What's new February 2024 - Project Operations for resource/non-stocked based scenarios
+# What's new February 2024 - Project Operations Integrated with ERP
 
-**Applies To:**  Project Operations for resource/non-stocked based scenarios
+**Applies To:**  Project Operations Integrated with ERP
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -51,7 +51,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 | --- | --- | --- |
 | Resource Management | **Get recommendations for resources to staff as team members based on their past relevant experience**<br><br>Allows Project Managers and Resource Managers to receive suggestions for who to staff as a project team member based on relevant experience. In future releases, this feature considers factors such as Cost, Availability, Utilization, and Skill-match. | [Prerequisites to use resource recommendations (preview)](../resource-management/getting-started-with-resource-recommendations.md) |
 | Pricing | **Cost plus pricing – Sales/Billing**<br><br>This feature allows customers of Dynamics 365 Project Operations to select more pricing methods or calculations when setting up role prices. The sales pricing methods supported for roles are price per unit (default), at transaction cost, or markup/markdown of the transaction cost. This feature only applies to Sales/Billing price lists. | [Set up labor bill rates](../pricing-costing/set-up-labor-bill-rate.md) |
-| Procurement | **Enable Intercompany Project Vendor invoices for resource based/non-stocked scenarios.**<br><br>Allow the user to generate intercompany vendor invoices for Project operations resource/non-stocked based scenario.<br><br>To use this feature, Need to update the Dual-write maps for vendor invoice header and vendor invoice lines as per the documentation. | [Intercompany vendor invoice](../pro/subcontracting/intercompanyvendorinvoicefornonstockscenario.md) |
+| Procurement | **Enable Intercompany Project Vendor invoices for resource based/non-stocked scenarios.**<br><br>Allow the user to generate intercompany vendor invoices for Project operations Project Operations Integrated with ERP based scenario.<br><br>To use this feature, Need to update the Dual-write maps for vendor invoice header and vendor invoice lines as per the documentation. | [Intercompany vendor invoice](../pro/subcontracting/intercompanyvendorinvoicefornonstockscenario.md) |
 | Sales | **Cost plus pricing - Quotes**<br><br>Introducing a Price Override button on the Quote Line Detail form to enable quick and easy editing of role prices, while remaining within the context of quote line detail. This button provides new functionality that reduces unnecessary clicks and streamline your Role price editing process. | [New Quote form experience](/dynamics365/project-operations/sales/quotes-new-form) |
 
 ## Quality updates
@@ -79,7 +79,7 @@ The following table lists the features that are turned on by default in version 
 
 | **Feature name** | **Enable date** | **Feature added** | **Feature state** | **Module** |
 | --- | --- | --- | --- | --- |
-| Allow item requirements with multiple funding sources for Project Operations stocked/production-based scenarios | January 28, 2024 | March 31, 2022 | Enabled by Default | Project Financials |
+| Allow item requirements with multiple funding sources for Project Operations manufacturing | January 28, 2024 | March 31, 2022 | Enabled by Default | Project Financials |
 | Multi-select posted project transactions for adjustments and credit adjustment notes | January 28, 2024 | November 9, 2023 | Enabled by Default | Project Financials |
 | Performance improvement to filter by project for project invoice proposals with billing rules | January 28, 2024 | November 9, 2023 | Enabled by Default | Project Financials |
 

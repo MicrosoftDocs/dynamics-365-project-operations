@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 You can set up cost and sales prices for transaction categories in Dynamics 365 Project Operations. Because the cost and sales prices are designed for Expenses, each transaction category that includes these, must also be set up as an expense category. This set up ensures accuracy in downstream functionality. Cost and sales prices for transaction categories can only be listed in one currency, which must be the currency on the price list header.
 

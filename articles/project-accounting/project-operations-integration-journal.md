@@ -12,7 +12,7 @@ ms.author: ryansandness
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios._
+_**Applies To:** Project Operations Integrated with ERP._
 
 Time, expense, fee, and material entries create **Actual** transactions, which represent the operational view of work that's completed against a project. Microsoft Dynamics 365 Project Operations gives accountants a tool for reviewing transactions and adjusting the accounting attributes as they require. After the review and adjustments are completed, the transactions are posted to the project subledger and general ledger. An accountant can perform these activities by using the **Project Operations Integration** journal (in Dynamics 365 Finance, go to **Project management and accounting** \> **Journals**, and select the **Project Operations Integration** journal).
 

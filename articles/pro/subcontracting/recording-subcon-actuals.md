@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios,Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP,Core deployment - deal to proforma invoicing_
 
 This article explains how time, expense, and material usage recorded on projects from subcontracted components is tracked by Microsoft Dynamics 365 Project Operations.
 

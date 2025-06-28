@@ -14,7 +14,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Core deployment - deal to proforma invoicing, Project Operations Integrated with ERP_
 
 On a new invoice, the invoice line details can be updated when the **Project Invoice Status** field on the invoice header is set to **Draft**. On a revised (corrected) invoice, the invoice line details can be updated if they are associated with an invoice line that has the **Time and Material** billing method.
 

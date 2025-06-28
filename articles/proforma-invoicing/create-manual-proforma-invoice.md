@@ -12,7 +12,7 @@ ms.author: suvaidya
 
 # Proforma invoices
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Proforma invoicing gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when time, expense, and material entries that project team members submit are approved. Confirmed proforma invoices are available in the Project Accounting module of Project Operations. Project accountants can perform additional updates such as sales tax, accounting, and invoice layout.
 

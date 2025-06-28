@@ -15,15 +15,15 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 
 Dynamics 365 Project Operations supports the ability to process expenses. Expense processing occurs with or without projects by using a customizable workflow of policies, transaction categories, and approvals.
 
 In Project Operations, there are two supported deployment models for Expense: 
 
-- **Full**: Full deployment is available for **Project Operations for resource/non-stocked based scenarios** or **Project Operations for production order-based scenarios**.
-- **Basic**: Basic deployment is available for **Project Operations for resource/non-stocked based scenarios** and **Lite deployment – deal to proforma invoicing**.
+- **Full**: Full deployment is available for **Project Operations Integrated with ERP** or **Project Operations for production order-based scenarios**.
+- **Basic**: Basic deployment is available for **Project Operations Integrated with ERP** and **Core deployment – deal to proforma invoicing**.
 
 ## Full 
 Full Expense deployment provides a complete policy enforcement that includes the ability to create policies, such as:

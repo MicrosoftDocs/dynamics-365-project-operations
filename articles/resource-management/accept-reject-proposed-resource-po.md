@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 ---
 # Accept or reject a proposed project resource
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
 
 This article provides information about how to approve or reject a proposed project resource.
 

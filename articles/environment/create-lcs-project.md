@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Use Lifecycle Services to manage you Dynamics 365 Project Operations environments. Complete the following steps to create a new Lifecycle Services project.
 

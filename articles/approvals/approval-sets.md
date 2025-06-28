@@ -2,7 +2,8 @@
 title: Approval sets
 description: This article explains how to work with approval sets, requests, and the subsets of those operations.
 author: suvaidya
-ms.date: 02/10/2025
+ms.date: 02/10/2025
+
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -14,16 +15,18 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
 Approval sets group approval requests together into smaller subsets of operations. This grouping allows approvals to be processed by project, in a specific order and allows for retrying and sequencing. Grouping the approval requests together improves the reliability and traceability of approval processing for large volumes of approvals.
 
-Approval sets indicate the overall processing state of their related records. When an approval record is processed using an approval set, the record moves from **Submitted** to **Approved**, and is no longer linked to the approval set. If a record fails when it's submitted for approval, the record remains in a status of **Submitted** and the approval set is marked as failed. The approval set logs the error message of the failure.
+Approval sets indicate the overall processing state of their related records. When an approval record is processed using an approval set, the record moves from **Submitted** to **Approved**, and is no longer linked to the approval set. If a record fails when it's submitted for approval, the record remains in a status of **Submitted** and the approval set is marked as failed. The approval set logs the error message of the failure.
+
 
 ## Processing approvals and approval sets
 Approvals that are queued for processing are visible in the **Processing Approvals** view. The system processes all the entries multiple times asynchronously, including retrying an approval if previous attempts failed.
 
-The **Approval Set Lifetime** field records the number of attempts remaining to process the set before it's marked as failed.
+The **Approval Set Lifetime** field records the number of attempts remaining to process the set before it's marked as failed.
+
 
 Approval sets are processed through the periodic activation based on a **Cloud Flow** named **Project Service - Recurrently Schedule Project Approval Sets**. This is found in the **Solution** named **Project Operations**. 
 
