@@ -82,7 +82,7 @@ After you update your customizations to cleanly import Project Operations, move 
     Depending on the amount of data in the environment, the upgrade might take several hours. The core team that is managing the upgrade should plan accordingly and run the upgrade during nonbusiness hours. In some cases, if the data volume is large, the upgrade should be run during the weekend. The decision about scheduling should be based on the testing results in lower environments.
 
 3. Upgrade custom solutions as appropriate. At this point, deploy any changes that you made to your customizations in the [Testing and refactoring customizations](#testing-and-refactoring-customizations) section of this article.
-4. Go to **make.powerapps.com**, select your environment from the drop-down in the top right of the portal, select **Solutions** from the left menu, select the **Project Operations Deprecated Components** solution and **Uninstall**.
+4. Go to **make.powerapps.com**, select your environment from the drop-down in the top right of the portal, select **Solutions** from the left menu, select the **Project Operations Deprecated Components** solution, and select **Uninstall**.
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.
     
