@@ -86,7 +86,9 @@ No, Microsoft built a general machine learning model for its receipt processing 
 
 **Where is this feature available and processed?**
 
-The availability of this feature in different regions is listed in the following table. If your region isn't currently supported, submit a request to prioritize the availability of the OCR service in your region. 
+The current regional availability of this feature is outlined in the following table.
+> [!NOTE]
+> OCR support isn’t expanding to other regions. Instead, use the Expense entry feature of the Time and Expense agent that offers greater flexibility to meet your business needs. Learn more about the agents in [Expense Entry feature of the Time and Expense Agent](expense-agent-overview.md).
 
 | Region | Supported                         |
 |--------|-----------------------------------|
