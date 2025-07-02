@@ -1,14 +1,14 @@
 ---
 title: Upgrade from Project Service Automation to Project Operations
 description: This article provides an overview of the process to upgrade from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Project Operations.
-author: abriccetti
-ms.date: 04/09/2024
+author: dishantpopli
+ms.date: 07/02/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
   - dyn365-projectservice
   - evergreen
-ms.author: abriccetti
+ms.author: dishantpopli
 audience: Admin
 search.audienceType: 
   - admin
@@ -55,7 +55,7 @@ With the release of phase 3 upgrade, individual projects need to upgrade separat
 
 ## Licensing
 
-If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. In this way, you can test the capabilities of Project Operations while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you must transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license. Customers who have scenarios where they deployed Project Service Automation and need to continue to use or increase their licenses for PSA while they plan to move to Project Operations, may request temporary PSA licenses based on Project Operations purchased licenses. One Project Service Automation license is issued for one Project Operations license. Temporary PSA licenses may be requested by using this link: [aka.ms/ineedpsa](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR1ccNeVH0Y5Bias6PVDCNbZUOUg4TkZJUEswSVQ1ODhNNkpHVVlMMldPTi4u)
+If you have active licenses for Project Service Automation, you can install and use Project Operations, which includes all the capabilities of Project Service Automation and more. In this way, you can test the capabilities of Project Operations while you continue to use Project Service Automation in production. After your Project Service Automation licenses expire, you must transition to Project Operations. When you plan this transition, you must account for the fact that the Project Operations license doesn't include a Project Service Automation license.
 
 ## Testing and refactoring customizations
 
@@ -82,7 +82,7 @@ After you update your customizations to cleanly import Project Operations, move 
     Depending on the amount of data in the environment, the upgrade might take several hours. The core team that is managing the upgrade should plan accordingly and run the upgrade during nonbusiness hours. In some cases, if the data volume is large, the upgrade should be run during the weekend. The decision about scheduling should be based on the testing results in lower environments.
 
 3. Upgrade custom solutions as appropriate. At this point, deploy any changes that you made to your customizations in the [Testing and refactoring customizations](#testing-and-refactoring-customizations) section of this article.
-4. Go to **make.powerapps.com**, select your environment from the drop-down in the top right of the portal, select **Solutions** from the left menu, select the **Project Operations Deprecated Components** solution and **Uninstall**.
+4. Go to **make.powerapps.com**, select your environment from the drop-down in the top right of the portal, select **Solutions** from the left menu, select the **Project Operations Deprecated Components** solution, and select **Uninstall**.
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.
     

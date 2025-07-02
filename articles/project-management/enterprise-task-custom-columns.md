@@ -1,9 +1,9 @@
 ---
 title: Add custom columns to the grid view 
 description: Learn how to add a custom column to the grid view on the Tasks tab of a project.
-author: abriccetti
-ms.author: abriccetti
-ms.date: 05/05/2025
+author: dishantpopli
+ms.author: dishantpopli
+ms.date: 07/02/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -49,6 +49,8 @@ The following types of columns can be added as custom columns in the grid view:
 - **Choice** – The columns must be choice columns, not yes/no columns.
 
 > [!IMPORTANT]
-> A maximum of 10 custom columns can be added to a single project.
+> - A maximum of 10 custom columns can be added to a single project.
+> 
+> - Only 2-25 options in a **Choice** type are supported. Although a custom column of type **Choice** with more than 25 options can be created on the Project Tasks table in Dataverse, it isn't supported for display on the task grid.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
