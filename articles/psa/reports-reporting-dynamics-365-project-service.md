@@ -7,7 +7,7 @@ ms.custom:
   - dyn365-projectservice
   - bap-template
   - evergreen
-ms.date: 05/28/2024
+ms.date: 07/07/2025
 ms.topic: concept-article
 ms.reviewer: johnmichalak
 ---

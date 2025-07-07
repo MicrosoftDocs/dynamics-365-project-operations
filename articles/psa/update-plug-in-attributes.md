@@ -4,7 +4,7 @@ description: This article provides information about updating plug-in attributes
 author: Rumant
 ms.custom: 
   - evergreen
-ms.date: 04/09/2024
+ms.date: 07/07/2025
 ms.topic: how-to
 ms.author: rumant
 audience: Admin

@@ -4,7 +4,7 @@ description: How to install and customize Project Service
 author: ruhercul
 ms.custom: 
   - evergreen
-ms.date: 04/09/2024
+ms.date: 07/07/2025
 ms.topic: install-set-up-deploy
 ms.author: ruhercul
 audience: Admin

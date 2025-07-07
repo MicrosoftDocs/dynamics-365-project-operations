@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 04/09/2024
+ms.date: 07/07/2025
 ms.author: kfend
 audience: Admin
 search.audienceType: 

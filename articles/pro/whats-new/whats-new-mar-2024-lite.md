@@ -4,7 +4,7 @@ description: This article provides information about the quality updates that ar
 author: tulsijhaveri
 ms.custom:
   - evergreen
-ms.date: 04/09/2024
+ms.date: 07/07/2025
 ms.topic: whats-new
 ms.reviewer: johnmichalak
 ms.author: tulsijhaveri

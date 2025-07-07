@@ -4,7 +4,7 @@ description: This article provides information about how to approve or reject a 
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 07/17/2024
+ms.date: 07/07/2025
 ms.topic: article
 author: abriccetti
 ms.author: abriccetti

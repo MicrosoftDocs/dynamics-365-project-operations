@@ -4,7 +4,7 @@ description: This article provides information about what is new and changed in 
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 04/09/2024
+ms.date: 07/07/2025
 ms.topic: whats-new
 author: stsporen
 ms.author: abriccetti

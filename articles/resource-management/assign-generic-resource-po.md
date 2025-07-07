@@ -5,7 +5,7 @@ author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 07/10/2024
+ms.date: 07/07/2025
 ms.topic: how-to
 ms.author: abriccetti
 audience: Admin

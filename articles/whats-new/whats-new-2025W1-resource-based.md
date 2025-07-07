@@ -4,7 +4,7 @@ description: Learn about the features available in the 2025 wave 1 early access 
 author: mohitmenon
 ms.custom:
   - evergreen
-ms.date: 03/11/2025
+ms.date: 07/07/2025
 ms.reviewer: johnmichalak
 ms.topic: whats-new
 ms.author: mohitmenon
