@@ -6,7 +6,7 @@ ms.topic: whats-new
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 007/07/2025
+ms.date: 07/07/2025
 ms.reviewer: johnmichalak 
 ms.author: tulsijhaveri
 ---
