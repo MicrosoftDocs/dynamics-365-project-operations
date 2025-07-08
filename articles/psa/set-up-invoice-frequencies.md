@@ -5,7 +5,7 @@ author: rumant
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 007/07/2025
+ms.date: 07/07/2025
 ms.topic: how-to
 ms.author: rumant
 audience: Admin
