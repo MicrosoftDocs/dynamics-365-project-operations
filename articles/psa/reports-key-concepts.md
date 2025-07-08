@@ -6,7 +6,7 @@ ms.custom:
   - dyn365-projectservice
   - bap-template
   - evergreen
-ms.date: 05/21/2024
+ms.date: 07/07/2025
 ms.topic: concept-article
 ms.author: abriccetti
 audience: Admin

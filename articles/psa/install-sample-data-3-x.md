@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 04/09/2024
+ms.date: 07/07/2025
 ms.reviewer: johnmichalak
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul

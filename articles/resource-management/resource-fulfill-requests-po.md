@@ -5,7 +5,7 @@ author: abriccetti
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 07/17/2024
+ms.date: 07/07/2025
 ms.topic: concept-article
 ms.author: abriccetti
 audience: Admin

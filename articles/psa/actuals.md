@@ -6,7 +6,7 @@ ms.custom:
   - dyn365-projectservice
   - evergreen
 ms.collection: get-started
-ms.date: 04/09/2024
+ms.date: 07/07/2025
 ms.topic: overview
 ms.author: rumant
 audience: Admin

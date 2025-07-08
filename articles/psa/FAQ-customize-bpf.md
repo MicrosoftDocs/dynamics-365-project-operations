@@ -4,7 +4,7 @@ description: An overview of how to customize the Project Stages business process
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date:  04/09/2024
+ms.date:  07/07/2025
 ms.topic: article
 author: JohnPBurrows
 ms.author: rumant
