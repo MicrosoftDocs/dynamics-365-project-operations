@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 06/03/2025
+ms.date: 07/07/2025
 ms.topic: whats-new
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
 ---

@@ -2,7 +2,7 @@
 title: What's new April 2024 - Project Operations Core deployment
 description: This article provides information about the quality updates that are available in the April 2024 release of Microsoft Dynamics 365 Project Operations Core deployment.
 author: mohitmenon
-ms.date: 04/09/2024
+ms.date: 07/07/2025
 ms.topic: whats-new
 ms.custom: 
   - bap-template

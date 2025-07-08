@@ -4,7 +4,7 @@ description: This article provides information about quality updates that are av
 author: mohitmenon
 ms.custom:
   - evergreen
-ms.date: 10/16/2024
+ms.date: 07/07/2025
 ms.topic: whats-new
 ms.reviewer: johnmichalak
 ms.author: mohitmenon

@@ -4,7 +4,7 @@ description: This article describes features that have been removed, or that are
 author: sigitac
 ms.custom:
   - evergreen
-ms.date: 07/09/2024
+ms.date: 07/07/2025
 ms.topic: article
 
 ms.reviewer: johnmichalak

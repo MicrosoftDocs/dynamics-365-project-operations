@@ -5,7 +5,7 @@ description: This article provides information about the considerations you must
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 04/09/2024
+ms.date: 07/07/2025
 ms.topic: upgrade-and-migration-article
 author: JohnPBurrows
 ms.author: rumant
