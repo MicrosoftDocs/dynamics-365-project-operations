@@ -5,7 +5,7 @@ author: makk
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 007/07/2025
+ms.date: 07/07/2025
 ms.topic: article
 ms.author: makk
 audience: admin
