@@ -4,7 +4,7 @@ description: This article provides information about the quality updates availab
 author: sigitac
 ms.custom:
   - evergreen
-ms.date: 007/07/2025
+ms.date: 07/07/2025
 ms.topic: whats-new
 ms.reviewer: johnmichalak
 ms.author: sigitac
