@@ -31,7 +31,7 @@ The Expense Entry feature of the Time and Expense Agent brings together capabili
 The Expense Entry feature of the Time and Expense Agent includes multiple flows, three of which serve as core orchestrators:
 - **Process Emails** – This flow scans a configured mailbox folder every hour and stores the attachments as unattached receipts in Dynamics 365 Finance.
 - **Extract Receipt IDs** – This flow picks up unattached receipts and triggers the agent to extract receipt details and create an unattached expense line.
-- **Process Expense Report** – This flow converts unattached expense lines and generates expense reports, based on the “Group reports by” configuration that is set in the application per legal entity.
+- **Process Expense Report** – This flow converts unattached expense lines and generates expense reports, based on the "Group reports by" configuration that is set in the application per legal entity.
 
 Additionally, the agent integrates with Microsoft Teams, enabling the use of adaptive cards for expense report review and submission.
 
@@ -47,7 +47,7 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 ## Prerequisites
 
 1.	**Dynamics 365 Finance & Operations environment:** The minimum Finance & Operations environment needed to install the agent is version 10.0.44 or later.
-2.	**Roles required to set up the Expense Agent user:** To complete the steps that are described in this article, you as the system administrator of the organization, must have the following roles in order to setup the expense agent user that will be used to install the Expense entry feature of the Time and Expense Agent.
+2.	**Roles required to set up the Expense Agent user:** To complete the steps that are described in this article, you as the system administrator of the organization, must have the following roles in order to set up the expense agent user that will be used to install the Expense entry feature of the Time and Expense Agent.
 
 | System | Role | Comments |
 |---|---|---|
@@ -130,7 +130,7 @@ Create a dedicated expense agent user to ensure that the agent runs independentl
    - Mark Account enabled
 6. Click **Review + create** to view user information and click **create** to complete the user creation process.
 8. From user screen (**Manage > Users**), select user and click to view details page.
-9. Click **Edit properties**, navigate to Settings tab and fill out appropriate usage location.
+9. Click **Edit properties**, navigate to the **Settings** tab, and fill out appropriate usage location.
     
 >Note: Depending upon your organization policy, you may be required to change your password and setup Multi factor authentication (MFA). Follow steps as you normally do for changing password and setting up MFA.
 
@@ -150,7 +150,7 @@ To assign licenses, follow the below steps
 6.	Follow steps 2 to 5 for the other licenses – Microsoft 365 Business Basic and Power Apps Premium as well.
 
 > [!NOTE]
-> Learn more about how to check and assign licenses in [Use the Active users page to assign or unassign licenses](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide#use-the-active-users-page-to-assign-or-unassign-licenses)
+> Learn more about how to check and assign licenses in [Use the Active users page to assign or unassign licenses](/microsoft-365/admin/manage/assign-licenses-to-users#use-the-active-users-page-to-assign-or-unassign-licenses)
 
 
 #### Add the user to the Power Platform environment
@@ -158,25 +158,26 @@ To assign licenses, follow the below steps
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and select the appropriate environment.
    
    > [!TIP]
-   > This page provides information related to Environment ID for Dataverse, Environment URL for Dataverse, Finance and Operations URL. Store these values as they will be used in later sections._
+   > This page provides information related to Environment ID for Dataverse, Environment URL for Dataverse, finance and operations URL. Store these values to use in later sections._
 3. Under Access > Users > click **See all**
 4. Select **Add user** > enter the newly created agent user > click **Add**.
 5. On Manage security roles page, add the following roles,
    - Expense AI Agent Role
-   - Finance and Operations Agent Configuration Manager
+   - Finance and operations Agent Configuration Manager
    - System Customizer
 6.	Click save > **Save** to confirm role assignments.
 
 These roles provide access to Dataverse and Power Automate components that the agent needs to function.
 
-> [!TIP] If user already exists and only roles have to be assigned, go to Power Platform admin center, and select the appropriate environment._<br/>
+> [!TIP]
+> If user already exists and only roles have to be assigned, go to Power Platform admin center, and select the appropriate environment._<br/>
 > _1.	Under Access > Users > click See all._  
 > _2.	Click on the created agent user > select Manage Roles > assign the above-mentioned roles._
 
 
-#### Assign the System Administrator role in Dynamics 365 Finance and Operations environment
+#### Assign the System Administrator role in finance and operations environment
 
-1. In **Finance and Operations environment**, go to **System administration** > **Users**
+1. In the finance and operations environment, go to **System administration** > **Users**
 2. Create a user record for the agent user.
 3. After creating the user, Go to the user’s roles section, click **Assign roles**, and search for **System administrator**.
 4. Select **Save** to save the configuration.
@@ -192,7 +193,7 @@ To do this,
 
 | Environment | Roles | Comments |
 |---|---|---|
-| Dataverse | <li>Expense AI Agent Role <li>Finance and Operations Agent Configuration Manager <li>System Customizer | The mentioned roles enable the agent to interact with Power Automate flows, environment variables, and virtual entities that are connected to Dynamics 365 Finance|
+| Dataverse | <li>Expense AI Agent Role <li>finance and operations Agent Configuration Manager <li>System Customizer | The mentioned roles enable the agent to interact with Power Automate flows, environment variables, and virtual entities that are connected to Dynamics 365 Finance|
 | Finance & Operations | System administrator | This role is needed for the agent to create and manage expense entries in the finance and operations apps environment. |
 | Shared mailbox access using Graph explorer | Mail.Read.Shared | Microsoft Graph permission that allows the agent to read receipts from the configured shared mailbox during flow execution| 
 
@@ -267,7 +268,7 @@ To create the installation file — install.ps1, please keep the following detai
 |---|---|
 | Dataverse environment ID | Enter the environment ID that you get from Power Platform admin center.<br/>  _Sample value: xxxx-xxxx-xxxx-xxx-xxxxxxxxxx_|
 | Dataverse environment URL | Enter the Environment URL from Power Platform admin center.<br/> _Note: Ensure to have https:// at the start and no forward slash ‘/’ at the end._ <br/> _Sample value: https://org123.crm.contoso.com_ |
-| Finance and Operations instance URL | Enter the Finance & Operations environment details in the below format. <br/> _Sample value: https://org123.contoso.com_ <br/> _Note: Ensure **to have https://** at the start and **no** forward slash **‘/’** at the end._ |
+| Finance and operations instance URL | Enter the Finance & Operations environment details in the below format. <br/> _Sample value: https://org123.contoso.com_ <br/> _Note: Ensure **to have https://** at the start and **no** forward slash **‘/’** at the end._ |
 | OutlookFolderPath | Enter the folder path created in the shared mailbox. If no additional folder is created, it will be set as Inbox by default. <br/> _Sample value: Inbox_ <br/>  As a best practice, it would be ideal to create a separate folder for expense management
 | Mailbox Address Id | Enter the mail address of the newly created share mailbox <br/> _Sample value: expenseagent@contoso.com_ |
 | Microsoft Dataverse connection name <br/> Microsoft Copilot Studio connection name <br/> Microsoft Office Outlook connection name <br/> Microsoft Office 365 Users connection name  <br/> Microsoft Teams connection name | Input to all the connection names would be the same ideally and would be the user email id of the created agent user. <br/> <br/> _Sample value: createdexpenseagentuser@contoso.com_ |
@@ -992,7 +993,7 @@ To configure Teams app availability, follow these steps.
 To publish the app in the Teams admin center, follow these steps.
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/).
-2. Go to teams app > Manage apps. Search for expense and select “Expense Entry Agent” app where App status is blocked.
+2. Go to teams app > Manage apps. Search for expense and select "Expense Entry Agent" app where App status is blocked.
 3. Click on Publish to unblock the app. Once publish action is completed successfully, ensure that App status changes to unblocked.
 
 Learn more in [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
@@ -1003,7 +1004,7 @@ With these steps completed, your **Expense Entry feature in the Time and Expense
 
 To **uninstall** the expense entry feature of the Time and Expense Agent, follow these steps.
 
-1. Log in to Powerapp maker portal
+1. Log in to Microsoft Power Apps maker portal
 2. Click on **Solutions** > search for **msdyn_ExpenseAI** > click on three dots and select Delete
 3. Similarly search for **msdyn_FnOCopilotAnchor** and delete the solution.
 
