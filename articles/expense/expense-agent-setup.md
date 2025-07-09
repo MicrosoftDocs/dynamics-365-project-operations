@@ -1,5 +1,5 @@
 ---
-title: # Set up the Expense Entry feature of the Time and Expense Agent (Preview)
+title: Set up the Expense Entry feature of the Time and Expense Agent (Preview)
 description: Learn how to install and set up the Expense Entry feature of the Time and Expense Agent.
 author: ajitchandran
 ms.author: ajitchandran
@@ -16,7 +16,7 @@ ms.reviewer: johnmichalak
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-# Introduction
+## Introduction
 
 >**Important:**
 >
