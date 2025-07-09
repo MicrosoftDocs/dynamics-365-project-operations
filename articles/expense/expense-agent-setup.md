@@ -56,7 +56,7 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 | Microsoft 365 | Exchange Administrator and User Administrator | <li>Go to [Microsoft 365 admin center](https://admin.microsoft.com/) <li>Go to **Users** > **Active Users** > select the user > **Manage Roles** under Roles > select **Exchange Administrator** & **Save** changes</li> <li>Follow same steps for role - User Administrator</li> |
 | Teams admin center | Teams Administrator | Needed if you plan to enable Microsoft Teams integration |
 
-## Steps to setup the Expense Entry feature 
+## Steps to set up the Expense Entry feature 
 
 Installation and setup of the Expense Entry feature of the Time and Expense Agent involves the following steps:
 1. Install Copilot for finance and operations apps.
@@ -76,8 +76,8 @@ To install the required app, follow these steps.
 1.	Go to the [**Power Platform admin center**](https://admin.powerplatform.com/) in your browser.
 2.	From the list of environments, click on the environment name where you want to install the app.
 3.	On the environment’s details page (**NOT** from the left-hand navigation), go to the **Resources** section and click **Dynamics 365 apps**.
-4.	Search for **Copilot for finance and operations apps** within the Dynamics 365 apps list. If it is already installed and an update is available, click the **Update** button.  
-5.	If the app is not listed under Dynamics 365 apps, click on **Install app**, select **Copilot for finance and operations apps**, and follow the prompts to complete the installation.
+4.	Search for **Copilot for finance and operations apps** within the Dynamics 365 apps list. If it's already installed and an update is available, click the **Update** button.  
+5.	If the app isn't listed under Dynamics 365 apps, click on **Install app**, select **Copilot for finance and operations apps**, and follow the prompts to complete the installation.
 
 >Note: Learn more about how to enable Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
 
@@ -102,7 +102,7 @@ The Copilot feature flag must be turned on in the Power Platform admin center. T
 #### Enable feature in Dynamics 365 Finance & Operations environment
 
 To activate the agent in finance and operations apps, and follow steps below:
-1. Login to **Dynamics 365 Finance & Operations environment**
+1. Log in to **Dynamics 365 Finance & Operations environment**
 2. Go to **Feature Management**, and enable **Immersive Home feature** and **Agent Management** features.
 3. To configure the Expense entry agent (setup is per legal entity), go to **Expense Management** \> **Setup** \> **General** \> **Expense Management parameters**
 4. On the Expense Entry Agent tab, configure the parameters as per below,
@@ -149,14 +149,16 @@ To assign licenses, follow the below steps
 5.	Select Assign to complete the license assignment.
 6.	Follow steps 2 to 5 for the other licenses – Microsoft 365 Business Basic and Power Apps Premium as well.
 
->Note: To know more on how to check and assign licenses click [here](https://learn.microsoft.com/en-us/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide#use-the-active-users-page-to-assign-or-unassign-licenses)
+> [!NOTE]
+> Learn more about how to check and assign licenses in [Use the Active users page to assign or unassign licenses](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide#use-the-active-users-page-to-assign-or-unassign-licenses)
 
 
 #### Add the user to the Power Platform environment
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and select the appropriate environment.
    
-   >_Tip: This page provides information related to Environment ID for Dataverse, Environment URL for Dataverse, Finance and Operations URL. Store these values as they will be used in later sections._
+   > [!TIP]
+   > This page provides information related to Environment ID for Dataverse, Environment URL for Dataverse, Finance and Operations URL. Store these values as they will be used in later sections._
 3. Under Access > Users > click **See all**
 4. Select **Add user** > enter the newly created agent user > click **Add**.
 5. On Manage security roles page, add the following roles,
@@ -167,7 +169,7 @@ To assign licenses, follow the below steps
 
 These roles provide access to Dataverse and Power Automate components that the agent needs to function.
 
->_[!Tip]: If user already exists and only roles have to be assigned, go to Power Platform admin center, and select the appropriate environment._<br/>
+> [!TIP] If user already exists and only roles have to be assigned, go to Power Platform admin center, and select the appropriate environment._<br/>
 > _1.	Under Access > Users > click See all._  
 > _2.	Click on the created agent user > select Manage Roles > assign the above-mentioned roles._
 
@@ -223,7 +225,7 @@ You have two options for setting up the Expense Entry feature of the Time and Ex
 > _**[Important]: Before proceeding with the installation of the Expense Entry agent, please ensure that agent is provisioned successfully in the Microsoft Copilot Studio.**_
 > 
 > _To check this,_\
-> _a.	Login to Microsoft Copilot Studio and select your environment._\
+> _a.	Log in to Microsoft Copilot Studio and select your environment._\
 > _b.	Go to Agents > Search for ExpenseAgent-Line (Preview) and see if the Publish button is enabled._\
 > _c.	If enabled, proceed with the installation. If disabled, wait until the agent is provisioned._\
 > _d.	Similarly check for Expense Entry Agent (Preview) as well._
@@ -263,10 +265,10 @@ To create the installation file — install.ps1, please keep the following detai
 
 | Parameter | Additional details |
 |---|---|
-| Dataverse environment ID | Enter the environment ID that you get from Power Platform admin center.<br/>  _Sample value : xxxx-xxxx-xxxx-xxx-xxxxxxxxxx_|
-| Dataverse environment URL | Enter the Environment URL from Power Platform admin center.<br/> _Note: Ensure to have https:// at the start and no forward slash ‘/’ at the end._ <br/> _Sample value : https://org123.crm.contoso.com_ |
+| Dataverse environment ID | Enter the environment ID that you get from Power Platform admin center.<br/>  _Sample value: xxxx-xxxx-xxxx-xxx-xxxxxxxxxx_|
+| Dataverse environment URL | Enter the Environment URL from Power Platform admin center.<br/> _Note: Ensure to have https:// at the start and no forward slash ‘/’ at the end._ <br/> _Sample value: https://org123.crm.contoso.com_ |
 | Finance and Operations instance URL | Enter the Finance & Operations environment details in the below format. <br/> _Sample value: https://org123.contoso.com_ <br/> _Note: Ensure **to have https://** at the start and **no** forward slash **‘/’** at the end._ |
-| OutlookFolderPath | Enter the folder path created in the shared mailbox. If no additional folder is created, it will be set as Inbox by default. <br/> _Sample value: Inbox_ <br/>  As a best practise, it would be ideal to create a separate folder for expense management
+| OutlookFolderPath | Enter the folder path created in the shared mailbox. If no additional folder is created, it will be set as Inbox by default. <br/> _Sample value: Inbox_ <br/>  As a best practice, it would be ideal to create a separate folder for expense management
 | Mailbox Address Id | Enter the mail address of the newly created share mailbox <br/> _Sample value: expenseagent@contoso.com_ |
 | Microsoft Dataverse connection name <br/> Microsoft Copilot Studio connection name <br/> Microsoft Office Outlook connection name <br/> Microsoft Office 365 Users connection name  <br/> Microsoft Teams connection name | Input to all the connection names would be the same ideally and would be the user email id of the created agent user. <br/> <br/> _Sample value: createdexpenseagentuser@contoso.com_ |
 
@@ -886,7 +888,7 @@ To trigger the PowerShell file,
 - Open PowerShell _(Minimum version needed - PowerShell 7)_
 - Go to the location where the  file is saved. _(Use command cd <file location>)_
 - Trigger the installation script. _(Use command '.\Install.ps1')_
-- Please follow the instructions to Login to Azure.
+- Please follow the instructions to log in to Azure.
 - After successfully logging in, you might need to authorize one more time. _(Please do so with the **created agent user id.**)_
 
 Wait for the script to run completely and look for a message **Agent setup completed successfully!**
@@ -993,13 +995,15 @@ To publish the app in the Teams admin center, follow these steps.
 2. Go to teams app > Manage apps. Search for expense and select “Expense Entry Agent” app where App status is blocked.
 3. Click on Publish to unblock the app. Once publish action is completed successfully, ensure that App status changes to unblocked.
 
-> _Note : Learn more in [Connect and configure an agent for Teams and Microsoft 365](https://learn.microsoft.com/en-us/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams)._
+Learn more in [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
 
 With these steps completed, your **Expense Entry feature in the Time and Expense Agent** is now fully set up and ready to go.
 
 ## Uninstall Expense entry feature 
-To **uninstall** the expense entry feature of the Time and Expense Agent, follow the below steps,
-1. Login to Powerapp maker portal
+
+To **uninstall** the expense entry feature of the Time and Expense Agent, follow these steps.
+
+1. Log in to Powerapp maker portal
 2. Click on **Solutions** > search for **msdyn_ExpenseAI** > click on three dots and select Delete
 3. Similarly search for **msdyn_FnOCopilotAnchor** and delete the solution.
 
