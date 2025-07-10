@@ -2,7 +2,7 @@
 title: Manage multiple account addresses and apply them to project invoices.
 description: Learn how to manage multiple addresses for accounts and apply them to project invoices in Project Operations integrated with ERP scenarios.
 author: mukumarm
-ms.date: 06/26/2025
+ms.date: 07/10/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -47,7 +47,7 @@ To use the feature for Dynamics 365 Project Operations integrated with enterpris
 
 After this feature is turned on, you can create and manage multiple physical addresses for each customer, vendor, and contact. 
 
-New tab **Project addresses** for managing physical addresses are available on the **Customers**, **Vendors**, and **Contacts** pages. You can create the addresses directly in either **Dynamics 365 Finance** or **Dataverse**. The information is then seamlessly synchronized through dual-write.
+The **Project addresses** tab for managing physical addresses is available on the **Customers**, **Vendors**, and **Contacts** pages. You can create the addresses directly in either **Dynamics 365 Finance** or **Dataverse**. The information is then seamlessly synchronized through dual-write.
 
 ## Project quotes
 
