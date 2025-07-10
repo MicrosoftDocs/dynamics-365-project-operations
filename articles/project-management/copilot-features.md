@@ -2,6 +2,7 @@
 title: Copilot for project overview
 description: This article provides information about Microsoft Dynamics 365 Copilot for project features.
 ms.date: 11/15/2024
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.custom: bap-template
 ms.reviewer: johnmichalak

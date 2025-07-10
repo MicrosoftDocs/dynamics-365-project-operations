@@ -3,6 +3,7 @@ title: Use Copilot in time entry
 description: This article explains how team members can use Copilot in time entry to complete their time entry each week.
 author: mohitmenon
 ms.date: 04/24/2024
+ms.update-cycle: 180-days
 ms.topic: how-to
 ms.custom: 
   - bap-ai-copilot 

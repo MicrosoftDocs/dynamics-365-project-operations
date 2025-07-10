@@ -5,6 +5,7 @@ author: abriccetti
 ms.author: abriccetti
 ms.topic: conceptual 
 ms.date: 05/13/2025
+ms.update-cycle: 180-days
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
