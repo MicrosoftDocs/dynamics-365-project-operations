@@ -3,7 +3,7 @@ title: Configure Expense management parameters
 description: This article describes the parameters that control the general behavior in Expense management.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 06/09/2025
+ms.date: 07/10/2025
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -50,7 +50,7 @@ This article describes the parameters the control the general behavior in Expens
 | Allow travel requisition submit on budget overrun for budget register and project budget | Select this option to allow employees to submit travel requisitions for approval, even though they exceed either the allowed budget that is set in the budget register or the allowed budget for a project. |
 | Allow expense report submit on budget overrun for budget register and project budget     | Select this option to allow employees to submit expense reports for approval, even though they exceed either the allowed budget that is set in the budget register or the allowed budget for a project. |
 | Allow expense report approval on budget overrun for budget register only                 | Select this option to allow approvers to approve expense reports that exceed the allowed budget that is set in the budget register. |
-| Enable posting of expenses on posting date                                               | Select this option to post expenses using the posting date of the expense report. If the period is **on hold** or **closed** and **Correct accounting date during posting is enabled**, the system posts the expenses on the **first date of the next open period**. This functionality is available starting from version 1**0.0.45**.|
+| Enable posting of expenses on posting date                                               | Select this option to post expenses using the posting date of the expense report. If the period is **on hold** or **closed** and **Correct accounting date during posting** is enabled, the system posts the expenses on the **first date of the next open period**. This functionality is available starting from version 1**0.0.45**.|
 
 ## Per diem
 
@@ -66,7 +66,7 @@ This article describes the parameters the control the general behavior in Expens
 | Calculate meal reduction by           | Specify how the system should calculate the per diem meal reduction, by selecting whether the reduction is based on the meal type per trip or per day, or whether it's based on the number of meals that is allowed per day. |
 | Per diem rounding                     | Select the type of rounding that is used for per diem expenses. If you select normal rounding, any per diem expense that has an amount of 0.50 is rounded up to 1.00, and any per diem expense that has an amount that is less than 0.50 is rounded down to 0.00. |
 | Base per diem calculation on          | Select whether a per diem amount is based on a calendar day or a 24-hour period. |
-| Allow user to edit transaction date          | Select this option to modify the transaction date for a per diem expense. The exchange rate on the expense line will be updated automatically based on the new transaction date selected. This functionality is available starting from version **10.0.0.45**. |
+| Allow user to edit transaction date          | Select this option to modify the transaction date for a per diem expense. The exchange rate on the expense line is updated automatically based on the new transaction date selected. This functionality is available starting from version **10.0.0.45**. |
 
 ## Fax cover pages
 
@@ -78,13 +78,13 @@ This article describes the parameters the control the general behavior in Expens
 
 ## Number sequence
 
-Starting with version **10.0.45**, a new feature — **Enable number sequence configuration in the Expense parameters form** has been introduced. The Number sequence feature enables the configuration of unique identifiers for various Expense Management documents, such as cash advance requests, vouchers, invoices, and expense reports. This enhancement allows users to view and manage number sequences directly within the **Expense Management parameters**, streamlining the setup process.
+Starting with version **10.0.45**, the **Enable number sequence configuration in the Expense parameters form** feature was introduced. The Number sequence feature enables the configuration of unique identifiers for various Expense Management documents, such as cash advance requests, vouchers, invoices, and expense reports. This enhancement allows you to view and manage number sequences directly within the **Expense Management parameters** to help streamline the setup process.
 
 **Expense management** > **Setup** > **Expense management parameters** > **Number sequence**
 
 ### Shared number sequence
 
-There are certain number sequences, such as the **Expense transaction number** and **Itemization group**, are **shared** across all legal entities. To support this, a new tab **Shared number sequence** has been introduced in the **Expense Management parameters** form, allowing users to view and configure these shared number sequences directly within the interface.
+There are certain number sequences, such as the **Expense transaction number** and **Itemization group**, that are **shared** across all legal entities. To support this, the **Shared number sequence** tab was introduced in the **Expense Management parameters** form, allowing users to view and configure these shared number sequences directly within the interface.
 
 **Expense management** > **Setup** > **Expense management parameters** > **Shared number sequence**
 
@@ -103,6 +103,6 @@ There are certain number sequences, such as the **Expense transaction number** a
 
 | Field                                 | Description |
 |---------------------------------------|-------------|
-|Enable project validations|This field determines which projects are displayed in the project selection field by applying **project-related validations**, such as **project-category and resource-project**. When **enabled**, the system displays up to **10,000 active projects** during expense creation, based on these validations. When **disabled**, there is **no limit** on the number of projects displayed, but validations are **applied** when the expense line is **saved**. This field setting is valid only for expense mobile application.|
+|Enable project validations | This field determines which projects are displayed in the project selection field by applying **project-related validations**, such as **project-category and resource-project**. When **enabled**, the system displays up to **10,000 active projects** based on these validations during expense creation. When **disabled**, there isn't a limit on the number of projects displayed, but validations are applied when the expense line is saved. This field setting is valid only for expense mobile application.|
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
