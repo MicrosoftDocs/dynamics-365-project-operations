@@ -2,7 +2,7 @@
 title: Managed stocked products for Project Operations integrated deployments
 description: Learn how to manage and use stocked products in integrated Microsoft Dynamics 365 Project Operations deployments.
 author: mukumarm
-ms.date: 05/21/2025
+ms.date: 07/10/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -33,8 +33,8 @@ To use the functionality, activate the following features:
 
 To use the feature for Project Operations integrated deployments, you must have the following versions:
 
-- **Project Operations Dataverse** version 4.141.0.x or later
-- **Dynamics 365 Finance** version 10.0.44 or later
+- **Project Operations Dataverse** version 4.142.0.x or later
+- **Dynamics 365 Finance** version 10.0.44 (10.0.2263.44) or later
 
 ### Run dual-write maps
 
@@ -47,6 +47,7 @@ This section provides information about the specific maps that are required for 
 | Colors (msdyn_productcolors) | 1.0.0.0 |
 | Styles (msdyn_productstyles) | 1.0.0.0 |
 | Sites (msdyn_sites) | 1.0.0.0 |
+| Warehouses (msdyn_warehouses)| 1.0.0.0 |
 | Warehouse locations (msdyn_inventorylocations) | 1.0.0.1 |
 | Inventory aisle (msdyn_warehouseaisles) | 1.0.0.0 |
 | Storage dimension groups (msdyn_productstoragedimensiongroups) | 1.0.0.0 |
@@ -60,10 +61,10 @@ This section provides information about the specific maps that are required for 
 | Item batches (msdyn_batchnumbers) | 1.0.0.0 |
 | Item serial numbers (mydyn_serialnumbers) | 1.0.0.0 |
 | Project integration table for material estimates (msdyn_estimatelines) | 1.0.0.4 |
+| Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines) | 1.0.0.9 |
 | Project operations integration actuals (msdyn_actuals) | 1.0.0.19 |
-| Project subcontract purchase order line (msdyn_subcontractlines) | 1.0.1.0 |
-| Units (uoms) | 1.0.0.0 |
 | Project subcontract purchase order line (msdyn_subcontractlines) | 1.0.0.1 |
+| Units (uoms) | 1.0.0.0 |
 
 ## Products
 
