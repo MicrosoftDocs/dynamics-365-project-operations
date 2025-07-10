@@ -43,20 +43,22 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 
 | System | Role | Comments |
 |---|---|---|
-| Power Platform admin center | System administrator | <li>Go to [Power Platform admin center](https://admin.powerplatform.com/)<li>Go to  on the left pane > select **Environments** > Select your environment<li>On the **Access** section > **Users** > select **See all**<li>Select user > **Manage roles** > add the mentioned role |
-| Finance and operations | System administrator | <li>Open the Dynamics 365 Finance and Operations URL of the respective environment <li>Go to **Module** > **System** **administration** > **Users** > select user <li>**Add role** – System administrator |
-| Microsoft 365 | Exchange Administrator and User Administrator | <li>Go to [Microsoft 365 admin center](https://admin.microsoft.com/) <li>Go to **Users** > **Active Users** > select the user > **Manage Roles** under Roles > select **Exchange Administrator** & **Save** changes</li> <li>Follow same steps for role - User Administrator</li> |
+| Power Platform admin center | System administrator | <ol><li>Go to [Power Platform admin center](https://admin.powerplatform.com/)</li> <li>Go to **Manage** on the left pane. Select **Environments**, and then select your environment.</li> <li>On the **Access** section > **Users** > select **See all**.</li> <li>Select a user then select **Manage roles**, add the role.</li></ol> |
+| Finance and operations | System administrator | <ol><li>Open the finance and operations URL for your environment environment.</li> <li>Go to **Module** > **System** **administration** > **Users**, and select a user.</li> <li>Select **Add role** – System administrator.</li></ol> |
+| Finance and operations | System administrator | <ol><li>Open the finance and operations URL for your environment environment.</li> <li>Go to **Module** > **System** **administration** > **Users**, and select a user.</li> <li>Select **Add role** – System administrator.</li></ol> |
+| Microsoft 365 | Exchange Administrator and User Administrator | <ol><li>Go to [Microsoft 365 admin center](https://admin.microsoft.com/).</li> <li>Go to **Users** > **Active Users** > select the user.</li> <li>Select **Manage Roles**, then from **Roles** select **Exchange Administrator**.</li> <li>**Save** the changes.</li> <li>Follow same steps to add the **User Administrator** role.</li></ol> |
 | Teams admin center | Teams Administrator | Needed if you plan to enable Microsoft Teams integration |
 
 ## Steps to set up the Expense Entry feature 
 
-Installation and setup of the Expense Entry feature of the Time and Expense Agent involves the following steps:
+To install and set up of the Expense Entry feature of the Time and Expense Agent, follow these steps.
+
 1. Install Copilot for finance and operations apps.
-2. Enable the agent features in your environment.
-3. Create an expense user for agent execution.
-4. Set up a shared mailbox.
-5. Set up the Expense Entry feature of the Time and Expense Agent.
-6. Enable the Expense Entry feature in Microsoft Teams (Optional - if you need Microsoft Teams integration)
+1. Enable the agent features in your environment.
+1. Create an expense user for agent execution.
+1. Set up a shared mailbox.
+1. Set up the Expense Entry feature of the Time and Expense Agent.
+1. Enable the Expense Entry feature in Microsoft Teams (Optional - if you need Microsoft Teams integration)
 
 The sections that follow describe each step in detail.
 
@@ -64,46 +66,51 @@ The sections that follow describe each step in detail.
 
 The Expense Entry feature of the Time and Expense Agent is available as part of the Copilot for finance and operations apps package. After this package is installed in your environment, all required assets, including the agent, environment variables, and Power Automate flows automatically become available.
 
-To install the required app, follow these steps.  
-1.	Go to the [**Power Platform admin center**](https://admin.powerplatform.com/) in your browser.
-2.	From the list of environments, select on the environment name where you want to install the app.
-3.	On the environment’s details page (**NOT** from the left-hand navigation), go to the **Resources** section and select **Dynamics 365 apps**.
-4.	Search for **Copilot for finance and operations apps** within the Dynamics 365 apps list. If it's already installed and an update is available, select the **Update** button.  
-5.	If the app isn't listed under Dynamics 365 apps, select on **Install app**, select **Copilot for finance and operations apps**, and follow the prompts to complete the installation.
+To install the required app, follow these steps. 
 
->Note: Learn more about how to enable Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
+1. Go to the [**Power Platform admin center**](https://admin.powerplatform.com/) in your browser.
+1. From the list of environments, select on the environment name where you want to install the app.
+1. On the environment’s details page (**NOT** from the left-hand navigation), go to the **Resources** section and select **Dynamics 365 apps**.
+1. Search for **Copilot for finance and operations apps** within the Dynamics 365 apps list. If it's already installed and an update is available, select the **Update** button.  
+1. If the app isn't listed under Dynamics 365 apps, select on **Install app**, select **Copilot for finance and operations apps**, and follow the prompts to complete the installation.
 
->_[!Tip]: Steps to verify if the package was installed successfully_  
-> _1.	Go to Power Apps maker portal > select your environment > select Solutions > See history > search and select msdyn_ExpenseAI > Details_    
-> _2.	Check Result field_    
-> _a.	 If the result shows Success, the package was installed correctly_  
-> _b.	If the result does not show Success, the installation has failed_    
-> _3.	If installation has failed, then Delete msdyn_FnOCopilotAnchor (see uninstall section) and install Copilot for Finance and Operations apps again (see Step 1)_  
+> [!NOTE]
+> Learn more about how to enable Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
 
+> [!TIP]
+>  To verify if the package was installed successfully, follow these steps.  
+> 1. Go to Power Apps maker portal > select your environment > select Solutions > See history > search and select msdyn_ExpenseAI > Details.    
+> 2. Check Result field.    
+>    a. If the result shows Success, the package was installed correctly.  
+>    b. If the result does not show Success, the installation has failed.    
+> 3. If installation has failed, then Delete msdyn_FnOCopilotAnchor (learn more in the uninstall section) and install Copilot for finance and operations apps again.  
 
 ### Step 2: Enable the agent features in your environment
 
 Now that you've installed the Copilot for finance and operations apps package, the next step is to activate the Expense Entry feature of the Time and Expense Agent from within your Dataverse and finance and operations environment.
 
 #### Enable feature in Dataverse
-The Copilot feature flag must be turned on in the Power Platform admin center. To do this, 
-1. Go to [Power Platform admin center](https://admin.powerplatform.com/)
-2. Select **Environments** > select your environment > **Settings** > **Product** > select **Features**
-3. Confirm that the **Copilot** feature flag is turned on.
+
+The Copilot feature flag must be turned on in the Power Platform admin center. To turn on the Copilot feature flag, follow these steps.
+
+1. Go to [Power Platform admin center](https://admin.powerplatform.com/).
+1. Select **Environments** > select your environment > **Settings** > **Product** > select **Features**.
+1. Confirm that the **Copilot** feature flag is turned on.
 
 #### Enable feature in your finance and operations environment
 
-To activate the agent in finance and operations apps, and follow steps below:
-1. Log in to your **finance and operations environment**
+To activate the agent in finance and operations apps, follow these steps.
+
+1. Log in to your **finance and operations environment**.
 2. Go to **Feature Management**, and enable **Immersive Home feature** and **Agent Management** features.
-3. To configure the Expense entry agent (setup is per legal entity), go to **Expense Management** \> **Setup** \> **General** \> **Expense Management parameters**
-4. On the Expense Entry Agent tab, configure the parameters as per below,
+3. To configure the Expense entry agent (setup is per legal entity), go to **Expense Management** \> **Setup** \> **General** \> **Expense Management parameters**.
+4. On the **Expense Entry Agent** tab, configure the parameters as as shown in the following table.
    
 | Parameters | Value | Comments |
 |---|---|---|
-| Enable Expense Agent for current legal entity | Yes | Toggle to yes to enable the agent for the current legal entity |
-| Frequency | Daily or Weekly | Configure the frequency for automatically creating expense reports in your organization |
-| Group Reports by | Trip or Project | Configure to group expenses based on a project or a trip |
+| Enable Expense Agent for current legal entity | Yes | Toggle to **Yes** to enable the agent for the current legal entity. |
+| Frequency | Daily or Weekly | Configure the frequency for automatically creating expense reports in your organization. |
+| Group Reports by | Trip or Project | Configure to group expenses based on a project or a trip. |
 
 ### Step 3: Create an expense agent user for agent execution.
 
@@ -112,19 +119,20 @@ Create a dedicated expense agent user to ensure that the agent runs independentl
 #### Create the Expense Agent user in Azure Active Directory
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
-2. Select **Microsoft Entra ID** from the available Azure services.
-3. Under **Microsoft Entra ID**, create a new user.
-4. Select on **Add** > **User** > **Create new user** and Enter the following details,
-   - User principal name,
-   - Choose the right domain,
+1. From the available Azure services, select **Microsoft Entra ID**.
+1. Under **Microsoft Entra ID**, create a new user.
+1. Select on **Add** > **User** > **Create new user**, and enter the following details.
+   - User principal name
+   - Choose the right domain
    - Display name
    - Password
    - Mark Account enabled
-6. Select **Review + create** to view user information and select **create** to complete the user creation process.
-8. From user screen (**Manage > Users**), select user and select to view details page.
-9. Select **Edit properties**, navigate to the **Settings** tab, and fill out appropriate usage location.
+1. To view the details and complete the user creation process, select **Review + create**, and select **Create**.
+1. From the User page (**Manage > Users**), select a user, and the view details page.
+1. Select **Edit properties**, navigate to the **Settings** tab, and fill out appropriate usage location.
     
->Note: Depending upon your organization policy, you may be required to change your password and setup Multi factor authentication (MFA). Follow steps as you normally do for changing password and setting up MFA.
+> [!NOTE]
+> Depending upon your organization policy, you may be required to change your password and setup Multi factor authentication (MFA). Follow steps as you normally do for changing password and setting up MFA.
 
 #### Assign the required licenses to Expense Agent user
 
