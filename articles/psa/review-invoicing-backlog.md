@@ -5,6 +5,7 @@ author: rumant
 ms.custom: 
   - evergreen
 ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.author: rumant
 ms.topic: article
 audience: Admin

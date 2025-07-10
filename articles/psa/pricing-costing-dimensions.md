@@ -7,6 +7,7 @@ ms.custom:
   - evergreen
 ms.collection: get-started
 ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.author: rumant
 audience: Admin

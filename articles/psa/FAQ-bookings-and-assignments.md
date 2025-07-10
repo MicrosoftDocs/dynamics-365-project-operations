@@ -6,6 +6,7 @@ ms.custom:
   - dyn365-projectservice
   - -evergreen
 ms.date:  04/09/2024
+ms.update-cycle: 1095-days
 ms.topic: article
 ms.author: ruhercul
 audience: Admin

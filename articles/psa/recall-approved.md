@@ -6,6 +6,7 @@ ms.custom:
   - evergreen
 ms.author: rumant
 ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: how-to
 audience: Admin
 search.audienceType: 

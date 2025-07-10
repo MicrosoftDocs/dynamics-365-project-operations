@@ -9,6 +9,7 @@ ms.custom:
   - bap-template
   - evergreen
 ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
 ---

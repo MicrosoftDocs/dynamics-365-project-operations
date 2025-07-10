@@ -4,6 +4,7 @@ description: This article provides information about resource management capabil
 author: tulsij
 ms.author: tulsijhaveri
 ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom: 
   - bap-template
