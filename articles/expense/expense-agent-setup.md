@@ -38,8 +38,8 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 
 ## Prerequisites
 
-1. **Finance and operations environment:** The minimum finance and operations environment needed to install the agent is version 10.0.44 or later.
-1. **Roles required to set up the Expense Agent user:** To complete the steps in this article, you as the system administrator of the organization, must have the following roles to set up the expense agent user that are used to install the Expense entry feature of the Time and Expense Agent.
+1. **Finance and operations environment:** The minimum finance and operations environment required to install the agent is version 10.0.44 or later.
+1. **Roles required to set up the Expense Agent user:** To complete the steps in this article, you as the system administrator of the organization, must have the following roles to set up the expense agent user that is used to install the Expense entry feature of the Time and Expense Agent.
 
 | System | Role | Comments |
 |---|---|---|
@@ -47,7 +47,7 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 | Finance and operations | System administrator | <ol><li>Open the finance and operations URL for your environment environment.</li> <li>Go to **Module** > **System** **administration** > **Users**, and select a user.</li> <li>Select **Add role** – System administrator.</li></ol> |
 | Finance and operations | System administrator | <ol><li>Open the finance and operations URL for your environment environment.</li> <li>Go to **Module** > **System** **administration** > **Users**, and select a user.</li> <li>Select **Add role** – System administrator.</li></ol> |
 | Microsoft 365 | Exchange Administrator and User Administrator | <ol><li>Go to [Microsoft 365 admin center](https://admin.microsoft.com/).</li> <li>Go to **Users** > **Active Users** > select the user.</li> <li>Select **Manage Roles**, then from **Roles** select **Exchange Administrator**.</li> <li>**Save** the changes.</li> <li>Follow same steps to add the **User Administrator** role.</li></ol> |
-| Teams admin center | Teams Administrator | Needed if you plan to enable Microsoft Teams integration |
+| Teams admin center | Teams Administrator | Required if you plan to enable Microsoft Teams integration |
 
 ## Steps to set up the Expense Entry feature 
 
@@ -80,10 +80,10 @@ To install the required app, follow these steps.
 > [!TIP]
 >  To verify if the package was installed successfully, follow these steps.  
 > 1. Go to Power Apps maker portal > select your environment > select Solutions > See history > search and select msdyn_ExpenseAI > Details.    
-> 2. Check Result field.    
->    a. If the result shows Success, the package was installed correctly.  
->    b. If the result doesn't show Success, the installation failed.    
-> 3. If installation fails, then Delete msdyn_FnOCopilotAnchor (learn more in the uninstall section) and install Copilot for finance and operations apps again.  
+> 1. Verify the **Result** field.    
+>    1. If the result shows Success, the package was installed correctly.  
+>    1. If the result doesn't show Success, the installation failed.    
+> 1. If the installation fails, then Delete msdyn_FnOCopilotAnchor (learn more in the uninstall section) and install Copilot for finance and operations apps again.  
 
 ### Step 2: Enable the agent features in your environment
 
@@ -102,9 +102,9 @@ The Copilot feature flag must be turned on in the Power Platform admin center. T
 To activate the agent in finance and operations apps, follow these steps.
 
 1. Log in to your **finance and operations environment**.
-2. Go to **Feature Management**, and enable **Immersive Home feature** and **Agent Management** features.
-3. To configure the Expense entry agent (setup is per legal entity), go to **Expense Management** \> **Setup** \> **General** \> **Expense Management parameters**.
-4. On the **Expense Entry Agent** tab, configure the parameters as shown in the following table.
+1. Go to **Feature Management**, and enable **Immersive Home feature** and **Agent Management** features.
+1. To configure the Expense entry agent (setup is per legal entity), go to **Expense Management** \> **Setup** \> **General** \> **Expense Management parameters**.
+1. On the **Expense Entry Agent** tab, configure the parameters as shown in the following table.
    
 | Parameters | Value | Comments |
 |---|---|---|
@@ -203,7 +203,7 @@ To assign access to the shared mailbox access, follow these steps.
 | Environment | Roles | Comments |
 |---|---|---|
 | Dataverse | <li>Expense AI Agent Role <li>finance and operations Agent Configuration Manager <li>System Customizer | The mentioned roles enable the agent to interact with Power Automate flows, environment variables, and virtual entities that are connected to Dynamics 365 Finance|
-| Finance and operations | System administrator | This role is needed for the agent to create and manage expense entries in the finance and operations apps environment. |
+| Finance and operations | System administrator | This role is required for the agent to create and manage expense entries in the finance and operations apps environment. |
 | Shared mailbox access using Graph explorer | Mail.Read.Shared | Microsoft Graph permission that allows the agent to read receipts from the configured shared mailbox during flow execution| 
 
 
@@ -227,7 +227,7 @@ To create and configure the shared mailbox, follow these steps.
 1. Select **Close**.
     
 > [!NOTE]
-> The email address of the shared mailbox is used in the next step. After the shared mailbox is set up, you must provide its email address and the folder path (by default it's set as Inbox) as environment variables when you configure the Time and Expense Agent. Learn more in **Step 5: Set up the Expense Entry feature of the Time and Expense Agent**. 
+> The email address of the shared mailbox is used in the next step. After the shared mailbox is set up, you must provide its email address and the folder path (by default set to Inbox) as environment variables when you configure the Time and Expense Agent. Learn more in **Step 5: Set up the Expense Entry feature of the Time and Expense Agent**. 
 
 ### Step 5: Set up the Expense Entry feature of the Time and Expense Agent
 
@@ -251,7 +251,7 @@ You have two options for setting up the Expense Entry feature of the Time and Ex
 
 #### Option A: Use a PowerShell script (recommended)
 
-Manual setup of the agent involves creating and linking connections, enabling Power Automate flows, and publishing the solution. This process can be time consuming and is susceptible to errors. To automate the setup, you can use a PowerShell script after updating the needed parameters.
+Manual setup of the agent involves creating and linking connections, enabling Power Automate flows, and publishing the solution. This process can be time consuming and is susceptible to errors. To automate the setup, you can use a PowerShell script after updating the required parameters.
 
 The PowerShell script automates the following tasks:
 
@@ -261,16 +261,16 @@ The PowerShell script automates the following tasks:
 - Publish the Copilot agents.
 - Publish the Dataverse solution.
 
-Before running the script, you need to **create connections** as you’ll need to provide the Connection ID for each connector in the install.ps1 file. To create these Connections, follow these steps using the created agent user.
+Before running the script, you need to **create connections** as you need to provide the Connection ID for each connector in the install.ps1 file. To create these Connections, follow these steps using the created agent user.
 
 1. Sign in to the [Power Apps maker portal](https://make.powerapps.com/) using the newly created agent user, and select your environment.
 1. On the left pane, select **More** and select **Connections**.
 1. Select **New connection** and search using the Connection Name from the following table (For example, **Office 365 Outlook**).
 1. Select the appropriate connector from the list and create it.
-1. Once the connection is created, note the user with which the connection was created. It should ideally be the **created agent user id**. This is needed to be updated in the installation file that we would be creating in the next step.
+1. Once the connection is created, note the user with which the connection was created. It should ideally be the **created agent user id**. This needs to be updated in the installation file that we would be creating in the next step.
 1. Repeat steps 3 and 4 for each of the remaining required connections listed in the following table.
 
-| Connection Name | Connection URL Format |
+| Connection Name | Connection URL Formats |
 |---|---|
 | Office 365 Outlook | https://make.powerapps.com/environments/environmentID/connections<br/>/**shared_office365**/connectionID/details |
 | Office 365 Users | https://make.powerapps.com/environments/environmentID/connections<br/>/**shared_office365users**/connectionID/details |
@@ -278,7 +278,7 @@ Before running the script, you need to **create connections** as you’ll need t
 | Microsoft Dataverse | https://make.powerapps.com/environments/environmentID/connections<br/>/**shared_commondataserviceforapps**/connectionID/details |
 | Microsoft Copilot Studio (preview) | https://make.powerapps.com/environments/environmentID/connections<br/>/**shared_microsoftcopilotstudio**/connectionID/details |
 
-#### Details needed to create the installation file
+#### Information you need to create the installation file
 
 To create the installation file—install.ps1, have the following information available. (You can refer to the following table for reference.)
 
@@ -293,7 +293,7 @@ To create the installation file—install.ps1, have the following information av
 
 #### Create the installation script file
 
-Create an installation script file by copying the following code and insert the needed environment variables into the script, and then run the script using PowerShell.
+Create an installation script file by copying the following code and insert the required environment variables into the script, and then run the script using PowerShell.
 
 > [!NOTE]
 > Make sure you place the installation script file on the local desktop. Do **NOT** store them in One Drive.
@@ -908,7 +908,7 @@ try {
 
 To trigger the PowerShell file, follow these steps.
 
-1. Open PowerShell _(Minimum version needed - PowerShell 7)_.
+1. Open PowerShell _(Minimum version required - PowerShell 7)_.
 1. Go to the location where the  file is saved. _(Use the command cd \<file location\>)_.
 1. Trigger the installation script. _(Use command '.\Install.ps1')_.
 1. follow the instructions to log in to Azure.
