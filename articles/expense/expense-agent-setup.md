@@ -101,7 +101,7 @@ The Copilot feature flag must be turned on in the Power Platform admin center. T
 
 To activate the agent in finance and operations apps, follow these steps.
 
-1. Log in to your **finance and operations environment**.
+1. Sign in to your **finance and operations environment**.
 1. Go to **Feature Management**, and enable **Immersive Home feature** and **Agent Management** features.
 1. To configure the Expense entry agent (setup is per legal entity), go to **Expense Management** \> **Setup** \> **General** \> **Expense Management parameters**.
 1. On the **Expense Entry Agent** tab, configure the parameters as shown in the following table.
@@ -132,7 +132,7 @@ Create a dedicated expense agent user to ensure that the agent runs independentl
 1. Select **Edit properties**, navigate to the **Settings** tab, and fill out appropriate usage location.
     
 > [!NOTE]
-> Depending upon your organization policy, you may be required to change your password and setup multifactor authentication (MFA). Follow steps as you normally do for changing password and setting up MFA.
+> Depending upon your organization policy, you might be required to change your password and setup multifactor authentication (MFA). Follow steps as you normally do for changing password and setting up MFA.
 
 #### Assign the required licenses to Expense Agent user
 
@@ -239,7 +239,7 @@ You have two options for setting up the Expense Entry feature of the Time and Ex
 > Before proceeding with the installation of the Expense Entry agent, ensure that agent is provisioned successfully in the Microsoft Copilot Studio.
 > 
 > To verify the agent is provisioned successfully, follow these steps.
-> 1. Log in to Microsoft Copilot Studio and select your environment.
+> 1. Sign in to Microsoft Copilot Studio and select your environment.
 > 1. Go to **Agents** and search for **ExpenseAgent-Line (Preview)**. 
 > 1. Verify the Publish button is enabled.
 > 1. If enabled, proceed with the installation. If disabled, wait until the agent is provisioned.
@@ -267,7 +267,7 @@ Before running the script, you need to **create connections** as you need to pro
 1. On the left pane, select **More** and select **Connections**.
 1. Select **New connection** and search using the Connection Name from the following table (For example, **Office 365 Outlook**).
 1. Select the appropriate connector from the list and create it.
-1. Once the connection is created, note the user with which the connection was created. It should ideally be the **created agent user id**. This needs to be updated in the installation file that we would be creating in the next step.
+1. Once the connection is created, note the user with which the connection was created. It should ideally be the **created agent user ID**. This needs to be updated in the installation file that we would be creating in the next step.
 1. Repeat steps 3 and 4 for each of the remaining required connections listed in the following table.
 
 | Connection Name | Connection URL Formats |
@@ -288,8 +288,8 @@ To create the installation file—install.ps1, have the following information av
 | Dataverse environment URL | Enter the Environment URL from Power Platform admin center.<br/> _Note: Ensure to have https:// at the start and no forward slash ‘/’ at the end._ <br/> _Sample value: https://org123.crm.contoso.com_ |
 | Finance and operations instance URL | Enter the finance and operations environment details in the following format. <br/> _Sample value: https://org123.contoso.com_ <br/> _Note: Ensure **to have https://** at the start and **no** forward slash **‘/’** at the end._ |
 | OutlookFolderPath | Enter the folder path created in the shared mailbox. If no other folder is created, it's set as Inbox by default. <br/> _Sample value: Inbox_ <br/>  As a best practice, it would be ideal to create a separate folder for expense management
-| Mailbox Address Id | Enter the mail address of the newly created share mailbox <br/> _Sample value: expenseagent@contoso.com_ |
-| Microsoft Dataverse connection name <br/> Microsoft Copilot Studio connection name <br/> Microsoft Office Outlook connection name <br/> Microsoft Office 365 Users connection name  <br/> Microsoft Teams connection name | Input to all the connection names would be the same ideally and would be the user email id of the created agent user. <br/> <br/> _Sample value: createdexpenseagentuser@contoso.com_ |
+| Mailbox Address ID | Enter the mail address of the newly created share mailbox <br/> _Sample value: expenseagent@contoso.com_ |
+| Microsoft Dataverse connection name <br/> Microsoft Copilot Studio connection name <br/> Microsoft Office Outlook connection name <br/> Microsoft Office 365 Users connection name  <br/> Microsoft Teams connection name | Input to all the connection names would be the same ideally and would be the user email ID of the created agent user. <br/> <br/> _Sample value: createdexpenseagentuser@contoso.com_ |
 
 #### Create the installation script file
 
@@ -911,7 +911,7 @@ To trigger the PowerShell file, follow these steps.
 1. Open PowerShell _(Minimum version required - PowerShell 7)_.
 1. Go to the location where the  file is saved. _(Use the command cd \<file location\>)_.
 1. Trigger the installation script. _(Use command '.\Install.ps1')_.
-1. follow the instructions to log in to Azure.
+1. follow the instructions to sign in to Azure.
 1. After successfully logging in, you might need to authorize one more time. _(Use the **created agent user id.**)_.
 
 Wait for the script to run completely and look for a message **Agent setup completed successfully!**
@@ -1027,7 +1027,7 @@ With these steps completed, your **Expense Entry feature in the Time and Expense
 
 To **uninstall** the expense entry feature of the Time and Expense Agent, follow these steps.
 
-1. Log in to Microsoft Power Apps maker portal
+1. Sign in to Microsoft Power Apps maker portal
 1. Select **Solutions**, search for **msdyn_ExpenseAI**, select the three dots, and select **Delete**.
 1. Similarly search for **msdyn_FnOCopilotAnchor** and delete the solution.
 
