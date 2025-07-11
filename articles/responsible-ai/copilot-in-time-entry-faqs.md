@@ -5,6 +5,7 @@ author: mohitmenon
 ms.author: mohitmenon
 ms.topic: faq
 ms.date: 09/27/2024
+ms.update-cycle: 180-days
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

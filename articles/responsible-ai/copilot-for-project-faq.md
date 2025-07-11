@@ -5,6 +5,7 @@ author: poojafandan
 ms.author: poojafandan
 ms.topic: faq
 ms.date: 11/15/2024
+ms.update-cycle: 180-days
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

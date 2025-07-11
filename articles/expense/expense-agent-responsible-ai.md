@@ -2,6 +2,7 @@
 title: Responsible AI FAQ for the Expense Entry feature of the Time and Expense Agent (preview)
 description: Get answers to frequently asked questions about the AI technology used in the Expense Entry feature of the Time and Expense Agent. This FAQ includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 05/13/2025
+ms.update-cycle: 180-days
 ms.collection:
   - bap-ai-copilot
 ms.custom:
