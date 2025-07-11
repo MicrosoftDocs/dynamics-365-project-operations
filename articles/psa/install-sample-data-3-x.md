@@ -6,6 +6,7 @@ ms.custom:
   - dyn365-projectservice
   - evergreen
 ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 applies_to: Dynamics 365 Project Service Automation
 author: ruhercul

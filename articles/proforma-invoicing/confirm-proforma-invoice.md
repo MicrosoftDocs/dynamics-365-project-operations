@@ -3,6 +3,7 @@ title: Confirm a proforma project-based invoice
 description: This article provides information about confirming a proforma project-based invoice. 
 author: suvaidya
 ms.date: 11/18/2023
+ms.update-cycle: 1095-days
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
