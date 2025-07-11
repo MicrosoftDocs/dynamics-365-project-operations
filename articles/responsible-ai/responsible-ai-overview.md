@@ -6,7 +6,6 @@ ms.update-cycle: 180-days
 ms.custom: 
   - responsible-ai-faqs
   - copilot-learning-hub
-  - evergreen
 ms.collection:
   - bap-ai-copilot 
 ms.topic: faq

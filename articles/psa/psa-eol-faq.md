@@ -3,6 +3,7 @@ title: Project Service Automation end of life FAQ
 description: This article provides answers to frequently asked questions about the end of life for Microsoft Dynamics 365 Project Service Automation.
 author: abriccetti
 ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: faq
 ms.custom: 
   - bap-template

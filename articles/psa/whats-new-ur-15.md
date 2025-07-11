@@ -3,6 +3,7 @@ title: What's new or changed in Project Service Automation Update Release 15, V3
 description: This article provides information about what's new in Project Service Automation Update Release 15, V3.
 author: abriccetti
 ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.author: abriccetti
 ms.custom: 
