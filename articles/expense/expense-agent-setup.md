@@ -69,10 +69,10 @@ The Expense Entry feature of the Time and Expense Agent is available as part of 
 To install the required app, follow these steps. 
 
 1. Go to the [**Power Platform admin center**](https://admin.powerplatform.com/) in your browser.
-1. From the list of environments, select on the environment name where you want to install the app.
+1. From the list of environments, select the environment name where you want to install the app.
 1. On the environment’s details page (**NOT** from the left-hand navigation), go to the **Resources** section and select **Dynamics 365 apps**.
 1. Search for **Copilot for finance and operations apps** within the Dynamics 365 apps list. If it's already installed and an update is available, select the **Update** button.  
-1. If the app isn't listed under Dynamics 365 apps, select on **Install app**, select **Copilot for finance and operations apps**, and follow the prompts to complete the installation.
+1. If the app isn't listed under Dynamics 365 apps, select **Install app**, select **Copilot for finance and operations apps**, and follow the prompts to complete the installation.
 
 > [!NOTE]
 > Learn more about how to enable Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
@@ -121,7 +121,7 @@ Create a dedicated expense agent user to ensure that the agent runs independentl
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 1. From the available Azure services, select **Microsoft Entra ID**.
 1. Under **Microsoft Entra ID**, create a new user.
-1. Select on **Add** > **User** > **Create new user**, and enter the following details.
+1. Select **Add** > **User** > **Create new user**, and enter the following details.
    - User principal name
    - Choose the right domain
    - Display name
@@ -141,53 +141,62 @@ To successfully install Expense Entry feature of the Time and Expense Agent, the
   - Microsoft 365 Business Basic or any license which covers Microsoft Teams and Outlook (for e.g. Office 365 E5 with teams)
   - Power Apps Premium
     
-To assign licenses, follow the below steps
-1.	Sign into [Microsoft 365 admin center](https://admin.microsoft.com/) with a user who has access to assign licenses i.e. user with License Administrator or higher.
-2.	Select on **Billing** > **Licenses** > **Dynamics 365 Teams Members license**
-3.	Select **+Assign licenses**
-4.	Search for the expense agent user created in previous step 
-5.	Select Assign to complete the license assignment.
-6.	Follow steps 2 to 5 for the other licenses – Microsoft 365 Business Basic and Power Apps Premium as well.
+To assign licenses, follow the below steps.
+
+1. Sign into [Microsoft 365 admin center](https://admin.microsoft.com/) with a user who has access to assign licenses i.e. user with License Administrator or higher.
+1. Select **Billing** > **Licenses** > **Dynamics 365 Teams Members license**.
+1. Select **+Assign licenses**.
+1. Search for the expense agent user created in previous step.
+1. Select Assign to complete the license assignment.
+1. Follow steps 2 to 5 for the other licenses – Microsoft 365 Business Basic and Power Apps Premium as well.
 
 > [!NOTE]
-> Learn more about how to check and assign licenses in [Use the Active users page to assign or unassign licenses](/microsoft-365/admin/manage/assign-licenses-to-users#use-the-active-users-page-to-assign-or-unassign-licenses)
+> Learn more about how to check and assign licenses in [Use the Active users page to assign or unassign licenses](/microsoft-365/admin/manage/assign-licenses-to-users#use-the-active-users-page-to-assign-or-unassign-licenses).
 
 
 #### Add the user to the Power Platform environment
 
+To add the user to the Power Platform environment, follow these steps.
+
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and select the appropriate environment.
    
    > [!TIP]
-   > This page provides information related to Environment ID for Dataverse, Environment URL for Dataverse, finance and operations URL. Store these values to use in later sections._
-3. Under Access > Users > select **See all**
-4. Select **Add user** > enter the newly created agent user > select **Add**.
-5. On Manage security roles page, add the following roles,
+   > This page provides information related to Environment ID for Dataverse, Environment URL for Dataverse, finance and operations URL. Store these values to use in later sections.
+1. Go to **Access > Users > See all**.
+1. Select **Add user**, enter the newly created agent user, and select **Add**.
+1. On Manage security roles page, add the following roles.
    - Expense AI Agent Role
    - Finance and operations Agent Configuration Manager
    - System Customizer
-6.	Select save > **Save** to confirm role assignments.
+1. To confirm the role assignments, select **Save**.
 
 These roles provide access to Dataverse and Power Automate components that the agent needs to function.
 
 > [!TIP]
-> If user already exists and only roles have to be assigned, go to Power Platform admin center, and select the appropriate environment._<br/>
-> _1.	Under Access > Users > select See all._  
-> _2.	Select on the created agent user > select Manage Roles > assign the above-mentioned roles._
+> If user already exists and only roles have to be assigned, go to Power Platform admin center, and select the appropriate environment.<br/>
+> 1. Go to **Access > Users > See all**. 
+> 1. Select the created agent user.
+> 1. Select **Manage roles**, and assign the roles.
 
 
 #### Assign the System Administrator role in finance and operations environment
 
-1. In the finance and operations environment, go to **System administration** > **Users**
-2. Create a user record for the agent user.
-3. After creating the user, Go to the user’s roles section, select **Assign roles**, and search for **System administrator**.
-4. Select **Save** to save the configuration.
+To assign the System Administrator role in finance and operations environment, follow these steps.
+
+1. In the finance and operations environment, go to **System administration** > **Users**.
+1. Create a user record for the agent user.
+1. After creating the user, go to the user’s roles section, select **Assign roles**, and search for **System administrator**.
+1. Select **Save**.
 
 #### Assign access to the shared mailbox access
+
 The agent user must have the Mail.Read.Shared Microsoft Graph permission. This permission allows the agent to read receipts from the configured shared mailbox during flow execution. 
-To do this, 
-- Open [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) and sign in using the **created agent user**.  
-- Select on the **user** icon on the top right corner > select **Consent to permissions**.  
-- Search select on the drop-down menu for **Mail** > look for **Mail.Read.Shared** > select on the button **Consent** > and **Accept** to complete granting access.
+
+To assign access to the shared mailbox access, follow these steps.
+
+1. Go to [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) and sign in using the **created agent user**.  
+1. Select the **user** icon on the top right corner > select **Consent to permissions**.  
+1. Select the drop-down menu for **Mail** > look for **Mail.Read.Shared** > select **Consent**, and select **Accept**.
 
 #### Summary of required roles for the Created Agent User
 
@@ -199,23 +208,26 @@ To do this,
 
 
 ### Step 4: Set up the shared mailbox
+
 The Expense Entry feature in the Time and Expense Agent uses a shared mailbox to receive and process receipt emails. This mailbox needs to be created and configured by a user with the Exchange Administrator role in the Microsoft 365 Admin Center.
 
 To create and configure the shared mailbox, follow these steps.
-1.	Sign in to the [Microsoft 365 Admin Center](https://admin.microsoft.com/) by using an Exchange Admin account.
-2.	In the left pane, select **Teams & Groups** > **Shared mailboxes.**  
+1. Sign in to the [Microsoft 365 Admin Center](https://admin.microsoft.com/) by using an Exchange Admin account.
+1. In the left pane, select **Teams & Groups** > **Shared mailboxes.**  
    
- >_Tip: You might first have to select Show all to expand the full list._
+   > [!TIP]
+   > You may need to select **Show all** to expand the full list.
 
-4.	Select **Add a shared mailbox.**  
-5.	Enter a name and email address for the shared mailbox.  
-6.	Select **Save changes**. 
-7.	Under **Next steps**, select **Add members to this shared mailbox**. (Member management might take a few minutes to become available)
-8.	Select **Add members** > Select the **created agent user** and any others who should monitor the mailbox > then select **Add**.  
-9.	Select **Close** to complete the setup.
+1. Select **Add a shared mailbox**.  
+1. Enter a name and email address for the shared mailbox.  
+1. Select **Save changes**. 
+1. Under **Next steps**, select **Add members to this shared mailbox**. (Member management might take a few minutes to become available.)
+1. Select **Add members**
+1. Select the created agent user and any others who should monitor the mailbox, and select **Add**.  
+1. Select **Close**.
     
->Note: Please note the email address of the shared mailbox as this will be used in the next step.  
->After the shared mailbox is set up, you must provide its email address and the folder path (by default it will be set as Inbox) as environment variables when you >configure the Time and Expense Agent. This will be explained in step 5). 
+> [!NOTE]
+> The email address of the shared mailbox as this will be used in the next step. After the shared mailbox is set up, you must provide its email address and the folder path (by default it will be set as Inbox) as environment variables when you configure the Time and Expense Agent. Learn more in **Step 5: Set up the Expense Entry feature of the Time and Expense Agent**. 
 
 ### Step 5: Set up the Expense Entry feature of the Time and Expense Agent
 
@@ -223,15 +235,18 @@ You have two options for setting up the Expense Entry feature of the Time and Ex
 - **Option A:** Use a PowerShell Script **(recommended)**
 - **Option B:** Do manual setup in Power Apps (no PowerShell)
 
-> _**[Important]: Before proceeding with the installation of the Expense Entry agent, please ensure that agent is provisioned successfully in the Microsoft Copilot Studio.**_
+> [!IMPORTANT]
+> Before proceeding with the installation of the Expense Entry agent, ensure that agent is provisioned successfully in the Microsoft Copilot Studio.
 > 
-> _To check this,_\
-> _a.	Log in to Microsoft Copilot Studio and select your environment._\
-> _b.	Go to Agents > Search for ExpenseAgent-Line (Preview) and see if the Publish button is enabled._\
-> _c.	If enabled, proceed with the installation. If disabled, wait until the agent is provisioned._\
-> _d.	Similarly check for Expense Entry Agent (Preview) as well._
-> 
->> _Tip: If provisioning of the Copilot finance and operations app takes longer than 5–6 hours, it's recommended to uninstall and reinstall the app to resolve potential setup delays. Follow the uninstallation steps mentioned in the section here (link to uninstallation)._
+> To agent is provisioned successfully, follow these steps.
+> 1. Log in to Microsoft Copilot Studio and select your environment.
+> 1. Go to **Agents** and search for **ExpenseAgent-Line (Preview)**. 
+> 1. Verify the Publish button is enabled.
+> 1. If enabled, proceed with the installation. If disabled, wait until the agent is provisioned.
+> 1. Repeat these steps to verify **Expense Entry Agent (Preview)** is enabled.
+
+> [!TIP]
+> If provisioning of the Copilot finance and operations app takes longer than 5–6 hours, it's recommended to uninstall and reinstall the app to resolve potential setup delays. Learn how to uninstall in the _Uninstall Expense entry feature_ section at the end of this article.
 
 
 #### Option A: Use a PowerShell script (recommended)
@@ -246,12 +261,14 @@ The PowerShell script automates the following tasks:
 - Publish the Copilot agents.
 - Publish the Dataverse solution.
 
-Before running the script, you need to **create connections** as you’ll need to provide the Connection ID for each connector in the install.ps1 file. To create these Connections, please follow the steps below using the created agent user.
+Before running the script, you need to **create connections** as you’ll need to provide the Connection ID for each connector in the install.ps1 file. To create these Connections, follow these steps using the created agent user.
+
 1. Sign in to the [Power Apps maker portal](https://make.powerapps.com/) using the newly created agent user, and select your environment.
-2. On the left pane, select on **More** and select on **Connections**.
-3. Select on **New connection** and on the top right corner you can search using the Connection Name from the table below (For e.g. **Office 365 Outlook**) and select the appropriate connector from the list and create it.
-4. Once the connection is created, note the user with which the connection was created. It should ideally be the **created agent user id**. This is needed to be updated in the installation file that we would be creating in the next step.
-5. Repeat steps 3 and 4 for each of the remaining required connections listed below.
+1. On the left pane, select **More** and select **Connections**.
+1. Select **New connection** and search using the Connection Name from the table below (For example, **Office 365 Outlook**).
+1. Select the appropriate connector from the list and create it.
+1. Once the connection is created, note the user with which the connection was created. It should ideally be the **created agent user id**. This is needed to be updated in the installation file that we would be creating in the next step.
+1. Repeat steps 3 and 4 for each of the remaining required connections listed below.
 
 | Connection Name | Connection URL Format |
 |---|---|
@@ -262,7 +279,8 @@ Before running the script, you need to **create connections** as you’ll need t
 | Microsoft Copilot Studio (preview) | https://make.powerapps.com/environments/environmentID/connections<br/>/**shared_microsoftcopilotstudio**/connectionID/details |
 
 #### Details needed to create the installation file
-To create the installation file — install.ps1, please keep the following details handy, (You can refer to the below table for reference)
+
+To create the installation file — install.ps1, have the following information available. (You can refer to the below table for reference.)
 
 | Parameter | Additional details |
 |---|---|
@@ -275,19 +293,22 @@ To create the installation file — install.ps1, please keep the following detai
 
 #### Create the installation script file
 
-Create an installation script file by copying the below code and insert the needed environment variables named below, into the script, and then run the same using PowerShell.
+Create an installation script file by copying the following code and insert the needed environment variables named below, into the script, and then run the script using PowerShell.
 
->Note: Please make sure to place the installation script file on the local desktop. Do **NOT** store them in One Drive.
+> [!NOTE]
+> Make sure you place the installation script file on the local desktop. Do **NOT** store them in One Drive.
 
 Create a PowerShell script file with the below code and make sure to update the mentioned parameters before running the script.
 
->_[!Tip] When Mandatory = $true, the parameters will be prompted interactively on the PowerShell screen, so there's no need to update them directly in the script file._
+> [!TIP]
+> When Mandatory = $true, the parameters will be prompted interactively on the PowerShell screen, so there's no need to update them directly in the script file.
 >
->_If you'd prefer to avoid manual input and want the parameters to be pre-defined within the installation script, set Mandatory = $false in the Param section below._
+> If you'd prefer to avoid manual input and want the parameters to be pre-defined within the installation script, set Mandatory = $false in the Param section of the following sample code.
 
-Copy the below code into your installation script file and save it as _**'Install.ps1'**_, and **please make sure to update the variables in the respective parameter fields** in the param section. There are **10 variables to be updated**. 
+Copy the following code into your installation script file and save it as _**'Install.ps1'**_, and **make sure to update the variables in the respective parameter fields** in the param section. There are **10 variables to update**. 
 
->_[!Tip]: Use the table above as a reference and replace all the sample values with your respective details._
+> [!TIP]
+> Use the table above as a reference and replace all the sample values with your respective details.
 
 ```json
 #requires -Version 7
@@ -885,21 +906,23 @@ try {
 
 ```
 
-To trigger the PowerShell file, 
-- Open PowerShell _(Minimum version needed - PowerShell 7)_
-- Go to the location where the  file is saved. _(Use command cd <file location>)_
-- Trigger the installation script. _(Use command '.\Install.ps1')_
-- Please follow the instructions to log in to Azure.
-- After successfully logging in, you might need to authorize one more time. _(Please do so with the **created agent user id.**)_
+To trigger the PowerShell file, follow these steps.
+
+1. Open PowerShell _(Minimum version needed - PowerShell 7)_.
+1. Go to the location where the  file is saved. _(Use command cd <file location>)_.
+1. Trigger the installation script. _(Use command '.\Install.ps1')_.
+1. follow the instructions to log in to Azure.
+1. After successfully logging in, you might need to authorize one more time. _(Use the **created agent user id.**)_.
 
 Wait for the script to run completely and look for a message **Agent setup completed successfully!**
 
-Note:  The preceding script performs these actions:
-- Set environment variables.
-- Verify and link connection references.
-- Enable Power Automate flows.
-- Publish the required Copilot agents.
-- Publish the Dataverse solution.
+> [!NOTE]
+> The preceding script performs these actions:
+> - Set environment variables.
+> - Verify and link connection references.
+> - Enable Power Automate flows.
+> - Publish the required Copilot agents.
+> - Publish the Dataverse solution.
 
 After the script runs successfully, the Expense Entry feature of the Time and Expense Agent is fully configured and ready to use.
 
@@ -971,30 +994,30 @@ To enable Teams-based communication through the Expense Entry feature of the Tim
 To enable the Teams channel, follow these steps.
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/) and select the correct environment.
-2. On the **Agents** tab, select **Expense Entry Agent**.
-3. In the agent view, on the **Channels** tab, select **Teams and Microsoft 365 Copilot**.
-4. Select **Add channel** to enable Teams integration and follow the below steps to configure who you want to share the app.
+1. On the **Agents** tab, select **Expense Entry Agent**.
+1. In the agent view, on the **Channels** tab, select **Teams and Microsoft 365 Copilot**.
+1. Select **Add channel** to enable Teams integration and follow the steps in the _Configure Teams app availability_ section to configure who you want to share the app.
 
- >_Note: Learn more in [Open the configuration panel for the Teams + Microsoft 365 channel](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#open-the-configuration-panel-for-the-microsoft-teams-channel)._
+Learn more in [Open the configuration panel for the Teams + Microsoft 365 channel](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#open-the-configuration-panel-for-the-microsoft-teams-channel).
 
 #### Configure Teams app availability
 
 To configure Teams app availability, follow these steps.
 
 1. After the Teams app is created, select **Availability Options**.
-2. Select who you want to share the app with:
+1. Select who you want to share the app with:
 
     - Specific users within the organization
     - The entire organization
-3. Submit the app for approval.
+1. Submit the app for approval.
 
 #### Publish the app in the Teams admin center
 
 To publish the app in the Teams admin center, follow these steps.
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/).
-2. Go to teams app > Manage apps. Search for expense and select "Expense Entry Agent" app where App status is blocked.
-3. Select on Publish to unblock the app. Once publish action is completed successfully, ensure that App status changes to unblocked.
+1. Go to teams app > Manage apps. Search for expense and select "Expense Entry Agent" app where App status is blocked.
+1. Select **Publish** to unblock the app. Once publish action is completed successfully, ensure that App status changes to unblocked.
 
 Learn more in [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
 
@@ -1005,8 +1028,8 @@ With these steps completed, your **Expense Entry feature in the Time and Expense
 To **uninstall** the expense entry feature of the Time and Expense Agent, follow these steps.
 
 1. Log in to Microsoft Power Apps maker portal
-2. Select on **Solutions** > search for **msdyn_ExpenseAI** > select on three dots and select Delete
-3. Similarly search for **msdyn_FnOCopilotAnchor** and delete the solution.
+1. Select **Solutions**, search for **msdyn_ExpenseAI**, select the three dots, and select **Delete**.
+1. Similarly search for **msdyn_FnOCopilotAnchor** and delete the solution.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
