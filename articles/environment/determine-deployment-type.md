@@ -38,7 +38,7 @@ Project Operations supports multiple deployment options to match your requiremen
 
 Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will help you determine the right deployment. The results will guide you toward one of the following deployment types:
 
-- [Project Operations Core – deal to proforma invoicing](#lite)
+- [Project Operations Core] (#lite)
 - [Project Operations Integrated with ERP scenarios](#integrated)
 - [Project Operations for manufacturing](#pma)
 
