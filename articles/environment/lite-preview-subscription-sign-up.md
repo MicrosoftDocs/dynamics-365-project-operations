@@ -1,5 +1,5 @@
 ---
-title: Sign up for a preview subscription - lite
+title: Sign up for a preview subscription - Project Operations Core
 description: This article provides information about how to subscribe to and deploy Project Operations Core.
 author: ryansandness
 ms.author: ryansandness
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Sign up for a preview subscription - lite 
+# Sign up for a preview subscription - Project Operations Core 
 
 [!INCLUDE[banner](../includes/banner.md)]
 

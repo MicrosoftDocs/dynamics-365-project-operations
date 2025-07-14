@@ -62,7 +62,7 @@ The Project Operations Core includes the following capabilities:
 #### Deployment steps
 Determine the best deployment model of Project Operations using the [Deployment questionnaire](https://aka.ms/provisionprojectoperations).
 
-For this deployment, see [Sign-up for preview subscriptions](lite-preview-subscription-sign-up.md) and [Provision new environment](lite-deployment.md). 
+For this deployment, see [Sign-up for preview subscriptions](Project Operations Core-preview-subscription-sign-up.md) and [Provision new environment](lite-deployment.md). 
 
 
 ### <a name="integrated"></a>Project Operations Integrated with ERP scenarios

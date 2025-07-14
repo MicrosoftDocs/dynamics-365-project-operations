@@ -1,5 +1,5 @@
 ---
-title: Manage complex units for product-based contract lines - lite
+title: Manage complex units for product-based contract lines - Project Operations Core
 description:  This article provides information about supporting the sale of subscription-based products.
 author: poojafandan
 ms.date: 06/10/2024
@@ -11,7 +11,7 @@ ms.author: poojafandan
 ---
 
 
-# Manage complex units for product-based contract lines - lite
+# Manage complex units for product-based contract lines - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 

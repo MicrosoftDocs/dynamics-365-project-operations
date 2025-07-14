@@ -1,5 +1,5 @@
 ---
-title: Manage leads - Lite
+title: Manage leads - Project Operations Core
 description: This article provides information about managing project-based leads (pro).
 author: poojafandan
 ms.date: 06/07/2024
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: poojafandan
 ---
 
-# Manage leads - Lite
+# Manage leads - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 

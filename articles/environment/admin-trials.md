@@ -43,7 +43,7 @@ The following table outlines the details of the new trial offer.
 ## Admin trial details
 The following table lists the trial details and how they apply to each deployment type.
 
-| **Item**                      | **Lite**                                     | **Non-stocked materials** | **Stocked materials** |
+| **Item**                      | **Project Operations Core**                                     | **Non-stocked materials** | **Stocked materials** |
 |-------------------------------|----------------------------------------------|---------------------------|-----------------------|
 | Setup data provided           | Yes                                          | Yes                       | Yes (USSI)            |
 | Transactional data            | No                                           | No                        | No                    |
@@ -126,7 +126,7 @@ To extend your trial, complete the following steps.
 3. Under **Expiration Date**, select **Extend Date**.
 
 ### Can I upgrade from the Project Operations Core to the Project Operations Integrated with ERP based scenario deployment?
-Currently, there is no support to upgrade an environment from a lite to a non-stocked based deployment.
+Currently, there is no support to upgrade an environment from a Project Operations Core to a non-stocked based deployment.
 
 ### Can I access Lifecycle Services (LCS) for my Finance environments?  
 No. For these trials, deployment is handled through the Power Platform Admin Center. Access to the Finance environment is restricted.

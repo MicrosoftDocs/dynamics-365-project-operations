@@ -24,7 +24,7 @@ This article applies to the following Dynamics 365 Project Operations components
 The following features are included in this release:
 
 - Non-stocked materials for projects. Key capabilities include:
-  - Estimating and pricing non-stocked materials during the sales cycle for a project. For more information, see [Set up cost and sales rates for catalog products - lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
+  - Estimating and pricing non-stocked materials during the sales cycle for a project. For more information, see [Set up cost and sales rates for catalog products - Project Operations Core](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Tracking the use of non-stocked materials during project delivery. For more information, see [Record material usage on projects and project tasks](../material/material-usage-log.md).
   - Invoicing used non-stocked material costs. For more information, see [Manage billing backlog](../proforma-invoicing/manage-billing-backlog.md).
   - For information about how to configure this feature, see [Configure non-stocked materials and pending vendor invoices](../procurement/configure-materials-nonstocked.md)

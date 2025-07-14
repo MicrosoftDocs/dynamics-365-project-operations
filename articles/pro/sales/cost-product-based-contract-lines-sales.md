@@ -1,5 +1,5 @@
 ---
-title: Cost product-based contract lines - Lite
+title: Cost product-based contract lines - Project Operations Core
 description: This article provides information about creating cost product-based contract lines
 author: rumant
 ms.date: 10/19/2020
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Cost product-based contract lines - Lite
+# Cost product-based contract lines - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 

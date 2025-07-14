@@ -37,7 +37,7 @@ Full Expense deployment provides a complete policy enforcement that includes the
 ## Basic 
 Basic Expense deployment scenario only allows you to record basic expenses against a project. 
 
-For more information, see [Expense entry (lite)](basic-expense.md)
+For more information, see [Expense entry (Project Operations Core)](basic-expense.md)
 
 ## Determine your Expense deployment
 To determine if you're running the Basic Expense management deployment, verify that the address URL ends with **.crm.dynamics.com**. 

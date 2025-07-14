@@ -36,8 +36,8 @@ When you search for a resource, the filters available on the schedule board shou
 The query used for searching should also be updated to use these additional filter attributes. Use the following steps to update Schedule Board configuration for general resource search:  
 1. Open **Schedule Board Settings** for a specific Schedule Board.
 2. Open the **General settings** tab and scroll to **Other settings**.
-3. In the list of settings in this section, update the **Filter Layout** to **Default Filter Layout for Project Operations Lite**.
-4. Update **Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Lite**.
+3. In the list of settings in this section, update the **Filter Layout** to **Default Filter Layout for Project Operations Project Operations Core**.
+4. Update **Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Project Operations Core**.
 
 ![Update Schedule Board settings for general resource search](../media/BoardSettings.png)  
 
@@ -53,10 +53,10 @@ The query used for searching should also be updated to use these additional filt
 
 1. Open **Schedule Board Settings** for a specific Schedule Board and then select **Open Default settings** to open the settings for requirement-specific search.
 2. Open the **General settings** tab and scroll to **Other settings**.
-3. In the list of settings in this section, update the **Filter Layout** to **Default Filter Layout for Project Operations Lite**.
-4. Update **Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Lite**.
+3. In the list of settings in this section, update the **Filter Layout** to **Default Filter Layout for Project Operations Project Operations Core**.
+4. Update **Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Project Operations Core**.
 5. Open the **Schedule Types** tab and go to **Project**.
-6. Under the settings for **Project**, update **Schedule Assistant Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Lite** and update **Schedule Assistant Retrieve Constraints Query** to **Default Retrieve Constraints Query for Project Operations Lite**.
+6. Under the settings for **Project**, update **Schedule Assistant Retrieve Resources Query** to **Default Retrieve Resources Query for Project Operations Project Operations Core** and update **Schedule Assistant Retrieve Constraints Query** to **Default Retrieve Constraints Query for Project Operations Project Operations Core**.
 
 ![Update Schedule Board settings for requirement–based resource search](../media/SASettings.png)  
 

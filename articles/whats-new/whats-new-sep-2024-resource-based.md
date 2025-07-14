@@ -47,7 +47,7 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing & Pricing|	4377398|	During Project copy, estimates aren't getting copied completely in Lite org.|
+|Billing & Pricing|	4377398|	During Project copy, estimates aren't getting copied completely in Project Operations Core org.|
 |Resource Management|	4343128|	Fix Invalid XML and Null Reference errors when booking from the Schedule Board.|
 |Project Planning & Tracking|	4337938|	PSA Upgrade: Dynamics365ProjectOperationsDualWrite and Dynamics365ProjectOperationsDualWriteEntityMaps shouldn't be imported during upgrade from PSA to PO.|
 |Project Estimates|	4326097|	Not able to create estimates with the future dates when Modern Estimates Feature is enabled.|

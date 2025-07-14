@@ -27,7 +27,7 @@ This article lists the features and fixes that are new or changed for Project Se
 ## Update Release 40
 
 ### Features
-Phase 1 of the upgrade from Project Service Automation to Project Operations - Lite will be released in February 2022 to all customers. To check for eligibility, see [Upgrade from Project Service Automation to Project Operations](upgrade-project-operations-non-stocked.md). If the application doesn't appear in your instance in the Power Platform Admin Center, contact support and request that the flight be enabled for your environments. Your request must include a list of environment IDs where the flight needs to be enabled.
+Phase 1 of the upgrade from Project Service Automation to Project Operations - Project Operations Core will be released in February 2022 to all customers. To check for eligibility, see [Upgrade from Project Service Automation to Project Operations](upgrade-project-operations-non-stocked.md). If the application doesn't appear in your instance in the Power Platform Admin Center, contact support and request that the flight be enabled for your environments. Your request must include a list of environment IDs where the flight needs to be enabled.
 
 ### Bug fixes
 

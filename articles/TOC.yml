@@ -1534,7 +1534,7 @@
     items: 
     - name: Expense overview
       href: expense/expense-overview.md
-    - name: Expense entry (lite)
+    - name: Expense entry (Project Operations Core)
       href: expense/basic-expense.md
   - name: Material usage
     items: 
@@ -2098,7 +2098,7 @@
       href: psa/whats-new-v3-2020-wave1.md
     - name: What's new or changed in Project Service Automation V3
       href: psa/whats-new-changed-v3.md
-  - name: Project Service Automation upgrade (app version Project Operations Lite 4.x)
+  - name: Project Service Automation upgrade (app version Project Operations Project Operations Core 4.x)
     items: 
     - name: Upgrade from Project Service Automation to Project Operations
       href: psa/upgrade-project-operations-non-stocked.md  
@@ -2124,7 +2124,7 @@
       href: psa/implementation-guides/resource-management-guide.md
     - name: Reporting guide
       href: psa/implementation-guides/reporting-guide.md
-  - name: Upgrade from Project Service Automation to Project Operations - lite
+  - name: Upgrade from Project Service Automation to Project Operations - Project Operations Core
     href: psa/upgrade-project-operations-non-stocked.md
   - name: Feature changes from Project Service Automation to Project Operations
     href: psa/psa-project-operations-changes.md

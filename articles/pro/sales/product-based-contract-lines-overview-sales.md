@@ -1,5 +1,5 @@
 ---
-title: Product-based contract lines overview - lite
+title: Product-based contract lines overview - Project Operations Core
 description: This article provides information about product-based contract lines.
 author: poojafandan
 ms.date: 06/07/2024
@@ -11,7 +11,7 @@ ms.author: poojafandan
 
 ---
 
-# Product-based contract lines overview - lite
+# Product-based contract lines overview - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Apply demo setup and configuration data - lite
+title: Apply demo setup and configuration data - Project Operations Core
 description: This article provides information about how to apply demo setup and configuration data for Project Operations.
 author: rumant
 ms.author: rumant
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Apply demo setup and configuration data for Project Operations - lite 
+# Apply demo setup and configuration data for Project Operations - Project Operations Core 
 
 [!INCLUDE[banner](../includes/banner.md)]
 
