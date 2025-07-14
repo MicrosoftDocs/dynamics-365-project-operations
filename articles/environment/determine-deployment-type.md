@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 > [!IMPORTANT]
 > After you purchase the license, start here to determine the best deployment model of Dynamics 365 Project Operations using the [Guided installation flow](https://aka.ms/provisionprojectoperations).
@@ -38,15 +38,15 @@ Project Operations supports multiple deployment options to match your requiremen
 
 Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will help you determine the right deployment. The results will guide you toward one of the following deployment types:
 
-- [Core deployment – deal to proforma invoicing](#lite)
+- [Project Operations Core – deal to proforma invoicing](#lite)
 - [Project Operations Integrated with ERP scenarios](#integrated)
 - [Project Operations for manufacturing](#pma)
 
 Project Operations support stocked/production order scenarios and non-stocked/resource-based scenarios on the same environment through legal entity-level configurations. For example, Contoso can use the stocked/production order capabilities in their US manufacturing facility (Legal entity = Contoso Manufacturing United States). Contoso can use the non-stocked/resource-based capabilities in their Contoso Robotics Arms servicing facility in UK (Legal entity = Contoso Robotics United Kingdom).
 
-### <a  name="lite"></a>Core deployment - deal to proforma invoicing
+### <a  name="lite"></a>Project Operations Core
 
-The Core deployment includes the following capabilities:
+The Project Operations Core includes the following capabilities:
 
 - Sales process for projects that extends Dynamics 365 Sales application experiences
 - Project planning using Microsoft Project for the Web

@@ -1,5 +1,5 @@
 ---
-title: Expense entry (Core deployment - deal to proforma invoicing) 
+title: Expense entry (Project Operations Core) 
 description: This article provides information about how to work with expense entry in a Core deployment.
 author: mohitmenon
 ms.date: 05/22/2024
@@ -10,11 +10,11 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Expense entry (Core deployment - deal to proforma invoicing)
+# Expense entry (Project Operations Core)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies to:** Core deployment - deal to proforma invoicing_
+_**Applies to:** Project Operations Core_
 
 Basic, or Core deployment, expense management is the capability to record simple expenses. You can record expenses against a project, and then the project approver reviews and approves them.
 

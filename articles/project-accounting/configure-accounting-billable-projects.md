@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Configure accounting for billable projects
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations supports various accounting options for billable projects that include time and material and fixed price transactions.
 

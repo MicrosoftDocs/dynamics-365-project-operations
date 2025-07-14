@@ -14,7 +14,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing, Project Operations Integrated with ERP_
+_**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
 If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.
 

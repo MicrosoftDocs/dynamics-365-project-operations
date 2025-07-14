@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Access control on the task grid
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Microsoft Dynamics 365 Project Operations provides control over user access to the task grid. Users can be granted full access, read-only access, or customized permissions for creating, updating, and deleting tasks. These permissions can be configured at both the user level and the project team member level.
 

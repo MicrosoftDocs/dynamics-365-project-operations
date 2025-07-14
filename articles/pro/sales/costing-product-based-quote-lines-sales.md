@@ -14,7 +14,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 
 Product-based quote lines in Dynamics 365 Project Operations also have a **Cost Price** field. This field is used to track the cost price for the product on the quote line and for downstream profitability calculations.

@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 Project contracts in Dynamics 365 Project Operations support the scenario where a contractual agreement involves multiple customers who are funding a deal. The **Summary** tab on the **Project Contract** page includes the **Customer** field. This field identifies the primary customer of the deal. Other customers for the deal can be set up on the **Customers** tab of the **Project Contract** page.
 

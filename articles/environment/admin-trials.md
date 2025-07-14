@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing, Project Operations for manufacturing-based scenarios_ 
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core, Project Operations for manufacturing-based scenarios_ 
 
 
 
@@ -125,13 +125,13 @@ To extend your trial, complete the following steps.
 2. Select **Dynamics 365 Project Operations (CE) - Preview Trial**.
 3. Under **Expiration Date**, select **Extend Date**.
 
-### Can I upgrade from the Core deployment to the Project Operations Integrated with ERP based scenario deployment?
+### Can I upgrade from the Project Operations Core to the Project Operations Integrated with ERP based scenario deployment?
 Currently, there is no support to upgrade an environment from a lite to a non-stocked based deployment.
 
 ### Can I access Lifecycle Services (LCS) for my Finance environments?  
 No. For these trials, deployment is handled through the Power Platform Admin Center. Access to the Finance environment is restricted.
 
 ### Can I install my trial on an existing environment?
-If you have an existing environment, you will be allowed to install the Core deployment on an existing sales Dataverse environment from the Power Platform Admin center.
+If you have an existing environment, you will be allowed to install the Project Operations Core on an existing sales Dataverse environment from the Power Platform Admin center.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

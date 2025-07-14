@@ -17,7 +17,7 @@ ms.author: mohitmenon
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 After an administrator completes all the steps in [Enable the Time Entry feature of the Time and Expense Agent in an environment](enable-time-entry-agent.md), team members can start to use the agent. The agent is available to team members as a Microsoft Teams app and communicates with them via Teams.
 

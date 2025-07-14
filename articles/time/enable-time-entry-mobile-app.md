@@ -14,7 +14,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 This article explains how system administrators can enable the new Microsoft Dynamics 365 Time Entry Mobile App (Preview) for users in their organization. It also explains how users can open the app after it's enabled.
 

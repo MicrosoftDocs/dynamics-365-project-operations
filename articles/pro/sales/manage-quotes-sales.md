@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 In Dynamics 365 Project Operations, project quotes are designed to help build proposals for project work. The structure of a project quote in Project Operations is structured for project proposals with the following components:
 

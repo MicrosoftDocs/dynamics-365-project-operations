@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The Approvals feature of the Time and Expense Agent uses the text of policy documents to determine how submitted time, expense, and material records should be classified. This article provides information to help you create policy documents. It outlines the information that is available to the agent, recommends a structure for policy documents, and provides links to examples of policy documents for time, expense, and materials.
 

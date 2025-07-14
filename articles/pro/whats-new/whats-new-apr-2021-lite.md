@@ -12,7 +12,7 @@ ms.author: sigitac
 
 # What's new April 2021 - Project Operations Core deployment
 
-_Applies To: Core deployment - deal to proforma invoicing._
+_Applies To: Project Operations Core._
 
 This article applies to the following Dynamics 365 Project Operations components and versions:
 

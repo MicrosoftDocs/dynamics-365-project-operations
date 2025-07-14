@@ -15,7 +15,7 @@ ms.author: mohitmenon
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Core._
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 This article provides an overview of the end-to-end subcontract management process in project-based organizations. Subcontracting for services typically follows the business process flow that is shown in the following diagram.
 

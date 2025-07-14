@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Core deployment - deal to proforma invoicing_
+_**Project Operations Core_
 
 
 

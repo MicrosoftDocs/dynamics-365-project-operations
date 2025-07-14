@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article explains the state transitions on a vendor invoice in Microsoft Dynamics 365 Project Operations. The following states are used: **Draft**, **In review**, **Confirmed**, **On hold**, and **Canceled**.
 

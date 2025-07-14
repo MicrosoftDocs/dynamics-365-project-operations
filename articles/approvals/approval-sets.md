@@ -15,7 +15,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Approval sets group approval requests together into smaller subsets of operations. This grouping allows approvals to be processed by project, in a specific order and allows for retrying and sequencing. Grouping the approval requests together improves the reliability and traceability of approval processing for large volumes of approvals.
 

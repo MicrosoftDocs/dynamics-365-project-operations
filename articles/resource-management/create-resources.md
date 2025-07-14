@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Create bookable resources
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 Resources are the most important asset of a project-based or service-based organization. You can create bookable resource in Microsoft Dynamics 365 Project Operations by using the **Resources** page.
 

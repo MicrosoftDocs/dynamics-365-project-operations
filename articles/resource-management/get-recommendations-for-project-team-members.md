@@ -16,7 +16,7 @@ ms.author: mohitmenon
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
 

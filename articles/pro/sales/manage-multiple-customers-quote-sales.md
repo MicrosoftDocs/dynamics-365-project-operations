@@ -14,7 +14,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 Project quotes support the scenario where the proposal involves multiple customers who will fund the deal. The **Summary** tab of the Quote has the **Potential customer** field that identifies the primary customer of the deal. Other customers for the deal can be set up on the **Customers** tab of the project quote.
 

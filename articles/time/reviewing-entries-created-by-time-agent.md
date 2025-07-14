@@ -15,7 +15,7 @@ ms.author: mohitmenon
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 After a team member sets up their agent preferences as described in [Start using the Time Entry feature of the Time and Expense Agent as a team member](use-time-entry-agent-in-teams.md), the experience of logging time entries is as follows:
 

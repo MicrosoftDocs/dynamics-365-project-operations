@@ -15,7 +15,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 You can create product-based contract lines in Dynamics 365 Project Operations. Product-based contract lines can be manually created lines, or they can be items from the product catalog.
 

@@ -12,7 +12,7 @@ ms.author: mohitmenon
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 The Time Entry Calendar interface gives users a new way to view and interact with their time entries. It introduces more intuitive ways of creating and editing time entries. In addition, users can show their time entries over various time horizons from **Daily**, **Weekly**, and **Monthly** views.
 
