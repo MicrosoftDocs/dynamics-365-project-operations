@@ -1,6 +1,6 @@
 ---
-title: Set up the Approvals feature of the Time and Expense Agent as an admin (preview)
-description: Learn how to set up the Approvals feature of the Time and Expense Agent as an admin. 
+title: Set up the Approvals Agent as an admin (preview)
+description: Learn how to set up the Approvals Agent as an admin. 
 author: abriccetti
 ms.author: abriccetti
 ms.date: 05/13/2025
@@ -10,14 +10,14 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
-# Set up the Approvals feature of the Time and Expense Agent as an admin (preview)
+# Set up the Approvals Agent as an admin (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
 
-The Approvals feature of the Time and Expense Agent is available as a production-ready preview in Microsoft Dynamics 365 Project Operations environments that have **version 4.140.0.239 or later**. An admin must complete the following steps to enable the approvals functionality of the Time and Expense Agent:
+The Approvals Agent is available as a production-ready preview in Microsoft Dynamics 365 Project Operations environments that have **version 4.140.0.239 or later**. An admin must complete the following steps to enable the approvals functionality of the Time and Expense Agent:
 
 1. Set up connections on the Microsoft Power Apps home page.
 1. Activate the agent trigger.
