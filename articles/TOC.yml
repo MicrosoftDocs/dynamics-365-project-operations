@@ -938,7 +938,7 @@
     items:
     - name: Project Operations Core overview
       href: pro/project-operations-overview-lite.md
-    - name: Sign up for a preview subscription - Core deployment
+    - name: Sign up for a preview subscription - Project Operations Core
       href: environment/lite-preview-subscription-sign-up.md
     - name: Deploy Project Operations Core deployment
       href: environment/lite-deployment.md
@@ -956,111 +956,111 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
-    - name: What's new June 2025 - Core deployment
+    - name: What's new June 2025 - Project Operations Core
       href: pro/whats-new/whats-new-june-2025-lite.md
-    - name: What's new May 2025 - Core deployment
+    - name: What's new May 2025 - Project Operations Core
       href: pro/whats-new/whats-new-may-2025-lite.md 
     - name: Archive
       items:
-      - name: What's new April 2025 - Core deployment
+      - name: What's new April 2025 - Project Operations Core
         href: pro/whats-new/whats-new-apr-2025-lite.md 
-      - name: What's new 2025 Wave 1 early access - Core deployment
+      - name: What's new 2025 Wave 1 early access - Project Operations Core
         href: pro/whats-new/whats-new-2025W1-early-access-lite.md
-      - name: What's new February 2025 - Core deployment
+      - name: What's new February 2025 - Project Operations Core
         href: pro/whats-new/whats-new-feb-2025-lite.md
-      - name: What's new January 2025 - Core deployment
+      - name: What's new January 2025 - Project Operations Core
         href: pro/whats-new/whats-new-jan-2025-lite.md 
-      - name: What's new December 2024 - Core deployment
+      - name: What's new December 2024 - Project Operations Core
         href: pro/whats-new/whats-new-dec-2024-lite.md
-      - name: What's new October 2024 - Core deployment
+      - name: What's new October 2024 - Project Operations Core
         href: pro/whats-new/whats-new-oct-2024-lite.md
-      - name: What's new September 2024 - Core deployment
+      - name: What's new September 2024 - Project Operations Core
         href: pro/whats-new/whats-new-sep-2024-lite.md
-      - name: What's new August 2024 - Core deployment
+      - name: What's new August 2024 - Project Operations Core
         href: pro/whats-new/whats-new-aug-2024-lite.md
-      - name: What's new 2024 wave 2 early access - Core deployment
+      - name: What's new 2024 wave 2 early access - Project Operations Core
         href: pro/whats-new/whats-new-2024W2-early-access-lite.md
-      - name: What's new July 2024 - Core deployment
+      - name: What's new July 2024 - Project Operations Core
         href: pro/whats-new/whats-new-july-2024-lite.md 
-      - name: What's new June 2024 - Core deployment
+      - name: What's new June 2024 - Project Operations Core
         href: pro/whats-new/whats-new-june-2024-lite.md
-      - name: What's new April 2024 - Core deployment
+      - name: What's new April 2024 - Project Operations Core
         href: pro/whats-new/whats-new-apr-2024-lite.md
-      - name: What's new 2024 wave 1 early access - Core deployment
+      - name: What's new 2024 wave 1 early access - Project Operations Core
         href: pro/whats-new/whats-new-2024w1-early-access-lite.md
-      - name: What's new March 2024 - Core deployment
+      - name: What's new March 2024 - Project Operations Core
         href: pro/whats-new/whats-new-mar-2024-lite.md
-      - name: What's new February 2024 - Core deployment
+      - name: What's new February 2024 - Project Operations Core
         href: pro/whats-new/whats-new-feb-2024-lite.md
-      - name: What's new December 2023 - Core deployment
+      - name: What's new December 2023 - Project Operations Core
         href: pro/whats-new/whats-new-dec-2023-lite.md
-      - name: What's new November 2023 - Core deployment
+      - name: What's new November 2023 - Project Operations Core
         href: pro/whats-new/whats-new-nov-2023-lite.md
-      - name: What's new October 2023 - Core deployment
+      - name: What's new October 2023 - Project Operations Core
         href: pro/whats-new/whats-new-oct-2023-lite.md
-      - name: What's new September 2023 - Core deployment
+      - name: What's new September 2023 - Project Operations Core
         href: pro/whats-new/whats-new-sept-2023-lite.md
       - name: What's new 2023 wave 1 early access - Project Operations Core deployment
         href: pro/whats-new/whats-new-2023W1-early-access-lite.md
-      - name: What's new August 2023 - Core deployment
+      - name: What's new August 2023 - Project Operations Core
         href: pro/whats-new/whats-new-aug-2023-lite.md
-      - name: What's new July 2023 - Core deployment
+      - name: What's new July 2023 - Project Operations Core
         href: pro/whats-new/whats-new-jul-2023-lite.md
-      - name: What's new June 2023 - Core deployment
+      - name: What's new June 2023 - Project Operations Core
         href: pro/whats-new/whats-new-jun-2023-lite.md
-      - name: What's new May 2023 - Core deployment
+      - name: What's new May 2023 - Project Operations Core
         href: pro/whats-new/whats-new-may-2023-lite.md
-      - name: What's new April 2023 - Core deployment
+      - name: What's new April 2023 - Project Operations Core
         href: pro/whats-new/whats-new-apr-2023-lite.md
-      - name: What's new March 2023 - Core deployment
+      - name: What's new March 2023 - Project Operations Core
         href: pro/whats-new/whats-new-mar-2023-lite.md
-      - name: What's new February 2023 - Core deployment
+      - name: What's new February 2023 - Project Operations Core
         href: pro/whats-new/whats-new-feb-2023-lite.md
-      - name: What's new January 2023 - Core deployment
+      - name: What's new January 2023 - Project Operations Core
         href: pro/whats-new/whats-new-jan-2023-lite.md
-      - name: What's new November 2022 - Core deployment
+      - name: What's new November 2022 - Project Operations Core
         href: pro/whats-new/whats-new-nov-2022-lite.md
-      - name: What's new October 2022 - Core deployment
+      - name: What's new October 2022 - Project Operations Core
         href: pro/whats-new/whats-new-oct-2022-lite.md
-      - name: What's new September 2022 - Core deployment
+      - name: What's new September 2022 - Project Operations Core
         href: pro/whats-new/whats-new-sept-2022-lite.md
-      - name: What's new August 2022 - Core deployment
+      - name: What's new August 2022 - Project Operations Core
         href: pro/whats-new/whats-new-aug-2022-lite.md
-      - name: What's new July 2022 - Core deployment
+      - name: What's new July 2022 - Project Operations Core
         href: pro/whats-new/whats-new-july-2022-lite.md
-      - name: What's new June 2022 - Core deployment
+      - name: What's new June 2022 - Project Operations Core
         href: pro/whats-new/whats-new-june-2022-lite.md 
-      - name: What's new 2021 wave 2 early access - Core deployment
+      - name: What's new 2021 wave 2 early access - Project Operations Core
         href: pro/whats-new/whats-new-2021-early-access-lite.md
-      - name: What's new May 2022 - Core deployment
+      - name: What's new May 2022 - Project Operations Core
         href: pro/whats-new/whats-new-may-2022-lite.md
-      - name: What's new April 2022 - Core deployment
+      - name: What's new April 2022 - Project Operations Core
         href: pro/whats-new/whats-new-apr-2022-lite.md      
-      - name: What's new March 2022 - Core deployment
+      - name: What's new March 2022 - Project Operations Core
         href: pro/whats-new/whats-new-mar-2022-lite.md
-      - name: What's new February 2022 - Core deployment
+      - name: What's new February 2022 - Project Operations Core
         href: pro/whats-new/whats-new-feb-2022-lite.md
-      - name: What's new December 2021 - Core deployment
+      - name: What's new December 2021 - Project Operations Core
         href: pro/whats-new/whats-new-dec-2021-lite.md    
-      - name: What's new November 2021 - Core deployment
+      - name: What's new November 2021 - Project Operations Core
         href: pro/whats-new/whats-new-nov-2021-lite.md
-      - name: What's new October 2021 - Core deployment
+      - name: What's new October 2021 - Project Operations Core
         href: pro/whats-new/whats-new-oct-2021-lite.md
-      - name: What's new September 2021 - Core deployment
+      - name: What's new September 2021 - Project Operations Core
         href: pro/whats-new/whats-new-sept-2021-lite.md
-      - name: What's new August 2021 - Core deployment
+      - name: What's new August 2021 - Project Operations Core
         href: pro/whats-new/whats-new-august-2021-lite.md
-      - name: What's new July 2021 - Core deployment
+      - name: What's new July 2021 - Project Operations Core
         href: pro/whats-new/whats-new-july-2021-lite.md
-      - name: What's new June 2021 - Core deployment
+      - name: What's new June 2021 - Project Operations Core
         href: pro/whats-new/whats-new-june-2021-lite.md
-      - name: What's new May 2021 - Core deployment
+      - name: What's new May 2021 - Project Operations Core
         href: pro/whats-new/whats-new-may-2021-lite.md
-      - name: What's new April 2021 - Core deployment
+      - name: What's new April 2021 - Project Operations Core
         href: pro/whats-new/whats-new-apr-2021-lite.md
-      - name: What's new March 2021 - Core deployment
+      - name: What's new March 2021 - Project Operations Core
         href: pro/whats-new/whats-new-mar-2021-lite.md
-      - name: What's new February 2021 - Core deployment
+      - name: What's new February 2021 - Project Operations Core
         href: pro/whats-new/whats-new-feb-2021-lite.md
       - name: What's new January 2021 - Project Operations Core 
         href: pro/whats-new/whats-new-jan-2021-lite.md

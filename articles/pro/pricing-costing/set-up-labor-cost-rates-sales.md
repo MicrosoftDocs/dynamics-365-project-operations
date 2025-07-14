@@ -1,5 +1,5 @@
 ---
-title: Set up labor cost rates - Core deployment
+title: Set up labor cost rates - Project Operations Core
 description: This article provides information about how to set up the cost rates for labor in Project Operations.
 author: abriccetti
 ms.author: abriccetti
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Set up labor cost rates - Core deployment
+# Set up labor cost rates - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
