@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 After you've verified all the lines on a vendor invoice in Microsoft Dynamics 365 Project Operations, you can use the Confirm action to confirm the vendor invoice.
 

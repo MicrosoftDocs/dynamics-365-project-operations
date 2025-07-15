@@ -10,7 +10,7 @@ ms.author: abriccetti
 
 # Create resource assignments
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 
 A resource assignment is the direct association of a project team member to a leaf node task. This article provides information about the different ways to assign resources.

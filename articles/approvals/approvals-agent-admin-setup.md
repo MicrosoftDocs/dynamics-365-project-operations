@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 The Approvals feature of the Time and Expense Agent is available as a production-ready preview in Microsoft Dynamics 365 Project Operations environments that have **version 4.140.0.239 or later**. An admin must complete the following steps to enable the approvals functionality of the Time and Expense Agent:
 

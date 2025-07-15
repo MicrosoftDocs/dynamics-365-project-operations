@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Define roles
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 In Microsoft Dynamics 365 Project Operations, you can define the roles or categories that are used to group the resources in your organization. For example, to identify groups of resources and define their pricing based on their roles, create categories such as **Consultant**, **Developer**, and **Project manager**, **Consulting Lead 1** and **Consulting Lead 2**, or **Senior Project manager**.
 

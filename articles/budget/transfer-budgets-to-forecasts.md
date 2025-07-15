@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/nonstocked based scenarios._
+_**Applies To:** Project Operations for Project Operations Integrated with ERP based scenarios._
 
 This article outlines the typical steps that are required to transfer budgets from Microsoft Dataverse to forecasts in finance and operations apps for resource nonstocked deployments.
 

@@ -11,13 +11,13 @@ ms.author: suvaidya
 ---
 # Add new invoice line details to a draft project-based proforma invoice
 
-_**Applies To:** Core deployment - deal to proforma invoicing, Project Operations Integrated with ERP_
+_**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 Transactions for time, expense, and material usage can be created directly on a draft invoice. This feature streamlines the invoicing process and helps ensure timely and accurate billing. It provides significant financial and administrative benefits to project-oriented companies by enhancing operational efficiency and accelerating cash flow.
 
-The feature is available in lite deployments of Microsoft Dynamics 365 Project Operations. In Update Release (UR) 54, it's also being extended to Project Operations Integrated with ERP based scenarios deployments.
+The feature is available in Project Operations Core deployments of Microsoft Dynamics 365 Project Operations. In Update Release (UR) 54, it's also being extended to Project Operations Integrated with ERP based scenarios deployments.
 
 > [!NOTE]
 > The feature can be enabled at **Settings** \> **Parameters** \> **Feature control** \> **Enable improvements in invoice creation**.

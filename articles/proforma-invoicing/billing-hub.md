@@ -14,7 +14,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing, Project Operations Integrated with ERP_
+_**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
 The end-to-end process of invoice creation in Microsoft Dynamics 365 Project Operations is cumbersome, because it involves multiple clicks and navigation between different forms and views.
 

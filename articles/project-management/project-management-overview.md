@@ -12,7 +12,7 @@ ms.author: ruhercul
 
 # Project management overview
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The project management tools in Dynamics 365 Project Operations help you easily run projects. The scheduling tools help project managers and teams stay productive. Some of the tasks that the tools help with include:
 

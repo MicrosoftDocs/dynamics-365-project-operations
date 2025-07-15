@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing, Project Operations Integrated with ERP_
+_**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
 A project-based quote line has the concept of *included* components and *chargeable* components.
 

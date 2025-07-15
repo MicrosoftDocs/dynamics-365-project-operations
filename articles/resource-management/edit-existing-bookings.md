@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Edit Bookings
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 
 When changes occur on a project that require you to update existing bookings, there are several ways to make the changes. This article outlines how to update and make changes to bookings.

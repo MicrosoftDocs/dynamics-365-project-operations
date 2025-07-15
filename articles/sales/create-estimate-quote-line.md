@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Create estimates on a quote line
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 On a project-based quote, you can use the Quote line detail entity to estimate the work that is required to deliver a project. You can then share that estimate with the customer.
 

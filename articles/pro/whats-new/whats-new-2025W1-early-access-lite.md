@@ -1,6 +1,6 @@
 ---
-title: What's new 2025 wave 1 early access - Project Operations Core deployment
-description: Learn about the features available in the 2025 Wave 1 early access release of Project Operations Core deployment.
+title: What's new 2025 wave 1 early access - Project Operations Core
+description: Learn about the features available in the 2025 Wave 1 early access release of Project Operations Core.
 author: mohitmenon
 ms.custom:
   - evergreen
@@ -11,9 +11,9 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# What's new 2025 wave 1 early access - Project Operations Core deployment
+# What's new 2025 wave 1 early access - Project Operations Core
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following Microsoft Dynamics 365 Project Operations components and versions:
 

@@ -1,6 +1,6 @@
 ---
-title: What's new October 2024 - Project Operations Core deployment
-description: This article provides information about quality updates that are available in the October 2024 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new October 2024 - Project Operations Core
+description: This article provides information about quality updates that are available in the October 2024 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.author: mohitmenon
 ms.topic: whats-new
@@ -12,11 +12,11 @@ ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ---
 
-# What's new October 2024 - Project Operations Core deployment
+# What's new October 2024 - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -52,7 +52,7 @@ This article applies to the following components and versions of Microsoft Dynam
 |Billing and Pricing|	4344145|	Transaction date (Time zone Independent) field on Invoice Detail is changed when user who creates Invoice is different time zone than user that created order.|
 |Project Budgeting|	4374938|	Not able to Create Budget Period where Project Doesn't have end date.|
 |Project Budgeting|	4375822|	Time phasing Budget lines not working.|
-|Billing and Pricing|	4377398|	During Project copy, estimates aren't getting copied completely in Lite org.|
+|Billing and Pricing|	4377398|	During Project copy, estimates aren't getting copied completely in Project Operations Core org.|
 |Project Planning|	4384132|	Online: Not possible to change a plan calendar template in the purple experience.|
 |Sales|	4394136|	Project Contract is Missing' Error Thrown When Closing Quote as Won.|
 |Resource Management|	4413953|	"An unexpected error occurred" or "Object reference not set to an instance of an object." when trying to book a project resource from the schedule board without using team member generated requirement.|

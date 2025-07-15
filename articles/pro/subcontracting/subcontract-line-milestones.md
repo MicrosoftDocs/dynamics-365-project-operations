@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 In Dynamics 365 Project Operations, a subcontract line with a fixed-price billing method can specify a milestone-based invoice schedule with the vendor.
 

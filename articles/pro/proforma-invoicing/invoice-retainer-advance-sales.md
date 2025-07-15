@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations supports retainer-based contracts and one-time advances. On a project contract, you can record a schedule of retainers or a one-time advance. However, recording at the project contract level doesn't immediately make a retainer or advance available for use. To use a retainer or advance on an invoice that actually charges the customer, the retainer or advance must be invoiced first.
 

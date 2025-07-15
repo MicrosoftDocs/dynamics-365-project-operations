@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Complete the following steps when you want to create a custom option set or entity for using it as a pricing dimension. For more information, see [Pricing dimensions overview](pricing-dimensions-overview.md).  
 

@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/nonstocked based scenarios._
+_**Applies To:** Project Operations for Project Operations Integrated with ERP based scenarios._
 
 This article describes the typical actions that are performed for cost and sales budget management in resource nonstocked deployments.
 

@@ -12,7 +12,7 @@ ms.author: dishantpopli
 
 # Copy a project
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. Projects can only be copied if they have at least one task. To copy a project, open the project you want to copy, and then select **Copy project**. The action copies the following:
 
@@ -27,7 +27,7 @@ With Dynamics 365 Project Operations, you can quickly build new projects by sele
 
 When the project is copied, the values in the following fields are copied.
 
-| Field | Project Operations Non-Stocked Materials | Project Operations Lite | Project for the Web |
+| Field | Project Operations Non-Stocked Materials | Project Operations  Core | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Description | :heavy_check_mark: | :heavy_check_mark: | |

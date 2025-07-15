@@ -1,6 +1,6 @@
 ---
-title: What's new 2023 wave 1 early access - Project Operations Core deployment
-description: This article provides information about the features available in the 2023 wave 1 early access release of Project Operations Core deployment.
+title: What's new 2023 wave 1 early access - Project Operations Core
+description: This article provides information about the features available in the 2023 wave 1 early access release of Project Operations Core.
 author: ramagadu
 ms.custom:
   - evergreen
@@ -11,9 +11,9 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# What's new 2023 wave 1 early access - Project Operations Core deployment
+# What's new 2023 wave 1 early access - Project Operations Core
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following Microsoft Dynamics 365 Project Operations components and versions:
 

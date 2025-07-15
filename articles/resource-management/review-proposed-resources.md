@@ -14,7 +14,7 @@ ms.search.scope:
 
 # Review proposed resources
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Resource managers can propose a resource to the project manager by using a resource request.
 

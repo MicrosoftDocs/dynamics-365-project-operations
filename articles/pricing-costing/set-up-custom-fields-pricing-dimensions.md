@@ -18,7 +18,7 @@ ms.search.validFrom: 2020-10-01
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Before you begin, this article assumes that you have completed the procedures in the articles, [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md) and [Add required custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md). If you haven't completed those procedures, go back and complete them and then return to this article. 
 

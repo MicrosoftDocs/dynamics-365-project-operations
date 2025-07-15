@@ -14,7 +14,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 Project-based contract lines in Dynamics 365 Project Operations are designed to hold the estimate and billing agreements for specific components of project work on an engagement. The structure of a project–based contract line is extended for project estimates and billing scenarios with the following concepts:
 

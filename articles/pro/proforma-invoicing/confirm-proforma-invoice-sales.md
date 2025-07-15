@@ -16,7 +16,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 
 After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. Going forward, the invoice can only be corrected if there are any customer-initiated corrections or credits.

@@ -1,6 +1,6 @@
 ---
 title: Set up labor bill rates Core deployment
-description: This article provides information about setting up labor billing rates in Project Operations Core deployment.
+description: This article provides information about setting up labor billing rates in Project Operations Core.
 author: abriccetti
 ms.date: 01/09/2025
 ms.topic: how-to
@@ -15,7 +15,7 @@ ms.author: abriccetti
 [!INCLUDE[banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 Each price list has a set of role prices or labor rates that are effective for the context and date effectivity that are included on the price list header. Bill rates for time in Microsoft Dynamics 365 Project Operations can be set up in only one currency, which is the currency on the price list header.
 

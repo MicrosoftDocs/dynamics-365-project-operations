@@ -80,7 +80,7 @@ additionalContent:
         text: Work breakdown structures
       - url: project-management/project-management-overview.md
         text: Project management
-  - title: Core deployment - deal to proforma invoicing
+  - title: Project Operations Core
     items:
     - title: Guidance 
       links: 
@@ -101,7 +101,7 @@ additionalContent:
     - title: Administer and develop
       links:
       - url: environment/lite-deployment.md
-        text: Deploy Project Operations Core deployment - deal to proforma invoicing
+        text: Deploy Project Operations Core
       - url: environment/lite-apply-demo-setup-config-data.md
         text: Apply demo setup and configuration data
       - url: environment/dsr-rights-requests.md

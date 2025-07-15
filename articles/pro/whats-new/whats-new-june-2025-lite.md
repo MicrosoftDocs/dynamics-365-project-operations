@@ -1,6 +1,6 @@
 ---
-title: What's new June 2025 - Project Operations Core deployment
-description: This article provides information about quality updates that are available in the June 2025 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new June 2025 - Project Operations Core
+description: This article provides information about quality updates that are available in the June 2025 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.author: mohitmenon
 ms.topic: whats-new
@@ -12,11 +12,11 @@ ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ---
 
-# What's new June 2025 - Project Operations Core deployment
+# What's new June 2025 - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -24,7 +24,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Features included in this release
 
-There are no new features released in the June 2025 version of Project Operations Core deployment.
+There are no new features released in the June 2025 version of Project Operations Core.
 
 ## Quality updates
 

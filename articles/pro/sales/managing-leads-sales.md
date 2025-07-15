@@ -1,5 +1,5 @@
 ---
-title: Manage leads - Lite
+title: Manage leads - Project Operations Core
 description: This article provides information about managing project-based leads (pro).
 author: poojafandan
 ms.date: 06/07/2024
@@ -10,11 +10,11 @@ ms.reviewer: johnmichalak
 ms.author: poojafandan
 ---
 
-# Manage leads - Lite
+# Manage leads - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 Project-based leads can be managed and qualified in Project Operations. The process of lead management includes creating work-based leads and qualifying those leads. 
 

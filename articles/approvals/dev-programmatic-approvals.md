@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Process approvals programmatically
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 Microsoft Dynamics 365 Project Operations provides the Process Project Approval Sets API. You can use this API to programmatically process approvals via Power Automate or a custom plug-in.
 

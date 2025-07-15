@@ -14,7 +14,7 @@ ms.author: poojafandan
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article provides information about fields that apply to the entire project contract including settings that impact all contract lines. Information about the contract that is summarized across all the line items to drive KPIs of the project contract is also included.
 

@@ -10,7 +10,7 @@ ms.author: suvaidya
 
 # Revise (correct) project invoices
 
-_**Applies To:** Core deployment - deal to proforma invoicing, Project Operations Integrated with ERP_
+_**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
 A confirmed project invoice can be revised to process changes or credits as negotiated with the customer and project manager.
 
