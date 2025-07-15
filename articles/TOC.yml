@@ -746,6 +746,14 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
+    - name: Approvals agent (preview)
+      items: 
+      - name: Approvals Agent overview (preview)
+        href: approvals/approvals-agent-intro.md
+      - name: Set up policy documents for the Approvals Agent (preview)
+        href: approvals/approvals-agent-policy.md
+      - name: Set up the Approvals Agent as an admin (preview)
+        href: approvals/approvals-agent-admin-setup.md
     - name: Approval sets 
       href: approvals/approval-sets.md
     - name: Cancel approval on previously approved entries
@@ -2472,14 +2480,6 @@
         href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
 - name: Time and Expense Agent (preview)
   items:
-  - name: Approvals
-    items: 
-    - name: Approvals feature of the Time and Expense Agent overview
-      href: approvals/approvals-agent-intro.md
-    - name: Set up policy documents for the Approvals feature of the Time and Expense Agent (preview)
-      href: approvals/approvals-agent-policy.md
-    - name: Set up the Approvals feature of the Time and Expense Agent as an admin
-      href: approvals/approvals-agent-admin-setup.md
   - name: Expense entry
     items:
     - name: Expense Entry feature of the Time and Expense Agent overview
