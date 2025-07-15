@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 In Microsoft Dynamics 365 Project Operations, you can create actuals by confirming entry journals instead of entering Time, Expense, or Material usage logs. If mistakes are made during the creation of entry journals, use the following procedure to cancel the actuals that were created. In this way, you can correct the mistakes.
 

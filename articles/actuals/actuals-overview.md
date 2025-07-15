@@ -15,7 +15,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies to:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 
 Actuals represent the reviewed and approved financial and schedule progress on a project. Actuals are created when time, expense, and material usage entries, journal entries, and invoices are approved.
 

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Resource utilization overview
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Resources can have a target billable utilization. This target utilization is defined as an attribute on a resource's default role or set on the record of the individual bookable resource. Utilization calculations are based on the actual hours that resources have reported by using approved time entries.
 

@@ -13,7 +13,7 @@ ms.author: ruhercul
 
 # Navigating the user interface
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 ## Overview
 

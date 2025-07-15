@@ -1,6 +1,6 @@
 ---
-title: What's new November 2022 - Project Operations Core deployment
-description: This article provides information about the quality updates that are available in the November 2022 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new November 2022 - Project Operations Core
+description: This article provides information about the quality updates that are available in the November 2022 release of Microsoft Dynamics 365 Project Operations Core.
 author: ryansandness
 ms.custom:
   - evergreen
@@ -11,9 +11,9 @@ ms.reviewer: johnmichalak
 ms.author: ryansandness
 ---
 
-# What's new November 2022 - Project Operations Core deployment
+# What's new November 2022 - Project Operations Core
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -23,7 +23,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | Feature area | Feature name | More information |
 | --- | --- | --- |
-| Deployment and Configuration | **Project Service Automation (PSA) to Project Operations Lite Upgrade Phase 2**<br>Phase 2 allows any PSA customer to upgrade their existing environments provided the projects in their work breakdown structures conform to the current limits supported by Project for the Web. | [Upgrade from Project Service Automation to Project Operations](../../psa/upgrade-project-operations-non-stocked.md) |
+| Deployment and Configuration | **Project Service Automation (PSA) to Project Operations  Core Upgrade Phase 2**<br>Phase 2 allows any PSA customer to upgrade their existing environments provided the projects in their work breakdown structures conform to the current limits supported by Project for the Web. | [Upgrade from Project Service Automation to Project Operations](../../psa/upgrade-project-operations-non-stocked.md) |
 | Project Planning and Tracking | **Resource Assignment Contour Editing**<br> We are introducing the ability to edit the time phased effort of each resource assigned to a given task in the work breakdown structure, leveraging the modern Project for the Web project scheduling user interface. This new grid supports all of the existing experience in the Project for the Web including co-authoring and undo/redo.| [Editing Resource Assignment Contours](../../project-management/create-assignments.md) |
 | Resource Management | **New Schedule Board for Universal Resource Scheduling (URS)**<br>The new and improved URS schedule board is now available for Project Operations.| [Experience the new and improved schedule board](/dynamics365/field-service/preview-schedule-board) |
 

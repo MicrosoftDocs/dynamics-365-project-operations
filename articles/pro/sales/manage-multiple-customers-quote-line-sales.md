@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 Project quote lines support scenarios where each quote line has a list of customers that are paying for it. This list of customers on the project-based quote line can be the same as the list of customers on the quote. You can also change the list of customers to be different. When a project quote is won, the customer list on the project-based quote line is copied to the corresponding project–based contract line to create the eventual project contract. Customers on the project-based quote are copied to the project contract.
 

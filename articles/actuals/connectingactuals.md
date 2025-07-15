@@ -14,7 +14,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Transaction connection records are created to link actuals of different types as time, expense, or material usage moves in its lifecycle from the quote or pre-sales stage to the contract stage, approvals and/or recalls, invoicing, and potentially credit or corrective invoicing.
 

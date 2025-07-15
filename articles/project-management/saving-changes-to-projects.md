@@ -13,7 +13,7 @@ ms.author: abriccetti
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 Microsoft Dynamics 365 Project Operations embeds Microsoft Project for the web inside the tasks tab of a project record. When edits are made to the work breakdown structure (WBS) the UI immediately shows the changes; however, an asynchronous save process is triggered to update the relevant fields in Dataverse. The amount of time this asynchronous save takes depends on the size of the changes. If a change requires updates to many entities, for example adjusting dates on a task that many other tasks depend on, it takes longer than a change that updates few entities.
 

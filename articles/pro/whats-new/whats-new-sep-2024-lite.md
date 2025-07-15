@@ -1,6 +1,6 @@
 ---
-title: What's new September 2024 - Project Operations Core deployment
-description: This article provides information about quality updates that are available in the Sept 2024 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new September 2024 - Project Operations Core
+description: This article provides information about quality updates that are available in the Sept 2024 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.custom:
   - evergreen
@@ -11,11 +11,11 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# What's new September 2024 - Project Operations Core deployment
+# What's new September 2024 - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -37,7 +37,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing & Pricing|	4377398|	During project copy, estimates aren't getting copied completely in Lite org.|
+|Billing & Pricing|	4377398|	During project copy, estimates aren't getting copied completely in Project Operations Core org.|
 |Resource Management|	4343128|	Fix invalid XML and null reference errors when booking from the Schedule Board.|
 |Project Planning & Tracking|	4337938|	PSA Upgrade: Dynamics365ProjectOperationsDualWrite and Dynamics365ProjectOperationsDualWriteEntityMaps shouldn't be imported during upgrade from PSA to PO.|
 |Project Estimates|	4326097|	Unable to create estimates with the future dates when the **Modern Estimates** feature is enabled.|

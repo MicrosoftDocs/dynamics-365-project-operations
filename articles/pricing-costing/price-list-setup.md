@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 Price lists in Dynamics 365 Project Operations represent a catalog of rates. The rates express cost, sales, and bill rates. Depending on whether the price list expresses cost rates or sales and bill rates, the context of the price list is **Sales**, **Cost**, or **Purchase**.
 

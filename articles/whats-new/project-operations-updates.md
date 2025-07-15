@@ -14,13 +14,13 @@ ms.author: abriccetti
 
 # Project Operations Updates
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing, and Project Operations for manufacturing-based scenarios_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core, and Project Operations for manufacturing-based scenarios_
 
 ## Project Operations Components
 
 Dynamics 365 Project Operations consists of two components:
 
-- Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the Core deployment and Project Operations Integrated with ERP scenarios deployment of Project Operations.
+- Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the Project Operations Core and Project Operations Integrated with ERP scenarios deployment of Project Operations.
 - Project Management and Accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The finance and operations apps environment is used in Project Operations Integrated with ERP and Project Operations for manufacturing.
 
 ## Project Operations Station & Geographical Regions
@@ -46,7 +46,7 @@ Dynamics 365 Project Operations consists of two components:
 
 > [!IMPORTANT]
 > - The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively.
-> - For Project Operations Project Operations Integrated with ERP scenario, we recommend that you use Dual-write orchestration version 2.3.1.15 or higher.
+> - For Project Operations Integrated with ERP scenario, we recommend that you use Dual-write orchestration version 2.3.1.15 or higher.
 > - If you're using an older version of either product, contact Microsoft support for assistance in upgrading.
 
 ## Release Schedule for Project Operations on Dataverse Environment

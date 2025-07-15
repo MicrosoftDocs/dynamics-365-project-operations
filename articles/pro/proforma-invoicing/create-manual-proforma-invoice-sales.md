@@ -14,11 +14,11 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 Proforma project invoicing gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when time, expense, and material entries that project team members submit are approved.
 
-Dynamics 365 Project Operations Core deployment isn't designed to generate customer-facing invoices. The following list shows why invoices cannot be generated:
+Dynamics 365 Project Operations  Core isn't designed to generate customer-facing invoices. The following list shows why invoices cannot be generated:
 
 - Does not contain tax information.
 - Cannot convert other currencies to the invoicing currency.

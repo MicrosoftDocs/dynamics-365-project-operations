@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Project schedule API performance
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing, Project for the web_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core, Project for the web_
 
 This article provides information about the performance benchmarks of the Project schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
 
@@ -53,7 +53,7 @@ Execution time is defined as the time from the call to the **ExecuteOperationSet
 
 For a single-record operation, the OperationSet contains one request. For bulk operations, it contains 20, 50, or 100 requests. Each bulk size is reported separately.
 
-These operations run on a UR 15 Project Operations Core deployment in North America.
+These operations run on a UR 15 Project Operations  Core in North America.
 
 ## Results
 ### Create operations

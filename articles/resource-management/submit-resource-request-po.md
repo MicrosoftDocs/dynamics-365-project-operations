@@ -18,7 +18,7 @@ ms.reviewer: johnmichalak
 ---
 # Submitting a resource request
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 You can submit a generated resource requirement as a resource request. The request is then sent to a Resource Manager for fulfillment.
 

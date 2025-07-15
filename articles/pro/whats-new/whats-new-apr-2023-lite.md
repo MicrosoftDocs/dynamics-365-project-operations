@@ -1,6 +1,6 @@
 ---
-title: What's new April 2023 - Project Operations Core deployment
-description: This article provides information about the quality updates that are available in the April 2023 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new April 2023 - Project Operations Core
+description: This article provides information about the quality updates that are available in the April 2023 release of Microsoft Dynamics 365 Project Operations Core.
 author: ramagadu
 ms.custom:
   - evergreen
@@ -11,9 +11,9 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# What's new April 2023 - Project Operations Core deployment
+# What's new April 2023 - Project Operations Core
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

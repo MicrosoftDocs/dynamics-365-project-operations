@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Labor cost tracking on projects
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations tracks labor estimates and spend at the lowest required granularity on the project plan. The financial estimate of labor cost is based on the planned effort and the generic or named resources that are assigned to each leaf-node task in the project plan. When the project begins and people start to report time on various project tasks, the actual spend on labor is summarized which starts a calculation of the projections.
 

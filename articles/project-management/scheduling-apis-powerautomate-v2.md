@@ -10,7 +10,7 @@ ms.author: abriccetti
 
 # Use V2 Project schedule APIs with Power Automate
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 This article describes a sample flow that shows how to create a complete project plan by using Microsoft Power Automate, how to create an Operation Set, and how to update an entity. The example shows how to create a project, project team member, Operation Sets, project tasks, and resource assignments. This article also explains how to update an entity and run an Operation Set.
 

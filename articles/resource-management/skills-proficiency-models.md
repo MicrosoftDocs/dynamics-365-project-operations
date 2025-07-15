@@ -12,7 +12,7 @@ ms.custom:
 ---
 
 # Skills and certifications
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Characteristics are used to enrich the attributes used to describe the abilities of a resource. Each characteristic of a resource can be described as a **Skill** or a **Certification**.
 

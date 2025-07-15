@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 A subcontract in Dynamics 365 Project Operations can have a subcontract line for products. These lines allow a Project Manager to purchase products from vendors that they can then use on project tasks.
 

@@ -13,7 +13,7 @@ ms.author: poojafandan
 
 # New Quote form experience
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 This article provides information about the updates to the project quotes form in Microsoft Dynamics 365 Project Operations.
 

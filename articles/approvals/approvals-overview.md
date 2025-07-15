@@ -15,7 +15,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Time, expense, and material usage submissions move through an approval workflow. After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.
 

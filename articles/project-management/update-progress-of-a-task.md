@@ -12,7 +12,7 @@ ms.author: dishantpopli
 
 # Update the progress of a task
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 In Microsoft Dynamics 365 Project Operations, users can update the progress of a task directly from the task grid.
 

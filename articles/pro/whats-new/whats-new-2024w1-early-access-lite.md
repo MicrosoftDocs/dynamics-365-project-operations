@@ -1,6 +1,6 @@
 ---
-title: What's new 2024 wave 1 early access - Project Operations Core deployment
-description: This article provides information about the features available in the 2024 wave 1 early access release of Project Operations Core deployment.
+title: What's new 2024 wave 1 early access - Project Operations Core
+description: This article provides information about the features available in the 2024 wave 1 early access release of Project Operations Core.
 author: tulsijhaveri
 ms.custom:
   - evergreen
@@ -11,9 +11,9 @@ ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---
 
-# What's new 2024 wave 1 early access - Project Operations Core deployment
+# What's new 2024 wave 1 early access - Project Operations Core
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following Microsoft Dynamics 365 Project Operations components and versions:
 
@@ -34,4 +34,4 @@ The following table lists the feature flags removed from Feature control. These 
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Pricing | **Cost plus pricing**<br><br>Supported columns added to grid view in Price lists specifically for Role prices tab. | [Set up labor bill rates - Core deployment](../pricing-costing/set-up-labor-bill-rate-sales.md) |
+| Pricing | **Cost plus pricing**<br><br>Supported columns added to grid view in Price lists specifically for Role prices tab. | [Set up labor bill rates - Project Operations Core](../pricing-costing/set-up-labor-bill-rate-sales.md) |

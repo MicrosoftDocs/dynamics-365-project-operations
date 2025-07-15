@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Generic resource requirement fulfillment
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 You can book a named resource to replace generic resource that has a resource requirement.
 

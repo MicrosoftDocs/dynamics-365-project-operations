@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Project time task tracking
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Microsoft Dynamics 365 Project Operations lets customers configure updates to the **Project task time tracking** fields for synchronization to Microsoft Project for the Web either in real time (the default behavior) or through delayed update. When **Delayed update** is selected, these updates occur only when a new project session is started. (This update occurs when the user navigates to the **Tasks** tab on a project entity.)
 
