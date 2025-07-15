@@ -54,6 +54,690 @@
       href: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv?context=/dynamics365/project-operations/context/dev-itpro
     - name: Create and automate user acceptance tests
       href: /dynamics365/fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests?context=/dynamics365/project-operations/context/dev-itpro
+- name: Project Operations Core
+  items:
+  - name: Get started
+    items:
+    - name: Project Operations Core overview
+      href: pro/project-operations-overview-lite.md
+    - name: Sign up for a preview subscription - Project Operations Core
+      href: environment/lite-preview-subscription-sign-up.md
+    - name: Deploy Project Operations Core
+      href: environment/lite-deployment.md
+    - name: Apply demo setup and configuration data - Project Operations Core
+      href: environment/lite-apply-demo-setup-config-data.md
+    - name: Security model
+      href: environment/security-model.md
+    - name: Change language localization settings
+      href: environment/language-localization.md
+    - name: Uninstall Dynamics 365 Project Operations
+      href: environment/uninstall-project-operations.md
+    - name: Developer notes
+      items:
+      - name: Developer notes for payment terms
+        href: get-started/developer-notes/customizing-payment-terms.md
+  - name: What's new
+    items:
+    - name: What's new June 2025 - Project Operations Core
+      href: pro/whats-new/whats-new-june-2025-lite.md
+    - name: What's new May 2025 - Project Operations Core
+      href: pro/whats-new/whats-new-may-2025-lite.md 
+    - name: Archive
+      items:
+      - name: What's new April 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-apr-2025-lite.md 
+      - name: What's new 2025 Wave 1 early access - Project Operations Core
+        href: pro/whats-new/whats-new-2025W1-early-access-lite.md
+      - name: What's new February 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-feb-2025-lite.md
+      - name: What's new January 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-jan-2025-lite.md 
+      - name: What's new December 2024 - Project Operations Core
+        href: pro/whats-new/whats-new-dec-2024-lite.md
+      - name: What's new October 2024 - Project Operations Core
+        href: pro/whats-new/whats-new-oct-2024-lite.md
+      - name: What's new September 2024 - Project Operations Core
+        href: pro/whats-new/whats-new-sep-2024-lite.md
+      - name: What's new August 2024 - Project Operations Core
+        href: pro/whats-new/whats-new-aug-2024-lite.md
+      - name: What's new 2024 wave 2 early access - Project Operations Core
+        href: pro/whats-new/whats-new-2024W2-early-access-lite.md
+      - name: What's new July 2024 - Project Operations Core
+        href: pro/whats-new/whats-new-july-2024-lite.md 
+      - name: What's new June 2024 - Project Operations Core
+        href: pro/whats-new/whats-new-june-2024-lite.md
+      - name: What's new April 2024 - Project Operations Core
+        href: pro/whats-new/whats-new-apr-2024-lite.md
+      - name: What's new 2024 wave 1 early access - Project Operations Core
+        href: pro/whats-new/whats-new-2024w1-early-access-lite.md
+      - name: What's new March 2024 - Project Operations Core
+        href: pro/whats-new/whats-new-mar-2024-lite.md
+      - name: What's new February 2024 - Project Operations Core
+        href: pro/whats-new/whats-new-feb-2024-lite.md
+      - name: What's new December 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-dec-2023-lite.md
+      - name: What's new November 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-nov-2023-lite.md
+      - name: What's new October 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-oct-2023-lite.md
+      - name: What's new September 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-sept-2023-lite.md
+      - name: What's new 2023 wave 1 early access - Project Operations Core
+        href: pro/whats-new/whats-new-2023W1-early-access-lite.md
+      - name: What's new August 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-aug-2023-lite.md
+      - name: What's new July 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-jul-2023-lite.md
+      - name: What's new June 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-jun-2023-lite.md
+      - name: What's new May 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-may-2023-lite.md
+      - name: What's new April 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-apr-2023-lite.md
+      - name: What's new March 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-mar-2023-lite.md
+      - name: What's new February 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-feb-2023-lite.md
+      - name: What's new January 2023 - Project Operations Core
+        href: pro/whats-new/whats-new-jan-2023-lite.md
+      - name: What's new November 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-nov-2022-lite.md
+      - name: What's new October 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-oct-2022-lite.md
+      - name: What's new September 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-sept-2022-lite.md
+      - name: What's new August 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-aug-2022-lite.md
+      - name: What's new July 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-july-2022-lite.md
+      - name: What's new June 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-june-2022-lite.md 
+      - name: What's new 2021 wave 2 early access - Project Operations Core
+        href: pro/whats-new/whats-new-2021-early-access-lite.md
+      - name: What's new May 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-may-2022-lite.md
+      - name: What's new April 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-apr-2022-lite.md      
+      - name: What's new March 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-mar-2022-lite.md
+      - name: What's new February 2022 - Project Operations Core
+        href: pro/whats-new/whats-new-feb-2022-lite.md
+      - name: What's new December 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-dec-2021-lite.md    
+      - name: What's new November 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-nov-2021-lite.md
+      - name: What's new October 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-oct-2021-lite.md
+      - name: What's new September 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-sept-2021-lite.md
+      - name: What's new August 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-august-2021-lite.md
+      - name: What's new July 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-july-2021-lite.md
+      - name: What's new June 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-june-2021-lite.md
+      - name: What's new May 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-may-2021-lite.md
+      - name: What's new April 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-apr-2021-lite.md
+      - name: What's new March 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-mar-2021-lite.md
+      - name: What's new February 2021 - Project Operations Core
+        href: pro/whats-new/whats-new-feb-2021-lite.md
+      - name: What's new January 2021 - Project Operations Core 
+        href: pro/whats-new/whats-new-jan-2021-lite.md
+      - name: What's new December 2020 - Project Operations Core 
+        href: pro/whats-new/whats-new-dec-2020-lite.md
+      - name: What's new November 2020 - Project Operations Core 
+        href: pro/whats-new/whats-new-nov-2020-lite.md
+  - name: Project sales process
+    items:
+    - name: Project sales process overview
+      href: sales/sales-overview.md
+    - name: Setup
+      items: 
+      - name: Products
+        href: sales/sales-products.md
+      - name: Units and unit groups
+        href: sales/sales-units-unit-groups.md
+      - name: Currency
+        href: sales/sales-currency.md
+      - name: Organizational units
+        href: sales/OrgUnits.md
+      - name: Use time zone independent date fields
+        href: sales/tz-independent-date-fields.md
+    - name: Manage project leads 
+      href: pro/sales/managing-leads-sales.md
+    - name: Manage project opportunities
+      items: 
+      - name: Project opportunities overview
+        href: sales/manage-project-based-opportunities.md
+      - name: Header details for project opportunities
+        href: pro/sales/opportunity-header-sales.md
+      - name: Manage product-based opportunity lines
+        href: pro/sales/product-based-lines-sales.md
+      - name: Manage project-based opportunity lines  
+        href: pro/sales/project-based-lines-sales.md
+      - name: Create quotes from project opportunities
+        href: sales/link-quotes-opportunities.md
+      - name: Copy project opportunities
+        href: sales/copy-project-based-opportunity.md
+      - name: Close a project opportunity 
+        href: sales/close-opportunity.md
+    - name: Manage project quotes
+      items:
+      - name: Project quotes overview
+        href: pro/sales/manage-quotes-sales.md
+      - name: New Quote Form experience
+        href: sales/quotes-new-form.md
+      - name: Concepts unique to project quotes
+        href: pro/sales/quotes-key-concepts-sales.md
+      - name: Header details for project quotes
+        href: pro/sales/quote-values-budget-limits-contract-sales.md
+      - name: Manage multiple customers on project quotes
+        href: pro/sales/manage-multiple-customers-quote-sales.md
+      - name: Project price lists on project quotes
+        href: pro/sales/manage-project-price-lists-sales.md
+      - name: Product-based quote lines
+        items: 
+        - name: Product-based quote lines overview
+          href: pro/sales/product-based-quote-lines-sales.md
+        - name: Costing product-based quote lines
+          href: pro/sales/costing-product-based-quote-lines-sales.md
+        - name: Manage complex units for product-based quote lines
+          href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
+      - name: Project quote lines
+        items:
+        - name: Project quote lines overview
+          href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+        - name: Manage multiple customers on project quote lines
+          href: pro/sales/manage-multiple-customers-quote-line-sales.md
+        - name: Map projects and tasks to project quote lines
+          href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+        - name: Configure chargeable components on project quote lines
+          href: pro/sales/configure-chargeable-components-quote-line-sales.md
+        - name: Estimate a project quote line
+          href: pro/sales/create-estimate-quote-line-sales.md
+        - name: Import estimates from a project to a project quote line
+          href: pro/sales/import-estimate-project-quote-sales.md
+        - name: Invoice schedules on project quote lines
+          href: sales/invoice-schedule-quote-line.md 
+      - name: Copy project quotes
+        href: sales/lose-quote.md
+      - name: Activate and revise a project quote
+        href: sales/activation-and-revision.md
+      - name: Close project quotes
+        href: pro/sales/win-quote-sales.md
+    - name: Manage project contracts
+      items: 
+      - name: Project contracts overview
+        href: pro/sales/manage-contracts-sales.md
+      - name: Concepts unique to project contracts
+        href: pro/sales/contracts-key-concepts-sales.md
+      - name: Header details for project contracts
+        href: pro/sales/project-contract-settings-sales.md
+      - name: Manage multiple customers on project contracts
+        href: pro/sales/manage-multiple-customers-contract-sales.md
+      - name: Project price lists on project contracts
+        href: sales/contracts-manage-project-price-lists.md
+      - name: Product-based contract lines
+        items: 
+        - name: Product-based contract lines overview
+          href: pro/sales/product-based-contract-lines-overview-sales.md
+        - name: Costing product-based contract lines
+          href: pro/sales/cost-product-based-contract-lines-sales.md
+        - name: Manage complex units for product-based contract lines 
+          href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+      - name: Project contract lines
+        items: 
+        - name: Project contract lines overview
+          href: pro/sales/manage-contract-values-project-based-sales.md
+        - name: Manage multiple customers on project contracts
+          href: pro/sales/manage-multiple-customers-contract-line-sales.md
+        - name: Map projects and tasks to a project contract line
+          href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+        - name: Configure chargeable components on a project contract line 
+          href: pro/sales/configure-chargeable-components-contract-line.md
+        - name: Estimate a project contract line
+          href: pro/sales/create-estimate-project-contract-line-sales.md
+        - name: Import estimates from a project to a project contract line
+          href: pro/sales/import-estimate-project-contract-line-sales.md
+        - name: Create invoice schedules on a project contract line
+          href: pro/sales/invoice-schedules-contract-line-sales.md
+      - name: Copy project contracts 
+        href: pro/sales/copy-project-contracts-sales.md
+      - name: Confirm a project contract
+        href: pro/sales/confirm-contract-sales.md
+      - name: Advances and retainers
+        items: 
+        - name: Advances and retainer-based contracts
+          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+        - name: Set up a retainer schedule
+          href: pro/sales/set-up-schedule-retainers-sales.md
+        - name: Create an ad hoc advance on a project contract
+          href: pro/sales/create-ad-hoc-advance-sales.md
+  - name: Pricing and costing
+    items: 
+    - name: Price list setup
+      items: 
+      - name: Price list definition
+        href: pricing-costing/price-list-setup.md
+      - name: Set up product price lists 
+        href: pricing-costing/product-price-list.md
+      - name: Set up bill rates for labor 
+        href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+      - name: Set up cost rates for labor
+        href: pro/pricing-costing/set-up-labor-cost-rates-sales.md      
+      - name: Set up cost and sales rates for expenses
+        href: pricing-costing/set-up-cost-sales-rates-expenses.md
+      - name: Set up cost and sales rates for materials 
+        href: pricing-costing/set-up-cost-sales-rates-materials.md
+    - name: Defaults and overrides
+      items:
+      - name: Default price lists
+        href: pricing-costing/default-project-sales-price-lists.md
+      - name: Override project sales price lists
+        href: pricing-costing/override-project-sales-price-list-default.md
+      - name: Set up Date-effective overrides for specific prices in a price list
+        href: pricing-costing/dateffective_price_overrides.md
+      - name: Determine cost prices on project estimates and actuals
+        href: pro/pricing-costing/cost-price-resolution-sales.md
+      - name: Determine sales prices for project estimates and actuals
+        href: pro/pricing-costing/sales-price-resolution-sales.md
+      - name: Copy price lists
+        href: pricing-costing/copy-price-lists.md
+      - name: Deactivate project price lists 
+        href:  pricing-costing/deactivatepricelists.md
+    - name: Pricing dimensions
+      items: 
+      - name: Pricing dimensions overview
+        href: pricing-costing/pricing-dimensions-overview.md
+      - name: Create a solution for custom pricing dimensions
+        href: sales/create-solution-custompd.md
+      - name: Use existing fields as pricing dimensions
+        items:
+        - name: Project Operations fields as pricing dimensions
+          href: pricing-costing/use-existing-field-pricing-dimension.md
+        - name: Use a bookable resource as a pricing dimension
+          href: sales/use-br-as-pd.md
+        - name: Use Transaction Category as a pricing dimension
+          href: pricing-costing/use-transaction-category-as-pd.md
+        - name: Bookable resource with multiple roles on a project
+          href: sales/br-playing-multiple-roles.md
+      - name: Custom fields as pricing dimensions
+        items:
+        - name: Create custom fields and entities as pricing dimensions
+          href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+        - name: Add custom fields to price setup and transactional entities
+          href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+        - name: Set up custom fields as pricing dimensions
+          href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+        - name: Update plug-in attributes to include new pricing dimensions
+          href: pricing-costing/update-plugin-attributes-pd.md
+      - name: Turn off a pricing dimension    
+        href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Manage discounts and fees overview
+      href: pricing-costing/manage-discount-fee-calculations.md
+  - name: Project management
+    items: 
+    - name: Project management overview
+      href: project-management/project-management-overview.md
+    - name: Saving changes to a project's work breakdown structure
+      href: project-management/saving-changes-to-projects.md
+    - name: Project stages
+      href: project-management/project-stages.md
+    - name: Navigating the user interface
+      href: project-management/navigate-ui.md
+    - name: Understand project status
+      href: project-management/understand-project-status.md
+    - name: Define project calendars
+      href: project-management/define-project-calendars.md
+    - name: Scheduling modes
+      hreF: project-management/scheduling-modes.md
+    - name: External scheduling
+      href: project-management/external-scheduling.md
+    - name: Update a project
+      href: project-management/update-project.md
+    - name: Copy a project
+      href: project-management/copy-project.md 
+    - name: Access control on task grid
+      href: project-management/access-control-on-task-grid.md
+    - name: Import projects from the Microsoft Project desktop client
+      href: project-management/import_from_mpp.md
+    - name: Plan your work in Microsoft Project with the Project Operations add-in
+      href: psa/plan-work-in-project-operations-add-in.md
+    - name: Project and task limitations
+      href: project-management/project-and-task-limitations.md
+    - name: Work breakdown structure planning
+      items: 
+      - name: Create a work breakdown structure
+        href: project-management/create-wbs.md
+      - name: Create assignments
+        href: project-management/create-assignments.md
+    - name: Financial estimates on projects
+      items: 
+      - name: Financial estimation concepts
+        href: project-management/estimating-projects-overview.md
+      - name: Financial estimates for resource time on projects
+        href: project-management/resource-estimates.md
+      - name: Financial estimates for expenses on projects
+        href: project-management/create-expense-estimates.md
+      - name: Financial estimates for materials on projects
+        href: project-management/create-material-estimate.md
+    - name: Project tracking
+      items: 
+      - name: Project effort tracking 
+        href: project-management/project-tracking-overview.md
+      - name: Project time task tracking
+        href: project-management/project-time-task-tracking.md
+      - name: Labor cost tracking on projects
+        href: project-management/project-cost-tracking.md
+      - name: Labor revenue tracking on projects
+        href: project-management/project-sales-tracking.md
+      - name: Update progress of a task
+        href: project-management/update-progress-of-a-task.md
+    - name: Project team members
+      items: 
+      - name: Project team members overview
+        href: project-management/project-team-members-overview.md
+      - name: Maintain team members
+        href: project-management/maintain-team-members.md
+    - name: Troubleshoot working in the Task grid
+      href: project-management/projectplanningUIFAQ.md
+    - name: Collaboration
+      items:
+      - name: Collaboration with Office Groups
+        href: project-management/collaboration-groups.md
+    - name: Developer notes
+      items:
+      - name: Develop project templates with Copy Project
+        href: project-management/dev-copy-project.md
+      - name: Use Project schedule APIs
+        href: project-management/schedule-api-preview.md
+      - name: Use V1 Project schedule APIs with Power Automate
+        href: project-management/scheduling-apis-powerautomate.md
+      - name: Use V2 Project schedule APIs with Power Automate
+        href: project-management/scheduling-apis-powerautomate-v2.md
+      - name: Project schedule API performance
+        href: project-management/project-schedule-api-performance.md
+      - name: Troubleshoot project scheduling errors in the task grid
+        href: project-management/schedule-api-logs-troubleshooting.md
+    - name: Project management Copilot overview
+      href: project-management/copilot-features.md
+  - name: Project budget management
+    items:
+    - name: Project budget management overview
+      href: pro/budget/projectbudgetmanagement.md
+    - name: Key concepts in project budget management
+      href: pro/budget/keyconcepts-projectbudget.md 
+    - name: Create and delete project cost budgets
+      href: pro/budget/create-delete-project-budget.md
+    - name: Create and delete project sales budgets
+      href: pro/budget/create-delete-project-sales-budget.md
+    - name: Create a project budget from estimates
+      href: pro/budget/create-project-budget-from-estimates.md
+    - name: Summarize budget lines during import
+      href: pro/budget/summarize-budgetline-during-import.md
+    - name: Set up a budget period
+      href: pro/budget/budget-period-setup.md
+    - name: Project budget line
+      items:
+      - name: Project time budget lines
+        href: pro/budget/project-cost-time-budget-line.md
+      - name: Project material budget lines
+        href: pro/budget/project-cost-material-budget-line.md
+      - name: Project expense budget lines
+        href: pro/budget/project-cost-expense-budget-line.md
+    - name: Use time-phased project cost budget lines
+      href: pro/budget/time-phase-budget-line.md
+    - name: Project budget status management
+      href: pro/budget/project-budget-status-mgmt.md
+    - name: Budget line match priority
+      href: pro/budget/budget-line-match-priority.md
+    - name: Re-evaluate the cost actual-to-budget association
+      href: pro/budget/reevaluate-actual-budget-association.md
+    - name: Revise a project cost budget
+      href: pro/budget/revise-project-cost-budget.md
+    - name: Create budget lines from unmatched actuals
+      href: pro/budget/create-budgetline-from-unmatched-actuals.md
+  - name: Resource management
+    items: 
+    - name: Key concepts
+      href: resource-management/resource-management-key-concepts.md
+    - name: Bookings vs. assignments
+      href: resource-management/booking-vs-assignment.md
+    - name: Resource management modes overview
+      href: resource-management/resource-management-mode-overview.md
+    - name: Schedule assistant overview
+      href: resource-management/schedule-assistant-overview.md
+    - name: Centralized resource booking
+      items:
+      - name: Define resource requirements
+        href: resource-management/define-resource-requirements.md
+      - name: Update resource requirements
+        href: resource-management/update-resource-requirements.md
+      - name: Submit a resource request
+        href: resource-management/submit-resource-requirements.md
+      - name: Book to a project
+        href: resource-management/book-project.md
+      - name: Review proposed resources
+        href: resource-management/review-proposed-resources.md
+      - name: Edit bookings
+        href: resource-management/edit-existing-bookings.md
+      - name: Accept or reject a proposed project resource
+        href: resource-management/accept-reject-proposed-resource-po.md
+      - name: Assign generic bookable resources to a task and project team
+        href: resource-management/assign-generic-resource-po.md
+      - name: Book named bookable resources to a project team and assign tasks
+        href: resource-management/assign-named-bookable-resource-po.md
+      - name: Book named resources from resource requirements
+        href: resource-management/book-named-resource-po.md
+      - name: Fulfilling resource requirements
+        href: resource-management/resource-fulfill-requests-po.md
+      - name: Resource management modes overview
+        href: resource-management/resource-management-mode-overview.md
+      - name: Submitting a resource request
+        href: resource-management/submit-resource-request-po.md
+    - name: Decentralized resource booking (hybrid)
+      items:
+      - name: Add team members from the Team Member grid
+        href: resource-management/add-team-members-grid.md
+      - name: Generic resource requirement fulfillment
+        href: resource-management/generic-resource-requirement-fulfillment.md
+    - name: Resource Recommendations
+      items:
+      - name: Prerequisites to use resource recommendations (preview)
+        href: resource-management/getting-started-with-resource-recommendations.md
+      - name: Get recommendations for project team members (preview)
+        href: resource-management/get-recommendations-for-project-team-members.md
+      - name: Compare and book from suggested resources (preview)
+        href: resource-management/compare-and-book-from-suggested-resources.md  
+    - name: Administration of resources
+      items: 
+      - name: Create resources
+        href: resource-management/create-resources.md
+      - name: Define skills and proficiencies
+        href: resource-management/define-skills-proficiencies.md
+      - name: Define roles
+        href: resource-management/define-roles.md
+      - name: Define resource calendars
+        href: resource-management/define-resource-calendars.md
+    - name: Book allocation methods
+      href: resource-management/booking-allocation-methods.md  
+    - name: Booking statuses
+      href: resource-management/booking-status.md
+    - name: Skills and proficiency models
+      href: resource-management/skills-proficiency-models.md
+    - name: Resource reconciliation
+      items: 
+      - name: Resource reconciliation overview
+        href: resource-management/resource-reconciliation-overview.md
+      - name: Reconcile Projects with Bulk Reconciliation
+        href: resource-management/bulk-reconciliation-dev.md
+      - name: Manage time zones
+        href: resource-management/manage-multiple-time-zones.md
+    - name: Resource utilization
+      items: 
+      - name: Resource utilization overview
+        href: resource-management/resource-utilization-overview.md
+  - name: Subcontract management
+    items: 
+    - name: Subcontract management in Project Operations
+      href: pro/subcontracting/managing-subcontracts-overview.md
+    - name: Key concepts in subcontracting
+      href: pro/subcontracting/key-concepts-subcontracting.md
+    - name: Managing vendors and project price lists 
+      href: pro/subcontracting/vendors-purchase-price-lists.md
+    - name: Subcontractors as bookable resources 
+      href: pro/subcontracting/subcontractors-as-bookable-resources.md
+    - name: Header Details for Subcontracts  
+      href: pro/subcontracting/subcontract-header-details.md
+    - name: Subcontract lines for time
+      href: pro/subcontracting/subcontract-line-time.md
+    - name: Subcontract lines for expense categories
+      href: pro/subcontracting/subcontract-line-expense.md
+    - name: Subcontract lines for products 
+      href: pro/subcontracting/subcontract-line-products.md
+    - name: Subcontractor line resources
+      href: pro/subcontracting/subcontract-line-resources.md
+    - name: Subcontract line milestones
+      href: pro/subcontracting/subcontract-line-milestones.md
+    - name: Subcontracting project team members
+      href: pro/subcontracting/subcontracting-project-team-members.md
+    - name: Subcontracting options for project team members
+      href: pro/subcontracting/subcon-options.md      
+    - name: Cost estimation of subcontracted resource assignments
+      href: pro/subcontracting/costing-subcon-ra.md
+    - name: Configure Schedule Board to show contract workers and subcontracted capacity
+      href: pro/subcontracting/configure-sb-subcon.md      
+    - name: Staffing a project with contract workers and subcontracted capacity
+      href: pro/subcontracting/staffing-cw.md
+    - name: Recording time, expenses, and material usage for subcontracted components
+      href: pro/subcontracting/recording-subcon-actuals.md
+    - name: State transitions on a subcontract 
+      href: pro/subcontracting/subcon-states.md
+  - name: Project vendor invoices 
+    items:  
+    - name: Vendor invoicing - Concept and creation  
+      href: pro/subcontracting/vendor-invoice-overview.md  
+    - name: Header details for vendor invoices
+      href: pro/subcontracting/vendor-invoice-header.md   
+    - name: Vendor invoice lines for time 
+      href: pro/subcontracting/vendor-invoice-line-time.md
+    - name: Vendor invoice lines for products
+      href: pro/subcontracting/vi-line-material.md    
+    - name: Vendor invoice lines for milestones
+      href: pro/subcontracting/vi-line-milestone.md
+    - name: Vendor invoice lines for expense categories
+      href: pro/subcontracting/vi-line-expense.md
+    - name: Verification of vendor invoices with approved actuals
+      href: pro/subcontracting/VI-Verification.md
+    - name: Cancel a project vendor invoice
+      href: pro/subcontracting/cancel-vi.md
+    - name: Confirm a project vendor invoice
+      href: pro/subcontracting/confirm-vi.md
+    - name: State transitions on a vendor invoice
+      href: pro/subcontracting/vi-state-model.md 
+  - name: Time
+    items: 
+    - name: Time overview
+      href: time/time-entry-overview.md
+    - name: Create time entries
+      items: 
+      - name: Time entry user interface 
+        href: time/ui-behavior-time.md
+    - name: Use Copilot in time entry (preview)
+      href: time/copilot-in-time-entry.md
+    - name: Developer notes
+      items: 
+      - name: Customize the weekly time entry grid
+        href: time/customize-weekly-time-entry-grid.md
+  - name: Expense
+    items: 
+    - name: Expense overview
+      href: expense/expense-overview.md
+    - name: Expense entry (Project Operations Core)
+      href: expense/basic-expense.md
+  - name: Material usage
+    items: 
+    - name: Record material usage on projects and project tasks
+      href: material/material-usage-log.md
+  - name: Approvals
+    items: 
+    - name: Approvals overview
+      href: approvals/approvals-overview.md
+    - name: Approval sets
+      href: approvals/approval-sets.md
+    - name: Cancel approval on previously approved entries
+      href: approvals/cancelapproval.md
+    - name: Recall previously approved entries 
+      href: approvals/recall-cancel.md 
+    - name: Security and approvals
+      href: approvals/approvals-security.md 
+    - name: Developer notes
+      items:
+      - name: Developer notes for Approvals
+        href: approvals/dev-notes-approvals.md
+  - name: Actuals
+    items: 
+    - name: Actuals overview
+      href: actuals/actuals-overview.md
+    - name: Create or update actuals
+      href: actuals/create-update-actuals.md
+    - name: Business transactions in Project Operations
+      href: actuals/businesstransactions.md
+    - name: Transaction origins - Link actuals to source
+      href: actuals/linkingactuals.md
+    - name: Transaction connections - Link actuals of different transaction types
+      href: actuals/connectingactuals.md
+    - name: Journals
+      items:
+      - name: Create and confirm Entry journals
+        href: actuals/create-confirm-entry-journals.md
+      - name: Create and confirm Correction journals
+        href: actuals/create-confirm-correction-journals.md
+      - name: Cancel actuals created from entry journals
+        href: actuals/cancel-actuals-from-entry-journals.md
+      - name: Use journal line improvements
+        href: actuals/journal-line-improvements.md
+  - name: Proforma invoicing
+    items:
+    - name: Create proforma project invoices with Billing hub
+      href: proforma-invoicing/billing-hub.md
+    - name: Manage project billing backlog
+      href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+    - name: Manage not-to-exceed status and validations
+      href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+    - name: Proforma project invoices 
+      href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+    - name: Manage a proforma project invoice 
+      href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+    - name: Update invoice line details on a draft project-based proforma invoice
+      href: proforma-invoicing/update-ild-on-an-invoice.md
+    - name: Add new invoice line details to a draft invoice
+      href: proforma-invoicing/add-new-ild-to-invoice.md
+    - name: Invoice a retainer or an advance
+      href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+    - name: Confirm a proforma project invoice
+      href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+    - name: Bulk-confirm proforma project-based invoices 
+      href: proforma-invoicing/bulk-confirm-project-invoices.md
+    - name: Revise (correct) project invoices 
+      href: proforma-invoicing/revise-project-invoices.md
+    - name: Configure project invoice automation
+      href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
+    - name: Developer notes
+      items:
+      - name: Customize the billing hub view
+        href: proforma-invoicing/billing-hub-customization.md
+  - name: Upgrade
+    items:
+    - name: Upgrade considerations for Modern approvals
+      href: upgrade/upgrade-considerations-modern-approvals.md
+  - name: Project Operations Apps
+    items:
+    - name: Project Operations Team Member App
+      href: team-member/project-operations-team-member.md  
 - name: Project Operations Integrated with ERP
   items:
   - name: Get started
@@ -746,6 +1430,14 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
+    - name: Approvals agent (preview)
+      items: 
+      - name: Approvals Agent overview (preview)
+        href: approvals/approvals-agent-intro.md
+      - name: Set up policy documents for the Approvals Agent (preview)
+        href: approvals/approvals-agent-policy.md
+      - name: Set up the Approvals Agent as an admin (preview)
+        href: approvals/approvals-agent-admin-setup.md
     - name: Approval sets 
       href: approvals/approval-sets.md
     - name: Cancel approval on previously approved entries
@@ -932,690 +1624,6 @@
       href: troubleshooting/project-operations-integration/project-integration-workspace.md
     - name: Project Operations Actuals Synchronization & Reconciliation
       href: troubleshooting/project-operations-integration/manage-actuals-reconciliation.md
-- name: Project Operations Core
-  items:
-  - name: Get started
-    items:
-    - name: Project Operations Core overview
-      href: pro/project-operations-overview-lite.md
-    - name: Sign up for a preview subscription - Project Operations Core
-      href: environment/lite-preview-subscription-sign-up.md
-    - name: Deploy Project Operations Core
-      href: environment/lite-deployment.md
-    - name: Apply demo setup and configuration data - Project Operations Core
-      href: environment/lite-apply-demo-setup-config-data.md
-    - name: Security model
-      href: environment/security-model.md
-    - name: Change language localization settings
-      href: environment/language-localization.md
-    - name: Uninstall Dynamics 365 Project Operations
-      href: environment/uninstall-project-operations.md
-    - name: Developer notes
-      items:
-      - name: Developer notes for payment terms
-        href: get-started/developer-notes/customizing-payment-terms.md
-  - name: What's new
-    items:
-    - name: What's new June 2025 - Project Operations Core
-      href: pro/whats-new/whats-new-june-2025-lite.md
-    - name: What's new May 2025 - Project Operations Core
-      href: pro/whats-new/whats-new-may-2025-lite.md 
-    - name: Archive
-      items:
-      - name: What's new April 2025 - Project Operations Core
-        href: pro/whats-new/whats-new-apr-2025-lite.md 
-      - name: What's new 2025 Wave 1 early access - Project Operations Core
-        href: pro/whats-new/whats-new-2025W1-early-access-lite.md
-      - name: What's new February 2025 - Project Operations Core
-        href: pro/whats-new/whats-new-feb-2025-lite.md
-      - name: What's new January 2025 - Project Operations Core
-        href: pro/whats-new/whats-new-jan-2025-lite.md 
-      - name: What's new December 2024 - Project Operations Core
-        href: pro/whats-new/whats-new-dec-2024-lite.md
-      - name: What's new October 2024 - Project Operations Core
-        href: pro/whats-new/whats-new-oct-2024-lite.md
-      - name: What's new September 2024 - Project Operations Core
-        href: pro/whats-new/whats-new-sep-2024-lite.md
-      - name: What's new August 2024 - Project Operations Core
-        href: pro/whats-new/whats-new-aug-2024-lite.md
-      - name: What's new 2024 wave 2 early access - Project Operations Core
-        href: pro/whats-new/whats-new-2024W2-early-access-lite.md
-      - name: What's new July 2024 - Project Operations Core
-        href: pro/whats-new/whats-new-july-2024-lite.md 
-      - name: What's new June 2024 - Project Operations Core
-        href: pro/whats-new/whats-new-june-2024-lite.md
-      - name: What's new April 2024 - Project Operations Core
-        href: pro/whats-new/whats-new-apr-2024-lite.md
-      - name: What's new 2024 wave 1 early access - Project Operations Core
-        href: pro/whats-new/whats-new-2024w1-early-access-lite.md
-      - name: What's new March 2024 - Project Operations Core
-        href: pro/whats-new/whats-new-mar-2024-lite.md
-      - name: What's new February 2024 - Project Operations Core
-        href: pro/whats-new/whats-new-feb-2024-lite.md
-      - name: What's new December 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-dec-2023-lite.md
-      - name: What's new November 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-nov-2023-lite.md
-      - name: What's new October 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-oct-2023-lite.md
-      - name: What's new September 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-sept-2023-lite.md
-      - name: What's new 2023 wave 1 early access - Project Operations Core
-        href: pro/whats-new/whats-new-2023W1-early-access-lite.md
-      - name: What's new August 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-aug-2023-lite.md
-      - name: What's new July 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-jul-2023-lite.md
-      - name: What's new June 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-jun-2023-lite.md
-      - name: What's new May 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-may-2023-lite.md
-      - name: What's new April 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-apr-2023-lite.md
-      - name: What's new March 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-mar-2023-lite.md
-      - name: What's new February 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-feb-2023-lite.md
-      - name: What's new January 2023 - Project Operations Core
-        href: pro/whats-new/whats-new-jan-2023-lite.md
-      - name: What's new November 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-nov-2022-lite.md
-      - name: What's new October 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-oct-2022-lite.md
-      - name: What's new September 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-sept-2022-lite.md
-      - name: What's new August 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-aug-2022-lite.md
-      - name: What's new July 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-july-2022-lite.md
-      - name: What's new June 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-june-2022-lite.md 
-      - name: What's new 2021 wave 2 early access - Project Operations Core
-        href: pro/whats-new/whats-new-2021-early-access-lite.md
-      - name: What's new May 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-may-2022-lite.md
-      - name: What's new April 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-apr-2022-lite.md      
-      - name: What's new March 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-mar-2022-lite.md
-      - name: What's new February 2022 - Project Operations Core
-        href: pro/whats-new/whats-new-feb-2022-lite.md
-      - name: What's new December 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-dec-2021-lite.md    
-      - name: What's new November 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-nov-2021-lite.md
-      - name: What's new October 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-oct-2021-lite.md
-      - name: What's new September 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-sept-2021-lite.md
-      - name: What's new August 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-august-2021-lite.md
-      - name: What's new July 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-july-2021-lite.md
-      - name: What's new June 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-june-2021-lite.md
-      - name: What's new May 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-may-2021-lite.md
-      - name: What's new April 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-apr-2021-lite.md
-      - name: What's new March 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-mar-2021-lite.md
-      - name: What's new February 2021 - Project Operations Core
-        href: pro/whats-new/whats-new-feb-2021-lite.md
-      - name: What's new January 2021 - Project Operations Core 
-        href: pro/whats-new/whats-new-jan-2021-lite.md
-      - name: What's new December 2020 - Project Operations Core 
-        href: pro/whats-new/whats-new-dec-2020-lite.md
-      - name: What's new November 2020 - Project Operations Core 
-        href: pro/whats-new/whats-new-nov-2020-lite.md
-  - name: Project sales process
-    items:
-    - name: Project sales process overview
-      href: sales/sales-overview.md
-    - name: Setup
-      items: 
-      - name: Products
-        href: sales/sales-products.md
-      - name: Units and unit groups
-        href: sales/sales-units-unit-groups.md
-      - name: Currency
-        href: sales/sales-currency.md
-      - name: Organizational units
-        href: sales/OrgUnits.md
-      - name: Use time zone independent date fields
-        href: sales/tz-independent-date-fields.md
-    - name: Manage project leads 
-      href: pro/sales/managing-leads-sales.md
-    - name: Manage project opportunities
-      items: 
-      - name: Project opportunities overview
-        href: sales/manage-project-based-opportunities.md
-      - name: Header details for project opportunities
-        href: pro/sales/opportunity-header-sales.md
-      - name: Manage product-based opportunity lines
-        href: pro/sales/product-based-lines-sales.md
-      - name: Manage project-based opportunity lines  
-        href: pro/sales/project-based-lines-sales.md
-      - name: Create quotes from project opportunities
-        href: sales/link-quotes-opportunities.md
-      - name: Copy project opportunities
-        href: sales/copy-project-based-opportunity.md
-      - name: Close a project opportunity 
-        href: sales/close-opportunity.md
-    - name: Manage project quotes
-      items:
-      - name: Project quotes overview
-        href: pro/sales/manage-quotes-sales.md
-      - name: New Quote Form experience
-        href: sales/quotes-new-form.md
-      - name: Concepts unique to project quotes
-        href: pro/sales/quotes-key-concepts-sales.md
-      - name: Header details for project quotes
-        href: pro/sales/quote-values-budget-limits-contract-sales.md
-      - name: Manage multiple customers on project quotes
-        href: pro/sales/manage-multiple-customers-quote-sales.md
-      - name: Project price lists on project quotes
-        href: pro/sales/manage-project-price-lists-sales.md
-      - name: Product-based quote lines
-        items: 
-        - name: Product-based quote lines overview
-          href: pro/sales/product-based-quote-lines-sales.md
-        - name: Costing product-based quote lines
-          href: pro/sales/costing-product-based-quote-lines-sales.md
-        - name: Manage complex units for product-based quote lines
-          href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-      - name: Project quote lines
-        items:
-        - name: Project quote lines overview
-          href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-        - name: Manage multiple customers on project quote lines
-          href: pro/sales/manage-multiple-customers-quote-line-sales.md
-        - name: Map projects and tasks to project quote lines
-          href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-        - name: Configure chargeable components on project quote lines
-          href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: Estimate a project quote line
-          href: pro/sales/create-estimate-quote-line-sales.md
-        - name: Import estimates from a project to a project quote line
-          href: pro/sales/import-estimate-project-quote-sales.md
-        - name: Invoice schedules on project quote lines
-          href: sales/invoice-schedule-quote-line.md 
-      - name: Copy project quotes
-        href: sales/lose-quote.md
-      - name: Activate and revise a project quote
-        href: sales/activation-and-revision.md
-      - name: Close project quotes
-        href: pro/sales/win-quote-sales.md
-    - name: Manage project contracts
-      items: 
-      - name: Project contracts overview
-        href: pro/sales/manage-contracts-sales.md
-      - name: Concepts unique to project contracts
-        href: pro/sales/contracts-key-concepts-sales.md
-      - name: Header details for project contracts
-        href: pro/sales/project-contract-settings-sales.md
-      - name: Manage multiple customers on project contracts
-        href: pro/sales/manage-multiple-customers-contract-sales.md
-      - name: Project price lists on project contracts
-        href: sales/contracts-manage-project-price-lists.md
-      - name: Product-based contract lines
-        items: 
-        - name: Product-based contract lines overview
-          href: pro/sales/product-based-contract-lines-overview-sales.md
-        - name: Costing product-based contract lines
-          href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: Manage complex units for product-based contract lines 
-          href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-      - name: Project contract lines
-        items: 
-        - name: Project contract lines overview
-          href: pro/sales/manage-contract-values-project-based-sales.md
-        - name: Manage multiple customers on project contracts
-          href: pro/sales/manage-multiple-customers-contract-line-sales.md
-        - name: Map projects and tasks to a project contract line
-          href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-        - name: Configure chargeable components on a project contract line 
-          href: pro/sales/configure-chargeable-components-contract-line.md
-        - name: Estimate a project contract line
-          href: pro/sales/create-estimate-project-contract-line-sales.md
-        - name: Import estimates from a project to a project contract line
-          href: pro/sales/import-estimate-project-contract-line-sales.md
-        - name: Create invoice schedules on a project contract line
-          href: pro/sales/invoice-schedules-contract-line-sales.md
-      - name: Copy project contracts 
-        href: pro/sales/copy-project-contracts-sales.md
-      - name: Confirm a project contract
-        href: pro/sales/confirm-contract-sales.md
-      - name: Advances and retainers
-        items: 
-        - name: Advances and retainer-based contracts
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-        - name: Set up a retainer schedule
-          href: pro/sales/set-up-schedule-retainers-sales.md
-        - name: Create an ad hoc advance on a project contract
-          href: pro/sales/create-ad-hoc-advance-sales.md
-  - name: Pricing and costing
-    items: 
-    - name: Price list setup
-      items: 
-      - name: Price list definition
-        href: pricing-costing/price-list-setup.md
-      - name: Set up product price lists 
-        href: pricing-costing/product-price-list.md
-      - name: Set up bill rates for labor 
-        href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-      - name: Set up cost rates for labor
-        href: pro/pricing-costing/set-up-labor-cost-rates-sales.md      
-      - name: Set up cost and sales rates for expenses
-        href: pricing-costing/set-up-cost-sales-rates-expenses.md
-      - name: Set up cost and sales rates for materials 
-        href: pricing-costing/set-up-cost-sales-rates-materials.md
-    - name: Defaults and overrides
-      items:
-      - name: Default price lists
-        href: pricing-costing/default-project-sales-price-lists.md
-      - name: Override project sales price lists
-        href: pricing-costing/override-project-sales-price-list-default.md
-      - name: Set up Date-effective overrides for specific prices in a price list
-        href: pricing-costing/dateffective_price_overrides.md
-      - name: Determine cost prices on project estimates and actuals
-        href: pro/pricing-costing/cost-price-resolution-sales.md
-      - name: Determine sales prices for project estimates and actuals
-        href: pro/pricing-costing/sales-price-resolution-sales.md
-      - name: Copy price lists
-        href: pricing-costing/copy-price-lists.md
-      - name: Deactivate project price lists 
-        href:  pricing-costing/deactivatepricelists.md
-    - name: Pricing dimensions
-      items: 
-      - name: Pricing dimensions overview
-        href: pricing-costing/pricing-dimensions-overview.md
-      - name: Create a solution for custom pricing dimensions
-        href: sales/create-solution-custompd.md
-      - name: Use existing fields as pricing dimensions
-        items:
-        - name: Project Operations fields as pricing dimensions
-          href: pricing-costing/use-existing-field-pricing-dimension.md
-        - name: Use a bookable resource as a pricing dimension
-          href: sales/use-br-as-pd.md
-        - name: Use Transaction Category as a pricing dimension
-          href: pricing-costing/use-transaction-category-as-pd.md
-        - name: Bookable resource with multiple roles on a project
-          href: sales/br-playing-multiple-roles.md
-      - name: Custom fields as pricing dimensions
-        items:
-        - name: Create custom fields and entities as pricing dimensions
-          href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
-        - name: Add custom fields to price setup and transactional entities
-          href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-        - name: Set up custom fields as pricing dimensions
-          href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
-        - name: Update plug-in attributes to include new pricing dimensions
-          href: pricing-costing/update-plugin-attributes-pd.md
-      - name: Turn off a pricing dimension    
-        href: pricing-costing/turning-off-pricing-dimension.md
-    - name: Manage discounts and fees overview
-      href: pricing-costing/manage-discount-fee-calculations.md
-  - name: Project management
-    items: 
-    - name: Project management overview
-      href: project-management/project-management-overview.md
-    - name: Saving changes to a project's work breakdown structure
-      href: project-management/saving-changes-to-projects.md
-    - name: Project stages
-      href: project-management/project-stages.md
-    - name: Navigating the user interface
-      href: project-management/navigate-ui.md
-    - name: Understand project status
-      href: project-management/understand-project-status.md
-    - name: Define project calendars
-      href: project-management/define-project-calendars.md
-    - name: Scheduling modes
-      hreF: project-management/scheduling-modes.md
-    - name: External scheduling
-      href: project-management/external-scheduling.md
-    - name: Update a project
-      href: project-management/update-project.md
-    - name: Copy a project
-      href: project-management/copy-project.md 
-    - name: Access control on task grid
-      href: project-management/access-control-on-task-grid.md
-    - name: Import projects from the Microsoft Project desktop client
-      href: project-management/import_from_mpp.md
-    - name: Plan your work in Microsoft Project with the Project Operations add-in
-      href: psa/plan-work-in-project-operations-add-in.md
-    - name: Project and task limitations
-      href: project-management/project-and-task-limitations.md
-    - name: Work breakdown structure planning
-      items: 
-      - name: Create a work breakdown structure
-        href: project-management/create-wbs.md
-      - name: Create assignments
-        href: project-management/create-assignments.md
-    - name: Financial estimates on projects
-      items: 
-      - name: Financial estimation concepts
-        href: project-management/estimating-projects-overview.md
-      - name: Financial estimates for resource time on projects
-        href: project-management/resource-estimates.md
-      - name: Financial estimates for expenses on projects
-        href: project-management/create-expense-estimates.md
-      - name: Financial estimates for materials on projects
-        href: project-management/create-material-estimate.md
-    - name: Project tracking
-      items: 
-      - name: Project effort tracking 
-        href: project-management/project-tracking-overview.md
-      - name: Project time task tracking
-        href: project-management/project-time-task-tracking.md
-      - name: Labor cost tracking on projects
-        href: project-management/project-cost-tracking.md
-      - name: Labor revenue tracking on projects
-        href: project-management/project-sales-tracking.md
-      - name: Update progress of a task
-        href: project-management/update-progress-of-a-task.md
-    - name: Project team members
-      items: 
-      - name: Project team members overview
-        href: project-management/project-team-members-overview.md
-      - name: Maintain team members
-        href: project-management/maintain-team-members.md
-    - name: Troubleshoot working in the Task grid
-      href: project-management/projectplanningUIFAQ.md
-    - name: Collaboration
-      items:
-      - name: Collaboration with Office Groups
-        href: project-management/collaboration-groups.md
-    - name: Developer notes
-      items:
-      - name: Develop project templates with Copy Project
-        href: project-management/dev-copy-project.md
-      - name: Use Project schedule APIs
-        href: project-management/schedule-api-preview.md
-      - name: Use V1 Project schedule APIs with Power Automate
-        href: project-management/scheduling-apis-powerautomate.md
-      - name: Use V2 Project schedule APIs with Power Automate
-        href: project-management/scheduling-apis-powerautomate-v2.md
-      - name: Project schedule API performance
-        href: project-management/project-schedule-api-performance.md
-      - name: Troubleshoot project scheduling errors in the task grid
-        href: project-management/schedule-api-logs-troubleshooting.md
-    - name: Project management Copilot overview
-      href: project-management/copilot-features.md
-  - name: Project budget management
-    items:
-    - name: Project budget management overview
-      href: pro/budget/projectbudgetmanagement.md
-    - name: Key concepts in project budget management
-      href: pro/budget/keyconcepts-projectbudget.md 
-    - name: Create and delete project cost budgets
-      href: pro/budget/create-delete-project-budget.md
-    - name: Create and delete project sales budgets
-      href: pro/budget/create-delete-project-sales-budget.md
-    - name: Create a project budget from estimates
-      href: pro/budget/create-project-budget-from-estimates.md
-    - name: Summarize budget lines during import
-      href: pro/budget/summarize-budgetline-during-import.md
-    - name: Set up a budget period
-      href: pro/budget/budget-period-setup.md
-    - name: Project budget line
-      items:
-      - name: Project time budget lines
-        href: pro/budget/project-cost-time-budget-line.md
-      - name: Project material budget lines
-        href: pro/budget/project-cost-material-budget-line.md
-      - name: Project expense budget lines
-        href: pro/budget/project-cost-expense-budget-line.md
-    - name: Use time-phased project cost budget lines
-      href: pro/budget/time-phase-budget-line.md
-    - name: Project budget status management
-      href: pro/budget/project-budget-status-mgmt.md
-    - name: Budget line match priority
-      href: pro/budget/budget-line-match-priority.md
-    - name: Re-evaluate the cost actual-to-budget association
-      href: pro/budget/reevaluate-actual-budget-association.md
-    - name: Revise a project cost budget
-      href: pro/budget/revise-project-cost-budget.md
-    - name: Create budget lines from unmatched actuals
-      href: pro/budget/create-budgetline-from-unmatched-actuals.md
-  - name: Resource management
-    items: 
-    - name: Key concepts
-      href: resource-management/resource-management-key-concepts.md
-    - name: Bookings vs. assignments
-      href: resource-management/booking-vs-assignment.md
-    - name: Resource management modes overview
-      href: resource-management/resource-management-mode-overview.md
-    - name: Schedule assistant overview
-      href: resource-management/schedule-assistant-overview.md
-    - name: Centralized resource booking
-      items:
-      - name: Define resource requirements
-        href: resource-management/define-resource-requirements.md
-      - name: Update resource requirements
-        href: resource-management/update-resource-requirements.md
-      - name: Submit a resource request
-        href: resource-management/submit-resource-requirements.md
-      - name: Book to a project
-        href: resource-management/book-project.md
-      - name: Review proposed resources
-        href: resource-management/review-proposed-resources.md
-      - name: Edit bookings
-        href: resource-management/edit-existing-bookings.md
-      - name: Accept or reject a proposed project resource
-        href: resource-management/accept-reject-proposed-resource-po.md
-      - name: Assign generic bookable resources to a task and project team
-        href: resource-management/assign-generic-resource-po.md
-      - name: Book named bookable resources to a project team and assign tasks
-        href: resource-management/assign-named-bookable-resource-po.md
-      - name: Book named resources from resource requirements
-        href: resource-management/book-named-resource-po.md
-      - name: Fulfilling resource requirements
-        href: resource-management/resource-fulfill-requests-po.md
-      - name: Resource management modes overview
-        href: resource-management/resource-management-mode-overview.md
-      - name: Submitting a resource request
-        href: resource-management/submit-resource-request-po.md
-    - name: Decentralized resource booking (hybrid)
-      items:
-      - name: Add team members from the Team Member grid
-        href: resource-management/add-team-members-grid.md
-      - name: Generic resource requirement fulfillment
-        href: resource-management/generic-resource-requirement-fulfillment.md
-    - name: Resource Recommendations
-      items:
-      - name: Prerequisites to use resource recommendations (preview)
-        href: resource-management/getting-started-with-resource-recommendations.md
-      - name: Get recommendations for project team members (preview)
-        href: resource-management/get-recommendations-for-project-team-members.md
-      - name: Compare and book from suggested resources (preview)
-        href: resource-management/compare-and-book-from-suggested-resources.md  
-    - name: Administration of resources
-      items: 
-      - name: Create resources
-        href: resource-management/create-resources.md
-      - name: Define skills and proficiencies
-        href: resource-management/define-skills-proficiencies.md
-      - name: Define roles
-        href: resource-management/define-roles.md
-      - name: Define resource calendars
-        href: resource-management/define-resource-calendars.md
-    - name: Book allocation methods
-      href: resource-management/booking-allocation-methods.md  
-    - name: Booking statuses
-      href: resource-management/booking-status.md
-    - name: Skills and proficiency models
-      href: resource-management/skills-proficiency-models.md
-    - name: Resource reconciliation
-      items: 
-      - name: Resource reconciliation overview
-        href: resource-management/resource-reconciliation-overview.md
-      - name: Reconcile Projects with Bulk Reconciliation
-        href: resource-management/bulk-reconciliation-dev.md
-      - name: Manage time zones
-        href: resource-management/manage-multiple-time-zones.md
-    - name: Resource utilization
-      items: 
-      - name: Resource utilization overview
-        href: resource-management/resource-utilization-overview.md
-  - name: Subcontract management
-    items: 
-    - name: Subcontract management in Project Operations
-      href: pro/subcontracting/managing-subcontracts-overview.md
-    - name: Key concepts in subcontracting
-      href: pro/subcontracting/key-concepts-subcontracting.md
-    - name: Managing vendors and project price lists 
-      href: pro/subcontracting/vendors-purchase-price-lists.md
-    - name: Subcontractors as bookable resources 
-      href: pro/subcontracting/subcontractors-as-bookable-resources.md
-    - name: Header Details for Subcontracts  
-      href: pro/subcontracting/subcontract-header-details.md
-    - name: Subcontract lines for time
-      href: pro/subcontracting/subcontract-line-time.md
-    - name: Subcontract lines for expense categories
-      href: pro/subcontracting/subcontract-line-expense.md
-    - name: Subcontract lines for products 
-      href: pro/subcontracting/subcontract-line-products.md
-    - name: Subcontractor line resources
-      href: pro/subcontracting/subcontract-line-resources.md
-    - name: Subcontract line milestones
-      href: pro/subcontracting/subcontract-line-milestones.md
-    - name: Subcontracting project team members
-      href: pro/subcontracting/subcontracting-project-team-members.md
-    - name: Subcontracting options for project team members
-      href: pro/subcontracting/subcon-options.md      
-    - name: Cost estimation of subcontracted resource assignments
-      href: pro/subcontracting/costing-subcon-ra.md
-    - name: Configure Schedule Board to show contract workers and subcontracted capacity
-      href: pro/subcontracting/configure-sb-subcon.md      
-    - name: Staffing a project with contract workers and subcontracted capacity
-      href: pro/subcontracting/staffing-cw.md
-    - name: Recording time, expenses, and material usage for subcontracted components
-      href: pro/subcontracting/recording-subcon-actuals.md
-    - name: State transitions on a subcontract 
-      href: pro/subcontracting/subcon-states.md
-  - name: Project vendor invoices 
-    items:  
-    - name: Vendor invoicing - Concept and creation  
-      href: pro/subcontracting/vendor-invoice-overview.md  
-    - name: Header details for vendor invoices
-      href: pro/subcontracting/vendor-invoice-header.md   
-    - name: Vendor invoice lines for time 
-      href: pro/subcontracting/vendor-invoice-line-time.md
-    - name: Vendor invoice lines for products
-      href: pro/subcontracting/vi-line-material.md    
-    - name: Vendor invoice lines for milestones
-      href: pro/subcontracting/vi-line-milestone.md
-    - name: Vendor invoice lines for expense categories
-      href: pro/subcontracting/vi-line-expense.md
-    - name: Verification of vendor invoices with approved actuals
-      href: pro/subcontracting/VI-Verification.md
-    - name: Cancel a project vendor invoice
-      href: pro/subcontracting/cancel-vi.md
-    - name: Confirm a project vendor invoice
-      href: pro/subcontracting/confirm-vi.md
-    - name: State transitions on a vendor invoice
-      href: pro/subcontracting/vi-state-model.md 
-  - name: Time
-    items: 
-    - name: Time overview
-      href: time/time-entry-overview.md
-    - name: Create time entries
-      items: 
-      - name: Time entry user interface 
-        href: time/ui-behavior-time.md
-    - name: Use Copilot in time entry (preview)
-      href: time/copilot-in-time-entry.md
-    - name: Developer notes
-      items: 
-      - name: Customize the weekly time entry grid
-        href: time/customize-weekly-time-entry-grid.md
-  - name: Expense
-    items: 
-    - name: Expense overview
-      href: expense/expense-overview.md
-    - name: Expense entry (Project Operations Core)
-      href: expense/basic-expense.md
-  - name: Material usage
-    items: 
-    - name: Record material usage on projects and project tasks
-      href: material/material-usage-log.md
-  - name: Approvals
-    items: 
-    - name: Approvals overview
-      href: approvals/approvals-overview.md
-    - name: Approval sets
-      href: approvals/approval-sets.md
-    - name: Cancel approval on previously approved entries
-      href: approvals/cancelapproval.md
-    - name: Recall previously approved entries 
-      href: approvals/recall-cancel.md 
-    - name: Security and approvals
-      href: approvals/approvals-security.md 
-    - name: Developer notes
-      items:
-      - name: Developer notes for Approvals
-        href: approvals/dev-notes-approvals.md
-  - name: Actuals
-    items: 
-    - name: Actuals overview
-      href: actuals/actuals-overview.md
-    - name: Create or update actuals
-      href: actuals/create-update-actuals.md
-    - name: Business transactions in Project Operations
-      href: actuals/businesstransactions.md
-    - name: Transaction origins - Link actuals to source
-      href: actuals/linkingactuals.md
-    - name: Transaction connections - Link actuals of different transaction types
-      href: actuals/connectingactuals.md
-    - name: Journals
-      items:
-      - name: Create and confirm Entry journals
-        href: actuals/create-confirm-entry-journals.md
-      - name: Create and confirm Correction journals
-        href: actuals/create-confirm-correction-journals.md
-      - name: Cancel actuals created from entry journals
-        href: actuals/cancel-actuals-from-entry-journals.md
-      - name: Use journal line improvements
-        href: actuals/journal-line-improvements.md
-  - name: Proforma invoicing
-    items:
-    - name: Create proforma project invoices with Billing hub
-      href: proforma-invoicing/billing-hub.md
-    - name: Manage project billing backlog
-      href: pro/proforma-invoicing/manage-billing-backlog-sales.md
-    - name: Manage not-to-exceed status and validations
-      href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-    - name: Proforma project invoices 
-      href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-    - name: Manage a proforma project invoice 
-      href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
-    - name: Update invoice line details on a draft project-based proforma invoice
-      href: proforma-invoicing/update-ild-on-an-invoice.md
-    - name: Add new invoice line details to a draft invoice
-      href: proforma-invoicing/add-new-ild-to-invoice.md
-    - name: Invoice a retainer or an advance
-      href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-    - name: Confirm a proforma project invoice
-      href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
-    - name: Bulk-confirm proforma project-based invoices 
-      href: proforma-invoicing/bulk-confirm-project-invoices.md
-    - name: Revise (correct) project invoices 
-      href: proforma-invoicing/revise-project-invoices.md
-    - name: Configure project invoice automation
-      href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
-    - name: Developer notes
-      items:
-      - name: Customize the billing hub view
-        href: proforma-invoicing/billing-hub-customization.md
-  - name: Upgrade
-    items:
-    - name: Upgrade considerations for Modern approvals
-      href: upgrade/upgrade-considerations-modern-approvals.md
-  - name: Project Operations Apps
-    items:
-    - name: Project Operations Team Member App
-      href: team-member/project-operations-team-member.md  
 - name: Project Operations for manufacturing
   items: 
   - name: Get started
@@ -2472,14 +2480,6 @@
         href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
 - name: Time and Expense Agent (preview)
   items:
-  - name: Approvals
-    items: 
-    - name: Approvals feature of the Time and Expense Agent overview
-      href: approvals/approvals-agent-intro.md
-    - name: Set up policy documents for the Approvals feature of the Time and Expense Agent (preview)
-      href: approvals/approvals-agent-policy.md
-    - name: Set up the Approvals feature of the Time and Expense Agent as an admin
-      href: approvals/approvals-agent-admin-setup.md
   - name: Expense entry
     items:
     - name: Expense Entry feature of the Time and Expense Agent overview
