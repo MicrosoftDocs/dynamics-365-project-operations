@@ -1,6 +1,6 @@
 ---
-title: What's new September 2024 - Project Operations Core deployment
-description: This article provides information about quality updates that are available in the Sept 2024 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new September 2024 - Project Operations Core
+description: This article provides information about quality updates that are available in the Sept 2024 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.custom:
   - evergreen
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# What's new September 2024 - Project Operations Core deployment
+# What's new September 2024 - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 

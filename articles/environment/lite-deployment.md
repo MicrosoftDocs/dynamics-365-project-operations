@@ -1,5 +1,5 @@
 ---
-title: Deploy Project Operations Project Operations Core
+title: Deploy Project Operations  Core
 description: This article provides information about how to install Project Operations Core.
 author: stsporen
 ms.date: 11/06/2023
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Deploy Project Operations Project Operations Core
+# Deploy Project Operations  Core
 
 [!INCLUDE[banner](../includes/banner.md)]
 
@@ -30,17 +30,17 @@ Project Operations supports multiple deployment models. To determine the best de
 
 
 
-## <a name="new"></a>Install Project Operations Project Operations Core to a new Dataverse environment
+## <a name="new"></a>Install Project Operations  Core to a new Dataverse environment
 
 1. As the [Global or Power Platform Administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) with a Project Operations license, create a new Dataverse environment in the [PowerPlatform admin center](https://admin.powerplatform.com). Make sure that **Create a database for this environment** and **Dynamics 365 Apps** are enabled. For more information, see [Create and manage environments in the Power Platform admin center](/power-platform/admin/create-environment#create-an-environment-in-the-power-platform-admin-center).
 1. Select **Microsoft Dynamics 365 Project Operations** from the deployment list of Dynamics 365 apps.
 
 
-## <a name="existing"></a>Install Project Operations Project Operations Core to an existing Dataverse environment 
+## <a name="existing"></a>Install Project Operations  Core to an existing Dataverse environment 
 1. As the [Global or Power Platform Administrator](/power-platform/admin/global-service-administrators-can-administer-without-license) with a Project Operations license, locate the environment in the [PowerPlatform admin center](https://admin.powerplatform.com) where you want to install Project Operations.
 1. Install **Microsoft Dynamics 365 Project Operations** from the deployment list of Dynamics 365 apps. For more information, see [Manage Dynamics 365 apps](/power-platform/admin/manage-apps).
 
-## <a name="existingdw"></a>Install Project Operations Project Operations Core to an existing Dataverse environment where Dual write solutions are already present
+## <a name="existingdw"></a>Install Project Operations  Core to an existing Dataverse environment where Dual write solutions are already present
 
 If you want to continue running Project Operations in Project Operations Core mode, you should follow these steps:
 

@@ -940,7 +940,7 @@
       href: pro/project-operations-overview-lite.md
     - name: Sign up for a preview subscription - Project Operations Core
       href: environment/lite-preview-subscription-sign-up.md
-    - name: Deploy Project Operations Core deployment
+    - name: Deploy Project Operations Core
       href: environment/lite-deployment.md
     - name: Apply demo setup and configuration data - Project Operations Core
       href: environment/lite-apply-demo-setup-config-data.md
@@ -1000,7 +1000,7 @@
         href: pro/whats-new/whats-new-oct-2023-lite.md
       - name: What's new September 2023 - Project Operations Core
         href: pro/whats-new/whats-new-sept-2023-lite.md
-      - name: What's new 2023 wave 1 early access - Project Operations Core deployment
+      - name: What's new 2023 wave 1 early access - Project Operations Core
         href: pro/whats-new/whats-new-2023W1-early-access-lite.md
       - name: What's new August 2023 - Project Operations Core
         href: pro/whats-new/whats-new-aug-2023-lite.md
@@ -2098,7 +2098,7 @@
       href: psa/whats-new-v3-2020-wave1.md
     - name: What's new or changed in Project Service Automation V3
       href: psa/whats-new-changed-v3.md
-  - name: Project Service Automation upgrade (app version Project Operations Project Operations Core 4.x)
+  - name: Project Service Automation upgrade (app version Project Operations  Core 4.x)
     items: 
     - name: Upgrade from Project Service Automation to Project Operations
       href: psa/upgrade-project-operations-non-stocked.md  

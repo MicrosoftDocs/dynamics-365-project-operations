@@ -59,7 +59,7 @@ If you have active licenses for Project Service Automation, you can install and 
 
 ## Testing and refactoring customizations
 
-As a starting point, import all customizations into a clean Project Operations Project Operations Core environment to confirm that import is successful, and that business operations behave as expected.
+As a starting point, import all customizations into a clean Project Operations  Core environment to confirm that import is successful, and that business operations behave as expected.
 
 Here are some things to watch out for:
 
@@ -86,7 +86,7 @@ After you update your customizations to cleanly import Project Operations, move 
 
     This solution is a temporary solution that holds the existing data model and components that are present during the upgrade. By removing this solution, you remove all the fields and components that are no longer used. In this way, you help simplify the interface and make integration and extension easier.
     
-### Upgrade to Project Operations Project Operations Core
+### Upgrade to Project Operations  Core
 
 The following steps describe the upgrade process and associated error logging:
 
@@ -128,11 +128,11 @@ Project Operations provides optional support for the Universal Resource Scheduli
 
 | Source                                                 | Target                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
-| Project Service Automation                             | Project Operations Project Operations Core                        | Supported               |
-| Dynamics 365 Finance Project Management and Accounting | Project Operations Project Operations Core                        | Not currently supported |
+| Project Service Automation                             | Project Operations  Core                        | Supported               |
+| Dynamics 365 Finance Project Management and Accounting | Project Operations  Core                        | Not currently supported |
 | Finance Project Management and Accounting              | Project Operations Integrated with ERP scenarios     | Not currently supported |
 | Project Service Automation 3.x                         | Project Operations Integrated with ERP scenarios     | Not currently supported |
-| Project for the Web (dedicated environment)            | Project Operations Project Operations Core                        | Not currently supported |
+| Project for the Web (dedicated environment)            | Project Operations  Core                        | Not currently supported |
 
 ### How can I install Project Operations before the upgrade tooling is available?
 

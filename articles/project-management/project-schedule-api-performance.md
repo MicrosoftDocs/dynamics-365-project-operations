@@ -53,7 +53,7 @@ Execution time is defined as the time from the call to the **ExecuteOperationSet
 
 For a single-record operation, the OperationSet contains one request. For bulk operations, it contains 20, 50, or 100 requests. Each bulk size is reported separately.
 
-These operations run on a UR 15 Project Operations Project Operations Core in North America.
+These operations run on a UR 15 Project Operations  Core in North America.
 
 ## Results
 ### Create operations

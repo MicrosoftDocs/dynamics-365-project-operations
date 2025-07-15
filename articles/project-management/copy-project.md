@@ -27,7 +27,7 @@ With Dynamics 365 Project Operations, you can quickly build new projects by sele
 
 When the project is copied, the values in the following fields are copied.
 
-| Field | Project Operations Non-Stocked Materials | Project Operations Project Operations Core | Project for the Web |
+| Field | Project Operations Non-Stocked Materials | Project Operations  Core | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Description | :heavy_check_mark: | :heavy_check_mark: | |

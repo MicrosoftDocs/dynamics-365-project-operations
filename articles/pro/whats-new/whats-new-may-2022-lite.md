@@ -1,6 +1,6 @@
 ---
-title: What's new May 2022 - Project Operations Core deployment
-description: This article provides information about the quality updates that are available in the May 2022 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new May 2022 - Project Operations Core
+description: This article provides information about the quality updates that are available in the May 2022 release of Microsoft Dynamics 365 Project Operations Core.
 author: sigitac
 ms.custom:
   - evergreen
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new May 2022 - Project Operations Core deployment
+# What's new May 2022 - Project Operations Core
 
 _**Applies To:** Project Operations Core_
 

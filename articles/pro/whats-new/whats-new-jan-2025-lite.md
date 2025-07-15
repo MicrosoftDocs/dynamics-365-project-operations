@@ -1,6 +1,6 @@
 ---
-title: What's new January 2025 - Project Operations Core deployment
-description: This article provides information about quality updates that are available in the January 2025 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new January 2025 - Project Operations Core
+description: This article provides information about quality updates that are available in the January 2025 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.author: mohitmenon
 ms.topic: whats-new
@@ -11,7 +11,7 @@ ms.date: 01/15/2025
 ms.reviewer: johnmichalak
 ---
 
-# What's new January 2025 - Project Operations Core deployment
+# What's new January 2025 - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 

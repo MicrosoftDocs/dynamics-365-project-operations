@@ -1,6 +1,6 @@
 ---
 title: Set up labor bill rates Core deployment
-description: This article provides information about setting up labor billing rates in Project Operations Core deployment.
+description: This article provides information about setting up labor billing rates in Project Operations Core.
 author: abriccetti
 ms.date: 01/09/2025
 ms.topic: how-to

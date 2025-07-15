@@ -1,6 +1,6 @@
 ---
-title: What's new January 2023 - Project Operations Core deployment
-description: This article provides information about the quality updates that are available in the January 2023 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new January 2023 - Project Operations Core
+description: This article provides information about the quality updates that are available in the January 2023 release of Microsoft Dynamics 365 Project Operations Core.
 author: ramagadu
 ms.custom:
   - evergreen
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# What's new January 2023 - Project Operations Core deployment
+# What's new January 2023 - Project Operations Core
 
 _**Applies To:** Project Operations Core_
 
@@ -23,7 +23,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | Feature area | Feature name | More information |
 | --- | --- | --- |
 | Project Planning and Tracking | **Importing Projects from Microsoft Project Desktop Client**<br>Project Operations allows Project Managers the ability to import their Project Desktop Files (.MPP) to create projects.| [Importing Projects from Microsoft Project Desktop Client](/dynamics365/project-operations/project-management/import_from_mpp) |
-| Project Budgeting and Forecasting | **Project cost budget management – Manual**<br>Introducing first phase of project budget management in Project Operations Core deployment. This is the first step towards providing budget management in Project Operations Core deployment. <br> Capabilities included in this release – Manual project cost budget creation; Approval & rejection of budget; Actual to budget line matching for time, expense, material actuals.|[Project cost budget management](/dynamics365/project-operations/pro/budget/projectbudgetmanagement)|
+| Project Budgeting and Forecasting | **Project cost budget management – Manual**<br>Introducing first phase of project budget management in Project Operations Core. This is the first step towards providing budget management in Project Operations Core. <br> Capabilities included in this release – Manual project cost budget creation; Approval & rejection of budget; Actual to budget line matching for time, expense, material actuals.|[Project cost budget management](/dynamics365/project-operations/pro/budget/projectbudgetmanagement)|
 
 
 ## Quality updates

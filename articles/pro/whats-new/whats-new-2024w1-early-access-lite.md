@@ -1,6 +1,6 @@
 ---
-title: What's new 2024 wave 1 early access - Project Operations Core deployment
-description: This article provides information about the features available in the 2024 wave 1 early access release of Project Operations Core deployment.
+title: What's new 2024 wave 1 early access - Project Operations Core
+description: This article provides information about the features available in the 2024 wave 1 early access release of Project Operations Core.
 author: tulsijhaveri
 ms.custom:
   - evergreen
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: tulsijhaveri
 ---
 
-# What's new 2024 wave 1 early access - Project Operations Core deployment
+# What's new 2024 wave 1 early access - Project Operations Core
 
 _**Applies To:** Project Operations Core_
 

@@ -1,6 +1,6 @@
 ---
-title: What's new July 2024 - Project Operations Core deployment
-description: This article provides information about the quality updates that are available in the July 2024 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new July 2024 - Project Operations Core
+description: This article provides information about the quality updates that are available in the July 2024 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.date: 07/05/2024
 ms.topic: whats-new
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# What's new July 2024 - Project Operations Core deployment
+# What's new July 2024 - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
