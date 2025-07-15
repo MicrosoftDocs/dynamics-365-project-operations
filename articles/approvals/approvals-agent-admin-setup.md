@@ -3,7 +3,7 @@ title: Set up the Approvals Agent as an admin (preview)
 description: Learn how to set up the Approvals Agent as an admin. 
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/13/2025
+ms.date: 07/15/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The Approvals Agent is available as a production-ready preview in Microsoft Dynamics 365 Project Operations environments that have **version 4.140.0.239 or later**. An admin must complete the following steps to enable the approvals functionality of the Time and Expense Agent:
 
