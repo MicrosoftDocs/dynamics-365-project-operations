@@ -1,6 +1,6 @@
 ---
-title: What's new 2021 wave 2 early access - Project Operations Core deployment
-description: This article provides information about the features available in the 2021 wave 2 early access release of Project Operations Core deployment.
+title: What's new 2021 wave 2 early access - Project Operations Core
+description: This article provides information about the features available in the 2021 wave 2 early access release of Project Operations Core.
 author: sigitac
 ms.custom:
   - evergreen
@@ -11,9 +11,9 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new 2021 wave 2 early access - Project Operations Core deployment
+# What's new 2021 wave 2 early access - Project Operations Core
 
-_Applies To: Core deployment - deal to proforma invoicing._
+_Applies To: Project Operations Core._
 
 This article applies to the following Dynamics 365 Project Operations components and versions:
 

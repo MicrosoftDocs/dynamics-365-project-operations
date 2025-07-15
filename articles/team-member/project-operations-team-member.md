@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-10-01
 
 # Project Operations Team Member app
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The Project Operations Team Member app (formerly known as the Project Resource Hub) includes all the capabilities that Microsoft Dynamics 365 Project Operations offers to the Team Members user license.
 

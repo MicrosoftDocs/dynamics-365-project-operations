@@ -1,6 +1,6 @@
 ---
-title: What's new February 2025 - Project Operations Core deployment
-description: This article provides information about quality updates that are available in the February 2025 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new February 2025 - Project Operations Core
+description: This article provides information about quality updates that are available in the February 2025 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.author: mohitmenon
 ms.topic: whats-new
@@ -12,11 +12,11 @@ ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ---
 
-# What's new February 2025 - Project Operations Core deployment
+# What's new February 2025 - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -26,7 +26,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Time Entry |**Time Entry Mobile App (Preview)** <br><br>  Project team members on Lite and resource/nonstocked-based deployments of Project Operations now have a new mobile application based on Microsoft Power Apps. The new mobile app helps them log time, keep track of submitted entries, and view work assigned to them. | [Time Entry Mobile App (Preview)](../../time/time-entry-mobile-app.md)  |
+| Time Entry |**Time Entry Mobile App (Preview)** <br><br>  Project team members on Project Operations Core and Project Operations Integrated with ERP-based deployments of Project Operations now have a new mobile application based on Microsoft Power Apps. The new mobile app helps them log time, keep track of submitted entries, and view work assigned to them. | [Time Entry Mobile App (Preview)](../../time/time-entry-mobile-app.md)  |
 | Sales |**Time phasing of Sales Estimates** <br><br> The Time phasing of prices feature provides visibility into price fluctuations over time within project quote lines and project contract lines. Nested quote line details display price changes phased out on a weekly basis, allowing you to track adjustments due to price overrides or multiple price lists.| [Estimate a project quote line](../../sales/create-estimate-quote-line.md) <br> [Estimate a project contract line](../../sales/create-estimate-contract-line.md) |
 | Invoicing |**Progress Billing in Billing hub** <br><br> Progress billing lets you raise invoices based on the percentage of work completed instead of fixed milestones or time and materials. This mode of billing is useful for long-term contracts, where the work spans over multiple years. | [Progress billing within Billing Hub](../../proforma-invoicing/billing-hub.md)  |
 

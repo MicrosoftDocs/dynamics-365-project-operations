@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Manage project opportunities
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Project-based companies typically have their operations for delivery spread across multiple countries/regions and geographies. The cost of the project execution and delivery can vary  based on which geography or division manages the delivery. In turn, this can impact the margins of the deal. Delivery of project-based services typically involves large quantities of human resource time, considerable expenses for travel, material costs, and other expenses.
 

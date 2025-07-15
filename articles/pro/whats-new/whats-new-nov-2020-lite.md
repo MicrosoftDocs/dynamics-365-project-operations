@@ -1,6 +1,6 @@
 ---
-title: What's new November 2020 - Project Operations Core deployment - deal to proforma invoicing
-description: This article provides information about the quality updates available in the November 2020 release of Project Operations Core deployment - deal to proforma invoicing. 
+title: What's new November 2020 - Project Operations Core
+description: This article provides information about the quality updates available in the November 2020 release of Project Operations Core. 
 author: sigitac
 ms.custom:
   - evergreen
@@ -11,9 +11,9 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new November 2020 - Project Operations Core deployment - deal to proforma invoicing
+# What's new November 2020 - Project Operations Core
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 The following table lists the updates to Project Operations on CDS environment version 4.4.0.70.
 

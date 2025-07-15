@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Bookings vs assignments
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Bookings are the hard or soft allocation of resources to a project. Hard bookings consume a resource's capacity. Bookings represent organizational concepts for teams so that they can understand how resources will be engaged across various projects. Dynamics 365 Project Operations considers bookings a project-level concept. 
 

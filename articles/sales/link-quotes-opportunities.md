@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Create project quotes from opportunities
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Quotes can be created from project opportunities in the following ways:
 

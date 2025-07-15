@@ -14,7 +14,7 @@ ms.author: suvaidya
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 You can attach an invoice schedule on a project-based contract line. Invoicing is only allowed after the contract is won to create a Project contract. Invoice schedules allow draft invoices for a project-based contract line to be created automatically. If you plan to always create invoices manually, you can skip creating invoice schedules on a project-based contract line or a contract line.
 

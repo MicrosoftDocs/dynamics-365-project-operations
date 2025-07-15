@@ -1,6 +1,6 @@
 ---
 title: What's new 2023 wave 1 early access - Project Operations Integrated with ERP
-description: This article provides information about the features available in the 2023 wave 1 early access release of Project Operations Project Operations Integrated with ERP based scenarios deployment.
+description: This article provides information about the features available in the 2023 wave 1 early access release of Project Operations Integrated with ERP based scenarios deployment.
 author: ramagadu
 ms.custom:
   - evergreen

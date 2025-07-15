@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing, Project Operations Integrated with ERP_
+_**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
 Project quotes are designed to support multiple date-effective sales price lists. In Microsoft Dynamics 365 Project Operations, a new associated entity named **Project price lists** is added. This entity has a one-to-many relationship with a project quote.
 

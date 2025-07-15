@@ -1,6 +1,6 @@
 ---
-title: What's new August 2024 - Project Operations Core deployment
-description: This article provides information about quality updates that are available in the Aug 2024 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new August 2024 - Project Operations Core
+description: This article provides information about quality updates that are available in the Aug 2024 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.custom:
   - evergreen
@@ -11,11 +11,11 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# What's new August 2024 - Project Operations Core deployment
+# What's new August 2024 - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -23,7 +23,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Features included in this release
 
-No new features in this release of Project Operations Core deployment. 
+No new features in this release of Project Operations Core. 
 
 
 ## Quality updates

@@ -14,7 +14,7 @@ ms.author: rumant
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article explains the information that applies to a project quote. This includes the settings that impact all quote lines, and information about the quote that is summarized across all the line items to drive the KPIs of the project quote.
 

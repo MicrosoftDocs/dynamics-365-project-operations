@@ -1,6 +1,6 @@
 ---
-title: What's new October 2022 - Project Operations Core deployment
-description: This article provides information about the quality updates that are available in the October 2022 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new October 2022 - Project Operations Core
+description: This article provides information about the quality updates that are available in the October 2022 release of Microsoft Dynamics 365 Project Operations Core.
 author: ramagadu
 ms.custom:
   - evergreen
@@ -11,9 +11,9 @@ ms.reviewer: johnmichalak
 ms.author: ramagadu
 ---
 
-# What's new October 2022 - Project Operations Core deployment
+# What's new October 2022 - Project Operations Core
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
@@ -24,7 +24,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | Feature area | Feature name | More information |
 | --- | --- | --- |
 | Project Planning and Tracking | **Project Operations External Scheduling**<br>The external scheduling mode lets customers natively create, update, and delete entities that are related to the work breakdown structures (WBS) by using the native Dataverse APIs, without the current limits that are enforced by Project for the Web. | [External Scheduling](/dynamics365/project-operations/project-management/external-scheduling) |
-| Deployment and Configuration | <p>**Allow customers to choose the deployment type**<br>Product-driven updates (PDUs) of Project Operations are used to automatically install Project Operations Dual-write solution when Dual-write core and orchestration solutions are installed in the environment.</p><p>This feature introduces a new **Solution upgrade behavior** parameter in Project parameters. When this parameter is set to **Lite only**, PUDs will no longer automatically install Project Operations Dual-write solution, even if Dual-write core and orchestration solutions are installed in the environment. This behavior will benefit customers who plan to use Dual-write solutions to integrate sales orders into finance and operations apps, but want to use Project Operations in a Lite mode (that is, without integration into finance and operations apps).</p> | |
+| Deployment and Configuration | <p>**Allow customers to choose the deployment type**<br>Product-driven updates (PDUs) of Project Operations are used to automatically install Project Operations Dual-write solution when Dual-write core and orchestration solutions are installed in the environment.</p><p>This feature introduces a new **Solution upgrade behavior** parameter in Project parameters. When this parameter is set to **Project Operations Core only**, PUDs will no longer automatically install Project Operations Dual-write solution, even if Dual-write core and orchestration solutions are installed in the environment. This behavior will benefit customers who plan to use Dual-write solutions to integrate sales orders into finance and operations apps, but want to use Project Operations in a Project Operations Core mode (that is, without integration into finance and operations apps).</p> | |
 
 ## Quality updates
 

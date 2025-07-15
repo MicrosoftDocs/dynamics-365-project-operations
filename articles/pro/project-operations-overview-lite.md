@@ -1,6 +1,6 @@
 ---
-title: Core deployment overview
-description: This article provides information about the Core deployment of Dynamics 365 Project Operations.
+title: Project Operations Core overview
+description: This article provides information about the Project Operations Core of Dynamics 365 Project Operations.
 author: rumant
 ms.date: 04/09/2024
 ms.topic: overview
@@ -11,13 +11,13 @@ ms.author: rumant
 
 ---
 
-# Core deployment overview
+# Project Operations Core overview
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
-The Core deployment type of Dynamics 365 Project Operations has the following capabilities for project-based companies:
+The Project Operations Core type of Dynamics 365 Project Operations has the following capabilities for project-based companies:
 
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing and costing for labor resources

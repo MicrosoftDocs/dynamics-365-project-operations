@@ -12,7 +12,7 @@ ms.author: tulsijhaveri
 
 # Book to a project
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 There are times where a Project Manager or Resource Manager needs to allocate a resource to project without a specific requirement being defined from a generic team member. This allocation can be achieved in one of three ways.
 

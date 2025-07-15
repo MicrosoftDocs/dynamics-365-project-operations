@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Copy project quotes
 
-_**Applies To:** Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 You can easily create a new Project quote by copying an existing one. 
 

@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies to:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 
 The following table lists the actuals of different transaction types that are created at various events in a fixed price engagement.
 

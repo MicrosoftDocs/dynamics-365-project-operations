@@ -1,6 +1,6 @@
 ---
-title: What's new December 2021 - Project Operations Core deployment
-description: This article provides information about the quality updates that are available in the December 2021 release of Project Operations Core deployment.
+title: What's new December 2021 - Project Operations Core
+description: This article provides information about the quality updates that are available in the December 2021 release of Project Operations Core.
 author: sigitac
 ms.custom:
   - evergreen
@@ -11,9 +11,9 @@ ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new December 2021 - Project Operations Core deployment
+# What's new December 2021 - Project Operations Core
 
-_Applies To: Core deployment - deal to proforma invoicing_
+_Applies To: Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

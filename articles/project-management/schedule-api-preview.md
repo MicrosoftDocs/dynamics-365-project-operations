@@ -11,7 +11,7 @@ ms.author: abriccetti
 
 # Use Project schedule APIs to perform operations with Scheduling entities
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 
 **Scheduling entities**

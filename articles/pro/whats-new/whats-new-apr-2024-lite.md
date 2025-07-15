@@ -1,6 +1,6 @@
 ---
-title: What's new April 2024 - Project Operations Core deployment
-description: This article provides information about the quality updates that are available in the April 2024 release of Microsoft Dynamics 365 Project Operations Core deployment.
+title: What's new April 2024 - Project Operations Core
+description: This article provides information about the quality updates that are available in the April 2024 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.date: 07/07/2025
 ms.update-cycle: 1095-days
@@ -12,11 +12,11 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# What's new April 2024 - Project Operations Core deployment
+# What's new April 2024 - Project Operations Core
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Core._
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 

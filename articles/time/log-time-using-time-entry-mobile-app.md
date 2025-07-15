@@ -14,7 +14,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing._
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 This article explains how to log time by using the new Microsoft Dynamics 365 Time Entry Mobile App (Preview).
 
