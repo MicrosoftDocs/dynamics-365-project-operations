@@ -2,7 +2,7 @@
 title: Approvals Agent overview (preview)
 description: Get a brief introduction to the Approvals Agent.
 author: abriccetti
-ms.date: 05/13/2025
+ms.date: 07/15/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -15,7 +15,7 @@ ms.author: abriccetti
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Core deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The purpose of the Approvals Agent is to streamline the approval process for time, expense, and material transactions. The Time and Expense Agent uses a [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) agent to do an initial review of incoming time, expense, and material entries against policy documents that the customer uploaded for each type of entry. If a record meets the criteria that are outlined in the policy document, it's marked as **Ready for approval**. Otherwise, it's marked as **Needs review**. This initial review makes the approval process more efficient for project managers. It also helps them avoid time-consuming corrections by reducing mistaken approvals.
 
