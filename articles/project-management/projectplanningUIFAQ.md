@@ -7,8 +7,9 @@ ms.topic: troubleshooting
 ms.product:
 ms.reviewer: johnmichalak
 ms.author: abriccetti
-ms.custom: 
+ms.custom:
   - bap-template
+  - sfi-image-nochange
 ---
 
 # Troubleshoot working in the Task grid 

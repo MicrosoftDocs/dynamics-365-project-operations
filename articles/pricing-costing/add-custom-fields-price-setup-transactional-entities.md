@@ -4,13 +4,14 @@ description: This article provides information about how to add required custom 
 author: abriccetti
 ms.date: 06/10/2025
 ms.topic: how-to
-ms.custom: 
-  - bap-template
 ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: abriccetti
 ms.search.validFrom: 2020-10-01
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
 ---
 
 # Add required custom fields to price setup and transactional entities

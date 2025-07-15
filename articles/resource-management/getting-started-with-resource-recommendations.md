@@ -6,10 +6,11 @@ description: This article explains how to use the resource recommendations featu
 author: mohitmenon
 ms.date: 05/09/2024
 ms.topic: how-to
-ms.custom: 
-  - bap-template
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
+ms.custom:
+  - bap-template
+  - sfi-ga-nochange
 ---
 
 # Prerequisites to use resource recommendations (preview)
