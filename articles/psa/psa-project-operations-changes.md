@@ -2,9 +2,6 @@
 title: Feature changes from Project Service Automation to Project Operations
 description: This article provides an overview of the feature changes from Project Service Automation to Dynamics 365 Project Operations.
 author: ruhercul
-ms.custom: 
-  - dyn365-projectservice
-  - evergreen
 ms.date: 07/07/2025
 ms.update-cycle: 1095-days
 ms.topic: article
@@ -15,6 +12,10 @@ search.audienceType:
   - customizer
   - enduser
 ms.reviewer: johnmichalak
+ms.custom:
+  - dyn365-projectservice
+  - evergreen
+  - sfi-image-nochange
 ---
 
 # Feature changes from Project Service Automation to Project Operations

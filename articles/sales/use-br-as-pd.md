@@ -6,9 +6,10 @@ author: poojafandan
 ms.author: poojafandan 
 ms.date: 06/07/2024  
 ms.topic: how-to 
-ms.custom: 
-  - bap-template
 ms.reviewer: johnmichalak
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
 
 --- 
 
