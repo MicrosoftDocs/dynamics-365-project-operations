@@ -2,7 +2,7 @@
 title: Manage multiple account addresses and apply them to project invoices.
 description: Learn how to manage multiple addresses for accounts and apply them to project invoices in Project Operations integrated with ERP scenarios.
 author: mukumarm
-ms.date: 07/10/2025
+ms.date: 07/16/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -37,8 +37,8 @@ To use the feature for Dynamics 365 Project Operations integrated with enterpris
 |---|---|---|
 | Project invoice proposal V2 (Invoices) | 1.0.0.4 | Not applicable |
 | Customers V3 (accounts) | 1.0.0.3 | Not applicable |
-| CDS Party postal address locations (msdyn_locationparties) | 1.0.0.0 | Dynamics 365 Finance to Dataverse |
 | CDS Postal address history V2 (msdyn_registeredaddresses) | 1.0.0.0 | Dynamics 365 Finance to Dataverse |
+| CDS Party postal address locations (msdyn_locationparties) | 1.0.0.0 | Dynamics 365 Finance to Dataverse. **The CDS Postal Address History V2 initial sync must be completed before initiating this mapping.**|
 
 > [!NOTE]
 > Enabling this feature doesn't affect existing address data. However, address-related fields are disabled on the **Project quotation**, **Project contract**, and **Project invoice** pages. You can select a new address by using the **Address Name** field. Fields such as **Street 1**, **Street 2**, **City**, and **Country/Region** are then automatically filled with data from the address book.
@@ -54,8 +54,9 @@ The **Project addresses** tab for managing physical addresses is available on th
 You can add a delivery address to the **Project quotation header** and **Project quotation customer** pages. All address-related fields, such as **Street 1**, **Street 2**, **City**, and **Country/region**, are disabled. Instead, you can select among the existing addresses for the customer. 
 
 In a similar way, the **Invoice address** and **Delivery address** fields are disabled on the **Project quotation customer** page. Instead, you can select one of the existing customer addresses.
-
 However, you can create a new address for the customer directly through the **Address name** lookup field by selecting **New Address** on the **Delivery address** or **Invoice address** lookup. The same address can be used on the **Project quotation** and **Project quotation customer** pages.
+
+For the **project quotation customer**, the **primary address** from the **customer** defaults to the **invoice address** field on the project quote contract customer. However, the invoice address can be changed by selecting one of the existing addresses linked to the customer
 
 After the quotation is won, the delivery address from the project quotation is automatically carried over to the project contract. Additionally, the delivery address and invoice addresses of the project quotation customer are automatically entered for the project contract customer. 
 
@@ -64,8 +65,9 @@ After the quotation is won, the delivery address from the project quotation is a
 You can add a delivery address to the **Project contract** and **Project contract customer** pages. All address-related fields, such as **Street 1**, **Street 2**, **City**, and **Country**, are disabled. Instead, you can select among the existing addresses for the customer. 
 
 In a similar way, the **Delivery address** and **Invoice address** fields are disabled on the **Project contract customer** page. Instead, you can select one of the existing customer addresses.
-
 However, you can create a new address for the customer directly through the **Address name** lookup field by selecting **New Address** on the **Delivery address** or **Invoice address** lookup. 
+
+For the **project contract customer**, the **primary address** from the **customer** defaults to the **invoice address** field on the project quote contract customer. However, the invoice address can be changed by selecting one of the existing addresses linked to the customer
 
 When a new project contract is manually created, and a customer is selected on the **Project contract** page, the customer's primary address is automatically entered on the **Project contract customer** page. However, you can modify the invoice address if needed. 
 
