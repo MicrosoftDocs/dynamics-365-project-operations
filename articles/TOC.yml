@@ -666,6 +666,14 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
+    - name: Approvals agent (preview)
+      items: 
+      - name: Approvals Agent overview (preview)
+        href: approvals/approvals-agent-intro.md
+      - name: Set up policy documents for the Approvals Agent (preview)
+        href: approvals/approvals-agent-policy.md
+      - name: Set up the Approvals Agent as an admin (preview)
+        href: approvals/approvals-agent-admin-setup.md
     - name: Approval sets
       href: approvals/approval-sets.md
     - name: Cancel approval on previously approved entries
