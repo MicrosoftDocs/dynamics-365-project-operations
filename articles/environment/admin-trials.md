@@ -5,9 +5,10 @@ author: abriccetti
 ms.author: abriccetti
 ms.date: 05/21/2024
 ms.topic: how-to
-ms.custom: 
-  - bap-template
 ms.reviewer: johnmichalak
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
 
 ---
 
