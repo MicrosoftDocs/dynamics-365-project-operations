@@ -56,7 +56,7 @@ You can add a delivery address to the **Project quotation header** and **Project
 In a similar way, the **Invoice address** and **Delivery address** fields are disabled on the **Project quotation customer** page. Instead, you can select one of the existing customer addresses.
 However, you can create a new address for the customer directly through the **Address name** lookup field by selecting **New Address** on the **Delivery address** or **Invoice address** lookup. The same address can be used on the **Project quotation** and **Project quotation customer** pages.
 
-For the **project quotation customer**, the **primary address** from the **customer** defaults to the **invoice address** field on the project quote contract customer. However, the invoice address can be changed by selecting one of the existing addresses linked to the customer
+For the **project quotation customer**, the **primary address** from the **customer** defaults to the **invoice address** field on the project quote contract customer. However, the invoice address can be changed by selecting one of the existing addresses linked to the customer.
 
 After the quotation is won, the delivery address from the project quotation is automatically carried over to the project contract. Additionally, the delivery address and invoice addresses of the project quotation customer are automatically entered for the project contract customer. 
 
@@ -67,7 +67,7 @@ You can add a delivery address to the **Project contract** and **Project contrac
 In a similar way, the **Delivery address** and **Invoice address** fields are disabled on the **Project contract customer** page. Instead, you can select one of the existing customer addresses.
 However, you can create a new address for the customer directly through the **Address name** lookup field by selecting **New Address** on the **Delivery address** or **Invoice address** lookup. 
 
-For the **project contract customer**, the **primary address** from the **customer** defaults to the **invoice address** field on the project quote contract customer. However, the invoice address can be changed by selecting one of the existing addresses linked to the customer
+For the **project contract customer**, the **primary address** from the **customer** defaults to the **invoice address** field on the project quote contract customer. However, the invoice address can be changed by selecting one of the existing addresses linked to the customer.
 
 When a new project contract is manually created, and a customer is selected on the **Project contract** page, the customer's primary address is automatically entered on the **Project contract customer** page. However, you can modify the invoice address if needed. 
 
