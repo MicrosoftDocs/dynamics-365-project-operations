@@ -43,9 +43,6 @@ For each resource, you can define work hours. Initially, the resource uses the d
 1. Open a resource record.
 1. On the **Work hours** tab, you can either update existing hours for all events or select **New** \> **Working hours** to add more working or nonworking hours.
 1. Set the start and end times of the resource's work hours, and select a repeat pattern. Use the *Custom* repeat pattern for recurring working hours, where resources can have different working hours on different days of the week.
-
-    ![Screenshot that show the setup of work hours for a resource.](https://github.com/MicrosoftDocs/dynamics-365-project-operations-pr/assets/129548753/3bab895e-a229-473b-943a-2303e9d65bb3)
-
 1. To define the number of times that the resource can be booked during their work hours, enable the **Capacity** option. For example, you set the capacity to **5**. In this case, when you use the schedule assistant to book a resource, the resource appears as available and can be overbooked up to the capacity limit (in this case, five times). By default, the capacity is set to **1**. If you set the capacity to **0** (zero), the resource doesn't appear as available in a resource search.
 1. Use the **Add break** option to split each working hours entry and add a break of 30 minutes. Use the **Add split** option to split each working hours entry evenly into two entries. Each of the resulting working hours entries can have a different capacity. The **Add split** option is available only if you enable the **Capacity** option.
 1. Set the time zone for the resource work hours to ensure that the system uses them correctly.
