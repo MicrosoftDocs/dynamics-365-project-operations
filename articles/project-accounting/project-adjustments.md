@@ -3,7 +3,7 @@ title: Project adjustments
 description: This article provides information about project adjustments.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 03/20/2025
+ms.date: 07/22/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -18,6 +18,8 @@ _**Applies To:** Project Operations for manufacturing-based scenarios_
 ## Adjustments overview
 
 You can configure Microsoft Dynamics 365 Project Operations so that users can make changes to posted transactions. You can adjust project transactions individually, or you can select multiple transactions at a time in a list of all project transactions. Project adjustments are used, for example, to mass-update the billable status, recalculate cost after a configuration change, or update funding sources.
+
+
 
 Users can access the project adjustment functionality in several ways:
 
@@ -71,21 +73,23 @@ Before you can use this feature, it must be enabled in your system. Admins can u
 
 There are a few different improvements enabled under this feature:
 
-1. This feature changes changes behavior so that project transactions are processed individually, rather than all together. With this change, individual vouchers and journals are created instead of processing all transactions together in a single voucher. This change prevents any adjustment failures from blocking the adjustment of other unrelated transactions. The change also limits the amount of data in a single general ledger journal and voucher which improves reporting and analysis of individual transactions.
+1. This feature changes behavior so that project transactions are posted individually, rather than all together. With this change, individual vouchers and journals are created instead of processing all transactions together in a single voucher. This change prevents any adjustment failures from blocking the adjustment of other unrelated transactions. The change also limits the amount of data in a single general ledger journal and voucher which improves reporting and analysis of individual transactions.
 
 2. To assist with fixing configuration issues that can cause adjustment failures, a new form has been introduced to track failures. Once the configuration issue has been resolved, users can select the transaction for adjustment from the list of failures, make the proposed change and see it succeed and removed from the list. If there is a reason the adjustment can't proceed, such as no available funding limit, users can delete the failed adjustment to remove it from the list.
 
-In **Project management and accounting**, navigate to **Periodic**, and **Transactions**. Open **Adjust transaction status**.
+In **Project management and accounting**, navigate to **Periodic**, and **Transactions**. Open **Adjust transactions status**.
 
-This page will give you insight into the failed adjustment and the error text in the reason column.
+This page provides visibilty into the failed adjustment and the error text in the reason column.
 
-The **Adjust transaction** button in the ribbon enables you to easily perform the adjustment again. However the form does not remember what change you made, so you will need to apply those changes again in the adjutment process.
+The **Adjust transaction** button in the ribbon enables you to easily perform the adjustment again. However, the form does not remember what change you made, so you will need to apply those changes again in the adjustment process.
 
-3. Multithreading has been enabled to allow the new smaller transaction size to be run in parallel. So intead of waiting for 1000 invidividual lines to run sequentially, we can now use multiple batch tasks to run these lines in parallel, according to the configuration of how many threads to use.
+3. A new infolog has been added on adjustment failure. It will display that "Posting failed for some transactions. You can view the errors in the Adjust transactions status page." The infolog provides a "view errors" link to take you directly to this new page.
+
+4. Multithreading has been enabled to allow the new smaller transaction size to be run in parallel. Instead of waiting for 1,000 individual lines to post sequentially, multiple batch tasks can now run these lines in parallel, based on the configured number of threads.
 
 A new parameter in the **Project management and accounting parameters** form has been added in the **General** tab for Max batch tasks for adjustment tasks. The default value is 0, which indicates 4 batch tasks will be used.
 
-With this change it is important to use batch processing in adjustments whenever processing more than a few lines. Because of the increased overhead in creating more journals and vouchers users may see a slight decrease in performance when adjusting without the use of batch, but will see a significant increase in performance when running in batch.
+With this change it is important to use batch processing in adjustments whenever processing more than a few lines. Because of the increased overhead in creating more journals and vouchers users may see a slight decrease in performance when adjusting without the use of batch but will see a significant increase in performance when running in batch.
 
 ## Adjust dates
 
@@ -102,6 +106,8 @@ In the **Adjustments** form, the bottom grid where edits can be made also now le
 ## Troubleshooting when transactions are missing from **Adjust transactions**
 
 You may encounter an issue where you want to adjust a transaction but it doesn't appear within **Adjust transactions**. If an adjustment is started but interrupted by closing the browser window or from your session timing out, then the transaction may be locked in the adjustment cache. You can clear the cache and make the transaction available again by running the periodic process. Use the **Clear adjustments posting cache** page that can be accessed from **Project Management and accounting** \> **Periodic** \> **Transactions** to resolve this issue.
+
+Starting with the 10.0.45 release, a new infolog will appear within adjustments if you selected a transaction for adjustment that is already in progress. Users will see the message: "One or more transactions could not be selected for adjustment because they are already being processed. If this is not expected, then wait until adjustments are complete and clear the adjustments posting cache."
 
 ## Scenarios where transactions are unavailable for adjustment
 
@@ -128,4 +134,4 @@ These parameters are listed on the **Project management and accounting parameter
 |----------------|-------------|
 | Autoupdate field | If this parameter is enabled, the system recalculates cost price and sales price. |
 | Allow closed activities | Usually, transactions can't be created for closed activities. If this parameter is enabled, that behavior is overridden. Therefore, adjustments can be created for closed activities. |
-| Max batch tasks for adjustment posting | When performing adjustments in batch, the adjustment transactions will be split into this many batch tasks. The number of transactions needs to be larger than the number of tasks in order to be split. For example, if the paramater is set to 6, if 5 transactions are adjusted they will be processed in a single batch task. |
+| Max batch tasks for adjustment posting | When performing adjustments in batch, the adjustment transactions will be split into this many batch tasks. The number of transactions must exceed the number of tasks to be split. For example, if the parameter is set to 6, if 5 transactions are adjusted they will be processed in a single batch task. |
