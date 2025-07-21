@@ -3,7 +3,7 @@ title: Configure Expense management parameters
 description: This article describes the parameters that control the general behavior in Expense management.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 07/10/2025
+ms.date: 07/21/2025
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -35,7 +35,7 @@ This article describes the parameters the control the general behavior in Expens
 | Multi-level hierarchy fields to display                  | Select which approver fields are shown when the workflow assignment type is set to be a hierarchy, and the **Hierarchy** selection is set to use the approval hierarchy, expense multi-level approval. When the multi-level approval hierarchy is used for a workflow, the selected fields are shown on the expense report and can be edited. |
 | Enter employee credit card number                        | Select whether a 15-character or 16-character number can be entered and saved in the **Card ID** field on the **Credit cards** page for an employee. |
 | Validate travel requisition purpose                      | Turn on this option to limit users to an existing set of values that is configured in the **Purpose of expense report** field when they create travel requisitions. |
-| Default document type                                   | Configure a default document type for receipts uploaded by users to ensure consistent initial categorization. By default, this field is left blank and can be set based on your organization’s needs. Once configured, the selected document type will automatically apply when a user uploads a receipt. If left blank, the system will refer to the default configuration set in Document Management Parameters. |
+| Default document type                                   | Configure a default document type for receipts uploaded by users to ensure consistent initial categorization. By default, this field is left blank and can be set based on your organization’s needs. Once configured, the selected document type automatically applies when a user uploads a receipt. If left blank, the system refers to the default configuration set in Document Management Parameters. |
 
 ## Financial
 
