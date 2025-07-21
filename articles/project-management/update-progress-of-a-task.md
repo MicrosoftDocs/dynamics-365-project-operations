@@ -49,7 +49,7 @@ If the **Allow percent complete update** option is set to **Yes**, users have th
 - The **% complete** field can be edited directly in the task grid. Users can enter any value between 0 and 100 to update the task's completion status. In the background, the value that is entered is used to calculate and update the **Effort Completed** field in the task grid.
 - Users can submit a time entry. The time entry updates the **Effort Completed** field. This update, in turn, adjusts the **% complete** value.
 - Users can instantly mark a task as completed by selecting the checkbox next to the task name. The **% complete** field is automatically set to 100%. If the checkbox is cleared, task completion is reset to 0%, and any previous **% complete** value isn't saved.
-- A journal entry is generated to capture the corresponding change in the **% Complete** value, reflecting an actual logged for the task.
+- A journal entry is generated to capture the corresponding change in the **% Complete** value, reflecting actuals logged for the task.
 
 ## Scenario 2: Allow percent complete update is set to No
 
