@@ -58,7 +58,7 @@ In **Dynamics 365 Finance**, the generation of a **project invoice** involves th
 2. **Project Operations integration actuals (msdyn_actuals)** – Contains the billed sales invoice transactions.
 3. **Integration entity for project transaction relationships (msdyn_transactionconnections)** – Links actuals to the invoice proposal, ensuring traceability and data integrity.
 
-To enable the dual-write asynchronous (async) integration, these entities must be transitioned from the real-time sync process to the asynchronous processing model. Follow the below steps to configure the entities in async mode:
+To enable the dual-write asynchronous (async) integration, these entities must be **transitioned** from the **real-time sync** process to the **asynchronous** processing model. Follow the below steps to configure the entities in **async mode**:
 
 1. In **Dynamics 365 finance**, go to **Data management** workspace.
 2. Click **Dual-write**.
