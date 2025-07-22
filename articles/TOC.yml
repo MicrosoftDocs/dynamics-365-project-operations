@@ -1702,6 +1702,8 @@
        href: project-accounting/understand-cost-price-sales-prices-transfer-price-taxes.md
      - name: Use financial tags for project financial transactions
        href: project-accounting/financial-tags-for-project-financial-transactions.md
+     - name: Use general journals for advanced accounting
+       href: project-accounting/general-journals.md
   - name: Project sales process
     items:
      - name: Project quotations
