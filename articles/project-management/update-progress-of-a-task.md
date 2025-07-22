@@ -58,4 +58,7 @@ If the **Allow percent complete update** option is set to **No**, users have the
 - The **% complete** field can't be edited directly in the task grid. Instead, users must submit a time entry. The time entry updates the **Effort Completed** field. This update, in turn, adjusts the **% complete** value.
 - Users can instantly mark a task as completed by selecting the checkbox next to the task name. This action sets the **Effort Remaining** field to **0** and, in turn, marks the task as 100% completed. If the checkbox is cleared, the **% complete** field reverts to its previous value.
 
+> [!NOTE]
+> - Schedule APIs can also be leveraged to update the task's progress by modifying the **% Complete** (msdyn_progress) field.
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
