@@ -89,7 +89,7 @@ There are a few different improvements enabled with this feature:
 
 A new parameter in the **Project management and accounting parameters** form was added in the **General** tab for Max batch tasks for adjustment tasks. The default value is zero, which indicates four batch tasks are used.
 
-With this change, it's important to use batch processing in adjustments whenever processing more than a few lines. Because of the increased overhead in creating more journals and vouchers users may see a slight decrease in performance when adjusting without the use of batch but will see a significant increase in performance when running in batch.
+With this change, it's important to use batch processing in adjustments whenever processing more than a few lines. Because of the increased overhead in creating more journals and vouchers, there may be a slight decrease in performance when adjusting without the use of batch. But there's a significant increase in performance when running in batch.
 
 ## Adjust dates
 
@@ -107,7 +107,7 @@ In the **Adjustments** form, the bottom grid where edits can be made also now le
 
 You may encounter an issue where you want to adjust a transaction but it doesn't appear within **Adjust transactions**. If an adjustment is started but interrupted by closing the browser window or from your session timing out, then the transaction may be locked in the adjustment cache. You can clear the cache and make the transaction available again by running the periodic process. Use the **Clear adjustments posting cache** page that can be accessed from **Project Management and accounting** \> **Periodic** \> **Transactions** to resolve this issue.
 
-Starting with the 10.0.45 release, a new Infolog appears within adjustments if you selected a transaction for adjustment that is already in progress. The message displays: "One or more transactions could not be selected for adjustment because they are already being processed. If this isn't expected, then wait until adjustments are complete and clear the adjustments posting cache."
+Starting with the 10.0.45 release, a new Infolog appears within adjustments if you selected a transaction for adjustment that is already in progress. The message displays: "One or more transactions couldn't be selected for adjustment because the're already being processed. If this isn't expected, then wait until adjustments are complete and clear the adjustments posting cache."
 
 ## Scenarios where transactions are unavailable for adjustment
 
@@ -134,4 +134,4 @@ These parameters are listed on the **Project management and accounting parameter
 |----------------|-------------|
 | Autoupdate field | If this parameter is enabled, the system recalculates cost price and sales price. |
 | Allow closed activities | Usually, transactions can't be created for closed activities. If this parameter is enabled, that behavior is overridden. Therefore, adjustments can be created for closed activities. |
-| Max batch tasks for adjustment posting | When performing adjustments in batch, the adjustment transactions is split into this many batch tasks. The number of transactions must exceed the number of tasks to be split. For example, if the parameter is set to six and five transactions are adjusted, they are processed in a single batch task. |
+| Max batch tasks for adjustment posting | When you perform adjustments in batch, the adjustment transactions is split into this many batch tasks. The number of transactions must exceed the number of tasks to be split. For example, if the parameter is set to six and five transactions are adjusted, they're processed in a single batch task. |
