@@ -28,8 +28,8 @@ To address this **constraint**, Microsoft has introduced the **dual-write asynch
 In Project Operations, the Project manager manages the project billing backlog and creates a proforma invoice for the customer in Microsoft Dataverse. 
 Dual-write integration ensures that the proforma invoice details are synchronized to finance and operations apps. 
 The following graphic provides a high-level conceptual overview of this integration.
-  
-   ![Project invoice integration.](./media/DW5Invoicing.png)
+
+![Project invoice integration.](./media/DW5Invoicing.png)
 
 ### Project operations parameters
 To update the project operations parameters, follow below steps:
@@ -39,7 +39,19 @@ To update the project operations parameters, follow below steps:
 4.  On the **Project task time tracking** dropdown, choose **Delayed update**.
 5.  On the **Project actual values tracking** dropdown, choose **Delayed update**.
 
-### Entities Involved in Project Invoice Generation
+### Dual write core solution
+In the **Power Apps portal**, update the **Dual-write Core** solution to the latest version available for your environment to ensure compatibility and access to the newest features.
+
+1.  Go to https://make.powerapps.com.
+2.  Ensure you're logged into the correct environment where Dual-write is configured.
+3.  In the left-hand navigation pane, select **Solutions**. This will list all installed solutions in your environment.
+4.  Locate the **Dual-write Core** solution in the list. Click on it to view the current version and details.
+5.  Compare it with the latest version available on **Microsoft AppSource**.
+6.  In the Solutions area, click **Open AppSource**. Search for **Dual-write Core**.
+7.  Select the latest version of the Dual-write Core solution. Click **Get it now** and follow the prompts to install or update. Choose the correct **environment** during installation.
+
+### Enable the dual-write asynchronous (async) integration for Project invoice
+
 In **Dynamics 365 Finance**, the generation of a **project invoice** involves the synchronization of three key entities:
 
 1. **Project invoice proposal V2 (invoices)** – Represents the draft version of the invoice.
