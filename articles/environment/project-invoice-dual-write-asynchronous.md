@@ -1,5 +1,5 @@
 ---
-title: Project invoice integration using Dual write Async
+title: Project invoice integration using dual-write async
 description: This article provides information about Project Operations dual-write integration for project invoicing using Dual write async configuration.
 author: mukumarm
 ms.author: mukumarm
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Project invoice integration using Dual write Async configuration
+# Project invoice integration using dual-write async configuration
 
 [!INCLUDE[banner](../includes/banner.md)]
 
