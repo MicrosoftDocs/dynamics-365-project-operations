@@ -66,8 +66,8 @@ Schedule APIs now support updating a task's progress via the **% Complete (msdyn
 2. Users must provide a value between 0 and 1 when updating **msdyn_progress**.
 3. If **Allow percent complete update** is set to **No**:
    - Only values 0 or 1 are accepted.
-   - Setting the value to 0 will reset the **% Complete** field to match the value of the **Effort Completed** in percentage.
-   - Setting it to 1 will mark the task as 100% complete by setting **Effort Remaining** to 0.
-   - Any other value will result in an error.
+   - Setting the value to 0 resets the **% Complete** field to match the value of the **Effort Completed** in percentage.
+   - Setting it to 1 marks the task as 100% complete by setting **Effort Remaining** to 0.
+   - Any other value results in an error.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
