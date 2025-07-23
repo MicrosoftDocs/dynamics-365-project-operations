@@ -35,7 +35,7 @@ The following graphic provides a high-level conceptual overview of this integrat
 To update the project operations parameters, follow below steps:
 1.  Go to **Dynamics 365 Project operations** app.
 2.  Select **Settings** and open **Parameters** form.
-3.  Click **Edit** to open the parameters form.
+3.  Select **Edit** to open the parameters form.
 4.  On the **Project task time tracking** dropdown, choose **Delayed update**.
 5.  On the **Project actual values tracking** dropdown, choose **Delayed update**.
 
@@ -45,10 +45,10 @@ In the **Power Apps portal**, update the **Dual-write Core** solution to the lat
 1.  Go to https://make.powerapps.com.
 2.  Ensure you're logged into the correct environment where Dual-write is configured.
 3.  In the left-hand navigation pane, select **Solutions**. This will list all installed solutions in your environment.
-4.  Locate the **Dual-write Core** solution in the list. Click on it to view the current version and details.
+4.  Locate the **Dual-write Core** solution in the list. Select it to view the current version and details.
 5.  Compare it with the latest version available on **Microsoft AppSource**.
-6.  In the Solutions area, click **Open AppSource**. Search for **Dual-write Core**.
-7.  Select the latest version of the Dual-write Core solution. Click **Get it now** and follow the prompts to install or update. Choose the correct **environment** during installation.
+6.  In the Solutions area, select **Open AppSource**. Search for **Dual-write Core**.
+7.  Select the latest version of the Dual-write Core solution. Select **Get it now** and follow the prompts to install or update. Choose the correct **environment** during installation.
 
 ### Enable the dual-write asynchronous (async) integration for Project invoice
 
@@ -61,14 +61,14 @@ In **Dynamics 365 Finance**, the generation of a **project invoice** involves th
 To enable the dual-write asynchronous (async) integration, these entities must be **transitioned** from the **real-time sync** process to the **asynchronous** processing model. Follow the below steps to configure the entities in **async mode**:
 
 1. In **Dynamics 365 finance**, go to **Data management** workspace.
-2. Click **Dual-write**.
+2. Select **Dual-write**.
 3. Select dual-write maps for Project Operations integration actuals (msdyn_actuals), Project invoice proposal V2 (invoices) and Integration entity for project transaction relationships (msdyn_transactionconnections).
-4. Click on **Integration jobs**.
-5. Click **New** to create a new integration job.
+4. Select **Integration jobs**.
+5. Select **New** to create a new integration job.
 6. Select the integration job id.
-7. Click **Add table map** and select Project invoice proposal V2 (invoices), Project Operations integration actuals (msdyn_actuals) and Integration entity for project transaction relationships (msdyn_transactionconnections) in sequence.
-8. Click **Save** to save the integration job.
-9. Click **Run** to run the integration job in async mode.
+7. Select **Add table map** and select Project invoice proposal V2 (invoices), Project Operations integration actuals (msdyn_actuals) and Integration entity for project transaction relationships (msdyn_transactionconnections) in sequence.
+8. Select **Save** to save the integration job.
+9. Select **Run** to run the integration job in async mode.
 
 > [!NOTE]
 > This feature is currently in preview.
