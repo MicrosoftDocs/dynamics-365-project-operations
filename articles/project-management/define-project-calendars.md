@@ -46,7 +46,7 @@ The calendar template applied to a project is a copy of the calendar template de
 
 To create a calendar template for your organization, there are two key requirements:
 
-- Create a new calendar template and associate the template with the bookable resource.
+- Create a new calendar template.
 - Define the desired working hours of the template using calendar tab or a new or existing bookable resource.
 
 ### Create a new calendar template
@@ -74,7 +74,7 @@ To create a calendar template for your organization, there are two key requireme
 > [!NOTE]
 > When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template. If the working hours of the copied template change, those changes don't propagate to the calendar template.
 > 
-> To modify working hours on a template, simply navigate to the Calendar tab and make the changes—no need to update the resource’s working hours or reapply the resource to the template.
+> To modify working hours on a template, navigate to the Calendar tab and make the changes—no need to update the resource’s working hours or reapply the resource to the template.
 
 You can now associate the work template with a project calendar template.
 
