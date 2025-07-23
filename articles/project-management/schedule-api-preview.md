@@ -63,7 +63,7 @@ Because records are created immediately for both **CreateProjectV1** and **Creat
 
 | Scheduling entity       | Create     | Update     | Delete     | Important considerations |
 |-------------------------|------------|------------|------------|--------------------------|
-| Project task            | Yes        | Yes        | Yes        | The **Progress**, **EffortCompleted**, and **EffortRemaining** fields can be edited in Project for the Web, but they can't be edited in Project Operations. |
+| Project task            | Yes        | Yes        | Yes        | The **EffortCompleted**, and **EffortRemaining** fields can be edited in Project for the Web, but they can't be edited in Project Operations. |
 | Project task dependency | Yes        | No         | Yes        | Project task dependency records aren't updated. Instead, an old record can be deleted, and a new record can be created. |
 | Resource assignment     | Yes        | Yes\*      | Yes        | Operations with the following fields aren't supported: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining**, and **PlannedWork**.  |
 | Project bucket          | Yes        | Yes        | Yes        | The default bucket is created by using the **CreateProjectV1** API. Support for creating and deleting project buckets was added in Update Release 16. |
