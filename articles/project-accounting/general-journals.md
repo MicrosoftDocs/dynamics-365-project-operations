@@ -46,10 +46,10 @@ Actuals are created in Dataverse, but only any unbilled sales lines are generate
 
 ## OneVoucher transactions for allocations
 
-An alternate method to entering journals is possible by enabling [One voucher](https://learn.microsoft.com/en-us/dynamics365/finance/general-ledger/one-voucher). These transactions can have negative impacts on reporting, so should be thoroughly tested before enabling. These types of transactions allow for allocations or apportionment. For example, Contoso might want to purchase a piece of equipment for use for their organization. They have an expense for the equipment, but want to charge back 10% of it to each of 10 individual projects. Entering transactions in this way with several lines with different projects allow for a single voucher entry to be posted against multiple projects at the same time.
+An alternate method to entering journals is possible by enabling [One voucher](https://learn.microsoft.com/dynamics365/finance/general-ledger/one-voucher). These transactions can have negative impacts on reporting, so should be thoroughly tested before enabling. These types of transactions allow for allocations or apportionment. For example, Contoso might want to purchase a piece of equipment for use for their organization. They have an expense for the equipment, but want to charge back 10% of it to each of 10 individual projects. Entering transactions in this way with several lines with different projects allow for a single voucher entry to be posted against multiple projects at the same time.
 
 ## Limitations
 
 - While the feature is in preview, journals are limited to 50 project-related lines in the client.
 - Contract lines with multiple customers aren't considered. These sales lines might not generate unbilled sales correctly without the contract customer defined on the Dataverse journal line.
-- Both modern projects and Project Management and Accounting (PMA) projects can't be used in the same journal when customers have previous projects and are [transitioning to using the modern architecture.](https://learn.microsoft.com/en-us/dynamics365/project-operations/prod-pma/move-to-modern-architecture)
+- Both modern projects and Project Management and Accounting (PMA) projects can't be used in the same journal when customers have previous projects and are [transitioning to using the modern architecture.](../prod-pma/move-to-modern-architecture)
