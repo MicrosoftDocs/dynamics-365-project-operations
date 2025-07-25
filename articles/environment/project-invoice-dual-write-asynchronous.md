@@ -78,6 +78,3 @@ To enable the dual-write asynchronous (async) integration, follow these steps.
 1. Select **Add table map** and select Project invoice proposal V2 (invoices), Project Operations integration actuals (msdyn_actuals) and Integration entity for project transaction relationships (msdyn_transactionconnections) in sequence.
 1. Select **Save** to save the integration job.
 1. Select **Run** to run the integration job in async mode.
-
-> [!NOTE]
-> This feature is currently in preview.
