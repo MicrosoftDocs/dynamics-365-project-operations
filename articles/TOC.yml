@@ -788,7 +788,7 @@
         href: environment/resource-dual-write-estimates-actuals.md
       - name: Project invoice integration
         href: environment/resource-dual-write-project-invoice.md
-      - name: Project invoice integration using dual write async
+      - name: Integrate project invoices using dual-write async configuration (preview)
         href: environment/project-invoice-dual-write-asynchronous.md
       - name: Expense management integration
         href: environment/resource-dual-write-expense.md
