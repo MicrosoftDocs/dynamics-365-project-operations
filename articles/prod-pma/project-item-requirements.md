@@ -88,7 +88,7 @@ The following functionality was added in the 10.0.35 release:
 
 #### Limitations of item requirement cancellation
 
-- If the feature is used with nonchargeable lines for stocked items or fixed price projects, transactions and amounts are left in the **Cost of units, delivered** posting type and the associated account. Because these transactions can't be invoiced, the amounts aren't moved to the **Cost of units, invoiced** posting type.
+- If the feature is used with nonchargeable lines for stocked items or fixed price projects, transactions and amounts are left in the **Cost of units, delivered** posting type and the associated account. Because these transactions can't be invoiced, the amounts aren't moved to the **Cost of units, invoiced** posting type. This limitation has been addressed with the new finalizaiton feature.
 - Packing slips can't be canceled if the transaction was previously invoiced, or if it was invoiced and then returned through a credit note.
 
 #### Demo data issues to consider
@@ -98,3 +98,27 @@ In the **USSI** legal entity, the **Sale\_367** number sequence is in an inconsi
 > Voucher 000001 is already used as of date 1/9/2017. Posting has been cancelled.
 
 To fix the issue, go to **Number sequences**, filter for number sequence code **Sale\_367**, and open the item. On the **Performance** FastTab, change the value of the **Preallocation** option from **Yes** to **No**, and save the change. Then, change the value back to **Yes**.
+
+### Finalize uninvoiced stocked items
+
+A new preview feature in 10.0.45 removes the limitation of not being able to finalize or complete stocked item requirements that can't be invoiced. To use the new functionality, enable the **Finalize uninvoiced stocked items** feature in the **Feature management** workspace. The feature will only update transactions that are in a non-chargeable state from the **Enable packing slip cancellation for item requirements** feature.
+
+Item requirements that are stocked items and meet any of the critiera below will require finalization:
+
+- The line property for chargeable is set to non-chargeable.
+- The project group doesn't allow for invoicing. This includes project types such as as fixed price projects, investment projects, and internal projects.
+- The project contract uses billing rules and a billing rule overrides the line property to make a transaction category non-chargeable.
+
+To finalize an item requirement, users should:
+
+1. Open the **Item requirements** form and enable the new **Uninvoiced stocked items** filter. This filter will show both stocked and non-stocked item requirements that meet one of the three non-chargeable criteria above.
+2. Users can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized the process won't error if chargeable transactions are selected.
+3. In the Manage tab of the ribbon, click **Finalize delivered quantity** and confirm the delivery end date for the list of packing slips and their corresponding dates to consider for finalization. You can get details on the specific packing slips from the Inquiries button in the ribbon and clicking into **Packing slip journal**
+4. A warning will appear that will require confirming that the packing slips can no longe4 be cancelled after finalization.
+5. A finalization date is required for the date for the posting and the user can opt to post in batch for large volumes of data.
+
+Finalization will complete. The transactions will remain with a Nonchargeable invoice status, but the posting to **Cost of units, invoiced** posting type will be completed, inventory will have completed its financial posting, and the item requirement moved from open order to delivered status if all quantity for the item requirement was finalized.
+
+If there was a linked purchase order to the item requirement, then posting the vendor invoice or running inventory recalculation will generate price adjustments based on the inventory model when needed.
+
+The finalization number sequence uses the same number sequence that project invoicing uses.
