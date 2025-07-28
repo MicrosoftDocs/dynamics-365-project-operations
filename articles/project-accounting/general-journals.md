@@ -22,7 +22,7 @@ In the 10.0.45 release, a new preview feature is available that enables the abil
 
 ## Entering transactions
 
-When entering journals, a user typically enters a single line transaction with the Project on the left for the account type, and the Ledger on the right as the offset account type. Entering the project details before the offset creates a new expense against the project. Reversing the order creates a credit for the project.
+When you enter journals, a user typically enters a single line transaction with the Project on the left side for the account type, and the Ledger on the right side as the offset account type. Entering the project details before the offset creates a new expense against the project. Reversing the order creates a credit for the project.
 
 An alternate way of entering journals is to create a project line with the debit but no offset, and create a second line for the same voucher with a ledger credit.
 
@@ -37,14 +37,14 @@ On the **Project** tab, the fields to consider when creating an entry include:
 - **Category** determines which posting account to use for the expense, and defaults the line property value. The category defaults based on the Project management and accounting parameter for the expense category within project category defaults.
 - **Quantity** can be defined.
 - **Cost price** defaults to what you entered on the general tab earlier.
-- **Sales price** always defaults to zero. You'll always have to define a sales price if necessary.
+- **Sales price** always defaults to zero. You always need to define a sales price if necessary.
 - **Sales currency** is locked to the contract currency.
 
 General journals aren't aware of Dataverse pricing. The journals allow manual entry of costs and sales. You may see the warning "**Sales price not specified for time and material projects.**"
 
-When the transaction posts, cost commits immediately to general ledger and the project subledger. This process doesn't use the expense integration account and instead, unlike expense reports, posts immediately. A connection is made to Dataverse using the IOrganization service, and creates a journal header and journal lines for each cost and sales amount in general journal. 
+When the transaction posts, cost commits immediately to general ledger and the project subledger. This process doesn't use the expense integration account and instead, unlike expense reports, posts immediately. A connection is made to Dataverse using the **IOrganization** service, and creates a journal header and journal lines for each cost and sales amount in general journal. 
 
-For example, there might be one project expense journal line for 100 cost and 200 sales. This single journal line with cost and sales ends up in Dataverse as two journal lines, with one line being 100 cost and one line being 200 sales. For time and material contract lines, a corresponding cost and sales line is always created even when sales price is zero. For time and material contract lines or projects without contracts only a cost line is created. The journal is automatically posted in Dataverse.
+For example, there might be one project expense journal line for 100 cost and 200 sales. This single journal line with cost and sales ends up in Dataverse as two journal lines, with one line being 100 cost and one line being 200 sales. For time and material contract lines, a corresponding cost and sales line is always created even when sales price is zero. For time and material contract lines or projects without contracts, only a cost line is created. The journal is automatically posted in Dataverse.
 
 The general journal has a journal batch number to uniquely identify it. For example, USPM-000095. This same voucher number carries through to the Dataverse journal header **Description**.
 
@@ -60,4 +60,4 @@ An alternate method to entering journals is possible by enabling [One voucher](/
 - Contract lines with multiple customers aren't considered. These sales lines might not generate unbilled sales correctly without the contract customer defined on the Dataverse journal line.
 - Both modern projects and Project Management and Accounting (PMA) projects can't be used in the same journal when customers have previous projects and are [transitioning to using the modern architecture.](../prod-pma/move-to-modern-architecture.md)
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
