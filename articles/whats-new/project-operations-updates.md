@@ -42,7 +42,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.141.0.1552                  |                                      10.0.43                                     |                1.0.141.985              |
+|                   4.142.0.2276                  |                                      10.0.43                                     |                1.0.142.1118              |
 
 > [!IMPORTANT]
 > - The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively.
@@ -67,8 +67,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.140.0.651** <br> Refer HotFix (**4.140.0.1087**)      | April 25, 2025             | April 25, 2025             | April 25, 2025             | May 02, 2025               | May 02, 2025               | CANCELED              | CANCELED               | CANCELED               | CANCELED               | CANCELED              |
 | **4.141.0.975** <br> Refer HotFix (**4.140.0.1552**)      | May 23, 2025               | CANCELED               | May 23, 2025               | CANCELED               | CANCELED               | CANCELED               |CANCELED               | CANCELED              | CANCELED              | CANCELED             |
 | **4.142.0.X**       | June 18, 2025              | June 20, 2025              | June 20, 2025              | June 27, 2025              | June 27, 2025              | July 04, 2025              | July 04, 2025              | July 11, 2025              | July 11, 2025              | July 18, 2025              |
-| **4.143.0.X**       | July 18, 2025              | July 25, 2025              | July 18, 2025              | July 25, 2025              | July 25, 2025              | August 01, 2025            | August 01, 2025            | August 09, 2025            | August 09, 2025            | August 16, 2025            |
-| **4.144.0.X**       | August 08, 2025            | August 15, 2025            | August 15, 2025            | August 22, 2025            | August 22, 2025            | August 29, 2025            | August 29, 2025            | September 05, 2025         | September 05, 2025         | September 12, 2025         |
+| **4.143.0.X**       | August 01, 2025              | August 08, 2025              | August 01, 2025              | August 08, 2025              | August 08, 2025              | August 14, 2025            | August 08, 2025            | August 14, 2025            | August 14, 2025            | August 22, 2025            |
 | **4.145.0.X**       | September 12, 2025         | September 19, 2025         | September 19, 2025         | September 26, 2025         | September 26, 2025         | October 03, 2025           | October 03, 2025           | October 10, 2025           | October 10, 2025           | October 17, 2025           |
 
 ## HotFix Release Cycle
