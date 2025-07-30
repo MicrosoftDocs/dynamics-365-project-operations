@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Set up the Expense Agent feature of the Time and Expense Agent (preview)
+# Set up the Expense Agent (preview) 
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
