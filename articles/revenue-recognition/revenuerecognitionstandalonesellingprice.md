@@ -144,3 +144,4 @@ Similarly, for the **implementation fee**, $40,000—representing the same type 
 - [Project contract lines overview](../pro/sales/manage-contract-values-project-based-sales.md) – This article provides an overview of project contract lines.
 - [Map projects and tasks to a project contract line](../pro/sales/mapping-projects-tasks-contract-line-sales.md) – This article provides an overview of mapping projects and tasks to a project contract line.
 - [Manage revenue estimates](rev-rec-completed-contract-method.md) – This article provides an overview of managing and running the revenue recognition estimates.
+- [Manage revenue recognition for contract lines](Revenuerecogntionforcontractlines.md) – This article provides an overview of revenue recogntion for contract lines.
