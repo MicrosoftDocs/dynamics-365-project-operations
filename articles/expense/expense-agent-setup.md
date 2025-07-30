@@ -1,6 +1,6 @@
 ---
-title: Set up the Expense Entry feature of the Time and Expense Agent (preview)
-description: Learn how to install and set up the Expense Entry feature of the Time and Expense Agent to automate expense processing workflows by using AI.
+title: Set up the Expense Agent (preview)
+description: Learn how to install and set up the Expense Agent to automate expense processing workflows by using AI.
 author: ajitchandran
 ms.author: ajitchandran
 ms.date: 07/07/2025
@@ -18,9 +18,9 @@ ms.reviewer: johnmichalak
 
 _**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 365 Project Operations for manufacturing**_
 
-The Expense Entry feature of the Time and Expense Agent brings together capabilities from Microsoft Dynamics 365 Project Operations, finance and operations apps, Microsoft Copilot Studio, Power Automate, and Dataverse to automate expense processing workflows by using AI. The feature helps save time and reduce manual effort by enabling your system to process receipts and generate expense lines and expense reports for users. It uses Microsoft Power Platform connectors for integration with Outlook, Microsoft Teams, user calendars, and the finance and operations apps environment via Dataverse virtual entities.
+The Expense Agent brings together capabilities from Microsoft Dynamics 365 Project Operations, finance and operations apps, Microsoft Copilot Studio, Power Automate, and Dataverse to automate expense processing workflows by using AI. The feature helps save time and reduce manual effort by enabling your system to process receipts and generate expense lines and expense reports for users. It uses Microsoft Power Platform connectors for integration with Outlook, Microsoft Teams, user calendars, and the finance and operations apps environment via Dataverse virtual entities.
 
-The Expense Entry feature of the Time and Expense Agent includes multiple flows, three of which serve as core orchestrators:
+The Expense Agent includes multiple flows, three of which serve as core orchestrators:
 - **Process Emails** – This flow scans a configured mailbox folder every hour and stores the attachments as unattached receipts in Dynamics 365 Finance.
 - **Extract Receipt IDs** – This flow picks up unattached receipts and triggers the agent to extract receipt details and create an unattached expense line.
 - **Process Expense Report** – This flow converts unattached expense lines and generates expense reports, based on the **Group reports by** configuration that is set in the application for each legal entity.
@@ -39,7 +39,7 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 ## Prerequisites
 
 1. **Finance and operations environment:** The minimum finance and operations environment required to install the agent is version 10.0.44 or later.
-1. **Roles required to set up the Expense Agent user:** To complete the steps in this article, you as the system administrator of the organization, must have the following roles to set up the expense agent user that is used to install the Expense entry feature of the Time and Expense Agent.
+1. **Roles required to set up the Expense Agent user:** To complete the steps in this article, you as the system administrator of the organization, must have the following roles to set up the expense agent user that is used to install the Expense Agent.
 
 | System | Role | Comments |
 |---|---|---|
@@ -48,22 +48,22 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 | Microsoft 365 | Exchange Administrator and User Administrator | <ol><li>Go to [Microsoft 365 admin center](https://admin.microsoft.com/).</li> <li>Go to **Users** > **Active Users** > select the user.</li> <li>Select **Manage Roles**, then from **Roles** select **Exchange Administrator**.</li> <li>**Save** the changes.</li> <li>Follow same steps to add the **User Administrator** role.</li></ol> |
 | Teams admin center | Teams Administrator | Required if you plan to enable Microsoft Teams integration |
 
-## Steps to set up the Expense Entry feature 
+## Steps to set up the Expense Agent 
 
-To install and set up of the Expense Entry feature of the Time and Expense Agent, follow these steps.
+To install and set up of the Expense Agent, follow these steps.
 
 1. Install Copilot for finance and operations apps.
 1. Enable the agent features in your environment.
 1. Create an expense user for agent execution.
 1. Set up a shared mailbox.
-1. Set up the Expense Entry feature of the Time and Expense Agent.
-1. Enable the Expense Entry feature in Microsoft Teams (Optional - if you need Microsoft Teams integration)
+1. Set up the Expense Agent.
+1. Enable the Expense Agent in Microsoft Teams (Optional - if you need Microsoft Teams integration)
 
 The sections that follow describe each step in detail.
 
 ### Step 1: Install Copilot for finance and operations apps 
 
-The Expense Entry feature of the Time and Expense Agent is available as part of the Copilot for finance and operations apps package. After this package is installed in your environment, all required assets, including the agent, environment variables, and Power Automate flows automatically become available.
+The Expense Agent is available as part of the Copilot for finance and operations apps package. After this package is installed in your environment, all required assets, including the agent, environment variables, and Power Automate flows automatically become available.
 
 To install the required app, follow these steps. 
 
@@ -86,7 +86,7 @@ To install the required app, follow these steps.
 
 ### Step 2: Enable the agent features in your environment
 
-Now that the Copilot for finance and operations apps package is installed, the next step is to activate the Expense Entry feature of the Time and Expense Agent from within your Dataverse and finance and operations environment.
+Now that the Copilot for finance and operations apps package is installed, the next step is to activate the Expense Agent from within your Dataverse and finance and operations environment.
 
 #### Enable feature in Dataverse
 
@@ -102,7 +102,7 @@ To activate the agent in finance and operations apps, follow these steps.
 
 1. Sign in to your **finance and operations environment**.
 1. Go to **Feature Management**, and enable **Immersive Home feature** and **Agent Management** features.
-1. To configure the Expense entry agent (setup is per legal entity), go to **Expense Management** \> **Setup** \> **General** \> **Expense Management parameters**.
+1. To configure the Expense Agent (setup is per legal entity), go to **Expense Management** \> **Setup** \> **General** \> **Expense Management parameters**.
 1. On the **Expense Entry Agent** tab, configure the parameters as shown in the following table.
    
 | Parameters | Value | Comments |
@@ -135,7 +135,7 @@ Create a dedicated expense agent user to ensure that the agent runs independentl
 
 #### Assign the required licenses to Expense Agent user
 
-To successfully install Expense Entry feature of the Time and Expense Agent, the following licenses are required to be assigned to the expense agent user,
+To successfully install Expense Agent, the following licenses are required to be assigned to the expense agent user,
   - Dynamics 365 Teams Members license
   - Microsoft 365 Business Basic or any license that covers Microsoft Teams and Outlook (for example, Office 365 E5 with teams)
   - Power Apps Premium
@@ -208,7 +208,7 @@ To assign access to the shared mailbox access, follow these steps.
 
 ### Step 4: Set up the shared mailbox
 
-The Expense Entry feature in the Time and Expense Agent uses a shared mailbox to receive and process receipt emails. This mailbox needs to be created and configured by a user with the Exchange Administrator role in the Microsoft 365 Admin Center.
+The Expense Agent uses a shared mailbox to receive and process receipt emails. This mailbox needs to be created and configured by a user with the Exchange Administrator role in the Microsoft 365 Admin Center.
 
 To create and configure the shared mailbox, follow these steps.
 1. Sign in to the [Microsoft 365 Admin Center](https://admin.microsoft.com/) by using an Exchange Admin account.
@@ -226,16 +226,16 @@ To create and configure the shared mailbox, follow these steps.
 1. Select **Close**.
     
 > [!NOTE]
-> The email address of the shared mailbox is used in the next step. After the shared mailbox is set up, you must provide its email address and the folder path (by default set to Inbox) as environment variables when you configure the Time and Expense Agent. Learn more in **Step 5: Set up the Expense Entry feature of the Time and Expense Agent**. 
+> The email address of the shared mailbox is used in the next step. After the shared mailbox is set up, you must provide its email address and the folder path (by default set to Inbox) as environment variables when you configure the Time and Expense Agent. Learn more in **Step 5: Set up the Expense Agent**. 
 
-### Step 5: Set up the Expense Entry feature of the Time and Expense Agent
+### Step 5: Set up the Expense Agent
 
-You have two options for setting up the Expense Entry feature of the Time and Expense Agent:
+You have two options for setting up the Expense Agent:
 - **Option A:** Use a PowerShell Script **(recommended)**
 - **Option B:** Do manual setup in Power Apps (no PowerShell)
 
 > [!IMPORTANT]
-> Before proceeding with the installation of the Expense Entry agent, ensure that agent is provisioned successfully in the Microsoft Copilot Studio.
+> Before proceeding with the installation of the Expense Agent, ensure that agent is provisioned successfully in the Microsoft Copilot Studio.
 > 
 > To verify the agent is provisioned successfully, follow these steps.
 > 1. Sign in to Microsoft Copilot Studio and select your environment.
@@ -245,7 +245,7 @@ You have two options for setting up the Expense Entry feature of the Time and Ex
 > 1. Repeat these steps to verify **Expense Entry Agent (Preview)** is enabled.
 
 > [!TIP]
-> If provisioning of the Copilot finance and operations app takes longer than 5–6 hours, it's recommended to uninstall and reinstall the app to resolve potential setup delays. Learn how to uninstall in the _Uninstall Expense entry feature_ section at the end of this article.
+> If provisioning of the Copilot finance and operations app takes longer than 5–6 hours, it's recommended to uninstall and reinstall the app to resolve potential setup delays. Learn how to uninstall in the _Uninstall Expense Agent_ section at the end of this article.
 
 
 #### Option A: Use a PowerShell script (recommended)
@@ -923,11 +923,11 @@ Wait for the script to run completely and look for a message **Agent setup compl
 > - Publish the required Copilot agents.
 > - Publish the Dataverse solution.
 
-After the script runs successfully, the Expense Entry feature of the Time and Expense Agent is fully configured and ready to use.
+After the script runs successfully, Expense Agent is fully configured and ready to use.
 
 ### Option B: Do manual setup in Power Apps (no PowerShell)
 
-If you prefer not to use the PowerShell script, you can manually configure the Expense Entry feature of the Time and Expense Agent through Power Apps. This process involves updating environment variables, enabling Power Automate flows, and publishing the solution.
+If you prefer not to use the PowerShell script, you can manually configure the Expense Agent through Power Apps. This process involves updating environment variables, enabling Power Automate flows, and publishing the solution.
 
 #### Update environment variables
 
@@ -945,7 +945,7 @@ To update environment variables, follow these steps.
 
 #### Enable Power Automate flows
 
-The Expense Entry feature of the Time and Expense Agent relies on the following Power Automate flows:
+The Expense Agent relies on the following Power Automate flows:
 
 - Expense entry retry check
 - Expense configuration
@@ -982,11 +982,11 @@ After you finish configuring all environment variables and flows, follow these s
 1. Select your environment and solution.
 1. Select **Publish all customizations**.
 
-After you complete these steps, the Expense Entry feature of the Time and Expense Agent is fully configured and ready to use.
+After you complete these steps, the Expense Agent is fully configured and ready to use.
 
-### Step 6: Enable the Expense Entry feature in Microsoft Teams (Optional)
+### Step 6: Enable the Expense Agent in Microsoft Teams (Optional)
 
-To enable Teams-based communication through the Expense Entry feature of the Time and Expense Agent, you must add the Teams channel to the agent in Power Apps. The agent can then send adaptive cards and receive input via Teams.
+To enable Teams-based communication for the Expense Agent, you must add the Teams channel to the agent in Power Apps. The agent can then send adaptive cards and receive input via Teams.
 
 #### Enable the Teams channel
 
@@ -1020,11 +1020,11 @@ To publish the app in the Teams admin center, follow these steps.
 
 Learn more in [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
 
-With these steps completed, your **Expense Entry feature in the Time and Expense Agent** is now fully set up and ready to go.
+With these steps completed, your **Expense Agent** is now fully set up and ready to go.
 
-## Uninstall Expense entry feature 
+## Uninstall Expense Agent 
 
-To **uninstall** the expense entry feature of the Time and Expense Agent, follow these steps.
+To **uninstall** the Expense Agent, follow these steps.
 
 1. Sign in to Microsoft Power Apps maker portal
 1. Select **Solutions**, search for **msdyn_ExpenseAI**, select the three dots, and select **Delete**.
