@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Set up the Expense Entry feature of the Time and Expense Agent (preview)
+# Set up the Expense Agent feature of the Time and Expense Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
@@ -44,7 +44,6 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 | System | Role | Comments |
 |---|---|---|
 | Power Platform admin center | System administrator | <ol><li>Go to [Power Platform admin center](https://admin.powerplatform.com/)</li> <li>Go to **Manage** on the left pane. Select **Environments**, and then select your environment.</li> <li>On the **Access** > **Users** section, select **See all**.</li> <li>Select a user then select **Manage roles**, and add the role.</li></ol> |
-| Finance and operations | System administrator | <ol><li>Open the finance and operations URL for your environment environment.</li> <li>Go to **Module** > **System** **administration** > **Users**, and select a user.</li> <li>Select **Add role** – System administrator.</li></ol> |
 | Finance and operations | System administrator | <ol><li>Open the finance and operations URL for your environment environment.</li> <li>Go to **Module** > **System** **administration** > **Users**, and select a user.</li> <li>Select **Add role** – System administrator.</li></ol> |
 | Microsoft 365 | Exchange Administrator and User Administrator | <ol><li>Go to [Microsoft 365 admin center](https://admin.microsoft.com/).</li> <li>Go to **Users** > **Active Users** > select the user.</li> <li>Select **Manage Roles**, then from **Roles** select **Exchange Administrator**.</li> <li>**Save** the changes.</li> <li>Follow same steps to add the **User Administrator** role.</li></ol> |
 | Teams admin center | Teams Administrator | Required if you plan to enable Microsoft Teams integration |
@@ -83,7 +82,7 @@ To install the required app, follow these steps.
 > 1. Verify the **Result** field.    
 >    1. If the result shows Success, the package was installed correctly.  
 >    1. If the result doesn't show Success, the installation failed.    
-> 1. If the installation fails, then Delete msdyn_FnOCopilotAnchor (learn more in the uninstall section) and install Copilot for finance and operations apps again.  
+> 1. If the installation fails, then Delete msdyn_FnOCopilotAnchor (learn more in the uninstall section) and install Copilot for finance and operations apps again.
 
 ### Step 2: Enable the agent features in your environment
 
@@ -203,7 +202,7 @@ To assign access to the shared mailbox access, follow these steps.
 | Environment | Roles | Comments |
 |---|---|---|
 | Dataverse | <li>Expense AI Agent Role <li>finance and operations Agent Configuration Manager <li>System Customizer | The mentioned roles enable the agent to interact with Power Automate flows, environment variables, and virtual entities that are connected to Dynamics 365 Finance|
-| Finance and operations | System administrator | This role is required for the agent to create and manage expense entries in the finance and operations apps environment. |
+| Finance and operations | <li>ExpenseAgentRole <li>System user | This role is required for the agent to create and manage expense entries in the finance and operations apps environment. <br> <br/> _Note: ExpenseAgentRole will be available in the Finance and Operations version from **10.0.44 (10.0.2263.81)** and **10.0.45 (10.0.2345.6)** and with **Copilot for finance and operations apps** version **1.0.3121.1**_ |
 | Shared mailbox access using Graph explorer | Mail.Read.Shared | Microsoft Graph permission that allows the agent to read receipts from the configured shared mailbox during flow execution| 
 
 
