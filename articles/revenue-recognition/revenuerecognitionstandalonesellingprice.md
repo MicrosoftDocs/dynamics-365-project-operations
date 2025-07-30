@@ -97,39 +97,47 @@ To calculate the revenue recognition based upon standalone selling price for con
 For project contracts in **foreign currency**, the **Contract standalone selling price** and **Total contract standalone selling price** are calculated using the exchange rate applicable on the revenue calculation date. 
 In contrast, the **Total Contract Value** (milestone amount) is determined using the exchange rate for each milestone if it is not yet billed, and the invoice exchange rate if it has already been billed.
 
+### Elimination
 Once the project contract or contract line work is **complete**, then revenue recognition project needs to be **eliminated**. During the **Elimination** process if there is a variance between the posted accrued revenue and the invoiced revenue then the differential is posted
 to the **contract variance account**. Financial dimensions are fetched from the project or the contract line based upon the financial dimension configurations.
 
-### Example scenario
+## Example scenario
 
-Contoso systems awarded one contract to implement business applications for one of its customers. Per the agreement, the whole implementation is divided into the following phases:
+Contoso systems awarded one contract to implement business applications for one of its customers. Per the agreement, the whole implementation is divided into the following phases. For each phase, project manager has completed the estimation/forecast.
 
-1. **License Fee** – Fixed price. The Contoso Finance team decided to accrue the revenue based on the straight line method.
-1. **Analysis** – Fixed price. The Contoso Finance team decided to accrue the revenue based on the completed contract method.
-1. **Implementation** – Fixed price. The Contoso Finance team decided to accrue the revenue based on the completed percentage method.
-1. **Post go-live support** – Fixed Price. The Contoso Finance team decided to accrue the revenue based on the straight line method.
 
-In Project Operations on Dataverse, a new project and a new project contract are created for the customer.
+| Contract line         | Milestone amount  | Standalone selling price  | Allocated revenue (Standalone selling price/Total standalone selling price for contract)*Total contract amount| Estimated cost
+|-----------------------|-------------------|---------------------------| ------------------| ------------------|
+| License Fee           | $ 50,000.00       | $ 100,000.00               | $ 90,000.00 (100,000/500,000)*450,000| $ 60,000 |
+| Implementation Fee    | $ 400,000.00      | $ 400,000.00               | $ 360,000.00 (400,000/500,000)*450,000|$ 240,000 |
 
-The following illustration shows the project that's created in Dataverse. Multiple tasks are associated with this project.
+As revenue recongition is configured for each contract line, two revenue recogntion projects are created in **Dynamics 365 Finance**, one revenue recognition project for each line. Project accountant configures the financial dimension for each project or for each contract lines based upon organization policies.
 
-![Summary tab of the project page for the Business Software Implementation example project, showing the different project stages.](../media/DataverseProject.png)
+In the subsequent months, consultants record timesheets and other project-related expenses in Dynamics 365 Project Operations. These entries are then financially posted into Dynamics 365 Finance. The project accountant executes the revenue recognition process to assess project progress, calculate accrued revenue, and post the corresponding financial transactions.
 
-The following illustration shows the project contract that's created in Dataverse.
+### Revenue recognition for period 1
+| Revenue Recognition project | Contract amount   | Standalone selling price  | Total standalone selling price| Total contract value (Milestone) | Allocated revenue | Cost for the period | Percentage complete (Total cost/Estimated cost) | Accrued revenue for the month (% complete * Allocated revenue) |
+|-----------------------|-------------------|---------------------------| ------------------| ------------------|-------------------|---------------------------| ------------------| ------------------|
+| License Fee           | $ 50,000.00       | $ 100,000.00               | $ 500,000 | $ 450,000 | $90,000 |  $ 45,000   | 75.00% | $67,500 |
+| Implementation Fee    | $ 400,000.00      | $ 400,000.00               | $ 500,000 | $ 450,000 | $360,000 | $ 120,000  | 50.00% | $180,000|
 
-![Summary tab of the project contract page for the example project.](../media/DataverserContract.png)
+### Revenue recognition for period 2
+| Revenue Recognition project | Contract amount   | Standalone selling price  | Total standalone selling price| Total contract value (Milestone) | Allocated revenue | Cost for the period | Percentage complete (Total cost/Estimated cost) | Accrued revenue for the month (% complete * Allocated revenue) |
+|-----------------------|-------------------|---------------------------| ------------------| ------------------|-------------------|---------------------------| ------------------| ------------------|
+| License Fee           | $ 50,000.00       | $ 100,000.00               | $ 500,000 | $ 450,000 | $90,000 |  $ 15,000   | 100.00% | $22,500 |
+| Implementation Fee    | $ 400,000.00      | $ 400,000.00               | $ 500,000 | $ 450,000 | $360,000 | $ 60,000  | 75.00% | $90,000|
 
-The following illustration shows the project contract lines that are created in Dataverse. Four contract lines are created, one for each phase of the project. Each contract line uses the **Fixed price** billing method.
+### Revenue recognition for period 3 
+| Revenue Recognition project | Contract amount   | Standalone selling price  | Total standalone selling price| Total contract value (Milestone) | Allocated revenue | Cost for the period | Percentage complete (Total cost/Estimated cost) | Accrued revenue for the month (% complete * Allocated revenue) |
+|-----------------------|-------------------|---------------------------| ------------------| ------------------|-------------------|---------------------------| ------------------| ------------------|
+| License Fee           | $ 50,000.00       | $ 100,000.00               | $ 500,000 | $ 450,000 | $90,000 |  $ 0   | 100.00% | $0 |
+| Implementation Fee    | $ 400,000.00      | $ 400,000.00               | $ 500,000 | $ 450,000 | $360,000 | $ 60,000  | 100.00% | $90,000|
 
-![Lines on the Contract Lines tab of the project contract page for the example project.](../media/Dataversecontractlines.png)
+At the **end of Period 3**, once all deliverables are completed and accepted by the customer, the project accountant initiates the **elimination** of the **revenue recognition project**. During the elimination posting process, if a **variance** exists between the **milestone** or **invoice amount** and the **accrued revenue** posted for each contract line, the system posts the difference to the **contract variance account** configured in the Project Management and Accounting parameters.
 
-The following illustration shows the fixed price revenue estimate projects in Dynamics 365 Finance. For each project contract line that was created in Dataverse (as shown in the previous illustration), one fixed price revenue estimate project is created in Dynamics 365 Finance.
+In the above example, for the **license fee**, - $40,000—representing the difference between the total accrued amount posted and the milestone amount—is posted to the **contract variance account**. 
 
-![Projects on the Fixed price revenue estimate projects page in Dynamics 365 Finance.](../media/FinanceRevRecProjects.png)
-
-The following illustration show the **Revenue projects** page for the project's **Implementation** phase. On this page, set the **Default project** and **Project cost and revenue profile** fields. A default project is required to post the accrued revenue amounts that affect the project subledger. A project cost and revenue profile is required to identify the revenue recognition accounting rule that's applicable to the revenue project.
-
-![Revenue projects page for the Implementation phase of the example project.](../media/FinanceRevRecProjectdetails.png)
+Similarly, for the **implementation fee**, $40,000—representing the same type of variance—is also posted to the **contract variance account**."
 
 ## Recommended content
 
