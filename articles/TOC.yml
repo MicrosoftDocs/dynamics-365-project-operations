@@ -750,7 +750,7 @@
   items:
   - name: Get started
     items:
-    - name: Project Operations for resource/non- based scenarios deployment overview
+    - name: Project Operations Integrated with ERP overview
       href: environment/project-operations-integrated-deployment-overview.md
     - name: Sign up for a preview subscription 
       href: environment/resource-sign-up-preview-subscription.md

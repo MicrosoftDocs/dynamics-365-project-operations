@@ -39,7 +39,7 @@ Project Operations supports multiple deployment options to match your requiremen
 Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will help you determine the right deployment. The results will guide you toward one of the following deployment types:
 
 - [Project Operations Core] (#lite)
-- [Project Operations Integrated with ERP scenarios](#integrated)
+- [Project Operations Integrated with ERP](#integrated)
 - [Project Operations for manufacturing](#pma)
 
 Project Operations support stocked/production order scenarios and non-stocked/resource-based scenarios on the same environment through legal entity-level configurations. For example, Contoso can use the stocked/production order capabilities in their US manufacturing facility (Legal entity = Contoso Manufacturing United States). Contoso can use the non-stocked/resource-based capabilities in their Contoso Robotics Arms servicing facility in UK (Legal entity = Contoso Robotics United Kingdom).
@@ -65,8 +65,8 @@ Determine the best deployment model of Project Operations using the [Deployment 
 For this deployment, see [Sign-up for preview subscriptions](Project Operations Core-preview-subscription-sign-up.md) and [Provision new environment](lite-deployment.md). 
 
 
-### <a name="integrated"></a>Project Operations Integrated with ERP scenarios
-The Project Operations Integrated with ERP scenarios includes the following capabilities:
+### <a name="integrated"></a>Project Operations Integrated with ERP
+The Project Operations Integrated with ERP includes the following capabilities:
  
 - Sales process for projects that extends the Dynamics 365 Sales application
 - Project planning using Microsoft Project for the Web
