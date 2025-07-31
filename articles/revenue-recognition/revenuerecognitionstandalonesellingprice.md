@@ -1,6 +1,6 @@
 ---
-title: Contract line-based revenue recognition with Project operations
-description: This article provides information about contract lines based revenue recognition in Project Operations.
+title: Revenue Recognition for Fixed-Price Projects Using Standalone Selling Price in Project Operations.
+description: This article provides an overview of revenue recognition for fixed-price projects in Project Operations, using standalone selling price assigned to each contract line.
 author: mukumarm
 ms.date: 8/1/2025
 ms.topic: overview
@@ -19,20 +19,28 @@ This feature enables users to track the **standalone selling price** for each **
 
 To use this feature, activate **Contract line based revenue recognition**, **Separate contract value from billing milestones** and provide **Contract variance account** in **Project management and accounting parameters** on the Revenue recognition tab.
 
+When this feature is enabled, **Dynamics 365 Finance** generates the revenue recognition based upon standalone selling price and propotioned revenue considering the project contract value. All older projects or revenue recognition projects can be managed.
+
 > [!NOTE]
 > This feature is dependent on **contract line-based revenue recognition** and is applicable only when revenue recognition is calculated exclusively in the **accounting currency**.
-
-When this feature is enabled, **Dynamics 365 Finance** generates the revenue recognition based upon standalone selling price and propotioned revenue considering the project contract value. All older projects or revenue recognition projects can be managed.
+> 
+> This feature is currently in **public preview**
 
 ## Prerequisite
 
-### Versions
+### Minimum versions required
+To use the feature for Project Operations integrated deployments, you must have the following versions:
 
-**Dynamics 365 Finance** - 10.0.45
+**Dynamics 365 Finance version** - 10.0.45 update 69, Application suite version 10.36.2771 or later
 
-**Dynamics 365 Project operations** - XXXXXXXXXX
+**Project Operations Dataverse version** - 4.145.0.X or later
 
-### Dual write maps
+### Run dual-write maps
+This section provides information about the specific maps that are required.
+| Dual-write map        | Version  |
+|-----------------------|-------------------|
+| Project contract lines (salesorderdetails)           | 1.0.0.2 |
+
 
 ## Project contract lines
 ### Standalone selling price on contract lines
@@ -66,7 +74,7 @@ The information in the project is based on these attributes.
 - An associated project
 - At least one milestone that's defined on the **Invoice schedule** tab of the **Project contract line** page
 
-### Review estimate projects
+### Review revenue recognition projects
 To review **fixed price revenue estimate projects**, follow these steps.
 
 1. In the Dynamics 365 Finance environment, go to **Project management and accounting** \> **Projects** \> **Fixed price revenue estimate projects**.
