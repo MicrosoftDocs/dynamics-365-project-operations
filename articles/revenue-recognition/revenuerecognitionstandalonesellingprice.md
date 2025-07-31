@@ -19,7 +19,7 @@ This feature enables users to track the **standalone selling price** for each **
 
 To use this feature, activate **Contract line based revenue recognition**, **Separate contract value from billing milestones** and provide **Contract variance account** in **Project management and accounting parameters** on the Revenue recognition tab.
 
-When this feature is enabled, **Dynamics 365 Finance** generates the revenue recognition based upon standalone selling price and propotioned revenue considering the project contract value. All older projects or revenue recognition projects can be managed.
+When this feature is enabled, **Dynamics 365 Finance** generates revenue recognition based upon standalone selling price and proportioned revenue considering the project contract value. All older projects or revenue recognition projects can be managed.
 
 > [!NOTE]
 > This feature is dependent on **contract line-based revenue recognition** and is applicable only when revenue recognition is calculated exclusively in the **accounting currency**.
@@ -63,7 +63,7 @@ To review the project contract lines or update other details in Dynamics 365 Fin
 
 1. In the Dynamics 365 Finance environment, go to **Project management and accounting** \> **Projects** \> **Project contracts**.
 1. On the Action Pane, select **Show default accounting**.
-1. Select the contract line in the drop-down list view the **standalong selling price** and to enter the **default financial dimensions** that are applicable to the contract line.
+1. Select the contract line in the drop-down list view the **standalone selling price** and enter the **default financial dimensions** that are applicable to the contract line.
 1. If the **Straight line revenue recognition** principal is applied on the revenue recognition project for the selected contract line, specify the start date and end date. The start date and end date are used to calculate the number of days that are required for the **Straight line revenue recognition** principal.
 
 ## Review fixed price revenue estimate projects
@@ -80,11 +80,10 @@ To review **fixed price revenue estimate projects**, follow these steps.
 1. In the Dynamics 365 Finance environment, go to **Project management and accounting** \> **Projects** \> **Fixed price revenue estimate projects**.
 2. Select the revenue project that you want to view, and then double-tap (or double-click) the **Estimate project ID** value to open the record and review the details of the project.
 3. Validate that the **Separate Contract Value from billing milestone** option is **enabled** by default. Revenue recognition is calculated using the **separate contract value allocation method**. Users may choose to disable this option; however, it must be ensured that the option is consistently disabled across all contract lines.
-4. In the header, select the **default project** used to post the estimated revenue recognition amount.All required financial postings are generated for the project defined in the revenue recognition project header. Dynamics 365 Finance retrieves the financial dimensions from the project and uses them to record the financial transactions to revenue recognition.
+4. In the header, select the **default project** used to post the estimated revenue recognition amount. All required financial postings are generated for the project defined in the revenue recognition project header. Dynamics 365 Finance retrieves the financial dimensions from the project and uses them to record the financial transactions to revenue recognition.
 5. On the header, select the cost template. This template is used to do the required calculations, such as completed percentage, completed contract, or straight line.
 6. Select the **Contract line** tab. There should be one contract line in the **Selected contract lines** grid. This line serves as the default contract line for which the revenue recognition project is created.
-7. To change the association, select other contract lines, and add them to the Selected contract lines grid. If multiple contract lines are selected in this grid,
-   the percentage completion and revenue estimates are calculated together for all selected **contract lines**.
+7. To change the association, select other contract lines, and add them to the Selected contract lines grid. If multiple contract lines are selected in this grid, the percentage completion and revenue estimates are calculated together for all selected **contract lines**.
 
     > [!NOTE]
     > For the **Straight line revenue recognition** principal, only one contract line is applicable to each revenue recognition project. Therefore, when you use the **Straight line revenue recognition** principal, you can't add multiple contract lines for a single revenue recognition project.
@@ -96,7 +95,7 @@ To calculate the revenue recognition based upon standalone selling price for con
 
 1.  **Contract standalone selling price** is automatically derived from the contract lines. If multiple contract lines are associated with the revenue recognition project, the system aggregates the standalone selling prices from all lines and displays the total on the form.
 2.  **Total contract standalone selling price** represents the sum of the standalone selling prices for all contract lines linked to the project contract.
-3.  **Accrued revenue** is calculated by using below formula:
+3.  **Accrued revenue** is calculated by using the following formula:
 
     **Allocated revenue** = (Contract Standalone Selling Price/Total Contract Standalone Selling Price) * Total contract value where **Total contract value** is the sum of milestones for the entire project contract.
 
@@ -119,7 +118,7 @@ Contoso systems awarded one contract to implement business applications for one 
 | License Fee           | $ 50,000.00       | $ 100,000.00               | $ 90,000.00 (100,000/500,000)*450,000| $ 60,000 |
 | Implementation Fee    | $ 400,000.00      | $ 400,000.00               | $ 360,000.00 (400,000/500,000)*450,000|$ 240,000 |
 
-As revenue recongition is configured for each contract line, two revenue recogntion projects are created in **Dynamics 365 Finance**, one revenue recognition project for each line. Project accountant configures the financial dimension for each project or for each contract lines based upon organization policies.
+As revenue recognition is configured for each contract line, two revenue recognition projects are created in **Dynamics 365 Finance**, one revenue recognition project for each line. Project accountant configures the financial dimension for each project or for each contract line based upon organization policies.
 
 In the subsequent months, consultants record timesheets and other project-related expenses in Dynamics 365 Project Operations. These entries are then financially posted into Dynamics 365 Finance. The project accountant executes the revenue recognition process to assess project progress, calculate accrued revenue, and post the corresponding financial transactions.
 
@@ -152,4 +151,4 @@ Similarly, for the **implementation fee**, $40,000—representing the same type 
 - [Project contract lines overview](../pro/sales/manage-contract-values-project-based-sales.md) – This article provides an overview of project contract lines.
 - [Map projects and tasks to a project contract line](../pro/sales/mapping-projects-tasks-contract-line-sales.md) – This article provides an overview of mapping projects and tasks to a project contract line.
 - [Manage revenue estimates](rev-rec-completed-contract-method.md) – This article provides an overview of managing and running the revenue recognition estimates.
-- [Manage revenue recognition for contract lines](Revenuerecogntionforcontractlines.md) – This article provides an overview of revenue recogntion for contract lines.
+- [Manage revenue recognition for contract lines](Revenuerecogntionforcontractlines.md) – This article provides an overview of revenue recognition for contract lines.
