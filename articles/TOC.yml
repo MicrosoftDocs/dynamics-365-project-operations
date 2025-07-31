@@ -1607,7 +1607,9 @@
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md  
     - name: Manage revenue recognition for contract lines
-      href: revenue-recognition/Revenuerecogntionforcontractlines.md  
+      href: revenue-recognition/Revenuerecogntionforcontractlines.md 
+    - name: Revenue recognition based on contract standalone selling price
+      href: revenue-recognition/revenuerecognitionstandalonesellingprice.md
   - name: Advanced configuration
     items:
     - name: Migrate fully invoiced billing milestones during cutover
