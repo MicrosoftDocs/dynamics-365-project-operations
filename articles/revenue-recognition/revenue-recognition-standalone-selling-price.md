@@ -15,9 +15,9 @@ _**Applies To:** Project Operations Integrated with ERP_
 In **revenue recognition**, fixed-price billing arrangements are typically defined using billing **milestones** to establish the **contract value**. However, customers may require a separate calculation 
 for contract value that is **independent** of billing milestones—particularly in scenarios where **additional effort or resources** are needed to complete a fixed-price project, or when a contract line is subject to a **discount**.
 
-This feature enables users to track the **standalone selling price** for each **contract line item**. It is utilized in the **revenue allocation** process, where revenue is distributed **proportionally** based on the ratio of each line item's **standalone selling price** to the **total contract standalone selling price**.
+This feature enables users to track the **standalone selling price** for each **contract line item**. It's utilized in the **revenue allocation** process, where revenue is distributed **proportionally** based on the ratio of each line item's **standalone selling price** to the **total contract standalone selling price**.
 
-To use this feature, activate **Contract line based revenue recognition**, **Separate contract value from billing milestones** and provide **Contract variance account** in **Project management and accounting parameters** on the Revenue recognition tab.
+To use this feature, activate **Contract line based revenue recognition**, **Separate contract value from billing milestones**, and provide **Contract variance account** in **Project management and accounting parameters** on the Revenue recognition tab.
 
 When this feature is enabled, **Dynamics 365 Finance** generates revenue recognition based upon standalone selling price and proportioned revenue considering the project contract value. All older projects or revenue recognition projects can be managed.
 
@@ -37,9 +37,10 @@ To use the feature for Project Operations integrated deployments, you must have 
 
 ### Run dual-write maps
 This section provides information about the specific maps that are required.
+
 | Dual-write map        | Version  |
 |-----------------------|-------------------|
-| Project contract lines (salesorderdetails)           | 1.0.0.2 |
+| Project contract lines (salesorderdetails) | 1.0.0.2 |
 
 
 ## Project contract lines
@@ -50,7 +51,7 @@ To generate the revenue recognition with standalone selling price for each contr
 1. In **Dynamics 365 project operations**, Go to **Sales** area.
 2. Open **Project contracts** form.
 3. Click **New** to create a new project contract.
-4. Enter Name, Customer, Product price list and other required details. Click **Save**.
+4. Enter Name, Customer, Product price list, and other required details. Click **Save**.
 5. Go to **Contract lines** tab.
 6. Click **New** to create a new contract line.
 7. Select **Fixed price** billing method and enter **standalone selling price** for the contract line.
@@ -88,7 +89,7 @@ To review **fixed price revenue estimate projects**, follow these steps.
     > [!NOTE]
     > For the **Straight line revenue recognition** principal, only one contract line is applicable to each revenue recognition project. Therefore, when you use the **Straight line revenue recognition** principal, you can't add multiple contract lines for a single revenue recognition project.
 
-The **Project cost**, **Revenue profile**, **Cost template**, and **Period code** fields can be set manually. If they aren't set manually, default values are entered during the first estimate calculation for the project by using the rules that are configured for project cost and revenue profiles.
+The **Project cost**, **Revenue profile**, **Cost template**, and **Period code** fields can be set manually. If they aren't set manually, the default values are entered during the first estimate calculation for the project using the rules that are configured for the project cost and revenue profiles.
 
 ### Revenue recognition calculation
 To calculate the revenue recognition based upon standalone selling price for contract lines, new fields **Contract standalone selling price** and **Total contract standalone selling price** are added.
@@ -102,10 +103,10 @@ To calculate the revenue recognition based upon standalone selling price for con
     **Accrued revenue** = Allocated revenue * percentage complete.
     
 For project contracts in **foreign currency**, the **Contract standalone selling price** and **Total contract standalone selling price** are calculated using the exchange rate applicable on the revenue calculation date. 
-In contrast, the **Total Contract Value** (milestone amount) is determined using the exchange rate for each milestone if it is not yet billed, and the invoice exchange rate if it has already been billed.
+In contrast, if it isn't billed yet, the **Total Contract Value** (milestone amount) is determined using the exchange rate for each milestone, and the invoice exchange rate if itwas billed.
 
 ### Elimination
-Once the project contract or contract line work is **complete**, then revenue recognition project needs to be **eliminated**. During the **Elimination** process if there is a variance between the posted accrued revenue and the invoiced revenue then the differential is posted
+Once the project contract or contract line work is **complete**, then revenue recognition project needs to be **eliminated**. During the **Elimination** process, if there's a variance between the posted accrued revenue and the invoiced revenue the differential is posted
 to the **contract variance account**. Financial dimensions are fetched from the project or the contract line based upon the financial dimension configurations.
 
 ## Example scenario
@@ -142,7 +143,7 @@ In the subsequent months, consultants record timesheets and other project-relate
 
 At the **end of Period 3**, once all deliverables are completed and accepted by the customer, the project accountant initiates the **elimination** of the **revenue recognition project**. During the elimination posting process, if a **variance** exists between the **milestone** or **invoice amount** and the **accrued revenue** posted for each contract line, the system posts the difference to the **contract variance account** configured in the Project Management and Accounting parameters.
 
-In the above example, for the **license fee**, - $40,000—representing the difference between the total accrued amount posted and the milestone amount—is posted to the **contract variance account**. 
+In the previous example, for the **license fee**, - $40,000—representing the difference between the total accrued amount posted and the milestone amount—is posted to the **contract variance account**. 
 
 Similarly, for the **implementation fee**, $40,000—representing the same type of variance—is also posted to the **contract variance account**."
 
