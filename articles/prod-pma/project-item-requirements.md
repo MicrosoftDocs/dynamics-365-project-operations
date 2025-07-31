@@ -41,7 +41,7 @@ You create item requirements from the **Plan** tab in a project, or by going to 
 
 The **Item requirements** page is a streamlined version of the **Sales order** page. Required functions are available on the Action Pane.
 
-Previously, item requirements were always managed through a single sales order header. In general, most item requirements will continue to add lines to a single header, even if all previous lines were invoiced. However, in some situations, multiple headers will be created. For example, if there are multiple funding sources, a unique header is created for each funding source.
+Previously, item requirements were always managed through a single sales order header. In general, most item requirements add lines to a single header, even if all previous lines were invoiced. However, in some situations, multiple headers will be created. For example, if there are multiple funding sources, a unique header is created for each funding source.
 
 ## Post the packing slip for item requirements
 
@@ -54,13 +54,13 @@ In the 10.0.33 release, you can cancel a packing slip for item requirements. To 
 The packing slip cancellation feature provides the following functionality:
 
 - Packing slips can be canceled for item requirements that aren't connected to a production order or purchase order that a packing slip was posted for while the feature was enabled. Connected item requirements and packing slips that were previously posted continue to behave as if the feature isn't enabled.
-- Newly posted packing slips for item requirements that aren't connected to a production or purchase order use the new behavior. Eventually, a product receipt cancellation feature will modify the posting behavior of item requirements that are connected to purchase orders.
+- Newly posted packing slips for item requirements that aren't connected to a production or purchase order use the new behavior. The related **Enable project purchase order product receipt cancellation with linked item requirements** feature modifies the posting behavior of item requirements that are connected to purchase orders.
 - The way that financial posting is done for stocked item requirements now closely resembles sales order posting. For more information, see [table 1](#table1).
 - The way that inventory is posted for stocked items is changed. For more information, see [table 2](#table2).
 - The line status of stocked item requirements that have a posted packing slip is now **Delivered** instead of **Invoiced**.
 - The packing slip journal can now be accessed from the item requirement page on the **Inquiries** navigation menu, so that you can view and cancel the packing slip.
 - A new packing slip ID field is added, and the packing slip ID is visible on the **Posted project transactions** page. Therefore, you can filter the transactions and view the original transaction and reversal from the cancellation together.
-- Other entries for project cost appear in posted project transactions and the general ledger. The project cost is initially posted during packing slip posting. However, it's then reversed and posted again during invoicing. These amounts might be the same, or they might change if inventory determines that project cost has changed. 
+- Other entries for project cost appear in posted project transactions and the general ledger. The project cost is initially posted during packing slip posting. However, it's reversed and posted again during invoicing. These amounts might be the same, or they might change if inventory determines that project cost changed.
 
 The following functionality was added in the 10.0.35 release:
 
@@ -88,7 +88,7 @@ The following functionality was added in the 10.0.35 release:
 
 #### Limitations of item requirement cancellation
 
-- If the feature is used with nonchargeable lines for stocked items or fixed price projects, transactions and amounts are left in the **Cost of units, delivered** posting type and the associated account. Because these transactions can't be invoiced, the amounts aren't moved to the **Cost of units, invoiced** posting type. This limitation has been addressed with the new finalizaiton feature.
+- If the feature is used with nonchargeable lines for stocked items or fixed price projects, transactions and amounts are left in the **Cost of units, delivered** posting type, and the associated account. Because these transactions can't be invoiced, the amounts aren't moved to the **Cost of units, invoiced** posting type. This limitation is addressed with the new finalization feature.
 - Packing slips can't be canceled if the transaction was previously invoiced, or if it was invoiced and then returned through a credit note.
 
 #### Demo data issues to consider
@@ -101,24 +101,24 @@ To fix the issue, go to **Number sequences**, filter for number sequence code **
 
 ### Finalize uninvoiced stocked items
 
-A new preview feature in 10.0.45 removes the limitation of not being able to finalize or complete stocked item requirements that can't be invoiced. To use the new functionality, enable the **Finalize uninvoiced stocked items** feature in the **Feature management** workspace. The feature will only update transactions that are in a non-chargeable state from the **Enable packing slip cancellation for item requirements** feature.
+A new preview feature in the 10.0.45 release removes the limitation of not being able to finalize or complete stocked item requirements that can't be invoiced. This feature finalizes the transaction, which performs the same steps that would occur within inventory during customer invoicing. To use the new functionality, enable the **Finalize uninvoiced stocked items** feature in the **Feature management** workspace. The feature only updates transactions that are in a non-chargeable state because of the **Enable packing slip cancellation for item requirements** feature.
 
-Item requirements that are stocked items and meet any of the critiera below will require finalization:
+Item requirements that are stocked items that meet any criteria below require finalization:
 
 - The line property for chargeable is set to non-chargeable.
-- The project group doesn't allow for invoicing. This includes project types such as as fixed price projects, investment projects, and internal projects.
-- The project contract uses billing rules and a billing rule overrides the line property to make a transaction category non-chargeable.
+- The project group doesn't allow for invoicing. This scenario includes project types such as fixed price projects, investment projects, and internal projects.
+- The project contract uses billing rules, which overrides the line property to make a transaction category non-chargeable.
 
 To finalize an item requirement, users should:
 
-1. Open the **Item requirements** form and enable the new **Uninvoiced stocked items** filter. This filter will show both stocked and non-stocked item requirements that meet one of the three non-chargeable criteria above.
-2. Users can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized the process won't error if chargeable transactions are selected.
-3. In the Manage tab of the ribbon, click **Finalize delivered quantity** and confirm the delivery end date for the list of packing slips and their corresponding dates to consider for finalization. You can get details on the specific packing slips from the Inquiries button in the ribbon and clicking into **Packing slip journal**
-4. A warning will appear that will require confirming that the packing slips can no longe4 be cancelled after finalization.
+1. Open the **Item requirements** form and enable the new **Uninvoiced stocked items** filter. This filter shows both stocked and non-stocked item requirements that meet one of the three non-chargeable criteria listed previously. Only stocked items go through the finalization process.
+2. Users can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized, the process won't error if chargeable transactions are selected.
+3. In the Manage tab of the ribbon, select **Finalize delivered quantity** and confirm the delivery end date for the list of packing slips and their corresponding dates to consider for finalization. You can get details on the specific packing slips from the **Inquiries** button in the ribbon and clicking into **Packing slip journal**
+4. A warning will appear that will require confirming that the packing slips can no longer be canceled after finalization.
 5. A finalization date is required for the date for the posting and the user can opt to post in batch for large volumes of data.
 
-Finalization will complete. The transactions will remain with a Nonchargeable invoice status, but the posting to **Cost of units, invoiced** posting type will be completed, inventory will have completed its financial posting, and the item requirement moved from open order to delivered status if all quantity for the item requirement was finalized.
+After the finalization process completes, the transactions continue to display a non-chargeable invoice status, but the posting from **Cost of units, delivered** to **Cost of units, invoiced** posting types completed, inventory completed its financial posting, and the item requirement moved from open order to delivered status if all quantity was finalized. The transactions are considered in inventory close and recalculation.
 
-If there was a linked purchase order to the item requirement, then posting the vendor invoice or running inventory recalculation will generate price adjustments based on the inventory model when needed.
+If there was a linked purchase order to the item requirement, then posting a different price on the vendor invoice or running inventory recalculation generates price adjustments for the transaction.
 
-The finalization number sequence uses the same number sequence that project invoicing uses.
+The finalization number sequence uses the same number sequence as project invoicing.
