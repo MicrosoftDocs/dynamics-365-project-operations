@@ -18,7 +18,7 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-In revenue recognition, fixed-price billing arrangements are typically defined using billing milestones to establish the contract value. However, customers may require a separate calculation for contract value that's independent of billing milestones. This requirement is particularly true in scenarios where additional effort or resources are needed to complete a fixed-price project or when a contract line is subject to a discount.
+In revenue recognition, fixed-price billing arrangements are typically defined using billing milestones to establish the contract value. However, customers may require a separate calculation for contract value that's independent of billing milestones, especially in scenarios where more effort or resources are needed to complete a fixed-price project or when a contract line is subject to a discount.
 
 This feature enables you to track the **Standalone selling price** for each contract line item. It's utilized in the revenue allocation process, where revenue is distributed proportionally based on the ratio of each line item's **Standalone selling price** to the **Total contract standalone selling price**.
 
@@ -31,7 +31,7 @@ When this feature is enabled, **Dynamics 365 Finance** generates revenue recogni
 
 ## Prerequisites
 
-To use revenue recognition based on contract standalone selling price, the following prerequisites must me met.
+To use revenue recognition based on contract standalone selling price, the following prerequisites must be met.
 
 ### Minimum versions required
 
@@ -51,7 +51,7 @@ This section provides information about the specific maps that are required.
 
 ## Project contract lines
 
-In this section, you will learn how to:
+In this section explains how to:
 
 - Add a standalone selling price on contract lines.
 - Review project contracts for contract lines.
@@ -131,7 +131,7 @@ Once the project contract or contract line work is **complete**, then revenue re
 
 ## Example scenario
 
-Contoso systems awarded one contract to implement business applications for one of its customers. Per the agreement, the whole implementation is divided into the following phases. For each phase, the Project Manager has completed the estimation.
+Contoso systems awarded one contract to implement business applications for one of its customers. Per the agreement, the whole implementation is divided into the following phases. For each phase, the project manager completes the estimation.
 
 
 | Contract line         | Milestone amount  | Standalone selling price  | Allocated revenue (Standalone selling price/Total standalone selling price for contract)*Total contract amount| Estimated cost
