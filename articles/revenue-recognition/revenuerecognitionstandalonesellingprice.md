@@ -59,7 +59,7 @@ To generate the revenue recognition with standalone selling price for each contr
 
 ### Review project contracts for contract lines
 
-To review the project contract lines or update additional details in Dynamics 365 Finance, follow these steps.
+To review the project contract lines or update other details in Dynamics 365 Finance, follow these steps.
 
 1. In the Dynamics 365 Finance environment, go to **Project management and accounting** \> **Projects** \> **Project contracts**.
 1. On the Action Pane, select **Show default accounting**.
@@ -72,7 +72,7 @@ The information in the project is based on these attributes.
 
 - A fixed price billing method
 - An associated project
-- At least one milestone that's defined on the **Invoice schedule** tab of the **Project contract line** page
+- At least one milestone is defined on the **Invoice schedule** tab of the **Project contract line** page.
 
 ### Review revenue recognition projects
 To review **fixed price revenue estimate projects**, follow these steps.
@@ -80,10 +80,10 @@ To review **fixed price revenue estimate projects**, follow these steps.
 1. In the Dynamics 365 Finance environment, go to **Project management and accounting** \> **Projects** \> **Fixed price revenue estimate projects**.
 2. Select the revenue project that you want to view, and then double-tap (or double-click) the **Estimate project ID** value to open the record and review the details of the project.
 3. Validate that the **Separate Contract Value from billing milestone** option is **enabled** by default. Revenue recognition is calculated using the **separate contract value allocation method**. Users may choose to disable this option; however, it must be ensured that the option is consistently disabled across all contract lines.
-4. On the header, select the default project that's required to post the estimated revenue recognition amount. All the required financial postings are generated for the project that's defined on the revenue recognition project header. Dynamics 365 Finance retrieves the financial dimensions from the project and uses them to record the financial transactions to revenue recognition.
+4. In the header, select the **default project** used to post the estimated revenue recognition amount.All required financial postings are generated for the project defined in the revenue recognition project header. Dynamics 365 Finance retrieves the financial dimensions from the project and uses them to record the financial transactions to revenue recognition.
 5. On the header, select the cost template. This template is used to do the required calculations, such as completed percentage, completed contract, or straight line.
-6. Select the **Contract line** tab. There should be one contract line in the **Selected contract lines** grid. This line is the default contract line that the revenue recognition project has been created for.
-7. To change the association, select additional contract lines, and add them to the **Selected contract lines** grid. If multiple contract lines are selected in this grid,
+6. Select the **Contract line** tab. There should be one contract line in the **Selected contract lines** grid. This line serves as the default contract line for which the revenue recognition project is created.
+7. To change the association, select other contract lines, and add them to the Selected contract lines grid. If multiple contract lines are selected in this grid,
    the percentage completion and revenue estimates are calculated together for all selected **contract lines**.
 
     > [!NOTE]
