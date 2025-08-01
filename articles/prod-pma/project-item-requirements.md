@@ -3,7 +3,7 @@ title: Project item requirements
 description: This article explains how to create project-based item requirements.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 05/24/2024
+ms.date: 08/01/2025
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -101,7 +101,7 @@ To fix the issue, go to **Number sequences**, filter for number sequence code **
 
 ### Finalize uninvoiced stocked items
 
-A new preview feature in the 10.0.45 release removes the limitation of not being able to finalize or complete stocked item requirements that can't be invoiced. This feature finalizes the transaction, which performs the same steps that would occur within inventory during customer invoicing. To use the new functionality, enable the **Finalize uninvoiced stocked items** feature in the **Feature management** workspace. The feature only updates transactions that are in a non-chargeable state because of the **Enable packing slip cancellation for item requirements** feature.
+A new preview feature in the 10.0.45 release removes the limitation of not being able to finalize or complete stocked item requirements that can't be invoiced. This feature finalizes the transaction, performing the same steps that would occur within inventory during customer invoicing. To use the new functionality, enable the **Finalize uninvoiced stocked items** feature in the **Feature management** workspace. The feature only updates transactions that are in a non-chargeable state because of the **Enable packing slip cancellation for item requirements** feature.
 
 Item requirements that are stocked items that meet any criteria below require finalization:
 
@@ -112,12 +112,12 @@ Item requirements that are stocked items that meet any criteria below require fi
 To finalize an item requirement, users should:
 
 1. Open the **Item requirements** form and enable the new **Uninvoiced stocked items** filter. This filter shows both stocked and non-stocked item requirements that meet one of the three non-chargeable criteria listed previously. Only stocked items go through the finalization process.
-2. Users can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized, the process won't error if chargeable transactions are selected.
-3. In the Manage tab of the ribbon, select **Finalize delivered quantity** and confirm the delivery end date for the list of packing slips and their corresponding dates to consider for finalization. You can get details on the specific packing slips from the **Inquiries** button in the ribbon and clicking into **Packing slip journal**
-4. A warning will appear that will require confirming that the packing slips can no longer be canceled after finalization.
+2. Users can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized, the process won't error even when chargeable transactions are selected.
+3. In the Manage tab of the ribbon, select **Finalize delivered quantity** and confirm the delivery end date for the list of packing slips and their corresponding dates to consider for finalization. You can get details on the specific packing slips from the **Inquiries** button in the ribbon by selecting **Packing slip journal**
+4. A warning will appear that requiring confirmation that the packing slips can no longer be canceled after finalization.
 5. A finalization date is required for the date for the posting and the user can opt to post in batch for large volumes of data.
 
-After the finalization process completes, the transactions continue to display a non-chargeable invoice status, but the posting from **Cost of units, delivered** to **Cost of units, invoiced** posting types completed, inventory completed its financial posting, and the item requirement moved from open order to delivered status if all quantity was finalized. The transactions are considered in inventory close and recalculation.
+After the finalization process completes, the transactions continue to display a non-chargeable invoice status, but the posting from **Cost of units, delivered** to **Cost of units, invoiced** posting types completed, inventory completed its financial posting, and the item requirement moved from delivered to invoiced status if all quantity was finalized. The transactions are considered in inventory close and recalculation.
 
 If there was a linked purchase order to the item requirement, then posting a different price on the vendor invoice or running inventory recalculation generates price adjustments for the transaction.
 
