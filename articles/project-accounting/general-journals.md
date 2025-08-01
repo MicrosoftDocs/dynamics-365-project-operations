@@ -3,7 +3,7 @@ title: Use general journals for advanced accounting (preview)
 description: Learn more about using general journals and record various financial transactions directly into the general ledger.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 07/28/2025
+ms.date: 08/01/2025
 ms.topic: conceptual
 ms.custom: 
   - bap-template
@@ -56,6 +56,7 @@ An alternate method to entering journals is possible by enabling [One voucher](/
 
 ## Limitations
 
+- Using a cost currency that is different from the project currency requires the UR60 release of Project Operations. Without this update installed, the currency may be posted differently in the Dataverse journal from what was posted in the PMA journal.
 - Journals are limited to 50 project-related lines in the client.
 - Contract lines with multiple customers aren't considered. These sales lines might not generate unbilled sales correctly without the contract customer defined on the Dataverse journal line.
 - Both modern projects and Project Management and Accounting (PMA) projects can't be used in the same journal when customers have previous projects and are [transitioning to using the modern architecture.](../prod-pma/move-to-modern-architecture.md)
