@@ -41,6 +41,7 @@ For Project Operations Integrated with ERP based scenarios, the following enhanc
 - Financial tags are present in the financial voucher posting for the document.
 - Financial tags are carried forward into the voucher for the project invoice.
 - With the 10.0.45 release, the financial tags from a vendor invoice will now carry forwward onto the integration journal.
+- On-account transactions are also supported for financial tags.
 
 ### Example scenario
 
