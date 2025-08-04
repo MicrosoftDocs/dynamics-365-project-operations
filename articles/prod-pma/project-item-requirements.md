@@ -15,9 +15,9 @@ ms.reviewer: johnmichalak
 
 [!include[banner](../includes/banner.md)]
 
-An *item requirement* is a sales order document that has project-specific integrations and enhancements that non-project sales orders lack. An item requirement is unique and provides flexibility during planning for item consumption throughout the lifecycle of a project. You can record item requirements earlier than sales orders.
+An *item requirement* is a sales order document that has project-specific integrations and enhancements that nonproject sales orders lack. An item requirement is unique and provides flexibility during planning for item consumption throughout the lifecycle of a project. You can record item requirements earlier than sales orders.
 
-Like sales orders, item requirements can represent a stocked item, a non-stocked item, or a service item. Because item requirements are integrated throughout the project module, organizations have the flexibility to start with planned requirements. They can then execute against the project, either by using item requirements from stock or by acquiring them through production or procurement, and then consume them against the project at the correct time. Item requirements provide great visibility into the financial implications of a transaction throughout the item's lifecycle.
+Like sales orders, item requirements can represent a stocked item, a nonstocked item, or a service item. Because item requirements are integrated throughout the project module, organizations have the flexibility to start with planned requirements. They can then execute against the project, either by using item requirements from stock or by acquiring them through production or procurement, and then consume them against the project at the correct time. Item requirements provide great visibility into the financial implications of a transaction throughout the item's lifecycle.
 
 To have item requirements automatically created, enable the **Create item requirement** parameter in the **Project purchase orders** section of the **Project management and accounting parameters** page.
 
@@ -101,23 +101,23 @@ To fix the issue, go to **Number sequences**, filter for number sequence code **
 
 ### Finalize uninvoiced stocked items
 
-A new preview feature in the 10.0.45 release removes the limitation of not being able to finalize or complete stocked item requirements that can't be invoiced. This feature finalizes the transaction, performing the same steps that would occur within inventory during customer invoicing. To use the new functionality, enable the **Finalize uninvoiced stocked items** feature in the **Feature management** workspace. The feature only updates transactions that are in a non-chargeable state because of the **Enable packing slip cancellation for item requirements** feature.
+A new preview feature in the 10.0.45 release removes the limitation of not being able to finalize or complete stocked item requirements that can't be invoiced. This feature finalizes the transaction, performing the same steps that would occur within inventory during customer invoicing. To use the new functionality, enable the **Finalize uninvoiced stocked items** feature in the **Feature management** workspace. The feature only updates transactions that are in a nonchargeable state because of the **Enable packing slip cancellation for item requirements** feature.
 
 Item requirements that are stocked items that meet any criteria below require finalization:
 
-- The line property for chargeable is set to non-chargeable.
+- The line property for chargeable is set to nonchargeable.
 - The project group doesn't allow for invoicing. This scenario includes project types such as fixed price projects, investment projects, and internal projects.
-- The project contract uses billing rules, which overrides the line property to make a transaction category non-chargeable.
+- The project contract uses billing rules, which overrides the line property to make a transaction category nonchargeable.
 
 To finalize an item requirement, follow these steps.
 
-1. Open the **Item requirements** form and enable the new **Uninvoiced stocked items** filter. This filter shows both stocked and non-stocked item requirements that meet one of the three non-chargeable criteria listed previously. Only stocked items go through the finalization process.
+1. Open the **Item requirements** form and enable the new **Uninvoiced stocked items** filter. This filter shows both stocked and nonstocked item requirements that meet one of the three nonchargeable criteria listed previously. Only stocked items go through the finalization process.
 1. You can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized, the process won't error even when chargeable transactions are selected.
 1. In the **Manage** tab of the ribbon, select **Finalize delivered quantity** and confirm the delivery end date for the list of packing slips and their corresponding dates to consider for finalization. You can get details on the specific packing slips from the **Inquiries** button in the ribbon by selecting **Packing slip journal**
 1. A warning appears and requires confirmation that the packing slips can no longer be canceled after finalization.
 1. A finalization date is required for the date for the posting. You can opt to post in batch for large volumes of data.
 
-After the finalization process completes, the transactions continue to display a non-chargeable invoice status, but the posting from **Cost of units, delivered** to **Cost of units, invoiced** posting types completed, inventory completed its financial posting, and the item requirement moved from delivered to invoiced status if all quantity was finalized. The transactions are considered in inventory close and recalculation.
+After the finalization process completes, the transactions continue to display a nonchargeable invoice status, but the posting from **Cost of units, delivered** to **Cost of units, invoiced** posting types completed, inventory completed its financial posting, and the item requirement moved from delivered to invoiced status if all quantity was finalized. The transactions are considered in inventory close and recalculation.
 
 If there was a linked purchase order to the item requirement, then posting a different price on the vendor invoice or running inventory recalculation generates price adjustments for the transaction.
 
