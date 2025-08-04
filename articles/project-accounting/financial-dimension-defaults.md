@@ -139,9 +139,9 @@ If projects aren't connected to a contract, the legacy rules apply, and the proj
 
 For documents that originate in the finance and operations architecture, many significant updates were made for the 10.0.45 release.
 
-- Purchase requisitions, purchase orders, vendor invoices, and purchase agreements support dimensions by contract line. Postings to the vendor account from the vendor invoice aren't associated to a specific contract line, so they have a blank dimension value.
+- Purchase requisitions, purchase orders, vendor invoices, and purchase agreements support dimensions by contract line. Postings to the vendor account from the vendor invoice aren't associated with a specific contract line, so they have a blank dimension value.
 - Expense reports support dimensions by contract line.
-- Revenue recognition uses the use the default contract line number for dimensions in the estimate project. Without contract line based revenue recognition, the system follows the dimensions based on which contract line is used for fees.
+- Revenue recognition uses the default contract line number for dimensions in the estimate project. Without contract line based revenue recognition, the system follows the dimensions based on which contract line is used for fees.
 
 ### Feature considerations and limitations
 
