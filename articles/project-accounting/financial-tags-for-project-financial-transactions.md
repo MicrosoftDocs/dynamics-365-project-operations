@@ -3,7 +3,7 @@ title: Use financial tags for project financial transactions
 description: Learn how you can use financial tags for project transactions.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 08/01/2025
+ms.date: 08/04/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -40,7 +40,7 @@ For Project Operations Integrated with ERP based scenarios, the following enhanc
 - Financial tags are available on the **Financial tags** tab on the header of the integration journal for hours, expenses, fees, and materials. They are also available in a new field on journal lines.
 - Financial tags are present in the financial voucher posting for the document.
 - Financial tags are carried forward into the voucher for the project invoice.
-- With the 10.0.45 release, the financial tags from a vendor invoice will now carry forwward onto the integration journal.
+- With the 10.0.45 release, the financial tags from a vendor invoice now carry forwward onto the integration journal.
 - On-account transactions are also supported for financial tags.
 
 ### Example scenario
