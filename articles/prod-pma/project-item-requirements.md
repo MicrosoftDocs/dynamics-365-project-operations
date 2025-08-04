@@ -117,7 +117,12 @@ To finalize an item requirement, follow these steps.
 1. A warning appears and requires confirmation that the packing slips can no longer be canceled after finalization.
 1. A finalization date is required for the date for the posting. You can opt to post in batch for large volumes of data.
 
-After the finalization process completes, the transactions continue to display a nonchargeable invoice status, but the posting from **Cost of units, delivered** to **Cost of units, invoiced** posting types completed, inventory completed its financial posting, and the item requirement moved from delivered to invoiced status if all quantity was finalized. The transactions are considered in inventory close and recalculation.
+After the finalization process completes, the following results can be observed:
+- In the posted project transactions form, the invoice status remains nonchargeable. 
+- A new voucher transaction is created with a credit to the **Cost of units, delivered** and a debit to **Cost of units, invoiced** posting types.
+- Inventory completes its financial posting.
+- The item requirement sales order line moves from delivered to invoiced line status if all quantity was finalized.
+- The transactions are considered in inventory close and recalculation.
 
 If there was a linked purchase order to the item requirement, then posting a different price on the vendor invoice or running inventory recalculation generates price adjustments for the transaction.
 
