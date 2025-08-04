@@ -3,7 +3,7 @@ title: Set up the Expense Agent (preview)
 description: Learn how to install and set up the Expense Agent to automate expense processing workflows by using AI.
 author: ajitchandran
 ms.author: ajitchandran
-ms.date: 07/07/2025
+ms.date: 08/04/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -178,7 +178,7 @@ These roles provide access to Dataverse and Power Automate components that the a
 > 1. Select **Manage roles**, and assign the roles.
 
 
-#### Assign the needed role in finance and operations environment
+#### Assign the required role in finance and operations environment
 
 To assign the ExpenseAgentRole role in finance and operations environment, follow these steps.
 
@@ -188,7 +188,7 @@ To assign the ExpenseAgentRole role in finance and operations environment, follo
 1. Select **Save**.
 
 > [!NOTE]
-> ExpenseAgentRole is available in the Finance and Operations version from **10.0.44 (10.0.2263.81)** and **10.0.45 (10.0.2345.6)** and with **Copilot for finance and operations apps** version **1.0.3121.1**
+> ExpenseAgentRole is available in the finance and operations apps version from **10.0.44 (10.0.2263.81)** and **10.0.45 (10.0.2345.6)** and with **Copilot for finance and operations apps** version **1.0.3121.1**
 
 #### Assign access to the shared mailbox access
 
@@ -205,7 +205,7 @@ To assign access to the shared mailbox access, follow these steps.
 | Environment | Roles | Comments |
 |---|---|---|
 | Dataverse | <li>Expense AI Agent Role <li>finance and operations Agent Configuration Manager <li>System Customizer | The mentioned roles enable the agent to interact with Power Automate flows, environment variables, and virtual entities that are connected to Dynamics 365 Finance|
-| Finance and operations | <li>ExpenseAgentRole <li>System user | This role is required for the agent to create and manage expense entries in the finance and operations apps environment. <br> <br/> _Note: ExpenseAgentRole is available in the Finance and Operations version from **10.0.44 (10.0.2263.81)** and **10.0.45 (10.0.2345.6)** and with **Copilot for finance and operations apps** version **1.0.3121.1**_ |
+| Finance and operations | <li>ExpenseAgentRole <li>System user | This role is required for the agent to create and manage expense entries in the finance and operations apps environment. <br> <br/> _Note: ExpenseAgentRole is available in the finance and operations apps version from **10.0.44 (10.0.2263.81)** and **10.0.45 (10.0.2345.6)** and with **Copilot for finance and operations apps** version **1.0.3121.1**_ |
 | Shared mailbox access using Graph explorer | Mail.Read.Shared | Microsoft Graph permission that allows the agent to read receipts from the configured shared mailbox during flow execution| 
 
 
