@@ -1,8 +1,8 @@
 ---
 title: Financial dimension defaults
 description: This article provides information about how to set up financial dimension defaults.
-author: ryansandnessMSFT
-ms.date: 05/30/2024
+author: ryansandness
+ms.date: 08/01/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -137,13 +137,14 @@ The rules are evaluated from right to left, and a rule that is more specific to 
 
 If projects aren't connected to a contract, the legacy rules apply, and the project is used for dimensions.
 
+For documents that originate in the finance and operations architecture, many significant updates were made for the 10.0.45 release.
+
+- Purchase requisitions, purchase orders, vendor invoices, and purchase agreements support dimensions by contract line. Postings to the vendor account from the vendor invoice aren't associated with a specific contract line, so they have a blank dimension value.
+- Expense reports support dimensions by contract line.
+- Revenue recognition uses the default contract line number for dimensions in the estimate project. Without contract line based revenue recognition, the system follows the dimensions based on which contract line is used for fees.
+
 ### Feature considerations and limitations
 
-As of the 10.0.40 preview release, the feature doesn't consider the following documents. Therefore, these documents will continue to use the legacy behavior.
-
-- Expense reports that are submitted from finance and operations apps
-- Purchase requests, purchase orders, and vendor invoices that are submitted from finance and operations apps
-
-As of the 10.0.40 preview release, revenue recognition has a known limitation. Revenue recognition follows the dimensions where fee journals are enabled. In a simple fixed-price project that has a single contract line, the default dimensions can be correctly taken from the contract. However, if a time-and-material contract line for fees and a separate fixed-price contract line for revenue recognition exist, the default dimensions are taken from the time-and-material contract line that is used for fees.
+Task-based billing as the source for dimensions isn't supported for documents originating from the finance and operations architecture. If multiple contract lines exist for a transaction type, the first contract line will be used based rather than the task selected.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
