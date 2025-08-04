@@ -3,7 +3,7 @@ title: Project item requirements
 description: This article explains how to create project-based item requirements.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 08/01/2025
+ms.date: 08/04/2025
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -109,13 +109,13 @@ Item requirements that are stocked items that meet any criteria below require fi
 - The project group doesn't allow for invoicing. This scenario includes project types such as fixed price projects, investment projects, and internal projects.
 - The project contract uses billing rules, which overrides the line property to make a transaction category non-chargeable.
 
-To finalize an item requirement, users should:
+To finalize an item requirement, follow these steps.
 
 1. Open the **Item requirements** form and enable the new **Uninvoiced stocked items** filter. This filter shows both stocked and non-stocked item requirements that meet one of the three non-chargeable criteria listed previously. Only stocked items go through the finalization process.
-2. Users can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized, the process won't error even when chargeable transactions are selected.
-3. In the Manage tab of the ribbon, select **Finalize delivered quantity** and confirm the delivery end date for the list of packing slips and their corresponding dates to consider for finalization. You can get details on the specific packing slips from the **Inquiries** button in the ribbon by selecting **Packing slip journal**
-4. A warning will appear that requiring confirmation that the packing slips can no longer be canceled after finalization.
-5. A finalization date is required for the date for the posting and the user can opt to post in batch for large volumes of data.
+1. You can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized, the process won't error even when chargeable transactions are selected.
+1. In the **Manage** tab of the ribbon, select **Finalize delivered quantity** and confirm the delivery end date for the list of packing slips and their corresponding dates to consider for finalization. You can get details on the specific packing slips from the **Inquiries** button in the ribbon by selecting **Packing slip journal**
+1. A warning appears and requires confirmation that the packing slips can no longer be canceled after finalization.
+1. A finalization date is required for the date for the posting. You can opt to post in batch for large volumes of data.
 
 After the finalization process completes, the transactions continue to display a non-chargeable invoice status, but the posting from **Cost of units, delivered** to **Cost of units, invoiced** posting types completed, inventory completed its financial posting, and the item requirement moved from delivered to invoiced status if all quantity was finalized. The transactions are considered in inventory close and recalculation.
 
