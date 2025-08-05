@@ -36,12 +36,12 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Sales |**Manage multiple addresses for accounts** <br><br> This feature enables the management of multiple physical addresses for customers, vendors, and contacts. It also supports the use of delivery addresses in project quotations, contracts, and invoices.| |
-| Project Management and Resource Management |**Add calendar control on calendar templates** <br><br> This feature activates the calendar control within the calendar template, allowing users to update templates more easily and seamlessly.| |
-| Project Management and Resource Management |**Update task progress using schedule APIs** <br><br> We previously introduced a feature that allows users to update task progress directly from the task grid. This capability is now also available via schedule APIs, enabling users to modify the task's % complete using update APIs| |
+| Sales |**Manage multiple addresses for accounts** <br><br> This feature enables the management of multiple physical addresses for customers, vendors, and contacts. It also supports the use of delivery addresses in project quotations, contracts, and invoices.| [Manage and apply multiple account addresses to project invoices](../pro/sales/manage-global-address-book.md) |
+| Project Management and Resource Management |**Add calendar control on calendar templates** <br><br> This feature activates the calendar control within the calendar template, allowing users to update templates more easily and seamlessly.| [Define and edit project calendars](../project-management/define-project-calendars.md) |
+| Project Management and Resource Management |**Update task progress using schedule APIs** <br><br> We previously introduced a feature that allows users to update task progress directly from the task grid. This capability is now also available via schedule APIs, enabling users to modify the task's % complete using update APIs| [Update the progress of a task](../project-management/update-progress-of-a-task.md) |
 | Project Management and Resource Management |**Import project experience** <br><br> The import project feature now allows users to select an existing project as the target for their import. Additionally, users can configure more settings directly on the import screen before initiating the process.| |
-| Project Budget Management |**Date flexibility in budget creation and actual matching** <br><br> This feature allows flexibility in handling actuals that fall outside the project’s start and end dates — such as pre and post-project contract activities, ensuring they can still be tracked against budget lines. Actuals that match all dimensions except for date are now flagged separately in budget line details, indicating alignment but falling outside the defined timeline.| | 
-| Time Entry |**Set Agent preferences from the Time Entry grid** <br><br> The time entry grid (both old and Modern) now come with a "Time Agent" section that let users enable the Time Entry Agent and set their preferences, which were previously only supported within the Teams app. This change now makes the Teams app an optional part of the Time Agent setup experience.| |
+| Project Budget Management |**Date flexibility in budget creation and actual matching** <br><br> This feature allows flexibility in handling actuals that fall outside the project’s start and end dates — such as pre and post-project contract activities, ensuring they can still be tracked against budget lines. Actuals that match all dimensions except for date are now flagged separately in budget line details, indicating alignment but falling outside the defined timeline.| [Project Budget Management Overview](../pro/budget/projectbudgetmanagement.md)| 
+| Time Entry | **Set Agent preferences from the Time Entry grid** <br><br> The time entry grid (both old and Modern) now come with a "Time Agent" section that let users enable the Time Entry Agent and set their preferences, which were previously only supported within the Teams app. This change now makes the Teams app an optional part of the Time Agent setup experience.|  |
 
 
 ## Quality updates
@@ -50,22 +50,22 @@ If you encounter an issue when you start the map, follow the instructions in the
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing and Pricing|	4494831|	[PBB] Revise Invoice doesn't update invoiced to date fields value|
-|Billing and Pricing|	4561292|	Divide by zero exception is thrown when conversion factor is zero while getting primary unit price.|
-|Billing and Pricing|	5054918|	[Integrated] Applied retainers incorrectly applied against FnO tax|
-|Billing and Pricing|	5142586|	Billing type is getting reset for material type transaction class on form load|
-|Billing and Pricing|	5272460|	Invoice Confirmation NTE Improvements - NRE When Billed Sales Actual is Missing SplitBillingRule Fields|
-|Project and Resource Management|	5001281|	MTAC | Integrated Org | Unable to mark task as completed on integrated org|
-|Project Budgeting|	5209113|	Validate budget dates w.r.t. project time zone agnostic dates|
-|Project Budgeting|	5248423|	Multiple Address Bug : Contract Customer should default invoice address to accounts primary address|
+|Billing and Pricing|	4494831|	Revise Invoice doesn't update invoiced to date fields value|
+|Billing and Pricing|	4561292|	Divide by zero exception is thrown when conversion factor is zero while retrieving primary unit price.|
+|Billing and Pricing|	5054918|	Applied retainers incorrectly applied against FnO tax|
+|Billing and Pricing|	5142586|	Billing type resets on form load for material type transaction class|
+|Billing and Pricing|	5272460|	NRE When Billed Sales Actual is Missing SplitBillingRule Fields|
+|Project and Resource Management|	5001281|	Unable to mark task as completed on integrated org|
+|Project Budgeting|	5209113|	Validate budget dates corresponding to project time zone agnostic dates|
+|Project Budgeting|	5248423|	Contract Customer should default invoice address to accounts primary address|
 |Sales|	4874297|	Error thrown when assigning same project to multiple quotes that are linked to the same opportunity|
 |Sales|	4926105|	Invoice schedule type not validated on quote line update|
 |Sales|	5166129|	Main form of the Quote Product Line Does Not Default to the Select Product to Existing|
-|Subcontracting|	5160260|	GetMaterialDefaults Api failing during unit defaulting of Subcontract Lines of Material type|
+|Subcontracting|	5160260|	GetMaterialDefaults API fails during unit defaulting of Material Type Subcontract Lines|
 |Subcontracting|	5169095|	Vendor Invoice Creation Fails Due to Transaction Classification Mismatch on Subcontract Line|
 |Subcontracting|	5226569|	Include adjustment value when correcting actual entries|
 |Time Entry|	4788137|	Duplicate Error message when user tries to edit multiple submitted/approved time entries|
-|Time Entry|	4864943|	Calendar Rules getting moved after approval due to timezone issue between manager and team member|
+|Time Entry|	4864943|	Calendar Rules get moved after approval due to time zone differences between manager and team member|
 
 ### Project management and accounting in Finance
 
