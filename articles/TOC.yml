@@ -1940,7 +1940,6 @@
   items: 
   - name: Expense management overview
     href: prod-exp/expense-management.md
-    items:
   - name: Expense Agent
     items:
     - name: Expense Agent overview
