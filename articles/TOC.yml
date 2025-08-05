@@ -1358,6 +1358,14 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
+    - name: Expense Agent
+      items:
+      - name: Expense Agent overview
+        href: expense/expense-agent-overview.md
+      - name: Installation and Setup of the Expense Agent (Preview)
+        href: expense/expense-agent-setup.md
+      - name: Expense Agent FAQs
+        href: expense/expense-agent-faq.md
     - name: New expense experience
       items: 
       - name: Expense reports reimagined
@@ -1796,6 +1804,14 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
+    - name: Expense Agent
+      items:
+      - name: Expense Agent overview
+        href: expense/expense-agent-overview.md
+      - name: Installation and Setup of the Expense Agent (Preview)
+        href: expense/expense-agent-setup.md
+      - name: Expense Agent FAQs
+        href: expense/expense-agent-faq.md
     - name: New expense experience
       items: 
       - name: Expense reports reimagined
