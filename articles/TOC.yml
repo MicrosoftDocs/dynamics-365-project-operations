@@ -78,12 +78,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new August 2025 - Project Operations Core
+      href: pro/whats-new/whats-new-aug-2025-lite.md
     - name: What's new June 2025 - Project Operations Core
       href: pro/whats-new/whats-new-june-2025-lite.md
-    - name: What's new May 2025 - Project Operations Core
-      href: pro/whats-new/whats-new-may-2025-lite.md 
     - name: Archive
       items:
+      - name: What's new May 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-may-2025-lite.md     
       - name: What's new April 2025 - Project Operations Core
         href: pro/whats-new/whats-new-apr-2025-lite.md 
       - name: What's new 2025 Wave 1 early access - Project Operations Core
@@ -646,8 +648,18 @@
       items: 
       - name: Time entry user interface 
         href: time/ui-behavior-time.md
-    - name: Use Copilot in time entry (preview)
+    - name: Time Entry Calendar interface (preview)
+      href: time/time-entry-calendar.md
+    - name: Use Copilot in time entry
       href: time/copilot-in-time-entry.md
+    - name: Time Entry Mobile App (Preview)
+      items:
+      - name: Overview of mobile app
+        href: time/time-entry-mobile-app.md  
+      - name: Enable Dynamics 365 Time Entry (Preview) mobile app
+        href: time/enable-time-entry-mobile-app.md
+      - name: Log time entries using mobile app
+        href: time/log-time-using-time-entry-mobile-app.md 
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
@@ -806,12 +818,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: August 2025 - Project Operations Integrated with ERP
+      href: whats-new/whats-new-aug-2025-resource-based.md
     - name: June 2025 - Project Operations Integrated with ERP
       href: whats-new/whats-new-june-2025-resource-based.md
-    - name: May 2025 - Project Operations Integrated with ERP
-      href: whats-new/whats-new-may-2025-resource-based.md
     - name: Archive
       items:
+       - name: May 2025 - Project Operations Integrated with ERP
+         href: whats-new/whats-new-may-2025-resource-based.md
        - name: April 2025 - Project Operations Integrated with ERP
          href: whats-new/whats-new-apr-2025-resource-based.md
        - name: 2025 Wave 1 Early Access - Project Operations Integrated with ERP
@@ -1340,7 +1354,7 @@
         href: time/ui-behavior-time.md
     - name: Time Entry Calendar interface (preview)
       href: time/time-entry-calendar.md
-    - name: Use Copilot in time entry (preview)
+    - name: Use Copilot in time entry
       href: time/copilot-in-time-entry.md
     - name: Time Entry Mobile App (Preview)
       items:
@@ -1358,6 +1372,14 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
+    - name: Expense Agent
+      items:
+      - name: Expense Agent overview
+        href: expense/expense-agent-overview.md
+      - name: Installation and Setup of the Expense Agent (Preview)
+        href: expense/expense-agent-setup.md
+      - name: Expense Agent FAQs
+        href: expense/expense-agent-faq.md
     - name: New expense experience
       items: 
       - name: Expense reports reimagined
@@ -1796,6 +1818,14 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
+    - name: Expense Agent
+      items:
+      - name: Expense Agent overview
+        href: expense/expense-agent-overview.md
+      - name: Installation and Setup of the Expense Agent (Preview)
+        href: expense/expense-agent-setup.md
+      - name: Expense Agent FAQs
+        href: expense/expense-agent-faq.md
     - name: New expense experience
       items: 
       - name: Expense reports reimagined
@@ -1940,6 +1970,14 @@
   items: 
   - name: Expense management overview
     href: prod-exp/expense-management.md
+  - name: Expense Agent
+    items:
+    - name: Expense Agent overview
+      href: expense/expense-agent-overview.md
+    - name: Installation and Setup of the Expense Agent (Preview)
+      href: expense/expense-agent-setup.md
+    - name: Expense Agent FAQs
+      href: expense/expense-agent-faq.md
   - name: New expense experience
     items: 
     - name: Expense reports reimagined
@@ -2492,24 +2530,14 @@
       items:
       - name: Add custom forms for entities
         href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
-- name: Time and Expense Agent (preview)
+- name: Time Entry Agent (preview)
   items:
-  - name: Expense entry
-    items:
-    - name: Expense Entry feature of the Time and Expense Agent overview
-      href: expense/expense-agent-overview.md
-    - name: Expense Entry feature of the Time and Expense Agent Installation and Setup
-      href: expense/expense-agent-setup.md
-    - name: Expense Entry feature of the Time and Expense Agent FAQ
-      href: expense/expense-agent-faq.md
-  - name: Time entry
-    items:
-    - name: Enable the time entry feature
-      href: time/enable-time-entry-agent.md
-    - name: Start using the agent in Teams 
-      href: time/use-time-entry-agent-in-teams.md
-    - name: Review time entries created by the agent 
-      href: time/reviewing-entries-created-by-time-agent.md
+  - name: Enable the time entry feature
+    href: time/enable-time-entry-agent.md
+  - name: Start using the agent in Teams 
+    href: time/use-time-entry-agent-in-teams.md
+  - name: Review time entries created by the agent 
+    href: time/reviewing-entries-created-by-time-agent.md
 - name: Responsible AI FAQs
   items:
   - name: Responsible AI FAQs for Project Operations
