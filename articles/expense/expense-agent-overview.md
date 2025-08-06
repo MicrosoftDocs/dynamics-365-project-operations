@@ -1,5 +1,5 @@
 ---
-title: Expense Agent overview (Preview)
+title: Expense Agent overview (preview)
 description: Get an overview of the Expense Agent.
 author: ajitchandran
 ms.author: ajitchandran
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Expense Agent overview (Preview)
+# Expense Agent overview (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
