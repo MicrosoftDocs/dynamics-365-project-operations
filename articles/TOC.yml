@@ -1360,7 +1360,7 @@
       items:
       - name: Overview of mobile app
         href: time/time-entry-mobile-app.md  
-      - name: Enable Dynamics 365 Time Entry (Preview) mobile app
+      - name: Enable Dynamics 365 Time Entry mobile app (preview)
         href: time/enable-time-entry-mobile-app.md
       - name: Log time entries using mobile app
         href: time/log-time-using-time-entry-mobile-app.md 
@@ -1372,11 +1372,11 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
-    - name: Expense Agent
+    - name: Expense Agent (preview)
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
-      - name: Installation and Setup of the Expense Agent (Preview)
+      - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
       - name: Expense Agent FAQs
         href: expense/expense-agent-faq.md
@@ -1818,11 +1818,11 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
-    - name: Expense Agent
+    - name: Expense Agent (preview)
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
-      - name: Installation and Setup of the Expense Agent (Preview)
+      - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
       - name: Expense Agent FAQs
         href: expense/expense-agent-faq.md
@@ -1970,11 +1970,11 @@
   items: 
   - name: Expense management overview
     href: prod-exp/expense-management.md
-  - name: Expense Agent
+  - name: Expense Agent (preview)
     items:
     - name: Expense Agent overview
       href: expense/expense-agent-overview.md
-    - name: Installation and Setup of the Expense Agent (Preview)
+    - name: Installation and Setup of the Expense Agent
       href: expense/expense-agent-setup.md
     - name: Expense Agent FAQs
       href: expense/expense-agent-faq.md
