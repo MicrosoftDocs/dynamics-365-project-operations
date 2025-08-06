@@ -18,7 +18,7 @@ ms.author: mohitmenon
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-After a team member sets up their agent preferences as described in [Start using the Time Entry feature of the Time and Expense Agent as a team member](use-time-entry-agent-in-teams.md), the experience of logging time entries is as follows:
+After a team member sets up their agent preferences as described in [Start using the Time Entry Agent as a team member](use-time-entry-agent-in-teams.md), the experience of logging time entries is as follows:
 
 1. At the beginning of a week, the agent creates draft time entries for the user.
 1. The user receives an alert from the agent in Microsoft Teams (if Teams app has been set up and shared with users). This alert summarizes the time entries that were created.
