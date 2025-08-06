@@ -75,7 +75,7 @@ For alerts that are related to created time entries or external comments, the us
 
 :::image type="content" source="../media/reviewentries.png" alt-text="Screenshot of an adaptive card that shows the weekly summary of time entries created by the agent.":::
 
-Here is an explanation of key elements of the adaptive card:
+Here's an explanation of key elements of the adaptive card:
 
 - **Daily summary** – The card highlights the total hours for each day of the current week and the number of those hours that need review because they were created by the agent.
 
@@ -109,7 +109,7 @@ Time entries that the agent created can be modified in two ways:
 
 The Time Entry Agent sends users an alert at the end of each work week if it determines that they have any missing hours.
 
-A day is said to have missing hours for a user if the total number of hours in a **Submitted**, **Approved**, or **Recall Requested** state (that is, non-draft hours) is less than the user's working hours for that day.
+A day is said to have missing hours for a user if the total number of hours in a **Submitted**, **Approved**, or **Recall Requested** state (that is, nondraft hours) is less than the user's working hours for that day.
 
 The alert shows a summary of all days in the current week that have missing hours. It also includes the following details:
 
