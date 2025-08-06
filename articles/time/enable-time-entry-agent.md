@@ -81,7 +81,7 @@ To view and activate the flows, follow these steps.
 
 ### Activation steps for each flow
 
-There are **12** Power Automate flows (cloud flows). They must be activated in the following order:
+There are **13** Power Automate flows (cloud flows). They must be activated in the following order:
 
 1. "Create or Update User Configuration for Time Entry..."
 1. "Get Time Entries"
@@ -93,22 +93,22 @@ There are **12** Power Automate flows (cloud flows). They must be activated in t
 1. "Import from Grid and Filter"
 
     (This flow is a parent of flow 3, "Filter Duplicates.")
-
+1. "DayWise Adaptive Card Switcher" _(This flow was introduced in version 4.143.0.222 of Project Operations and must be activated by admins if they have previously enabled the Time Entry Agent)_
 1. "Send Summary and Daywise Adaptive Card"
 1. "Create Time Entries and Notify"
 
-    (This flow is a parent of flow 6, "Send Summary and Daywise Adaptive Card.")
+    (This flow is a parent of flow 7, "Send Summary and Daywise Adaptive Card.")
 
 1. "Time agent Periodic Import Child"
 1. "Time agent Periodic Import"
 
-    (This flow is a parent of flow 8, "Time agent Periodic Import Child.")
+    (This flow is a parent of flow 9, "Time agent Periodic Import Child.")
 
 1. "Generate External Comments"
 1. "Send Missing Time Entries Alert"
 1. "Generate External Comments and Send Missing Time Entries Alert"
 
-    (This flow is a parent of flow 10, "Generate External Comments," and flow 11, "Send Missing Time Entries Alert.")
+    (This flow is a parent of flow 11, "Generate External Comments," and flow 12, "Send Missing Time Entries Alert.")
 
 You must complete this procedure steps for each flow before you move on to the next flow.
 
@@ -176,7 +176,10 @@ To publish the agent, follow these steps.
 
     :::image type="content" source="../media/publishingagent.png" alt-text="Screenshot of the message that indicates that agent publishing is in progress.":::
 
-### Make the Teams app available to users
+### Make the Teams app available to users (optional)
+
+> [!NOTE]
+> As of the **4.143.0.222 release** of Project Operations, making the Teams app available to users is optional since **users can directly enable the agent** and **set their preferences from the Time Entry grid**.
 
 After the agent is published, follow these steps to make it available to users as a Teams app.
 
@@ -205,6 +208,6 @@ After the agent is published, follow these steps to make it available to users a
 
 ## Next steps
 
-After you complete all the steps that are described in this article, team members in your organization can view and use the Time Entry feature of the Time and Expense Agent in the form of a Teams app. Learn how team members can start to use the agent in [Start using the Time Entry feature of the Time and Expense Agent as a team member](use-time-entry-agent-in-teams.md).
+After you complete all the steps that are described in this article, team members in your organization can view and use the Time Agent in the form of a Teams app. Learn how team members can start to use the agent in [Start using the Time Entry Agent as a team member](use-time-entry-agent-in-teams.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
