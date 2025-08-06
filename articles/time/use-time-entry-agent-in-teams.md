@@ -2,7 +2,7 @@
 title: Start using the Time Entry Agent as a team member
 description: Learn how team members can start to use the Time Entry Agent.
 author: mohitmenon
-ms.date: 05/13/2025
+ms.date: 08/06/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.custom: 
@@ -30,7 +30,7 @@ To begin to use the agent, each user must complete the following steps.
 ## Add the Teams app (optional)
 
 > [!NOTE]
-> As of the **4.143.0.222 release** of Project Operations, making the Teams app available to users is optional since **users can directly give consent to the agent** and **set their preferences from the Time Entry grid**.
+> As of the **4.143.0.222 release** of Project Operations, making the Teams app available to users is optional because **users can directly give consent to the agent** and **set their preferences from the Time Entry grid**.
 
 After your organization enables the agent and shares it with you, follow these steps to access it as a Teams app.
 
@@ -48,15 +48,18 @@ The next step is to give the agent consent to create time entries on your behalf
 
 ## Give consent to the agent and set preferences
 
-These steps can be completed in two ways, 1) Using Project Operations web app or 2) Using Time Entry Agent Teams app.
+These steps can be completed in two ways:
+- Using Project Operations web app.
+- Using Time Entry Agent Teams app.
 
 ### Give the agent consent to create time entries
 
-Give consent directly **from the Project Operations web app**:
-1. Navigate to **Time Entry** from the Project Operations web app
-1. A new **Time Agent** drop-down button will be visible on the ribbon menu (next to "Import")
-1. Select the drop-down and click **Set Agent User Preferences**
-1. Set the first option from the list to **"Yes"** to enable the agent to create time entries on your behalf.
+To give consent directly from the Project Operations web app, follow these steps.
+
+1. Navigate to **Time Entry** from the Project Operations web app.
+1. A new **Time Agent** drop-down button is visible on the ribbon menu (next to **Import**).
+1. Select the drop-down and select **Set Agent User Preferences**.
+1. Set the first option from the list to **Yes"** to enable the agent to create time entries on your behalf.
 
 Give consent **from the Teams app**:
 
@@ -71,7 +74,7 @@ If this initial message isn't automatically shown the first time that you open t
 
 ### Set agent preferences
 
-After you give the agent consent to create time entries for you, four more configurable preferences are made visible to the user. These preferences can be set from the Project Operations web app or the Teams app. You must set these preferences to specify how the agent creates time entries and sends alerts to you.
+After you give the agent consent to create time entries for you, four more configurable preferences become available. These preferences can be set from the Project Operations web app or the Teams app. You must set these preferences to specify how the agent creates time entries and sends alerts to you.
 
 - **Source of time entries** – Use the checkboxes to select one or more sources that the agent should use when it creates time entries for you.
 
@@ -94,13 +97,17 @@ After you set the preferences, select **Save preferences**. You should receive a
 
 To modify your existing preferences, follow these steps.
 
-Modify agent preferences from the Time Entry Grid in Project Operations:
-1. Navigate to **Time Entry** from the Project Operations web app
-1. A new **Time Agent** drop-down button will be visible on the ribbon menu (next to "Import")
-1. Select the drop-down and click **Set Agent User Preferences**. 
-1. Edit one or more preferences, click **Save**.
+These steps can be completed in two ways:
+- Modify agent preferences from the Time Entry Grid in Project Operations.
+- Modify agent preferences using the Teams app.
+  
+Modify agent preferences from the Time Entry Grid in Project Operations.
+1. Navigate to **Time Entry** from the Project Operations web app.
+1. A new **Time Agent** drop-down button is visible on the ribbon menu (next to **Import**).
+1. Select the drop-down and select **Set Agent User Preferences**. 
+1. Edit one or more preferences, and select **Save**.
 
-Modify agent preferences using the Teams app:
+Modify agent preferences using the Teams app.
 1. Send **Update Agent preferences** or **Agent preferences** in the chat.
 1. A summary of your existing preferences is shown. Modify the selections as you require.
 1. Select **Save preferences**.
