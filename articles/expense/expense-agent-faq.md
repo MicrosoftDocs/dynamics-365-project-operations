@@ -1,6 +1,6 @@
 ---
 title: Expense Agent FAQs (Preview)
-description: Get answers to frequently asked questions about the Expense Entry feature of the Time and Expense Agent.
+description: Get answers to frequently asked questions about the Expense Agent.
 author: ajitchandran
 ms.date: 05/13/2025
 ms.topic: how-to
