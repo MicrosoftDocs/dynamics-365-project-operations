@@ -1,5 +1,5 @@
 ---
-title: Expense Agent FAQs (Preview)
+title: Expense Agent FAQs (preview)
 description: Get answers to frequently asked questions about the Expense Agent.
 author: ajitchandran
 ms.date: 05/13/2025
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: ajitchandran
 ---
 
-# Expense Agent FAQs (Preview)
+# Expense Agent FAQs (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
