@@ -29,6 +29,9 @@ To begin to use the agent, each user must complete the following steps.
 
 ## Add the Teams app (optional)
 
+> [!NOTE]
+> As of the **4.143.0.222 release** of Project Operations, making the Teams app available to users is optional since **users can directly give consent to the agent** and **set their preferences from the Time Entry grid**.
+
 After your organization enables the agent and shares it with you, follow these steps to access it as a Teams app.
 
 1. Open Microsoft Teams app or Microsoft Teams in the browser, and sign in by using the same credentials that you use to sign in to your Microsoft Dynamics 365 Project Operations environment.
