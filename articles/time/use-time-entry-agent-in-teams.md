@@ -45,15 +45,9 @@ The next step is to give the agent consent to create time entries on your behalf
 
 ## Give consent to the agent and set preferences
 
-The first time that you open the Teams app, a "Logging Time made easy" message should be shown.
-
-:::image type="content" source="../media/userstartercard1.png" alt-text="Screenshot that shows the 'Logging Time made easy' message in the Teams app.":::
-
-If this initial message isn't automatically shown the first time that you open the app, you can send **Agent user preferences** or **Agent settings** in the chat. The message should then be loaded.
+These steps can be completed in two ways, 1) Using Project Operations web app or 2) Using Time Entry Agent Teams app.
 
 ### Give the agent consent to create time entries
-
-This step can be completed in two ways.
 
 Give consent directly **from the Project Operations web app**:
 1. Navigate to **Time Entry** from the Project Operations web app
@@ -62,6 +56,13 @@ Give consent directly **from the Project Operations web app**:
 1. Set the first option from the list to **"Yes"** to enable the agent to create time entries on your behalf.
 
 Give consent **from the Teams app**:
+
+The first time that you open the Teams app, a "Logging Time made easy" message should be shown.
+
+:::image type="content" source="../media/userstartercard1.png" alt-text="Screenshot that shows the 'Logging Time made easy' message in the Teams app.":::
+
+If this initial message isn't automatically shown the first time that you open the app, you can send **Agent user preferences** or **Agent settings** in the chat. The message should then be loaded.
+
 1. In the initial "Logging Time made easy" message, select **Get Started**.
 1. When you're asked whether you want to allow the agent to create time entries on your behalf, select **Yes**.
 
