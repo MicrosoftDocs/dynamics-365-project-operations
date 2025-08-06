@@ -85,7 +85,7 @@ After you give the agent consent to create time entries for you, four more confi
     > 1. Booked capacity
     > 1. Previous week's entries
     >
-    > The previous week's entries are considered only if there is no information for your task assignments or booked capacity.
+    > The previous week's entries are considered only if there isn't any information for your task assignments or booked capacity.
 
 - **Generate External Comments** – Select **Yes** if the agent should generate an external comment for every time entry that is created. In this case, external comments are generated for every time entry that doesn't have one, even time entries that the user manually created.
 - **Use Outlook calendar for external comments** – Select **Yes** if the agent should enhance external comments with relevant Outlook meeting details. Select **No** if the agent should use only details of the time entry, such as the project, task, and role, to generate external comments. In this case, the external comments are relatively generic.
@@ -125,7 +125,7 @@ To share calendar access with the agent user, follow these steps.
 
 ## Next steps
 
-After you complete all the one-time setup procedures in this article, the Time Entry Agent is ready for you to use as a team member. Here is an overview of the experience of logging time entries:
+After you complete all the one-time setup procedures in this article, the Time Entry Agent is ready for you to use as a team member. Here's an overview of the experience of logging time entries:
 
 1. At the beginning of a week, the agent creates draft time entries for you.
 1. You receive an alert from the agent in Teams. This alert summarizes the time entries that were created.
