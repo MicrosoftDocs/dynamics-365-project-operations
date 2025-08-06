@@ -195,6 +195,8 @@ After the agent is published, follow these steps to make it available to users a
 
 ### Grant approval as a global administrator
 
+This step is only required when choosing to enable the Teams app for end users. Proceed to the next section if you want to complete set up without the Teams app.
+
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com) by using global administrator credentials.
 1. Go to **Teams apps** \> **Manage apps**
 1. In the **All apps** section, search for "Time Entry." The app is shown as having **Blocked** or **Submitted** status.
