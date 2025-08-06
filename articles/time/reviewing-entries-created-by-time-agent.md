@@ -61,7 +61,7 @@ If a user asks the agent to create external comments for all time entries, the b
 
 ## Get Teams alerts from the agent
 
-If the Teams app has been shared with and added by end users, the agent sends an alert at the following times:
+If the Teams app was shared with and added by end users, the agent sends an alert at the following times:
 
 - As soon as it creates time entries for the week (at the beginning of a week).
 - When it generates external comments for the week (on the last working day of the week).
@@ -69,7 +69,7 @@ If the Teams app has been shared with and added by end users, the agent sends an
 
 ### Review time entries created by the agent
 
-Users can review time entries created by the agent by navigating to the Time Entry Grid at the start of their work week. If the Teams app has been enabled and shared with users, continue reading to know more on reviewing Teams alerts.
+Users can review time entries created by the agent by navigating to the Time Entry Grid at the start of their work week. If the Teams app has been enabled and shared with users, continue reading to know more about reviewing Teams alerts.
 
 For alerts that are related to created time entries or external comments, the user receives an alert in Teams. The alert provides a summary of the user's time entries for the current working week. The following illustration shows an example.
 
