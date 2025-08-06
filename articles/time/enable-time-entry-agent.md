@@ -2,7 +2,7 @@
 title: Enable the Time Entry Agent in an environment (preview)
 description: Learn how administrators can enable the Time Entry Agent in one or more environments in their organization.
 author: mohitmenon
-ms.date: 05/13/2025
+ms.date: 08/06/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.custom: 
@@ -179,7 +179,7 @@ To publish the agent, follow these steps.
 ### Make the Teams app available to users (optional)
 
 > [!NOTE]
-> As of the **4.143.0.222 release** of Project Operations, making the Teams app available to users is optional since **users can directly enable the agent** and **set their preferences from the Time Entry grid**.
+> As of the **4.143.0.222 release** of Project Operations, making the Teams app available to users is optional because **users can directly enable the agent** and **set their preferences from the Time Entry grid**.
 
 After the agent is published, follow these steps to make it available to users as a Teams app.
 
