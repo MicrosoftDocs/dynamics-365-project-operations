@@ -1,13 +1,13 @@
 ---
 title: Actuals
 description: This article provides information about how to work with actuals in Microsoft Dynamics 365 Project Operations.
-author: suvaidya
-ms.date: 06/05/2024
+author: abriccetti
+ms.date: 08/06/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: abriccetti
 
 ---
 
@@ -20,7 +20,7 @@ _**Applies to:** Project Operations Integrated with ERP, Project Operations Core
 Actuals represent the reviewed and approved financial and schedule progress on a project. Actuals are created when time, expense, and material usage entries, journal entries, and invoices are approved.
 
 > [!IMPORTANT]
-> **Actuals shouldn't be created or edited directly in the system**. New actuals can be created using entry journals [Creating actuals using entry journals](create-confirm-entry-journals.md) and existing actuals can be edited using correction journals [Correct actuals using correct entries](create-confirm-correction-journals.md). Microsoft Dynamics 365 Project Operations prevents deleting actuals from the system. This restriction preserves the financial integrity and any integration with other financial and accounting systems. Reversing, replacing, and editing actuals at various points in the business process lifecycle of your projects is supported using entry and correction journals. 
+> **Actuals shouldn't be created or edited directly in the system**. New actuals can be created using entry journals [Creating actuals using entry journals](create-confirm-entry-journals.md) and existing actuals can be edited using correction journals [Correct actuals using correct entries](create-confirm-correction-journals.md). Microsoft Dynamics 365 Project Operations prevents deleting actuals from the system. This restriction preserves the financial integrity and any integration with other financial and accounting systems. Reversing, replacing, and editing actuals at various points in the business process lifecycle of your projects is supported using entry and correction journals. The only exceptions are the description and external description fields, which remain editable.
 
 ## Recording actuals based on project events
 
