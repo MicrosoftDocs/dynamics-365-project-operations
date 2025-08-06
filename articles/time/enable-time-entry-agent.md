@@ -51,7 +51,7 @@ The new **Time and Approval agent** role gives the agent user the rights that it
 
 To assign this role to the agent user, follow these steps.
 
-1. In the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), use the environment switcher in the upper right to select the desired environment.
+1. In the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), to select the desired environment, use the environment switcher in the upper right.
 1. In the **Access** section, under **Users**, select **See all**.
 1. Select the agent user that you want to assign the role to, and then select **Manage roles**.
 1. In the dialog, select the checkbox next to **Time and Approval agent**, and then select **Save**.
@@ -72,7 +72,7 @@ This step of the process **must be repeated for each environment** where the age
 To view and activate the flows, follow these steps.
 
 1. Sign in to [Power Automate](https://make.powerautomate.com) by using the credentials of the dedicated agent user or administrator user.
-1. Use the environment switcher to select the desired environment.
+1. To select the desired environment, use the environment switcher.
 1. In the left pane, select **Solutions**.
 1. Select the **Project Service agent** solution to view more details about it.
 1. In the **Objects** pane, select **Cloud flows**. Alternatively, in the **All** view, apply a filter to the **Type** column so that the grid shows only objects where the **Type** field contains the value **Cloud Flow**.
@@ -167,10 +167,10 @@ After you activate all the Power Automate flows and enable the feature flag, the
 To publish the agent, follow these steps.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
-1. Use the environment switcher in the upper right to select the desired environment.
+1. To select the desired environment, use the environment switcher in the upper right.
 1. In the left pane, select **Agents**. (If **Agents** isn't visible in the left pane, select **More**, and then select **Agents** in the pop-up window.)
 1. Under **All**, select **Time Entry Agent**. A new tab for the agent appears in Copilot Studio.
-1. Use the environment switcher in the upper right to ensure that the correct environment is selected.
+1. To ensure that the correct environment is selected, use the environment switcher in the upper right.
 1. If a "Consent confirmation" message appears in the **Test your agent** pane on the right, select **Confirm**.
 1. Select **Publish** to publish the agent. If a message informs you about potential risks, review the potential risks, and then select **Publish**.
 
@@ -195,7 +195,7 @@ After the agent is published, follow these steps to make it available to users a
 
 ### Grant approval as a global administrator
 
-This step is only required when choosing to enable the Teams app for end users. Proceed to the next section if you want to complete set up without the Teams app.
+This step is only required when choosing to enable the Teams app for end users. Proceed to the next section if you want to complete setup without the Teams app.
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com) by using global administrator credentials.
 1. Go to **Teams apps** \> **Manage apps**
