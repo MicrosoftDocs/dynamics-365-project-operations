@@ -152,7 +152,7 @@ To enable the feature in a Project Operations environment, follow these steps.
 1. In the left pane, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
 1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
-1. On the **Project Parameters** page, in the **Feature Control** field, select **Enable Time and Expense agent (Production Ready Preview)**.
+1. On the **Project Parameters** page, in the **Feature Control** field, select **"Enable Time and Expense agent (Production Ready Preview)"**.
 1. Select **OK**.
 
 The feature can be disabled at any time after it's enabled.
