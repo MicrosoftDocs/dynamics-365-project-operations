@@ -1,8 +1,8 @@
 ---
-title: Review time entries created by the Time Entry feature of the Time and Expense Agent (preview)
-description: Learn how team members can review and submit time entries created by the Time Entry feature of the Time and Expense Agent.
+title: Review time entries created by the Time Entry Agent (preview)
+description: Learn how team members can review and submit time entries created by the Time Entry Agent.
 author: mohitmenon
-ms.date: 05/13/2025
+ms.date: 08/06/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 ms.custom: 
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Review time entries created by the Time Entry feature of the Time and Expense Agent (preview)
+# Review time entries created by the Time Entry Agent (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
@@ -21,16 +21,16 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 After a team member sets up their agent preferences as described in [Start using the Time Entry feature of the Time and Expense Agent as a team member](use-time-entry-agent-in-teams.md), the experience of logging time entries is as follows:
 
 1. At the beginning of a week, the agent creates draft time entries for the user.
-1. The user receives an alert from the agent in Microsoft Teams. This alert summarizes the time entries that were created.
+1. The user receives an alert from the agent in Microsoft Teams (if Teams app has been set up and shared with users). This alert summarizes the time entries that were created.
 1. The user reviews the time entries in either Teams or the Dynamics 365 Project Operations web app.
 1. The user modifies the time entries as required and submits them for approval.
-1. On the last working day of the week, the agent sends the user a reminder to submit any missing hours.
+1. On the last working day of the week, the agent sends the user a reminder to submit any missing hours (within the Teams app).
 
-The following sections explain these steps and the behavior of the Time Entry feature of the Time and Expense Agent.
+The following sections explain these steps and the behavior of the Time Entry Agent.
 
 ## Agent behavior during time entry creation
 
-The Time Entry feature of the Time and Expense Agent creates time entries based on the user's preferences.
+The Time Entry Agent creates time entries based on the user's preferences.
 
 ### Sources of time entries
 
@@ -59,9 +59,9 @@ If a user asks the agent to create external comments for all time entries, the b
 > [!IMPORTANT]
 > Because the agent creates time entries for a week at the beginning of that week, the user must set the preferences for the agent and give consent to it before that day. Otherwise, the agent can't create time entries. If the agent is enabled after the beginning of a week, the agent starts to create time entries for the user at the beginning of the next week.
 
-## Get alerts from the agent
+## Get Teams alerts from the agent
 
-The agent sends an alert at the following times:
+If the Teams app has been shared with and added by end users, the agent sends an alert at the following times:
 
 - As soon as it creates time entries for the week (at the beginning of a week).
 - When it generates external comments for the week (on the last working day of the week).
@@ -69,7 +69,9 @@ The agent sends an alert at the following times:
 
 ### Review time entries created by the agent
 
-For alerts that are related to created time entries or external comments, the user receives an adaptive card in Teams. The adaptive card provides a summary of the user's time entries for the current working week. The following illustration shows an example
+Users can review time entries created by the agent by navigating to the Time Entry Grid at the start of their work week. If the Teams app has been enabled and shared with users, continue reading to know more on reviewing Teams alerts.
+
+For alerts that are related to created time entries or external comments, the user receives an alert in Teams. The alert provides a summary of the user's time entries for the current working week. The following illustration shows an example.
 
 :::image type="content" source="../media/reviewentries.png" alt-text="Screenshot of an adaptive card that shows the weekly summary of time entries created by the agent.":::
 
@@ -92,10 +94,6 @@ Here is an explanation of key elements of the adaptive card:
 
 Time entries that the agent created can be modified in two ways:
 
-- **Directly in Teams** – Use the **View Day** buttons on the weekly summary adaptive card to open the time entry details adaptive card for specific days.
-
-    In this case, the only two fields that can be modified are **Duration** and **External Comments**. After you make the required changes, you can select either **Save changes** or **Submit all**. The **Submit all** button submits all entries for that day only.
-
 - **In the Project Operations web app** – Use the **Open in Web** link on an adaptive card to go to the **Time Entry** module in the Project Operations web app.
 
     Use this method to make more significant changes to time entries. For example, the changes might involve deleting or changing fields such as **Task** and **Project**.
@@ -103,9 +101,13 @@ Time entries that the agent created can be modified in two ways:
     > [!NOTE]
     > A sparkle symbol indicates time entries that the agent created, or that the agent generated external comments for.
 
+- **Directly in Teams** – Use the **View Day** buttons on the weekly summary adaptive card to open the time entry details adaptive card for specific days.
+
+    In this case, the only two fields that can be modified are **Duration** and **External Comments**. After you make the required changes, you can select either **Save changes** or **Submit all**. The **Submit all** button submits all entries for that day only.
+
 ## Missing time entry alert
 
-The Time Entry feature of the Time and Expense Agent sends users an alert at the end of each work week if it determines that they have any missing hours.
+The Time Entry Agent sends users an alert at the end of each work week if it determines that they have any missing hours.
 
 A day is said to have missing hours for a user if the total number of hours in a **Submitted**, **Approved**, or **Recall Requested** state (that is, non-draft hours) is less than the user's working hours for that day.
 
