@@ -65,7 +65,7 @@ The agent user now has the privileges that it needs to sign in to Power Automate
 
 ## Activate Power Automate flows that the agent requires
 
-The Time Entry feature of the Time and Expense Agent can perform various actions, such as creating time entries and sending alerts to team members. Each action requires one or more Power Automate flows.
+The Time Entry Agent can perform various actions, such as creating time entries and sending alerts to team members. Each action requires one or more Power Automate flows.
 
 This step of the process **must be repeated for each environment** where the agent is being enabled.
 
@@ -143,7 +143,7 @@ You must complete this procedure steps for each flow before you move on to the n
 
 After you complete the procedure for all 12 flows, the agent user or administrator user can move on to the next step of the process, where the feature flag is enabled.
 
-## Enable the Time and Expense Agent
+## Enable the agent feature from Project Operations
 
 To enable the feature in a Project Operations environment, follow these steps.
 
