@@ -1,35 +1,35 @@
 ---
-title: Expense Entry feature of the Time and Expense Agent FAQ (preview)
+title: Expense Agent FAQs (Preview)
 description: Get answers to frequently asked questions about the Expense Entry feature of the Time and Expense Agent.
-author: alexeiantao
+author: ajitchandran
 ms.date: 05/13/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: alexeiantao
+ms.author: ajitchandran
 ---
 
-# Expense Entry feature of the Time and Expense Agent FAQ (preview)
+# Expense Agent FAQs (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-This article provides answers to frequently asked questions about the Expense Entry feature of the Time and Expense Agent. It also describes known issues that affect the agent and explains how to work around them.
+This article provides answers to frequently asked questions about the Expense Agent. It also describes known issues that affect the agent and explains how to work around them.
 
 ## Agent enablement and configuration
 
 ### How do I enable/disable the agent?
 
-To enable/disable the agent, go to the configuration page in Expense Management parameters.
+To enable/disable the agent, go to the configuration page in Expense management parameters. 
 
 ### Can I enable/disable the agent for selected legal entities and provide custom configurations?
 
-Yes, the agent can be enabled/disabled for selected legal entities. Configurations are unique to each legal entity.
+Yes, the Expense Agent can be enabled/disabled for selected legal entities. Configurations are unique to each legal entity.
 
 ### Why doesn't the Expense Entry feature of the Time and Expense Agent appear in Expense Management parameters in finance and operations apps?
 
-The Expense Entry feature of the Time and Expense Agent is available as of version 10.0.44 of finance and operations apps. Enable the **Agent Management** feature in the **Feature Management** workspace (**Workspaces** \> **Feature Management**).
+The Expense Agent is available as of version 10.0.44 of finance and operations apps. Enable the **Agent Management** feature in the **Feature Management** workspace (**Workspaces** \> **Feature Management**).
 
 ### Why isn't the Expense Entry solution shown?
 
@@ -67,7 +67,7 @@ Ensure that the connectors are in the **Business** group and the allow list.
 
 ## Agent execution
 
-### What should I do if the Expense Entry feature of the Time and Expense Agent isn't processing my email receipts?
+### What should I do if the Expense Agent isn't processing my email receipts?
 
 Ensure that you're part of the correct legal entity and have active employment. In addition, verify that the agent is enabled for the legal entity.
 
@@ -88,7 +88,7 @@ Flows might be in a disabled state because of repeated failures. In this case, t
 
 Here are some possible causes:
 
-- The Expense Entry feature of the Time and Expense Agent isn't enabled for the legal entity.
+- The Expense Agent isn't enabled for the legal entity.
 - Users don't have employment in the legal entity.
 - Connectors are disconnected.
 - The Copilot Studio license is missing.
