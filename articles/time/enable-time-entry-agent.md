@@ -1,6 +1,6 @@
 ---
-title: Enable the Time Entry feature of the Time and Expense Agent in an environment (preview)
-description: Learn how administrators can enable the Time Entry feature of the Time and Expense Agent in one or more environments in their organization.
+title: Enable the Time Entry Agent in an environment (preview)
+description: Learn how administrators can enable the Time Entry Agent in one or more environments in their organization.
 author: mohitmenon
 ms.date: 05/13/2025
 ms.update-cycle: 180-days
@@ -13,20 +13,20 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Enable the Time Entry feature of the Time and Expense Agent in an environment (preview)
+# Enable the Time Entry Agent in an environment (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-The Time Entry feature of the Time and Expense Agent is available as a **production-ready preview** in Microsoft Dynamics 365 Project Operations environments that have **version 4.140.0.239 or later**.
+The Time Entry Agent is available as a **production-ready preview** in Microsoft Dynamics 365 Project Operations environments that have **version 4.140.0.239 or later**.
 
 Before team members can use the feature to log their time entries, an administrator must complete the following steps to enable it in one or more Project Operations environments.
 
 1. Optional but recommended: Create the organization's agent user.
 1. Activate the Power Automate flows that the agent requires. (These flows enable the agent to complete some actions on behalf of team members.)
-1. Enable the **Time and Expense agent** feature flag.
+1. Enable the feature flag.
 1. Publish the agent from Microsoft Copilot Studio to users in the organization.
 
 The following sections explain each step in detail.
@@ -35,7 +35,7 @@ The following sections explain each step in detail.
 
 Although this step is **optional**, we recommend that you create a dedicated agent user to configure and enable agents in your organization. If your organization already has a dedicated user that has an administrator role assigned to it and is used for similar purposes, you can skip this section and move on to the [Activate Power Automate flows that the agent requires](#activate-power-automate-flows-that-the-agent-requires) section.
 
-If you decide to complete this step, it's required **only once** for your organization. The agent user can then be used to enable the Time Entry feature of the Time and Expense Agent in multiple environments.
+If you decide to complete this step, it's required **only once** for your organization. The agent user can then be used to enable the Time Entry Agent in multiple environments.
 
 To create a dedicated agent user, sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and follow the steps in [Create users](/power-platform/admin/create-users).
 
@@ -47,9 +47,9 @@ Ensure that all the following required licenses are assigned to the new agent us
 
 ### Assign a required role to the agent user
 
-The **Time and Approvals agent** role gives the agent user the rights that it needs to enable and publish the Time Entry feature of the Time and Expense Agent.
+The new **Time and Approval agent** role gives the agent user the rights that it needs to enable and publish the Time Entry Agent.
 
-To assign the **Time and Approvals agent** role to the agent user, follow these steps.
+To assign this role to the agent user, follow these steps.
 
 1. In the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), use the environment switcher in the upper right to select the desired environment.
 1. In the **Access** section, under **Users**, select **See all**.
@@ -57,9 +57,9 @@ To assign the **Time and Approvals agent** role to the agent user, follow these 
 1. In the dialog, select the checkbox next to **Time and Approval agent**, and then select **Save**.
 
 > [!IMPORTANT]
-> This procedure is required only if you created a new agent user to enable the Time Entry feature of the Time and Expense Agent. It isn't required if you're using an existing administrator user instead of an agent user.
+> This procedure is required only if you created a new agent user to enable the Time Entry Agent. It isn't required if you're using an existing administrator user instead of an agent user.
 >
-> This procedure must be repeated for every new environment where the Time Entry feature of the Time and Expense Agent has to be enabled.
+> This procedure must be repeated for every new environment where the Time Entry Agent has to be enabled.
 
 The agent user now has the privileges that it needs to sign in to Power Automate and enable the required flows in the next step of the process.
 
@@ -162,14 +162,14 @@ The feature can be disabled at any time after it's enabled.
 After you activate all the Power Automate flows and enable the feature flag, the last step for an administrator is to publish the agent to users in your organization from Copilot Studio.
 
 > [!IMPORTANT]
-> Before you begin this step, ensure that all the required flows are in the **ON** state (activated). If any flow isn't activated, the Time Entry feature of the Time and Expense Agent might not work as expected. If the **"Create or Update User Configuration for Time Entry..."** flow isn't activated, the agent can't even be published.
+> Before you begin this step, ensure that all the required flows are in the **ON** state (activated). If any flow isn't activated, the Time Entry Agent might not work as expected. If the **"Create or Update User Configuration for Time Entry..."** flow isn't activated, the agent can't even be published.
 
 To publish the agent, follow these steps.
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 1. Use the environment switcher in the upper right to select the desired environment.
 1. In the left pane, select **Agents**. (If **Agents** isn't visible in the left pane, select **More**, and then select **Agents** in the pop-up window.)
-1. Under **All**, select **Time Entry**. A new tab for the agent appears in Copilot Studio.
+1. Under **All**, select **Time Entry Agent**. A new tab for the agent appears in Copilot Studio.
 1. Use the environment switcher in the upper right to ensure that the correct environment is selected.
 1. If a "Consent confirmation" message appears in the **Test your agent** pane on the right, select **Confirm**.
 1. Select **Publish** to publish the agent. If a message informs you about potential risks, review the potential risks, and then select **Publish**.
@@ -198,7 +198,7 @@ After the agent is published, follow these steps to make it available to users a
 1. Select **Publish**.
 1. Go **Teams apps** \> **Setup policies**.
 1. Select **Global (org-wide default)**, and then select **Add apps**.
-1. Search for "Time Entry," add the app, and then select **Save**.
+1. Search for "Time Entry," add the **Time Entry Agent (Preview)** app, and then select **Save**.
 
 > [!IMPORTANT]
 > In some cases, administrator approval for the Teams app might take **up to 12 hours**. Therefore, we recommend that you wait at least that long before you notify team members that they can access the agent through Teams.
