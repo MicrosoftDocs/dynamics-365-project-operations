@@ -1,6 +1,6 @@
 ---
-title: Start using the Time Entry feature of the Time and Expense Agent as a team member
-description: Learn how team members can start to use the Time Entry feature of the Time and Expense Agent through Microsoft Teams.
+title: Start using the Time Entry Agent as a team member
+description: Learn how team members can start to use the Time Entry Agent.
 author: mohitmenon
 ms.date: 05/13/2025
 ms.update-cycle: 180-days
@@ -13,21 +13,21 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Start using the Time Entry feature of the Time and Expense Agent as a team member
+# Start using the Time Entry Agent as a team member
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-After an administrator completes all the steps in [Enable the Time Entry feature of the Time and Expense Agent in an environment](enable-time-entry-agent.md), team members can start to use the agent. The agent is available to team members as a Microsoft Teams app and communicates with them via Teams.
+After an administrator completes all the steps in [Enable the Time Entry Agent in an environment](enable-time-entry-agent.md), team members can start to use the agent. The agent is available to team members within the Time Entry Grid experience or as a Microsoft Teams app where alerts are sent.
 
 To begin to use the agent through Teams, each user must complete the following steps.
 
-1. Add the Teams app for time entry.
+1. Add the Teams app for time entry (optional).
 1. Give the agent consent to create time entries, and set some preferences.
 
-## Add the Teams app
+## Add the Teams app (optional step)
 
 After your organization enables the agent and shares it with you, follow these steps to access it as a Teams app.
 
@@ -53,14 +53,21 @@ If this initial message isn't automatically shown the first time that you open t
 
 ### Give the agent consent to create time entries
 
-To give the agent consent to create time entries, follow these steps.
+This step can be completed in two ways.
 
+Give consent directly **from the Project Operations web app**:
+1. Navigate to **Time Entry** from the Project Operations web app
+1. A new **Time Agent** drop-down button will be visible on the ribbon menu (next to "Import")
+1. Select the drop-down and click **Set Agent User Preferences**
+1. Set the first option from the list to **"Yes"** to enable the agent to create time entries on your behalf.
+
+Give consent **from the Teams app**:
 1. In the initial "Logging Time made easy" message, select **Get Started**.
 1. When you're asked whether you want to allow the agent to create time entries on your behalf, select **Yes**.
 
 ### Set agent preferences
 
-After you give the agent consent to create time entries for you, four more configurable preferences are shown. You must set these preferences to specify how the agent creates time entries and sends alerts to you.
+After you give the agent consent to create time entries for you, four more configurable preferences are made visible to the user. These preferences can be set from the Project Operations web app or the Teams app. You must set these preferences to specify how the agent creates time entries and sends alerts to you.
 
 - **Source of time entries** – Use the checkboxes to select one or more sources that the agent should use when it creates time entries for you.
 
@@ -83,6 +90,13 @@ After you set the preferences, select **Save preferences**. You should receive a
 
 To modify your existing preferences, follow these steps.
 
+Modify agent preferences from the Time Entry Grid in Project Operations:
+1. Navigate to **Time Entry** from the Project Operations web app
+1. A new **Time Agent** drop-down button will be visible on the ribbon menu (next to "Import")
+1. Select the drop-down and click **Set Agent User Preferences**. 
+1. Edit one or more preferences, click **Save**.
+
+Modify agent preferences using the Teams app:
 1. Send **Update Agent preferences** or **Agent preferences** in the chat.
 1. A summary of your existing preferences is shown. Modify the selections as you require.
 1. Select **Save preferences**.
@@ -100,7 +114,7 @@ To share calendar access with the agent user, follow these steps.
 
 ## Next steps
 
-After you complete all the one-time setup procedures in this article, the Time Entry feature of the Time and Expense Agent is ready for you to use as a team member. Here is an overview of the experience of logging time entries:
+After you complete all the one-time setup procedures in this article, the Time Entry Agent is ready for you to use as a team member. Here is an overview of the experience of logging time entries:
 
 1. At the beginning of a week, the agent creates draft time entries for you.
 1. You receive an alert from the agent in Teams. This alert summarizes the time entries that were created.
@@ -108,6 +122,6 @@ After you complete all the one-time setup procedures in this article, the Time E
 1. Modify the time entries as required, and then submit them for approval.
 1. On the last working day of the week, the agent sends you a reminder to submit any missing hours.
 
-Learn more about the behavior of the Time Entry feature of the Time and Expense Agent, and the experience of reviewing alerts, in [Review time entries created by the Time Entry feature of the Time and Expense Agent](reviewing-entries-created-by-time-agent.md).
+Learn more about the behavior of the Time Entry feature of the Time and Expense Agent, and the experience of reviewing alerts, in [Review time entries created by the Time Entry Agent](reviewing-entries-created-by-time-agent.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
