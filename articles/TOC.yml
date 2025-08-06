@@ -1372,7 +1372,7 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
-    - name: Expense Agent
+    - name: Expense Agent (Preview)
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
@@ -1818,7 +1818,7 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
-    - name: Expense Agent
+    - name: Expense Agent (Preview)
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
@@ -1970,7 +1970,7 @@
   items: 
   - name: Expense management overview
     href: prod-exp/expense-management.md
-  - name: Expense Agent
+  - name: Expense Agent (Preview)
     items:
     - name: Expense Agent overview
       href: expense/expense-agent-overview.md
