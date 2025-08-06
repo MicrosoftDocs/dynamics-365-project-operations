@@ -660,6 +660,14 @@
         href: time/enable-time-entry-mobile-app.md
       - name: Log time entries using mobile app
         href: time/log-time-using-time-entry-mobile-app.md 
+    - name: Time Entry Agent (preview)
+      items:
+      - name: Enable the time entry agent
+        href: time/enable-time-entry-agent.md
+      - name: Start using the agent as a team member 
+        href: time/use-time-entry-agent-in-teams.md
+      - name: Review time entries created by the agent 
+        href: time/reviewing-entries-created-by-time-agent.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
@@ -1360,10 +1368,18 @@
       items:
       - name: Overview of mobile app
         href: time/time-entry-mobile-app.md  
-      - name: Enable Dynamics 365 Time Entry (Preview) mobile app
+      - name: Enable Dynamics 365 Time Entry mobile app (preview)
         href: time/enable-time-entry-mobile-app.md
       - name: Log time entries using mobile app
         href: time/log-time-using-time-entry-mobile-app.md 
+    - name: Time Entry Agent (preview)
+      items:
+      - name: Enable the time entry agent
+        href: time/enable-time-entry-agent.md
+      - name: Start using the agent as a team member 
+        href: time/use-time-entry-agent-in-teams.md
+      - name: Review time entries created by the agent 
+        href: time/reviewing-entries-created-by-time-agent.md
     - name: Developer notes
       items: 
       - name: Customize the weekly time entry grid
@@ -1372,11 +1388,11 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
-    - name: Expense Agent
+    - name: Expense Agent (preview)
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
-      - name: Installation and Setup of the Expense Agent (Preview)
+      - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
       - name: Expense Agent FAQs
         href: expense/expense-agent-faq.md
@@ -1818,11 +1834,11 @@
     items:
     - name: Expense overview
       href: expense/expense-overview.md
-    - name: Expense Agent
+    - name: Expense Agent (preview)
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
-      - name: Installation and Setup of the Expense Agent (Preview)
+      - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
       - name: Expense Agent FAQs
         href: expense/expense-agent-faq.md
@@ -1970,11 +1986,11 @@
   items: 
   - name: Expense management overview
     href: prod-exp/expense-management.md
-  - name: Expense Agent
+  - name: Expense Agent (preview)
     items:
     - name: Expense Agent overview
       href: expense/expense-agent-overview.md
-    - name: Installation and Setup of the Expense Agent (Preview)
+    - name: Installation and Setup of the Expense Agent
       href: expense/expense-agent-setup.md
     - name: Expense Agent FAQs
       href: expense/expense-agent-faq.md
@@ -2530,14 +2546,6 @@
       items:
       - name: Add custom forms for entities
         href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
-- name: Time Entry Agent (preview)
-  items:
-  - name: Enable the time entry feature
-    href: time/enable-time-entry-agent.md
-  - name: Start using the agent in Teams 
-    href: time/use-time-entry-agent-in-teams.md
-  - name: Review time entries created by the agent 
-    href: time/reviewing-entries-created-by-time-agent.md
 - name: Responsible AI FAQs
   items:
   - name: Responsible AI FAQs for Project Operations
