@@ -22,12 +22,12 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 After an administrator completes all the steps in [Enable the Time Entry Agent in an environment](enable-time-entry-agent.md), team members can start to use the agent. The agent is available to team members within the Time Entry Grid experience or as a Microsoft Teams app where alerts are sent.
 
-To begin to use the agent through Teams, each user must complete the following steps.
+To begin to use the agent, each user must complete the following steps.
 
 1. Add the Teams app for time entry (optional).
 1. Give the agent consent to create time entries, and set some preferences.
 
-## Add the Teams app (optional step)
+## Add the Teams app (optional)
 
 After your organization enables the agent and shares it with you, follow these steps to access it as a Teams app.
 
