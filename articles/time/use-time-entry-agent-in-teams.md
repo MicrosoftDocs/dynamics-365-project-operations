@@ -123,6 +123,6 @@ After you complete all the one-time setup procedures in this article, the Time E
 1. Modify the time entries as required, and then submit them for approval.
 1. On the last working day of the week, the agent sends you a reminder to submit any missing hours.
 
-Learn more about the behavior of the Time Entry feature of the Time and Expense Agent, and the experience of reviewing alerts, in [Review time entries created by the Time Entry Agent](reviewing-entries-created-by-time-agent.md).
+Learn more about the behavior of the Time Entry Agent, and the experience of reviewing alerts, in [Review time entries created by the Time Entry Agent](reviewing-entries-created-by-time-agent.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
