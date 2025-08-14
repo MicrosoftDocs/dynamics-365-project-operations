@@ -18,10 +18,10 @@ This article explains how to **update** the Dynamics 365 expense management mobi
 ## Steps to update the Dynamics 365 expense management mobile app
 To ensure you are using the latest features and improvements, please follow the steps below to update the Dynamics 365 Expense Management mobile app:
 
-### Step 1: Update Your Finance & Operations Environment
+### Step 1: Update your finance & operations environment
 Ensure that your Finance & Operations environment is updated to the specified patch version or a later one. 
 
-### Step 2: Refresh Entities in the Finance & Operations Environment
+### Step 2: Refresh Entities in the finance & operations environment
 After updating the environment, refresh all entities by following these instructions:
 1.	Navigate to **System Administration** > **Workspaces** > **Data Management** or simply search for Data Management in the search bar.
 2.	Select **Framework parameters**.
