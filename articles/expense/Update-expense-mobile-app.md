@@ -21,7 +21,7 @@ To ensure you are using the latest features and improvements, please follow the 
 ### Step 1: Update your finance & operations environment
 Ensure that your Finance & Operations environment is updated to the specified patch version or a later one. 
 
-### Step 2: Refresh Entities in the finance & operations environment
+### Step 2: Refresh entities in the finance & operations environment
 After updating the environment, refresh all entities by following these instructions:
 1.	Navigate to **System Administration** > **Workspaces** > **Data Management** or simply search for Data Management in the search bar.
 2.	Select **Framework parameters**.
@@ -29,7 +29,7 @@ After updating the environment, refresh all entities by following these instruct
 4.	This action will trigger a batch job. The process may take some time.
 5.	To monitor the progress, go to **System administration** > **Inquiries** > **Batch jobs**, or search for Batch jobs, and locate the job with the description Refresh entity list. Once the job is completed, proceed with step 3.
 
-### Step 3: Update the Expense Mobile App
+### Step 3: Update the expense management mobile app 
 Complete the process by updating the Expense Management mobile app via the [Power Platform Admin Center (PPAC)](https://admin.powerplatform.microsoft.com/)
 1. Goto [Power Platform Admin Center (PPAC)](https://admin.powerplatform.microsoft.com/)
 2. Select the desired environment in which you want to update the Dynamics 365 Expense Management mobile app.
