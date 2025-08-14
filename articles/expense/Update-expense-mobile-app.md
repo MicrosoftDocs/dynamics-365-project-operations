@@ -9,7 +9,7 @@ ms.author: ajitchandran
 ms.custom: 
   - bap-template
 ---
-# Update the Dynamics 365 expense management mobile app
+# Update the Dynamics 365 expense management mobile app 
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 
