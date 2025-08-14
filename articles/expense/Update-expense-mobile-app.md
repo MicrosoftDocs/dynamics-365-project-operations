@@ -13,7 +13,7 @@ ms.custom:
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 
-This article explains how to update the Dynamics 365 expense management mobile app on a mobile device. This is only when you already have the Dynamics 365 expense management mobile app installed and are looking to update to the latest version. For more information about installing and configuring the Dynamics 365 expense management mobile app for your Microsoft Dynamics 365 Finance and Dataverse environment, see [Install the Power Apps mobile app](/power-apps/mobile/run-powerapps-on-mobile).
+This article explains how to **update** the Dynamics 365 expense management mobile app to the latest available version. This is only when you already have the Dynamics 365 expense management mobile app installed and are looking to update to the latest version. For more information about installing and configuring the Dynamics 365 expense management mobile app for your Microsoft Dynamics 365 Finance and Dataverse environment, see [Install the Power Apps mobile app](/power-apps/mobile/run-powerapps-on-mobile).
 
 To ensure you are using the latest features and improvements, please follow the steps below to update the Dynamics 365 Expense Management mobile app:
 Step 1: Update Your Finance & Operations Environment
