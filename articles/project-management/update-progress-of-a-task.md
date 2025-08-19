@@ -58,13 +58,15 @@ If the **Allow percent complete update** option is set to **No**, users have the
 - Users can instantly mark a task as completed by selecting the checkbox next to the task name. This action sets the **Effort Remaining** field to **0** and, in turn, marks the task as 100% completed. If the checkbox is cleared, the **% complete** field reverts to its previous value.
 
 > [!NOTE]
-> To update the progress of a task by selecting the checkbox when 'Allow percent complete update' is set to No, the completed effort must be greater than zero.
+> To update the progress of a task by selecting the checkbox when **Allow percent complete update** is set to **No**, the completed effort must be greater than zero.
 
 ## Schedule API support
+
 Schedule APIs now support updating a task's progress via the **% Complete (msdyn_progress)** field.
+
 1. The **msdyn_progress** field can only be modified during an **update** operation.
-2. Users must provide a value between 0 and 1 when updating **msdyn_progress**.
-3. If **Allow percent complete update** is set to **No**:
+1. Users must provide a value between 0 and 1 when updating **msdyn_progress**.
+1. If **Allow percent complete update** is set to **No**:
    - Only values 0 or 1 are accepted.
    - Setting the value to 0 resets the **% Complete** field to match the value of the **Effort Completed** in percentage.
    - Setting it to 1 marks the task as 100% complete by setting **Effort Remaining** to 0.
