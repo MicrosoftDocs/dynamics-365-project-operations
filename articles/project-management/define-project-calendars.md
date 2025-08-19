@@ -1,29 +1,13 @@
 ---
-# required metadata
-
 title: Define and edit project calendars
 description: This article provides information about how to apply a calendar template to a project to track the project schedule.
 author: dishantpopli
-ms.date: 07/22/2025
+ms.date: 08/19/2025
 ms.topic: how-to
- 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
 ms.reviewer: johnmichalak
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-ms.custom: 
-ms.assetid: 
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
@@ -51,24 +35,27 @@ To create a calendar template for your organization, there are two key requireme
 
 ### Create a new calendar template
 
+To create a new calendar template, follow these steps.
+
 1. Go to **Settings** \> **Calendar Template**.
-2. Select **New**, and enter a name, description.
-3. Optionally select template resource to define the calendar rules.
+1. Select **New**, and enter a name, description.
+1. Optionally select template resource to define the calendar rules.
 
 > [!NOTE]
-> Users can now effortlessly create calendar templates without relying on a template resource and conveniently update working hours directly from the template's Calendar tab.
+> You can create calendar templates without relying on a template resource and conveniently update working hours directly from the template's Calendar tab.
 
 ### Define the working hours of the template
 
-**Template resource is not selected**
-1. **Calendar** tab appears when the template is saved.
-2. Select the **Calendar** tab of the template and complete the instructions in [Add work hours on calendar](/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.
+To define the working hours of the template when the **Template resource is not selected**, follow these steps.
 
-**Template resource is selected**
+1. **Calendar** tab appears when the template is saved.
+1. Select the **Calendar** tab of the template and complete the instructions in [Add work hours on calendar](/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.
+
+To define the working hours of the template when the **Template resource is selected**, follow these steps.
 
 1. Go to **Resources** \> **Resources**.
-3. Create a new resource to reference in the calendar template, or select an existing resource.
-3. Select the **Work Hours** tab of the resource and complete the instructions in [Add work hours for a resource](/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.
+1. Create a new resource to reference in the calendar template, or select an existing resource.
+1. Select the **Work Hours** tab of the resource and complete the instructions in [Add work hours for a resource](/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.
 
 
 > [!NOTE]
