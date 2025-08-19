@@ -2,7 +2,7 @@
 title: Update the progress of a task
 description: Learn how to update the progress of a task directly from the task grid.
 author: dishantpopli
-ms.date: 07/21/2025
+ms.date: 08/19/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
