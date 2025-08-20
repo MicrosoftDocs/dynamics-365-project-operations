@@ -1448,6 +1448,8 @@
         href: expense/new-expense-mobile-app-install-and-configure.md
       - name: Install and open the Expense mobile app on a mobile device
         href: expense/mobile-app-install-on-mobile-device.md
+      - name: Update the Dynamics 365 expense management mobile app
+        href: expense/Update-expense-mobile-app.md
       - name: Manage expenses, reports, and receipts
         items:
         - name: Manage expenses, expense reports, and receipts overview
