@@ -2,7 +2,7 @@
 title: Approvals overview
 description: This article provides information about working with approvals in Project Operations.
 author: suvaidya
-ms.date: 06/10/2025
+ms.date: 08/21/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -31,7 +31,7 @@ The **Approvals** page allows you to switch between different views so that you 
 The system processes these entries and creates actuals.
 
 > [!NOTE]
-> Approval actions (approve, reject, cancel) all must be completed by selecting the appropriate action button on the ribbon or by using the [process project approval sets API](dev-programattic-approvals.md). They cannot be completed by directly updating the Record Stage on the Project Approval record.
+> Approval actions (approve, reject, cancel) must be completed by selecting the appropriate action button on the ribbon, or by using the [process project approval sets API](dev-programattic-approvals.md). You can't complete them by directly updating the Record Stage on the Project Approval record.
 
 ## Reject an entry
 As the Project approver, you may have to send an entry back to a user for correction.
