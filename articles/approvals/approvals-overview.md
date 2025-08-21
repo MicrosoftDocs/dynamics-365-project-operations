@@ -31,7 +31,7 @@ The **Approvals** page allows you to switch between different views so that you 
 The system processes these entries and creates actuals.
 
 > [!NOTE]
-> Approval actions (approve, reject, cancel) must be completed by selecting the appropriate action button on the ribbon, or by using the [process project approval sets API](dev-programatic-approvals.md). You can't complete them by directly updating the Record Stage on the Project Approval record.
+> Approval actions (approve, reject, cancel) must be completed by selecting the appropriate action button on the ribbon, or by using the [process project approval sets API](dev-programatic-approvals). You can't complete them by directly updating the Record Stage on the Project Approval record.
 
 ## Reject an entry
 As the Project approver, you may have to send an entry back to a user for correction.
