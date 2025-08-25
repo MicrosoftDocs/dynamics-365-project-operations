@@ -14,13 +14,13 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Core. and Project Operation integrated with ERP_
+_**Applies To:** Project Operations Core, and Project Operation integrated with ERP_
 
 This article provides an overview of the setup of the **Discount and Fee** feature in Microsoft Dynamics 365 Project Operations. In some cases, discounts might apply to the contracts that organizations enter into with customers. Alternatively, organizations might choose to charge extra fees, such as administrative fees. Project Operations lets you define discount percentages and fee percentages at the level of the project quotation or the contract line. When a transaction is generated and approved, the system applies the appropriate discount or fee, based on the contract line setup. It then updates the actuals accordingly. This feature is applicable to **Time and Material** business processes.
 
 > [!NOTE]
 > **Discount and fee** are applicable only to **Time & Material** billing types.
-> Once the **Discount and fee** feature is enabled, it cannot be disabled because transactions may have been processed based on the applied discount or fee percentage.
+> Once the **Discount and fee** feature is enabled, it can't be disabled because transactions may have been processed based on the applied discount or fee percentage.
 
 ## Prerequisites
 
@@ -94,7 +94,7 @@ Project invoices are used to bill customers, and they can include one or more in
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Discount and fee posting in Dynamics 365 Finance requires updates to the Project integration journal and Project invoices. Fees and discounts impact Wor in progress (WIP) and accrual transactions generated through the project integration journal and reverse during the project invoice posting process. 
+Discount and fee posting in Dynamics 365 Finance requires updates to the Project integration journal and Project invoices. Fees and discounts impact work in progress (WIP) and accrual transactions generated through the project integration journal and reverse during the project invoice posting process. 
 
 > [!NOTE]
 > **Discount and fee** are applicable only to **Time and Material** billing types.
@@ -130,7 +130,7 @@ During the **Project integration journal** posting process, WIP and accrual tran
 Once the **project invoice** is generated, fee transactions linked to the source documents—such as time, expense, or material actuals automatically become part of the main invoice proposal lines. Tax amounts are also posted financially, based on the sales tax group and item sales tax group configurations.
 
 > [!NOTE]
-> During the invoice line generation process using **Import from staging**, if fee transactions are expected on the invoice proposal lines but are not successfully posted through the Project integration journal, the system doesn't generate the corresponding project invoice proposal lines. Instead, it logs an error message indicating the issue.
+> During the invoice line generation process using **Import from staging**, if fee transactions are expected on the invoice proposal lines but aren't successfully posted through the Project integration journal, the system doesn't generate the corresponding project invoice proposal lines. Instead, it logs an error message indicating the issue.
 
 ### Discount
 
@@ -138,7 +138,7 @@ For **discounts**, depending on the organization’s policy, the discount either
 
 #### Project management and accounting parameters
 
-According to the organization’s policy, if discounts must be posted separately and are not deducted from project revenue accounts/ The **Discount category** field is available in the **Project management and accounting parameters**. This field helps identify the appropriate ledger account for posting discount amounts independently.
+According to the organization’s policy, if discounts must be posted separately and aren't deducted from project revenue accounts/ The **Discount category** field is available in the **Project management and accounting parameters**. This field helps identify the appropriate ledger account for posting discount amounts independently.
 
 1. Go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
 2. Go to **Project Operations on Dynamics 365 customer engagement** tab.
@@ -148,7 +148,7 @@ According to the organization’s policy, if discounts must be posted separately
 
 During the project integration journal posting process, if the **Line discount** field is enabled in the **Project management and accounting parameters**, the system posts the sales amount without considering the discount. WIP and accrual financial transactions are then generated accordingly.
 
-If the **Line discount** field is not enabled in the **Project management and accounting parameters**, the system posts the sales amount after deducting the discount amount. WIP and accrual financial transactions are then generated accordingly.
+If the **Line discount** field isn't enabled in the **Project management and accounting parameters**, the system posts the sales amount after deducting the discount amount. WIP and accrual financial transactions are then generated accordingly.
 
 #### Project invoice
 
