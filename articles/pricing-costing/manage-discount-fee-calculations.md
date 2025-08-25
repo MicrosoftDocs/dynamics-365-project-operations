@@ -108,7 +108,7 @@ To use the feature for Project Operations integrated deployments, you must have 
 
 **Project Operations Dataverse version** 4.145.0.x or later
 
-**Dynamics 365 Finance version** 10.0.45 (10.0.2263.44) or later
+**Dynamics 365 Finance version** 10.0.45 (10.0.2345.41) or later
 
 ## Run dual-write maps
 
