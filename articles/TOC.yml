@@ -1108,6 +1108,8 @@
           href: pricing-costing/update-plugin-attributes-pd.md
       - name: Turn off a pricing dimension    
         href: pricing-costing/turning-off-pricing-dimension.md
+    - name: Manage discounts and fees overview
+      href: pricing-costing/manage-discount-fee-calculations.md
   - name: Project management
     items: 
     - name: Project management overview
