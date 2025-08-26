@@ -1,0 +1,49 @@
+Improve Invoice Usability with Modern Invoicing
+**Applies To:**
+Dynamics 365 Project Operations Core
+Dynamics 365 Project Operations Integrated with ERP
+## Overview
+The modern invoicing experience in Dynamics 365 Project Operations builds consolidated view of contracts, contract lines, and invoiceable transactions. It introduces usability enhancements that streamline invoice management, editing, and validation—reducing clicks, improving clarity, and aligning with real-world billing workflows.
+This article outlines the usability improvements, supported actions, and design principles that guide the modern invoicing experience.
+
+## Business Value
+Project-based organizations often manage thousands of transactions per invoice cycle. These include time, expense, product usage, and milestone-based billing. The modern invoicing experience helps:
+Reduce time spent navigating between forms and views.
+Improve accuracy by surfacing key financial metrics before invoice confirmation.
+Enable intuitive editing of invoice line details (ILDs).Support faster decision-making with contextual insights.
+
+## Feature Highlights
+## Modern Invoice header
+Users can now have the better view for invoice details.
+
+Bulk Edit Functionality: Customers now have the capability to select multiple ILDs and efficiently update their values simultaneously.
+
+## Transaction insights
+The system now offers users a detailed view of transactions across the following sections:
+Pending Transactions: Presents all billable transactions that have not yet been added to the current invoice, including services performed, product deliveries, and other outstanding items awaiting invoicing and users can click to review transaction details, select entries, and include them in the ongoing invoice.  Users can now directly select TME entries, milestones, as well as available and applied advances to be included in the invoice from the Pending Transactions form. This streamlined process provides greater visibility and control, helping ensure all relevant charges are captured, thereby improving billing completeness and supporting accurate financial reporting.
+
+Edited Transactions: Highlights modifications that have been made to transactions which effect the invoice amount. These edits may include changes to quantities, prices, billing types, and taxes which directly impact the invoice total. By surfacing these updates, the system helps users maintain transparency and control over billing adjustments. Reviewing edited transactions ensures that users are aware of any post-creation changes, supports audit readiness, and enables accurate financial reconciliation.
+> **Note:** For invoices created before enabling this feature, pending transactions and edited transaction will not be calculated.
+
+## Financial Summary details
+In addition to providing invoice details, we will also present the contract financial summary, ensuring that all necessary information is available to the user.
+Contract Value: The total value defined in the contract.
+Billed Amount: The cumulative amount billed to date, excluding the current invoice.
+Current Invoice Amount: The amount being charged in this invoice.
+Remaining Amount: The balance left on the contract after subtracting the billed amount.
+NTE (Not-to-Exceed): The maximum allowable value under the contract.
+## Editable Invoice Line Details
+Depending on transaction type, users can edit:
+Time & Material: Billing type, quantity, price, tax.
+Fixed Price: Chargeability, price, tax.
+Products: Tax only.
+Applied Advances: Extended amount.
+Regular Advances: Not editable.
+
+Tooltips and banners guide users through status changes and field refreshes.
+## Additional Resources
+- [Proforma project invoices | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/proforma-invoicing/create-manual-proforma-invoice-sales)
+- [Manage a proforma project invoice | Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/project-operations/pro/proforma-invoicing/manage-proforma-invoice-sales)
+- [Create proforma project invoices with Billing hub](https://learn.microsoft.com/en-us/dynamics365/project-operations/proforma-invoicing/billing-hub)
+
+
