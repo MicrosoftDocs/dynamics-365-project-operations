@@ -1,4 +1,16 @@
-Improve Invoice Usability with Modern Invoicing
+<!--
+
+title: Manage a proforma project invoice with modern invoice form
+description:  This article provides information about how to work with proforma project invoices.
+author: nshrivastava
+ms.date: 09/02/2025
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+-->
+
+# Improve Invoice Usability with Modern Invoicing
 
 *Applies To:* Dynamics 365 Project Operations Core, Dynamics 365 Project Operations Integrated with ERP
 ## Overview
