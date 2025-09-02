@@ -23,7 +23,7 @@ Project-based organizations often manage thousands of transactions per invoice c
 
 - Reduce time spent navigating between forms and views.
 - Improve accuracy by surfacing key financial metrics before invoice confirmation.
-- Enable intuitive editing of invoice line details (ILDs).Support faster decision-making with contextual insights.
+- Enable intuitive editing of invoice line details (ILDs). Support faster decision-making with contextual insights.
 
 ## Feature Highlights
 ### Modern Invoice header
@@ -59,13 +59,13 @@ Bulk Edit Functionality is a usability enhancement in Dynamics 365 Project Opera
 ### Transaction insights
 The system now offers users a detailed view of transactions across the following sections:
 
-**Pending Transactions:** Presents all billable transactions that have not yet been added to the current invoice, including services performed, product deliveries, and other outstanding items awaiting invoicing and users can click to review transaction details, select entries, and include them in the ongoing invoice.  Users can now directly select time entries, milestones, and available and applied advances to be included in the invoice from the Pending Transactions form. This streamlined process provides greater visibility and control, helping ensure all relevant charges are captured, thereby improving billing completeness and supporting accurate financial reporting.
+**Pending Transactions:** Presents all billable transactions that have not yet been added to the current invoice, including services performed, product deliveries, and other outstanding items awaiting invoicing and users can click to review transaction details, select entries, and include them in the ongoing invoice. Users can now directly select time entries, milestones, and available and applied advances to be included in the invoice from the Pending Transactions form. This streamlined process provides greater visibility and control, helping ensure all relevant charges are captured, thereby improving billing completeness and supporting accurate financial reporting.
 
-**Edited Transactions:** Highlights modifications that have been made to transactions which effect the invoice amount. These edits may include changes to quantities, prices, billing types, and taxes, which directly impact the invoice total. By surfacing these updates, the system helps users maintain transparency and control over billing adjustments. Reviewing edited transactions ensures that users are aware of any post-creation changes, supports audit readiness, and enables accurate financial reconciliation.
+**Edited Transactions:** Highlights modifications that have been made to transactions which affect the invoice amount. These edits may include changes to quantities, prices, billing types, and taxes, which directly impact the invoice total. By surfacing these updates, the system helps users maintain transparency and control over billing adjustments. Reviewing edited transactions ensures that users are aware of any post-creation changes, supports audit readiness, and enables accurate financial reconciliation.
 > **Note:** For invoices created before enabling this feature, pending transactions and edited transaction will not be calculated.
 
 ### Financial Summary details
-In addition to providing invoice details, we also presents the contract financial summary, ensuring that all necessary information is available to the user.
+In addition to providing invoice details, we also present the contract financial summary, ensuring that all necessary information is available to the user.
 
 - Contract Value: The total value defined in the contract.
 - Billed Amount: The cumulative amount billed to date, excluding the current invoice.
