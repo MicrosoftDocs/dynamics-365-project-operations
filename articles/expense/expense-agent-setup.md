@@ -416,7 +416,7 @@ function Get-AccessTokenPlainText {
         [Parameter(Mandatory=$true, HelpMessage="Access token for authentication")]
         [securestring]$accessToken
     )
-    # Retrieve the access token for the PVA environment
+    # Retrieve the access token for the Microsoft Copilot Studio environment
     $token = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
     [Runtime.InteropServices.Marshal]::SecureStringToBSTR($accessToken))
     return $token
@@ -757,7 +757,7 @@ function Get-AgentIdBySchemaName {
 }
 
 
-# Function to provision a PVA bot
+# Function to provision a Microsoft Copilot Studio bot
 function Provision-Agent {
     param (
         [string]$DataverseUrl,
@@ -784,7 +784,7 @@ function Provision-Agent {
 }
 
 
-# Function to publish a PVA bot
+# Function to publish a Microsoft Copilot Studio bot
 function Publish-Agent {
     param (
         [string]$DataverseUrl,
