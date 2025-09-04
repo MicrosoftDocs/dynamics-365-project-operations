@@ -1,5 +1,4 @@
-<!--
-
+---
 title: Manage a proforma project invoice with modern invoice form
 description:  This article explains how to work with proforma project invoices.
 author: nshrivastava
@@ -8,13 +7,11 @@ ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
--->
+---
 
 # Improve invoice usability with modern invoicing
 
-*Applies to:* Dynamics 365 Project Operations Core, Dynamics 365 Project Operations integrated with ERP (enterprise resource planning) system
-
-## Overview
+*Applies to:* Dynamics 365 Project Operations Core, Dynamics 365 Project Operations integrated with ERP
 
 The modern invoicing experience in Dynamics 365 Project Operations provides a consolidated view of contracts, contract lines, and invoiceable transactions. It includes usability enhancements that streamline invoice management, editing, and validation—reducing clicks, improving clarity, and aligning with real-world billing workflows.
 
