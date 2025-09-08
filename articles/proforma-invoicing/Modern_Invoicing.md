@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 *Applies to:* Dynamics 365 Project Operations Core, Dynamics 365 Project Operations integrated with ERP
 
-The modern invoicing experience in Dynamics 365 Project Operations provides a consolidated view of contracts, contract lines, and invoiceable transactions. It includes usability enhancements that streamline invoice management, editing, and validation—reducing clicks, improving clarity, and aligning with real-world billing workflows.
+The modern invoicing experience in Dynamics 365 Project Operations provides a consolidated view of contracts, contract lines, and invoiceable transactions. It includes usability enhancements that streamline invoice management, editing, and validation—reducing select, improving clarity, and aligning with real-world billing workflows.
 
 This article describes the usability improvements, supported actions, and design principles that guide the modern invoicing experience.
 
@@ -61,7 +61,7 @@ Depending on the transaction type, users can edit:
 
 **Benefits:**
 
-- Efficiency: This functionality reduces the number of clicks and repetitive actions, especially useful for invoices with many line items.
+- Efficiency: This functionality reduces the number of select and repetitive actions, especially useful for invoices with many line items.
 - Consistency: Bulk editing helps ensure that similar items are updated uniformly, minimizing errors and improving accuracy.
 
 ### Transaction insights
@@ -70,14 +70,14 @@ The system now offers users a detailed view of transactions across the following
 
 **Pending Transactions:**
 
-Presents all billable transactions that have not yet been added to the current invoice, including services performed, product deliveries, and other outstanding items awaiting invoicing and users can click to review transaction details, select entries, and include them in the ongoing invoice. Users can directly select time entries, milestones, and available and applied advances to include in the invoice from the Pending Transactions form. This streamlined process provides greater visibility and control, helping ensure all relevant charges are captured, thereby improving billing completeness and supporting accurate financial reporting.
+Presents all billable transactions that haven't yet been added to the current invoice, including services performed, product deliveries, and other outstanding items awaiting invoicing and users can select to review transaction details, select entries, and include them in the ongoing invoice. Users can directly select time entries, milestones, and available and applied advances to include in the invoice from the Pending Transactions form. This streamlined process provides greater visibility and control, helping ensure all relevant charges are captured, and improving billing completeness and supporting accurate financial reporting.
 
 **Edited Transactions:**
 
-Highlights modifications that have been made to transactions which affect the invoice amount. These edits may include changes to quantities, prices, billing types, and taxes, which directly impact the invoice total. By surfacing these updates, the system helps users maintain transparency and control over billing adjustments. Reviewing edited transactions ensures that users are aware of any post-creation changes, supports audit readiness, and enables accurate financial reconciliation.
+Highlights modifications that made to transactions that affect the invoice amount. These edits might include changes to quantities, prices, billing types, and taxes, which directly impact the invoice total. Surfacing these updates helps users maintain transparency and control over billing adjustments. Reviewing edited transactions ensures that users are aware of any post-creation changes, supports audit readiness, and enables accurate financial reconciliation.
 
 > [!NOTE]
-> For invoices created before enabling this feature, pending transactions and edited transaction will not be calculated.
+> For invoices created before enabling this feature, pending transactions and edited transaction won't be calculated.
 
 ### Financial Summary details
 
