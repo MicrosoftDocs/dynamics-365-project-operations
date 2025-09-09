@@ -225,4 +225,22 @@ However, if you make and save any changes to a time entry while it's shown in it
 
 **Therefore, we don't recommend that you make changes to time entries while declutter mode is turned on.**
 
+## Keyboard shortcuts 
+
+The following shortcuts are applicable to the Time Entry Calendar only.
+
+| **Shortcut Keys** | **Description** |
+|------------	|----------------------- |
+| **C** | Opens the Create new event popup editor using the start date of the current view.|
+| **T** | Navigates the view to today's time period. |
+| **Alt + 1/2/3/4/5** | Switches between the available views. |
+| **Shift + Right**   | Navigates to the next time period. |
+| **Shift + Left**    | Navigates to the previous time period. |
+| **Right Arrow / Down Arrow** | Focuses the next available event. |
+| **Left Arrow / Up Arrow**   | Focuses the previous available event. |
+| **Enter**               | Opens the Edit window for the selected event. |
+| **Esc**                 | Closes the Edit popup window. |
+| **Delete / Backspace**  | Opens the Delete confirmation popup to delete the Time Entry.|
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
