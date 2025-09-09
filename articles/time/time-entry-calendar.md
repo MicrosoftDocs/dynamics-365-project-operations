@@ -236,11 +236,13 @@ The following shortcuts are applicable to the Time Entry Calendar only.
 | **Alt + 1/2/3/4/5** | Switches between the available views. |
 | **Shift + Right**   | Navigates to the next time period. |
 | **Shift + Left**    | Navigates to the previous time period. |
-| **Right Arrow / Down Arrow** | Focuses the next available event. |
-| **Left Arrow / Up Arrow**   | Focuses the previous available event. |
+| **Right Arrow or Down Arrow** | Focuses the next available event. |
+| **Left Arrow or Up Arrow**   | Focuses the previous available event. |
 | **Enter**               | Opens the Edit window for the selected event. |
 | **Esc**                 | Closes the Edit popup window. |
-| **Delete / Backspace**  | Opens the Delete confirmation popup to delete the Time Entry.|
+| **Delete or Backspace**  | Opens the Delete confirmation popup to delete the Time Entry.|
+| **Alt + Shift + O **    | Opens a time entry in a new tab. |
+| **Alt + Shift + S  **   | Submits a time entry. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
