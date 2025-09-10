@@ -2,7 +2,7 @@
 title: Time Entry Calendar interface (preview)
 description: This article explains how team members can interact with their time entries by using a new calendar interface.
 author: mohitmenon
-ms.date: 06/03/2025
+ms.date: 09/10/2025
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
@@ -227,22 +227,22 @@ However, if you make and save any changes to a time entry while it's shown in it
 
 ## Keyboard shortcuts 
 
-The following shortcuts are applicable to the Time Entry Calendar only.
+These shortcuts apply only to the time entry calendar.
 
-| **Shortcut Keys** | **Description** |
-|------------	|----------------------- |
-| **C** | Opens the Create new event popup editor using the start date of the current view.|
-| **T** | Navigates the view to today's time period. |
-| **Alt + 1/2/3/4/5** | Switches between the available views. |
-| **Shift + Right**   | Navigates to the next time period. |
-| **Shift + Left**    | Navigates to the previous time period. |
-| **Right Arrow** or **Down Arrow** | Focuses the next available event. |
-| **Left Arrow** or **Up Arrow**   | Focuses the previous available event. |
-| **Enter**               | Opens the Edit window for the selected event. |
-| **Esc**                 | Closes the Edit popup window. |
-| **Delete** or **Backspace**  | Opens the Delete confirmation popup to delete the Time Entry.|
-| **Alt + Shift + O**    | Opens a time entry in a new tab. |
-| **Alt + Shift + S**   | Submits a time entry. |
+| Shortcut keys | Description |
+|---------------|-------------|
+| <kbd>C</kbd> | Open the Create new event pop-up editor using the current view's start date. |
+| <kbd>T</kbd> | Go to today's time period. |
+| <kbd>Alt</kbd>+<kbd>1</kbd>/<kbd>2</kbd>/<kbd>3</kbd>/<kbd>4</kbd>/<kbd>5</kbd> | Switch views. |
+| <kbd>Shift</kbd>+<kbd>Right Arrow</kbd> | Go to the next time period. |
+| <kbd>Shift</kbd>+<kbd>Left Arrow</kbd> | Go to the previous time period. |
+| <kbd>Right Arrow</kbd> or <kbd>Down Arrow</kbd> | Move focus to the next event. |
+| <kbd>Left Arrow</kbd> or <kbd>Up Arrow</kbd> | Move focus to the previous event. |
+| <kbd>Enter</kbd> | Open the Edit window for the selected event. |
+| <kbd>Esc</kbd> | Close the Edit pop-up window. |
+| <kbd>Delete</kbd> or <kbd>Backspace</kbd> | Open the Delete confirmation pop-up to remove the time entry. |
+| <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd> | Open the time entry in a new tab. |
+| <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> | Submit the time entry. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
