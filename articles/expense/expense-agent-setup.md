@@ -1025,6 +1025,9 @@ Learn more in [Connect and configure an agent for Teams and Microsoft 365](/micr
 
 With these steps completed, your **Expense Agent** is now fully set up and ready to go.
 
+> [!NOTE]
+> You can also provide feedback on agent-generated expense lines and reports using the thumbs up/down icons and the feedback pop-up within the Dynamics 365 Finance environment.
+
 ## Uninstall Expense Agent 
 
 To **uninstall** the Expense Agent, follow these steps.
