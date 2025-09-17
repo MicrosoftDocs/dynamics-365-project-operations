@@ -16,22 +16,21 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. Projects can only be copied if they have at least one task. To copy a project, open the project you want to copy, and then select **Copy project**. 
 
-Selecting **Copy Project** gives user few options/configurations to select to make sure they have selected the right target project and few other fields that can't be modified later.
-The different options differ based on the type of deployment Project Operations Core or Project Operations Integrated with ERP.
+When the user selects **Copy Project**, a dialogue box appears presenting a set of options and configurations. These help ensure the correct target project is selected and include certain fields that become locked after selection. The available options vary depending on the deployment type—either Project Operations Core or Project Operations integrated with ERP.
 
 | Field | Project Operations Integrated with ERP | Project Operations  Core | Description |
 |-------|------------------------------------------|-------------------------|---------------------|
-| Copy to new project | :heavy_check_mark: | :heavy_check_mark: | Specifies whether the target project is a new one or an existing project that does not yet have a Work Breakdown Structure (WBS). |
+| Copy to new project | :heavy_check_mark: | :heavy_check_mark: | Specifies whether the target project is a new one or an existing project that doesn't yet have a Work Breakdown Structure (WBS). |
 | Project name | :heavy_check_mark: | :heavy_check_mark: | **New Project:** A text input field where the user can enter the name of the new project. **Existing Project:** A reference field that allows the user to select from a list of eligible existing projects. |
-| Project Manager | :heavy_check_mark: | :heavy_check_mark: | **New Project:** The user can manually select the project manager. **Existing Project:** The project manager from the source project is automatically displayed and cannot be edited. |
-| Calendar Template | :heavy_check_mark: | :heavy_check_mark: | **New Project:** The user can manually select the calendar template. **Existing Project:** The calendar template from the source project is automatically displayed and cannot be edited. |
-| Schedule Mode | :heavy_check_mark: | | **New Project:** Displays the default schedule mode as defined in the project parameters. This value can be modified if the project parameters allow for overrides. **Existing Project:** The schedule mode from the source project is automatically displayed and cannot be edited. |
-| Contracting Unit | :heavy_check_mark: | | **New Project:** The user can manually select the contracting unit. **Existing Project:** The contracting unit from the source project is automatically displayed and cannot be edited. |
-| Owning Company | :heavy_check_mark: | | **New Project:** The user can manually select the owning company. **Existing Project:** The owning company from the source project is automatically displayed and cannot be edited. |
-| Currency | :heavy_check_mark: | | **New Project:** The user can manually select the currency. **Existing Project:** The currency from the source project is automatically displayed and cannot be edited. |
+| Project Manager | :heavy_check_mark: | :heavy_check_mark: | **New Project:** The user can manually select the project manager. **Existing Project:** The project manager from the source project is automatically displayed and can't be edited. |
+| Calendar Template | :heavy_check_mark: | :heavy_check_mark: | **New Project:** The user can manually select the calendar template. **Existing Project:** The calendar template from the source project is automatically displayed and can't be edited. |
+| Schedule Mode | :heavy_check_mark: | | **New Project:** Displays the default schedule mode as defined in the project parameters. This value can be modified if the project parameters allow for overrides. **Existing Project:** The schedule mode from the source project is automatically displayed and can't be edited. |
+| Contracting Unit | :heavy_check_mark: | | **New Project:** The user can manually select the contracting unit. **Existing Project:** The contracting unit from the source project is automatically displayed and can't be edited. |
+| Owning Company | :heavy_check_mark: | | **New Project:** The user can manually select the owning company. **Existing Project:** The owning company from the source project is automatically displayed and can't be edited. |
+| Currency | :heavy_check_mark: | | **New Project:** The user can manually select the currency. **Existing Project:** The currency from the source project is automatically displayed and can't be edited. |
 
 
-The action copies the following:
+The action copies the following data:
 
 - Project properties 
 - Work breakdown structure
