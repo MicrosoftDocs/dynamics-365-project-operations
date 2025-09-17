@@ -16,7 +16,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. Projects can only be copied if they have at least one task. To copy a project, open the project you want to copy, and then select **Copy project**. 
 
-When the user selects **Copy Project**, a dialogue box appears presenting a set of options and configurations. These help ensure the correct target project is selected and include certain fields that become locked after selection. The available options vary depending on the deployment type—either Project Operations Core or Project Operations integrated with ERP.
+When the user selects **Copy Project**, a dialogue box appears presenting a set of options and configurations. These options and configurations help ensure the correct target project is selected and include certain fields that become locked after selection. The available options vary depending on the deployment type—either Project Operations Core or Project Operations integrated with ERP.
 
 | Field | Project Operations Integrated with ERP | Project Operations  Core | Description |
 |-------|------------------------------------------|-------------------------|---------------------|
