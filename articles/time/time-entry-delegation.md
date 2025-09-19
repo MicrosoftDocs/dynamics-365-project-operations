@@ -16,7 +16,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 Time Entry Delegation allows users to give another resource temporary access to view, create, modify and submit time entries on their behalf. Team members can assign one delegate for limited time period and keep track of time entries created or submitted by their delegates.
 
-This article provides an overview of the Time Entry Delegation feature, which is currently released as a Production Ready Preview. The article contains the following sections:
+This article provides an overview of the Time Entry Delegation feature, which is currently released as a **Production Ready Preview**. The article contains the following sections:
 
 - Enable Time Entry Delegation (Production Ready Preview) feature
 - Delegate setup experience
@@ -54,6 +54,21 @@ The other two views available are:
 - **Inactive Delegates**: Resources that were previously visible under **My Delegates** but have been explicitly deactivated now.
 
 ## Logging time as a delegate
+
+To verify if you have been assigned as a delegate for another user: 
+- Navigate to **Delegates** menu item.
+- Switch the view to **Assigned to me**. The users visible in this list have assigned you as their delegate, between Start and End dates on each record.
+
+### Access rights provided to a time entry delegate
+
+As a time entry delegate, you have access to:
+- View all time entries within the Start and End dates for the delegator (original user).
+- Create new time entries within the Start and End dates on behalf the delegator (original user).
+- Modify all editable time entries within the Start and End dates on behalf the delegator (original user).
+- Submit, Delete or Recall any time entries within the Start and End dates on behalf the delegator (original user).
+
+### Time Entry experience for delegates
+
 
 
 
