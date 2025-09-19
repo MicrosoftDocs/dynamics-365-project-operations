@@ -41,7 +41,7 @@ After the feature is enabled, a new menu item named **Delegates (Production Read
 
 ## Delegate Setup Experience
 
-After enabling the Time Entry Delegation feature, navigate to the new **Delegates** menu item under **My Work.** Here, the default view is "My Delegates" which displays a list of resources who you have assigned as your delegates (initially empty).
+After enabling the Time Entry Delegation feature, navigate to the new **Delegates** menu item under **My Work.** Here, the default view is "My Delegates", which displays a list of resources that you assign as your delegates (initially empty).
 
 To set another user as your delegate, follow these steps:
 1. Select **New**. This action loads a form to fill in further details.
@@ -49,17 +49,17 @@ To set another user as your delegate, follow these steps:
 3. Next, **Start** date refers to the first day (this day included) from which you want to begin delegate access.
 4. Finally, **End** date refers to the last day (this day included) of delegate access for the selected resource.
 5. Select **Save** or **Save & Close**.
-6. By completing these steps, you have assigned a user as your **Delegate** and are referred to as their **Delegator**.
+6. By completing these steps, this user is your **Delegate** and you are referred to as their **Delegator**.
 
 The other two views available are: 
 - **Assigned to Me**: List of users who have assigned you as their time entry delegate.
-- **Inactive Delegates**: Resources that were previously visible under **My Delegates** but have been explicitly deactivated now.
+- **Inactive Delegates**: Resources that were previously visible under **My Delegates** but are explicitly deactivated now.
 
 ## Logging time as a delegate
 
 To verify if you have been assigned as a delegate for another user: 
 - Navigate to **Delegates** menu item.
-- Switch the view to **Assigned to me**. The users visible in this list have assigned you as their delegate, between Start and End dates on each record.
+- Switch the view to **Assigned to me**. The users visible in this list assigned you as their delegate, between Start and End dates on each record.
 
 ### Access rights provided to a time entry delegate
 
@@ -71,27 +71,27 @@ As a time entry delegate, a team member has access to:
 
 ### Time Entry experience for delegates
 
-If you are assigned as a delegate for one or more resources in the current week, your time entry experience will differ in the following manner:
-- **Bookable Resource**: This field will now be **mandatory** within the **New Time Entry** form and can be populated as either the logged-in user OR one of your delegators (original users) for this week.
+If you are assigned as a delegate for one or more resources in the current week, your time entry experience differs in the following manner:
+- **Bookable Resource**: This field is now **mandatory** within the **New Time Entry** form and can be populated as either the logged-in user OR one of your delegators (original users) for this week.
 - **Other time entry fields**: If one of the delegators (original users) was selected, options for fields like _Project, Project Task, Role_ are displayed corresponding to the delegator's projects, tasks and roles. The same behaviour is also replicated within the **Modern Time Entry Grid**, while trying to edit or populate time entry fields from the grid.
 
 > [!NOTE]
-> This change in behaviour for time entry fields within Quick Create form and Modern Grid will only appear if a user is logging time **in a week where they have at least one delegator** assigned to them.
-> If a user is logging time for a week where there are no delegators, time entry fields will behave the same as they did before enabling delegation feature (default behaviour).
+> This change in behaviour for time entry fields within Quick Create form and Modern Grid only appear if a user is logging time **in a week where they have at least one delegator** assigned to them.
+> If a user is logging time for a week where there are no delegators, time entry fields behave the same as they did before enabling delegation feature (default behaviour).
 
 
 ### Tracking time entries logged as a delegate
 
-To simplify the tracking of time entries on behalf of other users (delegators), a new view is provided that's known as "**My Time Entries as a Delegate"**. This view contains time entries for all your delegators, in the current week (subject to delegation Start and End dates).
+To simplify the tracking of time entries on behalf of other users (delegators), a new view "**My Time Entries as a Delegate"** is provided. This view contains time entries for all your delegators, in the current week _(subject to delegation Start and End dates)_.
 
 ## Keep track of time entries logged by a delegate
 
 Similar to the previous section, a new view is provided for Delegators (original users) to track time entries logged by their delegates. This view is called **"Time entries by my delegates"**. The view contains:
-- Time entries created by your delegate(s) in the current week 
+- Time entries created by your delegates in the current week 
   
 
 > [!NOTE]
-> The 2 new views for time entries will be visible to all time entry users, even without enabling the Time Entry Delegation feature, since views cannot be selectively filtered based on feature controls.
+> The 2 new views for time entries are visible to all time entry users, even without enabling the Time Entry Delegation feature, since views cannot be selectively filtered based on feature controls.
 
 ### Audit trail for delegated time entries
 
@@ -99,14 +99,14 @@ During this preview stage, delegated time entries can be primarily tracked using
 - "Created by"
 - "Modified by"
 
-Tracking time entry records based on who created them and who was the last to modify them (this includes edits or even submission) can provide a trail of records from creation to submission for approval.
+Time entry records can be tracked based on who created them and the last user to modify (edit or submit) them. These fields can provide a trail of records from creation to submission.
 
 > [!NOTE]
 > Enhanced tracking support for Delegation specific time entry fields (Delegator, Delegate Resource) will be provided in upcoming releases within the preview stage.
 
 ### Current limitations of the feature
 - A user cannot assign more than one delegate within an overlapping date range. They can however, have more than delegate as long as their Start and End dates do not overlap.
-- Time entries that have been created by the original user (delegator) but modified by the delegate do not appear within "Time entries logged by my delegates" view.
+- Time entries created by the original user (delegator) but modified by the delegate, do not appear within "Time entries logged by my delegates" view.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
