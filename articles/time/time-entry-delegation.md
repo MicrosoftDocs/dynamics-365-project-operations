@@ -35,6 +35,7 @@ To enable Time Entry Delegation, follow these steps.
 1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
 1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
 1. Select **Enable Time Entry Delegation (Preview) feature**, and then select **OK**. If the text **Disable Time Entry Delegation (Preview)** is shown instead, it means the feature is already enabled.
+1. This feature can be disabled at any time in the future and enabled at a later date once again.
 
 After the feature is enabled, a new menu item named **Delegates (Production Ready Preview)** appears in the **My Work** section of the Project Operations and Team Member apps.
 
@@ -73,6 +74,11 @@ If you are assigned as a delegate for one or more resources in the current week,
 - **Bookable Resource ** field: This field will now **be mandatory ** in the **New Time Entry** form and can be entered as either the logged in user OR one of the delegators (original users) for this week.
 - **Other time entry fields**: If one of the delegators (original users) was selected, options for fields like Project, Project Task, Role are displayed corresponding to the delegator's projects, tasks and role. The same behaviour is also replicated within the **Modern Time Entry Grid**, while trying to edit or populate time entry fields from the grid.
 
+> [!NOTE]
+> **This change in behaviour for time entry fields within Quick Create form and Modern Grid will only appear if a user is logging time in a week where they have at least one delegate assignment to them.
+> If a user is logging time for a week where there are no delegation assignments, time entry fields will behave the same as they did before enabling delegation feature (default behaviour).
+
+
 ### Tracking time entries logged as a delegate
 
 To simplify the tracking of time entries on behalf of other users (delegators), a new view is provided that's call "**My Time Entries as a Delegate"**. This view contains time entries for all your delegators, in the current week (subject to delegation Start and End dates).
@@ -82,12 +88,23 @@ To simplify the tracking of time entries on behalf of other users (delegators), 
 Similar to the previous section, a new view is provided for Delegators (original users) to track time entries logged by their delegates. This view is called **"Time entries by my delegates"**. The view contains:
 - Time entries created by your delegate(s) in the current week
 
+> [!NOTE]
+> The 2 new views for time entries will be visible to all time entry users, even without enabling the Time Entry Delegation feature, sinec views cannot be selectively filtered based on feature controls.
+
 ### Audit trail for delegated time entries
 
-Delegated time entries can currently be tracked using 2 fields:
+During this preview stage, delegated time entries can be primarily tracked using 2 fields:
 - Created by and
 - Modified by
 
 Tracking time entry records based on who created them and who was the last to modify them (this includes edits or even submission) can provide a trail of records from creation to submission for approval.
 
+> [!NOTE]
+> Enhanced tracking support for Delegation specific time entry fields (Delegator, Delegate Resource) will be provided in upcoming releases within the preview stage.
 
+### Current limitations of the feature
+- A user cannot assign more than one delegate within an overlapping date range. They can however, have more than delegate as long as their Start and End dates do not overlap.
+- Time entries that have been created by the original user (delegator) but modified by the delegate do not appear within "Time entries logged by my delegates" view.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
