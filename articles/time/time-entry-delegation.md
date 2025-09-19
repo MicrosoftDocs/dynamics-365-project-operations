@@ -96,8 +96,8 @@ Similar to the previous section, a new view is provided for Delegators (original
 ### Audit trail for delegated time entries
 
 During this preview stage, delegated time entries can be primarily tracked using 2 fields:
-- Created by and
-- Modified by
+- "Created by"
+- "Modified by"
 
 Tracking time entry records based on who created them and who was the last to modify them (this includes edits or even submission) can provide a trail of records from creation to submission for approval.
 
