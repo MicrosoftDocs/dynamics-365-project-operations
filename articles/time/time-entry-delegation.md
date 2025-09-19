@@ -49,6 +49,7 @@ To set another user as your delegate, follow these steps:
 3. Next, **Start** date refers to the first day (this day included) from which you want to begin delegate access.
 4. Finally, **End** date refers to the last day (this day included) of delegate access for the selected resource.
 5. Select **Save** or **Save & Close**.
+6. By completing these steps, you have assigned a user as your **Delegate** and are referred to as their **Delegator**.
 
 The other two views available are: 
 - **Assigned to Me**: List of users who have assigned you as their time entry delegate.
@@ -70,13 +71,13 @@ As a time entry delegate, a team member has access to:
 
 ### Time Entry experience for delegates
 
-If you are assigned as a delegate for one or more resources in the current week, the time entry experience will differ in the following manner:
-- **Bookable Resource ** field: This field will now **be mandatory ** in the **New Time Entry** form and can be entered as either the logged in user OR one of the delegators (original users) for this week.
-- **Other time entry fields**: If one of the delegators (original users) was selected, options for fields like Project, Project Task, Role are displayed corresponding to the delegator's projects, tasks and role. The same behaviour is also replicated within the **Modern Time Entry Grid**, while trying to edit or populate time entry fields from the grid.
+If you are assigned as a delegate for one or more resources in the current week, your time entry experience will differ in the following manner:
+- **Bookable Resource** field: This field will now be **mandatory** within the **New Time Entry** form and can be populated as either the logged-in user OR one of your delegators (original users) for this week.
+- **Other time entry fields**: If one of the delegators (original users) was selected, options for fields like _Project, Project Task, Role_ are displayed corresponding to the delegator's projects, tasks and roles. The same behaviour is also replicated within the **Modern Time Entry Grid**, while trying to edit or populate time entry fields from the grid.
 
 > [!NOTE]
-> **This change in behaviour for time entry fields within Quick Create form and Modern Grid will only appear if a user is logging time in a week where they have at least one delegate assignment to them.
-> If a user is logging time for a week where there are no delegation assignments, time entry fields will behave the same as they did before enabling delegation feature (default behaviour).
+> This change in behaviour for time entry fields within Quick Create form and Modern Grid will only appear if a user is logging time **in a week where they have at least one delegator** assigned to them.
+> If a user is logging time for a week where there are no delegators, time entry fields will behave the same as they did before enabling delegation feature (default behaviour).
 
 
 ### Tracking time entries logged as a delegate
