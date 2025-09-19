@@ -91,7 +91,7 @@ Similar to the previous section, a new view is provided for Delegators (original
   
 
 > [!NOTE]
-> The 2 new views for time entries will be visible to all time entry users, even without enabling the Time Entry Delegation feature, sinec views cannot be selectively filtered based on feature controls.
+> The 2 new views for time entries will be visible to all time entry users, even without enabling the Time Entry Delegation feature, since views cannot be selectively filtered based on feature controls.
 
 ### Audit trail for delegated time entries
 
