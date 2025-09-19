@@ -72,7 +72,7 @@ As a time entry delegate, a team member has access to:
 ### Time Entry experience for delegates
 
 If you are assigned as a delegate for one or more resources in the current week, your time entry experience will differ in the following manner:
-- **Bookable Resource** field: This field will now be **mandatory** within the **New Time Entry** form and can be populated as either the logged-in user OR one of your delegators (original users) for this week.
+- **Bookable Resource**: This field will now be **mandatory** within the **New Time Entry** form and can be populated as either the logged-in user OR one of your delegators (original users) for this week.
 - **Other time entry fields**: If one of the delegators (original users) was selected, options for fields like _Project, Project Task, Role_ are displayed corresponding to the delegator's projects, tasks and roles. The same behaviour is also replicated within the **Modern Time Entry Grid**, while trying to edit or populate time entry fields from the grid.
 
 > [!NOTE]
