@@ -40,4 +40,20 @@ After the feature is enabled, a new menu item named **Delegates (Production Read
 
 ## Delegate Setup Experience
 
+After enabling the Time Entry Delegation feature, navigate to the new **Delegates** menu item under **My Work.** Here, the default view is "My Delegates" which displays a list of resources who you have assigned as your delegates (initially empty).
+
+To set another user as your delegate, follow these steps:
+1. Select **New**. This action loads a form to fill in further details.
+2. The first field to be populated is **Delegate**. You may select one of the bookable resources visible on this environment.
+3. Next, **Start** date refers to the first day (this day included) from which you want to begin delegate access.
+4. Finally, **End** date refers to the last day (this day included) of delegate access for the selected resource.
+5. Select **Save** or **Save & Close**.
+
+The other two views available are: 
+- **Assigned to Me**: List of users who have assigned you as their time entry delegate.
+- **Inactive Delegates**: Resources that were previously visible under **My Delegates** but have been explicitly deactivated now.
+
+## Logging time as a delegate
+
+
 
