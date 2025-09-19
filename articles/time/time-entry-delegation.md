@@ -61,7 +61,7 @@ To verify if you have been assigned as a delegate for another user:
 
 ### Access rights provided to a time entry delegate
 
-As a time entry delegate, you have access to:
+As a time entry delegate, a team member has access to:
 - View all time entries within the Start and End dates for the delegator (original user).
 - Create new time entries within the Start and End dates on behalf the delegator (original user).
 - Modify all editable time entries within the Start and End dates on behalf the delegator (original user).
@@ -69,6 +69,25 @@ As a time entry delegate, you have access to:
 
 ### Time Entry experience for delegates
 
+If you are assigned as a delegate for one or more resources in the current week, the time entry experience will differ in the following manner:
+- **Bookable Resource ** field: This field will now **be mandatory ** in the **New Time Entry** form and can be entered as either the logged in user OR one of the delegators (original users) for this week.
+- **Other time entry fields**: If one of the delegators (original users) was selected, options for fields like Project, Project Task, Role are displayed corresponding to the delegator's projects, tasks and role. The same behaviour is also replicated within the **Modern Time Entry Grid**, while trying to edit or populate time entry fields from the grid.
 
+### Tracking time entries logged as a delegate
+
+To simplify the tracking of time entries on behalf of other users (delegators), a new view is provided that's call "**My Time Entries as a Delegate"**. This view contains time entries for all your delegators, in the current week (subject to delegation Start and End dates).
+
+## Keep track of time entries logged by a delegate
+
+Similar to the previous section, a new view is provided for Delegators (original users) to track time entries logged by their delegates. This view is called **"Time entries by my delegates"**. The view contains:
+- Time entries created by your delegate(s) in the current week
+
+### Audit trail for delegated time entries
+
+Delegated time entries can currently be tracked using 2 fields:
+- Created by and
+- Modified by
+
+Tracking time entry records based on who created them and who was the last to modify them (this includes edits or even submission) can provide a trail of records from creation to submission for approval.
 
 
