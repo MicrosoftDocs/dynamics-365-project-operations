@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Time Entry Delegation feature overview (preview)
+# Time Entry Delegation feature (Production Ready Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
