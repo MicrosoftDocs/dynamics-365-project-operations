@@ -1,6 +1,6 @@
 ---
 title: Time Entry Delegation (preview)
-description: This article explains how team members can give access to create, modify and submit time entries on their behalf to another resource in their organisation.
+description: This article explains how team members can give access to create, modify, and submit time entries on their behalf to another resource in their organisation.
 author: mohitmenon
 ms.date: 09/19/2025
 ms.topic: how-to
@@ -67,7 +67,7 @@ As a time entry delegate, a team member has access to:
 - View all time entries within delegation Start and End dates for the delegator (original user).
 - Create new time entries within delegation Start and End dates on behalf the delegator (original user).
 - Modify all editable time entries within delegation Start and End dates on behalf the delegator (original user).
-- Submit, Delete or Recall any time entries within delegation Start and End dates on behalf the delegator (original user).
+- Submit, Delete, or Recall any time entries within delegation Start and End dates on behalf the delegator (original user).
 
 ### Time Entry experience for delegates
 
@@ -91,7 +91,7 @@ Similar to the previous section, a new view is provided for Delegators (original
   
 
 > [!NOTE]
-> The 2 new views for time entries are visible to all time entry users, even without enabling the Time Entry Delegation feature, since views cannot be selectively filtered based on feature controls.
+> The two new views for time entries are visible to all time entry users, even without enabling the Time Entry Delegation feature, since views cannot be selectively filtered based on feature controls.
 
 ### Audit trail for delegated time entries
 
