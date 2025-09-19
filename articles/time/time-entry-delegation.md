@@ -87,7 +87,8 @@ To simplify the tracking of time entries on behalf of other users (delegators), 
 ## Keep track of time entries logged by a delegate
 
 Similar to the previous section, a new view is provided for Delegators (original users) to track time entries logged by their delegates. This view is called **"Time entries by my delegates"**. The view contains:
-- Time entries created by your delegate(s) in the current week
+- Time entries created by your delegate(s) in the current week 
+  
 
 > [!NOTE]
 > The 2 new views for time entries will be visible to all time entry users, even without enabling the Time Entry Delegation feature, sinec views cannot be selectively filtered based on feature controls.
