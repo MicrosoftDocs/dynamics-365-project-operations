@@ -82,7 +82,7 @@ If you are assigned as a delegate for one or more resources in the current week,
 
 ### Tracking time entries logged as a delegate
 
-To simplify the tracking of time entries on behalf of other users (delegators), a new view is provided that's call "**My Time Entries as a Delegate"**. This view contains time entries for all your delegators, in the current week (subject to delegation Start and End dates).
+To simplify the tracking of time entries on behalf of other users (delegators), a new view is provided that's known as "**My Time Entries as a Delegate"**. This view contains time entries for all your delegators, in the current week (subject to delegation Start and End dates).
 
 ## Keep track of time entries logged by a delegate
 
