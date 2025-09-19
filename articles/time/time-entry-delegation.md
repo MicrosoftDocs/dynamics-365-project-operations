@@ -63,10 +63,10 @@ To verify if you have been assigned as a delegate for another user:
 ### Access rights provided to a time entry delegate
 
 As a time entry delegate, a team member has access to:
-- View all time entries within the Start and End dates for the delegator (original user).
-- Create new time entries within the Start and End dates on behalf the delegator (original user).
-- Modify all editable time entries within the Start and End dates on behalf the delegator (original user).
-- Submit, Delete or Recall any time entries within the Start and End dates on behalf the delegator (original user).
+- View all time entries within delegation Start and End dates for the delegator (original user).
+- Create new time entries within delegation Start and End dates on behalf the delegator (original user).
+- Modify all editable time entries within delegation Start and End dates on behalf the delegator (original user).
+- Submit, Delete or Recall any time entries within delegation Start and End dates on behalf the delegator (original user).
 
 ### Time Entry experience for delegates
 
