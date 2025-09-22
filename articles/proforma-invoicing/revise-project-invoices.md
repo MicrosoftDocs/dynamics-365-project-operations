@@ -14,6 +14,9 @@ _**Applies To:** Project Operations Core, Project Operations Integrated with ERP
 
 A confirmed project invoice can be revised to process changes or credits as negotiated with the customer and project manager.
 
+> [!NOTE]
+> This process can be configured to be run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md)
+
 To make edits to a confirmed invoice, open the confirmed invoice and select **Revise** (previously referred to as **Correct this invoice**). 
 
 > [!NOTE]
