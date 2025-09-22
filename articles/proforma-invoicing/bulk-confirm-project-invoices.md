@@ -23,6 +23,3 @@ When an invoice is scheduled by using bulk confirmation, the **Project invoice s
 > Users can bulk-confirm up to 250 invoices at a time and configure [notifications upon completion of invoice confirmation](../../proforma-invoicing/long-running-jobs.md)
 >
 > Failed invoices can be tracked by using the **Failed** bulk confirmation status. Users can go to the timeline on the **Details** tab to view the failure details for each invoice.
-
-> [!NOTE]
-> This process can be configured to be run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md)
