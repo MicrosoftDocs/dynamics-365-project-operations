@@ -91,4 +91,4 @@ The system generates the **project subledger** immediately after posting the pro
 > 
 > Beginning balance journal posting process **does not generate financial transactions** and generates project subledger only.
 > 
-> Milestones and retainers are currently not supported with this process and will be added as part of future releases.
+> **Billed Milestones and retainers** are currently not supported with this process and will be added as part of future releases. 
