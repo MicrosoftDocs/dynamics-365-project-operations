@@ -77,7 +77,7 @@ The system generates the **project subledger** immediately after posting the pro
 |Time & Material|Unbilled sales|Project cost and revenue profile rule|
 |Time & Material|Billed sales|Profit and loss|
 |Fixed price|Project cost|Project cost and revenue profile rule|
-|None|Unbilled sales|Project cost and revenue profile rule|
+|None|Project cost|Profit and loss|
 
 > [!NOTE]
 > Project operations journals is the best option to upload the beginning balances and actual are generated once the journals are confirmed. These actuals are used to generate **beginning balance journals** in **Dynamics 365 Finance**.
