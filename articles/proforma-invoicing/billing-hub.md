@@ -22,6 +22,9 @@ The purpose of the **Billing hub experience** is to provide a rich, consolidated
 
 ## Create new invoices
 
+> [!NOTE]
+> This process can be configured to be run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md)
+
 To use Billing hub to create project proforma invoices, follow this step.
 
 - In the left pane, go to **Sales** \> **Billing Hub**.
