@@ -51,6 +51,9 @@ To create **beginning balances** as of a **specified date**, follow below steps:
 3. In the **As of date**, Enter the **cut of date**.
 4. Select the beginning balance journal name.
 
+> [!NOTE]
+> The **Cut-off date** field becomes **non-editable** after the first transaction is posted using the **Beginning Balance journal**.
+> 
 ### Import beginning balances
 
 When **Actuals** are imported into **Dynamics 365 Finance** from **Dynamics 365 Project operations** with on or before the specified **As of date**, the system creates **Beginning Balance journal** lines instead of project operations **integration journal** lines.
@@ -62,7 +65,7 @@ To generate the beginning balances in **Dynamics 365 Finance**. follow below ste
 2. Click **Ok** to generate beginning balance journal.
 
 > [!NOTE]
-> Any transaction generated in Project Operations actuals after the **cut-off date** is imported through the **Import from staging** process and processed using the **Project Operations integration journal**..
+> Any transaction generated in Project Operations actuals after the **cut-off date** is imported through the **Import from staging** process and processed using the **Project Operations integration journal**.
 > 
 ### Beginning balance journal
 After running the **Import beginning balances** process, the system creates a **Beginning balance journal** along with its journal lines.
