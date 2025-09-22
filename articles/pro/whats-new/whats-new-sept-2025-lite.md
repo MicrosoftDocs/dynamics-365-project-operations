@@ -26,30 +26,30 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Time Entry |**Time Entry Delegation (Production Ready Preview)** <br><br> This preview feature allows team members to add one other user (for a date range) as a delegate that gets to view, edit and submit time entries on their behalf.| |
-| Proforma Invoicing |**Improve Invoice Usability with Modern Invoicing** <br><br> The modern invoicing form builds a consolidated view of contract, contract lines, and invoiceable transactions. It introduces usability enhancements that streamline invoice management, editing, and validation—reducing clicks and improving clarity.| |
-| Actuals | **Time Zone Independent Accounting Date** <br><br> Currently, the Accounting Date field in JournalLine, Actuals and InvoiceLineDetails entities is stored in a time-zone dependent manner. This can cause inconsistencies when viewing or processing dates outside the user's local time zone. To address this, a new field "TZAAccountingDate" has been introduced to store the accounting date in a time zone independent manner. | [Time Zone Independent Behaviour](https://learn.microsoft.com/power-apps/maker/data-platform/behavior-format-date-time-field#behavior) |
-| Performance |**Performance improvements across processes** <br><br> This feature enables asynchronous processing of the following long running processes: Close a quote as won, confirm a contract, create/confirm/revise invoices, copy price list, update prices on a project. If an initiated process is determined to be long-running, the user sees a banner notification and will receive an in-app notification once the process is completed.||
-| Sub-contracting |**Enable Subcontracting UX enhancements for smoother navigation and insights** <br><br> This feature is behind a feature flag "Enable new subcontracting UX enhancements for improved insights and smoother navigation". When enabled, this feature delivers: A more organized main form, Enhanced subcontracting insights, Improved resource handling for smoother workflows designed to streamline navigation and boost visibility into subcontracting operations.| |
-| Project Budget Management |**Column based time phasing of Project Budgets instead of row based (Private Preview)** <br><br> This feature introduces a new column-based time phasing view for Project Budgets, complementing the existing row-based layout. A dedicated tab will be added to display budget data in a columnar format, offering a clearer and more structured time-based breakdown. Available as a limited preview, with additional enhancements planned for the upcoming release wave. To enable the feature in pre-prod, please raise a support ticket with Microsoft.| |
+| Time Entry |**Time Entry Delegation (Production Ready Preview)** <br><br> This feature lets a team member assign one delegate for a date range to view, edit, and submit time entries for them.| |
+| Proforma Invoicing |**Improve Invoice Usability with Modern Invoicing** <br><br> The modern invoicing form shows contract details, contract lines, and invoiceable transactions in one view. Usability improvements streamline managing, editing, and validating invoices, reducing clicks, and improving clarity.| |
+| Actuals | **Time Zone Independent Accounting Date** <br><br> The `Accounting Date` field in the `JournalLine`, `Actuals`, and `InvoiceLineDetails` entities is stored in a time zone-dependent way, which can create inconsistencies outside the user's local time zone. The new `TZAAccountingDate` field stores the accounting date in a time zone-independent way. | [Time Zone Independent Behavior](/power-apps/maker/data-platform/behavior-format-date-time-field#behavior) |
+| Performance |**Performance improvements across processes** <br><br> This feature enables asynchronous processing of these long-running processes: close a quote as won, confirm a contract, create, confirm, or revise invoices, copy a price list, and update project prices. If a process runs long, the user sees a banner notification and later an in-app notification when it completes.||
+| Subcontracting |**Enable Subcontracting UX enhancements for smoother navigation and insights** <br><br> The feature flag "Enable new subcontracting UX enhancements for improved insights and smoother navigation" lets you turn on these improvements: a more organized main form, enhanced subcontracting insights, and improved resource handling for smoother workflows. These changes streamline navigation and improve visibility into subcontracting operations.| |
+| Project Budget Management |**Column based time phasing of Project Budgets instead of row based (Private Preview)** <br><br> This feature introduces a column-based time phasing view for project budgets, complementing the existing row-based layout. A dedicated tab shows budget data in a column format for a clearer time-based breakdown. It's available as a limited preview, and more enhancements are planned for the upcoming release wave. To enable the feature in preprod, open a support ticket with Microsoft.| |
 
 ## Quality updates
 
 ### Project Operations on Dataverse
 
-| **Feature Area** | **Reference No.** | **Quality Update** |
+| **Feature area** | **Reference no.** | **Quality update** |
 | --- | --- | --- |
-|Billing|	5530102|	Correction journal preview fails if one or more time entries can no longer be corrected|
-|Pricing|	4997620|	Unable to delete Transaction Category as pricing dimension|
-|Pricing|	5206990|	Product bundles cause errors with Copy Price List|
-|Pricing|	5516935|	Material usage log: Unit Cost for work order products are incorrectly initialized|
-|Project And Resource Management|	5278591|	Import project shows duplicate fields|
-|Project Estimates|	5129793|	Imported Contract Line Detail's billing type is carried from Estimate line, instead of Contract line task setting|
-|Project Operations Time Management|	4427926|	TimeEntry status shows submitted while it should be draft|
-|Project Planning And Tracking|	4605239|	Unable to access task record through "Team" tab|
-|Project Planning And Tracking|	5223364|	Error when creating a team member that has more than one order line resource category associated|
-|Project Planning And Tracking|	5572782|	Disable the copy project button for externally scheduled project when new experience is not enabled|
-|Sales|	5362696|	PBB - Default Currency is set to USD Instead of Contract Currency|
-|Sales|	5365268|	Project Contract Customer and Contract Line Customer currency should default from the Contract Currency|
+|Billing|	5530102|	Correction journal preview fails if one or more time entries can't be corrected|
+|Pricing|	4997620|	Can't delete transaction category as a pricing dimension|
+|Pricing|	5206990|	Product bundles cause errors when using **Copy Price List**|
+|Pricing|	5516935|	Material usage log: Unit cost for work order products initializes incorrectly|
+|Project and resource management|	5278591|	Import project shows duplicate fields|
+|Project estimates|	5129793|	Imported contract line detail billing type comes from estimate line instead of contract line task setting|
+|Project operations time management|	4427926|	TimeEntry status shows Submitted when it should be Draft|
+|Project planning and tracking|	4605239|	Can't access task record through the **Team** tab|
+|Project planning and tracking|	5223364|	Error when creating a team member with more than one order line resource category|
+|Project planning and tracking|	5572782|	Disable the **Copy project** button for externally scheduled projects when the new experience isn't enabled|
+|Sales|	5362696|	PBB - Default currency is set to USD instead of contract currency|
+|Sales|	5365268|	Project contract customer and contract line customer currency should default from the contract currency|
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
