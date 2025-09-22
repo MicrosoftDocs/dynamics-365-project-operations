@@ -21,6 +21,9 @@ Proforma invoicing gives project managers a second level of approval before they
 
 Project invoices can be created one at a time or in bulk. You can create them manually, or they can be configured so that they are generated in automated runs.
 
+> [!NOTE]
+> This process can be configured to be run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md)
+
 ### Manually create project invoices 
 
 From the **Project Contracts** list page, you can create project invoices separately for each project contract, or you can create invoices in bulk for multiple project contracts.
