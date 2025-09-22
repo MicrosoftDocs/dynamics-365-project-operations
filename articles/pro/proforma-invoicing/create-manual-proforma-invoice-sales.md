@@ -16,6 +16,9 @@ ms.author: suvaidya
 
 _**Applies To:** Project Operations Core_
 
+> [!NOTE]
+> This process can be configured to be run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md)
+
 Proforma project invoicing gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when time, expense, and material entries that project team members submit are approved.
 
 Dynamics 365 Project Operations  Core isn't designed to generate customer-facing invoices. The following list shows why invoices cannot be generated:
