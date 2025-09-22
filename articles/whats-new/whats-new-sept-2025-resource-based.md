@@ -21,7 +21,7 @@ ms.reviewer: johnmichalak
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version 4.145.0.76.
+- Project Operations in a Microsoft Dataverse environment version 4.145.0.1040.
 - Project management and accounting in a Microsoft Dynamics 365 Finance environment version 10.0.45.
 
 ## Project Operations Dual-write maps updates
