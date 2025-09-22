@@ -33,3 +33,5 @@ When the "Enable notifications for long-running processes" setting is set to yes
 - Update estimate prices on project
 
   If the "Enable notifications for long-running processes" is set to yes, users have two options on controlling which processes use this experience. THey can individually add any item from above to the "Select jobs for notification" list and they will use the notification experience. Alternatively, they can leave this field blank and all available processes will use the notification experience. As new processes are added, a blank "Select jobs for notification" list will automatically use the notifications experience. If the list is not blank, any newly added process will need to be included in "Select jobs for notification".
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
