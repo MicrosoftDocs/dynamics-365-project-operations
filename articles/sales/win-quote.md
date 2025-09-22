@@ -17,6 +17,9 @@ _**Applies To:** Project Operations Integrated with ERP_
 
 A project quote can be closed as **Won** or **Lost**. 
 
+> [!NOTE]
+> This process can be configured to be run asynchronously [using notifications](../../proforma-invoicing/long-running-jobs.md)
+
 ## Close a quote as Won
 
 When you close a project quote as **Won**, the status is set to **Closed**, and the status reason is set to **Won**. Closing the quote makes the project quote read-only and creates a draft project contract that contains the quote information. Because a closed quote can't be reopened, a confirmation dialog box confirms your changes.
