@@ -54,12 +54,16 @@ To create **beginning balances** as of a **specified date**, follow below steps:
 ### Import beginning balances
 
 When **Actuals** are imported into **Dynamics 365 Finance** from **Dynamics 365 Project operations** with on or before the specified **As of date**, the system creates **Beginning Balance journal** lines instead of project operations **integration journal** lines.
+
 Beginning Balance journals do not generate any accounting entries in the general ledger and only update the project subledger for tracking purposes.
 
-To generate the beginning balances in Dynamics 365 Finance. follow below steps:
+To generate the beginning balances in **Dynamics 365 Finance**. follow below steps:
 1. Go to **Project management and accounting** > **Periodic** > **Project operations integration** > **Import beginning balances**.
 2. Click **Ok** to generate beginning balance journal.
 
+> [!NOTE]
+> Any transaction generated in Project Operations actuals after the **cut-off date** is imported through the **Import from staging** process and processed using the **Project Operations integration journal**..
+> 
 ### Beginning balance journal
 After running the **Import beginning balances** process, the system creates a **Beginning balance journal** along with its journal lines.
 All actual transactions in **Project Operations** that have a transaction date on or before the defined **cut-off date** are included in this journal to establish the opening balances.
