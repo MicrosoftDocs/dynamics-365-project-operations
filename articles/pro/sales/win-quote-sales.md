@@ -24,6 +24,9 @@ When you close a project quote as **Won**, the status is set to **Closed**, and 
 
 If the quote is attached to an opportunity, any other project quotes on the opportunity are automatically closed as **Lost**.
 
+> [!NOTE]
+> This process can be configured to be run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md)
+
 ### Financial impact of closing a quote as Won
 
 If there are any actuals for time on a project while it's still attached to a draft quote, only the cost of the time or expense is recorded. 
