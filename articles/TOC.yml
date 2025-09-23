@@ -78,12 +78,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new September 2025 - Project Operations Core
+      href: pro/whats-new/whats-new-sept-2025-lite.md
     - name: What's new August 2025 - Project Operations Core
       href: pro/whats-new/whats-new-aug-2025-lite.md
-    - name: What's new June 2025 - Project Operations Core
-      href: pro/whats-new/whats-new-june-2025-lite.md
     - name: Archive
       items:
+      - name: What's new June 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-june-2025-lite.md
       - name: What's new May 2025 - Project Operations Core
         href: pro/whats-new/whats-new-may-2025-lite.md     
       - name: What's new April 2025 - Project Operations Core
@@ -648,6 +650,8 @@
       items: 
       - name: Time entry user interface 
         href: time/ui-behavior-time.md
+    - name: Time Entry Delegation (preview)
+      href: time/time-entry-delegation.md
     - name: Time Entry Calendar interface (preview)
       href: time/time-entry-calendar.md
     - name: Use Copilot in time entry
@@ -828,12 +832,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: September 2025 - Project Operations Integrated with ERP
+      href: whats-new/whats-new-sept-2025-resource-based.md
     - name: August 2025 - Project Operations Integrated with ERP
       href: whats-new/whats-new-aug-2025-resource-based.md
-    - name: June 2025 - Project Operations Integrated with ERP
-      href: whats-new/whats-new-june-2025-resource-based.md
     - name: Archive
       items:
+       - name: June 2025 - Project Operations Integrated with ERP
+         href: whats-new/whats-new-june-2025-resource-based.md
        - name: May 2025 - Project Operations Integrated with ERP
          href: whats-new/whats-new-may-2025-resource-based.md
        - name: April 2025 - Project Operations Integrated with ERP
@@ -1364,6 +1370,8 @@
       items: 
       - name: Time entry user interface
         href: time/ui-behavior-time.md
+    - name: Time Entry Delegation (preview)
+      href: time/time-entry-delegation.md
     - name: Time Entry Calendar interface (preview)
       href: time/time-entry-calendar.md
     - name: Use Copilot in time entry
