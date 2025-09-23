@@ -1,6 +1,6 @@
 ---
 title: Time Entry Delegation (preview)
-description: This article explains how team members can give access to create, modify, and submit time entries on their behalf to another resource in their organisation.
+description: Learn about how team members can give access to create, modify, and submit time entries on their behalf to another resource in their organization.
 author: mohitmenon
 ms.date: 09/23/2025
 ms.topic: how-to
@@ -8,9 +8,10 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Time entry delegation feature (production ready preview)
+# Time entry delegation feature (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[banner](../includes/Create preview-note.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
@@ -40,7 +41,7 @@ After you enable the feature, the **Delegates (Production Ready Preview)** menu 
 
 ## Delegate setup experience
 
-After you enable the time entry delegation feature, go to **My Work.** > **Delegates**. The default view (My Delegates) shows the resources you've assigned as delegates. The list is empty at first.
+After you enable the time entry delegation feature, go to **My Work.** > **Delegates**. The default view (My Delegates) shows the resources you assigned as delegates. The list is empty at first.
 
 Set another user as your delegate:
 1. Select **New** to open the form.
@@ -85,12 +86,12 @@ To simplify tracking time you enter for delegators, use the **My Time Entries as
 
 ## Keep track of time entries logged by a delegate
 
-The **"Time entries by my delegates"** view lets delegators (original users) track time entries their delegates log. It contains:
+The **Time entries by my delegates** view lets delegators (original users) track time entries their delegates log. It contains:
 - Time entries your delegates created in the current week
   
 
 > [!NOTE]
-> All time entry users see the two new views, even if the Time Entry Delegation feature isn't enabled, because view availability can't be filtered by feature controls.
+> All time entry users see the two new views, even if the Time Entry Delegation feature isn't enabled. View availability can't be filtered by feature controls.
 
 ### Audit trail for delegated time entries
 
@@ -105,7 +106,7 @@ Use these fields to see who created a time entry and who last modified (edited o
 
 ### Current limitations of the feature
 - A user can't assign more than one delegate for overlapping date ranges. A user can have multiple delegates as long as their **Start** and **End** dates don't overlap.
-- Time entries the original user (delegator) created but a delegate modified don't appear in the **"Time entries by my delegates"** view.
+- Time entries the original user (delegator) created but a delegate modified don't appear in the **Time entries by my delegates** view.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
