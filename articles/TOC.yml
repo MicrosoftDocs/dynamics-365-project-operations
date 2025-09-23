@@ -760,6 +760,8 @@
       items:
       - name: Customize the billing hub view
         href: proforma-invoicing/billing-hub-customization.md
+      - name: Enable notifications for long-running processes
+        href: proforma-invoicing/long-running-jobs.md
   - name: Upgrade
     items:
     - name: Upgrade considerations for Modern approvals
@@ -1600,6 +1602,8 @@
         items:
         - name: Customize the billing hub view
           href: proforma-invoicing/billing-hub-customization.md
+        - name: Enable notifications for long-running processes
+          href: proforma-invoicing/long-running-jobs.md
     - name: Customer invoicing
       items:  
       - name: Manage project invoice proposals
