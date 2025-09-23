@@ -1,6 +1,6 @@
 ---
 title: What's new September 2025 - Project Operations Core
-description: This article provides information about quality updates that are available in the September release of Microsoft Dynamics 365 Project Operations Core.
+description: Learn about quality updates that are available in the September release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
 ms.author: mohitmenon
 ms.topic: whats-new
@@ -27,7 +27,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
 | Time Entry |**Time Entry Delegation (Production Ready Preview)** <br><br> This feature lets a team member assign one delegate for a date range to view, edit, and submit time entries for them.| |
-| Proforma Invoicing |**Improve Invoice Usability with Modern Invoicing** <br><br> The modern invoicing form shows contract details, contract lines, and invoiceable transactions in one view. Usability improvements streamline managing, editing, and validating invoices, reducing clicks, and improving clarity.| |
+| Proforma Invoicing |**Improve Invoice Usability with Modern Invoicing** <br><br> The modern invoicing form shows contract details, contract lines, and invoiceable transactions in one view. Usability improvements streamline managing, editing, and validating invoices, reducing clicks, and improving clarity.| [Time Entry Delegation](../../time/time-entry-delegation.md) |
 | Actuals | **Time Zone Independent Accounting Date** <br><br> The `Accounting Date` field in the `JournalLine`, `Actuals`, and `InvoiceLineDetails` entities is stored in a time zone-dependent way, which can create inconsistencies outside the user's local time zone. The new `TZAAccountingDate` field stores the accounting date in a time zone-independent way. | [Time Zone Independent Behavior](/power-apps/maker/data-platform/behavior-format-date-time-field#behavior) |
 | Performance |**Performance improvements across processes** <br><br> This feature enables asynchronous processing of these long-running processes: close a quote as won, confirm a contract, create, confirm, or revise invoices, copy a price list, and update project prices. If a process runs long, the user sees a banner notification and later an in-app notification when it completes.||
 | Subcontracting |**Enable Subcontracting UX enhancements for smoother navigation and insights** <br><br> The feature flag "Enable new subcontracting UX enhancements for improved insights and smoother navigation" lets you turn on these improvements: a more organized main form, enhanced subcontracting insights, and improved resource handling for smoother workflows. These changes streamline navigation and improve visibility into subcontracting operations.| |
