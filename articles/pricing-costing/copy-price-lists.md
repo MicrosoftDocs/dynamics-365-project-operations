@@ -3,7 +3,7 @@ title: Copy price lists
 description: This article provides information about how to copy price lists in Project Operations.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 01/09/2025
+ms.date: 09/24/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -18,7 +18,7 @@ ms.reviewer: johnmichalak
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 > [!NOTE]
-> This process can be configured to be run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md)
+> You can configure this process to run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md).
 
 You can create copies of price lists in Dynamics 365 Project Operations. For example, you can create price lists for the upcoming year using a price list from the current year.  Or, you might copy a price list for bill rates and sales prices from the price lists for cost. 
 
