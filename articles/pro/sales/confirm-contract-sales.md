@@ -3,7 +3,7 @@ title: Confirm a project contract
 description: This article provides information how to confirm a contract in Project Operations.
 author: poojafandan
 ms.author: poojafandan
-ms.date: 06/10/2024
+ms.date: 09/24/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -20,7 +20,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 A project contract in Dynamics 365 Project Operations can be active with a reason of **Confirmed**, or closed with a reason of **Lost**. When you confirm a project contract, the status updates from **Draft** to **Active** and the status reason is **Confirmed**. An active or closed contract can't be edited or reopened. 
 
 > [!NOTE]
-> This process can be configured to be run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md)
+> You can configure this process to run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md).
 
 ### Financial impact of confirming a project contract
 
