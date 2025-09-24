@@ -2,7 +2,7 @@
 title: Create proforma project invoices with Billing hub
 description: This article provides information about how to use Billing hub to create proforma project-based invoices.
 author: suvaidya
-ms.date: 02/14/2025
+ms.date: 09/24/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -23,7 +23,7 @@ The purpose of the **Billing hub experience** is to provide a rich, consolidated
 ## Create new invoices
 
 > [!NOTE]
-> This process can be configured to be run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md)
+> You can configure this process to run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md).
 
 To use Billing hub to create project proforma invoices, follow this step.
 
