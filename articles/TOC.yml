@@ -1664,6 +1664,8 @@
       href: revenue-recognition/revenue-recognition-standalone-selling-price.md
   - name: Advanced configuration
     items:
+    - name: Manage beginning balances for Project Operations integrated deployments
+      href: advanced-configuration/int-beginning-balances.md
     - name: Migrate fully invoiced billing milestones during cutover
       href: advanced-configuration/migrating-invoiced-milestones.md
     - name: Sync Project Status to prevent entry against closed projects
