@@ -1,8 +1,8 @@
 ---
 title: Enable notifications for long-running processes
-description: This article provides information about how D365 Project Operations handles long running jobs.
+description: This article provides information about how Dynamics 365 Project Operations handles long running jobs.
 author: abriccetti
-ms.date: 09/17/2025
+ms.date: 09/24/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -10,17 +10,17 @@ ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
 
-# Enable Notifications for long-running processes
+# Enable notifications for long-running processes
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
-The time it takes to complete certain operations in D365 Project Operations can vary from a few seconds to several minutes, depending on the operation and the size of the data involved. In these scenarios there are now two options for how the UI will behave while the operation completes based on the setting "Enable notifications for long-running processes" in the project parameters menu. When this setting is set to no, users are shown a spinner and locked out of the UI until the job completes or the UI times out after two minutes. UI time outs do not cancel jobs; they will continue to completion in the background. When the setting is set to yes and enabled for the specific job the user will be shown a ribbon message stating the long-running job has been kicked off, and upon job completion they will receive an in-app notification of its completion.
+The time to complete certain operations in Dynamics 365 Project Operations ranges from a few seconds to several minutes, depending on the operation and data size. In these scenarios, the UI provides two options for its behavior while the operation completes. The setting "Enable notifications for long-running processes" in the project parameters menu controls this behavior. If you set this option to **No**, users see a spinner and can't use the UI until the job finishes or the UI times out after two minutes. UI timeouts don't cancel jobs. They continue to completion in the background. If you set the option to **Yes** and enable it for a specific job, the user sees a ribbon message stating that the long-running job started. When the job finishes, the user gets an in-app notification.
 
-## Available Processes
+## Available processes
 
-When the "Enable notifications for long-running processes" setting is set to yes, an additional setting is unlocked: "Select jobs for notification". Here users can specify which processes they want to run asynchronously with the new notifications, and which they want to use the legacy UI lockout experience. The following processes are currently available for this process (with more to possibly be added in the future):
+When you set the "Enable notifications for long-running processes" setting to **Yes**, the **Select jobs for notification** setting is unlocked. Here, specify which processes run asynchronously with the new notifications and which processes use the legacy UI lockout experience. The following processes are currently available for this feature (with more processes potentially added in the future):
 
 - Closing a quote as won
 - Closing a quote as lost
@@ -32,6 +32,6 @@ When the "Enable notifications for long-running processes" setting is set to yes
 - Copy price list
 - Update estimate prices on project
 
-When the "Enable notifications for long-running processes" is set to yes, users have two options on controlling which processes use this experience. They can individually add any item from above to the "Select jobs for notification" list and they will use the notification experience. Alternatively, they can leave this field blank and all available processes will use the notification experience. A blank "Select jobs for notification" list will automatically use the notifications experience for any newly-added processes. If the list is not blank, any newly added process will need to be included in "Select jobs for notification".
+When you set the "Enable notifications for long-running processes" setting to **Yes**, you have two options for controlling which processes use this experience. You can individually add any item from the preceding list to the "Select jobs for notification" list to use the notification experience. Alternatively, leave this field blank to let all available processes use the notification experience. A blank "Select jobs for notification" list automatically applies the notifications experience to any newly added processes. If the list isn't blank, include any newly added process in **Select jobs for notification**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
