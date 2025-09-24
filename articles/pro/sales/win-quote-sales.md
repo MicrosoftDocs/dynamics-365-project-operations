@@ -2,7 +2,7 @@
 title: Close project quotes
 description: This article provides information about closing a quote in Project Operations.
 author: poojafandan
-ms.date: 06/07/2024
+ms.date: 09/24/2025
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -23,6 +23,9 @@ A project quote can be closed as **Won** or **Lost**. A draft quote can be close
 When you close a project quote as **Won**, the status is set to **Closed**, and the status reason is set to **Won**. Closing the quote makes the project quote read-only and creates a draft project contract that contains the quote information. Because a closed quote can't be reopened, a confirmation dialog box confirms your changes.
 
 If the quote is attached to an opportunity, any other project quotes on the opportunity are automatically closed as **Lost**.
+
+> [!NOTE]
+> You can configure this process to run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md).
 
 ### Financial impact of closing a quote as Won
 

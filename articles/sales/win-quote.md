@@ -3,7 +3,7 @@ title: Close project-based quotes
 description: This article provides information about closing quotes in Project Operations.
 author: poojafandan
 ms.author: poojafandan
-ms.date: 06/07/2024
+ms.date: 09/24/2025
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -16,6 +16,9 @@ ms.reviewer: johnmichalak
 _**Applies To:** Project Operations Integrated with ERP_
 
 A project quote can be closed as **Won** or **Lost**. 
+
+> [!NOTE]
+> You can configure this process to run in the background [using notifications](../proforma-invoicing/long-running-jobs.md).
 
 ## Close a quote as Won
 

@@ -764,6 +764,8 @@
       items:
       - name: Customize the billing hub view
         href: proforma-invoicing/billing-hub-customization.md
+      - name: Enable notifications for long-running processes
+        href: proforma-invoicing/long-running-jobs.md
   - name: Upgrade
     items:
     - name: Upgrade considerations for Modern approvals
@@ -1608,6 +1610,8 @@
         items:
         - name: Customize the billing hub view
           href: proforma-invoicing/billing-hub-customization.md
+        - name: Enable notifications for long-running processes
+          href: proforma-invoicing/long-running-jobs.md
     - name: Customer invoicing
       items:  
       - name: Manage project invoice proposals
@@ -1664,6 +1668,8 @@
       href: revenue-recognition/revenue-recognition-standalone-selling-price.md
   - name: Advanced configuration
     items:
+    - name: Manage beginning balances for Project Operations integrated deployments
+      href: advanced-configuration/int-beginning-balances.md
     - name: Migrate fully invoiced billing milestones during cutover
       href: advanced-configuration/migrating-invoiced-milestones.md
     - name: Sync Project Status to prevent entry against closed projects
