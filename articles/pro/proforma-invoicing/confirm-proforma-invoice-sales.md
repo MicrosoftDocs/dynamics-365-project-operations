@@ -9,7 +9,7 @@ ms.custom:
   - bap-template
   - evergreen
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: abriccetti
 ---
 
 # Confirm a proforma project invoice 
