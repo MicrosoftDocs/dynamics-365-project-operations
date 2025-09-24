@@ -21,7 +21,7 @@ _**Applies To:** Project Operations Core_
 > [!NOTE]
 > You can configure this process to run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md).
 
-After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. Going forward, the invoice can only be corrected if there are any customer-initiated corrections or credits.
+After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only.The invoice can only be corrected if there are any customer-initiated corrections or credits.
 
 The following table lists the actuals created by the system. These actuals are created when certain operations are performed on the draft project invoice before it's confirmed.
 
