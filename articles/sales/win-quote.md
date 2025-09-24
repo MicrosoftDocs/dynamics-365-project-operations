@@ -18,7 +18,7 @@ _**Applies To:** Project Operations Integrated with ERP_
 A project quote can be closed as **Won** or **Lost**. 
 
 > [!NOTE]
-> You can configure this process to run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md).
+> You can configure this process to run in the background [using notifications](../proforma-invoicing/long-running-jobs.md).
 
 ## Close a quote as Won
 
