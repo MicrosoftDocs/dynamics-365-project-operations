@@ -2,12 +2,12 @@
 title: Proforma project invoices
 description: This article provides information about proforma project invoices in Project Operations.
 author: suvaidya
-ms.date: 06/07/2024
+ms.date: 09/24/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: abriccetti
 ---
 
 # Proforma project invoices
@@ -15,6 +15,9 @@ ms.author: suvaidya
 [!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
+
+> [!NOTE]
+> You can configure this process to run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md).
 
 Proforma project invoicing gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when time, expense, and material entries that project team members submit are approved.
 
