@@ -746,6 +746,8 @@
       href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
     - name: Manage a proforma project invoice 
       href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+    - name: Manage a proforma project invoice with modern invoice form
+      href: proforma-invoicing/Modern_Invoicing.md
     - name: Update invoice line details on a draft project-based proforma invoice
       href: proforma-invoicing/update-ild-on-an-invoice.md
     - name: Add new invoice line details to a draft invoice
@@ -1592,6 +1594,8 @@
         href: proforma-invoicing/create-manual-proforma-invoice.md
       - name: Manage a proforma project-based invoice
         href: proforma-invoicing/manage-proforma-invoice.md
+      - name: Manage a proforma project invoice with modern invoice form
+        href: proforma-invoicing/Modern_Invoicing.md
       - name: Update invoice line details on a draft project-based proforma invoice
         href: proforma-invoicing/update-ild-on-an-invoice.md
       - name: Add new invoice line details to a draft invoice
