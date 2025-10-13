@@ -1,5 +1,5 @@
 ---
-title: Billing schedules with projects
+title: Billing schedules with projects using Fee transactions
 description: Learn about the Billing schedules with projects feature using fee transactions, which lets you set up a billing schedule that has a project ID and invoice it through a project invoice proposal.
 author: mukumarm
 ms.author: mukumarm
@@ -104,6 +104,6 @@ To view a billing schedule, follow these steps.
 2. Select **Manage**, select **Related information**, and then select **Subscription billing \> Billing schedules**. The **All billing schedules** page shows billing schedules that have been created for the selected project.
 3. On the **Project contracts** page, select **Maintain**, and then, under **Related information**, select **Subscription billing \> Billing schedules**. The **All billing schedules** page shows any billing schedules that have been created for the project contract.
 
-Learn more about **Billing schedule with projects** [Billing schedule with projects](/dynamics365/finance/accounts-receivable/sb-bill-sched-project).
+Learn more about **Billing schedule with projects** [Billing schedule with projects](//dynamics365/finance/accounts-receivable/sb-bill-sched-project).
 
-Learn more about **Generate invoices from billing schedules** [Generate invoices from billing schedules](/dynamics365/finance/accounts-receivable/sb-generate-invoice).
+Learn more about **Generate invoices from billing schedules** [Generate invoices from billing schedules](//dynamics365/finance/accounts-receivable/sb-generate-invoice).
