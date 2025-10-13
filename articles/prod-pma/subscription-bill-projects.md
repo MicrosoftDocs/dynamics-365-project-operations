@@ -1,5 +1,5 @@
 ---
-title: Billing schedules with projects using Fee transactions
+title: Use billing schedules with projects using Fee transactions
 description: Learn about the Billing schedules with projects feature using fee transactions, which lets you set up a billing schedule that has a project ID and invoice it through a project invoice proposal.
 author: mukumarm
 ms.author: mukumarm
@@ -12,6 +12,9 @@ ms.search.validFrom: 2025-10-15
 ms.search.form:  
 ms.dyn365.ops.version: 10.0.46
 ---
+
+# Use billing schedules with projects using Fee transactions
+
 Subscription billing enables organizations to manage recurring billing through billing schedules. 
 Projects help you plan, create, manage, control, and complete customer-focused work for your organization. On some time-and-material projects, a customer might have to be billed on a recurring basis for all or part of the project.
 
