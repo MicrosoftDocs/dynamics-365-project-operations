@@ -14,7 +14,7 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
+_**Applies To:** Project Operations Integrated with ERP and Project Operations Core_
 
 This article presents an overview of the improved user expereince in **Subcontracting** module in Microsoft Dynamics 365 Project Operations.
 
@@ -33,11 +33,11 @@ Steps to enable feature
 1. Select **Enable** in the confirmation dialog.
 
 > [!NOTE]
-> To revert to the previous experience, disable the feature by selecting **Disable Subcontracting UX enhancements for smoother navigation and insights** under **Feature Control** as described above.
+> To revert to the previous experience, disable the feature by selecting **Disable Subcontracting UX enhancements for smoother navigation and insights** under **Feature Control**.
 
 ## Improvements
 
-The following UX improvements have been introduced in the Subcontracting module with this feature. This is the first set of changes; additional enhancements will be delivered in upcoming releases under the same feature flag.
+The following UX improvements are introduced in the Subcontracting module with this feature. Here is the first set of changes; more enhancements are planned in upcoming releases under the same feature flag.
 
 ### Enhanced Subcontract main form.
 The subcontract main form has been redesigned with the following updates:
