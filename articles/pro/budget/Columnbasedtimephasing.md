@@ -1,6 +1,6 @@
 ---
 title: Column-Based Time Phasing of Project Budgets
-description: This article explains how to enable the column based time phasing of project budgets feature which is in private preview. 
+description: This article explains how to enable the column based time phasing of project budgets feature that is in private preview. 
 author: niranjanmaski
 ms.date: 10/10/2025
 ms.topic: how-to
@@ -20,12 +20,12 @@ This feature introduces a **column-based time phasing view** for project budgets
 
 A dedicated tab displays budget data in a column format, providing a clearer time-based breakdown.
 
-Currently, this feature is available as a **limited private preview** with read-only rows. Additional enhancements are planned for upcoming release waves.
+Currently, this feature is available as a **limited private preview** with read-only rows. More enhancements are planned for upcoming release waves.
 
-To enable the feature in a **pre-production environment**, open a support ticket with Microsoft.
+To enable the feature in a **preproduction environment**, open a support ticket with Microsoft.
 
 > [!NOTE]
-> We recommend enabling this feature in pre-production to validate its capabilities and share early feedback. This feature is **not yet ready for production rollout**.
+> We recommend enabling this feature in preproduction to validate its capabilities and share early feedback. This feature is **not yet ready for production rollout**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 
