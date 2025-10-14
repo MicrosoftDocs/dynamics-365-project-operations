@@ -1,6 +1,6 @@
 ---
 title: Improved Subcontracting user experience
-description: This article explains how to enable the improved subcontracting module's user experience. 
+description: This article explains how to enable the improved subcontracting module's user experience and lists the set of changes. 
 author: nimaski
 ms.date: 10/10/2025
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.author: nimaski
 
 _**Applies To:** Project Operations Integrated with ERP and Project Operations Core_
 
-This article presents an overview of the improved user expereince in **Subcontracting** module in Microsoft Dynamics 365 Project Operations.
+This article presents an overview of the improved user experience in **Subcontracting** module in Microsoft Dynamics 365 Project Operations.
 
 ## Prerequisites
 
@@ -37,12 +37,12 @@ Steps to enable feature
 
 ## Improvements
 
-The following UX improvements are introduced in the Subcontracting module with this feature. Here is the first set of changes; more enhancements are planned in upcoming releases under the same feature flag.
+The following UX improvements are introduced in the Subcontracting module with this feature. Here's the first set of changes; more enhancements are planned in upcoming releases under the same feature flag.
 
 ### Enhanced Subcontract main form.
-The subcontract main form has been redesigned with the following updates:
+The subcontract main form is redesigned with the following updates:
 1. Fields under the **General** tab are now logically organized into sections for subcontract details, vendor information, and contracting unit details.
-1. A new **Subcontract Price Lists** tab has been added for better handling and management of price lists.
+1. A new **Subcontract Price Lists** tab is added for better handling and management of price lists.
 1. A new **Insights** tab provides visibility into:
     - Actuals logged against the subcontract.
     - Subcontract line consumption.
