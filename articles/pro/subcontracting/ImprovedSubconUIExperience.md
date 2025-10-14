@@ -1,6 +1,6 @@
 ---
 title: Improved Subcontracting user experience
-description: This article explains how to enable the improved subcontracting module's user experience. \
+description: This article explains how to enable the improved subcontracting module's user experience. 
 author: nimaski
 ms.date: 10/10/2025
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.author: nimaski
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-This article presents an overview of the improved user expereince in subcontracting module in Microsoft Dynamics 365 Project Operations.
+This article presents an overview of the improved user expereince in **Subcontracting** module in Microsoft Dynamics 365 Project Operations.
 
 ## Prerequisites
 
@@ -24,15 +24,28 @@ To use the enhanced subcontracting module's user experience, enable the followin
 - **Enable Subcontracting UX enhancements for smoother navigation and insights**
 
 Steps to enable feature
-1. Sign in to Microsoft Dynamics 365 Project Operations.
-1. In the left navigation, change the area to **Settings**.
+1. Sign in to **Microsoft Dynamics 365 Project Operations**
+1. In the left navigation, switch the area to **Settings**.
 1. In the **General** section, select **Parameters**.
 1. You should see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
-1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
+1. On the **Project Parameters** page, click on  **Feature Control** drop down in top ribbon.
 1. Select **Enable Subcontracting UX enhancements for smoother navigation and insights**.
 1. Select **Enable** in the confirmation dialog.
 
 > [!NOTE]
-> In case you want to fallback to existing experience, you can disable the feature by **Disable Subcontracting UX enhancements for smoother navigation and insights** under the **Feature Control** as mentioned above.
+> To revert to the previous experience, disable the feature by selecting **Disable Subcontracting UX enhancements for smoother navigation and insights** under **Feature Control** as described above.
+
+## Improvements
+
+The following UX improvements have been introduced in the Subcontracting module with this feature. This is the first set of changes; additional enhancements will be delivered in upcoming releases under the same feature flag.
+
+### Enhanced Subcontract main form.
+The subcontract main form has been redesigned with the following updates:
+1. Fields under the **General** tab are now logically organized into sections for subcontract details, vendor information, and contracting unit details.
+1. A new **Subcontract Price Lists** tab has been added for better handling and management of price lists.
+1. A new **Insights** tab provides visibility into:
+    - Actuals logged against the subcontract.
+    - Subcontract line consumption.
+    - Vendor invoice details related to the subcontract.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
