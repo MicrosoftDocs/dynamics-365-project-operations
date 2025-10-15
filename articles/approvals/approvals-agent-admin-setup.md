@@ -3,7 +3,7 @@ title: Set up the Approvals Agent as an admin (preview)
 description: Learn how to set up the Approvals Agent as an admin. 
 author: abriccetti
 ms.author: abriccetti
-ms.date: 07/15/2025
+ms.date: 10/15/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -57,7 +57,7 @@ To view a list of connection references, follow these steps.
 1. In the dialog that appears, select **Create** to create a connection to Copilot Studio, and sign in as the user that you want the agent to run as.
 
     > [!NOTE]
-    > The user who signs in for these connection will by fthe user the agent acts as. This must be a real user with an Entra ID account (sign in must happen via OAuth and not as a service principal). Additionally, the user that you sign in as must have the **Time and Approval Agent** security role, or another role that provides the same or greater privileges.
+    > The user who signs in for this connection is the user the agent acts as. This must be a real user with an Entra ID account (sign in must happen via OAuth and not as a service principal). The user that you sign in as must have the **Time and Approval Agent** security role, or another role that provides the same or greater privileges.
 
 1. Return to the previous tab, and repeat the preceding steps for the **Microsoft Dataverse** connection reference to create a connection to Microsoft Dataverse.
 1. Return to the **Connection references** page for the **Common Data Services Default Solution** solution.
