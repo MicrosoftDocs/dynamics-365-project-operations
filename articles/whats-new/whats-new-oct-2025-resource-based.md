@@ -7,7 +7,7 @@ ms.topic: whats-new
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 10/14/2025
+ms.date: 10/15/2025
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 
@@ -36,7 +36,7 @@ If the map doesn't start, see the [Missing table columns issue on maps](/dynamic
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Project Management |**Import tasks from other projects** <br><br> Users can now import tasks from one or multiple source projects to a new or existing target project. Tasks can also be imported into existing projects have a work breakdown structure.| |		
+| Project Management |**Import tasks from other projects** <br><br> You can now import tasks from one or multiple source projects to a new or existing target project. You can also import tasks into existing projects that have a work breakdown structure.| |		
 
 ## Quality updates
 
