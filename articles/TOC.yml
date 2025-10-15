@@ -1205,7 +1205,7 @@
         - name: View and edit project estimates
           href: psa/view-edit-project-estimates.md
         - name: Approve time and expenses
-         href: psa/approve-time-expenses.md
+          href: psa/approve-time-expenses.md
         - name: Review project actuals
           href: psa/review-project-actuals.md
         - name: View and send invoices
