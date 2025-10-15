@@ -10,13 +10,13 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Improved Subcontracting user experience
+# Improved subcontracting user experience
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP and Project Operations Core_
 
-This article presents an overview of the improved user experience in **Subcontracting** module in Microsoft Dynamics 365 Project Operations.
+This article presents an overview of the improved user experience in the **Subcontracting** module in Microsoft Dynamics 365 Project Operations.
 
 ## Prerequisites
 
@@ -24,11 +24,11 @@ To use the enhanced subcontracting module's user experience, enable the followin
 - **Enable Subcontracting UX enhancements for smoother navigation and insights**
 
 Steps to enable feature
-1. Sign in to **Microsoft Dynamics 365 Project Operations**
+1. Sign in to **Microsoft Dynamics 365 Project Operations**.
 1. In the left navigation, switch the area to **Settings**.
 1. In the **General** section, select **Parameters**.
-1. You should see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
-1. On the **Project Parameters** page, click on  **Feature Control** drop down in top ribbon.
+1. You see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
+1. On the **Project Parameters** page, select **Feature Control** in the top ribbon.
 1. Select **Enable Subcontracting UX enhancements for smoother navigation and insights**.
 1. Select **Enable** in the confirmation dialog.
 
@@ -39,7 +39,7 @@ Steps to enable feature
 
 The following UX improvements are introduced in the Subcontracting module with this feature. Here's the first set of changes; more enhancements are planned in upcoming releases under the same feature flag.
 
-### Enhanced Subcontract main form.
+### Enhanced Subcontract main form
 The subcontract main form is redesigned with the following updates:
 1. Fields under the **General** tab are now logically organized into sections for subcontract details, vendor information, and contracting unit details.
 1. A new **Subcontract Price Lists** tab is added for better handling and management of price lists.
