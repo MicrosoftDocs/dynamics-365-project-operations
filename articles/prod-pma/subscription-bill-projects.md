@@ -25,7 +25,7 @@ This feature lets you create billing schedules for **projects** by using **fee t
 
 ## Prerequisites
 
-Before you can implement this feature, the you must meet the following prerequisites:
+Before you can implement this feature, you must meet the following prerequisites:
 
 ### Minimum version required
 
@@ -48,7 +48,7 @@ To enable project stage rules, follow these steps.
 
 1. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters**.
 1. On the **Project stage** tab, select a stage, and then select a value in the **Project stage rules** field. Project stage rules for creating a billing schedule on a time-and-material project are added.
-1. To create a billing schedule that's linked to a project in the selected project stage, set the **Create billing schedule** option to **Yes**.
+1. To create a billing schedule linked to a project in the selected project stage, set the **Create billing schedule** option to **Yes**.
 
 ## Set up default parameters for fee transactions
 
@@ -110,10 +110,11 @@ To view a billing schedule, follow these steps.
 
 1. On the **All projects** page, select a project.
 1. Select **Manage**, select **Related information**, then select **Subscription billing** > **Billing schedules**. The **All billing schedules** page shows billing schedules that you created for the selected project.
-1. On the **Project contracts** page, select **Maintain**, then, under **Related information**, select **Subscription billing** > **Billing schedules**. The **All billing schedules** page shows any billing schedules that you created for the project contract.
+1. On the **Project contracts** page, select **Maintain**.
+1. In **Related information**, select **Subscription billing** > **Billing schedules**. The **All billing schedules** page shows any billing schedules that you created for the project contract.
 
 Learn more about billing schedules with projects in [Billing schedule with projects](/dynamics365/finance/accounts-receivable/sb-bill-sched-project).
 
-Learn more about generateing invoices from billing schedules in [Generate invoices from billing schedules](/dynamics365/finance/accounts-receivable/sb-generate-invoice).
+Learn more about generating invoices from billing schedules in [Generate invoices from billing schedules](/dynamics365/finance/accounts-receivable/sb-generate-invoice).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
