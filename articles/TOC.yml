@@ -2470,6 +2470,8 @@
       href: prod-pma/project-sales-orders.md
     - name: Project item requirements
       href: prod-pma/project-item-requirements.md
+    - name: Use billing schedules with projects using Fee transactions
+      href: prod-pma/subscription-bill-projects.md
     - name: Item requirements for project contracts with multiple funding sources
       href: prod-pma/multiple-funding-sources-item-req.md  
     - name: Configure and use project funding limits
