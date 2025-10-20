@@ -78,12 +78,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new October 2025 - Project Operations Core
+      href: pro/whats-new/whats-new-oct-2025-lite.md
     - name: What's new September 2025 - Project Operations Core
       href: pro/whats-new/whats-new-sept-2025-lite.md
-    - name: What's new August 2025 - Project Operations Core
-      href: pro/whats-new/whats-new-aug-2025-lite.md
     - name: Archive
       items:
+      - name: What's new August 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-aug-2025-lite.md
       - name: What's new June 2025 - Project Operations Core
         href: pro/whats-new/whats-new-june-2025-lite.md
       - name: What's new May 2025 - Project Operations Core
@@ -747,7 +749,7 @@
     - name: Manage a proforma project invoice 
       href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
     - name: Manage a proforma project invoice with modern invoice form
-      href: proforma-invoicing/Modern_Invoicing.md
+      href: proforma-invoicing/modern-invoicing.md
     - name: Update invoice line details on a draft project-based proforma invoice
       href: proforma-invoicing/update-ild-on-an-invoice.md
     - name: Add new invoice line details to a draft invoice
@@ -776,6 +778,484 @@
     items:
     - name: Project Operations Team Member App
       href: team-member/project-operations-team-member.md  
+  - name: Dynamics 365 Project Service Automation (deprecated) 
+    items:
+    - name: Project Service Automation 
+      href: psa/overview.md
+    - name: What's new
+      items:
+      - name: Update Release schedule for Project Service 3.x
+        href: psa/version-history-ps.md
+      - name: What's new or changed in Project Service Automation October 2023 Early Access
+        herf: psa/whats-new-October2023EarlyAccess.md
+      - name: What's new or changed in Update release 53, V3
+        href: psa/whats-new-ur-53.md
+      - name: What's new or changed in Update release 48, V3
+        href: psa/whats-new-ur-48.md
+      - name: What's new or changed in Update release 47, V3
+        href: psa/whats-new-ur-47.md
+      - name: What's new or changed in Update release 45, V3
+        href: psa/whats-new-ur-45.md        
+      - name: What's new or changed in Update release 44, V3
+        href: psa/whats-new-ur-44.md        
+      - name: What's new or changed in Update release 43, V3
+        href: psa/whats-new-ur43.md       
+      - name: What's new or changed in Update release 42, V3
+        href: psa/whats-new-ur-42.md         
+      - name: What's new or changed in Update release 41, V3
+        href: psa/whats-new-ur-41.md    
+      - name: What's new or changed in Update release 40, V3
+        href: psa/whats-new-ur-40.md
+      - name: What's new or changed in Update Release 39, V3
+        href: psa/whats-new-ur-39.md
+      - name: What's new or changed in Update Release 38, V3
+        href: psa/whats-new-ur-38.md
+      - name: What's new or changed in Update Release 37.5, V3
+        href: psa/whats-new-ur-37-5.md
+      - name: What's new or changed in Update Release 37, V3
+        href: psa/whats-new-ur-37.md
+      - name: What's new or changed in Update Release 36, V3
+        href: psa/whats-new-ur-36.md
+      - name: What's new or changed in Update Release 35, V3
+        href: psa/whats-new-ur-35.md
+      - name: What's new or changed in Update Release 34, V3
+        href: psa/whats-new-ur-34.md
+      - name: What's new or changed in Update Release 33, V3
+        href: psa/whats-new-ur-33.md
+      - name: What's new or changed in Update Release 32.5, V3
+        href: psa/whats-new-ur-32-5.md
+      - name: What's new or changed in Update Release 32, V3
+        href: psa/whats-new-ur-32.md
+      - name: What's new or changed in Update Release 31, V3
+        href: psa/whats-new-ur-31.md
+      - name: What's new or changed in Update Release 30, V3
+        href: psa/whats-new-ur-30.md
+      - name: What's new or changed in Update Release 29.5 Hotfix, V3
+        href: psa/whats-new-ur-29-5.md
+      - name: What's new or changed in Update Release 29, V3
+        href: psa/whats-new-ur-29.md
+      - name: What's new or changed in Update Release 28.6 Hotfix, V3
+        href: psa/whats-new-ur-28-6.md
+      - name: What's new or changed in Update Release 28.5 Hotfix, V3
+        href: psa/whats-new-ur-28-5.md
+      - name: What's new or changed in Update Release 28, V3
+        href: psa/whats-new-ur-28.md
+      - name: What's new or changed in Update Release 27.6 Hotfix, V3
+        href: psa/whats-new-ur-27-6.md
+      - name: What's new or changed in Update Release 27.5 Hotfix, V3
+        href: psa/whats-new-ur-27-5.md
+      - name: What's new or changed in Update Release 27, V3
+        href: psa/whats-new-ur-27.md
+      - name: What's new or changed in Update Release 26, V3
+        href: psa/whats-new-ur-26.md
+      - name: What's new or changed in Update Release 25, V3
+        href: psa/whats-new-ur-25.md
+      - name: What's new or changed in Update Release 24, V3
+        href: psa/whats-new-ur-24.md
+      - name: What's new or changed in Update Release 23, V3
+        href: psa/whats-new-ur-23.md
+      - name: What's new or changed in Update Release 22, V3
+        href: psa/whats-new-ur-22.md
+      - name: What's new or changed in Update Release 21, V3
+        href: psa/whats-new-ur-21.md      
+      - name: What's new or changed in Update Release 20, V3
+        href: psa/whats-new-ur-20.md
+      - name: What's new or changed in Update Release 19, V3
+        href: psa/whats-new-ur-19.md
+      - name: What's new or changed in Update Release 18, V3
+        href: psa/whats-new-ur-18.md
+      - name: What's new or changed in Update Release 17.5, Hotfix, V3
+        href: psa/whats-new-ur-17-5.md
+      - name: What's new or changed in Update Release 17, V3
+        href: psa/whats-new-ur-17.md
+      - name: What's new or changed in Update Release 16, V3
+        href: psa/whats-new-ur-16.md
+      - name: What's new or changed in Update Release 15, V3
+        href: psa/whats-new-ur-15.md
+      - name: What's new or changed in Update Release 14, V3
+        href: psa/whats-new-ur-14.md
+      - name: What's new or changed in Update Release 13, V3
+        href: psa/whats-new-ur-13.md
+      - name: What's new or changed in Update Release 12, V3
+        href: psa/whats-new-ur-12.md
+      - name: What's new or changed in Project Service Automation V3.x wave 1 2021
+        href: psa/whats-new-2021-wave1.md
+      - name: What's new or changed in Project Service Automation V3.x wave 1 2020
+        href: psa/whats-new-v3-2020-wave1.md
+      - name: What's new or changed in Project Service Automation V3
+        href: psa/whats-new-changed-v3.md
+    - name: Project Service Automation upgrade (app version Project Operations  Core 4.x)
+      items: 
+      - name: Upgrade from Project Service Automation to Project Operations
+        href: psa/upgrade-project-operations-non-stocked.md  
+      - name: Project Service Automation end of life FAQ
+        href: psa/psa-eol-faq.md
+      - name: Feature changes from Project Service Automation to Project Operations
+        href: psa/psa-project-operations-changes.md 
+      - name: Project Service Automation to Project Operations project scheduling conversion process  
+        href: psa/PSA-Upgrade-Project-Conversion.md
+      - name: Plan your work in Microsoft Project with the Project Operations add-in
+        href: psa/plan-work-in-project-operations-add-in.md
+    - name: Plan your implementation (app version 3.x)
+      items: 
+      - name: Sample data installation
+        href: psa/install-sample-data-3-x.md
+      - name: Project planning and tracking guide
+        href: psa/implementation-guides/project-planning-tracking.md
+      - name: Basic quoting, pricing, and billing guide.
+        href: psa/implementation-guides/begin-quoting-pricing-billing.md 
+      - name: Advanced quoting, pricing, and billing guide
+        href: psa/implementation-guides/adv-quoting-pricing-billing.md
+      - name: Resource management guide
+        href: psa/implementation-guides/resource-management-guide.md
+      - name: Reporting guide
+        href: psa/implementation-guides/reporting-guide.md
+    - name: Upgrade from Project Service Automation to Project Operations - Project Operations Core
+      href: psa/upgrade-project-operations-non-stocked.md
+    - name: Feature changes from Project Service Automation to Project Operations
+      href: psa/psa-project-operations-changes.md
+    - name: Project Service Automation upgrade (app version 3.x)
+      items: 
+      - name: Project Service Automation upgrade 
+        href: psa/upgrade-psa-home-page.md
+      - name: Upgrade considerations - version 2.x or 1.x to version 3
+        href: psa/upgrade-v3.md
+      - name: Development (3.x)
+        items:
+        - name: Development (app version 3.x)
+          href: psa/developer-guides/overview-dev-notes-v3.x.md
+        - name: Entity changes
+          href: psa/developer-guides/entity-changes-v3.x.md
+        - name: Time and expense
+          href: psa/developer-guides/time-expense-changes-v3.x.md
+        - name: Resource management 
+          href: psa/developer-guides/resource-management-changes-v3.x.md
+        - name: Deprecated Web resources in Project Service Automation v3.x
+          href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation (3.x)
+      items: 
+      - name: Project planning
+        items:
+        - name: Project planning home page
+          href: psa/project-planning.md
+        - name: Project schedules
+          href: psa/project-creating.md
+        - name: Project costs and revenue
+          href: psa/project-estimating.md
+        - name: Sales estimates and projects
+          href: psa/project-leveraging.md
+        - name: Project progress and cost consumption
+          href: psa/project-tracking.md
+        - name: Project templates
+          href: psa/project-templates.md
+        - name: Project stages
+          href: psa/project-stages.md
+        - name: Project settings
+          href: psa/project-settings.md
+        - name: Plan your work in Microsoft Project with the Project Service Automation add-in
+          href: psa/plan-work-in-project-service-automation-add-in.md
+      - name: Pricing and costing dimensions 
+        items:
+        - name: Pricing and costing dimensions home page
+          href: psa/pricing-costing-dimensions.md
+        - name: Create a solution for custom pricing dimensions
+          href: psa/custompricingdimensionssolution.md
+        - name: Create custom fields and entities
+          href: psa/create-custom-fields-entities.md
+        - name: Add custom fields to price setup and transactional entities
+          href: psa/field-references.md
+        - name: Set up custom fields as pricing dimensions
+          href: psa/set-up-pricing-dimensions.md
+        - name: Update plug-in attributes to include new pricing dimensions
+          href: psa/update-plug-in-attributes.md
+        - name: Use an existing field in as a pricing dimension
+          items: 
+          - name: Use an existing field in Project Service as a pricing dimension
+            href: psa/use-existing-field.md
+          - name: Use bookable resource as a pricing dimension
+            href: psa/bookable-resource-pricing-dimension.md
+          - name: Use transaction category as a pricing dimension
+            href: psa/transaction-category-pricing-dimension.md
+        - name: Bookable resource with multiple roles on a project
+          href: psa/bookable-resource-multiple-roles.md
+        - name: Turn off a pricing dimension
+          href: psa/turn-off-pricing-dimension.md
+      - name: Quoting, pricing, and billing 
+        items:
+        - name: Quoting, pricing, and billing home page
+          href: psa/quote-bill-price.md
+        - name: Sales processes
+          href: psa/basic-sales-process.md
+        - name: Unit groups and units
+          href: psa/advanced-units.md
+        - name: Organizational units
+          href: psa/advanced-organizational.md
+        - name: Quotes and quote lines
+          href: psa/basic-quote-lines.md
+        - name: Product-based quote lines
+          href: psa/product-based-quote-lines.md
+        - name: Project pricing
+          href: psa/basic-pricing.md
+        - name: Product catalog pricing
+          href: psa/product-catalog-pricing.md
+        - name: Business transactions
+          href: psa/basic-business-transactions.md
+        - name: Estimates
+          href: psa/estimates.md
+        - name: Analyze project quotes
+          href: psa/basic-analyzing-quotes.md
+        - name: Recall previously approved time or expense entries
+          href: psa/recall-approved.md
+        - name: Cancel approval of previously approved time or expense entries
+          href: psa/cancel-approval.md
+        - name: Actuals
+          href: psa/actuals.md
+        - name: Bulk corrections of actuals created by approved time and expense entries
+          href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
+        - name: Review project billing backlog
+          href: psa/review-invoicing-backlog.md
+        - name: Invoicing
+          href: psa/invoicing.md
+        - name: Multi-currency scenarios
+          href: psa/advanced-currency.md
+      - name: Resourcing projects 
+        items: 
+        - name: Resourcing projects home page
+          href: psa/resource-management.md
+        - name: Assign generic bookable resources to a task and generate resource requirements
+          href: psa/assign-generic-bookable-resource.md 
+        - name: Book named bookable resources to a project team and assign a task
+          href: psa/assign-named-bookable-resource.md
+        - name: Assign a resource to a task
+          href: psa/FAQ-assign-resources-to-tasks.md
+        - name: Book named resources from resource requirements
+          href: psa/book-named-resource.md
+        - name: Resource bookings and how they relate to task assignments
+          href: psa/FAQ-bookings-and-assignments.md
+        - name: Submit a resource request
+          href: psa/submit-resource-request.md
+        - name: Accept or reject a proposed resource
+          href: psa/accept-reject-proposed-resource.md
+        - name: View chargeable utilization for resources
+          href: psa/FAQ-utilization-view.md
+      - name: Reconcile bookings and assignments
+        href: psa/reconcile-booking-assignment.md
+      - name: Resource management 
+        items:
+        - name: Resource management home page
+          href: psa/resource-management-home-page.md
+        - name: Manage resources
+          href: psa/manage-resources.md
+        - name: Key concepts
+          href: psa/reports-key-concepts.md
+        - name: Fulfill resource requests
+          href: psa/resource-management-fulfill-requests.md
+        - name: Propose resources
+          href: psa/resource-management-propose-resources.md
+        - name: Book resources
+          href: psa/resource-management-book-resources-scheduleboard.md
+        - name: Book allocation methods
+          href: psa/FAQ-allocation-methods.md
+        - name: Soft-book requirements
+          href: psa/resource-management-softbook-requirements.md
+        - name: Soft book a resource
+          href: psa/FAQ-soft-book.md
+        - name: Create a project booking from the Schedule board
+          href: psa/FAQ-project-booking-schedule-board.md
+        - name: Skills and proficiency models
+          href: psa/resource-management-skills-proficiency.md
+        - name: Resource management FAQ
+          href: psa/resource-management-faq.md
+      - name: Reporting 
+        items:
+        - name: Reporting home page
+          href: psa/reports-reporting-dynamics-365-project-service.md
+        - name: Dashboards
+          href: psa/reports-dashboards.md
+        - name: Project Service Automation data model
+          href: psa/reports-working-project-service-data-model.md
+      - name: Time entries
+        items:
+        - name: Create time entries
+          href: psa/time-entries.md
+        - name: Time entry calendar
+          href: psa/time-entry-calendar.md
+        - name: Customize weekly time entry
+          href: psa/time-entry-extensibility-v3.md
+        - name: Approval sets in Project Service Automation
+          href: psa/approval-set.md
+    - name: FAQ and troubleshooting (3.x)
+      items: 
+      - name: Why is the price defaulting to zero on expense cost actuals?
+        href: psa/FAQ-zero-price-expense-cost-actuals.md
+      - name: Why is the price defaulting to zero on expense sales actuals?
+        href: psa/FAQ-zero-price-expense-sales-actuals.md
+      - name: Why is the price defaulting to zero on time cost actuals?
+        href: psa/FAQ-zero-price-time-cost-actuals.md
+      - name: Why is the price defaulting to zero on time sales actuals?
+        href: psa/FAQ-zero-price-time-sales-actuals.md
+      - name: Why can’t I delete records from the Actuals entity?
+        href: psa/FAQ-deleting-actuals.md
+    - name: Project Service Automation 2.x and 1.x 
+      items: 
+      - name: FAQ and troubleshooting
+        items: 
+        - name: How do I assign a resource to a task (app version 2.x)?
+          href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
+        - name: How do I "soft book" resources (app version 2.x)?
+          href: psa/FAQ-soft-book-in-web-app.md
+        - name: How do I customize the Project Stages business process flow?
+          href: psa/FAQ-customize-bpf.md
+      - name: White papers
+        href: psa/white-papers.md
+      - name: Administrator guide
+        items:
+        - name: Administrator guide (Project Service)
+          href: psa/admin-guide.md
+        - name: Install and customize
+          href: psa/install-customize.md
+        - name: Use demo data
+          href: psa/use-demo-data.md
+        - name: Configure the Project Service app
+          items:
+          - name: Configure Project Service
+            href: psa/configure.md
+          - name: Set up time units
+            href: psa/set-up-time-units.md
+          - name: Set up currencies and exchange rates
+            href: psa/set-up-currencies-exchange-rates.md
+          - name: Create organizational units
+            href: psa/create-organizational-units.md
+          - name: Set up invoice frequencies
+            href: psa/set-up-invoice-frequencies.md
+          - name: Configure transaction categories
+            href: psa/configure-transaction-categories.md
+          - name: Configure expense categories
+            href: psa/configure-expense-categories.md
+          - name: Create product catalog items
+            href: psa/create-product-catalog-items.md
+          - name: Create a price list
+            href: psa/create-price-list.md
+        - name: Set up resources
+          items: 
+          - name: Set up resources (Project Service)
+            href: psa/set-up-resources.md
+          - name: Add resources
+            href: psa/add-resources.md
+          - name: Add resource skills
+            href: psa/add-resource-skills.md
+          - name: Set up proficiency models
+            href: psa/set-up-proficiency-models.md
+          - name: Add resource roles
+            href: psa/add-resource-roles.md
+          - name: Configure resource roles
+            href: psa/configure-resource-roles.md
+          - name: Associate skills with resources
+            href: psa/associate-skills-with-resources.md
+          - name: Associate skills with resource roles
+            href: psa/associate-skills-with-resource-roles.md
+          - name: Create a work hours template
+            href: psa/create-work-hours-template.md
+          - name: Apply a calendar to a resource
+            href: psa/apply-calendar-resource.md
+          - name: Configure additional settings
+            href: psa/configure-additional-parameters-settings.md
+          - name: Enable Project Finder Mobile
+            href: psa/enable-project-finder-mobile-app-features.md
+      - name: Resource manager guide
+        items:
+        - name: Resource manager guide (Project Service)
+          href: psa/resource-manager-guide.md
+        - name: Manage resource requests
+          href: psa/manage-resource-requests.md
+        - name: Schedule resources for a project
+          href: psa/schedule-resources-project.md
+        - name: View resource availability
+          href: psa/view-resource-availability.md
+        - name: View resource utilization
+          href: psa/view-resource-utilization.md
+        - name: Universal Resource Scheduling (URS)
+          href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
+      - name: Project manager guide
+        items:
+        - name: Project manager guide (Project Service)
+          href: psa/project-manager-guide.md
+        - name: Provide work estimates
+          href: psa/provide-estimates-project-during-sales-process.md
+        - name: Create a project
+          href: psa/create-project.md
+        - name: Schedule a project with a work breakdown structure
+          href: psa/schedule-project-work-breakdown-structure.md
+        - name: Determine project cost and revenue estimates
+          href: psa/determine-project-cost-revenue-estimates.md
+        - name: Track project progress and cost
+          href: psa/track-project-progress-cost.md
+        - name: Create a project template
+          href: psa/create-project-template.md
+        - name: Submit resource requests
+          href: psa/submit-resource-requests.md
+        - name: Create an Office 365 Group for a project
+          href: psa/create-office-365-group-project.md
+        - name: Add documents to a project
+          href: psa/add-documents-project.md
+        - name: Track a project’s status
+          href: psa/track-project-status.md
+        - name: View project team members and manage bookings
+          href: psa/view-project-team-members-manage-bookings.md
+        - name: View and edit project estimates
+          href: psa/view-edit-project-estimates.md
+        - name: Approve time and expenses
+          href: psa/approve-time-expenses.md
+        - name: Review project actuals
+          href: psa/review-project-actuals.md
+        - name: View and send invoices
+          href: psa/view-send-invoices.md
+        - name: View dashboards and reports
+          href: psa/view-dashboards-reports.md
+        - name: Use the add-in to plan work in Microsoft Project
+          href: psa/add-plan-work-microsoft-project.md
+      - name: Account manager guide
+        items: 
+        - name: Account manager guide (Project Service)
+          href: psa/account-manager-guide.md
+        - name: Create a customer account
+          href: psa/create-customer-account.md
+        - name: Create a project opportunity
+          href: psa/create-project-opportunity.md
+        - name: Create a project quote
+          href: psa/create-project-quote.md
+        - name: Create a project contract
+          href: psa/create-project-contract.md
+      - name: Time, expense, and collaboration
+        items:
+        - name: Time, expense, and collaboration guide (Project Service)
+          href: psa/time-expense-collaboration-guide.md
+        - name: Get the apps
+          href: psa/get-apps.md
+        - name: Sign in
+          href: psa/sign-in.md
+        - name: View your schedule
+          href: psa/view-schedule.md
+        - name: Manage projects and bookings in Office 365
+          href: psa/manage-project-bookings-office-365-calendar.md
+        - name: Enter time
+          href: psa/enter-time.md
+        - name: Enter expenses
+          href: psa/enter-expenses.md
+        - name: Delegate time or expense entry
+          href: psa/allow-someone-else-enter-time-entry-expense.md
+        - name: Schedule time off
+          href: psa/schedule-time-off.md
+        - name: Collaborate using Office 365 Groups
+          href: psa/collaborate-project-team-members-office-365-groups.md
+        - name: Find projects with Project Finder mobile
+          href: psa/find-next-project-finder-mobile-app.md
+        - name: Project Resource Hub guide
+          href: psa/project-resource-hub-users-guide.md
+      - name: Notes for developers (app version 2.x)  
+        items:
+        - name: Add custom forms for entities
+          href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
 - name: Project Operations Integrated with ERP
   items:
   - name: Get started
@@ -836,12 +1316,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: October 2025 - Project Operations Integrated with ERP
+      href: whats-new/whats-new-oct-2025-resource-based.md
     - name: September 2025 - Project Operations Integrated with ERP
       href: whats-new/whats-new-sept-2025-resource-based.md
-    - name: August 2025 - Project Operations Integrated with ERP
-      href: whats-new/whats-new-aug-2025-resource-based.md
     - name: Archive
       items:
+       - name: August 2025 - Project Operations Integrated with ERP
+         href: whats-new/whats-new-aug-2025-resource-based.md
        - name: June 2025 - Project Operations Integrated with ERP
          href: whats-new/whats-new-june-2025-resource-based.md
        - name: May 2025 - Project Operations Integrated with ERP
@@ -1595,7 +2077,7 @@
       - name: Manage a proforma project-based invoice
         href: proforma-invoicing/manage-proforma-invoice.md
       - name: Manage a proforma project invoice with modern invoice form
-        href: proforma-invoicing/Modern_Invoicing.md
+        href: proforma-invoicing/modern-invoicing.md
       - name: Update invoice line details on a draft project-based proforma invoice
         href: proforma-invoicing/update-ild-on-an-invoice.md
       - name: Add new invoice line details to a draft invoice
@@ -1988,6 +2470,8 @@
       href: prod-pma/project-sales-orders.md
     - name: Project item requirements
       href: prod-pma/project-item-requirements.md
+    - name: Use billing schedules with projects using Fee transactions
+      href: prod-pma/subscription-bill-projects.md
     - name: Item requirements for project contracts with multiple funding sources
       href: prod-pma/multiple-funding-sources-item-req.md  
     - name: Configure and use project funding limits
@@ -2092,484 +2576,6 @@
       href: expense/vat-recovery.md
     - name: View an expense report from General ledger or Procurement and sourcing
       href: prod-exp/view-expense-report.md      
-- name: Dynamics 365 Project Service Automation  
-  items:
-  - name: Project Service Automation 
-    href: psa/overview.md
-  - name: What's new
-    items:
-    - name: Update Release schedule for Project Service 3.x
-      href: psa/version-history-ps.md
-    - name: What's new or changed in Project Service Automation October 2023 Early Access
-      herf: psa/whats-new-October2023EarlyAccess.md
-    - name: What's new or changed in Update release 53, V3
-      href: psa/whats-new-ur-53.md
-    - name: What's new or changed in Update release 48, V3
-      href: psa/whats-new-ur-48.md
-    - name: What's new or changed in Update release 47, V3
-      href: psa/whats-new-ur-47.md
-    - name: What's new or changed in Update release 45, V3
-      href: psa/whats-new-ur-45.md        
-    - name: What's new or changed in Update release 44, V3
-      href: psa/whats-new-ur-44.md        
-    - name: What's new or changed in Update release 43, V3
-      href: psa/whats-new-ur43.md       
-    - name: What's new or changed in Update release 42, V3
-      href: psa/whats-new-ur-42.md         
-    - name: What's new or changed in Update release 41, V3
-      href: psa/whats-new-ur-41.md    
-    - name: What's new or changed in Update release 40, V3
-      href: psa/whats-new-ur-40.md
-    - name: What's new or changed in Update Release 39, V3
-      href: psa/whats-new-ur-39.md
-    - name: What's new or changed in Update Release 38, V3
-      href: psa/whats-new-ur-38.md
-    - name: What's new or changed in Update Release 37.5, V3
-      href: psa/whats-new-ur-37-5.md
-    - name: What's new or changed in Update Release 37, V3
-      href: psa/whats-new-ur-37.md
-    - name: What's new or changed in Update Release 36, V3
-      href: psa/whats-new-ur-36.md
-    - name: What's new or changed in Update Release 35, V3
-      href: psa/whats-new-ur-35.md
-    - name: What's new or changed in Update Release 34, V3
-      href: psa/whats-new-ur-34.md
-    - name: What's new or changed in Update Release 33, V3
-      href: psa/whats-new-ur-33.md
-    - name: What's new or changed in Update Release 32.5, V3
-      href: psa/whats-new-ur-32-5.md
-    - name: What's new or changed in Update Release 32, V3
-      href: psa/whats-new-ur-32.md
-    - name: What's new or changed in Update Release 31, V3
-      href: psa/whats-new-ur-31.md
-    - name: What's new or changed in Update Release 30, V3
-      href: psa/whats-new-ur-30.md
-    - name: What's new or changed in Update Release 29.5 Hotfix, V3
-      href: psa/whats-new-ur-29-5.md
-    - name: What's new or changed in Update Release 29, V3
-      href: psa/whats-new-ur-29.md
-    - name: What's new or changed in Update Release 28.6 Hotfix, V3
-      href: psa/whats-new-ur-28-6.md
-    - name: What's new or changed in Update Release 28.5 Hotfix, V3
-      href: psa/whats-new-ur-28-5.md
-    - name: What's new or changed in Update Release 28, V3
-      href: psa/whats-new-ur-28.md
-    - name: What's new or changed in Update Release 27.6 Hotfix, V3
-      href: psa/whats-new-ur-27-6.md
-    - name: What's new or changed in Update Release 27.5 Hotfix, V3
-      href: psa/whats-new-ur-27-5.md
-    - name: What's new or changed in Update Release 27, V3
-      href: psa/whats-new-ur-27.md
-    - name: What's new or changed in Update Release 26, V3
-      href: psa/whats-new-ur-26.md
-    - name: What's new or changed in Update Release 25, V3
-      href: psa/whats-new-ur-25.md
-    - name: What's new or changed in Update Release 24, V3
-      href: psa/whats-new-ur-24.md
-    - name: What's new or changed in Update Release 23, V3
-      href: psa/whats-new-ur-23.md
-    - name: What's new or changed in Update Release 22, V3
-      href: psa/whats-new-ur-22.md
-    - name: What's new or changed in Update Release 21, V3
-      href: psa/whats-new-ur-21.md      
-    - name: What's new or changed in Update Release 20, V3
-      href: psa/whats-new-ur-20.md
-    - name: What's new or changed in Update Release 19, V3
-      href: psa/whats-new-ur-19.md
-    - name: What's new or changed in Update Release 18, V3
-      href: psa/whats-new-ur-18.md
-    - name: What's new or changed in Update Release 17.5, Hotfix, V3
-      href: psa/whats-new-ur-17-5.md
-    - name: What's new or changed in Update Release 17, V3
-      href: psa/whats-new-ur-17.md
-    - name: What's new or changed in Update Release 16, V3
-      href: psa/whats-new-ur-16.md
-    - name: What's new or changed in Update Release 15, V3
-      href: psa/whats-new-ur-15.md
-    - name: What's new or changed in Update Release 14, V3
-      href: psa/whats-new-ur-14.md
-    - name: What's new or changed in Update Release 13, V3
-      href: psa/whats-new-ur-13.md
-    - name: What's new or changed in Update Release 12, V3
-      href: psa/whats-new-ur-12.md
-    - name: What's new or changed in Project Service Automation V3.x wave 1 2021
-      href: psa/whats-new-2021-wave1.md
-    - name: What's new or changed in Project Service Automation V3.x wave 1 2020
-      href: psa/whats-new-v3-2020-wave1.md
-    - name: What's new or changed in Project Service Automation V3
-      href: psa/whats-new-changed-v3.md
-  - name: Project Service Automation upgrade (app version Project Operations  Core 4.x)
-    items: 
-    - name: Upgrade from Project Service Automation to Project Operations
-      href: psa/upgrade-project-operations-non-stocked.md  
-    - name: Project Service Automation end of life FAQ
-      href: psa/psa-eol-faq.md
-    - name: Feature changes from Project Service Automation to Project Operations
-      href: psa/psa-project-operations-changes.md 
-    - name: Project Service Automation to Project Operations project scheduling conversion process  
-      href: psa/PSA-Upgrade-Project-Conversion.md
-    - name: Plan your work in Microsoft Project with the Project Operations add-in
-      href: psa/plan-work-in-project-operations-add-in.md
-  - name: Plan your implementation (app version 3.x)
-    items: 
-    - name: Sample data installation
-      href: psa/install-sample-data-3-x.md
-    - name: Project planning and tracking guide
-      href: psa/implementation-guides/project-planning-tracking.md
-    - name: Basic quoting, pricing, and billing guide.
-      href: psa/implementation-guides/begin-quoting-pricing-billing.md 
-    - name: Advanced quoting, pricing, and billing guide
-      href: psa/implementation-guides/adv-quoting-pricing-billing.md
-    - name: Resource management guide
-      href: psa/implementation-guides/resource-management-guide.md
-    - name: Reporting guide
-      href: psa/implementation-guides/reporting-guide.md
-  - name: Upgrade from Project Service Automation to Project Operations - Project Operations Core
-    href: psa/upgrade-project-operations-non-stocked.md
-  - name: Feature changes from Project Service Automation to Project Operations
-    href: psa/psa-project-operations-changes.md
-  - name: Project Service Automation upgrade (app version 3.x)
-    items: 
-    - name: Project Service Automation upgrade 
-      href: psa/upgrade-psa-home-page.md
-    - name: Upgrade considerations - version 2.x or 1.x to version 3
-      href: psa/upgrade-v3.md
-    - name: Development (3.x)
-      items:
-      - name: Development (app version 3.x)
-        href: psa/developer-guides/overview-dev-notes-v3.x.md
-      - name: Entity changes
-        href: psa/developer-guides/entity-changes-v3.x.md
-      - name: Time and expense
-        href: psa/developer-guides/time-expense-changes-v3.x.md
-      - name: Resource management 
-        href: psa/developer-guides/resource-management-changes-v3.x.md
-      - name: Deprecated Web resources in Project Service Automation v3.x
-        href: psa/developer-guides/web-resources-deprecated-v3.x.md
-  - name: Project Service Automation (3.x)
-    items: 
-    - name: Project planning
-      items:
-      - name: Project planning home page
-        href: psa/project-planning.md
-      - name: Project schedules
-        href: psa/project-creating.md
-      - name: Project costs and revenue
-        href: psa/project-estimating.md
-      - name: Sales estimates and projects
-        href: psa/project-leveraging.md
-      - name: Project progress and cost consumption
-        href: psa/project-tracking.md
-      - name: Project templates
-        href: psa/project-templates.md
-      - name: Project stages
-        href: psa/project-stages.md
-      - name: Project settings
-        href: psa/project-settings.md
-      - name: Plan your work in Microsoft Project with the Project Service Automation add-in
-        href: psa/plan-work-in-project-service-automation-add-in.md
-    - name: Pricing and costing dimensions 
-      items:
-      - name: Pricing and costing dimensions home page
-        href: psa/pricing-costing-dimensions.md
-      - name: Create a solution for custom pricing dimensions
-        href: psa/custompricingdimensionssolution.md
-      - name: Create custom fields and entities
-        href: psa/create-custom-fields-entities.md
-      - name: Add custom fields to price setup and transactional entities
-        href: psa/field-references.md
-      - name: Set up custom fields as pricing dimensions
-        href: psa/set-up-pricing-dimensions.md
-      - name: Update plug-in attributes to include new pricing dimensions
-        href: psa/update-plug-in-attributes.md
-      - name: Use an existing field in as a pricing dimension
-        items: 
-        - name: Use an existing field in Project Service as a pricing dimension
-          href: psa/use-existing-field.md
-        - name: Use bookable resource as a pricing dimension
-          href: psa/bookable-resource-pricing-dimension.md
-        - name: Use transaction category as a pricing dimension
-          href: psa/transaction-category-pricing-dimension.md
-      - name: Bookable resource with multiple roles on a project
-        href: psa/bookable-resource-multiple-roles.md
-      - name: Turn off a pricing dimension
-        href: psa/turn-off-pricing-dimension.md
-    - name: Quoting, pricing, and billing 
-      items:
-      - name: Quoting, pricing, and billing home page
-        href: psa/quote-bill-price.md
-      - name: Sales processes
-        href: psa/basic-sales-process.md
-      - name: Unit groups and units
-        href: psa/advanced-units.md
-      - name: Organizational units
-        href: psa/advanced-organizational.md
-      - name: Quotes and quote lines
-        href: psa/basic-quote-lines.md
-      - name: Product-based quote lines
-        href: psa/product-based-quote-lines.md
-      - name: Project pricing
-        href: psa/basic-pricing.md
-      - name: Product catalog pricing
-        href: psa/product-catalog-pricing.md
-      - name: Business transactions
-        href: psa/basic-business-transactions.md
-      - name: Estimates
-        href: psa/estimates.md
-      - name: Analyze project quotes
-        href: psa/basic-analyzing-quotes.md
-      - name: Recall previously approved time or expense entries
-        href: psa/recall-approved.md
-      - name: Cancel approval of previously approved time or expense entries
-        href: psa/cancel-approval.md
-      - name: Actuals
-        href: psa/actuals.md
-      - name: Bulk corrections of actuals created by approved time and expense entries
-        href: psa/bulk-corrections-actuals-created-by-approved-time-expense-entries.md
-      - name: Review project billing backlog
-        href: psa/review-invoicing-backlog.md
-      - name: Invoicing
-        href: psa/invoicing.md
-      - name: Multi-currency scenarios
-        href: psa/advanced-currency.md
-    - name: Resourcing projects 
-      items: 
-      - name: Resourcing projects home page
-        href: psa/resource-management.md
-      - name: Assign generic bookable resources to a task and generate resource requirements
-        href: psa/assign-generic-bookable-resource.md 
-      - name: Book named bookable resources to a project team and assign a task
-        href: psa/assign-named-bookable-resource.md
-      - name: Assign a resource to a task
-        href: psa/FAQ-assign-resources-to-tasks.md
-      - name: Book named resources from resource requirements
-        href: psa/book-named-resource.md
-      - name: Resource bookings and how they relate to task assignments
-        href: psa/FAQ-bookings-and-assignments.md
-      - name: Submit a resource request
-        href: psa/submit-resource-request.md
-      - name: Accept or reject a proposed resource
-        href: psa/accept-reject-proposed-resource.md
-      - name: View chargeable utilization for resources
-        href: psa/FAQ-utilization-view.md
-    - name: Reconcile bookings and assignments
-      href: psa/reconcile-booking-assignment.md
-    - name: Resource management 
-      items:
-      - name: Resource management home page
-        href: psa/resource-management-home-page.md
-      - name: Manage resources
-        href: psa/manage-resources.md
-      - name: Key concepts
-        href: psa/reports-key-concepts.md
-      - name: Fulfill resource requests
-        href: psa/resource-management-fulfill-requests.md
-      - name: Propose resources
-        href: psa/resource-management-propose-resources.md
-      - name: Book resources
-        href: psa/resource-management-book-resources-scheduleboard.md
-      - name: Book allocation methods
-        href: psa/FAQ-allocation-methods.md
-      - name: Soft-book requirements
-        href: psa/resource-management-softbook-requirements.md
-      - name: Soft book a resource
-        href: psa/FAQ-soft-book.md
-      - name: Create a project booking from the Schedule board
-        href: psa/FAQ-project-booking-schedule-board.md
-      - name: Skills and proficiency models
-        href: psa/resource-management-skills-proficiency.md
-      - name: Resource management FAQ
-        href: psa/resource-management-faq.md
-    - name: Reporting 
-      items:
-      - name: Reporting home page
-        href: psa/reports-reporting-dynamics-365-project-service.md
-      - name: Dashboards
-        href: psa/reports-dashboards.md
-      - name: Project Service Automation data model
-        href: psa/reports-working-project-service-data-model.md
-    - name: Time entries
-      items:
-      - name: Create time entries
-        href: psa/time-entries.md
-      - name: Time entry calendar
-        href: psa/time-entry-calendar.md
-      - name: Customize weekly time entry
-        href: psa/time-entry-extensibility-v3.md
-      - name: Approval sets in Project Service Automation
-        href: psa/approval-set.md
-  - name: FAQ and troubleshooting (3.x)
-    items: 
-    - name: Why is the price defaulting to zero on expense cost actuals?
-      href: psa/FAQ-zero-price-expense-cost-actuals.md
-    - name: Why is the price defaulting to zero on expense sales actuals?
-      href: psa/FAQ-zero-price-expense-sales-actuals.md
-    - name: Why is the price defaulting to zero on time cost actuals?
-      href: psa/FAQ-zero-price-time-cost-actuals.md
-    - name: Why is the price defaulting to zero on time sales actuals?
-      href: psa/FAQ-zero-price-time-sales-actuals.md
-    - name: Why can’t I delete records from the Actuals entity?
-      href: psa/FAQ-deleting-actuals.md
-  - name: Project Service Automation 2.x and 1.x 
-    items: 
-    - name: FAQ and troubleshooting
-      items: 
-      - name: How do I assign a resource to a task (app version 2.x)?
-        href: psa/FAQ-assign-resources-to-tasks-in-web-app.md
-      - name: How do I "soft book" resources (app version 2.x)?
-        href: psa/FAQ-soft-book-in-web-app.md
-      - name: How do I customize the Project Stages business process flow?
-        href: psa/FAQ-customize-bpf.md
-    - name: White papers
-      href: psa/white-papers.md
-    - name: Administrator guide
-      items:
-      - name: Administrator guide (Project Service)
-        href: psa/admin-guide.md
-      - name: Install and customize
-        href: psa/install-customize.md
-      - name: Use demo data
-        href: psa/use-demo-data.md
-      - name: Configure the Project Service app
-        items:
-        - name: Configure Project Service
-          href: psa/configure.md
-        - name: Set up time units
-          href: psa/set-up-time-units.md
-        - name: Set up currencies and exchange rates
-          href: psa/set-up-currencies-exchange-rates.md
-        - name: Create organizational units
-          href: psa/create-organizational-units.md
-        - name: Set up invoice frequencies
-          href: psa/set-up-invoice-frequencies.md
-        - name: Configure transaction categories
-          href: psa/configure-transaction-categories.md
-        - name: Configure expense categories
-          href: psa/configure-expense-categories.md
-        - name: Create product catalog items
-          href: psa/create-product-catalog-items.md
-        - name: Create a price list
-          href: psa/create-price-list.md
-      - name: Set up resources
-        items: 
-        - name: Set up resources (Project Service)
-          href: psa/set-up-resources.md
-        - name: Add resources
-          href: psa/add-resources.md
-        - name: Add resource skills
-          href: psa/add-resource-skills.md
-        - name: Set up proficiency models
-          href: psa/set-up-proficiency-models.md
-        - name: Add resource roles
-          href: psa/add-resource-roles.md
-        - name: Configure resource roles
-          href: psa/configure-resource-roles.md
-        - name: Associate skills with resources
-          href: psa/associate-skills-with-resources.md
-        - name: Associate skills with resource roles
-          href: psa/associate-skills-with-resource-roles.md
-        - name: Create a work hours template
-          href: psa/create-work-hours-template.md
-        - name: Apply a calendar to a resource
-          href: psa/apply-calendar-resource.md
-        - name: Configure additional settings
-          href: psa/configure-additional-parameters-settings.md
-        - name: Enable Project Finder Mobile
-          href: psa/enable-project-finder-mobile-app-features.md
-    - name: Resource manager guide
-      items:
-      - name: Resource manager guide (Project Service)
-        href: psa/resource-manager-guide.md
-      - name: Manage resource requests
-        href: psa/manage-resource-requests.md
-      - name: Schedule resources for a project
-        href: psa/schedule-resources-project.md
-      - name: View resource availability
-        href: psa/view-resource-availability.md
-      - name: View resource utilization
-        href: psa/view-resource-utilization.md
-      - name: Universal Resource Scheduling (URS)
-        href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
-    - name: Project manager guide
-      items:
-      - name: Project manager guide (Project Service)
-        href: psa/project-manager-guide.md
-      - name: Provide work estimates
-        href: psa/provide-estimates-project-during-sales-process.md
-      - name: Create a project
-        href: psa/create-project.md
-      - name: Schedule a project with a work breakdown structure
-        href: psa/schedule-project-work-breakdown-structure.md
-      - name: Determine project cost and revenue estimates
-        href: psa/determine-project-cost-revenue-estimates.md
-      - name: Track project progress and cost
-        href: psa/track-project-progress-cost.md
-      - name: Create a project template
-        href: psa/create-project-template.md
-      - name: Submit resource requests
-        href: psa/submit-resource-requests.md
-      - name: Create an Office 365 Group for a project
-        href: psa/create-office-365-group-project.md
-      - name: Add documents to a project
-        href: psa/add-documents-project.md
-      - name: Track a project’s status
-        href: psa/track-project-status.md
-      - name: View project team members and manage bookings
-        href: psa/view-project-team-members-manage-bookings.md
-      - name: View and edit project estimates
-        href: psa/view-edit-project-estimates.md
-      - name: Approve time and expenses
-        href: psa/approve-time-expenses.md
-      - name: Review project actuals
-        href: psa/review-project-actuals.md
-      - name: View and send invoices
-        href: psa/view-send-invoices.md
-      - name: View dashboards and reports
-        href: psa/view-dashboards-reports.md
-      - name: Use the add-in to plan work in Microsoft Project
-        href: psa/add-plan-work-microsoft-project.md
-    - name: Account manager guide
-      items: 
-      - name: Account manager guide (Project Service)
-        href: psa/account-manager-guide.md
-      - name: Create a customer account
-        href: psa/create-customer-account.md
-      - name: Create a project opportunity
-        href: psa/create-project-opportunity.md
-      - name: Create a project quote
-        href: psa/create-project-quote.md
-      - name: Create a project contract
-        href: psa/create-project-contract.md
-    - name: Time, expense, and collaboration
-      items:
-      - name: Time, expense, and collaboration guide (Project Service)
-        href: psa/time-expense-collaboration-guide.md
-      - name: Get the apps
-        href: psa/get-apps.md
-      - name: Sign in
-        href: psa/sign-in.md
-      - name: View your schedule
-        href: psa/view-schedule.md
-      - name: Manage projects and bookings in Office 365
-        href: psa/manage-project-bookings-office-365-calendar.md
-      - name: Enter time
-        href: psa/enter-time.md
-      - name: Enter expenses
-        href: psa/enter-expenses.md
-      - name: Delegate time or expense entry
-        href: psa/allow-someone-else-enter-time-entry-expense.md
-      - name: Schedule time off
-        href: psa/schedule-time-off.md
-      - name: Collaborate using Office 365 Groups
-        href: psa/collaborate-project-team-members-office-365-groups.md
-      - name: Find projects with Project Finder mobile
-        href: psa/find-next-project-finder-mobile-app.md
-      - name: Project Resource Hub guide
-        href: psa/project-resource-hub-users-guide.md
-    - name: Notes for developers (app version 2.x)  
-      items:
-      - name: Add custom forms for entities
-        href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
 - name: Responsible AI FAQs
   items:
   - name: Responsible AI FAQs for Project Operations
