@@ -21,13 +21,13 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
-Dynamics 365 Project Service Application is a legacy application that goes out of support on March 31, 2025, in commercial cloud. Microsoft stopped selling new PSA licenses on October 31, 2020, when the formal SKU deprecation occurred. Learn more in the following announcements from 2020: 
+Microsoft Dynamics 365 Project Service Automation (PSA) is a legacy application that is no longer supported in commercial cloud as of March 31, 2025. Microsoft stopped selling new PSA licenses on October 31, 2020, when the formal SKU deprecation occurred. Learn more in the following announcements from 2020: 
 
 - [Introducing Microsoft Dynamics 365 Project Operations](https://www.microsoft.com//dynamics-365/blog/business-leader/2020/02/20/introducing-microsoft-dynamics-365-project-operations)
 - [The future of Dynamics 365 for Project Service Automation (PSA)](https://www.microsoft.com//dynamics-365/blog/bdm/2019/05/22/the-future-of-dynamics-365-for-project-service-automation-psa)
-- [What’s next for Dynamics 365 Project Service Automation and the project management and accounting (PMA) capabilities within Dynamics 365 Finance](https://community.dynamics.com/blogs/post?postid=e0a71783-059e-4a6a-a785-7e0d0e8803f7)
+- [What’s next for Dynamics 365 Project Service Automation and the project management and accounting (PMA) capabilities within Microsoft Dynamics 365 Finance](https://community.dynamics.com/blogs/post?postid=e0a71783-059e-4a6a-a785-7e0d0e8803f7)
 
-Learn more in the following announcements from 2023 and 2024: 
+As a follow-up to the announcements in 2020, please read these announcements from 2023 and 2024: 
 
 - [Upgrade Project Service Automation to Project Operations](https://www.microsoft.com//dynamics-365/blog/it-professional/2023/06/07/upgrade-project-service-automation-to-project-operations)
 - [Announcing End of Support for Dynamics 365 Project Service Automation](https://www.microsoft.com//dynamics-365/blog/it-professional/2024/03/19/announcing-end-of-life-for-dynamics-365-project-service-automation)
@@ -35,11 +35,11 @@ Learn more in the following announcements from 2023 and 2024:
  
 Most of our PSA customers have already upgraded to Dynamics 365 Project Operations or moved to other products as their needs aligned. Dynamics 365 PSA license SKUs are no longer available in our systems, and we can't backfill your license entitlement to PSA through your Project Operations license. If you're looking for documentation and help for transitioning to Project Operations, learn more in [Upgrade from Project Service Automation to Project Operations](upgrade-project-operations-non-stocked.md).
 
-### What if you can still access Dynamics 365 PSA application
+#### What if you can still access the Dynamics 365 Project Service Application
 
 Some legacy licenses might still provide access to Dynamics 365 PSA application. While Microsoft can't validate how you're accessing Dynamics 365 PSA application, we strongly recommend not relying on this access and migrating away from this application as soon as you can. Microsoft can't guarantee continued access to an application that Microsoft retired five years ago.  
 
-### For customers of Dynamics 365 Project Service Application on sovereign clouds, GCC, GCC High, or DoD
+#### For customers of Dynamics 365 Project Service Application on sovereign clouds, GCC, GCC High, or DoD
 
 If you're on GCC, GCC High, DoD, or other sovereign clouds, this deprecation doesn't affect you. You can continue to access Dynamics 365 Project Service Application.
 
