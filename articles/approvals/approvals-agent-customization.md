@@ -40,7 +40,9 @@ In the default branch, the parsed JSON can be sent to the agent in the same mann
 With the time entry record retrieved, all that remains is the append the threshold value to the data signals, and send that to the agent. The value can be appended using the compose action with the following argument: "addProperty(items('Apply_to_each'),'Threshold Value',outputs('Get_Time_Entry_from_Project_Approval')?['body/cradf_thresholdvalue'])" (where 'Get_Time_Entry_from_Project_Approval' is the title of the previous step and cradf_threshold value is the logical name of the customized column). All that remains is to send the new set of data signals to the agent using the Execute Copilot action from the Microsoft Copilot Studio connector, ensuring to choose the Approvals agent and in the Body/message parameter add the output of the previous step.
 
 The final result will look like this:
-INSERT IMAGE
+
+![Screenshot of a finished customization to the approvals agent trigger flow](media/customize_approvals_agent.png)
 
 And will enable the agent to make approvals decisions based on the custom column threshold value:
 
+![An approval record which the agent has classified based on the custom data](media/customization_outcome.png)
