@@ -21,8 +21,6 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
-[!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
-
 Dynamics 365 Project Service Application is a legacy application that goes out of support on March 31, 2025, in commercial cloud. Microsoft stopped selling new PSA licenses on October 31, 2020, when the formal SKU deprecation occurred. Learn more in the following announcements from 2020: 
 
 - [Introducing Microsoft Dynamics 365 Project Operations](https://www.microsoft.com//dynamics-365/blog/business-leader/2020/02/20/introducing-microsoft-dynamics-365-project-operations)
@@ -46,7 +44,7 @@ Some legacy licenses might still provide access to Dynamics 365 PSA application.
 If you're on GCC, GCC High, DoD, or other sovereign clouds, this deprecation doesn't affect you. You can continue to access Dynamics 365 Project Service Application.
 
 
-_**Applies To:** Project Service app version 3.x, 2.x, and 1.x_
+[!INCLUDE[cc-applies-to-psa-apps-all](../includes/cc-applies-to-psa-apps-all.md)]
 
 The Project Service Automation (PSA) application helps organizations efficiently track, manage, and deliver project-based services, from the initial sale all the way to invoicing. The app enables you to:
 
