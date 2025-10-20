@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-When the Approvals Agent is triggered, a predefined set of data that is related to the submitted record is passed to the agent. This article explains how to customize that data for customers who wish to have the agent make decisions based on data outside that predefined set, by modifying the Power Automate flow used to trigger the agent.
+When the Approvals Agent is triggered, a predefined set of data related to the submitted record is passed to the agent. This article explains how to customize that data for customers who wish to have the agent make decisions based on data outside that predefined set, by modifying the Power Automate flow used to trigger the agent.
 
 ## Modifying the trigger flow
 
