@@ -23,7 +23,7 @@ The Approvals Agent uses the text of policy documents to determine how submitted
 
 When the Approvals Agent is triggered, a predefined set of data that is related to the submitted record is passed to the agent. The agent uses this data to classify the record. The agent can perform checks based only on data that is passed to it. If you want to pass data that isn't part of the predefined set, you must customize the agent's trigger flow.
 
-The following tables outline the data that is available to the agent without customization. Customizing this data is outlined [here](./approvals-agent-customizaiton.md).
+The following tables outline the data that is available to the agent without customization. Customizing this data is outlined [here](approvals-agent-customizaiton.md).
 
 ### Time entry data
 
