@@ -41,8 +41,8 @@ With the time entry record retrieved, all that remains is the append the thresho
 
 The final result looks like this:
 
-![Screenshot of a finished customization to the approvals agent trigger flow](media/customize_approvals_agent.png)
+![Screenshot of a finished customization to the approvals agent trigger flow](media/customize-approvals-agent.png)
 
 And enables the agent to make approvals decisions based on the custom column threshold value:
 
-![An approval record which the agent has classified based on the custom data](media/customization_outcome.png)
+![An approval record which the agent has classified based on the custom data](media/customization-outcome.png)
