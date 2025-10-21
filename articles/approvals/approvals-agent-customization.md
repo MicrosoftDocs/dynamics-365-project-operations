@@ -29,11 +29,11 @@ The default Approvals agent trigger flow has three steps:
 
 To add information to the data signals, add steps to gather data and add it to the data signals inside the apply to each loop. The following section outlines an example of one such customization.
 
-### An example of a customized trigger flow
+### Example of a customized trigger flow
 
-In this environment, you customize the time entry record by adding a field called threshold value. You also add a rule to the policy document for time entries that only entries with a threshold value greater than 100 should be marked as ready for approval. To enable the agent to make this decision, you need to add the threshold value to the set of data signals sent to the agent.
+In this environment, you customize the time entry record by adding a field called threshold value. You also add a rule to the policy document for time entries so only entries with a threshold value greater than 100 should be marked as ready for approval. To enable the agent to make this decision, you need to add the threshold value to the set of data signals sent to the agent.
 
-To start, add a switch statement inside the Apply to each loop with the value of the entry type from the parsed JSON deciding which branch the flow takes. Since the customization in this environment is only to the time entry entity, the switch statement has only two paths: one if the entry is of type time, and one for all other entries (default). 
+To start, add a switch statement inside the Apply to each loop with the value of the entry type from the parsed JSON deciding which branch the flow takes. Because the customization in this environment is only to the time entry entity, the switch statement has only two paths: one if the entry is of type time, and one for all other entries (default). 
 
 In the default branch, you can send the parsed JSON to the agent in the same manner as the unedited trigger flow. However, in the time entry branch, you need to add three extra steps. The threshold value exists in the time entry record, but only the ID of the project approval record is included in the default set of data signals. Therefore, first retrieve the project approval record by using the Get a row by ID action from the Dataverse connector and the ID from the data signals. Then, call get a row by ID again, this time using the ID of the linked time entry from the retrieved project approval record.
 
@@ -43,6 +43,6 @@ The final result looks like this:
 
 :::image type="content" source="media/customize-approvals-agent.png" alt-text="Screenshot of a finished customization to the approvals agent trigger flow.":::
 
-And enables the agent to make approvals decisions based on the custom column threshold value:
+Now the agent is able to make approvals decisions based on the custom column threshold value:
 
 :::image type="content" source="media/customization-outcome.png" alt-text="Screenshot of an approval record which the agent has classified based on the custom data.":::
