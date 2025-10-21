@@ -3,7 +3,7 @@ title: Set up policy documents for the Approvals Agent (preview)
 description: Learn how to set up time, expense, and material policy documents for the Approvals feature of the Time and Expense Agent. 
 author: abriccetti
 ms.author: abriccetti
-ms.date: 07/15/2025
+ms.date: 10/21/2025
 ms.topic: how-to
 ms.custom: 
  - bap-template
@@ -23,7 +23,7 @@ The Approvals Agent uses the text of policy documents to determine how submitted
 
 When the Approvals Agent is triggered, a predefined set of data that is related to the submitted record is passed to the agent. The agent uses this data to classify the record. The agent can perform checks based only on data that is passed to it. If you want to pass data that isn't part of the predefined set, you must customize the agent's trigger flow.
 
-The following tables outline the data that is available to the agent without customization.
+The following tables outline the data that is available to the agent without customization. Learn more about customizing this data in [Customize data sent to the Approvals Agent](approvals-agent-customization.md).
 
 ### Time entry data
 
