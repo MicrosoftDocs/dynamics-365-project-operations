@@ -57,3 +57,10 @@ This issue can sometimes occur when the legal entity selection is typed in inste
 ## Where can I go to discuss the app with the community and submit suggestions to Microsoft?
 
 The **Mobile Experiences** channel within the [Project Operations Discussions](https://teams.microsoft.com/l/team/19%3A8a60b9a0136a4879aeb618021cdcdc91%40thread.tacv2/conversations?groupId=b781f78d-32f2-432f-b1fa-265d8259f9be&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Microsoft Teams channel is a great place to go if you want to exchange tips, ask questions, or submit suggestions for improvement. Channel participants include Microsoft partners, customers, experts, and employees.
+
+## Can I customize or extend the Expense mobile app?
+
+While it is technically possible to extend or customize the Expense mobile app, we strongly recommend in not doing so. Customizations or extensions are likely to break whenever the app is updated because updates often include new features, enhancements, and bug fixes that may not be compatible with your changes. This means any customizations would need to be redone after every update, adding significant maintenance overhead. Keeping your app updated ensures you always have access to the latest functionality, security improvements, and performance enhancements. Customizations can prevent you from benefiting from these updates and may lead to unexpected issues.
+
+
+
