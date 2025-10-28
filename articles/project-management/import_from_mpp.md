@@ -23,10 +23,7 @@ To import a new project from a Project desktop client file, follow these steps.
 
     ![My Active Projects list.](media/importribbonaction.png)
 
-1. Update the **Work hour template**, **Project manager**, and **Schedule mode** fields as required.
-
-    ![Import from MPP dialog box.](media/importdialog.png)
-
+1. Update the **Work hour template**, **Project manager**, **Schedule mode**, and **Contracting Unit** fields as required.
 1. Select **Choose File**, browse to the .mpp file that you want to import, and then select **Open**.
 1. Select **Import** to start the import process.
 1. After the project is successfully created, review the validation summary. The summary indicates whether any items in the file excluded from the import. For example, the following screenshot shows an example where nine resources were removed from the importation.
@@ -34,6 +31,25 @@ To import a new project from a Project desktop client file, follow these steps.
     ![File import and validation dialog box.](media/importsummary.png)
 
 1. Select **Go to project** to view the project.
+
+## Import a file to an existing project with no WBS
+
+A project without a WBS indicates that the project was created, but the user did not access the Task tab. Opening the Task tab automatically generates a blank WBS.
+
+To import to an existing project with no WBS from a Project desktop client file, follow these steps.
+
+1. Open the **Projects** view.
+1. On the toolbar, select **Import \> Import from MPP**.
+1. Select the project you want to import into. Only eligible projects will appear in the list.
+1. As the project is already created, all fields are locked and cannot be edited.
+1. Select **Choose File**, browse to the .mpp file that you want to import, and then select **Open**.
+1. Select **Import** to start the import process.
+1. After the project is successfully created, review the validation summary. The summary indicates whether any items in the file excluded from the import. For example, the following screenshot shows an example where nine resources were removed from the importation.
+
+    ![File import and validation dialog box.](media/importsummary.png)
+
+1. Select **Go to project** to view the project.
+
 
 ## Limitations
 The following sections describe limitations of Import from MPP. 
@@ -52,3 +68,7 @@ In addition to the unsupported capabilities that are described in the previous s
 ### Project custom fields
 
 If you've customized the project main page by adding required fields, those fields must have default values. Otherwise, errors occur when files are imported to create new projects. Customization of the import dialog box isn't currently supported.
+
+### Existing projects with WBS
+
+If a project already contains a WBS—even if it is blank—it is not eligible for importing tasks from an .MPP file.
