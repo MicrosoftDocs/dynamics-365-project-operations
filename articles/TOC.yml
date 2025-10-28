@@ -1320,8 +1320,6 @@
         href: pro/budget/project-cost-expense-budget-line.md
     - name: Use time-phased project cost budget lines
       href: pro/budget/time-phase-budget-line.md
-    - name: Use time-phased project cost budget lines
-      href: pro/budget/column-based-time-phasing.md
     - name: Project budget status management
       href: pro/budget/project-budget-status-mgmt.md
     - name: Budget line match priority
