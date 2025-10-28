@@ -40,7 +40,7 @@ To import to an existing project with no WBS from a Project desktop client file,
 
 1. Open the **Projects** view.
 1. On the toolbar, select **Import \> Import from MPP**.
-1. Select the project you want to import into. Only eligible projects will appear in the list.
+1. Select the project you want to import into. Only eligible projects appear in the list.
 1. As the project is already created, all fields are locked and cannot be edited.
 1. Select **Choose File**, browse to the .mpp file that you want to import, and then select **Open**.
 1. Select **Import** to start the import process.
