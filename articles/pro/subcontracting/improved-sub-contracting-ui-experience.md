@@ -1,7 +1,7 @@
 ---
 title: Enable the improved Subcontracting user experience
 description: This article explains how to enable the improved subcontracting module's user experience and lists the included changes. 
-author: nimaski
+author: niranjanmaski
 ms.date: 10/28/2025
 ms.topic: how-to
 ms.custom: 
