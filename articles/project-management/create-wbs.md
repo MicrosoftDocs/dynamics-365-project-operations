@@ -108,11 +108,42 @@ The **Category** field holds the values that indicate a broader type of work tha
 
 You can use the schedule in Project Operations to create predecessor relationships between tasks. The **Predecessor** field uses one or more values to indicate the tasks that a task depends on. When predecessor values are assigned to a task, the task can start only after all of the predecessor tasks have been completed. Because of the dependency, the planned start date of the task is reset to the date when the predecessor tasks are completed.
 
+There are four depdendncy types supported in Project Operations.
+
+| Dependency Type | Description |
+|---------------------|----------|
+| Finish-to-start (FS) | As the default dependency, Task B (successor) can start only after the finish of task A (predecessor) |
+| Start-to-start (SS) | Task B (successor) can start only with or after the start of task A (predecessor) |
+| Finish-to-Finish (FF) | Task B (successor) can finish only after the finish of task A (predecessor) |
+| Start-to-Finish (FF) | Task B (successor) can finish only after the start task A (predecessor) |
+
+For precise planning Project Operations provides the concept of lead and lag to the project manager.
+
+| Type | Description |
+|---------------------|----------|
+| Immediate | Task B (successor) can start immediately after the Task A (predecessor) finishes |
+| Lag | Task B (successor) can start only after the specified lag duration has elapsed after Task A (predecessor) finishes (positive offset)|
+| Lead | Task B (successor) can start earlier by the defined lead time prior to the completion of Task A (predecessor) (negative offset) |
+
 The task mode has no effect on updates that are made to the start and end dates of predecessor/dependent tasks.
 
 ## Task labels
 
 You can apply labels on tasks and use this capability to quickly see what they have in common, to sort or filter. To learn more, see [Use labels to sort tasks in Microsoft Project for the web.](https://support.microsoft.com/office/use-labels-to-sort-tasks-in-microsoft-project-for-the-web-32dfc732-7bbc-48f0-9d17-672ddcd1905c)
+
+## Task history
+
+All the changes a user makes to a task are recorded in task history. For each edit, details are shown such as who made the change, when they made it, what property was changed, the previous value, and the new value.
+
+![Screenshot example of task history.](media/task-history.png)
+
+Changes that are recorded include edits such as
+
+1. Adding or removing labels
+2. Changing the duration or effort
+3. Editing checklists
+4. Adding or removing attachments
+5. Edits to any custom columns
 
 ## Understanding the impacts of duration, resource calendars, and project calendars on tasks
 
