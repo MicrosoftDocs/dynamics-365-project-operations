@@ -81,7 +81,7 @@ The following table shows more schedule attributes.
 | Duration | Displays the duration in days for the task. |
 | Total Effort | Total work for the task in hours. |
 | Finish | Finish date and time. |
-| % Complete | The percentage of the task that is complete. |
+| % Complete | The percentage of the task that's complete. |
 | Project Bucket | The task board can be grouped by bucket. Therefore, each bucket has its own column. |
 | Effort Remaining (Hours) | The remaining work for the task in hours. |
 | Start | Start date and time. |
@@ -108,7 +108,7 @@ The **Category** field holds the values that indicate a broader type of work tha
 
 You can use the schedule in Project Operations to create predecessor relationships between tasks. The **Predecessor** field uses one or more values to indicate the tasks that a task depends on. When predecessor values are assigned to a task, the task can start only after all of the predecessor tasks have been completed. Because of the dependency, the planned start date of the task is reset to the date when the predecessor tasks are completed.
 
-There are four depdendncy types supported in Project Operations.
+There are four depdendency types supported in Project Operations.
 
 | Dependency Type | Description |
 |---------------------|----------|
@@ -163,7 +163,7 @@ These duration conversions can be edited at the project level to support users i
 Unassigned tasks are scheduled by using the project's calendar. However, upon initial resource assignment, the scheduling of a task is updated so that it respects the resource's calendar. Subsequent changes to a task that has an assignment is governed by the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
 
 > [!NOTE]
-> Project for the Web does not respect business closures that are defined in the resource or project calendars.
+> Project for the Web doesn't respect business closures that are defined in the resource or project calendars.
 
 It's important to note that a resource assignment can be created only when the end of the resource's calendar rule overlaps the task's end date. Therefore, if your calendar rule ends before the end of the task, the assignment isn't scheduled, because there isn't enough time in the schedule for the resource to perform the task.
 
