@@ -34,14 +34,14 @@ To import a new project from a Project desktop client file, follow these steps.
 
 ## Import a file to an existing project with no WBS
 
-A project without a WBS indicates that the project was created, but the user did not access the Task tab. Opening the Task tab automatically generates a blank WBS.
+A project without a WBS indicates that the project was created, but the user didn't access the Task tab. Opening the Task tab automatically generates a blank WBS.
 
 To import to an existing project with no WBS from a Project desktop client file, follow these steps.
 
 1. Open the **Projects** view.
 1. On the toolbar, select **Import \> Import from MPP**.
 1. Select the project you want to import into. Only eligible projects appear in the list.
-1. As the project is already created, all fields are locked and cannot be edited.
+1. As the project is already created, all fields are locked and can't be edited.
 1. Select **Choose File**, browse to the .mpp file that you want to import, and then select **Open**.
 1. Select **Import** to start the import process.
 1. After the project is successfully created, review the validation summary. The summary indicates whether any items in the file excluded from the import. For example, the following screenshot shows an example where nine resources were removed from the importation.
@@ -71,4 +71,4 @@ If you've customized the project main page by adding required fields, those fiel
 
 ### Existing projects with WBS
 
-If a project already contains a WBS—even if it is blank—it is not eligible for importing tasks from an .MPP file.
+If a project already contains a WBS—even if it's blank—it isn't eligible for importing tasks from MPP file.
