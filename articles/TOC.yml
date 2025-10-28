@@ -420,6 +420,8 @@
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
+      - name: Baselines
+        href: project-management/baselines.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
@@ -1638,6 +1640,8 @@
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
+      - name: Baselines
+        href: project-management/baselines.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
