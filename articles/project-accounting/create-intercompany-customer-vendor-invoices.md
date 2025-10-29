@@ -3,7 +3,7 @@ title: Create intercompany customer and vendor invoices
 description: This article provides information about how to create intercompany customer and vendor invoices.
 author:  ryansandness
 ms.author: ryansandness
-ms.date: 05/24/2024
+ms.date: 10/29/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -47,7 +47,7 @@ The following steps must be performed in the lending legal entity.
 You can create multiple intercompany invoices at the same time for all borrowing legal entities. Using search functionality, you can for example, search for all transactions that are posted by borrowed workers and related to projects that are managed by other legal entities. Then, for each borrowing legal entity, you can create an intercompany invoice for the transactions provided in the search results.
 
 1. Go to **Project management and accounting** > **Periodic** > **Project invoices** > **Create intercompany customer invoices**.
-2. On the **Create intercompany customer invoices** page, in the **Company**  field, select a legal entity to invoice. If you don't select a company, all transactions that meet the search criteria are displayed for all borrowing legal entities.
+2. On the **Create intercompany customer invoices** page, in the **Company**  field, select a legal entity to invoice. 
 3. In **Create one invoice per**, select whether to create an invoice for intercompany transactions based on a project or based on a borrowing legal entity.
 4. Optional: To select a specific project and project contract to create intercompany invoices for, click **Select**. On the **Inquiry** page, in the **Criteria** field, select the project contract, project number, or both, and then select **OK**.
 5. On the **Batch** tab, set up a batch process to create intercompany invoices on a recurring basis. For more information, see [Submit a batch processing job from a form](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
