@@ -23,7 +23,7 @@ This article explains how to subscribe to the trial offer and deploy Project Ope
 
 ## Prerequisites
 - The user who deploys the preview must have tenant administrator rights. You can create a tenant during the first offer redemption. 
-- Deploying a Finance environment requires a valid Azure subscription that will be billed per environment. You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/free/) to get started. The CDS environment will be provided free for a limited 30 day period.
+- Deploying a Finance environment requires a valid Azure subscription that will be billed per environment. You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) to get started. The CDS environment will be provided free for a limited 30 day period.
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
