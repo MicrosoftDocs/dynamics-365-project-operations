@@ -89,6 +89,6 @@ The system generates the **project subledger** immediately after you post the pr
 > 
 > Posting the beginning balance journal doesn't generate financial transactions; it only generates the project subledger.
 > 
-> **Billed Milestones and retainers** aren't supported yet with this feature. Refer [Migrate fully invoiced billing milestones at cutover](../advanced-configuration/migrating-invoiced-milestones.md) to migrate Billed Milestones. 
+> **Billed Milestones and retainers** aren't supported yet with this feature. To migrate billed milestones, learn more in [Migrate fully invoiced billing milestones at cutover](../advanced-configuration/migrating-invoiced-milestones.md). 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
