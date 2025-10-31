@@ -29,7 +29,7 @@ However, in real-world scenarios, costs or revenues may occur outside the projec
 - Post-completion expenses or invoices raised after the project ends.
 - Actual transactions that match all budget dimensions except the date.
 
-Without flexibility, its not possible to create a budget line before or after project start and end date. 
+Without flexibility, it is not possible to create a budget line before or after project start and end date. 
 Actuals related to such transactions also fail to match any budget line, even though they logically belong to the project.
 
 ## How these checks can be relaxed?
