@@ -14,15 +14,14 @@ ms.author: nimaski
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
+_**Applies To:** Project Operations Integrated with ERP and Project Operations Core._
 
 This article explains how to relax project start and end date checks during budget creation and when matching actuals to budgets.
 
-## Why this is needed?
+## Why this relaxation configuration is needed?
 
 The purpose of budget was to track the actual cost or actual sales against a budgeted cost or sales for the project during the project execution. 
-Given this the project cost or sales would happen ideally within the project start date and end date. 
-Budgets are designed to track actual costs or sales against planned amounts during project execution. Ideally, these transactions occur within the project start and end dates.  
+The project cost or sales would happen ideally within the project start date and end date. Budgets are designed to track actual costs or sales against planned amounts during project execution. Ideally, these transactions occur within the project start and end dates.  
 By default, every budget line and its details are validated against these dates during budget creation.
 
 However, in real-world scenarios, costs or revenues may occur outside the project timeline. Examples include:
@@ -30,7 +29,8 @@ However, in real-world scenarios, costs or revenues may occur outside the projec
 - Post-completion expenses or invoices raised after the project ends.
 - Actual transactions that match all budget dimensions except the date.
 
-Without flexibility, such transactions fail to match any budget line, even though they logically belong to the project.
+Without flexibility, its not possible to create a budget line before or after project start and end date. 
+Actuals related to such transactions also fail to match any budget line, even though they logically belong to the project.
 
 ## How these checks can be relaxed?
 
