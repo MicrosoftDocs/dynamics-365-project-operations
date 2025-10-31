@@ -2,7 +2,7 @@
 title: Manage beginning balances for Project Operations integrated deployments
 description: Learn how to manage and import beginning or opening balances into Microsoft Dynamics 365 Project Operations integrated with ERP.
 author: mukumarm
-ms.date: 09/23/2025
+ms.date: 10/31/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
