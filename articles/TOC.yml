@@ -484,6 +484,8 @@
       href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Relax project start and end date checks
+      href: pro/budget/relax-project-start-and-end-date-checks.md
     - name: Summarize budget lines during import
       href: pro/budget/summarize-budgetline-during-import.md
     - name: Set up a budget period
@@ -1794,6 +1796,8 @@
       href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Relax project start and end date checks
+      href: pro/budget/relax-project-start-and-end-date-checks.md
     - name: Summarize budget lines during import
       href: pro/budget/summarize-budgetline-during-import.md
     - name: Set up a budget period
