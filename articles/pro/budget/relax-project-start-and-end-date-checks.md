@@ -1,5 +1,5 @@
 ---
-title: Relaxing project start and end date checks
+title: Relax project start and end date checks
 description: Learn how to relax project start and end date validations during budget creation and during actuals matching in Project Operations.
 author: niranjanmaski
 ms.date: 10/31/2025
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: nimaski
 ---
 
-# Relaxing project start and end date checks
+# Relax project start and end date checks
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
