@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mukumarm
 ---
 
-## Managed item requirements by using project item forecasts
+# Managed item requirements by using project item forecasts
 
 [!INCLUDE[banner](../includes/banner.md)]
 
