@@ -2045,7 +2045,7 @@
     - name: Managed stocked products for project operations integrated deployments
       href: procurement/enable-stocked-products-integrated.md
     - name: Managed item requirements using item forecasts
-      href: procurement/enable-itemrequirement-forecast.md
+      href: procurement/enable-item-requirement-forecast.md
     - name: Configure non-stocked materials and pending vendor invoices
       href: procurement/configure-materials-nonstocked.md
     - name: Configure procurement categories for projects
