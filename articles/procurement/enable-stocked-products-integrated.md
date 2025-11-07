@@ -2,7 +2,7 @@
 title: Managed stocked products for Project Operations integrated deployments
 description: Learn how to manage and use stocked products in integrated Microsoft Dynamics 365 Project Operations deployments.
 author: mukumarm
-ms.date: 07/10/2025
+ms.date: 11/07/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
