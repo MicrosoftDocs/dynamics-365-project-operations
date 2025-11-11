@@ -2052,7 +2052,7 @@
         href: procurement/enable-stocked-products-integrated.md
       - name: Managed item requirements using item forecasts
         href: procurement/enable-item-requirement-forecast.md
-      - name: Manage inventory consumption for Project Operations integrated with ERP deployments
+      - name: Inventory consumption using Material usage and Journal
         href: procurement/stock-material-reservation.md
     - name: Configure non-stocked materials and pending vendor invoices
       href: procurement/configure-materials-nonstocked.md
