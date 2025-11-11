@@ -1,5 +1,5 @@
 ---
-title: Manage material usage and project journals to consume inventory for projects in Dynamics 365 Project Operations integrated with ERP deployments.
+title: Manage inventory consumption using Material usage and Journal
 description: Learn how to consume the inventory and inventory reservations in Dynamics 365 Project Operations integrated with ERP deployments.
 author: mukumarm
 ms.date: 11/07/2025
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: mukumarm
 ---
 
-# Manage inventory consumption for Project Operations integrated with ERP deployments
+# Manage inventory consumption using Material usage and Journal
 
 [!INCLUDE[banner](../includes/banner.md)]
 
