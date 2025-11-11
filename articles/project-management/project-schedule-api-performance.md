@@ -18,7 +18,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 This article provides information about the performance benchmarks of the Project schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
 
 ## Project Scheduling Service
-The Project Scheduling Service is a multi-tenant service that runs in Microsoft Azure. It's designed to improve interaction by providing a fast and fluid experience when users work on projects. This improvement is achieved by accepting change requests, processing them, and then immediately returning the result. The service asynchronously persists to Dataverse and doesn't block users from performing other operations.
+The Project Scheduling Service is a multi-tenant service that runs in Microsoft Azure. It is designed to improve interaction by providing a fast and fluid experience when users work on projects. This improvement is achieved by accepting change requests, processing them, and then immediately returning the result. The service asynchronously persists to Dataverse and doesn't block users from performing other operations.
 
 The Project schedule APIs rely on the Project Scheduling Service to run requests that are described in more detail in later sections of this article.
 
@@ -32,9 +32,9 @@ The Project schedule APIs are designed to work with the following work breakdown
   
 Both out-of-box fields and custom fields are supported. Unless otherwise noted, all common operations are supported, such as create, update, and delete. For more information, see [Use Project schedule APIs to perform operations and scheduling entities](schedule-api-preview.md).
 
-As part of the Project schedule APIs, a unit-of-work pattern has been added. This pattern is known as an OperationSet, and it can be used when several requests must be processed in a single transaction.
+As part of the Project schedule APIs, a unit-of-work pattern is added. This pattern is known as an OperationSet, and it can be used when several requests must be processed in a single transaction.
 
-The following illustration shows the flow that a partner will experience when this feature is used.
+The following illustration shows the flow that a partner experiences when this feature is used.
 
 ![Dataverse and project scheduling service flow.](./media/dataverse-project-scheduling-service-flow.png)
 
@@ -45,22 +45,22 @@ The following illustration shows the flow that a partner will experience when th
    
 The Project Scheduling Service runs its own validations on requests in the batch. Any validation failures undo the batch and return an exception to the caller. If the batch is successfully accepted by the Project Scheduling Service, the OperationSet status is updated to reflect the fact that the OperationSet is being processed by the Project Scheduling Service.
 
-**Step 2**: This step represents is the PERSIST phase. The Project Scheduling Service asynchronously writes the batch to Dataverse in a transaction. If the write operation is successful, the OperationSet is marked as **Completed**. Any errors roll back the transaction and the batch, and the OperationSet is marked as **Failed**.
+**Step 2**: This step represents the PERSIST phase. The Project Scheduling Service asynchronously writes the batch to Dataverse in a transaction. If the write operation is successful, the OperationSet is marked as **Completed**. Any errors roll back the transaction and the batch, and the OperationSet is marked as **Failed**.
 
 ## Performance methodology
-Execution time is defined as the time from the call to the **ExecuteOperationSetV3** API until the Project Scheduling Service has finished writing to Dataverse. All operations run a combined 2,280 times, and the P90 execution time measurements are reported. Single-record and bulk operations are measured.
+All operations run a combined 2,280 times, and the P90 execution time measurements are reported. Single-record and bulk operations are measured.
 
 For a single-record operation, the OperationSet contains one request. For bulk operations, it contains 20, 50, or 100 requests. Each bulk size is reported separately.
 
-These operations run on a UR58 Project Operations Core distributed across North America, EMEA and APAC. 
+These operations run on a UR58 Project Operations Core distributed across North America, EMEA, and APAC. 
 
 ## Results
 ### Single-record operations
-The following table shows the execution times for the creation, update and deletion of a single record. The times are in seconds.
+The following table shows the execution times for the creation, update, and deletion of a single record. The times are in seconds.
 
-**Schedule API Duration**: Time take by ExecuteOperationSetV3
+**Schedule API Duration**: Time taken by ExecuteOperationSetV3
 
-**Total Duration**: Schedule API duration + Project Save Service time + sync to CDS time
+**Total Duration**: Schedule API duration + Project Save Service time + sync to Dataverse time
 
 <table class="tg">
 <thead>
@@ -162,15 +162,15 @@ The following table shows the execution times for the creation, update and delet
 </table>
 
 > [!NOTE] 
-> 1.	**Team Member** entity isn’t included in create operation, because Team Member can be created directly in dataverse.
+> 1.	**Team Member** entity isn’t included in create operation, because Team Member can be created directly in Dataverse.
 > 2.	Update operations on the **Resource Assignments** and **Project Task Dependency** entities aren't supported.
 > 3.	Delete operation on the **Project** entity isn't supported.
 
 
 ### Bulk operations
-The following table shows the execution times for the creation, update and deletion of many records. Specifically, Microsoft measured the execution times for the creation of 20, 50, and 100 records in a single OperationSet. The times are in seconds.
+The following table shows the execution times for the creation, update, and deletion of many records. Specifically, Microsoft measured the execution times for the creation of 20, 50, and 100 records in a single OperationSet. The times are in seconds.
 
-**Schedule API Duration**: Time take by ExecuteOperationSetV3
+**Schedule API Duration**: Time taken by ExecuteOperationSetV3
 
 **Total Duration**: Schedule API duration + Project Save Service time + sync to CDS time
 
@@ -403,6 +403,6 @@ The following table shows the execution times for the creation, update and delet
 ## Best practices
 Based on the preceding scenario results, the APIs perform better in the following conditions:
 
-  - Use the latest versions of the APIs as they have been optimized for better performance.
-  - Group as many operations together as possible. The average runtime for bulk operations is better than the average runtime for single-record operations. The smaller the number of OperationSets in use, the faster the average execution time will be.
-  - Set only the minimum attributes that are required to accomplish your scenario. Be selective about the types of non-required fields included in an OperationSet request. Fields that contain foreign keys or rollup fields will negatively affect performance.
+  - Use the latest versions of the Schedule APIs as they are optimized for better performance.
+  - Group as many operations together as possible. The average runtime for bulk operations is better than the average runtime for single-record operations. The smaller the number of OperationSets in use, the faster the average execution time is.
+  - Set only the minimum attributes that are required to accomplish your scenario. Be selective about the types of nonrequired fields included in an OperationSet request. Fields that contain foreign keys or rollup fields negatively affect performance.
