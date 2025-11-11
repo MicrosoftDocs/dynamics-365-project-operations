@@ -18,7 +18,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 This article provides information about the performance benchmarks of the Project schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
 
 ## Project Scheduling Service
-The Project Scheduling Service is a multi-tenant service that runs in Microsoft Azure. It is designed to improve interaction by providing a fast and fluid experience when users work on projects. This improvement is achieved by accepting change requests, processing them, and then immediately returning the result. The service asynchronously persists to Dataverse and doesn't block users from performing other operations.
+The Project Scheduling Service is a multi-tenant service that runs in Microsoft Azure. It's designed to improve interaction by providing a fast and fluid experience when users work on projects. This improvement is achieved by accepting change requests, processing them, and then immediately returning the result. The service asynchronously persists to Dataverse and doesn't block users from performing other operations.
 
 The Project schedule APIs rely on the Project Scheduling Service to run requests that are described in more detail in later sections of this article.
 
@@ -60,7 +60,7 @@ The following table shows the execution times for the creation, update, and dele
 
 **Schedule API Duration**: Time taken by ExecuteOperationSetV3
 
-**Total Duration**: Schedule API duration + Project Save Service time + sync to Dataverse time
+**Total Duration**: Schedule API duration + Project Save Service time + time taken to sync to Dataverse
 
 <table class="tg">
 <thead>
@@ -172,7 +172,7 @@ The following table shows the execution times for the creation, update, and dele
 
 **Schedule API Duration**: Time taken by ExecuteOperationSetV3
 
-**Total Duration**: Schedule API duration + Project Save Service time + sync to CDS time
+**Total Duration**: Schedule API duration + Project Save Service time + time taken to sync to Dataverse
 
 <table class="tg">
 <thead>
@@ -403,6 +403,6 @@ The following table shows the execution times for the creation, update, and dele
 ## Best practices
 Based on the preceding scenario results, the APIs perform better in the following conditions:
 
-  - Use the latest versions of the Schedule APIs as they are optimized for better performance.
+  - Use the latest versions of the Schedule APIs as they're optimized for better performance.
   - Group as many operations together as possible. The average runtime for bulk operations is better than the average runtime for single-record operations. The smaller the number of OperationSets in use, the faster the average execution time is.
   - Set only the minimum attributes that are required to accomplish your scenario. Be selective about the types of nonrequired fields included in an OperationSet request. Fields that contain foreign keys or rollup fields negatively affect performance.
