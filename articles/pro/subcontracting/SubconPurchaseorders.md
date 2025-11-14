@@ -71,6 +71,14 @@ Before purchase orders and purchase order lines in Finance can be automatically 
 | Project subcontract purchase order header (msdyn\_subcontracts) | 1.0.0.0 |
 | Project subcontract purchase order line (msdyn\_subcontractlines) | 1.0.0.0 |
 
+> [!Note]
+> The **Language** field in the Purchase Order header is **mandatory** in Finance and Operations but does **not exist** in Dataverse.  
+>  
+> This field is automatically populated from the Vendor’s **Language** setting in Finance and Operations. 
+>  - Ensure the **Language** field for vendor is set to a valid value.  
+>  - Navigate to **Finance and Operations** > **Procurement and sourcing** > **Vendors** > **All vendors**.  
+ 
+
 ## Create and manage subcontracts
 
 After you create a subcontract in Dataverse, a corresponding purchase order is generated for it in Finance. Additionally, for every subcontract line in Dataverse, a purchase order line is created. The system uses the project subcontract category mapping that was outlined earlier to identify the procurement category and project category for each purchase order line.
