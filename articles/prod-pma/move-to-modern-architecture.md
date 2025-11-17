@@ -93,7 +93,7 @@ At a minimum, you must follow these steps to enable the modern architecture in a
 6. Complete the required setup in both systems. An example of steps required for demo data company USSI are included below.
 
 > [!IMPORTANT]
-> After creating a new project in Dataverse, you're blocked from opting out of the legal entity being a modern project.
+> After creating a new project in Dataverse, you're blocked from opting out of the modern architecture.
 
 ### Example configuration steps of enabling USSI demo data company for the modern architecture
 
