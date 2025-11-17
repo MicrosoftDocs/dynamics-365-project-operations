@@ -3,7 +3,7 @@ title: Move to the modern architecture
 description: Learn how to use the modern architecture and move to the Project Operations Integrated with ERP deployment if you have a legal entity that currently uses the Project Operations for manufacturing order deployment.
 #customer intent: As an IT admin, I want to enable the modern architecture for existing legal entities with project data so that I can improve project management capabilities.
 author: ryansandness
-ms.date: 11/3/2025
+ms.date: 11/19/2025
 ms.topic: how-to
 ms.custom:
   - bap-template
@@ -64,7 +64,7 @@ This section contains a summary of functionality available. These changes are al
 |------------------------------|-----------------------------------------------------|
 | Projects                     | The Project list page shows both integrated and PMA projects together in a single list. Behavior differs on what items in the ribbon show based on the type of project. For PMA projects, the project details page can be opened to see the details page but is read-only. |
 | Project contracts            | The Project contracts list page shows both integrated and PMA contracts together in a single list. Behavior differs on what items in the ribbon show based on the type of project. For PMA project contracts, the contracts details page can be opened to see the details page but is read-only. |
-| Pricing setup                | Cost and sales pricing for hours, expenses, or fees can be configured from the ribbon when in the context of a project or contract. Transfer prices are also enabled in the ribbon and can be edited from **todo** |
+| Pricing setup                | Cost and sales pricing for hours, expenses, or fees can be configured from the ribbon when in the context of a project or contract. Transfer prices are also enabled in the ribbon and can be edited by navigating from the project contract.  |
 | Project resources            | The resources list page isn't enabled. New resources can be configured using the human resources to [bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm). New resources for PMA or modern projects can be created linking the employee record to the bookable resource in Dataverse. Before new resources are available in PMA, a transaction must be posted through to the integration journal for the new bookable resource to an integrated project. This transaction can be a zero cost journal, but some kind of transaction is required to trigger the resource creation. |
 | Project parameters           | Project parameters are no longer reset on opting-in a legal entity. All PMA parameters are enabled and editable, but all parameters might not be compatible with integrated projects. When all PMA projects are closed then the parameters specific to PMA projects are hidden in the UI since they're no longer applicable. |
 | Project Stage Rules          | Project stage rules are available in the project list and details pages. PMA Projects can change project stages and move to closed when completed. |
@@ -73,8 +73,8 @@ This section contains a summary of functionality available. These changes are al
 | On-Account transactions      | On-Account transactions (milestones, advances, retainers) are available for both PMA and integrated projects. For PMA projects, you can create new transactions within finance and operations apps.|
 | Invoicing and Credit notes     | Project invoice proposals can be created from the project or contract list page or details page for PMA projects. |
 | Invoicing Billing Rules      | Project invoice proposals can be created from the project or contract list page or details page for PMA projects. The contract does not allow for creating new billing rules, but allows users to create and release milestones, update percentage or units of delivery, and update some amounts and details. |
-| Post invoices                | The existing post invoices form works for both PMA and integrated projects. |
-| Intercompany invoicing       | Intercompany invoices can be created manually or through the periodic process. When non-integrated projects exist, then additional options are added to select expense and vendor invoice line for transactions to include in the intercompany items to bill. Intercompany posting logic will follow the deployment type of the intercompany project. 
+| Post invoices                | The existing **Post project invoice proposals** process works for both PMA and integrated projects. |
+| Intercompany invoicing       | Intercompany invoices can be created manually or through the **Create intercompany customer invoices** periodic process. When non-integrated projects exist, then additional options are added to select expense and vendor invoice line for transactions to include in the intercompany items to bill. Intercompany posting logic will follow the deployment type of the intercompany project. 
 | Multiple funding sources invoicing | PMA projects support posting invoices for multiple funding sources, but no changes can be made to the contract for funding limits, rules, or allocations. |
 | Revenue Recognition          | Revenue recognition is available for both PMA and integrated projects.  |
 | General journals             | General Journals can be enabled with the **Enable general journal entries for modern projects** feature, which is in generally available in 10.0.46, but is not on by default. |
