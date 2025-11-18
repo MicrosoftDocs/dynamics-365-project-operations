@@ -16,7 +16,9 @@ ms.dyn365.ops.version: null
 
 # Move to the modern architecture
 
-As of version 10.0.43, if you use the **Project management and accounting** (PMA) module to manage your projects, you can use the modern architecture of Microsoft Dynamics 365 Project Operations to take advantage of the new functionality and modern technology stack.
+[!INCLUDE[banner](../includes/banner.md)]
+
+Starting with version 10.0.43, if you use the **Project management and accounting** (PMA) module to manage your projects, you can use the modern architecture of Microsoft Dynamics 365 Project Operations to take advantage of new functionality and a modern technology stack.
 
 Many customers who previously used the project capabilities of the **Project management and accounting** module in the finance and operations architecture couldn't turn on the capabilities of the modern architecture of Project Operations in the same legal entity. This option is now available.
 
@@ -34,7 +36,7 @@ By adopting the modern architecture, you can take advantage of the following fea
 
 ## Enable the modern architecture of Project Operations (10.0.45 and later)
 
-This section contains a summary of functionality available. These changes are all additive in support of adding new scenarios and functionality for PMA projects in the context of an integrated legal entity. No changes are made if the legal entity isn't opted in as an integrated company. If you don't see a document or a process available in this list, then it isn't available in the user interface and isn't enabled. Any documents or processes not available should be in a state where they're complete and assumed to be unavailable before enabling the feature in production.
+This section summarizes the available functionality. These changes are all additive in support of adding new scenarios and functionality for PMA projects in the context of an integrated legal entity. The changes don't take effect if the legal entity isn't opted in as an integrated company. If you don't see a document or a process available in this list, then it isn't available in the user interface and isn't enabled. Any documents or processes that aren't available should be in a state where they're complete and assumed to be unavailable before enabling the feature in production.
 
 | Functionality                  | Area                | Availability | Release Version |
 |-------------------------------|---------------------|--------------|-----------------|
@@ -62,79 +64,78 @@ This section contains a summary of functionality available. These changes are al
 
 | Functionality                  | Details                                             |
 |------------------------------|-----------------------------------------------------|
-| Projects                     | The Project list page shows both integrated and PMA projects together in a single list. Behavior differs on what items in the ribbon show based on the type of project. For PMA projects, the project details page can be opened to see the details page but is read-only. |
-| Project contracts            | The Project contracts list page shows both integrated and PMA contracts together in a single list. Behavior differs on what items in the ribbon show based on the type of project. For PMA project contracts, the contracts details page can be opened to see the details page but is read-only. |
-| Pricing setup                | Cost and sales pricing for hours, expenses, or fees can be configured from the ribbon when in the context of a project or contract. Transfer prices are also enabled in the ribbon and can be edited by navigating from the project contract.  |
-| Project resources            | The resources list page isn't enabled. New resources can be configured using the human resources to [bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm). New resources for PMA or modern projects can be created linking the employee record to the bookable resource in Dataverse. Before new resources are available in PMA, a transaction must be posted through to the integration journal for the new bookable resource to an integrated project. This transaction can be a zero cost journal, but some kind of transaction is required to trigger the resource creation. |
-| Project parameters           | Project parameters are no longer reset on opting-in a legal entity. All PMA parameters are enabled and editable, but all parameters might not be compatible with integrated projects. When all PMA projects are closed then the parameters specific to PMA projects are hidden in the UI since they're no longer applicable. |
+| Projects                     | The Project list page shows both integrated and PMA projects together in a single list. Behavior differs on what items in the ribbon show based on the type of project. For PMA projects, you can open the project details page to see the details but it's read-only. |
+| Project contracts            | The Project contracts list page shows both integrated and PMA contracts together in a single list. Behavior differs on what items in the ribbon show based on the type of project. For PMA project contracts, you can open the contracts details page to see the details but it's read-only. |
+| Pricing setup                | You can configure cost and sales pricing for hours, expenses, or fees from the ribbon when in the context of a project or contract. Transfer prices are also enabled in the ribbon and can be edited by navigating from the project contract.  |
+| Project resources            | The resources list page isn't enabled. You can configure new resources by using the human resources to [bookable resource integration](/dynamics365/human-resources/hr-admin-integration-hr-rm). You can create new resources for PMA or modern projects by linking the employee record to the bookable resource in Dataverse. Before new resources are available in PMA, you must post a transaction through to the integration journal for the new bookable resource to an integrated project. This transaction can be a zero cost journal, but some kind of transaction is required to trigger the resource creation. |
+| Project parameters           | Project parameters aren't reset when you opt in a legal entity. All PMA parameters are enabled and editable, but all parameters might not be compatible with integrated projects. When you close all PMA projects, the parameters specific to PMA projects are hidden in the UI since they're no longer applicable. |
 | Project Stage Rules          | Project stage rules are available in the project list and details pages. PMA Projects can change project stages and move to closed when completed. |
 | Finance and operations apps Expense Reports          | Expense reports functionality is available for both PMA and integrated projects. |
 | Finance and operations apps journals (Hour, Expense, Item, Fee)     | Journals are available in the list or details page for PMA projects in the ribbon.  Journal setup doesn't have a menu link from the Project module but is available for a read-only view through the journal name hyperlink. |
 | On-Account transactions      | On-Account transactions (milestones, advances, retainers) are available for both PMA and integrated projects. For PMA projects, you can create new transactions within finance and operations apps.|
-| Invoicing and Credit notes     | Project invoice proposals can be created from the project or contract list page or details page for PMA projects. |
-| Invoicing Billing Rules      | Project invoice proposals can be created from the project or contract list page or details page for PMA projects. The contract does not allow for creating new billing rules, but allows users to create and release milestones, update percentage or units of delivery, and update some amounts and details. |
+| Invoicing and Credit notes     | You can create project invoice proposals from the project or contract list page or details page for PMA projects. |
+| Invoicing Billing Rules      | You can create project invoice proposals from the project or contract list page or details page for PMA projects. The contract doesn't allow for creating new billing rules, but it allows you to create and release milestones, update percentage or units of delivery, and update some amounts and details. |
 | Post invoices                | The existing **Post project invoice proposals** process works for both PMA and integrated projects. |
-| Intercompany invoicing       | Intercompany invoices can be created manually or through the **Create intercompany customer invoices** periodic process. When non-integrated projects exist, then additional options are added to select expense and vendor invoice line for transactions to include in the intercompany items to bill. Intercompany posting logic will follow the deployment type of the intercompany project. 
-| Multiple funding sources invoicing | PMA projects support posting invoices for multiple funding sources, but no changes can be made to the contract for funding limits, rules, or allocations. |
+| Intercompany invoicing       | You can create intercompany invoices manually or through the **Create intercompany customer invoices** periodic process. When nonintegrated projects exist, then other options are added to select expense and vendor invoice line for transactions to include in the intercompany items to bill. Intercompany posting logic follows the deployment type of the intercompany project. | 
+| Multiple funding sources invoicing | PMA projects support posting invoices for multiple funding sources, but you can't make changes to the contract for funding limits, rules, or allocations. |
 | Revenue Recognition          | Revenue recognition is available for both PMA and integrated projects.  |
-| General journals             | General Journals can be enabled with the **Enable general journal entries for modern projects** feature, which is in generally available in 10.0.46, but is not on by default. |
-| Project procurement          | Purchase requisitions, purchase orders, requests for quotations, purchase agreements, and vendor invoices are now available for entry against PMA projects. Some functions are available for edit and view from both the project and the contract. 
+| General journals             | You can enable General Journals with the **Enable general journal entries for modern projects** feature, which is generally available in 10.0.46, but isn't on by default. |
+| Project procurement          | You can enter purchase requisitions, purchase orders, requests for quotations, purchase agreements, and vendor invoices against PMA projects. Some functions are available for edit and view from both the project and the contract. | 
 
-At a minimum, you must follow these steps to enable the modern architecture in a legal entity that has project data. This example follows the USSI demo data company.
+At a minimum, follow these steps to enable the modern architecture in a legal entity that has project data. This example follows the USSI demo data company.
 
 > [!IMPORTANT]
-> Before you complete this procedure in a production environment, you should complete it in a sandbox environment and thoroughly test all project-related functionality.
+> Before you complete this procedure in a production environment, complete it in a sandbox environment and thoroughly test all project-related functionality.
 
 1. Enable the **Use the modern architecture for existing legal entities with project data** feature to remove the restriction that blocks this change in the deployment type.
-2. Complete all project transactions that aren't on the list of supported transactions above. Examples of unsupported transactions include time sheets, subscription billing, and more.
-3. Complete all processes that aren't in the list of processes above. Examples of unsupported processes may include post costs, accrue revenue, adjustments, and more.
-4. Close any projects that are completed.
-5. On the **Global project management and accounting parameters** page, select the legal entity to opt in.
-6. Complete the required setup in both systems. An example of steps required for demo data company USSI are included below.
+1. Complete all project transactions that aren't on the list of supported transactions in the previous table. Examples of unsupported transactions include time sheets, subscription billing, and more.
+1. Complete all processes that aren't in the list of processes in the previous table. Examples of unsupported processes might include post costs, accrue revenue, adjustments, and more.
+1. Close any projects that are completed.
+1. On the **Global project management and accounting parameters** page, select the legal entity to opt in.
+1. Complete the required setup in both systems. An example of steps required for demo data company USSI are included in the following section.
 
 > [!IMPORTANT]
-> After creating a new project in Dataverse, you're blocked from opting out of the modern architecture.
+> After you create a new project in Dataverse, you can't opt out of the modern architecture.
 
-### Example configuration steps of enabling USSI demo data company for the modern architecture
+### Example configuration steps for enabling USSI demo data company for the modern architecture
 
-Learn more about setup and configuration in [Project Operations Integrated with ERP deployment overview](../environment/project-operations-integrated-deployment-overview.md). For the finance and operations architecture, several areas of new setup are required. For example, you must create project categories, configure parameters, and create project cost and revenue profiles.
+For more information about setup and configuration, see [Project Operations Integrated with ERP deployment overview](../environment/project-operations-integrated-deployment-overview.md). For the finance and operations architecture, you need to complete several areas of new setup. For example, you must create project categories, configure parameters, and create project cost and revenue profiles.
 
-1. In **Data management**, navigate to **Dual write** and select **Environment details**. In the **Legal entities** tab, add a record for USSI if it isn't already present.
-2. You might be prompted to run initial sync, or you can manually run the [appropriate maps](../environment/resource-dual-write-maps.md) to ensure that new data is created as required to sync master data from either system.
-3. In Dataverse, navigate to **Settings** and ****Transaction Categories**. Create a new category named Services. After saving in Dataverse, you should see a category with the name Services and a category ID starting with TCN-**.
-4. In the finance and operations architecture, verify the category exists in **Transaction categories** and take note of the shared category ID, which should look like TCN-0000001000-R8D2H-1.
-5. Navigate to **Project Categories** and create a new record for each of the above TCN-* categories for our financial postings.
-6. Open **Project management and accounting parameters**. On the last tab for Project Operations on Dynamics 365 Customer Engagement,** ensure that the billing type defaults are mapped to determine chargeable vs nonchargeable transactions.
-7. For project category defaults, use the Services category created earlier for all four transaction types.
-8. Specify an account for the expense reports and procurement integration accounts.
-9. In Dataverse, set up any users as bookable resources with the appropriate legal entity (USSI) and operating unit (Contoso Robotics US).
+1. In **Data management**, go to **Dual write** and select **Environment details**. In the **Legal entities** tab, add a record for USSI if it isn't already present.
+1. You might be prompted to run initial sync, or you can manually run the [appropriate maps](../environment/resource-dual-write-maps.md) to ensure that new data is created as required to sync master data from either system.
+1. In Dataverse, go to **Settings** and **Transaction Categories**. Create a new category named Services. After saving in Dataverse, you should see a category with the name Services and a category ID starting with TCN-**.
+1. In the finance and operations architecture, verify the category exists in **Transaction categories** and take note of the shared category ID, which should look like TCN-0000001000-R8D2H-1.
+1. Go to **Project Categories** and create a new record for each of the above TCN-* categories for your financial postings.
+1. Open **Project management and accounting parameters**. On the last tab for Project Operations on Dynamics 365 Customer Engagement,** ensure that the billing type defaults are mapped to determine chargeable vs nonchargeable transactions.
+1. For project category defaults, use the Services category created earlier for all four transaction types.
+1. Specify an account for the expense reports and procurement integration accounts.
+1. In Dataverse, set up any users as bookable resources with the appropriate legal entity (USSI) and operating unit (Contoso Robotics US).
 
-After these steps are complete, you're able to create a new project contract in USD or GBP and a USD currency-based project for Dataverse-based time and expenses and finance and operations apps expense reports.
+After these steps are complete, you can create a new project contract in USD or GBP and a USD currency-based project for Dataverse-based time and expenses and finance and operations apps expense reports.
 
 ## Enable the modern architecture of Project Operations (10.0.43)
 
-At a minimum, you must follow these steps to enable the modern architecture in a legal entity that has project data.
+At a minimum, follow these steps to enable the modern architecture in a legal entity that has project data.
 
 > [!IMPORTANT]
-> Before you complete this procedure in a production environment, you should complete it in a sandbox environment and thoroughly test all project-related functionality.
+> Before you complete this procedure in a production environment, complete it in a sandbox environment and thoroughly test all project-related functionality.
 
 1. Turn on the **Use the modern architecture for existing legal entities with project data** feature to remove the restriction that blocks this change in the deployment type.
-2. Complete all project transactions, and ensure that the following conditions are met:
+1. Complete all project transactions, and ensure that the following conditions are met:
 
     - There are no pending project transactions.
     - All invoices are completed.
     - Revenue recognition and eliminations are completed.
     - No open documents remain against a project.
 
-3. Move all projects to a closed status.
-4. On the **Global project management and accounting parameters** page, select the legal entity to opt in to.
+1. Move all projects to a closed status.
+1. On the **Global project management and accounting parameters** page, select the legal entity to opt in to.
 
     > [!IMPORTANT]
-    > Ensure that all project transactions are completed before you complete this step, because projects can't be reopened after you opt in to the legal entity.
+    > Ensure that all project transactions are completed before you complete this step, because you can't reopen projects after you opt in to the legal entity.
 
-5. Enable the legal entity for dual-write. Then run the [appropriate maps](../environment/resource-dual-write-maps.md) in the initial synchronization, or ensure that new data is created as required to sync master data from either system.
-6. Complete the required setup in both systems. Learn more about setup and configuration in [Project Operations Integrated with ERP deployment overview](../environment/project-operations-integrated-deployment-overview.md). For the finance and operations architecture, several areas of new setup are required. For example, you must create project categories, configure parameters, and create project cost and revenue profiles.
+1. Enable the legal entity for dual-write. Then run the [appropriate maps](../environment/resource-dual-write-maps.md) in the initial synchronization, or ensure that new data is created as required to sync master data from either system.
+1. Complete the required setup in both systems. For more information about setup and configuration, see [Project Operations Integrated with ERP deployment overview](../environment/project-operations-integrated-deployment-overview.md). For the finance and operations architecture, you must complete several areas of new setup. For example, you must create project categories, configure parameters, and create project cost and revenue profiles.
 
-[!include [banner](../includes/banner.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
