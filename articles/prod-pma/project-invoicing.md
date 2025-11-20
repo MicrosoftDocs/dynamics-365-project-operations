@@ -2,9 +2,9 @@
 title: Project invoicing
 description: Learn about project invoicing for Time and material projects and Fixed-price projects, including outlines on invoice proposals.
 author: sunfzam
-ms.author: Raynezou
+ms.author: ryansandness
 ms.topic: article
-ms.date: 07/10/2020
+ms.date: 11/21/2025
 ms.reviewer: zezhangzhao
 audience: Application User
 ms.search.region: Global
@@ -15,7 +15,7 @@ ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ---
 
 # Project invoicing
-
+_**Applies To:** Project Operations for manufacturing-based scenarios_
 [!include [banner](../includes/banner.md)]
 
 This article provides an overview of project invoicing for Time and material projects and Fixed-price projects. It includes information about invoice proposals (preliminary invoices), invoice control, on-account invoicing, vendor invoicing, and credit notes.
@@ -30,6 +30,29 @@ There are three ways to attach Time and material projects and Fixed-price projec
 -   **On-account invoicing** – Time and material projects and Fixed-price projects can be invoiced on account. Two types of on-account setup are required, one for each project type.
 -   **Invoicing in the periodic section** – Through the periodic functions, transactions can be invoiced across projects. The periodic functions provide an overview of transactions that must be invoiced.
 -   **By using credit notes in invoicing** – A credit note can be created for both Time and material projects and Fixed-price projects.
+
+## Time and Material type projects with accrued revenue 
+
+For Time and Material projects, revenue is normally recognized at the time when the transaction is invoiced. However, you can configure the project to accrue revenue at the time of posting project actuals (hours, expenses, items, fees) so that revenue is recognized in the period when the work was performed. In Dynamics, this is enabled by a few settings: 
+
+- Project group: Enable the Accrue revenue option for the relevant transaction types.  
+
+- Line property: The Line property tied to billable transactions also needs the Accrue revenue flag checked to allow revenue accrual for those lines.  
+
+Once configured, posting a project transaction will generate accrual entries. For example, suppose a consultant records 1 hour on a T&M project with a cost of $50/hr and a billing rate of $75/hr. Upon posting the hour journal, the system would create ledger entries like: 
+
+| Posting | Debit | Credit |
+|---------|-------|--------|
+| Project cost (Expense) | $50 | |
+| Project - Payroll allocation (Expense) | | $50 |
+| Project – WIP – sales value | $75 | |
+| Project – accrued revenue – sales value | | $75 |
+ 
+Here, $75 of revenue is recognized immediately (credited to accrued revenue) and booked as WIP (debit). The cost is recorded as usual (debit project cost $50, credit payroll accrual $50). At this point, accrued revenue ($75) and the project’s profit is recognized ($25) even though the client hasn’t been invoiced yet. 
+
+At invoicing time, Project Operations automatically reverses the accrual so that there’s no double-counting. The invoice posting will credit invoiced revenue and debit the customer receivable. Simultaneously, the system will debit the Accrued revenue and credit the WIP account for the same amount, reversing the earlier accrual. After this, the revenue is now sitting in the final revenue account. 
+
+For 10.0.46, a new feature can be enabled in the **Feature management** workspace to **Apply exchange rates from project subledger**. Starting with the 10.0.45 release, un-summarized exchange rates from project transactions posted to the general ledger are being stored in the project subledger. This additional exchange rate data is for use in WIP calculations and credit notes to have the data needed to exactly reverse accrued revenue for documents where the source document framework isn't enabled, such as in project journals (hour, fee, item, expense), on-account transactions, and project invoices. With this feature enabled, invoicing will use these stored exchange rates to make better calculations to exactly reverse accrued revenue where previously summarized values were used.  
 
 ## Invoice proposals
 Before you create a customer invoice for a project, you can create a preliminary invoice, or invoice proposal. In an invoice proposal, you can select project transactions to include in a project invoice. You can then review the invoice details before you post the project invoice and send it to the customer or other funding source.
