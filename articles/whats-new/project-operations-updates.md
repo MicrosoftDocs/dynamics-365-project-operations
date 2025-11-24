@@ -41,9 +41,9 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations Latest Version
 
-| **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
-|:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.160.0.2774                  |                                      10.0.45                                     |                1.0.160.2792              |
+| **Project Operations on Dataverse Environment** | **Project App on Dataverse Environment** |
+|:-----------------------------------------------:|:----------------------------------------:|
+|                   4.160.0.2774                  |                1.0.160.2792              |
 
 > [!IMPORTANT]
 > - The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively.
