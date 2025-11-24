@@ -17,18 +17,19 @@ ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 # Project invoicing
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_
+
 [!include [banner](../includes/banner.md)]
 
 This article provides an overview of project invoicing for Time and material projects and Fixed-price projects. It includes information about invoice proposals (preliminary invoices), invoice control, on-account invoicing, vendor invoicing, and credit notes.
 
 The project type determines which invoicing procedure you should apply. You can only invoice the two external project types: Time and material and Fixed-price. You always attach Time and material projects and Fixed-price projects to a project contract.
 
-- **Fixed-price projects** – The customer invoice amount is based on invoice billing schedules. You invoice through an on-account setup, which is also referred to as a billing schedule. You can invoice Fixed-price projects per project or per project contract.
 - **Time and material projects** – The customer invoice amount is based on transaction lines that you enter on projects. You can invoice transactions per project or per project contract.
+- **Fixed-price projects** – The customer invoice amount is based on invoice billing schedules. You invoice through an on-account setup, which is also referred to as a billing schedule. You can invoice Fixed-price projects per project or per project contract.
 
 You can attach Time and material projects and Fixed-price projects to the invoice projects in three ways:
 
-- **On-account invoicing** – You can invoice time and material projects and Fixed-price projects on account. You need two types of on-account setup, one for each project type.
+- **On-account invoicing** – You can invoice Time and material projects and Fixed-price projects on account. You need two types of on-account setup, one for each project type.
 - **Invoicing in the periodic section** – Through the periodic functions, you can invoice transactions across projects. The periodic functions provide an overview of transactions that you must invoice.
 - **By using credit notes in invoicing** – You can create a credit note for both Time and material projects and Fixed-price projects.
 
@@ -36,22 +37,21 @@ You can attach Time and material projects and Fixed-price projects to the invoic
 
 For Time and Material projects, you usually recognize revenue when you invoice the transaction. However, you can set up the project to accrue revenue when you post project actuals (hours, expenses, items, fees) so that you recognize revenue in the period when you performed the work. In Dynamics, enable this feature by changing a few settings:
 
-- Project group: Turn on the **Accrue revenue** option for the transaction types that apply.  
+- **Project group**: Turn on the **Accrue revenue** option for the transaction types that apply.  
+- **Line property**: Check the **Accrue revenue** flag for the **Line property** tied to billable transactions to allow revenue accrual for those lines.  
 
-- Line property: Check the **Accrue revenue** flag for the **Line property** tied to billable transactions to allow revenue accrual for those lines.  
-
-When you set up these options, posting a project transaction generates accrual entries. For example, suppose a consultant records 1 hour on a T&M project with a cost of $50/hr and a billing rate of $75/hr. When you post the hour journal, the system creates ledger entries like:
+When you set up these options, posting a project transaction generates accrual entries. For example, suppose a consultant records one hour on a Time and materials project with a cost of $50/hr and a billing rate of $75/hr. When you post the hour journal, the system creates ledger entries like:
 
 | Posting | Debit | Credit |
 |---------|-------|--------|
 | Project cost (Expense) | $50 | |
 | Project - Payroll allocation (Expense) | | $50 |
-| Project – WIP – sales value | $75 | |
+| Project – Work in progress (WIP) – sales value | $75 | |
 | Project – accrued revenue – sales value | | $75 |
 
 Here, the system immediately recognizes $75 of revenue (credited to accrued revenue) and books it as WIP (debit). The cost is recorded as usual (debit project cost $50, credit payroll accrual $50). At this point, the system recognizes accrued revenue ($75) and the project's profit ($25) even though you haven't invoiced the client yet.
 
-At invoicing time, Project Operations automatically reverses the accrual so that there's no double-counting. The invoice posting credits invoiced revenue and debits the customer receivable. At the same time, the system debits the accrued revenue and credits the WIP account for the same amount, reversing the earlier accrual. After this step, the revenue is now in the final revenue account.
+At invoicing time, Dynamics 365 Project Operations automatically reverses the accrual so that there's no double-counting. The invoice posting credits invoiced revenue and debits the customer receivable. At the same time, the system debits the accrued revenue and credits the WIP account for the same amount, reversing the earlier accrual. After this step, the revenue is now in the final revenue account.
 
 Starting with version 10.0.46, you can enable a new feature in the **Feature management** workspace to **Apply exchange rates from project subledger**. Beginning with version 10.0.45, the system stores unsummarized exchange rates from project transactions posted to the general ledger in the project subledger. This exchange rate data is for use in WIP calculations and credit notes to have the data needed to exactly reverse accrued revenue for documents where the source document framework isn't enabled, such as in project journals (hour, fee, item, expense), on-account transactions, and project invoices. When you enable this feature, invoicing uses these stored exchange rates to make better calculations to exactly reverse accrued revenue where previously summarized values were used.  
 
@@ -95,7 +95,7 @@ Public sector users can add the **Grant ID** and **Grant name** to the **Project
 
 The amount that you enter for a project in an on-account invoice is based on the timing, percentage of completion, and other billing conditions that the related project contract specifies. The amount isn't calculated based on the hours, items, expenses, or fees that are posted to the project.
 
-You must create an on-account transaction for a time-and-material project or a fixed-price project before you can add that on-account transaction to a project invoice. On the on-account transaction, enter the amount to invoice a customer. To create a project invoice for the amount, create a preliminary invoice (invoice proposal). In the invoice proposal, select the on-account transaction. You can review the on-account information in the invoice proposal before you create a project invoice for it.
+You must create an on-account transaction for a Time  and material project or a Fixed-price project before you can add that on-account transaction to a project invoice. On the on-account transaction, enter the amount to invoice a customer. To create a project invoice for the amount, create a preliminary invoice (invoice proposal). In the invoice proposal, select the on-account transaction. You can review the on-account information in the invoice proposal before you create a project invoice for it.
 
 ### Fixed-price projects
 
@@ -103,7 +103,7 @@ For fixed-price projects, on-account transactions are based on an agreed-upon mi
 
 ### Time and material projects
 
-For time and material projects, you can bill a customer or other funding source for a prepayment amount by using an on-account invoice proposal. Enter on-account transactions as one line. You can optionally enter more lines as deductions to offset any prepayments that the customer already made. To create deduction lines, enter a minus sign before the amount.
+For Time and material projects, you can bill a customer or other funding source for a prepayment amount by using an on-account invoice proposal. Enter on-account transactions as one line. You can optionally enter more lines as deductions to offset any prepayments that the customer already made. To create deduction lines, enter a minus sign before the amount.
 
 ## Invoice control
 
