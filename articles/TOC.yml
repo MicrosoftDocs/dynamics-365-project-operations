@@ -2483,7 +2483,7 @@
   - name: Project invoicing
     items:
     - name: Project invoicing
-      href: /dynamics365/finance/accounts-payable/project-invoicing
+      href: prod-pma/project-invoicing.md
     - name: Project invoice proposal performance
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Create advanced contracts for billing based on progress
