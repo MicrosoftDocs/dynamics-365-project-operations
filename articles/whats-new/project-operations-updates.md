@@ -6,7 +6,7 @@ ms.topic: article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 11/24/2025
+ms.date: 11/25/2025
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -25,14 +25,14 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations Station & Geographical Regions
 
-| **Station**   | **Geographical Location**                                                                   |
-|---------------|---------------------------------------------------------------------------------------------|
-| **Station 1** | First Release (FRE)                                                                         |
-| **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, Norway     |
-| **Station 3** | Asia-Pacific, United Kingdom, Australia, Japan, United Arab Emirates, US Gov High Sovereign |
-| **Station 4** | Europe, Middle East, and Africa                                                             |
-| **Station 5** | North America                                                                               |
-| **Station 6** | US Gov Cloud High, US Gov DoD, China                                                        |
+| **Station**   | **Geographical Location**                                                                                      |
+|---------------|----------------------------------------------------------------------------------------------------------------|
+| **Station 1** | First Release (FRE)                                                                                            |
+| **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, Norway                        |
+| **Station 3** | Asia-Pacific, United Kingdom, Australia, Japan, United Arab Emirates, US Government Community Cloud (GCC) High |
+| **Station 4** | Europe, Middle East, and Africa                                                                                |
+| **Station 5** | North America                                                                                                  |
+| **Station 6** | US Government Community Cloud (GCC), China                                                                     |
 
 ## Project Operations Release Notes
 - Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-june-2025-resource-based.md) scenario.
@@ -41,9 +41,9 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations Latest Version
 
-| **Project Operations on Dataverse Environment** | **Project App on Dataverse Environment** |
-|:-----------------------------------------------:|:----------------------------------------:|
-|                   4.160.0.2774                  |                1.0.160.2792              |
+| **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
+|:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
+|                   4.160.0.2774                  |                                      10.0.46                                     |                1.0.160.2792              |
 
 > [!IMPORTANT]
 > - The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively.
