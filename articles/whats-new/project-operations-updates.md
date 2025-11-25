@@ -25,14 +25,14 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations Station & Geographical Regions
 
-| **Station**   | **Geographical Location**                                                                                      |
-|---------------|----------------------------------------------------------------------------------------------------------------|
-| **Station 1** | First Release (FRE)                                                                                            |
-| **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, Norway                        |
-| **Station 3** | Asia-Pacific, United Kingdom, Australia, Japan, United Arab Emirates, US Government (GCC High)                 |
-| **Station 4** | Europe, Middle East, and Africa                                                                                |
-| **Station 5** | North America                                                                                                  |
-| **Station 6** | US Government Community Cloud (GCC), China                                                                     |
+| **Station**   | **Geographical Location**                                                                                           |
+|---------------|---------------------------------------------------------------------------------------------------------------------|
+| **Station 1** | First Release (FRE)                                                                                                 |
+| **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, Norway                             |
+| **Station 3** | Asia-Pacific, United Kingdom, Australia, Japan, United Arab Emirates, US Government Community Cloud High (GCC High) |
+| **Station 4** | Europe, Middle East, and Africa                                                                                     |
+| **Station 5** | North America                                                                                                       |
+| **Station 6** | US Government Community Cloud (GCC), China                                                                          |
 
 ## Project Operations Release Notes
 - Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-june-2025-resource-based.md) scenario.
