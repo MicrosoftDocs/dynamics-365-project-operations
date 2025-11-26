@@ -1,15 +1,15 @@
 ---
 title: Project Operations updates
 description: This article provides information about the released versions of Dynamics 365 Project Operations.
-author: aarondodell
+author: abriccetti
 ms.topic: article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 11/25/2025
+ms.date: 11/26/2025
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
-ms.author: aarondodell
+ms.author: abriccetti
 ---
 
 # Project Operations Updates
@@ -32,7 +32,6 @@ Dynamics 365 Project Operations consists of two components:
 | **Station 3** | Asia-Pacific, United Kingdom, Australia, Japan, United Arab Emirates, US Government Community Cloud High (GCC High) |
 | **Station 4** | Europe, Middle East, and Africa                                                                                     |
 | **Station 5** | North America                                                                                                       |
-| **Station 6** | US Government Community Cloud (GCC), China                                                                          |
 
 ## Project Operations Release Notes
 - Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-june-2025-resource-based.md) scenario.
@@ -62,24 +61,24 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Standard Release Cycle
 
-| **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              | **Station 6**              |
-|---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** |
-| **4.145.0.1040** <br> Refer to HotFix (**4.145.0.1361**) | September 12, 2025         | September 19, 2025         | September 19, 2025         | September 26, 2025         | September 26, 2025         | October 03, 2025           | October 03, 2025           | October 10, 2025           | October 10, 2025           | October 17, 2025           | October 10, 2025           |
-| **4.160.0.1159**  <br> Refer to HotFix (**4.160.0.2774**) | October 17, 2025           | October 24, 2025           | October 24, 2025           | CANCELED          | October 24, 2025           | CANCELED          | CANCELED          | CANCELED          | CANCELED          | CANCELED          | CANCELED          |
-| **4.161.0.x**  | November 28, 2025          | December 05, 2025          | December 05, 2025          | December 19, 2025          | December 05, 2025          | December 19, 2025          | January 06, 2026           | January 20, 2026           | January 06, 2026           | January 20, 2026           | January 13, 2026           |
-| **4.162.0.x**    | January 23, 2026           | January 30, 2026           | January 30, 2026           | February 13, 2026          | January 30, 2026           | February 13, 2026          | February 13, 2026          | February 27, 2026          | February 13, 2026          | February 27, 2026          | February 20, 2026           |
-| **4.163.0.x**   | February 20, 2026          | February 27, 2026          | February 27, 2026          | March 13, 2026             | February 27, 2026          | March 13, 2026             | March 13, 2026             | March 27, 2026             | March 13, 2026             | March 27, 2026             | March 20, 2026           |
-| **4.164.0.x**     | March 20, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             | April 17, 2026           |
+| **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
+|---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
+| **4.145.0.1040** <br> Refer to HotFix (**4.145.0.1361**) | September 12, 2025         | September 19, 2025         | September 19, 2025         | September 26, 2025         | September 26, 2025         | October 03, 2025           | October 03, 2025           | October 10, 2025           | October 10, 2025           | October 17, 2025           |
+| **4.160.0.1159**  <br> Refer to HotFix (**4.160.0.2774**) | October 17, 2025           | October 24, 2025           | October 24, 2025           | CANCELED          | October 24, 2025           | CANCELED          | CANCELED          | CANCELED          | CANCELED          | CANCELED          |
+| **4.161.0.x**  | November 28, 2025          | December 05, 2025          | December 05, 2025          | December 19, 2025          | December 05, 2025          | December 19, 2025          | January 06, 2026           | January 20, 2026           | January 06, 2026           | January 20, 2026           |
+| **4.162.0.x**    | January 23, 2026           | January 30, 2026           | January 30, 2026           | February 13, 2026          | January 30, 2026           | February 13, 2026          | February 13, 2026          | February 27, 2026          | February 13, 2026          | February 27, 2026          |
+| **4.163.0.x**   | February 20, 2026          | February 27, 2026          | February 27, 2026          | March 13, 2026             | February 27, 2026          | March 13, 2026             | March 13, 2026             | March 27, 2026             | March 13, 2026             | March 27, 2026             |
+| **4.164.0.x**     | March 20, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             |
 
 ## HotFix Release Cycle
 
-| **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              | **Station 6**              |
-|---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** |
-| **4.145.0.1361**    | Not Applicable             | Not Applicable             | Not Applicable             | Not Applicable             | October 24, 2025           | Not Applicable             | October 24, 2025           | October 24, 2025           | October 24, 2025           | October 24, 2025           | October 24, 2025           |
-| **4.160.0.2288**    | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025           | November 14, 2025             | November 14, 2025           | CANCELED           | November 14, 2025           | CANCELED           | November 14, 2025           |
-| **4.160.0.2774**    | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025           | November 21, 2025             | November 21, 2025           | December 03, 2025           | November 21, 2025           | December 03, 2025           | November 21, 2025           |
+| **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
+|---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
+| **4.145.0.1361**    | Not Applicable             | Not Applicable             | Not Applicable             | Not Applicable             | October 24, 2025           | Not Applicable             | October 24, 2025           | October 24, 2025           | October 24, 2025           | October 24, 2025           |
+| **4.160.0.2288**    | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025           | November 14, 2025             | November 14, 2025           | CANCELED           | November 14, 2025           | CANCELED           |
+| **4.160.0.2774**    | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025           | November 21, 2025             | November 21, 2025           | December 03, 2025           | November 21, 2025           | December 03, 2025           |
 
 
 
