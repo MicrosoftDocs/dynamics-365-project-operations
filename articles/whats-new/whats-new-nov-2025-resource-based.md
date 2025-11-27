@@ -1,6 +1,6 @@
 ---
 title: What's new November 2025 - Project Operations Integrated with ERP
-description: Learn about the quality updates that are available in the October 2025 release of Microsoft Dynamics 365 Project Operations Integrated with ERP.
+description: Learn about the quality updates that are available in the November 2025 release of Microsoft Dynamics 365 Project Operations Integrated with ERP.
 author: mohitmenon
 ms.author: mohitmenon
 ms.topic: whats-new
