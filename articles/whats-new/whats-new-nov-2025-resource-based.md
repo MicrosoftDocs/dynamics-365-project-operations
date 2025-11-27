@@ -35,12 +35,8 @@ If the map doesn't start, see the [Missing table columns issue on maps](/dynamic
 ## Features included in this release
 
 | **Feature area** | **Feature name** | **More information** |
-| Project Invoicing |**Billing Hub Phase 3** <br><br> 
-The latest updates on Billing Hub addresses customer feedback for better visibility and control, reduces manual effort, and aligns with the long-term goal of making Billing Hub the central invoicing workspace. The updates can be accessed by enabling the flag 'Enable Billing Hub updates'. Key enhancements include: <br><br> 
-- Visibility for “Not Ready to Invoice” transactions
-- Streamlined Invoice Creation
-- Instant Amount Calculations & Notifications
-- Performance & UX Enhancements | |
+| --- | --- | --- |
+| Project Invoicing |**Billing Hub Phase 3** <br><br> The latest updates on Billing Hub addresses customer feedback for better visibility and control, reduces manual effort, and aligns with the long-term goal of making Billing Hub the central invoicing workspace. <br> The updates can be accessed by enabling the flag 'Enable Billing Hub updates'. Key enhancements include: Visibility for “Not Ready to Invoice” transactions, Streamlined Invoice Creation, Instant Amount Calculations & Notifications, Performance & UX Enhancements | |
 | Approvals |**New Time Phased Approvals View** <br><br> The approvals view for time transactions is getting an overhaul to show information in a clearer and more concise format. Time approvals will be shown one week at a time, with transactions grouped together based on the columns added to the view in one row. PMs can then open a cell in that row to see more details for each day's entries and make edits as necessary.| |
 | Project Management |**Customize Task Pane** <br><br> With this new feature enabled, clicking the "i" icon opens a customizable task pane that lets you manage tasks, customize them, and trigger business flows directly from the task grid context. You can still access the standard Project task pane via the overflow menu, giving you complete flexibility to choose between the custom Dataverse task pane and the Office task pane based on your requirements.| |
 | Project Management |**Copy project new experience** <br><br> The new copy experience will allow Project Managets to copy projects by setting the right configurations for the project like Project name, Project manager, Calendar template, Schedule mode, Contracting unit, Currency and Team member options. The flow can also be customised as per your needs and copy projects to new or existing projects with no WBS.| |
