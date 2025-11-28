@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Set up the Expense Agent (preview) 
+# Set up the Expense Agent (Preview) 
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
@@ -1006,6 +1006,7 @@ The Expense Agent relies on the following Power Automate flows:
 - Get expense outlook folder
 - Generate expense report
 - Send expense report adaptive card
+- Auto match expenses
 - Process emails
 - Extract unattached receipt IDs for copilot invocation
 - Extract unattached receipt output using Dataverse plugin
@@ -1014,12 +1015,13 @@ The Expense Agent relies on the following Power Automate flows:
 - Identify project IDs
 - User calendar events
 - Process expense report using copilot
+- Invoke expense agent for receipt processing
 
 To enable the flows, follow these steps.
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/), and select your environment.
 1. Select **My Flows**.
-1. For each of the 13 flows in the previous list, follow these steps:
+1. For each of the 15 flows in the previous list, follow these steps:
 
     1. Find the flow.
     1. Select **Edit**.
