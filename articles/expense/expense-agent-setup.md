@@ -314,17 +314,16 @@ Copy the following code into your installation script file and save it as _**'In
 
 ```json
 #requires -Version 7
-
 Param(
 
    [Parameter(Mandatory=$true, HelpMessage="Dataverse environment id")]
    [string]$DataverseEnvironmentId = "xxxx-xxxx-xxxx-xxx-xxxxxxxxxx", 
 
    [Parameter(Mandatory=$true, HelpMessage="Dataverse environment URL")]
-   [string]$DataverseUrl = "https://org123.crm.contoso.com",
+   [string]$DataverseUrl = "https://org123.crm.dynamics.com",
 
    [Parameter(Mandatory=$true, HelpMessage="Finance and Operations instance URL")]
-   [string]$D365FinanceAndOperationsUrl = "https://org123.contoso.com",
+   [string]$D365FinanceAndOperationsUrl = "https://org123.operations.dynamics.com",
 
    [Parameter(Mandatory=$true, HelpMessage="OutlookFolderPath")]
    [string]$OutlookFolderPath = "Inbox",
@@ -345,10 +344,12 @@ Param(
    [string]$Office365UsersConnectionName = "createdexpenseagentuser@contoso.com",
 
    [Parameter(Mandatory=$true, HelpMessage="Microsoft Teams connection name")]
-   [string]$MicrosoftTeamsConnectionName = "createdexpenseagentuser@contoso.com"
+   [string]$MicrosoftTeamsConnectionName = "createdexpenseagentuser@contoso.com",
+
+   [Parameter(Mandatory=$false, HelpMessage="Checks for bot Sync Errors and if there is provisioning required before Agent publish step")]
+   [boolean]$CheckBotSyncStatusAndProvisionBots = $false
 
 )
-
 
 $flows = @(
     "expense entry retry check",
@@ -356,14 +357,16 @@ $flows = @(
     "get expense outlook folder",
     "generate expense report",
     "send expense report adaptive card",
+    "auto match expenses",
     "process emails",
     "extract unattached receipt ids for copilot invocation",
     "extract unattached receipt output using dataverse plugin",
     "generate expense line",
     "generate expense line without project id and status id",
     "identify project ids",
-    "user calender events",
-    "process expense report using copilot"
+    "user calendar events",
+    "process expense report using copilot",
+    "invoke expense agent for receipt processing"
 )
 
 
@@ -416,7 +419,7 @@ function Get-AccessTokenPlainText {
         [Parameter(Mandatory=$true, HelpMessage="Access token for authentication")]
         [securestring]$accessToken
     )
-    # Retrieve the access token for the Microsoft Copilot Studio environment
+    # Retrieve the access token for the PVA environment
     $token = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
     [Runtime.InteropServices.Marshal]::SecureStringToBSTR($accessToken))
     return $token
@@ -756,8 +759,57 @@ function Get-AgentIdBySchemaName {
     }
 }
 
+function Check-BotSyncErrors {
+        param (
+        [string]$DataverseUrl,
+        [string]$accessToken,
+        [string]$botId
+    )
 
-# Function to provision a Microsoft Copilot Studio bot
+    Write-Host "Retrieving Sync Status for bot ID: $botId" -ForegroundColor Yellow
+
+    # Construct the API endpoint to retrieve the bot
+    $uri = "$DataverseUrl/api/data/v9.2/bots($botId)"
+    try {
+        # Make the API call
+        $response = Invoke-RestMethod -Method Get -Uri $uri -Headers @{
+            Authorization = "Bearer $accessToken"
+            "Content-Type" = "application/json"
+        }
+
+        if ($null -ne $response.synchronizationstatus) {
+            # Parse the JSON string in synchronizationstatus
+            $syncStatusObj = $response.synchronizationstatus | ConvertFrom-Json
+            $state = $syncStatusObj.currentSynchronizationState.state
+            $provisioningStatus = $syncStatusObj.currentSynchronizationState.provisioningStatus
+
+            Write-Host "Synchronization State: $state" -ForegroundColor Green
+            Write-Host "Provisioning Status: $provisioningStatus" -ForegroundColor Green
+
+            if ( $state -contains "Error" -or $provisioningStatus -contains "Error") {
+                Write-Host "Bot has synchronization errors." -ForegroundColor Red
+                return 0
+            } else {
+                if ( $state -eq "Synchronized" -or $state -eq 'Synchronizing' -and ($provisioningStatus -eq  "Provisioned" -or $provisioningStatus -eq  "ProvisionedWithoutRegistration")) {
+                    Write-Host "Bot synchronization is done." -ForegroundColor Yellow
+                    return 1
+                } else {
+                    Write-Host "Bot synchronization is in progress." -ForegroundColor Green
+                    return 2
+                }
+            }
+        } else {
+            Write-Host "No synchronization status found for bot ID: $botId" -ForegroundColor Red
+            return $null
+        }
+    } catch {
+        Write-Host "Failed to retrieve agent ID. Error: $($_)" -ForegroundColor Red
+        return $null
+    }
+}
+
+
+# Function to provision a PVA bot
 function Provision-Agent {
     param (
         [string]$DataverseUrl,
@@ -778,13 +830,15 @@ function Provision-Agent {
         Write-Host "Agent Provisioning successfully!" -ForegroundColor Green
         # Add 30 second delay to allow the publish process to complete
         Start-Sleep -Seconds 30
+        return $true
     } catch {
         Write-Host "Failed to Provision Agent. Error: $($_.Exception.Message)" -ForegroundColor Red
     }
+    return $false
 }
 
 
-# Function to publish a Microsoft Copilot Studio bot
+# Function to publish a PVA bot
 function Publish-Agent {
     param (
         [string]$DataverseUrl,
@@ -809,27 +863,8 @@ function Publish-Agent {
         Start-Sleep -Seconds 30
     } catch {
         Write-Host "Failed to publish Agent. Error: $($_.Exception.Message)" -ForegroundColor Red
-        # try provisioing the agent
-        Write-Host "Attempting to provision agent with ID: $agentId" -ForegroundColor Yellow
-        Start-Sleep -Seconds 20
-        Provision-Agent -dataverseUrl $DataverseUrl -accessToken $accessToken -agentId $agentId
-        # Add 30 second delay to allow the publish process to complete
-        Start-Sleep -Seconds 30
-        
-        # Try publishing again after provisioning
-        try {
-            Invoke-RestMethod -Method Post -Uri $uri -Headers @{
-                Authorization = "Bearer $accessToken"
-                "Content-Type" = "application/json"
-            }
-            Write-Host "Agent published successfully after provisioning!" -ForegroundColor Green
-            Start-Sleep -Seconds 30
-        } catch {
-            Write-Host "Failed to publish Agent after provisioning. Error: $($_)" -ForegroundColor Red
-        }
     }
 }
-
 
 function Publish-Agents {
     param (
@@ -850,6 +885,22 @@ function Publish-Agents {
                 $agentId = Get-AgentIdBySchemaName -dataverseUrl $DataverseUrl -accessToken $accessToken -agentSchemaName $agentSchema
 
                 if ($agentId -ne $null) {
+                    # check for sync errors
+                    if ($CheckBotSyncStatusAndProvisionBots) {
+                        $syncStatus = Check-BotSyncErrors -dataverseUrl $DataverseUrl -accessToken $accessToken -botId $agentId
+                        if (0 -eq $syncStatus) {
+                            Write-Host "Agent has sync errors. Skipping the publish process. Please check the bot: $agentId details" -ForegroundColor Red
+                            continue
+                        } elseif (2 -eq $syncStatus) {
+                            Write-Host "Agent synchronization is still in progress. reprovisioning the agent." -ForegroundColor Yellow
+                            if (Provision-Agent -dataverseUrl $DataverseUrl -accessToken $accessToken -agentId $agentId -eq $false) {
+                                Write-Host "Agent reprovisioning failed. Skipping the publish process. Please check the bot: $agentId details" -ForegroundColor Red
+                                continue
+                            }
+                        } else {
+                            Write-Host "Agent synchronization is done. Proceeding to publish." -ForegroundColor Green
+                        }
+                    }
                     # Step 4: Publish the bot
                     Publish-Agent -dataverseUrl $DataverseUrl -accessToken $accessToken -agentId $agentId
                 } else {
