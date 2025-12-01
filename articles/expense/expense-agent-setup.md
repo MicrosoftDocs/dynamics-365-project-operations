@@ -38,7 +38,7 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 
 ## Prerequisites
 
-1. **Finance and operations environment:** The minimum finance and operations environment required to install the agent is version 10.0.44 or later.
+1. **Finance and operations environment:** The minimum finance and operations environment required to install the agent is version 10.0.44(10.0.2263.167 and above) or 10.0.45 (10.0.2345.102 and above).
 1. **Roles required to set up the Expense Agent user:** To complete the steps in this article, you as the system administrator of the organization, must have the following roles to set up the expense agent user that is used to install the Expense Agent.
 
 | System | Role | Comments |
