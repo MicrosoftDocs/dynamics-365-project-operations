@@ -80,29 +80,19 @@ or any other metadata sync error
 6. Select Refresh and Save & Close
 
 These are the list of expense management entities:
-"TrvExpMobileProjEntity",
 
-"TRVEXPENSECOPILOTMASTERDATAENTITY",
-
-"TRVEXPENSECOPILOTUNATTACHEDDOCUMENTENTITY",
-
-"TRVEXPENSECOPILOTCONFIGURATIONENTITY",
-
-"TRVCOPILOTAUTOMATIONREPORTENTITY",
-
-"TRVCOPILOTAUTOMATIONEXPENSEENTITY",
-
-"TrvExpenseCategoryEntity",
-
-"TRVEXPENSECOPILOTRECEIPTENTITY",
-
-"TrvExpenseParametersEntity",
-
-"TrvExpenseReportPurposeEntity",
-
-"TrvExpenseSubCategoryEntity",
-
-"TrvExpMobileCompanyInfoEntity"
+- "TrvExpMobileProjEntity",
+- "TRVEXPENSECOPILOTMASTERDATAENTITY",
+- "TRVEXPENSECOPILOTUNATTACHEDDOCUMENTENTITY",
+- "TRVEXPENSECOPILOTCONFIGURATIONENTITY",
+- "TRVCOPILOTAUTOMATIONREPORTENTITY",
+- "TRVCOPILOTAUTOMATIONEXPENSEENTITY",
+- "TrvExpenseCategoryEntity",
+- "TRVEXPENSECOPILOTRECEIPTENTITY",
+- "TrvExpenseParametersEntity",
+- "TrvExpenseReportPurposeEntity",
+- "TrvExpenseSubCategoryEntity",
+- "TrvExpMobileCompanyInfoEntity"
 
 ## Agent execution
 
