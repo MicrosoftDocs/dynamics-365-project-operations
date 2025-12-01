@@ -64,6 +64,45 @@ To add a connector, sign in to [Power Apps](https://make.powerapps.com/), select
 ### What should I do if Microsoft Purview Data Loss Prevention policy blocks connector access?
 
 Ensure that the connectors are in the **Business** group and the allow list.
+### What should I do if there are virtual entity metadata sync errors?
+
+If there are errors related to virtual entity metadata sync errors like the ones mentioned below,
+- The API operation does not contain a definition for parameter 'item/RequestBody'
+- The unbound action is not present
+- Entity does not contain definition
+or any other metadata sync error
+
+1. Goto advanced settings from [Power Apps](https://make.powerapps.com/)
+2. Once open, click on advanced find from the top right corner of the screen.
+3. Switch to classic view within advanced find
+4.Look for available finance and operations entities and add a filter for name containing expense agent entities, for e.g. 'trvcopilotautomationexpense' and  click on results
+5. Check for the entity in List Tools and Click on entity that needs to be refreshed
+6. Select Refresh and Save & Close
+
+These are the list of expense management entities:
+"TrvExpMobileProjEntity",
+
+"TRVEXPENSECOPILOTMASTERDATAENTITY",
+
+"TRVEXPENSECOPILOTUNATTACHEDDOCUMENTENTITY",
+
+"TRVEXPENSECOPILOTCONFIGURATIONENTITY",
+
+"TRVCOPILOTAUTOMATIONREPORTENTITY",
+
+"TRVCOPILOTAUTOMATIONEXPENSEENTITY",
+
+"TrvExpenseCategoryEntity",
+
+"TRVEXPENSECOPILOTRECEIPTENTITY",
+
+"TrvExpenseParametersEntity",
+
+"TrvExpenseReportPurposeEntity",
+
+"TrvExpenseSubCategoryEntity",
+
+"TrvExpMobileCompanyInfoEntity"
 
 ## Agent execution
 
