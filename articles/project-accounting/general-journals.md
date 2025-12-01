@@ -4,7 +4,7 @@ description: Learn more about using general journals and record various financia
 author: ryansandness
 ms.author: ryansandness
 ms.date: 08/04/2025
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
