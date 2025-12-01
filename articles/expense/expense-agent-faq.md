@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: ajitchandran
 ---
 
-# Expense Agent FAQs (preview)
+# Expense Agent FAQs (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
