@@ -3,7 +3,7 @@ title: Set up the Expense Agent (preview)
 description: Learn how to install and set up the Expense Agent to automate expense processing workflows by using AI.
 author: ajitchandran
 ms.author: ajitchandran
-ms.date: 12/01/2025
+ms.date: 12/02/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -1077,6 +1077,9 @@ To publish the app in the Teams admin center, follow these steps.
 Learn more in [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
 
 With these steps completed, your **Expense Agent** is now fully set up and ready to go.
+
+> [!NOTE]
+> You can also provide feedback on agent-generated expense lines and reports using the thumbs up/down icons and the feedback pop-up within the Dynamics 365 Finance environment.
 
 ## Uninstall Expense Agent 
 
