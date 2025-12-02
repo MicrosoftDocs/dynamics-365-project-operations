@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Set up the Expense Agent (preview) 
+# Set up the Expense Agent (Preview) 
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
@@ -38,8 +38,8 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 
 ## Prerequisites
 
-1. **Finance and operations environment:** The minimum finance and operations environment required to install the agent is version 10.0.44 or later.
-1. **Roles required to set up the Expense Agent user:** To complete the steps in this article, you as the system administrator of the organization, must have the following roles to set up the expense agent user that is used to install the Expense Agent.
+1. **Finance and operations environment:** You need at least version 10.0.44 (10.0.2263.167 and later) or 10.0.45 (10.0.2345.102 and later) of the finance and operations environment to install the agent.
+1. **Roles required to set up the Expense Agent user:** To complete the steps in this article, you must be the system administrator of the organization and have the following roles to set up the expense agent user for installing the Expense Agent.
 
 | System | Role | Comments |
 |---|---|---|
@@ -50,7 +50,7 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 
 ## Steps to set up the Expense Agent 
 
-To install and set up of the Expense Agent, follow these steps.
+To install and set up the Expense Agent, follow these steps.
 
 1. Install Copilot for finance and operations apps.
 1. Enable the agent features in your environment.
@@ -59,17 +59,17 @@ To install and set up of the Expense Agent, follow these steps.
 1. Set up the Expense Agent.
 1. Enable the Expense Agent in Microsoft Teams (Optional - if you need Microsoft Teams integration)
 
-The sections that follow describe each step in detail.
+The following sections describe each step in detail.
 
 ### Step 1: Install Copilot for finance and operations apps 
 
-The Expense Agent is available as part of the Copilot for finance and operations apps package. After this package is installed in your environment, all required assets, including the agent, environment variables, and Power Automate flows automatically become available.
+The Expense Agent is available as part of the Copilot for finance and operations apps package. After you install this package in your environment, you automatically get all required assets, including the agent, environment variables, and Power Automate flows.
 
 To install the required app, follow these steps. 
 
 1. Go to the [**Power Platform admin center**](https://admin.powerplatform.com/) in your browser.
 1. From the list of environments, select the environment name where you want to install the app.
-1. On the environment’s details page (**NOT** from the left-hand navigation), go to the **Resources** section and select **Dynamics 365 apps**.
+1. On the environment's details page (**NOT** from the left-hand navigation), go to the **Resources** section and select **Dynamics 365 apps**.
 1. Search for **Copilot for finance and operations apps** within the Dynamics 365 apps list. If it's already installed and an update is available, select the **Update** button.  
 1. If the app isn't listed under Dynamics 365 apps, select **Install app**, select **Copilot for finance and operations apps**, and follow the prompts to complete the installation.
 
@@ -86,11 +86,11 @@ To install the required app, follow these steps.
 
 ### Step 2: Enable the agent features in your environment
 
-Now that the Copilot for finance and operations apps package is installed, the next step is to activate the Expense Agent from within your Dataverse and finance and operations environment.
+After you install the Copilot for finance and operations apps package, activate the Expense Agent from within your Dataverse and finance and operations environment.
 
 #### Enable feature in Dataverse
 
-The Copilot feature flag must be turned on in the Power Platform admin center. To turn on the Copilot feature flag, follow these steps.
+Turn on the Copilot feature flag in the Power Platform admin center. To turn on the Copilot feature flag, follow these steps.
 
 1. Go to [Power Platform admin center](https://admin.powerplatform.com/).
 1. Select **Environments** > select your environment > **Settings** > **Product** > select **Features**.
@@ -111,11 +111,11 @@ To activate the agent in finance and operations apps, follow these steps.
 | Frequency | Daily or Weekly | Configure the frequency for automatically creating expense reports in your organization. |
 | Group Reports by | Trip or Project | Configure to group expenses based on a project or a trip. |
 
-### Step 3: Create an expense agent user for agent execution.
+### Step 3: Create an expense agent user for agent execution
 
-Create a dedicated expense agent user to ensure that the agent runs independently of any employee's identity. This approach helps with security, manageability, and long-term maintainability. Although you can use an existing user account that has the required privileges, we recommend that you use a system-owned identity.
+Create a dedicated expense agent user to ensure that the agent runs independently of any employee's identity. This approach helps with security, manageability, and long-term maintainability. Although you can use an existing user account that has the required privileges, use a system-owned identity.
 
-#### Create the Expense Agent user in Azure Active Directory
+#### Create the Expense Agent user in Microsoft Entra ID
 
 1. Sign in to the [Azure portal](https://portal.azure.com/).
 1. From the available Azure services, select **Microsoft Entra ID**.
@@ -135,7 +135,7 @@ Create a dedicated expense agent user to ensure that the agent runs independentl
 
 #### Assign the required licenses to Expense Agent user
 
-To successfully install Expense Agent, the following licenses are required to be assigned to the expense agent user,
+To successfully install Expense Agent, assign the following licenses to the expense agent user:
   - Dynamics 365 Teams Members license
   - Microsoft 365 Business Basic or any license that covers Microsoft Teams and Outlook (for example, Office 365 E5 with teams)
   - Power Apps Premium
@@ -163,7 +163,7 @@ To add the user to the Power Platform environment, follow these steps.
    > This page provides information related to Environment ID for Dataverse, Environment URL for Dataverse, finance and operations URL. Store these values to use in later sections.
 1. Go to **Access > Users > See all**.
 1. Select **Add user**, enter the newly created agent user, and select **Add**.
-1. On Manage security roles page, add the following roles.
+1. On **Manage security roles** page, add the following roles.
    - Expense AI Agent Role
    - Finance and operations Agent Configuration Manager
    - System Customizer
@@ -172,7 +172,7 @@ To add the user to the Power Platform environment, follow these steps.
 These roles provide access to Dataverse and Power Automate components that the agent needs to function.
 
 > [!TIP]
-> If user already exists and only roles have to be assigned, go to Power Platform admin center, and select the appropriate environment.<br/>
+> If the user already exists and you only need to assign roles, go to Power Platform admin center, and select the appropriate environment.<br/>
 > 1. Go to **Access > Users > See all**. 
 > 1. Select the created agent user.
 > 1. Select **Manage roles**, and assign the roles.
@@ -184,7 +184,7 @@ To assign the ExpenseAgentRole role in finance and operations environment, follo
 
 1. In the finance and operations environment, go to **System administration** > **Users**.
 1. Create a user record for the agent user.
-1. After creating the user, go to the user’s roles section, select **Assign roles**, and search for **ExpenseAgentRole**.
+1. After creating the user, go to the user's roles section, select **Assign roles**, and search for **ExpenseAgentRole**.
 1. Select **Save**.
 
 > [!NOTE]
@@ -211,14 +211,14 @@ To assign access to the shared mailbox access, follow these steps.
 
 ### Step 4: Set up the shared mailbox
 
-The Expense Agent uses a shared mailbox to receive and process receipt emails. This mailbox needs to be created and configured by a user with the Exchange Administrator role in the Microsoft 365 Admin Center.
+The Expense Agent uses a shared mailbox to receive and process receipt emails. A user with the Exchange Administrator role needs to create and configure this mailbox in the Microsoft 365 Admin Center.
 
 To create and configure the shared mailbox, follow these steps.
 1. Sign in to the [Microsoft 365 Admin Center](https://admin.microsoft.com/) by using an Exchange Admin account.
 1. In the left pane, select **Teams & Groups** > **Shared mailboxes.**  
    
    > [!TIP]
-   > You may need to select **Show all** to expand the full list.
+   > You might need to select **Show all** to expand the full list.
 
 1. Select **Add a shared mailbox**.  
 1. Enter a name and email address for the shared mailbox.  
@@ -229,7 +229,7 @@ To create and configure the shared mailbox, follow these steps.
 1. Select **Close**.
     
 > [!NOTE]
-> The email address of the shared mailbox is used in the next step. After the shared mailbox is set up, you must provide its email address and the folder path (by default set to Inbox) as environment variables when you configure the Time and Expense Agent. Learn more in **Step 5: Set up the Expense Agent**. 
+> You use the email address of the shared mailbox in the next step. After you set up the shared mailbox, you must provide its email address and the folder path (by default set to Inbox) as environment variables when you configure the Time and Expense Agent. For more information, see **Step 5: Set up the Expense Agent**. 
 
 ### Step 5: Set up the Expense Agent
 
@@ -238,17 +238,17 @@ You have two options for setting up the Expense Agent:
 - **Option B:** Do manual setup in Power Apps (no PowerShell)
 
 > [!IMPORTANT]
-> Before proceeding with the installation of the Expense Agent, ensure that agent is provisioned successfully in the Microsoft Copilot Studio.
+> Before proceeding with the installation of the Expense Agent, ensure that the agent is provisioned successfully in the Microsoft Copilot Studio.
 > 
 > To verify the agent is provisioned successfully, follow these steps.
 > 1. Sign in to Microsoft Copilot Studio and select your environment.
 > 1. Go to **Agents** and search for **ExpenseAgent-Line (Preview)**. 
-> 1. Verify the Publish button is enabled.
+> 1. Verify the **Publish** button is enabled.
 > 1. If enabled, proceed with the installation. If disabled, wait until the agent is provisioned.
 > 1. Repeat these steps to verify **Expense Entry Agent (Preview)** is enabled.
 
 > [!TIP]
-> If provisioning of the Copilot finance and operations app takes longer than 5–6 hours, it's recommended to uninstall and reinstall the app to resolve potential setup delays. Learn how to uninstall in the _Uninstall Expense Agent_ section at the end of this article.
+> If provisioning of the Copilot finance and operations app takes longer than 5-6 hours, uninstall and reinstall the app to resolve potential setup delays. For more information, see the _Uninstall Expense Agent_ section at the end of this article.
 
 
 #### Option A: Use a PowerShell script (recommended)
@@ -257,19 +257,19 @@ Manual setup of the agent involves creating and linking connections, enabling Po
 
 The PowerShell script automates the following tasks:
 
-- Update the required environment variables.
-- Link Microsoft Power Platform connections with solution connection references.
-- Enable all Power Automate flows that the Time and Expense Agent requires.
-- Publish the Copilot agents.
-- Publish the Dataverse solution.
+- Updates the required environment variables.
+- Links Microsoft Power Platform connections with solution connection references.
+- Enables all Power Automate flows that the Time and Expense Agent requires.
+- Publishes the Copilot agents.
+- Publishes the Dataverse solution.
 
-Before running the script, you need to **create connections** as you need to provide the Connection ID for each connector in the install.ps1 file. To create these Connections, follow these steps using the created agent user.
+Before running the script, you need to **create connections** as you need to provide the Connection ID for each connector in the install.ps1 file. To create these connections, follow these steps using the created agent user.
 
 1. Sign in to the [Power Apps maker portal](https://make.powerapps.com/) using the newly created agent user, and select your environment.
 1. On the left pane, select **More** and select **Connections**.
-1. Select **New connection** and search using the Connection Name from the following table (For example, **Office 365 Outlook**).
+1. Select **New connection** and search using the Connection Name from the following table (for example, **Office 365 Outlook**).
 1. Select the appropriate connector from the list and create it.
-1. Once the connection is created, note the user with which the connection was created. It should ideally be the **created agent user ID**. This needs to be updated in the installation file that we would be creating in the next step.
+1. Once the connection is created, note the user with which the connection was created. It should ideally be the **created agent user ID**. This user ID needs to be updated in the installation file that you create in the next step.
 1. Repeat steps 3 and 4 for each of the remaining required connections listed in the following table.
 
 | Connection Name | Connection URL Formats |
@@ -289,42 +289,41 @@ To create the installation file—install.ps1, have the following information av
 | Dataverse environment ID | Enter the environment ID that you get from Power Platform admin center.<br/>  _Sample value: xxxx-xxxx-xxxx-xxx-xxxxxxxxxx_|
 | Dataverse environment URL | Enter the Environment URL from Power Platform admin center.<br/> _Note: Ensure to have https:// at the start and no forward slash ‘/’ at the end._ <br/> _Sample value: https://org123.crm.contoso.com_ |
 | Finance and operations instance URL | Enter the finance and operations environment details in the following format. <br/> _Sample value: https://org123.contoso.com_ <br/> _Note: Ensure **to have https://** at the start and **no** forward slash **‘/’** at the end._ |
-| OutlookFolderPath | Enter the folder path created in the shared mailbox. If no other folder is created, it's set as Inbox by default. <br/> _Sample value: Inbox_ <br/>  As a best practice, it would be ideal to create a separate folder for expense management
+| OutlookFolderPath | Enter the folder path created in the shared mailbox. If no other folder is created, it's set as Inbox by default. <br/> _Sample value: Inbox_ <br/>  As a best practice, create a separate folder for expense management
 | Mailbox Address ID | Enter the mail address of the newly created share mailbox <br/> _Sample value: expenseagent@contoso.com_ |
-| Microsoft Dataverse connection name <br/> Microsoft Copilot Studio connection name <br/> Microsoft Office Outlook connection name <br/> Microsoft Office 365 Users connection name  <br/> Microsoft Teams connection name | Input to all the connection names would be the same ideally and would be the user email ID of the created agent user. <br/> <br/> _Sample value: createdexpenseagentuser@contoso.com_ |
+| Microsoft Dataverse connection name <br/> Microsoft Copilot Studio connection name <br/> Microsoft Office Outlook connection name <br/> Microsoft Office 365 Users connection name  <br/> Microsoft Teams connection name | Input to all the connection names is the same and is the user email ID of the created agent user. <br/> <br/> _Sample value: createdexpenseagentuser@contoso.com_ |
 
 #### Create the installation script file
 
-Create an installation script file by copying the following code and insert the required environment variables into the script, and then run the script using PowerShell.
+Create an installation script file by copying the following code. Insert the required environment variables into the script, then run the script using PowerShell.
 
 > [!NOTE]
-> Make sure you place the installation script file on the local desktop. Do **NOT** store them in One Drive.
+> Place the installation script file on the local desktop. Don't store it in One Drive.
 
-Create a PowerShell script file with the following code and make sure to update the mentioned parameters before running the script.
+Create a PowerShell script file with the following code. Update the mentioned parameters before running the script.
 
 > [!TIP]
-> When Mandatory = $true, the parameters are prompted interactively on the PowerShell screen, so there's no need to update them directly in the script file.
+> When Mandatory = $true, PowerShell prompts you to enter the parameters interactively, so you don't need to update them directly in the script file.
 >
-> If you'd prefer to avoid manual input and want the parameters to be predefined within the installation script, set Mandatory = $false in the Param section of the following sample code.
+> If you want to avoid manual input and want to predefine the parameters within the installation script, set Mandatory = $false in the Param section of the following sample code.
 
-Copy the following code into your installation script file and save it as _**'Install.ps1'**_, and **make sure to update the variables in the respective parameter fields** in the param section. There are **10 variables to update**. 
+Copy the following code into your installation script file and save it as _**'Install.ps1'**_. **Update the variables in the respective parameter fields** in the param section. You need to update **10 variables**. 
 
 > [!TIP]
 > Use the previous table as a reference and replace all the sample values with your respective details.
 
 ```json
 #requires -Version 7
-
 Param(
 
    [Parameter(Mandatory=$true, HelpMessage="Dataverse environment id")]
    [string]$DataverseEnvironmentId = "xxxx-xxxx-xxxx-xxx-xxxxxxxxxx", 
 
    [Parameter(Mandatory=$true, HelpMessage="Dataverse environment URL")]
-   [string]$DataverseUrl = "https://org123.crm.contoso.com",
+   [string]$DataverseUrl = "https://org123.crm.dynamics.com",
 
    [Parameter(Mandatory=$true, HelpMessage="Finance and Operations instance URL")]
-   [string]$D365FinanceAndOperationsUrl = "https://org123.contoso.com",
+   [string]$D365FinanceAndOperationsUrl = "https://org123.operations.dynamics.com",
 
    [Parameter(Mandatory=$true, HelpMessage="OutlookFolderPath")]
    [string]$OutlookFolderPath = "Inbox",
@@ -345,10 +344,12 @@ Param(
    [string]$Office365UsersConnectionName = "createdexpenseagentuser@contoso.com",
 
    [Parameter(Mandatory=$true, HelpMessage="Microsoft Teams connection name")]
-   [string]$MicrosoftTeamsConnectionName = "createdexpenseagentuser@contoso.com"
+   [string]$MicrosoftTeamsConnectionName = "createdexpenseagentuser@contoso.com",
+
+   [Parameter(Mandatory=$false, HelpMessage="Checks for bot Sync Errors and if there is provisioning required before Agent publish step")]
+   [boolean]$CheckBotSyncStatusAndProvisionBots = $false
 
 )
-
 
 $flows = @(
     "expense entry retry check",
@@ -356,14 +357,16 @@ $flows = @(
     "get expense outlook folder",
     "generate expense report",
     "send expense report adaptive card",
+    "auto match expenses",
     "process emails",
     "extract unattached receipt ids for copilot invocation",
     "extract unattached receipt output using dataverse plugin",
     "generate expense line",
     "generate expense line without project id and status id",
     "identify project ids",
-    "user calender events",
-    "process expense report using copilot"
+    "user calendar events",
+    "process expense report using copilot",
+    "invoke expense agent for receipt processing"
 )
 
 
@@ -416,7 +419,7 @@ function Get-AccessTokenPlainText {
         [Parameter(Mandatory=$true, HelpMessage="Access token for authentication")]
         [securestring]$accessToken
     )
-    # Retrieve the access token for the Microsoft Copilot Studio environment
+    # Retrieve the access token for the PVA environment
     $token = [Runtime.InteropServices.Marshal]::PtrToStringAuto(
     [Runtime.InteropServices.Marshal]::SecureStringToBSTR($accessToken))
     return $token
@@ -756,8 +759,57 @@ function Get-AgentIdBySchemaName {
     }
 }
 
+function Check-BotSyncErrors {
+        param (
+        [string]$DataverseUrl,
+        [string]$accessToken,
+        [string]$botId
+    )
 
-# Function to provision a Microsoft Copilot Studio bot
+    Write-Host "Retrieving Sync Status for bot ID: $botId" -ForegroundColor Yellow
+
+    # Construct the API endpoint to retrieve the bot
+    $uri = "$DataverseUrl/api/data/v9.2/bots($botId)"
+    try {
+        # Make the API call
+        $response = Invoke-RestMethod -Method Get -Uri $uri -Headers @{
+            Authorization = "Bearer $accessToken"
+            "Content-Type" = "application/json"
+        }
+
+        if ($null -ne $response.synchronizationstatus) {
+            # Parse the JSON string in synchronizationstatus
+            $syncStatusObj = $response.synchronizationstatus | ConvertFrom-Json
+            $state = $syncStatusObj.currentSynchronizationState.state
+            $provisioningStatus = $syncStatusObj.currentSynchronizationState.provisioningStatus
+
+            Write-Host "Synchronization State: $state" -ForegroundColor Green
+            Write-Host "Provisioning Status: $provisioningStatus" -ForegroundColor Green
+
+            if ( $state -contains "Error" -or $provisioningStatus -contains "Error") {
+                Write-Host "Bot has synchronization errors." -ForegroundColor Red
+                return 0
+            } else {
+                if ( $state -eq "Synchronized" -or $state -eq 'Synchronizing' -and ($provisioningStatus -eq  "Provisioned" -or $provisioningStatus -eq  "ProvisionedWithoutRegistration")) {
+                    Write-Host "Bot synchronization is done." -ForegroundColor Yellow
+                    return 1
+                } else {
+                    Write-Host "Bot synchronization is in progress." -ForegroundColor Green
+                    return 2
+                }
+            }
+        } else {
+            Write-Host "No synchronization status found for bot ID: $botId" -ForegroundColor Red
+            return $null
+        }
+    } catch {
+        Write-Host "Failed to retrieve agent ID. Error: $($_)" -ForegroundColor Red
+        return $null
+    }
+}
+
+
+# Function to provision a PVA bot
 function Provision-Agent {
     param (
         [string]$DataverseUrl,
@@ -778,13 +830,15 @@ function Provision-Agent {
         Write-Host "Agent Provisioning successfully!" -ForegroundColor Green
         # Add 30 second delay to allow the publish process to complete
         Start-Sleep -Seconds 30
+        return $true
     } catch {
         Write-Host "Failed to Provision Agent. Error: $($_.Exception.Message)" -ForegroundColor Red
     }
+    return $false
 }
 
 
-# Function to publish a Microsoft Copilot Studio bot
+# Function to publish a PVA bot
 function Publish-Agent {
     param (
         [string]$DataverseUrl,
@@ -809,27 +863,8 @@ function Publish-Agent {
         Start-Sleep -Seconds 30
     } catch {
         Write-Host "Failed to publish Agent. Error: $($_.Exception.Message)" -ForegroundColor Red
-        # try provisioing the agent
-        Write-Host "Attempting to provision agent with ID: $agentId" -ForegroundColor Yellow
-        Start-Sleep -Seconds 20
-        Provision-Agent -dataverseUrl $DataverseUrl -accessToken $accessToken -agentId $agentId
-        # Add 30 second delay to allow the publish process to complete
-        Start-Sleep -Seconds 30
-        
-        # Try publishing again after provisioning
-        try {
-            Invoke-RestMethod -Method Post -Uri $uri -Headers @{
-                Authorization = "Bearer $accessToken"
-                "Content-Type" = "application/json"
-            }
-            Write-Host "Agent published successfully after provisioning!" -ForegroundColor Green
-            Start-Sleep -Seconds 30
-        } catch {
-            Write-Host "Failed to publish Agent after provisioning. Error: $($_)" -ForegroundColor Red
-        }
     }
 }
-
 
 function Publish-Agents {
     param (
@@ -850,6 +885,22 @@ function Publish-Agents {
                 $agentId = Get-AgentIdBySchemaName -dataverseUrl $DataverseUrl -accessToken $accessToken -agentSchemaName $agentSchema
 
                 if ($agentId -ne $null) {
+                    # check for sync errors
+                    if ($CheckBotSyncStatusAndProvisionBots) {
+                        $syncStatus = Check-BotSyncErrors -dataverseUrl $DataverseUrl -accessToken $accessToken -botId $agentId
+                        if (0 -eq $syncStatus) {
+                            Write-Host "Agent has sync errors. Skipping the publish process. Please check the bot: $agentId details" -ForegroundColor Red
+                            continue
+                        } elseif (2 -eq $syncStatus) {
+                            Write-Host "Agent synchronization is still in progress. reprovisioning the agent." -ForegroundColor Yellow
+                            if (Provision-Agent -dataverseUrl $DataverseUrl -accessToken $accessToken -agentId $agentId -eq $false) {
+                                Write-Host "Agent reprovisioning failed. Skipping the publish process. Please check the bot: $agentId details" -ForegroundColor Red
+                                continue
+                            }
+                        } else {
+                            Write-Host "Agent synchronization is done. Proceeding to publish." -ForegroundColor Green
+                        }
+                    }
                     # Step 4: Publish the bot
                     Publish-Agent -dataverseUrl $DataverseUrl -accessToken $accessToken -agentId $agentId
                 } else {
@@ -910,27 +961,27 @@ try {
 
 To trigger the PowerShell file, follow these steps.
 
-1. Open PowerShell _(Minimum version required - PowerShell 7)_.
-1. Go to the location where the  file is saved. _(Use the command cd \<file location\>)_.
+1. Open PowerShell _(minimum version required - PowerShell 7)_.
+1. Go to the location where you saved the file. _(Use the command cd \<file location\>)_.
 1. Trigger the installation script. _(Use command '.\Install.ps1')_.
-1. follow the instructions to sign in to Azure.
-1. After successfully logging in, you might need to authorize one more time. _(Use the **created agent user id.**)_.
+1. Follow the instructions to sign in to Azure.
+1. After you sign in, you might need to authorize one more time. _(Use the **created agent user id.**)_.
 
-Wait for the script to run completely and look for a message **Agent setup completed successfully!**
+Wait for the script to run completely and look for the message **Agent setup completed successfully!**
 
 > [!NOTE]
 > The preceding script performs these actions:
-> - Set environment variables.
-> - Verify and link connection references.
-> - Enable Power Automate flows.
-> - Publish the required Copilot agents.
-> - Publish the Dataverse solution.
+> - Sets environment variables.
+> - Verifies and links connection references.
+> - Enables Power Automate flows.
+> - Publishes the required Copilot agents.
+> - Publishes the Dataverse solution.
 
 After the script runs successfully, Expense Agent is fully configured and ready to use.
 
-### Option B: Do manual setup in Power Apps (no PowerShell)
+### Option B: Manually set up in Power Apps (no PowerShell)
 
-If you prefer not to use the PowerShell script, you can manually configure the Expense Agent through Power Apps. This process involves updating environment variables, enabling Power Automate flows, and publishing the solution.
+If you don't want to use the PowerShell script, you can manually configure the Expense Agent through Power Apps. This process involves updating environment variables, enabling Power Automate flows, and publishing the solution.
 
 #### Update environment variables
 
@@ -955,6 +1006,7 @@ The Expense Agent relies on the following Power Automate flows:
 - Get expense outlook folder
 - Generate expense report
 - Send expense report adaptive card
+- Auto match expenses
 - Process emails
 - Extract unattached receipt IDs for copilot invocation
 - Extract unattached receipt output using Dataverse plugin
@@ -963,18 +1015,19 @@ The Expense Agent relies on the following Power Automate flows:
 - Identify project IDs
 - User calendar events
 - Process expense report using copilot
+- Invoke expense agent for receipt processing
 
 To enable the flows, follow these steps.
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/), and select your environment.
 1. Select **My Flows**.
-1. For each of the 13 flows in the previous list, follow these steps:
+1. For each of the 15 flows in the previous list, follow these steps:
 
     1. Find the flow.
     1. Select **Edit**.
     1. Switch to the **Old Designer** view by turning off the **New Designer** option.
     1. Authenticate any required connections (until green check marks appear).
-    1. Select **Continue**, and then select **Save**.
+    1. Select **Continue**, then select **Save**.
     1. Select **Turn On** to enable the flow.
 
 #### Publish the solution
@@ -985,11 +1038,11 @@ After you finish configuring all environment variables and flows, follow these s
 1. Select your environment and solution.
 1. Select **Publish all customizations**.
 
-After you complete these steps, the Expense Agent is fully configured and ready to use.
+When you complete these steps, the Expense Agent is fully configured and ready to use.
 
 ### Step 6: Enable the Expense Agent in Microsoft Teams (Optional)
 
-To enable Teams-based communication for the Expense Agent, you must add the Teams channel to the agent in Power Apps. The agent can then send adaptive cards and receive input via Teams.
+To enable Teams-based communication for the Expense Agent, add the Teams channel to the agent in Power Apps. The agent can then send adaptive cards and receive input via Teams.
 
 #### Enable the Teams channel
 
@@ -1018,7 +1071,7 @@ To configure Teams app availability, follow these steps.
 To publish the app in the Teams admin center, follow these steps.
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/).
-1. Go to teams app > Manage apps. Search for expense and select "Expense Entry Agent" app where App status is blocked.
+1. Go to **teams app > Manage apps**. Search for "expense" and select **Expense Entry Agent** app where App status is blocked.
 1. Select **Publish** to unblock the app. Once publish action is completed successfully, ensure that App status changes to unblocked.
 
 Learn more in [Connect and configure an agent for Teams and Microsoft 365](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams).
@@ -1032,9 +1085,9 @@ With these steps completed, your **Expense Agent** is now fully set up and ready
 
 To **uninstall** the Expense Agent, follow these steps.
 
-1. Sign in to Microsoft Power Apps maker portal
+1. Sign in to Microsoft Power Apps maker portal.
 1. Select **Solutions**, search for **msdyn_ExpenseAI**, select the three dots, and select **Delete**.
-1. Similarly search for **msdyn_FnOCopilotAnchor** and delete the solution.
+1. Search for **msdyn_FnOCopilotAnchor** and delete the solution.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

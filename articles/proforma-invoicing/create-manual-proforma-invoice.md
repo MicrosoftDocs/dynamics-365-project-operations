@@ -2,12 +2,12 @@
 title: Proforma invoices
 description: This article provides information about proforma invoices in Project Operations.
 author: suvaidya
-ms.date: 06/10/2024
+ms.date: 09/24/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template 
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: abriccetti
 ---
 
 # Proforma invoices
@@ -20,6 +20,9 @@ Proforma invoicing gives project managers a second level of approval before they
 ## Creating project invoices
 
 Project invoices can be created one at a time or in bulk. You can create them manually, or they can be configured so that they are generated in automated runs.
+
+> [!NOTE]
+> You can configure this process to run in the background [using notifications](long-running-jobs.md).
 
 ### Manually create project invoices 
 
