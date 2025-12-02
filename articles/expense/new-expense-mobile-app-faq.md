@@ -2,7 +2,7 @@
 title: Dynamics 365 expense management mobile app FAQ
 description: This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 02/04/2025
+ms.date: 012/02/2025
 ms.topic: faq
 ms.custom: 
   - bap-template
@@ -60,7 +60,7 @@ The **Mobile Experiences** channel within the [Project Operations Discussions](h
 
 ## Can I customize or extend the Expense mobile app?
 
-While it is technically possible to extend or customize the Expense mobile app, we strongly recommend in not doing so. Customizations or extensions are likely to break whenever the app is updated because updates often include new features, enhancements, and bug fixes that may not be compatible with your changes. This means any customizations would need to be redone after every update, adding significant maintenance overhead. Keeping your app updated ensures you always have access to the latest functionality, security improvements, and performance enhancements. Customizations can prevent you from benefiting from these updates and may lead to unexpected issues.
+While it is technically possible to extend or customize the Expense mobile app, we strongly recommend not doing so. Customizations or extensions are likely to break whenever the app is updated because updates often include new features, enhancements, and bug fixes that may not be compatible with your changes. This means any customizations would need to be redone after every update, adding significant maintenance overhead. Keeping your app updated ensures you always have access to the latest functionality, security improvements, and performance enhancements. Customizations can prevent you from benefiting from these updates and may lead to unexpected issues.
 
 
 
