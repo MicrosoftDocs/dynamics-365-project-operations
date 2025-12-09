@@ -2,7 +2,7 @@
 title: Approvals overview
 description: This article provides information about working with approvals in Project Operations.
 author: suvaidya
-ms.date: 08/21/2025
+ms.date: 12/09/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -20,55 +20,58 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 Time, expense, and material usage submissions move through an approval workflow. After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.
 
 ## Approvals workflow
-When you create and submit a time, expense, or material usage entry, an approval record is created. The project approver or manager reviews and approves the entry. If the entry is related to a project, the actuals will be created when it's approved. This allows the cost and billing to be tracked. These records can be found in the *Approvals* view under the *Projects* area of the sitemap. Here there are different views for the different types of approvals as well as past approvals.
+
+When you create and submit a time, expense, or material usage entry, you also create an approval record. The project approver or manager reviews and approves the entry. If the entry is related to a project, the actuals are created when you approve it. This process lets you track the cost and billing. You can find these records in the *Approvals* view under the *Projects* area of the sitemap. Here, you can see different views for the different types of approvals and past approvals.
 
 > [!NOTE]
-> For time approvals there is a time phased grid available where one weeks worth of time approvals (past or pending) can be viewed at a time, summarized similar to the time entry grid. To use this view enable the "Time Phased Approvals" feature from the feature control menu and select *Calendar view for time approvals* from the view selector.
+> For time approvals, a time phased grid is available where you can view one week's worth of time approvals (past or pending) at a time, summarized similar to the time entry grid. To use this view, enable the "Time Phased Approvals" feature from the feature control menu and select *Calendar view for time approvals* from the view selector.
 
 ## Approve an entry
+
 The **Approvals** page allows you to switch between different views so that you can view the different types of approvals.
   
 1. Go to the **Approvals** page and select **Expenses**, **Time**, **Material Usage**, or **Recalls**.
-2. Review each approval, and select the ones you want to approve.
-3. Select **Approve** to approve the selected entries.
+1. Review each approval, and select the ones you want to approve.
+1. Select **Approve** to approve the selected entries.
 The system processes these entries and creates actuals.
 
 > [!NOTE]
 > Approval actions (approve, reject, cancel) must be completed by selecting the appropriate action button on the ribbon, or by using the [process project approval sets API](dev-programmatic-approvals.md). You can't complete them by directly updating the Record Stage on the Project Approval record.
 
 ## Reject an entry
-As the Project approver, you may have to send an entry back to a user for correction.
+
+As the project approver, you might need to send an entry back to a user for correction.
   
-1. Go to the **Approvals** page and select the entry to reject. 
-2. Select **Reject**.
-3. Optional, add a comment in the **Rejection Comments** dialog box to inform the user why the entry is being rejected.
-4. Select **OK**. The entry will be returned to the user.
+1. Go to the **Approvals** page and select the entry to reject.
+1. Select **Reject**.
+1. Optional, add a comment in the **Rejection Comments** dialog box to inform the user why the entry is being rejected.
+1. Select **OK**. The entry is returned to the user.
   
 ## Cancel approval
-In some cases, you might need to cancel a previously approved entry. When an approval is canceled, any Actuals that were created when it was originally approved are negated. Due to this, canceling a previously approved entry has a financial impact. 
 
-## Approving recall requests
-In some cases, a consultant may need to recall a previously approved entry. Approving a recall request is like canceling a previously approved entry. The project approver is required to approve the recall to reverse the transaction in Actuals.
+In some cases, you might need to cancel a previously approved entry. When you cancel an approval, you negate any actuals that you created when you originally approved the entry. Due to this action, canceling a previously approved entry has a financial impact.
+
+## Approve recall requests
+
+In some cases, a consultant might need to recall a previously approved entry. Approving a recall request is like canceling a previously approved entry. The project approver must approve the recall to reverse the transaction in actuals.
 
 > [!NOTE]
-> Depending on the view, some actions (approve, reject, or cancel) may not appear on the ribbon.
+> Depending on the view, some actions (approve, reject, or cancel) might not appear on the ribbon.
 
 ## Specify Project approvers
+
 Each project has a number of project team members. You can specify which team members are also Project approvers.
 
 1. Go to the **Projects** page and open the project from the list.
-2. On the **Team** tab, select the team member who will be a Project approver and then select **Edit**.
-3. Set the **Project Approver** field to **Yes**.
-4. Select **Save**.
-5. Repeat steps 2-4 to add more Project approvers.
+1. On the **Team** tab, select the team member who is a Project approver and then select **Edit**.
+1. Set the **Project Approver** field to **Yes**.
+1. Select **Save**.
+1. Repeat steps 2-4 to add more Project approvers.
 
 ## Configure the user's manager
 
 1. Go to **Settings** > **Security** > **Users**.
-2. Select the user to whom you are assigning a manager and in the **Organization Information** area, select the manager from the list. 
-3. Select **Save**.
-
-
-
+1. Select the user to whom you want to assign a manager. In the **Organization Information** area, select the manager from the list.
+1. Select **Save**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
