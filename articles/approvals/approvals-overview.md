@@ -20,7 +20,10 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 Time, expense, and material usage submissions move through an approval workflow. After the entries are approved, transactions are recorded in actuals or time is booked in the schedule.
 
 ## Approvals workflow
-When you create and submit a time, expense, or material usage entry, an approval record is created. The project approver or manager reviews and approves the entry. If the entry is related to a project, the actuals will be created when it's approved. This allows the cost and billing to be tracked.
+When you create and submit a time, expense, or material usage entry, an approval record is created. The project approver or manager reviews and approves the entry. If the entry is related to a project, the actuals will be created when it's approved. This allows the cost and billing to be tracked. These records can be found in the *Approvals* view under the *Projects* area of the sitemap. Here there are different views for the different types of approvals as well as past approvals.
+
+> [!NOTE]
+> For time approvals there is a time phased grid available where one weeks worth of time approvals (past or pending) can be viewed at a time, summarized similar to the time entry grid. To use this view enable the "Time Phased Approvals" feature from the feature control menu and select *Calendar view for time approvals* from the view selector.
 
 ## Approve an entry
 The **Approvals** page allows you to switch between different views so that you can view the different types of approvals.
