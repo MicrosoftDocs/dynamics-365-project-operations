@@ -9,7 +9,7 @@ ms.date: 12/25/2025
 ms.custom:
   - bap-template
 ---
-# Overview
+# How the project group, categories, and line property determines project postings
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
