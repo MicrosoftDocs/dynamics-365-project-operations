@@ -5,7 +5,7 @@ author: ryansandness
 ms.author: ryansandness
 ms.reviewer: johnmichalak
 ms.topic: how-to
-ms.date: 12/25/2025
+ms.date: 12/12/2025
 ms.custom:
   - bap-template
 ---
@@ -15,7 +15,7 @@ _**Applies To:** Project Operations for manufacturing-based scenarios_
 
 Project Operations offers robust capabilities for capturing cost and revenue associated with projects. Project postings are the financial results driven from the business processes such as posting a packing slip or processing revenue recognition. These results are driven by a combination of:
 
-- The project transaction type (hour, expense, item, fee)
+- The project transaction type (hour, expense, item, fee, and on-account)
 - Project categories and their category group
 - Project group configuration
 - Line properties
@@ -56,7 +56,6 @@ Shared categories are a parent grouping of project categories that can be shared
 
 With the 10.0.47 release, there's a new feature that lets you create a category and group for on-account type transactions. Within Feature management, the Enable project categories for on-account transactions feature is now available. New functionality enabled by this feature includes:
 
-- New transaction categories created in Dataverse now have a fifth category and group available to be configured.
 - Project management and accounting parameters have a new default setting to default the category for on-account transactions. This default applies to both retainers and milestone transactions.
 - The Category groups form now allows you to configure groups of type on-account.
 - The Project categories form now allows you to configure a category of type on-account.
@@ -105,14 +104,15 @@ Internal – No revenue, but costs can be capitalized (for example, investment p
 | Group/Rule | Line property Capitalization | Resulting Posting layer |
 |---|---|---|
 | Fixed price – Balance | Yes | Balance sheet |
-| Fixed price – Balance | No | P/L |
-| Fixed price – P/L | Yes | P/L |
-| Fixed price – P/L | No | P/L |
+| Fixed price – Balance | No | P&L |
+| Fixed price – P/L | Yes | P&L |
+| Fixed price – P/L | No | P&L |
 | Time and material – Balance | Yes | Balance sheet |
-| Time and material – Balance | No | P/L |
-| Time and material – P/L | Yes | P/L |
-| Time and material – P/L | No | P/L |
+| Time and material – Balance | No | P&L |
+| Time and material – P/L | Yes | P&L |
+| Time and material – P/L | No | P&L |
 | Investment | Yes | Balance sheet |
+| Investment | No  | P&L |
 
 ## Revenue Recognition Elimination
 
