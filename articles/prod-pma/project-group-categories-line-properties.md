@@ -1,6 +1,6 @@
 ---
 title: How project groups, categories, and line properties determine project posting
-description: This article describes project posting setup and the impact on posting and reporting from groups, categories, and line properties
+description: This article describes project posting setup and the effect on posting and reporting from groups, categories, and line properties
 author: ryansandness
 ms.author: ryansandness
 ms.reviewer: johnmichalak
@@ -9,32 +9,32 @@ ms.date: 12/12/2025
 ms.custom:
   - bap-template
 ---
-# How the project group, categories, and line property determines project postings
+# How the project group, category, and line property determines project postings
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
-Project Operations offers robust capabilities for capturing cost and revenue associated with projects. Project postings are the financial results driven from the business processes such as posting a packing slip or processing revenue recognition. These results are driven by a combination of:
+Project Operations offers robust capabilities for capturing cost and revenue associated with projects. Project postings are the financial results driven from the business processes such as posting a packing slip or processing revenue recognition. These results are determed through a combination of:
 
-- The project transaction type (hour, expense, item, fee, and on-account)
+- The project transaction type (hour, expense, item, fee, or on-account)
 - Project categories and their category group
 - Project group configuration
 - Line properties
-- Configuration and set up
+- Other configuration
 
 This article explains how these settings work together to determine:
 
 Which ledger accounts are used
-Whether postings impact the profit and loss (P&L) or balance sheet (WIP) on your financials
-When revenue is accrued ahead of invoicing
-Whether costs are capitalized or expensed
+<br> Whether postings affect the profit and loss (P&L) or balance sheet (WIP) on your financials
+<br> When revenue is accrued ahead of invoicing
+<br> Whether costs are capitalized or expensed
 
 ## Project transaction types
 
 Five predefined transactions types are supported in Project management and accounting:
 
-- Hour – Transactions are linked to the financial compensation of project workers, such as consulting, installation, or design.
+- Hour – Transactions are linked to the use of project workers, delivering services such as consulting, installation, or design.
 
-- Expense – Transactions are associated with a project, unless the transactions are related to items or costs. Examples include travel expenses or vendor services.
+- Expense – Transactions are expenses associated with a project, unless the transactions are related to items or costs. Examples include travel expenses or vendor services.
 
 - Item – Transactions are linked to items that are purchased for resale, and to items that are consumed in a project, such as when a customer purchases a new computer for the project through the company.
 
@@ -46,7 +46,7 @@ Five predefined transactions types are supported in Project management and accou
 
 You can categorize revenue and expenses on projects to control posting to the general ledger, and for detailed reporting and analysis. By categorizing expenses and revenues separately from the general ledger, project managers can get more details about project performance.
 
-Category groups are the first thing to setup when categorizing a set of similar transactions of a specific type. Category groups let you share properties, primarily posting profiles, between related categories. At least one category group must be created for each transaction type, and each project category must be assigned a category group. Because project categories are assigned to a single group, they're associated with the same transaction type as the category group. You can set up category groups by going to Project management and accounting > Setup > Categories > Category groups.
+Category groups are the first thing to set up when categorizing a set of similar transactions of a specific type. Category groups let you share properties, primarily posting profiles, between related categories. At least one category group must be created for each transaction type, and each project category must be assigned a category group. Because project categories are assigned to a single group, they're associated with the same transaction type as the category group. You can set up category groups by going to Project management and accounting > Setup > Categories > Category groups.
 
 Project categories are the basic grouping for project transactions. Individual project categories can have unique cost and revenue accounts and be used to differentiate between travel expenses related to hotels, and travel expenses related to mileage. When you enter a project category on a transaction line, the category selection is limited to the categories that are set up and linked to this transaction type. For example, when an expense transaction is entered, only expense categories are available. You can set up categories by going to Project management and accounting > Setup > Categories > Project categories.
 
@@ -65,11 +65,11 @@ With the 10.0.47 release, there's a new feature that lets you create a category 
 
 ## Project Groups
 
-Your project could be an internal project tracking costs only, or it could be a revenue generating project. The different project types are discussed more in [Create Projects](/dynamics365/project-operations/prod-pma/overview-project-management-accounting). Project groups provide the ability to determine many of the fundamental accounting rules of how the project financials should be generated for a given project type. For hour, expense, item, and on-account transactions, you can choose to post transactions to either Profit and loss or Balance accounts. In certain cases, you can also choose not to post hour transactions.
+Your project could be an internal project tracking costs only, or it could be a revenue generating project. The different project types are discussed more in [Create Projects](/dynamics365/project-operations/prod-pma/overview-project-management-accounting). Project groups determine many of the fundamental accounting rules of how the project financials should be generated for a given project type. For hour, expense, item, and on-account transactions, you can choose to post transactions to either Profit and loss or Balance accounts. In certain cases, you can also choose not to post hour transactions.
 
 Every project must belong to a project group. Therefore, you must set up at least one project group when you set up Project management and accounting.
 
-A project must be assigned to a project group that was created for that type of project. If you move a project from one project group to another, and the new project group was created for a different project type, the project is automatically changed to the new type.
+A project must be assigned to a project group that was created for that type of project. If you move a project from one project group to another, and the new project group was created for a different project type, the project changes to the new type.
 
 After you set up a project group in the Project groups form and select its project type, you can specify several default settings for it. These settings include transaction line properties, on-account invoice posting, journalizing, and cost and revenue accounts.
 
@@ -98,7 +98,7 @@ The **Capitalize cost** setting on line properties plays a crucial role in how p
 Typical line property examples:
 
 Chargeable – Billable, accrue revenue, capitalize cost
-Non‑chargeable – Not billable, no revenue, direct P&L
+Nonchargeable – Not billable, no revenue, direct P&L
 Internal – No revenue, but costs can be capitalized (for example, investment projects)
 
 | Group/Rule | Line property Capitalization | Resulting Posting layer |
@@ -116,7 +116,7 @@ Internal – No revenue, but costs can be capitalized (for example, investment p
 
 ## Revenue Recognition Elimination
 
-For fixed-price and investment type projects, whether or not the project is eliminated can determine posting behavior. If the project is a balance sheet type project, but the project has already been eliminated then any new postings to the project will post directly to profit and loss.
+For fixed-price and investment type projects, whether or not the project is eliminated determines posting behavior. If the project is a balance sheet type project, but the project was eliminated then any new postings to the project post directly to profit and loss.
 
 ## How project groups, categories, and line properties work together
 
@@ -130,8 +130,8 @@ When you post a project transaction (for example, an hour journal or item requir
 
 3. Apply line property rules
    - Chargeable = invoicing behavior
-   - Accrue revenue = use accrued revenue accounts which will generate an additional accounting record on transaction posting.
-   - Capitalize cost = post to WIP accounts to override project group
+   - Accrue revenue = use accrued revenue accounts, which generate another accounting record on transaction posting.
+   - Capitalize cost = post to WIP accounts which overrides the project group
 
 4. Select main accounts. Evaluate posting rules using ledger posting setup using:
    - Project / project group
