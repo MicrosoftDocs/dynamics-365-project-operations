@@ -1,6 +1,6 @@
 ---
 title: Enable Investment Projects in Dynamics 365 Project operations integrated with ERP
-description: This topic provides information about the accounting options for billable projects.
+description: This topic provides guidance on how to manage investment projects within Dynamics 365 Project Operations when integrated with ERP systems. It covers the end-to-end process, including project creation, financial management, synchronization between Project Operations and Finance, transaction processing, revenue recognition, and asset capitalization.
 author: mukumarm
 ms.date: 12/12/2025
 ms.topic: article
@@ -12,12 +12,12 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations integrated with ERP_
 
-Investment projects in integrated deployments (Dynamics 365 Project Operations + Finance) enable organizations to track, 
-capitalize, and manage costs for internal initiatives—such as infrastructure development or R&D—that result in long-term assets. 
-The integrated approach ensures seamless data flow, compliance, and accurate financial treatment across project and ERP systems.
+Enabling investment projects in **Dynamics 365 Project Operations** integrated with ERP systems allows organizations to manage capital-intensive initiatives, such as infrastructure upgrades or asset acquisitions, with full financial control and compliance. When an investment project is created in Project Operations, a corresponding project is automatically established in **Dynamics 365 Finance** and marked as an investment project.
+
+This feature streamlines the lifecycle of **investment projects**, from initial planning to asset capitalization, supporting robust financial management and operational efficiency across integrated ERP environments.
 
 ## Prerequisites
-To use the functionality, in Dataverse, activate the **Enable investment project for Project Operations integrated with ERP.** feature.
+To use the functionality, in **Dynamics 365 Finance**, activate the **Enable investment project for Project Operations integrated with ERP** feature.
 
 ### Minimum versions required
 To use the feature for **Dynamics 365 Project Operations integrated with ERP scenarios**, you must have the following versions:
@@ -29,7 +29,7 @@ To use the feature for **Dynamics 365 Project Operations integrated with ERP sce
 
 | Required dual-write map | Required version | Initial synchronization |
 |---|---|---|
-| Projects V2 (msdyn_projects) | 1.0.0.4 | Not applicable |
+| Projects V2 (msdyn_projects) | 1.0.0.3 | Not applicable |
 
 ## Investment project
 Users can create projects and designate them as investment projects in **Dynamics 365 Project operations**. This classification differentiates investment projects from other types (fixed price, time & material) and triggers specific system behaviors.
@@ -90,7 +90,7 @@ To create an **Project cost and revenue profile rule** for the Investment projec
 The revenue recognition project linked to an investment project is used to execute periodic processes that assess the percentage of completion and transfer costs from the Profit and Loss account to the Balance Sheet (Work in Progress accounts). 
 For revenue recognition, you can configure whether the project’s **work in progress costs** are transferred to a **ledger account** or to a **fixed asset** as part of the **elimination** process.
 
-#### Periodic process
+#### Calculate and post revenue recognition
 To link the **revenue recogntion project** with a **ledger account** or **fixed asset** during an elimination, do the following:
 
 1. Go to **Dynamics 365 Finance** > **Project management and accounting** > **Projects** > **All reveneue recognition projects**.
