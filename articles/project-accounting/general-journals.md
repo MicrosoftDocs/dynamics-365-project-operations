@@ -1,9 +1,9 @@
 ---
-title: Use general journals for advanced accounting (preview)
+title: Use general journals for advanced accounting
 description: Learn more about using general journals and record various financial transactions directly into the general ledger.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 08/04/2025
+ms.date: 12/11/2025
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -14,9 +14,23 @@ ms.reviewer: johnmichalak
 # Use general journals for advanced accounting (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 General journals are the all-purpose accounting feature in Microsoft Dynamics 365 Finance. This document allows recording of various financial transactions directly into the general ledger (GL). Common uses include daily accounting entries, adjustments, and integrations from external systems.
+
+## 10.0.46 Feature Enhancements
+
+This feature is now generally available (GA) starting with the 10.0.46 release. Enhancements in the GA include:
+
+- Increased journal line limit increased to 200 lines from 50 lines. Journals larger than 200 lines will error on posting that "A maximum of 200 project-based lines are supported" and ask the user to reduce the number of lines.
+- Introduced asynchronous processing in transferring the journals to Dataverse.
+  - There is a new process automation named **Project Operations create and confirm Dataverse journals** that is configured with a 5 minute interval to transfer the journal lines to Dataverse, and to send the confirmation in Dataverse when the journal is transferred and ready to confirm.
+- The Project Operations Integration workspace is used for tracking any transient communication errors with Dataverse after the first attempt to confirm in Dataverse fails. A new tab for General journal Dataverse sync has been added.
+  - After five attempts, any further retries require manual intervention from the user to click **Sync** to resume retrying the sync and confirmation.
+- The Dataverse journal will be read-only to users during processing and prevent users from changing or confirming the integrated journal.
+
+## 10.0.45 Preview
 
 In the 10.0.45 release, a new preview feature is available that enables the ability to create general journals against a project originating in Dataverse. This feature is enabled from the **Feature management** workspace and is named **Enable general journal entries for modern projects**. This feature lets you specify the ledger offset account on the journal. Manual control of the offset enables you to have complete control of the accounting behind the expense. In addition, the journal framework provides many advanced capabilities such as workflow and approvals.
 
@@ -57,8 +71,10 @@ An alternate method to entering journals is possible by enabling [One voucher](/
 ## Limitations
 
 - Using a cost currency that's different from the project currency requires the UR60 release of Project Operations. Without this update installed, the currency may be posted differently in the Dataverse journal from what was posted in the PMA journal.
-- Journals are limited to 50 project-related lines in the client.
+- Journals are limited to 200 project-related lines in the client. Previously this limitation was at 50 lines as of 10.0.45. We still generally recommend using smaller journals to post if possible for optimal performance of synchronization and availibility in Dataverse, like during period end close.
 - Contract lines with multiple customers aren't considered. These sales lines might not generate unbilled sales correctly without the contract customer defined on the Dataverse journal line.
 - Both modern projects and Project Management and Accounting (PMA) projects can't be used in the same journal when customers have previous projects and are [transitioning to using the modern architecture.](../prod-pma/move-to-modern-architecture.md)
+- If posting multiple journals concurrently, we recommend to avoid using the same projects in multiple journals when possible and limit journal size to avoid table locking on Dataverse entities where the same project updates cause agreggate totals to be updated and cause locks. The retry logic will eventually handle this scenario, but can introduce delay in confirming the journal and generating Dataverse actuals.
+- The process automation lags slighly in knowing if the journal has been confirmed in Dataverse or not. Check for a confirmed journal or the existinence of the actuals from the journal in Dataverse to know if the transaction has been fully synced or not. The integration tracking in Dynamics 365 Finance only checks for updates on posted status at the start of every process automation recurrence.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

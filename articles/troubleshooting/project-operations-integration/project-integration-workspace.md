@@ -2,7 +2,7 @@
 title: Project Operations integration workspace
 description: Learn about the Project Operations integration workspace, which helps identify and address integration challenges that are related to vendor invoices and expenses.
 author: mukumarm
-ms.date: 02/15/2025
+ms.date: 02/10/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -120,7 +120,9 @@ To use the batch job, you must use the following dual-write map versions.
 
 ## Use the Troubleshoot tab
 
-The **Troubleshoot** tab shows a list of error messages that users encountered during the **Import from staging** or **Project integration journal** posting processes. This tab helps you identify the root cause of any logged issues, so you can make the necessary corrections. Previously, any error messages encountered in the **Project integration journal** weren't stored anywhere other than in the **Action Center** and **Infolog**. Once the feature is enabled, errors are logged into a permanent table so they can be reviewed, filtered, grouped, and better analyzed. 
+The **Troubleshoot** tab shows a list of error messages that users encountered during the **Import from staging** or **Project integration journal** posting processes. This tab helps you identify the root cause of any logged issues, so you can make the necessary corrections. Previously, any error messages encountered in the **Project integration journal** weren't stored anywhere other than in the **Action Center** and **Infolog**. Once the feature is enabled, errors are logged into a permanent table so they can be reviewed, filtered, grouped, and better analyzed.
+
+Additionallly, the **General journal Dataverse sync** tab indicates retries or errors with the [General journals](../../project-accounting/general-journals.md) feature. Do the the asychronous nature of the integration, the need to retry this process is expected. The information is logged here to indicate that Dataverse may not yet be updated with the journal details yet. Users can **Sync** to retry the sychronization of journal lines and confirmation of the Dataverse journal after five attempts. Deleting the troubleshooting log will also result in retrying the synchronization.
 
 > [!NOTE]
 > Only a subset of errors are logged to the workspace at this time. Read further for more details on error messages that are included. This list of errors and covered scenarios will grow over time.
@@ -139,6 +141,6 @@ A subset of error messages have been added into the workspace, and more errors m
 | No open fiscal period was found for the specified accounting date 11/20/2024. | The specified fiscal period wasn't open for posting the integration journal.   | In **Ledger calendars**, open the specified period for posting and try posting again. <br> <br> Alternatively, your organization can enable a parameter in **Project management and accounting parameters** in the **Financial** tab to **Automatically set accounting date to open ledger**. This moves the posting to the next open period.|
 | No open fiscal period was found in or after the specified accounting date 11/20/2024. | The specified fiscal period wasn't open for posting the integration journal and no future period was open to move the transaction into.   | In **Ledger calendars**, open the specified period or a future period for posting and try posting again. |
 | Integration journal (USPM-000041): Line with RecId (12345) and Voucher (USPM-000051) failed to post due to (Reason).  |Depending on the error, this can be specific or generic. You may see a generic error from this message but a second error more specific for the same journal line.| Look for any hints based on the reason at the end of the error message, or look for other errors.|
-
+|Failed to sync journal header USPM-015270 to Dataverse. Manual synch required at count 5. Count 4.  |This warning indicates that Dynamics 365 Finance is not aware of the journal in Dataverse being confirmed yet and it will check the status and attempt again on the next retry. | If you see the journal is posted already posted in Dataverse, no action is required. If the journal is not yet confirmed in Dataverse, the process automation for **Project Operations create and confirm Dataverse journals**  will attempt to sync and confirm on the next retry, but this may require multiple attempts for large journals.|
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
