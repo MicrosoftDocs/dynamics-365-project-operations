@@ -2152,6 +2152,8 @@
       href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
+    - name: Enable investment projects
+      href: project-accounting/project-operations-investment-project.md
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
     - name: Use general journals for advanced accounting
