@@ -25,34 +25,30 @@ Project Operations provides robust capabilities for capturing costs and revenue 
 
 This article explains how these settings work together to determine:
 
-- Which ledger accounts to use
-- Whether postings affect the profit and loss (P&L) or balance sheet (WIP) on your financials
-- When revenue accrues ahead of invoicing
-- Whether costs are capitalized or expensed
+- Which ledger accounts to use.
+- Whether postings affect the profit and loss (P&L) or balance sheet (WIP) on your financials.
+- When revenue accrues ahead of invoicing.
+- Whether costs are capitalized or expensed.
 
 ## Project transaction types
 
 Project management and accounting supports five predefined transaction types:
 
 - Hour – Link transactions to the use of project workers, delivering services such as consulting, installation, or design.
-
 - Expense – Associate transactions with expenses for a project, unless the transactions relate to items or costs. Examples include travel expenses or vendor services.
-
 - Item – Link transactions to items that you purchase for resale, and to items that you consume in a project, such as when a customer purchases a new computer for the project through the company.
-
 - Fee – Associate fixed revenues with a Time and material project, such as a bonus for the early delivery of a project blueprint plan and budget.
-
 - On-account - Represent prepayments for either a Fixed-price or Time and material project or scheduled payments for a Fixed-price projects.
 
 ## Project categories and groups
 
-You can categorize revenue and expenses on projects to control posting to the general ledger, and for detailed reporting and analysis. By categorizing expenses and revenues separately from the general ledger, project managers can get more details about project performance.
+You can categorize revenue and expenses on projects to control posting to the general ledger, and for detailed reporting and analysis. By categorizing expenses and revenues separately from the general ledger, Project Managers can get more details about project performance.
 
 Set up category groups when categorizing a set of similar transactions of a specific type. Category groups let you share properties, primarily posting profiles, between related categories. Create at least one category group for each transaction type, and assign each project category to a category group. Because project categories are assigned to a single group, they're associated with the same transaction type as the category group. Set up category groups by going to **Project management and accounting > Setup > Categories > Category groups**.
 
 Project categories are the basic grouping for project transactions. Individual project categories can have unique cost and revenue accounts and be used to differentiate between travel expenses related to hotels, and travel expenses related to mileage. When you enter a project category on a transaction line, the category selection is limited to the categories that are set up and linked to this transaction type. For example, when an expense transaction is entered, only expense categories are available. Set up categories by going to **Project management and accounting > Setup > Categories > Project categories**.
 
-Shared categories are a parent grouping of project categories that you can share across applications and modules. Microsoft Dynamics 365 uses the shared categories concept to categorize expenses in different applications, such as Microsoft Dynamics 365 Finance, Microsoft Dynamics 365 Supply Chain, and Project Operations. A shared category must exist before you can create a project category in any consuming legal entity. Review and adjust the shared categories by going to **Project management and accounting > Setup > Categories > Shared Categories**.
+Shared categories are a parent grouping of project categories that you can share across applications and modules. Microsoft Dynamics 365 uses the shared categories concept to categorize expenses in different applications, such as Microsoft Dynamics 365 Finance, Microsoft Dynamics 365 Supply Chain Management, and Project Operations. A shared category must exist before you can create a project category in any consuming legal entity. Review and adjust the shared categories by going to **Project management and accounting > Setup > Categories > Shared Categories**.
 
 ## New functionality to allow categories on on-account type transactions
 
@@ -76,9 +72,7 @@ A project must be assigned to a project group that you created for that type of 
 After you set up a project group in the Project groups form and select its project type, you can specify several default settings for it. These settings include transaction line properties, on-account invoice posting, journalizing, and cost and revenue accounts.
 
 - Invoicing – Determine whether on-account invoices for Time and material and Fixed-price projects are posted to revenue accounts or work-in-process (WIP) accounts.
-
 - Journalizing – Indicate whether hour costs, expense costs, and item costs should be posted to Profit and loss accounts or Balance accounts, or not posted. When you post transactions in the respective transaction, the system performs a check to ensure that a ledger account is available, and that the account is the appropriate type.
-
 - Cost accounts and Revenue accounts – Specify whether a specific ledger account applies in every situation and to every project in this group. If more flexibility is required, you can set up ledger posting at the category level or project level.
 
 After you assign a project to a project group, you can't change the options that are defined for ledger updates in the project groups.
@@ -92,7 +86,6 @@ The key settings in line properties include the setting for if chargeable or not
 The purpose of the line property depends on the project type:
 
 - Fixed-price and investment projects – The line property affects only whether the cost amount is capitalized as a fixed asset.
-
 - Time and material projects – The line property controls whether transactions are chargeable or nonchargeable, whether the sales amount is accruable or nonaccruable, and whether the cost amount is capitalized as a fixed asset.
 
 The **Capitalize cost** setting on line properties plays a crucial role in how project-related costs are treated in accounting, especially in terms of asset capitalization versus expense recognition.
