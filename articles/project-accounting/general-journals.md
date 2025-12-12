@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Use general journals for advanced accounting (preview)
+# Use general journals for advanced accounting
 
 [!INCLUDE[banner](../includes/banner.md)]
 
