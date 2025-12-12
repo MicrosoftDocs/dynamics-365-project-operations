@@ -2,7 +2,7 @@
 title: Project Operations integration workspace
 description: Learn about the Project Operations integration workspace, which helps identify and address integration challenges that are related to vendor invoices and expenses.
 author: mukumarm
-ms.date: 02/10/2025
+ms.date: 12/12/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
